@@ -27,5 +27,5 @@ To break the lease, please use the PowerShell commands below.
 
 * [Break lease for ARM blobs](https://gallery.technet.microsoft.com/How-to-break-the-locked-d01ba283)
 * [Break lease for classic blobs](https://gallery.technet.microsoft.com/How-to-break-the-locked-c2cd6492)
-* [Command reference for lease release](https://docs.microsoft.com/en-us/cli/azure/storage/blob/lease?view=azure-cli-latest#az-storage-blob-lease-release)
-* [Command reference for lease break](https://docs.microsoft.com/en-us/cli/azure/storage/blob/lease?view=azure-cli-latest#az-storage-blob-lease-break)
+* [Command reference for lease release](https://docs.microsoft.com/cli/azure/storage/blob/lease?view=azure-cli-latest#az-storage-blob-lease-release)
+* [Command reference for lease break](https://docs.microsoft.com/cli/azure/storage/blob/lease?view=azure-cli-latest#az-storage-blob-lease-break)

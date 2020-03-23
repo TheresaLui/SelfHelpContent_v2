@@ -43,4 +43,4 @@ Close-AzStorageFileHandle -ShareName "mysharename" -Path 'dir1/dir2/test.txt' -C
 ## Recommended Documents
 
 * [Install Az PowerShell module version 2.4](https://www.powershellgallery.com/packages/Az/2.4.0)
-* [Get-AzStorageFileHandle command reference](https://docs.microsoft.com/en-us/powershell/module/az.storage/Get-AzStorageFileHandle?view=azps-2.4.0)
+* [Get-AzStorageFileHandle command reference](https://docs.microsoft.com/powershell/module/az.storage/Get-AzStorageFileHandle?view=azps-2.4.0)

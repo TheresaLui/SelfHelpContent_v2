@@ -28,4 +28,4 @@ Legal hold policy support: When the retention interval is not known, users can s
 
 ## Recommended Documents
 
-* [Store business-critical blob data with immutable storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-immutable-storage#time-based-retention-policies)
+* [Store business-critical blob data with immutable storage](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage#time-based-retention-policies)
