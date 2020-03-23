@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "89af12c2-2d66-d3da-fd5d-4337dac23c83",
+      "longDescription": "",
+      "shortDescription": "Questions regarding the customization and branding of the AAD B2C UI in your user flows",
+      "searchTags": "B2C user experience and customization ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9ccead8a-2fee-5e34-f427-c4a64a269afd",
       "longDescription": "",
       "shortDescription": "Problems linking or changing the Azure AD B2C Azure subscription used for billing.",
