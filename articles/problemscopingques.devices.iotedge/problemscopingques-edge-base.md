@@ -249,27 +249,6 @@
       "displayLabel": "Docker version",
       "watermarkText": "Paste output of `docker version` here",
       "required": false
-    },
-    {
-      "id": "problem_description",
-      "order": 11,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Description",
-      "infoBalloonText": "To get iotedged logs, edge-agent logs, and edge-hub logs, see <a href='https://docs.microsoft.com/azure/iot-edge/troubleshoot#standard-diagnostic-steps'>IoT Edge diagnostic steps</a>",
-      "watermarkText": "Please provide any additional information that may be helpful in understanding the issue. ",
-      "required": true,
-      "useAsAdditionalDetails": true,
-      "hints": [
-        {
-          "text": "Description of the issue and steps to reproduce"
-        },
-        {
-          "text": "Expected behavior and current behavior"
-        },
-        {
-          "text": "Share as many logs as possible (iotedged logs, edge-agent logs, edge-hub logs)"
-        }
-      ]
     }
   ]
 }
