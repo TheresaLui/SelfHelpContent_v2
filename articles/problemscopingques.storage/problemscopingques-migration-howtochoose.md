@@ -2,7 +2,7 @@
 	pageTitle="How to choose data migration solution"
 	description="How to choose data migration solution"
 	authors="Sijia"
-    	ms.author="siz"
+	ms.author="siz"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32631235,32632044"
 	productPesIds="15629,16459"
@@ -20,7 +20,7 @@
     "title": "How to choose data migration solution",
     "fileAttachmentHint": "",
     "formElements": [
-            {
+	{
             "id": "source_resource",
             "order": 1,
             "controlType": "dropdown",
@@ -45,7 +45,7 @@
                 },
                 {
                     "value": "managed_disks",
-                    "text": "Azure Disks (managed)"
+                    "text": "Azure Disks"
                 },
                 {
                     "value": "local_onpremise",
@@ -63,40 +63,251 @@
             "required": true
         },
 	{
-            "id": "destination_resource",
-            "order": 2,
+            "id": "account_migration_scenario",
+            "visibility": "source_resource == storage_account",
+	    "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Destination resource",
-            "watermarkText": "Select destination resource to migrate to",
+            "displayLabel": "Migration Scenario",
+            "watermarkText": "Select the applicable migration scenario",
             "dropdownOptions": [
                 {
-                    "value": "storage_account",
-                    "text": "Azure Storage Account"
+                    "value": "move_account_to_new_subId",
+                    "text": "Move storage account to another subscription"
+                },
+		{
+                    "value": "move_account_to_new_rg",
+                    "text": "Move storage account to another resource group"
+                },
+		{
+                    "value": "move_account_to_new_region",
+                    "text": "Move storage account to another region"
+                },				
+		{
+                    "value": "migrate_classic_account_to_arm",
+                    "text": "Migrate classic storage account to ARM"
+                },				
+		{
+                    "value": "upgrade_gpv1_account_to_gpv2",
+                    "text": "Upgrade GPV1 storage account to GPV2"
                 },
                 {
-                    "value": "blob",
-                    "text": "Azure Blob"
-                },
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true
+        },
+	{
+            "id": "blob_migration_scenario",
+            "visibility": "source_resource == blob",
+	    "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Migration Scenario",
+            "watermarkText": "Select the applicable migration scenario",
+            "dropdownOptions": [
                 {
-                    "value": "files",
-                    "text": "Azure Files"
+                    "value": "copy_blobs_to_blobs",
+                    "text": "Copy Azure Blobs to Azure Blobs"
                 },
+		{
+                    "value": "copy_blobs_to_files",
+                    "text": "Copy Azure Blobs to Azure Files"
+                },
+		{
+                    "value": "copy_blobs_to_adlsgen2",
+                    "text": "Copy Azure Blobs to Azure Data Lake Gen2 storage"
+                },				
+		{
+                    "value": "copy_blobs_to_localonpremise",
+                    "text": "Download Azure Blobs to Local/On-Premise"
+                },				
                 {
-                    "value": "adlsgen2",
-                    "text": "Azure Data Lake Storage Gen2"
-                },
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true
+        },
+	{
+            "id": "files_migration_scenario",
+            "visibility": "source_resource == files",
+	    "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Migration Scenario",
+            "watermarkText": "Select the applicable migration scenario",
+            "dropdownOptions": [
                 {
-                    "value": "managed_disks",
-                    "text": "Azure Disks (managed)"
+                    "value": "copy_files_to_blobs",
+                    "text": "Copy Azure Files to Azure Blobs"
                 },
+		{
+                    "value": "copy_files_to_files",
+                    "text": "Copy Azure Files to Azure Files"
+                },
+		{
+                    "value": "copy_files_to_adlsgen2",
+                    "text": "Copy Azure Files to Azure Data Lake Gen2 storage"
+                },				
+		{
+                    "value": "copy_files_to_localonpremise",
+                    "text": "Download Azure Files to Local/On-Premise"
+                },				
                 {
-                    "value": "local_onpremise",
-                    "text": "Local/On-Premise"
-                },
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true
+        },
+	{
+            "id": "adlsgen2_migration_scenario",
+            "visibility": "source_resource == adlsgen2",
+			"order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Migration Scenario",
+            "watermarkText": "Select the applicable migration scenario",
+            "dropdownOptions": [
                 {
-                    "value": "external_clouds",
-                    "text": "External Clouds (Amazon S3, GCP, etc)"
+                    "value": "copy_adlsgen2_to_blobs",
+                    "text": "Copy Azure Data Lake Gen2 files to Azure Blobs"
                 },
+		{
+                    "value": "copy_adlsgen2_to_files",
+                    "text": "Copy Azure Data Lake Gen2 files to Azure Files"
+                },
+		{
+                    "value": "copy_adlsgen2_to_adlsgen2",
+                    "text": "Copy Azure Data Lake Gen2 files to Azure Data Lake Gen2 storage"
+                },				
+		{
+                    "value": "copy_adlsgen2_to_localonpremise",
+                    "text": "Download Azure Data Lake Gen2 files to Local/On-Premise"
+                },				
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true
+        },
+	{
+            "id": "manageddisk_migration_scenario",
+            "visibility": "source_resource == managed_disks",
+	    "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Migration Scenario",
+            "watermarkText": "Select the applicable migration scenario",
+            "dropdownOptions": [
+                {
+                    "value": "copy_vhd_to_blobs",
+                    "text": "Export/Copy the VHD of a managed disk to a storage account"
+                },
+		{
+                    "value": "copy_snapshot_to_blobs",
+                    "text": "Export/Copy managed snapshots as VHD to a storage account"
+                },
+		{
+                    "value": "copy_snapshot_to_subscription",
+                    "text": "Copy snapshot of managed disk to a subscription"
+                },
+		{
+                    "value": "copy_snapshot_to_subscription",
+                    "text": "Copy managed snapshot to a subscription"
+                },				
+		{
+                    "value": "copy_vhd_to_region",
+                    "text": "Export/Copy the VHD of a managed disk to a region"
+                },				
+		{
+                    "value": "copy_snapshot_to_region",
+                    "text": "Export/Copy managed snapshots as VHD to a region"
+                },				
+		{
+                    "value": "copy_disk_to_region",
+                    "text": "Export/Copy managed disk to a region"
+                },				
+		{
+                    "value": "migrate_premium_snapshot_to_standard",
+                    "text": "Migrate a snapshot from Premium storage to Standard"
+                },				
+		{
+                    "value": "update_disk_storage_type",
+                    "text": "Change the storage type of a managed disk"
+                },				
+		{
+                    "value": "migrate_lrs_snapshot_to_zrs",
+                    "text": "Migrate a snapshot from LRS to ZRS"
+                },				
+		{
+                    "value": "convert_unmanaged_disk_to_managed",
+                    "text": "Convert a Windows virtual machine from unmanaged disks to managed disks"
+                },				
+		{
+                    "value": "copy_vhd_to_localonpremise",
+                    "text": "Download the underlying VHD of a managed disk to Local/On-Premise"
+                },				
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true
+        },
+	{
+            "id": "local_onpremise_migration_scenario",
+            "visibility": "source_resource == local_onpremise",
+	    "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "Migration Scenario",
+            "watermarkText": "Select the applicable migration scenario",
+            "dropdownOptions": [
+                {
+                    "value": "copy_from_localonpremise_to_blobs",
+                    "text": "Upload Local/On-Premise files to Azure Blobs"
+                },
+		{
+                    "value": "copy_from_localonpremise_to_files",
+                    "text": "Upload Local/On-Premise files to Azure Files"
+                },
+		{
+                    "value": "copy_from_localonpremise_to_adlsgen2",
+                    "text": "Upload Local/On-Premise files to Azure Data Lake Gen2 Storage"
+                },
+		{
+                    "value": "copy_from_localonpremise_to_disk",
+                    "text": "Upload a vhd from Local/On-Premise to Azure managed disk"
+                },				
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": true
+        },
+	{
+            "id": "external_cloud_migration_scenario",
+            "visibility": "source_resource == external_clouds",
+	    "order": 8,
+            "controlType": "dropdown",
+            "displayLabel": "Migration Scenario",
+            "watermarkText": "Select the applicable migration scenario",
+            "dropdownOptions": [
+                {
+                    "value": "copy_from_aws_s3_to_blobs",
+                    "text": "Copy files from Amazon S3 to Azure Blobs"
+                },
+		{
+                    "value": "copy_from_aws_s3_to_adlsgen2",
+                    "text": "Copy files from Amazon S3 to Azure Data Lake Gen2 Storage"
+                },
+		{
+                    "value": "copy_from_otherexternalcloud_to_blobs",
+                    "text": "Copy files from other external clouds to Azure Blobs"
+                },
+		{
+                    "value": "copy_from_otherexternalcloud_to_adlsgen2",
+                    "text": "Copy files from other external clouds to Azure Data Lake Gen2 Storage"
+                },				
                 {
                     "value": "dont_know_answer",
                     "text": "Don't know or not listed above"
@@ -106,7 +317,8 @@
         },
         {
             "id": "data_size_tb",
-            "order": 3,
+	    "visibility": "source_resource != storage_account",
+            "order": 9,
             "controlType": "dropdown",
             "displayLabel": "Estimated data size to migrate",
             "watermarkText": "Choose a data size",
@@ -150,9 +362,10 @@
             ],
             "required": false
         },
-         {
+	{
             "id": "network_bandwidth_mbps",
-            "order": 4,
+	    "visibility": "source_resource != storage_account",
+            "order": 10,
             "controlType": "dropdown",
             "displayLabel": "Approximate available network bandwidth",
             "watermarkText": "Choose a network bandwidth",
@@ -202,7 +415,8 @@
         },
         {
             "id": "transfer_frequency",
-            "order": 5,
+	    "visibility": "source_resource != storage_account",
+            "order": 11,
             "controlType": "dropdown",
             "displayLabel": "Transfer frequency",
             "watermarkText": "Choose an option",
@@ -223,15 +437,8 @@
             "required": false
         },
         {
-            "id": "problem_start_time",
-            "order": 6,
-            "controlType": "datetimepicker",
-            "displayLabel": "Approximate start time of the most recent occurrence",
-            "required": true
-        },
-        {
             "id": "problem_description",
-            "order": 7,
+            "order": 12,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
