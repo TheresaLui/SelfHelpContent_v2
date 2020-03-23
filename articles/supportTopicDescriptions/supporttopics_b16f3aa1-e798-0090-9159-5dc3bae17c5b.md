@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6b5003c0-49d5-e547-fe77-e0306130831f",
+      "longDescription": "",
+      "shortDescription": "Questions regarding the management of custom attributes for Azure AD B2C objects",
+      "searchTags": "Questions re B2C custom attributes",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "80a047a0-fe4c-9df8-33af-6aa2ed06551a",
       "longDescription": "",
       "shortDescription": "Questions regarding the privacy and consent compliance options for Azure AD B2C directories",
