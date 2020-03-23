@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "31b82d8b-a11a-9b3e-b838-03f2b0884c45",
+      "longDescription": "",
+      "shortDescription": "Questions regarding Azure AD B2C custom user policies and flows using the Identity Experience Framework (IEF)",
+      "searchTags": "troubleshooting user flows and policies",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9ccead8a-2fee-5e34-f427-c4a64a269afd",
       "longDescription": "",
       "shortDescription": "Problems linking or changing the Azure AD B2C Azure subscription used for billing.",
