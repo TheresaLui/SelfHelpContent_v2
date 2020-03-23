@@ -19,7 +19,7 @@
 
 # Cannot connect to VM using RDP
 <!--issueDescription-->
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because DHCP client service is disabled. This issue occurs if DHCP client service is disabled on the NIC in the Guest OS (Windows).
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because the DHCP client service is disabled. This issue occurs if the DHCP client service is disabled on the NIC in the Guest OS (Windows).
 <!--/issueDescription-->
 
 ## **Recommended Steps**
