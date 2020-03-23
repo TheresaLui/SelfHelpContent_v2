@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9ccead8a-2fee-5e34-f427-c4a64a269afd",
+      "longDescription": "",
+      "shortDescription": "Problems linking or changing the Azure AD B2C Azure subscription used for billing.",
+      "searchTags": "Issues Modifying B2C subscription",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ce704694-cc29-5c81-3461-6d9cb95131da",
       "longDescription": "",
       "shortDescription": "Problems regarding the b2c-extensions-app including verifying existence in app registrations blade and how to recover this required app if deleted.",
