@@ -1,15 +1,15 @@
 <properties
-	pageTitle="Issues with IoT Edge"
-	description="Scoping questions for the most generic IoT Edge problems. Basically the same set of stuff as the issue template on https://github.com/Azure/iotedge/issues"
-	authors="jlian"
-	ms.author="jlian"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32680950,32680966,32680969,32680976,32680986,32680963,32680983,32680985,32680987,32680945,32680946,32680949,32680952,32680953,32680962,32680967,32680973,32680942,32680958,32680959,32680960,32680977,32680943,32680961,32680978,32680979,32680980,32680981,32680982,32680970,32680971,32680972,32680936,32680937,32680940,32689202,32680941,32680944,32680947,32680948,32680954,32680964,32680968,32680984"
-	productPesIds="16509"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
-	schemaVersion="1"
-	articleId="04c1f45a-af94-4bba-b814-7106107ffae4"
-	ownershipId="AzureIot_IotEdge"
+  pageTitle="Issues with IoT Edge"
+  description="Scoping questions for the most generic IoT Edge problems. Basically the same set of stuff as the issue template on https://github.com/Azure/iotedge/issues"
+  authors="jlian"
+  ms.author="jlian"
+  selfHelpType="problemScopingQuestions"
+  supportTopicIds="32680950,32680966,32680969,32680976,32680986,32680963,32680983,32680985,32680987,32680945,32680946,32680949,32680952,32680953,32680962,32680967,32680973,32680942,32680958,32680959,32680960,32680977,32680943,32680961,32680978,32680979,32680980,32680981,32680982,32680970,32680971,32680972,32680936,32680937,32680940,32689202,32680941,32680944,32680947,32680948,32680954,32680964,32680968,32680984"
+  productPesIds="16509"
+  cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+  schemaVersion="1"
+  articleId="04c1f45a-af94-4bba-b814-7106107ffae4"
+  ownershipId="AzureIot_IotEdge"
 />
 # Issues with IoT Edge
 ---
@@ -19,6 +19,11 @@
   "resourceRequired": false,
   "title": "Issue with IoT Edge",
   "fileAttachmentHint": "Upload screenshots of errors if available",
+  "diagnosticCard": {
+    "title": "IoT Edge release 1.0.9 now available",
+    "description": "It is highly recommended that you upgrade to the IoT Edge 1.0.9 release.<br> It has a number of stability improvements and new troubleshooting tools. Learn more at https://aka.ms/iotedge109.",
+    "insightNotAvailableText": "We didn't find any problems"
+  },
   "formElements": [
     {
       "id": "problem_start_time",
