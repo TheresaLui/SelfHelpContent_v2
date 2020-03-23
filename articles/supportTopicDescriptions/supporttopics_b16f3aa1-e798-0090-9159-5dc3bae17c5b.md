@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "18312fe0-040a-f313-c9cf-2186a0f0c28b",
+      "longDescription": "",
+      "shortDescription": "Questions regarding the creation or deletion of Azure AD B2C user accounts.",
+      "searchTags": "Questions re B2C user accounts ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "31b82d8b-a11a-9b3e-b838-03f2b0884c45",
       "longDescription": "",
       "shortDescription": "Questions regarding Azure AD B2C custom user policies and flows using the Identity Experience Framework (IEF)",
