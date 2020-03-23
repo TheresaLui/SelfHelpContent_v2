@@ -18,7 +18,7 @@
 # Open File Handles
 
 <!--issueDescription-->
-We've researched your case and believe that your unable to delete issue is due to open file handles. This resource can not be deleted until all open file handles are closed. We now have PowerShell cmdlets for Azure Files to get the list of open file handles and to close those open file handles. The following steps will help you to resolve this issue. 
+We've researched your case and believe that your inability to delete is due to open file handles. This resource can not be deleted until all open file handles are closed. We now have PowerShell cmdlets for Azure Files to get the list of open file handles and to close those open file handles. The following steps will help you to resolve this issue. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
