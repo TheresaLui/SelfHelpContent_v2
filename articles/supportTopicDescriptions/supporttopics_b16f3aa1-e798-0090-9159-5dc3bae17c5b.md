@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ba3cf1bc-f9fd-552e-8376-fe151bde7d37",
+      "longDescription": "",
+      "shortDescription": "Questions regarding managing AAD B2C multi-factor authentication or email verificaiton in your identity experience framework user flows",
+      "searchTags": "questions re AAD B2C MFA",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c5d97c6d-8fa3-81c2-2243-54c80d902627",
       "longDescription": "",
       "shortDescription": "Quesitons regarding Azure AD B2C audit or sign in logs and reporting capabilities",
