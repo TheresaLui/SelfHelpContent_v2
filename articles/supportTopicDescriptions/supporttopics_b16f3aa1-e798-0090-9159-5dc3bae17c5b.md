@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c5d97c6d-8fa3-81c2-2243-54c80d902627",
+      "longDescription": "",
+      "shortDescription": "Quesitons regarding Azure AD B2C audit or sign in logs and reporting capabilities",
+      "searchTags": "Questions re B2C logs and reporting ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ce704694-cc29-5c81-3461-6d9cb95131da",
       "longDescription": "",
       "shortDescription": "Problems regarding the b2c-extensions-app including verifying existence in app registrations blade and how to recover this required app if deleted.",
