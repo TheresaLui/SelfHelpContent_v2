@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "80a047a0-fe4c-9df8-33af-6aa2ed06551a",
+      "longDescription": "",
+      "shortDescription": "Questions regarding the privacy and consent compliance options for Azure AD B2C directories",
+      "searchTags": "Questions re to B2C privacy and consent",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9ccead8a-2fee-5e34-f427-c4a64a269afd",
       "longDescription": "",
       "shortDescription": "Problems linking or changing the Azure AD B2C Azure subscription used for billing.",
