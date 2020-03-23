@@ -19,11 +19,11 @@
 We've researched your case and believe the issue is due to a lease existing on the blob. This lease, if not on a VHD, was something explicitly configured by you or someone in your organization for this resource. Leased blobs cannot be deleted without breaking the lease first. 
 <!--/issueDescription-->
 
-## Recommended Steps
+## **Recommended Steps**
 
-To break the lease, please use the PowerShell commands below. 
+To break the lease, please use the PowerShell commands listed in the documents below. 
 
-## Recommended Documents
+## **Recommended Documents**
 
 * [Break lease for ARM blobs](https://gallery.technet.microsoft.com/How-to-break-the-locked-d01ba283)
 * [Break lease for classic blobs](https://gallery.technet.microsoft.com/How-to-break-the-locked-c2cd6492)
