@@ -14,7 +14,9 @@
 # Connect to a VM
 ---
 {
-    "resourceRequired": true,
+    "$schema": "SelfHelpContent",
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "I need guidance with serial console access",
     "fileAttachmentHint": "",
     "formElements": [
