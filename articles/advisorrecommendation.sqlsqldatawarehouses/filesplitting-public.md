@@ -6,6 +6,7 @@
     articleId="dd93fbbf-e5ef-4c7c-886e-2bfef0958f45"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+    ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 
 # Split staged files in the storage account to increase load performance
