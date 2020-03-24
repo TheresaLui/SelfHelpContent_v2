@@ -4,7 +4,7 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32570965" 
 	 productPesIds="14785,16576" 
-	 cloudEnvironments="public, Fairfax" 
+	 cloudEnvironments="public, Fairfax, Mooncake" 
 	 schemaVersion="1"
     articleId="c6907ac8-9424-45b2-9a8e-5432c51fe44c"
 	ownershipId="AzureIdentity_AzureActiveDirectoryDomainServices"

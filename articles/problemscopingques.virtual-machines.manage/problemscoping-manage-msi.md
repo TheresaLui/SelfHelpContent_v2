@@ -14,7 +14,8 @@
 # Management
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Managed Service Identity (MSI) Integration",
     "fileAttachmentHint": "",
     "formElements": [

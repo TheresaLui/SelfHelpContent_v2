@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "10822ce8-dc39-9471-a1ef-33b51744dd5a",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with one or a few particular users",
+      "searchTags": "issue affecting a single user",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1a376aec-e5e8-f778-d798-cdf675b9d624",
       "longDescription": "",
       "shortDescription": "Problems related to the AADConnect Health service, which monitors your AADConnect sync service and provides notifications when issues are detected",
@@ -169,6 +177,14 @@
       "longDescription": "",
       "shortDescription": "You see an error message saying that the Provisioning service is in a quarantained state",
       "searchTags": "Sync cycle in quarantined state",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b3cbaf0b-5e23-3aca-081c-0edec4b32274",
+      "longDescription": "",
+      "shortDescription": "You have a problem registering the AADConnect Health agent",
+      "searchTags": "problem with agent registration ",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },

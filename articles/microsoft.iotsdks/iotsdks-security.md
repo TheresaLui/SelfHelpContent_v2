@@ -11,7 +11,7 @@
 	productPesIds="16122"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="7bf228fe-039f-4a93-a1fb-e8dcfc336787"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Security issues

@@ -21,6 +21,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "48bcd955-932e-1581-811f-c8fbcbaf724e",
+      "longDescription": "",
+      "shortDescription": "Azure AD Domain Services user login issues or issues while joining a VM to Azure AD Domain Services ",
+      "searchTags": "Domain Join;Login error",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6de8b3ec-c22b-fc31-dba0-45ab1e98485b",
       "longDescription": "",
       "shortDescription": "Networking setup and configuration with Azure AD Domain Services",
@@ -41,6 +49,22 @@
       "longDescription": "",
       "shortDescription": "Issues while configuring administrative or management features for Azure AD Domain Services ",
       "searchTags": "Domain Join",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b437f1a6-38fe-550d-9b87-85c69d33faa7",
+      "longDescription": "",
+      "shortDescription": "Questions regarding Azure AD Domain Services",
+      "searchTags": "Azure AD DS;How to setup Azure AD DS ",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ba15b13e-5174-0b04-0c0f-3da5b3c4d99f",
+      "longDescription": "",
+      "shortDescription": "Setting up and maintaining LDAPs with Azure AD Domain Services",
+      "searchTags": "LDAP;LDAP error",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },

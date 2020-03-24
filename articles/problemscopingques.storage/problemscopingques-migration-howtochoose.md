@@ -1,8 +1,8 @@
 <properties
 	pageTitle="How to choose data migration solution"
 	description="How to choose data migration solution"
-	authors="Passaree"
-    ms.author="passap"
+	authors="Sijia"
+    	ms.author="siz"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32631235,32632044"
 	productPesIds="15629,16459"
@@ -20,48 +20,40 @@
     "title": "How to choose data migration solution",
     "fileAttachmentHint": "",
     "formElements": [
-        {
-            "id": "data_size",
+            {
+            "id": "source_resource",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Estimated data size to migrate",
-            "watermarkText": "Choose an option",
+            "displayLabel": "Source resource",
+            "watermarkText": "Select source resource to migrate from",
             "dropdownOptions": [
                 {
-                    "value": "under50GB",
-                    "text": "Under 50 GB"
+                    "value": "storage_account",
+                    "text": "Azure Storage Account"
                 },
                 {
-                    "value": "50GB_100GB",
-                    "text": "50 GB - 100 GB"
+                    "value": "blob",
+                    "text": "Azure Blob"
                 },
                 {
-                    "value": "100GB_1TB",
-                    "text": "100 GB - 1 TB"
+                    "value": "files",
+                    "text": "Azure Files"
                 },
                 {
-                    "value": "1TB_50TB",
-                    "text": "1 TB - 50 TB"
+                    "value": "adlsgen2",
+                    "text": "Azure Data Lake Storage Gen2"
                 },
                 {
-                    "value": "50TB_100TB",
-                    "text": "50 TB - 100 TB"
+                    "value": "managed_disks",
+                    "text": "Azure Disks (managed)"
                 },
                 {
-                    "value": "100TB_500TB",
-                    "text": "100 TB - 500 TB"
+                    "value": "local_onpremise",
+                    "text": "Local/On-Premise"
                 },
                 {
-                    "value": "500TB_1PB",
-                    "text": "500 TB - 1 PB"
-                },
-                {
-                    "value": "1PB_5PB",
-                    "text": "1 PB - 5 PB"
-                },
-                {
-                    "value": "over5PB",
-                    "text": "Greater than 5 PB"
+                    "value": "external_clouds",
+                    "text": "External Clouds (Amazon S3, GCP, etc)"
                 },
                 {
                     "value": "dont_know_answer",
@@ -70,48 +62,40 @@
             ],
             "required": true
         },
-         {
-            "id": "network_bandwidth",
+	{
+            "id": "destination_resource",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Approximate available network bandwidth",
-            "watermarkText": "Choose an option",
+            "displayLabel": "Destination resource",
+            "watermarkText": "Select destination resource to migrate to",
             "dropdownOptions": [
                 {
-                    "value": "under45Mbps",
-                    "text": "Under 45 Mbps"
+                    "value": "storage_account",
+                    "text": "Azure Storage Account"
                 },
                 {
-                    "value": "45Mbps_100Mbps",
-                    "text": "45 Mbps - 100 Mbps"
+                    "value": "blob",
+                    "text": "Azure Blob"
                 },
                 {
-                    "value": "100Mbps_500Mbps",
-                    "text": "100 Mbps - 500 Mbps"
+                    "value": "files",
+                    "text": "Azure Files"
                 },
                 {
-                    "value": "500Mbps_1Gbps",
-                    "text": "500 Mbps - 1 Gbps"
+                    "value": "adlsgen2",
+                    "text": "Azure Data Lake Storage Gen2"
                 },
                 {
-                    "value": "1Gbps_5Gbps",
-                    "text": "1 Gbps - 5 Gbps"
+                    "value": "managed_disks",
+                    "text": "Azure Disks (managed)"
                 },
                 {
-                    "value": "5Gbps_10Gbps",
-                    "text": "5 Gbps - 10 Gbps"
+                    "value": "local_onpremise",
+                    "text": "Local/On-Premise"
                 },
                 {
-                    "value": "10Gbps_40Gbps",
-                    "text": "10 Gbps - 40 Gbps"
-                },
-                {
-                    "value": "40Gbps_100Gbps",
-                    "text": "40 Gbps - 100 Gbps"
-                },
-                {
-                    "value": "over100Gbps",
-                    "text": "Greater than 100 Gbps"
+                    "value": "external_clouds",
+                    "text": "External Clouds (Amazon S3, GCP, etc)"
                 },
                 {
                     "value": "dont_know_answer",
@@ -121,8 +105,104 @@
             "required": true
         },
         {
-            "id": "error_code",
+            "id": "data_size_tb",
             "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Estimated data size to migrate",
+            "watermarkText": "Choose a data size",
+            "dropdownOptions": [
+                {
+                    "value": "0.05",
+                    "text": "50 GB"
+                },
+                {
+                    "value": "0.1",
+                    "text": "100 GB"
+                },
+                {
+                    "value": "1",
+                    "text": "1 TB"
+                },
+                {
+                    "value": "50",
+                    "text": "50 TB"
+                },
+                {
+                    "value": "100",
+                    "text": "100 TB"
+                },
+                {
+                    "value": "500",
+                    "text": "500 TB"
+                },
+                {
+                    "value": "1000",
+                    "text": "1 PB"
+                },
+                {
+                    "value": "5000",
+                    "text": "5 PB"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": false
+        },
+         {
+            "id": "network_bandwidth_mbps",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Approximate available network bandwidth",
+            "watermarkText": "Choose a network bandwidth",
+            "dropdownOptions": [
+                {
+                    "value": "0",
+                    "text": "none"
+                },
+                {
+                    "value": "45",
+                    "text": "45 Mbps"
+                },
+                {
+                    "value": "100",
+                    "text": "100 Mbps"
+                },
+                {
+                    "value": "500",
+                    "text": "500 Mbps"
+                },
+                {
+                    "value": "1000",
+                    "text": "1 Gbps"
+                },
+                {
+                    "value": "5000",
+                    "text": "5 Gbps"
+                },
+                {
+                    "value": "10000",
+                    "text": "10 Gbps"
+                },
+                {
+                    "value": "40000",
+                    "text": "40 Gbps"
+                },
+                {
+                    "value": "100000",
+                    "text": "100 Gbps"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or not listed above"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "transfer_frequency",
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Transfer frequency",
             "watermarkText": "Choose an option",
@@ -132,7 +212,7 @@
                     "text": "Once"
                 },
                 {
-                    "value": "many",
+                    "value": "repeatedly",
                     "text": "Repeatedly"
                 },
                 {
@@ -140,18 +220,18 @@
                     "text": "Don't know or not listed above"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate start time of the most recent occurrence",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
