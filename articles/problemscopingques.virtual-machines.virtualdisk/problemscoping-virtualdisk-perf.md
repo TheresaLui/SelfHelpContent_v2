@@ -15,7 +15,7 @@
 ---
 {
     "resourceRequired": true,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Disk throughput is lower than expected",
     "fileAttachmentHint": "",
     "formElements": [
