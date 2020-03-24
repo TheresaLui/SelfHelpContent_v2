@@ -20,6 +20,6 @@
 # Configuration Issue Preventing User Sign-In
 <!--issueDescription-->
 
-The sign-in is failing because <!--$failureReason-->[failureReason]<!--/$failureReason-->
+The sign-in is failing because <!--$failureReason-->[failureReason]<!--/$failureReason-->.
 
 <!--/issueDescription-->
