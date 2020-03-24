@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e827e685-34de-a3b4-69ed-e2cf7d118ec3",
+      "longDescription": "",
+      "shortDescription": "Questions regarding Azure AD B2C regional availability or data residency location.",
+      "searchTags": "questions re to B2C availability ;questions re to B2C data residency",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f0bb83f4-88a9-d93c-1e9e-ddedb2a73c36",
       "longDescription": "",
       "shortDescription": "Questions regarding AAD B2C session token lifetime, timeout, and single sign on setting configurations",
