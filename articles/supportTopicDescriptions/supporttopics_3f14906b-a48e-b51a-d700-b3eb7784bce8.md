@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "2e6fccb9-a69a-1e56-48a7-c98eec8c63c1",
+      "longDescription": "",
+      "shortDescription": "You received the (too many connections) error message.",
+      "searchTags": "too many connections;increasing connection limit",
+      "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "44bc0ab0-4969-b12f-93d9-bd07d6934b7d",
       "longDescription": "",
       "shortDescription": "You are experiencing issues while connecting from a VNET or a specific workstation or VM",
