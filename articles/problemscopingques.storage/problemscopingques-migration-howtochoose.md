@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32631235,32632044"
 	productPesIds="15629,16459"
-	cloudEnvironments="public,MoonCake,FairFax"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="E4579893-8E9C-469C-A21A-D84EEEFAD4A9"
 	ownershipId="StorageMediaEdge_AccountManagement"
@@ -437,15 +437,8 @@
 	"required": false
 	},
 	{
-		"id": "problem_start_time",
-		"order": 12,
-		"controlType": "datetimepicker",
-		"displayLabel": "Approximate start time of the most recent occurrence",
-		"required": true
-	},
-	{
 		"id": "problem_description",
-		"order": 13,
+		"order": 12,
 		"controlType": "multilinetextbox",
 		"displayLabel": "Provide any additional details",
 		"required": true,
