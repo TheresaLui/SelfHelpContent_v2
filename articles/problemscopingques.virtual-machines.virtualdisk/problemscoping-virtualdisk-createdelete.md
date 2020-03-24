@@ -14,7 +14,8 @@
 # Virtual Disk Management
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Creating or deleting virtual disks",
     "fileAttachmentHint": "",
     "formElements": [
