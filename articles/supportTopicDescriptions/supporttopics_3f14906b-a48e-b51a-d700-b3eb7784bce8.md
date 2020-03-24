@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "44bc0ab0-4969-b12f-93d9-bd07d6934b7d",
+      "longDescription": "",
+      "shortDescription": "You are experiencing issues while connecting from a VNET or a specific workstation or VM",
+      "searchTags": "private link;vnet;firewall rules",
+      "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9bd1f012-c52f-b0ca-522c-420244d00a10",
       "longDescription": "",
       "shortDescription": "Resolve issues when connecting to your server or troubleshooting connectivity-related configurations",
