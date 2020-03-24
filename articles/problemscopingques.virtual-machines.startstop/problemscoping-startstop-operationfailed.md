@@ -14,7 +14,8 @@
 # Start or Stop My VM
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "My start or stop operation failed",
     "fileAttachmentHint": "",
     "formElements": [
