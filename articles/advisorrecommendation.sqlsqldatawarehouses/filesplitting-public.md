@@ -26,11 +26,11 @@
   "recommendationFriendlyName": "FileSplittingGuidance",
   "recommendationMetadataState": "Active",
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "sqldwninjas@service.microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "AIMS://AZURESQLDB/DATAWAREHOUSE/ADVISORS",
+      "service": "Azure SQL DB",
+      "team": "Datawarehouse"
     },
     "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
   },
@@ -45,7 +45,7 @@
       "actionId": "a3d2fde3-52ff-44e8-8260-51db7a14621f",
       "description": "Split files that are staged for loading",
       "actionType": "Document",
-      "documentLink": "https://aka.ms/actionsdataskew"
+      "documentLink": "https://aka.ms/learnmorefilesplit"
     }
   ],
   "resourceMetadata": {
