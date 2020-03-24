@@ -82,14 +82,42 @@
       "required": false
     },
     {
+      "id": "include_sb",
+      "visibility": "edge_version == 109+",
+      "order": 14,
+      "controlType": "multilinetextbox",
+      "displayLabel": "iotedge support-bundle",
+      "watermarkText": "You can help reduce the issue resolution time by attaching the file output from 'iotedge support-bundle'.\n\nOn Linux, use command:\n sudo iotedge support-bundle --since 24h\n\nOn Windows, use:\n iotedge support-bundle --since 24h",
+      "infoBalloonText": "To learn more, see the <a href='https://docs.microsoft.com/azure/iot-edge/troubleshoot#gather-debug-information-with-iotedge-support-bundle-command'>docs page</a>"
+    },
+    {
+      "id": "sb_included",
+      "visibility": "edge_version == 109+",
+      "order": 15,
+      "controlType": "dropdown",
+       "displayLabel": "'iotedge support-bundle' output attached?",
+      "watermarkText": "Choose an option",
+      "dropdownOptions": [
+        {
+          "value": "y",
+          "text": "Yes"
+        },
+        {
+          "value": "n",
+          "text": "No"
+        }
+      ],
+      "required": true
+    },
+    {
       "id": "update_to_109",
       "visibility": "edge_version == 107 || edge_version == dont_know_answer || edge_version == 108",
       "order": 13,
       "controlType": "multilinetextbox",
       "displayLabel": "Latest version advisory",
-      "watermarkText": "IoT Edge release 1.0.9 is available now with several improvements. \nIf you haven't already, you should strongly consider updating the IoT Edge runtime containers and IoT Edge daemon to this version if possible.",
+      "watermarkText": "1.0.9 release is now available with many improvements!\n\nIf you haven't already, you should strongly consider updating the IoT Edge runtime containers and IoT Edge daemon to this version.",
       "infoBalloonText": "To learn more, see the <a href='https://techcommunity.microsoft.com/t5/internet-of-things/iot-edge-1-0-9/ba-p/1237100'>release blog post</a>"
-      },
+    },
     {
       "id": "iotedge_check_108",
       "visibility": "edge_version == 108",
