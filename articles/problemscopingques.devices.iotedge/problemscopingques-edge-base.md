@@ -87,7 +87,7 @@
       "order": 14,
       "controlType": "multilinetextbox",
       "displayLabel": "iotedge support-bundle",
-      "watermarkText": "You can help reduce the issue resolution time by attaching the file output from 'iotedge support-bundle'.\n\nOn Linux, use command:\n sudo iotedge support-bundle --since 24h\n\nOn Windows, use:\n iotedge support-bundle --since 24h",
+      "watermarkText": "You can help reduce the issue resolution time by attaching the file output from 'iotedge support-bundle'.\n\nOn Linux, use command:\nsudo iotedge support-bundle --since 24h\n\nOn Windows, use:\niotedge support-bundle --since 24h",
       "infoBalloonText": "To learn more, see the <a href='https://docs.microsoft.com/azure/iot-edge/troubleshoot#gather-debug-information-with-iotedge-support-bundle-command'>docs page</a>"
     },
     {
