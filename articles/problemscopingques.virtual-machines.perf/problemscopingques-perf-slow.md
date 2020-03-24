@@ -14,7 +14,8 @@
 # VM Performance
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Application, service, or website is slow",
     "fileAttachmentHint": "",
     "formElements": [
