@@ -1,5 +1,5 @@
 <properties
-	articleId="26a4b35d-a4ae-4f3e-9054-2d8fcc5d322f"
+	articleId="costanalysis-costbyresource"
 	articleTags="costanalysis,views"
 	pageTitle="How do I see the cost of each resource I'’m using?"
 	description="Cost by resource"
