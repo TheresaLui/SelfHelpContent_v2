@@ -14,7 +14,8 @@
 # VM Performance
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "GPU processing is slower than expected",
     "fileAttachmentHint": "",
     "formElements": [
