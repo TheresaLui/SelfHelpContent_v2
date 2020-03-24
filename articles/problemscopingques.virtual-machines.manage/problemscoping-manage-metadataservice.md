@@ -14,7 +14,8 @@
 # Management
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Azure Metadata Service (Scheduled Events)",
     "fileAttachmentHint": "",
     "formElements": [

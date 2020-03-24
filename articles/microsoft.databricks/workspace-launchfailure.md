@@ -7,7 +7,7 @@
 	ms.author="deeptivu"
 	displayOrder="15"
 	selfHelpType="generic"
-	supportTopicIds="32677735"
+	supportTopicIds="32677735, 32688714"
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
