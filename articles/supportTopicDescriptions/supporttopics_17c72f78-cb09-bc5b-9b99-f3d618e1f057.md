@@ -400,7 +400,7 @@
     {
       "id": "c7f8958f-a998-bc26-c19e-5bbe50f2ffbe",
       "longDescription": "",
-      "shortDescription": "You are experiencing persistent or intermittent connection issues",
+      "shortDescription": "Your connections to the server have been dropped unexpectedly",
       "searchTags": "Error while connecting to the server;Error;connecting to server",
       "category": "Availability and Connectivity",
       "useInDiagnoseAndSolve": "true"
