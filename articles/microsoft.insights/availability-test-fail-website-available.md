@@ -20,6 +20,8 @@
 
 Hello world
 
+![metric image](https://docs.microsoft.com/azure/azure-monitor/platform/media/metrics-troubleshoot/missing-data-point-scatter-chart.png)
+
 1. Check the [Troubleshooting Guide](https://docs.microsoft.com/azure/azure-monitor/app/troubleshoot-availability) for answers to common questions
 2. Make sure you have whitelisted all of the [IP Address Used by Availability Tests](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests)
 3. Verify you have the test running in multiple geo-locations. It is strongly recommended to run at least from two locations. Web communication fails for multiple reasons from time to time and having only one location enabled will considerably increase the likelihood of false positives
