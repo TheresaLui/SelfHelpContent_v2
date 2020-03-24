@@ -1,5 +1,5 @@
 <properties
-	articleId="75912828-a07b-4df8-ae5d-62afdb5df8bf"
+	articleId="costanalysis-forecastresource"
 	articleTags="costanalysis,forecast, resource"
 	pageTitle="Why doesn’t the forecast change when I make changes to my resources?"
 	description="Cost by forecast resource"
