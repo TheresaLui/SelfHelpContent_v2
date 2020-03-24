@@ -372,7 +372,7 @@
 		"dropdownOptions": [
 		{
 			"value": "0",
-			"text": "none"
+			"text": "None"
 		},
 		{
 			"value": "45",
