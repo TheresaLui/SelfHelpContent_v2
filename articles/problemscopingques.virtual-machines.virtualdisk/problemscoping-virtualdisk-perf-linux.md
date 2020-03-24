@@ -14,8 +14,8 @@
 # Virtual Disk Management
 ---
 {
-    "resourceRequired": true,
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Disk throughput is lower than expected",
     "fileAttachmentHint": "",
     "formElements": [
