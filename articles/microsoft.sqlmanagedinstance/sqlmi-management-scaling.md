@@ -22,9 +22,9 @@ Scaling an instance resources refers to scaling of vCores, storage capacity or p
 
 - Sufficient number of IP addresses is required to execute instance scaling. Instances placed in subnet with 16 IP addresses (which is the bare minimum) are not able to perform scaling operations, For more details check: [Determine VNet subnet size for Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-determine-size-vnet-subnet). The workaround is creating new instance in larger subnet then perform a [cross-instance point-in-time restore](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-point-in-time-restore).
 - Changing hardware generation, scaling vCores or storage can be done using Azure Portal, PowerShell or Azure CLI command. For more details check: [Change the hardware generation of an existing managed instance](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-vcore?tabs=azure-portal#selecting-a-hardware-generation)
+- Maximum storage available is dependent on number of vCores consumed. For more details check [Azure SQL Database managed instance resource limits article](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits)
 - Scaling instance is long running operation. For more details about duration of scaling operations check: [Managed instance management operations](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance#managed-instance-management-operations)
 -Scaling an instance can be cancelled: [Cancel management operation](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance#canceling-management-operations)
-
 - During instance scaling it is not possible to:
     - Run another update of same instance
     - Create, drop or restore databases
