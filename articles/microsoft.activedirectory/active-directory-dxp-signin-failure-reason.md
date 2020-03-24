@@ -20,8 +20,6 @@
 # Configuration Issue Preventing User Sign-In
 <!--issueDescription-->
 
-
-The sign-in is failing because <!--$recommendedAction-->[recommendedAction]<!--/$recommendedAction-->
-
+The sign-in is failing because <!--$recommendedAction-->[recommendedAction]<!--/$recommendedAction-->.
 
 <!--/issueDescription-->
