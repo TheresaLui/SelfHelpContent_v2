@@ -87,8 +87,8 @@
       "order": 13,
       "controlType": "multilinetextbox",
       "displayLabel": "Latest version advisory",
-      "watermarkText": "\nIoT Edge release 1.0.9 is available now with several improvements. If you haven't already, you should strongly consider updating the IoT Edge runtime containers and IoT Edge daemon to this version if possible.\n",
-      "infoBalloonText": "To learn more, visit: https://techcommunity.microsoft.com/t5/internet-of-things/iot-edge-1-0-9/ba-p/1237100"
+      "watermarkText": "IoT Edge release 1.0.9 is available now with several improvements. \nIf you haven't already, you should strongly consider updating the IoT Edge runtime containers and IoT Edge daemon to this version if possible.",
+      "infoBalloonText": "To learn more, see the <a href='https://techcommunity.microsoft.com/t5/internet-of-things/iot-edge-1-0-9/ba-p/1237100'>release blog post</a>"
       },
     {
       "id": "iotedge_check_108",
