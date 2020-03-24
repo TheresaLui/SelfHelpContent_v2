@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7df82fdf-4daa-6677-1c43-13330c99df70",
+      "longDescription": "",
+      "shortDescription": "Questions about backup, restore, and business continuity features.",
+      "searchTags": "backup;bcdr;business continuity",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9bd1f012-c52f-b0ca-522c-420244d00a10",
       "longDescription": "",
       "shortDescription": "Resolve issues when connecting to your server or troubleshooting connectivity-related configurations",
