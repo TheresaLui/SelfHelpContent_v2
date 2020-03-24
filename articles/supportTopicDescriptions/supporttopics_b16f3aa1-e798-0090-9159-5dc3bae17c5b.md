@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "0bd7d616-07bb-6bec-96c9-3c2e23e3c8b5",
+      "longDescription": "",
+      "shortDescription": "Questions regarding migrating users from an external identity provider to an Azure AD B2C directory",
+      "searchTags": "Questions re migrating users to B2C ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0c92e5e2-fe1f-e598-48e5-dc53c326eddc",
       "longDescription": "",
       "shortDescription": "Questions regarding Azure AD B2C directories or Azure AD B2C subscription management.",
