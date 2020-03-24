@@ -177,7 +177,7 @@
 		},
 		{
 			"value": "copy_adlsgen2_to_adlsgen2",
-			“text": "Copy Azure Data Lake Gen2 files to Azure Data Lake Gen2 storage"
+			"text": "Copy Azure Data Lake Gen2 files to Azure Data Lake Gen2 storage"
 		},
 		{
 			"value": "copy_adlsgen2_to_localonpremise",
