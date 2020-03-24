@@ -43,6 +43,14 @@
       "searchTags": "Availability;Connectivity",
       "category": "Availability and Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ea674821-8234-733c-4681-cb9fddcd947a",
+      "longDescription": "",
+      "shortDescription": "Your connections to the server have been dropped unexpectedly.",
+      "searchTags": "server error;server issue;not able to connect",
+      "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
