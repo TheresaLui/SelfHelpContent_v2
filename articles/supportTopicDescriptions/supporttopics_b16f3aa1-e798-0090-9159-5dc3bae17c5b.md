@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1c3a0b23-fca7-5001-ec77-0715a416a675",
+      "longDescription": "",
+      "shortDescription": "Questions regarding Azure AD B2C user management, and auditing reports.",
+      "searchTags": "issue with B2C user management",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "31b82d8b-a11a-9b3e-b838-03f2b0884c45",
       "longDescription": "",
       "shortDescription": "Questions regarding Azure AD B2C custom user policies and flows using the Identity Experience Framework (IEF)",
