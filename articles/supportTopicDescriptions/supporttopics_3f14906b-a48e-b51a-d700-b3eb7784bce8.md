@@ -51,6 +51,14 @@
       "searchTags": "server error;server issue;not able to connect",
       "category": "Availability and Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f61523ae-f316-487e-fe9d-c3639b40b28d",
+      "longDescription": "",
+      "shortDescription": "You received the (unknown MySQL server host) error",
+      "searchTags": "unavailable;not able to connect;connection issues",
+      "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
