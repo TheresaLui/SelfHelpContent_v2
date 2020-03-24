@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bcf7a400-eb33-c207-03f0-a700cbb34834",
+      "longDescription": "",
+      "shortDescription": "Problems creating a new AAD B2C directory, or deleting an existing AAD B2C directory.",
+      "searchTags": "issues re new AAD B2C directory",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c5d97c6d-8fa3-81c2-2243-54c80d902627",
       "longDescription": "",
       "shortDescription": "Quesitons regarding Azure AD B2C audit or sign in logs and reporting capabilities",
