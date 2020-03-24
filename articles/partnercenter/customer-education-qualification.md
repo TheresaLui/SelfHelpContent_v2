@@ -25,7 +25,7 @@ Information about selling and managing qualifications for education customers.
 
 Partners now can correct customer account information and resubmit for vetting for cases where the customer was denied. For full details see step-by-step instructions on how to do this in the updated [Creating an education customer in Partner Center guide](https://docs.microsoft.com/partner-center/sell-to-education-customers).
 
-To minimize any delays in the vetting process, please follow thes instructions:
+To minimize any delays in the vetting process, please follow these instructions:
 
 * To reduce any delays in the investigation of vetting failures for legitimate entries, please ensure to enter customer data that is as **accurate** and as **complete** as possible. Do not enter in test or dummy data.
 * Review the [Creating an education customer in Partner Center guide](https://docs.microsoft.com/partner-center/sell-to-education-customers) and [Add a new customer](https://docs.microsoft.com/partner-center/add-a-new-customer) documenting what is required when creating a new education customer in Partner Center. 
