@@ -1,5 +1,5 @@
 <properties
-	articleId="9c9afdda-84f2-481f-98bb-b9f0c3e97a15"
+	articleId="costanalysis-tags"
 	articleTags="costanalysis,tags"
 	pageTitle="Tags I have set on resources are missing from Cost Management, can you explain why?"
 	description="Tags on resource"
