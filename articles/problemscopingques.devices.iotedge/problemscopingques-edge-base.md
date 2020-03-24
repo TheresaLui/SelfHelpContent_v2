@@ -103,7 +103,7 @@
           "text": "Yes"
         },
         {
-          "value": "n",
+          "value": "dont_know_answer",
           "text": "No"
         }
       ],
