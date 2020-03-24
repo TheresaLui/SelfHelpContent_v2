@@ -14,7 +14,8 @@
 # Management
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Manage or use RDS in Azure",
     "fileAttachmentHint": "",
     "formElements": [

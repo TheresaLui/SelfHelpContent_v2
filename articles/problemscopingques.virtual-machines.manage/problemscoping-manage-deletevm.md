@@ -14,7 +14,8 @@
 # Management
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Unable to delete a virtual machine",
     "fileAttachmentHint": "",
     "formElements": [

@@ -12,7 +12,7 @@
     selfHelpType="rca"
     resourceTags="servers, databases"
 	cloudEnvironments="public, Fairfax"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # High percentage of short-lived connections

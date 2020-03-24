@@ -14,7 +14,8 @@
 # VM Restart
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Help diagnose my VM restart issue",
     "fileAttachmentHint": "",
     "formElements": [

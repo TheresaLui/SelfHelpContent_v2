@@ -15,7 +15,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "I am unable to resize my VM",
     "fileAttachmentHint": "",
     "formElements": [

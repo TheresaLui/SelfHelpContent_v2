@@ -10,12 +10,12 @@
 	articleId="customer_offers_subs_upgrade_downgrade"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635707"
+	supportTopicIds="32635707,32730253"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="15960,17012"
 	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
 # Upgrade or downgrade subscriptions

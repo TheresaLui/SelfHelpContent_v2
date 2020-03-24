@@ -14,8 +14,9 @@
 # Connect to a VM
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Failure to connect to the SSH port",
     "fileAttachmentHint": "",
     "formElements": [
