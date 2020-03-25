@@ -19,7 +19,7 @@
 
 # I cannot send or receive messages
 
-## **Troubleshooting Steps**
+## **Recommended Steps**
 
 1. [Check if Client has error sending messages](https://github.com/Azure/azure-signalr/blob/dev/docs/howto-tsg.md#how-to-view-the-traffic-and-narrow-down-the-issue)
 

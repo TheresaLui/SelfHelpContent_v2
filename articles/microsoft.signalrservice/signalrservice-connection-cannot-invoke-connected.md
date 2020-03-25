@@ -19,7 +19,7 @@
 
 # Unable to invoke OnConnected events on app server
 
-## **Troubleshooting Steps**
+## **Recommended Steps**
 
 1. [Check if Azure SignalR Service is in `Classic` mode](https://github.com/Azure/azure-signalr/blob/dev/docs/howto-tsg.md#classic-mode-troubleshooting)
 2. [Check if App Server has error connecting to Azure Service](https://github.com/Azure/azure-signalr/blob/dev/docs/howto-tsg.md#add_logs_server)

@@ -21,4 +21,4 @@
 
 ## **Recommended Documents** 
 
-* [How to manage cors through Azure CLI](https://docs.microsoft.com/en-us/cli/azure/signalr/cors?view=azure-cli-latest)
+* [How to manage cors through Azure CLI](https://docs.microsoft.com/cli/azure/signalr/cors?view=azure-cli-latest)
