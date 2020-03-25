@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "38190b7e-4f63-2f56-17a7-d895f5d3d0d2",
+      "longDescription": "",
+      "shortDescription": "You have issues using PowerShell",
+      "searchTags": "powershell",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "44bc0ab0-4969-b12f-93d9-bd07d6934b7d",
       "longDescription": "",
       "shortDescription": "You are experiencing issues while connecting from a VNET or a specific workstation or VM",
