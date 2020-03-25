@@ -14,7 +14,8 @@
 # Virtual Disk Management
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Restore a VM from snapshot",
     "fileAttachmentHint": "",
     "formElements": [
