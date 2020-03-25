@@ -12,6 +12,7 @@
 	productPesIds="16125"
 	cloudEnvironments="public,BlackForest,Fairfax, MoonCake"
 	articleid="eventhub-servicehealth"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Resource Health

@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="dc58553f-05fa-42ec-99a5-71ab412e31a6"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # keyvault

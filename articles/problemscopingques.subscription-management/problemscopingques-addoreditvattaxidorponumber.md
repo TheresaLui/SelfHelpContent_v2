@@ -9,6 +9,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Add or Edit VAT TAX ID or PO Number

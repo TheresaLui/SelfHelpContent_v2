@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="54ed6a46-5a0c-4223-9c28-9e74d5b8ed44"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve packaging issues

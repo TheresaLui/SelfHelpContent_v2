@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="35a05675-cc2c-487f-ba65-838a09aaf036"
+	ownershipId="Compute_Automation"
 />
 
 # Find runbook samples

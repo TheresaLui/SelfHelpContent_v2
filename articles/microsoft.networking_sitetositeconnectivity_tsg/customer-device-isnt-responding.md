@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="e01fc4a7-d9ef-43ed-ae66-c8eed9e59a7b"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Customer device is not responding

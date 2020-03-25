@@ -10,9 +10,10 @@
 	selfHelpType="generic"
 	supportTopicIds="32630459"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax"
     resourceTags="servers, databases"
     articleId="832be260-f5b8-47dc-95ba-288bcfc7625c"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # performance and query execution/unexpected increase in resource consumption or DTUS

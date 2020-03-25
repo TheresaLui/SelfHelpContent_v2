@@ -12,11 +12,16 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="1305df1d-4f65-4bc0-afc4-d4825784826a"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Provide general guidance and advisory
 
 ## **Recommended Steps**
+
+* Search the [Knowledge Base](https://kb.azuredatabricks.net/index.html) for guidance on resolving errors and setup issues 
+* If you have a question about how Databricks works, please check how to guides at [Azure Databricks Documentation](https://docs.microsoft.com/azure/databricks/getting-started/training-faq)
+* [Azure Databricks Best Practices](https://github.com/Azure/AzureDatabricksBestPractices/)
 
 ### **Cluster Creation Issues**
 
@@ -35,17 +40,14 @@ If you are getting [error for resource quotas](https://docs.microsoft.com/azure/
 * [Common Errors in Notebooks](https://kb.databricks.com/notebooks/common-errors-in-notebooks.html)
 * [Cannot Run Notebook Commands After Canceling Streaming Cell](https://kb.databricks.com/notebooks/streaming-notebook-stuck.html)
 
-### **Troubleshoot Job Failure Issues**
+### **Job Failure Issues**
 
 * [Problem: Spark Job Fails with Driver is temporarily unavailable](https://kb.azuredatabricks.net/jobs/driver-unavailable.html)
 * [Problem: Job Fails Due to Job Rate Limit](https://kb.azuredatabricks.net/jobs/job-rate-limit.html)
 * [Problem: Azure Databricks Job Fails Because Library is Not Installed](https://kb.azuredatabricks.net/jobs/job-fails-no-library.html)
 * [Problem: Maximum Execution Context or Notebook Attachment Limit Reached](https://kb.azuredatabricks.net/execution/maximum-execution-context.html)
 
-### **Troubleshoot Connectivity Issues**
+### **Connectivity Issues**
 
 * [Deploy Azure Databricks in your Azure Virtual Network (VNet Injection)](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject)
 * [Connect your Azure Databricks Workspace to your On-Premises Network](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network)
-* Search the [Knowledge Base](https://kb.azuredatabricks.net/index.html) for guidance on resolving errors and setup issues 
-* If you have a question about how Databricks works, please check how to guides at [Azure Databricks Documentation](https://docs.microsoft.com/azure/databricks/getting-started/training-faq)
-* [Azure Databricks Best Practices](https://github.com/Azure/AzureDatabricksBestPractices/)

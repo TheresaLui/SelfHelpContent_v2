@@ -12,6 +12,7 @@
 	productPesIds="15438"
 	cloudEnvironments="public"
 	articleId="7e06d026-6411-4f9c-be15-4016a6753834"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Appliance and Hard Drive issues

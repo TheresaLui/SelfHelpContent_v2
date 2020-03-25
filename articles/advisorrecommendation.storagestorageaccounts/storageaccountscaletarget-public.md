@@ -6,6 +6,7 @@
     articleId="a0ad4f8c-f904-4b11-955d-e0044473c5fa_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Prevent hitting subscription limit for maximum storage accounts
 ---

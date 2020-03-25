@@ -11,6 +11,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public"
 	articleId="98fbc0fc-cb4e-4e6e-bc86-e7c0f5456da1"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # connectivity/other issues with sql server

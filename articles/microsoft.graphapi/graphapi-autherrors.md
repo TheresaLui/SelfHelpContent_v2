@@ -3,15 +3,16 @@
 	description="How to resolve Microsoft Graph 401 and 403 authorization errors."
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
-	authors="dkershaw10"
-	ms.author="dkershaw"
+	authors="davidmu1"
+	ms.author="davidmu"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32689189,32689190"
+	supportTopicIds="32689189,32596852"
 	resourceTags=""
-	productPesIds="16952,16953,16954,16955,16956"
-	cloudEnvironments="public"
+	productPesIds="16952,16953,16954,16955,16956,16575"
+	cloudEnvironments="public, Fairfax"
 	articleId="0ba3c716-5514-4e79-b7cc-9c0b3095dfe0"
+	ownershipId="AzureIdentity_MSGraph"
 />
 
 # Microsoft Graph authorization errors

@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="6335afc6-ab7c-4252-8c2a-c7428c6814f0"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with reporting integration

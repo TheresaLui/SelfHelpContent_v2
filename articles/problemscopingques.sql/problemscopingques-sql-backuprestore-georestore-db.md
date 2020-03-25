@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="problem-scopingques-sql-backuprestore-georestore-db"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Error when trying to geo-restore
 ---

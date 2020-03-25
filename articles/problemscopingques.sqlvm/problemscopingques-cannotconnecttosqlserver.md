@@ -5,9 +5,10 @@
 	 selfHelpType="problemScopingQuestions"
 	 supportTopicIds="32639651,32639652,32639650"
 	 productPesIds="14745"
-	 cloudEnvironments="public"
+	 cloudEnvironments="public,fairfax"
 	 schemaVersion="1"
 	 articleId="036d4c3f-d462-4c80-a716-fdf69dfdda6a"
+	ownershipId="AzureData_AzureSQLVM"
 />
 # Cannot connect to SQL Server
 ---

@@ -10,8 +10,9 @@
     supportTopicIds="32675749"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="3a672f3a-1f25-4ba7-92f8-cecd50db4097"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Discovery issues

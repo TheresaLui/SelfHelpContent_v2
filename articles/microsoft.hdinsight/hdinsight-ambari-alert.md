@@ -10,13 +10,15 @@
     supportTopicIds="32636446, 32636449, 32636457, 32636462, 32636468, 32636478, 32636493, 32636499"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-ambari-alert"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight: Ambari Alerts
 
-The Ambari heartbeat lost alert is usually transient and will resolve on its own. 
+* The Ambari heartbeat lost alert is usually transient and will resolve on its own
+* Ambari Stale alerts can be caused when the host is highly utilized or cluster is under heavy load. One way to mitigate this is to disable and enabl the alert. Read [here](https://github.com/hdinsight/hdinsight.github.io/blob/master/ambari/ambari-stale-alerts.md#potential-mitigations) for more potential mitigations.
 
 ## **Recommended Documents**
 

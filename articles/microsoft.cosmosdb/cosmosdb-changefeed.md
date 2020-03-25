@@ -3,16 +3,17 @@
 	description="Troubleshoot Azure Cosmos DB Change feed issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="rnagpal"
-	ms.author="rnagpal"
+	authors="jimsch"
+	ms.author="jimsch"
 	selfHelpType="generic"
 	supportTopicIds="32636774,32636775,32684532"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-changefeed"
 	displayOrder="61"
 	category="Core (SQL)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Change feed in Azure Cosmos DB

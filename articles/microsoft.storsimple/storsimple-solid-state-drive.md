@@ -12,6 +12,7 @@
 	productPesIds="15438"
 	cloudEnvironments="public"
 	articleId="8279b775-2b09-46e6-b90f-403af65c1537"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Solid state drive(SSD)

@@ -13,6 +13,7 @@
 	articleId="cosmosdb-sdk-error-unexpected-result"
 	displayOrder="284"
 	category="SDK (SQL API) Issues"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # SDK - Error or unexpected result
@@ -83,10 +84,13 @@ For more information, see [Handle rate limiting/request rate too large](https://
 <br>CancellationToken parameter in ExecuteStoredProcedureAsync should be given as the 3rd parameter. If it is not the payload will be incorrect.  
 
 
+**Using UpsertItem**
+<br>If *sys_id* is different for the item that is being used in the *upsert* call, then it will create a new item even if the *id* is same. Uniqueness of an item depends on *id* + *partitionkey* together.  Please see [UpsertItem documentation](https://docs.microsoft.com/python/api/azure-cosmos/azure.cosmos.cosmos_client.cosmosclient?view=azure-python#upsertitem-database-or-container-link--document--options-none-).
+
+
 **Error - Cross partition query is required but disabled. Please set x-ms-documentdb-query-enablecrosspartition to true, specify x-ms-documentdb-partitionkey, or revise your query to avoid this exception.**
 <br>If your data was previously distributed using a single partition your queries may have worked even though *EnableCrossPartitionQuery = false*. If your data is now distributed across more than one partition, please enable the crossPartitionQuery by setting enableCrossPartitionQuery=true through code as shown below to resolve the issue.  
-`var option = new FeedOptions { EnableCrossPartitionQuery = true };`
-
+`var option = new FeedOptions { EnableCrossPartitionQuery = true };`  
 
 
 ## **Recommended Documents**  

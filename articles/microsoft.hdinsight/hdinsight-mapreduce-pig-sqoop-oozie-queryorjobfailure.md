@@ -10,8 +10,9 @@
     supportTopicIds="32636476,32636475"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="hdinsight-query-jobfailures-mapreduce-pig-sqoop-oozie"
+	ownershipId="AzureData_HDInsight"
 />
 # Troubleshooting query or job failures with MapReduce, Pig, Sqoop or Oozie
 

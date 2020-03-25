@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, fairfax"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # My metric alert fired when it shouldn't have
@@ -32,8 +33,8 @@ If you believe your metric alert shouldn't have triggered but it did, the follow
 
 3. Review the alert rule configuration:
 
-    - Check that the **Aggregation type**, **Aggregation granularity (period)**, and **Threshold value** or **Sensitivity** specified in the metric alert rule condition are what you want.
-    - Please also mind the Dynamic Thresholds advanced settings, if used, as **Number of violations** may filter alerts and **Ignore data before** can impact how the thresholds are calculated.
+    - Check that the **Aggregation type**, **Aggregation granularity (period)**, and **Threshold value** or **Sensitivity** specified in the metric alert rule condition are what you want
+    - Please also mind the Dynamic Thresholds advanced settings, if used, as **Number of violations** may filter alerts and **Ignore data before** can impact how the thresholds are calculated
 
 If they are not what you want, edit the rule to match what you want.
 
@@ -41,8 +42,10 @@ If they are not what you want, edit the rule to match what you want.
 
 4. If you are visualizing the metric condition using [Metrics chart](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/metrics), ensure that:
 
-    - **Aggregation** in the metric chart is the same as the **Aggregation type** in your alert rule.
-    - **Time granularity** is set to be same as the **Aggregation granularity (period)** in your alert rule and not set to automatic.
+    - **Aggregation** in the metric chart is the same as the **Aggregation type** in your alert rule
+    - **Time granularity** is set to be same as the **Aggregation granularity (period)** in your alert rule and not set to automatic
+
+5. If the alert rule fires new alerts, while existing fired alerts that monitor the same criteria are still unresolved, check if the alert rule has been configured with the *autoMitigate* property set to **false** (this property can only be configured via REST/PowerShell/CLI). In such case, the alert rule will not auto-resolve fired alerts, and will not require a fired alert to be resolved before firing again.
 
 ## **Recommended Documents**
 

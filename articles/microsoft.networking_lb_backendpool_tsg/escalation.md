@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="6e7e0854-621f-41e1-ac8c-4c45edd43592"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Escalation Path

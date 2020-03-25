@@ -12,7 +12,8 @@ pageTitle="Azure AD Connect Sync Service is not running"
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure AD Connect Sync Service is not running

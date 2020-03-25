@@ -11,6 +11,7 @@
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="5848a8ba-3d79-4c83-8e01-5042226bc87f"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # Direct method execution fails

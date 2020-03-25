@@ -6,6 +6,7 @@
     articleId="3a3c1a2a-8597-4d3a-981a-0a24a0ee9de4_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="CloudNet_Datapath"
 />
 # Enable Accelerated Networking to improve network performance and latency 
 ---
@@ -13,7 +14,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "3a3c1a2a-8597-4d3a-981a-0a24a0ee9de4",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster ('https://vmainsight.kusto.windows.net').database('vmaexpdb').AzureAdvisorForANcapableVMs",
+    "streamNamespace": "cluster('https://vmainsight.kusto.windows.net').database('vmadbexp').AzureAdvisorForANcapableVMs",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
@@ -36,7 +37,7 @@
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli#enable-accelerated-networking-on-existing-vms",
   "description": "Enable Accelerated Networking to improve network performance and latency",
-  "longDescription": "We have detected that Accelerated Networking was disabled on your VM resources of existing deployment. Your VM resources are capable of supporting Accelerated Networking. Make sure to enable Accelerated Networking for existing VM to mitigate the impact on performance and latency of end-to-end network connectivity with latency sensitive workloads in cloud",
+  "longDescription": "We have detected that Accelerated Networking is not enabled on VM resources in your existing deployment that may be capable of supporting this feature. If your VM OS image supports Accelerated Networking as detailed in the documentation, make sure to enable this free feature on these VMs to maximize the performance and latency of your networking workloads in cloud",
   "potentialBenefits": "Improves performance throughput while reducing latency and jitter",
   "actions": [
     {

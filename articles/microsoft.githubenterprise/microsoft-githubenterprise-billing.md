@@ -12,6 +12,7 @@
 	productPesIds="16668"
 	cloudEnvironments="public"
 	articleId="08b610b6-e98b-4a76-a6e6-1b28cb67807b"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # GitHub Billing Issues

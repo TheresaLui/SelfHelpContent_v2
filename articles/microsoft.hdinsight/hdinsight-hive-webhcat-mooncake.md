@@ -11,7 +11,8 @@
   resourceTags=""
   productPesIds=""
   cloudEnvironments="MoonCake"
-  ArticleId="hdinsight-hive-webhcat-mooncake"/>
+  ArticleId="hdinsight-hive-webhcat-mooncake"	ownershipId="ASEP_ContentService_Placeholder"
+/>
 
 # WebHCat 
 

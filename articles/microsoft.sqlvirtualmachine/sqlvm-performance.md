@@ -10,8 +10,9 @@
 	supportTopicIds="32633527"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
 	articleId="sqlvm-performance"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # Diagnose and resolve Virtual Machine performance issues

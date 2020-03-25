@@ -1,6 +1,6 @@
 <properties
     pageTitle="Push installation of mobility agent fails with primary domain and workstation trust failure"
-    description="Push installation of mobility agent fails as the credentials provided for push installation do not correspond to the primary domain configured on source machine."
+    description="Push installation of mobility agent fails because the credentials provided for push installation do not correspond to the primary domain configured on the source machine."
     infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
@@ -13,18 +13,19 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Push installation of mobility agent fails with primary domain and workstation trust failure
 
 <!--issueDescription-->
-When push installation service tries to copy mobility agent software to the source machine from scale-out process server or configuration server, the credentials provided for push installation do not correspond to the primary domain configured on the source machine.
+The credentials provided for push installation do not correspond to the primary domain configured on the source machine when push install service tries to copy the mobility agent software to the source machine from scale-out process server or configuration server.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-1. Ensure that the credentials provided under user account (%AccountName;) have administrator privileges to log on through primary domain of the source machine (%SourceIP;). For detailed instructions, see [Credentials check (ErrorID: 95107 & 95108)](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#credentials-check-errorid-95107--95108).
+1. Ensure that the credentials provided under the user account (%AccountName;) have administrator privileges to log in to primary domain of the source machine (%SourceIP;). For detailed instructions, see [Credentials check (ErrorID: 95107 & 95108)](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#credentials-check-errorid-95107--95108).
 2. Check the following points before proceeding further:
 
     - [Enable file & print sharing](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#file-and-printer-sharing-services-check-errorid-95105--95106)

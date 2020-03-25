@@ -13,6 +13,7 @@
 	productPesIds="16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="112a3653-ed44-40ea-bb56-5b137a937d03"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Upgrade to Azure Storage Account V2

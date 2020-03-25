@@ -4,11 +4,12 @@
 	authors="ansubram"
 	ms.author="anushasubramanian"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32603552"
-	productPesIds="16459"
+	supportTopicIds="32603552,32603553,32603550"
+	productPesIds="16459, 15629, 16460"
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="diskImportExport"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Disk Import/Export issues
 ---

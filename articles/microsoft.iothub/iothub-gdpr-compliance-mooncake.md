@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="iothub-gdpr-compliance-mooncake"
+	ownershipId="AzureIot_IotHub"
 />
 
 # IoT Hub GDPR and Compliance

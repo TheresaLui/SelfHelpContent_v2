@@ -10,8 +10,9 @@
     supportTopicIds="32629190,32629191"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="38c5358c-c63b-4043-9126-4b0839179085"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack App Service Resource Provider
@@ -42,3 +43,5 @@ Use Azure Stack marketplace items to [deploy App Service for Azure Stack in a hi
 * [Update Azure App Service](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-update)
 * [Update Azure App Service offline](https://docs.microsoft.com/azure/azure-stack/azure-stack-app-service-update-offline)
 * [Scale infrastructure and worker roles in App Service](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-add-worker-roles)
+* [Use API version profiles](https://docs.microsoft.com/azure-stack/user/azure-stack-version-profiles?view=azs-1910)
+

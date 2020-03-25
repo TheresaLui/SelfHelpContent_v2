@@ -12,6 +12,7 @@
     productPesIds="16094"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
     articleId="26aad524-4ae2-4569-bd37-89f22689ae92"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Configure a Site-to-Site connection
 

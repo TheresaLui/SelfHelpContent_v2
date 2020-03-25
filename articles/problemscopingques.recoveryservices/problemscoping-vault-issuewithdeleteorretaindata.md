@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="532fa46c-9d45-454c-84d5-fce64a5d639d"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for issue with delete or retain data
 ---

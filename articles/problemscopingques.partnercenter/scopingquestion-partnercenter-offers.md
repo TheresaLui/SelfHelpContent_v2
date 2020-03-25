@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_offers"
 	clientIds="partnercenter"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Partner Center Offer Issue
 ---

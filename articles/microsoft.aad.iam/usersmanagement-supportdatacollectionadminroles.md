@@ -4,9 +4,10 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32045782" 
 	 productPesIds="14785" 
-	 cloudEnvironments="public" 
+	 cloudEnvironments="public, Fairfax, Mooncake" 
 	 schemaVersion="1"
 	articleId="ed99f3d0-8696-4706-94d9-7085e144dc50"
+	ownershipId="ASEP_ContentService_Placeholder"
 /> 
 # Other problem with Azure AD admin role 
 ---

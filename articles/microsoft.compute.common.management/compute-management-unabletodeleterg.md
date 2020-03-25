@@ -10,8 +10,9 @@
     supportTopicIds="32691199"
     resourceTags=""
     productPesIds="14749,15571,15797,16454,16470"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="dc61926f-de64-445a-92f2-61b1623f2c6b"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Unable to delete a Resource Group
@@ -22,6 +23,6 @@
 
 * [Understanding how to delete resource groups and resources - PowerShell](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-delete?tabs=azure-powershell)<br>
 * [Understanding how to delete resource groups and resources - Portal](https://docs.microsoft.com/azure/azure-resource-manager/manage-resources-portal#delete-resources)<br>
-* [Understanding how to delete resource groups and resources - Azure CLI(https://docs.microsoft.com/azure/azure-resource-manager/manage-resources-cli#delete-resources)<br>
+* [Understanding how to delete resource groups and resources - Azure CLI](https://docs.microsoft.com/azure/azure-resource-manager/manage-resources-cli#delete-resources)<br>
 * [Overview of Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)
 

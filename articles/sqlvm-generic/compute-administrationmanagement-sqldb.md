@@ -11,6 +11,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public"
 	articleId="f6daacef-cb79-4ca9-9727-22927d7763de"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # connectivity/administration & management

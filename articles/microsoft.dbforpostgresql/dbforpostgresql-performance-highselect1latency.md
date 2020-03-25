@@ -10,9 +10,10 @@
     supportTopicIds="32639985"
     resourceTags="servers, databases"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="292fcc3a-3194-41db-9b6a-81cc343089fd"
-    />
+    	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+/>
 
 # Troubleshooting high latency with 'Select 1'
 

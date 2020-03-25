@@ -12,6 +12,7 @@
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="21436305-8ddd-44f2-b3cc-9cba908ac0da"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Troubleshooting Azure File throughput issues

@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="22c146db-3d2c-4a4c-a15b-2a0e5435b52a"
+	ownershipId="ASMS_Billing"
 />
 
 # Why don't I see my subscriptions in Cost Management?

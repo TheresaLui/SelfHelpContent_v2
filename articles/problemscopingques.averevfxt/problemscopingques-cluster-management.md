@@ -9,6 +9,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="c30ef577-2a5f-4f97-87ba-c926edb2352c"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Problems with cluster management
 ---

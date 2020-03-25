@@ -14,7 +14,8 @@
   	productPesIds="16259"
   	cloudEnvironments="public,blackForest,fairfax,mooncake"
   	articleId="sqlmanagedinstance-connectivity-long-recovery"
-  />
+  	ownershipId="AzureData_AzureSQLMI"
+/>
 
 # Managed Instance - Long recovery
 

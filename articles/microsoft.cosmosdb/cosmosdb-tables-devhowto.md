@@ -13,6 +13,7 @@
 	articleId="cosmosdb-tables-devhowto"
 	displayOrder="300"
 	category="Azure Table"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Tables 
@@ -35,13 +36,13 @@ Then, learn about the premium capabilities you can leverage:
 * Automatic secondary indexing: all columns get automatically indexed by default
 * [Global distribution](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally): tables can be replicated to any Azure datacenter to ensure low latency and high availability
 
-### **Changing throughput in Table api using .net sdk**
+### **Changing throughput in Table API using .NET SDK**
 
-If you are having troubles changing the throughput using .net sdk, be sure you have updated your SDK. [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet)  
+If you are having troubles changing throughput using the .NET SDK, make sure to update it to the latest version [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet)  
 
 Solution:
-* Sample code to change the throughput in table api using .net sdk [Easier APIs for scaling throughput](https://azure.microsoft.com/blog/new-for-developers-azure-cosmos-db-net-sdk-v3-now-available/).
-* *ReplaceThroughputAsync* property [Container.ReplaceThroughputAsync](https://docs.microsoft.com/dotnet/api/microsoft.azure.cosmos.container.replacethroughputasync?view=azure-dotnet)  
+* Sample code to change the throughput in table api using .NET SDK [Easier APIs for scaling throughput](https://azure.microsoft.com/blog/new-for-developers-azure-cosmos-db-net-sdk-v3-now-available/).
+
 
 
 ### **Not able to create a Table via Portal**
@@ -55,7 +56,7 @@ If you need to migrate data to Azure table or export to a json file.
 
 Solution:
 * We recommend migrating data from Cosmos Table API using [Data Migration Tool](https://docs.microsoft.com/azure/cosmos-db/table-import#data-migration-tool)
-* sample to migrate data from Cosmos Table API to a JSON file
+* Sample below to migrate data from Cosmos Table API to a JSON file  
 
 ```
 dt /s:AzureTable 

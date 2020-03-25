@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32639982"
 	productPesIds="16222"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-pg-connectivity-firewall"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Database Connectivity - Firewall rules or VNETs
 ---

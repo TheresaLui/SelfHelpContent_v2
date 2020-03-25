@@ -13,7 +13,8 @@
 	supportTopicIds="32633501"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # sql administration/database

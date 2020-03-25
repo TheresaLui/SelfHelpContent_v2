@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="6382c71f-90e8-4fd7-810c-03c35b01bdb9"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # When the SAP HANA backup policy configuration has issue follow these troubleshooting steps 

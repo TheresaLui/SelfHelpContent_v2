@@ -12,6 +12,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public"
 	articleId="payment-issueswithbillingandpayment"
+	ownershipId="ASMS_Billing"
 />
 
 # payment-my issue is not listed above

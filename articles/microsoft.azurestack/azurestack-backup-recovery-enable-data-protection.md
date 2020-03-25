@@ -10,8 +10,9 @@
     supportTopicIds="32629196"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="abdc2tg3-706d-401c-b984-f433c12f1e9f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Enable Data Protection with Azure Backup Server

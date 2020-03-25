@@ -12,6 +12,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="30508b1e-3c9c-4509-8feb-a75aec16d19d"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Restore a dropped managed instance database (Preview)

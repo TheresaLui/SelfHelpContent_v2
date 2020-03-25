@@ -10,6 +10,7 @@ supportTopicIds="32612494"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Office 365

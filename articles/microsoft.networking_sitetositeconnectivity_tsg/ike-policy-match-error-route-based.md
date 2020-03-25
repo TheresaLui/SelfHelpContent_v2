@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="661209f0-a42c-4f13-9c70-3f9d664b589f"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # IKE Policy Match Error (Route Based)

@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="b3d27792-4512-46f7-adb6-715d1c64ef64"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Issue with Azure Monitoring alerts 

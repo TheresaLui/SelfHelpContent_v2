@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="3f9efb16-ee1e-4ddb-bf0a-d5fd491d7ce5"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to check for traffic selector misconfiguration

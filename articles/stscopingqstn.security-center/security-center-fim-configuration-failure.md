@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="a15f057d-9001-2012-a98a-dfaf3843dc2f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 #  Azure Security Center File Integrity monitor Configuration failure

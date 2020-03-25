@@ -10,8 +10,9 @@
     supportTopicIds="32690778,32690779,32690780,32690781,32690782,32690783"
     resourceTags=""
     productPesIds="14749"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="0e4cade2-509a-40c5-853e-5a6980461ca3"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Cannot activate my Windows VM
@@ -20,7 +21,7 @@
 
 ## **Recommended Steps**
 
-Generally, Azure VM activation issues occur if the Windows VM is not configured by using the appropriate KMS client setup key, or the Windows VM has a connectivity problem to the Azure KMS service (**kms.core.windows.net, port 1668**).<br>
+Generally, Azure VM activation issues occur if the Windows VM is not configured by using the appropriate KMS client setup key, or the Windows VM has a connectivity problem to the Azure KMS service (**kms.core.windows.net, port 1688**).<br>
 
 ### You are using the Azure KMS Service and VM is not configured correctly
 

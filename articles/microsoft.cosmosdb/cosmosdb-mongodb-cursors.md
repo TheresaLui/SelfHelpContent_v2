@@ -13,6 +13,7 @@
 	articleId="cosmosdb-mongodb-cursors"
 	displayOrder="222"
 	category="MongoDB"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # MongoDB - Cursor support
 

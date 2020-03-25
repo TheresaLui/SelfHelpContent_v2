@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="59812453-64e1-49f2-b4ef-0e21927c06a1"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # I am not able to complete the device configuration in the Azure portal.

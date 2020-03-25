@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639966"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-createupdatedrop-armtemplate"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Create Update and Drop Resources - ARM template issues
 ---

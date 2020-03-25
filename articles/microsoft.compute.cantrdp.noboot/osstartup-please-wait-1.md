@@ -14,7 +14,8 @@
     supportTopicIds=""
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # VM Boot Error

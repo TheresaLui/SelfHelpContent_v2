@@ -4,9 +4,10 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32565671" 
 	 productPesIds="14785" 
-	 cloudEnvironments="public" 
+	 cloudEnvironments="public, Fairfax, Mooncake" 
 	 schemaVersion="1"
 	articleId="90a950a0-4323-4d24-a082-8126a02fe8f3"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Problem with AAD B2B 
 ---

@@ -1,14 +1,15 @@
 <properties
     pageTitle="Azure Stack pricing and licensing or partner center usage (for CSPs) questions"
     description="Azure Stack pricing and licensing or partner center usage (for CSPs) questions"
-    authors="TobyTu"
-    ms.author="prchint"
+    authors="ScottAzure"
+    ms.author="alexsmit, mquian, v-miegge"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629236,32629239"
     productPesIds="16226"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax"
     schemaVersion="1"
     articleId="b4b6273d-558e-4f2d-4872-36a830ea0098"
+    ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 # Azure Stack pricing and licensing or partner center usage (for CSPs) questions
 
@@ -80,7 +81,7 @@
                     "value": "1908",
                     "text": "1908"
                 },
-		{
+        {
                     "value": "1907",
                     "text": "1907"
                 },
@@ -169,7 +170,7 @@
             "watermarkText": "Navigate to Azure Stack Region management, then click Properties",
             "infoBalloonText": "Navigate to Azure Stack Region management, then click Properties",
             "required": false
-		}, {
+        }, {
             "id": "alert_name",
             "order": 7,
             "controlType": "dropdown",
@@ -187,22 +188,22 @@
         ],
             "required": false
         }, {
-			"id": "problem_start_time",
-			"order": 8,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		}, {
-			"id": "problem_description",
-			"order": 9,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": []
-		}
-	],
+            "id": "problem_start_time",
+            "order": 8,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        }, {
+            "id": "problem_description",
+            "order": 9,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": []
+        }
+    ],
   "$schema": "SelfHelpContent"
 }
 ---
