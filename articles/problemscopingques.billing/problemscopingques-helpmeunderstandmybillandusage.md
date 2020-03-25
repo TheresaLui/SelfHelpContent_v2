@@ -34,7 +34,7 @@
             "controlType": "textbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Invoice # (if applicable)",
-            "watermarkText": "Provide your Invoice #",
+            "watermarkText": "Provide your Invoice#. If you dont have any, please use N/A",
             "required": true
         },
         {
