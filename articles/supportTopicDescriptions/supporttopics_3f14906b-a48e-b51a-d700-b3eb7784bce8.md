@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "09da8471-a047-457b-fb55-1a36384c4497",
+      "longDescription": "",
+      "shortDescription": "You are experiencing issues while scaling your server vCores, storage, or scaling between pricing tiers",
+      "searchTags": "issues while scaling",
+      "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2e6fccb9-a69a-1e56-48a7-c98eec8c63c1",
       "longDescription": "",
       "shortDescription": "You received the (too many connections) error message.",
