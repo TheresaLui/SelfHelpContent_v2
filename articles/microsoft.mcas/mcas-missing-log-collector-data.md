@@ -7,7 +7,7 @@
   authors="shsagir"
   ms.author="shsagir"
   displayOrder=""
-  articleId="mcas-missing-log-collector-data"
+  articleId="mcas-cloud-discovery-data"
   diagnosticScenario=""
   selfHelpType="generic"
   supportTopicIds="32728969, 32728972"
