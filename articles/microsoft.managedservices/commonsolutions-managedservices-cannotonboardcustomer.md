@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16761"
 	cloudEnvironments="public, fairfax"
+	ownershipId="Compute_AzureLighthouse"
 />
 
 # Cannot onboard customer
