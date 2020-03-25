@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="problemscopingques-sqlmi-importexportreplication-importfrombacpac"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # Import from BACPAC to create SQL DB MI
 ---

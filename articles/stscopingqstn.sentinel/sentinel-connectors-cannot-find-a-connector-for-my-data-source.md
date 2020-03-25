@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-connectors-cannot-find-a-connector-for-my-data-source"
+	ownershipId="Azure_Sentinel"
 />
 
 # Cannot find a connector for your data source

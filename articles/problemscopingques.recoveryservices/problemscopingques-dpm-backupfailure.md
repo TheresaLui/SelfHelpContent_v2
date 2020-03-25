@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="229892a8-0d21-433a-90cd-a32f8ec9abd8"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions DPM - Online backup is failing
 ---

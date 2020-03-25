@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="sqlmanagedinstance-perf-plan-cache-defect"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Managed Instance - Plan cache defect

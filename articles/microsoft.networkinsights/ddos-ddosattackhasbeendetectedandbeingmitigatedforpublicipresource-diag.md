@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureDDoSProtection"
 />
 
 # Customer is Onboarded to DDoS Standard and Creates a Case for an Attack on a Public IP Under Mitigation

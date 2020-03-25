@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553285,32637322"
          productPesIds="15207,15571,15797,16454,16470,14749"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	articleId="4142b082-0f6b-4169-80b3-6f551a623d13"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM configuration protection failure 
 ---

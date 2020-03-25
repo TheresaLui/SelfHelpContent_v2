@@ -11,6 +11,7 @@
 	supportTopicIds="32553276"
 	productPesIds="15207"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # ExtensionSnapshotFailedNoNetwork

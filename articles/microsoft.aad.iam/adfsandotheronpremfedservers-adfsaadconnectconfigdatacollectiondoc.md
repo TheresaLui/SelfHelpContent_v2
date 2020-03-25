@@ -4,9 +4,10 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32570969" 
 	 productPesIds="14785" 
-	 cloudEnvironments="public" 
+	 cloudEnvironments="public, Fairfax, Mooncake" 
 	 schemaVersion="1"
 	articleId="449f31ee-7fb9-4388-ac36-54e21a6bcac8"
+	ownershipId="ASEP_ContentService_Placeholder"
 /> 
 # Problem with ADFS AD connect configeration 
 ---

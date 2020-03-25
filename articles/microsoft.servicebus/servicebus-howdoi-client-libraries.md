@@ -12,6 +12,7 @@
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax, MoonCake"
 	articleid="servicebus-howdoi-client-libraries"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Questions with SB client libraries or API

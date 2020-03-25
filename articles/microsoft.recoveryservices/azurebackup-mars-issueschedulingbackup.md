@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="dd309100-96f1-4b6d-8707-cd2e7a813686"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Files and Folder backup issue with scheduling backup

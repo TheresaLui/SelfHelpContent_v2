@@ -13,6 +13,7 @@
 	articleId="cosmosdb-notebooks"
 	displayOrder="91"
 	category="Azure Cosmos DB - Notebooks"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Jupyter Notebooks

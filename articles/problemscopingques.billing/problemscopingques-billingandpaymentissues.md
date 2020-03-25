@@ -9,6 +9,7 @@
     articleId="b4b6273d-558e-4f2d-ab00-36a830ea4354"
     cloudEnvironments="public"
     schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 
 # Billing and Payment Issues

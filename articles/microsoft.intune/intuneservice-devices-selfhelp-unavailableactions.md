@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="8ea6c0ee-82aa-47f2-9ed6-1cad6c3e0676"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Why are certain remote actions not available for me to use?

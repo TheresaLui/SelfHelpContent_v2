@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="purchase-and-upgrade-subscriptions"
+	ownershipId="ASMS_Billing"
 />
 
 # I need to purchase or upgrade my subscription

@@ -12,6 +12,7 @@
 	productPesIds="15629,16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="d7132073-0d2e-417a-93f4-4c18aa7b8570"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Advanced Threat Protection for Azure Storage

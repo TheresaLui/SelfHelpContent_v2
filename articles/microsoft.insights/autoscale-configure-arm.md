@@ -11,6 +11,7 @@
     supportTopicIds="32683739"
     productPesIds="15527"
     cloudEnvironments="public,fairfax,mooncake"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- autoscale-configure-arm -->

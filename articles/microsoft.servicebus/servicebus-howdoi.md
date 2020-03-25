@@ -12,6 +12,7 @@
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax, MoonCake"
 	articleid="a9683551-c76e-4fc8-b954-43bfca6fbfcc"
+	ownershipId="AzureMessaging_Common"
 />
 
 # how do i

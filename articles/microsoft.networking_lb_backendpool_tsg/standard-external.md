@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="4af8436b-767f-444a-8499-330740d8d7da"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check the VIP/DIP of Standard External LB

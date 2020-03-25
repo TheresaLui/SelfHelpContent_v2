@@ -12,6 +12,7 @@
 	productPesIds="14783"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="b7b5f6ac-3701-4b11-b64b-a26bec857a0d"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # Missing or inaccurate metrics with Azure Cache for Redis

@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-creating-alerts-creating-threat-hunting-queries"
+	ownershipId="Azure_Sentinel"
 />
 
 # Create threat hunting queries

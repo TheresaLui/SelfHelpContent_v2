@@ -11,6 +11,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public"
 	articleId="d2769371-bb41-4453-a05e-2153f2e33657"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # setup and configuration/question on pricing

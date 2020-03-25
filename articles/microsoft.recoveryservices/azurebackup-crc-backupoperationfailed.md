@@ -13,6 +13,7 @@
 	supportTopicIds=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Backup failed with an internal error

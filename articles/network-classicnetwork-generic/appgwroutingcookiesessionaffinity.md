@@ -12,6 +12,7 @@
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cookie-based-affinity"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Cookie Based Session Affinity

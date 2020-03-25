@@ -11,6 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="sqldb-selfhelp-solutions-backuprestore-failovergroupsandgeoreplication"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Backup/restore/failovergroupsandgeoreplication

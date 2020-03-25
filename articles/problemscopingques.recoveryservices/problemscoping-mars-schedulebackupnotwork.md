@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
    	 articleId="c8ce31ba-6bd9-4d73-8109-8fb6dd37f86c"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MARS scheduled backup is not run automatically
 ---

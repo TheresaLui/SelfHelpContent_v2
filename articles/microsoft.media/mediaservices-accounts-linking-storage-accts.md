@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="14885"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Azure Media Services linking and managing storage accounts

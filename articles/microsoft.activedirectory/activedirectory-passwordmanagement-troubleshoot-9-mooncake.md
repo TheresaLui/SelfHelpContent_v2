@@ -10,6 +10,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="MoonCake"
     articleId="activedirectory-passwordmanagement-troubleshoot-9-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Browse password reset documentation to find answers

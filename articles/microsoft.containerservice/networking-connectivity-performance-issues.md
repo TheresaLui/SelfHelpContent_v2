@@ -10,8 +10,9 @@
     supportTopicIds="32683759"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="networking-connectivity-performance-issues"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Kubernetes Service

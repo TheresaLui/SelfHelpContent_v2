@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="64e49407-8a7c-4f90-8027-bef3bc0d6fec"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # servicefabric

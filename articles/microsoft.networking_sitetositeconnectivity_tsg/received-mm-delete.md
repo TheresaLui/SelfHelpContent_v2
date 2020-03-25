@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="cc77a482-d124-4230-899f-3e91eea8da27"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Received MM Delete

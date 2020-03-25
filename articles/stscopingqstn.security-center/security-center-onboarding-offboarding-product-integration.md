@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="920335e4-8548-4e24-9a8e-c232ab6a636c"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Security Center - Onboarding or Offboarding Agent - Product Integration

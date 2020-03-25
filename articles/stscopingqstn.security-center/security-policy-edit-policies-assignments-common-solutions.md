@@ -13,6 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="10e15626-7ad8-4ca2-8885-74242b55fd0c"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Security Policy - Edit policies assignments Common Solutions

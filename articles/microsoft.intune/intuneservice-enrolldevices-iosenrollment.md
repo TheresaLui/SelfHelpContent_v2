@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="ec7cea88-2266-4345-b838-e3ab24c00890"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Enroll Devices - iOS Enrollment

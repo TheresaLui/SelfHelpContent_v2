@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="activedirectory-userandgroups-cantassignroles-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I can’t assign roles to other users in the Azure AD tenant

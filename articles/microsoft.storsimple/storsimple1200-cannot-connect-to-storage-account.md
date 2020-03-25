@@ -14,6 +14,7 @@
 	resourceTags="9000Or1200Series"
 	productPesIds="16161"	
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Cannot connect to storage account 

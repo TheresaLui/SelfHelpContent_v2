@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # File Sync failed to upload **<!--$TotalFileCount-->[TotalFileCount]<!--/$TotalFileCount-->** broken tiered file(s)

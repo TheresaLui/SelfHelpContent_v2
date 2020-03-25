@@ -9,6 +9,7 @@
     cloudEnvironments="public,fairfax"
     schemaVersion="1"
     articleId="6354A649-B8DD-4E8A-AA65-917CA11ECBD0"
+	ownershipId="AzureData_AzureSQLVM"
 />
 # performance/virtual machine
 ---

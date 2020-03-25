@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="problemscopingques-sql-bacpacdatasynccopydbreplication-transactionalreplicationtoazuresqldb-db"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Transactional Replication to Azure SQL DB
 ---

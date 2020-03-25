@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="63b40586-8ce9-4541-a61b-e81971001dbd"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # No Connection Object

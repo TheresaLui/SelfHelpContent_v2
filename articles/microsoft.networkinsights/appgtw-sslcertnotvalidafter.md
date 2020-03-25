@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Microsoft Azure has identified an issue with your Application Gateway authentication certificate
 <!--issueDescription-->

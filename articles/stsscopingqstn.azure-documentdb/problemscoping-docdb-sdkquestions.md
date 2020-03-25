@@ -8,6 +8,7 @@
   cloudEnvironments="public"
    schemaVersion="1"
    articleId="71e1d3f8-711d-471d-97ef-b6a99e84e2df"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # DocumentDb SDK Issues
 ---

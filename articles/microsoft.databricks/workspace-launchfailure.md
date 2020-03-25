@@ -7,11 +7,12 @@
 	ms.author="deeptivu"
 	displayOrder="15"
 	selfHelpType="generic"
-	supportTopicIds="32677735"
+	supportTopicIds="32677735, 32688714"
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="e900d305-69fb-4a05-a0ce-68e94b4dbce2"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Workspace launch failure in VNET injected workspace

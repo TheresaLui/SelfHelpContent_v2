@@ -12,7 +12,8 @@
 	productPesIds="15922"
     supportTopicIds="32680758"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
- />
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Application Gateway Intermittent 502 errors
 

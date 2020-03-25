@@ -9,8 +9,9 @@
 	supportTopicIds="32608429"
 	resourceTags=""
 	productPesIds="16533"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="2aca238a-96c5-4d78-bec2-6e193757c4b4"
+	ownershipId="Compute_AppService"
 />
 
 # Creation Issues\Portal Deployment

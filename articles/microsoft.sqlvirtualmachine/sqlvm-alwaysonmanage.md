@@ -12,6 +12,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public,fairfax"
 	articleId="98ae2e56-780c-45ab-abe7-677f66ad56f9"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # alwayson hadr/alwayson manage

@@ -15,6 +15,7 @@ resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 	articleId="29181eef-5603-4200-8acf-ae7d5317aaa9"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Pricing or Billing Questions

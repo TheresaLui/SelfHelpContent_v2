@@ -10,8 +10,9 @@
     supportTopicIds="32663933"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="662f64b1-781e-4263-80c2-a6b8ff6e3fe7"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Patch and Update Management

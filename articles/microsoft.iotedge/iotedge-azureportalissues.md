@@ -11,6 +11,7 @@
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="8e8e3fc4-c61c-4cf6-a84b-0d2458e87c56"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # Problems related to the Azure portal

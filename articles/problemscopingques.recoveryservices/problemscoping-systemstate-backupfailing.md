@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="fc35ea46-7f1c-43aa-84bd-c85caf7ed73b"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions system state backup failure
 ---

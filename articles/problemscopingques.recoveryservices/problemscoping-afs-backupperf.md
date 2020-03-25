@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="78d9d4fe-4e02-4f16-9e66-ab9529f5c0ae"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for Azure File Share backup performance issue
 ---

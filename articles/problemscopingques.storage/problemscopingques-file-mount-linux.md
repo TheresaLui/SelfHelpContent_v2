@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="79f6826d-4649-4cd1-bb10-5ea01b616d3d"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Storage File Share mounting issues - Linux
 ---

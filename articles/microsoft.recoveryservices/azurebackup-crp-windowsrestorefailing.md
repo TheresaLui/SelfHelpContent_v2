@@ -10,8 +10,9 @@
 	supportTopicIds="32637326"
 	resourceTags="Windows"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="6e895e83-d9a3-456c-b82b-d9c5a6a20365"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Azure Backup - Restore is failing

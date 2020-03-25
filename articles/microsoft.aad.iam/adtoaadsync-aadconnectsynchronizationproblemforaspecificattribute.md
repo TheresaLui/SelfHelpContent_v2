@@ -5,10 +5,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32565590"
     productPesIds="14785"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake"
     schemaVersion="1"
     articleId="c3f74466-ee43-4568-9ae0-2258be8d4bb1"
-    />
+    	ownershipId="ASEP_ContentService_Placeholder"
+/>
 
 # Azure AD Connect synchronization issue with specific attribute
 

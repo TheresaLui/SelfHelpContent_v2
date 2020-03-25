@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="1646127d-343b-4c92-8be4-331671a32a20"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check for outages in the region

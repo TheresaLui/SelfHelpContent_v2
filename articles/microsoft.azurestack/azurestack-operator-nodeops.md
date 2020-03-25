@@ -10,8 +10,9 @@
     supportTopicIds="32629188"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-operator-nodeops"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Node Node Management issues

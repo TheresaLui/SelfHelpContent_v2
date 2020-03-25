@@ -10,6 +10,7 @@ supportTopicIds="32612513"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Create or delete workspace

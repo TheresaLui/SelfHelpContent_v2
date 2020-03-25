@@ -12,6 +12,7 @@
 	productPesIds="15629"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="f2be20c0-4a8e-4926-a468-ba823f86d27c"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Move Resources Between RG or Subscription

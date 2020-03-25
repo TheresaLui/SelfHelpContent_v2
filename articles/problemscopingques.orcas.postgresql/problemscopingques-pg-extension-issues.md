@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639990"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
     articleId="problemscopingques-pg-extension-issues"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Extensions - Issues with extensions
 ---

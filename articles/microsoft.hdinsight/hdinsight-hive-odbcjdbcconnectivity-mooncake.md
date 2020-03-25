@@ -12,6 +12,7 @@
   productPesIds=""
   cloudEnvironments="MoonCake"
   ArticleId="hdinsight-hive-odbcjdbcconnectivity-mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # ODBC-JDBC connectivity 

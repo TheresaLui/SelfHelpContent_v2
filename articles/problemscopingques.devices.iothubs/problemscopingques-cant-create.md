@@ -9,6 +9,7 @@
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	schemaVersion="1"
 	articleId="a52dc0cc-c9e5-4971-9e51-4ae943380c6c"
+	ownershipId="AzureIot_IotHub"
 />
 # Can't create IoT hub
 ---

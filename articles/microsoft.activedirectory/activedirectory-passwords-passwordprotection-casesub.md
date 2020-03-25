@@ -10,8 +10,9 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake"
  	articleId="b6fbe8c2-b0b1-4fa5-ab99-b199b179f204"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Azure AD Password Protection

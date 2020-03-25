@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I cannot find metrics or logs for my application

@@ -12,6 +12,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="a15f057d-8uj6-4b77-a98a-dfaf3843dc2f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Data Collection Common Solutions

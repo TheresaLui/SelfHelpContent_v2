@@ -11,6 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="ca4a0ff5-c845-4d23-91f8-47a63c46765e"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # performance and query execution/my issue is not listed

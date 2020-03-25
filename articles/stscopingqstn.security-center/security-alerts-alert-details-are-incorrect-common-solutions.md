@@ -13,6 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="4daa9bd3-7bd3-4805-8961-c3d261c17ae1"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Security Alerts - Alert details are incorrect Common Solutions

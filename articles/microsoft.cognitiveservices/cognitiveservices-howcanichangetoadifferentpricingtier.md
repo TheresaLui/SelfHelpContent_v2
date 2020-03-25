@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public, MoonCake"
 	articleId="ffbc5027-c4cc-4b1b-bfec-15e49a08bb10"
+	ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # How can I change to a different pricing tier?

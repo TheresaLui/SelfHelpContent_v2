@@ -10,8 +10,9 @@
 	supportTopicIds="32632935"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="assistancewithbillorusage-helpmeunderstandmybillandusage"
+	ownershipId="ASMS_Billing"
 />
 
 # help me understand my bill and usage
@@ -28,7 +29,7 @@
 
   ### **For EA Customers: Review service overage invoice**
 
-  * Sign in to the [Enterprise portal](https://ea.azure.com/)
+  * Sign in to the **Enterprise portal**
   * Select **Reports**
   * On the top right-hand corner of the tab, switch the view from **M** to **C** and match the period on the invoice
   * The Total **Usage** amount should match the Total **Extended** Amount on your service overage invoice
@@ -40,7 +41,7 @@
 
   Compare your Azure Marketplace total on Reports > Usage Summary in the Enterprise portal with your marketplace invoice. The marketplace invoice is only for Azure Marketplace purchases and usage. The amounts on the Usage Summary don't include tax.
   
-  * Sign in to the  [Enterprise portal](https://ea.azure.com/)
+  * Sign in to the **Enterprise portal**
   * Select **Reports**
   * On the top right-hand corner of the tab, switch the view from **M** to **C** and match the period on the invoice
   * The **Azure Marketplace** total should match the **Total Sale** on your marketplace invoice

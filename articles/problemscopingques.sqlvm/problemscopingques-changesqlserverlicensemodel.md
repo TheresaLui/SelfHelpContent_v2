@@ -9,6 +9,7 @@
     cloudEnvironments="public,fairfax"
     schemaVersion="1"
     articleId="FE334468-7880-47A2-A6B7-35CF78B47546"
+	ownershipId="AzureData_AzureSQLVM"
 />
 # licensing/changing sql licensing model
 ---

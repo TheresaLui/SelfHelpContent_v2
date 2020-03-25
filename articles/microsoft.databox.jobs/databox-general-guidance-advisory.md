@@ -13,6 +13,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
 	articleId="General guidance or Advisory"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box general guidance or advisory

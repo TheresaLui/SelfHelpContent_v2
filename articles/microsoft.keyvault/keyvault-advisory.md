@@ -7,11 +7,12 @@
 	ms.author="jalichwa"
 	displayOrder="10"
 	selfHelpType="generic"
-	supportTopicIds="32452742"
+	supportTopicIds="32452742, 32738119, 32738115, 32738120, 32738118, 32738117, 32738116"
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="ee2740e9-e40c-4c32-ab2c-0ec8414b28c3"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Advisory for Key Vault related tasks
