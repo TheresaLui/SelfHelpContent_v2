@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ab329b40-0d44-6b2f-039b-2d65887b8266",
+      "longDescription": "",
+      "shortDescription": "You have questions about monitoring your server, metrics displayed in the Azure portal, or configuring metric alerts.",
+      "searchTags": "metrics;configure alerts",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ea674821-8234-733c-4681-cb9fddcd947a",
       "longDescription": "",
       "shortDescription": "Your connections to the server have been dropped unexpectedly.",
