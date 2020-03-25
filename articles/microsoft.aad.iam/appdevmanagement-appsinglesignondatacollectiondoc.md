@@ -75,9 +75,27 @@
             "numberOfLines": 0
         },
         {
-            "id": "hasErrorData",
+            "id": "problem_description",
             "visibility": null,
             "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "If you received an error, please provide the error message details:",
+            "content": null,
+            "watermarkText": "AADSTSXXXXX: error message, Error message from the application, etc... ",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": true,
+            "numberOfLines": 3,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "hasErrorData",
+            "visibility": null,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Do you have a correlation ID and Timestamp for an error related to this problem?",
             "content": null,
@@ -103,7 +121,7 @@
         {
             "id": "getCorrelationId",
             "visibility": "hasErrorData==no",
-            "order": 5,
+            "order": 6,
             "controlType": "infoblock",
             "displayLabel": null,
             "content": "Microsoft can provide a solution to your problem faster if you can get a correlation ID and Timestamp for this problem, reproduce the error by signing into the app with your own account.",
@@ -119,7 +137,7 @@
         {
             "id": "correlationId",
             "visibility": "hasErrorData==yes",
-            "order": 6,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "Correlation ID from Error message:",
             "content": null,
@@ -136,7 +154,7 @@
         {
             "id": "timestamp",
             "visibility": "hasErrorData==yes || hasErrorData==no",
-            "order": 7,
+            "order": 8,
             "controlType": "textbox",
             "displayLabel": "Timestamp from Error message:",
             "content": null,
@@ -153,7 +171,7 @@
         {
             "id": "appNameOrId",
             "visibility": "null",
-            "order": 8,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the Application name or Application ID experiencing this problem?",
             "content": null,
@@ -170,7 +188,7 @@
         {
             "id": "userNameOrId",
             "visibility": "hasErrorData==no",
-            "order": 9,
+            "order": 10,
             "controlType": "textbox",
             "displayLabel": "Which user is experiencing this problem?",
             "content": null,
@@ -183,23 +201,6 @@
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
             "diagnosticInputRequiredClients": "Portal"
-        },
-        {
-            "id": "problem_description",
-            "visibility": null,
-            "order": 10,
-            "controlType": "multilinetextbox",
-            "displayLabel": "If you received an error, please provide the error message details:",
-            "content": null,
-            "watermarkText": "AADSTSXXXXX: error message, Error message from the application, etc... ",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "hints": null,
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": true,
-            "numberOfLines": 3
         },
         {
             "id": "problem_start_time",

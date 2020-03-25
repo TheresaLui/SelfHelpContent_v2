@@ -20,6 +20,11 @@
     "subscriptionRequired": false,
     "title": "Azure Active Directory Sign-In and Multi-Factor Authentication",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+        "title": "Problem with Conditional Access Resultant Set of Policy",
+        "description": "Our self-service troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
+    },
     "formElements": [
         {
             "id": "VerboseTracing",
@@ -111,9 +116,27 @@
             "numberOfLines": 0
         },
         {
+            "id": "problem_description",
+            "visibility": null,
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "If you received an error, please provide the error message details:",
+            "content": null,
+            "watermarkText": "AADSTSXXXXX: error message, Error message from the application, etc... ",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": true,
+            "numberOfLines": 3,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
             "id": "correlationId",
             "visibility": "hasErrorData==yes",
-            "order": 6,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "Correlation ID from Error message:",
             "content": null,
@@ -124,12 +147,13 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "timestamp",
             "visibility": "hasErrorData==yes || hasErrorData==no",
-            "order": 7,
+            "order": 8,
             "controlType": "textbox",
             "displayLabel": "Timestamp from Error message:",
             "content": null,
@@ -145,7 +169,7 @@
         {
             "id": "appNameOrId",
             "visibility": "hasErrorData==no",
-            "order": 8,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the Application name or Application ID experiencing this problem?",
             "content": null,
@@ -161,7 +185,7 @@
         {
             "id": "userNameOrId",
             "visibility": null,
-            "order": 9,
+            "order": 10,
             "controlType": "textbox",
             "displayLabel": "Which user is experiencing this problem?",
             "content": null,
@@ -173,23 +197,6 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
-        },
-        {
-            "id": "problem_description",
-            "visibility": null,
-            "order": 10,
-            "controlType": "multilinetextbox",
-            "displayLabel": "If you received an error, please provide the error message details:",
-            "content": null,
-            "watermarkText": "AADSTSXXXXX: error message, Error message from the application, etc... ",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "hints": null,
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": true,
-            "numberOfLines": 3
         },
         {
             "id": "problem_start_time",
