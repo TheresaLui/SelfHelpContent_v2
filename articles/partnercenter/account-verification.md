@@ -23,7 +23,7 @@
 ## **Recommended Steps**
 For information on how to fix legal business name or email address:
 
-- Verify and update company’s registered legal business name. [CSP](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) or [MPN](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile)
+- Verify and update company’s registered legal business name: [CSP](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) or [MPN](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile)
 - Verify and update email using official email address: [CSP](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) or [MPN](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile)
 
 For information on how to fix [employment verification](https://docs.microsoft.com/partner-center/verification-responses) or [Business verification](https://docs.microsoft.com/partner-center/verification-responses#what-is-verified-and-how-to-respond) failures:
