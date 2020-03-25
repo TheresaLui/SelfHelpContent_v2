@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "db88971e-0d84-0cfe-6fc6-dcd8c38a64de",
+      "longDescription": "",
+      "shortDescription": "You want to change a server parameter that is not listed in the Azure portal.",
+      "searchTags": "server parameter not supported",
+      "category": "Server Parameters",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ea674821-8234-733c-4681-cb9fddcd947a",
       "longDescription": "",
       "shortDescription": "Your connections to the server have been dropped unexpectedly.",
