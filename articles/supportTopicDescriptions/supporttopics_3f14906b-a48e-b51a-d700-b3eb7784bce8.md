@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ce0c3dc4-b261-b39f-6082-aac85bd12594",
+      "longDescription": "",
+      "shortDescription": "You are not able to change a server parameter value.",
+      "searchTags": "modify server parameters",
+      "category": "Server Parameters",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d8c74c88-5e06-f1e4-e905-846b2eca02d2",
       "longDescription": "",
       "shortDescription": "You have questions about long term retention of backups",
