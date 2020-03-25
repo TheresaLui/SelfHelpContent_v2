@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "32f974b4-9bfa-a318-6a6f-9a96618ed013",
+      "longDescription": "",
+      "shortDescription": "You have issues with an Azure CLI command",
+      "searchTags": "azure cli",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "38190b7e-4f63-2f56-17a7-d895f5d3d0d2",
       "longDescription": "",
       "shortDescription": "You have issues using PowerShell",
