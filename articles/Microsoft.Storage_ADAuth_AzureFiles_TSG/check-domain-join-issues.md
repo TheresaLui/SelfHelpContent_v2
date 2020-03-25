@@ -6,7 +6,7 @@
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""
-    selfHelpType="TSG_Summary"
+    selfHelpType="TSG_Content"
     supportTopicIds="32689882"
     resourceTags=""
     productPesIds="1003478"
@@ -17,4 +17,4 @@
 
 # Customer is facing domain join issues 
 
-Please request the customer to share the error they receive while running the **"Join-AzStorageAccountforAuth"** command. 
+Please request the customer to share the error they receive while running the **"Join-AzStorageAccountforAuth"** command.
