@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f5cb9244-28c2-7fb3-c3f4-66970dddbaa2",
+      "longDescription": "",
+      "shortDescription": "You need troubleshooting assistance for metrics displayed in the Azure portal.",
+      "searchTags": "azure monitor;metrics",
+      "category": "Monitoring and Alerting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f61523ae-f316-487e-fe9d-c3639b40b28d",
       "longDescription": "",
       "shortDescription": "You received the (unknown MySQL server host) error",
