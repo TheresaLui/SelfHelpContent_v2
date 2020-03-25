@@ -19,7 +19,7 @@ ownershipId="StorageMediaEdge_AccountManagement"
 # Storage account name already taken
 <!--issueDescription-->
 
-Storage account name **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be use because it is already taken in Azure. Please create a new storage account with a different unique name.
+Storage account name **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be used because it is already taken in Azure. Please create a new storage account with a different unique name.
 <!--/issueDescription-->
 
 [Storage accounts name must be globally unique across Azure](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-storage-account-name-errors). If you do not provide a unique name, you receive an error like:
