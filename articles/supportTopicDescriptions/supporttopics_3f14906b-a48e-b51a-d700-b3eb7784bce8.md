@@ -6,19 +6,20 @@
   selfhelptype="SupportTopicDescription"
   productpesids="3f14906b-a48e-b51a-d700-b3eb7784bce8"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_3f14906b-a48e-b51a-d700-b3eb7784bce8" />
+  articleid="supporttopics_3f14906b-a48e-b51a-d700-b3eb7784bce8"
+  ownershipid="" />
 # Support Topic Descriptions for 3f14906b-a48e-b51a-d700-b3eb7784bce8
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
-  "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "shortDescription": "Azure Database for MariaDB is a fully managed relational database service powered by the MariaDB community edition",
+  "longDescription": "",
+  "productLink1": "https://azure.microsoft.com/services/mariadb/",
+  "productLinkName1": "Azure Database for MariaDB Overview",
+  "productLink2": "https://docs.microsoft.com/azure/mariadb/overview",
+  "productLinkName2": "What is Azure Database for MariaDB",
+  "productLink3": "https://docs.microsoft.com/azure/mariadb/quickstart-create-mariadb-server-database-using-azure-portal",
+  "productLinkName3": "Create an Azure Database for MariaDB",
   "supportTopics": [
     {
       "id": "0658a569-cd97-7245-9bdf-35fb95cbfbad",
