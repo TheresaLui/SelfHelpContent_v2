@@ -91,6 +91,14 @@
       "searchTags": "unavailable;not able to connect;connection issues",
       "category": "Availability and Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fdaf3087-98fb-ce83-eeed-e5b4e08b5d00",
+      "longDescription": "",
+      "shortDescription": "You have questions about monitoring performance through the Azure portal, metrics, or configuring alerts.",
+      "searchTags": "set up alerts",
+      "category": "Monitoring and Alerting",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
