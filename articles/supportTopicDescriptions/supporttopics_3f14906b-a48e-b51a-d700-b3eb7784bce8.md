@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d8c74c88-5e06-f1e4-e905-846b2eca02d2",
+      "longDescription": "",
+      "shortDescription": "You have questions about long term retention of backups",
+      "searchTags": "long term backup",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ea674821-8234-733c-4681-cb9fddcd947a",
       "longDescription": "",
       "shortDescription": "Your connections to the server have been dropped unexpectedly.",
