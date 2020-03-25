@@ -19,7 +19,7 @@
 
 ## Customer detection
 
-1. Download [Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon) and install it on customer's machine. 
+1. Download [Process Monitor](https://docs.microsoft.com/sysinternals/downloads/procmon) and install it on customer's machine. 
 2. Collect a Process Monitor trace and right click on the event where Access was denied.
 example here. 
 3. Click on the **Process** tab. 
