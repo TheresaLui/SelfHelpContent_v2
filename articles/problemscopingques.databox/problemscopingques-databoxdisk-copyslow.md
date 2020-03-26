@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32639200"
 	productPesIds="16505"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,Fairfax"
 	schemaVersion="1"
     ownershipId="StorageMediaEdge_DataBox"
 />
