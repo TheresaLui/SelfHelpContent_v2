@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32639200"
 	productPesIds="16505"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax"
 	schemaVersion="1"
 />
 # Data Box Disk slow copy speed
