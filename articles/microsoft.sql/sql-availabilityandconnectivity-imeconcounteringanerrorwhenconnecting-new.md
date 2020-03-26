@@ -71,11 +71,11 @@ In case you cannot run in administrator mode please continue, the tool will stil
         #EncryptionProtocol = '' # Supported values: 'Tls 1.0', 'Tls 1.1', 'Tls 1.2'; Without this parameter operating system will choose the best protocol to use
     }
 
-$ProgressPreference = "SilentlyContinue";
-$scriptUrlBase = 'raw.githubusercontent.com/Azure/SQL-Connectivity-Checker/master'
-Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLConnectivityChecker.ps1')).Content)) -ArgumentList $parameters
-#end
-```
+    $ProgressPreference = "SilentlyContinue";
+    $scriptUrlBase = 'raw.githubusercontent.com/Azure/SQL-Connectivity-Checker/master'
+    Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLConnectivityChecker.ps1')).Content)) -ArgumentList $parameters
+    #end
+    ```
 
 4. Set the parameters on the script, you need to set server name. Database name, user and password are optional but desirable.
 
