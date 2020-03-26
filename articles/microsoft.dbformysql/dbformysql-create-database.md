@@ -23,7 +23,7 @@ Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Steps**
 
-* In Azure Database for MariaDB, `mysql` database is read only as it is used to support various PaaS service functionality. Please note that you cannot change anything in `mysql` database.
+* In Azure Database for MySQL, `mysql` database is read only as it is used to support various PaaS service functionality. Please note that you cannot change anything in `mysql` database.
 * Charset and collation are the only database properties that are supported in current framework. Please refer to [Supported charset and collation](https://dev.mysql.com/doc/refman/8.0/en/charset-charsets.html) for more information. If you would like to change other properties during database creation or update, connect to MySQL using a client like Azure CLI and execute [CREATE DATABASE](https://dev.mysql.com/doc/refman/8.0/en/creating-database.html) or [ALTER DATABASE](https://dev.mysql.com/doc/refman/8.0/en/alter-database.html).
 * To familiarize yourself with using ARM templates to create databases in Azure Database for MySQL server, refer to [Create databases in Azure Database for MySQL](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithDatabase) ARM template
 * Please note: "Update databases" is not an available option in the ARM Template. Please make sure charset and collation for a database stay the same when you rerun the deployment.
