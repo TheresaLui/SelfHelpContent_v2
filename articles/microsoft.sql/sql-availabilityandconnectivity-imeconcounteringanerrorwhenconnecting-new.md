@@ -57,7 +57,7 @@ In case you cannot run in administrator mode please continue, the tool will stil
 
 3. Paste the following in the script window:
 
-```powershell
+```
 $parameters = @{
     Server = '.database.windows.net'
     Database = ''  # Set the name of the database you wish to test, 'master' will be used by default if nothing is set
