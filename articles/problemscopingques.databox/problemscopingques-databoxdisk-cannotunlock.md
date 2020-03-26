@@ -1,4 +1,4 @@
-    <properties
+<properties
 	articleId="326392002"
 	pageTitle="Scoping Questions for Data Box Disk slow copy speeds"
 	description="Scoping Questions for Data Box Disk slow copy speeds"
