@@ -14,11 +14,13 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->  
 We were able to detect a login failure in the following Azure Member Database(s):<br>
+<br>
 **<!--$LoginFailedAzureMemberList--> LoginFailedAzureMemberList <!--/$LoginFailedAzureMemberList-->**
 <!--/issueDescription-->
 

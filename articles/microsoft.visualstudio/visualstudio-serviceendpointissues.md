@@ -7,25 +7,29 @@
 	authors="chrisjco"
 	ms.author="ccoop"
 	articleId="AZDevOpsServiceEndpointIssues"
-	supportTopicIds="32612990"
+	supportTopicIds="32612990, 32373544"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	resourceTags=""
 	productPesIds="15543"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # DevOps Services Endpoint Issues
 
+
 ## **Recommended Steps**
-* [Build Troubleshooting](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting?view=azure-devops)
-* [Troubleshooting Azure Resource Manager service endpoints](https://www.visualstudio.com/docs/build/actions/azure-rm-endpoint) 
-* Want a quicker answer? For quick answers to common questions and issues, try the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
-* For service impacting issues, please check the [Azure DevOps Services Status](https://status.dev.azure.com)
+
+* Check out our detailed guide on troubleshooting Azure Resource Manager service endpoints
+* Check out our detailed build and release troubleshooting guide
+* Want a quicker answer? For quick answers to common questions and issues, try the Azure DevOps Virtual Agent
+* For service impacting issues, please check Azure DevOps Services Status
 
 ## **Recommended Documents**
+
+* [Troubleshooting Azure Resource Manager service endpoints](https://www.visualstudio.com/docs/build/actions/azure-rm-endpoint)
 * [Build Troubleshooting](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting?view=azure-devops)
-* [Troubleshooting Azure Resource Manager service endpoints](https://www.visualstudio.com/docs/build/actions/azure-rm-endpoint) 
 * [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
 * [Azure DevOps Services Status](https://status.dev.azure.com)
 

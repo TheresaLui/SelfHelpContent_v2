@@ -15,9 +15,13 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Offer restrictions or availability
 
 ## **Recommended Documents**
 
-* **[Cloud Solution Provider program regional markets and currencies](https://docs.microsoft.com/partner-center/regional-authorization-overview)**
+* [Cloud Solution Provider program regional markets and currencies](https://docs.microsoft.com/partner-center/regional-authorization-overview)
+* [How Non-profit, GCC and Education offers work in Partner Center](https://docs.microsoft.com/partner-center/get-special-pricing-for-offers)
+* [How promotions work in partner center](https://docs.microsoft.com/partner-center/promotions)
+

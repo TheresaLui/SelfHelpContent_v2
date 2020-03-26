@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="9339aec5-badd-4a45-ad56-c763c403f417"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Windows Backup to Azure Backup/Schedule backup for a Windows Server or a client
@@ -28,4 +29,4 @@
 
 ## **Recommended Documents**
 
-* How much time will it take to: [Backup?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance) [ Restore?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#restore-considerations) <br>
+* How much time will it take to: [Backup?](https://aka.ms/AB-AA4ecqb) [ Restore?](https://aka.ms/AB-AA4ecqn) <br>

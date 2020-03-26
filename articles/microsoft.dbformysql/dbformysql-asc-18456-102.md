@@ -5,6 +5,7 @@
 	service="microsoft.dbformysql"
 	resource="dbformysql"
 	authors="janeng"
+	ms.author="jan-eng"
 	displayOrder="100"
 	articleId="dbformysql-asc-18456-102"
 	diagnosticScenario="OrcasMySQLIpNotInFirewall"
@@ -12,7 +13,8 @@
 	supportTopicIds="32628367"
 	resourceTags="windows, linux"
 	productPesIds="16221"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Can't connect MySQL database server because IP address is not configured in firewall
@@ -21,12 +23,11 @@
 Thank you for contacting Microsoft support about your connection issues with Azure Database for MySQL. During our investigation we determined that connections to your database server are failing because the client IP address is not configured as allowed IP address in the firewall of the server.
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To fix this issue please ensure your client IP address is configured in the firewall of the server. You can refer to [this article](https://docs.microsoft.com/azure/mysql/howto-manage-firewall-using-portal) for assistance with configuring your firewall for your Azure Database for MySQL server.
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Azure Database for MySQL](https://azure.microsoft.com/services/mysql/)
-
-[MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforMySQL)
+* [Azure Database for MySQL](https://azure.microsoft.com/services/mysql/)
+* [MySQL Discussion forum](https://social.msdn.microsoft.com/Forums/home?forum=AzureDatabaseforMySQL)

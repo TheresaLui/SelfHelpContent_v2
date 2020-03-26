@@ -1,20 +1,21 @@
 <properties
-    pageTitle="Azure Stack billing and usage support"
-    description="Azure Stack billing and usage support"
+    pageTitle="Azure Stack Usage reporting and billing issues and questions"
+    description="Azure Stack Usage reporting and billing issues and questions"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT, v-miegge"
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629236,32629274"
+    supportTopicIds="32629274"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="69477870-4477-4fb1-92da-1d6f6d7f58c0"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
-# Azure Stack billing and usage support
+# Azure Stack Usage reporting and billing issues and questions
 
 ## **Recommended Steps**
 

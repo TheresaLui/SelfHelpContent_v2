@@ -8,13 +8,16 @@ ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612436"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Cannot uninstall agent
 ---
 {
+    "$schema": "SelfHelpContent",
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "",

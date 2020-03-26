@@ -11,6 +11,7 @@
 	productPesIds="14947"
 	cloudEnvironments="public"
 	articleId="0ba4a0d3-bfa9-4967-85be-442387ff389c"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # User portal and mobile app web service

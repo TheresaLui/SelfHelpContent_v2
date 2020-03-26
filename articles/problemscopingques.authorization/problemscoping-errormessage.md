@@ -7,17 +7,19 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32636049"
+    supportTopicIds="32730225,32730228,32730229,32730230,32730231,32730232,32730233,32730242,32730243"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="public"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
     articleId="63c484a5-5a15-42d5-879c-91760b2051e6"
     schemaVersion="1"
+    ownershipId="Compute_AzurePolicy"
 />
-#Permission error message from Policy
+# Permission error message from Policy
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Error message",
     "fileAttachmentHint": "",
     "formElements": [
@@ -40,7 +42,7 @@
             "order": 30,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
-            "watermarkText": "Provide additional information about your issue",
+            "watermarkText": "Provide additional information about the issue and what is your expectation",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [

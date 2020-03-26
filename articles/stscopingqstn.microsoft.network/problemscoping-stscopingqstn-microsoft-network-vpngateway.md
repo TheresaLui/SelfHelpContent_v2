@@ -9,6 +9,7 @@
    cloudEnvironments="public,fairfax,blackforest,moonCake"
    schemaVersion="1"
    articleId="e7d714bd-eb61-42d8-8270-df52d8514149"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # VPN Gateway Issues
 ---
@@ -36,7 +37,7 @@
                     "text": "Issue description"
                 },
                 {
-                    "text": "Make, model and OS version of on-premises VPN device(s) (for example, \\"Cisco ASA 5505 OS version 8.3\\")"
+                    "text": "Make, model and OS version of on-premises VPN device(s) (for example, \"Cisco ASA 5505 OS version 8.3\")"
                 }
             ]
         }

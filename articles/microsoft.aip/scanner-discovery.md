@@ -11,7 +11,8 @@
 	supportTopicIds="32629556"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection - Discovery Reporting Issues
@@ -21,6 +22,7 @@
 1. If you used the [built-in information types](https://support.office.com/article/What-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b) for your Azure Information Protection policy, verify that your content matches the expected format
 2. Verify that the label is appropriately configured for **Automatic** or **Recommended**
 3. Note that **Automatic** labeling is available for all Office apps, whereas **Recommended** is available for all Office apps except for Outlook
+4. Verify that the user account configured to run the scanner service has permissions to access all the configured repositories
 
 If you are still experiencing the issue, collect Azure Information Protection scanner logs and attach the logs to this ticket.
 

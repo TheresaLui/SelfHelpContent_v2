@@ -9,6 +9,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureDatabricks"
 />
 # Databricks Issue
 ---
@@ -81,7 +82,7 @@
             "controlType": "textbox",
             "displayLabel": "Workspace ID if available",
             "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Workspace ID",
-            "required": true
+            "required": false
         },
         {
             "id": "cluster_url",
@@ -89,7 +90,7 @@
             "controlType": "textbox",
             "displayLabel": "Cluster URL if available",
             "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Cluster, Notebook, and Job URL",
-            "required": true
+            "required": false
         },
         {
             "id": "workload_submission_method",

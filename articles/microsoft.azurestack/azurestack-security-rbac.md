@@ -1,20 +1,21 @@
 <properties
-    pageTitle="Azure Stack role-based access control"
-    description="Role-based access control in Azure Stack"
+    pageTitle="Azure Stack Account management (add, remove, rotate passwords)"
+    description="Account management (add, remove, rotate passwords)"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT, v-miegge"
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629255"
+    supportTopicIds="32663929"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-security-rbac"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
-# Azure Stack role-based access control
+# Azure Stack Account management (add, remove, rotate passwords)
 
 Role-Based Access Control (RBAC) in Azure Stack is consistent with the implementation in Microsoft Azure. You can manage access to resources by assigning the appropriate RBAC role to users, groups, and applications.
 

@@ -6,6 +6,7 @@
     articleId="02c15f98-aedb-481b-884b-af5847b2bf3d_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="Compute_VirtualMachines"
 />
 # Use availability sets for improved fault tolerance
 ---
@@ -37,12 +38,25 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
-  "learnMoreLink": "http://aka.ms/aa_sivmrec_learnmore",
+  "version": 2.0,
+  "learnMoreLink": "https://aka.ms/aa_sivmrec_learnmore",
   "description": "Use availability sets for improved fault tolerance",
   "longDescription": "Group two or more virtual machines in an availability set to ensure at least one virtual machine is available during an outage.",
   "potentialBenefits": "Ensure business continuity through virtual machine resilience",
-  "actions": [],
+  "actions": [
+    {
+      "actionId": "7C9876C8-E6CB-4DC9-8865-39E4EA2CD384",
+      "actionType": "Document",
+      "description": "Move the virtual machine into an existing availability set",
+      "documentLink": "https://aka.ms/aa_sivmrec_arm_action1"
+    },
+    {
+      "actionId": "6BE7BED7-4847-48B1-890E-4987A4362CFE",
+      "actionType": "Document",
+      "description": "Move the virtual machine into a new availability set",
+      "documentLink": "https://aka.ms/aa_sivmrec_arm_action2"
+    }
+  ],
   "resourceMetadata": {
     "action": {
       "actionId": "91395c05-d944-49b4-92cb-764e20d42a04",
@@ -58,10 +72,6 @@
   "additionalColumns": [],
   "legacyDataLoader": {
     "className": "Microsoft.Azure.Advisor.Common.DataLoaders.VmNotInAvailabilitySetDataParser",
-    "assemblyName": "Microsoft.Azure.Advisor.Common"
-  },
-  "legacyRecommender": {
-    "className": "Microsoft.Azure.Advisor.Common.Recommenders.VmNotInAvailabilitySetRecommender",
     "assemblyName": "Microsoft.Azure.Advisor.Common"
   }
 }

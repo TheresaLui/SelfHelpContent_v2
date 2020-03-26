@@ -10,36 +10,35 @@
 	supportTopicIds="32632927"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="billing-addoreditvattaxidorponumber"
+	ownershipId="ASMS_Billing"
 />
 
-# add or edit vat tax id or po number
+# Add or edit vat tax id or po number
 
 
 ## **Recommended Steps**
 
 ### **Add/update TAX ID**
 
-To add or update Tax ID, visit [Profile in Azure Account Center](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade), then select **Tax record**. This Tax ID is used for tax exemption calculations and appears on your invoice.
+To add or update Tax ID, visit [Profile in Azure Account Center](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade), then select **Tax record**. This Tax ID is used for tax exemption calculations and appears on your invoice.
 
 ### **Add/update PO Number**
 
 * During subscription purchase, a PO# can be added for a subscription when initially setting up the new subscription by entering in the PO# information on the payment information page, PO Number field
-* Updating a Purchase Order # online:
+* Updating a PO # online:
 
   1. Login into **Billing** portal, select the **Subscription** that needs to be edited
-  2. On Subscription page select **Change Payment Method** and select **Edit Payment method**
-  3. Enter in PO Number and select **Next**
-  4. This will take the you back to the initial “Choose payment method” page
-  5. Select the check at the bottom to **save** changes
+  2. On Subscription page select **Change Payment Method** and select **Edit Payment method**. Enter in PO Number and select **Next**
+  3. This will take the you back to the initial Choose payment method page. Select the check at the bottom to **save** changes.
 
-EA Customers can change the PO themselves in the EA Portal. The EA admin can also change the PO number on an invoice that is due to be issued.
+* For EA Admins & EA Customers 
 
-  1. Sign into [EA portal](ea.azure.com) as EA admin<br>
+  1. Sign into **EA portal** as EA admin<br>
   2. Click on the **Usage Summary** option under Reports on the left-hand navigation pane<br>
   3. Select the relevant quarter in the usage summary in which the overage usage accrued<br>
-  4. Select edit beside the PO number on the top right-hand side of the summary view
+  4. Select **edit** beside the PO number on the top right-hand side of the summary view
 
 ### **Add/update VAT ID**
 
@@ -47,22 +46,16 @@ Users should add a VAT ID to their account during the initial purchase and accou
 
 ### **Edit Profile/Company Information**
 
-  1. Sign in to the Azure [Account Center](https://account.azure.com/Profile)
-  2. Select the **Profile** button
-  3. Select the **Edit** details button, and then update the Profile information
-  4. Update the necessary information and select **Complete**
-    	
-Note:  If there is no tax information added to your profile, it won't be reflected on the Azure invoice. Once the tax information and company details have been added, they would start reflecting on the next billing cycle invoice copies.
+  1. Sign in to the [Azure Account Center](https://account.azure.com/Profile). Select the **Profile** button. Select the **Edit** details button, and then update the Profile information.
+  2. Update the necessary information and select **Complete**<br>
+  
+Note: If there is no tax information added to your profile, it won't be reflected on the Azure invoice. Once the tax information and company details have been added, they would start reflecting on the next billing cycle invoice copies.
 
 ### **Add/Update Billing Information**
 
-  1. Sign in to the [Azure Account Center](https://account.azure.com/Profile)
-  2. Select the **Subscriptions** button
-  3. Click on the subscription that needs to be updated
-  4. Click on **Manage payment methods** and then select **Edit** next to the payment instrument
-  5. Update the required details on the billing address field
-  6. Click **Save**
-	
+  1. Sign in to the [Azure Account Center](https://account.azure.com/Profile). Select the **Subscriptions** button and select the one that needs to be updated.
+  2. Click on **Manage payment methods** and then select **Edit** next to the payment instrument. Update the required details on the billing address field. Click **Save**.
+  
 Note: The existing invoices will be unable to show the updated Billing information, however all the future invoices will reflect the change
 
 ## **Recommended Documents**

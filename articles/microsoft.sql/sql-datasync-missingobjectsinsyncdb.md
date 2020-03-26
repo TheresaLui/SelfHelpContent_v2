@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Data Sync related objects are missing from Sync Metadata database
@@ -32,8 +33,7 @@ In case you are aware that the objects were removed from your database, please p
 
 If you are unsure about the missing objects, run the PowerShell script below from either Windows PowerShell or Azure Cloud Shell and share the results with us. You will need to fill the SyncDbUser and the SyncDbPassword parameters. This script will check the missing objects from Sync Metadata Database. Based on the missing objects, we will provide you an action plan.
 
-```powershell
-
+```
 $parameters = @{    
     SyncDbServer = '<!--$SyncDBServer--> SyncDBServer <!--/$SyncDBServer-->.database.windows.net'
     SyncDbDatabase = '<!--$SyncDBDatabase--> SyncDBDatabase <!--/$SyncDBDatabase-->'
@@ -41,9 +41,9 @@ $parameters = @{
     SyncDbPassword = ''
 }
 
-$scriptUrlBase = 'https://raw.githubusercontent.com/vitomaz-msft/DataSyncHealthChecker/master/Data%20Sync%20Health%20Checker.ps1'
+$scriptUrlBase = 'https://raw.githubusercontent.com/Microsoft/AzureSQLDataSyncHealthChecker/master/AzureSQLDataSyncHealthChecker.ps1'
 Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase)).Content)) -ArgumentList $parameters
-
+#end
 ```
 
 ### Disclaimers

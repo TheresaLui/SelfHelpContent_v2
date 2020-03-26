@@ -7,11 +7,12 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636923"
+    supportTopicIds="32636923,32680785"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="a15f057d-8ce6-4b77-a98a-dfaf9543dc2f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # VMs and Computers Common Solutions

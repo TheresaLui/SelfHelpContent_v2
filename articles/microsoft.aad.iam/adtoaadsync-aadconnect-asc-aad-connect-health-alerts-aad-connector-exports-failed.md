@@ -12,7 +12,8 @@ pageTitle="Export to Azure Active Directory failed"
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Export to Azure Active Directory failed
 
@@ -22,5 +23,5 @@ Azure AD Connect was unable to export data to Windows Server Active Directory. A
 
 ## **Recommended Steps**
 
-To diagnose this issue, examine Windows Event Log for error events in the Application log. Look for error events that have "Directory Synchronization" as the Source in the Event Viewer. This will provide information about the exact nature of the export failure. 
+To diagnose this issue, examine Windows Event Log for error events in the Application log. Look for error events that have "Directory Synchronization" as the Source in the Event Viewer. This will provide information about the exact nature of the export failure.
 

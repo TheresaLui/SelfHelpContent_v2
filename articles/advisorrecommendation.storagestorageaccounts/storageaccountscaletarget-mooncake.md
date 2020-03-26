@@ -6,6 +6,7 @@
     articleId="a0ad4f8c-f904-4b11-955d-e0044473c5fa_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Prevent hitting subscription limit for maximum storage accounts
 ---
@@ -47,7 +48,7 @@
       "actionId": "937a7f37-6591-4e89-bb11-4866a83531f3",
       "description": "Design for fewer accounts per subscription per region ",
       "actionType": "Document",
-      "documentLink": "https://aka.ms/subscalelimit"
+      "documentLink": "https://aka.ms/subscalelimit_cn"
     }
   ],
   "resourceMetadata": {

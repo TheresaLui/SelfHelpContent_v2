@@ -4,10 +4,11 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32565595" 
 	 productPesIds="14785,16578" 
-	 cloudEnvironments="public" 
+	 cloudEnvironments="public, Fairfax, Mooncake" 
 	 schemaVersion="1"
     articleId="a1fcf8f5-2de0-4b84-8280-3e56722dd303"
-    /> 
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
+/> 
 # Problem with Deleting Azure AD 
 ---
 {
@@ -27,7 +28,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
@@ -44,7 +45,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 2

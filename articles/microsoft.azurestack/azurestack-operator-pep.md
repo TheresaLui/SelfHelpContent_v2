@@ -7,11 +7,12 @@
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629246,32629247"
+    supportTopicIds="32629247"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-operator-pep"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Using the Azure Stack Privileged Endpoint (PEP)

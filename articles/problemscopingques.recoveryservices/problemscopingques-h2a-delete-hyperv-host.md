@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32592052"
          productPesIds="16370"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="c0eb3ade-b5e3-44b5-a952-c587b51f7ca8"
+	ownershipId="Compute_SiteRecovery"
 />
 # Hyper-V server deletion failure
 ---
@@ -35,7 +36,6 @@
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
-
         {
             "id": "problem_start_time",
             "order": 3,

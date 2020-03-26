@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="66f2b938-2ad1-450f-9622-6572bda040c8"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for unable to (Re)register to vault
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "unable to (Re)register to vault",
     "fileAttachmentHint": "",
+      "diagnosticCard": {
+        "title": "unable to (Re)register to vault",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -42,9 +48,40 @@
             "watermarkText": "ex. contoso_vault",
             "required": false
         },
+	{
+	 "id": "issue_type",
+            "order": 4,
+            "controlType": "dropdown",
+	    "infoBalloonText": "Check installation and registration <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
+            "displayLabel": "Which type of issue you are facing?",
+            "dropdownOptions": [
+                {
+                    "value": "Proxy Configuration failed",
+                    "text": "Proxy Configuration failed"
+                },
+                {
+                    "value": "Installing pre-requisites (.NET and PowerShell) failed",
+                    "text": "Installing pre-requisites (.NET and PowerShell) failed"
+                },
+                {
+                    "value": "Issue with Vault Credentials",
+                    "text": "Issue with Vault Credentials"
+                },
+                {
+                    "value": "Issue with encryption-key/passphrase",
+                    "text": "Issue with encryption-key/passphrase"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
+	},
         {
             "id": "basic_troubleshooting_multiselect",
-            "order": 4,
+            "order": 5,
             "controlType": "multiselectdropdown",
             "infoBalloonText": "Check Azure Backup agent <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
@@ -86,14 +123,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

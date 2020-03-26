@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="500fcb5c-cedf-41eb-9a94-4ae8e6055a1d"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # computergroups-wsus

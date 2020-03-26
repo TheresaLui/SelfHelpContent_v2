@@ -10,14 +10,16 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633401,32633397"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="sb-message-lost-issue"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Message Lost or duplicate message issues
 ---
 {
     "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Message Lost or duplicate message issues",
     "fileAttachmentHint": "",
     "formElements": [

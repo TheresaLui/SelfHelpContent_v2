@@ -5,13 +5,14 @@
     resource="virtualnetworks"
     authors="anavin"
     ms.author="anavin"
-    displayOrder="1"
+    displayOrder="18"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="18de840c-4736-4218-b07a-65d1120a8815"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # I can't delete my virtual network
@@ -25,4 +26,4 @@ To resolve most common issues, try one or more of the following steps:
 
 ## **Recommended Documents**
 
-* [Troubleshooting: Failed to delete a virtual network](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-cannot-delete-vnet)<br>
+* [Troubleshooting: Failed to delete a virtual network](https://docs.azure.cn/virtual-network/virtual-network-troubleshoot-cannot-delete-vnet)

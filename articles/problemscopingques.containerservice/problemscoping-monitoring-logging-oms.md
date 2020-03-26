@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32637194"
                 productPesIds="16450"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="problemscoping-monitoring-logging-oms"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Monitoring and Logging
 ---
@@ -17,8 +18,7 @@
                 "subscriptionRequired": true,
                 "resourceRequired": true,
                 "title": "OMS Agent",
-                "fileAttachmentHint": "If OMS pod is in crashloop, please attach the output of **kubectl describe pods 'OMSpodname
-                '**",
+                "fileAttachmentHint": "If OMS pod is in crashloop, please attach the output of **kubectl describe pods 'OMSpodname'**",
                 "formElements": [
                  {
                     "id": "problem_start_time",

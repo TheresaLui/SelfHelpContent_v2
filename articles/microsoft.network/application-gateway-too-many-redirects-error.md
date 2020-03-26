@@ -11,8 +11,9 @@
 	resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32639115"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Too many redirects error
 

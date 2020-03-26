@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633389"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="sb-performance-issue"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Performance and Latency Issues
 ---
@@ -34,28 +35,28 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "displayLabel": "What request(s) is(are) having a latency issue?",
             "watermarkText": "Enter the request URL",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_currentLatency",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Provide current latency of the request(s)",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_expectedLatency",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Provide the expected latency of the request(s)",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_LocationOfClient",
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "What's the location of client experincing performance issue (for e.g. OnPrem, On Azure, Region etc)",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

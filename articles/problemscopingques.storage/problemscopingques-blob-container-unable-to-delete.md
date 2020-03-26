@@ -4,15 +4,17 @@
 	authors="Passaree"
     ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602738"
-	productPesIds="16459"
-	cloudEnvironments="public"
+	supportTopicIds="32602738,32612597"
+	productPesIds="16459,16598"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="947c84f0-2254-4392-ab29-1f5a2803b8a4"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Unable to delete Blob or Container
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Unable to delete Blob or Container scoping question",
     "fileAttachmentHint": "",
@@ -25,8 +27,8 @@
         },
         {
             "id": "blob_container",
-            "order": 3,
-            "controlType": "dropdown",
+            "order": 2,
+            "controlType": "multiselectdropdown",
             "displayLabel": "Blob Container",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
@@ -34,15 +36,22 @@
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
-            },
-            "dropdownOptions": [
-                {
-                    "value": "NoBlobContainer",
-                    "text": "Not specific to a blob container"
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Classic container or not applicable"
                 }
-            ],
+            },
             "required": true
+        },
+        {
+            "id": "blob_container_classic",
+            "visibility": "blob_container == dont_know_answer",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Classic blob container name",
+            "watermarkText": "Name of classic blob container",
+            "required": false
         },
         {
             "id": "blob_path",
@@ -53,15 +62,22 @@
             "required": false
         },
         {
-            "id": "problem_start_time",
+            "id": "error_message",
             "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Error message received",
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate local time of the last deletion attempt",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,

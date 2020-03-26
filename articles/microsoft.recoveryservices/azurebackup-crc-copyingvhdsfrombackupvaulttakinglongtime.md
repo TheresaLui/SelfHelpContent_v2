@@ -5,7 +5,7 @@
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathvasireddy"
-	ms.author="srinathv"
+	ms.author="srinathvasireddy"
 	displayOrder=""
 	articleId="azurebackup-crc-copyingvhdsfrombackupvaulttakinglongtime"
 	diagnosticScenario="azurebackup-crc-copyingvhdsfrombackupvaulttakinglongtime"
@@ -14,23 +14,21 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Error CopyingVHDsFromBackUpVaultTakingLongTime
 
 <!--issueDescription-->
-We have identified that your backup operation is taking longer than expected.
+We have identified that your backup operation is taking longer than expected, due to transient storage errors or insufficient storage account IOPS for the backup service to transfer data to the vault within the timeout period.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To resolve this issue, try the following: 
 
-* Consider staggering backup times of involved VMs by about an hour or so to see if issue resolves. Stagger more if required.
-* Consider limiting on the number of disks per storage account relative to how heavily the disks are being accessed
-* If protected disks that are undergoing incremental backup have a daily churn of more than 200 GB, backup can take a long time (more than eight hours) to complete
-* If changes are spread out and fragmented across a disk, backup operation will be slower. Consider performance defragmentation.
+* Review your Virtual Machine backup configuration
+* Ensure you are using the [Best practices](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices) for Azure Backups
+* Retry the operation
 
 ## **Recommended Documents**
 
-* [Backup performance](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance) 
-* [Best practices](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices)
+* [Backup performance](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance)

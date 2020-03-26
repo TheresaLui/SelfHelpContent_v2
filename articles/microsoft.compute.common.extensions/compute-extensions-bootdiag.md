@@ -10,8 +10,9 @@
 	supportTopicIds="32628283"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="f0b4963f-5a47-420c-84de-c15b35d4dc50"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # VM Diagnostic (boot diagnostics) extension issue
@@ -25,4 +26,5 @@
 * [Installing the extension in your VM](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#installing-the-extension-in-your-vm)<br>
 * [Review the boot error troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot)<br>
 * [Installing and configuring LAD 3.0 via CLI](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#installing-and-configuring-lad-30-via-cli)<br>
-* [Use monitoring and diagnostics with Azure Resource Manager templates](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-template)
+* [Use monitoring and diagnostics with Azure Resource Manager templates](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-template)<br>
+* [General troubleshooting steps for extensions](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot)

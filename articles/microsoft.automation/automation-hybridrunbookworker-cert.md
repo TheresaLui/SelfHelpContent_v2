@@ -10,13 +10,16 @@
     supportTopicIds="32599940"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="164e8d47-b5be-41b4-99df-6058f60bd770"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Using Hybrid Runbook Worker with RunAs
 
 ## **Recommended Steps**
+
+Many issues with Hybrid Workers are caused by connectivity problems. Run [the "Test Cloud Connectivity" tool](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows-troubleshoot#connectivity-issues) to ensure your environment is properly configured. 
 
 ### Authenticating against Azure Resources from Hybrid Worker
 

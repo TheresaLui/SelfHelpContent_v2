@@ -5,28 +5,24 @@
     resource="applicationgateways"
     authors="abshamsft"
     ms.author="absha"
-    displayOrder="22"
+    displayOrder="32"
 	selfHelpType="resource"
     articleId="application-gateway-4xx-error"
  	resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32639113"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # 4xx client error
-<!--/issueDescription-->
-I'm encountering 4xx client error.
-<!--/issueDescription-->
+4xx errors can occur either due to an issue at the backend application or due to incorrect configuration of Application Gateway. Use the below instructions to troubleshoot the problem.
 
 ## **Recommended Steps**
 
-4xx errors are usually client side errors and can occur due to one or more of the following reasons:
+1. Bypass the Application Gateway to directly access the backend server. If the backend server still returns the same 4xx error, then the issue is with the backend and not the Application Gateway. You can also verify this by observing the HTTP response code that Application Gateway received from the backend by viewing the *SERVER-STATUS* value in *RequestQuery* field of [access logs](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#diagnostic-logging). 
 
-- **Backend Server returns 4xx error**: You can identify this by bypassing the Application Gateway to directly access the server. If the backend server still returns the same 4xx error, then the issue is with the backend and not the Application Gateway.
-- **No listener to accept the request**:  This can happen when Application Gateway does not have a rule with basic listener and the hostname of the request does not match with any multi-site listeners. Check the configuration of the Application Gateway and add a listener to accept the request.
-- 403 error due to Web Application Firewall (WAF) blocking the request
+   If the response code from the backend is verified to be 4xx, then it's an issue with your backend and not the application gateway. If the response from the backend is verified to be valid, then follow the steps below to troubleshoot.
 
-## **Recommended Documents**
-
-* Analyze the [WAF logs](https://docs.microsoft.com/azure/application-gateway/waf-overview#logging) to evaluate whether the WAF is blocking the request
+2. If you are getting a 404 error, then it could be a listener configuration issue. This could happen when the multi-site listener that is matching the IP, port and protocol of the request does not match the host name in the request. Ensure that the host value entered in the listener configuration is the same as the host header in the client request.
+3. If you are getting a 403 error and using Web Application Firewall (WAF) SKU of the Application Gateway, then this behavior can happen if WAF is blocking the request. Analyze the [WAF logs](https://docs.microsoft.com/azure/application-gateway/waf-overview#logging) to evaluate whether the 403 error is due to WAF blocking the request.

@@ -10,8 +10,9 @@
 	supportTopicIds="32628257"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="f5523bca-7725-4d82-b461-6ae3962da477"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Azure Desired State Configuration (DSC) extension issue
@@ -26,4 +27,5 @@
 * [FAQ for common issues and tips](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#tips-and-tricks)<br>
 * [Understanding the schema and parameters](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-windows#extension-schema)<br>
 * [Overview of Azure Extensions for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows)<br>
-* [How to configure Extensions via the Azure Portal](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows#azure-portal)
+* [How to configure Extensions via the Azure Portal](https://docs.microsoft.com/azure/virtual-machines/extensions/features-windows#azure-portal)<br>
+* [General troubleshooting steps for extensions](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot)

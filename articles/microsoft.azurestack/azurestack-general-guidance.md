@@ -10,8 +10,9 @@
     supportTopicIds="32629177"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-general-guidance"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack General Guidance
@@ -20,15 +21,12 @@ The recommended steps below may help solve or isolate the issue. If the steps be
 
 ## **Recommended Steps**
 
-1. Review [troubleshooting known issues](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting) and [release notes for most recent updates](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
+1. Review [release notes for most recent updates](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
 1. Perform [validation for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test) using the Test-AzureStack cmdlet
-1. Review the available updates:  [Manage updates in Azure Stack overview](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates) and [Update package release cadence](https://docs.microsoft.com/azure/azure-stack/azure-stack-servicing-policy#update-package-release-cadence)
+1. Review the available [updates in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-updates) 
 1. Use [log collection tool](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics) to collect traces and log files
 
 ## **Recommended Documents**
 
-* [Azure Stack known issues](https://docs.microsoft.com/azure/azure-stack/azure-stack-troubleshooting)<br>
-* [Release notes for most recent updates](https://docs.microsoft.com/azure/azure-stack/)<br>
-* [Azure Stack diagnostics tools](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics)<br>
-* [Validation for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostic-test)<br>
-* [Manage usage and billing as a CSP](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-manage-billing-as-a-csp)
+For general troubleshooting and topics that cover common questions sent to Microsoft Customer Support Services (CSS), see [Azure Stack Troubleshooting](https://aka.ms/azstroubleshooting). For more details about specific concepts and tasks, see the [Azure Stack Operator Documnentation](https://docs.microsoft.com/azure-stack/operator).
+

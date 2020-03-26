@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633395,32633409,32633400,32633396"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="service-bus-error-msg"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Error Messages realted to Timeout , Connectivity , Create and delete
 ---
@@ -54,7 +55,7 @@ schemaVersion="1"
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the exact error message including call stack, Tracking Id and timestamp, if any",
-            "required": true,
+            "required": false,
             "useAsAdditionalDetails": false
         },
         {
@@ -63,7 +64,7 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "displayLabel": "Please specific the client library (.Net, .Net Standard, Java, Python, etc) you are using and the version number?",
             "watermarkText": "Clients used by the application and their version number",
-            "required": true,
+            "required": false,
             "useAsAdditionalDetails": true
         },
         {

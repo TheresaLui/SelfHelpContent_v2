@@ -7,11 +7,12 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32615224,32628013,32642190"
+    supportTopicIds="32615224,32642190"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="e633b59d-0baf-4a33-8caf-e135f3d246cd"
+	ownershipId="Compute_Automation"
 />
 
 # Troubleshoot Runbook Execution in Azure Automation
@@ -23,11 +24,16 @@ Here are some common issues with executing runbooks in Azure Automation and how 
 Specific problems and their solutions are listed below, but we highly recommend you try these two troubleshooting steps first:
 
 * Try running the [runbook locally](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#runbook-fails) before running it in Azure Automation. This can clarify if the issue is a bug in the runbook versus an issue with Azure Automation.
+* Investigate runbook [error streams](https://docs.microsoft.com/azure/automation/automation-runbook-output-and-messages#runbook-output) for specific messages and compare them to the errors below. 
 * [Update the Azure PowerShell](https://docs.microsoft.com/azure/automation/automation-update-azure-modules) modules in your Automation Account to the latest version
 
 ### Runbook fails with "The subscription cannot be found" error
 
 This issue can occur when the runbook isn't using a RunAs account to access Azure resources. To resolve, follow the steps in [Scenario: Unable to find the Azure subscription](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#unable-to-find-subscription).
+
+### "Run Login-AzureRmAccount to login"
+
+* This error can occur when you are not using a RunAs account or the RunAs account has expired. See ["Manage Azure Automation RunAs accounts"](https://docs.microsoft.com/azure/automation/manage-runas-account).
 
 ### Runbook fails with error "Strong authentication enrollment is required"
 

@@ -9,10 +9,11 @@
     articleId="insights_missingemail"
     displayOrder="5"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     productPesIds="15693" 
     supportTopicIds="32546625,32613002,32629552"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # I should have received email for an alert
 
@@ -32,7 +33,7 @@ If you're certain that an alert has generated an event but has not sent an email
 * [Edit Azure Contact Information](https://docs.microsoft.com/azure/billing/billing-how-to-change-azure-account-profile)
 * [Outlook SPAM Settings](https://support.office.com/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)
 * [Gmail SPAM Settings](https://support.google.com/mail/answer/6579?hl=en)
-* [O365 Safe Sender](https://docs.microsoft.com/office365/SecurityCompliance/create-organization-wide-safe-sender-or-blocked-sender-lists-in-office-365)
+* [O365 Safe Sender](https://docs.microsoft.com/office365/SecurityCompliance/create-safe-sender-lists-in-office-365)
 * [Exchange SPAM Quarantine](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/spam-quarantine)
 * [Exchange Sender Filtering](https://docs.microsoft.com/Exchange/antispam-and-antimalware/antispam-protection/sender-filtering)
 * [G Suite Approved Sender Settings](https://support.google.com/a/answer/2368132)

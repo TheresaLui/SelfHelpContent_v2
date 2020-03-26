@@ -5,9 +5,10 @@
 	 selfHelpType="problemScopingQuestions"
 	 supportTopicIds="32633522"
 	 productPesIds="14745"
-	 cloudEnvironments="public"
+	 cloudEnvironments="public,fairfax"
 	 schemaVersion="1"
 	 articleId="4a6f7442-052c-450b-b275-76d12782c954"
+	ownershipId="AzureData_AzureSQLVM"
 />
 # SQL Server Slow
 ---

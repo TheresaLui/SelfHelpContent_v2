@@ -6,6 +6,7 @@
     articleId="a5ab10c5-424a-4818-9fba-ddca1eee531a_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Improve your Cache and application performance when running with many connected clients
 ---
@@ -71,3 +72,4 @@
   "tip": "You can improve your Cache and application performance when running with many connected clients by scaling to a different size or sku"
 }
 ---
+

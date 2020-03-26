@@ -1,53 +1,26 @@
 <properties
-    pageTitle="Other problem with user or group"
-    description="otherproblemuserorgroup"
+    pageTitle="Other problem with group"
+    description="otherproblemgroup"
     authors="anupnadigm"
+    ms.author="anupnadigm"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32586794"
-    productPesIds="14785,16578,16575"
-    cloudEnvironments="public"
+    productPesIds="16578"
+    cloudEnvironments="public, Fairfax, Mooncake"
     schemaVersion="1"
     articleId="3e0776b4-a7da-4b66-8018-2eee9634af9b"
-    />
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
+/>
 
 # Other problem with user or group
 
 ---
 {
     "resourceRequired": false,
-    "title": "Other problem with user or group",
+    "subscriptionRequired": false,
+    "title": "Other problem with group",
     "fileAttachmentHint": "Screenshot of problem",
     "formElements": [
-        {
-            "id": "resourceType",
-            "visibility": null,
-            "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "Is the problem with a user or a group?",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "User",
-                    "value": "user"
-                },
-                {
-                    "text": "Group",
-                    "value": "group"
-                },
-                {
-                    "text": "Other, don't know or not applicable",
-                    "value": "other"
-                }
-            ],
-            "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
         {
             "id": "whoHavingProblem",
             "visibility": null,
@@ -68,11 +41,10 @@
                 },
                 {
                     "text": "Other, don't know or not applicable",
-                    "value": "other"
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -89,7 +61,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -106,7 +77,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -123,7 +93,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -140,8 +109,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0

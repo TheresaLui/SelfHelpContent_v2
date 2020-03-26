@@ -7,11 +7,12 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636914"
+    supportTopicIds="32680783"
     resourceTags=""
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="a15r058d-8uj6-4b77-a98a-dfaf3843dc2f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Subscriptions Coverage Common Solutions

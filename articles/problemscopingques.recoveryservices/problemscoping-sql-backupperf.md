@@ -1,14 +1,15 @@
 <properties
          pageTitle="Scoping questions for SQL database backup performance"
          description="Scoping questions for SQL database backup performance"
-         authors="srinathv"
-         ms.author="srinathv"
+         authors="srinathvasireddy"
+         ms.author="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605792"
          productPesIds="15207"
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="18b06d30-478c-4950-b3bc-5ed2dfecdd7d"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Scoping questions for SQL database backup performance
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "SQL database backup performance",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "SQL database backup performance",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -25,11 +31,15 @@
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Select the virtual machine running SQL",
             "dynamicDropdownOptions": {
-            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
-            "jTokenPath": "value",
-            "textProperty": "name",
-            "valueProperty": "id",
-            "textPropertyRegex": ".*"
+                     "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+                     "jTokenPath": "value",
+                     "textProperty": "name",
+                     "valueProperty": "id",
+                     "textPropertyRegex": ".*",
+                     "defaultDropdownOptions": {
+                           "value": "dont_know_answer",
+                           "text": "Other or none of the above"
+                     }
           },
            "required": false
         },
@@ -65,7 +75,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",

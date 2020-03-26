@@ -5,13 +5,14 @@
 	resource="iothubs"
 	authors="jlian,meetshamir,jtanner-msft"
  	ms.author="jlian,saziz,jtanner"
-	displayOrder="9"
-	selfHelpType="resource"
+	displayOrder=""
+	selfHelpType="generic"
 	supportTopicIds="32630540"
 	resourceTags=""
 	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax"
 	articleId="79e0b13e-ea7e-4ac7-ae18-dec104fe14f8"
+	ownershipId="AzureIot_IotHub"
 />
 
 # How to use a third party MQTT client with an IoT Hub

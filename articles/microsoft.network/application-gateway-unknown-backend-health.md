@@ -11,18 +11,15 @@
 	resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32639116"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Unknown backend health
 
-While invoking the backend health API, you can get the status as Unknown due to one of the following reasons:
+Application Gateway continuously probes each member in the backend pool to monitor their health status. You can view the health of each backend server using the [back-end health](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal) view. *Healthy* status for all backend servers is desirable. If the status is shown as *Unhealthy* or *Unknown*, then perform the below steps to troubleshoot the issue.
 
-- Application Gateway Subnet has an NSG/UDR blocking access to the ports 65503-65534 inbound on V1 SKU and 65200-65534 on V2 SKU
-- You have an ExpressRoute/VPN connection with default route (0.0.0.0/0) enabled which will force the API responses to your on-premises network
+## **Recommended Steps**
 
-## **Recommended Documents**
-
-- To ensure that an NSG is not blocking the access to the port, see these prerequisites for [Network security groups on the Application Gateway subnet](https://docs.microsoft.com/azure/application-gateway/configuration-overview#network-security-groups-on-the-application-gateway-subnet). Additionally, ensure that the NSG is allowing inbound access to the required ports.
-- To ensure that UDR is not blocking the access to the port, see these prerequisites for [User-defined routes supported on the Application Gateway subnet](https://docs.microsoft.com/azure/application-gateway/configuration-overview#user-defined-routes-supported-on-the-application-gateway-subnet)
-- [View health of the Application Gateway's backend instances](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal)
+1. View the [back-end health](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal) and check if any servers have been marked *Unhealthy* in the **Status** column. If there are unhealthy servers, then look for the reason displayed for the unhealthy state and perform the troubleshooting steps mentioned in the **Details** column.
+2. If the status has been marked as *Unknown*, then ensure that NSG on the Application Gateway subnet is not blocking the access to the port, see these prerequisites for [Network security groups on the Application Gateway subnet](https://docs.microsoft.com/azure/application-gateway/configuration-overview#network-security-groups-on-the-application-gateway-subnet). If you've confirmed that NSG is not blocking acccess, then ensure that UDR is not blocking the access to the port, see these prerequisites for [User-defined routes supported on the Application Gateway subnet](https://docs.microsoft.com/azure/application-gateway/configuration-overview#user-defined-routes-supported-on-the-application-gateway-subnet)

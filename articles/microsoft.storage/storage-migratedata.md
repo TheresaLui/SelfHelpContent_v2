@@ -1,17 +1,18 @@
 <properties
-	pageTitle="Move Data to, from, or within Azure Storage"
-	description="Move Data to, from, or within Azure Storage"
+	pageTitle="Data migration for Azure storage"
+	description="Learn how to move data to, from, or within Azure storage"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
 	ms.author="passap"
 	displayOrder="2"
 	selfHelpType="resource"
-	supportTopicIds="32602711"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="08529756-423d-4959-9c22-1491ca953657"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Move Data to, from, or within Azure Storage

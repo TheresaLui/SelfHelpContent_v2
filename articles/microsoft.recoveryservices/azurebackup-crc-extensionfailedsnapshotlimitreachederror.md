@@ -4,7 +4,7 @@
 	infoBubbleText="Snapshot operation failed as snapshot limit is exceeded for some of the disks attached."
 	service="microsoft.recoveryservices"
 	resource="backup"
-	authors="srinathv"
+	authors="srinathvasireddy"
 	ms.author="srinathv"
 	displayOrder=""
 	articleId="azurebackup-crc-extensionfailedsnapshotlimitreachederror"
@@ -14,14 +14,15 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
-# Extension Failed - Snapshot Limit Reached 
+# Error ExtensionFailedSnapshotLimitReachedError
 
 <!--issueDescription-->
-## **Snapshot operation failed as snapshot limit has exceeded for some of the disks attached**
+We have identified that your snapshot operation failed as the snapshot limit has exceeded for some of the disks attached.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-We identified that your snapshot operation failed because the snapshot limit has exceeded for some of the disks attached. To resolve this issue, please refer the [troubleshooting steps](https://aka.ms/AB-ExtensionFailedSnapshotLimitReachedError).
+To resolve this issue, refer this [article](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#extensionfailedsnapshotlimitreachederror---snapshot-operation-failed-as-snapshot-limit-is-exceeded-for-some-of-the-disks-attached).

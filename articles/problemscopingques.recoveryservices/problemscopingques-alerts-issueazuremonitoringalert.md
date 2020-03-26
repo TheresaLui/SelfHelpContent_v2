@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	articleId="581fcaaa-2d8f-4897-8dba-20e19a78926e"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for Issue with Azure Monitoring alerts (rule based)
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "Issue with Azure Monitoring alerts (rule based)",
     "fileAttachmentHint": "Please attach the screenshot of Alert screen filtered with timespan",
+     "diagnosticCard": {
+        "title": "Issue with Azure Monitoring alerts (rule based)",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "issue_type",
@@ -46,14 +52,16 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

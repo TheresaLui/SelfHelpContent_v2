@@ -10,8 +10,9 @@
     supportTopicIds="32636464"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="0d3e4f2d-cfe6-4921-8395-750ac12be8c9"
+	ownershipId="AzureData_HDInsight"
 />
 
 # My Hive Queries Are Really Slow
@@ -29,3 +30,7 @@ The following Hive performance optimization methods can be applied to your clust
 ## **Recommended Documents**
 
 * [Optimizing Hive Performance](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-optimize-hive-query)
+
+### **Troubleshooting**
+
+* [Why are my LLAP queries running slow?](https://hdinsight.github.io/hive/hive-llap-query-perf.html)

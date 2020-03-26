@@ -10,8 +10,9 @@
 	supportTopicIds="32639118"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="waf-exclusions-global-parameters"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # WAF Exclusions and Global Parameters
@@ -19,5 +20,7 @@ Azure Application Gateway WAF provides exclusion lists which allow you to omit c
 
 ## **Recommended Documents**
 
-* Web Application Firewall [Exclusion lists and Global parameter configuration](https://docs.microsoft.com/azure/application-gateway/application-gateway-waf-configuration)<br />
+* Web Application Firewall [Exclusion lists and Global parameter configuration](https://docs.microsoft.com/azure/application-gateway/application-gateway-waf-configuration)
 * [Web Application Firewall](https://docs.microsoft.com/azure/application-gateway/waf-overview) overview on Application Gateway
+* [Use Log Analytics to analyze WAF logs](https://docs.microsoft.com/azure/application-gateway/log-analytics)
+* [Troubleshoot Web Application Firewall (WAF) issues](https://docs.microsoft.com/azure/application-gateway/web-application-firewall-troubleshoot) for Application Gateway

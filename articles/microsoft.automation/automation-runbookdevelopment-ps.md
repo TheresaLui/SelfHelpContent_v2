@@ -10,8 +10,9 @@
     supportTopicIds="32599862"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="c1ad5dbf-f48c-478e-843a-fa63a3977cc6"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - PowerShell Runbook Development
@@ -52,7 +53,7 @@ Specific problems and their solutions are listed below, but we highly recommend 
 
 **Errors about "TypeData"**
 
-* If you are recieving errors about TypeData, you are running a PowerShell Workflow with modules that do not support Workflow. You need to change the runbook type to PowerShell. See ["Runbook types" for more details. ](https://docs.microsoft.com/azure/automation/automation-runbook-types#powershell-runbooks)
+* If you are receiving errors about TypeData, you are running a PowerShell Workflow with modules that do not support Workflow. You need to change the runbook type to PowerShell. See ["Runbook types" for more details](https://docs.microsoft.com/azure/automation/automation-runbook-types#powershell-runbooks).
 
 ## **Recommended Documents**
 

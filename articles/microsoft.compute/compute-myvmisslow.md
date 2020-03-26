@@ -7,11 +7,12 @@
 	ms.author="scotro"
 	displayOrder="15"
 	selfHelpType="resource"
-	supportTopicIds="32628264,32628261,32628277,32628254,32628275,32628268,32628281,32628270,32633527"
+	supportTopicIds="32411875"
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="f41ebb73-3970-4687-80dc-8b06e4335a57"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Diagnose and resolve Virtual Machine performance issues

@@ -6,6 +6,7 @@
     articleId="85650d10-4245-40f6-a3e5-db1e70728a47_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Follow App Service Advisor recommendations
 ---
@@ -14,14 +15,14 @@
   "recommendationOfferingName": "App Service",
   "$schema": "AdvisorRecommendation",
   "dataSourceMetadata": {
-    "dataSource": "SAS",
+    "dataSource": "SAS"
   },
   "recommendationTypeId": "85650d10-4245-40f6-a3e5-db1e70728a47",
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Web/sites",
   "recommendationFriendlyName": "AppServicePerf",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",
@@ -39,7 +40,14 @@
   "description": "Follow App Service Advisor recommendations",
   "longDescription": "Follow the recommendations from App Service Advisor.",
   "potentialBenefits": "Improved reliability and performance",
-  "actions": [],
+  "actions": [
+    {
+      "actionId": "8e1bee12-a724-4724-b414-1be72c7fb12f",
+      "actionType": "Document",
+      "description": "Follow the recommendations from App Service Advisor.",
+      "documentLink": "https://aka.ms/appservicerec_learnmore"
+    }
+  ],
   "resourceMetadata": {
     "action": {
       "actionId": "5776a411-0804-4f1c-a4d5-cbca569db79b",

@@ -7,13 +7,15 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632953"
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	schemaVersion="1"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 # Issues Signing In or Accessing My Subscriptions
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Issues Signing In or Accessing My Subscriptions",
     "fileAttachmentHint": "",
     "formElements": [
@@ -112,7 +114,7 @@
         {
             "id": "browser_details2",
             "order": 6,
-            "visibility": "browser_details1 == Other",
+            "visibility": "browser_details1 == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Please provide the Browser Information",
             "required": false

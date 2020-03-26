@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
     supportTopicIds="32629468"
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
     articleId="5e8933fe-c7dd-48d9-9dec-e214035697c9"
+	ownershipId="AzureData_DataFactory"
 />
 # Azure Data Movement Performance Issue
 ---
@@ -82,14 +83,14 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Sample slow pipeline RunIDs (separate with commas)",
-            "required": true
+            "required": false
         },
         {
             "id": "sample_normal_run_ids",
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "Sample normal pipeline RunIDs (separate with commas)",
-            "required": true
+            "required": false
         },
         {
             "id": "factory_name",

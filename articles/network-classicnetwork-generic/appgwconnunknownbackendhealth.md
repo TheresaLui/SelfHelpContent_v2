@@ -10,8 +10,9 @@
 	supportTopicIds="32639116"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="unknown-backend-health"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Unknown Backend Health
@@ -23,7 +24,7 @@ While invoking the backend health API, you might see the status as Unknown somet
 * Application Gateway Subnet has an NSG/UDR blocking access to the ports 65503-65534 inbound on V1 SKU and 65200-65534 on V2 SKU.
 * You have an ExpressRoute/VPN connection with default route (0.0.0.0/0) enabled which will force the API responses to your on-premises network.
 
-Follow the guidelines in the documentation mentioned below to resolve this issue.
+If you are not able to view your backend health, it could be a transient issue. Try it again for a couple of times. If it is still not getting resolved, follow the guidelines in the documentation mentioned below.
 
 ## **Recommended Documents**
 

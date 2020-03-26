@@ -1,18 +1,19 @@
 <properties
-	pageTitle="My device appears offline in the portal."
-	description="My device appears offline in the portal."
+	pageTitle="My device appears offline in the portal"
+	description="My device appears offline in the portal"
 	service="microsoft.databoxedge"
 	resource="databoxedgedevices"
 	authors="anoobbacker"
 	ms.author="anbacker"
 	authoralias="anbacker"
-	displayOrder="4"
+	displayOrder="60"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="DataBoxGateway"
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="842f687b-c163-4afd-bd6d-914fb4c1d589"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # My device appears offline in the portal
@@ -28,7 +29,7 @@ If your device is offline, it could be due to one of the following:
     * In Hyper-V, your device will be paused automatically when the volume that stores snapshots or virtual hard disks runs out of available storage. The state of the device is listed as *paused-critical* in Hyper-V Manager. Resolve this by creating additional space on the volume.
     * If you still cannot connect, check the Hyper-V host or ESX server to ensure that the VM is healthy.
 
-3. Your proxy server settings may be incorrect. Ensure that you use a valid proxy server while registering. For more information, go to [Configure web proxy for your device](https://aka.ms/dbe-device-local-mgmt).
+3. Your proxy server settings may be incorrect. Ensure that you use a valid proxy server while registering. For more information, go to [Configure web proxy for your device](https://docs.microsoft.com/azure/databox-online/data-box-edge-deploy-connect-setup-activate#set-up-and-activate-the-physical-device).
 
 ## **Recommended Documents**
 

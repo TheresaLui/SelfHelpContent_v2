@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633398"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="sb-message-count-issue"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Message Count Issues
 ---
@@ -34,7 +35,7 @@ schemaVersion="1"
             "controlType": "textbox",
             "displayLabel": "Enter the current message count",
             "watermarkText": "Enter the current message count",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_ExpectedMesssageCount",
@@ -42,7 +43,7 @@ schemaVersion="1"
             "controlType": "textbox",
             "displayLabel": "Enter the expected message count",
             "watermarkText": "Enter the expected message count",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

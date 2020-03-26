@@ -1,6 +1,6 @@
 <properties
 	pageTitle="My VM/Disk is slow"
-	description="My VM/Disk is slow"
+	description="Diagnose and mitigate VM performance issues"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="kasparks,anandhms"
@@ -12,6 +12,7 @@
 	ms.author="anandh"
 	cloudEnvironments="public"
 	articleId="9eaa3031-fa68-4ac8-b65c-e433e4d0bc33"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # My VM/Disk is slow

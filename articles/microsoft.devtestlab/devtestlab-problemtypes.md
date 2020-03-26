@@ -12,6 +12,7 @@
     productPesIds="15968"
     cloudEnvironments="public"
     articleId="8aff36e6-7bc5-4b94-8b08-09c405823da9"
+	ownershipId="AzureLabServices_DevTestLab"
 />
 
 # DevTest Labs Problem Types

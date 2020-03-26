@@ -1,21 +1,23 @@
 <properties
-	pageTitle="Marketplace"
-	description="Marketplace"
+	pageTitle="Help me understand when I will be charged"
+	description="Help me understand when I will be charged"
 	articleId="pricing-marketplacescopingquestions"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32632932"
+	supportTopicIds="32632932, 32680676"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 
-# Pricing -Marketplace
+# Pricing -Help me understand when I will be charged
 ---
 {
     "resourceRequired": false,
-    "title": "Marketplace",
+    "subscriptionRequired": false,
+    "title": "Help me understand when I will be charged",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -24,6 +26,14 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "Problem Start Date",
+            "required": true
+        },
+        {
+            "id": "subscriptionid_details",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Subscription ID",
+            "watermarkText": "Provide your Subscription id",
             "required": true
         },
         {
@@ -36,9 +46,6 @@
             "hints": [
                 {
                     "text": "Describe your problem, providing as much detail as possible."
-                },
-                {
-                    "text": "Know more about Marketplace pricing - <a href='https://azure.microsoft.com/marketplace/faq/'>here</a>."
                 }
             ]
         }

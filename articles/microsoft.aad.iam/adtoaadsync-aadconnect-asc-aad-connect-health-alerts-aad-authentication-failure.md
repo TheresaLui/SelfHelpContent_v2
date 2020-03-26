@@ -12,14 +12,15 @@ pageTitle="Connection to Azure Active Directory failed due to authentication fai
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
-# Connection to Azure Active Directory failed due to authentication failure
-<!--/issueDescription-->
+# Connection to Azure Active Directory failed due to authentication failure 
+<!--issueDescription-->
 Connection to Azure Active Directory failed due to authentication failure. As a result, objects will not be synchronized with Azure Active Directory. You should investigate and resolve this issue to resume synchronization with Azure Active Directory.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-To diagnose this issue, examine the Windows Event Log for error events in the Application log. Look for error events that have "Directory Synchronization" as the Source in the Event Viewer. This will provide information about the exact nature of the authentication failure. 
+To diagnose this issue, examine the Windows Event Log for error events in the Application log. Look for error events that have "Directory Synchronization" as the Source in the Event Viewer. This will provide information about the exact nature of the authentication failure.

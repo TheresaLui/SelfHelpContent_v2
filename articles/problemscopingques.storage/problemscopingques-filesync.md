@@ -5,14 +5,16 @@
     ms.author="passap"
 	articleId="StorageScoping_file_sync"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602749,32602755,32602756,32602767,32602769"
+	supportTopicIds="32675720,32675721,32675722,32675723,32675724,32675725,32675726"
 	productPesIds="16460"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Storage File Sync scoping question
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Storage File Sync scoping question",
     "fileAttachmentHint": "",

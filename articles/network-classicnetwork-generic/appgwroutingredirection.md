@@ -10,8 +10,9 @@
 	supportTopicIds="32640608"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="http-redirection"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # HTTP Redirection

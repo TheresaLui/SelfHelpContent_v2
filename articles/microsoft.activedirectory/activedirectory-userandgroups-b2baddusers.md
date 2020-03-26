@@ -9,8 +9,9 @@
     supportTopicIds="32565671"
     resourceTags=""
     productPesIds="14785"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake"
     	articleId="0add59e1-f6f8-4c7d-9b75-cd525f9deb4f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Adding B2B collaboration guest users

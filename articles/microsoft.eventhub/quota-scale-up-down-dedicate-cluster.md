@@ -12,6 +12,7 @@
     productPesIds="16125"
     cloudEnvironments="public,BlackForest,Fairfax"
     articleId="bd8a300d-4fc0-4d49-9601-40036363ca97"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Request to Scale Up or Scale Down Dedicate Cluster

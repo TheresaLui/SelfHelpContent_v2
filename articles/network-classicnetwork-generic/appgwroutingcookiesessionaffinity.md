@@ -10,13 +10,17 @@
 	supportTopicIds="32640605"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cookie-based-affinity"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Cookie Based Session Affinity
 
 Application Gateway cookie based affinity enables the application gateway to direct subsequent traffic from a user session to the same server for processing. This is achieved by the client setting a cookie sent by the Application Gateway in subsequent requests in the same session.
+
+Make sure that the clients are setting the affinity cookie while sending subsequent requests so that the sticky sessions can be maintained.
+
 
 ## **Recommended Documents**
 

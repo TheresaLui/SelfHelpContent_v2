@@ -1,41 +1,53 @@
 <properties
-	pageTitle="Cannot activate role due to resource lock"
-	description="When attempting to activate an Azure resource role you recieve an error resource locked"
+	pageTitle="Delays when activating or deactivating a role"
+	description="After you activate a role in Azure AD Privileged Identity Management (PIM), you don't have the assigned permissions. Or after you deactivate a role in PIM, permissions are not removed."
 	service="microsoft.aad"
 	resource="Microsoft_Azure_PIM"
-	authors="IdentityMy"
+	authors="rolyon"
+	ms.author="rolyon"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32462545"
 	resourceTags=""
 	productPesIds="16577"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
 	articleId="bcb5dde1-bae9-4225-857e-9316ea7ac7f3"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 
-# Unable to activate roles due to Azure resource locks
+# Delays when activating or deactivating a role
 
-Your Azure resources may be protected from accidental deletion with a policy that prohibits users from performing the delete action. If a policy is applied to a resource that prevents delete, it also prevents deletion of role assignments in that resource. Privileged Identity Management (PIM) is designed to provide zero-standing admin access and with delete locks enabled PIM is unable to remove role assignments at the end of the activation period. Since PIM is unable to function properly when a resource lock is applied, PIM prohibits users from activating roles until the delete lock is removed from the resource.
+## Permissions are not granted after activating a role
 
-## **Recommended steps**
+When you activate a role in Azure AD Privileged Identity Management (PIM), the activation may not instantly propagate to all portals that require the privileged role. Sometimes, even if the change is propagated, web caching in a portal may result in the change not taking effect immediately. If your activation is delayed, here are the steps you should follow.
 
+## **Recommended Steps**
 
-1. Remove the lock to continue using PIM. Use the following document to remove the resource lock and continue using PIM. [Remove Azure resource locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources).
+1. Sign out of the Azure portal and then sign back in. When you activate an Azure AD role or an Azure resource role, you will see the stages of your activation. Once all the stages are complete, you will see a **Sign out** link. You can use this link to sign out. This will solve most cases for activation delay.
 
+1. In PIM, verify that you are listed as the member of the role
 
-2. Make the user permanent or use a break-glass account. In the event you want to keep the resource lock, you should change your assignment to permanent or use a break-glass account until the resource lock is removed.  
+1. If you are activating the Exchange Administrator role, make sure you sign out and sign back in. If the problem persists, open a support ticket and raise this as an issue. If you are using your Exchange Administrator role to access the Security and Compliance Center, see the next step.
 
+1. If you activating a role to access the Security and Compliance Center or if you activating the SharePoint Administrator role, you will experience some activation delay from a few minutes up to a few hours. This is a known issue and we are actively working with these teams to resolve this issue as soon as possible.
 
-## Permissions not granted after activating a role in Azure AD PIM
+## **Recommended Documents**
 
-After activating a role in Azure AD PIM, it takes at least ten minutes before you can access the desired administrative portal or perform functions within a specific administrative workload. Follow the steps below before opening a support ticket.
+* [Activate my Azure AD roles in PIM](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-how-to-activate-role)
+* [Activate my Azure resource roles in PIM](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-resource-roles-activate-your-roles)
 
-## **Recommended steps**
+## Permissions are not removed after deactivating a role or the role activation expires
 
+When you deactivate a role in Azure AD Privileged Identity Management (PIM) or when a role activation period expires, there might be a delay where you continue to have access. The following scenarios are two possible delays.
 
-Use the Application access tab in the left navigation menu to access the specific workload. From the Activate blade, back up to the primary PIM blade where you can see the left navigation menu. In the Tasks section, locate and select the Application access tab. Once the page loads choose either the Azure AD administration portal or Azure resource portal. Using these links will invalidate your current token, forcing the client to obtain a new token that should contian your updated permissions.
+## **Recommended Steps**
 
+1. If you are deactivating the Exchange Administrator role or the role activation period expires, and you notice a significant delay before the permissions are removed, open a support ticket and tell your support engineer to help you file a ticket with the privileged access management (PAM) team inside Office about this issue
 
-## **Recommended documents**
-* [Troubleshooting Elevated Permissions with Azure AD Privileged Identity Management](https://social.technet.microsoft.com/wiki/contents/articles/37568.troubleshooting-elevated-permissions-with-azure-ad-privileged-identity-management.aspx)<br>
-* [Administrator roles in Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles)
+1. If the activation period has expired, but you still have the browser session open, close your browser. You can continue to use the role until you close that session. This is a known issue and we are looking at a potential fix to actively revoke each session once activation has expired.
+
+1. If your delay is different than these two scenarios, please open a support ticket
+
+## **Recommended Documents**
+
+* [Deactivate an Azure AD roles in PIM](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-how-to-activate-role#deactivate-a-role)

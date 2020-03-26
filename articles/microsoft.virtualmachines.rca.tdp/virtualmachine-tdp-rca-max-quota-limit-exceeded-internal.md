@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds=""
 	cloudEnvironments="public"
+	ownershipId="Compute_VirtualMachines"
 />
 # Maximum quota limit exceeded
 

@@ -6,6 +6,7 @@
     articleId="84b1a508-fc21-49da-979e-96894f1665df_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Buy virtual machine reserved instances to save money over pay-as-you-go costs
 ---
@@ -38,7 +39,7 @@
     "19c2f118-ef78-4dcb-83eb-d715c67d8c39"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/reservedinstances",
   "description": "Buy virtual machine reserved instances to save money over pay-as-you-go costs",
   "longDescription": "Reserved instances can provide a significant discount over pay-as-you-go prices. With reserved instances, you can pre-purchase the base costs for your virtual machines. Discounts will automatically apply to new or existing VMs that have the same size and region as your reserved instance. We analyzed your usage over the last 30 days and recommend money-saving reserved instances.",
@@ -49,16 +50,18 @@
       "description": "Buy reserved instances to save over pay-as-you-go costs",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Reservations",
-      "bladeName": "CreateReservationBlade",
+      "bladeName": "CreateBlade",
       "metadata": {
-        "referrer": "AzureAdvisor",
-        "subid": "{subscriptionId}",
-        "spec": "{vmSize}",
-        "ritype": "{reservationType}",
-        "loc": "{location}",
-        "scope": "{scope}",
-        "quantity": "{targetResourceCount}",
-        "term": "{term}"
+        "filters": {
+          "reservedResourceType": "VirtualMachines",
+          "subId": "{subscriptionId}",
+          "scope": "{scope}",
+          "region": "{location}",
+          "sku": "{vmSize}",
+          "term": "{term}",
+          "quantity": "{targetResourceCount}"
+        },
+        "referrer": "AzureAdvisor"
       }
     }
   ],

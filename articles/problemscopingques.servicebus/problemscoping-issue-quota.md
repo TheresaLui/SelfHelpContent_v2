@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633390"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="sb-quota-request"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Quota Issues
 ---
@@ -33,7 +34,7 @@ schemaVersion="1"
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What quota increase are you requesting for?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_Reason",
@@ -41,7 +42,7 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "displayLabel": "Enter your justification for increase the quota",
             "watermarkText": "Provide your reasoning for quota change request",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

@@ -6,6 +6,7 @@
     articleId="1ef6e4c5-2caa-4528-a6e4-0db08a4d2872_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Upgrade your Storage Account to General-purpose v2
 ---
@@ -24,7 +25,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "StorageGPv1ToGPv2",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

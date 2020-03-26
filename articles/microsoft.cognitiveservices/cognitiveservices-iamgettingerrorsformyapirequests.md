@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="df609b4e-bb37-4e41-9846-6ff5eec87a2e"
+	ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # I am getting 401 errors for my API requests

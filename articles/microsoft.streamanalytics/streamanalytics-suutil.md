@@ -11,8 +11,9 @@
 	supportTopicIds="32628786,32357228"
 	resourceTags=""
 	productPesIds="15663"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	ms.author="sidram"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # Streaming Unit Utilization
@@ -23,7 +24,10 @@ There are multiple factors that affect streaming unit utilization. To learn more
 
 ## **Recommended Documents**
 
-* [Use watermark delay metric to check performance of your job](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-set-up-alerts#scenarios-to-monitor)
+* [How to use Watermark delay metric to determine performance impact of your jobs?](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-set-up-alerts#scenarios-to-monitor)
 * [Why did SU% utilization suddenly increase or decrease?](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-streaming-unit-consumption#factors-that-increase-su-utilization)
 * [Query parallelization to optimize SU % utilization](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-parallelization)
 * [Troubleshoot using metrics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-job-diagram-with-metrics#troubleshoot-by-using-metrics)
+* [Why increasing number of streaming units for a job might not decrease SU % Utilization?](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-streaming-unit-consumption#factors-that-increase-su-utilization)
+* [How to fine tuning Cosmos DB output for better performance?](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-documentdb-output)
+* [How to fine tune Azure SQL DB for better performance?](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-sql-output-perf)

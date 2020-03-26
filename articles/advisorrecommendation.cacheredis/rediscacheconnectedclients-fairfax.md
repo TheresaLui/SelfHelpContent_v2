@@ -1,11 +1,12 @@
 <properties
-    pageTitle="Improve your Cache and application performance when running with many connected clients"
+    pageTitle="Improve your  Cache and application performance when running with many connected clients"
     description="Improve your Cache and application performance when running with many connected clients"
     authors="aadevteam"
     ms.author="aadevteam"
     articleId="a5ab10c5-424a-4818-9fba-ddca1eee531a_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="RedisCache_RedisCache"
 />
 # Improve your Cache and application performance when running with many connected clients
 ---

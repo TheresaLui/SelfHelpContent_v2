@@ -10,8 +10,9 @@
 	supportTopicIds="32640606"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="custom-error-page"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Custom Error Page

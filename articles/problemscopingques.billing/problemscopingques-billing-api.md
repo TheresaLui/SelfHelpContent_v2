@@ -7,15 +7,16 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32599495"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake, Fairfax"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 
 # Billing API
 ---
 {
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Billing API",
     "fileAttachmentHint": "",
     "formElements": [
@@ -28,36 +29,8 @@
             "required": true
         },
         {
-            "id": "SubscriptionId",
-            "order": 6,
-            "controlType": "dropdown",
-            "displayLabel": "Select the Subscription ID",
-            "watermarkText": "Choose an option",
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions?api-version=2014-04-01",
-                "jTokenPath": "value",
-                "textProperty": "displayName,subscriptionId",
-                "textTemplate": "{displayName} ({subscriptionId})",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            },
-            "dropdownOptions": [
-                {
-                    "value": "dont_know_answer",
-                    "text": "Not in the list"
-                }
-            ],
-            "useAsAdditionalDetails": false,
-            "required": true
-        },
-        {
             "id": "subscriptionid_details",
             "order": 7,
-            "visibility": "SubscriptionId == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
             "watermarkText": "Provide your Subscription id",

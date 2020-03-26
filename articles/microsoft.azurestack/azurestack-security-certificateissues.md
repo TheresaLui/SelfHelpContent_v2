@@ -7,11 +7,12 @@
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629198, 32629199"
+    supportTopicIds="32629199"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="decac0d0-8da0-422f-a2b2-d3ad2f9ce05c"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Certificates Issues

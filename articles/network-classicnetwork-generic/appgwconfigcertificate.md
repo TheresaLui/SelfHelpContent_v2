@@ -10,8 +10,9 @@
 	supportTopicIds="32639109"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="configure-ssl-auth-trustedrootcert"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Configure SSL and Authentication/Trusted Root Certificates
@@ -21,7 +22,8 @@ To perform end to end SSL, Application Gateway requires the backend instances to
 
 ## **Recommended Documents**
 
-* [Create certificates for whitelisting backend](https://docs.microsoft.com/azure/application-gateway/certificates-for-backend-authentication)  with Azure Application Gateway
+* [Create certificates for whitelisting backend](https://docs.microsoft.com/azure/application-gateway/certificates-for-backend-authentication) with Azure Application Gateway
 * [Renewing SSL Certificates](https://docs.microsoft.com/azure/application-gateway/renew-certificates) in Application Gateway
 * [Using Azure KeyVault](https://docs.microsoft.com/azure/application-gateway/key-vault-certs)
 * Configure SSL termination with Azure KeyVault using [Azure PowerShell](https://docs.microsoft.com/azure/application-gateway/configure-keyvault-ps)
+* [Generate a self-signed certificate](https://docs.microsoft.com/azure/application-gateway/self-signed-certificates)

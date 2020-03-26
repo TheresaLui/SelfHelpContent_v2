@@ -1,7 +1,7 @@
 <properties
          pageTitle="Scoping questions for issue with delete or retain data"
          description="Scoping questions for issue with delete or retain data"
-         authors="srinathv"
+         authors="srinathvasireddy"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632785"
@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="532fa46c-9d45-454c-84d5-fce64a5d639d"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for issue with delete or retain data
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "Issue with delete or retain data",
     "fileAttachmentHint": "",
+     "diagnosticCard": {
+        "title": "Issue with delete or retain data",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "error_message",
@@ -39,7 +45,8 @@
             "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="78d9d4fe-4e02-4f16-9e66-ab9529f5c0ae"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for Azure File Share backup performance issue
 ---
@@ -17,14 +18,31 @@
     "subscriptionRequired": true,
     "title": "Azure File Share backup performance issue",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure File Share backup performance diagnostics",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "storage_account_name",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Which storage account(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the storage account(s)",
-            "required": false
+	          "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Storage/storageAccounts' or resourceType eq 'Microsoft.ClassicStorage/storageAccounts'",
+            "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
+            "textPropertyRegex": ".*",
+	    "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Other, don't know or not applicable"
+            }
+          },
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "fileshare_Name",

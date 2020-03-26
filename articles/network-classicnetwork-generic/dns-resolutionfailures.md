@@ -3,14 +3,15 @@
 	description="Troubleshoot Azure DNS resolution failures"
 	service="microsoft.network"
 	resource="dns"
-	authors="radwiv"
-	ms.author="radwiv"
+	authors="rohinkoul"
+    ms.author="rohink"
 	selfHelpType="generic"
 	supportTopicIds="32593314"
 	resourceTags=""
 	productPesIds="15804"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="88cf551b-fd6f-4478-9c1c-f4c20af6396c"
+	ownershipId="CloudNet_DNS"
 />
 
 # Troubleshoot Azure DNS resolution failures

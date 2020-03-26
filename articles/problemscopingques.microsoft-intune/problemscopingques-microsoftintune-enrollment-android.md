@@ -8,6 +8,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="d295eadf-ca63-4106-8564-5f643eced134"
+	ownershipId="IntuneCxP_Intune"
 />
 # Intune Enrollment Android
 ---

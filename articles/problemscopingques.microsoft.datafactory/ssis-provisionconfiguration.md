@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
     supportTopicIds="32629533"
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
     articleId="9543B0E5-DAD6-4405-8B33-C5DEC75F375B"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Azure-SSIS Provision and Configuration Info
@@ -47,14 +48,14 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What's the name of Data Factory?",
-            "required": true
+            "required": false
         },
         {
             "id": "ssisir_name",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "What's the name of Azure-SSIS Integration Runtime?",
-            "required": true
+            "required": false
         },
         {
             "id": "operation_trigger",

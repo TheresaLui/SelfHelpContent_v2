@@ -4,11 +4,12 @@
 	authors="chez-charlie"
 	ms.author="chez"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629461, 32629470, 32629463, 32629467"
+    supportTopicIds="32629461, 32629470, 32629463, 32637163"
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
     articleId="ff731302-5b98-42fd-98d3-73317cd531a0"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Azure Data Movement Issue
@@ -48,14 +49,14 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What's the source of the copy activity?",
-            "required": true
+            "required": false
         },
         {
             "id": "sink_name",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "What's the sink of the copy activity?",
-            "required": true
+            "required": false
         },
         {
             "id": "ir_type",
@@ -94,15 +95,37 @@
             "required": false
         },
         {
-            "id": "problem_start_time",
+            "id": "df_version",
             "order": 8,
+            "controlType": "dropdown",
+            "displayLabel": "Which Version of Data Factory are you using?",
+            "watermarkText": "Choose Data Factory Version",
+            "dropdownOptions": [
+                {
+                    "value": "V2",
+                    "text": "V2"
+                },
+                {
+                    "value": "V1",
+                    "text": "V1"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
+            "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
         },
         {
             "id": "problem_end_time",
-            "order": 9,
+            "order": 10,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
             "required": false

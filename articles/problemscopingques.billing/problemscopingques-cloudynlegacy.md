@@ -5,16 +5,17 @@
 	authors="prdasneo"
 	ms.author="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32615277,32615279,32615288,32615289,32615290,32615291,32615292,32615294,32615295,32615296,32615299,32615300,32615301,32615302,32615303,32615304,32615305"
+	supportTopicIds="32615279,32615288,32615289,32615290,32615291,32615292,32615294,32615295,32615296,32615299,32615300,32615301,32615302,32615303,32615304,32615305"
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 # Cloudyn Legacy
 ---
 {
-    "resourceRequired": true,
-    "subscriptionRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Cloudyn Legacy",
     "fileAttachmentHint": "Please upload the HAR file and the screenshot of the error message",
     "formElements": [
@@ -26,36 +27,8 @@
             "required": true
         },
         {
-            "id": "SubscriptionId",
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Select the Subscription ID",
-            "watermarkText": "Choose an option",
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions?api-version=2014-04-01",
-                "jTokenPath": "value",
-                "textProperty": "displayName,subscriptionId",
-                "textTemplate": "{displayName} ({subscriptionId})",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            },
-            "dropdownOptions": [
-                {
-                    "value": "dont_know_answer",
-                    "text": "Not in the list"
-                }
-            ],
-            "useAsAdditionalDetails": false,
-            "required": true
-        },
-        {
             "id": "subscriptionid_details",
             "order": 3,
-            "visibility": "SubscriptionId == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
             "watermarkText": "Provide your Subscription id",

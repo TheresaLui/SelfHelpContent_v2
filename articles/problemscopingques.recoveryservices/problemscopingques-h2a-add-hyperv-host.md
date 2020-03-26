@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32536385"
          productPesIds="16370"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	     articleId="e3d5e9b4-32c0-42d4-bebf-2e0b2dffcbed"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions addition failure 
 ---
@@ -35,7 +36,6 @@
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
             "required": false
         },
-
         {
             "id": "problem_start_time",
             "order": 3,

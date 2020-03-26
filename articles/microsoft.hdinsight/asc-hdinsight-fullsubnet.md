@@ -4,23 +4,25 @@
     infoBubbleText="Found recent cluster failure. See details on the right."
     service="microsoft.hdinsight"
     resource="clusters"
-    authors="nealbh"
-    ms.author="nebhatta"
+    authors="anirudhrege"
+    ms.author="v-anreg"
     displayOrder="28"
     articleId="Hdi_fullsubnet"
-    diagnosticScenario="HDInsightSubnetFullInsight"
+    diagnosticScenario="HDInsightSubnetIsFullInsight"
     selfHelpType="rca"
-    supportTopicIds="32628987, 32629125, 32636492"
+    supportTopicIds="32636423, 32681537"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found the following issue
 
 ## Problem
-
-Scaling of the HDInsight cluster failed within subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> because the subnet in which this HDInsight cluster is deployed does not have sufficient free IP addresses to match the number of nodes you would like to scale up the cluster.
+<!--issueDescription-->
+Deployment of the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> failed within subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> because the subnet does not have sufficient free IP addresses to match the number of nodes of the cluster.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

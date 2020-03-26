@@ -10,6 +10,7 @@ supportTopicIds="32633014"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # REST API or Azure Command Line Interface (CLI)

@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32630446"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="0af8c518-ade1-4cf3-8415-5dfa51577dd2"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # My issue is not listed

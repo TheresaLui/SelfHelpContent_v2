@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="16bb11b7-571a-44fe-8534-b96eecb1296c"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Advisory questions related to Recovery Services Vault
@@ -20,7 +21,6 @@
 
 - [Move a vault between subscriptions](https://aka.ms/AB-move-a-rsv-to-a-different-subscription)<br>
 - [Move a vault between Resource Groups](https://aka.ms/AB-move-a-rsv-to-different-resource-group)<br>
-- [Delete old backup data from vault](https://aka.ms/AB-retain-the-data)<br>
 - [Delete vault from portal](https://aka.ms/AB-delete-vault-from-azure-portal)<br>
 - [Determined the data source size in vault](https://aka.ms/AB-data-source-size)<br>
 - Stop backup/protection for:

@@ -7,16 +7,17 @@
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629276"
+    supportTopicIds="32663897,32663900,32663901"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-vm-scalesets"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Virtual Machine Scale Sets
 
-Virtual machine scale sets are an Azure Stack compute resource that allow you to create and manage a group of identical, load-balanced, and auto-scaling VMs.  With all virtual machines configured in the same way, scale sets do not require pre-provisioning of virtual machines.
+Virtual machine scale sets are an Azure Stack compute resource that allow you to create and manage a group of identical, load balancer, and auto-scaling VMs.  With all virtual machines configured in the same way, scale sets do not require pre-provisioning of virtual machines.
 
 ## **Recommended Steps**
 

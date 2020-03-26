@@ -4,9 +4,10 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32570962" 
 	 productPesIds="14785" 
-	 cloudEnvironments="public" 
+	 cloudEnvironments="public, Fairfax, Mooncake" 
 	 schemaVersion="1"
 	articleId="32704e44-ba60-4aa9-aba5-7b19f7a9ca70"
+	ownershipId="ASEP_ContentService_Placeholder"
 /> 
 # Other problem with licenses 
 ---

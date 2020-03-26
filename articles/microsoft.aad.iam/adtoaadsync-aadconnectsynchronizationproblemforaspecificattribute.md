@@ -5,10 +5,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32565590"
     productPesIds="14785"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake"
     schemaVersion="1"
     articleId="c3f74466-ee43-4568-9ae0-2258be8d4bb1"
-    />
+    	ownershipId="ASEP_ContentService_Placeholder"
+/>
 
 # Azure AD Connect synchronization issue with specific attribute
 
@@ -30,7 +31,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 1
@@ -47,7 +48,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
-            "required": true,
+            "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 3
@@ -105,7 +106,7 @@
             "order": 5,
             "controlType": "infoblock",
             "displayLabel": null,
-            "content": "Please share the setup logs. If the Azure AD Connect version is 1.1.443.0 or after, the logs are located under '%programdata%\\\\AADConnect'. Otherwise, they are located under '%localappdata%\\\\AADConnect'. Please share provide the entire folder.",
+            "content": "Please share the setup logs. If the Azure AD Connect version is 1.1.443.0 or after, the logs are located under '%programdata%\\AADConnect'. Otherwise, they are located under '%localappdata%\\AADConnect'. Please share provide the entire folder.",
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": null,

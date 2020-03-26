@@ -15,10 +15,12 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Credit limits
 
 ## **Recommended Documents**
 
+* [Cloud Solution Provider (CSP) account credit limits](https://docs.microsoft.com/partner-center/account-credit-limit)
 * [Billing basics](https://docs.microsoft.com/partner-center/billing-basics)
 * [Common billing scenarios](https://docs.microsoft.com/partner-center/common-billing-scenarios)

@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32628240"
          productPesIds="15739"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="problemscopingquesportaldashboard"
+	ownershipId="Compute_AzurePortal"
 />
 # Questions for Azure Portal Dashboard Issues
 ---

@@ -10,12 +10,17 @@
     supportTopicIds="32636442"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="46e08c4d-3072-40d7-a9a7-ecf67f3cbb9d"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight client tool issue: Beeline
 
-## **Recommended Documents**
+## **Recommended Steps**
 
 * [Use the Apache Beeline client with Apache Hive](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-hadoop-use-hive-beeline)
+
+## **Recommended Documents**
+
+* [How do I launch Hive shell with specific configurations on HDInsight cluster?](https://hdinsight.github.io/hive/hive-shell-configurations.html)

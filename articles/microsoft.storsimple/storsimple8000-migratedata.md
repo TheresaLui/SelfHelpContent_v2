@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="1399981a-f4fc-4c35-a7d7-ddf2000c58ca"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # How can I move data from one device to another device

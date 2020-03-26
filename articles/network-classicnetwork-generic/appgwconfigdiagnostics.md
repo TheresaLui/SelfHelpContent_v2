@@ -10,8 +10,9 @@
 	supportTopicIds="32640603"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="configure-diagnostics-metrics"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Configure Diagnostics and Metrics

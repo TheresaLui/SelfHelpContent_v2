@@ -10,16 +10,17 @@
 	supportTopicIds="32584255"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="867463"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # configurationandsetup/unabletoreachaport
 
 ## **Recommended Steps**
 
-1. Check to ensure your application is listening on the specific port<br>
-2. Ensure your NSG rule doesn't have a specific source port mentioned (usually *)
+1. Check to ensure your application is listening on the specific port. There are multiple ways to do this, [netstat](https://docs.microsoft.com/windows-server/administration/windows-commands/netstat) is an example<br>
+2. Ensure your NSG rule doesn't have a specific [source port mentioned (usually *)](https://docs.microsoft.com/azure/virtual-network/security-overview#security-rules)<br>
 3. Use [Next hop](data-blade:microsoft_azure_network.getnexthopblade.id.$subscriptionId) for routes to find next hop type and IP address of packet from a specific VM and NIC<br>
 
 ## **Recommended Documents**

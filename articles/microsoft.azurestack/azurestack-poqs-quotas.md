@@ -7,11 +7,12 @@
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629249,32629250"
+    supportTopicIds="32629249"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-poqs-quotas"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Manage Quotas on Azure Stack
 

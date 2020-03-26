@@ -7,15 +7,17 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632949"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	schemaVersion="1"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Azure Subscription Cancellation
 ---
 {
     "resourceRequired": false,
-    "title": "Purchase Issues - Azure Subscriptions",
+    "subscriptionRequired": false,
+    "title": "Request for Cancellation of a Subscription",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -25,86 +27,39 @@
             "displayLabel": "Problem Start Date",
             "required": true
         },
-        {
-            "id": "reason_description",
+	{
+            "id": "subscriptionId",
             "order": 2,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Reason for cancellation/switching/re-enabling",
-            "watermarkText": "Provide the reason for cancellation/switching/re-enabling",
-            "required": true
-        },
-        {
-            "id": "browser_details1",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Browser Information",
-            "watermarkText": "Choose the browser",
-            "dropdownOptions": [
-                {
-                    "value": "Apple Safari",
-                    "text": "Apple Safari"
-                },
-                {
-                    "value": "Google Chrome",
-                    "text": "Google Chrome"
-                },
-                {
-                    "value": "Internet Explorer",
-                    "text": "Internet Explorer"
-                },
-                {
-                    "value": "Microsoft Edge",
-                    "text": "Microsoft Edge"
-                },
-                {
-                    "value": "Mozilla Firefox",
-                    "text": "Mozilla Firefox"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "browser_details2",
-            "order": 4,
-            "visibility": "browser_details1 == Other",
             "controlType": "textbox",
-            "displayLabel": "Please provide the Browser Information",
+            "displayLabel": "Subscription ID",
+            "watermarkText": "",
+            "required": true
+        },
+	{
+            "id": "reason_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Reason for cancellation",
+            "watermarkText": "Provide the reason for cancellation",
             "required": false
         },
         {
             "id": "error_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Error message (if any) encountered ",
             "watermarkText": "Provide the error message encountered",
             "required": false
         },
         {
-            "id": "email_description",
-            "order": 6,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Email notification received (if applicable) about subscription suspension",
-            "watermarkText": "Provide the email notification received about subscription suspension",
-            "required": false
-        },
-        {
             "id": "problem_description",
-            "order": 7,
+            "order": 5,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Browser network trace/Additional details (if any)",
-            "watermarkText": "Provide the browser network trace or any other additional relevant details",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Learn more - <a href='https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues/'>how to capture a browser network trace</a>"
-                }
-            ]
-        }
+            "displayLabel": "Additional details (if any)",
+            "watermarkText": "Provide any other additional relevant details",
+            "required": true
+           }
     ],
     "$schema": "SelfHelpContent"
 }

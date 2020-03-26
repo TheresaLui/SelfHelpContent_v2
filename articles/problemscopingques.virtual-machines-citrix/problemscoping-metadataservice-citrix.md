@@ -6,18 +6,19 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32591375"
                 productPesIds="16215"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0113"
+	ownershipId="Compute_VirtualMachines"
 />
 # Management
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
-    "title": "Azure Metadata Service (Scheduled Events)",
-    "fileAttachmentHint": "",
-    "formElements": [
+                "subscriptionRequired": true,
+                "resourceRequired": false,
+                "title": "Azure Metadata Service (Scheduled Events)",
+                "fileAttachmentHint": "",
+                "formElements": [
         {
             "id": "citrixcase",
             "order": 1,

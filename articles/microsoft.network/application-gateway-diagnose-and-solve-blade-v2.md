@@ -10,7 +10,8 @@ articleId="application-gateway-diagnose-and-solve-v2"
 selfHelpType="diagnoseandsolve"
 resourceTags=""
 productPesIds="15922"
-cloudEnvironments="public"
+cloudEnvironments="public,fairfax,blackforest,mooncake"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Diagnose and solve v2 article for application gateway
 ---
@@ -20,22 +21,22 @@ cloudEnvironments="public"
     {
       "id": "Im_encountering_Bad_Gateway_Error_(502)",
       "title": "I'm encountering Bad Gateway Error (502)",
-      "description": "I'm encountering the following error: Server Error: 502 - Web server received an invalid response while acting as a gateway or proxy server.",
+      "description": "I'm encountering 'Server Error: 502 - Web server received an invalid response while acting as a gateway or proxy server.'",
       "category": "Connectivity",
       "searchTags": "502, bad gateway, server, error",	  
       "supportTopicId": "32573483",
       "commonSolutionArticleId": "application-gateway-502-error",
-      "symptomId": ""
+      "symptomId": "AppGw502AzurePortalInsight"
     },
 	{
       "id": "Im_encountering_4xx_client_error",
       "title": "I'm encountering 4xx client error",
-      "description": "I'm encountering one of the following 4xx client errors: 400 Bad Request, 403 Forbidden, 404 Not Found",
+      "description": "I'm encountering 4xx client errors: 400 Bad Request, 403 Forbidden, 404 Not Found",
       "category": "Connectivity",
       "searchTags": "error, 400, 403, 404, client",	  
       "supportTopicId": "32639113",
       "commonSolutionArticleId": "application-gateway-4xx-error",
-      "symptomId": ""
+      "symptomId": "AppGw4xxIssuesAzurePortalInsight"
     },
     {
       "id": "Im_encountering_too_many_redirects",
@@ -45,7 +46,7 @@ cloudEnvironments="public"
       "searchTags": "redirect, err_too_many_redirects",	  
       "supportTopicId": "32639115",
       "commonSolutionArticleId": "application-gateway-too-many-redirects-error",
-      "symptomId": ""
+      "symptomId": "AppGwTooManyRedirectsAzurePortalInsight"
     },
     {
       "id": "Im_encountering_connection_timed_out_error",
@@ -55,7 +56,7 @@ cloudEnvironments="public"
       "searchTags": "connection, timed out",	  
       "supportTopicId": "32639114",
       "commonSolutionArticleId": "application-gateway-connection-timed-out-error",
-      "symptomId": ""
+      "symptomId": "AppGwConnectionTimedOutAzurePortalInsight"
     },
     {
       "id": "Unknown_backend_health",
@@ -65,7 +66,7 @@ cloudEnvironments="public"
       "searchTags": "unknown, backend",	  
       "supportTopicId": "32639117",
       "commonSolutionArticleId": "application-gateway-unknown-backend-health",
-      "symptomId": ""
+      "symptomId": "AppGwUnknownBackendHealthAzurePortalInsight"
     },
 	{
       "id": "SSL_termination",
@@ -75,7 +76,7 @@ cloudEnvironments="public"
       "searchTags": "SSL, HTTPS, encryption, certificate",		  
       "supportTopicId": "32582828",
       "commonSolutionArticleId": "application-gateway-ssl-termination",
-      "symptomId": ""
+      "symptomId": "AppGwSslTerminationAzurePortalInsight"
     },
     {
       "id": "End-to-end_SSL",
@@ -85,7 +86,7 @@ cloudEnvironments="public"
       "searchTags": "SSL, HTTPS, encryption, end, whitelist, certificate",	  
       "supportTopicId": "32582825",
       "commonSolutionArticleId": "application-gateway-end-to-end-ssl",
-      "symptomId": ""
+      "symptomId": "AppGwE2ESslAzurePortalInsight"
     },
 	{
       "id": "session_affinity",
@@ -95,7 +96,7 @@ cloudEnvironments="public"
       "searchTags": "cookie, session affinity, cookie-based",
       "supportTopicId": "32640605",
       "commonSolutionArticleId": "application-gateway-session-affinity",
-      "symptomId": ""
+      "symptomId": "AppGwSessionAffinityAzurePortalInsight"
     }
   ],
   "troubleshootingTools": [

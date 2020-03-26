@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32536448"
          productPesIds="16370"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax"
          schemaVersion="1"
 	     articleId="c791b57a-6fd5-40c8-975f-7c7ba6d9e9b7"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions Hyper-V VM resynchronization failure 
 ---
@@ -27,7 +28,6 @@
             "watermarkText": "Enter the name of the virtual machine(s)",
             "required": true
         },
-
         {
             "id": "problem_start_time",
             "order": 3,

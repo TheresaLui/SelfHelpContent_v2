@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633402"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
 articleId="sb-debug-monitor"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Monitor and Debug 
 ---
@@ -33,14 +34,14 @@ schemaVersion="1"
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Please include the type of metrics you are trying to setup?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_alert",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Please include the type of alerts you are trying to setup?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

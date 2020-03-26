@@ -1,14 +1,15 @@
 <properties
          pageTitle="Scoping questions for Azure portal"
          description="Scoping questions for Azure portal specific troubleshooting"
-         authors="sansom"
+         authors="sansom,johirsch"
          ms.author="sansom"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32628241,32628242,32628243,32628244,32628246"
-         productPesIds="15739"
+         supportTopicIds="32630411,32630412,32630435,32630456"
+         productPesIds="13491"
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="e31bdba2-c7ff-48c0-a2b3-d5bbd10ab7e4"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Questions for Azure Portal Issues
 ---

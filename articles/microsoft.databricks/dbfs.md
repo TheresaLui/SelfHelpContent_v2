@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="8610f989-8e88-4c7e-a343-cccf5d1285ec"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Azure Databricks Databricks File System (DBFS)

@@ -7,11 +7,12 @@
     ms.author="scotro,tibasham,ramakk"
     displayOrder="5"
     selfHelpType="resource"
-    supportTopicIds="32615531,32615526,32639640"
+    supportTopicIds="32615531,32615526,32639640,32615530"
     resourceTags="windows, windowsSQL"
     productPesIds="14749,14745"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="429c106f-4adb-4ed7-a90b-b7df98686adf"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Resolve connection issue with your Windows VM
@@ -59,4 +60,4 @@ Use [Network Watcher](data-blade:microsoft_azure_network.verifyipflowblade.vmId.
 
 * [Review the RDP troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)<br>
 * [Detailed troubleshooting across network components](https://azure.microsoft.com/documentation/articles/virtual-machines-rdp-detailed-troubleshoot/)<br>
-* Access the [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM and verify it is running. Review the network state and system state in the [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM by going to command prompt.
+* Access the [Serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId) of your VM and verify it is running. Review the network state and system state in the [serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId) of your VM by going to command prompt.

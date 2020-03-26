@@ -7,11 +7,12 @@
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629234,32629235"
+    supportTopicIds="32629234"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-poqs-offers"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Manage Azure Stack Offers

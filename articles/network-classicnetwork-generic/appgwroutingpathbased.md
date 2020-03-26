@@ -10,8 +10,9 @@
 	supportTopicIds="32640607"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="path-based-routing"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Path Based Routing
@@ -22,5 +23,5 @@ While configuring URL path based routing, you might run into unintentional misro
 
 ## **Recommended Documents**
 
-* Create Path based routing for Application Gateway using [Azure Portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-url-route-portal) or [PowerShell](https://docs.microsoft.com/azure/application-gateway/tutorial-url-route-powershell)<br />
+* Configure Path based routing for Application Gateway using [Azure Portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-create-url-route-portal) or [PowerShell](https://docs.microsoft.com/azure/application-gateway/tutorial-url-route-powershell)
 * [URL path based routing](https://docs.microsoft.com/azure/application-gateway/url-route-overview) overview on Application Gateway

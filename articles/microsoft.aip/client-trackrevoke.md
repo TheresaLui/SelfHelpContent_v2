@@ -11,10 +11,14 @@
 	supportTopicIds="32584380"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection - Track and Revoke
+
+## **Recommended Steps**
+Review the below documentation as it contains all information regarding Track and Revoke, how to manage it, disable it for users and more
 
 ## **Recommended Documents**
 

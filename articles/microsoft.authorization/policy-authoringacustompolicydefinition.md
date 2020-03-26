@@ -7,11 +7,12 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636045"
+    supportTopicIds="32730238"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="public"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
     articleId="30af8025-9c12-4eca-8f53-d39bc87368c2"
+    ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Authoring a custom policy definition
@@ -26,3 +27,4 @@
 * [Understanding Policy effects](https://docs.microsoft.com/azure/governance/policy/concepts/effects)
 * [Policy sample Github](https://github.com/Azure/azure-policy/tree/master/samples)
 * [Issues with assigning the policy definition cross-subscriptions](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#definition-location)
+* [Policy known issues](https://github.com/Azure/azure-policy#known-issues)

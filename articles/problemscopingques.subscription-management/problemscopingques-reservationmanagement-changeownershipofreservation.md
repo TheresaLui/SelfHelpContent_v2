@@ -6,15 +6,16 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32593231"
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	schemaVersion="1"
 	articleId="reservationmanagement"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 # Reservation Management
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
@@ -95,6 +96,7 @@
                 "textProperty": "name",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$",
+		"valuePropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
@@ -113,7 +115,7 @@
         {
             "id": "reservationorderid_details",
             "order": 5,
-            "visibility": "Reservationid == Other",
+            "visibility": "Reservationid == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Reservation ID",
             "watermarkText": "Provide your Reservation id",

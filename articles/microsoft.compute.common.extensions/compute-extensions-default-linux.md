@@ -10,8 +10,9 @@
 	supportTopicIds="32628267,32628266,32628278"
 	resourceTags=""
 	productPesIds="15797,15571,16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="79c0e8f0-6de3-441b-a6a1-ec0be01155f8"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My extension is not installing correctly, executing, or listed above
@@ -23,7 +24,8 @@
 * [Overview of virtual machine extensions and features for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/features-linux)<br>
 * [Understanding how to troubleshoot extension failures](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot#troubleshooting-extension-failures)<br>
 * [Understanding Azure virtual machine extensions and features](https://docs.microsoft.com/azure/virtual-machines/extensions/overview)<br>
-* [Understanding Azure Virtual Machine Agent for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows)
+* [Understanding Azure Virtual Machine Agent for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows)<br>
+* [General troubleshooting steps for extensions](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot)
 
 **Additional Information for specific extensions**<br>
 

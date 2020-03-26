@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	articleId="d4e9d379-2bf1-4e83-9939-1850f2d2515e"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM backup failure for Linux 
 ---
@@ -26,9 +27,20 @@
         {
             "id": "vm_facing_issue",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Which virtual machine(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
+	    "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+       	    "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
+            "textPropertyRegex": ".*",
+	    "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Other, don't know or not applicable"
+            }
+	    },
             "required": false,
             "diagnosticInputRequiredClients": "Portal"
         },
@@ -84,7 +96,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "basic_troubleshooting_multiselect",

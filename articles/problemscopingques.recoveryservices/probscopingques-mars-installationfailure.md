@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="0d4bc270-b32b-49f9-8b5c-c6d01db47adf"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MARS Installation or registration failure
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "MARS Installation or registration failure",
     "fileAttachmentHint": "",
+     "diagnosticCard": {
+        "title": "MARS Installation or registration failure",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "os_version",
@@ -62,11 +68,42 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
+	{
+	 "id": "issue_type",
+            "order": 5,
+            "controlType": "dropdown",
+	    "infoBalloonText": "Check installation and registration <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
+            "displayLabel": "Which type of issue you are facing?",
+            "dropdownOptions": [
+                {
+                    "value": "Proxy Configuration failed",
+                    "text": "Proxy Configuration failed"
+                },
+                {
+                    "value": "Installing pre-requisites (.NET and PowerShell) failed",
+                    "text": "Installing pre-requisites (.NET and PowerShell) failed"
+                },
+                {
+                    "value": "Issue with Vault Credentials",
+                    "text": "Issue with Vault Credentials"
+                },
+                {
+                    "value": "Issue with encryption-key/passphrase",
+                    "text": "Issue with encryption-key/passphrase"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+	},
         {
             "id": "basic_troubleshooting_multiselect",
-            "order": 5,
+            "order": 6,
             "controlType": "multiselectdropdown",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
@@ -107,7 +144,7 @@
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
@@ -117,7 +154,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 7,
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Authentication"
-	description="Authentication"
+	description="Troubleshoot Azure Cosmos DB Authentication related issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="rnagpal"
@@ -9,11 +9,15 @@
 	supportTopicIds="32636770"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-authentication"
+	displayOrder="60"
+	category="Core (SQL)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Authentication in Azure Cosmos DB
+Most users are able to resolve their Authentication case using the steps below.
 
 ## **Recommended Steps**
 

@@ -6,14 +6,17 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615533"
                 productPesIds="14749"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0026"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Connect to a VM
 ---
 {
-    "resourceRequired": true,
+    "$schema": "SelfHelpContent",
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Troubleshoot my network security group (NSG)",
     "fileAttachmentHint": "",
     "formElements": [
@@ -39,6 +42,10 @@
                 {
                     "value": "Private IP",
                     "text": "Private IP"
+                },
+                {
+                    "value": "Azure Bastion",
+                    "text": "Azure Bastion"
                 }
             ],
             "required": false
@@ -105,8 +112,55 @@
             "required": false
         },
         {
-            "id": "connect_ifnew",
+            "id": "bastionresource",
             "order": 6,
+            "visibility": "ippublicprivate == Azure Bastion",
+            "controlType": "dropdown",
+            "displayLabel": "Please select your Azure Bastion resource",
+            "watermarkText": "Choose a resource",
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Network/bastionHosts?api-version=2019-04-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            }
+        },
+        {
+            "id": "bastionbrowser",
+            "order": 7,
+            "visibility": "ippublicprivate == Azure Bastion",
+            "controlType": "textbox",
+            "displayLabel": "What browser are you using?",
+            "useAsAdditionalDetails": false,
+            "required": false
+        },
+        {
+            "id": "bastionbrowserversion",
+            "order": 8,
+            "visibility": "ippublicprivate == Azure Bastion",
+            "controlType": "textbox",
+            "displayLabel": "What version is your browser?",
+            "useAsAdditionalDetails": false,
+            "required": false
+        },
+        {
+            "id": "bastionbrowseros",
+            "order": 9,
+            "visibility": "ippublicprivate == Azure Bastion",
+            "controlType": "textbox",
+            "displayLabel": "What OS is your browser running in?",
+            "useAsAdditionalDetails": false,
+            "required": false
+        },
+        {
+            "id": "connect_ifnew",
+            "order": 10,
             "controlType": "dropdown",
             "displayLabel": "Is this VM new to Azure?",
             "watermarkText": "Choose an option",
@@ -128,7 +182,7 @@
         },
         {
             "id": "connect_from",
-            "order": 7,
+            "order": 11,
             "visibility": "connect_ifnew == Yes",
             "controlType": "dropdown",
             "displayLabel": "Where is the VM from?",
@@ -155,7 +209,7 @@
         },
         {
             "id": "connect_howmigrated",
-            "order": 8,
+            "order": 12,
             "visibility": "connect_from == On premise || connect_from == From another cloud provider",
             "controlType": "dropdown",
             "displayLabel": "How was this machine migrated?",
@@ -182,7 +236,7 @@
         },
         {
             "id": "connect_wasoncloud",
-            "order": 9,
+            "order": 13,
             "visibility": "connect_from == On premise",
             "controlType": "dropdown",
             "displayLabel": "Was the machine prepared to work on a cloud environment prior the migration?",
@@ -201,7 +255,7 @@
         },
         {
             "id": "connect_ifinternet",
-            "order": 10,
+            "order": 14,
             "controlType": "dropdown",
             "displayLabel": "Do you have connectivity issues from/to this VM?",
             "watermarkText": "Choose an option",
@@ -219,7 +273,7 @@
         },
         {
             "id": "connect_internetissue",
-            "order": 11,
+            "order": 15,
             "visibility": "connect_ifinternet == Yes",
             "controlType": "dropdown",
             "displayLabel": "What is the problem you are having?",
@@ -250,15 +304,15 @@
         },
         {
             "id": "problem_description",
-            "order": 12,
+            "order": 16,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "required": true
         },
         {
             "id": "problem_start_time",
-            "order": 13,
+            "order": 17,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true

@@ -10,7 +10,8 @@
 	supportTopicIds="32629541, 32629542"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Sharing Self-hosted IR

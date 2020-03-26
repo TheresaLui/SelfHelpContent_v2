@@ -10,6 +10,7 @@ supportTopicIds="32613150"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # General Guidance or Advisory
@@ -23,7 +24,7 @@ schemaVersion="1"
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When was the workspace deleted?",
+            "displayLabel": "When did the problem begin?",
             "required": true
         },
         {

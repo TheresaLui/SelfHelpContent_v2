@@ -1,23 +1,70 @@
 <properties
-    pageTitle="Cluster Creation Fails Due To an Issue With Custom DNS Setup"
+    pageTitle="Common Customization Issues"
     description="Cluster Creation Fails Due To an Issue With Custom DNS Setup"
     service="microsoft.hdinsight"
     resource="clusters"
-    authors="genlin"
+    authors="v-miegge"
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32636488"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, MoonCake, Fairfax"
     articleId="6a60e737-a15c-44df-8320-273b54797713"
+	ownershipId="AzureData_HDInsight"
 />
-
-# Cluster Creation Fails With InvalidNetworkConfigurationErrorCode
-
-Virtual Network configuration is not compatible with HDInsight Requirement. Error: 'HostName Resolution failed'
+# Common Customization Issues
 
 ## **Recommended Steps**
 
-The most likely cause for this failure is that Azure's recursive resolvers may be missing in your DNS chain. To fix this issue, please follow the steps in the [troubleshooting guide](https://hdinsight.github.io/ClusterCRUD/hdinsight-vnet#1-errordescription-contains-hostname-resolution-failed).
+**Known issues in West Europe and North Europe**
+
+As of March 18th, 2020 some Azure HDInsight customers in West Europe or North Europe have received error notifications when creating or scaling HDInsight clusters in these regions. Errors related to this issue include:
+
+- Internal server error occurred while processing the request. Please retry the request or contact support.
+- At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/DeployOperations for usage details
+- User SubscriptionId '\<Subscription ID\>' does not have cores left to create resource '\<cluster name>'. Required: \<X\>, Available: 0.
+
+Engineers are aware of this issue and are actively investigating.
+
+For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-release-notes#known-issues) page.
+
+For additional help, continue creating this support request.
+
+**Custom Script Actions**
+
+Microsoft support teams can only address issues that occur when loading the script. Any errors during the execution of custom scripts is outside the scope of a support ticket. Please use our forums or other channels for troubleshooting errors which occur during the execution of custom scripts.
+
+[Custom Script Actions Troubleshooting](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux#troubleshooting)
+
+**Adding an additional service to an existing cluster**
+
+Microsoft can only support additional applications that are part the cluster creation process. For any additional applications/services outside of the cluster creation process, please contact that application/service provider for support.
+
+For a list of supported components, see [What are the Apache Hadoop components and versions available with HDInsight?](https://docs.microsoft.com/azure/hdinsight/hdinsight-component-versioning#apache-hadoop-components-available-with-different-hdinsight-versions)
+
+**Note**: Support for individual components can also vary by cluster type. For example, Spark is not supported on a Kafka cluster and vice-versa.
+
+**Adding/Deleting edge nodes**
+
+You can add an existing HDInsight cluster's empty edge node to a new cluster when you create the cluster. For more information, see [Use empty edge nodes on Apache Hadoop clusters in HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-apps-use-edge-node).
+
+**Connecting HDInsight to your on-premise network**
+
+If your error description contains **HostName Resolution failed**, this error points to a problem with the custom DNS configuration. DNS servers within a virtual network, can forward DNS queries to Azure’s recursive resolvers, to resolve host names within that virtual network. See [Name Resolution in Virtual Networks](https://docs.microsoft.com/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances) for details.
+
+Access to Azure’s recursive resolvers is provided via the virtual IP **168.63.129.16**. This IP is only accessible from the Azure Virtual Machines (VMs). The IP will not work if you are using an OnPrem DNS server, or your DNS server is an Azure VM which is not part of the cluster’s vNet.
+
+For the steps to resolve this issue, see [ErrorDescription contains 'HostName Resolution failed'](https://hdinsight.github.io/ClusterCRUD/hdinsight-vnet#1-errordescription-contains-hostname-resolution-failed).
+
+**HDInsight does not use private dns zone names for cluster setup**
+
+You must create and configure the DNS server before installing HDInsight in the virtual network. For more information see [Create custom DNS server](https://docs.microsoft.com/azure/hdinsight/connect-on-premises-network#create-custom-dns-server)
+
+**Additional Information**
+
+If you are having technical issues with cluster creation, select **Create** instead of **Other Customization**. Also, if you are running into issues while trying to scale a cluster, please select **Scale** instead of **Other Customization**. Both **Create** and **Scale** will provide better solutions and applicable diagnostics.
+## **Recommended Documents**
+* [Azure HDInsight: Frequently asked questions](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq)
+

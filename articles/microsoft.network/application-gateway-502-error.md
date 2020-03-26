@@ -10,25 +10,21 @@
     articleId="application-gateway-502-error"
     resourceTags=""
 	productPesIds="15922"
-    supportTopicIds="32573483"
-    cloudEnvironments="public"
- />
+    supportTopicIds="32573483,32680993"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Bad Gateway Error (502)
 
+Bad Gateway Error (502) occurs when the Application Gateway does not receive a valid response from the backend application. 9 out of 10 times this happens when the application gateway's health probe detects the backend servers to be unhealthy and takes them out of rotation until they are found healthy again. If all the instances of BackendAddressPool are unhealthy, then the application gateway doesn't have any back-end to route user request to, resulting in Bad Gateway Error (502).
+
 ## **Recommended Steps**
 
-You can see a Bad Gateway Error (502) when there is an issue with the backend application. You can identify this by bypassing the Application Gateway to directly access the backend. If the backend server still returns the same 502 error, then the issue is with the backend and not the Application Gateway.
-
-If it is verified that the backend is healthy, then perform the steps in links below to troubleshoot the issue.
+1. View the [back-end health](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal) and check if any servers have been marked unhealthy in the **Status** column. If there are unhealthy servers, then look for the reason displayed for the unhealthy state mentioned in the **Details** column. After confirming the reason for the backend being unhealthy, perform the troubleshooting steps mentioned in this article: [Causes for 502 errors with Application Gateway](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502)
+2. If the backend servers are shown as healthy, then proceed to file the support ticket
 
 ## **Recommended Documents**
 
-The bad gateway error (502) can happen due to one or more of the following issues:
+- [Troubleshoot 502 errors with Application Gateway using guided troubleshooter](https://support.microsoft.com/help/4504111/azure-application-gateway-with-bad-gateway-502-errors)
 
-- [NSG, UDR or Custom DNS is blocking access to backend pool members](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#network-security-group-user-defined-route-or-custom-dns-issue)
-- [Back-end VMs or instances of virtual machine scale set are not responding to the default health probe](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#problems-with-default-health-probe)
-- [Invalid or improper configuration of custom health probes](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#problems-with-custom-health-probe)
-- [Request time-out or connectivity issues with user requests](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#request-time-out)
-- [Empty backend pool](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#empty-backendaddresspool)
-- [Unhealthy instances in the backend pool](https://docs.microsoft.com/azure/application-gateway/application-gateway-troubleshooting-502#unhealthy-instances-in-backendaddresspool)

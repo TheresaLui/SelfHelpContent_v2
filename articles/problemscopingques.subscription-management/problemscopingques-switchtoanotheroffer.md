@@ -1,23 +1,24 @@
 <properties
-	pageTitle="Switch to Another Offer"
-	description="Switch to Another Offer"
+	pageTitle="Switch to Another Subscription Offer"
+	description="Switch to Another Subscription Offer"
 	authors="prdasneo"
 	ms.author="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632959"
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	schemaVersion="1"
 	articleId="switchtoanotheroffer"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 
-# Switch to Another Offer
+# Switch to Another Subscription Offer
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
-    "title": "Switch to Another Offer",
+    "subscriptionRequired": false,
+    "title": "Switch to Another Subscription Offer",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -27,23 +28,9 @@
             "displayLabel": "Problem Start Date",
             "required": true
         },
-        {
-            "id": "problem_description",
-            "order": 2,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Provide a brief description of the issue",
-            "watermarkText": "Provide a brief description of the issue",
-            "useAsAdditionalDetails": true,
-            "required": true,
-            "hints": [
-                {
-                    "text": "Note: The solution provided is limited to <a href='https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer'> Pay As You Go </a> only. To Convert to any other offer, please provide the below details:"
-                }
-            ]
-        },
-        {
+	{
             "id": "SubscriptionId",
-            "order": 6,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select the Subscription ID",
             "watermarkText": "Choose an option",
@@ -70,7 +57,7 @@
         },
         {
             "id": "subscriptionid_details",
-            "order": 7,
+            "order": 3,
             "visibility": "SubscriptionId == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
@@ -147,6 +134,36 @@
             "displayLabel": " Provide the Offer Type",
             "watermarkText": "Provide the Offer Type",
             "required": false
+        },
+	{
+            "id": "reason_details",
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Reason for switching",
+            "watermarkText": "Provide the reason for switching",
+            "required": false
+        },
+	{
+            "id": "error_details",
+            "order": 7,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Error message (if any)",
+            "watermarkText": "",
+            "required": false
+        },
+	 {
+            "id": "problem_description",
+            "order": 8,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide a brief description of the issue",
+            "watermarkText": "Provide a brief description of the issue",
+            "useAsAdditionalDetails": true,
+            "required": true,
+            "hints": [
+                {
+                    "text": "Note: The solution provided is limited to <a href='https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer'> Pay As You Go </a> only. To Convert to any other offer, please provide the below details:"
+                }
+            ]
         }
     ],
     "$schema": "SelfHelpContent"

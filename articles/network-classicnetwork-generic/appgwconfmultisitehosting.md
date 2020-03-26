@@ -10,8 +10,9 @@
 	supportTopicIds="32582827"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="3209a960-3d4f-4220-8eb1-a99848e6a5cc"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Configure Multi-site Hosting
@@ -20,5 +21,5 @@ Multiple site hosting enables you to configure more than one web application on 
 
 ## **Recommended Documents**
 
-* Create an Application Gateway to host multiple web applications using [Azure Portal](https://docs.microsoft.com/azure/application-gateway/create-multiple-sites-portal) or [PowerShell](https://docs.microsoft.com/azure/application-gateway/tutorial-multiple-sites-powershell)<br />
+* Configure multi-site hosting for an Application Gateway using [Azure Portal](https://docs.microsoft.com/azure/application-gateway/create-multiple-sites-portal) or [PowerShell](https://docs.microsoft.com/azure/application-gateway/tutorial-multiple-sites-powershell)<br />
 * [Multiple site hosting](https://docs.microsoft.com/azure/application-gateway/multiple-site-overview) overview on Application Gateway

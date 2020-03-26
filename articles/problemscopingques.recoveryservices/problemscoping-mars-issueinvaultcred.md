@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
   	 articleId="2e956193-880f-437c-942e-575465e86ce2"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for issue in vault credential download
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "Issue in vault credential download",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Issue in vault credential download",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "error_message",
@@ -66,7 +72,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",

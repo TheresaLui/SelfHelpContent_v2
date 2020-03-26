@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="b82e2b39-afe7-4748-9ff0-851b2199888e"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # forwarder

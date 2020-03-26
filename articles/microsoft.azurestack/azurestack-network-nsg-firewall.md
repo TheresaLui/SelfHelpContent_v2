@@ -10,8 +10,9 @@
     supportTopicIds="32629231,32629213"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-network-nsg-firewall"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Network Security Groups (NSG)

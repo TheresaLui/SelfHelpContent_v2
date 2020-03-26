@@ -1,18 +1,19 @@
 <properties
-	pageTitle="Data Box Gateway has turned off."
-	description="Data Box Gateway has turned off."
+	pageTitle="Data Box Gateway has turned off"
+	description="Data Box Gateway has turned off"
 	service="microsoft.databoxedge"
 	resource="databoxedgedevices"
 	authors="anoobbacker"
 	ms.author="anbacker"
 	authoralias="anbacker"
-	displayOrder="5"
+	displayOrder="70"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="DataBoxGateway"
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="8bbce42c-0cce-4266-a72e-3f24c184a576"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box Gateway has turned off

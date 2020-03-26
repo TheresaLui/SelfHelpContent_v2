@@ -15,6 +15,7 @@ supportTopicIds="32633009"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # VM data appears with delay

@@ -4,27 +4,65 @@
     service="microsoft.hdinsight"
     resource="clusters"
     authors="TobyTu"
-    ms.author="jaserano"
+    ms.author="jaserano, v-miegge"
     displayOrder=""
     selfHelpType="Generic"
     supportTopicIds="32636507"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, mooncake"
+    cloudEnvironments="public, mooncake, Fairfax"
     articleId="bfa4e56c-3fbc-461d-a7d5-1e485b42932b"
+	ownershipId="AzureData_HDInsight"
 />
-
 # Azure HDInsight: Virtual Network
 
-## Cluster creation fails due to an issue with User-Defined Rules error codes: InvalidNetworkConfigurationErrorCode
+**Known issues in West Europe and North Europe**
 
-Virtual Network configuration is not compatible with HDInsight Requirement. Error: 'Failed to connect to Azure Storage Account' or  'Failed to connect to Azure SQL'
+As of March 18th, 2020 some Azure HDInsight customers in West Europe or North Europe have received error notifications when creating or scaling HDInsight clusters in these regions. Errors related to this issue include:
 
-## **Recommended Steps**
+- Internal server error occurred while processing the request. Please retry the request or contact support.
+- At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/DeployOperations for usage details
+- User SubscriptionId '\<Subscription ID\>' does not have cores left to create resource '\<cluster name>'. Required: \<X\>, Available: 0.
 
-Please follow the steps listed in the [troubleshooting guide](https://hdinsight.github.io/ClusterCRUD/hdinsight-vnet#2-errordescription-contains-failed-to-connect-to-azure-storage-account-or-failed-to-connect-to-azure-sql) to make sure that your user defined rules are configured correctly.
+Engineers are aware of this issue and are actively investigating.
+
+For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-release-notes#known-issues) page.
+
+For additional help, continue creating this support request.
+
+**Common HDInsight VNET issues**
+
+**I have created my cluster but forgot to add it to my VNet**
+
+Unfortunately, there is no way to add a VNET to an existing cluster. You must [delete the existing cluster, then re-deploy a new cluster and add it to the VNET](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network#existingvnet).
+
+**Forced tunneling to on-premise**
+
+Forced tunneling is a user-defined routing configuration where all traffic from a subnet is forced to a specific network or location, such as an on-premises network. HDInsight does not support forced tunneling of traffic to on-premises networks.
+
+**Ensure you have all the required IP addresses**
+
+If you use either network security groups or user defined routes to control traffic, you must allow traffic from the IP addresses for Azure health and management services, so that they can communicate with your HDInsight cluster. Some IP addresses are region specific, and some addresses apply to all Azure regions. You may also need to allow traffic from the Azure DNS service if you aren't using a custom DNS. [Click here for the list of required IPs](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network#hdinsight-ip).
+
+**Ensure you have the required ports open**
+
+If you plan to use a firewall, and access the cluster from outside on certain ports, you might need to allow traffic on those ports needed for your scenario. [Click here for the list of ports for specific services](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-port-settings-for-services).
+
+**Error: HiveMetastoreSchemaInitializationFailedErrorCode**
+
+Solution: If you are using a custom Hive metastore, please run 'Hive Schema Tool' against your metastore to check for possible issues with metastore configuration. Also Check if Azure services or subnet is whitelisted in sql server firewall.
+
+**Error: Unable to connect to cluster**
+
+Possible Solution: If you are using user-defined routes (UDRs), you should specify a route and allow outbound traffic from the VNET to the above IPs with the next hop set to "Internet".
+
+Please review the following links for more information:
+* [HDInsight Controlling network traffic](https://docs.microsoft.com/azure/hdinsight/hdinsight-plan-virtual-network-deployment#networktraffic)
+* [HDInsight management IP addresses](https://docs.microsoft.com/azure/hdinsight/hdinsight-management-ip-addresses)
 
 ## **Recommended Documents**
 
+* [Connectivity and Virtual Networks FAQ](https://docs.microsoft.com/en-au/azure/hdinsight/hdinsight-faq#connectivity-and-virtual-networks)
 * [VNET and Networking](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network)
-* [For ESP clusters, check if HDInsight VNET is peered to AAD-DS VNET](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-configure-using-azure-adds#networking-considerations)
+* [Connect HDInsight to your on-premises network](https://docs.microsoft.com/azure/hdinsight/connect-on-premises-network#configure-the-virtual-network-to-use-the-custom-dns-server)
+* [Create Cluster Error Dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)

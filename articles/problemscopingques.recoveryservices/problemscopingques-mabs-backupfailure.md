@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
   	 articleId="5784ce89-9b9c-4881-9caa-2a462fcbdc24"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure backup server - Online backup is failing
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "Azure backup server Online backup is failing",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure backup server Online backup is failing",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "issue_Type",
@@ -39,7 +45,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "os_version",
@@ -48,7 +55,8 @@
             "controlType": "textbox",
             "displayLabel": "What is the OS version of the impacted Server?",
             "watermarkText": "ex. Windows 2012 R2",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "machine_name",
@@ -64,7 +72,7 @@
             "order": 4,
             "visibility": "issue_Type == Cloud backup is failing || issue_Type == Disk backup is failing",
             "controlType": "textbox",
-            "infoBalloonText": "You can find version information from Microsoft Azure Backup Server Console\\\\Help\\\\About",
+            "infoBalloonText": "You can find version information from Microsoft Azure Backup Server Console\\Help\\About",
             "displayLabel": "What is the software version of Microsoft Azure Backup Server?",
             "watermarkText": "ex. version 12.0.332.0.",
             "required": false
@@ -90,7 +98,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "error_message",
@@ -138,7 +147,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "Basic_troubleshooting_multiselect",
@@ -193,7 +203,7 @@
             "visibility": "issue_Type == Cloud backup is failing",
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\MachineId",
             "watermarkText": "Paste MachineId here",
             "required": false
         },
@@ -203,7 +213,7 @@
             "visibility": "issue_Type == Cloud backup is failing",
             "controlType": "textbox",
             "displayLabel": "Provide the ResourceId:",
-            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\ResourceId",
             "watermarkText": "Paste ResourceId here",
             "required": false
         },
@@ -213,7 +223,8 @@
             "visibility": "null",
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

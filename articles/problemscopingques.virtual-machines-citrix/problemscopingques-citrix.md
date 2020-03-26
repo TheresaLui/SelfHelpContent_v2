@@ -6,16 +6,18 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32567269, 32567274, 32567278, 32567282, 32567271, 32567276, 32567280, 32567285"
          productPesIds="16215"
-         cloudEnvironments="Public"
+         cloudEnvironments="Public, Fairfax"
          schemaVersion="1"
          articleId="b4b6273d-558e-4f2d-ab00-36a830ea67"
+	ownershipId="Compute_VirtualMachines"
 />
 # Citrix VM
 ---
 {
-    "resourceRequired": true,
-    "fileAttachmentHint": "",
-    "formElements": [
+                "subscriptionRequired": true,
+                "resourceRequired": false,
+                "fileAttachmentHint": "",
+                "formElements": [
         {
             "id": "citrixcase",
             "order": 1,

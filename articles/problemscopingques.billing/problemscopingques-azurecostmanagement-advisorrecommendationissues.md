@@ -5,17 +5,18 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32615280,32615298"
+	supportTopicIds="32615280"
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="public, Mooncake, Fairfax"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 
 # Azure Cost Management
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Azure Cost Management",
     "fileAttachmentHint": "Please upload the HAR file and the screenshot of the error message",
     "formElements": [
@@ -27,36 +28,8 @@
             "required": true
         },
         {
-            "id": "SubscriptionId",
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Select the Subscription ID",
-            "watermarkText": "Choose an option",
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions?api-version=2014-04-01",
-                "jTokenPath": "value",
-                "textProperty": "displayName,subscriptionId",
-                "textTemplate": "{displayName} ({subscriptionId})",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            },
-            "dropdownOptions": [
-                {
-                    "value": "dont_know_answer",
-                    "text": "Not in the list"
-                }
-            ],
-            "useAsAdditionalDetails": false,
-            "required": true
-        },
-        {
             "id": "subscriptionid_details",
             "order": 3,
-            "visibility": "SubscriptionId == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Subscription ID",
             "watermarkText": "Provide your Subscription id",

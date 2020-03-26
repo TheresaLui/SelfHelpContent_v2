@@ -6,17 +6,19 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32567272, 32567277, 32567281, 32567286"
          productPesIds="16215"
-         cloudEnvironments="Public"
+         cloudEnvironments="Public, Fairfax"
          schemaVersion="1"
          articleId="b4b6273d-558e-4f2d-ab00-36a830ea69"
+	ownershipId="Compute_VirtualMachines"
 />
 # Citrix VM Connectivity
 ---
 {
-    "resourceRequired": true,
-    "title": "Performance",
-    "fileAttachmentHint": "",
-    "formElements": [
+                "subscriptionRequired": true,
+                "resourceRequired": false,
+                "title": "Performance",
+                "fileAttachmentHint": "",
+                "formElements": [
         {
             "id": "problems_scenario_perf",
             "order": 1,
