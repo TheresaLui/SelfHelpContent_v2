@@ -28,7 +28,7 @@
 * [Troubleshooting overview](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-overview)<br>
 * [Identify and diagnose issues](https://docs.microsoft.com/azure/virtual-desktop/diagnostics-role-service)<br>
 * [Troubleshoot deployment issues](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-issues#issues-using-windows-virtual-desktop--provision-a-host-pool-azure-marketplace-offering)<br>
-* [Troubleshoot Remote Desktop client connections](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-client-connection)<br>
+* [Troubleshoot Remote Desktop client connections](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-client)<br>
 * [Troubleshoot session host virtual machine configurations](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-vm-configuration)<br>
 * [Troubleshoot tenant and host pool creation](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-issues)<br>
 * [Common error scenarios](https://docs.microsoft.com/azure/virtual-desktop/diagnostics-role-service#common-error-scenarios)
