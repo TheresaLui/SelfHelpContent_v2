@@ -1,11 +1,11 @@
 <properties
-	articleId="326392001"
+	articleId="326392002"
 	pageTitle="Scoping Questions for Data Box Disk slow copy speeds"
 	description="Scoping Questions for Data Box Disk slow copy speeds"
 	authors="madhurinms"
 	ms.author="madhn"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639200"
+	supportTopicIds="32639196"
 	productPesIds="16505"
 	cloudEnvironments="public,Fairfax"
 	schemaVersion="1"
@@ -34,19 +34,23 @@
             "required": false
         },
         {
-            "id": "is_os_linux",
+            "id": "is_disk_issue",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "What is the Operating system and environment?",
+            "displayLabel": "What is the error seen?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Windpws",
-                    "text": "Windows"
+                    "value": "In correct BitLocker password",
+                    "text": "In correct BitLocker password"
                 },
                 {
-                    "value": "Linux",
-                    "text": "Linux"
+                    "value": "My Disk is not getting detected",
+                    "text": "My Disk is not getting detected"
+                },
+                {
+                    "value": "There is no file system on the disk",
+                    "text": "There is no file system on the disk"
                 },
                 {
                     "value": "dont_know_answer",
@@ -57,11 +61,25 @@
         },
         {
             "id": "previous_solution",
-            "visibility": "is_os_linux == Linux",
+            "visibility": "is_disk_issue == My Disk is not getting detected || There is no file system on the disk",
             "order": 110,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Name and version",
-            "watermarkText": "Which flavor of Linux is being used?",
+            "controlType": "dropdown",
+            "displayLabel": "Did you format the disk?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
             "required": true
         },
         {
@@ -69,15 +87,9 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the details regarding copy speeds, number of devices connected simultanoeusly to the source system, what other operations were being performed when the issue occurred, whether the issue is intermittent or persistent, and any other relevant information",
+            "watermarkText": "Please provide full erro text and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "learn_more_text",
-            "order": 700,
-            "controlType": "infoblock",
-            "content": "<a href='https://docs.microsoft.com/azure/databox/data-box-disk-system-requirements#supported-operating-systems-for-clients/'>Learn more</a> about Azure Data Dox Disk"
         }
     ],
     "$schema": "SelfHelpContent"
