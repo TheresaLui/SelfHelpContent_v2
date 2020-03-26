@@ -9,6 +9,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax"
 	schemaVersion="1"
+    ownershipId="StorageMediaEdge_DataBox"
 />
 # Data Box Disk slow copy speed
 ---
