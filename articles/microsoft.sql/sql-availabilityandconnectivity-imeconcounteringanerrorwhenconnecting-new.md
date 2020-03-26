@@ -44,11 +44,11 @@
 * [Troubleshoot connectivity issues](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database?WT.mc_id=pid:13491:sid:32630429/)<br>
 * [SQL Database error codes and corrective actions](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages?WT.mc_id=pid:13491:sid:32630429/)<br>
 
-## **Azure SQL Connectivity Checker tool**
+### **Azure SQL Connectivity Checker tool**
 
 This PowerShell script will run some connectivity checks from your machine to the server and database.
 
-**In order to run it you need to:**
+In order to run it you need to:
 1. Open Windows PowerShell ISE in Administrator mode  
 Administrator privileges are required to 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace'.
 In case you cannot run in administrator mode please continue, the tool will still run relevant tests.
@@ -76,6 +76,7 @@ $scriptUrlBase = 'raw.githubusercontent.com/Azure/SQL-Connectivity-Checker/maste
 Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLConnectivityChecker.ps1')).Content)) -ArgumentList $parameters
 #end
 ```
+
 4. Set the parameters on the script, you need to set server name. Database name, user and password are optional but desirable.
 
 5. Run it.
