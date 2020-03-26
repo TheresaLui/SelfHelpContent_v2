@@ -50,6 +50,10 @@
                 {
                     "value": "There is no file system on the disk",
                     "text": "There is no file system on the disk"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -69,6 +73,10 @@
                 {
                     "value": "No",
                     "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
