@@ -17,7 +17,7 @@
 
 # How to collect guest OS logs
 
-* Validate if Guest OS logs should be collected (prerequisites: no logs already collected and approval from the customer to collect the GuestOS Logs
-* The following types of logs should be collected: Console Log, WinGuestAnalyzer and InspectIaaSDisk log
+1. Validate if Guest OS logs should be collected (prerequisites: no logs already collected and approval from the customer to collect the GuestOS Logs
+2. The following types of logs should be collected: Console Log, WinGuestAnalyzer and InspectIaaSDisk log
 
->Even if running HA or collecting the Guest OS logs might be necessary at a later moment, please keep in mind that our data/log retention policy, from platform side, can be very short. Hence, our recommendation is to collect both HA and Guest OS logs at the sooner.
+**Note:** Even if running HA or collecting the Guest OS logs might be necessary at a later moment, please keep in mind that our data/log retention policy, from platform side, can be very short. Hence, our recommendation is to collect both HA and Guest OS logs at the sooner.

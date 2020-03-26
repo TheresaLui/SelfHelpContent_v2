@@ -14,7 +14,8 @@
 # Start or Stop My VM
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "I received a disk related error",
     "fileAttachmentHint": "",
     "formElements": [

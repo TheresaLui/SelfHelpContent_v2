@@ -14,7 +14,8 @@
 # Virtual Disk Management
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Resizing a virtual disk",
     "fileAttachmentHint": "",
     "formElements": [

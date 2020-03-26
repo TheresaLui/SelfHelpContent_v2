@@ -211,10 +211,6 @@
 			"text": "Copy snapshot of managed disk to a subscription"
 		},
 		{
-			"value": "copy_snapshot_to_subscription",
-			"text": "Copy managed snapshot to a subscription"
-		},
-		{
 			"value": "copy_vhd_to_region",
 			"text": "Export/Copy the VHD of a managed disk to a region"
 		},

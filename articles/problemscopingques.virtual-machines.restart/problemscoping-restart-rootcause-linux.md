@@ -14,7 +14,8 @@
 # VM Restart
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Request Root Cause Statement for recent availability impact",
     "fileAttachmentHint": "",
     "formElements": [

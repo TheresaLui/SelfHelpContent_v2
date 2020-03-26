@@ -7,9 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32639200"
 	productPesIds="16505"
-	cloudEnvironments="public"
+	cloudEnvironments="public,Fairfax"
 	schemaVersion="1"
-	ownershipId="StorageMediaEdge_DataBox"
+    ownershipId="StorageMediaEdge_DataBox"
 />
 # Data Box Disk slow copy speed
 ---
