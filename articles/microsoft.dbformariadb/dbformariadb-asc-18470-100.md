@@ -19,7 +19,7 @@
 # Can't connect MariaDB database server because of SSL connection errors
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your connection issues with Azure Database for MariaDB. During our investigation we determined that connections to your database server are failing because the server was configured to require an SSL connection and connection attempts to the server were made without SSL enabled on the connections.
+During our investigation we determined that connections to your database server are failing because the server was configured to require an SSL connection and connection attempts to the server were made without SSL enabled on the connections.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

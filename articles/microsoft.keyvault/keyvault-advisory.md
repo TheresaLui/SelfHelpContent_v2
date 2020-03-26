@@ -5,7 +5,6 @@
 	resource="vaults"
 	authors="fhokholdMSFT"
 	ms.author="jalichwa"
-	ownershipId="AzureKeyVault_KeyVault"
 	displayOrder="10"
 	selfHelpType="generic"
 	supportTopicIds="32452742, 32738119, 32738115, 32738120, 32738118, 32738117, 32738116"

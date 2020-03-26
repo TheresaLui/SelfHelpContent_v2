@@ -14,7 +14,8 @@
 # VM Performance
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "CPU usage is higher than expected",
     "fileAttachmentHint": "",
     "formElements": [

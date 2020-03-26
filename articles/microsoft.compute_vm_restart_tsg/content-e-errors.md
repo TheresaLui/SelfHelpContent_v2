@@ -17,5 +17,5 @@
 
 # E17 Errors
 
-* You've indicated that an E17 Error was displayed
-* Please select the E17 Error shown
+1. You've indicated that an E17 Error was displayed
+2. Please select the E17 Error shown

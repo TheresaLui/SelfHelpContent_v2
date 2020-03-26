@@ -26,6 +26,7 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
       "searchTags": "cost management, access, configuration, ACM",
       "category": "Access configuration",
       "commonSolutionArticleId": "costanalysis-costsdisabled",
+
       "supportTopicId": "32615286"
     },
     {
@@ -74,8 +75,8 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
       "supportTopicId": "32615286"
     },
     {
-        "id": "I got an error when setting up a scheduled export.",
-        "title": "I got an error when setting up a scheduled export.",
+       "id": "I got an error when setting up a scheduled export.",
+        "title": "I got an error when setting up a scheduled export",
         "description": "Learn how to resolve common issues in exports.",
         "searchTags": "exports, cost analysis",
         "category": "Exports",
@@ -102,7 +103,7 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
     },
     {
         "id": "Why doesn’t the forecast change when I make changes to my resources?",
-        "title": "Why doesn’t the forecast change when I make changes to my resources?",
+        "title": "Changes done in resources don’t reflect yet in forecast, why?",
         "description": "Understand how forecast is calculated",
         "searchTags": "forecast, cost analysis, connectors",
         "category": "Forecast",
@@ -111,7 +112,7 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
     },
     {
         "id": "Why does my forecast increase after I make a reservation or Marketplace purchase?",
-        "title": "Why does my forecast increase after I make a reservation or Marketplace purchase?",
+        "title": "How do my purchases in Marketplace or of RIs impact forecast?",
         "description": "Understand the impact of purchases on forecast calculation",
         "searchTags": "forecast, cost analysis, connectors, purchases",
         "category": "Forecast",
