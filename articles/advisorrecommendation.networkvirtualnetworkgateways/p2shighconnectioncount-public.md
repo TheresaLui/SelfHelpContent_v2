@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Increase your VPN Gateway SKU to address high P2S use"
-    description="Increase your VPN Gateway SKU to address high P2S use"
+    pageTitle="Consider increasing the size of your VNet Gateway SKU to address high P2S connection count"
+    description="Consider increasing the size of your VNet Gateway SKU to address high P2S connection count"
     authors="evanba"
     ms.author="evanba"
     articleId="f78c8e26-9c40-4a74-a091-f76aecb49099_Public"
@@ -8,7 +8,7 @@
     cloudEnvironments="Public"
     ownershipId=""
 />
-# Increase VPN SKU to be able to handle high P2S connection count
+# Consider increasing the size of your VNet Gateway SKU to address high P2S use
 ---
 {
   "recommendationOfferingId": "658a4a19-9c40-472b-a918-3f550848421a",
@@ -36,15 +36,15 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "",
-  "description": "",
-  "longDescription": "",
+  "learnMoreLink": "https://aka.ms/HighP2SConnectionsVNetGateway",
+  "description": Consider increasing the size of your VNet Gateway SKU to address high P2S use",
+  "longDescription": "Each gateway SKU can only support a specified count of concurrent P2S connections. Your connection count is close to your gateway limit, so additional connection attempts may fail.",
   "potentialBenefits": "",
   "actions": [
     {
-      "actionId": "",
-      "description": "",
-      "actionType": "",
+      "actionId": "9ac9a68c-7da7-48aa-85c5-54efd4e910a7",
+      "description": "Scale up your VNet Gateway",
+      "actionType": "Blade",
       "extensionName": "",
       "bladeName": "",
       "metadata": {},
