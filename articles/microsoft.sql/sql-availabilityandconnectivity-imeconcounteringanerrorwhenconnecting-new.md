@@ -49,27 +49,27 @@
 This PowerShell script will run some connectivity checks from your machine to the server and database.
 
 In order to run it you need to:
-1. Open Windows PowerShell ISE in Administrator mode  
+1. Open Windows PowerShell ISE in Administrator mode.  
 Administrator privileges are required to 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace'.
 In case you cannot run in administrator mode please continue, the tool will still run relevant tests.
 
-2. Open a New Script window
+2. Open a New Script window.
 
 3. Paste the following in the script window:
 
-```
-$parameters = @{
-    Server = '.database.windows.net'
-    Database = ''  # Set the name of the database you wish to test, 'master' will be used by default if nothing is set
-    User = ''  # Set the login username you wish to use, 'AzSQLConnCheckerUser' will be used by default if nothing is set
-    Password = ''  # Set the login password you wish to use, 'AzSQLConnCheckerPassword' will be used by default if nothing is set
-
-    ## Optional parameters (default values will be used if ommited)
-    SendAnonymousUsageData = $true  # Set as $true (default) or $false
-    RunAdvancedConnectivityPolicyTests = $true  # Set as $true (default) or $false, this will download the library needed for running advanced connectivity tests
-    CollectNetworkTrace = $true  # Set as $true (default) or $false
-    #EncryptionProtocol = '' # Supported values: 'Tls 1.0', 'Tls 1.1', 'Tls 1.2'; Without this parameter operating system will choose the best protocol to use
-}
+    ```
+    $parameters = @{
+        Server = '.database.windows.net'
+        Database = ''  # Set the name of the database you wish to test, 'master' will be used by default if nothing is set
+        User = ''  # Set the login username you wish to use, 'AzSQLConnCheckerUser' will be used by default if nothing is set
+        Password = ''  # Set the login password you wish to use, 'AzSQLConnCheckerPassword' will be used by default if nothing is set
+    
+        ## Optional parameters (default values will be used if ommited)
+        SendAnonymousUsageData = $true  # Set as $true (default) or $false
+        RunAdvancedConnectivityPolicyTests = $true  # Set as $true (default) or $false, this will download the library needed for running advanced connectivity tests
+        CollectNetworkTrace = $true  # Set as $true (default) or $false
+        #EncryptionProtocol = '' # Supported values: 'Tls 1.0', 'Tls 1.1', 'Tls 1.2'; Without this parameter operating system will choose the best protocol to use
+    }
 
 $ProgressPreference = "SilentlyContinue";
 $scriptUrlBase = 'raw.githubusercontent.com/Azure/SQL-Connectivity-Checker/master'
