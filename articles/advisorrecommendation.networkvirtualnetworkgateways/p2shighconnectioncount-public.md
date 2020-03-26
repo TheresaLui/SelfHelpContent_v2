@@ -26,11 +26,11 @@
   "recommendationFriendlyName": "HighP2SConnectionsVNetGateway",
   "recommendationMetadataState": "Active",
   "owner": {
-    "email": "",
+    "email": "evanba@microsoft.com",
     "icm": {
       "routingId": "",
-      "service": "",
-      "team": ""
+      "service": "Windows Azure Operations Center",
+      "team": "Azure CXP Crisis Escalation Management"
     },
     "serviceTreeId": ""
   },
@@ -45,26 +45,30 @@
       "actionId": "9ac9a68c-7da7-48aa-85c5-54efd4e910a7",
       "description": "Scale up your VNet Gateway",
       "actionType": "Blade",
-      "extensionName": "",
-      "bladeName": "",
-      "metadata": {},
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}",
+        "menuid": "configuration"
+      },
       "documentLink": ""
     }
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "",
-      "actionType": "",
-      "extensionName": "",
-      "bladeName": "",
-      "metadata": {},
+      "actionId": "9ac9a68c-7da7-48aa-85c5-54efd4e910a7",
+      "actionType": "Blade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      },
       "documentLink": ""
     }
   },
-  "displayLabel": "",
+  "displayLabel": "P2S Gateway with High Connection Count",
   "additionalColumns": [],
   "tip": "",
   "costSavingInfo": "",
-  "testData": ""
-}
+  "testData": "27b2ee0a-4093-4253-95b5-c595487ad66f,/subscriptions/27b2ee0a-4093-4253-95b5-c595487ad66f/resourceGroups/rgGW/providers/Microsoft.Network/virtualNetworkGateways/testGW"}
 ---
