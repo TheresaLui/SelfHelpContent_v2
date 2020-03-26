@@ -10,7 +10,7 @@
 	articleId="mpn_program_requirements"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32681431"
+	supportTopicIds="32681431, 32728292"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960, 17000"
