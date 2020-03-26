@@ -26,8 +26,8 @@ If you are using Private Endpoints to expose your Azure Cosmos DB account to a v
 ### **Limited region support**
 Private endpoints for Azure Cosmos DB are currently supporting in a limited number of Azure regions. [Please see supported regions](https://docs.microsoft.com/azure/private-link/private-link-overview#availability)   
 
-### **Support for Azure Cosmos DB API for Mongo DB version 3.6 only**
-Azure Cosmos DB private endpoints are not compatible with the version 3.2 of Mongo DB API. You can either create a new account using the version 3.6 of the Mongo API, or create a support ticket under Cosmos Mongo DB to request your account to be migrated from version 3.2 to 3.6.   
+### **Support for Azure Cosmos DB API for MongoDB version 3.6 only**
+Azure Cosmos DB private endpoints are not compatible with the version 3.2 of MongoDB API. You can either create a new account using the version 3.6 of the Mongo API, or create a support ticket under Cosmos MongoDB to request your account to be migrated from version 3.2 to 3.6.   
 
 ### **Check the connection status of your private endpoint**
 From the Azure Portal, navigate to your private endpoint resource and verify its connection status. If it shows up as *Pending*, ask the owner of the Azure Cosmos DB account involved to approve it by going to *Private Endpoint Connections* section on the Azure Portal.  
