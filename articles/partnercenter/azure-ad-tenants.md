@@ -22,4 +22,4 @@
 ## **Recommended Documents**
 
 * [Work accounts, Azure AD tenants, and Partner Center](https://docs.microsoft.com/partner-center/azure-active-directory-tenants-and-partner-center)
-* [Verify your domain ownership](https://docs.microsoft.com/en-us/partner-center/become-global-admin)
+* [Verify your domain ownership](https://docs.microsoft.com/partner-center/become-global-admin)
