@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "96bd8b64-fe4a-d0db-8b0e-060c98a35522",
+      "longDescription": "",
+      "shortDescription": "You have questions or issues about creating, managing or troubleshooting read replicas",
+      "searchTags": "read replicas",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9bd1f012-c52f-b0ca-522c-420244d00a10",
       "longDescription": "",
       "shortDescription": "Resolve issues when connecting to your server or troubleshooting connectivity-related configurations",
