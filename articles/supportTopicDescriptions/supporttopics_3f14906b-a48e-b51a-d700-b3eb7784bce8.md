@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d8c81b34-0a7a-a3ee-d89c-e069cd284833",
+      "longDescription": "",
+      "shortDescription": "You have questions about the service automated backup capabilities",
+      "searchTags": "backup",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "db88971e-0d84-0cfe-6fc6-dcd8c38a64de",
       "longDescription": "",
       "shortDescription": "You want to change a server parameter that is not listed in the Azure portal.",
