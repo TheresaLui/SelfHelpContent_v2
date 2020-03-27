@@ -933,7 +933,7 @@
       "longDescription": "",
       "shortDescription": "Issues or questions with using Free Tier billing option",
       "searchTags": "billing, free, free tier",
-      "category": "Administration",
+      "category": "Billing and Pricing",
       "useInDiagnoseAndSolve": "true"
     }
   ]
