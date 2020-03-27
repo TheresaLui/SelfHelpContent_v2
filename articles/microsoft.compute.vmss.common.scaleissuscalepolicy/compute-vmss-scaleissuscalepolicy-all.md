@@ -12,7 +12,7 @@
 	productPesIds="16080"
 	cloudEnvironments="public, Fairfax"
 	articleId="684a161f-1c5f-4d33-bd7f-4807e09eab6c"
-	ownershipId="Compute_VirtualMachineScaleSets"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # Cannot start or stop my instances

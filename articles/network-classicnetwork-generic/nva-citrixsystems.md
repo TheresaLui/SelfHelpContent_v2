@@ -21,5 +21,6 @@ Use this support topic path for Azure specific issues (e.g. Virtual Network, UDR
 
 ## **Recommended Steps**
 
-* To get help from Citrix, open a support request [here](https://www.citrix.com/support/open-a-support-case/)
+* To get help from Citrix, open a support request [here](citrix.com/support/open-a-support-case/)
+* [Working remotely: Network Virtual Appliance (NVA) considerations for remote work](https://docs.microsoft.com/azure/vpn-gateway/nva-work-remotely-support)
 * Check [troubleshooting for Network Virtual Appliance issues in Azure](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva) for additional details

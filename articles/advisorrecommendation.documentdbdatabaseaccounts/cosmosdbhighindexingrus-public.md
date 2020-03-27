@@ -23,7 +23,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDbHighIndexingRUs",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

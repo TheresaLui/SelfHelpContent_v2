@@ -12,7 +12,7 @@
 	productPesIds="14749,15797,15571,16454,16470"
 	cloudEnvironments="public, Fairfax"
 	articleId="f3b7bd6c-49b1-4f0f-b8fc-b85b3970bca8"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # VM Guest Agent issue (crash, hung, not upgrading, or not connecting)

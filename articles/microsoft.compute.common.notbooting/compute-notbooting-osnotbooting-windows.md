@@ -12,7 +12,7 @@
     productPesIds="14749,14745"
     cloudEnvironments="public, Fairfax"
     articleId="ec711657-87b8-4556-8a17-bd8172ef7921"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # My Windows VM is not booting

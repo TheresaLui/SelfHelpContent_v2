@@ -10,12 +10,12 @@
 	articleId="account_settings_users_roles_and_notifications"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635708"
+	supportTopicIds="32635708,32728293"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="15960,17000"
 	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Account settings - Users, roles and notifications

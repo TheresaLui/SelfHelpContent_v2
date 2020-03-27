@@ -9,7 +9,7 @@
     selfHelpType="resource"
     resourceTags="directory_delete,directory_overview"
     productPesIds="14785"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake"
     	articleId="4ac494f9-0a11-4bba-afb0-4ee2253a7e80"
 	ownershipId="ASEP_ContentService_Placeholder"
 />

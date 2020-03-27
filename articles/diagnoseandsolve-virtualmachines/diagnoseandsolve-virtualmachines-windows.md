@@ -11,7 +11,7 @@ selfHelpType="diagnoseandsolve"
 resourceTags="windows"
 productPesIds="14749"
 cloudEnvironments="public, Fairfax"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Diagnose and solve v2 test article for windows
 ---
@@ -756,6 +756,28 @@ cloudEnvironments="public, Fairfax"
           {
             "name": "id",
             "value": "$resourceId"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Analyze_Recent_Changes_tool",
+      "title": "Analyze recent changes",
+      "description": "Use the Change Analysis service to see any changes made to this virtual machine and its related resources",
+      "category": "Management",
+      "searchTags": "audit, history, change",
+      "type": "tool",
+      "bladeLink": {
+        "extensionName": "Microsoft_Azure_ChangeAnalysis",
+        "bladeName": "ChangeAnalysisBlade",
+        "parameters": [
+          {
+            "name": "resourceId",
+            "value": "$resourceId"
+          },
+          {
+            "name": "deeplinkOrigin",
+            "value": "d&sp"
           }
         ]
       }
