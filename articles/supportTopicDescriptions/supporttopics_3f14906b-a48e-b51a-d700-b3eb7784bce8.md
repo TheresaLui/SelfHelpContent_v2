@@ -278,6 +278,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bd396b73-4b7d-eba6-7e32-027e2575d119",
+      "longDescription": "",
+      "shortDescription": "You are not able to create, update, or delete VNET rules",
+      "searchTags": "vnet",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c6da7e9e-b2ed-f05d-ba18-d5b913988224",
       "longDescription": "",
       "shortDescription": "Your server is experiencing a performance or query execution issue",
