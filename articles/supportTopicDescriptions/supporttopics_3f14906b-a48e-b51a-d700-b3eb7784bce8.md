@@ -22,6 +22,14 @@
   "productLinkName3": "Create an Azure Database for MariaDB",
   "supportTopics": [
     {
+      "id": "0312731f-1c52-2c02-ecac-c6ea7c911fd2",
+      "longDescription": "",
+      "shortDescription": "You have questions about managing server firewall rules.",
+      "searchTags": "firewall rules",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0658a569-cd97-7245-9bdf-35fb95cbfbad",
       "longDescription": "",
       "shortDescription": "You received the (too many connections) error message.",
