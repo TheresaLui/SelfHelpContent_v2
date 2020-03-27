@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "30df65f7-d647-d9de-be12-115915b12cfe",
+      "longDescription": "",
+      "shortDescription": "You are not able to create, update, or delete databases",
+      "searchTags": "update databases",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "32f974b4-9bfa-a318-6a6f-9a96618ed013",
       "longDescription": "",
       "shortDescription": "You have issues with an Azure CLI command",
