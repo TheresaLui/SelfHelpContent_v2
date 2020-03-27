@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1e9c7f4f-db7b-786c-9392-9ed54aff034e",
+      "longDescription": "",
+      "shortDescription": "You are experiencing issues with performing a point-in-time restore operation",
+      "searchTags": "point in time restore;pitr",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2e6fccb9-a69a-1e56-48a7-c98eec8c63c1",
       "longDescription": "",
       "shortDescription": "You received the (too many connections) error message.",
