@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "32daffbd-495b-f030-d439-0e169316d1ac",
+      "longDescription": "",
+      "shortDescription": "Your ARM template is not deploying successfully.",
+      "searchTags": "arm templates",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "32f974b4-9bfa-a318-6a6f-9a96618ed013",
       "longDescription": "",
       "shortDescription": "You have issues with an Azure CLI command",
