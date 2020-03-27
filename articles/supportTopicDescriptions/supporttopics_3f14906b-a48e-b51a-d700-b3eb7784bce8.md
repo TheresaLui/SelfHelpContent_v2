@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4e52f971-1574-530f-1a53-eede857c2832",
+      "longDescription": "",
+      "shortDescription": "You have issues using the Azure portal",
+      "searchTags": "portal issue",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "55612064-33ab-1261-5ac9-41ed9e5c4694",
       "longDescription": "",
       "shortDescription": "You have issues using REST API commands",
