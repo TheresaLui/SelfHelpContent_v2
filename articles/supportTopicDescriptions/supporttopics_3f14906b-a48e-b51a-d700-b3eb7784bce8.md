@@ -392,7 +392,7 @@
     {
       "id": "e681605f-01bb-edd2-734d-112d895ca2e6",
       "longDescription": "",
-      "shortDescription": "Questions specific to migrating to Azure Database for MySQL",
+      "shortDescription": "Questions specific to migrating to Azure Database for MariaDB",
       "searchTags": "migration issues",
       "category": "Migrating to Azure",
       "useInDiagnoseAndSolve": "true"
