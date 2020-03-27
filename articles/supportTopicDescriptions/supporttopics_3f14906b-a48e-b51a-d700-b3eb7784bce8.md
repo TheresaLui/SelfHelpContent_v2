@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "283358db-0e2c-0ebe-686a-470b4f11bbb5",
+      "longDescription": "",
+      "shortDescription": "You are experiencing migration issues to Azure Database for MariaDB",
+      "searchTags": "Migration issues",
+      "category": "Migrating to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2e6fccb9-a69a-1e56-48a7-c98eec8c63c1",
       "longDescription": "",
       "shortDescription": "You received the (too many connections) error message.",
