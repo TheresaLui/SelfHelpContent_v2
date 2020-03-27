@@ -26,7 +26,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 ## **Recommended Steps**
 
-* To restore access to the VM, follow the steps in the [This is not a Bootable Disk](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-guide-not-a-bootable-disk) troubleshooting guide
+* To restore access to the VM, follow the steps in the [This is not a Bootable Disk](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-guide-not-bootable-disk) troubleshooting guide
 
 ## **Recommended Documents**
 
