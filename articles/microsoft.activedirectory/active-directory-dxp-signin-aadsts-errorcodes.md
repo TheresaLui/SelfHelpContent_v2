@@ -13,21 +13,18 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, Mooncake"
     ownershipId="AzureIdentity_B2B"
 />
 
 # Configuration Issue Preventing User Sign-In
+
 <!--issueDescription-->
 
+Error code: <!--$errorCode-->[errorCode]<!--/$errorCode-->
 
-The sign-in is failing because <!--$recommendedAction-->[recommendedAction]<!--/$recommendedAction-->
+Message: <!--$message-->[message]<!--/$message-->
 
+Remediation: <!--$remediation-->[remediation]<!--/$remediation-->
 
 <!--/issueDescription-->
-
-
-## **Recommended Steps**
-
- 
-[<!--$linkText-->linkText<!--/$linkText-->](<!--$linkVal-->linkVal<!--/$linkVal-->)

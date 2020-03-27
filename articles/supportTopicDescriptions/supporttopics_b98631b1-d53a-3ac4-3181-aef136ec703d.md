@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "218c9912-b35c-b04d-2551-57baacbc19d8",
+      "longDescription": "",
+      "shortDescription": "You are not seeing an authentication log you expected to see either through Graph API endpoint or when using the portal",
+      "searchTags": "Missing AAD Auth Log;AAD Audit Log",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2dd46276-b8b3-2f89-431b-7a79260c25ec",
       "longDescription": "",
       "shortDescription": "You have a problem with installing AADConnect Health",
@@ -145,6 +153,14 @@
       "longDescription": "",
       "shortDescription": "You have a problem with Azure AD Connect Health",
       "searchTags": "AAD Connect Health;Connect Health;Configuring Connect Health",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b3efa415-971c-d1af-f926-daa7be464196",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with the Privileged Identity Management (PIM) feature in Azure AD",
+      "searchTags": "AAD PIM;Privileged Identity Management ;Configuring PIM",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },

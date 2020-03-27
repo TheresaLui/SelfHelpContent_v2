@@ -10,7 +10,7 @@
        schemaVersion="1"
        articleId="problemscopingques_partnercenter_marketplace_general" 
        clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Ingestion"
 />
 # PC Sample
 
@@ -108,7 +108,7 @@
 	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide the publisher ID.",
-	   "watermarkText": "Provide the publisher ID as a GUID",
+	   "watermarkText": "Provide the publisher ID",
 	   "required": false
        },
        {
@@ -116,7 +116,7 @@
 	   "order": 4,
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide the seller ID.",
-	   "watermarkText": "Provide the seller ID as a GUID",
+	   "watermarkText": "Provide the seller ID",
 	   "required": true
        },
        {

@@ -733,6 +733,28 @@ cloudEnvironments="public"
           }
         ]
       }
+    },
+    {
+      "id": "Analyze_Recent_Changes_tool",
+      "title": "Analyze recent changes",
+      "description": "Use the Change Analysis service to see any changes made to this virtual machine and its related resources",
+      "category": "Management",
+      "searchTags": "audit, history, change",
+      "type": "tool",
+      "bladeLink": {
+        "extensionName": "Microsoft_Azure_ChangeAnalysis",
+        "bladeName": "ChangeAnalysisBlade",
+        "parameters": [
+          {
+            "name": "resourceId",
+            "value": "$resourceId"
+          },
+          {
+            "name": "deeplinkOrigin",
+            "value": "d&sp"
+          }
+        ]
+      }
     }
   ]
 }

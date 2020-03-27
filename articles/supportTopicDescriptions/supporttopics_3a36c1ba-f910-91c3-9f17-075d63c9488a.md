@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "31cd627c-3467-7ec3-cedd-b8eae55b0b38",
+      "longDescription": "",
+      "shortDescription": "Problems with role based access control for Azure resources",
+      "searchTags": "problems with RBAC",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "345ed23d-a616-9375-cedd-b3ed6fa1ac48",
       "longDescription": "",
       "shortDescription": "Problems with Office 365 group expiration and group auto-renewal policies",
@@ -133,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "44c65d86-503c-2592-4a01-d8a04e7fe812",
+      "longDescription": "",
+      "shortDescription": "Problems related to deleting Azure AD custom domain names using Azure AD portal or PowerShell or Azure CLI.",
+      "searchTags": "problem with deleting a domain name",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "773c57a1-085a-b5a8-b43f-ffc3c7bcffb3",
       "longDescription": "",
       "shortDescription": "Problems creating or managing Azure resource role based access control assignments",
@@ -157,6 +173,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7d111d5f-205d-0bd6-3499-4d2e145b2be9",
+      "longDescription": "",
+      "shortDescription": "This topic is redundant and should be removed",
+      "searchTags": "other problems with deleting a directory",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7d82a910-ad89-7a00-017c-edc5086cd739",
+      "longDescription": "",
+      "shortDescription": "Problems related to inviting and managing Azure AD B2B external identities.",
+      "searchTags": "problems with B2B external identities",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7d97452f-6b8d-0c11-a7d8-d6c6e8d5057f",
       "longDescription": "",
       "shortDescription": "Problems with the classic Azure subscription roles Service Administrator, Account Administrator",
@@ -177,6 +209,14 @@
       "longDescription": "",
       "shortDescription": "Problems deleting a Azure AD or Office 365 group",
       "searchTags": "problem to delete a group",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "816e0613-b54b-e699-236a-2baf77abde98",
+      "longDescription": "",
+      "shortDescription": "Problems configuring Azure AD B2B collaboration settings to grant or limit the ability to send invitations from your Azure AD tenant.",
+      "searchTags": "managing external collaboration settings",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -305,6 +345,14 @@
       "longDescription": "",
       "shortDescription": "Problems related to creating user objects in Azure AD",
       "searchTags": "Create new user in AAD",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f0708928-20a7-3fcf-23f4-18af6cd938ea",
+      "longDescription": "",
+      "shortDescription": "Technical questions around Azure AD premium features",
+      "searchTags": "AAD Premium Features",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },

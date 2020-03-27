@@ -9,7 +9,7 @@
     supportTopicIds=""
     resourceTags="AzureADDeviceRegistration_Registration"
     productPesIds=""
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, Mooncake"
 	articleId="d6000833-7d8b-4213-9774-63d79131397a"
 	ownershipId="AzureIdentity_User"
 />

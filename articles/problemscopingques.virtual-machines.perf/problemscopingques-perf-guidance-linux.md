@@ -14,7 +14,8 @@
 # VM Performance
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Guidance for better VM sizing and throughput",
     "fileAttachmentHint": "",
     "formElements": [

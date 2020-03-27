@@ -6,19 +6,20 @@
   selfhelptype="SupportTopicDescription"
   productpesids="17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057" />
+  articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057"
+  ownershipid="" />
 # Support Topic Descriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Azure Database for MySQL is a fully managed relational database service powered by the MySQL community edition",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "https://azure.microsoft.com/services/mysql/",
+  "productLinkName1": "Azure Database for MySQL Overview",
+  "productLink2": "https://docs.microsoft.com/azure/mysql/overview",
+  "productLinkName2": "What is Azure Database for MySQL",
+  "productLink3": "https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal",
+  "productLinkName3": "Create an Azure Database for MySQL",
   "supportTopics": [
     {
       "id": "00f8009e-7dd0-5260-7475-124d3bfecbb8",
@@ -77,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2810f269-823e-2e78-2447-a5ed63786990",
+      "longDescription": "",
+      "shortDescription": "You have questions about configuring audit logging",
+      "searchTags": "audit logging",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2ea627cb-8fd5-fdc8-c78f-e8f188ad7590",
       "longDescription": "",
       "shortDescription": "You have questions about monitoring slow query or audit logs",
@@ -113,6 +122,14 @@
       "longDescription": "",
       "shortDescription": "You have questions about monitoring your server, metrics displayed in the Azure portal, or configuring metric alerts",
       "searchTags": "monitoring server;monitoring metrics;configuring metrics",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4811926b-37c7-45f1-a4c2-31daa74b3c71",
+      "longDescription": "",
+      "shortDescription": "You are not able to create, update, or delete databases",
+      "searchTags": "create database;update database;delete database",
       "category": "Create, Update and Drop Resources",
       "useInDiagnoseAndSolve": "true"
     },
@@ -165,6 +182,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "60b9506e-1f2b-8951-282b-89058e71afb9",
+      "longDescription": "",
+      "shortDescription": "You have questions about VNET service endpoints or VNET rules",
+      "searchTags": "vnet;service endpoint",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "67cb0592-bea7-9739-9aba-5963924935e5",
       "longDescription": "",
       "shortDescription": "You have questions about monitoring performance through the Azure portal, metrics, or configuring alerts",
@@ -186,6 +211,14 @@
       "shortDescription": "You have questions about scaling operations.",
       "searchTags": "scaling operations",
       "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6e57df85-b37a-58dd-9845-92f3c5eb2b9d",
+      "longDescription": "",
+      "shortDescription": "You have questions about monitoring your server or configuring metric alerts",
+      "searchTags": "monitoring server",
+      "category": "Portal, Client Tools and APIs",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -226,6 +259,14 @@
       "shortDescription": "You are experiencing issues while scaling your server vCores, storage, or scaling between pricing tiers",
       "searchTags": "scaling vCores;scaling  storage;scaling between pricing tier",
       "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "931ff656-f001-7082-a7c8-001c1a7c861b",
+      "longDescription": "",
+      "shortDescription": "Questions specific to managing your server with the Azure portal, Azure CLI, or other client tools",
+      "searchTags": "managing your server",
+      "category": "Portal, Client Tools and APIs",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -285,6 +326,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "aee096ca-9820-1a70-3557-a64ae4f40c58",
+      "longDescription": "",
+      "shortDescription": "You are not able to manage server firewall rules to allow connections",
+      "searchTags": "firewall rules",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b36fce25-69ca-95fe-f243-461833b70b79",
       "longDescription": "",
       "shortDescription": "You are experiencing migration issues to Azure Database for MySQL",
@@ -325,9 +374,33 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bd4b6560-0dab-47cf-a80f-a19abfcc9f73",
+      "longDescription": "",
+      "shortDescription": "You are experiencing issues with performing a point-in-time restore operation",
+      "searchTags": "point in time restore;pitr;point-in-time restore",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bd59f296-a698-8453-2cb9-f391473079ad",
+      "longDescription": "",
+      "shortDescription": "You have issues using REST API commands",
+      "searchTags": "rest api",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c45b9d63-3fb7-fc61-8982-fefaa362be31",
+      "longDescription": "",
+      "shortDescription": "You have issues using the Azure portal",
+      "searchTags": "azure portal issues",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c7f8958f-a998-bc26-c19e-5bbe50f2ffbe",
       "longDescription": "",
-      "shortDescription": "You are experiencing persistent or intermittent connection issues",
+      "shortDescription": "Your connections to the server have been dropped unexpectedly",
       "searchTags": "Error while connecting to the server;Error;connecting to server",
       "category": "Availability and Connectivity",
       "useInDiagnoseAndSolve": "true"
@@ -357,6 +430,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ceca858f-ee40-afe3-9af7-7f3a6888dc65",
+      "longDescription": "",
+      "shortDescription": "You want to change a server parameter that is not listed in the Azure portal",
+      "searchTags": "change server parameter;azure portal",
+      "category": "Server Parameters",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "debfe99f-1099-3e2e-a93c-5aefef1465b5",
       "longDescription": "",
       "shortDescription": "You have questions about geo-redundant backups or are experiencing issues with performing a geo-restore operation",
@@ -378,6 +459,30 @@
       "shortDescription": "Your ARM template is not deploying successfully",
       "searchTags": "ARM templates;azure resource manager",
       "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "eb698c95-ef94-bae3-9f80-fd8619b807be",
+      "longDescription": "",
+      "shortDescription": "You are not able to create, update, or delete VNET rules",
+      "searchTags": "create vnet;update vnet;delete vnet",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "edb63e0e-6d90-e018-cf64-3ad1abd62ffd",
+      "longDescription": "",
+      "shortDescription": "You have questions or issues about creating, managing or troubleshooting read replicas",
+      "searchTags": "troubleshooting replica",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f0539fb8-a0c4-20dc-0088-33c93089cc4b",
+      "longDescription": "",
+      "shortDescription": "You are not able to set up or are experiencing issues with replication from an external server into an Azure Database for MySQL server",
+      "searchTags": "data in replication",
+      "category": "Replication",
       "useInDiagnoseAndSolve": "true"
     }
   ]

@@ -14,7 +14,8 @@
 # Virtual Disk Management
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Attaching or detaching virtual disks",
     "fileAttachmentHint": "",
     "formElements": [

@@ -15,7 +15,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Replication of Shared Image Version is slow",
     "fileAttachmentHint": "",
     "formElements": [

@@ -14,7 +14,8 @@
 # Management
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Manage an instance of SQL Server",
     "fileAttachmentHint": "",
     "formElements": [
