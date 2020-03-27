@@ -64,7 +64,7 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Non restore request"
+                    "text": "I don't know"
                 }
             ],
             "required": true
@@ -94,7 +94,7 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Non restore request"
+                    "text": "I don't know"
                 }
             ],
             "required": false
@@ -116,7 +116,7 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Non restore request"
+                    "text": "I don't know"
                 }
             ],
             "required": false
