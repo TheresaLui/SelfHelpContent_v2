@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c9b484ac-67ea-9255-2299-130c3785410a",
+      "longDescription": "",
+      "shortDescription": "Questions about security",
+      "searchTags": "Security",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ce0c3dc4-b261-b39f-6082-aac85bd12594",
       "longDescription": "",
       "shortDescription": "You are not able to change a server parameter value.",
