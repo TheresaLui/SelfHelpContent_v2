@@ -90,7 +90,7 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
       "category": "Cost management",
       "commonSolutionArticleId": "82119819-cb2a-4668-9017-059f32d93e06",
       "supportTopicId": "32615286"
-    },
+    }
   ],
   "troubleshootingTools": []
 }
