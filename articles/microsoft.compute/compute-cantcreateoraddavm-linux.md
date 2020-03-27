@@ -19,15 +19,20 @@
 
 ## **Recommended Steps**
 
-We are experiencing capacity issues for specific regions across the globe. More details can be found by following this link to understand [Our commitment to customers and Microsoft cloud services continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/)<br>
+We are experiencing high demand for specific regions across the globe. 4 out of 5 customers resolved their allocation failure issue using the below steps.
 
-If you are deploying to regions **West Europe, North Europe, UK South, UK West, France Central**, then please be aware that we have an emerging issue related to capacity due to increased usage. In these cases, we recommend trying alternate regions (as first preference) or alternate SKUs.<br>
+For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/).
 
-For general troubleshooting, please follow these steps:<br>
+## **Recommended Steps**
+
+We are currently experiencing high demand in **West Europe, North Europe, UK South, UK West, and France Central**. If you are having availibility issues, please try alternate regions (as first preference) or alternate SKUs.
+
+For general troubleshooting, please follow these guides:<br>
 
 1. Understand your specific error ([SkuNotAvailable](https://docs.microsoft.com/azure/azure-resource-manager/templates/error-sku-not-available), [Quota Limit](https://docs.microsoft.com/azure/azure-resource-manager/templates/error-resource-quota), or [Allocation Failure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure))<br>
-2. Deploy to another region.<br>
-3. Use another size in the given region ([Resize a Windows VM](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/resize-vm) or [Resize a Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/change-vm-size))
+2. Deploy to another region
+3. Use another size in the given region ([Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm) or [Resize a Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/change-vm-size))
+4. Review the different VM types in Azure. To resize, click 'Size' in the Settings blade of the VM resource:
 
 To resolve most common issues, try one or more of the following steps:<br>
 
