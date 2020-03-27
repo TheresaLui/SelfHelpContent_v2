@@ -75,7 +75,7 @@
 			"visibility": "priavate_ZoneUsage == Yes",
 			"controlType": "textbox",
 			"displayLabel": "Private Zone Id",
-			"required": true
+			"required": false
         },
 		{
             "id": "connection_mode",
