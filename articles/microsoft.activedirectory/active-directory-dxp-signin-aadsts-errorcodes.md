@@ -21,7 +21,11 @@
 
 <!--issueDescription-->
 
-<!--$recommendedAction-->[recommendedAction]<!--/$recommendedAction-->
+Error code: <!--$errorCode-->[errorCode]<!--/$errorCode-->
+
+Message: <!--$message-->[message]<!--/$message-->
+
+Remediation: <!--$remediation-->[remediation]<!--/$remediation-->
 
 <!--/issueDescription-->
 
