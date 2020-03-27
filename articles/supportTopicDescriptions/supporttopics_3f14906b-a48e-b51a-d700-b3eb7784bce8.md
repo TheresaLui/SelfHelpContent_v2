@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "82140c42-c8d9-6a05-5065-4725a068cd74",
+      "longDescription": "",
+      "shortDescription": "You have questions about scaling operations.",
+      "searchTags": "scaling",
+      "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9bd1f012-c52f-b0ca-522c-420244d00a10",
       "longDescription": "",
       "shortDescription": "Resolve issues when connecting to your server or troubleshooting connectivity-related configurations",
