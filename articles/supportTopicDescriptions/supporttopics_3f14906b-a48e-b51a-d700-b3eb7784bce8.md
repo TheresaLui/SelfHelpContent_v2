@@ -278,6 +278,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "df0b3437-7151-fedc-a67f-16da17500d9f",
+      "longDescription": "",
+      "shortDescription": "Questions specific to managing your server with the Azure portal, Azure CLI, or other client tools",
+      "searchTags": "portal issue;client tools",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ea674821-8234-733c-4681-cb9fddcd947a",
       "longDescription": "",
       "shortDescription": "Your connections to the server have been dropped unexpectedly.",
