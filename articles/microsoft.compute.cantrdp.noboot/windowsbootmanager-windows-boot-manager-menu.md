@@ -26,7 +26,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 ## **Recommended Steps**
 
-* To restore access to the VM, follow the steps in the [Windows Boot Manager Menu](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshooting-guide-windows-boot-manager-menu) troubleshooting guide
+* To restore access to the VM, follow the steps in the [Windows Boot Manager Menu](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-guide-windows-boot-manager-menu) troubleshooting guide
 
 ## **Recommended Documents**
 
