@@ -10,12 +10,12 @@
 	articleId="mpn_benefits_internal_use_rights"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635678"
+	supportTopicIds="32635678, 32725871"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="15960, 17007"
 	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 
 # MPN - benefits internal use rights
