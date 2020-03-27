@@ -326,6 +326,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f70f9c32-719c-02ee-cc34-24051d83efa0",
+      "longDescription": "",
+      "shortDescription": "Your server is experiencing high network latency while attempting to connect",
+      "searchTags": "network latency",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fb0ea175-c7d6-0729-457b-c07087aee297",
       "longDescription": "",
       "shortDescription": "Your server is experiencing overall slowness or a specific query is very slow",
