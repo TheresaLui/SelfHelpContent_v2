@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="e9d66480-f423-405b-9e89-256adaeb1bae"
+	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check for errors for storage

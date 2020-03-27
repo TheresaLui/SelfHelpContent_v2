@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="3d8aaec1-a13d-42c5-aecb-c0af447e3bbb"
+	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check for errors in blobs and containers

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="03046df0-7dbc-4d4c-b345-203b1608ce0c"
+	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check ASC for Errors on containers

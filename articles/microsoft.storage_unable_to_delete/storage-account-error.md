@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="1294aa8b-bc3e-4900-988f-6b11f0bad79a"
+	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check ASC for a Storage account error

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="774e1e99-69fb-4fbb-8160-a1e5cfa85682"
+	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check ASC for BLOBs not VHD errors
