@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1ddb92cc-9817-ab78-d7c9-610118e75c65",
+      "longDescription": "",
+      "shortDescription": "You have issues with monitoring replication or configuring replication lag alerts",
+      "searchTags": "replication metrics;replication lag",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1e9c7f4f-db7b-786c-9392-9ed54aff034e",
       "longDescription": "",
       "shortDescription": "You are experiencing issues with performing a point-in-time restore operation",
