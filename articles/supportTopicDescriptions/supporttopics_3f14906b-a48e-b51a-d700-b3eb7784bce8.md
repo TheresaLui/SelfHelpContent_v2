@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "67f5e37c-74e1-6be1-9e3f-97dd9f31a0bd",
+      "longDescription": "",
+      "shortDescription": "Questions specific to issues with server parameters",
+      "searchTags": "server parameters",
+      "category": "Server Parameters",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6f993bf2-6528-5cc7-e88a-43e29960304d",
       "longDescription": "",
       "shortDescription": "You accidentally deleted a server and need assistance recovering it.",
