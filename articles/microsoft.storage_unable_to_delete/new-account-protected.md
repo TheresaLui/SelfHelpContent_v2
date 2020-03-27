@@ -17,8 +17,8 @@
 
 # The specified account is protected
 
-* At this time the error message and failed Operation Ids should be clear. If not please collect the information
-* Proceed to execute the following Jarvis Query to find more information of the issue within the logs
+1. At this time the error message and failed Operation Ids should be clear. If not please collect the information
+2. Proceed to execute the following Jarvis Query to find more information of the issue within the logs
 
 ~~~Jarvis
 
@@ -29,9 +29,9 @@ Filtering: OperationId == $operationid$
 
 ~~~
 
-* Review the logs and try to find the root cause of the issue.
-* If the error message is AccountProtectedFromDeletion select No below
-* If the error message is different and actionable, select Yes below
+3. Review the logs and try to find the root cause of the issue.
+4. If the error message is AccountProtectedFromDeletion select No below
+5. If the error message is different and actionable, select Yes below
 
 ## Recommended Documents
 

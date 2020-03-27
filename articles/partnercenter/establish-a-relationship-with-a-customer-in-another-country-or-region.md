@@ -18,6 +18,7 @@
 	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Establishing a relationship with a customer in another country or region
+Below documents describe how to establish relationships with customers when they reside in a country or region different than the partner's.
 
 ## **Recommended Steps**
 - Select Customers from your Partner Center menu and then select Request a reseller relationship
