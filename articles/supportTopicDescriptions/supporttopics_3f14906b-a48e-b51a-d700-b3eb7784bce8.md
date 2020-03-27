@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d323a57d-3e0c-8485-ef7a-915fec0029f9",
+      "longDescription": "",
+      "shortDescription": "Questions about scaling operations or pricing model",
+      "searchTags": "pricing model;scaling",
+      "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d8c74c88-5e06-f1e4-e905-846b2eca02d2",
       "longDescription": "",
       "shortDescription": "You have questions about long term retention of backups",
