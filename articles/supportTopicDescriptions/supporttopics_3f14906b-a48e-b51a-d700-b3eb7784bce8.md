@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3d4e3d0f-dd14-1210-d243-bb67d128528d",
+      "longDescription": "",
+      "shortDescription": "You have questions about configuring audit logging",
+      "searchTags": "audit logging",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "44bc0ab0-4969-b12f-93d9-bd07d6934b7d",
       "longDescription": "",
       "shortDescription": "You are experiencing issues while connecting from a VNET or a specific workstation or VM",
