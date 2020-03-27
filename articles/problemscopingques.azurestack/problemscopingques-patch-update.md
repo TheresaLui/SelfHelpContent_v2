@@ -134,7 +134,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter your the Cloud Stamp ID",
             "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview'>find your Cloud Stamp ID</a>",
+            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Cloud Stamp ID</a>",
             "required": true
         },
         {
