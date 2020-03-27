@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "233038cf-2999-72af-09ee-298d47349884",
+      "longDescription": "",
+      "shortDescription": "You have questions about pricing tiers or purchasing model (vCores, storage, etc.)",
+      "searchTags": "pricing tier",
+      "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2e6fccb9-a69a-1e56-48a7-c98eec8c63c1",
       "longDescription": "",
       "shortDescription": "You received the (too many connections) error message.",
