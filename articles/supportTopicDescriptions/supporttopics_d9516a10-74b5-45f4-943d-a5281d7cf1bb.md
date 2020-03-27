@@ -911,6 +911,30 @@
       "searchTags": "sdk",
       "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7285b23c-1507-75d7-1a5b-806e650d825d",
+      "longDescription": "",
+      "shortDescription": "Issues with using Azure Private Link via a private endpoint",
+      "searchTags": "private, private link, private endpoint",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "86107512-f8ce-062a-75f7-b3002aa1f50c",
+      "longDescription": "",
+      "shortDescription": "Issues with using Azure Private Link via a private endpoint",
+      "searchTags": "private, private link, private endpoint",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c3a11f26-6f54-639b-6d73-dba9cc3b96e3",
+      "longDescription": "",
+      "shortDescription": "Issues or questions with using Free Tier billing option",
+      "searchTags": "billing, free, free tier",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
