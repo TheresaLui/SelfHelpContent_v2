@@ -24,7 +24,7 @@ Most users are able to resolve their Billing and Pricing case using the steps be
 Azure Cosmos DB resources are charged based on the storage consumed(GB) and the throughput provisioned(RU/s) for a container. Each container with provisioned throughput is billed on an hourly basis for the throughput provisioned in increments of 100 RU/second.  
 
 
-### How does the Free Tier discount show up on my bill?  
+### **How does the Free Tier discount show up on my bill?** 
 In Free Tier accounts, you will get the first 400 RUs and 5 GB of storage in your account for free. Any RUs and storage beyond 400 RUs and 5 GB will be billed at the regular pricing rates per the pricing page. On the bill, you will not see a charge or line item for the free 400 RUs and 5 GB, only the RUs and storage beyond what is covered by free tier.
 
 
