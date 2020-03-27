@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b76a59ee-85c9-8ef2-f9fc-7e3b7491c35d",
+      "longDescription": "",
+      "shortDescription": "You have questions about monitoring slow query or audit logs",
+      "searchTags": "slow query;audit logs",
+      "category": "Monitoring and Alerting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c6da7e9e-b2ed-f05d-ba18-d5b913988224",
       "longDescription": "",
       "shortDescription": "Your server is experiencing a performance or query execution issue",
