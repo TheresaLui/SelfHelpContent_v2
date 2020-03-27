@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "767770d8-59f5-beff-5311-b4e29f785126",
+      "longDescription": "",
+      "shortDescription": "You have issues connecting with a specific client driver",
+      "searchTags": "issue with client driver",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7bc53711-84aa-39d3-6d7a-acfc727c044f",
       "longDescription": "",
       "shortDescription": "You have questions about super user access (privileges)",
