@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7850b91e-8f70-250f-a446-87a10695ded5",
+      "longDescription": "",
+      "shortDescription": "Your server is experiencing high network latency while retrieving data from the server",
+      "searchTags": "network latency",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7bc53711-84aa-39d3-6d7a-acfc727c044f",
       "longDescription": "",
       "shortDescription": "You have questions about super user access (privileges)",
