@@ -6,7 +6,7 @@
     articleId="f78c8e26-9c40-4a74-a091-f76aecb49099_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
-    ownershipId=""
+    ownershipId="CXP_AzureVPNGateway"
 />
 # Consider increasing the size of your VNet Gateway SKU to address high P2S use
 ---
