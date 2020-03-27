@@ -18,16 +18,13 @@
 />
 
 # Configuration Issue Preventing User Sign-In
+
 <!--issueDescription-->
 
-
-The sign-in is failing because <!--$recommendedAction-->[recommendedAction]<!--/$recommendedAction-->
-
+<!--$recommendedAction-->[recommendedAction]<!--/$recommendedAction-->
 
 <!--/issueDescription-->
 
-
 ## **Recommended Steps**
 
- 
 [<!--$linkText-->linkText<!--/$linkText-->](<!--$linkVal-->linkVal<!--/$linkVal-->)
