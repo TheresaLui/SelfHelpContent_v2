@@ -14,7 +14,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
-	ownershipId="StorageMediaEdge_StorageBlobs"
+ownershipId="StorageMediaEdge_StorageBlobs, StorageMediaEdge_AccountManagement, StorageMediaEdge_StorageFiles"
 />
 
 # Find Data migration solution
