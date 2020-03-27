@@ -17,7 +17,9 @@
 
 # I received an allocation failure
 
-4 out of 5 customers resolved their allocation failure issue using the below steps.
+We are experiencing high demand for specific regions across the globe. 4 out of 5 customers resolved their allocation failure issue using the below steps. 
+
+For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/).
 
 ## **Recommended Steps**
 
