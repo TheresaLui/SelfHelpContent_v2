@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8ecbb460-ab3d-6073-71a5-572214e2cfe3",
+      "longDescription": "",
+      "shortDescription": "Questions about creating, updating, or deleting servers or server configurations",
+      "searchTags": "creating;deleting;updating",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "96bd8b64-fe4a-d0db-8b0e-060c98a35522",
       "longDescription": "",
       "shortDescription": "You have questions or issues about creating, managing or troubleshooting read replicas",
