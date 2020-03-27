@@ -342,6 +342,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e681605f-01bb-edd2-734d-112d895ca2e6",
+      "longDescription": "",
+      "shortDescription": "Questions specific to migrating to Azure Database for MySQL",
+      "searchTags": "migration issues",
+      "category": "Migrating to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e742536d-e9cd-c9ce-8408-1962ec684f38",
       "longDescription": "",
       "shortDescription": "You are experiencing issues with tools used to migrate to Azure Database for MariaDB",
