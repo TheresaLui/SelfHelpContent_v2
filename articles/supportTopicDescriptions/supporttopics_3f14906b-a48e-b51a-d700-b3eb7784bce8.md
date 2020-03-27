@@ -326,6 +326,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e742536d-e9cd-c9ce-8408-1962ec684f38",
+      "longDescription": "",
+      "shortDescription": "You are experiencing issues with tools used to migrate to Azure Database for MariaDB",
+      "searchTags": " migrtion tools",
+      "category": "Migrating to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ea674821-8234-733c-4681-cb9fddcd947a",
       "longDescription": "",
       "shortDescription": "Your connections to the server have been dropped unexpectedly.",
