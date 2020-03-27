@@ -182,6 +182,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "add312e8-ff46-d742-1703-a2d571579bd2",
+      "longDescription": "",
+      "shortDescription": "You are not able to set up or are experiencing issues with replication from an external server into an Azure Database for MariaDB server",
+      "searchTags": "Replication;replicating external data",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b4974c16-3ad0-944f-a964-88c1ddb01a60",
       "longDescription": "",
       "shortDescription": "You have questions about VNET service endpoints or VNET rules",
