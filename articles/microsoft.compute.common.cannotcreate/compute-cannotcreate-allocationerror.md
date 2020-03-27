@@ -30,7 +30,6 @@ For general troubleshooting, please follow these guides:<br>
 3. Use another size in the given region ([Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm) or [Resize a Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/change-vm-size))<br>
 4. Review the different VM types in Azure. To resize, click 'Size' in the Settings blade of the VM resource.
 
-
 ## **Recommended Documents**
 
 * [Our commitment to customers and Microsoft cloud services continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/)
