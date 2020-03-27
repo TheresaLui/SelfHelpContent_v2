@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "34003af6-debd-ba08-02ae-18198fb55b5a",
+      "longDescription": "",
+      "shortDescription": "You are not able to manage server firewall rules to allow connections",
+      "searchTags": "firewall rules;setup firewall ",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "38190b7e-4f63-2f56-17a7-d895f5d3d0d2",
       "longDescription": "",
       "shortDescription": "You have issues using PowerShell",
