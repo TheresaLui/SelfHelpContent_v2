@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "71509234-6263-698d-9900-60e978eef5c1",
+      "longDescription": "",
+      "shortDescription": "You are experiencing unexpected behavior, errors or exceptions when executing a query",
+      "searchTags": "errors executing a query",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "767770d8-59f5-beff-5311-b4e29f785126",
       "longDescription": "",
       "shortDescription": "You have issues connecting with a specific client driver",
