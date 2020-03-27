@@ -20,10 +20,9 @@
 
 # MPN - Competency requirements
 
-
-Resources providing knowledge on Competency requirements
+Resources providing knowledge on Competency requirements.
 
 ## **Recommended Documents**
 
 * [Microsoft competency requirements for Gold and Silver membership](https://docs.microsoft.com/partner-center/learn-about-competencies)
-* [Microsoft competency overview](https://partner.microsoft.com/en-US/membership/competencies)
+* [Microsoft competency overview](https://partner.microsoft.com/membership/competencies)
