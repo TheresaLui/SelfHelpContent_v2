@@ -182,6 +182,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "aca2b95b-e20a-2579-9715-30198302b9ed",
+      "longDescription": "",
+      "shortDescription": "Questions specific to replication between servers",
+      "searchTags": "Replication",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "add312e8-ff46-d742-1703-a2d571579bd2",
       "longDescription": "",
       "shortDescription": "You are not able to set up or are experiencing issues with replication from an external server into an Azure Database for MariaDB server",
