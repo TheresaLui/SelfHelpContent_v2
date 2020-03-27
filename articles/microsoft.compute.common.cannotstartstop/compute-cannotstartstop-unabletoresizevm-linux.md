@@ -21,9 +21,17 @@
 
 ## **Recommended Steps**
 
-* Learn about [Azure Service Health](https://docs.microsoft.com/azure/service-health/service-health-overview), then use the [Azure Service Health blade](data-blade:Microsoft_Azure_Health.ServiceIssuesBlade) to see current service issues that may be affecting your resources<br>
-* [Understand more about Audit logs](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) and using [Audit and Activity Log blade](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId)
-* [Troubleshoot allocation failures when you create, restart, or resize Linux VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/allocation-failure)
+## **Recommended steps**
+
+We are experiencing capacity issues for specific regions across the globe. More details can be found by following this link to understand [Our commitment to customers and Microsoft cloud services continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/)<br>
+
+If you are deploying to regions **West Europe, North Europe, UK South, UK West, France Central**, then please be aware that we have an emerging issue related to capacity due to increased usage. In these cases, we recommend trying alternate regions (as first preference) or alternate SKUs.<br>
+
+For general troubleshooting, please follow these steps:<br>
+
+1. Understand your specific error ([SkuNotAvailable](https://docs.microsoft.com/azure/azure-resource-manager/templates/error-sku-not-available), [Quota Limit](https://docs.microsoft.com/azure/azure-resource-manager/templates/error-resource-quota), or [Allocation Failure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure))<br>
+2. Deploy to another region.<br>
+3. Use another size in the given region ([Resize a Windows VM](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/resize-vm) or [Resize a Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/change-vm-size))
 
 
 ## **Recommended Documents**
