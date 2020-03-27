@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7bc53711-84aa-39d3-6d7a-acfc727c044f",
+      "longDescription": "",
+      "shortDescription": "You have questions about super user access (privileges)",
+      "searchTags": "super user",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7df82fdf-4daa-6677-1c43-13330c99df70",
       "longDescription": "",
       "shortDescription": "Questions about backup, restore, and business continuity features.",
