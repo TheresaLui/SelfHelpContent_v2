@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "40cfdc8d-5bff-8487-f6fe-aeb633ab7bf5",
+      "longDescription": "",
+      "shortDescription": "Questions specific to monitoring your server with metrics or alerts",
+      "searchTags": "azure monitor",
+      "category": "Monitoring and Alerting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "44bc0ab0-4969-b12f-93d9-bd07d6934b7d",
       "longDescription": "",
       "shortDescription": "You are experiencing issues while connecting from a VNET or a specific workstation or VM",
