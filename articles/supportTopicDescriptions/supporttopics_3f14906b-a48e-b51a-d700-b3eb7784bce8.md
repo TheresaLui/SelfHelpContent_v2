@@ -126,6 +126,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b4974c16-3ad0-944f-a964-88c1ddb01a60",
+      "longDescription": "",
+      "shortDescription": "You have questions about VNET service endpoints or VNET rules",
+      "searchTags": "vnet rules",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ce0c3dc4-b261-b39f-6082-aac85bd12594",
       "longDescription": "",
       "shortDescription": "You are not able to change a server parameter value.",
