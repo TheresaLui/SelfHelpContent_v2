@@ -23,7 +23,7 @@ Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Steps**
 
-* In Azure Database for MariaDB, the [`mysql` system database](https://mariadb.com/kb/en/the-mysql-database-tables/) is read-only as it is used to support various PaaS service functionality. Please note that you cannot change anything in the `mysql` system database.
+* In Azure Database for MariaDB, the [mysql system database](https://mariadb.com/kb/en/the-mysql-database-tables/) is read-only as it is used to support various PaaS service functionality. Please note that you cannot change anything in the `mysql` system database.
 * Make sure that the server name is globally unique
 * Currently, minor and major version upgrades aren't supported. For example, upgrading from MariaDB 10.2 to MariaDB 10.3 isn't supported. If you'd like to upgrade from 10.2 to 10.3, take a [dump and restore](https://docs.microsoft.com/azure/mariadb/howto-migrate-dump-restore) it to a server that was created with the new engine version
 * If you are using the portal, review the [Manage an Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/tutorial-design-database-using-portal) tutorial
