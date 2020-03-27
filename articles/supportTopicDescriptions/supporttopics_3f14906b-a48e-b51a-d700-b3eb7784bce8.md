@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c6da7e9e-b2ed-f05d-ba18-d5b913988224",
+      "longDescription": "",
+      "shortDescription": "Your server is experiencing a performance or query execution issue",
+      "searchTags": "query performance",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c9b484ac-67ea-9255-2299-130c3785410a",
       "longDescription": "",
       "shortDescription": "Questions about security",
