@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "29fef760-003b-a1ec-35eb-c0ef31bc87ff",
+      "longDescription": "",
+      "shortDescription": "You are not able to create, update, or delete servers",
+      "searchTags": "update servers",
+      "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2e6fccb9-a69a-1e56-48a7-c98eec8c63c1",
       "longDescription": "",
       "shortDescription": "You received the (too many connections) error message.",
