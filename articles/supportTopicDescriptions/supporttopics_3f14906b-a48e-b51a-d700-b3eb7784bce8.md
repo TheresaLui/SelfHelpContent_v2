@@ -326,6 +326,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fb0ea175-c7d6-0729-457b-c07087aee297",
+      "longDescription": "",
+      "shortDescription": "Your server is experiencing overall slowness or a specific query is very slow",
+      "searchTags": "slow query",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fdaf3087-98fb-ce83-eeed-e5b4e08b5d00",
       "longDescription": "",
       "shortDescription": "You have questions about monitoring performance through the Azure portal, metrics, or configuring alerts.",
