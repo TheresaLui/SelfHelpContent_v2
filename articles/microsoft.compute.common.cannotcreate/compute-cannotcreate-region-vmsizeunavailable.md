@@ -28,7 +28,7 @@ We are currently experiencing high demand in **West Europe, North Europe, UK Sou
 For general troubleshooting, please follow these guides:<br>
 
 1. Understand your specific error ([SkuNotAvailable](https://docs.microsoft.com/azure/azure-resource-manager/templates/error-sku-not-available), [Quota Limit](https://docs.microsoft.com/azure/azure-resource-manager/templates/error-resource-quota), or [Allocation Failure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure))<br>
-2. Deploy to another region.<br>
+2. Deploy to another region
 3. Use another size in the given region ([Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm) or [Resize a Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/change-vm-size))
 
 ## **Recommended Documents**
