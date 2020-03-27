@@ -10,7 +10,7 @@
     supportTopicIds="32683762"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="cluster-management-pods-related-issues"
 	ownershipId="Compute_AzureKubernetesService"
 />

@@ -11,6 +11,7 @@
 	selfHelpType="servicehealthinsights"
 	cloudEnvironments="public, Fairfax"
 	articleTags="healthannotation_genericrhevent"
+ownershipId="ASEP_ServiceHealth"
 />
 
 # Your Azure resource was impacted by a resource health event

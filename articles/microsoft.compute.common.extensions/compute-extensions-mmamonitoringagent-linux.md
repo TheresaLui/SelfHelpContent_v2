@@ -25,7 +25,7 @@
 
 * [Overview of Azure Monitor virtual machine extension](https://docs.microsoft.com/azure/virtual-machines/extensions/oms-linux)<br>
 * [Overview of Azure Monitor and Insights](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-overview)<br>
-* [Understanding Azure Monitor health](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-health)<br>
+* [Understanding Azure Monitor health](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-ga-release-faq#health-feature-is-in-limited-public-preview)<br>
 * [Enabling Azure Monitoring](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-overview)<br>
 * [Known Issues for Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-known-issues)<br>
 * [FAQ for Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-faq)<br>

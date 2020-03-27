@@ -38,6 +38,7 @@ This is work in progress and we will update this list if any change occurs.<br>
 ## **Recommended Documents**
 
 * [Costs included and not included in Cost Management](https://docs.microsoft.com/azure/cost-management/understand-cost-mgt-data#costs-included-in-cost-management)<br>
+* [Data refresh schedule](https://docs.microsoft.com/azure/cost-management-billing/costs/understand-cost-mgt-data#rated-usage-data-refresh-schedule)><br>
 * [Usage data update frequency](https://docs.microsoft.com/azure/cost-management/understand-cost-mgt-data#usage-data-update-frequency-varies)<br>
 * [How to validate cost by analyzing usage](https://docs.microsoft.com/azure/billing/billing-understand-your-bill)<br>
 * [Customize cost views](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis#customize-cost-views)<br>

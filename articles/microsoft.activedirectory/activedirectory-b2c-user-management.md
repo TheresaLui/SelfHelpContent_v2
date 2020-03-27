@@ -10,9 +10,9 @@
 	supportTopicIds="32633306,32633307,32633315,32633319,32633322"
 	resourceTags=""
 	productPesIds="16580"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
 	articleId="4ae814d3-0dc5-4987-b830-ec784cc61b03"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_B2C"
 />
 
 # Business to Consumer (B2C)
