@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6f993bf2-6528-5cc7-e88a-43e29960304d",
+      "longDescription": "",
+      "shortDescription": "You accidentally deleted a server and need assistance recovering it.",
+      "searchTags": "dropped server",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7df82fdf-4daa-6677-1c43-13330c99df70",
       "longDescription": "",
       "shortDescription": "Questions about backup, restore, and business continuity features.",
