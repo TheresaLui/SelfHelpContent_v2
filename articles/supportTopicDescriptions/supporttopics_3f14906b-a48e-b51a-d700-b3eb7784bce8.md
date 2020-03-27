@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8149315d-65d1-7316-4d4f-ec64b921740a",
+      "longDescription": "",
+      "shortDescription": "You have questions about geo-redundant backups or are experiencing issues with performing a geo-restore operation",
+      "searchTags": "geo redundant backup",
+      "category": "Backup, Restore and Business Continuity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9bd1f012-c52f-b0ca-522c-420244d00a10",
       "longDescription": "",
       "shortDescription": "Resolve issues when connecting to your server or troubleshooting connectivity-related configurations",
