@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "55612064-33ab-1261-5ac9-41ed9e5c4694",
+      "longDescription": "",
+      "shortDescription": "You have issues using REST API commands",
+      "searchTags": "rest api",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "67f5e37c-74e1-6be1-9e3f-97dd9f31a0bd",
       "longDescription": "",
       "shortDescription": "Questions specific to issues with server parameters",
