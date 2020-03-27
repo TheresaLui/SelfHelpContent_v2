@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "69a0207e-4ca8-3880-43d1-a1cb66592484",
+      "longDescription": "",
+      "shortDescription": "Your server resource consumption (CPU, Memory, IO) changed unexpectedly.",
+      "searchTags": "resource consumption",
+      "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6f993bf2-6528-5cc7-e88a-43e29960304d",
       "longDescription": "",
       "shortDescription": "You accidentally deleted a server and need assistance recovering it.",
