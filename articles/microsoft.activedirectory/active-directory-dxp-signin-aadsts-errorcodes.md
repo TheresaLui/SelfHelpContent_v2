@@ -27,9 +27,3 @@ Message: <!--$message-->[message]<!--/$message-->
 Action: <!--$remediation-->[remediation]<!--/$remediation-->
 
 <!--/issueDescription-->
-
-
-## **Recommended Steps**
-
- 
-[<!--$linkText-->linkText<!--/$linkText-->](<!--$linkVal-->linkVal<!--/$linkVal-->)
