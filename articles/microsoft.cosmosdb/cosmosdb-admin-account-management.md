@@ -36,6 +36,8 @@ However, you should be able to perform all operations against your existing Azur
 
 For further information, please review our [commitment and service continuity]( https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/).
 
+If this is very critical for your business to have an account in any of the restricted regions, please continue creating a support ticket to explore other options.  
+
 ### **Not able to remove or add a region**  
 If you are not able to remove a region in your database account please consider the following solutions:  
 * In a single-region write mode, you cannot remove the write region. You must fail over to a different region before you can delete the current write region. [Perform manual failover on an Azure Cosmos account](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account#manual-failover).
