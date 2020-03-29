@@ -17,7 +17,7 @@
 
 # Azure Capacity Restrictions (COVID-19)
 
-We would like to request you to review the blog about [our commitment and service continuity](https://azure.microsoft.com/en-us/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/) while we all fight together to battle global health pandemic.
+We would like to request you to review the blog about [our commitment and service continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/) while we all fight together to battle global health pandemic.
 
 As per the continuity plan, we have placed some restriction on your account for any new resource deployment. However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions.
 
@@ -35,4 +35,4 @@ Please consider using any other region for your new deployments.
 
 ## **Recommended Documents**
 
-[Our commitment and service continuity](https://azure.microsoft.com/en-us/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/)
+[Our commitment and service continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/)

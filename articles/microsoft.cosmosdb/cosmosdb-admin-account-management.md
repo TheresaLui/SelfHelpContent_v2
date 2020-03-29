@@ -34,7 +34,7 @@ You may run into capacity constraints when performing the following operations f
 
 However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions. Please consider using any other region for your new deployments.
 
-For further information, please review our [commitment and service continuity]( https://azure.microsoft.com/en-us/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/).
+For further information, please review our [commitment and service continuity]( https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/).
 
 ### **Not able to remove or add a region**  
 If you are not able to remove a region in your database account please consider the following solutions:  
