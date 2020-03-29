@@ -21,6 +21,21 @@ Most users are able to resolve their Account provisioning or management issue us
 
 ## **Recommended Steps**
 
+### **Not able to create a new account or add a region (COVID-19)**
+As companies operationalize to address new and unique challenges, we have mobilized our global response plan to help customers stay up and running during this critical time. We are actively monitoring performance and usage trends 24/7 to ensure we are optimizing our services for customers worldwide, while accommodating new demand. We are working closely with first responder organizations and critical government agencies to ensure we are prioritizing their unique needs and providing them our fullest support. We are also partnering with governments around the globe to ensure our local datacenters have on-site staffing and all functions are running properly.
+
+As demand continues to grow, if we are faced with any capacity constraints in any region during this time, we have established clear criteria for the priority of new cloud capacity. Top priority will be going to first responders, health and emergency management services, critical government infrastructure organizational use, and ensuring remote workers stay up and running with the core functionality of Teams. We will also consider adjusting free offers, as necessary, to ensure support of existing customers.
+
+You may run into capacity constraints when performing the following operations for **India, Germany, Europe, UK, Australia East or Southeast Asia** regions:
+
+- Provision/Create new Cosmos DB Account in any of the above restricted regions.
+- Adding a region from any of the above restricted regions.
+- Provision a new Azure Cosmos DB Free Tier account.
+
+However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions. Please consider using any other region for your new deployments.
+
+For further information, please review our [commitment and service continuity]( https://azure.microsoft.com/en-us/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/).
+
 ### **Not able to remove or add a region**  
 If you are not able to remove a region in your database account please consider the following solutions:  
 * In a single-region write mode, you cannot remove the write region. You must fail over to a different region before you can delete the current write region. [Perform manual failover on an Azure Cosmos account](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account#manual-failover).
