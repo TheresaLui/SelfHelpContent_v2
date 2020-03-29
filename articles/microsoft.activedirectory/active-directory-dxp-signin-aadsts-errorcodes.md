@@ -8,7 +8,7 @@
     ms.author="vrjai"
     displayOrder="1"
     articleId="active-directory-dxp-signin-aadsts-errorcodes"
-    diagnosticScenario="Sign_In_Issues"
+    diagnosticScenario="diagnostics"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
@@ -20,9 +20,11 @@
 # Configuration Issue Preventing User Sign-In
 <!--issueDescription-->
 
+Error code: <!--$errorCode-->[errorCode]<!--/$errorCode-->
 
-The sign-in is failing because <!--$recommendedAction-->[recommendedAction]<!--/$recommendedAction-->
+Message: <!--$message-->[message]<!--/$message-->
 
+Action: <!--$remediation-->[remediation]<!--/$remediation-->
 
 <!--/issueDescription-->
 
