@@ -26,4 +26,6 @@ Message: <!--$message-->[message]<!--/$message-->
 
 Action: <!--$remediation-->[remediation]<!--/$remediation-->
 
+<!--$link-->[link]<!--/$link-->
+
 <!--/issueDescription-->
