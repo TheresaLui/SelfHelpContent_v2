@@ -26,7 +26,7 @@ ShoeboxEntries | where resourceId contains '/StorageAccountName'| where TIMESTAM
 
 3. When the relevant operation is found, take note of the timeframe of the operation(PreciseTimeStamp) and CorrelationId.
 
-## **Recommended Documents**
+**Recommended Documents**
 
-* https://jarvis-west.dc.ad.msft.net/logs/kusto
-* https://armprod.kusto.windows.net:443/ARMProd
+1. https://jarvis-west.dc.ad.msft.net/logs/kusto
+2. https://armprod.kusto.windows.net:443/ARMProd
