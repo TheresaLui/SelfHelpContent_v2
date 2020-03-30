@@ -11,7 +11,7 @@ articleId="NmAgentUpdated"
 diagnosticScenario="NmAgentUpdated"
 selfHelpType="resource"
 supportTopicIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax"
 	ownershipId="Compute_VirtualMachines"
 />
 

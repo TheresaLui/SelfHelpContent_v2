@@ -13,7 +13,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax"
 	ownershipId="Compute_VirtualMachines"
 />
 # Your Azure Marketplace purchase needs your attention
