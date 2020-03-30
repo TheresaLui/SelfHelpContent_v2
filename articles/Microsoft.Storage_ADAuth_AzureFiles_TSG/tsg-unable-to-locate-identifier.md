@@ -1,8 +1,8 @@
 <properties
     pageTitle="Unable to allocate a relative identifier when trying to domain join account"
     description="Unable to allocate a relative identifier when trying to domain join account"
-    service="microsoft.storage"
-    resource="file storage"
+    service="Microsoft.Storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""

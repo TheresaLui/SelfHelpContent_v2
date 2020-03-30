@@ -1,8 +1,8 @@
 <properties
     pageTitle="AD Auth for Files Storage escalation path"
     description="AD Auth for Files Storage escalation path"
-    service="microsoft.storage"
-    resource="file storage"
+    service="Microsoft.Storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""
