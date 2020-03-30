@@ -9,8 +9,10 @@
     supportTopicIds="32615412"
     resourceTags=""
     productPesIds="16578"
-    cloudEnvironments="public"
-    />
+    cloudEnvironments="public, Fairfax, Mooncake"
+    	articleId="760ef8f7-8b2e-417c-b563-0214d24cbd6f"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
+/>
 
 # Directory eletion problem with removing applications
 

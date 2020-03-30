@@ -10,7 +10,9 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
- />
+ 	articleId="15077291-fc6e-4d30-9655-e6b85207f43f"
+	ownershipId="AzureML_AzureMachineLearning"
+/>
 
 # Where can I find more documents for Azure Machine Learning?
 

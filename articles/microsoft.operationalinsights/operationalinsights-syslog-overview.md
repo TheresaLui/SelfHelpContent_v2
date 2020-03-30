@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="18316528-10ed-4dc8-83da-a26d5667f961"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # syslog-overview

@@ -3,12 +3,15 @@
     description="Problem deleting a user"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
+    ms.author="Jeffsta-MSFT"
     authors="Jeffsta-MSFT"
     selfHelpType="generic"
     supportTopicIds="32586793"
-    productPesIds="14785,16578"
-    cloudEnvironments="public"
-    />
+    productPesIds="16578"
+    cloudEnvironments="public, Fairfax, Mooncake"
+    	articleId="af9602ba-90c1-4183-9407-922b87ed1326"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
+/>
 # I can't delete a user in my directory
 
 ## **Recommended steps**

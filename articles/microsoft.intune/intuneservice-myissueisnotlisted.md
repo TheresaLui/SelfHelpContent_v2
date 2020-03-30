@@ -5,14 +5,16 @@
 	resource="intune"
 	documentationCenter=""
 	authors="mackie1604"
-	resourceTags="device_enrollment_selfhelp, mamarmrbac, mampolicyarmrbac, mam, mampolicy, intuneroles_selfhelp, onpremise_selfhelp, ebooks_selfhelp, main_selfhelp, apps_selfhelp, conditional_access_selfhelp, software_updates_selfhelp,devices_selhelp,deviceconfiguration_selfhelp,devicecompliance_selfhelp"
+	resourceTags="device_enrollment_selfhelp, mamarmrbac, mampolicyarmrbac, mam, mampolicy, intuneroles_selfhelp, onpremise_selfhelp, ebooks_selfhelp, main_selfhelp, apps_selfhelp, conditional_access_selfhelp, software_updates_selfhelp, devices_selfhelp, deviceconfiguration_selfhelp, devicecompliance_selfhelp"
 	selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""
 	displayOrder=""
 	cloudEnvironments="public"
 	issueNotListed="true"
- />
+ 	articleId="317830a3-b0d1-48b4-aff1-1023d9e43d81"
+	ownershipId="IntuneCxP_Intune"
+/>
 
 # My problem is not listed here.
 

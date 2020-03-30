@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Application Gateway Listener Missing Load-Balancing Rules
 <!--issueDescription-->

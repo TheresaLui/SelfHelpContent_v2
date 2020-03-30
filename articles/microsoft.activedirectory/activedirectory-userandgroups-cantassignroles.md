@@ -3,14 +3,17 @@
     description="Azure Active Directory domains troublehooter"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="ElizavetaKuzmenko"
+    authors="curtand"
+	ms.author="curtand"
     displayOrder="4294"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="userandgroups_overview,userandgroups_user"
     productPesIds=""
-    cloudEnvironments="public"
-    />
+    cloudEnvironments="public, Fairfax, Mooncake"
+    	articleId="2eec419f-9c11-4a06-90cf-63ff4aa23a6d"
+	ownershipId="AzureIdentity_User"
+/>
 
 # I can’t assign roles to other users in the Azure AD tenant
 

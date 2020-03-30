@@ -7,8 +7,10 @@
     displayOrder="400"
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax, Mooncake"
+ 	articleId="d51b7536-ae48-4a80-993b-ca27f3b8ec9f"
+	ownershipId="AzureIdentity_User"
+/>
 
 # Problems with temporary passwords
 

@@ -1,21 +1,25 @@
 <properties
-	pageTitle="configurationandsetup/configendtoendssl"
-	description="configurationandsetup/configendtoendssl"
+	pageTitle="Configure End-to-End SSL"
+	description="Configure End-to-End SSL"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="radwiv"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32582825"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	articleId="e78cc1cf-960c-4d8d-b975-5e3057eb3d19"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
-# configurationandsetup/configendtoendssl
+# Configure End-to-End SSL
 
-## **Recommended documents**
+End to end SSL allows you to securely transmit sensitive data to the backend encrypted while still taking advantage of the benefits of Layer 7 load-balancing features which application gateway provides.
 
-[End to end SSL and SSL policy](https://docs.microsoft.com/azure/application-gateway/application-gateway-backend-ssl) on application gateway<br>
-[Configure SSL policy and end to end SSL](https://docs.microsoft.com/azure/application-gateway/application-gateway-end-to-end-ssl-powershell) with application gateway using PowerShell
+## **Recommended Documents**
 
+* [End to End SSL and SSL termination overview](https://docs.microsoft.com/azure/application-gateway/ssl-overview) on Application Gateway
+* Configure End to End SSL with Application Gateway using the [Azure Portal]((https://docs.microsoft.com/azure/application-gateway/end-to-end-ssl-portal)) or [PowerShell](https://docs.microsoft.com/azure/application-gateway/application-gateway-end-to-end-ssl-powershell)

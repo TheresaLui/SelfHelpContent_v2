@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="9e3c6d1f-bb83-455c-8f14-14dc6d79e09a"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # office365-setup

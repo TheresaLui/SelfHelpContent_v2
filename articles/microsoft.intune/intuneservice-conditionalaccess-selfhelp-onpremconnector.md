@@ -10,6 +10,8 @@
 	resourceTags="conditional_access_selfhelp,onpremise_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="941d561a-5a61-402c-9659-9fe3052c7be6"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # The on-premises Exchange Connector installation keeps failing. 

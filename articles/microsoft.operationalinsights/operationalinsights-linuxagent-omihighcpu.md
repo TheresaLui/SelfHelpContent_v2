@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="a353d6c5-ffe0-4632-a750-f79718c8a9f9"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Linux Agent/OMI process issues: Running high CPU

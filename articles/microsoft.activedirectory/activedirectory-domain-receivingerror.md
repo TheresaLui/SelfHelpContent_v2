@@ -3,14 +3,17 @@
     description="Azure Active Directory directory troublehooter"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="ElizavetaKuzmenko"
+    authors="curtand"
+	ms.author="curtand"
     displayOrder="4299"
     selfHelpType="generic"
     supportTopicIds="32570974"
     resourceTags=""
     productPesIds="14785"
-    cloudEnvironments="public"
-    />
+    cloudEnvironments="public, Fairfax, Mooncake"
+    	articleId="30121a54-a847-4274-a3ff-825f47d81d65"
+	ownershipId="ASEP_ContentService_Placeholder"
+/>
 
 # Receiving error about domain configured on another tenant  
 

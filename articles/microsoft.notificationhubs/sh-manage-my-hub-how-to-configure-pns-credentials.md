@@ -10,6 +10,8 @@
 	productPesIds="15973"
 	supportTopicIds="32565570"
 	cloudEnvironments="public"
+	articleId="2950bb68-dd3c-4f60-8438-dc4c73cbe1f7"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Manage My Hub/How to configure PNS credentials

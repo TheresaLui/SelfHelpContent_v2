@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="f6ca8359-0a1e-4a92-ae61-560062e07596"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Apps - Assign Apps

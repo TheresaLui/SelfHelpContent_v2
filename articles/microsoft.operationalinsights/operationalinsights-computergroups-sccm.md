@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="b49213c1-4066-4d53-af59-53b4b70516b0"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # computergroups-sccm

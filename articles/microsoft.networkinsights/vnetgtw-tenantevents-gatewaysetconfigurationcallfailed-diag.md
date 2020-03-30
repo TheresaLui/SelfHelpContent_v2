@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # A platform configuration issue has been detected
 <!--issueDescription-->

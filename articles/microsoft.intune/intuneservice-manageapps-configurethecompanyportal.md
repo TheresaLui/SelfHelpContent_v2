@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="351954f8-5a3f-4cc9-b429-6b3859e45a0e"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Apps - Configure the Company Portal

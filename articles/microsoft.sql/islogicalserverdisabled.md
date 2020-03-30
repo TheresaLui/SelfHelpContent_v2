@@ -5,6 +5,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="aamalvea"
+	ms.author="aamalvea"
 	displayOrder=""
 	articleId="IsLogicalServerDisabled_56701EED-97BA-4BC5-A916-C4ECFD1C4F07"
 	diagnosticScenario=""
@@ -12,21 +13,18 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The server <!--$ServerName--> ServerName <!--/$ServerName--> experienced connectivity issues due to an issue with your billing information. 
+The server <!--$ServerName-->ServerName <!--/$ServerName--> experienced connectivity issues due to an issue with your billing information.
+
+This issue may have occured due an issue with your spending limit, billing information, or subscription status. Please review your account details and latest invoice for further information.
 <!--/issueDescription-->
 
-This issue may have occurred because:<br> 
-	• You've reached your spending limit<br> 
-	• Your bill is past due<br> 
-	• The bill exceeds your credit card limit<br> 
-	• The subscription was accidentally cancelled<br> 
+## **Recommended Documents**
 
-To resolve this issue, please go to the [Account Center](https://account.azure.com/Subscriptions)<br> 
-
-For more information, refer to [Reactivate my Azure Subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)
-
+* [Account Center](https://account.azure.com/Subscriptions)
+* [Reactivate my Azure Subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable)

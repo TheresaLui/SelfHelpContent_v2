@@ -10,6 +10,8 @@
 	resourceTags="software_updates_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="a0babaf7-4b36-43f5-a05c-057de07b304c"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # The PCs in my organization are downloading updates individually. Is there a way they can download and then share updates?

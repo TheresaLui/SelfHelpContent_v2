@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="bada7a92-3318-4b34-93ea-b0bf81794047"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # office365-overview

@@ -1,30 +1,34 @@
 <properties
-pageTitle="VM boot error"
-description="Virtual machine was started in Safe Mode"
-infoBubbleText="We have detected that your VM was started in safe mode. See details on the right."
-service="microsoft.compute"
-resource="virtualmachines"
-authors="ram-kakani"
-displayOrder=""
-articleId="cantrdp-safemode"
-diagnosticScenario="booterror"
-selfHelpType="diagnostics"
-supportTopicIds="32411835"
-resourceTags="windows"
-productPesIds="14749"
-cloudEnvironments="public"
+    pageTitle="VM boot error"
+    description="Virtual machine was started in Safe Mode"
+    infoBubbleText="We have detected that your VM was started in safe mode. See details on the right."
+    service="microsoft.compute"
+    resource="virtualmachines"
+    authors="ram-kakani,timbasham"
+    ms.author="tibasham"
+    displayOrder=""
+    articleId="cantrdp-safemode"
+    diagnosticScenario="booterror"
+    selfHelpType="diagnostics"
+    supportTopicIds="32411835"
+    resourceTags="windows"
+    productPesIds="14749"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Virtual machine was started in Safe Mode
+
 <!--issueDescription-->
-## **Your virtual machine <!--$vmname-->[vmname]<!--/$vmname--> was started in Safe Mode**
-We have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> is currently in an inaccessible state because its started in Safe Mode.
+We have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> is currently in an inaccessible state because it started in Safe Mode.
 
 If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To restart the VM in normal mode, please try the below steps using the [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade).  If you’re unfamiliar with the serial console or would like additional information, please refer to our user [guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console).
+
+* To restart the VM in normal mode, please try the below steps using the [serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/serialConsole)
+* If you’re unfamiliar with the serial console or would like additional information, please refer to our [user guide](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console)
 
 ##### From the Serial Console:
 
@@ -69,5 +73,5 @@ To restart the VM in normal mode, please try the below steps using the [serial c
   ```
 
 * Remove the flag "safeboot" from this partition by executing `bcdedit /deletevalue {current} safeboot`
-* Exit from the Serial Console and Restart the VM.
-* Verify if you are able to connect via RDP.
+* Exit from the Serial Console and Restart the VM
+* Verify if you are able to connect via RDP

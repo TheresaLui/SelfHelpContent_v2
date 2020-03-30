@@ -10,6 +10,8 @@
 	resourceTags="software_updates_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="cf293252-c019-44fd-bf5c-3f4141cf1cae"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I want to defer the Windows 10 updates that are being pushed to users.

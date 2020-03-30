@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="jozender"
+	ms.author="jozender"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_E17_IOPS_Limit"
 	diagnosticScenario="UnexpectedVMReboot"
@@ -12,7 +13,8 @@
 	supportTopicIds="32411816"
 	resourceTags="windows, linux"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 
@@ -25,9 +27,9 @@ Azure Standard Storage disks have a limit of 500 IOPS for each VHD.  We have d
 
 Depending on the workload, a striped disk or configuring Storage Spaces inside the Guest VM may help mitigate the issue.  You may also want to consider Premium Storage if the issue persists.<br>
 
-To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set.<br>
+To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.<br>
 
-To learn more about high availability options, please refer to the following articles:<br>
+To learn more about high availability options, refer to the following articles:<br>
 
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)<br>
@@ -35,8 +37,6 @@ To learn more about high availability options, please refer to the following art
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.<br>
 
-To learn more about Azure Resource Health, please refer to the following article:<br>
+To learn more about Azure Resource Health, see [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview).<br>
 
-* [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
-
-We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to reduce the availability incidents of Virtual Machines due to platform issue.<br>
+We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.<br>

@@ -9,7 +9,9 @@
 	supportTopicIds="32608410"
 	resourceTags=""
 	productPesIds="16533"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="36d20a7c-63f6-4fb2-8e76-0378bf0997d6"
+	ownershipId="Compute_AppService"
 />
 
 # Creation Issues

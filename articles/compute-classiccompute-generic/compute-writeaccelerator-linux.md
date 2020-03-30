@@ -4,17 +4,22 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32608639"
 	resourceTags=""
-	productPesIds="15571,15797"
-	cloudEnvironments="public"
+	productPesIds="15571,15797,16470,16454"
+	cloudEnvironments="public, Fairfax"
+	articleId="26729040-bdc8-4c4c-bb82-8614a6f84a1e"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Performance/Write Accelerator
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * [Understanding Write Accelerator](https://docs.microsoft.com/azure/virtual-machines/linux/how-to-enable-write-accelerator)<br>
 * [Planning for using Write Accelerators](https://docs.microsoft.com/azure/virtual-machines/linux/how-to-enable-write-accelerator#planning-for-using-write-accelerator)<br>

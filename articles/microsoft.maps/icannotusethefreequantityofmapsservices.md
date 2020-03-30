@@ -11,7 +11,9 @@
 	productPesIds=""
 	displayOrder="4"
 	cloudEnvironments="public"
- />
+ 	articleId="f3c87bb8-3aef-4d0a-b9ac-3686338ecbf4"
+	ownershipId="AzureIot_AzureMaps"
+/>
 
 # I can not use the free quantity of maps services
 

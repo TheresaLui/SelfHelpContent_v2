@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="16125"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="589a38f9-5e6d-4a32-871c-03ca9c3f7d38"
+	ownershipId="AzureMessaging_Common"
 />
 
 # portal and powershell commands
@@ -19,5 +21,5 @@
 [Event Hubs Programming Guide for Common Scenarios](https://docs.microsoft.com/azure/event-hubs/event-hubs-programming-guide)<br>
 [Commonly asked questions and solutions on Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-faq)<br>
 [See if you can find the answer in our FAQ section!](https://azure.microsoft.com/documentation/articles/service-bus-faq/)<br>
-[Enable Event Hubs Geo-DR configurations using PowerShell](https://blogs.msdn.microsoft.com/eventhubs/2018/02/22/__trashed/)<br>
+[Enable Event Hubs Geo-DR configurations](https://github.com/Azure/azure-event-hubs/tree/master/samples/DotNet/GeoDRClient)<br>
 [Create an Event Hubs namespace and an event hub using the Azure portal](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)<br>

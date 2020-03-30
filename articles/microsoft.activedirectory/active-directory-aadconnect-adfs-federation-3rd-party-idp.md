@@ -9,7 +9,9 @@
 	supportTopicIds="32570970"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
+	articleId="0c389b68-1f54-4782-93be-ddfd0626eed4"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I want to configure federation with Azure AD using a third party federation solution

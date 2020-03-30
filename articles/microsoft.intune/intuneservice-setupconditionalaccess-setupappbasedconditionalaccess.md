@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="8a6f05d4-078d-4f93-8e47-9c5880f07db8"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Setup Conditional Access - Setup App Based Conditional Access

@@ -1,23 +1,31 @@
 <properties
-	pageTitle="configuration and setup/encrypt virtual machine disk"
-	description="configuration and setup/encrypt virtual machine disk"
+	pageTitle="Azure Disk Encryption (ADE)"
+	description="Azure Disk Encryption (ADE)"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32518038,32518039"
+	supportTopicIds="32518038,32518039,32682688,32682689,32682690,32682691,32682692,32682693,32682694,32682695,32682696,32682697,32682698"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="3b9c5dfb-2a76-453e-a9c7-c2f048634b46"
+	ownershipId="Compute_VirtualMachines_Content"
 />
-# Configuration and Setup/Encrypt virtual machine disk
+# Azure Disk Encryption (ADE)
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the guides listed below.<br>
 
-* Experiencing *ErrorMessage: Azure Disk Encryption extension version '2.2' is not supported*? [Click here for the solution](https://support.microsoft.com/help/4339481)<br>
-* [Understanding prerequisites for Azure Disk Encryption](https://docs.microsoft.com/azure/security/azure-security-disk-encryption?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json#prerequisites)<br>
-* [Applying Azure Disk Encryption in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-apply-disk-encryption)<br>
-* [Understanding Azure Disk Encryption deployment scenarios and user experiences](https://docs.microsoft.com/azure/security/azure-security-disk-encryption?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json#disk-encryption-deployment-scenarios-and-user-experiences)<br>
-* [Explore Azure Disk Encryption with Azure Powershell](http://blogs.msdn.com/b/azuresecurity/archive/2015/11/16/explore-azure-disk-encryption-with-azure-powershell.aspx)<br>
-* [Explore Azure Disk Encryption with Azure Powershell - Part II](http://blogs.msdn.com/b/azuresecurity/archive/2015/11/21/explore-azure-disk-encryption-with-azure-powershell-part-2.aspx)
+## **Recommended Documents**
+
+* [Overview of Azure Disk Encryption for Windows virtual machines](https://docs.microsoft.com/azure/virtual-machines/Windows/disk-encryption-overview)<br>
+* [Azure Disk Encryption scenarios on Windows VMs](https://docs.microsoft.com/azure/virtual-machines/Windows/disk-encryption-windows)<br>
+* [Create and encrypt a Windows VM with Azure CLI](https://docs.microsoft.com/azure/virtual-machines/windows/disk-encryption-cli-quickstart)<br>
+* [Create and encrypt a Windows VM with Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/Windows/disk-encryption-powershell-quickstart)<br>
+* [Create and encrypt a Windows VM with the Azure portal](https://docs.microsoft.com/azure/virtual-machines/Windows/disk-encryption-portal-quickstart)<br>
+* [Creating and configuring a key vault for Azure Disk Encryption](https://docs.microsoft.com/azure/virtual-machines/Windows/disk-encryption-key-vault)<br>
+* [Azure Disk Encryption sample scripts](https://docs.microsoft.com/azure/virtual-machines/Windows/disk-encryption-sample-scripts)<br>
+* [Azure Disk Encryption troubleshooting](https://docs.microsoft.com/azure/virtual-machines/Windows/disk-encryption-troubleshooting)<br>
+* [Azure Disk Encryption frequently asked questions](https://docs.microsoft.com/azure/virtual-machines/Windows/disk-encryption-faq)

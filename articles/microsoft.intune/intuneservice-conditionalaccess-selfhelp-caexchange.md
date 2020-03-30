@@ -10,6 +10,8 @@
 	resourceTags="conditional_access_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="35e527cf-a390-449b-b436-9e2214ecf0cc"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I want Outlook Mobile to be the sole e-mail app in our organization. I would like to block other Exchange Active Sync (EAS) clients. 

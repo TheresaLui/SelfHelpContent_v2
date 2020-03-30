@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="432ebfbb-6e97-43cb-a74f-ffb12749d8ac"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage PCs with Software Agent - Apps

@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="69f6056d-44ed-4f31-9ee7-180f0b544383"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Set device compliance - Create a policy to enable google play protect

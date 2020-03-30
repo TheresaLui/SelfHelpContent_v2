@@ -9,15 +9,17 @@
 	supportTopicIds="32449685"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="51480ada-4f2c-4cf9-b03e-0e94619d9457"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # application/deployment
 
 ## **Recommended steps**
-Errors deploying a service: 
+Errors deploying a service:
 
-1. The majority of deployment failures are caused by exceptions when a service is starting. This could be a missing dependency or exception in the constructor, or an exception in one of the Service Fabric startup methods (RunAsync, OnActivateAsync, CreateServiceReplicaListeners, CreateServiceInstanceListeners). See the ‘Common Failures and Troubleshooting Steps for Application/Service' section for how to troubleshoot.
+1. The majority of deployment failures are caused by exceptions when a service is starting. This could be a missing dependency or exception in the constructor, or an exception in one of the Service Fabric startup methods (RunAsync, OnActivateAsync, CreateServiceReplicaListeners, CreateServiceInstanceListeners). See the 'Common Failures and Troubleshooting Steps for Application/Service' section for how to troubleshoot.
 2. Verify that your instance/replica count does not exceed the size of your cluster.
 
 Common Failures and Troubleshooting Steps for an Application or Service:

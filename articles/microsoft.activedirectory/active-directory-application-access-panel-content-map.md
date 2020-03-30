@@ -5,10 +5,12 @@
   resource="Microsoft_AAD_IAM"
   authors="ajamess"
   selfHelpType="resource"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax, Mooncake"
   resourceTags="enterpriseapps_overview, enterpriseapps_singleapp"
   displayOrder="3507"
- />
+ 	articleId="7ff66c4a-bcf6-4d76-8862-5bd3361b6677"
+	ownershipId="AzureIdentity_User"
+/>
 
 # Problems using the application access panel website or mobile application
 

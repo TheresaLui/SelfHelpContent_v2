@@ -9,7 +9,9 @@
 	supportTopicIds="32518046"
 	resourceTags=""
 	productPesIds="16072"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="00dd67ae-9d40-400e-b1e8-40ef62974daf"
+	ownershipId="Compute_AppService"
 />
 
 # Configuring Function Apps/Configuring API metadata

@@ -9,7 +9,9 @@
 	supportTopicIds="32604394"
 	resourceTags=""
 	productPesIds="16512"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="79216103-930d-4f84-a2f6-80046335a5f3"
+	ownershipId="Compute_AppService"
 />
 
 # ASC/HowTo

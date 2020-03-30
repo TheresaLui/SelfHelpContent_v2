@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="823d4f82-3932-43ba-8498-6a42198edb34"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Apps - Use app protection policies

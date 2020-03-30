@@ -10,6 +10,8 @@
 	resourceTags="9000Or1200Series"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="fffdfbd4-03dc-4d08-beda-26b94fdb39b0"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # I can’t access my shares or volumes.

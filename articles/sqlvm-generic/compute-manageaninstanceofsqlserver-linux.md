@@ -4,17 +4,22 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411820"
 	resourceTags=""
-	productPesIds="15571"
-	cloudEnvironments="public"
+	productPesIds="15571,16470,16454,15797"
+	cloudEnvironments="public, Fairfax"
+	articleId="5ed58ce6-9e16-4899-bdfe-73874c7bbd57"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Management/Manage an instance of SQL Server
 
-## **Recommended documents**
+4 out of 5 customers resolved their SQL Server issue using the guides listed below.<br>
+
+## **Recommended Documents**
 
 * [Overview of SQL Server on Azure Virtual Machines](https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/)<br>
 * [SQL Server on Azure Virtual Machines FAQ](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-server-iaas-faq)<br>

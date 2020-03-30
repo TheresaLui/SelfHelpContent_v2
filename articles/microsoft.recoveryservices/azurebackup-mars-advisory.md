@@ -4,21 +4,23 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="pvrk"
+	ms.author="pvrk"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32553272"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="f6d84ce0-9084-497c-9e2b-31084d714d0a"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Configure Backup for Files &Folders using Azure Backup agent
 
 ## **Recommended Steps**
 
-- [How to configure Backup for Files and Folders using Azure Backup Agent?](https://docs.microsoft.com/azure/backup/backup-configure-vault)<br>
-- [Network and Connectivity Requirements for Files and Folders Backup](https://docs.microsoft.com/azure/backup/backup-configure-vault#network-and-connectivity-requirements)<br>
-- How to restore files to: [**original location**](https://docs.microsoft.com/azure/backup/backup-azure-restore-windows-server#use-instant-restore-to-recover-data-to-the-same-machine) (or) [**alternative location**?](https://docs.microsoft.com/azure/backup/backup-azure-restore-windows-server#use-instant-restore-to-restore-data-to-an-alternate-machine)<br>
-- [How to Monitor and Manage Backup?](https://docs.microsoft.com/azure/backup/backup-azure-manage-windows-server#monitor-backup-jobs-and-alerts)<br>
-- [Frequently asked questions](https://docs.microsoft.com/azure/backup/backup-azure-file-folder-backup-faq#backup)<br>
-- [issue] [Troubleshooting common Microsoft Recovery Services agent issues](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot)
-
+- [How to configure Backup for Files and Folders using Azure Backup Agent?](https://aka.ms/AB-AA4dwtm)<br>
+- [Network and Connectivity Requirements for Files and Folders Backup](https://aka.ms/AB-AA4dp51)<br>
+- How to restore files to: [**original location**](https://aka.ms/AB-AA4dwtj) (or) [**alternative location**?](https://aka.ms/AA4f1qz)<br>
+- [How to Monitor and Manage Backup?](https://aka.ms/AB-AA4dwtn)<br>
+- [Frequently asked questions](https://aka.ms/AB-AA4dp54)<br>
+- [Troubleshooting common Microsoft Recovery Services agent issues](https://aka.ms/AB-AA4dwts)

@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="828477f7-3acc-42d7-9d28-d6a4acc6beed"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # I want to configure my ExpressRoute circuit

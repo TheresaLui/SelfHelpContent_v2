@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public, MoonCake"
+	articleId="4dfd561f-0c8c-4dc8-8d25-cc9e785dbf96"
+	ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # Will my API keys be changed after switching pricing tiers?

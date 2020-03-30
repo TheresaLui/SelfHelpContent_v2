@@ -10,6 +10,8 @@
 	resourceTags="mobileapp"
 	productPesIds="15046"
 	cloudEnvironments="public"
+	articleId="a3c97eec-d97c-4aa2-b00f-3f9a47086707"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # configuration and management/general configuration and management issues

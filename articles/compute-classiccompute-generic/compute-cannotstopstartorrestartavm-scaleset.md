@@ -1,20 +1,23 @@
 <properties
-	pageTitle="management/cannot stop, start, or restart a vm"
-	description="management/cannot stop, start, or restart a vm"
+	pageTitle="management/cannot stop, start, or restart a Scale Set"
+	description="management/cannot stop, start, or restart a Scale Set"
 	service="microsoft.compute"
-	resource="virtualmachines"
+	resource="virtualmachinescalesets"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32449676"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="470fbf27-6619-4809-baed-df9c3a2a0074"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
-# management/cannot stop, start, or restart a vm
+# management/cannot stop, start, or restart a Scale Set
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot deployment issues with restarting or resizing an existing Windows VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/restart-resize-error-troubleshooting)<br>
 * [Issue: Error when starting a stopped VM](https://docs.microsoft.com/azure/virtual-machines/windows/restart-resize-error-troubleshooting#issue-error-when-starting-a-stopped-vm)<br>

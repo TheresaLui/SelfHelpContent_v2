@@ -11,6 +11,8 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="MoonCake"
+	articleId="fd038c4e-e8f5-4af1-ab39-8698ed8af13b"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Linux VM Restore Limitations

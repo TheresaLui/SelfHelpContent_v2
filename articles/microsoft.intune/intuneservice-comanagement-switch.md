@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="a8abf0aa-367f-4064-8770-7e58f0970436"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Comanagement - Prepare

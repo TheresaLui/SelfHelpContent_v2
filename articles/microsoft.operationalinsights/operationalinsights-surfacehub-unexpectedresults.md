@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="b14f7e39-468f-42e0-826e-1163102a82d2"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # surfacehub-unexpectedresults

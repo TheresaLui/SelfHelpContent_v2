@@ -10,6 +10,8 @@
 	resourceTags="conditional_access_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="ca5cfd6c-817c-4bc8-a2ec-caaafe663bf1"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I tried to create a conditional access policy that blocks all mail apps on my organization's Windows computers. Currently, however, only native mail apps are being blocked. 

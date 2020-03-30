@@ -10,6 +10,8 @@
     resourceTags="cdnakamai, cdnverizon"
     productPesIds=""
     cloudEnvironments="Mooncake"
+	articleId="646b381e-2136-4419-94be-aff978325e63"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Unable to access website after configuring CDN

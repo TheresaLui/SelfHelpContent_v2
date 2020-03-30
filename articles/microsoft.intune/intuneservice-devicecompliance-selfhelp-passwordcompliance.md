@@ -10,6 +10,8 @@
 	resourceTags="devicecompliance_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="5b47d6e1-f4f2-4dbe-9296-e804135c33fd"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Users with Windows devices are not being prompted for password compliance.

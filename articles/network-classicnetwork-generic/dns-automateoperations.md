@@ -3,15 +3,19 @@
 	description="automate dns operations"
 	service="microsoft.network"
 	resource="dns"
-	authors="radwiv"
+	authors="rohinkoul"
+    ms.author="rohink"
 	selfHelpType="generic"
 	supportTopicIds="32593306"
 	resourceTags=""
 	productPesIds="15804"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,mooncake,blackforest"
+	articleId="2de3a8cc-2761-4c88-8b4d-3794677ccdba"
+	ownershipId="CloudNet_DNS"
 />
 
 # automate dns operations
 
-## **Recommended documents**
-Create DNS zones and record sets [using .Net SDK](https://docs.microsoft.com/azure/dns/dns-sdk)
+## **Recommended Documents**
+
+* Create DNS zones and record sets [using .Net SDK](https://docs.microsoft.com/azure/dns/dns-sdk)

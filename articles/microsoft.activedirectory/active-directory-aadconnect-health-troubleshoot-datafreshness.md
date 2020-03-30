@@ -3,18 +3,21 @@
 	description="Azure AD Connect Health self help"
 	service="microsoft.aad"
 	resource="Microsoft_Azure_ADHybridHealth"
-	authors="arluca"
+	authors="zhiweiwangmsft"
+	ms.author="zhiweiw"
 	displayOrder="200"
 	selfHelpType="resource"
-	cloudEnvironments="public"
+	supportTopicIds="32629813,32629814"
+	cloudEnvironments="public, Fairfax, Mooncake"
+	articleId="c1c9b1fb-3fbb-461f-9949-23fa9ce31e04"
+	ownershipId="Identity_AuthReach_HybridAuth_ADFS"
 />
-# Troubleshoot Health service data not up to date
+# Troubleshoot Health service data not up to date alert in Azure AD Connect Health
 
-## **Recommended steps**
-1.	Ensure the required endpoints are enabled, and not blocked due to firewall. See [requirements](http://aka.ms/aadchprereqs) section for details. 
-2.	Data upload can fail due to outbound communication being subjected to SSL inspection by the network layer. 
-3.	You can use the [built-in agent connectivity tool](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health-agent-install#test-connectivity-to-azure-ad-connect-health-service).
-4.	Ensure [proxy settings](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health-agent-install##configure-azure-ad-connect-health-agents-to-use-http-proxy) have been properly configured if applicable.
+## **Recommended Steps**
 
-## **Recommended documents**
-* [Common installation questions](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health-faq#installation-questions)
+* [Troubleshoot "Health service data not up to date" alert](https://aka.ms/aadhealth/datafreshness)
+
+## **Recommended Documents**
+
+* [Common installation questions](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-health-faq#installation-questions)

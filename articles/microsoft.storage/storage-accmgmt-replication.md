@@ -4,26 +4,25 @@
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="passaree"
+	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602702"
+	supportTopicIds="32691089"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	articleId="commonSoln_replication"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Which account replication type to use
 
-## **Recommended documents**
-- [Understanding Azure Storage replication](https://azure.microsoft.com/documentation/articles/storage-redundancy)
-- [How to preform disaster recovery](https://docs.microsoft.com/azure/resiliency/resiliency-technical-guidance)
+## **Recommended Documents**
+
+- [Can I change secondary location for my GRS/RA-GRS account?](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#paired-regions)
+- [How to perform disaster recovery](https://docs.microsoft.com/azure/resiliency/resiliency-technical-guidance)
 - [What to do if Azure Storage failover occurs](https://docs.microsoft.com/azure/storage/storage-disaster-recovery-guidance)
 - [API for current status or storage account and its primary and secondary region](https://msdn.microsoft.com/library/azure/ee460802.aspx)
-- [Designing highly available applications using RA-GRS](https://docs.microsoft.com/azure/storage/storage-designing-ha-apps-with-ragrs)
-
-### **Replication options**
-- [Locally redundant storage (LRS)](https://docs.microsoft.com/azure/storage/storage-redundancy#locally-redundant-storage)
-- [Zone-redundant storage (ZRS)](https://docs.microsoft.com/azure/storage/storage-redundancy#zone-redundant-storage)
-- [Geo-redundant storage (GRS)](https://docs.microsoft.com/azure/storage/storage-redundancy#geo-redundant-storage)   
-- [Read-access geo-redundant storage (RA-GRS)](https://docs.microsoft.com/azure/storage/storage-redundancy#read-access-geo-redundant-storage)
+- [Converting to ZRS replication](https://docs.microsoft.com/azure/storage/common/storage-redundancy-zrs?toc=%2fazure%2fstorage%2fblobs%2ftoc.json#converting-to-zrs-replication)
+- [Understanding Azure Storage replication](https://azure.microsoft.com/documentation/articles/storage-redundancy)
 

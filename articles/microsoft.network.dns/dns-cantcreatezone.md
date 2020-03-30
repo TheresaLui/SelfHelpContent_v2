@@ -10,6 +10,8 @@
     productPesIds=""
     resourceTags=""
     cloudEnvironments="public"
+	articleId="1386f342-42ab-49b9-8296-d6a4f30209bf"
+	ownershipId="CloudNet_DNS"
 />
 
 # I can't create a new DNS zone

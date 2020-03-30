@@ -10,7 +10,9 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
- />
+ 	articleId="93a06e1e-9a12-4cc0-a64a-705949a2d48a"
+	ownershipId="AzureML_AzureMachineLearning"
+/>
 
 # How do I enable logging for my web service?
 

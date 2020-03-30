@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	articleId="DeploymentFailure_RCA-skunotavailable"
 	diagnosticScenario="DeploymentFailure"
@@ -12,20 +13,30 @@
 	supportTopicIds="32411844"
 	resourceTags="windows, linux"
 	productPesIds="14749,15571"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of a restriction on the SKU that you are trying to deploy.
-* There are currently not enough cores of the VM Size Family you requested in this region.
+We have detected that the deployment for virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->** initiated at **<!--$StartTime-->StartTime<!--/$StartTime--> (UTC)** failed because of a restriction on the SKU that you are trying to deploy.<br>
 <!--/issueDescription-->
 
-Over the past several months, we have experienced unprecedented growth in Azure demand in several Regions. While we have capacity to support this phenomenal expansion at a global level, sometimes a specific resource/region combination is not consistent across all active Azure Regions. In some Regions, the demand for a specific Azure resource may outstrip capacity, and while we are actively working to build out additional capacity, sometimes we have to make the difficult decision to restrict certain offer types in a few Regions. This temporary measure is to make sure the best possible experience for our customers as we work hard to alleviate a restriction situation. Also, if you have more subscriptions to whitelist, please share the subscription details and planned SKU size and numbers of VM’s / cores to deploy in the requested region.<br>
+These restrictions are put in place due to numerous business and technical constraints, some of which include capacity limitations. We apologize for any inconvenience this may have caused you. We are continuously working on expanding coverage for as many sizes in as many locations as possible.<br> 
 
-For additional information, please read the following documents:<br>
+## **Recommended Steps** 
 
-* Learn more about [resolving SKU Not Available errors](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors).<br>
-* Additional information on resolving [not having access to a region or a VM SKU](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable).<br>
+1. **Consider Alternate Sizes or Locations**
 
-We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to ensure less frequent deployment failures specific to this issue.<br>
+	To see the list of sizes that are available for deployment for subscription **<!--$SubscriptionID-->SubscriptionID<!--/$SubscriptionID-->** , you can use the Azure CLI command [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) to check for the VM sizes available in a region, and any deployment restrictions on the VM size. 
+
+2. **Request Exemption**
+
+	If the size you desire is not listed, or is marked **NotAvailableForSubscription**, please follow the steps in [Troubleshooting region or SKU subscription issues](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable) to submit a streamlined request for accessing the SKU size. This action will assist in getting a faster turnaround time.<br>
+
+## **Recommended Documents**
+
+To determine sizes available for your subscription using <br>
+* PowerShell: see [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command
+* Azure CLI: see [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command
+* REST API: see [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation

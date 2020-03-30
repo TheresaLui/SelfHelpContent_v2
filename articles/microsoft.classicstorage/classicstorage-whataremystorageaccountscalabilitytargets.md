@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="8803cbe5-c5c0-4ef7-8ade-df2e086429fd"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # What are my Storage account scalability targets?

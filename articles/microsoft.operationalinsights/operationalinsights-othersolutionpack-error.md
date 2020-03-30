@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="cc78a040-b329-4e62-9b9e-60f3706e54f0"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # othersolutionpack-error

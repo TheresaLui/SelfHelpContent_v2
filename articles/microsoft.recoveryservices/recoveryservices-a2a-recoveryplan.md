@@ -9,7 +9,9 @@
 	supportTopicIds="32574721"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="f42f8f5a-2db4-4246-aca1-503ab525fb67"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Azure to Azure - working on Recovery plans

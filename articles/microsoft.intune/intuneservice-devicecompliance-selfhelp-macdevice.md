@@ -10,6 +10,8 @@
 	resourceTags="devicecompliance_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="a6a71190-794b-4db1-ad94-462ac994068c"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I don't see my Mac device under Intune in the Azure portal. It is, however, showing under Azure Active Directory.

@@ -9,7 +9,9 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake"
+	articleId="c8217076-9f5e-465a-bedd-9c78f79bdf79"
+	ownershipId="AzureIdentity_User"
 />
 
 # How to migrate Azure AD Connect from LocalDB to full SQL

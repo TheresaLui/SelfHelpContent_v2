@@ -9,7 +9,9 @@
 	supportTopicIds="32539957"
 	resourceTags=""
 	productPesIds="15480"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="80e6049c-9b7b-4bf8-88fb-6ddb8ad7119c"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # connectivity/partner-related issues

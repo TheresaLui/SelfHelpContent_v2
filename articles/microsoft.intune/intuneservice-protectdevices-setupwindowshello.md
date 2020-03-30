@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="575fb375-1095-4a45-afc3-bcd26eb717f4"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Protect Devices - Setup Windows Hello

@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="16122"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="134b048d-32b5-42cc-a5c1-8d3f459f5978"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Error message is not provided, or it isn't useful or actionable

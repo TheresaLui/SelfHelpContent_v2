@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="16122"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	articleId="ec203978-eb8c-406b-b70f-32c5996c06f3"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Other issues

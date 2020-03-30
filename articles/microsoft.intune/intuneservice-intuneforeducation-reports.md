@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="97235620-8c0a-4375-911f-26e95b208bc5"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Intune for Education - Reports

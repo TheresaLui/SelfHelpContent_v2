@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="e81a4ad9-1415-43fe-aeaa-d957fb5c05bd"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # syslog-howtosetup

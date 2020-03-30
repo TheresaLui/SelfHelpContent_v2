@@ -9,7 +9,9 @@
 	supportTopicIds="32542209"
 	resourceTags=""
 	productPesIds="16333"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="41dbe907-8238-4f08-901e-8962fd61cac1"
+	ownershipId="Compute_AppService"
 />
 
 # Configuration and management/creating or deleting web app

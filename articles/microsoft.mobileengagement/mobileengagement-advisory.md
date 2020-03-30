@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15658"
 	cloudEnvironments="public"
+	articleId="d005d217-807c-4500-a360-a9df1e58ed4b"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # advisory

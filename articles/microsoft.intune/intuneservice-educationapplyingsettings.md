@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="38ac347d-c071-4ff5-9d1d-4a4d9b550e87"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Applying Settings

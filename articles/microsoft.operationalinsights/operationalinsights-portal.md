@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="0d797cce-87fb-4afa-b125-6f413703c1ae"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # portal

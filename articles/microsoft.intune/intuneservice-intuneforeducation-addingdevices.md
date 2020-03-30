@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="45098686-789d-4468-a7c5-e55c10f25d5e"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Intune for Education - Adding devices

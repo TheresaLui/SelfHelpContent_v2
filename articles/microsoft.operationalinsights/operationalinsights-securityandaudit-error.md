@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="184b0d82-e623-4ff2-a167-f94e18287979"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # securityandaudit-error

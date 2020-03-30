@@ -10,6 +10,8 @@
 	resourceTags="mobileapp"
 	productPesIds="15046"
 	cloudEnvironments="public"
+	articleId="bd203055-9c0b-4934-85f2-64120ea8624b"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # deployment

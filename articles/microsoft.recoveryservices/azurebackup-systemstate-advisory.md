@@ -1,25 +1,34 @@
 <properties
                 pageTitle="All System State backup self-help topics"
-                description="All System State backup self-help  topics"
+                description="All System State backup self-help topics"
                 service="microsoft.recoveryservices"
                 resource="vaults"
                 authors="srinathv"
+		ms.author="srinathv"
                 displayOrder=""
                 selfHelpType="generic"
-                supportTopicIds="32594865,32594866,32594867,32594868,32594869,32594870"
+                supportTopicIds="32594866,32594867,32594868,32632799,32594870,32632800"
                 resourceTags=""
                 productPesIds="15207"
                 cloudEnvironments="public"
+		articleId="b3cd41e0-d85f-44e5-bb0e-ad3a8e348b5a"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # ALL self-help topics System State backup
 
-## **Recommended Steps**
+## **Recommended Documents**
 
-- [How to backup Windows System State using azure backup?](https://docs.microsoft.com/azure/backup/backup-azure-system-state)<br>
-- [How to Recover System State files to the same server?](https://docs.microsoft.com/azure/backup/backup-azure-restore-system-state#recover-system-state-files-to-the-same-server)<br>
-- [How to Recover System State files to the alternate server?](https://docs.microsoft.com/azure/backup/backup-azure-restore-system-state#recover-system-state-files-to-an-alternate-server)<br>
-- [How to Apply restored System State on a Windows Server?](https://docs.microsoft.com/azure/backup/backup-azure-restore-system-state#apply-restored-system-state-on-a-windows-server)<br>
-- [Troubleshoot failed System State restore](https://docs.microsoft.com/azure/backup/backup-azure-restore-system-state#troubleshoot-failed-system-state-restore)<br>
-- [Limitations] Recovering to different hardware using System State recovery is not recommended by Microsoft<br>
-- [Limitations] System State backup currently supports "on premise" Windows servers, this functionality is not available for Azure VMs.<br>
+How to:
+
+- [Backup Windows System State using Azure Backup](https://aka.ms/AB-AA4dp49)<br>
+- [Recover System State files to the same server](https://aka.ms/AB-AA4dp4e)<br>
+- [Recover System State files to the alternate server](https://aka.ms/AB-AA4dp4d)<br>
+- [Apply restored System State on a Windows Server](https://aka.ms/AB-AA4dwsn)<br>
+- [Troubleshoot failed System State Backup](https://aka.ms/AB-SystemState-Tshooting)<br>
+- [Troubleshoot failed System State Restore](https://aka.ms/AB-AA4dwsp)<br>
+
+**Limitations** 
+
+- Recovering to different hardware using System State recovery is not recommended by Microsoft
+- System State backup currently supports "on premise" Windows servers, this functionality is not available for Azure VMs

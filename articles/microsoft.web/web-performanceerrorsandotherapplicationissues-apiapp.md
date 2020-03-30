@@ -10,6 +10,8 @@
 	resourceTags="apiapp"
 	productPesIds="15792"
 	cloudEnvironments="public"
+	articleId="77d1b103-0d00-4624-baf7-2753d9086470"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # performance, errors, and other application issues

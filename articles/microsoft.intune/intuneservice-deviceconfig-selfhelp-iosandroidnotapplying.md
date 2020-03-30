@@ -10,6 +10,8 @@
 	resourceTags="deviceconfiguration_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="17d80536-8b87-44ec-bfd6-70039496a787"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I'm deploying an iOS or Android policy and it's not applying to the device.

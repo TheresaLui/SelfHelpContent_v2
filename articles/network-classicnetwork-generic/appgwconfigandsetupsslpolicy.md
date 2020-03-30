@@ -1,19 +1,26 @@
 <properties
-	pageTitle="configurationandsetup/configsslpolicy"
-	description="configurationandsetup/configsslpolicy"
+	pageTitle="Configure SSL Policy"
+	description="Configure SSL Policy"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="radwiv"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32582829"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	articleId="4a3afd62-8759-42e3-a5c4-e78ab323f861"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
-# configurationandsetup/configsslpolicy
+# Configure SSL Policy
 
-## **Recommended documents**
-[Configure SSL policy and end to end SSL](https://docs.microsoft.com/azure/application-gateway/application-gateway-end-to-end-ssl-powershell) using PowerShell<br>
-[End to end SSL and SSL policy](https://docs.microsoft.com/azure/application-gateway/application-gateway-backend-ssl) on application gateway
+You can select from a list of predefined policies that contain different configurations of SSL policy versions and enabled cipher suites. You also have the ability to define a custom SSL policy based on your requirements.<br />
+**Note:** The SSL Policy configured will be applicable to both the frontend (Client to Application Gateway) and backend (Application Gateway to Backend Server) traffic.
+
+## **Recommended Documents**
+
+* [Configure predefined and custom SSL policy](https://docs.microsoft.com/azure/application-gateway/application-gateway-configure-ssl-policy-powershell) using PowerShell
+* [SSL policy overview](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-policy-overview) on Application Gateway

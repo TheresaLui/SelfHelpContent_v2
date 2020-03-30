@@ -1,0 +1,21 @@
+  <properties
+	pageTitle="troubleshooting analyze in excel"
+	description="troubleshooting analyze in excel"
+	service="microsoft.PowerBIDedicated"
+	resource="capacities"
+	authors="pjfreitas"
+	ms.author="pfreitas"	
+	displayOrder="930"
+	selfHelpType="generic"
+	supportTopicIds="32628162"
+	productPesIds="16334"
+	cloudEnvironments="public, MoonCake, fairfax" 
+	articleId="05ac3f7d-e664-e1e4-856a-bab150344d7f"
+	ownershipId="ASEP_ContentService_Placeholder"
+/>
+
+# Troubleshooting Analyze in Excel
+
+## **Recommended Documents**
+
+* [Troubleshooting Analyze in Excel](https://docs.microsoft.com/power-bi/desktop-troubleshooting-analyze-in-excel)

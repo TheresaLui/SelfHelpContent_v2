@@ -1,15 +1,18 @@
 <properties
-	pageTitle="configuration and setup/create a windows failover cluster"
-	description="configuration and setup/create a windows failover cluster"
+	pageTitle="configuration and setup/Create a Windows failover cluster"
+	description="configuration and setup/Create a Windows failover cluster"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32411853"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="38f2b5f4-8544-4938-a494-7649e9af5183"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Configuration and Setup/Create a Windows failover cluster

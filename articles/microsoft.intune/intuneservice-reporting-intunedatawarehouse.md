@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="3f4ee4da-f65d-4477-ad04-52d3090f5f0f"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Reporting - Intune Reporting

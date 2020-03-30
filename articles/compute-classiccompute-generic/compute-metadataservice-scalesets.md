@@ -2,19 +2,22 @@
 	pageTitle="Management/Instance Metadata Service"
 	description="Management/Instance Metadata Service"
 	service="microsoft.compute"
-	resource="virtualmachines"
+	resource="virtualmachinescalesets"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32583111"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="58c8054d-0e99-4b68-925f-9fbb41c08cce"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # Management/Instance Metadata Service
 
-## **Recommended documents**
+## **Recommended Documents**
 
 **Windows**:
 
@@ -33,4 +36,3 @@
 * [Announcing General Availability of Instance Metadata Service](https://azure.microsoft.com/blog/announcing-general-availability-of-azure-instance-metadata-service/)<br>
 * [Overview of Azure Instance Metadata Service (video)](https://azure.microsoft.com/resources/videos/azure-friday-azure-instance-metadata-service-jayaraman/)<br>
 * [Leverage Azure instance metadata for instance bootstrap and runtime (Build 2017 session)](https://channel9.msdn.com/events/Build/2017/P4029)
-

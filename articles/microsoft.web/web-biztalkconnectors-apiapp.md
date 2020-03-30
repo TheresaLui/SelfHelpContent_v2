@@ -10,6 +10,8 @@
 	resourceTags="apiapp"
 	productPesIds="15792"
 	cloudEnvironments="public"
+	articleId="51e17a55-8ae7-4f13-b29e-920ec181dcfc"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # configuration and management/biztalk connectors

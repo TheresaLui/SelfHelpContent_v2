@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="1d4503a1-bfe5-4cb2-9701-308d0780aad2"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Apps - Monitor Apps

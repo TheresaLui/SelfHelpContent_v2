@@ -10,6 +10,8 @@
 	resourceTags="deviceconfiguration_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="5233e26e-53b6-4200-8cec-d7e6f744e423"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # The Intune Management Extension is not installing or downloading.

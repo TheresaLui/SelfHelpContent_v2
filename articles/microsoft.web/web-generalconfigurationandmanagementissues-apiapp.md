@@ -10,6 +10,8 @@
 	resourceTags="apiapp"
 	productPesIds="15792"
 	cloudEnvironments="public"
+	articleId="45c393dd-e5fb-445a-892c-b38c89e2c7e6"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # configuration and management/general configuration and management issues.

@@ -10,6 +10,8 @@
 	resourceTags="8000Series"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="6d1b77fe-51a0-4e8c-a01c-6362c46bac2c"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # I am getting heart beat alert emails

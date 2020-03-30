@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="0ee1ec25-104d-4a5c-b2d2-63d845f442da"
+	ownershipId="Compute_SiteRecovery"
 />
 # Deleting a vault that stores all backup data
 There are two types of vaults- Recovery Services vault for Resources Manager deployments and Backup vault for Classic deployment.

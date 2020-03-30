@@ -10,6 +10,8 @@
     productPesIds=""
     resourceTags=""​
     cloudEnvironments="public"
+	articleId="9b399a45-3013-4f64-b583-eeae56c6da88"
+	ownershipId="CloudNet_DNS"
 />
 
 # I can't create a DNS record

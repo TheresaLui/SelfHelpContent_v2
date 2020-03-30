@@ -3,33 +3,39 @@
 	description="Azure Backup server backup/register or back up a windows virtual machine"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="v-bllydi"
+	authors="srinathv"
+	ms.author="srinathv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32570754"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="fc250f09-10b7-4d3f-99f6-bf94546cd433"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Troubleshooting Azure Backup Server Configuration/Registration issues
 
-## **Recommended steps**
+## **Recommended Steps**
+
 - Ensure the server on which you are trying to install Azure Backup Server is not already registered with another vault <br> 
-- [Push install failed? try manual install](https://aka.ms/marsmanualinstall)<br>
-- If Push install fails, check if DPM agent is already present. If yes, then uninstall the agent and retry the installation<br>
-- [Setup could not update registry metadata](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#installation-issues)<br>
-- [The agent operation failed because of a communication error with the DPM agent...](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#the-agent-operation-failed-because-of-a-communication-error-with-the-dpm-agent-coordinator-service-on-the-server)<br>
-- [The Microsoft Azure Recovery Service Agent was unable to connect to Microsoft Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#the-microsoft-azure-recovery-service-agent-was-unable-to-connect-to-microsoft-azure-backup)<br>
-- [Invalid vault credentials provided](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#invalid-vault-credentials-provided)<br>
-- [The encryption passphrase stored for this computer is not correctly configured](https://docs.microsoft.com/azure/backup/backup-azure-mabs-troubleshoot#change-passphrase)<br>
+- [Push install failed? Try manual install](https://aka.ms/marsmanualinstall)<br>
+- If Push install fails, check if DPM agent is already present. If yes, then uninstall the agent and retry the installation.<br>
+- [Setup could not update registry metadata](https://aka.ms/AA4eu3h)<br>
+- [The agent operation failed because of a communication error with the DPM agent](https://aka.ms/AA4foh2)<br>
+- [The Microsoft Azure Recovery Service Agent was unable to connect to Microsoft Azure Backup](https://aka.ms/AB-A4dp50)<br>
+- [Invalid vault credentials provided](https://aka.ms/AB-AA4dwts)<br>
+- [The encryption passphrase stored for this computer is not correctly configured](https://aka.ms/AA4f94t)<br>
 
 
-## **Recommended documents**
+## **Recommended Documents**
 
-For information on pre-requisites, limitations and frequently asked questions, see:<br>
-- [Step by step guide to setup Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-microsoft-azure-backup)<br>
-- [Support matrix for Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-mabs-protection-matrix)<br>
-- [Pricing details](https://azure.microsoft.com/pricing/details/backup/)<br>
-- [What workloads, I can protect with Azure Backup Server?](https://docs.microsoft.com/azure/backup/backup-azure-backup-server-vmware)<br>
-- [How to Upgrade Backup Server to v2](https://docs.microsoft.com/azure/backup/backup-mabs-upgrade-to-v2#upgrade-backup-server-to-v2)<br>
+For information on prerequisites, limitations and frequently asked questions, see:<br>
+
+- [Step by step guide to setup Azure Backup Server](https://aka.ms/AA4f1pa)<br>
+- [Support matrix for Microsoft Azure Backup Server](https://aka.ms/AA4f1pc)<br>
+- [Pricing details](https://aka.ms/AA4f1pi)<br>
+- [What workloads does Azure Backup Server protect?](https://aka.ms/AA4f1pl)<br>
+- [How to Upgrade Backup Server to V3](https://aka.ms/AA4f1pn)<br>
+- [What's new in Microsoft Azure Backup Server](https://aka.ms/AA4f1pt)<br>

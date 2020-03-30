@@ -1,26 +1,29 @@
 <properties
-	pageTitle="No connectivity to backend pool"
-	description="No connectivity to backend pool"
+	pageTitle="Azure Load Balancer backend pool connection issues"
+	description="Azure Load Balancer backend pool connection issues"
 	service="microsoft.network"
 	resource="loadbalancers"
-	authors="radwiv"
+	authors="anavinahar"
+	ms.author="anavin"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds="16098"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	articleId="8deb7553-0965-45d3-a66d-895655a50a6b"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
-# No connectivity to backend pool
-## **Recommended documents**
-Load balanced endpoints may not respond if the configure VMs for load balancing are detected as down.<br>
+# Azure Load Balancer backend pool connection issues
 
-For Load Balancer Standard, an extensive set of metrics is available to check the health and status of Load Balancer resource. Please check the [Load Balancer metrics and Diagnostics](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics) to learn about the common troubleshooting guidance.<br>
+## **Recommended Steps**
 
-For Load Balancer Basic, it is recommended that customers [enable load balancer logs](https://docs.microsoft.com/azure/load-balancer/load-balancer-monitor-log) to help determine the root cause.<br>
+* Load Balanced endpoints may not respond if all the VMs in the backend pool are detected as unhealthy via health probes. Learn about [Azure Load Balancer Health probes](https://docs.microsoft.com/azure/load-balancer/load-balancer-custom-probe-overview)
+* Standard Load Balancer has an extensive set of metrics is available to check the health and status of Load Balancer resource. Please check the [Load Balancer metrics and Diagnostics](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-diagnostics) to learn about the common troubleshooting guidance.<br>
+* Basic Load Balancer has [Azure Monitor logs](https://docs.microsoft.com/azure/load-balancer/load-balancer-monitor-log) to help determine the root cause
+* You can follow [troubleshooting steps](https://docs.microsoft.com/azure/load-balancer/load-balancer-troubleshoot) to ensure that:<br>
 
-You can follow [troubleshooting steps](https://docs.microsoft.com/azure/load-balancer/load-balancer-troubleshoot) to ensure that:<br>
-- No network security group is blocking connectivity to the load balanced service from the expected clients and Azure load balancer probe IP 168.63.129.16.<br>
-- No OS level firewall or security software is blocking connectivity to the service from the expected clients and Azure load balancer probe IP 168.63.129.16.<br>
-- The service is running and listening on the port configured for the endpoint and the load balancer monitoring probe.
+	- No network security group is blocking connectivity to the load balanced service from the expected clients and Azure load balancer probe IP 168.63.129.16
+	- No OS level firewall or security software is blocking connectivity to the service from the expected clients and Azure load balancer probe IP 168.63.129.16
+	- The service is running and listening on the port configured for the endpoint and the load balancer monitoring probe

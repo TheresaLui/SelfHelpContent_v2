@@ -5,22 +5,27 @@ infoBubbleText="The Update Management solution did not deploy successfully. See 
 service="microsoft.automation"
 resource="automationaccounts"
 authors="georgewallace"
+ms.author="gwallace"
 displayOrder=""
 articleId="Update_0875B566-AF30-4581-830F-B49426C05164"
 diagnosticScenario="AAUpdateSolutionFailedInsights"
 selfHelpType="diagnostics"
 supportTopicIds="32599861,32599878,32599924,32599864,32599866,32599868,32599870,32599903,32599925,32599936,32599937"
 productPesIds="15607"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_Automation"
 />
+
 # Update management solution failed to deploy correctly
 
+<!--/issueDescription-->
 We have detected that update management solution didn't properly deploy on the following machines:
 
 <!--$computerList-->[computerList]<!--/$computerList-->
 
 Because the machines don't have the update management solution deployed, they are unable to perform scans or patching.
+<!--/issueDescription-->
 
-## Recommended action
+## **Recommended Steps**
 
-To correct this issue, please re-install the Hybrid Runbook worker and onboard the VM again. You can find the instructions on how to install a Hybrid Runbook Worker at - [Install a Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker#install-a-hybrid-runbook-worker)".
+* [Re-install the Hybrid Runbook worker[(https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker#install-a-hybrid-runbook-worker)] and onboard the VM again

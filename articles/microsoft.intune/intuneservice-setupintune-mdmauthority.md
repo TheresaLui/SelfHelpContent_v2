@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="4ccbbf7d-37cd-44c8-9fdc-ed8684a09c14"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Setup Intune - MDM Authority

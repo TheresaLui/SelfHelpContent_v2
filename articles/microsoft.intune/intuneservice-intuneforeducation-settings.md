@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="51233b58-a6ae-43ef-a5ec-aafdeb9a1bcd"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Intune for Education - Settings

@@ -10,6 +10,8 @@
                 resourceTags=""
                 productPesIds="15207"
                 cloudEnvironments="public"
+	articleId="e452d8a7-6c3b-4eb2-a351-f01319c819ee"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 

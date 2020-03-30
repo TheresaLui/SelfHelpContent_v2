@@ -9,7 +9,9 @@
 	supportTopicIds="32570971"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
+	articleId="468dc227-750a-4d4e-838f-12ea4bb0beb5"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # I have configured federation with Azure AD using AD FS but sign-in is failing

@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="c9411f48-70a3-4aea-b2d0-36ac35dc7a1d"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Devices - Reset Passcode

@@ -10,6 +10,8 @@
 	resourceTags="device_enrollment_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="7e7260dc-d72b-4503-8af4-6eb62268e97f"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Users cannot enroll their Apple DEP devices when multi-factor authentication is enabled.

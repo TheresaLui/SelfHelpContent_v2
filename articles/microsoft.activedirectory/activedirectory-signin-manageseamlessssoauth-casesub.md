@@ -9,8 +9,10 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax, Mooncake"
+ 	articleId="0587579d-308f-47b9-9eda-69cfa6163044"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
+/>
 
 # Managing Seamless SSO authentication (post-enablement)
 

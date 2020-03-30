@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="89e26de6-4f68-4f40-87bb-46f776bed99f"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # connectivity

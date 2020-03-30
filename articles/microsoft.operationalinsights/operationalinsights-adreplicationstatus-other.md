@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="8ac4ac0b-8e60-4059-8b06-128eeea76758"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # adreplicationstatus-other

@@ -9,7 +9,9 @@
 	supportTopicIds="32518049"
 	resourceTags=""
 	productPesIds="16072"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="fb31f05e-a881-4135-b57f-f495861c4edf"
+	ownershipId="Compute_AppService"
 />
 
 # Configuring Function Apps/Configuring Cross-Origin Resource Sharing (CORS)

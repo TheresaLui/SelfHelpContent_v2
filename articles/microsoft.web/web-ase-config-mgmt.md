@@ -9,7 +9,9 @@
 	supportTopicIds="32581607"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="43bb79f9-87c7-4619-bc91-5bfc78b0efba"
+	ownershipId="Compute_AppService"
 />
 
 # Problems with ASE/ASE configuration and management

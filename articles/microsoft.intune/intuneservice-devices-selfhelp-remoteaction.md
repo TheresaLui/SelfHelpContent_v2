@@ -10,6 +10,8 @@
 	resourceTags="devices_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="1133464b-5b3f-4f8f-a9e9-4900e891599b"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I issued a remote action to remove company data from a device, and now it's stuck in a pending state. 

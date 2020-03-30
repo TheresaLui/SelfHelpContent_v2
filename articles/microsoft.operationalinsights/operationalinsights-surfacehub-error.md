@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="47e75ac9-9359-4206-9b25-1554f151daac"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # surfacehub-error

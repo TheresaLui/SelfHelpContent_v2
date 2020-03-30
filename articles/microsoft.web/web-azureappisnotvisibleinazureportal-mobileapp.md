@@ -10,6 +10,8 @@
 	resourceTags="mobileapp"
 	productPesIds="15046"
 	cloudEnvironments="public, MoonCake"
+	articleId="0809a9af-ac19-460e-af80-38aefbbc4d97"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # configuration and management/azure app is not visible in azure portal

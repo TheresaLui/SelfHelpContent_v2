@@ -9,8 +9,10 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax, Mooncake"
+ 	articleId="da68b643-8d73-4f75-b339-67ed9ab326b2"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
+/>
 
 # Issues with Pass-through login
 

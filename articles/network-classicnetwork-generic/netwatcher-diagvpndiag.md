@@ -9,7 +9,9 @@
 	supportTopicIds="32606445"
 	resourceTags=""
 	productPesIds="16160"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="9978a073-6924-4e0b-9ee3-a0862cbc3131"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # diagnostictools/vpndiagnostics

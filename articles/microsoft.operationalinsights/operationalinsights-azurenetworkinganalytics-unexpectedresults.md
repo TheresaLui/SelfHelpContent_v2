@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="d7897e1c-218e-4340-aed5-83d7bd9c341d"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # azurenetworkinganalytics-unexpectedresults

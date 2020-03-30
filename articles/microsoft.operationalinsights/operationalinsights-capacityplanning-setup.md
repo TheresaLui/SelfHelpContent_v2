@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="45ecfc55-ef3a-46ec-a5a2-fa0070e7f41f"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # capacityplanning-setup

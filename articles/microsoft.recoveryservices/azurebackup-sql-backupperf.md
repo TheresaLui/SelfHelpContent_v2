@@ -3,18 +3,24 @@
                 description="Azure Backup SQL Backup performance"
                 service="microsoft.recoveryservices"
                 resource="vaults"
-                authors="srinathvasireddy"
+                authors="srinathv"
+		ms.author="srinathv"
                 displayOrder=""
                 selfHelpType="generic"
                 supportTopicIds="32605792"
                 resourceTags=""
                 productPesIds="15207"
                 cloudEnvironments="public"
+	articleId="fdae411c-7719-4070-9afb-725bfcecf1d3"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Azure Backup SQL Backup performance
+
 ## **Recommended Steps**
-- [Can I throttle the speed of the SQL Server backup policy?](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#can-i-throttle-the-speed-of-the-sql-server-backup-policy) </br>
+
+- [Can I control as to how many concurrent backups run on the SQL server?](https://aka.ms/AB-AA4dp5n) </br>
 
 ## **Recommended Documents**
-- [FAQs](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#faq)</br>
-- [Troubleshooting issues related to back up SQL Server to Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)</br>
+
+- [FAQs](https://aka.ms/AB-AA4dwuc)</br>
+- [Troubleshooting issues related to back up SQL Server to Azure](https://aka.ms/AB-AA4dwud)</br>

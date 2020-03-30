@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="d2625fd3-4b1a-4da5-9156-c1de16cd082d"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # computergroups

@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="7de19b7e-46f7-4aa9-b950-3550de98127b"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # upgradeanalytics-error

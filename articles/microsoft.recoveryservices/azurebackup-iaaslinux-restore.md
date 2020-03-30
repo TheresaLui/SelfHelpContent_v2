@@ -3,30 +3,57 @@
 	description="Limitations when restoring an Azure VM from backup"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="trinadhk"
+	authors="srinathv"
+	ms.author="srinathv"
 	displayOrder="9"
 	selfHelpType="resource"
 	supportTopicIds="32553297"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="9344f1ee-97c8-459c-8a55-58c514b4d2ef"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Linux VM Restore Limitations
 
 ## **Recommended Steps**
-**Limitations**<br>
-* **Replacing an existing virtual machine during restore is not supported**. Please create a new virtual machine from backup or restore disks from backup and use disks and configuration to create a new VM. Using [Portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms), Using [PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-an-azure-vm), from [restored disk](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks) <br>
-* If you are facing issues restoring a virtual machine, please try *Restore Disk* functionality: <br>
-  * **Step 1** - [*Restore Disks*](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#choose-a-vm-restore-configuration) functionality. <br>
-  * **Step 2** - Use the disk that was restored to [*create a virtual machine*](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks).<br>
-* **Cross region and cross-subscription restore is not supported** i.e. if your VM which got backed up is in West Europe, you can only restore to West Europe in same subscription.<br>
-* If you are **unable to restore**, verify that you don’t have any group policy restriction in place from portal.<br>
-* If you are **unable to see backup items** from the portal then ensure you have [required permission](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault) to access backup vault. <br>
-* [File/Folder restore limitation with special configuration - **Dynamic Disks, LVM/RAID Arrays**](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#special-configurations) <br>
-* [Ensure you have appropriate Role Based Access controls in place](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault) <br>
-* We recommend using SSH based authentication for Linux VMs. If You are using Password based authentication on the VM which got backed up, you need to [reset password](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-classic-reset-access/) post restre using VM Access extension. <br>
-* To Restore a VM into a specific availability set, restore disks and configuration, and create a VM use PowerShell cmdlets. [Learn More](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#restore-an-azure-vm) <br>
-* In case of Azure Datacenter Disaster, Azure Backup [restores VM in paired data center](https://docs.microsoft.com/azure/backup/backup-azure-restore-vms#restoring-a-vm-during-azure-datacenter-disaster) <br>
-* Restore disks will restore all disks(OS and data disks attached to the VM). Individual disk restore is not possible using this option. <br>
-* [Azure virtual machine restore troubleshooting guide](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot/)<br>
+
+**Known Limitations**
+
+- Restoring backed-up VMs across Zone/Region/subscription or V-Net is not supported. For more information, see [supported scenarios](https://aka.ms/VMBackup-Support-VMManagement) for VM management.
+- Files/Folders restore limitation on having special configuration [**Dynamic Disks or LVM/RAID Arrays**](https://aka.ms/AB-AA4ecqw)
+- Restore disks will restore all disks (OS and data disks attached to the VM). Individual disk restore is not available using this option.
+- Replacing an existing virtual machine during restore is not supported. You can use one of the following restore options:
+
+	- [Replace disks of existing backed-up VM](https://aka.ms/VMRestore-ReplaceExisting-disks)<br>
+	- [Restore disks](https://aka.ms/VMrestore-restore-disk) and create a new VM using [Templates](https://aka.ms/templates-to-customize-a-restored-vm) or [PowerShell](https://aka.ms/AB-AA4e56j)
+	- [Restore as a new VM](https://aka.ms/AzureBackup-Restore-NewVM)
+	
+**Frequently Asked Questions**
+
+- [Restore specific files or folders from Azure Virtual Machine backup](https://aka.ms/AB-AA4e56a)<br>
+- Restore to latest or specific recovery point using [Portal](https://aka.ms/AB-AA4ecqx) or [PowerShell](https://aka.ms/AB-AA4e56o)
+- [Configure static IP address to restored VM](https://aka.ms/AB-AA4e56r)<br>
+- [Restore an Encrypted VM](https://aka.ms/AB-AA4e56t)<br>
+- [Restore when KEK (Key Encryption Key) and BEK (BitLocker Encryption Key) does not exist in the key vault](https://aka.ms/AB-AA4ecqr)<br>
+- [Restore a Domain Controller VM](https://aka.ms/AB-AA4e56v)<br>
+- [Restore VM with special configurations](https://aka.ms/AB-AA4e56v)<br>
+- Attach an existing NIC to the restored VM:
+	
+	- Step 1: [Remove from original VM](https://aka.ms/AB-AA4ecr0)<br>
+	- Step 2: [Attach to restored VM](https://aka.ms/AB-AA4e56s)<br>
+
+- If you are unable to restore, verify that you don’t have any group policy restriction from portal
+- We recommend using SSH based authentication for Linux VMs. If you are using password based authentication on the backed up VM, you need to [reset password](https://aka.ms/AB-AA4e56u) post restore using VM Access extension <br>
+- If you are unable to see **Backup Items** from the portal, ensure you have [required permission](https://aka.ms/AB-AA4ecqc) to access backup vault
+- If you are facing issues restoring a VM, try [Restore disks](https://aka.ms/VMrestore-restore-disk) and create a new VM using [Templates](https://aka.ms/templates-to-customize-a-restored-vm) or [PowerShell](https://aka.ms/AB-AA4e56j)<br>
+- To perform a restore ensure you have appropriate [Role Based Access Controls in place](https://aka.ms/AB-AA4ecqc) <br>
+- To restore a VM into a specific availability set, [Restore disks](https://aka.ms/VMrestore-restore-disk) and create a VM in availability sets using PowerShell cmdlets <br>
+- In case of Azure datacenter disaster, Azure Backup [restores VM in paired datacenter](https://aka.ms/AB-AA4e56v)<br>
+
+## **Recommended Documents**
+
+- [Azure Virtual Machine restore troubleshooting guide](https://aka.ms/AB-AA4ecqi)<br>
+- [Restore Azure Virtual Machine using portal](https://aka.ms/AB-AA4e565)<br>
+- [Restore Azure Virtual Machine using PowerShell](https://aka.ms/AB-AA4e56z)<br>

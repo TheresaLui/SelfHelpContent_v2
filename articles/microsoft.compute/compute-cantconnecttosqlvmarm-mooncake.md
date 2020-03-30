@@ -10,6 +10,8 @@
 	resourceTags="WindowsSQL"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="71097823-abfe-4524-ab53-37fb6762a956"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # I can't connect to SQL Server in my VM

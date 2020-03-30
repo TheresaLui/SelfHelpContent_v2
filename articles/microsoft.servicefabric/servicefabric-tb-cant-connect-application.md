@@ -10,6 +10,8 @@
 	resourceTags="servicefabric"
 	productPesIds=""
 	cloudEnvironments="public,BlackForest,Fairfax"	 
+	articleId="4fe681ed-9d5e-4450-a664-36f2dbcb542d"
+	ownershipId="Compute_ServiceFabric"
 />
  
 # Connection failures to applications deployed in a cluster 

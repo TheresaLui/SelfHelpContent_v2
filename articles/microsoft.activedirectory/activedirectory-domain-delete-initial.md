@@ -3,14 +3,17 @@
     description="Azure Active Directory domains troublehooter"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="ElizavetaKuzmenko"
+    authors="curtand"
+	ms.author="curtand"
     displayOrder="4293"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="directory_domain,domain_directory"
     productPesIds=""
-    cloudEnvironments="public"
-    />
+    cloudEnvironments="public, Fairfax, Mooncake"
+    	articleId="9b72ef87-cf93-4c51-a4bd-365c2e5dbaf6"
+	ownershipId="AzureIdentity_User"
+/>
 
 # I want to delete the initial .onmicrosoft.com domain
 

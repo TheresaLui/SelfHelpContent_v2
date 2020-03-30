@@ -9,7 +9,9 @@
 	supportTopicIds="32518066"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="c2236127-4c73-4ccc-94ef-4ff8018b054e"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # cluster/security

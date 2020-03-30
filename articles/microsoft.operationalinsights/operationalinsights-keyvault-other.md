@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="7b1c4d6e-64bb-4c8b-9879-817b9674d3e8"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # keyvault-other
