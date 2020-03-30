@@ -53,8 +53,8 @@ Filtering: AnyField contains $CorrelatioId$
    1. If the error message implies a trivial resolution or it's actionable, please select Yes below
    2. Otherwise, select No below
 
-## Recommended Documents
+**Recommended Documents**
 
-* https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265656/Azure_Storage_TSG_An-operation-is-currently-performing-on-this-storage-account-that-requires-exclusive-access(
+1. https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265656/Azure_Storage_TSG_An-operation-is-currently-performing-on-this-storage-account-that-requires-exclusive-access(
 
 
