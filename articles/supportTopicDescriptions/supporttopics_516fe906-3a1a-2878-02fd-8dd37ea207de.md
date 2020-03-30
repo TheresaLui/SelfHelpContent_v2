@@ -6,7 +6,9 @@
   selfhelptype="SupportTopicDescription"
   productpesids="516fe906-3a1a-2878-02fd-8dd37ea207de"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de" />
+  articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de"
+  ownershipId="AzureIdentity_Licensing"
+  />
 # Support Topic Descriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de
 ---
 {

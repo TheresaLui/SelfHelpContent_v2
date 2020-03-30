@@ -25,7 +25,8 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
       "description": "Understand why you are not able to access cost data.",
       "searchTags": "cost management, access, configuration, ACM",
       "category": "Access configuration",
-      "commonSolutionArticleId": "d879828a-a065-44f2-b919-8973d650319f",
+      "commonSolutionArticleId": "costanalysis-costsdisabled",
+
       "supportTopicId": "32615286"
     },
     {
@@ -51,8 +52,8 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
       "title": "Why am I seeing “not applicable”, “unassigned”, or “others”?",
       "description": "Understand why some of the values appear empty",
       "searchTags": "cost analysis, resources",
-      "category": "Cost analysis",
-      "commonSolutionArticleId": "060a112c-3a7d-4ad6-9ea2-408bc88dca64",
+      "category": "Cost management",
+      "commonSolutionArticleId": "costanalysis-nulls",
       "supportTopicId": "32615286"
     },
     {
@@ -60,17 +61,17 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
       "title": "How do I see the cost of each resource I’m using?",
       "description": "Learn how to leverage Cost Analysis built-in views",
       "searchTags": "cost analysis, views, visibility",
-      "category": "Cost analysis",
-      "commonSolutionArticleId": "26a4b35d-a4ae-4f3e-9054-2d8fcc5d322f",
+      "category": "Cost management",
+      "commonSolutionArticleId": "costanalysis-costbyresource",
       "supportTopicId": "32615286"
     },
     {
-      "id": "Tags I have set on resources are missing from Cost analysis, can you explain why?",
-      "title": "Why certain tags I have set on resources are missing from Cost Analysis?",
-      "description": "Learn about tags availability in cost analysis reports",
+      "id": "Tags I have set on resources are missing from Cost Management, can you explain why?",
+      "title": "Why some tags I've set on resources are missing from cost analysis?",
+      "description": "Learn about tags availability in Cost Management reports",
       "searchTags": "cost analysis, tags, costs, resources",
       "category": "Tags",
-      "commonSolutionArticleId": "9c9afdda-84f2-481f-98bb-b9f0c3e97a15",
+      "commonSolutionArticleId": "costanalysis-tags",
       "supportTopicId": "32615286"
     },
     {

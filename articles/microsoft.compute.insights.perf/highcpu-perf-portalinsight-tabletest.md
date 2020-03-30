@@ -27,7 +27,8 @@ Our diagnostics show there were several instances where Average Max CPU counter 
 
 ### Performance Table
 
-<!--$perftable-->perftable<!--/$perftable-->
+<!--$DataTable-->DataTable<!--/$DataTable-->
+
 
 **What can cause CPU spike on a VM?**
 

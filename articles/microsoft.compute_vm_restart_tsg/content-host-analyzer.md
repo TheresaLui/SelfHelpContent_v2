@@ -17,6 +17,6 @@
 
 # How to check if Host Analyzer(HA) reports have been created
 
-* Navigate to Diagnostics tab on ASC for the VM
-* Go to the Host Analyzer and confirm if there is already a Host Analyzer report created
-* If there is a host analyzer report, confirm if the timestamp where customer faced the issue is within the time frame of the Host Analyzer was run.
+1. Navigate to Diagnostics tab on ASC for the VM
+2. Go to the Host Analyzer and confirm if there is already a Host Analyzer report created
+3. If there is a host analyzer report, confirm if the timestamp of when the customer faced the issue is within the time frame of the Host Analyzer was run.

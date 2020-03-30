@@ -17,7 +17,7 @@
 
 # Check for customer initiated restarts and multiple restarts
 
-* Check the customer’s case history in Service Desk to understand if the customer has been having a history of unexpected restarts lately. (Under the customer profile you will have the "Case History" tab)
-* Just in case, precheck the CRP operations on Azure Support Center (ASC) about whether the customer performed any reboot/deallocate & restart operaitons around the reported time. 
+1. Check the customer’s case history in Service Desk to understand if the customer has been having a history of unexpected restarts lately. (Go to Customer -> View details and look at the "Support History" section)
+2. Just in case, precheck the CRP operations on Azure Support Center (ASC) about whether the customer performed any reboot/deallocate & restart operaitons around the reported time. 
 
-> If you've observed multiple restarts for this customer, then run each re-start through this troubleshooter as each restart may have different causes and mitigation. 
+**Note:** If you've observed multiple restarts for this customer, then run each re-start through this troubleshooter as each restart may have different causes and mitigation. 

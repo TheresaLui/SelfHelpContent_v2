@@ -17,7 +17,7 @@
 
 # How to check if the insight matches the customer issue
 
-* Make sure to confirm if this information is accurate on the Health tab inside Resource Explorer. 
-* If you find the RCA for the customer issue in Insights result and it describes the customer issue well, please provide the RCA to the customer. 
-* If the description doesn't logically match the customer situation or it doesn't have enough information or nothing to provide it to the customer, then select No below.
-* If the customer is satisfied with the RCA you provide, you can close the support case, however at times, the customer might not be satisfied with the default RCA and wants us to provide more details about the issue and the RCA initilly provided. In that case, you can also go to the next step.
+1. Make sure to confirm if this information is accurate on the Health tab inside Resource Explorer. 
+2. If you find the RCA for the customer issue in Insights result and it describes the customer issue well, please provide the RCA to the customer. 
+3. If the description doesn't logically match the customer situation or it doesn't have enough information or nothing to provide it to the customer, then select No below.
+4. If the customer is satisfied with the RCA you provide, you can close the support case, however at times, the customer might not be satisfied with the default RCA and wants us to provide more details about the issue and the RCA initilly provided. In that case, you can also go to the next step.
