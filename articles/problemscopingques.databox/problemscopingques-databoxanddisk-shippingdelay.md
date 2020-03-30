@@ -1,22 +1,22 @@
 <properties
-	articleId="326392002"
-	pageTitle="Scoping Questions for unlock or write issue with Data Box Disk"
-	description="Scoping Questions for unlock or write issue with Data Box Disk"
+	articleId="326392005"
+	pageTitle="Scoping Questions for shipping delay"
+	description="Scoping Questions for shipping delay"
 	authors="madhurinms"
 	ms.author="madhn"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639196,32639198"
+	supportTopicIds="32639210"
 	productPesIds="16505"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
     ownershipId="StorageMediaEdge_DataBox"
 />
-# Cannot unlock or write to Data Box Disk 
+# Data Box Disk slow copy speed
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Cannot unlock or write to Data Box Disk",
+    "title": "Data Box/Disk shipping delay",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -34,23 +34,23 @@
             "required": false
         },
         {
-            "id": "is_disk_issue",
+            "id": "is_carrier issue",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "What is the error seen?",
+            "displayLabel": "Select shipping issue",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Incorrect BitLocker password",
-                    "text": "Incorrect BitLocker password"
+                    "value": "Carrier tracking says delivered but portal does not reflect the same",
+                    "text": "Carrier tracking says delivered but portal does not reflect the sames"
                 },
                 {
-                    "value": "My disk is not getting detected",
-                    "text": "My disk is not getting detected"
+                    "value": "Carrier has not arrived for pick up",
+                    "text": "Carrier has not arrived for pick up"
                 },
                 {
-                    "value": "There is no file system on the disk",
-                    "text": "There is no file system on the disk"
+                    "value": "Carrier tracking says delivered but I have not received the package",
+                    "text": "Carrier tracking says delivered but I have not received the package"
                 },
                 {
                     "value": "dont_know_answer",
@@ -60,11 +60,11 @@
             "required": true
         },
         {
-            "id": "previous_solution",
-            "visibility": "is_disk_issue == My disk is not getting detected || is_disk_issue == There is no file system on the disk || is_disk_issue == dont_know_answer",
+            "id": "is_fee_requested",
+            "visibility": "is_carrier issue == Carrier has not arrived for pick up || is_carrier issue == Carrier tracking says delivered but I have not received the package",
             "order": 110,
             "controlType": "dropdown",
-            "displayLabel": "Did you format the disk?",
+            "displayLabel": "Did you contact the carrier regarding the package status",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {

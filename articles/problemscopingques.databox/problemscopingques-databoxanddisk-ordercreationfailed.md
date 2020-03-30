@@ -1,22 +1,22 @@
 <properties
-	articleId="326392002"
-	pageTitle="Scoping Questions for unlock or write issue with Data Box Disk"
-	description="Scoping Questions for unlock or write issue with Data Box Disk"
+	articleId="326392007"
+	pageTitle="Scoping Questions for order delivery"
+	description="Scoping Questions for order delivery"
 	authors="madhurinms"
 	ms.author="madhn"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639196,32639198"
+	supportTopicIds="32639213"
 	productPesIds="16505"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
     ownershipId="StorageMediaEdge_DataBox"
 />
-# Cannot unlock or write to Data Box Disk 
+# Data Box Disk slow copy speed
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Cannot unlock or write to Data Box Disk",
+    "title": "Data Box/Disk oder delivery",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -34,23 +34,19 @@
             "required": false
         },
         {
-            "id": "is_disk_issue",
+            "id": "is_order_status_shipped",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "What is the error seen?",
+            "displayLabel": "Provide more details",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Incorrect BitLocker password",
-                    "text": "Incorrect BitLocker password"
+                    "value": "Order has shipped from Azure 5 days ago but I have not received it",
+                    "text": "Order has shipped from Azure 5 days ago but I have not received it"
                 },
                 {
-                    "value": "My disk is not getting detected",
-                    "text": "My disk is not getting detected"
-                },
-                {
-                    "value": "There is no file system on the disk",
-                    "text": "There is no file system on the disk"
+                    "value": "I ordered more than 7 days ago but it has not been shipped",
+                    "text": "I ordered more than 7 days ago but it has not been shipped"
                 },
                 {
                     "value": "dont_know_answer",
@@ -60,11 +56,11 @@
             "required": true
         },
         {
-            "id": "previous_solution",
-            "visibility": "is_disk_issue == My disk is not getting detected || is_disk_issue == There is no file system on the disk || is_disk_issue == dont_know_answer",
+            "id": "is_carrier_contacted",
+            "visibility": "is_order_status_shipped == Order has shipped from Azure 5 days ago but I have not received it",
             "order": 110,
             "controlType": "dropdown",
-            "displayLabel": "Did you format the disk?",
+            "displayLabel": "Did you contact the carrier?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {

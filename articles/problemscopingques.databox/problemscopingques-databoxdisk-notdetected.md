@@ -1,11 +1,11 @@
 <properties
-	articleId="326392002"
-	pageTitle="Scoping Questions for unlock or write issue with Data Box Disk"
-	description="Scoping Questions for unlock or write issue with Data Box Disk"
+	articleId="326392003"
+	pageTitle="Scoping Questions for Data Box Disk not detected"
+	description="Scoping Questions for Data Box Disk not detected"
 	authors="madhurinms"
 	ms.author="madhn"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639196,32639198"
+	supportTopicIds="32639208"
 	productPesIds="16505"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
@@ -41,14 +41,6 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Incorrect BitLocker password",
-                    "text": "Incorrect BitLocker password"
-                },
-                {
-                    "value": "My disk is not getting detected",
-                    "text": "My disk is not getting detected"
-                },
-                {
                     "value": "There is no file system on the disk",
                     "text": "There is no file system on the disk"
                 },
@@ -61,7 +53,7 @@
         },
         {
             "id": "previous_solution",
-            "visibility": "is_disk_issue == My disk is not getting detected || is_disk_issue == There is no file system on the disk || is_disk_issue == dont_know_answer",
+            "visibility": "is_disk_issue == There is no file system on the disk || is_disk_issue == dont_know_answer",
             "order": 110,
             "controlType": "dropdown",
             "displayLabel": "Did you format the disk?",

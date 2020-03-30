@@ -1,22 +1,22 @@
 <properties
-	articleId="326392002"
-	pageTitle="Scoping Questions for unlock or write issue with Data Box Disk"
-	description="Scoping Questions for unlock or write issue with Data Box Disk"
+	articleId="326392004"
+	pageTitle="Scoping Questions for scheduling pickup"
+	description="Scoping Questions for scheduling pickup"
 	authors="madhurinms"
 	ms.author="madhn"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639196,32639198"
+	supportTopicIds="32639194"
 	productPesIds="16505"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
     ownershipId="StorageMediaEdge_DataBox"
 />
-# Cannot unlock or write to Data Box Disk 
+# Data Box Disk slow copy speed
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Cannot unlock or write to Data Box Disk",
+    "title": "Data Box/Disk pick up issues",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -34,23 +34,19 @@
             "required": false
         },
         {
-            "id": "is_disk_issue",
+            "id": "is_carrier contacted",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "What is the error seen?",
+            "displayLabel": "Did you contact the carrier and provided details as mentioned in the return instructions?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Incorrect BitLocker password",
-                    "text": "Incorrect BitLocker password"
+                    "value": "Yes",
+                    "text": "Yes"
                 },
                 {
-                    "value": "My disk is not getting detected",
-                    "text": "My disk is not getting detected"
-                },
-                {
-                    "value": "There is no file system on the disk",
-                    "text": "There is no file system on the disk"
+                    "value": "No",
+                    "text": "No"
                 },
                 {
                     "value": "dont_know_answer",
@@ -60,11 +56,11 @@
             "required": true
         },
         {
-            "id": "previous_solution",
-            "visibility": "is_disk_issue == My disk is not getting detected || is_disk_issue == There is no file system on the disk || is_disk_issue == dont_know_answer",
+            "id": "is_fee_requested",
+            "visibility": "is_carrier contacted == Yes",
             "order": 110,
             "controlType": "dropdown",
-            "displayLabel": "Did you format the disk?",
+            "displayLabel": "Did the carrier ask you for shipping fee?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {

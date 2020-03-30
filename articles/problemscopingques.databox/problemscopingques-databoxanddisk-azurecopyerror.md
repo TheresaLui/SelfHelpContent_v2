@@ -1,11 +1,11 @@
 <properties
-	articleId="326392001"
-	pageTitle="Scoping Questions for Data Box Disk slow copy speeds"
-	description="Scoping Questions for Data Box Disk slow copy speeds"
+	articleId="326392006"
+	pageTitle="Scoping Questions for Data Box/Disk copy errors"
+	description="Scoping Questions for Data Box/Disk copy errors"
 	authors="madhurinms"
 	ms.author="madhn"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639200"
+	supportTopicIds="32639201"
 	productPesIds="16505"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
@@ -34,34 +34,25 @@
             "required": false
         },
         {
-            "id": "is_os_linux",
+            "id": "is_copy_error",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "What is the Operating system and environment?",
+            "displayLabel": "Did you run 'Prepare to ship' for Data Box or 'Validation.cm' for Data Box Disk before shipping?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Windpws",
-                    "text": "Windows"
+                    "value": "Yes",
+                    "text": "Yes"
                 },
                 {
-                    "value": "Linux",
-                    "text": "Linux"
+                    "value": "Yes",
+                    "text": "Yes"
                 },
                 {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
-        },
-        {
-            "id": "previous_solution",
-            "visibility": "is_os_linux == Linux",
-            "order": 110,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Name and version",
-            "watermarkText": "Which flavor of Linux is being used?",
             "required": true
         },
         {
