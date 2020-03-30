@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Application"
-	description="Application"
+	pageTitle="Application POA"
+	description="Application POA"
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32690999, 32690980, 32691001, 32690987, 32690983, 32690981, 32690992"
+	supportTopicIds="32690998"
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
-	articleId="problemscopingques-application-sf"
+	articleId="problemscopingques-application-poa"
 	ownershipId="Compute_ServiceFabric"
 />
-# Application
+# Application Upgrade
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Application",
+    "title": "Application Upgrade",
     "formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
@@ -34,11 +34,11 @@
 			"useAsAdditionalDetails": true
 		},
         {
-            "id": "application_name",
+            "id": "failure_reason",
             "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Application Name",
-            "watermarkText": "Provide the name of the application.",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Upgrade Failure",
+            "watermarkText": "Using the cmdlet Get-ServiceFabricApplicationUpgrade do you see any FailureReason or any safety checks in the UpgradeDomainProgressAtFailure?",
             "required": false
         }
 	],
