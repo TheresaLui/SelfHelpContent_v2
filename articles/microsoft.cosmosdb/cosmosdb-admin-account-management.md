@@ -28,9 +28,9 @@ As demand continues to grow, if we are faced with any capacity constraints in an
 
 You may run into capacity constraints when performing the following operations for **India, Germany, Europe, UK, Australia East or Southeast Asia** regions:
 
-- Provision/Create new Cosmos DB Account in any of the above restricted regions.
-- Adding a restricted region to an existing Cosmos DB Account.
-- Provision a new Azure Cosmos DB Free Tier account.
+- Provision/Create new Cosmos DB Account in any of the above restricted regions
+- Adding a restricted region to an existing Cosmos DB Account
+- Provision a new Azure Cosmos DB Free Tier account
 
 However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions. Please consider using any other region closest to your desired region for new deployments.
 
@@ -43,7 +43,7 @@ If this is very critical for your business to have an account in any of the rest
 ### **Not able to remove or add a region**  
 If you are not able to remove a region in your database account please consider the following solutions:  
 * In a single-region write mode, you cannot remove the write region. You must fail over to a different region before you can delete the current write region. [Perform manual failover on an Azure Cosmos account](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account#manual-failover).
-* In a multi-region write mode, you can add or remove any region, if you have at least one region.
+* In a multi-region write mode, you can add or remove any region, if you have at least one region
 * You cannot change another account property while adding or removing a region. To remedy, change the other account properties first, then retry the region change. You can compare property values by exporting the account to a template and compare currently property values from those set by your template, including tags.
 
 
@@ -60,7 +60,7 @@ If you are not able to delete a resource group, please consider the following so
 * You also may have a lock on an additional items located within the resource group.  It is recommended to review the items for any enabled *Delete Locks*.  
 
 ### **Unable to update Consistency as well as disable multi-region writes**
-With VNET enabled accounts, the selected user making changes to the account must have permissions on the VNET.
+With VNET enabled accounts, the selected user making changes to the account must have permissions on the VNET:
 * Add the necessary permissions to the desired user to make changes or assign another user with the expected permissions to update the consistency 
 
 ## **Recommended Documents**  
