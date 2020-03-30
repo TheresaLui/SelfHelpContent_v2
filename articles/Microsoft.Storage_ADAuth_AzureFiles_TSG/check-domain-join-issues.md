@@ -1,8 +1,8 @@
 <properties
     pageTitle="Customer is facing domain join issues"
     description="Customer is facing domain join issues"
-    service="microsoft.storage"
-    resource="file storage"
+    service="Microsoft.Storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""

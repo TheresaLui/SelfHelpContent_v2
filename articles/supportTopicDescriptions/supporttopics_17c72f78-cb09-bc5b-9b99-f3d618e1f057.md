@@ -7,18 +7,18 @@
   productpesids="17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   cloudenvironments="public, fairfax, blackforest, mooncake"
   articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057"
-  ownershipid="" />
+  ownershipid="AzureData_AzureDatabaseforMySQL" />
 # Support Topic Descriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057
 ---
 {
   "$schema": "SelfHelpContent",
   "shortDescription": "Azure Database for MySQL is a fully managed relational database service powered by the MySQL community edition",
   "longDescription": null,
-  "productLink1": "https://azure.microsoft.com/en-us/services/mysql/",
+  "productLink1": "https://azure.microsoft.com/services/mysql/",
   "productLinkName1": "Azure Database for MySQL Overview",
-  "productLink2": "https://docs.microsoft.com/en-us/azure/mysql/overview",
+  "productLink2": "https://docs.microsoft.com/azure/mysql/overview",
   "productLinkName2": "What is Azure Database for MySQL",
-  "productLink3": "https://docs.microsoft.com/en-us/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal",
+  "productLink3": "https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal",
   "productLinkName3": "Create an Azure Database for MySQL",
   "supportTopics": [
     {
