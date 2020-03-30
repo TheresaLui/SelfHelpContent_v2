@@ -24,12 +24,12 @@
 
  ###**Accepted forms of Proof**
  
- **Business Verification:business registration form, business charter or articles of incorporation. Examples:**
+ **Business Verification: business registration form, business charter or articles of incorporation. Examples:**
  
    -  Articles of incorporation, memorandum of association, or any similar company formation document
    -  Securities and Exchange Commission Form 10-K, or equivalent filing
    -  Annual report
-   -  A stock ledger.
+   -  A stock ledger
    -  Bank account related document
    -  Tax-related document
    -  The partnership agreement and registration documents with the names of partners
@@ -42,5 +42,5 @@
 	
 **Employment verification:** 
 
-   - domain registration
-   - invoice  
+   - Domain registration
+   - Invoice  
