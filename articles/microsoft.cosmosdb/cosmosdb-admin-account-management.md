@@ -32,7 +32,7 @@ You may run into capacity constraints when performing the following operations f
 - Adding a restricted region to an existing Cosmos DB Account.
 - Provision a new Azure Cosmos DB Free Tier account.
 
-However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions. Please consider using any other region for your new deployments.
+However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions. Please consider using any other region closest to your desired region for new deployments.
 
 For further information, please review our [commitment and service continuity]( https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/).
 

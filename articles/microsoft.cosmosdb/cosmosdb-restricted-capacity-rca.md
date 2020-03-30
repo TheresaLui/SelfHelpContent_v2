@@ -31,7 +31,7 @@ We apologize for any inconvenience caused and let us know if you have any furthe
 
 ## **Recommended Steps**
 
-Please consider using any other region for your new deployments.
+Please consider using any other region closest to your desired region for new deployments.
 
 ## **Recommended Documents**
 
