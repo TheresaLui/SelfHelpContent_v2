@@ -19,12 +19,6 @@
 
 # Connection timeouts
 
-## **Recommended Documents**
-
-- [Troubleshooting connectivity issues and other errors with Microsoft Azure SQL Database](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database)
-- [Working with SQL Database connection issues and transient errors](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues)
-- [Planning for Azure maintenance events in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-planned-maintenance)
-
 ## **Recommended Steps**
 
 - Check if firewalls are open
@@ -35,16 +29,13 @@
 This PowerShell script will run some connectivity checks from your machine to the server and database.
 
 In order to run it you need to:
-1. Open Windows PowerShell ISE in Administrator mode.  
-Administrator privileges are required to 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace'.
-In case you cannot run in administrator mode please continue, the tool will still run relevant tests.
 
-2. Open a New Script window.
-
+1. Open Windows PowerShell ISE in Administrator mode. Administrator privileges are required to 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace'. In case you cannot run in administrator mode please continue, the tool will still run relevant tests.
+2. Open a New Script window
 3. Paste the following in the script window:
 
-    ```
-    $parameters = @{
+```
+$parameters = @{
         Server = '.database.windows.net'
         Database = ''  # Set the name of the database you wish to test, 'master' will be used by default if nothing is set
         User = ''  # Set the login username you wish to use, 'AzSQLConnCheckerUser' will be used by default if nothing is set
@@ -61,14 +52,14 @@ In case you cannot run in administrator mode please continue, the tool will stil
     $scriptUrlBase = 'raw.githubusercontent.com/Azure/SQL-Connectivity-Checker/master'
     Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLConnectivityChecker.ps1')).Content)) -ArgumentList $parameters
     #end
-    ```
+```
 
 4. Set the parameters on the script, you need to set server name. Database name, user and password are optional but desirable.
+5. Run it
+6. The results can be seen in the output window. If the user has the permissions to create folders, a folder with the resulting log file will be created. When running on Windows, the folder will be opened automatically after the script completes. A zip file with all the log files (AllFiles.zip) will be created. Please sent us AllFiles.zip using the 'File upload' option in the 'Details' step.
 
-5. Run it.
+## **Recommended Documents**
 
-6. The results can be seen in the output window.<br>
-If the user has the permissions to create folders, a folder with the resulting log file will be created.<br>
-When running on Windows, the folder will be opened automatically after the script completes.<br>
-A zip file with all the log files (AllFiles.zip) will be created.<br>
-Please sent us AllFiles.zip using the 'File upload' option in the 'Details' step.
+- [Troubleshooting connectivity issues and other errors with Microsoft Azure SQL Database](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database)
+- [Working with SQL Database connection issues and transient errors](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues)
+- [Planning for Azure maintenance events in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-planned-maintenance)
