@@ -17,7 +17,7 @@
 
 # Issue creating a search service
 
-## **Azure capacity restrictions related to COVID-19**
+## Azure capacity restrictions related to COVID-19
 
 Microsoft is committed to supporting businesses, schools, and governments mobilize their remote workforces in response to social distancing guidelines from health authorities. As expected, we've seen significant usage increases in services that support these efforts – including Microsoft Teams, Windows Virtual Desktop, and Azure Media Services.  For more information, please read this blog post about [our commitment to customers and service continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/) while we all come together to battle this global pandemic.
 
