@@ -19,11 +19,11 @@
 
 ## Azure capacity restrictions related to COVID-19
 
-In response to health authorities emphasizing the importance of social distancing, we are supporting businesses, schools, and governments in the unprecedented mobilization of remote workforces. As expected, we've seen significant usage increases in services that support these workloads – including Microsoft Teams, Windows Virtual Desktop, and Azure Media Services.  For more information, please read the blog post about [our commitment to service continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/) while we all come together to battle a global pandemic.
+Microsoft is committed to supporting businesses, schools, and governments mobilize their remote workforces in response to social distancing guidelines from health authorities. As expected, we've seen significant usage increases in services that support these efforts – including Microsoft Teams, Windows Virtual Desktop, and Azure Media Services.  For more information, please read this blog post about [our commitment to customers and service continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/) while we all come together to battle this global pandemic.
 
 As demand continues to grow, we are faced with temporary capacity constraints in several Azure regions. As a result, customers are currently unable to use the portal to create new Azure Cognitive Search services in the following regions: **UK South, France Central, North Europe, UAE North, Central India**
 
-At this time we request that you create your search service in a different region. We apologize for any inconvenience this causes and expect this situation to improve in the coming months, but is, of course, contingent on the resolution of general capacity constraints across Azure.
+At this time we suggest you create your search service in a different region. We apologize for any inconvenience this causes and expect this situation to improve in the coming months as general capacity constraints are resolved across Azure.
 
 ## Recommended Steps
 
