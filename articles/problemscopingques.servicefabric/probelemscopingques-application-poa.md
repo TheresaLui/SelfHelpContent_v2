@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Application POA"
-	description="Application OIA"
+	description="Application POA"
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
@@ -8,7 +8,7 @@
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
-	articleId="problemscopingques-application-upgrade-sf"
+	articleId="problemscopingques-application-poa"
 	ownershipId="Compute_ServiceFabric"
 />
 # Application Upgrade
@@ -34,16 +34,8 @@
 			"useAsAdditionalDetails": true
 		},
         {
-            "id": "application_name",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Application Name",
-            "watermarkText": "Provide the name of the application.",
-            "required": false
-        },
-        {
             "id": "failure_reason",
-            "order": 4,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Upgrade Failure",
             "watermarkText": "Using the cmdlet Get-ServiceFabricApplicationUpgrade do you see any FailureReason or any safety checks in the UpgradeDomainProgressAtFailure?",
