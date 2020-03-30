@@ -6,12 +6,12 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32639189,32639190,32639193,32639197,32639199,32639203,32639188,32639211"
 	productPesIds="16505"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="oublic, fairfax"
 	schemaVersion="1"
 	articleId="32639189886"
 	ownershipId="StorageMediaEdge_DataBox"
 />
-# Data Box issues under data copy and validation
+# Data Box issues with data copy and validation
 ---
 {
     "resourceRequired": false,
