@@ -1,17 +1,17 @@
 <properties
-	pageTitle="Scoping Questions for Data Box"
-	description="Scoping Questions for Data Box"
-	authors="shijojoy"
-	ms.author="shijoy"
+	pageTitle="Scoping Questions for Data Box Set up and configuration"
+	description="Scoping Questions for Data Box Set up and configuration"
+	authors="ansubram"
+	ms.author="ansubram"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639189,32639190,32639193,32639197,32639199,32639203,32639188,32639211,32639191,32639195,32639207,32639212"
+	supportTopicIds="32639191,32639195,32639207,32639212"
 	productPesIds="16505"
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="3263918912"
 	ownershipId="StorageMediaEdge_DataBox"
 />
-# Data Box issues
+# Data Box issues with setup and configuration
 ---
 {
     "resourceRequired": false,
@@ -57,12 +57,34 @@
             "watermarkText": "Describe in detail the changes which were made",
             "required": true
         },
+	{
+	     "id": "fault_indicator",
+	     "order": 200,
+	     "controlType": "dropdown",
+	     "displayLabel": "What is the status of the fault indicator LED on the front operating panel?",
+             "watermarkText": "Choose an option",
+             "dropdownOptions": [
+                {
+                    "value": "On",
+                    "text": "On"
+                },
+                {
+                    "value": "Off",
+                    "text": "Off"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+	    ],
+            "required": true
+        },
         {
             "id": "problem_description",
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the details regarding the issue and and any other relevant information",
+            "watermarkText": "Please provide the details regarding the issue, such as cables used, status of data ports connected and and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         },
