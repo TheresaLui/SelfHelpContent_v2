@@ -30,7 +30,7 @@ If you are running into issues creating/updating or deleting metric alerts the f
     * [For Windows VMs](https://docs.microsoft.com/azure/azure-monitor/platform/collect-custom-metrics-guestos-resource-manager-vm)
     * [For Linux VMs](https://docs.microsoft.com/azure/azure-monitor/platform/collect-custom-metrics-linux-telegraf)
 
-**Note:** If you configured the guest metrics to be collected into a Log Analytics workspace, these metrics will appear under the Log Analytics workspace resource. Follow the steps to [configure a metric alert for logs](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs#configuring-metric-alert-for-logs).
+**Note:** If you configured the guest metrics to be collected into a Log Analytics workspace, these metrics will appear under the Log Analytics workspace resource, and will start showing data **only** after creating an alert rule that monitors them. To do so, follow the steps to [configure a metric alert for logs](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-logs#configuring-metric-alert-for-logs).
 
 2. If you cannot find metrics for a resource type, [check if the resource type is supported with metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time)
 

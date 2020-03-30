@@ -9,8 +9,9 @@
   articleid="azure-backup-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" 	ownershipId="Compute_AppService"
-/>
+  feedbackemail="email"
+  ownershipId="StorageMediaEdge_Backup" 
+  />
 # Support Topic Descriptions for 17d72dfc-8f48-94cb-05e6-5f88efdf72d7
 ---
 {
@@ -91,10 +92,10 @@
     {
       "id": "141e378a-1466-bbca-cbf0-43c82f7982d7",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issue taking backup of Azure Files shares. For MARS agent issues choose Files and Folder problem type.",
+      "searchTags": "Backup;Files;share",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "1621a0b2-d93a-9327-b149-de9c05ce34f5",
@@ -211,10 +212,10 @@
     {
       "id": "412bbd3b-d2a8-cd79-b614-5dec72dab528",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issues specific to Azure Backup Service for protecting Azure files",
+      "searchTags": "Backup;Restore",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "442e8b71-0da4-f68c-9943-68da5a2d36b7",
@@ -307,10 +308,10 @@
     {
       "id": "5ba09503-e741-e9b0-1b72-1dcffa49b99a",
       "longDescription": null,
-      "shortDescription": "General questions on functionality and supported configuration",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Use this problem type only for advisory questions. For Backup or Restore failures, choose BACKUP IS FAILING or RESTORE IS FAILING problem type",
+      "searchTags": "Supported;Not supported;Price;How to configure",
+      "category": "IaaS VM Advisory",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "5d74c65b-b117-5f87-b31b-44ad19f8a533",
@@ -763,10 +764,10 @@
     {
       "id": "ff4b14ac-e42e-ad91-cd8c-54e3ede63c12",
       "longDescription": null,
-      "shortDescription": "General questions on functionality and supported configurations",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Use this problem type only for advisory questions. For Backup or Restore failures, choose BACKUP IS FAILING or RESTORE IS FAILING problem type",
+      "searchTags": "Supported ; Not supported;Price ;How to configure",
+      "category": "MARS agent Advisory",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "ff5501f4-1e65-d045-7390-96ad9bd87bab",

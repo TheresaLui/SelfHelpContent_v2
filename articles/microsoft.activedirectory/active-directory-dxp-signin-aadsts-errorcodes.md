@@ -13,11 +13,12 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
-    ownershipId="AzureIdentity_IdentityDiagnostics"
+    cloudEnvironments="public, Fairfax, Mooncake"
+    ownershipId="AzureIdentity_B2B"
 />
 
 # Configuration Issue Preventing User Sign-In
+
 <!--issueDescription-->
 
 Error code: <!--$errorCode-->[errorCode]<!--/$errorCode-->

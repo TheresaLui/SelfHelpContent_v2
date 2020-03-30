@@ -22,4 +22,5 @@ Use this support topic path for Azure specific issues (e.g. Virtual Network, UDR
 ## **Recommended Steps**
 
 * To get help from Check Point, open a support request [here](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupportcenter.checkpoint.com%2Fsupportcenter%2Fportal%3FeventSubmit_doGoviewsolutiondetails%3D%26solutionid%3Dsk31559&data=02%7C01%7Creyandap%40microsoft.com%7Cd41fe13940d74aa2962508d67b14d739%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636831726795882179&sdata=nR4ImAAJ%2BCiwjG5%2BQf6ioiPqpU4AA2XfXadTRyRQceY%3D&reserved=0)
+* [Working remotely: Network Virtual Appliance (NVA) considerations for remote work](https://docs.microsoft.com/azure/vpn-gateway/nva-work-remotely-support)
 * Check [troubleshooting for Network Virtual Appliance issues in Azure](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva) for additional details

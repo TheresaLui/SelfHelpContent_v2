@@ -15,6 +15,6 @@
 	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
-**How to check if the problem is due to an SSL-related error:**
+# How to check if the problem is due to an SSL-related error:
 
 In the backend health status, check the details tab for the error message displayed.

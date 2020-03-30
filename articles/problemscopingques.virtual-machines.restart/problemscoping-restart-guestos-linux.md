@@ -14,7 +14,8 @@
 # VM Restart
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "My guest OS is causing restarts",
     "fileAttachmentHint": "",
     "formElements": [

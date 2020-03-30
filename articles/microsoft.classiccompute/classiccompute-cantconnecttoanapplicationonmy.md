@@ -11,7 +11,7 @@
     resourceTags="windows, linux, WindowsSQL, redhat"
 	cloudEnvironments="public, Fairfax"	 
  	articleId="57217dbb-3800-492d-8615-8250b02a87ea"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # I can't connect to an application on my VM

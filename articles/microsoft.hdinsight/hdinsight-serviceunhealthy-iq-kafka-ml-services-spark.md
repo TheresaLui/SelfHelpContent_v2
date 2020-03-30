@@ -35,3 +35,4 @@ Note that Microsoft Support teams can offer support only for the following situa
 ## **Recommended Documents**
 
 * [Frequently asked questions about Apache Kafka in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/kafka-faq)
+* [Troubleshooting Interactive Query clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-hive-out-of-memory-error-oom)

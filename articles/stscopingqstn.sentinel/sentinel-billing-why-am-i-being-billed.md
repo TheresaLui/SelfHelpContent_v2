@@ -12,7 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-billing-why-am-i-being-billed"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Sentinel"
 />
 
 # Why are you being billed
