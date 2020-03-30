@@ -65,7 +65,7 @@
         },
         {
             "id": "is_fee_requested",
-            "visibility": "is_carrier issue == Carrier has not arrived for pick up || Carrier tracking says delivered but I have not received the package",
+            "visibility": "is_carrier issue == Carrier has not arrived for pick up || is_carrier issue == Carrier tracking says delivered but I have not received the package",
             "order": 110,
             "controlType": "dropdown",
             "displayLabel": "Did you contact the carrier regarding the package status",
