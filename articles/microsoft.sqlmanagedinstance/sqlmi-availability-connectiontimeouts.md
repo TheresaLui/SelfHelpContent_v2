@@ -30,7 +30,7 @@ This PowerShell script will run some connectivity checks from your machine to th
 
 In order to run it you need to:
 
-1. Open Windows PowerShell ISE in Administrator mode. Administrator privileges are required to 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace'. In case you cannot run in administrator mode please continue, the tool will still run relevant tests.
+1. Open Windows PowerShell ISE in Administrator mode. Administrator privileges are required to 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace'. In case you cannot run in administrator mode, please continue - the tool will still run relevant tests.
 2. Open a New Script window
 3. Paste the following in the script window:
 
