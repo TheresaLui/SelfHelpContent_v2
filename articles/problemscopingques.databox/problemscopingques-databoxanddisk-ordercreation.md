@@ -64,29 +64,6 @@
             "required": true
         },
         {
-            "id": "is_carrier_contacted",
-            "visibility": "is_order_status_shipped == Order has shipped from Azure 5 days ago but I have not received it",
-            "order": 110,
-            "controlType": "dropdown",
-            "displayLabel": "Did you contact the carrier?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            ],
-            "required": true
-        },
-        {
             "id": "problem_description",
             "order": 600,
             "controlType": "multilinetextbox",
