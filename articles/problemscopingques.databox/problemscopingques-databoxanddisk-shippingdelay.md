@@ -83,13 +83,13 @@
             "required": true
         },
         {
-            "id": "previous_solution",
-            "visibility": "is_fee_requested == Yes",
-            "order": 120,
+            "id": "problem_description",
+            "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Additional details about the issue",
-            "required": true
+            "watermarkText": "Please provide full error text and any other relevant information",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"
