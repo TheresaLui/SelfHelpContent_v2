@@ -53,7 +53,7 @@
         },
         {
             "id": "previous_solution",
-            "visibility": "is_disk_issue == There is no file system on the disk || dont_know_answer",
+            "visibility": "is_disk_issue == There is no file system on the disk || is_disk_issue == dont_know_answer",
             "order": 110,
             "controlType": "dropdown",
             "displayLabel": "Did you format the disk?",
