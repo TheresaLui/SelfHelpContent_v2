@@ -14,7 +14,8 @@
 # VM Performance
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Disk throughput is lower than expected",
     "fileAttachmentHint": "",
     "formElements": [

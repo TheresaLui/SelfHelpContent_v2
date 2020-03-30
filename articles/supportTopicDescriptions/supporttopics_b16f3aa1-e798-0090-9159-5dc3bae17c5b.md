@@ -6,7 +6,9 @@
   selfhelptype="SupportTopicDescription"
   productpesids="b16f3aa1-e798-0090-9159-5dc3bae17c5b"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_b16f3aa1-e798-0090-9159-5dc3bae17c5b" />
+  articleid="supporttopics_b16f3aa1-e798-0090-9159-5dc3bae17c5b" 
+  ownershipId="AzureIdentity_B2C"
+  />
 # Support Topic Descriptions for b16f3aa1-e798-0090-9159-5dc3bae17c5b
 ---
 {
@@ -20,6 +22,14 @@
   "productLink3": null,
   "productLinkName3": null,
   "supportTopics": [
+    {
+      "id": "0bd7d616-07bb-6bec-96c9-3c2e23e3c8b5",
+      "longDescription": "",
+      "shortDescription": "Questions regarding migrating users from an external identity provider to an Azure AD B2C directory",
+      "searchTags": "Questions re migrating users to B2C ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "0c92e5e2-fe1f-e598-48e5-dc53c326eddc",
       "longDescription": "",
@@ -41,6 +51,14 @@
       "longDescription": "",
       "shortDescription": "Questions regarding the creation or deletion of Azure AD B2C user accounts.",
       "searchTags": "Questions re B2C user accounts ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1c3a0b23-fca7-5001-ec77-0715a416a675",
+      "longDescription": "",
+      "shortDescription": "Questions regarding Azure AD B2C user management, and auditing reports.",
+      "searchTags": "issue with B2C user management",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -101,6 +119,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bcf7a400-eb33-c207-03f0-a700cbb34834",
+      "longDescription": "",
+      "shortDescription": "Problems creating a new AAD B2C directory, or deleting an existing AAD B2C directory.",
+      "searchTags": "issues re new AAD B2C directory",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c5d97c6d-8fa3-81c2-2243-54c80d902627",
       "longDescription": "",
       "shortDescription": "Quesitons regarding Azure AD B2C audit or sign in logs and reporting capabilities",
@@ -121,6 +147,14 @@
       "longDescription": "",
       "shortDescription": "Questions regarding identity experience framework user flow issues which are not listed.",
       "searchTags": "issues with IEF user flows ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e827e685-34de-a3b4-69ed-e2cf7d118ec3",
+      "longDescription": "",
+      "shortDescription": "Questions regarding Azure AD B2C regional availability or data residency location.",
+      "searchTags": "questions re to B2C availability ;questions re to B2C data residency",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },

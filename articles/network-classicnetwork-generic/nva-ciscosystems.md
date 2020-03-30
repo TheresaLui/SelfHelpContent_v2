@@ -24,4 +24,5 @@ Use this support topic path for Azure specific issues (e.g. Virtual Network, UDR
 * To get help from Cisco, open a support request [here](http://www.cisco.com/support)
 * To get help for Cisco Meraki devices, open a support request [here](https://meraki.cisco.com/support)
 * Check your Cisco support cases [here](https://mycase.cloudapps.cisco.com/start)
+* [Working remotely: Network Virtual Appliance (NVA) considerations for remote work](https://docs.microsoft.com/azure/vpn-gateway/nva-work-remotely-support)
 * Check [troubleshooting for Network Virtual Appliance issues in Azure](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva) for additional details

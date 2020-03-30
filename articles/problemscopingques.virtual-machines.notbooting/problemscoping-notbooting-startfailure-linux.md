@@ -16,7 +16,7 @@
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "My VM is starting",
     "fileAttachmentHint": "",
     "formElements": [

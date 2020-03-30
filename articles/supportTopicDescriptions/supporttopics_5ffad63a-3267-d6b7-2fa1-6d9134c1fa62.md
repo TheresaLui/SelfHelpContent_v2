@@ -10,7 +10,7 @@
   selfhelptype="supportTopicDescription"
   articleid="hdinsight-supporttopicdescription"
   cloudenvironments="public, blackforest, fairfax, mooncake" 
-ownershipId="ASEP_ContentService_Placeholder"
+ownershipId="AzureData_HDInsight"
 />
 # Support topic descriptions for Azure HDInsight
 ---

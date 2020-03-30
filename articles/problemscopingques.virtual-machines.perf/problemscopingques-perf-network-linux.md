@@ -14,7 +14,8 @@
 # VM Performance
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Network throughput is slower than expected",
     "fileAttachmentHint": "",
     "formElements": [

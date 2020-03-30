@@ -27,23 +27,13 @@ ownershipId="AzureMonitoring_LogAnalytics"
 There are two different ways to delete a Log Analytics workspace:
 
 * [Soft-delete](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#soft-delete-behavior): this the default delete method that allows the recovery of the workspace including its data and connected agents within 14 days. After the soft-delete period, the workspace and its data are permanently purged and are non-recoverable, the workspace name is 'released' and you can use it to create a new workspace.
-* [Permanent-delete](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#permanent-workspace-delete): it purges the workspace, its data and releases the workspace name immediately - this lets you create a new workspace using the same name.
+* [Permanent-delete](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#permanent-workspace-delete): it purges the workspace, its data and releases the workspace name immediately - this lets you create a new workspace using the same name. For simplicity, you can also execute it in [Azure REST API Reference](https://docs.microsoft.com/rest/api/loganalytics/workspaces/delete#code-try-0) site when adding a parameter: '**force**' with value: '**true**'.<br>
 
 Please bear in mind the followings:
 
 * You must have *'Log Analytics Contributor'* permissions to delete a Log Analytics workspace
 * You can delete a workspace using [PowerShell](https://docs.microsoft.com/powershell/module/azurerm.operationalinsights/remove-azurermoperationalinsightsworkspace?view=azurermps-6.13.0#examples), [REST API](https://docs.microsoft.com/rest/api/loganalytics/workspaces/delete), or in the [Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#azure-portal)
-* When you delete a workspace, installed solutions and linked services such as Azure Automation account are permanently removed and can’t be recovered
-
-**Delete a Workspace** 
-
-1. [Overriding the soft-delete behavior](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#permanent-workspace-delete) using this REST API with 'force' tag:<br>
-
-```
-DELETE https://management.azure.com/subscriptions/<subscription-id>/resourcegroups/<resource-group-name>/providers/Microsoft.OperationalInsights/workspaces/<workspace-name>?api-version=2015-11-01-preview&force=true
-```
-
-2. Execute the in [Azure REST API Reference](https://docs.microsoft.com/rest/api/loganalytics/workspaces/delete#code-try-0) site when adding a parameter: '**force**' with value: '**true**'
+* When you delete a workspace, installed solutions and linked services such as Azure Automation account are permanently removed and can’t be recovered<br>
 
 ### **Creating Log Analytics workspace**
 
@@ -54,9 +44,9 @@ DELETE https://management.azure.com/subscriptions/<subscription-id>/resourcegrou
 	* The workspace name isn't available and being used
 	* The workspace was deleted during the last 14 days and its name reserved for the soft-delete period. To override the soft-delete period and immediately delete the workspace and create a new workspace with the same name:
 
-1. [Recover](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#recover-workspace) your workspace
-2. [Permanently delete](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#permanent-workspace-delete) your workspace
-3. Create a new workspace using the deleted workspace name
+      1. [Recover](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#recover-workspace) your workspace
+      2. [Permanently delete](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#permanent-workspace-delete) your workspace
+      3. Create a new workspace using the deleted workspace name
  
 ## **Recommended Documents**
 
