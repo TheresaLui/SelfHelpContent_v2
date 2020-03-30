@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Scoping Questions for Data Box Data copy and validation"
 	description="Scoping Questions for Data Box Data copy and validation"
-	authors="ansubram	"
+	authors="ansubram"
 	ms.author="ansubram"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32639189,32639190,32639193,32639197,32639199,32639203,32639188,32639211"
@@ -62,7 +62,7 @@
             "order": 200,
             "controlType": "multilinetextbox",
             "displayLabel": "What was the copy method used?"
-	          "watermarkText" Example: Robocopy (Windows), rsync/FreeFileSync/Unison/Ultracopier (Linux) or others",
+	    "watermarkText": Example: Robocopy (Windows), rsync/FreeFileSync/Unison/Ultracopier (Linux) or others",
             "required": true
         },
         {
