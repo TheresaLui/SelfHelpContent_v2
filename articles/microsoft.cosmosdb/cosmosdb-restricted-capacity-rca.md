@@ -24,7 +24,7 @@ As per the continuity plan, we have placed some restriction on your account for 
 You may run into capacity constraints when performing the following operations for **India, Germany, Europe, UK, Australia East or Southeast Asia** regions:
 
 - Provision/Create new Cosmos DB Account in any of the restricted regions.
-- Adding a region from any of the restricted regions.
+- Adding a restricted region to an existing Cosmos DB Account.
 - Provision a new Azure Cosmos DB Free Tier account.
 
 We apologize for any inconvenience caused and let us know if you have any further queries.
