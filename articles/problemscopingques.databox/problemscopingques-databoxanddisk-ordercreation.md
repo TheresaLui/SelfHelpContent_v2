@@ -1,11 +1,11 @@
 <properties
-	articleId="326392007"
-	pageTitle="Scoping Questions for order delivery"
-	description="Scoping Questions for order delivery"
+	articleId="326392008"
+	pageTitle="Scoping Questions for order creation issues"
+	description="Scoping Questions for order creation issues"
 	authors="madhurinms"
 	ms.author="madhn"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639213"
+	supportTopicIds="32639192"
 	productPesIds="16505"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
@@ -41,12 +41,20 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Order has shipped from Azure 5 days ago but I have not received it",
-                    "text": "Order has shipped from Azure 5 days ago but I have not received it"
+                    "value": "Unable to proceed further due to Portal validation",
+                    "text": "Unable to proceed further due to Portal validation"
                 },
                 {
-                    "value": "I ordered more than 7 days ago but it has not been shipped",
-                    "text": "I ordered more than 7 days ago but it has not been shipped"
+                    "value": "Deployment failed at the end of create flow",
+                    "text": "Deployment failed at the end of create flow"
+                },
+                {
+                    "value": "Ordering not available for my country and target Azure region",
+                    "text": "Ordering not available for my country and target Azure region"
+                },
+                {
+                    "value": "Ordering not available for my subsription type",
+                    "text": "Ordering not available for my subscription type"
                 },
                 {
                     "value": "dont_know_answer",
@@ -79,13 +87,13 @@
             "required": true
         },
         {
-            "id": "previous_solution",
-            "visibility": "is_fee_requested == Yes",
-            "order": 120,
+            "id": "problem_description",
+            "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Additional details about the issue",
-            "required": true
+            "watermarkText": "Please provide full error text and any other relevant information",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"
