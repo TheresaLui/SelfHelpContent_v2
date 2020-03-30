@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="1003478"
     cloudEnvironments="public"
-    articleId="0ed7ceda-ed48-418e-a534-0d11278306ee"
+    articleId="b8f06513-cf1f-4dd8-96ae-8cc79fec8cf8"
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />
 
