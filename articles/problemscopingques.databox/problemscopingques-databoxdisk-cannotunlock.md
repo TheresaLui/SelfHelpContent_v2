@@ -88,7 +88,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide full erro text and any other relevant information",
+            "watermarkText": "Please provide full error text and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         }
