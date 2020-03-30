@@ -57,7 +57,7 @@
             "watermarkText": "Describe in detail the changes which were made",
             "required": true
         },
-	      {
+	{
             "id": "copy_method_used",
             "order": 200,
             "controlType": "multilinetextbox",
