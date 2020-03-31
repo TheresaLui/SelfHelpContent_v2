@@ -62,7 +62,7 @@
             "order": 200,
             "controlType": "multilinetextbox",
             "displayLabel": "What was the copy method used?",
-	    "watermarkText": Example: Robocopy (Windows), rsync/FreeFileSync/Unison/Ultracopier (Linux) or others",
+	    "watermarkText": "Example - Robocopy (Windows), rsync/FreeFileSync/Unison/Ultracopier (Linux) or others",
             "required": true
         },
         {
