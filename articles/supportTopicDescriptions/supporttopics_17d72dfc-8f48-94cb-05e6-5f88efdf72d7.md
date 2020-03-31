@@ -259,9 +259,9 @@
     {
       "id": "4bb7598d-8140-f9b4-62b9-65fc04d5a9ae",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue configuring backup of Azure Files Shares (AFS)",
+      "searchTags": "configure;AFS;Azure Files Share;Azure Files",
+      "category": "configure",
       "useInDiagnoseAndSolve": "true"
     },
     {
