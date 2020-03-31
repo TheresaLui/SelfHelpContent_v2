@@ -34,7 +34,7 @@ You may run into capacity constraints when performing the following operations:
 
 However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions.
 
-For further information, please review our [commitment and service continuity](https://aka.ms/Covid19Update).
+For further information, please review our [commitment and service continuity](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity/).
 
 If this is very critical for your business to have a new account or adding a region to an existing account, please continue creating a support ticket to explore other options.  
 
