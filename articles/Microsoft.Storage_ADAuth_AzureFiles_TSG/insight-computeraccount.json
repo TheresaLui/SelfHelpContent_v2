@@ -1,0 +1,36 @@
+{ 
+    "Id": "b40f214c-858c-4bdb-9b89-4e3819b202bc", 
+    "OwnershipId": "Centennial_CloudNet_LoadBalancer", 
+    "Title": "Computer Account User Identity is getting Net Use error 1326", 
+    "ImportanceLevel": "Critical", 
+    "IssueCategory": "File Storage AD Auth", 
+    "IssueSubCategory": "FileADAuthComputerAccount", 
+    "Description": { 
+      "IsMarkdown": true, 
+      "Value": "There's no support for access to Azure Files via a computer identity.  Customer needs to adjust application to use a user identity that is synced to AAD." 
+    }, 
+    "RecommendedAction": { 
+      "Id": "df22a5fd-1c81-4381-9a54-b84760d66a57", 
+      "Text": { 
+        "IsMarkdown": false, 
+        "Value": "Send the customer the Customer Ready Content below and walk them through the recovery steps listed here" 
+      } 
+    }, 
+    "CustomerReadyContent": { 
+      "ArticleId": "85756996-b184-46e6-8865-c7e0fa88d64c" 
+    }, 
+    "Links": [ 
+      { 
+        "Type": 0, 
+        "Text": "Public Documentation - Note section", 
+        "Uri": "https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-auth-active-directory-enable" 
+      }, 
+      { 
+        "Type": 0, 
+        "Text": "CSS wiki", 
+        "Uri": "https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/295082/ADAuth-for-Azure-Files-1326-The-username-or-password-is-incorrect.-.md" 
+      } 
+    ],  
+    "ConfidenceLevel": "High", 
+    "Scope": "ResourceLevel" 
+  }
