@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax"
 	articleId="70d17a56-e4bb-43e0-97cd-b80ab05efae6"
 	ownershipId="Compute_VirtualMachines"
 />

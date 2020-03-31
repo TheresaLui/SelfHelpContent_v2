@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	resourceTags="windows,windowsSQL"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="publicm, fairfax"
 	articleId="3201a2b8-d746-4136-8c87-efba94789b12"
 	ownershipId="Compute_VirtualMachines"
 />
