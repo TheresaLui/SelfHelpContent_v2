@@ -451,10 +451,10 @@
     {
       "id": "92f207c2-1fad-b6e3-5dd5-a06f31a634f9",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issues only related to Online Backup failures using Azure Backup Server (MABS) ",
+      "searchTags": "backup;azure backup server;MAB",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "95c36c0c-9fad-f13d-d32e-301ee4b0434a",
