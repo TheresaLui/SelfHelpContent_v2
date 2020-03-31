@@ -70,7 +70,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide any additional details regarding the issue such as type of data being copied (blobs/files etc), number of objects and typical object sizes, data ports being used and and any other relevant information",
+            "watermarkText": "Please provide any additional details regarding the issue such as type of data being copied (blobs/files etc), number of objects and typical object size, data ports being used and and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         },
