@@ -26,7 +26,7 @@
 
 ### Common causes for failed Cluster deletion<br>
 
-* [Azure Kubernetes Services stuck in Creating or Deleting State](https://www.cloudockit.com/aks-azure-kubernetes-services-stucks-in-creating-or-deleting-state/)<br>
+* [Azure Kubernetes Services stuck in Creating or Deleting State](https://docs.microsoft.com/azure/aks/troubleshooting#im-receiving-errors-when-trying-to-create-update-scale-delete-or-upgrade-cluster-that-operation-is-not-allowed-as-another-operation-is-in-progress)<br>
 * ["AuthorizationFailed" error while trying to delete the AKS cluster](https://stackoverflow.com/questions/46921036/unable-to-delete-aks-cluster)<br>
 
 ### Other related articles<br>
