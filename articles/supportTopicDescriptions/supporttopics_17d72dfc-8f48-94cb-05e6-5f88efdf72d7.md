@@ -531,9 +531,9 @@
     {
       "id": "a96ff2f6-1274-f022-4321-43fd1beac140",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues related to backup performance of Azure Files Share (AFS)",
+      "searchTags": "slow;backup;AFS;Azure Files",
+      "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
