@@ -37,7 +37,7 @@
             "id": "is_copy_error",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Did you run 'Prepare to ship' for Data Box or 'Validation.cm' for Data Box Disk before shipping?",
+            "displayLabel": "Did you run 'Prepare to ship' for Data Box or 'Validation.cmd' for Data Box Disk before shipping?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -45,8 +45,8 @@
                     "text": "Yes"
                 },
                 {
-                    "value": "Yes",
-                    "text": "Yes"
+                    "value": "No",
+                    "text": "No"
                 },
                 {
                     "value": "dont_know_answer",
@@ -60,7 +60,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the details regarding copy speeds, number of devices connected simultanoeusly to the source system, what other operations were being performed when the issue occurred, whether the issue is intermittent or persistent, and any other relevant information",
+            "watermarkText": "Please provide any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         }
