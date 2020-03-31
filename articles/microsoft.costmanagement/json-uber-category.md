@@ -11,7 +11,7 @@ articleId="11c0b266-aebe-4a1f-80c3-da7b35a8ac35"
 selfHelpType="diagnoseandsolve"
 productPesIds=""
 cloudEnvironments="public,blackForest,fairfax,mooncake"
-	ownershipId=""
+	ownershipId="ASMS_Billing"
 />
 
 # Top common problems for Azure Cost Management
