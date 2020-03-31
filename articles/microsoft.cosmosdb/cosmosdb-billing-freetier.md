@@ -30,7 +30,7 @@ As demand continues to grow, if we are faced with any capacity constraints in an
 
 However, you should be able to perform all operations against your existing Free Tier Azure Cosmos DB account.
 
-For further information, please review our [commitment and service continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/).
+For further information, please review our [commitment and service continuity](https://aka.ms/Covid19Update).
 
 ### **Free tier account limits**
 - Number of free tier accounts per Azure subscription: *1*

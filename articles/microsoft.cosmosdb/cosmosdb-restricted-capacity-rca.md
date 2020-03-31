@@ -17,22 +17,18 @@
 
 # Azure Capacity Restrictions (COVID-19)
 
-We would like to request you to review the blog about [our commitment and service continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/) while we all fight together to battle global health pandemic.
+We would like to request you to review the blog about [our commitment and service continuity](https://aka.ms/Covid19Update) while we all fight together to battle global health pandemic.
 
 As per the continuity plan, we have placed some restriction on your account for any new resource deployment. However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions.
 
-You may run into capacity constraints when performing the following operations for **India, Germany, Europe, UK, Australia East or Southeast Asia** regions:
+You may run into capacity constraints when performing the following operations:
 
-- Provision/Create new Cosmos DB Account in any of the restricted regions.
-- Adding a restricted region to an existing Cosmos DB Account.
-- Provision a new Azure Cosmos DB Free Tier account.
+- Provision/Create new Cosmos DB Account
+- Adding a region to an existing Cosmos DB Account
+- Provision a new Azure Cosmos DB Free Tier account
 
 We apologize for any inconvenience caused and let us know if you have any further queries.
 
-## **Recommended Steps**
-
-Please consider using any other region closest to your desired region for new deployments.
-
 ## **Recommended Documents**
 
-[Our commitment and service continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/)
+[Our commitment and service continuity](https://aka.ms/Covid19Update)
