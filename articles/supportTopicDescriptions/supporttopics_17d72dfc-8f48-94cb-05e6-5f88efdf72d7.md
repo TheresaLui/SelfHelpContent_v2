@@ -507,9 +507,9 @@
     {
       "id": "a58dd7d1-2b80-0623-67fa-81e712aa3cce",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues specific to slow restore of Azure Files Share using Azure Backup ",
+      "searchTags": "AFS;Azure Files;Azure Files Share;Restore",
+      "category": "Restore",
       "useInDiagnoseAndSolve": "true"
     },
     {
