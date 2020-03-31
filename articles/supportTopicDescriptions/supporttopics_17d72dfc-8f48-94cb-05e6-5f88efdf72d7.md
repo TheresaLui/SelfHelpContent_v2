@@ -723,9 +723,9 @@
     {
       "id": "f53b0b53-ee00-ad7f-1279-8bd4d85df1e3",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues specific to managing Azure Files Shares (AFS) backup policy",
+      "searchTags": "AFS;Azure Files Share;Azure Files;policy",
+      "category": "Configure",
       "useInDiagnoseAndSolve": "true"
     },
     {
