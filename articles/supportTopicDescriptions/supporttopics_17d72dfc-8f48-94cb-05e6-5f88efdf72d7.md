@@ -643,10 +643,10 @@
     {
       "id": "d7e4bacd-18cf-e240-7b27-17285784450a",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issue only related to Online Backup configuring or enabling online backup ",
+      "searchTags": "online backup;MABS",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "e2aa9a66-6ea4-2de3-913a-b32dfdb5a316",
