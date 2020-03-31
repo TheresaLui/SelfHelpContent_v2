@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-connectors-connector-is-not-showing-data"
+	ownershipId="Azure_Sentinel"
 />
 
 # Your connector is not showing data

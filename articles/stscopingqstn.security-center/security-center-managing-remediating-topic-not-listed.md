@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="515e8242-debb-4027-a1cb-d5c3d8b17032"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Security Center – Remediating Recommendations – My Recommendation Topic is not Listed

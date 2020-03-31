@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="3c1bef04-37e0-13c3-1fd8-4f4c86143518"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # JavaScript library for embedding Power BI into your apps.

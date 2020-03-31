@@ -9,7 +9,8 @@
   articleid="billing-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" />
+  feedbackemail="email" 	ownershipId="ASMS_Billing"
+/>
 # Support Topic Descriptions for 517f2da6-78fd-0498-4e22-ad26996b1dfc
 ---
 {

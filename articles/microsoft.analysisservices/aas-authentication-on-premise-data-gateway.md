@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="8758e0b9-7dea-389f-9bd9-5bb8dcce2e95"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # On-premises data gateway support for Azure Analysis Services

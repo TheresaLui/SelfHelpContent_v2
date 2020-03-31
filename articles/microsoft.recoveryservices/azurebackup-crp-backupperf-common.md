@@ -10,8 +10,9 @@
 	supportTopicIds="32637321"
 	resourceTags=""
 	productPesIds="15571,15797,16470,16454,14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="3deace67-212d-4ace-9afd-02bf3f9babf8"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Azure Backup - Backup is taking longer than expected

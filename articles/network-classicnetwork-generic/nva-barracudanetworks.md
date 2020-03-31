@@ -12,6 +12,7 @@
 	productPesIds="16679"
 	cloudEnvironments="public,mooncake,fairfax,blackforest"
 	articleId="nva-barracudanetworks.md"
+	ownershipId="CloudNet_NVA"
 />
 
 # networkvirtualappliance/barracudanetworks
@@ -21,4 +22,5 @@ Use this support topic path for Azure specific issues (e.g. Virtual Network, UDR
 ## **Recommended Steps**
 
 * To get help from Barracuda, open a support request [here](https://www.barracuda.com/support)
+* [Working remotely: Network Virtual Appliance (NVA) considerations for remote work](https://docs.microsoft.com/azure/vpn-gateway/nva-work-remotely-support)
 * [Troubleshooting for Network Virtual Appliance issues in Azure](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva)

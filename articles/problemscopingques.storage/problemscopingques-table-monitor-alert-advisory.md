@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="342983ac-5062-4696-a0d3-9d87ac13be23"
+	ownershipId="StorageMediaEdge_StorageTables"
 />
 
 # Monitoring - Advisory questions

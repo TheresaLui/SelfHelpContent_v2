@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-creating-alerts-creating-or-troubleshooting-playbooks"
+	ownershipId="Azure_Sentinel"
 />
 
 # Create or troubleshoot playbooks

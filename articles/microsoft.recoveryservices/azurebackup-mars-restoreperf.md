@@ -12,6 +12,7 @@
          productPesIds="15207"
          cloudEnvironments="public"
          articleId="2267d7a8-4a24-4478-bc9f-c791ead46297"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Files and Folder Restore Performance

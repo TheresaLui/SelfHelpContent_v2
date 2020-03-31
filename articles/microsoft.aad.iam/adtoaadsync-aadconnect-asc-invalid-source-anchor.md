@@ -12,7 +12,8 @@ pageTitle="AAD Connect is configured using an unexpected source anchor"
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # AAD Connect is configured using an unexpected source anchor

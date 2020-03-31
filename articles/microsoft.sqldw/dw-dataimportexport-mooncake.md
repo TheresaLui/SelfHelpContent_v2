@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-dataimportexport-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # How to troubleshoot data import and export issues
 

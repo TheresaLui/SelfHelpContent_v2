@@ -10,8 +10,9 @@
 	supportTopicIds="32689186"
 	resourceTags=""
 	productPesIds="16957"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="b6e58700-3ad9-4742-934f-665659198190"
+	ownershipId="AzureIdentity_OtherMSGraphAPIs"
 />
 
 # Microsoft Graph Intune API issues

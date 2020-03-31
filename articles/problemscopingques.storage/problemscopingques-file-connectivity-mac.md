@@ -9,6 +9,7 @@
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
 	articleId="3EB210D0-F208-463E-9A67-4357829706A9"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Storage File Share connectivity issues - macOS
 ---

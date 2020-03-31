@@ -9,8 +9,9 @@
 	supportTopicIds="32588391, 32588392, 32588393, 32588394, 32588395, 32588396, 32588397, 32588398, 32588399, 32588400, 32588401"
 	resourceTags="linux"
 	productPesIds="16326"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="aa39b07f-930f-48fe-8c8c-3802f030fd75"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Container Instances

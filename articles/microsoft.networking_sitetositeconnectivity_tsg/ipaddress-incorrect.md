@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="3b6ba4ee-78cf-4147-93ab-d39ae5d59613"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # IP Address Incorrect

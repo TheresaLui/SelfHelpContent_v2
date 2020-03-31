@@ -12,6 +12,7 @@
     supportToicIds =""
     cloudEnvironments="MoonCake"
 	articleId="b8657f84-db5b-4ca7-b817-321111e9dba8"
+	ownershipId="AzureMessaging_Common"
 />
 
 # How do I configure PNS credentials?

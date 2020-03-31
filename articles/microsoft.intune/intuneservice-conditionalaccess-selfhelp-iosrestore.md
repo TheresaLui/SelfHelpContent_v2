@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="36af45c6-665a-4efe-bb25-c6bb384ddc15"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # A user received a new iOS device and restored it with data from an iCloud backup. The user is now able to access corporate email, even though the device has never been enrolled in Intune.

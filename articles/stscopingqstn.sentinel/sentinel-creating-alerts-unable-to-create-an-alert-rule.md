@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-creating-alerts-unable-to-create-an-alert-rule"
+	ownershipId="Azure_Sentinel"
 />
 
 # Unable to create an alert rule

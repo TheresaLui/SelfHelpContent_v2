@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="public"
 	articleId="31a759a6-fdd7-440e-99f4-1afe52833288"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 

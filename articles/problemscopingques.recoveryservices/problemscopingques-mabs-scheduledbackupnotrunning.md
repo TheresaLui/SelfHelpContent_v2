@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
 	 articleId="6c1b6a4b-e827-47f6-bfa8-556ae26e6ad8"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MABS scheduled backup is not run automatically
 ---

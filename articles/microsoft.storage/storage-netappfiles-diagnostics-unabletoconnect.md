@@ -13,6 +13,7 @@
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="NetAppNetworkControlPlaneIssues"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Network Control Plane Issues

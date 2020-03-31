@@ -9,6 +9,7 @@
 	productPesIds="16462"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_StorageTables"
 />
 # Table Security Issues
 ---

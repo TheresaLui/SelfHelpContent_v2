@@ -12,6 +12,7 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="keyvault-keyvaultfirewall-res"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Azure Key Vault Behind Firewall

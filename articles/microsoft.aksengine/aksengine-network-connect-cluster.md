@@ -10,8 +10,9 @@
     supportTopicIds="32689832"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="76842b51-p016-4acb-9ef4-f78c5e87ec25"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Unable to connect to cluster

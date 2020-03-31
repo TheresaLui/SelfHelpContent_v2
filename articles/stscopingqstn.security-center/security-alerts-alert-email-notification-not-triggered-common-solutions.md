@@ -13,6 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="c3eaf0dd-97cf-4d12-83f6-f39126a72887"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Security Alerts - Alert email notification not triggered Common Solutions

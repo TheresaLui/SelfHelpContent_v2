@@ -13,7 +13,8 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Directory policy prohibits invitations by guest users

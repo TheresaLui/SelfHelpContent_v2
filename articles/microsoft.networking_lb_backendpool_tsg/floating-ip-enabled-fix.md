@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="7b551c23-e9e1-45c6-a56c-8d888db664c5"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Disable or correct the Floating IP configuration

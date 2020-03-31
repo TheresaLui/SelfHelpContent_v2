@@ -13,6 +13,7 @@
 	articleId="cosmosdb-gremlin-partitioning"
 	displayOrder="183"
 	category="Gremlin (Graph)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Gremlin - Partitioning
 Most users are able to resolve their Gremlin Partitioning issue using the steps below. 

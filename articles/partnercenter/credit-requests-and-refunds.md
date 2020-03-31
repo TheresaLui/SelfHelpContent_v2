@@ -15,6 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Credit requests and refunds
 Partners may have different reasons for asking for credit or refunds. Follow the steps below to submit a request that can efficiently evaluated.

@@ -12,6 +12,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="b5751b4a-3d44-46ae-bfa2-eb894e719146"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Troubleshoot file/storage issues

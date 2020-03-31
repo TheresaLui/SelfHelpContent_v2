@@ -13,6 +13,7 @@
 	articleId="cosmosdb-partitioning"
 	displayOrder="240"
 	category="Throughput and Scaling"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Introduction to Partitioning and Scale in Azure Cosmos DB

@@ -12,6 +12,7 @@
 	productPesIds="14783"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="85b165a6-cfe3-404f-89ab-82197ac17e6b"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # Timeouts with Azure Cache For Redis

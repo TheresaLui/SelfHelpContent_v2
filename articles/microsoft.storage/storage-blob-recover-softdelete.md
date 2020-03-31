@@ -13,6 +13,7 @@
 	productPesIds="16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="d7c6e609-d580-4502-a4ed-32c2303578b1"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Recover deleted Blob with soft delete

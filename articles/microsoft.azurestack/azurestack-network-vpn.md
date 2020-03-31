@@ -10,8 +10,9 @@
     supportTopicIds="32629282"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-network-vpn"
+    ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack VPN for User Environment
@@ -23,7 +24,7 @@ Create a site-to-site VPN to connect a virtual network in Azure Stack to a virtu
 1. First, review [VPN service differences on Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
 2. [Create the network resources in Azure](https://docs.microsoft.com/azure/azure-stack/azure-stack-connect-vpn#create-the-network-resources-in-azure)
 3. [Create the connection](https://docs.microsoft.com/azure/azure-stack/azure-stack-connect-vpn#create-the-connection)
-4. [Create a virtual machine](https://docs.microsoft.com/azure/azure-stack/azure-stack-connect-vpn#create-a-virtual-machine)
+4. [Create VPN gateways for Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-vpn-gateway-about-vpn-gateways)
 5. [Create the network resources in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-connect-vpn#create-the-network-resources-in-azure-stack)
 6. [Test the connection](https://docs.microsoft.com/azure/azure-stack/azure-stack-connect-vpn#test-the-connection)
 

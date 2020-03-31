@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-viewing-alerts-creating-or-handling-bookmarks"
+	ownershipId="Azure_Sentinel"
 />
 
 # Creating or handling bookmarks

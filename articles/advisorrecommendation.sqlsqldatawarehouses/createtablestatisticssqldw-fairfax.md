@@ -6,6 +6,7 @@
     articleId="ef14bcc2-41a5-41f6-bca8-10764cfbdee0_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 # Create statistics on table columns
 ---

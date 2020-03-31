@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="aa0a10b6-2411-05eb-4cf7-43562ea22b1f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # How to migrate Power BI Workspace Collection content to Power BI Embedded

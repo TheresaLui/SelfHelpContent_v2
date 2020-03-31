@@ -13,6 +13,7 @@
 	articleId="cosmosdb-admin-securityvnetendpoint"
 	displayOrder="24"
 	category="Administration"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Connection failure after VNet service endpoint configuration

@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="448074e2-428a-4985-997d-2e3ce3cb345a"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Configure Backup using Azure backup server
 

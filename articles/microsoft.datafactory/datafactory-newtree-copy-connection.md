@@ -13,7 +13,8 @@
 	supportTopicIds="32629463"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Connect to Data Store

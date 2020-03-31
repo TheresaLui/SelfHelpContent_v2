@@ -12,6 +12,7 @@
 	productPesIds="15629,16461,16462"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="36bb39f4-b6d0-40cc-b011-6740948b2c34"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Access or Security Issues

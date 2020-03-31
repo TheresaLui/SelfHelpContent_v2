@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="500e388f-eb08-4403-93de-aed1702cfcde"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Create or drop my issue is not listed

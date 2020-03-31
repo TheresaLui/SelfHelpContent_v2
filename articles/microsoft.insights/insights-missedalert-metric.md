@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public, fairfax"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # My metric alert doesn't fire when it should have
@@ -35,6 +36,7 @@ If they are not what you want, edit the rule to match what you want.
 
 2. Review the [fired alerts list](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) to see if there any alerts fired for your metric alert rule. If you can see the alert in the portal, then the issue might be with notifications:
 
+    - Check if proper actions/notifications were configured for the alert rule using an associated [action group](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups) or an [action rule](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-action-rules)
     - Check if you have any rules that might prevent receiving emails from [Azure emails](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups#action-specific-information)
     - Check if your web hook receiver accepts the [payload sent by metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time#payload-schema)
     - Check if you have any [action rules](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-action-rules) that suppress notifications for your alert rule

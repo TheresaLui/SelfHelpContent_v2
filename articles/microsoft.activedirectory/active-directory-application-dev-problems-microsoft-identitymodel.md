@@ -12,6 +12,7 @@
     productPesIds="16575"
     CloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
     articleId="cb6ca4c1-d40b-44fc-bfd9-46dea8773765"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # I have problems using Microsoft.IdentityModel (ASP.NET Core and ASP.NET)

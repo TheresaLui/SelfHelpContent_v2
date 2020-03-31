@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-connectors-my-connector-scenario-is-not-listed"
+	ownershipId="Azure_Sentinel"
 />
 
 # Your connector scenario is not listed

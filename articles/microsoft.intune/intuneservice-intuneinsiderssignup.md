@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="6e8dd6ad-738e-433f-a235-3eb2c2b1e51c"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Sign up your tenant to receive pre-release features

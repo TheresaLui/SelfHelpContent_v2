@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="Mooncake"
 	articleId="fe7cc207-ad1d-43a4-a4d8-a6d2333fe657"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # How does CDN deploy image cache

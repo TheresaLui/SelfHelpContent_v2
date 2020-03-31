@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="387818de-7bdd-49e0-b1be-09cd3c3f8999"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # containers-setup

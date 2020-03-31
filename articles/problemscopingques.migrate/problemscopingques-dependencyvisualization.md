@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32675744"
          productPesIds="16348"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax"
          schemaVersion="1"
          articleId="4060b4a6-6e58-45cc-8ad7-a2965d59becd"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Dependency Visualization

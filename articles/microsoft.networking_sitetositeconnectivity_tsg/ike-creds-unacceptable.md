@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="dbb2ca02-516d-4b60-a0f6-e7c2e3e69b92"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # IKE Creds Unacceptable

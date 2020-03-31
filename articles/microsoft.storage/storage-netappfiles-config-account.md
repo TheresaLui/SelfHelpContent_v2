@@ -12,6 +12,7 @@
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="NetAppConfigAccountCreationIssue"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Troubleshoot and resolve NetApp Files account creation issues 

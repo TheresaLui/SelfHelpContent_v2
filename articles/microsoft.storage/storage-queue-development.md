@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16461"
 	cloudEnvironments="public,Mooncake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageQueues"
 />
 
 # Development with Azure Queue

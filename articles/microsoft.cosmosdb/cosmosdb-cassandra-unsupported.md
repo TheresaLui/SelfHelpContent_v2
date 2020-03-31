@@ -11,6 +11,7 @@
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="cosmosdb-cassandra-unsupported"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Apache Cassandra features Supported by Azure Cosmos DB Cassandra API

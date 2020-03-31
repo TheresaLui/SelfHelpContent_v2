@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="85a2d1a0-376b-418b-aa67-a76963c4eddb"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Develop and Customize - Intune Data Warehouse API

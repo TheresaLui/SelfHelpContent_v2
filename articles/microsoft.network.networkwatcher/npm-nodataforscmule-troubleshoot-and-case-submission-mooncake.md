@@ -7,11 +7,12 @@
 	authors="vinynigam"
 	displayOrder="3"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32606443"
 	resourceTags="optional"
-	productPesIds=""
+	productPesIds="16160"
 	cloudEnvironments="MoonCake"
 	articleId="npm-nodataforscmule-troubleshoot-and-case-submission-mooncake"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # No monitoring data in NPM for a specific rule

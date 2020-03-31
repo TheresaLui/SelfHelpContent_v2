@@ -12,6 +12,7 @@
 	productPesIds="14749,14745"
 	cloudEnvironments="public,fairfax"
 	articleId="0ab4f15c-3ab7-44d1-8f36-f81b3156971b"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Diagnose and resolve Virtual Machine GPU performance issues

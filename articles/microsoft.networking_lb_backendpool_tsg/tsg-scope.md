@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="98be4581-6c62-4aa7-afd5-738a83004a1c"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # TSG Scope

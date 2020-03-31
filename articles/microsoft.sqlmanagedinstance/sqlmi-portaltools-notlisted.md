@@ -14,6 +14,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public"
 	articleId="476e5ba5-cb1c-41d8-80ce-ccafd261c5bc"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Portal Tools - My issue is not listed

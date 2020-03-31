@@ -14,6 +14,7 @@
 	resourceTags="8000Series"
 	productPesIds="15438"
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Disk drive failure or local storage in degraded state 

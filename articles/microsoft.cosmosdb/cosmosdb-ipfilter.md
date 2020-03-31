@@ -13,6 +13,7 @@
 	articleId="cosmosdb-ipfilter"
 	displayOrder="25"
 	category="Administration"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Connecting to Azure Cosmos DB accounts  

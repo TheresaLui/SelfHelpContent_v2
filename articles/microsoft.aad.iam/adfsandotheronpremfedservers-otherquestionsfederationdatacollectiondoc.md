@@ -4,9 +4,10 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32565603" 
 	 productPesIds="14785" 
-	 cloudEnvironments="public" 
+	 cloudEnvironments="public, Fairfax, Mooncake" 
 	 schemaVersion="1"
 	articleId="33c4287b-c5ad-4586-a033-a5e0826a8208"
+	ownershipId="ASEP_ContentService_Placeholder"
 /> 
 # Other problems with ADFS 
 ---

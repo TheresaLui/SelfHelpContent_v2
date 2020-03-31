@@ -10,8 +10,9 @@
     supportTopicIds="32663892"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-vm-windows"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack Windows-based virtual machines

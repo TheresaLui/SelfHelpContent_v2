@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="b0ee2316-eff3-4165-bb99-9bec920416b7"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Security Center – Configuring Features – My Feature is not listed

@@ -12,6 +12,7 @@
 	productPesIds="16160"
     articleId="ta-malicious-info"
 	cloudEnvironments="public,fairfax,mooncake"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # Traffic Analytics - Malicious Data

@@ -12,6 +12,7 @@
 	productPesIds="16160"
 	cloudEnvironments="public,fairfax,mooncake"
 	articleId="67d46e6c-ee76-4433-8e11-1adcbdef0e12"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # Connection Monitor

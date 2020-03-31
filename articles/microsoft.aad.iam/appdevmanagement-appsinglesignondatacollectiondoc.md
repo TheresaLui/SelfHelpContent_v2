@@ -6,10 +6,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570259"
     productPesIds="16575"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake"
     schemaVersion="1"
     articleId="appsinglesignondatacollectiondoc"
-    />
+    	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
+/>
 
 # Active Directory application single sign on issue
 

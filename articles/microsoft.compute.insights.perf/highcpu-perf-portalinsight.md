@@ -13,7 +13,8 @@
     supportTopicIds="32628264,32628261,32628277,32628275,32628268,32628270,32633490,32633512,32633522,32633524,32633527"
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # **Instances of High CPU detected on the VM in last 24 hrs**
@@ -21,7 +22,7 @@
 ## **Do you know there were several High CPU instances on this <!--$vmname-->[vmname]<!--/$vmname--> in last 24 hrs?**
 
 <!--issueDescription-->
-Our diagnostics show there were several instances where Average Max CPU on this VM was above 90%.
+Our diagnostics show there were several instances where Average Max CPU counter on this VM was above 90% (10 minute time window) over the last 24 hours.
 <!--/issueDescription-->
 
 **What can cause CPU spike on a VM?**

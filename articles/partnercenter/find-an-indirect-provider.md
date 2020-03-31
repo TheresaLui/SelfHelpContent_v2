@@ -10,11 +10,12 @@
 	articleId="find_an_indirect_provider"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635672"
+	supportTopicIds="32635672,32730250"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="15960,17012"
 	cloudEnvironments="public"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
 # Find an Indirect provider

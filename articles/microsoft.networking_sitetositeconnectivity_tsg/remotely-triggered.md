@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="38fddc70-6a4c-4a04-8fbd-23959ccf0bf9"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Remotely Triggered Disconnect

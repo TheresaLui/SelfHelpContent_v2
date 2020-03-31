@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="e5fa153c-17a6-473c-8b12-2482e52be78d"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to check Brooklyn Diagnostic Logs for Route Based VPN

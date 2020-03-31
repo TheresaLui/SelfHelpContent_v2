@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="77e036e4-49bf-4a94-b494-0aa1cd580c6a"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Files and Folder backup unable to (re)register to vault

@@ -12,6 +12,7 @@
     productPesIds="15879"
     cloudEnvironments="public"
     articleId="c581002a-c399-485d-b8f5-fdfebf7485f9"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # Issue not listed

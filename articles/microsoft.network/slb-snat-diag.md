@@ -13,7 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public,Fairfax,Mooncake"
+ownershipId="CloudNet_LoadBalancer"
 />
 # Source NAT (SNAT) Diagnostic Result
 

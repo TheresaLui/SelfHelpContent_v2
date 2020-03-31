@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="8914d3eb-ef72-48b6-aa76-e80246b99342"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 #  When backup of SAP HANA fails follow these troubleshooting steps listed by error code

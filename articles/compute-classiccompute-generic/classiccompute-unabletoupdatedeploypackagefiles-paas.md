@@ -9,8 +9,9 @@
 	supportTopicIds="32565479"
 	resourceTags=""
 	productPesIds="13185"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="2c57a5c2-1fbf-4b12-94c6-35a53e85fee1"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # worker role (paas)/Deployment/Unable to update/deploy package files

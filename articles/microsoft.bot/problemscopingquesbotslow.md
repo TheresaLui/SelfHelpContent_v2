@@ -9,6 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="631FA214-FF21-4827-B678-AD2B49436F2C"
+	ownershipId="Compute_BotService"
 />
 # Bot is slow to respond
 ---

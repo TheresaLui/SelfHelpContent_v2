@@ -12,6 +12,7 @@
 	productPesIds="16679"
 	cloudEnvironments="public,mooncake,fairfax,blackforest"
 	articleId="nva-riverbedtech.md"
+	ownershipId="CloudNet_NVA"
 />
 
 # networkvirtualappliance/riverbedtechnology
@@ -21,4 +22,5 @@ Use this support topic path for Azure specific issues (e.g. Virtual Network, UDR
 ## **Recommended Steps**
 
 * To get help from Riverbed Technology, open a support request [here](https://support.riverbed.com)
+* [Working remotely: Network Virtual Appliance (NVA) considerations for remote work](https://docs.microsoft.com/azure/vpn-gateway/nva-work-remotely-support)
 * Check [troubleshooting for Network Virtual Appliance issues in Azure](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva) for additional details

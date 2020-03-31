@@ -11,6 +11,7 @@
 	supportTopicIds="32690869"
 	productPesIds="16644"
 	cloudEnvironments="public"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # My graphs load slowly
