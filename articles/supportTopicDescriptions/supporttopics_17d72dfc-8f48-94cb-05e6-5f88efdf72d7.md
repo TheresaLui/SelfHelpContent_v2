@@ -283,9 +283,9 @@
     {
       "id": "52f1a27a-c8a2-9455-896c-c3ee9c6d07d9",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues specific to Reporting with Diagnostics Settings",
+      "searchTags": "report ;diagnostics",
+      "category": "Alerts and Reports",
       "useInDiagnoseAndSolve": "true"
     },
     {
