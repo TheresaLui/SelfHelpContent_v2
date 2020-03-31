@@ -17,9 +17,9 @@
 
 # How to check if an LSI is in progress
 
-1. In some cases, there might be an existing LSI(Live Site Incident) occurred at the affected morment. 
-2. If you can find that LSI, you can deliver the issue shortly to the customer. 
-3. When checking LSIs, ASC will show you the service impact that the subscription has/is feeling recently
+1. In some cases, there might be an existing LSI(Live Site Incident) that occurred at the affected morment of the VM Restart. 
+2. If you can find that LSI, you can deliver the issue quickly to the customer. 
+3. When checking LSIs, ASC will show you the service impact on the subscription
 4. In ASC, under Resource Explorer, Select the Virtual Machine customer request investigation;
 5. Select Health Tab
    1. Analyze the following components for more information 
