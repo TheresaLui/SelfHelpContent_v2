@@ -2,16 +2,15 @@
   pagetitle="Support topic description for Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
-  ms.author="akankshajsh, v-kraku"
+  ms.author="akankshajsh, v-kraku, srinathv"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, blackforest, fairfax, mooncake"
   articleid="azure-backup-supporttopicdescription"
+  ownershipid="StorageMediaEdge_Backup"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email"
-  ownershipId="StorageMediaEdge_Backup" 
-  />
+  feedbackemail="email" />
 # Support Topic Descriptions for 17d72dfc-8f48-94cb-05e6-5f88efdf72d7
 ---
 {
@@ -168,6 +167,14 @@
       "searchTags": "Price;How-to-configure;Pre-registration script;Discovery",
       "category": "Advisory",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "2bbb5618-ac8c-9acf-c6f2-d46d5466340b",
+      "longDescription": "",
+      "shortDescription": "Issues only related to backup configuration of SAP DB, prerequisites, network connectivity ",
+      "searchTags": "SAP ;configure;network;configuration",
+      "category": "configure",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "2dcffbf9-693b-c340-e472-67e5c882ad7b",
