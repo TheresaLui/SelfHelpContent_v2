@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Customer Scenario Out of Scope for TSG"
-	description="Customer Scenario Out of Scope for TSG"
+	pageTitle="Check the customer scenario"
+	description="Check the customer scenario"
 	service="microsoft.network"
 	ownershipid="Centennial_Cloudnet_VirtualNetwork"
 	resource="virtualNetwork"
 	authors="chadmath"
 	ms.author="chadmat"
 	selfHelpType="TSG_Content"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public,Fairfax"
 	articleId="653afd29-8caa-4216-bd50-cd9e4ea0af62"
 />
 
