@@ -21,7 +21,6 @@ Azure Cache for Redis offers increased network security through virtual network 
 
 ## **Recommended Documents**
 
-
 * [Create a cache in a virtual network](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-how-to-premium-vnet)<br>
 * [Add firewall rules to your cache](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-configure#firewall)
 * [Configure your application to use TLS](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-remove-tls-10-11)<br>
