@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="e259c719-617b-45ce-8ae8-4dec0d03f7ae"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Where can I suggest new features or a design change request (DCR)?

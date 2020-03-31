@@ -10,8 +10,9 @@
     supportTopicIds="32636496"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, MoonCake, Fairfax"
     articleId="302b8254-83e6-4005-9d2e-891f19ebc0f3"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsights Query Failure - Spark

@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="f46fb4c2-0e25-4574-9aa0-1bb65c696543"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for unable to discover DB
 ---
@@ -113,10 +114,6 @@
 				{
 					"value": "Checked the Machine has Internet connectivity",
 					"text": "Checked the Machine has Internet connectivity"
-				},
-				{
-					"value": "Checked the SAP HANA system has required permission for backup",
-					"text": "Checked the SAP HANA system has required permission for backup"
 				},
 				{
 					"value": "dont_know_answer",

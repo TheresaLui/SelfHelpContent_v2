@@ -12,6 +12,7 @@
 	productPesIds="16152"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="F1B0CC52-EB97-4421-AE6F-3A35BEF8DE79"
+	ownershipId="Compute_BotService"
 />
 
 # Delete a bot

@@ -9,6 +9,7 @@
 	productPesIds="16459,16598"
 	cloudEnvironments="public"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Blob Security Issue
 ---

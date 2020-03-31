@@ -12,7 +12,8 @@ pageTitle="Scheduler maintenance tasks are disabled"
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Scheduler maintenance tasks are disabled

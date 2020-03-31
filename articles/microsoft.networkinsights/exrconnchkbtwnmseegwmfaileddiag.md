@@ -12,8 +12,9 @@
     supportTopicIds="32539944, 32539947"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax"
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 
 # Microsoft Azure has identified an issue regarding the MSEE (Microsoft Enterprise Edge router)
 <!--/issueDescription-->

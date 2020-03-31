@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="c3ef72a1-f525-4fa8-8ae7-4b11d662de4d"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Linux Agent/OMS agent: Running high memory

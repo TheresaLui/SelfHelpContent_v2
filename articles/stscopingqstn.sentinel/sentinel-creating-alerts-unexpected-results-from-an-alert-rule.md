@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-creating-alerts-unexpected-results-from-an-alert-rule"
+	ownershipId="Azure_Sentinel"
 />
 
 # You got unexpected results from an alert rule

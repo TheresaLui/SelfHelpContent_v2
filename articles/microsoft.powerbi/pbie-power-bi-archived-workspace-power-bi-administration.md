@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="cb904a11-4917-667a-dc79-85a43ae1c8b6"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Power BI Archived Workspace

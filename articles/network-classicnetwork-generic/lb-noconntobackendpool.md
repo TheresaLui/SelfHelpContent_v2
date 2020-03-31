@@ -12,6 +12,7 @@
 	productPesIds="16098"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="8deb7553-0965-45d3-a66d-895655a50a6b"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Azure Load Balancer backend pool connection issues

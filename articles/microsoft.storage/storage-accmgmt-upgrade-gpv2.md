@@ -12,6 +12,7 @@
 	productPesIds="15629"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="D368847C-2C48-4E3B-8125-5290E78DB641"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Upgrade to GPv2 storage account

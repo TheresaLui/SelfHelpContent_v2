@@ -10,8 +10,9 @@
     supportTopicIds="32629205"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-deployment-deployquestions"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Stack deployment questions

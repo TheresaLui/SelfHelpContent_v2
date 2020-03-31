@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16575"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # <-- I can't add a user-assigned managed identity to a Virtual Machine/Virtual Machine Scale Set -->

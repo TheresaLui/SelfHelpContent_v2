@@ -8,6 +8,7 @@
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="363b77ba-c498-4b5e-84e1-aa417a79c539"
+	ownershipId="IntuneCxP_Intune"
 />
 # Enroll Devices - Android enrollment
 ---

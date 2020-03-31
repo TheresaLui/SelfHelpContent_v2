@@ -12,7 +12,8 @@ pageTitle="Password Hash Synchronization has stopped working"
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Password Hash Synchronization has stopped working

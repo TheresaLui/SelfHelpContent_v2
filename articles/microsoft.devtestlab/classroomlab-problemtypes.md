@@ -12,6 +12,7 @@
     productPesIds="15968"
     cloudEnvironments="public"
     articleId="c3de7ceb-08a1-4eb0-988b-04409d799e0a"
+	ownershipId="AzureLabServices_DevTestLab"
 />
 
 # Classroom Labs Problem Types

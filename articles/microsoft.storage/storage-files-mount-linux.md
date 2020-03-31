@@ -12,6 +12,7 @@
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="6d772158-93c0-4944-a6b5-4d997a6e8289"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Troubleshooting Azure File Mount Issues on Linux

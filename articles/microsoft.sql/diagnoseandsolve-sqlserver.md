@@ -11,6 +11,7 @@ articleId="7e485e61-34af-4d6c-acb3-b36b85227e3b"
 selfHelpType="diagnoseandsolve"
 productPesIds="13491"
 cloudEnvironments="public,blackForest,fairfax,mooncake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Top common problems for SQL Servers

@@ -13,6 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="1d732fbc-7cac-4f13-a6e0-63d2af7aab16"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # IoT Hub - IoT Custom Alerts

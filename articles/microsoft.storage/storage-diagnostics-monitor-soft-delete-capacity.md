@@ -13,6 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Soft delete capacity caused Storage capacity spike

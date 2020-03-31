@@ -12,6 +12,7 @@
     productPesIds="16094"
     cloudEnvironments="public, fairfax, blackforest, mooncake"
     articleId="vpngw-onpremdeviceconfig"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # On premise device configuration script issues
 

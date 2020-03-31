@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="4cea27ca-0a1a-4382-838f-02a2ed10855d"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Diagnose and resolve issues for Azure Virtual Machine Backup and Restore

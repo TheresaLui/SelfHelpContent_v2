@@ -7,8 +7,9 @@
   selfHelpType="generic"
   supportTopicIds="32596844"
   productPesIds="14785"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax, Mooncake"
  	articleId="2af22291-c3ae-4e81-a2ae-b7f9501e8595"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Issues developing apps against Exchange Online

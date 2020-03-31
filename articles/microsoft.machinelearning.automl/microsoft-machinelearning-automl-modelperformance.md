@@ -11,6 +11,7 @@
 	cloudEnvironments="Public"
 	articleId="microsoft.machinelearning.automl.modelperformance"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Model Performance

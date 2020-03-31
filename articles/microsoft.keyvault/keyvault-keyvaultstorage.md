@@ -12,6 +12,7 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="keyvault-keyvaultstorage"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Manage Storage Account Keys

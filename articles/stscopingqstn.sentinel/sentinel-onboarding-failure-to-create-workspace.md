@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-onboarding-failure-to-create-workspace"
+	ownershipId="Azure_Sentinel"
 />
 
 # Failure to create workspace

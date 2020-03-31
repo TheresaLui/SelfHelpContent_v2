@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="accessandresourcemanagementissuessigninginoraccessingmysubscription"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # issues signing in or accessing my subscription

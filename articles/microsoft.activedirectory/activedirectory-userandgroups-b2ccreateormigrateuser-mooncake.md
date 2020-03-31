@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="activedirectory-userandgroups-b2ccreateormigrateuser-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # B2C: How to create or migrate users into Azure AD B2C

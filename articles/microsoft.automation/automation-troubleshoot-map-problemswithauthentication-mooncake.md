@@ -12,6 +12,7 @@
     resourceTags=""
     cloudEnvironments="MoonCake"
 	articleId="automation-troubleshoot-map-problemswithauthentication-mooncake"
+	ownershipId="Compute_Automation"
 />
 
 # Problems with Run As accounts and authentication in runbooks

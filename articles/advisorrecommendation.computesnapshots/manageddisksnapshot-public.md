@@ -6,6 +6,7 @@
     articleId="702b474d-698f-4029-9f9d-4782c626923e_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Use Standard Storage to store Managed Disks snapshots
 ---
@@ -24,7 +25,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Compute/snapshots",
   "recommendationFriendlyName": "ManagedDiskSnapshot",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

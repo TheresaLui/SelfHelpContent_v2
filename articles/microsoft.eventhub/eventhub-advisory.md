@@ -12,6 +12,7 @@
 	productPesIds="16125"
 	cloudEnvironments="public,BlackForest,Fairfax"
 	articleId="b6e0ca7b-4585-493d-844b-ad856e1aa054"
+	ownershipId="AzureMessaging_Common"
 />
 
 # advisory and development questions

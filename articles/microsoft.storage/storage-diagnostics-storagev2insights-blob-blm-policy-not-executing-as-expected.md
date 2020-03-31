@@ -13,6 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
 cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Lifecycle Management may not have executed as expected

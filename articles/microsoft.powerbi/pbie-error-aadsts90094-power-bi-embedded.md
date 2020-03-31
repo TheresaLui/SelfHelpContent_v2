@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="046a16f4-857a-727c-fa18-987003aad827"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # AADSTS90094: The grant requires admin permission

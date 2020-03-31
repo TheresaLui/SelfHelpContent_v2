@@ -13,6 +13,7 @@
 	articleId="cosmosdb-changefeed"
 	displayOrder="61"
 	category="Core (SQL)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Change feed in Azure Cosmos DB

@@ -12,6 +12,7 @@
 	productPesIds="14745"
 	cloudEnvironments="public,fairfax"
 	articleId="f83877ee-08c5-4c00-bb48-67eb77055a2b"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # performance/sql server slow

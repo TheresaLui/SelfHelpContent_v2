@@ -9,6 +9,7 @@
 	productPesIds="16094"
 	cloudEnvironments="public,fairfax,blackforest,mooncake"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Configure a point-to-site client information
 ---

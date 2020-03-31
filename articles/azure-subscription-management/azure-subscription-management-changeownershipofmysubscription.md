@@ -10,8 +10,9 @@
 	supportTopicIds="32454918"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="howtochangeownershipofmysubscription"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Change ownership of my subscription

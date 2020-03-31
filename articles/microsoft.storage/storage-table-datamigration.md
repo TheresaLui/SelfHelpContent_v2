@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16462"
 	cloudEnvironments="public,Mooncake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageTables"
 />
 
 # How to find the right data migration method

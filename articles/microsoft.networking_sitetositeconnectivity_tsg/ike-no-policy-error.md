@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="199f28b5-e8b6-4404-be2f-b74e34411832"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Gateway not sending IPsec traffic

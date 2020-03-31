@@ -10,8 +10,9 @@
 	supportTopicIds="32608648"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="6b71a02d-8af7-4491-ba12-aff37179c77e"
+	ownershipId="Compute_AppService"
 />
 
 # authentication and authorization/Managed Service Identity (MSI) Integration 

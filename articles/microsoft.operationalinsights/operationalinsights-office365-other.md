@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="3f1843a8-303c-4ea4-b120-1347a901c6e1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # office365-other

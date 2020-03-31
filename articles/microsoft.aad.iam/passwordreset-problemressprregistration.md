@@ -5,9 +5,10 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32615432" 
 	 productPesIds="16579" 
-	 cloudEnvironments="public" 
+	 cloudEnvironments="public, Fairfax, Mooncake" 
 	 schemaVersion="1"
 	 articleId="fae4f8fc-ccc5-40a6-80f0-dfee2c026c5a"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 /> 
 # Problem with user-initiated password reset 
 ---

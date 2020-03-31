@@ -9,6 +9,7 @@
 	productPesIds="16598"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 # Data Lake Storage Gen2 Firewall Connectivity Issue
 ---

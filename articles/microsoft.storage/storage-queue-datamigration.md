@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16461"
 	cloudEnvironments="public,Mooncake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageQueues"
 />
 
 # How to find the right data migration method

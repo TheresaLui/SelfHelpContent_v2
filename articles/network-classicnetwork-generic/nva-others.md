@@ -12,6 +12,7 @@
 	productPesIds="16679"
 	cloudEnvironments="public,mooncake,fairfax,blackforest"
 	articleId="nva-others.md"
+	ownershipId="CloudNet_NVA"
 />
 
 # networkvirtualappliance/others
@@ -20,4 +21,5 @@ Use this support topic path for Azure specific issues (e.g. Virtual Network, UDR
 
 ## **Recommended Steps**
 
+* [Working remotely: Network Virtual Appliance (NVA) considerations for remote work](https://docs.microsoft.com/azure/vpn-gateway/nva-work-remotely-support)
 * Check [troubleshooting for Network Virtual Appliance issues in Azure](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva)

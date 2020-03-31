@@ -12,7 +12,8 @@ pageTitle="Staging server(s) status changed"
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="14785"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Staging server(s) status changed

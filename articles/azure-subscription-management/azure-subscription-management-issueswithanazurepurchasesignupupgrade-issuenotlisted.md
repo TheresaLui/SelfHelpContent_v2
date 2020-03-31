@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="issueswithpurchasesignuporupgrade-issuenotlisted"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Purchase,signup or upgrade - issue not listed

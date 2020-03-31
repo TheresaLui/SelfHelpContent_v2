@@ -12,6 +12,7 @@
 	productPesIds="15629"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="d7a99bd7-9456-4186-aae4-a4e6b85c0bf0"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Change to ZRS replication type

@@ -10,7 +10,8 @@
 	supportTopicIds="32629483"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Iterative Development and Debugging Experiences

@@ -10,6 +10,7 @@
 	productPesIds="15947"
 	cloudEnvironments="public"
     articleId="e7625c691-p70f-0cjf-aa9a-9kcf7097e89f"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Azure Security Center Overview

@@ -9,7 +9,8 @@
   articleid="virtual-machine-running-windows-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" />
+  feedbackemail="email" 	ownershipId="StorageMediaEdge_StorageTables"
+/>
 # Support Topic Descriptions for 6f16735c-b0ae-b275-ad3a-03479cfa1396
 ---
 {
@@ -82,7 +83,7 @@
     {
       "id": "0d97aa83-8c20-0262-0e54-4525eb0c427a",
       "longDescription": null,
-      "shortDescription": "Covers issues related to migrating or moving a virtual machine or associated resource on Azure",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -90,7 +91,7 @@
     {
       "id": "0db4fa03-52e9-4c97-09b4-9907b53ecae9",
       "longDescription": null,
-      "shortDescription": "VMs might sometimes restart without the user initiating the operation - this could be due to factors such as an OS update or a guest OS on the machine",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -106,7 +107,7 @@
     {
       "id": "12ba6e9b-cd71-6f10-0f95-b4028afcd4da",
       "longDescription": null,
-      "shortDescription": "Common problems related to creating a new Azure virtual machine such as provisioning or allocation failures",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
@@ -122,7 +123,7 @@
     {
       "id": "140159b4-cf4f-69a4-ce90-bad0a4f3a2e8",
       "longDescription": null,
-      "shortDescription": "Questions specific to backing up or restoring your Azure virtual machine using Azure Backup",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -194,7 +195,7 @@
     {
       "id": "32e9eab8-0dfe-2ee6-aa44-226df969736c",
       "longDescription": null,
-      "shortDescription": "Issues when resizing, attaching/detaching, or performing other tasks on a virtual disk",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -226,7 +227,7 @@
     {
       "id": "3bbbcb43-c3a5-64eb-eb73-f8b254e36d32",
       "longDescription": null,
-      "shortDescription": "Covers issues related to configuration of a failover cluster, RDS, or disk encryption for a VM running in Azure",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -266,7 +267,7 @@
     {
       "id": "44e1bd26-fbd8-a7f9-f8de-8a2b47ccb27e",
       "longDescription": null,
-      "shortDescription": "Troubleshoot issues with activating Windows for a virtual machine running in Azure",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -282,7 +283,7 @@
     {
       "id": "4c8242d3-5e7c-8369-d5fb-95c4cd3de057",
       "longDescription": null,
-      "shortDescription": "Troubleshoot issues that can affect a Windows VM's performance such as high usage of CPU, disk space, or memory",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -298,7 +299,7 @@
     {
       "id": "4d78b174-3203-a3ac-9e08-41fb35de6354",
       "longDescription": null,
-      "shortDescription": "Request an increase in vCPU (cores) quota for a targeted region or a specific VM series when your current limits have run out",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -371,6 +372,22 @@
       "id": "5a105230-54e6-b09a-5667-764d781026a1",
       "longDescription": null,
       "shortDescription": "Covers issues with NVIDIA GPU driver extension",
+      "searchTags": "",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "62e3cd36-8683-2540-7b90-7a890e8560f2",
+      "longDescription": null,
+      "shortDescription": "Covers issues with AMD GPU driver extension",
+      "searchTags": "",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "	fc4d4b63-7ee7-78c1-fc99-ffe694b9f8a2",
+      "longDescription": null,
+      "shortDescription": "Covers issues with Monitoring agent (MMA) extension",
       "searchTags": "",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
@@ -458,7 +475,7 @@
     {
       "id": "6571a5f6-9166-d111-d125-7e19b809f4f3",
       "longDescription": null,
-      "shortDescription": "Covers issues using Azure Disk Encryption for a virtual machine running in Azure",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -466,7 +483,7 @@
     {
       "id": "67c173d3-1cb5-d61a-3502-a8d6bc279b22",
       "longDescription": null,
-      "shortDescription": "Troubleshoot issues with connecting to your VM via RDP or SSH due to configuration or other changes",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "FALSE"
@@ -522,7 +539,7 @@
     {
       "id": "78338998-486e-d645-07e5-4c90760f5b3a",
       "longDescription": null,
-      "shortDescription": "Your VM has entered a non-bootable state and is either not booting at all or is on a reboot loop",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "FALSE"
@@ -666,7 +683,7 @@
     {
       "id": "9a046a3b-fb3f-0950-57a7-dd04a4c0a3c6",
       "longDescription": null,
-      "shortDescription": "Covers issues related to installation, execution, and updating of extensions for virtual machines on Azure",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
@@ -794,7 +811,7 @@
     {
       "id": "af9e6ed0-943e-ea7e-054b-62684f3a5226",
       "longDescription": null,
-      "shortDescription": "Resolve errors when starting or stopping your VM, if it is unresponsive or generating disk related or allocation errors",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
@@ -834,7 +851,7 @@
     {
       "id": "b82154fe-4659-31f6-584e-fcc90408a34a",
       "longDescription": null,
-      "shortDescription": "Covers issues related to security concerns with virtual machines in Azure",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -866,7 +883,7 @@
     {
       "id": "bf5eafd5-a438-6e15-458f-e614453346a2",
       "longDescription": null,
-      "shortDescription": "Covers issues related to Planned Maintenance notifications in Azure",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -946,7 +963,7 @@
     {
       "id": "d7a1629d-d6fb-42dd-ff65-635009e342e7",
       "longDescription": null,
-      "shortDescription": "Covers issues related to managing a virtual machine on Azure",
+      "shortDescription": " ",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"

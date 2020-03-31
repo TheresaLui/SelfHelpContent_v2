@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
   	 articleId="c7e81485-c8d4-44d9-8abd-adea1ca94875"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure backup server backup performance
 ---

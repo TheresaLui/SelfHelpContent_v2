@@ -15,6 +15,7 @@ resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 	articleId="c8800415-6bac-45c4-8fab-bb72c7a306eb"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Create Custom Fields in Log Analytics

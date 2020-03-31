@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="aa52fa88-250d-4623-9b7b-0c130219d4c0"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # What is the difference between the enrollment types that appear in the Managed By column?

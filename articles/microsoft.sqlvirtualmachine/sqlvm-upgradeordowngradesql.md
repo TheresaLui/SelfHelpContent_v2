@@ -12,6 +12,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public,fairfax"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # sql administration/upgrade or downgrade a SQL edition

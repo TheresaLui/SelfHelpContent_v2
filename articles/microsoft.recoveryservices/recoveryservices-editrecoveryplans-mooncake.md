@@ -9,8 +9,9 @@
 	supportTopicIds="32536397, 32536398, 32536400"
 	resourceTags=" "
 	productPesIds="16370"
-	cloudEnvironments="MoonCake"
+	cloudEnvironments="MoonCake, Fairfax"
 	articleId="e8c19e2b-c938-4db6-8170-15e547762ae6"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # How to migrate virtual machines to Azure

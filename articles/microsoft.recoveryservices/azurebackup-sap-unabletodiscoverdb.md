@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="e810763a-06e4-4795-9294-4e7a013cb934"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # When Azure Backup is unable to discovery DB with SAP HANA then follow these troubleshooting steps

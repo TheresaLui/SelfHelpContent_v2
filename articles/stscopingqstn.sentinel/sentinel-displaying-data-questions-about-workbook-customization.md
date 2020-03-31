@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-displaying-data-questions-about-workbook-customization"
+	ownershipId="Azure_Sentinel"
 />
 
 # How can you customize workbooks

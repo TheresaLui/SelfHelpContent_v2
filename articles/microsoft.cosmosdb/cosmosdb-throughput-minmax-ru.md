@@ -13,6 +13,7 @@
 	articleId="cosmosdb-throughput-minmax-ru"
 	displayOrder="245"
 	category="Throughput and Scaling"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Throughput Min and Max RU

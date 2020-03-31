@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="benefitsoffersotherissueswithoffersandbenefits"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # other issues with offers and benefits

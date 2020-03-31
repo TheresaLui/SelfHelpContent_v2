@@ -13,7 +13,8 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Insufficient licensing for password change and reset

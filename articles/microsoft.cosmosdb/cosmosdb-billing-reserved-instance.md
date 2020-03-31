@@ -13,6 +13,7 @@
 	articleId="cosmosdb-billing-reserved-instance"
 	displayOrder="101"
 	category="Billing and Pricing"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 

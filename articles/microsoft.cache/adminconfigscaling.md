@@ -12,6 +12,7 @@
 	productPesIds="14783"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="f60d2e21-9db7-4f62-acc3-97808b427b0d"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # Administration, Configuration, and Scaling problems with Azure Cache for Redis

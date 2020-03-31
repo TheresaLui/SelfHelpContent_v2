@@ -11,7 +11,8 @@ articleId="NmAgentUpdated"
 diagnosticScenario="NmAgentUpdated"
 selfHelpType="resource"
 supportTopicIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax"
+	ownershipId="Compute_VirtualMachines"
 />
 
 If you have verified that the customer's impact is primarily due to NMAgent update, please adapt the root cause statement below:

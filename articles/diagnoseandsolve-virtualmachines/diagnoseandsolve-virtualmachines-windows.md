@@ -10,14 +10,131 @@ articleId="202605d3-432d-4799-85df-a35504c94b5f"
 selfHelpType="diagnoseandsolve"
 resourceTags="windows"
 productPesIds="14749"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Diagnose and solve v2 test article for windows
 ---
 {
 	"$schema":"SelfHelpContent",
   "commonProblems": [
-    {						   
+	{
+		"id": "Cannot_Connect_to_VM",
+		"title": "Cannot Connect to VM",
+		"description": "Troubleshoot connectivity issues with an Azure VM",
+		"category": "Connectivity",
+		"searchTags": "connect, connectivity, test, rdp, ssh, port, access, server, public ip, application, firewall, linux, disable, ping, login",
+		"supportTopicId": "",
+		"subProblems": [
+			{
+				"id": "Configuration_change_impacted_connectivity",
+				"title": "Configuration change impacted connectivity",
+				"description": "Troubleshoot connectivity issues due to configuration changes",
+				"supportTopicId": "32615530",
+				"commonSolutionArticleId": "b53b4761-a678-45ea-8869-24973e5a6678",
+				"symptomId": ""
+			},
+			{
+				"id": "Troubleshoot_network_security_group",
+				"title": "Troubleshoot network security group (NSG)",
+				"description": "Troubleshoot connectivity issues due to network security group rules",
+				"supportTopicId": "32615530",
+				"commonSolutionArticleId": "c5ccfcb5-7f2c-47d9-bc8b-46b6beab5480",
+				"symptomId": ""
+			},
+			{
+				"id": "Troubleshoot_VM_firewall",
+				"title": "Troubleshoot VM firewall",
+				"description": "Troubleshoot connectivity issues due to firewall rules",
+				"supportTopicId": "32615534",
+				"commonSolutionArticleId": "72a1d281-9123-421c-9cf6-90fed2618648",
+				"symptomId": ""
+			},
+			{
+				"id": "Public_IP_issue",
+				"title": "Public IP issue",
+				"description": "Troubleshoot connectivity issues due to Public IP issues",
+				"supportTopicId": "32615527",
+				"commonSolutionArticleId": "6ce39c44-2a32-41c2-a8ce-7dedc93e6619",
+				"symptomId": ""
+			},
+			{
+				"id": "Serial_console_access",
+				"title": "Serial console access",
+				"description": "Understand how to use serial console to troubleshoot connectivity issues",
+				"supportTopicId": "32615528",
+				"commonSolutionArticleId": "12572186-90fb-4c0e-94f6-45522bd8bf64",
+				"symptomId": ""
+			},
+			{
+				"id": "Cannot_RDP",
+				"title": "Cannot RDP",
+				"description": "Troubleshoot connectivity issues to an Azure virtual machine",
+				"supportTopicId": "32615526",
+				"commonSolutionArticleId": "d67fb475-a831-4f4b-a6ce-7fbacb0bf9df",
+				"symptomId": ""
+			}
+		]
+	},
+	{
+      "id": "VM_Performance_Issues",
+      "title": "VM Performance Issues",
+      "description": "Troubleshoot issues that cause low performance of an Azure VM",
+      "category": "Performance",
+      "searchTags": "slow, performance, disk, server, cpu, network, high, memory, size, time, usage, latency, gpu, resize, throughput, premium, iop, ssd, sql, data, storage",
+      "supportTopicId": "",
+      "subProblems": [
+        {
+          "id": "Disk_throughput_low",
+          "title": "Disk throughput low",
+          "description": "Troubleshoot performance issues when disk throughput is lower than expected",
+          "supportTopicId": "32628264",
+          "commonSolutionArticleId": "1846ef6d-3aa8-44c1-bff0-cc8ede1933c6",
+          "symptomId": ""
+        },
+        {
+          "id": "CPU_usage_high",
+          "title": "CPU usage high",
+          "description": "Troubleshoot performance issues when CPU usage is higher than expected",
+          "supportTopicId": "32628261",
+          "commonSolutionArticleId": "c56d711a-2df1-4c2a-b250-b6dc68a4975b",
+          "symptomId": ""
+        },
+        {
+          "id": "Memory_usage_high",
+          "title": "Memory usage high",
+          "description": "Troubleshoot performance issues when memory usage is higher than expected",
+          "supportTopicId": "32628275",
+          "commonSolutionArticleId": "6aaf31c5-6dde-4418-9af0-f3fa234593fc",
+          "symptomId": ""
+        },
+        {
+          "id": "GPU_processing_slow",
+          "title": "GPU processing slow",
+          "description": "Troubleshoot performance issues when GPU processing is slower than expected",
+          "supportTopicId": "32628268",
+          "commonSolutionArticleId": "0ab4f15c-3ab7-44d1-8f36-f81b3156971b",
+          "symptomId": ""
+        },
+        {
+          "id": "Guidance_for_better_VM_sizing_and_throughput",
+          "title": "Guidance for better VM sizing and throughput",
+          "description": "Guidance on VM sizing and throughput for better performance of Azure VMs",
+          "supportTopicId": "32628270",
+          "commonSolutionArticleId": "b3157bac-dc37-4341-98c8-14320fad6c37",
+          "symptomId": ""
+        },
+        {
+          "id": "Unable_to_resize_my_VM",
+          "title": "Unable to resize my VM",
+          "description": "Unable to resize Azure VMs",
+          "supportTopicId": "32690776",
+          "commonSolutionArticleId": "e7920c6e-0eec-4a8f-876d-280f5d4d1035",
+          "symptomId": ""
+        }
+      ]
+    },
+    {					   
       "id": "Troubleshoot_Deployment_Failures",
       "title": "Troubleshoot Deployment Failures",
       "description": "Troubleshoot failures and errors when creating a new VM in Azure",
@@ -31,7 +148,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot allocation failures when creating a new VM in Azure",
           "supportTopicId": "32628252",
           "commonSolutionArticleId": "9c0b9ec9-a07a-40e3-a6a2-f4d49f5f4ccb",
-          "symptomId": "DeploymentFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Captured_or_generalized_image_deployment_failure",
@@ -39,7 +156,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues when creating a managed image of a generalized VM in Azure",
           "supportTopicId": "32628259",
           "commonSolutionArticleId": "759ac937-32e7-4e89-a82c-28287ad85f9e",
-          "symptomId": "DeploymentFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Provisioning_or_deployment_timeout_error",
@@ -47,7 +164,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot provisioning or deployment timeout errors when creating a new VM in Azure",
           "supportTopicId": "32628279",
           "commonSolutionArticleId": "2b6deeb3-490a-4d18-8a36-83ed65de8451",
-          "symptomId": "DeploymentFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "ARM_template_error",
@@ -55,7 +172,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues when deploying with ARM template",
           "supportTopicId": "32628255",
           "commonSolutionArticleId": "91c00640-5896-42ec-9b42-652a3143fd0d",
-          "symptomId": "DeploymentFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Custom_image_deployment_failure",
@@ -63,7 +180,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues when deploying a custom image",
           "supportTopicId": "32628262",
           "commonSolutionArticleId": "69867902-65a9-4c5a-aa04-91c748bd351d",
-          "symptomId": "DeploymentFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Marketplace_image_deployment_failure",
@@ -71,7 +188,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues when deploying a marketplace image",
           "supportTopicId": "32628274",
           "commonSolutionArticleId": "0bb36f17-2342-4c60-8bcd-e4416a54a9cd",
-          "symptomId": "DeploymentFailuresAzurePortalInsight"
+          "symptomId": ""
         }
       ]
     },
@@ -110,64 +227,6 @@ cloudEnvironments="public"
       ]
     },
     {
-      "id": "Cannot_Connect_to_VM",
-      "title": "Cannot Connect to VM",
-      "description": "Troubleshoot connectivity issues with an Azure VM",
-      "category": "Connectivity",
-      "searchTags": "connect, connectivity, test, rdp, ssh, port, access, server, public ip, application, firewall, linux, disable, ping, login",
-      "supportTopicId": "",
-      "subProblems": [
-        {
-          "id": "Configuration_change_impacted_connectivity",
-          "title": "Configuration change impacted connectivity",
-          "description": "Troubleshoot connectivity issues due to configuration changes",
-          "supportTopicId": "32615530",
-          "commonSolutionArticleId": "b53b4761-a678-45ea-8869-24973e5a6678",
-          "symptomId": "CannotRdpAzurePortalInsight"
-        },
-        {
-          "id": "Troubleshoot_network_security_group",
-          "title": "Troubleshoot network security group (NSG)",
-          "description": "Troubleshoot connectivity issues due to network security group rules",
-          "supportTopicId": "32615530",
-          "commonSolutionArticleId": "c5ccfcb5-7f2c-47d9-bc8b-46b6beab5480",
-          "symptomId": "CannotRdpAzurePortalInsight"
-        },
-        {
-          "id": "Troubleshoot_VM_firewall",
-          "title": "Troubleshoot VM firewall",
-          "description": "Troubleshoot connectivity issues due to firewall rules",
-          "supportTopicId": "32615534",
-          "commonSolutionArticleId": "72a1d281-9123-421c-9cf6-90fed2618648",
-          "symptomId": "CannotRdpAzurePortalInsight"
-        },
-        {
-          "id": "Public_IP_issue",
-          "title": "Public IP issue",
-          "description": "Troubleshoot connectivity issues due to Public IP issues",
-          "supportTopicId": "32615527",
-          "commonSolutionArticleId": "6ce39c44-2a32-41c2-a8ce-7dedc93e6619",
-          "symptomId": "CannotRdpAzurePortalInsight"
-        },
-        {
-          "id": "Serial_console_access",
-          "title": "Serial console access",
-          "description": "Understand how to use serial console to troubleshoot connectivity issues",
-          "supportTopicId": "32615528",
-          "commonSolutionArticleId": "12572186-90fb-4c0e-94f6-45522bd8bf64",
-          "symptomId": "CannotRdpAzurePortalInsight"
-        },
-        {
-          "id": "Cannot_RDP",
-          "title": "Cannot RDP",
-          "description": "Troubleshoot connectivity issues to an Azure virtual machine",
-          "supportTopicId": "32615526",
-          "commonSolutionArticleId": "d67fb475-a831-4f4b-a6ce-7fbacb0bf9df",
-          "symptomId": "CannotRdpAzurePortalInsight"
-        }
-      ]
-    },
-    {
       "id": "Help_with_VM_Password_Reset",
       "title": "Help with VM Password Reset",
       "description": "Guidance on resetting the credentials of an existing user or creating a new user",
@@ -185,7 +244,33 @@ cloudEnvironments="public"
       "searchTags": "stuck, boot, start, fail, server, restart, reboot, update, disk, load, storage, encryption",
       "supportTopicId": "32628284",
       "commonSolutionArticleId": "f77c4d7d-6738-46fb-afea-07b627a597b6",
-      "symptomId": "CannotRdpAzurePortalInsight"
+      "symptomId": ""
+    },
+		{
+      "id": "Help_with_VM_Sizing_Top",
+      "title": "Help with VM Sizing",
+      "description": "Guidance on VM sizing and troubleshooting resize issues",
+      "category": "Management",
+      "searchTags": "resize, size, throughput, performance",
+      "supportTopicId": "",
+      "subProblems": [
+        {
+          "id": "Guidance_for_better_VM_sizing_and_throughput",
+          "title": "Guidance for better VM sizing and throughput",
+          "description": "Guidance on VM sizing and throughput for better performance of Azure VMs",
+          "supportTopicId": "32632142",
+          "commonSolutionArticleId": "6c90898f-7758-42e3-97bf-d85745fe6c08",
+          "symptomId": ""
+        },
+        {
+          "id": "Unable_to_resize_my_VM",
+          "title": "Unable to resize my VM",
+          "description": "Unable to resize Azure VMs",
+          "supportTopicId": "32632142",
+          "commonSolutionArticleId": "6c90898f-7758-42e3-97bf-d85745fe6c08",
+          "symptomId": ""
+        }
+      ]
     },
     {
       "id": "Cannot_Start_or_Stop_VM",
@@ -201,7 +286,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot VM start issues due to configuration changes",
           "supportTopicId": "32628285",
           "commonSolutionArticleId": "b0380479-ed1b-4df3-b708-e3ebefc4deeb",
-          "symptomId": "DeploymentFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Disk_related_error",        
@@ -209,7 +294,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot disk related errors when starting a VM in Azure",
           "supportTopicId": "32628265",
           "commonSolutionArticleId": "5a916d8f-c05d-4db6-9787-6b5003a9dd56",
-          "symptomId": "DeploymentFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Allocation_failure",
@@ -217,7 +302,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot allocation failures when starting a VM in Azure",
           "supportTopicId": "32628253",
           "commonSolutionArticleId": "9c0b9ec9-a07a-40e3-a6a2-f4d49f5f4ccb",
-          "symptomId": "DeploymentFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "VM_unresponsive_to_start_or_stop_operations",
@@ -225,7 +310,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues when VM is not responsive to start or stop operations",
           "supportTopicId": "32628286",
           "commonSolutionArticleId": "8d3e0818-0feb-4207-a953-b89f19198227",
-          "symptomId": "DeploymentFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Start_or_stop_operation_failed",
@@ -233,7 +318,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot failures when starting or stopping a VM in Azure",
           "supportTopicId": "32628282",
           "commonSolutionArticleId": "5e8c5760-d46d-4c14-9f30-52eb26ca9538",
-          "symptomId": "DeploymentFailuresAzurePortalInsight"
+          "symptomId": ""
         }
       ]
     },
@@ -251,7 +336,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot VM restart issues caused by issues within the guest operating system",
           "supportTopicId": "32628269",
           "commonSolutionArticleId": "9c823f1b-b821-4c3a-a558-356fb425dec3",
-          "symptomId": "RestartFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Troubleshoot_Windows_Update_issues",
@@ -259,7 +344,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot VM restart issues caused by Windows Update issues",
           "supportTopicId": "32628289",
           "commonSolutionArticleId": "26d21b85-4966-4e96-b29e-0866f17f2bf6",
-          "symptomId": "RestartFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Request_Root_Cause_for_VM_Restart",
@@ -267,7 +352,7 @@ cloudEnvironments="public"
           "description": "Request Root Cause Analysis document for VM restart issues",
           "supportTopicId": "32628280",
           "commonSolutionArticleId": "1052989d-6417-4985-b4af-0ffdb63302b9",
-          "symptomId": "RestartFailuresAzurePortalInsight"
+          "symptomId": ""
         }
       ]
     },
@@ -339,64 +424,6 @@ cloudEnvironments="public"
         }
       ]
     },
-		{
-      "id": "VM_Performance_Issues",
-      "title": "VM Performance Issues",
-      "description": "Troubleshoot issues that cause low performance of an Azure VM",
-      "category": "Performance",
-      "searchTags": "slow, performance, disk, server, cpu, network, high, memory, size, time, usage, latency, gpu, resize, throughput, premium, iop, ssd, sql, data, storage",
-      "supportTopicId": "",
-      "subProblems": [
-        {
-          "id": "Disk_throughput_low",
-          "title": "Disk throughput low",
-          "description": "Troubleshoot performance issues when disk throughput is lower than expected",
-          "supportTopicId": "32628264",
-          "commonSolutionArticleId": "1846ef6d-3aa8-44c1-bff0-cc8ede1933c6",
-          "symptomId": "VMPerfDiagExtInsights"
-        },
-        {
-          "id": "CPU_usage_high",
-          "title": "CPU usage high",
-          "description": "Troubleshoot performance issues when CPU usage is higher than expected",
-          "supportTopicId": "32628261",
-          "commonSolutionArticleId": "c56d711a-2df1-4c2a-b250-b6dc68a4975b",
-          "symptomId": "VMPerfDiagExtInsights"
-        },
-        {
-          "id": "Memory_usage_high",
-          "title": "Memory usage high",
-          "description": "Troubleshoot performance issues when memory usage is higher than expected",
-          "supportTopicId": "32628275",
-          "commonSolutionArticleId": "6aaf31c5-6dde-4418-9af0-f3fa234593fc",
-          "symptomId": "VMPerfDiagExtInsights"
-        },
-        {
-          "id": "GPU_processing_slow",
-          "title": "GPU processing slow",
-          "description": "Troubleshoot performance issues when GPU processing is slower than expected",
-          "supportTopicId": "32628268",
-          "commonSolutionArticleId": "0ab4f15c-3ab7-44d1-8f36-f81b3156971b",
-          "symptomId": "VMPerfDiagExtInsights"
-        },
-        {
-          "id": "Guidance_for_better_VM_sizing_and_throughput",
-          "title": "Guidance for better VM sizing and throughput",
-          "description": "Guidance on VM sizing and throughput for better performance of Azure VMs",
-          "supportTopicId": "32628270",
-          "commonSolutionArticleId": "b3157bac-dc37-4341-98c8-14320fad6c37",
-          "symptomId": "VMPerfDiagExtInsights"
-        },
-        {
-          "id": "Unable_to_resize_my_VM",
-          "title": "Unable to resize my VM",
-          "description": "Unable to resize Azure VMs",
-          "supportTopicId": "32690776",
-          "commonSolutionArticleId": "e7920c6e-0eec-4a8f-876d-280f5d4d1035",
-          "symptomId": "VMPerfDiagExtInsights"
-        }
-      ]
-    },
     {
       "id": "VM_Extension_Issues",
       "title": "VM Extension Issues",
@@ -411,7 +438,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues with VM Diagnostic extension",
           "supportTopicId": "32628283",
           "commonSolutionArticleId": "f0b4963f-5a47-420c-84de-c15b35d4dc50",
-          "symptomId": "RestartFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Azure_Custom_Script_extension_issue",
@@ -419,7 +446,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues with Azure Custom Script extension",
           "supportTopicId": "32628256",
           "commonSolutionArticleId": "a9463661-5253-4fbf-86a8-e4b379b1cf1c",
-          "symptomId": "RestartFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Log_Analytics_extension_issue",
@@ -427,7 +454,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues with Log Analytics extension",
           "supportTopicId": "32628273",
           "commonSolutionArticleId": "5cc8fa1d-ebd2-4b5e-b455-b2121c2663b5",
-          "symptomId": "RestartFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Azure_Desired_State_Configuration_extension_issue",
@@ -435,7 +462,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues with Azure Desired State Configuration extension",
           "supportTopicId": "32628257",
           "commonSolutionArticleId": "f5523bca-7725-4d82-b461-6ae3962da477",
-          "symptomId": "RestartFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Microsoft_Antimalware_extension_issue",
@@ -443,7 +470,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues with Microsoft Antimalware extension",
           "supportTopicId": "32628276",
           "commonSolutionArticleId": "ed15f47e-da85-4b91-bce5-d03f6b3a6ade",
-          "symptomId": "RestartFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Azure_Disk_Encryption_extension_issue",
@@ -451,7 +478,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues with Azure Disk Encryption extension",
           "supportTopicId": "32628258",
           "commonSolutionArticleId": "904eaea6-a9a3-454b-88c6-46fb04db2640",
-          "symptomId": "RestartFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "VM_Snapshot_extension_issue",
@@ -459,7 +486,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues with VM Snapshot extension",
           "supportTopicId": "32628288",
           "commonSolutionArticleId": "950a7bc9-306f-47b1-840f-8a1287f5ec3b",
-          "symptomId": "RestartFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Extension_not_installing_correctly",
@@ -467,7 +494,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues when VM extension is not installing correctly",
           "supportTopicId": "32628266",
           "commonSolutionArticleId": "cd2fec93-b941-40e5-ae9e-9461817e53de",
-          "symptomId": "RestartFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Extension_not_executing_correctly",
@@ -475,7 +502,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues when VM extension is not executing correctly",
           "supportTopicId": "32628267",
           "commonSolutionArticleId": "cd2fec93-b941-40e5-ae9e-9461817e53de",
-          "symptomId": "RestartFailuresAzurePortalInsight"
+          "symptomId": ""
         },
         {
           "id": "Update_Management_extension_issue",
@@ -483,7 +510,7 @@ cloudEnvironments="public"
           "description": "Troubleshoot issues with Update Management extension",
           "supportTopicId": "32633803",
           "commonSolutionArticleId": "cd2fec93-b941-40e5-ae9e-9461817e53de",
-          "symptomId": "RestartFailuresAzurePortalInsight"
+          "symptomId": ""
         }
       ]
     },
@@ -729,6 +756,28 @@ cloudEnvironments="public"
           {
             "name": "id",
             "value": "$resourceId"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Analyze_Recent_Changes_tool",
+      "title": "Analyze recent changes",
+      "description": "Use the Change Analysis service to see any changes made to this virtual machine and its related resources",
+      "category": "Management",
+      "searchTags": "audit, history, change",
+      "type": "tool",
+      "bladeLink": {
+        "extensionName": "Microsoft_Azure_ChangeAnalysis",
+        "bladeName": "ChangeAnalysisBlade",
+        "parameters": [
+          {
+            "name": "resourceId",
+            "value": "$resourceId"
+          },
+          {
+            "name": "deeplinkOrigin",
+            "value": "d&sp"
           }
         ]
       }

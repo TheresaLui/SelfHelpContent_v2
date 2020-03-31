@@ -4,9 +4,10 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32447391" 
 	 productPesIds="14785,16576" 
-	 cloudEnvironments="public" 
+	 cloudEnvironments="public, Fairfax, Mooncake" 
 	 schemaVersion="1"
     articleId="b1798cc1-7331-4a76-80f7-3be7dd6151a5"
+	ownershipId="AzureIdentity_AzureActiveDirectoryDomainServices"
 /> 
 # Problem with AAD Domain services enable disable 
 ---

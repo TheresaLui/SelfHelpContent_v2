@@ -12,6 +12,7 @@
     productPesIds="15629,16459"
     cloudEnvironments="MoonCake"
 	articleId="35978720-59d8-4cf5-963b-4e64e08c4e19"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # I can't delete my classic storage account

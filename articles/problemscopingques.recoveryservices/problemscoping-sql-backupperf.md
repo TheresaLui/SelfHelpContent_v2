@@ -9,6 +9,7 @@
          cloudEnvironments="public"
          schemaVersion="1"
          articleId="18b06d30-478c-4950-b3bc-5ed2dfecdd7d"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Scoping questions for SQL database backup performance
 ---

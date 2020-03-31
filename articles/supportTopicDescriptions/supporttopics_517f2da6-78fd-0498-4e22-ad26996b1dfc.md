@@ -1,15 +1,16 @@
 <properties
   pagetitle="Support topic description for billing"
   description="Support topic description for billing"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
   cloudenvironments="public, blackforest, fairfax, mooncake"
   articleid="billing-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" />
+  feedbackemail="email" 	ownershipId="ASMS_Billing"
+/>
 # Support Topic Descriptions for 517f2da6-78fd-0498-4e22-ad26996b1dfc
 ---
 {
@@ -43,8 +44,8 @@
       "id": "057f6615-3650-5370-57b2-e1a64af3b037",
       "longDescription": null,
       "shortDescription": "Questions or issues with cancellations, exchanges or refunds related to Reserved Instances only",
-      "searchTags": "",
-      "category": "",
+      "searchTags": "Reserved Instance;RI;RI exchange;RI cancel",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -154,9 +155,9 @@
     {
       "id": "44114011-6a66-e902-c00f-e419b6b4509f",
       "longDescription": null,
-      "shortDescription": "Questions on why access to view/configure data in ACM is not available",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions regarding access related errors for all customers having appropriate roles and for EA customers with AO, DA views enabled in EA portal",
+      "searchTags": "Cost Management;access",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -194,9 +195,9 @@
     {
       "id": "4f8c94bd-0ef0-52b2-1714-7dd131b166fd",
       "longDescription": null,
-      "shortDescription": "Questions on cost alerts e-mails not being delivered or action group tasks not being triggered",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on unexpected alerts, budget related errors or unclear forecasted cost",
+      "searchTags": "Cost Management;Forecast;Unexpected alerts",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -258,17 +259,17 @@
     {
       "id": "69103c54-633a-058d-a66b-6ab02c9c806e",
       "longDescription": null,
-      "shortDescription": "Questions or need help with pricing for Reserved Instances",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or issues with billing or reservation discount for Windows and SQL",
+      "searchTags": "Reserved Instance;RI;Reservation;Reservation discount",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "6bb902c6-b903-0b03-f17f-37ca5ce605c2",
       "longDescription": null,
-      "shortDescription": "Issues setting up cost alerts or encountering system errors",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on unexpected data, other than costs, displayed in ACM or PBI",
+      "searchTags": "Cost Management;Unexpected data",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -298,17 +299,17 @@
     {
       "id": "750bbf33-ccd8-21b8-03be-db99ca762450",
       "longDescription": null,
-      "shortDescription": "Other setup issues, not covered in specific setup issues listed above",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on setting up the AWS connector or discrepancies in AWS costs displayed in ACM",
+      "searchTags": "Cost Management;AWS",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "76ea362a-2219-833b-d371-d91738e4e31a",
       "longDescription": null,
-      "shortDescription": "Questions on discrepancy between cost and data reported in ACM versus other resources in Cloud providers’ portals",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on costs that change unexpectedly or are not displayed at expected time",
+      "searchTags": "Cost Management",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -338,17 +339,17 @@
     {
       "id": "9159711c-9fcc-f727-c69e-778405723652",
       "longDescription": null,
-      "shortDescription": "Questions on usage data availability via API and possible configurations",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Other issues not covered in specific issues listed above",
+      "searchTags": "Cost Management",
+      "category": "Cost Management",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "9359c605-5360-f754-2195-99e1f42a598b",
       "longDescription": null,
-      "shortDescription": " Issues with reports functionality in UI or scope picker freezing",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions on unexpected costs displayed in Cost Analysis or in PowerBI reports",
+      "searchTags": "Cost Management;Cost analysis;Unexpected costs;Power BI",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -362,9 +363,9 @@
     {
       "id": "9bc71cda-662c-0336-aee7-6f556d7c0fd2",
       "longDescription": null,
-      "shortDescription": "Questions on how to setup budget via API and possible configurations",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or errors encountered with programmatic access to cost management data",
+      "searchTags": "Cost Management;API;Forecast",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -378,9 +379,9 @@
     {
       "id": "a7096926-dcd0-2504-ba61-a40ec81b9566",
       "longDescription": null,
-      "shortDescription": "Errors encountered while setting up scheduled reports or exports",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions regarding export related errors or files not exported as expected",
+      "searchTags": "Cost Management;exports",
+      "category": "Cost Management",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -429,6 +430,14 @@
       "shortDescription": "",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "cff282e6-4e7b-2958-af63-320cff7dcbab",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with utilization of reserved instance",
+      "searchTags": "Reservation;RI;Reserved Instance",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -498,9 +507,9 @@
     {
       "id": "f3d95681-a339-3bdb-9825-1f3c09d376f2",
       "longDescription": null,
-      "shortDescription": "Questions or need help understanding the usage data being reported for the RI deployment",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Unable to purchase or questions on purchase for Reserved Instance only",
+      "searchTags": "Reservation;Reserved Instance;RI",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -514,9 +523,9 @@
     {
       "id": "fb851540-8284-7777-9d25-ffbfe5ec8eb8",
       "longDescription": null,
-      "shortDescription": "Questions on any other Reserved Instance related issues not listed in the above scenarios",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance with reserved instance usage",
+      "searchTags": "Reserved Instance;Reservation;RI",
+      "category": "Reserved Instance",
       "useInDiagnoseAndSolve": "true"
     }
   ]

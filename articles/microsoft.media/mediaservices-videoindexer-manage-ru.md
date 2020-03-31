@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="16535"
     cloudEnvironments="public"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Need to scale Media Reserved Units
