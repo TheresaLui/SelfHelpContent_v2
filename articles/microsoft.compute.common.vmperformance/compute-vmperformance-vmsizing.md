@@ -12,7 +12,7 @@
 	productPesIds="14749,14745"
 	cloudEnvironments="public,fairfax"
 	articleId="b3157bac-dc37-4341-98c8-14320fad6c37"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Diagnose and resolve Virtual Machine sizing issues

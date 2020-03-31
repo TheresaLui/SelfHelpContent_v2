@@ -29,6 +29,38 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1a376aec-e5e8-f778-d798-cdf675b9d624",
+      "longDescription": "",
+      "shortDescription": "Problems related to the AADConnect Health service, which monitors your AADConnect sync service and provides notifications when issues are detected",
+      "searchTags": "issue with AADConnect Health service ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "241143b4-599d-c38d-bcc2-356a62b39477",
+      "longDescription": "",
+      "shortDescription": "You see an error message saying that the Provisioning service is in a quarantained state, or the provisioning service is progressing slowly",
+      "searchTags": "provisioning service is slow ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2d74d361-5669-9a69-89e3-5c04da5190cf",
+      "longDescription": "",
+      "shortDescription": "You are having a problem configuring the provisioning service for a SaaS app",
+      "searchTags": "issue configuring provisioning service ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4a92d5f5-02cc-d436-a449-c4d43282d470",
+      "longDescription": "",
+      "shortDescription": "You are having a problem configuring the provisioning service from a Cloud HR app to Azure AD or AD",
+      "searchTags": "issue configuring provisioning service ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4dbd854c-0f9c-fd8a-8d3e-e7c93e13c237",
       "longDescription": "",
       "shortDescription": "You have a problem with the configuration of AADConnect",
@@ -45,10 +77,26 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "51f5b1da-a214-2ba1-51df-a8437548c382",
+      "longDescription": "",
+      "shortDescription": "You are having a problem where the provisioning service from a cloud HR app to AD or AAD does not work at all",
+      "searchTags": "provisioning service does not work ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "59579b83-00a5-022a-d6ee-1b1f826a6c6a",
       "longDescription": "",
       "shortDescription": "You are trying to install or uninstall AADConnect and run into a problem",
       "searchTags": "issue to install or uninstall AADConnect",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "5a57de7d-fec5-06c0-8031-6fad9d7b27de",
+      "longDescription": "",
+      "shortDescription": "You are having a problem configuring the scoping filters or attribute mapping for provisioning form a cloud HR app to AD or AAD",
+      "searchTags": "problem with scoping filters, mapping",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -77,6 +125,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "74c81dd5-2a27-fe42-941e-660e5f16582d",
+      "longDescription": "",
+      "shortDescription": "Problems related to provisioning users from Azure AD into connected applications, typically using the SCIM standard. ",
+      "searchTags": "problem to provide user with SaaS app",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8dde49e1-0398-a1f0-ba15-b3561e5c1c3d",
+      "longDescription": "",
+      "shortDescription": "Problems related to provisioning users from a cloud HR app into Active Directory or Azure Active Directory",
+      "searchTags": "problems prov from Cloud HR to AAD",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8fab9a08-7574-79ef-6f71-c453de1e1cf8",
       "longDescription": "",
       "shortDescription": "Problems related to configuring or managing user sign in with Azure AD Connect",
@@ -93,6 +157,54 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9fa9244c-77b2-d36f-6f72-e7d478866d41",
+      "longDescription": "",
+      "shortDescription": "You are having a problem configuring the attribute mappings for provisioning to a SaaS app",
+      "searchTags": "issue configuring mappings ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "aaa70274-b164-9b3f-8161-c5eac103a3ac",
+      "longDescription": "",
+      "shortDescription": "You see an error message saying that the Provisioning service is in a quarantained state",
+      "searchTags": "Sync cycle in quarantined state",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ba96d43a-fc76-7b75-fdc0-38e8152ff48c",
+      "longDescription": "",
+      "shortDescription": "You are having a problem configuring the scoping filters for provisioning to a SaaS app",
+      "searchTags": "issue configuring the scope filters",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bf9ebb9f-3b4e-9d70-0cd0-c11b33fe9936",
+      "longDescription": "",
+      "shortDescription": "You cannot download the sync error report",
+      "searchTags": "issue to downloan the sync error report",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bfb4ef13-3815-6480-a158-302b76ac5fad",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with one or a few particular users",
+      "searchTags": "problem with a particular user ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c7d5bd4c-b548-4262-bf4f-6c8026d8a096",
+      "longDescription": "",
+      "shortDescription": "You are receiving notifications regarding the freshness of the AADConnect Health data",
+      "searchTags": "issue with health data freshness ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "db97ace7-fd08-ede4-591a-a0e35160bbfa",
       "longDescription": "",
       "shortDescription": "You have configured Password Writeback and are seeing issues",
@@ -101,10 +213,26 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dd1cfbde-5501-0625-53ce-2bd702006c70",
+      "longDescription": "",
+      "shortDescription": "Problems related to Azure AD Connect or the new preview agent based AD to AAD feature",
+      "searchTags": "issue syncing from AD to AAD",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "eed84b7f-6511-297a-334c-22d0a0335153",
       "longDescription": "",
       "shortDescription": "You have configured Seamless SSO (SSSO) and are seeing issues",
       "searchTags": "SSSO issues ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f0da3043-b729-32b6-f604-9000d9be6d2f",
+      "longDescription": "",
+      "shortDescription": "You are not receiving any AADConnect Health notification emails",
+      "searchTags": "issue with receiving alert emails",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },

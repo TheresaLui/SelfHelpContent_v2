@@ -14,7 +14,7 @@ supportTopicIds=""
 resourceTags=""
 productPesIds=""
 cloudEnvironments="Public,Fairfax,Mooncake,Blackforest"
-ownershipId="CloudNet_Datapath"
+ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # We found an issue with the network interface on this VM

@@ -3,7 +3,7 @@ pageTitle="Solution for error 'TENANT ID' is not authorized to access linked sub
 description="Solution for error 'TENANT ID' is not authorized to access linked subscription 'SUBID'"
 infoBubbleText="Solution for error 'TENANT ID' is not authorized to access linked subscription 'SUBID'"
 service="microsoft.network"
-ownershipid="Centennial_Cloudnet_VirtualNetwork"
+ownershipId="Centennial_Cloudnet_VirtualNetwork"
 resource="virtualnetwork"
 authors="chadmath"
 ms.author="chadmat"
@@ -14,7 +14,7 @@ selfHelpType="TSG_Content"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public"
+cloudEnvironments="Public, Fairfax"
 />
 # Solution for cross subscription virtual network peering
 <!--issueDescription-->

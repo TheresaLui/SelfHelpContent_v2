@@ -11,7 +11,7 @@
     supportTopicIds="32684522"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 

@@ -10,7 +10,7 @@
 	supportTopicIds="32680680"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
 	articleId="unexpectedcharges-understandacharge"
 	ownershipId="ASMS_Billing"
 />

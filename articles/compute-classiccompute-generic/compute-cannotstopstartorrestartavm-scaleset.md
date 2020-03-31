@@ -12,7 +12,7 @@
 	productPesIds="16080"
 	cloudEnvironments="public, Fairfax"
 	articleId="470fbf27-6619-4809-baed-df9c3a2a0074"
-	ownershipId="Compute_VirtualMachineScaleSets"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # management/cannot stop, start, or restart a Scale Set

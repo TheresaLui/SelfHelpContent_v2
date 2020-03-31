@@ -12,7 +12,7 @@
     productPesIds="14749,14745"
     cloudEnvironments="public, Fairfax"
 	articleId="64c0a2f3-0fe4-4eed-a2d2-3218f58cde19"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Resolve issues with an unexpected VM restart

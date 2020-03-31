@@ -13,7 +13,7 @@ supportTopicIds="32411845"
 resourceTags=""
 productPesIds="14749,15797,15571"
 cloudEnvironments="public, Fairfax"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # An extension reported a failure

@@ -3,7 +3,7 @@ pageTitle="Solution for Failed to Update Connection Error"
 description="Solution for Failed to Update Connection Error"
 infoBubbleText="Solution for Failed to Update Connection Error"
 service="microsoft.network"
-ownershipid="Centennial_Cloudnet_VirtualNetwork"
+ownershipId="Centennial_Cloudnet_VirtualNetwork"
 resource="virtualnetwork"
 authors="chadmath"
 ms.author="chadmat"
@@ -14,7 +14,7 @@ selfHelpType="TSG_Content"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public"
+cloudEnvironments="Public, Fairfax"
 />
 # Solution for Failed to Update Connection Error
 <!--issueDescription-->

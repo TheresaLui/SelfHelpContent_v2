@@ -13,8 +13,8 @@ selfHelpType="TSG_Content"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public"
-ownershipId="CloudNet_VirtualNetwork"
+cloudEnvironments="Public, Fairfax"
+ownershipId="Centennial_Cloudnet_VirtualNetwork"
 />
 # NSG Blocking Traffic to Resource
 <!--issueDescription-->

@@ -12,7 +12,7 @@
     selfHelpType="rca"
     resourceTags="servers, databases"
 	cloudEnvironments="public, Fairfax"
-	ownershipId="AzureData_AzureDatabaseforMariaDB"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # High percentage of short-lived connections

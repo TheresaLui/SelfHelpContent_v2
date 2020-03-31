@@ -12,7 +12,7 @@
 	productPesIds="14749,15797,15571,16470,16454,16342,14745"
 	cloudEnvironments="MoonCake, Fairfax"
 	articleId="f3f6dfe8-efb5-4b34-b966-82bf4f35efaf"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # My VM restarted unexpectedly

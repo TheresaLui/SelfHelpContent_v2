@@ -43,6 +43,14 @@
       "searchTags": "Domain Join",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e01a4157-a967-70d1-e1a3-e237c5752106",
+      "longDescription": "",
+      "shortDescription": "How to create or delete Azure AD Domain Services or issues concerning it",
+      "searchTags": "New Azure AD Domain Service;Remove Azure AD Domain Service",
+      "category": "Enablement and Removal ",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }

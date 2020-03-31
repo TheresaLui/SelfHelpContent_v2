@@ -11,7 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="MoonCake, Fairfax"
 	articleId="18717780-8416-4cb0-934c-6d71a46c1196"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # I can't connect to SQL Server Availability Group

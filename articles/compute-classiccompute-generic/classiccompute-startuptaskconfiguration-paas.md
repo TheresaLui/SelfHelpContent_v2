@@ -11,7 +11,7 @@
 	productPesIds="13185"
 	cloudEnvironments="public, Fairfax"
 	articleId="d2669b58-e563-4349-893d-2ce70e89e54a"
-	ownershipId="Compute_CloudServices"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # worker role (paas)/configuration and management/startup task configuration

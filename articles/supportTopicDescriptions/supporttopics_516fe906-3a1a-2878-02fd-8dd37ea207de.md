@@ -37,10 +37,90 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "10b30988-925a-95e0-f54f-8e5dbfc38a2d",
+      "longDescription": "",
+      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for AAD",
+      "searchTags": "issues with Seamless Single-Sign-on ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "19da896a-c82e-00de-e342-5d0b6e1e4017",
+      "longDescription": "",
+      "shortDescription": "Assistance needed or issues found related to ADFS certificates",
+      "searchTags": "ADFS Certificates;ADFS SSL;ADFS Token signing",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2b627192-808e-8f44-ff80-75c8831c8f7d",
+      "longDescription": "",
+      "shortDescription": "Intermittent or total authentication failure from extranet WAP while intranet corpnet users do not experience an interruption",
+      "searchTags": "authentication issue with extranet WAP ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2da3e32d-7f19-0acc-5174-f680ac441863",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Password Hash Sync Authentication method for Azure Active Directory",
+      "searchTags": "issue with hash sync authentication ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "30b346c8-ba52-fbdc-2714-d0d2dbeaeb89",
+      "longDescription": "",
+      "shortDescription": "I have successfully implemented Seamless SSO but now need assistance managing it.",
+      "searchTags": "Usage of Seamless SSO ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "431e0f26-4eec-99ae-12c0-2ab1c3261c1a",
+      "longDescription": "",
+      "shortDescription": "I have question related to Multi-Factor Authentication that do not fit in the other option here presented",
+      "searchTags": "Multi-Factor Authentication;MFA;General questions",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4def4477-455a-e284-e463-dc65043d70a0",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
+      "searchTags": "Pass-through Authentication ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "58fdc5d8-0f86-edea-0d2c-935b176c18db",
+      "longDescription": "",
+      "shortDescription": "Initial configuration of SSO between AD FS and Azure AD",
+      "searchTags": "Single Sign on and ADFS;Configuring ADFS and SSO",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68f828bd-0365-69e6-fe40-23573ba1a087",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for signing-in with Passwordless Auth. Enable or disable Passwordless or unexpected Passwordless experience outcome",
       "searchTags": "Passwordless Authentication;Enable Passwordless Auth;Disable Passwordless Auth",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "69bcedd3-a11a-3b77-bca0-fafc38e1587a",
+      "longDescription": "",
+      "shortDescription": "Assistance or troubleshooting the deployment of a new ADFS Farm or the upgrade of an existing ADFS farm",
+      "searchTags": "Assistance in deployment of ADFS farm",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6b64f092-01d1-441d-1563-396f81bcf127",
+      "longDescription": "",
+      "shortDescription": "Assistance needed for deploying or configuring Network Policy Server (NPS) or RADIUS Server to work with Multi-Factor Authentication",
+      "searchTags": "Configuring NPS;Configuring Network Policy Server;Configuring RADIUS;Deploying RADIUS",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -53,11 +133,83 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7225d915-5179-8b15-0b16-a8f8379883cc",
+      "longDescription": "",
+      "shortDescription": "Questions regarding  report viewing and manipulation or content within reports",
+      "searchTags": "report viewing and content manipulation ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "778d1beb-2942-8e08-b723-be5b3dc463e0",
+      "longDescription": "",
+      "shortDescription": "Admin unable to reset a users password or user unable to login with new credentials",
+      "searchTags": "issue with resetting a users password;issue with new password credentials",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "866af4c0-2f66-10f4-3238-5f75346bb3fa",
       "longDescription": "",
       "shortDescription": "I need assistance understanding the Identity Score in Azure AD Identity Protection",
       "searchTags": "Identity Score;Identity Protection",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "86902158-0870-cf45-2bc5-965e55d6ff95",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
+      "searchTags": "Configuring Pass-Through Authentication ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8a7ddd2a-c89b-183c-e65f-82d72c639d69",
+      "longDescription": "",
+      "shortDescription": "Assistance need or issues found with Connect Health to AD FS",
+      "searchTags": "ADFS;Connect Health",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8bf447c9-08be-fe22-eee5-b7c83d0e7f36",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
+      "searchTags": "Pass-through authentication issues",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "911f9754-b5c4-068f-94ab-550df367157e",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for implementing or managing AD FS (Active Directory Federation Services) for Azure Active Directory",
+      "searchTags": "AD FS;Active Directory Federation Services;ADFS Configuration",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "93d6955d-5c3d-53a0-6168-c70655d19b9c",
+      "longDescription": "",
+      "shortDescription": "Enabling Password Hash sync authentication",
+      "searchTags": "Issue with hash sync authentication ;Password issue with authentication ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "94d95c37-8d14-0291-702e-3df4befa01f3",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Seamless Single Sign-on for Azure Active Directory",
+      "searchTags": "issue with Seamless Single Sign-on",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9fdde265-d795-2419-31f3-63c345393b8e",
+      "longDescription": "",
+      "shortDescription": "Issues found when authenticating using Seamless Single Sign-on for AAD",
+      "searchTags": "issues with Seamless SSO login ",
+      "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -69,10 +221,34 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a341cb35-6259-14bf-5b0a-eee3f0a3f2e5",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting apps that have previously been fully functional but now are marginal or offline",
+      "searchTags": "problems with marginal or offline apps",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a7f81e5c-aa33-5e9a-9d5d-2171f20a78c8",
+      "longDescription": "",
+      "shortDescription": "Assistance in setting up an OAuth or OIDC app, service, or passive SAML or WS-FED application ",
+      "searchTags": "Setting up OAuth, OIDC, SAML, WS-FED",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "af69e073-7ebb-6bc5-8427-eb5ccc8caf28",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for activating or managing Azure Active Directory Identity Protection",
       "searchTags": "AAD Identity Protection;Identity Protection;Identity Risk event;Configure Identity Protection",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c6e12c58-0cec-db3c-f5ce-4f1fd88c2b6c",
+      "longDescription": "",
+      "shortDescription": "Assistance needed with ADFS extranet lockouts or ADFS lockout policies, i.e. protection against Password Spray attacks or Brute force attacks",
+      "searchTags": "ADFS Extranet;ADFS Extranet Lockout;Lockout Policies;Brute Force Attacks;Password Spray Attacks",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -101,11 +277,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f1be11a2-d1dd-71b0-842b-f725c56f9d73",
+      "longDescription": "",
+      "shortDescription": "Assistance setting up Smart Lockout or troubleshooting unexpected results",
+      "searchTags": "Setting up Smart Lockout ",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f61f03f5-b93d-bfdd-5a7a-6b2acc30f507",
+      "longDescription": "",
+      "shortDescription": "Issues found when authenticating using Password Hash Sync for AAD",
+      "searchTags": "issue with password hash sync ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fc160541-3775-bd33-3a5f-7230baae1238",
       "longDescription": "",
       "shortDescription": "I need assistance or found an issue when configuring Azure AD Identity Protection settings",
       "searchTags": "Identity Protection;Configuring Identity Protection;Identity Protection settings",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fe50cc52-70c6-39db-888d-3b18dfb329fe",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting WAP deployment or communication problems to or from the WAP",
+      "searchTags": "issue with WAP deployment ;communication problems with WAP",
+      "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     }
   ]

@@ -21,11 +21,27 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "00f8009e-7dd0-5260-7475-124d3bfecbb8",
+      "longDescription": "",
+      "shortDescription": "You have questions about configuring Advanced Threat Protection",
+      "searchTags": "Advanced Threat Protection",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "079471d2-82a4-2c9b-6db3-b2e38710381a",
       "longDescription": "",
       "shortDescription": "Your server is experiencing overall slowness or a specific query is very slow",
       "searchTags": "slow query;overall slowness;slowness;query is slow",
       "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "0a57fca1-790a-ef04-2041-e1211cf483f4",
+      "longDescription": "",
+      "shortDescription": "Questions specific to replication between servers",
+      "searchTags": "replication",
+      "category": "Replication",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -50,6 +66,14 @@
       "shortDescription": "Questions about scaling operations or pricing model",
       "searchTags": "scaling operations;pricing model",
       "category": "Scaling a resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1ff02206-1bc1-90fc-db7d-2a30fd620e9d",
+      "longDescription": "",
+      "shortDescription": "You have issues using PowerShell",
+      "searchTags": "powershell",
+      "category": "Portal, Client Tools and APIs",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -90,6 +114,38 @@
       "shortDescription": "Your server is experiencing high network latency while attempting to connect",
       "searchTags": "login latency;network latency;bandwidth",
       "category": "Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "498e3873-7508-0cff-bfd3-62a831807e37",
+      "longDescription": "",
+      "shortDescription": "Questions specific to issues with server parameters",
+      "searchTags": "Server Parameters",
+      "category": "Server Parameters",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4b9d5cd6-2e8a-a387-5f2e-95b4330269d4",
+      "longDescription": "",
+      "shortDescription": "You have issues with monitoring replication or configuring replication lag alerts",
+      "searchTags": "Metrics and alerts",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "55e76da2-90a4-f4a4-52fd-912260dcead4",
+      "longDescription": "",
+      "shortDescription": "You have questions about super user access (privileges)",
+      "searchTags": "super user",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "59f57416-49a7-0bf1-04d9-18b80f57d652",
+      "longDescription": "",
+      "shortDescription": "You are not able to create or delete read replicas",
+      "searchTags": "create read replica;delete read replica",
+      "category": "Replication",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -141,6 +197,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8ba0ff94-83f1-975e-a263-77c6dd0b8a21",
+      "longDescription": "",
+      "shortDescription": "You have issues connecting with a specific client driver",
+      "searchTags": "drivers issue",
+      "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8d5e5480-8edd-98b6-d69c-b441589a5dea",
       "longDescription": "",
       "shortDescription": "You are experiencing issues while scaling your server vCores, storage, or scaling between pricing tiers",
@@ -154,6 +218,14 @@
       "shortDescription": "You are not able to create, update, or delete servers",
       "searchTags": "create server;update server;delete server",
       "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9ad51aee-c80b-df3e-5e34-6db57c5fe709",
+      "longDescription": "",
+      "shortDescription": "You are experiencing issues with tools used to migrate to Azure Database for MySQL",
+      "searchTags": "migration tools;workbench;data migration",
+      "category": "Migrating to Azure",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -173,6 +245,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a7807a1d-f68a-7ed6-672c-10c2f90b7c48",
+      "longDescription": "",
+      "shortDescription": "You are not able to change a server parameter value",
+      "searchTags": "modify server parameter",
+      "category": "Server Parameters",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ab5bc630-d56d-ee3e-8dd8-73d70358c4b9",
       "longDescription": "",
       "shortDescription": "Your server is experiencing a performance or query execution issue.",
@@ -181,11 +261,43 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b36fce25-69ca-95fe-f243-461833b70b79",
+      "longDescription": "",
+      "shortDescription": "You are experiencing migration issues to Azure Database for MySQL",
+      "searchTags": "migration issues",
+      "category": "Migrating to Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b3b6f7ad-06cb-488e-ece1-b7523675248a",
+      "longDescription": "",
+      "shortDescription": "Questions about security",
+      "searchTags": "Security",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b512de2e-1892-6bc5-6e4e-cafb2bc2b192",
+      "longDescription": "",
+      "shortDescription": "You have questions about managing server firewall rules",
+      "searchTags": "firewall rules",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bb9c4681-a691-f485-f019-dcf0cdc2fc65",
       "longDescription": "",
       "shortDescription": "Your existing connections to the server have been dropped unexpectedly",
       "searchTags": "connection dropped;connectivity;connection issue;existing connections;dropped unexpectedly",
       "category": "Availability and Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bc38e975-b036-4d6a-cd5a-d55bca604a9f",
+      "longDescription": "",
+      "shortDescription": "You have issues with an Azure CLI command",
+      "searchTags": "az;azure cli",
+      "category": "Portal, Client Tools and APIs",
       "useInDiagnoseAndSolve": "true"
     },
     {

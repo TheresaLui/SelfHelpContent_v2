@@ -11,7 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="421b03ce-45b5-481b-9e01-ea010b11fecb"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # I can't connect to SQL Server in my VM
