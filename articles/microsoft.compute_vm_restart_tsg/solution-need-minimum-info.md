@@ -17,14 +17,14 @@
 
 # Minimum Info Required to Investigate Case
 <!--issueDescription-->
-We've reviewed your case and we need additional information to scope and investigate your case further. The information we require is as follows:
--Clear issue description
--Subscription ID
--VM name
--Restart Date and Time Frame.
--Workloads/software/applications/Role being hosted on the VM (if possible)
--Business Impact: "How would one describe the business impact of this issue?"
--Approval to collect the logs. If the case is submitted through the Portal, you would see "- GrantPermission: true" in the Case Description.
-
+We've reviewed your case and we need additional information to scope and investigate your case further. The information we require is as follows:<br><br>
+-Clear issue description<br>
+-Subscription ID<br>
+-VM name<br>
+-Restart Date and Time Frame.<br>
+-Workloads/software/applications/Role being hosted on the VM (if possible)<br>
+-Business Impact: "How would one describe the business impact of this issue?"<br>
+-Approval to collect the logs. If the case is submitted through the Portal, you would see "- GrantPermission: true" in the Case Description.<br>
+<br>
 Please respond with as much of this information as possible. 
 <!--/issueDescription-->
