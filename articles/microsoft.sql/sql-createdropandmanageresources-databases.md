@@ -1,0 +1,38 @@
+<properties
+	pageTitle="How-To: Azure SQL Database Management"
+	description="How-To: Azure SQL Database Management"
+	service="microsoft.sql"
+	resource="servers"
+	authors="emlisa, johirsch"
+    ms.author="emlisa"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32630418"
+	productPesIds="13491"
+	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	articleId="29427fe7-6a8b-46fc-aa6d-8d3fd5176098"
+	ownershipId="AzureData_AzureSQLDB"
+/>
+
+# How-To: Azure SQL Database Management
+
+### Databases created in Gen5 tier rather than S0 when tier isn't specified
+
+The default SLO for new databases has switched from S0 to GP_Gen5_2. Using T-SQL, Entity Framework, PowerShell, or AzureCLI to create a database without specifying a service tier will now result in provisioning a GP_Gen5_2 database. Any automated means of creating new databases that do not specify the service tier will now behave differently in terms of the performance and pricing of the newly created databases. For more information, see the [update announcement](https://azure.microsoft.com/updates/azure-sql-database-default-configuration-changing-soon/).
+
+### Shrink database by clearing up unused space
+
+* To free up space and shrink log files, use [these console commands](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-shrinkdatabase-transact-sql)
+
+### Trouble dropping a database through Azure Portal
+
+Often, when dropping a database using Azure Portal fails, dropping the database using SQL Server Management Studio will work more reliably. To do this, run "DROP [database name](https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-ssms)" from SSMS.
+
+### Trouble creating a database in Central Australia
+
+Subscription whitelisting is required for provisioning new databases in the Central Australia region. File a request for whitelisting [here](https://azure.microsoft.com/global-infrastructure/australia/contact/).
+
+## **Recommended Documents**
+
+* [Change database name, edition, size and other options](https://docs.microsoft.com/sql/t-sql/statements/alter-database-transact-sql?view=sql-server-2017?WT.mc_id=pid:13491:sid:32630418/)<br>
+* [Managing Azure SQL Databases using the Azure portal](https://azure.microsoft.com/documentation/articles/sql-database-manage-portal?WT.mc_id=pid:13491:sid:32630418/)

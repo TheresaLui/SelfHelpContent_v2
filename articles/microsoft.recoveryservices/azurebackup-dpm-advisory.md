@@ -4,28 +4,32 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="srinathv"
+	ms.author="srinathv"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32553273,32553278,32553292,32553300,32553293,32553301,32447358,32447362,32447366,32447372,32447376"
+	supportTopicIds="32553273,32553278,32553300,32553293,32553301,32632808,32632809"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="e5da5ced-5964-41ea-bd54-a12f80b4c32c"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # ALL self-help topics System Center Data Protection Manager to Azure
 
-## **Recommended Steps**
-- [Prerequisites for DPM backup](https://docs.microsoft.com/azure/backup/backup-azure-dpm-introduction#prerequisites)<br>
-- [Support Matrix of DPM backup](https://docs.microsoft.com/system-center/dpm/dpm-protection-matrix?view=sc-dpm-1711)<br>
-- [How to prepare DPM workloads in Azure Portal?](https://docs.microsoft.com/azure/backup/backup-azure-dpm-introduction#key-definitions)<br>
-- How to use DPM to backup workloads - [Exchange](https://docs.microsoft.com/azure/backup/backup-azure-backup-exchange-server), [SQL](https://docs.microsoft.com/azure/backup/backup-azure-backup-sql), [SharePoint](https://docs.microsoft.com/azure/backup/backup-azure-backup-sharepoint)<br>
-- [How to recover to alternate DPM server?](https://docs.microsoft.com/azure/backup/backup-azure-alternate-dpm-server)<br>
-- [Requirements and limitation of DPM](https://docs.microsoft.com/azure/backup/backup-azure-dpm-introduction#requirements-and-limitations)<br>
-                
+## **Recommended Documents**
+
+- [Prerequisites and limitations for DPM backup](https://aka.ms/AB-DPM-limitation)<br>
+- [Support Matrix for DPM backup](https://aka.ms/AB-DMP-SM)<br>
+- [Prepare DPM workloads in Azure Portal](https://aka.ms/AB-DPM-Intro)<br>
+- How to use DPM to backup workloads - [Exchange](https://aka.ms/AB-DPM-ES), [SQL](https://aka.ms/AB-DPM-SQL), [SharePoint](https://aka.ms/AB_DPM-Sharepoint)<br>
+- [Recover data to alternate DPM server](https://aka.ms/AB-DPM-alternate)<br>
+
 **Common Issues**
-- [Replica is inconsistent](https://docs.microsoft.com/azure/backup/backup-azure-scdpm-troubleshooting#replica-is-inconsistent)<br>
-- [Online Recovery Point Creation Failed](https://docs.microsoft.com/azure/backup/backup-azure-scdpm-troubleshooting#online-recovery-point-creation-failed)<br>
-- [Unable to configure protection](https://docs.microsoft.com/azure/backup/backup-azure-scdpm-troubleshooting#unable-to-configure-protection)<br>
-- [This server is not registered to the vault specified by the vault credential](https://docs.microsoft.com/azure/backup/backup-azure-scdpm-troubleshooting#this-server-is-not-registered-to-the-vault-specified-by-the-vault-credential)<br>
-- [Either the recoverable data is not available, or the selected server is not a DPM server](https://docs.microsoft.com/azure/backup/backup-azure-scdpm-troubleshooting#either-the-recoverable-data-is-not-available-or-the-selected-server-is-not-a-dpm-server)<br>
-- [The encryption passphrase provided does not match with passphrase associated with the following server](https://docs.microsoft.com/azure/backup/backup-azure-scdpm-troubleshooting#the-encryption-passphrase-provided-does-not-match-with-passphrase-associated-with-the-following-server)<br>
+
+- [Replica is inconsistent](https://aka.ms/AB-DPM-Replica)<br>
+- [Online Recovery Point Creation Failed](https://aka.ms/AB-DPM-recovery)<br>
+- [Unable to configure protection](https://aka.ms/AB-DPm-config)<br>
+- [Server not registered as specified in vault credential file](https://aka.ms/AB-DPM-VC)<br>
+- [No recoverable data or selected server not a Data Protection Manager server](https://aka.ms/AB-DPM-error)<br>
+- [Provided encryption passphrase doesn't match passphrase for server](https://aka.ms/AB-DPM-Passphraser)<br>

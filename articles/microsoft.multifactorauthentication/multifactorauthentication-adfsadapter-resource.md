@@ -10,6 +10,8 @@
 	resourceTags="mfa_overview"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="b956c26d-4894-40cd-ac93-68174fc85667"
+	ownershipId="AzureIdentity_User"
 />
 
 # Help installing the AD FS adapter for Azure MFA Server

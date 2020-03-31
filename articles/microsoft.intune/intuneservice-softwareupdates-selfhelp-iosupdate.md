@@ -10,6 +10,8 @@
 	resourceTags="software_updates_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="796678fe-9f44-4102-b362-48a421ac3a6c"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # My iOS devices are not updating to the latest OS versions.

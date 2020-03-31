@@ -9,7 +9,9 @@
 	supportTopicIds="32584873"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="0dd186e6-92b7-4e22-923e-ca371640b18f"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # configuration and setup

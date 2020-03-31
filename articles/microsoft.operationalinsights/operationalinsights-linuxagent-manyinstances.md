@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="951653da-b170-456a-8744-a2ebf5e610bb"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Linux Agent/Many instances of OMS agent running

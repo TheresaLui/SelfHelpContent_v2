@@ -3,14 +3,17 @@
     description="Azure Active Directory domains troublehooter"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="ElizavetaKuzmenko"
+    authors="curtand"
+	ms.author="curtand"
     displayOrder="4297"
     selfHelpType="resource"
     supportTopicIds=""
     resourceTags="directory_domain"
     productPesIds=""
-    cloudEnvironments="public"
-    />
+    cloudEnvironments="public, Fairfax, Mooncake"
+    	articleId="2d359d87-aebf-40e8-badf-f9be35a38c49"
+	ownershipId="AzureIdentity_User"
+/>
 
 # I still have other problems related to domain name management
  

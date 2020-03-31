@@ -4,23 +4,33 @@
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="v-bllydi"
+    ms.author="asgang"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32574719"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="088066b0-5fd9-476a-9fa2-6d6949c584ef"
+	ownershipId="Compute_SiteRecovery"
 />
 
-# Failover and Failback Azure VM between Azure regions.
-## **Recommended steps**
-- [How to **Failover and Failback Azure VMs** between Azure regions?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failover-failback)<br>
-- [How to **retain fixed IP address** after failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-retain-ip-azure-vm-failover)<br>
-- [How to **assign new IP address** to a VM after failover](https://azure.microsoft.com/blog/networking-infrastructure-setup-for-microsoft-azure-as-a-disaster-recovery-site/)<br>
-- [Issue] [*Connect button grayed out on VM*](https://aka.ms/unabletoRDPSSH)<br>
-- [Issue] [*Connect button is available but I am unable to RDP/SSH to VM*](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#unable-to-connectrdpssh-to-the-failed-over-virtual-machine-even-though-connect-button-is-available-not-grayed-out-on-the-virtual-machine)<br>
-- [How to] [troubleshoot RDP connection to Windows VM?](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)<br>
-- [How to] [troubleshoot SSH connection to Linux VM?](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)<br>
-- [Issue] [*There aren't sufficient cores available to failover?* Follow these steps to increase the quota ](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)<br>
-- [Issue] [*The selected target location is not enabled for VM creation in your subscription.* Change location or follow these instructions to enable VM creation ](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request)<br>
-- [Issue] Troubleshooting Failover error codes with: [Error ID 28031](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#failover-failed-with-error-id-28031), [Error ID 28092](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#failover-failed-with-error-id-28092), [Error ID 70038](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#failover-failed-with-error-id-70038)<br>
+# Failover and Failback Azure VM between Azure regions
+
+## **Recommended Documents**
+
+- [How to fail over and fail back Azure VMs between Azure regions](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failover-failback)<br>
+- [How to retain fixed IP address after failover](https://docs.microsoft.com/azure/site-recovery/site-recovery-retain-ip-azure-vm-failover)<br>
+- [How to retain Public IP address to a VM after failover](https://docs.microsoft.com/azure/site-recovery/concepts-public-ip-address-with-site-recovery#public-ip-address-assignment-using-recovery-plan)<br>
+- [Is Failover automatic?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#is-failover-automatic)
+- [How is capacity assured in DR region for Azure VMs?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#how-is-capacity-assured-in-target-region-for-azure-vms-1)
+- [How much time does it take to fail back?](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-common-questions#how-much-time-does-it-take-to-fail-back)
+- [How to replicate NSG with ASR](https://docs.microsoft.com/azure/site-recovery/concepts-network-security-group-with-site-recovery#azure-to-azure-replication-with-nsg)
+- [Why virtual machines are not cleaned up after failback](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-tutorial-failback#fail-back-to-the-primary-region)
+- [How to troubleshoot RDP connection to Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)<br>
+- [How to troubleshoot SSH connection to Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)<br>
+
+**Troubleshooting**
+
+- There aren't sufficient cores available to failover? Follow [these steps](https://docs.microsoft.com/azure/azure-supportability/resource-manager-core-quotas-request) to increase the quota.
+- Troubleshooting Failover error codes with: [Error ID 28031](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#failover-failed-with-error-id-28031), [Error ID 28092](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#failover-failed-with-error-id-28092), [Error ID 70038](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover-to-azure-troubleshoot#failover-failed-with-error-id-70038)<br>

@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="16460"
 	cloudEnvironments="public,MoonCake"
+	articleId="11b97486-c31f-4c08-9551-7e89ff91886a"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Troubleshooting Azure File timeout issues

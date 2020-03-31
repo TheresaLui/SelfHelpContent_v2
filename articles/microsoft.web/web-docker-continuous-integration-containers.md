@@ -9,7 +9,9 @@
 	supportTopicIds="32588772"
 	resourceTags=""
 	productPesIds="16333"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="f1f97567-7a70-4a11-9258-3d14b4d15069"
+	ownershipId="Compute_AppService"
 />
 
 # Docker Containers/Docker container continuous integration

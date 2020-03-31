@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="ba6deb1d-26ad-4855-b061-2dea78092d9c"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Devices - Locate lost iOS device

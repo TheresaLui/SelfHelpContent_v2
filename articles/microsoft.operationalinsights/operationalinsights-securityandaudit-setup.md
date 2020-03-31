@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="3803d76b-6790-4d63-9c81-c14dd2dd61df"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # securityandaudit-setup

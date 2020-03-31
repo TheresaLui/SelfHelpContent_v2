@@ -10,6 +10,8 @@
 	resourceTags="windows, linux, windowsSQL, redhat"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="86c713e7-5b67-4ef4-814e-9beced9dcbdb"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # I have network connectivity problems

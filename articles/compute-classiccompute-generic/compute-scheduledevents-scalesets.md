@@ -2,19 +2,22 @@
 	pageTitle="Management/Scheduled events"
 	description="Management/Scheduled events"
 	service="microsoft.compute"
-	resource="virtualmachines"
+	resource="virtualmachinescalesets"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32591160"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="0eeeaa57-b643-4fad-abf0-cedd3e72646c"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # Management/Scheduled events
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Overview of Azure Metadata Service: Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events)<br>
 * [Enabling and Disabling Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events#enabling-and-disabling-scheduled-events)<br>

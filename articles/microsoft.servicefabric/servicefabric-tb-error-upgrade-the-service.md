@@ -10,6 +10,8 @@
 	resourceTags="servicefabric"
 	productPesIds=""
 	cloudEnvironments="public,BlackForest,Fairfax"	 
+	articleId="0ce55588-5a87-4029-af19-ddfd78ffe1b5"
+	ownershipId="Compute_ServiceFabric"
 />
  
 # Errors upgrading a service

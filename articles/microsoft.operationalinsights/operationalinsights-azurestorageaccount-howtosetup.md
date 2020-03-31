@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="3ce5862f-e71e-412b-a761-2080ae306b20"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # azurestorageaccount-howtosetup

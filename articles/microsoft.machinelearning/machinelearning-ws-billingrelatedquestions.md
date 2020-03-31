@@ -10,7 +10,9 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
- />
+ 	articleId="91a1d05b-4a49-4047-a4c4-340c74c583c0"
+	ownershipId="AzureML_AzureMachineLearning"
+/>
 
 # I have a question regarding billing for machine learning web services
 

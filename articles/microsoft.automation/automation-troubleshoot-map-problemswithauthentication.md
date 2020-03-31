@@ -10,6 +10,8 @@
     supportTopicIds=""
     resourceTags=""
     cloudEnvironments="public"
+	articleId="8518007f-2fe3-4f33-b1d4-ce4bfc72a20b"
+	ownershipId="Compute_Automation"
 />
 
 # Problems with Run As accounts and authentication in runbooks

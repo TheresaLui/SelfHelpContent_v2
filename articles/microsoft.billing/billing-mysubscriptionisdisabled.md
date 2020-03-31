@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="fe3f3f9d-a27b-46e3-b1a5-0ad81ce85bf8"
+	ownershipId="ASMS_Billing"
 />
 
 # My subscription is disabled

@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="87861f9c-de57-4556-bfd8-7d955d85e464"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # azurestorageaccount-other

@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="jozender"
+	ms.author="jozender"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_F891E098-FCD0-4F60-BA1E-0CDB5A5C42B8"
 	diagnosticScenario="UnexpectedVMReboot"
@@ -12,7 +13,8 @@
 	supportTopicIds="32411816"
 	resourceTags="windows, linux"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 
@@ -26,6 +28,4 @@ The shutdown was triggered by an authorized user or process from within the Virt
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.<br>
 
-To learn more about Azure Resource Health, please refer to the following article:<br>
-
-* [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+To learn more about Azure Resource Health, see [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview).

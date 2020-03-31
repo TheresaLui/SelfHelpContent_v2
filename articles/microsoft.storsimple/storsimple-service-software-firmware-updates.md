@@ -11,6 +11,8 @@
 	resourceTags=""
 	productPesIds="15438"
 	cloudEnvironments="public"
+	articleId="ce62e41d-f980-4341-b42f-da8c48ebedfd"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Software and firmware updates

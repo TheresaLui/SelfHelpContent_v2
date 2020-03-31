@@ -10,6 +10,8 @@
 	resourceTags="linux, redhat, Ubuntu"	 
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	articleId="35042568-bcaa-49ca-aa9f-954dc5887e7a"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # I can't create or add a VM

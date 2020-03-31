@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="68e63cb5-160a-416b-ba8d-7d80306197ef"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # I need help with Import/Export

@@ -10,6 +10,8 @@
 	resourceTags="mobileapp"
 	productPesIds="15046"
 	cloudEnvironments="public"
+	articleId="ebd08447-7531-419f-a532-e569cedd383d"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # performance, errors, and other application issues/azure portal notifies you that a service interruption may affect your app

@@ -6,8 +6,10 @@
     authors="krbain"
     selfHelpType="generic"
     supportTopicIds="32586792"
-    productPesIds="14785"
-    cloudEnvironments="public"
+    productPesIds="16578"
+    cloudEnvironments="public, Fairfax, Mooncake"
+	articleId="96948e70-b956-4bf2-bf63-6085f73bb4f0"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Creating a new group

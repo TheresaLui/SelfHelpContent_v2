@@ -10,6 +10,8 @@
 	resourceTags="apiapp"
 	productPesIds="15792"
 	cloudEnvironments="public"
+	articleId="e6caefde-4c77-4c43-ba19-ce64e949af31"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # how-to or development issues

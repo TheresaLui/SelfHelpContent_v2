@@ -1,27 +1,28 @@
 <properties
-	pageTitle="Backup of Windows Azure virtual machine fails"
-	description="Top issues causing Windows Azure virtual machine backup failures"
+	pageTitle="Diagnose and resolve issues with Windows Azure virtual machine backup"
+	description="Diagnose and resolve issues with Windows Azure virtual machine backup"
 	service="microsoft.recoveryservices"
 	resource="vaults"
-	authors="trinadhk"
+	authors="srinathv"
+	ms.author="srinathv"
 	displayOrder="2"
 	selfHelpType="resource"
 	supportTopicIds="32553277"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="79088548-2aa6-44f1-8f3c-25df1e8e92bf"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
-# Backup of Windows Azure virtual machine fails
+# Diagnose and resolve issues with Windows Azure virtual machine backup
 
-## **Recommended steps**
-- [Ensure your Windows VM agent is up to date before troubleshooting further](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows#manual-installation) <br>
-- [Ensure there is connectivity between VM and Azure Storage endpoints](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-vm-has-no-internet-access) <br>
-- [For Snapshot extension issues, uninstall extensions to force reload & retry backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-backup-extension-fails-to-update-or-load) <br>
-- [OS Versions older than Windows Server 2008 R2 are not supported for Backup](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#supported-operating-systems-for-backup) <br>
+## **Recommended Steps**
+- For **UserErrorGuestAgentStatusUnavailable** issue ensure the Azure VM Guest Agent is in Ready state by following these [troubleshooting steps](https://go.microsoft.com/fwlink/?linkid=2107408) <br>
+- For **UserErrorVmProvisioningStateFailed** issue verify and ensure VM provisioning state is in Succeeded state by following these [troubleshooting steps](https://go.microsoft.com/fwlink/?linkid=2112897) <br>
+- For **GuestAgentSnapshotTaskStatusError** issue ensure VM Agent status is healthy and extension is able to execute snapshots by following these [troubleshooting steps](https://go.microsoft.com/fwlink/?linkid=2112898) <br>
 
-## **Recommended documents**
-- [VM agent is unable to communicate with the Azure Backup Service?](https://aka.ms/iaasvmbackuptshoot1) <br>
-- [Snapshot operation failed due to no network connectivity on the virtual machine?](https://aka.ms/iaasvmbackuptshoot2) <br>
-- [VMSnapshot extension operation failed?](https://aka.ms/iaasvmbackuptshoot3) <br>
-- [Unable to perform the operation as the VM Agent is not responsive?](https://aka.ms/iaasvmbackuptshoot4) <br>
+## **Recommended Documents**
+- For troubleshooting Azure VM Backup issues, refer to the [troubleshooting article](https://go.microsoft.com/fwlink/?linkid=2113100)
+- For list of common Azure VM Backup error codes, refer to this [article](https://go.microsoft.com/fwlink/?linkid=2112917)
+

@@ -4,23 +4,25 @@
 	service="microsoft.azureactivedirectory"
 	resource="b2cDirectories"
 	authors="parakhj"
+	ms.author="parja"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32444951"
+	supportTopicIds="32633313,32633314,32633323,32633326"
 	resourceTags=""
 	productPesIds="16580"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
+	articleId="9deaf394-ec19-4c42-aaba-fceaec2e67b5"
+	ownershipId="AzureIdentity_B2C"
 />
 
 # Business to Consumer (B2C)
 
-## **Recommended steps**
+## **Recommended Steps**
 
-1. Follow [these steps](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started) to create an Azure AD B2C directory.
-1. [Link](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-how-to-enable-billing) the newly created Azure AD B2C directory to your Azure subscription.
+1. Follow [these steps](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started) to create an Azure AD B2C directory
+1. [Link](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-how-to-enable-billing) the newly created Azure AD B2C directory to your Azure subscription
 
-
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to create an Azure AD B2C directory](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started)
 * [How to link my Azure subscription to my Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-how-to-enable-billing)

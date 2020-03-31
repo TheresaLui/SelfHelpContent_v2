@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="55fe2696-9bf9-45a5-b738-a20a46beb2ee"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # I'm experiencing performance issues

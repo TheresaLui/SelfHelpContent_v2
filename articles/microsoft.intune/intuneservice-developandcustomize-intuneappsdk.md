@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="46e2c610-010c-426b-b025-151537655905"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Develop and Customize - Intune App SDK

@@ -1,0 +1,21 @@
+  <properties
+	pageTitle="cognitive services - extract key phrases using text analytics"
+	description="cognitive services - extract key phrases using text analytics"
+	service="microsoft.PowerBIDedicated"
+	resource="capacities"
+	authors="pjfreitas"
+	ms.author="pfreitas"	
+	displayOrder="150"
+	selfHelpType="generic"
+	supportTopicIds="32633792"
+	productPesIds="16334"
+	cloudEnvironments="public, MoonCake, fairfax" 
+	articleId="372319eb-e01e-a9ae-090d-01cd65ad7f7e"
+	ownershipId="ASEP_ContentService_Placeholder"
+/>
+
+# Example: How to extract key phrases using Text Analytics
+
+## **Recommended Documents**
+
+* [Example: How to extract key phrases using Text Analytics](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)

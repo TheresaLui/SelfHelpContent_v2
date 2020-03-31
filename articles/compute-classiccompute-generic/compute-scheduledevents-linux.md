@@ -1,20 +1,25 @@
-<properties
+	<properties
 	pageTitle="Management/Scheduled events"
 	description="Management/Scheduled events"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32591376,32591374,32591160,32607855"
+	supportTopicIds="32591376,32591374,32591160"
 	resourceTags=""
 	productPesIds="16342,16065,15571,15797,16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="250ba69c-7415-4170-a44e-4a31923a31ef"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # Management/Scheduled events
 
-## **Recommended documents**
+4 out of 5 customers resolved their issue using the below steps.<br>
+
+## **Recommended Documents**
 
 * [Overview of Azure Metadata Service: Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events)<br>
 * [Enabling and Disabling Scheduled Events](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events#enabling-and-disabling-scheduled-events)<br>

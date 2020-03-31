@@ -1,24 +1,29 @@
 <properties
-	pageTitle="I need help with cross-subscription connectivity (for Circuit Owner)"
-	description="I need help with cross-subscription connectivity (for Circuit Owner)"
-	service="microsoft.network"
-	resource="expressroutecircuits"
-	authors="kasparks"
-	displayOrder="9"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="MoonCake"
+    pageTitle="I need help with cross-subscription connectivity (for Circuit Owner)"
+    description="I need help with cross-subscription connectivity (for Circuit Owner)"
+    service="microsoft.network"
+    resource="expressroutecircuits"
+    authors="kasparks"
+    ms.author="kasparks"
+    displayOrder="9"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="MoonCake"
+	articleId="a0f573ba-2378-44a4-a138-45afba7ff94f"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # I need help with cross-subscription connectivity (for Circuit Owner)
 
-## **Recommended steps**
-To resolve the most common issues, try one or more of the following methods.
+## **Recommended Steps**
 
-1. Check your authorizations.<br>
-Review issue. Check if you had authorizations and existCheck if you have authorizations. Check if the authorization in question is used or available.
+To resolve most common issues, try the following:
 
-## **Recommended documents**
-[For additional details, see following ExpressRoute Troubleshooting document](https://docs.azure.cn/expressroute/)
+1. Check your authorizations, and ensure the authorization in question is used or available
+
+## **Recommended Documents**
+
+* [ExpressRoute Overview](https://docs.azure.cn/expressroute/)
+* [ExpressRoute Routing Requirements](https://docs.azure.cn/zh-cn/expressroute/expressroute-routing)

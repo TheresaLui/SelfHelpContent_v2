@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="d1375a10-369e-4c1e-b96d-c301a2ebf9a9"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # customlogs-error

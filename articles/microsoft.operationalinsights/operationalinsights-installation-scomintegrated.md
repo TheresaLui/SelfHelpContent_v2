@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="43186af4-6089-4f2a-b819-6cd289ad339f"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # installation-scomintegrated

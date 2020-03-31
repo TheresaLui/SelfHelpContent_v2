@@ -10,6 +10,8 @@
 	resourceTags="software_updates_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="361a512d-f608-4934-b8e8-deaf15ec0026"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I configured software updates through a Windows 10 update ring, but the updates are not being deployed.

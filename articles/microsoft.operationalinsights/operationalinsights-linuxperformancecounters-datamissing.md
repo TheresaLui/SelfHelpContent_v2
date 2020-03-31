@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="f3a4ca07-4c58-4954-afda-a94009d83473"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # linuxperformancecounters-datamissing

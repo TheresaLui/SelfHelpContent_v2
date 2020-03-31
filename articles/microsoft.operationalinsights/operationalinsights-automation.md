@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="6c71e005-1bb6-4e3c-a677-e53cff438225"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # automation

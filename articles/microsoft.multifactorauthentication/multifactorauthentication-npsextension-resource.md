@@ -10,6 +10,8 @@
 	resourceTags="mfa_overview"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="73fb051f-e55a-40b4-8493-e30ff5bd3125"
+	ownershipId="AzureIdentity_User"
 />
 
 # Installation errors for the Azure MFA NPS extension

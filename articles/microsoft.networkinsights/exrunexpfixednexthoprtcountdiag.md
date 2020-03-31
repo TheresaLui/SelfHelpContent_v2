@@ -6,13 +6,14 @@
     resource="ExpressRoute"
     authors="KristinaNeyens"
     displayOrder=""
-    articleId="exrunexpfixednexthoprtcountdiag"
+    articleId="ExRCoreRouterUnexpectedFixedNexthopRouteCountInsight"
     selfHelpType="diagnostics"
     supportTopicIds="32539944, 32539947"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax"
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 # Microsoft Azure has identified an issue regarding the Microsoft Edge device
  
 ## **Recommended steps**

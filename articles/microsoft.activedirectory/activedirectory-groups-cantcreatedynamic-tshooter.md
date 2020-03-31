@@ -7,8 +7,10 @@
     displayOrder="2519"
     selfHelpType="resource"
     resourceTags="userandgroups_overview,userandgroups_group"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax, Mooncake"
+ 	articleId="3c3f9602-4338-4bd2-bada-20e48eee4193"
+	ownershipId="AzureIdentity_User"
+/>
 
 
 # I can't create and populate a dynamic group

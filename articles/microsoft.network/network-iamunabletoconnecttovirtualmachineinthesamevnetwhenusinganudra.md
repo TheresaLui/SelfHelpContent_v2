@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="406bbd29-d856-402f-91a1-8a3a2728ca47"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # I am unable to connect to virtual machines in the same VNet when using an UDR.

@@ -3,25 +3,34 @@
     description="My hive queries are really slow"
     service="microsoft.hdinsight"
     resource="clusters"
-    authors="bharathsreenivas"
-    displayOrder="7"
-    selfHelpType="resource"
-    supportTopicIds="32511190"
+    authors="TobyTu"
+    ms.author="jaserano"
+    displayOrder=""
+    selfHelpType="Generic"
+    supportTopicIds="32636464"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+    articleId="0d3e4f2d-cfe6-4921-8395-750ac12be8c9"
+	ownershipId="AzureData_HDInsight"
 />
 
-# My hive queries are really slow
+# My Hive Queries Are Really Slow
 
-## **Recommended steps**
-The following Hive performance optimization methods can be applied to your cluser:
- 
- 1. Scale out your worker nodes to leverage more mappers and reducers to be run in parallel.
- 2. Enable Tez as the execution engine instead of MapReduce.
+## **Recommended Steps**
+
+The following Hive performance optimization methods can be applied to your cluster:
+
+ 1. Scale out your worker nodes to leverage more mappers and reducers to be run in parallel
+ 2. Enable Tez as the execution engine instead of MapReduce
  3. Review your partitioning scheme to consider cases where there are too few or too many partitions. Choose the scheme such that the partitions are evenly sized.
- 4. Use the ORCFile format which is optimized for faster access to data.
- 5. Enable vectorization to process multiple rows together.
+ 4. Use the ORCFile format which is optimized for faster access to data
+ 5. Enable vectorization to process multiple rows together
 
-## **Recommended documents**
-[Optimizing Hive Performance](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-optimize-hive-query)<br>
+## **Recommended Documents**
+
+* [Optimizing Hive Performance](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-optimize-hive-query)
+
+### **Troubleshooting**
+
+* [Why are my LLAP queries running slow?](https://hdinsight.github.io/hive/hive-llap-query-perf.html)

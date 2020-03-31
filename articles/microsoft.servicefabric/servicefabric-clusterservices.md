@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15842"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="8017c2aa-57fb-4085-be66-236cd27864c9"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # cluster/cluster services

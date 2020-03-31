@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="dc5f188c-37c7-4266-bb30-fe07c71bfc30"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Intune for Education - Groups

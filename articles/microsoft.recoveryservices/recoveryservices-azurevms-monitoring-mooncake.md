@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="MoonCake"
+	articleId="fd89fe97-213e-4abc-a695-9e7d347db5c6"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 

@@ -4,29 +4,30 @@
   service="microsoft.aad"
   resource="Microsoft_AAD_IAM"
   authors="billmath"
+  ms.author="billmath"
   displayOrder=""
   selfHelpType="generic"
-  supportTopicIds="32596862"
+  supportTopicIds="32596862,32629769"
   resourceTags="aadconnect,aadconnect_pass_through_authentication,managed_authentication"
-  productPesIds="14785,16579"
-  cloudEnvironments="public"
+  productPesIds="16579,16666"
+  cloudEnvironments="public, Fairfax, Mooncake"
+  articleId="5e0305b5-a7a4-43d7-bd00-aa3bf679ca91"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Problems configuring and signing in with Azure AD Pass-through Authentication
 
-## **Recommended steps**
+## **Recommended Steps**
 
-1. If you are configuring Pass-through Authentication for the first time, please ensure that you have reviewed the [Introduction](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication), [quick start](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start) and [FAQ](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-faq) articles.
+1. If you are configuring Pass-through Authentication for the first time, please ensure that you have reviewed the [Introduction](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication), [quick start](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start), and [FAQ](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-faq) articles
 2. Review [current limitations](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-current-limitations) of Pass-through Authentication to ensure that you are not experiencing a known issue. As a workaround to such issues, enable Password Hash Synchronization on the [Optional features](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-get-started-custom#optional-features) page in the Azure AD Connect wizard.
 3. If you have security-related questions about Pass-through Authentication, read this [article](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-security-deep-dive).
-4. If you are planning to migrate from AD FS to Pass-through Authentication, review this [article](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin) for comparison between the sign-in methods. And review this [FAQ entry](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-faq#i-already-use-ad-fs-to-sign-in-to-azure-ad-how-do-i-switch-it-to-pass-through-authentication) for more details on how to do the migration.
+4. If you are planning to migrate from AD FS to Pass-through Authentication, review this [article](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin) for comparison between the sign-in methods, and review this [FAQ entry](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-faq#i-already-use-ad-fs-to-sign-in-to-azure-ad-how-do-i-switch-it-to-pass-through-authentication) for more details on how to do the migration
 5. Before making any changes to your Pass-through Authentication configuration, add a cloud-only Global Administrator account to your tenant. Learn more [here](https://docs.microsoft.com/azure/active-directory/add-users-azure-active-directory) on how to do so. This step ensures that you don't get locked out of your tenant.
-6. If you have already configured Pass-through Authentication, please configure your tenant for [high availability](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start#step-5-ensure-high-availability).
-7. If you want to make a feature request, use our [UserVoice forum](https://feedback.azure.com/forums/169401-azure-active-directory/category/160611-directory-synchronization-aad-connect) instead.
+6. If you have already configured Pass-through Authentication, please configure your tenant for [high availability](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start#step-5-ensure-high-availability)
+7. If you want to make a feature request, use our [UserVoice forum](https://feedback.azure.com/forums/169401-azure-active-directory/category/160611-directory-synchronization-aad-connect)
 
-## **Recommended documents**
-
-The following documents can help you resolve the most common issues in each category.
+## **Recommended Documents**
 
 ### Troubleshooting configuration of Pass-through Authentication
 

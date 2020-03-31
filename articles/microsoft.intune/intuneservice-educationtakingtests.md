@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="ea2f385c-ce3f-4102-aeba-bf3acb2367b4"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Taking Tests

@@ -3,21 +3,27 @@
 	description="cluster/clusterupgrade"
 	service="microsoft.servicefabric"
 	resource="clusters"
-	authors="chiragpa"
+	authors="ChiragPavecha"
+	ms.author="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32608946"
+	supportTopicIds="32690995, 32690989"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="f7d8df66-6bd3-4d84-81c8-a2bf560b7dc8"
+	ownershipId="Compute_ServiceFabric"
 />
 
-# cluster/clusterupgrade
+# Cluster Upgrades
 
-## **Recommended documents**
-[Common questions and solutions on Cluster Upgrade](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/tree/master/Cluster)<br>
-[How to troubleshoot Cluster Upgrade issues](https://blogs.msdn.microsoft.com/huizhu/2018/05/04/troubleshoot-service-fabric-cluster-upgrade-issues)<br>
-[Upgrade Service Unreachable](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Cluster/Cluster%20Not%20Reachable%20%20UpgradeServiceNotreachable.md)<br>
-[Service Fabric Cluster Upgrade Concepts and Settings](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-upgrade)<br>
-[Service Fabric Standalone Cluster Upgrade](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-upgrade-windows-server)<br>
-[Tutorial: Upgrade the runtime of a Service Fabric cluster in Azure](https://docs.microsoft.com/azure/service-fabric/service-fabric-tutorial-upgrade-cluster)<br>
+## **Recommended Documents**
+
+* [Troubleshoot cluster upgrade issues](https://github.com/Azure/Service-Fabric-Troubleshooting-Guides/blob/master/Cluster/Troubleshooting%20failed%20Fabric%20Upgrade.md)<br>
+* [Rollback Cluster Upgrade](https://docs.microsoft.com/powershell/module/servicefabric/start-servicefabricclusterrollback?view=azureservicefabricps)<br>
+* [Service Fabric cluster upgrade concepts and settings](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-upgrade)<br>
+* [Upgrade the runtime of a Service Fabric cluster in Azure](https://docs.microsoft.com/azure/service-fabric/service-fabric-tutorial-upgrade-cluster)<br>
+* [Upgrading and updating an Azure Service Fabric cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-upgrade)
+* [Upgrade the Service Fabric version of a cluster](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-upgrade-version-azure)<br>
+* [Service Fabric standalone cluster upgrade](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-upgrade-windows-server)<br>
+* [Tutorial: Upgrade the runtime of a Service Fabric cluster in Azure](https://docs.microsoft.com/azure/service-fabric/service-fabric-tutorial-upgrade-cluster)<br>

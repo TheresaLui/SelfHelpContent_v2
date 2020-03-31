@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="b56cfa9f-1bf4-43d0-9ef7-edff7b4183af"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # powerbiintegration-error

@@ -10,6 +10,8 @@
 	productPesIds="15973"
 	supportTopicIds="32565583"
 	cloudEnvironments="public"
+	articleId="3dd1920c-28f6-4b72-92c5-40c57396a826"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Errors and Exceptions/Invalid token or PNS handle

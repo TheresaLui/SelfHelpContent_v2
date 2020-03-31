@@ -1,20 +1,24 @@
 <properties
-	pageTitle="Archive Storage Tier"
-        description="Archive Storage Tier"
+	pageTitle="Storage Tiers - Hot, Cool, Archive"
+    	description="Storage Tiers - Hot, Cool, Archive"
 	service="microsoft.storage"
-	resource="storageaccounts"
-	authors=""
+	resource="storage"
+	authors="ramMSFT"
+	ms.author="raprasad"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602708"
+	supportTopicIds="32602732,32639221"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	articleId="a593e2f4-8c91-4c89-b5bc-bba6f0860acf"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
-# Archive Storage Tier
+# Storage Tiers - Hot, Cool, Archive
 
-## **Recommended documents**
+## **Recommended Documents**
+
 - [Azure Blob Storage: Hot, cool, and archive storage tiers](https://docs.microsoft.com/azure/storage/blobs/storage-blob-storage-tiers)<br>
 - [Check availability of hot, cool, and archive by region](https://azure.microsoft.com/regions/#services)<br>
 - [Archive Tier pricing by region](https://azure.microsoft.com/pricing/details/storage/blobs)<br>

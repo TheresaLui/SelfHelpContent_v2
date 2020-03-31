@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="13186"
 	cloudEnvironments="public,BlackForest,Fairfax"
+	articleId="8f621fac-140e-4e38-b31d-d5714a8531b0"
+	ownershipId="AzureMessaging_Common"
 />
 
 # errors and exceptions/message communication exception

@@ -9,7 +9,9 @@
 	supportTopicIds="32591159"
 	resourceTags=""
 	productPesIds="16094"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="66bf3f32-4f47-43fa-94ff-101ed9f02f86"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Unable to transit to remote site

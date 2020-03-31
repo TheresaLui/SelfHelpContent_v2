@@ -8,8 +8,10 @@
     selfHelpType="resource"
     supportTopicIds=""
     productPesIds="15693"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax"
+ 	articleId="62453b8f-3e8c-4ecb-baeb-6ed9489a48cf"
+	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 # My web test is intermittently failing with a protocol violation error
 ## **Recommended steps**
 The error ("protocol violation.. CR must be followed by LF") indicates an issue with the server (or dependencies). To summarize, this happens when malformed headers are set in the response (this can be caused by load balancers or CDN's). Specifically, some headers might not be using CRLF to indicate end-of-line, which is against the HTTP specification and, therefore, they fail validation at the .NET WebRequest level.  See [this blog post](http://mehdi.me/a-tale-of-debugging-the-linkedin-api-net-and-http-protocol-violations/) for a detailed explanation of the issue.  We recommend taking a close look at the network response and try to spot the headers which might be in violation.

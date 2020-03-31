@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="57e519cb-eb8d-48aa-8160-292f8238c05b"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # I can't connect to services offered through Microsoft peering

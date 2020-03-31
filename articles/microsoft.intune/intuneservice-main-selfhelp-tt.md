@@ -10,6 +10,8 @@
 	resourceTags="main_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="bf0a8eee-a719-44e7-9254-96585ecd1875"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Where can I get tips and tricks from the Intune Support Team?

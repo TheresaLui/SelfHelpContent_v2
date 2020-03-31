@@ -4,7 +4,8 @@ description="Virtual machine failed to boot with known boot error 0x00000067"
 infoBubbleText="A boot error has been found. See details on the right."
 service="microsoft.compute"
 resource="virtualmachines"
-authors="ram-kakani"
+authors="ram-kakani, jasonbandrew"
+ms.author="ram-kakani, v-jasoan"
 displayOrder=""
 articleId="WindowsStopError-0x00000067-CONFIG_INITIALIZATION_FAILED"
 diagnosticScenario="booterror"
@@ -12,12 +13,12 @@ selfHelpType="diagnostics"
 supportTopicIds="32411835"
 resourceTags="windows"
 productPesIds="14749"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # VM boot error
 <!--issueDescription-->
-## **Boot error found for your virtual machine**
 We have investigated and identified that your VM is currently in an inaccessible state because windows failed to boot with error code **0x00000067**. This issue occurs when the Initial Machine Configuration (IMC) reference is setup on the Boot loader but its reference is missing in the registry.
 
 If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause.
@@ -36,9 +37,8 @@ To recover the VM and restore connectivity, please follow the troubleshooting st
 
 5. Run the following command line as an administrator to gather the BCD store information.
 
-      ```
-      c:\> bcdedit /store <drive letter>:\boot\bcd /enum
-
+   ```
+   c:\> bcdedit /store <drive letter>:\boot\bcd /enum
       Windows Boot Manager
       --------------------
       identifier              {bootmgr}
@@ -67,7 +67,7 @@ To recover the VM and restore connectivity, please follow the troubleshooting st
       resumeobject            {e6df4561-50ce-11e7-a810-806e6f6e6963}
       nx                      OptOut
       bootstatuspolicy        IgnoreAllFailures
-      ```
+   ```
 
 6. Remove the Initial Machine Configuration (IMC) references in the BCD store by executing the below commands. You must replace these placeholders by the actual values:
 

@@ -10,6 +10,8 @@
 	resourceTags="onpremise_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="0312c301-2ddf-4a5c-901c-1dcf5c5918da"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # The account used for the Exchange Connector cannot communicate with our Microsoft Exchange Server.

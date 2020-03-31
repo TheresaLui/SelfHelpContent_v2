@@ -10,7 +10,9 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
- />
+ 	articleId="649e95a9-54cf-4ee0-91cd-ebaa6c6898c7"
+	ownershipId="AzureML_AzureMachineLearning"
+/>
 
 # I have a question regarding billing for machine learning workspaces
 

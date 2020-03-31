@@ -1,23 +1,33 @@
 <properties
-                pageTitle="Azure Backup SQL Backup failures"
-                description="Azure Backup SQL Backup failures"
-                service="microsoft.recoveryservices"
-                resource="vaults"
-                authors="srinathvasireddy"
-                displayOrder=""
-                selfHelpType="generic"
-                supportTopicIds="32605791"
-                resourceTags=""
-                productPesIds="15207"
-                cloudEnvironments="public"
+		pageTitle="Azure Backup SQL Backup failures"
+		description="Azure Backup SQL Backup failures"
+		service="microsoft.recoveryservices"
+		resource="vaults"
+		authors="srinathv"
+		ms.author="srinathv"
+		displayOrder=""
+		selfHelpType="generic"
+		supportTopicIds="32605791"
+		resourceTags=""
+		productPesIds="15207"
+		cloudEnvironments="public"
+		articleId="296bcd6b-c2a2-42e2-8dd9-bf0c76bfa996"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Backup SQL Backup failures
 
-## **Recommended steps**
-- [**UserErrorSQLLSNValidationFailure** - Log chain is broken](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot#usererrorsqllsnvalidationfailure) </br>
-- **UserErrorCannotTakeBackupBasedOnBackupPreference** - Ensure all VMs/nodes of the AG are [registered](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#discover-sql-server-databases) with Azure Backup. For AG where replica nodes span across Azure geos, ensure nodes in the primary region meet the backup [preference](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-properties-new-availability-group-backup-preferences-page) </br>
+## **Recommended Steps**
+
+- [**UserErrorSQLLSNValidationFailure** - Log chain is broken](https://aka.ms/AB-AA4dwu9) <br>
+- [**UserErrorSQLPODoesNotSupportBackupType** - This SQL database does not support the requested backup type](https://aka.ms/AB-usererrorsqlpodoesnotsupportbackuptype)<br>
+- [**UserErrorSQLPODoesNotExist** - SQL database does not exist](https://aka.ms/AB-usererrorsqlpodoesnotexist)<br>
+- [**UserErrorOpeningSQLConnection** - Azure Backup is not able to connect to the SQL instance](https://aka.ms/AB-usererroropeningsqlconnection)<br>
+- [**UserErrorParentFullBackupMissing** - First full backup is missing for this data source](https://aka.ms/AB-usererrorparentfullbackupmissing)<br>
+- [**UserErrorBackupFailedAsTransactionLogIsFull** - Cannot take backup as transaction log for the data source is full](https://aka.ms/AB-usererrorbackupfailedastransactionlogisfull)<br>
+- UserErrorCannotTakeBackupBasedOnBackupPreference - Ensure all VMs/nodes of the AG are [registered](https://aka.ms/AB-AA4dwug) with Azure Backup. For AG where replica nodes span across Azure geos, ensure nodes in the primary region meet the backup [preference](https://aka.ms/AA4etvp)<br>
 
 ## **Recommended Documents**
-- [FAQs](https://docs.microsoft.com/azure/backup/backup-azure-sql-database#faq)</br>
-- [Troubleshooting issues related to back up SQL Server to Azure](https://docs.microsoft.com/azure/backup/backup-sql-server-azure-troubleshoot)</br>
+
+- [Frequently asked questions](https://aka.ms/AB-AA4dwuc)<br>
+- [Troubleshooting issues related to backup SQL Server to Azure](https://aka.ms/AB-AA4dwud)

@@ -10,6 +10,8 @@
 	resourceTags="main_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="eb1f52ce-dd6c-469e-9d09-acbc26d471e7"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Where can I get official announcements about new and changed features?

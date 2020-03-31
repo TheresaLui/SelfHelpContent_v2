@@ -5,6 +5,7 @@ infoBubbleText="Issues with network traffic routing were detected. See details o
 service="microsoft.network"
 resource="virtualnetworks"
 authors="chadmath"
+ms.author="chadmat"
 displayOrder=""
 articleId="CantRDP_OSActivation"
 diagnosticScenario="OSActivation"
@@ -12,11 +13,12 @@ selfHelpType="Diagnostics"
 supportTopicIds="32511135, 32411835, 32584250, 32584252"
 resourceTags="windows"
 productPesIds="16342, 14745, 15571, 15797, 14749, 15526"
-cloudEnvironments="Public"
+cloudEnvironments="Public, Fairfax"
+	ownershipId="AzureData_AzureSQLVM"
 />
-# We ran connectivity diagnostics on your resource and found an issue.
+
+# We ran connectivity diagnostics on your resource and found an issue
 
 <!--issueDescription-->
 Microsoft Azure has identified <!--$StatefulAction-->[StatefulAction]<!--/$StatefulAction--> action <!--$TrafficDirection-->[TrafficDirection]<!--/$TrafficDirection--> traffic because the destination is used for operating system activation. This rule is static in the Azure platform to allow operating system activation and cannot be changed.
- <br>
 <!--/issueDescription-->

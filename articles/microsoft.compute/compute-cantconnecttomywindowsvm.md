@@ -1,35 +1,63 @@
-﻿<properties  
-	pageTitle="I can't connect to my Windows VM"
-	description="I can't connect to my Windows VM"
-	service="microsoft.compute"
-	resource="virtualmachines"
-	authors="ram-kakani"
-	displayOrder="1"
-	selfHelpType="resource"
-	supportTopicIds="32411835,32511135"
-	resourceTags="windows, windowsSQL"
-	productPesIds="14749,14745"
-	cloudEnvironments="public"
+﻿<properties
+    pageTitle="Resolve connection issue with your Windows VM"
+    description="Resolve connection issue with your Windows VM"
+    service="microsoft.compute"
+    resource="virtualmachines"
+    authors="ram-kakani,timbasham,scottazure"
+    ms.author="scotro,tibasham,ramakk"
+    displayOrder="5"
+    selfHelpType="resource"
+    supportTopicIds="32615531,32615526,32639640,32615530"
+    resourceTags="windows, windowsSQL"
+    productPesIds="14749,14745"
+    cloudEnvironments="public, Fairfax"
+	articleId="429c106f-4adb-4ed7-a90b-b7df98686adf"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
-# I can't connect to my Windows VM
+# Resolve connection issue with your Windows VM
 
-## **Recommended steps**
-To resolve common issues, try one or more of the following steps.
+4 out of 5 customers resolved their VM connectivity issue using the steps listed below.<br>
 
-1. Access [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM and verify if your VM is running . Review network state and system state in [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM  by going to command prompt.<br>
-2. If you see RDP error due to CredSSP Encryption Oracle Remediation, please follow this [link](https://blogs.technet.microsoft.com/mckittrick/unable-to-rdp-to-virtual-machine-credssp-encryption-oracle-remediation/) for recovery steps.<br>
-3. Click [here](microsoft_azure_network.verifyipflowblade.vmId.$resourceId) to ensure that Network Security Group is allowing traffic.<br>
-4. Click [here](data-blade:microsoft_azure_network.NetworkWatcherConnectivityBlade) to troubleshoot connectivity issues when trying RDP from Azure.<br>
-5. Review [effective security group rules](data-blade:Microsoft_Azure_Network.EffectiveSecurityRulesBlade.id.$resourceId) to ensure inbound “Allow” NSG rule exists and is prioritized for RDP port(default 3389).<br>
-6. Reset Remote Access to address remote server issues using PowerShell or CLI](http://aka.ms/resetsarmwinremoteaccess)
-7. If you are using VPN S2S, RDP to your VM from Internet may not work with forced tunneling enabled. Review [effective routes](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade.id.$resourceId). With forced tunneling, all outbound traffic destined to Internet will be redirected to on-premises.<br>
-8. Restart the Virtual Machine to address startup issues by clicking 'Restart' at the top of the VM resource blade.<br>
-9. Address Azure host issues by [redeploying](data-blade:Microsoft_Azure_Compute.VirtualMachineRedeployViewModel.id.$resourceId), which will migrate the VM to a new Azure host.<br>
-10. If you're getting an RDP license error, use 'mstsc/admin' as a work around. If needed, uninstall or buy an RDS license.<br>
+## **Recommended Steps**
 
-## **Recommended documents**
+**Note**: It is recommended to follow the troubleshooting steps below to first identify the problem, then perform the remediation step(s) before opening a support ticket.
 
-* [Troubleshoot specific Remote Desktop connection errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-remote-desktop-connections/#troubleshoot-specific-remote-desktop-connection-errors)<br>
+If you cannot connect to your Windows virtual machine (VM) and are unsure of the cause, you can start by accessing the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId) for your VM and determine if the VM is experiencing a boot error.<br>
+
+### If your VM is not at the ctrl-alt-del screen, it may be experiencing a boot error
+
+1. Restart the virtual machine to address boot issues by clicking **Restart** at the top of the [VM resource blade](data-blade:Microsoft_Azure_Compute.VirtualMachineProtoBlade.id.$resourceId)<br>
+2. Review the [common boot errors and solutions for non-bootable VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot) troubleshooting guide
+
+### VM is at the ctrl-alt-del screen - issues internal to the VM
+
+1. Resetting your VMs RDP configuration [here](data-blade:microsoft_azure_compute.VirtualMachinePasswordReset.id.$resourceId) or by following instructions in the guide: [Reset Remote Access to address RDP issues using PowerShell or CLI](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection?toc=%2Fazure%2Fvirtual-machines%2Fwindows%2Ftoc.json#fix-common-remote-desktop-errors)<br>
+2. If your VM has booted into Safe Mode, follow [VM boots into Safe Mode](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-safe-mode)<br>
+3. If you are seeing a red X over the network icon on the screenshot, follow [Cannot connect due to netvsc.sys issue](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-driver-netvsc)<br>
+4. If your network interface card (NIC) in the guest OS may be disabled or misconfigured, follow [NIC disabled in guest OS](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nic-disabled)
+5. [Verify if the guest OS firewall is misconfigured](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-misconfigured)<br>
+6. [Disable the guest OS Firewall in Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/disable-guest-os-firewall-windows)<br>
+7. [Enable or disable a firewall rule on an Azure VM Guest OS](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/enable-disable-firewall-rule-guest-os)<br>
+8. [Azure VM Guest OS firewall is blocking all inbound traffic](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-blocking-inbound-traffic)
+
+### VM is at the ctrl-alt-del screen - issues external to the VM (Load Balancer, NSG, ExpressRoute)
+
+Use [Network Watcher](data-blade:microsoft_azure_network.verifyipflowblade.vmId.$resourceId) to help diagnose connectivity issues to your VM.
+
+1. [Review effective network security group rules](data-blade:Microsoft_Azure_Network.EffectiveSecurityRulesBlade.id.$resourceId) to ensure an NSG inbound "Allow" rule exists for RDP traffic (default port 3389), and the rule is prioritized<br>
+2. Edit a [network security group rule](data-blade:microsoft_azure_compute.NetworkingBlade.id.$resourceId) that is blocking traffic
+3. If you are using VPN S2S, RDP to your VM from Internet may not work with forced tunneling enabled. Review [effective routes](data-blade:Microsoft_Azure_Network.EffectiveRoutesBlade.id.$resourceId). With forced tunneling, all outbound traffic destined to Internet will be redirected to on-premises.
+
+### If you still are encountering RDP errors
+
+1. [Basic RDP Troubleshooting in Azure VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection)<br>
+2. [Troubleshooting general RDP errors in Azure VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-general-error)<br>
+3. [The Remote Desktop license server is not available when you connect via RDP to an Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-no-license-server)<br>
+4. Review the [common RDP errors and solutions for Azure VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/rdp)
+
+## **Recommended Documents**
+
+* [Review the RDP troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)<br>
 * [Detailed troubleshooting across network components](https://azure.microsoft.com/documentation/articles/virtual-machines-rdp-detailed-troubleshoot/)<br>
-* [Address Remote Desktop License Server error](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-remote-desktop-connections/#rdplicense)
+* Access the [Serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId) of your VM and verify it is running. Review the network state and system state in the [serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId) of your VM by going to command prompt.

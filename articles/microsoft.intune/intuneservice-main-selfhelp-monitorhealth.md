@@ -10,6 +10,8 @@
 	resourceTags="main_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="f1ee189e-a18f-432f-b9f0-f1734cfe5880"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Where can I monitor the health of the Intune Service?

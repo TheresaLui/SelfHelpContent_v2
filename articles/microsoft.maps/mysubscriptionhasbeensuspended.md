@@ -10,7 +10,9 @@
 	productPesIds=""
 	displayOrder="6"
 	cloudEnvironments="public"
- />
+ 	articleId="0b75606b-d6f9-4b40-8875-e1ffc5258446"
+	ownershipId="AzureIot_AzureMaps"
+/>
 
 # My subscription has been suspended
 

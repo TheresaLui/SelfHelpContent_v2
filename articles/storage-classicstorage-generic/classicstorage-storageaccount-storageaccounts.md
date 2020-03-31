@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="27d0d5e6-6bb5-418c-b542-f4635ce9c327"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # configuration and setup/storage account

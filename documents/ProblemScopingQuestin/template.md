@@ -1,46 +1,49 @@
 <properties
-	pageTitle="Slow virtual machine"
-	description="Slow virtual machine"
-	authors="AlexKuriatnyk"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32411877"
-	productPesIds="14749"
-	cloudEnvironments="public"
+	pageTitle=""
+	description=""
+	authors=""
+	ms.author=""
+	selfHelpType=""
+	supportTopicIds=""
+	productPesIds=""
+	cloudEnvironments=""
 	schemaVersion="1"
+	articleId=""
+	ownershipId=""
 />
-# VM Performance
+# Useful Title
 ---
 {
-	"resourceRequired": true,
+  "$schema": "SelfHelpContent",
+  "subscriptionRequired": true,
+  "resourceRequired": true,
 	"title": "Slow virtual machine",
 	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "slow_vm_determination",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "How did you determine that your virtual machine was slow?",
+			"infoBalloonText": "string",
+			"displayLabel": "Is this a yes or no question?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "It's slower that it typically is",
-					"text": "It's slower that it typically is"
+					"value": "Yes",
+					"text": "Yes"
 				}, {
-					"value": "Another virtual machine in the subscription is faster",
-					"text": "Another virtual machine in the subscription is faster"
+					"value": "No",
+					"text": "No"
 				}, {
-					"value": "Benchmarking tests not meeting minimum Azure specifications",
-					"text": "Benchmarking tests not meeting minimum Azure specifications"
-				}, {
-					"value": "It's faster in a non-Azure environment",
-					"text": "It's faster in a non-Azure environment"
+					"value": "dont_know_answer",
+					"text": "Don't Know"
 				}
 			],
 			"required": false
 		}, {
-			"id": "problem_start_date",
+			"id": "problem_start_time",
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
-			"required": false
+			"required": true
 		}, {
 			"id": "applications_on_vm",
 			"order": 3,
@@ -77,11 +80,12 @@
 			],
 			"required": false
 		}, {
-			"id": "additional_details",
+			"id": "problem_description",
 			"order": 5,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide these details",
-			"required": false,
+			"displayLabel": "Details",
+			"watermarkText": "Provide additional information about your issue",
+			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Issue description."
@@ -93,7 +97,7 @@
 			"id": "learn_more_text",
 			"order": 6,
 			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json'>Learn more</a> about virtual machine specifications for IOPS (input/output operations per second) and our recommended benchmarking tools"
+			"content": "<a href='https://jsonlint.com/'>Use this JSON Checker</a> if you are receiving validation errors in your scoping question"
 		}
 	]
 }

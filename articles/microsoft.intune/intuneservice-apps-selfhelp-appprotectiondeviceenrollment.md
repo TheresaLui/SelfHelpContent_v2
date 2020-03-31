@@ -10,6 +10,8 @@
 	resourceTags="apps_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="fd76804c-91bd-4927-8388-1a9bcfada649"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I enabled an app protection policy that does not require device enrollment. However, users are still being prompted to set a device PIN.

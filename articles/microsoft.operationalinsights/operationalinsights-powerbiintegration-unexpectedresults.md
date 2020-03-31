@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="e4cda2a4-df41-4952-95fb-d9a7a9d8e5e8"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # powerbiintegration-unexpectedresults

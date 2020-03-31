@@ -10,6 +10,8 @@
 	resourceTags="device_enrollment_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="894d1c5e-a154-44c3-8bbb-f8db22eae824"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # My android device fails to check in with Intune, or it shows an unhealthy status in the Intune admin console.

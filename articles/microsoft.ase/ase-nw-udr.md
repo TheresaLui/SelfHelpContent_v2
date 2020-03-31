@@ -9,7 +9,9 @@
 	supportTopicIds="32608425"
 	resourceTags=""
 	productPesIds="16533"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="e06efa61-2610-4afb-8c3c-7bc69c85a5da"
+	ownershipId="Compute_AppService"
 />
 
 # Networking\Configuring UDRs

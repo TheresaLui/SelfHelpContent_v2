@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="070703fe-c650-427c-a92f-27d0ede4a2ca"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Import/Export Shipping Status

@@ -10,6 +10,8 @@
 	resourceTags="8000Series"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="3238bbf1-192c-4395-aba1-3ebdbb7a216c"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # My volumes have gone offline

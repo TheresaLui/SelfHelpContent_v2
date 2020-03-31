@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="4b0d2228-c516-4349-b578-7c6570e36ad5"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # I need to increase the number of Network Security Groups in my subscription.

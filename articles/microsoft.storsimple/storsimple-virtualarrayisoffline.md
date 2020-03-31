@@ -10,6 +10,8 @@
 	resourceTags="9000Or1200Series"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="3b24dde6-413a-4d57-a515-018af84ab9c9"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # My virtual array is offline.

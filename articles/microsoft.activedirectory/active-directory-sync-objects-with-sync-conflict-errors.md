@@ -4,6 +4,7 @@
     infoBubbleText="See details on the right"
     service="microsoft.activedirectory"
     resource=""
+    ms.author="sridhara6"
     authors="sridhara"
     displayOrder="1"
     articleId="Objects_With_Sync_Conflict_Errors"
@@ -11,30 +12,38 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # AD to AAD Sync
+<!--/issueDescription-->
+We have identified <!--$ObjectCount-->[ObjectCount]<!--/$ObjectCount--> objects on your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> that have sync conflict errors.
 
-We have identified <!--$ObjectCount-->[ObjectCount]<!--/$ObjectCount--> objects on your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> that have sync conflict errors. This could impact the following scenarios:
+<!--/issueDescription-->
 
-*   You may experience failures when performing licensing related operations on these objects.
-*   You may not be able to update the UserPrincipalName and/or ProxyAddress values on these objects.
-* You may experience failures when updating MFA settings on these objects.
-*   You may find that objects you synchronized from on-premises AD may not have the correct UserPrincipalName after sync.
+This could result in the following scenarios:
 
-We recommend that you review the [Identity synchronization and duplicate attribute resiliency feature](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsyncservice-duplicate-attribute-resiliency).
+* You may experience failures when performing licensing related operations on these objects
+* You may not be able to update the UserPrincipalName and/or ProxyAddress values on these objects
+* You may experience failures when updating MFA settings on these objects
+* You may find that objects you synchronized from on-premises AD may not have the correct UserPrincipalName after sync
 
-You can identify the list of objects that have sync conflicts by issuing the following commands in a Windows PowerShell console after loading MSOnline PowerShell module for Azure AD version 1.1.166.0.  Please [download](https://www.powershellgallery.com/packages/MSOnline/1.1.166.0) and install the Azure AD PowerShell module if you don't already have it installed.
+## **Recommended Steps**
 
-Connect-MsolService
+* [Download](https://www.powershellgallery.com/packages/MSOnline/1.1.166.0) and install the Azure AD PowerShell module if you don't already have it installed
+* Load the MSOline PowerShell module for Azure AD
+* You can identify the list of objects that have sync conflicts by issuing the following commands in a Windows PowerShell console:
 
-Get-MsolDirSyncProvisioningError -ErrorCategory PropertyConflict
+  `Connect-MsolService`
 
-You can find more information on using this command by referring to [Identifying Objects with DirSyncProvisioningErrors](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsyncservice-duplicate-attribute-resiliency#identifying-objects-with-dirsyncprovisioningerrors) article.
+  `Get-MsolDirSyncProvisioningError -ErrorCategory PropertyConflict`
 
-Once you have identified the list of objects, please follow the directions provided in [duplicate or invalid attributes prevent directory synchronization in Office 365](https://support.microsoft.com/help/2647098/duplicate-or-invalid-attributes-prevent-directory-synchronization-in-o) article to resolve those conflicts.
+* Once you have identified the list of objects, please follow the directions provided in [duplicate or invalid attributes prevent directory synchronization in Office 365](https://support.microsoft.com/help/2647098/duplicate-or-invalid-attributes-prevent-directory-synchronization-in-o) article to resolve those conflicts
 
-Also please review [known issues](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsyncservice-duplicate-attribute-resiliency#known-issues).
 
-Please let me know if you have any questions or concerns.
+## **Recommended Documents**
+
+* Review [known issues](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsyncservice-duplicate-attribute-resiliency#known-issues)
+* [Identifying Objects with DirSyncProvisioningErrors](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsyncservice-duplicate-attribute-resiliency#identifying-objects-with-dirsyncprovisioningerrors)
+* [Identity synchronization and duplicate attribute resiliency feature](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsyncservice-duplicate-attribute-resiliency)

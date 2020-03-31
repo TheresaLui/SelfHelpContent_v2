@@ -10,6 +10,8 @@
 	resourceTags="Genomics"
 	productPesIds="16323"
 	cloudEnvironments="public"
+	articleId="e47d6f31-c499-48a4-bf8e-791f1195aed3"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
     
 # Check the Genomics FAQ to see if it Resolves your Issue

@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="fc1d60de-6a82-4634-8100-b6ce8650c52a"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Enroll Devices - MacOS Enrollment

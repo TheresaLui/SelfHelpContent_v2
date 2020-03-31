@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="public"
+	articleId="49540162-b0df-4182-a428-20d40153fa55"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Move Data to, from, or within Azure Storage

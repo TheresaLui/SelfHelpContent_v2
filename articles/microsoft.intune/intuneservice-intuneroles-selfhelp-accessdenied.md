@@ -10,6 +10,8 @@
 	resourceTags="intuneroles_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="a772737e-37c2-493c-8da6-e00d9c48a62b"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I tried to access a section in the Intune portal and received an "Access denied" message.

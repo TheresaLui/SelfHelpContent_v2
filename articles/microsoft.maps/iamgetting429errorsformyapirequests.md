@@ -3,14 +3,16 @@
     description="I am getting 429 errors for my API requests"
     service="microsoft.maps"
     resource="accounts"
-    authors="jingjing-z"
+    authors="jinzh-azureiot"
     resourceTags=""
     selfHelpType="resource"
     supportTopicIds=""
     productPesIds=""
     displayOrder="2"
     cloudEnvironments="public"
- />
+ 	articleId="b01e7622-d7b3-49a5-8cc6-48978681b848"
+	ownershipId="AzureIot_AzureMaps"
+/>
 
 # I am getting 429 errors for my API requests 
 

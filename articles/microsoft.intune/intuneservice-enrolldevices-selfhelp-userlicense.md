@@ -10,6 +10,8 @@
 	resourceTags="device_enrollment_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="f80d6bac-9689-42d0-85c6-c54745812656"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Intune says that the license type is invalid and/or it cannot recognize the username.

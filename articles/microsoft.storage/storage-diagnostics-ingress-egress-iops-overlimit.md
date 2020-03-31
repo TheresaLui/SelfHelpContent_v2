@@ -4,24 +4,23 @@ description="Storage Account was throttled due to a scalability limit being exce
 infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
-authors="shines"
+authors="AngshumanNayakMSFT"
+ms.author="annayak"
 displayOrder=""
-articleId="Storagev2insights_ingress_egress_IOPS_throttling"
+articleId="storagev2insights_ingress_egress_iops_throttling"
 diagnosticScenario="Storage IOPS overlimit"
 selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="storage"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
-# Storage Account **<!--$AccountName-->[AccountName]<!--/$AccountName-->** was throttled due to a scalability limit being exceeded
+# Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** was throttled due to a scalability limit being exceeded
 <!--issueDescription-->
-The Storage Account **<!--$AccountName-->[AccountName]<!--/$AccountName-->** exceeded its [storage scalability limits](https://azure.microsoft.com/documentation/articles/storage-scalability-targets/). This can result in storage operation failures and increased latency.<br>
-
-The following limits were reached between **<!--$StartTime--> StartTime <!--/$StartTime-->** and **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**:<br>
-
-Limit type: **<!--$LimitType--> LimitType <!--/$LimitType-->**<br><br>
-
-We recommended that you configure Storage Analytics to monitor throttling on your Storage Account. This will enable you to monitor your application's increase in transaction volume to prevent or mitigate similar issues in the future. For further information, please see [monitoring, diagnostics and troubleshooting guide for Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#metrics-show-an-increase-in-PercentThrottlingError).
+Requests to **<!--$ServiceType-->[ServiceType]<!--/$ServiceType-->** service of storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were throttled because it exceeded **<!--$StorageThrottlingType-->[StorageThrottlingType]<!--/$StorageThrottlingType-->** scalability target.
 <!--/issueDescription-->
+
+Refer [Azure Storage Scalability and Performance Targets](https://docs.microsoft.com/azure/storage/common/storage-scalability-targets) to know more about the various scalability targets. We recommended that you configure [storage analytics](https://docs.microsoft.com/azure/storage/common/storage-analytics) to monitor your storage account. This will help you to track your application's increased transaction or bandwidth usage and enable you to take corrective steps to prevent similar issues in the future. For further information, please refer [monitoring, diagnostics and troubleshooting guide for Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#metrics-show-an-increase-in-PercentThrottlingError).
+

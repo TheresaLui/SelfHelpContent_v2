@@ -10,6 +10,8 @@
     supportTopicIds=""
     resourceTags=""
     cloudEnvironments="public"
+	articleId="1a996868-5703-4fdc-9c6b-9046f07cca11"
+	ownershipId="Compute_Automation"
 />
 
 # Problems with runbook jobs that fail or suspend

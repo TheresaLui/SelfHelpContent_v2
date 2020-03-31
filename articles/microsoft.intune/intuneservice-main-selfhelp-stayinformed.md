@@ -10,6 +10,8 @@
 	resourceTags="main_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="f7cdbe63-ac59-4314-94ab-ec30cf12135b"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # How can I stay informed from the Intune community?

@@ -1,19 +1,25 @@
 <properties
-	pageTitle="configurationandsetup/configure SSL offload"
-	description="configurationandsetup/configure SSL offload"
+	pageTitle="Configure SSL Offload"
+	description="Configure SSL Offload"
 	service="microsoft.network"
 	resource="applicationgateways"
-	authors="radwiv"
+	authors="surajmb"
+	ms.author="surmb"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32582828"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	articleId="2ef2c4e3-0e90-4d05-aadf-32d39d118fe0"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
-# configurationandsetup/configure SSL offload
+# Configure SSL Offload
 
-## **Recommended documents**
+Application Gateway supports SSL termination at the gateway, after which traffic typically flows unencrypted to the backend servers.
 
-Configure an application gateway for SSL offload using the [Portal](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-portal), [PowerShell](https://docs.microsoft.com/azure/application-gateway/application-gateway-ssl-arm) or [CLI](https://docs.microsoft.com/azure/application-gateway/quick-create-cli)
+## **Recommended Documents**
+
+* Configure an Application Gateway for SSL offload using the [Portal](https://docs.microsoft.com/azure/application-gateway/create-ssl-portal), [PowerShell](https://docs.microsoft.com/azure/application-gateway/tutorial-ssl-powershell) or [CLI](https://docs.microsoft.com/azure/application-gateway/tutorial-ssl-cli)
+* [SSL offload and End to End SSL overview](https://docs.microsoft.com/azure/application-gateway/ssl-overview) on Application Gateway

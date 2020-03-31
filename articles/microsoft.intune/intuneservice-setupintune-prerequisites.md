@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="bfd82029-3692-4728-bab6-84158acefb09"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Setup Intune - Prerequisites

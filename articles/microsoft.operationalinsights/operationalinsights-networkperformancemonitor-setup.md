@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="1a3f218e-191e-44ae-a4f3-1f5139285018"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # networkperformancemonitor-setup

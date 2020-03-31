@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="public"
+	articleId="07ffdcdb-3a44-4635-b50f-b909a9864955"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # azure iaas vm backup/register or back up a windows virtual machine

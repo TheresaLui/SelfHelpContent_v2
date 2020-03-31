@@ -1,0 +1,42 @@
+<properties
+	pageTitle="Copy Activity - Understand and Tune Performance"
+	description="Guide on understanding and tuning performance of ADF Copy Activity"
+	infoBubbleText=""
+	service="microsoft.datafactory"
+	resource="factories"
+	authors="chez-charlie"
+	ms.author="chez"
+	displayOrder="7"
+	articleId="21260b03-9072-4f08-ab96-1aa7398b090e"
+	diagnosticScenario=""
+	selfHelpType="resource"
+	supportTopicIds="32629468"
+	resourceTags=""
+	productPesIds="15613"
+	cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_DataFactory"
+/>
+
+# Understand and Tune Performance of Copy Activity
+
+## **Recommended Steps**
+
+* [Performance Tuning Guide](https://docs.microsoft.com/azure/data-factory/copy-activity-performance) offers detailed information about expected throughput and how to identify and address performance bottlenecks due to a variety of issues, including: <br>
+  * data factory configuration <br>
+  * integration runtime hosting and configuration <br>
+  * underlying data source and sink performance and configuration <br>
+  * serialization/deserialization/compression <br>
+  * column mapping <br>
+* Please consider creating _activity policy_ (properties including retry, timeout, retryIntervalInSeconds) to ensure your copy activities have appropriate timeouts and won't stuck in a retry loop with consistent failures. For details, see [Pipelines and Activities](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities/) <br>
+* See breakdown info of copy stages in _Monitor_ page. For more info, see [Monitor Visually](https://docs.microsoft.com/azure/data-factory/monitor-visually/) <br>
+* Benchmark copy performance against recent completed runs in _Monitor_ page. For more info, see [Monitor Visually](https://docs.microsoft.com/azure/data-factory/monitor-visually/) <br>
+
+## **Recommended Documents**
+
+Copy Activity Performance and Tuning [Guide](https://docs.microsoft.com/azure/data-factory/copy-activity-performance), including following sections: <br>
+
+* [Performance Reference](https://docs.microsoft.com/azure/data-factory/copy-activity-performance#performance-reference) helps you to choose appropriate _DIUs_ and _Self-hosted IR Scalability_ levels <br>
+* [Performance Tuning Guidance](https://docs.microsoft.com/azure/data-factory/copy-activity-performance#performance-tuning-steps) <br>
+* [Data Integration Units](https://docs.microsoft.com/azure/data-factory/copy-activity-performance#data-integration-units) (DIU, formerly known as Cloud Data Movement Unit or DMU) <br>
+* Enable [Parallel Copy](https://docs.microsoft.com/azure/data-factory/copy-activity-performance#parallel-copy) <br>
+* Enable [Staged Copy](https://docs.microsoft.com/azure/data-factory/copy-activity-performance#staged-copy) <br>

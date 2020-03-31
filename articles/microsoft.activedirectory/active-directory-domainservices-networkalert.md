@@ -5,6 +5,7 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_DomainServices"
 	authors="jicha"
+	ms.author="jihochang"
 	displayOrder="1"
 	articleId="DomainServices_NetworkAlert"
 	diagnosticScenario="DomainServicesNetworkAlert"
@@ -12,20 +13,23 @@
 	supportTopicIds="Azure AD Domain Services"
 	resourceTags=""
 	productPesIds="14785,16576"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake"
+	ownershipId="AzureIdentity_AzureActiveDirectoryDomainServices"
 />
 
 # Network Health Alert for Azure AD Domain Services
-
+<!--/issueDescription-->
 We are unable to reach the domain controllers for your managed domain due to network rules configured within your Azure virtual network.
+<!--/issueDescription-->
 
-Azure AD Domain Services requires access to specific ports in order to service and maintain your managed domain. To ensure that your managed domain works as expected, these ports must be open for access from Microsoft. To learn more about the networking requirements for managed domains please refer to this article:
-
-[Ports required for Azure AD Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-networking#ports-required-for-azure-ad-domain-services)
+Azure AD Domain Services requires access to specific ports in order to service and maintain your managed domain. To ensure that your managed domain works as expected, these ports must be open for access from Microsoft.
 
 If we are unable to reach the domain controllers, your managed domain may be negatively affected, as Azure AD Domain Services will be unable to synchronize, and your users may have trouble signing-in. For help ensuring your network settings are configured to allow Microsoft to properly maintain your domain, please refer to the following article:
 
-[Troubleshooting invalid networking configuration for your managed domain](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshoot-nsg#alert-aadds104-network-error)
+## **Recommended Documents**
+
+* [Ports required for Azure AD Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-networking#ports-required-for-azure-ad-domain-services)
+* [Troubleshooting invalid networking configuration for your managed domain](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-troubleshoot-nsg#alert-aadds104-network-error)
 
 #### Service Information
 

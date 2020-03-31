@@ -9,6 +9,8 @@
 	supportTopicIds=""
     productPesIds=""
     cloudEnvironments="public, MoonCake"
+	articleId="84b0f3f7-44eb-4194-8bf5-9d008b8aee0b"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # My job is not outputting data

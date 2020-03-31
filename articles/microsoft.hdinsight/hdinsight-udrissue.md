@@ -9,7 +9,9 @@
     supportTopicIds="32588507"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, MoonCake, Fairfax"
+	articleId="7928890f-4e51-4f46-ba2c-e2bcbfcea648"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Cluster Creation Fails Due To an Issue With User-Defined Rules

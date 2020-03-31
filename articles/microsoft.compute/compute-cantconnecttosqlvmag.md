@@ -4,21 +4,24 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="michco"
-	displayOrder="27"
+	displayOrder="35"
 	selfHelpType="resource"
 	supportTopicIds=""
 	resourceTags="WindowsSQL"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
+	articleId="2fa51490-cf9c-4430-bd55-98a8e4d56d62"
+	ownershipId="Compute_VirtualMachines_Content"
 />
-    
+
 # I can't connect to SQL Server Availability Group
 
-## **Recommended steps**
-Try following steps to diagnose and mitigate Availability Group connectiviy issues
+## **Recommended Steps**
 
-1. Troubleshoot Availability Group connectivity <br>
-[Troubleshooting Availability Group Listener in Azure](https://blogs.msdn.microsoft.com/alwaysonpro/2016/02/01/troubleshooting-availability-group-listener-in-azure/)
+Try following steps to diagnose and mitigate Availability Group connectivity issues.
 
-## **Recommended documents**
-[Configure an Availability Group Listener in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-portal-sql-server-provision/)
+* [Troubleshooting Availability Group connectivity in Azure](https://blogs.msdn.microsoft.com/alwaysonpro/2016/02/01/troubleshooting-availability-group-listener-in-azure/)
+
+## **Recommended Documents**
+
+* [Configure an Availability Group Listener in Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-portal-sql-server-provision/)

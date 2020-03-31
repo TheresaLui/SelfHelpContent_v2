@@ -7,8 +7,10 @@
     displayOrder="2520"
     selfHelpType="resource"
     resourceTags="Azure_RBAC"
-    cloudEnvironments="public"
-    />
+    cloudEnvironments="public, Fairfax, Mooncake"
+    	articleId="84e98da4-755a-4e4b-9e70-bad0d3acaf02"
+	ownershipId="AzureIdentity_User"
+/>
 
 # Unable to change the default directory of a subscription
 Changing the default directory of a subscription is performed by transferring the subscription to a user who is in the desired directory.

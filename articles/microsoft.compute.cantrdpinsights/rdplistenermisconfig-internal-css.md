@@ -12,16 +12,17 @@ selfHelpType="diagnostics"
 supportTopicIds="32411835"
 resourceTags="windows"
 productPesIds="14749"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 
 # RDP-TCP listener is misconfigured
 <!--issueDescription-->
-RDP-TCP listener is misconfigured impacting RDP connectivity to the VM. Reconfigure the listener via serial console or other remote management options described below to regain RDP connectivity
+We have investigated and identified that the RDP-TCP listener is misconfigured impacting RDP connectivity to this virtual machine <!--$vmname-->[vmname]<!--/$vmname-->. Reconfigure the listener via serial console or other remote management options described below to regain RDP connectivity
 <!--/issueDescription-->
 
-## **Customer Ready Mitigation Steps**
+## **Recommended Steps**
 
 1. Before proceeding further please ensure to take a back up of the OS Disk. This will help if a rollback is required
 

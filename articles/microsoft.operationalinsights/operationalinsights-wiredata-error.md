@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="8d5c2e08-2534-43c6-833d-8a6496f99ea5"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # wiredata-error

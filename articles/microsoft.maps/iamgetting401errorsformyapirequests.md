@@ -10,7 +10,9 @@
 	productPesIds=""
 	displayOrder="1"
 	cloudEnvironments="public"
- />
+ 	articleId="409089c2-08ba-4e74-a96f-1fca90116de4"
+	ownershipId="AzureIot_AzureMaps"
+/>
 
 # I am getting 401 errors for my API requests 
 

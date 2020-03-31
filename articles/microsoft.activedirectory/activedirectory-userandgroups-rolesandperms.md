@@ -9,8 +9,10 @@
     supportTopicIds="32045782"
     resourceTags=""
     productPesIds="14785"
-    cloudEnvironments="public"
-    />
+    cloudEnvironments="public, Fairfax, Mooncake"
+    	articleId="25e24adf-6daf-4bbb-a50b-bf48e0301307"
+	ownershipId="ASEP_ContentService_Placeholder"
+/>
 
 # Azure AD roles and permissions 
  

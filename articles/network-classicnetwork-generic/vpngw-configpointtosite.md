@@ -1,33 +1,34 @@
 <properties
-    pageTitle="Configure a Point-to-Site connection"
-    description="Configure a Point-to-Site connection"
+    pageTitle="Configure a Point-to-Site Gateway for Azure VPN"
+    description="Configure a Point-to-Site Gateway for Azure VPN"
     service="microsoft.network"
     resource="virtualnetworkgateways"
-    authors="KristinaNeyens"
-    displayOrder=""
+    authors="radwiv"
+    ms.author="radwiv"
+    displayOrder="13"
     selfHelpType="generic"
     supportTopicIds="32591148"
     resourceTags=""
     productPesIds="16094"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    articleId="c439cb2c-ac0f-4ab5-97e4-61df6c138ffb"
+   	ownershipId="CloudNet_AzureVPNGateway"
 />
-# Configure a Point-to-Site connection
-## **Recommended steps**
-If you are having problems connecting to your VPN from Windows 7 and Windows 8.1 such as VPN error 812 "The connection was prevented because of a policy configured on your RAS/VPN server" you may need to enable support for TLS 1.2. If that is the case, please follow the steps below:<br>
-1.  Install the following updates:<br>
-[KB3140245](https://www.catalog.update.microsoft.com/search.aspx?q=kb3140245)<br>
-[KB2977292](https://www.catalog.update.microsoft.com/search.aspx?q=kb2977292)<br>
 
-2.  Open an admin command prompt by right-clicking on “Command Prompt” and selecting “Run as administrator”<br>
+# Configure a Point-to-Site Gateway for Azure VPN
 
-3.  Type and run the following commands from the admin command prompt:<br>
-C:\> reg add HKLM\SYSTEM\CurrentControlSet\Services\RasMan\PPP\EAP\13 /v TlsVersion /t REG_DWORD /d 0xfc0<br>
-C:\> reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp" /v DefaultSecureProtocols /t REG_DWORD /d 0xaa0<br>
-C:\> if %PROCESSOR_ARCHITECTURE% EQU AMD64 reg add "HKLM\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp" /v DefaultSecureProtocols /t REG_DWORD /d 0xaa0<br>
-4.  Reboot the computer<br>
-5.  Connect to the VPN<br>
+Point-to-Site connections are useful when you want to connect to your virtual network from a remote location, such as when you are telecommuting from home or a conference. Point-to-Site connectivity issues may be due to not having proper VPN profiles on the clients or some other common causes. You can use below help to resolve common Point-to-Site connectivity issues.
 
-## **Recommended documents**
-Step by step guide to [configuring and validating VNet or VPN connections](https://support.microsoft.com/help/4032151/configuring-and-validating-vnet-or-vpn-connections)<br>
-Configure a Point-to-Site connection using [portal](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal) or [PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-point-to-site-rm-ps)<br>
-Generate self-signed certificates for Point-to-Site using [PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-certificates-point-to-site) or [Makecert](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-certificates-point-to-site-makecert)
+## **Recommended Steps**
+
+If you are having problems connecting to your VPN from Windows 7 and Windows 8.1, you may need to enable support for TLS 1.2. Please see [Point-to-Site FAQ](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vpn-faq#P2S) for additional details.
+
+## **Recommended Documents**
+
+* Step by step guide to [configure a point-to-site gateway](https://support.microsoft.com/help/4032151/configuring-and-validating-vnet-or-vpn-connections)<br>
+* Configure a Point-to-Site gateway using [portal](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal) or [PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-point-to-site-rm-ps)<br>
+* Configure a Point-to-Site VPN connection to a VNet using native Azure certificate authentication using [portal](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal) or [PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-point-to-site-rm-ps)<br>
+* Create an Azure Active Directory tenant for [Point-to-Site OpenVPN protocol connections](https://docs.microsoft.com/azure/vpn-gateway/openvpn-azure-ad-tenant)<br>
+* Generate self-signed certificates for Point-to-Site using [PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-certificates-point-to-site), [Makecert](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-certificates-point-to-site-makecert), or [Linux](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-certificates-point-to-site-linux)<br>
+* [Create an Azure Active Directory tenant](https://docs.microsoft.com/azure/vpn-gateway/openvpn-azure-ad-tenant) for Point-to-Site OpenVPN protocol connections<br>
+* See [Point-to-Site FAQ](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vpn-faq#P2S) for additional information

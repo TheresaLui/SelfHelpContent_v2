@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="b19a8fa0-d0bb-4984-980c-b572a4fe5296"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Devices - Logout current user

@@ -10,6 +10,8 @@
     supportTopicIds=""
     resourceTags=""
     cloudEnvironments="public"
+	articleId="8eabb032-746c-412b-b378-ef5cd69c4dad"
+	ownershipId="Compute_Automation"
 />
 
 # Problems enabling or using Desired State Configuration (DSC)

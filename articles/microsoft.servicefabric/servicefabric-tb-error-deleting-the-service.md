@@ -10,6 +10,8 @@
 	resourceTags="servicefabric"
 	productPesIds=""
 	cloudEnvironments="public,BlackForest,Fairfax,MoonCake"	 
+	articleId="455069fa-7de5-47cd-9d18-786f1e7ee2ba"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Errors deleting a service 

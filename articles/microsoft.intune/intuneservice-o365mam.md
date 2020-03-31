@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="344e50a6-4366-4bdd-ae8f-0602da6bb1ec"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Office 365: Mobile Application Management"

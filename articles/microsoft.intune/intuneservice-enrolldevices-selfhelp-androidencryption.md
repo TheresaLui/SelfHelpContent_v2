@@ -10,6 +10,8 @@
 	resourceTags="device_enrollment_selfhelp"
 	productPesIds=""
 	cloudEnvironments="public"
+	articleId="97c9dbbb-7122-42c4-878f-80213e31727a"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # My android device is encrypted but the Company Portal says it's not.

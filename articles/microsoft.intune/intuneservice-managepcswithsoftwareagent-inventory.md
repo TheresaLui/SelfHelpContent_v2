@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15584"
 	cloudEnvironments="public"
+	articleId="f63f9898-e522-4b7f-8ef6-10f0ac74c4af"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage PCs with Software Agent - Inventory

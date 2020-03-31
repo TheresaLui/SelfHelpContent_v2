@@ -11,6 +11,8 @@
     resourceTags=""
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
+	articleId="77fda902-738e-4c24-ba62-26aa34c00830"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # windowsperformancecounters-howtosetup

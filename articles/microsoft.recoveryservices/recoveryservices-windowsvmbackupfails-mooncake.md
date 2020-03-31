@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public, MoonCake"
+	articleId="bb7e586d-739c-4d59-a798-13f80a0fa80c"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Backup of Windows Azure virtual machine fails with 'Could not communicate with the VM agent for snapshot status'
