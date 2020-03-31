@@ -27,9 +27,9 @@
     {
       "id": "025dc143-378e-9b1c-ca0d-7056de378d44",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue during restore of Azure Files Share (AFS) using Azure Backup",
+      "searchTags": "AFS;Azure Files;Azure Files Share;Restore",
+      "category": "Restore",
       "useInDiagnoseAndSolve": "true"
     },
     {
