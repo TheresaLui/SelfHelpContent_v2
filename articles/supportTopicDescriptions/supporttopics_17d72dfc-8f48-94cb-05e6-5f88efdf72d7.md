@@ -683,9 +683,9 @@
     {
       "id": "e5f6de9a-f8f6-2cbe-ea0d-e7d53693407f",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues specific to Backup reports using Log Analytics",
+      "searchTags": "report;LOG analytics",
+      "category": "alerts and reports",
       "useInDiagnoseAndSolve": "true"
     },
     {
