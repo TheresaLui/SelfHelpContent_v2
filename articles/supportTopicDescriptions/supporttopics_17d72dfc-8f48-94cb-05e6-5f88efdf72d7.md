@@ -195,10 +195,10 @@
     {
       "id": "3688d18b-5cb0-acd8-36c0-574b1d49678a",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issues only related to Restore from Online Restore Points using Azure Backup Server (MABS) ",
+      "searchTags": "Restore;MABS;Azure Backup Server",
+      "category": "Restore",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "383972df-72a6-a96f-7175-784c9c608366",
