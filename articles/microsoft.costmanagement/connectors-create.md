@@ -20,7 +20,8 @@
 
 This may happen due to the following reasons:<br> 
 
-Invalid AWS credentials. Please check your AWS credentials and whether they are active. Only 1 connector can be created for a consolidated account. Hence, if someone has already created a connector for the same consolidated account, we suggest you reach out to them to grant you access to the connector.  
+1) Invalid AWS credentials. Please check your AWS credentials and whether they are active. <br>
+2) Only 1 connector can be created for a consolidated account. Hence, if someone has already created a connector for the same consolidated account, we suggest you reach out to them to grant you access to the connector.  
 
 ## **Recommended Documents**
 
