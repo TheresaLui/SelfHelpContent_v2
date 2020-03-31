@@ -1,8 +1,8 @@
 <properties
     pageTitle="Loading of the add permissions window takes longer than expected"
     description="Loading of the add permissions window takes longer than expected"
-    service="microsoft.storage"
-    resource="file storage"
+    service="Microsoft.Storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""

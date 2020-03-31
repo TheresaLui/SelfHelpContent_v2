@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Scoping Questions for Data Box"
-	description="Scoping Questions for Data Box"
-	authors="shijojoy"
-	ms.author="shijoy"
+	pageTitle="Scoping Questions for Data Box Data copy and validation"
+	description="Scoping Questions for Data Box Data copy and validation"
+	authors="ansubram"
+	ms.author="ansubram"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639189,32639190,32639193,32639197,32639199,32639203,32639188,32639211,32639191,32639195,32639207,32639212"
+	supportTopicIds="32639189,32639190,32639193,32639197,32639199,32639203,32639188,32639211"
 	productPesIds="16505"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
-	articleId="3263918912"
+	articleId="32639189886"
 	ownershipId="StorageMediaEdge_DataBox"
 />
-# Data Box issues
+# Data Box issues with data copy and validation
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Data Box issues",
+    "title": "Data Box issues - Data copy and validation",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -57,12 +57,20 @@
             "watermarkText": "Describe in detail the changes which were made",
             "required": true
         },
+	{
+            "id": "copy_method_used",
+            "order": 200,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What was the copy method used?",
+	    "watermarkText": "Example - Robocopy (Windows), rsync/FreeFileSync/Unison/Ultracopier (Linux) or others",
+            "required": true
+        },
         {
             "id": "problem_description",
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the details regarding the issue and and any other relevant information",
+            "watermarkText": "Please provide any additional details regarding the issue such as type of data being copied (blobs/files etc), number of objects and typical object size, data ports being used and and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         },

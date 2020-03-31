@@ -1,8 +1,8 @@
 <properties
     pageTitle="Scope the issue customer faces"
     description="Scope the issue customer faces"
-    service="microsoft.storage"
-    resource="file storage"
+    service="Microsoft.Storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""

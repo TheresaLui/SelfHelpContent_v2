@@ -7,7 +7,7 @@
   productpesids="17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   cloudenvironments="public, fairfax, blackforest, mooncake"
   articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057"
-  ownershipid="" />
+  ownershipid="AzureData_AzureDatabaseforMySQL" />
 # Support Topic Descriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057
 ---
 {

@@ -1,8 +1,8 @@
 <properties
     pageTitle="Check ASC to see if AD Auth is enabled on the storage account"
     description="Check ASC to see if AD Auth is enabled on the storage account"
-    service="microsoft.storage"
-    resource="file storage"
+    service="Microsoft.Storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""

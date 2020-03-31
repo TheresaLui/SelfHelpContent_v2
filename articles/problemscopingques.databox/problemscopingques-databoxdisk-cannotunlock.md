@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32639196,32639198"
 	productPesIds="16505"
-	cloudEnvironments="public,Fairfax"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
     ownershipId="StorageMediaEdge_DataBox"
 />
@@ -61,7 +61,7 @@
         },
         {
             "id": "previous_solution",
-            "visibility": "is_disk_issue == My disk is not getting detected || There is no file system on the disk",
+            "visibility": "is_disk_issue == My disk is not getting detected || is_disk_issue == There is no file system on the disk || is_disk_issue == dont_know_answer",
             "order": 110,
             "controlType": "dropdown",
             "displayLabel": "Did you format the disk?",
@@ -87,7 +87,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide full erro text and any other relevant information",
+            "watermarkText": "Please provide full error text and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         }
