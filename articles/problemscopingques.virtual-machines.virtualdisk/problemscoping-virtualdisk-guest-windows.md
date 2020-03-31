@@ -14,6 +14,7 @@
 # Virtual Disk Management
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Windows Guest OS Disk Issues",
     "fileAttachmentHint": "",

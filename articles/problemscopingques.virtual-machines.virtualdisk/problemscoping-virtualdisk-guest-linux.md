@@ -14,6 +14,7 @@
 # Virtual Disk Management
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Linux Guest OS Disk Issues",
     "fileAttachmentHint": "",
