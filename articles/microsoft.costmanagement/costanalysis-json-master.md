@@ -26,7 +26,6 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
       "searchTags": "cost management, access, configuration, ACM",
       "category": "Access configuration",
       "commonSolutionArticleId": "costanalysis-costsdisabled",
-
       "supportTopicId": "32615286"
     },
     {
