@@ -76,8 +76,8 @@
 			"required": false
 		},
 		{
-		"id": "6",
-		"order": 6,
+		"id": "7",
+		"order": 7,
 		"controlType": "dropdown",
 		"displayLabel": "Is this incident related to COVID-19 relief efforts?",
 		"watermarkText": "Choose an option",
