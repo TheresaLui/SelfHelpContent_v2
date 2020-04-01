@@ -25,7 +25,7 @@
             "order": 1,
             "controlType": "textbox",
             "displayLabel": "Please provide the Azure plan subscription id you are asking about.",
-            "watermarkText": "Provide the Azire plan subscription as a GUID",
+            "watermarkText": "Provide the Azure plan subscription as a GUID",
             "required": false
         },
 	{
