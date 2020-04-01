@@ -19,7 +19,7 @@
 
 # Customer does not have RC4-HMAC Encryption type enabled on their computer.
 <!--issueDescription-->
-## Resolution-Workaround
+## Resolution
 
 Dear Customer,
 

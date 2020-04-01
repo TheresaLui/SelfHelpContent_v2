@@ -18,7 +18,7 @@
 
 # Customer sees KRB_AP_ERR_MODIFIED error in the event log
 <!--issueDescription-->
-## Resolution-Workaround
+## Resolution
 
 Dear Customer,
 
