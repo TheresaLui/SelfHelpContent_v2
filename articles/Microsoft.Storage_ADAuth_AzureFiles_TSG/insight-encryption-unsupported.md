@@ -1,6 +1,7 @@
 <properties
     pageTitle="Customer does not have RC4-HMAC Encryption type enabled on their computer."
     description="Customer does not have RC4-HMAC Encryption type enabled on their computer."
+    infoBubbleText="Customer does not have RC4-HMAC Encryption type enabled on their computer."
     service="microsoft.storage"
     resource="storageAccounts"
     authors="yagohel23"

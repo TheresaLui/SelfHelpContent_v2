@@ -1,6 +1,7 @@
 <properties
     pageTitle="Unable to set Owner permissions on File share"
     description="Unable to set Owner permissions on File share"
+    infoBubbleText="Customer sees KRB_AP_ERR_MODIFIED error in the event log"
     service="microsoft.storage"
     resource="storageAccounts"
     authors="yagohel23"
@@ -17,6 +18,7 @@
 
 # Unable to set Owner permissions on File share
 
+<!--issueDescription-->
 If the customer tries to change the ownership of a folder located an AD joined file share an error results stating that the user is unable to set new owner on <folder name> (see screenshot below).  
 
 ![](Screenshots\UnableToSetOwner.png)
@@ -34,3 +36,5 @@ Due to a known issue during the preview of the Active Directory Authentication f
 In the meantime, the best way to achieve any scenarios where super experience is required ("lift and shift" scenario of **robocopying** files and folders),  is by accessing the file share through the storage account name and key.
 
 This access is meant to be a "super-user" experience and there will be no access checks when adding files and modifying their ACLs.
+
+<!--/issueDescription-->

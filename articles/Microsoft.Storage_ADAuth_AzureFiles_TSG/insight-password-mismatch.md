@@ -1,6 +1,7 @@
 <properties
     pageTitle="Customer sees KRB_AP_ERR_MODIFIED error in the event log"
     description="Customer sees KRB_AP_ERR_MODIFIED error in the event log"
+    infoBubbleText="Customer sees KRB_AP_ERR_MODIFIED error in the event log"
     service="microsoft.storage"
     resource="storageAccounts"
     authors="yagohel23"
