@@ -17,7 +17,6 @@ cloudEnvironments="Public"     ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Net use 1326 error - Computer Accounts not supported Insight
-
 <!--issueDescription-->
 There's no support for access to Azure Files via a computer identity.  Customer needs to adjust application to use a user identity that is synced to AAD.
 
