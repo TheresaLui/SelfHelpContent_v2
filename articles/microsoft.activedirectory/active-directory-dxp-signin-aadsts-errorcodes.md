@@ -20,16 +20,10 @@
 # Configuration Issue Preventing User Sign-In
 <!--issueDescription-->
 
-Error code: <!--$errorCode-->[errorCode]<!--/$errorCode-->
+**Message:** <!--$message-->[message]<!--/$message-->
 
-Message: <!--$message-->[message]<!--/$message-->
+**Action:** <!--$remediation-->[remediation]<!--/$remediation-->
 
-Action: <!--$remediation-->[remediation]<!--/$remediation-->
+<!--$link-->[link]<!--/$link-->
 
 <!--/issueDescription-->
-
-
-## **Recommended Steps**
-
- 
-[<!--$linkText-->linkText<!--/$linkText-->](<!--$linkVal-->linkVal<!--/$linkVal-->)
