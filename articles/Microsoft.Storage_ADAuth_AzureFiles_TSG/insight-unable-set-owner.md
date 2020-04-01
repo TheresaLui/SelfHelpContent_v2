@@ -1,7 +1,7 @@
 <properties
     pageTitle="Unable to set Owner permissions on File share"
     description="Unable to set Owner permissions on File share"
-    infoBubbleText="Customer sees KRB_AP_ERR_MODIFIED error in the event log"
+    infoBubbleText="Unable to set Owner permissions on File share"
     service="microsoft.storage"
     resource="storageAccounts"
     authors="yagohel23"
@@ -23,17 +23,17 @@ If the customer tries to change the ownership of a folder located an AD joined f
 
 ![](Screenshots\UnableToSetOwner.png)
 
-**Error:**  "Unable to set new owner on <file or folder name>. Access is denied."
+Error:  "Unable to set new owner on <file or folder name>. Access is denied."
 
 This is a known issue during the preview of the Active Directory Authentication for Azure Files feature.  The fix is planned for implementation prior to general availability.
 
-**Customer Ready Message**
+Customer Ready Message
 
 Hello Customer, 
 
 Due to a known issue during the preview of the Active Directory Authentication for Azure Files feature, users will not be able to change the ownership of a folder located on AD enabled Azure File Share. 
 
-In the meantime, the best way to achieve any scenarios where super experience is required ("lift and shift" scenario of **robocopying** files and folders),  is by accessing the file share through the storage account name and key.
+In the meantime, the best way to achieve any scenarios where super experience is required ("lift and shift" scenario of robocopying files and folders),  is by accessing the file share through the storage account name and key.
 
 This access is meant to be a "super-user" experience and there will be no access checks when adding files and modifying their ACLs.
 

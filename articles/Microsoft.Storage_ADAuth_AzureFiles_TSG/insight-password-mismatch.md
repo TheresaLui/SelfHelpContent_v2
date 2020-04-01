@@ -16,15 +16,16 @@
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />
 
+# Customer sees KRB_AP_ERR_MODIFIED error in the event log
 <!--issueDescription-->
 
-**Resolution/Workaround**
+Resolution/Workaround
 
 Dear Customer,
 
 It seems that Storage Account AD object password is out of sync with the kerberos key of your storage account. This could happen f you registered the AD identity/account representing your storage account under an OU that enforces password expiration time. This is currently resulting in authentication failures to access Azure file shares.
 
-To trigger password rotation, you can run the **Update-AzStorageAccountADObjectPassword** command from the AzFilesHybrid module. The cmdlet performs actions similar to storage account key rotation. It gets the second Kerberos key of the storage account and uses it to update the password of the registered account in AD. Then it regenerates the target Kerberos key of the storage account and updates the password of the registered account in AD. You must run this cmdlet in an AD domain joined environment.
+To trigger password rotation, you can run the Update-AzStorageAccountADObjectPassword command from the AzFilesHybrid module. The cmdlet performs actions similar to storage account key rotation. It gets the second Kerberos key of the storage account and uses it to update the password of the registered account in AD. Then it regenerates the target Kerberos key of the storage account and updates the password of the registered account in AD. You must run this cmdlet in an AD domain joined environment.
 
 Example where action is taken with kerb1:
 
