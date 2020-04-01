@@ -1,4 +1,4 @@
-﻿1<properties
+<properties
 	pageTitle="TSG Content Step: Check unknown errors"
 	description="TSG Content Step: Check unknown errors"
 	service="microsoft.network"
@@ -13,7 +13,7 @@
 
 # Check VNet peering errors
 
-It looks like this is not an error message with a known solution. We'll have to investigate to find a solution and update the knowledge base. I'll begin looking into this issue with priority to find a solution and follow up.
+It looks like this is not an error message with a known solution. We'll have to investigate to find a solution and update the knowledge base.
 
 ## **Recommended Steps**
 
