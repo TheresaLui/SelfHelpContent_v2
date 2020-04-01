@@ -13,7 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="bb7af66b-17cd-47cb-8eb0-dfe8078a4ec8"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Security Alerts - No alerts generated Common Solutions

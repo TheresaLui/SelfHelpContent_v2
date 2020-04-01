@@ -11,7 +11,7 @@
     productPesIds="16963"
     cloudEnvironments="public, Fairfax"
     articleId="5f4ca863-c697-426f-a6cf-35afc4a23bad"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # My problem is not listed above

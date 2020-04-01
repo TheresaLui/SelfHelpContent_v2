@@ -15,7 +15,7 @@
 	resourceTags="PartnerCenter_Incentives"
 	productPesIds="17005"
 	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Partner Center Incentives: Enrollment, eligibility, earnings, claims, payments, plans, and policy

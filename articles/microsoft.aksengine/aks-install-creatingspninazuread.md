@@ -12,7 +12,7 @@
     productPesIds="16963"
     cloudEnvironments="public, Fairfax"
     articleId="aks-install-creatingspninazuread"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Issues creating SPN in Azure AD

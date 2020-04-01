@@ -12,7 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-network-load-balancers"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Resolve issue with Azure Stack Express Route"

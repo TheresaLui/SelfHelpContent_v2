@@ -14,7 +14,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="DevDivAzServices_SpringCloud"
 />
 
 # Checklist before onboard your Spring application to Azure Spring Cloud
