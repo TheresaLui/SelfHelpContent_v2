@@ -32,8 +32,6 @@ https://docs.microsoft.com/windows/security/threat-protection/security-policy-se
 
 And make sure RC4_HMAC_MD5 is included as a value.  
 
-![EncryptionSetting.gif](Screenshots\EncryptionSetting.gif)
-
 You can validate the mitigation by retrying mount and running **Get-AzStorageKerberosTicketStatus** after the policy change.
 
 We understand that there are concerns in the industry on whether RC4 cipher is still cryptographically secure. We recommend you to make your own assessment on whether to leverage RC4 cipher based on your security and compliance requirements. We plan to extend the Kerberos support on Azure Files with newer encryption types of AES128 and ASE256 in H1 CY2020.
