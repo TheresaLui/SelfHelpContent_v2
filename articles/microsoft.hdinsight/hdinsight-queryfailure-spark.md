@@ -37,11 +37,11 @@
 1. Check Storage (WASB or ADL)
 
    * Verify that permissions to the store are correct.
-   * Log into to the cluster and list the JAR file from the Headnode using CMD:
+   * Log into to the cluster and list the JAR file from the Headnode using the following set of CMD instructions:
 
-     1. `hdfs dfs -ls wasbs://CONTAINERNAME@STORAGEACCOUNT.blob.core.windows.net/sampledata1/`
-     1. `hdfs dfs -ls wasbs:///sampledata2/`
-     1. `hdfs dfs -ls /sampledata3/`
+     * `hdfs dfs -ls wasbs://CONTAINERNAME@STORAGEACCOUNT.blob.core.windows.net/sampledata1/`
+     * `hdfs dfs -ls wasbs:///sampledata2/`
+     * `hdfs dfs -ls /sampledata3/`
 
    * If the permissions aren't correct, check that the user accessing the storage has Read/Write/Execute (RWX) permissions on that folder.
 
