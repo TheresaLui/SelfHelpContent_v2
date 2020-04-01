@@ -74,9 +74,25 @@
 			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved?",
 			"watermarkText": "...",
 			"required": false
-		}
-
-    ],
+		},
+		{
+		"id": "6",
+		"order": 6,
+		"controlType": "dropdown",
+		"displayLabel": "Is this incident related to COVID-19 relief efforts?",
+		"watermarkText": "Choose an option",
+		"dropdownOptions": [{
+		"value": "Yes",
+		"text": "Yes"
+		},
+		{"value": "No",
+		"text": "No"
+		},
+		{"value": "dont_know_answer",
+                "text": "Other, don't know or not applicable"
+		}],
+		"required": true
+		}],
     "$schema": "SelfHelpContent"
 }
 ---
