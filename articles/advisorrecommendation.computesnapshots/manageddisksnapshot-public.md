@@ -17,18 +17,18 @@
   "recommendationTypeId": "702b474d-698f-4029-9f9d-4782c626923e",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('XResiliency').GetPremiumSnapshotsOfManagedDisks",
-    "dataSource": "Kusto",
-    "refreshInterval": "08:00:00"
+    "streamNamespace": "AzureStorage.Data.StorageAdvisorManagedDiskSnapshotV1",
+    "dataSource": "Cosmos",
+    "refreshInterval": "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Compute/snapshots",
   "recommendationFriendlyName": "ManagedDiskSnapshot",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Enabled",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "Sijia.Zhu@microsoft.com",
     "icm": {
       "routingId": "MDM://AzureAdvisor",
       "service": "Azure Advisor",
