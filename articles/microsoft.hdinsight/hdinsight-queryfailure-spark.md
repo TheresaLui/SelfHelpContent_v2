@@ -24,9 +24,7 @@
    * Verify that the HDInsight cluster to be used has enough memory and cores to accommodate the Spark application. To determine this, view the Cluster Metrics section of the cluster's YARN UI, and locate the values of **Memory Used** vs. **Memory Total** and **VCores Used** vs. **VCores Total**.
    * If you do not have enough resources to accommodate your Spark application/job, scale up the cluster to ensure the cluster has enough memory and cores.
 
-1. Check the supporting JAR files being used to execute the job
-
-   * Check that additional JAR files libraries are in the right class path, and make use of following class path if any additional jar files need to be loaded.
+1. Check the supporting JAR files being used to execute the job. Check that additional JAR files libraries are in the right class path, and make use of following class path if any additional jar files need to be loaded:
 
      * spark.driver.extraClassPath
      * spark.yarn.user.classpath.first
@@ -61,9 +59,9 @@ If the JAR file libraries aren't in the right class path, copy the jars to the r
 
      **Note**: Stuck jobs are listed in the Running state.
 
-     1. Track the application in the Spark UI and look at the Stages Tab.
-     1. Look at the duration of the various stages and identify which stages seem like anomalies.
-     1. Take a screenshot of the DAG Visualization and present this information to the support engineer whom you work with.
+     1. Track the application in the Spark UI and look at the Stages Tab
+     1. Look at the duration of the various stages and identify which stages seem like anomalies
+     1. Take a screenshot of the DAG Visualization and present this information to the support engineer whom you work with
 
 ### **Solutions to common errors encountered**
 
