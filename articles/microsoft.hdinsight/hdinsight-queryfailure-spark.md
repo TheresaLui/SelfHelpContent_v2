@@ -32,28 +32,32 @@
      * spark.yarn.user.classpath.first
      * spark.executor.extraClassPath
 
-   * If the JAR file libraries aren't in the right class path, copy the jars to the required class path.
+If the JAR file libraries aren't in the right class path, copy the jars to the required class path.
 
 1. Check Storage (WASB or ADL)
 
-   * Verify that permissions to the store are correct.
-   * Log into to the cluster and list the JAR file from the Headnode using the following set of CMD instructions:
+   Verify that permissions to the store are correct, then log into to the cluster and list the JAR file from the Headnode using the following set of CMD instructions:
 
-     * `hdfs dfs -ls wasbs://CONTAINERNAME@STORAGEACCOUNT.blob.core.windows.net/sampledata1/`
-     * `hdfs dfs -ls wasbs:///sampledata2/`
-     * `hdfs dfs -ls /sampledata3/`
+     ```
+     hdfs dfs -ls wasbs://CONTAINERNAME@STORAGEACCOUNT.blob.core.windows.net/sampledata1/
+     hdfs dfs -ls wasbs:///sampledata2/
+     hdfs dfs -ls /sampledata3/
+     ```
 
    * If the permissions aren't correct, check that the user accessing the storage has Read/Write/Execute (RWX) permissions on that folder.
 
-1. If your Spark Job(s) use LIVY from Jupyter or ADF
+1. Check the Livy logs
 
-   * Check the Livy logs. A timeout can result when JAR files are too big, when there are too many resources to distribute, or when file copying between storages is taking too long. If Livy doesn't get the application ID from YARN within two minutes, then the LIVY batch will fail.
+   * If your Spark Job(s) use LIVY from Jupyter or ADF, check the Livy logs. A timeout can result when JAR files are too big, when there are too many resources to distribute, or when file copying between storages is taking too long. If Livy doesn't get the application ID from YARN within two minutes, then the LIVY batch will fail.
    * To resolve this, reduce the size or JAR file or increase the timeout value `livy.server.yarn.app-lookup-timeout`.
 
-1. If your Spark Job is stuck/application hangs
+1. End the job from the Yarn UI
 
-   * End the job from the Yarn UI, or run Yarn Kill CMD: `yarn application -kill <application_id>`.
-   * If ending the job does not resolve the issue, check whether LIVY has returned an application ID. If no application ID has been returned, follow these steps:
+   If your Spark Job is stuck/application hangs, end the job from the Yarn UI, or run Yarn Kill CMD:
+   
+   * ``yarn application -kill <application_id>``.
+   
+   If ending the job does not resolve the issue, check whether LIVY has returned an application ID. If no application ID has been returned, follow these steps:
 
      **Note**: Stuck jobs are listed in the Running state.
 
