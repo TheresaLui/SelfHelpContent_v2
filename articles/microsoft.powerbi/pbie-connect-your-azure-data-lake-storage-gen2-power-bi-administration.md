@@ -11,7 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="6f9be353-74c7-0061-49a3-7791f483129c"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Connect Azure Data Lake Storage Gen2 for dataflow storage (Preview)

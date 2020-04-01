@@ -11,7 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="557afdbf-5310-9dfb-d0ff-6470f353a737"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Tutorial: Invoke a Machine Learning Studio model in Power BI (Preview)

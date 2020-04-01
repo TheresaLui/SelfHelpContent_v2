@@ -11,6 +11,7 @@
 	articleId="scopingquestion_partnercenter_azureplan"
 	clientIds="partnercenter"
 	ownershipId="PartnerCenter_Billing_and_Invoicing"
+
 />
 # Partner Center Azure plan request
 ---

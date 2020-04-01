@@ -10,7 +10,7 @@
 	productPesIds="15947"
 	cloudEnvironments="public"
   	articleId="796690b8-1d94-43a1-8769-4dc1cc846017"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Networking Common Solutions

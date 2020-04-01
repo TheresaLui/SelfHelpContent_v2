@@ -11,7 +11,7 @@
 	productPesIds="16326"
 	cloudEnvironments="public, Fairfax"
 	articleId="aa39b07f-930f-48fe-8c8c-3802f030fd75"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # Container Instances

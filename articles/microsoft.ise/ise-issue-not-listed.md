@@ -12,7 +12,7 @@
     productPesIds="17030"
     cloudEnvironments="public"
     articleId="9c605946-bd9b-49c5-b24e-dc01d0bb6bbe"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_LogicApps"
 />
 
 # My issue is not listed above

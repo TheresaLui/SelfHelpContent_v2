@@ -10,7 +10,7 @@
 	productPesIds="15947"
 	cloudEnvironments="public"
 	articleId="cacbe45c-e3f0-47aa-b826-edb72592902d"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Security Solutions Common Solutions
