@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
-    articleId="cbb1a5a3-04b0-4a6e-b60c-009136b16033"
+    articleId="308d35e1-64b8-4bd4-bceb-45da201e2f70"
     ownershipId="CloudNet_AzureVPNGateway"
 />
 
