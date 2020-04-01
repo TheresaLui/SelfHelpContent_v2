@@ -13,7 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="58f54d0f-2b3d-4234-b01f-c9c6841b4dc0"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Security Alerts - Testing ASC alerts Common Solutions

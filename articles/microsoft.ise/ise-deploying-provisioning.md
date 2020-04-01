@@ -12,7 +12,7 @@
     productPesIds="17030"
     cloudEnvironments="public"
     articleId="f78de23e-2b04-4627-b645-8cfb65bee6ca"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_LogicApps"
 />
 
 # Deploying and Provisioning

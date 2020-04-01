@@ -10,7 +10,7 @@
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_sample"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # PC Sample
 ---
