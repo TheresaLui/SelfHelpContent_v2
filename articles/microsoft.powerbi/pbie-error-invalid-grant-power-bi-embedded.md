@@ -11,7 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="dca08bcb-b683-422c-e4bf-f43b102d95f3"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Authorize access to Azure Active Directory web applications using the OAuth 2.0 code grant flow

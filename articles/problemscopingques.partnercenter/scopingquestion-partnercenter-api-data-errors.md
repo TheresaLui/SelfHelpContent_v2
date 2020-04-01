@@ -10,7 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_api_data_errors"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center API Data Issues and Errors
 ---

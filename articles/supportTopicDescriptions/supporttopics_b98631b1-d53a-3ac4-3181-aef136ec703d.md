@@ -5,7 +5,7 @@
   ms.author="marwa, v-vigra"
   selfhelptype="SupportTopicDescription"
   productpesids="b98631b1-d53a-3ac4-3181-aef136ec703d"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_b98631b1-d53a-3ac4-3181-aef136ec703d" 
   ownershipId="AzureIdentity_ComplianceAndReporting"
   />

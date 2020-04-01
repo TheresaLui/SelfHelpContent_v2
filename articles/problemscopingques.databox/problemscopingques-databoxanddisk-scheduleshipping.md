@@ -37,7 +37,7 @@
             "id": "is_carrier contacted",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Did you contact the carrier and provided details as mentioned in the return instructions?",
+            "displayLabel": "Did you contact the carrier and provide details as mentioned in the return instructions?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {

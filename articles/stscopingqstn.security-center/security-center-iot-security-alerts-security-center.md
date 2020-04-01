@@ -13,7 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="64d4198e-7741-4caa-82a4-f52f8c551473"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # IoT Hub - IoT Security Alerts in Security Center

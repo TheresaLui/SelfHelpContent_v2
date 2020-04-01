@@ -10,7 +10,7 @@
 	productPesIds="15947"
 	cloudEnvironments="public"
 	articleId="3415eca0-6f91-4c9c-b72c-25e166fbc6bb"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Identity and Access Common Solutions

@@ -14,7 +14,7 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # This is a sample title
