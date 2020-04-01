@@ -25,7 +25,7 @@ Error:  "Unable to set new owner on share name. Access is denied."
 
 This is a known issue during the preview of the Active Directory Authentication for Azure Files feature.  The fix is planned for implementation prior to general availability.
 
-Customer Ready Message
+## Customer Ready Message
 
 Hello Customer, 
 

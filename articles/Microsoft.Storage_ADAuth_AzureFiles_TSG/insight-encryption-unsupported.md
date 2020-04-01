@@ -20,13 +20,13 @@
 # Customer does not have RC4-HMAC Encryption type enabled on their computer.
 <!--issueDescription-->
 
-Resolution/Workaround
+## Resolution/Workaround
 
 Dear Customer,
 
 It seems that your computer does not have supported Kerberos encryption type(RC4-HMAC) enabled through group policy settings. This is currently resulting in authentication failures to access Azure file shares.
 
-You (or their domain administrator) need to examine their domain group policy for "Network security configure encryption types allowed for kerberos". And make sure RC4_HMAC_MD5 is included as a value.  
+You (or their domain administrator) need to examine their domain group policy for "Network security configure encryption types allowed for kerberos". And make sure RC4-HMAC-MD5 is included as a value.  
 
 You can validate the mitigation by retrying mount and running Get-AzStorageKerberosTicketStatus after the policy change.
 
