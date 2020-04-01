@@ -17,8 +17,8 @@
 
 # Azure Dev Storage Escalation
 
-* Make sure that the Case has the correct Support Topic. 
-* If not, please select the correct one based on the customer's issue.
-* For Severity B and C issues, you should engage the EEE team, and provide the appropriate ICM template. If you can't create the ICM for some reason, please use one of these links: 
-   * Storage: http://aka.ms/cri-xeee  
-   * For Severity A and 0 issues, you should engage WASU.
+1. Make sure that the Case has the correct Support Topic. 
+2. If not, please select the correct one based on the customer's issue.
+3. For Severity B and C issues, you should engage the EEE team, and provide the appropriate ICM template. If you can't create the ICM for some reason, please use one of these links: 
+    1. Storage: http://aka.ms/cri-xeee  
+    2. For Severity A and 0 issues, you should engage WASU.
