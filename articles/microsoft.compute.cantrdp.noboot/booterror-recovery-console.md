@@ -59,7 +59,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 	3. Note the boot identifier displayed. The path for a Generation 1 VM will be `\windows\system32\winload.exe` whereas for a Generation 2 VM the path will be `\windows\system32\winload.efi`.
 
-4. Using the identifier, enter the commands below for your VM type. Make sure to replace any `<TEXT>` with the the information specified.
+4. Using the identifier, enter the commands below for your VM type. Make sure to replace any `<TEXT>` with the information specified.
 
 		Generation 1 VM:
 		bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {bootmgr} device boot
