@@ -8,7 +8,7 @@
     ms.author="vrjai"
     displayOrder="1"
     articleId="active-directory-dxp-signin-aadsts-errorcodes"
-    diagnosticScenario="Sign_In_Issues"
+    diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
@@ -25,6 +25,8 @@ Error code: <!--$errorCode-->[errorCode]<!--/$errorCode-->
 
 Message: <!--$message-->[message]<!--/$message-->
 
-Remediation: <!--$remediation-->[remediation]<!--/$remediation-->
+Action: <!--$remediation-->[remediation]<!--/$remediation-->
+
+<!--$link-->[link]<!--/$link-->
 
 <!--/issueDescription-->

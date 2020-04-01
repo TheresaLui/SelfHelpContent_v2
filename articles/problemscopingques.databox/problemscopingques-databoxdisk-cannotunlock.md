@@ -1,22 +1,22 @@
 <properties
 	articleId="326392002"
-	pageTitle="Scoping Questions for Data Box Disk slow copy speeds"
-	description="Scoping Questions for Data Box Disk slow copy speeds"
+	pageTitle="Scoping Questions for unlock or write issue with Data Box Disk"
+	description="Scoping Questions for unlock or write issue with Data Box Disk"
 	authors="madhurinms"
 	ms.author="madhn"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639196"
+	supportTopicIds="32639196,32639198"
 	productPesIds="16505"
-	cloudEnvironments="public,Fairfax"
+	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"
     ownershipId="StorageMediaEdge_DataBox"
 />
-# Data Box Disk slow copy speed
+# Cannot unlock or write to Data Box Disk 
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Data Box Disk slow copy speed",
+    "title": "Cannot unlock or write to Data Box Disk",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -41,12 +41,12 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "In correct BitLocker password",
-                    "text": "In correct BitLocker password"
+                    "value": "Incorrect BitLocker password",
+                    "text": "Incorrect BitLocker password"
                 },
                 {
-                    "value": "My Disk is not getting detected",
-                    "text": "My Disk is not getting detected"
+                    "value": "My disk is not getting detected",
+                    "text": "My disk is not getting detected"
                 },
                 {
                     "value": "There is no file system on the disk",
@@ -61,7 +61,7 @@
         },
         {
             "id": "previous_solution",
-            "visibility": "is_disk_issue == My Disk is not getting detected || There is no file system on the disk",
+            "visibility": "is_disk_issue == My disk is not getting detected || is_disk_issue == There is no file system on the disk || is_disk_issue == dont_know_answer",
             "order": 110,
             "controlType": "dropdown",
             "displayLabel": "Did you format the disk?",
@@ -87,7 +87,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide full erro text and any other relevant information",
+            "watermarkText": "Please provide full error text and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         }

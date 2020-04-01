@@ -17,4 +17,4 @@
 
 # Storage resource type
 
-* Please use the resource type selected by the customer to determine the type of resource the customer is trying to delete
+Please use the resource type selected by the customer to determine the type of resource the customer is trying to delete

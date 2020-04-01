@@ -17,4 +17,4 @@
 
 # Select error message
 
-* Please select the error message you discovered or provided by the customer
+Please select the error message you discovered or provided by the customer
