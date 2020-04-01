@@ -66,7 +66,8 @@
 			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved??",
 			"watermarkText": "...",
 			"required": false
-		}
+		},
+		{
 		"id": "6",
 		"order": 6,
 		"controlType": "dropdown",
