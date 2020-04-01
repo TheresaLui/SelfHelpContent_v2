@@ -19,9 +19,9 @@
 # Unable to set Owner permissions on File share
 
 <!--issueDescription-->
-If the customer tries to change the ownership of a folder located an AD joined file share an error results stating that the user is unable to set new owner on <folder name> (see screenshot below).  
+If the customer tries to change the ownership of a folder located an AD joined file share an error results stating that the user is unable to set new owner on file share.  
 
-Error:  "Unable to set new owner on <file or folder name>. Access is denied."
+Error:  "Unable to set new owner on share name. Access is denied."
 
 This is a known issue during the preview of the Active Directory Authentication for Azure Files feature.  The fix is planned for implementation prior to general availability.
 
