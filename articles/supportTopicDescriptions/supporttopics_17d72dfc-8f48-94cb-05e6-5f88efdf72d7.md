@@ -5,7 +5,7 @@
   ms.author="akankshajsh, v-kraku, srinathv"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="azure-backup-supporttopicdescription"
   ownershipid="StorageMediaEdge_Backup"
   icmteam="icmteam"
