@@ -17,6 +17,7 @@
 />
 # We ran diagnostics on your resource and found an issue
 
+
 <!--issueDescription-->
 We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated host node reboot action**.
 <!--/issueDescription-->
