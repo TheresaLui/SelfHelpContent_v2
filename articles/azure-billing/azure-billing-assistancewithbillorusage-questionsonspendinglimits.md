@@ -23,7 +23,7 @@
 Your subscription might be disabled if the monthly credits on your subscription is used up. It will be re-activated when the credits are set back in the next billing cycle. If your subscription is disabled, check if
   * You have spending limit enabled or if you have deployed any third-party services. If so, please go ahead and remove the spending limit or delete/remove the service. Once the spending limit is removed, clear browser cache, cookies or use in-private browser to login to Azure portal to verify the subscription status, **or**
   * Wait until the next billing cycle when new credits would be added and the subscription would be automatically enabled, **or**
-  * If you have a [Free Trial](https://azure.microsoft.com/en-us/free/) or an [Azure for Students Starter](https://azure.microsoft.com/offers/ms-azr-0144p/) subscription, you can upgrade to [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) in the Azure portal: [Upgrade subscription](https://docs.microsoft.com/azure/cost-management-billing/manage/upgrade-azure-subscription)
+  * If you have a [Free Trial](https://azure.microsoft.com/free/) or an [Azure for Students Starter](https://azure.microsoft.com/offers/ms-azr-0144p/) subscription, you can upgrade to [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) in the Azure portal: [Upgrade subscription](https://docs.microsoft.com/azure/cost-management-billing/manage/upgrade-azure-subscription)
   * If you would like to delete your Azure resources, follow the steps here: [Azure Resource deletion](https://docs.microsoft.com/azure/azure-resource-manager/management/delete-resource-group?tabs=azure-powershell)
 
 ### **How to remove spending limit in Azure portal?**<br>
