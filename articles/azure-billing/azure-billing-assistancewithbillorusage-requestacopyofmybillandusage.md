@@ -74,7 +74,7 @@ To view and download usage data as a EA customer, you must be an Enterprise Admi
   * Select **Usage + charges**. For the month you want to download, select **Download**
 		
 * **MOSP Azure subscription**<br>
-[Download MOSP Azure subscription invoive](https://docs.microsoft.com/azure/cost-management-billing/understand/download-azure-invoice#download-your-mosp-azure-subscription-invoice)<br>		
+[Download MOSP Azure subscription invoice](https://docs.microsoft.com/azure/cost-management-billing/understand/download-azure-invoice#download-your-mosp-azure-subscription-invoice)<br>		
 
 **Troubleshoot: Unable to see invoice for the last billing period?**
 Some possible reasons you might not see an invoice:
