@@ -21,18 +21,15 @@
 # Partner Center account verification
 
 ## **Recommended Steps**
-For information on how to fix legal business name or email address:
-
-- Verify and update company’s registered legal business name: [CSP](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) or [MPN](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile)
-- Verify and update email using official email address: [CSP](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) or [MPN](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile)
-
-For information on how to fix [employment verification](https://docs.microsoft.com/partner-center/verification-responses) or [Business verification](https://docs.microsoft.com/partner-center/verification-responses#what-is-verified-and-how-to-respond) failures:
-
-- Click here to [Upload verification documents](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=3&topicid=21655de7-7dbb-4927-33a2-f60f45feadf3)
-- If issue persists, please [contact support](https://partner.microsoft.com/en-US/dashboard/support/servicerequests/create?stage=3&topicid=c34a5c81-a111-476d-11a4-81c808c37a6b)
+- When you enroll for a new program in Partner Center, Microsoft verifies the account enrollment information you have provided, such as your company name, company address, and primary contact details. During this process, Microsoft may send email to your primary contact to inform them of the status and request additional verification documentation. To ensure that you receive the email, be sure to flag email from Microsoft.com as a **safe** domain, and check Junk email folders.
+- Verification normally takes up to 3 business days but in some cases it may take weeks. Please wait for at least 3 days before raising a support ticket.
+- If you don't receive the email ownership verification email message within one business day, you can request to resend using the links below and following the appropriate instructions:
+   - For [MPN](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile) accounts
+   - For [CSP](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) accounts
+- For any other verification issues, you can create a support ticket by clicking on Next step section
+- If the problem is related to employment verification or business verification, you can search for the topic in _Tell us about issue section_
  
 ## **Recommended Documents**
 
-* [What is verified and how to respond](https://docs.microsoft.com/partner-center/verification-responses#what-is-verified-and-how-to-respond)
-* [Global admin and domain ownership](https://docs.microsoft.com/partner-center/become-global-admin)
-* [Verify your domain ownership](https://docs.microsoft.com/partner-center/become-global-admin#verify-your-domain-ownership-1)
+* [Verify your account information](https://docs.microsoft.com/partner-center/verification-responses#what-is-verified-and-how-to-respond)
+* [How to verify and update profile information](https://docs.microsoft.com/partner-center/update-your-partner-profile)
