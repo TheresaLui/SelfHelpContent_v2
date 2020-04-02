@@ -19,7 +19,7 @@
     "schemaVersion": 2.0,
     "streamNamespace": "AzureStorage.Data.StorageAdvisorManagedDiskSnapshotV1",
     "dataSource": "Cosmos",
-    "refreshInterval": "refreshInterval": "1.00:00:00"
+    "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "High",
