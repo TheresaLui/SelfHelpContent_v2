@@ -46,7 +46,7 @@ To obtain a PDF of your invoice and a copy of your detailed daily usage file (.C
 Understand daily usage: [Understand your bill for Microsoft Azure](https://docs.microsoft.com/azure/cost-management-billing/understand/review-individual-bill)<br>
 Manage costs: [Prevent unexpected costs with Azure billing and cost management](https://docs.microsoft.com/azure/cost-management-billing/manage/getting-started)
 
-* **Microsoft Customer Agreement (MCA)**: [How to Check access to a Microsoft Customer Agreement?](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/download-azure-invoice-daily-usage-date#check-access-to-a-microsoft-customer-agreement)<br>
+* **Microsoft Customer Agreement (MCA)**: [How to Check access to a Microsoft Customer Agreement?](https://docs.microsoft.com/azure/cost-management-billing/manage/download-azure-invoice-daily-usage-date#check-access-to-a-microsoft-customer-agreement)<br>
 If you're have a [Microsoft Customer Agreement](https://docs.microsoft.com/azure/cost-management-billing/manage/download-azure-invoice-daily-usage-date#check-access-to-a-microsoft-customer-agreement), you can download usage in the [Azure portal](https://portal.azure.com/)
 
   **Get your Microsoft Customer Agreement invoices in email**: If you have a Microsoft Customer Agreement, you can opt in to get your invoice in an email. All billing profile Owners, Contributors, Readers, and Invoice managers will get the invoice by email. Readers cannot update the email invoice preference
