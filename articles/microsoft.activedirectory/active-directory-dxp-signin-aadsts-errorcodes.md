@@ -17,8 +17,11 @@
     ownershipId="AzureIdentity_IdentityDiagnostics"
 />
 
-# Configuration Issue Preventing User Sign-In
+# How Do I Resolve the User Sign-in Issues? 
 <!--issueDescription-->
+Based on the information you provided we have identified following issue and recommend taking the action to resolve the issue.
+
+**Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode-->
 
 **Message:** <!--$message-->[message]<!--/$message-->
 
