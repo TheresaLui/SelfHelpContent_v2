@@ -30,9 +30,13 @@ For more details on load balancing and partition server failures, see [Microsoft
 
 For details on how your partition naming convention can be designed to enable optimal load-balancing, refer to the [associated section in the Storage Performance and Scalability checklist](https://docs.microsoft.com/azure/storage/storage-performance-checklist#subheading47).<br>
 
-To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.<br>
+## **Recommended Steps**
 
-To learn more about high availability options, refer to the following articles:<br>
+To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.
+
+We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
+
+## **Recommended Documents**
 
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)<br>

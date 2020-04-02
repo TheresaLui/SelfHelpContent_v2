@@ -30,9 +30,13 @@ For general information on storage architecture and for more details on the part
 
 * [Microsoft Azure Storage architecture overview](https://blogs.msdn.microsoft.com/windowsazurestorage/2010/12/30/windows-azure-storage-architecture-overview/)<br>
 
-To ensure high availability for your application in Azure, we recommend that you group two or more virtual machines in an Availability Set and use Managed Disks.<br>
+## **Recommended Steps**
 
-To learn more about high availability options, refer to the following articles:<br>
+To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.
+
+We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
+
+## **Recommended Documents**
 
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)<br>
