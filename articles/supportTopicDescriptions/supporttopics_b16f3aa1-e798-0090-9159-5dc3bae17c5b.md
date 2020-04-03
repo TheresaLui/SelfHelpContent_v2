@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ed804dcb-38df-3e51-974c-34d421931ab3",
+      "longDescription": "",
+      "shortDescription": "Questions from developers on managing B2C using wep applications.",
+      "searchTags": "Questions managing B2C using Web Apps",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f0bb83f4-88a9-d93c-1e9e-ddedb2a73c36",
       "longDescription": "",
       "shortDescription": "Questions regarding AAD B2C session token lifetime, timeout, and single sign on setting configurations",
