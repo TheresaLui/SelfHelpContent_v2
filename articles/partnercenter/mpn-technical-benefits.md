@@ -21,9 +21,9 @@
 
 ## **Recommended Steps**
 
-- The support contract needs to be activated – for PC migrated partners, Admin user roles can activate online using Partner Center.
-- View and share your Access ID and Contract ID – for PC migrated partners, all users (including non admins) can see the Access ID and Contract ID using Partner Center. All users use the same Access ID and Contract ID.
-- Using the MPN technical benefits. See KB [Technical Support for Microsoft Partners](https://support.microsoft.com/help/4020188/technical-support-for-microsoft-partners) for details.
+- The support contract needs to be activated. For PC migrated partners, Admin user roles can activate online using Partner Center.
+- View and share your Access ID and Contract ID. For PC migrated partners, all users (including non admins) can see the Access ID and Contract ID using Partner Center. All users use the same Access ID and Contract ID.
+- Use the MPN technical benefits. See our [Technical Support for Microsoft Partners](https://support.microsoft.com/help/4020188/technical-support-for-microsoft-partners) Knowledge Base for details.
 
 ## **Recommended Documents**
 
