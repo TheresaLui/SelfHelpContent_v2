@@ -30,5 +30,5 @@ During our investigation we determined that connections to your database server 
 ## **Recommended Documents**
 
 * [Azure Database for MariaDB](https://azure.microsoft.com/services/mariadb/)
-* [Configure SSL connectivity in your application](https://docs.microsoft.com/azure/mariadb/howto-configure-ssl#step-3--enforcing-ssl-connections-in-azure)
+* [Configure SSL connectivity in your application](https://docs.microsoft.com/azure/mariadb/howto-configure-ssl#enforcing-ssl-connections-in-azure)
 * [MariaDB Discussion forum](https://social.msdn.microsoft.com/Forums)
