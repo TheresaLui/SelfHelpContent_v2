@@ -4,6 +4,7 @@
 	service="microsoft.classiccompute"
 	resource="domainnames"
 	authors="ChiragPavecha"
+	ms.author="chiragpa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32565474"
