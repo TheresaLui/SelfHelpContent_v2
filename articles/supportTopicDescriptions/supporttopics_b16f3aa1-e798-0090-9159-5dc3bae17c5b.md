@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e299aa8f-db1b-2d52-3d94-2bbc5db5eecd",
+      "longDescription": "",
+      "shortDescription": "Questions from developers managing B2C using a Native App",
+      "searchTags": "questions managing B2C using Native Apps",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e827e685-34de-a3b4-69ed-e2cf7d118ec3",
       "longDescription": "",
       "shortDescription": "Questions regarding Azure AD B2C regional availability or data residency location.",
