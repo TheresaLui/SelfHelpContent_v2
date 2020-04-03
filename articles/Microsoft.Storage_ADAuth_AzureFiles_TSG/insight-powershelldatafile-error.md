@@ -23,6 +23,7 @@ Please follow below steps to resolve customer issues when they get this error wh
 
 ## **Recommended Steps**
 
-1. Check .Net version by looking at the "Version" registry key under this path - HKEY_LOCAL_MACHINE-SOFTWARE-Microsoft-NET Framework Setup-NDP-v4-Full 
+1. Check .Net version by looking at the "Version" registry key under this path - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full 
 2. Run "$PSVersionTable.PSVersion" from a PowerShell Console to verify the PowerShell version. 
 3. If either .Net or PowerShell do not meet minimum requirements, instruct the customer on how to upgrade and retry.
+4. If this does not help resolve the issue, please further escalate the issues using escalation path defined [here](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/275760/Azure-Storage-AD-DS-Authentication-for-File-Storage?anchor=escalation).

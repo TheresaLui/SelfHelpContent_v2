@@ -18,8 +18,20 @@
 
 # User gets prompted for credentials while running net use command - Encryption type error
 <!--issueDescription-->
+User gets the following error while trying to get Kerberos ticket using klist get command - The encryption type requested is not supported by the KDC
+<!--/issueDescription-->
 
-Resolution
+## **Recommended Steps**
+
+1. The customer (or their domain administrator) needs to examine their domain group policy for:
+
+   https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-configure-encryption-types-allowed-for-kerberos
+
+2. And make sure RC4_HMAC_MD5 is included as a value.  They may be wary about reverting to a weaker encryption type, below section has customer communication regarding that.
+
+3. If this does not help resolve the issue, please further escalate the issues using escalation path defined [here](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/275760/Azure-Storage-AD-DS-Authentication-for-File-Storage?anchor=escalation).
+
+**Customer Ready Message**
 
 Dear Customer,
 
@@ -30,4 +42,3 @@ You (or their domain administrator) need to examine your domain group policy for
 You can validate the mitigation by retrying mount and running Get-AzStorageKerberosTicketStatus after the policy change.
 
 We understand that there are concerns in the industry on whether RC4 cipher is still cryptographically secure. We recommend you to make your own assessment on whether to leverage RC4 cipher based on your security and compliance requirements. We plan to extend the Kerberos support on Azure Files with newer encryption types of AES128 and ASE256 in H1 CY2020.
-<!--/issueDescription-->
