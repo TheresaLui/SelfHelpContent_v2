@@ -20,9 +20,7 @@
 We identified that your VM Virtual machine became unavailable at StartTime (UTC). This expected occurrence was caused by an user initiated shutdown action.
 The shutdown was triggered by an authorized user or process via either Azure Portal or Azure Resource Manager interfaces. As a result, your VM was shut down and remained in this state until user action was taken to restart it.
 
-Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.
-
-To learn more about Azure Resource Health, please refer to the Understand and use Resource Health Center to troubleshoot this scenario in the future  
+Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal. To learn more about Azure Resource Health, please refer to the Understand and use Resource Health Center to troubleshoot this scenario in the future.
 
 <!--/issueDescription-->
 
