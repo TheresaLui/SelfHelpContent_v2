@@ -25,7 +25,7 @@ Net use command fails with 1396 - The target account name is incorrect error.
 
 1. The customer (or their domain administrator) needs to examine their domain group policy for:
 
-   https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-configure-encryption-types-allowed-for-kerberos
+   https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/network-security-configure-encryption-types-allowed-for-kerberos
 
 2. And make sure RC4_HMAC_MD5 is included as a value.  They may be wary about reverting to a weaker encryption type, below section has customer communication regarding that.
 
