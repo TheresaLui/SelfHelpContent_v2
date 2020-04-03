@@ -430,6 +430,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fe15ae63-0dc8-3581-9a2d-8b7ae5c101c3",
+      "longDescription": "",
+      "shortDescription": "Password change request is not occuring or not occuring within an expected amount of time",
+      "searchTags": "issue with resetting password",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fe50cc52-70c6-39db-888d-3b18dfb329fe",
       "longDescription": "",
       "shortDescription": "Troubleshooting WAP deployment or communication problems to or from the WAP",
