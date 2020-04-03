@@ -2,13 +2,12 @@
   pagetitle="SupportTopicDescriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de"
   description="SupportTopicDescriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de"
   authors="elixirsys2"
-  ms.author="marwa"
+  ms.author="marwa, v-vigra"
   selfhelptype="SupportTopicDescription"
   productpesids="516fe906-3a1a-2878-02fd-8dd37ea207de"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake"
   articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de"
-  ownershipId="AzureIdentity_Licensing"
-  />
+  ownershipid="AzureIdentity_Licensing" />
 # Support Topic Descriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de
 ---
 {
@@ -268,6 +267,14 @@
       "shortDescription": "Assistance need or issues found while syncing Password Hash to AAD",
       "searchTags": "issue syncing password hash",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9fdcb08b-7f49-b049-1d0a-4da5d37845ee",
+      "longDescription": "",
+      "shortDescription": "Implementation advisory or troubleshooting problems related to password control, resets, and self-service registration ",
+      "searchTags": "Password control, resets, self-service",
+      "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
