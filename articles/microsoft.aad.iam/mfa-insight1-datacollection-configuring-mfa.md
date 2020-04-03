@@ -8,7 +8,8 @@
     productPesIds="16579"
     cloudEnvironments="public, Fairfax, Mooncake"
     schemaVersion="1"
-    articleId="mfa-insight1-datacollection-configuringMFA"
+    articleId="mfa-insight1-datacollection-configuringMFA",
+    ownershipId="AzureIdentity_MultiFactorAuthentication"
     />
 
 # Azure MFA Configuring Issue
