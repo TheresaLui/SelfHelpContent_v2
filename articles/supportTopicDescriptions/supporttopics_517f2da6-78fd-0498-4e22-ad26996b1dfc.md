@@ -5,12 +5,12 @@
   ms.author="akankshajsh, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
-  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake"
   articleid="billing-supporttopicdescription"
+  ownershipid="ASMS_Billing"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" 	ownershipId="ASMS_Billing"
-/>
+  feedbackemail="email" />
 # Support Topic Descriptions for 517f2da6-78fd-0498-4e22-ad26996b1dfc
 ---
 {
@@ -374,6 +374,14 @@
       "shortDescription": "Questions or issues with using Billing API to download consumption data",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a5f5229a-130c-e227-564e-b8a9cd46889d",
+      "longDescription": "",
+      "shortDescription": "Questions or need assistance with Azure Pricing calculator",
+      "searchTags": "Price calculator;Azure calculator;calculator",
+      "category": "Pricing",
       "useInDiagnoseAndSolve": "true"
     },
     {
