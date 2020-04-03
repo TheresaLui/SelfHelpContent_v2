@@ -475,9 +475,9 @@
     {
       "id": "dc1655d0-baa0-76a1-8521-717732d5eb5a",
       "longDescription": null,
-      "shortDescription": "Questions on any other Pricing related issue not listed in the above scenarios",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance with Azure price sheet API",
+      "searchTags": "price sheet;API",
+      "category": "Pricing",
       "useInDiagnoseAndSolve": "true"
     },
     {
