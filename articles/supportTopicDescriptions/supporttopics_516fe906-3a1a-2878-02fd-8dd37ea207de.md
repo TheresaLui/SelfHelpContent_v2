@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4858079d-1f79-6a42-c5c8-dea24bb6fc45",
+      "longDescription": "",
+      "shortDescription": "Issues with users accessing or completing self-service password reset registration",
+      "searchTags": "issues re self-service password registr",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4def4477-455a-e284-e463-dc65043d70a0",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
