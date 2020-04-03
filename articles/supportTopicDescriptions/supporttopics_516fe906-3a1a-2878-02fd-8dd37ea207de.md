@@ -262,6 +262,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9d9ab527-f5bd-ddf3-733d-377a4693cc2a",
+      "longDescription": "",
+      "shortDescription": "Advisory questions related to password resets or changes",
+      "searchTags": "questions re password resets",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9f156991-7738-0aa5-8eb6-2a8b808df34b",
       "longDescription": "",
       "shortDescription": "Assistance with configuration of a specific ADFS feature (e.g. Trusts, Claims, Protection)",
