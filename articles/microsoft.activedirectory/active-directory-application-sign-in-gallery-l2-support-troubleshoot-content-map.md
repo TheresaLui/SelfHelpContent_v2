@@ -17,9 +17,7 @@
 
 ## **Recommended Steps**
 
-Our Virtual Assistant can help you find the solution to most problems with Enterprise Applications.<br>
-During preview, our Virtual Assistant supports questions and answers in English. <br><br>
-Try our [Virtual Assistant](data-blade:Microsoft_AAD_IAM.BotBlade)
+Our [Virtual Assistant](data-blade:Microsoft_AAD_IAM.BotBlade) can help you find the solution to most problems with Enterprise Applications. During this preview, our Virtual Assistant supports questions and answers in English. 
 
 ## **Recommended Documents**
 
