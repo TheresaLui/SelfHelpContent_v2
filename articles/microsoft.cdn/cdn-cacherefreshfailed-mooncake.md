@@ -11,7 +11,7 @@
     productPesIds=""
     cloudEnvironments="Mooncake"
 	articleId="c1527435-b79d-45d1-845a-bb0323241fd3"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="CloudNet_ContentDeliveryNetwork"
 />
 
 # CDN cache refresh failed

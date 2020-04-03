@@ -10,7 +10,7 @@
 	productPesIds="15947"
 	cloudEnvironments="public"
     articleId="e025c691-p70f-4c2f-aa9a-9kcf7574e89f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Adaptive Application Support Common Solutions

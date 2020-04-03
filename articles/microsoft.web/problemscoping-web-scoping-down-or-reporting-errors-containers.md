@@ -52,7 +52,7 @@
 			"watermarkText": "...",
 			"required": false
 		},
-        {
+		{
             "id": "problem_start_time",
             "order": 7,
             "controlType": "datetimepicker",

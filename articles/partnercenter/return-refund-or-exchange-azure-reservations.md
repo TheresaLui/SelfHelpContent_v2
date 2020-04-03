@@ -15,7 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Return, refund, or exchange Azure reservations
 Support tickets for Azure consumption disputes should be created in the Azure portal. To create an Azure support ticket:

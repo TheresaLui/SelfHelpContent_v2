@@ -5,7 +5,7 @@
   ms.author="marwa"
   selfhelptype="SupportTopicDescription"
   productpesids="516fe906-3a1a-2878-02fd-8dd37ea207de"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de"
   ownershipId="AzureIdentity_Licensing"
   />

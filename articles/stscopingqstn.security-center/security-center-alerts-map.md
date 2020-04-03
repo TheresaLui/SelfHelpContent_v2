@@ -10,7 +10,7 @@
 	productPesIds="15947"
 	cloudEnvironments="public"
 	articleId="9fc7e0ab-5ee8-4ddb-8661-744be1069993"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Security Alerts Map Common Solutions

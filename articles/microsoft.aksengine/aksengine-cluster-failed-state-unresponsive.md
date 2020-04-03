@@ -11,7 +11,7 @@
     productPesIds="16963"
     cloudEnvironments="public, Fairfax"
     articleId="e8ede57a-4766-4b0c-b901-2a932fdfa3ee"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # My Cluster is in a Failed state or unresponsive

@@ -14,7 +14,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="DevDivAzServices_SpringCloud"
 />
 
 # I encountered a problem in creating Azure Spring Cloud service instance

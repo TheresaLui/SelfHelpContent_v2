@@ -10,7 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="e5400786-b1c6-46a1-99e7-60666f4637dc"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center – ASC Billing
