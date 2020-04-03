@@ -18,7 +18,5 @@
 />
 
 # PREVIEW: Get help from our Virtual Assistant
-<!--issueDescription-->
 Our Virtual Assistant can help you find the solution to most problems with Enterprise Applications.<br>
-Try our [Virtual Assistant](data-blade:Microsoft_AAD_IAM.BotBlade)
-<!--/issueDescription-->
+Try our [Virtual Assistant](data-blade:Microsoft_AAD_IAM.BotBlade;data-blade-uri:{$domain}/#blade/Microsoft_AAD_IAM/BotBlade)
