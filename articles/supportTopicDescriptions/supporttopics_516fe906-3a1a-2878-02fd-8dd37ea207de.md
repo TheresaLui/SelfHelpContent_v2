@@ -318,6 +318,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a8cbac0e-1040-67f7-971d-32f291e99dc0",
+      "longDescription": "",
+      "shortDescription": "Configuring self-service password reset for the tenant or subset of users",
+      "searchTags": "configure self-service password reset ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "af69e073-7ebb-6bc5-8427-eb5ccc8caf28",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for activating or managing Azure Active Directory Identity Protection",
