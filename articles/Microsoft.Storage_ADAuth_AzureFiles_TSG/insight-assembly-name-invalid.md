@@ -26,4 +26,3 @@ Customer gets The given assembly name or codebase was invalid error when trying 
 2. Ensure that PowerShell 5.1 or above is installed
 3. If PowerShell version is not 5.1 or above, upgrade to latest version.* * Install latest Az module version and restart the PowerShell session.
 4. Attempt to import AzFilesHybrid Module again.
-5. If this does not help resolve the issue, please further escalate the issues using escalation path defined [here](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/275760/Azure-Storage-AD-DS-Authentication-for-File-Storage?anchor=escalation).

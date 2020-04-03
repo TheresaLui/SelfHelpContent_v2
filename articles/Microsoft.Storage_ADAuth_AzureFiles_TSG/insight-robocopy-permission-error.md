@@ -69,4 +69,3 @@ If the customer would like to take trace and better understand if they are faili
         i. 11:57:13.4620871 AM    robocopy.exe    162116    IRP_MJ_CREATE    F:\CxCache\Corext.Tools.3.0.1\X86\robocopy.exe    SUCCESS    Desired Access: Generic Read, Write Owner Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened    11444
              
         ii. If WRITE_OWNER type access fails, it's due to check #3 not being supported for AD users.
-6. If this does not help resolve the issue, please further escalate the issues using escalation path defined [here](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/275760/Azure-Storage-AD-DS-Authentication-for-File-Storage?anchor=escalation).

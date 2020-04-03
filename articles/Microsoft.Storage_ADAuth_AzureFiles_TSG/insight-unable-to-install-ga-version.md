@@ -30,4 +30,3 @@ Please follow below steps to resolve customer issues when they get this error wh
 2. Install Az.Storage module version 1.11.1-preview manually: Install-Module -Name Az.Storage -RequiredVersion 1.11.1-preview -AllowPrerelease
 3. Restart the PowerShell Session
 4. Attempt to import the AzFilesHybrid module again
-5. If this does not help resolve the issue, please further escalate the issues using escalation path defined [here](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/275760/Azure-Storage-AD-DS-Authentication-for-File-Storage?anchor=escalation).

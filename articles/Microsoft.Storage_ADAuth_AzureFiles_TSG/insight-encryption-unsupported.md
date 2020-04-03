@@ -29,8 +29,6 @@ Net use command fails with 1396 - The target account name is incorrect error.
 
 2. And make sure RC4_HMAC_MD5 is included as a value.  They may be wary about reverting to a weaker encryption type, below section has customer communication regarding that.
 
-3. If this does not help resolve the issue, please further escalate the issues using escalation path defined [here](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/275760/Azure-Storage-AD-DS-Authentication-for-File-Storage?anchor=escalation).
-
 **Customer Ready Message**
 
 Dear Customer,

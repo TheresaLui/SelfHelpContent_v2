@@ -26,5 +26,3 @@ User gets the following error while trying to get Kerberos ticket using klist ge
 1. Please run the following PowerShell command to validate if the object exists - Get-AzStorageAccountADObject -ResourceGroupName "myResourceGroup" -StorageAccountName "myStorageAccount"
 
 2. If the object doesnt exist, please work with the customer and recreate the AD Object using PowerShell. 
-
-3. If the object does exist, collect a wireshark trace while reproducing the issue and further escalate this issue using escalation path defined [here](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/275760/Azure-Storage-AD-DS-Authentication-for-File-Storage?anchor=escalation).
