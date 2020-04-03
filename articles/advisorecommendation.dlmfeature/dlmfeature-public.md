@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "96d733d8-6d43-4340-ba9a-c7bbdef18f62",
   "dataSourceMetadata": {
-    "streamNamespace": "AzureStorage.Data.StorageAdvisorPremiumBlobStorageAccountV1",
+    "streamNamespace": "AzureStorage.Data.StorageAdvisorLifecycleManagmentV1",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
