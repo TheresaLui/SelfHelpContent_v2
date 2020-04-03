@@ -9,7 +9,7 @@
     productPesIds=""
     supportTopicIds=""
     resourceTags=""
-    cloudEnvironments="public"
+    cloudEnvironments="public,Fairfax"
 	articleId="8eabb032-746c-412b-b378-ef5cd69c4dad"
 	ownershipId="Compute_Automation"
 />
