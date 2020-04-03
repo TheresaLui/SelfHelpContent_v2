@@ -358,6 +358,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c6a1908b-503e-a225-3442-d34acb04076c",
+      "longDescription": "",
+      "shortDescription": "Configured Banned Password are being allowed or assistance with setting up on-prem components",
+      "searchTags": "Azure AD banned password protection",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c6e12c58-0cec-db3c-f5ce-4f1fd88c2b6c",
       "longDescription": "",
       "shortDescription": "Assistance needed with ADFS extranet lockouts or ADFS lockout policies, i.e. protection against Password Spray attacks or Brute force attacks",
