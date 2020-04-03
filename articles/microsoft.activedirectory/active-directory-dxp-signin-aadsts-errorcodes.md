@@ -17,15 +17,16 @@
     ownershipId="AzureIdentity_B2B"
 />
 
-# Configuration Issue Preventing User Sign-In
+# How Do I Resolve the User Sign-in Issues? 
 
 <!--issueDescription-->
+Based on the information you provided we have identified following issue and recommend taking the action to resolve the issue.
 
-Error code: <!--$errorCode-->[errorCode]<!--/$errorCode-->
+**Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode-->
 
-Message: <!--$message-->[message]<!--/$message-->
+**Message:** <!--$message-->[message]<!--/$message-->
 
-Action: <!--$remediation-->[remediation]<!--/$remediation-->
+**Action:** <!--$remediation-->[remediation]<!--/$remediation-->
 
 <!--$link-->[link]<!--/$link-->
 
