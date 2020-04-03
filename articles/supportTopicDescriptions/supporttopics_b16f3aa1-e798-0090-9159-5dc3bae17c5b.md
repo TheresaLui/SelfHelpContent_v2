@@ -5,10 +5,9 @@
   ms.author="v-vigra"
   selfhelptype="SupportTopicDescription"
   productpesids="b16f3aa1-e798-0090-9159-5dc3bae17c5b"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
-  articleid="supporttopics_b16f3aa1-e798-0090-9159-5dc3bae17c5b" 
-  ownershipId="AzureIdentity_B2C"
-  />
+  cloudenvironments="public, fairfax, blackforest, mooncake"
+  articleid="supporttopics_b16f3aa1-e798-0090-9159-5dc3bae17c5b"
+  ownershipid="AzureIdentity_B2C" />
 # Support Topic Descriptions for b16f3aa1-e798-0090-9159-5dc3bae17c5b
 ---
 {
@@ -140,6 +139,14 @@
       "shortDescription": "Problems regarding the b2c-extensions-app including verifying existence in app registrations blade and how to recover this required app if deleted.",
       "searchTags": "Issues re b2c extensions app",
       "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d1e7c92e-e90a-d995-a95a-2ef6f708a6a3",
+      "longDescription": "",
+      "shortDescription": "Questions from developers on managing B2C directories using microsoft supported libraries, APIs, and middlerware",
+      "searchTags": "problem with app or API integration",
+      "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
