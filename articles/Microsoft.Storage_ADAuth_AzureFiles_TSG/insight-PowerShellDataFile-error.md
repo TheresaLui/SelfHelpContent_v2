@@ -16,15 +16,14 @@
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />
 
-# CopytoPSPath.ps1 - Error 'The term 'Import-PowerShellDataFile' is not recognized''
-
+# The term Import-PowerShellDataFile is not recognized
 <!--issueDescription-->
 Please follow below steps to resolve customer issues when they get this error while trying to run CopytoPSPath.ps1 command. 
 
 1.Check .Net version by looking at the "Version" registry key under this path - 
-HKEY_LOCAL_MACHINE-SOFTWARE-Microsoft-NET Framework Setup-NDP-v4-Full. 
+HKEY_LOCAL_MACHINE-SOFTWARE-Microsoft-NET Framework Setup-NDP-v4-Full 
 
-2.Run "PSVersionTable.PSVersion" from a PowerShell Console to verify the PowerShell version. 
+2.Run "$PSVersionTable.PSVersion" from a PowerShell Console to verify the PowerShell version. 
 
 3.If either .Net or PowerShell do not meet minimum requirements, instruct the customer on how to upgrade and retry.
 <!--/issueDescription-->
