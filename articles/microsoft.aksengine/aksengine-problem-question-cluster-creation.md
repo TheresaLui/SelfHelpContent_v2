@@ -11,7 +11,7 @@
     productPesIds="16963"
     cloudEnvironments="public, Fairfax"
     articleId="b9784bb2-c784-4610-8ced-da931373e289"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # I have a problem or question related to Cluster Creation

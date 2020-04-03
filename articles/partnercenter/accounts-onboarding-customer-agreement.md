@@ -15,6 +15,7 @@
 	resourceTags="csp"
 	productPesIds="17000"
 	cloudEnvironments="public"
+ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Microsoft Customer Agreement

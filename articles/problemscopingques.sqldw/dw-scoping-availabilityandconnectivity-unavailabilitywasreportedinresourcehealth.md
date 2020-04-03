@@ -16,7 +16,6 @@
 
 ---
 {
-
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Unavailability was reported in Resource Health",
@@ -62,5 +61,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
-
 ---

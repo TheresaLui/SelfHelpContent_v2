@@ -13,7 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="877a1428-9d6a-4c62-a4dc-e3ae861137b0"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Can't connect after creating JIT access request

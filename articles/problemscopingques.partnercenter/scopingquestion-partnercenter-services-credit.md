@@ -10,7 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_services_credit"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Services Credit
 ---

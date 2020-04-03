@@ -23,3 +23,4 @@
 
 * [SignalR Service SDK source](https://github.com/Azure/azure-signalr)
 * [An IUserIdProvider related SDK exception](https://github.com/Azure/azure-signalr/blob/dev/docs/faq.md#why-is-exception-thrown-from-my-custom-iuseridprovider-when-switching-from-aspnet-core-signalr-to-azure-signalr-service-sdk)
+* [How to debug the exception](https://github.com/Azure/azure-signalr/blob/dev/docs/tsg.md#troubleshooting-guide-1)

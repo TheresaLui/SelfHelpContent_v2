@@ -14,7 +14,7 @@
 	resourceTags=""
 	productPesIds="16761"
 	cloudEnvironments="public, fairfax"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AzureLighthouse"
 />
 
 # Cannot manage projected resources

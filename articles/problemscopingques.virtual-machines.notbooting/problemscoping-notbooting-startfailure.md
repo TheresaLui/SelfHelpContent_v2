@@ -9,14 +9,14 @@
                 cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="476160c4-2c90-4dea-bdcf-0d98d5fdff9c"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Start My VM
 ---
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "My VM is starting",
     "fileAttachmentHint": "",
     "formElements": [

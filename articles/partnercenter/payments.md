@@ -10,16 +10,17 @@
 	articleId="partnercenter_payments"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635687"
+	supportTopicIds="32635687,32692605"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="15960,17003"
 	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Payments
 
 ## **Recommended Documents**
 
-* **[Understand your incentive payouts](https://docs.microsoft.com/partner-center/incentives-payouts)**
-* **[Billing basics](https://docs.microsoft.com/partner-center/billing-basics)**
+* [Billing basics and payment terms](https://docs.microsoft.com/partner-center/billing-basics)
+* [Understand your incentive payouts](https://docs.microsoft.com/partner-center/incentives-payouts)
+* [Managing non-payment, fraud, or misuse in Partner Center](https://docs.microsoft.com/partner-center/non-payment--fraud--or-misuse)

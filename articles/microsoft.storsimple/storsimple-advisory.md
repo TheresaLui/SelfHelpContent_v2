@@ -19,7 +19,7 @@
 
 # General guidance or advisory
 
-## **Recommended Steps**
+## **Recommended Documents**
 
 1. [Options for migrating subscriptions and storage accounts associated with StorSimple Device Manager Service](https://docs.microsoft.com/azure/storsimple/storsimple-8000-migrate-classic-azure-portal)<br>
 2. [Procedure to shutdown a StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-device-controller#shut-down-a-storsimple-device)<br>
@@ -28,3 +28,7 @@
 5. [New AAD-based authentication for Azure StorSimple](https://docs.microsoft.com/azure/storsimple/storsimple-8000-aad-registration-key)<br>
 6. [Deployment best practices for Azure StorSimple 8000 series](https://gallery.technet.microsoft.com/Azure-StorSimple-8000-72b01b68)<br>
 7. [List of supported hardware for the 10 GbE network interfaces on StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-supported-hardware-for-10-gbe-network-interfaces)<br>
+8. [How to modify DNS Settings](https://docs.microsoft.com/azure/storsimple/storsimple-8000-modify-device-config#modify-dns-settings)<br>
+9. [How to change device administrator password](https://docs.microsoft.com/azure/storsimple/storsimple-8000-change-passwords)<br>
+10. [Connect remotely to StorSimple using HTTP/HTTPs](https://docs.microsoft.com/azure/storsimple/storsimple-8000-windows-powershell-administration#connect-remotely-to-storsimple-using-windows-powershell-for-storsimple)<br>
+11. [Encountered StorSimple Alerts?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-alerts#alerts-quick-reference)

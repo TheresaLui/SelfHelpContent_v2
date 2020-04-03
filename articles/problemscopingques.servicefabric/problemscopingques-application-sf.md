@@ -4,7 +4,7 @@
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32608947, 32608949, 32608961, 32608962"
+	supportTopicIds="32690999, 32690980, 32691001, 32690987, 32690983, 32690981, 32690992"
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax"
 	schemaVersion="1"

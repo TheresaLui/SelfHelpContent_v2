@@ -11,7 +11,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax"
 	articleId="66a91fe5-1c4c-4a74-8831-8e680171ccf6"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Shared Image Gallery

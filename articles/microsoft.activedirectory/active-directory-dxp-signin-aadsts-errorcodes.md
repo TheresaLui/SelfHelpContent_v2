@@ -8,16 +8,17 @@
     ms.author="vrjai"
     displayOrder="1"
     articleId="active-directory-dxp-signin-aadsts-errorcodes"
-    diagnosticScenario="diagnostics"
+    diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
-    ownershipId="AzureIdentity_IdentityDiagnostics"
+    cloudEnvironments="public, Fairfax, Mooncake"
+    ownershipId="AzureIdentity_B2B"
 />
 
 # How Do I Resolve the User Sign-in Issues? 
+
 <!--issueDescription-->
 Based on the information you provided we have identified following issue and recommend taking the action to resolve the issue.
 

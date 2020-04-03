@@ -9,13 +9,13 @@
                 cloudEnvironments="Public, Fairfax"
                 schemaVersion="1"
                 articleId="a108d9bd-050f-45a5-8ac6-b7175bb9881e"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Start or Stop My VM
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "I am unable to resize my VM",
     "fileAttachmentHint": "",
     "formElements": [

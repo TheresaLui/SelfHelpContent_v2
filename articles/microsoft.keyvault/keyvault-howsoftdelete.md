@@ -18,7 +18,8 @@
 # Using Key Vault with Soft Delete
 ## **Recommended Steps**
 
-* [Using Soft-Delete with CLI](https://docs.microsoft.com/azure/key-vault/key-vault-soft-delete-cli)
+* Please look at [Azure Key Vault soft-delete overview](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)
+
 
 ### **Troubleshooting**
 
@@ -26,4 +27,5 @@
 
 ## **Recommended Documents**
 
-* [Azure Key Vault soft-delete overview](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)
+* [Using Soft-Delete with CLI](https://docs.microsoft.com/azure/key-vault/key-vault-soft-delete-cli)
+

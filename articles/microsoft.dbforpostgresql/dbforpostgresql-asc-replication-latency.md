@@ -19,7 +19,7 @@
 # High replication latency
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your replication latency issues with your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation showed that replication lag has been greater <!--$LATENCY_THRESHOLD -->LATENCY_THRESHOLD<!--/$ LATENCY_THRESHOLD --> than between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. 
+Thank you for contacting Microsoft support about your replication latency issues with your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation showed that replication lag has been greater than <!--$LATENCY_THRESHOLD-->LATENCY_THRESHOLD<!--/$LATENCY_THRESHOLD--> between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**

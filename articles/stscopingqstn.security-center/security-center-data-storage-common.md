@@ -10,7 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="a15f057d-9001-4b77-a98a-dfaf3843dc2f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center Data and Storage Recommendation Common Solutions

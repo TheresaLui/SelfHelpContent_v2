@@ -12,7 +12,7 @@
     productPesIds="15613"
     cloudEnvironments="public, Fairfax"
     articleId="31d2e95f-a781-4b9c-98dd-1338efb47e29 "
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 Pipeline Errors and Problems

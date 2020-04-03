@@ -13,7 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="1f5b864b-c2fb-4e1f-8623-4587794b7646"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Security Alerts - Alert investigation doesn't work Common Solutions

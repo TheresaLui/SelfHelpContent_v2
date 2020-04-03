@@ -6,10 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615396"
     productPesIds="16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake"
     schemaVersion="1"
     articleId="problemscopingques-aadb2bsettingsissue"
-	ownershipId="AzureIdentity_B2B"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 # Problem with external collaboration settings
 ---

@@ -10,7 +10,7 @@
 	supportTopicIds="32637171"
 	resourceTags="linux"
 	productPesIds="16450"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="containerservice.advisory"
 	ownershipId="Compute_AzureKubernetesService"
 />
