@@ -16,6 +16,20 @@
 
 # worker role (paas)/Deployment/Allocation Failures
 
+## **Awareness**
+
+>We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
+
+## **Recommended Steps**
+
+>If you are experiencing allocation failures in **West Europe, North Europe, UK South, UK West, and France Central**, please try alternate regions (as first preference) or alternate SKUs.<br>
+
+For general troubleshooting, please follow these guides:<br>
+
+1. Understand the common scenarios of Allocation Failures for Cloud Services ([Allocation Failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#common-issues))<br>
+2. If it’s a new deployment try to deploy in another region or use another size in the given region. Check available ([sizes](https://docs.microsoft.com/azure/cloud-services/cloud-services-sizes-specs)) and ([regions](https://azure.microsoft.com/global-infrastructure/services/?products=cloud-services)) for Cloud Services role.<br>
+3. If it’s an upgrade or scaling of an existing deployment, try one of these ([solutions.](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions))<br>
+
 ## **Recommended documents**
  [Troubleshoot allocation failures for Cloud Services](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures)<br>
  [Possible Solutions for Cloud Services Allocation Failures](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions)<br>
