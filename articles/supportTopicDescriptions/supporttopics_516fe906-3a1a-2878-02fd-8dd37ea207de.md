@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "85c7300d-3230-03d2-bf27-6a9668d7f854",
+      "longDescription": "",
+      "shortDescription": "Deployment or troubleshooting passwords not being written back to on-prem Active Directory",
+      "searchTags": "issue with password Writeback ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "866af4c0-2f66-10f4-3238-5f75346bb3fa",
       "longDescription": "",
       "shortDescription": "I need assistance understanding the Identity Score in Azure AD Identity Protection",
