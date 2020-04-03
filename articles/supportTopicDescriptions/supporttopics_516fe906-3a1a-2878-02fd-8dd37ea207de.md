@@ -222,6 +222,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8899ddae-2a21-2cfe-1d1c-d6b3b70c8052",
+      "longDescription": "",
+      "shortDescription": "Assistance on configuring password policies",
+      "searchTags": "password policies",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8a7ddd2a-c89b-183c-e65f-82d72c639d69",
       "longDescription": "",
       "shortDescription": "Assistance need or issues found with Connect Health to AD FS",
