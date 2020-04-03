@@ -99,9 +99,9 @@
     {
       "id": "15da022a-a108-c566-b944-c6d46ccd6479",
       "longDescription": null,
-      "shortDescription": "Questions about billing cycles, when you will get your bill, and when your credit card will be auto-charged",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance with pricing discounts",
+      "searchTags": "pricing;discounts",
+      "category": "Pricing",
       "useInDiagnoseAndSolve": "true"
     },
     {
