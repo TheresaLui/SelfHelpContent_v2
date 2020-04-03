@@ -8,7 +8,7 @@
     displayorder=""
     selfHelpType="generic"
     supportTopicIds="32615227,32642182"
-    resourceTags=""
+    resourceTags="103"
     productPesIds="15607,15725"
     cloudEnvironments="public, Fairfax"
     articleId="bad97f5e-f660-4295-a360-df54b1784a65"
