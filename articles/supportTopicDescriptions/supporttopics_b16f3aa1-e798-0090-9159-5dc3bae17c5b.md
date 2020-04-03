@@ -22,6 +22,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "09ad8304-0e41-586d-81e5-05044d64b715",
+      "longDescription": "",
+      "shortDescription": "Questions from developers regarding the usage of MS Graph API calls to manage B2C information",
+      "searchTags": "usage of MS Graph to manage B2C info",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0bd7d616-07bb-6bec-96c9-3c2e23e3c8b5",
       "longDescription": "",
       "shortDescription": "Questions regarding migrating users from an external identity provider to an Azure AD B2C directory",
