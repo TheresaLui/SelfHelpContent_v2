@@ -14,7 +14,8 @@
 # Config and Setup
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Issues that are related to activating a Windows license in Azure",
     "fileAttachmentHint": "",
     "formElements": [

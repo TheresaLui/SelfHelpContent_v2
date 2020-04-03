@@ -2,16 +2,15 @@
   pagetitle="Support topic description for Azure Backup"
   description="Support topic description for Azure Backup"
   authors="akjoshi, elixirsys2"
-  ms.author="akankshajsh, v-kraku"
+  ms.author="akankshajsh, v-kraku, srinathv"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
   cloudenvironments="public, blackforest, fairfax, mooncake"
   articleid="azure-backup-supporttopicdescription"
+  ownershipid="StorageMediaEdge_Backup"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" 
-ownershipId="Compute_AppService"
-/>
+  feedbackemail="email" />
 # Support Topic Descriptions for 17d72dfc-8f48-94cb-05e6-5f88efdf72d7
 ---
 {
@@ -170,6 +169,14 @@ ownershipId="Compute_AppService"
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2bbb5618-ac8c-9acf-c6f2-d46d5466340b",
+      "longDescription": "",
+      "shortDescription": "Issues only related to backup configuration of SAP DB, prerequisites, network connectivity ",
+      "searchTags": "SAP ;configure;network;configuration",
+      "category": "configure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2dcffbf9-693b-c340-e472-67e5c882ad7b",
       "longDescription": null,
       "shortDescription": "Issue undeleting items in soft deleted state",
@@ -276,9 +283,9 @@ ownershipId="Compute_AppService"
     {
       "id": "52f1a27a-c8a2-9455-896c-c3ee9c6d07d9",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues specific to Reporting with Diagnostics Settings",
+      "searchTags": "report ;diagnostics",
+      "category": "Alerts and Reports",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -308,10 +315,10 @@ ownershipId="Compute_AppService"
     {
       "id": "5ba09503-e741-e9b0-1b72-1dcffa49b99a",
       "longDescription": null,
-      "shortDescription": "General questions on functionality and supported configuration",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Use this problem type only for advisory questions. For Backup or Restore failures, choose BACKUP IS FAILING or RESTORE IS FAILING problem type",
+      "searchTags": "Supported;Not supported;Price;How to configure",
+      "category": "IaaS VM Advisory",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "5d74c65b-b117-5f87-b31b-44ad19f8a533",
@@ -420,9 +427,9 @@ ownershipId="Compute_AppService"
     {
       "id": "8cc4f4b0-cefd-2647-2861-e70e2e5f8ba4",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues only specific to Backup reports using Power BI ",
+      "searchTags": "report;powerbi",
+      "category": "alert and report",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -484,10 +491,10 @@ ownershipId="Compute_AppService"
     {
       "id": "a1503a7e-657a-36ce-a5d5-110b02e4e420",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Backup Alerts and Reports",
+      "searchTags": "reports",
+      "category": "alerts and reports",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "a1c4e8c8-2302-5e0f-078d-b0a3ab42d6e0",
@@ -636,10 +643,10 @@ ownershipId="Compute_AppService"
     {
       "id": "d7e4bacd-18cf-e240-7b27-17285784450a",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issue only related to Online Backup configuring or enabling online backup ",
+      "searchTags": "online backup;MABS",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "e2aa9a66-6ea4-2de3-913a-b32dfdb5a316",
@@ -676,9 +683,9 @@ ownershipId="Compute_AppService"
     {
       "id": "e5f6de9a-f8f6-2cbe-ea0d-e7d53693407f",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues specific to Backup reports using Log Analytics",
+      "searchTags": "report;LOG analytics",
+      "category": "alerts and reports",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -764,10 +771,10 @@ ownershipId="Compute_AppService"
     {
       "id": "ff4b14ac-e42e-ad91-cd8c-54e3ede63c12",
       "longDescription": null,
-      "shortDescription": "General questions on functionality and supported configurations",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Use this problem type only for advisory questions. For Backup or Restore failures, choose BACKUP IS FAILING or RESTORE IS FAILING problem type",
+      "searchTags": "Supported ; Not supported;Price ;How to configure",
+      "category": "MARS agent Advisory",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "ff5501f4-1e65-d045-7390-96ad9bd87bab",

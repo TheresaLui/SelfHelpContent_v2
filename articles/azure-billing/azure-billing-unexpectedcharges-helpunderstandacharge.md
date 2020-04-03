@@ -29,6 +29,8 @@ The users detailed usage (CSV report) shows a list of the quantity of each resou
 
 **Note**: If you cancel your subscription/resource in the middle of your billing cycle, you might still see a charge which would be for any usage in the previous month. Example, if your billing cycle was from the 26th of every month to the 25th of the next month & you suspended the subscription on the 23rd, which is 28 days into the billing cycle for June, you might see a charge for the 28 days of use. If you see a charge in spite of cancelling a subscription please make sure, you don’t have any other support plans which is causing the charge. If you do, please go ahead and cancel the plan.<br>
 
+**Windows and SQL software** is charged separately with Azure reserved instances. [Learn more](https://docs.microsoft.com/azure/cost-management-billing/reservations/reserved-instance-windows-software-costs)
+
 **Azure Bizspark Subscription**: A BizSpark subscription had a validity of 2 years.  Once the validity of the subscription ends, it is converted to Pay-As-You-Go subscription. Learn more: [Azure Bizspark subscription](https://azure.microsoft.com/offers/ms-azr-0064p/)
 
 For **Storage** usage, the user can enable Storage Analytics. Enabling Storage Analytic logs gives user the ability to have per-transaction logging. The logs are quite detailed and users can do end-to-end tracing and debugging on their own. More details are available at the below links:

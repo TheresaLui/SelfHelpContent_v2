@@ -14,7 +14,8 @@
 # Management
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Manage encrypted disks, keys or secrets, or permissions",
     "fileAttachmentHint": "",
     "formElements": [

@@ -16,7 +16,7 @@
 	ownershipId="ASMS_Billing"
 />
 
-# WWhy doesn’t the forecast change when I make changes to my resources?
+# Why doesn’t the forecast change when I make changes to my resources?
 
 The forecast model requires a couple of days to account for changes in the account and does not make immediate projections based on change in resources <br>
 

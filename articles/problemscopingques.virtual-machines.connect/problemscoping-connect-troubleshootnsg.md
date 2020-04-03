@@ -14,8 +14,9 @@
 # Connect to a VM
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Troubleshoot my network security group (NSG)",
     "fileAttachmentHint": "",
     "formElements": [

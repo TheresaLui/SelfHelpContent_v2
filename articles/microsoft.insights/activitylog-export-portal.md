@@ -10,7 +10,7 @@
     productPesIds="16251"
     supportTopicIds="32684688"
     cloudEnvironments="public, Fairfax"
- 	ownershipId="AzureMonitoring_AzureMetrics"
+     ownershipId="AzureMonitoring_AzureMetrics"
 />
 
 # <-- configuring-export-portal -->

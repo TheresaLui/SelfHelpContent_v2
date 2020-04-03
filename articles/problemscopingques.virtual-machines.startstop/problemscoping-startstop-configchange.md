@@ -14,7 +14,8 @@
 # Start or Stop My VM
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "My VM will not start after a configuration change",
     "fileAttachmentHint": "",
     "formElements": [

@@ -6,7 +6,9 @@
   selfhelptype="SupportTopicDescription"
   productpesids="516fe906-3a1a-2878-02fd-8dd37ea207de"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de" />
+  articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de"
+  ownershipId="AzureIdentity_Licensing"
+  />
 # Support Topic Descriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de
 ---
 {
@@ -49,6 +51,22 @@
       "longDescription": "",
       "shortDescription": "Assistance needed or issues found related to ADFS certificates",
       "searchTags": "ADFS Certificates;ADFS SSL;ADFS Token signing",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1f09ca79-318d-0e16-6977-20b087d7a41b",
+      "longDescription": "",
+      "shortDescription": "Assistance needed for configuring Conditional Access rule that required Multi-Factor Authentication as a Access Control",
+      "searchTags": "Configuring Conditional Access;MFA Access Control",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "290db722-7106-7012-abb1-b4a9060f2cc7",
+      "longDescription": "",
+      "shortDescription": "Problems or requests for implementing or managing or inability to sign in or provision WHfB credentials",
+      "searchTags": "Windows Hello for Business;WHfB;WHfB configuration;WHfB provision",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -101,6 +119,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "63b67ac9-9671-a54d-7241-32deb27b60ce",
+      "longDescription": "",
+      "shortDescription": "Problems or advisory needs for creating or configuring Conditional Access rules to protect your infrastructure",
+      "searchTags": "Conditional Access;Configuring Conditional Access",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "67c9c2fc-2ed1-efc5-dc4c-73074b8c16ff",
+      "longDescription": "",
+      "shortDescription": "Initial deployment or unexpected results when apply password protection in on-prem AD",
+      "searchTags": "initial results of password protection ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68f828bd-0365-69e6-fe40-23573ba1a087",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for signing-in with Passwordless Auth. Enable or disable Passwordless or unexpected Passwordless experience outcome",
@@ -114,6 +148,14 @@
       "shortDescription": "Assistance or troubleshooting the deployment of a new ADFS Farm or the upgrade of an existing ADFS farm",
       "searchTags": "Assistance in deployment of ADFS farm",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6b153b2c-9b64-83b7-7118-ebfd840f671d",
+      "longDescription": "",
+      "shortDescription": "Problems with Pass-through authentication connectors",
+      "searchTags": "Configuring Pass-Through Authentication ",
+      "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -145,6 +187,14 @@
       "longDescription": "",
       "shortDescription": "Admin unable to reset a users password or user unable to login with new credentials",
       "searchTags": "issue with resetting a users password;issue with new password credentials",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "81259da7-71bb-3dca-e224-3eea611edd78",
+      "longDescription": "",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
+      "searchTags": "Problems with authentication connectors",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -205,6 +255,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9f156991-7738-0aa5-8eb6-2a8b808df34b",
+      "longDescription": "",
+      "shortDescription": "Assistance with configuration of a specific ADFS feature (e.g. Trusts, Claims, Protection)",
+      "searchTags": "configuring other ADFS features",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9f4a09a2-be11-953a-e3e8-6758264ed813",
+      "longDescription": "",
+      "shortDescription": "Assistance need or issues found while syncing Password Hash to AAD",
+      "searchTags": "issue syncing password hash",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9fdde265-d795-2419-31f3-63c345393b8e",
       "longDescription": "",
       "shortDescription": "Issues found when authenticating using Seamless Single Sign-on for AAD",
@@ -245,10 +311,26 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c526e8c2-4ce8-b375-7632-67265634d2da",
+      "longDescription": "",
+      "shortDescription": "Problems or advisory needs for configuring or working with Multi-factor Authentication",
+      "searchTags": "Multi-factor Authentication;MFA;Configuring MFA",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c6e12c58-0cec-db3c-f5ce-4f1fd88c2b6c",
       "longDescription": "",
       "shortDescription": "Assistance needed with ADFS extranet lockouts or ADFS lockout policies, i.e. protection against Password Spray attacks or Brute force attacks",
       "searchTags": "ADFS Extranet;ADFS Extranet Lockout;Lockout Policies;Brute Force Attacks;Password Spray Attacks",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d6f4e41d-1f1a-0b8a-018f-5f461d51c7b9",
+      "longDescription": "",
+      "shortDescription": "Assistance needed for Multi-Factor Authentication verification methods via tokens, SMS, Auth app, SMS",
+      "searchTags": "Multi-Factor Authentication;MFA;MFA verification;MFA Token;MFA SMS",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -265,6 +347,14 @@
       "longDescription": "",
       "shortDescription": "Assistance needed or issue found while investigating risk events ",
       "searchTags": "Risk Events;Identity Risk Events;Investigating Risk Events",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ddac735b-f798-4302-b470-2d62c74f4342",
+      "longDescription": "",
+      "shortDescription": "I created a Conditional Access rule but the result is different from what I expected",
+      "searchTags": "Conditional Access;Conditional Access Rule;Create CA Rule",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -306,6 +396,14 @@
       "shortDescription": "Troubleshooting WAP deployment or communication problems to or from the WAP",
       "searchTags": "issue with WAP deployment ;communication problems with WAP",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fed213ea-5608-4331-7ac8-ea3f0a8c59a9",
+      "longDescription": "",
+      "shortDescription": "Assistance needed for configuring Azure Multi-Factor Authentication options within the security blade in the Azure Active Directory ",
+      "searchTags": "Configuring MFA;AAD security blade ",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     }
   ]

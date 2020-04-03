@@ -8,26 +8,25 @@
     ms.author="vrjai"
     displayOrder="1"
     articleId="active-directory-dxp-signin-aadsts-errorcodes"
-    diagnosticScenario="Sign_In_Issues"
+    diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake"
     ownershipId="AzureIdentity_B2B"
 />
 
 # Configuration Issue Preventing User Sign-In
+
 <!--issueDescription-->
 
+Error code: <!--$errorCode-->[errorCode]<!--/$errorCode-->
 
-The sign-in is failing because <!--$recommendedAction-->[recommendedAction]<!--/$recommendedAction-->
+Message: <!--$message-->[message]<!--/$message-->
 
+Action: <!--$remediation-->[remediation]<!--/$remediation-->
+
+<!--$link-->[link]<!--/$link-->
 
 <!--/issueDescription-->
-
-
-## **Recommended Steps**
-
- 
-[<!--$linkText-->linkText<!--/$linkText-->](<!--$linkVal-->linkVal<!--/$linkVal-->)
