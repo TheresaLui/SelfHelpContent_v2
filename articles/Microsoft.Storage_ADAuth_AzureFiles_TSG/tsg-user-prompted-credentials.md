@@ -17,11 +17,11 @@
 
 # User gets prompted for credentials while running net use command
 
-## Symptoms
+**Symptoms**
 
 The user attempts to mount and gets prompted for credentials.  The user may or may not proceed to type in their credentials and get an error like "the username or password is incorrect"
 
-## How to Detect
+**How to Detect**
 
 Due to issues within a customer's domain environment, clients may have trouble getting Kerberos tickets to the storage account. Please have the customer run the following command for their storage account. 
 

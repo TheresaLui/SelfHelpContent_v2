@@ -12,7 +12,7 @@
     resourceTags=""
     productPesIds="1003478"
     cloudEnvironments="public"
-    articleId="7af24444-f9b2-4980-9988-cffc93fa3ccf"
+    articleId="8409904d-948f-471c-8f46-111280edad4a"
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />
 
