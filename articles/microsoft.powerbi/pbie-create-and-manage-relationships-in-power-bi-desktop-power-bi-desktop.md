@@ -11,7 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="c5f68589-f5d7-b3af-ee1d-9d14dba80cbc"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Create and manage relationships in Power BI Desktop

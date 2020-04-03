@@ -13,7 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="e13e328b-8614-49fa-8431-943096f04582"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # JIT API/Powershell issue

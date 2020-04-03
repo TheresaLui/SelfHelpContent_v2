@@ -11,7 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="31a0309f-b027-5aff-1463-7b1066695393"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Resolve issues importing Access and .XLS files in Power BI Desktop

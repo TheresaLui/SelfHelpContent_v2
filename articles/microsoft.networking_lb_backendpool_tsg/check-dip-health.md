@@ -27,11 +27,12 @@
 ## **Recommended Steps**
 
 * Using "DIP Availability Dashboard" in Azure Support Center (*Note: This Dashboard will work for ALL LB SKUs and facing directions. You only need make sure you're looking at the right LB which has the backend pool.*)
-	* Navigate to the Load Balancer in Resource Explorer --> Diagnostics Tab --> SLB DIP Availability Dashboard for <LB's VIP>.
+
+Step: Navigate to the Load Balancer in Resource Explorer --> Diagnostics Tab --> SLB DIP Availability Dashboard for <LB's VIP>.
 * Using Jarvis if ASC isn't working follow the steps below. (You need know LB's VIP and Region ahead. Don't know how to find VIP? Read [here](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/139169/SLB-DIP-and-VIP-Health-and-Availability?anchor=**how-to-find-lb-vip**).)
-  * In the upper center-left under 'Account' enter 'slbhp' followed by the region the LB is in. Example: 'slbhpeastus'
-  * On the right side of 'Account', under 'VipAddress' enter the VIP of the Load Balancer. Note: Sometimes as you type the VIP you will notice that a list populates in the dropdown. Sometimes your VIP will be in the list and sometimes it won't. After entering your VIP, hit Enter and the data should populate.
-  * Update 'Time' on the left side of 'Acccount'. You can enter the specific dates and times based on when the incident ocurred, by selecting 'Custom' in Time Range. 
+1. In the upper center-left under 'Account' enter 'slbhp' followed by the region the LB is in. Example: 'slbhpeastus'
+2. On the right side of 'Account', under 'VipAddress' enter the VIP of the Load Balancer. Note: Sometimes as you type the VIP you will notice that a list populates in the dropdown. Sometimes your VIP will be in the list and sometimes it won't. After entering your VIP, hit Enter and the data should populate.
+3. Update 'Time' on the left side of 'Acccount'. You can enter the specific dates and times based on when the incident ocurred, by selecting 'Custom' in Time Range. 
 
 ## **Recommended Documents**
 

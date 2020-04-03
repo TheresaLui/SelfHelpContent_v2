@@ -11,7 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="d1ca6f57-2ffc-4a12-717d-9bd3b08bd869"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Find Power BI users that have signed in

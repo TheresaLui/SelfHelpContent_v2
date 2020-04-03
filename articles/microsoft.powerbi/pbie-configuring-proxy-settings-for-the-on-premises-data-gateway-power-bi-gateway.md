@@ -11,7 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="b6b69935-dca5-88ad-774c-777e2eaeca2d"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Configuring proxy settings for the On-premises data gateway

@@ -11,7 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="89de8eeb-4337-1ca1-7029-bd99dd1d9f63"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Get started with the Power BI mobile app on Android devices

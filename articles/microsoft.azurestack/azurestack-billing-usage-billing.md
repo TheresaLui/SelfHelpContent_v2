@@ -12,7 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="69477870-4477-4fb1-92da-1d6f6d7f58c0"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Usage reporting and billing issues and questions

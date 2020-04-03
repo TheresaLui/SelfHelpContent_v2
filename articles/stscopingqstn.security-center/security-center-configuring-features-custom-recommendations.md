@@ -10,7 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="0944edd5-bbad-4e7f-b66f-6e4a87f612f7"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center – Configuring Features – Custom Recommendations

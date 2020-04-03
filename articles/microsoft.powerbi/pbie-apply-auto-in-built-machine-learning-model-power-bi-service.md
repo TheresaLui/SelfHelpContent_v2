@@ -11,7 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="6b4afb80-a71f-438e-82dc-285b9e05a639"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Tutorial: Build a Machine Learning model in Power BI (Preview)

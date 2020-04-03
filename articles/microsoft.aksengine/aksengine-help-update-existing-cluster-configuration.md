@@ -11,7 +11,7 @@
     productPesIds="16963"
     cloudEnvironments="public, Fairfax"
     articleId="b08c9848-721b-4442-b8a3-c44c5a645ac9"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # I need help updating an existing cluster configuration

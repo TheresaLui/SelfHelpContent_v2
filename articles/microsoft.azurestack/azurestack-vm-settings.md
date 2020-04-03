@@ -12,7 +12,7 @@
     productPesIds="16226"
     cloudEnvironments="public, Fairfax"
     articleId="azurestack-vm-settings"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Modifying Azure Stack Virtual Machine Settings

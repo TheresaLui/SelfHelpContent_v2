@@ -4,13 +4,14 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32684682,32684680,32684681"
-	productPesIds="15960"
+	supportTopicIds="32684682,32684680,32684681,32692604"
+	productPesIds="15960,17003"
 	cloudEnvironments="public"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_azureplan"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
+
 />
 # Partner Center Azure plan request
 ---
@@ -25,12 +26,29 @@
             "order": 1,
             "controlType": "textbox",
             "displayLabel": "Please provide the Azure plan subscription id you are asking about.",
-            "watermarkText": "Provide the Azire plan subscription as a GUID",
+            "watermarkText": "Provide the Azure plan subscription as a GUID",
             "required": false
         },
+	{
+            "id": "pc_iseligible",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Have you reviewed the eligibility criteria in the recommended steps and verified that you should be eligible for partner earned credit for your Azure subscriptions?",
+            "dropdownOptions": [
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                }
+                ],
+            "required": false
+             },
         {
             "id": "problem_description",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -39,7 +57,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",
