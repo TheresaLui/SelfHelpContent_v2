@@ -21,8 +21,8 @@
 <!--issueDescription-->
 Please follow below steps to resolve customer issues when they get this error while trying to Import Hybrid PowerShell module. 
 
-1. Ensure that the latest version of the PowerShellGet Module is installed: Install-Module -Name PowerShellGet -Force
-2. Install Az.Storage module version 1.11.1-preview manually: Install-Module -Name Az.Storage -RequiredVersion 1.11.1-preview -AllowPrerelease
-3. Restart the PowerShell Session
-4. Attempt to import the AzFilesHybrid module again
+1.Ensure that the latest version of the PowerShellGet Module is installed: Install-Module -Name PowerShellGet -Force
+2.Install Az.Storage module version 1.11.1-preview manually: Install-Module -Name Az.Storage -RequiredVersion 1.11.1-preview -AllowPrerelease
+3.Restart the PowerShell Session
+4.Attempt to import the AzFilesHybrid module again
 <!--/issueDescription-->

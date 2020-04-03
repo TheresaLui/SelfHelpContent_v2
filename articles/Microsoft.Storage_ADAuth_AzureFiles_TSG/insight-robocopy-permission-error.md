@@ -6,7 +6,7 @@
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""
-    selfHelpType="TSG-Content"
+    selfHelpType="TSG_Content"
     supportTopicIds="32689882"
     resourceTags=""
     productPesIds="1003478"
@@ -46,11 +46,11 @@ The recommended solution for those affected by this missing functionality is to 
 
 If the customer would like to take trace and better understand if they are failing check #3 (or if for some reason mounting as storage account and key and copying the files fails as well), they can take the following trace.
  
-1. Download Process Monitor from https://docs.microsoft.com/en-us/sysinternals/downloads/procmon
+1. Download Process Monitor from https://docs.microsoft.com/sysinternals/downloads/procmon
 2. Open process monitor and add a filter for robocopy process.     
 3. Run robocopy targeted to Azure file share  with the additional parameter "/log:<LogFile>"
         
-    a. More information about the robocopy logfile is here - https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy
+    a. More information about the robocopy logfile is here - https://docs.microsoft.com/windows-server/administration/windows-commands/robocopy
 4. After robocopy gives error (or somehow works) save the log to a file.
         
     a. Specify "Events displayed using current filter"

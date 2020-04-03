@@ -21,9 +21,13 @@
 <!--issueDescription-->
 Please follow below steps to resolve customer issues when they get this error while trying to Import Hybrid PowerShell module. 
 
-1. Uninstall Az module
-2. Ensure that PowerShell 5.1 or above is installed
-3. If PowerShell version is not 5.1 or above, upgrade to latest version.
-4. Install latest Az module version and restart the PowerShell session.
-5. Attempt to import AzFilesHybrid Module again
+1.Uninstall Az module
+
+2.Ensure that PowerShell 5.1 or above is installed
+
+3.If PowerShell version is not 5.1 or above, upgrade to latest version.
+
+4.Install latest Az module version and restart the PowerShell session.
+
+5.Attempt to import AzFilesHybrid Module again
 <!--/issueDescription-->
