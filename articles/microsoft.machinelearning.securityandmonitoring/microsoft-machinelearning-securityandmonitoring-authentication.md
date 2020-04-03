@@ -8,7 +8,7 @@
 	ms.author="johwu"
 	supportTopicIds="32690837"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake"
 	articleId="microsoft.machinelearning.securityandmonitoring.authentication"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"
