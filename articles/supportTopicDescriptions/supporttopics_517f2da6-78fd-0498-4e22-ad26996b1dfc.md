@@ -275,9 +275,9 @@
     {
       "id": "6d607aed-0da2-0322-dfd1-987002d9f410",
       "longDescription": null,
-      "shortDescription": "Questions on any other bill or usage related issues not listed in the above scenarios",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance understanding how a service is charged",
+      "searchTags": "service charges;assistance;bill;charge",
+      "category": "Assistance with bill or usage",
       "useInDiagnoseAndSolve": "true"
     },
     {
