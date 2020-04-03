@@ -1,15 +1,15 @@
 <properties
-    pageTitle="Active Directory application single sign on issue"
-    description="appsinglesignondatacollectiondoc"
-    authors="hsku"
-	ms.author="hsku"
+    pageTitle="Conditional Access Resultant Set of Policy Issue"
+    description="Conditional Access Resultant Set of Policy Issue"
+    authors="vrjai"
+	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32570259"
-    productPesIds="16575"
-    cloudEnvironments="public, Fairfax, Mooncake"
+    supportTopicIds="32596872"
+    productPesIds="16579"
+    cloudEnvironments="public"
     schemaVersion="1"
-    articleId="appsinglesignondatacollectiondoc"
-    	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
+    articleId="Conditional_Access_Resultant_Set_of_Policy_Issue"
+    ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Active Directory application single sign on issue
@@ -21,7 +21,7 @@
     "title": "Active Directory application single sign on issue",
     "fileAttachmentHint": null,
     "diagnosticCard": {
-        "title": "Problem with Azure Active Directory application single sign-on",
+        "title": "Problem with Azure Active Directory Multi-Factor Authentication",
         "description": "Self-service troubleshooter to assist in resolving the issue",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
@@ -81,7 +81,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Please enter the error message you received:",
             "content": null,
-            "watermarkText": "AADSTSXXXXX: error message, Error message from the application, etc... ",
+            "watermarkText": "Please paste the error message from the application, etc... ",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -89,12 +89,63 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
+            "numberOfLines": 3
+        },
+        {
+            "id": "error_description",
+            "visibility": null,
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please enter the error message you received:",
+            "content": null,
+            "watermarkText": "Please paste the error message from the application, etc... ",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
             "numberOfLines": 3,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "problem_start_time",
+            "id": "correlationId",
+            "visibility": null,
             "order": 6,
+            "controlType": "textbox",
+            "displayLabel": "Correlation ID:",
+            "content": null,
+            "watermarkText": "Enter correlationId from signin logs/errormessage etc..",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "requestId",
+            "visibility": null,
+            "order": 7,
+            "controlType": "textbox",
+            "displayLabel": "Request ID:",
+            "content": null,
+            "watermarkText": "Enter requestId from signin logs/errormessage etc..",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "problem_start_time",
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
