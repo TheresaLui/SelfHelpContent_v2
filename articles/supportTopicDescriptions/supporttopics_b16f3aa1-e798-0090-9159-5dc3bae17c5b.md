@@ -142,6 +142,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d0a3c9bf-1771-7880-633c-fa098d79fdb6",
+      "longDescription": "",
+      "shortDescription": "Questions from developers regarding how to use B2C with a Microsoft implemented library.",
+      "searchTags": "questions of how to use B2C MS libraries",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d1e7c92e-e90a-d995-a95a-2ef6f708a6a3",
       "longDescription": "",
       "shortDescription": "Questions from developers on managing B2C directories using microsoft supported libraries, APIs, and middlerware",
