@@ -1,29 +1,29 @@
 <properties
-    pageTitle="Consider increasing the size of your VNet Gateway SKU to address high P2S connection count"
-    description="Consider increasing the size of your VNet Gateway SKU to address high P2S connection count"
+    pageTitle="Consider increasing the size of your VNet Gateway SKU to address high CPU"
+    description="Consider increasing the size of your VNet Gateway SKU to address high CPU"
     authors="evanba"
     ms.author="evanba"
-    articleId="f78c8e26-9c40-4a74-a091-f76aecb49099_Public"
+    articleId="2e41fe84-7173-4fe9-b257-61aa4679c3fe_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
     ownershipId="ASEP_ContentService_Placeholder"
 />
-# Consider increasing the size of your VNet Gateway SKU to address high P2S use
+# Consider increasing the size of your VNet Gateway SKU to address high CPU
 ---
 {
   "recommendationOfferingId": "658a4a19-9c40-472b-a918-3f550848421a",
   "recommendationOfferingName": "VPN Gateway",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "f78c8e26-9c40-4a74-a091-f76aecb49099",
+  "recommendationTypeId": "2e41fe84-7173-4fe9-b257-61aa4679c3fe",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://hybridnetworking.kusto.windows.net').database('aznwmds').p2shighconnectioncount",
+    "streamNamespace": "cluster('https://hybridnetworking.kusto.windows.net').database('aznwmds').p2shighcpu",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Network/virtualNetworkGateways",
-  "recommendationFriendlyName": "HighP2SConnectionsVNetGateway",
+  "recommendationFriendlyName": "HighCPUVNetGateway",
   "recommendationMetadataState": "Active",
   "owner": {
     "email": "evanba@microsoft.com",
@@ -37,8 +37,8 @@
   "ingestionClientIdentities": [],
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/HighP2SConnectionsVNetGateway",
-  "description": Consider increasing the size of your VNet Gateway SKU to address high P2S use",
-  "longDescription": "Each gateway SKU can only support a specified count of concurrent P2S connections. Your connection count is close to your gateway limit, so additional connection attempts may fail.",
+  "description": Consider increasing the size of your VNet Gateway SKU to address high CPU use",
+  "longDescription": "Under high traffic load, the VPN gateway may drop packets due to high CPU. You should consider upgrading your VPN Gateway SKU.",
   "potentialBenefits": "",
   "actions": [
     {
@@ -66,7 +66,7 @@
       "documentLink": ""
     }
   },
-  "displayLabel": "P2S Gateway with High Connection Count",
+  "displayLabel": "VPN Gateway with High CPU",
   "additionalColumns": [],
   "tip": "",
   "costSavingInfo": "",
