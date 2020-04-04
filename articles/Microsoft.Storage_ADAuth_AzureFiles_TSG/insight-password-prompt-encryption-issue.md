@@ -1,7 +1,7 @@
 <properties
-    pageTitle="Customer does not have RC4-HMAC Encryption type enabled on their computer."
-    description="Customer does not have RC4-HMAC Encryption type enabled on their computer."
-    infoBubbleText="Customer does not have RC4-HMAC Encryption type enabled on their computer."
+    pageTitle="User gets prompted for credentials while running net use command - Encryption type error"
+    description="User gets prompted for credentials while running net use command - Encryption type error"
+    infoBubbleText="User gets prompted for credentials while running net use command - Encryption type error"
     service="microsoft.storage"
     resource="storageAccounts"
     authors="yagohel23"
@@ -12,15 +12,15 @@
     resourceTags=""
     productPesIds="1003478"
     cloudEnvironments="public"
-    articleId="2be2c421-288e-4c22-81d2-a8589775310d"
+    articleId="8409904d-948f-471c-8f46-111280edad4a"
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />
 
-
-# Customer does not have RC4-HMAC Encryption type enabled on their computer.
+# User gets prompted for credentials while running net use command - Encryption type error
 <!--issueDescription-->
-Net use command fails with 1396 - The target account name is incorrect error. 
+User gets the following error while trying to get Kerberos ticket using klist get command - The encryption type requested is not supported by the KDC
 <!--/issueDescription-->
+
 ## **Recommended Steps**
 
 1. The customer (or their domain administrator) needs to examine their domain group policy for:
