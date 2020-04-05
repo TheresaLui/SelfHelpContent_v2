@@ -9,6 +9,7 @@
     articleId="problemscopingques-video-indexer-upload"
     cloudEnvironments="public,blackForest,fairfax,mooncake"
     schemaVersion="1"
+    ownershipId="StorageMediaEdge_Media_VI"
 />
 # Uploading a video to Video Indexer
 ---

@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds="16535"
     cloudEnvironments="public"
+    ownershipId="StorageMediaEdge_Media_VI"
 />
 
 # Need to scale Media Reserved Units

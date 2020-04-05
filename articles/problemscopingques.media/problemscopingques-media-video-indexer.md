@@ -9,6 +9,7 @@
     articleId="problemscopingques-video-indexer"
     cloudEnvironments="public,blackForest,fairfax,mooncake"
     schemaVersion="1"
+    ownershipId="StorageMediaEdge_Media_VI"
 />
 # Video Indexer common questions for support
 ---
