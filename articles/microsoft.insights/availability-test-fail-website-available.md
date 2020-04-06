@@ -31,21 +31,21 @@ Check your error message.
 
 ### A connection attempt failed because the connected party did not properly respond after a period of time
 
-A firewall could be blocking App Insights’ access to your website. Whitelist the [IP addresses used by App Insights](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests)
+A firewall could be blocking App Insights’ access to your website. Whitelist the [IP addresses used by App Insights](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests).
 
 ### The server committed a protocol violation. Section=ResponseHeader Detail=CR must be followed by LF
 
 This occurs when malformed headers are detected. Specifically, some headers might not be using CRLF to indicate the end of line, which violates the HTTP specification. Application Insights enforces this HTTP specification and fails responses with malformed headers.
 
-* Contact your web site host provider / CDN provider to fix the faulty servers.
+* Contact your web site host provider or CDN provider to fix the faulty servers
 * In the case that the failed requests are resources (e.g. style files, images, scripts), you may consider disabling the parsing of dependent requests. Keep in mind, if you do this you will lose the ability to monitor the availability of those files.
 
 ### The Web test was stopped because it encountered an excessive number of exceptions while attempting to submit requests
 
 The main site may be available, but some dependent requests – images, stylesheets, and scripts – may not be loading properly.
 
-* Check that all of the page resources are loading correctly using your browser’s devtools.
-* To desensitize the test to such resource failures, simply uncheck the Parse Dependent Requests from the test configuration.
+* Check that all of the page resources are loading correctly using your browser’s devtools
+* To desensitize the test to such resource failures, simply uncheck the Parse Dependent Requests from the test configuration
 
 ### Could not create SSL/TLS Secure Channel
 
@@ -55,12 +55,12 @@ Check your SSL version. Only TLS 1.0, 1.1, and 1.2 are supported. **SSLv3 is not
 
 The test timed out. We abort tests after 2 minutes.  
 
-* If it is a multi-step test, break the single test into multiple tests that can complete in shorter durations.
-* If it is a ping test, investigate your server-side logs to discover what server-side failures caused the site to time out.
+* If it is a multi-step test, break the single test into multiple tests that can complete in shorter durations
+* If it is a ping test, investigate your server-side logs to discover what server-side failures caused the site to time out
 
 ### I test from less than 5 locations
 
-Web communication fails for multiple reasons from time to time and having only one location enabled will considerably increase the likelihood of false positives. We recommend testing from at least 5 different locations
+Web communication fails for multiple reasons from time to time and having only one location enabled will considerably increase the likelihood of false positives. We recommend testing from at least 5 different locations.
 
 ![failed test 3](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/availability/websiteavailablepic3.jpg)
 
@@ -80,9 +80,9 @@ Web communication fails for multiple reasons from time to time and failing from 
 
 ## **Recommended Documents**
 
-* [Monitor Web App Availability](https://docs.microsoft.com/azure/azure-monitor/app/monitor-web-app-availability)\
-* [Multi-step Web Tests](https://docs.microsoft.com/azure/azure-monitor/app/availability-multistep)\
-* [Dealing with sign-in](https://docs.microsoft.com/azure/azure-monitor/app/availability-multistep#dealing-with-sign-in)\
-* [Troubleshoot Availability Testing](https://docs.microsoft.com/azure/azure-monitor/app/troubleshoot-availability)\
-* [Create and run custom Availability Tests using Azure Functions](https://docs.microsoft.com/azure/azure-monitor/app/availability-azure-functions)\
-* [Multi-step Web Test Pricing Information](https://azure.microsoft.com/pricing/details/monitor/)\
+* [Monitor Web App Availability](https://docs.microsoft.com/azure/azure-monitor/app/monitor-web-app-availability)
+* [Multi-step Web Tests](https://docs.microsoft.com/azure/azure-monitor/app/availability-multistep)
+* [Dealing with sign-in](https://docs.microsoft.com/azure/azure-monitor/app/availability-multistep#dealing-with-sign-in)
+* [Troubleshoot Availability Testing](https://docs.microsoft.com/azure/azure-monitor/app/troubleshoot-availability)
+* [Create and run custom Availability Tests using Azure Functions](https://docs.microsoft.com/azure/azure-monitor/app/availability-azure-functions)
+* [Multi-step Web Test Pricing Information](https://azure.microsoft.com/pricing/details/monitor/)
