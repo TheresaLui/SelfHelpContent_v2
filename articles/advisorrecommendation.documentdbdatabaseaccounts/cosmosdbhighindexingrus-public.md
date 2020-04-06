@@ -6,7 +6,7 @@
     articleId="0fd5e55f-2338-4bf0-ad08-c37870c5d437_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
-	ownershipId="AzureData_AzureCosmosDB"
+    ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure your Azure Cosmos DB indexing policy with custom included or excluded paths
 ---
