@@ -5,7 +5,7 @@
   ms.author="rnagpal"
   selfhelptype="SupportTopicDescription"
   productpesids="d9516a10-74b5-45f4-943d-a5281d7cf1bb"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="cosmos-db-supporttopic-description"
   icmteam="icmteam"
   icmservice="icmservice"

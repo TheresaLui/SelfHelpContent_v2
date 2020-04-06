@@ -5,7 +5,7 @@
   ms.author="nonuserone, noneusertwo, bewon"
   selfhelptype="SupportTopicDescription"
   productpesids="aaaaaaaa-aaaa-aaaa-aaaa-000000000000"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="dummy-support-topic-descriptions"
   icmteam="icmteam"
   icmservice="icmservice"

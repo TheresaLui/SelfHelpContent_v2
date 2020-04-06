@@ -19,7 +19,7 @@
 # Can't connect to MariaDB server because of VNET
 
 <!--issueDescription-->
-During our investigation we found that your server <!--$ServerName-->ServerName<!--/$ServerName--> is facing connectivity issues between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC) because of VNET configuration errors. <!--$ServerName-->ServerName<!--/$ServerName--> is a Basic tier server and does not support virtual network service endpoints.
+During our investigation we found that your server <!--$ServerName-->ServerName<!--/$ServerName--> has connectivity issues between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC) because of VNET configuration errors. <!--$ServerName-->ServerName<!--/$ServerName--> is a Basic tier server and does not support virtual network service endpoints.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

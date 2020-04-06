@@ -19,7 +19,7 @@
 # Failed connections to MySQL server due to firewall restriction
 
 <!--issueDescription-->
-During our investigation we found that your server <!--$ServerName-->ServerName<!--/$ServerName--> is facing connectivity issues between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC) because the originating IP addresses are not allowed to access this server.
+During our investigation we found that your server <!--$ServerName-->ServerName<!--/$ServerName--> has connectivity issues between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC) because the originating IP addresses are not allowed to access this server.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

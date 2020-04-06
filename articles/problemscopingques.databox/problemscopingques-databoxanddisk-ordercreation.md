@@ -41,8 +41,8 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Unable to proceed further due to Portal validation",
-                    "text": "Unable to proceed further due to Portal validation"
+                    "value": "Unable to proceed further, I see 'validation failed' during create flow",
+                    "text": "Unable to proceed further, I see 'validation falied' during create flow"
                 },
                 {
                     "value": "Deployment failed at the end of create flow",

@@ -11,7 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="e680f9ad-8c74-2928-c214-4981874c54ae"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Connect to data created by Power BI dataflows in Power BI Desktop (Beta)

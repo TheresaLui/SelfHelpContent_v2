@@ -15,13 +15,12 @@
 	resourceTags="csp"
 	productPesIds="15960,17003"
 	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Payments
 
 ## **Recommended Documents**
 
-* [Billing basics](https://docs.microsoft.com/partner-center/billing-basics)
-* [Billing and payment terms](https://docs.microsoft.com/partner-center/billing-basics#payment-terms)
+* [Billing basics and payment terms](https://docs.microsoft.com/partner-center/billing-basics)
 * [Understand your incentive payouts](https://docs.microsoft.com/partner-center/incentives-payouts)
 * [Managing non-payment, fraud, or misuse in Partner Center](https://docs.microsoft.com/partner-center/non-payment--fraud--or-misuse)

@@ -12,7 +12,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="a15f057d-8uj6-4b00-a98a-dfaf0843dc2f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Missing Scan Data Common Solutions

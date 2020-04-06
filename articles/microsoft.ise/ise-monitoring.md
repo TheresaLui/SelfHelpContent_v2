@@ -12,7 +12,7 @@
     productPesIds="17030"
     cloudEnvironments="public"
     articleId="10001588-fbec-4b45-9d6b-fe0a7b7665db"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_LogicApps"
 />
 
 # Monitoring

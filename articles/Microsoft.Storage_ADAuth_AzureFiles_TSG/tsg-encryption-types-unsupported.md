@@ -59,26 +59,3 @@ Azure Files Active Directory authentication only supports the **RC4-HMAC** encry
             Session Key Type: AES-256-CTS-HMAC-SHA1-96
             Cache Flags: 0x200 -> DISABLE-TGT-DELEGATION
         Kdc Called: BR1-NTDEV-DC-60.ntdev.corp.microsoft.com
-
-## Resolution/Workaround
-
-The customer (or their domain administrator) needs to examine their domain group policy for:
-
-https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/network-security-configure-encryption-types-allowed-for-kerberos
-
-And make sure RC4_HMAC_MD5 is included as a value.  They may be wary about reverting to a weaker encryption type, below section has customer communication regarding that.
-
-![EncryptionSetting.gif](Screenshots\EncryptionSetting.gif)
-
-Customer can validate the mitigation by retrying mount and running **Get-AzStorageKerberosTicketStatus** after the policy change.
-
-**_Sample communication with customer on concern about encryption type strength_**
-
-
-Hi customer,
-
-We understand that there are concerns in the industry on whether RC4 cipher is still cryptographically secure. We recommend customers to make their own assessment on whether to leverage RC4 cipher based on their security and compliance requirements. We plan to extend the Kerberos support on Azure Files with newer encryption types of AES128 and ASE256 in H1 CY2020. 
-
-Thanks,
-engineer
-

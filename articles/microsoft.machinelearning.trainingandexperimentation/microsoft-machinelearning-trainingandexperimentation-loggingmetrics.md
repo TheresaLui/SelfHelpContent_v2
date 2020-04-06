@@ -8,7 +8,7 @@
 	ms.author="minxia"
 	supportTopicIds="32690889"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake"
 	articleId="microsoft.machinelearning.trainingandexperimentation.loggingmetrics"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"
