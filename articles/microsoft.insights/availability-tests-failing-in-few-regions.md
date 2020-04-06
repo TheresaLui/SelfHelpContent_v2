@@ -35,7 +35,7 @@ If you're using a load balancer then verify that all the machines behind the loa
 
 ### I am using a CDN or Geo traffic manager
 
-If you have parse-dependent requests enabled then the issue could be caused by a dependent resource provider (e.g. CDN’s)
+If you have parse-dependent requests enabled then the issue could be caused by a dependent resource provider (e.g. CDN’s).
 
 ### Check server-side logs for the failure
 
@@ -43,5 +43,5 @@ If you have parse-dependent requests enabled then the issue could be caused by a
 
 ## **Recommended Documents**
 
-* [Availability Tests](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability)\
-* [IP Address Used by Availability Tests](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests)\
+* [Availability Tests](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability)
+* [IP Address Used by Availability Tests](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests)
