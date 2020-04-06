@@ -25,8 +25,8 @@ Covers sign-in problems and account lockout related completing MFA, legacy authe
 
 A few steps to make sure you are not getting blocked from sign-in when using MFA:
 
-1. Enable modern authentication - If you are getting blocked when trying to access Exchange Online, please make sure you have enabled [modern authentication in Exchange Online](https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online).
+1. Enable modern authentication - If you are getting blocked when trying to access Exchange Online, please make sure you have enabled [modern authentication in Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online).
 
-2. Use Office and mail clients that supports modern authentication  - please make sure your users are not using older clients that do not support modern authentication. [Office 365 Client App Support - Modern Authentication](https://docs.microsoft.com/en-us/office365/enterprise/office-365-client-support-modern-authentication).
+2. Use Office and mail clients that supports modern authentication  - please make sure your users are not using older clients that do not support modern authentication. [Office 365 Client App Support - Modern Authentication](https://docs.microsoft.com/office365/enterprise/office-365-client-support-modern-authentication).
 
-3. Disable legacy authentication - Are you using Conditional Access to enforce MFA? Once you have taken the above steps and you are using modern authentication successfully, it is highly recommended to also block legacy authentication: [Blocking legacy authentication](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-block-legacy-authentication).
+3. Disable legacy authentication - Are you using Conditional Access to enforce MFA? Once you have taken the above steps and you are using modern authentication successfully, it is highly recommended to also block legacy authentication: [Blocking legacy authentication](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-block-legacy-authentication).
