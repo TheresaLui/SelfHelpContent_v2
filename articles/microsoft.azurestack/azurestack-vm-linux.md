@@ -10,8 +10,9 @@
     supportTopicIds="32663891,32663895"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-vm-linux"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Resolve Issues with Linux-based virtual machines for Azure Stack

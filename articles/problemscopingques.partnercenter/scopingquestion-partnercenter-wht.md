@@ -10,6 +10,7 @@
        schemaVersion="1"
        articleId="problemscopingques-partnercenterwht"
        clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # PC Sample
 ---

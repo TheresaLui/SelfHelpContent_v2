@@ -8,9 +8,10 @@
 	ms.author="johwu"
 	supportTopicIds="32690836"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake"
 	articleId="microsoft.machinelearning.workspace.manage"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Authenticate, provision or manage my workspace

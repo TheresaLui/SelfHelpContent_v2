@@ -10,6 +10,7 @@
 	productPesIds="15947"
 	cloudEnvironments="public"
     articleId="c07177b7-1437-486d-923a-d0c2b1b51cb2"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Just In Time VM Access Common Solutions

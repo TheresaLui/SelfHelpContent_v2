@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="18561503-e781-37fb-74a6-6415c9cd74a2"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Power BI licensing in your organization

@@ -10,8 +10,9 @@
     supportTopicIds="32629272"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-patchandupdate-updatenotrecognized"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Patch and Update Not Recognized

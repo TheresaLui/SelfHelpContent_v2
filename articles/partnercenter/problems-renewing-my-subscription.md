@@ -15,6 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Problems renewing my subscription
 

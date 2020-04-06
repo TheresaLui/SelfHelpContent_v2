@@ -12,6 +12,7 @@
   productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="e8ddb309-b560-42cc-804f-a32f2b431294"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Files and Folder Backup Completes with Warnings

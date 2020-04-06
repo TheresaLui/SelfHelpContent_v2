@@ -12,6 +12,7 @@
     productPesIds="16125"
     cloudEnvironments="public,BlackForest,Fairfax"
     articleId="b3e00452-bf7e-4132-8973-c696128a2aa7"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Deprecation of ASM APIs

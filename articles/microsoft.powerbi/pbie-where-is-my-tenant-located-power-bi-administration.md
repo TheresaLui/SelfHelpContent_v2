@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="331752cb-a166-4475-2970-c41318a6987e"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Where is my Power BI tenant located?

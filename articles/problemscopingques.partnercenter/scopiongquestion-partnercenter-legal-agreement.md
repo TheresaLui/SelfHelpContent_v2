@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_legal_agreement"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Legal Agreement Questions
 ---

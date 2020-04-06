@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16985"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	ownershipId="AzureIdentity_Managed Identities"
 />
 
 # Problems configuring my resource to have a managed identity

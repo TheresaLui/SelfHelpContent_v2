@@ -12,6 +12,7 @@
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	articleId="6c2979b7-4bb2-4c90-a61c-0c81d6a7a117"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # How to Change Key Vault Type for Azure Key Vault

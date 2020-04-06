@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_subscriptions"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Subscriptions
 ---

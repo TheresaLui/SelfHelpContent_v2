@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="82c9a0e9-7753-57a4-b3b0-414881bf78a5"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Authentication

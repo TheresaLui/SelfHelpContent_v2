@@ -10,7 +10,8 @@
     supportTopicIds="32636497"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Service Unhealthy, Spark Update 2.7

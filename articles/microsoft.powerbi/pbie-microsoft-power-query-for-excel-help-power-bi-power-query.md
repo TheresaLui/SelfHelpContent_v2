@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="f9579b71-f638-9ab4-1fa2-93c58ac8f782"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Microsoft Power Query for Excel Help

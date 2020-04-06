@@ -12,6 +12,7 @@
 	productPesIds="16582"
 	cloudEnvironments="public"
 	articleId="53fb2b60-cfd0-4e5a-b9fb-f8bf83acc01d"
+	ownershipId="test_rediscache1"
 />
 
 # Windows Virtual Desktop - Issues configuring your domain

@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_become_indirect"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Become an Indirect Reseller
 ---

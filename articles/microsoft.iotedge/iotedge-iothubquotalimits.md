@@ -11,6 +11,7 @@
 	productPesIds="16509"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="06c4e95e-448b-4ac6-9ebc-57c7c2fd38e3"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # I'm hitting quota limits for my IoT hub

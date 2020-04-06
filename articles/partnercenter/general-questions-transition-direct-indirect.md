@@ -15,6 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # How to transition from Direct CSP to Indirect reseller

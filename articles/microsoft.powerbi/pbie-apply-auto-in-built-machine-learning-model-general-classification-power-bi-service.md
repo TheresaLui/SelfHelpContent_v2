@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="6b4973e0-585a-21fe-3473-85a31adf0fe3"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Classification models

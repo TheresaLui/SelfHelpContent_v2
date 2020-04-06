@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="76352c6a-5e8f-4be6-940b-6e86c8fc8447"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # azurenetworkinganalytics-error

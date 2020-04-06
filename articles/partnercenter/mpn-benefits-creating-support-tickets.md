@@ -15,6 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # MPN - Creating technical support tickets on behalf of customers

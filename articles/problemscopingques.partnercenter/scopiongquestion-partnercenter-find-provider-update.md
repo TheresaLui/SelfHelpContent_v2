@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_update_provider_details"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Update Provider Details
 ---

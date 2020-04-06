@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-displaying-data-workbook-is-missing-data"
+	ownershipId="Azure_Sentinel"
 />
 
 # Workbook is missing data

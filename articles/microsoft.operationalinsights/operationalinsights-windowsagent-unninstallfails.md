@@ -13,6 +13,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="730cdcc1-27bf-468d-9308-8d10819010e7"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Windows Agent: Cannot uninstall agent

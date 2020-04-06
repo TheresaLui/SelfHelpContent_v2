@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-creating-alerts-my-scenario-is-not-listed"
+	ownershipId="Azure_Sentinel"
 />
 
 # Your scenario is not listed

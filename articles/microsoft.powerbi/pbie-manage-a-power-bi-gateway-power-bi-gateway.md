@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="5c34a1a1-570b-e1ee-7568-97ec7955e022"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Manage a Power BI on-premises gateway

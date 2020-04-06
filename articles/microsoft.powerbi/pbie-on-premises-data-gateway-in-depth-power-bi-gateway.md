@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="05e47428-4dcc-ff1f-02c4-14e24aaa6f9b"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # On-premises data gateway in-depth

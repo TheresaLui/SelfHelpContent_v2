@@ -12,6 +12,7 @@
     productPesIds="16922"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
 	articleId="attract-traffic-to-secure-virtual-hub"
+	ownershipId="CloudNet_AzureFirewallManager"
 />
 # Setup Secure Virtual Hub
 

@@ -10,8 +10,9 @@
 	displayOrder="2"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="search-issuewiththedotnetsdk"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issue with the .Net SDK

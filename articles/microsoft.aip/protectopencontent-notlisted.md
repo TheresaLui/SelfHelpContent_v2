@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="protectopencontent_notlisted"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection Protection - Protecting and Opening Content - My scenario is not listed

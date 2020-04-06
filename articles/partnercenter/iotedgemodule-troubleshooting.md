@@ -14,6 +14,7 @@
 	resourceTags="isv"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # IoT Edge module offer troubleshooting

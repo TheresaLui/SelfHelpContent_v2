@@ -5,11 +5,12 @@
   ms.author="scotro"
   selfhelptype="SupportTopicDescription"
   productpesids="6f16735c-b0ae-b275-ad3a-03479cfa1396"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="virtual-machine-running-windows-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" />
+  feedbackemail="email" 	ownershipId="StorageMediaEdge_StorageTables"
+/>
 # Support Topic Descriptions for 6f16735c-b0ae-b275-ad3a-03479cfa1396
 ---
 {

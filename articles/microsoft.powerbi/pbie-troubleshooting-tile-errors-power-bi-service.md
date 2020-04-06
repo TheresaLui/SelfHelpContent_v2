@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="39636683-9b6d-e0a6-ce69-8165f8973185"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Troubleshooting tile errors

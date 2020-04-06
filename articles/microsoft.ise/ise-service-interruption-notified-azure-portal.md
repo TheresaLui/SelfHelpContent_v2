@@ -12,6 +12,7 @@
     productPesIds="17030"
     cloudEnvironments="public"
     articleId="31156662-c5e4-4c50-ac7e-a336605a3543"
+	ownershipId="Compute_LogicApps"
 />
 
 # Service Interruption Notified by Azure Portal

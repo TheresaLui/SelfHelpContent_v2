@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="56184e97-73c6-271a-5ff5-280b4e88aa1f"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Install Power BI Desktop optimized for Power BI Report Server

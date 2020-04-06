@@ -12,7 +12,8 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # AD to AAD Sync

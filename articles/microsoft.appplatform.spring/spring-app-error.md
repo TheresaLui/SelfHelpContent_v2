@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	ownershipId="DevDivAzServices_SpringCloud"
 />
 
 # My application crashes or throws an unexpected error

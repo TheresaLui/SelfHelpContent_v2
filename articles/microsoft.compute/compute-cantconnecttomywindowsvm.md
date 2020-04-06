@@ -10,8 +10,9 @@
     supportTopicIds="32615531,32615526,32639640,32615530"
     resourceTags="windows, windowsSQL"
     productPesIds="14749,14745"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
 	articleId="429c106f-4adb-4ed7-a90b-b7df98686adf"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Resolve connection issue with your Windows VM

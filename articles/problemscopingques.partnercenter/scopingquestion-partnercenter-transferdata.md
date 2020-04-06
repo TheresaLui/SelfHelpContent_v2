@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_transferdata"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Transfer Data
 ---

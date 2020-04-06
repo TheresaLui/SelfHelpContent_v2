@@ -12,6 +12,7 @@
 	productPesIds="15660"
 	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="accessresources-issue not listed"
+	ownershipId="ASMS_SubscriptionManagement"
 />
  
 # Access resources-issue not listed

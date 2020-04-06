@@ -13,6 +13,7 @@
 	articleId="cosmosdb-throughput-longscaleoperation"
 	displayOrder="242"
 	category="Throughput and Scaling"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB about long running scale operations

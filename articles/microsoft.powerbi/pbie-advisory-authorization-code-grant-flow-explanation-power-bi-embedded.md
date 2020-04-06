@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="fe8629a3-8b42-ed03-86b0-eb8d6dcbc47f"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Authorization Code Grant Flow

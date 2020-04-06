@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="98e63695-6447-2f8d-9497-45400383ce48"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Publish from Power BI Desktop

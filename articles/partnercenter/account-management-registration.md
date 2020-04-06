@@ -15,6 +15,7 @@
 	resourceTags="marketplace"
 	productPesIds="15960"
 	cloudEnvironments="public"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Account management - Registration

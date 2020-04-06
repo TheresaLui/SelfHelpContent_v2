@@ -9,9 +9,10 @@
     selfHelpType="generic"
     supportTopicIds="32639977"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax"
     articleId="14dc0ce8-a36f-4736-bd56-48f33e04eddd"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Error while connecting to server
@@ -46,3 +47,4 @@ If connection issues last for more than a couple minutes, the root cause may be 
 
 * [Troubleshoot common connectivity issues to Azure Databases for PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-troubleshoot-common-connection-issues)<br>
 * [Tutorial: Creating and connecting to Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-portal/)
+* [Understanding the connectivity architecture for Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-connectivity-architecture)

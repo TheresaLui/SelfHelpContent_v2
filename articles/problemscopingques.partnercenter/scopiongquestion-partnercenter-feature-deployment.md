@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_feature_deployment"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Feature Deployment Questions
 ---

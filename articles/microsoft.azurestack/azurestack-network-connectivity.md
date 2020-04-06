@@ -10,8 +10,9 @@
     supportTopicIds="32629202"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-network-connectivity"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Resolve issues with connectivity to Azure Stack VMs

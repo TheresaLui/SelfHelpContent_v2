@@ -10,8 +10,9 @@
     supportTopicIds="32629271"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-patchandupdate-oemupdate"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack OEM Update Management

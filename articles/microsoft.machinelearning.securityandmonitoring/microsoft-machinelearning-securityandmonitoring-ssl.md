@@ -8,9 +8,10 @@
 	ms.author="johwu"
 	supportTopicIds="32690883"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake"
 	articleId="microsoft.machinelearning.securityandmonitoring.ssl"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # SSL setup for ACI or AKS

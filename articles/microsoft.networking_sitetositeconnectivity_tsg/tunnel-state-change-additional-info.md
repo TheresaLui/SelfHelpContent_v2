@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="f1e4722e-0cb3-4d75-aa43-f4cabbc577f6"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Tunnel State

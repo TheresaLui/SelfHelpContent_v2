@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="860a5419-d934-42fc-ae88-0a66805d7825"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Using the Embed for your organization sample application

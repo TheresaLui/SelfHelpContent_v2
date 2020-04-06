@@ -12,6 +12,7 @@
     productPesIds="15725"
     cloudEnvironments="public, Blackforest, Fairfax"
 	articleId="583085f1-e8aa-4dec-b0ae-88f0fb5fd82b"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # alertmanagement-error

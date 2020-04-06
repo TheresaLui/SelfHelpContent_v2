@@ -12,6 +12,7 @@
 	productPesIds="15629"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="97cfa678-48dd-4769-9473-43100aa5b481"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Change to GZRS replication type

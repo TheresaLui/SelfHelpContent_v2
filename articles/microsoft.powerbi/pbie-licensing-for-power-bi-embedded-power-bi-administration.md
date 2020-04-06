@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="ca838b09-1068-746d-a3b3-dce2300be24d"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Frequently asked questions about Power BI Embedded

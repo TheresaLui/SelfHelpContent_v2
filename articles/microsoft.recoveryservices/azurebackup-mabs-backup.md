@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="5823f408-f546-4330-b2d4-96bef885876a"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Troubleshooting Azure Backup Server failures issues?

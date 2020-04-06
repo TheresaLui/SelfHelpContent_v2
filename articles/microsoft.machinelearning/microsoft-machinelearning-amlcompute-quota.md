@@ -10,6 +10,7 @@
     supportTopicIds="32690876"
     productPesIds="16644"
     cloudEnvironments="public, fairfax, mooncake"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # When you are hitting quota issues specific to Amlcompute

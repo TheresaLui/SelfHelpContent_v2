@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
+	ownershipId="DevDivAzServices_SpringCloud"
 />
 
 # My application experiences high CPU usage or high memory usage

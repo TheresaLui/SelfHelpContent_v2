@@ -9,6 +9,7 @@
 	productPesIds="15659"
 	cloudEnvironments="public, Mooncake, Fairfax, Blackforest"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 # Reservation Management-reservation underutilized
 ---

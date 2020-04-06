@@ -13,6 +13,7 @@ supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
 cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 # ExpressRoute BGP Peering to Microsoft Edge Router is Down
 <!--issueDescription-->

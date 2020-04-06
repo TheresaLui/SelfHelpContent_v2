@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public"
 	articleId="b540ddf2-8f2c-4298-8e4f-be90c88a1e9d"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check the MUX for Basic External LB

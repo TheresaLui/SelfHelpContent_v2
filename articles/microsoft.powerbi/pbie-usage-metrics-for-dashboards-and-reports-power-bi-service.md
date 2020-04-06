@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="8aafd39a-bde7-a834-af8e-eae2c786601c"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Monitor usage metrics for Power BI dashboards and reports

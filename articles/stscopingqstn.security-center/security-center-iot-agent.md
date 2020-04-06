@@ -13,6 +13,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="2605af39-ecde-4cf2-8f13-2f771b579bb3"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # IoT Hub - IoT Agent

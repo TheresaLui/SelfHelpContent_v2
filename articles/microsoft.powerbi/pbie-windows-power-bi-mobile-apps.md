@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="9f0e9887-7f9e-d041-bafa-0cf3a5b3ed65"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Get started with the Power BI mobile app for Windows 10

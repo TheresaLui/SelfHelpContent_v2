@@ -11,6 +11,7 @@
 	productPesIds="99999"
 	cloudEnvironments="public"
 	articleId="1c94dd83-ac53-46cd-98a3-549dddc799b8"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 # Planned Maintenance FAQ
 ## **Overview**

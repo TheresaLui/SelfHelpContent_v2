@@ -9,6 +9,7 @@
 	productPesIds="16461"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_StorageQueues"
 />
 # Queue Connectivity and Security Issues
 ---

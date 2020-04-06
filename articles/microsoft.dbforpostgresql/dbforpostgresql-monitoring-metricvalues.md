@@ -9,9 +9,10 @@
     selfHelpType="generic"
     supportTopicIds="32639994"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax"
     articleId="5db270cf-b172-4294-b797-e6611df93546"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Issues with metrics shown in the portal

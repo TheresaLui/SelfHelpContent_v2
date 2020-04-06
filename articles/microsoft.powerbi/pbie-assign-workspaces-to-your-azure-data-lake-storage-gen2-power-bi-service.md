@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="88cd7b82-3747-6349-2b0a-3d0ca18ddfc2"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Configure workspace dataflow settings (Preview)

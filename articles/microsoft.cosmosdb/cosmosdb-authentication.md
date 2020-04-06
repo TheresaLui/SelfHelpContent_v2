@@ -13,6 +13,7 @@
 	articleId="cosmosdb-authentication"
 	displayOrder="60"
 	category="Core (SQL)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Authentication in Azure Cosmos DB

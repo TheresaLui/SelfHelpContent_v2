@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-viewing-alerts-request-for-more-information-on-an-incident"
+	ownershipId="Azure_Sentinel"
 />
 
 # How to investigate an incident

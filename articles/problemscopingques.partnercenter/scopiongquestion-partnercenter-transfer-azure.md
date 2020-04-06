@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_transfer_azure"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Transfer Azure Subscription
 ---

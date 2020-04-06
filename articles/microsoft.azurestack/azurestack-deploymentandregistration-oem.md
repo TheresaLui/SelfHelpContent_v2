@@ -10,8 +10,9 @@
     supportTopicIds="32629233"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-deployment-OEM"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack OEM extension package

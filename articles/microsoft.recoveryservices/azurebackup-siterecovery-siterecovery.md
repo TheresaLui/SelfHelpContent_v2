@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="0d7509bc-c67b-445d-a01d-61eacb8c6968"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Site Recovery or Replication Issues

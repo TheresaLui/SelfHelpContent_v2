@@ -5,11 +5,12 @@
   ms.author="akankshajsh"
   selfhelptype="SupportTopicDescription"
   productpesids="8418caaf-4634-b4c0-d9b6-27c266b6b67b"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="table storage-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" />
+  feedbackemail="email" 	ownershipId="StorageMediaEdge_StorageQueues"
+/>
 # Support Topic Descriptions for 8418caaf-4634-b4c0-d9b6-27c266b6b67b
 ---
 {
@@ -27,7 +28,7 @@
       "id": "0905fe1f-c2bc-5eed-d5c4-52277fd1dbd4",
       "longDescription": null,
       "shortDescription": "Issues connecting to table storage such as timeouts, throttling, dropped connections, etc",
-      "searchTags": "throttling, 503,503 server busy,500,500 timeout,intermittent connectivity,connectivity issue,unable to connect to table storage,",
+      "searchTags": "throttling; 503;503 server busy;500;500 timeout;intermittent connectivity;connectivity issue;unable to connect to table storage",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
@@ -35,7 +36,7 @@
       "id": "0e8abf02-7e54-cb1c-8d69-e39aee39955f",
       "longDescription": null,
       "shortDescription": "Issues related to authentication or authorizing to table storage not covered by other problem subtypes",
-      "searchTags": "anonymous,access denied,authenticate with azure AD,Shared access signature,SAS,shared key,setup RBAC,",
+      "searchTags": "anonymous;access denied;authenticate with azure AD;Shared access signature;SAS;shared key;setup RBAC",
       "category": "Authentication & Authorization",
       "useInDiagnoseAndSolve": "true"
     },
@@ -83,7 +84,7 @@
       "id": "49beee73-09ff-cca9-03ed-d8d678422ebc",
       "longDescription": null,
       "shortDescription": "Resolve issues related to securing table storage",
-      "searchTags": "secure storage account,storage account security,",
+      "searchTags": "secure storage account;storage account security",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
@@ -91,7 +92,7 @@
       "id": "52552f32-e60b-b79c-6aba-0f2d41331124",
       "longDescription": null,
       "shortDescription": "Diagnose and troubleshoot performance issues interacting with table storage",
-      "searchTags": "performance,slow performance,low throughput,high latency",
+      "searchTags": "performance;slow performance;low throughput;high latency",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
@@ -107,7 +108,7 @@
       "id": "641f6d9b-0cbe-bfb8-3389-7276da029799",
       "longDescription": null,
       "shortDescription": "Issues using Azure AD ( RBAC & OAuth) to access table storage such as access denied errors or connectivity failures",
-      "searchTags": "rbac,oauth,aad,azure ad,access denied,unable to access,authenticate,authorize,403",
+      "searchTags": "rbac;oauth;aad;azure ad;access denied;unable to access;authenticate;authorize;403",
       "category": "Authentication & Authorization",
       "useInDiagnoseAndSolve": "true"
     },
@@ -115,7 +116,7 @@
       "id": "669666e7-b00f-4a36-e017-0b361c03aa26",
       "longDescription": null,
       "shortDescription": "Issues using SAS token to access table storage such as access denied errors or connectivity failures",
-      "searchTags": "sas,token,access denied,unable to access,authenticate,authorize,403",
+      "searchTags": "sas;token;access denied;unable to access;authenticate;authorize;403",
       "category": "Authentication & Authorization",
       "useInDiagnoseAndSolve": "true"
     },
@@ -123,7 +124,7 @@
       "id": "7d0bd0da-ce85-a673-99a6-68c1b015075f",
       "longDescription": null,
       "shortDescription": "Issues using Anonymous access (no authentication) to table storage resulting in access denied or connectivity failures",
-      "searchTags": "anonymous,access denied,authenticate,authorize,403",
+      "searchTags": "anonymous;access denied;authenticate;authorize;403",
       "category": "Authentication & Authorization",
       "useInDiagnoseAndSolve": "true"
     },
@@ -155,7 +156,7 @@
       "id": "ccded9e8-9902-6237-8979-ba76e78d2714",
       "longDescription": null,
       "shortDescription": "Resolve table storage issues related to REST APIs, Powershell, SDK, Azure CLI",
-      "searchTags": "development,automation,automate,rest,sdk,powershell,script",
+      "searchTags": "development;automation;automate;rest;sdk;powershell;script",
       "category": "Development",
       "useInDiagnoseAndSolve": "true"
     },
@@ -171,7 +172,7 @@
       "id": "e5f7bf36-4ccb-3011-4be8-3b455ad75556",
       "longDescription": null,
       "shortDescription": "Issues using storage keys to access table storage such as access denied errors or connectivity failures",
-      "searchTags": "storage key,access denied,unable to access,shared key,authenticate,authorize,403",
+      "searchTags": "storage key;access denied;unable to access;shared key;authenticate;authorize;403",
       "category": "Authentication & Authorization",
       "useInDiagnoseAndSolve": "true"
     }

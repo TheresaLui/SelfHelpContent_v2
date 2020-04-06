@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_mpn_refund_issues"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 #Partner Center MPN refund issues
 ---

@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="aa0b70f5-c574-39b1-e52e-b0bf89507004"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # What is Power BI Embedded in Azure?

@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-displaying-data-workbook-is-displaying-unexpected-data"
+	ownershipId="Azure_Sentinel"
 />
 
 # Workbook is displaying unexpected data

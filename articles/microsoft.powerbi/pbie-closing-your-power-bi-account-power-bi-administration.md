@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="a3abfa9a-5343-aa93-3f41-d5e6ec97d08c"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Close your Power BI account

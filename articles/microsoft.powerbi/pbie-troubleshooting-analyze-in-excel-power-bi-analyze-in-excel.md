@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="05ac3f7d-e664-e1e4-856a-bab150344d7f"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Troubleshooting Analyze in Excel

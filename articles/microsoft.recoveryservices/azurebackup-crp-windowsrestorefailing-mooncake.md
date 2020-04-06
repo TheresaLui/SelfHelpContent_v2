@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-crp-windowsrestorefailing-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Azure Backup - Restore is failing

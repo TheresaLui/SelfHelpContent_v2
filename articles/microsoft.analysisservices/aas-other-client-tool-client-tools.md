@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="bb3b31e7-3d1a-a547-c7c8-f6bceb2494d9"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Connecting to servers

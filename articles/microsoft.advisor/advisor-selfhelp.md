@@ -11,6 +11,7 @@
 	productPesIds="16188"
 	cloudEnvironments="public"
 	articleId="b9e94b48-25d0-4963-a2e7-85fee4c413a7"
+	ownershipId="CloudES_AzureAdvisor"
 />
 
 # Azure Advisor Self Help and Explanation

@@ -12,6 +12,7 @@
 	productPesIds="15629,16459,16598,16460"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	articleId="5b6180d9-a7de-4dd4-9368-3857c71f1c9a"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # How to troubleshoot encryption issue

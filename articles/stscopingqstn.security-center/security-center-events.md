@@ -10,6 +10,7 @@
 	productPesIds="15947"
 	cloudEnvironments="public"
   	articleId="e974d429-4d63-41b5-ad5c-26003ae22af7"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Events Common Solutions

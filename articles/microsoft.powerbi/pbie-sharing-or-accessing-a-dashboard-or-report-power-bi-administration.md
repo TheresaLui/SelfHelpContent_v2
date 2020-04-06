@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="af5c9428-f7d8-8e6e-3bcb-44e6381fa95d"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Share your Power BI dashboards and reports with coworkers and others

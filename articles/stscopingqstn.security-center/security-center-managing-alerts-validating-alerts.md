@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="8e66b857-aca8-4a21-9afe-828037121f3a"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center – Managing Alerts – Validating Alerts

@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="fe956344-668e-b931-bff1-11779cdeae2b"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Row-level security with Power BI Embedded

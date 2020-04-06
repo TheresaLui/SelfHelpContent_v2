@@ -12,6 +12,7 @@
 	productPesIds="15207"
 	cloudEnvironments="public"
 	articleId="05681e38-121a-41ac-8f38-076a63a92649"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Offline backup or seeding issues

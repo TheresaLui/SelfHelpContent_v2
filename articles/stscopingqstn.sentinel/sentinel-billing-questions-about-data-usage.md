@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-billing-questions-about-data-usage"
+	ownershipId="Azure_Sentinel"
 />
 
 # Understand more about data use

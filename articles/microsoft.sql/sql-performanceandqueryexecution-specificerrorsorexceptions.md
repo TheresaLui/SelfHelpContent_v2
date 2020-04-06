@@ -12,6 +12,7 @@
 	cloudEnvironments="public,blackForest,fairfax"
     resourceTags="servers, databases"
 	articleId="7d57d34f-58d4-4f40-99e2-0dc8e40ab2b4"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # performance and query execution/specific errors or exceptions

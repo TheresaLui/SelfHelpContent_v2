@@ -10,8 +10,9 @@
     supportTopicIds="32663915,32663916"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="azurestack-vm-extensions"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack virtual machine (VM) extensions

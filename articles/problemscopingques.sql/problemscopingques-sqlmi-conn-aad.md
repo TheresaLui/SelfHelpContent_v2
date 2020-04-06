@@ -10,6 +10,7 @@
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # Scoping questions for Configure or use Azure Active Directory (AAD) authentication
 ---

@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds="16867"
 	cloudEnvironments="public"
+	ownershipId="AzureEA_SelfDeflectionContent"
 />
 
 # Transfer an enterprise account to a new enrollment

@@ -12,6 +12,7 @@
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
 	articleId="NetAppPerfLowThroughput"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Volume throughput or IOPS throughput lower than expected for NetApp Files 

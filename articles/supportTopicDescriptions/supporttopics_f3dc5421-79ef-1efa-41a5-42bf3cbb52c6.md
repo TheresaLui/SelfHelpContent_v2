@@ -5,11 +5,12 @@
   ms.author="akjoshi, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="f3dc5421-79ef-1efa-41a5-42bf3cbb52c6"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="subscription-management-supportopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="prdasneo@microsoft.com" />
+  feedbackemail="prdasneo@microsoft.com" 	ownershipId="AzureKeyVault_KeyVault"
+/>
 # Support Topic Descriptions for f3dc5421-79ef-1efa-41a5-42bf3cbb52c6
 ---
 {
@@ -312,4 +313,5 @@
       "useInDiagnoseAndSolve": "true"
     }
   ]
+}
 ---

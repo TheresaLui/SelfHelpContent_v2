@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="8022866a-eb98-2018-0543-c1bacc35a459"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # AADSTS65005 error when you try to sign in to Microsoft Cloud services

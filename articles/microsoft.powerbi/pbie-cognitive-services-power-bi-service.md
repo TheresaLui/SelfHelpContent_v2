@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="4969bae5-c43a-7e4c-6f4e-4a0e0868c695"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Cognitive Services in Power BI (Preview)

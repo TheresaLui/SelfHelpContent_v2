@@ -11,6 +11,7 @@
 	productPesIds="15584"
 	cloudEnvironments="public"
 	articleId="9da43cda-50ce-4ed6-87b2-2d457c85a7c5"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Configure Devices - Windows 10 Endpoint Protection

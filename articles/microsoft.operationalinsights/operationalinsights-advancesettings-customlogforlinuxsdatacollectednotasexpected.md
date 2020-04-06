@@ -15,6 +15,7 @@ resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 	articleId="3c8baa9e-8595-459e-8185-16dbe9569453"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Custom logs for Linux - Log data collected but not as expected

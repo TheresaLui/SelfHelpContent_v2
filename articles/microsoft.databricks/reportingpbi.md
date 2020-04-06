@@ -12,6 +12,7 @@
 	productPesIds="16432"
 	cloudEnvironments="public"
 	articleId="30543830-8407-47fb-a999-185587622a5f"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve reportin integration issues with Power BI, Tableau or Qlik

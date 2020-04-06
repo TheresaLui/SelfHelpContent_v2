@@ -12,6 +12,7 @@
     productPesIds="16690"
     cloudEnvironments="public"
     articleId="sentinel-creating-alerts-questions-about-alert-rule-best-practices"
+	ownershipId="Azure_Sentinel"
 />
 
 # What are the alert rule best practices

@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="21d00f4b-cc09-048b-c666-e2dece5be000"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Embedded analytics with Power BI

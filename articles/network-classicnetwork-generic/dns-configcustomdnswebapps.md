@@ -11,6 +11,7 @@
 	productPesIds="15804"
 	cloudEnvironments="public,fairfax,mooncake,blackforest"
 	articleId="e9527325-7d9c-4438-bd54-66f12a6c6709"
+	ownershipId="CloudNet_DNS"
 />
 
 # configure custom dns for webapps

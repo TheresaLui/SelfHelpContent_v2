@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_api_auth_issues"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center API authentication or access issues
 ---

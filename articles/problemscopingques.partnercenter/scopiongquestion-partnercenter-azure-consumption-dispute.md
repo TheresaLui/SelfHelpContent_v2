@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_azure_consumption_dispute"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Azure Consumption Dispute
 ---

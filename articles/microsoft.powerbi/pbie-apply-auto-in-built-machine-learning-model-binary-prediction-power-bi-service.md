@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="52fcd13b-9a90-57bb-b980-5ad6d93b1167"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Binary Prediction Models

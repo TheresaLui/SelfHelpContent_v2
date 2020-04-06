@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="db94c744-22a9-888d-c4c5-43bb1fab6212"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Row-level security (RLS) with Power BI

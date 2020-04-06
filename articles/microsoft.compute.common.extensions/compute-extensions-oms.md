@@ -10,8 +10,9 @@
 	supportTopicIds="32628273"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax"
 	articleId="5cc8fa1d-ebd2-4b5e-b455-b2121c2663b5"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Log Analytics (OMS) extension issue

@@ -13,7 +13,8 @@
 	supportTopicIds=""
 	resourceTags="windows, linux"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax"
+	ownershipId="Compute_VirtualMachines"
 />
 # Maximum quota limit exceeded
 

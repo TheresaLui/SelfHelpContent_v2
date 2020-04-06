@@ -12,6 +12,7 @@
 	productPesIds="16582"
 	cloudEnvironments="public"
 	articleId="032cf025-2f52-4420-b161-bce71302f41b"
+	ownershipId="test_rediscache1"
 />
 
 # Windows Virtual Desktop - Issues configuring device redirection

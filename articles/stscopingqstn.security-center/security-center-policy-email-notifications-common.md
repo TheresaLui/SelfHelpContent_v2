@@ -12,6 +12,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="a25f057d-8ce6-4b77-a98a-dfaf3843dc2f"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Email Notifications Common Solutions

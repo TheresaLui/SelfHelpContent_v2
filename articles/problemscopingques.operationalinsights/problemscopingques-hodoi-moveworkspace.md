@@ -10,6 +10,7 @@ supportTopicIds="32612491"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Move workspace to a different subscription or resource group

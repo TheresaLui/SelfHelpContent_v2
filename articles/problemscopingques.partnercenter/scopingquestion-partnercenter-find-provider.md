@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_find_provider"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Find Provider
 ---

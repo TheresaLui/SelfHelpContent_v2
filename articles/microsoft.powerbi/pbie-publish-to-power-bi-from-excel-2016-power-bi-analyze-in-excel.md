@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="8977953a-eb77-6665-f0d7-5630dc4dd543"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Publish to Power BI from Excel 2016

@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="a15f057d-9001-8010-a98a-dfaf3843dc2f"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center Recommendation - Other Issues Common Solutions"

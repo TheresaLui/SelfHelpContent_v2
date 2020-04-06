@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="c447a561-ee77-de8f-74ec-9c5cefccf37f"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Install a gateway for Power BI

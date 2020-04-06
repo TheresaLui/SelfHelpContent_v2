@@ -12,6 +12,7 @@
     productPesIds="16125"
     cloudEnvironments="public,BlackForest,Fairfax"
     articleId="536c9bb5-f086-438b-9f5f-c7386f52257b"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I am experiencing throttling (503)

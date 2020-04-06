@@ -13,6 +13,7 @@
 	resourceTags=""
 	productPesIds="16867"
     cloudEnvironments="public"
+	ownershipId="AzureEA_SelfDeflectionContent"
 />
 
 # No activation email received

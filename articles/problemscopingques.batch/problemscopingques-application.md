@@ -7,8 +7,9 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32635050"
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     schemaVersion="1"
+	ownershipId="Compute_AzureBatch"
 />
 # Application details
 ---

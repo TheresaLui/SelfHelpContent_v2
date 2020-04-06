@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="4bcd6bae-24d8-459b-875e-c824dd59511d"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center – Remediating Recommendations – How to Disable Recommendations

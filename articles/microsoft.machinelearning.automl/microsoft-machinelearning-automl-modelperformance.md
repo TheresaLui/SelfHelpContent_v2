@@ -8,9 +8,10 @@
 	ms.author="anumamah"
 	supportTopicIds="32690865"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake"
 	articleId="microsoft.machinelearning.automl.modelperformance"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Model Performance

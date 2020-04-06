@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="03adbcf0-f379-435c-8c12-4c58a337a198"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center - Onboarding or Offboarding Agent - Workspaces

@@ -11,6 +11,7 @@
 	productPesIds="16157"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="bdc40ec8-9f10-0111-70d1-691a17de43ef"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Deploy a model from Visual Studio

@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="4a151117-5148-e697-1c00-656864bcb718"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Custom visuals in Power BI

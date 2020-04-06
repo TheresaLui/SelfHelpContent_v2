@@ -10,6 +10,7 @@
     productPesIds="15947"
     cloudEnvironments="public"
     articleId="7e7f21c7-129d-4a7b-8b43-153b83880c7c"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center – Configuring Features – Just-In-Time Access [JIT]

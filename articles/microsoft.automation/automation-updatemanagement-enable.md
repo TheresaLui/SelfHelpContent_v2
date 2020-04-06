@@ -5,13 +5,14 @@
     resource="automationaccounts"
     authors="zjalexander"
     ms.author="zachal"
-    displayorder=""
+    displayorder="101"
     selfHelpType="generic"
     supportTopicIds="32599903"
     resourceTags=""
     productPesIds="15607,15725"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax"
     articleId="e7641147-7a28-4ba4-ba37-49ee74bc9637"
+	ownershipId="Compute_Automation"
 />
 
 # Resolve Update Management issues with Azure Automation - Enabling Update Management

@@ -10,6 +10,7 @@
 	schemaVersion="1"
 	articleId="sproblemscopingques_change_billing"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Change Billing
 ---

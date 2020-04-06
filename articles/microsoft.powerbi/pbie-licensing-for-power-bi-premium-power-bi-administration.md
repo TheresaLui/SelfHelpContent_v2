@@ -11,6 +11,7 @@
 	productPesIds="16334"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="c05d4f7d-07f5-9ee5-48ad-ed907db8caf8"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # What is Power BI Premium?
