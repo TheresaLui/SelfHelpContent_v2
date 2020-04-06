@@ -37,7 +37,7 @@
   "ingestionClientIdentities": [],
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/HighP2SConnectionsVNetGateway",
-  "description": Consider increasing the size of your VNet Gateway SKU to address high P2S use",
+  "description": "Consider increasing the size of your VNet Gateway SKU to address high P2S use",
   "longDescription": "Each gateway SKU can only support a specified count of concurrent P2S connections. Your connection count is close to your gateway limit, so additional connection attempts may fail.",
   "potentialBenefits": "",
   "actions": [
