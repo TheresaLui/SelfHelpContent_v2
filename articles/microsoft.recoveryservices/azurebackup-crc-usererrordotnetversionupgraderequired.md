@@ -27,5 +27,5 @@ We have identified that your backup configuration failed because of unsupported 
 
 To resolve this issue, perform the below:
 
-- Ensure the .NET version matches the requirements listed [here](https://docs.microsoft.com/azure/backup/sql-support-matrix). If not upgrade to latest version (this might require machine reboot.)
-- After upgrading and rebooting. Retry the operation.
+- Ensure the .NET version matches the requirements listed [here](https://docs.microsoft.com/azure/backup/sql-support-matrix). If not, upgrade to latest version (this might require machine reboot).
+- After upgrading and rebootin, retry the operation
