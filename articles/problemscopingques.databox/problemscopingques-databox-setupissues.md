@@ -84,7 +84,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the details regarding the issue, such as cables used, status of data ports connected and and any other relevant information",
+            "watermarkText": "Please provide the details regarding the issue, such as cables used, status of data ports connected and any other relevant information.",
             "required": true,
             "useAsAdditionalDetails": true
         },

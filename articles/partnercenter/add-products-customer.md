@@ -15,7 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960, 17012"
 	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Transact_and_Manage"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Add products to a customer

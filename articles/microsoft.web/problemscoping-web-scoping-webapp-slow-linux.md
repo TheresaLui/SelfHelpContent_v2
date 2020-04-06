@@ -66,8 +66,8 @@
 			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved??",
 			"watermarkText": "...",
 			"required": false
-		}
-    ],
+		}],
     "$schema": "SelfHelpContent"
 }
 ---
+

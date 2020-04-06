@@ -5,7 +5,7 @@
     resource="automationaccounts"
     authors="zjalexander"
     ms.author="zachal"
-    displayorder=""
+    displayorder="102"
     selfHelpType="generic"
     supportTopicIds="32642183"
     resourceTags=""
@@ -32,7 +32,7 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 ### **Error when creating deployment**
 
 * Follow the instructions in ["Machines don't show up in the portal under Update Management"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs) to ensure the machine is correctly configured for the correct workspace
-* If you recieve the error **"You have requested to create an update configuration on a machine that is not registered for Update Management"**, you may need to [follow step 2 for images that were cloned](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#resolution-2) 
+* If you receive the error **"You have requested to create an update configuration on a machine that is not registered for Update Management"**, you may need to [follow step 2 for images that were cloned](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#resolution-2) 
 * Ensure you have the correct permissions to create deployments, especially Contributor access on any Azure VMs you are trying to manage, by referencing the ["Update Management"](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#update-management) section of the Automation RBAC documentation
 
 ### **Error editing an existing deployment**

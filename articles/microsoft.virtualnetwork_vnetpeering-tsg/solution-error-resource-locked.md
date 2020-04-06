@@ -19,7 +19,7 @@ cloudEnvironments="Public, Fairfax"
 # Solution Databricks Resource Locked
 <!--issueDescription-->
 
-You can run into this issue when enabling VNet peering on a Vnet that has Databricks integration.
+It looks like this issue may be related to enabling VNet peering on a Vnet that has Databricks integration.
 
 <!--/issueDescription-->
 

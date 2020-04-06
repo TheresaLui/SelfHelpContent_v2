@@ -12,7 +12,7 @@
     productPesIds="17030"
     cloudEnvironments="public"
     articleId="724d9d90-c22b-4512-a493-32ef4dc7f765"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_LogicApps"
 />
 
 # Scaling

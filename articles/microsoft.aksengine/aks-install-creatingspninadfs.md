@@ -12,7 +12,7 @@
     productPesIds="16963"
     cloudEnvironments="public, Fairfax"
     articleId="aks-install-creatingspninadfs"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Issues creating SPN in AD FS

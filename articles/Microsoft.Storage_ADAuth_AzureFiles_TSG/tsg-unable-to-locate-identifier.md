@@ -25,7 +25,7 @@ When customer attempts to domain join an Azure Storage Account using the Join-Az
 
 **Error:**  "The directory service was unable to allocate a relative identifier" 
 
-## Root Cause/Mitigation
+**Root Cause/Mitigation**
 
 This problem may occur if a domain controller, that holds the operations master role of RID Master, is unavailable or was removed from the domain and restored from backup.  
 

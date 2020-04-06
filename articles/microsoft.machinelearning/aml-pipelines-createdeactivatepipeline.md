@@ -8,7 +8,7 @@
 	ms.author="bradwall"
 	supportTopicIds="32690845"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake"
 	articleId="microsoft.machinelearning.pipelines.createdeactivatepipeline"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"

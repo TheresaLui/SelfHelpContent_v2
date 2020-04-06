@@ -14,7 +14,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="DevDivAzServices_SpringCloud"
 />
 
 # I cannot find metrics or logs for my application

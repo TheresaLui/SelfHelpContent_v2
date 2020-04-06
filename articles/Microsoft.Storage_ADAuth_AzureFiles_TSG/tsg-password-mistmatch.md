@@ -44,12 +44,3 @@ Output that shows the AD password for the storage account does not match one of 
     At line: 1 char:1
     
     + Test-AzStorageAccountADObjectPasswordIsKerbKey -ResourceGroupName "psnativerg" …
-
-
-## Resolution/Workaround
-
-Reset the password in AD for the storage account to match either kerb1 or kerb2 using "**Update-AzStorageAccountADObjectPassword**".
-
-Example where action is taken with kerb1:
-
-Update-AzStorageAccountADObjectPassword -ResourceGroupName rgname -StorageAccountName accountname -RotateToKerbKey kerb1

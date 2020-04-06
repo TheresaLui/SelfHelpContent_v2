@@ -5,7 +5,7 @@
     resource="automationaccounts"
     authors="zjalexander"
     ms.author="zachal"
-    displayorder=""
+    displayorder="202"
     selfHelpType="generic"
     supportTopicIds="32635012"
     resourceTags=""

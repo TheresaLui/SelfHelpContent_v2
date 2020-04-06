@@ -40,10 +40,16 @@
                     "text": "Describe your problem, providing as much detail as possible."
                 },
                 {
-                    "text": "Know more about Azure pricing -  <a href='https://azure.microsoft.com/pricing/faq/'>here</a>."
+                    "text": "Learn more -  <a href='https://azure.microsoft.com/pricing/faq/'>Azure Pricing</a>."
                 },
 		{
-                    "text": "Know more about Marketplace pricing -  <a href='https://docs.microsoft.com/azure/marketplace/marketplace-faq-publisher-guide'>here</a>."
+                    "text": "Learn more -  <a href='https://docs.microsoft.com/azure/marketplace/marketplace-faq-publisher-guide'>Marketplace Pricing</a>."
+                },
+		{
+                    "text": "Learn more -  <a href='https://docs.microsoft.com/azure/cost-management-billing/manage/ea-pricing#download-pricing-for-an-enterprise-agreement'>EA Pricing</a>."
+                },
+		{
+                    "text": "Learn more -  <a href='https://docs.microsoft.com/azure/cost-management-billing/manage/ea-pricing#download-pricing-for-an-mca-or-mpa-account'>MCA/MPA Pricing</a>."
                 }
             ]
         }

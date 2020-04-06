@@ -10,14 +10,20 @@
 	articleId="partnercenter_mpn_benefits_technical_benefits"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635700"
+	supportTopicIds="32635700,32725861"
 	clientIds='partnercenter'
 	resourceTags="mpn"
-	productPesIds="15960"
+	productPesIds="15960,17007"
 	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 # Technical Benefits request
+
+## **Recommended Steps**
+
+- The support contract needs to be activated. For PC migrated partners, Admin user roles can activate online using Partner Center.
+- View and share your Access ID and Contract ID. For PC migrated partners, all users (including non admins) can see the Access ID and Contract ID using Partner Center. All users use the same Access ID and Contract ID.
+- Use the MPN technical benefits. See our [Technical Support for Microsoft Partners](https://support.microsoft.com/help/4020188/technical-support-for-microsoft-partners) Knowledge Base for details.
 
 ## **Recommended Documents**
 

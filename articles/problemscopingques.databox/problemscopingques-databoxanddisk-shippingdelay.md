@@ -42,7 +42,7 @@
             "dropdownOptions": [
                 {
                     "value": "Carrier tracking says delivered but portal does not reflect the same",
-                    "text": "Carrier tracking says delivered but portal does not reflect the sames"
+                    "text": "Carrier tracking says delivered but portal does not reflect the same"
                 },
                 {
                     "value": "Carrier has not arrived for pick up",
