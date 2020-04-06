@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32629650, 32629653, 32629654, 32629655, 32629656, 32629658"
 	productPesIds="15454"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="Public, FairFax, MoonCake"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ActionGroup"
 />
@@ -69,6 +69,10 @@
                 {
                     "value": "ITSM",
                     "text": "ITSM"
+                },
+                {
+                    "value": "I don't know",
+                    "text": "I don't know"
                 }
             ],
             "required": true
@@ -84,14 +88,12 @@
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
-            },
-            "dropdownOptions": [
-                {
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
                     "value": "Unable to get the list of Action groups",
                     "text": "Unable to get the list of Action groups"
                 }
-            ],
+            },
             "required": true
         },
         {
@@ -120,6 +122,10 @@
                 {
                     "value": "Ongoing",
                     "text": "Issue occurs for every alert instance"
+                },
+                {
+                    "value": "I don't know",
+                    "text": "I don't know"
                 }
             ]
         },
@@ -130,18 +136,7 @@
             "displayLabel": "Provide details of at least one Alert instance.",
             "watermarkText": "Provide details of at least one Alert instance.",
             "required": true,
-            "useAsAdditionalDetails": false,
-            "hints": [
-                {
-                    "text": "Provide the Alert id as seen in Azure portal."
-                },
-                {
-                    "text": "Provide the timestamp and time zone (Fired time)."
-                },
-                {
-                    "text": "Screenshot of the alert instance."
-                }
-            ]
+            "useAsAdditionalDetails": false
         },
         {
             "id": "problem_description",
@@ -149,7 +144,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
