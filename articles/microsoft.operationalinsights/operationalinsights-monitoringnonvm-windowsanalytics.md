@@ -22,7 +22,7 @@ cloudEnvironments="Public, Fairfax"
 
 ## Ensuring devices are configured correctly to send data
 
-The first step to troubleshooting is ensuring that devices are configured as documented on [Manually Configuring Devices for Update Compliance](https://docs.microsoft.com/windows/deployment/update/update-compliance-configuration-manual).We recommend using the [Update Compliance Configuration Script](https://docs.microsoft.com/windows/deployment/update/update-compliance-configuration-script) for troubleshooting and configuring devices.
+The first step to troubleshooting is ensuring that devices are configured as documented on [Manually Configuring Devices for Update Compliance](https://docs.microsoft.com/windows/deployment/update/update-compliance-configuration-manual). We recommend using the [Update Compliance Configuration Script](https://docs.microsoft.com/windows/deployment/update/update-compliance-configuration-script) for troubleshooting and configuring devices.
 
 ### Devices have been correctly configured but aren't showing up in Update Compliance
 
