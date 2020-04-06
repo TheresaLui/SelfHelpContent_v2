@@ -17,9 +17,9 @@
 
 # worker role (paas)/Deployment/Allocation Failures
 
-## **Awareness**
+**Awareness**
 
->We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
+>We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity/).<br>
 
 ## **Recommended Steps**
 
