@@ -71,7 +71,7 @@
                     "text": "ITSM"
                 },
                 {
-                    "value": "I don't know",
+                    "value": "dont_know_answer",
                     "text": "I don't know"
                 }
             ],
@@ -124,7 +124,7 @@
                     "text": "Issue occurs for every alert instance"
                 },
                 {
-                    "value": "I don't know",
+                    "value": "dont_know_answer",
                     "text": "I don't know"
                 }
             ]
