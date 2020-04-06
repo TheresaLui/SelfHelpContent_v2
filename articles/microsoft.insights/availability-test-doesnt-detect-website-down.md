@@ -37,7 +37,7 @@ Ensure you select at least 5 locations from where the availability test should r
 
 ### My website is down & the availability test is failing but I'm not being notified
 
-Ensure your web test alerts are properly configured. Check the following [link](https://docs.microsoft.com/en-us/azure/azure-monitor/app/availability-alerts)
+Ensure your web test alerts are properly configured. Check the following [link](https://docs.microsoft.com/azure/azure-monitor/app/availability-alerts)
 
 **Known issues**\
 

@@ -80,9 +80,9 @@ Web communication fails for multiple reasons from time to time and failing from 
 
 ## **Recommended Documents**
 
-* [Monitor Web App Availability](https://docs.microsoft.com/en-us/azure/azure-monitor/app/monitor-web-app-availability)\
-* [Multi-step Web Tests](https://docs.microsoft.com/en-us/azure/azure-monitor/app/availability-multistep)\
-* [Dealing with sign-in](https://docs.microsoft.com/en-us/azure/azure-monitor/app/availability-multistep#dealing-with-sign-in)\
-* [Troubleshoot Availability Testing](https://docs.microsoft.com/en-us/azure/azure-monitor/app/troubleshoot-availability)\
-* [Create and run custom Availability Tests using Azure Functions](https://docs.microsoft.com/en-us/azure/azure-monitor/app/availability-azure-functions)\
-* [Multi-step Web Test Pricing Information](https://azure.microsoft.com/en-us/pricing/details/monitor/)\
+* [Monitor Web App Availability](https://docs.microsoft.com/azure/azure-monitor/app/monitor-web-app-availability)\
+* [Multi-step Web Tests](https://docs.microsoft.com/azure/azure-monitor/app/availability-multistep)\
+* [Dealing with sign-in](https://docs.microsoft.com/azure/azure-monitor/app/availability-multistep#dealing-with-sign-in)\
+* [Troubleshoot Availability Testing](https://docs.microsoft.com/azure/azure-monitor/app/troubleshoot-availability)\
+* [Create and run custom Availability Tests using Azure Functions](https://docs.microsoft.com/azure/azure-monitor/app/availability-azure-functions)\
+* [Multi-step Web Test Pricing Information](https://azure.microsoft.com/pricing/details/monitor/)\

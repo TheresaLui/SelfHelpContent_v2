@@ -6,7 +6,7 @@
     resource="components"
     authors="debugthings"
     ms.author = "casocha"
-    articleId="availability-website-running-behind-firewall"
+    articleId="availability-end-to-end-transaction-details-incorrect"
     displayOrder="8"
     selfHelpType="generic"
     cloudEnvironments="public, Fairfax"
@@ -19,7 +19,7 @@
 
 You click on a web test result (either on the scatter plot or via search) to drill down and learn more details of the call. You can see the E2E Transaction Details view and the individual steps for the web test pinging your site, but you don’t see any correlated server-side telemetry (e.g. requests, custom events, traces, exceptions).
 
-![telemetry image](https://docs.microsoft.com/en-us/azure/azure-monitor/app/media/troubleshoot/availability/end2endpic1.jpg)
+![telemetry image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/availability/end2endpic1.jpg)
 
 ## **Recommended Steps**
 
@@ -29,7 +29,7 @@ You click on a web test result (either on the scatter plot or via search) to dri
 
 ### Data is coming through but doesn't match what I expect
 
-* [Double check your sampling settings](https://docs.microsoft.com/en-us/azure/azure-monitor/app/sampling). By default, adaptive sampling generally only occurs at higher traffic volumes.
+* [Double check your sampling settings](https://docs.microsoft.com/azure/azure-monitor/app/sampling). By default, adaptive sampling generally only occurs at higher traffic volumes.
 
 ### I used to see data but don't anymore
 
