@@ -20,7 +20,6 @@
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
 HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> failed due to Livy 2.1 error.
-Livy 2.1 is a legacy version that we support, and it may cause cluster creation failure sometimes. HDInsight doesn’t have plan to fix the issue as we will deprecate this in near future.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
