@@ -53,7 +53,7 @@
       "name": "containerName",
       "title": "Container"
     }
-  ]
+  ],
   "actions": [
     {
       "actionId": "2dd93028-47fc-4dc8-bc14-f00b86f52352",
