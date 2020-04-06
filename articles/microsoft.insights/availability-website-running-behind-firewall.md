@@ -9,7 +9,7 @@
     articleId="availability-website-running-behind-firewall"
     displayOrder="8"
     selfHelpType="generic"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, mooncake, blackforest, fairfax"
     productPesIds="15693"
     supportTopicIds="32729588"
     ownershipId="AzureMonitoring_ApplicationInsights"

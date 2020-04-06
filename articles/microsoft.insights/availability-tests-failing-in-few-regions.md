@@ -9,7 +9,7 @@
     articleId="availability-tests-failing-in-few-regions"
     displayOrder="8"
     selfHelpType="generic"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, mooncake, blackforest, fairfax"
     productPesIds="15693"
     supportTopicIds="32729577"
     ownershipId="AzureMonitoring_ApplicationInsights"
@@ -17,7 +17,7 @@
 
 # My Availability tests are failing in a couple regions
 
-You may notice that, while your availability test is running successfully in most regions, you are receiving failures in one or a few. This could be caused by misconfigurations of load balancers, traffic managers or firewalls. It may also be indicative of issues in your application, particularly if it is deployed to multiple geographical regions. You can verify this by opening one of the failed test results and checking if the message contains a phrase similar to “A connection attempt failed because the connected party did not properly respond after a period of time”.
+You may notice that, while your availability test is running successfully in most regions, you are receiving failures in one or a few. This could be caused by misconfigurations of load balancers, traffic managers or firewalls. It may also be indicative of issues in your application, particularly if it is deployed to multiple geographical regions. You can verify this by opening one of the failed test results and checking if the message contains a phrase similar to "A connection attempt failed because the connected party did not properly respond after a period of time".
 
 ## **Recommended Steps**
 

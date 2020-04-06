@@ -9,7 +9,7 @@
     articleId="availability-end-to-end-transaction-details-incorrect"
     displayOrder="8"
     selfHelpType="generic"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, mooncake, blackforest, fairfax"
     productPesIds="15693"
     supportTopicIds="32729582"
     ownershipId="AzureMonitoring_ApplicationInsights"

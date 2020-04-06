@@ -9,7 +9,7 @@
     articleId="availability-test-fail-website-available"
     displayOrder="8"
     selfHelpType="generic"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, mooncake, blackforest, fairfax"
     productPesIds="15693"
     supportTopicIds="32729576"
     ownershipId="AzureMonitoring_ApplicationInsights"

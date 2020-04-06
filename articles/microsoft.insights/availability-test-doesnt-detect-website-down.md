@@ -9,7 +9,7 @@
     articleId="availability-test-doesnt-detect-website-down"
     displayOrder="8"
     selfHelpType="generic"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, mooncake, blackforest, fairfax"
     productPesIds="15693"
     supportTopicIds="32729588"
     ownershipId="AzureMonitoring_ApplicationInsights"
@@ -29,7 +29,7 @@ Ensure the Success Criteria for your web test is what you expect it to be. By de
 
 ### My website has multiple instances that are geographically distributed
 
-If so, are all instances down? If not, then it is possible the availability test is pinging a “healthy” instance.  
+If so, are all instances down? If not, then it is possible the availability test is pinging a "healthy" instance.  
 
 ### Check if you are running tests from at least 5 different locations
 
