@@ -1,8 +1,8 @@
 <properties
-    pageTitle="Azure Active Directory Sign-In and Multi-Factor Authentication"
-    description="appssigninl1datacollectiondoc"
-    authors="arupela"
-    ms.author="arupela"
+    pageTitle="Azure MFA Configuring Issue"
+    description="Azure MFA Configuring Issue Doc"
+    authors="hsku"
+    ms.author="hsku"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615515"
     productPesIds="16579"
@@ -10,16 +10,21 @@
     schemaVersion="1"
     articleId="mfa-insight1-datacollection-configuringMFA"
     ownershipId="AzureIdentity_MultiFactorAuthentication"
-/>
+    />
 
-# Azure Active Directory Sign-In and Multi-Factor Authentication
+# Azure MFA Configuring Issue
 
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Azure Active Directory Sign-In and Multi-Factor Authentication",
+    "title": "Azure MFA Configuring Issue",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+        "title": "Problem with Azure MFA Configuration",
+        "description": "Our self-service troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
+    },
     "formElements": [
         {
             "id": "VerboseTracing",
@@ -92,7 +97,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "getCorrelationId",
@@ -124,7 +130,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "timestamp",
@@ -140,7 +147,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "appNameOrId",
@@ -159,7 +167,7 @@
             "numberOfLines": 2
         },
         {
-            "id": "userNameOrId",
+            "id": "userId",
             "visibility": null,
             "order": 9,
             "controlType": "textbox",
@@ -172,7 +180,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
