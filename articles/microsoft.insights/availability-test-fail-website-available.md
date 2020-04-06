@@ -1,6 +1,6 @@
 <properties 
-    pageTitle="I am having problems with my Availability Tests"
-    description="Hello world"
+    pageTitle="My availability tests are failing but the website is still available"
+    description="My availability tests are failing but the website is still available"
     infoBubbleText="Some suggestions have been found to help solve your availability test issue quicker."
     service="microsoft.insights"
     resource="components"
@@ -14,29 +14,75 @@
     supportTopicIds="32729576"
     ownershipId="AzureMonitoring_ApplicationInsights"
 />
-# I am having problems with my Availability Tests
+
+# My availability tests are failing but the website is still available
+
+I am seeing failures in Availability testing in Application Insights, but when I navigate to my website using a web browser, I don't see any errors.
 
 ## **Recommended Steps**
 
-Hello world
+### Click on an individual failing test result and examine the error message provided
 
-![metric image](https://docs.microsoft.com/azure/azure-monitor/platform/media/metrics-troubleshoot/missing-data-point-scatter-chart.png)
+![failed test](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/availability/websiteavailablepic1.jpg)
 
-1. Check the [Troubleshooting Guide](https://docs.microsoft.com/azure/azure-monitor/app/troubleshoot-availability) for answers to common questions
-2. Make sure you have whitelisted all of the [IP Address Used by Availability Tests](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests)
-3. Verify you have the test running in multiple geo-locations. It is strongly recommended to run at least from two locations. Web communication fails for multiple reasons from time to time and having only one location enabled will considerably increase the likelihood of false positives
-4. Check server side logs for the failure, especially if the answer to #3 is yes
-5. Determine if the issue present in all geo-locations
-6. Verify if you're using a load balancer and that all the machines behind the load balancer have the same configuration
-7. If you have parse-dependent requests enabled the issue could be caused by a dependent resource provider (e.g. CDN’s)
-8. Please validate that the redirect is not failing
+![failed test 2](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/availability/websiteavailablepic2.jpg)
 
-**Known issues**<br>
+Check your error message.
 
-You cannot create more than 10 tests inside of the UI. You must use [PowerShell](https://docs.microsoft.com/azure/application-insights/app-insights-powershell#add-an-availability-test) if you need more. This is by design.
+### A connection attempt failed because the connected party did not properly respond after a period of time
+
+A firewall could be blocking App Insights’ access to your website. Whitelist the [IP addresses used by App Insights](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests)
+
+### The server committed a protocol violation. Section=ResponseHeader Detail=CR must be followed by LF
+
+This occurs when malformed headers are detected. Specifically, some headers might not be using CRLF to indicate the end of line, which violates the HTTP specification. Application Insights enforces this HTTP specification and fails responses with malformed headers.
+
+* Contact your web site host provider / CDN provider to fix the faulty servers.
+* In the case that the failed requests are resources (e.g. style files, images, scripts), you may consider disabling the parsing of dependent requests. Keep in mind, if you do this you will lose the ability to monitor the availability of those files.
+
+### The Web test was stopped because it encountered an excessive number of exceptions while attempting to submit requests
+
+The main site may be available, but some dependent requests – images, stylesheets, and scripts – may not be loading properly.
+
+* Check that all of the page resources are loading correctly using your browser’s devtools.
+* To desensitize the test to such resource failures, simply uncheck the Parse Dependent Requests from the test configuration.
+
+### Could not create SSL/TLS Secure Channel
+
+Check your SSL version. Only TLS 1.0, 1.1, and 1.2 are supported. **SSLv3 is not supported.**
+
+### Timeout (subtype 'Timeout') occured with the error 'Request timed out'
+
+The test timed out. We abort tests after 2 minutes.  
+
+* If it is a multi-step test, break the single test into multiple tests that can complete in shorter durations.
+* If it is a ping test, investigate your server-side logs to discover what server-side failures caused the site to time out.
+
+### I test from less than 5 locations
+
+Web communication fails for multiple reasons from time to time and having only one location enabled will considerably increase the likelihood of false positives. We recommend testing from at least 5 different locations
+
+![failed test 3](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/availability/websiteavailablepic3.jpg)
+
+### Retries are not set on my availability tests
+
+Some transient network issues may cause tests to fail. When retries are enabled, if the test fails, we’ll try it again after 20 seconds. We’ll record a failure only if it fails three times in a row.
+
+![failed test 4](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/availability/websiteavailablepic3.jpg)
+
+### My alert threshold is less than 3 locations
+
+Web communication fails for multiple reasons from time to time and failing from only one location may increase the risk of false positives. We recommend setting an alert threshold of at least 3 locations.
+
+![failed test 5](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/availability/websiteavailablepic4.jpg)
+
+![failed test 6](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/availability/websiteavailablepic5.jpg)
 
 ## **Recommended Documents**
 
-* [Availability Tests](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability)<br>
-* [Automation](https://docs.microsoft.com/azure/application-insights/app-insights-powershell#add-an-availability-test)<br>
-* [IP Address Used by Availability Tests](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests)<br>
+* [Monitor Web App Availability](https://docs.microsoft.com/en-us/azure/azure-monitor/app/monitor-web-app-availability)\
+* [Multi-step Web Tests](https://docs.microsoft.com/en-us/azure/azure-monitor/app/availability-multistep)\
+* [Dealing with sign-in](https://docs.microsoft.com/en-us/azure/azure-monitor/app/availability-multistep#dealing-with-sign-in)\
+* [Troubleshoot Availability Testing](https://docs.microsoft.com/en-us/azure/azure-monitor/app/troubleshoot-availability)\
+* [Create and run custom Availability Tests using Azure Functions](https://docs.microsoft.com/en-us/azure/azure-monitor/app/availability-azure-functions)\
+* [Multi-step Web Test Pricing Information](https://azure.microsoft.com/en-us/pricing/details/monitor/)\
