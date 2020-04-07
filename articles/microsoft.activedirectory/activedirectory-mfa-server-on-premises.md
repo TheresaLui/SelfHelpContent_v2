@@ -25,6 +25,6 @@ As of July 1, 2019, Microsoft no longer offers MFA Server for new deployments. C
 
 ## **Recommended Documents**
 
-* [Upgrade MFA server](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfaserver-deploy-upgrade)
+* [Upgrade MFA server](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-deploy-upgrade)
 
-* [Configure RADIUS Authentication](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfaserver-dir-radius)
+* [Configure RADIUS Authentication](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-dir-radius)

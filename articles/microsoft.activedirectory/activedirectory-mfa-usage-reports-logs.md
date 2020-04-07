@@ -22,6 +22,7 @@
 Covers problems and questions about getting MFA registration status, authentication methods used during sign-in and insights.
 
 ## **Recommended Documents**
-* [Authentication methods usage & insights](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-authentication-methods-usage-insights)
 
-* [Reports in Azure Multi-Factor Authentication](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-reporting)
+* [Authentication methods usage & insights](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-methods-usage-insights)
+
+* [Reports in Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-reporting)
