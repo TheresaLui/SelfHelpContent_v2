@@ -19,4 +19,5 @@
 
 ## **Recommended Documents**
 
+* Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
 * [Troubleshooting JDBC and ODBC Connections](https://kb.azuredatabricks.net/bi/jdbc-odbc-troubleshooting.html)
