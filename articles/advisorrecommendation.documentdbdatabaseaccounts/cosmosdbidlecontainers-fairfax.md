@@ -6,7 +6,7 @@
     articleId="a4255ba5-b07e-45ae-99ca-25e6c2079e3c_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
-	ownershipId="AzureData_AzureCosmosDB"
+    ownershipId="AzureData_AzureCosmosDB"
 />
 # Consider taking action on your idle Azure Cosmos DB containers
 ---
