@@ -19,4 +19,6 @@
 
 ## **Recommended Documents**
 
+* [How To: Connect to Azure Synapse Analytics](https://docs.microsoft.com/azure/databricks/data/data-sources/azure/synapse-analytics)
+* [How To: SQL Databases using JDBC](https://docs.microsoft.com/azure/databricks/data/data-sources/sql-databases)
 * [Troubleshooting JDBC and ODBC Connections](https://kb.azuredatabricks.net/bi/jdbc-odbc-troubleshooting.html)
