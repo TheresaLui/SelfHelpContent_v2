@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Deployment Failure RCA"
-	description="RCA - VM size not in region"
+	description="RCA - VM size not in region SkuRegRec"
 	infoBubbleText="Found recent deployment failure. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"

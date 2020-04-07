@@ -1,6 +1,6 @@
 ﻿<properties
 	pageTitle="Deployment Failure RCA"
-	description="RCA - rca-over-constrained-allocation"
+	description="RCA - rca-over-constrained-allocation SkuRegRec"
 	infoBubbleText="Found recent deployment failure. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
