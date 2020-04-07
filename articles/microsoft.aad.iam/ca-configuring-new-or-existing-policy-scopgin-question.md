@@ -4,12 +4,12 @@
     authors="ashish-009"
 	ms.author="asbh"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596851,32596848,32596856,32596837,32570275,32570274,32615379,32615388,32615397,32615424,32615381,32615390,32615398"
-    productPesIds="16575,16579"
+    supportTopicIds="32596842"
+    productPesIds="16579"
     cloudEnvironments="public, Fairfax, Mooncake"
     schemaVersion="1"
-    articleId="f394c94f-4550-4d6c-87ec-84a57305bfcd"
-    	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
+    articleId="4501e774-7f81-4923-99c7-4b1ab44d157a"
+    ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Active Directory application sign in L1 issue
