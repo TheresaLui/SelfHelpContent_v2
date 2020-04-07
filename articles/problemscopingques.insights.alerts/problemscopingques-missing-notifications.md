@@ -17,7 +17,7 @@
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Not receiving notifications",
-    "fileAttachmentHint": "Provide screenshots of alert rule you are not receiving notifications for",
+    "fileAttachmentHint": "Please attach screenshots of all relevant details from the Azure portal (e.g. Alert id, Fired time).",
     "formElements": [
         {
             "id": "notification_type",
@@ -130,27 +130,33 @@
             ]
         },
         {
-            "id": "alert_ids",
+            "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide details of at least one Alert instance.",
+            "displayLabel": "Provide details of at least one Alert instance ([Example](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-managing-alert-instances)).",
             "watermarkText": "Provide details of at least one Alert instance.",
             "required": true,
-            "useAsAdditionalDetails": false
+            "useAsAdditionalDetails": false,
+            "hints": [
+                {
+                    "text": "Provide the Alert id as seen in Azure portal."
+                },
+                {
+                    "text": "Provide the timestamp and time zone (Fired time)."
+                },
+                {
+                    "text": "Screenshot of the alert instance."
+                }
+            ]
         },
         {
-            "id": "problem_description",
+            "id": "additional_information",
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",
-            "required": true,
-            "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "Any additional information you feel is relevant."
-                }
-            ]
+            "required": false,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"
