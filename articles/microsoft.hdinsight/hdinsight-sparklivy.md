@@ -10,7 +10,7 @@
     supportTopicIds="32629081"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
     articleId="hdinsight-sparklivy"
 	ownershipId="AzureData_HDInsight"
 />

@@ -10,7 +10,7 @@
     supportTopicIds="32636474"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
     articleId="hdinsight-vmunhealthy-lostnetworkconnectivity"
 	ownershipId="AzureData_HDInsight"
 />
