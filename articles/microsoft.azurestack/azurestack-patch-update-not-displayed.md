@@ -10,7 +10,7 @@
     supportTopicIds="32688666"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="78b3564e-465e-4867-9a29-e8c723c606da"
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
