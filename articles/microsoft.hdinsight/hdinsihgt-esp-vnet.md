@@ -10,7 +10,7 @@
     supportTopicIds="32629161"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
     articleId="hdinsihgt-esp-vnet"
 	ownershipId="AzureData_HDInsight"
 />
