@@ -32,6 +32,8 @@
 
 ## **Recommended Steps**
 
+Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
+
 * To expedite the process to increase quota, please follow the steps:
 
     * Go to [subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
