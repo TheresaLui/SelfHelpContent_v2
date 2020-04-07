@@ -10,12 +10,12 @@
 	supportTopicIds="32739487"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public,BlackForest, Fairfax, MoonCake, usnat, ussec"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
 	articleId="pricing-Help me with azure calculator"
 	ownershipId="ASMS_Billing"
 />
 
-# HHelp me with azure calculator
+# Help me with azure calculator
 
 ## **Recommended Steps**
 
