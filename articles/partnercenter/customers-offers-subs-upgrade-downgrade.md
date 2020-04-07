@@ -20,9 +20,7 @@
 
 # Upgrade or downgrade subscriptions
 
-Information about how to upgrade or downgrade different types of CSP subscriptions.
-
 ## **Recommended Documents**
 
-* [Support your customers with remote work](https://www.microsoft.com/microsoft-365/partners/news/article/support-your-customers-with-remote-work)
-* [Microsoft Partner Guidance for CSP Microsoft Office 365 E1 Trial](https://o365pp.blob.core.windows.net/media/Resources/Teamwork/Partner%20FAQ%20-%20Guidance%20for%20Microsoft%20Office%20365%20E1%206mos%20Trial.pdf)
+* [Unable to sign into Partner Center](https://docs.microsoft.com/partner-center/unable-to-sign-in)
+* [Reset my password](https://docs.microsoft.com/partner-center/reset-my-pasword)
