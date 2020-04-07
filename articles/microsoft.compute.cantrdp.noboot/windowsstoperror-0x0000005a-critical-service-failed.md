@@ -27,7 +27,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 ## **Recommended Steps**
 
-* To restore access to the VM, follow the steps in the [Critical Service Failed](https://docs.microsoft.comazure/virtual-machines/troubleshooting/troubleshoot-critical-service-failed-boot-error) troubleshooting guide
+* To restore access to the VM, follow the steps in the [Critical Service Failed](https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-0x5a--critical-service-failed) troubleshooting guide
 
 ## **Recommended Documents**
 
