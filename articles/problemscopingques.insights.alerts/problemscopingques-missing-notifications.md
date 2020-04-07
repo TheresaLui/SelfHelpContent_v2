@@ -148,7 +148,7 @@
                     "text": "Screenshot of the alert instance"
                 },
                 {
-                    "text": "Learn more about finding Alert instances"
+                    "text": "<a href='http://microsoft.com'>Learn more about finding Alert instances</a>"
                 }
             ]
         },
