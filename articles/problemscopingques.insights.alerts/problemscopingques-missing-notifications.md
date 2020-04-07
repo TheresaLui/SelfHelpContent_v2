@@ -139,16 +139,16 @@
             "useAsAdditionalDetails": false,
             "hints": [
                 {
-                    "text": "Provide the Alert id as seen in Azure portal."
+                    "text": "Provide the Alert id as seen in Azure portal"
                 },
                 {
-                    "text": "Provide the timestamp and time zone (Fired time)."
+                    "text": "Provide the timestamp and time zone (Fired time)"
                 },
                 {
-                    "text": "Screenshot of the alert instance."
+                    "text": "Screenshot of the alert instance"
                 },
                 {
-                    "text": "<a href=\"https://docs.microsoft.com/azure/azure-monitor/platform/alerts-managing-alert-instances#find-alert-instances\">Learn more | Find alert instances</a>"
+                    "text": "<a href=\"https://docs.microsoft.com/azure/azure-monitor/platform/alerts-managing-alert-instances#find-alert-instances\">Learn more about finding Alert instances</a>"
                 }
             ]
         },
