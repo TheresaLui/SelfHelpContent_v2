@@ -33,5 +33,6 @@
 
 ## **Recommended Documents**
 
+* Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
 * [Library Unavailability Causing Job Failures](https://kb.azuredatabricks.net/libraries/library-install-latency.html#problem-library-unavailability-causing-job-failures)
 * [Cluster Cancels Python Command Execution due to Library Conflict](https://kb.azuredatabricks.net/python/python-command-cancelled.html#problem-cluster-cancels-python-command-execution-due-to-library-conflict)

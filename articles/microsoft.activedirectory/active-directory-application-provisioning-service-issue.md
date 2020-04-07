@@ -11,7 +11,7 @@
 	supportTopicIds="32629797"
 	productPesIds="16666"
 	articleId="42ac923b-3124-4577-8ffd-5e0e2716a9a9"
-	cloudEnvironments="public, Fairfax, Mooncake"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 

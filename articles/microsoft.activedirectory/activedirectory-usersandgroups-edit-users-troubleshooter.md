@@ -7,7 +7,7 @@
     displayOrder="2520"
     selfHelpType="resource"
     resourceTags="userandgroups_overview,userandgroups_user"
-    cloudEnvironments="public, Fairfax, Mooncake"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="070f7d13-893f-483d-ad0c-80167337398d"
 	ownershipId="AzureIdentity_User"
 />

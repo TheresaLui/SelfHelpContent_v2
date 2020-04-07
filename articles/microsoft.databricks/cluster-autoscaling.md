@@ -31,8 +31,10 @@
 > Please visit [blog](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/) for more details on our commitment to customers and Microsoft cloud services continuity.
 
 
+
 ## **Recommended Documents**
 
+* Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
 * [Enable and configure autoscaling](https://docs.databricks.com/user-guide/clusters/sizing.html#enable-and-configure-autoscaling)
 * [How autoscaling behaves](https://docs.databricks.com/user-guide/clusters/sizing.html#how-autoscaling-behaves)
 * [Introducing Databricks Optimized Autoscaling on Apache Spark](https://databricks.com/blog/2018/05/02/introducing-databricks-optimized-auto-scaling.html)

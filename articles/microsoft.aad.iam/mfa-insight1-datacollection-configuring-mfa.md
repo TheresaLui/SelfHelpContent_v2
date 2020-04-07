@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615515"
     productPesIds="16579"
-    cloudEnvironments="public, Fairfax, Mooncake"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="mfa-insight1-datacollection-configuringMFA"
     ownershipId="AzureIdentity_MultiFactorAuthentication"
