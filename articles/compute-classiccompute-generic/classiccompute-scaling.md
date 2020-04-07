@@ -29,9 +29,9 @@ For general troubleshooting, please follow these guides:<br>
 
 1. Understand the common scenarios of Allocation Failures for Cloud Services ([Allocation Failure](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#common-issues))<br>
 2. If it’s a new deployment try to deploy in another region or use another size in the given region. Check available ([sizes](https://docs.microsoft.com/azure/cloud-services/cloud-services-sizes-specs)) and ([regions](https://azure.microsoft.com/global-infrastructure/services/?products=cloud-services)) for Cloud Services role.<br>
-3. If it’s an upgrade or scaling of an existing deployment, try one of these ([solutions.](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions))<br>
+3. If it’s an upgrade or scaling of an existing deployment, try one of these ([solutions](https://docs.microsoft.com/azure/cloud-services/cloud-services-allocation-failures#solutions))<br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [How to Scale your Cloud Services?](https://azure.microsoft.com/documentation/articles/cloud-services-how-to-scale/) <br>
 * [How to change the VM size of an existing role](https://docs.microsoft.com/azure/cloud-services/cloud-services-sizes-specs#changing-the-size-of-an-existing-role)<br>
