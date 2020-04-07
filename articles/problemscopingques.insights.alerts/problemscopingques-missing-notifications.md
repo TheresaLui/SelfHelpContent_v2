@@ -148,7 +148,7 @@
                     "text": "Screenshot of the alert instance"
                 },
                 {
-                    "text": "<a href='http://microsoft.com'>Learn more about finding Alert instances</a>"
+                    "text": "<a href='https://docs.microsoft.com/azure/azure-monitor/platform/alerts-managing-alert-instances#find-alert-instances'>Learn more about finding Alert instances</a>"
                 }
             ]
         },
