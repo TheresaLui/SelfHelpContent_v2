@@ -17,7 +17,7 @@
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Not receiving notifications",
-    "fileAttachmentHint": "Please attach screenshots of all relevant details from the Azure portal (e.g. Alert id, Fired time).",
+    "fileAttachmentHint": "Please attach screenshots of all relevant details from the Azure portal. For example, Alert id, Fired time.",
     "formElements": [
         {
             "id": "notification_type",
