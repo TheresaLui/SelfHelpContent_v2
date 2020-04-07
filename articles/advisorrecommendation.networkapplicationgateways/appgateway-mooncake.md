@@ -39,7 +39,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 2.0,
-  "learnMoreLink": "https://aka.ms/aa_gatewayrec_learnmore",
+  "learnMoreLink": "https://aka.ms/aa_gatewayrec_learnmore_cn",
   "description": "Upgrade your SKU or add more instances to ensure fault tolerance",
   "longDescription": "Deploying two or more medium or large sized instances will ensure business continuity during outages caused by planned or unplanned maintenance.",
   "potentialBenefits": "Ensure business continuity through application gateway resilience",

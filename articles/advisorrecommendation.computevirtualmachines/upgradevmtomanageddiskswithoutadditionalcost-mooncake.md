@@ -39,7 +39,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/md_overview",
+  "learnMoreLink": "https://aka.ms/md_overview_cn",
   "description": "Upgrade VM from Premium Unmanaged Disks to Managed Disks at no additional cost",
   "longDescription": "We have identified that your VM is using premium unmanaged disks that can be migrated to managed disks at no additional cost. Azure Managed Disks provides higher resiliency, simplified service management, higher scale target and more choices among several disk types. This upgrade can be done through the portal in less than 5 minutes.",
   "potentialBenefits": "Leverage higher resiliency and other benefits of Managed Disks",

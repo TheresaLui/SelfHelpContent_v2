@@ -39,7 +39,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 3.0,
-  "learnMoreLink": "https://aka.ms/aa_vmbackup_learnmore",
+  "learnMoreLink": "https://aka.ms/aa_vmbackup_learnmore_cn",
   "description": "Enable virtual machine backup to protect your data from corruption and accidental deletion",
   "longDescription": "Configure virtual machine backup to protect your mission critical data against accidental deletion or corruption.",
   "potentialBenefits": "Improved data resilience and performance",
