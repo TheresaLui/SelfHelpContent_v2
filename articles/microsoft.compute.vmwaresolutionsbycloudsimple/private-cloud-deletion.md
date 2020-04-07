@@ -12,7 +12,7 @@
     productPesIds="16733"
     cloudEnvironments="public" 
     articleId="0c24ae6d-5aee-4cff-bcd9-36e9725da3da"    
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting Private Cloud deletion

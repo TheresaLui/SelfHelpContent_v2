@@ -11,7 +11,7 @@
 	supportTopicIds="32565575"
 	cloudEnvironments="public"
 	articleId="2a3006a3-4a51-4559-83fa-763564712030"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureNotificationHubs"
 />
 
 # Issues with Devices or Notifications/Telemetric

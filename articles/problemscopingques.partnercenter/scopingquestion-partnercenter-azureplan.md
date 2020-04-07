@@ -10,7 +10,7 @@
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_azureplan"
 	clientIds="partnercenter"
-	ownershipId="PartnerCenter_Billing_and_Invoicing"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 
 />
 # Partner Center Azure plan request

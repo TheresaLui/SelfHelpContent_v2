@@ -11,7 +11,7 @@
 	supportTopicIds="32565577"
 	cloudEnvironments="public"
 	articleId="a55b9a63-400a-4843-82ab-18681288ec7c"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureNotificationHubs"
 />
 
 # Errors and Exceptions/403 Forbidden or Quota Exceeded

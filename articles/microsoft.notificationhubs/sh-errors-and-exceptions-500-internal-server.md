@@ -11,7 +11,7 @@
 	supportTopicIds="32565579"
 	cloudEnvironments="public"
 	articleId="c2bffbfb-3ec9-4002-905c-c8782ab3eb65"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureNotificationHubs"
 />
 
 # Errors and Exceptions/500 Internal Server
