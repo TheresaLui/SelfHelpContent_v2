@@ -30,20 +30,27 @@ To avoid potential memory and disk data corruption, the guest operating system s
 
 ## **Recommended Steps**
 
-To investigate the causes of the VM crash, please use the following references that might be helpful:<br>
-
-| Guest OS | Troubleshooting links |
-| --- | --- |
-| Windows | [Windows Bugcheck Analysis](https://social.technet.microsoft.com/wiki/contents/articles/6302.windows-bugcheck-analysis.aspx)<br>[Bug Check Code Reference](https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-code-reference2)|
-| Ubuntu | [Kernel crash dump](https://help.ubuntu.com/lts/serverguide/kernel-crash-dump.html)<br>[Ubuntu wiki - Crash Dump Recipe](https://wiki.ubuntu.com/Kernel/CrashdumpRecipe)|
-| SUSE | [Troubleshooting Application Crash or Core Dump](https://www.suse.com/support/kb/doc/?id=7004526)|
-| RHEL | [Analyzing the core dump](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s1-kdump-crash)<br>[How to troubleshoot kernel crashes, hangs, or reboots with kdump on Red Hat Enterprise Linux](https://access.redhat.com/solutions/6038)<br>[Kernel crash dump guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/kernel_administration_guide/kernel_crash_dump_guide)|<br>
-
-### Redundancy and health
-
 To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set. To learn more about these high availability options, refer to the following articles:<br>
 
 ## **Recommended Documents**
+
+**Windows**
+* [Windows Bugcheck Analysis](https://social.technet.microsoft.com/wiki/contents/articles/6302.windows-bugcheck-analysis.aspx)
+* [Bug Check Code Reference](https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-code-reference2)
+
+**Ubuntu** 
+* [Kernel crash dump](https://help.ubuntu.com/lts/serverguide/kernel-crash-dump.html)
+* [Ubuntu wiki - Crash Dump Recipe](https://wiki.ubuntu.com/Kernel/CrashdumpRecipe)
+
+**SUSE** 
+* [Troubleshooting Application Crash or Core Dump](https://www.suse.com/support/kb/doc/?id=7004526)
+
+**RHEL** 
+* [Analyzing the core dump](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/deployment_guide/s1-kdump-crash)
+* [How to troubleshoot kernel crashes, hangs, or reboots with kdump on Red Hat Enterprise Linux](https://access.redhat.com/solutions/6038)
+* [Kernel crash dump guide](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/kernel_administration_guide/kernel_crash_dump_guide)
+
+**General Azure**
 * [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
 * [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)<br>
 

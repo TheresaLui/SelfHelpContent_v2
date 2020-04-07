@@ -29,14 +29,6 @@ To avoid potential memory and disk data corruption, the guest operating system s
 - A faulting kernel mode driver<br>
 
 ## **Recommended Steps**
-
-To investigate the causes of the VM crash, please use the following references that might be helpful:<br>
-
-
-
-
-### Redundancy and health
-
 To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set. To learn more about these high availability options, refer to the following articles:<br>
 
 ## **Recommended Documents**
