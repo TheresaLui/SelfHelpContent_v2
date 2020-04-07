@@ -19,6 +19,8 @@
 
 ## **Recommended Documents**
 
+Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
+
 ### **Configuration and Setup**
 
 * Expiration of secret key can cause issues connecting to storage resources. To recreate secret please follow [these steps](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret)
