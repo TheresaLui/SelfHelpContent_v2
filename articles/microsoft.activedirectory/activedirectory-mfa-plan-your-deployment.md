@@ -6,7 +6,7 @@
 	resource="Microsoft_AAD_IAM"
 	authors="InbarckMS"
 	ms.author="inbarc"
-	displayOrder="1"
+	displayOrder="0"
 	articleId="20ec9e53-2ffe-4801-8a21-648af2260b5d"
 	diagnosticScenario=""
 	selfHelpType="generic"
