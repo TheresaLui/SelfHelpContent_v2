@@ -1,14 +1,14 @@
-<properties
-	pageTitle="Allocation Failure RCA SkuRegRec"
-	description="AllocationFailed create standalone VM SkuRegRec"
+﻿<properties
+	pageTitle="Deployment Failure RCA"
+	description="RCA - VM size not in region"
 	infoBubbleText="Found recent deployment failure. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottAzure"
 	ms.author="scotro"
 	displayOrder=""
-	articleId="AllocationFailure_RCA-create-standalone-SkuRegRec"
-	diagnosticScenario="AllocationFailure"
+	articleId="DeploymentFailure_RCA-VMSizeValidation_NotInRegion-SkuRegRec"
+	diagnosticScenario="DeploymentFailure"
 	selfHelpType="rca"
 	supportTopicIds=""
 	resourceTags=""
@@ -16,7 +16,7 @@
 	cloudEnvironments="public, fairfax"
 	ownershipId="Compute_VirtualMachines"
 />
-# We ran diagnostics on your resource and found an issue
+# We cannot deploy the selected size of your resource
 
 The region this VM is associated with did not have enough capacity at the time to support its allocation.<br>
 
@@ -38,5 +38,3 @@ Please review the regions suggested above that are closest to the requested regi
 | PowerShell | Use the [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command and filter for a region:<br>`Get-AzComputeResourceSku` &vert; `where {$_.Locations.Contains("<<insert-region>>")}` |
  Azure CLI | Use the [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command with the `--location` parameter to filter for a region and the `--size` parameter to match the size name:<br>`az vm list-skus --location <<insert-region>> --size <<insert-size>> --output table`|
 | REST API| Use the [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation.|<br>
-
-You can also peruse [Products available by region](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines) to see which products are available in all the regions.
