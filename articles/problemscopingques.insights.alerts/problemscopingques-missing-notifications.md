@@ -133,7 +133,7 @@
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide details of at least one Alert instance (<a href="https://docs.microsoft.com/azure/azure-monitor/platform/alerts-managing-alert-instances">Learn more</a>).",
+            "displayLabel": "Provide details of at least one Alert instance (<a href=\"https://docs.microsoft.com/azure/azure-monitor/platform/alerts-managing-alert-instances\">Learn more</a>).",
             "watermarkText": "Provide details of at least one Alert instance.",
             "required": true,
             "useAsAdditionalDetails": false,
