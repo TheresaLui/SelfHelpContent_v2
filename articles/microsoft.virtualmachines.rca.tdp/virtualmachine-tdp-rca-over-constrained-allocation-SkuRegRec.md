@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	articleId="DeploymentFailure_RCA-over_constrained_allocation-SkuRegRec"
 	diagnosticScenario="DeploymentFailure"
