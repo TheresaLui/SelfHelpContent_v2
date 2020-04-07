@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32596872"
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="Conditional_Access_Resultant_Set_of_Policy_Issue"
     ownershipId="AzureIdentity_MultiFactorAuthentication"
