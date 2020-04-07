@@ -11,7 +11,7 @@
     productPesIds="16733"
     cloudEnvironments="public" 
     articleId="a5a7ecdd-3164-4639-b730-31cbba2d49f2"    
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting firewall table 
