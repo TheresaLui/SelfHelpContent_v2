@@ -2,7 +2,7 @@
 	pageTitle="Query Acceleration Issues with ADLS Gen2"
 	description="Query Acceleration Issues with ADLS Gen2"
 	authors="kartikshah9"
-    	ms.author="kashah"
+    ms.author="kashah"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32691202"
 	productPesIds="16598"
