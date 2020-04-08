@@ -112,8 +112,8 @@
     {
       "id": "4def4477-455a-e284-e463-dc65043d70a0",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
-      "searchTags": "Pass-through Authentication ",
+      "shortDescription": "Issues found when authenticating using Pass-through Authentication for Azure Active Directory",
+      "searchTags": "issues with pass-through login",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -160,8 +160,8 @@
     {
       "id": "6b153b2c-9b64-83b7-7118-ebfd840f671d",
       "longDescription": "",
-      "shortDescription": "Problems with Pass-through authentication connectors",
-      "searchTags": "Configuring Pass-Through Authentication ",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
+      "searchTags": "pass-through authentication for AAD",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -224,8 +224,8 @@
     {
       "id": "86902158-0870-cf45-2bc5-965e55d6ff95",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
-      "searchTags": "Configuring Pass-Through Authentication ",
+      "shortDescription": "Assistance need or issues found while enabling Pass-through Authentication for Azure Active Directory",
+      "searchTags": "issues with pass-through authentication",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -248,8 +248,8 @@
     {
       "id": "8bf447c9-08be-fe22-eee5-b7c83d0e7f36",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
-      "searchTags": "Pass-through authentication issues",
+      "shortDescription": "I have successfully implemented Pass-through Authentication but now need assistance managing it",
+      "searchTags": "managing pass-through authentication ",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
