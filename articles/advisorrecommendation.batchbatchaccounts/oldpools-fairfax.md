@@ -1,4 +1,4 @@
-es
+<properties
     pageTitle="Recreate your pool to get the latest node agent updates and bug fixes"
     description="Recreate your pool to get the latest node agent updates and bug fixes"
     authors="pkshultz,smith1511"
