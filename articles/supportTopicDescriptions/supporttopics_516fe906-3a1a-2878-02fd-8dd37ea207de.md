@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "705e2b62-ce0a-c8e0-e3f4-da8937b204cf",
+      "longDescription": "",
+      "shortDescription": "Covers sign-in problems and account lockout related completing MFA, legacy authentication or app passwords",
+      "searchTags": "issues to sign in due to MFA",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7225d915-5179-8b15-0b16-a8f8379883cc",
       "longDescription": "",
       "shortDescription": "Questions regarding  report viewing and manipulation or content within reports",
