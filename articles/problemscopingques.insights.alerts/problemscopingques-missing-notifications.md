@@ -17,7 +17,7 @@
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Not receiving notifications",
-    "fileAttachmentHint": "Please upload <a href='https://support.microsoft.com/en-us/help/13776/windows-10-use-snipping-tool-to-capture-screenshots'>screenshots</a> of all relevant details from the Azure portal. Please include Alert id, Fired time, and any other helpful information.",
+    "fileAttachmentHint": "Please upload screenshots of all relevant details from the Azure portal. Kindly include Alert id, Fired time, and any other relevant information which may help the support engineer troubleshoot the problem.",
     "formElements": [
         {
             "id": "notification_type",
