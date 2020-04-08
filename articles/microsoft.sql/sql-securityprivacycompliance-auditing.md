@@ -12,7 +12,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="9fcb9dab-5912-42b6-b6d8-9d0a4bd18c87"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Security"
 />
 
 # Auditing

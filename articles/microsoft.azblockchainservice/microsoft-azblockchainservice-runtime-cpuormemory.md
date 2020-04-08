@@ -12,7 +12,7 @@
 	productPesIds="16601"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="0bc2a15f-7681-4858-883f-7515fda90005"
-ownershipId="Compute_Automation"
+ownershipId="Azure_BlockchainService_Content"
 />
 
 # Azure Blockchain Service

@@ -11,7 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="ece11717-4811-4e05-8abd-1e41199d4c3c"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Telemetry"
 />
 
 # performance and query execution/monitoring, metrics and alerts

@@ -11,7 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="7346c116-110b-47ac-a8bf-e2814c075e76"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Portal"
 />
 
 # portal and client tools/azure data studio

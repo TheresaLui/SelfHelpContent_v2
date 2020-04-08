@@ -11,7 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="88708ffa-27c8-477a-a193-e2616160b6e1"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Provisioning"
 />
 
 # create drop and manage resources/server
