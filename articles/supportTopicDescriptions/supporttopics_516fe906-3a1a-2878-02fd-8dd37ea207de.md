@@ -80,8 +80,8 @@
     {
       "id": "2da3e32d-7f19-0acc-5174-f680ac441863",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for implementing or managing Password Hash Sync Authentication method for Azure Active Directory",
-      "searchTags": "issue with hash sync authentication ",
+      "shortDescription": "Assistance need or issues found while enabling Password Hash Sync for Azure Active Directory",
+      "searchTags": "issues with enabling password hash sync",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
