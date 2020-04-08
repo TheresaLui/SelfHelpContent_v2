@@ -1,15 +1,15 @@
 <properties
-	schemaVersion = "1"
-	selfHelpType = "problemScopingQuestions"
-	cloudEnvironments = "public, fairfax"
-	ownershipId = "AzureData_SQLDataWarehouse"
-	productPesIds = "15818"
-	supportTopicIds = "32738812"
-	pageTitle = "Administration and Security/SQL on-demand storage access control"
-	description = "Administration and Security/SQL on-demand storage access control"
-	articleId = "synapse-scoping-administrationandsecurity-sqlondemandstorageaccesscontrol"
-	authors = "saltug"
-	ms.author = "fipopovi, saltug"
+	schemaVersion="1"
+	selfHelpType="problemScopingQuestions"
+	cloudEnvironments="public, fairfax"
+	ownershipId="AzureData_SQLDataWarehouse"
+	productPesIds="15818"
+	supportTopicIds="32738812"
+	pageTitle="Administration and Security/SQL on-demand storage access control"
+	description="Administration and Security/SQL on-demand storage access control"
+	articleId="synapse-scoping-administrationandsecurity-sqlondemandstorageaccesscontrol"
+	authors="saltug"
+	ms.author="fipopovi, saltug"
 />
 
 # Administration and Security/SQL on-demand storage access control
@@ -21,7 +21,7 @@
     "resourceRequired": true,
     "fileAttachmentHint": "",
     "title": "SQL on-demand storage access control",
-    "formElements": 
+    "formElements":
     [
         {
             "id": "problem_start_time",
