@@ -13,7 +13,7 @@
   supportTopicIds=""
   resourceTags=""
   productPesIds="14783"
-  cloudEnvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="RedisCache_RedisCache"
 />
 

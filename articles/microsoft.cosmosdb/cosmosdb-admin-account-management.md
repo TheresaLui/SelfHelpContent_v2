@@ -9,7 +9,7 @@
 	supportTopicIds="32636765, 32681011"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-admin-account-management"
 	displayOrder="20"
 	category="Administration"

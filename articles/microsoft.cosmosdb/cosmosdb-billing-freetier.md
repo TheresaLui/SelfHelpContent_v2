@@ -9,7 +9,7 @@
 	supportTopicIds="32738666"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-billing-freetier"
 	displayOrder="102"
 	category="Security"
