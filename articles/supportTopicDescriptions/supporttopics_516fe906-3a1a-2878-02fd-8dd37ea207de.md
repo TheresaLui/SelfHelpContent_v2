@@ -264,8 +264,8 @@
     {
       "id": "93d6955d-5c3d-53a0-6168-c70655d19b9c",
       "longDescription": "",
-      "shortDescription": "Enabling Password Hash sync authentication",
-      "searchTags": "Issue with hash sync authentication ;Password issue with authentication ",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Password Hash Sync Authentication method for Azure Active Directory",
+      "searchTags": "issues with password hash sync",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
