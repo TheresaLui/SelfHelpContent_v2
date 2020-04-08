@@ -11,7 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="sqldb-selfhelp-solutions-availabilityandconnectivity-privatelink"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
 # availability and connectivity/privatelink

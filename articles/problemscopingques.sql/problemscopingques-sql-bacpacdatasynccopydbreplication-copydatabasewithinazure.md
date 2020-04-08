@@ -9,7 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="problem-scopingques-sql-bacpacdatasynccopydbreplication-copydatabasewithinazure-db"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_GeoDr"
 />
 # Copy database within Azure
 ---

@@ -14,7 +14,7 @@
 	resourceTags=""
 	productPesIds="13491, 16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
 # Database Inaccessible due to Azure Key Vault configuration

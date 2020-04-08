@@ -12,7 +12,7 @@
 	cloudEnvironments="public,blackForest,fairfax"
     resourceTags="servers, databases"
 	articleId="fe65a0a8-b9e5-4a2c-8f94-aa5cf5dc158a"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_BackupRestore"
 />
 
 # backup/restore/long-term backup retention
