@@ -40,8 +40,8 @@
     {
       "id": "10b30988-925a-95e0-f54f-8e5dbfc38a2d",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for AAD",
-      "searchTags": "issues with Seamless Single-Sign-on ",
+      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for Azure Active Directory",
+      "searchTags": "issues with Seamless Single-Sign-on",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
