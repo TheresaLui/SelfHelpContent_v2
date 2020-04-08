@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3ac88a67-b0a4-fe12-772f-8d9886ee3e66",
+      "longDescription": "",
+      "shortDescription": "Cover problems related to the MFA registration ",
+      "searchTags": "issues with MFA registration",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "431e0f26-4eec-99ae-12c0-2ab1c3261c1a",
       "longDescription": "",
       "shortDescription": "I have question related to Multi-Factor Authentication that do not fit in the other option here presented",
