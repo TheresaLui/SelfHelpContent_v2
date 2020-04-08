@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1d33a8e8-72a2-490d-b947-1479512b6694",
+      "longDescription": "",
+      "shortDescription": "Cover problems and questions about getting MFA registration status, authentication methods used during sign-in and insights ",
+      "searchTags": "issues with MFA usage ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1f09ca79-318d-0e16-6977-20b087d7a41b",
       "longDescription": "",
       "shortDescription": "Assistance needed for configuring Conditional Access rule that required Multi-Factor Authentication as a Access Control",
