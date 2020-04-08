@@ -382,6 +382,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cb7e67a1-742e-0dbd-c5d4-5eb6d296fcc8",
+      "longDescription": "",
+      "shortDescription": "Covers problems related telephony based MFA methods like not receiving text messages or phone calls",
+      "searchTags": "Authentication methods-phone, SMS",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d6f4e41d-1f1a-0b8a-018f-5f461d51c7b9",
       "longDescription": "",
       "shortDescription": "Assistance needed for Multi-Factor Authentication verification methods via tokens, SMS, Auth app, SMS",
