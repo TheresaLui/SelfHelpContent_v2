@@ -25,7 +25,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Compute/snapshots",
   "recommendationFriendlyName": "ManagedDiskSnapshot",
-  "recommendationMetadataState": "Enabled",
+  "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
     "email": "Sijia.Zhu@microsoft.com",
