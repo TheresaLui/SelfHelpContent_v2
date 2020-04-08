@@ -15,7 +15,7 @@
 	ownershipId="ASMS_Billing"
 />
 
-# HHelp me with azure calculator
+# Help me with azure calculator
 
 ## **Recommended Steps**
 
@@ -35,7 +35,7 @@ To share your estimate with other users, scroll down to the bottom of the page a
 * **How do CSPs view the estimate with the Cloud Solution Provider licensing program option?**<br>
 If your organization is a Cloud Solution Provider (CSP) and you have an account on the partner center portal, view the estimate with the CSP licensing program option selected. Sign in using the same credentials that you use for the partner center and then configure your estimate. Scroll down to the bottom of the page and change the drop-down **Licensing Program** to **CSP**. The page will refresh to show you the estimate with the CSP licensing program.
 
-* **I have an Enterprise Agreement with Microsoft. How do I view the estimate with t**he** Enterprise Agreement licensing program option?**<br>
+* **I have an Enterprise Agreement with Microsoft. How do I view the estimate with the Enterprise Agreement licensing program option?**<br>
 If your organization has an Enterprise Agreement (EA), view the estimate with the EA licensing program option selected. This feature is available for EA Admins, Department Admins (DA), and Account Owners (AO). The View Charges setting needs to be enabled for DA and AO roles. Users who have access to a subscription of the EA (i.e. owner, contributor, reader roles) will also be able to see the EA prices in the calculator. Sign in using your EA credentials and then configure your estimate. Scroll down to the bottom of the page and change the drop-down Licensing Program to Enterprise Agreement. Select the enrollment and click apply. The page will refresh to show you the estimate with the Enterprise Agreement licensing program.
 
 * **I have a Microsoft Customer Agreement with Microsoft. How do I view the estimate with the Microsoft Customer Agreement licensing program option?**<br>

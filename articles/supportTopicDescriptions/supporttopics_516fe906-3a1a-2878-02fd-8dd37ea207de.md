@@ -2,13 +2,12 @@
   pagetitle="SupportTopicDescriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de"
   description="SupportTopicDescriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de"
   authors="elixirsys2"
-  ms.author="marwa"
+  ms.author="marwa, v-vigra"
   selfhelptype="SupportTopicDescription"
   productpesids="516fe906-3a1a-2878-02fd-8dd37ea207de"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake"
   articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de"
-  ownershipId="AzureIdentity_Licensing"
-  />
+  ownershipid="AzureIdentity_Licensing" />
 # Support Topic Descriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de
 ---
 {
@@ -100,6 +99,14 @@
       "shortDescription": "I have question related to Multi-Factor Authentication that do not fit in the other option here presented",
       "searchTags": "Multi-Factor Authentication;MFA;General questions",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4858079d-1f79-6a42-c5c8-dea24bb6fc45",
+      "longDescription": "",
+      "shortDescription": "Issues with users accessing or completing self-service password reset registration",
+      "searchTags": "issues re self-service password registr",
+      "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -199,6 +206,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "85c7300d-3230-03d2-bf27-6a9668d7f854",
+      "longDescription": "",
+      "shortDescription": "Deployment or troubleshooting passwords not being written back to on-prem Active Directory",
+      "searchTags": "issue with password Writeback ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "866af4c0-2f66-10f4-3238-5f75346bb3fa",
       "longDescription": "",
       "shortDescription": "I need assistance understanding the Identity Score in Azure AD Identity Protection",
@@ -211,6 +226,14 @@
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
       "searchTags": "Configuring Pass-Through Authentication ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8899ddae-2a21-2cfe-1d1c-d6b3b70c8052",
+      "longDescription": "",
+      "shortDescription": "Assistance on configuring password policies",
+      "searchTags": "password policies",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -255,6 +278,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9d9ab527-f5bd-ddf3-733d-377a4693cc2a",
+      "longDescription": "",
+      "shortDescription": "Advisory questions related to password resets or changes",
+      "searchTags": "questions re password resets",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9f156991-7738-0aa5-8eb6-2a8b808df34b",
       "longDescription": "",
       "shortDescription": "Assistance with configuration of a specific ADFS feature (e.g. Trusts, Claims, Protection)",
@@ -268,6 +299,14 @@
       "shortDescription": "Assistance need or issues found while syncing Password Hash to AAD",
       "searchTags": "issue syncing password hash",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9fdcb08b-7f49-b049-1d0a-4da5d37845ee",
+      "longDescription": "",
+      "shortDescription": "Implementation advisory or troubleshooting problems related to password control, resets, and self-service registration ",
+      "searchTags": "Password control, resets, self-service",
+      "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -303,6 +342,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a8cbac0e-1040-67f7-971d-32f291e99dc0",
+      "longDescription": "",
+      "shortDescription": "Configuring self-service password reset for the tenant or subset of users",
+      "searchTags": "configure self-service password reset ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "af69e073-7ebb-6bc5-8427-eb5ccc8caf28",
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for activating or managing Azure Active Directory Identity Protection",
@@ -316,6 +363,14 @@
       "shortDescription": "Problems or advisory needs for configuring or working with Multi-factor Authentication",
       "searchTags": "Multi-factor Authentication;MFA;Configuring MFA",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c6a1908b-503e-a225-3442-d34acb04076c",
+      "longDescription": "",
+      "shortDescription": "Configured Banned Password are being allowed or assistance with setting up on-prem components",
+      "searchTags": "Azure AD banned password protection",
+      "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -388,6 +443,14 @@
       "shortDescription": "I need assistance or found an issue when configuring Azure AD Identity Protection settings",
       "searchTags": "Identity Protection;Configuring Identity Protection;Identity Protection settings",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fe15ae63-0dc8-3581-9a2d-8b7ae5c101c3",
+      "longDescription": "",
+      "shortDescription": "Password change request is not occuring or not occuring within an expected amount of time",
+      "searchTags": "issue with resetting password",
+      "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {

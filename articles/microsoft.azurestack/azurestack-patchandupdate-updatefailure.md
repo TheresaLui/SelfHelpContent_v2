@@ -10,7 +10,7 @@
     supportTopicIds="32629195,32630577"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-patchandupdate-updatefailure"
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />

@@ -12,7 +12,7 @@
     productPesIds="16733"
     cloudEnvironments="public" 
     articleId="0bffcea6-3c61-4b74-9521-d9cd72f25b4a"    
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting Private Cloud creation 

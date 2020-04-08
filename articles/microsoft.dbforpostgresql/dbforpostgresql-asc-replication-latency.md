@@ -11,7 +11,7 @@
 	diagnosticScenario="OrcasPostgresReplicationLAtency"
     selfHelpType="rca"
     resourceTags="windows, linux"
-    productPesIds="16222"
+    productPesIds="16222, 17067"
     cloudEnvironments="public, Fairfax"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />

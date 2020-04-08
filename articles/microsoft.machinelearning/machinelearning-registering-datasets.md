@@ -9,7 +9,7 @@
     supportTopicIds="32690849"
     resourceTags=""
     productPesIds="16644"
-    cloudEnvironments="Public"
+    cloudEnvironments="public, fairfax, mooncake"
  	articleId="machinelearning-registering-datasets"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />

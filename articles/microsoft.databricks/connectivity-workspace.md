@@ -19,6 +19,8 @@
 
 ## **Recommended Documents**
 
+Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
+
 ### **Configuration and Setup**
 
 * [Workspace Access Control](https://docs.microsoft.com/azure/databricks/administration-guide/access-control/workspace-acl)

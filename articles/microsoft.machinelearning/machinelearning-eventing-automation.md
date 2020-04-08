@@ -10,7 +10,7 @@
     supportTopicIds="32690852"
     resourceTags=""
     productPesIds="16644"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, mooncake"
     articleid="machinelearning-eventing-automation"
     ownershipId="AzureML_AzureMachineLearningServices"
 />

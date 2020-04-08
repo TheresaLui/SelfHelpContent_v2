@@ -8,7 +8,7 @@
 	ms.author="johwu"
 	supportTopicIds="32690872"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake"
 	articleId="microsoft.machinelearning.workspace.python"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"

@@ -10,7 +10,7 @@
     supportTopicIds=""
     resourceTags="azureadrreports_missingdata_audit,azureadrreports_missingdata_signin"
     productPesIds=""
-    cloudEnvironments="public, Fairfax, Mooncake"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="bd14b922-7cde-4bef-bb27-6023a77d124e"
 	ownershipId="AzureIdentity_User"
 />
