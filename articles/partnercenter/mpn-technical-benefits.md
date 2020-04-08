@@ -15,7 +15,7 @@
 	resourceTags="mpn"
 	productPesIds="15960,17007"
 	cloudEnvironments="public"
-	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Technical Benefits request
 

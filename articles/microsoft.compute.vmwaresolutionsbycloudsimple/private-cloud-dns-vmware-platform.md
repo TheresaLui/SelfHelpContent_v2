@@ -12,7 +12,7 @@
     productPesIds="16733"
     cloudEnvironments="public" 
     articleId="bc184e4e-7354-481a-b934-6011b4084acf"    
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting Private Cloud DNS 

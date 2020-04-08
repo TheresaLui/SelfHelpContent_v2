@@ -12,7 +12,7 @@
     productPesIds="16733"
     cloudEnvironments="public" 
     articleId="eedc4c0d-7571-4dc8-aa44-5a280debf9f8"    
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting vCenter access 
