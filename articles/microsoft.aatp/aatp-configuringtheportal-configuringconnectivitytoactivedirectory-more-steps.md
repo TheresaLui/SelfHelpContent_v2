@@ -11,7 +11,7 @@
 	supportTopicIds="32729025"
 	resourceTags=""
 	productPesIds="16264"
-	cloudEnvironments="Public,fairfax"
+	cloudEnvironments="Public,fairfax, usnat, ussec"
 	articleId="Configuring connectivity to Active Directory"
 	ownershipId="Azure_Advanced_Threat_Protection"
 />

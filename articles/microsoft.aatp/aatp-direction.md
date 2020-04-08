@@ -10,7 +10,7 @@
 supportTopicIds="32729030,32729039,32729041,32729031,32729034,32729037,32729038,32729040,32729044,32729024,32729033,32729036,32729042,32729035,32729043,32729045,32729046"
 	resourceTags=""
 	productPesIds="16264"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="4d0a34be-66f5-4310-956d-d45645d24cc2"
 	ownershipId="Azure_Advanced_Threat_Protection"
 />

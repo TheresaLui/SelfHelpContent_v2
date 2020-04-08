@@ -13,7 +13,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public, BlackForest, Fairfax, Mooncake"
+    cloudEnvironments="public, BlackForest, Fairfax, Mooncake, usnat, ussec"
 	ownershipId="AzureData_DataFactory"
 />
 
