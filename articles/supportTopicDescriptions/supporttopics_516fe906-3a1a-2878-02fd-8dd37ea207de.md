@@ -422,6 +422,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d5ed0f1b-b3e3-0d28-4ff7-bacf1ea7f9cc",
+      "longDescription": "",
+      "shortDescription": "Cover problems related to MFA prompts and re-authentication",
+      "searchTags": "issues with MFA promptws",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d6f4e41d-1f1a-0b8a-018f-5f461d51c7b9",
       "longDescription": "",
       "shortDescription": "Assistance needed for Multi-Factor Authentication verification methods via tokens, SMS, Auth app, SMS",
