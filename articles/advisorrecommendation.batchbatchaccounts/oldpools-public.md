@@ -45,7 +45,7 @@
     {
       "actionId": "f2e12464-8d37-40e5-80e6-1567410f18b6",
       "actionType": "Document",
-      "description": "Check out the "Pool lifetime" section of the Batch best practices article.",
+      "description": "Check out the \"Pool lifetime\" section of the Batch best practices article.",
       "documentLink": "https://aka.ms/batch_oldpool_learnmore"
     }
   ],
