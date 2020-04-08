@@ -19,7 +19,7 @@
 
 # VM boot error: #0x00000067 Configuration Initialization Failed
 <!--issueDescription-->
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code #0x00000067 'Config Initiallization Failed'. This issue occurs when the Initial Machine Configuration (IMC) reference is setup on the Boot loader, but its reference is missing in the registry.
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code #0x00000067 'Config Initialization Failed'. This issue occurs when the Initial Machine Configuration (IMC) reference is setup on the Boot loader, but its reference is missing in the registry.
 <!--/issueDescription-->
 
 Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would show the message **Your PC ran into a problem and needs to restart** with the error code **CONFIG INITIALIZATION FAILED** or code **0x00000067**. This may also help you diagnose future issues and determine if a boot error is the cause.<br>
