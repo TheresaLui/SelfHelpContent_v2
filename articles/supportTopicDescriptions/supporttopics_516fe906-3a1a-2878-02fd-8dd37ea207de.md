@@ -454,6 +454,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dedeb286-c8a1-cd08-3224-1b09e6b8d622",
+      "longDescription": "",
+      "shortDescription": "Cover questions around different licenses that allow customers to use MFA",
+      "searchTags": "issues with MFA licensing options",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ed228605-ddb7-d2c3-626d-dae69939a1a6",
       "longDescription": "",
       "shortDescription": "I need help configuring a new or existing Conditional Access policy that fits my company needs",
