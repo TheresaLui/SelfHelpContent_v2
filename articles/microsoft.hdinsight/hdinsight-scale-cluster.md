@@ -56,7 +56,7 @@ To temporarily disable Operations Management Suite (OMS) follow steps below:
 
 **Additional Information**
 
-* HDInsight does not allow you to upgrade worker node disk sizes on a running cluster. Currently, you must choose the disk size when the cluster is created. HDInsight clusters are designed to be easily dropped and re-created.
+* HDInsight does not allow you to upgrade worker node disk sizes on a running cluster. Currently, you must choose the disk size when the cluster is created. HDInsight clusters are designed to be easily dropped and re-created.
 * Once a cluster is deployed, customer’s cannot increase or decrease the diskspace of the nodes. Customer’s can free up logs or free data on mount to get more disk space.
 * It is recommended that you scale down HDInsight to a minimum of three worker nodes. For Kafka, you cannot scale down the worker nodes.
 * Scaling your HDInsight is not possible via ARM templates. You can scale your cluster using five different methods:

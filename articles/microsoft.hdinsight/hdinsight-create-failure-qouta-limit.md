@@ -61,10 +61,10 @@ To request a quota increase, follow these steps:
 
 1. Go to Azure portal, and then select **Help + support**
 2. Select **New support request**
-3. On the **New support request** page, under **Basics** tab, select the following options:
+3. On the **New support request** page, under **Basics** tab, select the following options:
 
-    - Issue type: Service and subscription limits (quotas)
+    - Issue type: Service and subscription limits (quotas)
     - Subscription: the subscription you want to modify
-    - Quota type: HDInsight
+    - Quota type: HDInsight
 
 For more information, see [Create a support ticket to increase core](https://docs.microsoft.com/azure/hdinsight/hdinsight-capacity-planning#quotas).
