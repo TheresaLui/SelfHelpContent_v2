@@ -160,8 +160,8 @@
     {
       "id": "6b153b2c-9b64-83b7-7118-ebfd840f671d",
       "longDescription": "",
-      "shortDescription": "Problems with Pass-through authentication connectors",
-      "searchTags": "Configuring Pass-Through Authentication ",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
+      "searchTags": "pass-through authentication for AAD",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
