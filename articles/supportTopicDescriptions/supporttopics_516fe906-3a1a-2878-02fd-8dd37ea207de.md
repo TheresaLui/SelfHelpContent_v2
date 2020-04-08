@@ -366,6 +366,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c06c9a32-88a1-e73a-7829-a9db5c1109bd",
+      "longDescription": "",
+      "shortDescription": "Covers problems of MFA failing on an existing NPS extension deployment",
+      "searchTags": "MFA failing on NPS extension ",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c526e8c2-4ce8-b375-7632-67265634d2da",
       "longDescription": "",
       "shortDescription": "Problems or advisory needs for configuring or working with Multi-factor Authentication",
