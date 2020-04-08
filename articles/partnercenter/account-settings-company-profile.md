@@ -10,10 +10,10 @@
 	articleId="account_company_profile"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635659"
+	supportTopicIds="32635659, 32725792"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="15960, 17000"
 	cloudEnvironments="public"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
@@ -25,3 +25,4 @@ Information about company profile in partner center.
 ## **Recommended Documents**
 
 * [Update your partner profile](https://docs.microsoft.com/partner-center/update-your-partner-profile)
+* [Update details for your Legal Business profile](https://support.microsoft.com/help/4512635/update-the-country-and-details-for-your-legal-business-profile-on-part)
