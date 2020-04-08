@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32629650, 32629653, 32629654, 32629655, 32629656"
 	productPesIds="15454"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public,fairfax,mooncake"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ActionGroup"
 />
@@ -17,7 +17,7 @@
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Not receiving notifications",
-    "fileAttachmentHint": "Please attach screenshots of all relevant details from the Azure portal. For example, Alert id, Fired time.",
+    "fileAttachmentHint": "Please upload <a href='https://support.microsoft.com/en-us/help/13776/windows-10-use-snipping-tool-to-capture-screenshots'>screenshots</a> of all relevant details from the Azure portal. Please include Alert id, Fired time, and any other helpful information.",
     "formElements": [
         {
             "id": "notification_type",
