@@ -432,8 +432,8 @@
     {
       "id": "f61f03f5-b93d-bfdd-5a7a-6b2acc30f507",
       "longDescription": "",
-      "shortDescription": "Issues found when authenticating using Password Hash Sync for AAD",
-      "searchTags": "issue with password hash sync ",
+      "shortDescription": "Issues found when authenticating using Password Hash Sync for Azure Actively Directory",
+      "searchTags": "issues with password hash sync login",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
