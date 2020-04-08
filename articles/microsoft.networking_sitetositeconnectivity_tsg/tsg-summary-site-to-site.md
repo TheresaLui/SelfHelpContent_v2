@@ -17,6 +17,4 @@
 
 # Site-to-site VPN connectivity issues
 
-This troubleshooter will guide you to find the root cause and resolution for customers experiencing Site-to-site VPN connectivity issues using Azure VPN Gateway.
-
-Please also visit the **[emerging issues and known bugs](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/254656/Site-to-Site?anchor=active-site-to-site-work-items)** page for recent issues.
+This troubleshooter will guide you to find the root cause and resolution for customers experiencing Site-to-site VPN connectivity issues using Azure VPN Gateway. Please also visit the **[emerging issues and known bugs](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/254656/Site-to-Site?anchor=active-site-to-site-work-items)** page for recent issues.
