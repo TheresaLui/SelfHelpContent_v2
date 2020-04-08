@@ -296,8 +296,8 @@
     {
       "id": "9f4a09a2-be11-953a-e3e8-6758264ed813",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while syncing Password Hash to AAD",
-      "searchTags": "issue syncing password hash",
+      "shortDescription": "Assistance need or issues found while syncing Password Hash to Azure Active Directory",
+      "searchTags": "issue syncing password hash;issues with password hash sync",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
