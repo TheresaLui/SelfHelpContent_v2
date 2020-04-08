@@ -6,8 +6,8 @@
     resource="databaseAccounts"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="cosmosdb-mongo-upgrade-rca"
-    diagnosticScenario="CosmosDBMongoUpgradeInsight"
+    articleId="cosmosdb-mongo-criticalupgrade-rca"
+    diagnosticScenario="CosmosDBMongoCriticalUpgradeInsight"
     selfHelpType="rca"
     supportTopicIds="32636757"
     resourceTags=""
@@ -18,14 +18,14 @@
 
 # Upgrade to MongoDB API engine version 3.6
 
-## Your database account, <!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName--> qualifies to be updated to the latest version of Azure Cosmos DB's API for MongoDB
+## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Upgrading to the latest version of the service will provide the most up to date functionality, as well as enhancements in performance, stability, and the latest fixes.
+Upgrading to the latest version of Azure Cosmos DB's API for MongoDB will help you resolve the issues you are facing and provide the most up to date functionality, as well as enhancements in performance, stability, and the latest fixes.
 
 <!--/issueDescription-->
 
-The upgrade process will not provide any service interruptions or downtime. It will also not require any data or index migrations. As soon as you start the process, your account will be queued to proceed with the upgrade. You will be notified when your account has finished upgrading.
+You may face service interruptions or downtime during this process. It may also require data or index migrations. We will proceed with the upgrade only with your consent at a time of your convenience. As soon as you start the process, your account will be queued to proceed with the upgrade. You will be notified when your account has finished upgrading.
 
 1. Benefits of upgrading to version 3.6
 
