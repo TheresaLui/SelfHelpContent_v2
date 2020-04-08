@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "82dcee55-9583-282d-051c-7d8d5ed99b29",
+      "longDescription": "",
+      "shortDescription": "Cover problems related to other authentication methods like problems with creating hardware OATH tokens in Azure AD and 3rd party MFA providers",
+      "searchTags": "tokens and 3rd party auth methods",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "85c7300d-3230-03d2-bf27-6a9668d7f854",
       "longDescription": "",
       "shortDescription": "Deployment or troubleshooting passwords not being written back to on-prem Active Directory",
