@@ -122,7 +122,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
-            "infoBalloonText": ""
+            "infoBalloonText": "",
+            "useAsAdditionalDetails": true
         }
     ]
 }
