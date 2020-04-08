@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0c73b179-e6da-2cb9-fd5f-59a77c4a95c2",
+      "longDescription": "",
+      "shortDescription": "Cover problems related to On-Premises MFA server deployments like activations and configuration",
+      "searchTags": "issue with MFA server deployment",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0fc93581-1a62-3006-bbe1-6aeff78e5862",
       "longDescription": "",
       "shortDescription": "One or more of my users received at least one unexpected Multi-Factor Authentication request I need assistance understanding why",
