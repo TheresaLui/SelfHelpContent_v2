@@ -17,7 +17,7 @@
 	ms.author = "fipopovi, saltug"
 />
 
-# Administration and Security/SQL on-demand storage access control
+# Administration and Security/SQL on-demand storage access control 
 
 ## **Recommended Steps**
 
