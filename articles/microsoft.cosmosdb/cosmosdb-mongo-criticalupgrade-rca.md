@@ -21,11 +21,9 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Upgrading to the latest version of the service will help you resolve the issues you are facing and provide the most up to date functionality, as well as enhancements in performance, stability, and the latest fixes.
+Upgrading to the latest version of Azure Cosmos DB's API for MongoDB will help you resolve the issues you are facing and provide the most up to date functionality, as well as enhancements in performance, stability, and the latest fixes.
 
 <!--/issueDescription-->
-
-## Upgrade to MongoDB API engine version 3.6
 
 You may face service interruptions or downtime during this process. It may also require data or index migrations. We will proceed with the upgrade only with your consent at a time of your convenience. As soon as you start the process, your account will be queued to proceed with the upgrade. You will be notified when your account has finished upgrading.
 
@@ -42,8 +40,7 @@ You may face service interruptions or downtime during this process. It may also 
 2. Changes from previous engine versions
 
    - MongoDB collections will only have the _id property indexed by default
-   - Per request timeout is going to be 30 seconds
-   - Recommended time to refresh idle connections is now 30 minutes
+   - Per request timeout is going to be 60 seconds
 
 3. Action required
 
