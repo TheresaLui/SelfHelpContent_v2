@@ -4,15 +4,15 @@
 	cloudEnvironments = "public, fairfax, blackforest, mooncake"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	productPesIds = "15818"
-	supportTopicIds = "32738812"
-	pageTitle = "Administration and Security/SQL on-demand storage access control"
-	description = "Administration and Security/SQL on-demand storage access control"
-	articleId = "synapse-scoping-administrationandsecurity-sqlondemandstorageaccesscontrol"
+	supportTopicIds = "32738811"
+	pageTitle = "Authentication failure/SQL on-demand storage access"
+	description = "Authentication failure/SQL on-demand storage access"
+	articleId = "synapse-scoping-authenticationfailure-sqlondemandstorageaccess"
 	authors = "saltug"
 	ms.author = "fipopovi, saltug"
 />
 
-# Administration and Security/SQL on-demand storage access control 
+# Authentication failure/SQL on-demand storage access
 
 ---
 {
@@ -20,7 +20,7 @@
     "subscriptionRequired": true,
     "resourceRequired": true,
     "fileAttachmentHint": "",
-    "title": "SQL on-demand storage access control",
+    "title": "SQL on-demand storage access",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -47,7 +47,8 @@
             "displayLabel": "Do you use AAD or SQL login?",
             "watermarkText": "",
             "infoBalloonText": "",
-            "dropdownOptions": [
+            "dropdownOptions":
+            [
                 {
                     "value": "Azure Active Directory",
                     "text": "Azure Active Directory"
@@ -66,7 +67,8 @@
             "displayLabel": "What storage account type do you want to query? (Blob Storage, ADLS Gen1, ADLS Gen2)",
             "watermarkText": "",
             "infoBalloonText": "",
-            "dropdownOptions": [
+            "dropdownOptions":
+            [
                 {
                     "value": "Blob Storage",
                     "text": "Blob Storage"
@@ -93,7 +95,8 @@
             "displayLabel": "What type of credential do you use? (UserIdentity, ManagedIdentity, SAS)",
             "watermarkText": "",
             "infoBalloonText": "",
-            "dropdownOptions": [
+            "dropdownOptions":
+            [
                 {
                     "value": "UserIdentity",
                     "text": "UserIdentity"
@@ -119,9 +122,9 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
-            "infoBalloonText": "",
-            "useAsAdditionalDetails": true
+            "infoBalloonText": ""
         }
     ]
 }
 ---
+
