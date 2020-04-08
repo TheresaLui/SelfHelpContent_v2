@@ -1,7 +1,7 @@
 <properties
 	schemaVersion = "1"
 	selfHelpType = "problemScopingQuestions"
-	cloudEnvironments = "public, fairfax"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	productPesIds = "15818"
 	supportTopicIds = "32738812"
@@ -21,8 +21,7 @@
     "resourceRequired": true,
     "fileAttachmentHint": "",
     "title": "SQL on-demand storage access control",
-    "formElements": 
-    [
+    "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
@@ -48,8 +47,7 @@
             "displayLabel": "Do you use AAD or SQL login?",
             "watermarkText": "",
             "infoBalloonText": "",
-            "dropdownOptions":
-            [
+            "dropdownOptions": [
                 {
                     "value": "Azure Active Directory",
                     "text": "Azure Active Directory"
@@ -68,8 +66,7 @@
             "displayLabel": "What storage account type do you want to query? (Blob Storage, ADLS Gen1, ADLS Gen2)",
             "watermarkText": "",
             "infoBalloonText": "",
-            "dropdownOptions":
-            [
+            "dropdownOptions": [
                 {
                     "value": "Blob Storage",
                     "text": "Blob Storage"
@@ -96,8 +93,7 @@
             "displayLabel": "What type of credential do you use? (UserIdentity, ManagedIdentity, SAS)",
             "watermarkText": "",
             "infoBalloonText": "",
-            "dropdownOptions":
-            [
+            "dropdownOptions": [
                 {
                     "value": "UserIdentity",
                     "text": "UserIdentity"
@@ -123,7 +119,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
-            "infoBalloonText": ""
+            "infoBalloonText": "",
+            "useAsAdditionalDetails": true
         }
     ]
 }
