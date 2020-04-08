@@ -312,8 +312,8 @@
     {
       "id": "9fdde265-d795-2419-31f3-63c345393b8e",
       "longDescription": "",
-      "shortDescription": "Issues found when authenticating using Seamless Single Sign-on for AAD",
-      "searchTags": "issues with Seamless SSO login ",
+      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for Azure Active Directory",
+      "searchTags": "issues with Seamless SSO login",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
