@@ -37,7 +37,7 @@
 		{
             "id": "VerboseTracing",
             "visibility": null,
-            "order": 1,
+            "order": 2,
             "controlType": "infoblock",
             "displayLabel": null,
             "content": "Before requesting support, Microsoft suggests you enable advanced diagnostics that will gather more information about your problem.",
@@ -53,7 +53,7 @@
         {
             "id": "enableVerboseTracing1",
             "visibility": null,
-            "order": 2,
+            "order": 3,
             "controlType": "infoblock",
             "displayLabel": null,
             "content": "To enable advance diagnosis:",
@@ -69,7 +69,7 @@
         {
             "id": "enableVerboseTracing2",
             "visibility": null,
-            "order": 3,
+            "order": 4,
             "controlType": "infoblock",
             "displayLabel": null,
             "content": "Open a new browser tab and paste https://login.microsoftonline.com/common/debugmode/enable?user={username} (replace {username} with the upn of the user in question; eg: user=johndoe@contoso.com) and then try to reproduce the error.",
@@ -85,7 +85,7 @@
         {
             "id": "hasErrorData",
             "visibility": null,
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Do you have a correlation ID and Timestamp for an error related to this problem?",
             "content": null,
@@ -110,7 +110,7 @@
         {
             "id": "getCorrelationId",
             "visibility": "hasErrorData==no",
-            "order": 5,
+            "order": 6,
             "controlType": "infoblock",
             "displayLabel": null,
             "content": "Microsoft can provide a solution to your problem faster if you can get a correlation ID and Timestamp for this problem, reproduce the error by signing into the app with your own account.",
@@ -126,7 +126,7 @@
         {
             "id": "correlationId",
             "visibility": "hasErrorData==yes",
-            "order": 6,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "Correlation ID from Error message:",
             "content": null,
@@ -142,7 +142,7 @@
         {
             "id": "timestamp",
             "visibility": "hasErrorData==yes || hasErrorData==no",
-            "order": 7,
+            "order": 8,
             "controlType": "textbox",
             "displayLabel": "Timestamp from Error message:",
             "content": null,
@@ -158,7 +158,7 @@
         {
             "id": "appNameOrId",
             "visibility": "null",
-            "order": 8,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the Application name or Application ID experiencing this problem?",
             "content": null,
@@ -174,7 +174,7 @@
         {
             "id": "userNameOrId",
             "visibility": "hasErrorData==no",
-            "order": 9,
+            "order": 10,
             "controlType": "textbox",
             "displayLabel": "Which user is experiencing this problem?",
             "content": null,
@@ -190,7 +190,7 @@
         {
             "id": "problem_description",
             "visibility": null,
-            "order": 10,
+            "order": 11,
             "controlType": "multilinetextbox",
             "displayLabel": "If you received an error, please provide the error message details:",
             "content": null,
@@ -206,7 +206,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 11,
+            "order": 12,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
