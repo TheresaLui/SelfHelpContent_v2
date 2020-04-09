@@ -24,4 +24,4 @@ You can use Azure Resource Manager (ARM) templates to create and manage resource
 
 * [Overview of Azure Resource Manager template](https://docs.microsoft.com/azure/azure-resource-manager/template-deployment-overview)
 * [ARM template for Azure Stream Analytics](https://docs.microsoft.com/azure/templates/microsoft.streamanalytics/2016-03-01/streamingjobs)
-* [Create Diagnostic Settings using Resource Manager template](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings-template)
+* [Create Diagnostic Settings using Resource Manager template](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings-template)
