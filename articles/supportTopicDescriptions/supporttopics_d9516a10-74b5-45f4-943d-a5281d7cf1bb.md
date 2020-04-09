@@ -5,11 +5,12 @@
   ms.author="rnagpal"
   selfhelptype="SupportTopicDescription"
   productpesids="d9516a10-74b5-45f4-943d-a5281d7cf1bb"
-  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
+  cloudEnvironments="public, blackforest, fairfax, mooncake"
   articleid="cosmos-db-supporttopic-description"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="cosmossupportability@microsoft.com"     ownershipId="StorageMediaEdge_DataLakeStorageGen2"
+  feedbackemail="cosmossupportability@microsoft.com"
+  ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 # Support Topic Descriptions for d9516a10-74b5-45f4-943d-a5281d7cf1bb
 ---
