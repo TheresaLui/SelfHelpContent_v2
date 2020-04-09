@@ -9,7 +9,7 @@
 	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="4501e774-7f81-4923-99c7-4b1ab44d157a"
-	ownershipId="AzureIdentity_IdentityDiagnostics"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # PREVIEW: Get help from our Virtual Assistant
