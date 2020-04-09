@@ -10,7 +10,7 @@
 	articleId="mpn_benefits_creating_support_tickets"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692620,32725869"
+	supportTopicIds="32725869"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="17007"
