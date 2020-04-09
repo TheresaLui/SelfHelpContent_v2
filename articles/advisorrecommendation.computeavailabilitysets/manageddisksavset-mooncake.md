@@ -23,7 +23,7 @@
   },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "High",
-  "recommendationResourceType": "Microsoft.Compute/availabilitySets2",
+  "recommendationResourceType": "Microsoft.Compute/availabilitySets",
   "recommendationFriendlyName": "ManagedDisksAvSet",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
