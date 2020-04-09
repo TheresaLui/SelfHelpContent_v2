@@ -28,7 +28,7 @@ We apologize for any inconvenience this may have caused you. We are continuously
 
 To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.
 
-Azure Standard Storage disks have a limit of 500 IOPS for each VHD.  We have documented a few best practices for [Configuring Azure Virtual Machines for Optimal Storage Performance](http://blogs.msdn.com/b/mast/archive/2014/10/14/configuring-azure-virtual-machines-for-optimal-storage-performance.aspx)<br> 
+Azure Standard Storage disks have a limit of 500 IOPS for each VHD.  We have documented a few best practices for [Configuring Azure Virtual Machines for Optimal Storage Performance](http://blogs.msdn.com/b/mast/archive/2014/10/14/configuring-azure-virtual-machines-for-optimal-storage-performance.aspx)<br> 
 
 Depending on the workload, a striped disk or configuring Storage Spaces inside the Guest VM may help mitigate the issue.  You may also want to consider Premium Storage if the issue persists.<br>
 

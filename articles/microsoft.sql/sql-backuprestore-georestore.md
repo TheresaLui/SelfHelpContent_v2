@@ -11,7 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax"
 	articleId="f39fd2ea-00d9-4c05-a271-35611754ad1c"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_BackupRestore"
 />
 
 # backup/restore/restore

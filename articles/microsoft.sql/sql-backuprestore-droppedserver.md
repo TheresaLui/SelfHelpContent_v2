@@ -11,7 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="cd7113bd-0d84-4617-9420-416b7f09bbc5"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_BackupRestore"
 />
 
 # Backup/restore/recover dropped server or resource group

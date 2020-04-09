@@ -11,7 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="29f2e1ab-bae1-4060-a8b4-8d15e0091788"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
 # availability and connectivity/VNET service endpoints

@@ -14,7 +14,7 @@
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_DataSync"
 />
 # Snapshot isolation transaction failed
 
