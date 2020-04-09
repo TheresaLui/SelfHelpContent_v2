@@ -2,7 +2,7 @@
     pageTitle="Storage Account's AD Object is missing in AD"
     description="Storage Account's AD Object is missing in AD"
     service="microsoft.storage"
-    resource="file storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""
