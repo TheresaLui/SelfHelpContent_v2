@@ -6,7 +6,7 @@
     articleId="af0be9f8-e590-48d0-9e19-380d8819b8dc_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_VirtualMachines"
 />
 # Enable virtual machine backup to protect your data from corruption and accidental deletion
 ---

@@ -6,7 +6,7 @@
     articleId="57ecb3cd-f2b4-4cad-8b3a-232cca527a0b_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Upgrade VM from Premium Unmanaged Disks to Managed Disks at no additional cost
 ---

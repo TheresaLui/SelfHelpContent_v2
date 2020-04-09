@@ -6,7 +6,7 @@
     articleId="6a2b1e70-bd4c-4163-86de-5243d7ac05ee_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Upgrade your SKU or add more instances to ensure fault tolerance
 ---

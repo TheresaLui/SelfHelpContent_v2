@@ -6,7 +6,7 @@
     articleId="02cfb5ef-a0c1-4633-9854-031fbda09946_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Use Managed Disks to improve data reliability
 ---
@@ -25,7 +25,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Compute/availabilitySets",
   "recommendationFriendlyName": "ManagedDisksAvSet",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Invalid",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",
