@@ -10,12 +10,12 @@
 	articleId="mpn_benefits_creating_support_tickets"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692620"
+	supportTopicIds="32692620,32725869"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17007"
 	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 
 # MPN - Creating technical support tickets on behalf of customers
