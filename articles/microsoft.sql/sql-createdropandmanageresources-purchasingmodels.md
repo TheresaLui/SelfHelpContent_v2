@@ -11,7 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="48307c17-7e37-4428-80e9-b3a30fdfa4dd"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Provisioning"
 />
 
 # create drop and manage resources/purchasing models (DTU, vCore, reserved capacity, etc)
