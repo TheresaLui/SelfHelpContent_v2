@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32596842"
 	productPesIds="16579"
-	cloudEnvironments="public, fairfax, mooncake"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="4501e774-7f81-4923-99c7-4b1ab44d157a"
 	ownershipId="AzureIdentity_MultiFactorAuthentication"
@@ -32,7 +32,7 @@
             "displayLabel": "What security action would you like to take?",
             "watermarkText": "Example: Create a conditional access policy to block legacy authentication",
             "required": true,
-			"diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
 		{
             "id": "VerboseTracing",
