@@ -18,7 +18,7 @@
 
 # Customer sees KRB_AP_ERR_MODIFIED error in the event log
 <!--issueDescription-->
-Customer sees KRB_AP_ERR_MODIFIED error in the event log
+Customer sees KRB-AP-ERR-MODIFIED error in the event log
 <!--/issueDescription-->
 
 
