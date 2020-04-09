@@ -23,9 +23,9 @@
   },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "High",
-  "recommendationResourceType": "Microsoft.Compute/availabilitySets",
+  "recommendationResourceType": "Microsoft.Compute/availabilitySets2",
   "recommendationFriendlyName": "ManagedDisksAvSet",
-  "recommendationMetadataState": "Invalid",
+  "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",
