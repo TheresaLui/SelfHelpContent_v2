@@ -11,7 +11,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	articleId="cbfbab1e-05e9-4631-9ef8-e1467611c765"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Provisioning"
 />
 
 # SQL Database issues scaling a database or elastic pool

@@ -10,7 +10,7 @@
 	supportTopicIds="32628264"
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="165e9160-a06b-4279-873b-5faa1cefbcba"
 	ownershipId="AzureData_AzureSQLVM"
 />

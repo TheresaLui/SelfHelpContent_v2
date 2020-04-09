@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0c73b179-e6da-2cb9-fd5f-59a77c4a95c2",
+      "longDescription": "",
+      "shortDescription": "Cover problems related to On-Premises MFA server deployments like activations and configuration",
+      "searchTags": "issue with MFA server deployment",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0fc93581-1a62-3006-bbe1-6aeff78e5862",
       "longDescription": "",
       "shortDescription": "One or more of my users received at least one unexpected Multi-Factor Authentication request I need assistance understanding why",
@@ -40,8 +48,8 @@
     {
       "id": "10b30988-925a-95e0-f54f-8e5dbfc38a2d",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for AAD",
-      "searchTags": "issues with Seamless Single-Sign-on ",
+      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for Azure Active Directory",
+      "searchTags": "issues with Seamless Single-Sign-on",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -51,6 +59,14 @@
       "shortDescription": "Assistance needed or issues found related to ADFS certificates",
       "searchTags": "ADFS Certificates;ADFS SSL;ADFS Token signing",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1d33a8e8-72a2-490d-b947-1479512b6694",
+      "longDescription": "",
+      "shortDescription": "Cover problems and questions about getting MFA registration status, authentication methods used during sign-in and insights ",
+      "searchTags": "issues with MFA usage ",
+      "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -80,8 +96,8 @@
     {
       "id": "2da3e32d-7f19-0acc-5174-f680ac441863",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for implementing or managing Password Hash Sync Authentication method for Azure Active Directory",
-      "searchTags": "issue with hash sync authentication ",
+      "shortDescription": "Assistance need or issues found while enabling Password Hash Sync for Azure Active Directory",
+      "searchTags": "issues with enabling password hash sync",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -91,6 +107,14 @@
       "shortDescription": "I have successfully implemented Seamless SSO but now need assistance managing it.",
       "searchTags": "Usage of Seamless SSO ",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3ac88a67-b0a4-fe12-772f-8d9886ee3e66",
+      "longDescription": "",
+      "shortDescription": "Cover problems related to the MFA registration ",
+      "searchTags": "issues with MFA registration",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -112,8 +136,8 @@
     {
       "id": "4def4477-455a-e284-e463-dc65043d70a0",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
-      "searchTags": "Pass-through Authentication ",
+      "shortDescription": "Issues found when authenticating using Pass-through Authentication for Azure Active Directory",
+      "searchTags": "issues with pass-through login",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -160,8 +184,8 @@
     {
       "id": "6b153b2c-9b64-83b7-7118-ebfd840f671d",
       "longDescription": "",
-      "shortDescription": "Problems with Pass-through authentication connectors",
-      "searchTags": "Configuring Pass-Through Authentication ",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
+      "searchTags": "pass-through authentication for AAD",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -178,6 +202,14 @@
       "longDescription": "",
       "shortDescription": "Problems or Advisory requests for activating, managing, or enabling passwordless authentication solutions ",
       "searchTags": "passwordless;Paswordless Auth;Passwordless Configuration",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "705e2b62-ce0a-c8e0-e3f4-da8937b204cf",
+      "longDescription": "",
+      "shortDescription": "Covers sign-in problems and account lockout related completing MFA, legacy authentication or app passwords",
+      "searchTags": "issues to sign in due to MFA",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -200,9 +232,17 @@
     {
       "id": "81259da7-71bb-3dca-e224-3eea611edd78",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
-      "searchTags": "Problems with authentication connectors",
+      "shortDescription": "Assistance needed or issues found with one or more Pass-through Authentication connector(s)",
+      "searchTags": "Problems with authentication connectors;issues with pass-through auth connectors",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "82dcee55-9583-282d-051c-7d8d5ed99b29",
+      "longDescription": "",
+      "shortDescription": "Cover problems related to other authentication methods like problems with creating hardware OATH tokens in Azure AD and 3rd party MFA providers",
+      "searchTags": "tokens and 3rd party auth methods",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -224,8 +264,8 @@
     {
       "id": "86902158-0870-cf45-2bc5-965e55d6ff95",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
-      "searchTags": "Configuring Pass-Through Authentication ",
+      "shortDescription": "Assistance need or issues found while enabling Pass-through Authentication for Azure Active Directory",
+      "searchTags": "issues with pass-through authentication",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -248,8 +288,8 @@
     {
       "id": "8bf447c9-08be-fe22-eee5-b7c83d0e7f36",
       "longDescription": "",
-      "shortDescription": "Problems or Advisory requests for implementing or managing Pass-through Authentication method for Azure Active Directory",
-      "searchTags": "Pass-through authentication issues",
+      "shortDescription": "I have successfully implemented Pass-through Authentication but now need assistance managing it",
+      "searchTags": "managing pass-through authentication ",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -264,8 +304,8 @@
     {
       "id": "93d6955d-5c3d-53a0-6168-c70655d19b9c",
       "longDescription": "",
-      "shortDescription": "Enabling Password Hash sync authentication",
-      "searchTags": "Issue with hash sync authentication ;Password issue with authentication ",
+      "shortDescription": "Problems or Advisory requests for implementing or managing Password Hash Sync Authentication method for Azure Active Directory",
+      "searchTags": "issues with password hash sync",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -296,8 +336,8 @@
     {
       "id": "9f4a09a2-be11-953a-e3e8-6758264ed813",
       "longDescription": "",
-      "shortDescription": "Assistance need or issues found while syncing Password Hash to AAD",
-      "searchTags": "issue syncing password hash",
+      "shortDescription": "Assistance need or issues found while syncing Password Hash to Azure Active Directory",
+      "searchTags": "issue syncing password hash;issues with password hash sync",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -312,8 +352,8 @@
     {
       "id": "9fdde265-d795-2419-31f3-63c345393b8e",
       "longDescription": "",
-      "shortDescription": "Issues found when authenticating using Seamless Single Sign-on for AAD",
-      "searchTags": "issues with Seamless SSO login ",
+      "shortDescription": "Assistance need or issues found while enabling Seamless Single Sign-on for Azure Active Directory",
+      "searchTags": "issues with Seamless SSO login",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -358,6 +398,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c06c9a32-88a1-e73a-7829-a9db5c1109bd",
+      "longDescription": "",
+      "shortDescription": "Covers problems of MFA failing on an existing NPS extension deployment",
+      "searchTags": "MFA failing on NPS extension ",
+      "category": "configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c526e8c2-4ce8-b375-7632-67265634d2da",
       "longDescription": "",
       "shortDescription": "Problems or advisory needs for configuring or working with Multi-factor Authentication",
@@ -379,6 +427,22 @@
       "shortDescription": "Assistance needed with ADFS extranet lockouts or ADFS lockout policies, i.e. protection against Password Spray attacks or Brute force attacks",
       "searchTags": "ADFS Extranet;ADFS Extranet Lockout;Lockout Policies;Brute Force Attacks;Password Spray Attacks",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "cb7e67a1-742e-0dbd-c5d4-5eb6d296fcc8",
+      "longDescription": "",
+      "shortDescription": "Covers problems related telephony based MFA methods like not receiving text messages or phone calls",
+      "searchTags": "Authentication methods-phone, SMS",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d5ed0f1b-b3e3-0d28-4ff7-bacf1ea7f9cc",
+      "longDescription": "",
+      "shortDescription": "Cover problems related to MFA prompts and re-authentication",
+      "searchTags": "issues with MFA promptws",
+      "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -414,6 +478,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dedeb286-c8a1-cd08-3224-1b09e6b8d622",
+      "longDescription": "",
+      "shortDescription": "Cover questions around different licenses that allow customers to use MFA",
+      "searchTags": "issues with MFA licensing options",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ed228605-ddb7-d2c3-626d-dae69939a1a6",
       "longDescription": "",
       "shortDescription": "I need help configuring a new or existing Conditional Access policy that fits my company needs",
@@ -432,8 +504,8 @@
     {
       "id": "f61f03f5-b93d-bfdd-5a7a-6b2acc30f507",
       "longDescription": "",
-      "shortDescription": "Issues found when authenticating using Password Hash Sync for AAD",
-      "searchTags": "issue with password hash sync ",
+      "shortDescription": "Issues found when authenticating using Password Hash Sync for Azure Actively Directory",
+      "searchTags": "issues with password hash sync login",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },

@@ -12,7 +12,7 @@
     supportTopicIds="32636763,32636796,32636801,32636775,32636812"
     resourceTags=""
     productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 

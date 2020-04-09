@@ -14,7 +14,7 @@
     resourceTags=""
     productPesIds="13491"
     cloudEnvironments="public,blackForest,fairfax,mooncake"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Telemetry"
 />
 
 # We ran diagnostics on your resource and found high IO or high log rate usage

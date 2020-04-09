@@ -31,10 +31,10 @@
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Select the virtual machine running SQL",
 	    "dynamicDropdownOptions": {
-        "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
-        "jTokenPath": "value",
-        "textProperty": "name",
-        "valueProperty": "id",
+        "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+        "jTokenPath": "value",
+        "textProperty": "name",
+        "valueProperty": "id",
         "textPropertyRegex": ".*",
 	"defaultDropdownOptions": {
                            "value": "dont_know_answer",

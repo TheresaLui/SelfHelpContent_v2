@@ -25,5 +25,5 @@ We have identified that the log backup has failed, because the data sources of t
 
 ## **Recommended Steps**
 
-* If this error occurs during a scheduled backup, the Azure Backup Service will auto-heal this issue with a full backup 
+* If this error occurs during a scheduled backup, the Azure Backup Service will auto-heal this issue with a full backup 
 * In case of an on-demand backup, manually trigger a full backup

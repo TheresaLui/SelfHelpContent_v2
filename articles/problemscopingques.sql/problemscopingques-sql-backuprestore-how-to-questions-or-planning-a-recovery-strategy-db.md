@@ -9,7 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake"
 	schemaVersion="1"
 	articleId="problem-scopingques-sql-backuprestore-how-to-questions-or-planning-a-recovery-strategy-db"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_BackupRestore"
 />
 # Advisory-how-to-questions-or-planning-a-recovery-strategy
 ---

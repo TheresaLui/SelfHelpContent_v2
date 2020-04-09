@@ -9,7 +9,7 @@
 	supportTopicIds="32636829"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-stored-procedure"
 	displayOrder="66"
 	category="Core (SQL)"
