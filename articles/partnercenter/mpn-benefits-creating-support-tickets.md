@@ -25,6 +25,7 @@ Resources providing knowledge of how to create technical support ticket on behal
 ## **Recommended Documents**
 
 * [Providing technical support](https://docs.microsoft.com/partner-center/provide-technical-support)
+* [Technical Support for Microsoft Partners](https://support.microsoft.com/help/4020188/technical-support-for-microsoft-partners) 
 * [Microsoft Partner Network Support contract activation and Access ID in Partner Center](https://support.microsoft.com/help/2904733/microsoft-partner-network-support-contract-activation)
-* [Using Technical Presales and Deployment Services](https://support.microsoft.com/help/3121537/using-technical-presales-and-deployment-services)
+
 
