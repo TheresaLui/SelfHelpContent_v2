@@ -19,7 +19,7 @@
 
 
 <!--issueDescription-->
-We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated host node reboot action**.
+We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** experienced downtime at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated host node reboot action**.
 <!--/issueDescription-->
 
 The host node reboot was triggered by our Azure monitoring systems that detected a **CPU Error** on the physical node where the virtual machine was hosted. This node has been taken out of service for debugging and your VM has been transferred over to a different node. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
