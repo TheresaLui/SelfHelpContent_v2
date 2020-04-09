@@ -2,7 +2,7 @@
     pageTitle="Hybrid module install issues or Join issues?"
     description="Hybrid module install issues or Join issues?"
     service="microsoft.storage"
-    resource="file storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""
