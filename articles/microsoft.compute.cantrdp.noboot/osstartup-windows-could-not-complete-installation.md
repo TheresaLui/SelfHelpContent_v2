@@ -1,6 +1,6 @@
 <properties
     pageTitle="VM boot error: Windows could not complete installation"
-    description="Virtual machine failed to boot with the installation error message Windows could not complete the installation."
+    description="Virtual machine failed to boot with the installation error message 'Windows could not complete the installation'."
     infoBubbleText="A boot error occurred your VM during the Windows installation process."
     service="microsoft.compute"
     resource="virtualmachines"
@@ -20,7 +20,7 @@
 # VM Boot Error: Windows could not complete installation
 
 <!--issueDescription-->
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code **Windows could not complete the installation**. If you encounter this error message, it means that Azure attempted a first boot of a generalized image but had trouble to completing the *sysprep* process. In other words, the image is in an undeployable state and cannot be recovered.
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code 'Windows could not complete the installation'. If you encounter this error message, it means that Azure attempted a first boot of a generalized image but had trouble to completing the sysprep process. In other words, the image is in an undeployable state and cannot be recovered.
 <!--/issueDescription-->
 
 Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code **Windows could not complete the installation. To install Windows on this computer, restart the installation**. This may also help you diagnose future issues and determine if a boot error is the cause.<br>
