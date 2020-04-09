@@ -53,7 +53,7 @@
             "order": 4,
             "required": false,
             "controlType": "textbox",
-            "displayLabel": If an error was displayed, what was the error message?",
+            "displayLabel": "If an error was displayed, what was the error message?",
             "watermarkText": "",
             "infoBalloonText": ""
         },
