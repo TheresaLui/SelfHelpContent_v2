@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Use Ephemeral OS Disk VMs for more performance"
-    description="For frequent Reimage operations, prefer IaaS VMs with Ephemeral OS Disk option"
+    pageTitle="Use Ephemeral OS Disk VMs for Cost Savings"
+    description="For Short-Lived VMs or VMs with Stateless workload, prefer IaaS VMs with Ephemeral OS Disk option"
     authors="aadevteam"
     ms.author="aadevteam"
     articleId="dc045941-8e65-437b-992b-1f0acd28bb6e_Public"
@@ -16,7 +16,7 @@
     "schemaVersion": 2.0,
     "dataSource": "SAS"
   },
-  "recommendationCategory": "Performance",
+  "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Compute/virtualMachines",
   "recommendationFriendlyName": "EphemeralOsDisk",
@@ -25,24 +25,24 @@
   "owner": {
     "email": "ramsaic@microsoft.com",
     "icm": {
-      "routingId": "MDM://Azure/Billing",
-      "service": "Azure",
-      "team": "Azure"
+      "routingId": "MDM://OneFleet Node/AzureHost-Agent-Sev-3-4",
+      "service": "OneFleet Node",
+      "team": "AzureHost-Agent-Sev-3-4"
     },
     "serviceTreeId": "12345678-9012-3456-7890-123456789012"
   },
-  "ingestionClientIdentities": ["https://testblobaadreccoram.blob.core.windows.net/testblobaad-1?sv=2019-02-02&ss=b&srt=sco&sp=rwdlac&se=2020-02-04T18:57:47Z&st=2020-01-28T10:57:47Z&spr=https&sig=XQcGerVhoMRMZpxD0efvz5eXba4IvO1%2BmoFk8SqnOV8%3D"],
-  "version": 2.0,
+  "ingestionClientIdentities": ["3cf3c489-3096-425a-940e-abd5f0c52c73"],
+  "version": 3.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/ephemeral-os-disks",
-  "description": "(V2)Use Ephemeral OS Disk VMs for more performance",
-  "longDescription": "(V2)For frequent Reimage operations, prefer IaaS VMs with Ephemeral OS Disk option",
-  "potentialBenefits": "This will improve VM Reimage duration to a great extent(around one half of duration taken by IaaS VM)",
+  "description": "(Use Ephemeral OS Disk VMs for more performance",
+  "longDescription": "For short-lived VMs or VMs with stateless workloads, prefer IaaS VMs with Ephemeral OS Disk option",
+  "potentialBenefits": "This will reduce the Cost, with zero charge on OS disk. It will also improve the waiting time involved with multiple Creates/Deletes. Instead can adopt the much quicker Reimage VM approach, to wipe the contents on OS disk and reset it to fresh clean state, just like a brand new VM",
   "actions": [
     {
       "actionId": "5093444f-7ef5-41ea-9fac-d9c94fcdb911",
       "description": "Transfer to using Ephemeral OS Disk",
       "actionType": "Document",
-      "documentLink": "{externalLink}"
+      "documentLink": "https://docs.microsoft.com/azure/virtual-machines/windows/ephemeral-os-disks"
     }
   ],
   "resourceMetadata": {
@@ -58,7 +58,7 @@
   },
   "displayLabel": "Use Ephemeral OS Disk",
   "additionalColumns": [],
-  "testData": "9ff53016-3d9d-4e40-94b0-873871ac1b07,/subscriptions/9ff53016-3d9d-4e40-94b0-873871ac1b07/resourceGroups/TestEphmVmssRG-1/providers/Microsoft.Compute/virtualMachines/vmssteste_0"	,
-  "tip": "This will improve VM Reimage duration to a great extent(around one half of duration taken by IaaS VM)"
+  "testData": "9ff53016-3d9d-4e40-94b0-873871ac1b07,/subscriptions/9ff53016-3d9d-4e40-94b0-873871ac1b07/resourceGroups/TestAADRecco-RG-1/providers/Microsoft.Compute/virtualMachines/TestWinEphmVM"	,
+  "tip": "This will reduce the Cost, with zero charge on OS disk. Also improves the waiting time involved with multiple Creates/Deletes. Instead can adopt the much quicker Reimage VM approach, to wipe the contents on OS disk and reset it to fresh clean state, just like a brand new VM)"
 }
 ---
