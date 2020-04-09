@@ -1,27 +1,40 @@
 <properties
-    pageTitle="Active Directory application sign in L1 issue"
-    description="appssigninl1datacollectiondoc"
-    authors="ashish-009"
-	ms.author="asbh"
-    selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596842"
-    productPesIds="16579"
-    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-    schemaVersion="1"
-    articleId="4501e774-7f81-4923-99c7-4b1ab44d157a"
-    ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
+	pageTitle="PREVIEW: Get help from our intelligent knowledge base"
+	description="Get help from our intelligent knowledge base"
+	authors="hsku"
+    ms.author="hsku"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32596842"
+	productPesIds="16579"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	schemaVersion="1"
+	articleId="4501e774-7f81-4923-99c7-4b1ab44d157a"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
-# Active Directory application sign in L1 issue
-
+# PREVIEW: Get help from our Virtual Assistant
 ---
 {
+    "subscriptionRequired": false,
     "resourceRequired": false,
-	"subscriptionRequired": false,
-    "title": "Active Directory application sign in L1 issue",
+    "title": "PREVIEW: Get help from our intelligent knowledge base",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+        "title": "PREVIEW: Get help from our intelligent knowledge base",
+        "description": "",
+        "insightNotAvailableText": "We did not find a match for your specific problem in our knowledge base. See links below for other info that may address your problem."
+    },
     "formElements": [
         {
+            "id": "userInput",
+            "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What security action would you like to take?",
+            "watermarkText": "Example: Create a conditional access policy to block legacy authentication",
+            "required": true,
+			"diagnosticInputRequiredClients": "Portal"
+        },
+		{
             "id": "VerboseTracing",
             "visibility": null,
             "order": 1,
