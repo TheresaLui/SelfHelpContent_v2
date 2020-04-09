@@ -21,7 +21,7 @@
     "fileAttachmentHint": null,
     "diagnosticCard": {
         "title": "PREVIEW: Get help from our intelligent knowledge base",
-        "description": "",
+        "description": "Our self-service troubleshooter can help you troubleshoot and solve your problem.",
         "insightNotAvailableText": "We did not find a match for your specific problem in our knowledge base. See links below for other info that may address your problem."
     },
     "formElements": [
