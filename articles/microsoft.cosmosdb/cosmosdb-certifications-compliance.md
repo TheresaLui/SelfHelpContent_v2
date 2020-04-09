@@ -18,7 +18,7 @@
 
 # Does Cosmos DB meet my organizations compliance and security needs?
 
-## Recommended Documents
+## **Recommended Documents**
 
 ### Compliance in Azure Cosmos DB
 
