@@ -3,7 +3,7 @@
 	description="tools for microsoft.compute windows virtual machines"
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="tabrezm,timbasham"
+	authors="tabrezm,timbasham, sischleg"
 	ms.author="tibasham"
 	displayOrder="31"
 	selfHelpType="tools"
