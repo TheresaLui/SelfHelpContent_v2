@@ -9,7 +9,7 @@
 	supportTopicIds="32692540"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-throughput-autopilot"
 	displayOrder="247"
 	category="Core (SQL)"

@@ -9,7 +9,7 @@
 	supportTopicIds="32738665,32738664"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-security-privatelink"
 	displayOrder="162"
 	category="Security"

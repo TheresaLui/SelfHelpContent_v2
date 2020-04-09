@@ -9,7 +9,7 @@
 	supportTopicIds="32636772"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-bulkexecutor"
 	displayOrder="120"
 	category="Tools and Connectors"
