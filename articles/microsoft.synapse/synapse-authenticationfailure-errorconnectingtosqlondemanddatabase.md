@@ -27,7 +27,5 @@
 
 * To gain access, one of the Azure Synapse workspace administrators should add you to workspace administrator or SQL administrator role. [Visit full guide on access control for more information](https://review.docs.microsoft.com/azure/synapse-analytics/sql-analytics/access-control).  
 
-* If using Synapse Studio, check if your network blocks port 1443 and unblock it. 
-
-* If using SSMS or ADS, check if your network blocks port 1433 and unblock it. 
-
+* If using Synapse Studio, check if your network blocks port 1443 and unblock it
+* If using SSMS or ADS, check if your network blocks port 1433 and unblock it
