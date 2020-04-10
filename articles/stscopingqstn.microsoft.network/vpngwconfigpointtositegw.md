@@ -27,10 +27,36 @@
             "required": true
         },
         {
-            "id": "P2S_authentication",
+            "id": "tunnel_type",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select the tunnel type",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "IKEv2",
+                    "text": "IKEv2"
+                },
+                {
+                    "value": "SSTP",
+                    "text": "SSTP"
+                },
+                {
+                    "value": "OpenVPN",
+                    "text": "OpenVPN"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+	{
+            "id": "P2S_authentication",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Select the authentication type",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -52,9 +78,9 @@
             ],
             "required": true
         },
-	{
+        {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "required": true,
