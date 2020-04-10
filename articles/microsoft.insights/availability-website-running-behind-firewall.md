@@ -27,12 +27,12 @@ Ensure your firewall allows incoming requests from the IP addresses of our web t
 
 **I can not reconfigure my firewall or my website is in the government cloud**\
 
-1. Write your own code to periodically test your internal server.
-2. Run the code as a background process on a test server behind your firewall.
+1. Write your own code to periodically test your internal server
+2. Run the code as a background process on a test server behind your firewall
 3. Your test process can send its results to Application Insights by using the [TrackAvailability](https://docs.microsoft.com/dotnet/api/microsoft.applicationinsights.telemetryclient.trackavailability?view=azure-dotnet) API in the core SDK package. This requires your test server to have outgoing access to the Application Insights ingestion endpoint, but that is a much smaller security risk than the alternative of permitting incoming requests.
 4. The results will appear in the availability web tests blades though the experience will be slightly simplified from what is available for tests created via the portal. Custom availability tests will also appear as availability results in Analytics, Search, and Metrics.
 
 ## **Recommended Documents**
 
-* [Availability Tests](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability)\
-* [IP Address Used by Availability Tests](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests)\
+* [Availability Tests](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability)
+* [IP Address Used by Availability Tests](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests)

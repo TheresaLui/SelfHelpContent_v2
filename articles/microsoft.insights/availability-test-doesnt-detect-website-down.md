@@ -37,14 +37,14 @@ Ensure you select at least 5 locations from where the availability test should r
 
 ### My website is down & the availability test is failing but I'm not being notified
 
-Ensure your web test alerts are properly configured. Check the following [link](https://docs.microsoft.com/azure/azure-monitor/app/availability-alerts)
+Ensure your web test alerts are properly configured. Check the following [link](https://docs.microsoft.com/azure/azure-monitor/app/availability-alerts).
 
-**Known issues**\
+**Known issues**
 
 You cannot create more than 10 tests inside of the UI. You must use [PowerShell](https://docs.microsoft.com/azure/application-insights/app-insights-powershell#add-an-availability-test) if you need more. This is by design.
 
 ## **Recommended Documents**
 
-* [Availability Tests](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability)\
-* [Automation](https://docs.microsoft.com/azure/application-insights/app-insights-powershell#add-an-availability-test)\
-* [IP Address Used by Availability Tests](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests)\
+* [Availability Tests](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability)
+* [Automation](https://docs.microsoft.com/azure/application-insights/app-insights-powershell#add-an-availability-test)
+* [IP Address Used by Availability Tests](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests)
