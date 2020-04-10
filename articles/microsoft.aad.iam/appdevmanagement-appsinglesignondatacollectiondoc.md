@@ -79,7 +79,7 @@
             "visibility": null,
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "If you received an error, please provide the error message details:",
+            "displayLabel": "Please enter the error message you received:",
             "content": null,
             "watermarkText": "AADSTSXXXXX: error message, Error message from the application, etc... ",
             "infoBalloonText": null,
