@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\articles\\microsoft.virtualmachine.rca.restarts"
+    "\\articles",
+    "\\articles\\microsoft.cosmosdb"
   ],
-  "SelectedNode": "\\articles",
+  "SelectedNode": "\\articles\\microsoft.cosmosdb\\cosmosdb-admin-backuprestore.md",
   "PreviewInSolutionExplorer": false
 }
