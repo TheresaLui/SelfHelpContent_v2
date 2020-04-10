@@ -21,7 +21,7 @@ You click on a web test result (either on the scatter plot or via search) to dri
 
 ![Telemetry image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/availability/end2endpic1.jpg)
 
-## Recommended Steps
+## **Recommended Steps**
 
 I'm not seeing any data:
 * Validate that your instrumentation key is set correctly through your code or in your configuration file
