@@ -15,17 +15,17 @@
     ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
-# I can't see availability of website running behind a firewall
+# **I can't see availability of website running behind a firewall**
 
 I have a web site running behind a firewall or in Azure Government or Azure China. I want to configure a web test to ping my web site but am unable to or I do not see availability results in the portal.
 
 ## **Recommended Steps**
 
-### I am able to reconfigure my firewall
+**I am able to reconfigure my firewall**\
 
 Ensure your firewall allows incoming requests from the IP addresses of our web test agents. Make sure you have whitelisted all of the [IP Address Used by Availability Tests](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests).
 
-### I can not reconfigure my firewall or my website is in the government cloud
+**I can not reconfigure my firewall or my website is in the government cloud**\
 
 1. Write your own code to periodically test your internal server.
 2. Run the code as a background process on a test server behind your firewall.
