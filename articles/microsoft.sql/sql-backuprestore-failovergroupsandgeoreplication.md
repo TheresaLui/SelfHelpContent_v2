@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32688669"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="sqldb-selfhelp-solutions-backuprestore-failovergroupsandgeoreplication"
 	ownershipId="AzureData_AzureSQLDB_GeoDr"
 />

@@ -13,7 +13,7 @@
     supportTopicIds="32739488"
     resourceTags=""
     productPesIds="16259"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     ownershipId="AzureData_AzureSQLMI"
 />
 

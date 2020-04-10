@@ -10,7 +10,7 @@
     supportTopicIds="32636481"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, blackForest, fairfax, mooncake"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
     articleId="hdinsight-vmunhealthy_responsive_sluggishnode"
 	ownershipId="AzureData_HDInsight"
 />
