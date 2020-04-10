@@ -11,7 +11,7 @@
     selfHelpType="generic"
     cloudEnvironments="public, mooncake, blackforest, fairfax"
     productPesIds="15693"
-    supportTopicIds="32729588"
+    supportTopicIds="32729575"
     ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
