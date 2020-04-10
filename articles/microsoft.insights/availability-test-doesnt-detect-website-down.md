@@ -19,7 +19,7 @@
 
 You have determined that your website is down, yet the availability web test is not failing (e.g. you see no red dots in the availability charts)
 
-## Recommended Steps
+## **Recommended Steps**
 
 Check that your response code is equal to 200:
 Ensure the Success Criteria for your web test is what you expect it to be. By default, a ping test succeeds if the response code is equal to 200. If you have modified that value or specified a value for content matching, ensure it is what you intended to do.
@@ -39,7 +39,7 @@ Ensure your web test alerts are properly configured. Check the following [link](
 
 You cannot create more than 10 tests inside of the UI. You must use [PowerShell](https://docs.microsoft.com/azure/application-insights/app-insights-powershell#add-an-availability-test) if you need more. This is by design.
 
-## Recommended Documents
+## **Recommended Documents**
 
 * [Availability Tests](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability)
 * [Automation](https://docs.microsoft.com/azure/application-insights/app-insights-powershell#add-an-availability-test)

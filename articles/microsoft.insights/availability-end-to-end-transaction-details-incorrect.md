@@ -39,7 +39,7 @@ I see data in my pre-production/development environment but not production:
 
 If none of these steps resolve your issue, there are more detailed checklists to follow below depending on which SDK or method of application instrumentation you are using.
 
-## Recommended Documents
+## **Recommended Documents**
 
 * [Troubleshoot issues seeing data with ASP.Net applications](https://docs.microsoft.com/azure/application-insights/app-insights-asp-net-troubleshoot-no-data)
 * [Troubleshoot issues seeing data with Java applications](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot)

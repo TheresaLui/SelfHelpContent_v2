@@ -19,7 +19,7 @@
 
 You may notice that, while your availability test is running successfully in most regions, you are receiving failures in one or a few. This could be caused by misconfigurations of load balancers, traffic managers or firewalls. It may also be indicative of issues in your application, particularly if it is deployed to multiple geographical regions. You can verify this by opening one of the failed test results and checking if the message contains a phrase similar to "A connection attempt failed because the connected party did not properly respond after a period of time".
 
-## Recommended Steps
+## **Recommended Steps**
 
 My application is behind a firewall:
 Make sure you have whitelisted all of the [IP Addresses](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests) used by Availability Tests. Rerouting of certain IP addresses may be occurring via Load Balancers, Geo traffic managers, Azure Express Route.
@@ -37,7 +37,7 @@ If none of these steps resolved your issue:
 * Check server-side logs for the failure
 * Please validate that the redirect is not failing
 
-## Recommended Documents
+## **Recommended Documents**
 
 * [Availability Tests](https://docs.microsoft.com/azure/application-insights/app-insights-monitor-web-app-availability)
 * [IP Address Used by Availability Tests](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#availability-tests)

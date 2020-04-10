@@ -19,7 +19,7 @@
 
 I am seeing failures in Availability testing in Application Insights, but when I navigate to my website using a web browser, I don't see any errors.
 
-## Recommended Steps
+## **Recommended Steps**
 
 Click on an individual failing test result and examine the error message provided:
 
@@ -71,7 +71,7 @@ Web communication fails for multiple reasons from time to time and failing from 
 
 ![Failed test 6](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/availability/websiteavailablepic5.jpg)
 
-## Recommended Documents
+## **Recommended Documents**
 
 * [Monitor Web App Availability](https://docs.microsoft.com/azure/azure-monitor/app/monitor-web-app-availability)
 * [Multi-step Web Tests](https://docs.microsoft.com/azure/azure-monitor/app/availability-multistep)
