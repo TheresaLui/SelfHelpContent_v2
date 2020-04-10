@@ -13,7 +13,7 @@
     supportTopicIds="32630399,32630434,32630450,32630459"
     resourceTags=""
     productPesIds="13491"
-    cloudEnvironments="Public,MoonCake"
+    cloudEnvironments="Public,MoonCake, fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 

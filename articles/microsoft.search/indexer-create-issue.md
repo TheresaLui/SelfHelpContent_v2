@@ -10,7 +10,7 @@
 	displayOrder="36"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="indexer-create-issue"
 	ownershipId="AzureSearch_AzureSearch"
 />

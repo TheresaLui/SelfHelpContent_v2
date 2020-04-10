@@ -10,7 +10,7 @@
     supportTopicIds="32683731"  
     resourceTags=""  
     productPesIds="16348"  
-    cloudEnvironments="public, Fairfax"  
+    cloudEnvironments="public, Fairfax, usnat, ussec"  
     articleId="523af262-4b6b-4499-8234-74d8e16929ad"  
 	ownershipId="Compute_AzureMigrate"
 />

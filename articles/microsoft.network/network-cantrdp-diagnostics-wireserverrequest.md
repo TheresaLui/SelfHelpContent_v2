@@ -13,7 +13,7 @@ selfHelpType="Diagnostics"
 supportTopicIds="32511135, 32411835, 32584250, 32584252"
 resourceTags="windows"
 productPesIds="16342, 14745, 15571, 15797, 14749, 15526"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureSQLVM"
 />
 # We ran connectivity diagnostics on your resource and found an issue.
