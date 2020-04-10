@@ -6,7 +6,7 @@
     articleId="f78c8e26-9c40-4a74-a091-f76aecb49099_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
-    ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="CloudNet_AzureVPNGateway"
 />
 # Consider increasing the size of your VNet Gateway SKU to address high P2S use
 ---
@@ -39,7 +39,7 @@
   "learnMoreLink": "https://aka.ms/HighP2SConnectionsVNetGateway",
   "description": "Consider increasing the size of your VNet Gateway SKU to address high P2S use",
   "longDescription": "Each gateway SKU can only support a specified count of concurrent P2S connections. Your connection count is close to your gateway limit, so additional connection attempts may fail.",
-  "potentialBenefits": "",
+  "potentialBenefits": "Increasing the size of your gateway will allow you to support more concurrent P2S users",
   "actions": [
     {
       "actionId": "9ac9a68c-7da7-48aa-85c5-54efd4e910a7",
