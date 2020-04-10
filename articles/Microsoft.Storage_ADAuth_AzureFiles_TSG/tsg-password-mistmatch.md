@@ -2,7 +2,7 @@
     pageTitle="Customer sees KRB_AP_ERR_MODIFIED error in the event log"
     description="Customer sees KRB_AP_ERR_MODIFIED error in the event log"
     service="microsoft.storage"
-    resource="file storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""

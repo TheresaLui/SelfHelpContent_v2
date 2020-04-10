@@ -12,7 +12,7 @@ selfHelpType="Diagnostics"
 supportTopicIds="32591145,32591158,32591149,32591152,32591155"
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Microsoft Azure has detected an IPsec/IKE policy mismatch on your VPN connection

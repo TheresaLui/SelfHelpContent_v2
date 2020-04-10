@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32688667"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax"
+	cloudEnvironments="public,blackForest,fairfax, usnat, ussec"
 	resourceTags="servers, databases"
 	articleId="sqldb-selfhelp-solutions-backuprestore-automatedbackups"
 	ownershipId="AzureData_AzureSQLDB_BackupRestore"

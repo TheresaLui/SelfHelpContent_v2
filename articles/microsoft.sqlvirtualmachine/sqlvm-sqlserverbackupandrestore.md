@@ -10,7 +10,7 @@
 	supportTopicIds="32633516"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="bc8b4aab-73b3-415d-9222-61a3e5d69386"
 	ownershipId="AzureData_AzureSQLVM"
 />

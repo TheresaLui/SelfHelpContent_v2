@@ -2,7 +2,7 @@
     pageTitle="Verify if RC4-HMAC encryption type is enabled on the server"
     description="Verify if RC4-HMAC encryption type is enabled on the server"
     service="microsoft.storage"
-    resource="file storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""
