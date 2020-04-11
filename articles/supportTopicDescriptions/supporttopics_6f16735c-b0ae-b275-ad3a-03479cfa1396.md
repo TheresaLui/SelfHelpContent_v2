@@ -5,7 +5,7 @@
   ms.author="scotro, tibasham"
   selfhelptype="SupportTopicDescription"
   productpesids="6f16735c-b0ae-b275-ad3a-03479cfa1396"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="virtual-machine-running-windows-supporttopicdescription"
   ownershipid="StorageMediaEdge_StorageTables"
   icmteam="icmteam"

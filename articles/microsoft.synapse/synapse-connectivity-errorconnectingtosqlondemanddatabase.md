@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"

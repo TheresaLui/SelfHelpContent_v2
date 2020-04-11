@@ -7,7 +7,7 @@
     supportTopicIds="32606571"
     productPesIds="16535"
     articleId="problemscopingques-video-indexer-upload"
-    cloudEnvironments="public,blackForest,fairfax,mooncake"
+    cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
     schemaVersion="1"
     ownershipId="StorageMediaEdge_Media_VI"
 />

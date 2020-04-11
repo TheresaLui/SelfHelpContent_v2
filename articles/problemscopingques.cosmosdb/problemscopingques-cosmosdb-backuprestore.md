@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions" 
 	supportTopicIds="32636805,32636825"
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="a7dc710a-d040-4c21-9ab6-53c85567d58e"
 	ownershipId="AzureData_AzureCosmosDB"
