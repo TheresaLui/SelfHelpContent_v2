@@ -5,7 +5,7 @@
   ms.author="akjoshi, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="f3dc5421-79ef-1efa-41a5-42bf3cbb52c6"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="subscription-management-supportopicdescription"
   ownershipid="AzureKeyVault_KeyVault"
   icmteam="icmteam"

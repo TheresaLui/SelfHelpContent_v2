@@ -7,7 +7,7 @@
 	articleId="StorageScoping_table_Security"
 	supportTopicIds="32602775"
 	productPesIds="16462"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_StorageTables"
 />

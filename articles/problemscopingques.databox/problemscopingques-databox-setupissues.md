@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32639191,32639195,32639207,32639212"
 	productPesIds="16505"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="3263918912"
 	ownershipId="StorageMediaEdge_DataBox"

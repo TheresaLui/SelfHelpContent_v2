@@ -10,7 +10,7 @@
 	supportTopicIds="32639109"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="configure-ssl-auth-trustedrootcert"
 	ownershipId="CloudNet_AzureApplicationGateway"
 />

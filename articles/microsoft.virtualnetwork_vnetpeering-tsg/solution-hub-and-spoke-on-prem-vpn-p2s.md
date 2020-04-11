@@ -14,7 +14,7 @@ selfHelpType="TSG_Content"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
 ownershipId="CloudNet_VirtualNetwork"
 />
 # Step by step for connecting VNet Peering spokes to point-to-site VPN clients
