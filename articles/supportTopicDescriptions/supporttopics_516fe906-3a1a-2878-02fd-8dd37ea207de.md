@@ -440,8 +440,8 @@
     {
       "id": "d5ed0f1b-b3e3-0d28-4ff7-bacf1ea7f9cc",
       "longDescription": "",
-      "shortDescription": "Cover problems related to MFA prompts and re-authentication",
-      "searchTags": "issues with MFA promptws",
+      "shortDescription": "Problems related to MFA prompts and re-authentication",
+      "searchTags": "issues with MFA prompts",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
