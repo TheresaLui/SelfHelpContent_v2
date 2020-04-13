@@ -21,6 +21,6 @@
 
 ## **Recommended Steps**
 
-* Visit [performance best practices for SQL on-demand](https://review.docs.microsoft.com/azure/synapse-analytics/sql-analytics/best-practices-sql-on-demand?branch=release-ignite-arcadia).
+* Visit [performance best practices for SQL on-demand](https://review.docs.microsoft.com/azure/synapse-analytics/sql-analytics/best-practices-sql-on-demand?branch=release-ignite-arcadia)
 
 
