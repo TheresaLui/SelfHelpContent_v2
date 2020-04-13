@@ -10,14 +10,28 @@
     supportTopicIds="32636439"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="70e00cfb-358b-4f9d-9da9-c37d48c5a038"
 	ownershipId="AzureData_HDInsight"
 />
 
 # Managed Identity
 
-Common HDInsight Create failures due to Azure Data Lake Storage Gen2 Issues.
+**Known issues**
+
+As of March 18th, 2020 some Azure HDInsight customers have received error notifications when creating or scaling HDInsight clusters in some regions. Errors related to this issue include:
+
+- Internal server error occurred while processing the request. Please retry the request or contact support.
+- At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/DeployOperations for usage details
+- User SubscriptionId '\<Subscription ID\>' does not have cores left to create resource '\<cluster name>'. Required: \<X\>, Available: 0.
+
+Engineers are aware of this issue and are actively investigating.
+
+For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-release-notes#known-issues) page.
+
+For additional help, continue creating this support request.
+
+**Other common issues**
 
 **Permissions issues**
 

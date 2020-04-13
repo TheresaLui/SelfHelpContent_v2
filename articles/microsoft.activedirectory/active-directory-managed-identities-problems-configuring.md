@@ -13,8 +13,8 @@
 	supportTopicIds="32690730"
 	resourceTags=""
 	productPesIds="16985"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_Managed Identities"
 />
 
 # Problems configuring my resource to have a managed identity

@@ -12,8 +12,8 @@
     supportTopicIds="32690725"
     resourceTags=""
     productPesIds="16986"
-    cloudEnvironments="public"
-	ownershipId="AzureIdentity_Authorization"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_RBAC"
 />
 
 # Azure Active Directory: Issues with service admins or co-admins

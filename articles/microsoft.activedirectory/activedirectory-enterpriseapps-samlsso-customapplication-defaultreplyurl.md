@@ -12,7 +12,7 @@
     diagnosticScenario="InvalidReplyUrlLocalHost"
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="enterpriseapps_samlsso_invalid_replyUrl"
     	ownershipId="AzureIdentity_User"
 />

@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32690772"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="cc2bea57-b728-43a9-a8e1-317dfd55ab07"
 	ownershipId="StorageMediaEdge_Backup"
@@ -153,10 +153,6 @@
                 {
                     "value": "Checked the Machine has Internet connectivity",
                     "text": "Checked the Machine has Internet connectivity"
-                },
-                {
-                    "value": "Checked the SAP HANA system has required permission for backup",
-                    "text": "Checked the SAP HANA system has required permission for backup"
                 },
                 {
                     "value": "dont_know_answer",

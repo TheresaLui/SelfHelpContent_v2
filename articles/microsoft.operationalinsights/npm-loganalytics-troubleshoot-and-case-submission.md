@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15725"
 	articleId= "npm-loganalytics-troubleshoot-and-case-submission-opin"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />
 

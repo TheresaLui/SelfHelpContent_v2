@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32630412"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="a4981f93-f5da-4990-8877-a0ec3abc3489"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Portal"
 />
 
 # portal and client tools/azure portal

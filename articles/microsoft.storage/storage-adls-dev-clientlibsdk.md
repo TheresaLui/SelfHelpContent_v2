@@ -13,7 +13,7 @@
 	supportTopicIds="32612598"
 	resourceTags=""
 	productPesIds="16598"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 
@@ -25,24 +25,28 @@ Most customers resolve their SDK or Client library related queries with Azure Da
 
 ### **Azure Data Lake Gen2 Storage for .NET** 
 
+* [Access Control Lists Code Samples](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-directory-file-acl-dotnet)<br>
+* [Additonal Code Samples](https://docs.microsoft.com/azure/storage/common/storage-samples-dotnet?toc=/azure/storage/blobs/toc.json#data-lake-storage-gen2-samples)<br>
 * [Quickstart for .NET](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-directory-file-acl-dotnet)<br>
-* [Code Samples](https://github.com/Azure/azure-sdk-for-net/tree/master/sdk/storage/Azure.Storage.Files.DataLake)<br>
 
 ### **Azure Data Lake Gen2 Storage for Java** 
 
+* [Access Control Lists Code Samples](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-directory-file-acl-java)<br>
+* [Additonal Code Samples](https://docs.microsoft.com/azure/storage/common/storage-samples-java?toc=/azure/storage/blobs/toc.json#data-lake-storage-gen2-samples)<br>
 * [Quickstart for Java](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-directory-file-acl-java)<br>
-* [Code Samples](https://github.com/Azure/azure-sdk-for-java/tree/master/sdk/storage/azure-storage-file-datalake)<br>
 
 ### **Azure Data Lake Gen2 Storage for Python** 
 
+* [Access Control Lists Code Samples](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-directory-file-acl-python)<br>
+* [Additional Code Samples](https://docs.microsoft.com/azure/storage/common/storage-samples-python?toc=/azure/storage/blobs/toc.json#data-lake-storage-gen2-samples)<br>
 * [Quickstart for Python](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-directory-file-acl-python)<br>
-* [Code Samples](https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/storage/azure-storage-file-datalake/samples)<br>
 
 
 ### **Azure Blob Storage for JavaScript** 
-- [Quickstart for JavaScript](https://www.npmjs.com/package/@azure/storage-file-datalake/v/12.0.0-preview.6/)<br>
-- [Code Samples](https://www.npmjs.com/package/@azure/storage-file-datalake/v/12.0.0-preview.6/)<br>
 
+* [Access Control Lists Code Samples](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-directory-file-acl-javascript)<br>
+* [Additonal Code Samples](https://docs.microsoft.com/azure/storage/common/storage-samples-javascript?toc=/azure/storage/blobs/toc.json#data-lake-storage-gen2-samples)<br>
+* [Quickstart for JavaScript](https://www.npmjs.com/package/@azure/storage-file-datalake/v/12.0.0-preview.6/)<br>
 
 ### **Azure Data Lake Gen2 Storage Known Limitations** 
 

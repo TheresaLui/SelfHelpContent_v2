@@ -5,6 +5,7 @@ infoBubbleText="Issues with your Application Gateway were detected. See details 
 service="microsoft.network"
 resource="Application Gateway"
 authors="chadmath"
+ms.author="karenha"
 displayOrder="1"
 articleId="AppGwChecklistNoSSLCertificateFound"
 diagnosticScenario="AppGwChecklistNoSSLCertificateFound"
@@ -12,8 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
-	ownershipId="ASEP_ContentService_Placeholder"
+cloudEnvironments="Public, Fairfax, Mooncake, usnat, ussec"
+ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Microsoft Azure has identified your Application Gateway listener has no valid SSL certificate configured
 <!--issueDescription-->

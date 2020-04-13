@@ -11,15 +11,15 @@
 	diagnosticScenario="OrcasPostgresReplicationLAtency"
     selfHelpType="rca"
     resourceTags="windows, linux"
-    productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # High replication latency
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your replication latency issues with your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation showed that replication lag has been greater <!--$LATENCY_THRESHOLD -->LATENCY_THRESHOLD<!--/$ LATENCY_THRESHOLD --> than between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. 
+Thank you for contacting Microsoft support about your replication latency issues with your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation showed that replication lag has been greater than <!--$LATENCY_THRESHOLD-->LATENCY_THRESHOLD<!--/$LATENCY_THRESHOLD--> between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**

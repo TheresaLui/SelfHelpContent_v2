@@ -7,12 +7,12 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636045"
+    supportTopicIds="32730238"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     articleId="30af8025-9c12-4eca-8f53-d39bc87368c2"
-	ownershipId="Compute_AzurePolicy"
+    ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Authoring a custom policy definition

@@ -6,10 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570259"
     productPesIds="16575"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="appsinglesignondatacollectiondoc"
-    	ownershipId="AzureIdentity_EnterpriseApps"
+    	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Active Directory application single sign on issue
@@ -21,8 +21,8 @@
     "title": "Active Directory application single sign on issue",
     "fileAttachmentHint": null,
     "diagnosticCard": {
-        "title": "Problem with Azure Active Directory application single sign",
-        "description": "Our self-service troubleshooter can help you troubleshoot and solve your problem.",
+        "title": "Problem with Azure Active Directory application single sign-on",
+        "description": "Self-service troubleshooter to assist in resolving the issue",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
     "formElements": [

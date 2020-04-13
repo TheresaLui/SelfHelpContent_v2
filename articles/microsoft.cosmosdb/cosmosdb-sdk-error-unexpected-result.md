@@ -9,7 +9,7 @@
 	supportTopicIds="32688838,32688839"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-sdk-error-unexpected-result"
 	displayOrder="284"
 	category="SDK (SQL API) Issues"

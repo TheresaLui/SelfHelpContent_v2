@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640092"
     productPesIds="16221"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mysql-server-parameter_notlisted"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
@@ -34,8 +34,16 @@
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "parameter_scenario",
             "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What scenario the parameter(s) is used for",
+            "watermarkText": "Provide your scenario",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
             "watermarkText": "Provide your repro steps and other information about your issue",

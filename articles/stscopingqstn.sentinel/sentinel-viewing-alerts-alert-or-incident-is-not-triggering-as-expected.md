@@ -10,9 +10,9 @@
     supportTopicIds="32691159"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-viewing-alerts-alert-or-incident-is-not-triggering-as-expected"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Sentinel"
 />
 
 # Alert or incident is not triggering the expected results

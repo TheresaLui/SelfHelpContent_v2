@@ -8,9 +8,9 @@
         selfHelpType="ProblemScopingQuestions"
         supportTopicIds="32630450"
         productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
         schemaVersion="1"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # Query performance and timeouts

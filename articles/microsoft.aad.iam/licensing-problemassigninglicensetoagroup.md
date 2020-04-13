@@ -6,10 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615386"
     productPesIds="16575,16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="23c1cf4d-6fdd-475b-ba06-87595b53195b"
-    	ownershipId="AzureIdentity_EnterpriseApps"
+    	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Problem assigning licenses to a group

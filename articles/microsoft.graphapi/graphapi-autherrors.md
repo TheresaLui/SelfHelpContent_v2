@@ -10,9 +10,9 @@
 	supportTopicIds="32689189,32596852"
 	resourceTags=""
 	productPesIds="16952,16953,16954,16955,16956,16575"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="0ba3c716-5514-4e79-b7cc-9c0b3095dfe0"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_MSGraph"
 />
 
 # Microsoft Graph authorization errors

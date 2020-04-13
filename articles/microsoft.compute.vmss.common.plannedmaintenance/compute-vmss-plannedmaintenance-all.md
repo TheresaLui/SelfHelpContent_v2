@@ -10,9 +10,9 @@
 	supportTopicIds="32641081"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="49955c3a-0bc9-41a9-8520-8c6fbe81b4cb"
-	ownershipId="Compute_VirtualMachineScaleSets"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # Planned Maintenance in virtual machine scale sets

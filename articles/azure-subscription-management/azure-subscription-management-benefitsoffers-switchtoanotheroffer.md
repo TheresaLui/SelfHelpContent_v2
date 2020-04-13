@@ -10,7 +10,7 @@
 	supportTopicIds="32632959"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="benefitsoffersswitchtoanotheroffer"
 	ownershipId="ASMS_SubscriptionManagement"
 />
@@ -21,7 +21,9 @@ If you have an individual subscription with [pay-as-you-go](https://azure.micro
 
 To upgrade from Free Trial, refer to [upgrade your subscription](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription).<br>
 
-### Supported Subscriptions
+Save on Azure costs using reserved instances: [Azure reservations](https://docs.microsoft.com/azure/cost-management-billing/reservations/save-compute-costs-reservations)
+
+**Supported Subscriptions**<br>
 
 You can switch from an individual subscription with pay-as-you-go rates to:
 

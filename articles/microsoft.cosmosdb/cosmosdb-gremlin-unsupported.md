@@ -9,7 +9,7 @@
 	supportTopicIds="32675638,32684531"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-gremlin-unsupported"
 	displayOrder="187"
 	category="Gremlin (Graph)"

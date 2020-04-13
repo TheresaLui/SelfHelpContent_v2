@@ -13,8 +13,8 @@
     supportTopicIds="32628264,32628261,32628277,32628275,32628268,32628270,32633490,32633512,32633522,32633524,32633527"
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public, Fairfax"
-	ownershipId="Compute_ComputePlatform"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # **Instances of High CPU detected on the VM in last 24 hrs**
@@ -27,7 +27,8 @@ Our diagnostics show there were several instances where Average Max CPU counter 
 
 ### Performance Table
 
-<!--$perftable-->perftable<!--/$perftable-->
+<!--$DataTable-->DataTable<!--/$DataTable-->
+
 
 **What can cause CPU spike on a VM?**
 

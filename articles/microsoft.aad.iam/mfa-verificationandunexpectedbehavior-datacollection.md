@@ -6,10 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615519,32630265"
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="mfa-verificationandunexpectedbehavior-datacollection"
-    	ownershipId="AzureIdentity_SignIn"
+    	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Azure Active Directory Sign-In and Multi-Factor Authentication

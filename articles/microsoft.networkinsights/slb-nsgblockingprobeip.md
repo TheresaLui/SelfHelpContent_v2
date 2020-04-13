@@ -13,13 +13,13 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
-	ownershipId="ASEP_ContentService_Placeholder"
+cloudEnvironments="Public, Fairfax, Mooncake, usnat, ussec"
+ownershipId="CloudNet_LoadBalancer"
 />
 
 # Your Load Balancer probes are blocked by a Network Security Group
 <!--issueDescription-->
-We have found that the NSG **'<!--$NetworkSecurityGroupName-->[NetworkSecurityGroupName]<!--/$NetworkSecurityGroupName-->'** applied on your backend address pool **'<!--$AddressPoolName-->[AddressPoolName]<!--/$AddressPoolName-->'** for your loadbalancer **'<!--$LoadBalancerName-->[LoadBalancerName]<!--/$LoadBalancerName-->'** has a rule **'<!--$RuleName-->[RuleName]<!--/$RuleName-->'** that is **blocking the load balancer probe IP 168.63.129.16** to your backend address pool resources. This has caused your load balancer to mark the backend pool resources as unhealthy and remove them from rotation. IP address **168.63.129.16** is a virtual public IP address, which in this case enables monitoring probes from the Azure load balancer to determine health state for VMs in a load balanced set.
+We have found that the NSG '<!--$NetworkSecurityGroupName-->[NetworkSecurityGroupName]<!--/$NetworkSecurityGroupName-->' applied on your backend address pool '<!--$AddressPoolName-->[AddressPoolName]<!--/$AddressPoolName-->' for your loadbalancer '<!--$LoadBalancerName-->[LoadBalancerName]<!--/$LoadBalancerName-->' has a rule '<!--$RuleName-->[RuleName]<!--/$RuleName-->' that is blocking the load balancer probe IP 168.63.129.16 to your backend address pool resources. This has caused your load balancer to mark the backend pool resources as unhealthy and remove them from rotation. IP address 168.63.129.16 is a virtual public IP address, which in this case enables monitoring probes from the Azure load balancer to determine health state for VMs in a load balanced set.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

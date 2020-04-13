@@ -10,9 +10,9 @@
 	supportTopicIds="32452810"
 	resourceTags=""
 	productPesIds="13185"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="a7ebd383-9384-45b0-ad55-1145a2157804"
-	ownershipId="Compute_CloudServices"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # Worker Role (PaaS) Development/Advisory

@@ -9,9 +9,9 @@
 	supportTopicIds="32596727"
 	resourceTags=""
 	productPesIds="16122"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="5c0a3dd4-a2a3-42c2-b051-05da21c9fab7"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Unhandled exceptions

@@ -7,7 +7,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32635193, 32635192"
     productPesIds="15818"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
 	ownershipId="AzureData_SQLDataWarehouse"
 />
@@ -16,7 +16,6 @@
 
 ---
 {
-
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Region unavailable for Data Warehouse creation",
@@ -83,5 +82,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
-
 ---

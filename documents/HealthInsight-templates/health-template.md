@@ -10,6 +10,7 @@
 	diagnosticScenario="health_diagnostic"
 	selfHelpType="health"
 	cloudEnvironments="public"
+	ownershipId=""
 />
 
 # <-- This is the title of the article. It is not displayed in the portal, however, an **H1** header is a required part of every article. --> 

@@ -13,8 +13,8 @@
 	supportTopicIds="32642168"
 	resourceTags=""
 	productPesIds="16761"
-	cloudEnvironments="public, fairfax"
-	ownershipId="ASEP_ContentService_Placeholder"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="Compute_AzureLighthouse"
 />
 
 # Other issues

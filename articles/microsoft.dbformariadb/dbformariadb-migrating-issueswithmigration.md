@@ -10,7 +10,7 @@
     supportTopicIds="32640129"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="908ab7e3-3ed4-49eb-bb0c-52f2900c61d2"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />

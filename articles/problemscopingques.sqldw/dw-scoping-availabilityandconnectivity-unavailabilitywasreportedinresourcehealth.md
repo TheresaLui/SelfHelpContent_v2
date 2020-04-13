@@ -7,7 +7,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32635223"
     productPesIds="15818"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
 	ownershipId="AzureData_SQLDataWarehouse"
 />
@@ -16,7 +16,6 @@
 
 ---
 {
-
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Unavailability was reported in Resource Health",
@@ -62,5 +61,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
-
 ---

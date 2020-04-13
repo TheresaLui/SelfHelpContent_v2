@@ -10,9 +10,9 @@
 	supportTopicIds="32628264"
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="f4459a0f-af9f-43c0-b9fd-a4984488f123"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Diagnose and resolve Virtual Machine Storage performance issues
