@@ -536,8 +536,8 @@
     {
       "id": "fed213ea-5608-4331-7ac8-ea3f0a8c59a9",
       "longDescription": "",
-      "shortDescription": "Assistance needed for configuring Azure Multi-Factor Authentication options within the security blade in the Azure Active Directory ",
-      "searchTags": "Configuring MFA;AAD security blade ",
+      "shortDescription": "Covers questions and problems for planning a new MFA deployment including how to configure MFA, service settings and users settings ",
+      "searchTags": "manage MFA deployment",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     }
