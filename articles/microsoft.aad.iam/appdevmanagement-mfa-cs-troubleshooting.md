@@ -122,7 +122,7 @@
         {
             "id": "error_description",
             "visibility": null,
-            "order": 5,
+            "order": 11,
             "controlType": "multilinetextbox",
             "displayLabel": "Please enter the error message you received:",
             "content": null,
