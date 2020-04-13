@@ -208,8 +208,8 @@
     {
       "id": "705e2b62-ce0a-c8e0-e3f4-da8937b204cf",
       "longDescription": "",
-      "shortDescription": "Covers sign-in problems and account lockout related completing MFA, legacy authentication or app passwords",
-      "searchTags": "issues to sign in due to MFA",
+      "shortDescription": "Sign-in and account lockout problems related to completing MFA, legacy authentication or app passwords",
+      "searchTags": "issues to sign in due to MFA;account lockout problems due to MFA",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
