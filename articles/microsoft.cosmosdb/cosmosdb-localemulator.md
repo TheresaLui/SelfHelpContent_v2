@@ -9,7 +9,7 @@
 	supportTopicIds="32675642"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-localemulator"
 	displayOrder="127"
 	category="Tools and Connectors"

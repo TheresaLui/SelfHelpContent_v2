@@ -10,11 +10,11 @@
 	articleId="account_settings_users_roles_and_notifications"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635708,32728293"
+	supportTopicIds="32635708, 32728293, 32725812"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960,17000"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 

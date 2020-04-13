@@ -12,7 +12,7 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
 	ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Application Gateway Subnet Has NSG Applied

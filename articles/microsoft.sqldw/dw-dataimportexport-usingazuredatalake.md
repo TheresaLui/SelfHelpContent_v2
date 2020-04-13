@@ -11,7 +11,7 @@
     selfHelpType="generic"
     resourceTags=""
     articleId="dw-dataimportexport-usingazuredatalake.md"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_SQLDataWarehouse"
 />
 

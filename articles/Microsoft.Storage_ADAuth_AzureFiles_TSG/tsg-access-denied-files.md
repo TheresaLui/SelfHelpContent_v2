@@ -1,23 +1,28 @@
 <properties
     pageTitle="Access denied while trying to access files"
     description="Access denied while trying to access files"
+    infoBubbleText="Access denied while trying to access files"
     service="microsoft.storage"
-    resource="file storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""
-    selfHelpType="TSG_Content"
+    selfHelpType="Diagnostics"
     supportTopicIds="32689882"
     resourceTags=""
     productPesIds="1003478"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="121e0513-363c-4f7b-8e68-b9c6078e4137"
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />
 
-# User does not have permissions to access a file
+# Access denied while trying to access files/directory
 
-## Issues Description
+<!--issueDescription-->
+Access denied while trying to access files/directory
+<!--/issueDescription-->
+
+## **Recommended Steps**
 
 Accessing a file or directory when using Azure Files with identity-based authentication requires two levels of authorization 1) share-level and 2) file/directory object-level.
     
@@ -34,7 +39,7 @@ For file-level authorization, the system uses NTFS ACLs on a per-file/directory 
     
 To open a file for a certain permission (for example "write"), the user must have share-level write permissions as well as file-level write permissions.  
 
-## Data to collect
+**Data to collect**
 
 1. Ask the customer for their output for the security descriptor of the file.
         
@@ -42,7 +47,7 @@ To open a file for a certain permission (for example "write"), the user must hav
         
 2. Ask the customer for the output of "whoami /user" and "whoami /groups"
 
-3. Identify OID corresponding to customer's AD Account and Ggab the storage account's role definition.This is available via Azure Support Center.
+3. Identify OID corresponding to customer's AD Account and Ggab the storage account's role definition.This is available via Azure Support Center -> AD Explorer.
 
 ![](Screenshots\ASCAccountRoles.png)
 
@@ -56,10 +61,8 @@ To open a file for a certain permission (for example "write"), the user must hav
 
    ![GraphAPI.png](Screenshots\GraphAPI.png)
 
-
-## Resolution
+**Resolution**
 
 1. Determine if the user has Share level access by verifying their RBAC permissions through ASC and verify their SID which we retrieved from Step 4 is part of the "whoami /user" or "whoami /groups" result. Provide appropriate RBAC permissions as required. 
 
-2. Determine if the user has appropriate file/directory level NTFS permissions. Use the result of step 2 and verify one of the username is part of the result of step 1. 
-
+2. Determine if the user has appropriate file/directory level NTFS permissions. Use the result of step 2 and verify one of the username is part of the result of step 1.

@@ -13,7 +13,7 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public" 	ownershipId="CloudNet_AzureApplicationGateway"
+cloudEnvironments="Public, fairfax, usnat, ussec" 	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Application Gateway 502 Error: Backend Server Certificate needs to be whitelisted Insight

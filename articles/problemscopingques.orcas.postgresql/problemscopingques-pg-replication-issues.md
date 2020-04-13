@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639992"
     productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-replication-issues"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"

@@ -6,7 +6,7 @@
     articleId="a0ad4f8c-f904-4b11-955d-e0044473c5fa_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Prevent hitting subscription limit for maximum storage accounts
 ---
@@ -39,7 +39,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/subscalelimit",
+  "learnMoreLink": "https://aka.ms/subscalelimit_cn",
   "description": "Prevent hitting subscription limit for maximum storage accounts",
   "longDescription": "A region can support a maximum of 250 storage accounts per subscription. You have either already reached or are about to reach that limit. If you reach that limit, you will be unable to create any more storage accounts in that subscription/region combination. Please evaluate the recommended action below to avoid hitting the limit.",
   "potentialBenefits": "Ensure you do not reach the limit that can prevent you from creating additional storage accounts",

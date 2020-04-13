@@ -7,7 +7,7 @@
 	authors="chadmath"
 	ms.author="chadmat"
 	selfHelpType="TSG_Content"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="3fa05c06-d04a-4c80-a397-f43e5d228a00"
 />
 

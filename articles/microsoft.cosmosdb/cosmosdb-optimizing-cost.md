@@ -9,7 +9,7 @@
 	supportTopicIds="32636802"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-optimizing-cost"
 	displayOrder="42"
 	category="General Advisory"

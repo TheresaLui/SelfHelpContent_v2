@@ -9,7 +9,7 @@
 	resourceTags="notificationHubs"
 	productPesIds=""
 	supportToicIds =""
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
 	articleId="0b73df73-9203-4f73-9dcb-9a2eaa1164fa"
 	ownershipId="AzureMessaging_Common"
 />

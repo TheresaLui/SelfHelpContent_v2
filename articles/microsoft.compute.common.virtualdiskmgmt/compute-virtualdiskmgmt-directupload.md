@@ -10,7 +10,7 @@
 	supportTopicIds="32641057"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="compute-virtualdiskmgmt-directupload"
 	ownershipId="Compute_VirtualMachines_Content"
 />

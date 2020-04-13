@@ -11,8 +11,8 @@
     supportTopicIds="32609692"
     resourceTags=""
     productPesIds="16506"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="ASEP_ContentService_Placeholder"
+    cloudEnvironments="public"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 
 # Avere vFXT License Activations

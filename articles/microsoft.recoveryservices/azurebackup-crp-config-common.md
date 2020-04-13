@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15571,15797,16470,16454,14749"
 	articleId="9ba9becb-d7a2-4b16-b471-3cfd6ed0570a"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 		ownershipId="Compute_VirtualMachines"
 />
 

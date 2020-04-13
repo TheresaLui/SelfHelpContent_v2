@@ -9,7 +9,7 @@
 	resourceTags="notificationHubs"
 	productPesIds="15973"
 	supportTopicIds="32565580"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c638432a-d5c6-45d3-be72-7ad8693fa627"
 	ownershipId="AzureNotificationHubs"
 />

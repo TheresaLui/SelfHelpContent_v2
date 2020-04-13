@@ -8,7 +8,7 @@
     articleId="insights_python_configure"
     displayOrder="1125"
     selfHelpType="resource"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32681426"
 	ownershipId="AzureMonitoring_ApplicationInsights"
