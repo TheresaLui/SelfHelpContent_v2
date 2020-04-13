@@ -400,8 +400,8 @@
     {
       "id": "c06c9a32-88a1-e73a-7829-a9db5c1109bd",
       "longDescription": "",
-      "shortDescription": "Covers problems of MFA failing on an existing NPS extension deployment",
-      "searchTags": "MFA failing on NPS extension ",
+      "shortDescription": "Problems of MFA failing on an existing NPS extension deployment",
+      "searchTags": "MFA failing on NPS extension",
       "category": "configuration",
       "useInDiagnoseAndSolve": "true"
     },
