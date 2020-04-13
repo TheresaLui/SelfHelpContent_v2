@@ -4,7 +4,7 @@
     authors="vrjai"
 	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596872,32596865,32596866,32596869,32615307"
+    supportTopicIds="32596872"
     productPesIds="16579"
     cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
@@ -89,13 +89,30 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
+            "numberOfLines": 3
+        },
+        {
+            "id": "error_description",
+            "visibility": null,
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please enter the error message you received:",
+            "content": null,
+            "watermarkText": "Please paste the error message from the application, etc... ",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
             "numberOfLines": 3,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "correlationId",
             "visibility": null,
-            "order": 5,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "Correlation ID:",
             "content": null,
@@ -112,7 +129,7 @@
         {
             "id": "requestId",
             "visibility": null,
-            "order": 6,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "Request ID:",
             "content": null,
@@ -127,57 +144,8 @@
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "timestamp",
-            "visibility": "null",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "Timestamp from Error message:",
-            "content": null,
-            "watermarkText": "Copy the timestamp from the error message and paste it here",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
-        },
-        {
-            "id": "appNameOrId",
-            "visibility": "null",
-            "order": 8,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What is the Application name or Application ID experiencing this problem?",
-            "content": null,
-            "watermarkText": "Application ID is in the Properties section in the Azure AD configuration for the application",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 2
-        },
-        {
-            "id": "userNameOrId",
-            "visibility": "null",
-            "order": 9,
-            "controlType": "textbox",
-            "displayLabel": "Which user is experiencing this problem?",
-            "content": null,
-            "watermarkText": "Enter user upn or Object ID of the user in Azure Active Directory",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
             "id": "problem_start_time",
-            "order": 10,
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true

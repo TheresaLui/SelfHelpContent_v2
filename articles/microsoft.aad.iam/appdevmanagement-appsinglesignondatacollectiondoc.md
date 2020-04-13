@@ -4,7 +4,7 @@
     authors="hsku"
 	ms.author="hsku"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32570259,32570275,32570274,32570263,32570260"
+    supportTopicIds="32570259"
     productPesIds="16575"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
@@ -93,58 +93,8 @@
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "timestamp",
-            "visibility": "null",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Timestamp from Error message:",
-            "content": null,
-            "watermarkText": "Copy the timestamp from the error message and paste it here",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
-        },
-        {
-            "id": "appNameOrId",
-            "visibility": "null",
-            "order": 6,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What is the Application name or Application ID experiencing this problem?",
-            "content": null,
-            "watermarkText": "Application ID is in the Properties section in the Azure AD configuration for the application",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 2,
-            "diagnosticInputRequiredClients": "Portal"
-        },
-        {
-            "id": "userNameOrId",
-            "visibility": "null",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "Which user is experiencing this problem?",
-            "content": null,
-            "watermarkText": "Enter user upn or Object ID of the user in Azure Active Directory",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
             "id": "problem_start_time",
-            "order": 8,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
