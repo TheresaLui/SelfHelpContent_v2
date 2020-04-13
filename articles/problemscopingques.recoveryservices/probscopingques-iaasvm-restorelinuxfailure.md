@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553297"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	articleId="32149b9d-e51c-45cd-8efb-642687f5b75d"
 	ownershipId="StorageMediaEdge_Backup"

@@ -10,7 +10,7 @@
 	displayOrder="37"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="indexer-cosmos-db-issue"
 	ownershipId="AzureSearch_AzureSearch"
 />

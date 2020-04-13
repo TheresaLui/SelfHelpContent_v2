@@ -10,7 +10,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32630459"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax"
+	cloudEnvironments="public,blackForest,fairfax, usnat, ussec"
     resourceTags="servers, databases"
     articleId="832be260-f5b8-47dc-95ba-288bcfc7625c"
 	ownershipId="AzureData_AzureSQLDB_Performance"

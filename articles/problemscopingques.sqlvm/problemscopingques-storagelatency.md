@@ -5,7 +5,7 @@
 	 selfHelpType="problemScopingQuestions"
 	 supportTopicIds="32633524"
 	 productPesIds="14745"
-	 cloudEnvironments="public,fairfax"
+	 cloudEnvironments="public,fairfax, usnat, ussec"
 	 schemaVersion="1"
 	 articleId="0b40b41d-43b2-4f26-8f8a-2c325cbe004b"
 	ownershipId="AzureData_AzureSQLVM"

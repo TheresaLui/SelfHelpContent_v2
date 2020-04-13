@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags="mfa_overview"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="b956c26d-4894-40cd-ac93-68174fc85667"
 	ownershipId="AzureIdentity_User"
 />

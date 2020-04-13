@@ -10,7 +10,7 @@
     supportTopicIds="32641422"
     resourceTags=""
     productPesIds="16757"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="bastion-usability-ssh"
 	ownershipId="CloudNet_AzureBastion"
 />

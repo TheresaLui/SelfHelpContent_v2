@@ -16,6 +16,7 @@
 	productPesIds="17007"
 	cloudEnvironments="public"
 	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
+
 />
 
 # MPN - Creating technical support tickets on behalf of customers

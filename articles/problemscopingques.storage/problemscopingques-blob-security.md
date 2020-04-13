@@ -7,7 +7,7 @@
 	articleId="StorageScoping_blob_security"
 	supportTopicIds="32602716,32602717,32612592"
 	productPesIds="16459,16598"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />

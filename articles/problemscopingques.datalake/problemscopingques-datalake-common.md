@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32674924,32674922,32674905,32674913,32674907,32674926,32674925,32674915,32674909,32674911,32674910,32674914,32674921,32674920,32674927,32674912,32674923,32674906,32674918,32674917,32674916,32674919"
     productPesIds="15879"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="27f3c71b-3fbc-43fd-8acf-6e9bf44b2a2b"
 	ownershipId="StorageMediaEdge_DataLakeStorageGen1"

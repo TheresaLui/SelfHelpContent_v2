@@ -9,7 +9,7 @@ description="diagnostictools/ipflowverification"
 	supportTopicIds="32606434"
 	resourceTags=""
 	productPesIds="16160"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="e4c40d8a-f6bf-4972-9e32-eb3e1b2e9ce3"
 	ownershipId="CloudNet_NetAnalytics"
 />
