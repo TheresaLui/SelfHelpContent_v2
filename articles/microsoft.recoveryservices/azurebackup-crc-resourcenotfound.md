@@ -22,5 +22,6 @@
 We have identified that your operation failed because the backup service could not find the required resource. 
 <!--/issueDescription-->
 
-## **Recommended Step**
-- To resolve this issue, refer to this [article](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#common-vm-backup-errors) 
+## **Recommended Steps**
+
+- To resolve this issue, refer to the [Common Backup Errors](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#common-vm-backup-errors) troubleshooting page
