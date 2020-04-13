@@ -23,7 +23,7 @@
 
 
 
-* [Azure ATP frequently asked questions](https://docs.microsoft.com/en-us/azure-advanced-threat-protection/atp-technical-faq)
+* [Azure ATP frequently asked questions](https://docs.microsoft.com/azure-advanced-threat-protection/atp-technical-faq)
 * [Azure Advanced Threat Protection Sizing Tool](https://gallery.technet.microsoft.com/Azure-Advanced-Threat-a11343c4)
 * [Azure ATP prerequisites](https://docs.microsoft.com/azure-advanced-threat-protection/atp-prerequisites)
 * [Check out the Azure ATP forum!](https://techcommunity.microsoft.com/t5/azure-advanced-threat-protection/bd-p/AzureAdvancedThreatProtection)
