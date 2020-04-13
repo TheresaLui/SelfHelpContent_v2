@@ -4,7 +4,7 @@
     authors="arupela"
     ms.author="arupela"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32542231"
+    supportTopicIds="32542231,32596865,32596866,32596869,32615307"
     productPesIds="16579"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
