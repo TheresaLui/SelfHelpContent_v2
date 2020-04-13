@@ -480,7 +480,7 @@
     {
       "id": "dedeb286-c8a1-cd08-3224-1b09e6b8d622",
       "longDescription": "",
-      "shortDescription": "Cover questions around different licenses that allow customers to use MFA",
+      "shortDescription": "Problems and questions about different licenses that allow customers to use MFA",
       "searchTags": "issues with MFA licensing options",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
