@@ -112,7 +112,7 @@
     {
       "id": "3ac88a67-b0a4-fe12-772f-8d9886ee3e66",
       "longDescription": "",
-      "shortDescription": "Cover problems related to the MFA registration ",
+      "shortDescription": "Problems with MFA registration",
       "searchTags": "issues with MFA registration",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
