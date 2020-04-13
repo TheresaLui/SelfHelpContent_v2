@@ -9,7 +9,7 @@
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="55d7aac8-78d9-4461-93a3-90a95df32bf6"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 # Problems installing and configuring Avere vFXT
 ---

@@ -9,7 +9,7 @@
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="6717d922-bce8-47e3-9c14-bd88912dcbde"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 # License Activation Request
 ---

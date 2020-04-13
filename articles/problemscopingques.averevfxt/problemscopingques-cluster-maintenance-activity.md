@@ -9,7 +9,7 @@
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="4cae1311-9ee9-4f2d-b92f-18e830048420"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 # Problems related to cluster maintenance activities.
 ---

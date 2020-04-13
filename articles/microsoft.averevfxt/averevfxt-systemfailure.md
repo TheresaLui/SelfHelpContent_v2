@@ -11,8 +11,8 @@
     supportTopicIds="32609696"
     resourceTags=""
     productPesIds="16506"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="ASEP_ContentService_Placeholder"
+    cloudEnvironments="public"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 
 # Avere vFXT System Failure or Service Restart Issues
