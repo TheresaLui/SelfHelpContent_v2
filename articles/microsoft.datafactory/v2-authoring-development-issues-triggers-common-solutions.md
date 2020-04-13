@@ -1,6 +1,6 @@
 <properties
-    pageTitle="V2 - Authoring or development issues and triggers"
-    description="V2 - Authoring or development issues and triggers"
+    pageTitle="Triggers Common Solutions"
+    description="Triggers Common Solutions"
     service=""
     resource=""
     authors="jaserano, v-miegge"
@@ -16,7 +16,7 @@
     ownershipId="AzureData_DataFactory"
 />
 
-# V2 - Authoring or development issues and triggers
+# Triggers Common Solutions
 
 ## **Recommended Documents**
 

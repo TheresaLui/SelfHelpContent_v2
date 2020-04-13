@@ -1,6 +1,6 @@
 <properties
-    pageTitle="V2 - Pipeline activities - Stored Procedure"
-    description="V2 - Pipeline activities - Stored Procedure"
+    pageTitle="Stored Procedure Common Solutions"
+    description="Stored Procedure Common Solutions"
     service=""
     resource=""
     authors="jaserano, v-miegge"
@@ -16,7 +16,7 @@
     ownershipId="AzureData_DataFactory"
 />
 
-# V2 - Pipeline activities - Stored Procedure
+# Stored Procedure Common Solutions
 
 ## **Recommended Steps**
 

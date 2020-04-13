@@ -1,6 +1,6 @@
 <properties
-    pageTitle="V2 - Pipeline or trigger execution issues - pipeline concurrency or degree of parallelism"
-    description="V2 - Pipeline or trigger execution issues - pipeline concurrency or degree of parallelism"
+    pageTitle="Pipeline Concurrency or Degree of Parallelism Common Solutions"
+    description="Pipeline Concurrency or Degree of Parallelism Common Solutions"
     service=""
     resource=""
     authors="jaserano, v-miegge"
@@ -16,7 +16,7 @@
     ownershipId="AzureData_DataFactory"
 />
 
-# V2 - Pipeline or trigger execution issues - pipeline concurrency or degree of parallelism
+# Pipeline Concurrency or Degree of Parallelism Common Solutions
 
 ## **Recommended Steps**
 

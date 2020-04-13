@@ -1,6 +1,6 @@
 <properties
-    pageTitle="V2 - Pipeline activities - Getmetadata and lookup"
-    description="V2 - Pipeline activities - Getmetadata and lookup"
+    pageTitle="Getmetadata and lookup Common Solutions"
+    description="Getmetadata and lookup Common Solutions"
     service=""
     resource=""
     authors="jaserano, v-miegge"
@@ -16,7 +16,7 @@
     ownershipId="AzureData_DataFactory"
 />
 
-# V2 - Pipeline activities - Getmetadata and lookup
+# Getmetadata and lookup Common Solutions
 
 ## **Recommended Documents**
 
