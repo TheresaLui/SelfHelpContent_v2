@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-sql-createdropresources-Createdatabasefromabackup"
+	articleId="problemscopingques-sql-createdropresources-createdatabasefromabackup"
 	pageTitle="SQL Database"
 	description="Scoping questions to capture database CRUD issues while creating database from a backup"
 	authors="andikshi"
