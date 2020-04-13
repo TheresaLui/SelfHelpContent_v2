@@ -26,15 +26,15 @@ As companies operationalize to address new and unique challenges, we have mobili
 
 As demand continues to grow, if we are faced with any capacity constraints in any region during this time, we have established clear criteria for the priority of new cloud capacity. Top priority will be going to first responders, health and emergency management services, critical government infrastructure organizational use, and ensuring remote workers stay up and running with the core functionality of Teams. We will also consider adjusting free offers, as necessary, to ensure support of existing customers.
 
-You may run into capacity constraints when performing the following operations:
+As per the continuity plan, you may run into capacity constraints when performing the following operations:
 
-1. Provision/Create a new Cosmos DB Account
-2. Adding a region to an existing Cosmos DB Account
-3. Provision a new Azure Cosmos DB Free Tier account
+1. Provision/Create a new Cosmos DB Account(including Free-Tier account) in a restricted region.
+2. Adding a resistricted region to an existing Cosmos DB Account
+3. Create a new database/collection in an existing Cosmos DB Account which doesn't have any container.
 
 However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions.
 
-If you are running into provisioning issues(1 and 2) for a region, please consider choosing **East US, East US 2, West US, West US 2 or South Central US** if possible.
+Please consider choosing any of the regions from **East US, East US 2, West US, West US 2 or South Central US** if possible.
 
 For further information, please review our [commitment and service continuity](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity/).
 

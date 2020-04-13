@@ -17,21 +17,25 @@
 
 # Azure Capacity Restrictions (COVID-19)
 
-We would like to request you to review the blog about [our commitment and service continuity](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity/) while we all fight together to battle global health pandemic.
+We apologize for the inconvenience caused due to the Capacity constraint. We are faced with capacity constraints as the demand continues to grow due to ongoing COVID-19 situation.
 
-As per the continuity plan, we have placed some restriction on your account for any new resource deployment. However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions.
+We have established clear criteria for the priority of new cloud capacity as documented in our [commitment to customers and Microsoft cloud services continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/) and [Update #2 on Microsoft cloud services continuity](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity/).
 
-You may run into capacity constraints when performing the following operations:
+As per the continuity plan, we have placed some restriction on your account for any new resource deployment and you may run into capacity constraints when performing the following operations:
 
-1. Provision/Create a new Cosmos DB Account
-2. Adding a region to an existing Cosmos DB Account
-3. Provision a new Azure Cosmos DB Free Tier account  
+1. Provision/Create a new Cosmos DB Account(including Free-Tier account) in a restricted region.
+2. Adding a resistricted region to an existing Cosmos DB Account
+3. Create a new database/collection in an existing Cosmos DB Account which doesn't have any container.
 
-We apologize for any inconvenience caused and let us know if you have any further queries.
+However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions.
+
+Thank you for your ongoing trust in the Microsoft cloud to run your most critical workloads.
+
+Please let us know for any questions or concerns.
 
 ## **Recommended Steps**
 
-If you are running into provisioning issues(1 and 2) for a region, please consider choosing **East US, East US 2, West US, West US 2 or South Central US** if possible.
+Please consider choosing any of the regions from **East US, East US 2, West US, West US 2 or South Central US** if possible.
 
 ## **Recommended Documents**
 
