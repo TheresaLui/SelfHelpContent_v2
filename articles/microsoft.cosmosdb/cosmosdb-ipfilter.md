@@ -9,7 +9,7 @@
 	supportTopicIds="32636792,32675639"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-ipfilter"
 	displayOrder="25"
 	category="Administration"

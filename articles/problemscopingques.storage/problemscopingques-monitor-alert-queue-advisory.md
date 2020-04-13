@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32681656"
 	productPesIds="16461"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="81697623-be85-446a-b6b0-c02c07f48129"
 	ownershipId="StorageMediaEdge_StorageQueues"

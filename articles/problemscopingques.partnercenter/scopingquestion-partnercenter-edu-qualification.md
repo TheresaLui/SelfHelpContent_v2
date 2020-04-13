@@ -6,7 +6,7 @@
        selfHelpType="problemScopingQuestions"
        supportTopicIds="32730249"
        productPesIds="17012"
-       cloudEnvironments="public"
+       cloudEnvironments="public, fairfax, usnat, ussec"
        schemaVersion="1"
        articleId="problemscopingques-partnercentereduqualification"
        clientIds="partnercenter"

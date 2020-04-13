@@ -11,7 +11,7 @@
 	supportTopicIds="32589558,32584249"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="SolutionGuestApplicationOrFirewall"
 />
 

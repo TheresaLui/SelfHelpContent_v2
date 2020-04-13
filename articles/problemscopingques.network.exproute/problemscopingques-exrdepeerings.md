@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32627993"
     productPesIds="15480"
-    cloudEnvironments="Public, Fairfax"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="a9b6173d-9653-4f2d-8526-36a830ea0098"
 	ownershipId="CloudNet_AzureExpressRoute"

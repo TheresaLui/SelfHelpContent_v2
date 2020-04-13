@@ -5,7 +5,7 @@
   ms.author="tibasham"
   selfhelptype="SupportTopicDescription"
   productpesids="2340ae8b-c745-572f-6ea8-661d68c08bd7"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_2340ae8b-c745-572f-6ea8-661d68c08bd7" />
 # Support Topic Descriptions for 2340ae8b-c745-572f-6ea8-661d68c08bd7
 ---

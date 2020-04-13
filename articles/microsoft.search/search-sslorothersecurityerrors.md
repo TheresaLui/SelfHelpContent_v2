@@ -10,7 +10,7 @@
 	supportTopicIds="32681388"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="search-sslorothersecurityerrors"	
 	ownershipId="AzureSearch_AzureSearch"
 />

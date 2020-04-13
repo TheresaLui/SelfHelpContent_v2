@@ -20,7 +20,7 @@
 * Reserved VM instance and SQL reserved capacity applies only to the compute usage and not to the Windows or SQL IP usage
 * If you use Windows VM and don't have an Azure Hybrid Benefit on your reserved virtual machine instances, then you are charged for the software meters listed in this doc: [Software costs not included with Azure Reserved VM Instances](https://docs.microsoft.com/azure/billing/billing-reserved-instance-windows-software-costs)
 * For SQL PaaS or IaaS deployments, the IP cost will continue to be charged using separate meter if Azure Hybrid Benefit is not selected
-* To learn more: [Software costs not included with Azure Reserved VM Instances](https://docs.microsoft.com/azure/billing/billing-reserved-instance-windows-software-costs)
+* To learn more: [Software costs not included with Azure Reserved VM Instances](https://docs.microsoft.com/azure/billing/billing-reserved-instance-windows-software-costs)
 
 Other questions: [Visit reserved instance docs](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)
 

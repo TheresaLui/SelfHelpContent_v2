@@ -11,7 +11,7 @@ articleId="AccelNetNvaCx4Insight"
 diagnosticScenario="AccelNetNvaCx4Insight"
 selfHelpType="resource"
 supportTopicIds=""
-cloudEnvironments="public,fairfax,blackforest,mooncake"
+cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 />
 

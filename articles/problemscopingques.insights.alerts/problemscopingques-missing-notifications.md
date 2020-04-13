@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32629650, 32629653, 32629654, 32629655, 32629656"
 	productPesIds="15454"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ActionGroup"
 />
@@ -17,7 +17,7 @@
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Not receiving notifications",
-    "fileAttachmentHint": "Please attach screenshots of all relevant details from the Azure portal. For example, Alert id, Fired time.",
+    "fileAttachmentHint": "Please upload screenshots of all relevant details from the Azure portal.  Kindly include Alert id, Fired time, and any other relevant information which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
             "id": "notification_type",
