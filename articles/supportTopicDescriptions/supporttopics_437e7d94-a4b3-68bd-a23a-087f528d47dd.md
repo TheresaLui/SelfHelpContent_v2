@@ -35,6 +35,14 @@
       "searchTags": "issue with authorizing via Graph API",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f6940eaf-0a76-2eda-4197-ec13b39f05dd",
+      "longDescription": "",
+      "shortDescription": "You are experiencing issues with samples and tutorials in Graph ",
+      "searchTags": "issues re to Graph samples and tutorials",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
