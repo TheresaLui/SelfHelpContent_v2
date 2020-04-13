@@ -138,23 +138,6 @@
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "correlationId",
-            "visibility": null,
-            "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "Correlation ID:",
-            "content": null,
-            "watermarkText": "Enter correlationId from signin logs/errormessage etc..",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
-        },
-        {
             "id": "timestamp",
             "visibility": null,
             "order": 7,
