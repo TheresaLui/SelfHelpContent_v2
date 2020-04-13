@@ -28,11 +28,13 @@ As demand continues to grow, if we are faced with any capacity constraints in an
 
 You may run into capacity constraints when performing the following operations:
 
-- Provision/Create new Cosmos DB Account
-- Adding a region to an existing Cosmos DB Account
-- Provision a new Azure Cosmos DB Free Tier account
+1. Provision/Create a new Cosmos DB Account
+2. Adding a region to an existing Cosmos DB Account
+3. Provision a new Azure Cosmos DB Free Tier account
 
 However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions.
+
+If you are running into provisioning issues(1 and 2) for a region, please consider choosing **East US, East US 2, West US, West US 2 or South Central US** if possible.
 
 For further information, please review our [commitment and service continuity](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity/).
 
