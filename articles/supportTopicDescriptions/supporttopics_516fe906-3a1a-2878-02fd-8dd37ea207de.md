@@ -64,8 +64,8 @@
     {
       "id": "1d33a8e8-72a2-490d-b947-1479512b6694",
       "longDescription": "",
-      "shortDescription": "Cover problems and questions about getting MFA registration status, authentication methods used during sign-in and insights ",
-      "searchTags": "issues with MFA usage ",
+      "shortDescription": "Problems with MFA registration status, authentication methods used during sign-in and insights",
+      "searchTags": "issues with MFA usage",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
