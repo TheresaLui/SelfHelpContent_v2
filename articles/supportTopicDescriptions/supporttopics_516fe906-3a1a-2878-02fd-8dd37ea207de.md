@@ -448,8 +448,8 @@
     {
       "id": "d6f4e41d-1f1a-0b8a-018f-5f461d51c7b9",
       "longDescription": "",
-      "shortDescription": "Assistance needed for Multi-Factor Authentication verification methods via tokens, SMS, Auth app, SMS",
-      "searchTags": "Multi-Factor Authentication;MFA;MFA verification;MFA Token;MFA SMS",
+      "shortDescription": "Covers problems related to the Microsoft Authenticator app like activation and receiving push notification",
+      "searchTags": "MFA verification;MFA Token;MFA SMS;issues re to Authenticator app",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
