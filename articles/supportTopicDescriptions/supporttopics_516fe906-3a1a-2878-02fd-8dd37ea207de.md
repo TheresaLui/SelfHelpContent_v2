@@ -432,7 +432,7 @@
     {
       "id": "cb7e67a1-742e-0dbd-c5d4-5eb6d296fcc8",
       "longDescription": "",
-      "shortDescription": "Covers problems related telephony based MFA methods like not receiving text messages or phone calls",
+      "shortDescription": "Problems with telephony based MFA methods like not receiving text messages or phone calls",
       "searchTags": "Authentication methods-phone, SMS",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
