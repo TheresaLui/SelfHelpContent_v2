@@ -18,13 +18,13 @@
 
 # V2 - Pipeline or trigger execution issues - pipeline concurrency or degree of parallelism
 
-## Recommended Steps
+## **Recommended Steps**
 
 ### Self-hosted integration runtime scalability
 
 To host increasing concurrent workload or to achieve higher performance, you can either scale up or scale out the Self-hosted Integration Runtime. [Learn more](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-features#self-hosted-integration-runtime-scalability).
 
-## Recommended Documents
+## **Recommended Documents**
 
 - [Concurrent Pipeline limits](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits#data-factory-limits)
 - [Self-hosted integration runtime scalability](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-features)

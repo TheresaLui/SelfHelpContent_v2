@@ -18,7 +18,7 @@
 
 # V2 - Pipeline activities - Getmetadata and lookup
 
-## Recommended Documents
+## **Recommended Documents**
 
 - [Get Metadata activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-get-metadata-activity)
 - [Lookup activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/control-flow-lookup-activity)

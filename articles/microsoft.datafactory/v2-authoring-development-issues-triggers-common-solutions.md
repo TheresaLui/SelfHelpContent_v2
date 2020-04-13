@@ -18,6 +18,6 @@
 
 # V2 - Authoring or development issues and triggers
 
-## Recommended Documents
+## **Recommended Documents**
 
 - [Triggers in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers#triggers)

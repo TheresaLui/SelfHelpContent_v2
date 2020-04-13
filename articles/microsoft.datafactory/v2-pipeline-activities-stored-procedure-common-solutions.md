@@ -18,10 +18,10 @@
 
 # V2 - Pipeline activities - Stored Procedure
 
-## Recommended Steps
+## **Recommended Steps**
 
 When a stored procedure fails and returns error details, you can't capture the error info directly in the activity output. However, Data Factory pumps all of its activity run events to Azure Monitor. Among the events that Data Factory pumps to Azure Monitor, it pushes error details there. You can, for example, set up email alerts from those events. For more info, see [Alert and Monitor data factories using Azure Monitor](https://docs.microsoft.com/azure/data-factory/monitor-using-azure-monitor).
 
-## Recommended Documents
+## **Recommended Documents**
 
 - [Stored Procedure Activity in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/transform-data-using-stored-procedure)
