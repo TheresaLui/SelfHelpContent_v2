@@ -19,7 +19,7 @@
 
 # Error ResourceNotFound
 <!--issueDescription-->
-We have identified that your operation failed because the backup service could not find the required resource (example. VM). 
+We have identified that your operation failed because the backup service could not find the required resource. 
 <!--/issueDescription-->
 
 ## **Recommended Step**
