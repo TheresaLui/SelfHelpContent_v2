@@ -6,7 +6,7 @@
     articleId="ed651749-cd37-4fd5-9897-01b416926745_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="Compute_SiteRecovery"
+    ownershipId="Compute_SiteRecovery"
 />
 # Enable virtual machine replication to protect your applications from regional outage
 ---
