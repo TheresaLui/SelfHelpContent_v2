@@ -21,13 +21,13 @@
 
 ## **Recommended Steps**
 
-Review [Apache Spark Notebooks](https://review.docs.microsoft.com/azure/synapse-analytics/sql/author-sql-script?branch=release-ignite-arcadia)
+Review [Apache Spark Notebooks](https://review.docs.microsoft.com/azure/synapse-analytics/sql/author-sql-script?branch=release-ignite-arcadia). 
 
 You can reference data across languages [using temp tables](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#use-temp-tables-to-reference-data-across-languages).
 
 Notebooks are integrated with the Monaco editor to bring IDE-style [IntelliSense](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#ide-style-intellisense) to the cell editor.
 
-You can visualize data in a notebook with [```Display()```](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#display) and [```DisplayHTML()```](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#displayhtml)
+You can visualize data in a notebook with [```Display()```](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#display) and [```DisplayHTML()```](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#displayhtml).
 
 ## **Recommended Documents**
 
