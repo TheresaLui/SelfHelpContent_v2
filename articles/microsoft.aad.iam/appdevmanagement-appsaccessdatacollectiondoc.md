@@ -12,7 +12,7 @@
     ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
-# Active Directory application access issue
+# Active Directory application access issue 
 
 ---
 {
