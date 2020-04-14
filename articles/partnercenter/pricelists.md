@@ -19,12 +19,12 @@
 />
 
 # Pricelists
-Review the recommented steps and docuements before submitting a service request about price lists.
+Review the recommended steps and documents before submitting a service request about price lists.
 
 ## **Recommended Steps**
 
-- Ensure you have the propper permissions when accessing the price list files. All pricing files can be exported from the **Pricing and offers** page in partner center but only **Global Administrators** and **Admin Agents** have access. 
-- **Indirect Resllers** should work with their **Indirect Providers** for questions about pricing.  
+- Ensure you have the proper permissions when accessing the price list files. All pricing files can be exported from the **Pricing and offers** page in partner center but only **Global Administrators** and **Admin Agents** have access. 
+- **Indirect Resellers** should work with their **Indirect Providers** for questions about pricing.  
 
 ## **Recommended Documents**
 
