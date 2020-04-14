@@ -52,7 +52,6 @@ Error Message: *The input authorization token can't serve the request. Please ch
 
 [How to use a system-assigned managed identity to access Azure Cosmos DB data](https://docs.microsoft.com/azure/cosmos-db/managed-identity-based-authentication)
 <br>Gone are the days of copying and pasting keys. Use managed identities to unlock a **robust, key rotation agnostic** solution to get your Azure Cosmos DB keys on demand. From there you can use the keys to access your Azure Cosmos DB's databases, containers, and items.  
-
 [Certificate-based authentication with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/certificate-based-authentication)
 <br>Certificate-based authentication enables your client application to be authenticated by using Azure Active Directory (Azure AD) with a client certificate. You can perform certificate-based authentication on a machine where you need an identity, such as an on-premises machine or virtual machine in Azure.  
 
