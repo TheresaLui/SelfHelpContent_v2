@@ -3,9 +3,9 @@
     description="Enable virtual machine replication to protect your applications from regional outage"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="ed651749-cd37-4fd5-9897-01b416926745_Fairfax"
+    articleId="ed651749-cd37-4fd5-9897-01b416926745_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Fairfax"
+    cloudEnvironments="Mooncake"
     ownershipId="Compute_SiteRecovery"
 />
 # Enable virtual machine replication to protect your applications from regional outage
@@ -17,7 +17,7 @@
   "recommendationTypeId": "ed651749-cd37-4fd5-9897-01b416926745",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "AzureAdvisor.ASRUnprotectedVMs_FairFax",
+    "streamNamespace": "AzureAdvisor.ASRUnprotectedVMs_MoonCake",
     "dataSource": "Cosmos",
     "refreshInterval": "01:00:00"
   },
@@ -30,8 +30,8 @@
   "owner": {
     "email": "bcdrasrfte@microsoft.com",
     "icm": {
-      "routingId": "MDM://MASR-Fairfax",
-      "service": "Azure Site Recovery - Fairfax/ITAR",
+      "routingId": "MDM://MASR-Mooncake",
+      "service": "Azure Site Recovery - China/Gallatin",
       "team": "Microsoft Azure Site Recovery Engineering"
     },
     "serviceTreeId": "5d0f2841-795b-49c6-9ab1-c2195fc9a4ea"
