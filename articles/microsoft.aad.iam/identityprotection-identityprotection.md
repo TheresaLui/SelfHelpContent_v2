@@ -4,12 +4,12 @@
     authors="arupela"
     ms.author="arupela"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32542231,32596865,32596866,32596869,32615307"
+    supportTopicIds=""
     productPesIds="16579"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="291a8c40-bc18-4a9d-9a1e-1f4473e0be79"
-    	ownershipId="AzureIdentity_MultiFactorAuthentication"
+    ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Azure Active Directory Sign-In and Identity Protection
@@ -18,6 +18,7 @@
 {
     "resourceRequired": false,
     "title": "Azure Active Directory Sign-In and Identity Protection",
+    "subscriptionRequired": false,
     "fileAttachmentHint": null,
     "formElements": [
         {
