@@ -38,9 +38,9 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 6.0,
+  "version": 7.0,
   "learnMoreLink": "https://aka.ms/batch_oldpool_learnmore",
-  "description": "Recreate your pool to get the latest Batch agent features and fixes",
+  "description": "Recreate your pool to get the latest node agent features and fixes",
   "longDescription": "Your pool has an old node agent. Consider recreating your pool to get the latest node agent updates and bug fixes.",
   "potentialBenefits": "Improved functionality and stability",
   "actions": [
