@@ -2,7 +2,7 @@
     pageTitle="Active Directory application access issue"
     description="appsaccessdatacollectiondoc"
     authors="anupnadigm, vritiJain"
-    ms.author="vrjai"
+    ms.author="anupnadigm, vrjai"
     selfHelpType="problemScopingQuestions"
     supportTopicIds=""
     productPesIds=""
