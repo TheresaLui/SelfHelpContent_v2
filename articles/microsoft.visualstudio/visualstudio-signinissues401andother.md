@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="15543"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_DevOps_Services"
 /> 
 
 # Common causes of sign-in issues 

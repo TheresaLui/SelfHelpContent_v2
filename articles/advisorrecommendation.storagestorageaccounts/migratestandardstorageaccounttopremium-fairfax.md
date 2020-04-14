@@ -6,7 +6,7 @@
     articleId="58d6648d-32e8-4346-827c-4f288dd8ca24_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Upgrade the standard disks attached to your premium-capable VM to premium disks (Preview)
 ---

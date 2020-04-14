@@ -15,7 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960,17011"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Pricing_and_Offers"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Pricelists
