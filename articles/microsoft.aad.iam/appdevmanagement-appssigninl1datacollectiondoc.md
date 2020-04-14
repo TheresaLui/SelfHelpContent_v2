@@ -4,12 +4,12 @@
     authors="ashish-009"
 	ms.author="asbh"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596851,32596848,32596856,32596837,32570275,32570274,32615379,32615388,32615397,32615424,32615381,32615390,32615398"
+    supportTopicIds="32596851,32596848,32596856,32596837,32615379,32615388,32615397,32615424,32615381,32615390,32615398,32570275,32570274"
     productPesIds="16575,16579"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="f394c94f-4550-4d6c-87ec-84a57305bfcd"
-    	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
+    ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Active Directory application sign in L1 issue
@@ -18,8 +18,13 @@
 {
     "resourceRequired": false,
 	"subscriptionRequired": false,
-    "title": "Active Directory application sign in L1 issue",
+    "title": "Active Directory application single sign on issue",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+        "title": "Problem with Azure Active Directory application single sign-on",
+        "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message from the Application or from the Sign-in logs",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
+    },
     "formElements": [
         {
             "id": "VerboseTracing",
@@ -70,118 +75,13 @@
             "numberOfLines": 0
         },
         {
-            "id": "hasErrorData",
-            "visibility": null,
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Do you have a correlation ID and Timestamp for an error related to this problem?",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "Yes",
-                    "value": "yes"
-                },
-                {
-                    "text": "No",
-                    "value": "no"
-                }
-            ],
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "getCorrelationId",
-            "visibility": "hasErrorData==no",
-            "order": 5,
-            "controlType": "infoblock",
-            "displayLabel": null,
-            "content": "Microsoft can provide a solution to your problem faster if you can get a correlation ID and Timestamp for this problem, reproduce the error by signing into the app with your own account.",
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "correlationId",
-            "visibility": "hasErrorData==yes",
-            "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "Correlation ID from Error message:",
-            "content": null,
-            "watermarkText": "Copy the correlation ID from the error message and paste it here",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "timestamp",
-            "visibility": "hasErrorData==yes || hasErrorData==no",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "Timestamp from Error message:",
-            "content": null,
-            "watermarkText": "Copy the timestamp from the error message and paste it here",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "appNameOrId",
-            "visibility": "null",
-            "order": 8,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What is the Application name or Application ID experiencing this problem?",
-            "content": null,
-            "watermarkText": "Application ID is in the Properties section in the Azure AD configuration for the application",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 2
-        },
-        {
-            "id": "userNameOrId",
-            "visibility": "hasErrorData==no",
-            "order": 9,
-            "controlType": "textbox",
-            "displayLabel": "Which user is experiencing this problem?",
-            "content": null,
-            "watermarkText": "Enter user upn or Object ID of the user in Azure Active Directory",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
             "id": "problem_description",
             "visibility": null,
-            "order": 10,
+            "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "If you received an error, please provide the error message details:",
+            "displayLabel": "Full Error Message:",
             "content": null,
-            "watermarkText": "AADSTSXXXXX: error message, Error message from the application, etc... ",
+            "watermarkText": "AADSTS50076: Due to a configuration change made by your administrator...",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -189,11 +89,96 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
-            "numberOfLines": 3
+            "numberOfLines": 3,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "correlationId",
+            "visibility": null,
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Correlation ID:",
+            "content": null,
+            "watermarkText": "6ad36e38-8a10-4f1b-95fb-05cdb1dbec49",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "requestId",
+            "visibility": null,
+            "order": 6,
+            "controlType": "textbox",
+            "displayLabel": "Request ID:",
+            "content": null,
+            "watermarkText": "ca6161fb-000a-4d2f-a3b4-3d62168f866d",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "timestamp",
+            "visibility": "null",
+            "order": 7,
+            "controlType": "textbox",
+            "displayLabel": "Timestamp:",
+            "content": null,
+            "watermarkText": "2020-04-13T01:29:57.362Z",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "appNameOrId",
+            "visibility": "null",
+            "order": 8,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Application name or ID:",
+            "content": null,
+            "watermarkText": "ContosoApp",
+            "infoBalloonText": "Application to login to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 2,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "userNameOrId",
+            "visibility": "null",
+            "order": 9,
+            "controlType": "textbox",
+            "displayLabel": "User Experiencing Problem:",
+            "content": null,
+            "watermarkText": "joe@contoso.com",
+            "infoBalloonText": "User who made the sign-in request. Format accepted is UPN:joe@contoso.com  or ObjectID:224ad664-d4a8-41fc-9ddf-121db97fa120",
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
         },
         {
             "id": "problem_start_time",
-            "order": 11,
+            "order": 10,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true

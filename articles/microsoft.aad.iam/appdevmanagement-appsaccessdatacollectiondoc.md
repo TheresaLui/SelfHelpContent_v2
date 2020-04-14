@@ -1,21 +1,23 @@
 <properties 
     pageTitle="Active Directory application access issue"
     description="appsaccessdatacollectiondoc"
-    authors="anupnadigm"
+    authors="anupnadigm, vritiJain"
+    ms.author="anupnadigm, vrjai"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570263"
-    productPesIds="14785,16575"
+    productPesIds="16575"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="5c787abf-d198-4bc4-a2f9-4c940c70d8b1"
-    	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
+    ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
-# Active Directory application access issue
+# Active Directory application access issue 
 
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Active Directory application access issue",
     "fileAttachmentHint": null,
     "formElements": [
@@ -30,7 +32,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -47,7 +49,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -64,7 +66,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -81,7 +83,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -98,7 +100,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
