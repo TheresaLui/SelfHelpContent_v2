@@ -30,11 +30,11 @@ As per the continuity plan, you may run into capacity constraints when performin
 
 1. Provision/Create a new Cosmos DB Account(including Free-Tier account).
 2. Adding a region to an existing Cosmos DB Account
-3. Create a new database/container in an existing Cosmos DB Account which doesn't have any container yet.
+3. Create a new database/container in an existing Cosmos DB Account which does not have any container yet.
 
 However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions.
 
-If possible, please consider choosing any of the regions from **East US, East US 2, West US, West US 2 or South Central US** for new deployments which don't have any restrictions as of now.
+If possible, please consider choosing any of the regions from **East US, East US 2, West US, West US 2 or South Central US** for new deployments which do not have any restrictions as of now.
 
 For further information, please review our [commitment and service continuity](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity/).
 
