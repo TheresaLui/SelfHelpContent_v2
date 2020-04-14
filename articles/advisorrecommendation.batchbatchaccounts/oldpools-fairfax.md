@@ -36,7 +36,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 4.0,
+  "version": 5.0,
   "learnMoreLink": "https://aka.ms/batch_oldpool_learnmore",
   "description": "Recreate your pool to get the latest Batch agent features and fixes",
   "longDescription": "Your pool has an old node agent. Consider recreating your pool to get the latest node agent updates and bug fixes.",
@@ -56,18 +56,18 @@
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
-        "id": "{resourceId}/accountPools/{PoolName}"
+        "id": "{resourceId}"
       }
     }
   },
   "displayLabel": "Old node agents on Batch pools",
   "additionalColumns": [
     {
-      "name": "PoolName",
+      "name": "poolName",
       "title": "Pool name"
     },
 	{
-      "name": "NodeAgentAge",
+      "name": "nodeAgentAge",
       "title": "Node agent age"
     }
   ],
