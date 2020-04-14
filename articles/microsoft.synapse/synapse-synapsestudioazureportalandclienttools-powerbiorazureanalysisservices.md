@@ -21,6 +21,6 @@
 
 ## **Recommended Steps**
 
-Review [prerequisites](https://review.docs.microsoft.com/azure/synapse-analytics/sql/tutorial-connect-power-bi-desktop?branch=release-ignite-arcadia#prerequisites) connecting your SQL on-demand to Power BI Desktop for working with SQL On-demand
+Review [prerequisites](https://review.docs.microsoft.com/azure/synapse-analytics/sql/tutorial-connect-power-bi-desktop?branch=release-ignite-arcadia#prerequisites) connecting your SQL on-demand to Power BI Desktop for working with SQL On-demand.
 
 ## **Recommended Documents**
