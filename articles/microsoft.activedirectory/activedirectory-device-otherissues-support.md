@@ -28,11 +28,11 @@
 ### Set up and manage device registrations
 
 * [Set up Azure AD joined devices](https://docs.microsoft.com/azure/active-directory/devices/azuread-joined-devices-frx)<br>
-* [Set up hybrid Azure AD joined (on-premises domain-joined) devices](https://aka.ms/support-devicemanagement-setup-hybridazureadjoin)<br>
-* [Manage devices using the Azure portal](https://aka.ms/support-devicemanagement-azureportal)
+* [Set up hybrid Azure AD joined (on-premises domain-joined) devices](https://docs.microsoft.com/azure/active-directory/device-management-hybrid-azuread-joined-devices-setup)<br>
+* [Manage devices using the Azure portal](https://docs.microsoft.com/azure/active-directory/device-management-azure-portal)
 
 ### Troubleshooting common issues for registration and managing devices
 
-* [Troubleshooting hybrid Azure AD Windows 10 and Windows Server 2016 registrations](https://aka.ms/support-devicemanagement-troubleshoot-hybridazuread-current)<br>
-* [Troubleshooting hybrid Azure AD Windows 7 and non-Windows 10/Windows Server 2016 (down-level) registrations](https://aka.ms/support-devicemanagement-troubleshoot-hybridazuread-legacy)<br>
-* [Frequently asked questions for device registration](https://aka.ms/support-devicemanagement-faq)
+* [Troubleshooting hybrid Azure AD Windows 10 and Windows Server 2016 registrations](https://docs.microsoft.com/azure/active-directory/device-management-troubleshoot-hybrid-join-windows-current)<br>
+* [Troubleshooting hybrid Azure AD Windows 7 and non-Windows 10/Windows Server 2016 (down-level) registrations](https://docs.microsoft.com/azure/active-directory/device-management-troubleshoot-hybrid-join-windows-legacy)<br>
+* [Frequently asked questions for device registration](https://docs.microsoft.com/azure/active-directory/device-management-faq)
