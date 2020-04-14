@@ -4,7 +4,7 @@
     authors="vritiJain"
 	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596872,32596865,32596866,32596869,32615307"
+    supportTopicIds="32596872"
     productPesIds="16579"
     cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
