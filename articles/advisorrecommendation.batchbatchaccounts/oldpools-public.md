@@ -56,18 +56,18 @@
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
-        "id": "{resourceId}/accountPools/{PoolName}"
+        "id": "{resourceId}"
       }
     }
   },
   "displayLabel": "Old node agents on Batch pools",
   "additionalColumns": [
     {
-      "name": "PoolName",
+      "name": "poolName",
       "title": "Pool name"
     },
 	{
-      "name": "NodeAgentAge",
+      "name": "nodeAgentAge",
       "title": "Node agent age"
     }
   ],
