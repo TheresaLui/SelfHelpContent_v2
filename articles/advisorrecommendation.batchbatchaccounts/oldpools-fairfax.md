@@ -21,7 +21,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
-  "recommendationCategory": "Performance",
+  "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Batch/batchAccounts",
   "recommendationFriendlyName": "OldPool",
@@ -38,16 +38,16 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 5.0,
+  "version": 6.0,
   "learnMoreLink": "https://aka.ms/batch_oldpool_learnmore",
-  "description": "Recreate your pool to get the latest Batch agent features and fixes",
+  "description": "Recreate your pool to get the latest node agent features and fixes",
   "longDescription": "Your pool has an old node agent. Consider recreating your pool to get the latest node agent updates and bug fixes.",
   "potentialBenefits": "Improved functionality and stability",
   "actions": [
     {
       "actionId": "f2e12464-8d37-40e5-80e6-1567410f18b6",
       "actionType": "Document",
-      "description": "Check out the \"Pool lifetime\" section of the Batch best practices article.",
+      "description": "Recreate your pool, or temporarily resize it to 0 nodes.",
       "documentLink": "https://aka.ms/batch_oldpool_learnmore"
     }
   ],
