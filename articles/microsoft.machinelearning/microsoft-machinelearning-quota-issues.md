@@ -9,7 +9,8 @@
     articleId="microsoft-machinelearning-quota-issues.md"
     supportTopicIds="32690873"
     productPesIds="16644"
-    cloudEnvironments="public, fairfax, mooncake"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # When you are facing quota issues while creating any type of compute in Azure Machine Learning

@@ -10,8 +10,9 @@
     supportTopicIds="32689842"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="aks-install-creatingspninadfs"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Issues creating SPN in AD FS

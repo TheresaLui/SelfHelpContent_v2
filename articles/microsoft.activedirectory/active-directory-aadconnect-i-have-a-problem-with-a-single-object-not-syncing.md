@@ -10,8 +10,9 @@
     supportTopicIds="32684507"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="8f7d2d3f-5f4e-41e8-86c6-70987bead134"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # I have a problem with a single object not syncing (correctly)

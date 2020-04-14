@@ -10,8 +10,9 @@
     supportTopicIds="32636456"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-hdiworkloadmonitoring"
+	ownershipId="AzureData_HDInsight"
 />
 #  HDInsight workload monitoring solution
 

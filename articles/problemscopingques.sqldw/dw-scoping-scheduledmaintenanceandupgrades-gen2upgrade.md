@@ -7,8 +7,9 @@
         selfHelpType="problemScopingQuestions"
         supportTopicIds="32635200"
         productPesIds="15818"
-        cloudEnvironments="public"
+        cloudEnvironments="public, Fairfax, usnat, ussec"
         schemaVersion="1"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Scheduled Maintenance and Upgrades - Gen2 upgrade from Gen1

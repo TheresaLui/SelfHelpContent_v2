@@ -10,8 +10,9 @@
     supportTopicIds="32629461"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="DataFactoryCopyTroubleshooter"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Data Factory Copy Failures

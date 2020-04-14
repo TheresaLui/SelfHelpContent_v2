@@ -10,8 +10,9 @@
 	supportTopicIds="32596885"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="keyvault-keyvaultmanagestorage"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Manage Storage Account Keys

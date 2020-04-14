@@ -10,8 +10,9 @@
     supportTopicIds="32680616"
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="20a8768e-b3e2-4655-b321-f02e91d22684"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # VMware/Physical to Azure - My VM health is critical

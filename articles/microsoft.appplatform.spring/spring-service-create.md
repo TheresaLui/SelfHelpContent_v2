@@ -13,7 +13,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="DevDivAzServices_SpringCloud"
 />
 
 # I encountered a problem in creating Azure Spring Cloud service instance

@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32684540"
 resourceTags=""
 productPesIds="16123"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="relay-issues"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Authorization Issues
 ---

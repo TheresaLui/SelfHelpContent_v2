@@ -11,8 +11,9 @@
     supportTopicIds="32675746"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="75vc1276-2a3f-4d0d-96c5-b2e8886483e6"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Deployment issues with Azure Migrate appliance for Hyper-V 

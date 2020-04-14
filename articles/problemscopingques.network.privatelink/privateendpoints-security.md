@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32681492"
     productPesIds="16843"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="700961cc-d014-4545-be70-2069dc2e0105"
+	ownershipId="CloudNet_PrivateLink"
 />
 
 # Private Endpoint - security 

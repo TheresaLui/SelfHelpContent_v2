@@ -6,9 +6,10 @@
 	ms.author="khzayed"
 	selfHelpType="problemScopingQuestions"
 	productPesIds="16512"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-keyvault"
+	ownershipId="Compute_AppService"
 />
 # Certificate Key Vault Binding/Link
 ---

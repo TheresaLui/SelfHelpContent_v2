@@ -10,8 +10,9 @@
     supportTopicIds="32614247"
     resourceTags=""
     productPesIds="16611"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="5da14838-5798-4fb6-bf3e-6adda9522409"
+	ownershipId="CloudNet_AzureFrontdoor"
 />
 
 # Configure URL Rewrite

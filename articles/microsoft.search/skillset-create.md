@@ -11,7 +11,8 @@
 	resourceTags=""
 	productPesIds="15568"
     articleId="skillset-create"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issue creating or editing a skillset

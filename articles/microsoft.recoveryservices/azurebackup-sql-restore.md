@@ -10,8 +10,9 @@
 		supportTopicIds="32605795"
 		resourceTags=""
 		productPesIds="15207"
-		cloudEnvironments="public"
+		cloudEnvironments="public, fairfax, usnat, ussec"
 		articleId="61978fe7-0f4c-44ab-b5f2-bc91c05dfeb8"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Backup SQL Restore failures

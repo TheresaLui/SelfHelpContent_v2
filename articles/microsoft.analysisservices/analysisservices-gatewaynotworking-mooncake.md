@@ -3,7 +3,7 @@
     description="On-premises data gateway is not working"
     service="microsoft.analysisservices"
     resource="servers"
-    authors="bnmaa"
+    authors="brspie"
     ms.author="chanwa"
     displayOrder="4"
     selfHelpType="resource"
@@ -11,12 +11,13 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="MoonCake"
-	articleId="cfa03f85-f608-4ac0-8eff-7a7cefda716b"
+    articleId="cfa03f85-f608-4ac0-8eff-7a7cefda716b"
+    ownershipId="AzureData_AnalysisServices"
 />
 
 # On-premises data gateway is not working
 
-While processing, if you see an error like **Gateway on endpoint '<endpoint uri>' is unreachable**, make sure the gateway is configured correctly and it is associated with the AS server.
+While processing, if you see an error like **Gateway on endpoint 'endpoint uri' is unreachable**, make sure the gateway is configured correctly and it is associated with the AS server.
 
 ## **Recommended Steps**
 

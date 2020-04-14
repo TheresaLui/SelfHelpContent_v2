@@ -11,8 +11,9 @@
 	supportTopicIds="32614264, 32614266, 32614269, 32614270, 32614271, 32614272, 32614274, 32614276, 32614277, 32614278"
 	resourceTags=""
 	productPesIds="16505"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="6a032e80-868d-40bd-8df4-fc7a1e242268"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box Disk Setup and Configuration

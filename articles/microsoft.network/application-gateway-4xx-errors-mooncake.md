@@ -12,7 +12,8 @@
 	productPesIds=""
     supportTopicIds=""
     cloudEnvironments="MoonCake"
- />
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # 4xx client error
 4xx errors can occur either due to an issue at the backend application or due to incorrect configuration of Application Gateway. Use the below instructions to troubleshoot the problem.

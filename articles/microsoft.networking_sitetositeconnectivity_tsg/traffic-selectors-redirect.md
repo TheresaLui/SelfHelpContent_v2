@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="3f9efb16-ee1e-4ddb-bf0a-d5fd491d7ce5"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to check for traffic selector misconfiguration

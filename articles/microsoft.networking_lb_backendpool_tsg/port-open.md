@@ -10,8 +10,9 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="3e0e741d-d045-4442-bcb5-54e1c69f068d"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check if a port is listening and OS firewall is open

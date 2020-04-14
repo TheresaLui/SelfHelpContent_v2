@@ -6,6 +6,7 @@
     articleId="d42d751d-682d-48f0-bc24-bb15b61ac4b8_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Use Managed Disks for storage accounts reaching capacity limit
 ---

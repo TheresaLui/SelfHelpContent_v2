@@ -10,8 +10,9 @@
 	supportTopicIds="32727971"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	articleId="protectopencontent_cantapplyclassification"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - Unable to apply a classification label

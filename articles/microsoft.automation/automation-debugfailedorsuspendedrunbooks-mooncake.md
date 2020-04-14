@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="997f91eb-0384-4888-b926-4019b57664c2"
+	ownershipId="Compute_Automation"
 />
 
 # Debug failed or suspended runbooks

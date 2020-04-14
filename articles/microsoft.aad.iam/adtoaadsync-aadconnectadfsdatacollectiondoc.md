@@ -4,9 +4,10 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32404463" 
 	 productPesIds="14785,16578" 
-	 cloudEnvironments="public" 
+	 cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec" 
 	 schemaVersion="1"
     articleId="22605ab0-3d0b-454c-ac3a-e44d1c57086b"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 /> 
 # Problem with AAD Connect ADFS 
 ---

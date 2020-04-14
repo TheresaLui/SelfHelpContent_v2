@@ -6,14 +6,16 @@
   selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632958"
 	productPesIds="15660"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
   schemaVersion="1"
    articleId="SponsorshipRequest-problemscopingquestion"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 #  Sponsorship Request
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Sponsorship Request",
     "fileAttachmentHint": "",
     "formElements": [

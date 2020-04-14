@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="deviceconfiguration_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="3ff912fc-59ab-4188-89ae-7b491a6666a2"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I deployed a VPN profile to a device. Intune is showing that it was successful, but the device is not connecting to the VPN.

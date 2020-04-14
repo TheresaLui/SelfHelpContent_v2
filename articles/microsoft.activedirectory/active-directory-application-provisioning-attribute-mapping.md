@@ -11,7 +11,8 @@
 	supportTopicIds="32629799"
 	productPesIds="16666"
 	articleId="62dc927b-3124-4677-8ffd-5e0e2717a9a8"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Problems with attribute mappings while provisioning users to an application

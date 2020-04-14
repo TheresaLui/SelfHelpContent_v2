@@ -5,9 +5,10 @@
 	 selfHelpType="problemScopingQuestions"
 	 supportTopicIds="32633492"
 	 productPesIds="14745"
-	 cloudEnvironments="public,fairfax"
+	 cloudEnvironments="public,fairfax, usnat, ussec"
 	 schemaVersion="1"
 	 articleId="160f0c4b-5c22-492a-9e21-f7599696ed14"
+	ownershipId="AzureData_AzureSQLVM"
 />
 # Automated Patching
 ---

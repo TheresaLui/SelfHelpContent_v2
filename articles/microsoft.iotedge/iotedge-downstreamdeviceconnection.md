@@ -9,8 +9,9 @@
 	supportTopicIds="32680979"
 	resourceTags=""
 	productPesIds="16509"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="73d78d4d-24a5-40e9-b7d3-a5158975e098"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # Downstream device can't connect to an IoT Edge gateway

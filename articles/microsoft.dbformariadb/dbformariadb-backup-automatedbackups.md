@@ -10,8 +10,9 @@
     supportTopicIds="32640113"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="55c846e2-cd1a-4155-b3d2-dea2939ee727"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Backups and restore options for Azure Database for MariaDB

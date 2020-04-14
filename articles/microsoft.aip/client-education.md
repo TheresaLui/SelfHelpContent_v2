@@ -10,8 +10,9 @@
 	supportTopicIds="32584338"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="ba03a7b2-5dc4-461b-bf0d-ebf917bd426f"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection - education

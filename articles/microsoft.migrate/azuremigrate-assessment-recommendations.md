@@ -9,8 +9,9 @@
     supportTopicIds="32675736"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="75vc7598-2a3f-4d2d-96c5-b2b5886483e6"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Assessment recommendations
@@ -28,6 +29,12 @@ The above issue is listed when the Azure Migrate appliance cannot collect perfor
 ### **Why does Server Assessment mark my Linux VMs 'Conditionally ready'. Is there anything I need to do to fix this?**
 
 There is a known gap in Server Assessment where it is unable to detect the minor version of the Linux OS installed on the on-premises VMs (for example, for RHEL 6.10, currently Server Assessment only detects RHEL 6 as the OS version). Since Azure endorses only specific versions of Linux, the Linux VMs are currently marked as conditionally ready in Server Assessment. We are working on this issue and this gap will be fixed in future. Meanwhile, you can manually ensure if the Linux OS running on the on-premises VM is endorsed in Azure by reviewing the [Azure Linux support documentation](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros). Once you have verified the endorsed distro, you can ignore this warning.
+
+### **The VM SKU recommended by Server Assessment in an import-based assessment has less memory than what I have provided in my CSV. Why is that so?** 
+
+This may happen due to the following reasons:
+- You have provided the memory size in GB. The CSV expects the memory size to be in MB. 
+- You have chosen a performance-based assessment and provided a memory utilization value that is lower than 100%.
 
 ### **The VM SKU recommended by Server Assessment has more number of cores and a larger memory size than what is allocated on-premises. Why is that so?**
 

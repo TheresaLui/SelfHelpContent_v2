@@ -9,10 +9,11 @@
 	supportTopicIds="32636764"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-admin-securityvnetendpoint"
 	displayOrder="24"
 	category="Administration"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Connection failure after VNet service endpoint configuration

@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32680607"
          productPesIds="16370"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="7fd2dd45-a2cc-4a69-9e92-57c45dafa5b8"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions Azure site recovery - Vmware to Azure Enable replication
 ---

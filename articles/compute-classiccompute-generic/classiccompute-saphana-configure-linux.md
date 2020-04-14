@@ -9,8 +9,9 @@
 	supportTopicIds="32549255"
 	resourceTags="linux"
 	productPesIds="15571,16454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="0886d02f-2642-4e02-b8f3-2fa5a1fdd1ab"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Configuration and Setup/Configure SAP HANA large instances

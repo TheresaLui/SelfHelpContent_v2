@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553301"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 		 articleId="449f9bd0-0f11-422d-ac3a-3024cf49fd57"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions DPM issue configuring online backup
 ---

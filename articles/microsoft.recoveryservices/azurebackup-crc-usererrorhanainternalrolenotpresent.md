@@ -13,7 +13,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Error UserErrorHANAInternalRoleNotPresent
@@ -24,4 +25,9 @@ We have identified that your HANA DB backup operation failed because of permissi
 
 ## **Recommended Steps**
 
-- Ensure AZUREWLBACKUPHANAUSER is present in the HANA system with [required roles and permissions](https://docs.microsoft.com/azure/backup/tutorial-backup-sap-hana-db#setting-up-permissions)
+- Ensure AZUREWLBACKUPHANAUSER is present in the HANA system. 
+- Re-run the [pre-registration script](https://download.microsoft.com/download/B/2/E/B2E01EF8-C247-42A6-BCC7-E45B78F20C99/msawb-plugin-config-com-sap-hana.sh) to resolve the permissions issue
+
+## **Recommended Document**
+[What the pre-registration script does](https://docs.microsoft.com/azure/backup/tutorial-backup-sap-hana-db#what-the-pre-registration-script-does)
+

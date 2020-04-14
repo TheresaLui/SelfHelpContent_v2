@@ -11,7 +11,8 @@
 	supportTopicIds="32680894"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Azure-SSIS IR Customized Setup Issues

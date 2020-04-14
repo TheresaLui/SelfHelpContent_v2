@@ -9,10 +9,11 @@
     supportTopicIds="32681006"
     resourceTags=""
     productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     articleId="cosmosdb-admin-rbac"
     displayOrder="26"
     category="Administration"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Authorization and Role-based access control (RBAC) Topics

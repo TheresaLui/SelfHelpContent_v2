@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32603552,32603553,32603550"
 	productPesIds="16459, 15629, 16460"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="diskImportExport"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Disk Import/Export issues
 ---

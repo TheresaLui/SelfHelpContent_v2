@@ -10,8 +10,9 @@
     supportTopicIds="32636945"
     resourceTags=""
     productPesIds="16125"
-    cloudEnvironments="public,BlackForest,Fairfax"
+    cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
     articleId="54ef2ec1-c731-4d6f-b6fb-3964a3edf213"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I have problems with Authorization

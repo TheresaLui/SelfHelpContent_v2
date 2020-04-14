@@ -13,7 +13,8 @@
 	supportTopicIds="32632126"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Azure Media Services Portal upload content

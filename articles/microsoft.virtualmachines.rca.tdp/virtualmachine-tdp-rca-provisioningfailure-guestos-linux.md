@@ -13,7 +13,8 @@
 	supportTopicIds=""
 	resourceTags="linux"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Operating System Provisioning Timeout Failure

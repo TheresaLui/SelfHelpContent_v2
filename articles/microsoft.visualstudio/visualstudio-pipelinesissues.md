@@ -12,7 +12,8 @@
 	selfHelpType="generic"
 	resourceTags=""
 	productPesIds="15543"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # DevOps Services Pipelines Issues

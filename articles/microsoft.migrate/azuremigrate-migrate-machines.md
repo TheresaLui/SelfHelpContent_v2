@@ -10,8 +10,9 @@
     supportTopicIds="32675755"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="e8de7410-ac8a-4fba-8e86-2c7c54838a8a"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Performing a migration on a replicating machine

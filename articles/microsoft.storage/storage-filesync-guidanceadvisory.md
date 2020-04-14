@@ -10,8 +10,9 @@
 	supportTopicIds="32675715"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="06ba38ad-323c-48a5-82eb-5925490c299f"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Azure File Sync - General guidance or advisory  

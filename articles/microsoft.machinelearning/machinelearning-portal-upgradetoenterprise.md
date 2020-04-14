@@ -9,8 +9,9 @@
     supportTopicIds="32321879"
     resourceTags=""
     productPesIds="15570"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
  	articleId="microsoft.machinelearning.portal.workspaceupgrade"
+	ownershipId="AzureML_AzureMachineLearning"
 />
 
 # Upgrade to Enterprise edition in the Azure portal

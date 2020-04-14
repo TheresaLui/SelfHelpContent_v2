@@ -9,8 +9,9 @@
 	supportTopicIds="32599632"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c4d23d97-9af7-440a-8f38-532825a4fb13"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Enroll Devices - Enrollment options

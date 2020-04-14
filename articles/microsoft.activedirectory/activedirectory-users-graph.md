@@ -7,8 +7,9 @@
     selfHelpType="generic"
     supportTopicIds="32586797"
     productPesIds="14785,16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="1c1bc5a9-f881-438b-b89b-580da9560292"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # I can't update the properties of a user in my directory for developers

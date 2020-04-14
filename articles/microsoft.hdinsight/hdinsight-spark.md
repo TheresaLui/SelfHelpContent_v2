@@ -10,8 +10,9 @@
     supportTopicIds="32628998"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="MoonCake"
+    cloudEnvironments="MoonCake, Fairfax"
 	articleId="6a063684-0c14-40eb-9be3-e0720ba788f6"
+	ownershipId="AzureData_HDInsight"
 />
 
 # I'm having issues with my YARN application

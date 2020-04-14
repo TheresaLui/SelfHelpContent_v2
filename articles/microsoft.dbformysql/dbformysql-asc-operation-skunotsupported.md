@@ -13,7 +13,8 @@
 	supportTopicIds="32640044, 32640056, 32640071, 32640074, 32640089, 32640097"
 	resourceTags="windows, linux"
 	productPesIds="16221"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Given edition or sku is not supported in this region

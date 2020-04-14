@@ -9,8 +9,9 @@
     supportTopicIds="32689838"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="b08c9848-721b-4442-b8a3-c44c5a645ac9"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # I need help updating an existing cluster configuration

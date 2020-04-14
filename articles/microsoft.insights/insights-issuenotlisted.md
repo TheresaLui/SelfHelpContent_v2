@@ -8,10 +8,11 @@
     ms.author="jamdavi"
     articleId="insights_issuenotlisted"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32402641"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 # My issue is not listed
 
 Application Insights is an Application Performance Monitoring tool, and the team that supports this are experts in the usage and configuration of that tool.<br>

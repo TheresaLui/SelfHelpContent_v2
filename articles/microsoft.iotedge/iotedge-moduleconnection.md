@@ -9,8 +9,9 @@
 	supportTopicIds="32680961"
 	resourceTags=""
 	productPesIds="16509"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="642e98fe-b62c-4c7e-9550-87f54fab3a9b"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # IoT Edge module loses connection

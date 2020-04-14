@@ -9,8 +9,9 @@
 	supportTopicIds="32599623"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="4fa19219-ec91-4595-9ad3-41b3ac33d2a0"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Setup Conditional Access - Create and assign conditional access policy

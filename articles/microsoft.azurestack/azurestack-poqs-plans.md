@@ -10,8 +10,9 @@
     supportTopicIds="32629242"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-poqs-plans"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Manage Plans in Azure Stack

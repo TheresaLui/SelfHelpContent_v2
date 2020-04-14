@@ -14,7 +14,8 @@ selfHelpType="generic"
 supportTopicIds="32633019"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Data appears with delay

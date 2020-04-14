@@ -10,8 +10,9 @@
 	supportTopicIds="32680685"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="reserved instance- unable to purchase"
+	ownershipId="ASMS_Billing"
 />
 
 # Reserved Instance- Unable to purchase or questions before purchase
@@ -32,6 +33,9 @@ Please use following points to troubleshoot if you are running into issues while
 * **CSP** customers can only purchase reservations through their partners. Partners can use Partner Center Portal or Azure portal for RI purchase.
 
 ### **Questions before purchase**
+
+* **How is reservation discount applied to existing resources?**<br>
+Reservation benefit automatically applies to existing resources that match the reservation SKU, region and scope. There is no tagging of a reservation to a resource. [Learn more](https://docs.microsoft.com/azure/cost-management-billing/reservations/save-compute-costs-reservations#how-reservation-discount-is-applied)
 
 * **Which VM size should I buy?**<br>
 Read this article: [Determine the right VM size before you buy](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances?toc=/azure/billing/TOC.json#determine-the-right-vm-size-before-you-buy)

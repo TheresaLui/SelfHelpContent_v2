@@ -10,7 +10,8 @@
 	selfHelpType="generic"
 	supportTopicIds="32690871"
 	productPesIds="16644"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # My issue is not listed here

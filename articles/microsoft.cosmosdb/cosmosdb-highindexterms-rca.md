@@ -10,7 +10,8 @@
 	selfHelpType="rca"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # We ran diagnostics on your resource and found an issue

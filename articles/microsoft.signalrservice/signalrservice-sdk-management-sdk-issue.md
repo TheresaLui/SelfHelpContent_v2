@@ -13,7 +13,8 @@
 	supportTopicIds="32683980"
 	resourceTags=""
 	productPesIds="16477"
-	cloudEnvironments="public,Mooncake,Fairfax"
+	cloudEnvironments="public,Mooncake,Fairfax, usnat, ussec"
+	ownershipId="SignalRService_Triage"
 />
 
 # Management SDK issue

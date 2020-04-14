@@ -8,9 +8,10 @@
 	ms.author="johwu"
 	supportTopicIds="32690879"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.securityandmonitoring.rbac"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Role based access (RBAC) for workspace resources

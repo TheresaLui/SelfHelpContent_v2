@@ -10,8 +10,9 @@
     supportTopicIds="32629237,32629221,32629256,32630573,32629220"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="a32f2a3c-f0bb-4fbf-bf17-4ad15f6ffe7b"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Hardware Issues

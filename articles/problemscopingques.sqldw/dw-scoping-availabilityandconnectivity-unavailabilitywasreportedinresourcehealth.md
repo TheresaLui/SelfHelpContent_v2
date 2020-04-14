@@ -7,15 +7,15 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32635223"
     productPesIds="15818"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Availability and Connectivity - Unavailability was reported in Resource Health
 
 ---
 {
-
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Unavailability was reported in Resource Health",
@@ -61,5 +61,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
-
 ---

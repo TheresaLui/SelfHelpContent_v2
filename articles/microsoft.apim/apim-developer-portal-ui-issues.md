@@ -9,8 +9,9 @@
     supportTopicIds="32632415"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="18d1b134-961c-49dd-9969-6787f342f871"
+	ownershipId="Compute_APIManagement"
 />
 
 # Developer portal UI issues
@@ -21,4 +22,5 @@ API Management is a way to create consistent and modern API gateways for existin
 
 ## **Recommended Documents**
 
+- [Azure API Management developer portal overview](https://docs.microsoft.com/azure/api-management/api-management-howto-developer-portal)
 - [Capture a Trace for troubleshooting Azure Portal issues](https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues/)

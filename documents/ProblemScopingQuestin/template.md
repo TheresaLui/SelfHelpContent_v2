@@ -9,6 +9,7 @@
 	cloudEnvironments=""
 	schemaVersion="1"
 	articleId=""
+	ownershipId=""
 />
 # Useful Title
 ---

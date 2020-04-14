@@ -7,8 +7,9 @@
     displayOrder="800"
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="ca9755c2-f8fe-4b11-adb9-024ffeed4e5d"
+	ownershipId="AzureIdentity_User"
 />
 # I want to look through all password reset troubleshooting content
 ## **Recommended steps**

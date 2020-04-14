@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640051"
 	productPesIds="16221"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-mysql-connectivity-unavailable"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Database Connectivity - Database is currently unavailable
 ---

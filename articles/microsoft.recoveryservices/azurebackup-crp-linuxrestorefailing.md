@@ -10,8 +10,9 @@
 	supportTopicIds="32637326"
 	resourceTags="linux,redhat,ubuntu"
 	productPesIds="15571,15797,16470,16454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="89c1ecd8-5025-41d6-b79c-685f163af217"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Azure Backup - Restore is failing for my VM

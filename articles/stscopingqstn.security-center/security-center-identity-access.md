@@ -8,8 +8,9 @@
 	supportTopicIds="32636844,32636879,32636881,32636913"
 	resourceTags=""
 	productPesIds="15947"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="3415eca0-6f91-4c9c-b72c-25e166fbc6bb"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Identity and Access Common Solutions

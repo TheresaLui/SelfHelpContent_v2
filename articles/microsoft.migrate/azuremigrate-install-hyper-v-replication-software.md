@@ -10,8 +10,9 @@
     supportTopicIds="32675752"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="2d855b26-f9f9-4162-abd7-4ad9d7bf62be"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Preparing Hyper-V host servers for migration of Hyper-V virtual machines using Azure Migrate: Server Migration

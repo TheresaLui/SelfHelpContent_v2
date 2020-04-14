@@ -10,8 +10,9 @@
 	supportTopicIds="32539972"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="9a860325-8320-42a2-8b90-5ceeeecee53f"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # Configuration and Setup/Deploy VM Scale Sets (Linux)

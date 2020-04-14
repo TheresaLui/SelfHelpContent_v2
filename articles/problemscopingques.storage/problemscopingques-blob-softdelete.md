@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32608637"
 	productPesIds="16459"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="28C3054C-BDB6-41AC-9968-9EA4A458BC85"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Recover deleted blob with soft delete
 ---

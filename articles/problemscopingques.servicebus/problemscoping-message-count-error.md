@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633398"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="sb-message-count-issue"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Message Count Issues
 ---

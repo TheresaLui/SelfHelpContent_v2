@@ -8,9 +8,10 @@
 	ms.author="bradwall"
 	supportTopicIds="32690881"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.pipelines.runningpipelines"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Submitting and running pipelines

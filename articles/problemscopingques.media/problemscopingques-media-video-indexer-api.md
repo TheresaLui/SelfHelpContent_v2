@@ -7,8 +7,9 @@
     supportTopicIds="32606550, 32606561, 32606563, 32606574"
     productPesIds="16535"
     articleId="problemscopingques-video-indexer-api"
-    cloudEnvironments="public,blackForest,fairfax,mooncake"
+    cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
     schemaVersion="1"
+    ownershipId="StorageMediaEdge_Media_VI"
 />
 # Using Video Indexer's API
 ---

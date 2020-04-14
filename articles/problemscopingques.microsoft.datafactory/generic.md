@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
     supportTopicIds="32629437, 32629441, 32637149, 32637150, 32629446, 32629439, 32629484, 32629521, 32637152, 32680901, 32680902, 32680903, 32629526"
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
     articleId="46507f35-8fd9-48ec-8d09-c3d93ce3ed02"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Azure Data Factory Issue

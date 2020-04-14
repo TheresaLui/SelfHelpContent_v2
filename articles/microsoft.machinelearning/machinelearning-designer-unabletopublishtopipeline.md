@@ -10,7 +10,8 @@
 	selfHelpType="generic"
 	supportTopicIds="32690892"
 	productPesIds="16644"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Unable to publish to pipeline

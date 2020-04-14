@@ -5,10 +5,11 @@
   resource="Microsoft_AAD_IAM"
   authors="ajamess"
   selfHelpType="resource"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
   resourceTags="enterpriseapps_overview, enterpriseapps_singleapp"
   displayOrder="2507"
  	articleId="251e9462-9795-48c1-9367-26fae0a16150"
+	ownershipId="AzureIdentity_User"
 />
 
 # Problems configuring conditional access to one of my applications

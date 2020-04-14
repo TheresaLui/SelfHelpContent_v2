@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630436, 32630437"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="FAD1FE7C-C2A3-408E-8DCA-A3CAE653AD36"
+	ownershipId="AzureData_AzureSQLDB_Provisioning"
 />
 # Availability and Connectivity - Database isn't listed in Azure portal
 ---

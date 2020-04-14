@@ -10,8 +10,9 @@
 	supportTopicIds="32637533"
 	resourceTags=""
 	productPesIds="16098"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="lb-outbound"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 

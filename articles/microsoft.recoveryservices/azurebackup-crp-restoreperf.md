@@ -10,8 +10,9 @@
 	supportTopicIds="32637327"
 	resourceTags="windows,linux,redhat,ubuntu"
 	productPesIds="15571,15797,16470,16454,14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="4de262a6-b00d-4680-851e-aa9cb212f662"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Azure Backup - Restore is taking longer than expected

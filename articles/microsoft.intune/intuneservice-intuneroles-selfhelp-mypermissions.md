@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="intuneroles_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="cfeffb98-608e-4d31-a409-56ac7402db0f"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # One of my users seems to have too many permissions for the role I've assigned them in Intune.

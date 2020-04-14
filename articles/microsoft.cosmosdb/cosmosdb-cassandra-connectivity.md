@@ -9,10 +9,11 @@
 	supportTopicIds="32636776"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-cassandra-connectivity"
 	displayOrder="141"
 	category="Cassandra"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Unable to connect to Azure Cosmos DB Cassandra API 

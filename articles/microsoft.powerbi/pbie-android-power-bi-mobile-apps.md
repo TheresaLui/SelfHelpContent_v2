@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628063"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="89de8eeb-4337-1ca1-7029-bd99dd1d9f63"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Get started with the Power BI mobile app on Android devices

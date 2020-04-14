@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605791"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="d73dbe86-4f8e-414d-8963-7d22d012b671"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions SQL database backup failure
 ---

@@ -6,9 +6,10 @@
         selfHelpType="problemScopingQuestions"
         supportTopicIds="32634433"
         productPesIds="16370"
-        cloudEnvironments="public"
+        cloudEnvironments="public, Fairfax, usnat, ussec"
         schemaVersion="1"
         articleId="c5b80571-74c1-4158-92ea-62c75e8a34ed"
+	ownershipId="Compute_SiteRecovery"
 />
 # Fail to delete VMM server
 ---

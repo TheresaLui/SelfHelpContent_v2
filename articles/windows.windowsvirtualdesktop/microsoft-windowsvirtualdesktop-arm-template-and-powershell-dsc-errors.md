@@ -10,8 +10,9 @@
 	supportTopicIds="32727878"
 	resourceTags=""
 	productPesIds="16582"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId=" Needed "
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Windows Virtual Desktop - Azure Resource Manager and PowerShell DSC errors

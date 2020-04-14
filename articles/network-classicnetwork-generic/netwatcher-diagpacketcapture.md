@@ -9,8 +9,9 @@
 	supportTopicIds="32606441"
 	resourceTags=""
 	productPesIds="16160"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="8fd36487-3b8c-48b0-96d4-e511a620611a"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # diagnostictools/packetcapture

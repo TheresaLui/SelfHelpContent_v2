@@ -7,15 +7,15 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32635193, 32635192"
     productPesIds="15818"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Create, Scale, Pause, Resume, Delete - Create, Scale, Pause, Resume or Delete database taking too long
 
 ---
 {
-
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Region unavailable for Data Warehouse creation",
@@ -82,5 +82,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
-
 ---

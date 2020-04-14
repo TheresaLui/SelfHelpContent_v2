@@ -10,8 +10,9 @@
     supportTopicIds="32691162"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-creating-alerts-creating-bookmarks"
+	ownershipId="Azure_Sentinel"
 />
 
 # Trouble creating bookmarks

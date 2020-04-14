@@ -12,7 +12,8 @@
 	supportTopicIds="32632097"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # How-to encrypt with DRM and use a license delivery service

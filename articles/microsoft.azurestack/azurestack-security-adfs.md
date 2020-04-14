@@ -10,8 +10,9 @@
     supportTopicIds="32629187"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-security-adfs"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack AD FS

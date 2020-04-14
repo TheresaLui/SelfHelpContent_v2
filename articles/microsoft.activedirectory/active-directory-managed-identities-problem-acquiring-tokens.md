@@ -13,7 +13,8 @@
 	supportTopicIds="32690728"
 	resourceTags=""
 	productPesIds="16985"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_Managed Identities"
 />
 
 # Problem acquiring tokens for the managed identity

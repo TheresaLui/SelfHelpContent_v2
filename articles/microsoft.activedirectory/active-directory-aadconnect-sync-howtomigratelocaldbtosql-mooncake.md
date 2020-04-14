@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="active-directory-aadconnect-sync-howtomigratelocaldbtosql-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # How to migrate Azure AD Connect from LocalDB to full SQL

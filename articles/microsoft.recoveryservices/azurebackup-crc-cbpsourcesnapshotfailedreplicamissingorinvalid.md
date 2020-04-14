@@ -13,7 +13,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # Error CBPSourceSnapshotFailedReplicaMissingOrInvalid

@@ -6,6 +6,7 @@
     articleId="14b28bdb-b83d-4f55-a516-44d4152f1f2b_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 # Scale up to optimize cache utilization with SQL Data Warehouse
 ---

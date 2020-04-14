@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636944"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="eh-timeout-issues"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Timeout errors
 ---

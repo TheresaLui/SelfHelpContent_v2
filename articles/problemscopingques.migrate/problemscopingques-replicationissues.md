@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32675757"
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="b3f6e26c-0cc9-48c0-a848-397038546515"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Replication issues

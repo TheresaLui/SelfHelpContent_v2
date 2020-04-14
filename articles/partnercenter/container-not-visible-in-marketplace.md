@@ -13,7 +13,8 @@
 	supportTopicIds="32689400"
 	resourceTags="marketplace"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Azure applications - visibility

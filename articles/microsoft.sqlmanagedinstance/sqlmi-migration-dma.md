@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32637255"
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="2d64a91a-2c91-4e09-a3dc-2fe3cb2a3018"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Data migration assistant (DMA)
