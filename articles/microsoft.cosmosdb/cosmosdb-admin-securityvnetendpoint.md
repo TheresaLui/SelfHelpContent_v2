@@ -18,7 +18,7 @@
 
 # Azure Cosmos DB Security Permissions and Role Based Access Control
 
-Most users are able to resolve their Access Control (roles, users, keys and permission) case using the steps below.
+Most users are able to resolve their Access Control (roles, users, keys, and permissions) case using the steps below.
 
 ## **Recommended Steps**
 
@@ -26,7 +26,7 @@ Most users are able to resolve their Access Control (roles, users, keys and perm
 
 #### **How do I get the primary/secondary read/write keys in a programmatic, safe, and secure way?**
 
-There are two recommended ways to get your keys to learn more:
+There are two recommended ways to get your keys. To learn more:
 
 * [How to use a system-assigned managed identity to access Azure Cosmos DB data](https://docs.microsoft.com/azure/cosmos-db/managed-identity-based-authentication)
 * [Certificate-based authentication with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/certificate-based-authentication)
@@ -54,7 +54,7 @@ There are two recommended ways to get your keys to learn more:
 * For a listing of all operations that can be configured for a custom RBAC role, see [Azure Cosmos DB Resource Provider Operations](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftdocumentdb)
 * Please note, role assignments are scoped to **control-plane access only**, as defined above. Data plane operations, including queries and all CRUD operations on data stored within Azure Cosmos DB are secured using master keys, resource tokens, Azure Key Vault or using a certificate-based approach as shown below. To learn more, see [Secure access to data in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data).
 * Users can use managed identities to secure access to the master keys for Azure Cosmos DB and allow for safe key rotation. To learn more see, [How to use a system-assigned managed identity to access Azure Cosmos DB data](https://docs.microsoft.com/azure/cosmos-db/managed-identity-based-authentication)
-* Finally, users can choose to implement a certificate-based authentication for an Azure AD identity to allow users to access access data within Azure Cosmos DB without having to distribute the master keys. For more information on how to implement this see, [Certificate-based authentication with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/certificate-based-authentication).
+* Finally, users can choose to implement a certificate-based authentication for an Azure AD identity to allow users to access data within Azure Cosmos DB without having to distribute the master keys. For more information on how to implement this see, [Certificate-based authentication with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/certificate-based-authentication).
 
 ### **Cannot load a document in Data explorer: Error 401**
 
