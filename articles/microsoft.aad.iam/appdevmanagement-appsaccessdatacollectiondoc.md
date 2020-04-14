@@ -1,7 +1,8 @@
 <properties 
     pageTitle="Active Directory application access issue"
     description="appsaccessdatacollectiondoc"
-    authors="anupnadigm"
+    authors="anupnadigm, vritiJain"
+    ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
     supportTopicIds=""
     productPesIds=""
