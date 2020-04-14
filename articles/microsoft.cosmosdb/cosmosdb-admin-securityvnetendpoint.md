@@ -32,6 +32,7 @@ There are two recommended ways to get your keys to learn more:
 * Roles to know:
   * _DocumentDB Account Contributor_ role, at a high level, allows the assigned account to manage Azure Cosmos DB accounts and allows retrieval of read/write keys. For more information please see [DocumentDB-Account-Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#documentdb-account-contributor).
   * _Cosmos DB Account Reader_ role, at a high level, allows the assigned account to read all Azure Cosmos DB account data, and can retrieve the read keys. For more information please see [Cosmos DB Account Reader](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#cosmos-db-account-reader-role)
+  * _Cosmos DB Operator_ - allows the assigned account to manage Azure Cosmos DB Accounts but not access the data in them. For more information please see [Operator](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#cosmos-db-operator).
   * _Contributor_  allows the assigned account to contribute to Azure Cosmos DB. For more information please see [Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor).
 
 * To learn more:
