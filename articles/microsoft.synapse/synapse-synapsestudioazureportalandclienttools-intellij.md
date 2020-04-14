@@ -10,18 +10,18 @@
 	displayOrder = ""
 	diagnosticScenario = ""
 	infoBubbleText = ""
-	pageTitle = "Synapse Studio, Azure Portal and Client Tools/Intellij"
-	description = "Synapse Studio, Azure Portal and Client Tools/Intellij"
-	articleId = "synapse-synapsestudioazureportalandclienttools-intellij"
+	pageTitle = "Synapse Studio, Azure Portal and Client Tools/IntelliJ"
+	description = "Synapse Studio, Azure Portal and Client Tools/IntelliJ"
+	articleId = "synapse-synapsestudioazureportalandclienttools-intelliJ"
 	authors = "saltug"
 	ms.author = "saltug"
 />
 
-# Synapse Studio, Azure Portal and Client Tools/Intellij
+# Synapse Studio, Azure Portal and Client Tools/IntelliJ
 
 ## **Recommended Steps**
 
-Review [prerequisites](https://review.docs.microsoft.com/azure/synapse-analytics/spark/intellij-tool-synapse?branch=release-ignite-arcadia#prerequisites) for Intellij support
+Review [prerequisites](https://review.docs.microsoft.com/azure/synapse-analytics/spark/intellij-tool-synapse?branch=release-ignite-arcadia#prerequisites) for IntelliJ support
 
 Review this tutorial on [how to create a spark job step-by-step](https://review.docs.microsoft.com/azure/synapse-analytics/spark/intellij-tool-synapse)
 
