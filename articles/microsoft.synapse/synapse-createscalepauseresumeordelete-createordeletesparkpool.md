@@ -21,9 +21,9 @@
 
 ## **Recommended Steps**
 
-Review the required steps outlined in [Creating an Apache Spark pool](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool?branch=release-ignite-arcadia) using Azure portal
+Review the required steps outlined in [Creating an Apache Spark pool](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool?branch=release-ignite-arcadia) using Azure portal.
 
-Yopu can delete your Apache Spark pool by following [these steps](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool?branch=release-ignite-arcadia#clean-up-resources).
+You can delete your Apache Spark pool by following [these steps](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool?branch=release-ignite-arcadia#clean-up-resources).
 
 ## **Recommended Documents**
 
