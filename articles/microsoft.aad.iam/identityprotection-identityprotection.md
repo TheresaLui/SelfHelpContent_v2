@@ -1,8 +1,8 @@
 <properties
     pageTitle="Azure Active Directory Sign-In and Identity Protection"
     description="identityprotection"
-    authors="arupela"
-    ms.author="arupela"
+    authors="vritiJain"
+    ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32596865,32596866,32596869,32615307"
     productPesIds="16579"
@@ -15,7 +15,7 @@
 # Azure Active Directory Sign-In and Identity Protection
 
 ---
-
+{
     "resourceRequired": false,
 	"subscriptionRequired": false,
     "title": "Active Directory application single sign on issue",

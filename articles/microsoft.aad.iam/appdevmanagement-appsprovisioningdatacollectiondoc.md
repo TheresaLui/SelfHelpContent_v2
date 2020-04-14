@@ -4,7 +4,7 @@
     authors="ashish-009"
 	ms.author="asbh"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32570260"
+    supportTopicIds=""
     productPesIds="16575"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
