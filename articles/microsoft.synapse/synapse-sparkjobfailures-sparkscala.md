@@ -22,7 +22,7 @@
 ## **Recommended Steps**
 
 The most common challenge is memory pressure, because of improper configurations (particularly wrong-sized executors), long-running operations, and tasks that result in Cartesian operations. 
-* [Use optimal data format](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-performance?branch=release-ignite-arcadia#use-optimal-data-format)
+* [Use optimal data format](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-performance?branch=release-ignite-arcadia#use-the-cache)
 * [Use the cache](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-performance?branch=release-ignite-arcadia#use-the-cache)
 * [Use memory efficiently](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-performance?branch=release-ignite-arcadia#use-memory-efficiently)
 * [Optimize data serialization](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-performance?branch=release-ignite-arcadia#optimize-data-serialization)
