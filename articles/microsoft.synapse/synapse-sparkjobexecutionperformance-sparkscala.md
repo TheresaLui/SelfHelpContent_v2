@@ -30,7 +30,7 @@ The most common challenge is memory pressure, because of improper configurations
 * [Optimize joins and shuffles](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-performance?branch=release-ignite-arcadia#optimize-joins-and-shuffles)
 * [Optimize job execution](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-performance?branch=release-ignite-arcadia#optimize-job-execution)
 
-If the package you are installing is large or takes a long time to install, this affects the Spark instance start up time. Please review review [Augmenting Apache Spark with additional libraries](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-azure-portal-add-libraries).
+If the package you are installing is large or takes a long time to install, this affects the Spark instance startup time. Please review [Augmenting Apache Spark with additional libraries](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-azure-portal-add-libraries).
 
 Spark pools in Azure Synapse include the following libraries that are available on the pools by default.
 * [Spark Core](https://spark.apache.org/docs/latest/). Includes Spark Core, Spark SQL, GraphX, and MLlib.
