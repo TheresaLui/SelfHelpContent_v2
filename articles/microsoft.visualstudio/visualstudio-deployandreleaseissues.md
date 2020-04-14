@@ -12,7 +12,7 @@
 	supportTopicIds="32373545,  32452973"
    	resourceTags=""
 	productPesIds="15543"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="ASEP_ContentService_Placeholder"
 />
 

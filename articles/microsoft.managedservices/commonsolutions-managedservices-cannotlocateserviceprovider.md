@@ -13,7 +13,7 @@
 	supportTopicIds="32642164"
 	resourceTags=""
 	productPesIds="16761"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="Compute_AzureLighthouse"
 />
 

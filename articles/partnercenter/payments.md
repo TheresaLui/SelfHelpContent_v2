@@ -14,8 +14,8 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960,17003"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Billing_and_Invoicing"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Payments
 

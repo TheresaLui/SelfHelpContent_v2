@@ -12,7 +12,7 @@
     supportTopicIds="32690723"
     resourceTags=""
     productPesIds="16986"
-    cloudEnvironments="public, Fairfax, Mooncake"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	ownershipId="AzureIdentity_RBAC"
 />
 

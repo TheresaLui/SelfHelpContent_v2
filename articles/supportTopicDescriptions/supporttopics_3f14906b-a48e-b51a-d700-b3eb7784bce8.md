@@ -5,7 +5,7 @@
   ms.author="ambhatna"
   selfhelptype="SupportTopicDescription"
   productpesids="3f14906b-a48e-b51a-d700-b3eb7784bce8"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_3f14906b-a48e-b51a-d700-b3eb7784bce8"
   ownershipid="AzureData_AzureDatabaseforMariaDB" />
 # Support Topic Descriptions for 3f14906b-a48e-b51a-d700-b3eb7784bce8

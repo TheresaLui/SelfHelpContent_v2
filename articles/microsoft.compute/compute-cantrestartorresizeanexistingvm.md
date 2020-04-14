@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	resourceTags="windows, linux, windowsSQL, redhat, Ubuntu"
 	productPesIds=""
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="1cf1dd0b-8bde-4432-a753-6e800568aa29"
 	ownershipId="Compute_VirtualMachines"
 />
@@ -19,7 +19,7 @@
 
 ## **Awareness**
 
->We are currently experiencing high demand for specific regions across the globe. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
+>We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
 
 ## **Recommended Steps**
 

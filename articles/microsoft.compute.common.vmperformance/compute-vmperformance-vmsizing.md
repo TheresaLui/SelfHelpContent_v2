@@ -10,7 +10,7 @@
 	supportTopicIds="32628270"
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="b3157bac-dc37-4341-98c8-14320fad6c37"
 	ownershipId="Compute_VirtualMachines_Content"
 />
@@ -19,7 +19,7 @@
 
 ## **Awareness**
 
->We are currently experiencing high demand for specific regions across the globe. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
+>We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
 
 ## **Recommended Steps**
 

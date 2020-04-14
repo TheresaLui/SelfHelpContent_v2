@@ -7,7 +7,7 @@
     supportTopicIds="32632075"
     productPesIds="14885"
     articleId="problemscopingques-quota-access-policies"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
 	ownershipId="StorageMediaEdge_Media"
 />

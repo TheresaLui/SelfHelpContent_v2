@@ -10,11 +10,11 @@
 	articleId="account_settings_users_roles_and_notifications"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635708,32728293"
+	supportTopicIds="32635708, 32728293, 32725812"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960,17000"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
@@ -23,6 +23,7 @@
 Resources that explain how to assign user roles and permissions in Partner Center.
 
 ## **Recommended Documents**
-
+* [Unable to sign in Partner Center](https://docs.microsoft.com/partner-center/unable-to-sign-in)
+* [Reset my password](https://docs.microsoft.com/partner-center/reset-my-pasword)
 * [Assign users roles and permissions](https://docs.microsoft.com/partner-center/permissions-overview)
 * [Create user accounts and assign permissions](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)

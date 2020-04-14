@@ -10,14 +10,14 @@
 	supportTopicIds="32641072"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="a5788e7e-192d-4885-b271-ffa4423fae91"
 	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 ## **Awareness**
 
->We are currently experiencing high demand for specific regions across the globe. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
+>We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
 
 ## **Recommended Steps**
 

@@ -11,7 +11,7 @@
     selfHelpType="diagnostics"
     supportTopicIds=""
     productPesIds="16456"
-    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     articleId="21fcaa7d-e41b-4d47-8a5a-843ea71bdda0"
     ownershipId="Compute_AzurePolicy"
 />
@@ -32,7 +32,7 @@ We found the following policy definition syntax errors:
 
 **Is this a built-in policy or initiative?**
 
-* [Understanding ‘Enable Monitoring using Azure Security Center’ initiative](https://docs.microsoft.com/azure/security-center/tutorial-security-policy)
+* [Understanding Enable Monitoring using Azure Security Center initiative](https://docs.microsoft.com/azure/security-center/tutorial-security-policy)
 * [Understanding Policy effects](https://docs.microsoft.com/azure/governance/policy/concepts/effects)
 
 **Is this a custom policy?**

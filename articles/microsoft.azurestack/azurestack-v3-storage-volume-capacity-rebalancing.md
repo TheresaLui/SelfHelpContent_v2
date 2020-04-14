@@ -10,9 +10,9 @@
     supportTopicIds="32663921"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="92d85eb7-cd78-434f-96fe-8292931b29d6"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Volume capacity and rebalancing

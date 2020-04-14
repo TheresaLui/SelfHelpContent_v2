@@ -5,7 +5,7 @@
   ms.author="akankshajsh"
   selfhelptype="SupportTopicDescription"
   productpesids="53b14ef9-9b69-4d8c-a458-b8e4c132a815"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="sql-server-in-vm-windows-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"

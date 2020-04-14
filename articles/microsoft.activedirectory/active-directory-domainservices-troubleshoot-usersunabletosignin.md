@@ -6,7 +6,7 @@
 	authors="arluca"
 	selfHelpType="resource"
 	displayOrder="200"
-	cloudEnvironments="public, Fairfax, Mooncake"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="8de5601a-c38c-49a0-b4fc-5e5ddde86f41"
 	ownershipId="AzureIdentity_DomainName"
 />

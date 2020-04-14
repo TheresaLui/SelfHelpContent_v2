@@ -10,7 +10,7 @@ articleId="202605d3-432d-4799-85df-a35504c94b5f"
 selfHelpType="diagnoseandsolve"
 resourceTags="windows"
 productPesIds="14749"
-cloudEnvironments="public, Fairfax"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines_Content"
 />
 # Diagnose and solve v2 test article for windows

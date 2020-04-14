@@ -2,7 +2,7 @@
     pageTitle="Customer sees KRB_AP_ERR_MODIFIED error in the event log"
     description="Customer sees KRB_AP_ERR_MODIFIED error in the event log"
     service="microsoft.storage"
-    resource="file storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""
@@ -10,7 +10,7 @@
     supportTopicIds="32689882"
     resourceTags=""
     productPesIds="1003478"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="05113e2a-b093-467e-af09-22a963013c5d"
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />
@@ -44,12 +44,3 @@ Output that shows the AD password for the storage account does not match one of 
     At line: 1 char:1
     
     + Test-AzStorageAccountADObjectPasswordIsKerbKey -ResourceGroupName "psnativerg" …
-
-
-## Resolution/Workaround
-
-Reset the password in AD for the storage account to match either kerb1 or kerb2 using "**Update-AzStorageAccountADObjectPassword**".
-
-Example where action is taken with kerb1:
-
-Update-AzStorageAccountADObjectPassword -ResourceGroupName rgname -StorageAccountName accountname -RotateToKerbKey kerb1

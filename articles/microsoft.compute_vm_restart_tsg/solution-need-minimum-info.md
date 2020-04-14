@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="6a3e4760-5ebd-4b38-be6d-db2b59783cdb"
 	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
@@ -26,5 +26,6 @@ We've reviewed your case and we need additional information to scope and investi
 6. Business Impact: "How would one describe the business impact of this issue?"<br>
 7. Approval to collect the logs. If the case is submitted through the Portal, you would see "- GrantPermission: true" in the Case Description.<br>
 <br>
+
 Please respond with as much of this information as possible. 
 <!--/issueDescription-->

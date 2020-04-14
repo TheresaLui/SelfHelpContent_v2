@@ -6,11 +6,11 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32635670,32635650"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_api_data_errors"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center API Data Issues and Errors
 ---

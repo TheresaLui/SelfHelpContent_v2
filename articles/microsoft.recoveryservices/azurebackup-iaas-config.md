@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15207"
 	articleId="95333929-5668-4cb5-bed3-3855436ddbf7"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 		ownershipId="StorageMediaEdge_Backup"
 />
 

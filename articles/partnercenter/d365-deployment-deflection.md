@@ -13,8 +13,8 @@
 	supportTopicIds="32689364, 32689365, 32689366"
 	resourceTags="marketplace"
 	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # D365 offer deployment deflection

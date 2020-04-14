@@ -14,8 +14,8 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960, 17012"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Transact_and_Manage"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Establishing a relationship with a customer in another country or region
 Below documents describe how to establish relationships with customers when they reside in a country or region different than the partner's.

@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628102"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="bc7e4436-a885-cd83-53af-98e48ea0c063"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Export data from visualizations

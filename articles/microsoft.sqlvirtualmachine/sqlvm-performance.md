@@ -10,7 +10,7 @@
 	supportTopicIds="32633527"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="sqlvm-performance"
 	ownershipId="AzureData_AzureSQLVM"
 />
