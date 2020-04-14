@@ -51,11 +51,10 @@ Error Message: *The input authorization token can't serve the request. Please ch
 <br>This article lists the operations available for each Azure Resource Manager resource provider. These operations can be used in custom roles to provide granular role-based access control (RBAC) to resources in Azure.  
 
 [How to use a system-assigned managed identity to access Azure Cosmos DB data](https://docs.microsoft.com/azure/cosmos-db/managed-identity-based-authentication)
-<br>Gone are the days of copying and pasting keys. Use managed identities to unlock a **robust, key rotation agnostic** solution to get your Azure Cosmos DB keys on demand. From there you can use the keys to access your Azure Cosmos DB's databases, containers, and items.
+<br>Gone are the days of copying and pasting keys. Use managed identities to unlock a **robust, key rotation agnostic** solution to get your Azure Cosmos DB keys on demand. From there you can use the keys to access your Azure Cosmos DB's databases, containers, and items.  
 
 [Certificate-based authentication with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/certificate-based-authentication)
-<br>Certificate-based authentication enables your client application to be authenticated by using Azure Active Directory (Azure AD) with a client certificate. You can perform certificate-based authentication on a machine where you need an identity, such as an on-premises machine or virtual machine in Azure.
+<br>Certificate-based authentication enables your client application to be authenticated by using Azure Active Directory (Azure AD) with a client certificate. You can perform certificate-based authentication on a machine where you need an identity, such as an on-premises machine or virtual machine in Azure.  
 
 [Secure Azure Cosmos keys using Azure Key Vault](https://docs.microsoft.com/azure/cosmos-db/access-secrets-from-keyvault)
-<br>When using Azure Cosmos DB for your applications, you can access the database, collections, documents by using the endpoint and the key within the app configuration file. However, it is not safe to put keys and URL directly in the application code because they are available in clear text format to all the users. You want to make sure that the endpoint and keys are available but through a secured mechanism. This is where Azure Key Vault can help you to securely store and manage application secrets.
-
+<br>When using Azure Cosmos DB for your applications, you can access the database, collections, documents by using the endpoint and the key within the app configuration file. However, it is not safe to put keys and URL directly in the application code because they are available in clear text format to all the users. You want to make sure that the endpoint and keys are available but through a secured mechanism. This is where Azure Key Vault can help you to securely store and manage application secrets.  

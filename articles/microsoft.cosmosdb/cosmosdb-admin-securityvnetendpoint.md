@@ -18,16 +18,20 @@
 
 # Azure Cosmos DB Security Permissions and Role Based Access Control
 
-## FAQ
+Most users are able to resolve their Access Control (roles, users, keys and permission) case using the steps below.
 
-### How do I get the primary/secondary read/write keys in a programmatic, safe, and secure way?
+## **Recommended Steps**
+
+### **FAQ**
+
+#### **How do I get the primary/secondary read/write keys in a programmatic, safe, and secure way?**
 
 There are two recommended ways to get your keys to learn more:
 
 * [How to use a system-assigned managed identity to access Azure Cosmos DB data](https://docs.microsoft.com/azure/cosmos-db/managed-identity-based-authentication)
 * [Certificate-based authentication with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/certificate-based-authentication)
 
-### What are roles I should know about, and where can I go to learn more:
+#### **What are roles I should know about?**
 
 * Roles to know:
   * _DocumentDB Account Contributor_ role, at a high level, allows the assigned account to manage Azure Cosmos DB accounts and allows retrieval of read/write keys. For more information please see [DocumentDB-Account-Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#documentdb-account-contributor).
@@ -35,16 +39,14 @@ There are two recommended ways to get your keys to learn more:
   * _Cosmos DB Operator_ - allows the assigned account to manage Azure Cosmos DB Accounts but not access the data in them. For more information please see [Operator](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#cosmos-db-operator).
   * _Contributor_  allows the assigned account to contribute to Azure Cosmos DB. For more information please see [Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor).
 
-* To learn more:
-      * [Azure Built in Roles](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)
-      * [Cosmos DB Specific Built in Roles](https://docs.microsoft.com/azure/cosmos-db/role-based-access-control)
+* Be sure to also take a look at:
+  * [Azure Built in Roles](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)
+  * [Cosmos DB Specific Built in Roles](https://docs.microsoft.com/azure/cosmos-db/role-based-access-control)
 
 * If you want fine grained control over roles and want to create your own:
   * [Custom Roles in Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/role-based-access-control#custom-roles)
 
 >[!NOTE] CosmosDb and DocumentDb AAD namespaces are aliases for each other.
-
-## **Recommended Steps**
 
 ### **Role Based Access Control**
 
@@ -73,10 +75,10 @@ Error Message: *The input authorization token can't serve the request. Please ch
 <br>This article lists the operations available for each Azure Resource Manager resource provider. These operations can be used in custom roles to provide granular role-based access control (RBAC) to resources in Azure.  
 
 [How to use a system-assigned managed identity to access Azure Cosmos DB data](https://docs.microsoft.com/azure/cosmos-db/managed-identity-based-authentication)
-<br>Gone are the days of copying and pasting keys. Use managed identities to unlock a **robust, key rotation agnostic** solution to get your Azure Cosmos DB keys on demand. From there you can use the keys to access your Azure Cosmos DB's databases, containers, and items.
+<br>Gone are the days of copying and pasting keys. Use managed identities to unlock a **robust, key rotation agnostic** solution to get your Azure Cosmos DB keys on demand. From there you can use the keys to access your Azure Cosmos DB's databases, containers, and items.  
 
 [Certificate-based authentication with Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/certificate-based-authentication)
-<br>Certificate-based authentication enables your client application to be authenticated by using Azure Active Directory (Azure AD) with a client certificate. You can perform certificate-based authentication on a machine where you need an identity, such as an on-premises machine or virtual machine in Azure.
+<br>Certificate-based authentication enables your client application to be authenticated by using Azure Active Directory (Azure AD) with a client certificate. You can perform certificate-based authentication on a machine where you need an identity, such as an on-premises machine or virtual machine in Azure.  
 
 [To restrict user data](https://docs.microsoft.com/azure/cosmos-db/how-to-restrict-user-data)
-<br>Learn how to restrict user data in Azure Cosmos DB.
+<br>Learn how to restrict user data in Azure Cosmos DB.  
