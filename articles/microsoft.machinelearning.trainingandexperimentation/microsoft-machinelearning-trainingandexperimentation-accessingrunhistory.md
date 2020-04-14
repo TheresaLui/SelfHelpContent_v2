@@ -8,7 +8,7 @@
 	ms.author="minxia"
 	supportTopicIds="32690885"
 	productPesIds="16644"
-	cloudEnvironments="public, fairfax, mooncake"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.trainingandexperimentation.accessingrunhistory"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"

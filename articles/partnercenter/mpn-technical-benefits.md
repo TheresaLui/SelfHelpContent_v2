@@ -14,7 +14,7 @@
 	clientIds='partnercenter'
 	resourceTags="mpn"
 	productPesIds="15960,17007"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Technical Benefits request

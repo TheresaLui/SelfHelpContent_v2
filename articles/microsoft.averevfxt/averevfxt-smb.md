@@ -11,8 +11,8 @@
     supportTopicIds="32609695"
     resourceTags=""
     productPesIds="16506"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="ASEP_ContentService_Placeholder"
+    cloudEnvironments="public"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 
 # Avere vFXT SMB Configuration Issues

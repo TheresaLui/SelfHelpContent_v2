@@ -12,7 +12,7 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
 	ownershipId="CloudNet_AzureExpressRoute"
 />
 # ExpressRoute Address Prefix Count Exceeded

@@ -9,7 +9,7 @@
 	resourceTags="notificationHubs"
 	productPesIds=""
 	supportToicIds =""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="0fd1aa3f-574c-46ca-92e2-93a57c63cc92"
 	ownershipId="AzureMessaging_Common"
 />

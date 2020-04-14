@@ -10,12 +10,12 @@
 	articleId="customer_offers_subs_upgrade_downgrade"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635707,32730253"
+	supportTopicIds="32739480,32635707,32730253"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17012"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Transact_and_Manage"
+	productPesIds="17000,15960,17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Upgrade or downgrade subscriptions
