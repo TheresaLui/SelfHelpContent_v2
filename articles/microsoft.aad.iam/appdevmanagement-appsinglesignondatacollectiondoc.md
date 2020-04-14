@@ -22,7 +22,7 @@
     "fileAttachmentHint": null,
     "diagnosticCard": {
         "title": "Problem with Azure Active Directory application single sign-on",
-        "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message from the Application or from the Sign-ins logs",
+        "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message from the Application or from the Sign-in logs",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
     "formElements": [
@@ -151,7 +151,7 @@
             "displayLabel": "Application name or ID:",
             "content": null,
             "watermarkText": "ContosoApp",
-            "infoBalloonText": "Application to login to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743,
+            "infoBalloonText": "Application to login to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "required": false,
@@ -168,7 +168,7 @@
             "displayLabel": "User Experiencing Problem:",
             "content": null,
             "watermarkText": "joe@contoso.com",
-            "infoBalloonText": "User who made the sign-in request. Format accepted is UPN:joe@contoso.com  or ObjectID:224ad664-d4a8-41fc-9ddf-121db97fa120,
+            "infoBalloonText": "User who made the sign-in request. Format accepted is UPN:joe@contoso.com  or ObjectID:224ad664-d4a8-41fc-9ddf-121db97fa120",
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "required": false,
