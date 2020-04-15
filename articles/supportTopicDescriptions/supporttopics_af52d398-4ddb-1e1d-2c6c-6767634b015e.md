@@ -27,6 +27,14 @@
       "searchTags": "functional issues using Graph APIs",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bcdf7161-1b6f-31ef-0657-5428f4a411e1",
+      "longDescription": "",
+      "shortDescription": "You are trying to use Graph SDKs and running into a problem",
+      "searchTags": "issue with using Graph SDKs",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
