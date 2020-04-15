@@ -1,8 +1,8 @@
 <properties
     pageTitle="Convert Managed Disks from Standard HDD to Premium SSD"
     description="Convert Managed Disks from Standard HDD to Premium SSD"
-    authors="lisson"
-    ms.author="xdataanalytics"
+    authors="xdataanalytics"
+    ms.author="yuriic"
     articleId="e4fc6ecb-b3e8-4494-800f-547da6a57f28_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
@@ -24,9 +24,9 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "MDHDDtoPremiumForPerformance",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "owner": {
-    "email": "lisson@microsoft.com",
+    "email": "yuriic@microsoft.com",
     "icm": {
       "routingId": "mdm://XStore/DataAnalytics",
       "service": "Xstore",
