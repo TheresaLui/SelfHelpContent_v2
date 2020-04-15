@@ -10,7 +10,7 @@
 	articleId="billing_invoice_printing"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32681449, 32725826"
+	supportTopicIds="32681449"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960, 17000"
