@@ -19,7 +19,7 @@
 
 ## **Recommended Documents**
 
-* [Understand Azure Policy's Guest Configuration](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration.md)
-* [How to create Guest Configuration policies for Windows](https://docs.microsoft.com/azure/governance/policy/how-to/guest-configuration-create.md)
-* [Create a custom policy definition](https://docs.microsoft.com/azure/governance/policy/how-to/guest-configuration-create-linux.md)
-* [Compliance details for Guest Configuration](https://docs.microsoft.com/azure/governance/policy/how-to/determine-non-compliance.md#compliance-details-for-guest-configuration)
+* [Understand Azure Policy's Guest Configuration](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration)
+* [How to create Guest Configuration policies for Windows](https://docs.microsoft.com/azure/governance/policy/how-to/guest-configuration-create)
+* [Create a custom policy definition](https://docs.microsoft.com/azure/governance/policy/how-to/guest-configuration-create-linux)
+* [Compliance details for Guest Configuration](https://docs.microsoft.com/azure/governance/policy/how-to/determine-non-compliance#compliance-details-for-guest-configuration)
