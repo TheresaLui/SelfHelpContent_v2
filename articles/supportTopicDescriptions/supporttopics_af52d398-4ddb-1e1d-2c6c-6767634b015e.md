@@ -29,6 +29,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "589cb45b-f2bf-554a-c9d0-502737affaf0",
+      "longDescription": "",
+      "shortDescription": "You are experiencing issues with samples and tutorials in Graph ",
+      "searchTags": "issues re samples in Graph ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b9da8288-ed52-c53d-e862-597f7a977ab5",
+      "longDescription": "",
+      "shortDescription": "You have a problem with authorizing via Graph API",
+      "searchTags": "issue with authorizing via Graph API",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bcdf7161-1b6f-31ef-0657-5428f4a411e1",
       "longDescription": "",
       "shortDescription": "You are trying to use Graph SDKs and running into a problem",
