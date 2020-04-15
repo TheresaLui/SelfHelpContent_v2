@@ -10,7 +10,7 @@
     supportTopicIds="32689882"
     resourceTags=""
     productPesIds="1003478"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="de4ecb72-e137-4051-9f7c-2c6b9055259a"
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />

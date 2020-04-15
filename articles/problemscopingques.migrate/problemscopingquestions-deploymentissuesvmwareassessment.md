@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32675747"
     productPesIds="16348"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="16626ec8-bb1d-4ed4-baf2-9d659b578d89"
 	ownershipId="Compute_AzureMigrate"

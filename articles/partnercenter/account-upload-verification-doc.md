@@ -14,7 +14,7 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="17000"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
@@ -22,7 +22,7 @@
 
 ## **Recommended Steps**
 
- ###**Accepted forms of Proof**
+ ### **Accepted forms of Proof**
  
  **Business Verification: business registration form, business charter or articles of incorporation. Examples:**
  

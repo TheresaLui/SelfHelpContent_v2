@@ -5,7 +5,7 @@
          ms.author="seanj"
          selfHelpType="TSG_Questions"
          productPesIds="15922"
-         cloudEnvironments="public, Fairfax"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="F2143039-B7F0-436B-B120-3C721FF0F4ED"
 	ownershipId="ASEP_ContentService_Placeholder"
@@ -14,6 +14,27 @@
 ---
 {
     "formElements": [
+	{
+            "id": "ae12a9a2-a04d-4dda-89e1-dad7914b4bf0",
+            "order": 1,
+            "controlType": "radioButtonGroup",
+            "displayLabel": "What problem is the customer experiencing?",
+            "radioButtonOptions": [
+                {
+                    "value": "VPN doesn't connect or never connected",
+                    "text": "VPN doesn't connect or never connected"
+                },
+                {
+                    "value": "VPN unstable - connects then disconnects",
+                    "text": "VPN unstable - connects then disconnects"
+                },
+		{
+                    "value": "VPN connects but resources unreachable",
+                    "text": "VPN connects but resources unreachable"
+                }
+            ],
+            "required": true
+        },
         {
             "id": "2b27d3ad-6b77-4330-95d2-d68bfae16cec",
             "order": 1,

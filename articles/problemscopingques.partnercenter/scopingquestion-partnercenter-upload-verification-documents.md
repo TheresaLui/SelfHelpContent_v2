@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32730248"
 	productPesIds="17000"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_upload_verification_documents"
 	clientIds="partnercenter"
@@ -18,7 +18,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Partner Center Upload verification documents",
-    "fileAttachmentHint": "Please upload your employment verification documents as .pdf or screen shots. Realize these uploads must be less than 8MB. Review the types of employment verification from the recommended steps.",
+    "fileAttachmentHint": "Please upload your verification documents as .pdf or screen shots. Realize these uploads must be less than 8MB. Review the types of verification from the recommended steps.",
     "formElements": [
         {
             "id": "problem_start_time",

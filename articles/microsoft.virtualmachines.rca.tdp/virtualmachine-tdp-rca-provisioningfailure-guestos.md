@@ -13,7 +13,7 @@
 	supportTopicIds=""
 	resourceTags="windows"
 	productPesIds=""
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 />
 

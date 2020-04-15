@@ -17,7 +17,15 @@
 
 # issues signing in or accessing my subscription
 
-### Unable to Sign-in Azure due to browser issues (Browser hangs, keeps spinning, does not load, etc.)
+### **Awareness**
+If you are experiencing location constraint, please try alternate regions (as first preference) since the location might not be available at this unprecedented time. Please review our [commitment to customers and Microsoft Cloud Services continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/) for more details about this capacity constraint. For additional questions about this, contact support by selecting the below path only:<br>
+
+* **Issue type**: Service and subscription limits (quotas)
+* **Quota type**: Compute-VM (cores-vCPUs) subscription limit increases
+
+## Recommended Steps
+
+### **Unable to Sign-in Azure due to browser issues (Browser hangs, keeps spinning, does not load, etc.)**
 
 * You might be impacted by an outage. Please check to see if there is an ongoing outage: [Azure Health Status](https://status.azure.com/status/history/)<br>
 * Please log out of all the active azure sessions. Follow the below steps [here](http://www.thewindowsclub.com/launch-start-private-browsing) for in- Private session of the internet explorer, if using google chrome please use the incognito mode of the browsing<br>

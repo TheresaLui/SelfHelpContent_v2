@@ -5,7 +5,7 @@
   ms.author="marwa, v-vigra"
   selfhelptype="SupportTopicDescription"
   productpesids="516fe906-3a1a-2878-02fd-8dd37ea207de"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de"
   ownershipid="AzureIdentity_Licensing" />
 # Support Topic Descriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de
@@ -32,7 +32,7 @@
     {
       "id": "0c73b179-e6da-2cb9-fd5f-59a77c4a95c2",
       "longDescription": "",
-      "shortDescription": "Cover problems related to On-Premises MFA server deployments like activations and configuration",
+      "shortDescription": "Problems with On-Premises MFA server deployments like activations and configuration",
       "searchTags": "issue with MFA server deployment",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
@@ -64,8 +64,8 @@
     {
       "id": "1d33a8e8-72a2-490d-b947-1479512b6694",
       "longDescription": "",
-      "shortDescription": "Cover problems and questions about getting MFA registration status, authentication methods used during sign-in and insights ",
-      "searchTags": "issues with MFA usage ",
+      "shortDescription": "Problems with MFA registration status, authentication methods used during sign-in and insights",
+      "searchTags": "issues with MFA usage",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -112,7 +112,7 @@
     {
       "id": "3ac88a67-b0a4-fe12-772f-8d9886ee3e66",
       "longDescription": "",
-      "shortDescription": "Cover problems related to the MFA registration ",
+      "shortDescription": "Problems with MFA registration",
       "searchTags": "issues with MFA registration",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
@@ -192,8 +192,8 @@
     {
       "id": "6b64f092-01d1-441d-1563-396f81bcf127",
       "longDescription": "",
-      "shortDescription": "Assistance needed for deploying or configuring Network Policy Server (NPS) or RADIUS Server to work with Multi-Factor Authentication",
-      "searchTags": "Configuring NPS;Configuring Network Policy Server;Configuring RADIUS;Deploying RADIUS",
+      "shortDescription": "Covers problems during initial setup and configuration of the NPS extension",
+      "searchTags": "Configuring NPS;Configuring Network Policy Server;Configuring RADIUS;Deploying RADIUS;issues with NPS extension ",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -208,8 +208,8 @@
     {
       "id": "705e2b62-ce0a-c8e0-e3f4-da8937b204cf",
       "longDescription": "",
-      "shortDescription": "Covers sign-in problems and account lockout related completing MFA, legacy authentication or app passwords",
-      "searchTags": "issues to sign in due to MFA",
+      "shortDescription": "Sign-in and account lockout problems related to completing MFA, legacy authentication or app passwords",
+      "searchTags": "issues to sign in due to MFA;account lockout problems due to MFA",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -240,7 +240,7 @@
     {
       "id": "82dcee55-9583-282d-051c-7d8d5ed99b29",
       "longDescription": "",
-      "shortDescription": "Cover problems related to other authentication methods like problems with creating hardware OATH tokens in Azure AD and 3rd party MFA providers",
+      "shortDescription": "Problems with authentication methods like Hardware OATH tokens and 3rd party MFA",
       "searchTags": "tokens and 3rd party auth methods",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
@@ -400,8 +400,8 @@
     {
       "id": "c06c9a32-88a1-e73a-7829-a9db5c1109bd",
       "longDescription": "",
-      "shortDescription": "Covers problems of MFA failing on an existing NPS extension deployment",
-      "searchTags": "MFA failing on NPS extension ",
+      "shortDescription": "Problems of MFA failing on an existing NPS extension deployment",
+      "searchTags": "MFA failing on NPS extension",
       "category": "configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -432,7 +432,7 @@
     {
       "id": "cb7e67a1-742e-0dbd-c5d4-5eb6d296fcc8",
       "longDescription": "",
-      "shortDescription": "Covers problems related telephony based MFA methods like not receiving text messages or phone calls",
+      "shortDescription": "Problems with telephony based MFA methods like not receiving text messages or phone calls",
       "searchTags": "Authentication methods-phone, SMS",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
@@ -440,16 +440,16 @@
     {
       "id": "d5ed0f1b-b3e3-0d28-4ff7-bacf1ea7f9cc",
       "longDescription": "",
-      "shortDescription": "Cover problems related to MFA prompts and re-authentication",
-      "searchTags": "issues with MFA promptws",
+      "shortDescription": "Problems related to MFA prompts and re-authentication",
+      "searchTags": "issues with MFA prompts",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "d6f4e41d-1f1a-0b8a-018f-5f461d51c7b9",
       "longDescription": "",
-      "shortDescription": "Assistance needed for Multi-Factor Authentication verification methods via tokens, SMS, Auth app, SMS",
-      "searchTags": "Multi-Factor Authentication;MFA;MFA verification;MFA Token;MFA SMS",
+      "shortDescription": "Covers problems related to the Microsoft Authenticator app like activation and receiving push notification",
+      "searchTags": "MFA verification;MFA Token;MFA SMS;issues re to Authenticator app",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -480,7 +480,7 @@
     {
       "id": "dedeb286-c8a1-cd08-3224-1b09e6b8d622",
       "longDescription": "",
-      "shortDescription": "Cover questions around different licenses that allow customers to use MFA",
+      "shortDescription": "Problems and questions about different licenses that allow customers to use MFA",
       "searchTags": "issues with MFA licensing options",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
@@ -536,8 +536,8 @@
     {
       "id": "fed213ea-5608-4331-7ac8-ea3f0a8c59a9",
       "longDescription": "",
-      "shortDescription": "Assistance needed for configuring Azure Multi-Factor Authentication options within the security blade in the Azure Active Directory ",
-      "searchTags": "Configuring MFA;AAD security blade ",
+      "shortDescription": "Covers questions and problems for planning a new MFA deployment including how to configure MFA, service settings and users settings ",
+      "searchTags": "manage MFA deployment",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     }

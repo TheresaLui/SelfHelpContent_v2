@@ -14,8 +14,8 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="17011,15960"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Pricing_and_Offers"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Update details published on Find a Provider page
