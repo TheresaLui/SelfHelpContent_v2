@@ -22,7 +22,7 @@
 
 ## **Recommended Steps**
 
- ###**Accepted forms of Proof**
+ ### **Accepted forms of Proof**
  
  **Business Verification: business registration form, business charter or articles of incorporation. Examples:**
  
