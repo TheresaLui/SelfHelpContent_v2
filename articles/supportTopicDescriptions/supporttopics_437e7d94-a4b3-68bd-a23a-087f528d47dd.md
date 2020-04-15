@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6823e500-2372-e9f8-3f8c-ee7a9d17f5bb",
+      "longDescription": "",
+      "shortDescription": "You are seeing functional issues, such as incomplete results, slow responses etc. while using Graph APIs ",
+      "searchTags": "functional issues while using Graph APIs",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f6940eaf-0a76-2eda-4197-ec13b39f05dd",
       "longDescription": "",
       "shortDescription": "You are experiencing issues with samples and tutorials in Graph ",
