@@ -10,7 +10,7 @@
 	articleId="partnercenter_marketplacet_rewards"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692621, 32725799"
+	supportTopicIds="32692621, 32692619, 32725873, 32725799"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960, 17000"
@@ -18,10 +18,11 @@
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# How to view your Marketplace Rewards information in Partner Center
+# How to manage Marketplace Rewards in Partner Center
 
  
 ## **Recommended Documents**
 
+* [Manage Marketplace Rewards](https://docs.microsoft.com/partner-center/marketplace-rewards)
 * [Marketplace Rewards information in Partner Center](https://docs.microsoft.com/partner-center/marketplace-rewards#why-cant-i-see-the-commercial-marketplace-rewards-program-on-my-dashboard)
 
