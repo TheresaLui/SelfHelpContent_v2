@@ -24,7 +24,7 @@ Powershell and Azure CLI support the following operations for Azure Cognitive Se
 * Retrieve service information
 * Create or delete a service
 * Regenerate admin API-keys
-* Create or delete query api-keys
+* Create or delete query API-keys
 * Scale up or down with replicas and partitions
 
 ### Managing your search service with Powershell
@@ -37,7 +37,7 @@ The easiest way to get started with the [Azure CLI](https://docs.microsoft.com/c
 
 ### Not currently supported in Powershell or Azure CLI
 
-Currently, you cannot use Powershell or Azure CLI to change a service name, region, or migrate to a different service tier. Dedicated resources are allocated when a service is created. As such, changing the underlying infrastructure, such as Azure region or type type, requires you to createa new service and reindex all of your content. There are currently no tools or APIs for transferring content, such as an index, from one service to another.
+Currently, you can't use Powershell or Azure CLI to change a service name, region, or migrate to a different service tier. Dedicated resources are allocated when a service is created. As such, changing the underlying infrastructure, such as Azure region or type, requires you to create a new service and reindex all of your content. There are currently no tools or APIs for transferring content, such as an index, from one service to another.
 
 ## **Recommended Documents**
 
