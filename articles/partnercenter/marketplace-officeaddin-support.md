@@ -10,7 +10,7 @@
 	articleId="marketplace_officeaddin_support"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689369, 32728185"
+	supportTopicIds="32689369"
 	resourceTags="marketplace"
 	productPesIds="15960, 17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
