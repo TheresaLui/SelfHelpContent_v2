@@ -17,7 +17,7 @@
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Resources for Office Add-ins
+# Resources for Office Add-ins deployment and more
 
 
 ## **Recommended Documents**
