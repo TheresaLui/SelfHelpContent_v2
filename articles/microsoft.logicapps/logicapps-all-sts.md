@@ -7,7 +7,7 @@
     ms.author="aaronmax"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32588748, 32677639, 32677642, 32677637, 32688745"
+    supportTopicIds="32677639, 32677642, 32677637, 32588745"
     resourceTags=""
     productPesIds="15791"
     cloudEnvironments="public, Fairfax, usnat, ussec"
