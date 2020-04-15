@@ -7,7 +7,7 @@
 	ms.author="liamca"
 	selfHelpType="generic"
 	displayOrder="3"
-	supportTopicIds="32681382"
+	supportTopicIds="32681381"
 	resourceTags=""
 	productPesIds="15568"
 	articleId="search-index-related-service-limits"
