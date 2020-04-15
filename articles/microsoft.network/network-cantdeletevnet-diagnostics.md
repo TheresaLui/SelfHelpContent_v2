@@ -19,7 +19,7 @@ ownershipId="CloudNet_VirtualNetwork"
 
 # We ran diagnostics on your virtual network and found an issue
 <!--issueDescription-->
-We has identified that the following resource(s) are allocated to [Vnet](data-blade:Microsoft_Azure_Network.VirtualNetworkBlade):
+We have identified that the following resource(s) are allocated to [Vnet](data-blade:Microsoft_Azure_Network.VirtualNetworkBlade):
 
 <!--$VnetAllocations-->[VnetAllocations]<!--/$VnetAllocations--> 
 
