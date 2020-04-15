@@ -17,7 +17,7 @@
 
 # Azure Capacity Restrictions (COVID-19)
 
-We apologize for the inconvenience caused due to the Capacity constraint. We are faced with capacity constraints as the demand continues to grow due to ongoing COVID-19 situation.  
+We apologize for the inconvenience caused due to the capacity constraint. We currently have capacity constraints as the demand continues to grow due to ongoing COVID-19 situation.  
 
 We have established clear criteria for the priority of new cloud capacity as documented in our [commitment to customers and Microsoft cloud services continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/) and [Update #2 on Microsoft cloud services continuity](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity/).  
 
