@@ -12,7 +12,7 @@
     resourceTags=""
     productPesIds="16790"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
-    ownershipId="AZHC"
+    ownershipId="StorageMediaEdge_HPCCache"
 />
 
 # Azure HPC Cache Client Access Issues
