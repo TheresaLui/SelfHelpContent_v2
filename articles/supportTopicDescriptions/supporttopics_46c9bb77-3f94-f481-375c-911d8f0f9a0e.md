@@ -27,6 +27,14 @@
       "searchTags": "issue re authorizing via Graph API",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f51b1482-e38e-7414-1869-e718c877ba85",
+      "longDescription": "",
+      "shortDescription": "You are seeing functional issues, such as incomplete results, slow responses etc. while using Graph APIs ",
+      "searchTags": "functional issues using Graph APIs",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
