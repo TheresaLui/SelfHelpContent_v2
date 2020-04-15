@@ -29,11 +29,11 @@
   "owner": {
     "email": "Sijia.Zhu@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "mdm://XStore/DataAnalytics",
+      "service": "Xstore",
+      "team": "Xstore/ Data Analytics"
     },
-    "serviceTreeId": "e58a942f-58e5-49c3-9798-cbd6819f5cc0"
+    "serviceTreeId": "734379f9-2d2c-48d4-a52a-5c509f699de4"
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
