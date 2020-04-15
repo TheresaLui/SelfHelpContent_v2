@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="17030"
     cloudEnvironments="public, fairfax, usnat, ussec"
-    articleId="f78de23e-2b04-4627-b645-8cfb65bee6ca"
+    articleId="2a8c2bbf-a1bc-4ec5-af33-396218d75203"
 	ownershipId="Compute_LogicApps"
 />
 
