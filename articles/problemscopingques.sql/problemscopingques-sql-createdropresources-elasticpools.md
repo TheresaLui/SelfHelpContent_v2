@@ -89,6 +89,7 @@
             "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Are you encountering an error message?",
+	    "required": false,
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -102,8 +103,7 @@
                     "value": "dont_know_answer",
                     "text": "Unsure"
                 }
-            ],
-            "required": false
+            ]
         },
         {
             "id": "error_message",
