@@ -7,7 +7,7 @@
 	authors="A-COFLOR"
 	ms.author="A-COFLOR"
 	displayOrder=""
-	articleId="partnercenter_invoice_printing"
+	articleId="billing_invoice_printing"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32681449, 32725826"
@@ -18,7 +18,7 @@
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Below are documents to help you understand how Partner Center invoices work
+# Invoices and taxes in Partner Center
 
  
 ## **Recommended Documents**
