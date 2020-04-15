@@ -10,7 +10,7 @@
 	articleId="marketplace_teamsapp_appsource"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689446, 32728263"
+	supportTopicIds="32689446"
 	resourceTags="marketplace"
 	productPesIds="15960, 17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
