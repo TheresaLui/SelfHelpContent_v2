@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "09ed99bb-181e-6f11-ef59-c88fe576c703",
+      "longDescription": "",
+      "shortDescription": "You are trying to use Graph SDKs and running into a problem",
+      "searchTags": "issue with Graph SDK libraries",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "66b3af5d-f47c-9bbb-d23b-80de4cec95c3",
       "longDescription": "",
       "shortDescription": "You have a problem with authorizing via Graph API",
