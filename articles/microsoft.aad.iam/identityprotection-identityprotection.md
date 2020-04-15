@@ -20,11 +20,6 @@
 	"subscriptionRequired": false,
     "title": "Active Directory application single sign on issue",
     "fileAttachmentHint": null,
-    "diagnosticCard": {
-        "title": "Problem with Azure Active Directory Multi-Factor Authentication",
-        "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message from the Application or from the Sign-in logs:",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
-    },
     "formElements": [
         {
             "id": "VerboseTracing",
@@ -89,8 +84,7 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
-            "numberOfLines": 3,
-            "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 3
         },
         {
             "id": "correlationId",
@@ -106,8 +100,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "requestId",
@@ -123,8 +116,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "timestamp",
@@ -140,8 +132,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "appNameOrId",
