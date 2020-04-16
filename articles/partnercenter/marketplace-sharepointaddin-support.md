@@ -10,7 +10,7 @@
 	articleId="marketplace_sharepointaddin_support"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689373, 32728248"
+	supportTopicIds="32689373"
 	resourceTags="marketplace"
 	productPesIds="15960, 17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
