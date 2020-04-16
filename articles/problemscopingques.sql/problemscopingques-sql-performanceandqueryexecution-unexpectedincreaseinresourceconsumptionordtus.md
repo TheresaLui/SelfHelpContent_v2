@@ -10,7 +10,7 @@
 	supportTopicIds="32630459"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	ownershipId="AzureData_AzureSQLDB_Provisioning"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 # SQL Database
 ---
@@ -34,7 +34,7 @@
             "id": "attempt_method",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Was there any significant change in your environment\usage recently?",
+            "displayLabel": "Was there any significant change in your environment or usage recently?",
             "required": true,
             "dropdownOptions": [
                 {
