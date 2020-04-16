@@ -17,7 +17,7 @@
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "Database Geo Redundant Backups",
-    "fileAttachmentHint": "SIMON",
+    "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "restore_request_time",
