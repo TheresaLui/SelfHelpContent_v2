@@ -1,10 +1,10 @@
 <properties
     pageTitle="Conditional Access Resultant Set of Policy Issue"
     description="Conditional Access Resultant Set of Policy Issue"
-    authors="vrjai"
+    authors="vritiJain"
 	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596872"
+    supportTopicIds="32596872,32596842,32615432,32565599,32045826"
     productPesIds="16579"
     cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
@@ -22,7 +22,7 @@
     "fileAttachmentHint": null,
     "diagnosticCard": {
         "title": "Problem with Azure Active Directory Multi-Factor Authentication",
-        "description": "Self-service troubleshooter to assist in resolving the issue",
+        "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade:",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
     "formElements": [
@@ -79,9 +79,9 @@
             "visibility": null,
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please enter the error message you received:",
+            "displayLabel": "Full Error Message:",
             "content": null,
-            "watermarkText": "Please paste the error message from the application, etc... ",
+            "watermarkText": "Example: AADSTS50076: Due to a configuration change made by your administrator...",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -99,7 +99,7 @@
             "controlType": "textbox",
             "displayLabel": "Correlation ID:",
             "content": null,
-            "watermarkText": "Enter correlationId from signin logs/errormessage etc..",
+            "watermarkText": "Example: 6ad36e38-8a10-4f1b-95fb-05cdb1dbec49",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -116,7 +116,7 @@
             "controlType": "textbox",
             "displayLabel": "Request ID:",
             "content": null,
-            "watermarkText": "Enter requestId from signin logs/errormessage etc..",
+            "watermarkText": "Example: ca6161fb-000a-4d2f-a3b4-3d62168f866d",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -131,9 +131,9 @@
             "visibility": "null",
             "order": 7,
             "controlType": "textbox",
-            "displayLabel": "Timestamp from Error message:",
+            "displayLabel": "Date(UTC):",
             "content": null,
-            "watermarkText": "Copy the timestamp from the error message and paste it here",
+            "watermarkText": "Example: 2020-04-13T01:29:57.362Z",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -148,10 +148,10 @@
             "visibility": "null",
             "order": 8,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the Application name or Application ID experiencing this problem?",
+            "displayLabel": "Application name or ID:",
             "content": null,
-            "watermarkText": "Application ID is in the Properties section in the Azure AD configuration for the application",
-            "infoBalloonText": null,
+            "watermarkText": "Example: ContosoApp",
+            "infoBalloonText": "Application to login to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "required": false,
@@ -164,10 +164,10 @@
             "visibility": "null",
             "order": 9,
             "controlType": "textbox",
-            "displayLabel": "Which user is experiencing this problem?",
+            "displayLabel": "User Experiencing Problem:",
             "content": null,
-            "watermarkText": "Enter user upn or Object ID of the user in Azure Active Directory",
-            "infoBalloonText": null,
+            "watermarkText": "Example: foo@contoso.com",
+            "infoBalloonText": "User who made the sign-in request. Format accepted is UPN:foo@contoso.com  or ObjectID:224ad664-d4a8-41fc-9ddf-121db97fa120",
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "required": false,

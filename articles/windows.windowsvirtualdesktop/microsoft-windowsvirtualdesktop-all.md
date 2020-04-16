@@ -12,7 +12,7 @@
 	productPesIds="16582"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="586ec56a-93f1-4c0c-86c0-63debae7b9f8"
-	ownershipId="test_rediscache1"
+	ownershipId="Windows_Virtual_Desktop"
 />
 
 # Windows Virtual Desktop

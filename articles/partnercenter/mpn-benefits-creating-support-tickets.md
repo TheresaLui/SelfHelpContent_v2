@@ -15,7 +15,7 @@
 	resourceTags="csp"
 	productPesIds="17007"
 	cloudEnvironments="public"
-	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 
 />
 

@@ -1,15 +1,15 @@
 <properties
     pageTitle="Azure Active Directory Sign-In and Identity Protection"
     description="identityprotection"
-    authors="arupela"
-    ms.author="arupela"
+    authors="vritiJain"
+    ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32542231,32596865,32596866,32596869,32615307"
+    supportTopicIds="32596865,32596866,32596869,32615307"
     productPesIds="16579"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="291a8c40-bc18-4a9d-9a1e-1f4473e0be79"
-    	ownershipId="AzureIdentity_MultiFactorAuthentication"
+    ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Azure Active Directory Sign-In and Identity Protection
@@ -17,7 +17,8 @@
 ---
 {
     "resourceRequired": false,
-    "title": "Azure Active Directory Sign-In and Identity Protection",
+	"subscriptionRequired": false,
+    "title": "Active Directory application single sign on issue",
     "fileAttachmentHint": null,
     "formElements": [
         {
@@ -58,113 +59,8 @@
             "order": 3,
             "controlType": "infoblock",
             "displayLabel": null,
-            "content": "Open a new browser tab and paste https://login.microsoftonline.com/common/debugmode/enable?user={username} (replace {username} with the UPN of the user in question; eg: user=johndoe@contoso.com) and then try to reproduce the error.",
+            "content": "Open a new browser tab and paste https://login.microsoftonline.com/common/debugmode/enable?user={username} (replace {username} with the upn of the user in question; eg: user=johndoe@contoso.com) and then try to reproduce the error.",
             "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "hasErrorData",
-            "visibility": null,
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Do you have a correlation ID and Timestamp for an error related to this problem?",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "Yes",
-                    "value": "yes"
-                },
-                {
-                    "text": "No",
-                    "value": "no"
-                }
-            ],
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "getCorrelationId",
-            "visibility": "hasErrorData==no",
-            "order": 5,
-            "controlType": "infoblock",
-            "displayLabel": null,
-            "content": "Microsoft can provide a solution to your problem faster if you can get a correlation ID and Timestamp for this problem, reproduce the error by signing into the app with your own account.",
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "correlationId",
-            "visibility": "hasErrorData==yes",
-            "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "Correlation ID from Error message:",
-            "content": null,
-            "watermarkText": "Copy the correlation ID from the error message and paste it here",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "timestamp",
-            "visibility": "hasErrorData==yes || hasErrorData==no",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "Timestamp from Error message:",
-            "content": null,
-            "watermarkText": "Copy the UTC timestamp from the error message or sign in log entry and paste it here",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "appNameOrId",
-            "visibility": "hasErrorData==no",
-            "order": 8,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What is the Application name or Application ID experiencing this problem?",
-            "content": null,
-            "watermarkText": "Application ID is in the Properties section in the Azure AD configuration for the application",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 2
-        },
-        {
-            "id": "userNameOrId",
-            "visibility": null,
-            "order": 9,
-            "controlType": "textbox",
-            "displayLabel": "Which user is experiencing this problem?",
-            "content": null,
-            "watermarkText": "Enter user UPN for MFA server or Object ID of the user in Azure Active Directory",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -176,11 +72,11 @@
         {
             "id": "problem_description",
             "visibility": null,
-            "order": 10,
+            "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "If you received an error, please provide the error message details:",
+            "displayLabel": "Full Error Message:",
             "content": null,
-            "watermarkText": "AADSTSXXXXX: error message, Error message from the application, etc... ",
+            "watermarkText": "AADSTS50076: Due to a configuration change made by your administrator...",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -191,8 +87,88 @@
             "numberOfLines": 3
         },
         {
+            "id": "correlationId",
+            "visibility": null,
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Correlation ID:",
+            "content": null,
+            "watermarkText": "6ad36e38-8a10-4f1b-95fb-05cdb1dbec49",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "requestId",
+            "visibility": null,
+            "order": 6,
+            "controlType": "textbox",
+            "displayLabel": "Request ID:",
+            "content": null,
+            "watermarkText": "ca6161fb-000a-4d2f-a3b4-3d62168f866d",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "timestamp",
+            "visibility": "null",
+            "order": 7,
+            "controlType": "textbox",
+            "displayLabel": "Timestamp:",
+            "content": null,
+            "watermarkText": "2020-04-13T01:29:57.362Z",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "appNameOrId",
+            "visibility": "null",
+            "order": 8,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Application name or ID:",
+            "content": null,
+            "watermarkText": "ContosoApp",
+            "infoBalloonText": "Application to login to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 2
+        },
+        {
+            "id": "userNameOrId",
+            "visibility": "null",
+            "order": 9,
+            "controlType": "textbox",
+            "displayLabel": "User Experiencing Problem:",
+            "content": null,
+            "watermarkText": "joe@contoso.com",
+            "infoBalloonText": "User who made the sign-in request. Format accepted is UPN:joe@contoso.com  or ObjectID:224ad664-d4a8-41fc-9ddf-121db97fa120",
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
             "id": "problem_start_time",
-            "order": 11,
+            "order": 10,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true

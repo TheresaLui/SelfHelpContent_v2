@@ -4,7 +4,7 @@
 	authors="hsku"
     ms.author="hsku"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32596842"
+	supportTopicIds=""
 	productPesIds="16579"
 	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -29,7 +29,7 @@
             "id": "userInput",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "What security action would you like to take?",
+            "displayLabel": "What task do you need to accomplish?",
             "watermarkText": "Example: Create a conditional access policy to block legacy authentication",
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
