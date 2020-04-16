@@ -4,7 +4,7 @@
     authors="ashish-009"
 	ms.author="asbh"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596851,32596848,32596856,32596837,32615379,32615388,32615397,32615424,32615381,32615390,32615398,32570275,32570274"
+    supportTopicIds="32596851,32596848,32596856,32596837,32615379,32615388,32615397,32615424,32615381,32615390,32615398"
     productPesIds="16575,16579"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
@@ -18,13 +18,8 @@
 {
     "resourceRequired": false,
 	"subscriptionRequired": false,
-    "title": "Active Directory application single sign on issue",
+    "title": "Active Directory application single sign-on issue",
     "fileAttachmentHint": null,
-    "diagnosticCard": {
-        "title": "Problem with Azure Active Directory application single sign-on",
-        "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message from the Application or from the Sign-in logs",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
-    },
     "formElements": [
         {
             "id": "VerboseTracing",
@@ -89,8 +84,7 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
-            "numberOfLines": 3,
-            "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 3
         },
         {
             "id": "correlationId",
@@ -106,8 +100,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "requestId",
@@ -123,8 +116,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "timestamp",
@@ -133,15 +125,14 @@
             "controlType": "textbox",
             "displayLabel": "Timestamp:",
             "content": null,
-            "watermarkText": "2020-04-13T01:29:57.362Z",
+            "watermarkText": "2020-04-14 01:37:59Z",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "appNameOrId",
@@ -150,15 +141,14 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Application name or ID:",
             "content": null,
-            "watermarkText": "ContosoApp",
+            "watermarkText": "ContosoApp or can input App ID",
             "infoBalloonText": "Application to login to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 2,
-            "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 2
         },
         {
             "id": "userNameOrId",
@@ -167,14 +157,14 @@
             "controlType": "textbox",
             "displayLabel": "User Experiencing Problem:",
             "content": null,
-            "watermarkText": "joe@contoso.com",
+            "watermarkText": "joe@contoso.com or can input Object ID",
             "infoBalloonText": "User who made the sign-in request. Format accepted is UPN:joe@contoso.com  or ObjectID:224ad664-d4a8-41fc-9ddf-121db97fa120",
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 2
         },
         {
             "id": "problem_start_time",
