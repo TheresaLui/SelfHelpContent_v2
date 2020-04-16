@@ -18,7 +18,7 @@
         ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Account management User management
+# Account management
 
 
 ## **Recommended Documents**
