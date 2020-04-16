@@ -14,8 +14,7 @@
 	clientIds='partnercenter'
 	resourceTags="marketplace"
 	productPesIds="17000"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+        ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Account management - User management
