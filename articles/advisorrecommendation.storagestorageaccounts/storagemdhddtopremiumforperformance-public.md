@@ -22,7 +22,7 @@
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
-  "recommendationResourceType": "Microsoft.Storage/storageAccounts",
+  "recommendationResourceType": "Microsoft.Compute/disks",
   "recommendationFriendlyName": "MDHDDtoPremiumForPerformance",
   "recommendationMetadataState": "Active",
   "owner": {
