@@ -31,23 +31,20 @@
             "required": true
         },
         {
+            
             "id": "attempt_method",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What method are you using?",
+            "displayLabel": "Was there any significant change in your environment\usage recently?",
             "required": true,
             "dropdownOptions": [
                 {
-                    "value": "azure_portal",
-                    "text": "Azure Portal"
+                    "value": "workload",
+                    "text": "My workload increased.
                 },
                 {
-                    "value": "powershell",
-                    "text": "Powershell"
-                },
-                {
-                    "value": "azure_cli",
-                    "text": "Azure CLI"
+                    "value": "Service tier",
+                    "text": "I changed my database service tier recently."
                 },
                 {
                     "text": "Other, don't know or not applicable",
