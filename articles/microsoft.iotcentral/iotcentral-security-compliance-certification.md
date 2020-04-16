@@ -11,6 +11,7 @@
 	productPesIds="16284"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="21cfff53-be8f-4ca7-8ab7-addb141c29ce"
+	ownershipId="AzureIot_IotCentral"
 />
 
 # Security Compliance certification

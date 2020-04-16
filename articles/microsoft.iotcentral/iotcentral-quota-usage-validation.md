@@ -11,6 +11,7 @@
 	productPesIds="16284"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="60d8d4b0-e959-43f9-9810-e8a2078ffd2f"
+	ownershipId="AzureIot_IotCentral"
 />
 
 # Quota Usage Validation

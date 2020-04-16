@@ -11,6 +11,7 @@
 	productPesIds="16284"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="0bafdc63-8e1f-45fd-8e3d-05225fade198"
+	ownershipId="AzureIot_IotCentral"
 />
 
 # Security Compliance GDPR

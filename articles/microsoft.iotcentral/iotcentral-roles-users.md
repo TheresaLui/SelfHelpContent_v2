@@ -11,6 +11,7 @@
 	productPesIds="16284"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
 	articleId="bc818823-4fc8-4de5-bbaa-260873c6af44"
+	ownershipId="AzureIot_IotCentral"
 />
 
 # Application Manager add-manage users-roles
