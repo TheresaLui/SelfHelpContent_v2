@@ -10,7 +10,7 @@
 	articleId="marketplace_othersaas_failures"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689443, 32728237"
+	supportTopicIds="32689443"
 	resourceTags="marketplace"
 	productPesIds="15960, 17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
