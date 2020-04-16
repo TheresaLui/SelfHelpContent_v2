@@ -27,9 +27,9 @@ We have identified the virtual network peering "<!--$VirtualNetworkPeering-->Vir
 
 To resolve this issue, delete this Virtual Network Peering link and then [recreate the connection](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering):
 
-1. Sign in to the [Azure portal](http://portal.azure.com).
-2. Select All Services > Virtual networks.
-3. Select the Virtual Network associated with the virtual network Peering.
-4. Click **Peerings** and select the virtual network Peering.
-5. Delete the virtual network peering.
-6. Recreate the connection.
+1. Sign in to the [Azure portal](http://portal.azure.com)
+2. Select All Services > Virtual networks
+3. Select the Virtual Network associated with the virtual network Peering
+4. Click **Peerings** and select the virtual network Peering
+5. Delete the virtual network peering
+6. Recreate the connection
