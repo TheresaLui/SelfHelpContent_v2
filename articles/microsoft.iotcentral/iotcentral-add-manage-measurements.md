@@ -1,5 +1,5 @@
 <properties
-	pageTitle=Application Manager add-manage measurements"
+	pageTitle="Application Manager add-manage measurements"
 	description="Application Manager add-manage measurements"
 	service="microsoft.iotcentral"
 	resource="iotapps"
