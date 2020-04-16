@@ -14,12 +14,12 @@ supportTopicIds="32584253"
 resourceTags="windows"
 productPesIds="15526"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId="CloudNet_VirtualNetwork"
+ownershipId="CloudNet_VirtualNetwork"
 />
 
 # We ran diagnostics on your virtual network and found an issue
 <!--issueDescription-->
-Microsoft Azure has identified that the following resource(s) are allocated to [Vnet](data-blade:Microsoft_Azure_Network.VirtualNetworkBlade):
+We have identified that the following resource(s) are allocated to [Vnet](data-blade:Microsoft_Azure_Network.VirtualNetworkBlade):
 
 <!--$VnetAllocations-->[VnetAllocations]<!--/$VnetAllocations--> 
 
