@@ -10,7 +10,7 @@
 	supportTopicIds="32630459"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	ownershipId="AzureData_AzureSQLDB_Performance"
+	ownershipId="AzureData_AzureSQLDB_Provisioning"
 />
 # SQL Database
 ---
