@@ -113,5 +113,5 @@
 ## **Recommended Documents**
 
 * [Connection Monitor in Azure Network Watcher](https://docs.microsoft.com/azure/network-watcher/connection-monitor)<br>
-* [Connection Monitor (Preview) in Azure Network Watcher](https://docs.microsoft.com/azure/network-watcher/connection-monitor-2-preview)<br>
+* [Connection Monitor (Preview) in Azure Network Watcher](https://docs.microsoft.com/azure/network-watcher/connection-monitor-preview)<br>
 * [Permissions required to use Azure Network Watcher](https://docs.microsoft.com/azure/network-watcher/required-rbac-permissions)
