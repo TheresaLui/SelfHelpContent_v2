@@ -31,7 +31,6 @@
             "required": true
         },
         {
-            
             "id": "attempt_method",
             "order": 2,
             "controlType": "dropdown",
@@ -40,7 +39,7 @@
             "dropdownOptions": [
                 {
                     "value": "workload",
-                    "text": "My workload increased.
+                    "text": "My workload increased."
                 },
                 {
                     "value": "Service tier",
@@ -81,7 +80,7 @@
             "required": false,
             "visibility": "encountering_an_error == Yes"
         },
-        {
+	{
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
