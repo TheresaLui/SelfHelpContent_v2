@@ -17,7 +17,8 @@
 	cloudEnvironments="public, fairfax, usnat, ussec"
         ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
-# Account management
+
+# Account user management
 
 ## **Recommended Documents**
 
