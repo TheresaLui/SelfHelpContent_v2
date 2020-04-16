@@ -18,7 +18,7 @@ ownershipId="StorageMediaEdge_XStore"
   "dataSourceMetadata": {
     "streamNamespace": "AzureStorage.Data.StorageAdvisorMixedDiskTypesToSSD_Public",
     "dataSource": "Cosmos",
-    "refreshInterval": "24:00:00"
+    "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
