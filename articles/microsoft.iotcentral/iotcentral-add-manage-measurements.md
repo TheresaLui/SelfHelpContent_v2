@@ -19,4 +19,4 @@
 ## **Recommended Documents**
 
 * [How to use analytics to analyze device data](https://docs.microsoft.com/azure/iot-central/core/howto-create-analytics)
-* [Extend Azure IoT Central with custom analytics using Azure Databrick](https://docs.microsoft.com/azure/iot-central/core/howto-create-custom-analytics)
+* [Extend Azure IoT Central with custom analytics using Azure Databricks](https://docs.microsoft.com/azure/iot-central/core/howto-create-custom-analytics)
