@@ -1,7 +1,7 @@
 <properties
 	articleId="problemscopingques-sql-createdropresources-purchasingmodelsdtuvcorereservedcapacityetc"
 	pageTitle="SQL Database"
-	description="Scoping questions to capture CRUD issues for elastic pools"
+	description="Scoping questions to capture CRUD issues for purchasing models"
 	authors="andikshi"
 	authoralias="andikshi"
 	ms.author="andikshi"
@@ -86,7 +86,7 @@
             "displayLabel": "When did the problem begin?",
             "watermarkText": "Specify when the problem started",
             "infoBalloonText": "Specify when the problem started",
-            "required": true
+            "required": true,
 	    "visibility": "encountering_an_error == Yes"
         },
         {
