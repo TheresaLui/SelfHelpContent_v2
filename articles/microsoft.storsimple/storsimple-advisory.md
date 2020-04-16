@@ -31,4 +31,6 @@
 8. [How to modify DNS Settings](https://docs.microsoft.com/azure/storsimple/storsimple-8000-modify-device-config#modify-dns-settings)<br>
 9. [How to change device administrator password](https://docs.microsoft.com/azure/storsimple/storsimple-8000-change-passwords)<br>
 10. [Connect remotely to StorSimple using HTTP/HTTPs](https://docs.microsoft.com/azure/storsimple/storsimple-8000-windows-powershell-administration#connect-remotely-to-storsimple-using-windows-powershell-for-storsimple)<br>
-11. [Encountered StorSimple Alerts?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-alerts#alerts-quick-reference)
+11. [Encountered StorSimple Alerts?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-alerts#alerts-quick-reference)<br>
+12. [How to configure web proxy?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-configure-web-proxy)<br>
+13. [How to change service data encryption key?](https://docs.microsoft.com/azure/storsimple/storsimple-8000-manage-service#change-the-service-data-encryption-key)
