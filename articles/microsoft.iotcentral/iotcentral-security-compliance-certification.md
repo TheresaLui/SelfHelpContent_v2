@@ -19,4 +19,4 @@
 ## **Recommended Documents**
 
 * [Azure compliance](https://azure.microsoft.com/overview/trusted-cloud/compliance/)
-* [Overview of Microsoft Azure compliance](https://aka.ms/azurecompliance)
+* [Overview of Microsoft Azure compliance](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)

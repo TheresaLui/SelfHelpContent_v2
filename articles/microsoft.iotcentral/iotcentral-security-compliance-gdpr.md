@@ -20,4 +20,4 @@
 
 * [Summary of customer data request features](https://docs.microsoft.com/azure/iot-central/core/iot-central-customer-data-requests)
 * [Achieving GDPR compliance in the cloud with Microsoft Azure](https://azure.microsoft.com/blog/achieving-gdpr-compliance-in-the-cloud-with-microsoft-azure/)
-* [Overview of Microsoft Azure compliance](https://aka.ms/azurecompliance)
+* [Overview of Microsoft Azure compliance](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
