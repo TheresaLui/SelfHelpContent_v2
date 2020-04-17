@@ -24,8 +24,8 @@
 * Create user-defined restore points via [Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-points#create-user-defined-restore-points-through-the-azure-portal) or [PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-points)
 * If you are trying to restore a SQL pool from a backup:
 
-  * restore a deleted SQL pool using [Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-deleted-dw#restore-a-deleted-database-using-the-azure-portal) or [PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-deleted-dw#restore-a-deleted-data-warehouse-through-powershell)
-  * restore an active or paused SQL pool using [Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-active-paused-dw#restore-an-existing-data-warehouse-through-the-azure-portal) or [PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-active-paused-dw#restore-an-existing-data-warehouse-through-powershell).  Note that when restoring, you can specify a different ServiceObjectiveName (DWU) or a different server residing in a different region.
+  * Restore a deleted SQL pool using [Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-deleted-dw#restore-a-deleted-database-using-the-azure-portal) or [PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-deleted-dw#restore-a-deleted-data-warehouse-through-powershell)
+  * Restore an active or paused SQL pool using [Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-active-paused-dw#restore-an-existing-data-warehouse-through-the-azure-portal) or [PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-active-paused-dw#restore-an-existing-data-warehouse-through-powershell). Note that when restoring, you can specify a different ServiceObjectiveName (DWU) or a different server residing in a different region.
   * If portal doesn't show restore point, use [PowerShell](https://docs.microsoft.com/powershell/module/az.sql/get-azsqldatabaserestorepoint?view=azps-2.4.0#examples) to confirm if the restore point was created
 
 * If you are moving or restoring your SQL pool across subscriptions:
@@ -39,7 +39,7 @@
 
 ## **Recommended Documents**
 
-* Overview of [back up and restore](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-restore-database-overview/)
+* Overview of [backup and restore](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-restore-database-overview/)
 * Understanding [restore points](https://docs.microsoft.com/azure/sql-data-warehouse/backup-and-restore#restoring-from-restore-points)
 * Learn the basics on the Move functionality including how to [automate via PowerShell](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#use-azure-powershell)
 

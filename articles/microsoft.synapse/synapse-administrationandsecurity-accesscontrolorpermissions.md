@@ -21,7 +21,7 @@
 
 ## **Recommended Steps**
 
-A [system-assigned managed identity](https://docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-identity) is created for your Azure Synapse workspace when you create the workspace. You can [retrieve your workspace's managed identity](https://docs.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-identity#retrieve-managed-identity-in-azure-portal) from Azure Portal.
+A [system-assigned managed identity](https://docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-identity) is created for your Azure Synapse workspace when you create the workspace. You can [retrieve your workspace's managed identity](https://docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-identity#retrieve-managed-identity-in-azure-portal) from Azure Portal.
 
 When a table (a table in a Spark database or external table created in SQL On-Demand) is queried by Spark or SQL on-demand engines that the query submitter has the right to use, the query **submitter's security principal is being passed through** to the underlying files. Permissions are checked at the file system level. Learn how to [assign ```Storage Blob Data Reader``` or ```Storage Blob Data Contributor``` RBAC permissions on Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#assign-a-built-in-rbac-role).
 
