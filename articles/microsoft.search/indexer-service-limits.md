@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-If your indexer did not complete indexing all your content succesfully, you may want to:
+If your indexer did not complete indexing all your content successfully, you may want to:
 
 1. Look at the Azure Search [service limits](https://docs.microsoft.com/azure/search/search-limits-quotas-capacity)
 1. Note than an single indexer run will stop after 24 hours of activity. If indexing your content requires more than 24 hours of indexing activity, you will need to set an [indexer schedule](https://docs.microsoft.com/azure/search/search-howto-schedule-indexers). That will trigger additional runs on a recurring basis.
