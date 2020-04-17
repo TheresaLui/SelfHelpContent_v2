@@ -28,4 +28,4 @@ If your indexer did not complete indexing all your content successfully, you may
 ## **Recommended Documents**
 
 * [Service limits in Azure Search](https://docs.microsoft.com/azure/search/search-limits-quotas-capacity#indexer-limits) 
-* [How to schedule indexers](https://docs.microsoft.com/en-us/azure/search/search-howto-schedule-indexers)
+* [How to schedule indexers](https://docs.microsoft.com/azure/search/search-howto-schedule-indexers)
