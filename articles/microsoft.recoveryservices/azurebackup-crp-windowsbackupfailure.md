@@ -6,7 +6,7 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="6"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32637320"
 	resourceTags="Windows"
 	productPesIds="14749"
