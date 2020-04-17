@@ -25,5 +25,5 @@ Review [SQL scripts](https://docs.microsoft.com/azure/synapse-analytics/sql/auth
 
 ## **Recommended Documents**
 
-* [Author SQL script](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/author-sql-script#create-your-sql-script) using Synapse Studio
-* [Run SQL script](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/author-sql-script#run-your-sql-script) using Synapse Studio
+* [Author SQL script](https://docs.microsoft.com/azure/synapse-analytics/sql/author-sql-script#create-your-sql-script) using Synapse Studio
+* [Run SQL script](https://docs.microsoft.com/azure/synapse-analytics/sql/author-sql-script#run-your-sql-script) using Synapse Studio
