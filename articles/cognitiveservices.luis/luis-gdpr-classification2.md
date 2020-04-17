@@ -16,20 +16,20 @@
 	cloudEnvironments="public, fairfax"
 />
 
-# Laguage Understanding (LUIS) GDPR classification
+# Language Understanding (LUIS) GDPR classification
 
-Most users are able to answer thier question about GDPR using the information below.
+Most users are able to answer their question about GDPR using the information below.
 
-For GDPR purposes, Microsoft is a data processor for Langugae Understanding (LUIS).
+For GDPR purposes, Microsoft is a data processor for Language Understanding (LUIS).
 
 ## **Recommended Steps**
 
 1. Review the [Compliance and Privacy statement for Cognitive Services](https://azure.microsoft.com/support/legal/cognitive-services-compliance-and-privacy/)
-2. Go to Lanaguage Understanding documentation to understand more details on deleting data, exporting data, and locations of active learning
+2. Go to Language Understanding documentation to understand more details on deleting data, exporting data, and locations of active learning
 
 
 ## **Recommended Documents**
 
-* [Language Understanding documention for data hanlding](https://docs.microsoft.com/azure/cognitive-services/luis/luis-user-privacy)
+* [Language Understanding documentation for data handling](https://docs.microsoft.com/azure/cognitive-services/luis/luis-user-privacy)
 * [Online Service Terms](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
 
