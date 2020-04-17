@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32613464,32613482,32613506"
 	productPesIds="16602"
-	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
+	cloudEnvironments="Public"
 	schemaVersion="1"
 	ownershipId="AzureDataExplorer_Kusto"
 />
