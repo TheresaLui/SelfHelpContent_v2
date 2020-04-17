@@ -2,23 +2,24 @@
   pagetitle="SupportTopicDescriptions for af52d398-4ddb-1e1d-2c6c-6767634b015e"
   description="SupportTopicDescriptions for af52d398-4ddb-1e1d-2c6c-6767634b015e"
   authors="elixirsys2"
-  ms.author="v-vigra"
+  ms.author="v-vigra, marwa"
   selfhelptype="SupportTopicDescription"
   productpesids="af52d398-4ddb-1e1d-2c6c-6767634b015e"
   cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_af52d398-4ddb-1e1d-2c6c-6767634b015e" />
+  articleid="supporttopics_af52d398-4ddb-1e1d-2c6c-6767634b015e"
+  ownershipid="AzureIdentity_GraphMessagesAndContactsAPIs" />
 # Support Topic Descriptions for af52d398-4ddb-1e1d-2c6c-6767634b015e
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Issues relevant to Messages, Calendars, and Contacts APIs",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "354ee437-8df9-2e0e-ae46-23b3db7aa3e6",

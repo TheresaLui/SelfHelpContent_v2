@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"
@@ -21,18 +21,18 @@
 
 ## **Recommended Steps**
 
-Review [Apache Spark Notebooks](https://review.docs.microsoft.com/azure/synapse-analytics/sql/author-sql-script?branch=release-ignite-arcadia)
+Review [Apache Spark Notebooks](https://docs.microsoft.com/azure/synapse-analytics/sql/author-sql-script)
 
-You can reference data across languages [using temp tables](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#use-temp-tables-to-reference-data-across-languages).
+You can reference data across languages [using temp tables](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks#use-temp-tables-to-reference-data-across-languages).
 
-Notebooks are integrated with the Monaco editor to bring IDE-style [IntelliSense](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#ide-style-intellisense) to the cell editor.
+Notebooks are integrated with the Monaco editor to bring IDE-style [IntelliSense](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks#ide-style-intellisense) to the cell editor.
 
-You can visualize data in a notebook with [```Display()```](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#display) and [```DisplayHTML()```](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#displayhtml)
+You can visualize data in a notebook with [```Display()```](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks#display) and [```DisplayHTML()```](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks#displayhtml)
 
 ## **Recommended Documents**
 
-* [Create a notebook](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#create-a-notebook)
-* [Run notebooks](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#run-notebooks)
-* [Save notebooks](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#save-notebooks)
-* [Magic commands](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#magic-commands)
-* [Shortcut keys](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?branch=release-ignite-arcadia#shortcut-keys)
+* [Create a notebook](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks#create-a-notebook)
+* [Run notebooks](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks#run-notebooks)
+* [Save notebooks](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks#save-notebooks)
+* [Magic commands](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks#magic-commands)
+* [Shortcut keys](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-development-using-notebooks#shortcut-keys)

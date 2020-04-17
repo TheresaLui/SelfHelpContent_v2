@@ -6,7 +6,7 @@
 	authors="trinadhk"
 	ms.author="trinadhk"
 	displayOrder="8"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32553299"
 	resourceTags=""
 	productPesIds="15207"

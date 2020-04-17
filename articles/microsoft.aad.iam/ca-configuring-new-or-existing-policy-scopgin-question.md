@@ -29,7 +29,7 @@
             "id": "userInput",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "What security action would you like to take?",
+            "displayLabel": "What task do you need to accomplish?",
             "watermarkText": "Example: Create a conditional access policy to block legacy authentication",
             "required": true,
             "diagnosticInputRequiredClients": "Portal"

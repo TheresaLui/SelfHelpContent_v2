@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "sqlPools"
@@ -47,4 +47,5 @@
 * [Required SQL Pool Permissions](https://docs.azuredatabricks.net/spark/latest/data-sources/azure/sql-data-warehouse.html#required-sql-dw-permissions)
 * [Load data into SQL pool using Azure Databricks](https://docs.microsoft.com/azure/azure-databricks/databricks-extract-load-sql-data-warehouse?toc=/azure/sql-data-warehouse/toc.json)
 * [Best practices when loading into SQL Pool](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data)
+
 

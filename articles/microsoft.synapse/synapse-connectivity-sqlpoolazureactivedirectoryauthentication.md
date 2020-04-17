@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "sqlPools"
@@ -28,4 +28,5 @@
 * [Azure AD authentication with SQL](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication?WT.mc_id=pid:13491:sid:32630414/)<br>
 * [Azure AD multi-factor authentication](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication?WT.mc_id=pid:13491:sid:32630414/)<br>
 * [Azure AD authentication libraries](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries?WT.mc_id=pid:13491:sid:32630414/)
+
 
