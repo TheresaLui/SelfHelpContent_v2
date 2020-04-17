@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "sqlPools"
@@ -22,4 +22,5 @@
 ## **Recommended Steps**
 
 * To connect and query SQL pool using Azure Data Studio, follow [steps outlined here](https://docs.microsoft.com/sql/azure-data-studio/quickstart-sql-dw?view=sql-server-2017). Make sure to set the firewall rule allowing Azure Data Studio to connect as explained in the tutorial.
+
 
