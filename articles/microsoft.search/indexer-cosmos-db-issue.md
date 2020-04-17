@@ -35,6 +35,11 @@ If data deletion detection is not working for you:
 
 1. Confirm the [soft delete](https://docs.microsoft.com/azure/search/search-howto-index-cosmosdb#indexing-deleted-documents) policy is specified.
 
+Other special considerations:
+
+1. Note that for partitioned collections, the default document key is Azure Cosmos DB's *\_rid* property, which Azure Cognitive Search automatically renames to *rid* because field names cannot start with an underscore character. Also, Azure Cosmos DB *\_rid* values contain characters that are invalid in Azure Cognitive Search keys. For this reason, the *\_rid* values are base64 encoded.  
+1. Similarly, for MongoDB collections, Azure Cognitive Search automatically renames the *\_id* property to *id*.
+
 ## **Recommended Documents**
 
 * [How to index Cosmos DB data using an indexer in Azure Cognitive Search](https://docs.microsoft.com/azure/search/search-howto-index-cosmosdb)
