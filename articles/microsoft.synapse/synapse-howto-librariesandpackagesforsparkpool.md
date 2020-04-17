@@ -34,13 +34,13 @@ Review [```requirements.txt``` file format](https://docs.microsoft.com/azure/syn
 
 **Important**
 * The packages listed in ```requirements.txt``` file for install or upgrade are downloaded from PyPi at the time of cluster startup.
-*  If the package you are installing is large or takes a long time to install, this affects the Spark instance start up time.
+*  If the package you are installing is large or takes a long time to install, this affects the Spark instance startup time.
 * Packages which require compiler support at install time, such as GCC, are not supported.
-* Packages can not be downgraded, only added or upgraded.
+* Packages cannot be downgraded, only added or upgraded.
 
 
 ## **Recommended Documents**
 
 * [Build a machine learning app with Apache Spark MLlib](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-machine-learning-mllib-notebook)
 * [Use .NET for Apache Spark with Azure Synapse Analytics](https://docs.microsoft.com/azure/synapse-analytics/spark/spark-dotnet)
-* [Spark.NET C# kernel features](https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/spark-dotnet#sparknet-c-kernel-features)
+* [Spark.NET C# kernel features](https://docs.microsoft.com/azure/synapse-analytics/spark/spark-dotnet#sparknet-c-kernel-features)
