@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"
@@ -21,6 +21,7 @@
 
 ## **Recommended Steps**
 
-* Visit [performance best practices for SQL on-demand](https://review.docs.microsoft.com/azure/synapse-analytics/sql-analytics/best-practices-sql-on-demand?branch=release-ignite-arcadia)
+* Visit [performance best practices for SQL on-demand](https://docs.microsoft.com/azure/synapse-analytics/sql/best-practices-sql-on-demand) 
+
 
 

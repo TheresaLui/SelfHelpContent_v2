@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "sqlPools"
@@ -35,3 +35,4 @@ Follow the links to:
 ## **Recommended Documents**
 
 * [More about back up and restore](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-restore-database-overview/)
+
