@@ -37,4 +37,4 @@ If the package you are installing is large or takes a long time to install, this
 * [Monitor your Apache Spark applications](https://docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-spark-applications#accessing-the-list-of-spark-applications)
 * [.NET for Apache Spark](https://dot.net/spark)
 * [Use .NET for Apache Spark with Azure Synapse Analytics](https://docs.microsoft.com/azure/synapse-analytics/spark/spark-dotnet)
-* [Spark.NET C# kernel features](https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/spark-dotnet#sparknet-c-kernel-features)
+* [Spark.NET C# kernel features](https://docs.microsoft.com/azure/synapse-analytics/spark/spark-dotnet#sparknet-c-kernel-features)
