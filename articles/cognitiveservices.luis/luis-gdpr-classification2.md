@@ -14,6 +14,7 @@
 	resourceTags="luis"
 	productPesIds="16869"
 	cloudEnvironments="public, fairfax"
+    ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # Language Understanding (LUIS) GDPR classification
