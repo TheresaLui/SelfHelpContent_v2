@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "sqlPools"
@@ -21,9 +21,10 @@
 
 ## **Recommended Steps**
 
-Data Discovery & Classification provides advanced capabilities built into SQL pool for [discovering](https://review.docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification?toc=/azure/synapse-analytics/sql-data-warehouse/toc.json&bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&branch=release-ignite-arcadia#discover-classify-columns), [classifying](https://review.docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification?toc=/azure/synapse-analytics/sql-data-warehouse/toc.json&bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&branch=release-ignite-arcadia#discover-classify-columns), [labeling](https://review.docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification?toc=/azure/synapse-analytics/sql-data-warehouse/toc.json&bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&branch=release-ignite-arcadia#discover-classify-columns) & reporting the sensitive data in your databases.
+Data Discovery & Classification provides advanced capabilities built into SQL pool for [discovering](https://docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification?toc=/azure/synapse-analytics/sql-data-warehouse/toc.json&bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json#discover-classify-columns), [classifying](https://docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification?toc=/azure/synapse-analytics/sql-data-warehouse/toc.json&bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json#discover-classify-columns), [labeling](https://docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification?toc=/azure/synapse-analytics/sql-data-warehouse/toc.json&bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json#discover-classify-columns) & reporting the sensitive data in your databases.
 
 ## **Recommended Documents**
 
-* [Manage classifications using T-SQL](https://review.docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification?toc=/azure/synapse-analytics/sql-data-warehouse/toc.json&bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&branch=release-ignite-arcadia#using-t-sql)
-* [Manage classifications using Rest API](https://review.docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification?toc=/azure/synapse-analytics/sql-data-warehouse/toc.json&bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json&branch=release-ignite-arcadia#using-rest-api)
+* [Manage classifications using T-SQL](https://docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification?toc=/azure/synapse-analytics/sql-data-warehouse/toc.json&bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json#using-t-sql)
+* [Manage classifications using Rest API](https://docs.microsoft.com/azure/sql-database/sql-database-data-discovery-and-classification?toc=/azure/synapse-analytics/sql-data-warehouse/toc.json&bc=/azure/synapse-analytics/sql-data-warehouse/breadcrumb/toc.json#using-rest-api)
+
