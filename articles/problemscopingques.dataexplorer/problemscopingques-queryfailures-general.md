@@ -2,7 +2,7 @@
 	articleId="problemscopingques-queryfailures-general"
 	pageTitle="problemscopingques-queryfailures-general"
 	description="Scoping questions to capture start time for query failures"
-	authors="kustosee"
+	authors="radennis"
 	ms.author="prvavill"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32613464,32613482,32613506"

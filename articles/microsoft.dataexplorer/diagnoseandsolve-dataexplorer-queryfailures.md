@@ -4,7 +4,7 @@ description="Top common problems for Azure Data Explorer cluster"
 service="Microsoft.Kusto"
 resource="clusters"
 resourceTags="clusters"
-authors="kustosee"
+authors="radennis"
 ms.author="prvavill"
 displayOrder=""
 articleId="4C1081CC-466C-4F68-BB5E-735BF7D2C976"
@@ -22,7 +22,7 @@ ownershipId="AzureDataExplorer_Kusto"
     {
       "id": "experiencing_query_failures",
       "title": "I am experiencing query failures",
-      "description": "Troubleshoot common query failures.",
+      "description": "Troubleshoot common query failures",
       "searchTags": "query, memory, error, failure",
       "category": "Failures",
       "commonSolutionArticleId": "67CED318-3125-4546-BA44-FB23E224CC15",

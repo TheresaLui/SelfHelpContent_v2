@@ -4,7 +4,7 @@
     infoBubbleText="" <!-- notification presented in the Problem blade when an issue is found -->
 	service="Microsoft.Kusto" <!-- name of the resource provider in ARM -->
 	resource="clusters" <!-- ARM Name of the resource type -->
-	authors="kustosee"
+	authors="radennis"
     ms.author="prvavill"
 	displayOrder="3"
 	selfHelpType="generic"
