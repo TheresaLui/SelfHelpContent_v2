@@ -8,7 +8,7 @@
     ms.author="prvavill"
 	displayOrder="1"
 	diagnosticScenario=""
-	selfHelpType="generic"
+	selfHelpType="diagnostics"
 	supportTopicIds="32613464,32613482,32613506"
 	resourceTags=""
 	productPesIds="16602"

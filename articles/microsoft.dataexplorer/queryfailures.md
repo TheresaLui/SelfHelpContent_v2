@@ -7,7 +7,7 @@
 	authors="radennis"
     ms.author="prvavill"
 	displayOrder="3"
-	selfHelpType="generic"
+	selfHelpType="resource"
 	supportTopicIds="32613464,32613482,32613506"
 	productPesIds="16602"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
