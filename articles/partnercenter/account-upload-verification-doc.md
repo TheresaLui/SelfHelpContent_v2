@@ -22,7 +22,7 @@
 
 ## **Recommended Steps**
 
-Click next to create a ticket with one of the below accepted forms of proof attached:
+* Click **Next** to create a ticket with one of the below accepted forms of proof attached
  
 **Business Verification, such as a business registration form, business charter, or articles of incorporation, is required. Other examples:**
  
