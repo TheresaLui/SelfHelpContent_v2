@@ -21,8 +21,6 @@ ownershipId="CloudNet_LoadBalancer"
 We have identified that your Load Balancer's backend pool members, **'<!--$VMArray-->[VMArray]<!--/$VMArray-->'** have firewall or application issues blocking ports **'<!--$PortsArray-->[PortsArray]<!--/$PortsArray-->'** in VNET **'<!--$VnetName-->[VnetName]<!--/$VnetName-->'** has
 <!--/issueDescription-->
 
-## **Recommended Steps**
-
 This issue was caused by the VM configuration <application/firewall> that was not enabling network traffic to reach the application. By default, VM applications need to be configured to listen on particular TCP/UDP ports to receive the requests from the networking layer. A firewall rule must also be configured to allow this traffic through. 
 
 ## **Recommended Steps**
@@ -39,13 +37,13 @@ C:\Users\dgoddard>netstat -ano | findstr LISTENING | findstr 3389
 
 In this example, we see that the application is listening on IPv4 which we know because the second column starts with 0.0.0.0. And, it is listening on IPv6, which we know because the second column is [::]. The last column is the Windows process (PID) of the network application.
 
-2. Disable the firewall with powershell or manually check for blocking rules
+2. Disable the firewall with powershell or manually check for blocking rules:
 
 ~~~powershell
 netsh advfirewall set currentprofile state off
 ~~~
 
-Manually check for Blocking rules
+Manually check for Blocking rules:
 
    1. Windows key, type 'Firewall', select 'Windows Defender Firewall with Advanced Security"
    2. Select 'Inbound Rules' in the left pane
@@ -64,14 +62,14 @@ tcp6       0      0 :::22                   :::*                    LISTEN      
 
 Again, we can see that the application is running on IPv4 and IPv6.
 
-2. Disable the firewall with bash or manually check for blocking rules with bash
+2. Disable the firewall with bash or manually check for blocking rules with bash:
 
 ~~~bash
 # /etc/init.d/iptables save
 # /etc/init.d/iptables stop
 ~~~
 
-Manually check for blocking rules
+3. Manually check for blocking rules:
 
 ~~~bash
 sudo iptables -S
