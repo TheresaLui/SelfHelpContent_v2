@@ -22,9 +22,9 @@
 
 ## **Recommended Steps**
 
- ### **Accepted forms of Proof**
+Click next to create a ticket with one of the below accepted forms of proof attached:
  
- **Business Verification: business registration form, business charter or articles of incorporation. Examples:**
+**Business Verification, such as a business registration form, business charter, or articles of incorporation, is required. Other examples:**
  
    -  Articles of incorporation, memorandum of association, or any similar company formation document
    -  Securities and Exchange Commission Form 10-K, or equivalent filing
@@ -44,3 +44,5 @@
 
    - Domain registration
    - Invoice  
+   
+Please upload your verification documents as .pdf or screen shots. File size for uploads is restricted to less than 8MB. Review the types of verification from the recommended steps.
