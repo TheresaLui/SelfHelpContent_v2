@@ -33,7 +33,7 @@
             "controlType": "textbox",
             "displayLabel": "Vault name",
             "watermarkText": "E.g. MyContosoVault",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
@@ -41,7 +41,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ],
