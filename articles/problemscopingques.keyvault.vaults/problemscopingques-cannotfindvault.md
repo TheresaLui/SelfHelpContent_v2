@@ -4,7 +4,7 @@
          authors="osmuller"
          ms.author="osmuller"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32375279"
+         supportTopicIds="32738115"
          productPesIds="15657"
          schemaVersion="1"
          articleId="problemscopingques-cannotfindvault"
