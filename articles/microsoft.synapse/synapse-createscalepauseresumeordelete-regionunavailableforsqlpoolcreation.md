@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "sqlPools"
@@ -25,4 +25,5 @@
 * [Gen2 Regional Availability Schedule](https://docs.microsoft.com/azure/sql-data-warehouse/gen2-migration-schedule)<br>
 * [Create a Data Warehouse using the Azure portal](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal)<br>
 * [Create a Data Warehouse using PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-powershell)
+
 

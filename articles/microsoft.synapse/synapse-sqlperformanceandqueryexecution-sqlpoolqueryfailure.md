@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "sqlPools"
@@ -31,4 +31,5 @@
 
 * [Sys.dm_pdw_errors](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-pdw-errors-transact-sql?view=azure-sqldw-latest)
 * [Additional Troubleshooting](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-troubleshoot/)
+
 
