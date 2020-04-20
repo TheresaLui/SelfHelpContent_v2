@@ -19,14 +19,30 @@
     "title": "Vault cannot be found",
     "fileAttachmentHint": "",
     "formElements": [
-          {
-            "id": "vault_name",
+        {
+            "id": "problem_start_time",
             "order": 1,
-            "visibility": "null",
-            "controlType": "textbox",
-            "displayLabel": "Provide the name of the vault",
-            "watermarkText": "E.g. MyContosoVault",
-            "required": false
+            "controlType": "datetimepicker",
+            "displayLabel": "Incident time",
+            "required": true
+        },
+        {
+        "id": "vault_name",
+        "order": 2,
+        "visibility": "null",
+        "controlType": "textbox",
+        "displayLabel": "Provide the name of the vault",
+        "watermarkText": "E.g. MyContosoVault",
+        "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"
