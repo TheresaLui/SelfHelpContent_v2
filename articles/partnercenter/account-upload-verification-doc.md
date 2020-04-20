@@ -21,9 +21,10 @@
 # Partner Center account employment verification
 
 ## **Recommended Steps**
-### **Click next to create a ticket with one of the below accepted forms of proof attached**. 
+
+* Click **Next** to create a ticket with one of the below accepted forms of proof attached
  
- **Business Verification: business registration form, business charter or articles of incorporation. Examples:**
+**Business Verification, such as a business registration form, business charter, or articles of incorporation, is required. Other examples:**
  
    -  Articles of incorporation, memorandum of association, or any similar company formation document
    -  Securities and Exchange Commission Form 10-K, or equivalent filing
