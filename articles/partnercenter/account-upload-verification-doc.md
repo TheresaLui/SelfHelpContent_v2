@@ -43,3 +43,5 @@
 
    - Domain registration
    - Invoice  
+   
+Please upload your verification documents as .pdf or screen shots. File size for uploads is restricted to less than 8MB. Review the types of verification from the recommended steps.
