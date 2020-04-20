@@ -19,7 +19,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('sqladhoc.kustomfa.windows.net').database('sqlazure1').dw_advisor_Load_BatchSize",
     "dataSource": "Kusto",
-    "refreshInterval": "1.00:00:00"
+    "refreshInterval": "0.12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
