@@ -22,9 +22,9 @@ ownershipId="CloudNet_VirtualNetwork"
 ## **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->**: <!--$InsightTitle-->[InsightTitle]<!--/$InsightTitle-->
 
 <!--issueDescription-->
-We have identified a problem that prevents network traffic flowing from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$ImpactedResource-->ImpactedResource<!--/$ImpactedResource--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that the following condition exists:
+We have identified a problem that prevents network traffic flowing from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$ImpactedResource-->ImpactedResource<!--/$ImpactedResource--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that the following condition exists:<br>
 
-- Network Security Group <!--$NetworkSecurityGroupName-->NetworkSecurityGroupName<!--/$NetworkSecurityGroupName--> has a rule <!--$RuleName-->RuleName<!--/$RuleName--> that is causing the issue.  
+1.Network Security Group <!--$NetworkSecurityGroupName-->NetworkSecurityGroupName<!--/$NetworkSecurityGroupName--> has a rule <!--$RuleName-->RuleName<!--/$RuleName--> that is causing the issue.  
 <!--/issueDescription-->
 
 ## **Recommended Steps**

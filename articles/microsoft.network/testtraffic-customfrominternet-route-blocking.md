@@ -22,9 +22,9 @@ ownershipId="CloudNet_VirtualNetwork"
 ## **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->**: <!--$InsightTitle-->[InsightTitle]<!--/$InsightTitle-->
 
 <!--issueDescription-->
-We have identified a problem that prevents network traffic flowing from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to virtual machine <!--$ImpactedResource-->ImpactedResource<!--/$ImpactedResource--> on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that the following condition exists:
+We have identified a problem that prevents network traffic flowing from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to virtual machine <!--$ImpactedResource-->ImpactedResource<!--/$ImpactedResource--> on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that the following condition exists:<br>
 
-- User-defined route tables have a route that is causing the issue.
+1.User-defined route tables have a route that is causing the issue.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
