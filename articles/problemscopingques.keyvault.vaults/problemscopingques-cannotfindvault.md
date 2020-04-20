@@ -5,9 +5,9 @@
          ms.author="osmuller"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32375283"
-         productPesIds="16348"
+         productPesIds="15657"
          schemaVersion="1"
-         articleId="3a479135-f725-4996-98b2-fcf529877594"
+         articleId="problemscopingques-cannotfindvault"
 	     cloudEnvironments="blackForest, fairfax, public, MoonCake"
 	     ownershipId="AzureKeyVault_KeyVault"
 />
