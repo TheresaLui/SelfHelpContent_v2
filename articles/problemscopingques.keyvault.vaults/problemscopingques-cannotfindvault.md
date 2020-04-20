@@ -4,7 +4,7 @@
          authors="osmuller"
          ms.author="osmuller"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32738115"
+         supportTopicIds="32375295"
          productPesIds="15657"
          schemaVersion="1"
          articleId="problemscopingques-cannotfindvault"
@@ -33,7 +33,7 @@
             "controlType": "textbox",
             "displayLabel": "Vault name",
             "watermarkText": "E.g. MyContosoVault",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
