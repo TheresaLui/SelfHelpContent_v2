@@ -27,13 +27,13 @@
             "required": true
         },
         {
-        "id": "vault_name",
-        "order": 2,
-        "visibility": "null",
-        "controlType": "textbox",
-        "displayLabel": "Provide the name of the vault",
-        "watermarkText": "E.g. MyContosoVault",
-        "required": false
+            "id": "vault_name",
+            "order": 2,
+            "visibility": "null",
+            "controlType": "textbox",
+            "displayLabel": "Vault name",
+            "watermarkText": "E.g. MyContosoVault",
+            "required": true
         },
         {
             "id": "problem_description",
@@ -41,7 +41,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
-            "required": true,
+            "required": false,
             "useAsAdditionalDetails": true
         }
     ],
