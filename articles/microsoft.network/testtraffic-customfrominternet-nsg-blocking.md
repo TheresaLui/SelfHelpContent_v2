@@ -31,10 +31,10 @@ Network Security Group <!--$NetworkSecurityGroupName-->NetworkSecurityGroupName<
 
 If the access control result is not the desired result, remove or relax the <!--$NetworkSecurityGroupName-->NetworkSecurityGroupName<!--/$NetworkSecurityGroupName--> network security group to allow network traffic to flow from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$ImpactedResource-->ImpactedResource<!--/$ImpactedResource--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Or, you can create an INBOUND basic rule that has a higher priority (lower number) than have the existing rules that specify port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. To do this, follow these steps:
 
-1. Open the [Azure portal](https://portal.azure.com) and browse to the [Network Security Group blade](https://portal.azure.com/?feature.customportal=false#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FNetworkSecurityGroups).
-2. Open your **<!--$NetworkSecurityGroupName-->NetworkSecurityGroupName<!--/$NetworkSecurityGroupName-->** network security group .
-3. Add an **Allow** rule for **<!--$SourceIp-->SourceIp<!--/$SourceIp-->** IP address that has a lower number (higher priority) than has the Block rule.
-4. Save the changes, and check the traffic status again.
+1. Open the [Azure portal](https://portal.azure.com) and browse to the [Network Security Group blade](https://portal.azure.com/?feature.customportal=false#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FNetworkSecurityGroups)
+2. Open your **<!--$NetworkSecurityGroupName-->NetworkSecurityGroupName<!--/$NetworkSecurityGroupName-->** network security group
+3. Add an **Allow** rule for **<!--$SourceIp-->SourceIp<!--/$SourceIp-->** IP address that has a lower number (higher priority) than has the Block rule
+4. Save the changes, and check the traffic status again
 
 ### Tests Executed
 
