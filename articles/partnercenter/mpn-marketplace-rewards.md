@@ -33,4 +33,3 @@
 
 * [Manage Marketplace Rewards](https://docs.microsoft.com/partner-center/marketplace-rewards)
 * [Marketplace Rewards information in Partner Center](https://docs.microsoft.com/partner-center/marketplace-rewards#why-cant-i-see-the-commercial-marketplace-rewards-program-on-my-dashboard)
-
