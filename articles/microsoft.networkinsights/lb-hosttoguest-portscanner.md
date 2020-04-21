@@ -75,6 +75,8 @@ Again, we can see that the application is running on IPv4 and IPv6.
 sudo iptables -S
 ~~~
 
+#### Note: Do not leave your firewall disabled. Enable your firewall again after testing.
+
 ## **Recommended Documents**
 
 * https://docs.microsoft.com/azure/network-watcher/
