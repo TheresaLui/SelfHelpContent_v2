@@ -12,7 +12,6 @@
 	productPesIds="16919"
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="b97a4b1c-4d63-468b-4ded-fcda14edd5fe"
-	ownershipId="QnAMaker"
 />
 
 # Manage QnA Maker Resources
