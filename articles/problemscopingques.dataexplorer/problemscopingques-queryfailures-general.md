@@ -1,6 +1,5 @@
 <properties
-	articleId="problemscopingques-queryfailures-general"
-	pageTitle="problemscopingques-queryfailures-general"
+	pageTitle="query failures problemscoping questions"
 	description="Scoping questions to capture start time for query failures"
 	authors="radennis"
 	ms.author="prvavill"
@@ -9,6 +8,7 @@
 	productPesIds="16602"
 	cloudEnvironments="Public"
 	schemaVersion="1"
+    articleId="9445526A-2D4B-41D8-9DE4-B19B4D64F397"
 	ownershipId="AzureDataExplorer_Kusto"
 />
 # Azure Data Explorer Query Failures
@@ -40,7 +40,7 @@
             "displayLabel": "Do you have RootactivityId of the affected query?",
             "watermarkText": "",
             "required": false
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "diagnosticInputRequiredClients": "Portal, ASC"
         },
         {
             "id": "problem_description",
