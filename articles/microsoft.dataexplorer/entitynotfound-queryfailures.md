@@ -20,7 +20,7 @@
 # Azure Data Explorer query failures
 
 <!--issueDescription-->
-Your Azure Data Explorer is having E_ENTITY_NOT_FOUND query failures and this happens if database or table referenced in query does not exist in the Azure Data Explorer cluster.  
+Your Azure Data Explorer is having ENTITY NOT FOUND query failures and this happens if database or table referenced in query does not exist in the Azure Data Explorer cluster.  
 <!--/issueDescription-->
 
 ## **Recommended Documents**

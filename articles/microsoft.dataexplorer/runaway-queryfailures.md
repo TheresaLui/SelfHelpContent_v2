@@ -20,7 +20,7 @@
 # Azure Data Explorer query failures
 
 <!--issueDescription-->
-Your Azure Data Explorer is having E_RUNAWAY_QUERY query failures and it is a kind of partial query failure that happens when some internal query limit was exceeded during query execution.
+Your Azure Data Explorer is having RUNAWAY QUERY query failures and it is a kind of partial query failure that happens when some internal query limit was exceeded during query execution.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
