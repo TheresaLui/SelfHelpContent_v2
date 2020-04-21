@@ -20,8 +20,17 @@
 # Create, delete, cancel, or suspend online services subscriptions
 
 ## **Recommended Steps**
-* Cancel a subscription
-  To cancel a license-based SaaS subscription from an ISV publisher, do the following
+   
+   **Suspend a subscription:**
+   
+- Sign into the **Partner Center [dashboard](https://partner.microsoft.com/dashboard)**
+- From the Partner Center menu, select **Customers**, then choose a customer from the list.
+- Choose the subscription you want to manage.
+- In the **Status** section, choose **Suspended**. Then **Submit** your changes.
+
+ **Cancel a subscription:**
+
+ To cancel a license-based SaaS subscription from an ISV publisher, do the following
   
 - In the **Status** column, select **Cancel**. Then Submit your changes
 - If a dialog box appears, fill out any relevant details then select **Submit**
