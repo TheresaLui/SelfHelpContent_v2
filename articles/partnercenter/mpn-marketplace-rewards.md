@@ -10,7 +10,7 @@
 	articleId="partnercenter_marketplacet_mpnrewards"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692619, 32725873"
+	supportTopicIds="32692619"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960, 17000"
