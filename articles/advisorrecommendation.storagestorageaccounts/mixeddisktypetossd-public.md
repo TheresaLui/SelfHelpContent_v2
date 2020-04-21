@@ -22,7 +22,7 @@ ownershipId="StorageMediaEdge_XStore"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
-  "recommendationResourceType": "Microsoft.Storage/storageAccounts",
+  "recommendationResourceType": "Microsoft.Compute/virtualMachines",
   "recommendationFriendlyName": "MixedDiskTypeToSSDPublic",
   "recommendationMetadataState": "Active",
   "owner": {
