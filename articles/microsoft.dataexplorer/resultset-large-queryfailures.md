@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Performance|Resultset Large query failures"
-	description="Performance|Resultset Large query failures"
-    infoBubbleText=""
+	description="Resultset Large query failures"
+    infoBubbleText="Resultset Large query failures"
 	service="Microsoft.Kusto"
 	resource="clusters"
 	authors="radennis"

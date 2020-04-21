@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Performance|Runaway query failures"
-	description="Performance|Runaway query failures"
-    infoBubbleText=""
+	description="Runaway query failures"
+    infoBubbleText="Runaway query failures"
 	service="Microsoft.Kusto"
 	resource="clusters"
 	authors="radennis"

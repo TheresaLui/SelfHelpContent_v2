@@ -40,6 +40,15 @@
             "displayLabel": "Do you have RootactivityId of the affected query?",
             "watermarkText": "",
             "required": false
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide any additional details",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ]
 }

@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Performance|Entity query failures"
-	description="Performance|Entity query failures"
-    infoBubbleText=""
+	description="Entity not found query failures"
+    infoBubbleText="Entity not found query failures"
 	service="Microsoft.Kusto"
 	resource="clusters"
 	authors="radennis"

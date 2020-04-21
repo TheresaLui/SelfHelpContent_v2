@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Performance|Low memory query failures"
-	description="Performance|Low memory query failures"
-    infoBubbleText=""
+	description="Query failures with low memory"
+    infoBubbleText="Query failures with low memory"
 	service="Microsoft.Kusto"
 	resource="clusters"
 	authors="radennis"
