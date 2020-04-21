@@ -19,15 +19,15 @@ Use the 'Test Traffic' utility to check for blocking Network Security Group Rule
 1. Choose a 'source' VM in one of the peered VNet and a 'destination' VM in the other peered VNet. (For the next several steps we will refer to the VMs you've selected as 'source' & 'destination' VM)
 2. Browse to the source VM in ASC Resource Explorer. Click on the Diagnostics tab, and choose Test Traffic.
 3. Specify the following options to Test Traffic and then click "Run":
-   * Traffic Direction: **Out**
+   * Traffic Direction: ***Out***
    * Cluster node: Auto Populated by ASC
    * Node Id: Auto Populated by ASC
    * Container Id: Auto Populated by ASC
    * Source IP: client source IP address (Auto Populated by ASC)
-   * Source Port: **55555**
-   * Destination IP: **enter destination VM private VNet IP**
-   * Destination Port: **enter port the customer is testing with**
-   * Transport Protocol: **TCP**
+   * Source Port: ***55555***
+   * Destination IP: ***<'enter destination VM private VNet IP>***
+   * Destination Port: ***<'enter port the customer is testing with***
+   * Transport Protocol: TCP
 4. Make note of the following: 
    * The 'Test Result' for the "Stateful Test (NSG Layer)" and the blocking Rule Name listed.
    * The "Stateless Test (Routing Layer)" any 'NSG or Routing Layer' and the blocking Rule Name listed.
