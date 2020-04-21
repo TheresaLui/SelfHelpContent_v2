@@ -70,6 +70,10 @@ For now, you can retrieve dependency information by running Log Analytics querie
 
 ### ***Is there a charge for using dependency visualization?***
 
-• The [Service Map solution](https://go.microsoft.com/fwlink/?linkid=2104198) will not incur any charges for the first 180 days from the day of associating the [Log Analytics](https://go.microsoft.com/fwlink/?linkid=2104198) workspace with Server Assessment. After 180 days, standard Log Analytics charges will apply.
+• The [Service Map solution](https://go.microsoft.com/fwlink/?linkid=2104198) will not incur any charges for the first 180 days from the day of associating the [Log Analytics](https://go.microsoft.com/fwlink/?linkid=2104198) workspace with Server Assessment. After 180 days, standard Log Analytics charges will apply.
 
-• The use of any solution other than Service Map within the linked OMS workspace will incur standard [Log Analytics](https://go.microsoft.com/fwlink/?linkid=2104391) charges
+• The use of any solution other than Service Map within the linked OMS workspace will incur standard [Log Analytics](https://go.microsoft.com/fwlink/?linkid=2104391) charges.
+
+### **Is Agent-based dependency analysis available in Azure Government?**
+
+Agent-based dependency analysis is not available in Azure Government. You can use agentless dependency analysis. Comparison [here](https://docs.microsoft.com/azure/migrate/concepts-dependency-visualization#compare-agentless-and-agent-based).

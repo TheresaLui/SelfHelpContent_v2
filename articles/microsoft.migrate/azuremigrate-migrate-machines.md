@@ -12,7 +12,7 @@
     productPesIds="16348"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="e8de7410-ac8a-4fba-8e86-2c7c54838a8a"
-	ownershipId="Compute_AzureMigrate"
+    ownershipId="Compute_AzureMigrate"
 />
 
 # Performing a migration on a replicating machine
@@ -54,3 +54,11 @@ Server Migration installs the Azure agent on the virtual machine as part of the 
 |Agentless replication for VMware virtual machines     |  Requires manual installation post migration        | Requires manual installation post migration         |
 |Agent-based replication for VMware virtual machines and physical servers     |   Installed by Server Migration tool</br>*(Not applicable for versions for which Azure VM agents aren't available)*      | Requires manual installation post migration      |
 |Agentless replication of Hyper-V virtual machines     | Requires manual installation post migration        |   Requires manual installation post migration      |
+
+### **I cannot see all VM SKUs while migrating to Azure Government**
+
+The VM SKUs supported in the assessment and migration tools will depend on the availability in these Government regions. Comparison of Gov SKUs with respect to public cloud SKUs can be found [here](https://azure.microsoft.com/global-infrastructure/services/) by selecting region as Azure Government.
+
+### **What are teh target replication regions for migrating to Azure Government**
+
+Target regions for Azure Government are: US DoD Central, US DoD East, US Gov Arizona, US Gov Iowa, US Gov Texas, US Gov Virginia
