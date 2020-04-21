@@ -19,8 +19,10 @@
 
 # Azure Data Explorer query failures
 
+<!--issueDescription-->
+Your Azure Data Explorer is having query failures with low memory issues (Error E_LOW_MEMORY_CONDITION) and query failures due to low memory are result of a non-optimized workload running against your Azure Data Explorer.  
+<!--/issueDescription-->
+
 ## **Recommended Documents**
 
-### Error E_LOW_MEMORY_CONDITION: Operation was aborted due to available process memory running low
-
--  Your Azure Data Explorer is having query failures with low memory issues and query failures due to low memory are result of a non-optimized workload running against your Azure Data Explorer. Possible recommendations to follow query best practises using [this reference](https://docs.microsoft.com/azure/kusto/query/best-practices) or consider adding more power using [this reference](https://docs.microsoft.com/azure/data-explorer/manage-cluster-horizontal-scaling) if required following [this reference](https://docs.microsoft.com/azure/data-explorer/using-metrics). 
+- Possible recommendations to follow query best practises using [this reference](https://docs.microsoft.com/azure/kusto/query/best-practices) or consider adding more power using [this reference](https://docs.microsoft.com/azure/data-explorer/manage-cluster-horizontal-scaling) if required following [this reference](https://docs.microsoft.com/azure/data-explorer/using-metrics)

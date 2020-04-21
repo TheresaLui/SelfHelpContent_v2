@@ -19,9 +19,11 @@
 
 # Azure Data Explorer query failures
 
+<!--issueDescription-->
+Your Azure Data Explorer is having entity not found query failures (Error E_ENTITY_NOT_FOUND) and this happens if database or table referenced in query does not exist in the Azure Data Explorer cluster.  
+<!--/issueDescription-->
+
 ## **Recommended Documents**
 
-### Error E_ENTITY_NOT_FOUND: The requested entity was not found
-
-- Your Azure Data Explorer is having entity was not found failures and this happens if database or table referenced in query does not exist in the Azure Data Explorer cluster. Use [this reference](https://docs.microsoft.com/azure/data-explorer/create-cluster-database-portal) to create database and [this reference](https://docs.microsoft.com/azure/data-explorer/kusto/management/tables) to create table to avoid this error.
+- Use [this reference](https://docs.microsoft.com/azure/data-explorer/create-cluster-database-portal) to create database and [this reference](https://docs.microsoft.com/azure/data-explorer/kusto/management/tables) to create table to avoid this error
 
