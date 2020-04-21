@@ -1,7 +1,7 @@
 <properties
-	articleId="problemscopingques-sql-createdropresources-elasticpools"
+	articleId="problemscopingques-sql-createdropresources-elasticjoborjobagent"
 	pageTitle="SQL Database"
-	description="Scoping questions to capture CRUD issues for elastic pools"
+	description="Scoping questions to capture CRUD issues for elastic jobs or agents"
 	authors="andikshi"
 	authoralias="andikshi"
 	ms.author="andikshi"
