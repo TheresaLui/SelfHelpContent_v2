@@ -20,6 +20,12 @@
 
 # Advanced Specialization enrollment
 
+
+## **Recommended Steps**
+
+- To receive an advanced specialization tag, please click on [Learn more](https://partner.microsoft.com/membership/advanced-specialization) to review set of published criteria to be validated by Microsoft for your organization
+- Please click [here](https://docs.microsoft.com/partner-center/advanced-specializations#the-current-advanced-specializations) to learn about different specializations that your organization would like to consider
+
  
 ## **Recommended Documents**
 
