@@ -38,11 +38,11 @@ Learn about the [behavior of each action type](https://go.microsoft.com/fwlink/?
 
 ### Webhook
 
-* Refer to the documentation for the latest list of IP addresses: https://docs.microsoft.com/azure/azure-monitor/platform/action-groups#webhook
+* [Latest list of Webhook IP addresses](https://docs.microsoft.com/azure/azure-monitor/platform/action-groups#webhook)
 
 * The timeout period for a response is 10 seconds. The webhook call will be retried a maximum of 2 times when the following HTTP status codes are returned: 408, 429, 503, 504 or the HTTP endpoint does not respond. The first retry happens after 10 seconds. The second and last retry happens after 100 seconds. If the second retry fails the endpoint will not be called again for 30 minutes for any action group.
 
 ## **Recommended Documents**
 
-[Creating and managing action groups](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-action-groups)<br>
-[Pricing information for action group notifications](https://azure.microsoft.com/pricing/details/monitor/)
+* [Creating and managing action groups](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-action-groups)<br>
+* [Pricing information for action group notifications](https://azure.microsoft.com/pricing/details/monitor/)
