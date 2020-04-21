@@ -20,7 +20,7 @@
 # Azure Data Explorer query failures
 
 <!--issueDescription-->
-Your Azure Data Explorer is having query failures with low memory issues (Error E_LOW_MEMORY_CONDITION) and query failures due to low memory are result of a non-optimized workload running against your Azure Data Explorer.  
+Your Azure Data Explorer is having query failures with E_LOW_MEMORY_CONDITION issues and query failures due to low memory are result of a non-optimized workload running against your Azure Data Explorer.  
 <!--/issueDescription-->
 
 ## **Recommended Documents**
