@@ -1,15 +1,15 @@
 <properties
-	pageTitle="query failures problemscoping questions"
-	description="Scoping questions to capture start time for query failures"
-	authors="radennis"
-	ms.author="prvavill"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32613464,32613482,32613506"
-	productPesIds="16602"
-	cloudEnvironments="Public"
-	schemaVersion="1"
+    pageTitle="Query Failures Problem Scoping Questions"
+    description="Scoping questions to capture start time for query failures"
+    authors="radennis"
+    ms.author="prvavill"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32613464,32613482,32613506"
+    productPesIds="16602"
+    cloudEnvironments="Public"
+    schemaVersion="1"
     articleId="9445526A-2D4B-41D8-9DE4-B19B4D64F397"
-	ownershipId="AzureDataExplorer_Kusto"
+    ownershipId="AzureDataExplorer_Kusto"
 />
 # Azure Data Explorer Query Failures
 ---
@@ -39,7 +39,7 @@
             "controlType": "textbox",
             "displayLabel": "Do you have RootactivityId of the affected query?",
             "watermarkText": "",
-            "required": false
+            "required": false,
             "diagnosticInputRequiredClients": "Portal, ASC"
         },
         {
