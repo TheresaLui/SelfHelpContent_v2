@@ -65,12 +65,11 @@ TCP connection port and data volume information can be retrieved by running Log 
 
 ### **Can I export the dependency visualization report?**
 
-No, currently you cannot export the dependency visualization report. However, we are working on adding support for it. 
-For now, you can retrieve dependency information by running Log Analytics queries. Find information on sample queries and how they can be run [here](https://go.microsoft.com/fwlink/?linkid=2104393)
+No, currently you cannot export the dependency visualization report. However, we are working on adding support for it. For now, you can retrieve dependency information by running Log Analytics queries. Find information on sample queries and how they can be run [here](https://go.microsoft.com/fwlink/?linkid=2104393).
 
-### ***Is there a charge for using dependency visualization?***
+### **Is there a charge for using dependency visualization?**
 
-• The [Service Map solution](https://go.microsoft.com/fwlink/?linkid=2104198) will not incur any charges for the first 180 days from the day of associating the [Log Analytics](https://go.microsoft.com/fwlink/?linkid=2104198) workspace with Server Assessment. After 180 days, standard Log Analytics charges will apply.
+• The [Service Map solution](https://go.microsoft.com/fwlink/?linkid=2104198) will not incur any charges for the first 180 days from the day of associating the [Log Analytics](https://go.microsoft.com/fwlink/?linkid=2104198) workspace with Server Assessment. After 180 days, standard Log Analytics charges will apply.
 
 • The use of any solution other than Service Map within the linked OMS workspace will incur standard [Log Analytics](https://go.microsoft.com/fwlink/?linkid=2104391) charges.
 
