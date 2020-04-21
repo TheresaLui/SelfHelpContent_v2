@@ -61,7 +61,7 @@
             "controlType": "dropdown",
             "displayLabel": "What method are you using",
             "required": true,
-	    "visibility": "issue_type == creation_agent || issue_type == creation_jobs"
+	    "visibility": "issue_type == creation_agent or issue_type == creation_jobs"
             "dropdownOptions": [
                 {
                     "value": "powershell",
