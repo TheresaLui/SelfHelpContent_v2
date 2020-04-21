@@ -28,8 +28,8 @@
   - As either the global admin or account admin, sign into the PGA in Partner Center
   - Select **Settings** (on top-right), **Partner settings**, **Tenants**
   - Select **Associate another Azure AD tenant** and select the Azure AD tenant you want to associate with the PGA
-  - Add user name and password of any user in the Azure AD tenant you want to associate and select **Submit**
-  - Sign out of Partner Center and then sign in using the user name and password for the tenant you just associated to the PGA
+  - Add username and password of any user in the Azure AD tenant you want to associate and select **Submit**
+  - Sign out of Partner Center and then sign in using the username and password for the tenant you just associated to the PGA
   - You will now be able to see the Commercial Rewards Marketplace program information in the left navigation menu
  
 
