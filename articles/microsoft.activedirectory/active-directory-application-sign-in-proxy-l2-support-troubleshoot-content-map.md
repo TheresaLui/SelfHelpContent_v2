@@ -8,9 +8,9 @@
     selfHelpType="generic"
     supportTopicIds="32596856"
     productPesIds="16575"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="fe213024-d500-4e56-aff1-bae56d08ff3b"
-	ownershipId="AzureIdentity_EnterpriseApps"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Issues that are related to signing in to proxy applications

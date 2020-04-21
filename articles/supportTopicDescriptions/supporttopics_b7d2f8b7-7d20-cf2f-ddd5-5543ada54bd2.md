@@ -5,7 +5,7 @@
   ms.author="shrahman"
   selfhelptype="SupportTopicDescription"
   productpesids="b7d2f8b7-7d20-cf2f-ddd5-5543ada54bd2"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_b7d2f8b7-7d20-cf2f-ddd5-5543ada54bd2" 	ownershipId="Compute_AppService"
 />
 # Support Topic Descriptions for b7d2f8b7-7d20-cf2f-ddd5-5543ada54bd2

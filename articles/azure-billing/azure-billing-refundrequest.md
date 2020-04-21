@@ -11,7 +11,7 @@
 	supportTopicIds="32454868"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="billing-refundrequest"
 	ownershipId="ASMS_Billing"
 />
@@ -22,7 +22,7 @@
 You can request a refund  by submitting a request to Azure support. Once your request is approved, you will be provided with the requested refund amount. Please use this path for **Non-EA customers, Customers with Azure EA agreement (direct customers and partners only)**
 
 **Customers with Azure EA agreement (indirect)**
-If you are an Indirect EA customer, please log your request for pricing, billing, and credit scenarios via [EA portal](https://ea.azure.com) only.
+If you are an Indirect EA customer, please log your request for pricing, billing, and credit scenarios via **EA portal** only.
 
 ### **Information needed to process the refund request quickly**
 

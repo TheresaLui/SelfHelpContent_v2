@@ -6,7 +6,7 @@
     articleId="57ecb3cd-f2b4-4cad-8b3a-232cca527a0b_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Upgrade VM from Premium Unmanaged Disks to Managed Disks at no additional cost
 ---
@@ -39,7 +39,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/md_overview",
+  "learnMoreLink": "https://aka.ms/md_overview_cn",
   "description": "Upgrade VM from Premium Unmanaged Disks to Managed Disks at no additional cost",
   "longDescription": "We have identified that your VM is using premium unmanaged disks that can be migrated to managed disks at no additional cost. Azure Managed Disks provides higher resiliency, simplified service management, higher scale target and more choices among several disk types. This upgrade can be done through the portal in less than 5 minutes.",
   "potentialBenefits": "Leverage higher resiliency and other benefits of Managed Disks",

@@ -14,7 +14,7 @@
     supportTopicIds="32612423"
 	resourceTags="assessments,on-boarding,troubleshooting"
 	productPesIds="15725"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />
 

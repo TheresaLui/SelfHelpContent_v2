@@ -3,7 +3,7 @@ pageTitle="Solution Databricks Resource Locked"
 description="Solution Databricks Resource Locked"
 infoBubbleText="Solution Databricks Resource Locked"
 service="microsoft.network"
-ownershipid="Centennial_Cloudnet_VirtualNetwork"
+ownershipId="Centennial_Cloudnet_VirtualNetwork"
 resource="virtualnetwork"
 authors="chadmath"
 ms.author="chadmat"
@@ -14,12 +14,12 @@ selfHelpType="TSG_Content"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 />
 # Solution Databricks Resource Locked
 <!--issueDescription-->
 
-You can run into this issue when enabling VNet peering on a Vnet that has Databricks integration.
+It looks like this issue may be related to enabling VNet peering on a Vnet that has Databricks integration.
 
 <!--/issueDescription-->
 

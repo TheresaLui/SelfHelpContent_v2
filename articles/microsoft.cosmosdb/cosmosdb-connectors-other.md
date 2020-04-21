@@ -9,7 +9,7 @@
 	supportTopicIds="32636815"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-connectors-other"
 	displayOrder="121"
 	category="Tools and Connectors"

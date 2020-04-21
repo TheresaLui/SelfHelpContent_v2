@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628163"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="707b13ff-455b-6fc8-0658-edea497cb80b"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Troubleshooting refresh scenarios

@@ -10,9 +10,9 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="b797ec2d-c7fb-40ae-8baf-0b6ddcfe0a69"
-	ownershipId="AzureIdentity_SignIn"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Configuring new or existing policy settings for Azure Active Directory Services

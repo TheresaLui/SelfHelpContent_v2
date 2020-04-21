@@ -10,9 +10,9 @@
     supportTopicIds="32675601"
     resourceTags=""
     productPesIds="14749,14745"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="923b40ea-1562-4f11-b0ed-513148c31966"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # My Windows VM is stuck in a reboot loop

@@ -13,8 +13,8 @@
     supportTopicIds="32628264,32628261,32628277,32628275,32628268,32628270,32633490,32633512,32633522,32633524,32633527"
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public, Fairfax"
-	ownershipId="Compute_ComputePlatform"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Perfinsights tool could help you diagnose key performance issues on this VM

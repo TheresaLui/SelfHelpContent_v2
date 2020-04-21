@@ -9,7 +9,7 @@
 	supportTopicIds="32692540"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-throughput-autopilot"
 	displayOrder="247"
 	category="Core (SQL)"
@@ -29,6 +29,8 @@ Autopilot has been registered for all users. Autopilot can only be enabled while
 ### **I am trying to create the tables programmatically using ARM templates and cannot find the context for autopilot setting**
 - Support for CLI and SDK is not yet available
 
+### **Can I apply the Free Tier discount to autopilot databases and containers?**
+**Answer:** Yes. With autopilot, you are billed for the highest RUs the database or container scales to in the hour. When the free tier discount is applied, 400 RUs will be subtracted from that value. See our documentation for examples and details.  
 
 ### **FAQ**
 **Is Autopilot supported on shared throughput databases?**

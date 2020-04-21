@@ -7,12 +7,12 @@
     authors="rnagpal"
     ms.author="rnagpal"
     articleId="cosmosdb-ipfilter-rca"
-    diagnosticScenario="CosmosDBIpFilterInsight"
+    diagnosticScenario="CosmosDBIPFilterInsight"
     selfHelpType="rca"
     supportTopicIds="32636792"
     resourceTags=""
     productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 

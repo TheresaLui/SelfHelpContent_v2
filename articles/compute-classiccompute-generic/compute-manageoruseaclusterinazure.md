@@ -10,9 +10,9 @@
 	supportTopicIds="32674541"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="380cc3e6-7c63-4b02-a58f-deff099e03f5"
-	ownershipId="Compute_ComputePlatform"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Management/Manage or use a cluster in Azure

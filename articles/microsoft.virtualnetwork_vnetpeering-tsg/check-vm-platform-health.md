@@ -2,12 +2,12 @@
 	pageTitle="TSG Content Step: Check VM amd Platform Health"
 	description="TSG Content Step: Check VM amd Platform Health"
 	service="microsoft.network"
-	ownershipid="Centennial_Cloudnet_VirtualNetwork"
+	ownershipId="Centennial_Cloudnet_VirtualNetwork"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"
 	selfHelpType="TSG_Content"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="a1784ee9-9a4e-43f9-98e9-67593d204d43"
 />
 

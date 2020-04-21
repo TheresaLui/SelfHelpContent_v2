@@ -7,7 +7,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32635186,32635187"
     productPesIds="15818"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
 	ownershipId="AzureData_SQLDataWarehouse"
 />
@@ -16,7 +16,6 @@
 
 ---
 {
-
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Security, Privacy and Compliance - Azure Active Directory Authentication",
@@ -48,5 +47,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
-
 ---

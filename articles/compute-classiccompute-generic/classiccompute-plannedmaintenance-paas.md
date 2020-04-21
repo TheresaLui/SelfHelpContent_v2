@@ -9,9 +9,9 @@
 	supportTopicIds="32598670"
 	resourceTags=""
 	productPesIds="13185"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="53fea640-0cb9-48b1-9090-ced04711d19f"
-	ownershipId="Compute_CloudServices"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # worker role (paas)/Planned Maintenance(Azure Platform)

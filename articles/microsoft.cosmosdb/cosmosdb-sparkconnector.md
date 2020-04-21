@@ -9,7 +9,7 @@
 	supportTopicIds="32636828"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-sparkconnector"
 	displayOrder="126"
 	category="Tools and Connectors"

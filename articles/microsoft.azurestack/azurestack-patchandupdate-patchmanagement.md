@@ -10,9 +10,9 @@
     supportTopicIds="32663933"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="662f64b1-781e-4263-80c2-a6b8ff6e3fe7"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Patch and Update Management

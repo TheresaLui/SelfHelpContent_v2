@@ -10,7 +10,7 @@
 	supportTopicIds="32637260"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="b4b29aa5-b456-4913-ac94-44440bdcb02c"
 	ownershipId="AzureData_AzureSQLMI"
 />
