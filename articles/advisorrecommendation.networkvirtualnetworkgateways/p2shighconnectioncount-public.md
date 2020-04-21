@@ -67,7 +67,7 @@
     }
   },
   "displayLabel": "P2S Gateway with High Connection Count",
-  "additionalColumns": [],
+  "additionalColumns": [{ "name": "HighestP2SPercentUtilized", "title": "Percentage of Maximum Connections" }],
   "tip": "",
   "costSavingInfo": "",
   "testData": "27b2ee0a-4093-4253-95b5-c595487ad66f,/subscriptions/27b2ee0a-4093-4253-95b5-c595487ad66f/resourceGroups/rgGW/providers/Microsoft.Network/virtualNetworkGateways/testGW"
