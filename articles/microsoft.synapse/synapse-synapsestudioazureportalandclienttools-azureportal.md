@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"
@@ -22,7 +22,7 @@
 
 ## **Recommended Documents**
 
-* [Create an Azure Synapse Analytics workspace](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace?branch=release-ignite-arcadia)
-* [Create a Synapse SQL pool](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-sql-pool?branch=release-ignite-arcadia)
-* [Create Apache Spark pool using Azure portal](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool)
-* [Delete Apache Spark pool](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool?branch=release-ignite-arcadia#clean-up-resources)
+* [Create an Azure Synapse Analytics workspace](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace)
+* [Create a Synapse SQL pool](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-sql-pool)
+* [Create Apache Spark pool using Azure portal](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool)
+* [Delete Apache Spark pool](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool#clean-up-resources)

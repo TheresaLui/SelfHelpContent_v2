@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "bigDataPools"
@@ -21,11 +21,12 @@
 
 ## **Recommended Steps**
 
-Review [prerequisites](https://review.docs.microsoft.com/azure/synapse-analytics/spark/intellij-tool-synapse?branch=release-ignite-arcadia#prerequisites) for IntelliJ support
+Review [prerequisites](https://docs.microsoft.com/azure/synapse-analytics/spark/intellij-tool-synapse#prerequisites) for IntelliJ support
 
-Review this tutorial on [how to create a spark job step-by-step](https://review.docs.microsoft.com/azure/synapse-analytics/spark/intellij-tool-synapse)
+Review this tutorial on [how to create a spark job step-by-step](https://docs.microsoft.com/azure/synapse-analytics/spark/intellij-tool-synapse)
 
 ## **Recommended Documents**
 
-* [Use Azure Toolkit for IntelliJ to create Apache Spark applications for Spark pools](https://review.docs.microsoft.com/azure/synapse-analytics/spark/intellij-tool-synapse)
+* [Use Azure Toolkit for IntelliJ to create Apache Spark applications for Spark pools](https://docs.microsoft.com/azure/synapse-analytics/spark/intellij-tool-synapse)
+
 
