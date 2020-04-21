@@ -1,9 +1,9 @@
 <properties
-	pageTitle="Performance|Resultset Large query failures" <!-- metadata only  -->
-	description="Performance|Resultset Large query failures" <!-- metadata only -->
-    infoBubbleText="" <!-- notification presented in the Problem blade when an issue is found -->
-	service="Microsoft.Kusto" <!-- name of the resource provider in ARM -->
-	resource="clusters" <!-- ARM Name of the resource type -->
+	pageTitle="Performance|Resultset Large query failures"
+	description="Performance|Resultset Large query failures"
+    infoBubbleText=""
+	service="Microsoft.Kusto"
+	resource="clusters"
 	authors="radennis"
     ms.author="prvavill"
 	displayOrder="1"

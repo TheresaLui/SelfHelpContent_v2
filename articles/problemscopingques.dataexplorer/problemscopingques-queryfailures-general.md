@@ -19,13 +19,19 @@
     "resourceRequired": true,
     "title": "Azure Data Explorer query failures troubleshooter",
     "fileAttachmentHint": "",
+     "diagnosticCard": {
+        "title": "Query failures diagnostics",
+        "description": "These diagnostics will check for query failures.",
+        "insightNotAvailableText": "Diagnostic generation is taking longer than expected to complete"
+    },
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "RootActivityId",

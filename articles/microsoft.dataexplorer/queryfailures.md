@@ -1,9 +1,9 @@
 <properties
-	pageTitle="Performance|Kusto query failures" <!-- metadata only  -->
-	description="Performance|Kusto query failures" <!-- metadata only -->
-    infoBubbleText="" <!-- notification presented in the Problem blade when an issue is found -->
-	service="Microsoft.Kusto" <!-- name of the resource provider in ARM -->
-	resource="clusters" <!-- ARM Name of the resource type -->
+	pageTitle="Performance|Kusto query failures"
+	description="Performance|Kusto query failures"
+    infoBubbleText=""
+	service="Microsoft.Kusto"
+	resource="clusters"
 	authors="radennis"
     ms.author="prvavill"
 	displayOrder="3"
