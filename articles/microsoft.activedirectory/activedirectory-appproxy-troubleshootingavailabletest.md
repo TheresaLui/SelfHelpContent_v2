@@ -14,6 +14,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public"
+    ownershipId="AzureIdentity_AppProxy"
 />
 
 # Troubleshooting available for Application Proxy
