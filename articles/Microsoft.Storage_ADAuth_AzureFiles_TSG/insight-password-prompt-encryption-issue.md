@@ -1,7 +1,7 @@
 <properties
-    pageTitle="User gets prompted for credentials while running net use command - Encryption type error"
-    description="User gets prompted for credentials while running net use command - Encryption type error"
-    infoBubbleText="User gets prompted for credentials while running net use command - Encryption type error"
+    pageTitle="Unable to mount - Client machine is not joined to On-Prem AD"
+    description="Unable to mount - Client machine is not joined to On-Prem AD"
+    infoBubbleText="Unable to mount - Client machine is not joined to On-Prem AD"
     service="microsoft.storage"
     resource="storageAccounts"
     authors="yagohel23"

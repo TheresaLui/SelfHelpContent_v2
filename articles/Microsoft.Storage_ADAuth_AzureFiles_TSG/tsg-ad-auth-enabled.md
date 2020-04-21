@@ -18,3 +18,26 @@
 # Customer has AD Auth enabled on the storage account.
 
 The following section of the TSG will help you troubleshooter mount issues or issues with accessing the files/directories in the file share.
+
+Before you go to next step, make sure the customer is trying to mount the file share using the "net use" command as explained [here](https://docs.microsoft.com/azure/storage/files/storage-files-identity-auth-active-directory-enable#4-mount-a-file-share-from-a-domain-joined-vm).
+
+## Private Endpoint scenario
+
+In a scenario where the customer has Private Endpoint setup for Azure Files, make sure they are trying to mount using the "*.file.core.windows.net" storage endpoint and not using the "privatelink" subdomain URL. For more details, see [here](https://docs.microsoft.com/azure/storage/common/storage-private-endpoints#connecting-to-private-endpoints)
+
+Also, make sure the customer sees Private IP assigned to the Private Link resource when they do nslookup on the file storage endpoint. For more details, see this [TSG](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/280935/Azure-Storage-Private-Endpoints?anchor=check-if-the-customer-has-appropriate-dns-config-in-place).
+
+## Mount File Share using Storage Account Key
+
+Once you have verified that the customer does not have Private Endpoint enabled or has their Private Endpoint setup successfully, try and see if they are able to mount the file share using the storage account key. If mount fails, please have them run [AzFileDiagnostics.ps1](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5) to validate any client side issues and help them resolve those issues as needed. Use this [TSG](https://centennialtsg.azurewebsites.net/TSG2/123931) if required.
+
+## Use "Debug-AzStorageAccountAuth" command to further isolate the issue
+
+Once you have confirmed that the user is able to mount the file share using the storage account key but can not map the same share using their On-Prem credential, use Debug-AzStorageAccountAuth cmdlet to further isolate the issue. This cmdlet is supported on [AzFilesHybrid v0.1.2+ version](https://github.com/Azure-Samples/azure-files-samples/releases). You need to run this cmdlet with an AD user that has owner permission on the target storage account.
+
+    $ResourceGroupName = "<resource-group-name-here>"
+    $StorageAccountName = "<storage-account-name-here>"
+
+    Debug-AzStorageAccountAuth -StorageAccountName $StorageAccountName -ResourceGroupName $ResourceGroupName -Verbose
+
+Please further continue with this troubleshooter based on the result of this cmdlet.
