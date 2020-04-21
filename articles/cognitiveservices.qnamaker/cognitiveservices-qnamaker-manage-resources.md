@@ -25,7 +25,7 @@ Your data is stored in the region you choose for your Azure Search Service and A
 You need to select the tiers for App Service and Azure Cognitive Service based on your expected QPS, please check the [Recommended Settings](https://docs.microsoft.com/azure/cognitive-services/qnamaker/concepts/azure-resources#recommended-settings).
 
 * **When should I change my pricing tier?**<br>
-You may need to change your pricing tier for any of the three services or all of them. It only depends on your scenario, whether you are expecting more traffic or you want to support more number of Knowledge bases or you want to have more QnA pairs. For more details, see [When to change a pricing tier](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/concepts/azure-resources#when-to-change-a-pricing-tier).
+You may need to change your pricing tier for any of the three services or all of them. It only depends on your scenario, whether you are expecting more traffic or you want to support more number of Knowledge bases or you want to have more QnA pairs. For more details, see [When to change a pricing tier](https://docs.microsoft.com/azure/cognitive-services/qnamaker/concepts/azure-resources#when-to-change-a-pricing-tier).
 
 
 ## **Recommended Documents**
