@@ -9,7 +9,7 @@
             supportTopicIds=""
             resourceTags=""
             productPesIds=""
-            cloudEnvironments="public"
+            cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
             articleId="a96612cb-fa7f-4152-96fa-51aabcc5347f"
             ownershipId="Centennial_CloudNet_LoadBalancer" />
 
