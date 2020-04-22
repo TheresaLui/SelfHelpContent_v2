@@ -8,6 +8,7 @@
     cloudEnvironments="Fairfax"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
+
 # Enable Active-Active gateways for redundancy
 ---
 {
