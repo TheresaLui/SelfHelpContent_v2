@@ -20,6 +20,12 @@
 
 # Azure Expert Managed Services Provider program
 
+
+## **Recommended Steps**
+
+- Select **Programs** from the left nav in Partner Center and then select **Azure Expert MSP**
+- Learn more about the [prerequisites and application process](https://partner.microsoft.com/membership/azure-expert-msp)
+
  
 ## **Recommended Documents**
 

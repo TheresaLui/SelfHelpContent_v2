@@ -24,6 +24,7 @@
 **I am getting an error in the Internet prerequisite check on the appliance**
 
 The appliance should have Internet connectivity (either directly or via a proxy). Ensure you are able to connect to the URLs listed [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-vmware#assessment-url-access-requirements). If whitelisting is required, please ensure you whitelist all the URLs.
+For Azure Government customers, ensure that you are able to connect to the URLs listed [here](https://docs.microsoft.com/azure/migrate/migrate-appliance#government-cloud-urls)
 
 ### Issues in registering the appliance with Azure Migrate:
 
