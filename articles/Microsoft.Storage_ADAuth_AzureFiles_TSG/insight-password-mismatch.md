@@ -1,7 +1,7 @@
 <properties
-    pageTitle="Customer sees KRB_AP_ERR_MODIFIED error in the event log"
-    description="Customer sees KRB_AP_ERR_MODIFIED error in the event log"
-    infoBubbleText="Customer sees KRB_AP_ERR_MODIFIED error in the event log"
+    pageTitle="Unable to mount - CheckADObjectPasswordIsCorrect check fails"
+    description="Unable to mount - CheckADObjectPasswordIsCorrect check fails"
+    infoBubbleText="Unable to mount - CheckADObjectPasswordIsCorrect check fails"
     service="microsoft.storage"
     resource="storageAccounts"
     authors="yagohel23"
@@ -11,40 +11,24 @@
     supportTopicIds="32689882"
     resourceTags=""
     productPesIds="1003478"
-    cloudEnvironments="public, fairfax, usnat, ussec"
+    cloudEnvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
     articleId="dec28c79-607e-4152-b724-78b9ffaf4de3"
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />
 
-# Customer sees KRB_AP_ERR_MODIFIED error in the event log
+# Unable to mount - CheckADObjectPasswordIsCorrect check fails
 <!--issueDescription-->
-Customer sees KRB-AP-ERR-MODIFIED error in the event log
+In order for AD Auth to work properly, password configured on the storage AD identity needs to match one of the storage account kerb keys.
 <!--/issueDescription-->
 
 
 ## **Recommended Steps**
 
-We've added a new method "**Test-ADPasswordMatchesAccountKerbKey**" to the PowerShell module that checks for this condition of the out-of-sync password.
+1. Please work with the customer to update password of the storage account AD object by following the guidance below. 
 
-Output that shows the AD password for the storage account matches one of the kerb keys:
+2. Once the password has been updated successfully, re-run the "Debug-AzStorageAccountAuth" cmdlet to make sure all the other checks pass successfully. If they do not, go back to previous step to further troubleshoot. 
 
-    PS C:\> Test-AzStorageAccountADObjectPasswordIsKerbKey -ResourceGroupName "psnativerg" -Name "lesliefrancetest" -Verbose
-    VERBOSE: Found that kerb1 matches password for lesliefrancetest in AD.
-    True
-
-Output that shows the AD password for the storage account does not match one of the kerb keys:
-            
-    PS C:\> Test-AzStorageAccountADObjectPasswordIsKerbKey -ResourceGroupName "psnativerg" -Name "lesliefrancetest" -Verbose
-    Test-AzStorageAccountADObjectPasswordIsKerbKey : Password for canarynativead\lesliefrancetest does not match kerb1 or kerb2 of storage account: lesliefrancetest
-        Please run the following command to resync the AD password with the kerb key of the storage account and retry.
-        
-        Update-AzStorageAccountAdObjectPassword -ResourceGroupName <resourceGroupName> -StorageAccountName <storageAccountName> -RotateToKerbKey kerb1
-        
-    At line: 1 char:1
-    
-    + Test-AzStorageAccountADObjectPasswordIsKerbKey -ResourceGroupName "psnativerg"
-
-Please follow below action plan if the customer faces the above specified error message. 
+3. If "Debug-AzStorageAccountAuth" completes successfully, ask the customer to try mounting the file share. If mount still fails, escalate.
 
 **Customer Ready Message**
 
