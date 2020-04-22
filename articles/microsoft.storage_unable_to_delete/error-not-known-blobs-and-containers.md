@@ -10,7 +10,7 @@
 	supportTopicIds="32602738"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="3d8aaec1-a13d-42c5-aecb-c0af447e3bbb"
 	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
@@ -41,7 +41,7 @@ Filtering: Account contains $StorageAccountName
   6. **UserAgent**: client the customer is using to perform the operation such as .NET, PowerShell, Azure CLI, etc.
   7. **ClientIP**: IP and Port of the client doing the operation.
 
-## **Recommended Documents**
+**Recommended Documents**
 
-* https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
-* https://jarvis-west.dc.ad.msft.net/4ECD880C
+1. https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+2. https://jarvis-west.dc.ad.msft.net/4ECD880C

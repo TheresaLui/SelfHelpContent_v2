@@ -6,12 +6,12 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="3"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32637322"
 	resourceTags="windows,linux,redhat,ubuntu"
 	productPesIds="15571,15797,16470,16454,14749"
 	articleId="8add52e9-c225-4d86-be81-e1175203382b"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 		ownershipId="Compute_VirtualMachines"
 />
 

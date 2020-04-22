@@ -10,7 +10,7 @@
 	supportTopicIds="32640618"
 	resourceTags=""
 	productPesIds="16469"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="NetAppVolumeConnectivityIssues"
 	ownershipId="AzureNetAppFiles"
 />

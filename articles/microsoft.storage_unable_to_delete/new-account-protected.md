@@ -10,7 +10,7 @@
 	supportTopicIds="32602738"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="bc9736ba-39ee-4b59-80f0-a1e1db77dcbc"
 	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
@@ -33,9 +33,9 @@ Filtering: OperationId == $operationid$
 4. If the error message is AccountProtectedFromDeletion select No below
 5. If the error message is different and actionable, select Yes below
 
-## Recommended Documents
+**Recommended Documents**
 
-* https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265692/Azure_Storage_TSG_The-specified-account-is-protected-from-deletion(AccountProtectedFromDeletion)
-* [Internal data collection](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD?wikiVersion=GBmaster&pagePath=%2fGeneralPages%2fAzure%2fAzure_Storage_Unable%20to%20Delete%20Workflow)
-* [Known issues](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD?wikiVersion=GBmaster&pagePath=%2fGeneralPages%2fAzure%2fAzure_Storage_Unable%20to%20Delete%20Workflow)
+1. https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265692/Azure_Storage_TSG_The-specified-account-is-protected-from-deletion(AccountProtectedFromDeletion)
+2. [Internal data collection](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD?wikiVersion=GBmaster&pagePath=%2fGeneralPages%2fAzure%2fAzure_Storage_Unable%20to%20Delete%20Workflow)
+3. [Known issues](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD?wikiVersion=GBmaster&pagePath=%2fGeneralPages%2fAzure%2fAzure_Storage_Unable%20to%20Delete%20Workflow)
 

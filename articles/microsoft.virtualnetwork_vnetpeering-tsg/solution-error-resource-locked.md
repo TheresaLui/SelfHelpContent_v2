@@ -14,12 +14,12 @@ selfHelpType="TSG_Content"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 />
 # Solution Databricks Resource Locked
 <!--issueDescription-->
 
-You can run into this issue when enabling VNet peering on a Vnet that has Databricks integration.
+It looks like this issue may be related to enabling VNet peering on a Vnet that has Databricks integration.
 
 <!--/issueDescription-->
 

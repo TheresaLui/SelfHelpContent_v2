@@ -11,9 +11,9 @@
     supportTopicIds="32680775"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="9f9225aa-b288-49fb-90e3-f43386d368d9"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # JIT NSG Rules configuration

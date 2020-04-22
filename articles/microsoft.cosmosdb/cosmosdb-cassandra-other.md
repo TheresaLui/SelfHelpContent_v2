@@ -9,7 +9,7 @@
 	supportTopicIds="32636807"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-cassandra-other"
 	displayOrder="144"
 	category="Cassandra"

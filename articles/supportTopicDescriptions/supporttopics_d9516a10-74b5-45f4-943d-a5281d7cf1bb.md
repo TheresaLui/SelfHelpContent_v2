@@ -5,11 +5,12 @@
   ms.author="rnagpal"
   selfhelptype="SupportTopicDescription"
   productpesids="d9516a10-74b5-45f4-943d-a5281d7cf1bb"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="cosmos-db-supporttopic-description"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="cosmossupportability@microsoft.com" 	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
+  feedbackemail="cosmossupportability@microsoft.com"
+  ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 # Support Topic Descriptions for d9516a10-74b5-45f4-943d-a5281d7cf1bb
 ---
@@ -267,7 +268,7 @@
     {
       "id": "49494131-3cd2-225b-d4ac-1826e68c554c",
       "longDescription": "",
-      "shortDescription": "Questions on Cosmos DB certification and compliance",
+      "shortDescription": "Does Cosmos DB meet my organizations security, certification and compliance requirements?",
       "searchTags": "security, certification, compliance",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"

@@ -6,11 +6,11 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32635667,32635679,32635684,32635695,32635696,32639660,32692599"
 	productPesIds="15960,17003"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_invoices"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Invoice and Billing Issue
 ---

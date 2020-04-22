@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32633799"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="52fcd13b-9a90-57bb-b980-5ad6d93b1167"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Binary Prediction Models

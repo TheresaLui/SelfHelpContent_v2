@@ -10,7 +10,7 @@
 	supportTopicIds="32628252,32628253"
 	resourceTags=""
 	productPesIds="14749,15571,15797,16454,16470"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="9c0b9ec9-a07a-40e3-a6a2-f4d49f5f4ccb"
 	ownershipId="Compute_VirtualMachines_Content"
 />
@@ -19,11 +19,11 @@
 
 ## **Awareness**
 
->We are currently experiencing high demand for specific regions across the globe. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
+>We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
 
 ## **Recommended Steps**
 
->If you are experiencing allocation failures in **West Europe, North Europe, UK South, UK West, and France Central**, please try alternate regions (as first preference) or alternate SKUs.<br>
+>If you are experiencing allocation failures in **UK South**, please try alternate regions (as first preference) or alternate SKUs.<br>
 
 For general troubleshooting, please follow these guides:<br>
 
@@ -34,7 +34,6 @@ For general troubleshooting, please follow these guides:<br>
 
 ## **Recommended Documents**
 
-* [Our commitment to customers and Microsoft cloud services continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/)
 * [Restarting a partially stopped (deallocated) VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure#restart-partially-stopped-deallocated-vms)<br>
 * [Resizing a VM or add VMs to an existing availability set](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure#resize-a-vm-or-add-vms-to-an-existing-availability-set)<br>
 * [Restarting a fully stopped (deallocated) VMs](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure#restart-fully-stopped-deallocated-vms)<br>

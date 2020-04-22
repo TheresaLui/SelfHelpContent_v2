@@ -10,7 +10,7 @@
     supportTopicIds="32691160"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-connectors-cannot-find-a-connector-for-my-data-source"
 	ownershipId="Azure_Sentinel"
 />

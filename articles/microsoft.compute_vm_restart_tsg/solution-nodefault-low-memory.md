@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="514885f9-30b0-4d81-88fe-c1f899a6a300"
 	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
@@ -19,15 +19,12 @@
 <!--issueDescription-->
 We identified that your VM Virtual machine became unavailable at StartTime (UTC) and availability was restored at EndTime (UTC). This unexpected occurrence was caused by an Azure initiated unplanned hardware maintenance action.
 The auto-recovery action was triggered by our Azure monitoring systems after detecting a temporary low memory condition on the physical node where the virtual machine was hosted. This caused IO failures for the VMs hosted on this node. As a result, your VM was automatically moved to a different and healthy physical node to avoid further impact. This caused your VM to get rebooted. RDP connections to the VM, or requests to any other services running inside the VM may have failed during this time.   Our core platform engineers have identified the bug and are currently working on a fix for this issue. Once the solution has been verified and completed testing, it will be deployed to all affected nodes.  At the moment, we do not have a timeline for the fix to be deployed.
-To learn more about our automated recovery action, please read the following article:
-Auto-recovery of Virtual Machines  
-To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set.   To learn more about high availability options, please refer to the following articles:
-Manage the availability of virtual machines  
-Configure availability of virtual machines  
 
-Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.
+To learn more about our automated recovery action, please read the articles below. 
 
-To learn more about Azure Resource Health, please refer to the Understand and use Resource Health Center to troubleshoot this scenario in the future  
+To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set. To learn more about high availability options, please refer to the articles below. 
+
+Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal. To learn more about Azure Resource Health, please refer to the Understand and use Resource Health Center to troubleshoot this scenario in the future.
 
 We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to reduce the availability incidents of Virtual Machines due to platform issue.
 

@@ -9,7 +9,7 @@
     ms.author="cesardl"
     supportTopicIds="32690884"
     productPesIds="16644"
-    cloudEnvironments="Public"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
     articleId="microsoft-machinelearning-automl-submittingexperiments"
     selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"

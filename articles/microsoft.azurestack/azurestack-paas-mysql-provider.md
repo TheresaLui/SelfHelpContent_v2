@@ -10,9 +10,9 @@
     supportTopicIds="32629227,32629228"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="2fc09657-4d45-43fd-97ad-1d46373c8ba6"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack MySQL Resource Provider

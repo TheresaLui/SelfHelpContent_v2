@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628065"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="14dce075-e18e-fc07-a0c0-40405b70d068"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # ArcGIS maps in Power BI service and Power BI Desktop by Esri

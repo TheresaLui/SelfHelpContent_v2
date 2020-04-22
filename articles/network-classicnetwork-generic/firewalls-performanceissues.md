@@ -10,7 +10,7 @@
     supportTopicIds="32608918,32608921,32608922"
     resourceTags=""
     productPesIds="16556"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="firewalls-performanceissues"
 	ownershipId="CloudNet_AzureFirewall"
 />

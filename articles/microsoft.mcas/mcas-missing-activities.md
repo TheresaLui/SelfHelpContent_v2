@@ -14,7 +14,7 @@
   resourceTags=""
   productPesIds="16031"
   ownershipId="CloudAppSecurity_API"
-  cloudEnvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
 />
 
 # I can't see my activities in the activity log

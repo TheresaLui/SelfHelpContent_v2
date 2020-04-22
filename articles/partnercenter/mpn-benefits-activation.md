@@ -14,8 +14,8 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960, 17007"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # MPN - benefits activation
