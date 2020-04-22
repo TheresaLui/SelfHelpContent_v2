@@ -126,7 +126,7 @@
       "displayLabel": "Version",
       "watermarkText": "Example: 1.21.0",
       "required": true
-    },  
+    },
     {
       "id": "feature",
       "order": 30,
