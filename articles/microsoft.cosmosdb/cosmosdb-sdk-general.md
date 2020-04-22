@@ -9,7 +9,7 @@
 	supportTopicIds="32636812,32688840,32681010"
 	resourceTags="" 
 	productPesIds="15585" 
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-sdk-general" 
 	displayOrder="290" 
 	category="SDK Issues" 

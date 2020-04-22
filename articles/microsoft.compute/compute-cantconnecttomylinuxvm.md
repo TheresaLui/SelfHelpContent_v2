@@ -10,7 +10,7 @@
     supportTopicIds="32547978,32547979,32615531,32615526,32639640,32615530,32675597,32675600,32675601,32675599"
     resourceTags="linux,redhat,Ubuntu"
     productPesIds="15571,16342,16065,15797,16454,16470"
-    cloudEnvironments="public, Mooncake, Fairfax"
+    cloudEnvironments="public, Mooncake, Fairfax, usnat, ussec"
     articleId="51356b1f-09f5-4a5b-85f4-dc96cea89c14"
 	ownershipId="Compute_VirtualMachines"
 />

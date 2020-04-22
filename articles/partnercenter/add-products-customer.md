@@ -14,8 +14,8 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960, 17012"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Transact_and_Manage"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Add products to a customer

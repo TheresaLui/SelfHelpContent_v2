@@ -10,7 +10,7 @@
     supportTopicIds="32684544"
     resourceTags=""
     productPesIds="16123"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="relay-how-do-i-monitor-alert"
 	ownershipId="AzureMessaging_Common"
 />

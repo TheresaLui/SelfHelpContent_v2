@@ -13,7 +13,7 @@
 	supportTopicIds="Azure AD Domain Services"
 	resourceTags=""
 	productPesIds="14785,16577"
-	cloudEnvironments="public, Fairfax, Mooncake"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 

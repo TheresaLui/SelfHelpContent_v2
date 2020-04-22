@@ -15,7 +15,7 @@
 	supportTopicIds="32411844"
 	resourceTags="windows, linux"
 	productPesIds="14749,15571"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines_Content"
 />
 

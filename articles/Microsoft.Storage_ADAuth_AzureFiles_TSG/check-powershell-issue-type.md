@@ -2,7 +2,7 @@
     pageTitle="Hybrid module install issues or Join issues?"
     description="Hybrid module install issues or Join issues?"
     service="microsoft.storage"
-    resource="file storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""
@@ -10,7 +10,7 @@
     supportTopicIds="32689882"
     resourceTags=""
     productPesIds="1003478"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="5e97723d-3c6c-4d3b-af06-172f5d3f19f5"
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />

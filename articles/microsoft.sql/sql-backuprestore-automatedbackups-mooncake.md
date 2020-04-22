@@ -12,7 +12,7 @@
 	cloudEnvironments="mooncake"
 	resourceTags="servers, databases"
 	articleId="sqldb-selfhelp-solutions-backuprestore-automatedbackups-mooncake"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_BackupRestore"
 />
 
 # Issues with SQL Database backup, restore, automated backups or point in time restore

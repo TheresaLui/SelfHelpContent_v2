@@ -8,7 +8,7 @@
     articleId="insights_permissions"
     displayOrder="105"
     selfHelpType="generic"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32402604, 32602220"
  	ownershipId="AzureMonitoring_ApplicationInsights"

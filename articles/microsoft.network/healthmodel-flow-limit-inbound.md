@@ -13,8 +13,8 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public,Fairfax,Mooncake,Blackforest"
-ownershipId="ASEP_ContentService_Placeholder"
+cloudEnvironments="Public,Fairfax,Mooncake,Blackforest, usnat, ussec"
+ownershipId="CloudNet_VirtualNetwork"
 />
 
 # We found an issue with the network interface on this VM

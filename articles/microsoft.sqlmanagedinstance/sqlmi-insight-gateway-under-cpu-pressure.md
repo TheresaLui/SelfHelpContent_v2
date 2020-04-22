@@ -12,7 +12,7 @@
 	supportTopicIds="32637224,32637247"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="sqlmanagedinstance-perf-gateway-under-cpu-pressure"
 	ownershipId="AzureData_AzureSQLMI"
 />

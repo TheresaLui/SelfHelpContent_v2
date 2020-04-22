@@ -14,7 +14,7 @@
   resourceTags=""
   productPesIds="16031"
   ownershipId="CloudAppSecurity_API"
-  cloudEnvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
 />
 
 # I am unable to apply an Azure Information Protection label to a file

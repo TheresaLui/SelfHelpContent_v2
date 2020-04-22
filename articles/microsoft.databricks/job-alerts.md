@@ -10,7 +10,7 @@
 	supportTopicIds="32677701"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="5ca6220e-e35c-4150-b8a3-7f9df4a2a626"
 	ownershipId="AzureData_AzureDatabricks"
 />
@@ -32,4 +32,5 @@
 >
 > Please visit [blog](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/) for more details on our commitment to customers and Microsoft cloud services continuity.
 
+* Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
 * [Problem: Maximum Execution Context or Notebook Attachment Limit Reached](https://kb.azuredatabricks.net/execution/maximum-execution-context.html#problem-maximum-execution-context-or-notebook-attachment-limit-reached)

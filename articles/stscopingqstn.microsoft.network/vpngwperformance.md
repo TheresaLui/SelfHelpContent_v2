@@ -7,7 +7,7 @@
 	articleid="vpngwperformance"
 	supportTopicIds="32591147,32584880"
 	productPesIds="16094,15526"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="CloudNet_AzureVPNGateway"
 />

@@ -6,7 +6,7 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="20"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""

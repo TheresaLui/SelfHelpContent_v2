@@ -11,7 +11,7 @@
     selfHelpType="diagnostics"
     supportTopicIds=""
     productPesIds="16456"
-    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     articleId="e9802b12-2126-4064-be9c-edf32897515c"
     ownershipId="Compute_AzurePolicy"
 />
