@@ -19,17 +19,14 @@
 ## **Recommended Steps**
 
 * [Certificate creation methods](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate)
-
 * [Monitor and manage certificate creation](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-scenarios)
 
 
+### **Troubleshooting**
 
-**Troubleshooting**
-* I had created a certificate and it is near to its expiry. What happens if it expires?
+* I had created a certificate and it is near expiry. What happens if it expires?
 	
-	If a Key Vault certificate expires, it's addressable key and secret become inoperable. [Configure Certificate's Life cycle attributes.](https://docs.microsoft.com/powershell/module/azurerm.keyvault/set-azurekeyvaultcertificatepolicy?view=azurermps-6.13.0)
-
-
+	If a Key Vault certificate expires, it's addressable key and secret become inoperable. [Configure Certificate's Life cycle attributes](https://docs.microsoft.com/powershell/module/azurerm.keyvault/set-azurekeyvaultcertificatepolicy?view=azurermps-6.13.0)
 
 ## **Recommended Documents**
 
