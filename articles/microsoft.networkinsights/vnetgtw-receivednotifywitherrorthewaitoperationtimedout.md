@@ -5,6 +5,7 @@ infoBubbleText="Your VPN Tunnel Could Not Connect. See details on the right."
 service="microsoft.network"
 resource="VirtualNetworkGateway"
 authors="anzaman"
+ms.author="alzam"
 displayOrder="10"
 articleId="ReceivedNotifyWithErrorTheWaitOperationTimedOut"
 diagnosticScenario="ReceivedNotifyWithErrorTheWaitOperationTimedOut"
@@ -15,6 +16,7 @@ productPesIds=""
 cloudEnvironments="Public, fairfax, usnat, ussec"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
+
 # VPN Tunnel Connection Timed Out
 <!--issueDescription-->
 We have identified that tunnel **<!--$TunnelName-->[TunnelName]<!--/$TunnelName-->** could not connect due to a timeout at **<!--$preciseTimestamp-->[preciseTimestamp]<!--/$preciseTimestamp-->**.
