@@ -11,7 +11,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
-	articleId="sudbalas-KeyVaultIntegratewithAzureDevOps"
+	articleId="sudbalas-keyvaultintegratewithazuredevops"
 	ownershipId="AzureKeyVault_KeyVault"
 />
 
