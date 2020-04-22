@@ -20,7 +20,7 @@
 
 * [Fetch Secrets from Key Vault in DevOps Pipeline](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-key-vault?view=azure-devops)
 
-## **Troubleshooting**
+### **Troubleshooting**
 
 * I am getting a 401 error connecting to Key Vault from my DevOps Pipeline even after allowing "Trusted Microsoft Services"
 
