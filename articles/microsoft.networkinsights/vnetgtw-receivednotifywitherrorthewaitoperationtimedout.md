@@ -16,7 +16,6 @@ productPesIds=""
 cloudEnvironments="Public, fairfax, usnat, ussec"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
-
 # VPN Tunnel Connection Timed Out
 <!--issueDescription-->
 We have identified that tunnel **<!--$TunnelName-->[TunnelName]<!--/$TunnelName-->** could not connect due to a timeout at **<!--$preciseTimestamp-->[preciseTimestamp]<!--/$preciseTimestamp-->**.
