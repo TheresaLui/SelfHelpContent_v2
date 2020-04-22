@@ -6,7 +6,7 @@
 	authors="ShaneBala-keyvault"
 	ms.author="sudbalas"
 	displayOrder="9"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32739887"
 	resourceTags="optional"
 	productPesIds="15657"
