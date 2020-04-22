@@ -10,7 +10,7 @@
 	supportTopicIds="32615285"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="9c58cce1-dcf8-4f7e-a478-a47041597f06"
 	ownershipId="ASMS_Billing"
 />
@@ -48,7 +48,7 @@ After the creation of a subscription, the data takes 24-48 hours to process befo
 
 **Budget API Resources**<br>
 REST APIs
-* [Budgets API v1](https://docs.microsoft.com/rest/api/consumption/budgets):  Provides operations to create and update budgets. Using the Budgets API, you can set a budget threshold and configure multiple alerts to fire as you approach that threshold. Alerts can trigger an email or an Azure Action Group to perform automation. Note: Filtering for this API does not align with Query API filtering / dimensions.
+* [Budgets API v1](https://docs.microsoft.com/rest/api/consumption/budgets):  Provides operations to create and update budgets. Using the Budgets API, you can set a budget threshold and configure multiple alerts to fire as you approach that threshold. Alerts can trigger an email or an Azure Action Group to perform automation. Note: Filtering for this API does not align with Query API filtering / dimensions.
 * [Budgets API v2](https://github.com/Azure/azure-rest-api-specs/blob/master/specification/cost-management/resource-manager/Microsoft.CostManagement/preview/2019-04-01-preview/examples/CreateOrUpdateBudget.json): Create budgets with greater cost filtering capabilities than v1. Filtering aligns to the contract used in our Query and Dimensions APIs. This is the recommended budgets API to use moving forward.
 * [Dimensions](https://docs.microsoft.com/rest/api/cost-management/dimensions): Provides operations to get supported dimensions for your usage under a variety of scopes. Using the Dimensions API, you can retrieve a list of dimensions that can be used as inputs for generating queries with the Query API.
 * [Query](https://docs.microsoft.com/rest/api/cost-management/query): Provides operations to get aggregated cost and usage data based on the query you supply. Using the Query API, you can specify your desired filtering, sorting and grouping on all available dimensions (which are accessed from the Dimensions API). 

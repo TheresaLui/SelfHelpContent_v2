@@ -10,7 +10,7 @@
     supportTopicIds="32641417"
     resourceTags=""
     productPesIds="16757"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="bastion-connectivity-failure-rdp"
 	ownershipId="CloudNet_AzureBastion"
 />

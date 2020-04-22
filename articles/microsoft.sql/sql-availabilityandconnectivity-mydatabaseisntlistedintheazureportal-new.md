@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32630436"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="58670c80-142f-4d91-820e-12beeafc0d8f"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Provisioning"
 />
 
 # availability and connectivity/My database isn't listed in the Azure portal

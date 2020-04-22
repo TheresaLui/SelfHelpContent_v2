@@ -10,16 +10,16 @@
     supportTopicIds="32681542"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="0a3f2d71-4401-4cf0-8591-a95d9b0ce136"
 	ownershipId="AzureData_HDInsight"
 />
 
 # Create failure due to Azure Policy
 
-**Known issues in West Europe and North Europe**
+**Known issues**
 
-As of March 18th, 2020 some Azure HDInsight customers in West Europe or North Europe have received error notifications when creating or scaling HDInsight clusters in these regions. Errors related to this issue include:
+As of March 18th, 2020 some Azure HDInsight customers have received error notifications when creating or scaling HDInsight clusters in some regions. Errors related to this issue include:
 
 - Internal server error occurred while processing the request. Please retry the request or contact support.
 - At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/DeployOperations for usage details
@@ -59,7 +59,7 @@ To resolve this issue, follow these steps:
     - 168.61.48.131
     - 138.91.141.162
 
-- These IP addresses Destination must be set at *:433 and a Direction of "Inbound"
+- These IP addresses Destination must be set at *:433 and a Direction of "Inbound"
 - If your cluster is in a specific region, add the respective source IP. For the list of the IP addresses, see [Health and management services: Specific regions](https://docs.microsoft.com/azure/hdinsight/hdinsight-management-ip-addresses#health-and-management-services-specific-regions).
 - If you are using either Express Route or your own custom DNS server, see [Connecting multiple networks](https://docs.microsoft.com/azure/hdinsight/hdinsight-plan-virtual-network-deployment#multinet)
 

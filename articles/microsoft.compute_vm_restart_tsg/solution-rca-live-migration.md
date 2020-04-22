@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="befb2442-fbac-463a-b22d-76297f048065"
 	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
@@ -19,15 +19,12 @@
 <!--issueDescription-->
 We identified that your VM Virtual machine became unavailable at StartTime (UTC) and availability was restored at EndTime (UTC). This unexpected occurrence was caused by an Azure initiated Live Migration operation.
 This caused your VM to be unavailable for about 10 seconds. RDP and SSH connections to the VM, or requests to any other services running inside the VM may have failed during this time.
-To learn more about our memory-preserving operations, please refer to the following article:
-Planned maintenance for virtual machines in Azure  
-To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set. To learn more about high availability options, please refer to the following articles:
-Manage the availability of virtual machines  
-Configure availability of virtual machines  
 
-Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.
+To learn more about our memory-preserving operations, please refer to the articles below. 
 
-To learn more about Azure Resource Health, please refer to the Understand and use Resource Health Center to troubleshoot this scenario in the future  
+To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set. To learn more about high availability options, please refer to the articles below. 
+
+Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal. To learn more about Azure Resource Health, please refer to the Understand and use Resource Health Center to troubleshoot this scenario in the future. 
 
 We apologize for any inconvenience this may have caused you. We are continuously working on improving the platform to reduce the availability incidents of Virtual Machines due to platform issue.
 

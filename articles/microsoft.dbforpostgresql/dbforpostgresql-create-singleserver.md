@@ -9,13 +9,21 @@
     selfHelpType="generic"
     supportTopicIds="32640024"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="8fff8916-841c-4a25-9116-773f962399ff"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Creating, scaling, and deleting an Azure Database for PostgreSQL server
+
+[!Note]
+- **Due to ongoing COVID 19, we have mobilized our global response plan to help customers and partners stay up and running during this critical time. We are actively monitoring performance and usage trends 24/7 to ensure we are optimizing our services for customers worldwide, while accommodating this significant new demand.**
+
+- **We have established clear criteria for prioritizing new cloud capacity if needed – top priority will be going to first responders, health and emergency management services, critical government infrastructure, and ensuring remote workers stay up and running with the core functionality of Teams.**
+
+- **We appreciate that these can raise questions, so we have tried to address the most common ones in our [recent blog post](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity).**
+
 
 Azure Database for PostgreSQL servers can be managed through the Azure portal, using the Azure CLI, and by calling our REST APIs. Note that most of the management operations are asynchronous and you might have to poll the status of the operation when using Azure CLI or REST APIs.
 

@@ -10,16 +10,16 @@
     supportTopicIds="32636439"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="70e00cfb-358b-4f9d-9da9-c37d48c5a038"
 	ownershipId="AzureData_HDInsight"
 />
 
 # Managed Identity
 
-**Known issues in West Europe and North Europe**
+**Known issues**
 
-As of March 18th, 2020 some Azure HDInsight customers in West Europe or North Europe have received error notifications when creating or scaling HDInsight clusters in these regions. Errors related to this issue include:
+As of March 18th, 2020 some Azure HDInsight customers have received error notifications when creating or scaling HDInsight clusters in some regions. Errors related to this issue include:
 
 - Internal server error occurred while processing the request. Please retry the request or contact support.
 - At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/DeployOperations for usage details
@@ -27,7 +27,7 @@ As of March 18th, 2020 some Azure HDInsight customers in West Europe or North Eu
 
 Engineers are aware of this issue and are actively investigating.
 
-For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-release-notes#known-issues) page.
+For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/azure/hdinsight/hdinsight-release-notes#known-issues) page.
 
 For additional help, continue creating this support request.
 
@@ -66,3 +66,4 @@ If you are creating a cluster with ADLS Gen2 through Azure CLI, use our [sample 
 
 * [Use Azure Data Lake Storage Gen2 with Azure HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2#use-the-azure-portal)
 * [HDInsight storage FAQ](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#storage)
+* [Create Cluster Error Dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)

@@ -10,16 +10,16 @@
     supportTopicIds="32681538"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="9651a650-909c-4f84-a526-cb7ed6313e0b"
 	ownershipId="AzureData_HDInsight"
 />
 
 # HDInsight cluster deployment issue with Autoscaling
 
-**Known issues in West Europe and North Europe**
+**Known issues**
 
-As of March 18th, 2020 some Azure HDInsight customers in West Europe or North Europe have received error notifications when creating or scaling HDInsight clusters in these regions. Errors related to this issue include:
+As of March 18th, 2020 some Azure HDInsight customers have received error notifications when creating or scaling HDInsight clusters in some regions. Errors related to this issue include:
 
 - Internal server error occurred while processing the request. Please retry the request or contact support.
 - At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/DeployOperations for usage details
@@ -68,7 +68,7 @@ To resolve this issue, use one of the following methods:
 
 **MISC**
 
-1. HDInsight doesn't allow you to upgrade worker node disk sizes on a running cluster. Currently, you can choose the disk size when you create the cluster. HDInsight clusters are designed to be easily dropped and re-created.
+1. HDInsight doesn't allow you to upgrade worker node disk sizes on a running cluster. Currently, you can choose the disk size when you create the cluster. HDInsight clusters are designed to be easily dropped and re-created.
 2. It is recommended to scale down HDInsight to three worker nodes at least. For Kafka you cannot scale down the worker nodes.  
 3. You can enable auto scale only when you create the cluster. If you have not configured auto scale during the creation, you must delete the cluster and recreate a cluster with autoscale enabled.
 

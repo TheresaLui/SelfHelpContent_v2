@@ -10,7 +10,7 @@
     articleId="application-gateway-session-affinity-insight"
     diagnosticScenario="ApplicationGatewaySessionAffinity"
     supportTopicIds=""
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
  	ownershipId="CloudNet_AzureApplicationGateway"
 />
 

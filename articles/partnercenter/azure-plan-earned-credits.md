@@ -14,7 +14,7 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960,17003"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 
@@ -30,6 +30,7 @@ Resources and information about partner earned credit for managed services in Az
 
 ## **Recommended Documents**
 
+* [Important eligibility and calculation information](https://docs.microsoft.com/partner-center/partner-earned-credit-explanation#important-eligibility-and-calculation-information)
 * [Partner earned credit overview](https://docs.microsoft.com/partner-center/partner-earned-credit)
 * [Details about how the partner earned credit is determined](https://docs.microsoft.com/partner-center/partner-earned-credit-explanation)
 * [Reinstate admin privileges for Azure CSP subscriptions](https://docs.microsoft.com/partner-center/revoke-reinstate-csp)

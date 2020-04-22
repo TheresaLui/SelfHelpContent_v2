@@ -13,7 +13,7 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public,Fairfax,Mooncake"
+cloudEnvironments="Public,Fairfax,Mooncake, usnat, ussec"
 ownershipId="CloudNet_LoadBalancer"
 />
 # You are exhausting the SNAT ports available to your instances

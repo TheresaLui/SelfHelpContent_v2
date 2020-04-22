@@ -10,9 +10,9 @@
     supportTopicIds="32663930,32663914"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="71869464-c4b1-4a07-b7d4-48b6f42b8b9f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Compromise, Security, and Compliance concerns

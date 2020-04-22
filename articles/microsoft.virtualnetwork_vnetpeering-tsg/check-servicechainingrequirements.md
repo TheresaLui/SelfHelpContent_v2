@@ -6,7 +6,7 @@
 	authors="chadmath"
 	ms.author="chadmat"
 	selfHelpType="TSG_Content"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="f163d69a-f684-42b2-ba4c-f08843da99d9"
 	ownershipId="Centennial_Cloudnet_VirtualNetwork"
 />
