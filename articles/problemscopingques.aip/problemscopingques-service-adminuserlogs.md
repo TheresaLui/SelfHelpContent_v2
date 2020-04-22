@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
 	supportTopicIds="32629567"
     productPesIds="14997"
-    cloudEnvironments="Public, Fairfax"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     articleId="scoping_adminlogs"
 	schemaVersion="1"
 	ownershipId="AzureIdentity_InformationProtection"

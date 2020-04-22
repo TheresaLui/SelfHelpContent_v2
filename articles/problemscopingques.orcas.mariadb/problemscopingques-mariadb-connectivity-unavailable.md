@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640117"
 	productPesIds="16617"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-mariadb-connectivity-unavailable"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"

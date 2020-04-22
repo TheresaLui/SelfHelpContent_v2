@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32628245"
          productPesIds="15739"
-         cloudEnvironments="public, Fairfax"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="problemscopingquesportalresourceblade"
 	ownershipId="Compute_AzurePortal"

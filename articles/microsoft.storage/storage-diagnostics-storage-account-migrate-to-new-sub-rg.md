@@ -12,7 +12,7 @@ diagnosticScenario="Migrate storage account to a new resource group or subscript
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 

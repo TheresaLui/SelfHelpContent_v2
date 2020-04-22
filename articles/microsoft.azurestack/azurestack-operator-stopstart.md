@@ -10,7 +10,7 @@
     supportTopicIds="32630576"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-operator-stopstart"
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />

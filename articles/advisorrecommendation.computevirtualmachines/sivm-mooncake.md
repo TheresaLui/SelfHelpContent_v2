@@ -6,7 +6,7 @@
     articleId="02c15f98-aedb-481b-884b-af5847b2bf3d_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_VirtualMachines"
 />
 # Use availability sets for improved fault tolerance
 ---
@@ -39,7 +39,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 2.0,
-  "learnMoreLink": "https://aka.ms/aa_sivmrec_learnmore",
+  "learnMoreLink": "https://aka.ms/aa_sivmrec_learnmore_cn",
   "description": "Use availability sets for improved fault tolerance",
   "longDescription": "Group two or more virtual machines in an availability set to ensure at least one virtual machine is available during an outage.",
   "potentialBenefits": "Ensure business continuity through virtual machine resilience",

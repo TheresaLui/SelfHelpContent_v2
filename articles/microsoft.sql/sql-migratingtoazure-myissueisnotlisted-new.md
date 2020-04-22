@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32630443"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="49d880b4-b4b9-4c2a-8a74-1cd472c0da4f"
 	ownershipId="AzureData_AzureSQLDB"
 />

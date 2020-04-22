@@ -9,9 +9,9 @@
     supportTopicIds="32675736"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="75vc7598-2a3f-4d2d-96c5-b2b5886483e6"
-	ownershipId="Compute_AzureMigrate"
+    ownershipId="Compute_AzureMigrate"
 />
 
 # Assessment recommendations
@@ -30,17 +30,18 @@ The above issue is listed when the Azure Migrate appliance cannot collect perfor
 
 There is a known gap in Server Assessment where it is unable to detect the minor version of the Linux OS installed on the on-premises VMs (for example, for RHEL 6.10, currently Server Assessment only detects RHEL 6 as the OS version). Since Azure endorses only specific versions of Linux, the Linux VMs are currently marked as conditionally ready in Server Assessment. We are working on this issue and this gap will be fixed in future. Meanwhile, you can manually ensure if the Linux OS running on the on-premises VM is endorsed in Azure by reviewing the [Azure Linux support documentation](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros). Once you have verified the endorsed distro, you can ignore this warning.
 
-### **The VM SKU recommended by Server Assessment in an import-based assessment has less memory than what I have provided in my CSV. Why is that so?** 
+### **The VM SKU recommended by Server Assessment in an import-based assessment has less memory than what I have provided in my CSV. Why is that so?**
 
 This may happen due to the following reasons:
-- You have provided the memory size in GB. The CSV expects the memory size to be in MB. 
+
+- You have provided the memory size in GB. The CSV expects the memory size to be in MB.
 - You have chosen a performance-based assessment and provided a memory utilization value that is lower than 100%.
 
 ### **The VM SKU recommended by Server Assessment has more number of cores and a larger memory size than what is allocated on-premises. Why is that so?**
 
 The VM SKU recommendation in Server Assessment depends on the assessment properties. You can create two kinds of assessments in Server Assessment, 'performance-based' and 'as on-premises' assessments. For performance-based assessments, Server Assessment considers the utilization data of the on-premises VMs (CPU, memory, disk and network utilization) to determine the right target VM SKU for your on-premises VMs. Additionally, for performance-based sizing, the comfort factor is taken into account to identify the effective utilization. For as on-premises sizing, performance data is not considered and a target SKU is recommended based on what is allocated on-premises.
 
-For example, let's say there is an on-premises VM with 4 cores and 8 GB memory with 50% CPU utilization and 50% memory utilization, and a comfort factor of 1.3 is specified in the assessment. If the sizing criterion of the assessment is 'As on-premises' an Azure VM SKU with 4 cores and 8 GB memory is recommended, however, if the sizing criterion is performance-based, based on effective CPU and memory utilization (50% of 4 cores * 1.3 = 2.6 cores and 50% of 8 GB memory * 1.3 = 5.3 GB memory), the cheapest VM SKU of 4 cores (nearest supported core count) and 8 GB memory size (nearest supported memory size) would be recommended. [Learn more about how Server Assessment performs sizing](https://docs.microsoft.com/azure/migrate/concepts-assessment-calculation#sizing).
+For example, let's say there is an on-premises VM with 4 cores and 8 GB memory with 50% CPU utilization and 50% memory utilization, and a comfort factor of 1.3 is specified in the assessment. If the sizing criterion of the assessment is 'As on-premises' an Azure VM SKU with 4 cores and 8 GB memory is recommended, however, if the sizing criterion is performance-based, based on effective CPU and memory utilization (50% of 4 cores *1.3 = 2.6 cores and 50% of 8 GB memory* 1.3 = 5.3 GB memory), the cheapest VM SKU of 4 cores (nearest supported core count) and 8 GB memory size (nearest supported memory size) would be recommended. [Learn more about how Server Assessment performs sizing](https://docs.microsoft.com/azure/migrate/concepts-assessment-calculation#sizing).
 
 ### **The disk SKU recommended by Server Assessment has a bigger size than what is allocated on-premises. Why is that so?**
 
@@ -70,6 +71,10 @@ These properties are only applicable for 'Performance-based' sizing. Server Asse
 
 The above values are listed when Azure Migrate detects an on-premises VM with disks that require high IOPS(greater than 20,000) which probably could not be met by non-ultra-disks. Currently, Azure Migrate currently does not support Ultra disks.
 
-### Can I perform an application-based assessment using Server Assessment? 
+### **Can I perform an application-based assessment using Server Assessment?**
 
 No, currently Server Assessment offers only machine-level assessments for lift-and-shift migrations. However, you can run assessment of web applications and databases using the other [tools available in Azure Migrate](https://docs.microsoft.com/azure/migrate/migrate-services-overview#azure-tool-integration).
+
+### **Why can I not see certain SKUs in the assessment recommendation for Azure Government?**
+
+The VM size recommendations in assessments for Azure Government will use the VM series specifically for Government Cloud regions. Comparison of Government SKUs with respect to public cloud SKUs can be found [here](https://azure.microsoft.com/global-infrastructure/services/?regions=usgov-non-regional%2Cus-dod-central%2Cus-dod-east%2Cusgov-arizona%2Cusgov-iowa%2Cusgov-texas%2Cusgov-virginia&products=virtual-machines) by selecting region as Azure Government.

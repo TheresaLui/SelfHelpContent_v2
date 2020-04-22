@@ -10,7 +10,7 @@
 	supportTopicIds="32632939"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="assistancewithbillorusage-requestacopyofmybillandusage"
 	ownershipId="ASMS_Billing"
 />

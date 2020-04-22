@@ -10,7 +10,7 @@
     supportTopicIds="32599908"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec, Mooncake"
     articleId="d6370ffa-48c7-48a5-9c4d-0dfd966ce672"
 	ownershipId="Compute_Automation"
 />
@@ -63,7 +63,7 @@ There are several reasons why a runbook may be suspended or failed:
 
 ### "Command not recognized"
 
-* This error is commonly caused when modules have not been imported or are otherwise out of date. Ensure any dependent modules in your script have been [imported into Azure Automation](https://docs.microsoft.com/azure/automation/automation-runbook-gallery#modules-in-powershell-gallery) and are the correct version. 
+* This error is commonly caused when modules have not been imported or are otherwise out of date. Ensure any dependent modules in your script have been [imported into Azure Automation](https://docs.microsoft.com/azure/automation/automation-runbook-gallery#modules-in-powershell-gallery) and are the correct version. If the module exists in your Automation Account already, there might be an issue with loading it in the sandbox. You can try adding an explicit Import-Module statement to the beginning of your runbook. 
 
 ### "Forbidden with client authentication scheme "anonymous""
 

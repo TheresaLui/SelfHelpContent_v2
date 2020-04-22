@@ -9,7 +9,7 @@
 	supportTopicIds="32636797"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-limits-quotas"
 	displayOrder="200"
 	category="Limits and quotas"
