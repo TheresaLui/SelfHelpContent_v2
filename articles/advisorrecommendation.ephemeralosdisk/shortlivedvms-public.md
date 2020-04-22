@@ -21,7 +21,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
   "recommendationFriendlyName": "EphemeralOsDisk",
-  "recommendationMetadataState": "Active", 
+  "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
     "email": "ramsaic@microsoft.com",
