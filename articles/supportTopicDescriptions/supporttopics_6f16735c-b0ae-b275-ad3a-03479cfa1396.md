@@ -507,9 +507,9 @@
     {
       "id": "6571a5f6-9166-d111-d125-7e19b809f4f3",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Covers issues using Azure Disk Encryption for a virtual machine running in Azure",
+      "searchTags": "ADE",
+      "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
