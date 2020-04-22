@@ -40,6 +40,6 @@ Chit-chat data sets are used to add personality to your Knowledge Base. These da
 ## **Recommended Documents**
 
 * [Troubleshooting FAQs for managing a knowledge base](https://docs.microsoft.com/azure/cognitive-services/QnAMaker/troubleshooting#manage-the-knowledge-base)
-* [Steps to create and manage a knowledge base](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/quickstarts/create-publish-knowledge-base)
+* [Steps to create and manage a knowledge base](https://docs.microsoft.com/azure/cognitive-services/qnamaker/quickstarts/create-publish-knowledge-base)
 * [Create Knowledge Base and manage settings](https://docs.microsoft.com/azure/cognitive-services/QnAMaker/how-to/manage-knowledge-bases)
 
