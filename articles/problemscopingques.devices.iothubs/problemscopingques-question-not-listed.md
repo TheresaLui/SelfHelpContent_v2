@@ -127,24 +127,24 @@
       "watermarkText": "Example: 1.21.0",
       "required": true
     },  
-{
+    {
       "id": "feature",
       "order": 30,
       "controlType": "multilinetextbox",
       "displayLabel": "What feature(s) are you having issue with?",
       "watermarkText": "Provide additional information about your issue",
       "required": false,
-      "useAsAdditionalDetails": true
-  },
-{
+      "useAsAdditionalDetails": false
+    },
+    {
       "id": "doc",
       "order": 35,
       "controlType": "multilinetextbox",
       "displayLabel": "Did you find any documentation related to the issue?",
       "watermarkText": "If so, please provide us the link",
       "required": false,
-      "useAsAdditionalDetails": true
-  }
+      "useAsAdditionalDetails": false
+    }
   ]
 
 }
