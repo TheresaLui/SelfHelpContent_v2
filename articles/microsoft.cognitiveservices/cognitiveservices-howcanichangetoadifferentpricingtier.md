@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
 	articleId="ffbc5027-c4cc-4b1b-bfec-15e49a08bb10"
 	ownershipId="AzureCogSvc_CognitiveServices"
 />

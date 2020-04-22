@@ -7,7 +7,7 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32570954"
 	productPesIds="14748"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="84fdb6ef-131e-457d-9c12-4b83f9f95802"
 	ownershipId="Compute_AppService"
@@ -74,9 +74,7 @@
 			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved?",
 			"watermarkText": "...",
 			"required": false
-		}
-
-    ],
+		}],
     "$schema": "SelfHelpContent"
 }
 ---

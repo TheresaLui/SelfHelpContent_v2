@@ -10,7 +10,7 @@
     supportTopicIds="32691169"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-creating-alerts-how-to-create-an-alert-rule"
 	ownershipId="Azure_Sentinel"
 />

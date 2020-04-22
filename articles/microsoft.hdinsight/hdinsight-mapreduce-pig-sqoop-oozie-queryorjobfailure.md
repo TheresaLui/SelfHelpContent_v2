@@ -10,7 +10,7 @@
     supportTopicIds="32636476,32636475"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-query-jobfailures-mapreduce-pig-sqoop-oozie"
 	ownershipId="AzureData_HDInsight"
 />

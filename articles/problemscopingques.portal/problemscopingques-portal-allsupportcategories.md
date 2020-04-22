@@ -6,10 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32630411,32630412,32630435,32630456"
          productPesIds="13491"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="e31bdba2-c7ff-48c0-a2b3-d5bbd10ab7e4"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Portal"
 />
 # Questions for Azure Portal Issues
 ---

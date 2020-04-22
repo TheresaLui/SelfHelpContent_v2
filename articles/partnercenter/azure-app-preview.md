@@ -13,8 +13,8 @@
 	supportTopicIds="32689414,32689416"
 	resourceTags="marketplace"
 	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # IaaS offers - preview

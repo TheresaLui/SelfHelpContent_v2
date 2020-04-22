@@ -13,7 +13,7 @@
 	supportTopicIds=""
 	resourceTags="windows, linux"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 />
 # Deployment Failure - SKU not available

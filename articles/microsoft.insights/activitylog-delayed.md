@@ -9,7 +9,7 @@
     articleId="activitylog-delayed"
     productPesIds="16251"
     supportTopicIds="32684696"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_AzureMetrics"
 />
 

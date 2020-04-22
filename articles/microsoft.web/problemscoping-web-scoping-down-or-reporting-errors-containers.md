@@ -7,7 +7,7 @@
     selfHelpType="problemScopingQuestions"
 	supportTopicIds="32542218"
 	productPesIds="16333"
-	cloudEnvironments="public, MoonCake, Fairfax"
+	cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="0f5a571f-63b9-46c9-baf3-5a35c15b65b4"
 	ownershipId="Compute_AppService"
@@ -52,7 +52,7 @@
 			"watermarkText": "...",
 			"required": false
 		},
-        {
+		{
             "id": "problem_start_time",
             "order": 7,
             "controlType": "datetimepicker",

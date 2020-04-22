@@ -11,7 +11,7 @@
 	supportTopicIds="32680650"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="datalakeanalytics-job-started-to-fail-with-error"
 	ownershipId="AzureData_AzureDataLakeAnalytics"
 />

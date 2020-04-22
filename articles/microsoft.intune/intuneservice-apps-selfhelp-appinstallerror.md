@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags="apps_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="98011790-7831-4601-b4ad-df007dc60d3f"
 	ownershipId="IntuneCxP_Intune"
 />

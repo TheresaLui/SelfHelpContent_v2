@@ -9,7 +9,7 @@
 	supportTopicIds="32681009"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-largetbmigrations"
 	displayOrder="45"
 	category="General Advisory"

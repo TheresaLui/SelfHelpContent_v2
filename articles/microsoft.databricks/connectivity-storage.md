@@ -10,7 +10,7 @@
 	supportTopicIds="32677676"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="95b93b3e-58bf-4011-bbb0-4afa9a40e0b9"
 	ownershipId="AzureData_AzureDatabricks"
 />
@@ -18,6 +18,8 @@
 # Diagnose and resolve connectivity issues to storage resources
 
 ## **Recommended Documents**
+
+Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
 
 ### **Configuration and Setup**
 

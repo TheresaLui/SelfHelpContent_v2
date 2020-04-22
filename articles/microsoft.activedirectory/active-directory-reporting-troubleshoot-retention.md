@@ -11,7 +11,7 @@
     supportTopicIds=""
     resourceTags="azureadrreports_missingdata_audit,azureadrreports_missingdata_signin"
     productPesIds=""
-    cloudEnvironments="public,Fairfax"
+    cloudEnvironments="public,Fairfax, usnat, ussec"
     ownershipId="AzureIdentity_User"
     />
 

@@ -5,8 +5,10 @@
   ms.author="v-vigra"
   selfhelptype="SupportTopicDescription"
   productpesids="38a234dd-6baf-d93b-2c48-5a735a3550ed"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_38a234dd-6baf-d93b-2c48-5a735a3550ed" />
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  articleid="supporttopics_38a234dd-6baf-d93b-2c48-5a735a3550ed"
+  ownershipid="AzureIdentity_SyncFabric"
+  />
 # Support Topic Descriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed
 ---
 {

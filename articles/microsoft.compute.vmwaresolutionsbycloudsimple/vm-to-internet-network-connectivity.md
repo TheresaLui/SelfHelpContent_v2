@@ -10,9 +10,9 @@
     supportTopicIds="32637628"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="b181aaef-75f4-4810-b37e-b03a74bc48b6"    
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting internet connectivity from a VM 

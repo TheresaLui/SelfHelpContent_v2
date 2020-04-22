@@ -8,9 +8,9 @@
     supportTopicIds="32693253"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="271c5022-d95d-44e0-b068-ec1318fa398c"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center – Configuring Features – Workflow Automation
