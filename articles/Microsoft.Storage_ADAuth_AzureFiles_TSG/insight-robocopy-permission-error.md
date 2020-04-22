@@ -16,7 +16,6 @@
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />
 
-
 # Customer faces access denied issues while trying to use robocopy to move files
 
 <!--issueDescription-->
@@ -26,11 +25,11 @@ Customer faces access denied issues while trying to use robocopy to move files.
 ## **Recommended Steps**
 
 It is a common scenario to robocopy files between file servers.  Unfortunately, this scenario is broken using AD Authentication for Azure Files in preview.
- 
+
 Whenever a request to add a file comes in to Azure Files, if the request is over a Kerberos (authenticated via AD) session, an access check happens to see if the caller has permissions to add a file under the parent directory of the file.  
- 
+
 For example, if a user is using robocopy with "/sec", when robocopy transfers a file to the destination, the following access checks occur.
- 
+
 1. Does the AD user executing robocopy have the permission to add a file or directory under the file's parent?
     a. This checks if FILE_ADD_FILE permission is granted to the user in the file's parent directory.
 2. Does the AD user executing robocopy have the permission to set an ACL on the file?
@@ -50,9 +49,9 @@ If the customer would like to take trace and better understand if they are faili
 
 1. Download Process Monitor from https://docs.microsoft.com/sysinternals/downloads/procmon
 2. Open process monitor and add a filter for robocopy process.
-3. Run robocopy targeted to Azure file share  with the additional parameter "/log:<LogFile>"
+3. Run robocopy targeted to Azure file share  with the additional parameter "/log:(LogFile)"
 
-    a. More information about the robocopy logfile is here - https://docs.microsoft.com/windows-server/administration/windows-commands/robocopy
+    a. More information about the robocopy logfile is [here](https://docs.microsoft.com/windows-server/administration/windows-commands/robocopy)
 4. After robocopy gives error (or somehow works) save the process monitor log to a file.
 
     a. Specify "Events displayed using current filter"
