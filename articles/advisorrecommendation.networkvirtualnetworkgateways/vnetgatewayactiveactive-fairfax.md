@@ -10,8 +10,7 @@
 />
 
 # Enable Active-Active gateways for redundancy
-
-## Enable Active-Active gateways for redundancy
+<!--issueDescription-->
 ---
 {
   "recommendationOfferingId": "658a4a19-9c40-472b-a918-3f550848421a",

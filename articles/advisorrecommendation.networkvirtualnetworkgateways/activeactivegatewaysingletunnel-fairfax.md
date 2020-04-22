@@ -10,8 +10,7 @@
 />
 
 # Configure redundant tunnel for your active-active VPN gateway
-
-## Configure redundant tunnel for your active-active VPN gateway
+<!--issueDescription-->
 ---
 {
   "recommendationOfferingId": "658a4a19-9c40-472b-a918-3f550848421a",
