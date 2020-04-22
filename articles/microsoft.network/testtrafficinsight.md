@@ -12,7 +12,7 @@ diagnosticScenario="TestTrafficGeneral"
 selfHelpType="Diagnostics"
 supportTopicIds="32511135, 32411835, 32584250, 32584252"
 resourceTags="windows" productPesIds="16342, 14745, 15571, 15797, 14749, 15526"
-cloudEnvironments="Public, Fairfax, usnat, ussec" 	ownershipId="AzureData_AzureSQLVM"
+cloudEnvironments="Public, Fairfax, usnat, ussec" 	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Diagnostics for resource access and network routing

@@ -6,7 +6,7 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="7"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32637327"
 	resourceTags="windows,linux,redhat,ubuntu"
 	productPesIds="15571,15797,16470,16454,14749"

@@ -28,7 +28,7 @@ As of March 18th, 2020 some Azure HDInsight customers have received error notifi
 
 Engineers are aware of this issue and are actively investigating.
 
-For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-release-notes#known-issues) page.
+For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/azure/hdinsight/hdinsight-release-notes#known-issues) page.
 
 For additional help, continue creating this support request.
 
@@ -67,4 +67,5 @@ You must create and configure the DNS server before installing HDInsight in the 
 If you are having technical issues with cluster creation, select **Create** instead of **Other Customization**. Also, if you are running into issues while trying to scale a cluster, please select **Scale** instead of **Other Customization**. Both **Create** and **Scale** will provide better solutions and applicable diagnostics.
 ## **Recommended Documents**
 * [Azure HDInsight: Frequently asked questions](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq)
+* [Create Cluster Error Dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)
 

@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"
@@ -21,4 +21,5 @@
 
 ## **Recommended Documents**
 
-* [Launch Synapse Studio](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-synapse-studio?branch=release-ignite-arcadia#launch-synapse-studio)
+* [Launch Synapse Studio](https://docs.microsoft.com/azure/synapse-analytics/quickstart-synapse-studio#launch-synapse-studio)
+
