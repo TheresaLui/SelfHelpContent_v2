@@ -7,11 +7,12 @@
 	ms.author="nerajput"
 	displayOrder="1"
 	selfHelpType="generic"
-	supportTopicIds="32689779,32689762,32689800,32689786"
+	supportTopicIds="32689779,32689762,32689800,32689786,32689784"
 	resourceTags=""
 	productPesIds="16919"
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="b97a4b1c-4d63-468b-4ded-fcda14edd5fe"
+	ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # Manage QnA Maker Resources
