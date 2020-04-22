@@ -2,10 +2,10 @@
   pagetitle="Support topic description for VM running Windows"
   description="Support topic description for Virtual Machine running Windows"
   authors="scottAzure, elixirsys2"
-  ms.author="scotro, tibasham"
+  ms.author="scotro, tibasham, alexsmit"
   selfhelptype="SupportTopicDescription"
   productpesids="6f16735c-b0ae-b275-ad3a-03479cfa1396"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="virtual-machine-running-windows-supporttopicdescription"
   ownershipid="StorageMediaEdge_StorageTables"
   icmteam="icmteam"
@@ -587,8 +587,8 @@
     {
       "id": "7a936404-b37e-01e2-1616-571db2e113b0",
       "longDescription": null,
-      "shortDescription": "Assitance with resizing the partition within the guest OS or the virtual disk",
-      "searchTags": "",
+      "shortDescription": "Assistance with resizing the partition within the guest OS or the virtual disk",
+      "searchTags": "Resize",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
