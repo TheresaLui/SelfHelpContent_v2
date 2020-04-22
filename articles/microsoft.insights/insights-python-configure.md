@@ -11,6 +11,7 @@
     cloudEnvironments="public"
     productPesIds="15693" 
     supportTopicIds="32681426"
+    ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # Configuring OpenCensus Python
 
