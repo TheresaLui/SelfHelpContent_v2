@@ -1,24 +1,40 @@
 <properties
-	pageTitle="Authentication Issues With Scoring Endpoint"
-	description="Authentication Issues With Scoring Endpoint"
-	infoBubbleText="Authentication Issues With Scoring Endpoint"
+	pageTitle="Secure Web Services"
+	description="Secure Web Services"
+	infoBubbleText="Secure Web Services"
 	service="microsoft.machinelearning"
 	resource="machinelearning"
 	authors="johnwu0604"
 	ms.author="johwu"
-	supportTopicIds="32690837"
+	supportTopicIds="32690883"
 	productPesIds="16644"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.securityandmonitoring.authentication"
+	articleId="microsoft.machinelearning.securityandmonitoring.securewebservices"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
-# Authentication Issues With Scoring Endpoint
+# Secure Web Services 
 
 ## **Recommended Steps**
 
-### **For Key-based Authentication**
+There are two steps you should take to secure your web services:
+
+1. Ensure you have SSL enabled on your web service domain.
+2. Ensure you have either key-based or token-based authentication enabled on your scoring endpoint.
+
+### **Setup SSL**
+
+The general process to secure a web service using SSL is as follows:
+
+1. Get a domain name
+2. Get a digital certificate
+3. Deploy or update the web service with SSL enabled
+4. Update your DNS to point to the web service
+
+The [following article](https://docs.microsoft.com/azure/machine-learning/how-to-secure-web-service) covers this process in depth.
+
+### **Setup Key-based Authentication**
 
 Key-based authentication generates static bearer-type authentication keys that do not need to be refreshed. 
 
@@ -71,7 +87,7 @@ To regenerate a key, use the `regen_key()` function and pass either **Primary** 
 
 `aci_service.regen_key('Primary')` or `aci_service.regen_key('Secondary')`
 
-### **For Token-based Authentication**
+### **Setup Token-based Authentication**
 
 Token-based authentication requires users to present an Azure Machine Learning JSON Web Token to the web service to access it. The token expires after a specified time-frame and needs to be refreshed to continue making calls.
 
@@ -130,7 +146,9 @@ You'll need to request a new token after the token's `refresh_by` time.
 
 Here is a list of additional resources which may be helpful:
 
-* [Where and how to deploy](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where)
+* [SSL configuration class](https://docs.microsoft.com/python/api/azureml-core/azureml.core.compute.aks.sslconfiguration?view=azure-ml-py)
+* [AksProvisioningConfiguration.enable_ssl()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.compute.aks.aksprovisioningconfiguration?view=azure-ml-py#enable-ssl-ssl-cname-none--ssl-cert-pem-file-none--ssl-key-pem-file-none--leaf-domain-label-none--overwrite-existing-domain-false-)
+* [AksAttachConfiguration.enable_ssl()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.compute.aks.aksattachconfiguration?view=azure-ml-py#enable-ssl-ssl-cname-none--ssl-cert-pem-file-none--ssl-key-pem-file-none--leaf-domain-label-none--overwrite-existing-domain-false-)
 * [Setup authentication for Azure Machine Learning resources and workflows](https://docs.microsoft.com/azure/machine-learning/how-to-setup-authentication)
 * [Consume an Azure Machine Learning model deployed as a web service](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service)
 * [Azure Machine Learning SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py)
