@@ -7,7 +7,7 @@
   productpesids="6f16735c-b0ae-b275-ad3a-03479cfa1396"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="virtual-machine-running-windows-supporttopicdescription"
-  ownershipid="StorageMediaEdge_StorageTables"
+  ownershipid="Compute_VirtualMachines_Content"
   icmteam="icmteam"
   icmservice="icmservice"
   feedbackemail="email" />
