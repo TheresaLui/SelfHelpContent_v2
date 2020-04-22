@@ -10,6 +10,18 @@
 />
 # Delete ExpressRoute circuits in the provider status of Not Provisioned
 ---
+<properties
+    pageTitle="Delete ExpressRoute circuits in the provider status of Not Provisioned"
+    description="Delete ExpressRoute circuits in the provider status of Not Provisioned"
+    authors="aadevteam"
+    ms.author="aadevteam"
+    articleId="3c18c7f0-39d9-4acf-baa1-6387251cf9b4_Fairfax"
+    selfHelpType="advisorRecommendationMetadata"
+    cloudEnvironments="Fairfax"
+	ownershipId="CloudNet_AzureVPNGateway"
+/>
+# Delete ExpressRoute circuits in the provider status of Not Provisioned
+---
 {
   "recommendationOfferingId": "3e80411f-1930-4048-abf3-235c22b3850a",
   "recommendationOfferingName": "ExpressRoute",
@@ -27,14 +39,15 @@
   "recommendationFriendlyName": "ExpressRouteCircuit",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
-  "owner": {
-    "email": "aadevteam@microsoft.com",
-    "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
-    },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "owner": {
+        "email": "ExRPM@microsoft.com",
+        "icm": {
+            "routingId": "AIMS://ExpressRoute",
+            "service": "Cloudnet",
+            "team": "ExpressRoute"
+        },
+        "serviceTreeId": "7269b88e-b638-4ba5-a55e-5632365dd938"
+
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
@@ -69,4 +82,6 @@
   "displayLabel": "Delete ExpressRoute circuit in Not Provisioned state",
   "additionalColumns": []
 }
+---
+
 ---
