@@ -19,12 +19,12 @@
 ## **Recommended Steps**
 
 * [Import certificate in Key vault](https://docs.microsoft.com/azure/key-vault/certificates/tutorial-import-certificate)
-
 * [Monitor and manage certificate creation](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-scenarios)
 
 
 
-**Troubleshooting**
+### **Troubleshooting**
+
 * What are the supported certificate formats for importing in Key vault?
 	
 	In Azure Key Vault, supported certificate formats are PFX and PEM. [Read more](https://docs.microsoft.com/azure/key-vault/certificates/tutorial-import-certificate#import-a-certificate-to-key-vault)
@@ -32,8 +32,6 @@
 * After importing protected certificate into keyvault and then downloading it from key vault, I am not able to see the password associated with the certificate?
  	
 	The uploaded protected certificate after storage into keyvault would not save password associated with it. It is only required once during the import operation.
-
-
 
 ## **Recommended Documents**
 
