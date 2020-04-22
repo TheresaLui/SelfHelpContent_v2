@@ -15,7 +15,7 @@
 	resourceTags="csp"
 	productPesIds="15960,17012"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Create, delete, cancel, or suspend online services subscriptions
 
