@@ -18,13 +18,13 @@
 # How to Integrate Azure Key Vault with Azure DevOps
 ## **Recommended Documents**
 
-* [Fetch Secrets from Key Vault in Dev Ops Pipeline](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-key-vault?view=azure-devops)
+* [Fetch Secrets from Key Vault in DevOps Pipeline](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-key-vault?view=azure-devops)
 
 ## **Troubleshooting**
 
-* I am getting a 401 error connecting to Key Vault from my Dev Ops Pipeline even after allowing "Trusted Microsoft Services"
+* I am getting a 401 error connecting to Key Vault from my DevOps Pipeline even after allowing "Trusted Microsoft Services"
 
-    Azure Dev Ops is not a Key Vault trusted service. If you have enabled the Azure Key Vault Firewall, you must manually whitelist the Azure Dev Ops IP Address Ranges.
+    Azure DevOps is not a Key Vault trusted service. If you have enabled the Azure Key Vault Firewall, you must manually whitelist the Azure DevOps IP Address Ranges.
 
     [Azure DevOps IP Address Ranges](https://docs.microsoft.com/azure/devops/organizations/security/allow-list-ip-url?view=azure-devops)
 
