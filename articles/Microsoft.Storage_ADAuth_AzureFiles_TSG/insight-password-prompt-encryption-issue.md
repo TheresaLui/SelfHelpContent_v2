@@ -1,7 +1,7 @@
 <properties
-    pageTitle="Unable to mount - Client machine is not joined to On-Prem AD"
-    description="Unable to mount - Client machine is not joined to On-Prem AD"
-    infoBubbleText="Unable to mount - Client machine is not joined to On-Prem AD"
+    pageTitle="Unable to mount - User is not able to retrieve the Kerberos ticket"
+    description="Unable to mount - User is not able to retrieve the Kerberos ticket"
+    infoBubbleText="Unable to mount - User is not able to retrieve the Kerberos ticket"
     service="microsoft.storage"
     resource="storageAccounts"
     authors="yagohel23"
@@ -11,14 +11,14 @@
     supportTopicIds="32689882"
     resourceTags=""
     productPesIds="1003478"
-    cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
     articleId="8409904d-948f-471c-8f46-111280edad4a"
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />
 
-# User gets prompted for credentials while running net use command - Encryption type error
+# Unable to mount - User is not able to retrieve the Kerberos ticket
 <!--issueDescription-->
-User gets the following error while trying to get Kerberos ticket using klist get command - The encryption type requested is not supported by the KDC
+In order for AD Auth to work properly, we need a valid Kerberos ticket to connect to the storage account. The customers may run into issue with CheckGetKerberosTicket step if their doamin group policy does not have supported Kerberos encryption type enabled.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -28,6 +28,10 @@ User gets the following error while trying to get Kerberos ticket using klist ge
    https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/network-security-configure-encryption-types-allowed-for-kerberos
 
 2. And make sure RC4_HMAC_MD5 is included as a value.  They may be wary about reverting to a weaker encryption type, below section has customer communication regarding that.
+
+3. Once the group policy changes have been made, re-run the "Debug-AzStorageAccountAuth" cmdlet to make sure all the other checks pass successfully. If they do not, go back to previous step to further troubleshoot. 
+
+4. If "Debug-AzStorageAccountAuth" completes successfully, ask the customer to try mounting the file share. If mount still fails, escalate.
 
 **Customer Ready Message**
 

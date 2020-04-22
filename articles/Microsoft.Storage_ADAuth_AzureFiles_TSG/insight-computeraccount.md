@@ -13,7 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public"     ownershipId="Centennial_CloudNet_LoadBalancer"
+cloudEnvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
+ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Net use 1326 error - Computer Accounts not supported Insight
