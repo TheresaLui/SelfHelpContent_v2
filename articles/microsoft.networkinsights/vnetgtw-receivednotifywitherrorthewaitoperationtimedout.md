@@ -18,7 +18,8 @@ cloudEnvironments="Public, fairfax, usnat, ussec"
 />
 # VPN Tunnel Connection Timed Out
 <!--issueDescription-->
+VPN Tunnel Connection Timed Out
+<!--/issueDescription-->
 We have identified that tunnel **<!--$TunnelName-->[TunnelName]<!--/$TunnelName-->** could not connect due to a timeout at **<!--$preciseTimestamp-->[preciseTimestamp]<!--/$preciseTimestamp-->**.
 ## **Mitigation Steps**
 If the tunnel reconnects in a few minutes then no action is necessary, otherwise try [resetting the gateway](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-resetgw-classic).
-<!--/issueDescription-->
