@@ -33,7 +33,7 @@ Importing a Knowledge base replaces the existing content in the Knowledge base, 
 Data sources location should be public urls and files that don't require any authentication. Please check [Content type supported for creating a knowledge base](https://docs.microsoft.com/azure/cognitive-services/qnamaker/concepts/content-types) to know the formats for the files. <br>
 SharePoint files with authentication are also supported but resources must be files, not web pages. If the URL ends with a web extension, such as .ASPX, it will not import into QnA Maker from SharePoint. Please check the [prerequisites and steps to add SharePoint files as data source in your knowledge base](https://docs.microsoft.com/azure/cognitive-services/qnamaker/how-to/add-sharepoint-datasources).
 
-* **How to add Chit-chat data set to my knowledge base ?**
+* **How to add Chit-chat dataset to my knowledge base ?**
 Chit-chat data sets are used to add personality to your Knowledge Base. These data sets makes the bots more conversational and engaging, these are available in 5 different personas. Please check the [steps to add personality to your Knowledge Base](https://docs.microsoft.com/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base) 
 
 
@@ -41,5 +41,5 @@ Chit-chat data sets are used to add personality to your Knowledge Base. These da
 
 * [Troubleshooting FAQs for managing a knowledge base](https://docs.microsoft.com/azure/cognitive-services/QnAMaker/troubleshooting#manage-the-knowledge-base)
 * [Steps to create and manage a knowledge base](https://docs.microsoft.comazure/cognitive-services/QnAMaker/quickstarts/create-publish-knowledge-base)
-* [Create Knowlege Base and manage settings](https://docs.microsoft.com/azure/cognitive-services/QnAMaker/how-to/manage-knowledge-bases)
+* [Create Knowledge Base and manage settings](https://docs.microsoft.com/azure/cognitive-services/QnAMaker/how-to/manage-knowledge-bases)
 
