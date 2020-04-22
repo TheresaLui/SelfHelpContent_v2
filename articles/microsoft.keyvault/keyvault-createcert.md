@@ -27,7 +27,7 @@
 **Troubleshooting**
 * I had created a certificate and it is near to its expiry. What happens if it expires?
 	
-	If a Key Vault certificate expires, it's addressable key and secret become inoperable. [Change Certificate's Life cycle attributes ](https://review.docs.microsoft.com/azure/key-vault/certificates/tutorial-rotate-certificates)
+	If a Key Vault certificate expires, it's addressable key and secret become inoperable. [Configure Certificate's Life cycle attributes ](https://docs.microsoft.com/azure/key-vault/certificates/tutorial-rotate-certificates)
 
 
 
