@@ -61,7 +61,7 @@
             "controlType": "dropdown",
             "displayLabel": "What method are you using",
             "required": true,
-	    "visibility": "issue_type == Creating or configuring the elastic job agent?",
+	    "visibility": "issue_type == creation_agent",
             "dropdownOptions": [
                 {
                     "value": "powershell",
