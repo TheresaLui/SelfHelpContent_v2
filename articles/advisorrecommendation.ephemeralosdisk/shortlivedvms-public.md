@@ -1,12 +1,12 @@
 <properties
     pageTitle="Use Ephemeral OS Disk for cost savings" 
-    description="Ephemeral OS disks are created on the local virtual machine storage instead of the remote Azure Storage. Ephemeral OS disk is free and you incur no storage cost for OS disk. With Ephemeral OS disk, you get lower read/write latency to the OS disk and faster VM reimage time. It also provides faster VM reimage operation to wipe the contents on OS disk and reset the VM to its original state. This significantly reduces the idle time involved with multiple VM create/delete operations. Ephemeral OS disks are recommended for VMs where the OS disk is stateless i.e. applications which are tolerant of individual VM failures.”
-    authors="EphemeralOSDiskvTeam@microsoft.com"
-    ms.author="EphemeralOSDiskvTeam@microsoft.com"
-    articleId="dc045941-8e65-437b-992b-1f0acd28bb6e_Public"
-    selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-	ownershipId="Compute_Compute"
+    description="Ephemeral OS disks are created on the local virtual machine storage instead of the remote Azure Storage. Ephemeral OS disk is free and you incur no storage cost for OS disk. With Ephemeral OS disk, you get lower read/write latency to the OS disk and faster VM reimage time. It also provides faster VM reimage operation to wipe the contents on OS disk and reset the VM to its original state. This significantly reduces the idle time involved with multiple VM create/delete operations. Ephemeral OS disks are recommended for VMs where the OS disk is stateless i.e. applications which are tolerant of individual VM failures." 
+    authors="EphemeralOSDiskvTeam" 
+    ms.author="EphemeralOSDiskvTeam" 
+    articleId="dc045941-8e65-437b-992b-1f0acd28bb6e_Public" 
+    selfHelpType="advisorRecommendationMetadata" 
+    cloudEnvironments="Public" 
+    ownershipId="Compute_Compute" 
 />
 # Create an Ephemeral OS Disk recommendation
 ---
@@ -33,7 +33,7 @@
     "serviceTreeId": "5d0f2841-795b-49c6-9ab1-c2195fc9a4ea"
   },
   "ingestionClientIdentities": ["3cf3c489-3096-425a-940e-abd5f0c52c73"],
-  "version": 3.0,
+  "version": 4.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/ephemeral-os-disks",
   "description": "Use Virtual Machines with Ephemeral OS Disk enabled to save cost and get better performance",
   "longDescription": "Save on storage cost for OS disk and get lower read/write latency to the OS disk. Also provides faster VM reimage operation to wipe the contents on OS disk and reset the VM to its original state. More preferrable for short-lived IaaS VMs or VMs with stateless workloads",
