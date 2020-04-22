@@ -3,7 +3,7 @@
     description="Configure redundant tunnel for your active-active VPN gateway"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="f3be5a9b-2583-4a1c-b774-2481c00ccb04_Public"
+    articleId="f3be5a9b-2583-4a1c-b774-2481c00ccb04_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
 	ownershipId="CloudNet_AzureVPNGateway"
