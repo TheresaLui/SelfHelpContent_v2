@@ -4,7 +4,7 @@
     service="microsoft.insights"
     resource="components"
     authors="lzchen"
-    ms.author="lechen"
+    ms.author="lechen,neghuman"
     articleId="insights_python_configure"
     displayOrder="1125"
     selfHelpType="resource"
