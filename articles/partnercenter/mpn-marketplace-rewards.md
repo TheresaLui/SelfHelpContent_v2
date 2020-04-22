@@ -23,7 +23,7 @@
 
 ## **Recommended Steps**
 
-- If you publish software offers to Partner center Commercial marketplace, you could be eligible for Marketplace rewards to get targeted support for all your offers with marketing, sales, and technical benefits
+- If you publish software offers to Partner Center Commercial marketplace, you could be eligible for Marketplace rewards to get targeted support for all your offers with marketing, sales, and technical benefits
 - First, please check your eligibility for Marketplace Rewards program [here](https://partner.microsoft.com/dashboard/mpn/program/commercialmarketplace)
 - If you are found to be eligible, click [here](https://docs.microsoft.com/partner-center/marketplace-rewards#sales-and-marketing-benefits) to start unlocking your Sales and Marketing benefits or click [here](https://docs.microsoft.com/partner-center/marketplace-rewards#technical-benefits) for technical benefits
 - If you can’t see Marketplace Rewards on your dashboard, click [here](https://docs.microsoft.com/partner-center/marketplace-rewards#why-cant-i-see-the-commercial-marketplace-rewards-program-on-my-dashboard) for guidance
