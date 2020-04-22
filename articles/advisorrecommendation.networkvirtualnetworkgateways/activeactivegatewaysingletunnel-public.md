@@ -8,6 +8,7 @@
     cloudEnvironments="Public"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
+
 # Configure redundant tunnel for your active-active VPN gateway
 ---
 {
