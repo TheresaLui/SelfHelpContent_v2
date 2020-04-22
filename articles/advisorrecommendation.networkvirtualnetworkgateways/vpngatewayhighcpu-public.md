@@ -43,7 +43,7 @@
   "actions": [
     {
       "actionId": "9ac9a68c-7da7-48aa-85c5-54efd4e910a7",
-      "description": "Scale up your VNet Gateway",
+      "description": "Consider scaling up your VNet Gateway",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
