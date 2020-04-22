@@ -19,9 +19,9 @@
 # Knowledge Base Management
 
 ### **Frequently asked questions**
+
 * **How can I set a language for my Knowledge Base?**<br>
-Language setting is specific to every service. QnA Maker allows you to select the language for your QnA service, while creating the first knowledge base. For all the knowledge bases in a QnA Maker resource, they all must be in the same language. This language can't be changed.
-Please check, [language concepts applicable in QnA Maker](https://docs.microsoft.com/azure/cognitive-services/QnAMaker/how-to/language-knowledge-base#verify-language). 
+Language setting is specific to every service. QnA Maker allows you to select the language for your QnA service, while creating the first knowledge base. For all the knowledge bases in a QnA Maker resource, they all must be in the same language. This language can't be changed. Please check [language concepts applicable in QnA Maker](https://docs.microsoft.com/azure/cognitive-services/QnAMaker/how-to/language-knowledge-base#verify-language). 
 
 * **Is there a  way to recover a Knowledge base that has been deleted by mistake?**<br>
 Based on Data Protection Policy, QnA Maker does not keep any user data. User has to create a new QnA Maker again and load all QnA pairs to the knowledge base. 
@@ -33,13 +33,11 @@ Importing a Knowledge base replaces the existing content in the Knowledge base, 
 Data sources location should be public urls and files that don't require any authentication. Please check [Content type supported for creating a knowledge base](https://docs.microsoft.com/azure/cognitive-services/qnamaker/concepts/content-types) to know the formats for the files. <br>
 SharePoint files with authentication are also supported but resources must be files, not web pages. If the URL ends with a web extension, such as .ASPX, it will not import into QnA Maker from SharePoint. Please check the [prerequisites and steps to add SharePoint files as data source in your knowledge base](https://docs.microsoft.com/azure/cognitive-services/qnamaker/how-to/add-sharepoint-datasources).
 
-* **How to add Chit-chat dataset to my knowledge base ?**
-Chit-chat data sets are used to add personality to your Knowledge Base. These data sets makes the bots more conversational and engaging, these are available in 5 different personas. Please check the [steps to add personality to your Knowledge Base](https://docs.microsoft.com/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base) 
-
+* **How to add Chit-chat datasets to my knowledge base?**
+Chit-chat data sets are used to add personality to your Knowledge Base. These data sets makes the bots more conversational and engaging, these are available in 5 different personas. Please check the [steps to add personality to your Knowledge Base](https://docs.microsoft.com/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base).
 
 ## **Recommended Documents**
 
 * [Troubleshooting FAQs for managing a knowledge base](https://docs.microsoft.com/azure/cognitive-services/QnAMaker/troubleshooting#manage-the-knowledge-base)
 * [Steps to create and manage a knowledge base](https://docs.microsoft.com/azure/cognitive-services/qnamaker/quickstarts/create-publish-knowledge-base)
 * [Create Knowledge Base and manage settings](https://docs.microsoft.com/azure/cognitive-services/QnAMaker/how-to/manage-knowledge-bases)
-
