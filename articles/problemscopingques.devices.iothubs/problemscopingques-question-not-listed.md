@@ -4,11 +4,11 @@
 	authors="yguo"
 	ms.author="yguo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630568,32630545,32630546"
+	supportTopicIds="32680883,32680888"
 	productPesIds="15946"
 	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="f843dcf7-98d9-4cb4-9c7f-d34cb5ab74ed"
+	articleId="e3d84adf-fcc4-4ca5-83ef-6c8dba9d05fe"
 	ownershipId="AzureIot_IotHub"
 />
 
@@ -127,7 +127,6 @@
       "watermarkText": "Example: 1.21.0",
       "required": true
     },  
-
 {
       "id": "feature",
       "order": 30,
@@ -136,9 +135,7 @@
       "watermarkText": "Provide additional information about your issue",
       "required": false,
       "useAsAdditionalDetails": true
-
   },
-
 {
       "id": "doc",
       "order": 35,
@@ -147,9 +144,7 @@
       "watermarkText": "If so, please provide us the link",
       "required": false,
       "useAsAdditionalDetails": true
-
   }
-
   ]
 
 }
