@@ -11,6 +11,7 @@
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32630493"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 	resourceTags="8000Series"
 	productPesIds="15438"
 	cloudEnvironments="public"
