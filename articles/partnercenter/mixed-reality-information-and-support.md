@@ -20,6 +20,7 @@
 
 # This topic will guide you to the Mixed Reality information and support
 
+This topic will guide you to the Mixed Reality information and support
 
 ## **Recommended Steps**
 
