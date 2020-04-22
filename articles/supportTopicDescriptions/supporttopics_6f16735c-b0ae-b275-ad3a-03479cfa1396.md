@@ -875,8 +875,8 @@
     {
       "id": "b82154fe-4659-31f6-584e-fcc90408a34a",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Covers issues related to security concerns with virtual machines in Azure",
+      "searchTags": "Security",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
