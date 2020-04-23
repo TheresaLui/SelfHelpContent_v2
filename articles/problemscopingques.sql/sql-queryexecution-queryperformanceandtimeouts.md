@@ -67,7 +67,7 @@
 	    "dropdownOptions": [
                 {
                     "value": "morden_platform",
-                    "text": "Modern distributed platform (Ex: Net, Java, Python, Ruby etc.)"
+                    "text": "Modern distributed platform (Ex: .Net, Java, Python, Ruby etc.)"
                 },
                 {
                     "value": "legacy",
