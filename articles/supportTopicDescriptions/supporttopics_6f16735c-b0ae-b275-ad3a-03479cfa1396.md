@@ -131,8 +131,8 @@
     {
       "id": "12ba6e9b-cd71-6f10-0f95-b4028afcd4da",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Common problems related to creating a new Azure virtual machine such as provisioning or allocation failures",
+      "searchTags": "Creating",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
     },
