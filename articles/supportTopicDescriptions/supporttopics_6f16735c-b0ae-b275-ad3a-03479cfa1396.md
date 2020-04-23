@@ -835,8 +835,8 @@
     {
       "id": "af9e6ed0-943e-ea7e-054b-62684f3a5226",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Resolve errors when starting or stopping your VM, if it is unresponsive or generating disk related or allocation errors",
+      "searchTags": "Starting",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
     },
