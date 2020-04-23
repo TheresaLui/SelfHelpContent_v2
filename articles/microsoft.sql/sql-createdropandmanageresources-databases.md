@@ -16,7 +16,7 @@
 
 # How-To: Azure SQL Database Management
 
-## Capacity challanges and restrictions
+## Capacity challenges and restrictions
 
 As demand continues to grow, we are faced with temporary capacity constraints in a number of Azure regions so we have established clear criteria for the priority of new cloud capacity. 
 
