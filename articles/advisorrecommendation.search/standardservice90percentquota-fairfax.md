@@ -25,7 +25,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Search/searchServices",
   "recommendationFriendlyName": "StandardServiceStorageQuota90percent",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "azuresearch_contact@microsoft.com",
