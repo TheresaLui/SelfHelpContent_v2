@@ -192,8 +192,8 @@
     {
       "id": "6b64f092-01d1-441d-1563-396f81bcf127",
       "longDescription": "",
-      "shortDescription": "Covers problems during initial setup and configuration of the NPS extension",
-      "searchTags": "Configuring NPS;Configuring Network Policy Server;Configuring RADIUS;Deploying RADIUS;issues with NPS extension ",
+      "shortDescription": "Problems during initial setup and configuration of the NPS extension",
+      "searchTags": "issue with NPS deployment",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
