@@ -107,8 +107,8 @@
     {
       "id": "0db4fa03-52e9-4c97-09b4-9907b53ecae9",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "VMs might sometimes restart without the user initiating the operation - this could be due to factors such as an OS update or a guest OS on the machine",
+      "searchTags": "Restart",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
