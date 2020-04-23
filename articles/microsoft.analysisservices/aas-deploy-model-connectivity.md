@@ -20,7 +20,7 @@
 
 * [Deploy a model from Visual Studio](https://docs.microsoft.com/azure/analysis-services/analysis-services-deploy)
 
-* [Tabular model solution deployment](https://docs.microsoft.com/sql/analysis-services/tabular-models/tabular-model-solution-deployment-ssas-tabular?view=sql-server-2017)
+* [Tabular model Overview](https://docs.microsoft.com/en-us/analysis-services/tabular-models/tabular-models-ssas?view=asallproducts-allversions)
 
 * [Deployment Script Files - Input Used to Create Deployment Script](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/deployment-script-files-input-used-to-create-deployment-script?view=sql-server-2017)
 
