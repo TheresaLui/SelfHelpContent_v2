@@ -35,6 +35,14 @@
       "searchTags": "issues with custom roles",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e68ea527-f36e-9811-75b9-c89a174208da",
+      "longDescription": "",
+      "shortDescription": "Problems with the classic Azure subscription roles Service Administrator, Account Administrator or Co-Administrator",
+      "searchTags": "issues with service admins or co-admins",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
