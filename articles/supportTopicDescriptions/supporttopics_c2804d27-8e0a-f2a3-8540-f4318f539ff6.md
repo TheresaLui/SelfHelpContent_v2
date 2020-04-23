@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2c0953c5-fc8d-ecb6-f67f-289e9940a5b2",
+      "longDescription": "",
+      "shortDescription": "Problems recovering lost Azure resource role assignments after subscription is moved to another Azure AD tenant.",
+      "searchTags": "issues to recover lost role assignments",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ab7f80a6-b84b-af96-18c9-c5a3e6c03fb1",
       "longDescription": "",
       "shortDescription": "Problems creating or managing custom Azure resource role definitions via Azure PowerShell or Azure CLI",
