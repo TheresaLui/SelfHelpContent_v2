@@ -907,8 +907,8 @@
     {
       "id": "bf5eafd5-a438-6e15-458f-e614453346a2",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Covers issues related to Planned Maintenance notifications in Azure",
+      "searchTags": "Maintenance",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
