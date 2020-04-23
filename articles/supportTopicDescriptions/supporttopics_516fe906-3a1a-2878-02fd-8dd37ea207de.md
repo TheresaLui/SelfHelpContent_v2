@@ -448,8 +448,8 @@
     {
       "id": "d6f4e41d-1f1a-0b8a-018f-5f461d51c7b9",
       "longDescription": "",
-      "shortDescription": "Covers problems related to the Microsoft Authenticator app like activation and receiving push notification",
-      "searchTags": "MFA verification;MFA Token;MFA SMS;issues re to Authenticator app",
+      "shortDescription": "Problems with the Microsoft Authenticator app like activation and receiving push notification",
+      "searchTags": "issue with activation of Auth App;issue with receiving push notification ",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
