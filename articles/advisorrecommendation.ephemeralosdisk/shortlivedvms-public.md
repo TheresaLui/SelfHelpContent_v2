@@ -59,6 +59,7 @@
   },
   "displayLabel": "Use Ephemeral OS Disk",
   "additionalColumns": [],
+  "testData": "9ff53016-3d9d-4e40-94b0-873871ac1b07,/subscriptions/9ff53016-3d9d-4e40-94b0-873871ac1b07",
   "tip": "Ephemeral OS disk incurs no storage cost for OS disk and provides lower read/write latency to the OS disk. It also provides faster VM reimage operation to wipe the contents on OS disk and reset the VM to its original state. This significantly reduces the idle time involved with multiple VM create/delete operations."
 }
 ---
