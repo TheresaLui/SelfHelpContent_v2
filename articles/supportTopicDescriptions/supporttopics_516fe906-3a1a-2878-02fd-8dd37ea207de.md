@@ -536,7 +536,7 @@
     {
       "id": "fed213ea-5608-4331-7ac8-ea3f0a8c59a9",
       "longDescription": "",
-      "shortDescription": "Covers questions and problems for planning a new MFA deployment including how to configure MFA, service settings and users settings ",
+      "shortDescription": "Questions and problems for planning a new MFA deployment including how to configure MFA, service settings and users settings ",
       "searchTags": "manage MFA deployment",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
