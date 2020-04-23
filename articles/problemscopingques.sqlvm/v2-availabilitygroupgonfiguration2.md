@@ -7,7 +7,8 @@
 	 productPesIds="14745"
 	 cloudEnvironments="public,fairfax, usnat, ussec"
 	 schemaVersion="1"
-	 articleId="5976622e-bb83-47cf-b199-a40e42d23e21"
+	 articleId="9a0f4e76-92d0-443e-b96c-99f8d63945bc"
+	 subscriptionRequired="false"
 	ownershipId="AzureData_AzureSQLVM"
 />
 # AlwaysOn - Configuration
