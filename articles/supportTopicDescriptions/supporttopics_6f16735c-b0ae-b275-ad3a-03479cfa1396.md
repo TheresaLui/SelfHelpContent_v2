@@ -227,8 +227,8 @@
     {
       "id": "32e9eab8-0dfe-2ee6-aa44-226df969736c",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Issues when resizing, attaching and detaching, or performing other tasks on a virtual disk",
+      "searchTags": "Virtual Disk Management",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
