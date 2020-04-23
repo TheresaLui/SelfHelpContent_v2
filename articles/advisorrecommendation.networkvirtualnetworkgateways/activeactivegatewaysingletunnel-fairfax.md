@@ -1,7 +1,7 @@
 <properties
     pageTitle="Configure redundant tunnel for your active-active VPN gateway"
     description="Configure redundant tunnel for your active-active VPN gateway"
-    authors="aadevteam"
+    authors="anzaman"
     ms.author="alzam"
     articleId="f3be5a9b-2583-4a1c-b774-2481c00ccb04_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
@@ -30,11 +30,11 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "azvpnpms@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "MDM://vpngateway",
+      "service": "VPN Gateway",
+      "team": "VPN Gateway"
     },
     "serviceTreeId": "10c9bf14-f656-4413-a32c-176b6f203911"
   },
