@@ -64,8 +64,8 @@
     {
       "id": "1d33a8e8-72a2-490d-b947-1479512b6694",
       "longDescription": "",
-      "shortDescription": "Problems with MFA registration status, authentication methods used during sign-in and insights",
-      "searchTags": "issues with MFA usage",
+      "shortDescription": "Problems with MFA registration status, authentication methods used during sign-in and insights ",
+      "searchTags": "issues with MFA usage;issues with MFA reports and logs",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
