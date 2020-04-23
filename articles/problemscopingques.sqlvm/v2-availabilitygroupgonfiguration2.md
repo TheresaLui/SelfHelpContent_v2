@@ -8,13 +8,13 @@
 	 cloudEnvironments="public,fairfax, usnat, ussec"
 	 schemaVersion="1"
 	 articleId="9a0f4e76-92d0-443e-b96c-99f8d63945bc"
-	 subscriptionRequired="false"
 	ownershipId="AzureData_AzureSQLVM"
 />
 # AlwaysOn - Configuration
 ---
 {
     "resourceRequired": false,
+	"subscriptionRequired": false,
     "title": "Always On Availability Groups- Configuration",
     "fileAttachmentHint": null,
     "formElements": [
