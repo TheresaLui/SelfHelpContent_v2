@@ -147,8 +147,8 @@
     {
       "id": "140159b4-cf4f-69a4-ce90-bad0a4f3a2e8",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Questions specific to backing up or restoring your Azure virtual machine using Azure Backup",
+      "searchTags": "Backup",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
