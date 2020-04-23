@@ -19,7 +19,7 @@
 ## Capacity challanges and restrictions.
 
 As demand continues to grow, we are faced with temporary capacity constraints in a number of Azure regions so we have established clear criteria for the priority of new cloud capacity. 
-As mentioned in our commitment to customers and Microsoft cloud services continuity [here](https://azure.microsoft.com/en-us/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/), top priority is going to first responders, health and emergency management services, critical government infrastructure, and ensuring remote workers stay up and running with the core functionality. 
+As mentioned in our commitment to customers and Microsoft cloud services continuity [here](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/), top priority is going to first responders, health and emergency management services, critical government infrastructure, and ensuring remote workers stay up and running with the core functionality. 
 We will also constrain non-paid subscriptions as necessary, to ensure support of existing paid customers – so free trial & benefit subscriptions may see limited resource options and limited regions available.
 
 If you would like assistance with this, request you to please create a support request with our Quota team. You can do that by clicking on New Support request, then under the Basics tab select:

@@ -80,7 +80,7 @@
             ]
         },
 	{
-            "id": "application_type",
+            "id": "migration_backend",
             "order": 5,
             "controlType": "dropdown",
             "displayLabel": "What was the Pre-Migration backend ?  ",
