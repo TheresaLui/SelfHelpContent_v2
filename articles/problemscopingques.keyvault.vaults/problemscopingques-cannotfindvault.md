@@ -33,7 +33,8 @@
             "controlType": "textbox",
             "displayLabel": "Vault name",
             "watermarkText": "E.g. MyContosoVault",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
