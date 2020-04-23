@@ -20,9 +20,9 @@
 # Azure Data Explorer query failures
 
 <!--issueDescription-->
-Your Azure Data Explorer is having RUNAWAY QUERY query failures and it is a kind of partial query failure that happens when some internal query limit was exceeded during query execution.
+Your Azure Data Explorer is having RUNAWAY QUERY query failures and it is a partial query failure that happens when some internal query limit was exceeded during query execution.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
 
-- Use [this reference](https://docs.microsoft.com/azure/data-explorer/kusto/concepts/runawayqueries) to assist in possible courses of action to avoid these errors
+- Follow [runaway queries concepts](https://docs.microsoft.com/azure/data-explorer/kusto/concepts/runawayqueries) to assist in possible courses of action to avoid these errors

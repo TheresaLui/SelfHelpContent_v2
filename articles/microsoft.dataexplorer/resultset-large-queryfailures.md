@@ -20,10 +20,10 @@
 # Azure Data Explorer query failures
 
 <!--issueDescription-->
-Your Azure Data Explorer is having query result set has exceeded the internal limit failures and it is a kind of partial query failure that happens when the query's result has exceeded a limit on the number of records or a limit on the total amount of data.  
+Your Azure Data Explorer is having query result set has exceeded the internal limit failures and it is a partial query failure that happens when the query's result has exceeded a limit on the number of records or a limit on the total amount of data.  
 <!--/issueDescription-->
 
 ## **Recommended Documents**
 
-- Use [this reference](https://docs.microsoft.com/azure/data-explorer/kusto/concepts/resulttruncation) to assist in possible courses of action to avoid these errors
+- Follow [result truncation concepts](https://docs.microsoft.com/azure/data-explorer/kusto/concepts/resulttruncation) to assist in possible courses of action to avoid these errors
 

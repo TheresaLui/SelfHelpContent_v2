@@ -25,4 +25,4 @@ Your Azure Data Explorer is having query failures with LOW MEMORY CONDITION issu
 
 ## **Recommended Documents**
 
-- Possible recommendations to follow query best practises using [this reference](https://docs.microsoft.com/azure/kusto/query/best-practices) or consider adding more power using [this reference](https://docs.microsoft.com/azure/data-explorer/manage-cluster-horizontal-scaling) if required following [this reference](https://docs.microsoft.com/azure/data-explorer/using-metrics)
+- Possible recommendations to follow our [query best practices](https://docs.microsoft.com/azure/kusto/query/best-practices) or consider adding more power by [scaling out your cluster](https://docs.microsoft.com/azure/data-explorer/manage-cluster-horizontal-scaling) or monitor your performance using [metrics](https://docs.microsoft.com/azure/data-explorer/using-metrics)

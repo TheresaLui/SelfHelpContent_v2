@@ -25,5 +25,5 @@ Your Azure Data Explorer is having ENTITY NOT FOUND query failures and this happ
 
 ## **Recommended Documents**
 
-- Use [this reference](https://docs.microsoft.com/azure/data-explorer/create-cluster-database-portal) to create database and [this reference](https://docs.microsoft.com/azure/data-explorer/kusto/management/tables) to create table to avoid this error
+- [Create database](https://docs.microsoft.com/azure/data-explorer/create-cluster-database-portal) and [create table](https://docs.microsoft.com/azure/data-explorer/kusto/management/tables) to avoid this error
 
