@@ -19,7 +19,7 @@ ownershipId="CloudNet_VirtualNetwork"
 
 # Traffic is blocked by NSG and altered by UDR
 
-## **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->**: <!--$InsightTitle-->[InsightTitle]<!--/$InsightTitle-->
+### **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->**: <!--$InsightTitle-->[InsightTitle]<!--/$InsightTitle-->
 
 <!--issueDescription-->
 We have identified a problem that prevents network traffic flowing from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$ImpactedResource-->ImpactedResource<!--/$ImpactedResource--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that one or both of the following conditions exist:<br>
