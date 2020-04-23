@@ -1,8 +1,8 @@
 <properties
     pageTitle="Enable Active-Active gateways for redundancy"
     description="Enable Active-Active gateways for redundancy"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    authors="anzaman"
+    ms.author="alzam"
     articleId="c249dc0e-9a17-423e-838a-d72719e8c5dd_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
@@ -32,9 +32,9 @@
   "owner": {
     "email": "aadevteam@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "MDM://vpngateway",
+      "service": "VPN Gateway",
+      "team": "VPN Gateway"
     },
     "serviceTreeId": "10c9bf14-f656-4413-a32c-176b6f203911"
   },
