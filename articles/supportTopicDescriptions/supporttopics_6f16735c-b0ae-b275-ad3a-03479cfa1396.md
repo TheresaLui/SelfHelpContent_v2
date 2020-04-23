@@ -571,8 +571,8 @@
     {
       "id": "78338998-486e-d645-07e5-4c90760f5b3a",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Your VM has entered a non-bootable state and is either not booting at all or is on a reboot loop",
+      "searchTags": "Boot",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "FALSE"
     },
