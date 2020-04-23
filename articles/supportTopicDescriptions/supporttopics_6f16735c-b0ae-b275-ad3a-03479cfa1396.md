@@ -987,8 +987,8 @@
     {
       "id": "d7a1629d-d6fb-42dd-ff65-635009e342e7",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Covers issues related to managing a virtual machine on Azure",
+      "searchTags": "Management",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
