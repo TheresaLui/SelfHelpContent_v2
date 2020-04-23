@@ -99,8 +99,8 @@
     {
       "id": "0d97aa83-8c20-0262-0e54-4525eb0c427a",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Covers issues related to migrating or moving a virtual machine or associated resource on Azure",
+      "searchTags": "Migration",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
