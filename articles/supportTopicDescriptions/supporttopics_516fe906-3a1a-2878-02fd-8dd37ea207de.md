@@ -5,7 +5,7 @@
   ms.author="marwa, v-vigra"
   selfhelptype="SupportTopicDescription"
   productpesids="516fe906-3a1a-2878-02fd-8dd37ea207de"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_516fe906-3a1a-2878-02fd-8dd37ea207de"
   ownershipid="AzureIdentity_Licensing" />
 # Support Topic Descriptions for 516fe906-3a1a-2878-02fd-8dd37ea207de
@@ -408,7 +408,7 @@
     {
       "id": "c526e8c2-4ce8-b375-7632-67265634d2da",
       "longDescription": "",
-      "shortDescription": "Problems or advisory needs for configuring or working with Multi-factor Authentication",
+      "shortDescription": "Cover questions and problems related to Multi-factor Authentication (MFA)",
       "searchTags": "Multi-factor Authentication;MFA;Configuring MFA",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
