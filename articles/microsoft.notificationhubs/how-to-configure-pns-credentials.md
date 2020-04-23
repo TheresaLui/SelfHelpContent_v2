@@ -9,8 +9,9 @@
 	resourceTags="notificationHubs"
 	productPesIds=""
 	supportToicIds =""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="bd310504-f4d7-4487-9016-17f1d4cd2bc5"
+	ownershipId="AzureNotificationHubs"
 />
 
 # How do I configure PNS credentials and get started?

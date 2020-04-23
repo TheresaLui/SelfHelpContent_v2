@@ -11,7 +11,8 @@
 	resourceTags=""
 	productPesIds="14997"
 	articleId="ConfigService_notlisted"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - Configuring the Service - My configuration scenario is not listed

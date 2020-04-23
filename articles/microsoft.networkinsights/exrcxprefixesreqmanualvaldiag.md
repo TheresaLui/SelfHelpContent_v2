@@ -12,8 +12,9 @@
     supportTopicIds="32539943, 32586802, 32539944"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 # Microsoft Azure is unable to automatically validate your Public Prefix
 <!--/issueDescription-->
 Peering for ExpressRoute requires customer-supplied public prefixes are verified against a registrar, such as ARIN.  This is a standard practice to verify identity and ownership of IP address space.

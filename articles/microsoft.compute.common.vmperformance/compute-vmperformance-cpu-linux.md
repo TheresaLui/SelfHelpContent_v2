@@ -10,8 +10,9 @@
 	supportTopicIds="32628261"
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454,16470"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="d0fa4014-1b31-4dea-beaa-0e7d1ef6d466"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Diagnose and resolve Linux Virtual Machine CPU performance issues

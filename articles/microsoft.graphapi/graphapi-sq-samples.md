@@ -6,10 +6,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32689194"
     productPesIds="16953,16954,16955,16956"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="17bc8a89-5623-4a01-9c6f-579fe9189f04"
-    />
+    	ownershipId="AzureIdentity_GraphUsersAndGroupsAPIs"
+/>
 
 # Problem using Microsoft Graph samples, Graph Explorer, or getting started
 

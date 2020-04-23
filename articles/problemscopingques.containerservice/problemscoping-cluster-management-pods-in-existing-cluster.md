@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32683762"
                 productPesIds="16450"
-                cloudEnvironments="Public,Fairfax"
+                cloudEnvironments="Public,Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="problemscoping-cluster-management-pods-in-existing-cluster"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Problem with Pods in existing cluster
 ---

@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="activedirectory-aadconnect-sync-aadsyncupgrade-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # How to upgrade Azure AD Sync to Azure AD Connect

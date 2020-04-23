@@ -10,8 +10,9 @@
 	supportTopicIds="32677686"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="65774271-0c8c-41c1-901d-9f54035623f1"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Deep Learning on Azure Databricks    

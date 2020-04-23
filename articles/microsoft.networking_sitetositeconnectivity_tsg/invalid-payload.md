@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="442ec0c5-1f4f-486c-ac41-39ec57bf9668"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Invalid Payload

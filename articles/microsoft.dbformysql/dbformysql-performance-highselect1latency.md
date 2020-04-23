@@ -10,8 +10,9 @@
     supportTopicIds="32640060"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="5c1b5741-547a-4cee-b1e1-73f86fe39634"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Troubleshooting high latency with 'Select 1' in Azure Database for MySQL

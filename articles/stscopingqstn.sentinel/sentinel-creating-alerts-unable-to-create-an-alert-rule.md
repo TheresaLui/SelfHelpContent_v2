@@ -10,8 +10,9 @@
     supportTopicIds="32691182"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-creating-alerts-unable-to-create-an-alert-rule"
+	ownershipId="Azure_Sentinel"
 />
 
 # Unable to create an alert rule

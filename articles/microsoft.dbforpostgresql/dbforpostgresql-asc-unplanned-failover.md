@@ -12,13 +12,14 @@
 	selfHelpType="rca"
 	supportTopicIds="32628416"
 	resourceTags="windows, linux"
-	productPesIds="16222"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	productPesIds="16222, 17067"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
-# Can't connect PostgreSQL database server: unplanned failover
+# Can't connect to PostgreSQL server: unplanned failover
 
 <!--issueDescription-->
-Your server <!--$ServerName-->ServerName<!--/$ServerName--> was down at <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) due to unplanned failover with due to <!--$RCA-->RCA<!--/$RCA-->.
+Your server <!--$ServerName-->ServerName<!--/$ServerName--> was unavailable starting at <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) due to <!--$RCA-->RCA<!--/$RCA-->.
 <!--/issueDescription-->
 
 ## **Recommended Documents**

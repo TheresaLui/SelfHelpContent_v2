@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32683757"
                 productPesIds="16450"
-                cloudEnvironments="Public,Fairfax"
+                cloudEnvironments="Public,Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="problemscoping-networking-api-server-timeout"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # API Server Connectivity and Timeout
 ---

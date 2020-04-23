@@ -10,8 +10,9 @@
 	supportTopicIds="32633529"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="47524913-44b4-4dfe-be41-2de2326cae8c"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # how to/vm size guidelines

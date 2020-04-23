@@ -10,8 +10,9 @@
     supportTopicIds="32636435"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="e9c874df-9673-4c96-a832-c84a0cb79d3e"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsights HDFS commands do not work - ADLS in Standard Cluster

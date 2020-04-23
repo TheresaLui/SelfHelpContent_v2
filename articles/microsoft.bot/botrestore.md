@@ -10,8 +10,9 @@
 	supportTopicIds="32688658"
 	resourceTags=""
 	productPesIds="16152"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="0E06234B-81EE-4E83-890A-48DA573FA3DA"
+	ownershipId="Compute_BotService"
 />
 # Restore a Bot
 

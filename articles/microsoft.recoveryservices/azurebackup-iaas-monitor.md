@@ -5,12 +5,13 @@
 	resource="vaults"
 	authors="saurabhsensharma"
 	displayOrder="5"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32553291"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="7786d3f4-48b4-459f-8d12-d3f27e0e7cdd"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 

@@ -9,8 +9,9 @@
 	supportTopicIds="32581612"
 	resourceTags=""
 	productPesIds="14748,16170"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="7f672a4e-97d1-48e0-a711-da6005dad24a"
+	ownershipId="Compute_AppService"
 />
 
 # Problems with WebJobs/WebJobs SDK

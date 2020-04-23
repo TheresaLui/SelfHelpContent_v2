@@ -9,8 +9,9 @@
 	supportTopicIds="32606474"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="a3230ec7-9b2d-40ab-87b1-93236cb09b7d"
+	ownershipId="Compute_AppService"
 />
 
 # configuration and management/authentication and authorization

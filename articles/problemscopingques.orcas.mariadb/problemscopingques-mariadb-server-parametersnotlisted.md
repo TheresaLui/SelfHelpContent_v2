@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640154"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-server-parameter_notlisted"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Server Parameters - Server parameter not listed
 ---
@@ -33,8 +34,16 @@
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "parameter_scenario",
             "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What scenario the parameter(s) is used for",
+            "watermarkText": "Provide your scenario",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
             "watermarkText": "Provide your repro steps and other information about your issue",

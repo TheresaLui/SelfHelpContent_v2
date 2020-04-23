@@ -10,8 +10,9 @@
 	supportTopicIds="32633157"
 	resourceTags=""
 	productPesIds="16094"
-	cloudEnvironments="public, blackforest, fairfax, mooncake"
+	cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
 	articleId="60306048-12bf-413b-be8b-89b1eccb809e"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Modify local network gateway settings

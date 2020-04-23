@@ -11,7 +11,8 @@
 	supportTopicIds="32684505"
 	productPesIds="16666"
 	articleId="5d66987d-73a4-4ac9-a1f6-11c732cc61f4"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Provisioning from Azure AD to SaaS (Including SCIM) Apps - Problem affecting a single user

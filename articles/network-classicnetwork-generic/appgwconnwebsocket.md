@@ -10,8 +10,9 @@
 	supportTopicIds="32639117"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="connectivity-web-socket"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Connectivity WebSocket

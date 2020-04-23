@@ -9,8 +9,9 @@
 	supportTopicIds="32680963,32680985"
 	resourceTags=""
 	productPesIds="16509"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="b3e4b85c-cdc9-4472-adcf-d8c2b05df336"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # Messages are lost or my device runs out of resources after going offline

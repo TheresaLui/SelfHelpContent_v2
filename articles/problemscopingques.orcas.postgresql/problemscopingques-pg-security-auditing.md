@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639967"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-security-auditing"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Security - Auditing
 ---

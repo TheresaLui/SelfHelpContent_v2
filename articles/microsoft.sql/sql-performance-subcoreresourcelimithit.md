@@ -13,7 +13,8 @@
     supportTopicIds="32630434,32630450,32630459"
     resourceTags=""
     productPesIds="13491"
-    cloudEnvironments="public,blackForest,fairfax,mooncake"
+    cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # We ran diagnostics on your resource and found resource limits hit.

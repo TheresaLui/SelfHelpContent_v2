@@ -13,7 +13,8 @@
     supportTopicIds="32560536"
     resourceTags=""
     productPesIds="15804"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+	ownershipId="CloudNet_DNS"
 />
 
 # Troubleshooting Performance issues related to DNS resolution

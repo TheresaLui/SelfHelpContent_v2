@@ -10,8 +10,9 @@
 	supportTopicIds="32574719"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="088066b0-5fd9-476a-9fa2-6d6949c584ef"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Failover and Failback Azure VM between Azure regions

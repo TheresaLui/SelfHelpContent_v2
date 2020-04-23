@@ -10,8 +10,9 @@
 	supportTopicIds="32411885,32411852"
 	resourceTags="redhat"
 	productPesIds="15797"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="9b3d8acb-5801-4c35-80f9-bcd277d78ef1"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Advisory

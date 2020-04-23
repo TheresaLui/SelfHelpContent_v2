@@ -12,7 +12,8 @@ selfHelpType="diagnostics"
 supportTopicIds="32539943, 32586802"
 resourceTags="windows" 
 productPesIds="15480" 
-cloudEnvironments="public" 
+cloudEnvironments="public, Fairfax, usnat, ussec" 
+	ownershipId="CloudNet_AzureExpressRoute"
 /> 
 # Express Route Circuit Diagnostic Result 
 Azure has run diagnostics and found an issue:  the circuit is in an "Unexpected" Provisioning State.  Provisioning an ExpressRoute circuit establishes a Layer 2 connection.  In the ExpressRoute Essentials blade, the "Circuit Status must be "Enabled" and the Provider Status "Provisioned" in order to be used.

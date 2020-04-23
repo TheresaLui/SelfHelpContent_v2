@@ -7,8 +7,9 @@
   selfHelpType="generic"
   supportTopicIds="32570262"
   productPesIds="14785,16575"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="0e76fac2-91cb-4a74-82e4-7cce5942f4ab"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Problems configuring or registering my application

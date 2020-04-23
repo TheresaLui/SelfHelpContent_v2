@@ -9,8 +9,9 @@
 	supportTopicIds="32546099"
 	resourceTags=""
 	productPesIds="16098"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="f29a7f33-d37e-4084-9538-e747ee6183d6"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # probe

@@ -11,8 +11,9 @@
 	supportTopicIds="32596861"
 	resourceTags="appdev"
 	productPesIds="16575"
-	CloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="active-directory-application-redirecturi-misconfigured"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 # I received an error related to the reply url
 

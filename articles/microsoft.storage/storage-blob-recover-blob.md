@@ -11,8 +11,9 @@
 	supportTopicIds="32608638"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="7e882f40-1c40-4872-ba02-8f59390d44fd"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Recover deleted Blob

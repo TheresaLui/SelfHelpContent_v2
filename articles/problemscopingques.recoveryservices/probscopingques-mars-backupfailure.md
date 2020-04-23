@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553275"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="9e7d5d78-5ea7-4985-ac04-19ee33642d4d"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MARS backup failure
 ---

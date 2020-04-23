@@ -10,8 +10,9 @@
     supportTopicIds="32728882"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="e0e3fb16-113a-483b-ba14-e6ee59f1c62b"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps - Office 365 Connector

@@ -10,8 +10,9 @@
 	supportTopicIds="32633405"
 	resourceTags=""
 	productPesIds="13186"
-	cloudEnvironments="public,BlackForest,Fairfax, MoonCake"
+	cloudEnvironments="public,BlackForest,Fairfax, MoonCake, usnat, ussec"
 	articleid="servicebus-howdoi-client-libraries"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Questions with SB client libraries or API

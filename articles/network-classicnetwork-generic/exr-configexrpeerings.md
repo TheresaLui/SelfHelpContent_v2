@@ -10,8 +10,9 @@
 	supportTopicIds="32627979"
 	resourceTags=""
 	productPesIds="15480"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="0504dbbd-eb4f-4f70-b842-b39882e3ea38"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # Configure ExpressRoute Peerings

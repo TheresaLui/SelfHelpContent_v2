@@ -7,11 +7,12 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636049"
+    supportTopicIds="32730234"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="public, MoonCake, fairfax"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     articleId="5a12fb4f-fc19-4cb6-834b-6cc5851a8172"
+    ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Permission error message from Policy

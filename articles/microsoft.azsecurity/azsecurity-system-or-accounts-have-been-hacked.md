@@ -9,8 +9,9 @@
 	supportTopicIds="32565559"
 	resourceTags="Windows"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="72bcb23b-67b2-48e2-aa80-9098192045c6"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Suspected Malware, Safety Bulletins, and Security Bulletins/System or accounts have been hacked

@@ -10,8 +10,9 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds="16098"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="8deb7553-0965-45d3-a66d-895655a50a6b"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Azure Load Balancer backend pool connection issues

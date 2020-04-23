@@ -10,8 +10,9 @@
     supportTopicIds="32615531,32615526,32639640"
     resourceTags=""
     productPesIds="15571,16470,15797,16454,16342"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="d160cd1f-4883-415c-ad18-8e2c146743d7"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Cannot connect to my VM

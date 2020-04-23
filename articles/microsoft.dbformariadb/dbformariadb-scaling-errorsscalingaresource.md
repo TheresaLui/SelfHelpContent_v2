@@ -10,9 +10,10 @@
     supportTopicIds="32640119"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="50905891-e140-4f61-a758-41493777c12d"
-    />
+    	ownershipId="AzureData_AzureDatabaseforMariaDB"
+/>
 
 # Error while scaling a resource in Azure Database for MariaDB
 

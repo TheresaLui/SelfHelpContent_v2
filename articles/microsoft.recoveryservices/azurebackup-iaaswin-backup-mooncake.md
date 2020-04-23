@@ -6,12 +6,13 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="24"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-iaaswin-backup-mooncake"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Diagnose and resolve issues with Windows Azure virtual machine backup

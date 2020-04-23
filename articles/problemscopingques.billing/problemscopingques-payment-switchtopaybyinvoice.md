@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632941"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 # Switch to Pay by Invoice
 ---
@@ -192,6 +193,7 @@
             "id": "justification_details",
             "order": 14,
             "controlType": "multilinetextbox",
+	    "useAsAdditionalDetails": true,
             "displayLabel": "Provide justification on why you prefer Invoice option over credit card",
             "required": false
         }

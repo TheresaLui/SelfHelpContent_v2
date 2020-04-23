@@ -6,6 +6,7 @@
     articleId="02cfb5ef-a0c1-4633-9854-031fbda09946_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Use Managed Disks to improve data reliability
 ---

@@ -13,7 +13,8 @@
 	supportTopicIds="32689368, 32689405, 32689421, 32689437"
 	resourceTags="isv"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Azure Managed Services Offer Preview Troubleshooting

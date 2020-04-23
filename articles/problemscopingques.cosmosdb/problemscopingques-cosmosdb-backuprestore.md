@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions" 
 	supportTopicIds="32636805,32636825"
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="a7dc710a-d040-4c21-9ab6-53c85567d58e"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # CosmosDB Backup and restore Info
 ---
@@ -47,9 +48,16 @@
             ],
             "required": true
         },
+        {
+            "id": "sourceaccount_name",
+			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "Name of the database account to restore",
+			"required": true
+        },
 		{
             "id": "restore_point",
-            "order": 3,
+            "order": 4,
 			"visibility": "request_type == Restore of deleted or corrupted data",
 			"controlType": "datetimepicker",
 			"displayLabel": "Restore point of your data (Required)",
@@ -58,7 +66,7 @@
         },
 		{
             "id": "restore_all",
-            "order": 4,
+            "order": 5,
 			"visibility": "request_type == Restore of deleted or corrupted data",
             "controlType": "dropdown",
             "displayLabel": "Restore all databases and collections under your account?",
@@ -82,7 +90,7 @@
         },
         {
             "id": "database_name",
-			"order": 5,
+			"order": 6,
 			"visibility": "restore_all == No",
 			"controlType": "textbox",
 			"displayLabel": "Database to restore",
@@ -90,7 +98,7 @@
         },
         {
             "id": "collection_name",
-			"order": 6,
+			"order": 7,
 			"visibility": "restore_all == No",
 			"controlType": "textbox",
 			"displayLabel": "Collections to restore (semicolon separated)",
@@ -99,7 +107,7 @@
 		{
             "id": "backup_interval",
 			"visibility": "request_type == Update backup policy",
-            "order": 7,
+            "order": 8,
             "controlType": "textbox",
             "displayLabel": "How often would you like your backups to be performed? (hours)",
             "required": true
@@ -107,7 +115,7 @@
 		{
             "id": "backup_retention",
 			"visibility": "request_type == Update backup policy",
-            "order": 8,
+            "order": 9,
             "controlType": "textbox",
             "displayLabel": "How long would you like your backups to be saved? (hours)",
             "required": true

@@ -10,8 +10,9 @@
 	supportTopicIds="32607516"
 	resourceTags=""
 	productPesIds="16072"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="189c3727-ebd3-4d15-9498-7a29b19e85d1"
+	ownershipId="Compute_AppService"
 />
 
 # authentication and authorization/Authentication through custom code

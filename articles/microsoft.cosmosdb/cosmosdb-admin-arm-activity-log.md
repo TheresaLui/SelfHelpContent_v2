@@ -9,10 +9,11 @@
     supportTopicIds="32681007"
     resourceTags=""
     productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     articleId="cosmosdb-admin-arm-activity-log"
     displayOrder="27"
     category="Administration"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Resource Manager (ARM) Deployments

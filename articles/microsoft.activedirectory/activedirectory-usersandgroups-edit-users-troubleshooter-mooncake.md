@@ -10,6 +10,7 @@
     resourceTags="userandgroups_overview,userandgroups_user"
     cloudEnvironments="MoonCake"
     articleId="activedirectory-usersandgroups-edit-users-troubleshooter-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 

@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605793"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="e8dd5b26-088b-4b3f-a448-7c634e2c9dcf"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions unable to configure or disable DB backup
 ---

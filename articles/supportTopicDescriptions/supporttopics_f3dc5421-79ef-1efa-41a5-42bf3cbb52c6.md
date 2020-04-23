@@ -5,8 +5,9 @@
   ms.author="akjoshi, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="f3dc5421-79ef-1efa-41a5-42bf3cbb52c6"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="subscription-management-supportopicdescription"
+  ownershipid="AzureKeyVault_KeyVault"
   icmteam="icmteam"
   icmservice="icmservice"
   feedbackemail="prdasneo@microsoft.com" />
@@ -114,9 +115,9 @@
     {
       "id": "7e95cb4a-9d5a-8cee-13c2-e4ee1c713e2f",
       "longDescription": "",
-      "shortDescription": "Questions or need assistance with accessing/moving your subscriptions or resources",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance with accessing or moving your subscriptions",
+      "searchTags": "subscription;accessing subscription",
+      "category": "Access and Resource management",
       "useInDiagnoseAndSolve": "true"
     },
     {

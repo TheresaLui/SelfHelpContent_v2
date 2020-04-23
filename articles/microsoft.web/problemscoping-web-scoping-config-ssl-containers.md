@@ -7,9 +7,10 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32440123"
 	productPesIds="16333"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="e8fd8bda-5616-44d8-8980-bceb60ad2943"
+	ownershipId="Compute_AppService"
 />
 
 # Configuring SSL

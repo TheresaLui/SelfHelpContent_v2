@@ -10,8 +10,9 @@
 	supportTopicIds="32589415"
 	resourceTags=""
 	productPesIds="15571, 15797, 16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="249cdea5-5761-4150-8572-8978204e0991"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Planned Maintenance/general questions or issues

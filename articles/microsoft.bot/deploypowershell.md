@@ -10,8 +10,9 @@
 	supportTopicIds="32688662"
 	resourceTags=""
 	productPesIds="16152"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="8E4C8F90-2F19-4D7E-921C-990A1358E98D"
+	ownershipId="Compute_BotService"
 />
 # Deploy using PowerShell
 

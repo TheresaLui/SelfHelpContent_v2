@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="devicecompliance_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="667160e9-0135-465f-bb20-5fdda5733534"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # In Intune in the Azure portal > Compliance policies > Device Compliance, I see "iOS device is currently busy" in my list of policies.

@@ -12,8 +12,9 @@
 	selfHelpType="rca"
 	supportTopicIds="32628458, 32628418"
 	resourceTags="windows, linux"
-	productPesIds="16222"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	productPesIds="16222, 17067"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # PostgreSQL server marked read-only because server storage is full

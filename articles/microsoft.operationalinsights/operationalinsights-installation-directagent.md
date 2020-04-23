@@ -10,8 +10,9 @@
     supportTopicIds="32536527"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="8761c334-ba72-4256-9649-c3217b85ec4c"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # installation-directagent

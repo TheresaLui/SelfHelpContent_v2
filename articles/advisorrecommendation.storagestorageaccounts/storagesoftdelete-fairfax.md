@@ -6,6 +6,7 @@
     articleId="42dbf883-9e4b-4f84-9da4-232b87c4b5e9_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Enable Soft Delete to protect your blob data
 ---

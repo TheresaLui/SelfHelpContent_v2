@@ -10,8 +10,9 @@
 	supportTopicIds="32595638,32633462,32633470,32633474,32633475"
 	resourceTags="linux"
 	productPesIds="16450"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="63005ef9-f17c-4f71-83da-839d21c5c1a7"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Diagnose and resolve Kubernetes creation issues

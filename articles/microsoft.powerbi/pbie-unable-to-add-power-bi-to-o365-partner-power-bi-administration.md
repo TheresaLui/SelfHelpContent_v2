@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628167"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="a09d1b9e-e24c-766d-632a-ffdab050b66d"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Unable to add Power BI to Office 365 partner subscription

@@ -14,7 +14,8 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Credit requests and refunds
 Partners may have different reasons for asking for credit or refunds. Follow the steps below to submit a request that can efficiently evaluated.

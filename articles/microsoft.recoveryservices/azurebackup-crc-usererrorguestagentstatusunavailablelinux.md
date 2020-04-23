@@ -12,7 +12,8 @@
 	supportTopicIds="32553276"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # User Error Guest Agent Status Unavailable: Linux

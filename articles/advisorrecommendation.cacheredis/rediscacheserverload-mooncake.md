@@ -6,6 +6,7 @@
     articleId="a25fccfd-854d-4c1a-9fae-aa0597a45e27_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
+	ownershipId="RedisCache_RedisCache"
 />
 # Improve your Cache and application performance when running with high server load
 ---

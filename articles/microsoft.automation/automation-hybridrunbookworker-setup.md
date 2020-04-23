@@ -10,8 +10,9 @@
     supportTopicIds="32599939"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="700a5b2b-7aec-4816-bb4f-4cd60893b2c3"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Setup Hybrid Runbook Worker

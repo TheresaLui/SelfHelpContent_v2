@@ -10,12 +10,27 @@
     supportTopicIds="32636507"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, mooncake"
+    cloudEnvironments="public, mooncake, Fairfax, usnat, ussec"
     articleId="bfa4e56c-3fbc-461d-a7d5-1e485b42932b"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight: Virtual Network
 
-## Common HDInsight VNET issues
+**Known issues**
+
+As of March 18th, 2020 some Azure HDInsight customers have received error notifications when creating or scaling HDInsight clusters in some regions. Errors related to this issue include:
+
+- Internal server error occurred while processing the request. Please retry the request or contact support.
+- At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/DeployOperations for usage details
+- User SubscriptionId '\<Subscription ID\>' does not have cores left to create resource '\<cluster name>'. Required: \<X\>, Available: 0.
+
+Engineers are aware of this issue and are actively investigating.
+
+For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-release-notes#known-issues) page.
+
+For additional help, continue creating this support request.
+
+**Common HDInsight VNET issues**
 
 **I have created my cluster but forgot to add it to my VNet**
 
@@ -31,11 +46,19 @@ If you use either network security groups or user defined routes to control traf
 
 **Ensure you have the required ports open**
 
-If you plan to use a firewall, and access the cluster from outside on certain ports, you might need to allow traffic on those ports needed for your scenario. [Click here for the list of ports for specific services](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-port-settings-for-services).
+If you plan to use a firewall, and access the cluster from outside on certain ports, you might need to allow traffic on those ports needed for your scenario. [Click here for the list of ports for specific services](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-port-settings-for-services).
 
 **Error: HiveMetastoreSchemaInitializationFailedErrorCode**
 
 Solution: If you are using a custom Hive metastore, please run 'Hive Schema Tool' against your metastore to check for possible issues with metastore configuration. Also Check if Azure services or subnet is whitelisted in sql server firewall.
+
+**Error: Unable to connect to cluster**
+
+Possible Solution: If you are using user-defined routes (UDRs), you should specify a route and allow outbound traffic from the VNET to the above IPs with the next hop set to "Internet".
+
+Please review the following links for more information:
+* [HDInsight Controlling network traffic](https://docs.microsoft.com/azure/hdinsight/hdinsight-plan-virtual-network-deployment#networktraffic)
+* [HDInsight management IP addresses](https://docs.microsoft.com/azure/hdinsight/hdinsight-management-ip-addresses)
 
 ## **Recommended Documents**
 

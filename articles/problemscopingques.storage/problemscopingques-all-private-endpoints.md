@@ -7,8 +7,9 @@
 	articleId="StorageScoping_all_private_endpoints"
 	supportTopicIds="32689875,32689876,32689877,32689149,32689150,32689151,32689867,32689868,32689869,32689871,32689872,32689873,32689879,32689880,32689881"
 	productPesIds="15629,16459,16460,16598,16461,16462"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Azure Private Endpoint Connectivity Issues
 ---

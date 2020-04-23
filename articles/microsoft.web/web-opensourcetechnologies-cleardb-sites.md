@@ -10,8 +10,9 @@
 	supportTopicIds="32550703"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
 	articleId="0c0741c9-00a1-49e2-b642-c7d95423c2d4"
+	ownershipId="Compute_AppService"
 />
 
 # Open Source Technologies/ClearDB

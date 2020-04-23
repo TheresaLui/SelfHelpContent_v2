@@ -9,8 +9,9 @@
 	supportTopicIds="32605193,32608325,32609713,32608326,32605195,32608327,32608328,32608329,32608330"
 	resourceTags=""
 	productPesIds="16478"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="ffec6649-fad3-40bc-b233-444daa633943"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # Azure CycleCloud
