@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "149f350b-ec67-1d49-ea9f-b0bcde639e4d",
+      "longDescription": "",
+      "shortDescription": "Problems  creating or managing Azure resource role based access control assignments.",
+      "searchTags": "issue with RBAC role assigments ",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ab7f80a6-b84b-af96-18c9-c5a3e6c03fb1",
       "longDescription": "",
       "shortDescription": "Problems creating or managing custom Azure resource role definitions via Azure PowerShell or Azure CLI",
