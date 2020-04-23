@@ -33,7 +33,7 @@
       "id": "0c73b179-e6da-2cb9-fd5f-59a77c4a95c2",
       "longDescription": "",
       "shortDescription": "Problems with On-Premises MFA server deployments like activations and configuration",
-      "searchTags": "issue with MFA server deployment",
+      "searchTags": "issues with MFA server activation",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
