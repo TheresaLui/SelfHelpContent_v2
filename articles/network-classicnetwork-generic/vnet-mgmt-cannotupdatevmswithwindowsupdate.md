@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15526"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId=""
+	articleId="vnet-mgmt-cannotupdatevmswithwindowsupdate"
 	ownershipId="CloudNet_VirtualNetwork"
 />
 
@@ -20,7 +20,7 @@
 ## **Recommended Documents**
 [Plan your deployment for updating Windows Virtual Machines in Azure](https://docs.microsoft.com/azure/architecture/example-scenario/wsus/)
 
-## **Recommended Troubleshooting Steps**
+## **Recommended Steps**
 
 If the WSUS is not able to download content, the following NSG rules need to be in place:
 * Add inbound/outbound NSG rule to allow traffic to/from the Internet on Port 80.
