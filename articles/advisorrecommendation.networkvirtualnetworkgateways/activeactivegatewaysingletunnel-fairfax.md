@@ -1,15 +1,16 @@
 <properties
     pageTitle="Configure redundant tunnel for your active-active VPN gateway"
     description="Configure redundant tunnel for your active-active VPN gateway"
-    authors="aadevteam"
+    authors="anzaman"
     ms.author="alzam"
-    articleId="f3be5a9b-2583-4a1c-b774-2481c00ccb04_Public"
+    articleId="f3be5a9b-2583-4a1c-b774-2481c00ccb04_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Configure redundant tunnel for your active-active VPN gateway
+<!--issueDescription-->
 ---
 {
   "recommendationOfferingId": "658a4a19-9c40-472b-a918-3f550848421a",
@@ -18,7 +19,7 @@
   "recommendationTypeId": "f3be5a9b-2583-4a1c-b774-2481c00ccb04",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "Microsoft.Cloud.azureadvisoractiveactivevpngateways",
+    "streamNamespace": "Microsoft.Cloud.activeactivevpngatewaysazureadvisorFF",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
@@ -29,13 +30,13 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "azvpnpms@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "MDM://vpngateway",
+      "service": "VPN Gateway",
+      "team": "VPN Gateway"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "10c9bf14-f656-4413-a32c-176b6f203911"
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
