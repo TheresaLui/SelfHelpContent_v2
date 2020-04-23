@@ -259,8 +259,8 @@
     {
       "id": "3bbbcb43-c3a5-64eb-eb73-f8b254e36d32",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Covers issues related to configuration of a failover cluster, RDS, or disk encryption for a VM running in Azure",
+      "searchTags": "Config",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
