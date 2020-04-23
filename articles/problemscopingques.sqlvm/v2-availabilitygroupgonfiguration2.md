@@ -3,7 +3,7 @@
 	 authors="ujpat"
      ms.author="ujpat"
 	 selfHelpType="problemScopingQuestions"
-	 supportTopicIds="32740063"
+	 supportTopicIds="32633502"
 	 productPesIds="14745"
 	 cloudEnvironments="public,fairfax, usnat, ussec"
 	 schemaVersion="1"
