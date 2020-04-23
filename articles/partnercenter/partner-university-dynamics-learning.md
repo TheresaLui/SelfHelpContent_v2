@@ -20,6 +20,7 @@
 
 # Get more information and support on partner training tools
 
+Get more information and support on partner training tools
 
 ## **Recommended Steps**
 

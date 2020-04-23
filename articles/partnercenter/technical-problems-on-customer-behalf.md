@@ -20,6 +20,7 @@
 
 # This topic is to report problems with Azure, Dynamics 365, Enterprise Mobility Suite (EMS), Intune, Microsoft 365 or Office 365 on behalf of a CSP or Non-CSP customer
 
+This topic is to report problems with Azure, Dynamics 365, Enterprise Mobility Suite (EMS), Intune, Microsoft 365 or Office 365 on behalf of a CSP or Non-CSP customer
 
 ## **Recommended Steps**
 

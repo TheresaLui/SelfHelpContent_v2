@@ -2,12 +2,12 @@
   pagetitle="Support topic description for VM running Windows"
   description="Support topic description for Virtual Machine running Windows"
   authors="scottAzure, elixirsys2"
-  ms.author="scotro, tibasham"
+  ms.author="scotro, tibasham, alexsmit"
   selfhelptype="SupportTopicDescription"
   productpesids="6f16735c-b0ae-b275-ad3a-03479cfa1396"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="virtual-machine-running-windows-supporttopicdescription"
-  ownershipid="StorageMediaEdge_StorageTables"
+  ownershipid="Compute_VirtualMachines_Content"
   icmteam="icmteam"
   icmservice="icmservice"
   feedbackemail="email" />
@@ -507,16 +507,16 @@
     {
       "id": "6571a5f6-9166-d111-d125-7e19b809f4f3",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Covers issues using Azure Disk Encryption for a virtual machine running in Azure",
+      "searchTags": "ADE",
+      "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
       "id": "67c173d3-1cb5-d61a-3502-a8d6bc279b22",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Troubleshoot issues with connecting to your VM via RDP or SSH due to configuration or other changes",
+      "searchTags": "Connectivity",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -587,8 +587,8 @@
     {
       "id": "7a936404-b37e-01e2-1616-571db2e113b0",
       "longDescription": null,
-      "shortDescription": "Assitance with resizing the partition within the guest OS or the virtual disk",
-      "searchTags": "",
+      "shortDescription": "Assistance with resizing the partition within the guest OS or the virtual disk",
+      "searchTags": "Resize",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -875,8 +875,8 @@
     {
       "id": "b82154fe-4659-31f6-584e-fcc90408a34a",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Covers issues related to security concerns with virtual machines in Azure",
+      "searchTags": "Security",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
