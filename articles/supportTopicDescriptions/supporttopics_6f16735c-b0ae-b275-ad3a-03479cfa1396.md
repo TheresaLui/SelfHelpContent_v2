@@ -323,8 +323,8 @@
     {
       "id": "4c8242d3-5e7c-8369-d5fb-95c4cd3de057",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Troubleshoot issues that can affect performance such as high usage of CPU, disk space, or memory",
+      "searchTags": "performance",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
