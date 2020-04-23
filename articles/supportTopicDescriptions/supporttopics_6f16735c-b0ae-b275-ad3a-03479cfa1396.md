@@ -299,9 +299,9 @@
     {
       "id": "44e1bd26-fbd8-a7f9-f8de-8a2b47ccb27e",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Troubleshoot issues with activating Windows for a virtual machine running in Azure",
+      "searchTags": "Activation",
+      "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
