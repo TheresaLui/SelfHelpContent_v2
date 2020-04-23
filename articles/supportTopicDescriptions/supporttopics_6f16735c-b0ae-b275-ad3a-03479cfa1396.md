@@ -739,8 +739,8 @@
     {
       "id": "9a046a3b-fb3f-0950-57a7-dd04a4c0a3c6",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Covers issues related to installation, execution, and updating of extensions for virtual machines on Azure",
+      "searchTags": "Extensions",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
     },
