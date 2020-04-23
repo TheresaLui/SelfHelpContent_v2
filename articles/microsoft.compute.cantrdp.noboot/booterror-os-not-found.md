@@ -29,11 +29,11 @@ When you use [Boot diagnostics](https://docs.microsoft.com/azure/virtual-machine
 
 1. First, use [steps 1-3 of the VM Repair Commands](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/repair-windows-vm-using-azure-virtual-machine-repair-commands#repair-process-example) to prepare a Repair VM and then connect to it using Remote Desktop Connection.
 
-2. After preparing the repair VM, follow the directions for either [Generation 1](#gen1) or [Generation 2](#gen2) VMs.
+2. After preparing the repair VM, follow the directions in either **Generation 1** or **Generation 2** VMs section.
 
-3. If you are still unable to resolve the issue using the previous steps, then [follow the directions to fix a ransomware attack](#ra).
+3. If you are still unable to resolve the issue using the previous steps, then go to the **directions for a ransomware attack** section.
 
-### Directions for a Generation 1 VM <a name="gen1"><a/>
+### Directions for a Generation 1 VM
 
 1. Open an elevated command prompt (run as administrator) and enter `bcdedit /store <Letter of the boot partition>:\boot\bcd /enum` to list the BCD store data.
 
@@ -43,7 +43,7 @@ When you use [Boot diagnostics](https://docs.microsoft.com/azure/virtual-machine
 
 	1. Once listed, note the Windows Boot Loader **identifier** value, which you will use later.
 
-	2. If this errors out because there's no `\boot\bcd` file, then go to the [Ransomware attack directions](#ra).
+	2. If this errors out because there's no `\boot\bcd` file, then skip ahead to the **directions for a ransomware attack** section.
 
 2. In the elevated command prompt, enter `diskpart` to open the DISKPART tool.
 
@@ -116,11 +116,9 @@ When you use [Boot diagnostics](https://docs.microsoft.com/azure/virtual-machine
 	    bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /ems {current} on 
 	    bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /emssettings EMSPORT:1 EMSBAUDRATE:115200
 
-10. [Use step 5 of the VM repair commands to reassemble the VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/repair-windows-vm-using-azure-virtual-machine-repair-commands#repair-process-example) and then test if this has fixed your VM. If unsuccessful, continue to the [Ransomware attack directions](#ra).
+10. [Use step 5 of the VM repair commands to reassemble the VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/repair-windows-vm-using-azure-virtual-machine-repair-commands#repair-process-example) and then test if this has fixed your VM. If unsuccessful, continue to the **ransomware attack directions** section.
 
----
-
-### Directions for a Generation 2 VM <a name="gen2"><a/>
+### Directions for a Generation 2 VM
 
 1. In Windows search, type `Disk Management` and then open the **Disk Management** tool.
 
@@ -156,7 +154,7 @@ When you use [Boot diagnostics](https://docs.microsoft.com/azure/virtual-machine
 
 	1. Once listed, note the Windows Boot Loader **identifier** value, which you will use later.
 
-	2. If this errors out because there's no `\boot\bcd` file, then go to the [Ransomware attack directions](#ra).
+	2. If this errors out because there's no `\boot\bcd` file, then skip ahead to the **ransomware attack directions** section.
 
 7. Enter the following commands:
 
@@ -193,9 +191,9 @@ When you use [Boot diagnostics](https://docs.microsoft.com/azure/virtual-machine
 	    bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /ems {current} on 
 	    bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /emssettings EMSPORT:1 EMSBAUDRATE:115200
 
-11. [Use step 5 of the VM repair commands to reassemble the VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/repair-windows-vm-using-azure-virtual-machine-repair-commands#repair-process-example) and then test if this has fixed your VM. If unsuccessful, continue to the [Ransomware attack directions](#ra).
+11. [Use step 5 of the VM repair commands to reassemble the VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/repair-windows-vm-using-azure-virtual-machine-repair-commands#repair-process-example) and then test if this has fixed your VM. If unsuccessful, continue to the **ransomware attack directions** section.
 
-### Directions for Ransomware Attack <a name="ra"><a/>
+### Directions for a Ransomware Attack
 
 1. Open a **File Explorer** window and navigate to **View > Options > Change folder and search options**.
 
