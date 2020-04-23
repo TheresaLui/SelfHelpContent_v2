@@ -7,7 +7,7 @@
 	authors="parthp"
 	ms.author="parthp"
 	displayOrder=""
-	articleId="account_management_accountmigrationfromCPPtoPC"
+	articleId="account_management_migration"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32689326, 32689410, 32689411, 32689412,32728051"
