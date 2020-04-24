@@ -18,7 +18,7 @@
 	OwnershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Account management - Account migration from CPP to PC
+# Account Management: Account Migration from CPP to PC
 
 Information about Account migration from CPP to PC.
 
