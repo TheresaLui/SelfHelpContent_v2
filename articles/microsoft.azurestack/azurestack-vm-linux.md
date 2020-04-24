@@ -34,8 +34,6 @@ You can deploy Linux virtual machines (VMs) on Azure Stack by adding a Linux-bas
 
 ### **Known Issues**
 
-Azure Stack version 1905 includes fixes to storage and compute services. For more information, see [Azure Stack Hotfix 1.1905.3.48](https://support.microsoft.com/help/4510078).
-
 * Queue messages: Messages in a queue expire immediately after creation and tagged for garbage collection. This issue may present in three cases:
     * Retrieval of resources in Azure Resource Manager will fail
     * Usage metric data is not collected and uploaded for processing
