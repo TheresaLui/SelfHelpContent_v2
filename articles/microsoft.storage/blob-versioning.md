@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
-	articleId="111464ba-5f96-4f41-b8a0-816f18f05cfb"
+	articleId="7814294f-ec0f-4ea0-97d8-ff090140acef"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
