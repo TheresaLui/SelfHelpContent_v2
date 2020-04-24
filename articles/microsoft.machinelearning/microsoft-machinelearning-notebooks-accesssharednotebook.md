@@ -20,7 +20,10 @@ To view shared Notebooks you have to have access to the workspace. Most users ar
 
 ## **Recommended Steps**
 1. Make sure the user you sent the link to has access to your workspace
-2. Go to [Access control](data-blade:Microsoft.MachineLearningServices.Access-control-(IAM)) on Azure Machine Learning workspace 
+1. In the Azure Portal, search "Machine Learning" 
+2. Click the "Machine Learning" service 
+3. Find your workspace, and click your workspace name to open the Machine Learning Workspace blabe.
+4. Go to "Access Control (IAM)"
 3. Check if the user you send the link to have access to your workspace.
 4. If the user doesn't have access, Click the "+ Add" button
 5. Add the user the appropriate level of access. 

@@ -19,7 +19,10 @@
 Your file might be more than 95MB. Most users are able to resolve their Compute Instance issue by using the following steps.
 
 ## **Recommended Steps**
-1. Go to [Overview](data-blade:data-blade:Microsoft.MachineLearningServices.Overview) on Azure Machine Learning workspace 
+1. In the Azure Portal, search "Machine Learning" 
+2. Click the "Machine Learning" service 
+3. Find your workspace, and click your workspace name to open the Machine Learning Workspace blabe.
+4. Go to "Overview"
 2. Click the Storage Link to be redirect to your Storage account for your workspace.
 3. Click "File Share" and select the file share with the prefix *code-*
 4. Go into the Users folder.
