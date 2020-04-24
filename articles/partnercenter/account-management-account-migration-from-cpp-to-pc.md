@@ -9,13 +9,13 @@
 	displayOrder=""
 	articleId="account_management_accountmigrationfromCPPtoPC"
 	diagnosticScenario=""
-	selfHelpType="generic"
+	SelfHelpType="generic"
 	supportTopicIds="32689326, 32689410, 32689411, 32689412,32728051"
-	clientIds='partnercenter'
+	clientIds="partnercenter"
 	resourceTags="marketplace"
 	productPesIds="15960,17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	OwnershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Account management - Account migration from CPP to PC
