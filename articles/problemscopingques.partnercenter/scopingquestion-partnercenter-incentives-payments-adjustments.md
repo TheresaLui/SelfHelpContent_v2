@@ -5,7 +5,7 @@
     ms.author="kimnich"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32739550,32739547,32739553,32739554,32739529"
-    productPesIds="17010"
+    productPesIds="17005"
     cloudEnvironments="public"
     schemaVersion="1"
     articleId="scopingquestion-partnercenter-incentives-payments-adjustment"
