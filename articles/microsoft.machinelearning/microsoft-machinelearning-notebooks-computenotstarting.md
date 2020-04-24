@@ -16,7 +16,7 @@
 
 # Compute not starting
 
-Your compute instance may have issues. Most users are able to resolve their Compute Instance issue by using the follwing steps.
+Your compute instance may have issues. Most users are able to resolve their Compute Instance issue by using the following steps.
 
 ## **Recommended Steps**
 1. Click "Compute" in the Azure ML Studio menu bar

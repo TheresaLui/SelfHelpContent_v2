@@ -21,7 +21,7 @@ Your file might be more than 95MB. Most users are able to resolve their Compute 
 ## **Recommended Steps**
 1. Go to [Overview](data-blade:data-blade:Microsoft.MachineLearningServices.Overview) on Azure Machine Learning workspace 
 2. Click the Storage Link to be redirect to your Storage account for your workspace.
-3. Click "File Share" and select the fileshare with the prefix *code-*
+3. Click "File Share" and select the file share with the prefix *code-*
 4. Go into the Users folder.
 5. This is the same directory as the File Explorer in Notebooks
 6. Try to upload your files here.

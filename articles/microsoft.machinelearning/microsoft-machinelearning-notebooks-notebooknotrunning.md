@@ -19,7 +19,7 @@
 If you notebook is not running, you might not be connect to a running compute instance. Most users are able to resolve their Notebook issue by using the following steps.
 
 ## **Recommended Steps**
-1. Check the Compute dropdown and make sure you are connected to a running compute
+1. Check the Compute drop down and make sure your notebook is connected to a running compute
 2. If you are connected to a running Compute, skip to step 4. If not, click the '+' button in the toolbar and create a new Compute Instance. Or pick a running Compute Instance from the Compute dropdown.
 3. For a new Compute Instance, wait a few minutes for you Compute to start and then run a cell.
 4. Your Compute Instance might have connection/authentication issues.

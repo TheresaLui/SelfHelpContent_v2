@@ -16,14 +16,14 @@
 
 # Can’t access Notebook shared with me by URL
 
-To view shared Notebooks you have to have access to the workspace. Most users are able to resolve their Notebook access issue by asking the user that sent the link to follow the follwing steps.
+To view shared Notebooks you have to have access to the workspace. Most users are able to resolve their Notebook access issue by asking the user that sent the link to follow the following steps.
 
 ## **Recommended Steps**
 1. Make sure the user you sent the link to has access to your workspace
 2. Go to [Access control](data-blade:Microsoft.MachineLearningServices.Access-control-(IAM)) on Azure Machine Learning workspace 
 3. Check if the user you send the link to have access to your workspace.
 4. If the user doesn't have access, Click the "+ Add" button
-5. Add the user the approirate level of access. 
+5. Add the user the appropriate level of access. 
 
 Note: Reader access is the minimum level of access to view a shared Notebook
 
