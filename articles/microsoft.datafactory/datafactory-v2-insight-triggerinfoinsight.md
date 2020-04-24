@@ -19,11 +19,10 @@
 
 # Data Factory Trigger Information
 
-## We ran diagnostics on your resource and found an issue
+## We ran diagnostics on your resource and found the following insights
 
 <!--issueDescription-->
-Your Pipeline **<!--$PipelineName-->[PipelineName]<!--/$PipelineName-->** has detected run failures.  One possible cause is that there was an bad request error on activity **<!--$ActivityName-->[ActivityName]<!--/$ActivityName-->**
-**Trigger Type:** <!--$triggerType-->[triggerType]<!--/$triggerType--><BR>**TriggerRun Status:** <!--$status-->[status]<!--/$status--><BR>**Trigger State before the run provided:** <!--$runTimeState-->[runTimeState]<!--/$runTimeState--><BR>**Trigger State at present:** <!--$currentState-->[currentState]<!--/$currentState--><BR>**Trigger Reason:** <!--$reason-->[reason]<!--/$reason-->
+**Trigger Name:** <!--$triggerName-->[triggerName]<!--/$triggerName--><BR>**Trigger Type:** <!--$triggerType-->[triggerType]<!--/$triggerType--><BR>**TriggerRun Status:** <!--$status-->[status]<!--/$status--><BR>**Trigger State before the run provided:** <!--$runTimeState-->[runTimeState]<!--/$runTimeState--><BR>**Trigger State at present:** <!--$currentState-->[currentState]<!--/$currentState--><BR>**Trigger Reason:** <!--$reason-->[reason]<!--/$reason-->
 <!--/issueDescription-->
 
 ## **Recommended Steps**
