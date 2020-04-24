@@ -36,11 +36,7 @@
   "version": 4.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/ephemeral-os-disks",
   "description": "Use Virtual Machines with Ephemeral OS Disk enabled to save cost and get better performance",
-  "longDescription": "With Ephemeral OS Disk, Customers get these benefits:
-  Save on storage cost for OS disk.
-  Get lower read/write latency to OS disk.
-  Faster VM Reimage operation by resetting OS (and Temporary disk) to its original state.
-  More preferrable for short-lived IaaS VMs or VMs with stateless workloads",
+  "longDescription": "With Ephemeral OS Disk, Customers get these benefits: Save on storage cost for OS disk. Get lower read/write latency to OS disk. Faster VM Reimage operation by resetting OS (and Temporary disk) to its original state. It is more preferrable to use Ephemeral OS Disk for short-lived IaaS VMs or VMs with stateless workloads",
   "potentialBenefits": "Reduced storage cost, lower read/write latency, faster reimage operation for OS disk. More preferrable for short-lived IaaS VMs or VMs with stateless workloads",
   "actions": [
     {
