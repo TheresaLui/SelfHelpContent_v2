@@ -1,5 +1,5 @@
 <properties 
-    pageTitle="Browser Exceptions/Operations data is incorrect or missing on Failures screen"
+    pageTitle="Browser Exceptions and Operations data is incorrect or missing on Failures screen"
     description="I am seeing incorrect data or exceptions/operations data is missing on failures screen"
     infoBubbleText="Here are some things to help with your browser exception and operation data issues"
     service="microsoft.insights"
@@ -15,7 +15,7 @@
 />
 # Browser Exceptions/Operations data is incorrect or missing on Failures screen
 
-## **Where's my data?**
+### **Where's my data?**
 We understand it can be frustrating when some or all your data is missing. The steps below have frequently resolved missing data issues; please try them out and let us know if it they don’t resolve your issue. 
 
 ## **Recommended Steps**
@@ -25,7 +25,7 @@ If you've configured your application to send data to Application Insights but a
 1. **If you aren't seeing any data at all**, validate that your instrumentation key is set correctly through your code or in your configuration file 
 2. **If you are missing Browser or Web page data**, validate that you have added  [Application Insights for JavaScript](https://docs.microsoft.com/en-us/azure/azure-monitor/app/javascript) to your application. 
 3. **If data is coming through**, but occasionally (or often) the data doesn't match what you expect 
-a. [double-check your sampling settings](https://docs.microsoft.com/en-us/azure/azure-monitor/app/sampling). For .NET applications, adaptive sampling is on-by-default, but generally only occurs at higher traffic volumes. 
+a. [double-check your sampling settings](https://docs.microsoft.com/azure/azure-monitor/app/sampling). For .NET applications, adaptive sampling is on-by-default, but generally only occurs at higher traffic volumes. 
 b. [Browser Exceptions data] Application Insights only tracks uncaught errors. If you have a global error handler, make sure you call `trackException` in it. 
 4. **If you have a Single Page Application**, ensure you have [configured your JavaScript SDK instance to work with Single Page Applications](https://docs.microsoft.com/en-us/azure/azure-monitor/app/javascript#single-page-applications). Otherwise, only the first route of your front-end will be tracked. 
 5. **If you used to see data but don't anymore**, validate that a deployment has not modified or removed Application Insights configuration or dependencies. If you have configured your application to send data through Status Monitor and web published, ensure you do not select the "delete existing files" option during publish. 
@@ -35,8 +35,8 @@ If none of these simple steps resolve your issue, there are more detailed checkl
 
 ## **Recommended Documents**
 
-* [Troubleshoot issues seeing data with ASP.Net applications](https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-troubleshoot-no-data)
-* [Troubleshoot issues seeing data with Java applications](https://docs.microsoft.com/en-us/azure/azure-monitor/app/java-troubleshoot)
-* [Troubleshoot issues with Application Insights Status Monitor](https://docs.microsoft.com/en-us/azure/azure-monitor/app/monitor-performance-live-website-now#troubleshooting-runtime-configuration-of-application-insights)
-* [Monitoring your client-side JavaScript Application](https://docs.microsoft.com/en-us/azure/azure-monitor/app/javascript)
-* [Review the complete list of supported SDKs + platforms ](https://docs.microsoft.com/en-us/azure/azure-monitor/app/platforms)
+* [Troubleshoot issues seeing data with ASP.Net applications](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data)
+* [Troubleshoot issues seeing data with Java applications](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot)
+* [Troubleshoot issues with Application Insights Status Monitor](https://docs.microsoft.com/azure/azure-monitor/app/monitor-performance-live-website-now#troubleshooting-runtime-configuration-of-application-insights)
+* [Monitoring your client-side JavaScript Application](https://docs.microsoft.com/azure/azure-monitor/app/javascript)
+* [Review the complete list of supported SDKs + platforms ](https://docs.microsoft.com/azure/azure-monitor/app/platforms)
