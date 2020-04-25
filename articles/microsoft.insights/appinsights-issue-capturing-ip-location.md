@@ -26,9 +26,9 @@ This does not affect data collected prior to February 5, 2018
 
 ## **Recommended Steps**
 
-IP address can be captured in a custom property if you wish, using the [Telemetry Initializers](https://docs.microsoft.com/en-us/azure/azure-monitor/app/api-filtering-sampling#add-properties-itelemetryinitializer). 
+IP address can be captured in a custom property if you wish, using the [Telemetry Initializers](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#add-properties-itelemetryinitializer). 
 
 ## **Recommended Documents**
 
-* [How Application Insights calculates city, country and other geolocation data.](https://docs.microsoft.com/en-us/azure/azure-monitor/faq#how-are-city-countryregion-and-other-geo-location-data-calculated)
-* [How to add telemetry initializers to add custom properties or modify telemetry data.](https://docs.microsoft.com/en-us/azure/azure-monitor/app/api-filtering-sampling)
+* [How Application Insights calculates city, country and other geolocation data.](https://docs.microsoft.com/azure/azure-monitor/faq#how-are-city-countryregion-and-other-geo-location-data-calculated)
+* [How to add telemetry initializers to add custom properties or modify telemetry data.](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling)
