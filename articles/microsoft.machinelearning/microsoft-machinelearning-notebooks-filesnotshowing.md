@@ -20,7 +20,7 @@ Most users are able to resolve their Studio Notebooks issue using the documentat
 If your file is not showing up in the File Explorer, your might have saved the file outside of the Users directory. Most users are able to resolve their File Explorer issue by using the following steps.
 
 ## **Recommended Steps**
-1. Make sure the file was saved in the /Users directory on the Compute Instance
+1. Make sure the file was saved in the ../code/Users directory on the Compute Instance
 
 ## **Recommended Documents**
 
