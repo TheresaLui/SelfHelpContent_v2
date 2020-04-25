@@ -24,7 +24,7 @@
 * [Servers REST API Documentation](https://docs.microsoft.com/rest/api/sql/servers)
 * [SQL tools and utilities for Azure SQL Database](https://docs.microsoft.com/sql/tools/overview-sql-tools?view=sql-server-2017)
 * [Create a server-level firewall rule for single and pooled databases using the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal-firewall)
-* [Create a single database in Azure SQL Database using the Azure Resource Manager template](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-get-started-template?tabs=azure-powershell)
+* [Create a single database in Azure SQL Database using the Azure Resource Manager template](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-get-started-template)
 
 **Capacity challenges and restrictions**
 
