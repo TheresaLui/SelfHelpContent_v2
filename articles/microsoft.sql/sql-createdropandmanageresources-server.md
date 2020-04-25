@@ -20,10 +20,10 @@
 
 * [What is an Azure SQL Database server](https://docs.microsoft.com/azure/sql-database/sql-database-servers)
 * [Manage Azure SQL servers, databases, and firewalls using PowerShell](https://docs.microsoft.com/azure/sql-database/sql-database-servers#manage-azure-sql-servers-databases-and-firewalls-using-powershell)
-* [Define server-level auditing policies](https://docs.microsoft.com/azure/sql-database/sql-database-auditing?WT.mc_id=pid:13491:sid:32630453/)<br>
+* [Define server-level auditing policies](https://docs.microsoft.com/azure/sql-database/sql-database-auditing)<br>
 * [Servers REST API Documentation](https://docs.microsoft.com/rest/api/sql/servers)
-* [SQL tools and utilities for Azure SQL Database](https://docs.microsoft.com/sql/tools/overview-sql-tools?view=sql-server-2017?WT.mc_id=pid:13491:sid:32630453/)
-* [Create a server-level firewall rule for single and pooled databases using the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal-firewall?WT.mc_id=pid:13491:sid:32630453/)
+* [SQL tools and utilities for Azure SQL Database](https://docs.microsoft.com/sql/tools/overview-sql-tools?view=sql-server-2017)
+* [Create a server-level firewall rule for single and pooled databases using the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal-firewall)
 * [Create a single database in Azure SQL Database using the Azure Resource Manager template](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-get-started-template?tabs=azure-powershell)
 
 **Capacity challenges and restrictions**
