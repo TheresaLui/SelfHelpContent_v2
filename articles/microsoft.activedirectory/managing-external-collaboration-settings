@@ -15,6 +15,7 @@
 	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
+# Managing External Collaboration Settings
 
 ## **Recommended steps**
 1.	Ensure that the user creating the administrative units and assigning roles is a global administrator or a privilege role administrator
@@ -27,5 +28,6 @@
 •	[Add and manage users in AU](https://docs.microsoft.com/azure/active-directory/users-groups-roles/roles-admin-units-add-manage-users)
 •	[Assign roles over administrative units as a scope](https://docs.microsoft.com/azure/active-directory/users-groups-roles/roles-admin-units-assign-roles)
 
-## **Troubleshooting and FAQs**
+### **Troubleshooting and FAQs**
 •	[Troubleshooting and FAQs](https://docs.microsoft.com/azure/active-directory/users-groups-roles/roles-admin-units-faq-troubleshoot)
+
