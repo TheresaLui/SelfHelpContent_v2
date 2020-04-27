@@ -41,7 +41,7 @@
   "potentialBenefits": "Give your disk performance a boost using Premium SSD disks.",
   "actions": [
    {
-      "actionId": "27e5f4f3-2b65-4b94-8268-a15a49b0fbce",
+      "actionId": "9ee50012-09cf-4d87-b23b-a59dcf8d5ae3",
       "description": "Convert Unmanaged Disks from Standard HDD to Premium SSD for better performance",
       "actionType": "Document",
       "documentLink": "https://docs.microsoft.com/azure/virtual-machines/windows/convert-disk-storage"
