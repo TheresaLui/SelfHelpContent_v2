@@ -48,7 +48,7 @@ Service chaining in a hub and spoke topology requires the following:
    4. Also check the 'Stateful Test (NSG Layer)' for any blocking NSGs<br>
       1. If NSG is blocking remove the NSG<br>
 4. Reverse the last two steps and check from the other VNet spoke 'out' to the spoke you just tested from
-5. Use the 'Host-to-guest port scanner diagnostic' in ASC > Resource Explorer > VM > Diagnostics > Port Scan to validate the NVA is listening and responding on the correct port(s) (destination port(s).
+5. Use the ['Host-to-guest port scanner diagnostic'](https://aka.ms/vmportscanner) in ASC > Resource Explorer > VM > Diagnostics > Port Scan to validate the NVA is listening and responding on the correct port(s) (destination port(s).
 
 ## **Recommended Documents**
 
