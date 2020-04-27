@@ -11,7 +11,7 @@
 	supportToicIds =""
 	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
 	articleId="f57a3023-d98b-4bbd-9153-e09e1f182a27"
-	ownershipId="AzureMessaging_Common"
+	ownershipId="AzureNotificationHubs"
 />
 
 # I am getting 'Invalid credentials' or 'Failed to validate credentials' errors

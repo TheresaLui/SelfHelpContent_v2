@@ -16,6 +16,12 @@
 
 # Issues with twin reads or updates
 
+## **Recommended Steps**
+
+1. Ensure device is registered. See [404001 DeviceNotFound](https://docs.microsoft.com/azure/iot-hub/iot-hub-troubleshoot-error-404001-devicenotfound).
+1. Ensure that there's no more than one connection per client. See [400027 ConnectionForcefullyClosedOnNewConnection](https://docs.microsoft.com/azure/iot-hub/iot-hub-troubleshoot-error-400027-connectionforcefullyclosedonnewconnection)
+1. Your device might have connection problems. See [404104 DeviceConnectionClosedRemotely](https://docs.microsoft.com/azure/iot-hub/iot-hub-troubleshoot-error-404104-deviceconnectionclosedremotely).
+
 ## **Recommended Documents**
 
 * [Understand device twins](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-device-twins)<br>

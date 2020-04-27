@@ -20,6 +20,7 @@
 
 # This topic will guide you to support and content for Windows Developer and Dev Center
 
+This topic will guide you to support and content for Windows Developer and Dev Center
 
 ## **Recommended Steps**
 

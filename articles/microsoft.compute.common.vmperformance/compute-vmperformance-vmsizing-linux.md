@@ -12,7 +12,7 @@
 	productPesIds="16342,15571,15797,16454,16470"
 	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="59d5ee22-322d-4b0e-9d2b-fe07bdc1442f"
-	ownershipId="AzureData_AzureSQLVM"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Diagnose and resolve Linux Virtual Machine sizing issues

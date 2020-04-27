@@ -3,10 +3,10 @@
     description="Update AKS Service Principal"
     authors="jakepearson"
     ms.author="jopears"
-    articleId="aks-update-service-principal"
+    articleId="f1b8daef-d5f7-443d-ba7a-fa4f072829a4"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-	ownershipId="Compute_AzureKubernetesService"
+    cloudEnvironments="Fairfax"
+    ownershipId="Compute_AzureKubernetesService"
 />
 
 # Update AKS Service Principal 
@@ -17,7 +17,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "4c72c554-1573-4ce8-8bbf-7b2aab0bf297",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('aks.kusto.windows.net').database('AKSprod').ServicePrincipalExpired",
+    "streamNamespace": "cluster('aksff.kusto.usgovcloudapi.net').database('AKSprod').ServicePrincipalExpired",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
@@ -43,7 +43,7 @@
   "longDescription": "This cluster's service principal is expired and the cluster will not be healthy until the service principal is updated",
   "actions": [
     {
-      "actionId": "9daffb0d-5a5a-4c13-9fba-5153733c6788",
+      "actionId": "f32698fe-919f-4f57-9dc0-287fcf41cf75",
       "description": "Update Service Principal",
       "actionType": "Document",
       "documentLink": "https://docs.microsoft.com/azure/aks/update-credentials"
@@ -51,7 +51,7 @@
   ],
   "resourceMetadata": {
     "action": {
-    "actionId": "6646a29d-5714-4c9a-a226-9ea94fc1de8a",
+    "actionId": "02491432-be79-4a6d-abd8-209a097e207c",
     "actionType": "Blade",
     "bladeName": "ResourceMenuBlade",
     "extensionName": "HubsExtension",
