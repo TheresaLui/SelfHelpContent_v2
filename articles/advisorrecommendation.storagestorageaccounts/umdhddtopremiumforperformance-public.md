@@ -49,7 +49,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "98be5cee-a61c-47bc-b063-0a00eac1b5be",
+      "actionId": "7f7e9668-95df-4b04-b529-68b1734e866f",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Storage",
       "bladeName": "StorageAccountBlade",
