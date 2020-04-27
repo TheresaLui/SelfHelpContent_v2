@@ -16,16 +16,6 @@
 
 # create drop and manage resources/server
 
-## **Recommended Documents**
-
-* [What is an Azure SQL Database server](https://docs.microsoft.com/azure/sql-database/sql-database-servers)
-* [Manage Azure SQL servers, databases, and firewalls using PowerShell](https://docs.microsoft.com/azure/sql-database/sql-database-servers#manage-azure-sql-servers-databases-and-firewalls-using-powershell)
-* [Define server-level auditing policies](https://docs.microsoft.com/azure/sql-database/sql-database-auditing)<br>
-* [Servers REST API Documentation](https://docs.microsoft.com/rest/api/sql/servers)
-* [SQL tools and utilities for Azure SQL Database](https://docs.microsoft.com/sql/tools/overview-sql-tools?view=sql-server-2017)
-* [Create a server-level firewall rule for single and pooled databases using the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal-firewall)
-* [Create a single database in Azure SQL Database using the Azure Resource Manager template](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-get-started-template)
-
 **Capacity challenges and restrictions**
 
 As demand continues to grow, we are faced with temporary capacity constraints in a number of Azure regions so we have established clear criteria for the priority of new cloud capacity. 
@@ -50,3 +40,14 @@ If you are experiencing resource constraint limits related to:
 See [here](https://docs.microsoft.com/azure/sql-database/sql-database-resource-limits-database-server) for more details on the default SQL database resource limits for a SQL Database server.
 
 Please create a support request with our Quota team using these [instructions](https://docs.microsoft.com/azure/sql-database/quota-increase-request).
+
+## **Recommended Documents**
+
+* [What is an Azure SQL Database server](https://docs.microsoft.com/azure/sql-database/sql-database-servers)
+* [Manage Azure SQL servers, databases, and firewalls using PowerShell](https://docs.microsoft.com/azure/sql-database/sql-database-servers#manage-azure-sql-servers-databases-and-firewalls-using-powershell)
+* [Define server-level auditing policies](https://docs.microsoft.com/azure/sql-database/sql-database-auditing)<br>
+* [Servers REST API Documentation](https://docs.microsoft.com/rest/api/sql/servers)
+* [SQL tools and utilities for Azure SQL Database](https://docs.microsoft.com/sql/tools/overview-sql-tools?view=sql-server-2017)
+* [Create a server-level firewall rule for single and pooled databases using the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal-firewall)
+* [Create a single database in Azure SQL Database using the Azure Resource Manager template](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-get-started-template)
+
