@@ -20,6 +20,7 @@
 
 # This topic will guide partners to the support experience for Dynamics operations questions supported by the Regional Operation Centers
 
+This topic will guide partners to the support experience for Dynamics operations questions supported by the Regional Operation Centers
 
 ## **Recommended Steps**
 - Contact Dynamics Operations through online ticket submission [here](https://mbs2.microsoft.com/Support/OperationsIncidents.aspx?Mode=Create)
