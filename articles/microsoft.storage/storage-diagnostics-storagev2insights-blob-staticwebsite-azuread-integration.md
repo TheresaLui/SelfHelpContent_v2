@@ -12,7 +12,8 @@ diagnosticScenario="Static Website integration with Azure Active Directory"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Does Static Website support Azure AD?

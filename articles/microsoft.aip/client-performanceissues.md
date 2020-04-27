@@ -10,8 +10,9 @@
 	supportTopicIds="32584367"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="fe41ad8e-58bc-427f-8948-83e254775d08"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - performance issues

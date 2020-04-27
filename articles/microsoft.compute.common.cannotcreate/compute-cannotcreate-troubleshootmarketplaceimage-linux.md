@@ -10,8 +10,9 @@
 	supportTopicIds="32628274"
 	resourceTags=""
 	productPesIds="15571, 15797, 16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="85e53d67-cc97-4a46-ba63-20c752e97af1"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Troubleshoot marketplace image deployment failures

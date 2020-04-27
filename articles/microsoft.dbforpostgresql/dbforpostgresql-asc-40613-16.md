@@ -12,8 +12,9 @@
 	selfHelpType="rca"
 	supportTopicIds="32628416"
 	resourceTags="windows, linux"
-	productPesIds="16222"
-	cloudEnvironments="public"
+	productPesIds="16222, 17067"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Can't connect PostgreSQL database server
 
@@ -21,12 +22,11 @@
 Thank you for contacting Microsoft support about your connection issues with Azure Database for PostgreSQL. The Azure database for PostgreSQL service uses a gateway as the service endpoint to provide layered security, high availability, and elastic scaling of resources with minimal downtime. During our investigation we found that the gateway was failing to establish connections to your host database server preventing you from connecting to your server. We have restarted the gateway and subsequently observed that connections are succeeding as expected. The issue has been forwarded to the engineering team for further monitoring and determining a permanent fix.
 <!--/issueDescription-->
 
-## **Recommended steps**
+## **Recommended Steps**
 
-As the service cannot entirely prevent transient connection failures like the one above from happening, we encourage all customers to implement retry logic. Please refer to our [documentation](https://docs.microsoft.com/azure/postgresql/concepts-connectivity) for more details.
+* As the service cannot entirely prevent transient connection failures like the one above from happening, we encourage all customers to implement retry logic. Please refer to our [documentation](https://docs.microsoft.com/azure/postgresql/concepts-connectivity) for more details.
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
-
-[PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforPostgreSQL)
+* [Azure Database for PostgreSQL](https://azure.microsoft.com/services/postgresql/)
+* [PostgreSQL Discussion forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=AzureDatabaseforPostgreSQL)

@@ -9,10 +9,11 @@
 	supportTopicIds="32636778,32636789,32636810"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-mongodberrors"
 	displayOrder="223"
 	category="MongoDB"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # MongoDB - Commonly faced errors
 

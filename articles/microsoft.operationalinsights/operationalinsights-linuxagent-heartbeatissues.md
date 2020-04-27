@@ -11,8 +11,9 @@
     supportTopicIds="32612462"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
+    cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 	articleId="54b81f5f-a9f3-48a6-87cb-bbb92ee1ddae"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Linux Agent/HeartBeat-related issues

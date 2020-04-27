@@ -1,19 +1,21 @@
 <properties
-	pageTitle="Old SDK RCA"
-	description="RCA - Old SDK"
-	infoBubbleText="Old SDK detected for the account. See the details on the right."
-	service="microsoft.documentdb"
-	resource="databaseAccounts"
-	authors="susanur"
+    pageTitle="Old SDK RCA"
+    description="RCA - Old SDK"
+    infoBubbleText="Old SDK detected for the account. See the details on the right."
+    service="microsoft.documentdb"
+    resource="databaseAccounts"
+    authors="susanur"
     ms.author="susanur"
-	articleId="cosmosdb-oldsdkversion-rca"
+    articleId="cosmosdb-oldsdkversion-rca"
     diagnosticScenario="CosmosDBOldSDKInsight"
-	selfHelpType="rca"
-	supportTopicIds="32636763,32636796,32636801,32636775,32636812"
-	resourceTags=""
-	productPesIds="15585"
-	cloudEnvironments="public"
+    selfHelpType="rca"
+    supportTopicIds="32636763,32636796,32636801,32636775,32636812"
+    resourceTags=""
+    productPesIds="15585"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+    ownershipId="AzureData_AzureCosmosDB"
 />
+
 # Old SDK detected
 
 ## We ran diagnostics on your resource and found an issue

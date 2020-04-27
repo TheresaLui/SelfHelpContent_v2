@@ -11,7 +11,8 @@
 	supportTopicIds="32584375"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # RMS Connector - SharePoint

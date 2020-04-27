@@ -9,8 +9,9 @@
     supportTopicIds="32632409"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="3c6f366d-721f-4fb4-80a6-15633b135530"
+	ownershipId="Compute_APIManagement"
 />
 
 # Customize Developer portal
@@ -21,5 +22,6 @@ API Management is a way to create consistent and modern API gateways for existin
 
 ## **Recommended Documents**
 
+- [Azure API Management developer portal overview](https://docs.microsoft.com/azure/api-management/api-management-howto-developer-portal)
 - [Customize the style of the Developer portal pages](https://docs.microsoft.com/azure/api-management/api-management-customize-styles)
 - [Modify the content and layout of pages on the developer portal in Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-modify-content-layout)

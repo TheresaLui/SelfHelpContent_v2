@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639993"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-backuprestore-longtermbackups"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Backup, Restore and Business Continuity - Long Term Backup Retention
 ---

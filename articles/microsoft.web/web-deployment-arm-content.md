@@ -10,8 +10,9 @@
 	supportTopicIds="32581628"
 	resourceTags=""
 	productPesIds="14748, 16170, 16333"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="033623cc-dae8-4df6-a30b-e0991e985ec0"
+	ownershipId="Compute_AppService"
 />
 
 # Deployment/ARM template

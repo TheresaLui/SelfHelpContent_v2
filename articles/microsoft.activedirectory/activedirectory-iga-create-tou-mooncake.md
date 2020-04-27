@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="activedirectory-iga-create-tou-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Why can't I create a Terms of Use?

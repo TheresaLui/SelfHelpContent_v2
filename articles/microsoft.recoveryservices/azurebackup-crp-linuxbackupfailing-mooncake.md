@@ -6,12 +6,13 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="15"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds=""
 	resourceTags="linux"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-crp-linuxbackupfailing-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Azure Backup - Backup is failing for my VM

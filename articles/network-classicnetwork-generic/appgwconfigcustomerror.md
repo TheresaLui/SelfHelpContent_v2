@@ -10,8 +10,9 @@
 	supportTopicIds="32639111"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="configure-customerrorpage"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Configure Custom Error Page

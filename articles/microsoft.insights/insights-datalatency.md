@@ -10,7 +10,8 @@
     selfHelpType="resource"
     productPesIds="15693"
     supportTopicIds="32546624"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
 # Data latency

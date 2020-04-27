@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630539,32630547"
 	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="471990b5-2440-4371-8dc2-f1a4883559c7"
+	ownershipId="AzureIot_IotHub"
 />
 # Can't reach device from IoT Hub
 ---

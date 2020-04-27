@@ -10,8 +10,9 @@
 	supportTopicIds="32632458"
 	resourceTags=""
 	productPesIds="16679"
-	cloudEnvironments="public,mooncake,fairfax,blackforest"
+	cloudEnvironments="public,mooncake,fairfax,blackforest, usnat, ussec"
 	articleId="nva-advisory.md"
+	ownershipId="CloudNet_NVA"
 />
 
 # networkvirtualappliance/advisory

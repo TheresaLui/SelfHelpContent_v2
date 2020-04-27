@@ -12,6 +12,7 @@
     resourceTags=""
     cloudEnvironments="MoonCake"
     articleId="cf5e1155-34bc-46ae-8cb3-47738fb484ef"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # How do I build a Resource Manager template to deploy scale sets

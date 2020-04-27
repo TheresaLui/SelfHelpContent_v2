@@ -9,8 +9,9 @@
 	supportTopicIds="32680977,32680978"
 	resourceTags=""
 	productPesIds="16509"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="c2aa9204-a06a-4516-b33f-47a985b17833"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # My issue is not listed

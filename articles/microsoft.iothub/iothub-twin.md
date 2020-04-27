@@ -9,8 +9,9 @@
 	supportTopicIds="32630546"
 	resourceTags=""
 	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="f4c81c07-9b2e-4769-a187-2098d8d5cbb9"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Issues with twin reads or updates

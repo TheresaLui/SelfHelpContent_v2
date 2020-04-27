@@ -10,8 +10,9 @@
 	supportTopicIds="32518048"
 	resourceTags=""
 	productPesIds="16072"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="3e6b1236-c4e1-4f44-b276-3f7a3d93103a"
+	ownershipId="Compute_AppService"
 />
 
 # Configuring and Managing Function Apps/Configuring continuous integration (CI)

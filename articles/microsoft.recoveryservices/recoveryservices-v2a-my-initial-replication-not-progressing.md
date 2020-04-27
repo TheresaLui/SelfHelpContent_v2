@@ -10,8 +10,9 @@
     supportTopicIds="32642155"
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="1db0cf7f-e844-405c-9f67-5c7c6fe738db"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # VMware/Physical to Azure - My Initial replication is not progressing

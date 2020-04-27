@@ -5,13 +5,14 @@
     resource="automationaccounts"
     authors="zjalexander"
     ms.author="zachal"
-    displayorder=""
+    displayorder="202"
     selfHelpType="generic"
     supportTopicIds="32635012"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="29c081cb-767b-442c-8c84-2ddec8d54e75"
+	ownershipId="Compute_Automation"
 />
 
 # Troubleshoot Runbook Execution in Azure Automation - Runbook works locally, but not in Automation

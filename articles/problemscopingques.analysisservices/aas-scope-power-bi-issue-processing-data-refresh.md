@@ -7,8 +7,9 @@
       selfHelpType="problemScopingQuestions"
       supportTopicIds="32675703"
       productPesIds="16157"
-      cloudEnvironments="public, MoonCake, fairfax" 
+      cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
       schemaVersion="1"
+	ownershipId="AzureData_AnalysisServices"
 />
 # Using Analysis Services Tabular data in Power BI Desktop
 ---
@@ -68,7 +69,7 @@
       "order": 600,
       "controltype": "dropdown",
       "displaylabel": "Can the issue be reproduced by other users?",
-      "watermarkText":"Choose an option","dropdownOptions":[{"value": "Yes","text": "Yes"},{"value": "No","text": "No"},{"value": "dont_know_answer","text":"Other, don’t know or not applicable"}],
+      "watermarkText":"Choose an option","dropdownOptions":[{"value": "Yes","text": "Yes"},{"value": "No","text": "No"},{"value": "dont_know_answer","text":"Other, dont know or not applicable"}],
       "required": true
     }
 ,

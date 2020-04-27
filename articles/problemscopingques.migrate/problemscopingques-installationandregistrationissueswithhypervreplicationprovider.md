@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32675752"
          productPesIds="16348"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="2f0b09b6-7ee1-4f4e-95fa-560d385b0c7b"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Installation and registration issues with Hyper-V replication provider

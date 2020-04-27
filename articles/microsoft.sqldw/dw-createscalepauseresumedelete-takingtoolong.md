@@ -11,7 +11,8 @@
     selfHelpType="generic"
     resourceTags="datawarehouse"
     articleId="dw-createscalepauseresumedelete-takingtoolong.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Create/Scale/Pause/Resume/Delete database taking too long

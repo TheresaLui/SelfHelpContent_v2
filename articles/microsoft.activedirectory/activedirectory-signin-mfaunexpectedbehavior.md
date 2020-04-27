@@ -10,9 +10,10 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="730b6810-ae30-48c3-ac4b-1ef0f16cde1f"
-     />
+     	ownershipId="AzureIdentity_MultiFactorAuthentication"
+/>
 
 
 # Unexpected multi-factor authentication behavior

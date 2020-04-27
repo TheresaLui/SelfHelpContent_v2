@@ -10,8 +10,9 @@
     supportTopicIds="32681536"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-delete-cluster"
+	ownershipId="AzureData_HDInsight"
 />
 # Common Solutions to HDInsight Delete Issues
 

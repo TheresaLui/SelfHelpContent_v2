@@ -10,8 +10,9 @@
 	supportTopicIds="32589277"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="41d01f0b-3c2b-4334-a5ad-22b58d6f0ca1"
+	ownershipId="Compute_AppService"
 />
 # Questions on Custom Domains and Certificates
 ## **Recommended documents**

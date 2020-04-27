@@ -10,8 +10,9 @@
 	supportTopicIds="32689193,32134055"
 	resourceTags=""
 	productPesIds="16953,16575"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="757bafde-f257-47fe-9114-2b24c5bf4ac9"
+	ownershipId="AzureIdentity_GraphUsersAndGroupsAPIs"
 />
 
 # Microsoft Graph querying or provisioning issues

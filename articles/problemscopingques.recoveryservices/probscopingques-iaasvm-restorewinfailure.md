@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553299"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	articleId="dcc0ea6d-9270-4719-82d0-a395117abb9f"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM Restore failure for Windows 
 ---
@@ -30,10 +31,10 @@
             "displayLabel": "Which virtual machine(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
 	    "dynamicDropdownOptions": {
-            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
-       	    "jTokenPath": "value",
-            "textProperty": "name",
-            "valueProperty": "id",
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+       	    "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
             "textPropertyRegex": ".*",
 	    "defaultDropdownOptions": {
                 "value": "dont_know_answer",

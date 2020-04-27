@@ -12,6 +12,7 @@
     resourceTags=""
     productPesIds="16506"
     cloudEnvironments="public"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 
 # Avere vFXT Performance Issues

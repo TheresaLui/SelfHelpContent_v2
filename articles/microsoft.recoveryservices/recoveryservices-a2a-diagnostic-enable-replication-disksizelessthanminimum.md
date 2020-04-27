@@ -13,7 +13,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Enable replication failed as virtual machine's disk size is not meet the requirement

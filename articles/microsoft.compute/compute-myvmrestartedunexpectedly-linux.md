@@ -10,8 +10,9 @@
 	supportTopicIds="32628269,32628280,32628287"
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="15797,15571,16470,16454,16342"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="ccda7af8-571e-48ad-9b1e-63b0b2a3101b"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Resolve issues with an unexpected Linux VM restart

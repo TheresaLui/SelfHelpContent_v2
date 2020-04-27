@@ -10,8 +10,9 @@
 	supportTopicIds="32688875"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="B3F0474C-56DC-4018-9403-F5F1EBB0E534"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Cannot access newly created account

@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32675693"
 	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="df8f4c17-79eb-2172-1bfe-4302046829fc"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Deploy resources with Resource Manager templates and Azure PowerShell

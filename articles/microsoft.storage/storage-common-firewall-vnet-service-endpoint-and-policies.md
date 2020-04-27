@@ -11,8 +11,9 @@
 	supportTopicIds="32682430,32682435,32682440,32682445"
 	productPesIds="15629,16459,16461,16462,16598"
 	resourceTags=""
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="storage_common_firewall_vnet_service_endpoint_and_policies"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Troubleshoot and resolve VNet Service Endpoint issue with Azure Storage

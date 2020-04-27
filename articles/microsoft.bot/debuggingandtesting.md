@@ -9,8 +9,9 @@
 	supportTopicIds="32560513"
 	resourceTags=""
 	productPesIds="16152"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="7a27c603-3595-4a71-9fc3-f48c598f4633"
+	ownershipId="Compute_BotService"
 />
 
 # Debugging and Testing

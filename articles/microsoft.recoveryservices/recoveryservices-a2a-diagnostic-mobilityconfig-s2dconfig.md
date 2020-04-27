@@ -13,7 +13,8 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Mobility agent configuration fails because the storage spaces direct is unsupported

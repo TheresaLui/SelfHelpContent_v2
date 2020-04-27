@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32637244"
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="25620156-b02a-4a64-8069-acd4d19cc6e8"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Change Data Capture

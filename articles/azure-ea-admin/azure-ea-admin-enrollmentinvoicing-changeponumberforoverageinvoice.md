@@ -13,16 +13,17 @@
 	supportTopicIds="32688680"
 	resourceTags=""
 	productPesIds="16867"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureEA_SelfDeflectionContent"
 />
 
 # Change PO number for overage invoice
 
-The Azure EA portal automatically generates a default purchase order (PO) number unless the EA admin sets one before the invoice date. An EA admin can update the PO number in the Azure EA portal by signing in and navigating to **Reports**. An EA admin can update the PO number. In the top right section showing the PO number, click the pencil symbol and update the information.
+The Azure EA portal automatically generates a default purchase order (PO) number unless the EA admin sets one before the invoice date. An EA admin can update the PO number in the Azure EA portal by signing in and navigating to **Reports**. An EA admin can update the PO number. In the top right section showing the PO number, click the pencil symbol and update the information.
 
 An EA admin can update the PO number during the current billing quarter before an invoice is created. They can also update the PO number up to seven days after receiving an automated invoice notification email.
 
-If the EA Admin didn't update the PO number and a new PO number is needed, the only option is to complete a credit and rebill. If a customer must update the PO number, contact your partner for assistance.
+If the EA Admin didn't update the PO number and a new PO number is needed, the only option is to complete a credit and rebill. If a customer must update the PO number, contact your partner for assistance.
 
 ## **Recommended Documents**
 

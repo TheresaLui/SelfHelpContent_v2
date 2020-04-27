@@ -11,7 +11,8 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="search-general-guidance-advisory"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # General guidance or Advisory for Azure Cognitive Search Questions and Issues

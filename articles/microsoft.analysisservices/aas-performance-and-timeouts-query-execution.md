@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32558776"
 	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="21aee1ac-3d85-3469-0df6-40a0613731df"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Monitoring Azure Analysis Services with Log Analytics and Power BI

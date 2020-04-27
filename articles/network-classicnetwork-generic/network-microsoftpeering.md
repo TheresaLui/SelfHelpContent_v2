@@ -9,8 +9,9 @@
 	supportTopicIds="32539954"
 	resourceTags=""
 	productPesIds="15480"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="7dfed5ae-3677-466e-8b20-93e845746302"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # Connectivity/Microsoft Peering

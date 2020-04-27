@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32675704"
 	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="2d858e77-c8fe-a8b1-399f-862580819414"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Using Analysis Services Tabular data in Power BI Desktop

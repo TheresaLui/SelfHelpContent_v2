@@ -8,8 +8,9 @@
         selfHelpType="ProblemScopingQuestions"
         supportTopicIds="32630434"
         productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
         schemaVersion="1"
+	ownershipId="AzureData_AzureSQLDB_Telemetry"
 />
 
 # Monitoring Metrics and Alerts

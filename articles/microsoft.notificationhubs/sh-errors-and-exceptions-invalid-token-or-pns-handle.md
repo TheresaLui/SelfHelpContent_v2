@@ -9,8 +9,9 @@
 	resourceTags="notificationHubs"
 	productPesIds="15973"
 	supportTopicIds="32565583"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="3dd1920c-28f6-4b72-92c5-40c57396a826"
+	ownershipId="AzureNotificationHubs"
 />
 
 # Errors and Exceptions/Invalid token or PNS handle

@@ -10,8 +10,9 @@
     supportTopicIds="32629086"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-kafka-mirrormaker"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight: How to duplicate data across Kafka clusters with Mirrormaker
  

@@ -7,8 +7,9 @@
     selfHelpType="generic" 
     supportTopicIds="32615469"
     productPesIds="16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="81d12751-6f85-401b-af5c-5d3e867f41d6"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Problem reading Azure AD audit logs for a user

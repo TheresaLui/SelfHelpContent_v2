@@ -8,10 +8,11 @@
     articleId="insights_livemetrics"
     displayOrder="100"
     selfHelpType="resource"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32602207"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # Why can I not see Live Metrics?
 

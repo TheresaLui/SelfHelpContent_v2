@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="activedirectory-aadconnect-sync-dirsyncupgrade-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # How to upgrade DirSync to Azure AD Connect

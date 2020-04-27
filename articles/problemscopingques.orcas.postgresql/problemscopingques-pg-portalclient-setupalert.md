@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640023"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-portalclient-setupalert"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Portal, Client Tools and APIs - Setting up Monitoring and Alerts
 ---

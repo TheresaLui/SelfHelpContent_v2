@@ -12,7 +12,8 @@ diagnosticScenario="Blob is not recoverable without soft delete"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Unable to recover deleted blob because soft delete is not enabled

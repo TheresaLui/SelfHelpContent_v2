@@ -10,8 +10,9 @@
 	supportTopicIds="32608951"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="06c1459e-00a9-4091-9a0e-dd3550b4646a"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # networking/existingvnet

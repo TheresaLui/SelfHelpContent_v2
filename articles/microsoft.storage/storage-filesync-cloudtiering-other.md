@@ -10,8 +10,9 @@
 	supportTopicIds="32675713"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="3d9daf47-f3a6-4569-b2ff-cbcfcccb6314"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Troubleshooting Azure File Sync cloud tiering issues

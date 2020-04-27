@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32632357,32632371,32632369,32632372,32632367,32632342"
     productPesIds="16208,15571,15797"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="80aa8522-57d5-4826-ac41-51e412abf20d"
+	ownershipId="Compute_AppService"
 />
 
 

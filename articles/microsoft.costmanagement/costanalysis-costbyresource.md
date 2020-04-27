@@ -12,7 +12,8 @@
 	resourceTags=""
 	productPesIds="15659"
 	supportTopicIds="32615286"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
+	ownershipId="ASMS_Billing"
 />
 
 # How do I see the cost of each resource I'm using?

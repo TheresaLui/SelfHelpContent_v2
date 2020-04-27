@@ -7,8 +7,9 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32635093,32635082,32635066,32635079"
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
+	ownershipId="Compute_AzureBatch"
 />
 # Pool details
 ---

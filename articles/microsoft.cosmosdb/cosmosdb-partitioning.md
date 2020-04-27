@@ -9,10 +9,11 @@
 	supportTopicIds="32636816"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-partitioning"
 	displayOrder="240"
 	category="Throughput and Scaling"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Introduction to Partitioning and Scale in Azure Cosmos DB

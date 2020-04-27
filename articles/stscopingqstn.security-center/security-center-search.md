@@ -8,8 +8,9 @@
 	supportTopicIds="32636850,32636905,32636928"
 	resourceTags=""
 	productPesIds="15947"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="62ce68d5-d5ad-49b1-beaa-68b90d96ebff"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Search Common Solutions

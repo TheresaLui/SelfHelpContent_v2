@@ -10,8 +10,9 @@
     supportTopicIds="32691164"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-creating-alerts-creating-or-troubleshooting-playbooks"
+	ownershipId="Azure_Sentinel"
 />
 
 # Create or troubleshoot playbooks

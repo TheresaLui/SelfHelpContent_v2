@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32684541,32684547,32684542,32684543"
 resourceTags=""
 productPesIds="16123"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="relay-error-msg"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Errors and Issues
 ---

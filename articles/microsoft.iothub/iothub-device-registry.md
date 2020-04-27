@@ -9,8 +9,9 @@
 	supportTopicIds="32630542"
 	resourceTags=""
 	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="d7aee04b-0898-4166-9bde-b41437508872"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Can't create, update, or delete devices

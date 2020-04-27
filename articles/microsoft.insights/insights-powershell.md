@@ -8,10 +8,11 @@
     articleId="insights-powershell"
     displayOrder="97"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32602216,32632995"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # I need help using powershell to automate my Application Insights deployments
 

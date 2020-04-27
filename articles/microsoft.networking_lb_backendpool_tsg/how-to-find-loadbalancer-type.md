@@ -10,8 +10,9 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="81dfd316-b2c3-4279-a625-cc1c9cad0f2c"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check the Loadbalancer Type

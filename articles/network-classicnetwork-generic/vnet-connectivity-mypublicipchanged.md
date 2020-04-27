@@ -10,8 +10,9 @@
 	supportTopicIds="32597608"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="123"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # connectivity/mypublicipchanged

@@ -10,8 +10,9 @@
     supportTopicIds="32591152"
     resourceTags=""
     productPesIds="16094"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     articleId="1f2594ab-43c4-4e0a-aeb8-bd27d480fee9"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Configure my on-premises VPN device 
 

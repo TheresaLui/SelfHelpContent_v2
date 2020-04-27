@@ -10,8 +10,9 @@
 	supportTopicIds="32639113"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="connectivity-4xx-errors"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Connectivity 4xx Errors

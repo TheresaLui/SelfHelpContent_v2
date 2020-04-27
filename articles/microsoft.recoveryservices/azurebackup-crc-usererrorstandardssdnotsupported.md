@@ -13,7 +13,8 @@
 	supportTopicIds="32553276,32553277,32553285"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Error UserErrorStandardSSDNotSupported

@@ -10,8 +10,9 @@
     supportTopicIds="32663893,32663894"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-vm-delete"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Virtual Machine Deletion Issues

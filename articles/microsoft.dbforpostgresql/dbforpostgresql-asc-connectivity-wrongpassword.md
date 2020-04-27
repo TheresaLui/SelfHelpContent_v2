@@ -12,19 +12,20 @@
 	selfHelpType="rca"
 	supportTopicIds="32628416"
 	resourceTags="windows, linux"
-	productPesIds="16222"
-	cloudEnvironments="public"
+	productPesIds="16222, 17067"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Can't connect to Postgres server: incorrect password
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your connection issues to your PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->. We found that there have been <!--$Count-->Count<!--/$Count--> failed connection attempts between <!--$StartTime-->StartTime<!--/$StartTime--> (UTC) and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC) due to incorrect password errors. 
+There are <!--$Count-->Count<!--/$Count--> failed password authentications to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime--> (UTC) and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC). 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-1. Check the connection string to confirm you have correctly entered the password for this server
-2. Consider changing the password and reattempting to connect using the new password
+* Check the connection string to confirm you have correctly entered the password for this server
+* Consider changing the password and reattempting to connect using the new password
 
 ## **Recommended Documents**
 

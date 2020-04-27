@@ -9,10 +9,11 @@
     articleId="6a973647-50e6-4954-ace9-5b1844cf0657"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32615428"
+    supportTopicIds="32690726"
     resourceTags=""
-    productPesIds="16578"
-    cloudEnvironments="public"
+    productPesIds="16986"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_RBAC"
 />
 
 # Azure Active Directory: Recover RBAC when subscriptions are moved across tenants

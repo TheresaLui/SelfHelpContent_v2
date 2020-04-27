@@ -6,6 +6,7 @@
     articleId="16d0cf25-463d-4a20-8f18-d8d71edf92e3_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="RedisCache_RedisCache"
 />
 # Improve your Cache and application performance when running with high memory pressure
 ---

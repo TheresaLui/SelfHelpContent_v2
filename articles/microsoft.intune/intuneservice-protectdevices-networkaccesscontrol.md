@@ -9,8 +9,9 @@
 	supportTopicIds="32599661"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="b7cd9626-cc02-4192-b2cd-73e0887b0509"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Protect Devices - Network Access Control (NAC)
