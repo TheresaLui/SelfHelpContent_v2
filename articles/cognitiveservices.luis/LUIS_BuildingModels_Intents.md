@@ -11,7 +11,7 @@
 	productPesIds="16869"
 	cloudEnvironments="public, MoonCake, fairfax" 
 	articleId="LUIS_Conversation_BuildModel_Intents"
-	//ownershipId=""
+	ownershipId=""
 />
 
 # How to Build a Model using intents in LUIS
