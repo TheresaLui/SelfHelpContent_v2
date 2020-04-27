@@ -8,7 +8,7 @@
 	ms.author="madhn"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32738677,32738678,32738682,32738683,32738694"
+	supportTopicIds="32738678,32738682,32738683,32738694"
 	resourceTags=""
 	productPesIds="17082"
 	cloudEnvironments="public,fairfax"
