@@ -4,7 +4,7 @@
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="marwaIDCxP"
-  ms.author="marwa"
+  	ms.author="marwa"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32615396"
@@ -23,9 +23,9 @@
 
 ## **Recommended Documents**
 
-•	[Get to know about administrative units and supported scenarios](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-administrative-units)
-•	[Add and mange users in AU](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/roles-admin-units-add-manage-users)
-•	[Assign roles over administrative units as a scope](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/roles-admin-units-assign-roles)
+•	[Get to know about administrative units and supported scenarios](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-administrative-units)
+•	[Add and mange users in AU](https://docs.microsoft.com/azure/active-directory/users-groups-roles/roles-admin-units-add-manage-users)
+•	[Assign roles over administrative units as a scope](https://docs.microsoft.com/azure/active-directory/users-groups-roles/roles-admin-units-assign-roles)
 
 ## **Troubleshooting and FAQs**
-•	[Troubleshooting and FAQs](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/roles-admin-units-faq-troubleshoot)
+•	[Troubleshooting and FAQs](https://docs.microsoft.com/azure/active-directory/users-groups-roles/roles-admin-units-faq-troubleshoot)
