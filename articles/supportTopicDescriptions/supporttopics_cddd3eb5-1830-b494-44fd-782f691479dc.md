@@ -28,6 +28,14 @@
       "searchTags": "Initialize;Format;Logical Volume Manager",
       "category": "Virtual Disk Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "aeca6c5b-eeda-205d-8e9a-84fbc3787d58",
+      "longDescription": "",
+      "shortDescription": "Resolve issues with resetting the local admin account password of the virtual machine",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
