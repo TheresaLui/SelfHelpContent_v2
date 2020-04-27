@@ -14,7 +14,7 @@ cloudEnvironments = "Fairfax"
     "recommendationOfferingId": "7269b88e-b638-4ba5-a55e-5632365dd938",
     "recommendationOfferingName": "ExpressRoute",
     "$schema": "AdvisorRecommendation",
-    "recommendationTypeId": "827897c6-2aea-4447-b813-ae363f24218a",
+    "recommendationTypeId": "17454550-1543-4068-bdaf-f3ed7cdd3d86",
     "dataSourceMetadata": {
         "schemaVersion": 1.0,
         "streamNamespace": "Microsoft.Cloud.AzureAdvisorExRNpm-FF",
