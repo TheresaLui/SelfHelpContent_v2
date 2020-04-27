@@ -19,10 +19,10 @@ ownershipId="CloudNet_VirtualNetwork"
 
 # Traffic is altered by UDR
 
-### **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->**: <!--$InsightTitle-->[InsightTitle]<!--/$InsightTitle-->
+### **<!--$VmName-->VmName<!--/$VmName-->**: <!--$InsightTitle-->InsightTitle<!--/$InsightTitle-->
 
 <!--issueDescription-->
-We have identified a problem that prevents network traffic flowing from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to virtual machine <!--$ImpactedResource-->ImpactedResource<!--/$ImpactedResource--> on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that the following condition exists:<br>
+We have identified a problem that prevents network traffic flowing from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to virtual machine <!--$VmName-->VmName<!--/$VmName--> on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that the following condition exists:<br>
 
 User-defined route tables have a route that is causing the issue.
 <!--/issueDescription-->

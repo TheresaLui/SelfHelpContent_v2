@@ -21,7 +21,7 @@
 
 ## **Recommended Steps**
 
-* Visit [control storage access for SLQ on-demand](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control) for instructions. 
+* Visit [control storage access for SQL on-demand](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control) for instructions. 
 
 * If your query fails with the error message 'File cannot be opened because it does not exist or it is used by another process' and you're sure both file exist and it's not used by another process, it means SQL on-demand can't access the file. 
 
@@ -29,7 +29,7 @@
 
 * For credentials defined on storage path level, make sure credential is not created on storage level, but at least on container level. For more information see [control storage access for SQL on-demand](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control). 
 
-* Check if proper credential is created as described in [control storage access for SLQ on-demand](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control). 
+* Check if proper credential is created as described in [control storage access for SQL on-demand](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control). 
 
 * If using ADF to access SQL on-demand, check if MSI account for your workspace is given access to storage. MSI account has the same name as your workspace name. [Visit full guide on Azure Active Directory access control for storage for more information](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal). 
 

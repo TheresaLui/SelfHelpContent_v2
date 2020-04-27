@@ -19,21 +19,21 @@ ownershipId="CloudNet_VirtualNetwork"
 
 # Traffic is blocked by NSG and altered by UDR
 
-### **<!--$ImpactedResource-->[ImpactedResource]<!--/$ImpactedResource-->**: <!--$InsightTitle-->[InsightTitle]<!--/$InsightTitle-->
+### **<!--$VmName-->VmName<!--/$VmName-->**: <!--$InsightTitle-->InsightTitle<!--/$InsightTitle-->
 
 <!--issueDescription-->
-We have identified a problem that prevents network traffic flowing from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$ImpactedResource-->ImpactedResource<!--/$ImpactedResource--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that one or both of the following conditions exist:<br>
+We have identified a problem that prevents network traffic flowing from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$VmName-->VmName<!--/$VmName--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that one or both of the following conditions exist:<br>
 
-1.Network security group <!--$NetworkSecurityGroupName-->NetworkSecurityGroupName<!--/$NetworkSecurityGroupName--> has rule <!--$RuleName-->RuleName<!--/$RuleName--> that is causing this issue.<br>
+1.Network security group <!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName--> has rule <!--$SecurityRuleName-->SecurityRuleName<!--/$SecurityRuleName--> that is causing this issue.<br>
 2.User-defined route tables have a route that is causing this issue.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* If the access control result is not the desired result, remove or relax the <!--$NetworkSecurityGroupName-->NetworkSecurityGroupName<!--/$NetworkSecurityGroupName--> network security group to allow network traffic to flow from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$ImpactedResource-->ImpactedResource<!--/$ImpactedResource--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Or, you can create an INBOUND basic rule that has a higher priority (lower number) than have the existing rules that specify port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. To do this, follow these steps:
+* If the access control result is not the desired result, remove or relax the <!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName--> network security group to allow network traffic to flow from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$VmName-->VmName<!--/$VmName--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Or, you can create an INBOUND basic rule that has a higher priority (lower number) than have the existing rules that specify port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. To do this, follow these steps:
 
     1. Open the [Azure portal](https://portal.azure.com) and browse to the [Network Security Group blade](https://portal.azure.com/?feature.customportal=false#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FNetworkSecurityGroups)
-    2. Open your **<!--$NetworkSecurityGroupName-->NetworkSecurityGroupName<!--/$NetworkSecurityGroupName-->** network security group
+    2. Open your **<!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName-->** network security group
     3. Add an **Allow** rule for the **<!--$SourceIp-->SourceIp<!--/$SourceIp-->** IP address that has a lower number (higher priority) than has the Block rule
     4. Save the changes, and check the traffic status again
 
