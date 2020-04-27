@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e41e015e-0ec8-24c9-974f-79fe0d285f9e",
+      "longDescription": "",
+      "shortDescription": "Guidance with preparing an image properly for deploying into Azure",
+      "searchTags": "Deployment",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f820b562-a549-86dc-b8ae-b5ee4e835aaa",
       "longDescription": "",
       "shortDescription": "Covers issues where the start operation for the VM fails and an error message is provided",
