@@ -33,7 +33,7 @@
       "service": "Azure SQL DB",
       "team": "Datawarehouse"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "6d302332-f404-4848-9509-b8a6b81510f7"
   },
   "ingestionClientIdentities": [ ],
   "version": 1.0,
