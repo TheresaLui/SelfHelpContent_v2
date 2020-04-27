@@ -23,7 +23,7 @@ Most users are able to resolve their blueprint assignment issue using the steps 
 **Is your assignment failing unexpectedly?**
 
 * If it is an `Azure Resource Manager Template` artifact, it may not necessarily be a blueprint issue. Consider checking the [ARM template documentation](https://docs.microsoft.com/azure/azure-resource-manager/templates/).
-* If it is a permissions issue, make sure the managed identity you are using has the right permissions. The `System Assigned` managed identity will only have permissions on the assigned subscription. [Learn more about the blueprint lifecycle](https://docs.microsoft.com/azure/governance/blueprints/concepts/deployment-stages#the-blueprint-assignment-object-is-created).
+* If it is a permissions issue, make sure the managed identity you are using has the right permissions. The `System Assigned` managed identity will only have permissions on the assigned subscription. [Learn more about the blueprint lifecycle](https://docs.microsoft.com/azure/governance/blueprints/concepts/deployment-stages#the-blueprint-assignment-object-is-created). 
 
 ## **Recommended Documents**
 
