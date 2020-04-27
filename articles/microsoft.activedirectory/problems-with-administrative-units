@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Managing External Collaboration Settings"
-	description="Configuring AAD B2B collaboration settings to grant or limit the ability to send invitations from AAD tenant"
+	pageTitle="Problems with Administrative Units"
+	description="Problems with Administrative Units"
 	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	authors="marwaIDCxP"
   	ms.author="marwa"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32615396"
+	supportTopicIds="32736805"
 	resourceTags=""
 	productPesIds="16578"
 	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
@@ -15,7 +15,7 @@
 	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
-# Managing External Collaboration Settings
+# Problems with Administrative Units
 
 ## **Recommended steps**
 1.	Ensure that the user creating the administrative units and assigning roles is a global administrator or a privilege role administrator
