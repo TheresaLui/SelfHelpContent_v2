@@ -36,6 +36,14 @@
       "searchTags": "Connectivity",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "f820b562-a549-86dc-b8ae-b5ee4e835aaa",
+      "longDescription": "",
+      "shortDescription": "Covers issues where the start operation for the VM fails and an error message is provided",
+      "searchTags": "Booting",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
