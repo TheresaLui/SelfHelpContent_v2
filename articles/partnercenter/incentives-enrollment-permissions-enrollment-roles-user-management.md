@@ -10,7 +10,7 @@
 	articleId="incentives-enrollment-permissions-enrollment-roles-user-management"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32728322"
+	supportTopicIds="32739548"
 	clientIds='partnercenter'
 	resourceTags="PartnerCenter_Incentives"
 	productPesIds="17005"
