@@ -8,7 +8,7 @@
     articleId="storagecache-installationandsetup"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32674483"
+    supportTopicIds="32674485"
     resourceTags=""
     productPesIds="16790"
     cloudEnvironments="public,fairfax,blackforest,mooncake"
