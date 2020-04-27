@@ -14,7 +14,7 @@ cloudEnvironments = "Mooncake"
     "recommendationOfferingId": "7269b88e-b638-4ba5-a55e-5632365dd938",
     "recommendationOfferingName": "ExpressRoute",
     "$schema": "AdvisorRecommendation",
-    "recommendationTypeId": "4a031d69-19fd-495f-9d25-93afbf7f1e89",
+    "recommendationTypeId": "70f87e66-9b2d-4bfa-ae38-1d7d74837689",
     "dataSourceMetadata": {
         "schemaVersion": 1.0,
         "streamNamespace": "Microsoft.Cloud.AzureAdvisorSingleCircuit-MC",
