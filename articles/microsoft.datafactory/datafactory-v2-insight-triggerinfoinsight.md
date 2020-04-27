@@ -10,7 +10,7 @@
     articleId="DataFactoryTriggerInfoInsight"
     diagnosticScenario="DataFactoryTriggerInfoInsight"
     selfHelpType="diagnostics"
-    supportTopicIds=""
+    supportTopicIds="DataFactoryTriggerInfoInsight"
     resourceTags=""
     productPesIds="15613"
     cloudEnvironments="public, BlackForest, Fairfax, Mooncake, usnat, ussec"
