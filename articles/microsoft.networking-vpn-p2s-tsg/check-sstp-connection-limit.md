@@ -1,4 +1,4 @@
-﻿<properties
+<properties
 	pageTitle="SSTP Client Connection Limit"
 	description="SSTP Client Connection Limit"
 	service="microsoft.network"
