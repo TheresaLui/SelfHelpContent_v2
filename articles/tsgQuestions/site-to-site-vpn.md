@@ -484,12 +484,12 @@
             "displayLabel": "Was it maintenance or customer reset that caused the tunnel state change reason?",
             "radioButtonOptions": [
                 {
-                    "value": "Yes",
-                    "text": "Yes"
+                    "value": "Customer",
+                    "text": "Customer"
                 },
                 {
-                    "value": "No",
-                    "text": "No"
+                    "value": "Maintenance",
+                    "text": "Maintenance"
                 }
             ],
             "required": true
