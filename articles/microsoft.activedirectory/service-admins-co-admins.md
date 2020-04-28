@@ -13,7 +13,7 @@
     resourceTags=""
     productPesIds="16578"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-	  ownershipId="AzureIdentity_RBAC"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Azure Active Directory: Issues with service admins or co-admins
