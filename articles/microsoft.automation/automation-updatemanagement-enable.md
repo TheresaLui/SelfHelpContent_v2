@@ -30,7 +30,6 @@ The Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/auto
 
 ### **Permissions needed to enable and use Update Management**
 
-* You may receive the message "... does not have permission to perform action Microsoft.Compute/virtualMachines/write" if you do not have permissions on the VMs you wish to deploy updates on
 * The ["Role-Based Access Control" guide](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#update-management) has a list of neccessary permissions for enabling and using Update Management
 
 ### **Machine isn't onboarding after waiting 15 minutes**

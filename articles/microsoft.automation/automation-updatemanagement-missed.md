@@ -43,7 +43,7 @@ Update Management logs attempts to install updates. [Check the job output](https
 
 
 
-### **Error code like "Exception from HRESULT 0x..."**
+### **"Exception from HRESULT 0x..."**
 
 * Follow the troubleshooting guide for ["Machine shows as Not Assessed and shows an HResult exception"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
   * This error commonly indicates an inaccessible WSUS server has been configured, or Windows Update is not reachable on the network.

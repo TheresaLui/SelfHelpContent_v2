@@ -21,7 +21,7 @@ This article will help with assessing available updates for machines enrolled in
 
 ## **Recommended Steps**
 
-The Update Agent Troubleshooter for [Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues) or [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux)) can surface configuration issues.
+The Update Agent Troubleshooter for [Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues) or [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux) can surface common configuration issues.
 
 ### **Machine shows as "not assessed"**
 
