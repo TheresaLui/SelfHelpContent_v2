@@ -42,7 +42,7 @@
             }
 	    },
             "required": true,
-			"diagnosticInputRequiredClients": "Portal"
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "Issue_Type",
