@@ -28,6 +28,30 @@
       "searchTags": "Initialize;Format;Logical Volume Manager",
       "category": "Virtual Disk Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "aeca6c5b-eeda-205d-8e9a-84fbc3787d58",
+      "longDescription": "",
+      "shortDescription": "Resolve issues with resetting the local admin account password of the virtual machine",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "e41e015e-0ec8-24c9-974f-79fe0d285f9e",
+      "longDescription": "",
+      "shortDescription": "Guidance with preparing an image properly for deploying into Azure",
+      "searchTags": "Deployment",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "f820b562-a549-86dc-b8ae-b5ee4e835aaa",
+      "longDescription": "",
+      "shortDescription": "Covers issues where the start operation for the VM fails and an error message is provided",
+      "searchTags": "Booting",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
