@@ -42,5 +42,5 @@ The Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/auto
 ## **Recommended Documents**
 
 * [Update Management Overview - Supported Clients, Permissions and Network Requirements](https://docs.microsoft.com/azure/automation/automation-update-management)
-* [Update Management Tutorial - Manage Updates for Multiple VMs](https://docs.microsoft.com/en-us/azure/automation/manage-update-multi)
-* [Configure Windows Update Client Settings for Update Management](https://docs.microsoft.com/en-us/azure/automation/automation-configure-windows-update)
+* [Update Management Tutorial - Manage Updates for Multiple VMs](https://docs.microsoft.com/azure/automation/manage-update-multi)
+* [Configure Windows Update Client Settings for Update Management](https://docs.microsoft.com/azure/automation/automation-configure-windows-update)

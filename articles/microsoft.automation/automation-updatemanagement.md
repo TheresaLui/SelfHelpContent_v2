@@ -23,8 +23,8 @@ For general questions about Update Management scenarios, see [Update Management 
 ## **Recommended Steps**
 
 The most common issues with Update Management are caused by:
-* [Network issues](https://docs.microsoft.com/en-us/azure/automation/automation-update-management#ports) or [Windows Update registry keys](https://docs.microsoft.com/en-us/azure/automation/automation-configure-windows-update), which can be detected by running the Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux))
-* [Scope Configuration issues](https://docs.microsoft.com/en-us/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration), which can be detected by [querying Log Analytics](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/update-management#nologs)
+* [Network issues](https://docs.microsoft.com/azure/automation/automation-update-management#ports) or [Windows Update registry keys](https://docs.microsoft.com/azure/automation/automation-configure-windows-update), which can be detected by running the Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux))
+* [Scope Configuration issues](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration), which can be detected by [querying Log Analytics](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 
 
 ### **Prerequsites for Update Management**
@@ -49,5 +49,5 @@ The most common issues with Update Management are caused by:
 ## **Recommended Documents**
 
 * [Troubleshoot issues onboarding Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)
-* [Automate onboarding Update Management](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/manage/azure-server-management/onboarding-automation)
+* [Automate onboarding Update Management](https://docs.microsoft.com/azure/cloud-adoption-framework/manage/azure-server-management/onboarding-automation)
 * [Update Management Overview - Supported Clients, Permissions and Network Requirements](https://docs.microsoft.com/azure/automation/automation-update-management)

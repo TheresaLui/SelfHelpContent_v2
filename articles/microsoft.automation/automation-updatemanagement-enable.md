@@ -50,6 +50,6 @@ The Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/auto
 ## **Recommended Documents**
 
 * [Troubleshoot issues onboarding Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)
-* [Automate onboarding Update Management](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/manage/azure-server-management/onboarding-automation)
+* [Automate onboarding Update Management](https://docs.microsoft.com/azure/cloud-adoption-framework/manage/azure-server-management/onboarding-automation)
 * [Update Management Overview - Supported Clients, Permissions and Network Requirements](https://docs.microsoft.com/azure/automation/automation-update-management)
 

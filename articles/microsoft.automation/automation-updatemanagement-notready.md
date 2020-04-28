@@ -36,4 +36,4 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ## **Recommended Documents**
 
-* [Troubleshoot Hybrid Worker](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/hybrid-runbook-worker)
+* [Troubleshoot Hybrid Worker](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker)

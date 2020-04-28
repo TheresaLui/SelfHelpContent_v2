@@ -29,14 +29,14 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 * Only machines that have reported to Log Analytics in the past 24 hours are shown in the machine list
 * Ensure the machine is able to connect to the Update Management service by [running the troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#start-the-troubleshooter)
 * Follow the instructions in ["Machines don't show up in the portal under Update Management"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs) to ensure the machine is correctly configured 
-* Follow the instructions in ["Machines don't appear in preview"](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/update-management#machines-not-in-preview) to ensure you have access on selected scopes, and the ARG query retrieves the expected machines 
+* Follow the instructions in ["Machines don't appear in preview"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#machines-not-in-preview) to ensure you have access on selected scopes, and the ARG query retrieves the expected machines 
 
 ### **Error when creating deployment**
 
 * Ensure you have the correct permissions to create deployments, especially Contributor access on any Azure VMs you are trying to manage, by referencing the ["Update Management"](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#update-management) section of the Automation RBAC documentation
-* If you receive the error **"You have requested to create an update configuration on a machine that is not registered for Update Management"**, follow the steps in ["Machines don't show up"](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/update-management#nologs) to ensure scope configuration is correct and machines are reporting to Log Analytics properly.
-* If you recieve a message like **"The client has permission to perform action [...]], however the current tenant is not authorized to access linked subscription .."**, you need to schedule the update as defined in the [linked subscription troubleshooting guide](https://docs.microsoft.com/en-us/azure/automation/troubleshoot/update-management#multi-tenant)
-* If you recieve an error like **"No computers match the Update deployment target specification"**, the machines are not reporting to the workspace presently. You can work around this by using [dynamic groups]((https://docs.microsoft.com/azure/automation/automation-update-management-groups)). 
+* If you receive the error **"You have requested to create an update configuration on a machine that is not registered for Update Management"**, follow the steps in ["Machines don't show up"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs) to ensure scope configuration is correct and machines are reporting to Log Analytics properly.
+* If you recieve a message like **"The client has permission to perform action [...]], however the current tenant is not authorized to access linked subscription .."**, you need to schedule the update as defined in the [linked subscription troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#multi-tenant)
+* If you recieve an error like **"No computers match the Update deployment target specification"**, the machines are not reporting to the workspace presently. You can work around this by using [dynamic groups](https://docs.microsoft.com/azure/automation/automation-update-management-groups). 
 
 ### **Error editing an existing deployment**
 
@@ -56,5 +56,5 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 
 * [Troubleshoot issues using Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-management)
 * [Update Management Overview - Supported Clients, Permissions and Network Requirements](https://docs.microsoft.com/azure/automation/automation-update-management)
-* [Configure Windows Update Client Settings for Update Management](https://docs.microsoft.com/en-us/azure/automation/automation-configure-windows-update)
-* [Manage Schedules in Azure Automation](https://docs.microsoft.com/en-us/azure/automation/shared-resources/schedules)
+* [Configure Windows Update Client Settings for Update Management](https://docs.microsoft.com/azure/automation/automation-configure-windows-update)
+* [Manage Schedules in Azure Automation](https://docs.microsoft.com/azure/automation/shared-resources/schedules)
