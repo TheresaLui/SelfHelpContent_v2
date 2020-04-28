@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax"
-	articleId=449eb3b9-3175-4f5d-a164-4c0abe431e37"
+	articleId="449eb3b9-3175-4f5d-a164-4c0abe431e37"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
 
