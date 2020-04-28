@@ -26,7 +26,7 @@
 - If you don't receive the email ownership verification email message within one business day, you can request to resend using the links below and following the appropriate instructions:
    - For [MPN](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile) accounts
    - For [CSP](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) accounts
-   - For [Commercial marketplace](https://partner.microsoft.com/dashboard/account/management)accounts
+   - For [Commercial marketplace](https://partner.microsoft.com/dashboard/account/management) accounts
 - If your business verification is rejected, verify that you have provided the correct Company information in your profile. If the information is incorrect, your company Global Admin can visit the profile page and update the information which will re-initiate the verification process.
 - If the information is correct and still the verification is rejected, you need to upload verification documents by clicking this link:
 [Upload verification documents](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=3&topicid=21655de7-7dbb-4927-33a2-f60f45feadf3)
