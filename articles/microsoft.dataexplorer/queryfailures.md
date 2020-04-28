@@ -11,7 +11,7 @@
 	supportTopicIds="32613464,32613482,32613506"
 	productPesIds="16602"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-    articleId="67CED318-3125-4546-BA44-FB23E224CC15"
+    articleId="66BF4592-B7E3-4820-AA25-E6BC77A179AE"
 	ownershipId="AzureDataExplorer_Kusto"
 />
 

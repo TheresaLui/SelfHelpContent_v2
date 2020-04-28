@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="16602"
 	cloudEnvironments="Public"
-    articleId="67CED318-3125-4546-BA44-FB23E224CC15"
+    articleId="8A5B4B0A-D1FB-48D9-86A3-1871C9533519"
 	ownershipId="AzureDataExplorer_Kusto"
 />
 
