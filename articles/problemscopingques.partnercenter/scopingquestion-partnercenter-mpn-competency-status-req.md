@@ -12,7 +12,7 @@
 	clientIds="partnercenter"
 	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
-#Partner Center MPN Competency requirements
+# Partner Center MPN Competency requirements
 ---
 {
   "resourceRequired": true,
@@ -43,7 +43,7 @@
             "displayLabel": "When did this issue start?",
             "required": true
         }
-    ],
+    ]
     "$schema": "SelfHelpContent"
 }
 ---
