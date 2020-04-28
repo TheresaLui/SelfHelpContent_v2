@@ -27,7 +27,7 @@ The most common issues with Update Management are caused by:
 * [Scope Configuration issues](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration), which can be detected by [querying Log Analytics](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 
 
-### **Prerequsites for Update Management**
+### **Prerequisites for Update Management**
 * The [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management) covers [supported clients](https://docs.microsoft.com/azure/automation/automation-update-management#clients), [required permissions](https://docs.microsoft.com/azure/automation/automation-update-management#permissions), and [network requirements ](https://docs.microsoft.com/azure/automation/automation-update-management#ports)
 * Only certain regions are supported for linking Log Analytics and Automation Accounts, which is required for Update Management. See the ["Workspace Mappings"](https://docs.microsoft.com/azure/automation/how-to/region-mappings) document for the full list of supported regions.
 * If your region is not listed as a supported region, you can [file a feedback request on our UserVoice](https://feedback.azure.com/forums/905242-update-management)

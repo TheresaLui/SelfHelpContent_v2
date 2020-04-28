@@ -35,8 +35,8 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 
 * Ensure you have the correct permissions to create deployments, especially Contributor access on any Azure VMs you are trying to manage, by referencing the ["Update Management"](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#update-management) section of the Automation RBAC documentation
 * If you receive the error **"You have requested to create an update configuration on a machine that is not registered for Update Management"**, follow the steps in ["Machines don't show up"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs) to ensure scope configuration is correct and machines are reporting to Log Analytics properly.
-* If you recieve a message like **"The client has permission to perform action [...]], however the current tenant is not authorized to access linked subscription .."**, you need to schedule the update as defined in the [linked subscription troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#multi-tenant)
-* If you recieve an error like **"No computers match the Update deployment target specification"**, the machines are not reporting to the workspace presently. You can work around this by using [dynamic groups](https://docs.microsoft.com/azure/automation/automation-update-management-groups). 
+* If you receive a message like **"The client has permission to perform action [...]], however the current tenant is not authorized to access linked subscription .."**, you need to schedule the update as defined in the [linked subscription troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#multi-tenant)
+* If you receive an error like **"No computers match the Update deployment target specification"**, the machines are not reporting to the workspace presently. You can work around this by using [dynamic groups](https://docs.microsoft.com/azure/automation/automation-update-management-groups). 
 
 ### **Error editing an existing deployment**
 

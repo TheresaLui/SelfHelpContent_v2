@@ -30,14 +30,14 @@ The Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/auto
 
 ### **Permissions needed to enable and use Update Management**
 
-* The ["Role-Based Access Control" guide](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#update-management) has a list of neccessary permissions for enabling and using Update Management
+* The ["Role-Based Access Control" guide](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#update-management) has a list of necessary permissions for enabling and using Update Management
 
 ### **Machine isn't onboarding after waiting 15 minutes**
 
 * The ["Components enabled but not working" section of the Update Management Troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#components-enabled-not-working) covers common issues such as:
   * Cloned machines or machines with the same name in the same Log Analytics workspace
   * Network endpoints are inaccessible
-  * Scope configuration prevents machines from recieving the Update Management solution
+  * Scope configuration prevents machines from receiving the Update Management solution
 
 
 ### **The solution cannot be enabled on this VM because the VM already has the management agent..."**
