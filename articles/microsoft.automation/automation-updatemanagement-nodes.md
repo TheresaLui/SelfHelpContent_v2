@@ -35,7 +35,7 @@ The Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/auto
 
 * Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs) to check for the most recent reports from machines and common solutions
 * If you see an error code like "Exception from HRESULT 0x...", follow the troubleshooting guide for ["Machine shows as Not Assessed and shows an HResult exception"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
-  * This error commonly indicates an inaccessible WSUS server configured, or Windows Update is not reachable on the network.
+  * This error commonly indicates an inaccessible WSUS server has been configured, or Windows Update is not reachable on the network.
 
 
 
