@@ -1,10 +1,10 @@
 <properties 
-    pageTitle="Connection timed out"
+    pageTitle="Connection timed out -"
     description="Connectivity Connection Timed out"
     service="microsoft.network"
     resource="applicationgateways"
     authors="abshamsft"
-    ms.author="absha"
+    ms.author="absha, sischleg"
     displayOrder="23"
     selfHelpType="resource"
     articleId="application-gateway-connection-timed-out-error"
