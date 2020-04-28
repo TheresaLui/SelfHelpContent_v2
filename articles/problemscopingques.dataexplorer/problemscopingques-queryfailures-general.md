@@ -48,8 +48,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
-            "useAsAdditionalDetails": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "useAsAdditionalDetails": true
         }
     ]
 }
