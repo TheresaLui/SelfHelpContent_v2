@@ -43,7 +43,7 @@
             "displayLabel": "When did this issue start?",
             "required": true
         }
-    ]
+    ],
     "$schema": "SelfHelpContent"
 }
 ---
