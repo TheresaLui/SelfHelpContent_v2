@@ -9,7 +9,7 @@
 	selfHelpType="TSG_Content"
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
-	productPesIds=""a
+	productPesIds=""
 	cloudEnvironments="public,fairfax"
 	articleId="0deb3c01-cbb0-4c0d-bbf0-c5b7eff231fd"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
