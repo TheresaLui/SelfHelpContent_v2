@@ -6,7 +6,7 @@
 	authors="nanditavalsan"
 	ms.author="nanditav@microsoft.com"
 	selfHelpType="TSG_Content"
-	cloudEnvironments=""public, Fairfax, usnat, ussec"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="dw-availabilityandconnectivity-azureactivedirectoryauthentication-powerbi.md"
 	ownershipId=""
 />
