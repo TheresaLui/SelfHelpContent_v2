@@ -1,8 +1,8 @@
 <properties
     pageTitle="Move to production gateway SKUs from Basic gateways"
     description="Move to production gateway SKUs from Basic gateways"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    authors="anzaman"
+    ms.author="alzam"
     articleId="e070c4bf-afaf-413e-bc00-e476b89c5f3d_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
@@ -34,7 +34,7 @@
       "service": "Azure Advisor",
       "team": "Azure Advisor"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "10c9bf14-f656-4413-a32c-176b6f203911"
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
