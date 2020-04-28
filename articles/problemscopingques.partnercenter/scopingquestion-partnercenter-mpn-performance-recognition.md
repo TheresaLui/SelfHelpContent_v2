@@ -12,7 +12,7 @@
 	clientIds="partnercenter"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
-#Partner Center MPN Performance Recognition issues
+# Partner Center MPN Performance Recognition issues
 ---
 {
     "resourceRequired": true,
