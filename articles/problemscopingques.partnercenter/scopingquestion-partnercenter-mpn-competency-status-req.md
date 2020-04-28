@@ -26,6 +26,7 @@
       "controlType": "textbox",
       "displayLabel": "Specific Competency in question",
       "watermarkText": "Name of competency",
+      "required": false
     },
      {
             "id": "problem_description",
