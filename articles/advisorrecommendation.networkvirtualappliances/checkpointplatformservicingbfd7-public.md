@@ -8,6 +8,7 @@ selfHelpType="advisorRecommendationMetadata"
 cloudEnvironments="Public"
 />
 # Known issue with Check Point Network Virtual Appliance image version
+---
 {
     "recommendationOfferingId": "92ec10d4-6c95-4aa3-b4c5-604d0e606985",
     "recommendationOfferingName": "NVA Engineering",
@@ -49,3 +50,4 @@ cloudEnvironments="Public"
     "tip": "Upgrade Network Virtual Appliance image to ensure buisiness continuity.",
     "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/bigipha_rg/providers/Microsoft.Compute/virtualMachines/bigiphatest-f5vm010"
 }
+---
