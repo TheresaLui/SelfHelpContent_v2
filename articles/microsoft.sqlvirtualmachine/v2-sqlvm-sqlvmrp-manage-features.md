@@ -28,6 +28,7 @@ Azure Portal may show the following message on the SQL VM resource: *SQL virtual
 The extension may occasionally encounter issues during its workflow resulting in a bad state. Uninstalling and reinstalling the extension should address this issue.
 
 You can execute the following commands in PowerShell to reinstall the extension:
+
 ```
 Remove-AzVMSqlServerExtension -ResourceGroupName "<ResourceGroupName>" -VMName "<VMName>" -Name "SqlIaasExtension" 
 
