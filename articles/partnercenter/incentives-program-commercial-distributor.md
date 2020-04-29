@@ -41,7 +41,9 @@ These resources explain enrollment, eligibility, earnings, claims, payments, and
 
 
 ### **Still need help?**
-Create a support ticket:
+
+**Create a support ticket:**
+
 * [North America](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=ciquest@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=Commercial%20Distributor&supporttopicid_l3=Support&locale=en-us&language=EN)
 * [Europe, Middle East, and Africa](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=erebates@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=Commercial%20Distributor&supporttopicid_l3=Support&locale=en-us&language=EN)
 * [Asia Pacific](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=apocchi@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=Commercial%20Distributor&supporttopicid_l3=Support&locale=en-us&language=EN)

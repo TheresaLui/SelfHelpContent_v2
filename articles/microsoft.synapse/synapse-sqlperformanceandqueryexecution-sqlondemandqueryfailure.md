@@ -25,7 +25,7 @@
 
 	* If you are using AAD login, check whether UserIdentity credential exists. If it exists, check if you have proper rights to access the file. Easiest way is to grant yourself 'Storage Blob Data Contributor' role on the storage account you're trying to query. [Visit full guide on Azure Active Directory access control for storage for more information](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal). 
 	* For credentials defined on storage path level, make sure credential is not created on storage level, but at least on container level 
-	* For configuring storage access instructions, visit [control storage access for SLQ on-demand](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control) 
+	* For configuring storage access instructions, visit [control storage access for SQL on-demand](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control) 
 
 * If your query fails with the error message 'The query references an object that is not supported in distributed processing mode.', it means that query targets data from both storage account and temporary table, which is not supported at this moment 
 

@@ -62,7 +62,7 @@
             "order": 5,
             "visibility": "recovery_option == by_time_period",
             "controlType": "datetimepicker",
-            "displayLabel": "Local end time when container was deleted",
+            "displayLabel": "Local end time when container was deleted (cannot be same as Local start time)",
             "required": true
         },
         {
