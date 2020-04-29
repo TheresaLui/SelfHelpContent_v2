@@ -1,7 +1,6 @@
  <properties
     description = "Support topic metadata for <Product Name>"
     pageTitle = "Support topic metadata for <Product Name>"
-    authors = "<microsoft alias>"
     ms.author = "<Git username>"
     icmTeam="<icmteam>" 
     icmService="<icmservice>"
