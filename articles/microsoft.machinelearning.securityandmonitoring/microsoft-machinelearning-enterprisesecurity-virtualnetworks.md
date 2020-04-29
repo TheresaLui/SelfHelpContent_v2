@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	productPesIds="16644"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.securityandmonitoring.virtualnetwork"
+	articleId="microsoft.machinelearning.enterprisesecurity.virtualnetwork"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />

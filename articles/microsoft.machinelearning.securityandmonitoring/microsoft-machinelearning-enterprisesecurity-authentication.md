@@ -9,7 +9,7 @@
 	supportTopicIds="32690837"
 	productPesIds="16644"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.securityandmonitoring.authentication"
+	articleId="microsoft.machinelearning.enterprisesecurity.authentication"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />

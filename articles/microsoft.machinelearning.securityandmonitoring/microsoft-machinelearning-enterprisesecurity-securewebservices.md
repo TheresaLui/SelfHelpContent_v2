@@ -9,7 +9,7 @@
 	supportTopicIds="32690883"
 	productPesIds="16644"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.securityandmonitoring.securewebservices"
+	articleId="microsoft.machinelearning.enterprisesecurity.securewebservices"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
