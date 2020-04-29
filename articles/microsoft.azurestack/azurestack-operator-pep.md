@@ -19,6 +19,8 @@
 
 As an Azure Stack operator, you should use the administrator portal, PowerShell, or Azure Resource Manager APIs for most day-to-day management tasks. However, for some less common operations, you need to use the privileged endpoint (PEP).
 
+Users who need support with using the PEP often just need to know their IP address. To find your IP address, sign in to the Admin portal and select **Region Management** > **Properties**. Once you know the IP address, you can follow the recommended steps to use the PEP.  
+
 ## **Recommended Steps**
 
 1. [Access the Privileged Endpoint (PEP)](https://docs.microsoft.com/azure/azure-stack/azure-stack-privileged-endpoint#access-the-privileged-endpoint) and [follow best practices](https://docs.microsoft.com/azure/azure-stack/azure-stack-privileged-endpoint#tips-for-using-the-privileged-endpoint) to perform low-level tasks, such as [collecting diagnostic logs](https://docs.microsoft.com/azure/azure-stack/azure-stack-diagnostics#log-collection-tool)
