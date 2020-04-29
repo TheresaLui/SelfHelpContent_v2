@@ -743,14 +743,14 @@ cloudEnvironments="public, fairfax, usnat, ussec"
       "type": "tool",
       "bladeLink": {
         "extensionName": "Microsoft_Azure_ChangeAnalysis",
-        "bladeName": "ChangeAnalysisBlade",
+        "bladeName": "ResourceChangesBlade",
         "parameters": [
           {
             "name": "resourceId",
             "value": "$resourceId"
           },
           {
-            "name": "deeplinkOrigin",
+            "name": "deepLinkOrigin",
             "value": "d&sp"
           }
         ]

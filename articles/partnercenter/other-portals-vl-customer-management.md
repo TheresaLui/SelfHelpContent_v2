@@ -20,6 +20,7 @@
 
 # This topic will guide partners to the support experience for Volume Licensing operations questions supported by the Regional Operation Centers
 
+This topic will guide partners to the support experience for Volume Licensing operations questions supported by the Regional Operation Centers
 
 ## **Recommended Steps**
 

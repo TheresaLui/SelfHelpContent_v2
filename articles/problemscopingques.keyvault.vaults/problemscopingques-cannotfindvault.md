@@ -18,6 +18,11 @@
     "resourceRequired": false,
     "title": "Vault cannot be found",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Key Vault Troubleshooter",
+        "description": "OurKey Vault Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
@@ -33,7 +38,8 @@
             "controlType": "textbox",
             "displayLabel": "Vault name",
             "watermarkText": "E.g. MyContosoVault",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
