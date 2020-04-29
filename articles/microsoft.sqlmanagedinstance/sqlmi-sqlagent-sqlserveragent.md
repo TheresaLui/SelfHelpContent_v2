@@ -15,15 +15,15 @@
 	ownershipId="AzureData_AzureSQLMI"
 />
 
-# Sql Server Agent
+# SQL Server Agent
 [Sql Server Agent](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent?view=sql-server-ver15) is a Microsoft Windows service that executes scheduled administrative tasks, which are called jobs in SQL Server 2019 (15.x).
 
 ## **Recommended Steps**
 
-If you are experiencing some issues with Sql Server Agent, some of the following steps might help you to troubleshoot the issues:
+If you are experiencing some issues with SQL Server Agent, some of the following steps might help you to troubleshoot the issues:
 
 **I cannot see my SQL Server Agent node in Object explorer**
-There are three fixed DB SqlServer Agent roles:
+There are three fixed DB SQL Server Agent roles:
 •	SQLAgentUserRole
 •	SQLAgentReaderRole
 •	SQLAgentOperatorRole
@@ -42,12 +42,12 @@ Each of the logins added to SQL Agent fixed database roles needs to explicitly g
  
 [SQL Agent roles need explicit EXECUTE permissions for non-sysadmin logins](https://docs.microsoft.com/azure/sql-database/sql-database-release-notes?tabs=managed-instance#sql-agent-roles-need-explicit-execute-permissions-for-non-sysadmin-logins)
 
-**How can I disable my Sql Server Agent?**
+**How can I disable my SQL Server Agent?**
 For managed instance enabling and disabling of SQL Server Agent is currently not supported. SQL Agent is always running.
 
 
 ## **Recommended Documents**
 
-- [Managed instance T-SQL differences and limitations (Sql Server Agent)](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)
+- [Managed instance T-SQL differences and limitations (SQL Server Agent)](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)
 - [SQL Agent roles need explicit EXECUTE permissions for non-sysadmin logins](https://docs.microsoft.com/azure/sql-database/sql-database-release-notes?tabs=managed-instance#in-memory-oltp-memory-limits-are-not-applied)
 
