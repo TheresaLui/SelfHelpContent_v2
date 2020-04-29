@@ -12,7 +12,7 @@
 	resourceTags=""
 	productPesIds="17082"
 	cloudEnvironments="public,fairfax"
-	articleId="c8ec9cd3-3673-49b1-b818-9b88cf01abce"
+	articleId="1"
 	ownershipId="StorageMediaEdge_ImportExport"
 />
 
