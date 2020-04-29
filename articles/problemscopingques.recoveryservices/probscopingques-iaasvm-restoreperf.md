@@ -6,10 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32612998,32637327"
          productPesIds="15207,14749,15571,15797,16454,16470"
-         cloudEnvironments="public, Fairfax"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="9a98fd5d-c64c-4d29-9f4d-fd53e64b5c0b"
-	ownershipId="StorageMediaEdge_Backup"
+	 ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM Restore performance
 ---
@@ -31,17 +31,18 @@
             "displayLabel": "Which virtual machine(s) is experiencing problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
 	    "dynamicDropdownOptions": {
-            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
-       	    "jTokenPath": "value",
-            "textProperty": "name",
-            "valueProperty": "id",
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+       	    "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
             "textPropertyRegex": ".*",
 	    "defaultDropdownOptions": {
                 "value": "dont_know_answer",
                 "text": "Other, don't know or not applicable"
             }
 	    },
-            "required": false
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "Issue_Type",

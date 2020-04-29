@@ -10,7 +10,7 @@
 	supportTopicIds="32602738"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="e9d66480-f423-405b-9e89-256adaeb1bae"
 	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
@@ -28,5 +28,5 @@ ShoeboxEntries | where resourceId contains '/StorageAccountName'| where TIMESTAM
 
 **Recommended Documents**
 
-1. https://jarvis-west.dc.ad.msft.net/logs/kusto
-2. https://armprod.kusto.windows.net:443/ARMProd
+1. [Jarvis Kusto](https://jarvis-west.dc.ad.msft.net/logs/kusto)
+2. [ARMProd Kusto](https://armprod.kusto.windows.net:443/ARMProd)

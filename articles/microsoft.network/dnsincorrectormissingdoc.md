@@ -8,7 +8,7 @@
 	supportTopicIds="32560532"
 	resourceTags=""
 	productPesIds="15804"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="344e80eb-8873-45b5-837a-8d839b619db9"
 	ownershipId="CloudNet_DNS"
 />

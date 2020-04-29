@@ -1,17 +1,17 @@
  <properties
-	pageTitle="authentication"
-	description="authentication"
-	service="Microsoft.AnalysisServices"
-	resource="Microsoft.AnalysisServices/servers"
-	authors="pjfreitas"
-	ms.author="pfreitas"
-	displayOrder="270"
-	selfHelpType="generic"
-	supportTopicIds="32675700"
-	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax" 
-	articleId="e581eeed-3c1b-ff98-9c5a-e3fadaeabd11"
-	ownershipId="AzureData_AnalysisServices"
+    pageTitle="authentication"
+    description="authentication"
+    service="Microsoft.AnalysisServices"
+    resource="Microsoft.AnalysisServices/servers"
+    authors="pjfreitas"
+    ms.author="pfreitas"
+    displayOrder="270"
+    selfHelpType="generic"
+    supportTopicIds="32675700"
+    productPesIds="16157"
+    cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
+    articleId="e581eeed-3c1b-ff98-9c5a-e3fadaeabd11"
+    ownershipId="AzureData_AnalysisServices"
 />
 
 # Authentication and user permissions
@@ -24,4 +24,4 @@
 
 * [Refresh with Azure Automation](https://docs.microsoft.com/azure/analysis-services/analysis-services-refresh-azure-automation)
 
-
+* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)

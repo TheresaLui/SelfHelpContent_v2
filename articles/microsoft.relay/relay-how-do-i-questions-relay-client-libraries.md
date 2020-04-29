@@ -10,7 +10,7 @@
     supportTopicIds="32684546"
     resourceTags=""
     productPesIds="16123"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="relay-how-do-i-questions-relay-client-libraries"
 	ownershipId="AzureMessaging_Common"
 />

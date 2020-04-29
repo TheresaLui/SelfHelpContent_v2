@@ -10,7 +10,7 @@
 	supportTopicIds="32677680"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="bc33791c-7c27-461b-b0d0-989c567e50a7"
 	ownershipId="AzureData_AzureDatabricks"
 />
@@ -31,6 +31,8 @@
 > Please visit [blog](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/) for more details on our commitment to customers and Microsoft cloud services continuity.
 
 ## **Recommended Steps**
+
+* Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
 
 * To expedite the process to increase quota, please follow the steps:
 

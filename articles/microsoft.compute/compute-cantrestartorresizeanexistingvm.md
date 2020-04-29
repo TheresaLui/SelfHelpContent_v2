@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	resourceTags="windows, linux, windowsSQL, redhat, Ubuntu"
 	productPesIds=""
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="1cf1dd0b-8bde-4432-a753-6e800568aa29"
 	ownershipId="Compute_VirtualMachines"
 />
@@ -23,7 +23,7 @@
 
 ## **Recommended Steps**
 
->If you are experiencing allocation failures in **West Europe, North Europe, UK South, UK West, and France Central**, please try alternate regions (as first preference) or alternate SKUs.<br>
+>If you are experiencing allocation failures in **UAE North**, please try alternate regions (as first preference) or alternate SKUs.<br>
 
 For general troubleshooting, please follow these guides:<br>
 

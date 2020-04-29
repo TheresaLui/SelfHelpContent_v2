@@ -10,9 +10,9 @@
     supportTopicIds="32637600"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="f4e93e8f-2b28-4bc9-bec6-45e2d65391d2"    
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting point-to-site VPN connectivity to Cloud Simple 

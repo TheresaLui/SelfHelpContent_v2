@@ -6,7 +6,7 @@
     articleId="e10b1381-5f0a-47ff-8c7b-37bd13d7c974_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="CloudFit_CostOptimization"
 />
 # Right-size or shutdown underutilized virtual machines
 ---

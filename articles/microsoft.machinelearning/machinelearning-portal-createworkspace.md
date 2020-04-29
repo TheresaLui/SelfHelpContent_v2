@@ -9,7 +9,7 @@
     supportTopicIds="32321879"
     resourceTags=""
     productPesIds="15570"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
  	articleId="microsoft.machinelearning.portal.workspacesetup"
 	ownershipId="AzureML_AzureMachineLearning"
 />

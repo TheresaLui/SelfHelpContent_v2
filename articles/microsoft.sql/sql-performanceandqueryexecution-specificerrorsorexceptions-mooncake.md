@@ -12,7 +12,7 @@
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
 	articleId="sql-performanceandqueryexecution-specificerrorsorexceptions-mooncake"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # performance and query execution/specific errors or exceptions

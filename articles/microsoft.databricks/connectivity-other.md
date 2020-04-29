@@ -10,7 +10,7 @@
 	supportTopicIds="32677713"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="aad9b1de-3413-4700-97ac-ba5b84675678"
 	ownershipId="AzureData_AzureDatabricks"
 />
@@ -19,6 +19,7 @@
 
 ## **Recommended Documents**
 
+* Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
 * [Deploy Azure Databricks in your Azure Virtual Network (VNet Injection)](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/vnet-inject)
 * [Connect your Azure Databricks Workspace to your On-Premises Network](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network)
 * [How to Save Plotly Files and Display From DBFS](https://kb.azuredatabricks.net/visualizations/save-plotly-to-dbfs.html)

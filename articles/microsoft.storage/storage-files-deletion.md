@@ -10,7 +10,7 @@
 	supportTopicIds=" 32736816"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="Unable to delete file in an Azure file share"
 	ownershipId="StorageMediaEdge_StorageFiles"
 />

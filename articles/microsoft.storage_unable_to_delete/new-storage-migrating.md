@@ -10,7 +10,7 @@
 	supportTopicIds="32602738"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="5a2a90e9-4bfc-4e4b-9077-b1c71ceb042d"
 	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
@@ -36,6 +36,4 @@ Move-AzureStorageAccount-Abort -StorageAccountName storageAccountName -Debug
 
 **Recommended Documents**
 
-1. https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265688/Azure_Storage_TSG_Storage-account-is-in-the-process-of-being-migrated-and-hence-cannot-be-changed(StorageAccou
-
-
+1. [Storge Account in process of migrating](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265688/Azure_Storage_TSG_Storage-account-is-in-the-process-of-being-migrated-and-hence-cannot-be-changed)

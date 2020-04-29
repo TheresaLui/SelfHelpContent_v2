@@ -5,9 +5,9 @@
   ms.author="akankshajsh, v-kraku, srinathv"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
-  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="azure-backup-supporttopicdescription"
-  ownershipid="StorageMediaEdge_Backup"
+  ownershipid=""
   icmteam="icmteam"
   icmservice="icmservice"
   feedbackemail="email" />
@@ -15,14 +15,14 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": "",
+  "shortDescription": "Azure Backup",
   "longDescription": "",
-  "productLink1": "",
-  "productLinkName1": null,
+  "productLink1": "https://docs.microsoft.com/azure/backup/backup-overview",
+  "productLinkName1": "Product Overview",
   "productLink2": "",
-  "productLinkName2": null,
+  "productLinkName2": "",
   "productLink3": "",
-  "productLinkName3": null,
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "025dc143-378e-9b1c-ca0d-7056de378d44",

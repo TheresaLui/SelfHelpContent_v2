@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32689195"
     productPesIds="16953,16954,16955,16956"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="115e4513-d6db-436f-9820-8b5f4436b715"
     	ownershipId="AzureIdentity_GraphUsersAndGroupsAPIs"

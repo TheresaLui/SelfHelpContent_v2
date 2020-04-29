@@ -14,7 +14,7 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960,17000"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
@@ -26,6 +26,7 @@
 - If you don't receive the email ownership verification email message within one business day, you can request to resend using the links below and following the appropriate instructions:
    - For [MPN](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile) accounts
    - For [CSP](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) accounts
+   - For [Commercial marketplace](https://partner.microsoft.com/dashboard/account/management)accounts
 - For any other verification issues, you can create a support ticket by clicking on Next step section
 - If the problem is related to employment verification or business verification, you can search for the topic in _Tell us about issue section_
  

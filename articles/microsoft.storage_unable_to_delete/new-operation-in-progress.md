@@ -10,7 +10,7 @@
 	supportTopicIds="32602738"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="be56be63-ca12-4e4b-9339-bca04ba34c19"
    ownershipId="Centennial_CloudNet_LoadBalancer"
 />
@@ -55,6 +55,6 @@ Filtering: AnyField contains $CorrelatioId$
 
 **Recommended Documents**
 
-1. https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265656/Azure_Storage_TSG_An-operation-is-currently-performing-on-this-storage-account-that-requires-exclusive-access(
+1. [An operation is currently being performed](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265656/Azure_Storage_TSG_An-operation-is-currently-performing-on-this-storage-account-that-requires-exclusive-access)
 
 

@@ -9,7 +9,7 @@
 	supportTopicIds="32636795,32681012,32684529"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-throughput-queryindexing"
 	displayOrder="246"
 	category="Throughput and Scaling"

@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 supportTopicIds="32436964,32582829,32582830,32582826,32582827,32565735,32565736,32582833,32640606,32640607,32640608,32640603,32639117,32639118,32639111,32639112,32639110,32641400,32674895,32674896,32680759,32680758,32680757,32680756"
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,mooncake,blackforest"
+	cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	schemaVersion="1"
 	articleId="ad021338-109f-4290-a45e-f7be9d73fe26"
 	ownershipId="CloudNet_AzureApplicationGateway"
