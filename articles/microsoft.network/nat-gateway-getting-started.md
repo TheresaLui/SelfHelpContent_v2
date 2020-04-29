@@ -17,7 +17,7 @@
 
 # NAT gateway - Getting started with NAT gateway resources
 
-## Recommended Documents
+## **Recommended Documents**
 
 * [Virtual Network NAT overview](https://docs.microsoft.com/azure/virtual-network/nat-overview) which provides NAT gateway resources.
 * [NAT gateway resource](https://docs.microsoft.com/azure/virtual-network/nat-gateway-resource)
