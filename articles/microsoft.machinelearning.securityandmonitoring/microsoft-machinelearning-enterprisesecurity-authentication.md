@@ -65,7 +65,7 @@ workspace = Workspace.get(name="<YOUR WORKSPACE NAME",
 workspace.get_details()
 ```
 
-### **Service Principal Authentication**
+### **REST API Authentication**
 
 A service principal can be used to authenticate using the Azure Machine Learning [REST API](https://docs.microsoft.com/rest/api/azureml/). The following Python code will generate an authentication token to your workspace resource (run `pip install adal` to download required package):
 
@@ -90,5 +90,4 @@ Here is a list of additional resources which may be helpful:
 * [Setup authentication for Azure Machine Learning resources and workflows](https://docs.microsoft.com/azure/machine-learning/how-to-setup-authentication)
 * [Manage access to Azure Machine Learning workspace](https://docs.microsoft.com/azure/machine-learning/how-to-assign-roles)
 * [Built-in roles for Azure resources](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)
-* [Resource provider operations](https://docs.microsoft.com/azure/role-based-access-control/resource-provider-operations#microsoftmachinelearningservices)
 * [Azure Machine Learning SDK documentation](https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py)
