@@ -3,9 +3,9 @@
     description="Move to production gateway SKUs from Basic gateways"
     authors="anzaman"
     ms.author="alzam"
-    articleId="e070c4bf-afaf-413e-bc00-e476b89c5f3d_Public"
+    articleId="e070c4bf-afaf-413e-bc00-e476b89c5f3d_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Move to production gateway SKUs from Basic gateways
@@ -17,7 +17,7 @@
   "recommendationTypeId": "e070c4bf-afaf-413e-bc00-e476b89c5f3d",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "Microsoft.Cloud.BasicVPNGatewaysV1",
+    "streamNamespace": "Microsoft.Cloud.BasicVPNGatewaysV1FF",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
