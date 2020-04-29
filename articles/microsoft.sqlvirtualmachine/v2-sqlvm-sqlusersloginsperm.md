@@ -35,7 +35,7 @@ Ensure that login exists in the new replica with appropriate privileges. It is a
 >You may additionally see **Cannot generate SSPI context"** error. These issues can happen if there is an issue with **Service Principal Name(SPN)**. Please ensure that SQL Server [Service Principal Name (SPN) is registered correctly](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/register-a-service-principal-name-for-kerberos-connections?view=sql-server-ver15) and there is no duplicate/missing SPNs or SPN errors.<br>
 
 You can use Microsoft® Kerberos Configuration Manager to achieve above as follows –
-- Download the Microsoft® Kerberos Configuration Manager https://www.microsoft.com/en-us/download/details.aspx?id=39046
+- Download the Microsoft® Kerberos Configuration Manager https://www.microsoft.com/download/details.aspx?id=39046
 - You **must log in the SQL Server VM as the domain administrator to run the utility** against the domain controller.
 - The tool will not create a shortcut, so you should note the install path; generally it is in : C:\Program Files\Microsoft\Kerberos Configuration Manager for SQL Server
 - Click on Connect

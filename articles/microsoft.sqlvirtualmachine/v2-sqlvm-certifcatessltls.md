@@ -19,9 +19,9 @@
 
 # SQL Certificate Management, SSL and TLS
 
-## **Common Issues**
-* **SSL corticate missing from dropdown in SQL Server Configuration Manager** <br>
-Please ensure that your corticate meets the [Certificate Requirements](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-encrypted-connections-to-the-database-engine?view=sql-server-ver15#certificate-requirements)
+**Common Issues**
+* **SSL certificate missing from dropdown in SQL Server Configuration Manager** <br>
+Please ensure that your certificate meets the [Certificate Requirements](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-encrypted-connections-to-the-database-engine?view=sql-server-ver15#certificate-requirements)
  <br>
 * **I am having issues with TLS 1.2**  
 Please ensure as per [TLS 1.2 support for Microsoft SQL Server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)

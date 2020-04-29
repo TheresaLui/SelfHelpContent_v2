@@ -7,7 +7,7 @@
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32740100"
+	supportTopicIds="32740091"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
