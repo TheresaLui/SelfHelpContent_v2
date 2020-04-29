@@ -4,7 +4,7 @@
 	description="Ship disks to/from Azure datacenter"
 	service="microsoft.importexport.jobs"
 	resource=""
-	authors="madhuri n"
+	authors="madhurinms"
 	ms.author="madhn"
 	displayOrder=""
 	selfHelpType="generic"
@@ -18,12 +18,9 @@
 
 # Azure Import/Export Shipping
 
-## **Recommended Documents**
+## **Recommended Steps**
 
-* The carrier account that you provide must be valid, have balance, and return shipping capabilities.
-
+* The carrier account that you provide must be valid, have balance, and return shipping capabilities
 * Every job should have a separate tracking number. Multiple jobs with the same tracking number are not supported.
-
-* [FAQ](https://docs.microsoft.com/azure/storage/common/storage-import-export-service-faq?toc=/azure/storage/blobs/toc.json#shipping-disks)<br>
-
-* If you want to use a carrier other than those available in the drop down list, contact Azure Data Box Operations team at adbops@microsoft.com to check if the DC supports receiving/shipping back from your carrier.
+* [FAQ](https://docs.microsoft.com/azure/storage/common/storage-import-export-service-faq?toc=/azure/storage/blobs/toc.json#shipping-disks)
+* If you want to use a carrier other than those available in the drop down list, contact Azure Data Box Operations team at adbops@microsoft.com to check if the DC supports receiving/shipping back from your carrier
