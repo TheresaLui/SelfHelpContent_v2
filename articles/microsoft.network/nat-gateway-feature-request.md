@@ -1,0 +1,24 @@
+<properties
+    pageTitle="Feature request"
+    description="Use UserVoice to request features"
+    service="microsoft.network"
+    resource="natgateways"
+    authors="christiankuhtz"
+    ms.author="christiankuhtz"
+    displayOrder="14"
+    selfHelpType="resource"
+    articleId="nat-gateway-feature-request-md"
+    resourceTags=""
+    productPesIds="16838"
+    supportTopicIds="32681707"
+    cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
+    ownershipId="CloudNet_VirtualNetworkNAT"
+/>
+
+# NAT gateway - Feature request
+
+## **Recommended Steps**
+
+We use [UserVoice](https://aka.ms/natuservoice) to identify and prioritize feature requests. You can create new feature requests, add your voice to existing requests, and get feedback on the status of requests.
+
+You can also reach out to the product team to [provide feedback](https://aka.ms/natfeedback) if it is outside the scope of UserVoice.
