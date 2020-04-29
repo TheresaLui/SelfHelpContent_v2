@@ -17,7 +17,7 @@
 
 # Cannot stop, start or restart a VM
 
-4 out of 5 customers resolved their VM start issue using the steps below.<br>
+4 out of 5 customers resolved their VM startup issues using the steps below.
 
 ## **Recommended Steps**
 
