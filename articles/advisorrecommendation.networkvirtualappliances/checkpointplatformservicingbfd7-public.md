@@ -23,7 +23,7 @@ ownershipId="CloudNet_NVA"
     "recommendationCategory": "HighAvailability",
     "recommendationImpact": "High",
     "recommendationResourceType": "Microsoft.Compute/virtualMachines",
-    "recommendationFriendlyName": "NVAKnownIssues",
+    "recommendationFriendlyName": "CheckPointPlatformServicingKnownIssueB",
     "recommendationMetadataState": "Active",
     "owner": {
         "email": "nvaeng@microsoft.com",
