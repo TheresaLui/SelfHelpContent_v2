@@ -41,7 +41,8 @@
                 "text": "Other, don't know or not applicable"
             }
 	    },
-            "required": false
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "Issue_Type",

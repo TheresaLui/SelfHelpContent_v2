@@ -41,7 +41,7 @@
                 "text": "Other, don't know or not applicable"
             }
 	    },
-            "required": false
+            "required": true
         },
         {
             "id": "jobID_Name",
@@ -71,8 +71,8 @@
                     "text": " Snapshot operation failed due to no network connectivity on the virtual machine"
                 },
                 {
-                    "value": "Could not copy the snapshot of the virtual machine...",
-                    "text": "Could not copy the snapshot of the virtual machine...."
+                    "value": "Could not copy the snapshot of the virtual machine",
+                    "text": "Could not copy the snapshot of the virtual machine"
                 },
                 {
                     "value": "Could not communicate with the VM agent for snapshot status",
@@ -85,10 +85,6 @@
                 {
                     "value": "Currently Azure Backup does not support disk sizes greater than 1023GB",
                     "text": "Currently Azure Backup does not support disk sizes greater than 1023GB"
-                },
-                {
-                    "value": "My error message is not listed here",
-                    "text": "My error message is not listed here"
                 },
                 {
                     "value": "dont_know_answer",
