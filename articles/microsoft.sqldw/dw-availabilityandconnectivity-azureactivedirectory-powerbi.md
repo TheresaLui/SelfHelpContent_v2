@@ -28,8 +28,9 @@ Power BI integration currently includes:
 
 
 ## **Recommended Documents**
-1. [Troubleshooting scheduled refresh for Azure SQL Databases in Power BI](https://docs.microsoft.com/power-bi/service-admin-troubleshooting-scheduled-refresh-azure-sql-databases)
-2. [Single Sign On via Azure AD for Azure Synapse Analytics and Power BI](https://docs.microsoft.com/en-us/power-bi/service-azure-sql-data-warehouse-with-direct-connect#single-sign-on)
-3. [When is DirectQuery useful?](https://docs.microsoft.com/en-us/power-bi/desktop-directquery-about#when-is-directquery-useful)
+
+* [Troubleshooting scheduled refresh for Azure SQL Databases in Power BI](https://docs.microsoft.com/power-bi/service-admin-troubleshooting-scheduled-refresh-azure-sql-databases)
+* [Single Sign On via Azure AD for Azure Synapse Analytics and Power BI](https://docs.microsoft.com/power-bi/service-azure-sql-data-warehouse-with-direct-connect#single-sign-on)
+* [When is DirectQuery useful?](https://docs.microsoft.com/power-bi/desktop-directquery-about#when-is-directquery-useful)
 
 
