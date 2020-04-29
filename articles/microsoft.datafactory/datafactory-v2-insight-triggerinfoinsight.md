@@ -19,7 +19,7 @@
 
 # Run specific status of the trigger
 
-## Test <!--$runAnalysis-->[runAnalysis]<!--/$runAnalysis-->
+## <!--$runAnalysis-->[runAnalysis]<!--/$runAnalysis-->
 
 <!--issueDescription-->
 <!--$runAnalysis-->[runAnalysis]<!--/$runAnalysis-->
