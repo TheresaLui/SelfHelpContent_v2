@@ -22,7 +22,7 @@
 * [NAT gateway resource](https://docs.microsoft.com/azure/virtual-network/nat-gateway-resource)
 
 * Quickstart for deploying a NAT gateway resource
-  - [Azure CLI](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-cli.md)
+  - [Azure CLI](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-cli)
   - [PowerShell](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-powershell)
   - [Portal](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-portal)
   - [Template](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-template)
