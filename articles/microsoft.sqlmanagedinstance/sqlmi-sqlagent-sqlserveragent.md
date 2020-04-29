@@ -7,7 +7,7 @@
     ms.author="mlazic"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32637319"
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
