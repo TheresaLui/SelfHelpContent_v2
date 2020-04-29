@@ -17,11 +17,12 @@
 
 # NAT gateway - Configuration and Setup
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [NAT gateway resource](https://docs.microsoft.com/azure/virtual-network/nat-gateway-resource)
 
-* Quickstart for deploying a NAT gateway resource
+* Quickstart for deploying a NAT gateway resource:
+
   - [Azure CLI](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-cli)
   - [PowerShell](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-powershell)
   - [Portal](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-portal)
