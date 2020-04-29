@@ -8,9 +8,7 @@
     cloudEnvironments="Public"
     ownershipId="CloudNet_NVA"
 />
-
 # Consider increasing the size of your NVA to address persistent high CPU
-
 ---
 {
   "recommendationOfferingId": "11be3d45-18f6-45bf-8df1-53a6164c24e5",
@@ -50,7 +48,7 @@
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
-        "id": "{resourceId}",
+        "id": "{resourceId},
         "menuid": "configuration"
       },
       "documentLink": ""
