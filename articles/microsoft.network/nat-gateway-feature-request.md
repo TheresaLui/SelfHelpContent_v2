@@ -20,5 +20,3 @@
 ## **Recommended Steps**
 
 We use [UserVoice](https://aka.ms/natuservoice) to identify and prioritize feature requests. You can create new feature requests, add your voice to existing requests, and get feedback on the status of requests.
-
-You can also reach out to the product team to [provide feedback](https://aka.ms/natfeedback) if it is outside the scope of UserVoice.
