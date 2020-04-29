@@ -17,13 +17,13 @@
 
 # NAT gateway - Help with adding and removing a NAT gateway
 
-## Recommended documents
+## Recommended Documents
 
 * Quickstart for deploying a NAT gateway resource
-  - [Azure CLI](./quickstart-create-nat-gateway-cli.md)
-  - [PowerShell](./quickstart-create-nat-gateway-powershell.md)
-  - [Portal](./quickstart-create-nat-gateway-portal.md)
-  - [Template](./quickstart-create-nat-gateway-template.md)
+  - [Azure CLI](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-cli.md)
+  - [PowerShell](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-powershell.md)
+  - [Portal](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-portal.md)
+  - [Template](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-template.md)
 
 # API references
 
