@@ -5,7 +5,7 @@
     resource="natgateways"
     authors="christiankuhtz"
     ms.author="christiankuhtz"
-    displayOrder=""
+    displayOrder="13"
     selfHelpType="resource"
     articleId="nat-gateway-configuration-general-guidance-advisory-md"
     resourceTags=""
@@ -17,7 +17,7 @@
 
 # NAT gateway - General guidance and advisory
 
-## Recommended documents
+## **Recommended documents**
 
 * [Virtual Network NAT overview](https://docs.microsoft.com/azure/virtual-network/nat-overview) which provides NAT gateway resources.
 * [NAT gateway resource](https://docs.microsoft.com/azure/virtual-network/nat-gateway-resource)
