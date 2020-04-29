@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629190,32629191,32629227,32629228,32629258,32629259,32629192,32663928,32663927,32663926,32629196,32629217,32629218,32629252,32629254,32629188,32629242,32629245,32629247,32629249,32630576,32629269,32629234,32629263,32629233,32629177,32629189,32629204,32629209,32629212,32629195,32630577,32629271,32629272,32663929,32663930,32629187,32629193,32663921,32663913,32663902,32663903,32663904,32663906,32663905,32629200,32629278"
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="8ccb2fde-6f9f-4e97-b700-4b07ac45db50"
     ownershipId="StorageMediaEdge_AzureStack_Hub"
@@ -131,9 +131,9 @@
             "visibility": "connected_deployment == Yes",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "Enter your the Cloud Stamp ID",
+            "displayLabel": "Enter your the Stamp Cloud ID",
             "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview'>find your Cloud Stamp ID</a>",
+            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
             "required": true
         },
         {

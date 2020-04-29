@@ -10,7 +10,7 @@ displayOrder=""
 articleId="exports-master-json-file"
 selfHelpType="diagnoseandsolve"
 productPesIds="15659"
-cloudEnvironments="public,blackForest,fairfax,mooncake"
+cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="ASMS_Billing"
 />
 
@@ -21,7 +21,7 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
   "commonProblems": [
     {
         "id": "I got an error when setting up a scheduled export.",
-        "title": "I got an error when setting up a scheduled export.",
+        "title": "I got an error when setting up a scheduled export",
         "description": "Learn how to resolve common issues in exports.",
         "searchTags": "exports, cost analysis",
         "category": "Exports",

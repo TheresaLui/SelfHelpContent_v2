@@ -10,7 +10,7 @@ articleId="0f103d3a-dc19-45af-b25d-de8338e002ce"
 selfHelpType="diagnoseandsolve"
 resourceTags="linux, ubuntu, redhat, suse"
 productPesIds="15571"
-cloudEnvironments="public"
+cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 />
 # Diagnose and solve v2 test article for linux
@@ -743,14 +743,14 @@ cloudEnvironments="public"
       "type": "tool",
       "bladeLink": {
         "extensionName": "Microsoft_Azure_ChangeAnalysis",
-        "bladeName": "ChangeAnalysisBlade",
+        "bladeName": "ResourceChangesBlade",
         "parameters": [
           {
             "name": "resourceId",
             "value": "$resourceId"
           },
           {
-            "name": "deeplinkOrigin",
+            "name": "deepLinkOrigin",
             "value": "d&sp"
           }
         ]

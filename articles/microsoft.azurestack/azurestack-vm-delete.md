@@ -10,9 +10,9 @@
     supportTopicIds="32663893,32663894"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-vm-delete"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Virtual Machine Deletion Issues
@@ -24,8 +24,6 @@
 * If you wish to remove all resources contained in the same resource group, follow the steps for [Azure Stack Portal](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-quick-windows-portal#clean-up-resources), [Azure PowerShell](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-quick-create-vm-windows-powershell#delete-the-virtual-machine), or [Azure CLI](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-quick-create-vm-windows-cli#clean-up-resources)
 
 ### **Known Issues**
-
-Azure Stack version 1905 includes fixes to storage and compute services. For more information, see [Azure Stack Hotfix 1.1905.3.48](https://support.microsoft.com/help/4510078).
 
 * Queue messages: Messages in a queue expire immediately after creation and tagged for garbage collection. This issue may present in three cases:
     * Retrieval of resources in Azure Resource Manager will fail

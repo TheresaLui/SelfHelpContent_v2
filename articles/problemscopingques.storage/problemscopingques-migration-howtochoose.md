@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32631235,32632044,32632043"
 	productPesIds="15629,16459,16460"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="E4579893-8E9C-469C-A21A-D84EEEFAD4A9"
 	ownershipId="StorageMediaEdge_AccountManagement"
@@ -209,10 +209,6 @@
 		{
 			"value": "copy_snapshot_to_subscription",
 			"text": "Copy snapshot of managed disk to a subscription"
-		},
-		{
-			"value": "copy_snapshot_to_subscription",
-			"text": "Copy managed snapshot to a subscription"
 		},
 		{
 			"value": "copy_vhd_to_region",

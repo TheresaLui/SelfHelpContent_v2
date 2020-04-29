@@ -13,16 +13,12 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
-	ownershipId="StorageMediaEdge_StorageBlobs"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Find Data migration solution
 
 <!--issueDescription-->
-There is a Data Transfer feature in Azure portal that provides recommendations on data migration solutions.
+Our Azure Data Migration Solution Finder can help you find the data migration solution for your specific scenario. Please fill in the information below to find a solution. 
 <!--/issueDescription-->
-
-## **Recommended Steps**
-
-* Check the <a href="<!--$DataMigrationBladeUri-->[DataMigrationBladeUri]<!--/$DataMigrationBladeUri-->">Data transfer feature in Azure portal </a> to get recommendations on data migration solutions

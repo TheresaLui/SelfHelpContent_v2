@@ -6,10 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630420"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="problem-scopingques-sql-bacpacdatasynccopydbreplication-exportfromsqldbtobacpac-db"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_ImportExport"
 />
 # Export from SQL DB to BACPAC
 ---

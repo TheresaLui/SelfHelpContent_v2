@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629202"
     productPesIds="16226"
-    cloudEnvironments="Public, Fairfax"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="b4b6273d-9542-4f2d-5238-36a830ea6398"
     ownershipId="StorageMediaEdge_AzureStack_Hub"
@@ -130,9 +130,9 @@
             "visibility": "connected_deployment == Yes",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "Enter your the Cloud Stamp ID",
+            "displayLabel": "Enter your the Stamp Cloud ID",
             "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview'>find your Cloud Stamp ID</a>",
+            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
             "required": true
         },
         {

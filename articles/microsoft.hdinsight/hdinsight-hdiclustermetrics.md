@@ -10,7 +10,7 @@
     supportTopicIds="32636443"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-hdiclustermetrics"
 	ownershipId="AzureData_HDInsight"
 />

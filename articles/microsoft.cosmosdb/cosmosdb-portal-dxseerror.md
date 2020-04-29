@@ -9,7 +9,7 @@
 	supportTopicIds="32688846"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-portal-dxseerror"
 	displayOrder="80"
 	category="Portal"
@@ -28,24 +28,24 @@
 <br>Please try connecting to explorer using the [Sunset link](https://cosmos.azure.com/sunset/).  
 
 
-### Cannot view my MongoDB API data
+### **Cannot view my MongoDB API data**
 * The Data Explorer uses the native SDK based on the Azure Cosmos DB Account API type to access the data from the service
 * Using the Azure Cosmos DB SQL API SDK to perform CRUD operations against a MongoDB API account will not generate any errors. However, this would make the Data Explorer produce the internal server error when reading the data due to a mismatch in the data formats.
 * Use the native MongoDB SDKs to perform CRUD operations against your Azure Cosmos DB MongoDB API account  
 
 
-### Query results not as expected  
+### **Query results not as expected**  
 By default, the Data Explorer returns query results in pages, with up to 100 results per page. To view additional pages of results, select the **"Load more"** button under the results tab. You can adjust the maximum number of results per page in the Data Explorer **Settings** tab.  
 
 
-### Enable Free Tier when creating a new account in the Azure Portal is not appearing. Where is the option?
+### **Enable Free Tier when creating a new account in the Azure Portal is not appearing. Where is the option?**
 **Solution: ** You can have up to one Free Tier account in an Azure subscription. If the option does not appear, this means another account in the subscription is already enabled with Free Tier.
 
 ### Data Explorer does not load or show data  
 **Solution:** Possibly there is a browser cache issue. Try cleaning your browser cache or try opening Data Explorer from an incognito tab.
 
 
-### Unable to view data, stored procedures, UDFs, or triggers in Data Explorer
+### **Unable to view data, stored procedures, UDFs, or triggers in Data Explorer**
 If you are not able to view your data including databases, containers, items (documents), stored procedures, UDFs, or triggers from Data Explorer, check if Virtual Networks (VNET) is enabled for your Cosmos account
 * If VNET is enabled, navigate to the "Firewall and virtual networks" pane and ensure:
 <br>The setting *Allow access from Azure Portal* is enabled

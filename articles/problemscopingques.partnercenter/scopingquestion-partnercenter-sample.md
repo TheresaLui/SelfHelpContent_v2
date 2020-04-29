@@ -6,11 +6,11 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32444666,32633819"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_sample"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # PC Sample
 ---

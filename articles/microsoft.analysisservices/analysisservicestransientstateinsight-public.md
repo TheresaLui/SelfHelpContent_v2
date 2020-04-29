@@ -14,7 +14,7 @@
     resourceTags=""
     productPesIds="1003281"
     cloudEnvironments="Public, Fairfax, MoonCake"
-    ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="AzureData_AnalysisServices"
 />
 
 # An Azure Analysis Services server is stuck in a transient state

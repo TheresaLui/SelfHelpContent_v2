@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="93dc0a27-a0f7-44f3-b30e-698785cc806d"
 	ownershipId="Centennial_Cloudnet_VirtualNetwork"
 />

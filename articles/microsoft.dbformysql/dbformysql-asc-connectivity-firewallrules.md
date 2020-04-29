@@ -13,13 +13,13 @@
 	supportTopicIds="32628416"
 	resourceTags="windows, linux"
 	productPesIds="16222"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Failed connections to MySQL server due to firewall restriction
 
 <!--issueDescription-->
-There are <!--$Count-->Count<!--/$Count--> failed connections to MySQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC) because the originating IP addresses are not allowed to access this server.
+During our investigation we found that your server <!--$ServerName-->ServerName<!--/$ServerName--> has connectivity issues between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC) because the originating IP addresses are not allowed to access this server.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

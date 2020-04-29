@@ -1,16 +1,16 @@
 <properties
   pagetitle="Support topic description for VM running Windows"
   description="Support topic description for Virtual Machine running Windows"
-  authors="scottAzure"
-  ms.author="scotro"
+  authors="scottAzure, elixirsys2"
+  ms.author="scotro, tibasham, alexsmit"
   selfhelptype="SupportTopicDescription"
   productpesids="6f16735c-b0ae-b275-ad3a-03479cfa1396"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="virtual-machine-running-windows-supporttopicdescription"
+  ownershipid="Compute_VirtualMachines_Content"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" 	ownershipId="StorageMediaEdge_StorageTables"
-/>
+  feedbackemail="email" />
 # Support Topic Descriptions for 6f16735c-b0ae-b275-ad3a-03479cfa1396
 ---
 {
@@ -24,6 +24,14 @@
   "productLink3": "",
   "productLinkName3": "",
   "supportTopics": [
+    {
+      "id": "\tfc4d4b63-7ee7-78c1-fc99-ffe694b9f8a2",
+      "longDescription": null,
+      "shortDescription": "Covers issues with Monitoring agent (MMA) extension",
+      "searchTags": "",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
     {
       "id": "01dae6a7-85e1-730c-6a68-ccda62923e45",
       "longDescription": null,
@@ -57,6 +65,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "0969c3f5-eae0-7620-93c2-609254bcac83",
+      "longDescription": null,
+      "shortDescription": "Covers issues with Azure Active Directory Login extension",
+      "searchTags": "",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
       "id": "0aa484ee-9ff4-730b-4712-db435e6379b1",
       "longDescription": null,
       "shortDescription": "Guidance with preparing an image properly for deploying into Azure",
@@ -83,15 +99,23 @@
     {
       "id": "0d97aa83-8c20-0262-0e54-4525eb0c427a",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Covers issues related to migrating or moving a virtual machine or associated resource on Azure",
+      "searchTags": "Migration",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
       "id": "0db4fa03-52e9-4c97-09b4-9907b53ecae9",
       "longDescription": null,
-      "shortDescription": " ",
+      "shortDescription": "VMs might sometimes restart without the user initiating the operation - this could be due to factors such as an OS update or a guest OS on the machine",
+      "searchTags": "Restart",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "0ff542fa-5338-ba24-2e2d-00200b837667",
+      "longDescription": null,
+      "shortDescription": "Covers issues with Azure Custom Script (CSE) extension using Managed Identity extension",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
@@ -107,8 +131,8 @@
     {
       "id": "12ba6e9b-cd71-6f10-0f95-b4028afcd4da",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Common problems related to creating a new Azure virtual machine such as provisioning or allocation failures",
+      "searchTags": "Creating",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -123,8 +147,8 @@
     {
       "id": "140159b4-cf4f-69a4-ce90-bad0a4f3a2e8",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Questions specific to backing up or restoring your Azure virtual machine using Azure Backup",
+      "searchTags": "Backup",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -140,6 +164,14 @@
       "id": "14b1d04c-90d1-a0ad-8bfc-d98666f39d30",
       "longDescription": null,
       "shortDescription": "Issue with data drive or file system not being available after encryption",
+      "searchTags": "",
+      "category": "",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "168ae047-62a7-4dfc-1fea-f24ae6644b2c",
+      "longDescription": null,
+      "shortDescription": "My issue is specific to management of the VM and is not listed above",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -195,8 +227,8 @@
     {
       "id": "32e9eab8-0dfe-2ee6-aa44-226df969736c",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Issues when resizing, attaching and detaching, or performing other tasks on a virtual disk",
+      "searchTags": "Virtual Disk Management",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -227,8 +259,8 @@
     {
       "id": "3bbbcb43-c3a5-64eb-eb73-f8b254e36d32",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Covers issues related to configuration of a failover cluster, RDS, or disk encryption for a VM running in Azure",
+      "searchTags": "Config",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -267,7 +299,15 @@
     {
       "id": "44e1bd26-fbd8-a7f9-f8de-8a2b47ccb27e",
       "longDescription": null,
-      "shortDescription": " ",
+      "shortDescription": "Troubleshoot issues with activating Windows for a virtual machine running in Azure",
+      "searchTags": "Activation",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "46dcb332-b7aa-e73a-12b2-28d207c8b9b7",
+      "longDescription": null,
+      "shortDescription": "My issue is specific to configuration and setup of the VM and is not listed above",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
@@ -283,8 +323,8 @@
     {
       "id": "4c8242d3-5e7c-8369-d5fb-95c4cd3de057",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Troubleshoot issues that can affect performance such as high usage of CPU, disk space, or memory",
+      "searchTags": "performance",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -369,25 +409,17 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "588be50a-ee0e-8d07-0135-8dde3ee4bb56",
+      "longDescription": null,
+      "shortDescription": "Covers issues with Hybrid Use Benefit (HUB)for a virtual machine running in Azure",
+      "searchTags": "",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
       "id": "5a105230-54e6-b09a-5667-764d781026a1",
       "longDescription": null,
       "shortDescription": "Covers issues with NVIDIA GPU driver extension",
-      "searchTags": "",
-      "category": "Deployment",
-      "useInDiagnoseAndSolve": "FALSE"
-    },
-    {
-      "id": "62e3cd36-8683-2540-7b90-7a890e8560f2",
-      "longDescription": null,
-      "shortDescription": "Covers issues with AMD GPU driver extension",
-      "searchTags": "",
-      "category": "Deployment",
-      "useInDiagnoseAndSolve": "FALSE"
-    },
-    {
-      "id": "	fc4d4b63-7ee7-78c1-fc99-ffe694b9f8a2",
-      "longDescription": null,
-      "shortDescription": "Covers issues with Monitoring agent (MMA) extension",
       "searchTags": "",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
@@ -425,14 +457,6 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
-      "id": "93ee5e82-133c-842f-57fc-a18e959f7939",
-      "longDescription": null,
-      "shortDescription": "Assistance with deleting a resource group in Azure",
-      "searchTags": "",
-      "category": "Management",
-      "useInDiagnoseAndSolve": "FALSE"
-    },
-    {
       "id": "5f941c9f-e41a-2d35-7719-2f2f0bc72408",
       "longDescription": null,
       "shortDescription": "Covers issues with the Azure Disk Encryption extension",
@@ -465,6 +489,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "62e3cd36-8683-2540-7b90-7a890e8560f2",
+      "longDescription": null,
+      "shortDescription": "Covers issues with AMD GPU driver extension",
+      "searchTags": "",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
       "id": "6322d0b2-1b5c-129b-ea42-cace57e14805",
       "longDescription": null,
       "shortDescription": " ",
@@ -475,16 +507,16 @@
     {
       "id": "6571a5f6-9166-d111-d125-7e19b809f4f3",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Covers issues using Azure Disk Encryption for a virtual machine running in Azure",
+      "searchTags": "ADE",
+      "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
       "id": "67c173d3-1cb5-d61a-3502-a8d6bc279b22",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Troubleshoot issues with connecting to your VM via RDP or SSH due to configuration or other changes",
+      "searchTags": "Connectivity",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -539,16 +571,24 @@
     {
       "id": "78338998-486e-d645-07e5-4c90760f5b3a",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Your VM has entered a non-bootable state and is either not booting at all or is on a reboot loop",
+      "searchTags": "Boot",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "7894368f-87ed-8e4b-df9a-4b2f8fa19e71",
+      "longDescription": null,
+      "shortDescription": "Covers issues with Hybrid Use Benefit (HUB)for a virtual machine running in Azure",
+      "searchTags": "",
+      "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
       "id": "7a936404-b37e-01e2-1616-571db2e113b0",
       "longDescription": null,
-      "shortDescription": "Assitance with resizing the partition within the guest OS or the virtual disk",
-      "searchTags": "",
+      "shortDescription": "Assistance with resizing the partition within the guest OS or the virtual disk",
+      "searchTags": "Resize",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -649,6 +689,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "90338a15-13f7-1d95-511a-04dc6ed830c1",
+      "longDescription": "",
+      "shortDescription": "Issues with disks in the Guest OS of the VM such as, initializing, or formatting disks.",
+      "searchTags": "Storage Spaces;Initialize;Format;Volume",
+      "category": "Virtual Disk Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "90c41c9e-f50e-1bf4-370f-44ffb5a9c1ac",
       "longDescription": null,
       "shortDescription": "Assistance with restoring your Azure virtual machine using Azure Backup",
@@ -673,6 +721,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "93ee5e82-133c-842f-57fc-a18e959f7939",
+      "longDescription": null,
+      "shortDescription": "Assistance with deleting a resource group in Azure",
+      "searchTags": "",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
       "id": "98745d3a-6d4f-30a7-a3c9-8ad002a95560",
       "longDescription": null,
       "shortDescription": "Assistance with a security advisory or vulnerabilities for a virtual machine",
@@ -683,8 +739,8 @@
     {
       "id": "9a046a3b-fb3f-0950-57a7-dd04a4c0a3c6",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Covers issues related to installation, execution, and updating of extensions for virtual machines on Azure",
+      "searchTags": "Extensions",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -769,38 +825,6 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
-      "id": "7894368f-87ed-8e4b-df9a-4b2f8fa19e71",
-      "longDescription": null,
-      "shortDescription": "Covers issues with Hybrid Use Benefit (HUB)for a virtual machine running in Azure",
-      "searchTags": "",
-      "category": "Management",
-      "useInDiagnoseAndSolve": "FALSE"
-    },
-    {
-      "id": "588be50a-ee0e-8d07-0135-8dde3ee4bb56",
-      "longDescription": null,
-      "shortDescription": "Covers issues with Hybrid Use Benefit (HUB)for a virtual machine running in Azure",
-      "searchTags": "",
-      "category": "Management",
-      "useInDiagnoseAndSolve": "FALSE"
-    },
-    {
-      "id": "46dcb332-b7aa-e73a-12b2-28d207c8b9b7",
-      "longDescription": null,
-      "shortDescription": "My issue is specific to configuration and setup of the VM and is not listed above",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "FALSE"
-    },
-    {
-      "id": "168ae047-62a7-4dfc-1fea-f24ae6644b2c",
-      "longDescription": null,
-      "shortDescription": "My issue is specific to management of the VM and is not listed above",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "FALSE"
-    },
-    {
       "id": "af987d76-3ad6-c91a-5050-24712c6edc1f",
       "longDescription": null,
       "shortDescription": "",
@@ -811,8 +835,8 @@
     {
       "id": "af9e6ed0-943e-ea7e-054b-62684f3a5226",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Resolve errors when starting or stopping your VM, if it is unresponsive or generating disk related or allocation errors",
+      "searchTags": "Starting",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -851,8 +875,8 @@
     {
       "id": "b82154fe-4659-31f6-584e-fcc90408a34a",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Covers issues related to security concerns with virtual machines in Azure",
+      "searchTags": "Security",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -883,8 +907,8 @@
     {
       "id": "bf5eafd5-a438-6e15-458f-e614453346a2",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Covers issues related to Planned Maintenance notifications in Azure",
+      "searchTags": "Maintenance",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -963,8 +987,8 @@
     {
       "id": "d7a1629d-d6fb-42dd-ff65-635009e342e7",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
+      "shortDescription": "Covers issues related to managing a virtual machine on Azure",
+      "searchTags": "Management",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -1132,22 +1156,6 @@
       "id": "f8c2e1e4-fa16-52f7-5569-10c956934600",
       "longDescription": null,
       "shortDescription": "Covers issues with Network Watcher extension",
-      "searchTags": "",
-      "category": "Management",
-      "useInDiagnoseAndSolve": "FALSE"
-    },
-    {
-      "id": "0969c3f5-eae0-7620-93c2-609254bcac83",
-      "longDescription": null,
-      "shortDescription": "Covers issues with Azure Active Directory Login extension",
-      "searchTags": "",
-      "category": "Management",
-      "useInDiagnoseAndSolve": "FALSE"
-    },
-    {
-      "id": "0ff542fa-5338-ba24-2e2d-00200b837667",
-      "longDescription": null,
-      "shortDescription": "Covers issues with Azure Custom Script (CSE) extension using Managed Identity extension",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"

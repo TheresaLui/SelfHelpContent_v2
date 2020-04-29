@@ -11,7 +11,7 @@
 	supportTopicIds="32680644"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="datalakeanalytics-developing-a-U-SQL-script"
 	ownershipId="AzureData_AzureDataLakeAnalytics"
 />

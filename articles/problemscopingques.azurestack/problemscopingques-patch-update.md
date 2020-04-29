@@ -6,11 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32663933,32629240,32688665,32688666"
     productPesIds="16226"
-    cloudEnvironments="public"
-    ownershipId="StorageMediaEdge_AzureStack_Hub"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="8ccb2fde-7110-4e97-b711-4b07ac45db50"
+    ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 # Azure Stack patch and update
 ---
@@ -132,9 +131,9 @@
             "visibility": "connected_deployment == Yes",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "Enter your the Cloud Stamp ID",
+            "displayLabel": "Enter your the Stamp Cloud ID",
             "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview'>find your Cloud Stamp ID</a>",
+            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
             "required": true
         },
         {

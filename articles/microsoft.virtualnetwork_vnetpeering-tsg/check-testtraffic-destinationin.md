@@ -1,16 +1,16 @@
 ﻿<properties
-	pageTitle="TSG Content Step: Check platform nsg & routing to destination 'DirectionIn'"
-	description="TSG Content Step: Check platform nsg & routing to destination 'DirectionIn'"
+	pageTitle="TSG Content Step: Check platform nsg and routing to destination 'DirectionIn'"
+	description="TSG Content Step: Check platform nsg and routing to destination 'DirectionIn'"
 	service="microsoft.network"
 	resource="virtualnetwork"
 	authors="chadmath"
 	ms.author="chadmat"
 	selfHelpType="TSG_Content"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="39659e63-a65c-46b5-8f87-7d1d43da1739"
         ownershipId="Centennial_Cloudnet_VirtualNetwork"
 />
-# Check Azure platform nsg & routing from source to destination
+# Check Azure platform nsg and routing from source to destination DirectionIn
 
 Use the 'Test Traffic' utility to check for blocking Network Security Group Rules (NSGs) and Routing Rules from source coming **into the destination** VM. (You will leverage the same 'source' and 'destination' VMs as in the previous step. The VMs you labeled as 'source' and 'destination' will maintain that designation for this step)
 

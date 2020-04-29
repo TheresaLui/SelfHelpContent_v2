@@ -10,9 +10,9 @@
     supportTopicIds="32688665"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="17bfc48c-c3f7-4286-bda1-892f299ae748"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Patch and Update - Preparation Failure

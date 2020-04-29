@@ -10,7 +10,7 @@
     supportTopicIds="32683758"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="cluster-management-peformance-issues"
 	ownershipId="Compute_AzureKubernetesService"
 />
