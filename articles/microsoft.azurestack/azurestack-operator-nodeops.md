@@ -15,7 +15,7 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Azure Stack Node Node Management issues
+# Azure Stack Node Management issues
 
 Using the Azure Stack Admin portal, you can view each physical node's status, and run node actions such as power on, power off, shut down, drain, resume, and repair.
 
