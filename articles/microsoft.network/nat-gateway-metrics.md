@@ -19,6 +19,6 @@
 
 NAT gateway resources support metrics and alerts in Azure Monitor.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Metrics and alerts for NAT gateway resources](https://docs.microsoft.com/azure/virtual-network/nat-metrics)
