@@ -19,4 +19,4 @@
 
 ## **Recommended Steps**
 
-We use [UserVoice](https://aka.ms/natuservoice) to identify and prioritize feature requests. You can create new feature requests, add your voice to existing requests, and get feedback on the status of requests.
+We use [UserVoice](https://feedback.azure.com/forums/217313-networking?category_id=380353) to identify and prioritize feature requests. You can create new feature requests, add your voice to existing requests, and get feedback on the status of requests.
