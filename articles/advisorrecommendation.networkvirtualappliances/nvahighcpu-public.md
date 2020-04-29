@@ -47,10 +47,7 @@
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
-      "metadata": {
-        "id": "{resourceId},
-        "menuid": "configuration"
-      },
+      "metadata": {"id": "{resourceId}, "menuid": "configuration"},
       "documentLink": ""
     }
   ],
@@ -59,10 +56,8 @@
       "actionId": "24847536-5dab-4fb8-bbd4-cc8f8f27a717",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
-      "metadata": {
-        "id": "{resourceId}"
-      },
+      "bladeName": "",
+      "metadata": {"id": "{resourceId}"},
       "documentLink": ""
     }
   },
