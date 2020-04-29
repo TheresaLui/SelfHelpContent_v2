@@ -19,22 +19,17 @@
 
 # SQL Users, Logins and permissions
 
-* **Can I connect to a SQL Server on Azure VM using Azure Active Directory?**
+### Can I connect to a SQL Server on Azure VM using Azure Active Directory?
+No, at this time, [connecting to SQL Server running on an Azure VM](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?tabs=azure-powershell) is not supported using an Azure Active Directory account. Use a domain Active Directory account instead.
 
-  No, at this time, [connecting to SQL Server running on an Azure VM](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?tabs=azure-powershell) is not supported using an Azure Active Directory account. Use a domain Active Directory account instead.
+### Why am I getting 'Login failed for user' error 18456?
+Please check the corresponding state number in the error 18456 and take corrective actions as per [this article](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error?view=sql-server-ver15). For example: state 8 indicates password provided was incorrect.
 
-* **Why am I getting 'Login failed for user' error 18456?**
+### I get login failures after SQL AlwaysOn Availability Group (AG) failover
+Make sure that you are using SQL AG listener in the connection string and reaching to the new primary replica. Ensure that login exists in the new replica with appropriate privileges. It is a good idea to transfer logins from the primary replica to the secondary replicas using a process similar to [Method 2 of this article](https://support.microsoft.com/help/918992/how-to-transfer-logins-and-passwords-between-instances-of-sql-server).
 
-  Please check the corresponding state number in the error 18456 and take corrective actions as per [this article](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error?view=sql-server-ver15). For example: state 8 indicates password provided was incorrect.
-
-
-* **I get login failures after SQL AlwaysOn Availability Group (AG) failover** 
-
-  Make sure that you are using SQL AG listener in the connection string and reaching to the new primary replica. Ensure that login exists in the new replica with appropriate privileges. It is a good idea to transfer logins from the primary replica to the secondary replicas using a process similar to [Method 2 of this article](https://support.microsoft.com/help/918992/how-to-transfer-logins-and-passwords-between-instances-of-sql-server).
-
-* **I am able to remotely login to the SQL Server using SQL authentication, but I am unable to logging remotely using windows authentication**
-
-  You may additionally see **Cannot generate SSPI context** error. These issues can happen if there is an issue with **Service Principal Name(SPN)**. Please ensure that SQL Server [Service Principal Name (SPN) is registered correctly](https://docs.microsoft.com/sql/database-engine/configure-windows/register-a-service-principal-name-for-kerberos-connections?view=sql-server-ver15) and there are no duplicate/missing SPNs or SPN errors.
+### I am able to remotely login to the SQL Server using SQL authentication, but I am unable to logging remotely using windows authentication
+You may additionally see **Cannot generate SSPI context** error. These issues can happen if there is an issue with **Service Principal Name(SPN)**. Please ensure that SQL Server [Service Principal Name (SPN) is registered correctly](https://docs.microsoft.com/sql/database-engine/configure-windows/register-a-service-principal-name-for-kerberos-connections?view=sql-server-ver15) and there are no duplicate/missing SPNs or SPN errors.
 
 You can use Microsoft® Kerberos Configuration Manager to achieve above as follows:
 - Download the Microsoft® Kerberos Configuration Manager https://www.microsoft.com/download/details.aspx?id=39046
