@@ -17,9 +17,13 @@
 
 # Azure Stack Hardware Issues
 
-In the administrator portal, you can easily view the status of a scale unit and associated nodes, and how to use the available node actions. Node actions include power on, power off, drain, resume, and repair. Typically, you use these node actions during field replacement of parts, or for node recovery scenarios.
+## **Known Issue**
+
+After applying the 2002 update, an alert for an "Invalid Time Source" may incorrectly appear in the Administrator portal. This false-positive alert can be ignored and will be fixed in an upcoming release.  
 
 ## **Recommended Steps**
+
+The Administrator portal shows the status of a scale unit and associated nodes, and how to use the available node actions to power on, power off, drain, resume, and repair. Typically, you use these node actions during field replacement of parts, or for node recovery scenarios.
 
 To view the status of a scale unit:
 
