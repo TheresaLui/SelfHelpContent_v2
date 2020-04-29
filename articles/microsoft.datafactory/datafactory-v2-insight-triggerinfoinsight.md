@@ -20,7 +20,7 @@
 # Run specific status of the trigger
 
 <!--$issueDescription-->
-[issueDescription]
+[issueDescription] [reason]
 <!--/$issueDescription-->
 
 ## **Recommended Steps**
