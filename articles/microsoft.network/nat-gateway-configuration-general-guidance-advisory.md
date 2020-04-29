@@ -20,8 +20,3 @@
 ## **Recommended documents**
 
 * [Virtual Network NAT overview](https://docs.microsoft.com/azure/virtual-network/nat-overview) which provides NAT gateway resources.
-
-* [NAT gateway resource](https://docs.microsoft.com/azure/virtual-network/nat-gateway-resource)
-    - Review [Design guidance](https://docs.microsoft.com/azure/virtual-network/nat-gateway-resource#design-guidance)
-    - Review [Troubleshooting](https://docs.microsoft.com/azure/virtual-network/troubleshoot-nat)
- 
