@@ -21,7 +21,7 @@ This article will help with several kinds of issues relating to enabling the Azu
 
 ## **Recommended Steps**
 
-The Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux))  will detect common issues such as restrictive firewalls, missing prerequisites, or misconfigured registry keys. 
+The Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux)) will detect common issues such as restrictive firewalls, missing prerequisites, or misconfigured registry keys. 
 
 ### **Desired automation account, region, or Log Analytics workspace is greyed out**
 
@@ -39,17 +39,13 @@ The Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/auto
   * Network endpoints are inaccessible
   * Scope configuration prevents machines from receiving the Update Management solution
 
-
 ### **The solution cannot be enabled on this VM because the VM already has the management agent..."**
 
 * This error occurs when a machine is already reporting to a different Log Analytics workspace
 * A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine
-
-
 
 ## **Recommended Documents**
 
 * [Troubleshoot issues onboarding Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)
 * [Automate onboarding Update Management](https://docs.microsoft.com/azure/cloud-adoption-framework/manage/azure-server-management/onboarding-automation)
 * [Update Management Overview - Supported Clients, Permissions and Network Requirements](https://docs.microsoft.com/azure/automation/automation-update-management)
-
