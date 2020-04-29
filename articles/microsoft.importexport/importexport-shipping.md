@@ -26,4 +26,4 @@
 
 * [FAQ](https://docs.microsoft.com/azure/storage/common/storage-import-export-service-faq?toc=/azure/storage/blobs/toc.json#shipping-disks)<br>
 
-* If you want to use a carrier other than those available in the dropdown list, contact Azure Data Box Operations team at adbops@microsoft.com to check if the DC supports receiving/shipping back from your carrier.
+* If you want to use a carrier other than those available in the drop down list, contact Azure Data Box Operations team at adbops@microsoft.com to check if the DC supports receiving/shipping back from your carrier.
