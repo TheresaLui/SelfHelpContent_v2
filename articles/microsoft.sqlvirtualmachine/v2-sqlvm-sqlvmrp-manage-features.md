@@ -36,7 +36,7 @@ Set-AzVMExtension -ResourceGroupName "<ResourceGroupName>" -Location "<VMLocatio
 
 Check if you see the SQLIaasExtension on the portal in provisioning succeeded state. 
 - If yes, then please see if you can see any error in the extension log at: C:\Users\ujpat\Desktop\Microsoft.Powershell.DSC\WindowsAzure\Logs\Plugins\Microsoft.SqlServer.Management.SqlIaaSAgent\1.2.24.0\ ExtensionLog_0.log
-- Else try to remove and re-install IAAS Agent extension.
+- Else try to remove and reinstall IAAS Agent extension.
 
 ## **Recommended Documents**
 * [Register a SQL Server virtual machine in Azure with the SQL VM resource provider](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-register-with-resource-provider?tabs=azure-cli%2Cbash)
