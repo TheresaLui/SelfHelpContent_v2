@@ -1,7 +1,7 @@
 
 <properties
 	pageTitle="Issues with copy at Azure datacenter"
-	description="Ship disks to/from Azure datacenter"
+	description="issues with copy at Azure datacenter"
 	service="microsoft.importexport.jobs"
 	resource=""
 	authors="madhuri n"
