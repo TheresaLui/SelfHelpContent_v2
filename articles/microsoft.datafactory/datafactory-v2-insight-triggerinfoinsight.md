@@ -24,3 +24,4 @@
 ## **Recommended Steps**
 
 *  <!--$recommendedSteps-->[recommendedSteps]<!--/$recommendedSteps-->
+- [Pipeline Execution and Triggers](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipeline-execution-triggers)
