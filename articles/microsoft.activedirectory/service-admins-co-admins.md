@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-- If you are having issues with Service administrator or Co-administrators, see the recommended documentation
+If you are having issues with Service administrator or Co-administrators, see the recommended documents below.
 
 ## **Recommended Documents**
 
