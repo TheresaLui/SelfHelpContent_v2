@@ -21,10 +21,6 @@
 
 ## <!--$runAnalysis-->[runAnalysis]<!--/$runAnalysis-->
 
-<!--issueDescription-->
-<!--$runAnalysis-->[runAnalysis]<!--/$runAnalysis-->
-<!--/issueDescription-->
-
 ## **Recommended Steps**
 
 *  <!--$recommendedSteps-->[recommendedSteps]<!--/$recommendedSteps-->
