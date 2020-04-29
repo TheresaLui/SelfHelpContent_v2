@@ -16,7 +16,7 @@
 	ownershipId="StorageMediaEdge_ImportExport"
 />
 
-# Data Box Shipping
+# Azure Import/Export Shipping
 
 ## **Recommended Documents**
 
