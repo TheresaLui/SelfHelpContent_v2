@@ -5,11 +5,12 @@
   ms.author="rnagpal"
   selfhelptype="SupportTopicDescription"
   productpesids="d9516a10-74b5-45f4-943d-a5281d7cf1bb"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="cosmos-db-supporttopic-description"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="cosmossupportability@microsoft.com" 	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
+  feedbackemail="cosmossupportability@microsoft.com"
+  ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 # Support Topic Descriptions for d9516a10-74b5-45f4-943d-a5281d7cf1bb
 ---
@@ -267,7 +268,7 @@
     {
       "id": "49494131-3cd2-225b-d4ac-1826e68c554c",
       "longDescription": "",
-      "shortDescription": "Questions on Cosmos DB certification and compliance",
+      "shortDescription": "Does Cosmos DB meet my organizations security, certification and compliance requirements?",
       "searchTags": "security, certification, compliance",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
@@ -910,6 +911,30 @@
       "shortDescription": "SDK is throwing an error or returning an unexpected result",
       "searchTags": "sdk",
       "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7285b23c-1507-75d7-1a5b-806e650d825d",
+      "longDescription": "",
+      "shortDescription": "Issues with using Azure Private Link via a private endpoint",
+      "searchTags": "private, private link, private endpoint",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "86107512-f8ce-062a-75f7-b3002aa1f50c",
+      "longDescription": "",
+      "shortDescription": "Issues with using Azure Private Link via a private endpoint",
+      "searchTags": "private, private link, private endpoint",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c3a11f26-6f54-639b-6d73-dba9cc3b96e3",
+      "longDescription": "",
+      "shortDescription": "Issues or questions with using Free Tier billing option",
+      "searchTags": "billing, free, free tier",
+      "category": "Billing and Pricing",
       "useInDiagnoseAndSolve": "true"
     }
   ]

@@ -11,7 +11,7 @@ articleId="NetworkDatapathLiveMigrationSerializationError"
 diagnosticScenario="NetworkDatapathLiveMigrationSerializationError"
 selfHelpType="resource"
 supportTopicIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 />
 

@@ -1,28 +1,28 @@
 <properties
   pagetitle="Support topic description for SQL server in VM - Windows"
   description="Support topic description for SQL server in VM - Windows"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, vadeveka"
   selfhelptype="SupportTopicDescription"
   productpesids="53b14ef9-9b69-4d8c-a458-b8e4c132a815"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudenvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="sql-server-in-vm-windows-supporttopicdescription"
+  ownershipid="AzureData_AzureSQLVM"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" 	ownershipId="AzureIot_IotTSI"
-/>
+  feedbackemail="email" />
 # Support Topic Descriptions for 53b14ef9-9b69-4d8c-a458-b8e4c132a815
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": "",
+  "shortDescription": "Questions or concerns specific to running SQL Server in Windows Virtual machines on Azure",
   "longDescription": "",
-  "productLink1": "",
-  "productLinkName1": null,
+  "productLink1": "https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview",
+  "productLinkName1": "Product Overview",
   "productLink2": "",
-  "productLinkName2": null,
+  "productLinkName2": "",
   "productLink3": "",
-  "productLinkName3": null,
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "010e1d76-5cc6-ba54-edde-801077df53a5",

@@ -10,9 +10,9 @@
     supportTopicIds="32663892"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-vm-windows"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Windows-based virtual machines
@@ -25,8 +25,6 @@ You can deploy Windows Server VM images on Azure Stack by adding a Windows-based
 2. You can review [Microsoft Virtual Machine Images and Solution Templates](https://docs.microsoft.com/azure/azure-stack/azure-stack-marketplace-azure-items#microsoft-virtual-machine-images-and-solution-templates) in the marketplace
 
 ### **Known Issues**
-
-Azure Stack version 1905 includes fixes to storage and compute services. For more information, see [Azure Stack Hotfix 1.1905.3.48](https://support.microsoft.com/help/4510078).
 
 * Queue messages: Messages in a queue expire immediately after creation and tagged for garbage collection. This issue may present in three cases:
     * Retrieval of resources in Azure Resource Manager will fail

@@ -8,9 +8,9 @@
     supportTopicIds="32693254"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="03adbcf0-f379-435c-8c12-4c58a337a198"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center - Onboarding or Offboarding Agent - Workspaces

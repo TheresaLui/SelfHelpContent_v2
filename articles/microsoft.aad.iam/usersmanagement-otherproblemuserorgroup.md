@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32586794"
     productPesIds="16578"
-    cloudEnvironments="public, Fairfax, Mooncake"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="3e0776b4-a7da-4b66-8018-2eee9634af9b"
     	ownershipId="AzureIdentity_DirectoryObjectManagement"

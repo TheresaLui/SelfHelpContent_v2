@@ -13,8 +13,8 @@
 	supportTopicIds="32642165"
 	resourceTags=""
 	productPesIds="16761"
-	cloudEnvironments="public, fairfax"
-	ownershipId="ASEP_ContentService_Placeholder"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="Compute_AzureLighthouse"
 />
 
 # Cannot manage projected resources

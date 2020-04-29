@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628135"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="18561503-e781-37fb-74a6-6415c9cd74a2"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Power BI licensing in your organization

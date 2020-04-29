@@ -10,9 +10,9 @@
     supportTopicIds="32629266"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="5b2386bf-2c63-409b-ba0e-a0cdcb23f2fa"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Syslog Forwarding Integration

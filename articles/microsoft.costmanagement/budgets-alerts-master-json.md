@@ -10,7 +10,7 @@ displayOrder=""
 articleId="budgets-alerts-master-json"
 selfHelpType="diagnoseandsolve"
 productPesIds="15659"
-cloudEnvironments="public,blackForest,fairfax,mooncake"
+cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="ASMS_Billing"
 />
 
@@ -19,15 +19,6 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
 {
   "$schema":"SelfHelpContent",
   "commonProblems": [
-   {
-      "id": "What REST Operation Groups are available for budgets?",
-      "title": "What REST Operation Groups are available for budgets?",
-      "description": "Configure Cost Management budgets programatically",
-      "searchTags": "API, cost management, REST, ACM, budgets",
-      "category": "Budgets",
-      "commonSolutionArticleId": "45b79a28-db62-40e2-992d-3c3b6c8165fa",
-      "supportTopicId": "32615286"
-    },
    {
       "id": "Why is the “+ Add” budget button disabled for me?",
       "title": "Why is the “+ Add” budget button disabled for me?",
@@ -39,7 +30,7 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
     },
     {
       "id": "I created a budget when my cost for the current month was already over-budget. Why did I not receive an alert?",
-      "title": "I created a budget when my cost for the current month was already over-budget. Why did I not receive an alert?",
+      "title": "Budget is created after cost crossed threshold, will alert fire?",
       "description": "Learn about when alerts are triggered",
       "searchTags": "budgets, alerts",
       "category": "Budgets",
@@ -47,17 +38,8 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
       "supportTopicId": "32615286"
     },
     {
-      "id": "I created a budget when my cost for the current month was already over-budget. Why did I not receive an alert?",
-      "title": "I created a budget when my cost for the current month was already over-budget. Why did I not receive an alert?",
-      "description": "Learn about when alerts are triggered",
-      "searchTags": "budgets, alerts",
-      "category": "Alerts",
-      "commonSolutionArticleId": "aacad55b-036b-4577-bff4-f14c4006b0e4",
-      "supportTopicId": "32615286"
-      },
-    {
         "id": "When should I expect to receive an alert after I exceed one of my defined budget alert thresholds?",
-        "title": "When should I expect to receive an alert after I exceed one of my defined budget alert thresholds?",
+        "title": "How soon after budget’s threshold is met, will I receive an alert?",
         "description": "Learn about timelines for alerts to trigger",
         "searchTags": "budgets, alerts",
         "category": "Budgets",
@@ -65,17 +47,8 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
         "supportTopicId": "32615286"
     },
     {
-        "id": "When should I expect to receive an alert after I exceed one of my defined budget alert thresholds?",
-        "title": "When should I expect to receive an alert after I exceed one of my defined budget alert thresholds?",
-        "description": "Learn about timelines for alerts to trigger",
-        "searchTags": "budgets, alerts",
-        "category": "Alerts",
-        "commonSolutionArticleId": "9160aece-2b96-48f2-bd0d-16ee831b81c6",
-        "supportTopicId": "32615286"
-    },
-    {
         "id": "Why is the “Start date” button disabled when I select a “Month” or “Billing month” reset period?",
-        "title": "Why is the “Start date” button disabled when I select a “Month” or “Billing month” reset period?",
+        "title": "Why is the “Start date” button disabled in certain cases?",
         "description": "Learn about date grain functionality in budgets configuration",
         "searchTags": "budgets, alerts",
         "category": "Budgets",
@@ -84,7 +57,7 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
     },
     {
         "id": "Why do I not see a graph of my costs in the budget creation experience?",
-        "title": "Why do I not see a graph of my costs in the budget creation experience?",
+        "title": "Why is my costs’ graph missing in the budget creation experience?",
         "description": "Learn when to expect to see a graph when creating a budget",
         "searchTags": "budgets, alerts",
         "category": "Budgets",
@@ -93,7 +66,7 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
     },
     {
         "id": "Why cant I set a budget against a subscription I just created?",
-        "title": "Why cant I set a budget against a subscription I just created?",
+        "title": "Why can't I set a budget against a subscription I just created?",
         "description": "Learn when you can start configuring a budget for your subscription",
         "searchTags": "budgets, alerts, subscription",
         "category": "Budgets",
@@ -101,30 +74,39 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
         "supportTopicId": "32615286"
     },
     {
+      "id": "What REST Operation Groups are available for budgets?",
+      "title": "What REST Operation Groups are available for budgets?",
+      "description": "Configure Cost Management budgets programatically",
+      "searchTags": "API, cost management, REST, ACM, budgets",
+      "category": "Budgets",
+      "commonSolutionArticleId": "costanalysis-restoperationgroups",
+      "supportTopicId": "32615286"
+    },
+    {
         "id": "Why don’t I see forecasts for my costs in Cost Analysis?",
         "title": "Why don’t I see forecasts for my costs in Cost Analysis?",
         "description": "Learn how to troubleshoot issues with the display of forecast",
         "searchTags": "forecast, cost analysis, connectors",
-        "category": "forecast",
-        "commonSolutionArticleId": "ba822ffc-8d11-4f64-9b62-71a499861d30",
+        "category": "Forecast",
+        "commonSolutionArticleId": "costanalysis-forecast",
         "supportTopicId": "32615286"
     },
     {
         "id": "Why doesn’t the forecast change when I make changes to my resources?",
-        "title": "Why doesn’t the forecast change when I make changes to my resources?",
+        "title": "Changes done in resources don’t reflect yet in forecast, why?",
         "description": "Understand how forecast is calculated",
         "searchTags": "forecast, cost analysis, connectors",
-        "category": "forecast",
-        "commonSolutionArticleId": "75912828-a07b-4df8-ae5d-62afdb5df8bf",
+        "category": "Forecast",
+        "commonSolutionArticleId": "costanalysis-forecastresource",
         "supportTopicId": "32615286"
     },
     {
         "id": "Why does my forecast increase after I make a reservation or Marketplace purchase?",
-        "title": "Why does my forecast increase after I make a reservation or Marketplace purchase?",
+        "title": "How do my purchases in Marketplace or of RIs impact forecast?",
         "description": "Understand the impact of purchases on forecast calculation",
         "searchTags": "forecast, cost analysis, connectors, purchases",
-        "category": "forecast",
-        "commonSolutionArticleId": "ece213f3-53c5-48d2-9cba-39e39ec1dbe1",
+        "category": "Forecast",
+        "commonSolutionArticleId": "costanalysis-forecastreservation",
         "supportTopicId": "32615286"
     },
     {
@@ -132,8 +114,8 @@ cloudEnvironments="public,blackForest,fairfax,mooncake"
         "title": "I want to see forecasts for a single dimension (eg. Meter) ",
         "description": "Learn how to view forecasted cost in granular dimensions",
         "searchTags": "forecast, cost analysis, connectors, purchases",
-        "category": "forecast",
-        "commonSolutionArticleId": "733bba36-5278-455d-a45e-1339d49590a2",
+        "category": "Forecast",
+        "commonSolutionArticleId": "costanalysis-forecastsingledimension",
         "supportTopicId": "32615286"
     }
   ],

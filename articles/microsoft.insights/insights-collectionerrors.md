@@ -10,7 +10,7 @@
     selfHelpType="generic"
     supportTopicIds="32602224"
     productPesIds="15693"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # I am seeing errors with telemetry collection

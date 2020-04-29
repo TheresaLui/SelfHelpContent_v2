@@ -9,9 +9,9 @@
 	supportTopicIds="32440104"
 	resourceTags="mobileapp"
 	productPesIds="15046"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="bd203055-9c0b-4934-85f2-64120ea8624b"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AppService"
 />
 
 # deployment
