@@ -21,19 +21,9 @@ You can deploy Windows Server VM images on Azure Stack by adding a Windows-based
 
 ## **Recommended Steps**
 
-1. Add a Windows image by [Download marketplace items from Azure to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item)
-2. You can review [Microsoft Virtual Machine Images and Solution Templates](https://docs.microsoft.com/azure/azure-stack/azure-stack-marketplace-azure-items#microsoft-virtual-machine-images-and-solution-templates) in the marketplace
-
-### **Known Issues**
-
-* Queue messages: Messages in a queue expire immediately after creation and tagged for garbage collection. This issue may present in three cases:
-    * Retrieval of resources in Azure Resource Manager will fail
-    * Usage metric data is not collected and uploaded for processing
-    * Customer developed applications fail to retrieve messages
-
-* User image management: Failed user image creation puts the user image service into a bad state:
-    * New image creation fails once the service is in this state
-    * Deletion of image may fail with the following error "Error: An internal disk management error occurred."
+1. Choose a [Windows image template](https://docs.microsoft.com/azure/azure-stack/azure-stack-marketplace-azure-items#microsoft-virtual-machine-images-and-solution-templates) and [download it from Azure marketplace](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item)
+1. Create a [custom image and upload it](https://docs.microsoft.com/azure-stack/operator/azure-stack-add-vm-image) to the marketplace
+1. Create a [VM marketplace offer](https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-create-and-publish-marketplace-item).
 
 ## **Recommended Documents**
 
