@@ -24,4 +24,3 @@
 ## **Recommended Steps**
 
 * <!--$recommendedSteps-->[recommendedSteps]<!--/$recommendedSteps-->
-* Please review the definition of the trigger trigger12. Recommended document: [Pipeline Execution and Triggers](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipeline-execution-triggers)
