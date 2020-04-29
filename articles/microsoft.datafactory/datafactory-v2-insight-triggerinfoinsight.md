@@ -17,13 +17,11 @@
 	ownershipId="AzureData_DataFactory"
 />
 
-# Data Factory Trigger Information
+# Run specific status of the trigger
 
-## We ran diagnostics on your resource and found the following insights
+Based on the Run ID provided we can see it was triggered by <!--$triggerName-->[triggerName]<!--/$triggerName-->, which was <!--$runTimeState-->[runTimeState]<!--/$runTimeState--> at the run time.
 
-<!--issueDescription-->
-**Trigger Name:** <!--$triggerName-->[triggerName]<!--/$triggerName--><BR>**Trigger Type:** <!--$triggerType-->[triggerType]<!--/$triggerType--><BR>**TriggerRun Status:** <!--$status-->[status]<!--/$status--><BR>**Trigger State before the run provided:** <!--$runTimeState-->[runTimeState]<!--/$runTimeState--><BR>**Trigger State at present:** <!--$currentState-->[currentState]<!--/$currentState--><BR>**Trigger Reason:** <!--$reason-->[reason]<!--/$reason-->
-<!--/issueDescription-->
+Based on the Run ID provided we can see it was wrongly triggered by trigger12, which was Activated at the run time.<BR><BR>It is a TumblingWindowTrigger and this trigger run was for the following window:<BR> <BR>Window Start: 2020-04-22T02:51:00<BR> Window End: 2020-04-22T03:06:00
 
 ## **Recommended Steps**
 
