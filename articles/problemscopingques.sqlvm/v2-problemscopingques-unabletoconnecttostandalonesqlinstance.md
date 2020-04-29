@@ -128,7 +128,7 @@
         {
              "id": "what_instance",
              "visibility": null,
-             "order": 5,
+             "order": 6,
              "controlType": "dropdown",
              "displayLabel": "What instance are you trying to connect to?",
              "content": null,

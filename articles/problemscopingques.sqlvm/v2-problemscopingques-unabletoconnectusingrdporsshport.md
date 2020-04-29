@@ -15,7 +15,7 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Unable to connect using RDP or SSH port",
     "fileAttachmentHint": "",

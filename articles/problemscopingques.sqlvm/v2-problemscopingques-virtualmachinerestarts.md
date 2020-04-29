@@ -20,8 +20,15 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "restart_error",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        },
+        {
+            "id": "restart_error",
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received?",
             "required": false,
@@ -29,7 +36,7 @@
         },
         {
             "id": "machinetype",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Which machine version are you running?",
             "watermarkText": "Choose an option",
@@ -55,18 +62,12 @@
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "useAsAdditionalDetails": false,
-            "required": true
-        },
-        {
-            "id": "problem_start_time",
-            "order": 4,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start?",
-            "required": true
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"

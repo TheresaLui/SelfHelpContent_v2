@@ -21,8 +21,15 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "connect_source",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        },
+        {
+            "id": "connect_source",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "From where are you trying to connect?",
             "watermarkText": "Choose an option",
@@ -48,7 +55,7 @@
         },
         {
             "id": "connect_sourcesubnetip",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "What is your source subnet or IP that you are trying to connect from?",
             "required": false,
@@ -56,7 +63,7 @@
         },
         {
             "id": "connect_firewall",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What firewall are you trying to troubleshoot?",
             "watermarkText": "Choose an option",
@@ -74,7 +81,7 @@
         },
         {
             "id": "connect_ifinternet",
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Do you have connectivity issues from/to this VM?",
             "watermarkText": "Choose an option",
@@ -92,7 +99,7 @@
         },
         {
             "id": "connect_internetissue",
-            "order": 5,
+            "order": 6,
             "visibility": "connect_ifinternet == Yes",
             "controlType": "dropdown",
             "displayLabel": "What is the problem you are having?",
@@ -123,7 +130,7 @@
         },
         {
             "id": "isadmin",
-            "order": 6,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Is this the built-in administrator account?",
             "watermarkText": "Choose an option",
@@ -145,7 +152,7 @@
         },
         {
             "id": "name_useraccount",
-            "order": 7,
+            "order": 8,
             "visibility": "isadmin == No || isadmin == I do not know",
             "controlType": "textbox",
             "displayLabel": "What is the name of the user account trying to login?",
@@ -153,18 +160,12 @@
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "useAsAdditionalDetails": false,
-            "required": true
-        },
-        {
-            "id": "problem_start_time",
-            "order": 9,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start?",
-            "required": true
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"
