@@ -5,7 +5,7 @@
     resource="natgateways"
     authors="christiankuhtz"
     ms.author="christiankuhtz"
-    displayOrder=""
+    displayOrder="3"
     selfHelpType="resource"
     articleId="nat-gateway-configuration-setup-availability-zones-md"
     resourceTags=""
@@ -17,12 +17,10 @@
 
 # NAT gateway - Configure NAT gateway resource with Availability Zones
 
-## Recommended documents
-
-### General guidance
+## **Recommended documents**
 
 * [Supported availability zones scenarios for NAT gateway resources](https://docs.microsoft.com/azure/virtual-network/nat-gateway-resource#availability-zones)
 
-# References
+## References
 
-* Learn about [availability zones](../availability-zones/az-overview.md).
+* Learn about [availability zones](https://docs.microsoft.com/azure/availability-zones/az-overview).
