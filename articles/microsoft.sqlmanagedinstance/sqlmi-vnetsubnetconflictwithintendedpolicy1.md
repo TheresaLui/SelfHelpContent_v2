@@ -30,7 +30,7 @@ Azure SQL Database Managed Instance must be deployed within an Azure [virtual ne
 
 If you want to create a Managed Instance inside an **existing subnet**, we recommend the following PowerShell script to prepare the subnet:
 
-```powershell
+```
 $scriptUrlBase = 'https://raw.githubusercontent.com/Microsoft/sql-server-samples/master/samples/manage/azure-sql-db-managed-instance/delegate-subnet'
 
 $parameters = @{
