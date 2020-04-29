@@ -12,7 +12,7 @@ diagnosticScenario="NmAgentUpdated"
 selfHelpType="resource"
 supportTopicIds=""
 cloudEnvironments="Public, fairfax, usnat, ussec"
-	ownershipId="Compute_VirtualMachines"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 If you have verified that the customer's impact is primarily due to NMAgent update, please adapt the root cause statement below:
