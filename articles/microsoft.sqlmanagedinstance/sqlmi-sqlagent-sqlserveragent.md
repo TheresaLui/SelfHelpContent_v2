@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-	articleId=""
+	articleId="d409cccb-23a3-415a-abc7-e5d6c80420d9"
 	ownershipId="AzureData_AzureSQLMI"
 />
 
