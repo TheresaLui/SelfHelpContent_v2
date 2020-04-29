@@ -17,7 +17,7 @@
 
 # Resolve Update Management issues with Azure Automation - Scanning for Updates
 
-This article will help with assessing available updates for machines enrolled in Update Management
+This article will help with assessing available updates for machines enrolled in Update Management.
 
 ## **Recommended Steps**
 
@@ -25,9 +25,9 @@ The Update Agent Troubleshooter for [Windows](https://docs.microsoft.com/azure/a
 
 ### **Machine shows as "not assessed"**
 
-* Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
+* Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", follow the steps in the ["Machines don't show up under Update Management"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs) guide
 * If you see an error code like "Exception from HRESULT 0x...", follow the troubleshooting guide for ["Machine shows as Not Assessed and shows an HResult exception"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
-  * This error commonly indicates an inaccessible WSUS server has been configured, or Windows Update is not reachable on the network.
+* This error commonly indicates an inaccessible WSUS server has been configured, or Windows Update is not reachable on the network
 
 ### **KB2267602 is consistently shown as missing**
 
@@ -35,24 +35,23 @@ The Update Agent Troubleshooter for [Windows](https://docs.microsoft.com/azure/a
 
 ### **Updates show as missing even after deployment**
 
-* Deploying updates to Linux by classification ("Critical and security updates") has important caveats, especially for CentOS. These [limitations are documented on the Update Management overview page](https://docs.microsoft.com/azure/automation/automation-update-management#linux-2)
-* Check the [job logs](https://docs.microsoft.com/azure/automation/manage-update-multi#view-results-of-an-update-deployment) of a deployment to see if updates were filtered out due to classification.
+* Deploying updates to Linux by classification ("Critical and security updates") has important caveats, especially for CentOS. These [limitations are documented on the Update Management overview page](https://docs.microsoft.com/azure/automation/automation-update-management#linux-2).
+* Check the [job logs](https://docs.microsoft.com/azure/automation/manage-update-multi#view-results-of-an-update-deployment) of a deployment to see if updates were filtered out due to classification
 * Updates are often [superseded by other updates](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting#the-update-is-not-applicable-to-your-computer). The superseded update will no longer appear in Update Management, even if the [Inclusion feature](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management#schedule-an-update-deployment) is used to specify the KB number. 
 * Some updates can be dependent on other required updates. If a required update needs a reboot, and "Never reboot" is selected, the required update will not finish installing and any dependent updates will not be able to install until the next update deployment.
 * Updates can also be skipped once the maintenance window is exceeded. See ["The scheduled update failed with a MaintenanceWindowExceeded error"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#mw-exceeded). 
 
 ### **Machines update without an update deployment**
 
-* This is due to Windows Update registry settings. See the troubleshooting guide ["Scenario: Updates install without a deployment"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#updates-nodeployment)
+* This is due to Windows Update registry settings. See the troubleshooting guide ["Scenario: Updates install without a deployment"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#updates-nodeployment).
 
 ### **Update Agent Readiness doesn't show "ready"**
 
-* Follow the steps in ["Machines don't show up under Update Management" ](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
+* Follow the steps in ["Machines don't show up under Update Management"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 
 ### **Update Management dashboard shows incorrect data**
 
 * This can occur if you have exceeded your Log Analytics pricing tier. See the [Log Analytics pricing documentation](https://docs.microsoft.com/azure/azure-monitor/platform/manage-cost-storage#changing-pricing-tier) for assistance in diagnosing and resolving this problem. 
-
 
 ## **Recommended Documents**
 
