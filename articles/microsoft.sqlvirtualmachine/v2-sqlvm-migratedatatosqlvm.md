@@ -15,8 +15,10 @@
 	ownershipId="AzureData_AzureSQLVM"
 />
 
-# Migrate to SQL Serevr on Azure VM
-Please review following articles
+# Migrate to SQL Server on Azure VM
+
+Most users are able to resolve their issues with migration using the recommended documents below.
+
 
 ## **Recommended Documents**
 

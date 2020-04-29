@@ -24,8 +24,8 @@
 
 **SQLIaaSExtension is in a Failed state or stuck in Transitioning state**
 <br> Portal may show the following message on the SQL VM resource: *SQL virtual machine management operations are disabled because SQL extension cannot be found or might not be installed properly on the virtual machine.*
-<br> The extension may occasionally encounter issues during its workflow resulting in a bad state. Un-installing and installing the extension should address this issue. 
-<br> You can execute the following commands in PowerShell to re-install the extension:
+<br> The extension may occasionally encounter issues during its workflow resulting in a bad state. Uninstalling and reinstalling the extension should address this issue. 
+<br> You can execute the following commands in PowerShell to reinstall the extension:
 
 ```
 Remove-AzVMSqlServerExtension -ResourceGroupName "<ResourceGroupName>" -VMName "<VMName>" -Name "SqlIaasExtension" 
@@ -34,7 +34,7 @@ Set-AzVMExtension -ResourceGroupName "<ResourceGroupName>" -Location "<VMLocatio
 ```
 **Cannot disable Automated Patching/Managed Backup**
 
-Check if you see the SQLIaasExtension on the portal in Provisioning succeded state. 
+Check if you see the SQLIaasExtension on the portal in provisioning succeeded state. 
 - If yes, then please see if you can see any error in the extension log at: C:\Users\ujpat\Desktop\Microsoft.Powershell.DSC\WindowsAzure\Logs\Plugins\Microsoft.SqlServer.Management.SqlIaaSAgent\1.2.24.0\ ExtensionLog_0.log
 - Else try to remove and re-install IAAS Agent extension.
 

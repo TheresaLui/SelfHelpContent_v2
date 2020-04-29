@@ -16,11 +16,11 @@
 />
 
 # SQL Service startup or configuration
-To torubleshoot SQL Server Service startup issues, please check following  -
+To troubleshoot SQL Server Service startup issues, please check following:
 
-Is there anything related to the issue in the [SQL error log](https://docs.microsoft.com/sql/tools/configuration-manager/viewing-the-sql-server-error-log?view=sql-server-ver15). For SQL agent startup issues, you can check [SQL agent logs](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent-error-log?view=sql-server-ver15) as well.
-<br>Are you able to [start the service from command prompt?](https://docs.microsoft.com/sql/database-engine/configure-windows/start-stop-pause-resume-restart-sql-server-services?view=sql-server-ver15#CommandPrompt)
-<br>Does SQL Server Service accounts have [required permissions?](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15)
+- Is there anything related to the issue in the [SQL error log](https://docs.microsoft.com/sql/tools/configuration-manager/viewing-the-sql-server-error-log?view=sql-server-ver15)? For SQL agent startup issues, you can check [SQL agent logs](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent-error-log?view=sql-server-ver15) as well.
+- Are you able to [start the service from command prompt](https://docs.microsoft.com/sql/database-engine/configure-windows/start-stop-pause-resume-restart-sql-server-services?view=sql-server-ver15#CommandPrompt)?
+- Does SQL Server Service accounts have [required permissions](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions?view=sql-server-ver15)?
 
 ## **Recommended Documents**
 
