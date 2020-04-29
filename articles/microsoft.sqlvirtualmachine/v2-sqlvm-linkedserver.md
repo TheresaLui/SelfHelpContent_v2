@@ -17,7 +17,7 @@
 
 # Linked Server, Distributed queries
 
-Most users are able to resolve their Linked Server, Distributed queries issues using the recommended documents below.
+Most users are able to resolve their issues with Linked Server or Distributed queries using the recommended documents below.
 
 ## **Recommended Documents**
 
