@@ -17,7 +17,7 @@
 
 # NAT gateway - Help with adding and removing a NAT gateway
 
-## Recommended Documents
+**## Recommended Documents**
 
 * Quickstart for deploying a NAT gateway resource
   - [Azure CLI](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-cli)
