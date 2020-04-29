@@ -17,6 +17,6 @@
 
 # NAT gateway - General guidance and advisory
 
-## **Recommended documents**
+## **Recommended Documents**
 
-* [Virtual Network NAT overview](https://docs.microsoft.com/azure/virtual-network/nat-overview) which provides NAT gateway resources.
+* [Virtual Network NAT overview](https://docs.microsoft.com/azure/virtual-network/nat-overview) which provides NAT gateway resources
