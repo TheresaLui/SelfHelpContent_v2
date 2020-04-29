@@ -19,7 +19,8 @@
 
 # SQL Users, Logins and permissions
 
-## **Common Issues**
+**Common Issues**
+
 **Can I connect to a SQL Server on Azure VM using Azure Active Directory?** <br>
 >No, at this time, [connecting to SQL Server running on an Azure VM](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?tabs=azure-powershell) is not supported using an Azure Active Directory account. Use a domain Active Directory account instead.
 
@@ -32,7 +33,7 @@
 Ensure that login exists in the new replica with appropriate privileges. It is a good idea to transfer logins from the primary replica to the secondary replicas using a process similar to **[Method 2 of this article](https://support.microsoft.com/help/918992/how-to-transfer-logins-and-passwords-between-instances-of-sql-server)**.
 
 **I am able to remotely login to the SQL Server using SQL authentication, but I am unable to logging remotely using windows authentication** <br>
->You may additionally see **Cannot generate SSPI context"** error. These issues can happen if there is an issue with **Service Principal Name(SPN)**. Please ensure that SQL Server [Service Principal Name (SPN) is registered correctly](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/register-a-service-principal-name-for-kerberos-connections?view=sql-server-ver15) and there is no duplicate/missing SPNs or SPN errors.<br>
+>You may additionally see **Cannot generate SSPI context"** error. These issues can happen if there is an issue with **Service Principal Name(SPN)**. Please ensure that SQL Server [Service Principal Name (SPN) is registered correctly](https://docs.microsoft.com/sql/database-engine/configure-windows/register-a-service-principal-name-for-kerberos-connections?view=sql-server-ver15) and there is no duplicate/missing SPNs or SPN errors.<br>
 
 You can use Microsoft® Kerberos Configuration Manager to achieve above as follows –
 - Download the Microsoft® Kerberos Configuration Manager https://www.microsoft.com/download/details.aspx?id=39046
