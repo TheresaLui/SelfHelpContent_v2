@@ -19,19 +19,21 @@
 
 ## **Recommended Documents**
 
-* Quickstart for deploying a NAT gateway resource
+* Quickstart for deploying a NAT gateway resource:
+
   - [Azure CLI](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-cli)
   - [PowerShell](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-powershell)
   - [Portal](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-portal)
   - [Template](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-template)
 
-## API references
+### API references
 
-* Learn about NAT gateway resource API
+* Learn about NAT gateway resource API:
+
   - [REST API](https://docs.microsoft.com/rest/api/virtualnetwork/natgateways)
   - [Azure CLI](https://docs.microsoft.com/cli/azure/network/nat/gateway?view=azure-cli-latest)
   - [PowerShell](https://docs.microsoft.com/powershell/module/az.network/new-aznatgateway)
 
-## Reference
+### Reference
 
 * [NAT gateway resource](https://docs.microsoft.com/azure/virtual-network/nat-gateway-resource)
