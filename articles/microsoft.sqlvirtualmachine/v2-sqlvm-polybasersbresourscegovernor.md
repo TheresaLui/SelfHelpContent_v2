@@ -16,7 +16,7 @@
 />
 
 # Polybase, R Services, Service Broker, Resource Governor
-Please review following articles for possible solutions for issues with Polybase, R Services, Service Broker, Resource Governor
+Most users are able to resolve their issues with Polybase, R Services, Service Broker or Resource Governor using the recommended documents below. 
 
 ## **Recommended Documents**
 
