@@ -19,12 +19,12 @@
 
 # Run specific status of the trigger
 
-<!--$triggerName-->
+<!--$issueDescription-->
 [issueDescription]
-<!--/$triggerName-->
+<!--/$issueDescription-->
 
 ## **Recommended Steps**
 
-*  <!--$triggerName-->
+*  <!--$recommendedSteps-->
 [recommendedSteps]
-<!--/$triggerName-->
+<!--/$recommendedSteps-->
