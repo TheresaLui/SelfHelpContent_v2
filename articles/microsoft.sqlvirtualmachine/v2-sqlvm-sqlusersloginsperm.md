@@ -24,7 +24,7 @@
 >No, at this time, [connecting to SQL Server running on an Azure VM](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?tabs=azure-powershell) is not supported using an Azure Active Directory account. Use a domain Active Directory account instead.
 
 **Why am I getting 'Login failed for user' error 18456** <br>
->Please check the corresponding state number in the error 18456 and take correcting actions as per [this article](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error?view=sql-server-ver15). Example: state 8 indicates password provided was incorrect.
+>Please check the corresponding state number in the error 18456 and take corrective actions as per [this article](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error?view=sql-server-ver15). Example: state 8 indicates password provided was incorrect.
 
 
 **I get login failures after SQL AlwaysOn Availability Group (AG) failover** 
@@ -40,13 +40,13 @@ You can use Microsoft® Kerberos Configuration Manager to achieve above as follo
 - The tool will not create a shortcut, so you should note the install path; generally it is in : C:\Program Files\Microsoft\Kerberos Configuration Manager for SQL Server
 - Click on Connect
 - Click connect 
-- Once connect, click on SPN TAB, and on your left, for the desire SPN , click fix. After the fix , restart SQL instance and verify if it was able to use the correct SPN. <br>
+- Once connect, click on SPN TAB, and on your left, for the desire SPN , click fix. After the fix , restart SQL instance and verify if it was able to use the correct SPN.<br>
 
 
 
 ## **Recommended Documents**
 * [Choose an Authentication Mode](https://docs.microsoft.com/sql/relational-databases/security/choose-an-authentication-mode?view=sql-server-ver15)
-* [Permissions (Database Engine)](https://docs.microsoft.comsql/relational-databases/security/permissions-database-engine?view=sql-server-ver15)
+* [Permissions (Database Engine)](https://docs.microsoft.com/sql/relational-databases/security/permissions-database-engine?view=sql-server-ver15)
 * [Connect to a SQL Server Virtual Machine on Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-connect)
 * [How to transfer logins and passwords between instances of SQL Server](https://support.microsoft.com/help/918992/how-to-transfer-logins-and-passwords-between-instances-of-sql-server)
 * [Configure Login Auditing](https://docs.microsoft.com/sql/ssms/configure-login-auditing-sql-server-management-studio?view=sql-server-ver15)

@@ -11,7 +11,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-	articleId="c40420e4-b8a0-4f77-821e-1a05414e23fd"
+	articleId="4b2ba785-e218-4dbb-abc3-74cf1a5c7449"
 	ownershipId="AzureData_AzureSQLVM"
 />
 

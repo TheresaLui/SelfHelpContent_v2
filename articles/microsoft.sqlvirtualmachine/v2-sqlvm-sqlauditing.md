@@ -11,7 +11,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-	articleId="08d70dfd-4a85-4c6a-b47f-177c66a6f806"
+	articleId="1d87ed3c-9fa2-465a-a239-b9cac608fa1a"
 	ownershipId="AzureData_AzureSQLVM"
 />
 
@@ -22,8 +22,8 @@
 
 ## Common Issues
 
-* **Where can I find latest SQL Server pathces.**<br>
-    You can filnd the latest build for each SQL Server version [here](https://support.microsoft.com/help/321185/how-to-determine-the-version-edition-and-update-level-of-sql-server-an)
+* **Where can I find latest SQL Server patches.**<br>
+    You can find the latest build for each SQL Server version [here](https://support.microsoft.com/help/321185/how-to-determine-the-version-edition-and-update-level-of-sql-server-an)
 
 * **Can I install a second instance of SQL Server on the same VM? Can I change installed features of the default instance? Where can I find the installation Setup file?**
 
@@ -53,11 +53,11 @@
 
 ## **Recommended Steps**
 
-Please make sure you upload the setup bootstrap folder if there are any issues/errors you encounter installing a Cumilative update,Security patch,Service pack  or a new instance while raising a support case with Microsoft. The folder can be found at the location:_**%programfiles%\Microsoft SQL Server\1X0\Setup Bootstrap\Log**_ 
+Please make sure you upload the setup bootstrap folder if there are any issues/errors you encounter installing a Cumulative update, Security patch, Service pack  or a new instance while raising a support case with Microsoft. The folder can be found at the location:_**%programfiles%\Microsoft SQL Server\1X0\Setup Bootstrap\Log**_ 
 
 ## **Recommended Documents**
 * [Latest SQL Builds](https://support.microsoft.com/help/321185/how-to-determine-the-version-edition-and-update-level-of-sql-server-an)
 * [Setup and Patching FAQ](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-faq#updating-and-patching)<br>
 * [Change SQL Edition](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-change-edition)<br>
 * [Automated Patching Feature](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-automated-patching)<br>
-* [Information on installing updates](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-servicing-updates?view=sql-server-ver15)<br>
+* [Information on installing updates](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-servicing-updates?view=sql-server-ver15)<br>
