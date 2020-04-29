@@ -20,7 +20,7 @@
 # Azure Data Explorer query failures
 
 <!--issueDescription-->
-Your Azure Data Explorer is having query failures with LOW MEMORY CONDITION issues and query failures due to low memory are result of a non-optimized workload running against your Azure Data Explorer.  
+Your Azure Data Explorer is having query failures with LOW MEMORY CONDITION issues and query failures due to low memory are result of a non-optimized workload running against your Azure Data Explorer. Low memory query failures can also occur if the cluster is running high (above 81%) in data capacity or cluster is running queries with high CPU usage (95%). 
 <!--/issueDescription-->
 
 ## **Recommended Documents**
