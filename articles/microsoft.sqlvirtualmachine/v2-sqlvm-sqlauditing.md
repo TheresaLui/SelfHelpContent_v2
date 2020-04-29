@@ -19,10 +19,7 @@
 
 # SQL Auditing
 
-
-## Common Issues
-
-Most users are able to resolve their issues with SQL Auditing using the recommended documents below:
+Most users are able to resolve their issues with SQL Auditing using the recommended documents below.
 
 ## **Recommended Documents**
 * [SQL Server Audit](https://docs.microsoft.com/sql/relational-databases/security/auditing/sql-server-audit-database-engine?view=sql-server-ver15)
