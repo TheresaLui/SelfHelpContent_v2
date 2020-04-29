@@ -5,7 +5,7 @@
     resource="natgateways"
     authors="christiankuhtz"
     ms.author="christiankuhtz"
-    displayOrder=""
+    displayOrder="7"
     selfHelpType="resource"
     articleId="nat-gateway-add-remove-subnet-md"
     resourceTags=""
@@ -17,13 +17,13 @@
 
 # NAT gateway - Help with NAT gateway and adding and removing a subnet
 
-## Recommended documents
+## **Recommended documents**
 
 * Quickstart for deploying a NAT gateway resource
-  - [Azure CLI](./quickstart-create-nat-gateway-cli.md)
-  - [PowerShell](./quickstart-create-nat-gateway-powershell.md)
-  - [Portal](./quickstart-create-nat-gateway-portal.md)
-  - [Template](./quickstart-create-nat-gateway-template.md)
+  - [Azure CLI](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-cli)
+  - [PowerShell](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-powershell)
+  - [Portal](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-portal)
+  - [Template](https://docs.microsoft.com/azure/virtual-network/quickstart-create-nat-gateway-template)
 
 # API references
 
