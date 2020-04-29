@@ -21,7 +21,7 @@
 
 ## **Recommended Steps**
 
-* Learn about [Azure Service Health](https://docs.microsoft.com/azure/service-health/service-health-overview), then use the [Azure Service Health blade](data-blade:Microsoft_Azure_Health.ServiceIssuesBlade) to see current service issues that may be affecting your resources<br>
+* Learn about [Azure Service Health](https://docs.microsoft.com/azure/service-health/service-health-overview), then use the [Azure Service Health blade](data-blade:Microsoft_Azure_Health.ServiceIssuesBlade) to see current service issues that may be affecting your resources
 * [Understand more about Audit logs](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) and using [Audit and Activity Log blade](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId)
 * [Troubleshoot allocation failures when you create, restart, or resize Windows VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/allocation-failure)
 
