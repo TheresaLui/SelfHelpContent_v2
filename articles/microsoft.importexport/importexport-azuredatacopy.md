@@ -4,7 +4,7 @@
 	description="issues with copy at Azure datacenter"
 	service="microsoft.importexport.jobs"
 	resource=""
-	authors="madhuri n"
+	authors="madhurinms"
 	ms.author="madhn"
 	displayOrder=""
 	selfHelpType="generic"
