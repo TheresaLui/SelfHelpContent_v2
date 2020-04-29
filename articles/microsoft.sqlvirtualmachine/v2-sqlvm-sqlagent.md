@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureSQLVM"
 />
 
-# SSQL agent, jobs, database mail
+# SQL agent, jobs, database mail
 
 Most users are able to resolve their issues with SQL Agent, Jobs or Database mail using the recommended documents below.
 
