@@ -19,14 +19,13 @@
 
 # SQL Certificate Management, SSL and TLS
 
-**Common Issues**
-* **SSL certificate missing from dropdown in SQL Server Configuration Manager** <br>
+### SSL certificate missing from dropdown in SQL Server Configuration Manager
 Please ensure that your certificate meets the [Certificate Requirements](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-encrypted-connections-to-the-database-engine?view=sql-server-ver15#certificate-requirements)
- <br>
-* **I am having issues with TLS 1.2**  
-Please ensure as per [TLS 1.2 support for Microsoft SQL Server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)
-    - that both SQL Server and operating system .Net framework is updated 
-    - that you have followed the corrective actions for the know issues
+
+### Issues with TLS 1.2
+As per [TLS 1.2 support for Microsoft SQL Server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server), please ensure that:
+- Both SQL Server and .NET framework are up-to-date 
+- Corrective actions have been followed for the known issues
 
 ## **Recommended Documents**
 * [How to enable SSL encryption for an instance of SQL Server](https://support.microsoft.com/help/316898/how-to-enable-ssl-encryption-for-an-instance-of-sql-server-by-using-mi)
