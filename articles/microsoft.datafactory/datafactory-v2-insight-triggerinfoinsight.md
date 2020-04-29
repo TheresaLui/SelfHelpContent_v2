@@ -19,10 +19,8 @@
 
 # Run specific status of the trigger
 
-## Test
-
 <!--issueDescription-->
-Test <!--$reason-->[reason]<!--/$reason--><!--$runAnalysis-->[runAnalysis]<!--/$runAnalysis-->
+<!--$runAnalysis-->[runAnalysis]<!--/$runAnalysis-->
 <!--/issueDescription-->
 
 ## **Recommended Steps**
