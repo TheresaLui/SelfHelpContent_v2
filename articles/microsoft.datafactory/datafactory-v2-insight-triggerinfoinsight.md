@@ -19,10 +19,12 @@
 
 # Run specific status of the trigger
 
-Based on the Run ID provided we can see it was triggered by <!--$triggerName-->[triggerName]<!--/$triggerName-->, which was <!--$runTimeState-->[runTimeState]<!--/$runTimeState--> at the run time.
-
-Based on the Run ID provided we can see it was wrongly triggered by trigger12, which was Activated at the run time.<BR><BR>It is a TumblingWindowTrigger and this trigger run was for the following window:<BR> <BR>Window Start: 2020-04-22T02:51:00<BR> Window End: 2020-04-22T03:06:00
+<!--$triggerName-->
+[issueDescription]
+<!--/$triggerName-->
 
 ## **Recommended Steps**
 
-*  Please, double check if the Trigger was Activated at the runtime and which was the reason for the Trigger had started.
+*  <!--$triggerName-->
+[recommendedSteps]
+<!--/$triggerName-->
