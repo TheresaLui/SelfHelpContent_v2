@@ -17,12 +17,12 @@
 
 # SQL Server exceptions, crashes, dumps
 
-Among other issues, server crashes and dumps can happen if the SQL Server or the operating system is not updated or if there are corruption in the databases, among other reasons.
+Among other reasons, server crashes and dumps can happen if the SQL Server or the operating system is not updated or if there are corruption in the databases.
 
-To **avoid crashes and dumps**, please ensure that: 
+To avoid such crashes and dumps, please ensure that: 
 - SQL Server and its components are [up to date to the latest build](https://support.microsoft.com/help/321185/how-to-determine-the-version-edition-and-update-level-of-sql-server-an)
 - Ensure that all databases are [corruption free](https://docs.microsoft.com/sql/relational-databases/maintenance-plans/check-database-integrity-task-maintenance-plan?view=sql-server-ver15)
-- Windows operating system and its components like .Net framework are up to date to the latest build
+- Windows operating system and its components like .NET framework are up to date to the latest build
 
 <br>If you do decide to open a service request, **please share the latest SQL dumps (*.mdmp files) and logs** with Microsoft. 
 
