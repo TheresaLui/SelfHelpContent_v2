@@ -24,7 +24,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Compute/virtualMachines",
   "recommendationFriendlyName": "NVAHighCPU",
-  "recommendationMetadataState": "",
+  "recommendationMetadataState": "Active",
   "owner": {
     "email": "evanba@microsoft.com",
     "icm": {
