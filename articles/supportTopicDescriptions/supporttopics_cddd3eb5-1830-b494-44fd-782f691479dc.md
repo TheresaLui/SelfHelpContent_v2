@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "4970a103-2894-d3f9-d08c-2633cfc78e45",
+      "longDescription": "",
+      "shortDescription": "Assistance with issues encountered when trying to resize a virtual machine",
+      "searchTags": "Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "53b20091-2600-5eff-9031-2f393f7041a0",
       "longDescription": "",
       "shortDescription": "Issue or question with deploying captured or generalized images",
