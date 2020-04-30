@@ -1,27 +1,27 @@
 <properties
-	pageTitle="Azure Data Lake Gen 2 Quick Query"
-	description="Azure Data Lake Gen 2 Quick Query"
+	pageTitle="Azure Blob Storage Quick Query"
+	description="Azure Blob Storage Quick Query"
 	infoBubbleText=""
 	service="microsoft.storage"
-	resource="datalakestoragegen2"
+	resource="storage"
 	authors="kartikshah9"
 	ms.author="kashah"
 	displayOrder=""
-	articleId="a3f50ff5-ed1b-4ac6-b5ec-45f4e7473eee"
+	articleId="bfb35b79-0c7d-455c-8727-7d39c88b8430"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32691202"
+	supportTopicIds="32725654"
 	resourceTags=""
-	productPesIds="16598"
+	productPesIds="16459"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
-	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
-# Azure Data Lake Gen2 Quick Query
+# Blob Storage Quick Query
 
 ## **Recommended Documents**
 
-Most customers resolve their Query Acceleration related issues with Azure Data Lake Gen2 Storage on their own, using the links below.
+Most customers resolve their Query Acceleration related issues with Azure Blob Storage on their own, using the links below.
 
 * [Overview for Query Acceleration](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-query-acceleration)<br>
 * [.NET and Java Quickstart for Query Acceleration](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-query-acceleration-how-to?tabs=dotnet)<br>
