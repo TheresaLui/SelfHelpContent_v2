@@ -7,8 +7,8 @@
     ms.author="ramthi"
     selfHelpType="generic"
     articleId="appinsights-issue-capturing-ip-location"
-    productPesIds="XXX"
-    supportTopicIds="XXX"
+    productPesIds="15693"
+    supportTopicIds="32729604"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_ApplicationInsights"
 />
