@@ -22,6 +22,30 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "1c2f964e-9219-e8fe-f027-95330b445941",
+      "longDescription": "",
+      "shortDescription": "Resolve issues related to connecting via RDP or SSH not covered by other support topics",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "24950ba1-1ada-26d3-eec4-1dedb62ebb00",
+      "longDescription": "",
+      "shortDescription": "Requests to help a virtual machine that is unresponsive to start or stop operations",
+      "searchTags": "Starting",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "55947c35-0935-27d8-69fa-6fb7798312ab",
+      "longDescription": "",
+      "shortDescription": "Configuring or managing a public IP associated to the virtual machine",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "55a7373d-e057-5719-a540-b9e7292cf602",
       "longDescription": "",
       "shortDescription": "Issues with disks in the Guest OS of the VM such as, initializing, or formatting disks.",
@@ -30,9 +54,57 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "64f558d7-19ec-b533-1d51-bf8065b8b000",
+      "longDescription": "",
+      "shortDescription": "Resolve issues specific to the firewall within the guest OS of the virtual machine",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "7252a6f3-09f9-4c9c-434f-7720ebb1d071",
+      "longDescription": "",
+      "shortDescription": "During the creation of the VM, an allocation error was encountered",
+      "searchTags": "Starting",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "7d8fb79f-7fbc-7125-b4dc-3060a75a755d",
+      "longDescription": "",
+      "shortDescription": "A configuration change to the virtual machine has impacted RDP or SSH connectivity",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "aeca6c5b-eeda-205d-8e9a-84fbc3787d58",
       "longDescription": "",
       "shortDescription": "Resolve issues with resetting the local admin account password of the virtual machine",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "b3ca1e6d-ea88-4d89-2f27-cf22e3bf6b37",
+      "longDescription": "",
+      "shortDescription": "Assistance with troubleshooting network security groups (NSG) associated to the virtual machine",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "cbc66602-d0a3-abe6-c880-043309caa9e5",
+      "longDescription": "",
+      "shortDescription": "A configuration change to your virtual machine has prevented your virtual machine from starting",
+      "searchTags": "Starting",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "de79f709-5c28-19b7-4268-4e1270837208",
+      "longDescription": "",
+      "shortDescription": "Asistance with configuring or using Azure Serial Console Access in the Azure Portal to access the virtual machine",
       "searchTags": "Connectivity",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "false"
@@ -46,11 +118,27 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f098b595-bead-07c7-61e1-fea5b00a921d",
+      "longDescription": "",
+      "shortDescription": "Resolve errors with disks when starting or stopping a virtual machine",
+      "searchTags": "Starting",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f820b562-a549-86dc-b8ae-b5ee4e835aaa",
       "longDescription": "",
       "shortDescription": "Covers issues where the start operation for the VM fails and an error message is provided",
       "searchTags": "Booting",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "ff2da016-f47d-a267-456f-8569ce67e6d5",
+      "longDescription": "",
+      "shortDescription": "Assistance with resizing a virtual machine or the desired size is not available",
+      "searchTags": "Starting",
+      "category": "Deployment",
       "useInDiagnoseAndSolve": "false"
     }
   ]

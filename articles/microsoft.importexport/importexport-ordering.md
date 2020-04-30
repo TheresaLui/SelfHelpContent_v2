@@ -4,7 +4,7 @@
 	description="Issues in job creation"
 	service="microsoft.importexport.jobs"
 	resource=""
-	authors="madhuri n"
+	authors="madhurinms"
 	ms.author="madhn"
 	displayOrder=""
 	selfHelpType="generic"
@@ -16,7 +16,7 @@
 	ownershipId="StorageMediaEdge_ImportExport"
 />
 
-# Data Box Shipping
+# Azure Import/Export order creation
 
 ## **Recommended Documents**
 
