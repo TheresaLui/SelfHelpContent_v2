@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"
@@ -21,10 +21,11 @@
 
 ## **Recommended Steps**
 
-* Please review the required steps for [creating a new workspace](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace?branch=release-ignite-arcadia)
+* Please review the required steps for [creating a new workspace](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace)
 
 ## **Recommended Documents**
 
-* How-to [create a new workspace](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace?branch=release-ignite-arcadia)
+* How-to [create a new workspace](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace)
 
-* How-to [delete a workspace](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace?branch=release-ignite-arcadia#clean-up-resources)
+* How-to [delete a workspace](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-workspace#clean-up-resources)
+

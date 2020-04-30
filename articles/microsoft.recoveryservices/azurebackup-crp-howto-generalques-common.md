@@ -12,7 +12,7 @@
 	productPesIds="15571,15797,16470,16454,14749"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="5135966d-bcd5-4459-b33e-e8bae9b87f84"
-	ownershipId="Compute_VirtualMachines"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Backup - how to and general questions

@@ -20,6 +20,8 @@
 
 # This topic will guide partners to the support experience for Dynamics operations questionsrelated to credit and refund management
 
+ This topic will guide partners to the support experience for Dynamics operations questionsrelated to credit and refund management
+
 
 ## **Recommended Steps**
 - Contact Dynamics Operations 

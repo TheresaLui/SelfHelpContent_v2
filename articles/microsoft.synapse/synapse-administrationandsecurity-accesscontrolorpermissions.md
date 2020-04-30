@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"
@@ -21,9 +21,9 @@
 
 ## **Recommended Steps**
 
-A [system-assigned managed identity](https://review.docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-identity?branch=release-ignite-arcadia) is created for your Azure Synapse workspace when you create the workspace. You can [retrieve your workspace's managed identity](https://review.docs.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-managed-identity?frombranch=release-ignite-arcadia#retrieve-managed-identity-in-azure-portal) from Azure Portal.
+A [system-assigned managed identity](https://docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-identity) is created for your Azure Synapse workspace when you create the workspace. You can [retrieve your workspace's managed identity](https://docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-identity#retrieve-managed-identity-in-azure-portal) from Azure Portal.
 
-When a table (a table in a Spark database or external table created in SQL On-Demand) is queried by Spark or SQL on-demand engines that the query submitter has the right to use, the query **submitter's security principal is being passed through** to the underlying files. Permissions are checked at the file system level. Learn how to [assign ```Storage Blob Data Reader``` or ```Storage Blob Data Contributor``` RBAC permissions on Azure Storage](https://review.docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#assign-a-built-in-rbac-role).
+When a table (a table in a Spark database or external table created in SQL On-Demand) is queried by Spark or SQL on-demand engines that the query submitter has the right to use, the query **submitter's security principal is being passed through** to the underlying files. Permissions are checked at the file system level. Learn how to [assign ```Storage Blob Data Reader``` or ```Storage Blob Data Contributor``` RBAC permissions on Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac-portal?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#assign-a-built-in-rbac-role).
 
 ### Spark and SQL Pool Security Model on Metadata
 * The Spark databases and tables, along with their synchronized representations in the SQL engines will be secured at the underlying storage level.
@@ -33,10 +33,11 @@ When a table (a table in a Spark database or external table created in SQL On-De
 
 ## **Recommended Documents**
 
-* [Secure your Synapse workspace](https://review.docs.microsoft.com/azure/synapse-analytics/security/how-to-set-up-access-control?branch=release-ignite-arcadia#overview)
-* [Azure Synapse workspace managed identity](https://review.docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-identity?branch=release-ignite-arcadia)
-* [Create and manage IP firewall rules](https://review.docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-ip-firewall?branch=release-ignite-arcadia#create-and-manage-ip-firewall-rules)
-* [Managed workspace VNet](https://review.docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-vnet?branch=release-ignite-arcadia)
-* [Managed private endpoint](https://review.docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints?branch=release-ignite-arcadia)
-* [Azure Active Directory Authentication](https://review.docs.microsoft.com/azure/synapse-analytics/sql/active-directory-authentication?branch=release-ignite-arcadia)
-* [AAD pass-through in Azure Synapse Analytics](https://review.docs.microsoft.com/azure/synapse-analytics/sql/active-directory-authentication?branch=release-ignite-arcadia#aad-pass-through-in-azure-synapse-analytics)
+* [Secure your Synapse workspace](https://docs.microsoft.com/azure/synapse-analytics/security/how-to-set-up-access-control#overview)
+* [Azure Synapse workspace managed identity](https://docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-identity)
+* [Create and manage IP firewall rules](https://docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-ip-firewall#create-and-manage-ip-firewall-rules)
+* [Managed workspace VNet](https://docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-vnet)
+* [Managed private endpoint](https://docs.microsoft.com/azure/synapse-analytics/security/synapse-workspace-managed-private-endpoints)
+* [Azure Active Directory Authentication](https://docs.microsoft.com/azure/synapse-analytics/sql/active-directory-authentication)
+* [AAD pass-through in Azure Synapse Analytics](https://docs.microsoft.com/azure/synapse-analytics/sql/active-directory-authentication#aad-pass-through-in-azure-synapse-analytics)
+

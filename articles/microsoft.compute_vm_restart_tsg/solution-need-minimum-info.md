@@ -24,7 +24,7 @@ We've reviewed your case and we need additional information to scope and investi
 4. Restart Date and Time Frame.<br>
 5. Workloads/software/applications/Role being hosted on the VM (if possible)<br>
 6. Business Impact: "How would one describe the business impact of this issue?"<br>
-7. Approval to collect the logs. If the case is submitted through the Portal, you would see "- GrantPermission: true" in the Case Description.<br>
+7. Approval to collect the logs. <br>
 <br>
 
 Please respond with as much of this information as possible. 
