@@ -2,13 +2,12 @@
   pagetitle="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   description="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   authors="elixirsys2"
-  ms.author="v-vigra"
+  ms.author="v-vigra, rodejo"
   selfhelptype="SupportTopicDescription"
   productpesids="38a234dd-6baf-d93b-2c48-5a735a3550ed"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_38a234dd-6baf-d93b-2c48-5a735a3550ed"
-  ownershipid="AzureIdentity_SyncFabric"
-  />
+  ownershipid="AzureIdentity_SyncFabric" />
 # Support Topic Descriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed
 ---
 {
@@ -137,7 +136,7 @@
     {
       "id": "74c81dd5-2a27-fe42-941e-660e5f16582d",
       "longDescription": "",
-      "shortDescription": "Problems related to provisioning users from Azure AD into connected applications, typically using the SCIM standard. ",
+      "shortDescription": "Problems related to provisioning users from Azure AD into connected applications. Not be used for problems for SSO config, AADConnect or Intune.",
       "searchTags": "problem to provide user with SaaS app",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
