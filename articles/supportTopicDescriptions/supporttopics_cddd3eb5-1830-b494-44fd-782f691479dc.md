@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "24950ba1-1ada-26d3-eec4-1dedb62ebb00",
+      "longDescription": "",
+      "shortDescription": "Requests to help a virtual machine that is unresponsive to start or stop operations",
+      "searchTags": "Starting",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "55947c35-0935-27d8-69fa-6fb7798312ab",
       "longDescription": "",
       "shortDescription": "Configuring or managing a public IP associated to the virtual machine",
