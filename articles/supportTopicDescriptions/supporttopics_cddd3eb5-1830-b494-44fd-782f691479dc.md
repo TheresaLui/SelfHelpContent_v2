@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "64f558d7-19ec-b533-1d51-bf8065b8b000",
+      "longDescription": "",
+      "shortDescription": "Resolve issues specific to the firewall within the guest OS of the virtual machine",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7d8fb79f-7fbc-7125-b4dc-3060a75a755d",
       "longDescription": "",
       "shortDescription": "A configuration change to the virtual machine has impacted RDP or SSH connectivity",
