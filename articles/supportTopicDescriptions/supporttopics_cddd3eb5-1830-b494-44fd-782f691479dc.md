@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b3ca1e6d-ea88-4d89-2f27-cf22e3bf6b37",
+      "longDescription": "",
+      "shortDescription": "Assistance with troubleshooting network security groups (NSG) associated to the virtual machine",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e41e015e-0ec8-24c9-974f-79fe0d285f9e",
       "longDescription": "",
       "shortDescription": "Guidance with preparing an image properly for deploying into Azure",
