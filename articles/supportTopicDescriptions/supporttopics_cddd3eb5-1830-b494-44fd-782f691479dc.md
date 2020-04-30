@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "dcf6f0d6-63ca-7638-f29a-79e3ebbf94fb",
+      "longDescription": "",
+      "shortDescription": "Request an official root cause for the virtual machine downtime",
+      "searchTags": "Restart",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "de79f709-5c28-19b7-4268-4e1270837208",
       "longDescription": "",
       "shortDescription": "Asistance with configuring or using Azure Serial Console Access in the Azure Portal to access the virtual machine",
