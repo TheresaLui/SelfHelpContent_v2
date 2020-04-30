@@ -20,8 +20,9 @@
 ### Common Issues
 
 * **Where can I find the installation media or the license key in an Azure SQL VM?**
-  - If you already have a SQL Server VM created from Azure Marketplace, you can find  the installation media at **C:\SQLServerFull**. 
-  - To get the product key, you can launch setup.exe from ***C:\SQLServerFull***, copy the product key that appears in the install process and exit the installer. 
+
+  - If you already have a SQL Server VM created from Azure Marketplace, you can find the installation media at **C:\SQLServerFull**
+  - To get the product key, you can launch setup.exe from ***C:\SQLServerFull***, copy the product key that appears in the install process, and exit the installer
 
 ## **Recommended Documents**
 
