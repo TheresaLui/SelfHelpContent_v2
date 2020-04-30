@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "53b20091-2600-5eff-9031-2f393f7041a0",
+      "longDescription": "",
+      "shortDescription": "Issue or question with deploying captured or generalized images",
+      "searchTags": "Deployment",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "55947c35-0935-27d8-69fa-6fb7798312ab",
       "longDescription": "",
       "shortDescription": "Configuring or managing a public IP associated to the virtual machine",
