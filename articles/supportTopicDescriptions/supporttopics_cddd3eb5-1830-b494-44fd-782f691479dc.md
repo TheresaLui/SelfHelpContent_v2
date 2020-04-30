@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f098b595-bead-07c7-61e1-fea5b00a921d",
+      "longDescription": "",
+      "shortDescription": "Resolve errors with disks when starting or stopping a virtual machine",
+      "searchTags": "Starting",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f820b562-a549-86dc-b8ae-b5ee4e835aaa",
       "longDescription": "",
       "shortDescription": "Covers issues where the start operation for the VM fails and an error message is provided",
