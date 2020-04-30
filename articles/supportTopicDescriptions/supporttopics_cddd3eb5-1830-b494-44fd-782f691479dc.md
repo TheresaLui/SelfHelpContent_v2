@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7aba48c1-5e0d-9ccb-a1c7-e1e22fa7db08",
+      "longDescription": "",
+      "shortDescription": "GPU processing is slower than expected for your virtual machine",
+      "searchTags": "Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7d8fb79f-7fbc-7125-b4dc-3060a75a755d",
       "longDescription": "",
       "shortDescription": "A configuration change to the virtual machine has impacted RDP or SSH connectivity",
