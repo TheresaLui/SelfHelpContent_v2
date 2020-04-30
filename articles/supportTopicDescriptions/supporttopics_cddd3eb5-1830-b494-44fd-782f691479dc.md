@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d85c401e-04b1-c1c2-6838-755bac055bda",
+      "longDescription": "",
+      "shortDescription": "Look into actions and events that can cause VMs to reboot and understand how to avoid unexpected reboots",
+      "searchTags": "Restart",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "dcf6f0d6-63ca-7638-f29a-79e3ebbf94fb",
       "longDescription": "",
       "shortDescription": "Request an official root cause for the virtual machine downtime",
