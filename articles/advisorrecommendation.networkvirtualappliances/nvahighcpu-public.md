@@ -18,7 +18,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "010692cc-0668-43fa-b7dc-6766efb22e59",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://azphynet.kusto.windows.net').database('azdhmds').NVAHighCPU",
+    "streamNamespace": "cluster('https://azphynet.kusto.windows.net').database('azphynetmds').NVAHighCPU",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
