@@ -10,8 +10,9 @@
 	supportTopicIds="32444084"
 	resourceTags=""
 	productPesIds="16170"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
 	articleId="bb026821-5039-4191-b863-620316a28978"
+	ownershipId="Compute_AppService"
 />
 
 # open source technologies/python

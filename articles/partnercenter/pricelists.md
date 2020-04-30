@@ -10,14 +10,21 @@
 	articleId="partnercenter_pricelists"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635689"
+	supportTopicIds="32635689,32692606"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="15960,17011"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Pricelists
+Review the recommended steps and documents before submitting a service request about price lists.
+
+## **Recommended Steps**
+
+- Ensure you have the proper permissions when accessing the price list files. All pricing files can be exported from the **Pricing and offers** page in partner center but only **Global Administrators** and **Admin Agents** have access. 
+- **Indirect Resellers** should work with their **Indirect Providers** for questions about pricing.  
 
 ## **Recommended Documents**
 
@@ -26,3 +33,4 @@
 * [Pricing and special segments](https://docs.microsoft.com/partner-center/pricing-and-offers#pricing-and-special-segments)
 * [Pricing between Azure and non-Azure](https://docs.microsoft.com/partner-center/pricing-and-offers#pricing-between-azure-and-non-azure)
 * [Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)
+* [How Non-profit, GCC and Education offers work in Partner Center](https://docs.microsoft.com/partner-center/get-special-pricing-for-offers)

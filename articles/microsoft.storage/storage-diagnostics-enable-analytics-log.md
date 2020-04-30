@@ -1,6 +1,6 @@
 <properties
-pageTitle="Enable StorageEnableAnalyticsLoggingInsight in Azure Portal"
-description="Enable StorageEnableAnalyticsLoggingInsight in Azure Portal"
+pageTitle="Enable Storage Analytics Log in Azure Portal"
+description="Enable Storage Analytics Log in Azure Portal"
 infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
@@ -8,11 +8,12 @@ authors="sijia"
 ms.author="siz"
 displayOrder=""
 articleId="Storagev2insights_enable_analytics_log"
-diagnosticScenario="Enable StorageEnableAnalyticsLoggingInsight in Azure Portal"
+diagnosticScenario="Enable Storage Analytics Log in Azure Portal"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Enable StorageEnableAnalyticsLoggingInsight in Azure Portal

@@ -9,8 +9,9 @@
 	supportTopicIds="32612192"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="8e0ffa94-d3a6-4043-99f7-cda51f69e0a3"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Azure Databricks Access Control

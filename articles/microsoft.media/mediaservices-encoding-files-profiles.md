@@ -12,7 +12,8 @@
 	supportTopicIds="32632115"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Media Services: Profiles or custom profiles 

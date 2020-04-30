@@ -5,9 +5,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32599687"
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="c8209426-b86c-4712-8575-6d2d592226fb"
+	ownershipId="IntuneCxP_Intune"
 />
 # Enroll Devices - Windows Enrollment
 ---

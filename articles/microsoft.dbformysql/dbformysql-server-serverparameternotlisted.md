@@ -10,8 +10,9 @@
     supportTopicIds="32640092"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="6145858c-683d-49dd-b4c8-f10f2d2a2f3c"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Server parameter not listed
@@ -29,6 +30,7 @@ Azure Database for MySQL allows you to configure parameters at a server level us
 * In the service, a gateway is used to redirect the connections to server instances. After the connection is established, the MySQL client displays the version of MySQL set in the gateway, not the actual version running on your MySQL server instance. To determine the version of your MySQL server instance, use the `SELECT VERSION();` command at the MySQL prompt. See [more details](https://docs.microsoft.com/azure/mysql/concepts-supported-versions).
 * Plugin installation is not supported
 * If you want to migrate the database to Azure, check the [migration instruction](https://docs.microsoft.com/azure/mysql/concepts-migrate-dump-restore/)
+* To change session level parameter in MySQL for each new connection you can set it through init_connect. Refer to [server parameter setting](https://docs.microsoft.com/azure/mysql/howto-server-parameters) how-to.
 
 ## **Recommended Documents**
 

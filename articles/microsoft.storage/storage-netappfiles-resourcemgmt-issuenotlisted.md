@@ -10,8 +10,9 @@
 	supportTopicIds="32640621"
 	resourceTags=""
 	productPesIds="16469"
-	cloudEnvironments="public"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="NetAppResourceMgmtIssueNotListed"
+	ownershipId="AzureNetAppFiles"
 />
 
 # NetApp Files Resource Management Issue not listed above 

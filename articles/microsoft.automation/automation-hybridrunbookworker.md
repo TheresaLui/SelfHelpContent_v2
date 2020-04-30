@@ -5,13 +5,14 @@
     resource="automationaccounts"
     authors="zjalexander"
     ms.author="zachal"
-    displayorder=""
+    displayorder="301"
     selfHelpType="generic"
     supportTopicIds="32628014,32599920"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="b3d96b2b-2651-474d-b08d-a1a28b66f86d"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Hybrid Runbook Worker
@@ -47,6 +48,10 @@ Many issues with Hybrid Workers are caused by connectivity problems. Run [the "T
 ### **Error: "Machine is already registered to a different account"**
 
 * Follow the troubleshooting guide for ["Unable to add a Hybrid Runbook Worker"](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#already-registered)
+
+### **Can't start or schedule runbook**
+
+* Ensure your runbook [is in the Published state](https://docs.microsoft.com/azure/automation/manage-runbooks#publish-a-runbook).
 
 
 ## **Recommended Documents**

@@ -10,8 +10,9 @@
     supportTopicIds="32680613"
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="e454706c-a8f2-4f4c-bf93-be603d783a4c"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # VMware/Physical to Azure - Mobility agent installation or upgrade issue

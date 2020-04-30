@@ -1,11 +1,11 @@
 <properties
-    pageTitle="Process Server is unable to communicate with Configuration Server"
-    description="Process Server is unable to communicate with Configuration Server"
+    pageTitle="Replication is not progressing with no heartbeat from Process Server"
+    description="Replication status is critical because the ASR service on Process Server is not able to connect to Configuration Server."
     infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
     authors="TobyTu"
-    ms.author="ramamill"
+    ms.author="aaronmax"
     displayOrder=""
     articleId="ASR_V2A_ReplicationNotProgressing_NoHeartbeatFromProcessServer"
     diagnosticScenario="ASRV2AReplicationNotProgressingHealthIssues"
@@ -13,23 +13,27 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="Compute_SiteRecovery"
 />
 
-# Process Server is unable to communicate with Configuration Server
+# Replication is not progressing with no heartbeat from Process Server
+
 <!--issueDescription-->
-Azure Site Recovery service "tmansvc" on Process Server is unable to communicate with Configuration Server. For healthy DR operations, connectivity is necessary between all Site Recovery components.
+Replication status is critical because the Azure Site Recovery service on Process Server is not able to connect to Configuration Server.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-- Verify that the master target server is up and running
-- Login to Process Server as an administrator and restart the tmansvc service
-- Verify that the Process Server is [healthy](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-troubleshoot-process-server#check-process-server-health)
-- If issue persists, check following logs on the Process Server for error details:
+Verify the heartbeat from Process Server. To do that, follow these steps:
 
-  - C:\ProgramData\ASR\home\svsystems\eventmanager*log
-  - C:\ProgramData\ASR\home\svsystems\monitor_protection*.log
+1. Verify the Process Server machine is up and running
+2. Login to Process Server with administrator privileges
+3. Verify that the service **tmansvc** is running, then start or restart the service
+4. On the Process Server, check the following logs for any errors:
+
+    - C:\\ProgramData\\ASR\\home\\svsystems\\eventmanager*log
+    - C:\\ProgramData\\ASR\\home\\svsystems\\monitor_protection*.log
 
 ## **Recommended Documents**
 

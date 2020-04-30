@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636946"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="eh-create-delete-ops"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Issues with Create or Delete Operations
 ---

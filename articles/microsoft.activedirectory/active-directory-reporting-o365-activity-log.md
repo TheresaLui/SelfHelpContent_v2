@@ -9,8 +9,9 @@
     supportTopicIds=""
     resourceTags="azureadrreports_missingdata_audit,azureadrreports_missingdata_signin"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="e3fc639c-11e1-4666-9054-f216fdbc7325"
+	ownershipId="AzureIdentity_User"
 />
 
 # How can I get Office 365 activity log information through the Azure portal?

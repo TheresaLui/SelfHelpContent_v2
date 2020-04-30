@@ -7,9 +7,10 @@ ms.author="nathana"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32680715,32680716,32680717"
 productPesIds="16213"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="problemscoping-authentication"
 schemaVersion="1"
+	ownershipId="ContainerRegistry_Runtime"
 />
 # Authentication Issues
 ---

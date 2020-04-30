@@ -5,14 +5,15 @@
 	resource="databaseAccounts"
 	authors="rnagpal"
 	ms.author="rnagpal"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32636766"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-mongodb-aggregationpipeline"
 	displayOrder="220"
 	category="MongoDB"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # MongoDB - Aggregation pipeline

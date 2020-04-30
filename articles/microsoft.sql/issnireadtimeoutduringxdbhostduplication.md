@@ -5,6 +5,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="aamalvea"
+    ms.author="aamalvea"
 	displayOrder=""
 	articleId="IsSniReadTimeoutDuringXdbhostDuplication_8BDA22D6-4005-4359-94E6-D3C636CE99C6"
 	diagnosticScenario=""
@@ -12,7 +13,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # We ran diagnostics on your resource and found an issue
 

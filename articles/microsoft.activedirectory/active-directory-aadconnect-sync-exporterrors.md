@@ -11,8 +11,9 @@
     supportTopicIds="32629776"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
-    />
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+    	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
+/>
 
 # Sync errors: Export failed
 

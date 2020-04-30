@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32612999,32632809"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
   	 articleId="3d0e2537-0802-4def-88da-de618f915950"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure backup server restore performance
 ---

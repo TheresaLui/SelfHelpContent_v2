@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
 	supportTopicIds="32584355"
     productPesIds="14997"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     articleId="scoping_manual_protection"
 	schemaVersion="1"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 # Can't apply this label
 ---
@@ -56,6 +57,23 @@
                 "displayLabel": "What version are you using? For details, use the link in the help balloon",
 				"infoBalloonText": "Verify that you use a <a href='https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history'>supported version</a>",
                 "required": true
+                },{
+                    "id": "checkrightclick",
+                    "order": 6,
+                    "controlType": "dropdown",
+                    "displayLabel": "Were you able to replicate this issue using Right Click - Classify and Protect",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Yes",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "No",
+                            "text": "No"
+                        }
+                    ],
+                    "required": false
                 },{
                     "id": "problem_description",
                     "order": 1,

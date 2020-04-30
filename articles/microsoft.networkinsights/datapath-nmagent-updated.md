@@ -11,19 +11,18 @@ articleId="NmAgentUpdated"
 diagnosticScenario="NmAgentUpdated"
 selfHelpType="resource"
 supportTopicIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines"
 />
+
+If you have verified that the customer's impact is primarily due to NMAgent update, please adapt the root cause statement below:
 
 # We ran diagnostics on your VM and found an issue
 
-Microsoft Azure team has finished investigating the issue with your virtual machine. The physical host node where your VM was running was undergoing a regular maintenance of the networking stack. This impacted connectivity briefly.    
+The physical host node where your VM was running was undergoing a regular maintenance of the networking stack. This impacted connectivity briefly.    
 
-Azure periodically performs updates to improve the reliability, performance, and security of the host infrastructure for virtual machines. There is an expected downtime during these updates. We are continuously working on improving the platform and apologize for any inconvenience this may have caused to you. 
+Azure periodically performs updates to improve the reliability, performance, and security of the host infrastructure for virtual machines. The purpose of these updates ranges from patching software components in the hosting environment to upgrading networking components or decommissioning hardware. Updates rarely affect hosted VMs. When updates do have an effect, Azure chooses the least impactful method for updates, which may sometimes still result in a brief downtime or connectivity loss. We are continuously working on improving the platform and apologize for any inconvenience this may have caused to you. 
 
 ## **Recommended Steps**
 
-If the VM experienced downtime or connectivity loss during this update, it is to be expected. There is guidance (for [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events) and [Windows](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events)) on how to prepare and design for such maintenance.
-
-Note that [virtual functions are expected to be revoked during servicing updates](https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli?toc=%2Fazure%2Fvirtual-machines%2Flinux%2Ftoc.json#handle-dynamic-binding-and-revocation-of-virtual-function).
-
-[Azure Dedicated Host](https://azure.microsoft.com/blog/introducing-azure-dedicated-host/) may be an option to consider if you would like more stringent control over the updates in the future.
+To prepare for VM maintenance and reduce its impact, try using Scheduled Events for [Windows](https://docs.microsoft.com/azure/virtual-machines/windows/scheduled-events) or [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/scheduled-events). Azure also provides full control over such platform maintenance on [Azure Dedicated Hosts](https://docs.microsoft.com/azure/virtual-machines/windows/dedicated-hosts) and [Isolated VMs](https://docs.microsoft.com/azure/security/fundamentals/isolation-choices). For general information, please refer to [Maintenance for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-and-updates)

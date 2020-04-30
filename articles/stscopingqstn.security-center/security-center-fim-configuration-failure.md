@@ -8,8 +8,9 @@
     supportTopicIds="32636843,32636876"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="a15f057d-9001-2012-a98a-dfaf3843dc2f"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 #  Azure Security Center File Integrity monitor Configuration failure

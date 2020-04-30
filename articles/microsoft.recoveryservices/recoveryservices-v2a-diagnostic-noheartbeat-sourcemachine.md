@@ -1,36 +1,33 @@
 <properties
-    pageTitle="Virtual machine is unable to communicate with configuration server"
-    description="Virtual machine is unable to communicate with configuration server"
+    pageTitle="Replication is not progressing with no heartbeat from Source Machine"
+    description="Replication status is critical because ASR agent on Source Machine is not able to connect to Configuration Server."
     infoBubbleText="Microsoft Azure has information regarding your issue. See details on the right."
     service="microsoft.recoveryservices"
     resource="vaults"
     authors="TobyTu"
-    ms.author="ramamill"
+    ms.author="aaronmax"
     displayOrder=""
-    articleId="ASR_A2A_ReplicationNotProgressing_NoHeartbeatFromSourceMachine"
+    articleId="ASR_V2A_ReplicationNotProgressing_NoHeartbeatFromSourceMachine"
     diagnosticScenario="ASRV2AReplicationNotProgressingHealthIssues"
     selfHelpType="Diagnostics"
     supportTopicIds=""
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="Compute_SiteRecovery"
 />
 
-# Your virtual machine is unable to communicate with Configuration Server
+# Replication is not progressing with no heartbeat from Source Machine
+
 <!--issueDescription-->
-Mobility agent on your virtual machine is unable to communicate with Configuration Server. For healthy DR operations, connectivity is necessary between all Site Recovery components.
+Replication status is critical because Azure Site Recovery agent on Source Machine is not able to connect to Configuration Server.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-- Verify that your virtual machine is is up and running
-- Login to the machine as an administrator and restart the services:
+Verify the heartbeat for Source Machine. To do that, follow these steps:
 
-  - Svagents (InMage Scout VX Agent)
-  - InMage Scout Application Service
-  
-- If the issue persists, check the log at "C:\Program Files (X86)\Microsoft Azure Site Recovery\agent\svagents*log" for error details
-
-## **Recommended Documents**
-
-- Learn more about [troubleshooting](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication) application or crash consistency point generation failures
+1. Verify the Source Machine is up and running
+2. Login to Source Machine with administrator privileges
+3. Verify that the service **svagents** and **InMage Scout Application Service** are running and then start or restart the services
+4. On the Source Machine, check the following log for any errors in C:\\Program Files (x86)\\Microsoft Azure Site Recovery\\agent\\svagents*log

@@ -10,8 +10,9 @@
 	supportTopicIds="32640602"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="configure-appservice"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Configure Application Gateway with App Service

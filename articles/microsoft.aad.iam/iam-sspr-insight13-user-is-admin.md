@@ -13,12 +13,13 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # User is an administrator
-<!--/issueDescription-->
-User <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> is an administrator. Microsoft enforces a strong two-gate password reset policy for any Azure administrator role. Administrators cannot register security questions. Please test your password reset policy with a user who is not an administrator.
+<!--issueDescription-->
+User <!--$UserId-->[UserId]<!--/$UserId--> is an administrator of this Azure AD. An Azure AD administrator must pass a two-gate password reset process in order to reset their own forgotten password. Administrators cannot use security questions to reset their own password. If you are testing your self-service password reset policy, conduct that testing with a user who is not an Azure AD administrator.
 <!--/issueDescription-->
 
 ## **Recommended Documents**

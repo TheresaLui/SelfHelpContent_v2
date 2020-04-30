@@ -9,8 +9,9 @@
 	supportTopicIds="32599696"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="45098686-789d-4468-a7c5-e55c10f25d5e"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Intune for Education - Adding devices

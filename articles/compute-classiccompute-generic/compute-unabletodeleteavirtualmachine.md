@@ -9,8 +9,9 @@
 	supportTopicIds="32573480"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="f0b6a396-5b74-4e20-92d8-f1c4cca97d72"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Management/Unable to delete a virtual machine

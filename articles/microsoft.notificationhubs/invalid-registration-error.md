@@ -9,8 +9,9 @@
 	resourceTags="notificationHubs"
 	productPesIds=""
 	supportToicIds =""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="b2f48461-dec4-4d14-acbd-9bb6eb9a334a"
+	ownershipId="AzureNotificationHubs"
 />
 
 # I am getting 'Invalid registration' error

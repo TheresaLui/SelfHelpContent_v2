@@ -10,8 +10,9 @@
     supportTopicIds="32636431 "
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="47093f40-7ace-40cb-a599-3fe1564bc9c0"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight: Password Reset and SSH issue
  

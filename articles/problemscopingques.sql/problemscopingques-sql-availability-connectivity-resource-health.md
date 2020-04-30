@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630438"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="6B24CFBF-A6D2-4B0B-9A66-020664EF9408"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 # Scoping questions for My database was reported as unavailable (Resource Health)
 ---
@@ -16,10 +17,10 @@
   "$schema": "SelfHelpContent",
   "resourceRequired": true,
   "subscriptionRequired": true,
-  "title": "Resource Health Scoping Questions",
+  "title": "Resource Health scoping questions",
   "fileAttachmentHint": "",
 	"diagnosticCard": {
-	  "title": "Resource Health Scoping Questions",
+	  "title": "Resource Health scoping questions",
 	  "description": "These diagnostics will check for errors and issues with Resource Health",
 	  "insightNotAvailableText": "We did not find any issues."
 	},
@@ -91,7 +92,7 @@
       "id": "sqlexception_received_on_client",
       "order": 2000,
       "controlType": "multilinetextbox",
-      "displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
+      "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
       "required": false,
       "visibility": true,
       "diagnosticInputRequiredClients": "Portal"

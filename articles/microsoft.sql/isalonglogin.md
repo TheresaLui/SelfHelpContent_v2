@@ -13,7 +13,8 @@
   supportTopicIds="31980402"
   resourceTags=""
   productPesIds="13491"
-  cloudEnvironments="public"
+  cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Resolve issues connecting to SQL Database

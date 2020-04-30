@@ -9,10 +9,11 @@
     articleId="metrics-cannot-pick-guest-os-namespace-and-metrics"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32677615"
+    supportTopicIds="32677615,32684744"
     resourceTags=""
     productPesIds="16250"
-    cloudEnvironments="public,fairfax"
+    cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- metrics-cannot-pick-guest-os-namespace-and-metrics -->

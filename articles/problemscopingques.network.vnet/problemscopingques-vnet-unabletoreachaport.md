@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32584255"
     productPesIds="15526"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="8766b9f2-62d3-4dc0-8b81-597d2b0536ea"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Unable to reach a port

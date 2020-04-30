@@ -14,7 +14,8 @@
 	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 	resourceTags="8000Series"
 	productPesIds="15438"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Backups are failing or slow 

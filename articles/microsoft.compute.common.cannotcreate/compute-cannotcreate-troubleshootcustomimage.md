@@ -10,8 +10,9 @@
 	supportTopicIds="32628262"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="69867902-65a9-4c5a-aa04-91c748bd351d"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshoot custom image deployment failures

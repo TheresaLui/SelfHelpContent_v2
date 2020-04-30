@@ -10,13 +10,21 @@
 	supportTopicIds="32628273"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="5cc8fa1d-ebd2-4b5e-b455-b2121c2663b5"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Log Analytics (OMS) extension issue
 
 4 out of 5 customers resolved their extension issue using the guides listed below.<br>
+
+## **Recommended Steps**
+
+**Review the following troubleshooting guides:**<br>
+
+* [Troubleshooting the Log Analytics VM extension in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/vmext-troubleshoot)<br>
+* [How to troubleshoot issues with the Log Analytics agent for Windows](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows-troubleshoot)
 
 ## **Recommended Documents**
 

@@ -8,12 +8,13 @@
     ms.author="asgang,genli"
     displayOrder=""
     articleId="ASR_A2A_ReplicationNotProgressing_SourceMachineChurnRateExceeded"
-    diagnosticScenario="ASRV2AReplicationNotProgressingHealthIssues"
+    diagnosticScenario="ASRA2AReplicationNotProgressingHealthIssues"
     selfHelpType="Diagnostics"
     supportTopicIds=""
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Date churn rate on source virtual machine exceeded supported limits

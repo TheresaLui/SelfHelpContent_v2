@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628078"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="e7b1a2f2-3949-0e8a-e836-0a49a7a094ff"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Data sources in Power BI Desktop

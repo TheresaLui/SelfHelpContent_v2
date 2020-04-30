@@ -10,7 +10,8 @@
 	supportTopicIds="32629445"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Store Credential in Azure Key Vault

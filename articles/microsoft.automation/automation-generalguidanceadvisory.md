@@ -10,8 +10,9 @@
     supportTopicIds="32599853"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="99559b8b-2178-4b63-bcce-83e2d0e4a769"
+	ownershipId="Compute_Automation"
 />
 
 # Support for Azure Advisory Services

@@ -9,8 +9,9 @@
 	supportTopicIds="32596694"
 	resourceTags=""
 	productPesIds="16122"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="055ca67b-dcf8-4f17-99f8-a39a629217f8"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Connection Timeout issues

@@ -11,7 +11,8 @@
     supportTopicIds="32635068"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_AzureBatch"
 />
 
 # Batch accounts - creating or deleting

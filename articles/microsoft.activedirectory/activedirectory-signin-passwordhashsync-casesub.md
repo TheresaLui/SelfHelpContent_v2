@@ -9,8 +9,9 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="715b499a-5aed-4d72-91b3-b90b11019297"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Password hash synchronization

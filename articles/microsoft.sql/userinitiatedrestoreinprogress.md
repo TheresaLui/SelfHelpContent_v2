@@ -5,6 +5,7 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="aamalvea"
+    ms.author="aamalvea"
 	displayOrder=""
 	articleId="UserInitiatedRestoreInProgress_83B4C1D4-8429-4EC2-BD3E-5C8963AD869A"
 	diagnosticScenario=""
@@ -12,7 +13,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # We ran diagnostics on your resource and found an issue
 

@@ -8,10 +8,11 @@
     articleId="insights-devopswidget"
     displayOrder="202"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32602222"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # I have questions about using the DevOps Widget
 

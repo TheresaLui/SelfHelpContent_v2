@@ -10,8 +10,9 @@
     supportTopicIds="32629784"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="31dc598c-c509-4e2d-9711-8eba9b2e9789"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Installing Azure AD Connect: Issues with AD forest

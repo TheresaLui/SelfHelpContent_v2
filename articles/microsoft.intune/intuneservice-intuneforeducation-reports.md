@@ -9,8 +9,9 @@
 	supportTopicIds="32599694"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="97235620-8c0a-4375-911f-26e95b208bc5"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Intune for Education - Reports

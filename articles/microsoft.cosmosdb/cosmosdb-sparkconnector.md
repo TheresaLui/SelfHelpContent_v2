@@ -3,29 +3,47 @@
 	description="Cosmos DB Spark Connector"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="bharathsreenivas, arramac"
+	authors="jimsch"
    	ms.author="bharathb, arramac"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32636828"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-sparkconnector"
 	displayOrder="126"
 	category="Tools and Connectors"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Azure Cosmos DB Spark Connector
+Most users are able to resolve their Spark Connector issue using the steps below. 
 
 ## **Recommended Steps**
+Please ensure you are using Cosmos DB Spark connector 1.3.5+ from Maven and Spark 2.4.0 for common reliability fixes.
 
-* Please upgrade to Cosmos DB Spark connector 1.3.5+ from Maven and Spark 2.4.0 for common reliability fixes.
-* Import the uber jar from the Maven drop location above. There is a known issue with using Maven coordinates in Azure Databricks.
-* If you run into "Request rate too large", you may have to increase the configs for `query_maxretryattemptsonthrottledrequests` or `query_maxretrywaittimeinseconds`
-* If your Spark job is unable to use your full provisioned RUs, review your partition key for hot spots, and tune the number of cores/executors to match the provisioned throughput (executor per 5-10k RU as a thumb rule), and review the data sort order for ordering skews (you may need to shuffle)
+### **Timed out waiting for server response**
+Error: java.io.IOException Failed to write statements.
+Having a high configuration value for your *spark.cassandra.output.concurrent.writes* may cause you to exceed your provisioned RUs.  Consider lowering the value of *spark.cassandra.output.concurrent.writes*.  Depending on your provisioned RUs you may need to lower this value to less than 15 or 10.  
 
-## **Recommended Documents**
+### **Request rate too large**
+If you are Receiving a Request rate too large error, consider increasing the configs for *query_maxretryattemptsonthrottledrequests* or *query_maxretrywaittimeinseconds*.  
 
-* [Azure Cosmos DB Spark Connector documentation](https://docs.microsoft.com/azure/cosmos-db/spark-connector)
-* [Azure Cosmos DB Spark Connector Github project](https://github.com/Azure/azure-cosmosdb-spark/tree/master)
-* [Azure Cosmos DB Spark Connector configuration references](https://github.com/Azure/azure-cosmosdb-spark/wiki/Configuration-references)
-* [Creating Hive tables with Azure Cosmos DB as the data source](https://github.com/Azure/azure-cosmosdb-spark/wiki/Connecting-Cosmos-DB-with-PowerBI-using-spark-and-databricks-permium#creating-hive-spark-table-with-cosmos-db-data-source)
+### **Spark unable to use full provisioned RUs**
+If your Spark job is unable to use your full provisioned RUs, review your partition key for hot spots, and tune the number of cores/executors to match the provisioned throughput (executor per 5-10k RU as a thumb rule), and review the data sort order for ordering skews (you may need to shuffle).  
+
+
+###**What is the safe way to kill CosmosDB ChangeFeed Spark Streaming**
+If you manually kill or stop the process, it might result in the change feed process to crash in the middle and the checkpoint file would have the details of the last successful complete (previous successful process). When you run the next job, change feed might send part of the data again till the point where it crashed. So, it would be better to handle on the client side to reprocess the data (or clean the duplicate data) based on the information from the checkpoint file. The new job will pick up from the point of the last checkpoint file. It would be based on the file system and on the spark job if the file that it is writing to will be closed safely. There is no data loss with the manual kills and restarting. 
+
+## **Recommended Documents**  
+
+[Azure Cosmos DB Spark Connector documentation](https://docs.microsoft.com/azure/cosmos-db/spark-connector)
+<br>Microsoft Doc examples of Spark jobs with data stored in Azure Cosmos DB using the Cosmos DB Spark connector. Cosmos can be used for batch and stream processing, and as a serving layer for low latency access.  
+
+[Apache Spark Connector for Azure Cosmos DB 2.4 Examples](https://github.com/Azure/azure-cosmosdb-spark/tree/2.4/samples)
+<br>Apache Spark Connector for Azure Cosmos DB.  
+
+[Azure Cosmos DB Spark Connector configuration references](https://github.com/Azure/azure-cosmosdb-spark/wiki/Configuration-references)
+<br>Description of the available configurations of the Cosmos DB Spark Connector.  
+
+

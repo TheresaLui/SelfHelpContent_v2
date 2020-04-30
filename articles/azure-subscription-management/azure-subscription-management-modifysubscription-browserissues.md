@@ -10,8 +10,9 @@
 	supportTopicIds="32680687"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake, usnat, ussec"
 	articleId="modifysubscriptions-browserissues"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Browser issues
@@ -20,7 +21,7 @@
 
 **Troubleshoot Browser issues (Browser hangs, keeps spinning, does not load, etc.)**<br>
 
-Note: You might be affected by an outage. Please check to see if there is an ongoing outage: [Azure Health Status](https://azure.microsoft.com/status/history/)
+Note: You might be affected by an outage. Please check to see if there is an ongoing outage: [Azure Health Status](https://status.azure.com/status/history/)
 
 **Page hangs in the loading status**<br>
 

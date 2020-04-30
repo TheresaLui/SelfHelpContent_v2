@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628161"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="74a18978-037e-0c8d-9842-c0a4b118cd42"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Resolve Issues when Power BI Desktop will not launch

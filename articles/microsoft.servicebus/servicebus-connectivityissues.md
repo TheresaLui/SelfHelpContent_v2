@@ -10,8 +10,9 @@
 	supportTopicIds="32633395"
 	resourceTags=""
 	productPesIds="13186"
-	cloudEnvironments="public,BlackForest,Fairfax, MoonCake"
+	cloudEnvironments="public,BlackForest,Fairfax, MoonCake, usnat, ussec"
 	articleId="964de064-b70b-4486-b3c6-7fc620cc7e14"
+	ownershipId="AzureMessaging_Common"
 />
 
 # connectivity issues

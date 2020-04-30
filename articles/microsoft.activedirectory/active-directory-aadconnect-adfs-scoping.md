@@ -6,15 +6,16 @@
 	selfHelpType="ProblemScopingQuestions"
 	supportTopicIds="32615405,32615362,32615367,32615368,32615375,32615382,32615383,32615427,32615434"
 	productPesIds="16579"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="21c79041-b9ae-4f4f-b431-5a3648c97e20"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 # AD FS Scoping question
 ---
 {
     "$schema": "SelfHelpContent",
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "resourceRequired": false,
 	"title": "AD FS Scoping Questions",
 	"fileAttachmentHint": "",
@@ -22,14 +23,14 @@
 			"id": "run_diagnostics_analyzer",
 			"order": 1,
 			"controlType": "dropdown",
-			"displayLabel": "Navigate to adfshelp.microsoft.com/DiagnosticsAnalyzer/Analyze and run the Diagnostics Analyzer tool. Has the information been saved and uploaded to support by selecting the “Save Diagnostics” checkbox? This will reduce time spent troubleshooting your case.",
+			"displayLabel": "Troubleshoot your issue at adfshelp.com/DiagnosticsAnalyzer/Analyze. This automated tool checks common AD FS issues and provides support engineers with your ADFS information, reducing time spent collecting data for your case and help resolving the case faster.",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",
-					"text": "Yes"
+					"text": "Yes, I ran the tool and submitted the diagnostics results to support through AD FS Help."
 				}, {
 					"value": "No",
-					"text": "No"
+					"text": "No, support will collect my diagnostics results in the case."
 				}, {
 					"value": "dont_know_answer",
 					"text": "Don't Know"
@@ -61,3 +62,4 @@
 		}
 	]
 }
+---

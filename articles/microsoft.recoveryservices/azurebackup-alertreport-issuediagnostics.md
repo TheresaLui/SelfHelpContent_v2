@@ -10,8 +10,9 @@
 	supportTopicIds="32632787"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="61ed3471-406e-4a10-ab6a-65bea5d2d7be"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # issues with Diagnostics Settings

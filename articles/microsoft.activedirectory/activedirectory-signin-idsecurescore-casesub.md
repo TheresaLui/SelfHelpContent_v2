@@ -4,18 +4,19 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="curtand"
+    ms.author="curtand"
     displayOrder="1770"
     supportTopicIds="32615307"
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="f7d45481-21fe-4169-bcab-3e3ef70430dd"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # ID Secure Score
 
-## **Recommended documents**
+## **Recommended Documents**
 
-* [Introducing the Office 365 Secure Score](https://docs.microsoft.com/office365/securitycompliance/office-365-secure-score)
-* [How Secure Score Works](https://docs.microsoft.com/office365/securitycompliance/office-365-secure-score#HowWorks)
+* [What is Identity Secure Score?](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)

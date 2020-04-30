@@ -5,10 +5,11 @@
 	authors="radwiv"
         ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32591156"
-	productPesIds="16094"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	supportTopicIds="32591156,32584878"
+	productPesIds="16094,15526"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Point-to-Site VPN connectivity issues information
 ---
@@ -53,8 +54,8 @@
                     "text": "Latency"
                 },
                 {
-                    "value": "Other",
-                    "text": "Other"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -68,8 +69,42 @@
             "useAsAdditionalDetails": false
         },
         {
-            "id": "P2S_tunneltype",
+            "id": "P2S_clientOS",
             "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Select the Point-to-Site client OS",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Windows",
+                    "text": "Windows"
+                },
+                {
+                    "value": "iOS",
+                    "text": "iOS"
+                },
+                {
+                    "value": "Linux",
+                    "text": "Linux"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+	 {
+            "id": "OS_version",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Enter Point-to-Site client OS version",
+            "required": false,
+            "useAsAdditionalDetails": false
+        },
+	{
+            "id": "P2S_tunneltype",
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Select the tunnel type",
             "watermarkText": "Choose an option",
@@ -94,20 +129,38 @@
             "required": true
         },
         {
-            "id": "problem_description",
-            "order": 5,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Description",
-            "required": true,
-            "useAsAdditionalDetails": true,
-            "hints": [
+            "id": "P2S_authentication",
+            "order": 7,
+            "controlType": "dropdown",
+            "displayLabel": "Select the authentication type",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
                 {
-                    "text": "Issue description"
+                    "value": "Azure Active Directory",
+                    "text": "Azure Active Directory"
                 },
                 {
-                    "text": "Client platform OS version"
+                    "value": "RADIUS",
+                    "text": "RADIUS"
+                },
+                {
+                    "value": "Certificate",
+                    "text": "Certificate"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
-            ]
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 8,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Additional issue description",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"

@@ -5,15 +5,16 @@
     service="microsoft.recoveryservices"
     resource="vaults"
     authors="asgang"
-    ms.author="asgang,genli"
+    ms.author="asgang,genli,TobyTu"
     displayOrder=""
     articleId="ASR_A2A_ReplicationNotProgressing_DiskRemoved"
-    diagnosticScenario="ASRV2AReplicationNotProgressingHealthIssues"
+    diagnosticScenario="ASRA2AReplicationNotProgressingHealthIssues"
     selfHelpType="Diagnostics"
     supportTopicIds=""
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Replication status is critical because a replicating disk on the source virtual machine is removed
@@ -23,4 +24,12 @@ We detected that a replicating disk on the source virtual machine is removed. Th
 
 ## **Recommended Steps**
 
-If you remove a replicating disk from the source virtual machine, you must disable and enable replication.
+Verify the disks on Source Machine. To do that, follow these steps:
+
+1. Login to Source Machine with administrator privileges on Windows or as user root on Linux
+2. Verify the number of disks and their signatures are matching with the data in telemetry
+3. If disk remove is confirmed, disable and enable replication
+4. On the Source Machine, check the following log for any errors:
+
+    - **Windows**: C:\\Program Files (x86)\\Microsoft Azure Site Recovery\\agent\\svagents*log
+    - **Linux**: /var/log/svagents*log

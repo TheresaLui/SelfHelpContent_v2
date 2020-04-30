@@ -13,7 +13,8 @@
 	supportTopicIds="32632108"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Live streaming with on-premises encoder

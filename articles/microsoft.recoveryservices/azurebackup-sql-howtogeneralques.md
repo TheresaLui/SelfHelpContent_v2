@@ -10,8 +10,9 @@
 	supportTopicIds="32612996"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="9d7af7d4-e57e-413a-b172-6a27a106e744"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Advisory questions related to SQL server in Azure VM backup

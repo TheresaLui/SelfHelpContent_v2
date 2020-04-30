@@ -7,8 +7,9 @@
 	articleid="vpngwonpremdeviceconfig"
 	supportTopicIds="32633159"
 	productPesIds="16094"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # On-premises device configuration script issues information
 ---

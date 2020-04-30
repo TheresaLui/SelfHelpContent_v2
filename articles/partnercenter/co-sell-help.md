@@ -10,17 +10,20 @@
 	articleId="partnercenter_co-sell help and how-to"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32639668"
+	supportTopicIds="32639668, 32689358, 32689359, 32689360"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Co-sell help and how-to 
 
+Most users are able to find the information they are looking for in the links below.
+
 ## **Recommended Steps**
 
-- For more information on the Co-sell program and becoming Co-sell ready, contact Cosell@microsoft.com
+For more information on the Co-sell program and becoming Co-sell ready, contact Cosell@microsoft.com
 
 ## **Recommended Documents**
 

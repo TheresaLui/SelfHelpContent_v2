@@ -9,8 +9,9 @@
 	supportTopicIds="32608424"
 	resourceTags=""
 	productPesIds="16533"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="11bc8a6d-02ff-4e7e-9e07-b5ca3bdddf80"
+	ownershipId="Compute_AppService"
 />
 
 # ssl\Configuring TLS Version

@@ -10,8 +10,9 @@
     supportTopicIds="32636483"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="6c7fd79c-6000-4452-8615-0e0423e3ba85"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight Authentication Failure: Notebook in standard cluster
