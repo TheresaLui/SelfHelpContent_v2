@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7d8fb79f-7fbc-7125-b4dc-3060a75a755d",
+      "longDescription": "",
+      "shortDescription": "A configuration change to the virtual machine has impacted RDP or SSH connectivity",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "aeca6c5b-eeda-205d-8e9a-84fbc3787d58",
       "longDescription": "",
       "shortDescription": "Resolve issues with resetting the local admin account password of the virtual machine",
