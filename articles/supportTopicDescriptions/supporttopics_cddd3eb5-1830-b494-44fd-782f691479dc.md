@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "cbc66602-d0a3-abe6-c880-043309caa9e5",
+      "longDescription": "",
+      "shortDescription": "A configuration change to your virtual machine has prevented your virtual machine from starting",
+      "searchTags": "Starting",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "de79f709-5c28-19b7-4268-4e1270837208",
       "longDescription": "",
       "shortDescription": "Asistance with configuring or using Azure Serial Console Access in the Azure Portal to access the virtual machine",
