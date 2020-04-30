@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a4b8355c-cf91-9ccd-ff84-80019d1e63c2",
+      "longDescription": "",
+      "shortDescription": "Assistance with deploying a virtual machine with managed disks",
+      "searchTags": "Deployment",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "aeca6c5b-eeda-205d-8e9a-84fbc3787d58",
       "longDescription": "",
       "shortDescription": "Resolve issues with resetting the local admin account password of the virtual machine",
