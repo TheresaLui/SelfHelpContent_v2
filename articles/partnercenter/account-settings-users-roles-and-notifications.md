@@ -20,7 +20,6 @@
 
 # Account settings - Users, roles and notifications
 
-
 ## **Recommended Steps**
 
 ## If you can't sign into Partner Center
