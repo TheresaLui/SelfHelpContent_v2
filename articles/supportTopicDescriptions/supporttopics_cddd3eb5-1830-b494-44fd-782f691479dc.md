@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "01ed3ac2-367f-aaa3-5464-fbbb9c7eade8",
+      "longDescription": "",
+      "shortDescription": "Resolve issues with custom images deployments in Azure",
+      "searchTags": "Deployment",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "173e58db-1650-76b6-0f0f-1c0ed42835ad",
       "longDescription": "",
       "shortDescription": "You have configured the Start Stop VM solution but it does not start or stop all the VMs configured",
