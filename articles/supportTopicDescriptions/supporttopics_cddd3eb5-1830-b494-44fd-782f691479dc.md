@@ -132,6 +132,14 @@
       "searchTags": "Booting",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "ff2da016-f47d-a267-456f-8569ce67e6d5",
+      "longDescription": "",
+      "shortDescription": "Assistance with resizing a virtual machine or the desired size is not available",
+      "searchTags": "Starting",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
