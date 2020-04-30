@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1ae095b6-523e-28e8-1f5d-db00a4c8217b",
+      "longDescription": "",
+      "shortDescription": "Memory usage is higher than expected for the virtual machine",
+      "searchTags": "Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1c2f964e-9219-e8fe-f027-95330b445941",
       "longDescription": "",
       "shortDescription": "Resolve issues related to connecting via RDP or SSH not covered by other support topics",
