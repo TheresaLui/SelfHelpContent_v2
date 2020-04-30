@@ -18,7 +18,7 @@ cloudEnvironments="public, fairfax, usnat, ussec"
 ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Account settings Users, roles and notifications
+# Account settings Users, roles and notifications
 
 ## **Recommended Steps**
 
