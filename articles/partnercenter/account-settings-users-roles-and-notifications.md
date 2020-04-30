@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Account settings, users, roles, and notifications"
-	description="Account settings, users, roles, and notifications"
-	infoBubbleText=""
-	service="partnercenter"
-	resource="csp"
-	authors="brentserbus"
-	ms.author="brserbus"
-	displayOrder=""
-	articleId="account_settings_users_roles_and_notifications"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32635708, 32728293, 32725812"
-	clientIds='partnercenter'
-	resourceTags="csp"
-	productPesIds="15960,17000"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
-	/>
+pageTitle="Account settings, users, roles, and notifications"
+description="Account settings, users, roles, and notifications"
+infoBubbleText=""
+service="partnercenter"
+resource="csp"
+authors="brentserbus"
+ms.author="brserbus"
+displayOrder=""
+articleId="account_settings_users_roles_and_notifications"
+diagnosticScenario=""
+selfHelpType="generic"
+supportTopicIds="32635708, 32728293, 32725812"
+clientIds="partnercenter"
+resourceTags="csp"
+productPesIds="15960,17000"
+cloudEnvironments="public, fairfax, usnat, ussec"
+ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+/>
 
 # Account settings Users, roles and notifications
 
