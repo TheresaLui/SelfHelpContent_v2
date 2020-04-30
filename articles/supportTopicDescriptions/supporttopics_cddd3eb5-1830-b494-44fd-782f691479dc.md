@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "84447c9a-0723-4d08-5b97-4bf90b7890d5",
+      "longDescription": "",
+      "shortDescription": "Resolve issues with Azure Marketplace images deployments in Azure",
+      "searchTags": "Deployment",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "87f507df-1333-d6dd-e5b0-80ca310e0431",
       "longDescription": "",
       "shortDescription": "Covers issues where updates were applied to the Guest OS that resulted in the Guest OS no longer successfully booting.",
