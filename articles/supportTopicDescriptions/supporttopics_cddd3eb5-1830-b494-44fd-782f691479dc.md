@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1e68258f-b823-9c34-e519-3f70d59e973f",
+      "longDescription": "",
+      "shortDescription": "Resolving issues with attaching or detaching managed or unmanaged virtual disks",
+      "searchTags": "Management",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "21c73052-26f9-3d51-4f0f-592336d20375",
       "longDescription": "",
       "shortDescription": "Desired region, VM size, or SKU was not available when creating a virtual machine",
