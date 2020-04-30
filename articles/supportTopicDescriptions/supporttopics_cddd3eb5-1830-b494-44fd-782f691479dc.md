@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f2e182ae-a174-e38e-52a0-32abcfa142af",
+      "longDescription": "",
+      "shortDescription": "During the creation of the VM, an allocation error was encountered",
+      "searchTags": "Deployment",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f820b562-a549-86dc-b8ae-b5ee4e835aaa",
       "longDescription": "",
       "shortDescription": "Covers issues where the start operation for the VM fails and an error message is provided",
