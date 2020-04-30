@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "1c2f964e-9219-e8fe-f027-95330b445941",
+      "longDescription": "",
+      "shortDescription": "Resolve issues related to connecting via RDP or SSH not covered by other support topics",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "55947c35-0935-27d8-69fa-6fb7798312ab",
       "longDescription": "",
       "shortDescription": "Configuring or managing a public IP associated to the virtual machine",
