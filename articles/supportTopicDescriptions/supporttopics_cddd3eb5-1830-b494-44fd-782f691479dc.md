@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "87f507df-1333-d6dd-e5b0-80ca310e0431",
+      "longDescription": "",
+      "shortDescription": "Covers issues where updates were applied to the Guest OS that resulted in the Guest OS no longer successfully booting.",
+      "searchTags": "Booting",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9a7863c9-b048-81d3-0e88-9f5d3806173b",
       "longDescription": "",
       "shortDescription": "Covers issues where the Guest OS is in a continuous reboot loop and unable complete booting to a usable state.",
