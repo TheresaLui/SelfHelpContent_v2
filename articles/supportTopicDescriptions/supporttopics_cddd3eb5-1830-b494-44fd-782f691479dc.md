@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "bf46b021-8045-213e-8857-d7b83562e22e",
+      "longDescription": "",
+      "shortDescription": "Assistance when the guest OS is causing restarts repeatedly",
+      "searchTags": "restart",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "cbc66602-d0a3-abe6-c880-043309caa9e5",
       "longDescription": "",
       "shortDescription": "A configuration change to your virtual machine has prevented your virtual machine from starting",
