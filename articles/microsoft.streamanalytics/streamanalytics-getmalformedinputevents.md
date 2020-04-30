@@ -23,6 +23,8 @@
 3. The input details blade displays a set of warnings with details about the issue, you can view the Stream Analytics documentation [troubleshooting document](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-malformed-events) for an example.
 4. To get the JSON data that has incorrect format, run a c# code block to read the partition Id, offset and output the data at that offset. You can get the full sample from our [GitHub samples repository](https://github.com/Azure/azure-stream-analytics/blob/master/Samples/CheckMalformedEventsEH/GetMalformedEvents.cs). Once you read the data, you can analyze and correct the serialization format.
 
+Note that Stream Analytics cannot process Event Hub Capture files from blob storage even though it is in AVRO format. Doing so will result in deserialization errors.
+
 ## **Recommended Documents**
 
 * [Detailed troubleshooting with example screen shots](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-malformed-events) <br>
