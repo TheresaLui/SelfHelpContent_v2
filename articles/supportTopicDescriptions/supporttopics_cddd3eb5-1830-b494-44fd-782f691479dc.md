@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "173e58db-1650-76b6-0f0f-1c0ed42835ad",
+      "longDescription": "",
+      "shortDescription": "You have configured the Start Stop VM solution but it does not start or stop all the VMs configured",
+      "searchTags": "Starting",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1c2f964e-9219-e8fe-f027-95330b445941",
       "longDescription": "",
       "shortDescription": "Resolve issues related to connecting via RDP or SSH not covered by other support topics",
