@@ -18,7 +18,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Partner Center MPN Performance Recognition",
-    "fileAttachmentHint": "Please attach **screenshots** or **PSR** showing the issue",
+    "fileAttachmentHint": "Please attach screenshots or PSR showing the issue",
     "formElements": [
         {
             "id": "subscription_guid",
