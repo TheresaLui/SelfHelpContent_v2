@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "sqlPools"
@@ -32,3 +32,4 @@ Always leverage Polybase to batch load into your SQL pool and avoid singleton in
 
 * [Best practices when loading into SQL pool](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data)<br>
 * [Designing a Polybase data loading strategy for SQL pool](https://docs.microsoft.com/azure/sql-data-warehouse/design-elt-data-loading#4-load-the-data-into-sql-data-warehouse-staging-tables-using-polybase)
+
