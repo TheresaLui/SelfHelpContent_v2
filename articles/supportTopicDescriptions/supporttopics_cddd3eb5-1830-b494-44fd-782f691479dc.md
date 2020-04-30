@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "259a0a84-71b9-5e83-5c69-f95ada859212",
+      "longDescription": "",
+      "shortDescription": "Assistance with ARM template that creates a virtual machine",
+      "searchTags": "Deployment",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "53b20091-2600-5eff-9031-2f393f7041a0",
       "longDescription": "",
       "shortDescription": "Issue or question with deploying captured or generalized images",
