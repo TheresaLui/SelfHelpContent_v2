@@ -19,6 +19,6 @@
 
 NAT gateways support up to 50 Gbps of throughput and 64,000 flows per associated outbound IP address.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshooting](https://docs.microsoft.com/azure/virtual-network/troubleshoot-nat)
