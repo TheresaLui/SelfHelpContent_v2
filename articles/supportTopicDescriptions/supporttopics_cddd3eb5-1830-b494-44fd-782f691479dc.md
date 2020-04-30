@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7252a6f3-09f9-4c9c-434f-7720ebb1d071",
+      "longDescription": "",
+      "shortDescription": "During the creation of the VM, an allocation error was encountered",
+      "searchTags": "Starting",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7d8fb79f-7fbc-7125-b4dc-3060a75a755d",
       "longDescription": "",
       "shortDescription": "A configuration change to the virtual machine has impacted RDP or SSH connectivity",
