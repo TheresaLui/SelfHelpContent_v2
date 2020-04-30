@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "95538b9d-4af5-8ce7-0b3d-fa68832bfd1c",
+      "longDescription": "",
+      "shortDescription": "Assistance with resizing the partition within the guest OS or the virtual disk",
+      "searchTags": "Resizing",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9a7863c9-b048-81d3-0e88-9f5d3806173b",
       "longDescription": "",
       "shortDescription": "Covers issues where the Guest OS is in a continuous reboot loop and unable complete booting to a usable state.",
