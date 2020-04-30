@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Account settings Users, roles and notifications"
+	pageTitle="Account settings Users, roles and notifications"
 	description="Account settings Users, roles and notifications"
 	infoBubbleText=""
 	service="partnercenter"
@@ -16,7 +16,7 @@
 	productPesIds="15960,17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
-/>
+	/>
 
 # Account settings Users, roles and notifications
 
@@ -30,6 +30,7 @@
 Resources that explain how to assign user roles, permissions and recover or reset password in Partner Center.
 
 ## **Recommended Documents**
+
 * [Unable to sign in Partner Center](https://docs.microsoft.com/partner-center/unable-to-sign-in)
 * [Reset my password](https://docs.microsoft.com/partner-center/reset-my-pasword)
 * [Assign users roles and permissions](https://docs.microsoft.com/partner-center/permissions-overview)
