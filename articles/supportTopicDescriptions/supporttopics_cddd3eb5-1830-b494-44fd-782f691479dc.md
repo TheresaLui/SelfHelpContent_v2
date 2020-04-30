@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a6b58b4c-09c7-e170-c974-b7ac37f76b5c",
+      "longDescription": "",
+      "shortDescription": "While creating a virtual machine and a provisioning timeout error was encountered",
+      "searchTags": "Deployment",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "aeca6c5b-eeda-205d-8e9a-84fbc3787d58",
       "longDescription": "",
       "shortDescription": "Resolve issues with resetting the local admin account password of the virtual machine",
