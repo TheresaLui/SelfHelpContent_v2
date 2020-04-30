@@ -14,15 +14,16 @@
 	resourceTags="8000Series"
 	productPesIds="15438"	
 	cloudEnvironments="public"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Error installing an update 
 
 ## **Recommended Steps**
 
-[Ensure that your controller fixed IPs are routable and can connect to the Internet](https://docs.microsoft.com/azure/storsimple/storsimple-8000-install-update-5#preparing-for-updates)<br>
+[Ensure that your controller fixed IPs are routable and can connect to the Internet](https://docs.microsoft.com/azure/storsimple/storsimple-8000-install-update-51#preparing-for-updates)<br>
 
 
 ## **Recommended Documents**
 
-[Install latest update on your StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-install-update-5)
+[Install latest update on your StorSimple device](https://docs.microsoft.com/azure/storsimple/storsimple-8000-install-update-51)
