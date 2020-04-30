@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5a5377ad-0f05-a3ba-d25e-98346a3f74df",
+      "longDescription": "",
+      "shortDescription": "Requests to help where CPU usage is higher than expected for the virtual machine",
+      "searchTags": "Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "64f558d7-19ec-b533-1d51-bf8065b8b000",
       "longDescription": "",
       "shortDescription": "Resolve issues specific to the firewall within the guest OS of the virtual machine",
