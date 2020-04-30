@@ -10,7 +10,7 @@
     articleId="nat-gateway-performance-md"
     resourceTags=""
     productPesIds="16838"
-    supportTopicIds="32681711"
+    supportTopicIds="32681717"
     cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
     ownershipId="CloudNet_VirtualNetworkNAT"
 />
