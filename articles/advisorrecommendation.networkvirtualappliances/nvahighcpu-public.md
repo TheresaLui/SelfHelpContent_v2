@@ -51,7 +51,7 @@
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}",
-        "menuid": "configuration"
+        "menuid": "size"
       },
       "documentLink": ""
     }
