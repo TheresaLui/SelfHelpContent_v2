@@ -4,7 +4,7 @@
 	authors="kartikshah9"
     ms.author="kashah"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32691202"
+	supportTopicIds="32725654"
 	productPesIds="16459"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
