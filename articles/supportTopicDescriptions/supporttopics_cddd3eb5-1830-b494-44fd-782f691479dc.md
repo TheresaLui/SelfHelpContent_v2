@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6fb3a706-abe9-0693-1544-72e848334a9f",
+      "longDescription": "",
+      "shortDescription": "Covers issues where the Guest OS of the VM is crashing, or failing to boot to a usable state.",
+      "searchTags": "Booting",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7252a6f3-09f9-4c9c-434f-7720ebb1d071",
       "longDescription": "",
       "shortDescription": "During the creation of the VM, an allocation error was encountered",
