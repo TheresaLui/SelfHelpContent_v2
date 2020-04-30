@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9a7863c9-b048-81d3-0e88-9f5d3806173b",
+      "longDescription": "",
+      "shortDescription": "Covers issues where the Guest OS is in a continuous reboot loop and unable complete booting to a usable state.",
+      "searchTags": "Booting",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "aeca6c5b-eeda-205d-8e9a-84fbc3787d58",
       "longDescription": "",
       "shortDescription": "Resolve issues with resetting the local admin account password of the virtual machine",
