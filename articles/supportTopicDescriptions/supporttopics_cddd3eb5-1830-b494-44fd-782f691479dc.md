@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "55947c35-0935-27d8-69fa-6fb7798312ab",
+      "longDescription": "",
+      "shortDescription": "Configuring or managing a public IP associated to the virtual machine",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "55a7373d-e057-5719-a540-b9e7292cf602",
       "longDescription": "",
       "shortDescription": "Issues with disks in the Guest OS of the VM such as, initializing, or formatting disks.",
