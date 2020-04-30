@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "46d3b5cb-4fa8-12e0-c525-9c41d42dcb8b",
+      "longDescription": "",
+      "shortDescription": "Disk throughput is lower than expected for the virtual machine",
+      "searchTags": "Performance",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "53b20091-2600-5eff-9031-2f393f7041a0",
       "longDescription": "",
       "shortDescription": "Issue or question with deploying captured or generalized images",
