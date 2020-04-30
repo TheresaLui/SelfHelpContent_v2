@@ -19,6 +19,7 @@
     "subscriptionRequired": true,
     "title": "Partner Center MPN Performance Recognition",
     "fileAttachmentHint": "Please attach screenshots or PSR showing the issue",
+    "infoBalloonText": "<a href='https://support.microsoft.com/help/3035258/how-to-use-the-problem-steps-recorder-in-office-365'>How to take a PSR</a>",
     "formElements": [
         {
             "id": "subscription_guid",
