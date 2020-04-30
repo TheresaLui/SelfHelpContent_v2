@@ -30,13 +30,13 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 2. If you are using a Generation 2 VM, you will need to first do the following to assign a letter to the EFI partition:
 
-	1. In Windows search, enter `disk management` and then select the Disk Managment app.
+	1. In Windows search, enter `disk management` and then select the Disk Management app.
 
 	2. Identify the attached broken disk. Usually it's the most recently added disk with the name that's the highest numerical value.
 
 	3. Identify the partition in that disk that is labeled `EFI System Partition` that holds the BCD store.
 
-		> These partitons are typically smaller and are around 100MB in size.
+		> These partitions are typically smaller and are around 100MB in size.
 
 	4. Open an elevated command prompt (run as administrator) and enter `diskpart` to launch the DISKPART tool.
 
@@ -50,7 +50,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 	7. Enter `assign` to assign a letter to the selected partition.
 
-3. In Windows search, enter `disk management` and then select the Disk Managment app.
+3. In Windows search, enter `disk management` and then select the Disk Management app.
 
 	1. Identify the attached broken disk. Usually it's the most recently added disk with the name that's the highest numerical value.
 
@@ -58,7 +58,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 	3. If the disk is encrypted, then follow the [directions to decrypt the encrypted disk](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-bitlocker-boot-error) before proceeding.
 
-4. If the disk has multiple partitons, identify the partition that has `\boot\bcd`.
+4. If the disk has multiple partitions, identify the partition that has `\boot\bcd`.
 
 	> This partition is often listed as **System Reserved** and in a Generation 2 VM is the partition that was left unassigned prior to step 2.
 
@@ -70,7 +70,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 	4. Check for a `boot` folder with the `BCD` file inside it, or type `\boot\bcd` in File Explorer search.
 
-	5. Note the partition identified here. If you dont find `\boot\bcd` in trhis partiton, continue checking the other partitions until you locate it.
+	5. Note the partition identified here. If you don't find `\boot\bcd` in this partition, continue checking the other partitions until you locate it.
 
 5. Open an elevated command prompt (run as administrator) and enter `bcdedit /store <DISK LETTER>:\boot\bcd /enum`.
 
@@ -78,7 +78,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 	1. Note the identifier of the Windows Boot Loader/Partition of the `\Windows` partition. It is standard for the identifier value to be set to the value of `<default>`.
 
-	2. Check if the `safeboot` flag is also listed under the Wiundows Boot Loader/Partiton.
+	2. Check if the `safeboot` flag is also listed under the Windows Boot Loader/Partition.
 
 6. If *safeboot* was listed, then enter `bcdedit /store <DISK LETTER>:\boot\bcd /deletevalue {<IDENTIFIER>} safeboot ` to delete the flag.
 
