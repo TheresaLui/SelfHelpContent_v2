@@ -1,7 +1,7 @@
 <properties 
     pageTitle="Dependencies data is incorrect or missing"
     description="I am seeing incorrect data or dependencies data is missing"
-    infoBubbleText="Here are some things to help with your browser depencencies data issues"
+    infoBubbleText="Here are some things to help with your browser dependencies data issues"
     service="microsoft.insights"
     resource="components"
     authors="telreach"
