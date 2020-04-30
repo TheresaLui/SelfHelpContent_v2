@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "21c73052-26f9-3d51-4f0f-592336d20375",
+      "longDescription": "",
+      "shortDescription": "Desired region, VM size, or SKU was not available when creating a virtual machine",
+      "searchTags": "Deployment",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "24950ba1-1ada-26d3-eec4-1dedb62ebb00",
       "longDescription": "",
       "shortDescription": "Requests to help a virtual machine that is unresponsive to start or stop operations",
