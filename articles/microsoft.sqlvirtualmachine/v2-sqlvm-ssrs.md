@@ -20,7 +20,8 @@
 ### Common Issues
 
 * **Where can I find the license key to use for installing SSRS 2017+ in an Azure SQL VM?**
->If you already have a SQL Server VM created from Azure Marketplace, you can launch setup.exe from ***C:\SQLServerFull***, copy the product key that appears in the install process and exit the installer. You can then apply the key during SSRS installation. 
+
+If you already have a SQL Server VM created from Azure Marketplace, you can launch setup.exe from ***C:\SQLServerFull***, copy the product key that appears in the install process and exit the installer. You can then apply the key during SSRS installation. 
 
 ## **Recommended Documents**
 
@@ -36,4 +37,3 @@
 * [Troubleshoot Report Design Issues with Reporting Services](https://docs.microsoft.com/sql/reporting-services/troubleshooting/troubleshoot-report-design-issues-with-reporting-services?view=sql-server-ver15)
 * [Troubleshoot Reporting Services Subscriptions and Delivery](https://docs.microsoft.com/sql/reporting-services/troubleshooting/troubleshoot-reporting-services-subscriptions-and-delivery?view=sql-server-ver15)
 * [Find the product key for SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/find-reporting-services-product-key-ssrs?view=sql-server-ver15)
-
