@@ -41,7 +41,7 @@
   "learnMoreLink": "https://aka.ms/NVAHighCPU",
   "description": "Consider increasing the size of your NVA to address persistent high CPU",
   "longDescription": "When NVAs run at high CPU, packets can get dropped resulting in connection failures or high latency due to network retransmits. Your NVA is running at high CPU, so you should consider increasing the VM size as allowed by the NVA vendor's licensing requirements.",
-  "potentialBenefits": "Increasing the size of your NVA VM will reduce the odds of packet drops due to high CPU",
+  "potentialBenefits": "Reduce the odds of packet drops",
   "actions": [
     {
       "actionId": "24847536-5dab-4fb8-bbd4-cc8f8f27a717",
