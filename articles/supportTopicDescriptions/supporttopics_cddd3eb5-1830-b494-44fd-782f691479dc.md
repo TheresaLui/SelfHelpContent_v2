@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "de79f709-5c28-19b7-4268-4e1270837208",
+      "longDescription": "",
+      "shortDescription": "Asistance with configuring or using Azure Serial Console Access in the Azure Portal to access the virtual machine",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e41e015e-0ec8-24c9-974f-79fe0d285f9e",
       "longDescription": "",
       "shortDescription": "Guidance with preparing an image properly for deploying into Azure",
