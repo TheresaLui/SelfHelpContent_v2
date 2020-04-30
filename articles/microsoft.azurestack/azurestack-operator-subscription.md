@@ -31,4 +31,4 @@ After you [create an offer](https://docs.microsoft.com/azure-stack/operator/azur
 * [Plan, offer, quota, and subscription overview](https://docs.microsoft.com/azure-stack/operator/azure-stack-plan-offer-quota-overview)
 * [Offers](https://docs.microsoft.com/azure-stack/operator/azure-stack-plan-offer-quota-overview#offers)
 * [Subscription](https://docs.microsoft.com/azure-stack/operator/azure-stack-plan-offer-quota-overview#subscriptions)
-* [Manage API version profiles](https://docs.microsoft.com/azure-stack/user/azure-stack-version-profiles)
+
