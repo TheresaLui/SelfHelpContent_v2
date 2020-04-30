@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Account settings - Users, roles and notifications"
-	description="Account settings - Users, roles and notifications"
+	pageTitle="Account settings: Users, roles and notifications"
+	description="Account settings: Users, roles and notifications"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -18,7 +18,7 @@
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Account settings - Users, roles and notifications
+# Account settings: Users, roles and notifications
 
 ## **Recommended Steps**
 
