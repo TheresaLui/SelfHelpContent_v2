@@ -222,6 +222,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b80f1d81-dd72-8613-0f92-25825c8a9ec6",
+      "longDescription": "",
+      "shortDescription": "Assistance with virtual machine sizing or better understanding of throughtput",
+      "searchTags": "Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bf46b021-8045-213e-8857-d7b83562e22e",
       "longDescription": "",
       "shortDescription": "Assistance when the guest OS is causing restarts repeatedly",
