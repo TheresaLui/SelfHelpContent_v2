@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "752f1e7e-b2bc-13c0-2519-4184c4f6ff54",
+      "longDescription": "",
+      "shortDescription": "General questions specific to Guest OS not booting, not covered by the support topics above",
+      "searchTags": "Booting",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7d8fb79f-7fbc-7125-b4dc-3060a75a755d",
       "longDescription": "",
       "shortDescription": "A configuration change to the virtual machine has impacted RDP or SSH connectivity",
