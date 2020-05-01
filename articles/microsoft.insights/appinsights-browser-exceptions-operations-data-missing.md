@@ -1,5 +1,5 @@
 <properties 
-    pageTitle="Browser Exceptions and Operations data is incorrect or missing on Failures screen"
+    pageTitle="Browser Exceptions or Operations data is incorrect or missing on Failures screen"
     description="I am seeing incorrect data or exceptions or operations data is missing on failures screen"
     infoBubbleText="Here are some things to help with your browser exception and operation data issues"
     service="microsoft.insights"
@@ -8,14 +8,14 @@
     ms.author="marwolff, lxiao"
     selfHelpType="generic"
     articleId="appinsights-browser-exceptions-operations-data-missing"
-    productPesIds="XXXXXX"
-    supportTopicIds="XXXXXXXX"
+    productPesIds="15693"
+    supportTopicIds="32729580, 32729581"
     cloudEnvironments="public, Fairfax, usnat, ussec"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # Browser Exceptions or Operations data is incorrect or missing on Failures screen
 
-### **Where's my data?**
+### **Where's my data**
 We understand it can be frustrating when some or all your data is missing. The steps below have frequently resolved missing data issues; please try them out and let us know if it they don’t resolve your issue. 
 
 ## **Recommended Steps**
