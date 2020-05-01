@@ -21,7 +21,7 @@
 
 ## **Recommended Steps**
 
-- Please enter the details of the specific error you are getting back from the API for faster resolution.
+Please enter the details of the specific error you are getting back from the API for faster resolution.
 
 ## **Recommended Documents**
 
