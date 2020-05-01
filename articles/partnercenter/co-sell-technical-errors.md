@@ -28,5 +28,5 @@
 ## **Recommended Documents**
 
 
-* [Learn more about referrals](https://docs.microsoft.com/en-us/partner-center/referrals)
+* [Learn more about referrals](https://docs.microsoft.com/partner-center/referrals)
 
