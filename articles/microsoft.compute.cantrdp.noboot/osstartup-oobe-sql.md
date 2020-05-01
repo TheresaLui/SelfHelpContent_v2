@@ -26,7 +26,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 ## **Recommended Steps**
 
-* If the image for the Virtual Machine has Windows SQL 2016 installed, then it is missing a prerequisite requirement. Follow these steps [Install SQL Server with SysPrep](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-using-sysprep?redirectedfrom=MSDN&view=sql-server-ver15)
+* If the image for the Virtual Machine has Windows SQL 2016 installed, then it is missing a prerequisite requirement. Follow the steps in the [Install SQL Server with SysPrep](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-using-sysprep?redirectedfrom=MSDN&view=sql-server-ver15) guide.
 
 ## **Recommended Documents**
 
