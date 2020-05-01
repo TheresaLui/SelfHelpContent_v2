@@ -17,7 +17,7 @@
 
 # My desired region or VM size is unavailable
 
-## **Awareness**
+### **Awareness**
 
 >We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
 
@@ -39,3 +39,4 @@ For general troubleshooting, please follow these guides:<br>
 * [Resizing a VM or add VMs to an existing availability set](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure#resize-a-vm-or-add-vms-to-an-existing-availability-set)<br>
 * [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-troubleshoot-deployment-new-vm)<br>
 * [Troubleshoot allocation failures when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-allocation-failure)
+* [Azure confidential computing VM Sizes](https://docs.microsoft.com/azure/confidential-computing/virtual-machine-solutions#azure-confidential-computing-vm-sizes)
