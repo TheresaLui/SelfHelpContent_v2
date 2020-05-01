@@ -1,0 +1,16 @@
+<properties
+    pageTitle="Other blueprint assignment issues"
+    description="Other blueprint assignment issues"
+    service="microsoft.blueprint"
+    resource="blueprintAssignments"
+    authors="alex-frankel"
+    ms.author="alfran"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32739603"
+    resourceTags=""
+    productPesIds="16600"
+    cloudEnvironments="public, fairfax"
+    articleId="6298586f-5b16-441a-a5cd-eb9d8a7f49f0"
+    ownershipId="Compute_AzureBlueprint"
+/>

@@ -12,7 +12,7 @@
     resourceTags=""
     productPesIds="16600"
     cloudEnvironments="public, fairfax"
-    articleId="6298586f-5b16-441a-a5cd-eb9d8a7f49f0"
+    articleId="blueprint-assignment-issues"
     ownershipId="Compute_AzureBlueprint"
 />
 
