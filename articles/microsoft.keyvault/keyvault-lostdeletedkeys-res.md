@@ -32,7 +32,7 @@
 	* [Recover a deleted key](https://docs.microsoft.com/cli/azure/keyvault/key?view=azure-cli-latest#az-keyvault-key-recover)
 	* [Recover a deleted secret](https://docs.microsoft.com/cli/azure/keyvault/secret?view=azure-cli-latest#az-keyvault-secret-recover)
 
-* Please note that turning on soft-delete and purge protection are one-time operations on each key vault and it is not possible for you or for Microsoft to disable soft-delete or purge protection once they have been enabled. You must wait for the mandatory retention period to elapse before you will be able to permanently delete your key vault or secrets.
+* Please note that turning on soft-delete and purge protection are one-time operations on each key vault. **It is not possible for you or for Microsoft to disable soft-delete or purge protection once the features have been enabled on a key vault.** You must wait for the mandatory retention period to elapse before you will be able to permanently delete your key vault or secrets.
 
 ## **Recommended Documents**
 
