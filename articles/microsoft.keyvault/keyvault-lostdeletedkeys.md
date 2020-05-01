@@ -11,7 +11,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
-	articleId="ac9233e4-9d2f-4aa4-87cd-68ef92f61952-res"
+	articleId="sudbalas-softdelete-article-one"
 	ownershipId="AzureKeyVault_KeyVault"
 />
 
