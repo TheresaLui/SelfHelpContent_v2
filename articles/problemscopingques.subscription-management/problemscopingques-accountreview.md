@@ -36,6 +36,9 @@
       "required": true,
       "hints": [
                 {
+                    "text": "We will work on your case immediately and might call you to resolve your issue"
+		 },
+		{
                     "text": "Please take a look at your contact information <a href='https://account.azure.com/Profile'>here</a>, and update anything that might be incorrect"
                 },
 		 {

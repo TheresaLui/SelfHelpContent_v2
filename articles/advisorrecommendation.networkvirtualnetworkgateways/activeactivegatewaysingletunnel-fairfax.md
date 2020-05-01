@@ -27,7 +27,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Network/virtualNetworkGateways",
   "recommendationFriendlyName": "ActiveActiveGatewaySingleTunnel",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "azvpnpms@microsoft.com",
