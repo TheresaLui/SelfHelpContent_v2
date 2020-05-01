@@ -19,12 +19,13 @@
 
 ## **Recommended Steps**
 
-1. Select the VM with 'down DIPs' in ASC Resource Explorer;
-2. Go to "Properties" Tab > "Container Settings" Section;
-3. Ensure the following parameters have the expected values:<br>
-a) IsNmProgrammingComplete = True<br>
-b) IsNetworkAllocationComplete = True<br>
-c) VscStateData = True
+1. Select the VM with 'down DIPs' in ASC Resource Explorer
+2. Go to "Properties" Tab > "Container Settings" Section
+3. Ensure the following parameters have the expected values
+
+	* IsNmProgrammingComplete = True<br>
+	* IsNetworkAllocationComplete = True<br>
+	* VscStateData = True
 
 ## **Recommended Documents**
 
