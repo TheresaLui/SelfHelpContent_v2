@@ -22,12 +22,12 @@
 
 ### **Troubleshooting**
 
-* If you deleted a key vault it will exist in the soft-deleted state if you had soft-delete enabled on the key vault and the retention period has not elapsed. If you did not have soft delete enabled, or the soft delete retention period has elapsed, your key vault has been permenantly deleted and it is impossible for Microsoft to recover your key vault. Use the following references to list and recover a deleted key vault.
+* If you deleted a key vault it will exist in the soft-deleted state if you had soft-delete enabled on the key vault and the retention period has not elapsed. **If you did not have soft delete enabled, or the soft delete retention period has elapsed, your key vault has been permenantly deleted and it is impossible for you or Microsoft to recover your key vault.** Use the following references to list and recover a deleted key vault.
 
 	* [List deleted Key Vaults](https://docs.microsoft.com/cli/azure/keyvault?view=azure-cli-latest#az-keyvault-list-deleted)
 	* [Recover a deleted Key Vault](https://docs.microsoft.com/cli/azure/keyvault?view=azure-cli-latest#az-keyvault-recover)
 	
-* If you deleted a secret, key, or certificate it will exist in the soft-deleted state if you had soft-delete enabled on the key vault and the retention period has not elapsed. If soft delete was not enabled on the key vault or the retention period has elapsed, your secret has been permanently deleted and it is impossible for Microsoft to recover your secret. Use the following references to recover. 
+* If you deleted a secret, key, or certificate it will exist in the soft-deleted state if you had soft-delete enabled on the key vault and the retention period has not elapsed. **If soft delete was not enabled on the key vault or the retention period has elapsed, your secret has been permanently deleted and it is impossible for you or Microsoft to recover your secret.** Use the following references to recover. 
 	* [Recover a deleted certificate](https://docs.microsoft.com/cli/azure/keyvault/certificate?view=azure-cli-latest#az-keyvault-certificate-recover)
 	* [Recover a deleted key](https://docs.microsoft.com/cli/azure/keyvault/key?view=azure-cli-latest#az-keyvault-key-recover)
 	* [Recover a deleted secret](https://docs.microsoft.com/cli/azure/keyvault/secret?view=azure-cli-latest#az-keyvault-secret-recover)
