@@ -120,8 +120,8 @@
     {
       "id": "5da3591c-eba3-3a2b-e760-a0763a16f061",
       "longDescription": "",
-      "shortDescription": "You are seeing a problem with one or a few particular users",
-      "searchTags": "problem with one user or more",
+      "shortDescription": "Problem in Azure AD Connect with one or a few users that are not syncing or not syncing correctly",
+      "searchTags": "sync;user;aadconnect",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
