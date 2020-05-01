@@ -17,7 +17,7 @@
 
 # My desired region or VM size is unavailable
 
-## **Awareness**
+### **Awareness**
 
 >We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
 
