@@ -8,8 +8,8 @@
     ms.author="hectorh"
     selfHelpType="generic"
     articleId="appinsights-browser-exceptions-operations-data-missing"
-    productPesIds="XXXXXX"
-    supportTopicIds="XXXXXXXX"
+    productPesIds="15693"
+    supportTopicIds="32729579"
     cloudEnvironments="public, Fairfax, usnat, ussec"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
