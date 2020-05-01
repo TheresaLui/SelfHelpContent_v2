@@ -32,16 +32,6 @@ You can deploy Linux virtual machines (VMs) on Azure Stack by adding a Linux-bas
 
 3. Once you have prepared a custom Linux image, [add your image to the marketplace](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-vm-image)
 
-### **Known Issues**
-
-* Queue messages: Messages in a queue expire immediately after creation and tagged for garbage collection. This issue may present in three cases:
-    * Retrieval of resources in Azure Resource Manager will fail
-    * Usage metric data is not collected and uploaded for processing
-    * Customer developed applications fail to retrieve messages
-
-* User image management: Failed user image creation puts the user image service into a bad state:
-    * New image creation fails once the service is in this state
-    * Deletion of image may fail with the following error "Error: An internal disk management error occurred."
 
 ## **Recommended Documents**
 
