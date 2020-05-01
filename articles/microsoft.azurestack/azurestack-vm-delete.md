@@ -23,16 +23,6 @@
 * Removing a VM will not automatically remove associated resources such as virtual disks, network interfaces, public IPs etc
 * If you wish to remove all resources contained in the same resource group, follow the steps for [Azure Stack Portal](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-quick-windows-portal#clean-up-resources), [Azure PowerShell](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-quick-create-vm-windows-powershell#delete-the-virtual-machine), or [Azure CLI](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-quick-create-vm-windows-cli#clean-up-resources)
 
-### **Known Issues**
-
-* Queue messages: Messages in a queue expire immediately after creation and tagged for garbage collection. This issue may present in three cases:
-    * Retrieval of resources in Azure Resource Manager will fail
-    * Usage metric data is not collected and uploaded for processing
-    * Customer developed applications fail to retrieve messages
-
-* User image management: Failed user image creation puts the user image service into a bad state:
-    * New image creation fails once the service is in this state
-    * Deletion of image may fail with the following error "Error: An internal disk management error occurred."
 
 ## **Recommended Documents**
 
