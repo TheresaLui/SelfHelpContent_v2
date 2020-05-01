@@ -26,8 +26,8 @@ If you've configured your application to send data to Application Insights but a
 2. **If you are missing Browser or Web page data**, validate that you have added  [Application Insights for JavaScript](https://docs.microsoft.com/azure/azure-monitor/app/javascript) to your application
 3. **If data is coming through**, but occasionally (or often) the data doesn't match what you expect:
     
-    a. [double-check your sampling settings](https://docs.microsoft.com/azure/azure-monitor/app/sampling). For .NET applications, adaptive sampling is on-by-default, but generally only occurs at higher traffic volumes. 
-    b. [Browser Exceptions data] Application Insights only tracks uncaught errors. If you have a global error handler, make sure you call `trackException` in it. 
+    1. [double-check your sampling settings](https://docs.microsoft.com/azure/azure-monitor/app/sampling). For .NET applications, adaptive sampling is on-by-default, but generally only occurs at higher traffic volumes. 
+    2. [Browser Exceptions data] Application Insights only tracks uncaught errors. If you have a global error handler, make sure you call `trackException` in it. 
 
 4. **If you have a Single Page Application**, ensure you have [configured your JavaScript SDK instance to work with Single Page Applications](https://docs.microsoft.com/azure/azure-monitor/app/javascript#single-page-applications). Otherwise, only the first route of your front-end will be tracked. 
 5. **If you used to see data but don't anymore**, validate that a deployment has not modified or removed Application Insights configuration or dependencies. If you have configured your application to send data through Status Monitor and web published, ensure you do not select the "delete existing files" option during publish. 
