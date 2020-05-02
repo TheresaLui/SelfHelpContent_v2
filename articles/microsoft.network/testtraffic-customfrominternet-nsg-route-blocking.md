@@ -19,10 +19,10 @@ ownershipId="CloudNet_VirtualNetwork"
 
 # Traffic is blocked by NSG and altered by UDR
 
-### **<!--$VmName-->VmName<!--/$VmName-->: <!--$InsightTitle-->InsightTitle<!--/$InsightTitle-->**
+### **<!--$VmName-->VmName<!--/$VmName-->**: <!--$InsightTitle-->InsightTitle<!--/$InsightTitle-->
 
 <!--issueDescription-->
-We have identified a problem that prevents network traffics from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$VmName-->VmName<!--/$VmName--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that both of the following conditions exist:<br>
+We have identified a problem that prevents network traffic from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$VmName-->VmName<!--/$VmName--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that both of the following conditions exist:<br>
 
 - Network security group <!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName--> has rule <!--$SecurityRuleName-->SecurityRuleName<!--/$SecurityRuleName--> that is causing this issue.<br>
 - User-defined route tables have a route that is causing this issue.
@@ -30,7 +30,7 @@ We have identified a problem that prevents network traffics from <!--$SourceIp--
 
 ## **Recommended Steps**
 
-If the access control result is not the desired result, remove the <!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName--> network security group rule to allow network traffics to flow from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$VmName-->VmName<!--/$VmName--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Or, you can create an INBOUND basic rule that has a higher priority (lower number) than have the existing rules that specify port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->.
+If the access control result is not the desired result, remove the <!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName--> network security group rule to allow network traffic to flow from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$VmName-->VmName<!--/$VmName--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Or, you can create an INBOUND basic rule that has a higher priority (lower number) than have the existing rules that specify port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->.
 
 To do this, follow these steps:
 
