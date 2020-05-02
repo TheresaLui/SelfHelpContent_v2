@@ -19,8 +19,6 @@ ownershipId="CloudNet_VirtualNetwork"
 
 # Traffic is blocked by NSG and altered by UDR
 
-### <!--$VmName-->VmName<!--/$VmName-->: <!--$InsightTitle-->InsightTitle<!--/$InsightTitle-->
-
 <!--issueDescription-->
 We have identified a problem that prevents network traffic from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the virtual machine <!--$VmName-->VmName<!--/$VmName--> on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that both of the following conditions exist:<br>
 
