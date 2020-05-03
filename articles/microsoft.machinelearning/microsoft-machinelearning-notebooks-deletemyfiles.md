@@ -16,13 +16,12 @@
 
 # Can’t delete my files
 
-If you can't delete a file, your compute instance may have a lock on that file. Most users are able to resolve their deleting file issue by using the following steps.
+If you can't delete a file/folder, your compute instance may have a lock on that file. Most users are able to resolve their deleting file issue by using the following steps.
 
 ## **Recommended Steps**
-1. Click "Compute" in the Azure ML Studio menu bar
-2. On the compute page locate the Compute Instance with the issues
-3. Restart the Compute Instance from here
-4. After restarting the compute, try to delete the file again
+1. Click the Terminal icon in the Notebook Toolbar
+2. Go to the folder in the terminal with "cd ~/cloudfiles/code/Users/<user_name>/<folder_name>"
+3. Use "rm -rf <folder_name>" command to force delete the folder or file
 
 ## **Recommended Documents**
 
