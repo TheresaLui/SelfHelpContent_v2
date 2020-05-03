@@ -90,8 +90,29 @@ schemaVersion="1"
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "workspace_id",
             "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Please select the affected workspace name.",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/microsoft.operationalInsights/workspaces/{resource}?api-version=2015-03-20",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$"
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to get the list of Workspaces",
+                    "text": "Unable to get the list of Workspaces"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
