@@ -22,8 +22,8 @@
 
 
 ## **Recommended Steps**
-- Please check the contacts listed in the business profile for the specific profile where emails are not getting trigerred.
-- You need to have either business profile admin or referral admin role to update the business profile.
+- Please check the contacts listed in the business profile for the specific profile where emails are not getting triggered
+- You need to have either business profile admin or referral admin role to update the business profile
 
 ## **Recommended Documents**
 
