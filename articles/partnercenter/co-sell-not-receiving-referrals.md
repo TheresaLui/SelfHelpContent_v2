@@ -24,11 +24,11 @@
 ## **Recommended Steps**
 
 - You should have referral admin access to view or create referrals
-- It takes 24 hours for your business profile to appear on Microsoft solution provider webpage after publishing.
-- Try to search for your profile by company name which is available in the advanced filters section after searching anything.
-- Your profile may not be available in the first page of search results potentially due to a lower rank compared to other profiles.
-- Try to search with the exact keywords that you have entered in the business profile and scroll to find the profile.
-- Create a support ticket if your profile is getting listed on the first page and you are still not recieving referrals
+- It takes 24 hours for your business profile to appear on Microsoft solution provider webpage after publishing
+- Try to search for your profile by company name which is available in the advanced filters section after searching anything
+- Your profile may not be available in the first page of search results potentially due to a lower rank compared to other profiles
+- Try to search with the exact keywords that you have entered in the business profile and scroll to find the profile
+- Create a support ticket if your profile is getting listed on the first page and you are still not receiving referrals
 
 ## **Recommended Documents**
 
