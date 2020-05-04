@@ -72,6 +72,6 @@ To subscribe again – either use the link in the unsubscribe confirmation email
 
 Email is [rate limited](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-rate-limiting) to no more than 100 emails every hour to each email address. If you pass this threshold, additional email notifications are dropped. Check if you have received a message indicating that your email address has been temporarily rate limited:
 
-![Email rate limited](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/media/alerts-troubleshoot/email-paused.png)
+![Email rate limited](https://docs.microsoft.com/azure/azure-monitor/platform/media/alerts-troubleshoot/email-paused.png)
 
 If you would like to receive high-volume of notifications without rate limiting, consider using a different action, such as webhook, logic app, Azure function, or automation runbooks, none of which are rate limited.
