@@ -23,10 +23,10 @@
 
 ## **Recommended Steps**
 
-- Check if your company is using multiple tenants to login to partner center. 
-- Check to make sure that the MPN id associated with your solution in GTM is same as the MPN id associated with your tenant. If they are not, please contact support with this information.
-- If the same contact is used in Business profiles across tenants, you may be looking at the wrong tenant for the referrals.
-- Try to login to other tenants and check for referrals.
+- Check if your company is using multiple tenants to login to partner center
+- Check to make sure that the MPN id associated with your solution in GTM is same as the MPN id associated with your tenant. If they are not, please contact support with this information
+- If the same contact is used in Business profiles across tenants, you may be looking at the wrong tenant for the referrals
+- Try to login to other tenants and check for referrals
 
 ## **Recommended Documents**
 
