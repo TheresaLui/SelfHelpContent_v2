@@ -100,7 +100,11 @@ schemaVersion="1"
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
             },
             "dropdownOptions": [
                 {
