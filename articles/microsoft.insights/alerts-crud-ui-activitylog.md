@@ -10,11 +10,11 @@
     articleId="alerts-crud-ui-activitylog"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="332739771"
+    supportTopicIds="32739771"
     resourceTags=""
     productPesIds="15454"
     cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
-    ownershipId="AzureMonitoring_AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
+    ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
 />
 
 # **I have an issue in creating, editing or deleting alert rules in the Azure portal**
