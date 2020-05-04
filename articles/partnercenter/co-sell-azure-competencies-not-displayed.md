@@ -22,7 +22,7 @@
 
 
 ## **Recommended Steps**
-- It takes 48 hours for the bagde to appear on the Solution provider page after your company had achieved the same.
+- It takes 48 hours for the badge to appear on the Solution provider page after your company had achieved the same 
 - If there is an issue even after 48 hours, please create a support ticket with the details of the profile and country from which you are searching
 
 ## **Recommended Documents**
