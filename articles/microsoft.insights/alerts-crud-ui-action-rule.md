@@ -15,7 +15,7 @@
     ownershipId="AzureMonitoring_ActionGroup"
 />
 
-# **Issue while creating, updating or deleing an action rule**
+# **Issue while creating, updating or deleting an action rule**
 If you are trying to create, update, or delete an [action rule](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-action-rules) in the portal, but receiving unexpected errors, follow these steps:
 
 ## **Recommended Steps**
