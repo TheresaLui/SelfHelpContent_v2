@@ -30,4 +30,4 @@ Ensure you have the permissions to author the action rule. Usually, you would us
 Follow the documentation on how to [get](https://docs.microsoft.com/powershell/module/az.alertsmanagement/get-azactionrule), [create](https://docs.microsoft.com/powershell/module/az.alertsmanagement/Set-AzActionRule), [update](https://docs.microsoft.com/powershell/module/az.alertsmanagement/update-azactionrule), or [delete](https://docs.microsoft.com/powershell/module/az.alertsmanagement/remove-azactionrule) an action rule using the [Az module](https://docs.microsoft.com/powershell/azure/new-azureps-module-az).
 
 ## **Recommended Documents**
-[Creating and managing action rules](https://docs.microsoft.com/en-us/powershell/module/az.alertsmanagement/Set-AzActionRule?view=azps-3.8.0)<br>
+[Creating and managing action rules](https://docs.microsoft.com/powershell/module/az.alertsmanagement/Set-AzActionRule?view=azps-3.8.0)<br>
