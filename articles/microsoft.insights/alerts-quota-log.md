@@ -34,7 +34,7 @@ If you have reached the quota limit, the following steps may help resolve the is
     - Requested quota limit
 
 
-## **To check the current usage of new log alert rules**
+## To check the current usage of new log alert rules
 	
 ### From the Azure portal
 
