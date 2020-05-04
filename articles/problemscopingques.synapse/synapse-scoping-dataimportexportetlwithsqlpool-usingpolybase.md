@@ -44,7 +44,7 @@
             "order": 3,
             "required": false,
             "controlType": "textbox",
-            "displayLabel": "What is the query id?",
+            "displayLabel": "If a query failed, what is the query id?",
             "watermarkText": "",
             "infoBalloonText": ""
         },
@@ -76,17 +76,8 @@
             "infoBalloonText": ""
         },
         {
-            "id": "dw_7",
-            "order": 7,
-            "required": false,
-            "controlType": "textbox",
-            "displayLabel": "What resource class did you use for your load?",
-            "watermarkText": "",
-            "infoBalloonText": ""
-        },
-        {
             "id": "problem_description",
-            "order": 8,
+            "order": 7,
             "required": true,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
@@ -97,4 +88,3 @@
     ]
 }
 ---
-
