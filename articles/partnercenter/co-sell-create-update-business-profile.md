@@ -31,6 +31,6 @@
 
 ## **Recommended Documents**
 
-* [Business profile admin and Referral admin role details]( https://docs.microsoft.com/partner-center/permissions-overview#manage-referrals)
+* [Business profile admin and Referral admin role details](https://docs.microsoft.com/partner-center/permissions-overview#manage-referrals)
 
 * [Manage business profile](https://docs.microsoft.com/partner-center/create-a-marketing-profile)
