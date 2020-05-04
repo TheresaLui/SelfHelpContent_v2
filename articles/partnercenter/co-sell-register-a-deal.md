@@ -22,7 +22,7 @@
 
 ## **Recommended Steps**
 
-- If your new to registering deals we recommend you watch these short how to [videos](https://partner.microsoft.com/resources/collection/co-sell-experience-partner-center)
+- If you are new to registering deals we recommend you watch these short how to [videos](https://partner.microsoft.com/resources/collection/co-sell-experience-partner-center)
 
 ## **Recommended Documents**
 
