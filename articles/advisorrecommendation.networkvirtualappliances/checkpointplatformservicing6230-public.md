@@ -49,6 +49,6 @@ ownershipId="CloudNet_NVA"
     ],
     "displayLabel": "Known Issue with Check Point Network Virtual Appliance image version",
     "tip": "Upgrade Network Virtual Appliance image to ensure business continuity.",
-    "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/bigipha_rg/providers/Microsoft.Compute/virtualMachines/bigiphatest-f5vm010"
+    "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/np-g-7e297f3b-7394-438e-b79c-e92e49cd62be/providers/Microsoft.Compute/virtualMachines/ciscoasafwasavha-b"
 }
 ---
