@@ -23,14 +23,14 @@
 
 ## **Recommended Steps**
 
-* Leverage technical consultations, to increase sales, deploy more effectively, or to accelerate app development.
+ Leverage technical consultations, to increase sales, deploy more effectively, or to accelerate app development.
 
-* For Gold, Silver or Microsoft Action Pack subscribers
+ For Gold, Silver or Microsoft Action Pack subscribers
 
 - Consultations for [Azure](https://support.microsoft.com/help/4521805/azure-consultations), [Business Applications](https://support.microsoft.com/help/4521800/business-applications-consultations), [Modern Workplace](https://support.microsoft.com/help/4521795/modern-workplace-consultations) or [Marketplace Preparation](https://support.microsoft.com/help/4521806/marketplace-preparation)
 - [Supported products and scenarios](https://support.microsoft.com/help/3094111)
 
-* Network members (without an Action Pack subscription)
+ Network members (without an Action Pack subscription)
 
 - Please see [Microsoft Action Pack](https://partner.microsoft.com/membership/action-pack). Your organisations needs to purchase Microsoft Action Pack to get help from Technical Presales and Deployment Services
  
