@@ -19,8 +19,6 @@ ownershipId="CloudNet_VirtualNetwork"
 
 # Traffic is blocked by NSG
 
-### <!--$VmName-->VmName<!--/$VmName-->: <!--$InsightTitle-->InsightTitle<!--/$InsightTitle-->
-
 <!--issueDescription-->
 We have identified a problem that prevents network traffic flowing from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$VmName-->VmName<!--/$VmName--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that the following condition exists:<br>
 
