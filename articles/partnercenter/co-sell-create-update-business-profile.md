@@ -23,10 +23,10 @@
 
 ## **Recommended Steps**
 
-- You need to have either business profile admin or referral admin role to create or update a business profile.
-- Create profiles for countries where you have legal business presence.
-- Don't create profiles in regions outside of your legal region if you have a CSP account.
-- You can add up to five locations per country where you have a legal presence.
+- You need to have either business profile admin or referral admin role to create or update a business profile
+- Create profiles for countries where you have legal business presence
+- Don't create profiles in regions outside of your legal region if you have a CSP account
+- You can add up to five locations per country where you have a legal presence
 
 
 ## **Recommended Documents**
