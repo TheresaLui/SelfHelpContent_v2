@@ -22,8 +22,8 @@ ownershipId="CloudNet_VirtualNetwork"
 <!--issueDescription-->
 We have identified a problem that prevents network traffic from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the virtual machine <!--$VmName-->VmName<!--/$VmName--> on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that both of the following conditions exist:<br>
 
-- Network security group "<!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName-->" has rule "<!--$SecurityRuleName-->SecurityRuleName<!--/$SecurityRuleName-->" that is causing this issue.<br>
-- User-defined route tables have a route that is causing this issue.
+. Network security group "<!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName-->" has rule "<!--$SecurityRuleName-->SecurityRuleName<!--/$SecurityRuleName-->" that is causing this issue.<br>
+. User-defined route tables have a route that is causing this issue.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
