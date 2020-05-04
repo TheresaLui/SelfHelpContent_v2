@@ -19,8 +19,24 @@
 	"title": "What version are you using",
 	"fileAttachmentHint": "",
 	"formElements": [{
+		"id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "infoBalloonText": "Enter the approximate time you started to see the error.",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+        }, {
+            "id": "problem_end_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
+            "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
+        }, {
 		"id": "I'm experienceing errors when setting up Azure RTOS",
-		"order": 1,
+		"order": 2,
 		"controlType": "multiselectdropdown",
 		"infoBalloonText": "string",
 		"displayLabel": "What product(s) are you using?",
@@ -53,7 +69,7 @@
 		"required": false
 	}, {
 		"id": "problem_description",
-		"order": 2,
+		"order": 3,
 		"controlType": "multilinetextbox",
 		"displayLabel": "Details",
 		"watermarkText": "Please provide a description of the problem including",
@@ -74,7 +90,7 @@
 		}]
 	}, {
 		"id": "User Guides",
-		"order": 3,
+		"order": 4,
 		"controlType": "infoblock",
 		"content": "<a href='https://docs.microsoft.com/azure/rtos/'>please refer to the User Guide</a> for more information"
 	}]
