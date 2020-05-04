@@ -34,7 +34,7 @@
             "required": false
         }, {
 		"id": "I'm experienceing errors when setting up Azure RTOS",
-		"order": 2,
+		"order": 3,
 		"controlType": "multiselectdropdown",
 		"infoBalloonText": "string",
 		"displayLabel": "What product(s) are you using?",
@@ -67,7 +67,7 @@
 		"required": false
 	}, {
 		"id": "problem_description",
-		"order": 3,
+		"order": 4,
 		"controlType": "multilinetextbox",
 		"displayLabel": "Details",
 		"watermarkText": "Please provide a description of the problem including",
@@ -88,7 +88,7 @@
 		}]
 	}, {
 		"id": "User Guides",
-		"order": 4,
+		"order": 5,
 		"controlType": "infoblock",
 		"content": "<a href='https://docs.microsoft.com/azure/rtos/'>please refer to the User Guide</a> for more information"
 	}]
