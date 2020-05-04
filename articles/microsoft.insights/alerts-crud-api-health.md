@@ -21,7 +21,7 @@
 
 You can create activity log alerts using the REST API, CLI or PowerShell.
 
-## Recommended Steps
+## **Recommended Steps**
 
 If you are facing issues while trying to setup activity log alerts using the [REST API](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-activity-log#rest-api) or [CLI](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-activity-log#cli), please use the following steps to troubleshoot:
 
