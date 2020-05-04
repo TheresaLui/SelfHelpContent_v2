@@ -2,7 +2,7 @@
 	pageTitle="Azure RTOS Issues"
 	description="Azure RTOS Scoping Questions to capture more information"
 	authors="michamay"
-	ms.author="micmay@microsoft.com"
+	ms.author="micmay"
 	selfHelpType="problemScopingQuestions"	supportTopicIds="32725731,32725732,32725744,32725739,32725740,32725741,32725742,32725743,32725738,32725745,32725746,32725736,32725725"
 	productPesIds="16920"
 	cloudEnvironments="public"
@@ -11,6 +11,7 @@
 	ownershipId="Azure_RTOS"
 />
 # Problem Desscription
+---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
