@@ -10,7 +10,7 @@
 	articleId="65a4348a-2bab-4ab0-b5dc-4330ff026530"
 	ownershipId="Azure_RTOS"
 />
-# Problem Desscription
+# Problem Description
 ---
 {
 	"$schema": "SelfHelpContent",
