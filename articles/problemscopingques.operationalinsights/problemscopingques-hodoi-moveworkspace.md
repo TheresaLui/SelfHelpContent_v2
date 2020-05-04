@@ -9,8 +9,8 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32612491"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
+ownershipId="AzureMonitoring_LogAnalytics"
 schemaVersion="1"
-	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Move workspace to a different subscription or resource group
