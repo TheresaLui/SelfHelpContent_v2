@@ -19,12 +19,14 @@
 
 We have created this self-help article to assist with the post-installation configuration settings of the Azure HPC Cache.  If you need assistance with the installation or initial configuration of the Azure HPC Cache, please go to the *Get Started* portion of the [Azure HPC Cache Documentation](https://docs.microsoft.com/azure/hpc-cache/).
 
-## **Storage Targets**
+## **Recommended Steps**
+
+### **Storage Targets**
 
 1. If you should need to add a new storage target to your Azure HPC Cache namespace, you can do this by following the [Add Storage Targets](https://docs.microsoft.com/azure/hpc-cache/hpc-cache-add-storage) page.
 2. If you should need to modify or remove a storage target in your Azure HPC Cache namespace, you can do this by following the instructions on the [Edit Storage Targets](https://docs.microsoft.com/azure/hpc-cache/hpc-cache-edit-storage) page.
 
-## **Optional Configuration**
+### **Optional Configuration**
 
 To change the optional configuration values of an Azure HPC Cache, please go to the Azure HPC Cache resource in the Azure Portal, then choose Configuration under the Settings heading on the Left-hand menu.  Once on the configuration page,  you can then change the following optional settings.
 
@@ -36,6 +38,6 @@ To change the optional configuration values of an Azure HPC Cache, please go to 
 * [Azure HPC Cache Documentation](https://docs.microsoft.com/azure/hpc-cache/)
 * [Add Storage Targets](https://docs.microsoft.com/azure/hpc-cache/hpc-cache-add-storage)
 * [Edit Storage Targets](https://docs.microsoft.com/azure/hpc-cache/hpc-cache-edit-storage)
-* [Configure Additional Azure HPC Cache Settings](https://docs.microsoft.com/en-us/azure/hpc-cache/configuration)
+* [Configure Additional Azure HPC Cache Settings](https://docs.microsoft.com/azure/hpc-cache/configuration)
 * [Adjust MTU Size](https://docs.microsoft.com/azure/hpc-cache/configuration#adjust-mtu-value)
 * [Configure Root Squash](https://docs.microsoft.com/azure/hpc-cache/configuration#configure-root-squash)
