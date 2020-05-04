@@ -14,7 +14,7 @@
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
-# Creating or registering datasets
+# Create or register Azure Machine Learning datasets
 By creating a dataset, you create a reference to the data source location, along with a copy of its metadata. Because the data remains in its existing location, you incur no extra storage cost. You can create both TabularDataset and FileDataset data sets by using the Python SDK or the Azure Machine Learning studio at https://ml.azure.com.
 For the data to be accessible by Azure Machine Learning, datasets must be created from paths in Azure datastores or public web URLs.
 
