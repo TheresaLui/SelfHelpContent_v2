@@ -10,11 +10,11 @@
 	articleId="alerts-quota-metric"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicId="32739797,32739792"
+	supportTopicIds="32739797,32739792"
 	resourceTags=""
 	productPesIds="15454"
 	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
-    ownershipId="AzureMonitoring_Alerts_LogSearchAlerts"
+	ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
 />
 
 # I want to increase my metric alert rules quota
