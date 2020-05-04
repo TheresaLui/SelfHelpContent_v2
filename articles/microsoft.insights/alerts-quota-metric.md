@@ -13,7 +13,7 @@
 	supportTopicId="32739797,32739792"
 	resourceTags=""
 	productPesIds="15454"
-	 cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
+	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
     ownershipId="AzureMonitoring_Alerts_LogSearchAlerts"
 />
 
