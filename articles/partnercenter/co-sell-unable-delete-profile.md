@@ -22,12 +22,12 @@
 
 
 ## **Recommended Steps**
-- You need to have either business profile admin or referral admin role to delete the business profile.
+
+- You need to have either business profile admin or referral admin role to delete the business profile
 - Please retry once if the delete button didn't work  
 - Create a support ticket if the details fails even after retry
 
 ## **Recommended Documents**
 
 * [Business profile admin and Referral admin role details](https://docs.microsoft.com/partner-center/permissions-overview#manage-referrals)
-
 * [Manage business profile](https://docs.microsoft.com/partner-center/create-a-marketing-profile)
