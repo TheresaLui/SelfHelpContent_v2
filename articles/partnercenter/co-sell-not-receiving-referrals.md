@@ -33,4 +33,4 @@
 ## **Recommended Documents**
 
 
-* [Manage business profile]( https://docs.microsoft.com/partner-center/create-a-marketing-profile)
+* [Manage business profile](https://docs.microsoft.com/partner-center/create-a-marketing-profile)
