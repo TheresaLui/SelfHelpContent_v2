@@ -18,14 +18,14 @@
 	ownershipId="PartnerCenter_Cosell"
 />
 # Business Profile, Co-sell, and Referrals
-You should have referral admin access to view or create referrals
-At least one solution from your company should be Co-sell ready for you to start creating Co-sell opportunities
-If your PDM informed that the solution is whitelisted, please wait for 24 hours before creating a referral
-If you want to become Co-sell ready, contact the cosell desk after looking at the details of the program mentioned in the below link
+* You should have referral admin access to view or create referrals
+* At least one solution from your company should be Co-sell ready for you to start creating Co-sell opportunities
+* If your PDM informed that the solution is whitelisted, please wait for 24 hours before creating a referral
+* If you want to become Co-sell ready, contact the cosell desk after looking at the details of the program mentioned in the below link
 
 ## **Recommended Steps**
 
-Learn more about Referrals from the below links
+Learn more about Referrals from the below links.
 
 ## **Recommended Documents**
 
