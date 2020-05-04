@@ -29,7 +29,7 @@ Network Security Group <!--$DestinationNsgName-->DestinationNsgName<!--/$Destina
 
 ## **Recommended Steps**
 
-If the access control result is not the desired result, remove or relax the <!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName--> network security group to allow network traffic to flow from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$VmName-->VmName<!--/$VmName--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Or, you can create an INBOUND basic rule that has a higher priority (lower number) than have the existing rules that specify port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. To do this, follow these steps:
+If the access control result is not the desired result, remove the <!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName--> network security group to allow network traffic to flow from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$VmName-->VmName<!--/$VmName--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Or, you can create an INBOUND basic rule that has a higher priority (lower number) than have the existing rules that specify port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. To do this, follow these steps:
 
 1. Open the [Azure portal](https://portal.azure.com) and browse to the [Network Security Group blade](https://portal.azure.com/?feature.customportal=false#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FNetworkSecurityGroups)
 2. Open your **<!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName-->** network security group

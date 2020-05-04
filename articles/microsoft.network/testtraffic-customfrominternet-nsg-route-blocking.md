@@ -37,7 +37,7 @@ To do this, follow these steps:
 3. Add an **Allow** rule for the <!--$SourceIp-->SourceIp<!--/$SourceIp--> IP address that has a lower number (higher priority) than has the Block rule
 4. Save the changes, and check the traffic status again.
 
-For the User-defined route tables issue, you can use [Next hop](https://docs.microsoft.com/azure/network-watcher/network-watcher-next-hop-overview) to find out which custom route is altering the traffic flow, and examine the [User-defined route tables](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Network/routeTables) to make sure that the routing is set up correctly. You can try to disassociate questionable User-defined route tables from the affected subnet to determine whether that resolves the issue.
+To resolve the User-defined route tables issue, you can use [Next hop](https://docs.microsoft.com/azure/network-watcher/network-watcher-next-hop-overview) to find out which custom route is altering the traffic flow, and examine the [User-defined route tables]( https://ms.portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FrouteTables) to make sure that the routing is set up correctly. You can try to disassociate questionable User-defined route tables from the affected subnet to determine whether that resolves the issue.
 
 ### **Tests Executed**
 
