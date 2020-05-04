@@ -62,28 +62,29 @@
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
-					"text": "How reproducible is the problem."
+					"text": "How reproducible is the problem?"
 				}, {
-					"text": The sequence of events that manifest the problem."
+					"text": List the sequence of events that manifested the problem."
 				}
         {
-					"text": "Were there any recent code changes or updates that might have triggered the issue."
+					"text": "Were there any recent code changes or updates that might have triggered the issue?"
 				}
         {
-					"text": "What are the contents of _*_build_options variable."
+					"text": "What are the contents of _*_build_options variable?"
 				}
         {
-					"text": "Do you have an instruction trace."
+					"text": "Do you have an instruction trace?"
 				}
         {
-					"text": "Do you have a sample program that exhibits the problem?. "
+					"text": "Do you have a sample program that exhibits the problem?."
 				}
 			]
 		}, {
 			"id": "User Guides",
 			"order": 3,
 			"controlType": "infoblock",
-			"content": "<a href='https://docs.microsoft.com/azure/rtos/'> please refer to the User Guide </a> for more information"
+			"content": "<a href='https://docs.microsoft.com/azure/rtos/'>please refer to the User Guide</a> for more information"
 		}
 	]
 }
+---
