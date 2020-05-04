@@ -12,7 +12,7 @@
     supportTopicIds="32739811"
     productPesIds="15454"
     cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
-    ownershipId="AzureMonitoring_ActionGroups"
+    ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # Issues with managing fired alerts with API, CLI or ARM template
