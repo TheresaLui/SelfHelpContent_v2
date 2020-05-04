@@ -9,9 +9,9 @@
          cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
 	articleId="b25f0d4f-e728-487f-a3f3-6770908ce5cd"
-	ownershipId="Compute_VirtualMachines"
+	ownershipId="StorageMediaEdge_Backup"
 />
-# Questions Azure VM backup failure for Linux 
+# Questions Azure VM backup failure for Linux
 ---
 {
     "resourceRequired": true,

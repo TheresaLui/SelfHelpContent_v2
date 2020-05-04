@@ -12,7 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-crp-windowsbackupfailure-mooncake"
-	ownershipId="Compute_VirtualMachines"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Backup - Backup is failing for my VM
