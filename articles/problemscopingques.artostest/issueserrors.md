@@ -3,12 +3,11 @@
 	description="Azure RTOS Scoping Questions to capture more information"
 	authors="michamay"
 	ms.author="micmay@microsoft.com"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32725731,32725732,32725744,32725739,32725740,32725741,32725742,32725743,32725738,32725745,32725746,32725736,32725725"
+	selfHelpType="problemScopingQuestions"	supportTopicIds="32725731,32725732,32725744,32725739,32725740,32725741,32725742,32725743,32725738,32725745,32725746,32725736,32725725"
 	productPesIds="16920"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="issueserrors"
+	articleId="65a4348a-2bab-4ab0-b5dc-4330ff026530"
 	ownershipId="Azure_RTOS"
 />
 # Problem Desscription
