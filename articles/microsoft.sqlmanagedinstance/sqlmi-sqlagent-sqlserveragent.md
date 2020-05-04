@@ -22,29 +22,31 @@
 
 If you are experiencing some issues with SQL Server Agent, some of the following steps might help you to troubleshoot the issues:
 
-**I cannot see my SQL Server Agent node in Object explorer**
-There are three fixed DB SQL Server Agent roles:
-•	SQLAgentUserRole
-•	SQLAgentReaderRole
-•	SQLAgentOperatorRole
+* **I cannot see my SQL Server Agent node in Object explorer**
+
+There are three fixed DB [SQL Server Agent roles](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent-fixed-database-roles?view=sql-server-ver15):
+
+	* SQLAgentUserRole
+	* SQLAgentReaderRole
+	* SQLAgentOperatorRole
+	
 When users who are not members of one of these roles are connected to SQL Server in SQL Server Management Studio, the SQL Server Agent node in Object Explorer is not visible. A user must be a member of one of these fixed database roles or a member of the sysadmin fixed server role to use SQL Server Agent.
-[SQL Agent fixed database roles](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent-fixed-database-roles?view=sql-server-ver15)
 
-**I’m getting "The EXECUTE permission was denied on the object <object_name> (Microsoft SQL Server, Error: 229)" error**
-Each of the logins added to SQL Agent fixed database roles needs to explicitly grant EXECUTE permissions to the stored procedures listed below. 
-`USE [master]`
-`GO`
-`CREATE USER [login_name] FOR LOGIN [login_name]`
-`GO`
-`GRANT EXECUTE ON master.dbo.xp_sqlagent_enum_jobs TO [login_name]`
-`GRANT EXECUTE ON master.dbo.xp_sqlagent_is_starting TO [login_name]`
-`GRANT EXECUTE ON master.dbo.xp_sqlagent_notify TO [login_name]`
- 
-[SQL Agent roles need explicit EXECUTE permissions for non-sysadmin logins](https://docs.microsoft.com/azure/sql-database/sql-database-release-notes?tabs=managed-instance#sql-agent-roles-need-explicit-execute-permissions-for-non-sysadmin-logins)
+* **I’m getting "The EXECUTE permission was denied on the object <object_name> (Microsoft SQL Server, Error: 229)" error**
 
-**How can I disable my SQL Server Agent?**
+Each of the logins added to SQL Agent fixed database roles needs to [explicitly grant EXECUTE permissions](https://docs.microsoft.com/azure/sql-database/sql-database-release-notes?tabs=managed-instance#sql-agent-roles-need-explicit-execute-permissions-for-non-sysadmin-logins) to the stored procedures listed below:
+
+* `USE [master]`
+* `GO`
+* `CREATE USER [login_name] FOR LOGIN [login_name]`
+* `GO`
+* `GRANT EXECUTE ON master.dbo.xp_sqlagent_enum_jobs TO [login_name]`
+* `GRANT EXECUTE ON master.dbo.xp_sqlagent_is_starting TO [login_name]`
+* `GRANT EXECUTE ON master.dbo.xp_sqlagent_notify TO [login_name]`
+
+* **How can I disable my SQL Server Agent?**
+
 For managed instance enabling and disabling of SQL Server Agent is currently not supported. SQL Agent is always running.
-
 
 ## **Recommended Documents**
 
