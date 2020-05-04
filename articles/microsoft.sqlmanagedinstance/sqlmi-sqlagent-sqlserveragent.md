@@ -26,9 +26,9 @@ If you are experiencing some issues with SQL Server Agent, some of the following
 
 There are three fixed DB [SQL Server Agent roles](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent-fixed-database-roles?view=sql-server-ver15):
 
-	* SQLAgentUserRole
-	* SQLAgentReaderRole
-	* SQLAgentOperatorRole
+* SQLAgentUserRole
+* SQLAgentReaderRole
+* SQLAgentOperatorRole
 	
 When users who are not members of one of these roles are connected to SQL Server in SQL Server Management Studio, the SQL Server Agent node in Object Explorer is not visible. A user must be a member of one of these fixed database roles or a member of the sysadmin fixed server role to use SQL Server Agent.
 
