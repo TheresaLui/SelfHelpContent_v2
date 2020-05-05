@@ -21,10 +21,8 @@
 
 * **Denied by Policy**
 
-When you are denied by a policy, the error message will give the policy definition and assignment ID. Please use that ID to get more information from within Policy. If you did not get the ID in the error message, you can refer to the activity log to get that information.
-Please refer to the policy assignment to see what parameters/restrictions are put into place.
+When you are denied by a policy, the error message will give the policy definition and assignment ID. Please use that ID to get more information from within Policy. If you did not get the ID in the error message, you can refer to the activity log to get that information. Please refer to the policy assignment to see what parameters/restrictions are put into place.
 
 * **Required Roles**
 
-To create, update, or delete a Policy definition or assignment, you must have Owner or Policy Contributor role.
-To view compliance details, you must have reader role.
+To create, update, or delete a Policy definition or assignment, you must have Owner or Policy Contributor role. To view compliance details, you must have reader role.
