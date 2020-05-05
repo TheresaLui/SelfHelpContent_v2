@@ -59,7 +59,7 @@
 			"text": "Azure RTOS GUIX"
 		}, {
 			"value": "Azure RTOS GUIX Studio",
-			"text": "Azure RTOS GUIX Studi"
+			"text": "Azure RTOS GUIX Studio"
 		}, {
 			"value": "Azure RTOS TraceX",
 			"text": "Azure RTOS TraceX"
