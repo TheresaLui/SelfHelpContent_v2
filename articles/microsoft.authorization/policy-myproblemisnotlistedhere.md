@@ -29,7 +29,7 @@ To search for an alias, you can run a command or use the VS Code extension. More
 
 * **How do I export my compliance data/ How do I export my policy definitions and assignments?**
 
-We currently do not support exporting compliance data through the portal. Please leverage [UserVoice](https://feedback.azure.com/forums/915958-azure-governance?category_id=345055)to vote on your preference for exporting or other features. You can export compliance data through a [Rest API and/or Command line](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data) call.  You can use our VS Code extension to export the definitions and assignments.
+We currently do not support exporting compliance data through the portal. Please leverage [UserVoice](https://feedback.azure.com/forums/915958-azure-governance?category_id=345055)to vote on your preference for exporting or other features. You can export compliance data through a [Rest API and/or Command line](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data) call. You can use our VS Code extension to export the definitions and assignments.
 
 * **How do I get alerts?**
 
@@ -37,15 +37,15 @@ To get alerts on Non-compliant Azure policies using Azure Monitor alerts, follow
 
 * **Can I use REGEX within Policy?**
 
-We currently do not support REGEX handling **, ** but it is currently under review. We continue to value your feedback and would appreciate getting more through our [UserVoice](https://feedback.azure.com/forums/915958-azure-governance?category_id=345055). This is a great way to vote on your preference for Regex handling or other features. An alternative for Regex handling is to leverage the [Value](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#value) capability which helps you in checking conditions against parameters, template functions or literals.
+We currently do not support REGEX handling, but it is currently under review. We continue to value your feedback and would appreciate getting more through our [UserVoice](https://feedback.azure.com/forums/915958-azure-governance?category_id=345055). This is a great way to vote on your preference for Regex handling or other features. An alternative for Regex handling is to leverage the [Value](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#value) capability which helps you in checking conditions against parameters, template functions, or literals.
 
 * **Why doesn't Modify work for my policy?**
 
-[Modify](https://docs.microsoft.com/azure/governance/policy/concepts/effects#modify) effect is currently  **only supported for tags**. Please submit feedback through our [UserVoice](https://feedback.azure.com/forums/915958-azure-governance?category_id=345055) for any feature request.
+[Modify](https://docs.microsoft.com/azure/governance/policy/concepts/effects#modify) effect is currently **only supported for tags**. Please submit feedback through our [UserVoice](https://feedback.azure.com/forums/915958-azure-governance?category_id=345055) for any feature request.
 
 * **What is Azure Policy for Kubernetes?**
 
-Please follow these links for information on Azure Policy for  **Kubernetes** : [AKS](https://docs.microsoft.com/azure/governance/policy/concepts/rego-for-aks) and [AKS Engine](https://docs.microsoft.com/azure/governance/policy/concepts/aks-engine).
+Please follow these links for information on Azure Policy for **Kubernetes**: [AKS](https://docs.microsoft.com/azure/governance/policy/concepts/rego-for-aks) and [AKS Engine](https://docs.microsoft.com/azure/governance/policy/concepts/aks-engine).
 
 * **How can I get information on what's to come for Azure Policy?**
 
