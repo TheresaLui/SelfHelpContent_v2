@@ -19,7 +19,7 @@
 
 **Known Issue**
 
-If the **Access Control (IAM)** blade displays **Loading** in a loop, and you can't add new roles to the subscription, make sure that the subscription is checked in the **Directory + Subscription** menu. The menu can be accessed from the top of the portal, near the **Notifications** button, or via the shortcut on the **All resources** blade that displays **Don't see a subscription? Open Directory + Subscription settings**. The subscription must be selected in this menu.
+If the **Access Control (IAM)** blade displays **Loading** in a loop, and you can't add new roles to the subscription, make sure that the subscription is checked in the **Directory + Subscription** menu. The menu can be accessed from the top of the portal, near the **Notifications** button, or via the shortcut on the **All resources** blade that displays **Don't see a subscription? Open Directory + Subscription settings**. The subscription must be selected in this menu. This issue affects Azure Stack Hub beginning with version 1910 and will be fixed in an upcoming release.
 
 ## **Recommended Steps**
 
