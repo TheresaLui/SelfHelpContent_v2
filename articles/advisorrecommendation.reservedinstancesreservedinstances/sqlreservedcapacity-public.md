@@ -6,7 +6,7 @@
     articleId="919e7952-0ff9-4cc2-9652-408573da6076_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
-    ownershipId="RedisCache_RedisCache"
+    ownershipId="ACE_ReservedInstances"
 />
 # Buy SQL DB Reserved capacity to save money over pay-as-you-go costs
 ---
