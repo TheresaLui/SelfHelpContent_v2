@@ -10,7 +10,7 @@
 	articleId="keyvault-vaultnotfound"
 	diagnosticScenario="keyvault-recommendations"
 	selfHelpType="Diagnostics"
-	supportTopicIds="32375295,32375295,32596891,32452742,32738117,32738118,32738116"
+	supportTopicIds="32375295,32596891,32452742,32738117,32738118,32738116"
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="blackForest, fairfax, public, MoonCake"
