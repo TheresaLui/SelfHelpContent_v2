@@ -37,8 +37,10 @@ Database activity auditing is available using the pgAudit extension.
 * 'pgaudit.log_level' is only enabled when 'pgaudit.log_client' is on.
 * In Azure Database for PostgreSQL, 'pgaudit.log' cannot be set using a '-' (minus) sign shortcut as described in the pgAudit documentation. All required statement classes (READ, WRITE etc) should be individually specified.
 * Use the 'log_line_prefix' parameter to add information like user who executed and database. As an example, the following 'log_line_prefix' setting provides timestamp, username, database name, and process ID: t=%m u=%u db=%d pid=[%p]:
+* pgaudit does not provide connection logging. This is provided by Postgres's log_connections and log_disconnections parameters.
 
 ## **Recommended Documents**
 
+* [Introduction to pgaudit](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/auditing-know-what-s-going-on-in-your-postgres-database/ba-p/885243)
 * [Auditing in Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-audit)
 * [Azure Database for PostgreSQL logging](https://docs.microsoft.com/azure/postgresql/concepts-server-logs)

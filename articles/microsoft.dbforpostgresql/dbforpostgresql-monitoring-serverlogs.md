@@ -24,6 +24,7 @@ Most users are able to resolve their issue using the steps below.
 ## **Recommended Steps**
 
 * Review how to [configure server logs](https://docs.microsoft.com/azure/postgresql/concepts-server-logs)
+* Familiarise yourself with the [log parameters](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/how-to-configure-postgres-log-settings/ba-p/1214716)
 * Verbose logging will cause a significant performance overhead. We recommend you only use statement logging parameters like log_statement and log_min_duration_statement for short periods of troubleshooting. 
 * Access to transaction logs is not available
 
