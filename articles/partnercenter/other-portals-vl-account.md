@@ -10,7 +10,7 @@
 	articleId="partnercenter_Account_Setup_Management"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32739569"
+	supportTopicIds="32739569,32739576,32739595"
 	clientIds='partnercenter'
 	resourceTags="other"
 	productPesIds="17113"
