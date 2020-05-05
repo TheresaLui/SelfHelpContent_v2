@@ -31,18 +31,18 @@
             "required": true
         },
         {
-            "id": "errorMessage",
-            "order": 20,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Please provide the error message",
-            "required": true
-        },
-        {
             "id": "correlationId",
             "order": 20,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Please provide the correlation Id",
-            "required": true
+            "required": false
+        },
+        {
+            "id": "errorMessage",
+            "order": 30,
+            "controlType": "textbox",
+            "displayLabel": "Please provide the error message",
+            "required": false
         },
         {
             "id": "problem_description",

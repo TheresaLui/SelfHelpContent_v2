@@ -111,12 +111,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is the expected behavior?",
             "watermarkText": "Provide additional information about the expected behavior",
-            "required": true,
-            "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "Issue description."
-                }
+            "required": false,
             ]
         },
         {
@@ -125,6 +120,15 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is the current behavior?",
             "watermarkText": "Provide additional information about the current behavior",
+            "required": false,
+            ]
+        },
+        {
+            "id": "problem_description",
+            "order": 40,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about the issue and what is your expectation",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [

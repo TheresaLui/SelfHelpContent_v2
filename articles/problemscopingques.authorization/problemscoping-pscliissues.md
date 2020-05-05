@@ -31,18 +31,18 @@
             "required": true
         },
         {
-            "id": "errorMessage",
-            "order": 20,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Please provide the error message",
-            "required": true
-        },
-        {
             "id": "command",
             "order": 20,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "What is the Cmdlet/command/API being called?",
-            "required": true
+            "required": false
+        },
+        {
+            "id": "errorMessage",
+            "order": 30,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide the error message",
+            "required": false
         },
         {
             "id": "problem_description",
