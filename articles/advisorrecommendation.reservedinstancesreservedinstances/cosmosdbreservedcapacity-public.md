@@ -3,7 +3,7 @@
     description="(New) Buy Cosmos DB reserved capacity to save money"
     authors="yashesvi"
     ms.author="yashar"
-    articleId="3a5c987a-05f1-44e3-9989-50318e037c5a_Public"
+    articleId="a205074f-8049-48b3-903f-556f5e530ae3_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
     ownershipId="ACE_ReservedInstances"
@@ -14,7 +14,7 @@
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
   "recommendationOfferingName": "(New) Cosmos DB Reserved Capacity",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "c6ac1f03-bd58-4421-9522-23cffb64d8e1",
+  "recommendationTypeId": "a205074f-8049-48b3-903f-556f5e530ae3",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('acereservations.kusto.windows.net').database('reservations').getCosmosRecoAdvisor()",
     "dataSource": "Kusto",
@@ -22,7 +22,7 @@
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "High",
-  "recommendationResourceType": "Microsoft.ReservedInstances/reservedInstances",
+  "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
   "recommendationFriendlyName": "ReservedCapacity",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
