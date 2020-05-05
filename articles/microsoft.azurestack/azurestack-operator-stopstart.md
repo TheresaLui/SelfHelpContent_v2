@@ -17,6 +17,8 @@
 
 # Azure Stack Startup and Shutdown
 
+Most support cases related to start and stop are simply due to the extended time that the operation can take. The recommended steps cover the procedures and what to expect. 
+
 ## **Recommended Steps**
 
 1. [Azure Stack Startup](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#start-azure-stack) powers on all infrastructure roles and returns tenant resources to the power state they were in prior to shutdown
