@@ -48,7 +48,7 @@
   "actions": [
     {
       "actionId": "b3a3bbb5-feaf-4c02-9d67-aa314bc1b477",
-      "description": "Consider {sku} reserved capacity",
+      "description": "Consider reserved capacity for {sku} in {region} for {qty} vCores",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Reservations",
       "bladeName": "CreateBlade",
@@ -66,7 +66,6 @@
   ],
   "displayLabel": "Buy reserved capacity",
   "tip": "You can buy SQL DB reserved capacity to save money over pay-as-you-go costs.",
-  "testData": "73c0021f-a37d-433f-8baa-7450cb54eea6,/subscriptions/73c0021f-a37d-433f-8baa-7450cb54eea6,\"{\"\"reservedResourceType\"\":\"\"sqldatabases\"\",\"\"term\"\":\"\"P3Y\"\",\"\"subId\"\":\"\"73c0021f-a37d-433f-8baa-7450cb54eea6\"\",\"\"scope\"\":\"\"Single\"\",\"\"sku\"\":\"\"SQLDB_GP_Compute_Gen5\"\"}\"",
   "costSavingInfo": "*You can save up to the stated amount if you purchase single subscription reservations for 3 years and your future usage follows the same pattern as the last 30 days. You actual savings may vary."
 }
 ---
