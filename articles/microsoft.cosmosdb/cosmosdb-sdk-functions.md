@@ -1,18 +1,18 @@
 <properties 
-	pageTitle="Azure Cosmos DB SDK on Azure Functions" 
-	description="Azure Cosmos DB SDK on Azure Functions" 
+	pageTitle="SDK issues on Azure Functions" 
+	description="Issues while using the Cosmos DB SDK on Azure Functions" 
 	service="microsoft.documentdb" 
 	resource="databaseAccounts" 
 	authors="ealsur" 
 	ms.author="maquaran" 
 	selfHelpType="generic" 
-	supportTopicIds="32636774,32688838,32688840,32636793"
+	supportTopicIds="32688838,32688840"
 	resourceTags="" 
 	productPesIds="15585" 
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-sdk-functions" 
 	displayOrder="298" 
-	category="SDK Issues" 
+	category="SDK (SQL API) Issues" 
 	ownershipId="AzureData_AzureCosmosDB"
 />
 
@@ -21,8 +21,8 @@ This section refers to using the Cosmos DB SDK to perform operations in the cont
 
 ## **Recommended Steps**  
 
-### **Issues with the Azure Cosmos DB Trigger for Azure Functions**
-Please see the `Tools and Connectors` category for specific troubleshooting with the Cosmos DB Trigger.
+### **Issues with the Azure Functions Trigger for Azure Cosmos DB**
+Please see the `Tools and Connectors` problem type for specific troubleshooting with the Azure Functions Trigger for Cosmos DB.
 
 ### **Functions Host restart**  
 [Azure Functions Host has limits](https://docs.microsoft.com/azure/azure-functions/functions-scale#service-limits) regarding the number of connections, memory utilization, and execution timeout.
@@ -31,13 +31,13 @@ Please see the `Tools and Connectors` category for specific troubleshooting with
 1. Use a [static client](https://docs.microsoft.com/azure/azure-functions/manage-connections#static-clients) instance.
 1. Leverage [Dependency Injection on Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-dotnet-dependency-injection) to initialize and reuse the same client instance.
 
-### 401 - UnauthorizedException
+### **401 - UnauthorizedException**
 This error is often related to using an invalid authorization key or credential. 
 1. Verify that the Key being used is valid. If you are reading the Key or Connection String from an external source, like Azure Key Vault, verify the information there is up to date.
 1. If there was a recent key rotation on the account, ensure you went with the [recommended procedure](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data#key-rotation). When using any old or new key there is a window of time where the key might not be valid.
 
 ### Other issues
-For any other issues, see the **SDK - Error or unexpected result**. Azure Functions is mainly the execution environment and there is a possibility of the issue being a generic SDK issue covered in the general troubleshooting.
+For any other issues, see the **SDK - Error or unexpected result** problem type. Azure Functions is mainly the execution environment and there is a possibility of the issue being a generic SDK issue covered in the general troubleshooting.
 
 ## **Recommended Documents**  
 

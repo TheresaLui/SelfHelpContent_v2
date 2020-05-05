@@ -1,12 +1,12 @@
 <properties
-	pageTitle="Azure Cosmos DB Triggers"
-	description="Configure Azure Cosmos DB Triggers"
+	pageTitle="Azure Functions Trigger"
+	description="Issues with Azure Functions Triggers for Cosmos DB"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32636793,32688843"
+	supportTopicIds="32636793,32688843,32636774"
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
@@ -42,13 +42,16 @@
 <br>The rate at which the changes are delivered to your Function depends greatly on the speed at which your Function processes each batch. If the rate at which the changes are happening in the Monitored Collection is greater than the rate at which your Function processes them, there will be an increasing lag.  
 
 1. Is your Azure Function deployed in the same region as your Azure Cosmos account? For optimal network latency, both the Azure Function and your Azure Cosmos account should be colocated in the same Azure region.
-2. Are the changes happening in your Azure Cosmos container continuous or sporadic? If it's the latter, there could be some delay between the changes being stored and the Azure Function picking them up. This is because internally, when the trigger checks for changes in your Azure Cosmos container and finds none pending to be read, it will sleep for a configurable amount of time (5 seconds, by default) before checking for new changes (to avoid high RU consumption). You can configure this sleep time through the *FeedPollDelay/feedPollDelay* setting in the [configuration](https://docs.microsoft.com/azure/azure-functions/functions-bindings-cosmosdb-v2#trigger---configuration) of your trigger (the value is expected to be in milliseconds).
+2. Are the changes happening in your Azure Cosmos container continuous or sporadic? If it's the latter, there could be some delay between the changes being stored and the Azure Function picking them up. This is because internally, when the trigger checks for changes in your Azure Cosmos container and finds none pending to be read, it will sleep for a configurable amount of time (5 seconds, by default) before checking for new changes (to avoid high RU consumption). You can configure this sleep time through the *FeedPollDelay/feedPollDelay* setting in the [configuration](https://docs.microsoft.com/azure/azure-functions/functions-bindings-cosmosdb-v2-trigger?tabs=csharp#configuration) of your trigger (the value is expected to be in milliseconds).
 3. Your Azure Cosmos container might be [rate-limited](https://docs.microsoft.com/azure/cosmos-db/request-units)
-4. You can use the *PreferredLocations* attribute in your trigger to specify a comma-separated list of Azure regions to define a custom preferred connection order.
+4. You can use the *PreferredLocations* attribute in your trigger to specify a comma-separated list of Azure regions to define a custom preferred connection order, in cases where your Azure Cosmos DB account has multiple regions.
 5. Measure and [monitor the Function execution time](https://docs.microsoft.com/azure/azure-functions/functions-monitoring). The Azure Functions trigger can only send new changes to be processed after you are done processing the current batch of changes to maintain the order of the events. If your Function execution is taking several seconds, please follow the [Azure Functions Best Practices](https://docs.microsoft.com/azure/azure-functions/functions-best-practices) and optimize the Function.
 
 ### **PartitionKey must be supplied for this operation***
 This error means that you are currently using a partitioned lease collection with an old extension dependency. To solve this issue you need to update to the latest [extension dependency version](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies). If you are running on Azure Functions V1 (using the `Microsoft.Azure.WebJobs.Extensions.DocumentDB` package), **you need to migrate to Azure Functions V2 or greater** and use `Microsoft.Azure.WebJobs.Extensions.CosmosDB` instead.
+
+### What happens on a Function restart?
+The Azure Cosmos DB trigger uses the lease collection to store the state and the latest processed point in time on the Change Feed. If your Function restarts or you manually stop it and start it at a later time, it will continue from the saved point in time and pick up the changes that happened after. Based on the behavior of the [Change Feed](https://docs.microsoft.com/azure/cosmos-db/change-feed), only the latest version of a document (in case a document received multiple changes) will be read.
 
 ## **Recommended Documents**
 
