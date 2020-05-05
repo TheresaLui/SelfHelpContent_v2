@@ -19,10 +19,9 @@
 ## **Recommended Steps**
 
 * Soft deleted backup data will only be retained for 14 days. After that time, backup data will be permanently deleted.
-
 * Depending on where your back items are protected, steps to delete vault could vary. For more information refer this [article](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#before-you-start).
 
 ## **Recommended Documents**
 
-* For more information on Soft Delete refer this [article](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud#soft-delete).
-* [How to permanently delete soft deleted items](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud#permanently-deleting-soft-deleted-backup-items).
+* [Soft Delete](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud#soft-delete)
+* [How to permanently delete soft deleted items](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud#permanently-deleting-soft-deleted-backup-items)
