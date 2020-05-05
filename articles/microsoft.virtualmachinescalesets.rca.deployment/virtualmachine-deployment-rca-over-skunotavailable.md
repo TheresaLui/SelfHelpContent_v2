@@ -28,7 +28,7 @@ These restrictions are put in place due to numerous business and technical const
 
 1. **Consider Alternate Sizes or Locations**
 
-	To see the list of sizes that are available for deployment for subscription **<!--$SubscriptionID-->SubscriptionID<!--/$SubscriptionID-->** , you can use the Azure CLI command [az vmss list-skus](https://docs.microsoft.com/cli/azure/vmss?view=azure-cli-latest#az-vmss-list-skus) to check for SKUs available for your VM scale set, including the minimum and maximum VM instances allowed for each SKU; for specific VM instances, use the Azure CLI command [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) to check for the VM sizes available in a region, and any deployment restrictions on the VM size.
+	To see the list of sizes that are available for deployment for subscription **<!--$SubscriptionID-->SubscriptionID<!--/$SubscriptionID-->** , you can use the Azure CLI command [az vmss list-skus](https://docs.microsoft.com/cli/azure/vmss?view=azure-cli-latest#az-vmss-list-skus) to check for SKUs available for your VM scale set, including the minimum and maximum VM instances allowed for each SKU.
 
 2. **Request Exemption**
 
@@ -38,5 +38,5 @@ These restrictions are put in place due to numerous business and technical const
 
 To determine sizes available for your subscription using <br>
 * PowerShell: see [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command
-* Azure CLI: see [az vmss list-skus](https://docs.microsoft.com/cli/azure/vmss?view=azure-cli-latest#az-vmss-list-skus) and [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) commands
+* Azure CLI: see [az vmss list-skus](https://docs.microsoft.com/cli/azure/vmss?view=azure-cli-latest#az-vmss-list-skus) command
 * REST API: see [Virtual Machine Scale Sets - List Skus](https://docs.microsoft.com/rest/api/compute/virtualmachinescalesets/listskus) and [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operations

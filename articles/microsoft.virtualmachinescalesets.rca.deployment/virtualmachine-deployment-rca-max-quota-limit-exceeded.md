@@ -34,11 +34,11 @@ To identify the quota limit you are encountering for subscription **<!--$Subscri
 **Submit Quota Increase Request**
 
 * If you are encountering **Total Regional vCPUs** limit, you can deploy your desired size by following the steps in [Regional vCPU Quota Increase](https://docs.microsoft.com/azure/azure-supportability/regional-quota-requests#request-total-regional-vcpus-quota-increase-at-subscription-level-using-the-help--support-blade) to submit a streamlined request for increasing the **Total Regional vCPUs** limit
-* If you are encountering **per VM Series vCPUs** limit, you can deploy your desired size by following the steps in [VM Series vCPU Limit Increase](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests#request-per-vm-series-vcpu-quota-increase-at-subscription-level-using-the-help--support-blade) to submit a streamlined request for increasing the **per VM Series vCPUs** limit.
+* If you are encountering **per VM Series vCPUs** limit, you can deploy your desired size by following the steps in [VM Series vCPU Limit Increase](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests#request-per-vm-series-vcpu-quota-increase-at-subscription-level-using-the-help--support-blade) to submit a streamlined request for increasing the **per VM Series vCPUs** limit. To increase spot VM vCPU limits, see [Spot quota: Increase limits for all VM series](https://docs.microsoft.com/azure/azure-portal/supportability/low-priority-quota).
 
 **Consider Alternate Sizes or Locations**
 
-Quota increase requests may take one or more business days to be approved due to business and technical constraints.  Please consider alternate sizes that are available to deploy for your subscription, you can use the Azure CLI command [az vmss list-skus](https://docs.microsoft.com/cli/azure/vmss?view=azure-cli-latest#az-vmss-list-skus) to check for SKUs available for your VM scale set, including the minimum and maximum VM instances allowed for each SKU; for specific VM instances, use the Azure CLI command [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) to check for the VM sizes available in a region, and any deployment restrictions on the VM size.
+Quota increase requests may take one or more business days to be approved due to business and technical constraints.  Please consider alternate sizes that are available to deploy for your subscription, you can use the Azure CLI command [az vmss list-skus](https://docs.microsoft.com/cli/azure/vmss?view=azure-cli-latest#az-vmss-list-skus) to check for SKUs available for your VM scale set, including the minimum and maximum VM instances allowed for each SKU.
 
 ## **Recommended Documents**
 
