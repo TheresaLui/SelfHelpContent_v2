@@ -7,7 +7,7 @@
     ms.author="dikamath"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32739953,32739955,32739954,32739956,32739970,32739950,32739960,32739969,32739971,32739942,32739943,32739944,32739945,32739957,32739972,32739965,32739976,32739979,32739959,32739978,32739975,32739974,32739968,32739967,32739977,32739973,32739963,32739962,32739961,32739951,32739948,32739947"
+  supportTopicIds="32739953,32739955,32739954,32739956,32739970,32739950,32739960,32739969,32739971,32739942,32739943,32739944,32739945,32739957,32739972,32739965,32739976,32739979,32739959,32739978,32739975,32739974,32739968,32739967,32739977,32739973,32739963,32739962,32739961,32739951,32739948,32739947"
     resourceTags=""
     productPesIds="16733"
     cloudEnvironments="public, fairfax, usnat, ussec"
@@ -18,6 +18,7 @@
 # Azure VMware Solution
 
 Azure VMware Solution (AVS) provides you with private clouds in Azure. The private clouds contain vSphere clusters, built from dedicated bare-metal Azure infrastructure. You can scale private cloud clusters from 3 to 16 hosts, with the capability to have multiple clusters in a single private cloud. All private clouds are provisioned with vCenter Server, VSAN, vSphere, and NSX-T. You can migrate workloads from your on-premises environments, create or deploy new virtual machines, and consume Azure services from your private clouds.
+
 
 ## **Recommended Documents**
 
