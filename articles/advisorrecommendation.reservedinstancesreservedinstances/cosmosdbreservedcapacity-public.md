@@ -6,7 +6,7 @@
     articleId="3a5c987a-05f1-44e3-9989-50318e037c5a_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
-    ownershipId="RedisCache_RedisCache"
+    ownershipId="ACE_ReservedInstances"
 />
 # Buy Cosmos DB Reserved capacity to save money over pay-as-you-go costs
 ---
