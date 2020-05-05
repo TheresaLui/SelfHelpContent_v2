@@ -1,6 +1,6 @@
 <properties
-    pageTitle="(Preview) Buy Cosmos DB reserved capacity to save money"
-    description="(Preview) Buy Cosmos DB reserved capacity to save money"
+    pageTitle="(New) Buy Cosmos DB reserved capacity to save money"
+    description="(New) Buy Cosmos DB reserved capacity to save money"
     authors="yashesvi"
     ms.author="yashar"
     articleId="3a5c987a-05f1-44e3-9989-50318e037c5a_Public"
@@ -12,9 +12,9 @@
 ---
 {
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
-  "recommendationOfferingName": "(Preview) Cosmos DB Reserved Capacity",
+  "recommendationOfferingName": "(New) Cosmos DB Reserved Capacity",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "3a5c987a-05f1-44e3-9989-50318e037c5a",
+  "recommendationTypeId": "c6ac1f03-bd58-4421-9522-23cffb64d8e1",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('acereservations.kusto.windows.net').database('reservations').getCosmosRecoAdvisor()",
     "dataSource": "Kusto",
@@ -48,7 +48,7 @@
   "actions": [
     {
       "actionId": "b3a3bbb5-feaf-4c02-9d67-aa314bc1b477",
-      "description": "Consider {sku} reserved capacity",
+      "description": "(New) Consider {sku} reserved capacity",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Reservations",
       "bladeName": "CreateBlade",
