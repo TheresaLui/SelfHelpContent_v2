@@ -112,7 +112,6 @@
             "displayLabel": "What is the expected behavior?",
             "watermarkText": "Provide additional information about the expected behavior",
             "required": false,
-            ]
         },
         {
             "id": "current_behavior",
@@ -121,7 +120,6 @@
             "displayLabel": "What is the current behavior?",
             "watermarkText": "Provide additional information about the current behavior",
             "required": false,
-            ]
         },
         {
             "id": "problem_description",
