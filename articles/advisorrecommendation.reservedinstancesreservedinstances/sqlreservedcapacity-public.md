@@ -3,7 +3,7 @@
     description="(Preview) Buy SQL DB reserved capacity to save money"
     authors="yashesvi"
     ms.author="yashar"
-    articleId="919e7952-0ff9-4cc2-9652-408573da6076_Public"
+    articleId="a1d7f3cd-7328-4f0d-8e69-903e9caa4caa_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
     ownershipId="ACE_ReservedInstances"
@@ -14,7 +14,7 @@
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
   "recommendationOfferingName": "(New) SQL DB vCores Reserved Capacity",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "c6ac1f03-bd58-4421-9522-23cffb64d8e1",
+  "recommendationTypeId": "885cd4f5-dfa0-4d68-bbfd-00f89fc2b69c",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('acereservations.kusto.windows.net').database('reservations').getSQLDBRecoAdvisor()",
     "dataSource": "Kusto",
@@ -22,7 +22,7 @@
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "High",
-  "recommendationResourceType": "Microsoft.ReservedInstances/reservedInstances",
+  "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
   "recommendationFriendlyName": "ReservedCapacity",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
