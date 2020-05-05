@@ -17,13 +17,10 @@
 
 # Azure Policy - PS/CLI/API Inquires or Issues
 
-## **Recommended Steps**
+## **Recommended Documents**
 
-* **Check list**
-
-Here is information on creating policies programmatically: [https://docs.microsoft.com/azure/governance/policy/how-to/programmatically-create](https://docs.microsoft.com/azure/governance/policy/how-to/programmatically-create)
-The Azure Policy documentation has reference to all commands with examples and helpful information: [https://docs.microsoft.com/azure/governance/policy/](https://docs.microsoft.com/azure/governance/policy/)
-Azure Policy CLI commands: [https://docs.microsoft.com/cli/azure/policy?view=azure-cli-latest](https://docs.microsoft.com/cli/azure/policy?view=azure-cli-latest)
-Azure Policy PS commands: [https://docs.microsoft.com/powershell/module/az.resources/?view=azps-3.6.1#policies](https://docs.microsoft.com/powershell/module/az.resources/?view=azps-3.6.1#policies)
-Azure Policy Insights (compliance) commands: [https://docs.microsoft.com/powershell/module/az.policyinsights/?view=azps-3.6.1#policy\_insights](https://docs.microsoft.com/powershell/module/az.policyinsights/?view=azps-3.6.1#policy_insights)
-
+* [Creating policies programmatically](https://docs.microsoft.com/azure/governance/policy/how-to/programmatically-create)
+* [Azure Policy documentation has reference to all commands with examples and helpful information](https://docs.microsoft.com/azure/governance/policy/)
+* [Azure Policy CLI commands](https://docs.microsoft.com/cli/azure/policy?view=azure-cli-latest)
+* [Azure Policy PS commands](https://docs.microsoft.com/powershell/module/az.resources/?view=azps-3.6.1#policies)
+* [Azure Policy Insights (compliance) commands](https://docs.microsoft.com/powershell/module/az.policyinsights/?view=azps-3.6.1#policy_insights)
