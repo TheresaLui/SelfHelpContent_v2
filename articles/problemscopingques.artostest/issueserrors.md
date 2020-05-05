@@ -69,22 +69,20 @@
 		"id": "problem_description",
 		"order": 4,
 		"controlType": "multilinetextbox",
-		"displayLabel": "Details",
-		"watermarkText": "Please provide a description of the problem including",
+		"displayLabel": "Please provide a description of the problem including",
+		"watermarkText": "provide as much of the above information here as you can",
 		"required": true,
 		"useAsAdditionalDetails": true,
 		"hints": [{
-			"text": "How reproducible is the problem?"
+			"text": "A list of the events that manifested the problem."
 		}, {
-			"text": "List the sequence of events that manifested the problem."
+			"text": "Any recent code changes or updates that might have triggered the issue"
 		}, {
-			"text": "Were there any recent code changes or updates that might have triggered the issue?"
+			"text": "The contents of the build_option variable"
 		}, {
-			"text": "What are the contents of the build_options variable?"
+			"text": "An instruction trace, if available"
 		}, {
-			"text": "Do you have an instruction trace?"
-		}, {
-			"text": "Do you have a sample program that exhibits the problem?"
+			"text": "A sample program that exhibits the problem, if possible"
 		}]
 	}, {
 		"id": "User Guides",
