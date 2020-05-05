@@ -17,11 +17,11 @@
     ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
 />
 
-# **An activity log alert fired when it shouldn't have**
+# An activity log alert fired when it shouldn't have
 
 [Activity Log alerts](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-activity-log-alerts?toc=/azure/azure-monitor/toc.json) monitor activity logs for your subscription and notify you if any activity log events match the condition set up in your alert rule.
 
-## Recommended Steps
+## **Recommended Steps**
 
 If you believe your activity log alert shouldn't have triggered but it did, the following steps might help resolve the issue.
 
