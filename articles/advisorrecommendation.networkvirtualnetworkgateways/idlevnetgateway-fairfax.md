@@ -3,9 +3,9 @@
     description="Repurpose or delete idle virtual network gateways"
     authors="anzaman"
     ms.author="alzam"
-    articleId="129d8c1e-a4d2-4bac-86ce-c7c2b2e37feb_Public"
+    articleId="129d8c1e-a4d2-4bac-86ce-c7c2b2e37feb_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Repurpose or delete idle virtual network gateways
@@ -17,7 +17,7 @@
   "recommendationTypeId": "129d8c1e-a4d2-4bac-86ce-c7c2b2e37feb",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "Microsoft.Cloud.idlevnetgateways",
+    "streamNamespace": "Microsoft.Cloud.idlevnetgatewaysff",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
@@ -25,7 +25,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Network/virtualNetworkGateways",
   "recommendationFriendlyName": "IdleVNetGateway",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "azvpnpms@microsoft.com",
