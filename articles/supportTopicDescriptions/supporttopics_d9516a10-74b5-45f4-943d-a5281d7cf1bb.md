@@ -10,7 +10,7 @@
   icmteam="icmteam"
   icmservice="icmservice"
   feedbackemail="cosmossupportability@microsoft.com"
-  ownershipId="StorageMediaEdge_DataLakeStorageGen2"
+  ownershipId="AzureData_AzureCosmosDB"
 />
 # Support Topic Descriptions for d9516a10-74b5-45f4-943d-a5281d7cf1bb
 ---
