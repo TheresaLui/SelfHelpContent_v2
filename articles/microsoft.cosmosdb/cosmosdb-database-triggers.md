@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-function-triggers"
+	articleId="cosmosdb-database-triggers"
 	displayOrder="287"
 	category="Tools and Connectors"
 	ownershipId="AzureData_AzureCosmosDB"
