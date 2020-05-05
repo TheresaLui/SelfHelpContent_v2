@@ -1,13 +1,13 @@
 <properties
-    pageTitle="Permission error message from Policy"
-    description="Permission error message from Policy"
+    pageTitle="Operation blocked by Policy"
+    description="Operation blocked by Policy"
     service="microsoft.authorization"
     resource="policyAssignments"
     authors="robga"
     ms.author="robga"
     displayOrder=""
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32730225,32730228,32730229,32730230,32730231,32730232,32730233,32730242,32730243"
+    supportTopicIds="32739637,32739636"
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
@@ -15,7 +15,7 @@
     schemaVersion="1"
     ownershipId="Compute_AzurePolicy"
 />
-# Permission error message from Policy
+# Operation blocked by Policy
 ---
 {
     "subscriptionRequired": true,
@@ -38,8 +38,15 @@
             "required": true
         },
         {
+            "id": "correlationId",
+            "order": 20,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide the correlation Id",
+            "required": true
+        },
+        {
             "id": "problem_description",
-            "order": 30,
+            "order": 40,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about the issue and what is your expectation",
