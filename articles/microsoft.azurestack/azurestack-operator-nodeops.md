@@ -17,7 +17,7 @@
 
 # Azure Stack Node Management issues
 
-Using the Azure Stack Administrator portal, you can view each physical node's status, and run node actions such as power on, power off, shut down, drain, resume, and repair. Most support questions that we receive related to node management are covered in the following documents. 
+Using the Azure Stack Administrator portal, you can view each physical node's status, and run node actions such as power on, power off, shut down, drain, resume, and repair. Most support questions about node management are covered in the following documents. 
 
 ## **Recommended Steps**
 
