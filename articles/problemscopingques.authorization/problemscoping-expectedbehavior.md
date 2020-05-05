@@ -111,7 +111,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is the expected behavior?",
             "watermarkText": "Provide additional information about the expected behavior",
-            "required": false,
+            "required": false
         },
         {
             "id": "current_behavior",
@@ -119,11 +119,11 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is the current behavior?",
             "watermarkText": "Provide additional information about the current behavior",
-            "required": false,
+            "required": false
         },
         {
             "id": "problem_description",
-            "order": 40,
+            "order": 70,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about the issue and what is your expectation",
