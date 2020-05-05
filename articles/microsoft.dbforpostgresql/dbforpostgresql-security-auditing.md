@@ -25,6 +25,7 @@ Database activity auditing is available using the pgAudit extension.
 
 * pgAudit cannot be used on Basic tier servers. Attempting to set it will cause an error.
 * By default, pgAudit log statements are emitted along with your regular log statements by using Postgres's standard logging facility. In Azure Database for PostgreSQL, these .log files can be downloaded through the Azure portal or the CLI.
+* The URL generated for accessing your .log file is authenticated using your logged in user's credentials. The URL includes a token that was generated from your authentication. Unauthenticated users cannot view the log unless you choose to share the URL,
 * Enabling pgAudit generates a large volume of logging on a server, which has an impact on performance and log storage. We recommend that you use the Azure diagnostic log service, which offers longer-term storage options, as well as analysis and alerting features. We recommend that you turn off standard logging to reduce the performance impact of additional logging:
 
    1. Set the parameter 'logging_collector' to OFF
