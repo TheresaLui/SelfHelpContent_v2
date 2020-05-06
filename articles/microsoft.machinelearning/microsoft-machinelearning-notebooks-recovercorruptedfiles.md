@@ -21,7 +21,7 @@ If your file was deleted or corrupted you might be able to find it in the checkp
 ## **Recommended Steps**
 1. Open the Terminal.
 2. Go into the folder that contains the corrupted file.
-3. The checkpoint file is located within a hidden folder named .ipynb_checkpoints, located within the same folder as the initial ipynb file.
+3. The checkpoint file is located within a hidden folder names .ipynb_checkpoints located with the same folder as the initial ipynb file.
 4. Copy this file into a folder outside the .ipynb_checkpoints to view it.
 
 ## **Recommended Documents**
