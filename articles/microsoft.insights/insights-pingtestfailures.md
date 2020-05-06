@@ -5,7 +5,7 @@
     resource="components"
     authors="mcosner"
     displayOrder="14"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds=""
     productPesIds="15693"
     cloudEnvironments="public, Fairfax, usnat, ussec"
