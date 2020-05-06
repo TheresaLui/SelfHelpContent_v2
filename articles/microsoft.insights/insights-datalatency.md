@@ -21,9 +21,8 @@
 Latency is expected in a highly distributed system. It is best to wait to see if the latency is persistent for more than two hours before attempting to open a ticket, as most latency issues are transient. To evaluate the actual amount of latency you can use the [ingestion_time()](https://docs.microsoft.com/azure/kusto/query/ingestiontimefunction) function. Here is an example query to investigate average latency per hour by data type:
 
 1. Verify the version of the SDK you are using is up to date or a [supported version](https://github.com/Microsoft/ApplicationInsights-Home#officially-supported-sdks)  
-2. Check the [Service Blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog) for any service outages
-3. Execute a comparable query in Analytics and compare it to the other screens, as it's possible the data is not returned only for the impacted window
-4. Verify the actual ingestion time compared to the timestamp using the query below
+2. Execute a comparable query in Analytics and compare it to the other screens, as it's possible the data is not returned only for the impacted window
+3. Verify the actual ingestion time compared to the timestamp using the query below
 
 ```
 union *
