@@ -1,6 +1,6 @@
 <properties
-    pageTitle="(New) Buy Cosmos DB reserved capacity to save money"
-    description="(New) Buy Cosmos DB reserved capacity to save money"
+    pageTitle="(Preview) Buy Cosmos DB reserved capacity to save money over pay-as-you-go costs"
+    description="(Preview) Buy Cosmos DB reserved capacity to save money over pay-as-you-go costs"
     authors="yashesvi"
     ms.author="yashar"
     articleId="a205074f-8049-48b3-903f-556f5e530ae3_Public"
@@ -12,7 +12,7 @@
 ---
 {
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
-  "recommendationOfferingName": "(New) Cosmos DB Reserved Capacity",
+  "recommendationOfferingName": "(Preview) Cosmos DB Reserved Capacity",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "a205074f-8049-48b3-903f-556f5e530ae3",
   "dataSourceMetadata": {
@@ -43,12 +43,12 @@
   "version": 2.0,
   "learnMoreLink": "https://aka.ms/reservedinstances",
   "description": "(Preview) Consider Cosmos DB reserved capacity to save money over pay-as-you-go costs",
-  "longDescription": "Reserved capacity can provide a significant discount over pay-as-you-go prices. With reserved capacity, you can pre-purchase your Cosmos DB hourly usage for a duration of 1 or 3 years. Discounts will automatically apply to new or existing matching deployments. We analyzed your usage over the last 30 days and recommend reserved capacity where we determined savings.",
+  "longDescription": "We analyzed your Cosmos DB usage pattern over last 30 days and recommend reserved capacity purchase to optimize costs. With reserved capacity you can pre-purchase Cosmos DB hourly usage and save over your pay-as-you-go costs. Reserved capacity is a billing benefit and will automatically apply to new or existing deployments. Saving estimates are calculated for individual subscriptions using 3-year reservation pricing and by extrapolating the usage pattern observed over last 30 days. Shared scope recommendations are available in reservation purchase experience and can increase savings even more.",
   "potentialBenefits": "savings",
   "actions": [
     {
       "actionId": "b3a3bbb5-feaf-4c02-9d67-aa314bc1b477",
-      "description": "(New) Consider {sku} reserved capacity",
+      "description": "(New) Consider purchasing {prettysku} reserved capacity",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Reservations",
       "bladeName": "CreateBlade",
