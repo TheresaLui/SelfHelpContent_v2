@@ -17,11 +17,11 @@
 />
 # I am having problems with my Java SDK data
 
-## **Recommended steps**
+## **Recommended Steps**
 
 ### Try Going Codeless
 
-It is recommended to try a codeless approach (currently in public preview) instead of the SDK. It is super easy to enable and does not require any code instrumentation. Follow the instructions to  enable the [Java agent](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent). 
+It is recommended to try a codeless approach (currently in public preview) instead of the SDK. It is super easy to enable and does not require any code instrumentation. Follow the instructions to enable the [Java agent](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent). 
 
 ### If you decide to stick with the SDK
 
