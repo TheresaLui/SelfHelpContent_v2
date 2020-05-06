@@ -1,6 +1,6 @@
 <properties
-    pageTitle="(Preview) Buy Cosmos DB reserved capacity to save money over pay-as-you-go costs"
-    description="(Preview) Buy Cosmos DB reserved capacity to save money over pay-as-you-go costs"
+    pageTitle="(Preview) Buy Cosmos DB reserved capacity to save over your pay-as-you-go costs"
+    description="(Preview) Buy Cosmos DB reserved capacity to save over your pay-as-you-go costs"
     authors="yashesvi"
     ms.author="yashar"
     articleId="a205074f-8049-48b3-903f-556f5e530ae3_Public"
