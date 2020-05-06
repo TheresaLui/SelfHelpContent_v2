@@ -20,13 +20,12 @@
 
 # This topic will guide you to the support experience for Azure, Intune and Enterprise Mobility Suite (EMS)
 
-This topic will guide you to the support experience for Azure, Intune and Enterprise Mobility Suite (EMS)
+This topic will guide you to the support experience for Azure, Intune, and Enterprise Mobility Suite (EMS).
 
 ## **Recommended Steps**
 
 - Submit a new support request through the [Microsoft Azure portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) (sign in required)
 - Search or contribute to the [Azure Community](https://go.microsoft.com/fwlink/p/?linkid=851642)
-
 
 ## **Recommended Documents**
 
@@ -35,3 +34,4 @@ This topic will guide you to the support experience for Azure, Intune and Enterp
  * [Azure Resources (including training, webinars, knowledge center, white papers, code samples, templates and more)](https://azure.microsoft.com/resources/?ocid=cs-pcsupport-azureresources)
  * [Azure Documentation](https://docs.microsoft.com/azure/?ocid=cs-pcsupport-azuredocs)
  * [Troubleshoot an Azure portal login issue](https://support.microsoft.com/help/4042961)
+ 
