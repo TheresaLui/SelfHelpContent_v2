@@ -7,30 +7,30 @@ resource="LoadBalancer"
 authors="irenehua"
 ms.author="irenehua"
 displayOrder="10"
-articleId="PortScanResultsForLoadBalancerResource"
-diagnosticScenario="PortScanResultsForLoadBalancerResource"
+articleId="PortScanResults"
+diagnosticScenario="PortScanResults"
 selfHelpType="Diagnostics"
 supportTopicIds="32436964,32436960,32582828,32582829,32582830,32582825,32582826,32582827,32582831,32582832,32436961,32573483,32582834,32436962,32565734,32565735,32565736,32582833"
 resourceTags="windows"
 productPesIds="16098"
 cloudEnvironments="public, fairfax, usnat, ussec"
-ownershipId="CloudNet_LoadBalancer"
+ownershipId="Cloudnet_NetworkWatcher"
 />
-# Microsoft Azure has identified an issue with your Load Balancer
+# Microsoft Azure has identified an issue with your virtual machine connectivity
 <!--issueDescription-->
-We have identified that your Load Balancer's backend pool members, **'<!--$VMArray-->[VMArray]<!--/$VMArray-->'** have firewall or application issues blocking ports **'<!--$PortsArray-->[PortsArray]<!--/$PortsArray-->'** in VNET **'<!--$VnetName-->[VnetName]<!--/$VnetName-->'** has
+We have identified that your virtual machine(s), **'<!--$VMArray-->[VMArray]<!--/$VMArray-->'** have firewall or application issues blocking port(s) **'<!--$PortsArray-->[PortsArray]<!--/$PortsArray-->'**.
 <!--/issueDescription-->
 
-This issue was caused by the VM configuration <application/firewall> that was not enabling network traffic to reach the application. By default, VM applications need to be configured to listen on particular TCP/UDP ports to receive the requests from the networking layer. A firewall rule must also be configured to allow this traffic through. 
+This issue is caused by a virtual machine (VM) application and/or firewall misconfiguration that is not enabling network traffic to reach the application. By default, VM applications need to be configured to listen on particular TCP/UDP ports to receive the requests from the networking layer. A firewall rule must also be configured to allow this traffic through. 
 
 ## **Recommended Steps**
 
 ### Windows
 
-1. Determine if the application on the VM is listening. Use the command netstat -ano | findstr LISTENING | findstr [portNumber] where [portNumber] is the port number you expect the computer to be listening on. If you do not see any result, the application is not listening on that port and you should troubleshoot the application. If you see output like the following, you know the application is listening:
+1. Determine if the application on the VM is listening on the expected port. Use PowerShell or the command prompt and enter the command: ***netstat -ano | findstr LISTENING | findstr [portNumber]*** where [portNumber] is the port number you expect the VM to be listening on. If you do not see any result, the application is not listening on that port and you should troubleshoot the application. If you see output like the following, you know the application is listening:
 
 ~~~powershell
-C:\Users\dgoddard>netstat -ano | findstr LISTENING | findstr 3389
+C:\Users\username>netstat -ano | findstr LISTENING | findstr 3389
   TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING       1540
   TCP    [::]:3389              [::]:0                 LISTENING       1540
 ~~~
@@ -43,7 +43,7 @@ In this example, we see that the application is listening on IPv4 which we know 
 netsh advfirewall set currentprofile state off
 ~~~
 
-Manually check for Blocking rules:
+Manually check for blocking rules:
 
    1. Windows key, type 'Firewall', select 'Windows Defender Firewall with Advanced Security"
    2. Select 'Inbound Rules' in the left pane
@@ -52,7 +52,7 @@ Manually check for Blocking rules:
 
 ### Linux
 
-1. Determine if the application on the VM is listening. The Linux command is similar to Windows: netstat -ano | grep LISTEN | grep 22 where 22 is the port number you expect the computer to be listening on. If you do not see any result, the application is not listening on that port and you should troubleshoot the application. If you see output like the following, you know the application is listening:
+1. Determine if the application on the VM is listening. The Linux command is similar to Windows: ***netstat -ano | grep LISTEN | grep 22*** where 22 is the port number you expect the computer to be listening on. If you do not see any result, the application is not listening on that port and you should troubleshoot the application. If you see output like the following, you know the application is listening:
 
 ~~~bash
 dave@tiger:~$ netstat -ano | grep LISTEN | grep 22

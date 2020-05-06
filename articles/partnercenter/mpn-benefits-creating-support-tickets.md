@@ -30,7 +30,6 @@ Resources providing knowledge of how to create technical support ticket on behal
 * [Technical Support for Microsoft Partners](https://support.microsoft.com/help/4020188/technical-support-for-microsoft-partners)
 
 * [Microsoft Partner Network Support contract activation and Access ID in Partner Center](https://support.microsoft.com/help/2904733/microsoft-partner-network-support-contract-activation)
-* [How many Partner support incidents are remaining?](https://support.microsoft.com/help/4559075/how-many-partner-support-incidents-are-remaining)
 
 * [How many Partner support incidents are remaining?](https://support.microsoft.com/help/4559075/how-many-partner-support-incidents-are-remaining)
 
