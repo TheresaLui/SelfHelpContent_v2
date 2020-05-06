@@ -41,7 +41,8 @@
                 "text": "Other, don't know or not applicable"
             }
 	    },
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",

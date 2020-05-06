@@ -4,7 +4,7 @@
     authors="Kim-Davis"
     ms.author="kimnich"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32739542,32739541,32739540"
+    supportTopicIds="32739542,32739541,32739540,32739537"
     productPesIds="17005"
     cloudEnvironments="public"
     schemaVersion="1"
