@@ -21,10 +21,10 @@
 
 If you are receiving an error while working with fired alerts using the API, CLI or ARM templates, follow these steps:
 
-### 1. Are you using the API directly?
+### Are you using the API directly?
 
 Follow the documentation on the [REST API](https://docs.microsoft.com/rest/api/monitor/alertsmanagement/alerts) for additional information and examples.
 
-### 2. Are you using PowerShell?
+### Are you using PowerShell?
 
 Follow the documentation on how to [list alerts](https://docs.microsoft.com/powershell/module/az.alertsmanagement/Get-AzAlert),[change alert state](https://docs.microsoft.com/powershell/module/az.alertsmanagement/Update-AzAlertState), or [get alert history](https://docs.microsoft.com/powershell/module/az.alertsmanagement/Get-AzAlertObjectHistory) using the [Az module](https://docs.microsoft.com/powershell/azure/new-azureps-module-az).
