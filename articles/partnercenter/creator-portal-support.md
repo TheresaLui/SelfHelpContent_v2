@@ -20,6 +20,7 @@
 
 # This topic will guide you to the support experience for Creator portal
 
+This topic will guide you to the support experience for Creator portal
 
 ## **Recommended Steps**
 
