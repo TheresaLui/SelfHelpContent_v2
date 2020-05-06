@@ -18,7 +18,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('acereservations.kusto.windows.net').database('reservations').getSQLDBRecoAdvisor()",
     "dataSource": "Kusto",
-    "refreshInterval":"00.12:00:00"
+    "refreshInterval":"00.00:10:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "High",
