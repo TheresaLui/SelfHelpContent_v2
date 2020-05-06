@@ -23,16 +23,15 @@ The number of log search alert rules per subscription and resource are subject t
 
 ## **Recommended Steps**
     
-If you have reached the quota limit, the following steps may help resolve the issue.
+If you have reached the quota limit, the following steps may help resolve the issue:
 
-1. Try deleting or disabling log search alert rules that aren’t used anymore.
+1. Try deleting or disabling log search alert rules that aren’t used anymore
 2. If you need the quota limit to be increased, please proceed to open a support request, and provide the following information:
 
     - Subscription Id(s) for which the quota limit need to be increased
     - Reason for quota increase
     - Resource type for the quota increase: **Log Analytics**, **Application Insights** ect.
     - Requested quota limit
-
 
 ## To check the current usage of new log alert rules
 	
