@@ -41,7 +41,7 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 2.0,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/cost-management-billing/reservations/reserved-instance-purchase-recommendations",
+  "learnMoreLink": "https://docs.microsoft.com/azure/cost-management-billing/reservations/reserved-instance-purchase-recommendations",
   "description": "(Preview) Consider SQL DB reserved capacity to save money over pay-as-you-go costs",
   "longDescription": "We analyze SQL PaaS elastic pools and managed instance usage pattern over last 30 days and recommend reserved capacity purchase that maximizes your savings. With reserved capacity you can pre-purchase SQL DB hourly usage and save over your SQL compute costs. SQL license is charged separately and is not discounted by the reservation. Reserved capacity is a billing benefit and will automatically apply to new or existing deployments. Saving estimates are calculated for individual subscriptions using 3-year reservation pricing and by extrapolating the usage pattern observed over last 30 days. Shared scope recommendations are available in reservation purchase experience and can increase savings further.",
   "potentialBenefits": "savings",
