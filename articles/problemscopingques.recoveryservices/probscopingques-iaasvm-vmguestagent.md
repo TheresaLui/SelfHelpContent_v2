@@ -1,25 +1,25 @@
 <properties
-         pageTitle="Scoping questions for Azure VM configuration protection failure"
-         description="Scoping questions for Azure VM configuration protection failure"
-         authors="srinathvasireddy"
-	 ms.author="srinathv"
+         pageTitle="Scoping questions for Azure VM Guest Agent issues"
+         description="Scoping questions for Azure VM Guest Agent issues"
+         authors="scavenger29"
+	 ms.author="akgoyal"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32553285,32637322"
-         productPesIds="15207,15571,15797,16454,16470,14749"
-         cloudEnvironments="public, Fairfax, usnat, ussec"
+         supportTopicIds="32684549"
+         productPesIds="15207"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
-	articleId="4142b082-0f6b-4169-80b3-6f551a623d13"
+	 articleId="probscopingques-iaasvm-vmguestagent"
 	ownershipId="StorageMediaEdge_Backup"
 />
-# Questions Azure VM configuration protection failure 
+# Questions Azure VM backup failure for windows
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Azure VM configuration failure",
+    "title": "Azure VM backup failure for windows",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-        "title": "Azure VM configuration failure",
+        "title": "Azure VM Guest Agent issues",
         "description": "These diagnostics will check for errors.",
         "insightNotAvailableText": "We didn't find any problems"
     },
@@ -57,7 +57,7 @@
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Select the error message that you are seeing?",
-            "watermarkText": "Choose an option",
+            "watermarkText": "Select",
             "dropdownOptions": [
                 {
                     "value": "VM Agent is unable to communicate with azure backup service",
@@ -68,24 +68,8 @@
                     "text": "Could not communicate with the VM agent for snapshot status"
                 },
                 {
-                    "value": "Snapshot operation failed due to no network connectivity on the virtual machine",
-                    "text": " Snapshot operation failed due to no network connectivity on the virtual machine"
-                },
-                {
-                    "value": "Could not copy the snapshot of the virtual machine",
-                    "text": "Could not copy the snapshot of the virtual machine"
-                },
-                {
-                    "value": "Could not communicate with the VM agent for snapshot status",
-                    "text": "Could not communicate with the VM agent for snapshot status"
-                },
-                {
                     "value": "VM is in Failed Provisioning State",
                     "text": "VM is in Failed Provisioning State"
-                },
-                {
-                    "value": "Currently Azure Backup does not support disk sizes greater than 1023GB",
-                    "text": "Currently Azure Backup does not support disk sizes greater than 1023GB"
                 },
                 {
                     "value": "dont_know_answer",
@@ -93,7 +77,7 @@
                 }
             ],
             "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "Basic_troubleshooting_multiselect",
