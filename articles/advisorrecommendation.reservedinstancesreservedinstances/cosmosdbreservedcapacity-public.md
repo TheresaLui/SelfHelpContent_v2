@@ -27,7 +27,7 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "cabri@microsoft.com",
     "icm": {
       "routingId": "CABRI://ReservationsCore",
       "service": "Reservations RP",
