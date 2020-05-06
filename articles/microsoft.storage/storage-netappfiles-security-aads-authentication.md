@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Enable Azure Active Directory Domain Services authentication on Azure Netapp Files"
-	description="Enable Azure Active Directory Domain Services authentication on Azure Netapp Files"
+	pageTitle="Enable Azure Active Directory Domain Services authentication on Azure NetApp Files"
+	description="Enable Azure Active Directory Domain Services authentication on Azure NetApp Files"
 	service="microsoft.storage"
 	resource="storage"
 	authors="b-amkohl"
@@ -19,4 +19,4 @@
 
 ## **Recommended Documents**
 
-- [Enable Azure Active Directory Domain Services authentication on Azure Netapp Files](https://docs.microsoft.com/azure/storage/files/storage-files-identity-auth-active-directory-domain-service-enable)<br>
+- [Enable Azure Active Directory Domain Services authentication on Azure NetApp Files](https://docs.microsoft.com/azure/storage/files/storage-files-identity-auth-active-directory-domain-service-enable)<br>
