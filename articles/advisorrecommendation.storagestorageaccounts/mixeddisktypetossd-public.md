@@ -38,7 +38,7 @@ ownershipId="StorageMediaEdge_XStore"
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/disks-types#disk-comparison",
   "description": "Use SSD Disks for your production workloads",
   "longDescription": "We noticed that you are using SSD disks while also using Standard HDD disks on the same VM. Standard HDD managed disks are generally recommended for dev-test and backup; we recommend you use Premium SSDs or Standard SSDs for production. Premium SSDs deliver high-performance and low-latency disk support for virtual machines with IO-intensive workloads. Standard SSDs provide consistent and lower latency. Upgrade your disk configuration today for improved latency, reliability, and availability. Upgrading requires a VM reboot, which will take three to five minutes.",
-  "potentialBenefits": "Leverage SSD disks for improved latency, reliability, and availability",
+  "potentialBenefits": "Improve latency, reliability, and availability",
   "actions": [
    {
       "actionId": "140099f4-b336-4685-8a58-f327e140ff14",
