@@ -1,13 +1,14 @@
 <properties
-	pageTitle="Azure RTOS Issues"
+	pageTitle="Azure RTOS NetX Issues"
 	description="Azure RTOS Scoping Questions to capture more information"
 	authors="michamay"
 	ms.author="micmay"
-	selfHelpType="problemScopingQuestions"	supportTopicIds="32725731,32725732,32725744,32725739,32725740,32725741,32725742,32725743,32725738,32725745,32725746,32725736,32725725"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32725742"
 	productPesIds="16920"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="65a4348a-2bab-4ab0-b5dc-4330ff026530"
+	articleId="a01ac848-bc9c-4b89-a126-be60009ce8ca"
 	ownershipId="Azure_RTOS"
 />
 # Problem Description
@@ -33,41 +34,8 @@
             "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
             "required": false
         }, {
-		"id": "I'm experienceing errors when setting up Azure RTOS",
-		"order": 3,
-		"controlType": "multiselectdropdown",
-		"infoBalloonText": "string",
-		"displayLabel": "What product(s) are you using?",
-		"watermarkText": "Choose an option",
-		"dropdownOptions": [{
-			"value": "Azure RTOS ThreadX",
-			"text": "Azure RTOS ThreadX"
-		}, {
-			"value": "Azure RTOS NetX",
-			"text": "Azure RTOS NetX"
-		}, {
-			"value": "Azure RTOS NetX Duo",
-			"text": "Azure RTOS NetX Duo"
-		}, {
-			"value": "Azure RTOS FileX",
-			"text": "Azure RTOS FileX"
-		}, {
-			"value": "Azure RTOS USBX",
-			"text": "Azure RTOS USBX"
-		}, {
-			"value": "Azure RTOS GUIX",
-			"text": "Azure RTOS GUIX"
-		}, {
-			"value": "Azure RTOS GUIX Studio",
-			"text": "Azure RTOS GUIX Studio"
-		}, {
-			"value": "Azure RTOS TraceX",
-			"text": "Azure RTOS TraceX"
-		}],
-		"required": false
-	}, {
 		"id": "problem_description",
-		"order": 4,
+		"order": 3,
 		"controlType": "multilinetextbox",
 		"displayLabel": "Please provide a description of the problem including",
 		"watermarkText": "provide as much of the above information here as you can",
@@ -86,7 +54,7 @@
 		}]
 	}, {
 		"id": "User Guides",
-		"order": 5,
+		"order": 4,
 		"controlType": "infoblock",
 		"content": "<a href='https://docs.microsoft.com/azure/rtos/'>please refer to the User Guide</a> for more information"
 	}]
