@@ -23,16 +23,15 @@ The number of metric alert rules per subscription is subject to the quota limits
 
 ## **Recommended Steps**
 
-If you have reached the quota limit, the following steps may help resolve the issue.
+If you have reached the quota limit, the following steps may help resolve the issue:
 
-1. Try deleting or disabling metric alert rules that aren’t used anymore.
+1. Try deleting or disabling metric alert rules that aren’t used anymore
 2. Switch to using metric alert rules that monitor multiple resources. With this capability, a single alert rule can monitor multiple resources, with only one alert rule counted against the quota. For more information about this capability and the supported resource types, see [here](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview#monitoring-at-scale-using-metric-alerts-in-azure-monitor).
 3. If you need the quota limit to be increased, please proceed to open a support request, and provide the following information:
 
     - Subscription Id(s) for which the quota limit need to be increased
     - Resource type for the quota increase: **Metric Alerts** or **Metric alerts (Classic)**
     - Requested quota limit
-
 
 ## To check the current usage of new metric alert rules
 	
@@ -46,6 +45,7 @@ If you have reached the quota limit, the following steps may help resolve the is
 6. The total number of metric alert rules will be displayed above the rules list
 
 ### From API
+
 - PowerShell - [Get-AzMetricAlertRuleV2](https://docs.microsoft.com/powershell/module/az.monitor/get-azmetricalertrulev2?view=azps-3.7.0)
 - REST API - [List by subscription](https://docs.microsoft.com/rest/api/monitor/metricalerts/listbysubscription)
 - Azure CLI - [az monitor metrics alert list](https://docs.microsoft.com/cli/azure/monitor/metrics/alert?view=azure-cli-latest#az-monitor-metrics-alert-list)
