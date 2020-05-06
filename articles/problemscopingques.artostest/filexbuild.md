@@ -35,7 +35,7 @@
             "required": false
         }, {
 		"id": "problem_description",
-		"order": 4,
+		"order": 3,
 		"controlType": "multilinetextbox",
 		"displayLabel": "Please provide a description of the problem including",
 		"watermarkText": "provide as much of the above information here as you can",
@@ -52,7 +52,7 @@
 		}]
 	}, {
 		"id": "User Guides",
-		"order": 5,
+		"order": 4,
 		"controlType": "infoblock",
 		"content": "<a href='https://docs.microsoft.com/azure/rtos/'>please refer to the User Guide</a> for more information"
 	}]
