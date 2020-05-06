@@ -22,8 +22,10 @@
 
 ## **Recommended Steps**
  
-- There are two pre-requisites for a partner to access the customer list:  they have to be enrolled as Direct CSP, Indirect provider, or Indirect reseller; and,  they need to have a role that allows them to add customers
-- Learn more about configuring user roles and permissions [here](https://docs.microsoft.com/en-us/partner-center/permissions-overview)
+- There are two pre-requisites for a partner to access the customer list: 
+    - they have to be enrolled as Direct CSP, Indirect provider, or Indirect reseller
+    - they need to have a role that allows them to add customers
+- Learn more about configuring user roles and permissions [here](https://docs.microsoft.com/partner-center/permissions-overview)
  
 ## **Recommended Documents**
 
