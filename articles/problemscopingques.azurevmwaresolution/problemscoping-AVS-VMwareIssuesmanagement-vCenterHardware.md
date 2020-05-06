@@ -1,5 +1,5 @@
 <properties
-                pageTitle="vCenter Hardware /addon"
+                pageTitle="vCenter Hardware  /addon"
                 description="vCenter Hardware /addon"
                 authors="neshenoy"
                 ms.author="neshenoy"
