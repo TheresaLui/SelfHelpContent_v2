@@ -22,7 +22,7 @@
     "title": "SQL DB Performance Troubleshooter",
     "description": "Our SQL DB Performance Troubleshooter can help you troubleshoot and solve your problem.",
     "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
-	}
+	},
     "formElements": [
 		{
             "id": "problem_start_time",
@@ -68,13 +68,13 @@
 				}, {
 					"value": "Error_Other",
 					"text": "Other error not listed"
-                                }, {
+                }, {
 					"value": "dont_know_answer",
 					"text": "Don't know answer"
 				}
 			],
 			"required": true
-		}, 
+		},
 		{
             "id": "problem_description",
             "order": 4,
@@ -87,6 +87,3 @@
     ]
 }
 ---
-
-
-
