@@ -31,11 +31,10 @@ union *
 | summarize avg(latency) by itemType, bin(timestamp, 1h)
 ```
 
-**Note**: We no longer have a data latency SLA. Please review our [current SLA](https://azure.microsoft.com/support/legal/sla/application-insights/v1_2/).<br>
+**Note**: We no longer have a data latency SLA. Please review our [current SLA](https://azure.microsoft.com/support/legal/sla/application-insights/v1_2/).
 
 
 ## **Recommended Documents**
 
-* [Application Insights SLA](https://azure.microsoft.com/support/legal/sla/application-insights/v1_2/)<br>
-* [Checking Ingestion Time](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#checking-ingestion-time)<br>
-* [Service Blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog)<br>
+* [Application Insights SLA](https://azure.microsoft.com/support/legal/sla/application-insights/v1_2/)
+* [Checking Ingestion Time](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#checking-ingestion-time)
