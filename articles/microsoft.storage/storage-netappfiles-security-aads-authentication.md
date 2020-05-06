@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
-	articleId="NetAppPerfLowThroughput"
+	articleId="NetAppADDSAuth"
 	ownershipId="AzureNetAppFiles"
 />
 
