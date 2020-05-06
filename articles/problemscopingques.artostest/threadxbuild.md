@@ -3,7 +3,7 @@
 	description="Azure RTOS Questions to capture more information"
 	authors="michamay"
 	ms.author="micmay"
-	selfHelpType="problemScopingQuestions"	
+	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32725744"
 	productPesIds="16920"
 	cloudEnvironments="public"
