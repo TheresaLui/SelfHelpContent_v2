@@ -8,7 +8,7 @@
 	displayOrder=""
 	articleId="NetAppVolumesIssueDataProtection"
 	selfHelpType="generic"
-	supportTopicIds="xxxxxxx"
+	supportTopicIds=32740761"
 	resourceTags=""
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
@@ -19,4 +19,4 @@
 
 ## **Recommended Documents**
 
-- [Manage snapshots by using Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-manage-snapshots)<br>
+- [Manage snapshots by using Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-manage-snapshots)<br>

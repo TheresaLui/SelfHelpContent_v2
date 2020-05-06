@@ -17,6 +17,6 @@
 
 # Common NetApp Capacity Pool Issues with Resize
 
-## Recommended Documents
+## **Recommended Documents**
 
-- [Resize a Capacity Pool](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-resize-capacity-pools-or-volumes)<br>
+- [Resize a Capacity Pool](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-resize-capacity-pools-or-volumes)<br>

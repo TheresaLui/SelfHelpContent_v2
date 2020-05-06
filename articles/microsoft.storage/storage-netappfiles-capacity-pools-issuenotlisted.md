@@ -17,8 +17,8 @@
 
 # Common NetApp Capacity Pool Issues
 
-## Recommended Documents
+## **Recommended Documents**
 
-- [Understanding the Storage Hierarchy of Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-understand-storage-hierarchy)<br>
-- [Register for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-register)<br>
-- [Getting access to Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-netapp-account)<br>
+- [Understanding the Storage Hierarchy of Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-understand-storage-hierarchy)<br>
+- [Register for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-register)<br>
+- [Getting access to Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-netapp-account)<br>
