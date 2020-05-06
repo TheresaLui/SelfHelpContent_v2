@@ -18,8 +18,9 @@
 	ownershipId="PartnerCenter_Other_Portals"
 />
 
-# This topic will guide you to the support experience for Dynamics 365, including on premises.
+# This topic will guide you to the support experience for Dynamics 365, including on premises
 
+This topic will guide you to the support experience for Dynamics 365, including on premises
 
 ## **Recommended Steps**
 
