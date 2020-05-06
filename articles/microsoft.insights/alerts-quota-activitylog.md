@@ -21,10 +21,8 @@
 
 ## **Recommended Steps**
 
-In a subscription up to 100 alert rules can be created for an activity of scope at either: a single resource, all resources in resource group (or) entire subscription level.
-A solution is to import the activity log into the log analytics workspace and use log search alerts instead. See information on importing activity log into Log Analytics workspace here.
-In a subscription up to 100 alert rules can be created for an activity of scope at either: a single resource, all resources in resource group (or) entire subscription level.
-A solution is to import the activity log into the log analytics workspace and use log search alerts instead. See information on importing activity log into Log Analytics workspace [here](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log-alerts).
+* In a subscription up to 100 alert rules can be created for an activity of scope at either: a single resource, all resources in resource group, or the entire subscription level
+* A solution is to import the activity log into the log analytics workspace and use log search alerts instead. See information on importing activity log into Log Analytics workspace [here](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log-alerts).
 
 ## **Recommended Documents**
 
