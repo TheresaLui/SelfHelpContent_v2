@@ -19,4 +19,4 @@
 
 ## **Recommended Documents**
 
-- [Enable Azure Active Directory Domain Services authentication on Azure Netapp Files](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-auth-active-directory-domain-service-enable)<br>
+- [Enable Azure Active Directory Domain Services authentication on Azure Netapp Files](https://docs.microsoft.com/azure/storage/files/storage-files-identity-auth-active-directory-domain-service-enable)<br>
