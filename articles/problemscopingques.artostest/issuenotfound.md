@@ -3,7 +3,8 @@
 	description="Azure RTOS Scoping Questions to capture more information"
 	authors="michamay"
 	ms.author="micmay"
-	selfHelpType="problemScopingQuestions"	supportTopicIds="32725731,32725732,32725744,32725739,32725740,32725741,32725742,32725743,32725738,32725745,32725746,32725736,32725725"
+	selfHelpType="problemScopingQuestions"	
+	supportTopicIds="32725736"
 	productPesIds="16920"
 	cloudEnvironments="public"
 	schemaVersion="1"
@@ -37,7 +38,7 @@
 		"order": 3,
 		"controlType": "multiselectdropdown",
 		"infoBalloonText": "string",
-		"displayLabel": "What product(s) are you using?",
+		"displayLabel": "In which product(s) are you experiencing the problem",
 		"watermarkText": "Choose an option",
 		"dropdownOptions": [{
 			"value": "Azure RTOS ThreadX",
