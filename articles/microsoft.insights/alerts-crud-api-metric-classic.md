@@ -17,7 +17,7 @@
     ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
 />
 
-# I am having issues managing classic metric alerts using ARM templates, REST API, PowerShell or CLI
+# I am having issues managing classic metric alerts using ARM templates, REST API, PowerShell, or CLI
 
 [Classic metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-classic-portal) monitor platform or custom metric values for your Azure resources and notify you if a metric breaches a threshold.
 
@@ -34,15 +34,15 @@ If you are running into issues creating/updating/deleting classic metric alerts 
 
 * Review the [REST API guide](https://docs.microsoft.com/rest/api/monitor/alertrules) to verify you are passing the all the parameters correctly
 
-**PowerShell**
+### PowerShell
 
-Review you are using the right PowerShell cmdlets for classic metric alerts:
+Ensure you are using the right PowerShell cmdlets for classic metric alerts:
 
-	* PowerShell cmdlets for classic metric alerts are available in the [Az.Monitor module](https://docs.microsoft.com/powershell/module/az.monitor/?view=azps-3.6.1)
-	* Make sure to use the cmdlets that **aren't** ending with V2, as those are for new (non-classic) metric alerts (e.g. to create a classic metric alert rule, use [Add-AzMetricAlertRule](https://docs.microsoft.com/powershell/module/az.monitor/Add-AzMetricAlertRule?view=azps-3.6.1))
+* PowerShell cmdlets for classic metric alerts are available in the [Az.Monitor module](https://docs.microsoft.com/powershell/module/az.monitor/?view=azps-3.6.1)
+* Make sure to use the cmdlets that **aren't** ending with V2, as those are for new (non-classic) metric alerts (e.g. to create a classic metric alert rule, use [Add-AzMetricAlertRule](https://docs.microsoft.com/powershell/module/az.monitor/Add-AzMetricAlertRule?view=azps-3.6.1))
 	
 ### CLI
 
 Ensure you are using the right CLI commands for metric alerts:
 
-	* CLI commands for classic metric alerts start with `az monitor alert`. Review the [Azure CLI reference](https://docs.microsoft.com/cli/azure/monitor/alert?view=azure-cli-latest) to learn about the syntax.
+* CLI commands for classic metric alerts start with `az monitor alert`. Review the [Azure CLI reference](https://docs.microsoft.com/cli/azure/monitor/alert?view=azure-cli-latest) to learn about the syntax.
