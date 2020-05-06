@@ -23,32 +23,27 @@
 	"description": "Our SQL DB Performance Troubleshooter can help you troubleshoot and solve your problem.",
 	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
 	},
-	"formElements": [
-		{
+	"formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start?",
 			"required": true,
 			"diagnosticInputRequiredClients": "Portal"
-		}, 
-		{
+		}, {
 			"id": "problem_end_time",
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
 			"required": false,
 			"diagnosticInputRequiredClients": "Portal"
-		}, 
-		{
+		}, {
 			"id": "feature_dropdown",
 			"order": 3,
 			"controlType": "dropdown",
 			"displayLabel": "Which feature are you requesting help for?",
 			"watermarkText": "Choose an option",
-			"dropdownOptions": 
-			[
-				{
+			"dropdownOptions": [{
 					"value": "Query_Performance_Insights",
 					"text": "Query Performance Insights can be used to easily monitor resource usage in your Azure SQL database (single or pooled database) by using build-in monitoring capabilities in the Azure portal"
 				}, {
@@ -66,8 +61,7 @@
 				}
 			],
 			"required": true
-		}, 
-		{
+		}, {
 			"id": "problem_description",
 			"order": 4,
 			"controlType": "multilinetextbox",

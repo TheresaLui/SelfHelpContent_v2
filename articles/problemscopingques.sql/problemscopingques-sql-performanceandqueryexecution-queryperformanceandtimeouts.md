@@ -23,24 +23,21 @@
 	"description": "Our SQL DB Performance Troubleshooter can help you troubleshoot and solve your problem.",
 	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
 	},
-	"formElements": [
-		{
+	"formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "What is the start time of the issue?",
 			"required": true,
 			"diagnosticInputRequiredClients": "Portal"
-		},
-		{
+		}, {
 			"id": "problem_end_time",
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "What is the end time of the issue?",
 			"required": true,
 			"diagnosticInputRequiredClients": "Portal"
-		},
-		{
+		}, {
 			"id": "recently_migrated",
 			"order": 3,
 			"controlType": "dropdown",
@@ -60,8 +57,7 @@
 					"value": "dont_know_answer"
 				}
 			]
-		},
-		{
+		}, {
 			"id": "application_type",
 			"order": 4,
 			"controlType": "dropdown",
@@ -82,8 +78,7 @@
 					"value": "dont_know_answer"
 				}
 			]
-		},
-		{
+		}, {
 			"id": "migration_backend",
 			"order": 5,
 			"controlType": "dropdown",
@@ -108,8 +103,7 @@
 					"value": "dont_know_answer"
 				}
 			]
-		},
-		{
+		}, {
 			"id": "problem_description",
 			"order": 6,
 			"controlType": "multilinetextbox",

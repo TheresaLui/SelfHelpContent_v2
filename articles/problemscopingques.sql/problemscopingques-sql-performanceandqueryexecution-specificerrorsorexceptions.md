@@ -23,24 +23,21 @@
 	"description": "Our SQL DB Performance Troubleshooter can help you troubleshoot and solve your problem.",
 	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
 	},
-	"formElements": [
-		{
+	"formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem start?",
 			"required": true,
 			"diagnosticInputRequiredClients": "Portal"
-		},
-		{
+		}, {
 			"id": "problem_end_time",
 			"order": 2,
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
 			"required": false,
 			"diagnosticInputRequiredClients": "Portal"
-		},
-		{
+		}, {
 			"id": "error_dropdown",
 			"order": 3,
 			"controlType": "dropdown",
@@ -74,8 +71,7 @@
 				}
 			],
 			"required": true
-		},
-		{
+		}, {
 			"id": "problem_description",
 			"order": 4,
 			"controlType": "multilinetextbox",
