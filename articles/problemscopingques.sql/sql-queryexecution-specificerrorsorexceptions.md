@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630454"
 	productPesIds="13491"
-	articleId="problemscopingques-sql-performanceandqueryexecution-specificerrorsorexceptions"
+	articleId="54414786-435A-4A75-8C1F-2BF0BD8E2169"
 	cloudEnvironments="public,blackForest,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
 	ownershipId="AzureData_AzureSQLDB_Performance"

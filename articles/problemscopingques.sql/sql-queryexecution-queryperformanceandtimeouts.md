@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630450"
 	productPesIds="13491"
-	articleId="problemscopingques-sql-performanceandqueryexecution-queryperformanceandtimeouts"
+	articleId="C00BD8E2-3CA0-451D-A2E5-8BE0987A0150"
 	cloudEnvironments="public,blackForest,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
 	ownershipId="AzureData_AzureSQLDB_Performance"

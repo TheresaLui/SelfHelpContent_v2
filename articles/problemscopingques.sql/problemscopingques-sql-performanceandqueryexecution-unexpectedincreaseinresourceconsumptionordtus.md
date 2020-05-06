@@ -13,9 +13,9 @@
 # Performance and query execution/unexpected increase in resource consumption or DTUs
 ---
 {
-	"$schema": "SelfHelpContent",
-	"resourceRequired": true,
-	"subscriptionRequired": true,
+  "$schema": "SelfHelpContent",
+  "subscriptionRequired": true,
+  "resourceRequired": true,
 	"title": "Unexpected increase in resource consumption or DTUs",
 	"fileAttachmentHint": "",
 	"diagnosticCard": {

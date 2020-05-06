@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630434"
 	productPesIds="13491"
-	articleId="problemscopingques-sql-performanceandqueryexecution-monitoringmetricsandalerts"
+	articleId="7CB09AA1-5844-4C6E-A7A2-B830CA09B2E3"
 	cloudEnvironments="public,blackForest,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
 	ownershipId="AzureData_AzureSQLDB_Performance"
