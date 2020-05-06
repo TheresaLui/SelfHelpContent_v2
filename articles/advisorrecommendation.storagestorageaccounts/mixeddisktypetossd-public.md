@@ -55,8 +55,7 @@ ownershipId="StorageMediaEdge_XStore"
       "bladeName": "StorageAccountBlade",
       "metadata": {
         "id": "{resourceId}"
-      },
-      "documentLink": "https://docs.microsoft.com/azure/virtual-machines/windows/convert-disk-storage"
+      }
     }
   },
   "displayLabel": "Use SSD Disks for your production workloads",
