@@ -38,7 +38,12 @@
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions":
+                {
+                "value": "dont_know_answer",
+                "text": "Other, don't know or not applicable"
+                }
             },
             "dropdownOptions": [
                 {
@@ -66,7 +71,7 @@
         },
         {
             "id": "port_number",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "diagnosticInputRequiredClients": "Portal",
             "displayLabel": "Select the port number you are unable to reach:",
@@ -161,7 +166,7 @@
         },
         {
             "id": "other_port_number",
-            "order": 4,
+            "order": 5,
             "visibility": "port_number == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Please provide the port you are unable to reach",
