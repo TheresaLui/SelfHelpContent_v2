@@ -13,25 +13,25 @@
 # Performance and query execution/monitoring metrics and alerts
 ---
 {
-    "$schema": "SelfHelpContent",
-    "resourceRequired": true,
-    "subscriptionRequired": true,
-    "title": "Monitoring Metrics and Alerts",
-    "fileAttachmentHint": "",
-    "diagnosticCard": {
-    "title": "SQL DB Performance Troubleshooter",
-    "description": "Our SQL DB Performance Troubleshooter can help you troubleshoot and solve your problem.",
-    "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+	"$schema": "SelfHelpContent",
+	"resourceRequired": true,
+	"subscriptionRequired": true,
+	"title": "Monitoring Metrics and Alerts",
+	"fileAttachmentHint": "",
+	"diagnosticCard": {
+	"title": "SQL DB Performance Troubleshooter",
+	"description": "Our SQL DB Performance Troubleshooter can help you troubleshoot and solve your problem.",
+	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
 	},
-    "formElements": [
+	"formElements": [
 		{
-            "id": "problem_start_time",
-            "order": 1,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start?",
-            "required": true,
+			"id": "problem_start_time",
+			"order": 1,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem start?",
+			"required": true,
 			"diagnosticInputRequiredClients": "Portal"
-        }, 
+		}, 
 		{
 			"id": "problem_end_time",
 			"order": 2,
@@ -60,7 +60,7 @@
 				}, {
 					"value": "Feature_Other",
 					"text": "Other feature not listed"
-                }, {
+				}, {
 					"value": "dont_know_answer",
 					"text": "Don't know answer"
 				}
@@ -68,14 +68,14 @@
 			"required": true
 		}, 
 		{
-            "id": "problem_description",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
-            "displayLabel": "Details of the issue.",
-            "watermarkText": "Please provide additional context for your Monitoring, Metrics and Alerts issues.",
-            "required": true
-        }
-    ]
+			"id": "problem_description",
+			"order": 4,
+			"controlType": "multilinetextbox",
+			"useAsAdditionalDetails": true,
+			"displayLabel": "Details of the issue.",
+			"watermarkText": "Please provide additional context for your Monitoring, Metrics and Alerts issues.",
+			"required": true
+		}
+	]
 }
 ---

@@ -13,25 +13,25 @@
 # Performance and query execution/specific errors or exceptions
 ---
 {
-    "$schema": "SelfHelpContent",
-    "resourceRequired": true,
-    "subscriptionRequired": true,
-    "title": "Specific errors or exceptions",
-    "fileAttachmentHint": "",
-    "diagnosticCard": {
-    "title": "SQL DB Performance Troubleshooter",
-    "description": "Our SQL DB Performance Troubleshooter can help you troubleshoot and solve your problem.",
-    "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+	"$schema": "SelfHelpContent",
+	"resourceRequired": true,
+	"subscriptionRequired": true,
+	"title": "Specific errors or exceptions",
+	"fileAttachmentHint": "",
+	"diagnosticCard": {
+	"title": "SQL DB Performance Troubleshooter",
+	"description": "Our SQL DB Performance Troubleshooter can help you troubleshoot and solve your problem.",
+	"insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
 	},
-    "formElements": [
+	"formElements": [
 		{
-            "id": "problem_start_time",
-            "order": 1,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start?",
-            "required": true,
+			"id": "problem_start_time",
+			"order": 1,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem start?",
+			"required": true,
 			"diagnosticInputRequiredClients": "Portal"
-        },
+		},
 		{
 			"id": "problem_end_time",
 			"order": 2,
@@ -68,7 +68,7 @@
 				}, {
 					"value": "Error_Other",
 					"text": "Other error not listed"
-                }, {
+				}, {
 					"value": "dont_know_answer",
 					"text": "Don't know answer"
 				}
@@ -76,14 +76,14 @@
 			"required": true
 		},
 		{
-            "id": "problem_description",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
-            "displayLabel": "Details of the issue.",
-            "watermarkText": "Please provide additional context for the error message you are encountering.",
-            "required": true
-        }
-    ]
+			"id": "problem_description",
+			"order": 4,
+			"controlType": "multilinetextbox",
+			"useAsAdditionalDetails": true,
+			"displayLabel": "Details of the issue.",
+			"watermarkText": "Please provide additional context for the error message you are encountering.",
+			"required": true
+		}
+	]
 }
 ---
