@@ -19,4 +19,4 @@
 
 ## **Recommended Documents**
 
-- [Azure netapp file security FAQs](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs#security-faqs)<br>
+- [Azure netapp file security FAQs](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-faqs#security-faqs)<br>
