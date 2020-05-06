@@ -5,9 +5,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630459"
 	productPesIds="13491"
-	articleId="problemscopingques-sql-performanceandqueryexecution-unexpectedincreaseinresourceconsumptionordtus"
-	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"	
+	cloudEnvironments="public,blackForest,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
+	articleId="problemscopingques-sql-performanceandqueryexecution-unexpectedincreaseinresourceconsumptionordtus"
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 # Performance and query execution/unexpected increase in resource consumption or DTUs
