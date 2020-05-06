@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16578"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-	articleId="b0aedf00-9a6b-4170-9f34-d46fa62e0dd3"
+	articleId="1894f02c-a027-4547-a9fe-fee4840432f5"
 	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
