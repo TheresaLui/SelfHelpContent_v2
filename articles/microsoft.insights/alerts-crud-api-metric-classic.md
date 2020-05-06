@@ -25,18 +25,24 @@
 
 If you are running into issues creating/updating/deleting classic metric alerts using ARM templates, REST API, PowerShell, or the Azure command line interface (CLI), the following steps may help resolve the issue.
 
-__ARM templates__
-	* Review [common Azure deployment errors](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors) list and troubleshoot accordingly.
-	* Refer to the [classic metric alerts ARM template examples](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-enable-template) to ensure you are passing the all the parameters correctly.
+### ARM templates
 
-__REST API__
-Review the [REST API guide](https://docs.microsoft.com/rest/api/monitor/alertrules) to verify you are passing the all the parameters correctly.
+* Review [common Azure deployment errors](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors) list and troubleshoot accordingly
+* Refer to the [classic metric alerts ARM template examples](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-enable-template) to ensure you are passing the all the parameters correctly
 
-__PowerShell__
+### REST API
+
+* Review the [REST API guide](https://docs.microsoft.com/rest/api/monitor/alertrules) to verify you are passing the all the parameters correctly
+
+**PowerShell**
+
 Review you are using the right PowerShell cmdlets for classic metric alerts:
-    * PowerShell cmdlets for classic metric alerts are available in the [Az.Monitor module](https://docs.microsoft.com/powershell/module/az.monitor/?view=azps-3.6.1)
-    * Make sure to use the cmdlets that **aren't** ending with V2, as those are for new (non-classic) metric alerts (e.g. to create a classic metric alert rule, use [Add-AzMetricAlertRule](https://docs.microsoft.com/powershell/module/az.monitor/Add-AzMetricAlertRule?view=azps-3.6.1))
+
+	* PowerShell cmdlets for classic metric alerts are available in the [Az.Monitor module](https://docs.microsoft.com/powershell/module/az.monitor/?view=azps-3.6.1)
+	* Make sure to use the cmdlets that **aren't** ending with V2, as those are for new (non-classic) metric alerts (e.g. to create a classic metric alert rule, use [Add-AzMetricAlertRule](https://docs.microsoft.com/powershell/module/az.monitor/Add-AzMetricAlertRule?view=azps-3.6.1))
 	
-__CLI__
-Review you are using the right CLI commands for metric alerts:
-    * CLI commands for classic metric alerts start with `az monitor alert`. Review the [Azure CLI reference](https://docs.microsoft.com/cli/azure/monitor/alert?view=azure-cli-latest) to learn about the syntax
+### CLI
+
+Ensure you are using the right CLI commands for metric alerts:
+
+	* CLI commands for classic metric alerts start with `az monitor alert`. Review the [Azure CLI reference](https://docs.microsoft.com/cli/azure/monitor/alert?view=azure-cli-latest) to learn about the syntax.
