@@ -1,12 +1,12 @@
 <properties
-	pageTitle="Data Protection Issues"
-	description="Data Protection Issues"
+	pageTitle="Backup and Restore Issues"
+	description="Backup and Restore Issues"
 	service="microsoft.storage"
 	resource="storage"
 	authors="b-kelamb"
 	ms.author="b-kelamb"
 	displayOrder=""
-	articleId="NetAppVolumesIssueDataProtection"
+	articleId="NetAppVolumesIssueBackupRestore"
 	selfHelpType="generic"
 	supportTopicIds=32740761"
 	resourceTags=""
@@ -15,7 +15,7 @@
 	ownershipId="AzureNetAppFiles"
 />
 
-# Common NetApp Volumes Issues Data Protection
+# Common NetApp Volumes Issues Backup and Restore
 
 ## **Recommended Documents**
 
