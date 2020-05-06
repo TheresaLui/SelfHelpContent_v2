@@ -5,7 +5,7 @@
 	authors="b-amkohl"
 	ms.author="b-amkohl"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32640619"
+	supportTopicIds="32740770"
 	productPesIds="16469"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 	schemaVersion="1"
