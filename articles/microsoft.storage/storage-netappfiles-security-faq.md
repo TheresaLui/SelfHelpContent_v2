@@ -7,7 +7,7 @@
 	ms.author="b-amkohl"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32640631"
+	supportTopicIds="32740770"
 	resourceTags=""
 	productPesIds="16469"
 	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
