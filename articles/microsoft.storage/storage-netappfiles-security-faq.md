@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure netapp file security FAQs"
-	description="Azure netapp file security FAQs"
+	pageTitle="Azure NetApp file security FAQs"
+	description="Azure NetApp file security FAQs"
 	service="microsoft.storage"
 	resource="storage"
 	authors="b-amkohl"
@@ -19,4 +19,4 @@
 
 ## **Recommended Documents**
 
-- [Azure netapp file security FAQs](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-faqs#security-faqs)<br>
+- [Azure NetApp file security FAQs](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-faqs#security-faqs)<br>
