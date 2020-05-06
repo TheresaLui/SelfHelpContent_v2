@@ -28,7 +28,7 @@ To view shared Notebooks you have to have access to the workspace. Most users ar
 4. If the user doesn't have access, Click the "+ Add" button
 5. Add the user the appropriate level of access. 
 
-Note: Reader access is the minimum level of access to view a shared Notebook
+Note: Reader access is the minimum level of access to view a shared Notebook.
 
 ## **Recommended Documents**
 
