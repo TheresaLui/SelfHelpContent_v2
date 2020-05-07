@@ -27,7 +27,7 @@ Azure Resource Health alerts tracks the health of your resources, it tracks reso
 
 Azure Service Health tracks the health of your Azure services in the regions where you use them. You can set up activity log alerts on Service Health events to get notified of ongoing service issues, upcoming planned maintenance, or relevant health advisories.
 
-## **recommended steps**
+## **Recommended Steps**
 
 ### Service Health
 
