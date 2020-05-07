@@ -54,24 +54,8 @@
             "required": false
         },
         {
-            "id": "problem_start_time",
-            "order": 2,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem begin?",
-            "required": true
-        },
-        {
-            "id": "problem_description",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "diagnosticInputRequiredClients": "Portal",
-            "displayLabel": "Please provide the public IP address",
-            "required": true,
-            "useAsAdditionalDetails": true
-        },
-        {
             "id": "port_number",
-            "order": 4,
+            "order": 2,
             "controlType": "dropdown",
             "diagnosticInputRequiredClients": "Portal",
             "displayLabel": "Select the port number you are unable to reach:",
@@ -166,12 +150,28 @@
         },
         {
             "id": "other_port_number",
-            "order": 5,
+            "order": 3,
             "visibility": "port_number == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Please provide the port you are unable to reach",
             "watermarkText": "Enter the port",
             "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 4,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "diagnosticInputRequiredClients": "Portal",
+            "displayLabel": "Please provide the public IP address",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"
