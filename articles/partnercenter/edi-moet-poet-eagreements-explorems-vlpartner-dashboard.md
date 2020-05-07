@@ -20,7 +20,7 @@
 
 # Get more information and support for other tools used to support the Volume Licensing operations business
 
-Get more information and support for other tools used to support the Volume Licensing operations business
+Get more information and support for other tools used to support the Volume Licensing operations business.
 
 ## **Recommended Steps**
 
