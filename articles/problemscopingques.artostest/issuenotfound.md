@@ -77,13 +77,13 @@
 		"hints": [{
 			"text": "A list of the events that manifested the problem."
 		}, {
-			"text": "Any recent code changes or updates that might have triggered the issue"
+			"text": "Any recent code changes or updates that might have triggered the issue."
 		}, {
-			"text": "The contents of the build_option variable"
+			"text": "The contents of the 'build_option' variable."
 		}, {
-			"text": "An instruction trace, if available"
+			"text": "An instruction trace, if available."
 		}, {
-			"text": "A sample program that exhibits the problem, if possible"
+			"text": "A sample program that exhibits the problem, if possible."
 		}]
 	}, {
 		"id": "User Guides",
