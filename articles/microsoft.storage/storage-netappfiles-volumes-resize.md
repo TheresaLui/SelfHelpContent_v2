@@ -20,4 +20,4 @@
 ## **Recommended Documents**
 
 - [Resize a capacity pool or volumes](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-resize-capacity-pools-or-volumes)<br>
-- [Resource limits for Azure NetApp FIles](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-resource-limits)<br>
+- [Resource limits for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-resource-limits)<br>

@@ -17,7 +17,7 @@
 
 # Common NetApp Volumes Issues
 
-## Recommended Documents
+## **Recommended Documents**
 
 - [Understanding the Storage Hierarchy of Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-understand-storage-hierarchy)<br>
 - [Register for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-register)<br>

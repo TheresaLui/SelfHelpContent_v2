@@ -17,7 +17,7 @@
 
 # Common NetApp Volumes Issues Resource Tags
 
-## **Problems creating a volume with resource tags**
+## Problems creating a volume with resource tags
 
 Azure NetApp Files supports the use of resource tags with Volumes, but not with snapshots.  If you are having issues with adding resource tags during volume creation, try creating the volume first and then adding tags once the volume create is complete.
 

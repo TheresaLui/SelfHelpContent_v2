@@ -17,11 +17,11 @@
 
 # Common NetApp Volumes Issues SMB, DNS, Active Directory
 
-## **DNS and AD Connectivity Issues**
+## DNS and AD Connectivity Issues
 
 Many DNS/AD issues are due to incorrect or unsupported network configurations.  When you encounter connectivity issues, please review the [Guidelines for Azure NetApp Files network planning](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-network-topologies) document and make sure your network configuration and Vnet peering follows the supported configurations. 
 
-**Recommended Documents**
+## **Recommended Documents**
 
 - [SMB FAQs](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-faqs#smb-faqs)<br>
 - [Create an SMB Volumes for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)<br>
