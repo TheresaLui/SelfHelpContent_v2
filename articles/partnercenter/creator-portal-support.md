@@ -29,5 +29,5 @@ This topic will guide you to the support experience for Creator portal.
 
 ## **Recommended Documents**
 
- * [Build innovative solutions with Microsoft](https://partner.microsoft.com/membership/internal-use-software)
+- [Build innovative solutions with Microsoft](https://partner.microsoft.com/membership/internal-use-software)
 
