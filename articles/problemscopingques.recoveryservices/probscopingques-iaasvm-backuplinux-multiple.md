@@ -70,10 +70,6 @@
                     "text": "Could not copy the snapshot of the virtual machine"
                 },
                 {
-                    "value": "Could not communicate with the VM agent for snapshot status",
-                    "text": "Could not communicate with the VM agent for snapshot status"
-                },
-                {
                     "value": "VM is in Failed Provisioning State",
                     "text": "VM is in Failed Provisioning State"
                 },
