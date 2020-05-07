@@ -8,7 +8,7 @@
          productPesIds="15207,15571,15797,16454,16470,14749"
          cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
-	articleId="probscopingques-iaasvm-configfailure-2"
+	articleId="probscopingques-iaasvm-configfailure-multiple"
 	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM configuration protection failure 
