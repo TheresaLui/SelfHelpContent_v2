@@ -20,7 +20,7 @@
 
 # This topic will guide you to the Azure DevOps, Visual Studio and Window UWP Development support and documents
 
-This topic will guide you to the Azure DevOps, Visual Studio and Window UWP Development support and documents
+This topic will guide you to the Azure DevOps, Visual Studio and Window UWP Development support and documents.
 
 ## **Recommended Steps**
 
