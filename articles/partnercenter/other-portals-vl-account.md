@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Volume license Account Setup and Management"
-	description="Include Account Setup and Management"
+	description="Include Account Setup and Management details"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="other"
