@@ -8,21 +8,16 @@
          productPesIds="15207"
          cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
-	articleId="dcc0ea6d-9270-4719-82d0-a395117abb9f"
+	articleId="probscopingques-iaasvm-restorewinfailure-multiple"
 	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM Restore failure for Windows 
 ---
 {
-    "resourceRequired": true,
+    "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Azure VM Restore failure for Windows",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "Azure VM Restore failure for Windows",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "vm_facing_issue",
@@ -41,8 +36,7 @@
                 "text": "Other, don't know or not applicable"
             }
 	    },
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "JobID_Name",
@@ -76,8 +70,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "problem_description",
@@ -94,8 +87,7 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"

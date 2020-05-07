@@ -1,28 +1,23 @@
 <properties
-         pageTitle="Scoping questions for Azure VM Restore failure for Windows"
-         description="Scoping questions for Azure VM Restore failure for Windows"
-         authors="srinathvasireddy"
-	 ms.author="srinathv"
+         pageTitle="Scoping questions for Azure VM Restore failure for Linux"
+         description="Scoping questions for Azure VM Restore failure for Linux"
+         authors="scavenger29"
+	 ms.author="akgoyal"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32553299"
+         supportTopicIds="32553297"
          productPesIds="15207"
          cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
-	articleId="dcc0ea6d-9270-4719-82d0-a395117abb9f"
+	articleId="probscopingques-iaasvm-restorelinuxfailure-multiple"
 	ownershipId="StorageMediaEdge_Backup"
 />
-# Questions Azure VM Restore failure for Windows 
+# Questions Azure VM Restore failure for Linux 
 ---
 {
-    "resourceRequired": true,
+    "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Azure VM Restore failure for Windows",
+    "title": "Azure VM Restore failure for Linux",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "Azure VM Restore failure for Windows",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "vm_facing_issue",
@@ -41,8 +36,7 @@
                 "text": "Other, don't know or not applicable"
             }
 	    },
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "JobID_Name",
@@ -56,28 +50,27 @@
             "id": "Restoration_Type",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Which type of restore you are performing?",
+            "displayLabel": "Which type of restore are you performing?",
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
-                    "Value": "Restoring VMs in Azure Portal",
-                    "Text": "Restoring VMs in Azure Portal"
+                    "value": "Restoring VMs in Azure Portal",
+                    "text": "Restoring VMs in Azure Portal"
                 },
                 {
-                    "Value": "Recovering files from Azure VMs backups",
-                    "Text": "Recovering files from Azure VMs backups"
+                    "value": "Recovering files from Azure VMs backups",
+                    "text": "Recovering files from Azure VMs backups"
                 },
                 {
-                    "Value": "Restore encrypted VMs",
-                    "Text": "Restore encrypted VMs"
+                    "value": "Restore encrypted VMs",
+                    "text": "Restore encrypted VMs"
                 },
                 {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "problem_description",
@@ -94,8 +87,7 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
