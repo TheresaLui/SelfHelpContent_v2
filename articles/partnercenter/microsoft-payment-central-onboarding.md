@@ -25,9 +25,9 @@ This topic will guide you to the Microsoft Payment Central onboarding and accoun
 
 ## **Recommended Steps**
 
- - For support, click Request Support (sign in required) on the [Payment Central FAQ page](https://paymentcentral.microsoft.com/Home#!/Faq/info)
+- For support, click Request Support (sign in required) on the [Payment Central FAQ page](https://paymentcentral.microsoft.com/Home#!/Faq/info)
 
 
 ## **Recommended Documents**
 
- * [General information on Payment Central](https://www.microsoft.com/procurement/payment-central.aspx?rtc=1)
+- [General information on Payment Central](https://www.microsoft.com/procurement/payment-central.aspx?rtc=1)
