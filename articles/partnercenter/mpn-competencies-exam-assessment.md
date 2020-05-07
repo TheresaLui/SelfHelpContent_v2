@@ -7,7 +7,7 @@
 	authors="KalpanaChawla-Infosys"
 	ms.author="v-kalpc"
 	displayOrder=""
-	articleId="mpn_benefits_not_able_to_see_benefits"
+	articleId="mpn_competencies_exam_assessment"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32681443"

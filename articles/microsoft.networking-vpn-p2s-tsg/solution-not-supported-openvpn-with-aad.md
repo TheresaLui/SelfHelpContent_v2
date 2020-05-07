@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax"
-	articleId="8745748b-81a4-4dd5-a5ac-8ea77cb2a6cd"
+	articleId="8745748b-81a4-4dd5-a5ac-8ea77cb2a6cd-openvpn"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
 
