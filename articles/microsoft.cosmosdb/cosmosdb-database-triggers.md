@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure Cosmos DB Triggers"
-	description="Configure Azure Cosmos DB Triggers"
+	pageTitle="Azure Cosmos DB database Triggers"
+	description="Issues with Azure Cosmos DB database Triggers"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
 	authors="jimsch"
@@ -31,7 +31,7 @@ Azure Cosmos DB supports two types of triggers:
 <br>Similar to pre-triggers, post-triggers, are also associated with an operation on an Azure Cosmos item and they do not require any input parameters. They run after the operation has completed and have access to the response message that is sent to the client. For examples, see the [How to write triggers article](https://docs.microsoft.com/azure/cosmos-db/how-to-use-stored-procedures-triggers-udfs#post-triggers).
 
 ### **Azure Functions trigger**
-If your issue is with the Azure Functions Trigger for Cosmos DB, please see the specific `Azure Functions Trigger` solution steps.
+If your issue is with the Azure Functions Trigger for Cosmos DB, please see the specific `Azure Functions` problem type.
 
 ## **Recommended Documents**
 
