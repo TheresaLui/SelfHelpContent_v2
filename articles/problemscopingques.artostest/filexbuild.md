@@ -37,18 +37,18 @@
 		"id": "problem_description",
 		"order": 3,
 		"controlType": "multilinetextbox",
-		"displayLabel": "Please provide a description of the problem including",
+		"displayLabel": "Please provide a description of the problem including;",
 		"watermarkText": "provide as much of the above information here as you can",
 		"required": true,
 		"useAsAdditionalDetails": true,
 		"hints": [{
 			"text": "A list of the events that manifested the problem."
 		}, {
-			"text": "Any recent code changes or updates that might have triggered the issue"
+			"text": "Any recent code changes or updates that might have triggered the issue."
 		}, {
-			"text": "The contents of the build_option variable"
+			"text": "The contents of the 'build_option' variable."
 		}, {
-			"text": "A sample program that exhibits the problem, if possible"
+			"text": "A sample program that exhibits the problem, if possible."
 		}]
 	}, {
 		"id": "User Guides",
