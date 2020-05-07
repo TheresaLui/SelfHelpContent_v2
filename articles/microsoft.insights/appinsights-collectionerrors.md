@@ -5,7 +5,7 @@
     resource="components"
     authors="neghuman"
     ms.author="neghuman"
-    articleId="insights_collectionerrors"
+    articleId="appinsights-collectionerrors"
     displayOrder="101"
     selfHelpType="generic"
     supportTopicIds="32729612"
