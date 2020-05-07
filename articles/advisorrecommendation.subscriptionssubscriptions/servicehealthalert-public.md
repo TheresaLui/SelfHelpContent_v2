@@ -1,8 +1,8 @@
 <properties
     pageTitle="Create an Azure service health alert"
     description="Create an Azure service health alert"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    authors="ahex"
+    ms.author="ahex"
     articleId="c6ac1f03-bd58-4421-9522-23cffb64d8e1_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
@@ -26,13 +26,13 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "ahex@microsoft.com",
     "icm": {
       "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "service": "Azure Service Health",
+      "team": "Azure Service Health"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "ed05f3b7-8949-4698-9b38-49ab8abb5ee0"
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
