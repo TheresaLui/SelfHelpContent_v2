@@ -23,7 +23,7 @@
   "recommendationCategory": "Cost",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
-  "recommendationFriendlyName": "ReservedCapacity",
+  "recommendationFriendlyName": "SQLReservedCapacity",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
