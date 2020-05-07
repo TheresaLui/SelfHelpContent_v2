@@ -11,7 +11,8 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="indexer-field-mapping"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureSearch_AzureSearch"
 />
 # Issue with indexer field mapping
 

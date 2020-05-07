@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds=""
 	productPesIds="16098"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="700961cc-d014-4553-be70-2069dc2e00ff"
+	ownershipId="CloudNet_LoadBalancer"
 />
 # SLB - No outbound connectivity from the backend pool
 ---

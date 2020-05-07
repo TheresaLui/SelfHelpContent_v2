@@ -10,8 +10,9 @@
     supportTopicIds="32673563"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="4fcc0f1f-ce80-414d-bab3-33fb8303122d"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Monitoring replication
@@ -25,6 +26,7 @@ Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Documents**
 
+* [How to monitor replication lag in the portal](https://docs.microsoft.com/azure/mariadb/howto-read-replicas-portal#monitor-replication)<br>
 * [How to create and manage read replicas in the portal](https://docs.microsoft.com/azure/mariadb/howto-read-replicas-portal)<br>
 * [Use Azure CLI to create and manage read replicas](https://docs.microsoft.com/azure/mariadb/howto-read-replicas-cli)<br>
 * [Overview on read replicas](https://docs.microsoft.com/azure/mariadb/concepts-read-replicas)

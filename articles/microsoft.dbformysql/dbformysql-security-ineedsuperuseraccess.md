@@ -10,8 +10,9 @@
     supportTopicIds="32640062"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="1914abe8-9057-40cd-a970-b67c9cf10fd2"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Managing permissions on in Azure Database for MySQL servers

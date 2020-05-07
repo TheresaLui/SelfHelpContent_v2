@@ -11,7 +11,8 @@
     selfHelpType="generic"
     resourceTags="datawarehouse"
     articleId="dw-backuprestoreandbusinesscontinuity-understandingautomatedbackup.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Troubleshooting automated backups
@@ -23,7 +24,8 @@
 * The user doesn't have to enable this capability
 * Automatic restore points are available for 7 days. If you require restore points longer than 7 days, please vote for this capability [here](https://feedback.azure.com/forums/307516-sql-data-warehouse/suggestions/35114410-user-defined-retention-periods-for-restore-points).
 * Automatic restore points can't be deleted by the user. SQL Data Warehouse deletes a restore point when it hits the 7-day retention period and when there are at least 42 restore points (user-defined as well as automatic).
-Snapshots are not taken when the data warehouse is paused. If a snapshot is taken and the data warehouse is paused for more than 7 days and then resumed, it is possible for the restore point to persist longer than 7 days until there are 42 total restore points.
+Snapshots are not taken when the data warehouse is paused.
+* If a snapshot is taken and the data warehouse is paused for more than 7 days and then resumed, it is possible for the restore point to persist longer than 7 days until there are 42 total restore points. Backups don't occur when the data warehouse is paused so the storage cost for backup should remain constant during this time.
 
 ## **Recommended Documents**
 

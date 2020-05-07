@@ -9,8 +9,9 @@
 	supportTopicIds="32589276"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="7c5352a7-88b1-4d12-b168-e256f0235d4a"
+	ownershipId="Compute_AppService"
 />
 # Questions on backup and restore feature
 ## **Recommended documents**

@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32637268"
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="ccf5c838-b5b3-4d04-b811-a9f0b9ac19c8"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Bacpac import

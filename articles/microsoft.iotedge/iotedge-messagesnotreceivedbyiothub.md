@@ -9,8 +9,9 @@
 	supportTopicIds="32680967"
 	resourceTags=""
 	productPesIds="16509"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="6ded4d27-ef4e-4873-a6ad-48e38fc66061"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # Device-to-cloud messages aren't reaching IoT Hub

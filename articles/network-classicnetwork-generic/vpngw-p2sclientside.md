@@ -10,8 +10,9 @@
     supportTopicIds="32633158"
     resourceTags=""
     productPesIds="16094"
-    cloudEnvironments="public, fairfax, blackforest, mooncake"
+    cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
     articleId="vpngw-p2sclientside"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Point-to-Site client side issues
 

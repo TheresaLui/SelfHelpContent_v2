@@ -10,8 +10,9 @@
 	supportTopicIds="32681389"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="9da245cc-df8d-45e2-bfc7-6243c83bd22c"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Delta

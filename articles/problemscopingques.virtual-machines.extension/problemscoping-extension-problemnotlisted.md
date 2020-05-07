@@ -4,11 +4,12 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32628278"
+                supportTopicIds="32628278,32674480,32674479,32674478,32674481"
                 productPesIds="14749,15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0049"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Agent and extensions
 ---
@@ -116,7 +117,7 @@
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "required": true
         },
         {

@@ -9,8 +9,9 @@
 	supportTopicIds="32548805"
 	resourceTags=""
 	productPesIds="16125"
-	cloudEnvironments="public,BlackForest,Fairfax"
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
 	articleId="589a38f9-5e6d-4a32-871c-03ca9c3f7d38"
+	ownershipId="AzureMessaging_Common"
 />
 
 # portal and powershell commands

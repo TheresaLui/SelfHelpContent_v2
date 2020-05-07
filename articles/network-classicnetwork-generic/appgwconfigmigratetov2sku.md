@@ -10,8 +10,9 @@
 	supportTopicIds="32674896"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="configure-migrate-to-v2-sku"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Migrate from V1 to V2 SKU

@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32630447"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="b083d487-6502-42ac-8e15-db685b3a96e6"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # service tiers or scaling resources/my issue is not listed

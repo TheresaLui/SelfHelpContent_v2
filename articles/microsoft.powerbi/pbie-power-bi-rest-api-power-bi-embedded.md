@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628139"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="58aa1baf-fbb8-afcf-94f1-22b8ede46fda"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Power BI REST APIs

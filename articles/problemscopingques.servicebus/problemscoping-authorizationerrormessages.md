@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633394"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="sb-auth-issues"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Authorization Issues
 ---

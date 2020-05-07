@@ -13,7 +13,8 @@
 	supportTopicIds="32631233"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Azure Account Failover Cannot Fail Back Storage Account

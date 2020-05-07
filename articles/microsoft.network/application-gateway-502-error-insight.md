@@ -11,8 +11,9 @@
     diagnosticScenario="ApplicationGateway502BadGatewayError"
     supportTopicIds="32573483,32680993"
 	productPesIds="15922"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
- />
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Bad Gateway Error (502)
 

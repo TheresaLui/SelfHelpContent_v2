@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="7a6b9fa0-6318-48ab-a2e7-41f132342f95"
+	ownershipId="ASMS_Billing"
 />
 
 # I received a past due balance notification

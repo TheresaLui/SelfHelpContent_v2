@@ -7,8 +7,9 @@
 	ms.author="khzayed"
 	selfHelpType="problemScopingQuestions"
 	productPesIds="15551"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="Compute_APIManagement"
 />
 # Migrating between Environment or Subscriptions
 ---

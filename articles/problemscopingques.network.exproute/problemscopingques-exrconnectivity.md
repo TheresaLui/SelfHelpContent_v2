@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32627985"
     productPesIds="15480"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="a4b6173d-6354-4f2d-8526-36a830ea0098"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 # Azure ExpressRoute connectivity to Azure Private, Public, or Dynamic 365 services questions
 ---

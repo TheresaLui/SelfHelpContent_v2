@@ -5,14 +5,15 @@
 	resource="databaseAccounts"
 	authors="olignat"
 	ms.author="olignat"
-	selfHelpType="resource"
-	supportTopicIds="32675638"
+	selfHelpType="generic"
+	supportTopicIds="32675638,32684531"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-gremlin-unsupported"
 	displayOrder="187"
 	category="Gremlin (Graph)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Gremlin - Unsupported Features
 

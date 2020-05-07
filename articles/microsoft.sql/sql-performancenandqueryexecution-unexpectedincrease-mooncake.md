@@ -7,12 +7,13 @@
     ms.author="emlisa"
     authorAlias="emlisa"
 	displayOrder="28"
-	selfHelpType="resource"
-	supportTopicIds=""
-	productPesIds=""
+	selfHelpType="generic"
+	supportTopicIds="32630459"
+	productPesIds="13491"
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
     articleId="sql-performancenandqueryexecution-unexpectedincrease-mooncake"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # performance and query execution/unexpected increase in resource consumption or DTUS

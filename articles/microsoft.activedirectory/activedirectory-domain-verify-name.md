@@ -10,8 +10,9 @@
     supportTopicIds=""
     resourceTags="directory_domain,domain_directory"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="06b245f1-29b7-4eea-9718-e71235a68ce6"
+	ownershipId="AzureIdentity_User"
 />
 
 # I can't verify my domain name even though I added it to Azure AD

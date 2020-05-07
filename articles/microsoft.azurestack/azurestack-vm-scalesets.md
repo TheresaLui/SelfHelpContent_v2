@@ -10,8 +10,9 @@
     supportTopicIds="32663897,32663900,32663901"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-vm-scalesets"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Virtual Machine Scale Sets

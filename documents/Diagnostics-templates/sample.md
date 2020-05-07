@@ -4,7 +4,6 @@
     infoBubbleText="Found high degree of MAXDOP with DB. See details on the right."
     service="microsoft.sql"
     resource="servers"
-    authors="githubauthor"
     ms.author="msauthor"
     displayOrder=""
     articleId="newGuid"
@@ -14,6 +13,7 @@
     resourceTags=""
     productPesIds="ProductId"
     cloudEnvironments="public,blackForest,fairfax,mooncake"
+    ownershipId=""
 />
 
 # We ran diagnostics on your resource and found high request limit

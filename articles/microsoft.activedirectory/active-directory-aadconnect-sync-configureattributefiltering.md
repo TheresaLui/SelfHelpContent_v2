@@ -10,8 +10,9 @@
     supportTopicIds="32629765"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="9ab84491-edbf-405d-8438-a2d7bb21d91d"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Configure attribute filtering

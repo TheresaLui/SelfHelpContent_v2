@@ -6,16 +6,17 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32675598"
                 productPesIds="15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="3b881f6a-2ca9-44e9-bab0-d9aaa2879912"
+	ownershipId="Compute_VirtualMachines"
 />
 # Start My VM
 ---
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "My VM is starting",
     "fileAttachmentHint": "",
     "formElements": [

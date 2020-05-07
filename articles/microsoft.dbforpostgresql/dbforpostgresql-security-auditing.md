@@ -9,9 +9,10 @@
     selfHelpType="generic"
     supportTopicIds="32639967"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="2009dc6a-a6bd-41c6-ad36-d7de45e3586f"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Auditing capabilities in Azure Database for PostgreSQL
@@ -32,10 +33,11 @@ Database activity auditing is available using the pgAudit extension.
 * To install pgAudit, you first need to include it in the server's shared_preload_libraries parameter. This parameter requires a restart to take effect. 
 * pgAudit settings are specified globally and cannot be specified at a database or role level
 * Setting 'pgaudit.log_client' to ON will redirect logs to a client process (like psql) instead of being written to file. This setting should generally be left disabled.
-* 'pgaudit.log_level' is only enabled when 'pgaudit.log_client' is on. Also, in the Azure portal, there is currently a bug with 'pgaudit.log_level': a combo box is shown, implying that multiple levels can be selected. However, only one level should be selected. 
+* 'pgaudit.log_level' is only enabled when 'pgaudit.log_client' is on.
 * In Azure Database for PostgreSQL, 'pgaudit.log' cannot be set using a '-' (minus) sign shortcut as described in the pgAudit documentation. All required statement classes (READ, WRITE etc) should be individually specified.
-* Use the 'log_line_prefix' parameter to add information like user who executed and database. As an example, the following `log_line_prefix` setting provides timestamp, username, database name, and process ID: `t=%m u=%u db=%d pid=[%p]:`
+* Use the 'log_line_prefix' parameter to add information like user who executed and database. As an example, the following 'log_line_prefix' setting provides timestamp, username, database name, and process ID: t=%m u=%u db=%d pid=[%p]:
 
 ## **Recommended Documents**
 
+* [Auditing in Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-audit)
 * [Azure Database for PostgreSQL logging](https://docs.microsoft.com/azure/postgresql/concepts-server-logs)

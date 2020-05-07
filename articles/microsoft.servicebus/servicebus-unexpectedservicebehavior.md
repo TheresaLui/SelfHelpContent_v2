@@ -10,8 +10,9 @@
 	supportTopicIds="32633397,32633398,32633401,32633404,32633406,32633410"
 	resourceTags=""
 	productPesIds="13186"
-	cloudEnvironments="public,BlackForest,Fairfax, MoonCake"
+	cloudEnvironments="public,BlackForest,Fairfax, MoonCake, usnat, ussec"
 	articleid="931f4322-1a16-4f38-ba7b-e3175dad11f0"
+	ownershipId="AzureMessaging_Common"
 />
 
 # unexpected service behavior

@@ -13,7 +13,8 @@ selfHelpType="diagnostics"
 supportTopicIds="32635012,32599853,32599860,32599908,32615224"
 resourceTags="windows"
 productPesIds="15607"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_Automation"
 />
 # The runbook failed because there are a mixture of AzureRm and AzureAz cmdlets in the runbook
 

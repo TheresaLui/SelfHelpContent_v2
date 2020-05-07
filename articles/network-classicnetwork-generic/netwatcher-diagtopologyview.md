@@ -9,8 +9,9 @@
 	supportTopicIds="32606444"
 	resourceTags=""
 	productPesIds="16160"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="6f8e99eb-3ece-49aa-8297-80ea70e1084e"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # diagnostictools/topologyview

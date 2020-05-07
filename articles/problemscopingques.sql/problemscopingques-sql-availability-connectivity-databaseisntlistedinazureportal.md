@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630436, 32630437"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="FAD1FE7C-C2A3-408E-8DCA-A3CAE653AD36"
+	ownershipId="AzureData_AzureSQLDB_Provisioning"
 />
 # Availability and Connectivity - Database isn't listed in Azure portal
 ---
@@ -19,7 +20,7 @@
   "title": "Database isn't listed in Azure portal",
   "fileAttachmentHint": "",
 	"diagnosticCard": {
-	  "title": "Database or elastic pool isn't listed in Azure portal Scoping Questions",
+	  "title": "Database or elastic pool isn't listed in Azure portal scoping questions",
 	  "description": "These diagnostics will check for errors with the Database or Elastic Pool",
 	  "insightNotAvailableText": "We did not find any issues."
 	},
@@ -76,7 +77,7 @@
       "id": "sqlexception_received_on_client",
       "order": 2000,
       "controlType": "multilinetextbox",
-      "displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
+      "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
       "required": false,
       "visibility": true,
       "diagnosticInputRequiredClients": "Portal"

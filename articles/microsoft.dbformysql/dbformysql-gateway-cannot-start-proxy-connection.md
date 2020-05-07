@@ -13,7 +13,8 @@
 	supportTopicIds="32640053,32640055,32640058,32640090"
 	resourceTags="windows, linux"
 	productPesIds="16221"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Gateway can't start proxy connection to host

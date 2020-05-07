@@ -4,11 +4,12 @@
 	authors="annayak"
     ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32683730"
-	productPesIds="16459"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	supportTopicIds="32683730,32691063"
+	productPesIds="16459,16598"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="StorageScoping_Blob_Lifecycle_Management"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Blob Lifecycle Management
 ---

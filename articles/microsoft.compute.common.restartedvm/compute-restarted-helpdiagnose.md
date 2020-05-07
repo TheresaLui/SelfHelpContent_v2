@@ -10,8 +10,9 @@
     supportTopicIds="32628280,32628287"
     resourceTags=""
     productPesIds="14749,14745"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="1052989d-6417-4985-b4af-0ffdb63302b9"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Help diagnose my VM restart issue

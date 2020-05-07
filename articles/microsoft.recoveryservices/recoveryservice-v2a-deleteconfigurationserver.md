@@ -9,8 +9,9 @@
 	supportTopicIds="32592047"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="c1b757da-9b6f-4244-baba-b53e5a635f50"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Delete a configuration server

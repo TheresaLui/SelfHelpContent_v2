@@ -10,8 +10,9 @@
     supportTopicIds="32680605"
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="71842b51-f522-4acb-9ef4-f78c5e87ec25"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Disable replication in VMware to Azure

@@ -9,8 +9,9 @@
     supportTopicIds="32632426"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="ad157085-2d71-4e91-aded-bcd39b391a0e"
+	ownershipId="Compute_APIManagement"
 />
 
 # Notifications and email templates in Azure API Management

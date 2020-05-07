@@ -13,7 +13,8 @@
 	supportTopicIds=""
 	resourceTags="windows"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Operating system provisioning timeout failure

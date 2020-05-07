@@ -13,15 +13,16 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # User is not registered for self-service password reset
-<!--/issueDescription-->
-User <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> has not registered for self-service password reset.
+<!--issueDescription-->
+User <!--$UserId-->[UserId]<!--/$UserId--> has not registered for self-service password reset in your Azure AD.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* If <!--$UserId-->[UserId]<!--/$UserId--> is able to sign in, they can go to [aka.ms/ssprsetup](https://aka.ms/ssprsetup) to register for self-service password reset
-* If <!--$UserId-->[UserId]<!--/$UserId--> is not able to sign in, an administrator will need to reset this user's password for them
+* If <!--$UserId-->[UserId]<!--/$UserId-->  is able to sign in to your Azure AD, they can go to [mysignins.microsoft.com](https://mysignins.microsoft.com/security-info) to register for self-service password reset
+* If <!--$UserId-->[UserId]<!--/$UserId--> is not able to sign in to your Azure AD, an administrator will need to reset this user's password and communicate the new password to the user. Then the user can sign in with their new password, and can register to use self-service password reset in the future.

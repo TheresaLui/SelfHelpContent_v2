@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32636430, 32636448, 32636453, 32636466, 32636472, 32636480, 32636497, 32636503, 32636418, 32636446, 32636449, 32636457, 32636462, 32636468, 32636478, 32636493, 32636499, 32636427, 32636447, 32636450, 32636463, 32636469, 32636494, 32636500"
 	productPesIds="15078"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_HDInsight"
 />
 # Service Unhealthy or Alert Issue
 ---

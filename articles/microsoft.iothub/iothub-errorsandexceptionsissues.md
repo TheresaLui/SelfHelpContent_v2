@@ -10,8 +10,9 @@
 	supportTopicIds="32630532"
 	resourceTags=""
 	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax"
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
 	articleId="71a2547d-85c9-4a4e-90ad-1a92e893ecd7"
+	ownershipId="AzureIot_IotHub"
 />
 
 # How to get more details on IoT Hub errors

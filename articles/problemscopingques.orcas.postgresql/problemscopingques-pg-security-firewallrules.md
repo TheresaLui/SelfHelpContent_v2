@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639981"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-security-firewallrules"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Security - Firewall rules
 ---

@@ -10,8 +10,9 @@
 	supportTopicIds="32375290"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="ce318719-e09d-43ee-8c21-089d47909c17"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # How to Create and Manage Keys

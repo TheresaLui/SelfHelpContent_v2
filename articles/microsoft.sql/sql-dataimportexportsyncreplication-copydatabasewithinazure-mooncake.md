@@ -6,12 +6,13 @@
 	authors="emlisa"
     ms.author="emlisa"
 	displayOrder="9"
-	selfHelpType="resource"
-	supportTopicIds=""
-	productPesIds=""
+	selfHelpType="generic"
+	supportTopicIds="32630415"
+	productPesIds="13491"
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
 	articleId="sql-dataimportexportsyncreplication-copydatabasewithinazure-mooncake"
+	ownershipId="AzureData_AzureSQLDB_GeoDr"
 />
 
 # data import, export, sync, replication/copy database within Azure

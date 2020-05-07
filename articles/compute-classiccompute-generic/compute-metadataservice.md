@@ -10,8 +10,9 @@
 	supportTopicIds="32583111,32587973"
 	resourceTags=""
 	productPesIds="14749,16215,14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="1ea553ec-582e-4439-904e-e8a4fad52432"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Management/Instance Metadata Service

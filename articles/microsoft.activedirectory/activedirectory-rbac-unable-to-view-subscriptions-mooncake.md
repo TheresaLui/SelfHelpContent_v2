@@ -10,6 +10,7 @@
     resourceTags="Azure_RBAC"
     cloudEnvironments="MoonCake"
     articleId="activedirectory-rbac-unable-to-view-subscriptions-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Unable to view subscriptions in the Azure portal

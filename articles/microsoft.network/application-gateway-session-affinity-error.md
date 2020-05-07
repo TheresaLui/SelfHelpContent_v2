@@ -11,8 +11,9 @@
 	resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32640605"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
- />
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Session affinity issues with Application Gateway
 

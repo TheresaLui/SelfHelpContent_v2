@@ -9,7 +9,8 @@ displayOrder=""
 articleId="732e3e49-8b2a-4d10-8456-db42dc47c9b2"
 selfHelpType="diagnoseandsolve"
 productPesIds="16762"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataShare"
 />
 
 # Top common problems for Data Share?

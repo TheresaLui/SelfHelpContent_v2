@@ -9,8 +9,9 @@
 	supportTopicIds="32599612"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="fc56915b-d5cc-45b8-a226-c972ecda84ce"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Configure Devices - Configure iOS education settings

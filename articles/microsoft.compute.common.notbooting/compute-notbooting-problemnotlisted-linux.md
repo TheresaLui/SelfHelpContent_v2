@@ -10,8 +10,9 @@
     supportTopicIds="32675599"
     resourceTags=""
     productPesIds="15571,15797,16454,16470,16342"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="99cd79bd-4afd-4061-9c9b-c0a76a1d743a"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My Linux VM is not booting
@@ -26,3 +27,4 @@
 * [How to use **boot diagnostics** to **troubleshoot** Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)<br>
 * [**Quick steps** to **diagnose** & address common SSH connection issues](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/)<br>
 * [**Detailed SSH troubleshooting steps** for issues connecting to a Linux VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)
+* [Troubleshooting a Linux VM that is using LVM and is not booting](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/chroot-logical-volume-manager)

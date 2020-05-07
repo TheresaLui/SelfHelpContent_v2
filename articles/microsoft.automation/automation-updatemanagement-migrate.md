@@ -10,8 +10,9 @@
     supportTopicIds="32642185"
     resourceTags=""
     productPesIds="15607,15725"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="29dd1252-32be-46ca-b717-475d33300501"
+	ownershipId="Compute_Automation"
 />
 
 # Move my Update Management machines to another subscription

@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="apps_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="fa5a292c-05c8-4629-bab5-d7472c7a970b"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I issued an app selective wipe, but I'm not sure it worked.

@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32608638,32612607"
 	productPesIds="16459,16598"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="2ba85226-8c6e-4ecf-bcd1-f3f199c5c6f0"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Recover deleted Blob
 ---

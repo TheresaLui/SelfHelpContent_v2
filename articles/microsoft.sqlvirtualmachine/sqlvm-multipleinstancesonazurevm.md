@@ -11,7 +11,8 @@
 	supportTopicIds="32633511"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # how to/multiple instances on azure vm

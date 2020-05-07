@@ -10,8 +10,9 @@
 	supportTopicIds="32608940"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="3aa2dc7f-60ec-4582-809f-162b17b891af"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Azure Active Directory Configuration

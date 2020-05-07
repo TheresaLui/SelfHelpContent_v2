@@ -4,14 +4,14 @@
 	service="microsoft.sql"
 	resource="servers"
 	authors="emlisa"
-  ms.author="emlisa"
-	displayOrder="8"
-	selfHelpType="resource"
+  	ms.author="emlisa"
+	displayOrder=""
+	selfHelpType="generic"
 	supportTopicIds="32630438"
 	productPesIds="13491"
-	cloudEnvironments="public"
-    resourceTags="servers, databases"
+	cloudEnvironments="public,blackForest,fairfax, usnat, ussec"
 	articleId="ec03f2ee-fbd5-4879-9f4f-73b76f7f22d4"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
 # SQL Database Resource Health Issues: Unavailability
@@ -27,4 +27,4 @@ Resource Health determines the health of your SQL resource by examining the succ
 ## **Recommended Documents**
 
 * [Use Resource Health to troubleshoot connectivity for Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-resource-health?WT.mc_id=pid:13491:sid:32630438/)<br>
-* [Troubleshoot, diagnose, and prevent SQL connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues?WT.mc_id=pid:13491:sid:32630438/)<br>
+* [Troubleshoot, diagnose, and prevent SQL connection errors](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database?WT.mc_id=pid:13491:sid:32630438/)<br>

@@ -1,19 +1,24 @@
 <properties
-	pageTitle="Metadata operations RCA"
-	description="RCA - High number of metadata operations on collection"
-	infoBubbleText="Found information related to Machine Key Status. See details on the right."
-	service="microsoft.documentdb"
-	resource="databaseAccounts"
-	authors="bharathsreenivas"
-	ms.author="bharathb"
-	articleId="cosmosdb-metadataoperations-rca"
-	selfHelpType="rca"
-	resourceTags=""
-	productPesIds="15585"
-	cloudEnvironments="public"
+    pageTitle="Metadata operations RCA"
+    description="RCA - High number of metadata operations on collection"
+    infoBubbleText="Found information related to Machine Key Status. See details on the right."
+    service="microsoft.documentdb"
+    resource="databaseAccounts"
+    authors="bharathsreenivas"
+    ms.author="bharathb"
+    articleId="cosmosdb-metadataoperations-rca"
+    diagnosticScenario="CosmosDBMetadataInsight"
+    selfHelpType="rca"
+    resourceTags=""
+    productPesIds="15585"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+    ownershipId="AzureData_AzureCosmosDB"
 />
 
-# We ran diagnostics on your resource and found an issue
+# High number of metadata operations on collection
+
+## We ran diagnostics on your resource and found an issue
+
 <!--issueDescription-->
 We found a high number of metadata operations on your account.
 <!--/issueDescription-->
@@ -22,10 +27,12 @@ In Cosmos DB, data is distributed across partitions. This includes metadata abou
 ## **Recommended Steps**
 
 ### Use static Cosmos DB client instances
+
 Upon initialization of the *DocumentClient* constructor, the Cosmos DB SDK fetches metadata about the account including consistency level, databases, collections, partitions, and offers. This initialization may consume a high number of RUs, and should be performed infrequently. Use a single DocumentClient instance and use it for the lifetime of your application.
 
 ### Cache the names of databases/collections
-Retrieve the names of your databases and collections from configuration or cache them on start. Calls like *ReadDatabaseAsync*/*ReadDocumentCollectionAsync* or *CreateDatabaseQuery*/*CreateDocumentCollectionQuery* will result in calls to the service, and will consume RUs. They should be performed infrequently. 
+
+Retrieve the names of your databases and collections from configuration or cache them on start. Calls like *ReadDatabaseAsync*/*ReadDocumentCollectionAsync* or *CreateDatabaseQuery*/*CreateDocumentCollectionQuery* will result in calls to the service, and will consume RUs. They should be performed infrequently.
 
 ## **Recommended Documents**
 

@@ -10,8 +10,9 @@
 	supportTopicIds="32640630"
 	resourceTags=""
 	productPesIds="16469"
-	cloudEnvironments="public"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="NetAppResourceMgmtResizeCapacityPoolOrVolume"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Resize capacity pool or volume for NetApp Files 

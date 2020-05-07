@@ -11,8 +11,9 @@
 	supportTopicIds="32680646"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="datalakeanalytics-difficulties-using-adlsdk"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # Difficulties using Azure Data Lake SDK

@@ -13,14 +13,14 @@
 	supportTopicIds="31980414"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> is experiencing issues. Upon reviewing the error messaging, the issue could be resolved by following one of the recommended solutions below. 
+Database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName--> is experiencing issues. Upon reviewing the error stack trace provided by you, the issue could be resolved by following one of the recommended solutions below.
 <!--/issueDescription-->
 
-## **Recommended Steps**
-
+## **Recommended Solutions**
 <!--$CustomerReadySolutions-->CustomerReadySolutions<!--/$CustomerReadySolutions-->

@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632805"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="6c1b6a4b-e827-47f6-bfa8-556ae26e6ad8"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MABS scheduled backup is not run automatically
 ---

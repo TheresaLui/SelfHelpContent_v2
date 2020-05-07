@@ -10,8 +10,9 @@
     supportTopicIds="32615222"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="40a0048f-8276-48bb-aff7-2904dd2b9def"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Configuring Start-Stop Solution

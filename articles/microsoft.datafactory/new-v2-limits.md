@@ -10,7 +10,8 @@
 	supportTopicIds="32629435"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Data Factory Limits

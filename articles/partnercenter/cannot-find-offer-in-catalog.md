@@ -14,12 +14,13 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Cannot find an offer in the catalog
 
 ## **Recommended Documents**
 
-* **[Customize the catalog](https://docs.microsoft.com/partner-center/customize-the-catalog)**
-
-* **[Pricing and offers](https://docs.microsoft.com/partner-center/pricing-and-offers)**
+* [Customize the catalog](https://docs.microsoft.com/partner-center/customize-the-catalog)
+* [Pricing and offers](https://docs.microsoft.com/partner-center/pricing-and-offers)
+* [How Non-profit, GCC and Education offers work in Partner Center](https://docs.microsoft.com/partner-center/get-special-pricing-for-offers)

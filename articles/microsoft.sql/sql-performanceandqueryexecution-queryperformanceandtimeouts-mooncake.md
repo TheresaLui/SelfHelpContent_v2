@@ -6,12 +6,13 @@
 	authors="emlisa"
     ms.author="emlisa"
 	displayOrder="26"
-	selfHelpType="resource"
-	supportTopicIds=""
-	productPesIds=""
+	selfHelpType="generic"
+	supportTopicIds="32630450"
+	productPesIds="13491"
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
 	articleId="sql-performanceandqueryexecution-queryperformanceandtimeouts-mooncake"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # Resolve poor performance and timeout issues in Azure SQL Database
