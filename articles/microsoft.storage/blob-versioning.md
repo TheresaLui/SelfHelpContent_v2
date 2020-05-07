@@ -24,7 +24,7 @@
 - [Types of storage accounts supported during the preview](https://docs.microsoft.com/azure/storage/blobs/versioning-overview?tabs=powershell#storage-account-support)
 - [How do Blob Versioning and Blob Soft Delete work together?](https://docs.microsoft.com/azure/storage/blobs/versioning-overview?tabs=powershell#blob-versioning-and-soft-delete)
 - [How do versions accrue charges?](https://docs.microsoft.com/azure/storage/blobs/versioning-overview?tabs=powershell#pricing-and-billing)
-- [ADLS Gen2(hierarchical namespace) accounts are not currently supported](https://docs.microsoft.com/azure/storage/blobs/versioning-overview?tabs=powershell#storage-account-support)
 - [RBAC and SAS permissions for Blob Versioning](https://docs.microsoft.com/azure/storage/blobs/versioning-overview?tabs=powershell#authorize-operations-on-blob-versions)
 - [What happens when I disable Blob Versioning](https://docs.microsoft.com/azure/storage/blobs/versioning-overview?tabs=powershell#enable-or-disable-blob-versioning)
+- [ADLS Gen2(hierarchical namespace) accounts are not currently supported](https://docs.microsoft.com/azure/storage/blobs/versioning-overview?tabs=powershell#storage-account-support)
 
