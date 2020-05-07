@@ -29,9 +29,9 @@ This topic will guide you to the support experience for Azure, Intune, and Enter
 
 ## **Recommended Documents**
 
- * [Azure Help + Support page](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade)
- * [Azure Support FAQ's](https://azure.microsoft.com/support/faq)
- * [Azure Resources (including training, webinars, knowledge center, white papers, code samples, templates and more)](https://azure.microsoft.com/resources/?ocid=cs-pcsupport-azureresources)
- * [Azure Documentation](https://docs.microsoft.com/azure/?ocid=cs-pcsupport-azuredocs)
- * [Troubleshoot an Azure portal login issue](https://support.microsoft.com/help/4042961)
+ * [Azure Help + Support page](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade) 
+ * [Azure Support FAQ's](https://azure.microsoft.com/support/faq) 
+ * [Azure Resources (including training, webinars, knowledge center, white papers, code samples, templates and more)](https://azure.microsoft.com/resources/?ocid=cs-pcsupport-azureresources) 
+ * [Azure Documentation](https://docs.microsoft.com/azure/?ocid=cs-pcsupport-azuredocs) 
+ * [Troubleshoot an Azure portal login issue](https://support.microsoft.com/help/4042961) 
  
