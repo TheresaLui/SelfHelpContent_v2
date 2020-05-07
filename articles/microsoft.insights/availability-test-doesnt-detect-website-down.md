@@ -9,7 +9,7 @@
     articleId="availability-test-doesnt-detect-website-down"
     displayOrder="8"
     selfHelpType="generic"
-    cloudEnvironments="public, mooncake, blackforest, fairfax"
+    cloudEnvironments="public, mooncake, blackforest, fairfax, usnat, ussec"
     productPesIds="15693"
     supportTopicIds="32729575"
     ownershipId="AzureMonitoring_ApplicationInsights"
