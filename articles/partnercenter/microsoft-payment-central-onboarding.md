@@ -20,7 +20,7 @@
 
 # This topic will guide partners to the Microsoft Payment Central onboarding and account maintenance tool information, for suppliers working with Microsoft globally
 
-This topic will guide you to the Microsoft Payment Central onboarding and account maintenance tool information, for suppliers working with Microsoft globally
+This topic will guide you to the Microsoft Payment Central onboarding and account maintenance tool information, for suppliers working with Microsoft globally.
 
 
 ## **Recommended Steps**
