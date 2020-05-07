@@ -21,7 +21,7 @@ This article is separated in two sections, one for issues with the Azure Functio
 
 ## **Recommended Steps**
 
-### Azure Functions trigger for Cosmos DB
+### **Azure Functions trigger for Cosmos DB**
 This section is relative to using the [Azure Functions trigger for Cosmos DB](https://docs.microsoft.com/azure/azure-functions/functions-bindings-cosmosdb-v2-trigger).
 
 **Important:** Always make sure you are running the latest version of the [Azure Cosmos DB Extension package for Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies)  
@@ -57,7 +57,7 @@ This error means that you are currently using a partitioned lease collection wit
 #### **What happens on a Function restart?**
 The Azure Cosmos DB trigger uses the lease collection to store the state and the latest processed point in time on the Change Feed. If your Function restarts or you manually stop it and start it at a later time, it will continue from the saved point in time and pick up the changes that happened after. Based on the behavior of the [Change Feed](https://docs.microsoft.com/azure/cosmos-db/change-feed), only the latest version of a document (in case a document received multiple changes) will be read.
 
-### Using the Azure Cosmos DB SDK in Azure Functions
+### **Using the Azure Cosmos DB SDK in Azure Functions**
 This section refers to using the Cosmos DB SDK to perform operations in the context of an Azure Function. 
 
 #### **Functions Host restart**  
