@@ -20,7 +20,7 @@
 
 # Get more information and support for Volume Licensing operations questions supported by the Regional Operation Centers
 
-Get more information and support for Volume Licensing operations questions supported by the Regional Operation Centers
+Get more information and support for Volume Licensing operations questions supported by the Regional Operation Centers.
 
 ## **Recommended Steps**
 
@@ -32,3 +32,4 @@ Get more information and support for Volume Licensing operations questions suppo
 
  * [How to open a Call Logging Tool (CLT) ticket](https://support.microsoft.com/help/4476980)
  * [For Volume Licensing information search the explore.ms site](https://www.explore.ms/)
+
