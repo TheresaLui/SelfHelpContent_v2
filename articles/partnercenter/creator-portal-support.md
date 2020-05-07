@@ -20,7 +20,7 @@
 
 # This topic will guide you to the support experience for Creator portal
 
-This topic will guide you to the support experience for Creator portal
+This topic will guide you to the support experience for Creator portal.
 
 ## **Recommended Steps**
 
@@ -30,3 +30,4 @@ This topic will guide you to the support experience for Creator portal
 ## **Recommended Documents**
 
  * [Build innovative solutions with Microsoft](https://partner.microsoft.com/membership/internal-use-software)
+
