@@ -19,10 +19,10 @@
 # Azure Functions with Cosmos DB
 This article is separated in two sections, one for issues with the Azure Functions Trigger for Cosmos DB, and the other for issues related to using the Cosmos DB SDK in an Azure Functions context.
 
-## Azure Functions trigger for Cosmos DB
-This section is relative to using the [Azure Functions trigger for Cosmos DB](https://docs.microsoft.com/azure/azure-functions/functions-bindings-cosmosdb-v2-trigger).
+## **Recommended Steps**
 
-### **Recommended Steps**
+### Azure Functions trigger for Cosmos DB
+This section is relative to using the [Azure Functions trigger for Cosmos DB](https://docs.microsoft.com/azure/azure-functions/functions-bindings-cosmosdb-v2-trigger).
 
 **Important:** Always make sure you are running the latest version of the [Azure Cosmos DB Extension package for Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies)  
 
@@ -57,21 +57,8 @@ This error means that you are currently using a partitioned lease collection wit
 #### **What happens on a Function restart?**
 The Azure Cosmos DB trigger uses the lease collection to store the state and the latest processed point in time on the Change Feed. If your Function restarts or you manually stop it and start it at a later time, it will continue from the saved point in time and pick up the changes that happened after. Based on the behavior of the [Change Feed](https://docs.microsoft.com/azure/cosmos-db/change-feed), only the latest version of a document (in case a document received multiple changes) will be read.
 
-### **Recommended Documents**
-
-[How to configure and read the Azure Cosmos DB Trigger logs](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs)
-<br>This article describes how you can configure your Azure Functions environment to send the Azure Functions trigger for Cosmos DB logs to your configured monitoring solution.  
-
-[Create multiple Azure Cosmos DB Triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-create-multiple-cosmos-db-triggers)
-<br>This article describes how you can configure multiple Azure Functions triggers for Cosmos DB to work in parallel and independently react to changes.  
-
-[Diagnose and troubleshoot issues when using Azure Cosmos DB Trigger in Azure Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions)
-<br>This article covers common issues, workarounds, and diagnostic steps, when you use the Azure Functions trigger for Cosmos DB.
-	
-## Using the Azure Cosmos DB SDK in Azure Functions
+### Using the Azure Cosmos DB SDK in Azure Functions
 This section refers to using the Cosmos DB SDK to perform operations in the context of an Azure Function. 
-
-### **Recommended Steps**  
 
 #### **Functions Host restart**  
 [Azure Functions Host has limits](https://docs.microsoft.com/azure/azure-functions/functions-scale#service-limits) regarding the number of connections, memory utilization, and execution timeout.
@@ -88,7 +75,16 @@ This error is often related to using an invalid authorization key or credential.
 #### **Other issues**
 For any other issues, see the **SDK (SQL API) Issues - Error or unexpected result** problem type. Azure Functions is mainly the execution environment and there is a possibility of the issue being a generic SDK issue covered in the general troubleshooting.
 
-### **Recommended Documents**  
+## **Recommended Documents**
+
+[How to configure and read the Azure Cosmos DB Trigger logs](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs)
+<br>This article describes how you can configure your Azure Functions environment to send the Azure Functions trigger for Cosmos DB logs to your configured monitoring solution.  
+
+[Create multiple Azure Cosmos DB Triggers](https://docs.microsoft.com/azure/cosmos-db/how-to-create-multiple-cosmos-db-triggers)
+<br>This article describes how you can configure multiple Azure Functions triggers for Cosmos DB to work in parallel and independently react to changes.  
+
+[Diagnose and troubleshoot issues when using Azure Cosmos DB Trigger in Azure Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions)
+<br>This article covers common issues, workarounds, and diagnostic steps, when you use the Azure Functions trigger for Cosmos DB.
 
 [Troubleshoot issues when using Azure Cosmos DB .NET SDK](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk)
 <br>This article covers common issues, workarounds, diagnostic steps, and tools when you use the .NET SDK with Azure Cosmos DB SQL API accounts.  
