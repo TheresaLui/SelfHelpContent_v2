@@ -19,9 +19,12 @@
 
 ## **Recommended Documents**
 
-- [How do versions accrue charges?](https://review.docs.microsoft.com/azure/storage/blobs/versioning-overview?branch=pr-en-us-104390&tabs=powershell#pricing-and-billing)
-- [ADLS Gen2(hierarchical namespace) accounts are not currently supported](https://review.docs.microsoft.com/azure/storage/blobs/versioning-overview?branch=pr-en-us-104390&tabs=powershell#storage-account-support)
-- [Types of storage accounts supported during the preview](https://review.docs.microsoft.com/azure/storage/blobs/versioning-overview?branch=pr-en-us-104390&tabs=powershell#storage-account-support)
-- [RBAC and SAS permissions for Blob Versioning](https://review.docs.microsoft.com/azure/storage/blobs/versioning-overview?branch=pr-en-us-104390&tabs=powershell#authorize-operations-on-blob-versions)
-- [What happens when I disable Blob Versioning](https://review.docs.microsoft.com/azure/storage/blobs/versioning-overview?branch=pr-en-us-104390&tabs=powershell#disable-blob-versioning)
-- [How to Enable/Disable Blob Versioning](https://review.docs.microsoft.com/azure/storage/blobs/versioning-overview?branch=pr-en-us-104390&tabs=powershell#enable-or-disable-blob-versioning)
+- [How to Enable/Disable Blob Versioning](https://docs.microsoft.com/azure/storage/blobs/versioning-enable?tabs=portal)
+- [Difference between Blob versioning and Blob Snapshots](https://docs.microsoft.com/azure/storage/blobs/versioning-overview?tabs=powershell#blob-versioning-and-blob-snapshots)
+- [Types of storage accounts supported during the preview](https://docs.microsoft.com/azure/storage/blobs/versioning-overview?tabs=powershell#storage-account-support)
+- [How do Blob Versioning and Blob Soft Delete work together?](https://docs.microsoft.com/azure/storage/blobs/versioning-overview?tabs=powershell#blob-versioning-and-soft-delete)
+- [How do versions accrue charges?](https://docs.microsoft.com/azure/storage/blobs/versioning-overview?tabs=powershell#pricing-and-billing)
+- [ADLS Gen2(hierarchical namespace) accounts are not currently supported](https://docs.microsoft.com/azure/storage/blobs/versioning-overview?tabs=powershell#storage-account-support)
+- [RBAC and SAS permissions for Blob Versioning](https://docs.microsoft.com/azure/storage/blobs/versioning-overview?tabs=powershell#authorize-operations-on-blob-versions)
+- [What happens when I disable Blob Versioning](https://docs.microsoft.com/azure/storage/blobs/versioning-overview?tabs=powershell#enable-or-disable-blob-versioning)
+
