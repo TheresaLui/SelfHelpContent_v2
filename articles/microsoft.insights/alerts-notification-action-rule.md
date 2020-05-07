@@ -21,7 +21,7 @@
 
 If you can see a fired alert in the portal, but a related [action rule](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-action-rules) did not work as expected, follow these steps:
 
-### 1. Is the action rule enabled?
+**1. Is the action rule enabled?**
 
 Check the action rule status column to verify that the related action role is enabled.
 
@@ -29,11 +29,11 @@ Check the action rule status column to verify that the related action role is en
 
 If it is not enabled, you can enable the action rule by selecting it and clicking Enable.
 
-### 2. Is it a service health alert?
+**2. Is it a service health alert?**
 
 Service health alerts (monitor service = "Service Health") are not affected by action rules.
 
-### 3. Did the action rule act on your alert?
+**3. Did the action rule act on your alert?**
 
 Check if the action rule has processed your alert by clicking on the fired alert in the portal, and look at the history tab.
 
@@ -45,6 +45,6 @@ Here is an example of an action rule adding another action group:
 
 ![Alert details history tab with action group added by an action rule](https://docs.microsoft.com/azure/azure-monitor/platform/media/alerts-troubleshoot/action-repeated-multi-action-groups.png)
 
-### 4. Does the action rule scope and filter match the fired alert?
+**4. Does the action rule scope and filter match the fired alert?**
 
 If you think the action rule should have fired but didn't, or that it shouldn't have fired but it did, carefully examine the action rule scope and filter conditions versus the properties of the fired alert.
