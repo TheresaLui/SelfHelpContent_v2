@@ -32,4 +32,4 @@ Before you try to detach a disk, connect to the VM and unmount it.
 
 - [High-performance Premium Storage and managed disks for VMs](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage#features)
 - [Learn more about migrating to managed disks](https://docs.microsoft.com/azure/virtual-machines/windows/convert-unmanaged-to-managed-disks)
-- https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-managed-disk-considerations?view=azs-2002 < includes how to convert from unmanaged to managed disk>
+- [Convert to managed disks](https://docs.microsoft.com/azure-stack/user/azure-stack-managed-disk-considerations#convert-to-managed-disks)
