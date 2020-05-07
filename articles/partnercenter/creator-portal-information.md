@@ -24,5 +24,5 @@ This topic will guide you to Creator information such as Code, Content, Devices,
 
 ## **Recommended Documents**
 
- * [Creator information](https://partner.microsoft.com/creator/home)
+- [Creator information](https://partner.microsoft.com/creator/home)
 
