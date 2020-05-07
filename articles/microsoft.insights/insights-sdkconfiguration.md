@@ -10,7 +10,7 @@
     selfHelpType="generic"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
-    supportTopicIds="32602224, 32602223"
+    supportTopicIds="32602223"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
@@ -28,9 +28,8 @@
 For all supported SDKs you should not see any errors relating to telemetry collection. If you are seeing errors that are specific to **dc.services.visualstudio.com**, please use the steps below. If you are seeing other errors coming from your application, please go back and open a case for the SDK.
 
 1. Verify the version of the SDK you are using is up to date or a [supported version](https://github.com/Microsoft/ApplicationInsights-Home#officially-supported-sdks)
-2. Check the [Service Blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog) for warnings
-3. If the errors are inside of your telemetry, please go back and open a case for the correct SDK
-4. If you are receiving an error message from the service, it is likely that we are experiencing issues and it is recommended to open a case for tracking
+2. If the errors are inside of your telemetry, please go back and open a case for the correct SDK
+3. If you are receiving an error message from the service, it is likely that we are experiencing issues and it is recommended to open a case for tracking
 
 ## **Recommended Documents**
 
