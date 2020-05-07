@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Data-in replication for Azure Database for MySQL"
-    description="Replicate data from on-prem or VM to an Azure Database for MySQL server"
+    pageTitle="Replicate data into Azure Database for MySQL"
+    description="Replicate data into Azure Database for MySQL server"
     service="microsoft.dbformysql"
     resource="servers"
     authors="ajlam"
@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
-# Replicate data from on-prem or VM to an Azure Database for MySQL server
+# Replicate data into Azure Database for MySQL server
 
 Data-in Replication allows you to synchronize data from a MySQL server running on-premises, in virtual machines, or database services hosted by other cloud providers into the Azure Database for MySQL service. Data-in Replication is based on the binary log (binlog) file position-based replication native to MySQL.
 

@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Data-in replication for Azure Database for MariaDB"
-    description="Replicate data from on-prem or VM to an Azure Database for MariaDB server"
+    pageTitle="Replicate data into Azure Database for MariaDB"
+    description="Replicate data into Azure Database for MariaDB server"
     service="microsoft.dbformariadb"
     resource="servers"
     authors="ajlam"
@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
-# Replicate data from on-prem or VM to an Azure Database for MariaDB server
+# Replicate data into Azure Database for MariaDB server
 
 Data-in Replication allows you to synchronize data from a MariaDB server running on-premises, in virtual machines, or database services hosted by other cloud providers into the Azure Database for MariaDB service. Data-in Replication is based on the binary log (binlog) file position-based replication native to MariaDB.
 

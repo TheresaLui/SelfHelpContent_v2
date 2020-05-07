@@ -24,9 +24,13 @@ This topic will guide you to the support experience for Dynamics 365, including 
 
 ## **Recommended Steps**
 
-- Submit a new support request (sign in required) [here](https://admin.powerplatform.microsoft.com/support?newTicket=true)
+- Submit a new Power Platform support request (sign in required) [here](https://admin.powerplatform.microsoft.com/support?newTicket=true)
+- Submit a new Lifecycle Services support request (sign in required) [here](https://lcs.dynamics.com/Logon/Index)
 
 
 ## **Recommended Documents**
 
-- [Create on-premises professional support incident process documentation](https://support.microsoft.com/help/3020636/using-an-access-id-and-a-contract-id-to-create-on-premises-professiona)
+- [Power Platform Get Help + Support](https://docs.microsoft.com/power-platform/admin/get-help-support)
+- [Manage the support experiences for Finance and Operations apps](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/cloud-powered-support-lcs)
+- [Technical Support for Microsoft Partners](https://support.microsoft.com/help/4020188/technical-support-for-microsoft-partners)
+- [How many Partner support incidents are remaining?](https://support.microsoft.com/help/4559075/how-many-partner-support-incidents-are-remaining)
