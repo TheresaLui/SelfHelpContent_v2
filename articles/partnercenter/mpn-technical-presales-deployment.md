@@ -25,7 +25,7 @@
 
  **Technical Presales and Deployment Services**
  
-Leverage technical consultations, to increase sales, deploy more effectively, or to accelerate app development. 
+Leverage technical consultations to increase sales, deploy more effectively, or to accelerate app development. 
 
 **For Gold, Silver or Microsoft Action Pack subscribers:**
 
