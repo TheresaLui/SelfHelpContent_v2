@@ -21,13 +21,13 @@
 
 If you have received a notification for an alert (such as an email or an SMS) more than once, or the alert's action (such as webhook or Azure function) was triggered multiple times, follow these steps:
 
-### 1. Is it really the same alert?
+**1. Is it really the same alert?**
 
 In some cases, multiple similar alerts are fired at around the same time. So, it might just seem like the same alert triggered its actions multiple times. For example, an activity log alert rule might be configured to fire both when an event has started, and when it has finished (succeeded or failed), by not filtering on the event status field.
 
 To check if these actions or notifications came from different alerts, examine the alert details, such as its timestamp and either the alert id or its correlation id. Alternatively, check the list of fired alerts in the portal. If these are different alerts, you might need to adapt the alert rule logic or otherwise configure the alert source.
 
-### 2. Does the action repeat in multiple action groups?
+**2. Does the action repeat in multiple action groups?**
 
 When an alert is fired, each of its action groups is processed independently. So, if an action (such as an email address) appears in multiple triggered action groups, it would be called once per action group.
 
