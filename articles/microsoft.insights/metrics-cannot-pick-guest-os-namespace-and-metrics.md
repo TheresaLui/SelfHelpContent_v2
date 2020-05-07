@@ -22,7 +22,7 @@
 
 Virtual machines and virtual machine scale sets have two categories of metrics: **Virtual Machine Host** metrics that are collected by the Azure hosting environment, and **Guest OS (classic)** metrics that are collected by the [monitoring agent](https://docs.microsoft.com/azure/azure-monitor/platform/agents-overview) running on your virtual machines. You install the monitoring agent by enabling [Azure Diagnostic Extension](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-overview).
 
-| What is the best way to enable collection of Guest OS Metrics? |
+| **What is the best way to enable collection of Guest OS Metrics?** |
 |----------------------------------------------------------------|
 |If you enable monitoring on the Diagnostic Settings tab of your Virtual Machine, you can select performance counter that will be saved in a storage account, and appear under **Guest (Classic)** metric [namespace in Metrics Explorer](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-troubleshoot#cannot-pick-guest-os-namespace-and-metrics). This method has limitations and is no longer a recommended way of charting or alerting on Virtual Machine Guest OS metrics. For the recommended method of collecting guest OS metrics, see the documentation for [Windows VMs](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-windows-install) or [Linux VMs](https://docs.microsoft.com/azure/azure-monitor/platform/collect-custom-metrics-linux-telegraf).|
 
