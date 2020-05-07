@@ -22,4 +22,4 @@
 
 ## **Recommended Documents**
 
-* [Pricing and Offers](https://docs.microsoft.com/partner-center/pricing-and-offers )
+* [Pricing and Offers](https://docs.microsoft.com/partner-center/pricing-and-offers)
