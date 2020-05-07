@@ -28,3 +28,4 @@ Please contact your Azure Marketplace publisher for all technical product suppor
 * [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-troubleshoot-deployment-new-vm)<br>
 * [Troubleshoot allocation failures when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-allocation-failure)<br>
 * [Understanding SkuNotAvailable - Some SKU series are unavailable for the selected subscription for this region](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors)
+* [Deploy an Azure Confidential Computing VM in the Marketplace](https://docs.microsoft.com/azure/confidential-computing/quick-create-marketplace)
