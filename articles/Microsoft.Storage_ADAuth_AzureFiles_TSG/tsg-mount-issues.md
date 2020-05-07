@@ -17,7 +17,7 @@
 
 # Customer is facing issues while mounting the file share
 
-The following section of the TSG will help you troubleshooter mount issues or issues with accessing the files/directories in the file share.
+The following section of the TSG will help you troubleshoot mount issues for a particular file share.
 
 Before you go to next step, make sure the customer is trying to mount the file share using the "net use" command as explained [here](https://docs.microsoft.com/azure/storage/files/storage-files-identity-auth-active-directory-enable#4-mount-a-file-share-from-a-domain-joined-vm).
 

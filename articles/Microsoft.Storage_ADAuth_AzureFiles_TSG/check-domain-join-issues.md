@@ -11,10 +11,12 @@
     resourceTags=""
     productPesIds="1003478"
     cloudEnvironments="public, fairfax, usnat, ussec"
-    articleId="d0058d2c-7cd3-48b2-a09c-6aa256f8eb67"
+    articleId="1e6f2900-2ebb-40a4-91b9-0f190731eecd"
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />
 
-# Customer is facing domain join issues 
+# Customer is facing domain join issues
 
-Please request the customer to share the error they receive while running the **"Join-AzStorageAccountforAuth"** command.
+If the script does not work as expected, verify that the customer has the supported [Az.Storage 1.11.1-preview module](https://www.powershellgallery.com/packages/Az.Storage/1.11.1-preview) installed in their environment.
+
+Once verified that the customer has right Az.Storage module installed, please ask them to run the Join command using '-verbose' option and share the result.
