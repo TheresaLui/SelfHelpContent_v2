@@ -6,7 +6,7 @@
     articleId="c6ac1f03-bd58-4421-9522-23cffb64d8e1_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
-	ownershipId="CloudES_AzureResourceHealth"
+    ownershipId="CloudES_AzureResourceHealth"
 />
 # Create an Azure service health alert 
 ---
@@ -16,7 +16,7 @@
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
     "streamNamespace": "cluster('https://azeecluff.kusto.usgovcloudapi.net').database('AzEE-DB-FF').ServiceHealthRecommendation",
-    "dataSource": Kusto",
+    "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "OperationalExcellence",
