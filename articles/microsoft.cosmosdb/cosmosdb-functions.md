@@ -1,22 +1,23 @@
 <properties
-	pageTitle="Azure Functions Trigger"
-	description="Issues with Azure Functions Triggers for Cosmos DB"
+	pageTitle="Azure Functions"
+	description="Issues with Azure Cosmos DB in Azure Functions"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="jimsch"
-	ms.author="jimsch"
+	authors="ealsur"
+	ms.author="maquaran"
 	selfHelpType="generic"
-	supportTopicIds="32636793,32688843,32636774"
+	supportTopicIds="32636793"
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-function-triggers"
+	articleId="cosmosdb-function"
 	displayOrder="123"
 	category="Tools and Connectors"
 	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Functions trigger for Cosmos DB
+This section is relative to using the [Azure Functions trigger for Cosmos DB](https://docs.microsoft.com/azure/azure-functions/functions-bindings-cosmosdb-v2-trigger).
 
 ## **Recommended Steps**
 
@@ -50,7 +51,7 @@
 ### **PartitionKey must be supplied for this operation***
 This error means that you are currently using a partitioned lease collection with an old extension dependency. To solve this issue you need to update to the latest [extension dependency version](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies). If you are running on Azure Functions V1 (using the `Microsoft.Azure.WebJobs.Extensions.DocumentDB` package), **you need to migrate to Azure Functions V2 or greater** and use `Microsoft.Azure.WebJobs.Extensions.CosmosDB` instead.
 
-### What happens on a Function restart?
+### **What happens on a Function restart?**
 The Azure Cosmos DB trigger uses the lease collection to store the state and the latest processed point in time on the Change Feed. If your Function restarts or you manually stop it and start it at a later time, it will continue from the saved point in time and pick up the changes that happened after. Based on the behavior of the [Change Feed](https://docs.microsoft.com/azure/cosmos-db/change-feed), only the latest version of a document (in case a document received multiple changes) will be read.
 
 ## **Recommended Documents**
@@ -64,3 +65,30 @@ The Azure Cosmos DB trigger uses the lease collection to store the state and the
 [Diagnose and troubleshoot issues when using Azure Cosmos DB Trigger in Azure Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions)
 <br>This article covers common issues, workarounds, and diagnostic steps, when you use the Azure Functions trigger for Cosmos DB.
 	
+# Using the Azure Cosmos DB SDK in Azure Functions
+This section refers to using the Cosmos DB SDK to perform operations in the context of an Azure Function. 
+
+## **Recommended Steps**  
+
+### **Functions Host restart**  
+[Azure Functions Host has limits](https://docs.microsoft.com/azure/azure-functions/functions-scale#service-limits) regarding the number of connections, memory utilization, and execution timeout.
+<br>If the Host is restarting it could be related to a violation of one of these limits.
+<br>In the case of the Cosmos DB SDK the most common cause is not using the client as a **singleton** instance. Valid options are:
+1. Use a [static client](https://docs.microsoft.com/azure/azure-functions/manage-connections#static-clients) instance.
+1. Leverage [Dependency Injection on Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-dotnet-dependency-injection) to initialize and reuse the same client instance.
+
+### **401 - UnauthorizedException**
+This error is often related to using an invalid authorization key or credential. 
+1. Verify that the Key being used is valid. If you are reading the Key or Connection String from an external source, like Azure Key Vault, verify the information there is up to date.
+1. If there was a recent key rotation on the account, ensure you went with the [recommended procedure](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data#key-rotation). When using any old or new key there is a window of time where the key might not be valid.
+
+### **Other issues**
+For any other issues, see the **SDK (SQL API) Issues - Error or unexpected result** problem type. Azure Functions is mainly the execution environment and there is a possibility of the issue being a generic SDK issue covered in the general troubleshooting.
+
+## **Recommended Documents**  
+
+[Troubleshoot issues when using Azure Cosmos DB .NET SDK](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk)
+<br>This article covers common issues, workarounds, diagnostic steps, and tools when you use the .NET SDK with Azure Cosmos DB SQL API accounts.  
+
+[FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api-faq)
+<br>Frequently asked questions about Cosmos DB SQL API.  
