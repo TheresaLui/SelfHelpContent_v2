@@ -15,7 +15,7 @@
   "recommendationTypeId": "c6ac1f03-bd58-4421-9522-23cffb64d8e1",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "cluster("https://azeecluff.kusto.usgovcloudapi.net").database("AzEE-DB-FF").ServiceHealthRecommendation",
+    "streamNamespace": "cluster('https://azeecluff.kusto.usgovcloudapi.net').database('AzEE-DB-FF').ServiceHealthRecommendation",
     "dataSource": Kusto",
     "refreshInterval": "12:00:00"
   },
