@@ -20,6 +20,7 @@
 
 # This topic will guide you to the support experience for Microsoft 365 or Office 365
 
+This topic will guide you to the support experience for Microsoft 365 or Office 365
 
 ## **Recommended Steps**
 
@@ -28,4 +29,4 @@
 
 ## **Recommended Documents**
 
- * [Create on-premises professional support incident process documentation](https://support.microsoft.com/help/3020636/using-an-access-id-and-a-contract-id-to-create-on-premises-professiona)
+- [Create on-premises professional support incident process documentation](https://support.microsoft.com/help/3020636/using-an-access-id-and-a-contract-id-to-create-on-premises-professiona)
