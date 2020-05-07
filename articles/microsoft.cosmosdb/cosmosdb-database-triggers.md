@@ -16,7 +16,7 @@
 	ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Azure Functions trigger for Cosmos DB
+# Azure Cosmos DB database triggers
 
 ## **Recommended Steps**
 
