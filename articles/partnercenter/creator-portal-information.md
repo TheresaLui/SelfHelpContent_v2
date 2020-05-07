@@ -20,7 +20,9 @@
 
 # This topic will guide you to Creator information such as Code, Content, Devices, Community and Dashboard
 
+This topic will guide you to Creator information such as Code, Content, Devices, Community and Dashboard.
 
 ## **Recommended Documents**
 
- * [Creator information](https://partner.microsoft.com/creator/home)
+- [Creator information](https://partner.microsoft.com/creator/home)
+

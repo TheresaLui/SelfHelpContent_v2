@@ -35,7 +35,7 @@ Please let us know for any questions or concerns.
 
 ## **Recommended Steps**
 
-If possible, please consider choosing any of the regions from **East US, East US 2, West US, West US 2 or South Central US** for new deployments which do not have any restrictions as of now.
+If possible, please consider choosing any of the regions from **East US, East US 2, West US, West US 2, South Central US, North Europe, West Europe, Brazil South, Canada Central, France Central, Korea South or Korea Central** for new deployments which do not have any restrictions as of now.
 
 ## **Recommended Documents**
 
