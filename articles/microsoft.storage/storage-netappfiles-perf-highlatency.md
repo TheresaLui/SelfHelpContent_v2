@@ -21,6 +21,6 @@
 
 - [Performance Considerations for Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-performance-considerations)<br>
 - [Performance FAQs](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-faqs#performance-faqs)<br>
-- [Performance Benchmarks and Latency](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-performance-benchmarks#latency)<br>
 - [Performance Benchmark Test Recommendations](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-performance-metrics-volumes)<br>
+- [Performance Benchmarks for Linux](https://docs.microsoft.com/azure/azure-netapp-files/performance-benchmarks-linux)<br>
 - [SMB Performance FAQ](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-smb-performance)<br>
