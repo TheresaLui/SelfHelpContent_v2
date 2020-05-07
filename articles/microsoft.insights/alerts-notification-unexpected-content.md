@@ -21,7 +21,7 @@
 
 If you have received the alert, but believe some of its fields are missing or incorrect, follow these steps:
 
-### 1. Did you pick the correct format for the action?
+**1. Did you pick the correct format for the action?**
 
 Each action type (email, webhook, etc.) has two formats – the default, legacy format, and the newer [common schema format](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-common-schema). When you create an action group, you specify the format you want per action – different actions in the action groups may have different formats.
 
@@ -34,7 +34,7 @@ Check if the format specified at the action level is what you expect. For exampl
 
 Also, check the payload format (JSON) for [activity log alerts](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log-alerts-webhook), for [log search alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log-webhook) (both Application Insights and log analytics), for [metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time#payload-schema), for the [common alert schema](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-common-schema-definitions), and for the deprecated [classic metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-webhooks).
 
-### 2. Activity log alerts: Is the information available in the activity log?
+**2. Activity log alerts: Is the information available in the activity log?**
 
 [Activity log alerts](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log-alerts) are alerts that are based on events written to the Azure Activity Log. For example, this includes events about creating, updating or deleting Azure resources, service health and resource health events, or findings from Azure Advisor and Azure Policy. 
 
