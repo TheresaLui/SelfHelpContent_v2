@@ -24,4 +24,4 @@ For DDoS Basic customers, the first step to enable protection is to turn on Azur
 
 ## Recommended Documents
 
-* [Manage DDoS Azure Protection](https://docs.microsoft.com/en-us/azure/virtual-network/manage-ddos-protection)
+* [Manage DDoS Azure Protection](https://docs.microsoft.com/azure/virtual-network/manage-ddos-protection)
