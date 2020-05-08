@@ -6,7 +6,7 @@
     ms.author="jaserano"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32641052"
+    supportTopicIds="32641052,32740733"
     resourceTags=""
     productPesIds="15613"
     cloudEnvironments="public"
