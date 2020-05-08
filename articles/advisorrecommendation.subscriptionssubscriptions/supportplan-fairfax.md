@@ -3,9 +3,10 @@
     description="Upgrade to a support plan that includes technical support"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="8189a205-7f30-4f97-90ab-230519248722_Public"
+    articleId="9435b5f6-a201-479f-8d0e-8e275d26a527_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="CloudES_AzureAdvisor"
 />
 # Upgrade to a support plan that includes technical support
 ---
@@ -36,7 +37,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 2.0,
-  "learnMoreLink": "https://azure.microsoft.com/en-us/support/plans/government",
+  "learnMoreLink": "https://azure.microsoft.com/support/plans/government",
   "description": "Upgrade to a support plan that includes technical support",
   "longDescription": "We recommend upgrading your support plan to include technical support. Explore the range of Azure support options and choose the plan that best fits, whether you're a developer just starting your cloud journey or a large organization deploying business-critical, strategic applications.",
   "potentialBenefits": "Ensure business continuity by having access to Azure cloud experts",
