@@ -3,10 +3,10 @@
     description="Upgrade to a support plan that includes technical support"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="9435b5f6-a201-479f-8d0e-8e275d26a527_Public"
+    articleId="9435b5f6-a201-479f-8d0e-8e275d26a527_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
-	ownershipId="CloudES_AzureAdvisor"
+    ownershipId="CloudES_AzureAdvisor"
 />
 # Upgrade to a support plan that includes technical support
 ---
