@@ -25,7 +25,7 @@
 * [Azure shared disks](https://docs.microsoft.com/azure/virtual-machines/linux/disks-shared)
 * [Enable shared disk](https://docs.microsoft.com/azure/virtual-machines/linux/disks-shared-enable#deploy-an-azure-shared-disk)
 
-## **More Information**
+**More Information**
 
 [Overview of Azure Managed Disks](https://docs.microsoft.com/azure/virtual-machines/linux/managed-disks-overview)
 
@@ -36,12 +36,12 @@
 * **Detach a data disk** using the [Portal](https://docs.microsoft.com/azure/virtual-machines/linux/detach-disk#detach-a-data-disk-using-the-portal) or [CLI](https://docs.microsoft.com/azure/virtual-machines/linux/detach-disk#detach-a-data-disk-using-azure-cli)<br>
 * [Find and delete unattached Azure managed and unmanaged disks](https://docs.microsoft.com/azure/virtual-machines/linux/find-unattached-disks)
 
-
-## **Azure Shared Disk on Clustered Environments**
+## **Recommended steps**
+**Azure Shared Disk on Clustered Environments**
 
 Azure Shared Disks provides a consistent experience for applications running on clustered environments today. This means that any application that currently leverages SCSI Persistent Reservations (PR) can use this well-known set of commands to register nodes in the cluster to the disk. The application can then choose from a range of supported access modes for one or more nodes to read or write to the disk. These applications can deploy in highly available configurations while also leveraging Azure Disk durability guarantees.
 
-## Sample workload on Windows
+Sample workload on Windows
 Most Windows-based clustering build on WSFC, which handles all core infrastructure for cluster node communication, allowing your applications to take advantage of parallel access patterns. WSFC enables both CSV and non-CSV-based options depending on your version of Windows Server. For details, refer to [Create a failover cluster](https://docs.microsoft.com/windows-server/failover-clustering/create-failover-cluster)
 
 Some popular applications running on WSFC include:

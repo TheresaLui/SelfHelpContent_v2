@@ -25,7 +25,7 @@
 * [Azure shared disks](https://docs.microsoft.com/azure/virtual-machines/linux/disks-shared)
 * [Enable shared disk](https://docs.microsoft.com/azure/virtual-machines/linux/disks-shared-enable#deploy-an-azure-shared-disk)
 
-## **More Information**
+**More Information**
 
 [Overview of Azure Managed Disks](https://docs.microsoft.com/azure/virtual-machines/linux/managed-disks-overview)
 
