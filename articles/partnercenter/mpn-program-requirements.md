@@ -23,18 +23,15 @@
 Resources providing knowledge on Program requirements
 
 ## **Recommended Steps**
-- For more information on CSP program and enrolling as a Direct Bill or Indirect reseller refer to https://partner.microsoft.com/membership/cloud-solution-provider
 
-- To verify your program status as a CSP refer to https://partner.microsoft.com/pcv/accountsettings/partnerprofile
+- For more information on the CSP program and enrolling as a Direct Bill or Indirect reseller, refer to [https://partner.microsoft.com/membership/cloud-solution-provider](https://partner.microsoft.com/membership/cloud-solution-provider)
+- To verify your program status as a CSP refer to [https://partner.microsoft.com/pcv/accountsettings/partnerprofile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile)
 
 ## **Recommended Documents**
 
 * [CSP direct bill partner new requirements](https://docs.microsoft.com/partner-center/direct-partner-new-requirements)
-
 * [Verify your account information](https://docs.microsoft.com/partner-center/verification-responses)
-
 * [Requirements to enroll as a CSP direct bill partner](https://docs.microsoft.com/partner-center/direct-partner-new-requirements)
-
 * [Transition from Cloud Solution Provider (CSP) direct bill partner to CSP indirect reseller](https://docs.microsoft.com/partner-center/transition-direct-to-indirect)
 
 
