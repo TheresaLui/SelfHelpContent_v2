@@ -16,8 +16,8 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "97172837-e5ea-45b2-af3b-cadbf428a6d9",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('xstore').AzureStorageAdvisorUseLatestVersionSDK_AllRoles",
-    "dataSource": "Kusto",
+    "streamNamespace": "AzureStorage.Data.AzureStorageAdvisorUseLatestVersionSDK_AllRoles_PublicV2",
+    "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
