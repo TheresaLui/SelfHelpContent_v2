@@ -4,7 +4,7 @@
 	service="microsoft.compute"
 	resource=""
 	authors="ScottAzure"
-	ms.author="scotro"
+	ms.author="scotro, sischleg"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32691057"
