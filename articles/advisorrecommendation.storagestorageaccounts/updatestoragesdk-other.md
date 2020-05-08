@@ -76,6 +76,7 @@
       "title": "Minimum Recommended Version"
     }
   ],
-  "tip": ""
+  "tip": "",
+  "testData": "65490f91-f2c2-4514-80ba-4ec1de89aeda, /subscriptions/65490f91-f2c2-4514-80ba-4ec1de89aeda/resourceGroups/XStoreDataAnalytics/providers/Microsoft.Storage/storageAccounts/axdataanalyticsstgwestus, \"{\"\"language\"\":\"\".Net\"\",\"\"version\"\":\"\"10.0.1\"\",\"\"recommendedActionLearnMore\"\":\"\"https://github.com/Azure/azure-storage-net/#via-nuget\"\",\"\"releaseNotes\"\":\"\"https://github.com/Azure/azure-storage-net/releases/tag/v10.0.2\"\"}\""
 }
 ---
