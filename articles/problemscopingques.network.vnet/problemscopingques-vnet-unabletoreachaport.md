@@ -1,8 +1,8 @@
 <properties
     pageTitle="Unable to reach a port"
     description="Unable to reach a port"
-    authors="anavinahar"
-    ms.author="anavin"
+    authors="TobyTu"
+    ms.author="v-zht, mariliu"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32584255"
     productPesIds="15526"
@@ -51,7 +51,7 @@
                     "text": "Unable to get the list of Virtual Machines"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "port_number",
