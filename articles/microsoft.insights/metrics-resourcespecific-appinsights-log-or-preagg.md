@@ -20,7 +20,7 @@ Application Insights has two types of metrics: the metrics that are based on the
 
 The **log-based metrics** behind the scene is an abstraction layer that translates each request for metric values into a Kusto query on top of raw events. See [the underlying queries for each Application Insights log-based metric](https://docs.microsoft.com/azure/azure-monitor/platform/app-insights-metrics). The log-based metrics have more dimensions and, therefore, have greater analytical value but the accuracy of log-based metrics may be impacted by the telemetry volume reduction techniques such as sampling, filtering, or data capping.
 
-The **standard pre-aggregated metrics** provide faster query time and high precision (as they aren't impacted by sampling, filtering, or data-capping), which makes them a superior chose for alerting or dashboards. However, standard pre-aggregated metrics have fewer dimensions and may be more limited in the analytical scenarios.
+The **standard pre-aggregated metrics** provide faster query time and high precision (as they aren't impacted by sampling, filtering, or data-capping), which makes them a superior choice for alerting or dashboards. However, standard pre-aggregated metrics have fewer dimensions and may be more limited in the analytical scenarios.
 
 ## **Recommended Documents**
 
