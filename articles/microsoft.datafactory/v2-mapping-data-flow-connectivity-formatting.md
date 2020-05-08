@@ -17,32 +17,32 @@
 
 # Mapping data flow - Source/Sink Format and Connector Issue
 
-Mapping data flows currently support working directly with few data sources and sinks (see the most updated supported [sources](https://docs.microsoft.com/en-us/azure/data-factory/data-flow-source) or [sinks](https://docs.microsoft.com/en-us/azure/data-factory/data-flow-sink)), if you are experimenting issues connecting to any of the supported data sources or sinks, please make sure you review the following troubleshooting guides, which contain most of the common errors and solutions, while connecting to these data sources.
+Mapping data flows currently support working directly with few data sources and sinks (see the most updated supported [sources](https://docs.microsoft.com/azure/data-factory/data-flow-source) or [sinks](https://docs.microsoft.com/azure/data-factory/data-flow-sink)), if you are experiencing issues connecting to any of the supported data sources or sinks, please make sure you review the following troubleshooting guides, which contain most of the common errors and solutions, while connecting to these data sources.
 
-## **Troubleshooting guides for supported data sources/sinks**
+### **Troubleshooting guides for supported data sources/sinks**
 
 Connector | Supported formats |	Troubleshooting Connector Resources
 ----------|-------------------|-------------------------------------
-Azure Blob Storage |JSON, Avro, Text, Parquet |[Azure Storage connector troubleshooting](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#azure-blob-storage)
-Azure Data Lake Storage Gen 1 |JSON, Avro, Text, Parquet |[ADLS Gen 1 connector troubleshooting](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#azure-data-lake-storage-gen1)
-Azure Data Lake Storage Gen 2 |JSON, Avro, Text, Parquet |[ADLS Gen 2 connector troubleshooting](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#azure-data-lake-storage-gen2)
-Azure Synapse Analytics | |[Azure SQL connector troubleshooting](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#azure-sql-data-warehouseazure-sql-databasesql-server)
-Azure SQL Database | |[Azure SQL connector troubleshooting](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#azure-sql-data-warehouseazure-sql-databasesql-server)
-Azure Cosmos DB| |[Cosmos DB connector troubleshooting](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#azure-cosmos-db)
+Azure Blob Storage |JSON, Avro, Text, Parquet |[Azure Storage connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-blob-storage)
+Azure Data Lake Storage Gen 1 |JSON, Avro, Text, Parquet |[ADLS Gen 1 connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-data-lake-storage-gen1)
+Azure Data Lake Storage Gen 2 |JSON, Avro, Text, Parquet |[ADLS Gen 2 connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-data-lake-storage-gen2)
+Azure Synapse Analytics | |[Azure SQL connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-sql-data-warehouseazure-sql-databasesql-server)
+Azure SQL Database | |[Azure SQL connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-sql-data-warehouseazure-sql-databasesql-server)
+Azure Cosmos DB| |[Cosmos DB connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-cosmos-db)
 
 
-Azure Data Factory has access to over [90 native connectors](https://docs.microsoft.com/en-us/azure/data-factory/connector-overview). To include or write data to those other sources from your data flow, use the Copy Activity to load that data from one of the supported staging areas after completion of your data flow.
+Azure Data Factory has access to over [90 native connectors](https://docs.microsoft.com/azure/data-factory/connector-overview). To include or write data to those other sources from your data flow, use the Copy Activity to load that data from one of the supported staging areas after completion of your data flow.
 
-## **Formatting Troubleshooting**
+### **Formatting Troubleshooting**
 
-If you are having problems with the format supported by the data sources, please consider reviewing the following troubelshooting guides with common errors and solutions:
-* [JSON common errors and troubleshooting](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#json-format)
-* [Parquet common errors and troubleshooting](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#parquet-format)
-* [Delimited text troubleshooting](https://docs.microsoft.com/en-us/azure/data-factory/connector-troubleshoot-guide#delimited-text-format)
+If you are having problems with the format supported by the data sources, please consider reviewing the following troubleshooting guides with common errors and solutions:
+* [JSON common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#json-format)
+* [Parquet common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#parquet-format)
+* [Delimited text troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#delimited-text-format)
 
 ## **Recommended Documents**
 
-For common errors and basic Mapping Data Flow activity troubleshooting please review the [data flow troubleshooting guide](https://docs.microsoft.com/en-us/azure/data-factory/data-flow-troubleshoot-guide)
+For common errors and basic Mapping Data Flow activity troubleshooting please review the [data flow troubleshooting guide](https://docs.microsoft.com/azure/data-factory/data-flow-troubleshoot-guide)
 
 - [Mapping Data Flows in Azure Data Factory Overview](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-overview)
 - [Mapping Data Flow Datasets](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-datasets)
@@ -57,7 +57,7 @@ For common errors and basic Mapping Data Flow activity troubleshooting please re
 - [Mapping Data Flow Sink Transformation](https://docs.microsoft.com/azure/data-factory/data-flow-sink)
 
 
-## **FAQ**
+### **FAQ**
 
 **Q: Can I connect to Azure Analysis Services using Mapping Data Flow?**
 **A:** You will need a copy activity, to move the data to a staging supported data source from your Azure Analysis Services.
