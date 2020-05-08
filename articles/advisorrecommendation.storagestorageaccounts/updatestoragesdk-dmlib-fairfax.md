@@ -24,7 +24,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "UpdateStorageDataMovementSDK",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "owner": {
     "email": "yinfan@microsoft.com",
     "icm": {

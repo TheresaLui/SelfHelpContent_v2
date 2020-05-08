@@ -9,7 +9,8 @@
   articleid="storage-account-management-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" 	ownershipId="AzureData_AzureSQLVM"
+  feedbackemail="email" 	
+  ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Support Topic Descriptions for 6a9c20ed-85c7-c289-d5e2-560da8f2a7c8
 ---

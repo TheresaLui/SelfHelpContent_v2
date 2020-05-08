@@ -25,7 +25,7 @@
   "productLinkName3": "",
   "supportTopics": [
     {
-      "id": "\tfc4d4b63-7ee7-78c1-fc99-ffe694b9f8a2",
+      "id": "fc4d4b63-7ee7-78c1-fc99-ffe694b9f8a2",
       "longDescription": null,
       "shortDescription": "Covers issues with Monitoring agent (MMA) extension",
       "searchTags": "",

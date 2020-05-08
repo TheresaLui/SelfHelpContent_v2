@@ -11,7 +11,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745"
 	cloudEnvironments="public,fairfax, usnat, ussec"
-	articleId="37aa2d07-83df-4ce9-9810-a098f1065cbd"
+	articleId="37aa2d07-83df-4ce9-9810-a098f1065cbd-azurestorage"
 	ownershipId="AzureData_AzureSQLVM"
 />
 
