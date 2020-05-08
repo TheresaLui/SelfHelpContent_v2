@@ -11,7 +11,7 @@
 	supportTopicIds="32729043"
 	resourceTags=""
 	productPesIds="16264"
-	cloudEnvironments="Public,fairfax"
+	cloudEnvironments="Public,fairfax, usnat, ussec"
 	articleId="d2a16891-95ca-40ad-01bd-e4ad0a983a5f"
 	ownershipId="Azure_Advanced_Threat_Protection"
 />

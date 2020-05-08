@@ -25,7 +25,7 @@
     },
     "formElements": [
         {
-            "id": "using_VM",
+            "id": "vm_facing_issue",
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Which virtual machine(s) is experiencing problem?",
