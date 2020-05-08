@@ -11,7 +11,7 @@
     supportTopicIds="32609697"
     resourceTags=""
     productPesIds="16506"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     ownershipId="StorageMediaEdge_AvereVFXT"
 />
 
