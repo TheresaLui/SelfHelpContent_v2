@@ -69,3 +69,4 @@ For common errors and basic Mapping Data Flow activity troubleshooting please re
 **A:** To use PolyBase, the user that loads data into SQL Data Warehouse must have "CONTROL" permission on the target database. For more information refer to the connector documentation
 
 - [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory)
+
