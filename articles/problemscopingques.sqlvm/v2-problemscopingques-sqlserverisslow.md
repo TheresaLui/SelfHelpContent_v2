@@ -45,7 +45,7 @@
                     "value": "QuerySlow"
                 },
                 {
-                    "text": "I’m not sure/don’t know",
+                    "text": "I'm not sure/don't know",
                     "value": "dont_know_answer"
                 }
             ],
@@ -70,11 +70,11 @@
                     "value": "FasterBeforeSameVM"
                 },
                 {
-                    "text": "It’s faster on another environment that runs this workload (e.g., on-premise SQL instance)",
+                    "text": "It's faster on another environment that runs this workload (e.g., on-premise SQL instance)",
                     "value": "FasterDifferentEnvironment"
                 },
                 {
-                    "text": "I’m not sure/don’t know",
+                    "text": "I'm not sure/don't know",
                     "value": "dont_know_answer"
                 }
             ],
@@ -103,7 +103,7 @@
                     "value": "No"
                 },
                 {
-                    "text": "I’m not sure/don’t know",
+                    "text": "I'm not sure/don't know",
                     "value": "dont_know_answer"
                 }
             ],
