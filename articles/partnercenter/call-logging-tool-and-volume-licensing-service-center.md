@@ -14,12 +14,13 @@
 	clientIds='partnercenter'
 	resourceTags="other"
 	productPesIds="17113"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Other_Portals"
 />
 
 # Get more information and support for Volume Licensing operations questions supported by the Regional Operation Centers
 
+Get more information and support for Volume Licensing operations questions supported by the Regional Operation Centers.
 
 ## **Recommended Steps**
 
@@ -29,5 +30,5 @@
 
 ## **Recommended Documents**
 
- * [How to open a Call Logging Tool (CLT) ticket](https://support.microsoft.com/help/4476980)
- * [For Volume Licensing information search the explore.ms site](https://www.explore.ms/)
+- [How to open a Call Logging Tool (CLT) ticket](https://support.microsoft.com/help/4476980)
+- [For Volume Licensing information search the explore.ms site](https://www.explore.ms/)

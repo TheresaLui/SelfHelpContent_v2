@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Stack Stop and Start"
-    description="Stopping and Starting Azure Stack"
+    pageTitle="Azure Stack Hub Stop and Start"
+    description="Stopping and Starting Azure Stack Hub"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -15,14 +15,14 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Azure Stack Startup and Shutdown
+# Azure Stack Hub Startup and Shutdown
 
 ## **Recommended Steps**
 
-1. [Azure Stack Startup](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#start-azure-stack) powers on all infrastructure roles and returns tenant resources to the power state they were in prior to shutdown
-2. [Azure Stack Shutdown](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#stop-azure-stack) will physically power off the entire Azure Stack environment
-3. If issues occur, follow steps to [troubleshoot startup and shutdown of Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#troubleshoot-startup-and-shutdown-of-azure-stack)
+1. [Azure Stack Hub Startup](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#start-azure-stack-hub) powers on all infrastructure roles and returns tenant resources to the power state they were in prior to shutdown
+2. [Azure Stack Hub Shutdown](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#stop-azure-stack-hub) will physically power off the entire Azure Stack Hub environment
+3. If issues occur, follow steps to [troubleshoot startup and shutdown of Azure Stack Hub](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#troubleshoot-startup-and-shutdown-of-azure-stack-hub)
 
 ## **Recommended Documents**
 
-- [Stop and Start Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop)
+- [Stop and Start Azure Stack Hub](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop)
