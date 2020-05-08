@@ -22,8 +22,8 @@
 
 ## **Recommended Documents**
 
-* [Azure shared disks](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/disks-shared)
-* [Enable shared disk](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/disks-shared-enable#deploy-an-azure-shared-disk)
+* [Azure shared disks](https://docs.microsoft.com/azure/virtual-machines/linux/disks-shared)
+* [Enable shared disk](https://docs.microsoft.com/azure/virtual-machines/linux/disks-shared-enable#deploy-an-azure-shared-disk)
 
 ## **More Information**
 
@@ -42,7 +42,7 @@
 Azure Shared Disks provides a consistent experience for applications running on clustered environments today. This means that any application that currently leverages SCSI Persistent Reservations (PR) can use this well-known set of commands to register nodes in the cluster to the disk. The application can then choose from a range of supported access modes for one or more nodes to read or write to the disk. These applications can deploy in highly available configurations while also leveraging Azure Disk durability guarantees.
 
 ## Sample workload on Windows
-Most Windows-based clustering build on WSFC, which handles all core infrastructure for cluster node communication, allowing your applications to take advantage of parallel access patterns. WSFC enables both CSV and non-CSV-based options depending on your version of Windows Server. For details, refer to [Create a failover cluster](https://docs.microsoft.com/en-us/windows-server/failover-clustering/create-failover-cluster)
+Most Windows-based clustering build on WSFC, which handles all core infrastructure for cluster node communication, allowing your applications to take advantage of parallel access patterns. WSFC enables both CSV and non-CSV-based options depending on your version of Windows Server. For details, refer to [Create a failover cluster](https://docs.microsoft.com/windows-server/failover-clustering/create-failover-cluster)
 
 Some popular applications running on WSFC include:
 
@@ -52,4 +52,4 @@ Some popular applications running on WSFC include:
 * Remote Desktop Server User Profile Disk (RDS UPD)
 * SAP ASCS/SCS
 
-With Azure Shared Disks, customers now have the flexibility to migrate clustered environments running on Windows Server, including Windows Server 2008 (which has reached  [End-of-Support](https://www.microsoft.com/cloud-platform/windows-server-2008)), to Azure. This capability is designed to support [SQL Server Failover Cluster Instances (FCI)](https://docs.microsoft.com/en-us/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server?view=sql-server-ver15#Overview), [Scale-out File Servers (SoFS)](https://docs.microsoft.com/en-us/windows-server/failover-clustering/sofs-overview), [Remote Desktop Servers (RDS)](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds-plan-high-availability), and [SAP ASCS/SCS](https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/sap/) running on Windows Server.
+With Azure Shared Disks, customers now have the flexibility to migrate clustered environments running on Windows Server, including Windows Server 2008 (which has reached  [End-of-Support](https://www.microsoft.com/cloud-platform/windows-server-2008)), to Azure. This capability is designed to support [SQL Server Failover Cluster Instances (FCI)](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server?view=sql-server-ver15#Overview), [Scale-out File Servers (SoFS)](https://docs.microsoft.com/windows-server/failover-clustering/sofs-overview), [Remote Desktop Servers (RDS)](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/rds-plan-high-availability), and [SAP ASCS/SCS](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/) running on Windows Server.
