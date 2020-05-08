@@ -4,6 +4,7 @@
 	service="microsoft.network"
 	resource="loadbalancers"
 	authors="anavinahar"
+    	ms.author="anavin"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32546090"
