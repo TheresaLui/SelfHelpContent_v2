@@ -44,7 +44,7 @@
   "actions": [
     {
       "actionId": "b3a3bbb5-feaf-4c02-9d67-aa314bc1b477",
-      "description": "(Preview) Consider reserved capacity for {DisplaySKU} in {DisplayRegion} for {DisplayQty} vCores",
+      "description": "(Preview) Consider reserved capacity for {displaySKU} in {displayRegion} for {displayQty} vCores",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Reservations",
       "bladeName": "CreateBlade",
