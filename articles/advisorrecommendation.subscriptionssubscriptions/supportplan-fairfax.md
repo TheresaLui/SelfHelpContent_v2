@@ -36,7 +36,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 2.0,
-  "learnMoreLink": "https://aka.ms/azuresupport",
+  "learnMoreLink": "https://azure.microsoft.com/en-us/support/plans/government",
   "description": "Upgrade to a support plan that includes technical support",
   "longDescription": "We recommend upgrading your support plan to include technical support. Explore the range of Azure support options and choose the plan that best fits, whether you're a developer just starting your cloud journey or a large organization deploying business-critical, strategic applications.",
   "potentialBenefits": "Ensure business continuity by having access to Azure cloud experts",
