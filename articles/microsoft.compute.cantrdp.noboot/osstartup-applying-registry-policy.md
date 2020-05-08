@@ -19,10 +19,10 @@
 
 # VM boot error: Applying Registry Policy
 <!--issueDescription-->
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because of an unknown error that occurred while the OS was applying the registry policy during boot. A memory dump analysis will need to be performed to find the root cuase of the issue.
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because of an unknown error that occurred while the OS was applying the registry policy during boot. A memory dump analysis will need to be performed to find the root cause of the issue.
 <!--/issueDescription-->
 
-Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code **Appling Registry policy**. This may also help you diagnose future issues and determine if a boot error is the cause.<br>
+Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code **Applying Registry policy**. This may also help you diagnose future issues and determine if a boot error is the cause.<br>
 
 ## **Recommended Steps**
 
