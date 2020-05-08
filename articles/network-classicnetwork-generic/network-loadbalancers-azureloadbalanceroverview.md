@@ -22,5 +22,5 @@
 [Load Balancer components](https://docs.microsoft.com/azure/load-balancer/components)<br>
 [Load Balancer concepts](https://docs.microsoft.com/azure/load-balancer/concepts)<br>
 [Load Balancer SKU comparison](https://docs.microsoft.com/azure/load-balancer/skus)<br>
-[roubleshoot Azure Load Balancer common scenarios](https://docs.microsoft.com/azure/load-balancer/load-balancer-troubleshoot)<br>
+[Troubleshoot Azure Load Balancer common scenarios](https://docs.microsoft.com/azure/load-balancer/load-balancer-troubleshoot)<br>
 [Troubleshoot common Load Balancer errors](https://docs.microsoft.com/azure/load-balancer/load-balancer-common-deployment-errors)
