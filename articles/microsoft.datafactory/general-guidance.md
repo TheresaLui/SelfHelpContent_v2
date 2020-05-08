@@ -6,11 +6,12 @@
     ms.author="jaserano"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32641052,32740733"
+    supportTopicIds="32740733"
     resourceTags=""
     productPesIds="15613"
     cloudEnvironments="public"
     articleId="f21a313f-68b1-44fb-8f2f-888cdf6b771c"
+    ownershipId="AzureData_DataFactory"
 />
 
 # Azure Data Factory V2
