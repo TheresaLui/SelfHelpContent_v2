@@ -19,6 +19,11 @@
     "resourceRequired": true,
     "title": "How to choose data migration solution",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Want to find a data migration solution?",
+        "description": "Our Azure Data Migration Solution Finder can help you find the data migration solution for your specific scenario. Please fill in the information below to find a solution.",
+        "insightNotAvailableText": "Our solution finder did not find any solution for your migration. Please ensure the information provided is accurate and in the approved format. Also, see our manual steps below to find a method."
+    },
     "formElements": [
     	{
             "id": "source_resource",
@@ -60,7 +65,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "account_migration_scenario",
@@ -95,7 +101,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "blob_migration_scenario",
@@ -126,7 +133,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "files_migration_scenario",
@@ -157,7 +165,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "adlsgen2_migration_scenario",
@@ -188,7 +197,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "manageddisk_migration_scenario",
@@ -247,7 +257,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "local_onpremise_migration_scenario",
@@ -278,7 +289,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "external_cloud_migration_scenario",
@@ -309,7 +321,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "data_size_tb",
@@ -356,7 +369,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": false
+	"required": false,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "network_bandwidth_mbps",
@@ -407,7 +421,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": false
+	"required": false,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "transfer_frequency",
@@ -430,7 +445,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": false
+	"required": false,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "problem_start_time",
