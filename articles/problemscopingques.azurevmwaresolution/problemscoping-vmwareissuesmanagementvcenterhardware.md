@@ -1,6 +1,6 @@
 <properties
-                pageTitle="vCenter Hardware  /addon"
-                description="vCenter Hardware /addon"
+                pageTitle="vcenterhardware"
+                description="vcenterhardware"
                 authors="neshenoy"
                 ms.author="neshenoy"
                 selfHelpType="problemScopingQuestions"
@@ -16,11 +16,11 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "vCenter Hardware",
+    "title": "vcenterhardware",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "error",
+            "id": "problem_description",
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error or warning message reported in vCenter?",
@@ -31,14 +31,14 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is the ExpressRoute URI ID of the private cloud?",
-            "required": true
+            "required": false
         },
         {
             "id": "Cluster",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Which cluster is experiencing the issue?",
-            "required": true
+            "required": false
         }
         ,
         {
@@ -46,9 +46,8 @@
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Which host in the cluster is reporting the issue?",
-            "required": true
+            "required": false
         }
             ],
     "$schema": "SelfHelpContent"
 }
----
