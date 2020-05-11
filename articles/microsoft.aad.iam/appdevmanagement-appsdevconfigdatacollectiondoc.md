@@ -112,7 +112,7 @@
             "numberOfLines": 2
         },
         {
-            "id": "errorText",
+            "id": "problem_description",
             "visibility": null,
             "order": 6,
             "controlType": "multilinetextbox",
@@ -125,7 +125,7 @@
             "hints": null,
             "required": true,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "numberOfLines": 3,
             "diagnosticInputRequiredClients": "Portal"
         },
@@ -169,23 +169,6 @@
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
-        },
-        {
-            "id": "problem_description",
-            "visibility": null,
-            "order": 10,
-            "controlType": "multilinetextbox",
-            "displayLabel": "You may provide additional details here",
-            "content": null,
-            "watermarkText": "",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "hints": null,
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": true,
-            "numberOfLines": 0
         }
     ],
     "$schema": "SelfHelpContent"

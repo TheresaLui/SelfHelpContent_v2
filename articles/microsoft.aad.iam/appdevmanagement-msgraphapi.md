@@ -44,7 +44,7 @@
             "numberOfLines": 3
         },
         {
-            "id": "errorText",
+            "id": "problem_description",
             "visibility": null,
             "order": 2,
             "controlType": "multilinetextbox",
@@ -57,7 +57,7 @@
             "hints": null,
             "required": false,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "numberOfLines": 3,
             "diagnosticInputRequiredClients": "Portal"
         },
@@ -180,23 +180,6 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "problem_description",
-            "visibility": null,
-            "order": 10,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "hints": null,
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": true,
             "numberOfLines": 0
         }
     ],

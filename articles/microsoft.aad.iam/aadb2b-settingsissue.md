@@ -99,7 +99,7 @@
         {
             "id": "whichApp",
             "visibility": null,
-            "order": 5,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Where does the problem occur? ",
             "content": null,
@@ -139,9 +139,9 @@
             "numberOfLines": 0
         },
         {
-            "id": "errorText",
+            "id": "problem_description",
             "visibility": null,
-            "order": 6,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Full Error Message:",
             "content": null,
@@ -151,14 +151,14 @@
             "dynamicDropdownOptions": null,
             "required": false,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "numberOfLines": 3,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "URL",
             "visibility": null,
-            "order": 7,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "What is the URL of the page you saw the problem on?",
             "content": null,
@@ -174,7 +174,7 @@
         {
             "id": "reproStepsText",
             "visibility": null,
-            "order": 8,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "What specific steps did you or the user follow that resulted in the error?",
             "content": null,
@@ -186,22 +186,6 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 10
-        },
-        {
-            "id": "problem_description",
-            "visibility": null,
-            "order": 9,
-            "controlType": "multilinetextbox",
-            "displayLabel": "You may provide additional details here",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": true,
-            "numberOfLines": 0
         }
     ],
     "$schema": "SelfHelpContent"
