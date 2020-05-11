@@ -51,7 +51,7 @@
         ,
         {
             "id": "Host",
-            "order": 4,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Which host in the cluster is reporting the issue?",
             "required": false
