@@ -23,7 +23,7 @@ Many problems related with connectivity, using a **copy activity**, are related 
 
 Depending on your scenario, the troubleshooting actions might require multiple steps.
 
-## **Recommended Actions**
+## **Recommended Steps**
 
 1. Obtain the error that is returned while trying to execute the pipeline or when trying to connect to the data set. You can try testing the connection by editing the linked service and pressing the button **Test connection**.
 2. If your data store is on the cloud, you can find a great variety of errors and how to resolve them on the following troubleshooting guides:
