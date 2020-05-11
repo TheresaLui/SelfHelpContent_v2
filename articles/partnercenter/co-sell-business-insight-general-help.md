@@ -20,10 +20,10 @@
 
 # General help
 
-The Business profile insights page in Partner Center lets you see how well you're capturing the attention of your target customers and generating referrals.
+The Business profile insights page in Partner Center lets you see how well you are capturing the attention of your target customers and generating referrals.
 
 ## **Recommended Documents**
 
-* [Understand more about Business profile insights and  Profile performance summary](https://docs.microsoft.com/partner-center/analyze-your-marketing-profile)
+* [Understand more about Business profile insights and Profile performance summary](https://docs.microsoft.com/partner-center/analyze-your-marketing-profile)
 
 
