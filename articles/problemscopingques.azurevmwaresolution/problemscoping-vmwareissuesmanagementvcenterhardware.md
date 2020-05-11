@@ -42,19 +42,19 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What is the ExpressRoute URI ID of the private cloud?",
-            "required": false,
+            "required": false
         }, {
             "id": "Cluster",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Which cluster is experiencing the issue?",
-            "required": false,
+            "required": false
         }, {
             "id": "Host",
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Which host in the cluster is reporting the issue?",
-            "required": false,
+            "required": false
         }
             ]
  }
