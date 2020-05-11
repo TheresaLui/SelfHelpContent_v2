@@ -1,14 +1,14 @@
 <properties
     pageTitle="Problem with graph API generic"
     description="graphgenericapioperation"
-    authors="vritiJain"
-	ms.author="vrjai"
+    authors="anupnadigm"
+    ms.author="anupnadigm"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32596860"
     productPesIds="16575"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
-    articleId="appdevmsgraph"
+    articleId="df8b6aa7-fd87-40c7-8c0d-a67dd35aec46"
     ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
@@ -21,7 +21,7 @@
     "title": "Problem with graph API generic",
     "fileAttachmentHint": null,
     "diagnosticCard": {
-        "title": "Problem with Azure Active Directory developing apps with MSgraph",
+        "title": "Problem with Azure Active Directory app development with MSgraph",
         "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade:",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
@@ -58,7 +58,7 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
-            "numberOfLines": 3,
+            "numberOfLines": 0,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
@@ -156,7 +156,7 @@
             "displayLabel": "Application ID",
             "content": null,
             "watermarkText": "Example: 751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
-            "infoBalloonText": "Application to login to. Format accepted is AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743,
+            "infoBalloonText": "Application to login to. Format accepted is AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": null,

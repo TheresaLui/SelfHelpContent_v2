@@ -4,7 +4,7 @@
     authors="anupnadigm"
     ms.author="anupnadigm"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596839,32596841,32596852,32134056,32596860"
+    supportTopicIds="32596839,32596841,32596852,32134056"
     productPesIds="16578,16575"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
