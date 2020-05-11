@@ -7,8 +7,9 @@
 	articleid="vpngwconfigp2sclient"
 	supportTopicIds="32633156"
 	productPesIds="16094"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Configure a point-to-site client information
 ---

@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="90b1090f-9ce2-4d1d-8408-e818b8566eed"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Security Association Limitation

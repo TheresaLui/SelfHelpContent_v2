@@ -7,14 +7,15 @@
 	authors="KalpanaChawla-Infosys"
 	ms.author="v-kalpc"
 	displayOrder=""
-	articleId="mpn_benefits_not_able_to_see_benefits"
+	articleId="mpn_competencies_exam_assessment"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32681443"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # MPN Exams/assessment data not reflecting in Partner Center

@@ -7,8 +7,9 @@
   selfHelpType="generic"
   supportTopicIds="32570955"
   productPesIds="14785,16575"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="b83faa7d-154d-421e-89b5-ce37511096bf"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Issues that are related to signing in to applications

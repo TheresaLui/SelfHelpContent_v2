@@ -12,8 +12,9 @@
     supportTopicIds="32586802, 32586803, 32586804, 32586805, 32539949, 32539950, 32539954, 32539963"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 # Microsoft IPv6 Peering Prefixes are not Advertised
 <!--/issueDescription-->
 Microsoft Prefixes (IPv6) Are Not Advertised From The MSEE. This is likely failing due to missing route filters. Many services are accessible through peering configured on an ExpressRoute circuit. The prefixes related to those services are advertised through Border Gateway Protocol (BGP) session that are established. A BGP community value is attached to every prefix to identify the service that is offered through the prefix.

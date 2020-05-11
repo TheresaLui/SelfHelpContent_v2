@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32302786"
 	productPesIds="16975"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="1c3a24b9-bfea-4bbf-bc81-a560453a369e"
+	ownershipId="CloudNet_ContentDeliveryNetwork"
 />
 
 # configuration/compression

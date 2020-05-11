@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32639209"
 	productPesIds="16505"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 # Missing parts once the shipment has arrived
 ---

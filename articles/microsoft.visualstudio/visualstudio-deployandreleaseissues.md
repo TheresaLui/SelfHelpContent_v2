@@ -12,7 +12,8 @@
 	supportTopicIds="32373545,  32452973"
    	resourceTags=""
 	productPesIds="15543"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="Azure_DevOps_Services"
 />
 
 # DevOps Services Deploy and Release Issues

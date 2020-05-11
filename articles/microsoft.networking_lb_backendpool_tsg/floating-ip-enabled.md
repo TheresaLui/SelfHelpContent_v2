@@ -10,8 +10,9 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="351e248d-0f4c-4cfe-be02-3a1f8c4879a3"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check if Floating IP is enabled on the backend resources

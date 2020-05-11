@@ -6,12 +6,13 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="23"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-iaaslinux-restore-mooncake"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Azure Linux VM Restore Limitations

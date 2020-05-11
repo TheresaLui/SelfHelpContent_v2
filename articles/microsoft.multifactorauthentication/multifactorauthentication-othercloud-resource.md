@@ -9,8 +9,9 @@
     supportTopicIds=""
     resourceTags="mfa_overview"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
  	articleId="89d02013-7a35-407d-8153-efaaf9502d79"
+	ownershipId="AzureIdentity_User"
 />
 
 # Other questions about Azure MFA in the cloud

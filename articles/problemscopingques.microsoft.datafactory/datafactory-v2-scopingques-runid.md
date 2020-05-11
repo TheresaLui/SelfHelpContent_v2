@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629472,32629492,32637151"
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="DataFactoryRunIdScopingQues"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Data Factory Pipeline and Trigger Run

@@ -11,7 +11,8 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="storage"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # **Storage account scalability tartget exceeded RCA**

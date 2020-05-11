@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="eb6f8794-119e-4003-9e0b-e145097846eb"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to check VPN Gateway DIP and VIP health

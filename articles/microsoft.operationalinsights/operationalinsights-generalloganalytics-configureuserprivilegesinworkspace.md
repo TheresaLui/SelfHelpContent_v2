@@ -13,8 +13,9 @@ selfHelpType="generic"
 supportTopicIds="32612439"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 	articleId="bd047e2f-6aa4-4218-a8a8-059135dbc5f2"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Configure User Privileges in Workspace

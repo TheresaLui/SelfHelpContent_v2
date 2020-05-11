@@ -13,7 +13,8 @@
 	supportTopicIds="32689371, 32689406, 32689422, 32689442"
 	resourceTags="isv"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Power BI App Offer Troubleshooting

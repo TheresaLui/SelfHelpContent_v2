@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553280"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="a0f92ce4-69a0-48c6-be51-670b7ddcfd16"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MARS backup performance
 ---

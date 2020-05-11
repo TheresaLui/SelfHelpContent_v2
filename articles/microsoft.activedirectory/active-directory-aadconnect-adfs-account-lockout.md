@@ -9,9 +9,10 @@
 	supportTopicIds="32615362"
 	resourceTags=""
 	productPesIds="16579"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     ms.author="billmath"
 	articleId="118aafd5-bf51-47ce-8e89-0a5e0981c29b"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Account Lockout

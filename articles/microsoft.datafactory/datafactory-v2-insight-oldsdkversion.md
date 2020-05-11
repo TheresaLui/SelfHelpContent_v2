@@ -13,7 +13,8 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Data Factory detected old SDK versions

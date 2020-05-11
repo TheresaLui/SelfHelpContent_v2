@@ -9,8 +9,9 @@
 	supportTopicIds="32549257"
 	resourceTags="linux,redhat"
 	productPesIds="15571,15797"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="7b415780-965d-44aa-aace-f6007ff22b2d"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Connectivity/Connectivity issues that are related to SAP HANA large instances

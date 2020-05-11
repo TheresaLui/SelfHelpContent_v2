@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633393"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="sb-arm-deployment-failures"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Issues where ARM APIs or ARM template deployments are failing
 ---

@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32583165"
 resourceTags=""
 productPesIds="16263"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="eg-arm-ps-issues"
 schemaVersion="1"
+	ownershipId="AzureEventGrid_Topics"
 />
 # ARM and PowerShell Issues
 ---

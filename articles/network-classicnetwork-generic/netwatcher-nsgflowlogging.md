@@ -13,10 +13,11 @@
 	supportTopicIds="32606424"
 	resourceTags=""
 	productPesIds="16160"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
-# Common issues with NSG Flow Logs
+# Common issues with NSG Flow Logs 
 
 ## **Recommended Steps**
 
@@ -38,4 +39,4 @@ Sometimes you will not see logs because your VMs are not active or there are ups
 
 ### **I want to automate NSG Flow Logs**
 
-Support for automation via ARM templates is currently not available for NSG Flow Logs. This [feature is in development](https://feedback.azure.com/forums/217313-networking/suggestions/37713784-arm-template-support-for-nsg-flow-logs).
+Support for deployment automation via ARM templates is now available for NSG Flow Logs. Read the [feature announcement](https://azure.microsoft.com/updates/arm-template-support-for-nsg-flow-logs/) for more information. 

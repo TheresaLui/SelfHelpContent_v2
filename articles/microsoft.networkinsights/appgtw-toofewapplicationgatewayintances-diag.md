@@ -12,7 +12,8 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Application Gateway Performance Affected by Too Few Instances Running
 <!--issueDescription-->

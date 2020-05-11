@@ -9,8 +9,9 @@
 	supportTopicIds="32599667"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="4e19a5ec-058b-45d9-a264-0d277cb8282a"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Devices - Remote Control Team Viewer

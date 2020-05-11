@@ -12,6 +12,7 @@
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
 	articleId="sql-performanceandqueryexecution-queryperformanceandtimeouts-mooncake"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # Resolve poor performance and timeout issues in Azure SQL Database

@@ -7,8 +7,9 @@
 	articleId="StorageScoping_queue_Security"
 	supportTopicIds="32602775,32602776"
 	productPesIds="16461"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_StorageQueues"
 />
 # Queue Connectivity and Security Issues
 ---

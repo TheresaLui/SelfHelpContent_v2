@@ -13,7 +13,8 @@
 	supportTopicIds="32574333"
 	resourceTags="servers, databases"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # We ran diagnostics on your resource and found an ongoing scale issue.
 

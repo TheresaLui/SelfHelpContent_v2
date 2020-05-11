@@ -10,8 +10,9 @@
     supportTopicIds="32629522"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="2c1079e1-5978-4df4-a908-6dc90fb0cbfe"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Azure-SSIS integration Common Solutions

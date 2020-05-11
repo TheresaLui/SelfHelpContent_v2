@@ -10,8 +10,9 @@
     supportTopicIds="32640044"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="47d6ebbc-3cec-49ff-89b0-e57ee21f1085"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Manage the Azure Database for MySQL using ARM Templates

@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640134"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-createupdatedrop-mornitor_alert"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Create Update and Drop Resources - Monitoring and alerts
 ---

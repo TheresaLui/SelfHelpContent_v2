@@ -10,8 +10,9 @@
     supportTopicIds="32691178"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-viewing-alerts-questions-about-threat-hunting-feature"
+	ownershipId="Azure_Sentinel"
 />
 
 # What is threat hunting and how does it work?

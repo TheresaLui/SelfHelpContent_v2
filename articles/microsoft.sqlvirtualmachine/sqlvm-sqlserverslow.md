@@ -10,8 +10,9 @@
 	supportTopicIds="32633522,32633520"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="f83877ee-08c5-4c00-bb48-67eb77055a2b"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # performance/sql server slow

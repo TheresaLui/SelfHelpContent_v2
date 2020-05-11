@@ -10,8 +10,9 @@
 	supportTopicIds="32588973"
 	resourceTags=""
 	productPesIds="16098"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="df638614-4005-480f-af1b-514ea95144d7"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Configure Load distribution

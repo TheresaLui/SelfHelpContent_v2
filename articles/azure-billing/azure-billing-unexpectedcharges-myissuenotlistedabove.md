@@ -10,8 +10,9 @@
 	supportTopicIds="32680683"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="unexpectedcharges-myissueisnotlistedabove"
+	ownershipId="ASMS_Billing"
 />
 
 # Unexpected Charges-my issue is not listed above

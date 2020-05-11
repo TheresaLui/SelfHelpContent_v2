@@ -3,15 +3,16 @@
 	description="How to develop with REST APIs"
 	service="microsoft.storage"
 	resource="storage"
-	authors="kashah"
+	authors="kartikshah9"
 	ms.author="kashah"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602731"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="ae830512-42f0-4e41-951e-4f555e502a6f"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # How to develop with REST APIs

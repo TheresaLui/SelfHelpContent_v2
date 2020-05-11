@@ -10,8 +10,9 @@
 	supportTopicIds="32677725"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c2398469-febb-48fb-ba0e-b11b32fbd44d"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with R
@@ -26,3 +27,4 @@
 * [Fix the Version of R Packages](https://kb.azuredatabricks.net/r/pin-r-packages.html)
 * [How To Parallelize R Code with gapply](https://kb.azuredatabricks.net/r/sparkr-gapply.html)
 * [How To Parallelize R Code with spark.lapply](https://kb.azuredatabricks.net/r/sparkr-lapply.html)
+* Note that R is not supported with Table Access Control

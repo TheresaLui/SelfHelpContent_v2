@@ -8,10 +8,11 @@
     articleId="insights_statusmonitor"
     displayOrder="91"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32629553"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # I am having problems with the Status Monitor
 

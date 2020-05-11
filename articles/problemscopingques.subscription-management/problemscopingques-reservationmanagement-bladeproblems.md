@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32680693"
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="reservationmanagmentbladeissues-problemscopingquestions"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # ReservationManagement-Blade Issues

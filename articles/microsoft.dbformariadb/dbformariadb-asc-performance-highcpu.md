@@ -11,20 +11,21 @@
     diagnosticScenario="OrcasMariaDBHighCPU"
     selfHelpType="rca"
     resourceTags="servers, databases"
-    cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Server is facing high CPU usage
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your performance issues with your MariaDB server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that your CPU percent is above 90% for more than 60 minutes between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. High CPU percent could be due to multiple causes.
+During our investigation regarding performance issues to your MariaDB server <!--$ServerName-->ServerName<!--/$ServerName--> we found that your CPU percent is above 90% for more than 60 minutes between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC). High CPU percent could be due to multiple causes.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
 * Review *CPU percent* in the Metrics window of the portal. If CPU spikes correlate with times when you increased your query workload, consider scaling up vCores to increase compute.
-* Compare *Active Connections* and *CPU percent* side-by-side in the Metrics window. If your active connections increases correlate with CPU spikes, consider using a connection pooler between your application and MariaDB server. Connection pooler would help optimize connection management.
-* Use the intelligent performance features for additional insights. For more information, visit the [Monitoring overview document](https://docs.microsoft.com/azure/mariadb/concepts-monitoring)
+* Compare *Active Connections* and *CPU percent* side-by-side in the Metrics window. If your increases in active connections correlate with CPU spikes, consider using a connection pooler between your application and MariaDB server. Connection pooler would help optimize connection management.
+* Use the Intelligent Performance features for additional insights. For more information, visit the [Performance Recommendations document](https://docs.microsoft.com/azure/mariadb/concepts-performance-recommendations)
 
 ## **Recommended Documents**
 

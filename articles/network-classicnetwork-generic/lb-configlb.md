@@ -10,8 +10,9 @@
 	supportTopicIds="32588972"
 	resourceTags=""
 	productPesIds="16098"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="26e39749-8237-4f00-9588-8156a4f2f2f8"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Diagnose and resolve Load Balancer configuration issues

@@ -13,7 +13,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Error BMSUserErrorVaultDeletionNotAllowed
@@ -27,6 +28,6 @@ We have determined that your operation has failed because the vault cannot be de
 * Ensure there are no backup items, protected servers, or backup management servers associated with this vault
 * Unregister any containers associated with this vault before proceeding for deletion
 
-## **Recommended Steps**
+## **Recommended Document**
 
 * [Delete a Recovery Services Vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault)

@@ -10,8 +10,9 @@
     supportTopicIds="32615533,32639647"
     resourceTags=""
     productPesIds="15571,15797,16454,16470,16342"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="59a3aab3-768c-406c-a167-7f7dc1d481e3"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Troubleshoot my Network Security Group (NSG)

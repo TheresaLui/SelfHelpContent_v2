@@ -9,8 +9,9 @@
 	supportTopicIds="32608933"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="d959997a-d619-4393-841c-440921f1cd68"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # oncontainersservicefabric

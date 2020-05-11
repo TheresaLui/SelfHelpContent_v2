@@ -10,8 +10,9 @@
     supportTopicIds="32689854"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="76842b51-p021-4acb-9ef4-f78c5e87ec25"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Network Policies

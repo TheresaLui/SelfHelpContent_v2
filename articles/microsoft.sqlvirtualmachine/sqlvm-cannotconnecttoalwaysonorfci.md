@@ -13,7 +13,8 @@
 	supportTopicIds="32639652"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # cannot connect to sql server/alwayson or fci

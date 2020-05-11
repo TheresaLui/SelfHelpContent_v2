@@ -12,8 +12,9 @@
     supportTopicIds="32637279"
     resourceTags=""	
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="500e388f-eb08-4403-93de-aed1702cfcde"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Create or drop my issue is not listed

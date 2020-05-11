@@ -9,8 +9,9 @@
 	supportTopicIds="32599598"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="4d358991-5992-4f74-9738-d0df32784c18"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Setup Conditional Access - App based conditional access"

@@ -10,11 +10,12 @@
 	supportTopicIds="32608648"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="6b71a02d-8af7-4491-ba12-aff37179c77e"
+	ownershipId="Compute_AppService"
 />
 
-# authentication and authorization/Managed Service Identity (MSI) Integration 
+# authentication and authorization/Managed Service Identity (MSI) Integration
 
 ## **Recommended Documents**
 
@@ -23,10 +24,3 @@
 * [Using managed identities (MSI) with an Azure App Service](https://blogs.msdn.microsoft.com/benjaminperkins/2018/06/13/using-managed-service-identity-msi-with-and-azure-app-service-or-an-azure-function/)
 * [Azure services that support managed identity authentication](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/services-support-msi#azure-services-that-support-azure-ad-authentication)
 * [Azure services that support managed identity for Azure resources](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/services-support-msi#azure-services-that-support-managed-identities-for-azure-resources)
-
-
-
-
-
-
-

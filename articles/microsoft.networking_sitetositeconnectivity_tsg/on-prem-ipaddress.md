@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="2531a3ff-aea4-4eec-9c70-82e66d38ab90"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Correct On Prem IP Address

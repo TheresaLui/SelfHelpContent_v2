@@ -10,8 +10,9 @@
     supportTopicIds="32633159"
     resourceTags=""
     productPesIds="16094"
-    cloudEnvironments="public, fairfax, blackforest, mooncake"
+    cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
     articleId="vpngw-onpremdeviceconfig"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # On premise device configuration script issues
 

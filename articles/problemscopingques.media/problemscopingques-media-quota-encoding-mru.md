@@ -7,8 +7,9 @@
     supportTopicIds="32632090"
     productPesIds="14885"
     articleId="problemscopingques-quota-encoding-mru"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
+	ownershipId="StorageMediaEdge_Media"
 />
 # Azure Media Services common questions for Quota changes encoding media reserved units
 ---

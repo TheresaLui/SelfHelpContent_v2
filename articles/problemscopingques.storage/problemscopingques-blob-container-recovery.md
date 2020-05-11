@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602730"
 	productPesIds="16459"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="c5205999-f0e2-41c5-96d1-b711cd8498c2"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Recover deleted Blob Container
 ---
@@ -61,7 +62,7 @@
             "order": 5,
             "visibility": "recovery_option == by_time_period",
             "controlType": "datetimepicker",
-            "displayLabel": "Local end time when container was deleted",
+            "displayLabel": "Local end time when container was deleted (cannot be same as Local start time)",
             "required": true
         },
         {

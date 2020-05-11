@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="4d9c06eb-e668-4a31-96af-ac6af56cc2d1"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My role is Busy or Recycling

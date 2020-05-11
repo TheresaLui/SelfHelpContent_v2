@@ -10,8 +10,9 @@
 	supportTopicIds="32633516"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="bc8b4aab-73b3-415d-9222-61a3e5d69386"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # backup/sql server backup and restore
@@ -47,7 +48,7 @@
 
 	> Error message: Backup to URL received an exception from the remote endpoint. Exception Message: The client could not finish the operation within specified timeout. 
 
-	When you back up your databases to Azure Page Blobs by using BackuptoURL statements, SQL server internally calls a stand-alone application named BackuptoURL.exe. This problem occurs because the BackuptoURL application does not correctly handle transient failures. This issue has been fixed in a cumulative update.
+	When you back up your databases to Azure Page Blobs by using BackuptoURL statements, SQL server internally calls a stand-alone application named BackuptoURL.exe. This problem occurs because the BackuptoURL application does not correctly handle transient failures. This issue has been fixed in a cumulative update.
 
 	Ensure you have the latest patches applied for SQL server. Details about the issue are listed [here](https://support.microsoft.com/help/4463320/sql-server-backups-to-azure-blob-storage-intermittent-failure). 
 

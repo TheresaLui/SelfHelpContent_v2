@@ -13,7 +13,8 @@
 	supportTopicIds="32681413"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # Migration failed/stuck due to a policy/lock issue

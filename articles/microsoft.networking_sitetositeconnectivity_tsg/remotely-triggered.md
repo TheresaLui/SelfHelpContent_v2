@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="38fddc70-6a4c-4a04-8fbd-23959ccf0bf9"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Remotely Triggered Disconnect

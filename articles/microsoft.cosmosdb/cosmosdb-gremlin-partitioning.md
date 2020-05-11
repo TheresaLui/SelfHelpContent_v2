@@ -9,10 +9,11 @@
 	supportTopicIds="32675634"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-gremlin-partitioning"
 	displayOrder="183"
 	category="Gremlin (Graph)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Gremlin - Partitioning
 Most users are able to resolve their Gremlin Partitioning issue using the steps below. 

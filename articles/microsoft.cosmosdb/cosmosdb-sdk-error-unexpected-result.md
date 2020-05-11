@@ -9,10 +9,11 @@
 	supportTopicIds="32688838,32688839"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-sdk-error-unexpected-result"
 	displayOrder="284"
 	category="SDK (SQL API) Issues"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # SDK - Error or unexpected result
@@ -100,7 +101,7 @@ For more information, see [Handle rate limiting/request rate too large](https://
 [Troubleshoot issues when you use the Java Async SDK with Azure Cosmos DB SQL API accounts](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-java-async-sdk)
 <br>This article covers common issues, workarounds, diagnostic steps, and tools when you use the Java Async SDK with Azure Cosmos DB SQL API accounts. The Java Async SDK provides client-side logical representation to access the Azure Cosmos DB SQL API. This article describes tools and approaches to help you if you run into any issues.  
 
-[FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api)
+[FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api-faq)
 <br>Frequently asked questions about Cosmos DB SQL API.  
 
 [List of HTTP Status Codes for Azure Cosmos DB](https://docs.microsoft.com/rest/api/cosmos-db/http-status-codes-for-cosmosdb)

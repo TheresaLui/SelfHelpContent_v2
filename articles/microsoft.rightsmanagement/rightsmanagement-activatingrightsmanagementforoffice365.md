@@ -9,8 +9,9 @@
 	supportTopicIds="32335889"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="3562324a-9840-467d-a2f4-f931cd3eaf0e"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # activating rights management for office 365

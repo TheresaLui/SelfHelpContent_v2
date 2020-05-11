@@ -10,8 +10,9 @@
     supportTopicIds="32677630"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="c92e75ab-46e6-4940-ac84-fb8fd45016fa"
+	ownershipId="Compute_LogicApps"
 />
 
 # Receiving or Transmitting data through a specific Connector - Service Bus

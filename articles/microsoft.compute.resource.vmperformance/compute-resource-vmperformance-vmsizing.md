@@ -10,8 +10,9 @@
 	supportTopicIds="32628270"
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="944d5b78-5b69-4c12-b65c-0eec1681ec6c"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Diagnose and resolve Virtual Machine sizing issues

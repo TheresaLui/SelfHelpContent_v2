@@ -6,10 +6,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615385"
     productPesIds="16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="9907CFC4-FA80-474B-9A05-CB1C9056EF46"
-    />
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
+/>
 
 # Group expiration
 

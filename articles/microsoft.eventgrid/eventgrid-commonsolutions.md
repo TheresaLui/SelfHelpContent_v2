@@ -9,8 +9,9 @@
 	supportTopicIds="32583169,32583163,32583165,32583161,32583168,32583170,32583160,32583166,32583167"
 	resourceTags=""
 	productPesIds="16263"
-	cloudEnvironments="public,BlackForest,Fairfax"
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
 	articleId="a027ce33-e194-4a1a-b638-b824187b6345"
+	ownershipId="AzureEventGrid_Topics"
 />
 
 # Event Grid Common Solutions

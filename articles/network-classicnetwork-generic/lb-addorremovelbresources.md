@@ -10,8 +10,9 @@
 	supportTopicIds="32588969"
 	resourceTags=""
 	productPesIds="16098"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="059159e6-1519-4831-8948-6e12a5e009fa"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Add or remove load balanced resources

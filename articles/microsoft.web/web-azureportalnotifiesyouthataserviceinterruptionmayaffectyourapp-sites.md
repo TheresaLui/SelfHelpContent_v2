@@ -9,8 +9,9 @@
 	supportTopicIds="32440121"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="d196701e-d098-4738-a8df-830edf090ab1"
+	ownershipId="Compute_AppService"
 />
 
 # availability, performance, and application issues/azure portal notifies you that a service interruption may affect your app

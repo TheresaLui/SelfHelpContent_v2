@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640022"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-mornitoring-issuessettingup"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Monitoring and Alerting - Issues with setting up monitors and alerts
 ---

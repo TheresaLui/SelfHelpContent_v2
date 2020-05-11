@@ -9,9 +9,9 @@
     supportTopicIds="32740733"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="f21a313f-68b1-44fb-8f2f-888cdf6b771c"
-    ownershipId="AzureData_DataFactory"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Azure Data Factory V2

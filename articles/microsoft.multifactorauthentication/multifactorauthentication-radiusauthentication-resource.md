@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="mfa_overview"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="e2b0749f-6c08-4a49-9389-98f394221161"
+	ownershipId="AzureIdentity_User"
 />
 
 # Troubleshoot RADIUS authentication configurations

@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32567270, 32567275, 32567279, 32567283"
          productPesIds="16215"
-         cloudEnvironments="Public"
+         cloudEnvironments="Public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="b4b6273d-558e-4f2d-ab00-36a830ea68"
+	ownershipId="Compute_VirtualMachines"
 />
 # Citrix VM Connectivity
 ---

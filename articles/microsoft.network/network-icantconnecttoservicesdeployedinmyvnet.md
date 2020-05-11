@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="d4ba26f6-9bb3-49b0-8951-0437284d3bcf"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # I can't connect to services deployed in my VNet

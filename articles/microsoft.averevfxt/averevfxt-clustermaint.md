@@ -11,14 +11,15 @@
     supportTopicIds="32609688"
     resourceTags=""
     productPesIds="16506"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 
 # Avere vFXT Cluster Maintenance Activities
 
 The following advice may help you perform cluster maintenance activities.
 
-## *Key Considerations for Cluster Maintenance*
+### Key Considerations for Cluster Maintenance
 
 Here are some key things to consider before performing cluster maintenance. First, does the activity require pre-planning? In most cases, these activities will need to be planned. Regardless how minor the activity is, there is typically some impact on the ability for clients to access data.
 
@@ -26,7 +27,7 @@ You should determine the estimated timeframe for the activity. This timeframe wi
 
 Common cluster maintenance activities include: software upgrades, restarting services, and rebooting nodes.
 
-## *Software Upgrades*
+### *Software Upgrades*
 
 You may download the software via a URL provided by Microsoft Support, or you may visit our support [portal](https://averesystems.force.com/support/) to select and download a software package.
 
@@ -51,7 +52,7 @@ You can reset your password in the Avere Control Panel by following these instru
 4. Enter your new password into the fields at the top of the page
 5. Click Submit
 
-## *Restarting Services*
+### *Restarting Services*
 
 Sometimes it is helpful to restart services in order to resolve issues. You may restart services via the following steps:
 
@@ -59,7 +60,7 @@ Sometimes it is helpful to restart services in order to resolve issues. You may 
 2. Determine whether you want to perform a high-availability (HA) restart or a non-HA restart. An HA restart minimizes the disruption to clients, but it may extend the overall amount of time that the operation will run. A non-HA restart is useful if you're not concerned about the impact on clients. HA restarts will restart services on one node at a time.
 3. Click the "Restart cluster" button
 
-## *Rebooting Nodes*
+### *Rebooting Nodes*
 
 Rebooting nodes is a way to completely restart our system.  Rebooting is a more powerful restart than just restarting services.  Reboots sometimes provide a way to remediate issues, but more often than not, a service restart is sufficient.  Service restarts should almost always be tried prior to reboots.
 

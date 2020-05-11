@@ -10,8 +10,9 @@
     supportTopicIds=""
     productPesIds=""
     resourceTags=""
-    cloudEnvironments="public,fairfax,mooncake,blackforest"
+    cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	articleId="privatedns-cantcreatezone"
+	ownershipId="CloudNet_DNS"
 />
 
 # I can't create a new private DNS zone

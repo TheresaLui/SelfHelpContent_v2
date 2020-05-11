@@ -11,8 +11,9 @@
 	supportTopicIds="32628768"
 	resourceTags=""
 	productPesIds="15663"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ms.author="sidram"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # Configure Input
@@ -23,6 +24,8 @@ Stream Analytics jobs must include at least one data stream input. Event Hubs, I
 
 Reference data is a static or slowly changing dataset in Blob Store or Azure SQL Database that can be joined with stream input. You cannot create and run a Stream Analytics job with reference data input alone. 
 
+At this time, Stream Analytics does not support VNET and therefore your jobs cannot connect to any input or output resources that are behind a firewall or in a VNET. We are working on adding [support for VNET](https://feedback.azure.com/forums/270577-stream-analytics/suggestions/34846942-stream-analytics-vnet-support) and will become available in the coming months.
+
 To learn more about configuring inputs in Azure Stream Analytics job, see the recommended documents.
 
 
@@ -32,4 +35,4 @@ To learn more about configuring inputs in Azure Stream Analytics job, see the re
 * [Different types of reference data input](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-use-reference-data)
 * [How to use Azure SQL DB as reference data input](https://docs.microsoft.com/azure/stream-analytics/sql-reference-data)
 * [Azure SQL DB reference data input FAQs](https://docs.microsoft.com/azure/stream-analytics/sql-reference-data#faqs)
-* [How to parse array and record data types](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-parsing-json)
+* [How to parse array and record data types in JSON and AVRO](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-parsing-json)

@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds=""
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="e38f8bb3-ce3f-45df-9640-658b7fe57244"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions SAP HANA scheduled backup failure
 ---
@@ -61,8 +62,8 @@
 			"id": "permissions",
 			"order": 4,
 			"controlType": "dropdown",
-            "infoBalloonText": "Info: <a href='https://docs.microsoft.com/azure/backup/tutorial-backup-sap-hana-db#setting-up-permissions'>Learn more</a> about the required permissions",
-			"displayLabel": "Are all the right permissions set?",
+            "infoBalloonText": "Info: The script can be found <a href='https://download.microsoft.com/download/B/2/E/B2E01EF8-C247-42A6-BCC7-E45B78F20C99/msawb-plugin-config-com-sap-hana.sh'>here</a>",
+			"displayLabel": "Have you run the script available on the Discover DB pane?",
 			"watermarkText": "Select",
 			"dropdownOptions": [{
 					"value": "Yes",
@@ -142,10 +143,6 @@
 				{
 					"value": "NSG/ Proxy is configured and required URLs are whitelisted",
 					"text": "NSG/ Proxy is configured and required URLs are whitelisted"
-				},
-				{
-					"value": "SAP HANA system has required permission for backup",
-					"text": "SAP HANA system has required permission for backup"
 				},
 				{
 					"value": "dont_know_answer",

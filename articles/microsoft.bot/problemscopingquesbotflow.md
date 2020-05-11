@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32688620"
 	productPesIds="16152"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="AE84B342-A82C-4C0E-9FA7-D21C0D531851"
+	ownershipId="Compute_BotService"
 />
 # Bot conversation flow is not working as expected
 ---

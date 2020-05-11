@@ -10,8 +10,9 @@
     supportTopicIds="32636948"
     resourceTags=""
     productPesIds="16125"
-    cloudEnvironments="public,BlackForest,Fairfax"
+    cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
     articleId="bc088bf0-2920-4526-b7cc-545446d18439"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I have questions on EH or EPH client libraries or API

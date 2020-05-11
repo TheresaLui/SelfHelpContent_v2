@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628101"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="c305730a-4aae-2157-2359-6da76468d46b"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Export a report from Power BI service to Desktop (Preview)
