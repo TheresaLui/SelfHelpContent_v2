@@ -30,7 +30,6 @@ Azure Synapse Analytics |[Azure SQL connector troubleshooting](https://docs.micr
 Azure SQL Database |[Azure SQL connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-sql-data-warehouseazure-sql-databasesql-server)
 Azure Cosmos DB|[Cosmos DB connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-cosmos-db)
 
-
 Azure Data Factory has access to over [90 native connectors](https://docs.microsoft.com/azure/data-factory/connector-overview). To include or write data to any of those other sources from your data flow, use the Copy Activity to load or move that data from one of the supported staging areas, before starting, or after completion of your data flow.
 
 ### **Formatting Troubleshooting**
@@ -42,7 +41,7 @@ If you are having problems with the format supported by the data sources, review
 
 ## **Recommended Documents**
 
-For common errors and basic Mapping Data Flow activity troubleshooting please review the [data flow troubleshooting guide](https://docs.microsoft.com/azure/data-factory/data-flow-troubleshoot-guide)
+For common errors and basic Mapping Data Flow activity troubleshooting please review the [data flow troubleshooting guide](https://docs.microsoft.com/azure/data-factory/data-flow-troubleshoot-guide).
 
 - [Mapping Data Flows in Azure Data Factory Overview](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-overview)
 - [Mapping Data Flow Datasets](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-datasets)
@@ -56,7 +55,6 @@ For common errors and basic Mapping Data Flow activity troubleshooting please re
 - [Mapping Data Flow Schema Drift](https://docs.microsoft.com/azure/data-factory/concepts-data-flow-schema-drift)
 - [Mapping Data Flow Sink Transformation](https://docs.microsoft.com/azure/data-factory/data-flow-sink)
 
-
 ### **FAQ**
 
 **Q: Can I connect to Azure Analysis Services using Mapping Data Flow?**
@@ -68,5 +66,4 @@ For common errors and basic Mapping Data Flow activity troubleshooting please re
 **Q: My connection to Azure Synapse Analytics (Formerly Azure Data Warehouse) works when I test connectivity, but it fails when attempting to write data with a permissions error, what are the permissions required?**
 **A:** To use PolyBase, the user that loads data into SQL Data Warehouse must have "CONTROL" permission on the target database. For more information refer to the connector documentation
 
-To request a new feature visit [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory)
-
+To request a new feature visit [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory).
