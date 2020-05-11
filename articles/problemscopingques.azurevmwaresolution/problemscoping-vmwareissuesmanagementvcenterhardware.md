@@ -1,7 +1,6 @@
 <properties
                 pageTitle="vcenterhardware"
                 description="vcenterhardware"
-                authors="neshenoy"
                 ms.author="neshenoy"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32739974"
@@ -59,6 +58,6 @@
             "displayLabel": "Which host in the cluster is reporting the issue?",
             "required": false
         }
-            ],
+            ]
  }
 ---
