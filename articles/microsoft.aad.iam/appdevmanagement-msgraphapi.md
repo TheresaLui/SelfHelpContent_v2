@@ -1,13 +1,14 @@
 <properties
     pageTitle="Problem with graph API generic"
     description="graphgenericapioperation"
-    authors="anupnadigm"
+    authors="vritiJain"
+	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32596860"
     productPesIds="16575"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
-    articleId="7a7a3d35-6f8b-4f79-8b95-ef0c1f5709e4"
+    articleId="appdevmsgraph"
     	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
@@ -17,6 +18,7 @@
 {
     "resourceRequired": false,
     "title": "Problem with graph API generic",
+    "subscriptionRequired": false,
     "fileAttachmentHint": null,
     "diagnosticCard": {
         "title": "Problem with Azure Active Directory developing apps with MSgraph",
