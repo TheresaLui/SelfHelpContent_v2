@@ -18,6 +18,7 @@
 # Active Directory AD authentication over SMB
 Most users are able to resolve their AD authentication over SMB issue using the steps below 
 
+## **Recommended Documents**
 
 ### **Prerequisites for enabling AD Authentication** 
 - [Review Prerequisites](https://docs.microsoft.com/azure/storage/files/storage-files-identity-auth-active-directory-enable#prerequisites/)<br>
