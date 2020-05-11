@@ -25,8 +25,6 @@ Version 3.2 of Azure Cosmos DB's API for MongoDB is not compatible with Azure Pr
 
 <!--/issueDescription-->
 
-The upgrade process will not provide any service interruptions or downtime. It will also not require any data or index migrations. As soon as you start the process, your account will be queued to proceed with the upgrade. You will be notified when your account has finished upgrading.
-
 1. Benefits of upgrading to version 3.6
 
    - Enhanced performance and stability
