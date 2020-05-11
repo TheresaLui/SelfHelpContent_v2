@@ -8,7 +8,7 @@
     cloudEnvironments="Mooncake"
 	ownershipId="StorageMediaEdge_XStore"
 />
-# Use Managed Disks to improve data reliability
+# Use Managed Disks to improve    data reliability
 ---
 {
   "recommendationOfferingId": "c6b94711-f1f5-4e7e-9c89-c17ed4190969",
