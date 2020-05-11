@@ -1,4 +1,4 @@
-
+"public, Fairfax, usnat, ussec"
 
 <properties
 	pageTitle="Deployment Failure RCA"
@@ -15,7 +15,7 @@
 	supportTopicIds="32641079,32641082,32641076,32641075,32641080,32641074,32641076,32641077,32641072,32641073"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
