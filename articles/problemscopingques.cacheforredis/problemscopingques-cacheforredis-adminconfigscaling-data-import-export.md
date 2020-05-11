@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Data Import or Export"
-	description=""Data Import or Export"
+	description="Data Import or Export"
 	service="microsoft.cache"
 	resource="redis"
 	authors="johnnygetHub"

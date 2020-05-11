@@ -11,10 +11,10 @@
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+    schemaVersion="1"
 	articleId="cc5277bf-f750-4173-8560-524650fc8f21"
 	ownershipId="RedisCache_RedisCache"
 />
-
 # Geo-Replication
 ---
 {
@@ -34,5 +34,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
-
 ---

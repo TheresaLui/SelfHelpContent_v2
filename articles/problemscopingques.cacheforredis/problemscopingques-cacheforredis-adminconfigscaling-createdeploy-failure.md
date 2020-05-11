@@ -14,7 +14,6 @@
 	articleId="f83f037d-6b0d-4b73-968e-e037d3c0bdf5"
 	ownershipId="RedisCache_RedisCache"
 />
-
 # Create or Deployment failure
 ---
 {
@@ -42,5 +41,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
-
 ---

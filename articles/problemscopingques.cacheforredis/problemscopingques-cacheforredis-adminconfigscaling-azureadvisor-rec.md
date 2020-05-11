@@ -14,7 +14,6 @@
 	articleId="8f0d05aa-d988-4078-9fa1-6efe8ff4a83f"
 	ownershipId="RedisCache_RedisCache"
 />
-
 # Azure Advisor recommendation
 ---
 {
@@ -56,6 +55,5 @@
     ],
     "$schema": "SelfHelpContent"
 }
-
 ---
 
