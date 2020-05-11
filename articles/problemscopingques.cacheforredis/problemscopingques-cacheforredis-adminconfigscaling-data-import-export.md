@@ -35,7 +35,7 @@
         {
             "id": "Error_Message",
             "order": 2,
-            "controlType": "textbox",
+            "controlType": "multilinetextbox",
             "displayLabel": "Error Message",
             "watermarkText": "Error Message",
             "required": false

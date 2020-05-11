@@ -26,7 +26,7 @@
         {
             "id": "Geo_Replication",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "multilinetextbox",
             "displayLabel": "Geo-replication",
             "watermarkText": "Geo-replication",
             "required": true
