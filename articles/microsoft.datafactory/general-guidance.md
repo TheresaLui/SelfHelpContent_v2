@@ -6,7 +6,7 @@
     ms.author="jaserano"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32641052"
+    supportTopicIds="32740733"
     resourceTags=""
     productPesIds="15613"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -22,3 +22,4 @@
 * Azure Data Factory [Blog](https://azure.microsoft.com/blog/tag/azure-data-factory/)<br>
 * Azure Data Factory [Updates](https://azure.microsoft.com/updates/?product=data-factory)<br>
 * Azure Data Factory [Product Homepage](https://azure.microsoft.com/services/data-factory/)
+
