@@ -44,8 +44,10 @@ The upgrade process will not provide any service interruptions or downtime. It w
 
 3. Action required
 
-   The connection string to the MongoDB service in your application will need to be updated as shown in the Overview dashboard of the Azure Portal. The updated endpoint is: `<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->.mongo.cosmos.azure.com` but it might differ if your account is in a Sovereign, Government, or Restricted Azure cloud.
+   Please file a support ticket to get your Mongo version updated.
 
 ## **Recommended Documents**
 
 - [Azure Cosmos DB's API for MongoDB (3.6 version)](https://docs.microsoft.com/azure/cosmos-db/mongodb-feature-support-36)
+- [Azure Private Link](https://docs.microsoft.com/azure/private-link/private-link-overview)
+- [Azure Private Link for Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-private-endpoints)
