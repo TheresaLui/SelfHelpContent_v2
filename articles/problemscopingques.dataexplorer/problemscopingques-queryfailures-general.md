@@ -22,7 +22,7 @@
      "diagnosticCard": {
         "title": "Query failures diagnostics",
         "description": "These diagnostics will check for query failures.",
-        "insightNotAvailableText": "Diagnostic generation is taking longer than expected to complete"
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource or Diagnostic generation is taking longer than expected to complete"
     },
     "formElements": [
         {
