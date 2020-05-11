@@ -149,7 +149,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
             "numberOfLines": 3,

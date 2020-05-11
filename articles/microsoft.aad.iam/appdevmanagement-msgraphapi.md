@@ -9,7 +9,7 @@
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="appdevmsgraph"
-    	ownershipId="AzureIdentity_DirectoryObjectManagement"
+    ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Problem with graph API generic
@@ -55,7 +55,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": null,
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
             "numberOfLines": 3,
