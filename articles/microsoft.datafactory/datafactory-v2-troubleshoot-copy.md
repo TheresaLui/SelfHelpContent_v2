@@ -45,3 +45,7 @@ For errors on the most common associated data sources and sinks please make sure
 * [Integration runtime in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-integration-runtime#determining-which-ir-to-use)
 * [Create and configure a self-hosted integration runtime](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime)
 
+### **FAQ and Features request**
+
+* [Azure Data Factory FAQ](https://docs.microsoft.com/azure/data-factory/frequently-asked-questions)
+* [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory)

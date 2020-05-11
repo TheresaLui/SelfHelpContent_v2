@@ -19,7 +19,7 @@
 
 # V2 - Copy Activity – Connectivity
 
-Many problems related with connectivity while using a copy activity are related with configuration steps on how to authenticate to the source/sink data or with the permissions configured for the account accessing the data.
+Many problems related with connectivity, using a **copy activity**, are related with configuration steps on how to authenticate to the source/sink data or with the permissions configured for the account accessing the data.
 
 Depending on your scenario, the troubleshooting actions might require multiple steps.
 
@@ -37,9 +37,9 @@ Depending on your scenario, the troubleshooting actions might require multiple s
 4. Make sure that Networking security components such as Firewalls, Network Security Groups, VPN configurations have not changed if your scenario makes use of any of these components, you can review the [data movement security considerations](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#firewall-configurations-and-allow-list-setting-up-for-ip-address-of-gateway) documentation to ensure all configurations are correct.
 5. If after reviewing the logs and online articles related to them you still need assistance please continue opening a support ticket and make sure mention the specific error you are obtaining and attach the logs you gathered while troubleshooting the problem.
 
-### **Formatting Troubleshooting**
+### **Data Format Troubleshooting**
 
-If you are having problems with the format supported by the data sources, review the following troubleshooting guides containing common errors and solutions for the formats below:
+For problems with the data formats supported by the data source or sink, review the following troubleshooting guides containing common errors and solutions:
 * [JSON common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#json-format)
 * [Parquet common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#parquet-format)
 * [Delimited text troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#delimited-text-format)
@@ -50,7 +50,7 @@ If you are having problems with the format supported by the data sources, review
 * List of [Supported File Formats and Compression Codecs](https://docs.microsoft.com/azure/data-factory/supported-file-formats-and-compression-codecs)
 
 
-### **FAQ**
+### **FAQ and Features request**
 
-* Azure Data Factory FAQ
-* Feature Request
+* [Azure Data Factory FAQ](https://docs.microsoft.com/azure/data-factory/frequently-asked-questions)
+* [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory)
