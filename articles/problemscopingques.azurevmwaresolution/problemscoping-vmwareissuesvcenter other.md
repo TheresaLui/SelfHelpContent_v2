@@ -3,11 +3,11 @@
                 description="vcenterother"
                 ms.author="neshenoy"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32739974"
+                supportTopicIds="32739975"
                 productPesIds="17080"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="65c786bf-fde0-4a9b-895e-65119ce61119"
+                articleId="d492ba34-026d-43b3-b331-4d021f18c0a0"
 	            ownershipId="Azure_VMwareSolution_Content"
 />
 # Useful Title
@@ -41,6 +41,7 @@
             "controlType": "textbox",
             "displayLabel": "What is the ExpressRoute URI ID of the private cloud?",
             "required": false
-        }            ]
+        }
+            ]
  }
 ---
