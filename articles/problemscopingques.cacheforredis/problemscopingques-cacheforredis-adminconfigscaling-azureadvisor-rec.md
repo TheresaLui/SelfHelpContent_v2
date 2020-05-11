@@ -40,11 +40,11 @@
                 },
 				{
                     "value": "Operational Excellence",
-                    "text": Operational Excellence"
+                    "text": "Operational Excellence"
                 },
 				{
                     "value": "Cost",
-                    "text": Cost"
+                    "text": "Cost"
                 },
 				{
                     "value": "Other",
