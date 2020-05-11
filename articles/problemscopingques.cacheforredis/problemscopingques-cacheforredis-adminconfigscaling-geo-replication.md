@@ -27,8 +27,8 @@
             "id": "Geo_Replication",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": Geo-replication",
-            "watermarkText": Geo-replication",
+            "displayLabel": "Geo-replication",
+            "watermarkText": "Geo-replication",
             "required": true
         }
     ],

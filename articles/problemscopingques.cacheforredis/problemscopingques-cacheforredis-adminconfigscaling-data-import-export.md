@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+    schemaVersion="1"
 	articleId="d45359e1-ea36-4b75-8bc0-b71aaf983263"
 	ownershipId="RedisCache_RedisCache"
 />
@@ -20,11 +21,11 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Data import or export",
+    "title": "Name of the Storage Account",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "Azure_Region",
+            "id": "Storage_Account",
             "order": 1,
             "controlType": "textbox",
             "displayLabel": "Azure Region",
@@ -37,7 +38,7 @@
             "controlType": "textbox",
             "displayLabel": "Error Message",
             "watermarkText": "Error Message",
-            "required": true
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"

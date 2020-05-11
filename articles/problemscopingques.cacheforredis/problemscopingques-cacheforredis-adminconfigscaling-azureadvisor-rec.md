@@ -11,6 +11,7 @@
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+    schemaVersion="1"
 	articleId="8f0d05aa-d988-4078-9fa1-6efe8ff4a83f"
 	ownershipId="RedisCache_RedisCache"
 />
