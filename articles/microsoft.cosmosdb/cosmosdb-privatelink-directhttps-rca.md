@@ -27,5 +27,6 @@ Direct Mode with HTTPS is not compatible with Azure Private Link for Cosmos DB. 
 
 ## **Recommended Documents**
 
+- [Networking tips for Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/performance-tips#networking)
 - [Azure Private Link](https://docs.microsoft.com/azure/private-link/private-link-overview)
 - [Azure Private Link for Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-private-endpoints)
