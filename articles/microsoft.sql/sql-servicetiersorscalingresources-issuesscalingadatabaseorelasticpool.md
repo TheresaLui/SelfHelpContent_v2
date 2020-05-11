@@ -3,8 +3,8 @@
 	description="SQL Database issues scaling a database or elastic pool"
 	service="microsoft.sql"
 	resource="servers"
-	authors="emlisa, johirsch"
-    ms.author="emlisa"
+	authors="emlisa, johirsch,andikshi"
+    ms.author="emlisa,andikshi"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630431, 32630452"
@@ -37,4 +37,5 @@ If geo-replication is enabled, the sequencing of scaling operations on the prima
 * [Scale up/down](https://docs.microsoft.com/azure/sql-database/sql-database-scale-resources?WT.mc_id=pid:13491:sid:32630431/)<br>
 * [Scaling out with database sharding](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-scale-introduction?WT.mc_id=pid:13491:sid:32630431/)<br>
 * [Read scale-out](https://docs.microsoft.com/azure/sql-database/sql-database-read-scale-out?WT.mc_id=pid:13491:sid:32630431/)<br>
-* [Report across scaled-out data tier](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-query-horizontal-partitioning?WT.mc_id=pid:13491:sid:32630431/)
+* [Report across scaled-out data tier](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-query-horizontal-partitioning?WT.mc_id=pid:13491:sid:32630431/)<br>
+* [Manage file space for single and pooled databases] (https://docs.microsoft.com/azure/sql-database/sql-database-file-space-management)
