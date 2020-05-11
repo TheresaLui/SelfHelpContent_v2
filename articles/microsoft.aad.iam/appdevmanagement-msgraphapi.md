@@ -3,8 +3,8 @@
     description="graphgenericapioperation"
     authors="anupnadigm"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596839,32596841,32596852,32596853,32596854,32596855,32134056,32596860"
-    productPesIds="14785,16578,16575"
+    supportTopicIds="32596860"
+    productPesIds="16575"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="7a7a3d35-6f8b-4f79-8b95-ef0c1f5709e4"
@@ -18,6 +18,11 @@
     "resourceRequired": false,
     "title": "Problem with graph API generic",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+        "title": "Problem with Azure Active Directory developing apps with MSgraph",
+        "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade:",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
+    },
     "formElements": [
         {
             "id": "request",
@@ -41,9 +46,9 @@
             "visibility": null,
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Graph API error message",
+            "displayLabel": "Full Error Message:",
             "content": null,
-            "watermarkText": "Enter an API response error message (if you have one)",
+            "watermarkText": "Example: AADSTS50076: Due to a configuration change made by your administrator...",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -51,63 +56,34 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 3
+            "numberOfLines": 3,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "hasErrorData",
+            "id": "correlationId",
             "visibility": null,
             "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Do you have a client request ID and a timestamp for the error related to this problem?",
+            "controlType": "textbox",
+            "displayLabel": "Correlation ID:",
             "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "Yes",
-                    "value": "yes"
-                },
-                {
-                    "text": "No",
-                    "value": "no"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            ],
-            "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "getData",
-            "visibility": "hasErrorData!=yes",
-            "order": 4,
-            "controlType": "infoblock",
-            "displayLabel": null,
-            "content": "Microsoft can provide a solution to your problem faster if you can provide a client request ID and timestamp. You can find this info either in the HTTP response header or in the error response.",
-            "watermarkText": null,
+            "watermarkText": "Example: 6ad36e38-8a10-4f1b-95fb-05cdb1dbec49",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "requestId",
-            "visibility": "hasErrorData==yes",
-            "order": 5,
+            "visibility": null,
+            "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Client request ID",
+            "displayLabel": "Request ID:",
             "content": null,
-            "watermarkText": "Enter the client request ID shown in the API response. This should be a GUID.",
+            "watermarkText": "Example: ca6161fb-000a-4d2f-a3b4-3d62168f866d",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -115,16 +91,17 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "timestamp",
-            "visibility": "hasErrorData==yes",
-            "order": 6,
+            "visibility": null,
+            "order": 5,
             "controlType": "textbox",
-            "displayLabel": "Timestamp",
+            "displayLabel": "Date(UTC):",
             "content": null,
-            "watermarkText": "Enter the timestamp shown in the API response.",
+            "watermarkText": "Example: 2020-04-13T01:29:57.362Z",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -132,12 +109,13 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "symptoms",
-            "visibility": "hasErrorData==no",
-            "order": 7,
+            "visibility": null,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Symptoms of the problem",
             "content": null,
@@ -153,8 +131,8 @@
         },
         {
             "id": "tenantId",
-            "visibility": "hasErrorData==no",
-            "order": 8,
+            "visibility": null,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "Tenant ID or tenant domain name",
             "content": null,
@@ -170,13 +148,13 @@
         },
         {
             "id": "appId",
-            "visibility": "hasErrorData==no",
-            "order": 9,
+            "visibility": null,
+            "order": 8,
             "controlType": "textbox",
             "displayLabel": "Application ID",
             "content": null,
-            "watermarkText": "App ID of the application that is experiencing the problem",
-            "infoBalloonText": null,
+            "watermarkText": "Example: 751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
+            "infoBalloonText": "Application to login to. Format accepted is AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": [],
@@ -188,7 +166,7 @@
         {
             "id": "problem_start_time",
             "visibility": null,
-            "order": 10,
+            "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "content": null,
@@ -205,7 +183,7 @@
         {
             "id": "problem_description",
             "visibility": null,
-            "order": 11,
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details",
             "content": null,

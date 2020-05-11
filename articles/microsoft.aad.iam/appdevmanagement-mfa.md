@@ -4,8 +4,8 @@
     authors="vritiJain"
 	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596872,32596842,32615432,32565599,32045826,32596865,32596866,32596869,32615307,32615388,32615397,32615424,32615381,32615390,32615398"
-    productPesIds="16579"
+    supportTopicIds="32596872,32596842,32615432,32565599,32045826,32596865,32596866,32596869,32615307,32615388,32615397,32615424,32615381,32615390,32615398,32596840"
+    productPesIds="16579,16578"
     cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="Conditional_Access_Resultant_Set_of_Policy_Issue"
@@ -75,7 +75,7 @@
             "numberOfLines": 0
         },
         {
-            "id": "problem_description",
+            "id": "errorText",
             "visibility": null,
             "order": 4,
             "controlType": "multilinetextbox",
@@ -181,6 +181,22 @@
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
+        },
+        {
+            "id": "problem_description",
+            "visibility": null,
+            "order": 11,
+            "controlType": "multilinetextbox",
+            "displayLabel": "You may provide additional details here",
+            "content": null,
+            "watermarkText": null,
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": true,
+            "numberOfLines": 0
         }
     ],
     "$schema": "SelfHelpContent"
