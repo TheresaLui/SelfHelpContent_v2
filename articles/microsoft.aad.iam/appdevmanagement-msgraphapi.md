@@ -17,8 +17,8 @@
 ---
 {
     "resourceRequired": false,
-    "title": "Problem with graph API generic",
     "subscriptionRequired": false,
+    "title": "Problem with graph API generic",
     "fileAttachmentHint": null,
     "diagnosticCard": {
         "title": "Problem with Azure Active Directory developing apps with MSgraph",
@@ -177,7 +177,7 @@
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "hints": null,
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0

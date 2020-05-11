@@ -186,7 +186,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": true,
             "numberOfLines": 0
-        },
+        }
     ],
     "$schema": "SelfHelpContent"
 }
