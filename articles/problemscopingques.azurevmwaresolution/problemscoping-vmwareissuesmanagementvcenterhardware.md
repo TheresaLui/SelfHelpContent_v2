@@ -9,11 +9,12 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="65c786bf-fde0-4a9b-895e-65119ce61119"
-	ownershipId="Azure_VMwareSolution_Content"
+	            ownershipId="Azure_VMwareSolution_Content"
 />
 ------# AddOn related issues
 # Useful Title
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "vcenterhardware",
