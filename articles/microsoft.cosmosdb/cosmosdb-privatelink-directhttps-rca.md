@@ -16,12 +16,12 @@
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Use Direct mode with TCP to connect to Azure Cosmos DB with Azure Private Link
+# Use Direct Mode with TCP to connect to Azure Cosmos DB with Azure Private Link
 
 ## As an Azure Private Link customer, we recommend that you use Direct Mode with TCP instead of HTTPS
 
 <!--issueDescription-->
-Direct Mode with HTTPS is not compatible with Azure Private Link for Cosmos DB. However, using Direct Mode with TCP is completely supported. Please refer to [our Networking tips](https://docs.microsoft.com/azure/cosmos-db/performance-tips#networking) for guidance on how to use direct mode with TCP.
+Direct Mode with HTTPS is not compatible with Azure Private Link for Cosmos DB. However, using Direct Mode with TCP is completely supported. Please refer to [our Networking tips](https://docs.microsoft.com/azure/cosmos-db/performance-tips#networking) for guidance on how to use Direct Mode with TCP.
 
 <!--/issueDescription-->
 
