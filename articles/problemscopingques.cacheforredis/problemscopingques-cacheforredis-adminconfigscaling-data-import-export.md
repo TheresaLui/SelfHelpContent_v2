@@ -7,6 +7,7 @@
 	ms.author="johnnyc"
 	displayOrder=""
 	selfHelpType="problemScopingQuestions"
+    useAsAdditionalDetails="true" 
 	supportTopicIds="32690908"
 	resourceTags=""
 	productPesIds="14783"
@@ -28,8 +29,8 @@
             "id": "Storage_Account",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Azure Region",
-            "watermarkText": "Azure Region",
+            "displayLabel": "Storage_Account",
+            "watermarkText": "Storage_Account",
             "required": true
         },
         {
