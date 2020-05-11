@@ -51,3 +51,4 @@
             ],
     "$schema": "SelfHelpContent"
 }
+---
