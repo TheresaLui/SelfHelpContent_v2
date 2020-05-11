@@ -13,13 +13,15 @@
 />
 
 # Useful Title
+
+---
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "vcenterhardware",
-    "fileAttachmentHint": "",
-    "formElements": [
+            "title": "vcenterhardware",
+            "fileAttachmentHint": "",
+            "formElements": [
         {
             "id": "problem_start_time",
 			"order": 1,
@@ -58,6 +60,5 @@
             "required": false
         }
             ],
-    "$schema": "SelfHelpContent"
-}
+ }
 ---
