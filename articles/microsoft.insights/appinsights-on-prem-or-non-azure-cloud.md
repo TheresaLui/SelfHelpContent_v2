@@ -30,7 +30,7 @@ Agent-based monitoring is available to monitor [ASP.NET](https://docs.microsoft.
 
 ## **Application Insights SDK Recommended Steps**
 
-SDK-based monitoring is available to monitor [ASP.NET Core](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-core), [ASP.NET](https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net), [Java](https://docs.microsoft.com/azure/azure-monitor/app/java-get-started?tabs=maven), [Node.JS](https://docs.microsoft.com/azure/azure-monitor/app/nodejs#get-started), and [Python](https://docs.microsoft.com/azure/azure-monitor/app/opencensus-python) applications running on-premises, non-Azure IaaS, or non-Azure PaaS.
+SDK-based monitoring is available to monitor [ASP.NET Core](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-core), [ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/asp-net), [Java](https://docs.microsoft.com/azure/azure-monitor/app/java-get-started?tabs=maven), [Node.JS](https://docs.microsoft.com/azure/azure-monitor/app/nodejs#get-started), and [Python](https://docs.microsoft.com/azure/azure-monitor/app/opencensus-python) applications running on-premises, non-Azure IaaS, or non-Azure PaaS.
 
 1. Use agent-based monitoring if supported for your language
 2. Upgrade to the latest version of the SDK
