@@ -26,9 +26,9 @@
     </thead>
     </table>
     
-1.	<a href="https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies">Configure policy</a>, including assignments, conditions, and controls
-2.	Test policy using <a href="https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if">what-if tool</a> and <a href="https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-report-only">link text</a>
-3.	<a href="https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access">Move to Production</a>
+1.	<a href="https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies">Configure policy</a>, including assignments, conditions, and controls
+2.	Test policy using <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if">what-if tool</a> and <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-report-only">link text</a>
+3.	<a href="https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access">Move to Production</a>
 
 
 
@@ -36,13 +36,13 @@
 
 <dl>
   <dt>Getting started with Conditional Access</dt>
-	<dd>- Short intro to Conditional Access <a href="https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview">Document</a> and <a href="https://www.youtube.com/watch?v=c_izIRNJNuk">Video</a> </dd>
-	<dd>- <a href="https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/best-practices">Best Practices</a> </dd>
+	<dd>- Short intro to Conditional Access <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/overview">Document</a> and <a href="https://www.youtube.com/watch?v=c_izIRNJNuk">Video</a> </dd>
+	<dd>- <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices">Best Practices</a> </dd>
   
   <dt> Common Conditional Access Policies </dt>
-  <dd>- <a href="https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa">Require MFA for Administrators</a> </dd>
-  <dd>- <a href="https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-location">Block Access by Location</a> </dd>
-  <dd>- <a href="https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy">Block Legacy Authentication</a> </dd>
-  <dd>- <a href="https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device">Require Compliant Devices</a> </dd>
+  <dd>- <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa">Require MFA for Administrators</a> </dd>
+  <dd>- <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location">Block Access by Location</a> </dd>
+  <dd>- <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy">Block Legacy Authentication</a> </dd>
+  <dd>- <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device">Require Compliant Devices</a> </dd>
 
 </dl>
