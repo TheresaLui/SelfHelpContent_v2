@@ -15,7 +15,7 @@
 	ownershipId="Compute_AzureManagedApplications"
 />
 
-# CreateUIDefinition.json Issues
+# Publishing Issues
 
 Customers commonly resolve their Azure Managed Application publishing issue using the below documents.<br>
 

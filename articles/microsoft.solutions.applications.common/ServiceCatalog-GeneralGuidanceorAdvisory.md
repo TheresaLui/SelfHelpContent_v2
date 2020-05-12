@@ -21,11 +21,11 @@ Azure Service Catalog allows organizations to create a catalog of approved solut
 
 # I'm having a problem with something else in the Azure Portal
 
-For problems such as using tags, ARM Templates, dashboards loading or refreshing, support tickets, & portal performance, please return to "Basics" at the top of this page and select "Portal" as your your Service for your issue. <br>
+For problems such as using tags, ARM Templates, dashboards loading or refreshing, support tickets, & portal performance, please return to "Basics" at the top of this page and select "Portal" as your Service for your issue. <br>
 
 # I'm having problems deploying something from the Azure Marketplace
 
-The Azure Marketplace is a seperate Azure service than the Azure Service Catalog. We recommend posting a question on the MSDN forum under Azure Marketplace for support with the Azure Marketplace. [Azure Marketplace MSDN Forums](https://social.msdn.microsoft.com/Forums/en-us/home?forum=DataMarket) <br>
+The Azure Marketplace is a separate Azure service than the Azure Service Catalog. We recommend posting a question on the MSDN forum under Azure Marketplace for support with the Azure Marketplace. [Azure Marketplace MSDN Forums](https://social.msdn.microsoft.com/Forums/en-us/home?forum=DataMarket) <br>
 
 ## **Recommended Documents**
 
