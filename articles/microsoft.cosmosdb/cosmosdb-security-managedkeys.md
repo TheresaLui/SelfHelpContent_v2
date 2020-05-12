@@ -42,6 +42,6 @@ Account revocation and access is throttled to once per hour. If you revoke a key
 
 ## **Recommended Documents**
 
-[How to setup Customer Managed Keys](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-setup-cmk)
+[How to setup Customer Managed Keys](https://docs.microsoft.com/azure/cosmos-db/how-to-setup-cmk)
 <br>Configure customer-managed keys for your Azure Cosmos account with Azure Key Vault  
 
