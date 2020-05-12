@@ -48,6 +48,10 @@ Each of the logins added to SQL Agent fixed database roles needs to [explicitly 
 
 For managed instance enabling and disabling of SQL Server Agent is currently not supported. SQL Agent is always running.
 
+### **SQL Agent email alerts getting "profile name is not valid [SQLSTATE 42000] Error 14607."**
+
+Check if you have an email profile called **[AzureManagedInstance_dbmail_profile](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)**. In Managed Instance you need to have a profile that must be called **AzureManagedInstance_dbmail_profile** in order to bind SQL Agent with Database Mail.
+
 ## **Recommended Documents**
 
 - [Managed instance T-SQL differences and limitations (SQL Server Agent)](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)
