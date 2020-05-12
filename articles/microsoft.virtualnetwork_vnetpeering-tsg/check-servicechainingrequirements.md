@@ -15,10 +15,10 @@
 
 Service chaining in a hub and spoke topology requires the following:
 
-* You must use a Network Virtual Appliance (NVA) in the Hub Vnet
-* There must be UDRs in the spoke VNets with the next hop type of 'Network Virtual Appliance' pointing to the NVA
-* NVA NICs must have *'IP Forwarding'* enabled
-* NVAs must be configured correctly internally (requires NVA vendor assistance)
+1. You must use a Network Virtual Appliance (NVA) in the Hub Vnet
+2. There must be UDRs in the spoke VNets with the next hop type of 'Network Virtual Appliance' pointing to the NVA
+3. NVA NICs must have *'IP Forwarding'* enabled
+4. NVAs must be configured correctly internally (requires NVA vendor assistance)
 
 ## **Recommended Steps**
 
@@ -52,5 +52,5 @@ Service chaining in a hub and spoke topology requires the following:
 
 ## **Recommended Documents**
 
-* [Service chaining](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview#service-chaining)
+1. [Service chaining](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview#service-chaining)
 
