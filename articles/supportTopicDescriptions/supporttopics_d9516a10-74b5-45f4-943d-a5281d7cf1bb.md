@@ -936,6 +936,14 @@
       "searchTags": "billing, free, free tier",
       "category": "Billing and Pricing",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b338ae50-7acd-6046-94bb-15f6740b9b51",
+      "longDescription": "",
+      "shortDescription": "Issues or questions with using Customer Managed Keys",
+      "searchTags": "security, keys, managed keys",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
