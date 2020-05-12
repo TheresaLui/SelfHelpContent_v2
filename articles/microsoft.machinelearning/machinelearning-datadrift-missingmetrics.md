@@ -9,7 +9,7 @@
     supportTopicIds="32690851"
     resourceTags=""
     productPesIds="16644"
-    cloudEnvironments="Public"
+    cloudEnvironments="public, fairfax, mooncake"
  	articleId="machinelearning-datadrift-missingmetrics"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />

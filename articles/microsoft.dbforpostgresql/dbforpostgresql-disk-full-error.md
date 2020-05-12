@@ -12,7 +12,7 @@
 	selfHelpType="rca"
 	supportTopicIds="32628458, 32628418"
 	resourceTags="windows, linux"
-	productPesIds="16222"
+	productPesIds="16222, 17067"
 	cloudEnvironments="public, blackForest, fairfax, mooncake"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />

@@ -4,11 +4,11 @@
     authors="arupela"
     ms.author="arupela"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32615400"
+    supportTopicIds="32615515"
     productPesIds="16579"
     cloudEnvironments="public, Fairfax, Mooncake"
     schemaVersion="1"
-    articleId="mfa-insight1-datacollection"
+    articleId="mfa-insight1-datacollection-configuringMFA"
     ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 

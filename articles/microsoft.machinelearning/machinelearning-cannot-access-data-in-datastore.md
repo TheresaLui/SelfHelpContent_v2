@@ -10,7 +10,7 @@
     supportTopicIds="32690860"
     resourceTags=""
     productPesIds="16644"
-    cloudEnvironments="Public"
+    cloudEnvironments="public, fairfax, mooncake"
     articleId=" machinelearning-cannot-access-data-in-datastore"
 	ownershipId="ASEP_ContentService_Placeholder"
 />

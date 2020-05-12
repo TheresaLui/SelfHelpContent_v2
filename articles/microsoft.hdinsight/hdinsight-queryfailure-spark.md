@@ -30,7 +30,7 @@
      * spark.yarn.user.classpath.first
      * spark.executor.extraClassPath
 
-If the JAR file libraries aren't in the right class path, copy the jars to the required class path.
+ If the JAR file libraries aren't in the right class path, copy the jars to the required class path.
 
 1. Check Storage (WASB or ADL)
 
@@ -43,6 +43,7 @@ If the JAR file libraries aren't in the right class path, copy the jars to the r
      ```
 
    * If the permissions aren't correct, check that the user accessing the storage has Read/Write/Execute (RWX) permissions on that folder.
+   * Have the user run the following SSH command "hdfs dfs -ls /" This command will list the permissions for the root folder of the staorage. This will help to determine if they have RWX permissions.
 
 1. Check the Livy logs
 
