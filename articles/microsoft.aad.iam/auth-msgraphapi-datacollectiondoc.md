@@ -58,7 +58,7 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
-            "numberOfLines": 0,
+            "numberOfLines": 3,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
