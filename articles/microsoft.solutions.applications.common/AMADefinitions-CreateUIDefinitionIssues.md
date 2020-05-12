@@ -21,6 +21,6 @@ Customers commonly resolve their CreateUIDefinition.json issue using the below d
 
 ## **Recommended Documents**
 
-* [Creating CreateUIDefinition.json files for Azure managed application’s create experience](https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/create-uidefinition-overview)<br>
-* [List of available Create UI Definition elements](https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/create-uidefinition-elements)<br>
-* [List of available Create UI Definition functions](https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/create-uidefinition-functions)
+* [Creating CreateUIDefinition.json files for Azure managed application’s create experience](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/create-uidefinition-overview)<br>
+* [List of available Create UI Definition elements](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/create-uidefinition-elements)<br>
+* [List of available Create UI Definition functions](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/create-uidefinition-functions)

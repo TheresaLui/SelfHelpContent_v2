@@ -21,4 +21,4 @@ Customers commonly resolve their Azure Managed Application publishing issue usin
 
 ## **Recommended Documents**
 
-* [Quickstart: Create and publish a managed application definition](https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/publish-service-catalog-app?tabs=azure-powershell)
+* [Quickstart: Create and publish a managed application definition](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/publish-service-catalog-app?tabs=azure-powershell)

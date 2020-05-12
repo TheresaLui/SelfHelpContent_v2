@@ -21,4 +21,4 @@ Customers commonly resolve problems when deploying their managed applications by
 
 ## **Recommended Documents**
 
-* [Deploy managed applications with the Azure Service Catalog](https://docs.microsoft.com/en-us/azure/azure-resource-manager/managed-applications/deploy-service-catalog-quickstart)
+* [Deploy managed applications with the Azure Service Catalog](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/deploy-service-catalog-quickstart)
