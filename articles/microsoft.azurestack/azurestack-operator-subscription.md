@@ -28,9 +28,9 @@ If you already created a subscription, review these answers to common support qu
 * To add or remove another Owner to a subscription, you need to sign in as an Owner of the subscription. For more information, see [Manage access to resources in Azure Stack Hub with role-based access control](https://docs.microsoft.com/azure-stack/user/azure-stack-manage-permissions).
 * Here are three ways for an operator to see resource allocations in a tenant's Azure AD:
 
-  * Use the [Get-AzsSubscriberUsage Rest API](https://docs.microsoft.com/powershell/module/azs.commerce.admin/get-azssubscriberusage?view=azurestackps-1.7.2). You can use the [Usage PowerShell script](https://github.com/Azure/AzureStack-Tools/blob/master/Usage/Usagesummary.ps1) from the AzureStack-Tools to easily export the data in a CSV file .
-  * Obtain the necessary permissions in the tenant's Azure AD.
-  * If necessary, Microsoft support can manually extract information such as VM Compute allocations from Azure Stack Hub.
+  * Use the [Get-AzsSubscriberUsage Rest API](https://docs.microsoft.com/powershell/module/azs.commerce.admin/get-azssubscriberusage?view=azurestackps-1.7.2). You can use the [Usage PowerShell script](https://github.com/Azure/AzureStack-Tools/blob/master/Usage/Usagesummary.ps1) from the AzureStack-Tools to easily export the data in a CSV file.
+  * Obtain the necessary permissions in the tenant's Azure AD
+  * If necessary, Microsoft support can manually extract information such as VM Compute allocations from Azure Stack Hub
 
 ## **Recommended Documents**
 
