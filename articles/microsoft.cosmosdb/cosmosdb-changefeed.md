@@ -24,8 +24,8 @@ Change feed support in Azure Cosmos DB works by listening to an Azure Cosmos DB 
 
 ### **Change feed processor versions***
 
-* The V2 change feed processor is available on [Nuget](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.ChangeFeedProcessor/) and the source code on [GitHub](https://github.com/Azure/azure-documentdb-changefeedprocessor-dotnet/).
-* The newer V3 change feed processor is part of the .NET V3 SDK and included in the [SDK Nuget](https://www.nuget.org/packages/Microsoft.Azure.Cosmos) and the source code is also on [GitHub](https://github.com/Azure/azure-cosmos-dotnet-v3).
+* The V2 .NET change feed processor is available on [Nuget](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.ChangeFeedProcessor/) and the source code on [GitHub](https://github.com/Azure/azure-documentdb-changefeedprocessor-dotnet/).
+* The newer V3 .NET change feed processor is part of the .NET V3 SDK and included in the [SDK Nuget](https://www.nuget.org/packages/Microsoft.Azure.Cosmos) and the source code is also on [GitHub](https://github.com/Azure/azure-cosmos-dotnet-v3).
 
 Make sure you have updated to the latest the version as the issue you might be encountering might have already been solved.
 
@@ -45,7 +45,7 @@ The lease container is particularly used to store the last processed point of th
 
 ### **Error handling and exceptions in the change feed processor**
 
-If your current Delegate or Observer (if you are working) throws an *unhandled exception*, the processor will stop the current thread handling that batch of changes and eventually retry it. The retry will keep happening until your code no longer throws an unhandled exception processing that batch of changes. Always make sure you are handling correctly all expected error conditions.
+If your current Delegate or Observer (if you are working with V2 .NET) throws an *unhandled exception*, the processor will stop the current thread handling that batch of changes and eventually retry it. The retry will keep happening until your code no longer throws an unhandled exception processing that batch of changes. Always make sure you are handling correctly all expected error conditions.
 
 ### **How do I scale and use multiple instances?**
 
@@ -72,7 +72,7 @@ The normal life cycle of a host instance is:
 
 To make sure that latency is optimized:
 
-1. Make sure your change feed processor is co-located with a Cosmos DB account region, and you are using `CosmosClientOptions.ApplicationRegion` / `CosmosClientOptions.PreferredRegions` (V3) or `ConnectionPolicy.PreferredLocations` (V2) to indicate which region you are running on.
+1. Make sure your change feed processor is co-located with a Cosmos DB account region, and you are using `CosmosClientOptions.ApplicationRegion` / `CosmosClientOptions.PreferredRegions` (V3 .NET) or `ConnectionPolicy.PreferredLocations` (V2 .NET) to indicate which region you are running on.
 1. Are the changes happening in your Azure Cosmos container continuous or sporadic?
     * If they are sporadic, there could be some delay between the changes being stored and the Azure Function picking them up. Based on the life cycle explained previously, you can customize the sleeping period through the Poll interval.
 	* If they are continuous, the speed at which new changes are read from the change feed are also defined by the speed at which you can process them. The faster you can process them, the faster new changes can be read.
