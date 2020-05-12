@@ -21,7 +21,7 @@
 
 If you are integrating Azure Stack Hub with your corporate DNS, see [DNS integration](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-dns).
 
-If you need to change the DNS forwarders that Azure Stack Hub was deployed with, connect to the privileged endpoint and run `Get-AzSDnsForwarder` and `Set-AzSDnsForwarder [[-IPAddress] <IPAddress[]>]`. For more information, see [Use the privileged endpoint in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-privileged-endpoint).
+If you need to change the DNS forwarders that Azure Stack Hub was deployed with, connect to the privileged endpoint and run `Get-AzSDnsForwarder` and `Set-AzSDnsForwarder`. For more information, see [Use the privileged endpoint in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-privileged-endpoint).
 
 ## **Recommended Documents**
 
