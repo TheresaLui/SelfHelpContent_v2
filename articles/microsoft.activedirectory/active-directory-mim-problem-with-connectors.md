@@ -22,10 +22,10 @@ In Microsoft Identity Manager (MIM), a connector moves data from a connected dat
 
 ## **Recommended Steps**
 
-1. If the problem is with the Generic LDAP Connector, Generic SQL Connector, Connector for Lotus Domino or Connector for Web Services, ensure that you are using a recent update of the [generic connectors](https://docs.microsoft.com/microsoft-identity-manager/reference/microsoft-identity-manager-2016-connector-version-history).
+1. If the problem is with the Generic LDAP, Generic SQL , Lotus Domino or Web Services connectors, ensure that you are using a recent update of the [generic connectors](https://docs.microsoft.com/microsoft-identity-manager/reference/microsoft-identity-manager-2016-connector-version-history).
 2. If the problem is with the AD Connector, AD LDS Connector, FIM Service Connector, or another connector not listed, ensure that you are using a recent supported update of [MIM Sync](https://docs.microsoft.com/microsoft-identity-manager/reference/version-history).
 3. If a MIM Sync run stops with an error, consult the table of [run error codes](https://docs.microsoft.com/microsoft-identity-manager/reference/maerrorcodes).
-4. If the run stops with ```extension-dll-exception```, then click on those words to open the Connector Space Object properties window, and click on ```Stack Trace...` to see more information on the underlying cause, as described in [Extension-DLL-Exception](https://social.technet.microsoft.com/wiki/contents/articles/7515.fim-troubleshooting-extension-dll-exception.aspx).
+4. If the run stops with ```extension-dll-exception```, then click on those words to open the Connector Space Object properties window, and click on ```Stack Trace...``` to see more information on the underlying cause, as described in [Extension-DLL-Exception](https://social.technet.microsoft.com/wiki/contents/articles/7515.fim-troubleshooting-extension-dll-exception.aspx).
 5. If you wish to have additional information on what led to a connector returning an error causing a run to stop, you can [Enable ETW tracing for the connector](https://social.technet.microsoft.com/wiki/contents/articles/21086.fim-2010-r2-troubleshooting-how-to-enable-etw-tracing-for-connectors.aspx) and collect the connector's events in a file or the event log.
 
 ## **Recommended Documents**
