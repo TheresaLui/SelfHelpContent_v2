@@ -940,7 +940,7 @@
     {
       "id": "b338ae50-7acd-6046-94bb-15f6740b9b51",
       "longDescription": "",
-      "shortDescription": "Issues or questions with using Customer Managed Keys",
+      "shortDescription": "Issues or questions with using your Cosmos DB Keys and Customer Managed Keys",
       "searchTags": "security, keys, managed keys",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
