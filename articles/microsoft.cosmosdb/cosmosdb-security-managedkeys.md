@@ -29,7 +29,7 @@ example: /keys/p3rfrotatekey1/56b75982a81d471990af8f12be0933d4
 
 No version is permitted during provisioning  
 
-In the AKV key the version is at the end and in this example is 56b75982a81d471880af8f12be0933d4. Once the version is removed (example: ../keys/p3rfrotatekey1 ) the creation will succeed. The reason Azure Cosmos DB does not accept a version is it automatically picks up the latest key within one hour of creation. This is called automatic rotation.  
+In the AKV key the version is at the end and in this example is 56b75982a81d471990af8f12be0933d4. Once the version is removed (example: ../keys/p3rfrotatekey1 ) the creation will succeed. The reason Azure Cosmos DB does not accept a version is it automatically picks up the latest key within one hour of creation. This is called automatic rotation.  
 
 
 ### **Azure Key Vault Key is revoked and you cannot create or delete a collection or database**
