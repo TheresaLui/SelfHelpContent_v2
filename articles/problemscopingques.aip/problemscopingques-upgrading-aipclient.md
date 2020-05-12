@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
 	supportTopicIds="32727975"
     productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
     articleId="scoping_upgrading_aipclient"
 	schemaVersion="1"
 	ownershipId="AzureIdentity_InformationProtection"

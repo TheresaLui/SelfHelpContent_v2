@@ -13,7 +13,7 @@ selfHelpType="diagnostics"
 supportTopicIds="32635012,2599853,32599860,32599908,32615224"
 resourceTags="windows"
 productPesIds="15607"
-cloudEnvironments="public, Fairfax"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_Automation"
 />
 

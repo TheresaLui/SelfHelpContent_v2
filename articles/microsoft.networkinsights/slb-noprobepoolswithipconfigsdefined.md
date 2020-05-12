@@ -13,7 +13,7 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public, Fairfax, Mooncake"
+cloudEnvironments="Public, Fairfax, Mooncake, usnat, ussec"
 ownershipId="CloudNet_LoadBalancer"
 />
 # Your Load Balancer has no backend pools with IP Configs defined

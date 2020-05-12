@@ -6,13 +6,13 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="13"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds=""
 	resourceTags="windows"
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-crp-backupperf-mooncake"
-	ownershipId="Compute_VirtualMachines"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Backup - Backup is taking longer than expected

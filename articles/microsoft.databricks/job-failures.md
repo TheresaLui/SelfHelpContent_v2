@@ -10,7 +10,7 @@
 	supportTopicIds="32677702"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="f951a9e3-02de-4747-8f14-e7c8fc1537ae"
 	ownershipId="AzureData_AzureDatabricks"
 />

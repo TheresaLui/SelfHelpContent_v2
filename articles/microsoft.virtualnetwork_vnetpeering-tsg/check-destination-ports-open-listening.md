@@ -7,7 +7,7 @@
 	authors="chadmath"
 	ms.author="chadmat"
 	selfHelpType="TSG_Content"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c4d32956-f745-4d2a-b9ce-f2de7c9d690e"
 />
 # Check Destination Ports Open and Listening

@@ -14,7 +14,7 @@
 	clientIds='partnercenter'
 	resourceTags="mpn"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Update tax ID/VAT ID

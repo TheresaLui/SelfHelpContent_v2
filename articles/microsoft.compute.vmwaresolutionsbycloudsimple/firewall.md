@@ -10,9 +10,9 @@
     supportTopicIds="32637583"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="8e16284c-b286-49aa-9e37-28219d677f74"    
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting firewall table and rules 

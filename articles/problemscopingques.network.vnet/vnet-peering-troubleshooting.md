@@ -6,7 +6,7 @@
 	articleid="cannotconnectVMinapeeredVNET"
 	supportTopicIds="32584249"
 	productPesIds="15526"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="CloudNet_VirtualNetwork"
 />

@@ -11,7 +11,7 @@
 	supportTopicIds="32680648"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="datalakeanalytics-error-submitting-a-job"
 	ownershipId="AzureData_AzureDataLakeAnalytics"
 />

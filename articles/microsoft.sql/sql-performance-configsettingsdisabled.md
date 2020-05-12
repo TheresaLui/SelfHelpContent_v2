@@ -13,8 +13,8 @@
     supportTopicIds="32630399,32630434,32630450,32630454"
     resourceTags=""
     productPesIds="13491"
-    cloudEnvironments="Public,Mooncake"
-    ownershipId="AzureData_AzureSQLDB"
+    cloudEnvironments="Public,Mooncake, fairfax, usnat, ussec"
+    ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # We ran diagnostics on your resource and found configuration settings disabled.

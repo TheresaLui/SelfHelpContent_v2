@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615396"
     productPesIds="16578"
-    cloudEnvironments="public, Fairfax, Mooncake"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-aadb2bsettingsissue"
 	ownershipId="AzureIdentity_DirectoryObjectManagement"

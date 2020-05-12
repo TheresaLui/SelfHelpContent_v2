@@ -9,7 +9,7 @@
   articleId="microsoft-machinelearning-unusable-nodes.md"
     supportTopicIds="32690843"
     productPesIds="16644"
-    cloudEnvironments="public, fairfax, mooncake"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 

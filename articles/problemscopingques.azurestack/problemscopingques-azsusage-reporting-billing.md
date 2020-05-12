@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629274"
     productPesIds="16226"
-    cloudEnvironments="Public, Fairfax"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="b4b6273d-558e-4f2d-5238-36a830ea0098"
     ownershipId="StorageMediaEdge_AzureStack_Hub"

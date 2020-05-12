@@ -13,8 +13,8 @@
 	supportTopicIds="32630405, 32630429, 32630438, 32637230"
 	resourceTags=""
 	productPesIds="13491, 16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
-	ownershipId="AzureData_AzureSQLDB"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_Security"
 />
 
 # Database Inaccessible due to Azure Key Vault configuration - Key or Key Vault Deleted

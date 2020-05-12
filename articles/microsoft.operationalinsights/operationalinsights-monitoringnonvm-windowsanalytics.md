@@ -13,7 +13,7 @@ selfHelpType="generic"
 supportTopicIds="32612530"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
     articleId="1776cd2c-92b4-400e-9277-38ad60f8d03b"
     ownershipId="AzureMonitoring_LogAnalytics"
 />
@@ -22,19 +22,15 @@ cloudEnvironments="Public, Fairfax"
 
 ## Ensuring devices are configured correctly to send data
 
-The first step to troubleshooting is ensuring that devices are configured as documented on [Getting Started with Update Compliance](https://docs.microsoft.com/windows/deployment/update/update-compliance-get-started). We have a script to ensure this is the case, available [here](https://github.com/cinglis-msft/UpdateComplianceConfigurationScript). Refer to the documentation for the script on how to use it for troubleshooting and configuring devices.
+The first step to troubleshooting is ensuring that devices are configured as documented on [Manually Configuring Devices for Update Compliance](https://docs.microsoft.com/windows/deployment/update/update-compliance-configuration-manual). We recommend using the [Update Compliance Configuration Script](https://docs.microsoft.com/windows/deployment/update/update-compliance-configuration-script) for troubleshooting and configuring devices.
 
 ### Devices have been correctly configured but aren't showing up in Update Compliance
 
 It takes some time for data to appear in Update Compliance for the first time and if a Commercial ID has recently changed for a device. To learn more about data latencies for Update Compliance, refer to the official documentation covering [Update Compliance Data Latency](https://docs.microsoft.com/windows/deployment/update/update-compliance-using#update-compliance-data-latency).
 
-## Devices are appearing, but without a device name
+## Devices are appearing, but without a device name or device name appearing as '#'
 
-Starting with Windows 10, version 1803, you have to follow an extra step to allow the device names to be transmitted to Windows Analytics. To do this, change the value of the *AllowDeviceNameInTelemetry* by using Group Policy or Mobile Device Management. See the [Distributing policies at scale](https://docs.microsoft.com/windows/deployment/update/windows-analytics-get-started#deploying-windows-analytics-at-scale) section of the linked topic for more.  
-
-## Windows Defender Antivirus Reporting
-
-Update Compliance's reporting on Windows Defender Antivirus signature and threat status has been retired in favor of the [Microsoft Endpoint Manager](https://www.microsoft.com/microsoft-365/microsoft-endpoint-manager) offering which allows better monitoring capabilities.
+Device Name is now an opt-in via policy as of Windows 10, 1803. See the required policies for enabling device name at [Manually Configuring Devices for Update Compliance](https://docs.microsoft.com/windows/deployment/update/update-compliance-configuration-manual).
 
 ## Using Update Compliance with Desktop Analytics
 

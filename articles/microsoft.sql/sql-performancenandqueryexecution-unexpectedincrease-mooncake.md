@@ -13,7 +13,7 @@
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
     articleId="sql-performancenandqueryexecution-unexpectedincrease-mooncake"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # performance and query execution/unexpected increase in resource consumption or DTUS

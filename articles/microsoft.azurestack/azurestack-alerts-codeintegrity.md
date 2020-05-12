@@ -10,7 +10,7 @@
     supportTopicIds="32629201"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-alerts-codeintegrity"
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />

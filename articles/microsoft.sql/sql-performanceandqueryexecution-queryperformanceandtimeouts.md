@@ -9,10 +9,10 @@
 	selfHelpType="generic"
 	supportTopicIds="32630450"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax"
+	cloudEnvironments="public,blackForest,fairfax, usnat, ussec"
     resourceTags="servers, databases"
 	articleId="e7df013f-4ee6-41d4-9e8f-f2f99692a25b"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # Resolve poor performance and timeout issues in Azure SQL Database

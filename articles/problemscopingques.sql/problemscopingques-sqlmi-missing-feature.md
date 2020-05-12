@@ -8,7 +8,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32637267"
 	productPesIds="16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureData_AzureSQLMI"
 />

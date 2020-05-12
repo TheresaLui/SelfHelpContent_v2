@@ -10,7 +10,7 @@
 	supportTopicIds="32641072"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="a5788e7e-192d-4885-b271-ffa4423fae91"
 	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
@@ -21,7 +21,7 @@
 
 ## **Recommended Steps**
 
->If you are experiencing allocation failures in **West Europe, North Europe, UK South, UK West, and France Central**, please try alternate regions (as first preference) or alternate SKUs.<br>
+>If you are experiencing allocation failures in **UAE North**, please try alternate regions (as first preference) or alternate SKUs.<br>
 
 For general troubleshooting, please follow these guides:<br>
 

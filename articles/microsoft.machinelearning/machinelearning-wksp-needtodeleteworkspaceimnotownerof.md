@@ -9,7 +9,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public, fairfax, mooncake"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
  	articleId="6ac9532e-4645-4949-a84a-9d9c6197f016"
 	ownershipId="AzureML_AzureMachineLearning"
 />

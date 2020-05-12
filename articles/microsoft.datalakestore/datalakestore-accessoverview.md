@@ -10,7 +10,7 @@
 	supportTopicIds="32444420"
 	resourceTags=""
 	productPesIds="15879"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="Access overview in ADLS Gen1"
 	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />

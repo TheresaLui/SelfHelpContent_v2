@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32684016"
     productPesIds="15621"
-    cloudEnvironments="Public, Fairfax"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-orcas-quota-mysql"
     ownershipId="AzureData_AzureDatabaseforMySQL"

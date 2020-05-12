@@ -10,7 +10,7 @@
     supportTopicIds="32690525"
     resourceTags=""
     productPesIds="16922"
-    cloudEnvironments="public,fairfax,mooncake,blackforest"
+    cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	articleId="creating-an-azure-firewall-policy"
 	ownershipId="CloudNet_AzureFirewallManager"
 />

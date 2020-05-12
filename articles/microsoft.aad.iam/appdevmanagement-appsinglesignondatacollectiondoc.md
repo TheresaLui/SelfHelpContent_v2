@@ -1,15 +1,15 @@
 <properties
     pageTitle="Active Directory application single sign on issue"
     description="appsinglesignondatacollectiondoc"
-    authors="hsku"
-	ms.author="hsku"
+    authors="vritiJain"
+	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32570259"
+    supportTopicIds="32570259,32570275,32570274,32570263,32570260"
     productPesIds="16575"
-    cloudEnvironments="public, Fairfax, Mooncake"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="appsinglesignondatacollectiondoc"
-    	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
+    ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Active Directory application single sign on issue
@@ -21,8 +21,8 @@
     "title": "Active Directory application single sign on issue",
     "fileAttachmentHint": null,
     "diagnosticCard": {
-        "title": "Problem with Azure Active Directory application single sign",
-        "description": "Our self-service troubleshooter can help you troubleshoot and solve your problem.",
+        "title": "Problem with Azure Active Directory application single sign-on",
+        "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade:",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
     },
     "formElements": [
@@ -75,24 +75,33 @@
             "numberOfLines": 0
         },
         {
-            "id": "hasErrorData",
+            "id": "problem_description",
             "visibility": null,
             "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Do you have a correlation ID and Timestamp for an error related to this problem?",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Full Error Message:",
             "content": null,
-            "watermarkText": null,
+            "watermarkText": "Example: AADSTS50076: Due to a configuration change made by your administrator...",
             "infoBalloonText": null,
-            "dropdownOptions": [
-                {
-                    "text": "Yes",
-                    "value": "yes"
-                },
-                {
-                    "text": "No",
-                    "value": "no"
-                }
-            ],
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": null,
+            "required": true,
+            "maxLength": 0,
+            "useAsAdditionalDetails": true,
+            "numberOfLines": 3,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "correlationId",
+            "visibility": null,
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Correlation ID:",
+            "content": null,
+            "watermarkText": "Example: 6ad36e38-8a10-4f1b-95fb-05cdb1dbec49",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "required": false,
             "maxLength": 0,
@@ -101,29 +110,13 @@
             "diagnosticInputRequiredClients": "Portal"
         },
         {
-            "id": "getCorrelationId",
-            "visibility": "hasErrorData==no",
-            "order": 5,
-            "controlType": "infoblock",
-            "displayLabel": null,
-            "content": "Microsoft can provide a solution to your problem faster if you can get a correlation ID and Timestamp for this problem, reproduce the error by signing into the app with your own account.",
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "correlationId",
-            "visibility": "hasErrorData==yes",
+            "id": "requestId",
+            "visibility": null,
             "order": 6,
             "controlType": "textbox",
-            "displayLabel": "Correlation ID from Error message:",
+            "displayLabel": "Request ID:",
             "content": null,
-            "watermarkText": "Copy the correlation ID from the error message and paste it here",
+            "watermarkText": "Example: ca6161fb-000a-4d2f-a3b4-3d62168f866d",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -135,12 +128,12 @@
         },
         {
             "id": "timestamp",
-            "visibility": "hasErrorData==yes || hasErrorData==no",
+            "visibility": "null",
             "order": 7,
             "controlType": "textbox",
-            "displayLabel": "Timestamp from Error message:",
+            "displayLabel": "Date(UTC):",
             "content": null,
-            "watermarkText": "Copy the timestamp from the error message and paste it here",
+            "watermarkText": "Example: 2020-04-13T01:29:57.362Z",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -155,10 +148,10 @@
             "visibility": "null",
             "order": 8,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the Application name or Application ID experiencing this problem?",
+            "displayLabel": "Application name or ID:",
             "content": null,
-            "watermarkText": "Application ID is in the Properties section in the Azure AD configuration for the application",
-            "infoBalloonText": null,
+            "watermarkText": "Example: ContosoApp",
+            "infoBalloonText": "Application to login to. Format accepted is App Name:ContosoApp or AppID:751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "required": false,
@@ -169,41 +162,23 @@
         },
         {
             "id": "userNameOrId",
-            "visibility": "hasErrorData==no",
+            "visibility": "null",
             "order": 9,
             "controlType": "textbox",
-            "displayLabel": "Which user is experiencing this problem?",
+            "displayLabel": "User Experiencing Problem:",
             "content": null,
-            "watermarkText": "Enter user upn or Object ID of the user in Azure Active Directory",
-            "infoBalloonText": null,
+            "watermarkText": "Example: foo@contoso.com",
+            "infoBalloonText": "User who made the sign-in request. Format accepted is UPN:foo@contoso.com  or ObjectID:224ad664-d4a8-41fc-9ddf-121db97fa120",
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
-        },
-        {
-            "id": "problem_description",
-            "visibility": null,
-            "order": 10,
-            "controlType": "multilinetextbox",
-            "displayLabel": "If you received an error, please provide the error message details:",
-            "content": null,
-            "watermarkText": "AADSTSXXXXX: error message, Error message from the application, etc... ",
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "hints": null,
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": true,
-            "numberOfLines": 3
+            "numberOfLines": 2
         },
         {
             "id": "problem_start_time",
-            "order": 11,
+            "order": 10,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true

@@ -9,7 +9,7 @@
     supportTopicIds=""
     resourceTags="mamarmrbac, mampolicyarmrbac"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
  	articleId="2143ae22-5efa-4c1e-86dc-ab109541a424"
 	ownershipId="IntuneCxP_Intune"
 />

@@ -10,7 +10,7 @@
     supportTopicIds="32681538"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="9651a650-909c-4f84-a526-cb7ed6313e0b"
 	ownershipId="AzureData_HDInsight"
 />
@@ -68,7 +68,7 @@ To resolve this issue, use one of the following methods:
 
 **MISC**
 
-1. HDInsight doesn't allow you to upgrade worker node disk sizes on a running cluster. Currently, you can choose the disk size when you create the cluster. HDInsight clusters are designed to be easily dropped and re-created.
+1. HDInsight doesn't allow you to upgrade worker node disk sizes on a running cluster. Currently, you can choose the disk size when you create the cluster. HDInsight clusters are designed to be easily dropped and re-created.
 2. It is recommended to scale down HDInsight to three worker nodes at least. For Kafka you cannot scale down the worker nodes.  
 3. You can enable auto scale only when you create the cluster. If you have not configured auto scale during the creation, you must delete the cluster and recreate a cluster with autoscale enabled.
 

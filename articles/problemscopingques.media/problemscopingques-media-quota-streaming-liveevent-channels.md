@@ -7,7 +7,7 @@
     supportTopicIds="32632084"
     productPesIds="14885"
     articleId="problemscopingques-quota-streaming-liveevent-channels"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
 	ownershipId="StorageMediaEdge_Media"
 />

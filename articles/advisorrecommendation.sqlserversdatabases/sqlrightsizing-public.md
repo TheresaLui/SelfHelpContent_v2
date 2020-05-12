@@ -86,6 +86,7 @@
       "name": "ObservationPeriodEndDate",
       "title": "Observation End Period"
     }
-  ]
+  ],
+  "costSavingInfo": "*You can save up to the stated amount if you choose to right-size your database. Your actual savings may vary."
 }
 ---

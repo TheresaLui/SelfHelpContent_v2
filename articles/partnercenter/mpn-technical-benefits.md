@@ -14,8 +14,8 @@
 	clientIds='partnercenter'
 	resourceTags="mpn"
 	productPesIds="15960,17007"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Technical Benefits request
 
@@ -29,6 +29,7 @@
 
 * [Technical benefits - Learn more and review troubleshooting scenarios](https://support.microsoft.com/help/4515208/technical-benefits-tab-for-mpn-partners-in-partner-center)
 * [Access ID / Contract ID activation](https://support.microsoft.com/help/2904733/microsoft-partner-network-support-contract-activation)
+* [How many Partner support incidents are remaining?](https://support.microsoft.com/help/4559075/how-many-partner-support-incidents-are-remaining)
 * [Technical Benefits - Usage of Product Support Incidents, Signature Cloud Support and Advisory Hours](https://support.microsoft.com/help/2987884/microsoft-partner-network-technical-benefits-summary)
 * [Missing a support plan or An error occurred / Add Contract fails](https://support.microsoft.com/help/4023619)
 

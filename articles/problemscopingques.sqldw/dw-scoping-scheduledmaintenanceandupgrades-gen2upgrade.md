@@ -7,7 +7,7 @@
         selfHelpType="problemScopingQuestions"
         supportTopicIds="32635200"
         productPesIds="15818"
-        cloudEnvironments="public, Fairfax"
+        cloudEnvironments="public, Fairfax, usnat, ussec"
         schemaVersion="1"
 	ownershipId="AzureData_SQLDataWarehouse"
 />

@@ -13,8 +13,8 @@
 	supportTopicIds="32630407"
 	resourceTags="missingAuditing"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
-	ownershipId="AzureData_AzureSQLDB"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_Security"
 />
 
 # Missing Auditing Data

@@ -14,7 +14,7 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960, 17007"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 
@@ -26,3 +26,5 @@ Resources providing knowledge on Competency requirements.
 
 * [Microsoft competency requirements for Gold and Silver membership](https://docs.microsoft.com/partner-center/learn-about-competencies)
 * [Microsoft competency overview](https://partner.microsoft.com/membership/competencies)
+* [Performance data in Partner Center](https://support.microsoft.com/help/4519834/performance-data-in-partner-center)
+* [How to use the Problem Steps Recorder in Office 365](https://support.microsoft.com/help/3035258/how-to-use-the-problem-steps-recorder-in-office-365)

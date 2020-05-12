@@ -10,7 +10,7 @@
     supportTopicIds="32636507"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, mooncake, Fairfax"
+    cloudEnvironments="public, mooncake, Fairfax, usnat, ussec"
     articleId="bfa4e56c-3fbc-461d-a7d5-1e485b42932b"
 	ownershipId="AzureData_HDInsight"
 />
@@ -46,7 +46,7 @@ If you use either network security groups or user defined routes to control traf
 
 **Ensure you have the required ports open**
 
-If you plan to use a firewall, and access the cluster from outside on certain ports, you might need to allow traffic on those ports needed for your scenario. [Click here for the list of ports for specific services](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-port-settings-for-services).
+If you plan to use a firewall, and access the cluster from outside on certain ports, you might need to allow traffic on those ports needed for your scenario. [Click here for the list of ports for specific services](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-port-settings-for-services).
 
 **Error: HiveMetastoreSchemaInitializationFailedErrorCode**
 
