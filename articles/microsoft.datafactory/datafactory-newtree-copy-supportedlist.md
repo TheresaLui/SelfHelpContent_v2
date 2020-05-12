@@ -26,7 +26,7 @@ Depending on your scenario, the troubleshooting actions might require multiple s
 ## **Recommended Steps**
 
 1. Obtain the error that is returned while trying to execute the pipeline or when trying to connect to the data set. You can try testing the connection by editing the linked service and pressing the button **Test connection**.
-2. If your data store is on the cloud, you can find a great variety of errors and how to resolve them on the following troubleshooting guides:
+2. Review the documented common errors and solutions, you can find a great variety of errors and how to resolve them on the following troubleshooting guides:
    * [SQL connector](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-sql-data-warehouseazure-sql-databasesql-server)
    * [Azure Storage connector](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-blob-storage)
    * [ADLS Gen 1 connector](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-data-lake-storage-gen1)
@@ -35,7 +35,7 @@ Depending on your scenario, the troubleshooting actions might require multiple s
    * [General Copy Activity errors](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#general-copy-activity-error)
 3. If you are using a self-hosted IR to connect to your data, make sure you test your connectivity from the Self-Hosted IR machine, access the **Microsoft Integration Runtime Configuration Manager**, and make sure it shows it is connected to the cloud service, then go to the **Diagnostics** tab and test the connection to your data source/sink.
 4. Make sure that Networking security components such as Firewalls, Network Security Groups, VPN configurations have not changed if your scenario makes use of any of these components, you can review the [data movement security considerations](https://docs.microsoft.com/azure/data-factory/data-movement-security-considerations#firewall-configurations-and-allow-list-setting-up-for-ip-address-of-gateway) documentation to ensure all configurations are correct.
-5. If after reviewing the logs and online articles related to them you still need assistance please continue opening a support ticket and make sure mention the specific error you are obtaining and attach the logs you gathered while troubleshooting the problem.
+5. If after reviewing the logs and online articles related to them, you still need assistance, please continue opening a support request and make sure to mention the specific error you are obtaining and attach the logs you gathered while troubleshooting the problem.
 
 ### **Data Format Troubleshooting**
 
