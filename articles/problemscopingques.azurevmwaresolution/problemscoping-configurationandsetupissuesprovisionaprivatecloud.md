@@ -41,16 +41,14 @@
             "controlType": "textbox",
             "displayLabel": "What is the Correlation ID of the failed deployment?",
             "required": false
-        }
-        ,
+        },
         {
             "id": "ResourceID",
             "order": 4
             "controlType": "textbox",
             "displayLabel": "What is the Resource ID?",
             "required": false
-        }
-        ,
+        },
         {
             "id": "ResourceGroup",
             "order": 5,
@@ -58,9 +56,6 @@
             "displayLabel": "What is the Resource group?",
             "required": false
         }
-
-
-
-            ]
+        ]
  }
 ---
