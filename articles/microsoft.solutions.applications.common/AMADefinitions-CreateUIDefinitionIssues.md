@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16651"
 	cloudEnvironments="public, Fairfax"
-	articleId="amadefinitions-publishingissues"
+	articleId="amadefinitions-createuidefinitionIssues"
 	ownershipId="Compute_AzureManagedApplications"
 />
 
