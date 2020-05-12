@@ -55,11 +55,16 @@
             "id": "RBAC_details",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "If you are making use of RBAC for roles and permissions, please provide the list of roles assigned to the user. Please use the command shown below.",
+            "displayLabel": "If you are making use of RBAC for roles and permissions, please provide the list of roles assigned to the user.",
             "required": true,
-            "watermarkText": "az role assignment list "
+            "watermarkText": "Please use the command shown below."
         },
-		
+	{
+			"id": "learn_more_text",
+			"order": 5,
+			"controlType": "infoblock",
+			"content": "az role assignment list --all --assignee example@example.com --output json | jq '.[] | 'principalName':.principalName, 'roleDefinitionName':.roleDefinitionName, 'scope':.scope} <br>For more details, <a href='https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-list-cli#list-role-assignments-for-a-user'>read this</a>"
+		},
         {
             "id": "problem_description",
             "order": 1000,
