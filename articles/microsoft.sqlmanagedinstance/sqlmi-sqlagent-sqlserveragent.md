@@ -50,7 +50,7 @@ For managed instance enabling and disabling of SQL Server Agent is currently not
 
 ### **SQL Agent email notifications**
 
-Email notification is supported, although it requires that you configure a Database Mail profile. SQL Server Agent can use only one Database Mail profile, and it must be called **[AzureManagedInstance_dbmail_profile](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)**. If this profile is missing you can see errors like "profile name is not valid [SQLSTATE 42000] Error 14607."
+Email notifications are supported, although it requires that you configure a Database Mail profile. SQL Server Agent can use only one Database Mail profile, and it must be called **[AzureManagedInstance_dbmail_profile](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)**. If this profile is missing you can see errors like "profile name is not valid [SQLSTATE 42000] Error 14607."
 
 ## **Recommended Documents**
 
