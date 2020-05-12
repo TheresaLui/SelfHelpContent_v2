@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Stack Stop and Start"
-    description="Stopping and Starting Azure Stack"
+    pageTitle="Azure Stack Hub Stop and Start"
+    description="Stopping and Starting Azure Stack Hub"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -15,7 +15,7 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Azure Stack Startup and Shutdown
+# Azure Stack Hub Startup and Shutdown
 
 Most support cases related to start and stop are simply due to the extended time that the operation can take. The recommended steps cover the procedures and what to expect. 
 
@@ -29,3 +29,4 @@ From the PEP, run `Get-ActionStatus Start-AzureStack`
 * [Azure Stack startup](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#start-azure-stack) 
 * [Azure Stack shutdown](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#stop-azure-stack) 
 * [Troubleshoot startup and shutdown](https://docs.microsoft.com/azure-stack/operator/azure-stack-start-and-stop#troubleshoot-startup-and-shutdown-of-azure-stack-hub)
+
