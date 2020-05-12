@@ -6,7 +6,7 @@
     authors="shelfeng, hecepeda"
     ms.author="shelfeng"
     displayOrder="16"
-    selfHelpType="generic"
+    selfHelpType="resource"
     supportTopicIds="32629461"
     resourceTags=""
     productPesIds="15613"
