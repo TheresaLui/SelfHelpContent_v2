@@ -38,7 +38,7 @@ We want to check if the customer is leveraging ***Global VNet Peering*** (peerin
 
 ## **Recommended Documents**
 
-https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview#requirements-and-constraints
+1. [Global Peering Requirements and Constraints](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview#requirements-and-constraints)
 
 
 
