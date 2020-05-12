@@ -1,13 +1,13 @@
 <properties
-                pageTitle="provisionaprivatecloud"
-                description="provisionaprivatecloud"
+                pageTitle="provisionprivatecloud"
+                description="provisionprivatecloud"
                 ms.author="neshenoy"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32739969"
                 productPesIds="17080"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="c8d19aa7-ad4a-4fa1-811b-b3048d3c4c24"
+                articleId="a9069eef-d6a3-4294-b0b8-66f55e28a781"
 	            ownershipId="Azure_VMwareSolution_Content"
 />
 # Useful Title
@@ -16,7 +16,7 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
-            "title": "provisionaprivatecloud",
+            "title": "provisionprivatecloud",
             "fileAttachmentHint": "",
             "formElements": [{
             			"id": "problem_start_time",
@@ -43,10 +43,10 @@
             "required": false
         },
         {
-            "id": "ResourceID",
-            "order": 4
+            "id": "Resourcename",
+            "order": 4,
             "controlType": "textbox",
-            "displayLabel": "What is the Resource ID?",
+            "displayLabel": "What is the Resource name?",
             "required": false
         },
         {
@@ -56,6 +56,6 @@
             "displayLabel": "What is the Resource group?",
             "required": false
         }
-        ]
+            ]
  }
 ---
