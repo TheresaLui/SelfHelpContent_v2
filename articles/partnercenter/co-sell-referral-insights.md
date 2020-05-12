@@ -20,7 +20,7 @@
 
 # Referral insights
 
-The Referral insights page in Partner Center lets you see how your referrals are performing..
+The Referral insights page in Partner Center allows you to see how your referrals are performing.
 
 ## **Recommended Documents**
 
