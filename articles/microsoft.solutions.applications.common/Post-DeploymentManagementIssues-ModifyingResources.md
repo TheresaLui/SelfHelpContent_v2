@@ -10,8 +10,8 @@
 	supportTopicIds="32628298"
 	resourceTags=""
 	productPesIds="16651"
-	cloudEnvironments="public, Fairfax"
-	articleId="post-deploymentmanagementissues-modifyingresources"
+	cloudEnvironments="public, fairfax, mooncake"
+    articleId="post-deploymentmanagementissues-modifyingresources"
 	ownershipId="Compute_AzureManagedApplications"
 />
 

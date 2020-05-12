@@ -10,8 +10,8 @@
 	supportTopicIds="32628300"
 	resourceTags=""
 	productPesIds="16651"
-	cloudEnvironments="public, Fairfax"
-	articleId="Post-DeploymentManagementIssues-Resourcelocks"
+	cloudEnvironments="public, fairfax, mooncake"	
+    articleId="Post-DeploymentManagementIssues-Resourcelocks"
 	ownershipId="Compute_AzureManagedApplications"
 />
 

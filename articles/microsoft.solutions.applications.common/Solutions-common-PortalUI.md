@@ -10,8 +10,8 @@
 	supportTopicIds="32628295"
 	resourceTags=""
 	productPesIds="16651"
-	cloudEnvironments="public, Fairfax"
-	articleId="solutions-common-portalui"
+	cloudEnvironments="public, fairfax, mooncake"
+    articleId="solutions-common-portalui"
 	ownershipId="Compute_AzureManagedApplications"
 />
 

@@ -10,8 +10,8 @@
 	supportTopicIds="32328297"
 	resourceTags=""
 	productPesIds="16651"
-	cloudEnvironments="public, Fairfax"
-	articleId="amadefinitions-createuidefinitionIssues"
+	cloudEnvironments="public, fairfax, mooncake"
+    articleId="amadefinitions-createuidefinitionIssues"
 	ownershipId="Compute_AzureManagedApplications"
 />
 
