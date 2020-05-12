@@ -36,10 +36,10 @@
 				}]
         },
         {
-            "id": "ExpressRouteURIID",
+            "id": "SubscriptionID",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the ExpressRoute URI ID of the private cloud?",
+            "displayLabel": "What is the Subscription ID?",
             "required": false
         }
             ]
