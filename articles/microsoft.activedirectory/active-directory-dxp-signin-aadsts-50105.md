@@ -7,7 +7,7 @@
     authors="vritiJain"
     ms.author="vrjai"
     displayOrder="1"
-    articleId="active-directory-dxp-signin-aadsts-errorcodes"
+    articleId="active-directory-dxp-signin-aadsts-50105"
     diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
@@ -25,9 +25,8 @@ Based on the information you provided we have identified following issue and rec
 **Error Code:** 50105
 
 **Message:** The signed in user '{_user}' is not assigned to a role for the application '{appId}'({appName}).
-
-**Action:** The user or a group they are a member of must first be assigned to this application before being able to access it. To resolve this problem configure the application assignment for the app in the Azure AD Enterprise Applications page for the app under "Users and groups".<br/><br/>You can refer to the following link for the steps to resolve the issue.
-
-You can view and manage the application configuration from [Enterprise Applications](https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps/menuId/)<br/> [Assign a user or group to an enterprise app in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/methods-for-assigning-users-and-groups)<br/>
-
 <!--/issueDescription-->
+
+**Action:** The user or a group they are a member of must first be assigned to this application before being able to access it. To resolve this problem configure the application assignment for the app in the Azure AD Enterprise Applications page for the app under "Users and groups".<br><br>You can refer to the following link for the steps to resolve the issue.
+
+You can view and manage the application configuration from [Enterprise Applications](https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps/menuId/)<br> [Assign a user or group to an enterprise app in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/methods-for-assigning-users-and-groups)<br>

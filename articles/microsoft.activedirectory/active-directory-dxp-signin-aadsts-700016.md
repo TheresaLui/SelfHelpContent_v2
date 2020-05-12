@@ -7,7 +7,7 @@
     authors="vritiJain"
     ms.author="vrjai"
     displayOrder="1"
-    articleId="active-directory-dxp-signin-aadsts-errorcodes"
+    articleId="active-directory-dxp-signin-aadsts-700016"
     diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
@@ -25,9 +25,8 @@ Based on the information you provided we have identified following issue and rec
 **Error Code:** 700016
 
 **Message:** Application with identifier '{appIdentifier}' was not found in the directory '{tenantName}'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.
+<!--/issueDescription-->
 
 **Action:** The application wasn't found in the directory/tenant. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You might have misconfigured the identifier value for the application or sent your authentication request to the wrong tenant.
 
 
-
-<!--/issueDescription-->
