@@ -23,7 +23,7 @@
 
 Before you get started, download the step-by-step Conditional Access [Deployment plan](http://aka.ms/conditionalaccessdeploymentplan)
 1. [Configure Policy](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies), including assignments, conditions, and controls
-2. Test policy using [What-if Tool](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if) and [Report-Only Mode](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-report-only)	
+2. Test policy using [What-if Tool](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if) and [Report-Only Mode](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-report-only)	
 3. [Move to Production](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access)
 
 
