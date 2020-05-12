@@ -1,13 +1,13 @@
 <properties
-                pageTitle="configurationandsetupissuesservicewhitelistingsubscriptionissue"
-                description="configurationandsetupissuesservicewhitelistingsubscriptionissue"
+                pageTitle="servicewhitelistingsubscriptionissue"
+                description="servicewhitelistingsubscriptionissue"
                 ms.author="neshenoy"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32739971"
                 productPesIds="17080"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="e3e82b31-39f7-4a93-aedc-a18dc8bb1e7a"
+                articleId="164b5696-324a-4397-b222-7fa69331c62b"
 	            ownershipId="Azure_VMwareSolution_Content"
 />
 # Useful Title
@@ -16,7 +16,7 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
-            "title": "configurationandsetupissuesservicewhitelistingsubscriptionissue",
+            "title": "servicewhitelistingsubscriptionissue",
             "fileAttachmentHint": "",
             "formElements": [{
             			"id": "problem_start_time",
@@ -36,10 +36,10 @@
 				}]
         },
         {
-            "id": "SubscriptionID",
+            "id": "ExpressRouteURIID",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the Subscription ID?",
+            "displayLabel": "What is the ExpressRoute URI ID of the private cloud?",
             "required": false
         }
             ]
