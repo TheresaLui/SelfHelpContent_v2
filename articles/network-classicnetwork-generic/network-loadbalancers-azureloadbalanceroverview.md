@@ -17,7 +17,8 @@
 
 # Advisory
 
-## **Recommended documents**
+## **Recommended Documents**
+
 - [Azure Load Balancer overview](https://azure.microsoft.com/documentation/articles/load-balancer-overview/)<br>
 - [Azure Load Balancer FAQs](https://docs.microsoft.com/azure/load-balancer/load-balancer-faqs)<br>
 - [Load Balancer components](https://docs.microsoft.com/azure/load-balancer/components)<br>
