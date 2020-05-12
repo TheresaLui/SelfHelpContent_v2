@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "91bc0968-15ef-b89e-508e-23abc069d38f",
+      "longDescription": "",
+      "shortDescription": "Questions specific to issues with automatic instance repairs",
+      "searchTags": "repair",
+      "category": "Instance Repairs",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ba0a4f26-e1b9-4747-21ba-7b6cda11647c",
       "longDescription": "",
       "shortDescription": "Questions specific to Azure Planned Maintenance of the Azure hardware",
