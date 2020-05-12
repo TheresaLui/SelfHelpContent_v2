@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "7a976faf-d433-740c-50bf-f2660969a347",
+      "longDescription": "",
+      "shortDescription": "Common problems related to using Orchestration",
+      "searchTags": "Orchestration",
+      "category": "Orchestration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "88d00586-9517-3024-4f46-0b40fb1d9e86",
       "longDescription": "",
       "shortDescription": "Issue with scaling using the Azure Scale-In Policy",
