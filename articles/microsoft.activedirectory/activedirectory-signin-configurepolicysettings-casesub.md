@@ -19,14 +19,30 @@
 
 ## **Recommended Steps**
 
-* If you would like a video on how to configure Conditional Access, see [Enable Azure Active Directory Conditional Access to secure user access](https://www.youtube.com/watch?time_continue=4&v=eLAYBwjCGoA)
-* [Require MFA for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)
-* If you are ready to configure conditional access policies for your environment, review the [best practices for conditional access in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices)
-* If you would like a step-by-step deployment plan with recommended policies, download this [conditional access deployment plan](http://aka.ms/conditionalaccessdeploymentplan)
+**Steps to deploy a Conditional Access Policy**
+<table>
+    <thead>
+        <th>Before you get started, download the step-by-step Conditional Access <a href="http://aka.ms/conditionalaccessdeploymentplan">Deployment plan</a>.</th>
+    </thead>
+    </table>
+    
+1.	<a href="https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies">Configure policy</a>, including assignments, conditions, and controls
+2.	Test policy using <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if">what-if tool</a> and <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-report-only">link text</a>
+3.	<a href="https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access">Move to Production</a>
+
+
 
 ## **Recommended Documents**
 
-* [Conditional Access overview](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
-* [“What If” tool for Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/what-if-tool)
-* [Quickstart: Block access when a session risk is detected with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-sign-in-risk)
-* [How to: Block legacy authentication to Azure AD with conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication)
+<dl>
+  <dt>Getting started with Conditional Access</dt>
+	<dd>- Short intro to Conditional Access <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/overview">Document</a> and <a href="https://www.youtube.com/watch?v=c_izIRNJNuk">Video</a> </dd>
+	<dd>- <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices">Best Practices</a> </dd>
+  
+  <dt> Common Conditional Access Policies </dt>
+  <dd>- <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa">Require MFA for Administrators</a> </dd>
+  <dd>- <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location">Block Access by Location</a> </dd>
+  <dd>- <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy">Block Legacy Authentication</a> </dd>
+  <dd>- <a href="https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device">Require Compliant Devices</a> </dd>
+
+</dl>
