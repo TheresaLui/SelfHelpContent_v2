@@ -17,7 +17,8 @@ For resources in a spoke VNET to communication with on-premises resources in a h
 
 1. *'Use Remote Gateway'* must be enabled on the spoke VNet (that does not have the gateway)
 2. *'Allow Gateway Transit'* must be enabled on the hub VNet (that has the gateway)
-3. Limitation: Cannot use VNet alone to transit between spokes (on-prem or in Azure)
+3. *'Allow Forwarded Traffic'* must be enabled on the hub VNet (that has the gateway)
+4. Limitation: Cannot use VNet alone to transit between spokes (on-prem or in Azure)
 
    * See [Service Chaining](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview#service-chaining) OR
    * See [VPN/ExR Coexistence gateways](https://docs.microsoft.com/azure/expressroute/expressroute-howto-coexist-resource-manager#configure-a-site-to-site-vpn-to-connect-to-sites-not-connected-through-expressroute) for on-premises spokes
