@@ -19,10 +19,10 @@
 Serverless is price-performance optimized for single databases with intermittent, unpredictable usage patterns that can afford some delay in compute warm-up after idle usage periods. In contrast, the provisioned compute tier is price-performance optimized for single databases or multiple databases in elastic pools with higher average usage that cannot afford any delay in compute warm-up.<br>
 
 Scenarios well-suited for serverless compute: <br>
-Single databases with intermittent, unpredictable usage patterns interspersed with periods of inactivity and lower average compute utilization over time.<br>
-Single databases in the provisioned compute tier that are frequently rescaled and customers who prefer to delegate compute rescaling to the service.<br>
-New single databases without usage history where compute sizing is difficult or not possible to estimate prior to deployment in SQL Database.<br>
 
+* Single databases with intermittent, unpredictable usage patterns interspersed with periods of inactivity and lower average compute utilization over time
+* Single databases in the provisioned compute tier that are frequently rescaled and customers who prefer to delegate compute rescaling to the service
+* New single databases without usage history where compute sizing is difficult or not possible to estimate prior to deployment in SQL Database
 
 ## **Recommended Documents**
 
