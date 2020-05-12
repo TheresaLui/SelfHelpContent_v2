@@ -7,7 +7,7 @@
     ms.author="mmcc, ramthi"
     articleId="appinsights-on-prem-or-non-Azure-Cloud"
     selfHelpType="generic"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="public, fairfax, mooncake, blackforest, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32729616, 32729615"
  	ownershipId="AzureMonitoring_ApplicationInsights"
