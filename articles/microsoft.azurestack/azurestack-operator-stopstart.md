@@ -21,9 +21,8 @@ Most support cases related to start and stop are simply due to the extended time
 
 ## **Recommended Steps**
 
-1. Verify the power status of the physical node by following the instructions from the OEM who supplied your Azure Stack hardware.
-1. Get the startup for the Azure Stack Hub startup routine by opening a privileged endpoint session from a machine with network access to the Azure Stack Hub ERCS VMs.
-From the PEP, run `Get-ActionStatus Start-AzureStack`
+1. Verify the power status of the physical node by following the instructions from the OEM who supplied your Azure Stack hardware
+1. Get the startup for the Azure Stack Hub startup routine by opening a privileged endpoint session from a machine with network access to the Azure Stack Hub ERCS VMs. From the PEP, run `Get-ActionStatus Start-AzureStack`.
 
 ## **Recommended Documents**
 * [Azure Stack startup](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#start-azure-stack) 
