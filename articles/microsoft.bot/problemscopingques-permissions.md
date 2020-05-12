@@ -57,7 +57,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "If you are making use of RBAC for roles and permissions, please provide the list of roles assigned to the user. Please use the command shown below.",
             "required": true,
-            "watermarkText": "az role assignment list --all --assignee example@example.com --output json | jq '.[] | {'principalName':.principalName, 'roleDefinitionName':.roleDefinitionName, 'scope':.scope}"
+            "watermarkText": "az role assignment list "
         },
 		
         {
