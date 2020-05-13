@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Azure Stack Patch and Update Failure"
+    pageTitle="Azure Stack Hub Patch and Update Failure"
     description="Assist customers during patch and update runs, or after a failure"
     service="microsoft.azurestack"
     resource="azurestack"
@@ -15,11 +15,11 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Azure Stack Patch and Update Failures
+# Azure Stack Hub Patch and Update Failures
 
-Each release of Microsoft software updates is bundled as a single update package.  As an Azure Stack operator, you can import, install, and monitor the installation progress of update packages from the Azure Stack administration portal.
+Each release of Microsoft software updates is bundled as a single update package.  As an Azure Stack Hub operator, you can import, install, and monitor the installation progress of update packages from the Azure Stack Hub Administration portal.
 
-* For information regarding information on how to manage updates for Azure Stack, please review [Manage updates in Azure Stack overview](https://docs.microsoft.com/azure-stack/operator/azure-stack-updates#install-updates-and-monitor-progress)
+* For information regarding information on how to manage updates for Azure Stack Hub, please review [Manage updates in Azure Stack overview](https://docs.microsoft.com/azure-stack/operator/azure-stack-updates#install-updates-and-monitor-progress)
 * For information regarding recent releases, release notes on updates and cadence, please review [Update package release cadence](https://docs.microsoft.com/azure-stack/operator/azure-stack-servicing-policy#update-package-release-cadence)
 * For more information regarding security updates for Azure Stack, please review [Azure Stack security updates](https://docs.microsoft.com/azure-stack/operator/azure-stack-release-notes-security-updates-1907)
 
