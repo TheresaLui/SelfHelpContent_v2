@@ -17,7 +17,7 @@
     ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
 />
 
-# **I have an issue in creating, editing or deleting alert rules in the Azure portal**
+# **I have an issue in creating, editing or deleting activity log alert rules in the Azure portal**
 
 ## **Recommended Steps**
 
