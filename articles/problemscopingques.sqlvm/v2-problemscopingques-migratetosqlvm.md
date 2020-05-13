@@ -49,7 +49,7 @@
                     "value": "HybridVM"
                 },
                 {
-                    "text": "I’m not sure/don’t know",
+                    "text": "I'm not sure/don't know",
                     "value": "dont_know_answer"
                 }
             ],
@@ -82,7 +82,7 @@
                      "value": "NewVM"
                  },
                  {
-                     "text": "I’m not sure/Need guidance on same",
+                     "text": "I'm not sure/Need guidance on same",
                      "value": "dont_know_answer_guidance"
                  }
              ],
