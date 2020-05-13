@@ -25,7 +25,6 @@
 	"fileAttachmentHint": "",
 	"formElements": 
     [
-
         {
 			"id": "problem_start_time",
 			"order": 1,
@@ -33,7 +32,6 @@
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, 
-
         {
 			"id": "problem_description",
 			"order": 2,
@@ -52,7 +50,6 @@
 				}
 			]
 		}, 
-
 		{
 			"id": "Advisor_recommendation",
 			"order": 3,
@@ -85,7 +82,6 @@
 			],
 			"required": true
 		} 
-
 	]
 }
 
