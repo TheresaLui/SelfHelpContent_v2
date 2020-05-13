@@ -12,7 +12,9 @@
 	clientIds="partnercenter"
 	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
+
 # Partner Center MPN cancel or refund
+
 ---
 {
     "resourceRequired": true,
