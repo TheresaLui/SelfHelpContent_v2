@@ -25,19 +25,19 @@
     "formElements": [
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Description of any recent changes to Network Security Group rules at the VNET / Subnet level",
             "useAsAdditionalDetails": true,
             "watermarkText": "Description",
-            "required": true
+            "required": false
         },
         {
             "id": "Error_Message",
@@ -47,7 +47,7 @@
             "useAsAdditionalDetails": true,
             "watermarkText": Error Message",
             "required": false
-        },       
+        }       
     ],
     "$schema": "SelfHelpContent"
 }
