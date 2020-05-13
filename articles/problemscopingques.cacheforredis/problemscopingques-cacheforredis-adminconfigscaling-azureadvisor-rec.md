@@ -242,35 +242,27 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Windows 7/Windows Server 2008R2",
-                    "text": "Windows 7/Windows Server 2008R2"
+                    "value": "High Availability",
+                    "text": High Availability"
                 },
                 {
-                    "value": "Windows 8/Windows Server 2012",
-                    "text": "Windows 8/Windows Server 2012"
+                    "value": "Performance",
+                    "text": "Performance"
                 },
                 {
-                    "value": "Windows 8.1/Windows Server 2012R2",
-                    "text": "Windows 8.1/Windows Server 2012R2"
+                    "value": "Operational Excellence",
+                    "text": "Operational Excellence"
                 },
                 {
-                    "value": "Windows 10/Windows Server 2016",
-                    "text": "Windows 10/Windows Server 2016"
+                    "value": "Cost",
+                    "text": "Cost"
                 },
                 {
-                    "value": "Windows 10/Windows Server 2019",
-                    "text": "Windows 10/Windows Server 2019"
-                },
-                {
-                    "value": "Android or iOS",
-                    "text": "Android or iOS"
-                },
-                {
-                    "value": "Other",
+                    "value": Other",
                     "text": "Other"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
