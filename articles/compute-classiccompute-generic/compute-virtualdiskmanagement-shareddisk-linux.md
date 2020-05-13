@@ -17,7 +17,7 @@
 
 # Shared Disk / Virtual Disk Management
 
-4 out of 5 customers resolved their VM virtual disk issue using the below steps.
+4 out of 5 customers resolved their VM virtual disk issue using the below links.
 
 
 ## **Recommended Documents**
@@ -27,7 +27,7 @@
 
 **More Information**
 
-[Overview of Azure Managed Disks](https://docs.microsoft.com/azure/virtual-machines/linux/managed-disks-overview)
+* [Overview of Azure Managed Disks](https://docs.microsoft.com/azure/virtual-machines/linux/managed-disks-overview)
 
 **Attaching or Detaching Disks**
 
