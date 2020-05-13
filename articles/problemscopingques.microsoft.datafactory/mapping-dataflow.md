@@ -54,7 +54,7 @@
 			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "If this an issue while debugging please provide the SessionID.",
-			"required": false 
+			"required": false
 		},
 		{
 			"id": "problem_start_time",
