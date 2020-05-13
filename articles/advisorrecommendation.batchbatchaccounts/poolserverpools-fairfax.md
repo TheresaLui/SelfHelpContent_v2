@@ -38,9 +38,9 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/batch_deprecatedcomponent_learnmore",
-  "description": "Delete and recreate your pool for improved stability and performance.",
+  "description": "Delete and recreate your pool to remove a deprecated internal component",
   "longDescription": "Your pool is using a deprecated internal component. Please delete and recreate your pool for improved stability and performance.",
   "potentialBenefits": "Improved stability and performance",
   "actions": [
