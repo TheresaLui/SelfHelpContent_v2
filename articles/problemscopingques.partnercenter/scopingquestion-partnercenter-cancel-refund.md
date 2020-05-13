@@ -64,7 +64,7 @@
             "id": "order_number",
             "order": 6,
             "controlType": "textbox",
-            "displayLabe": "Please provide Order Number/MPNID",
+            "displayLabel": "Please provide Order Number/MPNID",
             "watermarkText": "Order Number/MPNID",
             "required": false
         },
