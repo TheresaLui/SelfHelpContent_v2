@@ -18,18 +18,50 @@
 # Azure Advisor recommendation
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Azure Advisor recommendations",
-    "fileAttachmentHint": "",
-    "formElements": [
+	"title": "Azure Advisor recommendations",
+	"fileAttachmentHint": "",
+	"formElements": 
+    [
+
         {
-            "id": "Advisor_recommendation",
-            "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "Which Recommendation",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
+			"id": "problem_start_time",
+			"order": 1,
+			"controlType": "datetimepicker",
+			"displayLabel": "When did the problem begin?",
+			"required": true
+		}, 
+
+        {
+			"id": "problem_description",
+			"order": 2,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Details",
+			"watermarkText": "Provide additional information about your issue",
+			"required": true,
+			"useAsAdditionalDetails": true,
+			"hints": 
+            [
+                {
+					"text": "Issue description."
+				}, 
+                {
+					"text": "Issue description"
+				}
+			]
+		}, 
+
+		{
+			"id": "Advisor_recommendation",
+			"order": 3,
+			"controlType": "dropdown",
+			"infoBalloonText": "string",
+			"displayLabel": ""Which Recommendation",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": 
+            [
                 {
                     "value": "High Availability",
                     "text": "High Availability"
@@ -50,11 +82,12 @@
                     "value": "Other",
                     "text": "Other"
                 }
-            ],
-            "required": false
-        }
-    ],
-    "$schema": "SelfHelpContent"
+			],
+			"required": true
+		} 
+
+	]
 }
+
 ---
 
