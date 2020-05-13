@@ -47,7 +47,7 @@
             "useAsAdditionalDetails": true,
             "watermarkText": Error Message",
             "required": false
-        }       
+        }
     ],
     "$schema": "SelfHelpContent"
 }
