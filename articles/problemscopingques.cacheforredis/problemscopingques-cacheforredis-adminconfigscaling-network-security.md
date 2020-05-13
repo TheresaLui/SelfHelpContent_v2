@@ -45,7 +45,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Error Message",
             "useAsAdditionalDetails": true,
-            "watermarkText": Error Message",
+            "watermarkText": "Error Message",
             "required": false
         }
     ],
