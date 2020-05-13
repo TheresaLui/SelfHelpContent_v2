@@ -15,7 +15,7 @@
 	articleId="db92b0a3-97d2-401a-95f5-30d1567a0e5d"
 	ownershipId="RedisCache_RedisCache"
 />
-# Geo-Replication
+# Network Security
 ---
 {
     "subscriptionRequired": true,
@@ -23,14 +23,6 @@
     "title": "Network Security",
     "fileAttachmentHint": "",
     "formElements": [
-        {
-            "id": "Geo_Replication",
-            "order": 1,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Geo-replication",
-            "watermarkText": "Geo-replication",
-            "required": true
-        },
         {
             "id": "problem_start_time",
             "order": 2,
@@ -42,10 +34,20 @@
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Description",
+            "displayLabel": "Description of any recent changes to Network Security Group rules at the VNET / Subnet level",
             "useAsAdditionalDetails": true,
+            "watermarkText": "Description",
             "required": true
-        }
+        },
+        {
+            "id": "Error_Message",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Error Message",
+            "useAsAdditionalDetails": true,
+            "watermarkText": Error Message",
+            "required": false
+        },       
     ],
     "$schema": "SelfHelpContent"
 }

@@ -17,7 +17,7 @@
 	ownershipId="RedisCache_RedisCache"
 />
 
-# Data import or export
+# Data Import or Export
 ---
 {
     "subscriptionRequired": true,
