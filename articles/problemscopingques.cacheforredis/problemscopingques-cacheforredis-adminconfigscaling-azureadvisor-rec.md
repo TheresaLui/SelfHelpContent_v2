@@ -60,7 +60,7 @@
             "id": "Advisor_recommendation",
             "order": 6,
             "controlType": "dropdown",
-            "displayLabel": "From which type of machine are you trying to RDP into?",
+            "displayLabel": "Select Advisor Recommendation",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -84,11 +84,11 @@
                     "text": "Other"
                 },
                    {
-                    "value": "Other, don't know or not applicable",
-                    "text": "dont_know_answer"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
+            "required": true
         },
         {
             "id": "problem_description",
