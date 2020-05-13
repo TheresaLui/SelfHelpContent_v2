@@ -20,5 +20,5 @@ ownershipId="StorageMediaEdge_StorageBlobs"
 # Find Data migration solution
 
 <!--issueDescription-->
-Our Azure Data Migration Solution Finder can help you find the data migration solution for your specific scenario. Please fill in the information below to find a solution. 
+**<!--$InforBoxMessage-->[InforBoxMessage]<!--/$InforBoxMessage-->** **<!--$Tools-->[Tools]<!--/$Tools-->**.
 <!--/issueDescription-->
