@@ -24,3 +24,4 @@ We've researched your case and believe that the unable to delete issue is due to
 ## Recommended Documents
 
 1. [Grant access from an internet IP range](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security#grant-access-from-an-internet-ip-range)
+2. [Azure Firewall](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security)
