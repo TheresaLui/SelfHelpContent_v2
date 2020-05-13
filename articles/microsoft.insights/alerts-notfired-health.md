@@ -21,7 +21,7 @@
 
 ## Resource health
 
-Azure Resource Health alerts tracks the health of your resources, it tracks resource health events and allow you to be notified you in near real-time when these resources have a change in their health status.
+Azure Resource Health alerts tracks the health of your resources, it tracks resource health events and allow you to be notified you in near real-time when there's change in the resource health status.
 
 ## Service health
 
@@ -33,7 +33,7 @@ Azure Service Health tracks the health of your Azure services in the regions whe
 
 If you believe your "Service Health" alert should have triggered but it didn't, the following steps might help resolve the issue.
 
-1. Review the [fired alerts list](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) to see if an alert was fired for your alert rule. If you can see the alert in the portal, then the issue might be with notifications.
+1. Review the [fired alerts list](https://ms.portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) to see if an alert was fired for your alert rule. If you can see the alert in the portal, then the issue might be with notification.
 
     * Check if you have any rules that might prevent receiving emails from Azure emails
     * If you are using Webhook, check if your webhook receiver accepts the payload sent by activity log alerts
