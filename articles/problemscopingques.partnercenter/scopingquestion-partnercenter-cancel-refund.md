@@ -26,7 +26,7 @@
             "controlType": "textbox",
             "displayLabel": "Specific value of the refund in question",
             "watermarkText": "Value of the refund",
-            "required": true
+            "required": false
         },
         {
             "id": "currency_type",
@@ -56,7 +56,7 @@
             "id": "mailing_address",
             "order": 5,
             "controlType": "textbox",
-            "displayLabe": "Please provide Partner's mailing address",
+            "displayLabe": "Please provide Partner mailing address",
             "watermarkText": "Complete address, City, ZIP code and Country",
             "required": false
         },
