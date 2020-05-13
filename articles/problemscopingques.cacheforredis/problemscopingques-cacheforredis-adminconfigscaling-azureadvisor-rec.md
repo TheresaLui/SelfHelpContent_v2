@@ -88,7 +88,7 @@
                     "text": "dont_know_answer"
                 }
             ],
-            "required": true
+            "required": true,
         },
         {
             "id": "problem_description",
