@@ -57,7 +57,7 @@ The change feed processor can distribute compute across multiple instances autom
 
 ### **Some of my change feed processor instances are idle and not processing changes**
 
-The change feed processor creates one lease document in the lease container per phyisical partition on the monitored container. The change feed processor distributes lease documents across existing instances using an equal distribution algorithm (for example, if you have 10 lease documents and 5 instances, it will assign 2 lease documents per host). When new instances are added or removed, a rebalancing takes place. 
+The change feed processor creates one lease document in the lease container per physical partition on the monitored container. The change feed processor distributes lease documents across existing instances using an equal distribution algorithm (for example, if you have 10 lease documents and 5 instances, it will assign 2 lease documents per host). When new instances are added or removed, a rebalancing takes place. 
 
 If the amount of instances is greater than the amount of lease documents (greater than the amount of physical partitions) those extra instances will remain idle. This means that the current implementation's degree of parallelism is limited by the number of physical partitions.
 
