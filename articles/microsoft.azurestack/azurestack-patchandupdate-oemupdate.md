@@ -24,8 +24,9 @@ Make sure your OEM package is compatible with the version of Azure Stack Hub you
 ## **Recommended Steps**
 
 1. Ask your OEM how to be notified of updates
-2. To apply OEM updates, follow the process outlined in [Apply OEM updates](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-oem)
-3. If you encounter an issue while applying an OEM update on Azure Stack Hub, refer to your OEM’s [reference material or support contact information](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-oem#oem-contact-information)
+1. To apply OEM updates, follow the process outlined in [Apply OEM updates](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-oem)
+1. Complete any prerequisites as needed, such as [configuring the hardware vendor VM](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-oem#configure-hardware-vendor-vm) 
+1. If you encounter an issue while applying an OEM update on Azure Stack Hub, refer to your OEM’s [reference material or support contact information](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-oem#oem-contact-information)
 
 ## **Recommended Documents**
 
