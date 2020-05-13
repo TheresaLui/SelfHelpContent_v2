@@ -44,7 +44,6 @@
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Error Message",
-            "useAsAdditionalDetails": true,
             "watermarkText": "Error Message",
             "required": false
         }
