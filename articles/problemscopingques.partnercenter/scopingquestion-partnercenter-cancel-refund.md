@@ -56,7 +56,7 @@
             "id": "mailing_address",
             "order": 5,
             "controlType": "textbox",
-            "displayLabe": "Please provide Partner mailing address",
+            "displayLabel": "Please provide Partner mailing address",
             "watermarkText": "Complete address, City, ZIP code and Country",
             "required": false
         },
