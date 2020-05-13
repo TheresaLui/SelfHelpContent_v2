@@ -19,8 +19,8 @@
 
 1. When did the problem start?
 2. What is the HTTP error code?
-3. Which channel(s) are you seeing the issue?
+3. Which channel are you seeing the issue?
 4. What version of SDK is the bot running on?
 5. What language of SDK is being used?
-6. Is the issue reproducible at will or occuring all the time?
+6. Is the issue reproducible at will or occurring all the time?
 7. How was the bot created?
