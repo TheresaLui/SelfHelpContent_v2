@@ -113,7 +113,7 @@
                    {
                     "value": "Other, don't know or not applicable",
                     "text": "dont_know_answer"
-                },
+                }
             ],
             "required": true
         },
