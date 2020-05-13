@@ -30,6 +30,14 @@
             "required": false
         },
 	{
+            "id": "invoice_number",
+            "order": 1,
+            "controlType": "textbox",
+            "displayLabel": "Please provide the invoice number.",
+            "watermarkText": "Invoice number",
+            "required": false
+        },
+	{
             "id": "pc_iseligible",
             "order": 2,
             "controlType": "dropdown",
