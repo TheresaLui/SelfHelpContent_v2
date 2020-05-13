@@ -243,7 +243,7 @@
             "dropdownOptions": [
                 {
                     "value": "High Availability",
-                    "text": High Availability"
+                    "text": "High Availability"
                 },
                 {
                     "value": "Performance",
@@ -258,7 +258,7 @@
                     "text": "Cost"
                 },
                 {
-                    "value": Other",
+                    "value": "Other",
                     "text": "Other"
                 }
             ],
