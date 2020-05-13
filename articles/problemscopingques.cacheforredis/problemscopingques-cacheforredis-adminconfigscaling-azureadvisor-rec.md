@@ -25,40 +25,8 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "connect_error",
-            "order": 1,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What is the error you received?",
-            "required": false,
-            "useAsAdditionalDetails": false
-        },
-        {
-            "id": "bastionbrowser",
-            "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "What browser are you using?",
-            "useAsAdditionalDetails": false,
-            "required": false
-        },
-        {
-            "id": "bastionbrowserversion",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "What version is your browser?",
-            "useAsAdditionalDetails": false,
-            "required": false
-        },
-        {
-            "id": "bastionbrowseros",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "What OS is your browser running in?",
-            "useAsAdditionalDetails": false,
-            "required": false
-        },
-        {
             "id": "Advisor_recommendation",
-            "order": 6,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Select Advisor Recommendation",
             "watermarkText": "Choose an option",
@@ -92,7 +60,7 @@
         },
         {
             "id": "problem_description",
-            "order": 14,
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -100,7 +68,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 15,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": false
