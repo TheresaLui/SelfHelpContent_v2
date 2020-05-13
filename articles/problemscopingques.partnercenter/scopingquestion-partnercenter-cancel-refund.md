@@ -2,7 +2,7 @@
 	pageTitle="Partner Center MPN cancel or refund"
 	description="How to request cancel or refund"
 	authors="A-COFLOR"
-        ms.author="A-COFLOR"
+	ms.author="A-COFLOR"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32739515"
 	productPesIds="17003"
@@ -12,9 +12,7 @@
 	clientIds="partnercenter"
 	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
-
-# Partner Center MPN cancel or refund
-
+# MPN cancel or refund
 ---
 {
     "resourceRequired": true,
@@ -28,7 +26,7 @@
             "controlType": "textbox",
             "displayLabel": "Specific value of the refund in question",
             "watermarkText": "Value of the refund",
-            "required": false
+            "required": true
         },
         {
             "id": "currency_type",
