@@ -1,56 +1,46 @@
 <properties
-	pageTitle="Data Import or Export"
-	description="Data Import or Export"
+	pageTitle="Geo-replication"
+	description="Geo-replication"
 	service="microsoft.cache"
 	resource="redis"
 	authors="johnnygetHub"
 	ms.author="johnnyc"
 	displayOrder=""
 	selfHelpType="problemScopingQuestions"
-    useAsAdditionalDetails="true" 
-	supportTopicIds="32690908"
+	supportTopicIds="32690911"
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
     schemaVersion="1"
-	articleId="d45359e1-ea36-4b75-8bc0-b71aaf983263"
+	articleId="cc5277bf-f750-4173-8560-524650fc8f21"
 	ownershipId="RedisCache_RedisCache"
 />
-
-# Data import or export
+# Geo-Replication
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Name of the Storage Account",
+    "title": "Geo-replication",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "Storage_Account",
-            "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "Storage Account",
-            "watermarkText": "Storage Account",
+            "id": "Geo_Replication",
+            "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Geo-replication",
+            "watermarkText": "Geo-replication",
             "required": true
         },
         {
-            "id": "Error_Message",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Error Message",
-            "watermarkText": "Error Message",
-            "required": false
-        },
-        {
             "id": "problem_start_time",
-            "order": 1,
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -59,5 +49,4 @@
     ],
     "$schema": "SelfHelpContent"
 }
-
 ---
