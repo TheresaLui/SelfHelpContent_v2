@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Stack Connectivity to Virtual Machines"
-    description="Resolve issues with connectivity to Azure Stack VMs"
+    pageTitle="Azure Stack Hub Connectivity to Virtual Machines"
+    description="Resolve issues with connectivity to Azure Stack Hub VMs"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -15,7 +15,7 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Resolve issues with connectivity to Azure Stack VMs
+# Resolve issues with connectivity to Azure Stack Hub VMs
 
 Connectivity to an Azure Stack VM can be affected by networking issues in the Azure Stack environment, on the customer datacenter network, or due to an issue with the VM itself.
 
