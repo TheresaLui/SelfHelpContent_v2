@@ -10,8 +10,9 @@
     supportTopicIds="32690527"
     resourceTags=""
     productPesIds="16922"
-    cloudEnvironments="public,fairfax,mooncake,blackforest"
+    cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	articleId="secure-virtual-hub-management"
+	ownershipId="CloudNet_AzureFirewallManager"
 />
 # Secure Virtual Hub Management
 

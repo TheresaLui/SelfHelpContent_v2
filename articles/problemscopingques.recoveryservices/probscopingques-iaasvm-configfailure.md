@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553285,32637322"
          productPesIds="15207,15571,15797,16454,16470,14749"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
 	articleId="4142b082-0f6b-4169-80b3-6f551a623d13"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM configuration protection failure 
 ---
@@ -30,17 +31,18 @@
             "displayLabel": "Which virtual machine(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
 	    "dynamicDropdownOptions": {
-            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
-       	    "jTokenPath": "value",
-            "textProperty": "name",
-            "valueProperty": "id",
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+       	    "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
             "textPropertyRegex": ".*",
 	    "defaultDropdownOptions": {
                 "value": "dont_know_answer",
                 "text": "Other, don't know or not applicable"
             }
 	    },
-            "required": false
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",
@@ -70,12 +72,8 @@
                     "text": " Snapshot operation failed due to no network connectivity on the virtual machine"
                 },
                 {
-                    "value": "Could not copy the snapshot of the virtual machine...",
-                    "text": "Could not copy the snapshot of the virtual machine...."
-                },
-                {
-                    "value": "Could not communicate with the VM agent for snapshot status",
-                    "text": "Could not communicate with the VM agent for snapshot status"
+                    "value": "Could not copy the snapshot of the virtual machine",
+                    "text": "Could not copy the snapshot of the virtual machine"
                 },
                 {
                     "value": "VM is in Failed Provisioning State",
@@ -84,10 +82,6 @@
                 {
                     "value": "Currently Azure Backup does not support disk sizes greater than 1023GB",
                     "text": "Currently Azure Backup does not support disk sizes greater than 1023GB"
-                },
-                {
-                    "value": "My error message is not listed here",
-                    "text": "My error message is not listed here"
                 },
                 {
                     "value": "dont_know_answer",

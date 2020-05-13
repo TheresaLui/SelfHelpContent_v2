@@ -7,8 +7,9 @@
     displayOrder="2500"
     selfHelpType="resource"
     resourceTags="userandgroups_overview,userandgroups_user"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="d76aa3c6-0e07-4cbe-b420-7007cd993250"
+	ownershipId="AzureIdentity_User"
 />
 # I can’t create a new user in my Azure AD
 

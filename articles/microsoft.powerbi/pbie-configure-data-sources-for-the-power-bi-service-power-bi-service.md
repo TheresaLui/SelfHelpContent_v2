@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628076"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="6490a412-a0a4-fe13-86f3-9d207d978a25"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Data sources for the Power BI service

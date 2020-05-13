@@ -9,8 +9,9 @@
 	supportTopicIds="32565562"
 	resourceTags="Windows"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="9ba0b761-84ab-422d-9da1-51291c7be0dd"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Suspected Malware, Safety Bulletins, and Security Bulletins/Website has been defaced

@@ -6,6 +6,7 @@
     articleId="3a3c1a2a-8597-4d3a-981a-0a24a0ee9de4_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="CloudNet_Datapath"
 />
 # Enable Accelerated Networking to improve network performance and latency 
 ---

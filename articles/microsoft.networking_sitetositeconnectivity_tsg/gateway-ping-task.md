@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="0b24384b-d489-4358-9235-637024b0fae2"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to Check Gateway Ping Task Errors

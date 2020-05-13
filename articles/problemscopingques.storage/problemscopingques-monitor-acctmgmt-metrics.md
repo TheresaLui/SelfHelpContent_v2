@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32681644,32681663"
 	productPesIds="15629"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="ce6db5c8-dca5-4f18-8208-32191fb8eab2"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Account Management Monitoring metrics and advisory questions

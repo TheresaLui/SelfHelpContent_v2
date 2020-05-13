@@ -10,11 +10,12 @@
 	articleId="general_questions_where_to_sell"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635709"
+	supportTopicIds="32635709,32730254"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="15960,17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
 # Where, what or to whom can I sell?

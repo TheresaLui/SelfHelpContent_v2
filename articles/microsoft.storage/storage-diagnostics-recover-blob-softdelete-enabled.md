@@ -12,7 +12,8 @@ diagnosticScenario="Account cannot be created because deleted account with the s
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Deleted blob is recoverable until **<!--$RecoveryTime-->[RecoveryTime]<!--/$RecoveryTime-->**

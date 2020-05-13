@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632792"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
    	 articleId="c8ce31ba-6bd9-4d73-8109-8fb6dd37f86c"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MARS scheduled backup is not run automatically
 ---

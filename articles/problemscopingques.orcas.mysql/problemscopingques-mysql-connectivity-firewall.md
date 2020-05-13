@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640058"
 	productPesIds="16221"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-mysql-connectivity-firewall"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Database Connectivity - Firewall rules or VNETs
 ---

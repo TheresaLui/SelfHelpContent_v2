@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="compute-myvmisslow-linux-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Diagnose and resolve Linux Virtual Machine performance issues

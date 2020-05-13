@@ -10,8 +10,9 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="46924752-5b58-4e30-a6a2-da0a832199e0"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Licensing and Billing

@@ -10,8 +10,9 @@
 	supportTopicIds="32678718,32679288,32679302,32679295"
 	resourceTags=""
 	productPesIds="15629,16459,16461,16462,16598"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="991371a9-c45d-4f08-97f5-f0e45e6aded3"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Troubleshoot and resolve Azure Storage Authentication issues

@@ -10,10 +10,11 @@
     diagnosticScenario="ApplicationInsightsFunctionApp"
     displayOrder="1124"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32632998"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 # How do I setup application insights with my FunctionApp?
 
 ## **Recommended Steps**

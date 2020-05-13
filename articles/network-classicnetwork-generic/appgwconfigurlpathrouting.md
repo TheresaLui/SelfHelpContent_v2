@@ -10,8 +10,9 @@
 	supportTopicIds="32582830"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="8eeda772-6f4c-4aa1-b003-7092225d94c1"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Configure URL Path-Based Routing

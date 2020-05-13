@@ -10,8 +10,9 @@
 	supportTopicIds="32637260"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="b4b29aa5-b456-4913-ac94-44440bdcb02c"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Database Mail
@@ -44,7 +45,7 @@ If you are the experiencing some issues with sending email messages, try some of
 
 If you are the experiencing issues with sending email alerts from SQL Agent, try some of the following troubleshooting steps:
 
-- Check that you have an email profile called **AzureManagedInstance_dbmail_profile**
+- Check that you have an email profile called **[AzureManagedInstance_dbmail_profile](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)**, the profile must have this specific name in order to bind SQL Agent with Database Mail. If this profile is missing you can see errors like "profile name is not valid [SQLSTATE 42000] Error 14607."
 - Try to send an email using [sp_send_dbmail](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-send-dbmail-transact-sql) procedure on **AzureManagedInstance_dbmail_profile** profile with T-SQL script
 - Repeat the steps from the previous section to troubleshoot the potential database email issues
 - Check if there is any [SQL Agent limitations](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent) causing this issue

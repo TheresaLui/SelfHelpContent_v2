@@ -7,8 +7,9 @@
 	articleId="StorageScoping_all_authentication"
 	supportTopicIds="32678714,32678715,32678713,32680117,32679284,32679285,32679283,32680500,32679291,32679292,32679290,32680499,32679298,32679299,32679297,32680501"
 	productPesIds="15629,16459,16462,16461,16598"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Authentication Issue
 ---

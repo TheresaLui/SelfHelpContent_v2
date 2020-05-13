@@ -10,8 +10,9 @@
     supportTopicIds="32536573"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="03f9a3a8-b97f-4fc7-926c-585a92699660"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # windowseventlogs-howtosetup

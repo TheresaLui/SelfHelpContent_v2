@@ -10,8 +10,9 @@
 	supportTopicIds="32637305"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="16ea70ec-9b16-446a-8861-5a61f72ccc2a"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Service broker and Query Notifications

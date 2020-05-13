@@ -5,9 +5,10 @@
 	 selfHelpType="problemScopingQuestions"
 	 supportTopicIds="32633487"
 	 productPesIds="14745"
-	 cloudEnvironments="public,fairfax"
+	 cloudEnvironments="public,fairfax, usnat, ussec"
 	 schemaVersion="1"
 	 articleId="5976622e-bb83-47cf-b199-a40e42d23e21"
+	ownershipId="AzureData_AzureSQLVM"
 />
 # AlwaysOn - Configuration
 ---

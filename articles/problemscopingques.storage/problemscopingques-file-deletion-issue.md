@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602743"
 	productPesIds="16460"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="fbd7391e-423c-468a-9716-a536279a3d3a"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Storage File share or path scoping question
 ---

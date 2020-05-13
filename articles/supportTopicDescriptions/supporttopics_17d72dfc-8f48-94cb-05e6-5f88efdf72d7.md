@@ -1,12 +1,13 @@
 <properties
   pagetitle="Support topic description for Azure Backup"
   description="Support topic description for Azure Backup"
-  authors="akjoshi"
-  ms.author="akankshajsh"
+  authors="akjoshi, elixirsys2"
+  ms.author="akankshajsh, v-kraku, srinathv"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="azure-backup-supporttopicdescription"
+  ownershipid=""
   icmteam="icmteam"
   icmservice="icmservice"
   feedbackemail="email" />
@@ -14,21 +15,21 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": "",
+  "shortDescription": "Azure Backup",
   "longDescription": "",
-  "productLink1": "",
-  "productLinkName1": null,
+  "productLink1": "https://docs.microsoft.com/azure/backup/backup-overview",
+  "productLinkName1": "Product Overview",
   "productLink2": "",
-  "productLinkName2": null,
+  "productLinkName2": "",
   "productLink3": "",
-  "productLinkName3": null,
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "025dc143-378e-9b1c-ca0d-7056de378d44",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue during restore of Azure Files Share (AFS) using Azure Backup",
+      "searchTags": "AFS;Azure Files;Azure Files Share;Restore",
+      "category": "Restore",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -72,6 +73,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0fa367fe-2f1d-157c-a27f-46db83437cd2",
+      "longDescription": "",
+      "shortDescription": "Issue with restore of SAP HANA database",
+      "searchTags": "PIT;Failing;Restore",
+      "category": "Restore",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "11859079-51bb-684c-5cd5-574000986ffc",
       "longDescription": null,
       "shortDescription": "Solve issues causing dropped or terminated connections to data lake storage",
@@ -82,10 +91,10 @@
     {
       "id": "141e378a-1466-bbca-cbf0-43c82f7982d7",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issue taking backup of Azure Files shares. For MARS agent issues choose Files and Folder problem type.",
+      "searchTags": "Backup;Files;share",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "1621a0b2-d93a-9327-b149-de9c05ce34f5",
@@ -110,6 +119,14 @@
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1a72b00f-016c-493d-1caa-a70aa40f24b7",
+      "longDescription": "",
+      "shortDescription": "Issue with associating or modifying policy associated with a SAP HANA database",
+      "searchTags": "Edit policy;Change policy",
+      "category": "Configure",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "22f343c7-9fae-5a39-5d4b-7a143a93beb6",
@@ -144,12 +161,28 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "290d4e28-c993-9f20-bdcb-8a91c163d14e",
+      "longDescription": "",
+      "shortDescription": "For queries only related to product functionality and supported or unsupported. For failures use other available support topics. ",
+      "searchTags": "Price;How-to-configure;Pre-registration script;Discovery",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "2bbb5618-ac8c-9acf-c6f2-d46d5466340b",
+      "longDescription": "",
+      "shortDescription": "Issues only related to backup configuration of SAP DB, prerequisites, network connectivity ",
+      "searchTags": "SAP ;configure;network;configuration",
+      "category": "configure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2dcffbf9-693b-c340-e472-67e5c882ad7b",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issue undeleting items in soft deleted state",
+      "searchTags": "Soft delete;undelete",
+      "category": "Vault",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "345e1c89-9409-88f9-528e-594576216ed5",
@@ -162,10 +195,10 @@
     {
       "id": "3688d18b-5cb0-acd8-36c0-574b1d49678a",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issues only related to Restore from Online Restore Points using Azure Backup Server (MABS) ",
+      "searchTags": "Restore;MABS;Azure Backup Server",
+      "category": "Restore",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "383972df-72a6-a96f-7175-784c9c608366",
@@ -176,12 +209,20 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3f1a599a-e8be-1ef7-5d38-7016f8093c31",
+      "longDescription": "",
+      "shortDescription": "Issue with discovering the SAP HANA instance",
+      "searchTags": "Pre-registration script;System key;Discovery",
+      "category": "Discovery",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "412bbd3b-d2a8-cd79-b614-5dec72dab528",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issues specific to Azure Backup Service for protecting Azure files",
+      "searchTags": "Backup;Restore",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "442e8b71-0da4-f68c-9943-68da5a2d36b7",
@@ -200,6 +241,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4a0ef628-bece-80ac-d542-220b1f5940f0",
+      "longDescription": "",
+      "shortDescription": "Issue while taking backup of SAP HANA database in Azure VM",
+      "searchTags": "SAP HANA ;backup",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4a1f9c16-395c-10d6-afb2-37477ac1c15a",
       "longDescription": null,
       "shortDescription": "Issues specific to Azure Backup Service while protecting Azure Virtual Machine",
@@ -210,9 +259,9 @@
     {
       "id": "4bb7598d-8140-f9b4-62b9-65fc04d5a9ae",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue configuring backup of Azure Files Shares (AFS)",
+      "searchTags": "configure;AFS;Azure Files Share;Azure Files",
+      "category": "configure",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -234,9 +283,9 @@
     {
       "id": "52f1a27a-c8a2-9455-896c-c3ee9c6d07d9",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues specific to Reporting with Diagnostics Settings",
+      "searchTags": "report ;diagnostics",
+      "category": "Alerts and Reports",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -266,17 +315,25 @@
     {
       "id": "5ba09503-e741-e9b0-1b72-1dcffa49b99a",
       "longDescription": null,
-      "shortDescription": "General questions on functionality and supported configuration",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Use this problem type only for advisory questions. For Backup or Restore failures, choose BACKUP IS FAILING or RESTORE IS FAILING problem type",
+      "searchTags": "Supported;Not supported;Price;How to configure",
+      "category": "IaaS VM Advisory",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "5d74c65b-b117-5f87-b31b-44ad19f8a533",
+      "longDescription": "",
+      "shortDescription": "Issue with the streaming full, incremental, differential or log backup",
+      "searchTags": "backint request not received;Timeout",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "617ce4e5-3c7b-c972-ad22-bd34753b9a2e",
       "longDescription": null,
-      "shortDescription": "Issues with VM agent which is resposible for functional aspects of deploying and managing Azure VMs",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues with VM agent which is responsible for functional aspects of deploying and managing Azure VMs",
+      "searchTags": "backup;failed;agent",
+      "category": "backup",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -322,10 +379,10 @@
     {
       "id": "7a3867b1-7c5e-a334-4d0c-911960ebd675",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Azure Backup Server",
+      "searchTags": "Azure Backup Server;MABS",
+      "category": "MABS",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "80f662d1-4a0e-f8b3-7969-57f7218e1c09",
@@ -370,9 +427,9 @@
     {
       "id": "8cc4f4b0-cefd-2647-2861-e70e2e5f8ba4",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues only specific to Backup reports using Power BI ",
+      "searchTags": "report;powerbi",
+      "category": "alert and report",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -394,10 +451,18 @@
     {
       "id": "92f207c2-1fad-b6e3-5dd5-a06f31a634f9",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issues only related to Online Backup failures using Azure Backup Server (MABS) ",
+      "searchTags": "backup;azure backup server;MAB",
+      "category": "backup",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "95c36c0c-9fad-f13d-d32e-301ee4b0434a",
+      "longDescription": "",
+      "shortDescription": "Issue with discovering the SAP HANA database",
+      "searchTags": "Discovery;Pre-registration issue",
+      "category": "Discovery",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "968e3686-112a-b861-716c-ca441c1ca1de",
@@ -426,10 +491,10 @@
     {
       "id": "a1503a7e-657a-36ce-a5d5-110b02e4e420",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Backup Alerts and Reports",
+      "searchTags": "reports",
+      "category": "alerts and reports",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "a1c4e8c8-2302-5e0f-078d-b0a3ab42d6e0",
@@ -442,9 +507,9 @@
     {
       "id": "a58dd7d1-2b80-0623-67fa-81e712aa3cce",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues specific to slow restore of Azure Files Share using Azure Backup ",
+      "searchTags": "AFS;Azure Files;Azure Files Share;Restore",
+      "category": "Restore",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -466,9 +531,9 @@
     {
       "id": "a96ff2f6-1274-f022-4321-43fd1beac140",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues related to backup performance of Azure Files Share (AFS)",
+      "searchTags": "slow;backup;AFS;Azure Files",
+      "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -578,10 +643,10 @@
     {
       "id": "d7e4bacd-18cf-e240-7b27-17285784450a",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Issue only related to Online Backup configuring or enabling online backup ",
+      "searchTags": "online backup;MABS",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "e2aa9a66-6ea4-2de3-913a-b32dfdb5a316",
@@ -618,9 +683,9 @@
     {
       "id": "e5f6de9a-f8f6-2cbe-ea0d-e7d53693407f",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues specific to Backup reports using Log Analytics",
+      "searchTags": "report;LOG analytics",
+      "category": "alerts and reports",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -658,10 +723,18 @@
     {
       "id": "f53b0b53-ee00-ad7f-1279-8bd4d85df1e3",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues specific to managing Azure Files Shares (AFS) backup policy",
+      "searchTags": "AFS;Azure Files Share;Azure Files;policy",
+      "category": "Configure",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f5413101-ad2e-7e9f-5603-0367389bcf7f",
+      "longDescription": "",
+      "shortDescription": "SAP HANA database backup",
+      "searchTags": "SAP HANA",
+      "category": "SAP",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "f6bf4d86-7e89-48f3-0b43-da0d067d7fef",
@@ -670,6 +743,14 @@
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fb9be940-28b3-2199-e166-29a94f3da25f",
+      "longDescription": "",
+      "shortDescription": "HANA database restore operation is stuck in progress or took too long to complete",
+      "searchTags": "PIT;Logs;Time taking;Stuck;Failing",
+      "category": "Restore",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "fcfbccab-ae1d-eede-1342-ea7c9020e469",
@@ -690,10 +771,10 @@
     {
       "id": "ff4b14ac-e42e-ad91-cd8c-54e3ede63c12",
       "longDescription": null,
-      "shortDescription": "General questions on functionality and supported configurations",
-      "searchTags": "",
-      "category": "",
-      "useInDiagnoseAndSolve": "true"
+      "shortDescription": "Use this problem type only for advisory questions. For Backup or Restore failures, choose BACKUP IS FAILING or RESTORE IS FAILING problem type",
+      "searchTags": "Supported ; Not supported;Price ;How to configure",
+      "category": "MARS agent Advisory",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "ff5501f4-1e65-d045-7390-96ad9bd87bab",

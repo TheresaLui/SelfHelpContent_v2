@@ -10,8 +10,9 @@
     supportTopicIds="32591150"
     resourceTags=""
     productPesIds="16094"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     articleId="vpngw-configvnettovnetusingvpn"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Configure a VNet-to-VNet connection using VPN
 

@@ -10,8 +10,9 @@
 	supportTopicIds="32637272"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="379ee528-035d-46ef-9db5-db77176467c4"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Long-term back up retention in managed instance

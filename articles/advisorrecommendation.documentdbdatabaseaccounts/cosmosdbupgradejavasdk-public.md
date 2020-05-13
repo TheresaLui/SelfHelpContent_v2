@@ -6,6 +6,7 @@
     articleId="3312d528-e60e-4d3a-8dd0-e97f030c4681_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Upgrade your Azure Cosmos DB Java SDK to the latest version from Maven
 ---

@@ -12,8 +12,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="sqlmanagedinstance-perf-storage-account-limit-hit"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Managed Instance - Storage account limit hit

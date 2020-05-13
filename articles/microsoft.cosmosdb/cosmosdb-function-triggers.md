@@ -9,10 +9,11 @@
 	supportTopicIds="32636793,32688843"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-function-triggers"
 	displayOrder="123"
 	category="Tools and Connectors"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Functions trigger for Cosmos DB

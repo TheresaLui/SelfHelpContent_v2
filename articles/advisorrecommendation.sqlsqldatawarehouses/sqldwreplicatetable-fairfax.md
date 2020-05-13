@@ -6,6 +6,7 @@
     articleId="293984cf-b551-461f-b22d-9659ebd09a4f_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 # Convert tables to replicated tables with SQL Data Warehouse
 ---
@@ -27,18 +28,14 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "sqldwninjas@service.microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "AIMS://AZURESQLDB/DATAWAREHOUSE/ADVISORS",
+      "service": "Azure SQL DB",
+      "team": "Datawarehouse"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "6d302332-f404-4848-9509-b8a6b81510f7"
   },
-  "ingestionClientIdentities": [
-    "b580d7a3-ef03-4330-913e-85a879b27bff",
-    "d75d178b-baf7-43a2-8e98-49ba49ac7b2e"
-  ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/learnmorereplicatedtables",

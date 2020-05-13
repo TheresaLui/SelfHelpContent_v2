@@ -6,6 +6,7 @@
     articleId="c249dc0e-9a17-423e-838a-d72719e8c5dd_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Enable Active-Active gateways for redundancy
 ---

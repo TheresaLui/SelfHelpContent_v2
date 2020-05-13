@@ -10,8 +10,9 @@
 	supportTopicIds="32536405"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="76736774-887b-41c7-97ab-4463cd31a739"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Enable Protection - VMware/Physical to Azure

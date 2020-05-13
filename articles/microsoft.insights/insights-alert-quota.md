@@ -4,28 +4,28 @@
 	infoBubbleText=""
 	service="microsoft.insights"
 	resource="metricalerts"
-	authors="snehithm"
-	ms.author="snmuvva"
+	authors="harelbr"
+	ms.author="harelbr"
 	displayOrder="8"
 	articleId="insights-alert-quota"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629678,32629679,32629680,32629681,32629682, 32629683,32629684"
+	supportTopicIds="32629678,32629682,32629683"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # I want to increase my alerts or action groups quota
 
-Some Alert types and action groups have service limits as described [here](https://docs.microsoft.com/azure/azure-subscription-service-limits#monitor-limits)
+Some alert types and action groups have service limits as described [here](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-monitor-limits).
 
 ## **Recommended Steps**
 
-1. There are no limits on number of Log alerts and activity log alerts
+Provide the following information in the problem details to ensure faster resolution:
 
-2. Provide the following information in the problem details to ensure faster resolution:
-
-    * Subscription Ids for which the quota limits have to be increased. If there are multiple subscriptions you need the limit increased, provide the full list.
-    * Resource type for the quota increase: **Metric Alerts**, **Metric alerts (Classic)** or **Action groups**
-    * To what number quota has to be increased to: For Metric Alerts and Metric Alerts(Classic), the maximum limit is 1000
+    * Subscription Ids for which the quota limits should be increased. If there are multiple subscriptions, provide the full list.
+    * Resource type for the quota increase: **Metric Alerts**, **Metric Alerts (Classic)** or **Action groups**
+    * The requested number of alert rules the quota should be increased
+    

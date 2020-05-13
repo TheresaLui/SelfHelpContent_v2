@@ -5,11 +5,13 @@
   ms.author="rnagpal"
   selfhelptype="SupportTopicDescription"
   productpesids="d9516a10-74b5-45f4-943d-a5281d7cf1bb"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="cosmos-db-supporttopic-description"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="cosmossupportability@microsoft.com" />
+  feedbackemail="cosmossupportability@microsoft.com"
+  ownershipId="AzureData_AzureCosmosDB"
+/>
 # Support Topic Descriptions for d9516a10-74b5-45f4-943d-a5281d7cf1bb
 ---
 {
@@ -40,9 +42,9 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "0d19750d-5b6b-e155-be0e-dd83641b03ea",
+      "id": "f10fee82-842f-5525-a1db-06dc5a2d8fa6",
       "longDescription": "",
-      "shortDescription": "Any other issue with Mongo API",
+      "shortDescription": "Any issue with Mongo API not listed",
       "searchTags": "",
       "category": "MongoDB",
       "useInDiagnoseAndSolve": "true"
@@ -64,7 +66,7 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "176385c1-90a2-f423-3589-084505d0cc57",
+      "id": "d8b9051c-b540-34d6-39e4-89a83ef0d395",
       "longDescription": "",
       "shortDescription": "Any other issue with SDKs",
       "searchTags": "",
@@ -120,9 +122,9 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "20574c51-11c0-e514-5ed0-ceb1b5684789",
+      "id": "ca4248d9-17e1-ab45-81b3-1634e1eb4202",
       "longDescription": "",
-      "shortDescription": "Any other Security issue with Azure Cosmos DB",
+      "shortDescription": "Any Security issue with Azure Cosmos DB not listed",
       "searchTags": "",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
@@ -216,9 +218,9 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "3a3ff0f4-1713-00b4-69ac-1c3c21349bcb",
+      "id": "f05ce96b-e2d9-d08c-8def-83abbe94840c",
       "longDescription": "",
-      "shortDescription": "Any other issue related to Account Administration not covered by the existing topics",
+      "shortDescription": "Any issue related to Account Administration not covered by the existing topics",
       "searchTags": "",
       "category": "Administration",
       "useInDiagnoseAndSolve": "true"
@@ -240,9 +242,9 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "41bc06c8-9fce-9aec-143d-95c138a89c3c",
+      "id": "8c945397-c1d2-bea4-b1c0-16671080bbcc",
       "longDescription": "",
-      "shortDescription": "Any configuration requests related to backup and restore",
+      "shortDescription": "Any configuration requests related to backup and restore not listed",
       "searchTags": "backup, restore",
       "category": "Backup and Restore",
       "useInDiagnoseAndSolve": "true"
@@ -266,7 +268,7 @@
     {
       "id": "49494131-3cd2-225b-d4ac-1826e68c554c",
       "longDescription": "",
-      "shortDescription": "Questions on Cosmos DB certification and compliance",
+      "shortDescription": "Does Cosmos DB meet my organizations security, certification and compliance requirements?",
       "searchTags": "security, certification, compliance",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
@@ -290,7 +292,7 @@
     {
       "id": "4b3bfd7d-7dbe-3eba-1261-6ffb0063ef0e",
       "longDescription": "",
-      "shortDescription": "Issues using Autopilot mode to instantly scale workload on containers and databases",
+      "shortDescription": "Issues using Autoscale mode to instantly scale workload on containers and databases",
       "searchTags": "scaling, throughput, autopilot, autoscale",
       "category": "Throughput",
       "useInDiagnoseAndSolve": "true"
@@ -312,17 +314,17 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "500b1053-052e-715e-7c7f-a8c406de0ad5",
+      "id": "2365fe01-8934-7641-3bb8-2e5209c639ad",
       "longDescription": "",
-      "shortDescription": "Any other throughput or scaling issue",
+      "shortDescription": "Any throughput or scaling issue not listed",
       "searchTags": "",
       "category": "Throughput",
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "501df1e6-59c3-7171-4fd0-b624b0a80a9f",
+      "id": "45897651-c1e4-156b-994b-2db7a9fc1979",
       "longDescription": "",
-      "shortDescription": "Any other issue related to billing and pricing",
+      "shortDescription": "Any issue related to billing and pricing that is not listed",
       "searchTags": "",
       "category": "Billing and Pricing",
       "useInDiagnoseAndSolve": "true"
@@ -448,9 +450,9 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "7ed5f59e-dbb7-3c32-7b1f-13cb05cb9614",
+      "id": "43564fd3-9f8b-9ae9-e225-3949be830689",
       "longDescription": "",
-      "shortDescription": "Any other General advisory question",
+      "shortDescription": "Any other General advisory question not listed",
       "searchTags": "",
       "category": "General Advisory",
       "useInDiagnoseAndSolve": "true"
@@ -480,9 +482,9 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "88540c19-1390-a69d-d119-5f27e7a97a2b",
+      "id": "085ddeed-255d-e905-63c2-797cc68c2f81",
       "longDescription": "",
-      "shortDescription": "Any other issue with Monitoring",
+      "shortDescription": "Any issue with Monitoring not listed",
       "searchTags": "",
       "category": "Monitoring",
       "useInDiagnoseAndSolve": "true"
@@ -504,9 +506,9 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "8edcd2fc-6f4d-26ac-cbc1-9e74d93b233e",
+      "id": "40f4b569-b293-8464-4f20-90f684aa6a0e",
       "longDescription": "",
-      "shortDescription": "Any other issue with SQL API",
+      "shortDescription": "Any issue with SQL API that is not listed",
       "searchTags": "",
       "category": "Core (SQL)",
       "useInDiagnoseAndSolve": "true"
@@ -648,9 +650,9 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "ac183ffd-8c22-709c-8a99-629d75949e68",
+      "id": "3a324c04-5cc9-36a6-49df-11ab63c936bf",
       "longDescription": "",
-      "shortDescription": "Any other issue with Connectors",
+      "shortDescription": "Any issue with Connectors not listed",
       "searchTags": "",
       "category": "Tools and Connectors",
       "useInDiagnoseAndSolve": "true"
@@ -840,9 +842,9 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "e7e00433-2252-eaa5-8a4a-b60a965a290d",
+      "id": "c3faf836-a0df-6e47-8523-a54e1a84637a",
       "longDescription": "",
-      "shortDescription": "Any other issue with Cassandra API",
+      "shortDescription": "Any issue with Cassandra API that is not listed",
       "searchTags": "",
       "category": "Cassandra",
       "useInDiagnoseAndSolve": "true"
@@ -909,6 +911,30 @@
       "shortDescription": "SDK is throwing an error or returning an unexpected result",
       "searchTags": "sdk",
       "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7285b23c-1507-75d7-1a5b-806e650d825d",
+      "longDescription": "",
+      "shortDescription": "Issues with using Azure Private Link via a private endpoint",
+      "searchTags": "private, private link, private endpoint",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "86107512-f8ce-062a-75f7-b3002aa1f50c",
+      "longDescription": "",
+      "shortDescription": "Issues with using Azure Private Link via a private endpoint",
+      "searchTags": "private, private link, private endpoint",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c3a11f26-6f54-639b-6d73-dba9cc3b96e3",
+      "longDescription": "",
+      "shortDescription": "Issues or questions with using Free Tier billing option",
+      "searchTags": "billing, free, free tier",
+      "category": "Billing and Pricing",
       "useInDiagnoseAndSolve": "true"
     }
   ]

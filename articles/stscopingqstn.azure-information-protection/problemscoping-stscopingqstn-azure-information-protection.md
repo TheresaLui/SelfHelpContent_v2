@@ -5,9 +5,10 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32550765, 32550766, 32550767, 32550768, 32550769, 32550770, 32584319, 32584320, 32584321, 32584322, 32584323, 32584324, 32584325, 32584326, 32592926"
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="786e215c-4df4-4f87-9f13-daa49b73b0e4"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 #Important
 

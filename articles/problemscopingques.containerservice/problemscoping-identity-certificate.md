@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32637183"
                 productPesIds="16450"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="problemscoping-identity-certificate"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Certificate related
 ---

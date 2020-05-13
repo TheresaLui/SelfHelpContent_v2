@@ -13,7 +13,8 @@
 	supportTopicIds="32630429"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 # Login failed - Empty username or password
 

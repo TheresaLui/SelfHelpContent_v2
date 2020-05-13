@@ -7,8 +7,9 @@
   selfHelpType="generic"
   supportTopicIds="32570265"
   productPesIds="14785,16575"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="917c651f-21a1-48b8-ba82-ce67330d9b64"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Problems using the application access panel website or mobile application

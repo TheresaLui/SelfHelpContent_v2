@@ -9,8 +9,9 @@
 	resourceTags="notificationHubs"
 	productPesIds=""
 	supportToicIds =""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="2a3eb7c8-72dd-40e5-8fda-0daa332732c4"
+	ownershipId="AzureNotificationHubs"
 />
 
 # Only a few of my devices are receiving notifications.

@@ -6,14 +6,16 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32411819"
                 productPesIds="14749"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0093"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Management
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Manage or use RDS in Azure",
     "fileAttachmentHint": "",
     "formElements": [

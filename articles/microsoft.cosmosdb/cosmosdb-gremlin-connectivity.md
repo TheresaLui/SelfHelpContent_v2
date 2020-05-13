@@ -9,10 +9,11 @@
 	supportTopicIds="32681008"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-gremlin-connectivity"
 	displayOrder="188"
 	category="Gremlin (Graph)"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Connectivity Issues

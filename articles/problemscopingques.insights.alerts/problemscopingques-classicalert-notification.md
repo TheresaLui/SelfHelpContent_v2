@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32629657, 32629663, 32629669"
 	productPesIds="15454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 # Issues with classic alert notifications
 ---

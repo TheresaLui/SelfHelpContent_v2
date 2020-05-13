@@ -10,8 +10,9 @@
 	supportTopicIds="32677719"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="d8f2f045-4bca-4c2a-b8cd-f2da8370f144"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Source Control Integration

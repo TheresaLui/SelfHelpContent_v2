@@ -9,8 +9,9 @@
 	supportTopicIds="32599628"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="2cd84cab-926d-447a-9ec7-21217c7cf7e5"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Set device compliance - Create Windows Policy

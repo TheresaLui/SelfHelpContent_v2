@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="apps_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="4ec40f5a-2fa8-462a-bbf7-ad1296c291fa"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Users receive various prompts when they attempt to install VPP apps.
