@@ -235,7 +235,7 @@
             "required": false
         },
         {
-            "id": "machinetype",
+            "id": "Advisor_recommendation",
             "order": 13,
             "controlType": "dropdown",
             "displayLabel": "From which type of machine are you trying to RDP into?",
@@ -260,7 +260,11 @@
                 {
                     "value": "Other",
                     "text": "Other"
-                }
+                },
+                   {
+                    "value": "Other, don't know or not applicable",
+                    "text": "dont_know_answer"
+                },
             ],
             "required": true
         },
