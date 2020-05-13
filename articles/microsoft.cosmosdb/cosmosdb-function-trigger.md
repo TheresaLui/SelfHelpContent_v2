@@ -36,7 +36,7 @@ This section is relative to using the [Azure Functions trigger for Cosmos DB](ht
 
 **Important:** Always make sure you are running the latest version of the [Azure Cosmos DB Extension package for Functions](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies)  
 
-#### **Function not receiving any or partial set of changes**  
+### **Function not receiving any or partial set of changes**  
 
 **Availability**
 <br>The Azure Functions trigger for Cosmos DB currently reads the Change Feed through the *Core (SQL) API*, that means that Mongo, Cassandra, and Table accounts are not yet supported.  
@@ -52,7 +52,7 @@ This section is relative to using the [Azure Functions trigger for Cosmos DB](ht
 * If you want multiple Triggers to work independently, listening for changes in the same Monitored Collection, and also share the same Lease Collection for cost optimizations, you need to [configure them with different Prefixes](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs)
 * If you are unsure or don't know about extra Azure Functions running but you know how many Azure Function App instances you have running, you can inspect your Lease Collection and count the number of lease documents within, the distinct values of the *Owner* property in them should be equal to the number of instances of your Function App. If there are more Owners than the known Azure Function App instances, it means that these extra owners are the one "stealing" the changes. In that case, you can mitigate the situation by [configuring a different Prefix](https://docs.microsoft.com/azure/cosmos-db/how-to-configure-cosmos-db-trigger-logs)  
 
-#### **Delay in receiving changes**
+### **Delay in receiving changes**
 The rate at which the changes are delivered to your Function depends greatly on the speed at which your Function processes each batch. If the rate at which the changes are happening in the Monitored Collection is greater than the rate at which your Function processes them, there will be an increasing lag.  
 
 1. Is your Azure Function deployed in the same region as your Azure Cosmos account? For optimal network latency, both the Azure Function and your Azure Cosmos account should be colocated in the same Azure region.
@@ -64,25 +64,25 @@ The rate at which the changes are delivered to your Function depends greatly on 
 ### **PartitionKey must be supplied for this operation***
 This error means that you are currently using a partitioned lease collection with an old extension dependency. To solve this issue you need to update to the latest [extension dependency version](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-changefeed-functions#dependencies). If you are running on Azure Functions V1 (using the `Microsoft.Azure.WebJobs.Extensions.DocumentDB` package), **you need to migrate to Azure Functions V2 or greater** and use `Microsoft.Azure.WebJobs.Extensions.CosmosDB` instead.
 
-#### **What happens on a Function restart?**
+### **What happens on a Function restart?**
 The Azure Cosmos DB trigger uses the lease collection to store the state and the latest processed point in time on the Change Feed. If your Function restarts or you manually stop it and start it at a later time, it will continue from the saved point in time and pick up the changes that happened after. Based on the behavior of the [Change Feed](https://docs.microsoft.com/azure/cosmos-db/change-feed), only the latest version of a document (in case a document received multiple changes) will be read.
 
 ### **Using the Azure Cosmos DB SDK in Azure Functions**
 This section refers to using the Cosmos DB SDK to perform operations in the context of an Azure Function. 
 
-#### **Functions Host restart**  
+### **Functions Host restart**  
 [Azure Functions Host has limits](https://docs.microsoft.com/azure/azure-functions/functions-scale#service-limits) regarding the number of connections, memory utilization, and execution timeout.
 <br>If the Host is restarting it could be related to a violation of one of these limits.
 <br>In the case of the Cosmos DB SDK the most common cause is not using the client as a **singleton** instance. Valid options are:
 1. Use a [static client](https://docs.microsoft.com/azure/azure-functions/manage-connections#static-clients) instance.
 1. Leverage [Dependency Injection on Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-dotnet-dependency-injection) to initialize and reuse the same client instance.
 
-#### **401 - UnauthorizedException**
+### **401 - UnauthorizedException**
 This error is often related to using an invalid authorization key or credential. 
 1. Verify that the Key being used is valid. If you are reading the Key or Connection String from an external source, like Azure Key Vault, verify the information there is up to date.
 1. If there was a recent key rotation on the account, ensure you went with the [recommended procedure](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data#key-rotation). When using any old or new key there is a window of time where the key might not be valid.
 
-#### **Other issues**
+### **Other issues**
 For any other issues, see the **SDK (SQL API) Issues - Error or unexpected result** problem type. Azure Functions is mainly the execution environment and there is a possibility of the issue being a generic SDK issue covered in the general troubleshooting.
 
 ## **Recommended Documents**
