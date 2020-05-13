@@ -23,4 +23,4 @@ The Business profile insights page in Partner Center lets you see how well you'r
 
 ## **Recommended Documents**
 
-* [Business profile insights and Profile performance summary](https://docs.microsoft.com/partner-centeranalyze-your-marketing-profile)
+* [Analyze your business profile](https://docs.microsoft.com/partner-center/analyze-your-marketing-profile)
