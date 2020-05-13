@@ -37,7 +37,7 @@
             "displayLabel": "Description of any recent changes to Network Security Group rules at the VNET / Subnet level",
             "useAsAdditionalDetails": true,
             "watermarkText": "Description",
-            "required": false
+            "required": true
         },
         {
             "id": "Error_Message",
