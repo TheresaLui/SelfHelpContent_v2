@@ -36,19 +36,19 @@ ownershipId="CloudNet_NVA"
     },
     "version": 1.0,
     "learnMoreLink": "https://docs.microsoft.com/azure/virtual-network/create-vm-accelerated-networking-cli#enable-accelerated-networking-on-existing-vms",
-    "description": "Barracuda Networks NextGen Firewall may experience reduced network throughput and high latency",
-    "longDescription": "We have identified that your Virtual Machine might be running a version of Barracuda Networks NextGen Firewall Image that is known to experience low network throughput and high latency. It is recommended that you upgrade to a newer version of the image that addresses this issue and enable Accelerated Networking. Please contact Barracuda Networks for further instructions on how to upgrade your Network Virtual Appliance Image.",
-    "potentialBenefits": "Improves network throughput while reducing latency and jitter",
+    "description": "Barracuda Networks NextGen Firewall may experience high CPU utilization, reduced throughput and high latency.",
+    "longDescription": "We have identified that your Virtual Machine might be running a version of Barracuda Networks NextGen Firewall Image that is running older drivers for Accelerated Networking, which may cause the product to revert to using the standard, synthetic network interface which does not use Accelerated Networking. It is recommended that you upgrade to a newer version of the image that addresses this issue and enable Accelerated Networking. Please contact Barracuda Networks for further instructions on how to upgrade your Network Virtual Appliance Image.",
+    "potentialBenefits": "You will not experience an unexpected degradation in network performance.",
     "actions": [
         {
             "actionId": "03b097a3-eede-4dd3-a69a-573f9eabb760",
-            "description": "Contact Barracuda Networks support to upgrade NextGen Firewall image version",
+            "description": "Contact Barracuda Networks support to upgrade NextGen Firewall image to 8.0.0047504 version or later which support newer drivers.",
             "actionType": "Document",
             "documentLink": "https://www.barracuda.com/support"
         }
     ],
     "displayLabel": "Accelerated Networking Recommendation for Barracuda Networks NextGen Firewall",
-    "tip": "Upgrade Barracuda Networks NextGen Firewall image version to improve network throughput while reducing latency and jitter.",
+    "tip": "Upgrade Barracuda Networks NextGen Firewall image version to eliminate any unexpected degradation in network performance.",
     "testData":"0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/np-g-7e297f3b-7394-438e-b79c-e92e49cd62be/providers/Microsoft.Compute/virtualMachines/c-ubuntu-management"
 }
 ---
