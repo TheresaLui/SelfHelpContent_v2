@@ -55,29 +55,18 @@
 			"infoBalloonText": "string",
 			"displayLabel": ""Which Recommendation",
 			"watermarkText": "Choose an option",
-			"dropdownOptions": 
-            [{
-                    "value": "High Availability",
-                    "text": "High Availability"
-                },
-                {
-                    "value": "Performance",
-                    "text": "Performance"
-                },
-				{
-                    "value": "Operational Excellence",
-                    "text": "Operational Excellence"
-                },
-				{
-                    "value": "Cost",
-                    "text": "Cost"
-                },
-				{
-                    "value": "Other",
-                    "text": "Other"
-                }
+						"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}, {
+					"value": "dont_know_answer",
+					"text": "Don't Know"
+				}
 			],
-			"required": true
+"required": false
 		} 
 	]
 }
