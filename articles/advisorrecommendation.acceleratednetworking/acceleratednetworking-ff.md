@@ -13,7 +13,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "9ce840f8-35b2-441d-bf3f-33084c3c4cc7",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster ('https://aznwff.kusto.usgovcloudapi.net').database('aznwcosmos').AzureAdvisorForANcapableVMs_FF",
+    "streamNamespace": "cluster('https://aznwff.kusto.usgovcloudapi.net').database('aznwcosmos').AzureAdvisorForANcapableVMs_FF",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
