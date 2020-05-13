@@ -86,12 +86,12 @@
             ],
             "required": true
         },
-		{ 
-		    "id": "Activity_id", 
-            "order": 6, 
-			"controlType": "textbox", 
-			"displayLabel": "Please provide the the ActivityID of the operation. (you can find it at the bottom of the error message dispalyed on the portal)", 
-			"required": false 
+		{
+			"id": "Activity_id",
+            "order": 6,
+			"controlType": "textbox",
+			"displayLabel": "Please provide the the ActivityID of the operation. (you can find it at the bottom of the error message dispalyed on the portal)",
+			"required": false
 		},
         {
             "id": "problem_start_time",

@@ -14,10 +14,10 @@
 ---
 {
 	"$schema": "SelfHelpContent",
-	"resourceRequired": true, 
+	"resourceRequired": true,
 	"subscriptionRequired": true,
 	"title": "Azure mapping Data Flow issue info",
-	"fileAttachmentHint": "Consider attaching screen shots or pipeline json files to help us triage your problem faster", 
+	"fileAttachmentHint": "Consider attaching screen shots or pipeline json files to help us triage your problem faster",
 	"formElements": [
 		{
 			"id": "problem_description",
@@ -47,7 +47,7 @@
 			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "Is this a run time issue? If yes, please provide the Activity RunIDs. (separate with commas)",
-			"required": false 
+			"required": false
 		},
 		{
 			"id": "problem_session_id",
