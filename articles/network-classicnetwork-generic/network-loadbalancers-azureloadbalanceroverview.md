@@ -1,10 +1,9 @@
 <properties
-	pageTitle="Advisory"
-	description="Advisory"
+	pageTitle="advisory"
+	description="advisory"
 	service="microsoft.network"
 	resource="loadbalancers"
-	authors="anavinahar"
-    	ms.author="anavin"
+	authors="radwiv"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32546090"
@@ -15,14 +14,8 @@
 	ownershipId="CloudNet_LoadBalancer"
 />
 
-# Advisory
+# advisory
 
-## **Recommended Documents**
-
-- [Azure Load Balancer overview](https://azure.microsoft.com/documentation/articles/load-balancer-overview/)<br>
-- [Azure Load Balancer FAQs](https://docs.microsoft.com/azure/load-balancer/load-balancer-faqs)<br>
-- [Load Balancer components](https://docs.microsoft.com/azure/load-balancer/components)<br>
-- [Load Balancer concepts](https://docs.microsoft.com/azure/load-balancer/concepts)<br>
-- [Load Balancer SKU comparison](https://docs.microsoft.com/azure/load-balancer/skus)<br>
-- [Troubleshoot Azure Load Balancer common scenarios](https://docs.microsoft.com/azure/load-balancer/load-balancer-troubleshoot)<br>
-- [Troubleshoot common Load Balancer errors](https://docs.microsoft.com/azure/load-balancer/load-balancer-common-deployment-errors)
+## **Recommended documents**
+[Azure Load Balancer overview](https://azure.microsoft.com/documentation/articles/load-balancer-overview/)<br>
+[Azure Load Balancer Standard overview](https://docs.microsoft.com/azure/load-balancer/load-balancer-standard-overview)
