@@ -26,7 +26,7 @@
       "controlType": "textbox",
       "displayLabel": "Specific value of the payment amount",
       "watermarkText": "Payment amount",
-	  "required": false
+      "required": false
        },
        {
             "id": "payment_currency",
@@ -68,7 +68,7 @@
             "required": false
         },
        {
-            "id": "probl_description",
+            "id": "problem_description",
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
@@ -82,7 +82,7 @@
             "controltype": "datetimepicker",
             "displayLabel": "When did this issue start?",
             "required": true
-        }		
+        }
     ],
     "$schema": "SelfHelpContent"
 }
