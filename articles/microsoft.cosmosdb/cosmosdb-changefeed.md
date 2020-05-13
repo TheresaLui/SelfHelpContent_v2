@@ -22,7 +22,7 @@ Change feed support in Azure Cosmos DB works by listening to an Azure Cosmos DB 
 
 ## **Recommended Steps**
 
-### **Change feed processor versions***
+### **Change feed processor versions**
 
 * The V2 .NET change feed processor is available on [Nuget](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.ChangeFeedProcessor/) and the source code on [GitHub](https://github.com/Azure/azure-documentdb-changefeedprocessor-dotnet/).
 * The newer V3 .NET change feed processor is part of the .NET V3 SDK and included in the [SDK Nuget](https://www.nuget.org/packages/Microsoft.Azure.Cosmos) and the source code is also on [GitHub](https://github.com/Azure/azure-cosmos-dotnet-v3).
@@ -61,7 +61,7 @@ The change feed processor creates one lease document in the lease container per 
 
 If the amount of instances is greater than the amount of lease documents (greater than the amount of physical partitions) those extra instances will remain idle. This means that the current implementation's degree of parallelism is limited by the number of physical partitions.
 
-### **The changes are not detected quickly enough***
+### **The changes are not detected quickly enough**
 
 The normal life cycle of a host instance is:
 
