@@ -24,8 +24,7 @@
 	"title": "Azure Advisor recommendations",
 	"fileAttachmentHint": "",
 	"formElements": 
-    [
-        {
+    [{
 			"id": "problem_start_time",
 			"order": 1,
 			"controlType": "datetimepicker",
@@ -41,8 +40,7 @@
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": 
-            [
-                {
+            [{
 					"text": "Issue description."
 				}, 
                 {
@@ -58,8 +56,7 @@
 			"displayLabel": ""Which Recommendation",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": 
-            [
-                {
+            [{
                     "value": "High Availability",
                     "text": "High Availability"
                 },
