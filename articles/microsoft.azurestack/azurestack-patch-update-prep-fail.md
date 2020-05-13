@@ -21,17 +21,16 @@ When attempting to install the Azure Stack update, the status for the update mig
 
 <!--- Nick Meader said Peter was considering adding a progress indicator to help customers who are simply waiting for a long-running update to complete. Ning to follow up on status of that work - may be worth mentioning here when available.--->
 
+
 ## **Recommended Steps**
 
 1. This may be caused by the Update Resource Provider (URP) not properly transferring the files from the storage container to an internal infrastructure share for processing:
 
    Work around this issue by clicking **Update now** again (not **Resume**). The URP then cleans up the files from the previous attempt and restarts the download.
 
-   If the problem persists, manually upload the update package by following the [Install updates](https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#install-updates-and-monitor-progress) section.
+   If the problem persists, [manually upload the update package](https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#install-updates-and-monitor-progress).
 
-2. For internet-connected systems this is usually indicative of the update package being unable to download properly due to a weak internet connection:
-
-   Work around this issue by clicking **Install now** again. If the problem persists, manually upload the update package by following the [Install updates](https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#install-updates-and-monitor-progress) section.
+2. On a weak internet connection, it can also be quicker to [manually upload the package](https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#install-updates-and-monitor-progress).
 
 ## **Recommended Documents**
 
