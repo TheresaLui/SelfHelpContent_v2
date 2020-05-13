@@ -65,25 +65,6 @@
             "required": false
         },
         {
-            "id": "connect_wasoncloud",
-            "order": 11,
-            "visibility": "connect_from == On premise",
-            "controlType": "dropdown",
-            "displayLabel": "Was the machine prepared to work on a cloud environment prior the migration?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
-            "required": false
-        },
-        {
             "id": "Advisor_recommendation",
             "order": 13,
             "controlType": "dropdown",
