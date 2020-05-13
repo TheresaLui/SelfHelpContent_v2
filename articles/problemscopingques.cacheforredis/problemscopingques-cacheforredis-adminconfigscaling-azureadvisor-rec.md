@@ -34,7 +34,7 @@
         },
         {
             "id": "bastionbrowser",
-            "order": 3,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "What browser are you using?",
             "useAsAdditionalDetails": false,
@@ -42,7 +42,7 @@
         },
         {
             "id": "bastionbrowserversion",
-            "order": 4,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "What version is your browser?",
             "useAsAdditionalDetails": false,
@@ -50,7 +50,7 @@
         },
         {
             "id": "bastionbrowseros",
-            "order": 5,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "What OS is your browser running in?",
             "useAsAdditionalDetails": false,
@@ -58,7 +58,7 @@
         },
         {
             "id": "name_useraccount",
-            "order": 7,
+            "order": 5,
             "visibility": "isadmin == No || isadmin == I do not know",
             "controlType": "textbox",
             "displayLabel": "What is the name of the user account trying to login?",
@@ -66,7 +66,7 @@
         },
         {
             "id": "Advisor_recommendation",
-            "order": 13,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "From which type of machine are you trying to RDP into?",
             "watermarkText": "Choose an option",
@@ -96,7 +96,7 @@
                     "text": "dont_know_answer"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
