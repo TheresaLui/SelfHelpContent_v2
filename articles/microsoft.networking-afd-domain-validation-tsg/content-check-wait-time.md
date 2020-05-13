@@ -18,7 +18,7 @@
 #  Check how long the request has been pending
 
 1. Customer should wait for at least 8 hours before backend system can complete the procedure for Domain Validation and Certificate procuring. 
-2. If the request has been pending less than 8 hours, then please advise the customer accordingly and return to thie TSG after 8 hours has passed. 
+2. If the request has been pending less than 8 hours, then please advise the customer accordingly and return to the TSG after 8 hours has passed. 
 
 ## Recommended Documents
 

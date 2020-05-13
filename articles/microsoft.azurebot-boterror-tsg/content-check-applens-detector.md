@@ -17,4 +17,4 @@
 
 # 
 
-1. Use Applens detector – Bot P95 Latency (in ms) to see if the Bot is slow to respond
+1. Use App Lens Detector – Bot P95 Latency (in ms) to see if the Bot is slow to respond

@@ -15,6 +15,6 @@
    ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# Check if HTTP 502 or HTTP Gateway Timeouts are occuring
+# Check if HTTP 502 or HTTP Gateway Timeouts are occurring
 
-1. You can run ASC Insights or use Applens Explorer to see what error is the customer seeing
+1. You can run ASC Insights or use App Lens Explorer to see what error is the customer seeing

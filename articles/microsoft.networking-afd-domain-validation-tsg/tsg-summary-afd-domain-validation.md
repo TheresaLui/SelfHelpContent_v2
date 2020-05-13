@@ -1,6 +1,6 @@
 ﻿<properties
-	pageTitle="TSG Summary: AFD - Custom Domain HTTPS Enablement"
-	description="TSG Summary: AFD - Custom Domain HTTPS Enablement"
+	pageTitle="TSG Summary: Azure Front Door - Custom Domain HTTPS Enablement"
+	description="TSG Summary: Azure Front Door - Custom Domain HTTPS Enablement"
 	service="Microsoft.Network/"
 	resource="Microsoft.Network/frontDoors"
 	authors="JRMayberry"
@@ -15,6 +15,6 @@
 	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# AFD - Custom Domain HTTPS Enablement
+# Azure Front Door - Custom Domain HTTPS Enablement
 
- This self-guided  troubleshooter will guide you to mitigate and  find the root cause for customers experiencing delays during HTTPS enablement process  while using Azure provided certificate for AFD custom domain
+ This self-guided troubleshooter will guide you to mitigate and  find the root cause for customers experiencing delays during HTTPS enablement process while using Azure provided certificate for AFD custom domain

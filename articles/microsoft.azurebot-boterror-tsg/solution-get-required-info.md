@@ -21,9 +21,9 @@ Dear Customer,<br>
 Please provide us answers for the below questions:<br><br>
 1. When did the problem start?<br>
 2. What is the HTTP error code?<br>
-3. Which channel(s) are you seeing the issue?<br>
+3. Which channels are you seeing the issue?<br>
 4. What version of SDK is the bot running on?<br>
 5. What language of SDK is being used?<br>
-6. Is the issue reproducible at will or occuring all the time?<br>
+6. Is the issue reproducible at will or occurring all the time?<br>
 7. How was the bot created?<br>
 <!--/issueDescription-->
