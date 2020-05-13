@@ -31,7 +31,7 @@
         },
 	{
             "id": "invoice_number",
-            "order": 1,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Please provide the invoice number.",
             "watermarkText": "Invoice number",
@@ -39,7 +39,7 @@
         },
 	{
             "id": "pc_iseligible",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Have you reviewed the eligibility criteria in the recommended steps and verified that you should be eligible for partner earned credit for your Azure subscriptions?",
             "dropdownOptions": [
@@ -56,7 +56,7 @@
              },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -65,7 +65,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",
