@@ -27,15 +27,15 @@
     "formElements": [
         {
             "id": "Storage_Account",
-            "order": 1,
+            "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Storage_Account",
+            "displayLabel": "Storage Account",
             "watermarkText": "Storage_Account",
             "required": true
         },
         {
             "id": "Error_Message",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Error Message",
             "watermarkText": "Error Message",
@@ -43,7 +43,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
