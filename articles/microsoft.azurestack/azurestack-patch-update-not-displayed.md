@@ -26,7 +26,7 @@ Update notification varies by the type of connection to the internet and the typ
 
 ## **Recommended Steps**
 
-* [How can I tell if an update is available?](https://docs.microsoft.com/azure-stack/operator/azure-stack-updates#where-to-get-notice-of-an-update)<br>
+* [How to know an update is available](https://docs.microsoft.com/azure-stack/operator/azure-stack-updates#how-to-know-an-update-is-available)<br>
 * [Prepare an Azure Stack update package](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-prepare-package)
 
 ## **Recommended Documents**
