@@ -55,7 +55,7 @@
         {
             "id": "mailing_address",
             "order": 5,
-            "controlType": "textbox"
+            "controlType": "textbox",
             "displayLabe": "Please provide Partner's mailing address",
             "watermarkText": "Complete address, City, ZIP code and Country",
             "required": false
@@ -63,7 +63,7 @@
         {
             "id": "order_number",
             "order": 6,
-            "controlType": "textbox"
+            "controlType": "textbox",
             "displayLabe": "Please provide Order Number/MPNID",
             "watermarkText": "Order Number/MPNID",
             "required": false
