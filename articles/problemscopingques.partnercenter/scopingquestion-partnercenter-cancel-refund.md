@@ -57,7 +57,7 @@
             "order": 5,
             "controlType": "textbox"
             "displayLabe": "Please provide Partner's mailing address"
-            "watermarkText": "Complete address, City, ZIP Code and Country",
+            "watermarkText": "Complete address, City, ZIP code and Country",
             "required": false
         },
         {
