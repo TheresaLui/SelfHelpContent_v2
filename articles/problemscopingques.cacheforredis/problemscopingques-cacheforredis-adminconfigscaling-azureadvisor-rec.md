@@ -57,14 +57,6 @@
             "required": false
         },
         {
-            "id": "name_useraccount",
-            "order": 5,
-            "visibility": "isadmin == No || isadmin == I do not know",
-            "controlType": "textbox",
-            "displayLabel": "What is the name of the user account trying to login?",
-            "required": false
-        },
-        {
             "id": "Advisor_recommendation",
             "order": 6,
             "controlType": "dropdown",
