@@ -19,18 +19,16 @@
 
 ## **Recommended Documents**
 
-Most of the customers resolved the questions about diagnostic settings and logs using the following documents.
-
-*	[Create diagnostic settings in Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings#create-diagnostic-settings-in-azure-portal)<br>
-*	[Create diagnostic settings using PowerShell](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings#create-diagnostic-settings-using-powershell)<br>
-*	[Create diagnostic settings using Azure CLI](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings#create-diagnostic-settings-using-azure-cli)<br>
-*  [Consuming diagnostics logs from a Log Analytics workspace](https://docs.microsoft.com/azure/cdn/cdn-azure-diagnostic-logs#consuming-diagnostics-logs-from-a-log-analytics-workspace)<br>
-
+* [Create diagnostic settings in Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings#create-diagnostic-settings-in-azure-portal)<br>
+* [Create diagnostic settings using PowerShell](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings#create-diagnostic-settings-using-powershell)<br>
+* [Create diagnostic settings using Azure CLI](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings#create-diagnostic-settings-using-azure-cli)<br>
+* [Consuming diagnostics logs from a Log Analytics workspace](https://docs.microsoft.com/azure/cdn/cdn-azure-diagnostic-logs#consuming-diagnostics-logs-from-a-log-analytics-workspace)<br>
 
 ### **Note** 
+
 Azure Data Lake Storage Gen2 accounts are not currently supported as a destination for diagnostic settings even though they may be listed as a valid option in the Azure portal.
 
-Following documents has additional information related to this issue.
+Following documents has additional information related to this issue: 
 
-*  Refer to [prerequisites](https://docs.microsoft.com/azure/azure-monitor/platform/resource-logs-collect-storage#prerequisites) document for more information.
-* Refer to  [destinations](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings#destinations) for sending data to different destinations.
+*  Refer to [prerequisites](https://docs.microsoft.com/azure/azure-monitor/platform/resource-logs-collect-storage#prerequisites) document for more information
+* Refer to  [destinations](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings#destinations) for sending data to different destinations
