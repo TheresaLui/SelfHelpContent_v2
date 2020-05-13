@@ -33,25 +33,6 @@
             "useAsAdditionalDetails": false
         },
         {
-            "id": "bastionresource",
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Please select your Azure Bastion resource",
-            "watermarkText": "Choose a resource",
-            "required": false,
-            "dynamicDropdownOptions": {
-                    "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Network/bastionHosts?api-version=2019-04-01",
-                    "jTokenPath": "value",
-                    "textProperty": "name",
-                    "valueProperty": "id",
-                    "textPropertyRegex": "[^/]+$",
-                    "defaultDropdownOptions": {
-                        "value": "dont_know_answer",
-                        "text": "Other, don't know or not applicable"
-                    }
-            }
-        },
-        {
             "id": "bastionbrowser",
             "order": 3,
             "controlType": "textbox",
@@ -76,109 +57,11 @@
             "required": false
         },
         {
-            "id": "isadmin",
-            "order": 6,
-            "controlType": "dropdown",
-            "displayLabel": "Is this the built-in administrator account?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "I do not know",
-                    "text": "I do not know"
-                }
-            ],
-            "required": false
-        },
-        {
             "id": "name_useraccount",
             "order": 7,
             "visibility": "isadmin == No || isadmin == I do not know",
             "controlType": "textbox",
             "displayLabel": "What is the name of the user account trying to login?",
-            "required": false
-        },
-        {
-            "id": "connect_ifnew",
-            "order": 8,
-            "controlType": "dropdown",
-            "displayLabel": "Is this VM new to Azure?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "I do not know",
-                    "text": "I do not know"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "connect_from",
-            "order": 9,
-            "visibility": "connect_ifnew == Yes",
-            "controlType": "dropdown",
-            "displayLabel": "Where is the VM from?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "On premise",
-                    "text": "On premise"
-                },
-                {
-                    "value": "From ASM to ARM",
-                    "text": "From ASM to ARM"
-                },
-                {
-                    "value": "From another cloud provider",
-                    "text": "From another cloud provider"
-                },
-                {
-                        "value": "Azure Marketplace",
-                        "text": "Azure Marketplace"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "connect_howmigrated",
-            "order": 10,
-            "visibility": "connect_from == On premise || connect_from == From another cloud provider",
-            "controlType": "dropdown",
-            "displayLabel": "How was this machine migrated?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "I used Azure Site Recovery",
-                    "text": "I used Azure Site Recovery"
-                },
-                {
-                    "value": "I used a third-party migration tool",
-                    "text": "I used a third-party migration tool"
-                },
-                {
-                    "value": "I uploaded the disk manually",
-                    "text": "I uploaded the disk manually"
-                },
-                {
-                    "value": "I used Azure Migrate",
-                    "text": "I used Azure Migrate"
-                }
-            ],
             "required": false
         },
         {
@@ -196,40 +79,6 @@
                 {
                     "value": "No",
                     "text": "No"
-                }
-            ],
-            "required": false
-        },
-        {
-            "id": "connect_config",
-            "order": 12,
-            "controlType": "dropdown",
-            "displayLabel": "Please specify your configuration change prior to the issue starting",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "I've changed my VM size",
-                    "text": "I've changed my VM size"
-                },
-                {
-                    "value": "I've made a disk change (attach, detach, resize)",
-                    "text": "I've made a disk change (attach, detach, resize)"
-                },
-                {
-                    "value": "I've modified network parameters on my VM (DNS, Ips, routing tables, etc)",
-                    "text": "I've modified network parameters on my VM (DNS, Ips, routing tables, etc)"
-                },
-                {
-                    "value": "I've changed my firewall configuration",
-                    "text": "I've changed my firewall configuration"
-                },
-                {
-                    "value": "I've installed a 3rd party app (Antivirus, firewall, VPN client, etc)",
-                    "text": "I've installed a 3rd party app (Antivirus, firewall, VPN client, etc)"
-                },
-                {
-                    "value": "Other",
-                    "text": "Other"
                 }
             ],
             "required": false
