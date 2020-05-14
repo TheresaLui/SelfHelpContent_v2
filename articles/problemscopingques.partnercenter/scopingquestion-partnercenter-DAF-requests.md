@@ -1,8 +1,8 @@
-"<properties
-	pageTitle=""Partner Center DAF Requests"
+<properties
+	pageTitle="Partner Center DAF Requests"
 	description="Partner Center DAF Requests"
 	authors="felicefan" 
-	ms.author="felicefan"
+	ms.author="v-felice"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32739481,32739917"
 	productPesIds="17003,15960"
@@ -13,7 +13,7 @@
 	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Partner Center DAF Requests
----"
+---
 {
   "resourceRequired": true,
   "subscriptionRequired": true,
