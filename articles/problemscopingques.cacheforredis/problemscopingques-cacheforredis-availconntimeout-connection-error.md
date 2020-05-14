@@ -26,7 +26,7 @@
     "formElements": [
         {
             "id": "Client_Version",
-            "order": 3,
+            "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Version of Client Library",
             "watermarkText": "Choose an option",
@@ -56,7 +56,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 1,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": false
