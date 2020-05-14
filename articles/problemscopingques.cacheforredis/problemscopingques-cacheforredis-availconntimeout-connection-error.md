@@ -21,14 +21,14 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Failure to connect to the VM using Azure Bastion",
+    "title": "Connection Error",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "Client_Version",
             "order": 3,
-            "controlType": "radiobuttongroup",
-            "displayLabel": "CVersion of Client Library",
+            "controlType": "dropdown",
+            "displayLabel": "Version of Client Library",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
