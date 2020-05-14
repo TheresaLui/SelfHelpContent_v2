@@ -8,7 +8,7 @@
 	productPesIds="17003,15960"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="scopingquestion_partnercenter_DAF_Requests"
+	articleId="scopingquestion_partnercenter_DAF_requests"
 	clientIds="partnercenter"
 	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
