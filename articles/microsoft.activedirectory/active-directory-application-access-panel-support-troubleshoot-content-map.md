@@ -41,3 +41,15 @@ The following documents can help you to resolve some of the most common issues i
 
   * [I don't know how to use self-service application access](https://docs.microsoft.com/azure/active-directory/application-access-panel-self-service-applications-how-to/?WT.mc_id=UI_AAD_Enterprise_Apps_Support_L2_Overview)
   * [I encountered a problem when using self-service application access](https://docs.microsoft.com/azure/active-directory/application-access-panel-self-service-applications-problem/?WT.mc_id=UI_AAD_Enterprise_Apps_Support_L2_Overview)
+  
+<br>
+
+## **Recommended Documents**
+  
+If you're having problems deploying or using the My Apps portal:
+* [Create collections on the My Apps portal](https://docs.microsoft.com/azure/active-directory/manage-apps/access-panel-collections)
+* [Configure self-service app assignment](https://docs.microsoft.com/azure/active-directory/manage-apps/manage-self-service-access)
+* [Troubleshoot end user problems in the My Apps portal](https://docs.microsoft.com/azure/active-directory/user-help/my-apps-portal-end-user-troubleshoot)
+* [My Apps Overview](https://www.youtube.com/watch?v=uB-JjuaV_qM&t)
+* [My Apps Deployment](https://www.youtube.com/watch?v=atj6Ivn5m0k)
+* [My Apps Collections](https://www.youtube.com/watch?v=KshHHzUXDI0)	
