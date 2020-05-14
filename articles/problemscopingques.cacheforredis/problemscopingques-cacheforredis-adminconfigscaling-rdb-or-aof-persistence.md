@@ -1,21 +1,21 @@
 <properties
-	pageTitle="Patch Scheduling"
-	description="Patch Scheduling"
+	pageTitle="RDB or AOF persistence"
+	description="RDB or AOF persistence"
 	service="microsoft.cache"
 	resource="redis"
 	authors="johnnygetHub"
 	ms.author="johnnyc"
 	displayOrder=""
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32690916"
+	supportTopicIds="32690917"
 	resourceTags=""
 	productPesIds="14783"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
     schemaVersion="1"
-	articleId="a4ba9baa-9943-4a5b-a88a-638196c3cdc1"
+	articleId="173946b2-6bbd-4ab8-8271-2d722b699f27"
 	ownershipId="RedisCache_RedisCache"
 />
-# Patch Scheduling
+# RDB or AOF persistence
 ---
 {
     "subscriptionRequired": true,
@@ -40,11 +40,11 @@
             "required": true
         },
         {
-            "id": "Patch_Scheduling",
+            "id": "FDBorAOF_Persistance",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Patch Scheduling Error Message",
-            "watermarkText": "Error Message",
+            "displayLabel": "RDB or AOF persistence Error Message",
+            "watermarkText": Error Message",
             "required": false
         }
     ],
