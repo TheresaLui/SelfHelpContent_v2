@@ -46,7 +46,7 @@
             "displayLabel": "Metric Name",
             "watermarkText": "Metric Name",
             "required": true
-        }
+        },
         {
             "id": "Error_Message",
             "order": 4,
