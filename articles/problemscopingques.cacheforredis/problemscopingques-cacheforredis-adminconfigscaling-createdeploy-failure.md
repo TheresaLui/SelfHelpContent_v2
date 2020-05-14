@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Create or Deployment failure"
-	description="Create or Deployment failure"
+	pageTitle="Azure Cache for Redis - Create or Deployment failure"
+	description="Azure Cache for Redis - Create or Deployment failure"
 	service="microsoft.cache"
 	resource="redis"
 	authors="johnnygetHub"
@@ -15,7 +15,7 @@
 	articleId="f83f037d-6b0d-4b73-968e-e037d3c0bdf5"
 	ownershipId="RedisCache_RedisCache"
 />
-# Create or Deployment failure
+# Administration, Configuration and Scaling - Create or Deployment failure
 ---
 {
     "subscriptionRequired": true,
@@ -25,7 +25,7 @@
     "formElements": [
         {
             "id": "Azure_Region",
-            "order": 1,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Azure Region",
             "watermarkText": "Azure Region",
@@ -33,7 +33,7 @@
         },
         {
             "id": "Error_Message",
-            "order": 2,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Error Message",
             "watermarkText": "Error Message",
@@ -41,16 +41,17 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
+            "watermarkText": "Problem Description",
             "useAsAdditionalDetails": true,
             "required": true
         }

@@ -1,6 +1,6 @@
 <properties
-	pageTitle="TLS Version"
-	description="TLS Version"
+	pageTitle="Azure Cache for Redis - TLS Version"
+	description="Azure Cache for Redis - TLS Version"
 	service="microsoft.cache"
 	resource="redis"
 	authors="johnnygetHub"
@@ -15,12 +15,12 @@
 	articleId="4b25cad5-810f-4978-953c-4eaaa7ee8af6"
 	ownershipId="RedisCache_RedisCache"
 />
-# TLS Version
+# Administration, Configuration and Scaling - TLS Version
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Create or Deployment failure",
+    "title": "TLS Version",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -51,6 +51,7 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem Description",
+            "watermarkText": "Problem Description",
             "useAsAdditionalDetails": true,
             "required": true
         }

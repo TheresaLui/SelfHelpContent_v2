@@ -1,6 +1,6 @@
 <properties
-	pageTitle="RDB or AOF persistence"
-	description="RDB or AOF persistence"
+	pageTitle="Azure Cache for Redis - RDB or AOF persistence"
+	description="Azure Cache for Redis - RDB or AOF persistence"
 	service="microsoft.cache"
 	resource="redis"
 	authors="johnnygetHub"
@@ -15,12 +15,12 @@
 	articleId="173946b2-6bbd-4ab8-8271-2d722b699f27"
 	ownershipId="RedisCache_RedisCache"
 />
-# RDB or AOF persistence
+# Administration, Configuration and Scaling - RDB or AOF persistence
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Patch Scheduling",
+    "title": "RDB or AOF persistence",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -34,18 +34,10 @@
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Problem Description",
+            "displayLabel": "Error Message",
             "useAsAdditionalDetails": true,
-            "watermarkText": "Problem Description",
-            "required": true
-        },
-        {
-            "id": "FDBorAOF_Persistance",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "RDB or AOF persistence Error Message",
             "watermarkText": "Error Message",
-            "required": false
+            "required": true
         }
     ],
     "$schema": "SelfHelpContent"

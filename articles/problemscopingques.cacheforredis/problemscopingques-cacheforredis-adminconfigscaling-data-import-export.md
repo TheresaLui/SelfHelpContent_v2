@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Data Import or Export"
-	description="Data Import or Export"
+	pageTitle="Azure Cache for Redis - Data Import or Export"
+	description="Azure Cache for Redis - Data Import or Export"
 	service="microsoft.cache"
 	resource="redis"
 	authors="johnnygetHub"
@@ -17,17 +17,17 @@
 	ownershipId="RedisCache_RedisCache"
 />
 
-# Data Import or Export
+# Administration, Configuration and Scaling - Data Import or Export
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Name of the Storage Account",
+    "title": "Data Import or Export",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "Storage_Account",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Storage Account",
             "watermarkText": "Storage Account",
@@ -35,7 +35,7 @@
         },
         {
             "id": "Error_Message",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Error Message",
             "watermarkText": "Error Message",
@@ -50,9 +50,10 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Description",
+            "displayLabel": "Problem Description",
+            "watermarkText": "Problem Description",
             "useAsAdditionalDetails": true,
             "required": true
         }

@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Scaling"
-	description="Scaling"
+	pageTitle="Azure Cache for Redis - Scaling"
+	description="Azure Cache for Redis - Scaling"
 	service="microsoft.cache"
 	resource="redis"
 	authors="johnnygetHub"
@@ -15,17 +15,17 @@
 	articleId="f83f037d-6b0d-4b73-968e-e037d3c0bdf5"
 	ownershipId="RedisCache_RedisCache"
 />
-# Scaling
+# Administration, Configuration and Scaling - Scaling
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Create or Deployment failure",
+    "title": "Scaling",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "Azure_Region",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Azure Region",
             "watermarkText": "Azure Region",
@@ -48,9 +48,10 @@
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem Description",
+            "watermarkText": "Problem Description",
             "useAsAdditionalDetails": true,
             "required": true
         }

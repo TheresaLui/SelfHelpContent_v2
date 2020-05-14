@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure Advisor recommendation"
-	description="Azure Advisor recommendation"
+	pageTitle="Azure Cache for Redis - Azure Advisor recommendation"
+	description="Azure Cache for Redis - Azure Advisor recommendation"
 	service="microsoft.cache"
 	resource="redis"
 	authors="johnnygetHub"
@@ -15,13 +15,13 @@
 	articleId="8f0d05aa-d988-4078-9fa1-6efe8ff4a83f"
 	ownershipId="RedisCache_RedisCache"
 />
-# Azure Advisor recommendation
+# Administration, Configuration and Scaling - Azure Advisor recommendation
 ---
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Failure to connect to the VM using Azure Bastion",
+    "title": "Azure Advisor recommendation",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -62,7 +62,8 @@
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Description",
+            "displayLabel": "Problem Description",
+            "watermarkText": "Problem Description",
             "useAsAdditionalDetails": true,
             "required": true
         },

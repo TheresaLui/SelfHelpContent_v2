@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Network Security"
-	description="Network Security"
+	pageTitle="Azure Cache for Redis - Network Security"
+	description="Azure Cache for Redis - Network Security"
 	service="microsoft.cache"
 	resource="redis"
 	authors="johnnygetHub"
@@ -15,7 +15,7 @@
 	articleId="db92b0a3-97d2-401a-95f5-30d1567a0e5d"
 	ownershipId="RedisCache_RedisCache"
 />
-# Network Security
+# Administration, Configuration and Scaling - Network Security
 ---
 {
     "subscriptionRequired": true,
@@ -36,14 +36,14 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Description of any recent changes to Network Security Group rules at the VNET / Subnet level",
             "useAsAdditionalDetails": true,
-            "watermarkText": "Description",
+            "watermarkText": "Problem Description",
             "required": true
         },
         {
             "id": "Error_Message",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Error Message",
+            "displayLabel": "Error Message / Stack Trace seen",
             "watermarkText": "Error Message",
             "required": false
         }

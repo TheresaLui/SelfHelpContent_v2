@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Patch Scheduling"
-	description="Patch Scheduling"
+	pageTitle="Azure Cache for Redis - Patch Scheduling"
+	description="Azure Cache for Redis - Patch Scheduling"
 	service="microsoft.cache"
 	resource="redis"
 	authors="johnnygetHub"
@@ -15,7 +15,7 @@
 	articleId="a4ba9baa-9943-4a5b-a88a-638196c3cdc1"
 	ownershipId="RedisCache_RedisCache"
 />
-# Patch Scheduling
+# Administration, Configuration and Scaling - Patch Scheduling
 ---
 {
     "subscriptionRequired": true,
@@ -34,18 +34,10 @@
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Problem Description",
+            "displayLabel": "Error Message",
             "useAsAdditionalDetails": true,
-            "watermarkText": "Problem Description",
-            "required": true
-        },
-        {
-            "id": "Patch_Scheduling",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Patch Scheduling Error Message",
             "watermarkText": "Error Message",
-            "required": false
+            "required": true
         }
     ],
     "$schema": "SelfHelpContent"

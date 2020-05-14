@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Geo-replication"
-	description="Geo-replication"
+	pageTitle="Azure Cache for Redis - Geo-Replication"
+	description="Azure Cache for Redis - Geo-Replication"
 	service="microsoft.cache"
 	resource="redis"
 	authors="johnnygetHub"
@@ -15,17 +15,17 @@
 	articleId="cc5277bf-f750-4173-8560-524650fc8f21"
 	ownershipId="RedisCache_RedisCache"
 />
-# Geo-Replication
+# Administration, Configuration and Scaling - Geo-Replication
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Geo-replication",
+    "title": "Geo-Replication",
     "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "Geo_Replication",
-            "order": 1,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Geo-replication",
             "watermarkText": "Geo-replication",
@@ -33,16 +33,17 @@
         },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Description",
+            "displayLabel": "Problem Description",
+            "watermarkText": "Problem Description",
             "useAsAdditionalDetails": true,
             "required": true
         }

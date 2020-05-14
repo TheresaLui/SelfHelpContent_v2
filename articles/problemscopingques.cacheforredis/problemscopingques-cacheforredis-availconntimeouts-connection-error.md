@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Connection Error"
-	description="Connection Error"
+	pageTitle="Azure Cache for Redis - Connection Error"
+	description="Azure Cache for Redis - Connection Error"
 	service="microsoft.cache"
 	resource="redis"
 	authors="johnnygetHub"
