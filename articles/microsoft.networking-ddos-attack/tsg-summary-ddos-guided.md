@@ -10,7 +10,7 @@
             resourceTags=""
             productPesIds=""
             cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-            articleId="a96612cb-fa7f-4152-96fa-51aabcc5347f"
+            articleId="ebefca8a-d7f2-4f42-a683-6b049699922e"
             ownershipId="Centennial_CloudNet_LoadBalancer" />
 
 # DDoS Attack and Mitigation
