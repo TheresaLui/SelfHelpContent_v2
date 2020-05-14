@@ -20,7 +20,7 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Network Security",
+    "title": "VNET",
     "fileAttachmentHint": "",
     "formElements": [
         {
