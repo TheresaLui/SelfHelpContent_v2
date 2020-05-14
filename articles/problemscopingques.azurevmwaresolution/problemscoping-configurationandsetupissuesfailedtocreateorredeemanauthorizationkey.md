@@ -1,13 +1,13 @@
 <properties
-                pageTitle="provisionprivatecloud"
-                description="provisionprivatecloud"
+                pageTitle="failedtocreateorredeemanauthorizationkey"
+                description="failedtocreateorredeemanauthorizationkey"
                 ms.author="neshenoy"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32739969"
+                supportTopicIds="32739960"
                 productPesIds="17080"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="a9069eef-d6a3-4294-b0b8-66f55e28a781"
+                articleId="0571a087-84a0-40b2-9b53-63dd6324dbbb"
 	            ownershipId="Azure_VMwareSolution_Content"
 />
 # Useful Title
@@ -16,7 +16,7 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
-            "title": "provisionprivatecloud",
+            "title": "failedtocreateorredeemanauthorizationkey",
             "fileAttachmentHint": "",
             "formElements": [{
             			"id": "problem_start_time",
@@ -36,26 +36,19 @@
 				}]
         },
         {
-            "id": "CorrelationID",
+            "id": "ExpressRouteURIID",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the Correlation ID of the failed deployment?",
+            "displayLabel": "What is the ExpressRoute URI ID?",
             "required": false
         },
         {
-            "id": "Resourcename",
+            "id": "AutthorizationKey",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "What is the Resource name?",
-            "required": false
-        },
-        {
-            "id": "ResourceGroup",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "What is the Resource group?",
+            "displayLabel": "What is the authorization key that is being used?",
             "required": false
         }
-            ]
+        ]
  }
 ---
