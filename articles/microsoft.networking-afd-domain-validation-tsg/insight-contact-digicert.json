@@ -1,0 +1,25 @@
+{
+  "Id": "-",
+  "OwnershipId": "Centennial_CloudNet_LoadBalancer",
+  "Title": "-",
+  "ImportanceLevel": "Critical",
+  "InsightFriendlyName": "-",
+  "IssueCategory": "",
+  "IssueSubCategory": "Configuration",
+  "Description": {
+    "IsMarkdown": false,
+    "Value": ""
+  },
+  "RecommendedAction": {
+    "Id": "",
+    "Text": {
+      "IsMarkdown": false,
+      "Value": ""
+    }
+  },
+  "CustomerReadyContent": {
+    "ArticleId": ""
+  },
+  "ConfidenceLevel": "Medium",
+  "Scope": "ResourceLevel"
+}
