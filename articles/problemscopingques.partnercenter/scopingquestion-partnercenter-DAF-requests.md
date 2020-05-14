@@ -1,5 +1,5 @@
-<properties
-	pageTitle="Partner Center DAF Requests"
+"<properties
+	pageTitle=""Partner Center DAF Requests"
 	description="Partner Center DAF Requests"
 	authors="felicefan" 
 	ms.author="felicefan"
@@ -13,7 +13,7 @@
 	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Partner Center DAF Requests
----
+---"
 {
   "resourceRequired": true,
   "subscriptionRequired": true,
