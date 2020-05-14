@@ -74,7 +74,7 @@
             "id": "Stack_Trace",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": Error and Stack Trace of errors on the client",
+            "displayLabel": "Error and Stack Trace of errors on the client",
             "watermarkText": "Stack Trace of errors",
             "required": false
         }
