@@ -20,7 +20,7 @@
 
 Azure Monitor for VMs collects several different types of metrics and monitoring data. 
 
-For performance metrics, the list of metrics we collect [can be found here](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-log-search#performance-records).  This data is stored in the InsightsMetrics table, with one record every minute.  
+For performance metrics, the list of metrics we collect [can be found here](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-log-search#performance-records).  This data is stored in the Insights Metrics table, with one record every minute.  
 
 To enable additional performance counters that will be stored in the Perf table, refer to [this documentation](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-performance-counters). 
 
