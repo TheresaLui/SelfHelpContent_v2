@@ -33,7 +33,7 @@ In the AKV key the version is at the end and in this example is 56b75982a81d4719
 
 
 ### **Azure Key Vault Key is revoked and you cannot create or delete a collection or database**
-The only allowed operation when account keys are revoked is to delete the account. No other operations are permitted. You should restore key access and operation will be permitted once the account is fully operational which may take upto 1 hour.  
+The only allowed operation when account keys are revoked is to delete the account. No other operations are permitted. You should restore key access and operation will be permitted once the account is fully operational which may take up to 1 hour.  
 
 
 ### **You have restored key access but the account is still not operational**
