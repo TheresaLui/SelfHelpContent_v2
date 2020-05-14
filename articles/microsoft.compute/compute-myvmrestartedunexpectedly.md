@@ -7,7 +7,7 @@
     ms.author="scotro"
     displayOrder="65"
     selfHelpType="resource"
-    supportTopicIds="32628269,32628280,32628287,32633528"
+    supportTopicIds="32628269,32628280,32628287"
     resourceTags="windows, windowsSQL"
     productPesIds="14749,14745"
     cloudEnvironments="public, Fairfax, usnat, ussec"
