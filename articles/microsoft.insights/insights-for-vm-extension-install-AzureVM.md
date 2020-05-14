@@ -6,7 +6,7 @@
     authors="rashmian"
     ms.author="rashmia"
     selfHelpType="generic"
-    articleId="insights-for-vm-senddata-onprem"
+    articleId="insights-for-vm-extension-install-AzureVM"
     productPesIds="17081"
     supportTopicIds="32738506"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
@@ -19,7 +19,9 @@
 
 Azure Monitor for VMs installs two virtual machine extensions on an Azure virtual machine.  The Log Analytics agent and the Dependency agent virtual machine extensions.  Both need to be installed and configured properly for the monitoring data to be collected to support our monitoring views. 
 
-## **Azure Virtual Machines**
+## **Recommended Steps**
+
+### **Azure Virtual Machines**
 
 If you used the onboarding method in the Azure portal to enable monitoring on the VM, then it handles the installation of the extensions for you automatically.  If this is failing, make sure that you are [using a supported operating system](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-overview#supported-operating-systems) on the VM.   
 
@@ -29,7 +31,7 @@ If the agent extensions fail to install, you can choose to remove them and perfo
 
 In some cases, very small VMs (Size B for example) can have such limited resources that they can fail during extension installation. To address this, try using a larger VM size with more resources. 
  
-## **Azure Virtual Machine Scale Sets**
+### **Azure Virtual Machine Scale Sets**
 
 The process for installing the extension on a VM scale set is similar to the process for installing it onto an Azure virtual machine. In this case, the extension is added to the scale set model definition.  If it is failing to install, verify that your OS is supported and that you are not running a very small VM size for pilot testing (Size B VM for example). 
 
