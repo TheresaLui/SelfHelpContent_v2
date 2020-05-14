@@ -40,7 +40,7 @@
             "required": true
         },
         {
-            "id": Metric_Name",
+            "id": "Metric_Name",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Metric Name",
