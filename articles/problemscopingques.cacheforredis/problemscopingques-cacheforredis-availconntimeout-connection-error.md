@@ -46,7 +46,7 @@
             "watermarkText": "Description of Problem",
             "useAsAdditionalDetails": true,
             "required": true
-        }
+        },
         {
             "id": "Stack_Trace",
             "order": 4,
@@ -82,7 +82,7 @@
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
-            ]
+            ],
             "required": true
         },
         {
@@ -93,6 +93,6 @@
             "watermarkText": "Configuration Details",
             "required": false
         }
-    ],
+    ]
 }
 ---
