@@ -24,10 +24,10 @@ Change feed support in Azure Cosmos DB works by listening to an Azure Cosmos DB 
 
 ### **Change feed processor versions**
 
-* The V2 .NET change feed processor is available on [Nuget](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.ChangeFeedProcessor/) and the source code on [GitHub](https://github.com/Azure/azure-documentdb-changefeedprocessor-dotnet/).
-* The newer V3 .NET change feed processor is part of the .NET V3 SDK and included in the [SDK Nuget](https://www.nuget.org/packages/Microsoft.Azure.Cosmos) and the source code is also on [GitHub](https://github.com/Azure/azure-cosmos-dotnet-v3).
+* The V2 .NET change feed processor is available on [Nuget](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.ChangeFeedProcessor/) and the source code on [GitHub](https://github.com/Azure/azure-documentdb-changefeedprocessor-dotnet/)
+* The newer V3 .NET change feed processor is part of the .NET V3 SDK and included in the [SDK Nuget](https://www.nuget.org/packages/Microsoft.Azure.Cosmos) and the source code is also on [GitHub](https://github.com/Azure/azure-cosmos-dotnet-v3)
 
-Make sure you have updated to the latest the version as the issue you might be encountering might have already been solved.
+Make sure you have updated to the latest version, as the issue you might be encountering may have already been solved.
 
 ### **Why is a lease container required for the change feed processor?**
 
@@ -51,7 +51,7 @@ If your current Delegate or Observer (if you are working with V2 .NET) throws an
 
 The change feed processor can distribute compute across multiple instances automatically. You can deploy multiple instances of your application using the change feed processor and take advantage of it, the only key requirements are:
 
-1. All instances should have the same lease container configuration.
+1. All instances should have the same lease container configuration
 1. All instances should have the same workflow or processor name. In the case of V2, this is the `LeaseCollectionPrefix` configuration.
 1. Each instance needs to have a different instance name (`WithInstanceName`).
 
@@ -65,10 +65,10 @@ If the amount of instances is greater than the amount of lease documents (greate
 
 The normal life cycle of a host instance is:
 
-1. Read the change feed.
-1. If there are no changes, sleep for a predefined amount of time (customizable with `WithPollInterval` in the Builder) and go to #1.
-1. If there are changes, send them to the **delegate**.
-1. When the delegate finishes processing the changes **successfully**, update the lease store with the latest processed point in time and go to #1.
+1. Read the change feed
+1. If there are no changes, sleep for a predefined amount of time (customizable with `WithPollInterval` in the Builder) and go to #1
+1. If there are changes, send them to the **delegate**
+1. When the delegate finishes processing the changes **successfully**, update the lease store with the latest processed point in time and go to #1
 
 To make sure that latency is optimized:
 
