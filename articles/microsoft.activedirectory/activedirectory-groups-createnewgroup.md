@@ -4,6 +4,7 @@
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
     authors="krbain"
+    ms.author="jupetter"
     selfHelpType="generic"
     supportTopicIds="32586792"
     productPesIds="16578"
@@ -35,7 +36,7 @@ The welcome notification sent to users who are added to Office 365 groups can be
 * [Disable Office 365 welcome notification via Powershell](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/Set-UnifiedGroup?view=exchange-ps)
 * [Azure AD administrative roles](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 
-## **Recommended videos**
+### **Recommended videos**
 
 * [Group management: learn about group functionalities and the latest features for AAD groups](https://www.youtube.com/watch?v=H6aZs0Q-kOA)
 * [Advanced features of group management: group expiration, dynamic groups, and group naming policy](https://www.youtube.com/watch?v=e9zUqQx5upY)
