@@ -17,8 +17,8 @@
 
 # Contact Digicert for domain validation status
 <!--issueDescription-->
-Subject: Domain validation pending for $CUSTOMERDOMAIN$
-To: support@digicert.com
+Subject: Domain validation pending for $CUSTOMERDOMAIN$<br>
+To: support@digicert.com<br>
 
 Hi Digicert,
 
