@@ -20,15 +20,15 @@
   "title": "Partner Center DAF Requests",
   "fileAttachmentHint": "",
   "formElements": [
-      {
+{
       "id": "invoice_number",
       "order": 1,
       "controlType": "textbox",
       "displayLabel": "Please provide the Invoice Number",
       "watermarkText": "Invoice Number",
       "required": true
-       },
-   {
+}
+{
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
@@ -36,9 +36,9 @@
             "watermarkText": "Please provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
-        }
+}
   
-    ],
+],
     "$schema": "SelfHelpContent"
 }
 ---
