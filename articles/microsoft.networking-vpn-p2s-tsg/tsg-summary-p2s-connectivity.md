@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-    articleId="308d35e1-64b8-4bd4-bceb-45da201e2f70"
+    articleId="f1a2d239-ebd8-45e4-b399-3df7fc5aab7a"
     ownershipId="CloudNet_AzureVPNGateway"
 />
 
