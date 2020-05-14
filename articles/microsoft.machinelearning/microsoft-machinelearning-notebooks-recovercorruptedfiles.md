@@ -9,7 +9,7 @@
 	supportTopicIds="32739651"
 	productPesIds="16644"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.notebooks"
+	articleId="microsoft.machinelearning.notebooks-recovercorrupted"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
