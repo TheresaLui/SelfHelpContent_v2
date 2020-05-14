@@ -61,7 +61,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Name of Redis Client Library used (StackExchange.Redis, Jedis, etc.)",
             "watermarkText": "Redis Client Library",
-            "required": true
+            "required": false
         },
         {
             "id": "Client_Version",
