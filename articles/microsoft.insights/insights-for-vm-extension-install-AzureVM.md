@@ -37,7 +37,7 @@ The process for installing the extension on a VM scale set is similar to the pro
 
 Once installed to the scale set model definition, you then need to push those changes from the model out to the instances that are running in the scale set.  This can be done manually if needed.  If the scale set model is using rolling or automatic updates it will happen automatically. 
 
-## **On-premise or other machines**
+### **On-premise or other machines**
 
 Extensions are only provided for Azure resources and are not applicable for on-premise physical or virtual machines.  Follow our [onboarding process for hybrid monitoring](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud) to enable monitoring on these resources. 
 
