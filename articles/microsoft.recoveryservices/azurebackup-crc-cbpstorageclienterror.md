@@ -28,5 +28,5 @@ To resolve this issue, perform the following:
  - Check your [network connectivity](https://docs.microsoft.com/azure/backup/install-mars-agent#verify-internet-access ) and [proxy](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#verifying-proxy-settings-for-windows) settings.
  - Transient (intermittent) network bandwidth or network issues might interfer with transfer of backup data to Azure endpoint can result in this failure. Subsequent operations (i.e next scheduled backup or retry) might resolve the issue.
 ## **Recommended document**
- - [Basic troubleshooting](https://docs.microsoft.com/en-us/azure/backup/backup-azure-mars-troubleshoot#basic-troubleshooting)
+ - [Basic troubleshooting](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#basic-troubleshooting)
  - [Files and folders backup is slow](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue) 
