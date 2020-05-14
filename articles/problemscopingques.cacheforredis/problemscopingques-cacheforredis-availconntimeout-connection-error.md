@@ -27,10 +27,10 @@
         {
             "id": "Client_Version",
             "order": 1,
-            "controlType": "dropdown",
+            "controlType": "radioButtonGroup",
             "displayLabel": "Version of Client Library",
             "watermarkText": "Choose an option",
-            "dropdownOptions": [
+            "radioButtonOptions": [
                 {
                     "value": "NuGet Package version of StackExchange.Redis",
                     "text": "NuGet Package version of StackExchange.Redis"
@@ -51,6 +51,7 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
+            "watermarkText": "Choose an option",
             "useAsAdditionalDetails": true,
             "required": true
         },
