@@ -3,15 +3,16 @@
     description="Enable Accelerated Networking to improve network performance and latency"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="9ce840f8-35b2-441d-bf3f-33084c3c4cc7_Fairfax"
+    articleId="3a3c1a2a-8597-4d3a-981a-0a24a0ee9de4_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+    ownershipId="CloudNet_Datapath"
 />
 # Enable Accelerated Networking to improve network performance and latency
 ---
 {
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "9ce840f8-35b2-441d-bf3f-33084c3c4cc7",
+  "recommendationTypeId": "3a3c1a2a-8597-4d3a-981a-0a24a0ee9de4",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://aznwff.kusto.usgovcloudapi.net').database('aznwcosmos').AzureAdvisorForANcapableVMs_FF",
     "dataSource": "Kusto",
