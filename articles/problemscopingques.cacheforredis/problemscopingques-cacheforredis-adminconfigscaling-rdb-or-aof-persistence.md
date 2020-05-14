@@ -44,7 +44,7 @@
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "RDB or AOF persistence Error Message",
-            "watermarkText": Error Message",
+            "watermarkText": "Error Message",
             "required": false
         }
     ],
