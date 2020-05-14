@@ -23,13 +23,13 @@ Most users are able to resolve their Azure Cosmos DB Managed Keys issue using th
 
 ## **Recommended Steps**  
 
-### **You cannot create a CMK (Customer Managed Key) account and have verified all conditions are met**  
-The most common cause of account creation issues are inclusion of the version of the key in the create call 
-example: /keys/p3rfrotatekey1/56b75982a81d471990af8f12be0933d4  
+### **You cannot create a CMK (Customer Managed Key) account and have verified all conditions are met**
+The most common cause of account creation issues are inclusion of the version of the key in the account creation request 
+example: https://my-vault.vault.azure.net/keys/my-key/56b75982a81d471990af8f12be0933d4  
 
 No version is permitted during provisioning  
 
-In the AKV key the version is at the end and in this example is 56b75982a81d471990af8f12be0933d4. Once the version is removed (example: ../keys/p3rfrotatekey1 ) the creation will succeed. The reason Azure Cosmos DB does not accept a version is it automatically picks up the latest key within one hour of creation. This is called automatic rotation.  
+In the AKV key the version is at the end and in this example is 56b75982a81d471990af8f12be0933d4. Once the version is removed (example: https://my-vault.vault.azure.net/keys/my-key) the creation will succeed. The reason Azure Cosmos DB does not accept a version is it automatically picks up the latest key within one hour of creation. This is called automatic rotation.  
 
 
 ### **Azure Key Vault Key is revoked and you cannot create or delete a collection or database**
@@ -37,8 +37,9 @@ The only allowed operation when account keys are revoked is to delete the accoun
 
 
 ### **You have restored key access but the account is still not operational**
-Account revocation and access is throttled to once per hour. If you revoke a key, the account access is pulled, and then for restores, the key can take up to one hour to restore access to data. This is by design to prevent threshing of account resources and to protect you from accidental access issues.  
+Account revocation and access is throttled to once per hour. If you revoke a key, then restore its access, it can take up to one hour to restore access to data. This is by design to prevent threshing of account resources and to protect you from accidental access issues.  
 
+<br>
 
 ## **Recommended Documents**
 
