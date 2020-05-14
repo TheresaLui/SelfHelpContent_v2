@@ -1,6 +1,6 @@
 ﻿<properties
-	pageTitle=""
-	description=""
+	pageTitle="Check if domain name is mapped to the Azure AFD name at registrar and is propagated across the Internet"
+	description="Check if domain name is mapped to the Azure AFD name at registrar and is propagated across the Internet"
 	service="Microsoft.Network/"
 	resource="Microsoft.Network/frontDoors"
 	authors="JRMayberry"
@@ -15,4 +15,13 @@
    ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# 
+# Check if domain name is mapped to the Azure AFD name at registrar and is propagated across the Internet
+
+
+Perform an nslookup on the customer domain and ensure it is pointing to an AFD domain
+
+```shell
+
+nslookup %CUSTOMER_DOMAIN%
+
+```
