@@ -42,8 +42,8 @@ Most users are able to resolve the following issues using the steps below:
 
 ## **Recommended Documents**
 
-- [Overview of Conditional Access App Control](https://docs.microsoft.com/en-us/cloud-app-security/proxy-intro-aad)
-- [Supported Apps and Clients](https://docs.microsoft.com/en-us/cloud-app-security/proxy-intro-aad#supported-apps-and-clients)
-- [Access policies](https://docs.microsoft.com/en-us/cloud-app-security/access-policy-aad)
+- [Overview of Conditional Access App Control](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
+- [Supported Apps and Clients](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients)
+- [Access policies](https://docs.microsoft.com/cloud-app-security/access-policy-aad)
 
 If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket.

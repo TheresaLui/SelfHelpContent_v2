@@ -37,8 +37,8 @@ Most users are able to resolve the following issues using the steps below:
 
 ## **Recommended Documents**
 
-- [Overview of Conditional Access App Control](https://docs.microsoft.com/en-us/cloud-app-security/proxy-intro-aad)
-- [Session Controls](https://docs.microsoft.com/en-us/cloud-app-security/proxy-intro-aad#how-session-control-works)
+- [Overview of Conditional Access App Control](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
+- [Session Controls](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#how-session-control-works)
 
 If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket with the following details:
 
