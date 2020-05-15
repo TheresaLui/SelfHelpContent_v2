@@ -10,7 +10,7 @@
 	articleId="service-create-or-delete-failure"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32673608,32673574"
+	supportTopicIds="32673608"
 	resourceTags=""
 	productPesIds="16307"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -46,7 +46,7 @@ The command had an error output of: ' actual size (xxxxxx) expected size (xxxxxx
 
 * This error most commonly occurs when the VNET selected to create the DMS instance is blocking connectivity to the metrics and health monitoring end point https://prod.warmpath.msftcloudes.com and/or blocking the following communication ports: 443, 53, 9354,
 445, 12000
-* If VNET config is allowing port 443, it might be due to firewall blocking the metrics end point. To validate this,  please perform the following steps:
+* If VNET config is allowing port 443, it might be due to firewall blocking the metrics endpoint. To validate this,  please perform the following steps:
   - Create an Azure VM in the same VNET from which the DMS provisioning is being attempted.
   - Login to the VM and try this URL from a browser: https://prod.warmpath.msftcloudes.com/
   - The content of the web page should be a response from the API like this:
