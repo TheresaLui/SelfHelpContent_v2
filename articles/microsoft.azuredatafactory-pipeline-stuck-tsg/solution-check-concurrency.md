@@ -33,4 +33,4 @@ Try setting the concurrency limits for the tumbling window trigger. You may set 
 
 ## **Recommended Documents**
 
-1. [Check concurrency](https://docs.microsoft.com/en-us/azure/data-factory/concepts-pipelines-activities#pipeline-json)
+1. [Check concurrency](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities#pipeline-json)
