@@ -20,7 +20,7 @@
 ## **Recommended documents**
 
 * [Manually stop or start containers in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-stop-start)<br>
-* [Run containerized tasks with restart policies](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-restart-policy)<br>
+* [Run containerized tasks with restart policies](https://docs.microsoft.com/azure/container-instances/container-instances-restart-policy)<br>
 * [Container continually exits and restarts (no long-running process)](https://docs.microsoft.com/azure/container-instances/container-instances-troubleshooting#container-continually-exits-and-restarts-no-long-running-process)<br>
 * [Container takes a long time to start](https://docs.microsoft.com/azure/container-instances/container-instances-troubleshooting#container-takes-a-long-time-to-start)<br>
 * [Container group IP address may not be accessible due to mismatched ports](https://docs.microsoft.com/azure/container-instances/container-instances-troubleshooting#container-group-ip-address-may-not-be-accessible-due-to-mismatched-ports)<br>
