@@ -24,4 +24,4 @@
 * [Deploy container instances into an Azure virtual network](https://docs.microsoft.com/azure/container-instances/container-instances-vnet)<br>
 * [Configure a GitHub action to create a container instance](https://docs.microsoft.com/azure/container-instances/container-instances-github-action)<br>
 * [Region Availability for Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-region-availability)<br>
-* [Retrieve container logs and events in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-get-logs)<br> 
+* [Retrieve container logs and events in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-get-logs)<br>
