@@ -12,6 +12,7 @@
 	productPesIds="16582"
 	cloudEnvironments="public"
 	articleId="2a0f5b97-41f3-44d6-8a1f-f25ad89822fe"
+	ownershipId="Windows_Virtual_Desktop"
 />
 
 # Windows Virtual Desktop
@@ -22,16 +23,15 @@
 
 * [Migration from Fall 2019 to Spring Update 2020](https://techcommunity.microsoft.com/t5/windows-virtual-desktop/migration-from-fall-2019-to-spring-update-2020/m-p/1390068#M4017)<br>
 * [WVD Deep dives](https://vshow.on24.com/vshow/wvd/#home)<br>
-* [Vist WVD product page for links to pricing calculator and experience estimator](https://aka.ms/wvd)<br>
+* [Visit WVD product page for links to pricing calculator and experience estimator](https://www.microsoft.com/en-us/?ref=aka)<br>
 * [How to migrate VDI to Azure and Windows Virtual Desktop](https://www.youtube.com/watch?v=rkKaWT-tN54&feature=youtu.be)<br>
 * [Use Azure Firewall to protect WVD deployments](https://docs.microsoft.com/azure/firewall/protect-windows-virtual-desktop)<br>
-* [Best practice with experts on Microsoft Tech Community](https://aka.ms/wvdtc)<br>
+* [Best practice with experts on Microsoft Tech Community](https://techcommunity.microsoft.com/t5/windows-virtual-desktop/bd-p/WindowsVirtualDesktop)<br>
 * [Overview of Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/overview)<br>
 * [Requirements for Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/overview#requirements)<br>
 * [Troubleshooting overview](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-overview)<br>
 * [Identify and diagnose issues](https://docs.microsoft.com/azure/virtual-desktop/diagnostics-role-service)<br>
 * [Troubleshoot deployment issues](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-issues#issues-using-windows-virtual-desktop--provision-a-host-pool-azure-marketplace-offering)<br>
-* [Troubleshoot Remote Desktop client connections](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-client-connection)<br>
 * [Troubleshoot session host virtual machine configurations](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-vm-configuration)<br>
 * [Troubleshoot tenant and host pool creation](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-issues)<br>
 * [Common error scenarios](https://docs.microsoft.com/azure/virtual-desktop/diagnostics-role-service#common-error-scenarios)
