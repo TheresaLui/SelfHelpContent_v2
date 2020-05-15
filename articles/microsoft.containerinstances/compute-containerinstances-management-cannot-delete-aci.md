@@ -17,7 +17,7 @@
 
 # Container Instances
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Manually stop or start containers in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-stop-start)<br>
 * [How to clean up Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-vnet#clean-up-resources)<br>
