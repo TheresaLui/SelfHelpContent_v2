@@ -17,7 +17,7 @@
 
 # Container Instances
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Deploy container instances into an Azure virtual network](https://docs.microsoft.com/azure/container-instances/container-instances-vnet)<br>
 * [Troubleshoot common issues in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-troubleshooting)<br>
