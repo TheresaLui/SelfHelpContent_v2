@@ -17,7 +17,7 @@
 
 # Container Instances
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Update running containers in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-update)<br>
 * [Container groups in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-container-groups)<br>
