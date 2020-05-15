@@ -22,7 +22,7 @@
 There were <!--$Count-->Count<!--/$Count--> out of memory events on PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime--> (UTC) and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC). 
 <!--/issueDescription-->
 
-# Recommended steps
+## Recommended steps
 
 * If there are a number of short running queries that run very frequently and perform simple lookups and joins then maintaining a lower *work_mem* is ideal. If instead the workload has relatively few active queries at a time that are doing very complex sorts and joins then granting more memory to prevent spilling can give great returns.
 

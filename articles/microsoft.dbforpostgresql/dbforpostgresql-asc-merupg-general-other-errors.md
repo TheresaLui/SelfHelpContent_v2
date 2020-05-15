@@ -22,6 +22,6 @@
 There are <!--$Count-->Count<!--/$Count--> failed connections with error code <!--$ErrorCode-->ErrorCode<!--/$ErrorCode--> to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime--> (UTC) and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC). 
 <!--/issueDescription-->
 
-# Recommended steps
+## Recommended steps
 
 * Contact product group for further investigation.
