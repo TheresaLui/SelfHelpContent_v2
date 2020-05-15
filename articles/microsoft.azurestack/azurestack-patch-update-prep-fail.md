@@ -26,11 +26,10 @@ When attempting to install the Azure Stack update, the status for the update mig
 
 1. This may be caused by the Update Resource Provider (URP) not properly transferring the files from the storage container to an internal infrastructure share for processing:
 
-   Work around this issue by clicking **Update now** again (not **Resume**). The URP then cleans up the files from the previous attempt and restarts the download.
+	* Work around this issue by clicking **Update now** again (not **Resume**). The URP then cleans up the files from the previous attempt and restarts the download.
+	* If the problem persists, [manually upload the update package](https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#install-updates-and-monitor-progress)
 
-   If the problem persists, [manually upload the update package](https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#install-updates-and-monitor-progress).
-
-2. On a weak internet connection, it can also be quicker to [manually upload the package](https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#install-updates-and-monitor-progress).
+2. On a weak internet connection, it can also be quicker to [manually upload the package](https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#install-updates-and-monitor-progress)
 
 ## **Recommended Documents**
 
