@@ -17,9 +17,9 @@
 
 # TSG Does Not Match Case Scope
 <!--issueDescription-->
-Kindly exit out of the troubleshooter and refer to the ADF Wiki aka.ms/adfwiki for known issues. You may follow the CSS – Engagement workflow to find the appropriate resource:
-
-[CSS Engagement Workflow](https://supportability.visualstudio.com/AzureDataFactory/_wiki/wikis/AzureDataFactory/289444/CSS-Engagement-Workflow)
+Kindly exit out of the troubleshooter and refer to the ADF Wiki aka.ms/adfwiki for known issues. You may follow the CSS – Engagement workflow to find the appropriate resource.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
+
+1. [CSS Engagement Workflow](https://supportability.visualstudio.com/AzureDataFactory/_wiki/wikis/AzureDataFactory/289444/CSS-Engagement-Workflow)
