@@ -22,7 +22,7 @@
 - If you would like a video on how to configure Conditional Access, see [Enable Azure Active Directory Conditional Access to secure user access](https://www.youtube.com/watch?time_continue=4&v=eLAYBwjCGoA)
 - [Require MFA for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)
 - If you are ready to configure conditional access policies for your environment, review the [best practices for conditional access in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices)
-- If you would like a step-by-step deployment plan with recommended policies, download this [conditional access deployment plan](http://aka.ms/conditionalaccessdeploymentplan)
+- If you would like a step-by-step deployment plan with recommended policies, download this [conditional access deployment plan](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access)
 - Baseline Protection policies have been deprecated. They are no longer being enforced and will soon be removed from Azure Portal. We recommend enabling [security defaults](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) or [configuring equivalent conditional access policies](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common#typical-policies-deployed-by-organizations). 
 
 ## **Recommended Documents**
