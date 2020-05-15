@@ -6,7 +6,7 @@
 	resource="dbforpostgresql"
 	ms.author="raagyema"
 	displayOrder=""
-	articleId="dbforpostgresql-asc-18456-100"
+	articleId="dbforpostgresql-asc-merupg-connectivity-invalid-authorization"
 	diagnosticScenario="OrcasMeruPGInvalidAuthorizationInsight"
 	selfHelpType="rca"
 	supportTopicIds="32628416"
@@ -23,4 +23,4 @@ There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL serv
 
 ## Recommended steps 
 
-* Check the SSL settings on the client and server. 
+* Check the SSL settings on the client and server to confirm they correspond. 
