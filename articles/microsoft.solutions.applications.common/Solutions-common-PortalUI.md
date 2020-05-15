@@ -25,7 +25,7 @@ We recommend checking out the [managed applications center](https://portal.azure
 
 ## I'm having a problem with something else in the Azure Portal
 
-For problems such as using tags, ARM Templates, dashboards loading or refreshing, support tickets, & portal performance, please return to "Basics" at the top of this page and select "Portal" as your Service for your issue. <br>
+For problems such as using tags, ARM Templates, dashboards loading or refreshing, support tickets, & portal performance please return to "Basics" at the top of this page and select "Portal" as your Service for your issue. <br>
 
 ## I'm having problems deploying something from the Azure Marketplace
 
