@@ -23,5 +23,5 @@
 * [Container groups in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-container-groups)<br>
 * [Tutorial:Deploy a multi-container group](https://docs.microsoft.com/azure/container-instances/container-instances-multi-container-group)<br>
 * [Manually stop or start containers in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-stop-start)<br>
-* [Logging with Azure Monitor](https://docs.microsoft.com/azure/container-instances/container-instances-monitor)<br>
 * [Get container logs and events](https://docs.microsoft.com/azure/container-instances/container-instances-get-logs)<br>
+* [Logging with Azure Monitor](https://docs.microsoft.com/azure/container-instances/container-instances-monitor)<br>
