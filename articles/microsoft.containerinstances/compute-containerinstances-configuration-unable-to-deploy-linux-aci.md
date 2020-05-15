@@ -17,7 +17,7 @@
 
 # Container Instances
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Unable to pull image issue](https://docs.microsoft.com/azure/container-instances/container-instances-troubleshooting#unable-to-pull-image)<br>
 * [Container groups in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-container-groups)<br>
