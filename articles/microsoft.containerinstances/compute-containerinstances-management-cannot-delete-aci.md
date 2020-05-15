@@ -12,14 +12,14 @@
 	productPesIds="16326"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="compute-containerinstances-management-cannot-delete-aci"
-	ownershipId="compute-containerisntances-cs"
+	ownershipId="compute-containerinstances-cs"
 />
 
 # Container Instances
 
 ## **Recommended documents**
 
-* [Manually stop or start containers in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-stop-start)<br>\
+* [Manually stop or start containers in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-stop-start)<br>
 * [How to clean up Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-vnet#clean-up-resources)<br>
 * [Logging with Azure Monitor Logs](https://docs.microsoft.com/azure/container-instances/container-instances-monitor)<br>
 * [Get container logs and events](https://docs.microsoft.com/azure/container-instances/container-instances-get-logs)<br>

@@ -12,7 +12,7 @@
 	productPesIds="16326"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="compute-containerinstances-connectivity-network-connectivity-problems"
-	ownershipId="compute-containerisntances-cs"
+	ownershipId="compute-containerinstances-cs"
 />
 
 # Container Instances

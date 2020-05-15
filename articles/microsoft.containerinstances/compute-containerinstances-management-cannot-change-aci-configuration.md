@@ -12,7 +12,7 @@
 	productPesIds="16326"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="compute-containerinstances-management-cannot-change-aci-configuration"
-	ownershipId="compute-containerisntances-cs"
+	ownershipId="compute-containerinstances-cs"
 />
 
 # Container Instances
