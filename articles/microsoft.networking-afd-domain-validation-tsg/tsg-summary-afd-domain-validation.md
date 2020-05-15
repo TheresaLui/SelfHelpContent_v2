@@ -17,4 +17,4 @@
 
 # Azure Front Door - Custom Domain HTTPS Enablement
 
- This self-guided troubleshooter will guide you to mitigate and  find the root cause for customers experiencing delays during HTTPS enablement process while using Azure provided certificate for AFD custom domain
+This self-guided troubleshooter will guide you to mitigate and  find the root cause for customers experiencing delays during HTTPS enablement process while using Azure provided certificate for AFD custom domain.

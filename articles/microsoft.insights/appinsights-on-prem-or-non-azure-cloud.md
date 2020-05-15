@@ -32,7 +32,7 @@ Note that there are two ways to enable Azure Monitor's Application insights: [Ag
     - SDK-based: [ASP.NET Core](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data), [ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-troubleshoot-no-data), [Java](https://docs.microsoft.com/azure/azure-monitor/app/java-troubleshoot), Node.JS (Not Available), Python (Not Available)
 
 3. Upgrade to latest version of SDK or Agent
-4. Check if the **Azure user** has access to the subscription you are connecting to
+4. Check if the **Azure user** has access to the subscription where the Application Insights resource resides
 5. Check if the **local user** has access to IIS, the registry, and the application folder (ASP.NET Only)
 6. Check if the **local machine** is connected to the internet or has a proxy connection, and that the local user has access to the proxy
 7. Check to see if your firewall has required [outgoing ports](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses) open to reach Application Insights endpoint
