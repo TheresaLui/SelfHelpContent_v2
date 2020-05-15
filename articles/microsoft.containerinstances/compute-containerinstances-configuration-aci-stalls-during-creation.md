@@ -17,7 +17,7 @@
 
 # Container Instances
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Troubleshoot common issues in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-troubleshooting)<br>
 * [Deploy to Azure Container Instances from Azure Container Registry](https://docs.microsoft.com/azure/container-instances/container-instances-using-azure-container-registry)<br>
