@@ -21,6 +21,6 @@
 There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) because of an invalid authorization specification. This error typically indicates a mismatch between the SSL settings on the Postgres server and the client making the connection.
 <!--/issueDescription-->
 
-## Recommended steps 
+## **Recommended Steps**
 
-* Check the SSL settings on the client and server to confirm they correspond. 
+* Check the SSL settings on the client and server to confirm they correspond 

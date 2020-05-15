@@ -22,7 +22,7 @@
 There are <!--$Count-->Count<!--/$Count--> failed password authentications to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime--> (UTC) and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC). 
 <!--/issueDescription-->
 
-## Recommended steps
+## **Recommended Steps**
 
 * Check the connection string to confirm you have correctly entered the password for this server
 * Contact the server's admin to request a password change
