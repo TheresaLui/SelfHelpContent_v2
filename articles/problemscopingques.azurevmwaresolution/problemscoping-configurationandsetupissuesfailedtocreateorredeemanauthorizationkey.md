@@ -15,7 +15,7 @@
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
             "title": "failedtocreateorredeemanauthorizationkey",
             "fileAttachmentHint": "",
             "formElements": [{
