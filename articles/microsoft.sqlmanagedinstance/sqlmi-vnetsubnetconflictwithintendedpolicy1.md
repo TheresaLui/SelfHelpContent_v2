@@ -19,7 +19,7 @@
 # We ran diagnostics on your subscription and found an issue
 
 <!--issueDescription-->  
-We detected that a Managed Instance named **{ManagedInstanceResource}** in Resource Group **{RGname}** failed to deploy around **{eventTimestamp}** due to incorrect networking configuration on the subnet for Managed Instance, specifically with **{Message}**
+We detected that a Managed Instance named <!--$ManagedInstanceResource-->ManagedInstanceResource<!--/$ManagedInstanceResource--> in Resource Group <!--$RGname-->RGname<!--/$RGname--> failed to deploy around <!--$eventTimestamp-->eventTimestamp<!--/$eventTimestamp--> due to incorrect networking configuration on the subnet for Managed Instance, specifically with <!--$Message-->Message<!--/$Message-->
 <!--/issueDescription-->
 
 Azure SQL Database Managed Instance must be deployed within an Azure [virtual network](https://docs.microsoft.com/azure/virtual-network/virtual-networks-overview) and the subnet dedicated for Managed Instances only. You can use the existing virtual network and subnet if it's configured according to the [Managed Instance virtual network requirements](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-connectivity-architecture#network-requirements).
