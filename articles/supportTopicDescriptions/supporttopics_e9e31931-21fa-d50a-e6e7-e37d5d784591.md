@@ -51,6 +51,14 @@
       "searchTags": "Planned ",
       "category": "Planned Maintenance ",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "e53f61aa-bd8b-5b53-6482-165906f30a3c",
+      "longDescription": "",
+      "shortDescription": "Questions specific to configuring monitoring alerts",
+      "searchTags": "Alert",
+      "category": "Configuring",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
