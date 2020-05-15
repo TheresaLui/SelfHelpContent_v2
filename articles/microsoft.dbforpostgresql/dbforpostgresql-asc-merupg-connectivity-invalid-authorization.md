@@ -9,8 +9,8 @@
 	articleId="dbforpostgresql-asc-merupg-connectivity-invalid-authorization"
 	diagnosticScenario="OrcasMeruPGInvalidAuthorizationInsight"
 	selfHelpType="rca"
-	supportTopicIds="32628416"
-	productPesIds="17067"
+	supportTopicIds="32639953"
+	productPesIds="17069"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />

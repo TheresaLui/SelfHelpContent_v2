@@ -9,9 +9,9 @@
 	articleId="dbforpostgresql-asc-merupg-performance-highcpu"
 	diagnosticScenario="OrcasMeruPGPerfHighCPUInsight"
 	selfHelpType="diagnostics"
-	supportTopicIds="32628416"
+	supportTopicIds="32639959"
 	resourceTags=""
-	productPesIds="17067"
+	productPesIds="17069"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
