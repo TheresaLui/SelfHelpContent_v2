@@ -19,7 +19,7 @@
 
 ## **Recommended documents**
 
-* [Troubleshoot common issues in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-troubleshooting)<br>
+* [Troubleshooting common issues in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-troubleshooting)<br>
 * [FAQ (routed to unable to pull image header)](https://docs.microsoft.com/azure/container-instances/container-instances-troubleshooting#unable-to-pull-image)<br>
 * [Container groups in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-container-groups)<br>
 * [Region Availability for Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-region-availability)<br>
