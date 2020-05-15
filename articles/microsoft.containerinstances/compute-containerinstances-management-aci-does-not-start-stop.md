@@ -17,7 +17,7 @@
 
 # Container Instances
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Manually stop or start containers in Azure Container Instances](https://docs.microsoft.com/azure/container-instances/container-instances-stop-start)<br>
 * [Run containerized tasks with restart policies](https://docs.microsoft.com/azure/container-instances/container-instances-restart-policy)<br>
