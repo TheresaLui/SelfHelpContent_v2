@@ -23,15 +23,15 @@ If you are using Private Endpoints to expose your Azure Cosmos DB account to a v
 
 ## **Recommended Steps**  
 
-### **Make sure the API and connection mode you are using are supported by Azure Cosmos DB private endpoints**
+### Make sure the API and connection mode you are using are supported by Azure Cosmos DB private endpoints
 
 ### **API type**   
 
 * **SQL (Core) API Gateway mode:** *Supported*  
 * **SQL (Core) API Direct mode over TCP:** *In preview*  
 * **SQL (Core) API Direct mode over HTTP:** *Unsupported*  
-* ** MongoDB API version 3.2:**  *Unsupported* - You can either create a new account using the version 3.6 of the Mongo API, or create a support ticket under Cosmos MongoDB to request your account to be migrated from version 3.2 to 3.6.  
-* ** MongoDB API version 3.6:**  *Supported*  
+* **MongoDB API version 3.2:**  *Unsupported* - You can either create a new account using the version 3.6 of the Mongo API, or create a support ticket under Cosmos MongoDB to request your account to be migrated from version 3.2 to 3.6.  
+* **MongoDB API version 3.6:**  *Supported*  
 * **Cassandra API:** *Supported* 
 * **Gremlin (graph) API:** *Supported* - If you are connecting to your Gremlin account through its SQL API endpoint, refer to SQL (Core) API above.  
 * **Table API Gateway mode:** *Supported* - If you are connecting to your Table account through its SQL API endpoint, refer to SQL (Core) API above.  
