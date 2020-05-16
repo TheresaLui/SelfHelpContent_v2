@@ -36,5 +36,5 @@
 ## **Recommended Documents**
 
 * [Adding secret using CLI](https://docs.microsoft.com/azure/key-vault/secrets/quick-create-cli#add-a-secret-to-key-vault)
-* [Use Secrets with Azure Dev Ops](https://docs.microsoft.com/azure/devops/pipelines/library/variable-groups?view=azure-devops&tabs=yaml#link-secrets-from-an-azure-key-vault)
+* [Use Secrets with Azure DevOps](https://docs.microsoft.com/azure/devops/pipelines/library/variable-groups?view=azure-devops&tabs=yaml#link-secrets-from-an-azure-key-vault)
 * [Use Secrets with Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/app-service-key-vault-references)
