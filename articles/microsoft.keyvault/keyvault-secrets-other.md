@@ -1,25 +1,29 @@
 <properties
-	pageTitle="How to Create and Manage Secrets"
-	description="How to Create and Manage Secrets"
+	pageTitle="How to Perform Key Vault actions"
+	description="How to Perform Key Vault actions"
 	service="Microsoft.Keyvault"
 	resource="vaults"
-	authors="fhokholdMSFT"
+	authors="jlichwa"
 	ms.author="jalichwa"
-	displayOrder="19"
+	displayOrder="5"
 	selfHelpType="generic"
-	supportTopicIds="32739894"
+	supportTopicIds="32738116"
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
-	articleId="keyvault-createmanagesecrets"
+	articleId="keyvault-secrets-other"
 	ownershipId="AzureKeyVault_KeyVault"
 />
 
-# How to Create and Manage Secrets
-
+# How to Perform Key Vault actions
 ## **Recommended Steps**
 
-* Use appropriate method from recommended documents to create secret. If secret name exists, new version of secret will be created.
+* [Key Vault Get Started](https://docs.microsoft.com/azure/key-vault/key-vault-overview)
+* [About Secrets](https://docs.microsoft.com/azure/key-vault/secrets/about-secrets)
+* [Key Vault Best Practices](https://docs.microsoft.com/azure/key-vault/key-vault-best-practices)
+* [Developer's Guide](https://docs.microsoft.com/azure/key-vault/key-vault-developers-guide)
+
+### **Troubleshooting**
 
 **Troubleshooting**
 
@@ -28,9 +32,9 @@
 * If you have problem with access to key vault, make sure that you have access policy created: [Key Vault Access Policies](https://docs.microsoft.com/en-us/azure/key-vault/general/group-permissions-for-apps)
 * If you have problem with authenticate to key vault in code, use [Authentication SDK](https://azure.github.io/azure-sdk/posts/2020-02-25/defaultazurecredentials.html) 
 
+
 ## **Recommended Documents**
 
 * [Adding secret using CLI](https://docs.microsoft.com/azure/key-vault/secrets/quick-create-cli#add-a-secret-to-key-vault)
-* [Add Secrets to Key Vault with Azure Portal](https://docs.microsoft.com/azure/key-vault/secrets/quick-create-portal#add-a-secret-to-key-vault)
-* [Add Secrets to Key Vault with .NET](https://docs.microsoft.com/azure/key-vault/secrets/quick-create-net#save-a-secret)
-* Use preferred language from supported list [Developer's Guide](https://docs.microsoft.com/azure/key-vault/general/developers-guide)
+* [Use Secrets with Azure Dev Ops](https://docs.microsoft.com/azure/devops/pipelines/library/variable-groups?view=azure-devops&tabs=yaml#link-secrets-from-an-azure-key-vault)
+* [Use Secrets with Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/app-service-key-vault-references)
