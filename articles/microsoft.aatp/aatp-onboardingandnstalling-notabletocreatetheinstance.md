@@ -34,10 +34,10 @@
 * It looks like your tenant had an AATP instance in the past and it was deleted. However when the instance was deleted the AAD groups used by AATP for RBAC were not deleted
 * If you go to AAD you should see three groups. 
 
-* "Azure ATP (instance name) Administrators"
+* Azure ATP (instance name) Administrators
 
-* "Azure ATP (instance name) Viewers"
+* Azure ATP (instance name) Viewers
 
-* "Azure ATP (instance name) Users"
+* Azure ATP (instance name) Users
 
 * [Types of Azure ATP security groups](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups#types-of-azure-atp-security-groups) 
