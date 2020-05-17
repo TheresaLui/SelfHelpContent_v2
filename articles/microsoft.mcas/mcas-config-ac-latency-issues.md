@@ -19,13 +19,13 @@
 
 # I’m having issues around performance and latency with access and session controls
 
-Performance and latency issues may result from many factors outside of Cloud App Security's proxy. In general, all proxies add latency including the Cloud App Security proxy.
+Performance and latency issues may result for many reasons including factors outside of control Cloud App Security's proxy.
 
 When investigating performance and latency issues, it’s important to understand the specific scenarios, such as the following:
 
 - I am experiencing a slow login
 - My browser is experiencing latency
-- My application is experiencing latency
+- My app is experiencing latency
 
 Most users are able to resolve the issues using the steps below.
 
@@ -39,10 +39,14 @@ Most users are able to resolve the issues using the steps below.
 - If you are not using one of the fully-supported browsers, switch to one of them and try again.
 - If you are not using the latest version of a supported browser, upgrade to the latest version and try again.
 
-    > [!NOTE]
-    >
-    > - Functionality may differ between browsers. We recommend using one of the following fully-supported browsers:<br />- Microsoft Edge Chromium (latest)<br />- Google Chrome (latest)<br />- Mozilla Firefox (latest)<br />- Apple Safari (latest)
-    > - We will continue to support the latest version of Internet Explorer and the legacy version of Microsoft Edge, but the support will be limited and we recommend using one of the fully-supported browsers.
+    **NOTE**
+
+    - Functionality may differ between browsers. We recommend using one of the following fully-supported browsers:
+        - Microsoft Edge Chromium (latest)
+        - Google Chrome (latest)
+        - Mozilla Firefox (latest)
+        - Apple Safari (latest)
+    - We will continue to support the latest version of Internet Explorer and the legacy version of Microsoft Edge, but the support will be limited and we recommend using one of the fully-supported browsers.
 
 ## **Recommended Documents**
 
@@ -53,6 +57,6 @@ If you're still experiencing the issue after reviewing the documentation and con
 
 - Which devices and/or browsers is this occurring on?
 - The URL in which the error occurred
-- Screenshots or recording showing the issue
+- Screenshots or recording showing the performance issue with and without the proxy
 - Date, time, and user account that was used when the error occurred. These details can be retrieved from the Azure AD Sign-in Log
 - A network trace of the performed action
