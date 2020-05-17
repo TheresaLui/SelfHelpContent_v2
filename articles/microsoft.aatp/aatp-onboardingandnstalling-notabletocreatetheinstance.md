@@ -28,8 +28,9 @@
 
 ** Common Issues **
 
-- security Group With The Same Name Already Exists In Azure Active Directory 
-## **Recommended Steps**
+1. security Group With The Same Name Already Exists In Azure Active Directory.
+
+** Soulution **
 
 * It looks like your tenant had an AATP instance in the past and it was deleted. However when the instance was deleted the AAD groups used by AATP for RBAC were not deleted
 * If you go to AAD you should see three groups. 
@@ -39,5 +40,7 @@
 * Azure ATP (instance name) Viewers
 
 * Azure ATP (instance name) Users
+
+ To fix the above you will need to delete the security group ,and retry the operation.
 
 * [Types of Azure ATP security groups](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups#types-of-azure-atp-security-groups) 
