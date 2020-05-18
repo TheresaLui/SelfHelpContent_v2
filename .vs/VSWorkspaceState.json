@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\articles",
-    "\\articles\\microsoft.cosmosdb"
+    "\\articles\\microsoft.operationalinsights",
+    "\\articles\\problemscopingques.operationalinsights"
   ],
-  "SelectedNode": "\\articles\\microsoft.cosmosdb\\cosmosdb-admin-backuprestore.md",
+  "SelectedNode": "\\articles\\problemscopingques.operationalinsights\\problemscopingques-hodoi-moveworkspace.md",
   "PreviewInSolutionExplorer": false
 }
