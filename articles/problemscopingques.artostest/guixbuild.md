@@ -8,7 +8,7 @@
 	productPesIds="16920"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="65a4348a-2bab-4ab0-b5dc-4330ff026530"
+	articleId="65a4348a-2bab-4ab0-b5dc-4330ff026530-a"
 	ownershipId="Azure_RTOS"
 />
 # Problem Description
