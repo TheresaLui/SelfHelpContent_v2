@@ -419,25 +419,8 @@
             "required": true
 	},
 	{
-            "id": "af0b2508-eee1-417e-bf8a-4a992ae3d558",
-            "order": 21,
-            "controlType": "radioButtonGroup",
-            "displayLabel": "Please select the error you found from diagnostics",
-            "radioButtonOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                }
-            ],
-            "required": true
-	},
-	{
             "id": "4d3ee1ab-0171-456f-81a9-ee7a7d06e678",
-            "order": 22,
+            "order": 21,
             "controlType": "radioButtonGroup",
             "displayLabel": "Please select the root cause that's been diagnosed below",
             "radioButtonOptions": [
@@ -462,7 +445,7 @@
 	},
 	{
             "id": "e9c6722a-1e01-4dd8-bd71-b1da132a2eda",
-            "order": 23,
+            "order": 22,
             "controlType": "radioButtonGroup",
             "displayLabel": "Was the failover a planned maintenance?",
             "radioButtonOptions": [
@@ -479,24 +462,24 @@
 	},
 	{
             "id": "07f4027a-b0e8-4009-b984-330e0f5d48ae",
-            "order": 24,
+            "order": 23,
             "controlType": "radioButtonGroup",
             "displayLabel": "Was it maintenance or customer reset that caused the tunnel state change reason?",
             "radioButtonOptions": [
                 {
-                    "value": "Yes",
-                    "text": "Yes"
+                    "value": "Customer",
+                    "text": "Customer"
                 },
                 {
-                    "value": "No",
-                    "text": "No"
+                    "value": "Maintenance",
+                    "text": "Maintenance"
                 }
             ],
             "required": true
 	},
 	{
             "id": "395ec88d-e3ad-4303-bc9d-137fb9cf9627",
-            "order": 25,
+            "order": 24,
             "controlType": "radioButtonGroup",
             "displayLabel": "What is the tunnel state change reason (TunnelStateChangeReason)?",
             "radioButtonOptions": [
@@ -537,7 +520,7 @@
 	},
 	{
             "id": "e749500d-6a81-4160-91f3-bfa668bb800d",
-            "order": 26,
+            "order": 25,
             "controlType": "radioButtonGroup",
             "displayLabel": "Is the customer's device in the supported device list?",
             "radioButtonOptions": [
@@ -554,7 +537,7 @@
 	},
 	{
             "id": "9c56aba3-0f21-4014-b4c0-fcdb11e5bbf1",
-            "order": 27,
+            "order": 26,
             "controlType": "radioButtonGroup",
             "displayLabel": "Does the customer's config match the VPN device script?",
             "radioButtonOptions": [
@@ -571,7 +554,7 @@
 	},
 	{
             "id": "af0b2508-eee1-417e-bf8a-4a992ae3d558",
-            "order": 28,
+            "order": 27,
             "controlType": "radioButtonGroup",
             "displayLabel": "Please select the error you found from diagnostics",
             "radioButtonOptions": [
@@ -624,7 +607,7 @@
 	},
         {
             "id": "c524b80a-98cb-4b73-a2c9-cfaf2a125b40",
-            "order": 29,
+            "order": 28,
             "controlType": "radioButtonGroup",
             "displayLabel": "Please select the error you found from running diagnostics",
             "radioButtonOptions": [

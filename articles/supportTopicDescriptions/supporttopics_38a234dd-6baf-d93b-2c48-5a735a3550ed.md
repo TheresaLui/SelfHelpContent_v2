@@ -2,25 +2,24 @@
   pagetitle="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   description="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   authors="elixirsys2"
-  ms.author="v-vigra"
+  ms.author="v-vigra, rodejo"
   selfhelptype="SupportTopicDescription"
   productpesids="38a234dd-6baf-d93b-2c48-5a735a3550ed"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_38a234dd-6baf-d93b-2c48-5a735a3550ed"
-  ownershipid="AzureIdentity_SyncFabric"
-  />
+  ownershipid="AzureIdentity_AzureActiveDirectoryConnect" />
 # Support Topic Descriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Issues related to AAD user provisioning and synchronization ",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "0610c7f2-38a0-4514-ee0a-adc146934bf2",
@@ -121,8 +120,8 @@
     {
       "id": "5da3591c-eba3-3a2b-e760-a0763a16f061",
       "longDescription": "",
-      "shortDescription": "You are seeing a problem with one or a few particular users",
-      "searchTags": "problem with one user or more",
+      "shortDescription": "Problem in Azure AD Connect with one or a few users that are not syncing or not syncing correctly",
+      "searchTags": "sync;user;aadconnect",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -137,7 +136,7 @@
     {
       "id": "74c81dd5-2a27-fe42-941e-660e5f16582d",
       "longDescription": "",
-      "shortDescription": "Problems related to provisioning users from Azure AD into connected applications, typically using the SCIM standard. ",
+      "shortDescription": "Problems related to provisioning users from Azure AD into connected applications. Not be used for problems for SSO config, AADConnect or Intune.",
       "searchTags": "problem to provide user with SaaS app",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"

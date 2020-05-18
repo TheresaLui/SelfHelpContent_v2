@@ -16,6 +16,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
 # Connect VM to workspace or no VM data in workspace
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Connect VM to workspace or no VM data in workspace",
     "fileAttachmentHint": "",

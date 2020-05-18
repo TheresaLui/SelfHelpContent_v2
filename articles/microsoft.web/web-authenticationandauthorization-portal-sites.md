@@ -27,7 +27,7 @@
 * [Enable authentication and authorization for front-end/back-end app](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-auth-aad#enable-authentication-and-authorization-for-front-end-app)
 * [Setting up Application Gateway with an App Service and AAD](https://blogs.msdn.microsoft.com/waws/2017/11/21/setting-up-application-gateway-with-an-app-service-that-uses-azure-active-directory-authentication-and-url-authorization-rules/)
 
-**Configure Authentication with Identity Providers**
+**Configuring Authentication with Identity Providers**
 
 * [Azure Active Directory login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication)<br>
 * [Facebook login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-facebook-authentication)<br>

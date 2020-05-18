@@ -12,7 +12,7 @@
 	productPesIds="16342,15571,15797,16454,16470"
 	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="bc90f2f2-a08a-47e0-a0c1-8dc34731507d"
-	ownershipId="AzureData_AzureSQLVM"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Diagnose and resolve Linux Virtual Machine Network performance issues

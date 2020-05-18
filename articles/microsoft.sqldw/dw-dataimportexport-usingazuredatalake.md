@@ -24,4 +24,6 @@
 
 ## **Recommended Documents**
 
-* [Best practices when loading into SQL Data Warehouse](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data)
+* [Best practices when loading into Synapse SQL](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data)
+* [Azure SQL Data Warehouse PolyBase connectivity](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview#azure-sql-data-warehouse-polybase)
+* [Azure Data Factory Managed Identity](https://docs.microsoft.com/azure/data-factory/connector-azure-blob-storage#managed-identity)
