@@ -9,7 +9,7 @@
 	articleId="active-directory-mim-problem-with-sync"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32742349"
 	resourceTags=""
 	productPesIds="16666"
 	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"

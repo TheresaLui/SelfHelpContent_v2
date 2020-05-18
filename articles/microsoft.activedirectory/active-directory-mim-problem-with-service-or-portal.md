@@ -9,7 +9,7 @@
 	articleId="active-directory-mim-problem-with-service-or-portal"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32742348"
 	resourceTags=""
 	productPesIds="16666"
 	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
