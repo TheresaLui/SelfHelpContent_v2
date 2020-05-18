@@ -36,22 +36,37 @@
 				}]
         },
         {
+          "id": "Adding_a_cluster",
+          "order": 3,
+          "controlType": "multiselectdropdown",
+          "displayLabel": "Are you adding a cluster to a private cloud or scaling an existing cluster?",
+          "required": false,
+	    " "dropdownOptions": [{
+            "value": "Adding a cluster",
+            "text": "Adding a cluster"
+        }, 
+        {
+            "value": "Scaling an existing cluster",
+            "text": "Scaling an existing cluster"
+        }]
+        },
+        {
             "id": "CorrelationID",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "What is the Correlation ID of the failed deployment?",
             "required": false
         },
         {
             "id": "ExpressRouteURIID",
-            "order": 4,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "What is the ExpressRoute URI ID?",
             "required": false
         },
         {
             "id": "Resourcename",
-            "order": 5,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "What is the Resource name?",
             "required": false
