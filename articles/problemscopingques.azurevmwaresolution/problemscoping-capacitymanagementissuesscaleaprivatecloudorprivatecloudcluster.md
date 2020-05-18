@@ -36,21 +36,21 @@
 				}]
         },
         {
-          "id": "Adding_a_cluster",
-          "order": 3,
-          "controlType": "multiselectdropdown",
-          "displayLabel": "Are you adding a cluster to a private cloud or scaling an existing cluster?",
-          "required": false,
-	    " "dropdownOptions": [{
+    "id": "Adding_a_cluster",
+    "order": 3,
+    "controlType": "multiselectdropdown",
+    "displayLabel": "Are you adding a cluster to a private cloud or scaling an existing cluster?",
+    "dropdownOptions": [{
             "value": "Adding a cluster",
             "text": "Adding a cluster"
-        }, 
-        {
+        }, {
             "value": "Scaling an existing cluster",
             "text": "Scaling an existing cluster"
-        }]
-        },
-        {
+        }
+    ],
+    "required": false
+},
+       {
             "id": "CorrelationID",
             "order": 4,
             "controlType": "textbox",
