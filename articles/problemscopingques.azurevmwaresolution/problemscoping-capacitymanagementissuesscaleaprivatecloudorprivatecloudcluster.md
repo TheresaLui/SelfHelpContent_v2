@@ -25,8 +25,7 @@
 				"displayLabel": "When did the problem begin?",
 				"required": true
 		}, 
-        
-       {
+        {
     "id": "Adding_a_cluster",
     "order": 2,
     "controlType": "multiselectdropdown",
@@ -40,8 +39,7 @@
         }
     ],
     "required": false
-}
-
+}       },
         {
             "id": "CorrelationID",
             "order": 3,
