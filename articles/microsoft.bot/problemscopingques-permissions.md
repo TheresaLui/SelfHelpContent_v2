@@ -58,8 +58,8 @@
             "displayLabel": "If you are making use of RBAC for roles and permissions, please provide the list of roles assigned to the user.",
             "required": true,
             "watermarkText": "Please use the command shown below.
-	    az role assignment list --all --assignee example@example.com --output json | jq '.[] | 'principalName':.principalName,    'roleDefinitionName':.roleDefinitionName, 'scope':.scope}
-	    https://docs.microsoft.com/azure/role-based-access-control/role-assignments-list-cli#list-role-assignments-for-a-user",
+	    az role assignment list --all --assignee example@example.com --output json | jq '.[] | 'principalName':.principalName,    'roleDefinitionName':.roleDefinitionName, 'scope':.scope},
+	    "infoBalloonText": "https://docs.microsoft.com/azure/role-based-access-control/role-assignments-list-cli#list-role-assignments-for-a-user:,
         },
         {
             "id": "problem_description",
