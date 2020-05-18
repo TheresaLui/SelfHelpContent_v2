@@ -70,6 +70,13 @@
             "controlType": "textbox",
             "displayLabel": "What is the Resource name?",
             "required": false
+        },
+        {
+            "id": "Resourcegroup",
+            "order": 7,
+            "controlType": "textbox",
+            "displayLabel": "What is the Resource group?",
+            "required": false
         }]
  }
 ---
