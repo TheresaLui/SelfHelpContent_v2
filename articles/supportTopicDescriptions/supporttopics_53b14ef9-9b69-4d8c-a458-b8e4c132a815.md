@@ -456,14 +456,7 @@
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
     },
-    {
-      "id": "df3be71a-64c5-4b80-9b7f-392776c4495c",
-      "longDescription": "",
-      "shortDescription": "",
-      "searchTags": "alwayson;always on;ha;primary;secondary;listener;load balancer;ilb;availability group;ag;ag connectivity;availability group connectivity",
-      "category": "Availability",
-      "useInDiagnoseAndSolve": "TRUE"
-    },
+   
     {
       "id": "e5d71be9-2d18-46a7-2b83-e533b4b6987f",
       "longDescription": "",
@@ -603,7 +596,7 @@
     {
       "id": "71c1694b-d17e-a160-7281-9dac18051ba2",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Issues Connecting to the Virtaul Machine like RDP, SSH, Firewall or NSG",
       "searchTags": "",
       "category": "Connectivity",
        "useInDiagnoseAndSolve": "FALSE"
@@ -635,7 +628,7 @@
     {
       "id": "311af6de-1219-6413-c04e-067b5d5a97a6",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Issues with performance like slow SQL Server, Network, Disk or Virtual Machine",
       "searchTags": null,
       "category": null,
       "useInDiagnoseAndSolve": "FALSE"
@@ -715,7 +708,7 @@
     {
      "id": "ad3d1f86-bddd-6add-5ef3-61cca77fc992",
      "longDescription": "",
-     "shortDescription": "",
+     "shortDescription": "Issues SQL Server Instance Security like Certificates, SSL, TLS, Encryption, Auditing, Logins",
      "searchTags": "",
      "category": "Security",
      "useInDiagnoseAndSolve": "FALSE"
@@ -763,7 +756,7 @@
     {
       "id": "d0dba167-0a54-1d57-6490-52d6ff062870",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Issues with SQL Server backup like Auto/managed backup, Backup to Azure Storage(URL), Backup to disk or Azure Backup Services",
       "searchTags": "",
       "category": null,
       "useInDiagnoseAndSolve": "FALSE"
@@ -779,7 +772,7 @@
     {
       "id": "d814c242-026f-8d64-abe8-30e028aa1e26",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Issues with an AlwaysOn solution such as availability groups, failover cluster instance, mirroring, log shipping or replication",
       "searchTags": null,
       "category": null,
       "useInDiagnoseAndSolve": "FALSE"
@@ -795,7 +788,7 @@
     {
       "id": "fe4569a4-9745-ae43-785f-812e63b668ae",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Issues Virtual Machine start, stop, restarts, Storage configuration, VM size guidelines",
       "searchTags": null,
       "category": null,
       "useInDiagnoseAndSolve": "FALSE"
@@ -811,7 +804,7 @@
     {
       "id": "1527741e-7a7b-86ed-fbef-ea5f6917a441",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Issues with SQL Server Setup/Patching, Licensing, SQL VM images, SQL VM RP/IaaS Extension Setup",
       "searchTags": "",
       "category": "Licensing",
       "useInDiagnoseAndSolve": "FALSE"
@@ -819,7 +812,7 @@
     {
       "id": "9dc91de7-74a4-cc01-510a-de9f583f59eb",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Connection issues with SQL Server Instance stand alone or AlwaysOn AG/FCI",
       "searchTags": null,
       "category": null,
       "useInDiagnoseAndSolve": "FALSE"
@@ -932,7 +925,7 @@
     {
       "id": "b6e42bd0-488f-2182-b62e-06aea484fb03",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Issues with Database space, corruption, configuration, SQL Service Startup, SQL agent, database mail, SQL Crashes and dumps, Tools, Polybase, R Services, Resource Governor etc.",
       "searchTags": null,
       "category": null,
       "useInDiagnoseAndSolve": "FALSE"
