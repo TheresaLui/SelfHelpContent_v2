@@ -20,6 +20,6 @@
 The issue needs bit more details to provide a solution. Please discuss the issue with an SME/EEE by engaging them using Ava. Refer to the following wiki for Ava documentation.
 <!--/issueDescription-->
 
-## **Recommended Documents**
+**Recommended Documents**
 
 1. [Ava Documentation](https://supportability.visualstudio.com/AzureDataFactory/_wiki/wikis/AzureDataFactory/289439/Ava-Documentation)

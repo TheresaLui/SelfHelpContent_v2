@@ -15,7 +15,7 @@
    ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# How to check if there are any existing "In Progress" run which is getting delayed in completion or stuck
+# How to check if there are any existing In Progress run which is getting delayed in completion or stuck
 
 You can run the following command in Kusto to check if the pipeline run is in InProgress state or getting delayed/stuck in completion.
 
