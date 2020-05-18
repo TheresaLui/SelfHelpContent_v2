@@ -13,7 +13,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     ownershipId="AzureIdentity_AppProxy"
 />
 
