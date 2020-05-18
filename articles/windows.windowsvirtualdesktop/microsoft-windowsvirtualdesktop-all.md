@@ -20,6 +20,7 @@
 
 ## **Recommended Documents**
 
+* [WVD How to videos: Troubleshoot connectivity](https://support.microsoft.com/help/4563049/how-to-videos-about-windows-virtual-desktop)<br>
 * [Overview of Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/overview)<br>
 * [Requirements for Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/overview#requirements)<br>
 * [Troubleshooting overview](https://docs.microsoft.com/azure/virtual-desktop/troubleshoot-set-up-overview)<br>

@@ -22,6 +22,7 @@
 ## **Recommended Documents**
 
 * [Migration from Fall 2019 to Spring Update 2020](https://techcommunity.microsoft.com/t5/windows-virtual-desktop/migration-from-fall-2019-to-spring-update-2020/m-p/1390068#M4017)<br>
+* [Published apps or desktops not showing in web client? Ensure you use the new URL for Spring update.](https://docs.microsoft.com/azure/virtual-desktop/connect-web)<br>
 * [WVD Deep dives](https://vshow.on24.com/vshow/wvd/#home)<br>
 * [Visit WVD product page for links to pricing calculator and experience estimator](https://azure.microsoft.com/services/virtual-desktop/)<br>
 * [How to migrate VDI to Azure and Windows Virtual Desktop](https://www.youtube.com/watch?v=rkKaWT-tN54&feature=youtu.be)<br>
