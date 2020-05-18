@@ -38,7 +38,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 3.0,
+  "version": 4.0,
   "learnMoreLink": "https://aka.ms/batch_deprecatedapi_learnmore",
   "description": "Upgrade to the latest API version to ensure your Batch account remains operational.",
   "longDescription": "In the past 14 days, you have invoked a Batch management or service API version that is scheduled for deprecation. Upgrade to the latest API version to ensure your Batch account remains operational.",
@@ -71,10 +71,6 @@
     {
       "name": "sdkType",
       "title": "SDK Type"
-    },
-    {
-      "name": "operations",
-      "title": "Operations"
     },
     {
       "name": "version",
