@@ -23,7 +23,7 @@ We have identified your network virtual appliance (NVA) VM configuration as the 
 
 * You must use a Network Virtual Appliance (NVA) in the Hub Vnet
 * There must be UDRs in the spoke VNets with the next hop type of 'Network Virtual Appliance' pointing to the NVA private VNet IP
-* NVA NICs must have *'IP Forwarding'* enabled
+* NVA NICs must have *'IP Forwarding'* enabled <br><br>
 
 The last remaining requirement is that *NVAs must be configured correctly internally*. For that, we ask that you [contact the vendor of the NVA or NVA software](https://support.microsoft.com/help/2984655/support-for-azure-market-place-for-virtual-machines)  
 
