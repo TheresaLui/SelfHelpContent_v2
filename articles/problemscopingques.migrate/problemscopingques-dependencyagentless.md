@@ -1,14 +1,14 @@
 <properties
-         pageTitle="Scoping questions for dependency visualization"
-         description="Scoping questions for dependency visualization"
-         authors="An-mol"
-         ms.author="anvar"
+         pageTitle="Scoping questions for agentless dependency analysis"
+         description="Scoping questions for agentless dependency analysis"
+         authors="musa-57"
+         ms.author="hamusa"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32675744"
+         supportTopicIds="32691004"
          productPesIds="16348"
          cloudEnvironments="public, Fairfax"
          schemaVersion="1"
-         articleId="4060b4a6-6e58-45cc-8ad7-a2965d59becd"
+         articleId="4060b4a6-6e58-45cc-8ad7-a2965d59becq"
 	ownershipId="Compute_AzureMigrate"
 />
 
@@ -18,16 +18,16 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Creating, updating and exporting issues",
+    "title": "Agentless dependency analysis",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "machine_name",
+            "id": "appliance_name",
             "order": 1,
             "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "Provide the name of the machine on which you are facing issue.",
-            "watermarkText": "E.g. MyMachine01",
+            "displayLabel": "Provide the name of the appliance on which you have set up agentless dependency analysis.",
+            "watermarkText": "E.g. AapplianceDC1",
             "required": false
         },
         {
@@ -35,7 +35,7 @@
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
@@ -44,7 +44,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
+            "required": false,
             "hints": []
         }
     ],
