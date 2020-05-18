@@ -12,12 +12,12 @@
     productPesIds="16348"  
     cloudEnvironments="public, Fairfax, usnat, ussec"  
     articleId="75vc6548-2a3f-4d0d-96c5-b2b5886483e6"  
-	ownershipId="Compute_AzureMigrate"
+    ownershipId="Compute_AzureMigrate"
 />
 
 # Issues related to Movere, non-Microsoft tools (ISVs) and non-Server related Microsoft tools in Azure Migrate
 
-## **Recommended Steps**  
+## **Recommended Steps**
 
 ### **Issues with non-Microsoft tools**
 
@@ -29,7 +29,7 @@ For any issues related to registering the non-Microsoft/ISV tool, features of th
 - [Turbonomic](https://go.microsoft.com/fwlink/?linkid=2118705)
 - [UnifyCloud](https://go.microsoft.com/fwlink/?linkid=2118706)
 - [Carbonite](https://go.microsoft.com/fwlink/?linkid=2118707)
-- [Rackware](mailto:support@rackwareinc.com)
+- Rackware mail to:support@rackwareinc.com
 - [Lakeside](https://go.microsoft.com/fwlink/?linkid=2118054)
 
 ### **Issues with Movere and non-Server related Microsoft tools**
@@ -51,12 +51,17 @@ Make sure that you have selected the right project by clicking on 'Change' again
   
 ### **I don't see the tool that I want to use**
   
-We are constantly adding tools to Azure Migrate. [Learn more](https://go.microsoft.com/fwlink/?linkid=2118711).  
+We are constantly adding tools to Azure Migrate. [Learn more](https://go.microsoft.com/fwlink/?linkid=2118711).
+
+### **ISV tools that are available in other geographies are not listed in Azure Government**
+
+ISV partners are in process of enabling their tools in Azure Government for Azure Migrate. In the meanwhile, either you can use the partner tool independently or use any of the listed tools.
   
 ### **Do I need to pay for Azure Migrate and the non-Microsoft/ISV tools that I plan to use?**
 
-Azure Migrate and the in-built Server Assessment, Server Migration tools are available at no additional charge. However, you may incur charges for other non-Microsoft/ISV assessment and migration tools you use while using Azure Migrate. [Learn more](https://go.microsoft.com/fwlink/?linkid=2118712).
+Azure Migrate and the in-built Server Assessment, Server Migration tools are available at no additional charge. However, you may incur charges for other non-Microsoft/ISV assessment and migration tools you use while using Azure Migrate. [Learn more](https://go.microsoft.com/fwlink/?linkid=2118712).
 
 ### **I don't see a particular geography when creating the Azure Migrate project**
-  
-Azure Migrate is currently available in United States, Europe, Asia, and United Kingdom. We will soon add support for Canada and Australia. Other geographies will follow later this year. You can use a project in any geography to perform a migration to an Azure region of your choice.  
+
+Azure Migrate is currently available in Asia, Europe, Japan, United Kingdom, United States, Canada, India, Australia and Azure Government. Teams are working continuously to make Azure Migrate available in remaining geographies, as and when the new geographies gets added the same shall be updated. You can use a project in any geography to perform a migration to an Azure region of your choice.
+Review the supported geographies for [public](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-public-cloud) and [government clouds](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-azure-government).

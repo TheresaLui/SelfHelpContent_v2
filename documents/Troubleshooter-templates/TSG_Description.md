@@ -3,7 +3,6 @@
 	description="<Brief Description of the troubleshooter. This text is not presented>"
 	service="<service provider>"
 	resource="<resource type>"
-	authors="<Your Github alias>"
 	ms.author="<Your Microsoft alias>"
 	selfHelpType="TSG_Description"
 	cloudEnvironments="<cloud environments>"

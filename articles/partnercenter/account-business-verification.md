@@ -21,10 +21,8 @@
 # Partner Center account business verification
 
 ## **Recommended Steps**
-- Business verification confirms that the enrolling company is a legitimate business entity and at the address used for the enrollment
-- If verification is delayed or pending by more than 3 days after enrollment, you can create a support ticket by clicking on Next step section
 - If your business verification is rejected, verify that you have provided the correct Company information in your profile. If the information is incorrect, your company Global Admin can visit the profile page and update the information which will re-initiate the verification process.
-- If the information is correct and still the verification is rejected, you need to upload verification documents be clicking this link:
+- If the information is correct and still the verification is rejected, you need to upload verification documents by clicking this link:
 [Upload verification documents](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=3&topicid=21655de7-7dbb-4927-33a2-f60f45feadf3)
  
 ## **Recommended Documents**

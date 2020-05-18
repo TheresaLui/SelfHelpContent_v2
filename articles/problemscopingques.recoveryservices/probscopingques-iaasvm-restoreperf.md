@@ -9,7 +9,7 @@
          cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="9a98fd5d-c64c-4d29-9f4d-fd53e64b5c0b"
-	ownershipId="StorageMediaEdge_Backup"
+	 ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM Restore performance
 ---
@@ -25,7 +25,7 @@
     },
     "formElements": [
         {
-            "id": "using_VM",
+            "id": "vm_facing_issue",
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Which virtual machine(s) is experiencing problem?",
@@ -41,7 +41,8 @@
                 "text": "Other, don't know or not applicable"
             }
 	    },
-            "required": false
+            "required": true,
+	    "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "Issue_Type",

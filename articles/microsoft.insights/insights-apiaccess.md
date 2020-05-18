@@ -7,7 +7,7 @@
     ms.author="jamdavi"
     articleId="5bcae984-826e-4880-b0eb-7498f98d76be"
     displayOrder="103"
-    selfHelpType="resource"
+    selfHelpType="generic"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32602213"

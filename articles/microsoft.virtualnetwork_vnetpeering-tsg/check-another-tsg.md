@@ -13,7 +13,7 @@
 
 # Customer Scenario Out of Scope for TSG
 
-This customer issue is not in scope for this TSG. Follow the recommended steps below to fine a related TSG.
+This customer issue is not in scope for this TSG. Follow the recommended steps below to find a related TSG.
 
 ## **Recommended Steps**
 

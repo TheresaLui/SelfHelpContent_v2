@@ -17,5 +17,11 @@
 
 # Is it safe to delete
 <!--issueDescription-->
-We've reviewed your case and determining whether a storage resource can be deleted is usually based on three factors: 1) How much data is stored, 2) What kind of data is being stored, and 3) How often that data is being accessed. The final conclusion and decision needs to be made by you as you are the owners and responsibility party for your data. We are happy to assist you with investigating these resources more based on the three criteria mentioned previously.
+We've reviewed your case and determining whether a storage resource can be deleted is usually based on three factors:<br>
+<br>
+1. How much data is stored<br>
+2. What kind of data is being stored, and<br>
+3. How often that data is being accessed<br>
+<br>
+While we can provide information to help your decision, the final conclusion and decision needs to be made by you as you are the owners and responsibile party for your data. We are happy to assist you with investigating these resources more based on the three criteria mentioned previously.
 <!--/issueDescription-->

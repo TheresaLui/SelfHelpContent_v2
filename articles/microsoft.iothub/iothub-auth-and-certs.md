@@ -21,4 +21,5 @@
 * [IoT Hub access control](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-security)<br>
 * [Set up X.509 security in your Azure IoT hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-security-x509-get-started)<br>
 * [Device Authentication using X.509 CA Certificates](https://docs.microsoft.com/azure/iot-hub/iot-hub-x509ca-overview)
+* [Control access to IoT Hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-security)
 

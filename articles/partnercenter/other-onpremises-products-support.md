@@ -14,12 +14,13 @@
 	clientIds='partnercenter'
 	resourceTags="other"
 	productPesIds="17113"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Other_Portals"
 />
 
 # This topic will guide you to the support experience for any other on-premises products
-
+ 
+ This topic will guide you to the support experience for any other on-premises products
 
 ## **Recommended Steps**
 
@@ -29,3 +30,5 @@
 ## **Recommended Documents**
 
  * [Create on-premises professional support incident process documentation](https://support.microsoft.com/help/3020636/using-an-access-id-and-a-contract-id-to-create-on-premises-professiona)
+ 
+ * [How many Partner support incidents are remaining?](https://support.microsoft.com/help/4559075/how-many-partner-support-incidents-are-remaining)

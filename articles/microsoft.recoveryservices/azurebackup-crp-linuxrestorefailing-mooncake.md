@@ -12,7 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-crp-linuxrestorefailing-mooncake"
-	ownershipId="Compute_VirtualMachines"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure backup - Restore is failing for my VM

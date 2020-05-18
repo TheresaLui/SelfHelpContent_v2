@@ -5,7 +5,7 @@
   ms.author="v-vigra, marwa"
   selfhelptype="SupportTopicDescription"
   productpesids="46c9bb77-3f94-f481-375c-911d8f0f9a0e"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_46c9bb77-3f94-f481-375c-911d8f0f9a0e"
   ownershipid="AzureIdentity_MSGraphTeamworkAPIs" />
 # Support Topic Descriptions for 46c9bb77-3f94-f481-375c-911d8f0f9a0e

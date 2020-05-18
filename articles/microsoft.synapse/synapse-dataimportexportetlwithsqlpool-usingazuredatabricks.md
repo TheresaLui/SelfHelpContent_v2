@@ -38,7 +38,7 @@
 ```
     SELECT [My Column Name] AS MyColumnName
     FROM <table>
-````
+```
 
 * [Use the appropriate resource class and service level](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data) to ensure [enough memory](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data#loading-to-a-staging-table). As you scale your service level, SQL pool increases the numbers of readers and writers for parallelism.
 

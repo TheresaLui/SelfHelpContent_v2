@@ -7,7 +7,7 @@
 	supportTopicIds="32727980"
     productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-    articleId="scoping_dev_notlisted"
+    articleId="scoping_dev_webapp"
 	schemaVersion="1"
 	ownershipId="AzureIdentity_InformationProtection"
 />

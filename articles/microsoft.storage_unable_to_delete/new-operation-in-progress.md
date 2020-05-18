@@ -55,6 +55,6 @@ Filtering: AnyField contains $CorrelatioId$
 
 **Recommended Documents**
 
-1. https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265656/Azure_Storage_TSG_An-operation-is-currently-performing-on-this-storage-account-that-requires-exclusive-access(
+1. [An operation is currently being performed](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265656/Azure_Storage_TSG_An-operation-is-currently-performing-on-this-storage-account-that-requires-exclusive-access)
 
 

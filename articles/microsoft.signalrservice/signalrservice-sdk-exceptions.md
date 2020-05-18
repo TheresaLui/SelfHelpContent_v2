@@ -7,7 +7,7 @@
 	authors="sffamily"
 	ms.author="zhshang"
 	displayOrder="81"
-	articleId="signalrservice-configuration-connectionstring-issue"
+	articleId="1bc6253b-ea06-41ff-a4f2-b6372a16a400"
 	diagnosticScenario=""
 	selfHelpType="resource"
 	supportTopicIds="32683992"

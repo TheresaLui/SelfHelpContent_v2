@@ -27,7 +27,7 @@ As of March 18th, 2020 some Azure HDInsight customers have received error notifi
 
 Engineers are aware of this issue and are actively investigating.
 
-For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-release-notes#known-issues) page.
+For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/azure/hdinsight/hdinsight-release-notes#known-issues) page.
 
 For additional help, continue creating this support request.
 
@@ -67,6 +67,7 @@ You can use trusted IP addresses or Conditional Access to disable MFA for specif
 
 ## **Recommended Documents**
 
+* [Create Cluster Error Dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)
 * [APACHE domain joined configure using Azure ADDS](https://docs.microsoft.com/azure/HDInsight/domain-joined/apache-domain-joined-configure-using-azure-adds)
 * [Check if HDInsight VNET is peered to AAD-DS VNET](https://docs.microsoft.com/azure/HDInsight/domain-joined/apache-domain-joined-configure-using-azure-adds#networking-considerations)
 * [Check if secure LDAP is configured correctly with the right certificate](https://docs.microsoft.com/azure/HDInsight/domain-joined/apache-domain-joined-configure-using-azure-adds#enable-azure-ad-ds)
