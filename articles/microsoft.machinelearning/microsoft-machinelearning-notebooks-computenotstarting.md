@@ -9,7 +9,7 @@
 	supportTopicIds="32739648"
 	productPesIds="16644"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.notebooks"
+	articleId="microsoft.machinelearning.notebooks-computenotstarting"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />

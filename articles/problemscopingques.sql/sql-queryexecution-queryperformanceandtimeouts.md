@@ -34,8 +34,8 @@
 			"id": "problem_end_time",
 			"order": 2,
 			"controlType": "datetimepicker",
-			"displayLabel": "What is the end time of the issue?",
-			"required": true,
+			"displayLabel": "What is the end time of the issue? (If ongoing, leave this field blank)",
+			"required": false,
 			"diagnosticInputRequiredClients": "Portal"
 		}, {
 			"id": "recently_migrated",

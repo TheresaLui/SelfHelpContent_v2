@@ -49,7 +49,7 @@
                     "value": "DBConfiguration"
                 },
                 {
-                    "text": "I’m not sure/don’t know",
+                    "text": "I'm not sure/don't know",
                     "value": "dont_know_answer"
                 }
             ],
@@ -78,7 +78,7 @@
                      "value": "Error"
                  },
                  {
-                     "text": "I'm not sure/don’t know",
+                     "text": "I'm not sure/don't know",
                      "value": "dont_know_answer"
                  }
              ],
@@ -111,7 +111,7 @@
                      "value": "DBFailover"
                  },
                  {
-                     "text": "I’m not sure/don’t know",
+                     "text": "I'm not sure/don't know",
                      "value": "dont_know_answer"
                  }
              ],
