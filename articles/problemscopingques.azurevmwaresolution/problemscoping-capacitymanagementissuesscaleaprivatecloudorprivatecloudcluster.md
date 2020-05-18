@@ -24,7 +24,17 @@
 				"controlType": "datetimepicker",
 				"displayLabel": "When did the problem begin?",
 				"required": true
-		}, 
+		}, {
+            "id": "problem_description",
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is the error message?",
+            "required": true,
+	    "useAsAdditionalDetails": true,
+	    "hints": [{
+					"text": "What is the error message?"
+				}]
+        },
         {
             "id": "CorrelationID",
             "order": 3,
@@ -33,33 +43,18 @@
             "required": false
         },
         {
-            "id": "ErrorMessage",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What is the Error message?",
-            "required": false
-        },
-        {
             "id": "ExpressRouteURIID",
-            "order": 5,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "What is the ExpressRoute URI ID?",
             "required": false
         },
         {
             "id": "Resourcename",
-            "order": 6,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "What is the Resource name?",
             "required": false
-        },
-        {
-            "id": "Resourcegroup",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "What is the Resource group?",
-            "required": false
-        }
-            ]
+        }]
  }
 ---
