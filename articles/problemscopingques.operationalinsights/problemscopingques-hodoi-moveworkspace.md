@@ -18,7 +18,7 @@ schemaVersion="1"
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": false,
+    "resourceRequired": true,
     "title": "Move workspace to a different subscription or resource group",
     "fileAttachmentHint": "Provide a screenshot of the error in UI or CLI",
     "formElements": [
