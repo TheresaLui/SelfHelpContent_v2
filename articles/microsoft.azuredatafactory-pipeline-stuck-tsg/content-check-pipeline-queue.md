@@ -15,7 +15,7 @@
    ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# How to check if there are any existing pipeline with status as "Queued"?
+# How to check if there are any existing pipeline with status as Queued?
 
 Run the following Kusto Query to check the status of the Pipeline Runs: 
 

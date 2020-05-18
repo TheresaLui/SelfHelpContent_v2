@@ -23,7 +23,7 @@ Refer to the following wikis for known issues.
 
 <!--/issueDescription-->
 
-# **Recommended Documents**
+**Recommended Documents**
 
 1. [HDInsight](https://supportability.visualstudio.com/AzureDataFactory/_wiki/wikis/AzureDataFactory/295120/Index-Pipeline-Activities-HDInsight-(Hive-MapReduce-Pig-Spark-Streaming))
 2. [Web Activity](https://supportability.visualstudio.com/AzureDataFactory/_wiki/wikis/AzureDataFactory/325233/Index-Pipeline-Activities-Web-Activity)
