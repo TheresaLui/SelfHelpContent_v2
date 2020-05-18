@@ -19,7 +19,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Move workspace to different subscription or resource group
-You can move Log Analytics workspace to a different resource group or subscription in the same region. When applicable, this also moves the associated Automation account (if exists) from one Azure subscription to another.<br>
+You can move the Log Analytics workspace to a different resource group or subscription in the same region. When applicable, this also moves the associated Automation account (if exists) from one Azure subscription to another.<br>
 
 [Workspace move considerations](https://docs.microsoft.com/azure/azure-monitor/platform/move-workspace#workspace-move-considerations):
 * Review [Move a Log Analytics workspace to different subscription or resource group article](https://docs.microsoft.com/azure/azure-monitor/platform/move-workspace)
