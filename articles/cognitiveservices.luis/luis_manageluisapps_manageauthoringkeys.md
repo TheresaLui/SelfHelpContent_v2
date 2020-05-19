@@ -7,14 +7,14 @@ authors="SaraKandil"
 ms.author="a-sakand"
 displayOrder=""
 selfHelpType="generic"
-supportTopicIds="32683913"
+supportTopicIds="32683912"
 productPesIds="16869"
 cloudEnvironments="public, MoonCake, fairfax"
-articleId="LUIS_Conversation_ManageLUISApps_ManageAuthorsAndCollaborators"
+articleId="LUIS_Conversation_ManageLUISApps_ManageAuthoringKeys"
 ownershipId="AzureCogSvc_CognitiveServices"
 />
 
-# Manage Authors and Collaborators
+# Manage Authoring Keys
 
 ## **Recommended Documents**
 
@@ -22,7 +22,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 * A LUIS application owner may add users to his/her apps and they have the control to build, train, and publish the app.
 * Term given to identify these users and how to manage them differs and depends on the current status of the app.
-* **Two possible states of your apps** [Migrated](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-migration-authoring) or not migrated.
+* **Two possible states of your apps:** [Migrated](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-migration-authoring) or not migrated.
 * If owner's application is **not migrated**, users added to the owner applications are called **Collaborators** and they are added on the application level. i.e.: they will have visibility and control on only the applications that the owner chooses.
 * If owner's application is **migrated**, users added to the owner applications are called **Contributors** and they are added on the resource level. i.e.: they will have visibility and control over all applications the owner owns.
 
