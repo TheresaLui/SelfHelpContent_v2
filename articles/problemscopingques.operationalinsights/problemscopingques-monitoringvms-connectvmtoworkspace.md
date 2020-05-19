@@ -134,7 +134,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "displayLabel": "Please select affected workspace name.",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.OperationalInsights/workspaces?api-version=2015-11-01-preview,
+                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.OperationalInsights/workspaces?api-version=2015-11-01-preview",
                "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
