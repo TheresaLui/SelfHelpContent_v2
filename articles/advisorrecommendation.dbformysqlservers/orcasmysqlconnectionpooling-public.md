@@ -3,9 +3,9 @@
     description="Improve MySQL connection management"
     authors="ambhatna"
     ms.author="ambhatna"
-    articleId="f62ef41c-2cdb-4f4e-9dc9-a391c579b0fb_Fairfax"
+    articleId="f62ef41c-2cdb-4f4e-9dc9-a391c579b0fb_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Fairfax"
+    cloudEnvironments="Public"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Improve MySQL connection management
@@ -16,10 +16,8 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "f62ef41c-2cdb-4f4e-9dc9-a391c579b0fb",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetMySqlConnectionPoolingRecommendations",
     "schemaVersion": 2.0,
-    "dataSource": "Kusto",
-    "refreshInterval": "12:00:00"
+    "dataSource": "SAS"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
@@ -47,7 +45,7 @@
   "potentialBenefits": "Improve performance by reducing overhead associated with short-lived and idle database connections",
   "actions": [
     {
-      "actionId": "b5f20aea-989a-4788-b03f-88f04cd702e4",
+      "actionId": "16250a39-b556-4fd5-91d2-6749e49e4c55",
       "description": "Configuring Connection Pooling using ProxySQL",
       "actionType": "Document",
       "documentLink": "https://aka.ms/azure_mysql_proxysql"
@@ -55,7 +53,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "d3ca8b0f-1dbb-4735-9261-cc6a55112420",
+      "actionId": "d4fd1cb5-0c36-4b06-81fd-d808a986136d",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
