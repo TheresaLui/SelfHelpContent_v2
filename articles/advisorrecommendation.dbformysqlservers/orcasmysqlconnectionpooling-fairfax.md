@@ -43,7 +43,7 @@
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/azure_mysql_connection_pooling",
   "description": "Improve MySQL connection management",
-  "longDescription": "Our internal telemetry indicates that your application connection to MySQL server may not be managing connections efficiently. This may result in unnecessary resource consumption and overall higher application latency. To improve connection management, we recommend that you reduce the number of short-lived connections and eliminate unnecessary idle connections. This can be done by configuring a server side connection-pooler, such as ProxySQL.",
+  "longDescription": "Our internal telemetry indicates that your application connecting to MySQL server may not be managing connections efficiently. This may result in unnecessary resource consumption and overall higher application latency. To improve connection management, we recommend that you reduce the number of short-lived connections and eliminate unnecessary idle connections. This can be done by configuring a server side connection-pooler, such as ProxySQL.",
   "potentialBenefits": "Improve performance by reducing overhead associated with short-lived and idle database connections",
   "actions": [
     {
