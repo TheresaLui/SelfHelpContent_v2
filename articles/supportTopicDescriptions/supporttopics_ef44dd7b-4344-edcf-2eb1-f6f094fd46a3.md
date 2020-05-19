@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7fc61b43-c23f-0777-ff5a-642ea4784369",
+      "longDescription": "",
+      "shortDescription": "When VM does not boot or RDP fails in Azure post-migration. Select Virtual Machines as service instead of Migrate in case submission. ",
+      "searchTags": "rdp;connectivity;boot;VM",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bb8d2c9b-1e6a-8a2f-c830-feb96edaa58f",
       "longDescription": "",
       "shortDescription": "Issues when users hit Migrate button in Server Migration workflow for VMware, Hyper-V, other clouds and physical machines. ",
