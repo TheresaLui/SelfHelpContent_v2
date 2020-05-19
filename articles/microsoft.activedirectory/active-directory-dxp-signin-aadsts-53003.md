@@ -27,6 +27,7 @@ Based on the information you provided we have identified following issue and rec
 **Message:** Access has been blocked by one or more Conditional Access policies with access controls configured to block.
 <!--/issueDescription-->
 
-**Action:** The user sign in was blocked by a conditional access policy. If this block was unexpected, review the conditional access policy configuration which applied to the sign in attempt. The conditional access policy can be found in the Azure AD sign in event entry in the Conditional Access tab. Simply click on the policy or policies to view the settings or change the settings as needed. If the block was an expected result for the sign in attempt more details can be found for review in the sign in event as well.<br><br>You can refer to the following link for the steps to resolve the issue.
+**Recommended Steps:**
+The user sign in was blocked by a conditional access policy. If this block was unexpected, review the conditional access policy configuration which applied to the sign in attempt. The conditional access policy can be found in the Azure AD sign in event entry in the Conditional Access tab. Simply click on the policy or policies to view the settings or change the settings as needed. If the block was an expected result for the sign in attempt more details can be found for review in the sign in event as well.<br><br>You can refer to the following link for the steps to resolve the issue.
 
 You can view additional information in the [Sign-in Logs](https://portal.azure.com/#blade/Microsoft_AAD_IAM/SignInEventsV3Blade/{key}/{value}/)<br> [Troubleshooting sign-in problems with Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access)<br>
