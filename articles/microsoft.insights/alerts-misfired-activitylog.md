@@ -23,7 +23,7 @@
 
 ## **Recommended Steps**
 
-If you believe your activity log alert shouldn't have triggered but it did, the following steps might help resolve the issue.
+If you believe your activity log alert shouldn't have triggered but it did, the following steps may help resolve the issue.
 
 1. Review if your activity log alert rule condition is too broad for what you want to monitor:
 

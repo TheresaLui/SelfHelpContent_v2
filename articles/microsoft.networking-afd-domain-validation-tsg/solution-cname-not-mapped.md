@@ -1,6 +1,6 @@
 <properties
-	pageTitle=""
-	description=""
+	pageTitle="CNAME mapping is missing"
+	description="CNAME mapping is missing"
 	service="Microsoft.Network/"
 	resource="Microsoft.Network/frontDoors"
 	authors="JRMayberry"
@@ -15,7 +15,14 @@
 	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# 
+# CNAME mapping is missing
 <!--issueDescription-->
+Dear customer,
 
+We've done some preliminary checking on your domain and it does not currently having a CNAME mapping to the Azure Front Door domain. In order to continue this process, you must map your domain to an AFD CNAME. More information can be found at the link below.
+
+Thank you
 <!--/issueDescription-->
+
+## Recommended Documents
+[CNAME mapping](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-custom-domain-https#custom-domain-is-mapped-to-your-front-door-by-a-cname-record)
