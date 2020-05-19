@@ -13,6 +13,7 @@
     ownershipId="AzureMonitoring_Essentials"
 />
 
+# For issues related to Azure Monitor for Storage
 
 ## **Recommended Documents**
 
@@ -21,7 +22,7 @@ Most customers resolved their questions about Azure Monitor for Storage on their
 - [Azure Monitor for Storage](https://docs.microsoft.com/azure/azure-monitor/insights/storage-insights-overview):
 
 	* For issues related to customizing Storage Insights-[Customize Azure Monitor for Storage](https://docs.microsoft.com/azure/azure-monitor/insights/storage-insights-overview#customize-azure-monitor-for-storage)<br>
-	* For issues related to displaying Storage Accounts-[Troubleshooting Azure Monitor for Storage](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/storage-insights-overview#troubleshooting)<br>
+	* For issues related to displaying Storage Accounts-[Troubleshooting Azure Monitor for Storage](https://docs.microsoft.com/azure/azure-monitor/insights/storage-insights-overview#troubleshooting)<br>
 	* To help understand the specific Storage Metrics-[Azure Storage metrics in Azure Monitor](https://docs.microsoft.com/azure/storage/common/monitor-storage-reference#metrics)
    
 	
