@@ -22,7 +22,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 * A LUIS application owner may add users to his/her apps and they have the control to build, train, and publish the app.
 * Term given to identify these users and how to manage them differs and depends on the current status of the app.
-* **[Two possible states of your apps]** [Migrated](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-migration-authoring) or not migrated.
+* **Two possible states of your apps** [Migrated](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-migration-authoring) or not migrated.
 * If owner's application is **not migrated**, users added to the owner applications are called **Collaborators** and they are added on the application level. i.e.: they will have visibility and control on only the applications that the owner chooses.
 * If owner's application is **migrated**, users added to the owner applications are called **Contributors** and they are added on the resource level. i.e.: they will have visibility and control over all applications the owner owns.
 
@@ -51,7 +51,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 * Nothing will happen to the owner if collaborators migrate and they won't know that their Collaborators have migrated.
 * They will continue to use their applications normally.
 
-**PLEASE NOTE** If any collaborator owns a **Runtime Resource** and associates it with the owner's application, migration will fail for both the owner and collaborator. Collaborator will need to either remove the runtime resource from the application or give access to owner from Azure portal for the migration to be successful.
+**PLEASE NOTE:** If any collaborator owns a **Runtime Resource** and associates it with the owner's application, migration will fail for both the owner and collaborator. Collaborator will need to either remove the runtime resource from the application or give access to owner from Azure portal for the migration to be successful.
 
 
 ### Troubleshoot Migration Errors
