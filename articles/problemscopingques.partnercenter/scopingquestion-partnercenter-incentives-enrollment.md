@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32739542,32739541,32739540,32739537"
     productPesIds="17005"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="scopingquestion-partnercenter-incentives-enrollment"
     clientIds="partnercenter"

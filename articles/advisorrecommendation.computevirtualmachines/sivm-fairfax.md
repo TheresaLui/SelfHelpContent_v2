@@ -25,7 +25,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Compute/virtualMachines",
   "recommendationFriendlyName": "SIVM",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

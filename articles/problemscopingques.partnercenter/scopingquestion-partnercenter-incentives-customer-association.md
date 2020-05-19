@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32739536,32739551,32739535"
     productPesIds="17005"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="scopingquestion-partnercenter-incentives-customer-association"
     clientIds="partnercenter"
