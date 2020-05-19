@@ -19,7 +19,7 @@
 
 Most customers resolved their questions about metrics on their own with the links below.
 
-- [Azure Storage metrics in Azure Monitor](https://docs.microsoft.com/en-us/azure/storage/common/monitor-storage-reference#metrics):
+- [Azure Storage metrics in Azure Monitor](https://docs.microsoft.com/azure/storage/common/monitor-storage-reference#metrics):
 
 	* [Capacity Metrics](https://docs.microsoft.com/azure/storage/common/monitor-storage-reference#capacity-metrics)<br>
 	* [Transaction Metrics](https://docs.microsoft.com/azure/storage/common/monitor-storage-reference#transaction-metrics)<br>
