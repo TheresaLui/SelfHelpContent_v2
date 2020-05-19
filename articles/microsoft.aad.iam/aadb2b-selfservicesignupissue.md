@@ -81,6 +81,10 @@
                 {
                     "text": "End user signing up",
                     "value": "endUser"
+                },
+		{
+                    "text": "I am not sure what type of issue it is.",
+                    "value": "dont_know_answer"
                 }
             ],
             "dynamicDropdownOptions": null,
