@@ -28,6 +28,6 @@
 ## **Recommended Documents**
 
 * [Conditional Access overview](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
-* [“What If” tool for Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/what-if-tool)
+* ["What If" tool for Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/what-if-tool)
 * [Quickstart: Block access when a session risk is detected with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-sign-in-risk)
 * [How to: Block legacy authentication to Azure AD with conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication)
