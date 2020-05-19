@@ -111,6 +111,7 @@
 			"id": "error_appins",
 			"order": 11,
 			"controlType": "radioButtonGroup",
+			"visibility":"error_advice == Error",
 			"displayLabel": "Do you need App Insights?",
 			"radioButtonOptions": [{
 					"value": "error_yes",
