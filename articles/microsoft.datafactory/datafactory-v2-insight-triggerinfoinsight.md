@@ -20,7 +20,7 @@
 # Run specific status of the trigger
 
 ## 
-Based on the Run ID provided, we can see it was triggered by **<!--$triggerType-->[triggerType]<!--/$triggerType-->** **<!--$triggerName-->[triggerName]<!--/$triggerName-->** at <!--$TIMESTAMP-->[TIMESTAMP]<!--/$TIMESTAMP--> because of **<!--$reason-->[reason]<!--/$reason-->**. The current state of trigger is **Deactivated**. 
+Based on the Run ID provided, we can see it was triggered by **<!--$triggerType-->[triggerType]<!--/$triggerType-->** **<!--$triggerName-->[triggerName]<!--/$triggerName-->** at <!--$TIMESTAMP-->[TIMESTAMP]<!--/$TIMESTAMP--> because of **<!--$reason-->[reason]<!--/$reason-->**. The trigger was **Deactivated** at the run time. The current state of trigger is **Deactivated**. 
 
 ## **Recommended Steps**
 
