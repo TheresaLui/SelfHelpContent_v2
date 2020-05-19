@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a95bd679-eba4-eed8-a537-eaa69141c9c2",
+      "longDescription": "",
+      "shortDescription": "Issues while deploying VMware appliance on-prem",
+      "searchTags": "AzureMigrateAppliance;appliance",
+      "category": "Onboarding",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bb8d2c9b-1e6a-8a2f-c830-feb96edaa58f",
       "longDescription": "",
       "shortDescription": "Issues when users hit Migrate button in Server Migration workflow for VMware, Hyper-V, other clouds and physical machines. ",
