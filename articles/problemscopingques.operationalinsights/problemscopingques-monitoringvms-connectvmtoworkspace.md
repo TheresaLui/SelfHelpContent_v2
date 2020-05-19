@@ -126,9 +126,35 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "watermarkText": "Enter the name of the machine(s)",
             "required": false
         },
+        
+        {
+            "id": "workspace_id",
+            "order": 8,
+            "controlType": "dropdown",
+            "displayLabel": "Please select affected workspace name.",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.OperationalInsights/workspaces?api-version=2015-11-01-preview,
+               "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to get the list of Workspaces",
+                    "text": "Unable to get the list of Workspaces"
+                }
+            ],
+            "required": false
+        },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 9,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
