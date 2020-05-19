@@ -18,7 +18,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').KafkaVersionRetirementInHDI",
     "dataSource": "Kusto",
-    "refreshInterval": "08:00:00"
+    "refreshInterval": "01:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",
@@ -43,7 +43,7 @@
   "actions": [
     {
       "actionId": "a9ddc83c-d228-4d8c-9a5f-efc2be9bc6ce",
-      "condition":"ComponentVersion==""1.1""",
+      <!-- "condition":"ComponentVersion==""1.1""", -->
       "description": "Consider moving to Kafka 2.1 on HDInsight 4.0 by June 30 2020 to avoid potential system/support interruption.",
       "actionType": "Document",
       "documentLink": "https://aka.ms/hdiretirekafka"
