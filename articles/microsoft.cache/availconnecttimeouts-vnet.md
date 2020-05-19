@@ -10,8 +10,9 @@
 	supportTopicIds="32690921"
 	resourceTags=""
 	productPesIds="14783"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="e1bc9892-8a2c-40a3-a175-2eb7efdcd56bf"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # VNETs with Azure Cache For Redis

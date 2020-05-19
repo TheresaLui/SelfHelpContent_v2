@@ -13,7 +13,8 @@
 	supportTopicIds="32633518"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # tools and portal/sql server management studio

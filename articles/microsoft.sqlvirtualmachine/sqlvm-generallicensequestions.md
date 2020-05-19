@@ -11,7 +11,8 @@
 	supportTopicIds="32633507"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # licensing/general questions

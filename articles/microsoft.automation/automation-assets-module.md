@@ -10,8 +10,9 @@
     supportTopicIds="32628005,32628012"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="7520716a-1463-4666-b9d2-60f15be30964"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Updating or Importing Modules

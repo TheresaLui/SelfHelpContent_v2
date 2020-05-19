@@ -10,8 +10,9 @@
     supportTopicIds="32684541"
     resourceTags=""
     productPesIds="16123"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="relay-errors-connectivity"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Azure Relay

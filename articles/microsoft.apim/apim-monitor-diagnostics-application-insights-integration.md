@@ -9,8 +9,9 @@
     supportTopicIds="32632395"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="93f73d7d-a086-456b-1007-53a1ecb94b8c"
+	ownershipId="Compute_APIManagement"
 />
 
 # Application Insights Integration

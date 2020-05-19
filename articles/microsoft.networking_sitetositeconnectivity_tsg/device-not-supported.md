@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="246ceea4-d39a-40ae-b844-3b2d10b0b31b"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Device is not supported

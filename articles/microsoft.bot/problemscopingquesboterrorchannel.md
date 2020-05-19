@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32688622"
 	productPesIds="16152"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="8E8B4D48-10FA-442D-ABBA-EE3ED49DBBEB"
+	ownershipId="Compute_BotService"
 />
 # Bot is not working with a specific channel
 ---
@@ -54,6 +55,10 @@
                 {
                     "value": "channel_2",
                     "text": "Web Chat"
+                },
+		{
+                    "value": "channel_14",
+                    "text": "Direct Line Speech"
                 },
                 {
                     "value": "channel_3",

@@ -10,7 +10,8 @@ articleId="application-gateway-diagnose-and-solve-v2"
 selfHelpType="diagnoseandsolve"
 resourceTags=""
 productPesIds="15922"
-cloudEnvironments="public,fairfax,blackforest,mooncake"
+cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Diagnose and solve v2 article for application gateway
 ---

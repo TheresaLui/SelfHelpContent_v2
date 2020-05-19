@@ -7,11 +7,12 @@
 	ms.author="liamca"
 	selfHelpType="generic"
 	displayOrder="3"
-	supportTopicIds="32681382"
+	supportTopicIds="32681381"
 	resourceTags=""
 	productPesIds="15568"
 	articleId="search-index-related-service-limits"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Question about Azure Cognitive Search service limits

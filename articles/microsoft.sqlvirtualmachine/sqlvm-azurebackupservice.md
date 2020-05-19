@@ -10,8 +10,9 @@
 	supportTopicIds="32633526"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="d10943a4-3283-4e70-8982-e08aea9096e3"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # backup/using azure backup service

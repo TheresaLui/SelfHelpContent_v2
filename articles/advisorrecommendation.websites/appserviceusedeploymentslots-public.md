@@ -6,6 +6,7 @@
     articleId="0dc165fd-69bf-468a-aa04-a69377b6feb0_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
+	ownershipId="Compute_AppService"
 />
 # Use deployment slots for your App Service resource
 ---

@@ -10,8 +10,9 @@
     supportTopicIds="32675747, 32675748"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="75vc4298-4f6f-4d8e-96c5-b2b5886483e6"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Deployment issues with Azure Migrate appliance for VMWare
@@ -23,6 +24,7 @@
 **I am getting an error in the Internet prerequisite check on the appliance**
 
 The appliance should have Internet connectivity (either directly or via a proxy). Ensure you are able to connect to the URLs listed [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-vmware#assessment-url-access-requirements). If whitelisting is required, please ensure you whitelist all the URLs.
+For Azure Government customers, ensure that you are able to connect to the URLs listed [here](https://docs.microsoft.com/azure/migrate/migrate-appliance#government-cloud-urls)
 
 ### Issues in registering the appliance with Azure Migrate:
 

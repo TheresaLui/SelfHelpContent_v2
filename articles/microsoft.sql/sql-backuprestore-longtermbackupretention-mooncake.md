@@ -12,6 +12,7 @@
 	cloudEnvironments="MoonCake"
     resourceTags="servers, databases"
 	articleId="sql-backuprestore-longtermbackupretention-mooncake"
+	ownershipId="AzureData_AzureSQLDB_BackupRestore"
 />
 
 # backup/restore/long-term backup retention

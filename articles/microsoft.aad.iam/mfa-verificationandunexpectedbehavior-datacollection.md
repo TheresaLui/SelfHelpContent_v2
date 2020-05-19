@@ -4,12 +4,13 @@
     authors="hsku"
     ms.author="hsku"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32615519,32630265"
+    supportTopicIds="32615519"
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="mfa-verificationandunexpectedbehavior-datacollection"
-    />
+    	ownershipId="AzureIdentity_MultiFactorAuthentication"
+/>
 
 # Azure Active Directory Sign-In and Multi-Factor Authentication
 
@@ -19,11 +20,6 @@
     "subscriptionRequired": false,
     "title": "Azure Active Directory Sign-In and Multi-Factor Authentication",
     "fileAttachmentHint": null,
-    "diagnosticCard": {
-        "title": "Azure Active Directory Sign-In and Multi-Factor Authentication",
-        "description": "Our mfa troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
-    },
     "formElements": [
         {
             "id": "VerboseTracing",
@@ -96,8 +92,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-	    "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "getCorrelationId",
@@ -129,8 +124,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-	    "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "timestamp",
@@ -146,8 +140,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-	    "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "appNameOrId",
@@ -179,8 +172,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-	    "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "problem_description",

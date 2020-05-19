@@ -7,11 +7,12 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32688708"
+    supportTopicIds="32730237"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="public, MoonCake, fairfax"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     articleId="6f03b016-2cf1-4766-b87d-b56e23a2ffb7"
+    ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Policy Debugging

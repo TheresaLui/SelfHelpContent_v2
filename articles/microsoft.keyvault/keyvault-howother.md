@@ -7,11 +7,12 @@
 	ms.author="jalichwa"
 	displayOrder="5"
 	selfHelpType="generic"
-	supportTopicIds="32596887"
+	supportTopicIds="32738119, 32738115, 32738120, 32738118, 32738117, 32738116"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="keyvault-howother2"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # How to Perform Key Vault actions

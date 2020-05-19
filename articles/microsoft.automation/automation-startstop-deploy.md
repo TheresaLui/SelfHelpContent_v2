@@ -10,8 +10,9 @@
     supportTopicIds="32615223"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="200cd370-6c98-4260-a76e-c70c72be9dee"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Problem Deploying Start-Stop Solution

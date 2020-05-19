@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
  	articleId="7d92bd49-f34c-46b5-8360-c49fb59cecf7"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # I can't create or add a new VM

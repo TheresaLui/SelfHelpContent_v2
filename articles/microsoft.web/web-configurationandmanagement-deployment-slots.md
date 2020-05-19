@@ -9,8 +9,9 @@
 	supportTopicIds="32581615"
 	resourceTags=""
 	productPesIds="14748, 16170, 16333"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="2713b46d-6072-4384-a3a9-3bc2222dac73"
+	ownershipId="Compute_AppService"
 />
 
 # Configuration and Management/Deployment slots

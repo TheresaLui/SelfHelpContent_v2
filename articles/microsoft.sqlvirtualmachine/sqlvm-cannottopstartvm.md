@@ -10,8 +10,9 @@
 	supportTopicIds="32633499"
 	resourceTags="windowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="9db79585-dd52-4139-a9a7-8194b4448c58"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # vm management/cannot stop, start or restart a VM

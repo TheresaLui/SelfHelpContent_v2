@@ -10,8 +10,9 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="7f7ae579-3adf-49b1-8c83-64ad1a296d30"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # I can't create and populate a dynamic group

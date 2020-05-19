@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628103"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="f5ac28d5-d83b-ddc1-7fa9-ce64e6dba4ba"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Export reports from Power BI to PowerPoint

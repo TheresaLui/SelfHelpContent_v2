@@ -13,7 +13,8 @@
 	supportTopicIds="32673593"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 
 # Troubleshooting the error when more than max number of databases selected for migration  

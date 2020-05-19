@@ -10,8 +10,9 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="76f8bcf5-a452-4332-b3db-016d0b692037"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check if source traffic is allowed to backend pool members

@@ -12,8 +12,9 @@ selfHelpType="resource"
 supportTopicIds="32612438"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 	articleId="17ae1c05-dffc-435d-a9e3-5a0b987cd3a5"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Cannot unlink Automation account

@@ -10,8 +10,9 @@
 	supportTopicIds="32591147"
 	resourceTags=""
 	productPesIds="16094"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cedbd70a-c612-40a9-b727-035005454b9b"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Diagnose and resolve VPN Gateway Performance issues

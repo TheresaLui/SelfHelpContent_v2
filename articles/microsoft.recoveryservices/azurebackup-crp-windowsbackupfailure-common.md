@@ -10,8 +10,9 @@
 	supportTopicIds="32637320"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="ac1e1f73-2210-434a-8057-cdee9863085d"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Backup - Backup is failing for my VM
