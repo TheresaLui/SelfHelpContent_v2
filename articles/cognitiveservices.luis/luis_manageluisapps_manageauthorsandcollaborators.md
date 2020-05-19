@@ -20,7 +20,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 ### Getting started
 
-* **[Concept]** A LUIS application owner may add users to his/her apps and they have the control to build, train, and publish the app.
+* A LUIS application owner may add users to his/her apps and they have the control to build, train, and publish the app.
 * Term given to identify these users and how to manage them differs and depends on the current status of the app.
 * **[Two possible states of your apps]** [Migrated](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-migration-authoring) or not migrated.
 * If owner's application is **not migrated**, users added to the owner applications are called **Collaborators** and they are added on the application level. i.e.: they will have visibility and control on only the applications that the owner chooses.
@@ -31,7 +31,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 * **What is Migration?** Migration is the process of changing authoring authentication from an email account to an Azure resource.
 * **Is Migration required?** While not currently required, switching to an Azure resource will be enforced by August 30th, 2020.
 * **Are there any prerequisites for migration?** Yes, You need to be associated with a valid Azure Subscription.
-* **How to Migrate?** Create a new authoring resource, **make sure it is an authoring and not a runtime LUIS resource**, either from the LUIS portal or from the Azure portal. If you have an existing authoring resource on your subscription, you can migrate to it as well from the LUIS portal. Please read documentation [here] (https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-migration-authoring-steps) for detailed steps on how to migrate.
+* **How to Migrate?** Create a new authoring resource, **make sure it is an authoring and not a runtime LUIS resource**, either from the LUIS portal or from the Azure portal. If you have an existing authoring resource on your subscription, you can migrate to it as well from the LUIS portal. Please read documentation [here](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-migration-authoring-steps) for detailed steps on how to migrate.
 * **How to add contributors to my resource?** This can be managed from the Azure portal by opening the authoring resource and using the Access control (IAM) page. Add a user with their email address and the contributor role. Please read documentation [here](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-how-to-collaborate) for details on how to add contributors to your resource.
 * **What do I do if Migration failed?** Check the below troubleshoot section.
 * **Will my applications migrate with me?** Yes, if you are the owner of the application, all your applications will migrate and will be automatically associated with the authoring resource you migrated on.
