@@ -44,6 +44,14 @@
       "searchTags": "migrate",
       "category": "functionality",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c5234526-bc3b-fbd4-d6a3-16387a30fbe6",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when users hit stop replication",
+      "searchTags": "stopreplication;disablereplication",
+      "category": "Functionality",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
