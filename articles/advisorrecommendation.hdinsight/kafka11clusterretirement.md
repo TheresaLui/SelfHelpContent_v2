@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "5834ba65-bfd2-4ae1-8c8a-879c9e3e702e",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').Kafka11RetirementIn40HDI",
+    "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').KafkaVersionRetirementInHDI",
     "dataSource": "Kusto",
     "refreshInterval": "08:00:00"
   },
