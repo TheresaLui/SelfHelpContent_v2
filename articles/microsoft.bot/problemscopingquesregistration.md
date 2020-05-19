@@ -123,7 +123,7 @@
 			"required": false
 		},
 		{
-			"id": "error_endpoint",
+			"id": "error_appinsloc",
 			"order": 12,
 			"visibility":"error_appins == Yes",
 			"controlType": "textbox",
