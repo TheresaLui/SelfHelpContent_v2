@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5a128982-61e8-6936-641d-12a396ba26df",
+      "longDescription": "",
+      "shortDescription": "Issues seen in on-prem environment while deploying Hyper-V Replication Provider",
+      "searchTags": "HyperV;Onboarding;ReplicationProvider",
+      "category": "Onboarding",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "70b9c3c9-bfa3-faee-cb70-5828ef922a3b",
       "longDescription": "",
       "shortDescription": "Issues seen in on-prem Configuration Server in agent-based VMware or physical machines stack",
