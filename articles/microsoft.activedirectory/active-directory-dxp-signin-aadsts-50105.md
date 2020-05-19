@@ -27,7 +27,9 @@ Based on the information you provided we have identified following issue and rec
 **Message:** The signed in user '{_user}' is not assigned to a role for the application '{appId}'({appName}).
 <!--/issueDescription-->
 
-**Recommended Steps:**
-The user or a group they are a member of must first be assigned to this application before being able to access it. To resolve this problem configure the application assignment for the app in the Azure AD Enterprise Applications page for the app under "Users and groups".<br><br>You can refer to the following link for the steps to resolve the issue.
+**Action:** The user or a group they are a member of must first be assigned to this application before being able to access it. To resolve this problem configure the application assignment for the app in the Azure AD Enterprise Applications page for the app under "Users and groups".
 
-You can view and manage the application configuration from [Enterprise Applications](https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps/menuId/)<br> [Assign a user or group to an enterprise app in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/methods-for-assigning-users-and-groups)<br>
+## **Recommended Documents**
+
+* You can view and manage the application configuration from [Enterprise Applications](https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps/menuId/)
+* [Assign a user or group to an enterprise app in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/methods-for-assigning-users-and-groups)<br>
