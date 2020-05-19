@@ -11,7 +11,7 @@
 	supportTopicIds="32738685,32738686,32738687,32738689"
 	resourceTags=""
 	productPesIds="17082"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="1"
 	ownershipId="StorageMediaEdge_ImportExport"
 />

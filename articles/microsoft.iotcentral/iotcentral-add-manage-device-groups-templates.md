@@ -9,7 +9,7 @@
 	supportTopicIds="32592858"
 	resourceTags=""
 	productPesIds="16284"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="9d9fbb66-de9d-48dd-9e17-b9372e8d58ea"
 	ownershipId="AzureIot_IotCentral"
 />

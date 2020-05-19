@@ -7,7 +7,7 @@
 	authors="a-crmire"
 	ms.author="a-crmire"
 	displayOrder=""
-	articleId="partnercenter_marketplace_general_help"
+	articleId="mpn_marketplace_general_help"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32740811"

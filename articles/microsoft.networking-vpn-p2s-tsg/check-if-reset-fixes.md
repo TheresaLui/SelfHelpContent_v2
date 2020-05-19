@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="5675b436-12a4-4d6f-8073-da17ddec0cd2"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
