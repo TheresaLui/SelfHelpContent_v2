@@ -21,7 +21,7 @@
 
 * [To enable FIDO 2 key sign-in in Azure](https://docs.microsoft.com/azure/active-directory/authentication/howto-authentication-passwordless-security-key)
 * [Verify that your FIDO2 key meets Microsoft requirements](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless#fido2-security-keys)
-* For Hybrid join, verify you are running Windows 10 version 1809 0r higher
+* For Hybrid join, verify you are running Windows 10 version 1809 or higher
 * For AADj, verify you are running Windows 10 version 1809 or higher
 
 
