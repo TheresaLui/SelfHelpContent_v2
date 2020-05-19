@@ -52,19 +52,11 @@
 			"required": true
 		},
 		{
-			"id": "error_desc",
-			"order": 4,
-			"visibility":"error_advice == Error",
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please enter the error you see while creating the registration",
-			"required": true
-		},
-		{
 			"id": "error_bothandle",
 			"order": 5,
 			"visibility":"error_advice == Error",
 			"controlType": "textbox",
-			"displayLabel": "Enter the Bot handle you used ",
+			"displayLabel": "Bot handle you used ",
 			"required": false
 		},
 		{
@@ -72,7 +64,7 @@
 			"order": 6,
 			"visibility":"error_advice == Error",
 			"controlType": "textbox",
-			"displayLabel": "Enter the subscription you used",
+			"displayLabel": "The subscription you used",
 			"required": false
 		},
 		{
@@ -80,7 +72,7 @@
 			"order": 7,
 			"visibility":"error_advice == Error",
 			"controlType": "textbox",
-			"displayLabel": "Enter the name of the resource group",
+			"displayLabel": "The name of the resource group you used",
 			"required": false
 		},
 		{
@@ -96,7 +88,7 @@
 			"order": 9,
 			"visibility":"error_advice == Error",
 			"controlType": "textbox",
-			"displayLabel": "Enter the pricing tier you selected",
+			"displayLabel": "The pricing tier you selected",
 			"required": false
 		},
 		{
@@ -104,7 +96,7 @@
 			"order": 10,
 			"visibility":"error_advice == Error",
 			"controlType": "textbox",
-			"displayLabel": "Enter the messaging endpoint URL",
+			"displayLabel": "The messaging endpoint URL",
 			"required": false
 		},
 		{
@@ -112,7 +104,7 @@
 			"order": 11,
 			"visibility":"error_advice == Error",
 			"controlType": "radioButtonGroup",
-			"displayLabel": "Do you need App Insights?",
+			"displayLabel": "Did you select App Insights?",
 			"radioButtonOptions": [{
 					"value": "error_yes",
 					"text": "Yes"
@@ -126,18 +118,10 @@
 		{
 			"id": "error_appinsloc",
 			"order": 12,
-			"visibility":"error_appins == Yes",
+			"visibility":"error_appins == error_yes",
 			"controlType": "textbox",
-			"displayLabel": "Enter the selected location for Application Insights",
+			"displayLabel": "The location for Application Insights you selected",
 			"required": false
-		},
-		{
-			"id": "advice_text",
-			"order": 13,
-			"visibility":"error_advice == Advice",
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please enter the query you have",
-			"required": true
 		},
         {
             "id": "problem_description",
