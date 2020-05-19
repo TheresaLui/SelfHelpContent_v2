@@ -96,7 +96,7 @@ schemaVersion="1"
             "displayLabel": "Please select the affected workspace",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/microsoft.operationalInsights/workspaces/{resource}?api-version=2015-11-01-preview",
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/microsoft.operationalInsights/workspaces?api-version=2015-11-01-preview,
                "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
