@@ -93,10 +93,10 @@ schemaVersion="1"
             "id": "workspace_id",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "Please select the affected workspace",
+            "displayLabel": "Please select the affected workspace name",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/microsoft.operationalInsights/workspaces?api-version=2015-11-01-preview,
+                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.OperationalInsights/workspaces?api-version=2015-11-01-preview,
                "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
