@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "da6630fb-4286-4996-92a3-a43f5f26dd34",
   "dataSourceMetadata": {
-    "schemaVersion": 1,
+    "schemaVersion": 1.0,
     "streamNamespace": "AzureAnalytics.Partner.Networking.ExR.ExRNotProvisionedCircuitsForAzureAdvisor_Pub",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
@@ -38,7 +38,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 2,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/expressroute",
   "description": "Delete ExpressRoute circuits in the provider status of Not Provisioned",
   "longDescription": "We noticed that your ExpressRoute circuit is in the provider status of Not Provisioned for more than one month. This circuit is currently billed hourly to your subscription. We recommend that you delete the circuit if you aren't planning to provision the circuit with your connectivity provider.",
