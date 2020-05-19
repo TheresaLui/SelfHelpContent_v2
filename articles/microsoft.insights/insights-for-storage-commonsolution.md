@@ -8,7 +8,7 @@
     selfHelpType="generic"
     articleId="insights-for-storage-commonsolution"
     productPesIds="16913"
-    supportTopicIds="32691101,32691113,32691114,,32691102,32691104,32691105,32691106,32691107,32691109,32691111,32691115,32691103,32691108,32691110,32691112"
+    supportTopicIds="32691101,32691113,32691114,32691102,32691104,32691105,32691106,32691107,32691109,32691111,32691115,32691103,32691108,32691110,32691112"
     cloudEnvironments="public, blackForest, fairfax, mooncake"
     ownershipId="AzureMonitoring_Essentials"
 />
