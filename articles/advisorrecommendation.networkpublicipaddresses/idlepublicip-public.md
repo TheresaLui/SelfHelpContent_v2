@@ -72,7 +72,7 @@
       "uri": "{armEndpoint}{resourceId}?api-version=2019-09-01",
       "actionId": "fb603449-7795-4148-ac51-cafcf71430ed",
       "implication": null,
-      "documentationLink": "https://docs.microsoft.com/en-us/rest/api/virtualnetwork/publicipaddresses/delete"
+      "documentationLink": "https://docs.microsoft.com/rest/api/virtualnetwork/publicipaddresses/delete"
     }
   ],
   "displayLabel": "Delete unassociated Public IPs",
