@@ -1,7 +1,7 @@
 <properties
     pageTitle="problem-with-self-service-sign-up-for-guest-users"
     description="Problem with self-service sign up for guest users" 
-    authors="joshdouglas" 
+    authors="jkdouglas" 
     ms.author="jodougla"
     selfHelpType="problemScopingQuestions" 
     supportTopicIds="32741680" 
