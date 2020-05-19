@@ -17,7 +17,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "b020ff96-37bf-4a64-8bd5-2bfb3fdf3f87",
   "dataSourceMetadata": {
-    "schemaVersion": 1,
+    "schemaVersion": 1.0,
     "streamNamespace": "Public.Production.Watm.Advisor.FastFailoverTTL",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
@@ -39,7 +39,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 2,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/Ngfw4r",
   "description": "Configure DNS Time to Live to 20 seconds",
   "longDescription": "Time to Live (TTL) affects how recent of a response a client will get when it makes a request to Azure Traffic Manager. Reducing the TTL value means that the client will be routed to a functioning endpoint faster in the case of a failover. Configure your TTL to 20 seconds to route traffic to a health endpoint as quickly as possible.",
@@ -76,7 +76,7 @@
       "uri": "{armEndpoint}{resourceId}?api-version=2018-04-01",
       "actionId": "5752f97c-1607-45ee-807b-4b003af71452",
       "implication": null,
-      "documentationLink": "https://docs.microsoft.com/en-us/rest/api/trafficmanager/profiles/update",
+      "documentationLink": "https://docs.microsoft.com/rest/api/trafficmanager/profiles/update",
       "requestBody": {
         "properties": {
           "dnsConfig": {
