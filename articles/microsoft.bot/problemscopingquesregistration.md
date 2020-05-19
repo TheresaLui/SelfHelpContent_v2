@@ -40,7 +40,7 @@
 			"id": "error_advice",
 			"order": 3,
 			"controlType": "radioButtonGroup",
-			"displayLabel": "Are you seeing an error while creating the registration or you are looking for advice?",
+			"displayLabel": "Are you seeing an error while creating the registration or are you looking for advice?",
 			"radioButtonOptions": [{
 					"value": "Error",
 					"text": "Seeing an error"
@@ -52,7 +52,7 @@
 			"required": true
 		},
 		{
-			"id": "error_text",
+			"id": "error_desc",
 			"order": 4,
 			"visibility":"error_advice == Error",
 			"controlType": "multilinetextbox",
@@ -60,8 +60,79 @@
 			"required": true
 		},
 		{
-			"id": "advice_text",
+			"id": "error_bothandle",
 			"order": 5,
+			"visibility":"error_advice == Error",
+			"controlType": "textbox",
+			"displayLabel": "Enter the Bot handle you used ",
+			"required": false
+		},
+		{
+			"id": "error_subscription",
+			"order": 6,
+			"visibility":"error_advice == Error",
+			"controlType": "textbox",
+			"displayLabel": "Enter the subscription you used",
+			"required": false
+		},
+		{
+			"id": "error_rg",
+			"order": 7,
+			"visibility":"error_advice == Error",
+			"controlType": "textbox",
+			"displayLabel": "Enter the name of the resource group",
+			"required": false
+		},
+		{
+			"id": "error_location",
+			"order": 8,
+			"visibility":"error_advice == Error",
+			"controlType": "textbox",
+			"displayLabel": "Enter the location you selected",
+			"required": false
+		},
+		{
+			"id": "error_pricing",
+			"order": 9,
+			"visibility":"error_advice == Error",
+			"controlType": "textbox",
+			"displayLabel": "Enter the pricing tier you selected",
+			"required": false
+		},
+		{
+			"id": "error_endpoint",
+			"order": 10,
+			"visibility":"error_advice == Error",
+			"controlType": "textbox",
+			"displayLabel": "Enter the messaging endpoint URL",
+			"required": false
+		},
+		{
+			"id": "error_appins",
+			"order": 11,
+			"controlType": "radioButtonGroup",
+			"displayLabel": "Do you need App Insights?",
+			"radioButtonOptions": [{
+					"value": "error_yes",
+					"text": "Yes"
+				}, {
+					"value": "error_no",
+					"text": "No"
+				}
+			],
+			"required": false
+		},
+		{
+			"id": "error_endpoint",
+			"order": 12,
+			"visibility":"error_appins == Yes",
+			"controlType": "textbox",
+			"displayLabel": "Enter the selected location for Application Insights",
+			"required": false
+		},
+		{
+			"id": "advice_text",
+			"order": 13,
 			"visibility":"error_advice == Advice",
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please enter the query you have",
