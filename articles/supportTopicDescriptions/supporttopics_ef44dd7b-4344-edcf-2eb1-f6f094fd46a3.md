@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "1f2fef07-eb7b-4c44-925a-99d3cdaf9bd1",
+      "longDescription": "",
+      "shortDescription": "Issues that occur when users press Test Migrate button",
+      "searchTags": "testmigrate;test;migrate",
+      "category": "functionality",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4716fda9-6f51-8451-d72a-4e0232108d50",
       "longDescription": "",
       "shortDescription": "Replication related issues in all the stacks that Azure Migrate supports",
