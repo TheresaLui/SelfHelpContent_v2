@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "70b9c3c9-bfa3-faee-cb70-5828ef922a3b",
+      "longDescription": "",
+      "shortDescription": "Issues seen in on-prem Configuration Server in agent-based VMware or physical machines stack",
+      "searchTags": "onboarding;configurationserver;agentbased;physical;CSPS",
+      "category": "Onboarding",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7fc61b43-c23f-0777-ff5a-642ea4784369",
       "longDescription": "",
       "shortDescription": "When VM does not boot or RDP fails in Azure post-migration. Select Virtual Machines as service instead of Migrate in case submission. ",
