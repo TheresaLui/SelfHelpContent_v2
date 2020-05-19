@@ -23,5 +23,5 @@ Azure Monitor for VMs is available in many Azure regions, but not all of them.  
 
 For information about workspace planning you can refer to the following:
 
-* [Log Analytics FAQ](https://docs.microsoft.com/azure/azure-monitor/platform/log-faq.) 
+* [Log Analytics FAQ](https://docs.microsoft.com/azure/azure-monitor/faq#logs) 
 * [Log Analytics for Service Providers design guidance](https://docs.microsoft.com/azure/azure-monitor/platform/service-providers#architectures-for-service-providers)
