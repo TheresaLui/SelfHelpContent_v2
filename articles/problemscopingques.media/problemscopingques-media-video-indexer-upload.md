@@ -4,7 +4,7 @@
     ms.author="t-reutam"
     authors="ReutAmior"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32606571"
+    supportTopicIds="32740746, 32740748"
     productPesIds="16535"
     articleId="problemscopingques-video-indexer-upload"
     cloudEnvironments="public,blackForest,fairfax,mooncake"
