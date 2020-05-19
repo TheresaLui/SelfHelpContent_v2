@@ -38,11 +38,11 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 2.0,
+  "version": 3.0,
   "learnMoreLink": "https://aka.ms/batch_a8_a11_retirement_learnmore",
-  "description": "Delete your pool ",
+  "description": "Delete and recreate your pool with a different VM size",
   "longDescription": "Your pool is using A8-A11 VMs, which are set to be retired in March 2021. Please delete your pool and recreate it with a different VM size.",
-  "potentialBenefits": "Avoided Batch job interruption",
+  "potentialBenefits": "Avoid potential interruptions",
   "actions": [
     {
       "actionId": "8edfb036-cb3a-4dba-ae80-3e405c68cabd",
@@ -69,6 +69,6 @@
       "title": "Pool name"
     }
   ],
-  "tip": "Delete your pool and recreate it with a different VM size to ensure your Batch jobs continue to run."
+  "tip": "Delete your pool and recreate it with a different VM size to avoid potential interruptions when the VM size is retired."
 }
 ---
