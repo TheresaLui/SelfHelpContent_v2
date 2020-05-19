@@ -33,7 +33,7 @@
             "displayLabel": "Provide the verbatim error message(s) you are receiving.",
             "watermarkText": "Provide the verbatim error message(s) you are receiving.",
             "required": true,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": false
         },
         {
             "id": "additional_information",
