@@ -17,7 +17,7 @@
     ownershipId="AzureIdentity_B2B"
 />
 
-# How Do I Resolve the User Sign-in Issues? 
+# How Do I Resolve the User Sign-in Issues?
 
 <!--issueDescription-->
 Based on the information you provided we have identified following issue and recommend taking the action to resolve the issue.
