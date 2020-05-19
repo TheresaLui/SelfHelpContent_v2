@@ -54,7 +54,7 @@
 		{
 			"id": "error_text",
 			"order": 4,
-			"visibility":"error_advice == Error"
+			"visibility":"error_advice == Error",
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please enter the error you see while creating the registration",
 			"required": true
@@ -62,7 +62,7 @@
 		{
 			"id": "advice_text",
 			"order": 5,
-			"visibility":"error_advice == Advice"
+			"visibility":"error_advice == Advice",
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please enter the query you have",
 			"required": true
