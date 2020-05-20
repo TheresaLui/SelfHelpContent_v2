@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Cannot find my existing project"
+    pageTitle="Cannot find existing project"
     description="Issues related to finding existing projects"
     service="microsoft.migrate"
     resource="migrateprojects"
@@ -15,14 +15,17 @@
 	ownershipId="Compute_AzureMigrate"
 />
 
-# Cannot find my existing projects
+# Cannot find existing projects
 
 ## **Recommended Steps**
+
+
+### **I am unable to find an existing project**
+
+Step 1: Check for access - Incase this project is created by someone else in your organization, please check here if you have required accesses on the project
+Step 2: Here are the seps documented to find the project
+
 
 ### **I am unable to find my existing project that I had created using the classic Azure Migrate service (Migration projects)**
 
 [Azure Migrate](https://aka.ms/migrate/selfhelp/olderprojects) is now a hub for all your migration needs and tools. If you had previously performed discovery and assessments with the classic Azure Migrate experience, you can access these projects by clicking on the blue banner on the Overview page of Azure Migrate. 
-
-### **I am unable to find my project that I created with the new Azure Migrate experience**
-
-If you have created a project with the [new Azure Migrate experience](https://aka.ms/migrate/selfhelp/newprojects) and are unable to find it, go to the 'Servers' or 'Databases' page on the left hand menu and then click 'Change' against 'Migrate project (Change)' on the top-right corner of your screen. You can then select the appropriate subscription and project name and click 'OK' to access the project. 
