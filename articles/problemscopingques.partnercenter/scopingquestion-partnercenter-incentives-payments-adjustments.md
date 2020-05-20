@@ -19,7 +19,7 @@
 	"resourceRequired": true,
 	"subscriptionRequired": true,
 	"title": "Incentives payment and adjustment issues",
-	"fileAttachmentHint": "Upload any screenshots, transaction history CSVs, or other supporting files that can help us understand the technical issue.",
+	"fileAttachmentHint": "Please include any transaction history/summary CSVs, screenshots (including screenshots of your payout and tax profile setup), and other files that will help us understand the technical issue.",
 	"formElements": [
 		{
 			"id": "incentives_program",
