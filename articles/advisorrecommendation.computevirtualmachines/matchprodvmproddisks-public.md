@@ -46,7 +46,7 @@
       "actionId": "3a7d78f7-276d-4771-b2e0-84f129a110cf",
       "description": "Match Production Virtual Machine with Production Disks",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/en-us/azure/virtual-machines/windows/migrate-to-premium-storage-using-azure-site-recovery"
+      "documentLink": "https://docs.microsoft.com/azure/virtual-machines/windows/migrate-to-premium-storage-using-azure-site-recovery"
     }
   ],
   "resourceMetadata": {
