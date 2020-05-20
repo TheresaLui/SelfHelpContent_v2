@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "38a40792-63b6-584a-16f9-ca5b97315a1b",
+      "longDescription": "",
+      "shortDescription": "Issues when you use non-Microsoft tools in assessment and migration.",
+      "searchTags": "ISVtools",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4716fda9-6f51-8451-d72a-4e0232108d50",
       "longDescription": "",
       "shortDescription": "Replication related issues in all the stacks that Azure Migrate supports",
