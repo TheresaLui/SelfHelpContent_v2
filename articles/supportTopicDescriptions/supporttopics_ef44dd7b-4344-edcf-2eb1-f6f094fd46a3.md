@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bbd3a56d-637a-dd3c-e631-b7214d8f29aa",
+      "longDescription": "",
+      "shortDescription": "Issues users encounter when deploying Azure Migrate appliance for VMware",
+      "searchTags": "onboarding;assessment",
+      "category": "Functionality",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c5234526-bc3b-fbd4-d6a3-16387a30fbe6",
       "longDescription": "",
       "shortDescription": "Issues encountered when users hit stop replication",
