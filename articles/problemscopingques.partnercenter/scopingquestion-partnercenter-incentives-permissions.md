@@ -203,14 +203,14 @@ pageTitle="Incentives permissions issues"
 				"required": false
 			},
 			{
-				"id": "problem_description",
-				"order": 1000,
-				"controlType": "multilinetextbox",
-				"displayLabel": "Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
-				"watermarkText": "Problem description",
-				"useAsAdditionalDetails": true,
-				"required": true
-			}
+         		"id":"problem_description",
+         		"order":1000,
+         		"controlType":"multilinetextbox",
+         		"displayLabel":"Problem description",
+				"watermarkText":"Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
+         		"useAsAdditionalDetails":true,
+         		"required":true
+      }
 		]
 }
 ---
