@@ -19,8 +19,7 @@
 
 ## **Recommended Steps**
 
-* **Permissions**: If you are creating the remediation through a command, be sure that the managed identity has the proper permissions. 
-If not using portal, create role assignments manually and give permission. Contributor role is not enough. Follow this tutorial: [here](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources#manually-configure-the-managed-identity)
+* **Permissions**:  When using portal, permissions are provided to the managed identity automatically as long as the user creating the policy assignment has the required authorizations (permissions to action Microsoft.Authorization/roleAssignments/write). If the policy assignment was created outside of portal, or if the policy assignment creator lacks needed permissions to create roleAssignments, permissions to the MSI will need to be provided manually. Follow this tutorial for more information on configuring the managed identity: [here](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources#manually-configure-the-managed-identity)
 
 * **Modify Tags Known Issues**: There are some known issues, please check [here](https://github.com/Azure/azure-policy#known-issues). We are working to solve these.
 In the meantime you can [exclude](https://docs.microsoft.com/azure/governance/policy/concepts/assignment-structure#excluded-scopes) those resources. 
