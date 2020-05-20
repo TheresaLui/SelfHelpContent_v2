@@ -21,9 +21,9 @@
 
 * **Policy definition issues**
 
-* Validate that the [definition structure](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure)) is correct
-* Ensure the [alias](https://docs.microsoft.com/azure/governance/policy/tutorials/create-custom-policy-definition#find-the-property-alias) is mapped to the desired resource type/property and effects are as expected
-* If you need help creating a custom policy, follow the tutorial found [here](https://docs.microsoft.com/azure/governance/policy/tutorials/create-custom-policy-definition). We recommend writing policy using our [VS Code extension](https://docs.microsoft.com/azure/governance/policy/how-to/extension-for-vscode), which provides alias look-up and syntax highlight.
+Validate that the [definition structure](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure) is correct
+Ensure the [alias](https://docs.microsoft.com/azure/governance/policy/tutorials/create-custom-policy-definition#find-the-property-alias) is mapped to the desired resource type/property and effects are as expected
+If you need help creating a custom policy, follow the tutorial found [here](https://docs.microsoft.com/azure/governance/policy/tutorials/create-custom-policy-definition). We recommend writing policy using our [VS Code extension](https://docs.microsoft.com/azure/governance/policy/how-to/extension-for-vscode), which provides alias look-up and syntax highlight.
 
 * **Alias not found/not working**
 
@@ -33,7 +33,7 @@ If an alias is not working, be sure to validate that the [alias](https://docs.mi
 
 Find more information about managing your tags with Azure Policy [here](https://docs.microsoft.com/azure/governance/policy/tutorials/govern-tags).
 
-If you want a policy to add a [tag](https://docs.microsoft.com/rest/api/resources/tags) if one does not exist, but still respect user input, use [Modify](https://docs.microsoft.com/azure/governance/policy/concepts/effects#modify) effect. Policy's Modify effect lets you add, remove, or addOrReplace tags.
+If you want a policy to add a [tag](https://docs.microsoft.com/rest/api/resources/tags) if one does not exist, but still respect user input, use [Modify](https://docs.microsoft.com/azure/governance/policy/concepts/effects#modify) effect. Policy's Modify effect lets you add, replace, or addOrReplace tags.
 
 You can get a list of policy samples in [our documentation](https://docs.microsoft.com/azure/governance/policy/samples/allowed-locations), [Azure-policy GitHub Repo](https://github.com/Azure/azure-policy) and [Community Policy repo](https://github.com/Azure/Community-Policy).
 
