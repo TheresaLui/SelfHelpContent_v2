@@ -43,7 +43,6 @@
   "actions": [
     {
       "actionId": "a9ddc83c-d228-4d8c-9a5f-efc2be9bc6ce",
-      "condition":"ComponentVersion==""1.1""",
       "description": "Consider moving to Kafka 2.1 on HDInsight 4.0 by June 30 2020 to avoid potential system/support interruption.",
       "actionType": "Document",
       "documentLink": "https://aka.ms/hdiretirekafka"
