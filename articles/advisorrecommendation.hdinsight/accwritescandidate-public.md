@@ -3,7 +3,7 @@
     description="Use Accelerated Writes to Improve Write Performance"
     authors="xunwei"
     ms.author="xunwei"
-    articleId="00774183-7be9-476d-93f6-98dedad70171"
+    articleId="8109a740-abe9-453e-91fc-c25598de73d0_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
     ownershipId="AzureData_HDInsight"
@@ -14,11 +14,11 @@
   "recommendationOfferingId": "2ee735d6-5f03-45c3-bf11-fc1dbb1aa135",
   "recommendationOfferingName": "HDInsight",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "00774183-7be9-476d-93f6-98dedad70171",
+  "recommendationTypeId": "8109a740-abe9-453e-91fc-c25598de73d0",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').AccWriteCandidateHBaseClusters",
     "dataSource": "Kusto",
-    "refreshInterval": "08:00:00"
+    "refreshInterval": "01:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
@@ -47,7 +47,7 @@
   "potentialBenefits": "Lower write-latency and better resiliency for your applications.",
   "actions": [
     {
-      "actionId": "ee9d7ab4-ba29-47f6-bf78-eee5a2eb9cb7",
+      "actionId": "bf11f4ca-c126-4a60-9d9f-dc93b7ba161d",
       "description": "Consider upgrade to Accelerated Writes to improve performance of your HBase cluster",
       "actionType": "Document",
       "documentLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-accelerated-writes#how-to-enable-accelerated-writes-for-hbase-in-hdinsight"
@@ -55,7 +55,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "33498a9e-707a-4fc7-9ef1-64e76e0d6fe8",
+      "actionId": "5bde3f2b-2fc5-4bb4-af91-2edc7df7a6e8",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -66,7 +66,7 @@
   },
   "displayLabel": "Consider upgrading to Accelerated Writes to improve performance of your HBase cluster",
   "additionalColumns": [],
-  "tip": "Upgrade to Accelerated Writes to improve performance of your HBase cluster",
+  "tip": "Consider upgrading to Accelerated Writes to improve performance of your HBase cluster",
   "testData": "c36fd9e7-e5b1-4d3e-bb85-2e538040258b,/subscriptions/c36fd9e7-e5b1-4d3e-bb85-2e538040258b/resourceGroups/sw-hbase/providers/Microsoft.HDInsight/clusters/sw-36hbase"
 }
 ---
