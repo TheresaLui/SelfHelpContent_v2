@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Delete your pool and recreate it with a different VM size"
-    description="Delete your pool and recreate it with a different VM size"
+    pageTitle="Delete and recreate your pool using a VM size that will soon be retired"
+    description="Delete and recreate your pool using a VM size that will soon be retired"
     authors="pkshultz"
     ms.author="pkshultz"
     articleId="48ae14cb-10de-4bd9-a005-5c25f498649b_Public"
@@ -40,7 +40,7 @@
   "recommendationTimeToLive": 86400,
   "version": 3.0,
   "learnMoreLink": "https://aka.ms/batch_a8_a11_retirement_learnmore",
-  "description": "Delete and recreate your pool with a different VM size",
+  "description": "Delete and recreate your pool using a VM size that will soon be retired",
   "longDescription": "Your pool is using A8-A11 VMs, which are set to be retired in March 2021. Please delete your pool and recreate it with a different VM size.",
   "potentialBenefits": "Avoid potential interruptions",
   "actions": [
