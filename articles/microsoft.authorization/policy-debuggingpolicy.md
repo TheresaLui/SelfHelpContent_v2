@@ -26,7 +26,7 @@
 When troubleshooting a policy definition, it is important to have a deployed resource that you expect to compliant and one to be non-compliant. This way you can validate both cases.
 * We always recommend starting with an 'Audit' policy to get an assessment of where your environment is before having a strict enforcement.
 * A good way to test your policy without affecting your environment is to use [Enforcement Mode](https://docs.microsoft.com/azure/governance/policy/concepts/assignment-structure#enforcement-mode) set to Enabled or Disabled at assignment time.
-* Reminder that policy works on an If (this criteria matches) then (take this effect). If you want to deny SQL resources, the if statement should be written 'if NOT SQL then deny'.
+* Reminder that policy works on an If (this criteria matches) then (take this effect). If you want to deny SQL resources, the if statement should be written 'if SQL then deny'.
 
 You can get a list of policy samples in [our documentation](https://docs.microsoft.com/azure/governance/policy/samples/allowed-locations), [Azure-policy GitHub Repo](https://github.com/Azure/azure-policy) and [Community Policy repo.](https://github.com/Azure/Community-Policy)
 
