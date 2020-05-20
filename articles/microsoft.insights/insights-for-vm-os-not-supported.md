@@ -25,7 +25,7 @@ This message is displayed when the OS image you are using has limited metadata d
 
 If we can detect that the OS on the VM is not supported, we display a different message that looks similar to the following:
 
-![OS Not Supported](https://docs.microsoft.com/en-us/azure/azure-monitor/app/media/troubleshoot/insights-vm/vminsights-ossupported/os-not-supported-01.png?branch=pr-en-us-115799)
+![OS Not Supported](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/insights-vm/vminsights-ossupported/os-not-supported-01.png?branch=pr-en-us-115799)
 
 For a list of our currently operating systems supported please refer to our [deployment documentation](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-overview#supported-operating-systems).
 

@@ -15,11 +15,11 @@
 
  # The performance view is blank or shows partial data
 
- ### **Recommended Steps**
+ ## **Recommended Steps**
 
 If you are unsure if the extensions or agents have installed properly, please refer to the support topics: *I cannot get the VM extensions to install on my Azure VM* and *I am having trouble installing the agents to my on-prem VM*.
 
-## **There is no data on the performance charts for my VM**
+### **There is no data on the performance charts for my VM**
 
 If installation of the log analytics agent succeeded, but you don't see data on the Performance view take a look at the following.
 
@@ -37,4 +37,4 @@ As part of enabling Azure Monitor for VMs we setup several performance counters 
 
 You can use the workspace configuration tool from the Get Started page to easily setup the performance counters.  You can access this page from Monitor\Insights - Virtual Machines\Get Started.  Select the tab for **Other onboarding options** and select the **Configure** option in the link in the **Configure a workspace** tile. Choose the target workspace and it installs the solution for you. 
 
-![Setup Workspace](https://docs.microsoft.com/en-us/azure/azure-monitor/app/media/troubleshoot/insights-vm/vminsights-workspacesetup/configure-01.png?branch=pr-en-us-115799) 
+![Setup Workspace](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/insights-vm/vminsights-workspacesetup/configure-01.png?branch=pr-en-us-115799) 

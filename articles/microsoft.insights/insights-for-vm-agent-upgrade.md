@@ -16,12 +16,12 @@
  
 # I see a message that the Azure agent needs to be upgraded
 
-### **Recommended Steps**
+## **Recommended Steps**
 
 Do you see a message similar to the following when you open Azure Monitor for VMs?
 
 
-![Azure Agent needs to be updated](https://docs.microsoft.com/en-us/azure/azure-monitor/app/media/troubleshoot/insights-vm/vminsights-azureagent/azure-agent-01.png?branch=pr-en-us-115799)
+![Azure Agent needs to be updated](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/insights-vm/vminsights-azureagent/azure-agent-01.png?branch=pr-en-us-115799)
 
 If so, we are unable to detect if the Azure Virtual Machine Agent (VM Agent) is running on your Azure VM.  In some cases, the Azure VM Agent is installed but is not working properly.  In this case, restarting the VM may correct the issue.
 
