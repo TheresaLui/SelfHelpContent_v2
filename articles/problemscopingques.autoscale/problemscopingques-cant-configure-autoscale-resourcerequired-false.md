@@ -31,8 +31,8 @@
             "id": "problem_description_general",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide the resource group and name of the resource for which you are trying to configure autoscale.",
-            "watermarkText": "Please provide the resource group and name of the resource for which you are trying to configure autoscale.",
+            "displayLabel": "Please type **both** the name of the resource group and the name of the resource for which you want to configure autoscale.",
+            "watermarkText": "Please type **both** the name of the resource group and the name of the resource for which you want to configure autoscale.",
             "required": true,
             "useAsAdditionalDetails": false
         },
