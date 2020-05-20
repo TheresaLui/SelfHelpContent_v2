@@ -19,6 +19,7 @@
 
 ## **Recommended Steps**
 
+* Please allow approximately _30 minutes_ for policy effect and compliance data
 * Check the assignment has been applied it to the correct scope
 * Reassess the parameters in the assignment
 * Please check the resource is in the desired state (all settings and information are correctly configured)
