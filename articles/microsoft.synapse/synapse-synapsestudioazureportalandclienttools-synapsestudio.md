@@ -25,8 +25,8 @@
 
 * Creation of a new SQL pool operation might appear to have failed if your workspace name starts with a number. However, SQL pool is created successfully, the GRANT control setting would not have been applied correctly in this scenario. You need to follow the below steps to have the proper "Grant CONTROL" setting applied manually to your newly created SQL pools.
 
-	1. Click on "Launch Synapse Studio" in the portal. 
-	2. Click Data in the Left Navigation Panel and navigate to the SQL Pool that needs the setting in the Databases section. 
+	1. Click on "Launch Synapse Studio" in the portal
+	2. Click Data in the Left Navigation Panel and navigate to the SQL Pool that needs the setting in the Databases section
 	3. Invoke a "New SQL Script" on the SQL Pool 
 
 	a. To create a new workspace managed identity user and to assign control permissions to the user run the following in the pool:<br>

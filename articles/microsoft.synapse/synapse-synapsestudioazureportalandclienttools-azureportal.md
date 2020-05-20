@@ -23,8 +23,8 @@
 
 * If there is a paused SQL Pool instance in a workspace when the "Grant CONTROL" setting is changed in the "Managed Identities" blade of the Synapse Workspace resource in the portal, the task does not complete. As a result the setting might not be applied on the SQL pool. In this situation in order to manually change the state of the setting in the SQL Pool:
 
-	1. Click on "Launch Synapse Studio" in the portal. 
-	2. Click Data in the Left Navigation Panel and navigate to the SQL Pool that needs the setting in the Databases section. 
+	1. Click on "Launch Synapse Studio" in the portal
+	2. Click Data in the Left Navigation Panel and navigate to the SQL Pool that needs the setting in the Databases section
 	3. Invoke a "New SQL Script" on the SQL Pool 
 
 	a. To create a new workspace managed identity user and to assign control permissions to the user run the following in the pool:<br>
