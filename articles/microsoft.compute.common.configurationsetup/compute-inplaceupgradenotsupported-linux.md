@@ -21,7 +21,6 @@
 
 ## **Recommended Steps**
 
-
 **For Linux major upgrades**, please work with your distro vendor to understand troubleshooting steps for kernel upgrade issues.<br>
 
 ## **Recommended Documents**
