@@ -37,14 +37,15 @@
   "ingestionClientIdentities": [],
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/hdiretirespark",
-  "description": "dd5fa7a3-8c14-4878-acbb-0f99df5e1c48",
+  "description": "Deprecation of Spark 2.1 and 2.2 in HDInsight 3.6 Spark cluster",
   "longDescription": "Starting from July 1 2020, customers will not be able to create new Spark clusters with Spark 2.1 and 2.2 on HDInsight 3.6. Existing clusters will run as is without the support from Microsoft. Consider to move to Spark 2.3 on HDInsight 3.6 by June 30 2020 to avoid potential system/support interruption.",
   "potentialBenefits": "Avoid potential system/support interruption.",
   "actions": [
     {
       "actionId": "715827a9-7710-4403-b291-659d137cc452",
-      "description": "Consider to move to Spark 2.3 on HDInsight 3.6 by June 30 2020 to avoid potential system/support interruption.",
+      "description": "Consider to move to Spark 2.3 on HDInsight 3.6 by June 30 2020 to avoid potential system/support interruption. {extendedProperties}, {extendedProperties}.sparkComponentVersion",
       "actionType": "Document",
+      "condition":"sparkComponentVersion!="2.3"",
       "documentLink": "https://aka.ms/hdiretirespark"
     }
   ],
