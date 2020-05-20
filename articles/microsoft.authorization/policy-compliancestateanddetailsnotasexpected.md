@@ -27,7 +27,7 @@ After the initial scan, policy engine will have another full scan every 24 hours
 * **Triggering azure policy compliance**
 
 The first compliance scan can take time to be triggered in which it will be in 'Not Started' phase. Please allow about _30 minutes_ for  compliance results. Compliance scan is triggered once it receives notification of resource change and a new scan every 24 hours. If you do not see any results within 24 hours, please create a support ticket.
-You can trigger a on demand scan using REST API and PowerShell, please refer [here](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data#on-demand-evaluation-scan).
+You can trigger an on demand scan using REST API and PowerShell, please refer [here](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data#on-demand-evaluation-scan).
 
 * **Compliance not correct/not as expected debugging**
 
