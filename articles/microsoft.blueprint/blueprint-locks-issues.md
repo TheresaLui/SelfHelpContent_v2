@@ -15,7 +15,7 @@
     ownershipId="Compute_AzureBlueprint"
 />
 
-# Azure Blueprints - Blueprint lock issues 
+# Azure Blueprints - Blueprint lock issues
 
 ## **Recommended Steps**
 
