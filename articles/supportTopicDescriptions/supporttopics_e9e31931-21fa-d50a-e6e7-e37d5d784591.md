@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c3b53fce-6618-327c-8e3d-7df85a9bda84",
+      "longDescription": "",
+      "shortDescription": "Common problems related to extensions not operating correctly",
+      "searchTags": "Extensions",
+      "category": "Extensions",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "cf9647f1-5c82-1327-05af-73ecaa5e7aea",
       "longDescription": "",
       "shortDescription": "Covers issues related to scaling your scale set",
