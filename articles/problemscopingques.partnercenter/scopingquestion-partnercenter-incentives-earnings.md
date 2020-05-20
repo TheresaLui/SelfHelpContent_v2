@@ -204,40 +204,41 @@ pageTitle="Incentives earnings issues"
       {
          "id":"subscription_ids",
          "order":5,
-         "controlType":"multilinetextbox",
-         "displayLabel":"Please enter the subscription ID(s) for the earnings in question (if applicable).",
+         "controlType":"textbox",
+         "displayLabel":"Subscription ID(s) for the earnings in question:",
          "watermarkText":"If you have multiple subscriptions you need help with, please include a comma separated list.",
          "required":false
       },
       {
-         "id":"agreement_number",
+         "id":"agreement_invoice_number",
          "order":6,
          "controlType":"textbox",
-         "displayLabel":"Please enter the agreement number (if applicable).",
+         "displayLabel":"Agreement number/invoice number:",
+         "watermarkText":"If you have multiple agreements/invoices you need help with, please include a comma separated list.",
          "required":false
       },
       {
-         "id":"transaction_number",
+         "id":"customer_name_id",
          "order":7,
          "controlType":"multilinetextbox",
-         "displayLabel":"Please enter the transaction number(s) for the earnings in question.",
-         "watermarkText":"If you have multiple transactions you need help with, please include a comma separated list.",
+         "displayLabel":"Customer names and customer IDs (TPIDs or CA IDs):",
+         "watermarkText":"If you have multiple customer's transactions you need help with, please include a comma separated list.",
          "required":false
       },
       {
-         "id":"customer_name",
+         "id":"transacting_partner_id",
          "order":8,
          "controlType":"multilinetextbox",
-         "displayLabel":"Please enter the customer names(s) for the transactions in question (if applicable).",
-         "watermarkText":"If you have customer's transactions you need help with, please include a comma separated list.",
+         "displayLabel":"Transacting partner IDs (MPN ID, PCN ID, or TPID):",
+         "watermarkText":"If you have multiple transactions you need help with, please include a comma separated list.",
          "required":false
       },
       {
          "id":"problem_description",
          "order":1000,
          "controlType":"multilinetextbox",
-         "displayLabel":"Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
-         "watermarkText":"Problem description",
+         "displayLabel":"Problem description",
+         "watermarkText":"Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
          "useAsAdditionalDetails":true,
          "required":true
       }
