@@ -28,7 +28,7 @@ If you are planning to deploy a SQL AG on Linux then you can follow : [SQL Serve
   * Configure Pacemaker on [Ubuntu](https://docs.microsoft.com/sql/linux/sql-server-linux-availability-group-cluster-ubuntu?view=sql-server-ver15#install-and-configure-pacemaker-on-each-cluster-node)
     
   
-* **Configure Fencing STONITH)**:
+* **Configure Fencing (STONITH)**:
 
   * Configure fencing on [RHEL](https://docs.microsoft.com/sql/linux/sql-server-linux-availability-group-cluster-rhel?view=sql-server-ver15#configure-pacemaker)
   * Configure fencing on [SLES](https://docs.microsoft.com/sql/linux/sql-server-linux-availability-group-cluster-sles?view=sql-server-ver15#install-and-configure-pacemaker-on-each-cluster-node)
