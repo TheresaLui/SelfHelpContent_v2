@@ -22,9 +22,9 @@
 
 Data is collected at the following sample rates:
 
-* Every 15 seconds for connections and sent to Azure every 60 seconds.
-* Every 60 seconds for the performance metrics and sent to Azure every 60 seconds.
-* Every 60 seconds for health data and sent to Azure every 60 seconds.
+* Every 15 seconds for connections and sent to Azure every 60 seconds
+* Every 60 seconds for the performance metrics and sent to Azure every 60 seconds
+* Every 60 seconds for health data and sent to Azure every 60 seconds
 
 ### **Display of data in our charts**
 
