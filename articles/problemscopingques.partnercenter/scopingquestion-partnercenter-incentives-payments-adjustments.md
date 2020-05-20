@@ -183,7 +183,7 @@
 			"id": "location_mpnid",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Please enter the location MPN ID(s) enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
+			"displayLabel": "Please provide the location MPN ID enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
 			"watermarkText": "If you have multiple location MPN IDs you need help with, please include a comma separated list.",
 			"required": true
 		},
