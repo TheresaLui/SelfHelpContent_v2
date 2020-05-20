@@ -32,7 +32,7 @@
             "Required": true,
 	    "useAsAdditionalDetails": true,
 	    "hints": [{
-					"text": "Provide details about the issue. N/A if not applicable"
+					"text": "Provide details about the issue. N/A if not applicable."
 				}]
         },
         {
