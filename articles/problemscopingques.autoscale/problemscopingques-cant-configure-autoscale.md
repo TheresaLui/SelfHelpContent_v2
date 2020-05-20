@@ -14,7 +14,8 @@
 # Cannot configure autoscale
 ---
 {
-    "resourceRequired": false,
+    "$schema": "SelfHelpContent",
+    "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Not receiving notifications",
     "fileAttachmentHint": "If possible, please upload screenshots of the error and any other relevant information which may help the support engineer troubleshoot your issue.",
