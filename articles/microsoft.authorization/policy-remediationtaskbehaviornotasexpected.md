@@ -19,8 +19,7 @@
 
 ## **Recommended Steps**
 
-* **Permissions**: If you are creating the remediation through a command, be sure that the managed identity has the proper permissions. Contributor role is not enough. 
-1- Managed identity does not have permissions. Portal no worries. 
+* **Permissions**: If you are creating the remediation through a command, be sure that the managed identity has the proper permissions. 
 If not using portal, create role assignments manually and give permission. Contributor role is not enough. Follow this tutorial: [here](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources#manually-configure-the-managed-identity)
 
 * **Modify Tags Known Issues**: There are some known issues, please check [here](https://github.com/Azure/azure-policy#known-issues). We are working to solve these.
