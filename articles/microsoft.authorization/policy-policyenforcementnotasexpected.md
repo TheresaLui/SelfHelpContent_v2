@@ -24,6 +24,7 @@
 * Reassess the parameters in the assignment
 * Please check the resource is in the desired state (all settings and information are correctly configured)
 * If you have duplicated a built-in policy to customize the definition, please create the support ticket under 'Authoring a policy' for better suited information
+* In the compliance view, click on the three dots to get compliance details and verify the expected value.
 * You can get a list of policy samples in [our documentation](https://docs.microsoft.com/azure/governance/policy/samples/allowed-locations), [Azure-policy GitHub Repo](https://github.com/Azure/azure-policy), and the [Community Policy repo](https://github.com/Azure/Community-Policy)
 
 ## **Recommended Documents**
