@@ -31,7 +31,7 @@ You can trigger a on demand scan using REST API and PowerShell, please refer [he
 
 * **Compliance not correct/not as expected debugging**
 
-If your compliance is not correct/ not as expected, please check the compliance details. Click on the rightmost three dots on the resource bar to see the non-compliance details. Ensure the expected results are correct and modify the definition or assignment as needed.  If this is a built-in policy, be sure to have the correct parameters and the assignmentment is to the correct scope.
+If your compliance is not correct/ not as expected, please check the compliance details. Click on the rightmost three dots on the resource bar to see the non-compliance details. Ensure the expected results are correct and modify the definition or assignment as needed.  If this is a built-in policy, be sure to have the correct parameters and the assignment is to the correct scope.
 If your compliance shows 0/0 resources, this is because the policy compliance didn't find any resources that match your definition. Please revise your definition.
 Keep in mind that for deployIfNotExist and Modify policies, existing resources will not be automatically remediated. You need to create a remediation task.
 To find help with definition debugging a policy, please refer to support topics section: Authoring a policy.
