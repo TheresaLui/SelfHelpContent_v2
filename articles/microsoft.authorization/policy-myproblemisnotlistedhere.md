@@ -31,10 +31,6 @@ To search for an alias, you can run a command or use the VS Code extension. More
 
 We currently do not support exporting compliance data through the portal. Please leverage [UserVoice](https://feedback.azure.com/forums/915958-azure-governance?category_id=345055)to vote on your preference for exporting or other features. You can get compliance data through a [Rest API and/or Command line](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data) call. You can use our VS Code extension to export the definitions and assignments.
 
-* **How do I get alerts?**
-
-To get alerts on Non-compliant Azure policies using Azure Monitor alerts, follow this [tutorial](https://techcommunity.microsoft.com/t5/ITOps-Talk-Blog/How-to-Create-Azure-Monitor-Alerts-for-Non-Compliant-Azure/ba-p/713466).
-
 * **Can I use REGEX within Policy?**
 
 We currently do not support REGEX handling, but it is currently under review. We continue to value your feedback and would appreciate getting more through our [UserVoice](https://feedback.azure.com/forums/915958-azure-governance?category_id=345055). This is a great way to vote on your preference for Regex handling or other features. An alternative for Regex handling is to leverage the [Value](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#value) capability which helps you in checking conditions against parameters, template functions, or literals.
