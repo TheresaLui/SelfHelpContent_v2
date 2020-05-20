@@ -1,20 +1,19 @@
 <properties
-	pageTitle="Clustering technologies"
-	description="Clustering technologies"
-	service="microsoft.compute"
-	resource="virtualmachines"
-	ms.author="ujpat,vadeveka,amamun"	
-	authors="ujpat,vadeveka,AbdullahMSFT"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32740075"
-	resourceTags="windowsSQL"
-	productPesIds="16342"
-	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-	articleId="83e91601-bfa5-471b-8050-490d962626a6"
-	ownershipId="AzureData_AzureSQLVM"
+    pageTitle="Clustering technologies"
+    description="Clustering technologies"
+    service="microsoft.compute"
+    resource="virtualmachines"
+    ms.author="ujpat,vadeveka,amamun"   
+    authors="ujpat,vadeveka,AbdullahMSFT"
+    displayOrder=""
+    selfHelpType="generic"
+    supportTopicIds="32740075"
+    resourceTags="windowsSQL"
+    productPesIds="16342"
+    cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
+    articleId="f57ac583-97a5-4dba-b3bc-df6ca8b9133c"
+    ownershipId="AzureData_AzureSQLVM"
 />
- 
 
 
 # Clustering Technologies
@@ -29,7 +28,7 @@ If you are planning to deploy a SQL AG on Linux then you can follow : [SQL Serve
   * Configure Pacemaker on [Ubuntu](https://docs.microsoft.com/sql/linux/sql-server-linux-availability-group-cluster-ubuntu?view=sql-server-ver15#install-and-configure-pacemaker-on-each-cluster-node)
     
   
-* **Configure Fencing (STONITH)**:
+* **Configure Fencing STONITH)**:
 
   * Configure fencing on [RHEL](https://docs.microsoft.com/sql/linux/sql-server-linux-availability-group-cluster-rhel?view=sql-server-ver15#configure-pacemaker)
   * Configure fencing on [SLES](https://docs.microsoft.com/sql/linux/sql-server-linux-availability-group-cluster-sles?view=sql-server-ver15#install-and-configure-pacemaker-on-each-cluster-node)
