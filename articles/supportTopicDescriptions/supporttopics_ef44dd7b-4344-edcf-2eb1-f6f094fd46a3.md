@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5a9f4892-0caf-822b-a4e0-7fb80cba9418",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when users deploy appliance for Physical assessments",
+      "searchTags": "onboarding;PhysicalAssessment",
+      "category": "Onboarding",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6d971ed9-6685-f673-fc77-2ff8d2c7701b",
       "longDescription": "",
       "shortDescription": "Issues encountered when users deploy Hyper-V appliance",
