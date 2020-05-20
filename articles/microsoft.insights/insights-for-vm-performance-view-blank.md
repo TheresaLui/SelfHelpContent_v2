@@ -27,7 +27,7 @@ If installation of the log analytics agent succeeded, but you don't see data on 
 
 *  Go to Azure Monitor\Logs and run the following query for your computer: 
 * `Usage | where Computer == "admdemo-appsvr" | summarize sum(Quantity), any(QuantityUnit) by DataType`
-* Did you receive a variety of events in the results? Is the data recent? If so, your Log Analytics agent is operating correctly and communicating with the workspace. If not, check the agent on your machine: [Log Analytics agent for Windows troubleshooting](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows-troubleshoot) or [Log Analytics agent for Linux troubleshooting](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/agent-linux-troubleshoot). 
+* Did you receive a variety of events in the results? Is the data recent? If so, your Log Analytics agent is operating correctly and communicating with the workspace. If not, check the agent on your machine: [Log Analytics agent for Windows troubleshooting](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows-troubleshoot) or [Log Analytics agent for Linux troubleshooting](https://docs.microsoft.com/azure/azure-monitor/platform/agent-linux-troubleshoot). 
 
 **Is you workspace setup to collect the performance counters?**
 
