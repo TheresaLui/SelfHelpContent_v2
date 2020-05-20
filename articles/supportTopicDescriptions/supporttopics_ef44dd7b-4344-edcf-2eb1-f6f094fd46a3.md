@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6d971ed9-6685-f673-fc77-2ff8d2c7701b",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when users deploy Hyper-V appliance",
+      "searchTags": "HyperV;onboarding",
+      "category": "Onboarding",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "70b9c3c9-bfa3-faee-cb70-5828ef922a3b",
       "longDescription": "",
       "shortDescription": "Issues seen in on-prem Configuration Server in agent-based VMware or physical machines stack",
