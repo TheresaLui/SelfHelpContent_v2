@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "261ba305-9e8e-a055-4f65-486cb98d5d6a",
+      "longDescription": "",
+      "shortDescription": "Guidance with Virtual Disk Management",
+      "searchTags": "Virtual Disk Management",
+      "category": "Virtual Disk Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "43522e61-3009-baea-794b-04ca93c4ee2a",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new scale set",
