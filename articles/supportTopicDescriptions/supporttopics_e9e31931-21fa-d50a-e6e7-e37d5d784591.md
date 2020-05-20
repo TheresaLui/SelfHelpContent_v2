@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "0de20670-5c38-4b50-9964-e74157cc6364",
+      "longDescription": "",
+      "shortDescription": "need more information regarding instances that were stopped or restarted unexpectedly. ",
+      "searchTags": "Restart;Stop",
+      "category": "Restart",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "43522e61-3009-baea-794b-04ca93c4ee2a",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new scale set",
