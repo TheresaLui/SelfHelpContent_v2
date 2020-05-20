@@ -7,9 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32639200"
 	productPesIds="16505"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	ownershipId="StorageMediaEdge_DataBox"
+    ownershipId="StorageMediaEdge_DataBox"
 />
 # Data Box Disk slow copy speed
 ---
@@ -72,12 +72,6 @@
             "watermarkText": "Please provide the details regarding copy speeds, number of devices connected simultanoeusly to the source system, what other operations were being performed when the issue occurred, whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "learn_more_text",
-            "order": 700,
-            "controlType": "infoblock",
-            "content": "<a href='https://docs.microsoft.com/azure/databox/data-box-disk-system-requirements#supported-operating-systems-for-clients/'>Learn more</a> about Azure Data Dox Disk"
         }
     ],
     "$schema": "SelfHelpContent"

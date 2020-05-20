@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615526"
                 productPesIds="14749"
-                cloudEnvironments="Public, Fairfax"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0020"
 	ownershipId="Compute_VirtualMachines_Content"
@@ -14,8 +14,9 @@
 # Connect to a VM
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Failure to connect to the RDP port",
     "fileAttachmentHint": "",
     "formElements": [

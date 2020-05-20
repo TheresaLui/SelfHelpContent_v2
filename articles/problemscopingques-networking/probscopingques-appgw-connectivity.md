@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32684008"
     productPesIds="15922"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="711961cc-d014-4550-be70-2069dc2e00ff"
 	ownershipId="CloudNet_AzureApplicationGateway"

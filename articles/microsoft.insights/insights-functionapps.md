@@ -10,7 +10,7 @@
     diagnosticScenario="ApplicationInsightsFunctionApp"
     displayOrder="1124"
     selfHelpType="generic"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32632998"
  	ownershipId="AzureMonitoring_ApplicationInsights"

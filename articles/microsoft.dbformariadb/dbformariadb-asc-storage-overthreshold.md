@@ -11,8 +11,8 @@
 	diagnosticScenario="OrcasMariaDBStorageOverThresholdInsightV2TroubleShooter"
 	selfHelpType="rca"
     resourceTags="servers, databases"
-	cloudEnvironments="public, Fairfax"
-	ownershipId="ASEP_ContentService_Placeholder"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Orcas MariaDB Server storage usage is almost full

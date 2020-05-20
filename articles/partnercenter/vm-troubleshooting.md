@@ -13,8 +13,8 @@
 	supportTopicIds="32689375, 32689408, 32689424, 32689447"
 	resourceTags="isv"
 	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Virtual machine offer troubleshooting

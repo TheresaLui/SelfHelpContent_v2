@@ -11,8 +11,8 @@ articleId="NetworkDatapathLiveMigrationSerializationError"
 diagnosticScenario="NetworkDatapathLiveMigrationSerializationError"
 selfHelpType="resource"
 supportTopicIds=""
-cloudEnvironments="Public"
-	ownershipId="Compute_VirtualMachines"
+cloudEnvironments="Public, fairfax, usnat, ussec"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # We ran diagnostics on your VM and found an issue

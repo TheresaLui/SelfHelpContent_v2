@@ -10,7 +10,7 @@
     supportTopicIds="32675800"
     resourceTags=""
     productPesIds="15480"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="exr-fastpath"
 	ownershipId="CloudNet_AzureExpressRoute"
 />

@@ -10,9 +10,9 @@
     supportTopicIds="32680779"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="a15f057d-8ce6-4b77-a98a-dfaf3843dc2f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Pricing Tiers Common Solutions

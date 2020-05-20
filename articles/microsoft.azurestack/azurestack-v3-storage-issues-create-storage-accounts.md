@@ -10,9 +10,9 @@
     supportTopicIds="32663902"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="99f52a95-46cd-4ab1-b4bf-9d199b522d71"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack storage accounts creation issues

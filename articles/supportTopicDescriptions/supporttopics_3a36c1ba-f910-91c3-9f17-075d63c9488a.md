@@ -5,8 +5,10 @@
   ms.author="marwa, v-vigra"
   selfhelptype="SupportTopicDescription"
   productpesids="3a36c1ba-f910-91c3-9f17-075d63c9488a"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_3a36c1ba-f910-91c3-9f17-075d63c9488a" />
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  articleid="supporttopics_3a36c1ba-f910-91c3-9f17-075d63c9488a" 
+  ownershipid="AzureIdentity_SyncFabric"
+  />
 # Support Topic Descriptions for 3a36c1ba-f910-91c3-9f17-075d63c9488a
 ---
 {
@@ -20,6 +22,14 @@
   "productLink3": null,
   "productLinkName3": null,
   "supportTopics": [
+    {
+      "id": "002bc89c-5d6e-3773-9c48-e5401844476e",
+      "longDescription": "",
+      "shortDescription": "This topic should go to Azure Office commerce teams",
+      "searchTags": "licensing acquisition ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "03ec3d5b-eebb-1fe1-1e3a-55640e7738b9",
       "longDescription": "",
@@ -77,11 +87,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "31cd627c-3467-7ec3-cedd-b8eae55b0b38",
+      "longDescription": "",
+      "shortDescription": "Problems with role based access control for Azure resources",
+      "searchTags": "problems with RBAC",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "345ed23d-a616-9375-cedd-b3ed6fa1ac48",
+      "longDescription": "",
+      "shortDescription": "Problems with Office 365 group expiration and group auto-renewal policies",
+      "searchTags": "problems with group expiration ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3805c1db-1838-344b-df74-9ed8b1341771",
       "longDescription": "",
       "shortDescription": "Unable to delete or move a subscription that is currently tied to your Azure AD tenant.",
       "searchTags": "Delete Subscription ;Move Subscription in AAD",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3ab23946-2f8d-6142-bee5-60e12a6d00f9",
+      "longDescription": "",
+      "shortDescription": "Problems managing user based licensing from the Azure AD portal.",
+      "searchTags": "problems with user based licensing ",
+      "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -105,6 +139,14 @@
       "longDescription": "",
       "shortDescription": "Assistance determining who has global administrator permissions on your Azure AD tenant.",
       "searchTags": "issue identifying global administrator ",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "44c65d86-503c-2592-4a01-d8a04e7fe812",
+      "longDescription": "",
+      "shortDescription": "Problems related to deleting Azure AD custom domain names using Azure AD portal or PowerShell or Azure CLI.",
+      "searchTags": "problem with deleting a domain name",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -133,6 +175,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7d111d5f-205d-0bd6-3499-4d2e145b2be9",
+      "longDescription": "",
+      "shortDescription": "This topic is redundant and should be removed",
+      "searchTags": "other problems with deleting a directory",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7d82a910-ad89-7a00-017c-edc5086cd739",
+      "longDescription": "",
+      "shortDescription": "Problems related to inviting and managing Azure AD B2B external identities.",
+      "searchTags": "problems with B2B external identities",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7d97452f-6b8d-0c11-a7d8-d6c6e8d5057f",
       "longDescription": "",
       "shortDescription": "Problems with the classic Azure subscription roles Service Administrator, Account Administrator",
@@ -145,6 +203,30 @@
       "longDescription": "",
       "shortDescription": "Problems verifying a new Azure AD custom domain name using Azure AD portal or PowerShell or Azure CLI",
       "searchTags": "problem to verify a domain  name",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7ec4b54c-39fd-81ab-854c-a9a8ceb1192e",
+      "longDescription": "",
+      "shortDescription": "Problems deleting a Azure AD or Office 365 group",
+      "searchTags": "problem to delete a group",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "816e0613-b54b-e699-236a-2baf77abde98",
+      "longDescription": "",
+      "shortDescription": "Problems configuring Azure AD B2B collaboration settings to grant or limit the ability to send invitations from your Azure AD tenant.",
+      "searchTags": "managing external collaboration settings",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8315793d-17ec-6244-38e8-50e5359c7f7d",
+      "longDescription": "",
+      "shortDescription": "Problems synching groups or group membership from on-premises AD to Azure AD",
+      "searchTags": "problems synching groups",
       "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
@@ -162,6 +244,14 @@
       "shortDescription": "Problems with delegated Azure AD and Office group management features allowing end user group creation and membership management",
       "searchTags": "Group Management",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8c31b005-81a6-93d1-b2a6-1a1934f5e9e8",
+      "longDescription": "",
+      "shortDescription": " Azure AD license usage questions should be handled by previous topic and other license usage problems should go to respective license technical team",
+      "searchTags": "license usage questions",
+      "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -186,6 +276,14 @@
       "shortDescription": "Problems assigning user based licenses to Azure AD groups including group based licensing conflicts or dependencies or processing errors",
       "searchTags": "Group-based licensing;Licensing conflicts",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a57f8fec-3e5c-5b5f-370d-df3fe45b482c",
+      "longDescription": "",
+      "shortDescription": "Problems with Azure AD or Office 365 group membership",
+      "searchTags": "problems with other group membership",
+      "category": "configuration ",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -249,6 +347,14 @@
       "longDescription": "",
       "shortDescription": "Problems related to creating user objects in Azure AD",
       "searchTags": "Create new user in AAD",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f0708928-20a7-3fcf-23f4-18af6cd938ea",
+      "longDescription": "",
+      "shortDescription": "Technical questions around Azure AD premium features",
+      "searchTags": "AAD Premium Features",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },

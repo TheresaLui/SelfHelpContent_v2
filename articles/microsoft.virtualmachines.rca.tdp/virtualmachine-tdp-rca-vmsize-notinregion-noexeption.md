@@ -13,7 +13,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 />
 # We cannot deploy the selected size of your resource

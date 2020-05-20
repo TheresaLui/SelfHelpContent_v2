@@ -7,12 +7,12 @@
 	authors="vinynigam"
 	displayOrder="30"
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32606425"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="16160"
     articleId="npm-agenticmponly-troubleshoot-and-case-submission-mooncake"
 	cloudEnvironments="MoonCake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # Node shows supported protocol as ICMP only in the Nodes page

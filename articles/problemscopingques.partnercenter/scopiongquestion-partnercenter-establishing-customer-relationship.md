@@ -6,11 +6,11 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32635671"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_establishing_customer_relationship"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Establishing Customer Relationship
 ---

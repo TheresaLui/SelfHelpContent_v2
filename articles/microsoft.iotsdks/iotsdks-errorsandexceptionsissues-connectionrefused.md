@@ -9,9 +9,9 @@
 	supportTopicIds="32596693"
 	resourceTags=""
 	productPesIds="16122"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="90f077ba-08a5-45ba-a4ae-37c8c13f37ac"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Connection refuse issues

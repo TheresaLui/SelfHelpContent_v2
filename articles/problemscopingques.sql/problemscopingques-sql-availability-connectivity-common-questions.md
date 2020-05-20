@@ -4,12 +4,12 @@
 	authors="keithelm"
 	ms.author="keithelm,muruga,emlisa,swbhartims,vimahadi,subbuk"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630414, 32630460"
+	supportTopicIds="32630414, 32630410"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="217152B3-3A59-4441-8B67-B20B2DE5CD95"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
 # Scoping questions for Configure or use Azure Active Directory (AAD) authentication

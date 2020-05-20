@@ -10,14 +10,23 @@
 	articleId="partnercenter_help_with_delegated_admin_privileges"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635675"
+	supportTopicIds="32635675,32725889"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="15960,17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Help with delegated admin privileges
+
+## **Recommended Steps**
+
+ * To remove delegated administration privileges from a partner:
+
+- Under the **Partner relationships page** in the Microsoft 365 admin center, select the partner of interest
+- In the details pane, select **Remove delegated admin**
+- In the confirmation pane, select **Remove**
+
 
 ## **Recommended Documents**
 

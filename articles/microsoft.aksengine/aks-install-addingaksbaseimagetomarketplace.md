@@ -10,9 +10,9 @@
     supportTopicIds="32689841"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="aks-install-addingaksbaseimagetomarketplace"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Issues adding AKS Base image to Azure Stack Marketplace

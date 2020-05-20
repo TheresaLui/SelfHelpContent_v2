@@ -8,13 +8,13 @@ resource="virtualnetwork"
 authors="chadmath"
 ms.author="chadmat"
 displayOrder=""
-articleId="SolutionHowToSetupPeeringBetween2VnetsSameSubscriptionSameRegion"
+articleId="c6ea8893-201f-42f3-a9d0-47c39291449c"
 diagnosticScenario="SolutionHowToSetupPeeringBetween2VnetsSameSubscriptionSameRegion"
-selfHelpType="TSG_Content"
+selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
 />
 # Step by step for connecting virtual networks same region, same subscription
 <!--issueDescription-->

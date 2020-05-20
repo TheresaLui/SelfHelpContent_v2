@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32570108,32690784"
                 productPesIds="14749"
-                cloudEnvironments="Public, Fairfax"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0096"
 	ownershipId="Compute_VirtualMachines_Content"
@@ -14,8 +14,8 @@
 # Management
 ---
 {
-    "resourceRequired": true,
     "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Manage or use Windows Server and Windows Client licenses in Azure, including Hybrid Use Benefit",
     "fileAttachmentHint": "",
     "formElements": [

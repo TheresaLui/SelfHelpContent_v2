@@ -5,8 +5,10 @@
   ms.author="marwa, v-vigra"
   selfhelptype="SupportTopicDescription"
   productpesids="b98631b1-d53a-3ac4-3181-aef136ec703d"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_b98631b1-d53a-3ac4-3181-aef136ec703d" />
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  articleid="supporttopics_b98631b1-d53a-3ac4-3181-aef136ec703d" 
+  ownershipId="AzureIdentity_ComplianceAndReporting"
+  />
 # Support Topic Descriptions for b98631b1-d53a-3ac4-3181-aef136ec703d
 ---
 {
@@ -29,6 +31,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1041540a-71ef-2209-92d5-97e2cbe84c3b",
+      "longDescription": "",
+      "shortDescription": "You are using an Azure AD P1 license and still cant access the sign-in logs in Azure AD ",
+      "searchTags": "issue with licensing requirements",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1ee404fa-ef5e-b82a-4bea-c754ddb40087",
       "longDescription": "",
       "shortDescription": "You have a problem with the configuration of AADConnect Health",
@@ -41,6 +51,22 @@
       "longDescription": "",
       "shortDescription": "You have a problem with the on-prem agent of AADConnect Health",
       "searchTags": "Configuring On-Prem Agent;AAD Connect Health ",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "209aa00a-5ea8-2d0f-5a04-44314d9f5738",
+      "longDescription": "",
+      "shortDescription": "You are expecting to see data for a longer period of time (based on your license) and is not seeing them",
+      "searchTags": "issue with a data retention period",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "218c9912-b35c-b04d-2551-57baacbc19d8",
+      "longDescription": "",
+      "shortDescription": "You are not seeing an authentication log you expected to see either through Graph API endpoint or when using the portal",
+      "searchTags": "Missing AAD Auth Log;AAD Audit Log",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -133,6 +159,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b3efa415-971c-d1af-f926-daa7be464196",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with the Privileged Identity Management (PIM) feature in Azure AD",
+      "searchTags": "AAD PIM;Privileged Identity Management ;Configuring PIM",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b7bc5482-ee36-5ea9-36fd-0e4eb4c870af",
       "longDescription": "",
       "shortDescription": "You have a problem with AADConnect Health metrics and reports",
@@ -154,6 +188,22 @@
       "shortDescription": "You are expecting to see data for a longer period of time (based on your license) and you are not seeing them",
       "searchTags": "Missing logs data;Log data retention",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d614d539-bec7-cf97-ae36-4957cf229652",
+      "longDescription": "",
+      "shortDescription": "You are not seeing an authentication log you expected to see either through Graph API endpoint or when using the portal",
+      "searchTags": "issue with a specific sign-in log entry",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fa30f710-2a37-b2ab-0462-dbc653e3b429",
+      "longDescription": "",
+      "shortDescription": "You are using Azure AD sign-in logs and have an issue downloading the logs either using MS Graph API or Azure Portal",
+      "searchTags": "issue downloading data with MS Graph API",
+      "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     }
   ]

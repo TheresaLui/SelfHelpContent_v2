@@ -11,7 +11,7 @@
 	supportTopicIds="32454868"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="billing-refundrequest"
 	ownershipId="ASMS_Billing"
 />

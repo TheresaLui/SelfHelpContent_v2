@@ -9,9 +9,9 @@
 	supportTopicIds="32596685"
 	resourceTags=""
 	productPesIds="16122"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="7bf228fe-039f-4a93-a1fb-e8dcfc336787"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Security issues

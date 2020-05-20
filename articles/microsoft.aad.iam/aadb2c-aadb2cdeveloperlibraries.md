@@ -5,7 +5,7 @@
 	 productPesIds="16580" 
      authors="parakhj"
 	 ms.author="parja"
-	 cloudEnvironments="public, Fairfax" 
+	 cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec" 
 	 schemaVersion="1"
    articleId="74bb6c16-6466-495c-a460-bc8fa2effaf8"
     	ownershipId="AzureIdentity_B2C"

@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628151"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="3c1bef04-37e0-13c3-1fd8-4f4c86143518"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # JavaScript library for embedding Power BI into your apps.

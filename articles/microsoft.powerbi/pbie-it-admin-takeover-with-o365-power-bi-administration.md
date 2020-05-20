@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628113"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="316e8623-d741-9c48-ebcd-80ad0ce4e58c"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Do an admin takeover in Office 365

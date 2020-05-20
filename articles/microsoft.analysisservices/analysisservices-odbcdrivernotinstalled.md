@@ -1,29 +1,31 @@
 <properties
-	pageTitle="'Driver' property doesn't correspond to an installed ODBC driver"
-	description="'Driver' property doesn't correspond to an installed ODBC driver"
-	service="microsoft.analysisservices"
-	resource="servers"
-	authors="bnmaa"
-	displayOrder="2"
-	selfHelpType="resource"
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="public"
-	articleId="cbe9788f-19df-445f-b03a-6b72d21d188d"
-	ownershipId="ASEP_ContentService_Placeholder"
+    pageTitle="'Driver' property doesn't correspond to an installed ODBC driver"
+    description="'Driver' property doesn't correspond to an installed ODBC driver"
+    service="microsoft.analysisservices"
+    resource="servers"
+    authors="brspie"
+    ms.author="chanwa"
+    displayOrder="2"
+    selfHelpType="resource"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds=""
+    cloudEnvironments="public, fairfax, usnat, ussec"
+    articleId="cbe9788f-19df-445f-b03a-6b72d21d188d"
+    ownershipId="AzureData_AnalysisServices"
 />
 
 # 'Driver' property doesn't correspond to an installed ODBC driver
 
-## **Recommended steps**
+## **Recommended Steps**
 
-1. Open elevated cmd.exe (run as administrator) and run **%windir%\system32\odbcad32.exe** to open the 64bit ODBC Data Source Administrator.
-2. Go to **Drivers** tab, make sure the desired ODBC driver shows up.
-3. If not, install the 64-bit ODBC driver correctly.
-4. Restart the gateway service.
+1. Open elevated cmd.exe (run as administrator) and run **%windir%\system32\odbcad32.exe** to open the 64-bit ODBC Data Source Administrator
+2. Go to **Drivers** tab, make sure the desired ODBC driver shows up
+3. If not, install the 64-bit ODBC driver correctly
+4. Restart the gateway service
 
-## **Recommended documents**
+## **Recommended Documents**
 
-[ODBC Data Source Administrator](https://docs.microsoft.com/sql/odbc/admin/odbc-data-source-administrator) <br />
-[Viewing ODBC Drivers](https://docs.microsoft.com/sql/odbc/admin/viewing-drivers)
+* [ODBC Data Source Administrator](https://docs.microsoft.com/sql/odbc/admin/odbc-data-source-administrator)
+* [Viewing ODBC Drivers](https://docs.microsoft.com/sql/odbc/admin/viewing-drivers)
+

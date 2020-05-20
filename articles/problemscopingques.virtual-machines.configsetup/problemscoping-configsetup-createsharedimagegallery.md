@@ -2,11 +2,11 @@
                 pageTitle="Configuration and Setup"
                 description="Configuration and Setup"
                 authors="summertgu"
-                ms.author="tiag"
+                ms.author="tiag, sischleg"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615272"
                 productPesIds="14749,15571,15797,16454,16470"
-                cloudEnvironments="Public, Fairfax"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0079"
 	ownershipId="Compute_VirtualMachines_Content"
@@ -14,7 +14,8 @@
 # Config and Setup
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Unable to Create Shared Gallery, Image Definition or Image Version",
     "fileAttachmentHint": "",
     "formElements": [

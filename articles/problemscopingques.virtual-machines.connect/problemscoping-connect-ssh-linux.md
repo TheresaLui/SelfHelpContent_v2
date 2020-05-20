@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615526"
                 productPesIds="15571,15797,16454,16470"
-                cloudEnvironments="Public, Fairfax"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0025"
 	ownershipId="Compute_VirtualMachines"
@@ -14,8 +14,9 @@
 # Connect to a VM
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Failure to connect to the SSH port",
     "fileAttachmentHint": "",
     "formElements": [

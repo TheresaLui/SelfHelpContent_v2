@@ -10,7 +10,7 @@
     supportTopicIds="32689844"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="aks-install-onlinux"
 	ownershipId="ASEP_ContentService_Placeholder"
 />

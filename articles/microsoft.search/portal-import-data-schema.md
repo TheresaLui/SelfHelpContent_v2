@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="search-index-schema"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureSearch_AzureSearch"
 />
 # Issue with index schema in the import data wizard

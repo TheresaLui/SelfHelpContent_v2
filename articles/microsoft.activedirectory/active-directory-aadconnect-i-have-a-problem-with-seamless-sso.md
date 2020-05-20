@@ -10,7 +10,7 @@
     supportTopicIds="32684519"
     resourceTags="aadconnect,aadconnect_seamless_single_sign_on,managed_authentication"
     productPesIds="16666"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="91d1a265-98a3-4752-be84-aee2ffc68d11"
 	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />

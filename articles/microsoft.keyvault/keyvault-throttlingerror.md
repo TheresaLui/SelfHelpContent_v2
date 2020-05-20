@@ -13,8 +13,8 @@
     supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # You have Key Vault recommendations

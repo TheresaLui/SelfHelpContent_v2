@@ -10,7 +10,7 @@
     supportTopicIds="32636433"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-ambari-agent-heartbeat-lost"
 	ownershipId="AzureData_HDInsight"
 />

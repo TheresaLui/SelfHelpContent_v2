@@ -1,15 +1,15 @@
 <properties
     pageTitle="Azure Stack usage reporting and billing"
     description="Azure Stack usage reporting and billing"
-    authors="TobyTu"
-    ms.author="prchint"
+    authors="alexsmithMSFT"
+    ms.author="alexsmit, mquian, v-miegge"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629274"
     productPesIds="16226"
-    cloudEnvironments="Public, Fairfax"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="b4b6273d-558e-4f2d-5238-36a830ea0098"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 # Azure Stack usage reporting and billing questions
 
@@ -71,8 +71,12 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
-            "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
+            "watermarkText": "Example: 2002 if your build number is 1.2002.0.35.",
             "dropdownOptions": [
+                {
+                    "value": "2002",
+                    "text": "2002"
+                },
                 {
                     "value": "1910",
                     "text": "1910"
@@ -81,41 +85,9 @@
                     "value": "1908",
                     "text": "1908"
                 },
-		{
+                {
                     "value": "1907",
                     "text": "1907"
-                },
-                {
-                    "value": "1906",
-                    "text": "1906"
-                },
-                {
-                    "value": "1905",
-                    "text": "1905"
-                },
-                {
-                    "value": "1904",
-                    "text": "1904"
-                },
-                {
-                    "value": "1903",
-                    "text": "1903"
-                },
-                {
-                    "value": "1902",
-                    "text": "1902"
-                },
-                {
-                    "value": "1901",
-                    "text": "1901"
-                },
-                {
-                    "value": "1811",
-                    "text": "1811"
-                },
-                {
-                    "value": "1809",
-                    "text": "1809"
                 },
                 {
                     "value": "Other",
@@ -132,11 +104,41 @@
             "displayLabel": "Current Build Number",
             "watermarkText": "Example: 1.1903.0.35",
             "required": false,
-            "infoBalloonText": "Includes hotfixes. See steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-updates#determine-the-current-version'>Determine the Current Version</a>"
+            "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
+        },
+        {
+            "id": "connected_deployment",
+            "visibility": "patch_level == 2002",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Can Azure Stack Hub connect to Azure?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [{
+                    "value": "Yes",
+                    "text": "Yes"
+                },{
+                    "value": "No",
+                    "text": "No"
+                },{
+                    "value": "dont_know_answer",
+                    "text": "Unsure"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "cloud_id",
+            "visibility": "connected_deployment == Yes",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Enter your the Stamp Cloud ID",
+            "watermarkText": "Enter the Stamp Cloud ID",
+            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
+            "required": true
         },
         {
             "id": "region_name",
-            "order": 4,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "Region Name",
             "watermarkText": "Name of your Azure Stack region",
@@ -145,7 +147,7 @@
         },
         {
             "id": "tenant_impact",
-            "order": 5,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Availability of running tenant applications impacted",
             "watermarkText": "Tenant impact",
@@ -163,16 +165,16 @@
             "infoBalloonText": "Choose yes if availability of running tenant applications has been impacted"
         },{
             "id": "subscription_registration",
-            "order": 6,
+            "order": 8,
             "visibility": "null",
             "controlType": "textbox",
             "displayLabel": "What is the Azure Subscription used for registration?",
             "watermarkText": "Navigate to Azure Stack Region management, then click Properties",
             "infoBalloonText": "Navigate to Azure Stack Region management, then click Properties",
             "required": false
-		}, {
+        }, {
             "id": "alert_name",
-            "order": 7,
+            "order": 9,
             "controlType": "dropdown",
             "displayLabel": "What is your billing model?",
             "watermarkText": "Choose an option",
@@ -188,22 +190,22 @@
         ],
             "required": false
         }, {
-			"id": "problem_start_time",
-			"order": 8,
-			"controlType": "datetimepicker",
-			"displayLabel": "When did the problem begin?",
-			"required": true
-		}, {
-			"id": "problem_description",
-			"order": 9,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": []
-		}
-	],
+            "id": "problem_start_time",
+            "order": 10,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        }, {
+            "id": "problem_description",
+            "order": 11,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": []
+        }
+    ],
   "$schema": "SelfHelpContent"
 }
 ---

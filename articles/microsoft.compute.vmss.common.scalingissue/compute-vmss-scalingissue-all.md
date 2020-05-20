@@ -10,14 +10,26 @@
 	supportTopicIds="32641082"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="83305c9c-1097-4a09-88a6-f6bd85717bf5"
 	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # Scaling issue with my scale set
 
-4 out of 5 customers resolved their VMSS issue using the below documents.<br>
+## **Awareness**
+
+>We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
+
+## **Recommended Steps**
+
+>If you are experiencing allocation failures in **UAE North**, please try alternate regions (as first preference) or alternate SKUs.<br>
+
+For general troubleshooting, please follow these guides:<br>
+
+1. Understand your specific error ([SkuNotAvailable](https://docs.microsoft.com/azure/azure-resource-manager/templates/error-sku-not-available), [Quota Limit](https://docs.microsoft.com/azure/azure-resource-manager/templates/error-resource-quota), or [Allocation Failure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure))<br>
+2. Deploy to another region.<br>
+3. Use another size in the given region ([Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm) or [Resize a Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/change-vm-size))
 
 ## Autoscale Best Practices
 

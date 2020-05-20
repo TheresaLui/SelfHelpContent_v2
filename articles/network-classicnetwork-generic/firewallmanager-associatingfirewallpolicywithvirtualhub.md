@@ -10,7 +10,7 @@
     supportTopicIds="32690521"
     resourceTags=""
     productPesIds="16922"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="associating-azure-firewall-policy-with-virtual-hub"
 	ownershipId="CloudNet_AzureFirewallManager"
 />

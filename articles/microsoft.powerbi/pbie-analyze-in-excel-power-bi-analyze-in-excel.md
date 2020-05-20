@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628062"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="914e6d83-f461-78db-e296-ab9403dfdca6"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Analyze in Excel

@@ -25,7 +25,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
   "recommendationFriendlyName": "ExpressRouteCircuitO365",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

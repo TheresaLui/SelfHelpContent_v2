@@ -10,15 +10,21 @@
 	articleId="partnercenter_pricelists"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635689"
+	supportTopicIds="32635689,32692606"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="15960,17011"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Pricelists
+Review the recommended steps and documents before submitting a service request about price lists.
+
+## **Recommended Steps**
+
+- Ensure you have the proper permissions when accessing the price list files. All pricing files can be exported from the **Pricing and offers** page in partner center but only **Global Administrators** and **Admin Agents** have access. 
+- **Indirect Resellers** should work with their **Indirect Providers** for questions about pricing.  
 
 ## **Recommended Documents**
 

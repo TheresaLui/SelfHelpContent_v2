@@ -11,7 +11,7 @@
     productPesIds=""
     cloudEnvironments="Mooncake"
 	articleId="afea129c-601d-4851-8d10-7fc51aa8ac2e"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="CloudNet_ContentDeliveryNetwork"
 />
 
 # CDN cache content is not synchronized with the original domain

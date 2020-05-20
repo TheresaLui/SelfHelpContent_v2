@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628110"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="c447a561-ee77-de8f-74ec-9c5cefccf37f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Install a gateway for Power BI

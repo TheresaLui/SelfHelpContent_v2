@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628174"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="331752cb-a166-4475-2970-c41318a6987e"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Where is my Power BI tenant located?

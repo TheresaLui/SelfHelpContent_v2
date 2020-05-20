@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628170"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="fe956344-668e-b931-bff1-11779cdeae2b"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Row-level security with Power BI Embedded

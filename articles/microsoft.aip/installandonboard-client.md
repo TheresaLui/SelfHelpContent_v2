@@ -10,7 +10,7 @@
 	supportTopicIds="32727932"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	articleId="MIP_Onboard_Client_Install"
 	ownershipId="AzureIdentity_InformationProtection"
 />

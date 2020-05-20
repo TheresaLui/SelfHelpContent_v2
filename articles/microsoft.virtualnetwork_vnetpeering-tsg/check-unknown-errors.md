@@ -1,4 +1,4 @@
-﻿1<properties
+<properties
 	pageTitle="TSG Content Step: Check unknown errors"
 	description="TSG Content Step: Check unknown errors"
 	service="microsoft.network"
@@ -7,13 +7,13 @@
 	authors="chadmath"
 	ms.author="chadmat"
 	selfHelpType="TSG_Content"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="238975e4-c081-4216-939b-87a1e9671413"
 />
 
 # Check VNet peering errors
 
-It looks like this is not an error message with a known solution. We'll have to investigate to find a solution and update the knowledge base. I'll begin looking into this issue with priority to find a solution and follow up.
+It looks like this is not an error message with a known solution. We'll have to investigate to find a solution and update the knowledge base.
 
 ## **Recommended Steps**
 

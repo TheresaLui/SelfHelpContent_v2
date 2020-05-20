@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628143"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="e5cc48e5-02a7-da92-99eb-7f4926946ecb"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Embed with report web part in SharePoint Online

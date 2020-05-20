@@ -6,7 +6,7 @@
     articleId="a67201dd-6df0-4838-8258-5abf26adc8f6_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="RedisCache_RedisCache"
 />
 # Improve your Cache and application performance when running with high network bandwidth
 ---

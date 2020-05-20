@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags="servicefabric"
 	productPesIds=""
-	cloudEnvironments="public,BlackForest,Fairfax"	 
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"	 
 	articleId="d36728f7-9ae7-445d-a3a2-c0d6509d9294"
 	ownershipId="Compute_ServiceFabric"
 />

@@ -9,8 +9,8 @@
     selfHelpType="generic"
     supportTopicIds="32640011"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="7a6c959f-0671-48c4-9435-8051e7298f9d"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />

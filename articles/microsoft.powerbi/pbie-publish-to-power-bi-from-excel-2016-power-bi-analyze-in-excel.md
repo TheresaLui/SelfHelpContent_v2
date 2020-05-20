@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628141"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="8977953a-eb77-6665-f0d7-5630dc4dd543"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Publish to Power BI from Excel 2016

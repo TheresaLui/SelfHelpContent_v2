@@ -10,12 +10,12 @@
 	articleId="partnercenter_pricing_offers_dynamics"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692617"
+	supportTopicIds="32692617,32729539"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="15960,17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
 # Dynamics fulfillment

@@ -7,7 +7,7 @@
     displayOrder="300"
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="d2e076c0-e95d-4c83-9a24-4abd5bf827fc"
 	ownershipId="AzureIdentity_User"
 />

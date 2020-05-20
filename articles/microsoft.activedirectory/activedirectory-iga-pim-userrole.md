@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	resourceTags="governance_overview"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="2004e382-2684-4e6c-9546-af4948c51907"
 	ownershipId="AzureIdentity_User"
 />

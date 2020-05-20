@@ -1,5 +1,4 @@
 <properties
-	articleId="Budgets-budgets"
 	articleTags="costmanagement,budgets"
 	pageTitle="Why is the +Add budget button disabled for me?"
 	description="Budgets-add budgets"
@@ -8,19 +7,22 @@
 	ms.author="prdasneo"
 	selfHelpType="resource"
 	service="microsoft.costmanagement"
-	resource="costanalysis"
+	articleId="5d27454f-bdf4-4a28-b398-b9fb58dd73a5"
+	resource="budgets"
 	resourceTags=""
 	productPesIds="15659"
 	supportTopicIds="32615285"
-	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	ownershipId="ASMS_Billing"
 />
 
 # Why is the '+ Add' budget button disabled for me? 
 
-In order to create a budget, you need one of the following permissions:<br>
-Management Group, Subscription, Resource Group Scopes<br>
+In order to create a budget, you need one of the following permissions: 
 
+* Management Group
+* Subscription
+* Resource Group Scopes
 * Cost Management Contributor
 * Owner
 * Contributor
@@ -31,10 +33,9 @@ Management Group, Subscription, Resource Group Scopes<br>
 * Modern Customer Agreement Only: Billing Account, Billing Profile, Invoice Section Scopes
 * Azure subscription creator 
 
-
 ## **Recommended Documents**
 
-* Video tutorial:[Create a budget in the Azure portal](https://www.youtube.com/watch?v=ExIVG_Gr45A&t=4s)<br>
+* Video tutorial: [Create a budget in the Azure portal](https://www.youtube.com/watch?v=ExIVG_Gr45A&t=4s)<br>
 * [Prerequisites for viewing and customizing budgets](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets#prerequisites)<br>
 * [Create and manage budgets](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets#create-a-budget-in-the-azure-portal)<br>
 * [Configure automation with Azure Action Groups and Budgets API](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets#trigger-an-action-group)<br>

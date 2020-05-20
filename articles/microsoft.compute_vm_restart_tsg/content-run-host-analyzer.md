@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="83e7dc12-93dc-4aa9-8826-4925777d3db7"
 	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
@@ -29,18 +29,18 @@ Example:
 ~~~
 
 **General Findings**
-* This gives a consolidated view of the findings on the Node during the time specified. Some of the details it provides:
-   * BugCheck happened on the Node.
-   * Node Reboots.
-   * Throttling on disks.
-   * Network connectivity drops.
+This gives a consolidated view of the findings on the Node during the time specified. Some of the details it provides:
+   1. BugCheck happened on the Node.
+   2. Node Reboots.
+   3. Throttling on disks.
+   4. Network connectivity drops.
 
 **VM Metrics**
-**VM BlobPerf** – This provides the details with respect XIOPS, NWIOPS, latency, IO retries, IOs throttled and IO trim bytes with a timestamp. You can look the exact time when large IOs were throttled or IO bytes were trimmed.
-**VM Limit Charts** – This provides graphical representation of VM CPU performance, latency, IO failures, IOPs etc. This way you can easily figure out if the VM is having high CPU consistently or if there were a high number of IOs throttled.
+1. **VM BlobPerf** – This provides the details with respect to XIOPS, NWIOPS, latency, IO retries, IOs throttled and IO trim bytes with a timestamp. You can look the exact time when large IOs were throttled or IO bytes were trimmed.
+2. **VM Limit Charts** – This provides graphical representation of VM CPU performance, latency, IO failures, IOPs etc. This way you can easily figure out if the VM is having high CPU consistently or if there were a high number of IOs throttled.
 For more understanding of the HostAnalyzer Charts, go through the training uploaded here  
-**Blob Perf Charts** – This provides graphical representation of blob performance charts.
-**Blobs** - This provides the BlobPath, its CachingPolicy and if the Disk is a part of Standard or Premium Storage. If the IsXIOdisk value is 0, then it is a standard disk, if the value is 1, then it’s a premium storage.
+3. **Blob Perf Charts** – This provides graphical representation of blob performance charts.
+4. **Blobs** - This provides the BlobPath, its CachingPolicy and if the Disk is a part of Standard or Premium Storage. If the IsXIOdisk value is 0, then it is a standard disk, if the value is 1, then it’s a premium storage.
 
 **Host Metrics**
 This again provides the graphical representation of the Host performance during the time, providing details about the CPU, Memory etc. For more understanding of the HostAnalyzer Charts, go through the [training uploaded here](https://microsoft.sharepoint.com/teams/AzureSupportability/Shared%20Documents/SPM/Operational%20Supportability/Diagnostics%20Scenarios/Diagnostic/Host%20Analzer%20and%20GetSub%20Brownbag%20AM%20PST.mp4).

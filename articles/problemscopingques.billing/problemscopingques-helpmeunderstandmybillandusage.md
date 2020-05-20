@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632935"
 	productPesIds="15659"
-	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="ASMS_Billing"
 />
@@ -34,7 +34,7 @@
             "controlType": "textbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Invoice # (if applicable)",
-            "watermarkText": "Provide your Invoice #",
+            "watermarkText": "Provide your Invoice#. If you dont have any, please use N/A",
             "required": true
         },
         {

@@ -10,7 +10,7 @@
     supportTopicIds="32636471"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-kafka-queryjob-failure"
 	ownershipId="AzureData_HDInsight"
 />

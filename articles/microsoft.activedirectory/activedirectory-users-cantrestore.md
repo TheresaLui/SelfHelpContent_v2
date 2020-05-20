@@ -8,7 +8,7 @@
     selfHelpType="generic"
     supportTopicIds="32615430"
     productPesIds="16578"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="aa375ab2-1977-40e8-b772-097008394a91"
 	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />

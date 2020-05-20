@@ -16,18 +16,18 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "c6b94711-f1f5-4e7e-9c89-c17ed4190969",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('Xstore').azurestorageadvisorusepremiumblob",
-    "dataSource": "Kusto",
-    "refreshInterval": "0.12:00:00"
+    "streamNamespace": "AzureStorage.Data.StorageAdvisorPremiumBlobStorageAccountV1",
+    "dataSource": "Cosmos",
+    "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "PremiumBlobStorageAccount",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "hux@microsoft.com, Sijia.Zhu@microsoft.com",
+    "email": "Sijia.Zhu@microsoft.com",
     "icm": {
       "routingId": "MDM://AzureAdvisor",
       "service": "Azure Advisor",

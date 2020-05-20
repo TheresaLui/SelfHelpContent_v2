@@ -8,9 +8,9 @@
 	supportTopicIds="32636866"
 	resourceTags=""
 	productPesIds="15947"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c579acf1-d63b-4b46-8813-3d1997104349"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Compute and Apps Common Solutions

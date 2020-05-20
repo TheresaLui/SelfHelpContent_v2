@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Troubleshooting Management groups and subscriptions RBAC permissions"
-	description="Common issues with using management groups and subscriptions RBAC Permissions"
-	service="Microsoft.Management"
-	resource="managementgroups"
-	authors="rthorn17"
-	ms.author="rithorn"
-	articleId="managementgroups-rbac"
-	selfHelpType="generic"
-	supportTopicIds="32609543,32609546,32609548,32609549,32609550 "
-	productPesIds="16530"
-	cloudEnvironments="public,fairfax,mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+    pageTitle="Troubleshooting Management groups and subscriptions RBAC permissions"
+    description="Common issues with using management groups and subscriptions RBAC Permissions"
+    service="Microsoft.Management"
+    resource="managementgroups"
+    authors="rthorn17"
+    ms.author="rithorn"
+    articleId="managementgroups-rbac"
+    selfHelpType="generic"
+    supportTopicIds="32609543,32609546,32609548,32609549,32609550 "
+    productPesIds="16530"
+    cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
+    ownershipId="ARM_ManagementGroups"
 />
 
 # Management group troubleshooting Role Based Access Control (RBAC) Permissions
@@ -34,11 +34,11 @@ A majority of issues when moving a subscription/ management group have to do wit
 
 1. Check the current parent management group of the subscription or management group you are trying to move for your permissions. To move a subscription or management group, **you need to have write access on the current parent management group.**  You should have "Owner", "Contributor", "Management Group Contributor" roles or equivalent custom role on the group.  
 
-	* **Exception**: If the current parent management group is the root management group of the hierarchy, the service will not check this permission as this is the default location  
+    * **Exception**: If the current parent management group is the root management group of the hierarchy, the service will not check this permission as this is the default location  
 
 1. Check the target parent management group you are trying to move the subscription or management group to for your permissions. To move a subscription or management group, **you need to have write access on the target parent management group.**  You should have "Owner", "Contributor", "Management Group Contributor" roles or equivalent custom role on the group.
 
-	* **Exception**: If the target parent management group is the root management group of the hierarchy, the service will not check this permission as this is the default location
+    * **Exception**: If the target parent management group is the root management group of the hierarchy, the service will not check this permission as this is the default location
 
 With these three permissions being true, you will be able to move the subscription or management group between different management groups. For more information, see [How to change, delete, or manage your management groups](https://docs.microsoft.com/azure/governance/management-groups/manage#moving-management-groups-and-subscriptions).
 

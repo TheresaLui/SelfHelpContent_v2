@@ -5,7 +5,7 @@
   ms.author="akankshajsh"
   selfhelptype="SupportTopicDescription"
   productpesids="8418caaf-4634-b4c0-d9b6-27c266b6b67b"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="table storage-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"

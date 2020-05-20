@@ -5,7 +5,7 @@
     resource="Microsoft_AAD_IAM"
     authors="ajamess"
     selfHelpType="resource"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     resourceTags="enterpriseapps_overview, enterpriseapps_singleapp,directory_overview"
     displayOrder="1707"
     	articleId="0326bd07-49cf-422a-8cd6-7e281373f2fb"

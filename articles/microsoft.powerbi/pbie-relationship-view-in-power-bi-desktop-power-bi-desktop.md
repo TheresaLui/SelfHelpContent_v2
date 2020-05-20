@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628145"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="6db0350a-e1a1-67b2-7359-356aed61f06f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Relationship View in Power BI Desktop

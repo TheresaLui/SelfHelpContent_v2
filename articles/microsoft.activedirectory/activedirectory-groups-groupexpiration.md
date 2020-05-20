@@ -8,7 +8,7 @@
     selfHelpType="generic"
     supportTopicIds="32615385"
     productPesIds="16578"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="4e01b60c-bf2f-4d15-a8b0-09ac8f5bbf13"
 	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
@@ -39,3 +39,6 @@ User activities from SharePoint, Outlook and Teams can trigger group automatic r
 
 * [Group Expiration policy and renewal emails](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle) 
 * [Restore a deleted Office 365 group in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-restore-azure-portal)
+
+### **Recommended Videos**
+* [Advanced features of group management: group expiration, dynamic groups, and group naming policy](https://www.youtube.com/watch?v=e9zUqQx5upY)

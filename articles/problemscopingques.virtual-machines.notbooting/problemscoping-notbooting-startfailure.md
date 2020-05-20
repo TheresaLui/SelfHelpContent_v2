@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32675598"
                 productPesIds="14749"
-                cloudEnvironments="Public, Fairfax"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="476160c4-2c90-4dea-bdcf-0d98d5fdff9c"
 	ownershipId="Compute_VirtualMachines_Content"
@@ -16,7 +16,7 @@
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "My VM is starting",
     "fileAttachmentHint": "",
     "formElements": [

@@ -10,7 +10,7 @@
 	supportTopicIds="32536440"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="24c58cd6-d0e3-4665-8ea3-89757767e4c5"
 	ownershipId="Compute_SiteRecovery"
 />

@@ -10,9 +10,9 @@
     supportTopicIds="32629192"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="e3d249b3-e197-40b8-940f-37746ef01081"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # ASDK - Azure Stack Development Kit Supportability

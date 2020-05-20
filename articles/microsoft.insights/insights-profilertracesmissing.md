@@ -9,7 +9,7 @@
     selfHelpType="generic"
     productPesIds="15693"
     supportTopicIds="32729565"
-    cloudEnvironments="public, fairfax, mooncake"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
      articleId="insights-profilertracesmissing"
     ownershipId="AzureMonitoring_ApplicationInsights"
 />

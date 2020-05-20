@@ -8,9 +8,9 @@
     supportTopicIds="32636900"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
      articleId="a15f057d-9111-9011-a98a-dfaf3843dc2f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center Recommendation - Recommendation keeps on appearing
