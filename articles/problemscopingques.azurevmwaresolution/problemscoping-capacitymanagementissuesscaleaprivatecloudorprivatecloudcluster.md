@@ -68,7 +68,7 @@
             "id": "Resourcename",
             "order": 6,
             "controlType": "textbox",
-            "displayLabel": "What is the Resource name?",
+            "displayLabel": "What is the Resource name ?",
             "required": false
         },
         {
