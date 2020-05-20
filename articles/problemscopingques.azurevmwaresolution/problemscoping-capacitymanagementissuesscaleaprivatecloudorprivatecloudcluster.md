@@ -32,7 +32,7 @@
             "required": true,
 	    "useAsAdditionalDetails": true,
 	    "hints": [{
-					"text": "What is the error message?"
+					"text": "Provide details about the issue"
 				}]
         },
         {
@@ -68,7 +68,7 @@
             "id": "Resourcename",
             "order": 6,
             "controlType": "textbox",
-            "displayLabel": "What is the Resource name ?",
+            "displayLabel": "What is the Resource name?",
             "required": false
         },
         {

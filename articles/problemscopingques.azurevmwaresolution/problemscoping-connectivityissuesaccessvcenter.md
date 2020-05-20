@@ -1,13 +1,13 @@
 <properties
-                pageTitle="creatensxtnetworkingcomponents"
-                description="creatensxtnetworkingcomponents"
+                pageTitle="accessvcenter"
+                description="accessvcenter"
                 ms.author="neshenoy"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32739950"
+                supportTopicIds="32739945"
                 productPesIds="17080"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="18ab7d79-c2cb-40f5-ae0e-0b140eff2b86"
+                articleId="aa262eb6-0471-4837-8af1-5ad376bfd698"
 	            ownershipId="Azure_VMwareSolution_Content"
 />
 # Useful Title
@@ -16,7 +16,7 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-            "title": "creatensxtnetworkingcomponents",
+            "title": "accessvcenter",
             "fileAttachmentHint": "",
             "formElements": [{
             			"id": "problem_start_time",
@@ -28,32 +28,24 @@
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the error message?",
+            "displayLabel": "What is the error or warning message?",
             "required": true,
 	    "useAsAdditionalDetails": true,
 	    "hints": [{
-					"text": "Please describle the error message"
+					"text": "Provide details about the issue."
 				}]
         },
         {
-            "id": "CorrelationID",
+            "id": "ExpressRouteURIID",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the Correlation ID of the failed deployment?",
+            "displayLabel": "What is the ExpressRoute URI ID?",
             "required": false
-        },
-        {
-            "id": "Resourcename",
+        }, {
+            "id": "credentialissue",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "What is the Resource name?",
-            "required": false
-        },
-        {
-            "id": "ResourceGroup",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "What is the Resource group?",
+            "displayLabel": "Is this a credential issue?",
             "required": false
         }
             ]

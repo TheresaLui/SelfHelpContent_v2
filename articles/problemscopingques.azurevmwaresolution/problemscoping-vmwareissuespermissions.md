@@ -32,7 +32,7 @@
             "required": true,
 	    "useAsAdditionalDetails": true,
 	    "hints": [{
-					"text": "Which operation are you trying to perform?"
+					"text": "Please describe the operation you trying to perform"
 				}]
         },
         {
