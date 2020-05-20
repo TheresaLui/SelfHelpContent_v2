@@ -22,7 +22,7 @@ Blueprint definitions supports parameters at the blueprint level and at the arti
 
 ## **Recommended Steps**
 
-Identify what kind of parameters you want to specify at the blueprint level (static parameter) and which ones you want to specify at the artifact levelL
+Identify what kind of parameters you want to specify at the blueprint level (static parameter) and which ones you want to specify at the artifact level:
 
 * [Blueprint parameter types](https://docs.microsoft.com/azure/governance/blueprints/concepts/parameters)
 * [How to create and use static parameters](https://docs.microsoft.com/azure/governance/blueprints/concepts/parameters#blueprint-level-parameter)
