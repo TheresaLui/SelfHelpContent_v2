@@ -28,11 +28,11 @@
             "required": true
         },
                 {
-            "id": "problem_description_general",
+            "id": "resource_group_and_resource_name",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please type **both** the name of the resource group and the name of the resource for which you want to configure autoscale.",
-            "watermarkText": "Please type **both** the name of the resource group and the name of the resource for which you want to configure autoscale.",
+            "displayLabel": "Please type BOTH the name of the resource group and the name of the resource for which you want to configure autoscale.",
+            "watermarkText": "Please type BOTH the name of the resource group and the name of the resource for which you want to configure autoscale.",
             "required": true,
             "useAsAdditionalDetails": false
         },
