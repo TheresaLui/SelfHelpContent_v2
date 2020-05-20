@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "92fda6be-46b1-2d65-4aa8-4bdb6b7d3bd9",
+      "longDescription": "",
+      "shortDescription": "Resolve issues with updating your scale set",
+      "searchTags": "Update",
+      "category": "Update",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ba0a4f26-e1b9-4747-21ba-7b6cda11647c",
       "longDescription": "",
       "shortDescription": "Questions specific to Azure Planned Maintenance of the Azure hardware",
