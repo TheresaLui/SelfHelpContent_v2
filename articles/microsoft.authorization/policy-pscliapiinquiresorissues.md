@@ -1,6 +1,6 @@
 <properties
-    pageTitle="PS/CLI/API Inquires or Issues"
-    description="PS/CLI/API Inquires or Issues"
+    pageTitle="PS/CLI/API Inquiries or Issues"
+    description="PS/CLI/API Inquiries or Issues"
     service="microsoft.authorization"
     resource="policyDefinitions"
     authors="robga"
@@ -15,7 +15,7 @@
     ownershipId="Compute_AzurePolicy"
 />
 
-# Azure Policy - PS/CLI/API Inquires or Issues
+# Azure Policy - PS/CLI/API Inquiries or Issues
 
 ## **Recommended Steps**
 
