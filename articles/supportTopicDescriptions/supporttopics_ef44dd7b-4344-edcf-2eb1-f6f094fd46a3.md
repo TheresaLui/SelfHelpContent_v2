@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9123773b-88c6-9665-e93c-a31fae5482dd",
+      "longDescription": "",
+      "shortDescription": "Issues related to Azure Migrate Server Migration tool used to migrate virtual machines to Azure",
+      "searchTags": "ServerMigration",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a95bd679-eba4-eed8-a537-eaa69141c9c2",
       "longDescription": "",
       "shortDescription": "Issues while deploying VMware appliance on-prem",
