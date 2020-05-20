@@ -22,6 +22,7 @@
 * The `managed identity` you choose will automatically get an exemption to the blueprint lock so that it can continue to manage resources in the blueprint
 * You can exempt up to four additional principals from the blueprint lock with the `excludedPrincipals` property. [Learn how to exempt principals from a blueprint assignment here](https://docs.microsoft.com/azure/governance/blueprints/concepts/resource-locking#exclude-a-principal-from-a-deny-assignment)
 * You can exempt specific actions with the `excludedActions` property. For example, even with a `ReadOnly` lock, you may still want to allow for a VM restart action. [Learn how to exempt actions from a blueprint assignment here](https://docs.microsoft.com/azure/governance/blueprints/concepts/resource-locking#exclude-an-action-from-a-deny-assignment)
+* A `denyAssignment` can **only** be created by either the Azure Blueprints or Azure Managed Applications services. You can view active deny assignments in the IAM blade of the relevant scopes and resources, but they cannot be created, updated or deleted except via the whitelisted services.
 
 ## **Recommended Documents**
 
