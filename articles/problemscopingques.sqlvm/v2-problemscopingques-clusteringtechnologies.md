@@ -53,7 +53,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
-        },       
+        },      
          {
              "id": "Which_doc",
              "visibility": null,
@@ -82,15 +82,6 @@
              "maxLength": 0,
              "useAsAdditionalDetails": false,
              "numberOfLines": 0
-        },
-        {
-                "id": "error_description",
-                "order": 4,
-                "controlType": "multilinetextbox",
-                "displayLabel": "Error information",
-                "watermarkText": "Provide additional information about the error",
-                "required": true,
-                "useAsAdditionalDetails": true
         },
         {
             "id": "problem_description",
