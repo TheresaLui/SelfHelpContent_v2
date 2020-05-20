@@ -12,7 +12,7 @@
     supportTopicIds="32539944, 32539947"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
  	ownershipId="CloudNet_AzureExpressRoute"
 />
 

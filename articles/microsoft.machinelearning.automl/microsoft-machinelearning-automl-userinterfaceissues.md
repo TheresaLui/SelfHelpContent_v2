@@ -8,7 +8,7 @@
 	ms.author="anumamah"
 	supportTopicIds="32690896"
 	productPesIds="16644"
-	cloudEnvironments="public, fairfax, mooncake"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.automl.userinterfaceissues"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"

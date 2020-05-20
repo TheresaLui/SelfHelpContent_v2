@@ -14,7 +14,7 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960, 17012"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Establishing a relationship with a customer in another country or region

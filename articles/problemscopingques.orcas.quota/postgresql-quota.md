@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32684017"
     productPesIds="15621"
-    cloudEnvironments="Public, Fairfax"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-orcas-quota-postgresql"
     ownershipId="AzureData_AzureDatabaseforPostgreSQL"

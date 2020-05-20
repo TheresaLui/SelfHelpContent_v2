@@ -12,7 +12,7 @@ diagnosticScenario="Premium storage account only supports one service type"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 

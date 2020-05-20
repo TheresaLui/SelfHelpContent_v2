@@ -5,7 +5,7 @@
    selfHelpType="problemScopingQuestions"
    supportTopicIds="32511173"
   productPesIds="15078"
-  cloudEnvironments="public, Fairfax"
+  cloudEnvironments="public, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="c6ed4f84-9229-42a6-9adb-220a0d6acd12"
 	ownershipId="AzureData_HDInsight"

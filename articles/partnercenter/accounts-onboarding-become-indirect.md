@@ -14,7 +14,7 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="17000"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
@@ -25,5 +25,5 @@ As an indirect reseller in CSP, you work with indirect providers (also known as 
 ## **Recommended Documents**
 Information and resources about how to become an indirect reseller.
 
-* [Enroll as an indirect reseller in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/indirect-reseller-tasks-in-partner-center#enroll-as-an-indirect-reseller-in-the-cloud-solution-provider-program0
+* [Enroll as an indirect reseller in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/indirect-reseller-tasks-in-partner-center#enroll-as-an-indirect-reseller-in-the-cloud-solution-provider-program)
 * [Partner with indirect providers in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/indirect-reseller-tasks-in-partner-center)

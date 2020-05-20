@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32637185"
                 productPesIds="16450"
-                cloudEnvironments="Public, Fairfax"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b2ecdb4d-ff62-4ed2-9a20-29ca8b399640"
 	ownershipId="Compute_AzureKubernetesService"

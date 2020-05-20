@@ -10,7 +10,7 @@
     supportTopicIds="32629019"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-kafka-configuration-networking"
 	ownershipId="AzureData_HDInsight"
 />

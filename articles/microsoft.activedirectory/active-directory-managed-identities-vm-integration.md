@@ -13,7 +13,7 @@
 	supportTopicIds="32632153"
 	resourceTags=""
 	productPesIds="16575"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 

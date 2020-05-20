@@ -9,7 +9,7 @@
 	supportTopicIds="32688841,32688842,32688844"
 	resourceTags="" 
 	productPesIds="15585" 
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-sdk-latency"
 	displayOrder="281"
 	category="SDK Issues"

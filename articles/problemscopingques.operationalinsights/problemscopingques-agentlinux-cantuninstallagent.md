@@ -8,7 +8,7 @@ ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612436"
 productPesIds="15725"
-cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
+cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 schemaVersion="1"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />

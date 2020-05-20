@@ -7,10 +7,10 @@
 	ms.author="jalichwa"
 	displayOrder="10"
 	selfHelpType="generic"
-	supportTopicIds="32452742, 32738119, 32738115, 32738120, 32738118, 32738117, 32738116"
+	supportTopicIds="32452742"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="ee2740e9-e40c-4c32-ab2c-0ec8414b28c3"
 	ownershipId="AzureKeyVault_KeyVault"
 />
@@ -30,7 +30,7 @@
 	
 	[Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
 
-* I have several (over 16) applications that need to access a key vault. Since Key Vault only allows 16 access control entries, how can I achieve that?<br>
+* I have several (over 1024) applications that need to access a key vault. Since Key Vault only allows 1024 access control entries, how can I achieve that?<br>
 	
 	[Grant permission to many applications to access a key vault](https://docs.microsoft.com/azure/key-vault/key-vault-group-permissions-for-apps)
 

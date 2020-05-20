@@ -10,7 +10,7 @@
 	supportTopicIds="32632157"
 	resourceTags=""
 	productPesIds="16679"
-	cloudEnvironments="public,mooncake,fairfax,blackforest"
+	cloudEnvironments="public,mooncake,fairfax,blackforest, usnat, ussec"
 	articleId="nva-barracudanetworks.md"
 	ownershipId="CloudNet_NVA"
 />

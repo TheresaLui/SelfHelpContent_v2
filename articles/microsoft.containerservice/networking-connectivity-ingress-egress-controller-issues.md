@@ -10,7 +10,7 @@
     supportTopicIds="32637197"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="ccb98cdf-fa52-49f2-9a72-13b5f8607ac9"
 	ownershipId="Compute_AzureKubernetesService"
 />

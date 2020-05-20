@@ -13,7 +13,7 @@
 	supportTopicIds="32613320"
 	resourceTags=""
 	productPesIds="16461"
-	cloudEnvironments="public,Mooncake,FairFax,BlackForest"
+	cloudEnvironments="public,Mooncake,FairFax,BlackForest, usnat, ussec"
 	ownershipId="StorageMediaEdge_StorageQueues"
 />
 

@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640019"
     productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-perf-maxconnection"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"

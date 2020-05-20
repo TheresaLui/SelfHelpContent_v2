@@ -13,8 +13,8 @@
     supportTopicIds="32675707"
     resourceTags=""
     productPesIds="1003281"
-    cloudEnvironments="Public, Fairfax, MoonCake"
-    ownershipId="ASEP_ContentService_Placeholder"
+    cloudEnvironments="Public, Fairfax, MoonCake, usnat, ussec"
+    ownershipId="AzureData_AnalysisServices"
 />
 
 # There was a node movement initiated by service deployment or Service Fabric update

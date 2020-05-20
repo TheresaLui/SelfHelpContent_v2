@@ -13,7 +13,7 @@
 	supportTopicIds="32640643,32640645"
 	resourceTags=""
 	productPesIds="16572"
-	cloudEnvironments="public,mooncake,fairfax"
+	cloudEnvironments="public,mooncake,fairfax, usnat, ussec"
 	ownershipId="CloudNet_VirtualWAN"
 />
 

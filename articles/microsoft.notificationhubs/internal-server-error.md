@@ -9,9 +9,9 @@
 	resourceTags="notificationHubs"
 	productPesIds=""
 	supportToicIds =""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="65901f72-e361-4509-8bbe-cac626247bc9"
-	ownershipId="AzureMessaging_Common"
+	ownershipId="AzureNotificationHubs"
 />
 
 # I am getting 'Internal server' error

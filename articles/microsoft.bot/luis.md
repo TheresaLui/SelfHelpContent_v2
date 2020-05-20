@@ -10,7 +10,7 @@
 	supportTopicIds="32688628"
 	resourceTags=""
 	productPesIds="16152"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="8177193C-0021-4A10-95A6-31DE43BFA348"
 	ownershipId="Compute_BotService"
 />
@@ -22,7 +22,7 @@
 
 Bots can use a variety of conversational styles, from the structured and guided to the free-form and open-ended. A bot needs to decide what to do next in its conversation flow, based on what the user said, and in an open-ended conversation, there is a wider range of user replies.
 
-The interaction between users and bots is often free-form, and bots need to understand language naturally and contextually. This article explains how Language Understanding (LUIS) help you to determine what users want, to identify concepts and entities in sentences, and ultimately to allow your bots to respond with the appropriate action.ize the Application Insights telemetry and exception logging, you will need to make sure to utilize the appropriate features and functionality from the articles below.
+The interaction between users and bots is often free-form, and bots need to understand language naturally and contextually. This article explains how Language Understanding (LUIS) help you to determine what users want, to identify concepts and entities in sentences, and ultimately to allow your bots to respond with the appropriate action. Utilize the Application Insights telemetry and exception logging, you will need to make sure to utilize the appropriate features and functionality from the articles below.
 
 ## **Recommended Documents**
 

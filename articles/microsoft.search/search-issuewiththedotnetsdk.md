@@ -10,7 +10,7 @@
 	displayOrder="2"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="search-issuewiththedotnetsdk"
 	ownershipId="AzureSearch_AzureSearch"
 />

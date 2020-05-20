@@ -11,7 +11,7 @@
 	supportTopicIds="32680645"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="datalakeanalytics-difficulties-using-portal"
 	ownershipId="AzureData_AzureDataLakeAnalytics"
 />

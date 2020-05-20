@@ -10,7 +10,7 @@
 	supportTopicIds="32639110"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="config-update-failure"
 	ownershipId="CloudNet_AzureApplicationGateway"
 />

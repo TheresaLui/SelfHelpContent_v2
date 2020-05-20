@@ -10,7 +10,7 @@ displayOrder=""
 articleId="d25df004-3a37-43d9-9484-03284e19e49b"
 selfHelpType="diagnoseandsolve"
 productPesIds="15659"
-cloudEnvironments="public,blackForest,fairfax,mooncake"
+cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	ownershipId="ASMS_Billing"
 />
 

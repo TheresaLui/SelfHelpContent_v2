@@ -6,10 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32674486"
 	productPesIds="16790"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="a0f174a7-bf33-426e-bf76-f8333fce8130"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_HPCCache"
 />
 # My Problem is not Listed
 ---

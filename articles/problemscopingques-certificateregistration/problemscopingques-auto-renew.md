@@ -6,7 +6,7 @@
 	ms.author="khzayed"
 	selfHelpType="problemScopingQuestions"
 	productPesIds="16512"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-auto-renew"
 	ownershipId="Compute_AppService"

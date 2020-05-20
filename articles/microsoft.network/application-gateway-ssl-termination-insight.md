@@ -11,7 +11,7 @@
     diagnosticScenario="ApplicationGatewaySSLTermiationIssues"
     supportTopicIds="32582828"
 	productPesIds="15922"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
  	ownershipId="CloudNet_AzureApplicationGateway"
 />
 

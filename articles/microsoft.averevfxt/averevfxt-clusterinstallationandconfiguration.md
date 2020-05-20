@@ -11,8 +11,8 @@
     supportTopicIds="32609687"
     resourceTags=""
     productPesIds="16506"
-    cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+    cloudEnvironments="public, fairfax, usnat, ussec"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 
 # Avere vFXT Cluster Installation and Configuration Issues

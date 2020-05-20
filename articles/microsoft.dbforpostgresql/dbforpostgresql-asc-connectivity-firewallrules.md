@@ -13,7 +13,7 @@
 	supportTopicIds="32628416"
 	resourceTags="windows, linux"
 	productPesIds="16222, 17067"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Failed connections to PostgreSQL server due to firewall restriction

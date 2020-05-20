@@ -10,7 +10,7 @@
 	supportTopicIds="32454918"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="howtochangeownershipofmysubscription"
 	ownershipId="ASMS_SubscriptionManagement"
 />

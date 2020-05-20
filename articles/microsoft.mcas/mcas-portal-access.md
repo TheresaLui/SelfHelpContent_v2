@@ -14,7 +14,7 @@
   resourceTags=""
   productPesIds="16031"
   ownershipId="CloudAppSecurity_Portal"
-  cloudEnvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
 />
 
 # I can't access the Cloud App Security portal

@@ -10,7 +10,7 @@
 	supportTopicIds="32636938"
 	resourceTags=""
 	productPesIds="16125"
-	cloudEnvironments="public,BlackForest,Fairfax, MoonCake"
+	cloudEnvironments="public,BlackForest,Fairfax, MoonCake, usnat, ussec"
 	articleid="eventhub-servicehealth"
 	ownershipId="AzureMessaging_Common"
 />

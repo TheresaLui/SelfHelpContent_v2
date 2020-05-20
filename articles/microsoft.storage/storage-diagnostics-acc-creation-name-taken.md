@@ -12,7 +12,7 @@ diagnosticScenario="Storage account name already taken"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 ownershipId="StorageMediaEdge_AccountManagement"
 />
 

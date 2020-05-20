@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32639982"
 	productPesIds="16222"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-pg-connectivity-firewall"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"

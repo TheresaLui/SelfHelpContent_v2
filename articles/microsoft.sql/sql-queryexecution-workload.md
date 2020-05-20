@@ -13,8 +13,8 @@
     supportTopicIds="32630434,32630450,32630454,32630459"
     resourceTags=""
     productPesIds="13491"
-    cloudEnvironments="public,blackForest,fairfax,mooncake"
-	ownershipId="AzureData_AzureSQLDB"
+    cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
 # We ran diagnostics on your resource and found Increased Workload

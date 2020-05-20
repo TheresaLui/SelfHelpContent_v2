@@ -10,7 +10,7 @@
     supportTopicIds="32690875"
     resourceTags=""
     productPesIds="16644"
-    cloudEnvironments="public, fairfax, mooncake"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
     articleid="machinelearning-mlops-registration"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />

@@ -10,7 +10,7 @@
     supportTopicIds="32640086"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="d980b014-1500-4f79-a025-03717b4576da"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />

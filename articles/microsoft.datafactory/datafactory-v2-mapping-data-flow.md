@@ -7,10 +7,10 @@
 	ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32633540,32633539,32633535,32633532,32633537,32633533,32633536"
+    supportTopicIds="32633535,32633532,32633537,32633533,32633536"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="4041ad80-1861-9011-a7a2-828a98325d20"
 	ownershipId="AzureData_DataFactory"
 />
@@ -35,3 +35,4 @@
 
 - [Azure Data Factory FAQ](https://docs.microsoft.com/azure/data-factory/frequently-asked-questions)
 - [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory)
+

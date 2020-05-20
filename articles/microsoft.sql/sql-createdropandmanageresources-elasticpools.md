@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32630419"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="88aaebf6-8c56-4b4b-807a-7ef2ca228385"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Provisioning"
 />
 
 # create drop and manage resources/elastic pools

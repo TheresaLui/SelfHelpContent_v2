@@ -7,7 +7,7 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32542210"
 	productPesIds="16333"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="d34b-4f95-933f-92355b9f7e7f"
 	ownershipId="Compute_AppService"

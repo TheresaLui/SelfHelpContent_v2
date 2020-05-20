@@ -13,7 +13,7 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public, Fairfax, Mooncake"
+cloudEnvironments="Public, Fairfax, Mooncake, usnat, ussec"
 ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Microsoft Azure has identified your Application Gateway listener has no valid SSL certificate configured

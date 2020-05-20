@@ -10,7 +10,7 @@
 	supportTopicIds="32615297"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public, Blackforest, Fairfax, Mooncake"
+	cloudEnvironments="public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="9af7896e-f094-4405-8449-c79778dcf15b"
 	ownershipId="ASMS_Billing"
 />

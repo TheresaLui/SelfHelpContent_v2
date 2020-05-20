@@ -13,7 +13,7 @@
   supportTopicIds="32628264,32628261,32628277,32628275,32628268,32628270"
   resourceTags="linux"
   productPesIds="15571,15797,16454,16470,16342"
-  cloudEnvironments="public, Fairfax"
+  cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 />
 
