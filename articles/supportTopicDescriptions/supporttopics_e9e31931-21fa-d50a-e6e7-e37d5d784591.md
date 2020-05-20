@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "da505cd0-5cd6-3398-2923-beaf5170b260",
+      "longDescription": "",
+      "shortDescription": "Common problems related to starting or stopping your instance or scale set",
+      "searchTags": "Start;Stop",
+      "category": "Starting",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e53f61aa-bd8b-5b53-6482-165906f30a3c",
       "longDescription": "",
       "shortDescription": "Questions specific to configuring monitoring alerts",
