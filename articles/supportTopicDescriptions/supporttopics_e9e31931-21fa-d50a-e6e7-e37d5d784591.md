@@ -6,19 +6,20 @@
   selfhelptype="SupportTopicDescription"
   productpesids="e9e31931-21fa-d50a-e6e7-e37d5d784591"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_e9e31931-21fa-d50a-e6e7-e37d5d784591" />
+  articleid="supporttopics_e9e31931-21fa-d50a-e6e7-e37d5d784591"
+  ownershipid="Compute_VirtualMachineScaleSets_Content" />
 # Support Topic Descriptions for e9e31931-21fa-d50a-e6e7-e37d5d784591
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
-  "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "shortDescription": "Scale sets provide high availability to your applications, and allow you to centrally manage, configure, and update a large number of VMs. ",
+  "longDescription": "",
+  "productLink1": "https://docs.microsoft.com/azure/virtual-machine-scale-sets",
+  "productLinkName1": "Virtual Machine Scale Sets documentation",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "7a976faf-d433-740c-50bf-f2660969a347",
