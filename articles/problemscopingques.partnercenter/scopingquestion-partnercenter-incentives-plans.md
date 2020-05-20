@@ -203,20 +203,20 @@
 		{
 			"id": "plan_ids",
 			"order": 5,
-			"controlType": "multilinetextbox",
+			"controlType": "textbox",
 			"displayLabel": "Please enter the plan ID(s) in question.",
 			"watermarkText": "If you have multiple plans you need help with, please include a comma separated list.",
 			"required": false
 		},
 		{
-			"id": "problem_description",
-			"order": 1000,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
-			"watermarkText": "Problem description",
-			"useAsAdditionalDetails": true,
-			"required": true
-		}
+         "id":"problem_description",
+         "order":1000,
+         "controlType":"multilinetextbox",
+         "displayLabel":"Problem description",
+         "watermarkText":"Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
+         "useAsAdditionalDetails":true,
+         "required":true
+      }
 	]
 }
 ---
