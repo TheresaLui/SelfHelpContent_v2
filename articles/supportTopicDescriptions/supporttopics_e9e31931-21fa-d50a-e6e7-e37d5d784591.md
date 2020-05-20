@@ -140,6 +140,14 @@
       "searchTags": "Alert",
       "category": "Configuring",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "fc7ce244-83c2-72dc-049b-055413ea0401",
+      "longDescription": "",
+      "shortDescription": "Issues with basic management of scale sets not covered by other support topics.",
+      "searchTags": "Management",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
