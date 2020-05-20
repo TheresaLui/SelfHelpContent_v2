@@ -4,7 +4,7 @@
     authors="brentserbus"
     ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32730248"
+	supportTopicIds="32730248, 32737078, 32738472, 32728294, 32728295"
 	productPesIds="17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -12,7 +12,9 @@
 	clientIds="partnercenter"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
-# PC Sample
+# Upload verification SR
+
+## **To ensure a fast resolution, sign into the Partner Center dashboard using your Azure AD account.**
 ---
 {
     "resourceRequired": true,
