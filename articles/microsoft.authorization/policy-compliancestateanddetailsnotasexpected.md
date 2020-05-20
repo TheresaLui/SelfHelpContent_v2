@@ -38,7 +38,7 @@ To find help with definition debugging a policy, please refer to support topics 
 
 * **Azure Security Center policies compliance**
 
-Azure Security Center's (ASC) policies are built on top of the Azure Policy platform. However, ASC policies have their own management, hence we recommend managing ASC policies on ASC. Policy does not evaluate ASC resources but just report back information from the Microsoft.Security RP. Therefore, if the compliance of ASC Policies are not correct, please route your questions to ASC.
+Azure Security Center's (ASC) policies are built on top of the Azure Policy platform. However, ASC policies have their own management, hence we recommend managing ASC policies on ASC. Policy does not evaluate ASC resources but just report back information from the Microsoft.Security Resource Provider. Therefore, if the compliance of ASC Policies are not correct, please route your questions to ASC.
 
 ## **Recommended Documents**
 
