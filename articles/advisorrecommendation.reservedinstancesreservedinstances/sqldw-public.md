@@ -44,7 +44,7 @@
   "actions": [
     {
       "actionId": "b3a3bbb5-feaf-4c02-9d67-aa314bc1b477",
-      "description": "(Preview) Consider displaySKU reserved capacity in {displayRegion}",
+      "description": "(Preview) Consider {displaySKU} reserved capacity in {displayRegion}",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Reservations",
       "bladeName": "CreateBlade",
