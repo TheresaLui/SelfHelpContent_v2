@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "025a01d7-d2cb-d2b2-fdeb-306945c7fcdd",
+      "longDescription": "",
+      "shortDescription": "Issues with basic configuration and setup of scale sets not covered by other support topics.",
+      "searchTags": "Configuration",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0de20670-5c38-4b50-9964-e74157cc6364",
       "longDescription": "",
       "shortDescription": "need more information regarding instances that were stopped or restarted unexpectedly. ",
