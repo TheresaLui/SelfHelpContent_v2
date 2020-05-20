@@ -21,7 +21,7 @@
 
 * **Which resources are covered by Policy?**
 
-We support all resources that go through the Azure Resource Manager (ARM). We also have public preview of built-in policies of [AKS](https://docs.microsoft.com/azure/governance/policy/concepts/rego-for-aks), [AKS Engine](https://docs.microsoft.com/azure/governance/policy/concepts/aks-engine), and [Key Vault](https://docs.microsoft.com/azure/governance/policy/samples/keyvault-no-vnet-rules). You can also use [Guest Config on VMs](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration) with policy.
+We support all resources that go through the Azure Resource Manager (ARM). We also have previews of built-in policies for the following data-plane resources: [AKS](https://docs.microsoft.com/azure/governance/policy/concepts/rego-for-aks), [AKS Engine](https://docs.microsoft.com/azure/governance/policy/concepts/aks-engine), and [Key Vault](https://docs.microsoft.com/azure/governance/policy/samples/keyvault-no-vnet-rules). You can also use [Guest Config on VMs](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration) with policy.
 
 
 * **Alias not found/not working**
@@ -32,6 +32,6 @@ If an alias does not exist, create a support ticket.
 
 * **Resource Remediation**
 
-You can 'auto-correct' resources using Azure Policy's [remediate resources](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources).  DeployIfNotExists and Modify effect won't affect existing resources, please create a remediation task to accomplish.
+You can 'auto-correct' resources using Azure Policy's [remediate resources](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources).  DeployIfNotExists and Modify effect won't automatically affect existing resources, please create a remediation task to accomplish.
 The [DeployIfNotExists](https://docs.microsoft.com/azure/governance/policy/concepts/effects#deployifnotexists) effect cannot auto-remediate for delete. If you wish to have a 'cannot delete' behavior, please use [resource locks](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources).
 You can get a list of policy samples in [our documentation](https://docs.microsoft.com/azure/governance/policy/samples/allowed-locations), [Azure-policy GitHub Repo](https://github.com/Azure/azure-policy) and [Community Policy repo.](https://github.com/Azure/Community-Policy)
