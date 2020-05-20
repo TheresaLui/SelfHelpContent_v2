@@ -10,7 +10,7 @@
 	 articleId="f6ec0d8b-2241-476a-99d0-fbedbe6e4dc3"
 	ownershipId="AzureData_AzureSQLVM"
 />
-# Clustering technologies
+# Clustering Technologies
 ---
 {
     "resourceRequired": false,

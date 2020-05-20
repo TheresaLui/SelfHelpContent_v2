@@ -14,10 +14,10 @@
 	articleId="83e91601-bfa5-471b-8050-490d962626a6"
 	ownershipId="AzureData_AzureSQLVM"
 />
+ 
 
 
-
-# Clustering technologies
+# Clustering Technologies
 
 If you are planning to deploy a SQL AG on Linux then you can follow : [SQL Server availability basics for Linux deployments](https://docs.microsoft.com/sql/linux/sql-server-linux-ha-basics?view=sql-server-ver15)<br> 
 
