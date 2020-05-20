@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_Essentials"
 />
-# Cannot configure autoscale
+# Cannot configure autoscale resource required true
 ---
 {
     "$schema": "SelfHelpContent",
