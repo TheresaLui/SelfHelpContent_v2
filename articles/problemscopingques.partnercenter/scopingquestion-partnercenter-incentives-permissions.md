@@ -195,6 +195,14 @@ pageTitle="Incentives permissions issues"
 				"required": false
 			},
 			{
+				"id": "user_account_info",
+				"order": 4,
+				"controlType": "textbox",
+				"displayLabel": "Which user accounts are you having problems with?",
+				"watermarkText": "User 1: username@onmicrosoft.com, User 2: username2@onmicrosoft.com",
+				"required": false
+			},
+			{
 				"id": "problem_description",
 				"order": 1000,
 				"controlType": "multilinetextbox",
