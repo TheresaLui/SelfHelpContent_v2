@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "cf9647f1-5c82-1327-05af-73ecaa5e7aea",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to scaling your scale set",
+      "searchTags": "Scaling;Scale",
+      "category": "Scaling",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e53f61aa-bd8b-5b53-6482-165906f30a3c",
       "longDescription": "",
       "shortDescription": "Questions specific to configuring monitoring alerts",
