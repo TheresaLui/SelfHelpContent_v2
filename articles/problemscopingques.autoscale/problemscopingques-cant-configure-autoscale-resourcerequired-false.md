@@ -27,6 +27,15 @@
             "displayLabel": "When did the problem start happening?",
             "required": true
         },
+                {
+            "id": "problem_description_general",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide the resource group and name of the resource for which you are trying to configure autoscale.",
+            "watermarkText": "Please provide the resource group and name of the resource for which you are trying to configure autoscale.",
+            "required": true,
+            "useAsAdditionalDetails": false
+        },
         {
             "id": "problem_description",
             "order": 5,
