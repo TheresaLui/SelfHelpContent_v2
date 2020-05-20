@@ -36,8 +36,8 @@
       "id": "03c7e268-b252-df00-d514-c1731ad3152b",
       "longDescription": "",
       "shortDescription": "Questions or issues with SQL Server Data Tools, a Visual Studio component for Analysis Services, Integration Services, Reporting Services and others.",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -92,8 +92,8 @@
       "id": "23e8bc0a-778d-9fd8-cee6-50d68d64f78f",
       "longDescription": "",
       "shortDescription": "Questions on the SQL Server edition/version, SQL Server licensing and Azure Hybrid Benefit.",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -108,8 +108,8 @@
       "id": "25107154-393b-dc1c-cca8-bfe479ff5586",
       "longDescription": "",
       "shortDescription": "Questions on connections to the virtual machine hosting an instance of SQL Server",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -132,8 +132,8 @@
       "id": "31a5aafb-9b24-8aa4-86b4-bc8d40a6a6f4",
       "longDescription": "",
       "shortDescription": "Questions or issues related to the performance of SQL Server or the Azure VM and its components.",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -148,8 +148,8 @@
       "id": "39c4ee1d-8dcf-c174-b6c6-98707ba7d8c2",
       "longDescription": "",
       "shortDescription": "Questions on commonly accepted best practices for SQL Server on Azure VM.",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -236,8 +236,8 @@
       "id": "595c4621-2270-5e0f-8f03-1ceb7b39f2b8",
       "longDescription": "",
       "shortDescription": "Questions or issues with the Azure portal, SQL Server Management Studio, Azure Data Studio, Azure PowerShell, or the Data Migration Assistant",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -268,8 +268,8 @@
       "id": "6464b9a9-6866-cb72-d743-47d574392063",
       "longDescription": "",
       "shortDescription": "Questions on Azure Automated Backup for SQL Server, backup on Azure Recovery Vaults",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -300,8 +300,8 @@
       "id": "7c74399f-b368-fbb5-890b-bb891d7b75c8",
       "longDescription": "",
       "shortDescription": "Questions on high availability and disaster recovery options in Azure-only environments or hybrid environments",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -316,8 +316,8 @@
       "id": "930498c8-000a-eac4-e3cd-3f6cc0742ad2",
       "longDescription": "",
       "shortDescription": "Questions or issues with administration tasks of the VM.",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -340,8 +340,8 @@
       "id": "9f78ce8a-dfb6-1a96-e953-3e4a9f394c97",
       "longDescription": "",
       "shortDescription": "Questions or issues connecting to an instance of SQL Server on Azure VM.",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -477,8 +477,8 @@
       "id": "e96c715b-c32f-feac-2fad-ae658ade93d5",
       "longDescription": "",
       "shortDescription": "Questions or issues with the administration of your SQL server.",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -758,7 +758,7 @@
       "longDescription": "",
       "shortDescription": "Issues with SQL Server backup like Auto/managed backup, Backup to Azure Storage(URL), Backup to disk or Azure Backup Services",
       "searchTags": "",
-      "category": null,
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
