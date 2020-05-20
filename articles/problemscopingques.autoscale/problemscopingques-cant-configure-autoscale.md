@@ -28,6 +28,16 @@
             "required": true
         },
         {
+            "id": "problem_description_general",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "If "General Question" was selected for the resource, provide the resource group and name of the resource for which you are trying to configure autoscale.",
+            "watermarkText": "If "General Question" was selected for the resource, provide the resource group and name of the resource for which you are trying to configure autoscale.",
+            "required": true,
+            "useAsAdditionalDetails": false
+        },
+
+        {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
