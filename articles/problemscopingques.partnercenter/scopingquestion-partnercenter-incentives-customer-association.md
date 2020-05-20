@@ -183,7 +183,7 @@
          "id":"location_mpnid",
          "order":2,
          "controlType":"textbox",
-         "displayLabel":"Please enter the location MPN ID(s) enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
+         "displayLabel":"Please provide the location MPN ID enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
          "watermarkText":"If you have multiple location MPN IDs you need help with, please include a comma separated list.",
          "required":true
       },
@@ -204,8 +204,8 @@
       {
          "id":"claim_ids",
          "order":5,
-         "controlType":"multilinetextbox",
-         "displayLabel":"Please enter the claim ID(s) in question.",
+         "controlType":"textbox",
+         "displayLabel":"Please provide the claim ID(s) in question.",
          "watermarkText":"If you have multiple claims you need help with, please include a comma separated list.",
          "required":false
       },
@@ -214,6 +214,7 @@
          "order":6,
          "controlType":"textbox",
          "displayLabel":"Please enter the Customer Tenant ID you need help with.",
+         "watermarkText":"If you have customer's you need help with, please include a comma separated list.",
          "required":false
       },
       {
@@ -242,8 +243,8 @@
          "id":"product_dynamics_subscriptionids",
          "visibility":"product == Dynamics",
          "order":8,
-         "controlType":"multilinetextbox",
-         "displayLabel":"Please enter the Dynamics subscription ID(s).",
+         "controlType":"textbox",
+         "displayLabel":"Please provide the Dynamics subscription ID(s).",
          "watermarkText":"If you have multiple subscription IDs you need help with, please include a comma separated list.",
          "required":true
       },
@@ -251,8 +252,8 @@
          "id":"product_m365_workloads",
          "visibility":"product == M365",
          "order":9,
-         "controlType":"multilinetextbox",
-         "displayLabel":"Please enter the M365 workload(s).",
+         "controlType":"textbox",
+         "displayLabel":"Please provide the M365 workload(s).",
          "watermarkText":"If you have multiple workloads you need help with, please include a comma separated list.",
          "required":true
       },
@@ -260,8 +261,8 @@
          "id":"problem_description",
          "order":1000,
          "controlType":"multilinetextbox",
-         "displayLabel":"Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
-         "watermarkText":"Problem description",
+         "displayLabel":"Problem description",
+         "watermarkText":"Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
          "useAsAdditionalDetails":true,
          "required":true
       }
