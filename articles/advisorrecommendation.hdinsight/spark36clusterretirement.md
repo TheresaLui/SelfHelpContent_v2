@@ -45,7 +45,7 @@
       "actionId": "715827a9-7710-4403-b291-659d137cc452",
       "description": "Consider to move to Spark 2.3 on HDInsight 3.6 by June 30 2020 to avoid potential system/support interruption. {extendedProperties}, {extendedProperties}.sparkComponentVersion",
       "actionType": "Document",
-      "condition":"sparkComponentVersion!="2.3"",
+      "condition":"sparkComponentVersion!=\"2.3\"",
       "documentLink": "https://aka.ms/hdiretirespark"
     }
   ],
