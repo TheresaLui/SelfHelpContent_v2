@@ -22,19 +22,26 @@ Blueprint definitions supports parameters at the blueprint level and at the arti
 
 ## **Recommended Steps**
 
-Identify what kind of parameters you want to specify at the blueprint level (static parameter) and which ones you want to specify at the artifact level.
- * [Blueprint parameter types](https://docs.microsoft.com/azure/governance/blueprints/concepts/parameters).
-* [How to create and use static parameters](https://docs.microsoft.com/azure/governance/blueprints/concepts/parameters#blueprint-level-parameter).
+Identify what kind of parameters you want to specify at the blueprint level (static parameter) and which ones you want to specify at the artifact levelL
+
+* [Blueprint parameter types](https://docs.microsoft.com/azure/governance/blueprints/concepts/parameters)
+* [How to create and use static parameters](https://docs.microsoft.com/azure/governance/blueprints/concepts/parameters#blueprint-level-parameter)
 
 ## **Recommended Documents**
+
 ### What is an Azure blueprint?
+
 * [Azure blueprint overview video](https://docs.microsoft.com/azure/governance/blueprints/overview#video-overview)
+
 ### Creating a blueprint
+
 * [Create a blueprint using Azure Portal](https://docs.microsoft.com/azure/governance/blueprints/create-blueprint-portal)
 * [Create a blueprint using Powershell](https://docs.microsoft.com/azure/governance/blueprints/create-blueprint-powershell)
 * [Create a blueprint using REST API](https://docs.microsoft.com/azure/governance/blueprints/create-blueprint-rest-api)
 * [Create a blueprint using ARM Template](https://docs.microsoft.com/azure/azure-resource-manager/templates/deploy-to-subscription??toc=/azure/governance/blueprints/toc.json&bc=/azure/governance/blueprints/breadcrumb/toc.json)
+
 ### Life cycle of a blueprint
+
 * [Life cycle of a blueprint definition and assignment](https://docs.microsoft.com/azure/governance/blueprints/concepts/lifecycle)
 * [Deploying blueprints in a specific sequence](https://docs.microsoft.com/azure/governance/blueprints/concepts/sequencing-order)
 * [Stages of a blueprint assignment](https://docs.microsoft.com/azure/governance/blueprints/concepts/deployment-stages)
