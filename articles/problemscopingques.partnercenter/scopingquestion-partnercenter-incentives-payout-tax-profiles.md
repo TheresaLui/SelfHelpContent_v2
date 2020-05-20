@@ -183,7 +183,7 @@ pageTitle="Incentives payout and tax profile issues"
          "id":"location_mpnid",
          "order":2,
          "controlType":"textbox",
-         "displayLabel":"Please enter the location MPN ID(s) enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
+         "displayLabel":"Please provide the location MPN ID enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
          "watermarkText":"If you have multiple location MPN IDs you need help with, please include a comma separated list.",
          "required":true
       },
@@ -205,8 +205,8 @@ pageTitle="Incentives payout and tax profile issues"
          "id":"problem_description",
          "order":1000,
          "controlType":"multilinetextbox",
-         "displayLabel":"Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
-         "watermarkText":"Problem description",
+         "displayLabel":"Problem description",
+         "watermarkText":"Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
          "useAsAdditionalDetails":true,
          "required":true
       }
