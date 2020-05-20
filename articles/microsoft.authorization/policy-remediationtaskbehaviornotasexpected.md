@@ -20,19 +20,19 @@
 ## **Recommended Steps**
 
 * **Permissions**: If you are creating the remediation through a command, be sure that the managed identity has the proper permissions. Contributor role is not enough. 
-1- Managed identtity does not have permissions. Portal no worries. 
-If not using portal, create role assignments manually and give permission. Contributor role is not enough. Follow this tutorial: [here](https://docs.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources#manually-configure-the-managed-identity)
+1- Managed identity does not have permissions. Portal no worries. 
+If not using portal, create role assignments manually and give permission. Contributor role is not enough. Follow this tutorial: [here](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources#manually-configure-the-managed-identity)
 
-* **Modify Tags Known Issues**: There are some known issues, please check [here](https://github.com/Azure/azure-policy#known-issues). We are working to solve these
-in the meantime you can [exclude](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/assignment-structure#excluded-scopes) those resources. 
+* **Modify Tags Known Issues**: There are some known issues, please check [here](https://github.com/Azure/azure-policy#known-issues). We are working to solve these.
+In the meantime you can [exclude](https://docs.microsoft.com/azure/governance/policy/concepts/assignment-structure#excluded-scopes) those resources. 
 
-* **DeployIfNotExist Failing**- Please verify that the ARM template works. For information on ARM templates, check [here](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview) 
+* **DeployIfNotExist Failing**- Please verify that the ARM template works. For information on ARM templates, check [here](https://docs.microsoft.com/azure/azure-resource-manager/templates/overview) 
 ## **Recommended Documents**
 
-* [Remediate non-compliant resources](https://docs.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources)
-* [Modify effect](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/effects#modify)
-* [DeployIfNotExist effect](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/effects#deployifnotexists)
-* [PowerShell Remediation Commands](https://docs.microsoft.com/en-us/powershell/module/az.policyinsights/?view=azps-4.1.0#policy_insights)
-* [Rest API Remediation Commands](https://docs.microsoft.com/en-us/rest/api/policy-insights/remediations)
+* [Remediate non-compliant resources](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources)
+* [Modify effect](https://docs.microsoft.com/azure/governance/policy/concepts/effects#modify)
+* [DeployIfNotExist effect](https://docs.microsoft.com/azure/governance/policy/concepts/effects#deployifnotexists)
+* [PowerShell Remediation Commands](https://docs.microsoft.com/powershell/module/az.policyinsights/?view=azps-4.1.0#policy_insights)
+* [Rest API Remediation Commands](https://docs.microsoft.com/rest/api/policy-insights/remediations)
 
 
