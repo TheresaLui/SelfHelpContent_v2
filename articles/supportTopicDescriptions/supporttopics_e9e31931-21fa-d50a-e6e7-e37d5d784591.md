@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "59a3951a-b590-04ab-d1bc-6a221800c3e1",
+      "longDescription": "",
+      "shortDescription": "Questions or issues  specific to performance issues with the scale set or instance.",
+      "searchTags": "Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7a976faf-d433-740c-50bf-f2660969a347",
       "longDescription": "",
       "shortDescription": "Common problems related to using Orchestration",
