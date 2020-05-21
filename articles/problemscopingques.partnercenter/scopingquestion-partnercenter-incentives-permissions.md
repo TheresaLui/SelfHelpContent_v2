@@ -191,7 +191,7 @@ pageTitle="Incentives permissions issues"
 				"id": "problem_start_time",
 				"order": 3,
 				"controlType": "datetimepicker",
-				"displayLabel": "When did your issue begin",
+				"displayLabel": "When did your issue begin?",
 				"required": false
 			},
 			{
