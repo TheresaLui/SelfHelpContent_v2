@@ -218,44 +218,20 @@
          "required":false
       },
       {
-         "id":"product",
-         "order":7,
-         "controlType":"dropdown",
-         "displayLabel":"Please select your product",
-         "watermarkText":"Choose an option",
-         "dropdownOptions":[
-            {
-               "textProperty":"Dynamics",
-               "valueProperty":"Dynamics"
-            },
-            {
-               "textProperty":"M365",
-               "valueProperty":"M365"
-            },
-	    {
-               "value":"dont_know_answer",
-               "text":"Don't Know"
-            }
-         ],
-         "required":true
-      },
-            {
          "id":"product_dynamics_subscriptionids",
-         "visibility":"product == Dynamics",
          "order":8,
          "controlType":"textbox",
-         "displayLabel":"Please provide the Dynamics subscription ID(s).",
+         "displayLabel":"Please provide the Dynamics subscription ID (if applicable).",
          "watermarkText":"If you have multiple subscription IDs you need help with, please include a comma separated list.",
-         "required":true
+         "required":false
       },
       {
          "id":"product_m365_workloads",
-         "visibility":"product == M365",
          "order":9,
          "controlType":"textbox",
-         "displayLabel":"Please provide the M365 workload(s).",
+         "displayLabel":"Please provide the M365 workload (if applicable).",
          "watermarkText":"If you have multiple workloads you need help with, please include a comma separated list.",
-         "required":true
+         "required":false
       },
       {
          "id":"problem_description",
