@@ -12,7 +12,7 @@
 ---
 {
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
-  "recommendationOfferingName": "(Preview) Cosmos DB Reserved Capacity",
+  "recommendationOfferingName": "ReservedInstances",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "a205074f-8049-48b3-903f-556f5e530ae3",
   "dataSourceMetadata": {
