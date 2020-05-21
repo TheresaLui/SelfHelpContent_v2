@@ -26,6 +26,6 @@ Step 1: Check for access - Incase this project is created by someone else in you
 Step 2: Here are the steps documented to [find the project](https://docs.microsoft.com/azure/migrate/create-manage-projects#find-a-project)
 
 
-### **I am unable to find my existing project that I had created using the classic Azure Migrate service (Migration projects)**
+### **I am unable to find my existing project that I had created using the classic Azure Migrate service (Migration projects)** 
 
 If you had previously performed discovery and assessments with the classic Azure Migrate experience, you can access these projects by clicking on the blue banner on the Overview page of Azure Migrate. 
