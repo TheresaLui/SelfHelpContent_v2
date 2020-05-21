@@ -32,7 +32,7 @@
             "required": true,
 	    "useAsAdditionalDetails": true,
 	    "hints": [{
-					"text": "What is nature of the issue?"
+					"text": "Please describe the nature of the issue"
 				}]
         },
         {
