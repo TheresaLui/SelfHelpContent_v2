@@ -51,9 +51,9 @@
                     "text": "Restore Drop Server or DB"
                 },
                 {
-                    "value": "Other",
+                    "value": "dont_know_answer",
                     "text": "Other"
-                }					
+                }
             ],
             "required": true
         },
