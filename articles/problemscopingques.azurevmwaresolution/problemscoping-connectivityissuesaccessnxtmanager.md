@@ -7,7 +7,7 @@
                 productPesIds="17080"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="42e36147-174b-47b7-9b23-7249a99a6560"
+                articleId="df02e57f-899c-42a3-80fc-c9b8628cd12d"
 	            ownershipId="Azure_VMwareSolution_Content"
 />
 # Useful Title
@@ -34,6 +34,13 @@
 	    "hints": [{
 					"text": "Provide the issue and error in detail"
 				}]
+        },
+        {
+            "id": "expressrouteid",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "What is the ExpressRoute URI ID?",
+            "required": false
         },
         {
             "id": "credentialissue",
