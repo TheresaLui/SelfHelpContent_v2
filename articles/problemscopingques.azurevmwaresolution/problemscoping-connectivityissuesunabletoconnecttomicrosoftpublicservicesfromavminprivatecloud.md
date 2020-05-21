@@ -1,14 +1,14 @@
 <properties
-	pageTitle="unabletoconnecttomicrosoftpublicservicesfromavminprivatecloud"
-	description="unabletoconnecttomicrosoftpublicservicesfromavminprivatecloud"
-	ms.author="neshenoy"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32739972"
-	productPesIds="17080"
-	cloudEnvironments="Public"
-	schemaVersion="1"
-	articleId="3a22f6b6-653f-4955-9ae0-75abf14a8e2a"
-	ownershipId="Azure_VMwareSolution_Content"
+                pageTitle="unabletoconnecttomicrosoftpublicservicesfromavminprivatecloud"
+                description="unabletoconnecttomicrosoftpublicservicesfromavminprivatecloud"
+                ms.author="neshenoy"
+                selfHelpType="problemScopingQuestions"
+                supportTopicIds="32739972"
+                productPesIds="17080"
+                cloudEnvironments="Public"
+                schemaVersion="1"
+                articleId="3ad9854b-8de1-46fe-8494-db112d1ad631"
+	            ownershipId="Azure_VMwareSolution_Content"
 />
 # Useful Title
 ---
