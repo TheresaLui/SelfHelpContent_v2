@@ -7,7 +7,7 @@
     authors="vritiJain"
     ms.author="vrjai"
     displayOrder="1"
-    articleId="active-directory-dxp-signin-aadsts-errorcodes"
+    articleId="active-directory-dxp-signin-aadsts-50000"
     diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
@@ -22,12 +22,11 @@
 <!--issueDescription-->
 Based on the information you provided we have identified following issue and recommend taking the action to resolve the issue.
 
-**Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode-->
+**Error Code:** 50000
 
-**Message:** <!--$message-->[message]<!--/$message-->
-
-**Action:** <!--$remediation-->[remediation]<!--/$remediation-->
-
-<!--$link-->[link]<!--/$link-->
-
+**Message:** There was an error issuing a token or an issue with our sign-in service.
 <!--/issueDescription-->
+
+**Action:** The user sign in to the application failed. This failure often occurs because of application configuration or service side issues. Review the details of the app or service the user is trying to sign into from the Azure AD sign in event for more information.
+
+

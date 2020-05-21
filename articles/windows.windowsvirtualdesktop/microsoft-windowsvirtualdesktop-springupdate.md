@@ -12,7 +12,7 @@
 	productPesIds="16582"
 	cloudEnvironments="public"
 	articleId="2a0f5b97-41f3-44d6-8a1f-f25ad89822fe"
-	ownershipId="Window_Virtual_Desktop"
+	ownershipId="Windows_Virtual_Desktop"
 />
 
 # Windows Virtual Desktop
