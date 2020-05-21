@@ -7,7 +7,7 @@
                 productPesIds="17080"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="aa262eb6-0471-4837-8af1-5ad376bfd698"
+                articleId="75642182-c613-40e9-be84-9fdd935d3e2d"
 	            ownershipId="Azure_VMwareSolution_Content"
 />
 # Useful Title
