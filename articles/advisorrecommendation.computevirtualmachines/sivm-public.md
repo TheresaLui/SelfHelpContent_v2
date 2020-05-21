@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="02c15f98-aedb-481b-884b-af5847b2bf3d_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="Compute_VirtualMachines"
 />
 # Use availability sets for improved fault tolerance

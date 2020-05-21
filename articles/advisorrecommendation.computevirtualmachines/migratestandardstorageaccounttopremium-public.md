@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="58d6648d-32e8-4346-827c-4f288dd8ca24_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="StorageMediaEdge_XStore"
 />
 # Upgrade the standard disks attached to your premium-capable VM to premium disks
