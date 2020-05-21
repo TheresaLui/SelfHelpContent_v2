@@ -30,7 +30,7 @@
             "id": "IssueType_dropdown",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "What is the restore type?",
+            "displayLabel": "What kind of restore is having issues?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Choose the restore type associated with the issue",
 			"dropdownOptions": [
@@ -52,7 +52,7 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Other"
+                    "text": "Don't know the answer"
                 }
             ],
             "required": true
@@ -103,7 +103,7 @@
                 },
                 {
                     "value": "Premium",
-					"text": "Premium"
+		    "text": "Premium"
                 },
                 {
                     "value": "vCore General Purpose",
@@ -128,7 +128,7 @@
             "id": "platform_type",
             "order": 7,
             "controlType": "dropdown",
-			"visibility": "IssueType_dropdown == BACPAC",
+	    "visibility": "IssueType_dropdown == BACPAC",
             "displayLabel": "What tool/method are you using to import?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Select one of the following",
@@ -160,7 +160,7 @@
             "id": "version_details",
             "order": 8,
             "controlType": "textbox",
-	        "visibility": "platform_type == SSMS || platform_type == Sql Package",
+	    "visibility": "platform_type == SSMS || platform_type == Sql Package",
             "displayLabel": "Please provide the version details",
             "required": false
         },
@@ -168,7 +168,8 @@
             "id": "resource_type_dropdown",
             "order": 9,
             "controlType": "dropdown",
-            "displayLabel": "Do you want to restore a resourcegroup, server or DB?",
+	    "visibility": "IssueType_dropdown == DropDB",
+            "displayLabel": "What do you want to restore?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Select from the following",
 			"dropdownOptions": [
@@ -186,7 +187,7 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Dont know answer"
+                    "text": "Dont know the answer"
                 }
             ],
             "required": true
@@ -214,16 +215,8 @@
      	    "order": 12,
             "visibility": "resource_type_dropdown == db",
             "controlType": "textbox",
-            "displayLabel": "What is the database that was deleted?",
+            "displayLabel": "What was the database that was deleted?",
             "infoBalloonText": "Enter the name of the database that was deleted and you want to restore.",
-            "required": false
-        },
-	{
-            "id": "error_descr",
-            "order": 999,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What was the error message?",
-            "infoBalloonText": "Enter the error message received when trying to restore",
             "required": false
         },
     {
