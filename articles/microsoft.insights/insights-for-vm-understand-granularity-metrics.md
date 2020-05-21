@@ -9,7 +9,7 @@
     articleId="insights-for-vm-understand-granularity-metrics"
     productPesIds="17081"
     supportTopicIds="32738512"
-    cloudEnvironments="public, blackForest, fairfax, mooncake"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
  />
 

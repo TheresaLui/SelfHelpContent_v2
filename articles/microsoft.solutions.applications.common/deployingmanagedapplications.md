@@ -10,7 +10,7 @@
 	supportTopicIds="32628292"
 	resourceTags=""
 	productPesIds="16651"
-	cloudEnvironments="public, fairfax, mooncake"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
     articleId="deployingmanagedapplications"
 	ownershipId="Compute_AzureManagedApplications"
 />
