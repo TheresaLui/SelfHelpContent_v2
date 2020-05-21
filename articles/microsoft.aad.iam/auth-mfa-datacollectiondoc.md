@@ -1,6 +1,6 @@
 <properties
     pageTitle="Multi-Factor Authentication"
-    description="Issues related to Conditional Access or Passwords or Identity protection"
+    description="Issues related to Conditional Access or Passwords or Identity protection or MFA"
     authors="vritiJain"
 	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
