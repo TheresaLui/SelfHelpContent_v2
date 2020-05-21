@@ -1,6 +1,6 @@
 <properties
-                pageTitle="unabletoconnecttomicrosoftpublicservicesfromavminprivatecloud"
-                description="unabletoconnecttomicrosoftpublicservicesfromavminprivatecloud"
+                pageTitle="unabletoconnecttomicrosoft"
+                description="unabletoconnecttomicrosoft"
                 ms.author="neshenoy"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32739972"
@@ -16,7 +16,7 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-            "title": "accessnxtmanager",
+            "title": "unabletoconnecttomicrosoft",
             "fileAttachmentHint": "",
             "formElements": [{
             			"id": "problem_start_time",
