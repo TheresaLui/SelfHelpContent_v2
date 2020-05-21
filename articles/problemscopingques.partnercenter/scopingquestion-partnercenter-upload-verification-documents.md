@@ -14,7 +14,7 @@
 />
 # Upload verification SR
 
-## **To ensure a fast resolution, sign into the Partner Center dashboard using your Azure AD account.**
+## **To ensure a fast resolution, sign into the Partner Center dashboard using your Azure AD account**
 ---
 {
     "resourceRequired": true,
