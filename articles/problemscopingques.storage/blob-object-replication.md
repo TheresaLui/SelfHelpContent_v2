@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Blob Object Replication Issues"
-	description="Blob Object Replication Issues"
+	pageTitle="Blob object replication"
+	description="Blob object replication issues"
 	authors="Sijia"
     ms.author="siz"
 	selfHelpType="problemScopingQuestions"
@@ -11,12 +11,12 @@
 	articleId="dd1bd8fe-1876-49a5-90b3-134ac70e75d9"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />
-# Blob Object Replication Issues
+# Blob object replication issues
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Blob Object Replication Issues",
+    "title": "Blob object replication issues",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -44,7 +44,7 @@
             "id": "issue_type",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Issue Type,
+            "displayLabel": "Issue Type",
             "watermarkText": "Select the issues you are facing",
             "dropdownOptions": [
               {
