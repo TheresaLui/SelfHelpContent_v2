@@ -22,8 +22,8 @@
 
 ### **I am unable to find an existing project**
 
-Step 1: Check for access - Incase this project is created by someone else in your organization, please check here if you have required accesses on the project
-Step 2: Here are the seps documented to find the project
+Step 1: Check for access - Incase this project is created by someone else in your organization, [please check here](https://docs.microsoft.com/azure/role-based-access-control/check-access) if you have required permission on the project
+Step 2: Here are the steps documented to [find the project](https://docs.microsoft.com/azure/migrate/create-manage-projects#find-a-project)
 
 
 ### **I am unable to find my existing project that I had created using the classic Azure Migrate service (Migration projects)**
