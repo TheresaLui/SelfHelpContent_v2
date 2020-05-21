@@ -44,7 +44,7 @@
         },
         {
             "id": "credentialissue",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Is this a credential issue?",
             "required": false
