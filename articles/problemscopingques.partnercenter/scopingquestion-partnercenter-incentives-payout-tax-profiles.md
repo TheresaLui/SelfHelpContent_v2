@@ -198,7 +198,7 @@ pageTitle="Incentives payout and tax profile issues"
          "id":"error-correlation_id",
          "order":4,
          "controlType":"textbox",
-         "displayLabel":"Please include any error or correlation ids received.",
+         "displayLabel":"Please include any error or correlation IDs received.",
          "required":false
       },
       {
