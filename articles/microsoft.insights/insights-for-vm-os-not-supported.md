@@ -21,7 +21,7 @@ When you enable monitoring on your Azure VM or VM scale set you can choose to do
 
 In this UI, you may see a message that the operating system on your VM *may* not be supported.
 
-This message is displayed when the OS image you are using has limited metadata defining the operating system that will is being used on the VM image.  In this case, we donâ€™t have enough details from the VM image to determine if we support the operating system and display this message and let you proceed with installation.
+This message is displayed when the OS image you are using has limited metadata defining the operating system that will is being used on the VM image.  In this case, we don't have enough details from the VM image to determine if we support the operating system and display this message and let you proceed with installation.
 
 If we can detect that the OS on the VM is not supported, we display a different message that looks similar to the following:
 

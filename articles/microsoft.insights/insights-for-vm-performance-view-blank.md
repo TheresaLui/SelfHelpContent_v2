@@ -31,7 +31,7 @@ If installation of the log analytics agent succeeded, but you don't see data on 
 
 **Is you workspace setup to collect the performance counters?**
 
-As part of enabling Azure Monitor for VMs we setup several performance counters on your workspace.  See the list of counters here.
+As part of enabling Azure Monitor for VMs we setup several performance counters on your workspace.  
 
 **Setup the workspace performance counters**
 

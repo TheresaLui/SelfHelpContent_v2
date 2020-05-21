@@ -24,7 +24,7 @@ For the views in Azure Monitor for VMs to display the data correctly, you need t
 
 [Refer to our documentation](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-overview#log-analytics) to verify your workspace is in a supported region. 
 
-If you don'tt have a workspace, you can create one using one of the following methods [described in our documentation](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-overview#log-analytics). 
+If you don't have a workspace, you can create one using one of the following methods [described in our documentation](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-overview#log-analytics). 
 
 ### **Do you have the correct permissions to install the solution in the workspace?**
 
