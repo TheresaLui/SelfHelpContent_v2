@@ -12,7 +12,7 @@
 ---
 {
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
-  "recommendationOfferingName": "(Preview) Azure Synapse Analytics (formerly SQL DW) Reserved Capacity",
+  "recommendationOfferingName": "ReservedInstances",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "680a5388-28aa-44e8-88af-32e3598dc869",
   "dataSourceMetadata": {
