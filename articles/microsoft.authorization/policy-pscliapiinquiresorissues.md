@@ -1,6 +1,6 @@
 <properties
-    pageTitle="PS/CLI/API Inquires or Issues"
-    description="PS/CLI/API Inquires or Issues"
+    pageTitle="PS/CLI/API Inquiries or Issues"
+    description="PS/CLI/API Inquiries or Issues"
     service="microsoft.authorization"
     resource="policyDefinitions"
     authors="robga"
@@ -15,7 +15,17 @@
     ownershipId="Compute_AzurePolicy"
 />
 
-# Azure Policy - PS/CLI/API Inquires or Issues
+# Azure Policy - PS/CLI/API Inquiries or Issues
+
+## **Recommended Steps**
+
+* To create policies programmatically follow this tutorial: [Creating policies programmatically](https://docs.microsoft.com/azure/governance/policy/how-to/programmatically-create)
+
+* To find commands, leverage our documentation under Reference: [Azure Policy Documentation](https://docs.microsoft.com/azure/governance/policy/overview)
+
+More links found below. 
+
+
 
 ## **Recommended Documents**
 
