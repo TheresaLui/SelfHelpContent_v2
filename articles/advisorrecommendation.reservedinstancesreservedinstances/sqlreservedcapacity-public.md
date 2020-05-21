@@ -5,7 +5,7 @@
     ms.author="yashar"
     articleId="a1d7f3cd-7328-4f0d-8e69-903e9caa4caa_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="ACE_ReservedInstances"
 />
 # Buy SQL DB Reserved capacity to save money over pay-as-you-go costs

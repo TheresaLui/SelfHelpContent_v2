@@ -5,7 +5,7 @@ authors="vakr,scottnap,shafos"
 ms.author="nvaeng"
 articleId="6230537d-113a-42ec-9357-c08d01602787"
 selfHelpType="advisorRecommendationMetadata"
-cloudEnvironments="Public"
+cloudEnvironments="Public, usnat, ussec"
 ownershipId="CloudNet_NVA"
 />
 # Known issue with Check Point Network Virtual Appliance image version

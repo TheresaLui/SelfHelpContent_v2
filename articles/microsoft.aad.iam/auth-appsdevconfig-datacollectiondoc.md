@@ -1,10 +1,11 @@
 <properties
     pageTitle="Active Directory application dev config issue"
     description="appsdevconfigdatacollectiondoc"
-    authors="anupnadigm"
+    authors="vritiJain"
+    ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570262"
-    productPesIds="14785,16575"
+    productPesIds="16575"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="2f4fd762-6cfe-4aef-9a03-4d8acce3f857"
@@ -16,8 +17,14 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Active Directory application dev config issue",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+        "title": "Problem with Azure Active Directory application dev config issue",
+        "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade:",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
+    },
     "formElements": [
         {
             "id": "whichUser",
@@ -30,7 +37,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -47,7 +54,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -64,7 +71,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -81,7 +88,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -98,7 +105,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -109,9 +116,9 @@
             "visibility": null,
             "order": 6,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details",
+            "displayLabel": "Full Error Message:",
             "content": null,
-            "watermarkText": null,
+            "watermarkText": "Example: AADSTS50076: Due to a configuration change made by your administrator...",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
@@ -119,11 +126,46 @@
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": true,
-            "numberOfLines": 0
+            "numberOfLines": 3,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "correlationId",
+            "visibility": null,
+            "order": 7,
+            "controlType": "textbox",
+            "displayLabel": "Correlation ID:",
+            "content": null,
+            "watermarkText": "Example: 6ad36e38-8a10-4f1b-95fb-05cdb1dbec49",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "requestId",
+            "visibility": null,
+            "order": 8,
+            "controlType": "textbox",
+            "displayLabel": "Request ID:",
+            "content": null,
+            "watermarkText": "Example: ca6161fb-000a-4d2f-a3b4-3d62168f866d",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
-            "order": 7,
+            "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true

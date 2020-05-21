@@ -6,7 +6,7 @@
     articleId="d374a732-e69b-41dc-bbc2-a7234e2270be_Public"
     selfHelpType="advisorRecommendationMetadata"
     productPesIds="15400"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	  ownershipId="CloudNet_TrafficManager"
 />
 # Configure DNS Time to Live to 60 seconds
