@@ -39,7 +39,7 @@
             "id": "credentialissue",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Is the internet enable switch set to "Enabled" Internet" on in the Connectivity > Settings blade of the private cloud?",
+            "displayLabel": "Is the internet enable switch set to "Enabled" Internet" on in the Connectivity Settings blade of the private cloud?",
             "required": false
         }
             ]

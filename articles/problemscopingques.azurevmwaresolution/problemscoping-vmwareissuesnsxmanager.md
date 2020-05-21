@@ -8,7 +8,7 @@
                 cloudEnvironments="Public"
                 schemaVersion="1"
                 articleId="8fcf120d-5f5e-46ad-a9ee-3db49e1e5cd1"
-	           ownershipId="Azure_VMwareSolution_Content"
+	            ownershipId="Azure_VMwareSolution_Content"
 />
 # Useful Title
 ---
