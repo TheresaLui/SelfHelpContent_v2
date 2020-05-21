@@ -4,7 +4,7 @@
     authors="marialai"
     ms.author="mal"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32615396"
+    supportTopicIds="32615429,32615396,32615387"
     productPesIds="16578"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
@@ -18,6 +18,11 @@
     "subscriptionRequired": false,
     "title": "Problem with external collaboration settings",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+        "title": "Problem with Azure Active Directory B2B Guest users",
+        "description": "Please enter the following data for the self-service troubleshooter to assist in resolving your issue. Data can be retrieved from the Error Message or from the Azure Active Directory Sign-ins Blade:",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your inputs."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
@@ -94,7 +99,7 @@
         {
             "id": "whichApp",
             "visibility": null,
-            "order": 5,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Where does the problem occur? ",
             "content": null,
@@ -134,25 +139,26 @@
             "numberOfLines": 0
         },
         {
-            "id": "errorText",
+            "id": "problem_description",
             "visibility": null,
-            "order": 6,
+            "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Paste in the error text, including the correlation ID if any.",
+            "displayLabel": "Full Error Message:",
             "content": null,
-            "watermarkText": null,
+            "watermarkText": "Example: AADSTS50076: Due to a configuration change made by your administrator...",
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "required": false,
+            "required": true,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "useAsAdditionalDetails": true,
+            "numberOfLines": 3,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "URL",
             "visibility": null,
-            "order": 7,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "What is the URL of the page you saw the problem on?",
             "content": null,
@@ -168,7 +174,7 @@
         {
             "id": "reproStepsText",
             "visibility": null,
-            "order": 8,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "What specific steps did you or the user follow that resulted in the error?",
             "content": null,
@@ -180,22 +186,6 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 10
-        },
-        {
-            "id": "problem_description",
-            "visibility": null,
-            "order": 9,
-            "controlType": "multilinetextbox",
-            "displayLabel": "You may provide additional details here",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": true,
-            "maxLength": 0,
-            "useAsAdditionalDetails": true,
-            "numberOfLines": 0
         }
     ],
     "$schema": "SelfHelpContent"
