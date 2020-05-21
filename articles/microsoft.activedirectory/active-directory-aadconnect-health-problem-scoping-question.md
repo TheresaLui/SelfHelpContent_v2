@@ -1,15 +1,15 @@
 <properties
-	pageTitle="PREVIEW: Get help from our intelligent knowledge base"
-	description="Get help from our intelligent knowledge base"
-	authors="hsku"
+    pageTitle="PREVIEW: Get help from our intelligent knowledge base"
+    description="Get help from our intelligent knowledge base"
+    authors="hsku"
     ms.author="hsku"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32689664,32689665,32689666,32689668"
-	productPesIds="16666"
-	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-	schemaVersion="1"
-	articleId="8690704c-8c50-4703-b2f4-9f304954a550"
-	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32689664,32689665,32689666,32689668"
+    productPesIds="16666"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+    schemaVersion="1"
+    articleId="8690704c-8c50-4703-b2f4-9f304954a550"
+    ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # PREVIEW: Get help from our Virtual Assistant
@@ -39,7 +39,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
-            "required": true
+            "required": true,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "userInput",
