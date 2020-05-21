@@ -19,7 +19,7 @@
 	"resourceRequired": true,
 	"subscriptionRequired": true,
 	"title": "Incentives payment and adjustment issues",
-	"fileAttachmentHint": "Upload any screenshots, transaction history CSVs, or other supporting files that can help us understand the technical issue.",
+	"fileAttachmentHint": "Please include any transaction history/summary CSVs, screenshots (including screenshots of your payout and tax profile setup), and other files that will help us understand the technical issue.",
 	"formElements": [
 		{
 			"id": "incentives_program",
@@ -183,7 +183,7 @@
 			"id": "location_mpnid",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Please enter the location MPN ID(s) enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
+			"displayLabel": "Please provide the location MPN ID enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
 			"watermarkText": "If you have multiple location MPN IDs you need help with, please include a comma separated list.",
 			"required": true
 		},
@@ -218,14 +218,14 @@
 			"required": false
 		},
 		{
-			"id": "problem_description",
-			"order": 1000,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
-			"watermarkText": "Problem description",
-			"useAsAdditionalDetails": true,
-			"required": true
-		}
+        	"id":"problem_description",
+         	"order":1000,
+         	"controlType":"multilinetextbox",
+         	"displayLabel":"Problem description",
+         	"watermarkText":"Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
+         	"useAsAdditionalDetails":true,
+         	"required":true
+      }
 	]
 }
 ---
