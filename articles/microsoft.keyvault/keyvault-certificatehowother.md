@@ -1,25 +1,27 @@
 <properties
-	pageTitle="How to Perform Key Vault actions"
-	description="How to Perform Key Vault actions"
+	pageTitle="Managing Certificates in Key Vault"
+	description="Managing Certificates in Key Vault"
 	service="Microsoft.Keyvault"
 	resource="vaults"
 	authors="jlichwa"
-	ms.author="jalichwa"
+	ms.author="sebansal"
 	displayOrder="5"
 	selfHelpType="generic"
-	supportTopicIds="32738119, 32738115, 32738120, 32738118, 32738117, 32738116"
+	supportTopicIds="32738118"
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
-	articleId="keyvault-howother2"
+	articleId="keyvault-certificatehowother"
 	ownershipId="AzureKeyVault_KeyVault"
 />
 
-# How to Perform Key Vault actions
+# Managing Certificates in Key Vault
 ## **Recommended Steps**
 
-* [Key Vault Get Started](https://docs.microsoft.com/azure/key-vault/key-vault-overview)
-* [About Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts)
+* [Storing App Service Certificate in Key Vault](https://docs.microsoft.com/azure/app-service/configure-ssl-certificate#import-an-app-service-certificate)
+* [Web Service Certificate](https://azure.github.io/AppService/2016/05/24/Deploying-Azure-Web-App-Certificate-through-Key-Vault.html)
+* [Updating Certificate Access Policies using Azure CLI](https://docs.microsoft.com/cli/azure/keyvault?view=azure-cli-latest#az-keyvault-set-policy)
+* [Updating Certificate Access Policies using PowerShell](https://docs.microsoft.com/powershell/module/az.keyvault/set-azkeyvaultaccesspolicy?view=azps-4.1.0)
 * [Key Vault Best Practices](https://docs.microsoft.com/azure/key-vault/key-vault-best-practices)
 * [Developer's Guide](https://docs.microsoft.com/azure/key-vault/key-vault-developers-guide)
 

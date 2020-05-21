@@ -182,7 +182,7 @@
 			"id": "location_mpnid",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Please enter the location MPN ID(s) enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
+			"displayLabel": "Please provide the location MPN ID enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
 			"watermarkText": "If you have multiple location MPN IDs you need help with, please include a comma separated list.",
 			"required": true
 		},
@@ -203,20 +203,44 @@
 		{
 			"id": "plan_ids",
 			"order": 5,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please enter the plan ID(s) in question.",
+			"controlType": "textbox",
+			"displayLabel": "Plan ID(s):",
 			"watermarkText": "If you have multiple plans you need help with, please include a comma separated list.",
 			"required": false
 		},
 		{
-			"id": "problem_description",
-			"order": 1000,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
-			"watermarkText": "Problem description",
-			"useAsAdditionalDetails": true,
-			"required": true
-		}
+			"id": "campaign_name",
+			"order": 6,
+			"controlType": "textbox",
+			"displayLabel": "Campaign Name:",
+			"watermarkText": "If you have multiple campaigns, please include a comma separated list.",
+			"required": false
+		},
+		{
+			"id": "activity_name",
+			"order": 7,
+			"controlType": "textbox",
+			"displayLabel": "Activity Name:",
+			"watermarkText": "If you have multiple activities, please include a comma separated list.",
+			"required": false
+		},
+		{
+			"id": "poe_claim_id",
+			"order": 8,
+			"controlType": "textbox",
+			"displayLabel": "PoE Claim ID:",
+			"watermarkText": "If you have multiple claim IDs, please include a comma separated list.",
+			"required": false
+		},
+		{
+         "id":"problem_description",
+         "order":1000,
+         "controlType":"multilinetextbox",
+         "displayLabel":"Problem description",
+         "watermarkText":"Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
+         "useAsAdditionalDetails":true,
+         "required":true
+      }
 	]
 }
 ---

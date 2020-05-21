@@ -32,7 +32,7 @@
             "required": true,
 	    "useAsAdditionalDetails": true,
 	    "hints": [{
-					"text": "What is the error message?"
+					"text": "Provide details about the issue."
 				}]
         },
         {

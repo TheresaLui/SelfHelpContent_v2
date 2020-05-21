@@ -1,22 +1,22 @@
-﻿<properties
-    pageTitle="problem-with-inviting-an-external-user"
-    description="Problem with inviting an external user" 
-    authors="marialai" 
-    ms.author="mal"
+<properties
+    pageTitle="problem-with-self-service-sign-up-for-guest-users"
+    description="Problem with self-service sign up for guest users" 
+    authors="jkdouglas" 
+    ms.author="jodougla"
     selfHelpType="problemScopingQuestions" 
-    supportTopicIds="32615387" 
+    supportTopicIds="32741680" 
     productPesIds="16578" 
-    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec" 
+    cloudEnvironments="public" 
     schemaVersion="1"
-    articleId="problemscopingques-aadb2binvitationissue"
+    articleId="problemscopingques-aadb2bselfservicesignupissue"
 	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
-# Problem with inviting an external user
+# Problem with self-service sign up for guest users
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Problem with inviting an external user",
+    "title": "Problem with self-service sign up for guest users",
     "fileAttachmentHint": null,
     "formElements": [
         {
@@ -36,11 +36,11 @@
             "numberOfLines": 0
         },
         {
-            "id": "whoInviter",
+            "id": "problemUser",
             "visibility": null,
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Who is trying to invite an external user?",
+            "displayLabel": "Who is having an issue with self-service sign up?",
             "content": null,
             "watermarkText": null,
             "infoBalloonText": null,
@@ -54,7 +54,7 @@
                     "value": "anotherUser"
                 },
                 {
-                    "text": "I have a different problem, not an invitation problem.",
+                    "text": "I have a different problem, not an self-service sign up problem.",
                     "value": "dont_know_answer"
                 }
             ],
@@ -65,54 +65,25 @@
             "numberOfLines": 0
         },
         {
-            "id": "whoInvitee",
+            "id": "signUpIssueType",
             "visibility": null,
             "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "What is the email address of the person you’re trying to invite?",
-            "content": null,
-            "watermarkText": null,
-            "infoBalloonText": null,
-            "dropdownOptions": null,
-            "dynamicDropdownOptions": null,
-            "required": false,
-            "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 0
-        },
-        {
-            "id": "whichApp",
-            "visibility": null,
-            "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Where does this problem occur? ",
+            "displayLabel": "Is this an issue with configuring self-service sign up or an end user signing up?",
             "content": null,
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": [
                 {
-                    "text": "On this app (portal.azure.com)",
-                    "value": "portal.azure.com"
+                    "text": "Admin issue",
+                    "value": "admin"
                 },
                 {
-                    "text": "MyApps, MyProfile, or MyAccess",
-                    "value": "myStar"
+                    "text": "End user signing up",
+                    "value": "endUser"
                 },
-                {
-                    "text": "Other Microsoft apps like PowerBI and Teams",
-                    "value": "firstPartyApp"
-                },
-                {
-                    "text": "Non-Microsoft app",
-                    "value": "thirdPartyApp"
-                },{
-                    "text": "PowerShell",
-                    "value": "powerShell"
-                },{
-                    "text": "B2B invitation manager API",
-                    "value": "B2Bapi"
-                },{
-                    "text": "I don't know",
+		{
+                    "text": "I am not sure what type of issue it is.",
                     "value": "dont_know_answer"
                 }
             ],
@@ -125,7 +96,7 @@
         {
             "id": "errorText",
             "visibility": null,
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Paste in the error text, including the correlation ID if any.",
             "content": null,
@@ -141,7 +112,7 @@
         {
             "id": "URL",
             "visibility": null,
-            "order": 6,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "What is the URL of the page you saw the problem on?",
             "content": null,
@@ -157,7 +128,7 @@
         {
             "id": "reproStepsText",
             "visibility": null,
-            "order": 7,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "What specific steps did you or the user follow that resulted in the error?",
             "content": null,
@@ -173,7 +144,7 @@
         {
             "id": "problem_description",
             "visibility": null,
-            "order": 8,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "You may provide additional details here",
             "content": null,
