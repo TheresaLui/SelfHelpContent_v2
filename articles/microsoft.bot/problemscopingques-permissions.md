@@ -62,8 +62,8 @@
 	    --assignee example@example.com 
 	    --output json | jq '.[] 
 	    | 'principalName':.principalName,    'roleDefinitionName':.roleDefinitionName, 'scope':.scope}
-	    For more guidance, read this 
-	    <a href>https://docs.microsoft.com/azure/role-based-access-control/role-assignments-list-cli#list-role-assignments-for-a-user>link</a>",
+	     For more guidance, read this 
+	    <a href='https://docs.microsoft.com/azure/role-based-access-control/role-assignments-list-cli#list-role-assignments-for-a-user'>link</a>",
         },
         {
             "id": "problem_description",
