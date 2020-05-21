@@ -24,7 +24,7 @@
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
-		}, 
+		},
 		{
 			"id": "problem_description",
 			"order": 2,
@@ -39,7 +39,8 @@
 					"text": "Provide the issue and error in detail"
 				}
 			]
-		}, {
+		},
+		{
 			"id": "learn_more_text",
 			"order": 3,
 			"controlType": "textbox",
