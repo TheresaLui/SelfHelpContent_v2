@@ -70,8 +70,7 @@
         },{
             "value": "latency_performance",
             "text": "Latency and Performance"
-        },        
-        {
+        },{
             "value": "dont_know_answer",
             "text": "None of the above"
         }],
