@@ -1,9 +1,9 @@
 <properties
-    pageTitle="Deprecation of Kafka 1.1 in HDInsight 4.0 Kafka cluster"
-    description="Deprecation of Kafka 1.1 in HDInsight 4.0 Kafka cluster"
+    pageTitle="Deprecation of Kafka 1.1 in HDInsight 4.0 Kafka Cluster"
+    description="Deprecation of Kafka 1.1 in HDInsight 4.0 Kafka Cluster"
     authors="xunwei"
     ms.author="xunwei"
-    articleId="5834ba65-bfd2-4ae1-8c8a-879c9e3e702e_Public"
+    articleId="36dff9ef-afde-40f5-b742-79a0bafcf6c2_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
     ownershipId="AzureData_HDInsight"
@@ -14,7 +14,7 @@
   "recommendationOfferingId": "2ee735d6-5f03-45c3-bf11-fc1dbb1aa135",
   "recommendationOfferingName": "HDInsight",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "5834ba65-bfd2-4ae1-8c8a-879c9e3e702e",
+  "recommendationTypeId": "36dff9ef-afde-40f5-b742-79a0bafcf6c2",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').KafkaVersionRetirementInHDI",
     "dataSource": "Kusto",
@@ -39,7 +39,7 @@
   "learnMoreLink": "https://aka.ms/hdiretirekafka",
   "description": "Deprecation of Kafka 1.1 in HDInsight 4.0 Kafka cluster",
   "longDescription": "Starting from July 1 2020, customers will not be able to create new Kafka clusters with Kafka 1.1 on HDInsight 4.0. Existing clusters will run as is without the support from Microsoft. Consider moving to Kafka 2.1 on HDInsight 4.0 by June 30 2020 to avoid potential system/support interruption.",
-  "potentialBenefits": "Avoid potential system/support interruption.",
+  "potentialBenefits": "Avoid potential system/support interruption",
   "actions": [
     {
       "actionId": "14331419-3642-4a98-94a8-a9bff5530222",
