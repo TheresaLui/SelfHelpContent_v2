@@ -1,13 +1,13 @@
 <properties
-                pageTitle="unabletoconnecttomicrosoft"
-                description="unabletoconnecttomicrosoft"
+                pageTitle="unabletoconnecttomicrosoftpublicservicesfromavminprivatecloud"
+                description="unabletoconnecttomicrosoftpublicservicesfromavminprivatecloud"
                 ms.author="neshenoy"
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32739972"
                 productPesIds="17080"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="3ad9854b-8de1-46fe-8494-db112d1ad631"
+                articleId="b58d7bc1-941b-47d2-95ef-831ffcf16105"
 	            ownershipId="Azure_VMwareSolution_Content"
 />
 # Useful Title
@@ -16,7 +16,7 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-            "title": "unabletoconnecttomicrosoft",
+            "title": "unabletoconnecttomicrosoftpublicservicesfromavminprivatecloud",
             "fileAttachmentHint": "",
             "formElements": [{
             			"id": "problem_start_time",
@@ -32,14 +32,14 @@
             "required": true,
 	    "useAsAdditionalDetails": true,
 	    "hints": [{
-					"text": "Provide the issue and error in detail."
+					"text": "Provide the issue and error in detail"
 				}]
         },
         {
-            "id": "credentialissue",
+            "id": "internet",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Is the internet enable switch set to "Enabled" Internet" on in the Connectivity Settings blade of the private cloud?",
+            "displayLabel": "Is the internet enable switch set to Enabled Internet on in the Connectivity \> Settings blade of the private cloud?",
             "required": false
         }
             ]
