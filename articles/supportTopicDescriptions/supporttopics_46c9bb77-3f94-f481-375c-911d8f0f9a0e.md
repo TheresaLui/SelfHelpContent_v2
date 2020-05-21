@@ -41,7 +41,7 @@
       "id": "e57f5ab2-c942-0644-2173-08ec3a8e4af5",
       "longDescription": "",
       "shortDescription": "You are experiencing issues with samples and tutorials in Graph ",
-      "searchTags": "issue regrading samples and tutorials in Graph",
+      "searchTags": "issue regarding samples and tutorials in Graph",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },
