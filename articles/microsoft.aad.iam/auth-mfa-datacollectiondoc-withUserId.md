@@ -4,7 +4,7 @@
     authors="vritiJain"
 	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596872,32596842,32615432,32565599,32045826,32596865,32596866,32596869,32615307,32615388,32615397,32615424,32615381,32615390,32615398,32596840,32739621,32739619,32739616,32615519,32615515,32739613"
+    supportTopicIds="32739614,32739620,32739617"
     productPesIds="16579,16578"
     cloudEnvironments="public, fairfax,  Mooncake, usnat, ussec"
     schemaVersion="1"
@@ -173,7 +173,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",
