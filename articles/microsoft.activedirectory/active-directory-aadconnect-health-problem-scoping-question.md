@@ -40,7 +40,7 @@
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "required": true
-        }
+        },
         {
             "id": "userInput",
             "order": 3,
