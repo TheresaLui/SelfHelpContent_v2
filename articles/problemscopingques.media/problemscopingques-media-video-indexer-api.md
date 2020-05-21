@@ -7,7 +7,7 @@
     supportTopicIds="32740735, 32740741, 32740747, 32740749"
     productPesIds="16535"
     articleId="problemscopingques-video-indexer-api"
-    cloudEnvironments="public,blackForest,fairfax"
+    cloudEnvironments="public,blackForest,fairfax, usnat, ussec"
     schemaVersion="1"
     ownershipId="StorageMediaEdge_Media_VI"
 />

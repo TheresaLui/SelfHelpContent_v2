@@ -11,7 +11,7 @@
     supportTopicIds="32739609"
     resourceTags=""
     productPesIds="16600"
-    cloudEnvironments="public, fairfax"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="6298586f-5b16-441a-a5cd-eb9d8a7f49f0"
     ownershipId="Compute_AzureBlueprint"
 />
