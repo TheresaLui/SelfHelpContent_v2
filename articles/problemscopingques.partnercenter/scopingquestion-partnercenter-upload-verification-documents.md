@@ -32,7 +32,7 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Details of the issue.",
+            "displayLabel": "Details of the issue. Please login to Partner Center using your AAD credentials. Using your MSA may result in significantly longer processing times.",
             "watermarkText": "Provide additional information about your verification documents.",
             "required": true
         }
