@@ -31,14 +31,14 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Destination account name",
-            "required": true
+            "required": false
         },
         {
             "id": "destination_container",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Destination container name",
-            "required": true
+            "required": false
         },
         {
             "id": "issue_type",
@@ -54,7 +54,11 @@
               {
                 "value": "missing_data_on_destination_container",
                 "text": "Missing data on destination container"
-		}
+		},
+		{
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
              ],
             "required": true
         },
