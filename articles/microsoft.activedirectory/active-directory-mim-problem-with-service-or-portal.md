@@ -22,9 +22,9 @@ Microsoft Identity Manager (MIM) Service and Portal are components of Microsoft 
 
 ## **Recommended Steps**
 
-1. Ensure that you are using a recent update of MIM and check the [release notes](https://docs.microsoft.com/microsoft-identity-manager/reference/version-history) to determine if the issue has been resolved in an update.
-2. If you are encountering an error during installation and have configured Exchange Online, then there may be a local security policy problem, as described in the [Support-Tip EXO Configuration Failure during installation](https://docs.microsoft.com/archive/blogs/iamsupport/support-tip-installation-exo-configuration-failure-during-installation).
-3. If you are encountering an error of ```stopped-server``` with ```failed-creation-via-web-services``` using the FIM Service Management Agent, see [Support-Info: failed-creation-via-web-services](https://docs.microsoft.com/archive/blogs/iamsupport/support-info-fimma-failed-creation-via-web-services) for an overview of causes.
+1. Ensure that you are using a recent update of MIM and check the [release notes](https://docs.microsoft.com/microsoft-identity-manager/reference/version-history) to determine if the issue has been resolved in an update
+2. If you are encountering an error during installation and have configured Exchange Online, then there may be a local security policy problem, as described in the [Support-Tip EXO Configuration Failure during installation](https://docs.microsoft.com/archive/blogs/iamsupport/support-tip-installation-exo-configuration-failure-during-installation)
+3. If you are encountering an error of `stopped-server` with `failed-creation-via-web-services` using the FIM Service Management Agent, see [Support-Info: failed-creation-via-web-services](https://docs.microsoft.com/archive/blogs/iamsupport/support-info-fimma-failed-creation-via-web-services) for an overview of causes
 
 
 ## **Recommended Documents**
