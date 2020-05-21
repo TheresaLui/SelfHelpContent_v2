@@ -3,7 +3,7 @@
     description="Deprecation of Older Spark Versions in HDInsight Spark cluster"
     authors="xunwei"
     ms.author="xunwei"
-    articleId="dd5fa7a3-8c14-4878-acbb-0f99df5e1c48_Public"
+    articleId="20dfc768-7850-4176-9707-b9bb52afb95a_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
     ownershipId="AzureData_HDInsight"
@@ -14,7 +14,7 @@
   "recommendationOfferingId": "2ee735d6-5f03-45c3-bf11-fc1dbb1aa135",
   "recommendationOfferingName": "HDInsight",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "dd5fa7a3-8c14-4878-acbb-0f99df5e1c48",
+  "recommendationTypeId": "20dfc768-7850-4176-9707-b9bb52afb95a",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').SparkVersionRetirementInHDI",
     "dataSource": "Kusto",
@@ -42,14 +42,14 @@
   "potentialBenefits": "Avoid potential system/support interruption.",
   "actions": [
     {
-      "actionId": "715827a9-7710-4403-b291-659d137cc452",
+      "actionId": "9c6eb9d0-a58d-4296-9b06-2028e81551e0",
       "description": "Consider to move to Spark 2.3 on HDInsight 3.6 by June 30 2020 to avoid potential system/support interruption. {extendedProperties}, {extendedProperties}.sparkComponentVersion",
       "actionType": "Document",
       "condition":"sparkComponentVersion!=\"2.3\"",
       "documentLink": "https://aka.ms/hdiretirespark"
     },
     {
-      "actionId": "4e55f1ec-2f9c-4ddc-b136-1ee2f499f31a",
+      "actionId": "086a57db-045c-4e33-9ef6-a539373ba565",
       "description": "Consider moving to Spark 2.4 on HDInsight 4.0 by June 30 2020 to avoid potential system/support interruption.",
       "actionType": "Document",
       "condition":"sparkComponentVersion==\"2.3\"",
@@ -58,7 +58,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "8af9ef55-4ec5-409b-9812-eda55d78981f",
+      "actionId": "8dc17d41-d715-4886-bd2a-26a13764b3c0",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
