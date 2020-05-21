@@ -32,7 +32,7 @@
             "required": true,
 	    "useAsAdditionalDetails": true,
 	    "hints": [{
-					"text": "Provide the issue and error in detail"
+					"text": "Provide the issue and error in detail."
 				}]
         },
         {
