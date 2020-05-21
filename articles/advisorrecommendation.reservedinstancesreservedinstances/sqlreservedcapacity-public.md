@@ -12,7 +12,7 @@
 ---
 {
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
-  "recommendationOfferingName": "(Preview) SQL DB vCores Reserved Capacity",
+  "recommendationOfferingName": "ReservedInstances",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "885cd4f5-dfa0-4d68-bbfd-00f89fc2b69c",
   "dataSourceMetadata": {
