@@ -1,6 +1,6 @@
 <properties
     pageTitle="Multi-Factor Authentication"
-    description="Issues related to Conditional Access or Passwords or Identity protection"
+    description="Issues related to Conditional Access or Passwords or Identity protection or MFA"
     authors="vritiJain"
 	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
@@ -8,7 +8,7 @@
     productPesIds="16579,16578"
     cloudEnvironments="public, fairfax,  Mooncake, usnat, ussec"
     schemaVersion="1"
-    articleId="3e0e4c25-d1c5-4396-a824-f6d368ed1b2c"
+    articleId="dc21287a-b8ec-48c3-b6bf-4b8d4dab65cc"
     ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
@@ -173,8 +173,7 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0,
-            "diagnosticInputRequiredClients": "Portal"
+            "numberOfLines": 0
         },
         {
             "id": "problem_start_time",
