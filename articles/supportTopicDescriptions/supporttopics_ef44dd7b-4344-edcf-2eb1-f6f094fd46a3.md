@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b469c4cf-17b1-66c9-dabe-0170b4efbf5b",
+      "longDescription": "",
+      "shortDescription": "When you see a difference in count of discovered servers between the two tools",
+      "searchTags": "count",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bb8d2c9b-1e6a-8a2f-c830-feb96edaa58f",
       "longDescription": "",
       "shortDescription": "Issues when users hit Migrate button in Server Migration workflow for VMware, Hyper-V, other clouds and physical machines. ",
