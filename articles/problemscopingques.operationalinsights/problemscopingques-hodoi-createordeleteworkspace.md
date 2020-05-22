@@ -12,6 +12,7 @@
     schemaVersion="1"
     ownershipId="AzureMonitoring_LogAnalytics"
 />
+
 # Create or delete workspace
 ---
 {
