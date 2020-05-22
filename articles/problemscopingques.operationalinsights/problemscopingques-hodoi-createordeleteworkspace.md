@@ -122,7 +122,7 @@
             "displayLabel": "Additional details",
             "watermarkText": "Describe the issue, including as much detail as possible with the exact text of error messages where available. If using an experience other than Azure portal, provide the commands being executed or the API call being made.",
             "required": true,
-            "hints": "Please include the exact text of any error message"
+            "hints": []
         }
     ],
     "$schema": "SelfHelpContent"
