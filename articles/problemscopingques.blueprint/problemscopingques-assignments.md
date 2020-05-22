@@ -14,6 +14,7 @@
 # Blueprint Assignments
 ---
 {
+    "subscriptionRequired": true
     "resourceRequired": true,
     "title": "Blueprint Assignments",
     "fileAttachmentHint": "Please provide a screenshot of any errors",
