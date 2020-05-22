@@ -29,9 +29,9 @@
             "required": true
         },
                 {
-            "id": "interface",
+            "id": "operation",
             "order": 3,
-            "controlType": "operation",
+            "controlType": "dropdown",
             "displayLabel": "Which operation are you trying to perform?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
