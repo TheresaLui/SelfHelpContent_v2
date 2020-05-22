@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4eb14b57-a392-d27f-3d01-0cf396e7f2c9",
+      "longDescription": "",
+      "shortDescription": "Issues related to ISV tools",
+      "searchTags": "ISV tools",
+      "category": "Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "518aef48-0f1b-4a3e-49b9-7e7fb65950d0",
       "longDescription": "",
       "shortDescription": "Issues encountered in agent-based dependency visualization (Service Map, OMS)",
