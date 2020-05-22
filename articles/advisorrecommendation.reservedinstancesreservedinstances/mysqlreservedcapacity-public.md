@@ -3,7 +3,7 @@
     description="(Preview) Buy MySQL Database reserved capacity to save"
     authors="yashesvi"
     ms.author="yashar"
-    articleId="a1d7f3cd-7328-4f0d-8e69-903e9caa4caa_Public"
+    articleId="a8fd63ce-4600-43eb-af33-a6d5481f5930_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
     ownershipId="ACE_ReservedInstances"
@@ -14,7 +14,7 @@
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
   "recommendationOfferingName": "ReservedInstances",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "a1d7f3cd-7328-4f0d-8e69-903e9caa4caa",
+  "recommendationTypeId": "a8fd63ce-4600-43eb-af33-a6d5481f5930",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('acereservations.kusto.windows.net').database('reservations').getMySQLRecoAdvisor()",
     "dataSource": "Kusto",
@@ -36,14 +36,14 @@
     "serviceTreeId": "d69e4730-c500-4755-a0be-dbe134ba7dbb"
   },
   "recommendationTimeToLive": 86400,
-  "version": 4.0,
+  "version": 5.0,
   "learnMoreLink": "https://aka.ms/rirecommendations",
   "description": "(Preview) Consider MySQL Database reserved capacity to save over your pay-as-you-go costs",
   "longDescription": "We analyzed you MySQL Database usage pattern over last 30 days and recommend reserved capacity purchase that maximizes your savings. With reserved capacity you can pre-purchase MySQL hourly usage and save over your compute costs. Reserved capacity is a billing benefit and will automatically apply to new or existing deployments. Saving estimates are calculated for individual subscriptions using 3-year reservation pricing and by extrapolating the usage pattern observed over last 30 days. Shared scope recommendations are available in reservation purchase experience and can increase savings further.",
   "potentialBenefits": "savings",
   "actions": [
     {
-      "actionId": "a1d7f3cd-7328-4f0d-8e69-903e9caa4caa",
+      "actionId": "a8fd63ce-4600-43eb-af33-a6d5481f5930",
       "description": "(Preview) Consider reserved capacity for {displaySKU} in {displayRegion} for {displayQty} vCores",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Reservations",
