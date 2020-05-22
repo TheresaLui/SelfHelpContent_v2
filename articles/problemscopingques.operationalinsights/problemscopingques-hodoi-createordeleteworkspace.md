@@ -74,7 +74,7 @@
                     "text": "Multiple users"
                 },
                 {
-                    "value": "Not sure",
+                    "value": "dont_know_answer",
                     "text": "Not sure"
                 }
             ],
