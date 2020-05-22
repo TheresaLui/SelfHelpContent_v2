@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "96845980-d4cf-a2c9-42ab-424a5a08ff7e",
+      "longDescription": "",
+      "shortDescription": "Issues related to project not found. ",
+      "searchTags": "project;not;found;notfound",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a95bd679-eba4-eed8-a537-eaa69141c9c2",
       "longDescription": "",
       "shortDescription": "Issues while deploying VMware appliance on-prem",
