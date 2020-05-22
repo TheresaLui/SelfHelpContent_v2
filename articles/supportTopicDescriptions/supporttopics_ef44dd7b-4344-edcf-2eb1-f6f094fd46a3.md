@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "04aa41d1-0236-f0af-acc2-1897230e23a2",
+      "longDescription": "",
+      "shortDescription": "Encountered issues while creating, updating, and exporting assessment",
+      "searchTags": "CRUD;create ;update;export",
+      "category": "Functionality",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1f2fef07-eb7b-4c44-925a-99d3cdaf9bd1",
       "longDescription": "",
       "shortDescription": "Issues that occur when users press Test Migrate button",
