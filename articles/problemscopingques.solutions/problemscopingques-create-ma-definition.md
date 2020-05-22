@@ -5,7 +5,7 @@
 	authors="apclouds"
 	ms.author="angperez"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32628291,32628297,32628299,32628292,32628293"
+	supportTopicIds="32628297,32628299,32628292,32628293"
 	productPesIds="16651"
 	cloudEnvironments="public, fairfax, usnat, ussec, mooncake"
 	schemaVersion="1"
