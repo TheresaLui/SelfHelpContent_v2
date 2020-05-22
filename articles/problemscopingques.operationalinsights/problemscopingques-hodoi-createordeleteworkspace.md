@@ -31,7 +31,7 @@
                 {
             "id": "interface",
             "order": 3,
-            "controlType": "dropdown",
+            "controlType": "operation",
             "displayLabel": "Which operation are you trying to perform?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
@@ -59,7 +59,7 @@
             "required": true
         },
         {
-            "id": "interface",
+            "id": "users",
             "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Is the issue happening with a single user or multiple users?",
