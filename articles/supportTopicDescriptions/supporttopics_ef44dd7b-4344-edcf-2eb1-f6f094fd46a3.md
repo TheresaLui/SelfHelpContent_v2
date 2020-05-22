@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "518aef48-0f1b-4a3e-49b9-7e7fb65950d0",
+      "longDescription": "",
+      "shortDescription": "Issues encountered in agent-based dependency visualization (Service Map, OMS)",
+      "searchTags": "dependency mapping",
+      "category": "Functionality",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5a128982-61e8-6936-641d-12a396ba26df",
       "longDescription": "",
       "shortDescription": "Issues seen in on-prem environment while deploying Hyper-V Replication Provider",
