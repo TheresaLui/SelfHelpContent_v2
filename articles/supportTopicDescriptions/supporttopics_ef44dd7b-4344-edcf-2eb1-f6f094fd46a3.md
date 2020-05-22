@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0b1f6dc4-bffb-f815-e06d-4a2ec47be9c7",
+      "longDescription": "",
+      "shortDescription": "Issues related to a difference in count of servers discovered ",
+      "searchTags": "count mismatch",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1f2fef07-eb7b-4c44-925a-99d3cdaf9bd1",
       "longDescription": "",
       "shortDescription": "Issues that occur when users press Test Migrate button",
