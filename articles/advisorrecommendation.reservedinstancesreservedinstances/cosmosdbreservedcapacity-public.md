@@ -39,7 +39,7 @@
   "version": 5.0,
   "learnMoreLink": "https://aka.ms/rirecommendations",
   "description": "(Preview) Consider Cosmos DB reserved capacity to save over your pay-as-you-go costs",
-  "longDescription": "We analyzed your Cosmos DB usage pattern over last 30 days and recommend reserved capacity purchase to optimize costs. With reserved capacity you can pre-purchase Cosmos DB hourly usage and save over your pay-as-you-go costs. Reserved capacity is a billing benefit and will automatically apply to new or existing deployments. Saving estimates are calculated for individual subscriptions using 3-year reservation pricing and by extrapolating the usage pattern observed over last 30 days. Shared scope recommendations are available in reservation purchase experience and can increase savings even more.",
+  "longDescription": "We analyzed your Cosmos DB usage pattern over last 30 days and calculate reserved capacity purchase that maximizes your savings. With reserved capacity you can pre-purchase Cosmos DB hourly usage and save over your pay-as-you-go costs. Reserved capacity is a billing benefit and will automatically apply to new or existing deployments. Saving estimates are calculated for individual subscriptions using 3-year reservation pricing and usage pattern over last 30 days. Shared scope recommendations are available in reservation purchase experience and can increase savings even more.",
   "potentialBenefits": "savings",
   "actions": [
     {
