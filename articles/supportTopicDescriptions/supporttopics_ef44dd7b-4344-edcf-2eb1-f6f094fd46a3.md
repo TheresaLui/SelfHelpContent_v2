@@ -126,6 +126,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7ae41f27-dad0-43bb-8267-3e1bcaf68dd7",
+      "longDescription": "",
+      "shortDescription": "Issues faced while performing agentless dependency analysis",
+      "searchTags": "dependency analysis",
+      "category": "Functionality",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7fc61b43-c23f-0777-ff5a-642ea4784369",
       "longDescription": "",
       "shortDescription": "When VM does not boot or RDP fails in Azure post-migration. Select Virtual Machines as service instead of Migrate in case submission. ",
