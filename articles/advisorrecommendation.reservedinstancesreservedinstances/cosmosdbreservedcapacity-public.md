@@ -43,7 +43,7 @@
   "potentialBenefits": "savings",
   "actions": [
     {
-      "actionId": "b3a3bbb5-feaf-4c02-9d67-aa314bc1b477",
+      "actionId": "a205074f-8049-48b3-903f-556f5e530ae3",
       "description": "(Preview) Consider purchasing {displaySKU} reserved capacity",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Reservations",
