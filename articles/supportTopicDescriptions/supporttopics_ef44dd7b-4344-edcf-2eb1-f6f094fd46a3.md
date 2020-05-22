@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ab576c21-d0aa-63ea-a325-4090f43d95b0",
+      "longDescription": "",
+      "shortDescription": "Issues while installing agents to perform dependency analysis",
+      "searchTags": "dependencyagents",
+      "category": "Functionality",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b469c4cf-17b1-66c9-dabe-0170b4efbf5b",
       "longDescription": "",
       "shortDescription": "When you see a difference in count of discovered servers between the two tools",
