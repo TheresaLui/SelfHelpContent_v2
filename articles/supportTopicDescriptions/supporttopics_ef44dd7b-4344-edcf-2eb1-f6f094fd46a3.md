@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "313fe1a0-1802-5f25-a6c8-453b712d3b90",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when using DMA and DMS",
+      "searchTags": "DMA;DMS",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "38a40792-63b6-584a-16f9-ca5b97315a1b",
       "longDescription": "",
       "shortDescription": "Issues when you use non-Microsoft tools in assessment and migration.",
