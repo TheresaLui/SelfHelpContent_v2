@@ -43,7 +43,7 @@
   "potentialBenefits": "savings",
   "actions": [
     {
-      "actionId": "a6555041-38cb-4152-a900-c1492879cd0f",
+      "actionId": "a1d7f3cd-7328-4f0d-8e69-903e9caa4caa",
       "description": "(Preview) Consider reserved capacity for {displaySKU} in {displayRegion} for {displayQty} vCores",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Reservations",
