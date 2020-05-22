@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2ed61c94-5e7b-7457-a29a-33162d42b05d",
+      "longDescription": "",
+      "shortDescription": "How to delete appliance used for discovery ",
+      "searchTags": "appliance deletion",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "38a40792-63b6-584a-16f9-ca5b97315a1b",
       "longDescription": "",
       "shortDescription": "Issues when you use non-Microsoft tools in assessment and migration.",
