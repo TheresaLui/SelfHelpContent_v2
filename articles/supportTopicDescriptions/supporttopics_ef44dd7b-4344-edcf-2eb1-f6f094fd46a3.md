@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2f2b828a-1765-8178-8be5-399449d91e2a",
+      "longDescription": "",
+      "shortDescription": "Questions on assessment recommendations ",
+      "searchTags": "assessment recommendation",
+      "category": "Functionality",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "38a40792-63b6-584a-16f9-ca5b97315a1b",
       "longDescription": "",
       "shortDescription": "Issues when you use non-Microsoft tools in assessment and migration.",
