@@ -182,6 +182,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "84a682f2-093f-f8cb-97b7-ebf18a30a5e4",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while moving resources to another subscription",
+      "searchTags": "ResourceMove",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9123773b-88c6-9665-e93c-a31fae5482dd",
       "longDescription": "",
       "shortDescription": "Issues related to Azure Migrate Server Migration tool used to migrate virtual machines to Azure",
