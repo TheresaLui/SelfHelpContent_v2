@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2a958ff7-c6c2-293d-1390-017826b746ce",
+      "longDescription": "",
+      "shortDescription": "Issues related to difference in count of discovered servers between two tools on dashboard",
+      "searchTags": "count mismatch",
+      "category": "Functionality",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2ed61c94-5e7b-7457-a29a-33162d42b05d",
       "longDescription": "",
       "shortDescription": "How to delete appliance used for discovery ",
