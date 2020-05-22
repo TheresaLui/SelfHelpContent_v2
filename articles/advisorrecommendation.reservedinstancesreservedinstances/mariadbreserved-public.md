@@ -38,7 +38,7 @@
   "recommendationTimeToLive": 86400,
   "version": 3.0,
   "learnMoreLink": "https://aka.ms/rirecommendations",
-  "description": "(Preview) Consider reserved capacity for Database for MariaDB compute usage and save over your pay-as-you-go costs",
+  "description": "(Preview) Consider Database for MariaDB reserved capacity to save over your pay-as-you-go costs",
   "longDescription": "We analyzed you Azure Database for MariaDB usage pattern over last 30 days and recommend reserved capacity purchase that maximizes your savings. With reserved capacity you can pre-purchase MariaDB hourly usage and save over your compute costs. Reserved capacity is a billing benefit and will automatically apply to new or existing deployments. Saving estimates are calculated for individual subscriptions using 3-year reservation pricing and the usage pattern over last 30 days. Shared scope recommendations are available in reservation purchase experience and can increase savings further.",
   "potentialBenefits": "savings",
   "actions": [
