@@ -61,10 +61,7 @@
             	"text": "az role assignment list --all --assignee example@example.com --output json | jq '.[] | {'principalName':.principalName,'roleDefinitionName':.roleDefinitionName,'scope':.scope}"
         	},
 		{
-            	"text": "```az role assignment list --all --assignee example@example.com --output json | jq '.[] | {'principalName':.principalName,'roleDefinitionName':.roleDefinitionName,'scope':.scope} ```
-       		},
-		{
-		"text": "For more guidance, read this <a href='https://docs.microsoft.com/azure/role-based-access-control/role-assignments-list-cli#list-role-assignments-for-a-user'>link</a>"
+		"text": "For more guidance, visit https://docs.microsoft.com/azure/role-based-access-control/role-assignments-list-cli#list-role-assignments-for-a-user"
 		}
 		],
             "watermarkText": "Please use the command shown above.",
