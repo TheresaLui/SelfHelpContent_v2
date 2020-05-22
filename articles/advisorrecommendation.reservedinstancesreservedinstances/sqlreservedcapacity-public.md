@@ -14,7 +14,7 @@
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
   "recommendationOfferingName": "ReservedInstances",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "885cd4f5-dfa0-4d68-bbfd-00f89fc2b69c",
+  "recommendationTypeId": "a1d7f3cd-7328-4f0d-8e69-903e9caa4caa",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('acereservations.kusto.windows.net').database('reservations').getSQLDBRecoAdvisor()",
     "dataSource": "Kusto",
@@ -36,14 +36,14 @@
     "serviceTreeId": "d69e4730-c500-4755-a0be-dbe134ba7dbb"
   },
   "recommendationTimeToLive": 86400,
-  "version": 5.0,
+  "version": 6.0,
   "learnMoreLink": "https://aka.ms/rirecommendations",
   "description": "(Preview) Consider SQL DB reserved capacity to save over your pay-as-you-go costs",
   "longDescription": "We analyze SQL PaaS elastic pools and managed instance usage pattern over last 30 days and recommend reserved capacity purchase that maximizes your savings. With reserved capacity you can pre-purchase SQL DB hourly usage and save over your SQL compute costs. SQL license is charged separately and is not discounted by the reservation. Reserved capacity is a billing benefit and will automatically apply to new or existing deployments. Saving estimates are calculated for individual subscriptions using 3-year reservation pricing and by extrapolating the usage pattern observed over last 30 days. Shared scope recommendations are available in reservation purchase experience and can increase savings further.",
   "potentialBenefits": "savings",
   "actions": [
     {
-      "actionId": "b3a3bbb5-feaf-4c02-9d67-aa314bc1b477",
+      "actionId": "a1d7f3cd-7328-4f0d-8e69-903e9caa4caa",
       "description": "(Preview) Consider reserved capacity for {displaySKU} in {displayRegion} for {displayQty} vCores",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Reservations",
