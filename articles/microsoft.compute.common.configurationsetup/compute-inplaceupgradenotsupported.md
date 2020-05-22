@@ -1,15 +1,15 @@
 <properties
-    pageTitle="Cannot perform an in-place upgrade for my VM"
-    description="Cannot perform an in-place upgrade for my VM"
+    pageTitle="Cannot perform an in-place upgrade for my Windows VM"
+    description="Cannot perform an in-place upgrade for my Windows VM"
     service="microsoft.compute"
     resource="virtualmachines"
     authors="ScottAzure"
     ms.author="scotro"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32725647,32725646"
+    supportTopicIds="32725647"
     resourceTags=""
-    productPesIds="14749,15571,15797,16454,16470"
+    productPesIds="14749"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="a6795daa-1699-4018-a759-34e0a727bad9"
 	ownershipId="Compute_VirtualMachines_Content"
@@ -28,9 +28,7 @@ Consider the following scenario:<br>
 
 In this scenario, the upgrade may fail or become blocked and require direct console access to unblock it.<br>
 
-**For Windows upgrades**, [performing an in-place system upgrade is not supported on Windows-based Azure VMs](https://support.microsoft.com/help/4014997)<br>
-
-**For Linux major upgrades**, a similar scenario could occur. Please work with your distro vendor to understand next steps.<br>
+**For Windows upgrades**, [performing an in-place system upgradeon Windows-based Azure VMs](https://support.microsoft.com/help/4014997)<br>
 
 ## **Recommended Documents**
 

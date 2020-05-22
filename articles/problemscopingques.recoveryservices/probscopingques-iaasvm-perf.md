@@ -25,7 +25,7 @@
     },
     "formElements": [
         {
-            "id": "using_VM",
+            "id": "vm_facing_issue",
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Which virtual machine(s) is experiencing problem?",
@@ -41,7 +41,8 @@
                 "text": "Other, don't know or not applicable"
             }
 	    },
-            "required": false
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "Issue_Type",

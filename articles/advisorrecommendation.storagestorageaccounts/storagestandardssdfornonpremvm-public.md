@@ -5,7 +5,7 @@
     ms.author="xdataanalytics"
     articleId="2df6d034-c368-405b-b909-2b5811055dba_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="StorageMediaEdge_XStore"
 />
 # Use Standard SSD for performance on VMs that do not support Premium Disks

@@ -5,7 +5,7 @@
     ms.author="kummanish"
     articleId="1efe9592-f5ae-4167-97d7-63e973821fca_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Add a MySQL Read Replica server

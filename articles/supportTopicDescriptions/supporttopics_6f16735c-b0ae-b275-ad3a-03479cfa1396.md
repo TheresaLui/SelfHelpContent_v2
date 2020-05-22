@@ -2,7 +2,7 @@
   pagetitle="Support topic description for VM running Windows"
   description="Support topic description for Virtual Machine running Windows"
   authors="scottAzure, elixirsys2"
-  ms.author="scotro, tibasham, alexsmit"
+  ms.author="scotro, tibasham, alexsmit, svenkat"
   selfhelptype="SupportTopicDescription"
   productpesids="6f16735c-b0ae-b275-ad3a-03479cfa1396"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -24,14 +24,6 @@
   "productLink3": "",
   "productLinkName3": "",
   "supportTopics": [
-    {
-      "id": "\tfc4d4b63-7ee7-78c1-fc99-ffe694b9f8a2",
-      "longDescription": null,
-      "shortDescription": "Covers issues with Monitoring agent (MMA) extension",
-      "searchTags": "",
-      "category": "Deployment",
-      "useInDiagnoseAndSolve": "FALSE"
-    },
     {
       "id": "01dae6a7-85e1-730c-6a68-ccda62923e45",
       "longDescription": null,
@@ -339,9 +331,9 @@
     {
       "id": "4d78b174-3203-a3ac-9e08-41fb35de6354",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": " Request to increase the subscription limit",
+      "searchTags": "subscription limit",
+      "category": "Quota",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -1198,6 +1190,14 @@
       "shortDescription": "Request a root cause investigation for a security issue with a virtual machine in Azure",
       "searchTags": "",
       "category": "Management",
+      "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "fc4d4b63-7ee7-78c1-fc99-ffe694b9f8a2",
+      "longDescription": null,
+      "shortDescription": "Covers issues with Monitoring agent (MMA) extension",
+      "searchTags": "",
+      "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {

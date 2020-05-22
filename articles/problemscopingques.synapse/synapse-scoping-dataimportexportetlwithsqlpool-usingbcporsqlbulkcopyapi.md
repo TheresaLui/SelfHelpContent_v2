@@ -1,7 +1,7 @@
 <properties
 	schemaVersion = "1"
 	selfHelpType = "problemScopingQuestions"
-	cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	productPesIds = "15818"
 	supportTopicIds = "32738841"
@@ -40,8 +40,53 @@
             "infoBalloonText": ""
         },
         {
-            "id": "problem_description",
+            "id": "dw_3",
             "order": 3,
+            "required": false,
+            "controlType": "textbox",
+            "displayLabel": "What is the query id?",
+            "watermarkText": "",
+            "infoBalloonText": ""
+        },
+        {
+            "id": "dw_4",
+            "order": 4,
+            "required": false,
+            "controlType": "textbox",
+            "displayLabel": "What is the file format and compression?",
+            "watermarkText": "",
+            "infoBalloonText": ""
+        },
+        {
+            "id": "dw_5",
+            "order": 5,
+            "required": false,
+            "controlType": "textbox",
+            "displayLabel": "How large is the data file(s)?",
+            "watermarkText": "",
+            "infoBalloonText": ""
+        },
+        {
+            "id": "dw_6",
+            "order": 6,
+            "required": false,
+            "controlType": "textbox",
+            "displayLabel": "How long did it take for the load to complete?",
+            "watermarkText": "",
+            "infoBalloonText": ""
+        },
+        {
+            "id": "dw_7",
+            "order": 7,
+            "required": false,
+            "controlType": "textbox",
+            "displayLabel": "What resource class did you use for your load?",
+            "watermarkText": "",
+            "infoBalloonText": ""
+        },
+        {
+            "id": "problem_description",
+            "order": 8,
             "required": true,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",

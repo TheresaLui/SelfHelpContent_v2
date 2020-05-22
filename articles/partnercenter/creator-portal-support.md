@@ -14,12 +14,13 @@
 	clientIds='partnercenter'
 	resourceTags="other"
 	productPesIds="17113"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Other_Portals"
 />
 
 # This topic will guide you to the support experience for Creator portal
 
+This topic will guide you to the support experience for Creator portal.
 
 ## **Recommended Steps**
 
@@ -28,4 +29,5 @@
 
 ## **Recommended Documents**
 
- * [Build innovative solutions with Microsoft](https://partner.microsoft.com/membership/internal-use-software)
+- [Build innovative solutions with Microsoft](https://partner.microsoft.com/membership/internal-use-software)
+

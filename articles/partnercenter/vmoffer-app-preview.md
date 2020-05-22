@@ -12,9 +12,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32728283"
 	resourceTags="isv"
-	productPesIds="17000"
+	productPesIds="17006"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # Virtual machine Offer or App preview

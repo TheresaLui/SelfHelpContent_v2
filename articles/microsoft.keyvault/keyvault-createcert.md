@@ -10,7 +10,7 @@
 	supportTopicIds="32739895"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="keyvault-createcert"
 	ownershipId="AzureKeyVault_KeyVault"
 />
@@ -27,6 +27,10 @@
 * I had created a certificate and it is near expiry. What happens if it expires?
 	
 	If a Key Vault certificate expires, it's addressable key and secret become inoperable. [Configure Certificate's Life cycle attributes](https://docs.microsoft.com/azure/key-vault/certificates/tutorial-rotate-certificates).
+
+* How to export a certificate from Key vault?
+	
+	You can download the certificate in .cer, .pfx or .pem format. [Exporting certificate from Azure portal](https://docs.microsoft.com/azure/key-vault/certificates/quick-create-portal#add-a-certificate-to-key-vault).
 
 ## **Recommended Documents**
 

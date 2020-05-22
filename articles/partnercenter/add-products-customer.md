@@ -34,3 +34,4 @@ Below are useful resources related to adding products to customers in partner ce
 * [Partner offers in the Cloud Solution Provider program](https://docs.microsoft.com/partner-center/csp-offers)
 * [Sell Microsoft Azure reservations](https://docs.microsoft.com/partner-center/azure-reservations)
 * [Online services subscriptions](https://docs.microsoft.com/partner-center/customer-subscriptions)
+* [Partner Center: How to access Customer tab](https://support.microsoft.com/help/4559086/partner-center-how-to-access-customer-tab)
