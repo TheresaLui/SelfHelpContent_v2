@@ -64,7 +64,7 @@
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details, if you see an error message list it or you are looking for specific guidance.",
+            "displayLabel": "Please provide additional details, if you see an error message list it or you are looking for specific guidance, explain that.",
             "required": true,
             "useAsAdditionalDetails": true,
             "watermarkText": "Please provide as much details as possible"
