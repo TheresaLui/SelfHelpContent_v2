@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "480ecc95-0232-126a-350c-3560e49199b2",
+      "longDescription": "",
+      "shortDescription": "All issues related to Hub and dashboard must be filed here.",
+      "searchTags": "hub;dashboard",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5a128982-61e8-6936-641d-12a396ba26df",
       "longDescription": "",
       "shortDescription": "Issues seen in on-prem environment while deploying Hyper-V Replication Provider",
