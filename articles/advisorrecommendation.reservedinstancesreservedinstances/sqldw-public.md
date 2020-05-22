@@ -36,7 +36,7 @@
     "serviceTreeId": "d69e4730-c500-4755-a0be-dbe134ba7dbb"
   },
   "recommendationTimeToLive": 86400,
-  "version": 5.0,
+  "version": 6.0,
   "learnMoreLink": "https://aka.ms/rirecommendations",
   "description": "(Preview) Consider Synapse Analytics (formerly SQL DW) reserved capacity to save over your pay-as-you-go costs",
   "longDescription": "We analyze you Azure Synapse Analytics usage pattern over last 30 days and recommend reserved capacity purchase that maximizes your savings. With reserved capacity you can pre-purchase Synapse Analytics hourly usage and save over your Pay-as-you-go costs. Reserved capacity is a billing benefit and will automatically apply to new or existing deployments. Saving estimates are calculated for individual subscriptions using 3-year reservation pricing and by extrapolating the usage pattern observed over last 30 days. Shared scope recommendations are available in reservation purchase experience and can increase savings further.",
