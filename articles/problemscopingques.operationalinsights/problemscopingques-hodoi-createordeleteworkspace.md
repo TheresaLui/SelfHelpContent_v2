@@ -108,7 +108,7 @@
                     "text": "Azure Resource Manager (ARM) template"
                 },
                 {
-                    "value": "Other",
+                    "value": "dont_know_answer",
                     "text": "Other"
                 }
             ],
