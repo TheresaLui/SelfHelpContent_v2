@@ -1,20 +1,18 @@
 
 <properties
+articleId="problemscopingques-Create_or_delete_workspace"
 pageTitle="Create or delete workspace"
 description="Create or delete workspace"
-articleId="problemscopingques-Create_or_delete_workspace"
-authors="yossiy,neghuman"
+authors="yossiy,neilghuman"
 ms.author="yossiy,neghuman"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612513"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
-	ownershipId="AzureMonitoring_LogAnalytics"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
-
 # Create or delete workspace
- 
 ---
 {
     "subscriptionRequired": true,
