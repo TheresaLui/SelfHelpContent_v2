@@ -19,7 +19,7 @@
 
 # We ran diagnostics on your resource and found the following issue
 <!--issueDescription-->
-Cluster unable to start/scale due to insufficient number of cores within the subscription: <!--$SubscriptionId-->[SubscriptionId]<!--/$SubscriptionId-->. 
+Cluster unable to start/scale due to insufficient number of cores within the subscription: <!--$SubscriptionId-->[SubscriptionId]<!--/$SubscriptionId-->
 
 Current number of cores in use: <!--$CurrentDeploymentCount-->[CurrentDeploymentCount]<!--/$CurrentDeploymentCount-->
 
@@ -33,7 +33,7 @@ Requested cores: <!--$AdditionalRequestCores-->[AdditionalRequestCores]<!--/$Add
 
 * Check whether sufficient quota of cores are available in region for this subscription: <!--$SubscriptionId-->[SubscriptionId]<!--/$SubscriptionId-->
 
-* Please follow instructions for raising a [ticket](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests) for more cores. 
+* Please follow instructions for raising a [ticket](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests) for more cores
 
 ## **Recommended Documents**
 
