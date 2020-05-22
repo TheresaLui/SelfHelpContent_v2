@@ -1,16 +1,16 @@
 
 <properties
-articleId="problemscopingques-Create_or_delete_workspace"
-pageTitle="Create or delete workspace"
-description="Create or delete workspace"
-authors="yossiy,neilghuman"
-ms.author="yossiy,neghuman"
-selfHelpType="problemScopingQuestions"
-supportTopicIds="32612513"
-productPesIds="15725"
-cloudEnvironments="Public, Fairfax, usnat, ussec"
-schemaVersion="1"
-ownershipId="AzureMonitoring_LogAnalytics"
+    articleId="problemscopingques-Create_or_delete_workspace"
+    pageTitle="Create or delete workspace"
+    description="Create or delete workspace"
+    authors="yossiy,neilghuman"
+    ms.author="yossiy,neghuman"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32612513"
+    productPesIds="15725"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
+    schemaVersion="1"
+    ownershipId="AzureMonitoring_LogAnalytics"
 />
 # Create or delete workspace
 ---
