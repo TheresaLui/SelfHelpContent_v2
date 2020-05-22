@@ -180,6 +180,14 @@
       "searchTags": "discovery",
       "category": "Functionality",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ff9867d9-3a6f-ab84-fada-1ba618e8aad9",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while performing Server Assessment or deploying appliance on-prem",
+      "searchTags": "assessment",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
