@@ -10,6 +10,7 @@
     resourceTags="Azure_RBAC"
     cloudEnvironments="MoonCake"
     articleId="activedirectory-rbac-default-directory-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Unable to change the default directory of a subscription

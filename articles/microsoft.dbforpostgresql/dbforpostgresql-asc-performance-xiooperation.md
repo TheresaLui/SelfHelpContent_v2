@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Orcas PostgreSQL server is facing high IO throttle"
-    description="Orcas PostgreSQL server is facing high IO throttle"
+    pageTitle="PostgreSQL server is facing high IO throttle"
+    description="PostgreSQL server is facing high IO throttle"
 	infoBubbleText="Server is facing high IO throttle. See details on the right"
     service="microsoft.dbforpostgresql"
     resource="dbforpostgresql"
@@ -10,10 +10,11 @@
 	articleId="dbforpostgresql-asc-performance-xiooperation"
 	diagnosticScenario="OrcasPostgresXIOThrottle"
     selfHelpType="rca"
-    supportTopicIds="32640027"
+    supportTopicIds="32639985,32639986,32639987,32640019,32640025,32640026,32640027"
     resourceTags="windows, linux"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Server is facing high IO Throttle
@@ -25,7 +26,7 @@ Thank you for contacting Microsoft support about your performance issues with yo
 ## **Recommended Steps**
 
 * Consider increasing IOPS by scaling storage size. You can increase the storage in the [Azure Portal](https://portal.azure.com) by clicking on the "Pricing Tier" and then scale up the storage as per your requirement.
-* You can also enable [Auto-Grow feature](https://docs.microsoft.com/azure/postgresql/howto-auto-grow-storage-portal), to avoid this issue in the future.
+* You can also enable [Auto-Grow feature](https://docs.microsoft.com/azure/postgresql/howto-auto-grow-storage-portal), to avoid this issue in the future
 
 ## **Recommended Documents**
 

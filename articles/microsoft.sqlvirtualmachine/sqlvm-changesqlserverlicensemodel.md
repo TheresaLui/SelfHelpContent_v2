@@ -11,7 +11,8 @@
 	supportTopicIds="32633500"
 	resourceTags="WindowsSQL"
 	productPesIds="14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # licensing/changing sql licensing model

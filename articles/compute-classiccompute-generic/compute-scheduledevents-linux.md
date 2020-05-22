@@ -10,8 +10,9 @@
 	supportTopicIds="32591376,32591374,32591160"
 	resourceTags=""
 	productPesIds="16342,16065,15571,15797,16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="250ba69c-7415-4170-a44e-4a31923a31ef"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Management/Scheduled events

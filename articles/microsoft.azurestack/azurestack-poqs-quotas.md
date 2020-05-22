@@ -10,8 +10,9 @@
     supportTopicIds="32629249"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-poqs-quotas"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 # Manage Quotas on Azure Stack
 

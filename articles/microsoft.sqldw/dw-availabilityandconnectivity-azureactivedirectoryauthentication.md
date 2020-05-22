@@ -11,7 +11,8 @@
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-availabilityandconnectivity-azureactivedirectoryauthentication.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Azure Active Directory Authentication
 

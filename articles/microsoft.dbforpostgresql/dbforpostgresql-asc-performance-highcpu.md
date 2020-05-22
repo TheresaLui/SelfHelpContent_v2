@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Orcas PostgreSQL server is facing high CPU usage"
-    description="Orcas PostgreSQL server is facing high CPU usage"
+    pageTitle="PostgreSQL server is facing high CPU usage"
+    description="PostgreSQL server is facing high CPU usage"
 	infoBubbleText="Server is facing high CPU usage. See details on the right"
     service="microsoft.dbforpostgresql"
     resource="dbforpostgresql"
@@ -10,10 +10,11 @@
 	articleId="dbforpostgresql-asc-performance-highcpu"
 	diagnosticScenario="OrcasPostgresHighCPU"
     selfHelpType="rca"
-    supportTopicIds="32640027"
+    supportTopicIds="32639985,32639986,32639987,32640019,32640025,32640026,32640027"
     resourceTags="windows, linux"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Server is facing high CPU usage
@@ -26,7 +27,7 @@ Thank you for contacting Microsoft support about your performance issues with yo
 
 * Review *CPU percent* in the Metrics window of the portal. If CPU spikes correlate with times when you increased your query workload, consider scaling up vCores to increase compute.
 * Compare *Active Connections* and *CPU percent* side-by-side in the Metrics window. If your active connections increases correlate with CPU spikes, consider using a [connection pooler between your application and Postgres server](https://techcommunity.microsoft.com/t5/Azure-Database-for-PostgreSQL/Not-all-Postgres-connection-pooling-is-equal/ba-p/825717). A pooler like [pgBouncer](https://techcommunity.microsoft.com/t5/Azure-Database-for-PostgreSQL/Steps-to-install-and-setup-PgBouncer-connection-pooling-proxy/ba-p/730555) would help optimize connection management.
-* Use the intelligent performance features for additional insights. For more information, visit the [Monitoring overview document](https://docs.microsoft.com/azure/postgresql/concepts-monitoring)
+* Use the Intelligent Performance features for additional insights. For more information, visit the [Monitoring overview document](https://docs.microsoft.com/azure/postgresql/concepts-monitoring).
 
 ## **Recommended Documents**
 

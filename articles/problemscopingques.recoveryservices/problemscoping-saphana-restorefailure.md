@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32690772"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="cc2bea57-b728-43a9-a8e1-317dfd55ab07"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions SAP HANA restore failure
 ---
@@ -91,7 +92,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
+            "required": false,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
@@ -114,7 +115,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
+            "required": false,
             "diagnosticInputRequiredClients": "Portal"
         },
         {
@@ -122,7 +123,8 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Provide the error message that are you seeing:",
-            "watermarkText": "Example: UserErrorSQLPODoesNotExist",
+            "watermarkText": "Example: UserErrorHanaUnsupportedOperation",
+            "infoBalloonText": "Info: Please provide the error code that you are seeing in <a href='https://docs.microsoft.com/azure/backup/sap-hana-db-manage#view-backup-alerts'>Backup alerts</a>.",
             "required": false
         },
         {
@@ -137,6 +139,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 8,
             "controlType": "multiselectdropdown",
+            "infoBalloonText": "Info: <a href='https://docs.microsoft.com/azure/backup/sap-hana-backup-support-matrix#scenario-support'>Learn more</a> about the scenarios we support",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
                 {
@@ -152,10 +155,6 @@
                     "text": "Checked the Machine has Internet connectivity"
                 },
                 {
-                    "value": "Checked the SAP HANA system has required permission for backup",
-                    "text": "Checked the SAP HANA system has required permission for backup"
-                },
-                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
@@ -167,7 +166,7 @@
             "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",

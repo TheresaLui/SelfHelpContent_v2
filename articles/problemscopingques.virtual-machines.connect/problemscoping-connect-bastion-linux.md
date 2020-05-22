@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32663940"
 	productPesIds="15571,15797,16454,16470"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="51bd129f-25b0-4252-9ca5-dcf05e7e7774"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Connect to a VM using Azure Bastion
@@ -16,7 +17,7 @@
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Failure to connect to the VM using Azure Bastion",
     "fileAttachmentHint": "",
     "formElements": [

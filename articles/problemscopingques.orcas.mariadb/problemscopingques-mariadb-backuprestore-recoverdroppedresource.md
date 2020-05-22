@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640149"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-backuprestore-recover_droppedresource"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Backup, Restore and Business Continuity - Recover A Dropped Resource
 ---

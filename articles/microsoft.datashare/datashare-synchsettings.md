@@ -10,8 +10,9 @@
 	supportTopicIds="32675620,32675630"
 	resourceTags=""
 	productPesIds="16762"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="b8e6ed39-d79d-41f7-b2b3-02455066e8e1"
+	ownershipId="AzureData_DataShare"
 />
 
 # Why is my synchronization setting not saved for my Data Share?

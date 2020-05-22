@@ -1,13 +1,14 @@
 <properties pageTitle="User-initiated password reset" 
 	 description="Password Management/User-initiated password reset" 
-	 authors="sahenry" 
-	 ms.author="sahenry"
+	 authors="hsku" 
+	 ms.author="hsku"
 	 selfHelpType="problemScopingQuestions" 
-	 supportTopicIds="32615416,32615432" 
+	 supportTopicIds="32615416" 
 	 productPesIds="16579" 
-	 cloudEnvironments="public" 
+	 cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec" 
 	 schemaVersion="1"
 	 articleId="c0816905-886c-41cc-acab-516a43988111"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 /> 
 # Problem with user-initiated password reset 
 ---
@@ -69,7 +70,7 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0,
-	    "diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

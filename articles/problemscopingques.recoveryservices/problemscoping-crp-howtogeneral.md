@@ -4,11 +4,12 @@
          authors="srinathvasireddy"
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32637323,32637324"
+         supportTopicIds="32637323,32637324,32637325"
          productPesIds="14749,15571,15797,16454,16470"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="decf02f8-2db8-4b8f-a24d-00bdd0ca9195"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for IAAS VM howto and general quest
 ---

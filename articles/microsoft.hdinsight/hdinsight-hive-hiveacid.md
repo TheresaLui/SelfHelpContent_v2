@@ -10,8 +10,9 @@
   supportTopicIds="32629057"
   resourceTags=""
   productPesIds="15078"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax, usnat, ussec"
   ArticleId="ea0675ba-1aee-49fa-9321-53eb2d708cd5"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Hive ACID 

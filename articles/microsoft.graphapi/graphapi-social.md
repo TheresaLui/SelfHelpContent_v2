@@ -10,8 +10,9 @@
 	supportTopicIds="32689197"
 	resourceTags=""
 	productPesIds="16957"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="a4f3326c-c240-4428-9435-85ceaf7a30de"
+	ownershipId="AzureIdentity_OtherMSGraphAPIs"
 />
 
 # Microsoft Graph People API or Insights API issues

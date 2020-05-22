@@ -10,8 +10,9 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="8eb9c6b5-1a36-4273-8c35-1cf0819c510b"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check network routing path from backend pool VM to client

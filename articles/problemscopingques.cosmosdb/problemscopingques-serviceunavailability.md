@@ -4,11 +4,12 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32636776,32636777,32681008,32681470"
+	supportTopicIds="32636776,32636777,32681008,32681470,32692541"
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="cfaed94d-9805-425f-acf5-5e9c8977c657"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # CosmosDB Service Unavailability Issue
 ---

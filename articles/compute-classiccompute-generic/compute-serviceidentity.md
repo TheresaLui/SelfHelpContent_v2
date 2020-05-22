@@ -10,8 +10,9 @@
 	supportTopicIds="32604337"
 	resourceTags=""
 	productPesIds="14749,16080,15797,15571,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="e440f95f-ecc0-4f23-9074-b263e7e49afd"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Managed Identity integration

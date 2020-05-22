@@ -10,8 +10,9 @@ ms.author="fifa1111"
 selfHelpType="generic"
 supportTopicIds="32612471"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 articleId="4d77366c-4655-4c8b-86e4-f599e9e00b47"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Integration issues: Azure Security Center

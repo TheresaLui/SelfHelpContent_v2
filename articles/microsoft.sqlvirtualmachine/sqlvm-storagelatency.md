@@ -9,9 +9,10 @@
 	selfHelpType="generic"
 	supportTopicIds="32633524"
 	resourceTags="windowsSQL"
-	productPesIds="14745"
-	cloudEnvironments="public"
+	productPesIds="14745, 16342"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="374e770d-ebfc-4509-9cc5-94147b604acc"
+	ownershipId="AzureData_AzureSQLVM"
 />
 
 # performance/storage latency

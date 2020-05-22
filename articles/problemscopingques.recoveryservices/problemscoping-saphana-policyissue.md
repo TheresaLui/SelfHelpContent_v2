@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32690767"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="a071f0b7-fde8-40fa-848a-12952cb00d95"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for cannot add or modify backup policy
 ---
@@ -30,7 +31,7 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
-            "displayLabel": "Description:",
+            "displayLabel": "Additional details:",
             "watermarkText": "Provide description about your issue",
             "required": true,
             "hints": []

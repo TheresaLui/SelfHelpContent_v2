@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="f3a1dd44-75eb-48c1-b0fc-b7f7bb153e7b"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # I can't delete my storage account

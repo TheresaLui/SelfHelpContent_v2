@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32637311"
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="23ba8395-b55c-4698-8e5d-c51bc8056792"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Threat detection

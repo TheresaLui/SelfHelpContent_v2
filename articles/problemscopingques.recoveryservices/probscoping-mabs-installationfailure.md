@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32570754"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="26a0819f-c924-4d9a-9735-818aac4dc67e"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure backup server Installation or Configuration Failures
 ---

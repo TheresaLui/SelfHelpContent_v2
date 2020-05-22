@@ -10,12 +10,13 @@
     supportTopicIds="32628000"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="8be9ca20-2f4d-4bc7-a480-4236a23104e6"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - State Configuration (DSC) - My Template Failed to Deploy
-This article will discuss specific deployment failures that can occur with DSC templates
+This article will discuss specific deployment failures that can occur with DSC templates.
 
 ## **Recommended Steps**
 
@@ -26,6 +27,10 @@ This article will discuss specific deployment failures that can occur with DSC t
 ### **DSC and VMSS**
 
 * To deploy DSC with VMSS, consult the sample template ["VMSS Configuration managed by Azure Automation"](https://azure.microsoft.com/resources/templates/201-vmss-automation-dsc/)
+
+### **Import-DscResource: Could not find the module**
+
+* You must upload modules included in your DSC configuration to the automation account. See [Adding required DSC resources to Pull Server](https://docs.microsoft.com/azure/automation/automation-dsc-cd-chocolatey#step-3-adding-required-dsc-resources-to-the-pull-server).
 
 ## **Recommended Documents**
 

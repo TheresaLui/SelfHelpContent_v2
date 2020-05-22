@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="software_updates_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="4cb76acf-10e1-4987-afd9-e390404bd5aa"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I configured Windows 10 update settings in the Intune classic portal. Should I migrate them to Intune in the Azure portal?

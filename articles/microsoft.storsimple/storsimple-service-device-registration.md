@@ -10,8 +10,9 @@
 	supportTopicIds="32320993"
 	resourceTags=""
 	productPesIds="15438"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="77076037-359b-405d-b6d2-2e0a610e175e"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Device registration

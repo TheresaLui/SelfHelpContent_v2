@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="compute-myvmisnotbootinglinuxvm-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Resolve connection issue with your Linux VM
@@ -28,8 +29,8 @@ If your Linux virtual machine (VM) is not booting and you are unsure of the caus
 * Verify that [Boot Diagnostics](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId) are enabled for your VM
 * View the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId) before continuing to the next section
 
-* Access [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM  and verify if your VM is running. If you prefer, you can also see logs by selecting the Boot Diagnostics menu item under the Support + Troubleshooting sub-header for your virtual machine.
-* Review errors in [serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) of your VM or in logs for errors such as:
+* Access [Serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId) of your VM  and verify if your VM is running. If you prefer, you can also see logs by selecting the Boot Diagnostics menu item under the Support + Troubleshooting sub-header for your virtual machine.
+* Review errors in [serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId) of your VM or in logs for errors such as:
 
     * If your VM is experiencing an issue with the [FSTAB](https://support.microsoft.com/help/3206699/azure-linux-vm-cannot-start-because-of-fstab-errors) file (file systems table)
     * If you VM needs to have the file system consistency checked use [FSCK](https://support.microsoft.com/help/3213321/linux-recovery-cannot-ssh-to-linux-vm-due-to-file-system-errors-fsck)

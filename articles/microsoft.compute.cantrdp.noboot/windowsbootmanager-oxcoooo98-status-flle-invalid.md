@@ -13,16 +13,16 @@
     supportTopicIds="32411835"
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public"  
+    cloudEnvironments="public, Fairfax, usnat, ussec"  
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # VM Boot Error
 <!--issueDescription-->
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because we could not find an operation system.
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because we could not find an operating system.
 <!--/issueDescription-->
 
-Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VirtualMachineSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code "An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart". This may also help you diagnose future issues and determine if a boot error is the cause.<br>
-
+Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VmSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code "An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart". This may also help you diagnose future issues and determine if a boot error is the cause.<br>
 
 ## **Recommended Steps**
 
@@ -35,7 +35,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.Virtual
     3. List all the partitions on the disk using `list partition` and select the partition to check with `sel <PARTITION ID>`. Typically, System Managed partitions are around 350Mb in size. 
     4. Check the status of the partition to verify that it's Active using `detail partition`
     5. Check for the "Active" flag. If the partition is not active, change the state with `active`
-    6. To validate the changes where done properly, re-run `detail partition`. Type `Exit` when ready.
+    6. To validate the changes were done properly, re-run `detail partition`. Type `Exit` when ready.
 
  4. Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is both the Boot partition and the Windows partition. The Windows partition contains a folder named "Windows," and this partition is larger than the others. The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB.
 

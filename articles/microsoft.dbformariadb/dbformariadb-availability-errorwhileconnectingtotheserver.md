@@ -10,8 +10,9 @@
     supportTopicIds="32640118"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="bb62de23-25af-4ae3-9740-7a7670636337"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Connection issues to Azure Databases for MariaDB
@@ -43,3 +44,4 @@ If connection issues last for more than a couple minutes, the root cause may be 
 
 * [Troubleshoot common connectivity issues to Azure Databases for MariaDB](https://docs.microsoft.com/azure/mariadb/howto-troubleshoot-common-connection-issues)<br>
 * [Connecting to MariaDB Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/mariadb/tutorial-design-database-using-portal/)
+* [Understanding the connectivity architecture for Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/concepts-connectivity-architecture)

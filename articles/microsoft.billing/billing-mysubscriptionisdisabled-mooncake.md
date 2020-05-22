@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="billing-mysubscriptionisdisabled-mooncake"
+	ownershipId="ASMS_Billing"
 />
 
 # My subscription is disabled

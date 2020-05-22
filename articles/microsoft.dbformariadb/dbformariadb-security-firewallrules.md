@@ -10,8 +10,9 @@
     supportTopicIds="32640122"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="7ce043ed-e999-4b4e-ba5e-cfe5388cea80"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Managing firewall rules for Azure Database for MariaDB
@@ -29,6 +30,8 @@ Most users are able to resolve their issue using the steps below.
   * If you client does not have a static IP address, your IP address might not be covered by the firewall rule
 
 * There may be as much as a five-minute delay for changes to the Azure Database for MariaDB server firewall configuration to take effect. Confirm your rule was added and re-try to connect after at least five minutes.
+
+* To set up firewall rules on your client for outbound connection to Azure Database for MariaDB, whitelist the gateway IP for your particular region. For information related to gateway IP addresses, visit the [connectivity architecture article](https://docs.microsoft.com/azure/mariadb/concepts-connectivity-architecture#azure-database-for-mariadb-gateway-ip-addresses).
 
 * If you are having trouble using Azure CLI:
 

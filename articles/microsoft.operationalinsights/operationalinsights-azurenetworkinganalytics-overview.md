@@ -10,8 +10,9 @@
     supportTopicIds="32536622"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="2ff41b91-f23a-45e9-8c01-c6f569a31f92"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # azurenetworkinganalytics-overview

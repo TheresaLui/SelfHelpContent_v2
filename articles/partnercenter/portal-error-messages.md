@@ -14,7 +14,8 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Gather log information and attach to your service request

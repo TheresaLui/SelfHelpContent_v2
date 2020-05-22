@@ -10,17 +10,40 @@
     supportTopicIds="32681541"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-create-cluster"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Create HDInsight Cluster
+
+**Known issues**
+
+As of March 18th, 2020 some Azure HDInsight customers have received error notifications when creating or scaling HDInsight clusters in some regions. Errors related to this issue include:
+
+- Internal server error occurred while processing the request. Please retry the request or contact support.
+- At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/DeployOperations for usage details
+- User SubscriptionId '\<Subscription ID\>' does not have cores left to create resource '\<cluster name>'. Required: \<X\>, Available: 0.
+
+Engineers are aware of this issue and are actively investigating.
+
+For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-release-notes#known-issues) page.
+
+For additional help, continue creating this support request.
 
 ## **Recommended Steps**
 
 **Potential intermittent or transient issues**
 
 Some errors are transient and your request may succeed if you retry creation after 15 minutes of the failed attempt. If after retrying your request, you still receive an error and are not able to address the issue, note the time frame in which the error occurred and file a support request in a timely manner. By providing a time frame and filing a support ticket within a few days of an event, support is more likely to be able to review logs to determine the root cause of the error as logs are only available for a specific amount of time.
+
+**Issues with A2 VMs**
+
+1. **Error:** VM size *A2 VM* provided in the request is invalid or not supported for role *node type*. Valid values are: *list of supported VMs*
+
+1. **Cause:** A2-series virtual machines cannot be used as headnodes for ESP clusters due to not having enough capacity for handling Apache Ranger and other security related resource consumptions. Existing clusters with A2-series virtual machines used as headnodes can still be working and scaled up or down, or have edge nodes added to them.
+
+1. **Solution:** Select a virtual machine from the list of supported VMs in the error message. 
 
 **Error: Conflict (HTTP Status Code: 409)**
 
@@ -34,9 +57,18 @@ Cause: The conditional access or multi-factor authentication (MFA) policy is bei
 
 Solution: Use a conditional access policy and exempt the HDInsight clusters from MFA. For more information, see [interaction_required](https://docs.microsoft.com/azure/hdinsight/domain-joined/domain-joined-authentication-issues#interaction_required).
 
+**Error: HiveMetastoreSchemaInitializationFailedErrorCode**
+
+Solution: If you are using a custom Hive metastore, please run 'Hive Schema Tool' against your metastore to check for possible issues with metastore configuration. Also Check if Azure services or subnet is whitelisted in sql server firewall.
+
 **A service outage**
 
 * Check [Azure Status](https://status.azure.com/status) for any potential outages or service issues.
+
+**Invalid Network Configuration**
+
+* Due to having an invalid network configuration, the Azure AD Domain Services Sync Agent cannot reach customer's domain on TCP\443. This will cause cluster deployment failures.
+* Solution:  [Follow Documentation](https://docs.microsoft.com/azure/active-directory-domain-services/synchronization).
 
 **Azure Data Lake Storage Gen 1 and HBASE**
 
@@ -53,6 +85,7 @@ Solution: Use a conditional access policy and exempt the HDInsight clusters from
 
 ## **Recommended Documents**
 
+* [Create Cluster Error Dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)
 * [Custom Script Actions Troubleshooting](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux#troubleshooting)
 * [Creating or Deleting HDInsight Clusters FAQ](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#creating-or-deleting-hdinsight-clusters)
 * [Extend Azure HDInsight using an Azure Virtual Network](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network)<br>

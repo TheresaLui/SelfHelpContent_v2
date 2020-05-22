@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="97b38421-f88c-4db0-b397-b2d81eff6630_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureSearch_AzureSearch"
 />
 # You are close to exceeding storage quota of 2GB
 ---
@@ -27,11 +28,11 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "csi-ux@microsoft.com",
+    "email": "azuresearch_contact@microsoft.com",
     "icm": {
       "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "service": "Azure Search",
+      "team": "Portal"
     },
     "serviceTreeId": "28d32201-d1ad-47ab-9a4a-3de2dcb6ea2a"
   },
