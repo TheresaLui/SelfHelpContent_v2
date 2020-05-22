@@ -27,14 +27,16 @@
 
 ### **Customer Managed Key (CMK) Auto Key Rotation**
 
-**How often does my key get auto-rotated** - If the key version is omitted, then Azure Storage checks Azure Key Vault daily for a new version of a customer-managed key. If a new key version is available, then Azure Storage automatically uses the latest version of the key.
+**How often does my key get auto-rotated**?
+
+If the key version is omitted, then Azure Storage checks Azure Key Vault daily for a new version of a customer-managed key. If a new key version is available, then Azure Storage automatically uses the latest version of the key.
 
 **How to setup customer-managed key for auto-rotation?**
+
 - [Specify a key from keyvault](https://docs.microsoft.com/azure/storage/common/storage-encryption-keys-portal#specify-a-key-from-a-key-vault)
 - [Configure encryption for automatic rotation of key versions](https://docs.microsoft.com/azure/storage/common/storage-encryption-keys-powershell?toc=/azure/storage/blobs/toc.json#configure-encryption-for-automatic-rotation-of-key-versions)
 - [Configure encryption for automatic rotation of key versions ](
 https://docs.microsoft.com/azure/storage/common/storage-encryption-keys-cli?toc=/azure/storage/blobs/toc.json#configure-encryption-for-automatic-rotation-of-key-versions)
-
 
 ### **Encryption in transit**
 
