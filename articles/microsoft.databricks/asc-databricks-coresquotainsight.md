@@ -31,7 +31,7 @@ Requested cores: <!--$AdditionalRequestCores-->[AdditionalRequestCores]<!--/$Add
 
 ## **Recommended Steps**
 
-* Check whether sufficient quota of cores are available in region for this subscription : [<!--$SubscriptionId-->[SubscriptionId]<!--/$SubscriptionId-->](https://portal.azure.com/?#create/Microsoft.Support/Parameters/{"pesId":"06bfd9d3-516b-d5c6-5802-169c800dec89","supportTopicId":"e12e3d1d-7fa0-af33-c6d0-3c50df9658a3"})
+* Check whether sufficient quota of cores are available in region for this subscription: <!--$SubscriptionId-->[SubscriptionId]<!--/$SubscriptionId-->
 
 * Please follow instructions for raising a [ticket](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests) for more cores. 
 
