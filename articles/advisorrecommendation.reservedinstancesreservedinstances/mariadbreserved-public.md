@@ -8,7 +8,7 @@
     cloudEnvironments="Public"
     ownershipId="ACE_ReservedInstances"
 />
-# Buy MySQL DB Reserved capacity to save money over pay-as-you-go costs
+# Buy MariaDB DB Reserved capacity to save money over pay-as-you-go costs
 ---
 {
   "recommendationOfferingId": "171f87ad-4ead-42fc-8f32-a3b18d451837",
