@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e62dafab-96e6-ee37-aefd-120eff7a8260",
+      "longDescription": "",
+      "shortDescription": "Issues related to project creation",
+      "searchTags": "project;hub",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ee90fc52-ba02-fefc-0485-4a4b272580da",
       "longDescription": "",
       "shortDescription": "Issues encountered when users try to discover their on-prem environment",
