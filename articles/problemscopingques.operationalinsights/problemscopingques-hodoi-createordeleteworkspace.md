@@ -122,7 +122,11 @@
             "displayLabel": "Additional details",
             "watermarkText": "Describe the issue, including as much detail as possible with the exact text of error messages where available. If using an experience other than Azure portal, provide the commands being executed or the API call being made.",
             "required": true,
-            "hints": []
+                        "hints": [
+                {
+                    "text": "In case you’re using an ARM template, please compress all the relevant JSON files and upload the ZIP file."
+                }
+            ]
         }
     ],
     "$schema": "SelfHelpContent"
