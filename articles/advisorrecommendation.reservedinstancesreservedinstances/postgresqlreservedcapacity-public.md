@@ -8,7 +8,7 @@
     cloudEnvironments="Public"
     ownershipId="ACE_ReservedInstances"
 />
-# Buy MySQL DB Reserved capacity to save money over pay-as-you-go costs
+# Buy PostgreSQL DB Reserved capacity to save money over pay-as-you-go costs
 ---
 {
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
