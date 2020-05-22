@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a540ce87-433a-50e3-36bc-3aa12816c46c",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while moving resources from one subscription to another",
+      "searchTags": "resource move",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a95bd679-eba4-eed8-a537-eaa69141c9c2",
       "longDescription": "",
       "shortDescription": "Issues while deploying VMware appliance on-prem",
