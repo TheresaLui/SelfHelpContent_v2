@@ -1,6 +1,6 @@
 <properties
     pageTitle="Right-size underutilized PostgreSQL servers"
-    description="Decrease the server vCores based on the utilization telemetry."
+    description="Right size the PostgreSQL server vCores based on the utilization telemetry."
     authors="manishku"
     ms.author="kummanish"
     articleId="38f4a461-1543-4089-854c-90e7edf37707_Public"
