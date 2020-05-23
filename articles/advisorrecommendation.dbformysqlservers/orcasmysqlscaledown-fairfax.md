@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Decrease the server vCores"
-    description="Decrease the server vCores based on the utilization telemetry."
+    pageTitle="Right-size underutilized MySQL servers"
+    description="Right size the MySQL server vCores based on the utilization telemetry."
     authors="manishku"
     ms.author="kummanish"
     articleId="7e76e54f-7978-4d48-9ab9-a4da5b7c69a3_Fairfax"
@@ -21,7 +21,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
   },
-  "recommendationCategory": "Performance",
+  "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DbForMysql/servers",
   "recommendationFriendlyName": "OrcasMySQLCpuScaledown",

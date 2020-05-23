@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Increase the MariaDB server vCores"
-    description="Increase the MariaDB server vCores"
+    pageTitle="Right-size underutilized MariaDB servers"
+    description="Right size the MariaDB server vCores based on the utilization telemetry."
     authors="manishku"
     ms.author="kummanish"
     articleId="2af11142-942e-45c1-8ce8-d9d2df25aae9_Fairfax"
@@ -21,7 +21,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
   },
-  "recommendationCategory": "Performance",
+  "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DbForMariadb/servers",
   "recommendationFriendlyName": "OrcasMariaDbCpuScaledown",

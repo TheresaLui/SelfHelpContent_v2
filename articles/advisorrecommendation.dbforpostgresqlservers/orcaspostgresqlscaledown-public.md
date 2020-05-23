@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Decrease the server vCores"
-    description="Decrease the server vCores based on the utilization telemetry."
+    pageTitle="Right-size underutilized PostgreSQL servers"
+    description="Right size the PostgreSQL server vCores based on the utilization telemetry."
     authors="manishku"
     ms.author="kummanish"
     articleId="38f4a461-1543-4089-854c-90e7edf37707_Public"
@@ -19,7 +19,7 @@
     "schemaVersion": 2.0,
     "dataSource": "SAS"
   },
-  "recommendationCategory": "Performance",
+  "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DbForPostgresql/servers",
   "recommendationFriendlyName": "OrcasPostgreSqlCpuScaledown",
