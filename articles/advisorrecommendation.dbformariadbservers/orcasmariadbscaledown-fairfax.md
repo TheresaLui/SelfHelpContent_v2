@@ -69,7 +69,7 @@
       }
     }
   },
-  "displayLabel": "Decrease the MariaDB server vCores",
+  "displayLabel": "Right-size underutilized MariaDB server",
   "additionalColumns": [],
   "tip": "You can improve the overall resource spend for your Azure Database for MariaDB by scaling down the compute resources by half."
 }

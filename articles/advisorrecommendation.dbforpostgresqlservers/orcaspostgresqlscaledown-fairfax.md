@@ -69,7 +69,7 @@
       }
     }
   },
-  "displayLabel": "Decrease the PostgreSQL server vCores",
+  "displayLabel": "Right-size underutilized PostgreSQL server",
   "additionalColumns": [],
   "tip": "You can improve the overall resource spend for your Azure Database for PostgreSQL by scaling down the compute resources by half."
 }

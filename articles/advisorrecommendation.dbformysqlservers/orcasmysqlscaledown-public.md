@@ -67,7 +67,7 @@
       }
     }
   },
-  "displayLabel": "Decrease the MySQL server vCores",
+  "displayLabel": "Right-size underutilized MySQL server",
   "additionalColumns": [],
   "tip": "You can improve the overall resource spend for your Azure Database for MySQL by scaling down the compute resources by half."
 }
