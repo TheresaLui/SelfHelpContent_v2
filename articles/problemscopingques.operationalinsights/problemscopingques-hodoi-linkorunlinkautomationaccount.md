@@ -85,7 +85,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "What error are you seeing?",
-            "watermarkText": "Enter the error message",
+            "watermarkText": "Please enter the error message",
             "required": false
         },
         {
