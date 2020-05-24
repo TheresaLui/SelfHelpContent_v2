@@ -9,7 +9,7 @@
     selfHelpType="generic"
     supportTopicIds=""
     resourceTags=""
-    productPesIds=""
+    productPesIds="15527"
     cloudEnvironments="public"
     articleId="3d010d8c-1afe-4407-91c3-c3c99b3d31f9"
     ownershipId="AzureMonitoring_Autoscale"
@@ -22,7 +22,7 @@ An example of this is the following:
 * Increase instances by 1 count when Thread Count >= 600
 * Decrease instances by 1 count when Thread Count <= 600
 
-The above scenario would cause autoscale to scale up or down everytime it is executed. So it is prevented by autoscale.
+The above scenario would cause autoscale to scale up or down every time it is executed. So it is prevented by autoscale.
 
 ## **Recommended Steps**
 
