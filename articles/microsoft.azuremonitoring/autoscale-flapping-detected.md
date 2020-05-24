@@ -9,7 +9,7 @@
     selfHelpType="generic"
     supportTopicIds="32683734, 32683737, 32683738, 32683735, 32683736, 32683745"
     resourceTags=""
-    productPesIds="16156"
+    productPesIds="15527"
     cloudEnvironments="Public, FairFax, MoonCake"
     articleId="3d010d8c-1afe-4407-91c3-c3c99b3d31f9"
     ownershipId="AzureMonitoring_Autoscale"
