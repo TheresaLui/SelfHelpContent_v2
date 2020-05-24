@@ -23,11 +23,11 @@ Autoscale has detected a scenario where the autoscale setting did not scale beca
 ## Flapping
 <!--issueDescription-->
 Flapping occurs when the act of scaling in one direction would later cause autoscale to scale in the opposite direction because the margin between the two thresholds is too small.
+<!--/issueDescription-->
+
 An example of this is the following:
 * Increase instances by 1 count when Thread Count >= 600
 * Decrease instances by 1 count when Thread Count <= 600
-<!--/issueDescription-->
-
 The above scenario would cause autoscale to scale up or down every time it is executed. So it is prevented by autoscale.
 
 ## **Recommended Steps**
