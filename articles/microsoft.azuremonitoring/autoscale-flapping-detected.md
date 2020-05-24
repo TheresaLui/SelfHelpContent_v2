@@ -17,7 +17,7 @@
 
 # Autoscale Flapping Detected
 
-Autoscale has detected a scenario where the autoscale setting did not scale because doing so would have created a situation called “flapping”. Flapping occurs when the act of scaling in one direction would later cause autoscale to scale in the opposite direction because the margin between the two thresholds is too small.
+Autoscale has detected a scenario where the autoscale setting did not scale because doing so would have created a situation called "flapping". Flapping occurs when the act of scaling in one direction would later cause autoscale to scale in the opposite direction because the margin between the two thresholds is too small.
 An example of this is the following:
 * Increase instances by 1 count when Thread Count >= 600
 * Decrease instances by 1 count when Thread Count <= 600
@@ -30,4 +30,4 @@ Ensure that the maximum and minimum values are different and have an adequate ma
 
 ## **Recommended Documents**
 
-* [Autoscale Best Practices](https://docs.microsoft.com/en-us/Azure/azure-monitor/platform/autoscale-best-practices)
+* [Autoscale Best Practices](https://docs.microsoft.com/Azure/azure-monitor/platform/autoscale-best-practices)
