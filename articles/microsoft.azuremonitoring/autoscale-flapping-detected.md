@@ -10,7 +10,7 @@
     supportTopicIds="32683734,32683737,32683738,32683735,32683736,32683745,32683733,32683741,32683739,32683742,32683740,32683743,32683744"
     resourceTags=""
     productPesIds="16156"
-    cloudEnvironments="Public, BlackForest, FairFax, MoonCake"
+    cloudEnvironments="Public, FairFax, MoonCake"
     articleId="3d010d8c-1afe-4407-91c3-c3c99b3d31f9"
     ownershipId="AzureMonitoring_Autoscale"
 />
