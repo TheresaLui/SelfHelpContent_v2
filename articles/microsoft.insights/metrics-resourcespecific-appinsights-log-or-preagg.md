@@ -8,9 +8,9 @@
     displayOrder="2"
     articleId="metrics-resourcespecific-appinsights-log-or-preagg"
     selfHelpType="generic"
-    supportTopicIds="32684748"
+    supportTopicIds="32684748,32730384"
     productPesIds="16250"
-    cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
+    cloudEnvironments="public,fairfax,mooncake,blackforest,usnat,ussec"
     ownershipId="AzureMonitoring_Essentials"
 />
 
