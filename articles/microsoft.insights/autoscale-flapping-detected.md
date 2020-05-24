@@ -1,17 +1,17 @@
 <properties
     pageTitle="Autoscale Flapping Detected"
     description="Flapping occurs when autoscale detects a situation where scaling in one direction would trigger a scaling in the opposite direction."
-    service="microsoft.azuremonitoring"
+    service="microsoft.insights"
     resource="autoscale"
-    authors="Andy Stubbs"
     ms.author="anstubbs"
     displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32683734, 32683737, 32683738, 32683735, 32683736, 32683745"
+    selfHelpType="diagnostics"
+    supportTopicIds="32683737, 32683738, 32683735, 32683736, 32683745"
     resourceTags=""
     productPesIds="15527"
-    cloudEnvironments="Public, FairFax, MoonCake"
-    articleId="3d010d8c-1afe-4407-91c3-c3c99b3d31f9"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
+    articleId="autoscale-flapping-detected"
+    diagnosticScenario=""
     ownershipId="AzureMonitoring_Autoscale"
 />
 
