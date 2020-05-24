@@ -56,33 +56,8 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "required": true
         },
         {
-            "id": "virtualmachine",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Please select affected virtual machine name.",
-            "watermarkText": "Choose an option",
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Compute/virtualMachines?api-version=2018-10-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            },
-            "dropdownOptions": [
-                {
-                    "value": "Unable to get the list",
-                    "text": "Unable to get the list"
-                }
-            ],
-            "required": false
-        }, 
-        {
             "id": "error_message",
-            "order": 4,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "What error are you seeing?",
             "watermarkText": "Please enter the error message",
@@ -90,7 +65,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
