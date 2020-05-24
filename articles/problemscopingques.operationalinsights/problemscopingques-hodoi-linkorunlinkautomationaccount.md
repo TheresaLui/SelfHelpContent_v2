@@ -56,7 +56,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "required": true
         },
         {
-            "id": "virtualmachine_id",
+            "id": "virtualmachine",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Please select affected virtual machine name.",
