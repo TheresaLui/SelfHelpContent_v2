@@ -28,7 +28,7 @@ In the diagram below, X, Y and Z are 3 components with dependency relationships 
 ## **Recommended Steps**
 
 1. Change the time range for the map to a longer duration. If the dependency wasn't called in the default time range (last hour) but was called previously – this may be why it wasn't on the map earlier. 
-1. Make sure you're using an officially supported SDK. Unsupported/community SDKs might not support correlation. Refer to [this article](https://docs.microsoft.com/azure/application-insights/app-insights-platforms) for a list of supported SDKs. 
+1. Make sure you're using an officially supported SDK. Unsupported/community SDKs might not support correlation. Refer to [this article](https://docs.microsoft.com/azure/application-insights/app-insights-platforms) for a list of supported SDKs.
 
 ### **If Y or Z are modeled as different roles within the same AI resource**
 1. Confirm cloud_RoleName is correctly configured for Y or Z. 
