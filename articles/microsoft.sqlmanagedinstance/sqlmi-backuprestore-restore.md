@@ -34,6 +34,8 @@ Managed Instance takes [automatic backups](https://docs.microsoft.com/azure/sql-
 - If you believe that **RESTORE** progress is slow, make sure that Storage account is in the same region as Managed Instance, and that you have split backups on multiple URL. Using compressed backups can speed up your **RESTORE**.
 - If you cannot connect to the database that has completed restore, you might need to wait some additional time. The restored database must be registered in Azure, and in Business Critical tier, it should complete replication/seeding to all secondary replicas.
 - If you need to cancel the restore request, you would need to delete a database that you are restoring using [Azure PowerShell](https://docs.microsoft.com/powershell/module/az.sql/remove-azsqlinstancedatabase?view=azps-2.1.0) or [Azure CLI](https://docs.microsoft.com/cli/azure/sql/midb?view=azure-cli-latest#az-sql-midb-delete).
+- If you are getting the error **Stale/aborted version cleanup was aborted for database id '5' due to database shutdown.** make sure that you are [taking manual backups of databases on the managed instance with CHECKSUM enabled](https://docs.microsoft.com/azure/sql-database/sql-database-release-notes?tabs=single-database#restoring-manual-backup-without-checksum-might-fail).
+
 
 ## **Recommended Documents**
 
