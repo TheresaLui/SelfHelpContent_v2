@@ -35,9 +35,10 @@ SQL Database automatically creates database backups that can be used to restore 
 	* You can gain more insight into the storage space used by viewing the backup [metrics](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported?WT.mc_id=pid:13491:sid:32630409#microsoftsqlserversdatabases) for your database. Large diff/log backup storage sizes indicate a high rate of change of data while large full backup storage sizes indicate a large amount of data.
 	* Typically to reduce backup storage costs you will reduce the backup retention period
 
-* [You can change the backup retention period](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups?WT.mc_id=pid:13491:sid:32630409/#how-to-change-the-pitr-backup-retention-period) for a database to 7, 14, 21, 28, or 35 days via the Azure Portal, PowerShell, or the REST API:
+* [You can change the backup retention period](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups?WT.mc_id=pid:13491:sid:32630409/#how-to-change-the-pitr-backup-retention-period) for a database to 1-35 days via the Azure Portal, PowerShell, or the REST API:
 
 	* The default retention period for databases is 7 days
+	* Basic tier databases have a maximum retention of 7 days
 
 * You cannot view a list of automated backups:
 
