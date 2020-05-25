@@ -32,12 +32,11 @@ Most users are able to resolve the issues using the steps below.
 ## **Recommended Steps**
 
 - Investigate what other factors outside of the Cloud App Security proxy could be impacting the performance, such as:
+  
   - Existing proxies/gateways/etc. that coexist with the Cloud App Security proxy
-    - If applicable, remove any appliance in the environment that could be causing issues, such as proxy chaining
+  - If applicable, remove any appliance in the environment that could be causing issues, such as proxy chaining
   - Location of where the user is coming from
   - Location of the targeted resource
-- If you are not using one of the fully-supported browsers, switch to one of them and try again.
-- If you are not using the latest version of a supported browser, upgrade to the latest version and try again.
 
     **NOTE**
 

@@ -46,5 +46,5 @@ If you're still experiencing the issue after reviewing the documentation and con
 - Which devices and/or browsers is this occurring on?
 - The URL in which the error occurred
 - Screenshots or recording showing the issue
-- Date, time, and user account that was used when the error occurred. These details can be retrieved from the Azure AD Sign-in Log
+- Date, time, and user account that was used when the error occurred. These details can be retrieved from the Azure AD Sign-in Log.
 - A network trace of the performed action
