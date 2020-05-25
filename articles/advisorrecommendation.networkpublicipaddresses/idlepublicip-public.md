@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="1b4dd958-c202-47af-af97-99bfc98376a5_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Delete Public IP address not associated to a running Azure resource

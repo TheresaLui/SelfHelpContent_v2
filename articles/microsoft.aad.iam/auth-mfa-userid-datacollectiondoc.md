@@ -1,14 +1,14 @@
 <properties
-    pageTitle="Conditional Access Resultant Set of Policy Issue"
-    description="Conditional Access Resultant Set of Policy Issue"
+    pageTitle="Multi-Factor Authentication"
+    description="Issues related to Conditional Access or Passwords or Identity protection or MFA"
     authors="vritiJain"
 	ms.author="vrjai"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596872,32596842,32615432,32565599,32045826"
-    productPesIds="16579"
-    cloudEnvironments="public, fairfax, usnat, ussec"
+    supportTopicIds="32739614,32739620"
+    productPesIds="16579,16578"
+    cloudEnvironments="public, fairfax,  Mooncake, usnat, ussec"
     schemaVersion="1"
-    articleId="Conditional_Access_Resultant_Set_of_Policy_Issue"
+    articleId="dc21287a-b8ec-48c3-b6bf-4b8d4dab65cc"
     ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
@@ -173,7 +173,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 0
+            "numberOfLines": 0,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",

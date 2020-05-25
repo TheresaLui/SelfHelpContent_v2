@@ -1,13 +1,13 @@
 <properties
-                pageTitle="servicewhitelistingsubscriptionissue"
-                description="servicewhitelistingsubscriptionissue"
+                pageTitle="tenantvnetresources"
+                description="tenantvnetresources"
                 ms.author="neshenoy"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32739971"
+                supportTopicIds="32739942"
                 productPesIds="17080"
                 cloudEnvironments="Public"
                 schemaVersion="1"
-                articleId="164b5696-324a-4397-b222-7fa69331c62b"
+                articleId="2e134af6-2175-4e8b-b855-08e475e7b915"
 	            ownershipId="Azure_VMwareSolution_Content"
 />
 # Useful Title
@@ -16,7 +16,7 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-            "title": "servicewhitelistingsubscriptionissue",
+            "title": "tenantvnetresources",
             "fileAttachmentHint": "",
             "formElements": [{
             			"id": "problem_start_time",
@@ -28,18 +28,25 @@
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the error message?",
+            "displayLabel": "What is error message?",
             "required": true,
 	    "useAsAdditionalDetails": true,
 	    "hints": [{
-					"text": "What is the error message?"
+					"text": "Provide the issue and error in detail"
 				}]
         },
         {
-            "id": "SubscriptionID",
+            "id": "expressrouteid",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the Subscription ID?",
+            "displayLabel": "What is the ExpressRoute URI ID?",
+            "required": false
+        },
+        {
+            "id": "ergateway",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "Is the ER gateway in the Vnet peered with private cloud ExpressRoute circuit?",
             "required": false
         }
             ]

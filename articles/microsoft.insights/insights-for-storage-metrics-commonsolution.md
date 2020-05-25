@@ -9,7 +9,7 @@
     articleId="insights-for-storage-metrics-commonsolution.md"
     productPesIds="16913"
     supportTopicIds="32691105,32691106"
-    cloudEnvironments="public, blackForest, fairfax, mooncake"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
 />
 

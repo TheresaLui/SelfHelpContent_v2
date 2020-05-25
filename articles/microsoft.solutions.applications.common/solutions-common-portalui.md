@@ -10,7 +10,7 @@
 	supportTopicIds="32628295"
 	resourceTags=""
 	productPesIds="16651"
-	cloudEnvironments="public, fairfax, mooncake"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
     articleId="solutions-common-portalui"
 	ownershipId="Compute_AzureManagedApplications"
 />

@@ -1,14 +1,14 @@
 <properties
-                pageTitle="configurationandsetupissuesservicewhitelistingsubscriptionissue"
-                description="configurationandsetupissuesservicewhitelistingsubscriptionissue"
+                pageTitle="accessvcenter"
+                description="accessvcenter"
                 ms.author="neshenoy"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32739971"
+                supportTopicIds="32739945"
                 productPesIds="17080"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, fairfax, usnat, ussec"
                 schemaVersion="1"
-                articleId="e3e82b31-39f7-4a93-aedc-a18dc8bb1e7a"
-	            ownershipId="Azure_VMwareSolution_Content"
+                articleId="aa262eb6-0471-4837-8af1-5ad376bfd698"
+	              ownershipId="Azure_VMwareSolution_Content"
 />
 # Useful Title
 ---
@@ -16,7 +16,7 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-            "title": "configurationandsetupissuesservicewhitelistingsubscriptionissue",
+    "title": "accessvcenter",
             "fileAttachmentHint": "",
             "formElements": [{
             			"id": "problem_start_time",
@@ -28,18 +28,25 @@
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the error message?",
+            "displayLabel": "What is the error or warning message?",
             "required": true,
 	    "useAsAdditionalDetails": true,
 	    "hints": [{
-					"text": "What is the error message?"
+					"text": "Provide details about the issue."
 				}]
         },
         {
-            "id": "SubscriptionID",
+            "id": "ExpressRouteURIID",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What is the Subscription ID?",
+            "displayLabel": "What is the ExpressRoute URI ID?",
+            "required": false
+        },
+       {
+            "id": "credentialissue",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "Is this a credential issue?",
             "required": false
         }
             ]
