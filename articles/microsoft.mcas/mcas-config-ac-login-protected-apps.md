@@ -40,7 +40,7 @@ Most users are able to resolve the following issues using the steps below:
 - If you are using a custom app, and the app is stuck in a loop trying to log in, try changing the settings for nonce handling.
     1. In Cloud App Security, browse to **Investigate** > **Connected apps** > **Conditional Access App Control**.
     1. In the list of apps, on the row in which the app you are deploying appears, choose the three dots at the end of the row, and then under **APP DETAILS**, choose **Edit**.
-    1. Change the nonce-handling settings and then click **Save**.
+    1. Change the nonce-handling settings and then click **Save**.
 
 - In Azure AD, go to the relevant conditional access policy, and clear **Use Conditional Access App Control**. If the issue is still not resolved, open a ticket for Azure AD.
 - If the app displays a failure message when you try to log in, make a note of the displayed **request id**, and then restart your browser session. If the issue persists, please continue with opening the ticket and include the **request id** in the details.
