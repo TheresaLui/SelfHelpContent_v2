@@ -19,25 +19,33 @@
 
 ## Common issues
 
-1. The Application Insights option is grayed out and not clickable
+1. The Application Insights option is grayed out and not clickable:
+
 ![Application Insights Menu Item](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/data-collection/appinsights-disabled.png)
+
 2. The Application Insights option is clickable, but it is not possible to advance beyond the options screen
 
 ## **Recommended Steps**
 
 ### **If the Application Insights option is grayed out**
+
 1. The specified language/tech stack may not be supported. Here is what you need to know: 
+
     * Currently you can enable codeless integration with Application Insights for .Net, .NetCore, Java and Node.js (public preview on Linux and private preview on Windows)
     * For Python you would need to add SDK to your code
 
 ### **If the Application Insights option is clickable, but you can't advance beyond the first screen**
-1. You are using a free subscription AND happen to have Application Insights enabled for other resources. 
+
+1. You are using a free subscription AND happen to have Application Insights enabled for other resources: 
+
 ![Application Insights Plan](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/data-collection/appinsights-plan.png) 
 
 Try this:
+
 * [**Easiest**] Change the subscription level
 * [**Cheapest**] Disable Application Insights for the other resource first
-2. The OS and runtime combination you selected is not supported. 
+
+2. The OS and runtime combination you selected is not supported
 
 ## **Recommended Documents**
 
