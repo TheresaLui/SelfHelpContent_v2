@@ -31,5 +31,5 @@
 ### **Frequently Asked Questions**
 
 - [Prerequisites for object replication](https://docs.microsoft.com/azure/storage/blobs/object-replication-overview?tabs=powershell#prerequisites-for-object-replication)
-- [How to register for the preview](https://docs.microsoft.com/azure/storage/blobs/object-replication-overview&tabs=powershell#register-for-the-preview)
-- [How to create a replication policy and rules](https://docs.microsoft.com/azure/storage/blobs/object-replication-configure&tabs=portal#create-a-replication-policy-and-rules )
+- [How to register for the preview](https://docs.microsoft.com/azure/storage/blobs/object-replication-overview?tabs=powershell#register-for-the-preview)
+- [How to create a replication policy and rules](https://docs.microsoft.com/azure/storage/blobs/object-replication-configure?tabs=portal#create-a-replication-policy-and-rules)
