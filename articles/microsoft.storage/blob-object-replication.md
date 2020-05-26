@@ -17,16 +17,15 @@
 
 # How to conduct object replication
 
-## **Recommended Documents**
+## **Recommended Steps**
 
 ### **Preview Conditions**
 
-- A storage account can serve as the source account for up to two destination accounts.
-- The source and destination accounts may all be in different regions. 
-- Each rule defines a single source and destination container, and each source and destination container can be used in only one rule.
-- You can specify up to 10 replication rules for each replication policy. 
+- A storage account can serve as the source account for up to two destination accounts
+- The source and destination accounts may all be in different regions.
+- Each rule defines a single source and destination container, and each source and destination container can be used in only one rule
+- You can specify up to 10 replication rules for each replication policy
 - After you create the replication policy, the destination container becomes read-only. Any attempts to write to the destination container fail with error code 409 (Conflict). However, you will be able to call Set Blob Tier API to move blobs in the destination container to a different access tier. You will also be able to delete these blobs. 
-
 
 ### **Frequently Asked Questions**
 
