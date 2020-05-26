@@ -12,7 +12,9 @@
 	clientIds="partnercenter"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
-# PC Sample
+# Upload verification SR
+
+## **To ensure a fast resolution, sign into the Partner Center dashboard using your Azure AD account**
 ---
 {
     "resourceRequired": true,

@@ -15,7 +15,7 @@
 	ownershipId="CloudNet_LoadBalancer"
 />
 
-# How to check network routing path from backend pool VM to client
+# Outbound: How to check network routing path from backend pool VM to client
 
 ## **Recommended Steps**
 
@@ -25,10 +25,10 @@
    * Cluster node: Auto Populated by ASC
    * Node Id: Auto Populated by ASC
    * Container Id: Auto Populated by ASC
-   * Source IP: BE VM DIP
-   * Source Port: 1067
+   * Source IP: ***BE VM DIP***
+   * Source Port: ***5555***
    * Destination IP: client IP accessing the LB solution
-   * Destination Port: 1067
+   * Destination Port: ***5555***
    * Transport Protocol: TCP
 
 **IMPORTANT:**

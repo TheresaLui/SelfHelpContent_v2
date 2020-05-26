@@ -5,7 +5,7 @@ authors="vakr,scottnap"
 ms.author="nvaeng"
 articleId="7747ce74-9209-4fe4-8dd8-6cd74ac1c9ba"
 selfHelpType="advisorRecommendationMetadata"
-cloudEnvironments="Public"
+cloudEnvironments="Public, usnat, ussec"
 ownershipId="CloudNet_NVA"
 />
 # Accelerated Networking Recommendation for Cisco Cloud Services Router 1000V
