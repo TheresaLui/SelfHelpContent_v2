@@ -20,5 +20,5 @@ ownershipId="StorageMediaEdge_StorageBlobs"
 # Find Data migration solution
 
 <!--issueDescription-->
-**<!--$InforBoxMessage-->[InforBoxMessage]<!--/$InforBoxMessage-->** **<!--$Tools-->[Tools]<!--/$Tools-->**.
+Below are the recommended migration method: <!--$InforBoxMessage-->[InforBoxMessage]<!--/$InforBoxMessage--> <!--$Tools-->[Tools]<!--/$Tools-->.
 <!--/issueDescription-->

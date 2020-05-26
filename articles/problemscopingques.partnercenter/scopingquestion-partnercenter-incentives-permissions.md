@@ -183,7 +183,7 @@ pageTitle="Incentives permissions issues"
 				"id": "location_mpnid",
 				"order": 2,
 				"controlType": "textbox",
-				"displayLabel": "Please enter the location MPN ID(s) enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
+				"displayLabel": "Please provide the location MPN ID enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
 				"watermarkText": "If you have multiple location MPN IDs you need help with, please include a comma separated list.",
 				"required": true
 			},
@@ -191,18 +191,26 @@ pageTitle="Incentives permissions issues"
 				"id": "problem_start_time",
 				"order": 3,
 				"controlType": "datetimepicker",
-				"displayLabel": "When did your issue begin",
+				"displayLabel": "When did your issue begin?",
 				"required": false
 			},
 			{
-				"id": "problem_description",
-				"order": 1000,
-				"controlType": "multilinetextbox",
-				"displayLabel": "Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
-				"watermarkText": "Problem description",
-				"useAsAdditionalDetails": true,
-				"required": true
-			}
+				"id": "user_account_info",
+				"order": 4,
+				"controlType": "textbox",
+				"displayLabel": "Which user accounts are you having problems with?",
+				"watermarkText": "User 1: username@onmicrosoft.com, User 2: username2@onmicrosoft.com",
+				"required": false
+			},
+			{
+         		"id":"problem_description",
+         		"order":1000,
+         		"controlType":"multilinetextbox",
+         		"displayLabel":"Problem description",
+				"watermarkText":"Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
+         		"useAsAdditionalDetails":true,
+         		"required":true
+      }
 		]
 }
 ---

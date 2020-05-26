@@ -16,9 +16,10 @@
 />
 
 # Azure Active Directory (AD DS) authentication over SMB
-Most users are able to resolve their AAD DS authentication over SMB issue using the steps below 
 
 ## **Recommended Documents**
+
+Most users are able to resolve their AAD DS authentication over SMB issue using the steps below 
 
 ### **Prerequisites for enabling Azure AD DS Authentication** 
 - [Review Prerequisites](https://docs.microsoft.com/azure/storage/files/storage-files-identity-auth-active-directory-domain-service-enable#prerequisites/)<br>

@@ -20,7 +20,6 @@
 
 * [Organizing subscriptions and resource groups within the Enterprise](https://azure.microsoft.com/en-au/blog/organizing-subscriptions-and-resource-groups-within-the-enterprise/)
 
-* [Associate or add an Azure subscription to your Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory)
 
 
 
