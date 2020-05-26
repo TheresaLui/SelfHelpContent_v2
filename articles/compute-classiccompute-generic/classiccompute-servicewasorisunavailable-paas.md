@@ -17,7 +17,7 @@
 
 # worker role (paas)/application and service availability/service was or is unavailable
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Check for current and recent events which may impact your service availability](https://status.azure.com/status/history/)<br>
 * [Check region wise status for all Azure Services](https://azure.microsoft.com/status/)<br>
