@@ -55,7 +55,7 @@
             "id": "RBAC_details",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "If you are making use of RBAC for roles and permissions, please provide the list of roles assigned to the user.",
+            "displayLabel": "If you are making use of custom RBAC for roles and permissions, please provide the list of roles assigned to the user.",
             "required": false,
 	    "watermarkText": "Please use the command shown above.",
 	    "infoBalloonText": "```az role assignment list --all --assignee example@example.com --output json | jq '.[] | {'principalName':.principalName,'roleDefinitionName':.roleDefinitionName,'scope':.scope} ``` For more guidance, read this <a href='https://docs.microsoft.com/azure/role-based-access-control/role-assignments-list-cli#list-role-assignments-for-a-user'>link</a>"
@@ -64,7 +64,7 @@
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional details, if you see an error message list it or you are looking for specific guidance, explain that.",
+            "displayLabel": "Please provide any additional details, if you see an error message list it or you are looking for specific guidance, explain that.",
             "required": true,
             "useAsAdditionalDetails": true,
             "watermarkText": "Please provide as much details as possible"
