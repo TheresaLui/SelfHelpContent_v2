@@ -18,7 +18,7 @@
 	ownershipId="AzureMonitoring_ActionGroup"
 />
 
-# I am having issues managing action groups with ARM templates, REST API, PowerShell or CLI
+# I am having issues managing action groups with ARM templates, REST API, PowerShell or CLI 
 
 Most alerts in Azure Monitor use [Action Groups](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-action-groups) as the notification delivery mechanism.
 
