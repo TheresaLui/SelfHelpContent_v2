@@ -58,7 +58,7 @@ If one of these two solutions are not enable on the workspace solution list, go 
 - File Integrity monitor does not work with PaaS services
 - The File Integrity monitor UI in Azure portal only shows the last 100 changes. You should always run log analytics query to check if the changes appear in the user workspace.
 
-## **Related Documents**
+## **Recommended Documents**
 
 - [File Integrity Monitoring in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-file-integrity-monitoring)
 - [File Integrity Monitoring Limitations](https://docs.microsoft.com/azure/automation/automation-change-tracking#change-tracking-data-collection-details)
