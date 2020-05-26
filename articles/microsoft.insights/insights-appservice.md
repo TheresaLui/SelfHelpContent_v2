@@ -8,7 +8,7 @@
     articleId="insights_appservice"
     displayOrder="99"
     selfHelpType="generic"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
     productPesIds="15693" 
     supportTopicIds="32602209"
     ownershipId="AzureMonitoring_ApplicationInsights"
@@ -32,7 +32,7 @@
 
 ### **If the Application Insights option is clickable, but you can't advance beyond the first screen**
 1. You are using a free subscription AND happen to have Application Insights enabled for other resources. 
-![Application Insights Plan](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/data-collection/appinsights-plan.png)
+![Application Insights Plan](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/data-collection/appinsights-plan.png) 
 
 Try this:
 * [**Easiest**] Change the subscription level

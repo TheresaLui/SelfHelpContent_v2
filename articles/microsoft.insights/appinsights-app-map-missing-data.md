@@ -8,7 +8,7 @@
     selfHelpType="generic"
     articleId="appinsights-app-map-missing-data"
     displayOrder="99"
-    cloudEnvironments="public, Fairfax, mooncake"
+    cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
     productPesIds="15693"
     supportTopicIds="32729568"
     ownershipId="AzureMonitoring_ApplicationInsights"
@@ -31,7 +31,7 @@ In the diagram below, X, Y and Z are 3 components with dependency relationships 
 1. Make sure you're using an officially supported SDK. Unsupported/community SDKs might not support correlation. Refer to [this article](https://docs.microsoft.com/azure/application-insights/app-insights-platforms) for a list of supported SDKs.
 
 ### **If Y or Z are modeled as different roles within the same AI resource**
-1. Confirm cloud_RoleName is correctly configured for Y or Z. 
+1. Confirm cloud_RoleName is correctly configured for Y or Z.
 1. If you're missing a dependency, make sure it's in the list of [auto-collected dependencies](https://docs.microsoft.com/azure/application-insights/auto-collect-dependencies). If not, you can still track it manually with a [track dependency call](https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics#trackdependency). 
 
 ### **If Y or Z are components and modeled as different AI resources** 
