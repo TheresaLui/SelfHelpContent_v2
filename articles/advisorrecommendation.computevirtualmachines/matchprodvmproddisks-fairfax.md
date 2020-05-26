@@ -1,6 +1,6 @@
 <properties
     pageTitle="Match Production Virtual Machine with Production Disks"
-    description="Match Production Virtual Machine with Production Disks"
+    description="Match production Virtual Machines with Product Disk for consistent performance and better latency"
     authors="aadevteam"
     ms.author="aadevteam"
     articleId="9b0d1cf7-8a3a-4c8b-8f9f-1c3e70e399d6_Fairfax"
@@ -38,7 +38,7 @@
   },
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/disks-types#disk-comparison",
-  "description": "Match Production Virtual Machine with Production Disks",
+  "description": "Match production Virtual Machines with Product Disk for consistent performance and better latency",
   "longDescription": "Production virtual machines need production disks if you want to get the best performance. We see that you are running a production level virtual machine, however, you are using a low performing disk with standard HDD. Upgrading your disks that are attached to your production disks, either Standard SSD or Premium SSD, will benefit you with a more consistent experience and improvements in latency.",
   "potentialBenefits": "More consistent performance, better latency",
   "actions": [
@@ -60,7 +60,7 @@
       }
     }
   },
-  "displayLabel": "Match Production Virtual Machine with Production Disks",
+  "displayLabel": "Match production Virtual Machines with Product Disk for consistent performance and better latencys",
   "additionalColumns": [],
   "tip": "Match Production Virtual Machine with Production Disks.",
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/disks-types#disk-comparison"
