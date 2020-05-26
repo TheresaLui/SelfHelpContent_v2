@@ -22,17 +22,16 @@
 
 ### Troubleshooting Connectivity
 
-As a first step in resolving connectivity issues with Azure DevOps, complete the following steps: 
 
-1. Sign out of your browser. To do so, select the Visual Studio sign out link. 
-2. Delete the cookies in your browser. To delete cookies in most browsers, press Ctrl+Shift+Del. 
-3. Open Internet Explorer and delete the browser cookies. The Visual Studio IDE uses Internet Explorer cookies. 
-4. Close all browsers and close the Visual Studio IDE
-5. Use a private browser session to retry the connection. If the issue is with the Visual Studio IDE, remove the connection and re-add it.<br> 
+* Sign out of your browser. To do so, select the Visual Studio sign out link. 
+* Delete the cookies in your browser. To delete cookies in most browsers, press Ctrl+Shift+Del. 
+* Open your browser and delete the browser cookies. The Visual Studio IDE uses browser cookies. 
+* Close all browsers and close the Visual Studio IDE
+* Use a private browser session to retry the connection. If the issue is with the Visual Studio IDE, remove the connection and re-add it.<br> 
 
 
 ## **Recommended Documents**
 
-* [Resolve connection issues](https://docs.microsoft.com/azure/devops/user-guide/troubleshoot-connection?view=azure-devops)<br> 
+* [Resolve connection issues](https://docs.microsoft.com/azure/devops/user-guide/troubleshoot-connection?view=azure-devops)
 * Want a quicker answer? Check out the [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/) 
 * To check the status of Azure DevOps Services or to see service impacting issues, please see the [Azure DevOps Service Status](https://status.dev.azure.com/) page.
