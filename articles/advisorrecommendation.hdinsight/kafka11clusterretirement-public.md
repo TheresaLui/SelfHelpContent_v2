@@ -38,7 +38,7 @@
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/hdiretirekafka",
   "description": "Deprecation of Kafka 1.1 in HDInsight 4.0 Kafka cluster",
-  "longDescription": "Starting from July 1 2020, customers will not be able to create new Kafka clusters with Kafka 1.1 on HDInsight 4.0. Existing clusters will run as is without the support from Microsoft. Consider moving to Kafka 2.1 on HDInsight 4.0 by June 30 2020 to avoid potential system/support interruption.",
+  "longDescription": "Starting July 1, 2020, customers will not be able to create new Kafka clusters with Kafka 1.1 on HDInsight 4.0. Existing clusters will run as is without support from Microsoft. Consider moving to Kafka 2.1 on HDInsight 4.0 by June 30 2020 to avoid potential system/support interruption.",
   "potentialBenefits": "Avoid potential system/support interruption",
   "actions": [
     {
