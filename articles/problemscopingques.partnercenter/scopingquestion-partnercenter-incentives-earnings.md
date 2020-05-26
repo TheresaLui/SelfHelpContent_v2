@@ -204,7 +204,7 @@ pageTitle="Incentives earnings issues"
       {
          "id":"subscription_ids",
          "order":5,
-         "controlType":"textbox",
+         "controlType":"multilinetextbox",
          "displayLabel":"Subscription ID(s) for the earnings in question:",
          "watermarkText":"If you have multiple subscriptions you need help with, please include a comma separated list.",
          "required":false
@@ -212,7 +212,7 @@ pageTitle="Incentives earnings issues"
       {
          "id":"agreement_invoice_number",
          "order":6,
-         "controlType":"textbox",
+         "controlType":"multilinetextbox",
          "displayLabel":"Agreement number/invoice number:",
          "watermarkText":"If you have multiple agreements/invoices you need help with, please include a comma separated list.",
          "required":false
