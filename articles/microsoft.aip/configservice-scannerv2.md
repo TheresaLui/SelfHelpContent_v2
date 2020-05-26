@@ -16,6 +16,10 @@
 
 # Azure Information Protection - Configuring the Service - AIP Scanner Unified
 
+## **Recommended Steps**
+
+Run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#troubleshooting-using-scanner-diagnostic-tool) in order to troubleshoot common issues when deploying scanner
+
 ### Export Azure Information Protection Scanner logs
 
 1. Navigate to `%localappdata%\Microsoft\MSIP` under the user context running the scanner service

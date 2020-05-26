@@ -28,7 +28,9 @@
 
 5. Verify that the user account configured to run the scanner service has permissions to access all the configured repositories
 
-6. If you still experience issues, please export the scanner logs and add them to your ticket. 
+6. Run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#troubleshooting-using-scanner-diagnostic-tool) in order to troubleshoot common issues when deploying scanner
+
+7. If you still experience issues, please export the scanner logs and add them to your ticket. 
 
 
 ### Export Azure Information Protection Scanner logs

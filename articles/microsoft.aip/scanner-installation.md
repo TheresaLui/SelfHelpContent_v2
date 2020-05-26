@@ -27,6 +27,8 @@ If an alternate configuration is needed for any of the below reasons, please fol
 
 Verify that you comply with all [Firewalls and network infrastructure settings requirements](https://docs.microsoft.com/azure/information-protection/requirements#firewalls-and-network-infrastructure).
 
+Run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#troubleshooting-using-scanner-diagnostic-tool) in order to troubleshoot common issues when deploying scanner
+
 If you still experience issues, please export the scanner logs and add them to your ticket. 
 
 ### How to export Azure Information Protection Scanner logs
