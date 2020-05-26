@@ -41,7 +41,6 @@ Try this:
 
 ## **Recommended Documents**
 
-* [Email Azure Monitor Product Group](mailto:appinsightspm@microsoft.com)  Interested in codeless monitoring for Java or Node.js on Windows? We want to hear from you!
 * [Monitoring an App Service resource](https://docs.microsoft.com/azure/azure-monitor/app/azure-web-apps)
 
 <!-- To do: add a link to supported languages/frameworks/features when the doc is fixed!! -->

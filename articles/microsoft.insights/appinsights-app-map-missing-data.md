@@ -32,7 +32,7 @@ In the diagram below, X, Y and Z are 3 components with dependency relationships 
 
 ### **If Y or Z are modeled as different roles within the same AI resource**
 1. Confirm cloud_RoleName is correctly configured for Y or Z.
-1. If you're missing a dependency, make sure it's in the list of [auto-collected dependencies](https://docs.microsoft.com/azure/application-insights/auto-collect-dependencies). If not, you can still track it manually with a [track dependency call](https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics#trackdependency). 
+1. If you're missing a dependency, make sure it's in the list of [auto-collected dependencies](https://docs.microsoft.com/azure/application-insights/auto-collect-dependencies). If not, you can still track it manually with a [track dependency call](https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics#trackdependency). 
 
 ### **If Y or Z are components and modeled as different AI resources** 
 1. Check to see if the "update map components" is failing to light up. This may happen for very large distributed applications. Reducing the time range you are querying for may help here.
