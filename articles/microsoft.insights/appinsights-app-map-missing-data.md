@@ -38,7 +38,7 @@ In the diagram below, X, Y and Z are 3 components with dependency relationships 
 1. Check to see if the "update map components" is failing to light up. This may happen for very large distributed applications. Reducing the time range you are querying for may help here.
 1. If you don't see Y (direct HTTP calls): 
     * Upgrade all components to the latest SDK version 
-    * If you're using Azure Functions with C#, upgrade to [Functions V2](https://docs.microsoft.com/azure/azure-functions/functions-versions) 
+    * If you're using Azure Functions with C#, upgrade to [Functions V2](https://docs.microsoft.com/azure/azure-functions/functions-versions) 
 1. If you don't see Z (async across a queue): 
 This is not supported currently. If X and Z are in the same resource group, as a workaround you can use the map in the [resource group insights experience](https://docs.microsoft.com/azure/azure-monitor/insights/resource-group-insights#diagnose-issues-in-your-resource-group). 
 1. If this is Azure Event Hub or Service Bus: Please ensure you are using the latest Azure client SDK to call the queue. 
