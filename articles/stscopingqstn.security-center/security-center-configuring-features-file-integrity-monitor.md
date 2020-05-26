@@ -54,7 +54,7 @@ If one of these two solutions are not enable on the workspace solution list, go 
 
 - File Integrity monitor works only on Azure VMs and on-premises machines
 - The server that enables File Integrity monitoring must be monitored by Azure security center and the Azure Log Analytics agent must to be healthy
-- Azure security center needs to be on standard pricing tier on the subscription level, and every User workspace to be used should also be in standard procing tier (security solution be should install on it)
+- Azure security center needs to be on standard pricing tier on the subscription level, and every User workspace to be used should also be in standard pricing tier (security solution be should install on it)
 - File Integrity monitor does not work with PaaS services
 - The File Integrity monitor UI in Azure portal only shows the last 100 changes. You should always run log analytics query to check if the changes appear in the user workspace.
 
@@ -70,7 +70,7 @@ If one of these two solutions are not enable on the workspace solution list, go 
 - [Azure Security Center FAQ](https://docs.microsoft.com/azure/security-center/security-center-faq)
 
 ### How-To and Advisory Information
-- [Latest Azure Security Center updates](https://docs.microsoft.com/en-us/azure/security-center/release-notes)
+- [Latest Azure Security Center updates](https://docs.microsoft.com/azure/security-center/release-notes)
 - [Azure Security Center Pricing Tiers](https://docs.microsoft.com/azure/security-center/security-center-pricing)
 - [Permissions in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-permissions)
 
