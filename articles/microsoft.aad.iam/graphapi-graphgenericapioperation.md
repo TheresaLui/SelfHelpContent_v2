@@ -2,9 +2,10 @@
     pageTitle="Problem with graph API generic"
     description="graphgenericapioperation"
     authors="anupnadigm"
+    ms.author="anupnadigm"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32596839,32596841,32596852,32596853,32596854,32596855,32134056,32596860"
-    productPesIds="14785,16578,16575"
+    supportTopicIds="32596839,32596841,32596852,32134056"
+    productPesIds="16578,16575"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="7a7a3d35-6f8b-4f79-8b95-ef0c1f5709e4"
@@ -16,6 +17,7 @@
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Problem with graph API generic",
     "fileAttachmentHint": null,
     "formElements": [
@@ -30,7 +32,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -47,7 +49,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -77,7 +79,7 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -94,7 +96,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -111,7 +113,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -128,7 +130,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -145,7 +147,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -162,7 +164,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -179,7 +181,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -196,7 +198,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
+            "hints": null,
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,

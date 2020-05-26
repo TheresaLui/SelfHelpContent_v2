@@ -5,7 +5,7 @@
     ms.author="xdataanalytics"
     articleId="02cfb5ef-z9b0-3522-8743-142gceb10057_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="StorageMediaEdge_XStore"
 />
 # Sample title
