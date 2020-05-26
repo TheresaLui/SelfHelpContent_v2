@@ -17,7 +17,7 @@
 
 # Container Instances
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Logging with Azure Monitor Logs](https://docs.microsoft.com/azure/container-instances/container-instances-monitor)<br>
 * [Get container logs and events](https://docs.microsoft.com/azure/container-instances/container-instances-get-logs)<br>
