@@ -10,7 +10,7 @@
 	articleId="e0722898-a47d-4c8d-b071-a7ab0dbb6d4e"
 	ownershipId="Windows_Virtual_Desktop"
 />
-# Configuration and Management
+# WVD deployment
 ---
 {
   "$schema": "SelfHelpContent",

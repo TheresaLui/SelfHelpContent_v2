@@ -3,7 +3,7 @@
 	description="Configuration and management"
 	ms.author="jerrycif"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32727874,3272785,32727876"
+	supportTopicIds="32727874,32727875,32727876"
 	productPesIds="16582"
 	cloudEnvironments="Public"
 	schemaVersion="1"
@@ -31,7 +31,8 @@
 				}, {
 					"text": "Name of the session host or virtual machine(s)."
 				}
-			]"id": "error message",
+			],
+			"id": "error message",
 			"order": 2,
 			"controlType": "dropdown",
 			"infoBalloonText": "string",
@@ -87,7 +88,7 @@
 				}, {
 					"value": "I don't know",
 					"text": "I don't know"
-					
+
 			}
 			],
 			"required": false
@@ -108,6 +109,7 @@
 				}, {
 					"value": "I don't know",
 					"text": "I don't know"
+				}
 			]
 }
 ---
