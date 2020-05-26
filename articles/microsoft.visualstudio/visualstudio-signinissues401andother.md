@@ -7,7 +7,7 @@
 	authors="chrisjco"
 	ms.author="ccoop"
 	articleId="AZDevOpsSignInIssues401andother"
-	supportTopicIds="32572367, 32572368"
+	supportTopicIds="32572368, 32572367"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	resourceTags=""
