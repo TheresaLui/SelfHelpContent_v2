@@ -13,6 +13,7 @@
 	resourceTags=""
 	productPesIds="15543"
 	cloudEnvironments="public"
+	ownershipId="Azure_DevOps_Services"
 /> 
 
 # Common causes of sign-in issues 
