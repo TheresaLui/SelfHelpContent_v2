@@ -15,7 +15,7 @@
 	ownershipId="CloudNet_LoadBalancer"
 />
 
-# How to check if source traffic is allowed to backend pool members
+# Inbound direction: How to check if source traffic is allowed to backend pool members
 
 ## **Description**
 
