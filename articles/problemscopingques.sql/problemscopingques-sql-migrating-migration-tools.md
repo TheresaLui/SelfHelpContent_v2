@@ -9,7 +9,7 @@
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-sql-migrating-migration-tools"
-	ownershipId="AzureData_AzureSQLDB_MigratingToAzure"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # scoping questions for migration tools
 ---
