@@ -14,8 +14,8 @@
     ownershipId="AzureMonitoring_ApplicationInsights"
  />
 
-# <-- appinsights-app-map-missing-data -->
-**Dependencies are missing from the application map**
+<!-- appinsights-app-map-missing-data -->
+# **Dependencies are missing from the application map**
 
 
 ## Common issues 

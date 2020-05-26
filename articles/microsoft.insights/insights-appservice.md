@@ -14,14 +14,13 @@
     ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
-# <-- appinsights-enable-platform-appservice -->
-<--# **Cannot enable Application Insights for my app running on Azure App Service**-->
+<!-- appinsights-enable-platform-appservice -->
+# **Cannot enable Application Insights for my app running on Azure App Service**
 
-
-## Common issues 
+## Common issues
 
 1. The Application Insights option is grayed out and not clickable
-![Application Insights Menu Item](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/data-collection/AI-disabled.png)
+![Application Insights Menu Item](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/data-collection/appinsights-disabled.png)
 2. The Application Insights option is clickable, but it is not possible to advance beyond the options screen
 
 ## **Recommended Steps**
@@ -33,7 +32,7 @@
 
 ### **If the Application Insights option is clickable, but you can't advance beyond the first screen**
 1. You are using a free subscription AND happen to have Application Insights enabled for other resources. 
-![Application Insights Plan](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/data-collection/AI-plan.png)
+![Application Insights Plan](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/data-collection/appinsights-plan.png)
 
 Try this:
 * [**Easiest**] Change the subscription level
