@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="protectopencontent_scannerprotect"
+	ownershipId="AzureInformationProtection"
 />
 
 # Azure Information Protection Protection - Protecting and Opening Content - Questions about applying protection with AIP Scanner
