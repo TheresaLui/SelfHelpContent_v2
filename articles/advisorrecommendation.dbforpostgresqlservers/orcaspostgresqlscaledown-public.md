@@ -40,9 +40,9 @@
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/postgresqlpricing",
-  "description": "Decrease the server vCores",
+  "description": "Decrease your PostgreSQL server's CPU vCores",
   "longDescription": "Our internal telemetry shows that the PostgreSQL database server resources has been underutilized for an extended period of time over the last 7 days. Low resource utilization results in unwanted expenditure which can be fixed without significant performance impact. To reduce your costs and efficiently manage your resources, we recommend reducing the compute size (vCores) by half.",
-  "potentialBenefits": "Reduce overall spend without performance impact.",
+  "potentialBenefits": "Reduce cost by right-sizing the PostgreSQL server",
   "actions": [
     {
       "actionId": "5c1e3ad5-2295-407c-9de1-ba585cfeb0b3",

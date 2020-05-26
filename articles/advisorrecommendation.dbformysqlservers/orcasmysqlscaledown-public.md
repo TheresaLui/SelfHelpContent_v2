@@ -40,9 +40,9 @@
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/mysqlpricing",
-  "description": "Decrease the server vCores",
+  "description": "Decrease your MySQL server's CPU vCores",
   "longDescription": "Our internal telemetry shows that the MySQL database server resources has been underutilized for an extended period of time over the last 7 days. Low resource utilization results in unwanted expenditure which can be fixed without significant performance impact. To reduce your costs and efficiently manage your resources, we recommend reducing the compute size (vCores) by half.",
-  "potentialBenefits": "Reduce overall spend without performance impact.",
+  "potentialBenefits": "Reduce cost by right-sizing the MySQL server",
   "actions": [
     {
       "actionId": "205a6772-83ab-42d4-9b5d-3343037a1dfe",
