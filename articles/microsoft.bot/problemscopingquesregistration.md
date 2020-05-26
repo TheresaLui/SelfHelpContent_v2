@@ -55,7 +55,7 @@
 			"id": "error_test",
 			"order": 4,
 			"controlType": "textbox",
-			"displayLabel": "The location for Application Insights you selected",
+			"displayLabel": "Insights you selected",
 			"required": false
 		},
 		{
