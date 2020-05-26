@@ -5,7 +5,7 @@
     ms.author="kevin"
     articleId="dd93fbbf-e5ef-4c7c-886e-2bfef0958f45"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 

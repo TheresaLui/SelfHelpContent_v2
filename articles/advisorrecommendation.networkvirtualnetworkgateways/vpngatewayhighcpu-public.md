@@ -5,7 +5,7 @@
     ms.author="evanba"
     articleId="2e41fe84-7173-4fe9-b257-61aa4679c3fe_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="CloudNet_AzureVPNGateway"
 />
 # Consider increasing the size of your VNet Gateway SKU to address high CPU

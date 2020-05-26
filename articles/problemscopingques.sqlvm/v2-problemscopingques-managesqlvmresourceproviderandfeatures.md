@@ -57,7 +57,7 @@
                     "value": "HybridVM"
                 },
                 {
-                    "text": "I’m not sure/don’t know",
+                    "text": "I'm not sure/don't know",
                     "value": "dont_know_answer"
                 }
             ],
@@ -90,7 +90,7 @@
                      "value": "AzureCLI"
                  },
                  {
-                     "text": "I’m not sure/don’t know",
+                     "text": "I'm not sure/don't know",
                      "value": "dont_know_answer_guidance"
                  }
              ],

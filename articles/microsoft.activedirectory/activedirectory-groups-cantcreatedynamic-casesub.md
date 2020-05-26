@@ -29,3 +29,6 @@
 ## **Recommended Documents**
 
 * [Create attribute-based rules for dynamic group membership](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal)
+
+### **Recommended Videos**
+* [Advanced features of group management: group expiration, dynamic groups, and group naming policy](https://www.youtube.com/watch?v=e9zUqQx5upY)
