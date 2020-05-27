@@ -34,15 +34,20 @@
             "displayLabel": "What is the tool being used?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Choose the tool being used",
-			      "dropdownOptions": [
+	    "dropdownOptions": [
+	    	{
+                    "value": "DEA",
+                    "text": "Database Experimentation Assistant"
+                },
+		{
+                    "value": "DMA",
+                    "text": "Data Migration Assistant (DMA)"
+                },
                 {
                     "value": "DMS",
                     "text": "Database Migration Service (DMS)"
                 },
-                {
-                    "value": "DMA",
-                    "text": "Database Migration Assistant (DMA)"
-                },
+                
                 {
                     "value": "BACPAC",
                     "text": "Export/Import BACPAC"
@@ -54,10 +59,6 @@
                 {
                     "value": "repl",
                     "text": "Transaction replication"
-                },
-                {
-                    "value": "DEA",
-                    "text": "Database Experimentation Assistant"
                 },
                 {
                     "value": "dont_know_answer",
