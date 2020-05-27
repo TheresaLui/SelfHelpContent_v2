@@ -9,7 +9,7 @@
     articleId="appinsights-data-retention"
     productPesIds="15693"
     supportTopicIds="32632983"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, mooncake, usnat, ussec"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
