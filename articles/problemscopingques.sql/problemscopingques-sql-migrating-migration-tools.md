@@ -67,6 +67,51 @@
             "required": true
         },
     {
+            "id": "engine_source",
+            "order": 3,
+            "controlType": "dropdown",
+            "visibility": "Tool_dropdown == SSMA",
+            "displayLabel": "What is the DB engine source?",
+            "watermarkText": "Choose an option",
+            "infoBalloonText": "Choose the DB engine source",
+	    "dropdownOptions": [
+                {
+                    "value": "Access",
+                    "text": "Access"
+                },
+                {
+                    "value": "DB2",
+                    "text": "DB2"
+                },
+                {
+                    "value": "MySQL",
+                    "text": "MySQL"
+                },
+                {
+                    "value": "ORACLE",
+                    "text": "Oracle"
+                },
+                {
+                    "value": "SAPASE",
+                    "text": "SAP ASE"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know the answer"
+                }
+            ],
+            "required": false
+        },
+	{
+            "id": "tool_version",
+            "order": 4,
+            "controlType": "textbox",
+	          "visibility": "Tool_dropdown == DMA || Tool_dropdown == SSMA || Tool_dropdown == DEA || Tool_dropdown == BACPAC",
+            "displayLabel": "What is the tool version?",
+            "infoBalloonText": "Enter the tool version being used",
+            "required": false
+        },
+    {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
