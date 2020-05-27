@@ -29,6 +29,7 @@ You may check the status of your CPOR association claim at any time utilizing th
 Below are the reasons why your claim status might be **Partner Action Required** or **Rejected**: 
 
 * **Partner Action Required** - Microsoft has reviewed your CPOR association claim PoE and needs more information related to your PoE for the products/workloads you have claimed. You have 5 business days to provide requested info and resubmit your claim or it will be rejected. Below are potential reasons why additional information may be needed:
+
 	1. **Missing All PoE** – PoE is missing due to incorrect file uploaded or not pertaining to CPOR association claim
 	2. **Missing Customer Acknowledgement** – Customer signature is not on the PoE
 	3. **Missing or Old Dates** – Dates on PoE are missing or old in relation to the claim
@@ -50,7 +51,8 @@ Fields you may edit:
 * Add additional PoE and commentary 
 
 **How do I dispute a CPOR association claim status?**
-Submit a support request in Parnter Center and provide the support team the following information:
+Submit a support request in Partner Center and provide the support team the following information:
+
 * MPN ID
 * Incentive Program Name 
 * CPOR association claim ID 
