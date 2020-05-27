@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Accounts settings MPNID"
+	pageTitle="Accounts Settings MPNID"
 	description="Accounts settings MPNID"
 	infoBubbleText=""
 	service="partnercenter"
