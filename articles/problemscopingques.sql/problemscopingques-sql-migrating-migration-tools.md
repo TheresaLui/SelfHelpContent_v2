@@ -112,6 +112,37 @@
             "required": false
         },
     {
+            "id": "source",
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Where is located the source DB\BACPAC file?",
+            "watermarkText": "Choose an option",
+            "infoBalloonText": "Choose the source location",
+	    "dropdownOptions": [
+                {
+                    "value": "Storage",
+                    "text": "Azure Storage"
+                },
+                {
+                    "value": "VM",
+                    "text": "Azure VM"
+                },
+                {
+                    "value": "external",
+                    "text": "On-premises or another Cloud supplier"
+                }
+            ],
+            "required": false
+        },
+	{
+            "id": "size",
+            "order": 6,
+            "controlType": "textbox",
+            "displayLabel": "What is the size of the original DB?",
+            "infoBalloonText": "Enter the size of the original database.",
+            "required": false
+        },
+    {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
