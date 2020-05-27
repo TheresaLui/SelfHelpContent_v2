@@ -24,7 +24,7 @@
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DbForMariadb/servers",
-  "recommendationFriendlyName": "OrcasMariaDbCpuScaledown",
+  "recommendationFriendlyName": "OrcasMariaDbCpuRightSize",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
