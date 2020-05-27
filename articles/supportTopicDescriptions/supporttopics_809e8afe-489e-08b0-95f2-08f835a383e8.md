@@ -26,7 +26,7 @@
       "shortDescription": "How to Enable Group managed service accounts (gMSA) with Azure ATP",
       "searchTags": "sensor,gmsa,install",
       "category": "Onboarding and installing",
-      "useInDiagnoseAndSolve": "true"
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
