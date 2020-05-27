@@ -3,9 +3,9 @@
     description="Right size the MySQL server vCores based on the utilization telemetry."
     authors="manishku"
     ms.author="kummanish"
-    articleId="7e76e54f-7978-4d48-9ab9-a4da5b7c69a3_Public"
+    articleId="7e76e54f-7978-4d48-9ab9-a4da5b7c69a3_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Reduce the resource cost for Azure Database for MySQL
@@ -16,13 +16,15 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "7e76e54f-7978-4d48-9ab9-a4da5b7c69a3",
   "dataSourceMetadata": {
+    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetMySqlRightSizeRecommendations",
     "schemaVersion": 2.0,
-    "dataSource": "SAS"
+    "dataSource": "Kusto",
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DbForMysql/servers",
-  "recommendationFriendlyName": "OrcasMySQLCpuScaledown",
+  "recommendationFriendlyName": "OrcasMySQLCpuRightSize",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -40,15 +42,15 @@
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/mysqlpricing",
-  "description": "Decrease your MySQL server's CPU vCores",
+  "description": "Right-size underutilized MySQL servers",
   "longDescription": "Our internal telemetry shows that the MySQL database server resources has been underutilized for an extended period of time over the last 7 days. Low resource utilization results in unwanted expenditure which can be fixed without significant performance impact. To reduce your costs and efficiently manage your resources, we recommend reducing the compute size (vCores) by half.",
   "potentialBenefits": "Reduce cost by right-sizing the MySQL server",
   "actions": [
     {
-      "actionId": "205a6772-83ab-42d4-9b5d-3343037a1dfe",
-      "description": "Decrease your MySQL server's CPU vCores",
+      "actionId": "68475a99-cc8f-4fc4-9c24-c1da48026d5f",
+      "description": "Right-size underutilized MySQL servers",
       "actionType": "Blade",
-      "extensionName": "SqlAzureExtension",
+      "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}",
@@ -58,7 +60,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "63da47bd-6e67-4851-9fb7-f387bf4d543a",
+      "actionId": "a5d65117-d940-46c7-9dbb-2124889d96cf",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

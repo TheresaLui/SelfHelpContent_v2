@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "38f4a461-1543-4089-854c-90e7edf37707",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetPostgreSQLScaledownRecommendations",
+    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetPostgreSQLRightSizeRecommendations",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
@@ -24,7 +24,7 @@
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DbForPostgresql/servers",
-  "recommendationFriendlyName": "OrcasPostgreSqlCpuScaledown",
+  "recommendationFriendlyName": "OrcasPostgreSqlCpuRightSize",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {

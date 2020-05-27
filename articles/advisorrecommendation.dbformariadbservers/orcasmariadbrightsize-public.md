@@ -22,7 +22,7 @@
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DbForMariadb/servers",
-  "recommendationFriendlyName": "OrcasMariaDbCpuScaledown",
+  "recommendationFriendlyName": "OrcasMariaDbCpuRightSize",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
@@ -40,13 +40,13 @@
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/mariadbpricing",
-  "description": "Decrease your MariaDB server's CPU vCores",
+  "description": "Right-size underutilized MariaDB servers",
   "longDescription": "Our internal telemetry shows that the MariaDB database server resources has been underutilized for an extended period of time over the last 7 days. Low resource utilization results in unwanted expenditure which can be fixed without significant performance impact. To reduce your costs and efficiently manage your resources, we recommend reducing the compute size (vCores) by half.",
   "potentialBenefits": "Reduce cost by right-sizing the MariaDB server",
   "actions": [
     {
       "actionId": "9920d56d-3bf5-4ed3-b980-4162e558925f",
-      "description": "Decrease your MariaDB server's CPU vCores",
+      "description": "Right-size underutilized MariaDB servers",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
