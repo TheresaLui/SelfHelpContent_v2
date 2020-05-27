@@ -11,7 +11,7 @@
 	articleId="7F6D3CDB-F131-4CC0-AFAD-B96293DC47C9"
 	ownershipId="Compute_BotService"
 />
-# How to manage access permissions to bot
+# How to manage access permissions to bot 
 ---
 {
     "$schema": "SelfHelpContent",
