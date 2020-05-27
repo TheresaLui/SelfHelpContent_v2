@@ -18,7 +18,7 @@
 ## **Recommended Steps**
 
 ### **How to check whether user has appropriate access to create a project**
-For creating a project user needs "Owner" or "COntributor" permissions. [Pleaes check here,](https://docs.microsoft.com/azure/role-based-access-control/check-access) whether you have required access
+For creating a project user needs "Owner" or "Contributor" permissions. [Please check here,](https://docs.microsoft.com/azure/role-based-access-control/check-access) whether you have required access
 
 ### **I don't see a particular geography when creating the Azure Migrate project**
 
@@ -28,7 +28,7 @@ For creating a project user needs "Owner" or "COntributor" permissions. [Pleaes 
   
 If you need to specify a different geography to store discovery, assessment or migration related metadata (typically used for scenarios where your data centers are present in different geographies), go to 'Servers' or 'Databases' and click on 'Change' against the 'Migrate project (Change)' on the top-right corner of your screen. Then click on 'click here' to create a new Azure Migrate project. [Learn more](https://docs.microsoft.com/azure/migrate/how-to-add-tool-first-time#create-additional-projects).
 
-### **My added tools don't show up in the "Servers" or "Databases" " or “VDI” or “Webapps” goal page**
+### **My added tools don't show up in the "Servers" or "Database" or "VDI" or "Web Apps" goal page**
 
 Make sure that [project you are looking for is selected](https://docs.microsoft.com/azure/migrate/create-manage-projects#find-a-project)
   
