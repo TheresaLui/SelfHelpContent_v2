@@ -22,7 +22,7 @@
 We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because the boot disk is inaccessible.
 <!--/issueDescription-->
 
-Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VmSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM.  For this issue, the screenshot would reflect the error code **Your PC ran into a problem and needs to restart. We'll restart for you. Stop code: INACCESSIBLE BOOT DEVICE**.  This may also help you diagnose future issues and determine if a boot error is the cause.<br>
+Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VmSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM.  For this issue, the screenshot would reflect the error code **Your PC ran into a problem and needs to restart. We'll restart for you. Stop code: INACCESSIBLE BOOT DEVICE**.  This may also help you diagnose future issues and determine if a boot error is the cause.
 
 ## **Recommended Steps**
 
