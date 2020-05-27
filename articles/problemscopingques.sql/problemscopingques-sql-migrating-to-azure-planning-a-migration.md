@@ -91,52 +91,20 @@
             "infoBalloonText": "Enter the version of the database.",
             "required": false
         },
-	{
-            "id": "number_dbs",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "How many DBs are planning for migration?",
-            "infoBalloonText": "Enter the number of database planning for migration.",
-            "required": false
-        },
-
    {
             "id": "size",
-            "order": 5,
+            "order": 4,
             "controlType": "textbox",
-            "displayLabel": "What is the max size of the DBs?",
+            "displayLabel": "What is the max size of the largest DB?",
             "infoBalloonText": "Enter the max size of the largest database.",
             "required": false
         },
     {
             "id": "downtime",
-            "order": 6,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "What is the max downtime allowed?",
             "infoBalloonText": "Enter the max downtime allowed for the migration",
-            "required": false
-        },
-     {
-            "id": "resources",
-            "order": 7,
-            "controlType": "dropdown",
-            "displayLabel": "Only databases will be migrated?",
-            "watermarkText": "Choose an option",
-            "infoBalloonText": "Only database will be migrated or there will be other resources",
-	          "dropdownOptions": [
-                {
-                    "value": "yes",
-                    "text": "Just databases"
-                },
-                {
-                    "value": "no",
-                    "text": "Databases and other resources"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know the answer"
-                }
-            ],
             "required": false
         },
     {
