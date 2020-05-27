@@ -11,13 +11,15 @@
 	supportTopicIds="32584333"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - Key Management - BYOK
 
 ## **Recommended Documents**
 
+* [Prerequisites for BYOK](https://docs.microsoft.com/azure/information-protection/plan-implement-tenant-key#prerequisites-for-byok)<br>
 * [BYOK pricing and restrictions](https://docs.microsoft.com/azure/information-protection/byok-price-restrictions)<br>
 * [What’s the difference between BYOK and HYOK and when should I use them?](https://docs.microsoft.com/azure/information-protection/faqs-rms#whats-the-difference-between-byok-and-hyok-and-when-should-i-use-them)<br>
 * [Can I now use BYOK with Exchange Online?](https://docs.microsoft.com/azure/information-protection/faqs-rms#can-i-now-use-byok-with-exchange-online)<br>

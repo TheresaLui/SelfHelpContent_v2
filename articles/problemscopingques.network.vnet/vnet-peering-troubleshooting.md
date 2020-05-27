@@ -6,8 +6,9 @@
 	articleid="cannotconnectVMinapeeredVNET"
 	supportTopicIds="32584249"
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 # Cannot Connect to a VM in a peered VNet
 ---
@@ -70,6 +71,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

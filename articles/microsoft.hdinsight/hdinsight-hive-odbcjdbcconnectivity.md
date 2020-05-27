@@ -10,8 +10,9 @@
   supportTopicIds="32629094"
   resourceTags=""
   productPesIds="15078"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax, usnat, ussec"
   ArticleId="275b8af5-6ecd-48c5-abdc-01f38b10e279"
+	ownershipId="AzureData_HDInsight"
 />
 
 # ODBC-JDBC connectivity 

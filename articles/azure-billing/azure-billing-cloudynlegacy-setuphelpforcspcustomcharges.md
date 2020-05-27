@@ -4,13 +4,15 @@
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
+	ms.author="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32615303"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="04831295-f292-490a-9018-b2c2350857cb"
+	ownershipId="ASMS_Billing"
 />
 
 # Setup help for CSP Custom Charges

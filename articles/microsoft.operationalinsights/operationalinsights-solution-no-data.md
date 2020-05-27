@@ -12,7 +12,8 @@
     supportTopicIds="32592241, 32592228, 32592242, 32592268"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # A solution has been added to this workspace which has not received data

@@ -10,8 +10,9 @@
 	supportTopicIds="32633020,32632960"
 	resourceTags=""
 	productPesIds="15629,16459"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="d7132073-0d2e-417a-93f4-4c18aa7b8570"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Advanced Threat Protection for Azure Storage

@@ -6,16 +6,23 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628262"
                 productPesIds="14749,15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0035"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Deploy a VM
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Troubleshoot custom image deployment failures",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+            "title": "Virtual machine deployment diagnostics",
+            "description": "These diagnostics will check for details about your selected deployment failure.",
+            "insightNotAvailableText": "We didn't find any problems"},
     "formElements": [
         {
             "id": "resourceGroup",
@@ -40,7 +47,8 @@
                 }
             ],
             "useAsAdditionalDetails": false,
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "correlationId",
@@ -59,7 +67,8 @@
                     "value": "Deployment failure not found.",
                     "text": "Deployment failure not found."
                 },
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "valuePropertyRegex": "[^/]+$"
             },
             "dropdownOptions": [
                 {
@@ -68,7 +77,8 @@
                 }
             ],
             "useAsAdditionalDetails": false,
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "deployment_os",
@@ -93,6 +103,7 @@
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

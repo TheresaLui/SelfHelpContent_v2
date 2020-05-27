@@ -5,14 +5,16 @@
 	 selfHelpType="problemScopingQuestions"
 	 supportTopicIds="32633525"
 	 productPesIds="14745"
-	 cloudEnvironments="public"
+	 cloudEnvironments="public,fairfax, usnat, ussec"
 	 schemaVersion="1"
 	 articleId="2fac49be-dd38-4cdf-87b3-fb2e0bf1990b"
+	ownershipId="AzureData_AzureSQLVM"
 />
 # Upgrade-downgrade SQL Server Version/Edition
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Upgrade-downgrade SQL Server Version/Edition",
     "fileAttachmentHint": null,
     "formElements": [
@@ -40,10 +42,6 @@
                 {
                     "text": "SQL Server Edition (e.g. Express, Web, Standard, Enterprise)",
                     "value": "SQLEdition"
-                },
-                {
-                    "text": "I’m not sure/don’t know",
-                    "value": "dont_know_answer"
                 },
                 {
                     "value": "dont_know_answer",
@@ -75,10 +73,6 @@
                     "value": "Downgrade"
                 },
                 {
-                    "text": "I’m not sure/don’t know",
-                    "value": "dont_know_answer"
-                },
-                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
@@ -98,6 +92,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

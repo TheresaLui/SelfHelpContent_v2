@@ -7,66 +7,47 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599861,32599864,32615228,32599903,32615227,32599924,32615229,32599936,32599937"
+    supportTopicIds="32642184,32599924,32642191,32612529,32633803,32633804"
     resourceTags=""
-    productPesIds="15607,15725"
-    cloudEnvironments="public"
+    productPesIds="15607,15725,14749,15571,15797,16454,16470"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="6a3512a4-53ee-48c2-a748-f8cff1d4bb04"
+	ownershipId="Compute_Automation"
 />
 
 # Resolve Update Management issues with Azure Automation
 
-This article will help with several kinds of issues relating to onboarding and using the Azure Update Management solution.
+This article will help with several kinds of issues relating to onboarding and using the Azure Update Management solution. 
+For general questions about Update Management scenarios, see [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management).
 
 ## **Recommended Steps**
 
-### **Machine isn't onboarding after waiting 15 minutes**
+The most common issues with Update Management are caused by:
+* [Network issues](https://docs.microsoft.com/azure/automation/automation-update-management#ports) or [Windows Update registry keys](https://docs.microsoft.com/azure/automation/automation-configure-windows-update), which can be detected by running the Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux))
+* [Scope Configuration issues](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration), which can be detected by [querying Log Analytics](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 
-* Refer to [the "Components enabled but not working" section of the Update Management Troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#components-enabled-not-working)
 
-### **Update Agent Readiness doesn't show "ready"**
+### **Prerequisites for Update Management**
+* The [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management) covers [supported clients](https://docs.microsoft.com/azure/automation/automation-update-management#clients), [required permissions](https://docs.microsoft.com/azure/automation/automation-update-management#permissions), and [network requirements ](https://docs.microsoft.com/azure/automation/automation-update-management#ports)
+* Only certain regions are supported for linking Log Analytics and Automation Accounts, which is required for Update Management. See the ["Workspace Mappings"](https://docs.microsoft.com/azure/automation/how-to/region-mappings) document for the full list of supported regions.
+* If your region is not listed as a supported region, you can [file a feedback request on our UserVoice](https://feedback.azure.com/forums/905242-update-management)
 
-* For Azure VMs: run the troubleshooter from the "troubleshoot" link in the agent health report
-* For non-Azure VMs, or if the troubleshooter doesn't work, see the ["Troubleshoot Offline"](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline) section of the Update Agent troubleshooter guide
-* Consult the [Update Agent Troubleshooter document](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#prerequisite-checks) for any checks that failed in order to remediate issues
-
-### **The solution cannot be enabled on this VM because the VM already has the management agent..."**
-
-* This error occurs when a machine is already enrolled into Update Management
-* A common cause is when [Azure Security Center](https://docs.microsoft.com/azure/security-center/) already manages a machine.
-
-### **Machine shows as "not assessed"**
-
-Information can take a few minutes to propagate through Log Analytics, but if machines still show "not assessed", then:
-
-* Check for a [Log Analytics heartbeat](https://docs.microsoft.com/azure/automation/automation-update-management#confirm-that-non-azure-machines-are-onboarded)
-* If there is no heartbeat, check the [Solution Scoping](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-automation-account#scope-configuration) is correct
-* If there is a heartbeat, follow the steps in the [Data not Showing in Log Analytics section of the Update Management troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
-* If there is an error code listed, see the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult).
 
 ### **Remove machine from Update Management**
 
-* To unenroll a machine from Update Management, follow the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management)
+* To unenroll a machine from Update Management, Follow the instructions at ["Clean up resources"](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-browse#clean-up-resources)
 
-### **Machines don't install updates**
+### **Machines reboot unexpectedly**
 
-* Try running updates directly on the machine. If the machine cannot update, consult the [list of potential errors in the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult).
-* If updates run locally, try removing and reinstalling the agent on the machine by following the instructions at ["Remove a VM from Update Management"](https://docs.microsoft.com/azure/automation/automation-update-management#remove-a-vm-for-update-management).
+* This behavior is caused by Windows Update registry keys. See ["Configure Reboot Settings"](https://docs.microsoft.com/azure/automation/automation-configure-windows-update#configure-reboot-settings)
 
 ### **Machines update without an update deployment**
 
-* If machines are receiving updates without an update deployment, please see the note under ["Install Updates" of the Update Management overview document](https://docs.microsoft.com/azure/automation/automation-update-management#install-updates).
-
-### **Updating machines across different tenants**
-
-* If you receive an error message saying "The current tenant is not authorized to access the linked subscription", please use [the workaround here](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#multi-tenant)
+* This behavior is caused by Windows Update registry keys which is configured to "Autodownload and install" by default for Azure VMs. See the troubleshooting guide ["Scenario: Updates install without a deployment"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#updates-nodeployment)
 
 
 ## **Recommended Documents**
 
-* [Troubleshoot issues using Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-management)
 * [Troubleshoot issues onboarding Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)
-* [Understand the agent check results in Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues)
-* [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management)
-* [Update Management Tutorial](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management)
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Automate onboarding Update Management](https://docs.microsoft.com/azure/cloud-adoption-framework/manage/azure-server-management/onboarding-automation)
+* [Update Management Overview - Supported Clients, Permissions and Network Requirements](https://docs.microsoft.com/azure/automation/automation-update-management)

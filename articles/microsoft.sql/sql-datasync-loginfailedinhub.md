@@ -13,16 +13,18 @@
 	supportTopicIds="32630455"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_DataSync"
 />
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->  
 We were able to detect a login failure in the following Hub Database(s):<br>
-**<!--$LoginFailedHubList--> LoginFailedHubList <!--/$LoginFailedHubList-->**
-<!--/issueDescription-->
 
-Please update the credentials for the hub(s).<br>
+**<!--$LoginFailedHubList--> LoginFailedHubList <!--/$LoginFailedHubList-->**<br>
+
+Please update the credentials for the hub(s).
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

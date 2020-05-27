@@ -9,9 +9,10 @@
 	articleId="Service-healthevent-article-id"
 	diagnosticScenario="health_diagnostic"
 	selfHelpType="servicehealthinsights"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleTags="healthannotation_impactedbyoutage"
+ownershipId="ASEP_ServiceHealth"
 />
 
-# Resources in your subscription may be impacted by an Azure service issue
-Starting at <!--$ImpactStartTime-->ImpactStartTime<!--/$ImpactStartTime-->, resources in your subscription may have been impacted by an Azure service issue. Please use the links below to view the latest information about the service issue in Azure Service Health.
+# An Azure service issue impacted resources in your subscription
+Starting at <!--$ImpactStartTime-->ImpactStartTime<!--/$ImpactStartTime--> UTC, an Azure service issue impacted resources in your subscription. Please use the links below to view the latest information about the service issue in Azure Service Health.

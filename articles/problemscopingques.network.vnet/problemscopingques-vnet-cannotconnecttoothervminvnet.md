@@ -5,9 +5,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32584252"
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="700961cc-d014-45db-be70-2069dc2e00ff"
+	articleId="855c0eee-0800-4b92-a5bf-fff3858ca56a"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 # Cannot connect to another virtual machine in the same VNET
 ---
@@ -78,6 +79,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

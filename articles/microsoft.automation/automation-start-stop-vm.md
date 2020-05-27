@@ -5,16 +5,17 @@
     resource="automationaccounts"
     authors="zjalexander"
     ms.author="zachal"
-    displayorder=""
+    displayorder="400"
     selfHelpType="generic"
-    supportTopicIds="32615220,32615221,32615222,32615223,32635008,32635013,32635016,32635014"
+    supportTopicIds="32690786"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="b244b5b9-d2e0-492e-8202-48d1c1585c10"
+	ownershipId="Compute_Automation"
 />
 # Azure Automation - Start/Stop Solution
-Here are some common issues which might cause the Start/Stop solution to not behave as expected.
+Here are some common issues which might cause [the Start/Stop solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management) to not behave as expected.
 
 ## **Recommended Steps**
 

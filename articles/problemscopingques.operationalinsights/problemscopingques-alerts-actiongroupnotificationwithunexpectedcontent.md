@@ -8,8 +8,9 @@ ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32633013"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Alerts/Action Group notification with unexpected content 
@@ -87,6 +88,7 @@ schemaVersion="1"
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -8,8 +8,9 @@ ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612514"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Query produces error, times out or too slow 
@@ -50,6 +51,7 @@ schemaVersion="1"
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

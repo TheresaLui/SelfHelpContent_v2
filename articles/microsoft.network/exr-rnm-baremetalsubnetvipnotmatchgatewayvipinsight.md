@@ -13,13 +13,17 @@
     supportTopicIds="32586802, 32586803, 32586804, 32586805, 32539949, 32539950, 32539954, 32539963"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public"
- />
- 
-# **ExpressRoute RNM Brooklyn Consistency Baremetal Subnet Vip does not match Gateway VIP**
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 
-'**<!--$Message--> [Message] <!--/$Message-->**' <br />
- '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**' 
+# **ExpressRoute RNM Brooklyn Consistency Baremetal Subnet Vip does not match Gateway VIP**
+<!--/issueDescription-->
+
+* '**<!--$Message--> [Message] <!--/$Message-->**'
+* '**<!--$VNetId--> [VNetId] <!--/$VNetId-->**'
+
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
@@ -27,4 +31,5 @@
 
 
 ## **Recommended Documents**
+
 * [Configure a virtual network gateway for ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-howto-add-gateway-portal-resource-manager)

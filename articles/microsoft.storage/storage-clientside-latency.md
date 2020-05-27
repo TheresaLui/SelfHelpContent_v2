@@ -5,6 +5,7 @@ infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="shines"
+ms.author="passap"
 displayOrder=""
 articleId="Storagev2insights_Clientside_Latency"
 diagnosticScenario="Clientside Latency"
@@ -12,7 +13,8 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # **Clientside Latency RCA**

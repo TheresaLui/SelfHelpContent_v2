@@ -12,11 +12,15 @@
     diagnosticScenario="InvalidReplyUrlLocalHost"
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="enterpriseapps_samlsso_invalid_replyUrl"
-    />
+    	ownershipId="AzureIdentity_User"
+/>
 
 # SAML Request is being sent to Reply URL https://127.0.0.1:444/applications/default.aspx
+<!--/issueDescription-->
+The SAML Request is being sent to an invalid Reply URL.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

@@ -13,13 +13,19 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Password writeback is not enabled
+<!--/issueDescription-->
+User <!--$UserId-->[UserId]<!--/$UserId--> in your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> is not able to change or reset their password because password writeback is not enabled for your tenant.
+<!--/issueDescription-->
 
-We have determined that <!--$UserId-->[UserId]<!--/$UserId--> in your tenant: <!--$TenantId-->[TenantId]<!--/$TenantId--> is not able to change or reset their password because password writeback is not enabled for your tenant.
+## **Recommended Steps**
 
-To enable password writeback, follow the steps in [this article](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback).
+* To enable password writeback, follow the steps in [this article](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback)
 
-Learn more about [password writeback](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-writeback)
+## **Recommended Documents**
+
+* [Password writeback](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-writeback)

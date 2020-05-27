@@ -10,8 +10,9 @@
 	supportTopicIds="32632793"
 	resourceTags=""
   productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="e8ddb309-b560-42cc-804f-a32f2b431294"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Files and Folder Backup Completes with Warnings
@@ -19,7 +20,6 @@
 ## **Recommended Steps**
 
 - [Ensure unsupported file & folders are excluded from backup](https://aka.ms/AB-AA4dp52)<br>
-- Ensure there are no files in the protected folder that is pushed by scanning software, since these files cannot be transferred to Azure Backup service by Azure Backup agent
 
 ## **Recommended Documents**
 

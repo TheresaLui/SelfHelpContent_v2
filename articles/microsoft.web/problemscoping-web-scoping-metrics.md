@@ -6,9 +6,10 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32581617"
 	productPesIds="14748"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="bf000ecb-9268-4834-bb7f-6eced0867ded"
+	ownershipId="Compute_AppService"
 />
 
 # Metrics are not available or are incorrect
@@ -40,6 +41,7 @@
             "displayLabel": "Problem start time",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

@@ -10,8 +10,9 @@
     supportTopicIds="32629258,32629259"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="aa54c0dd-c630-400d-addc-6f289e32e559"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack SQL Resource Provider
@@ -30,6 +31,7 @@ Use the SQL Server resource provider adapter to offer SQL databases as a service
 
 ## **Recommended Documents**
 
-* [Deploy the SQL Server resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-sql-resource-provider-deploy)
-* [Add hosting servers for the SQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-sql-resource-provider-hosting-servers)
-* [Update the SQL resource provider](https://docs.microsoft.com/azure/azure-stack/azure-stack-sql-resource-provider-update)
+* [SQL Server VM images in the Marketplace](https://docs.microsoft.com/azure-stack/operator/azure-stack-sql-resource-provider-hosting-servers#sql-server-virtual-machine-images)
+* [Offer services](https://docs.microsoft.com/azure-stack/operator/azure-stack-offer-services-overview)
+* [Offer highly available SQL databases](https://docs.microsoft.com/azure-stack/operator/azure-stack-tutorial-sql)
+* [Add a standalone hosting SQL server](https://docs.microsoft.com/azure-stack/operator/azure-stack-sql-resource-provider-hosting-servers#provide-capacity-by-connecting-to-a-standalone-hosting-sql-server)

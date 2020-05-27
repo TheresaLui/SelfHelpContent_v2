@@ -10,8 +10,9 @@
 	supportTopicIds="32411885"
 	resourceTags=""
 	productPesIds="15571,16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="b3312246-5a00-41e6-819b-4f0cd3531630"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Support for Linux Azure Advisory Services

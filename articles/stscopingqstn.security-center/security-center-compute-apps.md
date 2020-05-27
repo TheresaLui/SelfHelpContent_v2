@@ -5,11 +5,12 @@
 	ms.author="jaserano"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32633030,32633059,32633073,32633076,32633077,32633078,32633080,32633099,32633149"
+	supportTopicIds="32636866"
 	resourceTags=""
 	productPesIds="15947"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c579acf1-d63b-4b46-8813-3d1997104349"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Compute and Apps Common Solutions
@@ -23,7 +24,7 @@
 - [Virtual Machine FAQ](https://docs.microsoft.com/azure/security-center/security-center-faq#virtual-machines)
 
 
-** Common Virtual Machine Recommendations**
+**Common Virtual Machine Recommendations**
 
 - [Apply Disk Encryption](https://docs.microsoft.com/azure/security-center/security-center-apply-disk-encryption)
 - [Apply System Updates](https://docs.microsoft.com/azure/security-center/security-center-apply-system-updates)

@@ -11,7 +11,8 @@
 	supportTopicIds="32584322"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - Key Management

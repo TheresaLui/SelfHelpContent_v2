@@ -10,15 +10,17 @@
     articleId="Hdi_Crud_PublicPolicy"
     diagnosticScenario="HDInsightDenyPublicIpInsight"
     selfHelpType="rca"
-    supportTopicIds="32629032, 32628987, 32636444"
+    supportTopicIds="32636423, 32636507"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 We determined that creation of the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> failed because there is a public policy in place to deny the creation of public IPs. HDInsight cluster creation requires two public IPs.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

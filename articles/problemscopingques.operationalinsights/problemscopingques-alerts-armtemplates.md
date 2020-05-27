@@ -8,8 +8,9 @@ ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612430"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Azure Resource Manager (ARM) templates
@@ -46,11 +47,11 @@ schemaVersion="1"
             "required": true,
             "hints": [
                 {
-                    "text": "Template and parameter files used",
                     "text": "Error messages"
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

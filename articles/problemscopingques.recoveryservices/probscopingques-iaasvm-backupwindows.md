@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553277"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="8a6de52d-409f-4240-ba1c-1bd98e7cc819"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM backup failure for windows
 ---
@@ -17,14 +18,31 @@
     "subscriptionRequired": true,
     "title": "Azure VM backup failure for windows",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure Virtual Machine backup failure diagnostics",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "vm_facing_issue",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "Which virtual machine(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
-            "required": true
+	    "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+       	    "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
+            "textPropertyRegex": ".*",
+	    "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Other, don't know or not applicable"
+            }
+	    },
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",
@@ -32,7 +50,7 @@
             "controlType": "textbox",
             "displayLabel": "Enter the failed backup job Activity ID:",
             "watermarkText": "Ex. cace7461-dd3c-4e38-b4db-38dc57fdee7b",
-            "required": true
+            "required": false
         },
         {
             "id": "Select_ErrorMessage",
@@ -54,12 +72,8 @@
                     "text": " Snapshot operation failed due to no network connectivity on the virtual machine"
                 },
                 {
-                    "value": "Could not copy the snapshot of the virtual machine...",
-                    "text": "Could not copy the snapshot of the virtual machine...."
-                },
-                {
-                    "value": "Could not communicate with the VM agent for snapshot status",
-                    "text": "Could not communicate with the VM agent for snapshot status"
+                    "value": "Could not copy the snapshot of the virtual machine",
+                    "text": "Could not copy the snapshot of the virtual machine"
                 },
                 {
                     "value": "VM is in Failed Provisioning State",
@@ -70,15 +84,12 @@
                     "text": "Currently Azure Backup does not support disk sizes greater than 1023GB"
                 },
                 {
-                    "value": "My error message is not listed here",
-                    "text": "My error message is not listed here"
-                },
-		{
-		    "value": "dont_know_answer",
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		}
+                }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "Basic_troubleshooting_multiselect",
@@ -106,10 +117,10 @@
                     "value": "Another backup service is not running",
                     "text": "Another backup service is not running"
                 },
-		{
-		    "value": "dont_know_answer",
+                {
+                    "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
-		}
+                }
             ],
             "required": false
         },
@@ -118,7 +129,8 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
@@ -130,6 +142,7 @@
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

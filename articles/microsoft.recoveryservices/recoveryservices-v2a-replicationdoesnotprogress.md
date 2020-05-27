@@ -9,8 +9,9 @@
 	supportTopicIds="32536441"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
 	articleId="e7973819-966a-43d6-b53d-2aa5a84cfc46"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Replication not progressing - VMware/Physical to Azure

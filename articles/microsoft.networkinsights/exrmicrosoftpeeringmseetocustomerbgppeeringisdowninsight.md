@@ -13,17 +13,19 @@
     supportTopicIds="32586802, 32586803, 32586804, 32586805, 32539949, 32539950, 32539954, 32539963"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 
 # ExpressRoute BGP Peering from MSEE to Customer Edge is Down
-
+<!--/issueDescription-->
 ExpressRoute utilizes dual/redundant BGP sessions for each peering that the customer has configured (Private/Public/Microsoft peering). One or more BGP sessions are currently down, as shown below:
 
-'**<!--$Message-->[Message]<!--/$Message-->**' <br>
-ServiceKey: '**<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**'  <br>
-MSEE: '**<!--$MSEE-->[MSEE]<!--/$MSEE-->**' <br>
-VRF Name: '**<!--$VRF-->[VRF]<!--/$VRF-->**' <br>
+* '**<!--$Message-->[Message]<!--/$Message-->**' <br>
+* ServiceKey: '**<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**'  <br>
+* MSEE: '**<!--$MSEE-->[MSEE]<!--/$MSEE-->**' <br>
+* VRF Name: '**<!--$VRF-->[VRF]<!--/$VRF-->**' <br>
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

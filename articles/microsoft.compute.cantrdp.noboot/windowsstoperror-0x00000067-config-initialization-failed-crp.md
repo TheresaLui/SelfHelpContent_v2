@@ -1,10 +1,11 @@
 <properties
-pageTitle="VM boot error"
-description="Virtual machine failed to boot with known boot error 0x00000067"
-infoBubbleText="A boot error has been found. See details on the right."
+pageTitle="VM boot error: #0x00000067 Configuration Initialization Failed"
+description="Virtual machine failed to boot and needs to restart due to a missing IMC reference, with the message: 'Config Initialization Failed'."
+infoBubbleText="A message that 'Your PC ran into a problem and needs to restart.' with the error 'CONFIG INITIALIZATION FAILED' or code #0x00000067."
 service="microsoft.compute"
 resource="virtualmachines"
-authors="ram-kakani"
+authors="mibufo"
+ms.author="v-mibufo"
 displayOrder=""
 articleId="windowsstoperror-0x00000067-config-initialization-failed-crp"
 diagnosticScenario="booterror"
@@ -12,101 +13,111 @@ selfHelpType="diagnostics"
 supportTopicIds="32411835"
 resourceTags="windows"
 productPesIds="14749"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
+ownershipId="Compute_VirtualMachines_Content"
 />
 
-# VM boot error
+# VM boot error: #0x00000067 Configuration Initialization Failed
 <!--issueDescription-->
-## **Boot error found for your virtual machine**
-We have investigated and identified that your VM <!--$vmname-->[vmname]<!--/$vmname--> is currently in an inaccessible state because windows failed to boot with error code **0x00000067**. This issue occurs when the Initial Machine Configuration (IMC) reference is set up on the boot loader but its reference is missing in the registry.
-
-If you find that you cannot connect to a VM in the future, you can view a screenshot of your VM using the boot diagnostics blade in the Azure Portal. This may help you diagnose the issue and determine if a similar boot error is the cause.
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because Windows failed to boot with error code #0x00000067 'Config Initialization Failed'. This issue occurs when the Initial Machine Configuration (IMC) reference is setup on the Boot loader, but its reference is missing in the registry.
 <!--/issueDescription-->
 
+Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would show the message **Your PC ran into a problem and needs to restart** with the error code **CONFIG INITIALIZATION FAILED** or code **0x00000067**. This may also help you diagnose future issues and determine if a boot error is the cause.<br>
+
 ## **Recommended Steps**
-To recover the VM and restore connectivity, please follow the troubleshooting steps indicated below:
 
-1. Launch [Azure Cloud Shell](https://shell.azure.com) and select PowerShell (Linux) when you see 'Welcome to Azure Cloud Shell'.
-2. If you then see 'You have no storage mounted', select the subscription where the VM you are troubleshooting resides, then select 'Create storage'.
-3. From the 'PS Azure:/>' prompt type 'cd /' then <ENTER>.
-4. Run the following command to download the scripts. Git is preinstalled in Cloud Shell. You do not need to install it separately.
-      ```
-      git clone https://github.com/Azure/azure-support-scripts $home/CloudDrive/azure-support-scripts
-      ```
+1. <a name="prepvm"><a/>Use [steps 1-3 of the VM Repair Commands](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/repair-windows-vm-using-azure-virtual-machine-repair-commands#repair-process-example) to prepare a Repair VM. Once prepared, use Remote Desktop Connection connect to the Repair VM.
 
-5. Switch into the folder by running:
-      ```
-      cd $home/CloudDrive/azure-support-scripts/VMRecovery/Resource Manager
-      ```
+2. Identify the Boot partition and the System partition. You can use **Disk Management** in the **Computer Management** tool (located in Windows Administrative Tools) to assist you.
 
-6. Run the command <!--$createrescuevm-->[createrescuevm]<!--/$createrescuevm--> to create a new "rescue VM" and attach the OS disk of the problem VM to the rescue VM as a data disk.   
-7. Connect to the rescue VM to ensure the newly attached OS disk is online and has a drive letter assigned.
-8. Identify the boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is the boot partition and the Windows partition.
+    * The Boot partition can be determined by looking in the Status column for the descriptor "boot". This partition is typically the largest partition and is usually assigned "C:" as its identifier.
 
-  * The Windows partition contains a folder named "Windows," and this partition is larger than the others.
-  * The boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB
+    * The System partition is often labeled "System Reserved" and its files are hidden by default. The System partition is small, typically about 300 MB-500 MB in size. It contains the Boot Manager and Boot Configuration Data.
 
-9. Run the following command line as an administrator to gather the BCD store information.
+    * If there's only one partition on the OS disk, this partition is both the Boot partition and the System partition.
 
-      ```
-      c:\> bcdedit /store <drive letter>:\boot\bcd /enum
+3. Open an elevated command prompt (run as administrator) and gather the current booting setup info using the `bcdedit /store <DRIVE LETTER>:\boot\bcd /enum` command.
 
-      Windows Boot Manager
-      --------------------
-      identifier              {bootmgr}
-      device                  unknown
-      description             Windows Boot Manager
-      locale                  en-us
-      inherit                 {globalsettings}
-      displayorder            {current}
-      toolsdisplayorder       {memdiag}
-      timeout                 30
+    > Replace `<DRIVE LETTER>` with the appropriate letter of your drive.
 
-      Windows Boot Loader
-      -------------------
-      identifier              {<<IDENTIFIER>>}
-      device                  boot
-      path                    \Windows\system32\winload.exe
-      description             Windows Server 2016
-      locale                  en-US
-      inherit                 {bootloadersettings}
-      recoverysequence        {821346ba-615b-11e7-a81b-000d3a23c6df}
-      recoveryenabled         No
-      osdevice                boot
-      imcdevice               locate=\IMC.hiv
-      systemroot              \Windows
-      imchivename             \IMC.hiv
-      resumeobject            {e6df4561-50ce-11e7-a810-806e6f6e6963}
-      nx                      OptOut
-      bootstatuspolicy        IgnoreAllFailures
-      ```
+    * Here's an example of the output:
 
-10. Remove the Initial Machine Configuration (IMC) references in the BCD store by executing the below commands. You must replace these placeholders by the actual values:
+        ```
+        c:\> bcdedit /store <DRIVE LETTER>:\boot\bcd /enum
+        Windows Boot Manager
+        --------------------
+        identifier              {bootmgr}
+        device                  unknown
+        description             Windows Boot Manager
+        locale                  en-us
+        inherit                 {globalsettings}
+        displayorder            {current}
+        toolsdisplayorder       {memdiag}
+        timeout                 30
 
-  * "Boot partition" is the partition that contains a hidden system folder named "Boot."
-  * "Identifier" is the identifier of Windows Boot Loader you found in the previous step.
+        Windows Boot Loader
+        -------------------
+        identifier              {<IDENTIFIER>}
+        device                  boot
+        path                    \Windows\system32\winload.exe
+        description             Windows Server 2016
+        locale                  en-US
+        inherit                 {bootloadersettings}
+        recoverysequence        {821346ba-615b-11e7-a81b-000d3a23c6df}
+        recoveryenabled         No
+        osdevice                boot
+        imcdevice               locate=\IMC.hiv
+        systemroot              \Windows
+        imchivename             \IMC.hiv
+        resumeobject            {e6df4561-50ce-11e7-a810-806e6f6e6963}
+        nx                      OptOut
+        bootstatuspolicy        IgnoreAllFailures
 
-      ```          
-      bcdedit /store [Boot partition]:\boot\bcd /deletevalue {[Identifier]} imcdevice
-      bcdedit /store [Boot partition]:\boot\bcd /deletevalue {[Identifier]} imchivename
-      ```
+        ```
 
-11. If desired, now is a good time to enable your Windows VM to use [Azure Serial Console](https://docs.microsoft.com/azure/virtual-machines/windows/serial-console) which can help in diagnosing and resolving future issues. Otherwise, skip to the step 14 to restore the VM.
-12. Run the following command line as an administrator, and then record the identifier of Windows Boot Loader (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.  You will use this identifier in the next step
+4. In the Windows Boot Loader information displayed, notice the references **imcdevice** and **imchivename**. You will need to delete those references with the following commands:
 
-      ```
-      bcdedit /store [Boot partition]:\boot\bcd /enum
-      ```
+        bcdedit /store <DRIVE LETTER>:\boot\bcd /deletevalue {<IDENTIFIER>} imcdevice
+        bcdedit /store <DRIVE LETTER>:\boot\bcd /deletevalue {<IDENTIFIER>} imchivename
 
-13. Enable Azure Serial Console by running the following command lines:
+    > Replace any `<TEXT HERE>` with the appropriate information indicated.
 
-    ```
-    bcdedit /store <drive letter>:\boot\bcd /set {bootmgr} displaybootmenu yes
-    bcdedit /store <drive letter>:\boot\bcd /set {bootmgr} timeout 5
-    bcdedit /store <drive letter>:\boot\bcd /set {bootmgr} bootems yes
-    bcdedit /store <drive letter>:\boot\bcd /ems {identifier} ON
-    bcdedit /store <drive letter>:\boot\bcd /emssettings EMSPORT:1 EMSBAUDRATE:115200
-    ```
+    > "Drive Letter" is the boot partition that contains a hidden system folder named "Boot".
 
-14. To restore the VM from the OS disk attached to the rescue VM, run <!--$restorevm-->[restorevm]<!--/$restorevm--> script
-15. Ensure the VM is now responding to RDP connectivity.
+    > "Identifier" is the identifier of Windows Boot Loader you found in the previous step.
+
+5. Use [step 5 of the VM Repair Commands](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/repair-windows-vm-using-azure-virtual-machine-repair-commands#repair-process-example) to reassemble the VM. Once reassembled, test if the VM is responding to RDP connectivity to see if this has fixed the issue.
+
+6. If the issue persists, repeat [step 1 to create a new repair VM and then connect to it](#prepvm). Once the VM is prepared, open an elevated command prompt (run as administrator) and continue with the next steps.
+
+7. Check which ControlSet the machine is booting from. You will see its key number in the `HKLM\BROKENSYSTEM\Select\Current` directory. Once located, just make the changes on the registry keys on that branch. See example below where the disk is drive F:.
+
+        reg load HKLM\BROKENSYSTEM f:\windows\system32\config\SYSTEM
+    
+        reg query "HKLM\BROKENSYSTEM\Select" /v Current
+
+    > If your disk isn't drive F:, update the letter to match your situation.
+
+8. Run the following commands to create the property *ErrorControlPolicy* on the IMC keys:
+
+    1. Get the current ControlSet from where the OS is booting:
+
+            for /f "tokens=3" %x in ('reg query HKLM\SYSTEM\Select /v Current') do set ControlSet=%x
+            set ControlSet=%ControlSet:~2,1%
+        
+    2. Create the IMC property:
+
+            set key=HKLM\BROKENSYSTEM\ControlSet00%ControlSet%\Control\InitialMachineConfig\_Global
+            reg add %key% /v ErrorControlPolicy /t REG_DWORD /d 0 /f
+            set key=HKLM\BROKENSYSTEM\ControlSet00%ControlSet%\Control\InitialMachineConfig\System
+            reg add %key% /v ErrorControlPolicy /t REG_DWORD /d 0 /f
+
+    3. Unload BROKENSYSTEM:
+        
+            reg unload HKLM\BROKENSYSTEM
+
+9. Use [step 5 of the VM Repair Commands](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/repair-windows-vm-using-azure-virtual-machine-repair-commands#repair-process-example) to reassemble the VM. Once reassembled, test if the VM is responding to RDP connectivity.
+
+## **Recommended Documents**
+
+* [Troubleshoot RDP Issues](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/rdp)

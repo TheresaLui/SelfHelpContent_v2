@@ -6,14 +6,17 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615528"
                 productPesIds="14749"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0023"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Connect to a VM
 ---
 {
-    "resourceRequired": true,
+    "$schema": "SelfHelpContent",
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "I need guidance with serial console access",
     "fileAttachmentHint": "",
     "formElements": [
@@ -44,8 +47,8 @@
                     "text": "Windows 7/Windows 8/Windows 8.1/Windows 10"
                 },
                 {
-                    "value": "Windows server 2008r2/Windows server 2012/Windows server 2012r2/Windows server 2016",
-                    "text": "Windows server 2008r2/Windows server 2012/Windows server 2012r2/Windows server 2016"
+                    "value": "Windows Server 2008R2/2012/2012R2/2016/2019",
+                    "text": "Windows Server 2008R2/2012/2012R2/2016/2019"
                 }
             ],
             "required": false
@@ -65,6 +68,7 @@
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

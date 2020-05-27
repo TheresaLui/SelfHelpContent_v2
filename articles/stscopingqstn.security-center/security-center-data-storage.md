@@ -5,11 +5,12 @@
 	ms.author="jaserano"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32633032,32633085,32633136,32633137"
+	supportTopicIds="32636912"
 	resourceTags=""
 	productPesIds="15947"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="6bc4e686-7ff5-4850-80dc-ac874cf2bee5"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Data and Storage Common Solutions

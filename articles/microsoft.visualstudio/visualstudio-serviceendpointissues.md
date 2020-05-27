@@ -12,9 +12,9 @@
 	selfHelpType="generic"
 	resourceTags=""
 	productPesIds="15543"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="Azure_DevOps_Services"
-	
+
 />
 
 # DevOps Services Endpoint Issues

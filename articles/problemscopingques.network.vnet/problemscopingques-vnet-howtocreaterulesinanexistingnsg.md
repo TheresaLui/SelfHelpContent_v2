@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32584257"
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="66574748238"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # How to create rules in an existing NSG
@@ -55,6 +56,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

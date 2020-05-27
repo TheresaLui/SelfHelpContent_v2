@@ -8,8 +8,9 @@ ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612495"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # OMI process issues: Running high CPU
@@ -114,6 +115,7 @@ schemaVersion="1"
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

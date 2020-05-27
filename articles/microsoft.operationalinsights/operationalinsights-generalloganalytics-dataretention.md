@@ -12,8 +12,9 @@ selfHelpType="generic"
 supportTopicIds="32612455"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 	articleId="f38ac17f-88a0-438e-99e9-b2185ca65341"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Data retention issue or question

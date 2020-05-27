@@ -10,8 +10,9 @@
 	supportTopicIds="32588773"
 	resourceTags=""
 	productPesIds="16170"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="cde31eb1-ee61-495f-8852-f479d6d14690"
+	ownershipId="Compute_AppService"
 />
 
 # deployment/git, github, bitbucket, dropbox
