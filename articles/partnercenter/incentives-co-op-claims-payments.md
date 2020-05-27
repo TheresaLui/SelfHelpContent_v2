@@ -1,0 +1,27 @@
+<properties
+	pageTitle="Claim payments"
+	description="Claim payments"
+	infoBubbleText=""
+	service="partnercenter"
+	resource="PartnerCenter_Incentives"
+	authors="Kim-Davis"
+	ms.author="kashanum"
+	displayOrder=""
+	articleId="incentives-co-op-claims-payments"
+	diagnosticScenario=""
+	selfHelpType="generic"
+	supportTopicIds="32739531"
+	clientIds='partnercenter'
+	resourceTags="PartnerCenter_Incentives"
+	productPesIds="17005"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Incentives"
+/>
+
+# Partner Center Incentives: Claim payments
+
+## **Recommended Steps**
+
+
+
+

@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="12b92908-c940-4d1c-9d51-1dba95a2f3ec"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # I can't connect to services offered through Microsoft peering

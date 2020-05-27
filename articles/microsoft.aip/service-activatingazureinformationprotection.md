@@ -11,7 +11,8 @@
 	articleId="Activating_Azure_Information_Protection"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - activating protection
@@ -25,7 +26,7 @@
 
 1. Make sure you are logged in as a user with Global Administrator permissions
 2. Navigate to the **Azure Information Protection** blade
-3. From the **Manage** menu option, select **Unified labeling (Preview)**
+3. From the **Manage** menu option, select **Unified labeling**
 4. On the **Azure Information Protection - Unified labeling** blade, select **Activate** and follow the online instructions
 
 Please verify that you have the appropriate permissions before activating the Security & Compliance Center Migration:

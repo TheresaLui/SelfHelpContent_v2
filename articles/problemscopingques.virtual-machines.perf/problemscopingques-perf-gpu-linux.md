@@ -6,14 +6,16 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628268"
                 productPesIds="15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0061"
+	ownershipId="Compute_VirtualMachines"
 />
 # VM Performance
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "GPU processing is slower than expected",
     "fileAttachmentHint": "",
     "formElements": [
@@ -23,7 +25,8 @@
             "controlType": "datetimepicker",
             "displayLabel": "Start time of most recent occurrence",
             "required": true
-        },{
+        },
+        {
             "id": "perf_current",
             "order": 2,
             "controlType": "dropdown",
@@ -40,7 +43,8 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "perf_gpu_detect",
             "order": 3,
             "controlType": "multiselectdropdown",
@@ -57,7 +61,8 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "applications_on_vm",
             "order": 4,
             "controlType": "multiselectdropdown",
@@ -103,27 +108,30 @@
             "required": false
         },
         {
-  				"id": "perf_gpu_apps",
-  				"order": 5,
-  				"controlType": "multilinetextbox",
-  				"displayLabel": "List all processes/applications you have identified that cause the high GPU usage.",
-  				"useAsAdditionalDetails": false,
-  				"required": true
-				},{
+            "id": "perf_gpu_apps",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "List all processes/applications you have identified that cause the high GPU usage.",
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
             "id": "gpu_version",
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "What is the version of your GPU drivers?",
             "useAsAdditionalDetails": false,
             "required": false
-        },{
-				"id": "problem_description",
-				"order": 7,
-				"controlType": "multilinetextbox",
-				"displayLabel": "Description",
-				"useAsAdditionalDetails": true,
-				"required": true
-				}
-    ]
+        },
+        {
+            "id": "problem_description",
+            "order": 7,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

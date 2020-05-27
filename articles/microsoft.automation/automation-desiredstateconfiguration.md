@@ -7,11 +7,12 @@
     ms.author="zachal"
     displayorder=""
     selfHelpType="generic"
-    supportTopicIds="32599856,32627997,32628000,32628001"
+    supportTopicIds="32599856"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="292fdbca-4f2c-4c24-9dc8-95323f30de4c"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - State Configuration (DSC)

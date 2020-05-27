@@ -6,14 +6,16 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628254"
                 productPesIds="14749"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0064"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # VM Performance
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Application, service, or website is slow",
     "fileAttachmentHint": "",
     "formElements": [
@@ -23,7 +25,8 @@
             "controlType": "datetimepicker",
             "displayLabel": "Start time of most recent occurrence",
             "required": true
-        },{
+        },
+        {
             "id": "perf_current",
             "order": 2,
             "controlType": "dropdown",
@@ -40,7 +43,8 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "applications_on_vm",
             "order": 3,
             "controlType": "multiselectdropdown",
@@ -84,21 +88,24 @@
                 }
             ],
             "required": false
-        },{
-          "id": "perf_slow_apps",
-          "order": 4,
-          "controlType": "multilinetextbox",
-          "displayLabel": "List all processes/applications you have identified that are slow.",
-          "useAsAdditionalDetails": false,
-          "required": true
-        },{
-				"id": "problem_description",
-				"order": 5,
-				"controlType": "multilinetextbox",
-				"displayLabel": "Description",
-				"useAsAdditionalDetails": true,
-				"required": true
-				}
-    ]
+        },
+        {
+            "id": "perf_slow_apps",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "List all processes/applications you have identified that are slow.",
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

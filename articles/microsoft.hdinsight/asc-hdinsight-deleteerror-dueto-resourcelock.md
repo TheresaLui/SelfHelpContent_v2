@@ -10,18 +10,21 @@
     articleId="Hdi_DeleteError_ResourceLock"
     diagnosticScenario="HDInsightClusterDeleteErrorInsight"
     selfHelpType="rca"
-    supportTopicIds="32628987, 32629037, 32629032, 32636444, 32636445"
+    supportTopicIds="32681536"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found an issue
 
 ## Problem
+<!--issueDescription-->
 The cluster delete operation for <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> failed because there are locks on some of the resources in its resource group.
 
 Since the delete did not succeed, a new cluster with the same name cannot be created in the same vNet.
+<!--/issueDescription-->
 
 ## Locked Resources
 <!--$LockedResources-->[LockedResources]<!--/$LockedResources-->

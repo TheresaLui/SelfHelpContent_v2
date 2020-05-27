@@ -7,11 +7,12 @@
               ms.author="scotro,tibasham"
               displayOrder=""
               selfHelpType="generic"
-              supportTopicIds="32615530"
+              supportTopicIds="32615530,32639644"
               resourceTags=""
-              productPesIds="14749"
-              cloudEnvironments="public"
+              productPesIds="14749,14745"
+              cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="b53b4761-a678-45ea-8869-24973e5a6678"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # My configuration change impacted Azure VM connectivity

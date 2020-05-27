@@ -1,18 +1,20 @@
 <properties
     pageTitle="Storm: Troubleshooting"
-    description="TSG / How-to for know scenario"
+    description="Storm: Troubleshooting"
     service="microsoft.hdinsight"
     resource="clusters"
     authors="dhgoelmsft"
     ms.author="dhgoel"
     displayOrder=""
     selfHelpType="Generic"
-    supportTopicIds="32629151"
+    supportTopicIds="32636501"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
     articleId="hdinsight-storm-error-failure"
+	ownershipId="AzureData_HDInsight"
 />
+
 # Azure HDInsight Storm Troubleshooting
 
 ## **Recommended Documents**

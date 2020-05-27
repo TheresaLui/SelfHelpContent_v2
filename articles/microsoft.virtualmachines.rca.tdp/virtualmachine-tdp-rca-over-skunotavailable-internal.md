@@ -13,10 +13,10 @@
 	supportTopicIds=""
 	resourceTags="windows, linux"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines"
 />
-
-# Deployment failure - SKU not available (internal)
+# Deployment Failure - SKU not available
 
 ## We ran diagnostics on your resource and found an issue
 

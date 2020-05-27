@@ -4,13 +4,15 @@
 	service="microsoft.storage"
 	resource="storage"
 	authors="passaree"
+	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602735"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="3fdc9ce8-4da4-465d-ab2f-06de0ee0e7f6"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # How to troubleshoot blob timeout error

@@ -9,8 +9,9 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
  	articleId="7bd03b92-cbe6-4f9b-9505-ddf164043f02"
+	ownershipId="AzureML_AzureMachineLearning"
 />
 
 # I have a question regarding billing for machine learning web service plans

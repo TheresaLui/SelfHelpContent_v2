@@ -10,10 +10,11 @@
     articleId="Hdi_Ambari_ServerNotRunning"
     diagnosticScenario="HDInsightAmbariServerNotRunningInsight"
     selfHelpType="diagnostics"
-    supportTopicIds="32628984, 32629005, 32629006, 32636436, 32636437"
+    supportTopicIds="32636419"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Ambari Service is not running
@@ -21,8 +22,7 @@
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is not running Ambari server.
-Ambari server has to run on the **headnodehost** to display any metrics.
+The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is not running Ambari server. Ambari server has to run on the **headnodehost** to display any metrics.
 <!--/issueDescription-->
 
 In an HDInsight cluster, the **headnodehost** is the default headnode on which Ambari server is started. All Ambari agents in the cluster will send heartbeats to the **headnodehost**.

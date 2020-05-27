@@ -10,15 +10,17 @@
     articleId="Hdi_Crud_ExceededDeploymentQuota"
     diagnosticScenario="HDInsightExceededDeploymentQuotaInsight"
     selfHelpType="rca"
-    supportTopicIds="32628987, 32629125, 32629032, 32636444, 32636492"
+    supportTopicIds="32681543"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 You have reached the limit on the maximum number of deployments allowed per resource group. Current deployment quota is <!--$DeploymentQuota-->[DeploymentQuota]<!--/$DeploymentQuota-->. Please delete deployments that are no longer needed from the deployment history of resource group '<!--$ResourceGroup-->[ResourceGroup]<!--/$ResourceGroup-->' to resolve the issue. 
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
@@ -40,6 +42,7 @@ You can also setup a scheduled [Runbook within Azure Automation](https://docs.mi
 
 ## **Recommended Documents**
 
+* [What can I do when cluster provisioning fails because of a capacity issue?](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#what-can-i-do-when-cluster-provisioning-fails-because-of-a-capacity-issue)
 * [Azure subscription and service limits, quotas, and constraints](https://azure.microsoft.com/documentation/articles/azure-subscription-service-limits/)
 * [Handling Azure Resource Manager Deployment Limits](https://sharepointforum.org/threads/handling-azure-resource-manager-deployment-limits.52107/)
 * [Start a runbook in Azure Automation](https://docs.microsoft.com/azure/automation/start-runbooks)

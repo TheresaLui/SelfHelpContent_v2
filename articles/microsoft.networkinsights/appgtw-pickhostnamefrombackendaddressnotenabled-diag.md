@@ -12,9 +12,10 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
-# Application Gateway Performance Pick Host Name Not Set
+# Application Gateway Pick Host Name Not Set
 <!--issueDescription-->
 **'PickHostNameFromBackendAddress'** is not enabled on this Application Gateway. If the backend is a multi-tenant resource, such as, Azure Web Apps or App Service Environments, PickHostNameFromBackendAddress might need to be enabled if backend FQDN does not match with the host sent in the URL.
 <!--/issueDescription-->

@@ -1,14 +1,16 @@
 <properties 
     pageTitle="Problem with AAD B2C policy management"
     description="aadb2cpolicymanagement"
-    authors="anupnadigm"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32422332"
-    productPesIds="14785,16580"
-    cloudEnvironments="public"
+    supportTopicIds="32633316,32633317,32633318,32633320,32633325,32633327,32633328"
+    productPesIds="16580"
+    authors="parakhj"
+    ms.author="parja"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="bbc964b0-abd5-454c-a3d6-166efb09c09a"
-    />
+    	ownershipId="AzureIdentity_B2C"
+/>
 # Problem with AAD B2C policy management 
 ---
 {
@@ -28,11 +30,11 @@
             "dropdownOptions": [
                 {
                     "text": "Built-in Policy",
-                    "value": "no"
+                    "value": "built-in"
                 },
                 {
                     "text": "Custom Policy",
-                    "value": "yes"
+                    "value": "custom"
                 },
                 {
                     "value": "dont_know_answer",
@@ -40,7 +42,6 @@
                 }
             ],
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -57,7 +58,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -74,7 +74,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -91,7 +90,6 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
@@ -108,8 +106,7 @@
             "infoBalloonText": null,
             "dropdownOptions": null,
             "dynamicDropdownOptions": null,
-            "hints": [],
-            "required": false,
+            "required": true,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 0
@@ -131,6 +128,7 @@
             "useAsAdditionalDetails": true,
             "numberOfLines": 0
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

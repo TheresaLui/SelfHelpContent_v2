@@ -6,25 +6,28 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32565835"
                 productPesIds="14749,15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0104"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # VM Migration
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Managed disks migration",
     "fileAttachmentHint": "",
     "formElements": [
-    {
-        "id": "migration_error",
-        "order": 1,
-        "controlType": "multilinetextbox",
-        "displayLabel": "What is the error you received?",
-        "required": false,
-        "useAsAdditionalDetails": false
-    },{
+        {
+            "id": "migration_error",
+            "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is the error you received?",
+            "required": false,
+            "useAsAdditionalDetails": false
+        },
+        {
             "id": "migration_scenario",
             "order": 2,
             "controlType": "dropdown",
@@ -53,20 +56,23 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "problem_description",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
             "required": true
-        },{
+        },
+        {
             "id": "problem_start_time",
             "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

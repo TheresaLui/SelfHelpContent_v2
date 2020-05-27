@@ -13,19 +13,21 @@
     supportTopicIds="32586802, 32586803, 32586804, 32586805, 32539949, 32539950, 32539954, 32539963"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 
 # The NAT IP Address is not in the Expected NAT IP Address Range
-
+<!--/issueDescription-->
 Public peering on ExpressRoute uses the NAT to translate private IP space into public IP space. ExpressRoute by default allocates a single unique public IP address on each MSEE device, which corresponds with the public peering configuration that the customer has configured.
 
-**Note**: Private and Microsoft peering do not apply to this insight.*
+**Note**: Private and Microsoft peering do not apply to this insight.
 
-'**<!--$Message-->[Message]<!--/$Message-->**' <br>
-ServiceKey: '**<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**'  <br>
-MSEE: '**<!--$MSEE-->[MSEE]<!--/$MSEE-->**' <br>
-VRF Name: '**<!--$VRF-->[VRF]<!--/$VRF-->**' <br>
+* '**<!--$Message-->[Message]<!--/$Message-->**' <br>
+* ServiceKey: '**<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**'  <br>
+* MSEE: '**<!--$MSEE-->[MSEE]<!--/$MSEE-->**' <br>
+* VRF Name: '**<!--$VRF-->[VRF]<!--/$VRF-->**' <br>
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
@@ -34,4 +36,5 @@ The NAT IP addresses are allocated dynamically at the time of public peering cre
 1. Execute **Jarvis Actions** operation: **Brooklyn->ExR Service Operations->Force Apply Device Configuration** for ServiceKey: '**<!--$ServiceKey-->[ServiceKey]<!--/$ServiceKey-->**'
 
 ## **Recommended Document**
+
 * [ExpressRoute NAT requirements](https://docs.microsoft.com/azure/expressroute/expressroute-nat#nat-requirements-for-azure-public-peering) <br>

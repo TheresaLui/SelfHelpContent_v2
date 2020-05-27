@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32589558"
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="13819438614"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 # Issues configuring VNet Peering
 ---
@@ -45,7 +46,7 @@
             "displayLabel": "When did the problem begin?",
             "required": true
         },
-                {
+        {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
@@ -58,6 +59,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

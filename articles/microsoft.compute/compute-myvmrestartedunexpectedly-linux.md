@@ -5,13 +5,14 @@
 	resource="virtualmachines"
 	authors="ScottAzure"
 	ms.author="scotro"
-	displayOrder="55"
+	displayOrder="53"
 	selfHelpType="resource"
 	supportTopicIds="32628269,32628280,32628287"
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="15797,15571,16470,16454,16342"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="ccda7af8-571e-48ad-9b1e-63b0b2a3101b"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Resolve issues with an unexpected Linux VM restart
@@ -20,11 +21,13 @@
 
 ## **Recommended Steps**
 
-The most common reasons for a VM restarting are Azure caused (planned/unplanned maintenance or outage), or issues with the OS or application. Use the following steps to find out the reason for a past restart and to mitigate possible future occurrences:
+**[Azure Resource Health](https://docs.microsoft.com/azure/resource-health/resource-health-overview)** helps you diagnose and get support when an Azure service problem affects your resources. It informs you about the current and past health of your resources, and it provides technical support to help you mitigate problems. <br>
 
-1. Review [Resource Health](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId) for the impacted VM to understand the RCA
-2. Review [Audit logs](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId) for the time period of the restart to determine the reason
+Where **[Azure Status](https://status.azure.com/)** informs you about service problems that affect a broad set of Azure customers, **[Resource Health](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId)** gives you a personalized dashboard of the health of your resources. Resource Health shows you all the times your resources were unavailable in the past because of Azure service problems.
 
+1. Review [Resource Health blade](data-blade:Microsoft_Azure_Health.resourcehealthdetailblade.resourceId.$resourceId) for any impactful events specific for your VM<br>
+2. Review the [Current Azure Status](https://status.azure.com/status/) or [Azure Status - History](https://status.azure.com/status/history/) for outages<br>
+3. [Understand more about Audit logs](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) and using [Audit and Activity Log blade](data-blade:Microsoft_Azure_Insights.AzureDiagnosticsBladeWithParameter.subscriptionId.$subscriptionId)
 
 ## **Recommended Documents**
 

@@ -4,13 +4,15 @@
 	service="microsoft.storage"
 	resource="storage"
 	authors="passaree"
+	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602734"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="79e7465d-f9b4-4e70-a715-59de1a39b376"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # How to troubleshoot blob throttling error

@@ -5,13 +5,15 @@
 	service="microsoft.storage"
 	resource="storage"
 	authors="Passaree"
+	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602738"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="867e9c97-2a7b-43c4-9ae3-be0d5181e5d5"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Unable to delete Blob or Container

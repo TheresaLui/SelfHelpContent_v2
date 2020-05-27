@@ -4,8 +4,8 @@
 	infoBubbleText=""
 	service="microsoft.storage"
 	resource="datalakestoragegen2"
-	authors="ramMSFT"
-	ms.author="raprasad"
+	authors="kartikshah9"
+	ms.author="kashah"
 	displayOrder=""
 	articleId="d84533bf-6808-40b8-97ed-a913e7beec22"
 	diagnosticScenario=""
@@ -13,11 +13,15 @@
 	supportTopicIds="32612606"
 	resourceTags=""
 	productPesIds="16598"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 
 # Azure Data Lake Gen2 Storage Powershell
 
 ## **Recommended Documents**
 
-* [Create an account using Powershell](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json#create-an-account-using-powershell/)<br>
+Most customers resolve their Powershell related issues with Azure Data Lake Gen2 Storage on their own, using the links below.
+
+* [Access Control Lists Code Samples](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-directory-file-acl-powershell)<br>
+* [Additional Code Samples](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-directory-file-acl-powershell)<br>

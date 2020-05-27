@@ -13,7 +13,8 @@
 	supportTopicIds="32630503"
 	resourceTags="8000Series"
 	productPesIds="15438"	
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # I can't create 8010 or 8020 cloud appliances in an Azure region 

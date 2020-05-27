@@ -9,19 +9,22 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="diagnostics"
-    supportTopicIds="32599711,32599712,32599713"
+    supportTopicIds=""
     productPesIds="16456"
-    cloudEnvironments="public"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     articleId="e9802b12-2126-4064-be9c-edf32897515c"
+    ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - One or more Azure Policy evaluation records (deny action) detected
 
-Creating an ARM resource or ARM deployment may result in a policy violation. 
+<!--issueDescription-->
+Creating an ARM resource or ARM deployment may result in a policy violation.
 
-Here is a list of the policy violations: 
+Here is a list of the policy violations:
 
 <!--$policyAssignmentDetail-->[policyAssignmentDetail]<!--/$policyAssignmentDetail-->
+<!--/issueDescription-->
 
 ## **Recommended Documents**
 

@@ -10,8 +10,9 @@
     supportTopicIds="32608917"
     resourceTags=""
     productPesIds="16556"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="a8997b25-c305-46ec-b896-2d5fbd639d6b"
+	ownershipId="CloudNet_AzureFirewall"
 />
 
 # Support for Azure Firewall Traffic issues

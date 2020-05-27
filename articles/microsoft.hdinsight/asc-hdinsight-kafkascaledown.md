@@ -10,17 +10,18 @@
     articleId="Hdi_Kafka_ScaleDownFailure"
     diagnosticScenario="HDInsightKafkaScaleDownInsight"
     selfHelpType="diagnostics"
-    supportTopicIds="32628995, 32629125, 32636492, 32636468"
+    supportTopicIds="32681539"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-On <!--$PreciseTimeStamp-->[PreciseTimeStamp]<!--/$PreciseTimeStamp--> an operation to scale down the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> 
-failed as scaling down of nodes is not supported for HDInsight Kafka clusters.
+On <!--$PreciseTimeStamp-->[PreciseTimeStamp]<!--/$PreciseTimeStamp--> an operation to scale down the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName-->
+failed, as scaling down of nodes is not supported for HDInsight Kafka clusters.
 <!--/issueDescription-->
 
 Apache Kafka on HDInsight is a technology used for data ingestion and retention. Data is stored in each node of the cluster. Scaling down an HDInsight Kafka cluster would result in the removal of nodes from the cluster. All the data stored in the removed nodes will be lost.

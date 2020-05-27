@@ -9,8 +9,9 @@
     supportTopicIds="32511188"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
 	articleId="1ae8e6fb-c80d-4b47-8795-fcb5282dd8b1"
+	ownershipId="AzureData_HDInsight"
 />
 
 # I see 'Out of Memory' errors when using Hive

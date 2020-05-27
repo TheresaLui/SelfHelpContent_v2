@@ -6,15 +6,15 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32547224"
     productPesIds="15526"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="7ytdr800961cc-d014-45db-be70-2069dc2e00ff"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Bandwidth or latency issues
 
 ---
-
 {
     "resourceRequired": true,
     "title": "Bandwidth or latency issues",
@@ -56,6 +56,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---

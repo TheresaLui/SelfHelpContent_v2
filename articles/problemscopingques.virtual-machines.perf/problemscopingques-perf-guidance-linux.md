@@ -6,14 +6,16 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628270"
                 productPesIds="15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0063"
+	ownershipId="Compute_VirtualMachines"
 />
 # VM Performance
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Guidance for better VM sizing and throughput",
     "fileAttachmentHint": "",
     "formElements": [
@@ -23,7 +25,8 @@
             "controlType": "datetimepicker",
             "displayLabel": "Start time of most recent occurrence",
             "required": true
-        },{
+        },
+        {
             "id": "perf_current",
             "order": 2,
             "controlType": "dropdown",
@@ -40,7 +43,8 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "perf_constraints",
             "order": 3,
             "controlType": "multiselectdropdown",
@@ -69,7 +73,8 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "applications_on_vm",
             "order": 4,
             "controlType": "multiselectdropdown",
@@ -79,7 +84,7 @@
                     "value": "Apache Tomcat / Web Front end",
                     "text": "Apache Tomcat / Web Front end"
                 },
-								{
+                {
                     "value": "MongoDB",
                     "text": "MongoDB"
                 },
@@ -101,7 +106,8 @@
                 }
             ],
             "required": false
-        },{
+        },
+        {
             "id": "perf_storage",
             "order": 5,
             "controlType": "dropdown",
@@ -118,14 +124,16 @@
                 }
             ],
             "required": false
-        },{
-				"id": "problem_description",
-				"order": 6,
-				"controlType": "multilinetextbox",
-				"displayLabel": "Description",
-				"useAsAdditionalDetails": true,
-				"required": true
-				}
-    ]
+        },
+        {
+            "id": "problem_description",
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "useAsAdditionalDetails": true,
+            "required": true
+        }
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
