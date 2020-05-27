@@ -28,6 +28,45 @@
             "required": true
         },
     {
+            "id": "Tool_dropdown",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "What is the tool being used?",
+            "watermarkText": "Choose an option",
+            "infoBalloonText": "Choose the tool being used",
+			      "dropdownOptions": [
+                {
+                    "value": "DMS",
+                    "text": "Database Migration Service (DMS)"
+                },
+                {
+                    "value": "DMA",
+                    "text": "Database Migration Assistant (DMA)"
+                },
+                {
+                    "value": "BACPAC",
+                    "text": "Export/Import BACPAC"
+                },
+                {
+                    "value": "SSMA",
+                    "text": "SQL Server Migration Assistant"
+                },
+                {
+                    "value": "repl",
+                    "text": "Transaction replication"
+                },
+                {
+                    "value": "DEA",
+                    "text": "Database Experimentation Assistant"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know the answer or other answer"
+                }
+            ],
+            "required": true
+        },
+    {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
