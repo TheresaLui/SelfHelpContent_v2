@@ -14,7 +14,7 @@
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
   "recommendationOfferingName": "ReservedInstances",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "a1d7f3cd-7328-4f0d-8e69-903e9caa4caa",
+  "recommendationTypeId": "885cd4f5-dfa0-4d68-bbfd-00f89fc2b69c",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('acereservations.kusto.windows.net').database('reservations').getSQLDBRecoAdvisor()",
     "dataSource": "Kusto",
@@ -43,7 +43,7 @@
   "potentialBenefits": "savings",
   "actions": [
     {
-      "actionId": "a1d7f3cd-7328-4f0d-8e69-903e9caa4caa",
+      "actionId": "b3a3bbb5-feaf-4c02-9d67-aa314bc1b477",
       "description": "(Preview) Consider reserved capacity for {displaySKU} in {displayRegion} for {displayQty} vCores",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Reservations",
