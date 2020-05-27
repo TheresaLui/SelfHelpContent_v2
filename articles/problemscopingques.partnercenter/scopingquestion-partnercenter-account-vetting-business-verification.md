@@ -12,7 +12,7 @@
 	clientIds="partnercenter"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
-# Partner Center Vetting - business verification
+# Partner Center Vetting - business verification 
 ---
 {
     "resourceRequired": true,
