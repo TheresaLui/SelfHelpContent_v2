@@ -18,7 +18,7 @@
 
 # performance and query execution/unexpected increase in resource consumption or DTUS
 
-## **TempDB Issues**
+## TempDB Issues
 
 If you are facing issues due to Tempdb being full, and are not able to resolve it, you can do a failover to clear tempdb. 
 Failover changes the node of a database and moves it to a new node, it is recommended that you do not have any active workload running if you are doing a failover. 
