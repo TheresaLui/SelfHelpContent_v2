@@ -115,7 +115,7 @@
             "id": "source",
             "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "Where is located the source DB\BACPAC file?",
+            "displayLabel": "Where is located the source DB or BACPAC file?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Choose the source location",
 	    "dropdownOptions": [
