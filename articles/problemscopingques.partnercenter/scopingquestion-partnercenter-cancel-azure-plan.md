@@ -18,7 +18,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Partner Center Cancel Azure plan without RBAC",
-    "fileAttachmentHint": "Please attach a screenshot or any other files that may help explain your request",
+    "fileAttachmentHint": "Please attach a screenshot or any other files that may help explain your request.",
     "formElements": [
 	{
             "id": "pc_customer_name",
