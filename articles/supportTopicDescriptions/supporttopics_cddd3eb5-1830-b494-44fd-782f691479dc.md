@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "bae68529-51c1-d9b0-9e84-157fe59ac631",
+      "longDescription": "",
+      "shortDescription": " Request to increase the subscription limit",
+      "searchTags": "Subscription limit",
+      "category": "Quota",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bf46b021-8045-213e-8857-d7b83562e22e",
       "longDescription": "",
       "shortDescription": "Assistance when the guest OS is causing restarts repeatedly",
