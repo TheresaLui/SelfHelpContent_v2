@@ -17,7 +17,7 @@
 
 # **I need to change how long Application Insights retains my data**
 
-To change the retention, from your Application Insights resource, go to the Usage and Estimated Costs page and select the Data Retention option. Move the slider to select a desired retention. [Learn more](https://docs.microsoft.com/azure/azure-monitor/app/pricing#change-the-data-retention-period) about changing your data retention.
+To change the data retention, from your Application Insights resource, go to the Usage and Estimated Costs page and select the Data Retention option. Move the slider to select a desired retention. [Learn more](https://docs.microsoft.com/azure/azure-monitor/app/pricing#change-the-data-retention-period) about changing your data retention.
 
 ## **Recommended Documents**
 
