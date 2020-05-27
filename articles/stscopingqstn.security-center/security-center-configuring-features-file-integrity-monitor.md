@@ -14,19 +14,19 @@
 />
 
 # Azure Security Center – Configuring Features – File Integrity Monitor  
-**Note:**  
-FIM uses the Azure Change Tracking solution to track and identify changes in your environment. When File Integrity Monitoring is enabled, you have a Change Tracking resource of type Solution. For data collection frequency details, see [Change Tracking data collection details](https://docs.microsoft.com/azure/automation/automation-change-tracking#change-tracking-data-collection-details) for Azure Change Tracking.
 
+**Note:** FIM uses the Azure Change Tracking solution to track and identify changes in your environment. When File Integrity Monitoring is enabled, you have a Change Tracking resource of type Solution. For data collection frequency details, see [Change Tracking data collection details](https://docs.microsoft.com/azure/automation/automation-change-tracking#change-tracking-data-collection-details) for Azure Change Tracking.
 
 ## Azure Security Center File Integrity monitor Configuration failure
 
 To resolve the configuration failure, open the relevant Log Analytics workspace and check the **Solution** section to see whether the following solutions are presented:
+
 - Security
 - Change tracking
 
 If one of these two solutions are not enabled on the workspace solution list, go to **Security Center - File Integrity Monitoring**, and press **Enable** or **Upgrade**.
 
-## Azure Security Center File Integrity monitor - FIM false report
+### Azure Security Center File Integrity monitor - FIM false report
 
 To check if the false reporting is a UI issue or change tracking issue, you need to open Log Analytics workspace -> Logs and run this query:
 
@@ -37,9 +37,10 @@ To check if the false reporting is a UI issue or change tracking issue, you need
     | render table
 
 If you don't see the results in the workspace, contact our support.  
+
 If results are returned, it means that the feature found a change, and the results did not appear in the FIM UI because of the 100 item view limitation. We only present the last 100 changes in the UI.
 
-## Azure Security Center File Integrity monitor - FIM Workspace or other issue
+### Azure Security Center File Integrity monitor - FIM Workspace or other issue
 
 File Integrity monitor uses the Azure Change Tracking solution to track and identify changes in your environment. When File Integrity Monitoring is enabled, a Change Tracking resource (Log Analytics workspace) is created in your subscription. If you remove this Change Tracking resource, File Integrity Monitoring feature will be disabled.
 
