@@ -7,7 +7,7 @@
 	authors="vijayma"
 	ms.author="vijayma"
 	articleId="AZDevOpsPipelinesMSHostedIssues"
-	supportTopicIds=""
+	supportTopicIds="32742318"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	resourceTags=""
@@ -28,7 +28,7 @@ Are you facing one of these common problems?
 
 	- [Check to make sure that you have not exceeded your parallel job limits](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting?view=azure-devops#my-pipeline-tries-to-start-but-never-gets-an-agent).
 	- If your jobs are experiencing long delays (> 30 mins), check our [service status page](https://status.dev.azure.com/).
-	- [Report a service outage](https://support.microsoft.com/en-us/supportrequestform/e5848d32-abfe-4091-dbde-43caa4d30d0f). This is more effective than creating a support ticket.
+	- [Report a service outage](https://support.microsoft.com/supportrequestform/e5848d32-abfe-4091-dbde-43caa4d30d0f). This is more effective than creating a support ticket.
 
 * I need to buy more concurrency or parallel jobs.
 
@@ -37,7 +37,7 @@ Are you facing one of these common problems?
 
 * My pipeline fails with the error: **no space left on device**.
 
-	Microsoft-hosted agents only have 10 GB of disk space available for running your job. We **cannot** increase the free space available on Microsoft-hosted images. Read the topic on [Microsoft-hosted agents](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops) and the [Q & A](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops#q--a) at the end of that topic to understand what consumes this space, and what you can do to workaround this problem.
+	Microsoft-hosted agents only have 10 GB of disk space available for running your job. We **cannot** increase the free space available on Microsoft-hosted images. Read the topic on [Microsoft-hosted agents](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops) and the [Q & A](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops#q--a) at the end of that topic to understand what consumes this space, and what you can do to workaround this problem.
 
 * The pipeline fails because Microsoft-hosted agents are **unable to reach resources in my company network**.
 
@@ -45,11 +45,11 @@ Are you facing one of these common problems?
 
 * My pipeline **works on self-hosted agents**, but fails on Microsof-hosted agents.
 
-	This clearly indicates that the software installed on Microsof-hosted agents is not the same as that on your self-hosted agents. Read the section on [software](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops#software) and [Q & A](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops#q--a) to understand what is exactly installed on Microsoft-hosted agents and what you need to do to request an update to that software.
+	This clearly indicates that the software installed on Microsof-hosted agents is not the same as that on your self-hosted agents. Read the section on [software](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops#software) and [Q & A](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops#q--a) to understand what is exactly installed on Microsoft-hosted agents and what you need to do to request an update to that software.
 
 * I don't see Azure Pipelines agent pool.
 
-	Azure Pipelines agent pool or Microsoft-hosted agents are only available in Azure DevOps. They are not available in Azure DevOps Server or in TFS server. If you are using Azure DevOps, and are still not seeing the Azure Pipelines agent pool, see this [Q & A](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops#q--a) and read this document to understand [permissions on agent pools](https://docs.microsoft.com/azure/devops/pipelines/agents/pools-queues?view=azure-devops#security).
+	Azure Pipelines agent pool or Microsoft-hosted agents are only available in Azure DevOps. They are not available in Azure DevOps Server or in TFS server. If you are using Azure DevOps, and are still not seeing the Azure Pipelines agent pool, see this [Q & A](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops#q--a) and read this document to understand [permissions on agent pools](https://docs.microsoft.com/azure/devops/pipelines/agents/pools-queues?view=azure-devops#security).
 
 * I want to get a new tool or software installed on Microsoft-hosted agents.
 
