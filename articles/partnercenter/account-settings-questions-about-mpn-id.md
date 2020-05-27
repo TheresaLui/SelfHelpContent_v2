@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Accounts settings - MPNID"
-	description="Accounts settings - MPNID"
+	pageTitle="Accounts settings MPNID"
+	description="Accounts settings MPNID"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
