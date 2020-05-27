@@ -11,7 +11,7 @@
 	articleId="2750A106-78C7-4B04-9C1D-379E5AE478D2"
 	ownershipId="Compute_BotService"
 />
-# Create a bot channel registration
+# Create a bot channel registration 
 ---
 {
     "$schema": "SelfHelpContent",
