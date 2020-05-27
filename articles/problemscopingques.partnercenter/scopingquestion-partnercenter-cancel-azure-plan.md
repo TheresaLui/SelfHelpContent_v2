@@ -26,14 +26,14 @@
             "controlType": "textbox",
             "displayLabel": "Please provide the first and last name of your customer",
             "watermarkText": "First and last name",
-            "required": true
+            "required": false
         },
 	{
             "id": "pc_customer_phone",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Please provide a contact name for the customer",
-            "required": true
+            "required": false
         },
 	{
             "id": "pc_customer_email",
@@ -48,7 +48,7 @@
             "controlType": "textbox",
             "displayLabel": "Please provide the tenant id for the customer that has the Azure plan you would like to cancel",
             "watermarkText": "Provide the customer tenant id as a GUID",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
