@@ -17,6 +17,7 @@
 	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
 	"subscriptionRequired": false,
+	"title": "Migration tools",
 	"formElements": [
         {
             "id": "problem_start_time",
@@ -73,7 +74,7 @@
             "displayLabel": "What is the DB engine source?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Choose the DB engine source",
-			      "dropdownOptions": [
+	    "dropdownOptions": [
                 {
                     "value": "Access",
                     "text": "Access"
@@ -105,7 +106,7 @@
             "id": "tool_version",
             "order": 4,
             "controlType": "textbox",
-	          "visibility": "Tool_dropdown == DMA || Tool_dropdown == SSMA || Tool_dropdown == DEA || Tool_dropdown == BACPAC ",
+	          "visibility": "Tool_dropdown == DMA || Tool_dropdown == SSMA || Tool_dropdown == DEA || Tool_dropdown == BACPAC",
             "displayLabel": "What is the tool version?",
             "infoBalloonText": "Enter the tool version being used",
             "required": false
@@ -117,7 +118,7 @@
             "displayLabel": "Where is located the source DB\BACPAC file?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Choose the source location",
-			"dropdownOptions": [
+	    "dropdownOptions": [
                 {
                     "value": "Storage",
                     "text": "Azure Storage"
