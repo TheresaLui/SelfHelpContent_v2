@@ -87,8 +87,8 @@
             "order": 3,
             "controlType": "textbox",
             "visibility": "engine_source != dont_know_answer",
-            "displayLabel": "How many DBs are planning for migration?",
-            "infoBalloonText": "Enter the number of database planning for migration.",
+            "displayLabel": "What is the version of the database engine?",
+            "infoBalloonText": "Enter the version of the database.",
             "required": false
         },
 	{
