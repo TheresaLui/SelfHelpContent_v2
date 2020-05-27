@@ -12,7 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="MIP_Onboard_Scanner_Install_config"
-	ownershipId="AzureInformationProtection"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection  - Installing, Onboarding, or Decommissioning - AIP Scanner Installation and Configuration

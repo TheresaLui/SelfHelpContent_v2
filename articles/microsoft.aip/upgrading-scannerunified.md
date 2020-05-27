@@ -12,7 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="MIP_Upgrading_Scanner_Unified"
-	ownershipId="AzureInformationProtection"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection  - Upgrading and Migration - Upgrade AIP Scanner Unified
