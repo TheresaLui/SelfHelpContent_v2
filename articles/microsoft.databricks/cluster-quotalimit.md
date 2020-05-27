@@ -24,10 +24,12 @@
 * To expedite the process to increase quota, please follow the steps:
 
     * Go to [subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
-    * Select the subscription that needs an increased quota
+    * Select the subscription whose quota you want to increase
     * Select Usage + quotas
     * In the upper right corner, select Request increase
     * Fill in the forms for the type of quota you need to increase
+  
+  For detailed please follow the article [here](https://docs.microsoft.com/azure/azure-portal/supportability/per-vm-quota-requests#request-a-standard-quota-increase-from-subscriptions)
 
 * To check current resources, please navigate to: Azure Portal under your subscription --> Usage + quotas
 
