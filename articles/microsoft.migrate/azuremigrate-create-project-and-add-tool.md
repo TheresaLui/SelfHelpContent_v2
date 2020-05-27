@@ -17,8 +17,8 @@
 
 ## **Recommended Steps**
 
-### **How to check whether user has appropriate access to create a project** 
-For creating a project user needs “Owner” or “Contributor” permissions. [Please check here,](https://docs.microsoft.com/azure/role-based-access-control/check-access) whether you have required accesses
+### **How to check whether user has appropriate access to create a project**
+For creating a project user needs "Owner" or "COntributor" permissions. [Pleaes check here,](https://docs.microsoft.com/azure/role-based-access-control/check-access) whether you have required access
 
 ### **I don't see a particular geography when creating the Azure Migrate project**
 
