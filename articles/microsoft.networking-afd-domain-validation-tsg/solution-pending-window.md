@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Domain validation takes a minimum 8 hours"
 	description="Domain validation takes a minimum 8 hours"
-	service="Microsoft.Network/"
+	service="Microsoft.Network"
 	resource="Microsoft.Network/frontDoors"
 	authors="JRMayberry"
 	ms.author="rimayber"
