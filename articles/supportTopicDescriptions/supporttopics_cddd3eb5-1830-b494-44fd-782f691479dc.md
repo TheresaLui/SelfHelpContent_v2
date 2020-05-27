@@ -214,6 +214,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9f3b8c5f-02c0-7f6e-7b95-9a00ba99aded",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues with connecting to your VM via RDP or SSH due to configuration or other changes",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a4b8355c-cf91-9ccd-ff84-80019d1e63c2",
       "longDescription": "",
       "shortDescription": "Assistance with deploying a virtual machine with managed disks",
