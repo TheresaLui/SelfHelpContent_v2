@@ -34,6 +34,7 @@ Below are the reasons why your claim status might be **Partner Action Required**
 	3. **Missing or Old Dates** – Dates on PoE are missing or old in relation to the claim
 	4. **Missing Partner Solution/Service** – The description of work you have completed is insufficient or not included in the document
 	5. **Missing Products** - PoE doesn’t include a product or workload being claimed for
+	
 * **Rejected** - Your PoE was insufficient, or you did not respond within 5 business days per the PoE review guidelines, and the claim has been denied. Below are the 3 most common reasons your claim may have been rejected:
 	1. **Partner request** - Partners can request to have their association rejected. This is mostly used when the partner has created a CPOR association claim by mistake utilizing an incorrect MPN, chosen an incorrect Activity.
 	2. **Customer Decline** - Once the CPOR association claim has gone through the PoE approval process successfully, its status changes to Approved while the customer is provided the opportunity to deny consent of the association. If the customer denies consent, then the association will be rejected. 
