@@ -22,7 +22,7 @@
 
 ## **Recommended Steps**
 
-**Submit a PoE**
+**How to submit a PoE**
 
 1. Sign into the [Partner Center dashboard](http://partner.microsoft.com/dashboard).
 2. On your **Incentives** page, select **Plan Management**, and then select the program you want. The status page will open. 
