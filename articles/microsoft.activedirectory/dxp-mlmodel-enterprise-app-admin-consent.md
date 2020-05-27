@@ -1,7 +1,7 @@
 <properties
     pageTitle="Admin Consent Issues"
     description="Common issues related to Admin Consent"
-	infoBubbleText="Please try self diagnosis with our intelligent knowledge base"
+    infoBubbleText="Please try self diagnosis with our intelligent knowledge base"
     service="microsoft.activedirectory"
     resource=""
     authors="rachundi"
