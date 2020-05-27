@@ -18,7 +18,7 @@
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Account settings - MPNID
+# Account settings - MPNID
 
 Resources about Microsoft Partner Network accounts.
 
