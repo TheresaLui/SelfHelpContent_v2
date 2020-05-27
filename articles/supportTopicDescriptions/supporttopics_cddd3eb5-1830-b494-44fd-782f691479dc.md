@@ -318,6 +318,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e342b350-f513-22fa-a4d2-3a642fd1c5c5",
+      "longDescription": "",
+      "shortDescription": "Your VM has entered a non-bootable state and is either not booting at all or is on a reboot loop",
+      "searchTags": "Boot",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e41e015e-0ec8-24c9-974f-79fe0d285f9e",
       "longDescription": "",
       "shortDescription": "Guidance with preparing an image properly for deploying into Azure",
