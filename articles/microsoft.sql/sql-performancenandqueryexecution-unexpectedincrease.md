@@ -3,9 +3,9 @@
 	description="performance and query execution/unexpected increase in resource consumption or DTUS"
 	service="microsoft.sql"
 	resource="servers"
-	authors="emlisa"
-    ms.author="emlisa"
-    authorAlias="emlisa"
+	authors="emlisa,andikshi"
+    ms.author="emlisa,andikshi"
+    authorAlias="emlisa,andikshi"
 	displayOrder="5"
 	selfHelpType="generic"
 	supportTopicIds="32630459"
@@ -18,7 +18,18 @@
 
 # performance and query execution/unexpected increase in resource consumption or DTUS
 
+## TempDB Issues
+
+If you are facing issues due to Tempdb being full, and are not able to resolve it, you can do a failover to clear tempdb. 
+Failover changes the node of a database and moves it to a new node, it is recommended that you do not have any active workload running if you are doing a failover. Failover can be done by:
+
+<ul>
+<li>[Failover Rest API](https://docs.microsoft.com/rest/api/sql/databases(failover)/failover) can be used to easily failover your Azure SQL database to a new node.</li>
+</ul>
+
 ## **Recommended documents**
 
 * Descriptions of what happens when a database resource limit is reached for compute, storage, and sessions/workers limits, as well as corresponding mitigation steps can be found [here](https://docs.microsoft.com/azure/sql-database/sql-database-resource-limits-database-server#what-happens-when-database-resource-limits-are-reached?WT.mc_id=pid:13491:sid:32630459/). 
 * [Query Performance Insights](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance?WT.mc_id=pid:13491:sid:32630459/) can be used to easily monitor resource usage in your Azure SQL database (single or pooled database) by using build-in monitoring capabilities in the Azure portal. <br>
+
+
