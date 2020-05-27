@@ -26,6 +26,7 @@ Before you can receive payment for your incentive programs for a particular MPN 
 
 **Note:** If you need help identifying the correct tax information, contact the appropriate government sources in your country. 
 For partner companies in the United States, if you require information on completing the W8 or W9 forms, the following addresses take you to the IRS site:
+
 * [IRS W8 information](http://www.irs.gov/pub/irs-pdf/iw8.pdf)
 * [IRS W9 information](http://www.irs.gov/pub/irs-pdf/iw9.pdf)
 
