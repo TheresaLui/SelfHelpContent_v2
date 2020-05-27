@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "0847678f-f905-4c94-7a14-9d42b9f944e3",
+      "longDescription": "",
+      "shortDescription": "Resolve errors when starting or stopping your VM, if it is unresponsive or generating disk related or allocation errors",
+      "searchTags": "Starting",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "173e58db-1650-76b6-0f0f-1c0ed42835ad",
       "longDescription": "",
       "shortDescription": "You have configured the Start Stop VM solution but it does not start or stop all the VMs configured",
