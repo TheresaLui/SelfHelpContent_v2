@@ -143,6 +143,14 @@
             "required": false
         },
     {
+            "id": "downtime",
+            "order": 7,
+            "controlType": "textbox",
+            "displayLabel": "What is the max downtime allowed?",
+            "infoBalloonText": "Enter the max downtime allowed for the migration",
+            "required": false
+        },
+    {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
