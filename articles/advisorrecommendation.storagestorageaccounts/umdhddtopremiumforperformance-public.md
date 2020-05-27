@@ -5,7 +5,7 @@
     ms.author="xdataanalytics"
     articleId="33557a7c-6dd6-4b46-9579-fc5273f07458_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="StorageMediaEdge_XStore"
 />
 # Convert Standard HDD to Premium SSD for Performance
