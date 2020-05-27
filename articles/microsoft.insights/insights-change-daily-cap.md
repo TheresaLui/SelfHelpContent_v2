@@ -9,7 +9,7 @@
     articleId="appinsights-ingestion-cap"
     productPesIds="15693"
     supportTopicIds="32632982"
-    cloudEnvironments="public, Fairfax, moocake, usnat, ussec"
+    cloudEnvironments="public, Fairfax, mooncake, usnat, ussec"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
