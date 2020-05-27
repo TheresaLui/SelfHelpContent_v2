@@ -47,10 +47,9 @@
                     "value": "DMS",
                     "text": "Database Migration Service (DMS)"
                 },
-                
                 {
                     "value": "BACPAC",
-                    "text": "Export/Import BACPAC"
+                    "text": "Export and Import BACPAC files"
                 },
                 {
                     "value": "SSMA",
