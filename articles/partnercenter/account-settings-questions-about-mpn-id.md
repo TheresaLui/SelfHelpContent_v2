@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Accounts settings MPNID"
+	pageTitle="AccountssettingsMPNID"
 	description="Accounts settings MPNID"
 	infoBubbleText=""
 	service="partnercenter"
@@ -7,7 +7,7 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	displayOrder=""
-	articleId="accounts_setting_mpnid"
+	articleId="account_mpnid"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32730246"
