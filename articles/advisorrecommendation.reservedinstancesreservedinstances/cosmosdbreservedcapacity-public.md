@@ -5,7 +5,7 @@
     ms.author="yashar"
     articleId="a205074f-8049-48b3-903f-556f5e530ae3_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="ACE_ReservedInstances"
 />
 # Buy Cosmos DB Reserved capacity to save money over pay-as-you-go costs
