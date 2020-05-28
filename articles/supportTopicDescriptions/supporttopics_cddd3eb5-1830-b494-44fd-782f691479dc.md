@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "90d85a5b-aab4-4375-f298-2049d519ab76",
+      "longDescription": "",
+      "shortDescription": "Covers issues with Monitoring agent (MMA) extension",
+      "searchTags": "MMA",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "95538b9d-4af5-8ce7-0b3d-fa68832bfd1c",
       "longDescription": "",
       "shortDescription": "Assistance with resizing the partition within the guest OS or the virtual disk",
