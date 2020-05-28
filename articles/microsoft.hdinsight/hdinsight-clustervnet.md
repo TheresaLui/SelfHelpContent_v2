@@ -38,6 +38,10 @@ If you plan to use a firewall, and access the cluster from outside on certain po
 
 Solution: If you are using a custom Hive metastore, please run 'Hive Schema Tool' against your metastore to check for possible issues with metastore configuration. Also Check if Azure services or subnet is whitelisted in sql server firewall.
 
+**Error: Unable to connect to cluster management endpoint** 
+
+Solution: Ensure that the IPs in the the [Health and management services: All regions](https://docs.microsoft.com/azure/hdinsight/hdinsight-management-ip-addresses#health-and-management-services-all-regions) document have been whitelisted. To verify the configurations work, you can ping or [tracert](https://docs.microsoft.com/windows-server/administration/windows-commands/tracert) to the required IP addresses from an Azure Virtual Machine in the custom VNet to test whether the IP addresses are accessible from the virtual machines. If you are unable to access these IPs, it validates that your configured firewall is not allowing connections to the whitelisted IPs.
+
 **Error: Unable to connect to cluster**
 
 Possible Solution: If you are using user-defined routes (UDRs), you should specify a route and allow outbound traffic from the VNET to the above IPs with the next hop set to "Internet".
