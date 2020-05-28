@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "47901e14-6bd1-3d71-1443-d6c67a18432d",
+      "longDescription": "",
+      "shortDescription": "Covers scenarios where the operating system or image does not support Azure Disk Encryption",
+      "searchTags": "ADE",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4970a103-2894-d3f9-d08c-2633cfc78e45",
       "longDescription": "",
       "shortDescription": "Assistance with issues encountered when trying to resize a virtual machine",
