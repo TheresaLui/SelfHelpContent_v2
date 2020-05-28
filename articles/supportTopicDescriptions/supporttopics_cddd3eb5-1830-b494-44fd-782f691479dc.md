@@ -534,6 +534,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d8e2e786-e8d3-ddbf-79df-10d913ff100e",
+      "longDescription": "",
+      "shortDescription": "Covers issues where the status of encryption is incorrect for the VM (Portal, CLI, PS)",
+      "searchTags": "ADE",
+      "category": "ADE",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d8eaaf54-b662-86ca-66db-e115a4896a5c",
       "longDescription": "",
       "shortDescription": "Covers issues with decrypting a virtual disk",
