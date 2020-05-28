@@ -510,6 +510,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d2c0cf01-81a6-5009-467a-eb21488048e8",
+      "longDescription": "",
+      "shortDescription": "Covers guidance with Azure Key Vault configuration, permissions, or keys issues",
+      "searchTags": "ADE",
+      "category": "ADE",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d85c401e-04b1-c1c2-6838-755bac055bda",
       "longDescription": "",
       "shortDescription": "Look into actions and events that can cause VMs to reboot and understand how to avoid unexpected reboots",
