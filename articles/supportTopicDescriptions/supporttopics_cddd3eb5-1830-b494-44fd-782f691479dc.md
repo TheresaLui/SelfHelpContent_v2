@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e0377a4c-88a2-2e30-7ba8-d7079f986fd9",
+      "longDescription": "",
+      "shortDescription": "Covers issues with the virtual machine boot diagnostic extension",
+      "searchTags": "boot diagnostic",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e342b350-f513-22fa-a4d2-3a642fd1c5c5",
       "longDescription": "",
       "shortDescription": "Your VM has entered a non-bootable state and is either not booting at all or is on a reboot loop",
