@@ -23,7 +23,7 @@ You are unable to install the Cloud Provisioning agent (Preview) and getting the
 
 ## **Recommended Steps**
 
-This problem is typically caused by a group policy that prevented permissions from being applied to the local NT Service log-on account created by the installer (NT SERVICE\AADConnectProvisioningAgent). These permissions are required to start the service.
+This problem is typically caused by a group policy that prevented permissions from being applied to the local NT Service account created by the installer (NT SERVICE\AADConnectProvisioningAgent). These permissions are required to start the service.
 
 1. Sign in to the server with an administrator account.
 
