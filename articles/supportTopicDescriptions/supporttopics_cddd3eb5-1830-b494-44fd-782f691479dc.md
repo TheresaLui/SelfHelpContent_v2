@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "219f7c12-40f8-24a1-7d7c-d78e8f0198e4",
+      "longDescription": "",
+      "shortDescription": "Covers issues with Network Watcher extension",
+      "searchTags": "Network Watcher",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "21c73052-26f9-3d51-4f0f-592336d20375",
       "longDescription": "",
       "shortDescription": "Desired region, VM size, or SKU was not available when creating a virtual machine",
