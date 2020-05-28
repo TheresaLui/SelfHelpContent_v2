@@ -574,6 +574,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "cf48d5a5-f3e1-0346-9bc5-42a374fc7787",
+      "longDescription": "",
+      "shortDescription": "Assistance migrating IAAS resources from Classic (ASM) to Azure Resource Manager (ARM)",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d2c0cf01-81a6-5009-467a-eb21488048e8",
       "longDescription": "",
       "shortDescription": "Covers guidance with Azure Key Vault configuration, permissions, or keys issues",
