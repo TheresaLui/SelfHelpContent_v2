@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "521c0dec-7579-07b7-c7c8-40bbaeb40240",
+      "longDescription": "",
+      "shortDescription": "Virtual Disk Management issues not covered by other topics above",
+      "searchTags": "Virtual Disk Management",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "53b20091-2600-5eff-9031-2f393f7041a0",
       "longDescription": "",
       "shortDescription": "Issue or question with deploying captured or generalized images",
