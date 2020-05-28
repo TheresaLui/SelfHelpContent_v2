@@ -662,6 +662,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ec4a3cb7-9b8b-f765-e132-d5562425d712",
+      "longDescription": "",
+      "shortDescription": "Covers issues that are not listed above and are related to Azure Disk Encryption",
+      "searchTags": "Backup",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f098b595-bead-07c7-61e1-fea5b00a921d",
       "longDescription": "",
       "shortDescription": "Resolve errors with disks when starting or stopping a virtual machine",
