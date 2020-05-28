@@ -657,6 +657,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "8a82f77d-c3ab-7b08-d915-776b4ff64ff4",
+      "longDescription": "",
+      "shortDescription": "Covers questions with retiring of Classic IAAS resources (ASM) ",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8b618100-f5cd-7ad5-1c69-72aaf37d801d",
       "longDescription": null,
       "shortDescription": "Requests to help where CPU usage is higher than expected for the virtual machine",
