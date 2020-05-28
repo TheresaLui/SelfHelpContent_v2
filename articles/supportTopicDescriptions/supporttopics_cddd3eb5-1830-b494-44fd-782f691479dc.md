@@ -478,6 +478,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "bb35dc52-6e37-0fff-6044-d965d4c97a54",
+      "longDescription": "",
+      "shortDescription": "Assistance when the VM is not reachable immediately after enabling encryption",
+      "searchTags": "ADE",
+      "category": "ADE",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bf46b021-8045-213e-8857-d7b83562e22e",
       "longDescription": "",
       "shortDescription": "Assistance when the guest OS is causing restarts repeatedly",
