@@ -28,5 +28,5 @@ Based on the summary problem description, the issue you are encountering could b
 *	[How Azure AD uses the SAML protocol](https://docs.microsoft.com/azure/active-directory/develop/active-directory-saml-protocol-reference)
 * [Configure SAML-based single sign-on to non-gallery applications](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications)
 * [Debug SAML-based single sign-on to applications in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/azuread-dev/howto-v1-debug-saml-sso-issues)
-* [SAML 2.0 authentication requests and responses that Azure Active Directory (Azure AD) supports for Single Sign-On (SSO)](https://docs.microsoft.com/en-us/azure/active-directory/develop/single-sign-on-saml-protocol)
-* [How to Configure Azure AD SAML token encryption](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/howto-saml-token-encryption)
+* [SAML 2.0 authentication requests and responses that Azure Active Directory (Azure AD) supports for Single Sign-On (SSO)](https://docs.microsoft.com/azure/active-directory/develop/single-sign-on-saml-protocol)
+* [How to Configure Azure AD SAML token encryption](https://docs.microsoft.com/azure/active-directory/manage-apps/howto-saml-token-encryption)
