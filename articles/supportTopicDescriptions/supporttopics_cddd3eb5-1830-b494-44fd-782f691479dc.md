@@ -462,6 +462,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e6826775-d3e8-f596-5867-0b9c0241d1ac",
+      "longDescription": "",
+      "shortDescription": "Covers issues with the Update Management extension",
+      "searchTags": "Update Management",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e7fd0942-fb71-bf62-4c6d-18832647bdac",
       "longDescription": "",
       "shortDescription": "Disk throughput is lower than expected for the virtual machine",
