@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2733dd64-ba54-04f6-3729-c620e0c01de2",
+      "longDescription": "",
+      "shortDescription": "Issues when resizing, attaching and detaching, or performing other tasks on a virtual disk",
+      "searchTags": "Virtual Disk Management",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "3989ecc2-ea05-13fb-797b-37fbbf808206",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues that can affect performance such as high usage of CPU, disk space, or memory",
