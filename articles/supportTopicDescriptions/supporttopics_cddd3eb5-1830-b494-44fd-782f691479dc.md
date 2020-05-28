@@ -708,6 +708,14 @@
       "searchTags": "Starting",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "ffe93180-2ece-07c9-0cd4-6ae7ccc19d7c",
+      "longDescription": "",
+      "shortDescription": "Assistance with restoring your Azure virtual machine using Azure Backup",
+      "searchTags": "Backup",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
