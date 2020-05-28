@@ -222,6 +222,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "763e57d7-82d3-ab47-a25d-78b9b18d08bf",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to installation, execution, and updating of extensions for virtual machines on Azure",
+      "searchTags": "Extensions",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7aba48c1-5e0d-9ccb-a1c7-e1e22fa7db08",
       "longDescription": "",
       "shortDescription": "GPU processing is slower than expected for your virtual machine",
