@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7e6c7e39-9cce-3d58-b2e4-274f6d9bec37",
+      "longDescription": "",
+      "shortDescription": "Creating or deleting managed or unmanaged virtual disks",
+      "searchTags": "Deleting",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "84447c9a-0723-4d08-5b97-4bf90b7890d5",
       "longDescription": "",
       "shortDescription": "Resolve issues with Azure Marketplace images deployments in Azure",
