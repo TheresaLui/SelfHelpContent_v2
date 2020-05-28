@@ -534,6 +534,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d8eaaf54-b662-86ca-66db-e115a4896a5c",
+      "longDescription": "",
+      "shortDescription": "Covers issues with decrypting a virtual disk",
+      "searchTags": "ADE",
+      "category": "ADE",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "dcf6f0d6-63ca-7638-f29a-79e3ebbf94fb",
       "longDescription": "",
       "shortDescription": "Request an official root cause for the virtual machine downtime",
