@@ -334,6 +334,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "83c3b7c9-1efa-3941-3b12-d43d7a729a32",
+      "longDescription": "",
+      "shortDescription": "Backup operations for your VM are taking longer than expected and need guidance",
+      "searchTags": "Backup",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "84447c9a-0723-4d08-5b97-4bf90b7890d5",
       "longDescription": "",
       "shortDescription": "Resolve issues with Azure Marketplace images deployments in Azure",
