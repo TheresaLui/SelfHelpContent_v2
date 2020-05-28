@@ -366,6 +366,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e7fd0942-fb71-bf62-4c6d-18832647bdac",
+      "longDescription": "",
+      "shortDescription": "Disk throughput is lower than expected for the virtual machine",
+      "searchTags": "Disk",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f098b595-bead-07c7-61e1-fea5b00a921d",
       "longDescription": "",
       "shortDescription": "Resolve errors with disks when starting or stopping a virtual machine",
