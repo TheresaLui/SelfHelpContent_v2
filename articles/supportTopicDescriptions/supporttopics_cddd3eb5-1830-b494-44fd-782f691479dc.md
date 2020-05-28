@@ -654,6 +654,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f7c2099e-8e0a-98f6-313b-854ebd0c6f62",
+      "longDescription": "",
+      "shortDescription": "Additional questions or issues with configuring backups for your virtual machine using Azure Backup",
+      "searchTags": "Backup",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f820b562-a549-86dc-b8ae-b5ee4e835aaa",
       "longDescription": "",
       "shortDescription": "Covers issues where the start operation for the VM fails and an error message is provided",
