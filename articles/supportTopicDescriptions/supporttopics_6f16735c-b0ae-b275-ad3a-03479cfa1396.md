@@ -499,9 +499,9 @@
     {
       "id": "6322d0b2-1b5c-129b-ea42-cace57e14805",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Covers scenarios where the operating system or image does not boot after encrypting",
+      "searchTags": "ADE",
+      "category": "ADE",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
