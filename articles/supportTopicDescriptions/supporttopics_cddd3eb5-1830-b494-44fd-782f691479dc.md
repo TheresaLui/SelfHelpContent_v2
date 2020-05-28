@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "849fe8ad-39b8-1ca0-bc1b-57716af420de",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to the VM guest agent",
+      "searchTags": "Agent",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "87f507df-1333-d6dd-e5b0-80ca310e0431",
       "longDescription": "",
       "shortDescription": "Covers issues where updates were applied to the Guest OS that resulted in the Guest OS no longer successfully booting.",
