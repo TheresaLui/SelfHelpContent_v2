@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "315d6829-1ab2-b452-6663-51eb961c246f",
+      "longDescription": "",
+      "shortDescription": "Covers issues that are not listed above and are related to Azure Disk Encryption",
+      "searchTags": "ADE",
+      "category": "ADE",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "3789b4d8-9b87-4aad-f35f-5ea8a439697e",
       "longDescription": "",
       "shortDescription": "Issue with data drive or file system not being available after encryption",
