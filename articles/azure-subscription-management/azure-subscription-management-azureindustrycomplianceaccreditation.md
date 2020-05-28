@@ -23,5 +23,6 @@
 
 * **FedRamp Certification**: For any FedRamp certification, please refer: [FedRamp Marketplace](https://marketplace.fedramp.gov)<br>
 
+* **Azure PCI DSS Compliance**: The required
 
 ## **Recommended Documents**
