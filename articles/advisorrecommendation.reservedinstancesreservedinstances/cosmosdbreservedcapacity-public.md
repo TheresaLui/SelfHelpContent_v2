@@ -5,7 +5,7 @@
     ms.author="yashar"
     articleId="a205074f-8049-48b3-903f-556f5e530ae3_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="ACE_ReservedInstances"
 />
 # Buy Cosmos DB Reserved capacity to save money over pay-as-you-go costs
@@ -43,7 +43,7 @@
   "potentialBenefits": "savings",
   "actions": [
     {
-      "actionId": "a205074f-8049-48b3-903f-556f5e530ae3",
+      "actionId": "b3a3bbb5-feaf-4c02-9d67-aa314bc1b477",
       "description": "(Preview) Consider purchasing {displaySKU} reserved capacity",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Reservations",
@@ -62,7 +62,6 @@
   ],
   "displayLabel": "Buy reserved capacity",
   "tip": "You can buy Cosmos DB reserved capacity to save money over pay-as-you-go costs.",
-  "testData": "73c0021f-a37d-433f-8baa-7450cb54eea6,/subscriptions/73c0021f-a37d-433f-8baa-7450cb54eea6,\"{\"\"reservedResourceType\"\":\"\"CosmosDb\"\",\"\"term\"\":\"\"P3Y\"\",\"\"subId\"\":\"\"73c0021f-a37d-433f-8baa-7450cb54eea6\"\",\"\"scope\"\":\"\"Single\"\",\"\"sku\"\":\"\"Cosmos_DB_10000_RUs\"\"}\"",
   "costSavingInfo": "*You can save up to the stated amount if you purchase single subscription reservations for 3 years and your future usage follows the same pattern as the last 30 days. You actual savings may vary."
 }
 ---
