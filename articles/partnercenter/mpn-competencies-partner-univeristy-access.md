@@ -7,7 +7,7 @@
 	authors="KalpanaChawla-Infosys"
 	ms.author="KalpanaChawla-Infosys"
 	displayOrder=""
-	articleId="mpn_partner_univeristy"
+	articleId="mpn_partner_univeristy_access"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32725875"
