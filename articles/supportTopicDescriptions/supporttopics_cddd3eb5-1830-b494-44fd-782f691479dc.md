@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3789b4d8-9b87-4aad-f35f-5ea8a439697e",
+      "longDescription": "",
+      "shortDescription": "Issue with data drive or file system not being available after encryption",
+      "searchTags": "ADE",
+      "category": "ADE",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "3989ecc2-ea05-13fb-797b-37fbbf808206",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues that can affect performance such as high usage of CPU, disk space, or memory",
