@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "36b2730a-cb80-23d9-656d-c0c2d476e45f",
+      "longDescription": "",
+      "shortDescription": "Requests for help with configuring backups for your Azure virtual machine using Azure Backup",
+      "searchTags": "Backup",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "3789b4d8-9b87-4aad-f35f-5ea8a439697e",
       "longDescription": "",
       "shortDescription": "Issue with data drive or file system not being available after encryption",
