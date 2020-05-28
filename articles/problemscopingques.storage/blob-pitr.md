@@ -2,14 +2,14 @@
 	pageTitle="Issues with point in time restore"
 	description="Issues with point in time restore"
 	authors="Sijia"
-    ms.author="siz"
+    	ms.author="siz"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32742280"
 	productPesIds="16459"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="c71e126a-7c81-44d3-aac5-8ca861ef37b0"
-	ownershipId="StorageMediaEdge_StorageBlobs
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Issues with point in time restore
 ---
