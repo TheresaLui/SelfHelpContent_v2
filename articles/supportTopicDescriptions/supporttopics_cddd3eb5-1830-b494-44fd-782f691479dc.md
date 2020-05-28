@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "0a7fcf5c-a532-4ac5-6301-4ccf57b10764",
+      "longDescription": "",
+      "shortDescription": "Questions specific to backing up or restoring your Azure virtual machine using Azure Backup",
+      "searchTags": "Backup",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0ad63577-4424-2273-fbbd-20594907d347",
       "longDescription": "",
       "shortDescription": "VMs might sometimes restart without the user initiating the operation - this could be due to factors such as an OS update or a guest OS on the machine",
