@@ -37,7 +37,7 @@
             "hints": [
                 {
                     "text": "Issue description."
-                },
+                }
             ]
         },
         {
