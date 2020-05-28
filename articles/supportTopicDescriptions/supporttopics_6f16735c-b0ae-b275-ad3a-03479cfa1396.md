@@ -867,8 +867,8 @@
     {
       "id": "b6dec86c-f1a4-e67f-cc26-1bb9efce43f3",
       "longDescription": null,
-      "shortDescription": "Covers issues with the OMS/Log Analytics extension",
-      "searchTags": "",
+      "shortDescription": "Covers issues with the OMS Log Analytics extension",
+      "searchTags": "OMS",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
     },
