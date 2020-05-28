@@ -302,6 +302,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "80cd33ae-f2a0-5549-cdf5-4d109cce7a67",
+      "longDescription": "",
+      "shortDescription": "Covers scenarios where the operating system or image does not boot after encrypting",
+      "searchTags": "ADE",
+      "category": "ADE",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "84447c9a-0723-4d08-5b97-4bf90b7890d5",
       "longDescription": "",
       "shortDescription": "Resolve issues with Azure Marketplace images deployments in Azure",
