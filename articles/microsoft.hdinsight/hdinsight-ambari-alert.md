@@ -21,7 +21,7 @@ For an explanation of the type of alert statuses provided in Ambari, see [Alerts
 
 Ambari heartbeat lost alerts are usually transient and will resolve on their own own. For more information about heartbeat issues, see [Apache Ambari heartbeat issues in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues).
 
-Ambari stale alerts can be caused when the host is highly utilized or cluster is under heavy load. One way to mitigate this is to disable and enable the alert. For more information, see [Apache Ambari stale alerts in Azure HDInsight](https://docs.microsoft.com/en-us/azure/hdinsight/hadoop/apache-ambari-troubleshoot-stale-alerts).
+Ambari stale alerts can be caused when the host is highly utilized or cluster is under heavy load. One way to mitigate this is to disable and enable the alert. For more information, see [Apache Ambari stale alerts in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-stale-alerts).
 
 Additional information is available in the following Hortonworks documents:
 
