@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2c49e119-868a-efac-80af-67599fae45b7",
+      "longDescription": "",
+      "shortDescription": "Issues with restoring a virtual machine from a snapshot of a disk",
+      "searchTags": "Snapshot",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "3989ecc2-ea05-13fb-797b-37fbbf808206",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues that can affect performance such as high usage of CPU, disk space, or memory",
