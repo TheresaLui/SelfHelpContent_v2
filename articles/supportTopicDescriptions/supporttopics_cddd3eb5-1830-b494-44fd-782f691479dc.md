@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "0847678f-f905-4c94-7a14-9d42b9f944e3",
+      "longDescription": "",
+      "shortDescription": "Resolve errors when starting or stopping your VM, if it is unresponsive or generating disk related or allocation errors",
+      "searchTags": "Starting",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "173e58db-1650-76b6-0f0f-1c0ed42835ad",
       "longDescription": "",
       "shortDescription": "You have configured the Start Stop VM solution but it does not start or stop all the VMs configured",
@@ -214,6 +222,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9f3b8c5f-02c0-7f6e-7b95-9a00ba99aded",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues with connecting to your VM via RDP or SSH due to configuration or other changes",
+      "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a4b8355c-cf91-9ccd-ff84-80019d1e63c2",
       "longDescription": "",
       "shortDescription": "Assistance with deploying a virtual machine with managed disks",
@@ -254,6 +270,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "bae68529-51c1-d9b0-9e84-157fe59ac631",
+      "longDescription": "",
+      "shortDescription": " Request to increase the subscription limit",
+      "searchTags": "Subscription limit",
+      "category": "Quota",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bf46b021-8045-213e-8857-d7b83562e22e",
       "longDescription": "",
       "shortDescription": "Assistance when the guest OS is causing restarts repeatedly",
@@ -290,6 +314,14 @@
       "longDescription": "",
       "shortDescription": "Asistance with configuring or using Azure Serial Console Access in the Azure Portal to access the virtual machine",
       "searchTags": "Connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "e342b350-f513-22fa-a4d2-3a642fd1c5c5",
+      "longDescription": "",
+      "shortDescription": "Your VM has entered a non-bootable state and is either not booting at all or is on a reboot loop",
+      "searchTags": "Boot",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "false"
     },
