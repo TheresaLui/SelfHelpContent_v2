@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "0ad63577-4424-2273-fbbd-20594907d347",
+      "longDescription": "",
+      "shortDescription": "VMs might sometimes restart without the user initiating the operation - this could be due to factors such as an OS update or a guest OS on the machine",
+      "searchTags": "Restart",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "173e58db-1650-76b6-0f0f-1c0ed42835ad",
       "longDescription": "",
       "shortDescription": "You have configured the Start Stop VM solution but it does not start or stop all the VMs configured",
