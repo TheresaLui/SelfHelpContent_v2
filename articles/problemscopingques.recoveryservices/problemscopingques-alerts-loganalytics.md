@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632788"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="fb486471-0ba5-4453-b474-7287048b5396"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for Issue with Log Analytics Alerts
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "Issue with Log Analytics Alerts",
     "fileAttachmentHint": "",
+     "diagnosticCard": {
+        "title": "Issue with Log Analytics Alerts",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "basic_troubleshooting_multiselect",
@@ -53,7 +59,8 @@
             "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

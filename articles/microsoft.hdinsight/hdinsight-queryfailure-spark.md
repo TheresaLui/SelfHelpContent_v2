@@ -1,56 +1,77 @@
 <properties
-    pageTitle="Azure HDInsights Query Failure - Spark "
-    description="Azure HDInsights Query Failure - Spark "
-    service="microsoft.hdinsight"
-    resource="clusters"
-    authors="TobyTu"
-    ms.author="deeptivu"
-    displayOrder=""
-    selfHelpType="generic"
-    supportTopicIds="32636496"
-    resourceTags=""
-    productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
-    articleId="302b8254-83e6-4005-9d2e-891f19ebc0f3"
+ pageTitle="Azure HDInsights Query Failure - Spark "
+ description="Azure HDInsights Query Failure - Spark "
+ service="microsoft.hdinsight"
+ resource="clusters"
+ authors="TobyTu"
+ ms.author="deeptivu"
+ displayOrder=""
+ selfHelpType="generic"
+ supportTopicIds="32636496"
+ resourceTags=""
+ productPesIds="15078"
+ cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
+ articleId="302b8254-83e6-4005-9d2e-891f19ebc0f3"
+ ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsights Query Failure - Spark
 
 ## **Recommended Steps**
 
-### **Configuration**
+1. Check Resource Utilization
 
-* [How do I configure an Apache Spark application by using Apache Ambari on clusters?](https://docs.microsoft.com/azure/hdinsight/spark/apache-troubleshoot-spark#how-do-i-configure-an-apache-spark-application-by-using-apache-ambari-on-clusters)
-* [How do I configure an Apache Spark application by using a Jupyter notebook on clusters?](https://docs.microsoft.com/azure/hdinsight/spark/apache-troubleshoot-spark#how-do-i-configure-an-apache-spark-application-by-using-a-jupyter-notebook-on-clusters)
-* [How do I configure an Apache Spark application by using Apache Livy on clusters?](https://docs.microsoft.com/azure/hdinsight/spark/apache-troubleshoot-spark#how-do-i-configure-an-apache-spark-application-by-using-apache-livy-on-clusters)
-* [How do I configure an Apache Spark application by using spark-submit on clusters?](https://docs.microsoft.com/azure/hdinsight/spark/apache-troubleshoot-spark#how-do-i-configure-an-apache-spark-application-by-using-spark-submit-on-clusters)
-* [Use Apache Spark REST API to submit remote jobs to an HDInsight Spark cluster](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-livy-rest-interface)
+   * Verify that the HDInsight cluster to be used has enough memory and cores to accommodate the Spark application. To determine this, view the Cluster Metrics section of the cluster's YARN UI, and locate the values of **Memory Used** vs. **Memory Total** and **VCores Used** vs. **VCores Total**.
+   * If you do not have enough resources to accommodate your Spark application/job, scale up the cluster to ensure the cluster has enough memory and cores.
 
-### **Troubleshooting**
+1. Check the supporting JAR files being used to execute the job. Check that additional JAR files libraries are in the right class path, and make use of following class path if any additional jar files need to be loaded:
 
-* [Troubleshoot a slow or failing job on a HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
-* [Debug Apache Spark jobs running on Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-job-debugging)
-* [Use extended Apache Spark History Server to debug and diagnose Apache Spark applications](https://docs.microsoft.com/azure/hdinsight/spark/apache-azure-spark-history-server)
-* [Debug Apache Spark applications locally or remotely on an HDInsight cluster with Azure Toolkit for IntelliJ through SSH](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-intellij-tool-debug-remotely-through-ssh)
-* [Troubleshoot Apache Hadoop YARN by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-yarn)
+     * spark.driver.extraClassPath
+     * spark.yarn.user.classpath.first
+     * spark.executor.extraClassPath
 
-### **Spark Application Failed with OutOfMemoryError**
+ If the JAR file libraries aren't in the right class path, copy the jars to the required class path.
 
-* Determine the maximum size of the data the Spark application will handle. A guess can be made based on the maximum of the size of input data, the intermediate data produced by transforming the input data, and the output data produced further transforming the intermediate data. This can also be an iterative process, if an initial guess is not possible.
-* Make sure that the HDInsight cluster to be used has enough resources (memory and cores) to accommodate the Spark application. This can be determined by viewing the Cluster Metrics section of the YARN UI of the cluster for the values of Memory Used vs. Memory Total, and VCores Used vs. VCores Total.
-* Set the Spark configurations to appropriate values that do not exceed 90% of the available memory and cores as viewed by YARN, yet well within the memory requirement of the Spark application.
+1. Check Storage (WASB or ADL)
 
-### **Issues with YARN applications**
+   Verify that permissions to the store are correct, then log into to the cluster and list the JAR file from the Headnode using the following set of CMD instructions:
 
-To solve issues with YARN applications, the following articles might be helpful:
+     ```
+     hdfs dfs -ls wasbs://CONTAINERNAME@STORAGEACCOUNT.blob.core.windows.net/sampledata1/
+     hdfs dfs -ls wasbs:///sampledata2/
+     hdfs dfs -ls /sampledata3/
+     ```
 
-* **YARN Timeline Server**: The YARN Timeline server provides generic information on completed applications and framework-specific application information
-* **YARN Application logs**: The application logs can be useful in debugging issues, with aggregated logs being stored in the path `/app-logs/<user>/logs/<applicationId>`
-* **YARN CLI tools**: After connecting to HDInsight cluster using SSH, the YARN logs can be collected using `yarn logs -applicationId <applicationId> -appOwner <user-who-started-the-application>`
-* **YARN ResourceManager UI**: Add `/yarnui/hn/logs/` to the end of the cluster URL to view the YARN logs
+   * If the permissions aren't correct, check that the user accessing the storage has Read/Write/Execute (RWX) permissions on that folder.
+   * Have the user run the following SSH command "hdfs dfs -ls /" This command will list the permissions for the root folder of the staorage. This will help to determine if they have RWX permissions.
+
+1. Check the Livy logs
+
+   * If your Spark Job(s) use LIVY from Jupyter or ADF, check the Livy logs. A timeout can result when JAR files are too big, when there are too many resources to distribute, or when file copying between storages is taking too long. If Livy doesn't get the application ID from YARN within two minutes, then the LIVY batch will fail.
+   * To resolve this, reduce the size or JAR file or increase the timeout value `livy.server.yarn.app-lookup-timeout`.
+
+1. End the job from the Yarn UI
+
+   If your Spark Job is stuck/application hangs, end the job from the Yarn UI, or run Yarn Kill CMD:
+   
+   * ``yarn application -kill <application_id>``.
+   
+   If ending the job does not resolve the issue, check whether LIVY has returned an application ID. If no application ID has been returned, follow these steps:
+
+     **Note**: Stuck jobs are listed in the Running state.
+
+     1. Track the application in the Spark UI and look at the Stages Tab
+     1. Look at the duration of the various stages and identify which stages seem like anomalies
+     1. Take a screenshot of the DAG Visualization and present this information to the support engineer whom you work with
+
+### **Solutions to common errors encountered**
+
+* [IllegalArgumentException](https://hdinsight.github.io/spark/spark-application-fails-IllegalArgumentException.html)
+* [LISTSTATUS failed with error 0x83090aa2 (Forbidden. ACL verification failed. Either the resource does not exist or the user isn't authorized to perform the requested operation.)](https://hdinsight.github.io/ClusterManagement/hdinsight-adlsaccessissues.html)
+* [InvalidClassException](https://hdinsight.github.io/spark/spark-class-version-mismatch-InvalidClassException.html)
+* [NativeAzureFileSystem ... RequestBodyTooLarge](https://hdinsight.github.io/spark/spark-stream-driver-logs-error-requestbodytoolarge.html)
+* [Spark Application Fails with OutOfMemoryError](https://hdinsight.github.io/spark/spark-application-failure-with-outofmemoryerror.html)
 
 ## **Recommended Documents**
 
-* [Access YARN application logs on Linux-based HDInsight](https://docs.azure.cn/hdinsight/hdinsight-hadoop-access-yarn-app-logs-linux)
-* [How do I download Yarn logs from HDInsight cluster?](https://hdinsight.github.io/yarn/yarn-download-logs.html)
-* [Spark Application Failed with OutOfMemoryError](https://hdinsight.github.io/spark/spark-application-failure-with-outofmemoryerror.html)
+* [Debug Apache Spark jobs running on Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/spark/apache-spark-job-debugging)

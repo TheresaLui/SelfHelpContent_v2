@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605795"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="7937a50e-344f-4502-856b-b8d23dd8d99a"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions SQL database restore failure
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "SQL database restore failure",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+       "title": "SQL database restore failure",
+       "description": "These diagnostics will check for errors.",
+       "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -29,7 +35,11 @@
         "jTokenPath": "value",
         "textProperty": "name",
         "valueProperty": "id",
-        "textPropertyRegex": ".*"
+        "textPropertyRegex": ".*",
+	"defaultDropdownOptions": {
+                           "value": "dont_know_answer",
+                           "text": "Other or none of the above"
+                     }
        },
             "required": false
         },
@@ -61,7 +71,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "restore_Type1",
@@ -83,7 +94,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",

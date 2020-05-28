@@ -6,12 +6,13 @@
     authors="sunilagarwal"
     ms.author="sunila"
     displayOrder="60"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640153"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="ceaae45b-62e8-4c63-b68f-8660e3bce04d"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Troubleshooting maximum connection limit in Azure Database for MariaDB

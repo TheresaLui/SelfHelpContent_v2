@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="2a8bc337-8821-4d1b-be22-c48ac3601082"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # I can't connect to services deployed in my VNet

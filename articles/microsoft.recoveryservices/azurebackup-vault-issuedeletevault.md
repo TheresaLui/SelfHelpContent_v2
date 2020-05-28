@@ -10,8 +10,9 @@
 	supportTopicIds="32632791"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="ac99254c-7320-4261-8c2b-3bea2a1a0022"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Issue with delete vault

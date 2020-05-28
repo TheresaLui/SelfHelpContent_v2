@@ -11,7 +11,8 @@
 	supportTopicIds="32584331"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Microsoft Information Protection SDK - Azure AD app issue

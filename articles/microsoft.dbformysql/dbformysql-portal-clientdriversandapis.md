@@ -6,12 +6,13 @@
     authors="jan-eng"
     ms.author="janeng"
     displayOrder="340"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640049"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="021fc8cf-efdf-4aa3-98bb-85da3612195c"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Connecting to Azure Databases for MySQL
@@ -33,4 +34,4 @@ Azure Database for MySQL uses the community edition of MySQL. As such, most driv
 * [Connect with Ruby](https://docs.microsoft.com/azure/mysql/connect-ruby)<br>
 * [Connect with C++](https://docs.microsoft.com/azure/mysql/connect-cpp)<br>
 * [Connect with Go](https://docs.microsoft.com/azure/mysql/connect-go)<br>
-* [Connect with MySQL Workbench](https://docs.microsoft.com/azure/mysql/connect-workbench)
+* [Connect with Workbench](https://docs.microsoft.com/azure/mysql/connect-workbench)

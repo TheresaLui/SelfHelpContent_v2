@@ -1,14 +1,15 @@
 <properties
          pageTitle="Scoping questions for SQL database backup performance"
          description="Scoping questions for SQL database backup performance"
-         authors="srinathv"
-         ms.author="srinathv"
+         authors="srinathvasireddy"
+         ms.author="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32605792"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="18b06d30-478c-4950-b3bc-5ed2dfecdd7d"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Scoping questions for SQL database backup performance
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "SQL database backup performance",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "SQL database backup performance",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -69,7 +75,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "jobID_Name",

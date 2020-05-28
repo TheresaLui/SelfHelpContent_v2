@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636950,32636939,32636951,32636938"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="eh-errorsAndExceptions"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Errors and Exceptions
 ---

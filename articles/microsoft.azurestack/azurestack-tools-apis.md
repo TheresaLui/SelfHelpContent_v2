@@ -10,8 +10,9 @@
     supportTopicIds="32629200"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-tools-apis"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack APIs
@@ -33,14 +34,12 @@ Azure Stack has a variety of APIs for cloud admins and tenant users to access Az
 ### Azure Stack Resource Providers APIs
 
 1. Identify the desired resource provider [supported by profiles in Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-profiles-azure-resource-manager-versions)
-1. Find the specific call you would like to me by consulting the [Azure Stack Rest API Reference](https://docs.microsoft.com/rest/api/azure-stack)
+1. Find the specific call you want to make by consulting the [Azure Stack Rest API Reference](https://docs.microsoft.com/rest/api/azure-stack)
 1. To submit the request, follow steps to [use the Azure Stack API](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-rest-api-use)
 
 ### Azure CLI
 
-1. [Install Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli) on your client computer
-1. [Enable Azure CLI for Azure Stack users](https://docs.microsoft.com/azure/azure-stack/azure-stack-cli-admin)
-1. [Use API version profiles with Azure CLI in Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-azurecli2) to configure your environment and connect to Azure Stack
+- Configure your environment and connect to Azure Stack [using API version profiles with Azure CLI](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-azurecli2)
 
 ### Azure PowerShell
 

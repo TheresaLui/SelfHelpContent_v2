@@ -5,13 +5,14 @@
 	resource="trafficmanagerprofiles"
 	authors="rohinkoul"
     ms.author="rohink"
-	displayOrder=""
-	selfHelpType="generic"
+	displayOrder="4"
+	selfHelpType="resource"
 	supportTopicIds="32336436"
 	resourceTags=""
 	productPesIds="15400"
-	cloudEnvironments="public,fairfax,mooncake,blackforest"
+	cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	articleId="5eb8c167-03f3-4e38-9d6a-bb8798b50031"
+	ownershipId="CloudNet_TrafficManager"
 />
 
 # configuration

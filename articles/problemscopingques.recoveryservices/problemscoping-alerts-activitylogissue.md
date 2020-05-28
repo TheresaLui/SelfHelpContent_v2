@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632782"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 		 articleId="035e14d8-7eda-433a-8bb4-14d77e56def9"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Issue with Activity Log alerts
 ---
@@ -16,6 +17,11 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Issue with Activity Log alerts",
+     "diagnosticCard": {
+        "title": "Issue with Activity Log alerts",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "fileAttachmentHint": "Please attach the screenshot of Activity log alert screen filtered with timespan",
     "formElements": [
 		{
@@ -46,7 +52,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

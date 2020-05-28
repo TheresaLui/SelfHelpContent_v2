@@ -9,8 +9,9 @@
 	supportTopicIds="32411877,32511162"
 	resourceTags="windows, linux, windowsSQL, redhat, Ubuntu"
 	productPesIds="14749,16342,14745,15571,15797,16454"
-	cloudEnvironments="MoonCake"
+	cloudEnvironments="MoonCake, Fairfax"
 	articleId="02a0e3e3-4126-4437-9f7e-ec0d495b5c1c"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # My VM is slow

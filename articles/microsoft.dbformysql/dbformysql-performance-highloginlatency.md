@@ -6,12 +6,13 @@
     authors="jan-eng"
     ms.author="janeng"
     displayOrder="70"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640061"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="6067320d-3cd3-4f10-874e-1ab970b383cd"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Troubleshooting login performance in Azure Database for MySQL

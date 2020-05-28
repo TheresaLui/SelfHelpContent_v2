@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553287"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="0d4bc270-b32b-49f9-8b5c-c6d01db47adf"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MARS Installation or registration failure
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "MARS Installation or registration failure",
     "fileAttachmentHint": "",
+     "diagnosticCard": {
+        "title": "MARS Installation or registration failure",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "os_version",
@@ -62,7 +68,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
 	{
 	 "id": "issue_type",

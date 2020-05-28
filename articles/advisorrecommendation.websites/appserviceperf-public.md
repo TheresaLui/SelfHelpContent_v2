@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="85650d10-4245-40f6-a3e5-db1e70728a47_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="Compute_AppService"
 />
 # Follow App Service Advisor recommendations
 ---
@@ -21,7 +22,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Web/sites",
   "recommendationFriendlyName": "AppServicePerf",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

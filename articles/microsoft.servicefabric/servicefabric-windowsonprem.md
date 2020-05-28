@@ -9,8 +9,9 @@
 	supportTopicIds="32608930"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="b55e8dae-773f-410c-b9d0-f0d5ba1400c3"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # onpremservicefabric

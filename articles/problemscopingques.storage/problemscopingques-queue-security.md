@@ -1,20 +1,22 @@
 <properties
-	pageTitle="Security issue on storage queue"
-	description="Security issue on queue scoping question"
-	authors="ramMSFT"
-	ms.author="raprasad"
+	pageTitle="Connectivity and Security issue for storage queue"
+	description="Connectivity and Security issue for storage queue question"
+	authors="AngshumanNayakMSFT"
+	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_queue_Security"
-	supportTopicIds="32602775"
+	supportTopicIds="32602775,32602776"
 	productPesIds="16461"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_StorageQueues"
 />
-# Queue Security Issue
+# Queue Connectivity and Security Issues
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Security issue on queue scoping question",
+    "title": "Connectivity and Security Issues on queue scoping question",
     "fileAttachmentHint": "",
     "formElements": [
         {

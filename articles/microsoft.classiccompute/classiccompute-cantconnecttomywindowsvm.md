@@ -7,11 +7,12 @@
     ms.author="scotro"
     displayOrder="1"
     selfHelpType="resource"
-    supportTopicIds="32615531,32615526,32633498,32639640"
-    resourceTags="windows, WindowsSQL"
+    supportTopicIds="32615531,32615526,32639640"
+    resourceTags="windows,WindowsSQL"
     productPesIds="14749,14745"
-    cloudEnvironments="public"
- 	articleId="76f3e549-7706-4cc4-870e-b74887a840f7"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	articleId="76f3e549-7706-4cc4-870e-b74887a840f7"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Resolve Windows Virtual Machine Connection issues
@@ -32,6 +33,6 @@ The following are basic steps to resolve common issues:<br>
 
 ## **Recommended Documents**
 
-* [Troubleshoot specific Remote Desktop connection errors](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-remote-desktop-connections/#troubleshoot-specific-remote-desktop-connection-errors)<br>
-* [Detailed troubleshooting across network components](https://azure.microsoft.com/documentation/articles/virtual-machines-rdp-detailed-troubleshoot/)<br>
-* [Address Remote Desktop License Server error](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-remote-desktop-connections/#rdplicense)
+* [Troubleshoot specific Remote Desktop connection errors](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection)<br>
+* [Detailed troubleshooting across network components](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp/)<br>
+* [Address Remote Desktop License Server error](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-no-license-server)

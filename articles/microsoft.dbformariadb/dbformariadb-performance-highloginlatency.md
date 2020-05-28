@@ -6,12 +6,13 @@
     authors="sunilagarwal"
     ms.author="sunila"
     displayOrder="70"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640126"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="b71ef4af-4275-4188-8ec3-8d34d9bcc3fb"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Troubleshooting login performance in Azure Database for MariaDB

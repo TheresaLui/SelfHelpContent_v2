@@ -5,10 +5,11 @@
 	 ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553281,32637321"
-         productPesIds="15207,15571,15797,16454,16470"
-         cloudEnvironments="public"
+         productPesIds="15207,15571,15797,16454,16470,14749"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="7f7a167f-4e34-4592-bbe1-07b539f5fa8e"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM backup performance
 ---
@@ -17,25 +18,31 @@
     "subscriptionRequired": true,
     "title": "Azure VM backup performance",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure VM backup performance",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
-            "id": "using_VM",
+            "id": "vm_facing_issue",
             "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Which virtual machine(s) is experiencing problem?",
             "watermarkText": "Enter the name of the virtual machine(s)",
 	    "dynamicDropdownOptions": {
-            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
-       	    "jTokenPath": "value",
-            "textProperty": "name",
-            "valueProperty": "id",
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+       	    "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
             "textPropertyRegex": ".*",
 	    "defaultDropdownOptions": {
                 "value": "dont_know_answer",
                 "text": "Other, don't know or not applicable"
             }
 	    },
-            "required": false
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "Issue_Type",
@@ -57,7 +64,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "JobID_Name",
@@ -112,7 +120,8 @@
             "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         }
     ],
     "$schema": "SelfHelpContent"

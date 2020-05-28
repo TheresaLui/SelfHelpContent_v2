@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602764"
 	productPesIds="16460"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="0f8503fd-60ef-4e40-a968-9ee7a6922f33"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Storage File Share mounting issues - macOS
 ---

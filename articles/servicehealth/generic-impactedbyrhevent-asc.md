@@ -9,16 +9,15 @@
 	articleId="Service-healthevent-genericrhevent-asc"
 	diagnosticScenario="health_diagnostic"
 	selfHelpType="servicehealthinsights"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleTags="healthannotation_genericrhevent"
+ownershipId="ASEP_ServiceHealth"
 />
 
 # Your Azure resource was impacted by a resource health event
 At <!--$startTime-->startTime<!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->:
 
 <!--$Summary-->Summary<!--/$Summary-->
-
-<!--$DetailedStatus-->DetailedStatus<!--/$DetailedStatus-->
 
 ## **Recommended Steps**
 

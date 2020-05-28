@@ -1,20 +1,22 @@
 <properties
-	pageTitle="Security issue on storage table"
-	description="Security issue on table scoping question"
-	authors="ramMSFT"
-	ms.author="raprasad"
+	pageTitle="Security issue for storage table"
+	description="Security issue for storage table scoping questions"
+	authors="AngshumanNayakMSFT"
+	ms.author="annayak"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_table_Security"
 	supportTopicIds="32602775"
 	productPesIds="16462"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_StorageTables"
 />
-# Table Security Issue
+# Table Security Issues
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Security issue on table scoping question",
+    "title": "Connectivity and Security issue on table scoping question",
     "fileAttachmentHint": "",
     "formElements": [
         {

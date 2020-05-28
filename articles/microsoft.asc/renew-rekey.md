@@ -3,19 +3,25 @@
 	description="ASC/Renewing-Rekeying"
 	service="microsoft.asc"
 	resource="asc"
-	authors="shrahman"
-	displayOrder=""
+	authors="cts-shrahman, cts-shrahman"
+   	ms.author="shrahman,curibe"
+	displayOrder="4"
 	selfHelpType="generic"
 	supportTopicIds="32604398"
 	resourceTags=""
 	productPesIds="16512"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="8b046fe6-615a-42b7-a8fd-8b61020ddddf"
+	ownershipId="Compute_AppService"
 />
 
 # ASC/Renewing-Rekeying
 
-## **Recommended documents**
+## **Recommended Steps**
 
-* [How can I Rekey and/or ReSync my app service certificate?](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/#rekeyandsyn) <br>
-* [When does my certificate get renewed?](https://blogs.msdn.microsoft.com/appserviceteam/2017/07/24/faq-app-service-certificates/#renew) 
+The following documents explain the steps to rekey or renew an App Service Certificate: 
+
+* [Rekey](https://docs.microsoft.com/azure/app-service/web-sites-purchase-ssl-web-site#rekey-certificate) 
+* [Renew](https://docs.microsoft.com/azure/app-service/web-sites-purchase-ssl-web-site#renew-certificate)
+
+For more information, please review the [FAQ](https://azure.github.io/AppService/2017/07/24/FAQ-SSL-certificates-for-Web-Apps-and-App-Service-Certificates.html).

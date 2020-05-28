@@ -10,8 +10,9 @@
     supportTopicIds="32536698"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="3a06d4f4-7109-487d-8f75-a8d23717b304"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # office365-unexpectedresults

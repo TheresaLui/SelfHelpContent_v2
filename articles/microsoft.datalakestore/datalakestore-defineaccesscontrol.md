@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="859343c6-b6a5-4e45-a8d8-d506c3ffe4c9"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 
 # How do I secure data in my data lake store account?

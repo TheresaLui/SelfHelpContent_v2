@@ -14,7 +14,8 @@ selfHelpType="generic"
 supportTopicIds="32633009"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # VM data appears with delay

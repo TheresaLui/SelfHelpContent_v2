@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32612999,32632809"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
   	 articleId="3d0e2537-0802-4def-88da-de618f915950"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure backup server restore performance
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "Azure backup server restore is taking longer",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Azure backup server restore is taking longer",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "issue_Type",
@@ -39,14 +45,15 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
 	    },
         {
             "id": "mab_version",
             "order": 2,
             "visibility": "null",
             "controlType": "textbox",
-            "infoBalloonText": "You can find version information from Microsoft Azure Backup Server Console\\\\Help\\\\About",
+            "infoBalloonText": "You can find version information from Microsoft Azure Backup Server Console\\Help\\About",
             "displayLabel": "What is the software version of Microsoft Azure Backup Server?",
             "watermarkText": "ex. version 12.0.332.0.",
             "required": false
@@ -93,7 +100,7 @@
             "visibility": "issue_Type == Cloud backup is failing",
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\MachineId",
             "watermarkText": "Paste MachineId here",
             "required": false
         },
@@ -103,7 +110,7 @@
             "visibility": "issue_Type == Cloud backup is failing",
             "controlType": "textbox",
             "displayLabel": "Provide the ResourceId:",
-            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\ResourceId",
             "watermarkText": "Paste ResourceId here",
             "required": false
         },
@@ -113,7 +120,8 @@
             "visibility": "null",
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

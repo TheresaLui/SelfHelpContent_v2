@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602763"
 	productPesIds="16460"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="79f6826d-4649-4cd1-bb10-5ea01b616d3d"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Storage File Share mounting issues - Linux
 ---
@@ -147,31 +148,31 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "error2",
+                    "value": "linux_error2",
                     "text": "Mount error(2): No such file or directory"
                 },
                 {
-                    "value": "error11",
+                    "value": "linux_error11",
                     "text": "Mount error(11): Resource temporarily unavailable"
                 },
                 {
-                    "value": "error13",
+                    "value": "linux_error13",
                     "text": "Mount error(13): Permission denied"
                 },
                 {
-                    "value": "error22",
+                    "value": "linux_error22",
                     "text": "Mount error(22): Invalid argument"
                 },
                 {
-                    "value": "error112",
+                    "value": "linux_error112",
                     "text": "Mount error(112): Host is down"
                 },
                 {
-                    "value": "error115",
+                    "value": "linux_error115",
                     "text": "Mount error(115): Operation now in progress"
                 },
                 {
-                    "value": "dont_know_answer",
+                    "value": "linux_dont_know_answer",
                     "text": "Don't know or not listed above"
                 }
             ],
@@ -181,7 +182,7 @@
         {
             "id": "error_other",
             "order": 5,
-            "visibility": "mount_error == dont_know_answer",
+            "visibility": "mount_error == linux_dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Error message",
             "watermarkText": "Error message received",

@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632804"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="9e3ebca0-af2a-4446-ad72-98ea62a6bce2"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for unable to discover VM
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "Unable to discover VM",
     "fileAttachmentHint": "",
+      "diagnosticCard": {
+        "title": "Unable to discover VM",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "machine_name",
@@ -25,11 +31,15 @@
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Select the virtual machine running SQL",
 	    "dynamicDropdownOptions": {
-        "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
-        "jTokenPath": "value",
-        "textProperty": "name",
-        "valueProperty": "id",
-        "textPropertyRegex": ".*"
+        "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+        "jTokenPath": "value",
+        "textProperty": "name",
+        "valueProperty": "id",
+        "textPropertyRegex": ".*",
+	"defaultDropdownOptions": {
+                           "value": "dont_know_answer",
+                           "text": "Other or none of the above"
+                     }
        },
             "required": false
         },
@@ -85,7 +95,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_start_time",

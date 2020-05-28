@@ -7,14 +7,16 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632952"
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # How to Add and Manage Admins
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "How to Add and Manage Admins",
     "fileAttachmentHint": "",
     "formElements": [
@@ -30,7 +32,7 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Email ID you are trying to add",
-            "watermarkText": "Provide the email ID you is trying to add",
+            "watermarkText": "Provide the email ID you are trying to add",
             "required": true
         },
         {

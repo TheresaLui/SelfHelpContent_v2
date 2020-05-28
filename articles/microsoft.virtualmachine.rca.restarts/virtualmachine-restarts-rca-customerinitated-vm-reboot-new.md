@@ -13,7 +13,8 @@
 	supportTopicIds="32411816"
 	resourceTags="windows, linux"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Virtual Machine Connectivity Issue: VMA RCA
@@ -31,3 +32,4 @@ Microsoft Azure also provides access to resource health and troubleshooting info
 ## **Recommended Documents**
 
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+* To understand more about the user-initiated reboot, refer to [Understand a system reboot for Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/understand-vm-reboot#user-initiated-reboot-or-shutdown-actions)

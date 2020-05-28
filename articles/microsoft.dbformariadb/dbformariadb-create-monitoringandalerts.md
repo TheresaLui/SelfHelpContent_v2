@@ -6,12 +6,13 @@
     authors="kummanish"
     ms.author="manishku"
     displayOrder="230"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640134"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="29b4bc86-3a48-4486-97a7-2c5ff12ce7a0"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Monitoring Azure Database for MariaDB servers

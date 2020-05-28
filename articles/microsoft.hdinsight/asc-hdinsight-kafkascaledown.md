@@ -10,10 +10,11 @@
     articleId="Hdi_Kafka_ScaleDownFailure"
     diagnosticScenario="HDInsightKafkaScaleDownInsight"
     selfHelpType="diagnostics"
-    supportTopicIds="32628995, 32629125, 32636492, 32636468"
+    supportTopicIds="32681539"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found an issue

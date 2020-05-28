@@ -1,14 +1,15 @@
 <properties
          pageTitle="Scoping questions for Configuration - issues with scheduling backup"
-         description="ScScoping questions for Configuration - issues with scheduling backup"
+         description="Scoping questions for Configuration - issues with scheduling backup"
          authors="srinathvasireddy"
          ms.author="srinathv"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32594868"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="bdb1bfbf-d4fc-4dba-aca7-33cecf8e881f"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for Configuration - issues with scheduling backup
 ---
@@ -18,6 +19,11 @@
          "subscriptionRequired": false,
          "title": "Issue with scheduling backup",
          "fileAttachmentHint": "",
+	 "diagnosticCard": {
+		"title": "Issue with scheduling backup",
+		"description": "These diagnostics will check for errors.",
+		"insightNotAvailableText": "We didn't find any problems"
+	    },
          "formElements": [{
 		          "id": "issue_type",
                           "order": 1,
@@ -47,14 +53,16 @@
                                       "text": "Other, don't know or not applicable"
                                     }
                               ],
-		      "required": true
+		      "required": true,
+     "diagnosticInputRequiredClients": "Portal"
 	  },{
                           "id": "problem_start_time",
                           "order": 2,
                           "visibility": "null",
                           "controlType": "datetimepicker",
                           "displayLabel": "When did the problem begin?",
-                          "required": true
+                          "required": true,
+     "diagnosticInputRequiredClients": "Portal"
              },{
                           "id": "problem_description",
                           "order": 3,

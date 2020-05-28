@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632801"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="b7e6ce67-6f7f-487a-9841-021943d0af57"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions SQL database scheduled backup failure
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "SQL database scheduled backup failure",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "SQL database scheduled backup failure",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
         "id": "machine_name",
@@ -25,11 +31,15 @@
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Select the virtual machine running SQL",
             "dynamicDropdownOptions": {
-        "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
-        "jTokenPath": "value",
-        "textProperty": "name",
-        "valueProperty": "id",
-        "textPropertyRegex": ".*"
+        "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+        "jTokenPath": "value",
+        "textProperty": "name",
+        "valueProperty": "id",
+        "textPropertyRegex": ".*",
+	"defaultDropdownOptions": {
+                           "value": "dont_know_answer",
+                           "text": "Other or none of the above"
+                     }
        },
      "required": false
      },
@@ -130,7 +140,8 @@
             "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+     "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",

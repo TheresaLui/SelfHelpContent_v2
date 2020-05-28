@@ -2,23 +2,22 @@
 	pageTitle="Scoping questions for Backup and Restore"
 	description="Backup and Restore"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32542208"
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="69353d19-6140-4a89-8e61-a74482e156b2"
+	ownershipId="Compute_AppService"
 />
 
 # Backup and Restore
-
-
-
-
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",
@@ -27,15 +26,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "hints": [
-                {
-                    "text": "Is it a Scheduled Backup or Manual Backup?"
-                },
-                {
-                    "text": "Are you seeing an error message?"
-                }
-            ]
+            "required": true
         },
         {
             "id": "problem_start_time",
@@ -43,7 +34,23 @@
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
-        }
+        },
+        {
+			"id": "3",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "Is it a Scheduled Backup or Manual Backup?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Scheduled",
+					"text": "Scheduled"
+				}, {
+					"value": "Manual",
+					"text": "Manual"
+				}
+			],
+			"required": false
+		}
     ],
     "$schema": "SelfHelpContent"
 }

@@ -4,11 +4,12 @@
 	authors="chez-charlie"
 	ms.author="chez"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629471"
+    supportTopicIds="32637154"
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
     articleId="79750b9a-305f-41b6-8b48-8184b4a070c9"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Azure Data Movement Copy Wizard Issue

@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32642177"
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="E7F354E1-8263-43BD-9D01-2AAAF1C6316F"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Recover deleted Resource Group
 ---
@@ -17,6 +18,11 @@
     "resourceRequired": false,
     "title": "Resource group recovery scoping question",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Is it possible to recover storage account(s)in deleted resource group?",
+        "description": "Our storage account recovery troubleshooter can help identify if it is possible to recover storage account(s) in your deleted resource group",
+        "insightNotAvailableText": "Our troubleshooter could not identify if your account(s) in deleted resource group is recoverable or not. Please ensure that the resource group name provided is correct."
+    },
     "formElements": [
         {
             "id": "warning_same_name",
@@ -30,7 +36,8 @@
             "controlType": "textbox",
             "displayLabel": "Name of the deleted resource group",
             "watermarkText": "ResourceGroupName",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "recovery_type",
@@ -66,7 +73,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Name of storage accounts to recover",
             "watermarkText": "accountname1;accountname2;accountname3",
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
             "id": "problem_start_time",

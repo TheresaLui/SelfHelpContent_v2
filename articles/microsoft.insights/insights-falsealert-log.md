@@ -4,16 +4,17 @@
 	infoBubbleText=""
 	service="microsoft.insights"
 	resource="scheduledqueryrules"
-	authors="snehithm, msvijayn"
-	ms.author="snmuvva, vinagara"
+	authors="yalavi, yagil"
+	ms.author="yalavi, yagil"
 	displayOrder="8"
 	articleId="falsealert-log"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629643, 32612427"
+	supportTopicIds="32629643, 32612427, 32629642"
 	resourceTags=""
 	productPesIds="15454, 15725"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # My log search alert fired when it shouldn't have

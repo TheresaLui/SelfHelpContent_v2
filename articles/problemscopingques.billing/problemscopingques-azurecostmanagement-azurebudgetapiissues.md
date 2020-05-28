@@ -7,15 +7,16 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32615281,32615284"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 
 # Billing and Payment Issues
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Azure Cost Management",
     "fileAttachmentHint": "Please upload the HAR file and the screenshot of the error message",
     "formElements": [

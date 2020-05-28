@@ -4,11 +4,12 @@
 	authors="Passaree"
     ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602736,32602700,32602705,32602706,32602773"
-	productPesIds="16459,15629,16461,16462"
-	cloudEnvironments="public"
+	supportTopicIds="32602736,32602700,32602705,32602706,32602773,32612613"
+	productPesIds="16459,15629,16461,16462,16598"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="db69e7ff-4d73-423a-97ae-b30cee9f0d64"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Storage migration between Storage Accounts
 ---

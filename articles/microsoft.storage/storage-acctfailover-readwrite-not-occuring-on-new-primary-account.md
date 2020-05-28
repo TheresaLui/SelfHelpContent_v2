@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure Account Failover Read/Write not Occuring on New Primary Storage Account"
-	description="Azure Account Failover Read/Write not Occuring on New Primary Storage Account"
+	pageTitle="Azure Account Failover Read/Write not Occurring on New Primary Storage Account"
+	description="Azure Account Failover Read/Write not Occurring on New Primary Storage Account"
 	infoBubbleText=""
 	service="microsoft.storage"
 	resource="storageaccounts"
@@ -13,10 +13,11 @@
 	supportTopicIds="32631238"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
-# Azure Account Failover Read/Write not Occuring on New Primary Storage Account
+# Azure Account Failover Read/Write not Occurring on New Primary Storage Account
 
 ## **Recommended Documents**
 

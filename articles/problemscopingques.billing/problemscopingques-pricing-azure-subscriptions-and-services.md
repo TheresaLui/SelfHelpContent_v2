@@ -1,21 +1,23 @@
 <properties
-	pageTitle="Azure Subscriptions and Services"
-	description="Azure Subscriptions and Services"
+	pageTitle="Assist me with pricing model"
+	description="Assist me with pricing model"
 	articleId="pricing-azuresubscriptionsandservicesscopingquestions"
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632933"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 
-# Pricing -Azure Subscriptions and Services
+# Pricing -Assist me with pricing model
 ---
 {
     "resourceRequired": false,
-    "title": "Azure Subscriptions and Services",
+    "subscriptionRequired": false,
+    "title": "Assist me with pricing model",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -38,7 +40,16 @@
                     "text": "Describe your problem, providing as much detail as possible."
                 },
                 {
-                    "text": "Know more about Azure pricing -  <a href='https://azure.microsoft.com/pricing/faq/'>here</a>."
+                    "text": "Learn more -  <a href='https://azure.microsoft.com/pricing/faq/'>Azure Pricing</a>."
+                },
+		{
+                    "text": "Learn more -  <a href='https://docs.microsoft.com/azure/marketplace/marketplace-faq-publisher-guide'>Marketplace Pricing</a>."
+                },
+		{
+                    "text": "Learn more -  <a href='https://docs.microsoft.com/azure/cost-management-billing/manage/ea-pricing#download-pricing-for-an-enterprise-agreement'>EA Pricing</a>."
+                },
+		{
+                    "text": "Learn more -  <a href='https://docs.microsoft.com/azure/cost-management-billing/manage/ea-pricing#download-pricing-for-an-mca-or-mpa-account'>MCA/MPA Pricing</a>."
                 }
             ]
         }

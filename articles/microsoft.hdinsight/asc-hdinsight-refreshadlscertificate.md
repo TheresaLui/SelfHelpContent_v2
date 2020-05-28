@@ -10,17 +10,19 @@
     articleId="Hdi_CertExpired"
     diagnosticScenario="HDInsightExpiredCertificateInsight"
     selfHelpType="rca"
-    supportTopicIds="32629004, 32636420"
+    supportTopicIds="32636418, 32636420, 32636425"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found an issue
 
 ## Problem
-
+<!--issueDescription-->
 The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is configured to use only ADLS as storage which is accessed via a certificate. This certificate has expired and must be refreshed in order to access storage.
+<!--/issueDescription-->
 
 ## Thumbprint of expired certificates
 <!--$Thumbprint-->[Thumbprint]<!--/$Thumbprint-->

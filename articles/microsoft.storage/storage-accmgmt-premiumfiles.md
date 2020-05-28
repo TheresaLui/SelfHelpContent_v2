@@ -10,8 +10,9 @@
 	supportTopicIds="32639217"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="87f7e1f4-7517-4cd0-93fe-20f51b78108d"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # What is Premium Fileshare

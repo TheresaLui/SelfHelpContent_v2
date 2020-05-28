@@ -9,8 +9,9 @@
 	supportTopicIds="32558805"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
 	articleId="ff44e7a2-73f6-4f2a-bbc9-1fa9f81a321f"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Service Fabric Windows Server On-Premises

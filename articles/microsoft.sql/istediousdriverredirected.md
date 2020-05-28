@@ -12,8 +12,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
     	ms.author="aamalvea"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Database Connectivity issue due to driver detected

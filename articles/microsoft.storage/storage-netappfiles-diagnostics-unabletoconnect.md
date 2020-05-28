@@ -11,13 +11,14 @@
 	supportTopicIds="32640618"
 	resourceTags=""
 	productPesIds="16469"
-	cloudEnvironments="public"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="NetAppNetworkControlPlaneIssues"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Network Control Plane Issues
 <!--issueDescription-->
-We have identified that your volume <!--$volumename-->[volumename]<!--/$volumename--> is currently inaccessible due to an issue with the network programming. We are currently working with our engineering team to investigate further and mitigate the issue. We will keep you posted with further updates.
+We have identified that your volume <!--$volumename-->[volumename]<!--/$volumename--> may be currently inaccessible due to an issue with the network programming. We are currently working with our engineering team to investigate further and mitigate the issue. We will keep you posted with further updates.
 
 We sincerely apologize for the inconvenience caused.
 <!--/issueDescription-->

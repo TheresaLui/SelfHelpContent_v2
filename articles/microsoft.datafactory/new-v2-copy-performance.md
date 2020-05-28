@@ -13,7 +13,8 @@
 	supportTopicIds="32629468"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Understand and Tune Performance of Copy Activity

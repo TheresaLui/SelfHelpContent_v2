@@ -6,12 +6,13 @@
     authors="ajlam"
     ms.author="andrela"
     displayOrder="320"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32640146"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="ec2e323e-aa6d-4500-87ba-62409b128919"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Using PowerShell to manage Azure Databases for MariaDB

@@ -13,7 +13,8 @@
 	supportTopicIds="32612601"
 	resourceTags=""
 	productPesIds="16598"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 
 # Azure Data Lake Gen2 connectivity issues

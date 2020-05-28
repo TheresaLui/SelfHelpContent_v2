@@ -2,13 +2,14 @@
          pageTitle="Scoping questions for issue configuring Azure File share backup"
          description="Scoping questions for issue configuring Azure File share backup"
          authors="srinathvasireddy"
-	 ms.author="srinathv"
+	       ms.author="srinathvasireddy"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32612212"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="a7f05b99-4465-4c48-819b-b8e64da4d9eb"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for issue configuring Azure File share backup
 ---
@@ -17,6 +18,11 @@
     "subscriptionRequired": true,
     "title": "Issue configuring Azure File share backup",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "For issue configuring Azure File share backup",
+        "description": "These diagnostics will check for errors.",
+        "insightNotAvailableText": "We didn't find any problems"
+    },
     "formElements": [
         {
             "id": "storage_account_name",
@@ -24,11 +30,11 @@
             "controlType": "dropdown",
             "displayLabel": "Which storage account(s) is experiencing the problem?",
             "watermarkText": "Enter the name of the storage account(s)",
-	     "dynamicDropdownOptions": {
-            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Storage/storageAccounts' or resourceType eq 'Microsoft.ClassicStorage/storageAccounts'",
-            "jTokenPath": "value",
-            "textProperty": "name",
-            "valueProperty": "id",
+	          "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Storage/storageAccounts' or resourceType eq 'Microsoft.ClassicStorage/storageAccounts'",
+            "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
             "textPropertyRegex": ".*",
 	    "defaultDropdownOptions": {
                 "value": "dont_know_answer",
@@ -85,7 +91,8 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "error_message",
