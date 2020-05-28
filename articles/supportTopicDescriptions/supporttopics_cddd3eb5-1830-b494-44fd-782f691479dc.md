@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3989ecc2-ea05-13fb-797b-37fbbf808206",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues that can affect performance such as high usage of CPU, disk space, or memory",
+      "searchTags": "Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "46d3b5cb-4fa8-12e0-c525-9c41d42dcb8b",
       "longDescription": "",
       "shortDescription": "Disk throughput is lower than expected for the virtual machine",
