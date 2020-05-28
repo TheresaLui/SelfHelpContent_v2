@@ -23,6 +23,6 @@
 
 * **FedRamp Certification**: For any FedRamp certification, please refer: [FedRamp Marketplace](https://marketplace.fedramp.gov)<br>
 
-* **Azure PCI DSS Compliance**: The required
+* **Azure PCI DSS Compliance**: The required documents for Azure for achieving Payment Card Industry compliances are the Attestation of Compliance and Responsibility Matrix, both of which are available on the Azure Trust Center.
 
 ## **Recommended Documents**
