@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "10ed694a-3166-2ffc-bec1-25b610f940ca",
+      "longDescription": "",
+      "shortDescription": "Covers issues with NVIDIA GPU driver extension",
+      "searchTags": "GPU;NVIDIA",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "13ff4901-20a9-a149-bd79-9d30e2d84335",
       "longDescription": "",
       "shortDescription": "Resolve concerns dealing with shared disk",
