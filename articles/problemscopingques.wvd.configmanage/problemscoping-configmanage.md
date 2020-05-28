@@ -65,16 +65,7 @@
       "controlType": "multilinetextbox",
       "displayLabel": "What is the exact error you see",
       "watermarkText": "Please provide the exact issue seen",
-      "required": true,
-      "useAsAdditionalDetails": true,
-      "hints": [
-        {
-          "text": "Error message seen."
-        },
-        {
-          "text": "Where is the error message seen"
-        }
-      ]
+      "required": true
     },
     {
       "id": "problem_start_time",
