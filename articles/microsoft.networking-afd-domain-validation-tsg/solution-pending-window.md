@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Domain validation takes a minimum 8 hours"
 	description="Domain validation takes a minimum 8 hours"
-	service="Microsoft.Network/"
+	service="Microsoft.Network"
 	resource="Microsoft.Network/frontDoors"
 	authors="JRMayberry"
 	ms.author="rimayber"
@@ -18,7 +18,6 @@
 # Domain validation takes a minimum 8 hours
 <!--issueDescription-->
 Dear customer,
-
 Thank you for contacting us about your certificate domain validation. We have determined that your request has been pending for under 8 hours. There is a minimum wait time for 8 hours before a validation can be successful. We will keep your support case open and check domain validation status in 8 hours.
 
 Thank you
