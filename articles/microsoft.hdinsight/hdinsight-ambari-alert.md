@@ -17,7 +17,7 @@
 
 # Azure HDInsight: Ambari Alerts
 
-For an explanation of the type of alert statuses provided in Ambari, see [Alerts](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-hadoop-manage-ambari#alerts).
+For an explanation of the type of alert statuses provided in Ambari, see [Alerts](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-manage-ambari#alerts).
 
 Ambari heartbeat lost alerts are usually transient and will resolve on their own own. For more information about heartbeat issues, see [Apache Ambari heartbeat issues in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues).
 
