@@ -1,7 +1,7 @@
 <properties
     pageTitle="Autoscale Flapping Detected"
-    description="Flapping occurs when autoscale detects a situation where scaling in one direction would trigger a scaling in the opposite direction."
-    infoBubbleText="Flapping occurs when autoscale detects a situation where scaling in one direction would trigger a scaling in the opposite direction."
+    description="Flapping occurs when the act of scaling down would later cause autoscale to scale up immediately."
+    infoBubbleText="Flapping occurs when the act of scaling down would later cause autoscale to scale up immediately."
     service="microsoft.insights"
     resource="autoscale"
     ms.author="anstubbs"
@@ -22,7 +22,7 @@ Autoscale has detected a scenario where the autoscale setting did not scale beca
 
 ## Flapping
 <!--issueDescription-->
-Flapping occurs when the act of scaling in one direction would later cause autoscale to scale in the opposite direction because the margin between the two thresholds is too small.
+Flapping occurs when the act of scaling down would later cause autoscale to scale up immediately because the margin between the two metric trigger thresholds is too small, causing undesired thrasing to the resource.
 <!--/issueDescription-->
 
 An example of this is the following:
