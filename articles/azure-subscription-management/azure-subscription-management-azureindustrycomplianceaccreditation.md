@@ -19,9 +19,7 @@
 
 * **Policy**: For any questions on Microsoft Compliance document, please refer [Azure Trust Center Compliance](https://www.microsoft.com/TrustCenter/Compliance/soc)<br>
 
-* **FedRamp Certification**: For any FedRamp certification, please refer: [FedRamp Marketplace](https://marketplace.fedramp.gov)<br>
-
-* **Azure PCI DSS Compliance**: The required documents for Azure for achieving PCI (Payment Card Industry) compliances are the Attestation of Compliance (AoC) and Responsibility Matrix, both of which are available on the Azure Trust Center. Please verify if you have these documents. If you have these documents but need additional proof of Microsoft Azure PCI DSS (Data Security Standard) Compliance, please refer to [Microsoft and PCI DSS](http://azure.microsoft.com/support/trust-center/compliance/pci-dss/)<br>
+* **HIPAA and the HITECH Act**: Please refer to [Windows Azure HIPAA guide](https://gallery.technet.microsoft.com/Azure-HIPAAHITECH-Act-1d27efb0?) if you are interested in HIPAA and the HITECH Act to understand the relevant capabilities of Windows Azure <br>
 
 * **Azure Operations/Security/Compliance**: If you have general security related questions on Azure, please refer: [Standard Response to Request for Information Microsoft Azure Security, Privacy, and Compliance](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=f7ca8423-1bc5-4be0-bff8-b6056f87c134&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)<br>
 If you have compliance related questions, please refer: [Microsoft STP - Compliance](https://www.microsoft.com/TrustCenter/Compliance) and [Service Trust Portal FAQ](https://servicetrust.microsoft.com/ViewPage/FAQ)<br>
