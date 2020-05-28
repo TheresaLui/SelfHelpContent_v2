@@ -382,6 +382,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b2670f9f-ade3-2456-799c-f591435394c6",
+      "longDescription": "",
+      "shortDescription": "Covers issues with the VM Access (enablevmaccess) extension",
+      "searchTags": "VM Access",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b2a54971-f86b-fcfc-d2e9-a784cb400e2c",
       "longDescription": "",
       "shortDescription": "Covers issues with the Azure Custom Script Extension",
