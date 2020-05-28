@@ -131,8 +131,8 @@
     {
       "id": "134405f7-3ab8-50a5-3f68-2b87855f74f6",
       "longDescription": null,
-      "shortDescription": "Covers issues with the Azure Custom Scipt extension",
-      "searchTags": "",
+      "shortDescription": "Covers issues with the Azure Custom Script Extension",
+      "searchTags": "CSE",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
     },
