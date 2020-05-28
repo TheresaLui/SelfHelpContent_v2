@@ -24,7 +24,7 @@ You are unable to install the Cloud Provisioning agent (Preview) in non-English 
 
 Please use the English language server when installing the Cloud Provisioning agent.<br/>
 
-<b>Note</b>: Installing on non-English servers or installing an English language pack on a non-English server will not resolve this issue. Check out [additional prerequisites](https://docs.microsoft.com/active-directory/cloud-provisioning/how-to-prerequisites)  needed to install the agent successfully.
+<b>Note</b>: Installing on non-English servers or installing an English language pack on a non-English server will not resolve this issue. Check out [additional prerequisites](https://docs.microsoft.com/azure/active-directory/cloud-provisioning/how-to-prerequisites)  needed to install the agent successfully.
 
 
 ## **Recommended Documents**
