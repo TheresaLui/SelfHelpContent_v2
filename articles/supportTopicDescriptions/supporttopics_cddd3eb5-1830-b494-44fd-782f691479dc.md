@@ -646,6 +646,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f4fd8a3e-74db-f3a4-03d1-60188940a66f",
+      "longDescription": "",
+      "shortDescription": "Azure Backup is encountering a failure when restoring your virtual machine using Azure Backup",
+      "searchTags": "Backup",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f6b80563-6a99-2b18-68b1-87302cf1d2d4",
       "longDescription": "",
       "shortDescription": "Covers issues with the Microsoft Antimalware extension",
