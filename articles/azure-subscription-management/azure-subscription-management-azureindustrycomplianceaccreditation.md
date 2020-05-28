@@ -22,6 +22,6 @@
 * **HIPAA and the HITECH Act**: Please refer to [Windows Azure HIPAA guide](https://gallery.technet.microsoft.com/Azure-HIPAAHITECH-Act-1d27efb0) if you are interested in HIPAA and the HITECH Act to understand the relevant capabilities of Windows Azure <br>
 
 * **FedRamp Certification**: For any FedRamp certification, please refer: [FedRamp Marketplace](https://marketplace.fedramp.gov)<br>
-* **Azure PCI DSS Compliance**: The required documents for Azure for achieving Payment Card Industry compliances are the Attestation of Compliance and Responsibility Matrix, both of which are available on the Azure Trust Center. Please verify if you have these documents. If you have these documents but need additional proof of Microsoft Azure PCI Data Security Standard Compliance, please refer to [Microsoft and PCI DSS](https://docs.microsoft.com/microsoft-365/compliance/offering-pci-dss)<br>
+* **Azure PCI DSS Compliance**: The required documents for Azure for achieving Payment Card Industry compliances are the Attestation of Compliance and Responsibility Matrix, both of which are available on the Azure Trust Center. Please verify if you have these documents. If you have these documents but need additional proof of Microsoft Azure PCI Data Security Standard Compliance, please refer to 
 
 ## **Recommended Documents**
