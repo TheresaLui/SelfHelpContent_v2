@@ -350,6 +350,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a04c7d08-f45f-42c0-4e86-88ae407595cb",
+      "longDescription": "",
+      "shortDescription": "Assistance with encryption failures related to pre-requirements not being met",
+      "searchTags": "ADE",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a0bb6685-33b6-24e7-7d8a-75d4ed1d7136",
       "longDescription": "",
       "shortDescription": "Common problems related to creating a new Azure virtual machine such as provisioning or allocation failures",
