@@ -18,4 +18,4 @@
 # Custom domains
 
 ## **Recommended Documents**
-* [Setup a custom domain in Azure Static Web Apps Preview](https://docs.microsoft.com/en-us/azure/static-web-apps/custom-domain)
+* [Setup a custom domain in Azure Static Web Apps Preview](https://docs.microsoft.com/azure/static-web-apps/custom-domain)

@@ -18,4 +18,4 @@
 # Serverless API hosting
 
 ## **Recommended Documents**
-* [Azure Static Web Apps documentation](https://docs.microsoft.com/en-us/azure/static-web-apps/)
+* [Azure Static Web Apps documentation](https://docs.microsoft.com/azure/static-web-apps/)
