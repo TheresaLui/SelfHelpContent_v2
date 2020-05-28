@@ -230,6 +230,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a0bb6685-33b6-24e7-7d8a-75d4ed1d7136",
+      "longDescription": "",
+      "shortDescription": "Common problems related to creating a new Azure virtual machine such as provisioning or allocation failures",
+      "searchTags": "Creating",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a4b8355c-cf91-9ccd-ff84-80019d1e63c2",
       "longDescription": "",
       "shortDescription": "Assistance with deploying a virtual machine with managed disks",
