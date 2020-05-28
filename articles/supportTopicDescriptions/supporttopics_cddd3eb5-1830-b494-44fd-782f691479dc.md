@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "079c56e2-7bdb-6c51-c9ce-fdf81fa34e5d",
+      "longDescription": "",
+      "shortDescription": "Covers issues using Azure Disk Encryption for a virtual machine running in Azure",
+      "searchTags": "ADE",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0847678f-f905-4c94-7a14-9d42b9f944e3",
       "longDescription": "",
       "shortDescription": "Resolve errors when starting or stopping your VM, if it is unresponsive or generating disk related or allocation errors",
