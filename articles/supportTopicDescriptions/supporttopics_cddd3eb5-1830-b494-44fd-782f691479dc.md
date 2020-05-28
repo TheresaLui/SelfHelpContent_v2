@@ -350,6 +350,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b749326b-a0d9-7397-e078-545f08d07958",
+      "longDescription": "",
+      "shortDescription": "Covers issues with the OMS Log Analytics extension",
+      "searchTags": "OMS",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b80f1d81-dd72-8613-0f92-25825c8a9ec6",
       "longDescription": "",
       "shortDescription": "Assistance with virtual machine sizing or better understanding of throughtput",
