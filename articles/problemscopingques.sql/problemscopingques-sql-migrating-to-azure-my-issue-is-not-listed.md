@@ -164,10 +164,10 @@
             "required": true
         },
     {
-            "id": "engine_source",
+            "id": "engine_source_tool",
             "order": 6,
             "controlType": "dropdown",
-            "visibility": "reason == planning && Tool_dropdown == SSMA",
+            "visibility": "Tool_dropdown == SSMA",
             "displayLabel": "What is the DB engine source?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Choose the DB engine source",
