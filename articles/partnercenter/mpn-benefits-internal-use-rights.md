@@ -25,7 +25,7 @@ Resources providing knowledge of Microsoft product features and capabilities wit
 ## **Recommended Steps**
 
 * IURs are licenses that are intended to help partners build innovative Microsoft-based apps and services. [Read more on IUR usage policies and compliance.](https://assetsprod.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf) These licenses are meant for internal use and should not be distributed among customers.
-* [Click here to download the license table/benefits list for MAPS](https:/assetsprod.microsoft.com/MPN-MAPS-Software-IUR-License-Table.xlsx)
+* [Click here to download the license table/benefits list for MAPS](https://assetsprod.microsoft.com/MPN-MAPS-Software-IUR-License-Table.xlsx)
 * [Click here to download the competency wise license table for gold and silver memberships](https://assetsprod.microsoft.com/mpn-maps-software-iur-competency-license-table.docx)
 * [Click here to compare MAPS, Gold and Silver Membership Plans](https://partner.microsoft.com/membership/compare-offers)
 * Access your IUR licenses from [Benefits](https://partner.microsoft.com/pcv/partnership/benefits) page
