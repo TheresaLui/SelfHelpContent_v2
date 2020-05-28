@@ -18,6 +18,8 @@
 	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 
+# Partner Center Partner University
+
 ## **Recommended Steps**
 
 1. These [FAQs](https://support.microsoft.com/help/2964426/partner-university-learning-plans) will answer some of the most frequently asked questions and help you navigate the Learning Portal and Partner University.
