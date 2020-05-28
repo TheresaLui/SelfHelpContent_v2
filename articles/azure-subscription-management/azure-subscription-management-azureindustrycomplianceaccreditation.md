@@ -21,6 +21,8 @@
 
 * **HIPAA and the HITECH Act**: Please refer to [Windows Azure HIPAA guide](https://gallery.technet.microsoft.com/Azure-HIPAAHITECH-Act-1d27efb0) if you are interested in HIPAA and the HITECH Act to understand the relevant capabilities of Windows Azure <br>
 
+* **FedRamp Certification**: For any FedRamp certification, please refer: [FedRamp Marketplace](https://marketplace.fedramp.gov)<br>
+
 
 
 ## **Recommended Documents**
