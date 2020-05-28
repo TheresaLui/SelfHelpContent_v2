@@ -398,6 +398,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c9417489-6f2a-7906-cde8-2c446eeac78e",
+      "longDescription": "",
+      "shortDescription": "Covers issues with the Azure Backup extension",
+      "searchTags": "Backup",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "cbc66602-d0a3-abe6-c880-043309caa9e5",
       "longDescription": "",
       "shortDescription": "A configuration change to your virtual machine has prevented your virtual machine from starting",
