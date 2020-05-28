@@ -462,6 +462,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f6b80563-6a99-2b18-68b1-87302cf1d2d4",
+      "longDescription": "",
+      "shortDescription": "Covers issues with the Microsoft Antimalware extension",
+      "searchTags": "Antimalware",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f820b562-a549-86dc-b8ae-b5ee4e835aaa",
       "longDescription": "",
       "shortDescription": "Covers issues where the start operation for the VM fails and an error message is provided",
