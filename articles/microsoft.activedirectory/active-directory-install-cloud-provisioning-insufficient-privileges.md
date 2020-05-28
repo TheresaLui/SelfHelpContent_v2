@@ -1,12 +1,12 @@
 <properties
 	pageTitle="Problem installing Cloud Provisioning Agent"
-	description="Problem installing Cloud Provisioning agent due to certificate invalidity"
+	description="Problem installing Cloud Provisioning agent due to insufficient privileges"
 	infoBubbleText="Problem installing Cloud Provisioning agent"
 	service="microsoft.activedirectory"
 	resource="microsoft.activedirectory"
 	ms.author="Dhanyahk"
-	displayOrder="2"
-	articleId="943dbd16-aa56-4afa-96d0-77a908d95089"
+	displayOrder="3"
+	articleId="1957ed0c-6e3c-4f50-ab61-983341597856"
 	diagnosticScenario=""
 	selfHelpType="resource"
 	supportTopicIds="32689667"
@@ -16,34 +16,23 @@
 	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
-# Installation issues around Cloud Provisioning due to certificate becoming invalid
+# Installation issues around Cloud Provisioning due to insufficient privileges
 
 You are unable to install the Cloud Provisioning agent (Preview) and getting the following error
-"Time out has expired and the operation has expired"
+"Service 'Microsoft Azure AD Connect Provisioning Agent' failed to start. Verify that you have sufficient privileges to start the system services."
 
 ## **Recommended Steps**
 
-This problem is usually caused by the agent being unable to connect to the Hybrid Identity Service and requires you to configure an HTTP proxy. To resolve this problem, configure an outbound proxy.
-
-You can resolve this error by using an outbound proxy. 
+This problem is typically caused by a group policy that prevented permissions from being applied to the local NT Service log-on account created by the installer (NT SERVICE\AADConnectProvisioningAgent). These permissions are required to start the service.
 
 1. Sign in to the server with an administrator account.
 
-2. Open the agent config file located at <i>C:\Program Files\Microsoft Azure AD Connect Provisioning Agent\AADConnectProvisioningAgent.exe.config</i>
+2. Open Services by either navigating to it or by going to Start > Run > Services.msc.
 
-3. Add the following lines into it, toward the end of the file just before the closing </configuration> tag. Replace the variables [proxy-server] and [proxy-port] with your proxy server name and port values.
+3. Under Services, double-click Microsoft Azure AD Connect Provisioning Agent.
 
-```
-<system.net>
-        <defaultProxy enabled="true" useDefaultCredentials="true">
-            <proxy
-                usesystemdefault="true"
-                proxyaddress="http://[proxy-server]:[proxy-port]"
-                bypassonlocal="true"
-            />
-        </defaultProxy>
-    </system.net>
-```
+4. On the Log On tab, change This account to a domain admin. Then restart the service.
+
 
 ## **Recommended Documents**
 

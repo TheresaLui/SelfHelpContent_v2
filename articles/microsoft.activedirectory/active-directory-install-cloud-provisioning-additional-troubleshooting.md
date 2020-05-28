@@ -5,7 +5,7 @@
 	service="microsoft.activedirectory"
 	resource="microsoft.activedirectory"
 	ms.author="Dhanyahk"
-	displayOrder=""
+	displayOrder="1"
 	articleId="5989dcdf-d82b-4a9f-9c73-29d7913f6bc8"
 	diagnosticScenario=""
 	selfHelpType="resource"
