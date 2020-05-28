@@ -334,6 +334,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b2a54971-f86b-fcfc-d2e9-a784cb400e2c",
+      "longDescription": "",
+      "shortDescription": "Covers issues with the Azure Custom Script Extension",
+      "searchTags": "CSE",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b3ca1e6d-ea88-4d89-2f27-cf22e3bf6b37",
       "longDescription": "",
       "shortDescription": "Assistance with troubleshooting network security groups (NSG) associated to the virtual machine",
