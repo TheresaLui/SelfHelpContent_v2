@@ -262,6 +262,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "568c0608-9ba0-ee8f-01e7-34e8afefb041",
+      "longDescription": "",
+      "shortDescription": "Azure Backup is encountering a failure when restoring your virtual machine using Azure Backup",
+      "searchTags": "Backup",
+      "category": "Backup",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5a5377ad-0f05-a3ba-d25e-98346a3f74df",
       "longDescription": "",
       "shortDescription": "Requests to help where CPU usage is higher than expected for the virtual machine",
