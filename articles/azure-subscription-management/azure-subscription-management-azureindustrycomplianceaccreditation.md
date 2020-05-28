@@ -25,6 +25,4 @@
 
 * **Azure PCI DSS Compliance**: The required documents for Azure for achieving PCI (Payment Card Industry) compliances are the Attestation of Compliance (AoC) and Responsibility Matrix, both of which are available on the Azure Trust Center. Please verify if you have these documents. If you have these documents but need additional proof of Microsoft Azure PCI DSS (Data Security Standard) Compliance, please refer to [Microsoft and PCI DSS](https://docs.microsoft.com/microsoft-365/compliance/offering-pci-dss?view=o365-worldwide)<br>
 
-
-
 ## **Recommended Documents**
