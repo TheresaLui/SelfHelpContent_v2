@@ -8,7 +8,7 @@
 	productPesIds="16459"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
-	articleId="c71e126a-7c81-44d3-aac5-8ca861ef37b0"
+	articleId="07645ecc-bd63-4ebe-aa20-ca9d7f0b9c4b"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Issues with point in time restore
@@ -32,7 +32,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "Restore start time",
             "required": true
-        }
+        },
         {
             "id": "problem_description",
             "order": 3,
