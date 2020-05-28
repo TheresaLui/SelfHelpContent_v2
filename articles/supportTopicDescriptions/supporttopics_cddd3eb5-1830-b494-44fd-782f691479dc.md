@@ -334,6 +334,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b18ffbd3-1113-0c33-9cdc-656f3f59b255",
+      "longDescription": "",
+      "shortDescription": "Covers issues with the Azure Desired State Configuration extension",
+      "searchTags": "DSC",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b2a54971-f86b-fcfc-d2e9-a784cb400e2c",
       "longDescription": "",
       "shortDescription": "Covers issues with the Azure Custom Script Extension",
