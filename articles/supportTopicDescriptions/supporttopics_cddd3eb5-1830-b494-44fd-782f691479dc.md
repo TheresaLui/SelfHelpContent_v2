@@ -294,6 +294,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a254dd34-bf5f-b67c-f99f-86f9cf7ed6c8",
+      "longDescription": "",
+      "shortDescription": "Resolve concerns dealing with direct upload",
+      "searchTags": "Direct Upload",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a4b8355c-cf91-9ccd-ff84-80019d1e63c2",
       "longDescription": "",
       "shortDescription": "Assistance with deploying a virtual machine with managed disks",
