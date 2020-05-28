@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "69720acf-121d-1581-bc05-b35043d3989f",
+      "longDescription": "",
+      "shortDescription": "Covers issues with the Azure Disk Encryption extension",
+      "searchTags": "ADE",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6fb3a706-abe9-0693-1544-72e848334a9f",
       "longDescription": "",
       "shortDescription": "Covers issues where the Guest OS of the VM is crashing, or failing to boot to a usable state.",
