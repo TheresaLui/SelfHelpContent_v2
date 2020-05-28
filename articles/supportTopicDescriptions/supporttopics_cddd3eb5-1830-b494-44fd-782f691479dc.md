@@ -278,6 +278,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5f4ad650-1aec-c7f3-d671-f42fbc706af6",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to migrating or moving a virtual machine or associated resource on Azure",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "64f558d7-19ec-b533-1d51-bf8065b8b000",
       "longDescription": "",
       "shortDescription": "Resolve issues specific to the firewall within the guest OS of the virtual machine",
