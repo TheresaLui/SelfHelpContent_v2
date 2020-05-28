@@ -350,6 +350,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "8ff77fb6-150f-80f7-7d88-98b049aacd81",
+      "longDescription": "",
+      "shortDescription": "Resolve issues with unlocking an encrypted VM for troubleshooting reasons",
+      "searchTags": "ADE",
+      "category": "ADE",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "90d85a5b-aab4-4375-f298-2049d519ab76",
       "longDescription": "",
       "shortDescription": "Covers issues with Monitoring agent (MMA) extension",
