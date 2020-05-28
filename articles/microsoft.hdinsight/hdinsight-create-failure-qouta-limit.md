@@ -17,7 +17,7 @@
 
 # Create failure due to quota limit
 
-If your subscription requires a quota increase, click **Previous** and change the **Issue type** to **Service and subscription limits (quotas)** and then continue with your support request. For complete instructions, see [Create a support ticket to increase core](https://docs.microsoft.com/en-us/azure/hdinsight/quota-increase-request#gather-required-information). If you received the error "The maximum node exceeded the available cores in this region" that indicates your subscription requires a quota increase.
+If your subscription requires a quota increase, click **Previous** and change the **Issue type** to **Service and subscription limits (quotas)** and then continue with your support request. For complete instructions, see [Create a support ticket to increase core](https://docs.microsoft.com/azure/hdinsight/quota-increase-request#gather-required-information). If you received the error "The maximum node exceeded the available cores in this region" that indicates your subscription requires a quota increase.
 
 **To check available cores**
 
