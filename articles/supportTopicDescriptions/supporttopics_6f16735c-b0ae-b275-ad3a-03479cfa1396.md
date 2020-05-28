@@ -827,9 +827,9 @@
     {
       "id": "af987d76-3ad6-c91a-5050-24712c6edc1f",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Covers issues where the status of encryption is incorrect for the VM (Portal, CLI, PS)",
+      "searchTags": "ADE",
+      "category": "ADE",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
