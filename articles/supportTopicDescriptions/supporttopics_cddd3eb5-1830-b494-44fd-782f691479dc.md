@@ -302,6 +302,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "89a2d1f5-09e9-e2fa-f074-f5b690e82998",
+      "longDescription": "",
+      "shortDescription": "Covers issues with Azure Active Directory Login extension",
+      "searchTags": "AAD",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "90d85a5b-aab4-4375-f298-2049d519ab76",
       "longDescription": "",
       "shortDescription": "Covers issues with Monitoring agent (MMA) extension",
