@@ -217,6 +217,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "31b44bbf-c250-1176-5986-9cdc37510515",
+      "longDescription": "",
+      "shortDescription": "Resolve concerns dealing with shared disk",
+      "searchTags": "Shared Disk",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "32e9eab8-0dfe-2ee6-aa44-226df969736c",
       "longDescription": null,
       "shortDescription": "Issues when resizing, attaching and detaching, or performing other tasks on a virtual disk",
