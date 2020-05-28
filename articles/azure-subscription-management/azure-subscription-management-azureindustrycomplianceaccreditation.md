@@ -19,8 +19,8 @@
 
 * **Policy**: For any questions on Microsoft Compliance document, please refer [Azure Trust Center Compliance](https://www.microsoft.com/TrustCenter/Compliance/soc)<br>
 
-## **Recommended Documents**
+* **HIPAA and the HITECH Act**: Please refer to [Windows Azure HIPAA guide](https://gallery.technet.microsoft.com/Azure-HIPAAHITECH-Act-1d27efb0) if you are interested in HIPAA and the HITECH Act to understand the relevant capabilities of Windows Azure <br>
 
-* [Service Trust Portal](https://servicetrust.microsoft.com/) - Authority for all GDPR requests across all Microsoft products
-* [Microsoft Account Privacy](https://account.microsoft.com/privacy/)- Users can manage and delete data specific to their MSA
-* [Online Privacy assistance](https://www.microsoft.com/safety/online-privacy/default.aspx)
+
+
+## **Recommended Documents**
