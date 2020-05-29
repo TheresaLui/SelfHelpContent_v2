@@ -33,27 +33,16 @@
         {
             "id": "remediationTaskId",
             "order": 20,
-            "controlType": "dropdown",
-            "displayLabel": "Please select the remediation task.",
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.PolicyInsights/remediations?api-version=2019-07-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "textTemplate": "{name}",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            },
-            "DropdownOptions": [
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide the remediation task ID.",
+            "watermarkText": "Provide the remediation task ID,
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
                 {
-                    "value": "NoRemediationTask",
-                    "text": "Unable to retrieve list of policy remediation task"
+                    "text": "Remediation task ID"
                 }
-            ],
-            "required": true
+            ]
         },
         {
             "id": "problem_description",
