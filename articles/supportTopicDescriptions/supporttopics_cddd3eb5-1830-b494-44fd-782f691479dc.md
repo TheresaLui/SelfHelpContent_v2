@@ -766,6 +766,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e828e8d4-ff7f-6594-4f9d-fa7004f419fa",
+      "longDescription": "",
+      "shortDescription": "Creating or configuring a Windows failover cluster for a virtual machine running in Azure",
+      "searchTags": "Cluster",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ec4a3cb7-9b8b-f765-e132-d5562425d712",
       "longDescription": "",
       "shortDescription": "Covers issues that are not listed above and are related to Azure Disk Encryption",
