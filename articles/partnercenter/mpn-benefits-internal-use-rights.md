@@ -30,7 +30,7 @@ Resources providing knowledge of Microsoft product features and capabilities wit
 * [Click here to compare MAPS, Gold and Silver Membership Plans](https://partner.microsoft.com/membership/compare-offers)
 * Access your IUR licenses from [Benefits](https://partner.microsoft.com/pcv/partnership/benefits) page
 
-### **Recommended Documents**
+## **Recommended Documents**
 
 * [Activate and Manage your Microsoft Partner Network membership benefits](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits)
 * [Benefits Overview](https://support.microsoft.com/help/2966368/benefits-overview-in-partner-center-downloading-activating-software)
