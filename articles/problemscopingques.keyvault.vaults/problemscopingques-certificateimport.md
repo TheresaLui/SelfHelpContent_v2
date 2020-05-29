@@ -88,7 +88,7 @@
             "order": 6,
             "visibility": "error_message_available == Yes",
             "controlType": "multilinetextbox",
-            "displayLabel": "Error Message Details",
+            "displayLabel": "Error message details",
             "required": false
         }
     ],
