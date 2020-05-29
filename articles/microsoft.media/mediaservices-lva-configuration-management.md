@@ -17,7 +17,7 @@
 />
 # Configuration and management
 
-## **Recommended Steps**
+## **Recommended Documents**
 
 [Production readiness and best practices](https://docs.microsoft.com/azure/media-services/live-video-analytics-edge/production-readiness) – Read this article for guidance on how to configure and deploy the Live Video Analytics on IoT Edge module in production environments. Information covered includes:
 * [Running the module as a local user](https://docs.microsoft.com/azure/media-services/live-video-analytics-edge/production-readiness#running-the-module-as-a-local-user)
