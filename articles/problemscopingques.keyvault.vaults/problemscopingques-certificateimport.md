@@ -15,7 +15,7 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": false,
+    "resourceRequired": true,
     "title": "Vault cannot be found",
     "fileAttachmentHint": "",
     "diagnosticCard": {

@@ -69,7 +69,7 @@
             "id": "application_environment",
             "order": 5,
             "controlType": "multiselectdropdown",
-            "displayLabel": "Select the applications running on your virtual machine",
+            "displayLabel": "Select the environments that are running your applications",
             "dropdownOptions": [{
                     "value": "Virtual Machine",
                     "text": "Virtual Machine"
