@@ -7,7 +7,7 @@
     ms.author="kenieva"
     displayOrder=""
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32741668,32741669,32741670,32741671"
+    supportTopicIds="32741669,32741670,32741671"
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
@@ -107,7 +107,7 @@
         },
            {
             "id": "VM",
-            "order": 40,
+            "order": 50,
             "controlType": "dropdown",
             "displayLabel": "Please select the Virtual Machine",
             "dynamicDropdownOptions": {
