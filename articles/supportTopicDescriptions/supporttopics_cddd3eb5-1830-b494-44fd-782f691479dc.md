@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "446adcca-c7da-6896-1928-d11130c6312c",
+      "longDescription": "",
+      "shortDescription": "Assistance with joining a domain",
+      "searchTags": "Admin",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "46d3b5cb-4fa8-12e0-c525-9c41d42dcb8b",
       "longDescription": "",
       "shortDescription": "Disk throughput is lower than expected for the virtual machine",
