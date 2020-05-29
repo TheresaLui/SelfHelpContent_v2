@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3385321a-4a96-c811-4c9c-61a6c799aab6",
+      "longDescription": "",
+      "shortDescription": "Assistance with managing a virtual machine running SQL in Azure",
+      "searchTags": "SQL",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "36b2730a-cb80-23d9-656d-c0c2d476e45f",
       "longDescription": "",
       "shortDescription": "Requests for help with configuring backups for your Azure virtual machine using Azure Backup",
