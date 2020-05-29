@@ -29,7 +29,7 @@ How to start using your Microsoft Partner Network (MPN) membership benefits in t
 * Go to your [Membership offers](https://partner.microsoft.com/dashboard/mpn/offers) page. Locate the **Silver or Gold competency** tile under the **Offers available for purchase** section and click **Subscribe**
   * If you haven’t met the [requirements for the desired Competency level](https://partner.microsoft.com/membership/competencies), you are not eligible to subscribe. Also, **if you are already a Gold competency Partner, the option to pay the Silver competency fee will be unavailable to you**
 * In the next page, review your **Purchase details** and **Select your payment preference**
-* For additional help, please refer to Recommended documents below
+* For additional help, please refer to the recommended documents below
 
 ## **Recommended Documents**
 
