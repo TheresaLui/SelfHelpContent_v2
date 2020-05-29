@@ -97,10 +97,10 @@
             "controlType": "radioButtonGroup",
             "displayLabel": "Is there an error message?",
             "radioButtonOptions": [{
-                    "value": "yes",
+                    "value": "Yes",
                     "text": "Yes"
                 }, {
-                    "value": "no",
+                    "value": "No",
                     "text": "No"
                 }
             ],
