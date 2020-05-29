@@ -68,6 +68,29 @@
             "controlType": "textbox",
             "displayLabel": "Import Method",
             "required": true
+        },
+        {
+            "id": "error_message_available",
+            "order": 5,
+            "controlType": "radioButtonGroup",
+            "displayLabel": "Is there an error message?",
+            "radioButtonOptions": [{
+                    "value": "yes",
+                    "text": "Yes"
+                }, {
+                    "value": "no",
+                    "text": "No"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "error_message_description",
+            "order": 6,
+            "visibility": "error_message_available == Yes",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Error Message Details",
+            "required": false,
         }
     ],
     "$schema": "SelfHelpContent"
