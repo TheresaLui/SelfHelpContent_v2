@@ -18,7 +18,9 @@
 # Advisory for Key Vault related tasks
 ## **Recommended Steps**
 
-* For general questions and not urgent incidents please use [Stack Overflow](https://stackoverflow.microsoft.com/questions/ask) providing azure-keyvault as a tag
+* For general questions and not urgent incidents please use Stack Overflow providing 'azure-keyvault' as a tag <br>
+    [Microsoft Internal Stack Overflow](https://stackoverflow.microsoft.com/questions/ask) <br>
+    [Stack Overflow](https://stackoverflow.com/questions/ask)<br>
 * For features requests please use [Key Vault User Voice](https://feedback.azure.com/forums/906355-azure-key-vault)
 
 
