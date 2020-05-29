@@ -31,6 +31,22 @@
                     "text": "Webhook"
                 },
                 {
+                    "value": "Secure Webhook",
+                    "text": "Secure Webhook"
+                },
+                {
+                    "value": "Logic App",
+                    "text": "Logic App"
+                },
+                {
+                    "value": "Function",
+                    "text": "Azure Function"
+                },
+                {
+                    "value": "Runbook",
+                    "text": "Automation Runbook"
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "I don't know"
                 }
