@@ -654,6 +654,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "da01b1c1-7d54-941d-888a-7da4fb85d897",
+      "longDescription": "",
+      "shortDescription": "Migrating virtual machines from a third-party provider to Azure using Azure Site recovery ",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "daccad3e-eabc-e716-5059-e7109fe0560a",
       "longDescription": "",
       "shortDescription": "Requests to help migrate virtual machines from on-premises to Azure using Azure Site recovery ",
