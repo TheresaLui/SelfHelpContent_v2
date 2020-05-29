@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "8898cc57-0473-2a4a-cd16-0a661fe2b618",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to configuration of a failover cluster, RDS, or disk encryption for a VM running in Azure",
+      "searchTags": "Config",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "89a2d1f5-09e9-e2fa-f074-f5b690e82998",
       "longDescription": "",
       "shortDescription": "Covers issues with Azure Active Directory Login extension",
