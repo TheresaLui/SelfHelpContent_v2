@@ -278,6 +278,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5bc29796-6299-6056-68d5-d2fc58302ebe",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to managing a virtual machine on Azure",
+      "searchTags": "Management",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5f4ad650-1aec-c7f3-d671-f42fbc706af6",
       "longDescription": "",
       "shortDescription": "Covers issues related to migrating or moving a virtual machine or associated resource on Azure",
