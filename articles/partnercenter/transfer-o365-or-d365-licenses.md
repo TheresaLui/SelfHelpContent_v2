@@ -27,7 +27,7 @@ If you provision the same offers as those your customer has been using, there is
 
 If you transfer customers who are on offers that have been discontinued, you will need to find an equivalent offer in order to prevent data loss. If you move the customer to a different offer, you will need to update their license assignment.
 
-### **Recommended Documents**
+## **Recommended Documents**
 
 * **[Transfer license-based services customers to the Cloud Solution Provider Program from another channel or from one partner to another](https://docs.microsoft.com/partner-center/transition-seat-based-services)**
 * **[Work with other partners](https://docs.microsoft.com/partner-center/work-with-other-partners#multi-channel-support)**
