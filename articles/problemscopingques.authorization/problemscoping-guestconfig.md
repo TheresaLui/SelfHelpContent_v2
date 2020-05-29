@@ -132,7 +132,7 @@
         },
         {
             "id": "problem_description",
-            "order": 50,
+            "order": 60,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about the issue and what is your expectation",
