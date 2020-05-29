@@ -25,15 +25,15 @@ Based on the summary problem description, the issue you are encountering could b
 
 ## **Recommended Documents**
 
-#### Application related questions
+ **Application related questions**
 * [Tutorials for list of all SaaS apps that have been pre-integrated into Azure AD](https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list)
 * [Application and service principal objects in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
 * [How to: Sign in any Azure Active Directory user using the multi-tenant application pattern](https://docs.microsoft.com/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#understand-user-and-admin-consent)
 
-####	App Consent
+**App Consent**
 * [Azure Active Directory consent framework](https://docs.microsoft.com/azure/active-directory/develop/consent-framework)
 * [Permissions and consent in the Microsoft identity platform endpoint](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
 
-#### Signing in to a Gallery
+**Signing in to a Gallery**
 * [Problems signing in to a gallery application configured for federated single sign-on](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery)
 * [Resolution to problems signing in to a gallery application configured for federated single sign-on](https://docs.microsoft.com/azure/active-directory/manage-apps/application-sign-in-problem-federated-sso-gallery)
