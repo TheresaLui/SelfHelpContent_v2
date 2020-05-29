@@ -33,16 +33,10 @@
         {
             "id": "remediationTaskId",
             "order": 20,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Please provide the remediation task ID.",
             "watermarkText": "Provide the remediation task ID.",
-            "required": true,
-            "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "Remediation task ID."
-                }
-            ]
+            "required": true
         },
         {
             "id": "problem_description",
