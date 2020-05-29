@@ -518,6 +518,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9b504558-994b-fa7d-7f64-8ac6382b1db1",
+      "longDescription": "",
+      "shortDescription": "Assistance with Azure Image Builder",
+      "searchTags": "Image Builder",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9f3b8c5f-02c0-7f6e-7b95-9a00ba99aded",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues with connecting to your VM via RDP or SSH due to configuration or other changes",
