@@ -678,6 +678,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "deb635fc-d919-065f-6ca0-b7bc61479177",
+      "longDescription": "",
+      "shortDescription": "Covers questions with retiring of Classic IAAS resources (ASM)",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e0377a4c-88a2-2e30-7ba8-d7079f986fd9",
       "longDescription": "",
       "shortDescription": "Covers issues with the virtual machine boot diagnostic extension",
