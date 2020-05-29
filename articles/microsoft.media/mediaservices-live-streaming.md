@@ -19,7 +19,6 @@
 
 # Live streaming with Media Services
 
-## **Recommended Documents**
 
 **Supported Live Encoders to use with Media Services**
 
