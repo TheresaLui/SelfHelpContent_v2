@@ -526,6 +526,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9661955c-fa9d-7306-516e-7d4f9330c911",
+      "longDescription": "",
+      "shortDescription": "Assistance with managing a fail over cluster in Azure",
+      "searchTags": "Cluster",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "97c59b9b-ba59-7c33-b005-2ce77fa4a6cd",
       "longDescription": "",
       "shortDescription": "Covers issues with kernel upgrades for Linux operating systems",
