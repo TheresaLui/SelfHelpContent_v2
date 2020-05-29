@@ -22,7 +22,7 @@ Autoscale has detected a scenario where the autoscale setting did not scale beca
 
 ## Flapping
 <!--issueDescription-->
-Flapping occurs when the act of scaling down would later cause autoscale to scale up immediately because the margin between the two metric trigger thresholds is too small, causing undesired thrasing to the resource.
+Flapping occurs when the act of scaling down would later cause autoscale to scale up immediately because the margin between the two metric trigger thresholds is too small, causing undesired thrashing to the resource.
 <!--/issueDescription-->
 
 An example of this is the following:
