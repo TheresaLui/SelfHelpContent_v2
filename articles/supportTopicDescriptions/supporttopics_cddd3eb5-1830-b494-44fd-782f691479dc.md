@@ -230,6 +230,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "4f744396-a2aa-b4df-ddac-eb26caad4d00",
+      "longDescription": "",
+      "shortDescription": "Assistance with managing a virtual machine running SQL in Azure",
+      "searchTags": "SQL",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "514ac81e-be99-54a4-eaf4-9370fc0be72c",
       "longDescription": "",
       "shortDescription": "Covers issues with AMD GPU driver extension",
