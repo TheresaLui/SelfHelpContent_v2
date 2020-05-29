@@ -654,6 +654,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c334a302-aa5c-e950-5656-755d0e981c7e",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to Planned Maintenance notifications in Azure",
+      "searchTags": "Planned",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c4aa16ad-4241-d898-28c2-38d21faa52ee",
       "longDescription": "",
       "shortDescription": "Requests to help move resources between storage accounts",
