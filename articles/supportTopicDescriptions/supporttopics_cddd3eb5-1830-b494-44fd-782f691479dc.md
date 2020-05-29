@@ -694,6 +694,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c01dc4d0-1080-9d9c-c70a-0af732fe8a9f",
+      "longDescription": "",
+      "shortDescription": "Covers issues with package management for Linux operating systems",
+      "searchTags": "Admin",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c334a302-aa5c-e950-5656-755d0e981c7e",
       "longDescription": "",
       "shortDescription": "Covers issues related to Planned Maintenance notifications in Azure",
