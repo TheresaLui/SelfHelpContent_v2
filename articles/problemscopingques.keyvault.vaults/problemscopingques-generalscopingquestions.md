@@ -68,8 +68,8 @@
                     "value": "Virtual Machine",
                     "text": "Virtual Machine"
                 }, {
-                    "value": "Application Service",
-                    "text": "Application Service"
+                    "value": "App Service",
+                    "text": "App Service"
                 }, {
                     "value": "Other",
                     "text": "Other"
