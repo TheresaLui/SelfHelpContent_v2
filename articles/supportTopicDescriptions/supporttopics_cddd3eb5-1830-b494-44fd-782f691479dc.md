@@ -814,6 +814,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e1ba7a87-ee3e-97c1-79bb-bd8a0d45958d",
+      "longDescription": "",
+      "shortDescription": "Assistance with file system issue for a Linux VM",
+      "searchTags": "Admin",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e2542607-20ad-4425-e30d-eec8e2121f55",
       "longDescription": "",
       "shortDescription": "Covers questions with retiring of Classic IAAS resources (ASM)",
