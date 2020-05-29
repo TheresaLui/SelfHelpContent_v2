@@ -40,3 +40,6 @@ More details about penetration testing can be found here: [Penetration Testing](
 **Note**: Online Services customer data and personal data list notification is fully automated. For more information, see Microsofts [Data Protection Resources](https://servicetrust.microsoft.com/Documents/TrustDocuments)
 
 ## **Recommended Documents**
+* [Service Trust Portal](https://servicetrust.microsoft.com/) Authority for all GDPR requests across all Microsoft products
+* [Microsoft Account Privacy](https://account.microsoft.com/privacy/)Users can manage and delete data specific to their MSA
+* [Online Privacy assistance](https://www.microsoft.com/safety/online-privacy/default.aspx)
