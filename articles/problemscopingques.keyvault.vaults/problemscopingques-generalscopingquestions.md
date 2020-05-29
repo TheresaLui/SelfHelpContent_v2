@@ -38,7 +38,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is the expected experience and how does that differ from the actual result?",
             "required": false,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "required": true
         },
         {
             "id": "problem_description",
@@ -80,6 +81,14 @@
                     "text": "Other"
                 }
             ],
+            "required": true
+        },
+        {
+            "id": "other_application_environment",
+            "visibility": "application_environment == Other",
+            "order": 6,
+            "controlType": "textbox",
+            "displayLabel": "Application Environment",
             "required": true
         }
     ],
