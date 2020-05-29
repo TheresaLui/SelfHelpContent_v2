@@ -710,6 +710,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d9bb543f-fd32-6a17-40ff-bc2b75f55027",
+      "longDescription": "",
+      "shortDescription": "Assistance with deleting a virtual machine in Azure",
+      "searchTags": "Delete",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "da01b1c1-7d54-941d-888a-7da4fb85d897",
       "longDescription": "",
       "shortDescription": "Migrating virtual machines from a third-party provider to Azure using Azure Site recovery ",
