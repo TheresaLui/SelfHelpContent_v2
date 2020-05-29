@@ -23,7 +23,11 @@ We have accessed your workspace and cluster event logs, and it seems that cluste
 To resolve the issue:<br>
 1. You can either *stop unused clusters* to release resources.<br>
 2. Or if the first suggested solution is not feasible, please *open a case with Azure Subscription Management team* making sure to incluse these details: <br>
-    1. Subscription ID, Region, VM type, Current available number of cores, Number of cores to be added.<br>
+    1. Subscription ID<br>
+    2. Region<br>
+    3. VM type<br>
+    4. Current available number of cores<br>
+    5. Number of cores to be added.<br>
    <br>
 Please check the documents for further details:<br>
 <!--/issueDescription-->

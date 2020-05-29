@@ -17,14 +17,12 @@
 
 1. Go to Salesforce portal to submit ticket: [Submit Request](https://help.databricks.com/s/submitrequest)
 2. Fill all required details making sure to have the following:
-
-   Business Impact - Low
-   Component - Genie access request
-   Check the permission to access Databricks instance.
-   Workspace ID
-   Cluster ID
-   Requestor Organization
-   Requestor Subscription ID
-   Requestor Ticket ID
-   
+    1. Business Impact - Low
+    2. Component - Genie access request
+    3. Check the permission to access Databricks instance.
+    4. Workspace ID
+    5. Cluster ID
+    6. Requestor Organization
+    7. Requestor Subscription ID
+    8. Requestor Ticket ID
 3. Submit request and copy ticket number to use it afterwards.
