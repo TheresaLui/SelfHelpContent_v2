@@ -28,7 +28,7 @@
 4. Refer to this article [Software benefits](https://support.microsoft.com/help/4515234/software-products-benefits-tab-for-mpn-partners-in-partner-center) for step by step instructions to **review, activate, sort or download** the Software benefit
 5. For additional help, please refer to Recommended documents below
 
-### **Recommended Documents**
+## **Recommended Documents**
 
 * [Software benefits - Learn more and review troubleshooting scenarios](https://support.microsoft.com/help/4515234/software-products-benefits-tab-for-mpn-partners-in-partner-center)
 * [Where can I find my Software benefits in Partner Center](https://support.microsoft.com/help/4489315/where-can-i-find-my-benefits-in-partner-center)
