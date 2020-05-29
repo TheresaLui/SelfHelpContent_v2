@@ -630,6 +630,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "beacf412-7db1-a73e-9130-3f717a3511e5",
+      "longDescription": "",
+      "shortDescription": "Assistance with deleting a resource group in Azure",
+      "searchTags": "Delete",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bf46b021-8045-213e-8857-d7b83562e22e",
       "longDescription": "",
       "shortDescription": "Assistance when the guest OS is causing restarts repeatedly",
