@@ -29,6 +29,5 @@
 If you have compliance related questions, please refer: [Microsoft STP - Compliance](https://www.microsoft.com/TrustCenter/Compliance) and [Service Trust Portal FAQ](https://servicetrust.microsoft.com/ViewPage/FAQ)<br>
 
 * **GDPR Compliance**: If you have questions about Data Processing Agreement, please review the Data Protection Terms starting on Page 7 in the [Online Services Terms](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31). The OST includes the primary data processing terms but is incorporated into the standard commercial contract. Among other things, it provides with a contractual commitment regarding our GDPR obligations. Additionally, please review the GDPR specific terms at the end of the contract in Attachment 4 starting on Page 42. These sections cover Microsoft’s GDPR obligations as a data processor as well as sub-processor to another data processor.<br>
-*Note*: It is strongly recommended to use Adobe Acrobat Reader to open PDF documents, as issues with other PDF viewers have been noted. 
 
 ## **Recommended Documents**
