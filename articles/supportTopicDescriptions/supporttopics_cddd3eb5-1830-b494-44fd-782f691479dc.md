@@ -646,6 +646,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "daccad3e-eabc-e716-5059-e7109fe0560a",
+      "longDescription": "",
+      "shortDescription": "Requests to help migrate virtual machines from on-premises to Azure using Azure Site recovery ",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "dcf6f0d6-63ca-7638-f29a-79e3ebbf94fb",
       "longDescription": "",
       "shortDescription": "Request an official root cause for the virtual machine downtime",
