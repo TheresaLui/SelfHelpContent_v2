@@ -28,4 +28,6 @@
 * **Azure Operations/Security/Compliance**: If you have general security related questions on Azure, please refer: [Standard Response to Request for Information Microsoft Azure Security, Privacy, and Compliance](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=f7ca8423-1bc5-4be0-bff8-b6056f87c134&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)<br>
 If you have compliance related questions, please refer: [Microsoft STP - Compliance](https://www.microsoft.com/TrustCenter/Compliance) and [Service Trust Portal FAQ](https://servicetrust.microsoft.com/ViewPage/FAQ)<br>
 
+* **GDPR Compliance**: If you have questions about Data Processing Agreement, please review the Data Protection Terms starting on Page 7 in the [Online Services Terms](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)(OST).
+
 ## **Recommended Documents**
