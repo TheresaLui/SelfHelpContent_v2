@@ -18,11 +18,6 @@
     "resourceRequired": true,
     "title": "Vault cannot be found",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "Key Vault Troubleshooter",
-        "description": "Our Key Vault Troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
-    },
     "formElements": [
         {
             "id": "problem_start_time",
@@ -57,6 +52,10 @@
                 },{
                     "value": "Other",
                     "text": "Other"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know answer"
                 }
             ],
             "required": true
@@ -90,7 +89,7 @@
             "visibility": "error_message_available == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Error Message Details",
-            "required": false,
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
