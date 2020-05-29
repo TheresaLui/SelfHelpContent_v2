@@ -63,7 +63,7 @@
             "order": 3,
             "controlType": "dropdown",
             "visibility": "reason == planning",
-            "displayLabel": "What is the DB engine source?",
+            "displayLabel": "What is the database engine source?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Choose the DB engine source",
 	          "dropdownOptions": [
@@ -212,7 +212,7 @@
             "id": "source",
             "order": 8,
             "controlType": "dropdown",
-	    "visibility": "reason != feature",
+	    "visibility": "reason != feature && reason != dont_know_answer",
             "displayLabel": "Where is located the source DB or BACPAC file?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Choose the source location",
@@ -236,7 +236,7 @@
             "id": "size",
             "order": 9,
             "controlType": "textbox",
-	    "visibility": "reason != feature",
+	    "visibility": "reason != feature && reason != dont_know_answer",
             "displayLabel": "What is the max size of the largest DB?",
             "infoBalloonText": "Enter the max size of the largest database.",
             "required": false
@@ -245,7 +245,7 @@
             "id": "downtime",
             "order": 10,
             "controlType": "textbox",
-	    "visibility": "reason != feature",
+	    "visibility": "reason != feature && reason != dont_know_answer",
             "displayLabel": "What is the max downtime allowed?",
             "infoBalloonText": "Enter the max downtime allowed for the migration",
             "required": false
@@ -263,7 +263,7 @@
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional context for the error message you are encountering.",
+            "displayLabel": "Please provide additional context and the error message you are encountering.",
             "required": true,
             "useAsAdditionalDetails": true,
             "watermarkText": "Please provide the full error you are receiving. If available,please attach any relevant screenshots and scripts that you have used."
