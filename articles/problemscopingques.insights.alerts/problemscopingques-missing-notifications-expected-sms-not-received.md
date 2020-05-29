@@ -27,15 +27,15 @@
             "watermarkText": "Choose one or more notification or action types",
             "dropdownOptions": [
                 {
-                    "value": "SMS",  
+                    "value": "SMS",
                     "text": "SMS"
                 },
                 {
-                    "value": "Phone call",  
+                    "value": "Phone call",
                     "text": "Voice/Phone call"
                 },
                 {
-                    "value": "Azure App Push",  
+                    "value": "Azure App Push",
                     "text": "Azure App Push Notification"
                 },
                 {
