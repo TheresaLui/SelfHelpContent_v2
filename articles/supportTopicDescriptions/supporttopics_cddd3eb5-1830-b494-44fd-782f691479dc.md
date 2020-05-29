@@ -590,6 +590,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "bd0acd80-7468-6588-5ae3-cfe2b179f195",
+      "longDescription": "",
+      "shortDescription": "Covers issues with kernel upgrades for Linux operating systems",
+      "searchTags": "upgrade",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bf46b021-8045-213e-8857-d7b83562e22e",
       "longDescription": "",
       "shortDescription": "Assistance when the guest OS is causing restarts repeatedly",
