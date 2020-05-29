@@ -35,12 +35,12 @@
             "order": 20,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the remediation task ID.",
-            "watermarkText": "Provide the remediation task ID,
+            "watermarkText": "Provide the remediation task ID.",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "Remediation task ID"
+                    "text": "Remediation task ID."
                 }
             ]
         },
