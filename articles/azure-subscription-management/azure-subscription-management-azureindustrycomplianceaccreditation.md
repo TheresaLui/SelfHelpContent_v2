@@ -31,6 +31,6 @@ If you have compliance related questions, please refer: [Microsoft STP - Complia
 * **GDPR Compliance**: If you have questions about Data Processing Agreement, please review the Data Protection Terms starting on Page 7 in the [Online Services Terms](https://www.microsoftvolumelicensing.com). The OST includes the primary data processing terms but is incorporated into the standard commercial contract. Among other things, it provides with a contractual commitment regarding our GDPR obligations. Additionally, please review the GDPR specific terms at the end of the contract in Attachment 4 starting on Page 42. These sections cover Microsoft’s GDPR obligations as a data processor as well as sub-processor to another data processor.<br>
 *Note*: It is strongly recommended to use Adobe Acrobat Reader to open PDF documents, as issues with other PDF viewers have been noted.It is also recommended to download the file locally instead of opening it in a browser window, as that may cause errors.<br>
 
-* **HDS Compliance**: Azure is now Health Data Hosting (HDS) certified in accordance with French requirements. For more information, please see [Microsoft Azure is now certified to host sensitive health data in France](https://azure.microsoft.com/blog/microsoft-azure-is-now-certified-to-host-sensitive-health-data-in-france/)<br>
+* **HDS Compliance**: Azure is now Health Data Hosting certified in accordance with French requirements. For more information, please see
 
 ## **Recommended Documents**
