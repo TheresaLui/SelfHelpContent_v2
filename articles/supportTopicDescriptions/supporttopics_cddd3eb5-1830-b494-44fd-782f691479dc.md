@@ -518,6 +518,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9277162e-9c05-41f5-49a3-fbbd5db5014f",
+      "longDescription": "",
+      "shortDescription": "Assistance with repository for a specific distro",
+      "searchTags": "Repo",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "92bf5bcc-b7cd-6a7f-add6-973b02755e4c",
       "longDescription": "",
       "shortDescription": "Questions about migrating virtual machines using Azure Site recovery ",
