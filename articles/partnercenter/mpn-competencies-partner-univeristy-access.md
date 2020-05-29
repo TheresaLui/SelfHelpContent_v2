@@ -22,9 +22,9 @@
 
 ## **Recommended Steps**
 
-1. These [FAQs](https://support.microsoft.com/help/2964426/partner-university-learning-plans) will answer some of the most frequently asked questions and help you navigate the Learning Portal and Partner University.
-2. For any access related issues for Partner University account, please download the document [here](https://assetsprod.microsoft.com/mpn/partner-u-site-login-instructions-training-manager.pdf).
-3. For additional help, please refer to Recommended documents below.
+1. These [FAQs](https://support.microsoft.com/help/2964426/partner-university-learning-plans) will answer some of the most frequently asked questions and help you navigate the Learning Portal and Partner University
+2. For any access related issues for Partner University account, please download the document [here](https://assetsprod.microsoft.com/mpn/partner-u-site-login-instructions-training-manager.pdf)
+3. For additional help, please refer to the documents below
 
 ## **Recommended Documents**
 
