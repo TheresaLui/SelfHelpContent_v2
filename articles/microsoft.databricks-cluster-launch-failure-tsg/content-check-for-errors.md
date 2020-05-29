@@ -13,7 +13,7 @@
             articleId="b2745e54-cdcb-42e0-87aa-9df672e961e0"
             ownershipId="Centennial_CloudNet_LoadBalancer" />
 
-# Check for cluser failure errors
+# Check for cluster failure errors
 
 Do you see errors similar to the following?
 
