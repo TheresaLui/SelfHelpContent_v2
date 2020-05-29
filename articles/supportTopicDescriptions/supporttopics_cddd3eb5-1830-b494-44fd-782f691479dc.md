@@ -534,6 +534,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9593b47c-b73f-e3b0-5cc5-5a9ce6b50c1c",
+      "longDescription": "",
+      "shortDescription": "Issue with a local account within the VM",
+      "searchTags": "Account",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9661955c-fa9d-7306-516e-7d4f9330c911",
       "longDescription": "",
       "shortDescription": "Assistance with managing a fail over cluster in Azure",
