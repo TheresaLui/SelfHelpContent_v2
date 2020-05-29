@@ -326,6 +326,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6ea04af3-f79f-522a-07d7-5542f30e1d7b",
+      "longDescription": "",
+      "shortDescription": "Using Azure Scheduled Events to prepare your virtual machine for scheduled maintenance",
+      "searchTags": "Scheduled Events",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6fb3a706-abe9-0693-1544-72e848334a9f",
       "longDescription": "",
       "shortDescription": "Covers issues where the Guest OS of the VM is crashing, or failing to boot to a usable state.",
