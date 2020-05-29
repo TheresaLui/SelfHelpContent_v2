@@ -33,6 +33,10 @@
                 {
                     "value": "Email ARM Role",
                     "text": "Email Azure Resource Manager Role"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I don't know"
                 }
             ],
             "required": true
