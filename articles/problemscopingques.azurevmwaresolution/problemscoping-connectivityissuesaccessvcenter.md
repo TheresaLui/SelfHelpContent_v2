@@ -8,7 +8,7 @@
                 cloudEnvironments="Public, fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="aa262eb6-0471-4837-8af1-5ad376bfd698"
-	            ownershipId="Azure_VMwareSolution_Content"
+	              ownershipId="Azure_VMwareSolution_Content"
 />
 # Useful Title
 ---
@@ -16,7 +16,7 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-            "title": "accessvcenter",
+    "title": "accessvcenter",
             "fileAttachmentHint": "",
             "formElements": [{
             			"id": "problem_start_time",
@@ -41,7 +41,8 @@
             "controlType": "textbox",
             "displayLabel": "What is the ExpressRoute URI ID?",
             "required": false
-        }, {
+        },
+       {
             "id": "credentialissue",
             "order": 4,
             "controlType": "textbox",
