@@ -302,6 +302,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "69f642dd-74a8-34c8-c4e4-dd2b00b3512c",
+      "longDescription": "",
+      "shortDescription": "Moving resources between resource groups",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6fb3a706-abe9-0693-1544-72e848334a9f",
       "longDescription": "",
       "shortDescription": "Covers issues where the Guest OS of the VM is crashing, or failing to boot to a usable state.",
