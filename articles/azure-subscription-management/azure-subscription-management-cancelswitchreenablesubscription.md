@@ -17,8 +17,7 @@
 
 # Cancel Subscription
 
-If you cancel a paid Azure Support plan, you are billed for the rest of the subscription term. 
-Pay-as-you-go customers can cancel at any time without any penalty fees. You will still owe the balance for any unbilled or unpaid monthly consumption.<br>
+If you cancel a paid Azure Support plan, you are billed for the rest of the subscription term. Pay-as-you-go customers can cancel at any time without any penalty fees. You will still owe the balance for any unbilled or unpaid monthly consumption.<br>
 
 Learn more: [Azure support plans](https://azure.microsoft.com/support/plans/)
 
@@ -27,8 +26,8 @@ Learn more: [Azure support plans](https://azure.microsoft.com/support/plans/)
 **Cancel Subscription in Azure portal**
 
 1. Select your subscription from the [Subscriptions page in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
-2. Select the subscription that you want to cancel. Select **Overview**, 
-3. Select **Cancel subscription**. 
+2. Select the subscription that you want to cancel. Select **Overview**.
+3. Select **Cancel subscription**
 4. Follow prompts and finish cancellation
 
 * Learn more: [Cancel Azure Subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)
@@ -38,7 +37,7 @@ Learn more: [Azure support plans](https://azure.microsoft.com/support/plans/)
 If you don't want to cancel your subscription but want to stop charges for a deployment, you can manually delete your deployed Azure packages using the Azure Management Portal.
 
 * In this case, all application data will be removed, and you will not receive further charges. However, your profile and billing information will remain in the system, and you will be billed for usage at the next billing cycle.Exception: Virtual machines (VMs) can be stopped/deallocated to pause billing without outright deletion.
-* If you cancel the support plan before the sixth month, you will not be charged after the current month of cancellation, and there is no pro-rate refund. 
+* If you cancel the support plan before the sixth month, you will not be charged after the current month of cancellation, and there is no pro-rate refund
 
 ## **Recommended Documents**
 
