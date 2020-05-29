@@ -88,7 +88,7 @@
             "visibility": "application_environment == Other",
             "order": 6,
             "controlType": "textbox",
-            "displayLabel": "Application Environment",
+            "displayLabel": "Other Application Environment",
             "required": true
         }
     ],
