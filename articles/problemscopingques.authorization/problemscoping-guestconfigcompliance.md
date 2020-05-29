@@ -128,7 +128,7 @@
                     "text": "Unable to retrieve list of policy initative"
                 }
             ],
-            "required": true
+            "required": false
         },
            {
             "id": "VM",
