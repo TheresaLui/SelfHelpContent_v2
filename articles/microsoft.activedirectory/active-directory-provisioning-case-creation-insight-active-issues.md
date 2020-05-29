@@ -1,11 +1,11 @@
 <properties
-    pageTitle="PREVIEW: Get help from our intelligent knowledge base"
-    description="Self diagnosis with our intelligent knowledge base"
-	infoBubbleText="Please try self diagnosis with our intelligent knowledge base"
+    pageTitle="Active provisioning issue"
+    description="This insight displays an active provisioning issue for one or more connectors in a customer's tenant."
+	infoBubbleText="his insight displays an active provisioning issue for one or more connectors in a customer's tenant."
     service="microsoft.activedirectory"
     resource=""
-    authors="hsku"
-    ms.author="hsku"
+    authors="arvinh"
+    ms.author="arvinh"
     displayOrder="1"
     articleId="Provisioning-Active-Issues"
     selfHelpType="diagnostics"
@@ -14,11 +14,11 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="AzureIdentity_MultiFactorAuthentication"
+	ownershipId="AzureIdentity_SyncFabric"
 />
 
-# PREVIEW: Get help from our intelligent knowledge base
+# PREVIEW: Active provisioning issue
 <!--issueDescription-->
-**Top recommendations from our intelligent knowledge base.**
-<!--$botResponseContent-->[botResponseContent]<!--/$botResponseContent-->
+**his insight displays an active provisioning issue for one or more connectors in a customer's tenant.**
+<!--$provisioningActiveIssue-->[provisioningActiveIssue]<!--/$provisioningActiveIssue-->
 <!--/issueDescription-->
