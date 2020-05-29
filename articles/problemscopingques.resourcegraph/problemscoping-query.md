@@ -31,7 +31,7 @@
             "order": 20,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide your resource graph query",
-            "required": false
+            "required": true
         },
         {
             "id": "error_message",
