@@ -52,8 +52,3 @@
 [Module twin JSON schema](https://docs.microsoft.com/azure/media-services/live-video-analytics-edge/module-twin-configuration-schema) – This article describes the module twin JSON schema of Live Video Analytics on IoT Edge. 
 * Module twins are JSON documents that store module state information including metadata, configurations, and conditions. See the [Understand and use module twins in IoT Hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-module-twins) article for further details on module twins.
 
-
-
-
-
-
