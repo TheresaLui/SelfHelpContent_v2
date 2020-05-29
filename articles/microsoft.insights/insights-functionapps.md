@@ -28,7 +28,7 @@
 
 **What is auto collected?**<br>
 FunctionApps v2 will auto collect HTTP, ServiceBus and SQL dependencies for .NET Applications. [See here](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#dependencies) for information.
-For Java applications running on Azure Functions, the distributed tracing can be enabled - [follow the instructions here](https://docs.microsoft.com/en-us/azure/azure-monitor/app/monitor-functions).<br>
+For Java applications running on Azure Functions, the distributed tracing can be enabled - [follow the instructions here](https://docs.microsoft.com/azure/azure-monitor/app/monitor-functions).<br>
 
 **Missing or partial data**<br>
 Sampling is enabled by default which can make it appear as if some data is not being sent. [Click here](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#configure-sampling) for information.<br>
@@ -49,4 +49,4 @@ To create custom telemetry see the [log custom telemetry in C# functions](https:
 * [Write logs in JavaScript functions](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#write-logs-in-javascript-functions)<br>
 * [Log custom telemetry in C# functions](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#log-custom-telemetry-in-c-functions)<br>
 * [Log custom telemetry in JavaScript functions](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#log-custom-telemetry-in-javascript-functions)<br>
-* [Enable distributed tracing for Java applications](https://docs.microsoft.com/en-us/azure/azure-monitor/app/monitor-functions)
+* [Enable distributed tracing for Java applications](https://docs.microsoft.com/azure/azure-monitor/app/monitor-functions)
