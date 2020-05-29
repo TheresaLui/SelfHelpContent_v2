@@ -438,6 +438,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "92bf5bcc-b7cd-6a7f-add6-973b02755e4c",
+      "longDescription": "",
+      "shortDescription": "Questions about migrating virtual machines using Azure Site recovery ",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "95538b9d-4af5-8ce7-0b3d-fa68832bfd1c",
       "longDescription": "",
       "shortDescription": "Assistance with resizing the partition within the guest OS or the virtual disk",
