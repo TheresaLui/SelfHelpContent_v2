@@ -127,7 +127,7 @@
             "id": "Tool_dropdown",
             "order": 5,
             "controlType": "dropdown",
-            "visibility": "reason == planning || reason == tool",
+            "visibility": "reason == planning || reason == tool || reason == error",
             "displayLabel": "What is the tool being used?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Choose the tool being used",
@@ -161,7 +161,7 @@
                     "text": "Don't know the answer or other answer"
                 }
             ],
-            "required": true
+            "required": false
         },
     {
             "id": "engine_source_tool",
@@ -203,7 +203,7 @@
             "id": "tool_version",
             "order": 7,
             "controlType": "textbox",
-	          "visibility": "Tool_dropdown == DMA || Tool_dropdown == SSMA || Tool_dropdown == DEA || Tool_dropdown == BACPAC",
+	    "visibility": "Tool_dropdown == DMA || Tool_dropdown == SSMA || Tool_dropdown == DEA || Tool_dropdown == BACPAC",
             "displayLabel": "What is the tool version?",
             "infoBalloonText": "Enter the tool version being used",
             "required": false
@@ -212,6 +212,7 @@
             "id": "source",
             "order": 8,
             "controlType": "dropdown",
+	    "visibility": "reason != feature",
             "displayLabel": "Where is located the source DB or BACPAC file?",
             "watermarkText": "Choose an option",
             "infoBalloonText": "Choose the source location",
@@ -235,6 +236,7 @@
             "id": "size",
             "order": 9,
             "controlType": "textbox",
+	    "visibility": "reason != feature",
             "displayLabel": "What is the max size of the largest DB?",
             "infoBalloonText": "Enter the max size of the largest database.",
             "required": false
@@ -243,8 +245,18 @@
             "id": "downtime",
             "order": 10,
             "controlType": "textbox",
+	    "visibility": "reason != feature",
             "displayLabel": "What is the max downtime allowed?",
             "infoBalloonText": "Enter the max downtime allowed for the migration",
+            "required": false
+        },
+    {
+            "id": "feature",
+            "order": 11,
+            "controlType": "textbox",
+	    "visibility": "reason == feature",
+            "displayLabel": "What is the feature(s)?",
+            "infoBalloonText": "Enter the feature(s) that you need more information",
             "required": false
         },
     {
