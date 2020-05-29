@@ -518,6 +518,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "97c59b9b-ba59-7c33-b005-2ce77fa4a6cd",
+      "longDescription": "",
+      "shortDescription": "Covers issues with kernel upgrades for Linux operating systems",
+      "searchTags": "Kernel",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9a7863c9-b048-81d3-0e88-9f5d3806173b",
       "longDescription": "",
       "shortDescription": "Covers issues where the Guest OS is in a continuous reboot loop and unable complete booting to a usable state.",
