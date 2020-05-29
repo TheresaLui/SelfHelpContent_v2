@@ -590,6 +590,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c4aa16ad-4241-d898-28c2-38d21faa52ee",
+      "longDescription": "",
+      "shortDescription": "Requests to help move resources between storage accounts",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c9417489-6f2a-7906-cde8-2c446eeac78e",
       "longDescription": "",
       "shortDescription": "Covers issues with the Azure Backup extension",
