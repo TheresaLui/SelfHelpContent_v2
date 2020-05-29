@@ -846,6 +846,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f634afb0-8ab2-18e7-ae60-0953e0dc624e",
+      "longDescription": "",
+      "shortDescription": "Resolve issues related  to Azure Shared Image Gallery or Azure Shared Image definitions",
+      "searchTags": "Shared image",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f6b80563-6a99-2b18-68b1-87302cf1d2d4",
       "longDescription": "",
       "shortDescription": "Covers issues with the Microsoft Antimalware extension",
