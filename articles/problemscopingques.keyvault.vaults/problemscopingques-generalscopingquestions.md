@@ -35,10 +35,10 @@
             "id": "expected_experience",
             "order": 2,
             "visibility": "null",
-            "controlType": "textbox",
+            "controlType": "multilinetextbox",
             "displayLabel": "What is the expected experience and how does that differ from the actual result?",
             "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "useAsAdditionalDetails": true
         },
         {
             "id": "problem_description",
@@ -56,10 +56,10 @@
             "displayLabel": "Are screenshots attached:",
             "radioButtonOptions": [{
                     "value": "yes",
-                    "text": "yes"
+                    "text": "Yes"
                 }, {
                     "value": "no",
-                    "text": "no"
+                    "text": "No"
                 }
             ],
             "required": true
