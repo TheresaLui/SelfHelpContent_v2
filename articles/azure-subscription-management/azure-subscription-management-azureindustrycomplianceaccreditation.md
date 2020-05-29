@@ -37,6 +37,6 @@ If you have compliance related questions, please refer: [Microsoft STP - Complia
 More details about penetration testing can be found here: [Penetration Testing](https://docs.microsoft.com/azure/security/azure-security-pen-testing)<br>
 
 * **Customer Notifications for Subprocessor Changes**: You may opt-in to receive notifications of changes to the Microsoft Personal Data Subprocessors List<br>
-**Note**: Online Services customer data and personal data list notification is fully automated. For more information, see
+**Note**: Online Services customer data and personal data list notification is fully automated. For more information, see Microsoft's [Data Protection Resources]
 
 ## **Recommended Documents**
