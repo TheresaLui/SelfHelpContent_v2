@@ -417,6 +417,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "594f8e0e-7e66-9028-40ba-35925de830a9",
+      "longDescription": "",
+      "shortDescription": "Assistance with Azure Image Builder",
+      "searchTags": "Image builder",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5a105230-54e6-b09a-5667-764d781026a1",
       "longDescription": null,
       "shortDescription": "Covers issues with NVIDIA GPU driver extension",
