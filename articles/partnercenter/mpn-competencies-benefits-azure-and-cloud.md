@@ -28,7 +28,7 @@
 4. Refer to this article [Azure and Cloud benefits](https://support.microsoft.com/help/4515206/azure-cloud-products-benefits-tab-for-mpn-partners-in-partner-center) for step by step instructions to **review, activate, sort or download** the Azure and Cloud benefit
 5. For additional help, please refer to Recommended documents below
 
-### **Recommended Documents**
+## **Recommended Documents**
 
 * [Azure & Cloud products benefits - Learn more and review troubleshooting scenarios](https://support.microsoft.com/help/4515206/azure-cloud-products-benefits-tab-for-mpn-partners-in-partner-center)
 * [Where can I find my Azure & Cloud benefits in Partner Center](https://support.microsoft.com/help/4489315/where-can-i-find-my-benefits-in-partner-center)
