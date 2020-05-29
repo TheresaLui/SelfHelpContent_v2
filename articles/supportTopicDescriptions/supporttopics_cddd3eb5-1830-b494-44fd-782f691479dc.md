@@ -318,6 +318,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6825cbf2-c7fc-a14a-a2f7-f10ad953f5bd",
+      "longDescription": "",
+      "shortDescription": "Resolve issues with unlocking an encrypted VM for troubleshooting reasons",
+      "searchTags": "ADE",
+      "category": "ADE",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "69720acf-121d-1581-bc05-b35043d3989f",
       "longDescription": "",
       "shortDescription": "Covers issues with the Azure Disk Encryption extension",
