@@ -294,6 +294,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "609fff6e-d1b6-61a5-0ec0-577ab025cd95",
+      "longDescription": "",
+      "shortDescription": "Using Azure Instance Metadata Service to provide information and configure the virtual machine running in Azure",
+      "searchTags": "MSI",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "64f558d7-19ec-b533-1d51-bf8065b8b000",
       "longDescription": "",
       "shortDescription": "Resolve issues specific to the firewall within the guest OS of the virtual machine",
