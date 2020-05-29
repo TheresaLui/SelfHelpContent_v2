@@ -26,7 +26,7 @@ This problem is usually caused by the agent being unable to connect to the Hybri
 
 1. Sign in to the server with an administrator account
 2. Open the agent config file located at <i>C:\Program Files\Microsoft Azure AD Connect Provisioning Agent\AADConnectProvisioningAgent.exe.config</i>
-3. Add the following lines into it, toward the end of the file just before the closing </configuration> tag. Replace the variables [proxy-server] and [proxy-port] with your proxy server name and port values.
+3. Add the following lines into it, toward the end of the file just before the closing `</configuration>` tag. Replace the variables [proxy-server] and [proxy-port] with your proxy server name and port values.
 
 ```
 <system.net>
