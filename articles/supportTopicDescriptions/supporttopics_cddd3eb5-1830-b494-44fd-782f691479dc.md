@@ -686,6 +686,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e2542607-20ad-4425-e30d-eec8e2121f55",
+      "longDescription": "",
+      "shortDescription": "Covers questions with retiring of Classic IAAS resources (ASM)",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e342b350-f513-22fa-a4d2-3a642fd1c5c5",
       "longDescription": "",
       "shortDescription": "Your VM has entered a non-bootable state and is either not booting at all or is on a reboot loop",
