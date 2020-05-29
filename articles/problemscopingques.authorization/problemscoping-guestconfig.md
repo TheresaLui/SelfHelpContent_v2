@@ -2,7 +2,7 @@
     pageTitle="Guest Configuration"
     description="Guest Configuration"
     service="microsoft.authorization"
-    resource="GuestConfig"
+    resource="policyDefinitions"
     authors="kenieva"
     ms.author="kenieva"
     displayOrder=""
@@ -53,7 +53,7 @@
                     "text": "Unable to retrieve list of policy definition"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "builtinPolicyDefinition",
@@ -61,7 +61,7 @@
             "controlType": "dropdown",
             "displayLabel": "Please select the policy definition (if it's a builtin policy)",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyDefinitions?api-version=2019-09-01&$filter=policyType eq 'builtin'",
+                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyDefinitions?api-version=2019-09-01$filter=category eq 'Guest Configuration'",
                 "jTokenPath": "value",
                 "textProperty": "properties.displayName,name",
                 "textTemplate": "{properties.displayName}  ({name})",
@@ -78,7 +78,7 @@
                     "text": "Unable to retrieve list of policy definition"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "policyAssignment",
@@ -103,11 +103,36 @@
                     "text": "Unable to retrieve list of policy assignment"
                 }
             ],
-            "required": true
+            "required": false
+        },
+            {
+            "id": "policyInitative",
+            "order": 50,
+            "controlType": "dropdown",
+            "displayLabel": "Please select the policy initative",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policySetDefinitions?api-version=2019-09-01$filter=category eq 'Guest Configuration'",
+                "jTokenPath": "value",
+                "textProperty": "properties.displayName,name",
+                "textTemplate": "{properties.displayName}  ({name})",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "DropdownOptions": [
+                {
+                    "value": "NoPolicyInitative",
+                    "text": "Unable to retrieve list of policy initative"
+                }
+            ],
+            "required": false
         },
            {
             "id": "VM",
-            "order": 50,
+            "order": 60,
             "controlType": "dropdown",
             "displayLabel": "Please select the Virtual Machine",
             "dynamicDropdownOptions": {
@@ -132,7 +157,7 @@
         },
         {
             "id": "problem_description",
-            "order": 60,
+            "order": 70,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about the issue and what is your expectation",
