@@ -334,6 +334,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "785dbce9-3d5c-4799-46e2-8b83db4eef73",
+      "longDescription": "",
+      "shortDescription": "Assistance with moving resources between regions",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7aba48c1-5e0d-9ccb-a1c7-e1e22fa7db08",
       "longDescription": "",
       "shortDescription": "GPU processing is slower than expected for your virtual machine",
