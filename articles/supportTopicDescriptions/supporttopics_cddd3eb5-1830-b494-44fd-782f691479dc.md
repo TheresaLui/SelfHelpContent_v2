@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1355ede6-1a5d-fed9-7ee3-fdf57927f88d",
+      "longDescription": "",
+      "shortDescription": "Common problems related to admin specific actions or issues within the VM itself",
+      "searchTags": "Admin",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "13ff4901-20a9-a149-bd79-9d30e2d84335",
       "longDescription": "",
       "shortDescription": "Resolve concerns dealing with shared disk",
