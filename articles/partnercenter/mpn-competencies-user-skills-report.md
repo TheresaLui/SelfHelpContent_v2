@@ -22,7 +22,7 @@
 
 ## **Recommended Steps**
 
-- During the preparation for attaining a competency, Global Admin or MPN Partner Admin have the possibility to analyse who has completed an exam / certification / assessment and check the progress against the requirements of the competencies by accessing **Competencies** Tab and then **Download skills report**
+- During the preparation for attaining a competency, Global Admin or MPN Partner Admin have the possibility to analyze who has completed an exam / certification / assessment and check the progress against the requirements of the competencies by accessing **Competencies** Tab and then **Download skills report**
 
 	- Note: Partner university account will be associated to the Partner Center user account and the user’s assessments will reflect in the Partner Center User Skills report within **72 hrs**
 	
