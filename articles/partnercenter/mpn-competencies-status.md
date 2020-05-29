@@ -24,11 +24,11 @@ Resources providing knowledge on Competency status
 
 ## **Recommended Steps**
 * **Sign In** with your work account credentials in the [Microsoft Partner website](https://partner.microsoft.com/) and access your [Dashboard](https://partner.microsoft.com/pcv/dashboard)
-* Under the MPN section on the Partner Center menu, select [Competencies](https://partner.microsoft.com/pcv/partnership/competencies).
+* Under the MPN section on the Partner Center menu, select [Competencies](https://partner.microsoft.com/pcv/partnership/competencies)
 * Select the competency name and specific competency option to view details. You should be able to see the requirements and links to the specific exams or certifications.
-* Please click on Download Skills Report in the Competencies page to view the number of employees who have completed various certifications and exams
-* Please click on [Competency performance report](https://partner.microsoft.com/pcv/partnership/competenciesreport) in the Competencies page to view the performance of your organisation across competencies
-* For additional help, please refer to Recommended documents below.
+* Click on Download Skills Report in the Competencies page to view the number of employees who have completed various certifications and exams
+* Click on [Competency performance report](https://partner.microsoft.com/pcv/partnership/competenciesreport) in the Competencies page to view the performance of your organisation across competencies
+* For additional help, please refer to the recommended documents below
 
 ## **Recommended Documents**
 
