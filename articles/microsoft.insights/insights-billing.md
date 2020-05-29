@@ -8,7 +8,7 @@
     articleId="insights-billing"
     displayOrder="98"
     selfHelpType="generic"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, mooncake, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32602214"
  	ownershipId="AzureMonitoring_ApplicationInsights"
