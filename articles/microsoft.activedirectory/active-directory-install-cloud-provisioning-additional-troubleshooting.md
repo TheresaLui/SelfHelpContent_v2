@@ -24,13 +24,11 @@ You want to get advanced trace logs in order to debug agent installation issues.
 
 By default, the agent emits minimal error messages and stack trace information. You can find these trace logs in the folder <i>C:\ProgramData\Microsoft\Azure AD Connect Provisioning Agent\Trace.</i>
 
-To gather additional details for troubleshooting agent-related problems, follow these steps.
+To gather additional details for troubleshooting agent-related problems, follow these steps:
 
-1.  Stop the service Microsoft Azure AD Connect Provisioning Agent.
-
-2. Create a copy of the original config file: <i>C:\Program Files\Microsoft Azure AD Connect Provisioning Agent\AADConnectProvisioningAgent.exe.config.</i>
-
-3. Replace the existing <system.diagnostics> section with the following, and all trace messages will go to the file ProvAgentTrace.log.
+1. Stop the service Microsoft Azure AD Connect Provisioning Agent
+2. Create a copy of the original config file: <i>C:\Program Files\Microsoft Azure AD Connect Provisioning Agent\AADConnectProvisioningAgent.exe.config</i>
+3. Replace the existing <system.diagnostics> section with the following, and all trace messages will go to the file ProvAgentTrace.log:
 
  ```
  <system.diagnostics>
@@ -52,13 +50,8 @@ To gather additional details for troubleshooting agent-related problems, follow 
        </sharedListeners>
    </system.diagnostics>
  ```
-4. Start the service Microsoft Azure AD Connect Provisioning Agent.
-
-5. Use the following to view the log.
- 
- ```
- Get-Content "C:/ProgramData/Microsoft/Azure AD Connect Provisioning Agent/Trace/ProvAgentTrace.log" -Wait
- ```
+4. Start the service Microsoft Azure AD Connect Provisioning Agent
+5. Use the following to view the log: `Get-Content "C:/ProgramData/Microsoft/Azure AD Connect Provisioning Agent/Trace/ProvAgentTrace.log" -Wait`
 
 ## **Recommended Documents**
 
