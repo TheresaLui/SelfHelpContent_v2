@@ -31,7 +31,7 @@
             "order": 20,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide your resource graph query",
-            "required": true
+            "required": false
         },
         {
             "id": "error_message",
@@ -45,14 +45,14 @@
             "order": 40,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the expected behavior?",
-            "required": true
+            "required": false
         },
         {
             "id": "current_behavior",
             "order": 50,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the current behavior?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
