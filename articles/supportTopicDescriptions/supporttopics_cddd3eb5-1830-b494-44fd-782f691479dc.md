@@ -838,6 +838,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "fd3c1878-732c-0f98-5b78-f3108ff0c26f",
+      "longDescription": "",
+      "shortDescription": "Creating or configuring a Linux failover cluster for a virtual machine running in Azure",
+      "searchTags": "Cluster",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ff2da016-f47d-a267-456f-8569ce67e6d5",
       "longDescription": "",
       "shortDescription": "Assistance with resizing a virtual machine or the desired size is not available",
