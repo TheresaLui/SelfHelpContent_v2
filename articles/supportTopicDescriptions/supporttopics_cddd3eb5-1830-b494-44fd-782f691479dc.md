@@ -422,6 +422,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9020a3f4-8868-d4ff-8d67-a9ccb5afb7b6",
+      "longDescription": "",
+      "shortDescription": "Resolve errors when moving resources between subscriptions ",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "90d85a5b-aab4-4375-f298-2049d519ab76",
       "longDescription": "",
       "shortDescription": "Covers issues with Monitoring agent (MMA) extension",
