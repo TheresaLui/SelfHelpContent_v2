@@ -2,7 +2,7 @@
     pageTitle="Remediation task behavior not as expected"
     description="Remediation task behavior not as expected"
     service="microsoft.authorization"
-    resource="remediationTaskId"
+    resource="remediations"
     authors="kenieva"
     ms.author="kenieva"
     displayOrder=""
