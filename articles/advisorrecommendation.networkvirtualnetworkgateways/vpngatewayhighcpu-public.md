@@ -5,7 +5,7 @@
     ms.author="evanba"
     articleId="2e41fe84-7173-4fe9-b257-61aa4679c3fe_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="CloudNet_AzureVPNGateway"
 />
 # Consider increasing the size of your VNet Gateway SKU to address high CPU
@@ -36,7 +36,7 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/HighP2SConnectionsVNetGateway",
+  "learnMoreLink": "https://aka.ms/HighCPUP2SVNetGateway",
   "description": "Consider increasing the size of your VNet Gateway SKU to address consistently high CPU use",
   "longDescription": "Under high traffic load, the VPN gateway may drop packets due to high CPU. You should consider upgrading your VPN Gateway SKU since your VPN has consistently been running at .",
   "potentialBenefits": "Increasing the size of your VPN gateway will ensure that connections aren't dropped due to high CPU",
