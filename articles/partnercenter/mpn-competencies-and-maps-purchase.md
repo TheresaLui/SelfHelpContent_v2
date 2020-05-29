@@ -31,7 +31,7 @@ How to start using your Microsoft Partner Network (MPN) membership benefits in t
 * In the next page, review your **Purchase details** and **Select your payment preference**
 * For additional help, please refer to Recommended documents below
 
-### **Recommended Documents**
+## **Recommended Documents**
 
 * [Purchase or renew Silver or Gold competency](https://support.microsoft.com/help/4505958/silver-or-gold-competency-attainment-in-partner-center)
 * [Check if you have the necessary user roles to perform the purchase](https://docs.microsoft.com/partner-center/permissions-overview)
