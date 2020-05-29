@@ -8,11 +8,11 @@
 	productPesIds="17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="scopingquestion_partnercenter_vetting_business_verification"
+	articleId="173b4382-289f-476d-8232-f9ac0c9855b1"
 	clientIds="partnercenter"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
-# Partner Center Vetting - business verification
+# Partner Center Vetting - business verification 
 ---
 {
     "resourceRequired": true,
