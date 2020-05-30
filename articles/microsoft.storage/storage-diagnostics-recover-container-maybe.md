@@ -12,9 +12,13 @@ diagnosticScenario="Storage Blob Container maybe recoverable"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Blob Container may be recoverable
+
+<!--issueDescription-->Deleted blob container **<!--$ContainerName-->[ContainerName]<!--/$ContainerName-->**  might be recoverable.
+<!--/issueDescription-->
 
 ## Blob Container **<!--$ContainerName-->[ContainerName]<!--/$ContainerName-->** recovered
 

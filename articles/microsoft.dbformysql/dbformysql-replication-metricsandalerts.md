@@ -10,8 +10,9 @@
     supportTopicIds="32640068"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="019fae47-0338-4442-b9a4-1e8018c8835d"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Monitoring replication
@@ -25,6 +26,7 @@ Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Documents**
 
+* [How to monitor replication lag in the portal](https://docs.microsoft.com/azure/mysql/howto-read-replicas-portal#monitor-replication)
 * [How to create and manage read replicas in the portal](https://docs.microsoft.com/azure/mysql/howto-read-replicas-portal)
 * [Use Azure CLI to create and manage read replicas](https://docs.microsoft.com/azure/mysql/howto-read-replicas-cli)
 * [Overview on read replicas](https://docs.microsoft.com/azure/mysql/concepts-read-replicas)

@@ -10,8 +10,9 @@
     supportTopicIds="32640128"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="d29c4a5d-7cd5-4fe0-bec0-eb66f54f575f"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Issues with metrics shown in the portal
@@ -24,7 +25,7 @@ Most users are able to resolve their issue using the steps below.
 
 * Storage metric shows more storage used than directly querying database:
 
-  * Beyond the data actually stored in your database in the supporting indexes, the footprint of your server includes additional files such as the transaction log, server log files and other files needed to run the managed server. As such, there is a difference in storage used if you are only querying for data stored and indexes.
+  * Beyond the data actually stored in your database, the footprint of your server includes additional files such as the transaction log, server log files and other files needed to run the managed server. As such, there is a difference in storage used if you are only querying for data stored and indexes.
 
 * Metric show different value at different time:
 

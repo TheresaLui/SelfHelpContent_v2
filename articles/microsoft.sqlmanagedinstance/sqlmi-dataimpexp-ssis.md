@@ -10,8 +10,9 @@
 	supportTopicIds="32637237,32637249"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="5027d5f2-0283-43fe-9845-ce34ac767b35"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # SSIS/Azure Data Factory

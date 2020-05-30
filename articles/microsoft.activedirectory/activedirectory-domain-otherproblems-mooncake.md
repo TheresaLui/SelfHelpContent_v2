@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="activedirectory-domain-otherproblems-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I still have other problems related to domain name management

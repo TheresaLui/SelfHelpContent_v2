@@ -9,8 +9,9 @@
     supportTopicIds="32045781"
     resourceTags=""
     productPesIds="14785,16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="9e179732-603f-4735-8288-09b704b3ad15"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # I'm having problems resetting a user's password

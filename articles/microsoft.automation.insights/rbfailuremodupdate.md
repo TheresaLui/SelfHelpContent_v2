@@ -13,7 +13,8 @@ selfHelpType="diagnostics"
 supportTopicIds="32599853,32628003,32628005,32628006,32628008,32628009,32628012,32599860,32599906,32599907,32599908,32615224,32599909,32599923,32599854,32599917,32615220,32615221,32615222,32615223"
 resourceTags="windows"
 productPesIds="15607"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_Automation"
 />
 
 # There are Runbook jobs failing and a recent update of Modules may be the cause

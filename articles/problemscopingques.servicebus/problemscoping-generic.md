@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633385,32637097"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="sb-other-issues"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Other Issues
 ---

@@ -10,8 +10,9 @@
 	supportTopicIds="32596882"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="keyvault-howdiskencrypt"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Azure Disk Encryption with Key Vault

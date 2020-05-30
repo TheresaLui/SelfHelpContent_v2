@@ -9,8 +9,9 @@
 	supportTopicIds="32422589"
 	resourceTags=""
 	productPesIds="13185"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="9f6486ee-d334-4711-9fe3-2903ab1bd421"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # worker role (paas)/application and service availability/iis and asp.net errors

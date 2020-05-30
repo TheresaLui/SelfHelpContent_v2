@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32599858,32599921,32599929,32599933"
 	productPesIds="15607"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="Compute_Automation"
 />
 # Automation Account
 ---

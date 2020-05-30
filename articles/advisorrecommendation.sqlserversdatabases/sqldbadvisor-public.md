@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="a1f91337-c953-4791-9517-f170de60bf35_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="CloudES_AzureAdvisor"
 />
 # Follow SQL DB Advisor recommendations
 ---

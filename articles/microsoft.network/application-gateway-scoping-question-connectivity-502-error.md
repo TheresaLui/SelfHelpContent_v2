@@ -1,14 +1,15 @@
 <properties
-	pageTitle="Scoping questions for Application Gateway issues for Connectivity/502 error"
-	description="Scoping questions for Application Gateway issues for Connectivity/502 error"
+	pageTitle="Scoping questions for Application Gateway issues for =502 and Connectivity/502 error"
+	description="Scoping questions for Application Gateway issues for 502 and Connectivity/502 error"
 	authors="abshamsft"
 	ms.author="absha"
 	selfHelpType="problemScopingQuestions"
 supportTopicIds="32573483,32680993"
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,mooncake,blackforest"
+	cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	schemaVersion="1"
 	articleId="scoping-question-connectivity-502-error"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Application Gateway URL
@@ -20,7 +21,7 @@ supportTopicIds="32573483,32680993"
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Application Gateway Access URL",
-        "description": "Our Application Gateway Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
+        "description": "Use our Application Gateway Troubleshooter to troubleshoot and solve your problem.",
         "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
     },
     "formElements": [
@@ -28,14 +29,37 @@ supportTopicIds="32573483,32680993"
             "id": "ApplicationGatewayAccessURL",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Please provide the URL you are using to access the Application Gateway in the format protocol://domainNameOrIPAddress:portNumber. Port number is not required if you are using standard ports 80 and 443.",
-            "watermarkText": "Example:http://contoso.com or http://contoso.com:8080",
+            "displayLabel": "Please provide the URL you are using to access the Application Gateway in the format domainNameOrIPAddress:portNumber/urlPath. Port number is not required if you are using standard ports 80 and 443.",
+            "watermarkText": "Example:http://contoso.com/abc or http://contoso.com:8080/abc",
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
         },
+		{
+            "id": "ApplicationGatewayAccessProtocol",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Please provide Protocol you are using to access Appplication Gateway",
+            "watermarkText": "Choose an option from http/https",
+            "dropdownOptions": [
+                {
+                    "value": "http",
+                    "text": "http"
+                },
+                {
+                    "value": "https",
+                    "text": "https"
+                },
+				{
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
+                }
+            ],
+			"required": true,
+			"diagnosticInputRequiredClients": "Portal"
+        },
         {
             "id": "backend_health",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Are there any unhealthy backends?",
 			"infoBalloonText": "Use <a href='https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal'>Backend health</a> to view the health status of each backend",
@@ -58,7 +82,7 @@ supportTopicIds="32573483,32680993"
         },
 				{
             "id": "sku_version",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What is the SKU version of your Application Gateway?",
             "watermarkText": "Choose an option",
@@ -80,14 +104,14 @@ supportTopicIds="32573483,32680993"
         },
 		{
             "id": "problem_start_time",
-            "order": 4,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Details of the issue.",
@@ -96,7 +120,7 @@ supportTopicIds="32573483,32680993"
         },
         {
             "id": "learn_more_text",
-            "order": 6,
+            "order": 7,
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/application-gateway/'>Learn more</a> about Application Gateway, including How to setup and troubleshooting steps."
         }

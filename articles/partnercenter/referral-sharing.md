@@ -14,9 +14,14 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Co-sell referral sharing
+
+## **Recommended Steps**
+
+- For more information on the Co-sell program and becoming Co-sell ready, contact Cosell@microsoft.com
 
 ## **Recommended Documents**
 

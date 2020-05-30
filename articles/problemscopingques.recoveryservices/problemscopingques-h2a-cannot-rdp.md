@@ -6,9 +6,10 @@
             selfHelpType="problemScopingQuestions"
             supportTopicIds="32536423"
             productPesIds="16370"
-            cloudEnvironments="Public"
+            cloudEnvironments="Public, Fairfax, usnat, ussec"
             schemaVersion="1"
             articleId="e59636d3-914b-40ee-9abd-95bac066ae4e"
+	ownershipId="Compute_SiteRecovery"
 />
 # Connect to a Hyper-V VM after failover
 ---

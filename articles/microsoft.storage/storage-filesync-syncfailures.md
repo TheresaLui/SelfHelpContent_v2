@@ -10,8 +10,9 @@
 	supportTopicIds="32675725"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="d27b1391-9bc6-4de4-91dd-69d96abd8205"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Troubleshooting Azure File Sync - Server endpoint has a health status of "Error" in the portal

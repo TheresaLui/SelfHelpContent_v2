@@ -10,6 +10,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="MoonCake"
  	articleId="activedirectory-passwordmanagement-troubleshoot-4-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 # I want to look at an event log to troubleshoot password writeback
 

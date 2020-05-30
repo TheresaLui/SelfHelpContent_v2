@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="18de840c-4736-4218-b07a-65d1120a8815"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # I can't delete my virtual network

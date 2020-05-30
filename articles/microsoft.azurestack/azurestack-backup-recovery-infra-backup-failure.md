@@ -10,8 +10,9 @@
     supportTopicIds="32629217, 32629218"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="abdc2tg3-706d-401c-b984-f433892f1e9f"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack infrastructure Backup failure
@@ -25,5 +26,4 @@ You can follow the following best practices when you deploy and manage Azure Sta
 ## **Recommended Documents**
 
 * [Review alerts supported by the system](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-best-practices#monitoring)
-* [Recover from catastrophic data loss](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-recover-data)
-* [Infrastructure Backup Limits](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-reference#infrastructure-backup-limits)
+* [Infrastructure Backup Limits](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-reference)

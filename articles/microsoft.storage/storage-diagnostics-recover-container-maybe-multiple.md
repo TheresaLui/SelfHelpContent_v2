@@ -12,9 +12,13 @@ diagnosticScenario="Some storage blob container(s) might be recoverable"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Blob Container may be recoverable
+<!--issueDescription-->
+Deleted blob container(s) in storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** might be recoverable.
+<!--/issueDescription-->
 
 ### Blob Container(s) recovered
 
@@ -25,7 +29,7 @@ _**[List recovered blob container(s)]**_
 
 ### Unable to recover blob container(s)
 
-We sincerely apologize that we were unable to recover the following deleted blob container(s) in storage account _**<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**_:<br>
+We sincerely apologize that we were unable to recover the following deleted blob container(s) in storage account _**<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**_:
 
 _**[List container(s) that are not recoverable]**_
 

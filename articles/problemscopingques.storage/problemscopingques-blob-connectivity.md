@@ -1,18 +1,20 @@
 <properties
-	pageTitle="Connectivity issue on blob"
-	description="Connectivity issue on blob scoping question"
-	authors="Passaree"
-	ms.author="passap"
+	pageTitle="Blob connectivity throttling errors"
+	description="Blob connectivity throttling errors scoping questions"
+	authors="Annayak"
+	ms.author="Annayak"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_blob_connectivity"
-	supportTopicIds="32602725,32602734,32602735,32612601,32612611,32612612"
-	productPesIds="16459,16598"
-	cloudEnvironments="public"
+	supportTopicIds="32602725,32602735"
+	productPesIds="16459"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Blob Connectivity Issue
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Connectivity issue on blob scoping question",
     "fileAttachmentHint": "",
@@ -118,7 +120,10 @@
                 "jTokenPath": "value",
                 "textProperty": "id",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": { "value": "dont_know_answer",
+                "text": "None of the above"
+                }
             },
             "dropdownOptions": [
                 {

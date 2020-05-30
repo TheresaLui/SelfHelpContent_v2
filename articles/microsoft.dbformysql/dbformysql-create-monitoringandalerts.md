@@ -10,8 +10,9 @@
     supportTopicIds="32640071"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="b37c94dc-b937-4a82-bef5-7a39be09b7b9"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Monitoring Azure Database for MySQL servers

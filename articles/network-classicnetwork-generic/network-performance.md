@@ -9,8 +9,9 @@
 	supportTopicIds="32436962"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="3b7d0bea-8b34-4ebb-bc67-1a4db2b5cb4e"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # performance

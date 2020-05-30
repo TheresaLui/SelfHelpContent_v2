@@ -11,7 +11,8 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="sql-datasource"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issue indexing a SQL data source
@@ -22,9 +23,9 @@ If you are having trouble indexing a SQL data source, you may want to ensure tha
 
 1. Your data is populated in the database
 1. Your connection string is valid
-1. Ensure that the types in your database are supported by Azure Search. See the full list of supported types [here](https://docs.microsoft.com/azure/search/search-howto-connecting-azure-sql-database-to-azure-search-using-indexers#TypeMapping).
+1. The types in your database are supported by Azure Search. See the full list of supported types [here](https://docs.microsoft.com/azure/search/search-howto-connecting-azure-sql-database-to-azure-search-using-indexers#TypeMapping).
 1. No firewall is preventing communication between Azure Search and the database
-1. If you want to connect to a SQL Server, on a virtual machine, please follow [this guidance](https://docs.microsoft.com/azure/search/search-howto-connecting-azure-sql-iaas-to-azure-search-using-indexers)
+1. If you want to connect to SQL Server on a virtual machine, please follow [this guidance](https://docs.microsoft.com/azure/search/search-howto-connecting-azure-sql-iaas-to-azure-search-using-indexers)
 
 
 If change detection is not working for you:

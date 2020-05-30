@@ -14,13 +14,14 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Account settings - Merge organizations
 
-When you move your company account from PMC to Partner Center, you may be moving several accounts.
+Guidance on how to do an Account Merge can be found below.
 
 ## **Recommended Documents**
 
-* [Moving your multiple companies to Partner Center](https://docs.microsoft.com/partner-center/move-multiple-companies)
+* [Consolidating your account from Partner Membership Center to Partner Center](https://docs.microsoft.com/partner-center/move-multiple-companies)

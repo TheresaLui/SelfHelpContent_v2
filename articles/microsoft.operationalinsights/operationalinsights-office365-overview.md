@@ -10,8 +10,9 @@
     supportTopicIds="32536636"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="bada7a92-3318-4b34-93ea-b0bf81794047"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # office365-overview

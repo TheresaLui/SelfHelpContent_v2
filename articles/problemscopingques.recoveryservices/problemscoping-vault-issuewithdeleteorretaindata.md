@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632785"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="532fa46c-9d45-454c-84d5-fce64a5d639d"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for issue with delete or retain data
 ---

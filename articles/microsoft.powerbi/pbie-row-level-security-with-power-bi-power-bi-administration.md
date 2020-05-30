@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628148"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="9942fd1f-0136-5ae0-b218-9420586e880a"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Row-level security (RLS) with Power BI

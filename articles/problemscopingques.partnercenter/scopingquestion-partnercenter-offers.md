@@ -6,10 +6,11 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32635654,32635682,32635686,32635689,32635693,32639661,32635709,32639664,32639663"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_offers"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Offer Issue
 ---
@@ -36,8 +37,34 @@
             "required": false
         },
         {
-            "id": "pc_offer_type",
+            "id": "pc_offer_search",
             "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "What type of product are you trying to find?",
+            "watermarkText": "Select product type",
+            "dropdownOptions": [
+                {
+                    "value": "License-based offers",
+                    "text": "License-based offers"
+                },
+                {
+                    "value": "Azure reservations",
+                    "text": "Azure reservations"
+                },
+                {
+                    "value": "Software subscriptions",
+                    "text": "Software subscriptions"
+                },
+                {
+                    "value": "Marketplace offers",
+                    "text": "Marketplace offers"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "pc_offer_type",
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What kind of offer is your issue about?",
             "watermarkText": "Select offer type",
@@ -63,7 +90,7 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -72,7 +99,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",

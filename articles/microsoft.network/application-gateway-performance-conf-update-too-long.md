@@ -11,8 +11,9 @@
  	resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32680756"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
- />
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Configuration update taking too long
 Once a configuration change has been made, for an existing Application Gateway of v1 SKU, it is expected to take up to 5 minutes for the update process to be completed. For v2 SKU, it is expected to take up to 1 minute. If your update or PUT operation on the Application Gateway is taking significantly longer than expected, there are possibilities of update failures.

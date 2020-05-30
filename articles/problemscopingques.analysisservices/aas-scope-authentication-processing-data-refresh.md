@@ -7,8 +7,9 @@
       selfHelpType="problemScopingQuestions"
       supportTopicIds="32675700"
       productPesIds="16157"
-      cloudEnvironments="public, MoonCake, fairfax" 
+      cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
       schemaVersion="1"
+	ownershipId="AzureData_AnalysisServices"
 />
 # How to: Use the portal to create an Azure AD application and service principal that can access resources
 ---

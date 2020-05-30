@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 supportTopicIds="32639113"
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,mooncake,blackforest"
+	cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	schemaVersion="1"
 	articleId="scoping-question-connectivity-4xx-error"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Application Gateway URL
@@ -19,9 +20,9 @@ supportTopicIds="32639113"
     "title": "Application Gateway URL",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-        "title": "Application Gateway Access URL",
-        "description": "Our Application Gateway Connectivity Troubleshooter can help you troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
+            "title": "Application Gateway Access URL",
+            "description": "Use our Application Gateway Troubleshooter to troubleshoot and solve your problem.",
+            "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
     },
     "formElements": [
         {
@@ -33,9 +34,32 @@ supportTopicIds="32639113"
             "required": true,
             "diagnosticInputRequiredClients": "Portal"
         },
+		{
+            "id": "ApplicationGatewayAccessProtocol",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Please provide Protocol you are using to access Appplication Gateway",
+            "watermarkText": "Choose an option from http/https",
+            "dropdownOptions": [
+                {
+                    "value": "http",
+                    "text": "http"
+                },
+                {
+                    "value": "https",
+                    "text": "https"
+                },
+				{
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
+                }
+            ],
+			"required": true,
+			"diagnosticInputRequiredClients": "Portal"
+        },
         {
             "id": "bypass_appgtw_check",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Did you receive a 4xx response on accessing the backend directly by bypassing the Application Gateway?",
             "watermarkText": "Choose an option",
@@ -57,14 +81,14 @@ supportTopicIds="32639113"
         },
 		{
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Details of the issue.",
@@ -73,7 +97,7 @@ supportTopicIds="32639113"
         },
         {
             "id": "learn_more_text",
-            "order": 5,
+            "order": 6,
             "controlType": "infoblock",
             "content": "<a href='https://docs.microsoft.com/azure/application-gateway/'>Learn more</a> about Application Gateway, including How to setup and troubleshooting steps."
         }

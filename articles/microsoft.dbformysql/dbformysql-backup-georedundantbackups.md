@@ -10,13 +10,14 @@
     supportTopicIds="32640059"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="9ff641ce-1994-4202-873f-a1d0aedb4bd6"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Backups and restore options for Azure Database for MySQL
 
-Geo-redundant backups can be configured at the time an Azure Database for MySQL server is created. If configured, the last known good backup is geo-redundantly store and a new server can be created in a different Azure region. Geo-restore does not allow you to chose a point in time, but rather always restores to the last known good state.
+Geo-redundant backups can be configured at the time an Azure Database for MySQL server is created. If configured, the last known good backup is geo-redundantly store and a new server can be created in a different Azure region. Geo-restore does not allow you to chose a point in time, but rather always restores to the last known good state. Restoring individual databases within a server is not supported.
 
 ## **Recommended Steps**
 

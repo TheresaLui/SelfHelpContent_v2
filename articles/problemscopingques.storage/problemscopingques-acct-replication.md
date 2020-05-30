@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602702"
 	productPesIds="15629"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="EA7ACF79-D9CD-414E-B270-B863990F5DD3"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Issue with changing storage account replication type
 ---
@@ -25,7 +26,7 @@
     "formElements": [
         {
             "id": "new_replication",
-            "order": 1,
+            "order": 0,
             "controlType": "dropdown",
             "displayLabel": "New replication type",
             "watermarkText": "Choose an option",
@@ -61,6 +62,13 @@
             ],
             "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "error_message",
+            "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Error message received",
+            "required": false
         },
         {
             "id": "problem_description",

@@ -7,11 +7,12 @@
 	ms.author="raprasad"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602700,32602736,32602737"
+	supportTopicIds="32602700,32602736"
 	resourceTags=""
 	productPesIds="15629,16459"
-	cloudEnvironments="public"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="5d7b80ee-409f-4cce-82f8-fc2667277f52"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Move Data to, from, or within Azure Storage
