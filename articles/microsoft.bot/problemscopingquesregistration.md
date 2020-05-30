@@ -38,7 +38,7 @@
         },
 		{
 			"id": "error_advice",
-			"order": 3,
+			"order": 4,
 			"controlType": "radioButtonGroup",
 			"displayLabel": "Are you seeing an error while creating the registration or are you looking for advice?",
 			"radioButtonOptions": [{
@@ -53,11 +53,11 @@
 		},
 		{
             "id": "RBAC_details",
-            "order": 4,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "If you are making use of custom RBAC for roles and permissions, please provide the list of roles assigned to the user.",
             "required": false,
-	    "watermarkText": "Please use the command shown above.",
+	    "watermarkText": "Please use the command shown in the info balloon.",
 	    "infoBalloonText": "```az role assignment list --all --assignee example@example.com --output json | jq '.[] | {'principalName':.principalName,'roleDefinitionName':.roleDefinitionName,'scope':.scope} ``` For more guidance, read this <a href='https://docs.microsoft.com/azure/role-based-access-control/role-assignments-list-cli#list-role-assignments-for-a-user'>link</a>"
         },
 		{
