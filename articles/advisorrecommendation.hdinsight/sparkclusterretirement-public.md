@@ -20,7 +20,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },
-  "recommendationCategory": "High Availability",
+  "recommendationCategory": "HighAvailability",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.HDInsight/clusters",
   "recommendationFriendlyName": "SparkVersionRetirement",
