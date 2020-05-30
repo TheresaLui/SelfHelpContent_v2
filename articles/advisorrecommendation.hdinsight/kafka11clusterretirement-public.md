@@ -20,7 +20,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },
-  "recommendationCategory": "Performance",
+  "recommendationCategory": "High Availability",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.HDInsight/clusters",
   "recommendationFriendlyName": "KafkaVersionRetirement",
