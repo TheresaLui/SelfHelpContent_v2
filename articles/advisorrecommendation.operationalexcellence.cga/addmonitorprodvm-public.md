@@ -35,7 +35,7 @@
         },
         "serviceTreeId": "0dbc6a29-122a-4ab5-8070-5868a2bcd57b"
      },
-      "ingestionClientIdentities": [ 
+      "ingestionClientIdentities": [
         "397d7011-8a0c-4165-a3f5-8d4e5f2e676d"
       ],
       "recommendationTimeToLive": 86400,
