@@ -22,10 +22,10 @@
 If you are facing issues due to Tempdb being full, and are not able to resolve it, you can do a failover to clear tempdb. 
 Failover changes the node of a database and moves it to a new node, it is recommended that you do not have any active workload running if you are doing a failover. 
 
-[Failover Rest API](https://docs.microsoft.com/rest/api/sql/databases(failover)) can be used to easily failover your Azure SQL database to a new node.
+[Failover Rest API](https://docs.microsoft.com/en-us/rest/api/sql/databases(failover)/failover) can be used to easily failover your Azure SQL database to a new node.
 
 
 ## **Recommended Steps**
 
 * Poor performance in Azure SQL DB is most often either related to excessive CPU utilization or a query waiting on a resource. To resolve either of these issues, review [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview?WT.mc_id=pid:13491:sid:32630450/).
-* Another very common reason for poor performance is the lack of maintenance tasks to keep statistics up to date and preventing index fragmentation. You can use the[How to maintain Azure SQL Indexes and Statistics] (https://techcommunity.microsoft.com/t5/Azure-Database-Support-Blog/How-to-maintain-Azure-SQL-Indexes-and-Statistics/ba-p/368787) solution to prevent this from happening.
+* Another very common reason for poor performance is the lack of maintenance tasks to keep statistics up to date and preventing index fragmentation. You can use the[How to maintain Azure SQL Indexes and Statistics](https://techcommunity.microsoft.com/t5/Azure-Database-Support-Blog/How-to-maintain-Azure-SQL-Indexes-and-Statistics/ba-p/368787/) solution to prevent this from happening.
