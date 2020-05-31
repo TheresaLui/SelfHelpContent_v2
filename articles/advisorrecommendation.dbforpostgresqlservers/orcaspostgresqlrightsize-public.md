@@ -48,7 +48,7 @@
       "actionId": "5c1e3ad5-2295-407c-9de1-ba585cfeb0b3",
       "description": "Right-size underutilized PostgreSQL servers",
       "actionType": "Blade",
-      "extensionName": "SqlAzureExtension",
+      "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}",

@@ -48,7 +48,7 @@
       "actionId": "205a6772-83ab-42d4-9b5d-3343037a1dfe",
       "description": "Right-size underutilized MySQL servers",
       "actionType": "Blade",
-      "extensionName": "SqlAzureExtension",
+      "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}",

@@ -47,7 +47,7 @@
       "actionId": "83ebb279-5a4e-4f97-a1ca-9aeb9e50fd25",
       "description": "Decrease your PostgreSQL server's CPU vCores",
       "actionType": "Blade",
-      "extensionName": "SqlAzureExtension",
+      "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}",
