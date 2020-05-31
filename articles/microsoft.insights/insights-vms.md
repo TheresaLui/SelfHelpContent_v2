@@ -24,7 +24,7 @@
 Note that both of the codeless solutions are currently in public preview, and fully supported.
 For .Net and Java Application Insights can be enabled without any code change with just a few easy steps:
 1. For .Net, follow the [deploy the Azure Monitor Application Insights agent](https://docs.microsoft.com/azure/azure-monitor/app/azure-vm-vmss-apps) guide. 
-1. For Java apps, follow the [codeless application monitoring with Azure Monitor Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent)
+1. For Java apps, follow the [codeless application monitoring with Azure Monitor Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent) documentation
 1. For .Net Core, Node.js, and Python only SDK instrumentation is available
 
 ### Enable Application Insights with the SDKs - .Net Core, Node.js, and Python
