@@ -35,7 +35,7 @@
     "serviceTreeId": "2ee735d6-5f03-45c3-bf11-fc1dbb1aa135"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/hdiretirespark",
   "description": "Deprecation of Older Spark Versions in HDInsight Spark cluster",
   "longDescription": "Starting July 1, 2020, customers will not be able to create new Spark clusters with Spark 2.1 and 2.2 on HDInsight 3.6, and Spark 2.3 on HDInsight 4.0. Existing clusters will run as is without support from Microsoft. ",
