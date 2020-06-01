@@ -28,4 +28,4 @@ Failover changes the node of a database and moves it to a new node, it is recomm
 ## **Recommended Steps**
 
 * Poor performance in Azure SQL DB is most often either related to excessive CPU utilization or a query waiting on a resource. To resolve either of these issues, review [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview?WT.mc_id=pid:13491:sid:32630450/).
-* Another very common reason for poor performance is the lack of maintenance tasks to keep statistics up to date and preventing index fragmentation. You can use the [How to maintain Azure SQL Indexes and Statistics](https://techcommunity.microsoft.com/t5/azure-database-support-blog/automating-azure-sql-db-index-and-statistics-maintenance-using/ba-p/368974) solution to prevent this from happening.
+
