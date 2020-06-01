@@ -28,4 +28,4 @@ Starting July 1, 2020, customers will not be able to create new Kafka clusters w
 
 ## **Recommended Documents** 
 
-* [Deprecation of Kafka 1.1 in HDInsight 4.0 Kafka cluster](https://aka.ms/hdiretirekafka)
+* [Deprecation of Kafka 1.1 in HDInsight 4.0 Kafka cluster](https://docs.microsoft.com/azure/hdinsight/hdinsight-release-notes#deprecation-of-kafka-11-in-hdinsight-40-kafka-cluster)
