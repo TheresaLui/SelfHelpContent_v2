@@ -18,7 +18,7 @@
 />
 
 # Sign-In issues into Azure AD with AD FS due to improper IssuerID claim rule
-<!--/issueDescription-->
+<!--issueDescription-->
 We have detected sign-in issues for one or more of your federated domains. This is occurring due to a misconfiguration on your federation trust with Azure AD. Please take a look at the following recommendations on resolving this issue.
 <!--/issueDescription-->
 
