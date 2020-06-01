@@ -143,7 +143,7 @@
 			"visibility":"c1 == azure",
 			"controlType": "radioButtonGroup",
 			"displayLabel": "Is your Azure DevOps organization linked to your subscription?",
-			"watermarkText":"If your Azure DevOps organization isn't listed, make sure it's linked to your Azure subscription. For more information, see <a href='https://docs.microsoft.com/en-us/azure/devops/pipelines/apps/cd/deploy-webdeploy-webapps?view=azure-devops'> this </a>"
+			"watermarkText":"If your Azure DevOps organization isn't listed, make sure it's linked to your Azure subscription. For more information, see <a href='https://docs.microsoft.com/azure/devops/pipelines/apps/cd/deploy-webdeploy-webapps?view=azure-devops'> this </a>"
 			"radioButtonOptions": [
 			    {
 					"value": "yes_azure",
