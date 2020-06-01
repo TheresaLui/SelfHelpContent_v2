@@ -55,7 +55,7 @@
             "dropdownOptions": [
                 {
                     "value": "UserErrorGuestAgentStatusUnavailable",
-                    "text": "VM Agent is unable to communicate with azure backup service"
+                    "text": "VM Agent is unable to communicate with Azure Backup service"
                 },
                 {
                     "value": "GuestAgentSnapshotTaskStatusError",

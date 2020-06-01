@@ -17,7 +17,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Azure VM Restore performance",
-    "fileAttachmentHint": ""
+    "fileAttachmentHint": "",
     "formElements": [
         {
             "id": "vm_facing_issue",
