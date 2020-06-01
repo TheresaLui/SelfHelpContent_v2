@@ -24,7 +24,7 @@
 
 You can see which promotions you're eligible for, if any, on your [Promotions](https://partner.microsoft.com/commerce/Promotions) page. From the Promotions menu you can see a list of current promotions, along with the discount, promotion type, and start and end dates for the subscription. If no promotions are available, you'll see a message indicating this.
 
-You can also see promotions when making a purchase. When you select a subscription, the promotion pricing appears on the **Review** page.
+You can also see promotions when making a purchase. When you select a subscription, the promotion pricing appears on the **Review** page. 
 
 ## **Recommended Documents**
 
