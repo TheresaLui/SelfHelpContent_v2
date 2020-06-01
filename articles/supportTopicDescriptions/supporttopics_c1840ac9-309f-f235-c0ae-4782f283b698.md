@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "95c52ca2-f188-89f7-eb8f-9b74b7970e86",
+      "longDescription": "",
+      "shortDescription": "An availability test alert fired when it should not have",
+      "searchTags": "Alerts;Web availability alert;Alert misfired",
+      "category": "Alert accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9ea694c8-0231-4556-1b4c-113d59151b81",
       "longDescription": "",
       "shortDescription": "A metric alert should have fired but I do not see it in the Azure portal",
