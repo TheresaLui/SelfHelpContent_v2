@@ -139,7 +139,7 @@
 		},
 		{
 			"id": "c5",
-			"order": 6,
+			"order": 8,
 			"visibility":"c1 == azure",
 			"controlType": "radioButtonGroup",
 			"displayLabel": "Is your Azure DevOps organization linked to your subscription?",
