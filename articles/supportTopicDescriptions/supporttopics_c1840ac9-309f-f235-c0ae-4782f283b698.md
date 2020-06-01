@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "0407c5a1-4c31-5f91-3911-b1f13cc58375",
+      "longDescription": "",
+      "shortDescription": "My action rule did not suppress all action groups, or did not add an action group correctly, or did something unexpected",
+      "searchTags": "Alerts;Actions;Notifications;Action Rules;Alert Suppression",
+      "category": "Actions and Notifications",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "101a37ba-ed3c-0280-8a35-ce8ee16e63d8",
       "longDescription": "",
       "shortDescription": "The action or notification was received long time after the alert arrived to the portal",
