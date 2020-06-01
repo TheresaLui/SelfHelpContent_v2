@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "0280188f-1c8b-697b-7c27-8a1cf1e24663",
+      "longDescription": "",
+      "shortDescription": "Another type of alert (not mentioned above) should have fired but I do not see it in Azure portal",
+      "searchTags": "Alerts;Alert not fired",
+      "category": "Alerts accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "02e31962-e12a-3a4b-5ca4-875480a71d2d",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but an expected ITSM action did not trigger or was not received appropriately",
