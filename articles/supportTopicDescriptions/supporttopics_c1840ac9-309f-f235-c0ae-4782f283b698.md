@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "103ccbfb-f45a-0fa4-6519-7810f037df39",
+      "longDescription": "",
+      "shortDescription": "A log search alert fired when it should not have ",
+      "searchTags": "Alerts;Log Search Alerts;Alert misfired",
+      "category": "Alerts accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1956bede-5cb4-b03e-4eeb-8dfa8c5432c3",
       "longDescription": "",
       "shortDescription": "I received the alert, but some of its fields are missing or incorrect",
