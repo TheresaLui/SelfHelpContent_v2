@@ -18,11 +18,6 @@
     "subscriptionRequired": true,
     "title": "MARS Installation or registration failure",
     "fileAttachmentHint": "",
-     "diagnosticCard": {
-        "title": "MARS Installation or registration failure",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "os_version",
