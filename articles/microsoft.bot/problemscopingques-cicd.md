@@ -116,7 +116,7 @@
 					"text": "Yes, authorization is successful "
 				}
 			],
-			"required": true	
+			"required": true
 		},
 		{
 			"id": "c4",
@@ -135,7 +135,7 @@
 					"text": "Azure Pipelines"
 				}
 			],
-			"required": true	
+			"required": true
 		},
 		{
 			"id": "c5",
