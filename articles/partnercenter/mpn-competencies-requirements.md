@@ -24,10 +24,10 @@ Resources providing knowledge on Competency requirements.
 
 ## **Recommended Steps**
 
-- **Sign In** with your work account credentials in the [Microsoft Partner website](https://partner.microsoft.com) and access your [Dashboard](https://partner.microsoft.com/pcv/dashboard).
+- **Sign In** with your work account credentials in the [Microsoft Partner website](https://partner.microsoft.com) and access your [Dashboard](https://partner.microsoft.com/pcv/dashboard)
 - Under the MPN section on the Partner Center menu, select [Competencies](https://partner.microsoft.com/pcv/partnership/competencies).
 - Select the competency name and specific competency option to view details. You can see the competency completion status and the performance and skill requirements to achieve required competency.
-- For additional help, please refer to Recommended documents below.
+- For additional help, please refer to the recommended documents below
 
 ## **Recommended Documents**
 
