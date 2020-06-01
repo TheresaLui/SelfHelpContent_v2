@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "398a1ec3-2056-6ca1-285c-f2f54c00c551",
+      "longDescription": "",
+      "shortDescription": "A classic metric alert fired when it should not have ",
+      "searchTags": "Alerts;Metric Alerts (Classic);Alert misfired",
+      "category": "Alert accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "44ffb620-5ad1-6572-f77d-115542b7df33",
       "longDescription": "",
       "shortDescription": "A web availability alert should have fired but I do not see it in the Azure  portal",
