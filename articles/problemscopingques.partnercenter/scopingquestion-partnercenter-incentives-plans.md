@@ -52,10 +52,6 @@
 					"text": "Campaigns"
 				},
 				{
-					"value": "B1040434-30BB-40F0-A498-C3338D73845C",
-					"text": "Certified Software Advisor"
-				},
-				{
 					"value": "197650E7-3E3A-4FCA-9C8D-890951954D4C",
 					"text": "Channel Disti - ProWins"
 				},
@@ -130,10 +126,6 @@
 				{
 					"value": "F3460C1A-B544-4E8C-8875-B9A8D50C611A",
 					"text": "OSA Sell - Direct"
-				},
-				{
-					"value": "7088781F-1853-4A3A-A9D2-C6A1B22FABC5",
-					"text": "OSIS - OEM Campaigns"
 				},
 				{
 					"value": "D21798E0-C0FF-420A-8A03-8331EB969925",

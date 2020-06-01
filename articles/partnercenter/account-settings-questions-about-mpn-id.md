@@ -26,7 +26,6 @@ Resources about Microsoft Partner Network accounts.
 
 You need to use your MPN ID for such things as logging support tickets. If you are a developer, your MPN ID is located on your [Account settings](https://partner.microsoft.com/dashboard/account/management) details page. If you are a CSP partner, your MPN ID is located on the [Partner profile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile) page. If you are a MPN partner, your MPN ID is located in the [Partner Profile](https://partner.microsoft.com/pcv/accountsettings/connectedpartnerprofile) page.
 
-
 ## **Recommended Documents**
 
 * [Create a Partner Center account](https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account)
