@@ -28,6 +28,14 @@
       "searchTags": "Alerts;Notifications;Actions",
       "category": "Notifications and Actions",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f2ff387f-f3a2-cc5d-9ae8-02ea65718e69",
+      "longDescription": "",
+      "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its email",
+      "searchTags": "Alerts;Notifications;Email;Actions",
+      "category": "Actions and Notifications",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
