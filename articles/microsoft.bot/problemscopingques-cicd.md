@@ -86,7 +86,7 @@
 				},
 				{
 					"value": "c1_other",
-					"text": "Need help with something else"
+					"text": "Other"
 				}
 			],
 			"required": true
