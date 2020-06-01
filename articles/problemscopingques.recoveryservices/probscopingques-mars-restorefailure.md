@@ -81,7 +81,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": True
+            "required": true
         },
         {
             "id": "restore_location",
