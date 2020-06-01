@@ -154,7 +154,8 @@
 					"text": "No, need assistance in linking Azure DevOps to our subscription"
 				}
 			],
-			"required": true	
+			"required": true
+			},
         {
             "id": "problem_description",
             "order": 1000,
