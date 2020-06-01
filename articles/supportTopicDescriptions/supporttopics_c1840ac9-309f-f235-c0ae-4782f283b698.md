@@ -126,6 +126,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cc03fd48-3dc7-2c2a-5172-21cecfc48594",
+      "longDescription": "",
+      "shortDescription": "A log search alert should have fired but I do not see it in the Azure  portal",
+      "searchTags": "Alerts;Log Search Alerts;Alert not fired",
+      "category": "Alerts accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f2ff387f-f3a2-cc5d-9ae8-02ea65718e69",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its email",
