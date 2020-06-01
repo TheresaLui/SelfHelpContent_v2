@@ -44,23 +44,23 @@
 			"radioButtonOptions": [
 			    {
 					"value": "backupg",
-					"text": "Guidance for creating a backup for my Bot"
+					"text": "Guidance for creating a backup of a bot"
 				},
 				{
 					"value": "restoreg",
-					"text": "Guidance for restoring a backup for my Bot"
+					"text": "Guidance for restoring a backup of a bot"
 				},
 				{
 					"value": "backupe",
-					"text": "Running into an issue while creating a backup for my Bot"
+					"text": "Running into an issue while creating a backup of a bot"
 				},
 				{
 					"value": "restoree",
-					"text": "Running into an issue while restoring a backup for my Bot"
+					"text": "Running into an issue while restoring a backup of a bot"
 				},
 				{
 					"value": "advice",
-					"text": "What are the best practices for backing up and restoring a Bot"
+					"text": "What are the best practices for backing up and restoring a bot"
 				},
 				{
 					"value": "Other",
@@ -70,22 +70,44 @@
 			"required": true
 		},
 		{
-			"id": "backup_details",
+			"id": "backup_details_b",
+			"order": 8,
+			"visibility":"error_advice == backupe || error_advice == backupe",
+			"controlType": "radioButtonGroup",
+			"displayLabel": "If you are trying to create a backup, where are you trying to create the backup?",
+			"radioButtonOptions": [
+			    {
+					"value": "bac_azure_b",
+					"text": "Backup created on Azure"
+				},
+				{
+					"value": "bac_marketplace_b",
+					"text": "An application from Azure Marketplace"
+				},
+				{
+					"value": "bac_others_b",
+					"text": "Something else"
+				}
+			],
+			"required": true
+		},
+		{
+			"id": "backup_details_r",
 			"order": 4,
 			"visibility":"error_advice == restoreg || error_advice == restoree",
 			"controlType": "radioButtonGroup",
 			"displayLabel": "If you are trying to restore from an existing backup, how was the backup created?",
 			"radioButtonOptions": [
 			    {
-					"value": "bac_azure",
+					"value": "bac_azure_r",
 					"text": "Backup created on Azure"
 				},
 				{
-					"value": "bac_marketplace",
+					"value": "bac_marketplace_r",
 					"text": "An application from Azure Marketplace"
 				},
 				{
-					"value": "bac_others",
+					"value": "bac_others_r",
 					"text": "Something else"
 				}
 			],
