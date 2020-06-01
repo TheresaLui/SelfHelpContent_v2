@@ -38,7 +38,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": false
+            "required": true
         },
         {
             "id": "error_message",
@@ -68,14 +68,12 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
 	{
 	 "id": "issue_type",
             "order": 5,
             "controlType": "dropdown",
-	    "infoBalloonText": "Check installation and registration <a href='https://aka.ms/AB-AA4dp4y'>Troubleshooting</a> article",
             "displayLabel": "Which type of issue you are facing?",
             "dropdownOptions": [
                 {
@@ -105,6 +103,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 6,
             "controlType": "multiselectdropdown",
+			"infoBalloonText": "Check installation and registration <a href='https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps you have performed:",
             "dropdownOptions": [
                 {

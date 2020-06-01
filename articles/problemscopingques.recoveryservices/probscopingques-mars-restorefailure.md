@@ -18,11 +18,6 @@
     "subscriptionRequired": false,
     "title": "MARS restore failure",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "MARS restore failure",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "os_version",
@@ -38,7 +33,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": false
+            "required": true
         },
         {
             "id": "error_message",
@@ -80,9 +75,13 @@
                 {
                     "value": "Volume",
                     "text": "Volume"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": True
         },
         {
             "id": "restore_location",
@@ -104,8 +103,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "basic_troubleshooting_multiselect",
