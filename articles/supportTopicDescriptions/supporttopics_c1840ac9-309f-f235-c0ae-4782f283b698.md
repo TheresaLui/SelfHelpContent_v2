@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0907aea1-faf3-47b3-eb18-d8e46b549a63",
+      "longDescription": "",
+      "shortDescription": "A metric alert (classic) should have fired but I do not see it in the Azure portal",
+      "searchTags": "Alerts;Metric Alerts (Classic);Alert not fired",
+      "category": "Alerts accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "101a37ba-ed3c-0280-8a35-ce8ee16e63d8",
       "longDescription": "",
       "shortDescription": "The action or notification was received long time after the alert arrived to the portal",
