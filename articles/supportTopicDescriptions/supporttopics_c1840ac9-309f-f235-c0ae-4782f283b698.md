@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "44ffb620-5ad1-6572-f77d-115542b7df33",
+      "longDescription": "",
+      "shortDescription": "A web availability alert should have fired but I do not see it in the Azure  portal",
+      "searchTags": "Alerts;Alert not fired",
+      "category": "Alerts accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "47592372-7519-6718-333a-39fcc853c4d2",
       "longDescription": "",
       "shortDescription": "My alert should have been fired but I do not see it in the Azure portal",
