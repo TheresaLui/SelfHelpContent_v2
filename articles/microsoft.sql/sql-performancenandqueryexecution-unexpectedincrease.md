@@ -23,7 +23,7 @@
 If you are facing issues due to Tempdb being full, and are not able to resolve it, you can do a failover to clear tempdb. 
 Failover changes the node of a database and moves it to a new node, it is recommended that you do not have any active workload running if you are doing a failover. 
 
-[Failover Rest API](https://docs.microsoft.com/en-us/rest/api/sql/databases(failover)/failover) can be used to easily failover your Azure SQL database to a new node.
+[Failover Rest API](https://docs.microsoft.com/en-us/rest/api/sql/databases\(failover\)/failover) can be used to easily failover your Azure SQL database to a new node.
 
 
 ## **Recommended documents**
