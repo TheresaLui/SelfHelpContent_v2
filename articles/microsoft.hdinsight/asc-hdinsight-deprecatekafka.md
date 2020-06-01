@@ -24,7 +24,7 @@ Starting July 1, 2020, customers will not be able to create new Kafka clusters w
 
 ## **Recommended Steps**
 
-* Consider moving to Kafka 2.1 on HDInsight 4.0 by June 30, 2020 to avoid potential system/support interruption.
+* Consider moving to Kafka 2.1 on HDInsight 4.0 by June 30, 2020 to avoid potential system/support interruption
 
 ## **Recommended Documents** 
 
