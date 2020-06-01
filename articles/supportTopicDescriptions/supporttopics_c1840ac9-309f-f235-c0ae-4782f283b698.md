@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "101a37ba-ed3c-0280-8a35-ce8ee16e63d8",
+      "longDescription": "",
+      "shortDescription": "The action or notification was received long time after the alert arrived to the portal",
+      "searchTags": "Alerts;Actions ;Notifications;Delay",
+      "category": "Actions and Notifications",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5610d797-e813-dd71-567d-97dc62c7efa0",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but it did not call a webhook, logic app, Azure function, or automation runbook",
