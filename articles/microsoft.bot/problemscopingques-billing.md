@@ -70,7 +70,7 @@
 			"order": 4,
 			"visibility":"error_advice == incorrect",
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide the billing cycle, time period details that you believe you are incorrectly charged",
+			"displayLabel": "Please provide the billing cycle, time period details of when you believe you are incorrectly charged",
 			"required": true
 		},
 		{
@@ -80,7 +80,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "If you are facing any issues in viewing the bot costs or charges, please provide the details and error message",
 			"required": true,
-			"watermarkText": "A screenshot of the error and your role in the Subscription. Some accounts or roles may not have the necessary permissions to view  billing details, contact your Subscription account admin to get the necessary permissions."
+			"watermarkText": "Upload a screenshot of the error via the file upload option below. Also provide details on your role in the Subscription. Some accounts or roles may not have the necessary permissions to view  billing details, contact your Subscription account admin to get the necessary permissions."
 		},
         {
             "id": "problem_description",
