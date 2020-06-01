@@ -20,7 +20,7 @@
 # Resolving App Registration Issues? 
 
 <!--issueDescription-->
-Based on the summary problem description, the issue you are encountering could be App Registration related issue. Explore the Documents below to help you resolve this issue
+Based on the summary problem description, the issue you are encountering could be App Registration related issue. Explore the Documents below to help you resolve this issue.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
