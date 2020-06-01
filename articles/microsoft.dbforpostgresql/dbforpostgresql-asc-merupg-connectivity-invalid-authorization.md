@@ -8,7 +8,7 @@
 	displayOrder=""
 	articleId="dbforpostgresql-asc-merupg-connectivity-invalid-authorization"
 	diagnosticScenario="OrcasMeruPGInvalidAuthorizationInsight"
-	selfHelpType="rca"
+	selfHelpType="diagnostics"
 	supportTopicIds="32639953"
 	productPesIds="17069"
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
