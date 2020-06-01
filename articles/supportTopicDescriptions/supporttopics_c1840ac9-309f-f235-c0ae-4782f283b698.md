@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "78577d15-b487-02e6-8892-385cacef5526",
+      "longDescription": "",
+      "shortDescription": "I have a specific alert that its notification or action triggered multiple times",
+      "searchTags": "Alerts;Notifications;Actions",
+      "category": "Actions and Notifications",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b787ca8-a207-8e96-4e26-42b7d7d8f805",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the portal, but its actions or notifications did not happen, or malfunctioned",
