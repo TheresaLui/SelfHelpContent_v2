@@ -18,7 +18,7 @@
 # Creation Issues\Portal Deployment
 
 
-## **Recommended steps**
+## **Recommended Steps**
 
 If the ASE deployment was triggered more than 12 hours ago and it failed, the ASE will be deleted and VNet Verifier will not be able to find it. If it is within 12 hours, please use VNet Verifier to verify whether the NSGs and UDRs attached to the ASE's subnet are correctly configured.
 <br>
@@ -37,7 +37,7 @@ Once the ASE has been successfully created, you can configure the NSG and Route 
 - If you are advertising BGP routes on the VNet (for ExpressRoute) you should also disable the Virtual network gateway route propagation from the "Configuration" blade in the Route Table.
 <br>
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * To see ASE dependencies, please review: [ASE Dependencies](https://docs.microsoft.com/azure/app-service/environment/network-info#ase-dependencies) <br>
 * For NSG configuration, please review [NSGs](https://docs.microsoft.com/azure/app-service/environment/network-info#network-security-groups) <br>
