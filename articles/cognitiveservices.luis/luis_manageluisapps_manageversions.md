@@ -16,9 +16,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 # Manage Versions or Export and Import
 
-## **Recommended Documents**
-
-### Getting started
+## **Getting started**
 
 * **What are versions?** Versions are copies of your model, that allows you to build, edit and test different models without impacting staging or production applications. LUIS allows you to have multiple versions per application.
 * **Are they required for me to do?** No, it just allows you to compare and contrast between different stages of an application. It is a good practice to clone the current active model to a different version of the app before making changes to the model.
@@ -28,7 +26,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 
 
-### Troubleshoot Version Errors
+## **Troubleshoot Version Errors**
 
 * If you get a **tokenizer error** when importing, then you are trying to import a version that uses a different tokenizer than the app currently uses. To fix this, import the file as a new app, instead of a version as there is currently no support for version-level tokenization and tokenization only happens at app level. This action means the new app has a different app ID but uses the tokenizer version specified in the file.
 * If you find other errors, please open an ICM Ticket.
