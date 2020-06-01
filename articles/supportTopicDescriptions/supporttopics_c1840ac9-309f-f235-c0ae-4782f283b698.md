@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9ea694c8-0231-4556-1b4c-113d59151b81",
+      "longDescription": "",
+      "shortDescription": "A metric alert should have fired but I do not see it in the Azure portal",
+      "searchTags": "Alerts;Metric Alerts;Alert Not Fired",
+      "category": "Alerts Accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9fc0a23a-78c3-dd90-fd1b-618d3c318c49",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its SMS, push notification, or voice call",
