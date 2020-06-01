@@ -819,8 +819,8 @@
     {
       "id": "ad87fcbe-dbe1-5757-c644-b5511f27f5c4",
       "longDescription": null,
-      "shortDescription": "Disk throughput is lower than expected for the virtual machine",
-      "searchTags": "",
+      "shortDescription": "Disk throughput or IOPS are lower than expected for the virtual machine",
+      "searchTags": "IOPS;Performance;throughput",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
