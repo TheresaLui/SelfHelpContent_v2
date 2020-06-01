@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "816ddefa-4a25-c326-0fdd-c4f39b373356",
+      "longDescription": "",
+      "shortDescription": "An activity log alert should have fired but I do not see it in the Azure portal",
+      "searchTags": "Alerts;Activity Log Alerts",
+      "category": "Alert accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b787ca8-a207-8e96-4e26-42b7d7d8f805",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the portal, but its actions or notifications did not happen, or malfunctioned",
