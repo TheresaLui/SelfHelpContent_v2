@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e87becc0-7a57-8229-90fe-399bb296b79a",
+      "longDescription": "",
+      "shortDescription": "I can see an alert in the portal that should not have fired ",
+      "searchTags": "Alerts;Alert misfired",
+      "category": "Alerts accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f2ff387f-f3a2-cc5d-9ae8-02ea65718e69",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its email",
