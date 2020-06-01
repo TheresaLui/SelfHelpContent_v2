@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5b733ca5-08b9-fce3-7d2c-7637d7f6ed9c",
+      "longDescription": "",
+      "shortDescription": "A metric alert fired when it should not have ",
+      "searchTags": "Alerts;Metric Alerts",
+      "category": "Alerts accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "78577d15-b487-02e6-8892-385cacef5526",
       "longDescription": "",
       "shortDescription": "I have a specific alert that its notification or action triggered multiple times",
