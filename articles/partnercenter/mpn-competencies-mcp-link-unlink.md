@@ -29,7 +29,7 @@ Resources providing knowledge on how to link/unlink MCP IDs
 - In the page that opens, each user associates the Partner University account and/or Microsoft Learning account by clicking on:
 	- Get Partner University access (for assessments recognition) or
 	- Associate Microsoft Learning account
-	- Note: Partner university account will be associated to the Partner Center user account and the user’s assessments will reflect in the Partner Center User Skills report within **72 hrs**.
+	- Note: Partner university account will be associated to the Partner Center user account and the user’s assessments will reflect in the Partner Center User Skills report within **72 hrs**
 - For additional help, please refer to the recommended documents below
 
 ## **Recommended Documents**
