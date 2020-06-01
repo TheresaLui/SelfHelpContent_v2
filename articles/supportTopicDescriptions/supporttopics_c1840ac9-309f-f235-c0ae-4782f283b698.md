@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "47592372-7519-6718-333a-39fcc853c4d2",
+      "longDescription": "",
+      "shortDescription": "My alert should have been fired but I do not see it in the Azure portal",
+      "searchTags": "Alerts;Alert not fired",
+      "category": "Alerts accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5610d797-e813-dd71-567d-97dc62c7efa0",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but it did not call a webhook, logic app, Azure function, or automation runbook",
