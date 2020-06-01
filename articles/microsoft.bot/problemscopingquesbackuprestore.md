@@ -72,7 +72,7 @@
 		{
 			"id": "backup_details_b",
 			"order": 8,
-			"visibility":"error_advice == backupe || error_advice == backupe",
+			"visibility":"error_advice == backupe || error_advice == backupg",
 			"controlType": "radioButtonGroup",
 			"displayLabel": "If you are trying to create a backup, where are you trying to create the backup?",
 			"radioButtonOptions": [
