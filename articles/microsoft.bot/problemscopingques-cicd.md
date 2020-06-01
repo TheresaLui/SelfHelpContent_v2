@@ -64,7 +64,7 @@
 		{
 			"id": "c1",
 			"order": 4,
-			"visibility":"error_advice == configure",
+			"visibility":"error_advice == configure || error_advice == advice",
 			"controlType": "radioButtonGroup",
 			"displayLabel": "What source control system are you using for continuous deployment?",
 			"radioButtonOptions": [
@@ -121,7 +121,7 @@
 		{
 			"id": "c4",
 			"order": 7,
-			"visibility":"error_advice == configure",
+			"visibility":"error_advice == configure || error_advice == advice",
 			"controlType": "radioButtonGroup",
 			"displayLabel": "What are you using as the build provider for your CI/CD?",
 			"watermarkText":"If your existing Azure DevOps organization isn't listed, you may need to link it to your Azure subscription",
