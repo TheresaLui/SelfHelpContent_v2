@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "02e31962-e12a-3a4b-5ca4-875480a71d2d",
+      "longDescription": "",
+      "shortDescription": "I can see my fired alert in the Azure portal, but an expected ITSM action did not trigger or was not received appropriately",
+      "searchTags": "Alerts;Actions;Notifications;ITSM",
+      "category": "Actions and Notifications",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0407c5a1-4c31-5f91-3911-b1f13cc58375",
       "longDescription": "",
       "shortDescription": "My action rule did not suppress all action groups, or did not add an action group correctly, or did something unexpected",
