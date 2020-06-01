@@ -39,7 +39,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 3,
             "controlType": "multiselectdropdown",
-            "infoBalloonText": "Check Azure Backup agent <a href='https://aka.ms/AAB-unable-to-download-vault-credential-file'>Troubleshooting</a> article",
+            "infoBalloonText": "Check Azure Backup agent <a href='https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#unable-to-download-vault-credential-file'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
