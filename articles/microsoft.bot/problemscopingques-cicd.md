@@ -105,7 +105,7 @@
 			"visibility":"c1 == github || c1 == bitbucket",
 			"controlType": "radioButtonGroup",
 			"displayLabel": "Are you able to successfully authorize your app service?",
-			"watermarkText":"For Bitbucket or GitHub, you should authorize Azure App Service to connect to your repository. You need to authorize with a source control service at least once"
+			"watermarkText":"For Bitbucket or GitHub, you should authorize Azure App Service to connect to your repository. You need to authorize with a source control service at least once",
 			"radioButtonOptions": [
 			    {
 					"value": "no_auth",
@@ -124,7 +124,7 @@
 			"visibility":"error_advice == configure",
 			"controlType": "radioButtonGroup",
 			"displayLabel": "What are you using as the build provider for your CI/CD?",
-			"watermarkText":"If your existing Azure DevOps organization isn't listed, you may need to link it to your Azure subscription"
+			"watermarkText":"If your existing Azure DevOps organization isn't listed, you may need to link it to your Azure subscription",
 			"radioButtonOptions": [
 			    {
 					"value": "appservice",
@@ -143,7 +143,7 @@
 			"visibility":"c1 == azure",
 			"controlType": "radioButtonGroup",
 			"displayLabel": "Is your Azure DevOps organization linked to your subscription?",
-			"watermarkText":"If your Azure DevOps organization isn't listed, make sure it's linked to your Azure subscription. For more information, see <a href='https://docs.microsoft.com/azure/devops/pipelines/apps/cd/deploy-webdeploy-webapps?view=azure-devops'> this </a>"
+			"watermarkText":"If your Azure DevOps organization isn't listed, make sure it's linked to your Azure subscription. For more information, see <a href='https://docs.microsoft.com/azure/devops/pipelines/apps/cd/deploy-webdeploy-webapps?view=azure-devops'> this </a>",
 			"radioButtonOptions": [
 			    {
 					"value": "yes_azure",
