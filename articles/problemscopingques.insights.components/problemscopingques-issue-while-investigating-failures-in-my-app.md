@@ -91,8 +91,8 @@
             "displayLabel": "Do you believe there is a problem with the data Application Insights is presenting or are you looking for guidance on resolving an error? ",
             "dropdownOptions": [
                 {
-                    "value": "Application Insights data looks correct I need help fixing an error",
-                    "text": "Application Insights data looks correct I need help fixing an error"
+                    "value": "Application Insights data looks correct but I need help fixing an error",
+                    "text": "Application Insights data looks correct but I need help fixing an error"
                 },
                 {
                     "value": "Application Insights data ",
