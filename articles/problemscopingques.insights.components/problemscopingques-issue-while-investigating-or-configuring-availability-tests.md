@@ -39,7 +39,7 @@
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"
             },
-            "defaultdropdownOptions": [
+            "dropdownOptions": [
                 {
                     "value": "Unable to get the list of availability tests for this resource",
                     "text": "Unable to get the list of availability tests for this resource"
