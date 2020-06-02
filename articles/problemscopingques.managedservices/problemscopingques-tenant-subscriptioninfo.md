@@ -18,7 +18,8 @@
   "resourceRequired": false,
 	"title": "Tenant-SubscriptionInfo",
 	"fileAttachmentHint": "",
-	"formElements": [
+	"formElements": 
+    [
         {
             "id": "problem_start_time",
             "order": 1,
@@ -34,7 +35,8 @@
             "watermarkText": "Provide the HAR/fiddler trace or any error message or additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true,
-            "hints": [
+            "hints": 
+            [
                 {
                     "text": "Issue description."
                 }
@@ -48,12 +50,13 @@
             "watermarkText": "Please provide the ID of the tenant that is managing the services(if applicable)",
             "required": false,
             "useAsAdditionalDetails": true,
-            "hints": [
+            "hints": 
+            [
                 {
                     "text": "Managing tenant ID/CSP tenant ID"
                 }
             ]
-        }
+        },
         {
             "id": "problem_description",
             "order": 4,
@@ -62,12 +65,13 @@
             "watermarkText": "Please provide other subscription ID that is impacted with this same issue(if applicable)",
             "required": false,
             "useAsAdditionalDetails": true,
-            "hints": [
+            "hints": 
+            [
                 {
                     "text": "Other subscription IDs impacted by this issue"
                 }
             ]
-        }
+        },
 	]
 }
 ---
