@@ -30,7 +30,14 @@
             "controlType": "Textbox",
             "displayLabel": "HAR/fiddler trace or any other error message (if applicable)",
             "watermarkText": "Provide the HAR/fiddler trace or any error message or additional information about your issue",
-            "required": true
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": 
+            [
+                {
+                    "text": "Issue description."
+                }
+            ]
         }, {
             "id": "ManagedByTenantID_desc",
             "order": 3,
