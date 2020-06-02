@@ -30,5 +30,5 @@ You can use Azure Monitor autoscale with Virtual Machine Scale Sets, Cloud Servi
 
 * [Overview of autoscale in Microsoft Azure Virtual Machines, Cloud Services, and Web Apps](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-overview)
 * [Get started with autoscale in Azure](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-get-started)
-* [Best practices for autoscale](https://docs.microsoft.com/en-us/Azure/azure-monitor/platform/autoscale-best-practices)
+* [Best practices for autoscale](https://docs.microsoft.com/Azure/azure-monitor/platform/autoscale-best-practices)
 * [Troubleshooting guide for Azure Monitor autoscale](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-troubleshoot)
