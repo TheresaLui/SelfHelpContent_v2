@@ -8,7 +8,6 @@
     cloudEnvironments="Public, usnat, ussec"	
     ownershipId="CGA_DataPlatform"
 />
-
 # Add VM Monitor to your production VM
 ---
 {
@@ -42,7 +41,8 @@
       "version": 2.0,
       "learnMoreLink": "https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-overview",
       "description": "Add Azure Monitor to your virtual machine (VM) labeled as production",
-      "longDescription": "Azure Monitor for VMs monitors your Azure virtual machines (VM) and virtual machine scale sets at scale. It analyzes the performance and health of your Windows and Linux VMs,  and it monitors their processes and dependencies on other resources and external processes. It includes support for monitoring performance and application dependencies for VMs that are hosted on-premises or in another cloud provider.",      "potentialBenefits": " Azure Monitor analyzes performance, health, and processes on your Windows and Linux VMs",
+      "longDescription": "Azure Monitor for VMs monitors your Azure virtual machines (VM) and virtual machine scale sets at scale. It analyzes the performance and health of your Windows and Linux VMs,  and it monitors their processes and dependencies on other resources and external processes. It includes support for monitoring performance and application dependencies for VMs that are hosted on-premises or in another cloud provider.",
+      "potentialBenefits": " Azure Monitor analyzes performance, health, and processes on your Windows and Linux VMs",
       "actions": [
             {
                 "actionId": "99af20b1-297a-458f-822b-fd57787bc433",
@@ -68,6 +68,6 @@
 	  },
      "displayLabel": " Add Azure Monitor to your virtual machine (VM) labeled as production",
      "additionalColumns": [],
-     "tip": "Azure Monitor analyzes performance, health, and processes on your Windows and Linux VMs”
+     "tip": "Azure Monitor analyzes performance, health, and processes on your Windows and Linux VMs"
 }
 ---
