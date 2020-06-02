@@ -35,7 +35,6 @@ Currently supported Synapse run-times to access Azure Cosmos DB analytical store
 * Synapse SQL Provisioned - *Not available*  
 
 
-
 ## **Recommended Documents**
 
 [Azure Synapse Link for Azure Cosmos DB supported features](https://docs.microsoft.com/azure/synapse-analytics/synapse-link/concept-synapse-link-cosmos-db-support)

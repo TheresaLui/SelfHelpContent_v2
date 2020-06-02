@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-synapselink-runtime"
+	articleId="cosmosdb-synapselink-ttl"
 	displayOrder="306"
 	category="Azure Synapse Link for Cosmos DB TTL"
 	ownershipId="AzureData_AzureCosmosDB"
