@@ -26,10 +26,10 @@ Most users are able to resolve their Azure Synapse Link for Cosmos DB Store issu
 
 ### **Cannot Enable Analytical Store**
 
-**Synapse Link for the account is a pre-requisite to be able to create Analytical Store enabled container** 
+**Synapse Link for the account is a prerequisite to be able to create Analytical Store enabled container** 
 Ensure Synapse Link is enabled for the Azure Cosmos DB account by
 
-* Signing into the Azure Portal -> Navigate to the Azure Cosmos DB Account -> Open Features pane -> Status of Synapse Link from the features list should say Enrolled
+* Signing into the Azure Portal > Navigate to the Azure Cosmos DB Account > Open Features pane > Status of Synapse Link from the features list should say Enrolled
 * If Status is off, you will need to enable Synapse Link for the account. You can do so directly from the Features pane in the portal or by using Azure Cosmos DB SDKs.
 
 
@@ -47,7 +47,7 @@ Currently, the analytical store cannot be disabled on an Azure Cosmos DB contain
 
 
 ### **Disabling Synapse Link Feature for my Azure Cosmos DB Account**  
-Currently, after the Synapse Link capability is enabled at the account level, you cannot disable it. If you want to turn off the capability, you must delete and re-create a new Azure Cosmos DB account.   
+Currently, after the Synapse Link capability is enabled at the account level, you cannot disable it. If you want to turn off the capability, you must delete and recreate a new Azure Cosmos DB account.   
 Understand that you will not have any billing implications if the Synapse Link capability is enabled at the account level but there is no analytical store enabled containers.
 
 

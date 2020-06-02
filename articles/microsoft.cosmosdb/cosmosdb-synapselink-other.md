@@ -46,7 +46,7 @@ In the public preview release, Synapse Link is supported only for the Azure Cosm
 ### **Connecting to analytical store from analytics engines other than Azure Synapse Analytics**
 You can only access and run queries against the analytical store using the various run-times provided by Azure Synapse Analytics. 
 The analytical store can be queried and analyzed using:
-* Synapse Spark with full support for Scala, Python, SparkSQL, and C#. Synapse Spark is central to data engineering and science scenarios 
+* Synapse Spark with full support for Scala, Python, Spark SQL, and C#. Synapse Spark is central to data engineering and science scenarios 
 * SQL serverless with T-SQL language and support for familiar BI tools (For example, Power BI Premium, etc.)  
 
 
