@@ -39,7 +39,7 @@
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"
             },
-            "dropdownOptions": [
+            "defaultdropdownOptions": [
                 {
                     "value": "Unable to get the list of availability tests for this resource",
                     "text": "Unable to get the list of availability tests for this resource"
@@ -91,7 +91,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the problem you are noticing",
             "watermarkText": "Describe the problem you are noticing",
-            "required": true,
+            "required": false,
             "useAsAdditionalDetails": true,
             "hints": []
         },
