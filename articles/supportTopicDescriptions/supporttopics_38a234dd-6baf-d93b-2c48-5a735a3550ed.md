@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   description="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   authors="elixirsys2"
-  ms.author="v-vigra, rodejo"
+  ms.author="v-vigra, rodejo, mwahl"
   selfhelptype="SupportTopicDescription"
   productpesids="38a234dd-6baf-d93b-2c48-5a735a3550ed"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -21,6 +21,14 @@
   "productLink3": "",
   "productLinkName3": "",
   "supportTopics": [
+    {
+      "id": "013bf5eb-0229-eedf-ada0-d9d1fc46093a",
+      "longDescription": "",
+      "shortDescription": "Issues with MIM sync installation or provisioning configuration in the MIM Sync Service Manager UI",
+      "searchTags": "MIM;sync",
+      "category": "MIM",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "0610c7f2-38a0-4514-ee0a-adc146934bf2",
       "longDescription": "",
