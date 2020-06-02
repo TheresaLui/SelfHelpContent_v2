@@ -49,7 +49,7 @@
         },
         {
             "id": "notification_type",
-            "order": 3,
+            "order": 5,
             "controlType": "multiselectdropdown",
             "displayLabel": "Where is the monitored application running?",
             "watermarkText": "Choose one or more",
@@ -87,7 +87,7 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the problem you are noticing",
             "watermarkText": "Describe the problem you are noticing",
