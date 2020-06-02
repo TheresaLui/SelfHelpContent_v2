@@ -17,18 +17,18 @@
 />
 
 # Azure Synapse Link for Cosmos DB Runtime
-
 Most users are able to resolve their Azure Synapse Link for Cosmos DB Runtime issue using the steps below.  
-
 
 
 ## **Recommended Steps**  
 
-### **Cannot access Cosmos DB analytical store with Synapse SQL Serverless**  
+
+
+### **Cannot access Cosmos DB analytical store with Synapse SQL Serverless**
 Synapse SQL Serverless is currently under gated preview and not publicly available. To request access please email *cosmosdbsynapselink@microsoft.com*  
 
 
-### **Current Support**  
+### **Current Support**
 Currently supported Synapse run-times to access Azure Cosmos DB analytical store
 * Synapse Spark pools - *Read, Write (through transactional store), Table, Temporary View*
 * Synapse SQL Serverless - *Read, View (Gated Preview)*

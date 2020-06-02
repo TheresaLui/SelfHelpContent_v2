@@ -16,8 +16,7 @@
 	ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Azure Synapse Link for Cosmos DB - Time To Live
-
+# Azure Synapse Link for Cosmos DB Time To Live
 Most users are able to resolve their Azure Synapse Link for Cosmos DB Time To Live (TTL) issue using the steps below.  
 
 
@@ -25,11 +24,13 @@ Most users are able to resolve their Azure Synapse Link for Cosmos DB Time To Li
 ## **Recommended Steps**  
 
 
-### **Updating the Analytical Store Time-To-Live**  
-After the analytical store is enabled with a particular TTL value, you can update it to a different valid value later.  You can update the value by using the Azure portal or SDKs. See [Learn how to configure Analytical TTL](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link#create-analytical-ttl) 
+
+### **Updating the Analytical Store Time-To-Live**
+After the analytical store is enabled with a particular TTL value, you can update it to a different valid value later.  You can update the value by using the Azure portal or SDKs. 
+<br>See [Learn how to configure Analytical TTL](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link#create-analytical-ttl)  
 
 
-### **Unable to set item level TTL for Analytical Store**  
+### **Unable to set item level TTL for Analytical Store**
 At this time, TTL for analytical data can only be configured at container level and there is no support to set analytical TTL at item level.  
 
 
