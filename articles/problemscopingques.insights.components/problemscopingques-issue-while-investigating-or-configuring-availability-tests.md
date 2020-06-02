@@ -28,7 +28,7 @@
         },
         {
             "id": "classic_alert_id",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Please select the affected Availability Tests resource.",
             "watermarkText": "Choose an option",
