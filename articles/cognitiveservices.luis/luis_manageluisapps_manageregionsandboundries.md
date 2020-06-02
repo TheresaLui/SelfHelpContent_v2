@@ -32,7 +32,7 @@ LUIS has 3 authoring regions that are supported by 3 corresponding LUIS portals.
 
 ## Authoring Resources
 * **From where can I create an Authoring resource?** Authoring resources can be either created from the Azure portal or the LUIS portal.
-* **How can I create an Authoring resource from Azure?** Go to [Azure Portal](https://portal.azure.com/) and ensure that you have a valid Azure subscription. If you do not have an Azure subscription, create a free one. Noting that having an Azure subscription is a prerequisite to create any Azure resources. After that, search for Language Understanding and click on create a new resource. Choose the Authoring Tab from above and fill in the template as in [here](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-how-to-azure-subscription#create-luis-resources-in-azure-portal).
+* **How can I create an Authoring resource from Azure?** Go to [Azure Portal](https://portal.azure.com/) and ensure that you are associated with a valid Azure subscription. If you do not have an Azure subscription, create a free one. Noting that having an Azure subscription is a prerequisite to create any Azure resources. Search for Language Understanding and click on create a new resource. Choose the Authoring Tab from above and fill in the template as in [here](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-how-to-azure-subscription#create-luis-resources-in-azure-portal).
     **Note:** You need to choose the authoring region based on which authoring portal you will create your model in. If you are planning to create and publish your application in the Europe region, you need to create the resource in the Europe region.  
 * **How can I create an Authoring resource from LUIS?**
       * If you are [Migrated](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-migration-authoring), then you already have an authoring resource that is linked to your application. You can always create a new one from the LUIS portal [here](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-how-to-azure-subscription#assign-a-resource-to-an-app).
@@ -41,7 +41,7 @@ LUIS has 3 authoring regions that are supported by 3 corresponding LUIS portals.
 ## Prediction/runtime Resources
 * **From where can I create a prediction/runtime resource?** Prediction/runtime resources can be either created from the Azure portal or the LUIS portal.
 * **How can I create a Prediction/runtime resource from Azure?** Go to [Azure Portal](https://portal.azure.com/) and ensure that you have a valid Azure subscription. If you do not have an Azure subscription, create a free one. Noting that having an Azure subscription is a prerequisite to create any Azure resources. Search for Language Understanding and click on create a new resource. Choose the prediction tab from above and fill in the template.
-* **How can I create a Prediction/runtime resource from LUIS?** From your application in the manage tab, click on manage resources and follow the steps [here](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-how-to-azure-subscription#assign-a-resource-to-an-app).
+* **How can I create a Prediction/runtime resource from LUIS?** From your application in the manage tab, click on Azure Resources menu on the left and follow the steps [here](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-how-to-azure-subscription#assign-a-resource-to-an-app) to add a new prediction resource to your app.
 
 
 ## Troubleshoot
