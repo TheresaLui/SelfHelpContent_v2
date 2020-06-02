@@ -32,14 +32,8 @@
             "watermarkText": "Provide any error messages encountered(if any)",
             "required": false,
             "useAsAdditionalDetails": false,
-            "hints":
-            [
-                {
-                    "text": "Error message"
-                }
-            ]
         }, {
-            "id": "Issue_description",
+            "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
