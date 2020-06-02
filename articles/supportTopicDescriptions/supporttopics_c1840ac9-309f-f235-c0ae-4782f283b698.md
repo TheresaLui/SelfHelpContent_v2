@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "995bfe73-3864-b206-c43f-724f3f7d0327",
+      "longDescription": "",
+      "shortDescription": "A Service health or a resource health alert fired when it should not have",
+      "searchTags": "Alerts;Service Health Alerts;Resource Health Alerts",
+      "category": "Alert accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9ea694c8-0231-4556-1b4c-113d59151b81",
       "longDescription": "",
       "shortDescription": "A metric alert should have fired but I do not see it in the Azure portal",
