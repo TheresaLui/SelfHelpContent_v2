@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32609688"
 	productPesIds="16506"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="4cae1311-9ee9-4f2d-b92f-18e830048420"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 # Problems related to cluster maintenance activities.
 ---

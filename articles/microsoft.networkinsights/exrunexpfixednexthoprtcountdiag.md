@@ -11,8 +11,9 @@
     supportTopicIds="32539944, 32539947"
     resourceTags="windows"
     productPesIds="15480"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+ 	ownershipId="CloudNet_AzureExpressRoute"
+/>
 # Microsoft Azure has identified an issue regarding the Microsoft Edge device
  
 ## **Recommended steps**

@@ -10,8 +10,9 @@
     supportTopicIds="32536574"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="77fda902-738e-4c24-ba62-26aa34c00830"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # windowsperformancecounters-howtosetup

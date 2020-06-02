@@ -10,8 +10,9 @@
     supportTopicIds="32629217, 32629218"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="abdc2tg3-706d-401c-b984-f433892f1e9f"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack infrastructure Backup failure

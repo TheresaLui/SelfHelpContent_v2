@@ -10,8 +10,9 @@
 	supportTopicIds="32677700"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="dd0ae1e6-b586-4236-b6de-8263581e9d83"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve install issue through UI

@@ -10,8 +10,9 @@
 	supportTopicIds="32688623,32688619"
 	resourceTags=""
 	productPesIds="16152"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="D232159F-90F9-4A4A-A5D5-A109D55A3218"
+	ownershipId="Compute_BotService"
 />
 # Bot is returning errors
 

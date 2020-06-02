@@ -9,8 +9,9 @@
 	supportTopicIds="32680942"
 	resourceTags=""
 	productPesIds="16509"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="243b558c-cc75-4000-afba-f0e0f3f6c818"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # IoT Edge failed to install or update

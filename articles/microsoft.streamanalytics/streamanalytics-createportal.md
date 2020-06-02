@@ -11,8 +11,9 @@
 	supportTopicIds="32628773"
 	resourceTags=""
 	productPesIds="15663"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ms.author="sidram"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # Create a Stream Analytics Job from Azure Portal

@@ -13,7 +13,8 @@
 	supportTopicIds="32673578"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 
 # Information on setting up database migration to Azure SQL Database Managed Instance in offline mode

@@ -10,8 +10,9 @@
 	supportTopicIds="32615294"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="8be07834-db99-4958-a47a-b13de8b05967"
+	ownershipId="ASMS_Billing"
 />
 
 # Help with Dashboards or Reports

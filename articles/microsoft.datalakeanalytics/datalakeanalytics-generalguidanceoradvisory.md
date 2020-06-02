@@ -11,8 +11,9 @@
 	supportTopicIds="32680880"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="datalakeanalytics-general-guidance-or-advisory"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # General guidance or advisory

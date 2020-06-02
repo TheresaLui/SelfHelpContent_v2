@@ -10,8 +10,9 @@
     supportTopicIds="32629438"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="df5dec5b-0bba-43aa-970b-86ab340261eb"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Alerts Common Solutions

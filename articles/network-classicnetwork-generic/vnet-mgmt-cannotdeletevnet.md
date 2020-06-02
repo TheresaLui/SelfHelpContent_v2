@@ -10,8 +10,9 @@
 	supportTopicIds="32584253"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="627dab53-d2ea-4306-9b46-a93a32bba7be"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # management/cannotdeletevirtualnetwork

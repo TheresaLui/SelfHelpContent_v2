@@ -11,7 +11,8 @@
     diagnosticScenario=""
     supportTopicIds="32637531"
     productPesIds="15739"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_AzurePortal"
 />
 
 # Resource Manager Throttling Help

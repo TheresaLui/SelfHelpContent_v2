@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640119"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-scaleresource-errors"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Scaling a resource - Errors scaling a resource
 ---

@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32592049"
          productPesIds="16370"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
 	     articleId="7ae7e9e4-b8e1-4865-8282-097fa0c72c03"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions for VMware to Azure Disable Replication
 ---

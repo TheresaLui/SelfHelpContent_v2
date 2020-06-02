@@ -7,9 +7,10 @@ ms.author="nathana"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32680725,32680695,32680726"
 productPesIds="16213"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="problemscoping-generic"
 schemaVersion="1"
+	ownershipId="ContainerRegistry_Runtime"
 />
 # Other Issues
 ---

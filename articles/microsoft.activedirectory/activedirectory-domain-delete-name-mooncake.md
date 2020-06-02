@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="activedirectory-domain-delete-name-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I can't delete my domain name

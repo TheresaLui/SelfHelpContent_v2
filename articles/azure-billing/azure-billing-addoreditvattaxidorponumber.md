@@ -10,8 +10,9 @@
 	supportTopicIds="32632927"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="billing-addoreditvattaxidorponumber"
+	ownershipId="ASMS_Billing"
 />
 
 # Add or edit vat tax id or po number
@@ -34,7 +35,7 @@ To add or update Tax ID, visit [Profile in Azure Account Center](https://porta
 
 * For EA Admins & EA Customers 
 
-  1. Sign into [EA portal](https://ea.azure.com) as EA admin<br>
+  1. Sign into **EA portal** as EA admin<br>
   2. Click on the **Usage Summary** option under Reports on the left-hand navigation pane<br>
   3. Select the relevant quarter in the usage summary in which the overage usage accrued<br>
   4. Select **edit** beside the PO number on the top right-hand side of the summary view

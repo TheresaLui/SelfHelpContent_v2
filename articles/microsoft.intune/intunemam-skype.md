@@ -9,8 +9,9 @@
     supportTopicIds=""
     resourceTags="mam, mampolicy"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
  	articleId="2a039056-345d-42a9-9cd4-b71e5b752f0c"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # App protection policies are not working for Skype for Business on iOS and Android devices.

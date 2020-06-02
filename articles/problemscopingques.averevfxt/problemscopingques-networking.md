@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32609693"
 	productPesIds="16506"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="ecb447e7-b08d-4b58-984a-5fbd814ac661"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 # Problems with Avere vFXT Networking
 ---

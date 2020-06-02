@@ -13,7 +13,8 @@
 	supportTopicIds="32681416"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # Why are some of my classic alerts not migrated

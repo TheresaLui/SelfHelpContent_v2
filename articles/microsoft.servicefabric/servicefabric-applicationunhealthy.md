@@ -10,8 +10,9 @@
 	supportTopicIds="32690987"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="95fc3a51-5d3e-4df4-aec6-7245b2b3355e"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # application/unhealthy

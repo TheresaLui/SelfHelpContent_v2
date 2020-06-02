@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32630455"
 	productPesIds="13491"
-	cloudEnvironments="public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="8953a223-c606-42bd-ae86-964c0db4e34c"
+	ownershipId="AzureData_AzureSQLDB_DataSync"
 />
 
 # data import, export, sync, replication/SQL data sync
