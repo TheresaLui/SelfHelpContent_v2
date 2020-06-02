@@ -13,6 +13,7 @@
 	ownershipId="AzureData_AzureSQLMI"
 />
 # SQL Database Managed Instance
+
 ```json
 {
     "$schema": "SelfHelpContent",
@@ -52,8 +53,8 @@
                     "text": "You encounter an error on tempdb"
                 },
                 {
-                    "text": "Other, don't know or not applicable",
-                    "value": "dont_know_answer"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"                
                 }
             ],
             "required": true
@@ -76,4 +77,5 @@
         }
     ]
 }
+
 ```
