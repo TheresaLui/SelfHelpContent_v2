@@ -23,7 +23,7 @@
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
-  "recommendationResourceType": "Microsoft.Compute/storageAccounts",
+  "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "EnableLargeFileShares",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
