@@ -196,64 +196,10 @@ When you use [Boot diagnostics](https://docs.microsoft.com/azure/virtual-machine
 ### Directions for a Ransomware Attack
 
 1. Open a **File Explorer** window and navigate to **View > Options > Change folder and search options**.
-
-2. In the pop-up window, click the **View** tab, select the **Show hidden files, folders, and drives** radio, then click **Apply**. Then close the pop-up window.
-
-3. Open your disk and see if there's any ".txt" file in the root folder with instructions on how to regain access to the files of the VM. It would resemble something like this:
-
-		Your files are now encrypted!
-	     
-	    Your personal ID :
-	     
-	    +4IAAAAAAAD+pjw9JZLXE0AkCENXccamzqJtj9lygApCJ+vpmyj1MuhqeSnbhJW0KowZvhsyP1vTrOREfbIqFLmHohJ6zKKPKoqH
-	    TV4AUzRXXOgw0ogl+j=glKnNT1dqL0N+0tjrZVioiZjYqft9PXNREOdxvW0H9zU0UWiw2e0gY6LKZo=acVUXiuJ+d7g4oOCTbalN
-	    =ZfS2wjdTPcRPb+R7EGrejdRnf5h58e0iRHx7VxSL5UfDIAO1D3Lr=kGoqcDoXXYiH+ONnGaR3BIWPjGWNOWqr=o1NMdHB5gRN3e
-	    n0xgp6nmALtXB2T5CRJE=MEow7fA0Dl6Ooik6z=Xpd4sLt8Ae5PXoUgqtrOc6mYxVE6HUvV83L1E1XGw8piFAFwlohA7PbuCDQLv
-	    333NRzh9lRgW8SKiFss=pQJD4boZWPsB
-	     
-	    What happened?
-	     
-	    Your important documents, databases, documents, network folders are encrypted for your PC security problems.
-	    No data from your computer has been stolen or deleted.
-	    Follow the instructions to restore the files.
-	     
-	    How to get the automatic decryptor:
-	     
-	    1) Contact us by e-mail: Lionel@null.net. In the letter, indicate your personal identifier (look at the beginning of this document) and the external ip-address of the computer on which the encrypted files are located.
-	    2) After answering your request, our operator will give you further instructions that will show what to do next (the answer you will receive as soon as possible)
-	    ** Second email address lionel_messi@india.com
-	     
-	    Free decryption as guarantee!
-	    Before paying you can send us up to 3 files for free decryption.
-	    The total size of files must be less than 10 Mb (non archived), and files should not contain
-	    valuable information (databases, backups, large excel sheets, etc.).
-	     
-	    __________________________________________________________________________________________________
-	    |                                                                                                  |
-	    |  How to obtain Bitcoins?                                                                         |
-	    |                                                                                                  |
-	    | * The easiest way to buy bitcoins is LocalBitcoins site. You have to register, click             |
-	    |   'Buy bitcoins', and select the seller by payment method and price:                             |
-	    |   https://localbitcoins.com/buy_bitcoins                                                         |
-	    | * Also you can find other places to buy Bitcoins and beginners guide here:                       |
-	    |   http://www.coindesk.com/information/how-can-i-buy-bitcoins                                     |
-	    |                                                                                                  |
-	    |__________________________________________________________________________________________________|
-	     
-	    __________________________________________________________________________________________________
-	    |                                                                                                  |
-	    | Attention!                                                                                       |
-	    |                                                                                                  |
-	    | * Do not rename encrypted files.                                                                 |
-	    | * Do not try to decrypt your data using third party software, it may cause permanent data loss.  |
-	    | * Decryption of your files with the help of third parties may cause increased price              |
-	    |   (they add their fee to our) or you can become a victim of a scam.                              |
-	    |                                                                                                  |
-	    |__________________________________________________________________________________________________|
-
-4. If you encounter any files of this nature, then the [VM needs to be restored from backup or rebuilt](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms).
-
-5. If there are security concerns, you can [open a support ticket](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade).
+1. In the pop-up window, click the **View** tab, select the **Show hidden files, folders, and drives** radio, then click **Apply**. Then close the pop-up window.
+1. Open your disk and see if there's any ".txt" file in the root folder with instructions on how to regain access to the files of the VM. 
+1. If you encounter any files of this nature, then the [VM needs to be restored from backup or rebuilt](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms).
+1. If there are security concerns, you can [open a support ticket](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade).
 
 ## **Recommended Documents**
 
