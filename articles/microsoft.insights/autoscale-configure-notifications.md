@@ -6,7 +6,7 @@
     authors="ssharma"
     ms.author="shilsha"
     displayOrder="2"
-    articleId="autoscale-configure-cli"
+    articleId="autoscale-configure-notifications"
     selfHelpType="generic"
     supportTopicIds="32683745"
     productPesIds="15527"
