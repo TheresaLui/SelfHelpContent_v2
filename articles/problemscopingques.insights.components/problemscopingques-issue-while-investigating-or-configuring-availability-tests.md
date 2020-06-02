@@ -45,7 +45,7 @@
                     "text": "Unable to get the list of availability tests for this resource"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "notification_type",
