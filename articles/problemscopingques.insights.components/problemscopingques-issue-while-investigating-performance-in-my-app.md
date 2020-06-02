@@ -6,7 +6,6 @@
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32729565, 32729571, 32729579, 32729581, 32729584, 32729614, 32729626, 32729629, 32729631"
-"
 	productPesIds="15693"
 	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
