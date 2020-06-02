@@ -24,8 +24,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
-        },
-        {
+        }, {
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
@@ -39,23 +38,21 @@
                     "text": "Issue description."
                 }
             ]
-        },
-        {
+        }, {
             "id": "ManagedByTenantID_desc",
             "order": 3,
             "controlType": "Textbox",
             "displayLabel": "Managing tenant ID(if applicable)",
             "watermarkText": "Please provide the ID of the tenant that is managing the services(if applicable)",
             "required": false   
-        },
-        {
+        }, {
             "id": "OtherSubID_desc",
             "order": 4,
             "controlType": "Textbox",
             "displayLabel": "Other Subscription ID that is impacted with the same issue(if applicable)",
             "watermarkText": "Please provide other subscription ID that is impacted with this same issue(if applicable)",
             "required": false
-        },
+        }
 	]
 }
 ---
