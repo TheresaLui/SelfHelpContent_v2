@@ -25,7 +25,7 @@ Most users are able to resolve their Azure Synapse Link for Cosmos DB issue usin
 ## **Recommended Steps**  
 
 ### **Missing items in Analytical Store**
-If specific items in your container violate the [well-defined schema for analytics](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema), they will not be included in the analytical store. If you have scenarios blocked by well-defined schema for analytics, please create a support ticket for assistance.  
+If specific items in your container violate the [well defined schema for analytics](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema) they will not be included in the analytical store. If you have scenarios blocked by well defined schema for analytics, please create a support ticket for assistance.  
 
 
 ### **Experiencing latency when adding a new Cosmos DB region**
