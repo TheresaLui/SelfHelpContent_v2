@@ -38,7 +38,7 @@
     "49ebada5-bdc9-4c9b-826c-3cb789357c5d"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/postgresqlpricing",
   "description": "Right-size underutilized PostgreSQL servers",
   "longDescription": "Our internal telemetry shows that the PostgreSQL database server resources has been underutilized for an extended period of time over the last 7 days. Low resource utilization results in unwanted expenditure which can be fixed without significant performance impact. To reduce your costs and efficiently manage your resources, we recommend reducing the compute size (vCores) by half.",
@@ -48,7 +48,7 @@
       "actionId": "5c1e3ad5-2295-407c-9de1-ba585cfeb0b3",
       "description": "Right-size underutilized PostgreSQL servers",
       "actionType": "Blade",
-      "extensionName": "SqlAzureExtension",
+      "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}",
