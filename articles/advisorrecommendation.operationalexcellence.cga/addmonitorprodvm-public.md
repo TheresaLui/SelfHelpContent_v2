@@ -55,6 +55,17 @@
                 }
             }
       ],
+      "resourceMetadata": {
+	    "action": {
+		"actionId": "d09035a6-5e17-4ecf-b70a-b5fd4479eb88",
+		"actionType": "Blade",
+		"extensionName": "HubsExtension",
+		"bladeName": "ResourceMenuBlade",
+		"metadata": {
+			"id": "{resourceId}"
+		    }
+	    }
+	  },
      "displayLabel": " Add Azure Monitor to your virtual machine (VM) labeled as production",
      "additionalColumns": [],
      "tip": "Azure Monitor analyzes performance, health, and processes on your Windows and Linux VMs”
