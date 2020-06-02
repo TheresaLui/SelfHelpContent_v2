@@ -36,10 +36,10 @@ When planning to configure a multi-region Azure Cosmos DB account with analytica
 The replication is asynchronous, and currently the expected latency is within 5 min  
 
 ### **Picking a custom partitioning strategy for Analytical Store**
-The data in analytical store is partitioned based on the horizontal partitioning of shards in the transactional store. Currently, you cannot choose a different partitioning strategy for the analytical store.   
+The data in analytical store is partitioned based on the horizontal partitioning of shards in the transactional store. Currently, you cannot choose a different partitioning strategy for the analytical store.  
 
 ### **Synapse Link support for Azure Cosmos DB APIs**
-In the public preview release, Synapse Link is supported only for the Azure Cosmos DB SQL (Core) API. Support for Azure Cosmos DB’s API for Mongo DB & Cassandra API is currently under gated preview. To request access to gated preview, reach out to the Azure Cosmos DB team: *cosmosdbsynapselink@microsoft.com*  
+In the public preview release, Synapse Link is supported only for the Azure Cosmos DB SQL (Core) API. Support for Azure Cosmos DB API for Mongo DB & Cassandra API is currently under gated preview.  To request access to gated preview, reach out to the Azure Cosmos DB team: *cosmosdbsynapselink@microsoft.com*  
 
 ### **Connecting to analytical store from analytics engines other than Azure Synapse Analytics**
 You can only access and run queries against the analytical store using the various run-times provided by Azure Synapse Analytics. 

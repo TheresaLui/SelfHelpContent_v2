@@ -45,13 +45,11 @@ Currently there is no support to enable analytical store on existing containers.
 
 
 ### **Cannot Disable Analytical Store**
-Currently, the analytical store cannot be disabled on an Azure Cosmos DB container after it is enabled during container creation. To stop using analytical store you will need to delete and recreate the container.   
-
+Currently, the analytical store cannot be disabled on an Azure Cosmos DB container after it is enabled during container creation. To stop using analytical store you will need to delete and recreate the container.  
 
 
 ### **Disabling Synapse Link Feature for my Azure Cosmos DB Account**
-Currently, after the Synapse Link capability is enabled at the account level, you cannot disable it. If you want to turn off the capability, you must delete and recreate a new Azure Cosmos DB account.   
-Understand that you will not have any billing implications if the Synapse Link capability is enabled at the account level but there is no analytical store enabled containers.  
+Currently, after the Synapse Link capability is enabled at the account level, youcannot disable it. If you want to turn off the capability, you must delete and recreate a new Azure Cosmos DB account.  Understand that you will not have any billing implications if the Synapse Link capability is enabled at the account level but there is no analytical store enabled containers.  
 
 
 ## **Recommended Documents**  
