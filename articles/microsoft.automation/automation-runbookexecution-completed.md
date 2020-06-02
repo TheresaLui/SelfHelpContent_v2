@@ -74,7 +74,7 @@ Specific problems and their solutions are listed below, but we highly recommend 
 
 ### Using Az modules
 
-* Using Az modules and AzureRM modules in the same Automation Account is not supported. Please see ["Az modules in runbooks" for more details](https://docs.microsoft.com/azure/automation/az-modules).
+* Using Az modules and AzureRM modules in the same Automation Account is not supported. Please see ["Az modules in runbooks" for more details](https://docs.microsoft.com/azure/automation/automation-update-azure-modules).
 
 ### Using Self-Signed Certificates
 
