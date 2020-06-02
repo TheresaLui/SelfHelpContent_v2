@@ -26,14 +26,14 @@ Most users are able to resolve their Azure Synapse Link for Cosmos DB Store issu
 
 ### **Cannot Enable Analytical Store**
 
-**Synapse Link for the account is a prerequisite to be able to create Analytical Store enabled container** 
+**Synapse Link for the account is a prerequisite to be able to create Analytical Store enabled container**  
 Ensure Synapse Link is enabled for the Azure Cosmos DB account by
 
-* Signing into the Azure Portal > Navigate to the Azure Cosmos DB Account > Open Features pane > Status of Synapse Link from the features list should say Enrolled
+* Signing into the Azure Portal -> Navigate to the Azure Cosmos DB Account -> Open Features pane -> Status of Synapse Link from the features list should say Enrolled
 * If Status is off, you will need to enable Synapse Link for the account. You can do so directly from the Features pane in the portal or by using Azure Cosmos DB SDKs.
 
 
-**Ensure Azure Cosmos DB account is SQL API**  
+**Ensure Azure Cosmos DB account is SQL API**
 In public preview Synapse Link is only supported for SQL API. Support for Mongo API & Cassandra API are in gated preview. To request access email *cosmosdbsynapselink@microsoft.com*  [See instructions](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link)
 
 
@@ -41,15 +41,14 @@ In public preview Synapse Link is only supported for SQL API. Support for Mongo 
 Currently there is no support to enable analytical store on existing containers. You should now be able to create a new container and enable analytical store during container creation time. [See instructions](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link#create-analytical-ttl)
 
 
-### **Cannot Disable Analytical Store**  
+### **Cannot Disable Analytical Store**
 Currently, the analytical store cannot be disabled on an Azure Cosmos DB container after it is enabled during container creation. To stop using analytical store you will need to delete and recreate the container.   
 
 
 
-### **Disabling Synapse Link Feature for my Azure Cosmos DB Account**  
+### **Disabling Synapse Link Feature for my Azure Cosmos DB Account**
 Currently, after the Synapse Link capability is enabled at the account level, you cannot disable it. If you want to turn off the capability, you must delete and recreate a new Azure Cosmos DB account.   
-Understand that you will not have any billing implications if the Synapse Link capability is enabled at the account level but there is no analytical store enabled containers.
-
+Understand that you will not have any billing implications if the Synapse Link capability is enabled at the account level but there is no analytical store enabled containers.  
 
 
 ## **Recommended Documents**  
