@@ -27,9 +27,9 @@
         }, {
             "id": "problem_description",
             "order": 2,
-            "controlType": "Textbox",
-            "displayLabel": "HAR/fiddler trace or any other error message (if applicable)",
-            "watermarkText": "Provide the HAR/fiddler trace or any error message or additional information about your issue",
+            "controlType": "multilinetextbox",
+            "displayLabel": "Error message (if applicable)",
+            "watermarkText": "Provide any error message or additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": 
@@ -44,7 +44,7 @@
             "controlType": "Textbox",
             "displayLabel": "Managing tenant ID(if applicable)",
             "watermarkText": "Please provide the ID of the tenant that is managing the services(if applicable)",
-            "required": false   
+            "required": true   
         }, {
             "id": "OtherSubID_desc",
             "order": 4,
