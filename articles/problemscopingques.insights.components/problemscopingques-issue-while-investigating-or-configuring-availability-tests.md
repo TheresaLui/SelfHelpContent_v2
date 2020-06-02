@@ -14,7 +14,7 @@
 # Issue while investigating or configuring Availability tests
 ---
 {
-    "resourceRequired": false,
+    "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Issue while investigating or configuring Availability tests",
     "fileAttachmentHint": "Please upload a screenshot(s) of the entire browser window displaying the symptom.  Kindly include an image of clock, and any other relevant information which may help the support engineer troubleshoot your issue.",
