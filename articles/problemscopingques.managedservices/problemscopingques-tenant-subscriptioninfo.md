@@ -31,7 +31,7 @@
             "displayLabel": "Error Message",
             "watermarkText": "Provide any error messages encountered(if any)",
             "required": false,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": false
         }, {
             "id": "problem_description",
             "order": 5,
