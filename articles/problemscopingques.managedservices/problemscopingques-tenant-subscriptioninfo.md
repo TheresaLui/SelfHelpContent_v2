@@ -25,32 +25,53 @@
             "displayLabel": "When did the problem begin?",
             "required": true
         }, {
-            "id": "problem_description",
+            "id": "Error_Message",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Error message (if applicable)",
-            "watermarkText": "Provide any error message or additional information about your issue",
-            "required": true,
-            "useAsAdditionalDetails": true,
-            "hints": 
+            "displayLabel": "Error Message",
+            "watermarkText": "Provide any error messages encountered(if any)",
+            "required": false,
+            "useAsAdditionalDetails": false,
+            "hints":
             [
                 {
-                    "text": "Issue description."
+                    "text": "Error message"
+                }
+            ]
+        }, {
+            "id": "Issue_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Issue Description",
+            "watermarkText": "Provide any additional details to the issue you're experiencing",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints":
+            [
+                {
+                    "text": "Additional details"
                 }
             ]
         }, {
             "id": "ManagedByTenantID_desc",
             "order": 3,
             "controlType": "Textbox",
-            "displayLabel": "Managing tenant ID(if applicable)",
+            "displayLabel": "Managing TenantID",
             "watermarkText": "Please provide the ID of the tenant that is managing the services(if applicable)",
-            "required": true   
+            "required": true
         }, {
             "id": "OtherSubID_desc",
             "order": 4,
             "controlType": "Textbox",
-            "displayLabel": "Other Subscription ID that is impacted with the same issue(if applicable)",
+            "displayLabel": "Additional SubscriptionID",
             "watermarkText": "Please provide other subscription ID that is impacted with this same issue(if applicable)",
+            "required": false
+         }, {
+            "id": "PrinicipalID_desc",
+            "order": 6,
+            "controlType": "Textbox",
+            "displayLabel": "Delegated PrincipalID",
+            "watermarkText": "Please provide the principalId that is getting the delegated permissions",
             "required": false
         }
 	]
