@@ -36,7 +36,6 @@ Ensure Synapse Link is enabled for the Azure Cosmos DB account
 
 **Note:** If Status is off, you will need to enable Synapse Link for the account. You can do so directly from the Features pane in the portal or by using Azure Cosmos DB SDKs.
 
-
 **Ensure Azure Cosmos DB account is SQL API**
 In public preview Synapse Link is only supported for SQL API. Support for Mongo API & Cassandra API are in gated preview. To request access email *cosmosdbsynapselink@microsoft.com*  [See instructions](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link)
 
