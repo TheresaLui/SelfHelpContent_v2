@@ -31,8 +31,8 @@ Most users are able to resolve their Azure Synapse Link for Cosmos DB Store issu
 Ensure Synapse Link is enabled for the Azure Cosmos DB account
 * Sign into the Azure Portal
 * Navigate to the Azure Cosmos DB Account
-* Open Features pane
-* Status of Synapse Link from the features list should say *Enrolled*
+* Open the Features pane
+* Status of Synapse Link from the features list should say *Enrolled*
 
 **Note:** If Status is off, you will need to enable Synapse Link for the account. You can do so directly from the Features pane in the portal or by using Azure Cosmos DB SDKs.
 
