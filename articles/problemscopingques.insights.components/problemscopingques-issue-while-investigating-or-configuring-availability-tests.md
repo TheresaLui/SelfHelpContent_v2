@@ -20,6 +20,27 @@
     "fileAttachmentHint": "Please upload a screenshot(s) of the entire browser window displaying the symptom.  Kindly include an image of clock, and any other relevant information which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
+            "id": "classic_alert_id",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Please select the affected Availability Tests resource.",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.insights/components/{resourcename}/webtests?noLargeObjects=true&skipConfig=true&api-version=2015-05-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$"
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to get the list of availability tests for this resource",
+                    "text": "Unable to get the list of availability tests for this resource"
+                }
+            ],
+            "required": false
+        },
+        {
             "id": "problem_start_time",
             "order": 3,
             "controlType": "datetimepicker",
