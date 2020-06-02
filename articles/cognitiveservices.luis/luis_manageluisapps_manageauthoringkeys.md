@@ -47,4 +47,3 @@ You can create an authoring resource from the LUIS portal while migrating or aft
 * Ensure that you are associated with an Azure Subscription before creating a new authoring resource. If you don't, create one from the Azure Portal.
 * Ensure that you have an Azure Resource group in the same region you are signed in on before creating a new authoring resource. If you don't, create one from the Azure portal.
 * Ensure that your subscription has <10 authoring resources before creating a new one. If your subscription has **10 or more Authoring resources**, you wont be able to create a new authoring key.
-* If you are added as a contributor to a resource but can not find
