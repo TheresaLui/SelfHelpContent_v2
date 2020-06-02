@@ -18,9 +18,7 @@
   "resourceRequired": false,
 	"title": "Tenant-SubscriptionInfo",
 	"fileAttachmentHint": "",
-	"formElements": 
-    [
-        {
+	"formElements": [{
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
@@ -45,32 +43,18 @@
         {
             "id": "ManagedByTenantID_desc",
             "order": 3,
-            "controlType": "multilinetextbox",
+            "controlType": "Textbox",
             "displayLabel": "Managing tenant ID(if applicable)",
             "watermarkText": "Please provide the ID of the tenant that is managing the services(if applicable)",
-            "required": false,
-            "useAsAdditionalDetails": true,
-            "hints": 
-            [
-                {
-                    "text": "Managing tenant ID/CSP tenant ID"
-                }
-            ]
+            "required": false   
         },
         {
             "id": "OtherSubID_desc",
             "order": 4,
-            "controlType": "multilinetextbox",
+            "controlType": "Textbox",
             "displayLabel": "Other Subscription ID that is impacted with the same issue(if applicable)",
             "watermarkText": "Please provide other subscription ID that is impacted with this same issue(if applicable)",
-            "required": false,
-            "useAsAdditionalDetails": true,
-            "hints": 
-            [
-                {
-                    "text": "Other subscription IDs impacted by this issue"
-                }
-            ]
+            "required": false
         },
 	]
 }
