@@ -27,17 +27,10 @@
         }, {
             "id": "problem_description",
             "order": 2,
-            "controlType": "multilinetextbox",
+            "controlType": "Textbox",
             "displayLabel": "HAR/fiddler trace or any other error message (if applicable)",
             "watermarkText": "Provide the HAR/fiddler trace or any error message or additional information about your issue",
-            "required": true,
-            "useAsAdditionalDetails": true,
-            "hints": 
-            [
-                {
-                    "text": "Issue description."
-                }
-            ]
+            "required": true
         }, {
             "id": "ManagedByTenantID_desc",
             "order": 3,
