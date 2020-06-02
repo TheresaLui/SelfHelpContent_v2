@@ -43,7 +43,7 @@
             ]
         },
         {
-            "id": "problem_description",
+            "id": "ManagedByTenantID_desc",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Managing tenant ID(if applicable)",
@@ -58,7 +58,7 @@
             ]
         },
         {
-            "id": "problem_description",
+            "id": "OtherSubID_desc",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Other Subscription ID that is impacted with the same issue(if applicable)",
