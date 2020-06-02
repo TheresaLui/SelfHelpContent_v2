@@ -99,8 +99,8 @@
                     "text": "Configuration: Creating, editing, or deleting availability tests"
                 },
                 {
-                    "value": "General: Other issues",
-                    "text": "General: Other issues"
+                    "value": "dont_know_answer",
+                    "text": "I don't know"
                 }
             ],
             "required": true
