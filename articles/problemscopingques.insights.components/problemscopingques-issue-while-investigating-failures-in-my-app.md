@@ -5,7 +5,7 @@
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32729570, 32729570, 32729573, 32729578, 32729580, 32729583, 32729613, 32729625, 32729627, 32729628, 32729630, 32729632"
+	supportTopicIds="32729570, 32729573, 32729578, 32729580, 32729583, 32729613, 32729625, 32729627, 32729628, 32729630, 32729632"
 	productPesIds="15693"
 	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -81,7 +81,7 @@
                 },
                 {
                     "text": "Screenshots as attachments"
-                },
+                }
             ]
         },
                 {
