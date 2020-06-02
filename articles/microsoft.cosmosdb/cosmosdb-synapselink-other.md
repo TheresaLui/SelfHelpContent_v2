@@ -40,7 +40,7 @@ The data in analytical store is partitioned based on the horizontal partitioning
 
 
 ### **Synapse Link support for Azure Cosmos DB APIs**
-In the public preview release, Synapse Link is supported only for the azure Cosmos DB SQL (Core) API.  Support for Azure Cosmos DB API for Mongo DB and Cassandra API is currently under gated preview.  To request access to gated preview, reach out to the Azure Cosmos DB Synapse Link team: *cosmosdbsynapselink@microsoft.com*  
+In the public preview release, Synapse Link is supported only for the azure Cosmos DB SQL (Core) API.  Support for Azure Cosmos DB API for MongoDB and Cassandra is currently under gated preview.  To request access to gated preview, reach out to the Azure Cosmos DB Synapse Link team: *cosmosdbsynapselink@microsoft.com*  
 
 
 ### **Connecting to analytical store from analytics engines other than Azure Synapse Analytics**
