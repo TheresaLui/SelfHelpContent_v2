@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6a3b4523-5ffd-8cc4-244e-bf509386f3ea",
+      "longDescription": "",
+      "shortDescription": "Issues with MIM Service and Portal installation, synchronization rule configuration in MIM Portal, and processing in MIM Service",
+      "searchTags": "MIM",
+      "category": "MIM",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "716e3152-bfe2-0433-ee75-a20101b4a426",
       "longDescription": "",
       "shortDescription": "You have configured Password Hash Sync (PHS) and are seeing issues",
