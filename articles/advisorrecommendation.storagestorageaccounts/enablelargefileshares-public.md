@@ -37,7 +37,7 @@
     "serviceTreeId": "734379f9-2d2c-48d4-a52a-5c509f699de4"
   },
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/storage/files/storage-files-how-to-create-large-file-share#enable-large-files-shares-on-an-existing-account",
+  "learnMoreLink": "https://docs.microsoft.com/azure/storage/files/storage-files-how-to-create-large-file-share#enable-large-files-shares-on-an-existing-account",
   "description": "Enable the large file share feature on storage account to avoid throttling. We noticed that more than 50% of your requests were throttled within a one hour period.",
   "longDescription": "Standard file shares are limited to 1000 IOPS per share. By enabling the large file share feature you can get 10x more IOPS. There is no charge to enable large file shares.",
   "potentialBenefits": "Eliminate throttling and improve the performance of your file shares.",
@@ -46,7 +46,7 @@
       "actionId": "312d30e2-6e24-43d4-934d-615a41d51eda",
       "description": "Enable the large file share feature on storage account to avoid throttling.",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/en-us/azure/storage/files/storage-files-how-to-create-large-file-share#enable-large-files-shares-on-an-existing-account"
+      "documentLink": "https://docs.microsoft.com/azure/storage/files/storage-files-how-to-create-large-file-share#enable-large-files-shares-on-an-existing-account"
     }
   ],
   "resourceMetadata": {
@@ -63,6 +63,6 @@
   "displayLabel": "Enable the large file share feature on storage account to avoid throttling",
   "additionalColumns": [],
   "tip": "By enabling the large file share feature you can get 10x more IOPS. There is no charge to enable large file shares.",
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/storage/files/storage-files-how-to-create-large-file-share#enable-large-files-shares-on-an-existing-account"
+  "learnMoreLink": "https://docs.microsoft.com/azure/storage/files/storage-files-how-to-create-large-file-share#enable-large-files-shares-on-an-existing-account"
 }
 ---
