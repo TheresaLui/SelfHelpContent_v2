@@ -91,7 +91,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the problem you are noticing",
             "watermarkText": "Describe the problem you are noticing",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true,
             "hints": []
         },
@@ -101,7 +101,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",
-            "required": true,
+            "required": false,
             "useAsAdditionalDetails": false
         }
     ],
