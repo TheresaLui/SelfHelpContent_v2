@@ -101,7 +101,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": false
         }
     ],
