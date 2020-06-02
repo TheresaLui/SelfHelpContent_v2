@@ -80,7 +80,7 @@
                     "text": "Provide the exact errors"
                 },
                 {
-                    "text": "Upload screenshots below as attachments"
+                    "text": "Upload screenshots below as file attachments"
                 }
             ]
         },
