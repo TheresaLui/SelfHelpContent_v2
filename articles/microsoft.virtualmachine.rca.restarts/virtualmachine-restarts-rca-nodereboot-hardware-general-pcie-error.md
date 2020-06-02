@@ -27,7 +27,7 @@ The host node reboot was triggered by our Azure monitoring systems that detected
 The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
 
 - Azure is continually working with manufacturers to identify and prevent failures through improvements in PCIe functional tests
-- Improved BMC logging monitoring providing better more accurate failure signatures to reduce or avoid impact to customers due to PCIe card failures
+- Improved logging providing better more accurate failure signatures to reduce or avoid impact to customers due to PCIe card failures
 - Improvements to failure prediction telemetry and tighter restrictions to approved PCIe card vendors
 <br>
 
