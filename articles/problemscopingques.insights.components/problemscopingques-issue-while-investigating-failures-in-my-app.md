@@ -23,7 +23,7 @@
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start happening?",
+            "displayLabel": "When did the problem start occurring?",
             "required": true
         },
         {
@@ -80,7 +80,7 @@
                     "text": "Provide the exact errors"
                 },
                 {
-                    "text": "Screenshots as attachments"
+                    "text": "Upload screenshots below as attachments"
                 }
             ]
         },
@@ -88,7 +88,7 @@
             "id": "availability_test_reason",
             "order": 7,
             "controlType": "dropdown",
-            "displayLabel": "Do you believe there is a problem with the data Application Insights is presenting or are you looking for guidance on resolving the error? ",
+            "displayLabel": "Do you believe there is a problem with the data Application Insights is presenting or are you looking for guidance on resolving an error? ",
             "dropdownOptions": [
                 {
                     "value": "Application Insights data looks correct I need help fixing an error",
