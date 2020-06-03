@@ -11,7 +11,7 @@
 	resourceTags="optional"
 	productPesIds="15657"
 	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
-	articleId="keyvault-integratingwithCA"
+	articleId="keyvault-integratingwithca"
 	ownershipId="AzureKeyVault_KeyVault"
 />
 
@@ -28,6 +28,7 @@
 	Click on **Certificate Operations** tab of the certificate to view the error. If the error message guides to contact DigiCert, then do so.
 
 * New certificates show up in a disabled state, why?
+
 	The certificate status changes after the CA signs the request. Check the progress after sometime, if it is never enabled, then it is likely that your request failed or was rejected by the CA.
 
 ## **Recommended Documents**
