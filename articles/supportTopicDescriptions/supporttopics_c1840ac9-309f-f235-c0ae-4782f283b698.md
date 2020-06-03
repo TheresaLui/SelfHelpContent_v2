@@ -14,7 +14,7 @@
   "$schema": "SelfHelpContent",
   "shortDescription": "I have issues with Azure Alerts, notifications or actions",
   "longDescription": "",
-  "productLink1": "https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-overview",
+  "productLink1": "https://docs.microsoft.com/azure/azure-monitor/platform/alerts-overview",
   "productLinkName1": "Overview of alerts in Microsoft Azure",
   "productLink2": "",
   "productLinkName2": "",
@@ -51,6 +51,22 @@
       "shortDescription": "A metric alert (classic) should have fired but I do not see it in the Azure portal",
       "searchTags": "Alerts;Metric Alerts (Classic);Alert not fired",
       "category": "Alerts accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "0be1bfdb-e1a9-05eb-4b86-e92802ad40d6",
+      "longDescription": "",
+      "shortDescription": "I am trying to create, edit or delete an availability test alert rule in the Azure portal, but I am getting an error, or I do not know how to do it",
+      "searchTags": "Alerts;Alert rules;Alert rule configuration;Web availability alerts;UI",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "0f1a7ff3-2692-4efa-6f23-8c637c289cdd",
+      "longDescription": "",
+      "shortDescription": "I have tried to create, update or modify an alert rule in the Azure portal, but I am getting an error, or I do not know how to create it",
+      "searchTags": "Alerts;Alert Rules;Alert rule configuration;UI",
+      "category": "Alert rule configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -166,6 +182,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "999ba260-9870-e452-0474-3b8b54503bb0",
+      "longDescription": "",
+      "shortDescription": "I am trying to create, edit or delete a metric alert rule in the Azure portal, but I am getting an error, or I do not know how to configure it",
+      "searchTags": "Alerts;Alert rules;Alert rule configuration;Metric alerts;UI",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9ea694c8-0231-4556-1b4c-113d59151b81",
       "longDescription": "",
       "shortDescription": "A metric alert should have fired but I do not see it in the Azure portal",
@@ -190,6 +214,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d888bba5-2bdd-8d91-92e4-8d80422566bf",
+      "longDescription": "",
+      "shortDescription": "I am trying to create, edit or delete an activity log alert rule in the Azure portal, but I am getting an error, or I do not know how to configure it",
+      "searchTags": "Alerts;Alert rules;Alert rule configuration;Activity Log alerts;UI",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e87becc0-7a57-8229-90fe-399bb296b79a",
       "longDescription": "",
       "shortDescription": "I can see an alert in the portal that should not have fired ",
@@ -203,6 +235,14 @@
       "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its email",
       "searchTags": "Alerts;Notifications;Email;Actions",
       "category": "Actions and Notifications",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f6c4c1d0-298b-38a1-fd40-6835db25649a",
+      "longDescription": "",
+      "shortDescription": "I am trying to create, update or delete a log search alert rule in the Azure portal, but I am getting an error, or I do not know how to do it",
+      "searchTags": "Alerts;Alert rules;Alert rule configuration;Log search alerts;UI",
+      "category": "Alert rule configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {

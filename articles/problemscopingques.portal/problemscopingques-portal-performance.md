@@ -1,22 +1,22 @@
 <properties
-         pageTitle="Scoping questions for Azure portal Dashboard Issue"
-         description="Scoping questions for Azure portal Dashboard specific troubleshooting"
+         pageTitle="Scoping questions for Azure portal Performance Issue"
+         description="Scoping questions for Azure portal Performance specific troubleshooting"
          authors="sansom"
          ms.author="sansom"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32628240"
+         supportTopicIds="32628243"
          productPesIds="15739"
          cloudEnvironments="public, Fairfax, usnat, ussec, blackforest, mooncake"
          schemaVersion="1"
-         articleId="problemscopingquesportaldashboard"
+         articleId="problemscopingquesportalperformance"
 	ownershipId="Compute_AzurePortal"
 />
-# Questions for Azure Portal Dashboard Issues
+# Questions for Azure Portal Performance Issues
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Scoping questions for Azure portal Dashboard Issue",
+    "title": "Scoping questions for Azure portal Performance Issue",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -50,7 +50,7 @@
                     "text": "Issue description."
                 },
                 {
-                    "text": "Provide details of the dashboard issue you are creating the ticket for and whether this dashboard is shared or private"
+                    "text": "Provide details of the performance issue you are experiencing"
                 }
             ]
         },
@@ -63,14 +63,6 @@
                 {
                     "value": "Cleared browser cache",
                     "text": "Cleared browser cache"
-                },
-                {
-                    "value": "Verified that I have permissions to the dashboard",
-                    "text": "Verified that I have permissions to the dashboard"
-                },
-                {
-                    "value": "My dashboard is a shared dashboard",
-                    "text": "My dashboard is a shared dashboard"
                 },
                 {
                     "value": "Firewall settings on the machine/proxy are configured to allow the required URLs",
