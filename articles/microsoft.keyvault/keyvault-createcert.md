@@ -30,7 +30,7 @@
 
 * How to export a certificate from Key vault?
 	
-	You can download the certificate in .cer, .pfx or .pem format. [Exporting certificate from Azure portal](https://review.docs.microsoft.com/azure/key-vault/certificates/quick-create-portal?branch=pr-en-us-116523#export-certificate-from-key-vault).
+	You can download the certificate in .cer, .pfx or .pem format. [Exporting certificate from Azure portal](https://docs.microsoft.com/azure/key-vault/certificates/quick-create-portal#add-a-certificate-to-key-vault).
 
 ## **Recommended Documents**
 
