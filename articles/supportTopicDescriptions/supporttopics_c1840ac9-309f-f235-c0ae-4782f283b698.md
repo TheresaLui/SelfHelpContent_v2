@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d888bba5-2bdd-8d91-92e4-8d80422566bf",
+      "longDescription": "",
+      "shortDescription": "I am trying to create, edit or delete an activity log alert rule in the Azure portal, but I am getting an error, or I do not know how to configure it",
+      "searchTags": "Alerts;Alert rules;Alert rule configuration;Activity Log alerts;UI",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e87becc0-7a57-8229-90fe-399bb296b79a",
       "longDescription": "",
       "shortDescription": "I can see an alert in the portal that should not have fired ",
