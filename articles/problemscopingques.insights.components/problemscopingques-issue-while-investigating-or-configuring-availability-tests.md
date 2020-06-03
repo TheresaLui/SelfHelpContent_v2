@@ -42,6 +42,7 @@
                 "value": "dont_know_answer",
                 "text": "Unable to get the list of availability tests for this resource"
             }
+          }  
         },
         {
             "id": "notification_type",
