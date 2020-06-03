@@ -23,7 +23,7 @@ After applying the 2002 update, you might see a false-positive alert in the Admi
 
 ## **Recommended Steps**
 
-A critical alert should be addressed urgently because it can impact users. Please attempt the remediation steps in the alert before opening a case. In some alerts, you can select **Repair** in the Remediation details of the alert to resolve the issue. You can run the repair again if it fails. 
+A critical alert should be addressed urgently because it can impact users. Please attempt the remediation steps in the alert before opening a case. In some alerts, you can select **Repair** in the Remediation details of the alert to resolve the issue. You can run **Repair** again if it fails. 
 
 ## **Recommended Documents**
 
