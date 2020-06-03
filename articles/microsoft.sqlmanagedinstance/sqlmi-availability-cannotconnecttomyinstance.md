@@ -13,7 +13,7 @@
     supportTopicIds="32739488"
     resourceTags=""
     productPesIds="16259"
-    cloudEnvironments="public, fairfax, usnat, ussec"
+    cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
     ownershipId="AzureData_AzureSQLMI"
 />
 
@@ -55,7 +55,7 @@ In order to run it you need to:
 
 ```
     $parameters = @{
-        Server = '.database.windows.net'
+        Server = '.database.windows.net'  # If your database is deployed on Azure China, server name should be ended with ".database.chinacloudapi.cn"
         Database = ''  # Set the name of the database you wish to test, 'master' will be used by default if nothing is set
         User = ''  # Set the login username you wish to use, 'AzSQLConnCheckerUser' will be used by default if nothing is set
         Password = ''  # Set the login password you wish to use, 'AzSQLConnCheckerPassword' will be used by default if nothing is set
