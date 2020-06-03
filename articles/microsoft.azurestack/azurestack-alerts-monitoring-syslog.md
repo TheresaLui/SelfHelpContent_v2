@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="azurestack-alerts-monitoring-syslog"
+	articleId="5b2386bf-2c63-409b-ba0e-a0cdcb23f2fa"
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
