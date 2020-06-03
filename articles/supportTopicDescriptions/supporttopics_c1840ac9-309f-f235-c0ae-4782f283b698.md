@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2d0b220f-970e-8241-e855-a245855039de",
+      "longDescription": "",
+      "shortDescription": "Another type of alert (not mentioned above) fired when it should not have ",
+      "searchTags": "Alerts;Alert misfired",
+      "category": "Alerts accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "398a1ec3-2056-6ca1-285c-f2f54c00c551",
       "longDescription": "",
       "shortDescription": "A classic metric alert fired when it should not have ",
@@ -146,6 +154,14 @@
       "longDescription": "",
       "shortDescription": "An availability test alert fired when it should not have",
       "searchTags": "Alerts;Web availability alert;Alert misfired",
+      "category": "Alert accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "995bfe73-3864-b206-c43f-724f3f7d0327",
+      "longDescription": "",
+      "shortDescription": "A Service health or a resource health alert fired when it should not have",
+      "searchTags": "Alerts;Service Health Alerts;Resource Health Alerts",
       "category": "Alert accuracy",
       "useInDiagnoseAndSolve": "true"
     },
