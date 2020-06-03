@@ -20,8 +20,15 @@
     "fileAttachmentHint": "Please upload a screenshot(s) of the entire browser window displaying the symptom.  Kindly include an image of clock, and any other relevant information which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
-            "id": "classic_alert_id",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "required": true
+        },
+        {
+            "id": "classic_alert_id",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Please select the affected Availability Tests resource.",
             "watermarkText": "Choose an option",
@@ -31,6 +38,9 @@
                 "textProperty": "name",
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"
+                "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Other, don't know or not applicable"
             },
             "dropdownOptions": [
                 {
@@ -39,13 +49,6 @@
                 }
             ],
             "required": false
-        },
-        {
-            "id": "problem_start_time",
-            "order": 3,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start?",
-            "required": true
         },
         {
             "id": "notification_type",
