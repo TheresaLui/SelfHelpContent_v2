@@ -23,7 +23,7 @@
 We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because either the OS boot process couldn't locate an active system partion, or there is BCD corruption which resulted in a missing reference to the Windows partition on the BCD store. Alternatively, it could also be due to a ransomware attack.
 <!--/issueDescription-->
 
-When you use [Boot diagnostics](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics) to view the screenshot of the VM, you will see that the screenshot displays the message: `An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart`<br>
+When you use [Boot diagnostics](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics) to view the screenshot of the VM, you will see that the screenshot displays the message: `An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart`.<br>
 
 ## **Recommended Steps**
 
