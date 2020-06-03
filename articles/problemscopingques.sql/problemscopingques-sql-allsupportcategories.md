@@ -2,7 +2,7 @@
          pageTitle="Scoping questions for Azure portal"
          description="Scoping questions for Azure portal specific troubleshooting"
          authors="johirsch"
-         ms.author="sansom"
+         ms.author="johirsch"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32630411,32630412,32630435,32630456"
          productPesIds="13491"
