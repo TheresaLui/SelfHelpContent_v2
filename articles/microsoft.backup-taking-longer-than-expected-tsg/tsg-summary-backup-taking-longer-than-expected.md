@@ -10,7 +10,7 @@
             resourceTags=""
             productPesIds=""
             cloudEnvironments="public"
-            articleId="ce33b560-5fe8-4bf8-afe1-d35db19dcaac"
+            articleId="2b8cdc6e-9027-4483-90da-7f713c5ac6e3"
             ownershipId="Centennial_CloudNet_LoadBalancer" />
 
 # Backup taking longer than expected
