@@ -21,7 +21,7 @@
 
 ## Resource health
 
-Azure Resource Health alerts tracks the health of your resources, it tracks resource health events and allow you to be notified you in near real-time when these resources have a change in their health status.
+Azure Resource Health alerts tracks the health of your resources, it tracks resource health events and allow you to be notified in near real-time when there's a change in the resources health status.
 
 ## Service health
 
