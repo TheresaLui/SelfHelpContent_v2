@@ -58,7 +58,6 @@ sel partition <# of partition>
 
 7. Enter the following commands. Replace `<text here>` with the information specified:
 
-
 ```
 bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {bootmgr} device partition=<BCD FOLDER - DRIVE LETTER>:
 bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {bootmgr} integrityservices enable
@@ -69,7 +68,7 @@ bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} osdevic
 bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} bootstatuspolicy IgnoreAllFailures
 ```
 
-	* If the VHD has a single partition and both the BCD Folder and Windows Folder are in the same volume, then the setup above might not work. If that is the case, try replacing the partition values with `boot`:
+* If the VHD has a single partition and both the BCD Folder and Windows Folder are in the same volume, then the setup above might not work. If that is the case, try replacing the partition values with `boot`:
 
 ```
 bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {bootmgr} device boot
@@ -90,7 +89,7 @@ bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} bootsta
 10. Backup the `\boot` folder, then run the following commands:
 
 	* Create a copy of the built-in BCD template that comes within each Windows installation: `bcdboot <WINDOWS FOLDER - DRIVE LETTER>:\windows /s <BCD FOLDER - DRIVE LETTER>: /v /f BIOS`
-    	* Add the following flags, which are not there by default:
+	* Add the following flags, which are not there by default:
 
 ```
 bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER FROM THE BOOT LOADER>} integrityservices enable
@@ -98,7 +97,7 @@ bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER FROM THE 
 bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER FROM THE BOOT LOADER>} bootstatuspolicy IgnoreAllFailures
 ```
 
-	* Enable EMS to enable the serial console feature:
+* Enable EMS to enable the serial console feature:
 
 ```	
 bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {bootmgr} displaybootmenu yes
@@ -163,7 +162,7 @@ bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} recover
 bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} bootstatuspolicy IgnoreAllFailures
 ```	    
 
-	* Enable EMS to enable the serial console feature:
+* Enable EMS to enable the serial console feature:
 
 ```	
 bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {bootmgr} displaybootmenu yes
