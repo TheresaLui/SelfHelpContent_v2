@@ -76,8 +76,8 @@
       "title": "Minimum Recommended Version"
     },
     {
-      "Name": "currentVersion",
-      "DisplayName": "Current Version"
+      "name": "currentVersion",
+      "title": "Current Version"
     }
   ],
   "tip": ""
