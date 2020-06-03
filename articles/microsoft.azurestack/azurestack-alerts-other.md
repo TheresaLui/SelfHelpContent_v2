@@ -21,6 +21,8 @@
 
 After applying the 2002 update, you might see a false-positive alert in the Administrator portal for an **Invalid Time Source**. The alert can be ignored and will be fixed in an upcoming release. For more information, see [Azure Stack Hub known issues](https://docs.microsoft.com/azure-stack/operator/known-issues?view=azs-2002).  
 
+**NOTE**: Before you create a support ticket, review [**Release notes**](https://docs.microsoft.com/azure-stack/operator/release-notes) and [**Known issues**](https://docs.microsoft.com/azure-stack/operator/known-issues) for the update you are applying (choose from the Version drop-down menu). This may save you time and effort.
+
 ## **Recommended Steps**
 
 A critical alert should be addressed urgently because it can impact users. Please attempt the remediation steps in the alert before opening a case. In some alerts, you can select **Repair** in the Remediation details of the alert to resolve the issue. You can run **Repair** again if it fails. 
