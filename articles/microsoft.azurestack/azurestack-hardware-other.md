@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="azurestack-hardware-other"
+    articleId="a32f2a3c-f0bb-4fbf-bf17-4ad15f6ffe7b"
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
