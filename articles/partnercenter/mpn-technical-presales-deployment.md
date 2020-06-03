@@ -24,11 +24,11 @@
 
 - As an MPN Partner, once you have acquired a **Gold, Silver or Microsoft Action Pack** subscription, you are eligible to leverage **Technical Presales and Deployment Services consultations (formerly known as Advisory Hours)** to increase sales, deploy more effectively, or to accelerate app development
 - For list of Supported products and scenarios for consultation services, go [here](https://support.microsoft.com/help/3094111/technical-presales-and-deployment-services-supported-products-and-scen)
-- To learn more about Azure, please go [here](https://support.microsoft.com/help/4521805/azure-consultations)
-- To learn more about Modern Workplace, go [here](https://support.microsoft.com/help/4521795/modern-workplace-consultations)
-- To learn more about Business Applications, go [here](https://support.microsoft.com/help/4521800/business-applications-consultations)
-- To learn more about Marketplace Preparation, go [here](https://support.microsoft.com/help/4521806/marketplace-preparation)
-- To request technical services consultation (using your advisory hours), submit a request [here](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical/createadvisoryhours-servicerequest)
+    - To learn more about Azure, please go [here](https://support.microsoft.com/help/4521805/azure-consultations)
+    - To learn more about Modern Workplace, go [here](https://support.microsoft.com/help/4521795/modern-workplace-consultations)
+    - To learn more about Business Applications, go [here](https://support.microsoft.com/help/4521800/business-applications-consultations)
+    - To learn more about Marketplace Preparation, go [here](https://support.microsoft.com/help/4521806/marketplace-preparation)
+- **To request technical services consultation (using your advisory hours), submit a request [here](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical/createadvisoryhours-servicerequest)**
 
 ## **Recommended Documents**
 
