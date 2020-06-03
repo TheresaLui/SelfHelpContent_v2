@@ -8,7 +8,7 @@
          productPesIds="15739"
          cloudEnvironments="public, Fairfax, usnat, ussec, blackforest, mooncake"
          schemaVersion="1"
-         articleId="problemscopingquesportaldashboard"
+         articleId="problemscopingquesportalfiltering"
 	ownershipId="Compute_AzurePortal"
 />
 # Questions for Azure Portal subscription or directory filtering issues
