@@ -3,7 +3,7 @@
     description="Issues configuring autoscale using REST API"
     service="microsoft.insights"
     resource="components"
-    authors="ssharma"
+    authors="shilpasharmaAM"
     ms.author="shilsha"
     displayOrder="2"
     articleId="autoscale-configure-restapi"
