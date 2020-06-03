@@ -14,7 +14,7 @@
   "$schema": "SelfHelpContent",
   "shortDescription": "I have issues with Azure Alerts, notifications or actions",
   "longDescription": "",
-  "productLink1": "https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-overview",
+  "productLink1": "https://docs.microsoft.com/azure/azure-monitor/platform/alerts-overview",
   "productLinkName1": "Overview of alerts in Microsoft Azure",
   "productLink2": "",
   "productLinkName2": "",
@@ -227,6 +227,14 @@
       "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its email",
       "searchTags": "Alerts;Notifications;Email;Actions",
       "category": "Actions and Notifications",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f6c4c1d0-298b-38a1-fd40-6835db25649a",
+      "longDescription": "",
+      "shortDescription": "I am trying to create, update or delete a log search alert rule in the Azure portal, but I am getting an error, or I do not know how to do it",
+      "searchTags": "Alerts;Alert rules;Alert rule configuration;Log search alerts;UI",
+      "category": "Alert rule configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
