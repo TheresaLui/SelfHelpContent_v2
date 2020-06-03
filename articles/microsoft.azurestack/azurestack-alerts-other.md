@@ -23,11 +23,10 @@ After applying the 2002 update, you might see a false-positive alert in the Admi
 
 ## **Recommended Steps**
 
-The health state of a registered Azure Stack Hub infrastructure component reflects the worst active alert severity: warning or critical. A critical alert should be addressed urgently because it can impact users.  
-
-In some alerts, you can select **Repair** in the Remediation details of the alert to resolve the issue. You can run the repair again if it fails. 
+A critical alert should be addressed urgently because it can impact users. Please attempt the remediation steps in the alert before opening a case. In some alerts, you can select **Repair** in the Remediation details of the alert to resolve the issue. You can run the repair again if it fails. 
 
 ## **Recommended Documents**
 
 * [Monitor health and alerts in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-monitor-health?view=azs-2002)
+
 
