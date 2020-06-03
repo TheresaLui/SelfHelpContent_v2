@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0be1bfdb-e1a9-05eb-4b86-e92802ad40d6",
+      "longDescription": "",
+      "shortDescription": "I am trying to create, edit or delete an availability test alert rule in the Azure portal, but I am getting an error, or I do not know how to do it",
+      "searchTags": "Alerts;Alert rules;Alert rule configuration;Web availability alerts;UI",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0f1a7ff3-2692-4efa-6f23-8c637c289cdd",
       "longDescription": "",
       "shortDescription": "I have tried to create, update or modify an alert rule in the Azure portal, but I am getting an error, or I do not know how to create it",
