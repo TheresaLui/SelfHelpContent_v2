@@ -23,7 +23,7 @@
 `The Job agent could not be created because it would exceed the maximum Job agent quota of 5 for your subscription in the selected region`, 
 feel free to continue creating this ticket as a request to bump up your Job agent quota.
 * If you are experiencing Job step timeouts with your ongoing Job executions, make sure you try bumping up your job step's timeout values such as `step_timeout_seconds`, `retry_attempts`, and `retry_interval_backoff_multiplier`.
-	* See [[jobs].[sp_update_jobstep]](https://docs.microsoft.com/azure/azure-sql/database/elastic-jobs-tsql-create-manage#sp_update_jobstep) T-SQL documentation or [Set-AzSqlSqlElasticJobStep](https://docs.microsoft.com/powershell/module/az.sql/Set-AzSqlElasticJobStep) for PowerShell documentation for more details on how to update step retry or timeout settings for your Job step.
+	* See [sp_update_jobstep](https://docs.microsoft.com/azure/azure-sql/database/elastic-jobs-tsql-create-manage#sp_update_jobstep) T-SQL documentation or [Set-AzSqlSqlElasticJobStep](https://docs.microsoft.com/powershell/module/az.sql/Set-AzSqlElasticJobStep) for PowerShell documentation for more details on how to update step retry or timeout settings for your Job step.
 
 ## **Recommended Documents**
 
