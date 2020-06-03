@@ -135,12 +135,12 @@
             "required": true
         },
         {
-            "id": "query_id",
+            "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Specific Query Store query_id, plan hash, query hash or query text.",
             "watermarkText": "Provide addicional information about the query or queries facing the issue",
-            "required": false,
+            "required": true,
             "useAsAdditionalDetails": true
         }
     ]
