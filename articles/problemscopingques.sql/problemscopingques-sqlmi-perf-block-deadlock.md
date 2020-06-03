@@ -131,7 +131,7 @@
             "order": 50,
             "visibility" : "index_maintenance == yes",
             "controlType": "datetimepicker",
-            "displayLabel": "Latest maintenance of the indexes and statistics?",
+            "displayLabel": "When was the last indexes and statistics maintenance?",
             "required": true
         },
         {
