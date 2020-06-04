@@ -67,7 +67,7 @@
         {
             "id": "notification_type_other",
             "order": 5,
-            "visibility": "environment_type == Other",
+            "visibility": "notification_type == Other",
             "controlType": "textbox",
             "displayLabel": "Please describe how the application is deployed:",
             "watermarkText": "Kubernetes, Cloud Provider XYZ",
