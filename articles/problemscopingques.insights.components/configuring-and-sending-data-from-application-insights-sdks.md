@@ -154,7 +154,7 @@
             "required": true
         },
         {
-            "id": "sdk_used_java",
+            "id": "sdk_used_java_version",
             "order": 12,
             "visibility": "sdk_used == Java",
             "controlType": "dropdown",
