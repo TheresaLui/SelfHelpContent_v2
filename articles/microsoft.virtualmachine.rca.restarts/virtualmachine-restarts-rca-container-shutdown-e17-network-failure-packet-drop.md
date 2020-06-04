@@ -4,8 +4,8 @@
 	infoBubbleText="Found recent reboot. See details on the right."
 	service="microsoft.compute"
 	resource="virtualmachines"
-	authors="NatErns"
-	ms.author="naterns"
+	authors="jozender"
+	ms.author="jozender"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_RCA-Container_shutdown-E17_Network_Failure_Packet_Drop"
 	diagnosticScenario="UnexpectedVMReboot"
@@ -19,17 +19,12 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated temporary VM shutdown**.
+We have identified that your VM <!--$vmname-->Virtual machine<!--/$vmname--> became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated temporary VM shutdown**.
 <!--/issueDescription-->
 
-The physical node where the virtual machine was hosted experienced a **platform bug involving the Nic firmware and drivers used for the Accelerated Networking**. The bug causes sporadic drops in connectivity resulting in a loss of connectivity to storage accounts. 
+The host node reboot was triggered by our Azure monitoring systems that detected a **platform bug in the Nic firmware and drivers used for the Accelerated Networking** on the physical node where the virtual machine was hosted. The bug causes sporadic drops in connectivity resulting in a loss of connectivity to storage accounts. Our engineering team is proactively applying a temporary mitigation to all affected nodes and actively rolling out a hotfix. The broad deployment is expected to complete in 4-6 weeks across the azure platform. 
 
-Our engineering team is proactively applying a temporary mitigation to all affected nodes and actively rolling out a hotfix. The broad deployment is expected to complete in 4-6 weeks across the azure platform. 
-
-We regret that this platform bug had an impact on your VM.? The Azure engineering teams are investing in both short and long-term initiatives to prevent such incidents going forward.
-
-We apologize for any inconvenience this may have caused to you.
-<br>
+We regret that this platform bug had an impact on your VM.? The Azure engineering teams are investing in both short and long-term initiatives to prevent such incidents going forward.?<br>
 
 ## **Recommended Steps**
 
