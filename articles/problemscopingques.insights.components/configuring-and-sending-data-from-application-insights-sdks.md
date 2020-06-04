@@ -53,7 +53,7 @@
                     "value": "Azure Function",
                     "text": "Azure Function"
                 },
-                                {
+                {
                     "value": "Other",
                     "text": "Other"
                 },
@@ -81,6 +81,43 @@
             "displayLabel": "What is the name of the site/app that is related to this issue?",
             "watermarkText": "What is the name of the site/app that is related to this issue?",
             "required": false
+        },
+                {
+            "id": "sdk_used",
+            "order": 8,
+            "controlType": "dropdown",
+            "displayLabel": "Which SDK is being utilized?",
+            "dropdownOptions": [
+                {
+                    "value": ".NET/.Net Core",
+                    "text": ".NET/.Net Core"
+                },
+                {
+                    "value": "Java ",
+                    "text": "Java "
+                },
+                {
+                    "value": "Node.js",
+                    "text": "Node.js"
+                },
+                {
+                    "value": "JavaScript",
+                    "text": "JavaScript"
+                },
+                {
+                    "value": "Python",
+                    "text": "Python"
+                },
+                                {
+                    "value": "Other",
+                    "text": "Other"
+                }
+                {
+                    "value": "dont_know_answer",
+                    "text": "Unknown"
+                }
+            ],
+            "required": true
         },
         {
             "id": "problem_description",
