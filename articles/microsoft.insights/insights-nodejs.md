@@ -9,7 +9,7 @@
     articleId="insights_nodejs"
     displayOrder="1134"
     selfHelpType="generic"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32632985, 32632999"
  	ownershipId="AzureMonitoring_ApplicationInsights"

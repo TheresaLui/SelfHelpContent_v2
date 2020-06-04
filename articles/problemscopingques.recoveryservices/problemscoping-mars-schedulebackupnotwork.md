@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632792"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
    	 articleId="c8ce31ba-6bd9-4d73-8109-8fb6dd37f86c"
 	ownershipId="StorageMediaEdge_Backup"
@@ -18,11 +18,6 @@
     "subscriptionRequired": false,
     "title": "MARS scheduled backup is not run automatically",
     "fileAttachmentHint": "",
-      "diagnosticCard": {
-        "title": "MARS scheduled backup is not run automatically",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "os_version",
@@ -38,14 +33,13 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "basic_troubleshooting_multiselect",
             "order": 3,
             "controlType": "multiselectdropdown",
-            "infoBalloonText": "Check <a href='https://aka.ms/AB-AA4dwtq'>Troubleshooting</a> article",
+            "infoBalloonText": "Check <a href='https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot'>Troubleshooting</a> article",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
@@ -88,7 +82,7 @@
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\MachineId",
+            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
             "watermarkText": "Paste MachineId here",
             "required": false
         },
@@ -97,7 +91,7 @@
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Provide the ResourceId:",
-            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\ResourceId",
+            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
             "watermarkText": "Paste ResourceId here",
             "required": false
         },

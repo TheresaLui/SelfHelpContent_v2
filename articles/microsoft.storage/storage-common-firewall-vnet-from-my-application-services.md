@@ -11,7 +11,7 @@
 	supportTopicIds="32682428,32682433,32682438,32682443"
 	resourceTags=""
 	productPesIds="15629,16459,16461,16462,16598"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="738c563d-2440-4919-bb3e-fd76192ea87b"
 	ownershipId="StorageMediaEdge_AccountManagement"
 />

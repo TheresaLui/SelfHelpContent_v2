@@ -8,7 +8,7 @@
 	ms.author="sacartac"
 	supportTopicIds="32690853"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.automl.deployment"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"

@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
     supportTopicIds="32637153, 32629540, 32680904, 32680905, 32680906"
 	productPesIds="15613"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
     articleId="add0db11-c89e-4110-8cee-bba530732c9d"
 	ownershipId="AzureData_DataFactory"

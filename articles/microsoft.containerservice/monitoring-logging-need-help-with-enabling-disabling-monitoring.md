@@ -10,7 +10,7 @@
     supportTopicIds="32674475"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public, fairfax"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="monitoring-logging-need-help-with-enabling-disabling-monitoring"
 	ownershipId="Compute_AzureKubernetesService"
 />

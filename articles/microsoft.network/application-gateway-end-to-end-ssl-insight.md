@@ -11,7 +11,7 @@
     diagnosticScenario="ApplicationGatewayEndToEndSSLIssues"
     supportTopicIds="32582825"
 	productPesIds="15922"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
  	ownershipId="CloudNet_AzureApplicationGateway"
 />
 

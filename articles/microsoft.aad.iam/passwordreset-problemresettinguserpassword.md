@@ -5,7 +5,7 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32615416" 
 	 productPesIds="16579" 
-	 cloudEnvironments="public, Fairfax, Mooncake" 
+	 cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec" 
 	 schemaVersion="1"
 	 articleId="c0816905-886c-41cc-acab-516a43988111"
 	ownershipId="AzureIdentity_MultiFactorAuthentication"

@@ -12,7 +12,7 @@
 	supportTopicIds=""
 	resourceTags="DataBoxGateway"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="StorageMediaEdge_DataBox"
 />
 

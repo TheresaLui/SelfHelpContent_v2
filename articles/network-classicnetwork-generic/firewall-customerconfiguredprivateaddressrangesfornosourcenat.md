@@ -10,7 +10,7 @@
     supportTopicIds="32731149"
     resourceTags=""
     productPesIds="16556"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="customer-configured-private-address-ranges-for-no-source-nat"
 	ownershipId="CloudNet_AzureFirewall"
 />

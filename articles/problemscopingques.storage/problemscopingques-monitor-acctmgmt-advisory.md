@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32681658,32681664,32681665"
 	productPesIds="15629"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="868927c0-69f4-472b-8d07-51557ceb62d0"
 	ownershipId="StorageMediaEdge_AccountManagement"
@@ -40,9 +40,9 @@
                     "value": "log_retention",
                     "text": "Log retention question"
                 },
-                {
-                    "value": "audit_action",
-                    "text": "Action audit question"
+                 {
+                    "value": "who_accessed_storage_resource",
+                    "text": "Who accessed storage resource"
                 },
 		 {
                     "value": "dont_know_answer",

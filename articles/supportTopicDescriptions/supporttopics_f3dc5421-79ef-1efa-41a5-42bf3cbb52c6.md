@@ -5,12 +5,12 @@
   ms.author="akjoshi, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="f3dc5421-79ef-1efa-41a5-42bf3cbb52c6"
-  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="subscription-management-supportopicdescription"
+  ownershipid="AzureKeyVault_KeyVault"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="prdasneo@microsoft.com" 	ownershipId="AzureKeyVault_KeyVault"
-/>
+  feedbackemail="prdasneo@microsoft.com" />
 # Support Topic Descriptions for f3dc5421-79ef-1efa-41a5-42bf3cbb52c6
 ---
 {
@@ -54,6 +54,14 @@
       "shortDescription": "Questions about an error when trying to log into your Azure Account/ can log in but dont see the expected subscriptions in the portal",
       "searchTags": "",
       "category": "",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4218f7b5-d4e2-32d4-e955-bfd5d798988e",
+      "longDescription": "",
+      "shortDescription": "Compliance questions for Azure only ",
+      "searchTags": "Security, Compliance",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -115,9 +123,9 @@
     {
       "id": "7e95cb4a-9d5a-8cee-13c2-e4ee1c713e2f",
       "longDescription": "",
-      "shortDescription": "Questions or need assistance with accessing/moving your subscriptions or resources",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance with accessing or moving your subscriptions",
+      "searchTags": "subscription;accessing subscription",
+      "category": "Access and Resource management",
       "useInDiagnoseAndSolve": "true"
     },
     {

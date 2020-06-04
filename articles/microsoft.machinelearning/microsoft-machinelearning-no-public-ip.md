@@ -9,7 +9,7 @@
     articleId="microsoft-machinelearning-no-public-ip.md"
     supportTopicIds="32690893"
     productPesIds="16644"
-    cloudEnvironments="public, fairfax, mooncake"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 

@@ -10,7 +10,7 @@
 	supportTopicIds="32675717"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="e02688e7-9d84-401f-8a92-afbfea607baa"
 	ownershipId="StorageMediaEdge_StorageFiles"
 />

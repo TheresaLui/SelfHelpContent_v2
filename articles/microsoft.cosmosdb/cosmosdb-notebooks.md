@@ -9,7 +9,7 @@
 	supportTopicIds="32688847"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-notebooks"
 	displayOrder="91"
 	category="Azure Cosmos DB - Notebooks"

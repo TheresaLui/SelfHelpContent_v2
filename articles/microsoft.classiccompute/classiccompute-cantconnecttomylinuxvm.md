@@ -10,7 +10,7 @@
     supportTopicIds="32615531,32615526,32639640"
     resourceTags="linux,redhat,Ubuntu"
     productPesIds="16470,15797,15571,16454,16342"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="420298f8-b3fb-49f2-b359-f7cdf357901c"
     category="connectivity"
     searchTags="cannot connect, can't connect, connectivity, vm, rdp"

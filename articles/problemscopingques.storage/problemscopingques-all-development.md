@@ -7,7 +7,7 @@
 	articleId="StorageScoping_all_development"
 	supportTopicIds="32602718,32602722,32602721,32602729,32602731,32612593,32612596,32612598,32612606,32612608,32602772"
 	productPesIds="16459,16598,16461,16462"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />

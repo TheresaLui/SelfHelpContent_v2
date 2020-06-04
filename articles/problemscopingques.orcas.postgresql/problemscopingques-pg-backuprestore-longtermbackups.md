@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639993"
     productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-backuprestore-longtermbackups"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"

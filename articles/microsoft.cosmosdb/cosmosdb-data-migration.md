@@ -9,7 +9,7 @@
 	supportTopicIds="32636785, 32692543"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-data-migration"
 	displayOrder="3"
 	category="CosmosDB Backup and Restore"

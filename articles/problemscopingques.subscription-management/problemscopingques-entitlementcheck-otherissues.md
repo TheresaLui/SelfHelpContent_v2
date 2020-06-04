@@ -6,7 +6,7 @@
           selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632951,32632957"
 	productPesIds="15660"
-	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
    articleId="EntitlementCheckandOtherIssue-problemscopingquestion"
 	ownershipId="ASMS_SubscriptionManagement"

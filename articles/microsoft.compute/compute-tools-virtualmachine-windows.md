@@ -10,9 +10,9 @@
 	supportTopicIds=""
 	resourceTags="windows"
 	productPesIds=""
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="5690b217-6af3-48b4-bf1c-047f6c2734ff"
-	ownershipId="Compute_VirtualMachines"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # tools

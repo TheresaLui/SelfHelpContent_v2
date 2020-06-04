@@ -10,7 +10,7 @@
     articleId="application-gateway-multiple-insights"
     diagnosticScenario="AppGwCertificateIssuesAzurePortalInsight,AppGwConnectionTimedOutAzurePortalInsight,AppGwUnknownBackendHealthAzurePortalInsight"
     supportTopicIds=""
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
  	ownershipId="CloudNet_AzureApplicationGateway"
 />
 

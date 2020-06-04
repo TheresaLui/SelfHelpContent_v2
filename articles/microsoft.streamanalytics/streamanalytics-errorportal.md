@@ -11,7 +11,7 @@
 	supportTopicIds="32628757, 32628785"
 	resourceTags=""
 	productPesIds="15663"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ms.author="sidram"
 	ownershipId="AzureData_StreamAnalytics"
 />

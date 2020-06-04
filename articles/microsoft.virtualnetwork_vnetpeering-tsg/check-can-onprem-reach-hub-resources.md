@@ -7,7 +7,7 @@
 	authors="chadmath"
 	ms.author="chadmat"
 	selfHelpType="TSG_Content"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="ec701f16-bd9e-4dae-b66e-62772e6f5d87"
 />
 
@@ -17,10 +17,10 @@ A working site-to-site connection is necessary for the customer to reach resourc
 
 ## **Recommended Steps**
 
-1. From an on-premisespoint-to-site client, have the customer use ping, psping or tcpping, to try to communicate with a VM resource that is in the hub VNet where the VPN gateway is.
+1. From an on-premises client (P2S or other), have the customer use ping, psping or tcpping, to try to communicate with a VM resource that is in the hub VNet where the VPN gateway is.
 
 
 ## **Recommended Documents**
 
-* [Psping](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/171537/PsPing)
+1. [Psping](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/171537/PsPing)
 

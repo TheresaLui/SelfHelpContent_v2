@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Stack Stop and Start"
-    description="Stopping and Starting Azure Stack"
+    pageTitle="Azure Stack Hub Stop and Start"
+    description="Stopping and Starting Azure Stack Hub"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -10,19 +10,22 @@
     supportTopicIds="32630576"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-operator-stopstart"
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Azure Stack Startup and Shutdown
+# Azure Stack Hub Startup and Shutdown
+
+Most support cases related to start and stop are simply due to the extended time that the operation can take. The recommended steps cover the procedures and what to expect. 
 
 ## **Recommended Steps**
 
-1. [Azure Stack Startup](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#start-azure-stack) powers on all infrastructure roles and returns tenant resources to the power state they were in prior to shutdown
-2. [Azure Stack Shutdown](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#stop-azure-stack) will physically power off the entire Azure Stack environment
-3. If issues occur, follow steps to [troubleshoot startup and shutdown of Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#troubleshoot-startup-and-shutdown-of-azure-stack)
+1. Verify the power status of the physical node by following the instructions from the OEM who supplied your Azure Stack hardware
+1. Get the startup for the Azure Stack Hub startup routine by opening a privileged endpoint session from a machine with network access to the Azure Stack Hub ERCS VMs. From the PEP, run `Get-ActionStatus Start-AzureStack`.
 
 ## **Recommended Documents**
+* [Azure Stack startup](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#start-azure-stack) 
+* [Azure Stack shutdown](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop#stop-azure-stack) 
+* [Troubleshoot startup and shutdown](https://docs.microsoft.com/azure-stack/operator/azure-stack-start-and-stop#troubleshoot-startup-and-shutdown-of-azure-stack-hub)
 
-- [Stop and Start Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-start-and-stop)

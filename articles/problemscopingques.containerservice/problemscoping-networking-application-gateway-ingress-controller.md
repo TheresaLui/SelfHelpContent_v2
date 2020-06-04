@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32689809"
                 productPesIds="16450"
-                cloudEnvironments="Public, Fairfax"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="problemscoping-networking-application-gateway-ingress-controller"
 	ownershipId="Compute_AzureKubernetesService"

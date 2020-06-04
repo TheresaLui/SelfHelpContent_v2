@@ -14,7 +14,7 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960,17012"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
@@ -24,4 +24,5 @@ Your company's location determines your market. Your market includes the regions
 
 ## **Recommended Documents**
 
-* [Cloud Solution Provider program regional markets and currencies](https://docs.microsoft.com/partner-center/regional-authorization-overview)
+- [Cloud Solution Provider program regional markets and currencies](https://docs.microsoft.com/partner-center/regional-authorization-overview)
+- [Offers matrix includes which license-based products can be sold in various markets](https://docs.microsoft.com/partner-center/pricing-and-offers#offers-matrix)

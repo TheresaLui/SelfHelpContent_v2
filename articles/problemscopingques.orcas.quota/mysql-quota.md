@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32684016"
     productPesIds="15621"
-    cloudEnvironments="Public, Fairfax"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-orcas-quota-mysql"
     ownershipId="AzureData_AzureDatabaseforMySQL"
@@ -65,7 +65,7 @@
             "visibility": "quotaType != null && quotaType == enablelocation",
             "order": 3,
             "controlType": "numerictextbox",
-            "displayLabel": "Capacity requesed (in VCores)",
+            "displayLabel": "Capacity requested (in VCores)",
             "infoBalloonText": "<a href='https://docs.microsoft.com/azure/mysql/concepts-pricing-tiers'>Learn more</a>.",
             "required": true
         },

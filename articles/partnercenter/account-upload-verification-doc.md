@@ -14,7 +14,7 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="17000"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
@@ -22,9 +22,9 @@
 
 ## **Recommended Steps**
 
- ###**Accepted forms of Proof**
+* Click **Next** to create a ticket with one of the below accepted forms of proof attached
  
- **Business Verification: business registration form, business charter or articles of incorporation. Examples:**
+**Business Verification, such as a business registration form, business charter, or articles of incorporation, is required. Other examples:**
  
    -  Articles of incorporation, memorandum of association, or any similar company formation document
    -  Securities and Exchange Commission Form 10-K, or equivalent filing

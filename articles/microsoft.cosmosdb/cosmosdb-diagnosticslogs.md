@@ -9,7 +9,7 @@
 	supportTopicIds="32681014"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-diagnosticslogs"
 	displayOrder="261"
 	category="Monitoring"

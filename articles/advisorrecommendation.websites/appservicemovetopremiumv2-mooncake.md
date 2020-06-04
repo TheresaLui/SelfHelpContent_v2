@@ -6,7 +6,7 @@
     articleId="9ebff5d5-10c1-4fed-8c58-1954e27d3bfa_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AppService"
 />
 # Move your App Service Plan to PremiumV2 for better performance
 ---

@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32615278,32615287,32615306"
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake, Fairfax"
+	cloudEnvironments="public, Mooncake, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="ASMS_Billing"
 />

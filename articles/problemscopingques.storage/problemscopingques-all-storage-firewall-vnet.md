@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32682428,32682429,32682430,32682433,32682434,32682435,32682438,32682439,32682440,32682443,32682444,32682445"
 	productPesIds="15629,16459,16462,16461,16598"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="StorageScoping_all_firewall_Vnet"
 	ownershipId="StorageMediaEdge_AccountManagement"

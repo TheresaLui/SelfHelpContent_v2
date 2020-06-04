@@ -10,9 +10,9 @@
 	supportTopicIds="32727880"
 	resourceTags=""
 	productPesIds="16582"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="8f53a07f-1c5d-4b08-9510-96b41e6d065b"
-	ownershipId="test_rediscache1"
+	ownershipId="Windows_Virtual_Desktop"
 />
 
 # Windows Virtual Desktop issues creating WVD tenant
