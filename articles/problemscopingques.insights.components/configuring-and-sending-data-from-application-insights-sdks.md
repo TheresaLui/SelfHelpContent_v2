@@ -120,8 +120,101 @@
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "sdk_used_java",
+            "order": 8,
+            "visibility": "sdk_used == Java",
+            "controlType": "dropdown",
+            "displayLabel": "Which Application Server is being utilized?",
+            "dropdownOptions": [
+                {
+                    "value": "Tomcat",
+                    "text": "Tomcat"
+                },
+                {
+                    "value": "Wildfly",
+                    "text": "Wildfly"
+                },
+                {
+                    "value": "Jetty",
+                    "text": "Jetty"
+                },
+                {
+                    "value": "Spring Boot",
+                    "text": "Spring Boot"
+                },
+                {
+                    "value": "Other",
+                    "text": "Other"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Unknown"
+                }
+            ],
+            "required": true
+        },
+                {
+            "id": "sdk_used_java",
             "order": 9,
+            "visibility": "sdk_used == Java",
+            "controlType": "dropdown",
+            "displayLabel": "Which version of Java is being utilized?",
+            "dropdownOptions": [
+                {
+                    "value": "Java 7",
+                    "text": "Java 7"
+                },
+                {
+                    "value": "Java 8",
+                    "text": "Java 8"
+                },
+                {
+                    "value": "Java 9",
+                    "text": "Java 9"
+                },
+                {
+                    "value": "Java 10",
+                    "text": "Java 10"
+                },
+                                {
+                    "value": "Java 11",
+                    "text": "Java 11"
+                },
+                {
+                    "value": "Java 12",
+                    "text": "Java 12"
+                },
+                {
+                    "value": "Java 13",
+                    "text": "Java 13"
+                },
+                {
+                    "value": "Java 14",
+                    "text": "Java 14"
+                },
+                {
+                    "value": "Other",
+                    "text": "Other"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Unknown"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "sdk_used_other",
+            "order": 14,
+            "visibility": "sdk_used == Other",
+            "controlType": "textbox",
+            "displayLabel": "Which SDK is being utilized?",
+            "watermarkText": "Which SDK is being utilized?,
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 15,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the problem you are seeing",
             "watermarkText": "Please include expected versus observed behavior, exact errors, etc",
@@ -141,7 +234,7 @@
         },
                 {
             "id": "availability_test_reason",
-            "order": 11,
+            "order": 17,
             "controlType": "dropdown",
             "displayLabel": "Do you believe there is a problem with the data Application Insights is presenting or are you looking for guidance on resolving an error? ",
             "dropdownOptions": [
@@ -162,7 +255,7 @@
         },
         {
             "id": "additional_information",
-            "order": 13,
+            "order": 19,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",
