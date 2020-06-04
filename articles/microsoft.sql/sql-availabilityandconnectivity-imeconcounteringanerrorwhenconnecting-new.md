@@ -9,10 +9,10 @@
     selfHelpType="generic"
     supportTopicIds="32630429"
     productPesIds="13491"
-    cloudEnvironments="public,blackForest,fairfax"
+    cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
     resourceTags="servers, databases"
     articleId="ed58b3a0-20fe-4cb6-a261-5afaa0d4324a"
-    ownershipId="AzureData_AzureSQLDB"
+    ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
 # Diagnose and resolve issues connecting to Azure SQL Database

@@ -6,7 +6,7 @@
     authors="anuragm"
     ms.author="anuragm"
     displayOrder="7"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""

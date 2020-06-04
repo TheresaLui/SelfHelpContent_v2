@@ -7,7 +7,7 @@
 	articleId="StorageScoping_blob_connectivity_firewall"
 	supportTopicIds="32688878"
 	productPesIds="16459"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />

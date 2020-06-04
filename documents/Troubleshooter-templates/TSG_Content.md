@@ -3,7 +3,6 @@
 	description="<Brief Description of the step>"
 	service="<service provider>"
 	resource="<resource type>"
-	authors="<Your Github alias>"
 	ms.author="<Your Microsoft alias>"
 	selfHelpType="TSG_Content"
 	cloudEnvironments="<cloud environments>"

@@ -9,7 +9,7 @@
 	articleId="Service-healthevent-genericrhevent"
 	diagnosticScenario="health_diagnostic"
 	selfHelpType="servicehealthinsights"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleTags="healthannotation_genericrhevent"
 ownershipId="ASEP_ServiceHealth"
 />

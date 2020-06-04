@@ -12,7 +12,7 @@
     supportTopicIds="32592241, 32592228, 32592242, 32592268"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />
 

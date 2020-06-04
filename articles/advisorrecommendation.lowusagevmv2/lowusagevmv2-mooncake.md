@@ -6,7 +6,7 @@
     articleId="e10b1381-5f0a-47ff-8c7b-37bd13d7c974_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="CloudFit_CostOptimization"
 />
 # Right-size or shutdown underutilized virtual machines
 ---
@@ -34,7 +34,7 @@
   },
   "recommendationTimeToLive": 86400,
   "version": 5.0,
-  "learnMoreLink": "https://aka.ms/aa_lowusagerec_learnmore",
+  "learnMoreLink": "https://aka.ms/aa_lowusagerec_learnmore_cn",
   "description": "Right-size or shutdown underutilized virtual machines",
   "longDescription": "We've analyzed the usage patterns of your virtual machine over the past 7 days and identified virtual machines with low usage. While certain scenarios can result in low utilization by design, you can often save money by managing the size and number of virtual machines.",
   "potentialBenefits": "savings",

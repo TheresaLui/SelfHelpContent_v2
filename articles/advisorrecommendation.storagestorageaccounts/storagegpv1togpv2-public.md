@@ -5,8 +5,8 @@
     ms.author="aadevteam"
     articleId="1ef6e4c5-2caa-4528-a6e4-0db08a4d2872_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-	ownershipId="ASEP_ContentService_Placeholder"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Upgrade your Storage Account to General-purpose v2
 ---

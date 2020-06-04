@@ -10,14 +10,14 @@
     supportTopicIds="32615229"
     resourceTags=""
     productPesIds="15607,15725"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="011a511c-8c9b-4df3-8d11-47d2b477f92e"
 	ownershipId="Compute_Automation"
 />
 
 # Resolve Update Management issues with Azure Automation - Agent Not Ready
 
-This article will help with the built-in Update Management Troubleshooting
+This article will help with the built-in Update Management Troubleshooting script.
 
 ## **Recommended Steps**
 
@@ -36,9 +36,4 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 
 ## **Recommended Documents**
 
-* [Troubleshoot issues using Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-management)
-* [Troubleshoot issues onboarding Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)
-* [Understand the agent check results in Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues)
-* [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management)
-* [Update Management Tutorial](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management)
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Troubleshoot Hybrid Worker](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker)

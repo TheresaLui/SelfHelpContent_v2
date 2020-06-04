@@ -10,7 +10,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="7e7572f7-a28b-491a-a6e9-34f0b63ece36"
     ownershipId="AzureData_AnalysisServices"
 />

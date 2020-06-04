@@ -10,7 +10,7 @@
     supportTopicIds="32691004"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="b9c6cb48-0995-4ac5-82f1-fa6582eddf77"
 	ownershipId="Compute_AzureMigrate"
 />
@@ -24,7 +24,7 @@
 Agentless dependency analysis is available in a limited preview currently, and only for VMware VMs. Please submit a request at [this link](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR35qjpJOBF1MmO4OLvbG-VVUM1UzOVAzVTY2MlM1NE5WMlJXSUhCTkRMOC4u) for access to the preview. Note you can access the preview only when you receive an invitation email. 
 
 ### ** I have not received an email invitation even after submitting the request for the preview. **
-Expect a delay of 2-4 weeks to get the invitation email. If you require urgent access, send an email to hamusa@microsoft.com requesting access, providing information on the business urgency.
+Expect a delay of 2-4 weeks to get the invitation email. If you require urgent access, please go ahead and file the case to expedite access providing information on the business urgency. 
 
 ### **My subscription is whitelisted but I still don't see the Add/Remove server tab to enable the dependency. How do I proceed?**
 

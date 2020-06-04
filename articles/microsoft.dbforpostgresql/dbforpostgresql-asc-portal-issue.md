@@ -12,8 +12,8 @@
 	selfHelpType="rca"
 	supportTopicIds="32639971"
 	resourceTags="windows, linux"
-	productPesIds="16222"
-	cloudEnvironments="public, Fairfax"
+	productPesIds="16222, 17067"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 

@@ -13,12 +13,12 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Find Data migration solution
 
 <!--issueDescription-->
-Our Azure Data Migration Solution Finder can help you find the data migration solution for your specific scenario. Please fill in the information below to find a solution. 
+Below are the recommended migration method: <!--$InforBoxMessage-->[InforBoxMessage]<!--/$InforBoxMessage--> <!--$Tools-->[Tools]<!--/$Tools-->.
 <!--/issueDescription-->

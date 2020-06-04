@@ -10,7 +10,7 @@
     supportTopicIds="32689847"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="aks-install-withlinuxcustomscriptextension"
 	ownershipId="Compute_AzureKubernetesService"
 />

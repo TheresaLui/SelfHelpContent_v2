@@ -4,13 +4,13 @@
     service=""
     resource=""
     authors="ScottAzure"
-    ms.author="aaronmax"
+    ms.author="mquian"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32588741,32588753,32588756,32588759,32588750,32588757,32588768,32588740,32588765,32588764,32588748"
+    supportTopicIds="32677639, 32677642, 32677637, 32588745"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="f7517214-4e34-48f3-9ce4-3f84fb92275e"
 	ownershipId="Compute_LogicApps"
 />
@@ -30,4 +30,4 @@
 * [Monitor status, set up diagnostics logging, and turn on alerts for Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-monitor-your-logic-apps)<br>
 * [Limits and configuration information for Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-limits-and-config)<br>
 * [Secure access in Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-securing-a-logic-app)<br>
-* Review the [Current Azure Status](https://azure.microsoft.com/status/) or [Azure Status - History](https://azure.microsoft.com/status/history/) for outages
+* Review the [Current Azure Status](https://azure.microsoft.com/status/) or [Azure Status - History](https://status.azure.com/status/history/) for outages

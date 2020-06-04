@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="963f0c3f-ce00-474d-b5a9-aa8f0812e73e"
 	ownershipId="ASMS_Billing"
 />

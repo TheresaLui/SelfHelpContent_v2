@@ -11,9 +11,9 @@
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
-	productPesIds="14785"
+	productPesIds="1666"
 	cloudEnvironments="public, Fairfax, Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # The Azure AD Sync scheduler is disabled

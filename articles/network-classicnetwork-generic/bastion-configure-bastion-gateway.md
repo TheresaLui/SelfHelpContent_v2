@@ -10,7 +10,7 @@
     supportTopicIds="32641415"
     resourceTags=""
     productPesIds="16757"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="bastion-configure-bastion-gateway"
 	ownershipId="CloudNet_AzureBastion"
 />

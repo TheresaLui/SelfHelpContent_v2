@@ -10,7 +10,7 @@
 	supportTopicIds="32582829"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="4a3afd62-8759-42e3-a5c4-e78ab323f861"
 	ownershipId="CloudNet_AzureApplicationGateway"
 />

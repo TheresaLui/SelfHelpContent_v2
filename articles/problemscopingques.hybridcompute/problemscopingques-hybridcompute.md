@@ -21,7 +21,7 @@
 32689154
 "
 	productPesIds="16872"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="Compute_HybridResourceProvider"
 />

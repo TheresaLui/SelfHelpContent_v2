@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	resourceTags="windows,windowsSQL"
 	productPesIds=""
-	cloudEnvironments="publicm, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="3201a2b8-d746-4136-8c87-efba94789b12"
 	ownershipId="Compute_VirtualMachines"
 />
@@ -19,11 +19,11 @@
 
 ## **Awareness**
 
->We are currently experiencing high demand for specific regions across the globe. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
+>We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
 
 ## **Recommended Steps**
 
->If you are experiencing allocation failures in **West Europe, North Europe, UK South, UK West, and France Central**, please try alternate regions (as first preference) or alternate SKUs.<br>
+>If you are experiencing allocation failures in **UAE North**, please try alternate regions (as first preference) or alternate SKUs.<br>
 
 For general troubleshooting, please follow these guides:<br>
 

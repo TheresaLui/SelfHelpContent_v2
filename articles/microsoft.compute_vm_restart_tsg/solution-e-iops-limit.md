@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="37861ad5-b12d-4cd6-bd13-04efe390c7b2"
 	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
@@ -19,7 +19,7 @@
 <!--issueDescription-->
 We identified that your VM Virtual machine became unavailable at StartTime (UTC) and availability was restored at EndTime (UTC).
 This unexpected occurrence was caused by an Azure initiated VM shutdown triggered by detection of temporary IO transaction timeouts between the physical host node where your VM was running, and the Azure Storage services where your Virtual Hard Disks (VHDs) reside.
-Azure Standard Storage disks have a limit of 500 IOPS for each VHD.  We have documented a few best practices for Configuring Azure Virtual Machines for Optimal Storage Performance  
+Azure Standard Storage disks have a limit of 500 IOPS for each VHD.  We have documented a few best practices for Configuring Azure Virtual Machines for Optimal Storage Performance  
 Depending on the workload, a striped disk or configuring Storage Spaces inside the Guest VM may help mitigate the issue.  You may also want to consider Premium Storage if the issue persists. To ensure an increased level of protection and redundancy for your application in Azure, it is recommended that you group two or more virtual machines in an availability set. To learn more about high availability options, please refer to the articles below. 
 
 [Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.

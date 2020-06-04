@@ -10,7 +10,7 @@
     supportTopicIds="32691167"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-onboarding-failure-to-create-workspace"
 	ownershipId="Azure_Sentinel"
 />

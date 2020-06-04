@@ -10,7 +10,7 @@
     supportTopicIds="32691168"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-billing-general-question-about-my-bill"
 	ownershipId="Azure_Sentinel"
 />

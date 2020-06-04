@@ -5,12 +5,12 @@
     resource="automationaccounts"
     authors="zjalexander"
     ms.author="zachal"
-    displayorder=""
+    displayorder="202"
     selfHelpType="generic"
     supportTopicIds="32635012"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="29c081cb-767b-442c-8c84-2ddec8d54e75"
 	ownershipId="Compute_Automation"
 />
@@ -64,7 +64,7 @@ If you are running jobs using a hybrid worker instead of in Azure Automation, yo
 
 ### Using Az modules
 
-* Using Az modules and AzureRM modules in the same Automation Account is not supported. Please see ["Az modules in runbooks" for more details](https://docs.microsoft.com/azure/automation/az-modules).
+* Using Az modules and AzureRM modules in the same Automation Account is not supported. Please see ["Az modules in runbooks" for more details](https://docs.microsoft.com/azure/automation/automation-update-azure-modules).
 
 ### Can't start or schedule runbook
 

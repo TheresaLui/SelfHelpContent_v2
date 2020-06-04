@@ -11,7 +11,7 @@
     diagnosticScenario=""
     supportTopicIds="32637531"
     productPesIds="15739"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec, blackforest, mooncake"
 	ownershipId="Compute_AzurePortal"
 />
 

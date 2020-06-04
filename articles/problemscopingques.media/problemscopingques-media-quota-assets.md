@@ -7,7 +7,7 @@
     supportTopicIds="32632080"
     productPesIds="14885"
     articleId="problemscopingques-quota-assets"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
 	ownershipId="StorageMediaEdge_Media"
 />

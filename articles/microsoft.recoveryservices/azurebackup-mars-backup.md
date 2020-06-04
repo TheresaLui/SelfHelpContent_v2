@@ -10,7 +10,7 @@
 	supportTopicIds="32553275"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
 	articleId="fc3023bd-b8cf-4451-a14d-76e1a8ba8c15"
 	ownershipId="StorageMediaEdge_Backup"
 />

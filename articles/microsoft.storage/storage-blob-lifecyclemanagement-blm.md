@@ -10,7 +10,7 @@ selfHelpType="generic"
 supportTopicIds="32683730,32691086,32691087"
 resourceTags=""
 productPesIds="16459,15629"
-cloudEnvironments="public, blackForest, fairfax, mooncake"
+cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 articleId="Troubleshoot_and_resolve_Blob_Lifecycle_Management_issues"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />

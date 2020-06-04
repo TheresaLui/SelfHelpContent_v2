@@ -8,7 +8,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32673593,32673610,32673597,32673594"
 	productPesIds="16307"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
