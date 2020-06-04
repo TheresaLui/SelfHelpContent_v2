@@ -31,14 +31,14 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Destination account name",
-            "required": true
+            "required": false
         },
         {
             "id": "destination_container",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Destination container name",
-            "required": true
+            "required": false
         },
         {
             "id": "issue_type",
