@@ -39,7 +39,7 @@
             "id": "frequency",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Can you reproduce this performance issue consistently?",
+            "displayLabel": "Can you reproduce this issue consistently?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
