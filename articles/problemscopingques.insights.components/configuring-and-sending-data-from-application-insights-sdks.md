@@ -153,7 +153,7 @@
             ],
             "required": true
         },
-                {
+        {
             "id": "sdk_used_java",
             "order": 9,
             "visibility": "sdk_used == Java",
@@ -176,7 +176,7 @@
                     "value": "Java 10",
                     "text": "Java 10"
                 },
-                                {
+                {
                     "value": "Java 11",
                     "text": "Java 11"
                 },
@@ -209,7 +209,7 @@
             "visibility": "sdk_used == Other",
             "controlType": "textbox",
             "displayLabel": "Which SDK is being utilized?",
-            "watermarkText": "Which SDK is being utilized?,
+            "watermarkText": "Which SDK is being utilized?",
             "required": false
         },
         {
