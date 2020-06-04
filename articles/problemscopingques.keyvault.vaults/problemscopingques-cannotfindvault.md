@@ -8,7 +8,7 @@
          productPesIds="15657"
          schemaVersion="1"
          articleId="problemscopingques-cannotfindvault"
-	     cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	     cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	     ownershipId="AzureKeyVault_KeyVault"
 />
 # Vault cannot be found

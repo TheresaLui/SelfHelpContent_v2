@@ -21,10 +21,10 @@
 
 * Ensure that the vSphere and vSAN network does not overlap with any other network in the region
 
-
 ## **Recommended Documents**
 
 <span title="Problems related to creation of Private Cloud on your CloudSimple service">
-
+	
 * [Create a Private Cloud](https://docs.microsoft.com/azure/vmware-cloudsimple/create-private-cloud)<br>
+
 </span>

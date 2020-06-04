@@ -10,18 +10,14 @@
 	articleId="partnercenter_co-sell deal registration, validation, and review"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32639667"
+	supportTopicIds="32639667,32728018"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="15960,17004"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Co-sell deal registration, validation, and review
-
-## **Recommended Steps**
-
-- For more information on co-sell deal registration, contact isvdrops@microsoft.com
 
 ## **Recommended Documents**
 

@@ -30,7 +30,7 @@ You can deploy Linux virtual machines (VMs) on Azure Stack by adding a Linux-bas
     - [SLES & openSUSE](https://docs.microsoft.com/azure/virtual-machines/linux/suse-create-upload-vhd)
     - [Ubuntu Server](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)
 
-3. Once you have prepared a custom Linux image, [add your image to the marketplace](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-vm-image)
+3. Once you have prepared a custom Linux image, you need to [add your image to the marketplace](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-vm-image) to make it visible to all tenant users
 
 
 ## **Recommended Documents**

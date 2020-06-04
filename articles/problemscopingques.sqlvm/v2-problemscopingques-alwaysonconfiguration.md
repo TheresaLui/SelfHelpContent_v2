@@ -65,7 +65,7 @@
                     "value": "OtherResource"
                 },
                 {
-                    "text": "I’m not sure/don’t know",
+                    "text": "I'm not sure/don't know",
                     "value": "dont_know_answer"
                 }
             ],
@@ -86,11 +86,11 @@
             "infoBalloonText": null,
             "dropdownOptions": [
                 {
-                    "text": "I’m still planning and have questions",
+                    "text": "I'm still planning and have questions",
                     "value": "StillPlanning"
                 },
                 {
-                    "text": "I’ve already started and have encountered a problem",
+                    "text": "I've already started and have encountered a problem",
                     "value": "ProblemEncountered"
                 }
             ],
