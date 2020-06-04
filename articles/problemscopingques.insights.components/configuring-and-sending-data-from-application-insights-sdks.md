@@ -108,10 +108,10 @@
                     "value": "Python",
                     "text": "Python"
                 },
-                                {
+                {
                     "value": "Other",
                     "text": "Other"
-                }
+                },
                 {
                     "value": "dont_know_answer",
                     "text": "Unknown"
