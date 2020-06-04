@@ -121,7 +121,7 @@
         },
         {
             "id": "sdk_used_java",
-            "order": 8,
+            "order": 10,
             "visibility": "sdk_used == Java",
             "controlType": "dropdown",
             "displayLabel": "Which Application Server is being utilized?",
@@ -155,7 +155,7 @@
         },
         {
             "id": "sdk_used_java",
-            "order": 9,
+            "order": 12,
             "visibility": "sdk_used == Java",
             "controlType": "dropdown",
             "displayLabel": "Which version of Java is being utilized?",
