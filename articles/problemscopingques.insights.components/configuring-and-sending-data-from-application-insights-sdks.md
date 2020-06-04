@@ -69,7 +69,7 @@
             "order": 5,
             "visibility": "notification_type == Other",
             "controlType": "textbox",
-            "displayLabel": "Please describe how the application is deployed:",
+            "displayLabel": "Please describe how the monitored application is deployed:",
             "watermarkText": "Kubernetes, Cloud Provider XYZ",
             "required": false
         },
