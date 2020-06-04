@@ -65,7 +65,7 @@
             "required": true
         },
         {
-            "id": "environment_type_other",
+            "id": "notification_type_other",
             "order": 5,
             "visibility": "environment_type == Other",
             "controlType": "textbox",
