@@ -10,8 +10,9 @@
     supportTopicIds="32691165"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-creating-alerts-creating-threat-hunting-queries"
+	ownershipId="Azure_Sentinel"
 />
 
 # Create threat hunting queries

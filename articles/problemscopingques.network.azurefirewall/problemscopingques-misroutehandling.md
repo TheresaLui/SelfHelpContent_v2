@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32628805,32608919,32608920,32628807,32628806,32608924,32608918,32608921,32608922,32608917"
 	productPesIds="16556"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureFirewall"
 />
 # Azure Firewall Generic
 ---

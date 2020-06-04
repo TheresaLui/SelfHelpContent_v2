@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32631233,32631234,32631236,32631237,32631238"
 	productPesIds="15629"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="9BD48974-4A51-4A44-A68C-9BB5E9D8F148"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Storage account failover
 ---

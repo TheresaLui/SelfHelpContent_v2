@@ -9,8 +9,9 @@
 	supportTopicIds="32560511"
 	resourceTags=""
 	productPesIds="16152"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="c0ca52f9-6015-44ec-bed4-9d1606233011"
+	ownershipId="Compute_BotService"
 />
 
 # Bot App Development Issues

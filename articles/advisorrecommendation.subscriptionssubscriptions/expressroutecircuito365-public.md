@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="3f000a35-4cf7-44ef-8127-2f7ed7909125_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Create additional ExpressRoute Circuits in another location for redundancy
 ---
@@ -24,7 +25,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
   "recommendationFriendlyName": "ExpressRouteCircuitO365",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

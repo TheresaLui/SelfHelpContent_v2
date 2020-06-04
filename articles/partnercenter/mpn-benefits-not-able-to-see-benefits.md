@@ -14,7 +14,8 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="ASEP_ContentService_Placeholder"
 />
 
 # MPN - Unable to see benefits

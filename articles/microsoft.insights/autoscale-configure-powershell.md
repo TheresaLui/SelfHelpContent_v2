@@ -10,7 +10,8 @@
     selfHelpType="generic"
     supportTopicIds="32683742"
     productPesIds="15527"
-    cloudEnvironments="public,fairfax,mooncake"
+    cloudEnvironments="public,fairfax,mooncake,blackforest,usnat, ussec"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- autoscale-configure-powershell -->

@@ -10,8 +10,9 @@
     supportTopicIds="32675757"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="5a8bcac1-4112-4897-a558-81199f80f5e7"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Azure Migrate: Server Migration replication issues

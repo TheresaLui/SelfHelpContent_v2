@@ -6,10 +6,11 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32635655"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_change_billing"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Change Billing
 ---

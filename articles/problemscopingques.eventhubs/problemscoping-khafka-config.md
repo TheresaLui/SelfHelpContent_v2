@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636949"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="eh-khafka-config"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Questions on Kafka Configuration
 ---

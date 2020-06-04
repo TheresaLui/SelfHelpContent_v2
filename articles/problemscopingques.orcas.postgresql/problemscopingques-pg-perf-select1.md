@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32639985"
 	productPesIds="16222"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-pg-perf-select1"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Database Performance - SELECT 1
 ---

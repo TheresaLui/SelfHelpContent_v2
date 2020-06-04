@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636941"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="eh-high-send-latency"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Performance issues due to high send latency
 ---

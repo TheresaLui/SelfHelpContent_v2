@@ -11,8 +11,9 @@
     supportTopicIds="32680774"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="c865a277-c9b3-4ac5-8c4f-117aa03fe83f"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # JIT Connect (from VM blade)

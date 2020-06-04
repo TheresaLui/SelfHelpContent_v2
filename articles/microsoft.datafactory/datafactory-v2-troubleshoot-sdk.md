@@ -10,8 +10,9 @@
     supportTopicIds="32629521"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="DataFactorySDKTroubleshooter"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Data Factory SDK

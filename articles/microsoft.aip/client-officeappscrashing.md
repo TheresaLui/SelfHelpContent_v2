@@ -10,8 +10,9 @@
 	supportTopicIds="32584359"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="75b5c7b4-12c4-4576-808d-0e8c75efe70b"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - Office apps are crashing

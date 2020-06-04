@@ -12,7 +12,8 @@ diagnosticScenario="Storage Blob is recoverable with Soft Delete"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Deleted blob can be recovered within <!--$SoftDeleteRetenionDays-->[SoftDeleteRetenionDays]<!--/$SoftDeleteRetenionDays--> days after deletion

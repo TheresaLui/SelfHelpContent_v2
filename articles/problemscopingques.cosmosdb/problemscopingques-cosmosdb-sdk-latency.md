@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32688841"
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="e00c06b2-121f-4f8b-84a1-0a8c0eae18e5"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # CosmosDB SDK Latency Issues
 ---

@@ -10,8 +10,9 @@
     supportTopicIds="32680620"
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="79842b51-f522-4acb-9ef4-f78c5e87ec25"
+	ownershipId="Compute_SiteRecovery"
 />
 # Hyper-V to Azure resynchronization required for VM
 

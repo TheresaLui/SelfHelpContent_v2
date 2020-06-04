@@ -13,7 +13,8 @@
 	supportTopicIds="32629643, 32612427, 32629642"
 	resourceTags=""
 	productPesIds="15454, 15725"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # My log search alert fired when it shouldn't have

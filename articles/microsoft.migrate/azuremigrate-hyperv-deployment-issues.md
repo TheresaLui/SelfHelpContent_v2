@@ -11,8 +11,9 @@
     supportTopicIds="32675746"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="75vc1276-2a3f-4d0d-96c5-b2e8886483e6"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Deployment issues with Azure Migrate appliance for Hyper-V 
@@ -23,7 +24,7 @@
 
 **I am getting an error in the Internet prerequisite check on the appliance**
 
-The appliance should have Internet connectivity (either directly or via a proxy). Ensure that you are able to connect to the URLs listed [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-hyper-v#assessment-appliance-url-access). If whitelisting is required, please ensure you whitelist all the URLs. 
+The appliance should have Internet connectivity (either directly or via a proxy). Ensure that you are able to connect to the URLs listed [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-hyper-v#assessment-appliance-url-access). If whitelisting is required, please ensure you whitelist all the URLs. For Azure Government customers, ensure that you are able to connect to the URLs listed [here](https://docs.microsoft.com/azure/migrate/migrate-appliance#government-cloud-urls).
 
 ### Issues in registering the appliance with Azure Migrate
 

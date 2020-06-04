@@ -9,8 +9,9 @@
 	supportTopicIds="32411878"
 	resourceTags="windows"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="2b3a6293-2b6c-4a72-9afc-245eec1e0ac6"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Performance/Slow instance of SQL Server

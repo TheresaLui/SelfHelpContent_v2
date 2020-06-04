@@ -10,8 +10,9 @@
 	supportTopicIds="32615301"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="88585c89-1fde-42c4-913d-98c9f05de322"
+	ownershipId="ASMS_Billing"
 />
 
 # Setup help for Azure EA
