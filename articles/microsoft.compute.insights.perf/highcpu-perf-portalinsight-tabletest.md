@@ -22,7 +22,7 @@
 ## **Do you know there were several High CPU instances on this <!--$vmname-->[vmname]<!--/$vmname--> in last 24 hrs?**
 
 <!--issueDescription-->
-Our diagnostics show there were several instances where Average Max CPU counter on this VM was above 90%. The calculations are based on Average Max CPU counter data for last 24 hrs, where it has been consistently above 90% for in 10 minute time window.
+Our diagnostics show there were several instances where Average Max CPU counter on this VM was above 85%. The calculations are based on Average Max CPU counter data for last 24 hrs, where it has been consistently above 85% for in 10 minute time window.
 <!--/issueDescription-->
 
 ### Performance Table

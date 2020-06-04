@@ -1,8 +1,8 @@
 <properties
          pageTitle="Scoping questions for Azure portal"
          description="Scoping questions for Azure portal specific troubleshooting"
-         authors="sansom,johirsch"
-         ms.author="sansom"
+         authors="johirsch"
+         ms.author="johirsch"
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32630411,32630412,32630435,32630456"
          productPesIds="13491"
@@ -44,7 +44,7 @@
             "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "Learn more - <a href='https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues/'>how to capture a browser network trace</a>"
+                    "text": "Learn more - <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>how to capture a browser network trace</a>"
                 },
                 {
                     "text": "Issue description."
