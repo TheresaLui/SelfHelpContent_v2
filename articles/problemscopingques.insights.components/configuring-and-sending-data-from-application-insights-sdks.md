@@ -66,7 +66,7 @@
         },
         {
             "id": "environment_type_other",
-            "order": 3,
+            "order": 5,
             "visibility": "environment_type == Other",
             "controlType": "textbox",
             "displayLabel": "Please describe how the application is deployed:",
@@ -75,7 +75,7 @@
         },
             {
             "id": "site_app",
-            "order": 5,
+            "order": 7,
             "visibility": "depend != null",
             "controlType": "textbox",
             "displayLabel": "What is the name of the site/app that is related to this issue?",
@@ -84,7 +84,7 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the problem you are seeing",
             "watermarkText": "Please include expected versus observed behavior, exact errors, etc",
@@ -104,7 +104,7 @@
         },
                 {
             "id": "availability_test_reason",
-            "order": 7,
+            "order": 11,
             "controlType": "dropdown",
             "displayLabel": "Do you believe there is a problem with the data Application Insights is presenting or are you looking for guidance on resolving an error? ",
             "dropdownOptions": [
@@ -125,7 +125,7 @@
         },
         {
             "id": "additional_information",
-            "order": 9,
+            "order": 13,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",
