@@ -86,8 +86,8 @@
             "id": "problem_description",
             "order": 7,
             "controlType": "multilinetextbox",
-            "displayLabel": "Describe the problem you are noticing",
-            "watermarkText": "Describe the problem you are noticing",
+            "displayLabel": "Describe the problem you are noticing.",
+            "watermarkText": "Describe the problem you are noticing.",
             "required": true,
             "useAsAdditionalDetails": true,
             "hints": []
