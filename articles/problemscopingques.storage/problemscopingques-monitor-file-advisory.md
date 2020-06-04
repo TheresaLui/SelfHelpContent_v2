@@ -40,9 +40,9 @@
                     "value": "log_retention",
                     "text": "Log retention question"
                 },
-                {
-                    "value": "audit_action",
-                    "text": "Action audit question"
+                 {
+                    "value": "who_accessed_storage_resource",
+                    "text": "Who accessed storage resource"
                 },
                  {
                     "value": "file_share_metrics",
