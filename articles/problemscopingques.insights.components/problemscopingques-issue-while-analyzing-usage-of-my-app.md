@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-issue-with-application-map"
+	articleId="problemscopingques-issue-while-analyzing-usage-of-my-app"
 	pageTitle="Issue while analyzing Usage of my app"
 	description="Issue while analyzing Usage of my app"
 	authors="neilghuman"
