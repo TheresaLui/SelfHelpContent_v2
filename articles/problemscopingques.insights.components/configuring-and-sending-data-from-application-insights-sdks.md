@@ -73,7 +73,7 @@
             "watermarkText": "Kubernetes, Cloud Provider XYZ",
             "required": false
         },
-            {
+        {
             "id": "site_app",
             "order": 7,
             "visibility": "depend != null",
@@ -82,7 +82,7 @@
             "watermarkText": "What is the name of the site/app that is related to this issue?",
             "required": false
         },
-                {
+        {
             "id": "sdk_used",
             "order": 8,
             "controlType": "dropdown",
