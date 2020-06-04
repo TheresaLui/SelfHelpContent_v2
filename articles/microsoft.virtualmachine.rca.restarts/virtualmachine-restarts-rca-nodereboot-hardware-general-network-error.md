@@ -22,11 +22,11 @@
 We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated host node reboot action**.
 <!--/issueDescription-->
 
-The host node reboot was triggered by our Azure monitoring systems that detected a **networking hardware issue** on the physical node where the virtual machine was hosted. This caused your VM to get rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
+The host node reboot was triggered by our Azure monitoring systems that detected a **hardware issue** due to **network errors** on the physical node where the virtual machine was hosted. This caused your VM to get rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
 
 The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
 
-- Azure is continually working with manufacturers to identify and prevent failures through improvements in network switch firmware
+- Azure is continually working with manufacturers to identify and prevent failures through improvements in network switch FW
 - Improved proactive network switch monitoring providing better preventive maintenance to reduce or avoid impact to customers due to network failures
 - Improvements to failure prediction telemetry and quality improvements to the vendor approved switches
 <br>

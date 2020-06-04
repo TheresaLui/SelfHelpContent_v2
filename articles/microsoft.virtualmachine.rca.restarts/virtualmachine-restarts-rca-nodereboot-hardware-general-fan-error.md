@@ -28,6 +28,7 @@ The Hardware Engineering team is working on the following long-term fixes to red
 
 - Azure is continually working with manufacturers to identify and prevent failures through improvements in fan functional testing
 - Improved proactive fan monitoring providing better preventive maintenance to reduce or avoid impact to customers due to fan failures
+- Improvements to failure prediction telemetry and quality improvements to the vendor approved fans
 <br>
 
 To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.<br>

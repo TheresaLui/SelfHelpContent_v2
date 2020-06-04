@@ -22,12 +22,12 @@
 We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated host node reboot action**.
 <!--/issueDescription-->
 
-The host node reboot was triggered by our Azure monitoring systems that detected a **hardware issue** due to **add-in card errors** on the physical node where the virtual machine was hosted. This caused your VM to get rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
+The host node reboot was triggered by our Azure monitoring systems that detected a **hardware issue** due to **Add-in card errors** on the physical node where the virtual machine was hosted. This caused your VM to get rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
 
 The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
 
 - Azure is continually working with manufacturers to identify and prevent failures through improvements in PCBA functional tests
-- Improved logging providing better more accurate failure signatures to reduce or avoid impact to customers due to adapter card failures
+- Improved BMC logging monitoring providing better more accurate failure signatures to reduce or avoid impact to customers due to adapter card failures
 - Improvements to failure prediction telemetry and tighter restrictions to approved card vendors
 <br>
 
