@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Confirm if VM is a managed VM "
-	description="Confirm if VM is a managed VM"
+	pageTitle="Check if VM is a managed VM"
+	description="Check if VM is a managed VM"
 	service=""
 	resource=""
 	authors="TestAuthor"
