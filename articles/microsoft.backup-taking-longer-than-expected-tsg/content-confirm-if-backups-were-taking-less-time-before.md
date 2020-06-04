@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Confirm if backups were taking less time before "
-	description="Confirm if backups were taking less time before "
+	pageTitle="Check if backups were taking less time before "
+	description="Check if backups were taking less time before "
 	service=""
 	resource=""
 	authors="TestAuthor"
@@ -15,7 +15,7 @@
    	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# Confirm if backups were taking less time before 
+# Check if backups were taking less time before 
 
 1. Go to ASC-> Resource Explorer -> Select the vault 
 2. On the "Backup Jobs" tab. Select "Backup managment type" as IAAS VM and on container name complete the name of the VM. On Date Time select last 30 days
