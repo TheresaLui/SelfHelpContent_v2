@@ -60,6 +60,15 @@
             ],
             "required": true
         },
+            {
+            "id": "notification_type_other",
+            "order": 4,
+            "visibility": "notification_type == Other",
+            "controlType": "textbox",
+            "displayLabel": "What is the language of the monitored application experiencing the issue?",
+            "watermarkText": "What is the language of the monitored application experiencing the issue?",
+            "required": false
+            },
         {
             "id": "problem_description",
             "order": 5,
