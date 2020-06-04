@@ -3,7 +3,7 @@
     description="Enable the large file share feature on storage account to avoid throttling. We noticed that more than 50% of your requests were throttled within a one hour period."
     authors="aadevteam"
     ms.author="xdataanalytics"
-    articleId="dd65e838-4473-4fdb-b124-e09798e35f36-Public"
+    articleId="dd65e838-4473-4fdb-b124-e09798e35f36_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public"
     ownershipId="StorageMediaEdge_XStore"
