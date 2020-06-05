@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="9b0d1cf7-8a3a-4c8b-8f9f-1c3e70e399d6_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Fairfax"
     ownershipId="StorageMediaEdge_XStore"
 />
 # Enable virtual machine replication to protect your applications from regional outage
