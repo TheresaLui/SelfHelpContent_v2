@@ -52,7 +52,7 @@
             "controlType": "textbox",
             "displayLabel": "If you need to recover, rename, or move an AI Component what is the specific name of the component and the resource group it resided?",
             "watermarkText": "If you need to recover, rename, or move an AI Component what is the specific name of the component and the resource group it resided?",
-            "required": false,
+            "required": false
         },
         {
             "id": "additional_information",
