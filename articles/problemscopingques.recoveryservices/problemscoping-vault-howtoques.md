@@ -25,7 +25,7 @@
         "insightNotAvailableText": "Our troubleshooter could not find any satisfiable answer to your question. See our manual troubleshooting steps below to troubleshoot your problem, or file a ticket."
     },
     "formElements": [
-	{ 
+	{
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
@@ -33,7 +33,7 @@
         },
         {
             "id": "problem_description",
-            "order": 1000,
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Please enter your Question below.",
             "watermarkText": "Try to keep your query short and clear",
