@@ -137,7 +137,7 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Don't know or never"
+                    "text": "Don't know or not implemented"
                 }
             ],
             "required": false
