@@ -108,7 +108,46 @@
             "id": "index_maintenance",
             "order": 40,
             "controlType": "dropdown",
-            "displayLabel": "Maintenance of indexes and statitics is frequent?",
+            "displayLabel": "How frequent are the indexes and statistics maintained?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "daily",
+                    "text": "Daily"
+                },
+                {
+                    "value": "weekly",
+                    "text": "Weekly"
+                },
+		{
+                    "value": "monthly",
+                    "text": "Monthly"
+                },
+		{
+                    "value": "quarterly",
+                    "text": "Quarterly"
+                },
+		{
+                    "value": "semi-annually",
+                    "text": "Semi-annually"
+                },
+		{
+                    "value": "annually",
+                    "text": "Annually"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know or never"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "big_data_manipulation",
+            "order": 50,
+            "visibility" : "index_maintenance != dont_know_answer ",
+            "controlType": "dropdown",
+            "displayLabel": "Did any major data manipulation occur after the maintenance of indexes and statistics?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -127,19 +166,11 @@
             "required": false
         },
         {
-            "id": "latest_indexes_defrag",
-            "order": 50,
-            "visibility" : "index_maintenance == yes",
-            "controlType": "datetimepicker",
-            "displayLabel": "When was the last indexes and statistics maintenance?",
-            "required": true
-        },
-        {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
             "displayLabel": "Specific Query Store query_id, plan hash, query hash or query text.",
-            "watermarkText": "Provide addicional information about the query or queries facing the issue",
+            "watermarkText": "Provide additional information about the query or queries facing the issue",
             "required": true,
             "useAsAdditionalDetails": true
         }
