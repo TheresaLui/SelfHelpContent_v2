@@ -151,57 +151,7 @@
                     "text": "Unknown"
                 }
             ],
-            "required": true
-        },
-        {
-            "id": "sdk_used_java_version",
-            "order": 12,
-            "visibility": "sdk_used == Java",
-            "controlType": "dropdown",
-            "displayLabel": "Which version of Java is being utilized?",
-            "dropdownOptions": [
-                {
-                    "value": "Java 7",
-                    "text": "Java 7"
-                },
-                {
-                    "value": "Java 8",
-                    "text": "Java 8"
-                },
-                {
-                    "value": "Java 9",
-                    "text": "Java 9"
-                },
-                {
-                    "value": "Java 10",
-                    "text": "Java 10"
-                },
-                {
-                    "value": "Java 11",
-                    "text": "Java 11"
-                },
-                {
-                    "value": "Java 12",
-                    "text": "Java 12"
-                },
-                {
-                    "value": "Java 13",
-                    "text": "Java 13"
-                },
-                {
-                    "value": "Java 14",
-                    "text": "Java 14"
-                },
-                {
-                    "value": "Other",
-                    "text": "Other"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Unknown"
-                }
-            ],
-            "required": true
+            "required": false
         },
         {
             "id": "sdk_used_other",
