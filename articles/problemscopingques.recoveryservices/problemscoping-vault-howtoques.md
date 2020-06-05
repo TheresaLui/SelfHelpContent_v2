@@ -35,6 +35,15 @@
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
+            "displayLabel": "Description",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
+        }
+        {
+            "id": "question",
+            "order": 3,
+            "controlType": "multilinetextbox",
             "displayLabel": "Please enter your Question below.",
             "watermarkText": "Try to keep your query short and clear",
             "diagnosticInputRequiredClients": "Portal",
