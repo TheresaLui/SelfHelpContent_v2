@@ -32,24 +32,24 @@
             "id": "operations",
             "order": 2,
             "controlType": "multiselectdropdown",
-            "displayLabel": "Which issue are you facing?",
+            "displayLabel": "What action are you trying to perform?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
                     "value": "Database file/filegroup",
-                    "text": "You encounter an error when configuring the database file/filegroup"
+                    "text": "Configuring the database file/filegroup layout"
                 },
                 {
                     "value": "Database partition",
-                    "text": "You encounter an error when configuring database partition"
+                    "text": "Configuring database partition(s)"
                 },
                 {
                     "value": "Shrink database",
-                    "text": "You encounter an error when shrinking the database"
+                    "text": "Shrinking a database"
                 },
                 {
-                    "value": "Tempdb",
-                    "text": "You encounter an error on tempdb"
+                    "value": "TempDB",
+                    "text": "TempDB-related operations"
                 },
                 {
                     "text": "Other, don't know or not applicable",
