@@ -1,17 +1,16 @@
 <properties
   pagetitle="Support topic description for Azure Cosmos DB"
   description="Support topic description for Azure Cosmos DB"
-  authors="rnagpal"
-  ms.author="rnagpal"
+  authors="rnagpal, elixirsys2"
+  ms.author="rnagpal, jimsch"
   selfhelptype="SupportTopicDescription"
   productpesids="d9516a10-74b5-45f4-943d-a5281d7cf1bb"
-  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
+  cloudenvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="cosmos-db-supporttopic-description"
+  ownershipid="AzureData_AzureCosmosDB"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="cosmossupportability@microsoft.com"
-  ownershipId="AzureData_AzureCosmosDB"
-/>
+  feedbackemail="cosmossupportability@microsoft.com" />
 # Support Topic Descriptions for d9516a10-74b5-45f4-943d-a5281d7cf1bb
 ---
 {
@@ -42,11 +41,11 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "f10fee82-842f-5525-a1db-06dc5a2d8fa6",
+      "id": "085ddeed-255d-e905-63c2-797cc68c2f81",
       "longDescription": "",
-      "shortDescription": "Any issue with Mongo API not listed",
+      "shortDescription": "Any issue with Monitoring not listed",
       "searchTags": "",
-      "category": "MongoDB",
+      "category": "Monitoring",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -63,14 +62,6 @@
       "shortDescription": "Error or exception when using Data Factory with Cosmos DB",
       "searchTags": "data factory",
       "category": "Tools and Connectors",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
-      "id": "d8b9051c-b540-34d6-39e4-89a83ef0d395",
-      "longDescription": "",
-      "shortDescription": "Any other issue with SDKs",
-      "searchTags": "",
-      "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -122,11 +113,11 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "ca4248d9-17e1-ab45-81b3-1634e1eb4202",
+      "id": "2365fe01-8934-7641-3bb8-2e5209c639ad",
       "longDescription": "",
-      "shortDescription": "Any Security issue with Azure Cosmos DB not listed",
+      "shortDescription": "Any throughput or scaling issue not listed",
       "searchTags": "",
-      "category": "Security",
+      "category": "Throughput",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -218,11 +209,11 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "f05ce96b-e2d9-d08c-8def-83abbe94840c",
+      "id": "3a324c04-5cc9-36a6-49df-11ab63c936bf",
       "longDescription": "",
-      "shortDescription": "Any issue related to Account Administration not covered by the existing topics",
+      "shortDescription": "Any issue with Connectors not listed",
       "searchTags": "",
-      "category": "Administration",
+      "category": "Tools and Connectors",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -234,6 +225,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "40f4b569-b293-8464-4f20-90f684aa6a0e",
+      "longDescription": "",
+      "shortDescription": "Any issue with SQL API that is not listed",
+      "searchTags": "",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "41b38840-391d-ef79-682f-687789b9b13a",
       "longDescription": "",
       "shortDescription": "Provision or manage Azure Cosmos DB account using ARM, CLI or PowerShell, configure security, setup global replication and multi-write regions",
@@ -242,11 +241,19 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "8c945397-c1d2-bea4-b1c0-16671080bbcc",
+      "id": "43564fd3-9f8b-9ae9-e225-3949be830689",
       "longDescription": "",
-      "shortDescription": "Any configuration requests related to backup and restore not listed",
-      "searchTags": "backup, restore",
-      "category": "Backup and Restore",
+      "shortDescription": "Any other General advisory question not listed",
+      "searchTags": "",
+      "category": "General Advisory",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "45897651-c1e4-156b-994b-2db7a9fc1979",
+      "longDescription": "",
+      "shortDescription": "Any issue related to billing and pricing that is not listed",
+      "searchTags": "",
+      "category": "Billing and Pricing",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -311,22 +318,6 @@
       "shortDescription": "Query is resulting in an error and failing to execute",
       "searchTags": "sql query",
       "category": "Core (SQL)",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
-      "id": "2365fe01-8934-7641-3bb8-2e5209c639ad",
-      "longDescription": "",
-      "shortDescription": "Any throughput or scaling issue not listed",
-      "searchTags": "",
-      "category": "Throughput",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
-      "id": "45897651-c1e4-156b-994b-2db7a9fc1979",
-      "longDescription": "",
-      "shortDescription": "Any issue related to billing and pricing that is not listed",
-      "searchTags": "",
-      "category": "Billing and Pricing",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -418,6 +409,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7285b23c-1507-75d7-1a5b-806e650d825d",
+      "longDescription": "",
+      "shortDescription": "Issues with using Azure Private Link via a private endpoint",
+      "searchTags": "private, private link, private endpoint",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "72e16fe1-678a-607f-681b-6e69be1d8096",
       "longDescription": "",
       "shortDescription": "How to use Azure Cosmos DB SDKs",
@@ -450,14 +449,6 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "43564fd3-9f8b-9ae9-e225-3949be830689",
-      "longDescription": "",
-      "shortDescription": "Any other General advisory question not listed",
-      "searchTags": "",
-      "category": "General Advisory",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
       "id": "7fabd974-2e47-f7e3-925b-3036d628a48a",
       "longDescription": "",
       "shortDescription": "Time To Live(TTL) feature",
@@ -474,6 +465,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "86107512-f8ce-062a-75f7-b3002aa1f50c",
+      "longDescription": "",
+      "shortDescription": "Issues with using Azure Private Link via a private endpoint",
+      "searchTags": "private, private link, private endpoint",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "866600f1-7ecf-985a-3e2f-254618877215",
       "longDescription": "",
       "shortDescription": "Questions on Azure Cosmos DB Mongo API or Mongo data migration",
@@ -482,11 +481,11 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "085ddeed-255d-e905-63c2-797cc68c2f81",
+      "id": "8ba0317c-6c66-349c-4305-04ade4f69b66",
       "longDescription": "",
-      "shortDescription": "Any issue with Monitoring not listed",
-      "searchTags": "",
-      "category": "Monitoring",
+      "shortDescription": "Migrating your MongoDB account to 3.6",
+      "searchTags": "mongo;3.6;migrate;update",
+      "category": "MongoDB",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -498,19 +497,19 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8c945397-c1d2-bea4-b1c0-16671080bbcc",
+      "longDescription": "",
+      "shortDescription": "Any configuration requests related to backup and restore not listed",
+      "searchTags": "backup, restore",
+      "category": "Backup and Restore",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8ca316e3-d235-6eb0-c93a-0b6533959501",
       "longDescription": "",
       "shortDescription": "Observing exception or error when using Emulator",
       "searchTags": "emulator",
       "category": "Tools and Connectors",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
-      "id": "40f4b569-b293-8464-4f20-90f684aa6a0e",
-      "longDescription": "",
-      "shortDescription": "Any issue with SQL API that is not listed",
-      "searchTags": "",
-      "category": "Core (SQL)",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -650,14 +649,6 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "3a324c04-5cc9-36a6-49df-11ab63c936bf",
-      "longDescription": "",
-      "shortDescription": "Any issue with Connectors not listed",
-      "searchTags": "",
-      "category": "Tools and Connectors",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
       "id": "ac1f748c-3450-1a95-01af-9d7f147b5f56",
       "longDescription": "",
       "shortDescription": "Unable to customize index, index creation is not taking effect, rebuilding index and query is not using index",
@@ -679,6 +670,14 @@
       "shortDescription": "Azure Cosmos DB Table API related issues",
       "searchTags": "azure table, table",
       "category": "Azure Table",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b338ae50-7acd-6046-94bb-15f6740b9b51",
+      "longDescription": "",
+      "shortDescription": "Issues or questions with using your Cosmos DB Keys and Customer Managed Keys",
+      "searchTags": "security, keys, managed keys",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -714,6 +713,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c3a11f26-6f54-639b-6d73-dba9cc3b96e3",
+      "longDescription": "",
+      "shortDescription": "Issues or questions with using Free Tier billing option",
+      "searchTags": "billing, free, free tier",
+      "category": "Billing and Pricing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c3e0565b-872c-b867-8cf4-dfa0518b449f",
       "longDescription": "",
       "shortDescription": "Provision or deploy a new Azure Cosmos DB account or change an existing Azure Cosmos DB account configuration",
@@ -727,6 +734,14 @@
       "shortDescription": "Azure Cosmos DB Spark Connector usage, Bulk Executor Library and Migration Tool",
       "searchTags": "spark, bulk executor, powerbi, data migration, data factory, function triggers, emulator, change feed",
       "category": "Tools and Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c3faf836-a0df-6e47-8523-a54e1a84637a",
+      "longDescription": "",
+      "shortDescription": "Any issue with Cassandra API that is not listed",
+      "searchTags": "",
+      "category": "Cassandra",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -751,6 +766,14 @@
       "shortDescription": "CQL command is failing with error or returning unexpected result or generating exceptions",
       "searchTags": "cassandra",
       "category": "Cassandra",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ca4248d9-17e1-ab45-81b3-1634e1eb4202",
+      "longDescription": "",
+      "shortDescription": "Any Security issue with Azure Cosmos DB not listed",
+      "searchTags": "",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -810,6 +833,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d8b9051c-b540-34d6-39e4-89a83ef0d395",
+      "longDescription": "",
+      "shortDescription": "Any other issue with SDKs",
+      "searchTags": "",
+      "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d9880a3d-e1c4-d1c4-5730-33bab0313757",
       "longDescription": "",
       "shortDescription": "CQL command request are failing with Unsupported command or what the command are supported in Azure Cosmos DB Cassandra API",
@@ -839,14 +870,6 @@
       "shortDescription": "Provision or manage Azure Cosmos DB account through ARM Template or access the resources through Rest API",
       "searchTags": "arm, arm template, rest, rest api",
       "category": "Administration",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
-      "id": "c3faf836-a0df-6e47-8523-a54e1a84637a",
-      "longDescription": "",
-      "shortDescription": "Any issue with Cassandra API that is not listed",
-      "searchTags": "",
-      "category": "Cassandra",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -890,6 +913,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f05ce96b-e2d9-d08c-8def-83abbe94840c",
+      "longDescription": "",
+      "shortDescription": "Any issue related to Account Administration not covered by the existing topics",
+      "searchTags": "",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f10fee82-842f-5525-a1db-06dc5a2d8fa6",
+      "longDescription": "",
+      "shortDescription": "Any issue with Mongo API not listed",
+      "searchTags": "",
+      "category": "MongoDB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f2509166-00e8-874b-1c78-6da924944495",
       "longDescription": "",
       "shortDescription": "Various topics for Azure Cosmos DB Core (SQL) API including Data Migration",
@@ -911,38 +950,6 @@
       "shortDescription": "SDK is throwing an error or returning an unexpected result",
       "searchTags": "sdk",
       "category": "SDK (SQL API)",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
-      "id": "7285b23c-1507-75d7-1a5b-806e650d825d",
-      "longDescription": "",
-      "shortDescription": "Issues with using Azure Private Link via a private endpoint",
-      "searchTags": "private, private link, private endpoint",
-      "category": "Security",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
-      "id": "86107512-f8ce-062a-75f7-b3002aa1f50c",
-      "longDescription": "",
-      "shortDescription": "Issues with using Azure Private Link via a private endpoint",
-      "searchTags": "private, private link, private endpoint",
-      "category": "Administration",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
-      "id": "c3a11f26-6f54-639b-6d73-dba9cc3b96e3",
-      "longDescription": "",
-      "shortDescription": "Issues or questions with using Free Tier billing option",
-      "searchTags": "billing, free, free tier",
-      "category": "Billing and Pricing",
-      "useInDiagnoseAndSolve": "true"
-    },
-    {
-      "id": "b338ae50-7acd-6046-94bb-15f6740b9b51",
-      "longDescription": "",
-      "shortDescription": "Issues or questions with using your Cosmos DB Keys and Customer Managed Keys",
-      "searchTags": "security, keys, managed keys",
-      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     }
   ]
