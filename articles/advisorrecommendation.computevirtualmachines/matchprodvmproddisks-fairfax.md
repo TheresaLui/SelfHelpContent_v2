@@ -14,7 +14,7 @@
   "recommendationOfferingId": "c3c3299d-ee34-4610-844d-3782d691a7fe",
   "recommendationOfferingName": "Storage",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "7b3a6b9c-fb63-4525-89aa-ccb3b761592e",
+  "recommendationTypeId": "9b0d1cf7-8a3a-4c8b-8f9f-1c3e70e399d6",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
     "streamNamespace": "AzureStorage.Data.MatchProdVMProdDiskFairfaxV1",
