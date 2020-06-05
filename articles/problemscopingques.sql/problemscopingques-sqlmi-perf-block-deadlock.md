@@ -86,7 +86,7 @@
             "id": "db_migrated",
             "order": 30,
             "controlType": "dropdown",
-            "displayLabel": "Was this database migrated to Azure recently?",
+            "displayLabel": "Was this database migrated to Azure Managed Instance?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
