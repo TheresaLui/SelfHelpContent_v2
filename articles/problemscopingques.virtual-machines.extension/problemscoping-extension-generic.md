@@ -4,7 +4,7 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32628257"
+                supportTopicIds="32628257,32674481,32674478"
                 productPesIds="14749,15571,15797,16454,16470"
                 cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
@@ -16,7 +16,7 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Azure Desired State Configuration (DSC) extension issue",
+    "title": "Azure extension issue",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -25,7 +25,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you received?",
             "required": false,
-            "useAsAdditionalDetails": false
+            "useAsAdditionalDetails": true
         },
         {
             "id": "extension_operation",
