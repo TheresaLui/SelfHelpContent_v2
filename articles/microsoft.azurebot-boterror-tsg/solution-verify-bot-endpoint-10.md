@@ -19,9 +19,9 @@
 
 <!--issueDescription-->
 
-Verify if Bot endpoint is valid.
-Verify if you can directly make a request to this endpoint from emulator
-Check Firewall, NGROK configuration
+1. Verify if Bot endpoint is valid.
+2. Verify if you can directly make a request to this endpoint from emulator
+3. Check Firewall, NGROK configuration
 
 <!--/issueDescription-->
 
