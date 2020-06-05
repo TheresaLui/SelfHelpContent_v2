@@ -204,6 +204,58 @@
             "required": false
         },
         {
+            "id": "sdk_used_java_os",
+            "order": 13,
+            "visibility": "sdk_used == Java",
+            "controlType": "dropdown",
+            "displayLabel": "Which is the operating system running the application?",
+            "dropdownOptions": [
+                {
+                    "value": "Windows",
+                    "text": "Windows"
+                },
+                {
+                    "value": "Linux",
+                    "text": "Linux"
+                },
+                {
+                    "value": "Mac OSX",
+                    "text": "Max OSX"
+                },
+                {
+                    "value": "Other",
+                    "text": "Other"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Unknown"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "sdk_used_java_2x",
+            "order": 13,
+            "visibility": "sdk_used == Java",
+            "controlType": "dropdown",
+            "displayLabel": "•	If you are using a version a 2.X version, is the JVM Agent being used for dependency collection?",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Unknown"
+                }
+            ],
+            "required": false
+        },
+        {
             "id": "sdk_used_other",
             "order": 14,
             "visibility": "sdk_used == Other",
@@ -231,27 +283,6 @@
                     "text": "Upload screenshots below as file attachments"
                 }
             ]
-        },
-                {
-            "id": "availability_test_reason",
-            "order": 17,
-            "controlType": "dropdown",
-            "displayLabel": "Do you believe there is a problem with the data Application Insights is presenting or are you looking for guidance on resolving an error? ",
-            "dropdownOptions": [
-                {
-                    "value": "Application Insights data correct but help needed fixing an error",
-                    "text": "Application Insights data correct but help needed fixing an error"
-                },
-                {
-                    "value": "Application Insights data looks incorrect",
-                    "text": "Application Insights data looks incorrect"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "I don't know"
-                }
-            ],
-            "required": true
         },
         {
             "id": "additional_information",
