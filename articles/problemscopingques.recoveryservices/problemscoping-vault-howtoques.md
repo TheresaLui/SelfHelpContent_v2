@@ -39,7 +39,7 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
-        }
+        },
         {
             "id": "question",
             "order": 3,
@@ -47,8 +47,7 @@
             "displayLabel": "Please enter your Question below.",
             "watermarkText": "Try to keep your query short and clear",
             "diagnosticInputRequiredClients": "Portal",
-            "required": true,
-            "useAsAdditionalDetails": true
+            "required": true
         }
     ]
 }
