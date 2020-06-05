@@ -1,23 +1,23 @@
 <properties
-	articleId="accessing-application-insights-data-outside-of-azure-portal"
-	pageTitle="Accessing Application Insights data outside of Azure Portal"
-	description="Accessing Application Insights data outside of Azure Portal"
+	articleId="managing-application-insights-resource-configuring-security-and-quota"
+	pageTitle="Managing Application Insights resource, Configuring Security, and Quota"
+	description="Managing Application Insights resource, Configuring Security, and Quota"
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32729608, 32729610, 32729611"
+	supportTopicIds="32729593, 32729596, 32729597, 32729600, 32729601"
 	productPesIds="15693"
 	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />
-# Accessing Application Insights data outside of Azure Portal
+# Managing Application Insights resource, Configuring Security, and Quota
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Accessing Application Insights data outside of Azure Portal",
-    "fileAttachmentHint": "Please uploaded the relevant code and any other information which may help the support engineer troubleshoot your issue.",
+    "title": "Managing Application Insights resource, Configuring Security, and Quota",
+    "fileAttachmentHint": "Please upload a screenshot(s) of the entire browser window displaying the symptom.  Kindly include an image of clock, and any other relevant information which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -46,6 +46,14 @@
                 }
             ]
         },
+        {
+            "id": "additional_ai_component",
+            "order": 7,
+            "controlType": "textbox",
+            "displayLabel": "If you need to recover, rename, or move an AI Component what is the specific name of the component and the resource group it resided?",
+            "watermarkText": "If you need to recover, rename, or move an AI Component what is the specific name of the component and the resource group it resided?",
+            "required": false,
+        }
         {
             "id": "additional_information",
             "order": 9,
