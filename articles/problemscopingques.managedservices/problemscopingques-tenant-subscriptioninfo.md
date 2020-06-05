@@ -34,7 +34,7 @@
             "useAsAdditionalDetails": false
         }, {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
             "watermarkText": "Provide any additional details to the issue you're experiencing",
@@ -54,15 +54,15 @@
             "watermarkText": "Please provide the ID of the tenant that is managing the services(if applicable)",
             "required": true
         }, {
-            "id": "OtherSubID_desc",
+            "id": "OtherDelSubID_desc",
             "order": 4,
             "controlType": "Textbox",
-            "displayLabel": "Additional SubscriptionID",
-            "watermarkText": "Please provide other subscription ID that is impacted with this same issue(if applicable)",
+            "displayLabel": "Another Delegated subscription impacted",
+            "watermarkText": "Please provide another delegated subscription ID that is impacted with this same issue(if applicable)",
             "required": false
          }, {
             "id": "PrinicipalID_desc",
-            "order": 6,
+            "order": 5,
             "controlType": "Textbox",
             "displayLabel": "Delegated PrincipalID",
             "watermarkText": "Please provide the principalId that is getting the delegated permissions",
