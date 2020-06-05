@@ -1,29 +1,29 @@
 <properties
-	articleId="problemscopingques-issue-while-investigating-performance-in-my-app"
-	pageTitle="Issue while investigating performance in my app"
-	description="Issue while investigating performance in my app"
+	articleId="problemscopingques-issue-while-analyzing-usage-of-my-app"
+	pageTitle="Issue while analyzing Usage of my app"
+	description="Issue while analyzing Usage of my app"
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32729565, 32729571, 32729579, 32729581, 32729584, 32729614, 32729626, 32729629, 32729631"
+	supportTopicIds="32729563"
 	productPesIds="15693"
 	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />
-# Issue while investigating performance in my app
+# Issue while analyzing Usage of my app
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Issue while investigating performance in my app",
+    "title": "Issue while analyzing Usage of my app",
     "fileAttachmentHint": "Please upload a screenshot(s) of the entire browser window displaying the symptom.  Kindly include an image of clock, and any other relevant information which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start occurring?",
+            "displayLabel": "When did the problem start?",
             "required": true
         },
         {
@@ -92,27 +92,6 @@
                     "text": "Upload screenshots below as file attachments"
                 }
             ]
-        },
-                {
-            "id": "availability_test_reason",
-            "order": 7,
-            "controlType": "dropdown",
-            "displayLabel": "Do you believe there is a problem with the data Application Insights is presenting or are you looking for guidance on resolving an error? ",
-            "dropdownOptions": [
-                {
-                    "value": "AI data correct but help needed fixing performance issues of the app",
-                    "text": "AI data correct but help needed fixing performance issues of the app"
-                },
-                {
-                    "value": "Application Insights (AI) data looks incorrect",
-                    "text": "Application Insights (AI) data looks incorrect"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "I don't know"
-                }
-            ],
-            "required": true
         },
         {
             "id": "additional_information",

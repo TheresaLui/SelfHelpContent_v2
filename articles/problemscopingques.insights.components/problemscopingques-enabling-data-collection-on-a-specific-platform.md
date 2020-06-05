@@ -1,59 +1,55 @@
 <properties
-	articleId="problemscopingques-issue-while-investigating-performance-in-my-app"
-	pageTitle="Issue while investigating performance in my app"
-	description="Issue while investigating performance in my app"
+	articleId="problemscopingques-enabling-data-collection-on-a-specific-platform-using-codeless-attach"
+	pageTitle="Enabling data collection on a specific platform using codeless attach"
+	description="Enabling data collection on a specific platform using codeless attach"
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32729565, 32729571, 32729579, 32729581, 32729584, 32729614, 32729626, 32729629, 32729631"
+	supportTopicIds="32729587, 32729618, 32729619, 32729620, 32729621, 32729622, 32729623, 32729624, 32729615, 32729616,32729617"
 	productPesIds="15693"
 	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />
-# Issue while investigating performance in my app
+# Enabling data collection on a specific platform using codeless attach
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Issue while investigating performance in my app",
+    "title": "Enabling data collection on a specific platform using codeless attach",
     "fileAttachmentHint": "Please upload a screenshot(s) of the entire browser window displaying the symptom.  Kindly include an image of clock, and any other relevant information which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start occurring?",
+            "displayLabel": "When did the problem start?",
             "required": true
         },
         {
             "id": "notification_type",
             "order": 3,
             "controlType": "multiselectdropdown",
-            "displayLabel": "Where is the monitored application running?",
+            "displayLabel": "What is the language of the monitored application experiencing the issue?",
             "watermarkText": "Choose one or more",
             "dropdownOptions": [
                 {
-                    "value": "Azure VM",
-                    "text": "Azure VM"
+                    "value": ".Net language",
+                    "text": ".Net language"
                 },
                 {
-                    "value": "On-Premises VM",
-                    "text": "On-Premises VM"
+                    "value": "Java",
+                    "text": "Java"
                 },
                 {
-                    "value": "Azure Web App or App Service",
-                    "text": "Azure Web App or App Service"
+                    "value": "Node.js",
+                    "text": "Node.js"
                 },
                 {
-                    "value": "Azure Cloud Service",
-                    "text": "Azure Cloud Service"
+                    "value": "Javascript",
+                    "text": "Javascript"
                 },
                 {
-                    "value": "Azure Function",
-                    "text": "Azure Function"
-                },
-                                {
                     "value": "Other",
                     "text": "Other"
                 },
@@ -64,15 +60,15 @@
             ],
             "required": true
         },
-        {
+            {
             "id": "notification_type_other",
             "order": 4,
             "visibility": "notification_type == Other",
             "controlType": "textbox",
-            "displayLabel": "Please describe how the monitored application is deployed:",
-            "watermarkText": "Kubernetes, Cloud Provider XYZ",
+            "displayLabel": "What is the language of the monitored application experiencing the issue?",
+            "watermarkText": "What is the language of the monitored application experiencing the issue?",
             "required": false
-        },
+            },
         {
             "id": "problem_description",
             "order": 5,
@@ -92,27 +88,6 @@
                     "text": "Upload screenshots below as file attachments"
                 }
             ]
-        },
-                {
-            "id": "availability_test_reason",
-            "order": 7,
-            "controlType": "dropdown",
-            "displayLabel": "Do you believe there is a problem with the data Application Insights is presenting or are you looking for guidance on resolving an error? ",
-            "dropdownOptions": [
-                {
-                    "value": "AI data correct but help needed fixing performance issues of the app",
-                    "text": "AI data correct but help needed fixing performance issues of the app"
-                },
-                {
-                    "value": "Application Insights (AI) data looks incorrect",
-                    "text": "Application Insights (AI) data looks incorrect"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "I don't know"
-                }
-            ],
-            "required": true
         },
         {
             "id": "additional_information",

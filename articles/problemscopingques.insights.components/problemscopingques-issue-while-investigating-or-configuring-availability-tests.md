@@ -83,6 +83,15 @@
             "required": true
         },
         {
+            "id": "notification_type_other",
+            "order": 4,
+            "visibility": "notification_type == Other",
+            "controlType": "textbox",
+            "displayLabel": "Please describe how the monitored application is deployed:",
+            "watermarkText": "Kubernetes, Cloud Provider XYZ",
+            "required": false
+        },
+        {
             "id": "problem_description",
             "order": 7,
             "controlType": "multilinetextbox",
