@@ -235,7 +235,7 @@
         },
         {
             "id": "sdk_used_java_2x",
-            "order": 13,
+            "order": 14,
             "visibility": "sdk_used == Java",
             "controlType": "dropdown",
             "displayLabel": "•	If you are using a version a 2.X version, is the JVM Agent being used for dependency collection?",
@@ -257,7 +257,7 @@
         },
         {
             "id": "sdk_used_other",
-            "order": 14,
+            "order": 15,
             "visibility": "sdk_used == Other",
             "controlType": "textbox",
             "displayLabel": "Which SDK is being utilized?",
@@ -266,7 +266,7 @@
         },
         {
             "id": "problem_description",
-            "order": 15,
+            "order": 16,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the problem you are seeing",
             "watermarkText": "Please include expected versus observed behavior, exact errors, etc",
