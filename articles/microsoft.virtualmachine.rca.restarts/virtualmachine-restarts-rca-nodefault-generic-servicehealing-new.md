@@ -3,7 +3,7 @@
 	description="RCA - Node Service Heal - Node Crash"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service=""
-	resource=""
+	resource="s"
 	authors="ScottAzure"
 	ms.author="jozender"
 	displayOrder=""
