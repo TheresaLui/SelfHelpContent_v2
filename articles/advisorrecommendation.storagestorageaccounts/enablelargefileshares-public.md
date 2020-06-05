@@ -5,7 +5,7 @@
     ms.author="xdataanalytics"
     articleId="dd65e838-4473-4fdb-b124-e09798e35f36_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, USSec, USNat"
     ownershipId="StorageMediaEdge_XStore"
 />
 # Update your file share configuration to avoid throttling
