@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "84dc27a8-0944-8b1b-c855-20b6a2eeaf2e",
+      "longDescription": "",
+      "shortDescription": "Cases related to Classic to ARM Migration. Please file the case under Virtual Machines team.",
+      "searchTags": "ASMARM;ClassicARMMigration",
+      "category": "Reroutes",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9123773b-88c6-9665-e93c-a31fae5482dd",
       "longDescription": "",
       "shortDescription": "Issues related to Azure Migrate Server Migration tool used to migrate virtual machines to Azure",
