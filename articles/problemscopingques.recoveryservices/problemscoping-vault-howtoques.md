@@ -26,10 +26,10 @@
     },
     "formElements": [
 	{ 
-            "id": "problem_start_time", 
-            "order": 1, 
-            "controlType": "datetimepicker", 
-            "displayLabel": "When did the problem start?", 
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?"
         },
         {
             "id": "problem_description",
@@ -37,10 +37,10 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Please enter your Question below.",
             "watermarkText": "Try to keep your query short and clear",
-            "diagnosticInputRequiredClients": "Portal"
+            "diagnosticInputRequiredClients": "Portal",
             "required": true,
-            "useAsAdditionalDetails": true,
-        },
+            "useAsAdditionalDetails": true
+        }
     ]
 }
 ---
