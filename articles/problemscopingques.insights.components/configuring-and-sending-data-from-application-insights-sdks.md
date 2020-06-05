@@ -93,8 +93,8 @@
                     "text": ".NET/.Net Core"
                 },
                 {
-                    "value": "Java ",
-                    "text": "Java "
+                    "value": "Java",
+                    "text": "Java"
                 },
                 {
                     "value": "Node.js",
