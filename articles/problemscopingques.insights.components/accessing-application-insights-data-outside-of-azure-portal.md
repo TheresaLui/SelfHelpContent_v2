@@ -1,7 +1,7 @@
 <properties
-	articleId="configuring-application-insights-using-automation-and-deployment"
-	pageTitle="Configuring Application Insights using automation and deployment"
-	description="Configuring Application Insights using automation and deployment"
+	articleId="accessing-application-insights-data-outside-of-azure-portal"
+	pageTitle="Accessing Application Insights data outside of Azure Portal"
+	description="Accessing Application Insights data outside of Azure Portal"
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
@@ -11,12 +11,12 @@
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />
-# Configuring Application Insights using automation and deployment
+# Accessing Application Insights data outside of Azure Portal
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Configuring Application Insights using automation and deployment",
+    "title": "Accessing Application Insights data outside of Azure Portal",
     "fileAttachmentHint": "Please uploaded the relevant code and any other information which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
