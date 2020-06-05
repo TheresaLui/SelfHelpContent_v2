@@ -5,7 +5,7 @@ authors="vakr,scottnap,shafos"
 ms.author="nvaeng"
 articleId="6230537d-113a-42ec-9357-c08d01602787"
 selfHelpType="advisorRecommendationMetadata"
-cloudEnvironments="Public"
+cloudEnvironments="Public, usnat, ussec"
 ownershipId="CloudNet_NVA"
 />
 # Known issue with Check Point Network Virtual Appliance image version
@@ -49,6 +49,6 @@ ownershipId="CloudNet_NVA"
     ],
     "displayLabel": "Known Issue with Check Point Network Virtual Appliance image version",
     "tip": "Upgrade Network Virtual Appliance image to ensure business continuity.",
-    "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/bigipha_rg/providers/Microsoft.Compute/virtualMachines/bigiphatest-f5vm010"
+    "testData": "0d5048c6-e9d8-4118-9a2d-fca00a351161,/subscriptions/0d5048c6-e9d8-4118-9a2d-fca00a351161/resourceGroups/checkpoint8020test/providers/Microsoft.Compute/virtualMachines/checkpointcg8020"
 }
 ---

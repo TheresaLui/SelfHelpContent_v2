@@ -9,7 +9,7 @@
     articleId="insights-for-vm-senddata-onprem"
     productPesIds="17081"
     supportTopicIds="32738497"
-    cloudEnvironments="public, fairfax"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
  />
 

@@ -28,6 +28,10 @@
 	
 	If a Key Vault certificate expires, it's addressable key and secret become inoperable. [Configure Certificate's Life cycle attributes](https://docs.microsoft.com/azure/key-vault/certificates/tutorial-rotate-certificates).
 
+* How to export a certificate from Key vault?
+	
+	You can download the certificate in .cer, .pfx or .pem format. [Exporting certificate from Azure portal](https://docs.microsoft.com/azure/key-vault/certificates/quick-create-portal#add-a-certificate-to-key-vault).
+
 ## **Recommended Documents**
 
 * [Creating Certificate using CLI](https://docs.microsoft.com/rest/api/keyvault/createcertificate/createcertificate)

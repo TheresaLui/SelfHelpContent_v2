@@ -5,7 +5,7 @@
     ms.author="evanba"
     articleId="010692cc-0668-43fa-b7dc-6766efb22e59"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="CloudNet_NVA"
 />
 

@@ -36,8 +36,8 @@
       "id": "03c7e268-b252-df00-d514-c1731ad3152b",
       "longDescription": "",
       "shortDescription": "Questions or issues with SQL Server Data Tools, a Visual Studio component for Analysis Services, Integration Services, Reporting Services and others.",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -92,8 +92,8 @@
       "id": "23e8bc0a-778d-9fd8-cee6-50d68d64f78f",
       "longDescription": "",
       "shortDescription": "Questions on the SQL Server edition/version, SQL Server licensing and Azure Hybrid Benefit.",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -108,8 +108,8 @@
       "id": "25107154-393b-dc1c-cca8-bfe479ff5586",
       "longDescription": "",
       "shortDescription": "Questions on connections to the virtual machine hosting an instance of SQL Server",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -132,8 +132,8 @@
       "id": "31a5aafb-9b24-8aa4-86b4-bc8d40a6a6f4",
       "longDescription": "",
       "shortDescription": "Questions or issues related to the performance of SQL Server or the Azure VM and its components.",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -148,8 +148,8 @@
       "id": "39c4ee1d-8dcf-c174-b6c6-98707ba7d8c2",
       "longDescription": "",
       "shortDescription": "Questions on commonly accepted best practices for SQL Server on Azure VM.",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -236,8 +236,8 @@
       "id": "595c4621-2270-5e0f-8f03-1ceb7b39f2b8",
       "longDescription": "",
       "shortDescription": "Questions or issues with the Azure portal, SQL Server Management Studio, Azure Data Studio, Azure PowerShell, or the Data Migration Assistant",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -268,8 +268,8 @@
       "id": "6464b9a9-6866-cb72-d743-47d574392063",
       "longDescription": "",
       "shortDescription": "Questions on Azure Automated Backup for SQL Server, backup on Azure Recovery Vaults",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -300,8 +300,8 @@
       "id": "7c74399f-b368-fbb5-890b-bb891d7b75c8",
       "longDescription": "",
       "shortDescription": "Questions on high availability and disaster recovery options in Azure-only environments or hybrid environments",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -316,8 +316,8 @@
       "id": "930498c8-000a-eac4-e3cd-3f6cc0742ad2",
       "longDescription": "",
       "shortDescription": "Questions or issues with administration tasks of the VM.",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -340,8 +340,8 @@
       "id": "9f78ce8a-dfb6-1a96-e953-3e4a9f394c97",
       "longDescription": "",
       "shortDescription": "Questions or issues connecting to an instance of SQL Server on Azure VM.",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -456,14 +456,7 @@
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
     },
-    {
-      "id": "df3be71a-64c5-4b80-9b7f-392776c4495c",
-      "longDescription": "",
-      "shortDescription": "",
-      "searchTags": "alwayson;always on;ha;primary;secondary;listener;load balancer;ilb;availability group;ag;ag connectivity;availability group connectivity",
-      "category": "Availability",
-      "useInDiagnoseAndSolve": "TRUE"
-    },
+   
     {
       "id": "e5d71be9-2d18-46a7-2b83-e533b4b6987f",
       "longDescription": "",
@@ -484,8 +477,8 @@
       "id": "e96c715b-c32f-feac-2fad-ae658ade93d5",
       "longDescription": "",
       "shortDescription": "Questions or issues with the administration of your SQL server.",
-      "searchTags": null,
-      "category": null,
+      "searchTags": "",
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -603,7 +596,7 @@
     {
       "id": "71c1694b-d17e-a160-7281-9dac18051ba2",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Issues Connecting to the Virtaul Machine like RDP, SSH, Firewall or NSG",
       "searchTags": "",
       "category": "Connectivity",
        "useInDiagnoseAndSolve": "FALSE"
@@ -635,7 +628,7 @@
     {
       "id": "311af6de-1219-6413-c04e-067b5d5a97a6",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Issues with performance like slow SQL Server, Network, Disk or Virtual Machine",
       "searchTags": null,
       "category": null,
       "useInDiagnoseAndSolve": "FALSE"
@@ -715,7 +708,7 @@
     {
      "id": "ad3d1f86-bddd-6add-5ef3-61cca77fc992",
      "longDescription": "",
-     "shortDescription": "",
+     "shortDescription": "Issues SQL Server Instance Security like Certificates, SSL, TLS, Encryption, Auditing, Logins",
      "searchTags": "",
      "category": "Security",
      "useInDiagnoseAndSolve": "FALSE"
@@ -763,9 +756,9 @@
     {
       "id": "d0dba167-0a54-1d57-6490-52d6ff062870",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Issues with SQL Server backup like Auto/managed backup, Backup to Azure Storage(URL), Backup to disk or Azure Backup Services",
       "searchTags": "",
-      "category": null,
+      "category": "",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -779,7 +772,7 @@
     {
       "id": "d814c242-026f-8d64-abe8-30e028aa1e26",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Issues with an AlwaysOn solution such as availability groups, failover cluster instance, mirroring, log shipping or replication",
       "searchTags": null,
       "category": null,
       "useInDiagnoseAndSolve": "FALSE"
@@ -795,7 +788,7 @@
     {
       "id": "fe4569a4-9745-ae43-785f-812e63b668ae",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Issues Virtual Machine start, stop, restarts, Storage configuration, VM size guidelines",
       "searchTags": null,
       "category": null,
       "useInDiagnoseAndSolve": "FALSE"
@@ -811,7 +804,7 @@
     {
       "id": "1527741e-7a7b-86ed-fbef-ea5f6917a441",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Issues with SQL Server Setup/Patching, Licensing, SQL VM images, SQL VM RP/IaaS Extension Setup",
       "searchTags": "",
       "category": "Licensing",
       "useInDiagnoseAndSolve": "FALSE"
@@ -819,7 +812,7 @@
     {
       "id": "9dc91de7-74a4-cc01-510a-de9f583f59eb",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Connection issues with SQL Server Instance stand alone or AlwaysOn AG/FCI",
       "searchTags": null,
       "category": null,
       "useInDiagnoseAndSolve": "FALSE"
@@ -932,7 +925,7 @@
     {
       "id": "b6e42bd0-488f-2182-b62e-06aea484fb03",
       "longDescription": "",
-      "shortDescription": "",
+      "shortDescription": "Issues with Database space, corruption, configuration, SQL Service Startup, SQL agent, database mail, SQL Crashes and dumps, Tools, Polybase, R Services, Resource Governor etc.",
       "searchTags": null,
       "category": null,
       "useInDiagnoseAndSolve": "FALSE"
