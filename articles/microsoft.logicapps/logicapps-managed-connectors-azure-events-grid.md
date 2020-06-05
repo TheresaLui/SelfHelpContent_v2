@@ -6,7 +6,7 @@
     authors="v-miegge"
     ms.author="mquian"
     selfHelpType="generic"
-    supportTopicIds="---"
+    supportTopicIds="32742502"
     resourceTags=""
     productPesIds="15791"
     ownershipId="Compute_LogicApps"
