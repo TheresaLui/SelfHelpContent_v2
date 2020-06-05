@@ -24,8 +24,8 @@ Azure Data Factory does not retain any customer data after factory deletion has 
 
 ### Backup
 
-Azure Data Factory provides Source Control integration with Git repositories to manage version control and history of changes. To review the benefits of Source Control integration, and a step by step guide on <b>how to configure it</b>, please review [Advantages of git integration](https://docs.microsoft.com/azure/data-factory/source-control#advantages-of-git-integration)
+Azure Data Factory provides Source Control integration with Git repositories to manage version control and history of changes. To review the benefits of Source Control integration, and a step by step guide on how to configure it, please review [Advantages of git integration](https://docs.microsoft.com/azure/data-factory/source-control#advantages-of-git-integration).
 
-Once Source Control integration is defined you can implement continuous integration and delivery by following the documentation on [Continuous integration and delivery in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment) 
+Once Source Control integration is defined you can implement continuous integration and delivery by following the documentation on [Continuous integration and delivery in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment).
 
  
