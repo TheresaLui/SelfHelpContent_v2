@@ -4,7 +4,7 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635687,32681430,32692605"
+	supportTopicIds="32681430,32692605"
 	productPesIds="15960,17003"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
