@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "39ffdf11-4699-b519-23d0-2c5538394329",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when users want to assess and migrate databases. Select Database Migration as service instead of Azure Migrate. ",
+      "searchTags": "Database;DMA;DMS",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4716fda9-6f51-8451-d72a-4e0232108d50",
       "longDescription": "",
       "shortDescription": "Replication related issues in all the stacks that Azure Migrate supports",
