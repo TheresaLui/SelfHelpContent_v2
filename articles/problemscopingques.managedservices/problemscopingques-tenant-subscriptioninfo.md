@@ -57,9 +57,9 @@
             "id": "OtherDelSubID_desc",
             "order": 4,
             "controlType": "Textbox",
-            "displayLabel": "Another Delegated subscription impacted",
-            "watermarkText": "Please provide another delegated subscription ID that is impacted with this same issue(if applicable)",
-            "required": false
+            "displayLabel": "ID of the Delegated subscription impacted",
+            "watermarkText": "Please provide the delegated subscription ID that is impacted with this same issue(if applicable)",
+            "required": true
          }, {
             "id": "PrinicipalID_desc",
             "order": 5,
