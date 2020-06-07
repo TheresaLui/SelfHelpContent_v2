@@ -1,13 +1,13 @@
 <properties
-    pageTitle="Azure Stack hardware"
-    description="General Azure Stack hardware issues that do not fit storage or networking"
+    pageTitle="Azure Stack Hub hardware"
+    description="General Azure Stack Hub hardware issues that do not fit storage or networking"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629237,32629221,32629256,32630573,32629220"
+    supportTopicIds="32629221,32629256,32630573,32629220"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -15,11 +15,9 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Azure Stack Hardware Issues
+# Azure Stack Hub Hardware Issues
 
-**Known Issue**
-
-After applying the 2002 update, an alert for an "Invalid Time Source" may incorrectly appear in the Administrator portal. This false-positive alert can be ignored and will be fixed in an upcoming release. For more information, see [Azure Stack Hub known issues](https://docs.microsoft.com/azure-stack/operator/known-issues?view=azs-2002).  
+**NOTE**: Before you create a support ticket, review [**Release notes**](https://docs.microsoft.com/azure-stack/operator/release-notes) and [**Known issues**](https://docs.microsoft.com/azure-stack/operator/known-issues) for the update you are applying (choose from the Version drop-down menu). This may save you time and effort.
 
 ## **Recommended Steps**
 
@@ -35,5 +33,5 @@ See your vendor’s field replaceable unit (FRU) documentation for detailed step
 
 ## **Recommended Documents**
 
-* [Scale unit node actions in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-node-actions)
-* [Replace a hardware component on an Azure Stack scale unit node](https://docs.microsoft.com/azure/azure-stack/azure-stack-replace-component)
+* [Scale unit node actions in Azure Stack Hub](https://docs.microsoft.com/azure/azure-stack/azure-stack-node-actions)
+* [Replace a hardware component on an Azure Stack Hub scale unit node](https://docs.microsoft.com/azure/azure-stack/azure-stack-replace-component)
