@@ -126,6 +126,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3186f061-e2cb-e48e-e25d-22ae36bc3f7f",
+      "longDescription": "",
+      "shortDescription": "I need to increase my quota of activity log alert rules ",
+      "searchTags": "Alerts;Activity log alerts",
+      "category": "Alert rules quota",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "33c71f09-df99-07d5-25fa-09ceac71a325",
       "longDescription": "",
       "shortDescription": "I am trying to create, edit or delete a Service health or resource health alert rule, but I am getting an error, or I am not sure how to configure it",
