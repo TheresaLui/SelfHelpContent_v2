@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "afdbca3e-734c-a595-4e46-96f408fff804",
+      "longDescription": "",
+      "shortDescription": "I have a problem or not sure how to retrieve or update fired alerts using REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;Alerts management;CLI;ARM Templates",
+      "category": "Alerts management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "afe7bec7-d37d-0453-f1f2-86974678b222",
       "longDescription": "",
       "shortDescription": "I am trying to configure another type of alert rule (not mentioned above) but I do not know how to do it",
