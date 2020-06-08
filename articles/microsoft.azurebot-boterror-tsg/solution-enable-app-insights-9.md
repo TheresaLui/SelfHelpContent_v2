@@ -23,3 +23,7 @@ Enable app insights for the Bot and App Service to get more information about th
 
 <!--/issueDescription-->
 
+## Recommended Documents
+
+1. [Bot Enable App Insights](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-troubleshoot-500-errors?view=azure-bot-service-4.0&tabs=dotnetwebapi)
+

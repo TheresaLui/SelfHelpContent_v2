@@ -15,7 +15,7 @@
    	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# CHeck for errors
+# Check for errors
 
 <!--issueDescription-->
 
