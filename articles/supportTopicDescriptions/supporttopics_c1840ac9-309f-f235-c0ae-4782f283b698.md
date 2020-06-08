@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6adfeddf-4490-e63b-dd11-35740e28e3cd",
+      "longDescription": "",
+      "shortDescription": "I am trying to create, edit or delete an action rule but I am getting an error, or not sure  how to configure it",
+      "searchTags": "Alerts;Action rules;Action rule configuration;UI",
+      "category": "Action rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "78577d15-b487-02e6-8892-385cacef5526",
       "longDescription": "",
       "shortDescription": "I have a specific alert that its notification or action triggered multiple times",
