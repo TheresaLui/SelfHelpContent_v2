@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e93b3bcd-f837-a72d-afe1-1ce7ddefd3ac",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure know how to create or manage metric alert rules using ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;Metric alerts;Alert rule configuration;CLI;ARM templates",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "edadb56e-6ec7-2bbe-7f29-fee00b57b009",
       "longDescription": "",
       "shortDescription": "I am getting an error or not sure how to create, update or modify an action group or action rule in the Azure portal",
