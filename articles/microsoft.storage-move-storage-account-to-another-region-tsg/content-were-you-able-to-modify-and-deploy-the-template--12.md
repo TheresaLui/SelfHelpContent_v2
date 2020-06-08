@@ -19,7 +19,7 @@
 
 Follow the article below for a step by step with pictures if you have questions about modifying the template: 
 
-## REcomended Documents
+## Recomended Documents
 
 1. [Edit and Deploy Templates](https://docs.microsoft.com/es-mx/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal#edit-and-deploy-the-template) 
 
