@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "afe7bec7-d37d-0453-f1f2-86974678b222",
+      "longDescription": "",
+      "shortDescription": "I am trying to configure another type of alert rule (not mentioned above) but I do not know how to do it",
+      "searchTags": "Alerts;Alert rules;Alert rule configuration",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b34047a4-629e-f045-a0bf-82cd17f79981",
       "longDescription": "",
       "shortDescription": "I am trying to create, edit or delete a classic metric alert rule in the Azure portal, but I am getting an error, or I do not know how to configure it",
