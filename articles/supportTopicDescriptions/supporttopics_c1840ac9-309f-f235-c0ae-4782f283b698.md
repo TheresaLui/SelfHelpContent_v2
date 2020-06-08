@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "081588f8-a062-a912-5763-7dd062537f75",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to create or manage activity log alert rules using ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;Activity log alerts;Alert rule configuration;CLI;ARM template",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0907aea1-faf3-47b3-eb18-d8e46b549a63",
       "longDescription": "",
       "shortDescription": "A metric alert (classic) should have fired but I do not see it in the Azure portal",
@@ -86,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "122f65b1-d6ab-872d-4cab-fa9aecf73a75",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to create or manage availability test alert rules using ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alert rules;Web availability alerts;Alert rule configuration;CLI;ARM Template",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1956bede-5cb4-b03e-4eeb-8dfa8c5432c3",
       "longDescription": "",
       "shortDescription": "I received the alert, but some of its fields are missing or incorrect",
@@ -102,11 +118,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "33c71f09-df99-07d5-25fa-09ceac71a325",
+      "longDescription": "",
+      "shortDescription": "I am trying to create, edit or delete a Service health or resource health alert rule, but I am getting an error, or I am not sure how to configure it",
+      "searchTags": "Alerts;Alert rules;Alert rule configuration;Service Health alerts;Resource Health alerts",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "398a1ec3-2056-6ca1-285c-f2f54c00c551",
       "longDescription": "",
       "shortDescription": "A classic metric alert fired when it should not have ",
       "searchTags": "Alerts;Metric Alerts (Classic);Alert misfired",
       "category": "Alert accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3e1869f3-da18-05a3-a701-fe95385300c3",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to create or manage classic metric alert rules using ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;Metric alerts (Classic);Alert rule configuration;CLI;ARM Templates",
+      "category": "Alert rule configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -126,6 +158,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4b3383a0-1fd5-0e29-fe40-3e13b3d71345",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to configure log search alert with ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;Alert rule configuration;Log search alerts;CLI;ARM templates",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "55d5b408-7f9c-f1bf-c3a9-6a8a431f1224",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to create or manage action groups using ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;Action groups;Action group configuration;CLI;ARM Templates",
+      "category": "Action group configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5610d797-e813-dd71-567d-97dc62c7efa0",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but it did not call a webhook, logic app, Azure function, or automation runbook",
@@ -139,6 +187,14 @@
       "shortDescription": "A metric alert fired when it should not have ",
       "searchTags": "Alerts;Metric Alerts",
       "category": "Alerts accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6adfeddf-4490-e63b-dd11-35740e28e3cd",
+      "longDescription": "",
+      "shortDescription": "I am trying to create, edit or delete an action rule but I am getting an error, or not sure  how to configure it",
+      "searchTags": "Alerts;Action rules;Action rule configuration;UI",
+      "category": "Action rule configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -163,6 +219,14 @@
       "shortDescription": "I can see my fired alert in the portal, but its actions or notifications did not happen, or malfunctioned",
       "searchTags": "Alerts;Notifications;Actions",
       "category": "Notifications and Actions",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8bfbbd89-f438-91e4-7f73-abfd5a9df7e6",
+      "longDescription": "",
+      "shortDescription": "I am trying to create, edit or delete an ITSM integration action but I am not sure  how to configure it",
+      "searchTags": "Alerts;Action groups;Action group configuration;ITSM;UI",
+      "category": "Action group configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -206,6 +270,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a7b7608b-0941-0b73-6e62-26d10e0d52f5",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to perform a specific configuration with ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;API;CLI;ARM templates",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "afe7bec7-d37d-0453-f1f2-86974678b222",
+      "longDescription": "",
+      "shortDescription": "I am trying to configure another type of alert rule (not mentioned above) but I do not know how to do it",
+      "searchTags": "Alerts;Alert rules;Alert rule configuration",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b34047a4-629e-f045-a0bf-82cd17f79981",
       "longDescription": "",
       "shortDescription": "I am trying to create, edit or delete a classic metric alert rule in the Azure portal, but I am getting an error, or I do not know how to configure it",
@@ -238,6 +318,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e93b3bcd-f837-a72d-afe1-1ce7ddefd3ac",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure know how to create or manage metric alert rules using ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;Metric alerts;Alert rule configuration;CLI;ARM templates",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "edadb56e-6ec7-2bbe-7f29-fee00b57b009",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to create, update or modify an action group or action rule in the Azure portal",
+      "searchTags": "Alerts;Action groups;Action rules;Action group configuration;UI",
+      "category": "Action group configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f2ff387f-f3a2-cc5d-9ae8-02ea65718e69",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its email",
@@ -259,6 +355,14 @@
       "shortDescription": "A service health or a resource health alert should have fired but I do not see it in Azure portal",
       "searchTags": "Alerts;Service Health Alerts;Resource Health Alerts;Alert not fired",
       "category": "Alerts accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fe706900-dbaf-5554-d7e0-2aaa86274f27",
+      "longDescription": "",
+      "shortDescription": "I am trying to create, edit or delete an action group but I am getting an error, or not sure how to configure it",
+      "searchTags": "Alerts;Action groups;Action group configuration;UI",
+      "category": "Alert group configuration",
       "useInDiagnoseAndSolve": "true"
     }
   ]
