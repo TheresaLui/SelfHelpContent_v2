@@ -246,6 +246,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "74067ef5-db64-c8b8-e120-c124bb22cc99",
+      "longDescription": "",
+      "shortDescription": "I have an issue with the migration of my classic alerts which is not listed above",
+      "searchTags": "Alerts;Metric alerts (classic);Alert rules migration",
+      "category": "Alert rules migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "78577d15-b487-02e6-8892-385cacef5526",
       "longDescription": "",
       "shortDescription": "I have a specific alert that its notification or action triggered multiple times",
