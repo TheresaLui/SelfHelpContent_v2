@@ -2,18 +2,18 @@
 	pageTitle="VMA RCA"
 	description="RCA - Node Service Heal - Node Crash"
 	infoBubbleText="Found recent reboot. See details on the right."
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service=""
+	resource=""
 	authors="ScottAzure"
 	ms.author="jozender"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_7889991B-1FAE-46FB-9805-A4265DDFE58B_noEnd"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
-	supportTopicIds="32411816"
+	supportTopicIds=""
 	resourceTags="windows, linux"
-	productPesIds="14749"
-	cloudEnvironments="public"
+	productPesIds=""
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 />
 # We ran diagnostics on your resource and found an issue
 
