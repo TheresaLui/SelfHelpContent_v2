@@ -142,6 +142,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4b3383a0-1fd5-0e29-fe40-3e13b3d71345",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to configure log search alert with ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;Alert rule configuration;Log search alerts;CLI;ARM templates",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5610d797-e813-dd71-567d-97dc62c7efa0",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but it did not call a webhook, logic app, Azure function, or automation runbook",
