@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4b44637e-3541-ad44-249f-0072cdf2e08f",
+      "longDescription": "",
+      "shortDescription": "I need to increase my quota of metric alert rules ",
+      "searchTags": "Alerts;Alert rules quota",
+      "category": "Alert rules quota",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "55d5b408-7f9c-f1bf-c3a9-6a8a431f1224",
       "longDescription": "",
       "shortDescription": "I am getting an error or not sure how to create or manage action groups using ARM templates, REST API, Azure CLI or PowerShell cmdlets",
