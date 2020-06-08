@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8bfbbd89-f438-91e4-7f73-abfd5a9df7e6",
+      "longDescription": "",
+      "shortDescription": "I am trying to create, edit or delete an ITSM integration action but I am not sure  how to configure it",
+      "searchTags": "Alerts;Action groups;Action group configuration;ITSM;UI",
+      "category": "Action group configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "95c52ca2-f188-89f7-eb8f-9b74b7970e86",
       "longDescription": "",
       "shortDescription": "An availability test alert fired when it should not have",
