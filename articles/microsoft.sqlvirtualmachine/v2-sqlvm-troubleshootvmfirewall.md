@@ -9,8 +9,8 @@
 	selfHelpType="generic"
 	supportTopicIds="32740108"
 	resourceTags="windowsSQL"
-	productPesIds="14745"
-	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
+	productPesIds="14745,16342"
+	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
 	articleId="52ca7518-7439-42a9-a16c-3c6b4ad5907a"
 	ownershipId="AzureData_AzureSQLVM"
 />
