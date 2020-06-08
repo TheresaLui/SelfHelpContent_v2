@@ -230,6 +230,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a7b7608b-0941-0b73-6e62-26d10e0d52f5",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to perform a specific configuration with ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;API;CLI;ARM templates",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "afe7bec7-d37d-0453-f1f2-86974678b222",
       "longDescription": "",
       "shortDescription": "I am trying to configure another type of alert rule (not mentioned above) but I do not know how to do it",
