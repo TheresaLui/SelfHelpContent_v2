@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "55d5b408-7f9c-f1bf-c3a9-6a8a431f1224",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to create or manage action groups using ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;Action groups;Action group configuration;CLI;ARM Templates",
+      "category": "Action group configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5610d797-e813-dd71-567d-97dc62c7efa0",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but it did not call a webhook, logic app, Azure function, or automation runbook",
