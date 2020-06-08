@@ -18,9 +18,12 @@
 # Advisory for Key Vault related tasks
 ## **Recommended Steps**
 
-* For general questions and not urgent incidents please use [Stack Overflow](https://stackoverflow.microsoft.com/questions/ask) providing azure-keyvault as a tag
-* For features requests please use [Key Vault User Voice](https://feedback.azure.com/forums/906355-azure-key-vault)
+* For general questions and not urgent incidents please use Stack Overflow providing 'azure-keyvault' as a tag:
 
+	* [Microsoft Internal Stack Overflow](https://stackoverflow.microsoft.com/questions/ask)
+	* [Stack Overflow](https://stackoverflow.com/questions/ask)<br>
+	
+* For features requests please use [Key Vault User Voice](https://feedback.azure.com/forums/906355-azure-key-vault)
 
 **Troubleshooting**
 
@@ -35,6 +38,7 @@
 	[Grant permission to many applications to access a key vault](https://docs.microsoft.com/azure/key-vault/key-vault-group-permissions-for-apps)
 
 ## **Recommended Documents**
+
 * [Key Vault Get Started](https://docs.microsoft.com/azure/key-vault/key-vault-overview)<br>
 * [About Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts)<br>
 * [Key Vault Best Practices](https://docs.microsoft.com/azure/key-vault/key-vault-best-practices)
