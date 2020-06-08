@@ -31,3 +31,9 @@ To access these logs, please follow these steps:
 3. Click the Event Log tab.
 
 Given timestamp(s) provided earlier, look for event(s) when cluster fails and click on it to get more info to get more details of the quota limit being hit.
+
+**Check for errors similar to the following:** 
+
+1. Cloud Provider Launch Failure: A cloud provider error was encountered while setting up the cluster
+2. Azure error code: OperationNotAllowed
+3. Operation results in exceeding quota limits of Core
