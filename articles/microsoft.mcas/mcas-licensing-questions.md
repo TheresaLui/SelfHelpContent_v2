@@ -38,6 +38,6 @@ The Cloud App Security license applies at the tenant level. Each user must be li
 
 **What license do I need to make API calls?**
 
-The Cloud App Security license applies at the tenant level and includes the use of the API. Therefore, once you have access to the Cloud App Security portal, you can also make API calls. For more details about using the API, see [API Tokens](https://aka.ms/mcasapidocs)
+The Cloud App Security license applies at the tenant level and includes the use of the API. Therefore, once you have access to the Cloud App Security portal, you can also make API calls. Learn more about using the [API](https://aka.ms/mcasapidocs).
 
 If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket.
