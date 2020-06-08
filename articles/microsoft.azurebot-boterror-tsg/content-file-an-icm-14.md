@@ -17,5 +17,6 @@
 
 # File an IcM
 
-Engage with escalation and file an IcM to report the issue
-
+1. Engage with escalation and file an IcM to report the issue.
+2. We have onboard IcM creation via ASC
+3. To create an IcM use ASC, go to [ASC](https://azuresupportcenter.msftcloudes.com/) and enter the case number. On the case overview tab, click on "Escalate Ticket" and follow the steps to create an IcM
