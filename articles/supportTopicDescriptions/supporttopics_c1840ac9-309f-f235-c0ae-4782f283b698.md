@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3e1869f3-da18-05a3-a701-fe95385300c3",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to create or manage classic metric alert rules using ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;Metric alerts (Classic);Alert rule configuration;CLI;ARM Templates",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "44ffb620-5ad1-6572-f77d-115542b7df33",
       "longDescription": "",
       "shortDescription": "A web availability alert should have fired but I do not see it in the Azure  portal",
