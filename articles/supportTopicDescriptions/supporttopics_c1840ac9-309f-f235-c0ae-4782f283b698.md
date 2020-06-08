@@ -126,6 +126,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2a747528-4bbc-5136-15e3-3f9dc1620c5d",
+      "longDescription": "",
+      "shortDescription": "I need to increase my quota of action groups",
+      "searchTags": "Alerts;Action groups;Action groups quota",
+      "category": "Action groups quota",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2d0b220f-970e-8241-e855-a245855039de",
       "longDescription": "",
       "shortDescription": "Another type of alert (not mentioned above) fired when it should not have ",
