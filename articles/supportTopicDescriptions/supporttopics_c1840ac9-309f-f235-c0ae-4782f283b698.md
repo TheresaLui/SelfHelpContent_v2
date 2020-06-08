@@ -396,6 +396,14 @@
       "searchTags": "Alerts;Action groups;Action group configuration;UI",
       "category": "Alert group configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fee94b45-ca8e-c368-5c0d-a9a0c47115f9",
+      "longDescription": "",
+      "shortDescription": "I need to increase my quota of metric alert rules ",
+      "searchTags": "Alerts;Metric alerts",
+      "category": "Alert rules quota",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
