@@ -430,6 +430,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fcc1a0d8-6ffa-8d1f-85ef-8ff747c4df9d",
+      "longDescription": "",
+      "shortDescription": "I got an email or looked in the migration tool and saw that some of my subscriptions have not been migrated to newer metric alerts",
+      "searchTags": "Alerts;Alert rules migration;Metric alerts (classic)",
+      "category": "Alert rules migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fe706900-dbaf-5554-d7e0-2aaa86274f27",
       "longDescription": "",
       "shortDescription": "I am trying to create, edit or delete an action group but I am getting an error, or not sure how to configure it",
