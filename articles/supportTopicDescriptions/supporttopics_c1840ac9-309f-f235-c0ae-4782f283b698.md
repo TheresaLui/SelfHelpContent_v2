@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "122f65b1-d6ab-872d-4cab-fa9aecf73a75",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to create or manage availability test alert rules using ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alert rules;Web availability alerts;Alert rule configuration;CLI;ARM Template",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1956bede-5cb4-b03e-4eeb-8dfa8c5432c3",
       "longDescription": "",
       "shortDescription": "I received the alert, but some of its fields are missing or incorrect",
