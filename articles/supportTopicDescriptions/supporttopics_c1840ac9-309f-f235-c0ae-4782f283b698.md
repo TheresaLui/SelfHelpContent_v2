@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "464b8946-070d-710e-612f-6be3a1745893",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to create or manage action rules using ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;Action rules;Action rule configuration;CLI;ARM Templates",
+      "category": "Action rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "47592372-7519-6718-333a-39fcc853c4d2",
       "longDescription": "",
       "shortDescription": "My alert should have been fired but I do not see it in the Azure portal",
