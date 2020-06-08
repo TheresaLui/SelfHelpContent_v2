@@ -284,6 +284,14 @@
       "searchTags": "Alerts;Service Health Alerts;Resource Health Alerts;Alert not fired",
       "category": "Alerts accuracy",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fe706900-dbaf-5554-d7e0-2aaa86274f27",
+      "longDescription": "",
+      "shortDescription": "I am trying to create, edit or delete an action group but I am getting an error, or not sure how to configure it",
+      "searchTags": "Alerts;Action groups;Action group configuration;UI",
+      "category": "Alert group configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
