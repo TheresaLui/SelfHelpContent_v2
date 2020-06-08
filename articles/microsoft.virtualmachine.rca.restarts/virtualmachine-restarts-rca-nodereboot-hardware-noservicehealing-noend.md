@@ -14,6 +14,7 @@
 	resourceTags="windows, linux"
 	productPesIds=""
 	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 
