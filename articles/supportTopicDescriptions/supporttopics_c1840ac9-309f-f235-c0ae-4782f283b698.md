@@ -214,6 +214,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6cf45ee1-2a85-c2f4-f382-2353a0b139b4",
+      "longDescription": "",
+      "shortDescription": "I need to increase my quota of metric alert (classic) rules ",
+      "searchTags": "Alerts;Metric alerts (classic);Alert rules quota",
+      "category": "Alert rules quota",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "78577d15-b487-02e6-8892-385cacef5526",
       "longDescription": "",
       "shortDescription": "I have a specific alert that its notification or action triggered multiple times",
