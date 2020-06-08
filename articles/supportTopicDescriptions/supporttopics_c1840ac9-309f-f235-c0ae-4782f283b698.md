@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "081588f8-a062-a912-5763-7dd062537f75",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to create or manage activity log alert rules using ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;Activity log alerts;Alert rule configuration;CLI;ARM template",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0907aea1-faf3-47b3-eb18-d8e46b549a63",
       "longDescription": "",
       "shortDescription": "A metric alert (classic) should have fired but I do not see it in the Azure portal",
