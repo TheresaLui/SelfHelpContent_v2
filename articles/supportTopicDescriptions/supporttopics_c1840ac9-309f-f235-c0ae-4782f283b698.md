@@ -246,6 +246,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "edadb56e-6ec7-2bbe-7f29-fee00b57b009",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to create, update or modify an action group or action rule in the Azure portal",
+      "searchTags": "Alerts;Action groups;Action rules;Action group configuration;UI",
+      "category": "Action group configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f2ff387f-f3a2-cc5d-9ae8-02ea65718e69",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its email",
