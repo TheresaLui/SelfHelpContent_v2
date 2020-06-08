@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "19d68547-c43d-9afb-3ef4-2bcaf2fec754",
+      "longDescription": "",
+      "shortDescription": "I got an email or looked in the migration tool and saw that some of my subscriptions have not been migrated due to scope lock or policy",
+      "searchTags": "Alerts;Metric alerts (classic);Alert rules migration;scope or policy lock",
+      "category": "Alert rules migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1b075f52-3cb8-67a4-ffaf-a787b58637ac",
       "longDescription": "",
       "shortDescription": "I am not sure how to fix automation actions of my alert rules after the migration from classic metric alert rules",
