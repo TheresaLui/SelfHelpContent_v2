@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "981592de-d5a7-8eae-352d-9ac178e3b26d",
+      "longDescription": "",
+      "shortDescription": "I need to increase my quota of log search alert rules",
+      "searchTags": "Alerts;Log search alerts;Alert rules quota",
+      "category": "Alert rules quota",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "995bfe73-3864-b206-c43f-724f3f7d0327",
       "longDescription": "",
       "shortDescription": "A Service health or a resource health alert fired when it should not have",
