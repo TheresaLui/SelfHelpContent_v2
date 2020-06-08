@@ -36,10 +36,12 @@ Before you create a connection to an on-premises system, you must first download
 
 To view any triggers and actions defined in the swagger, or view any limits, see [Oracle Database](https://docs.microsoft.com/connectors/oracle/)
 
-## Troubleshoot and diagnose workflow failures in Azure Logic Apps
+## **Recommended Steps**
+
+### Troubleshoot and diagnose workflow failures in Azure Logic Apps
 
 [Troubleshoot and diagnose workflow failures in Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-diagnosing-failures)
 
-## Handle errors and exceptions in Azure Logic Apps
+### Handle errors and exceptions in Azure Logic Apps
 
 [Scenario: Exception handling and error logging for logic apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-scenario-error-and-exception-handling)

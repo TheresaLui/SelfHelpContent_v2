@@ -36,10 +36,12 @@ Before you create a connection to an on-premises system, you must first download
 
 For technical information about this connector's triggers, actions, and limits see the [connector’s reference page](https://docs.microsoft.com/connectors/sql/).
 
-## Troubleshoot and diagnose workflow failures in Azure Logic Apps
+## **Recommended Steps**
+
+### Troubleshoot and diagnose workflow failures in Azure Logic Apps
 
 [Troubleshoot and diagnose workflow failures in Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-diagnosing-failures)
 
-## Handle errors and exceptions in Azure Logic Apps
+### Handle errors and exceptions in Azure Logic Apps
 
 [Scenario: Exception handling and error logging for logic apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-scenario-error-and-exception-handling)

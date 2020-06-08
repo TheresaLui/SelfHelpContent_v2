@@ -37,10 +37,12 @@ Azure Logic Apps and the File System connector lets you [create automated tasks 
 For more technical details about this connector; such as triggers, actions, and limits as described by the connector's Swagger file, please see
 [File System](https://docs.microsoft.com/connectors/fileconnector/)
 
-## Troubleshoot and diagnose workflow failures in Azure Logic Apps
+## **Recommended Steps**
+
+### Troubleshoot and diagnose workflow failures in Azure Logic Apps
 
 [Troubleshoot and diagnose workflow failures in Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-diagnosing-failures)
 
-## Handle errors and exceptions in Azure Logic Apps
+### Handle errors and exceptions in Azure Logic Apps
 
 [Scenario: Exception handling and error logging for logic apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-scenario-error-and-exception-handling)
