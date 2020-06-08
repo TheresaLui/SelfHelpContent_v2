@@ -17,7 +17,7 @@
 
 # Troubleshoot Export template from Resource 
 
-1. Follow the article below for a step by step with pictures if you could not export the template before: 
+Follow the article below for a step by step with pictures if you could not export the template before: 
 
 ## Recommended Documents
 
