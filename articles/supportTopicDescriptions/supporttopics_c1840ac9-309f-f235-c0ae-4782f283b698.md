@@ -374,6 +374,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ddb6ab8c-db84-dc0b-81df-be65cfe98bb6",
+      "longDescription": "",
+      "shortDescription": "I looked in the migration tool and saw that some of my subscriptions are marked as Not Ready",
+      "searchTags": "Alerts;Alert rules migration;Metric alerts (classic)",
+      "category": "Alert rules migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e87becc0-7a57-8229-90fe-399bb296b79a",
       "longDescription": "",
       "shortDescription": "I can see an alert in the portal that should not have fired ",
