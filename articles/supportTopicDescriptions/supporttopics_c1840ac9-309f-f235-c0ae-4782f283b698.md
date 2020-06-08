@@ -294,6 +294,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b5498bec-a4ce-f486-82ff-311cc9d758a0",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or not sure how to configure service or resource health rules using ARM templates, REST API, Azure CLI or PowerShell cmdlets",
+      "searchTags": "Alerts;Alert rule configuration;Service health alerts;Resource health alerts;ARM Templates",
+      "category": "Alert rule configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cc03fd48-3dc7-2c2a-5172-21cecfc48594",
       "longDescription": "",
       "shortDescription": "A log search alert should have fired but I do not see it in the Azure  portal",
