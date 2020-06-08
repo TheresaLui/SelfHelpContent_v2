@@ -21,7 +21,7 @@
 
 Most users are able to resolve Azure Information Protection labelling issues using the steps below.
 
-## **Recommended Steps**
+## **Recommended steps**
 
 To use Azure Information Protection labels in Cloud App Security, make sure that:
 
@@ -37,7 +37,7 @@ To use Azure Information Protection labels in Cloud App Security, make sure that
 1. The file does not have any manually applied labels
 1. The file does not have any labels applied in SharePoint Online
 
-## **Recommended Documents**
+## **Recommended documents**
 
 * [Apply labels directly to files](https://docs.microsoft.com/cloud-app-security/azip-integration#apply-labels-directly-to-files)
 

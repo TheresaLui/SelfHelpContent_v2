@@ -26,7 +26,7 @@ Most users are able to resolve the following issues using the steps below:
 - Blocking an action is not enforced
 - My app is missing functionality or is unresponsive
 
-## **Recommended Steps**
+## **Recommended steps**
 
 - Verify that session controls are enforced by checking that `*.cas.ms` is appended to the URL.
 - Make sure you are using sessions controls with a web-based app
@@ -36,7 +36,7 @@ Most users are able to resolve the following issues using the steps below:
 - In your Azure Active Directory Conditional Access policy, under **Sessions**, clear **Conditional Access App Control**. If the issue persists, open a ticket for the relevant app.
 - If you are using a Cloud App Security session policy, in your Azure AD Conditional Access policy, under **Sessions**, make sure that **Use Custom Policy** is selected.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 - [Overview of Conditional Access App Control](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
 - [Session Controls](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#how-session-control-works)

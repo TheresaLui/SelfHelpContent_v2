@@ -21,7 +21,7 @@
 
 Most users are able to resolve log collector issues using the steps below.
 
-## **Recommended Steps**
+## **Recommended steps**
 
 Check that your log collector is set up correctly
 

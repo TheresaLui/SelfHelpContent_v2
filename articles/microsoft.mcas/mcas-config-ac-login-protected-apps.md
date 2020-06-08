@@ -27,7 +27,7 @@ Most users are able to resolve the following issues using the steps below:
 - I get stuck in a loop when trying to log in
 - The app displays a failure message when I try to log in
 
-## **Recommended Steps**
+## **Recommended steps**
 
 - Verify that access controls are enforced by checking that `*.access-control.cas.ms` is appended to the URL. If the suffix is missing, check the [access policy settings](https://docs.microsoft.com/cloud-app-security/access-policy-aad).
 
@@ -45,7 +45,7 @@ Most users are able to resolve the following issues using the steps below:
 - In Azure AD, go to the relevant conditional access policy, and clear **Use Conditional Access App Control**. If the issue is still not resolved, open a ticket for Azure AD.
 - If the app displays a failure message when you try to log in, make a note of the displayed **request id**, and then restart your browser session. If the issue persists, please continue with opening the ticket and include the **request id** in the details.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 - [Overview of Conditional Access App Control](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
 - [Access Controls](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#access-controls)

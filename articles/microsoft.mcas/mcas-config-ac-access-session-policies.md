@@ -1,6 +1,6 @@
 <properties
-  pageTitle="I’m having issues with access and session policies"
-  description="I’m having issues with access and session policies"
+  pageTitle="I'm having issues with access and session policies"
+  description="I'm having issues with access and session policies"
   infoBubbleText=""
   service="microsoft.mcas"
   resource=""
@@ -17,7 +17,7 @@
   cloudEnvironments="public"
 />
 
-# I’m having issues with access and session policies
+# I'm having issues with access and session policies
 
 Access and Session policies in Cloud App Security allow you to configure adaptive controls that are enforced in real time.
 
@@ -26,7 +26,7 @@ Most users are able to resolve the following issues using the steps below:
 - I'm getting an error when trying to create policies
 - My access or session policy is not enforced as expected
 
-## **Recommended Steps**
+## **Recommended steps**
 
 1. If you are using Azure Active Directory, in the Active Directory portal, in the relevant Conditional Access policy, under **Session**, make sure that **Use Conditional Access App Control** is selected.
 
@@ -38,7 +38,7 @@ Most users are able to resolve the following issues using the steps below:
 
 1. If you are trying to create a session policy and see a "no apps onboarded" error message, verify that the app appears on the **Conditional Access App Control apps** page. If the app does not appear, log in to app. If the app still does not appear, please continue with opening the ticket.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 - [Overview of Conditional Access App Control](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
 - [Access policies](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#access-policy-aad)
