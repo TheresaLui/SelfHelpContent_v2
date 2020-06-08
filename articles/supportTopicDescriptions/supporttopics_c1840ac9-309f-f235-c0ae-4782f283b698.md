@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1b075f52-3cb8-67a4-ffaf-a787b58637ac",
+      "longDescription": "",
+      "shortDescription": "I am not sure how to fix automation actions of my alert rules after the migration from classic metric alert rules",
+      "searchTags": "Alerts;Alert rules migration;Metric alerts (classic);Action groups",
+      "category": "Alert rules migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2d0b220f-970e-8241-e855-a245855039de",
       "longDescription": "",
       "shortDescription": "Another type of alert (not mentioned above) fired when it should not have ",
