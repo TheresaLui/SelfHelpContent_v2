@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-**Move resources**<br>
+**Move resources**
 Azure resources can be moved to either another Azure subscription or another resource group under the same subscription using Azure portal, Azure PowerShell, Azure CLI, or the REST API to move resources.
 
 * [Checklist before moving resources](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#checklist-before-moving-resources)
@@ -35,10 +35,10 @@ Azure resources can be moved to either another Azure subscription or another res
 Tutorial: [Move Azure resources to another resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-tutorial-move-resources)
 
 **Troubleshoot errors with Azure Resource Manager**
-Refer the article below to learn about some common Azure deployment errors, and provides information to resolve the errors. If you can't find the error code for your deployment error, see [Find error code](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors#find-error-code).<br>
+Refer the article below to learn about some common Azure deployment errors, and provides information to resolve the errors. If you can't find the error code for your deployment error, see [Find error code](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors#find-error-code).
 
 * [Troubleshoot deployment errors](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors#authentication-subscription-role-and-quota-issues)
-* [Troubleshoot moving Azure resources to new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/troubleshoot-move)<br>
+* [Troubleshoot moving Azure resources to new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/troubleshoot-move)
 
 **Note**: If you want to upgrade your Azure subscription (such as switching from free to pay-as-you-go), you need to convert your subscription.
 
@@ -65,4 +65,3 @@ Refer the article below to learn about some common Azure deployment errors, and 
 * [Transferring ownership of an Azure subscription](https://docs.microsoft.com/azure/billing-subscription-transfer)
 * [Move resources to new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
 * [Manage resources using Azure portal](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-portal)
-* [Associate or add an Azure subscription Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory)<br>
