@@ -27,13 +27,13 @@
 2. Search on **Cost Management + Billing**. Select **Subscriptions** from left-pane. Depending on the access, you may need to select a billing scope and then **Subscriptions** or **Azure subscriptions**.
 3. Select Transfer billing ownership for the subscription you want to transfer
 4. Enter the email address of a user who's a billing administrator of the account that will be the new owner for the subscription and then select Send **transfer request**
-5. The user gets an email with instructions to review your transfer request. To approve the transfer request, the user selects the link in the email and follows the instructions. 
+5. The user gets an email with instructions to review your transfer request. To approve the transfer request, the user selects the link in the email and follows the instructions.
 
 **Note**: If you transfer billing ownership of your subscription to a user's account in another Azure AD tenant, all [role-based access control (RBAC)](https://docs.microsoft.com/azure/role-based-access-control/overview) assignments to manage resources in the subscription are permanently removed. Only the new owner will have access to manage resources in the subscription. For more information, see [Transferring subscription to a user in another Azure AD tenant](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/known-issues).
 
 If your current Account Admin has left and you need to take over ownership, please open a support request so we can validate the transfer. Learn more: [Transfer Ownership of Subscription](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
 
-### **Subscription Ownership Transfer prerequisites:**
+### **Subscription Ownership Transfer prerequisites**
 
 * Transferring a subscription to an account in the same Azure Active Directory tenant have no impact to the resources running in the subscription. However, if subscription is transferred to an account in another tenant, all users, groups, and service principals who had [role based access (RBAC)](https://docs.microsoft.com/azure/role-based-access-control/overview) to manage resources in the subscription lose their access. For more information about adding an exisiting subscription to a tenant, see [Associate or add an Azure subscription to Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).
 * Subscription Transfer with an existing outstanding amount from the current billing cycle will not be transferred to the new payment instrument in the new account. The only information available to the users in new account is the last month's cost for your subscription. The rest of the usage and billing history does not transfer with the subscription.
@@ -43,10 +43,10 @@ If your current Account Admin has left and you need to take over ownership, plea
 
 **Azure AD Domain Services**
 
-	* [Azure Key Vaults](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
- 	* [SQL related users and databases](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure) could be impacted, especially if the customer uses an Azure Active Directory related authentication
-	* **App Services** configured with Azure Active Directory authentication could be impacted
-	* **Visual Studio Team** Services accounts connected to Azure subscriptions may temporarily lose access when the connected Azure subscription is cancelled
+* [Azure Key Vaults](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
+* [SQL related users and databases](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure) could be impacted, especially if the customer uses an Azure Active Directory related authentication
+* **App Services** configured with Azure Active Directory authentication could be impacted
+* **Visual Studio Team** Services accounts connected to Azure subscriptions may temporarily lose access when the connected Azure subscription is cancelled
 
 ### **Add/Change Azure subscription administrators**
 
