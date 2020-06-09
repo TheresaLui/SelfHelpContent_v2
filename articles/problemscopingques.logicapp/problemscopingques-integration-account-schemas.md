@@ -37,7 +37,7 @@
         {
             "id": "run_id",
             "order": 3,
-            "controlType": "schemas",
+            "controlType": "textbox",
             "displayLabel": "Please provide the schemas.",
             "watermarkText": "",
             "required": false
