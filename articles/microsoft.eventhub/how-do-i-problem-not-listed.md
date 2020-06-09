@@ -10,8 +10,9 @@
     supportTopicIds="32636951"
     resourceTags=""
     productPesIds="16125"
-    cloudEnvironments="public,BlackForest,Fairfax"
+    cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
     articleId="18c7c84c-7535-4c3e-9c00-39a1edb7532c"
+	ownershipId="AzureMessaging_Common"
 />
 
 # My problem is not listed above

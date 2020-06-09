@@ -6,6 +6,7 @@
     articleId="7c380315-6ad9-4fb2-8930-a8aeb1d6241b_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="RedisCache_RedisCache"
 />
 # Availability may be impacted from high memory fragmentation. Increase fragmentation memory reservation to avoid potential impact.
 ---

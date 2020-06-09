@@ -10,8 +10,9 @@
     supportTopicIds="32584877"
     resourceTags=""
     productPesIds="15526"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="aab97c29-8872-4a7d-8355-a9b218235995"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Cross-subscription Connectivity Issues

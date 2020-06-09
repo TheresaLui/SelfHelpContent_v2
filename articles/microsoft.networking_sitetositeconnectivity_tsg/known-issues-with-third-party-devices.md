@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="5bd4da4e-437c-4a12-9142-f0119dfefa2e"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to check for known issues with third party devices

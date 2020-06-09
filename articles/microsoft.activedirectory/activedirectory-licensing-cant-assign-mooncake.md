@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
  	articleId="activedirectory-licensing-cant-assign-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I can't assign licenses to a user or group

@@ -9,8 +9,9 @@
 	supportTopicIds="32588774"
 	resourceTags=""
 	productPesIds="16170, 16333"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="074520f2-d2f3-4062-9d09-6df9460d3775"
+	ownershipId="Compute_AppService"
 />
 
 # Visual studio

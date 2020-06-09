@@ -10,8 +10,9 @@
 	supportTopicIds="32630515"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="a3824214-29ab-41a8-b820-df79ac70d7c7"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Advisory Questions - Azure to Azure

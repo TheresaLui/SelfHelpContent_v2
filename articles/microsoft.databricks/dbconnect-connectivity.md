@@ -10,8 +10,9 @@
 	supportTopicIds="32677677"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="2848290e-5aaa-477e-b3cf-f8c58cb4f5b6"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues related to connectivity with IDE

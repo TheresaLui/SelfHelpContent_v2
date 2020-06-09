@@ -9,10 +9,11 @@
 	supportTopicIds="32681009"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-largetbmigrations"
 	displayOrder="45"
 	category="General Advisory"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Large Scale Migrations  
 Most users are able to resolve their Large Scale Migration case using the steps below.

@@ -8,8 +8,9 @@
     supportTopicIds="32636841,32636870"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="a15f057d-9001-4b77-a98a-dfaf3843dc2f"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center Data and Storage Recommendation Common Solutions

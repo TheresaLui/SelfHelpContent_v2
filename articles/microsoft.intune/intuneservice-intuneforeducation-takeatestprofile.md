@@ -9,8 +9,9 @@
 	supportTopicIds="32599695"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c039bcd4-350c-4fa1-84ac-5897badee8dd"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Intune for Education - Take a test profile

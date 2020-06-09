@@ -10,8 +10,9 @@
 	supportTopicIds="32595639,32633463,32633464,32633465,32633466,32633467,32633471,32633473"
 	resourceTags="linux"
 	productPesIds="16450"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="0a1e0dbb-64e6-45e0-a97d-a9e9ff46eb08"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Diagnose and resolve Kubernetes service issues

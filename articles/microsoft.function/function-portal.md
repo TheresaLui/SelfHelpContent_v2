@@ -10,8 +10,9 @@
 	supportTopicIds="32518045"
 	resourceTags=""
 	productPesIds="16072"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="cda73f84-a775-4414-a902-3cfda0b67eed"
+	ownershipId="Compute_AppService"
 />
 
 # Portal Issues

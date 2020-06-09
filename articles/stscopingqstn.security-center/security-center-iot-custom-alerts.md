@@ -11,8 +11,9 @@
     supportTopicIds="32680763"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="1d732fbc-7cac-4f13-a6e0-63d2af7aab16"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # IoT Hub - IoT Custom Alerts

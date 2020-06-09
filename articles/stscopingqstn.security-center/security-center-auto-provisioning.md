@@ -11,8 +11,9 @@
     supportTopicIds="32680778"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="8dbc0dae-165b-4d92-a4d1-57df626cc87e"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Pricing and Settings - Auto Provisioning

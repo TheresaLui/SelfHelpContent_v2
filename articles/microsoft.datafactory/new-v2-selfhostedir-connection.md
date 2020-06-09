@@ -10,7 +10,8 @@
 	supportTopicIds="32629537, 32637155"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Self-Hosted Integration Runtime fails to copy data to/from an on-premises data store

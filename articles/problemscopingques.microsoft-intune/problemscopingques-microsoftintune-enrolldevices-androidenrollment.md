@@ -5,9 +5,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32599597"
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="363b77ba-c498-4b5e-84e1-aa417a79c539"
+	ownershipId="IntuneCxP_Intune"
 />
 # Enroll Devices - Android enrollment
 ---

@@ -9,9 +9,10 @@
     selfHelpType="generic"
     supportTopicIds="32640011"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="7a6c959f-0671-48c4-9435-8051e7298f9d"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Point-in-time restore
@@ -22,10 +23,12 @@ The default retention period is 7 days and can be increased to 35 days. The back
 
 ## **Recommended Steps**
 
+* If after you access the new server you see inconsistent data, confirm that the connection string (in particular the user field: username@servername) references the new server
+* The new server created during a restore does not have the firewall rules or VNet service endpoints that existed on the original server. These rules need to be set up separately for this new server. If you receive a pg_hba error, it indicates that your client's IP has not been allowed for this server.
 * Ensure that you try to restore to a point in time that is within your configured retention period. Note that we do not backfill the backups if you increase the retention period.
 * If you are trying to restore to a point in time within the last 5 minutes and the backup is not yet available, wait for up to 5 minutes and try to restore again
-* If after you access the new server you can't the expected data, confirm that the connection string (in particular the username@servername) references the new server
 * If you want to export the PostgreSQL database, review the [How-to export PostgreSQL database using pg_dump](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-export-and-import)
+
 
 ## **Recommended Documents**
 

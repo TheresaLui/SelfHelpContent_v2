@@ -7,8 +7,9 @@
 	articleId="StorageScoping_adlsgen2_connectivity_firewall"
 	supportTopicIds="32688882"
 	productPesIds="16598"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 # Data Lake Storage Gen2 Firewall Connectivity Issue
 ---

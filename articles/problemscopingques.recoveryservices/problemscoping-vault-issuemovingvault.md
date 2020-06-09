@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632781"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="fe9e184c-afe1-4a0f-a39d-a892c55c9849"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for issue moving vault
 ---

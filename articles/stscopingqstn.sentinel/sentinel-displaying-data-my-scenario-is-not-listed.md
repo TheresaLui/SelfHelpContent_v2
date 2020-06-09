@@ -10,8 +10,9 @@
     supportTopicIds="32691172"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-displaying-data-my-scenario-is-not-listed"
+	ownershipId="Azure_Sentinel"
 />
 
 # Your scenario is not listed
