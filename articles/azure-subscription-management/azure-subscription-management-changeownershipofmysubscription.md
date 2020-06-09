@@ -50,10 +50,10 @@ If your current Account Admin has left and you need to take over ownership, plea
 
 ### **Add/Change Azure subscription administrators**
 
-To add someone as an administrator for an Azure subscription, assign them the Owner role (an RBAC role) at the subscription scope. The Owner role can manage the resources in the subscription that you assigned and doesn't have access privilege to other subscriptions.
+To add someone as an administrator for an Azure subscription, assign them the Owner role (an RBAC role) at the subscription scope. The Owner role can manage the resources in the subscription that you assigned and doesn't have access privilege to other subscriptions.
 
-1. Visit [subscriptions in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade). Select the subscription that you want to give access. Select **Add**. If the Add button is missing, you do not have permission to add permissions.
-2. Select **Access control (IAM)** in the list. In the **Role** box, select **Owner**. In the **Assign access to** box, select **Azure AD user, group, or application**.
+1. Visit [subscriptions in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade). Select the subscription that you want to give access. Select **Add**. If the Add button is missing, you do not have permission to add permissions.
+2. Select **Access control (IAM)** in the list. In the **Role** box, select **Owner**. In the **Assign access to** box, select **Azure AD user, group, or application**.
 3. In the **Select** box, type the email address of the user you want to add as Owner. Select the user, and then select **Save**.
 
 Learn more: [Change Azure subscription administrator](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
