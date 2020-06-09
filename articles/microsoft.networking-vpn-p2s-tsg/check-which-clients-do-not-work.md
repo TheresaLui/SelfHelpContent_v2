@@ -73,10 +73,3 @@ The aim is to identify what is common between the failing clients (the OS? proto
 | Other OS | any | any | NO
 
 ***Note***: any other combination not covered in the table is NOT supported.
-
-Please select the scenario that best matches the customer issue
-- Some clients are failing with a specific error code
-- The clients that don't work are not in a supported client/protocol combination
-- The customer has more than one protocol enabled
-- Only clients running a specific OS type seem to work, the others don't even with same protocol
-- This is an active active gateway and only some clients seem to work, regardless of protocol or OS
