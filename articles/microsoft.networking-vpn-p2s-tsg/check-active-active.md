@@ -27,9 +27,3 @@ When Active Active is enabled, the Point to site range is divided between the tw
 2. If you determine that clients landing on one gateway instance work fine, while clients reaching the other instance don't work, there are two scenarios:
    1. One of the gateway instances may have connectivity issues with the destination (for example it doesn't have a site to site tunnel established). In this case you need to connect all site to site tunnels to on-premises from both instances of the Active Active gateway or migrate the gateway to Active / Passive.
    2. One of the gateway instances may have health issues. You need to troubleshoot the failing gateway instance from a Health perspective.
-
-Are all the site-to-site tunnels connected?
-
-Yes --> "Check GW failures on logs"
-No --> Enable all S2S connections
-
