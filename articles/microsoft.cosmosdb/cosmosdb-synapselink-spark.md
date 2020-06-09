@@ -54,8 +54,8 @@ You might experience some slowness in the Spark job that can be due to:
 
 <br>
 
-### “Select from Top 100 rows” gesture not working from a Spark Table pointing to a Cosmos DB container
-*“Failed to execute query. Error: Invalid object name”* might be the error message that you get. Currently, Synapse metastore only syncs Spark and SQL Tables over parquet files in ADLsg2.  
+### *Select from Top 100 rows* gesture not working from a Spark Table pointing to a Cosmos DB container
+*Failed to execute query. Error: Invalid object name* might be the error message that you get. Currently, Synapse metastore only syncs Spark and SQL Tables over parquet files in ADLsg2.  
 
 
 **Solution**  

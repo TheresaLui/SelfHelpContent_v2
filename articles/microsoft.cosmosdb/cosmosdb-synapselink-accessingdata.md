@@ -29,12 +29,12 @@ At this time, TTL for analytical data can only be configured at container level 
 <br>
 
 ### **Updating the Analytical Store Time-To-Live**
-After the analytical store is enabled with a particular TTL value, you can update it to a different valid value later. You can update the value by using the Azure portal or SDKs. For information on the various Analytical TTL config options, see the [Analytical TTL supported values](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-ttl) article. Learn how to [configure Analytical TTL](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link#create-analytical-ttl). 
+After the analytical store is enabled with a particular TTL value, you can update it to a different valid value later. You can update the value by using the Azure portal or SDKs. For information on the various Analytical TTL config options, see [Analytical TTL supported values](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-ttl) article. Learn how to [configure Analytical TTL](https://docs.microsoft.com/azure/cosmos-db/configure-synapse-link#create-analytical-ttl). 
 
 <br>
 
 ### **Missing items in Analytical Store** 
-If specific items in your container violate the well-defined schema for analytics, they will not be included in the analytical store. If you have scenarios blocked by [well-defined schema for analytics](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema), please create a support ticket.  
+If specific items in your container violate the well-defined schema for analytics, they will not be included in the analytical store. If you have scenarios blocked by [well-defined schema for analytics](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema), please create a support ticket.  
 
 <br>
 
