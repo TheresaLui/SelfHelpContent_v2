@@ -23,7 +23,7 @@ Most users are able to resolve their Azure Synapse Link for Cosmos DB Spark issu
 ## **Recommended Steps**  
 
 
-###**Spark job failure ** 
+### **Spark job failure** 
 The most common challenge is memory pressure, because of improper configurations (particularly wrong-sized executors), long-running operations, and tasks that result in Cartesian operations. 
 
 * [Use optimal data format](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-performance#use-optimal-data-format) 
@@ -46,7 +46,7 @@ Spark pools in Azure Synapse include the following libraries that are available 
 
 <br>
 
-###**Spark jobs latency**
+### **Spark jobs latency**
 You might experience some slowness in the Spark job that can be due to: 
 
 * The Cosmos DB container that you want to access might not be located in the same region as your workspace. We recommend to deploy a workspace in the same data center as your Cosmos DB databases or simply replicate your container into the same region that you have your workspace in.  
@@ -54,7 +54,7 @@ You might experience some slowness in the Spark job that can be due to:
 
 <br>
 
-###“Select from Top 100 rows” gesture not working from a Spark Table pointing to a Cosmos DB container
+### “Select from Top 100 rows” gesture not working from a Spark Table pointing to a Cosmos DB container
 *“Failed to execute query. Error: Invalid object name”* might be the error message that you get. Currently, Synapse metastore only syncs Spark and SQL Tables over parquet files in ADLsg2.  
 
 

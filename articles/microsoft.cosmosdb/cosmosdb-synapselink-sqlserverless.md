@@ -25,7 +25,7 @@ Most users are able to resolve their Azure Synapse Link for Cosmos DB SQL Server
 
 Synapse SQL Serverless is currently under gated preview and not publicly available. To request access please email *cosmosdbsynapselink@microsoft.com*. 
 
-
+<br>
 
 
 ## **Recommended Documents**  

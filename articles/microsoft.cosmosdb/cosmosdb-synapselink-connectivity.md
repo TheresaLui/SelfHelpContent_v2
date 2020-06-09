@@ -22,14 +22,14 @@ Most users are able to resolve their Azure Synapse Link for Cosmos DB Connectivi
 
 ## **Recommended Steps**  
 
-###**Workspace with Managed Virtual Network**   
+### **Workspace with Managed Virtual Network**   
 Azure Synapse Link for Azure Cosmos DB is currently not supported in workspace with Managed Vnet.   
 
 We recommend creating a workspace without Managed Vnet to access Azure Synapse Link. 
 
 <br>
 
-###**Cannot access Cosmos DB analytical store with Synapse SQL Serverless**  
+### **Cannot access Cosmos DB analytical store with Synapse SQL Serverless**  
 Synapse SQL Serverless is currently under gated preview and not publicly available. To request access please email *cosmosdbsynapselink@microsoft.com*.   
 
 <br>
