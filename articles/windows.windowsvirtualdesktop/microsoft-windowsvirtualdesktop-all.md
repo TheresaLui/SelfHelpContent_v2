@@ -18,7 +18,7 @@
 # Windows Virtual Desktop
 
 4 out of 5 customers resolved their Windows Virtual Desktop issue using the guides listed below.<br>
-32741359
+
 ## **Recommended Documents**
 
 * [WVD How to videos: Troubleshoot connectivity](https://support.microsoft.com/help/4563049/how-to-videos-about-windows-virtual-desktop)<br>
