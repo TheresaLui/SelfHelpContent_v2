@@ -6,7 +6,7 @@
     articleId="3312d528-e60e-4d3a-8dd0-e97f030c4681_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="AzureData_AzureCosmosDB"
+    ownershipId="AzureData_AzureCosmosDB"
 />
 # Upgrade your Azure Cosmos DB Java SDK to the latest version from Maven
 ---
