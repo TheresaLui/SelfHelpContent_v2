@@ -9,8 +9,9 @@
 	supportTopicIds="32599634"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="eba74647-4f2b-468d-a764-12e68ec96d2d"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Develop and Customize - How to use Intune Graph APIs

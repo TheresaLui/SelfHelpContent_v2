@@ -6,9 +6,10 @@
    selfHelpType="problemScopingQuestions"
    supportTopicIds="32584876,32584881"
    productPesIds="15526"
-   cloudEnvironments="public, MoonCake, fairfax, Blackforest"
+   cloudEnvironments="public, MoonCake, fairfax, Blackforest, usnat, ussec"
    schemaVersion="1"
    articleId="fb9dcbb1-f15b-4f2b-b9f4-913cac1534a3"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 # VPN Gateway Issues under Virtual Network ticket path
 ---

@@ -12,7 +12,8 @@ diagnosticScenario="Storage account recovery is not possible unless another acco
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Storage Account Recovery

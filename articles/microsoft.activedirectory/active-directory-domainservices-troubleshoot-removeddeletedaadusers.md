@@ -6,8 +6,9 @@
 	authors="arluca"
 	selfHelpType="resource"
 	displayOrder="300"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="7c5abfda-96f0-4837-ba03-d7a3363a3ed5"
+	ownershipId="AzureIdentity_DomainName"
 />
 
 # Problem removing deleted Azure AD users from your managed domain

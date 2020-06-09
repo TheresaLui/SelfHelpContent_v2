@@ -10,8 +10,9 @@
     supportTopicIds="32640053"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="996e511f-55ca-4660-80d4-15a2aa76953b"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Connection issues to Azure Databases for MySQL
@@ -37,6 +38,7 @@ If connection issues last for more than a couple minutes, the root cause may be 
 * Follow [connection recommendations](https://docs.microsoft.com/azure/mysql/concepts-connection-libraries) on computers hosting your client programs
 * Fix [incorrect connection strings](https://docs.microsoft.com/azure/mysql/howto-connection-string) in your application
 * Make sure you are using the correct [SSL configuration](https://docs.microsoft.com/azure/mysql/howto-configure-ssl)
+* Make sure you are using the correct [TLS configuration](https://docs.microsoft.com/azure/mysql/howto-tls-configurations)
 * Review the [supported client driver list](https://docs.microsoft.com/azure/mysql/concepts-compatibility) and ensure you are using a driver that is supported
 * Make sure the user you are using has the appropriate permissions
 
@@ -44,3 +46,4 @@ If connection issues last for more than a couple minutes, the root cause may be 
 
 * [Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues)<br>
 * [Connecting to MySQL Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/mysql/tutorial-design-database-using-portal/)
+* [Understanding the connectivity architecture for Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-connectivity-architecture)

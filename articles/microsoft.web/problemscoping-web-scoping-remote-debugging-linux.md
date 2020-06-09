@@ -7,9 +7,10 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32581620"
 	productPesIds="16170"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="5f322fa9-452c-a39b-028cde102221"
+	ownershipId="Compute_AppService"
 />
 
 # Remote debugging

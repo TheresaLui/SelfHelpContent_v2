@@ -8,8 +8,9 @@
 	supportTopicIds="32560537"
 	resourceTags=""
 	productPesIds="15804"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="7c7e99b4-2ab0-4187-a9e9-9ac04f7aeb23"
+	ownershipId="CloudNet_DNS"
 />
 
 # configuration and management of dns zone or record

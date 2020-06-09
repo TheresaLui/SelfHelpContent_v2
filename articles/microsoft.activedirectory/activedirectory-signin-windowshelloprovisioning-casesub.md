@@ -9,8 +9,9 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="a0c52ff8-be0c-4030-8728-addae3291b3b"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Windows Hello provisioning

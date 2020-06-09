@@ -13,7 +13,8 @@
 	supportTopicIds="32630497"
 	resourceTags="8000Series"
 	productPesIds="15438"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Controller is offline on the portal 

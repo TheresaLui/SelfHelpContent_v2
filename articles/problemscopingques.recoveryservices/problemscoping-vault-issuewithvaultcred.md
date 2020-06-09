@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632786"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="c3a606de-ec65-48ad-840c-c623331d42f0"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for issue with vault credential
 ---

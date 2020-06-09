@@ -13,7 +13,8 @@
 	supportTopicIds="32640111, 32640121, 32640134, 32640137, 32640151, 32640159"
 	resourceTags="windows, linux"
 	productPesIds="16617"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Our service is not available in this region because the region is locked down.

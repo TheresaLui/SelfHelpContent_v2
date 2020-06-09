@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640128"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-monitoring-issues_metricshown"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Monitoring and Alerting - Issues with metrics shown in the portal
 ---

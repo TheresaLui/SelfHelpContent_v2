@@ -3,17 +3,36 @@
 	description="How-To: Azure SQL Database Management"
 	service="microsoft.sql"
 	resource="servers"
-	authors="emlisa, johirsch"
-    ms.author="emlisa"
+	authors="emlisa, johirsch,andikshi"
+    ms.author="emlisa,andikshi"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32630418"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="29427fe7-6a8b-46fc-aa6d-8d3fd5176098"
+	ownershipId="AzureData_AzureSQLDB_Provisioning"
 />
 
 # How-To: Azure SQL Database Management
+
+## Capacity challenges and restrictions
+
+As demand continues to grow, we are faced with temporary capacity constraints in a number of Azure regions so we have established clear criteria for the priority of new cloud capacity. 
+
+As mentioned in our commitment to customers and Microsoft cloud services continuity [here](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/), top priority is going to first responders, health and emergency management services, critical government infrastructure, and ensuring remote workers stay up and running with the core functionality. We will also constrain non-paid subscriptions as necessary, to ensure support of existing paid customers, so free trial & benefit subscriptions may see limited resource options and limited regions available.
+
+If you would like assistance with this, request you to please create a support request with our Quota team. You can do that by clicking on New Support request, then under the Basics tab select:
+
+* Issue Type: Service and subscription limits (quotas)
+* Quota type: SQL database
+
+Please provide the following information when you submit the request: 
+
+* Region: 
+* Region need to be enabled? (Yes/No): 
+* SKU (Example - B1M100/P1):
+* No of Databases that will be deployed: (for SKU and number of databases, please let us know how many databases per SKU you need in case you need multiple SKUs)
 
 ### Databases created in Gen5 tier rather than S0 when tier isn't specified
 

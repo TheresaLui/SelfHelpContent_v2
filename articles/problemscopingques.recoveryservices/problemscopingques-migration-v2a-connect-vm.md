@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32680617"
          productPesIds="16370"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="6b342a85-0813-4b4d-b7d0-43639892e013"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions on not able to connect to VM after Failover 
 

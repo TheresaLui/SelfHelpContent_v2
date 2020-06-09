@@ -9,8 +9,9 @@
 	supportTopicIds="32568691"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="520c33b0-116a-4260-8c08-0a3b38c941ae"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Express Configuration

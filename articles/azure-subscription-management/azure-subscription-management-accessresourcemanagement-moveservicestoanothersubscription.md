@@ -10,8 +10,9 @@
 	supportTopicIds="32632956"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="accessandresourcemanagementmoveservicestoanothersubscription"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # how to RDFE move services to another subscription

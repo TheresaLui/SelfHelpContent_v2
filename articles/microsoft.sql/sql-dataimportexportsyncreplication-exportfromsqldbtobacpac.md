@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32630420"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="12410211-a2f0-48af-99a1-58da8fcb50ff"
+	ownershipId="AzureData_AzureSQLDB_ImportExport"
 />
 
 # BACPAC, DataSync, Copy DB and Replication/export from SQL db to BACPAC

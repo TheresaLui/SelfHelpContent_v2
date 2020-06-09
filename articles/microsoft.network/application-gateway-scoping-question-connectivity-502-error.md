@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 supportTopicIds="32573483,32680993"
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,mooncake,blackforest"
+	cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	schemaVersion="1"
 	articleId="scoping-question-connectivity-502-error"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Application Gateway URL

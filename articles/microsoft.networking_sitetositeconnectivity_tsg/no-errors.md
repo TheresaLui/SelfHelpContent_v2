@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="4eb89748-4cf8-45f5-9b97-3922de8fffde"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # No IKE negotiation packets observed on the logs

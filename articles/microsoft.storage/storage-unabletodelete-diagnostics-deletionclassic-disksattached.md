@@ -13,7 +13,8 @@ selfHelpType="diagnostics"
 supportTopicIds="32602694"
 resourceTags="windows"
 productPesIds="15629"
-cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # **Classic Disk exists**

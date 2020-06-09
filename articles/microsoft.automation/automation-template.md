@@ -11,7 +11,8 @@
     diagnosticScenario=""
     supportTopicIds="32641156,32641157,32641158"
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_Automation"
 />
 
 # Help with resolving ARM Template Deployment Issues

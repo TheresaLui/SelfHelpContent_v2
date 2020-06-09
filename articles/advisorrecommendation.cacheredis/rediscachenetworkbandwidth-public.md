@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="a67201dd-6df0-4838-8258-5abf26adc8f6_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="RedisCache_RedisCache"
 />
 # Improve your Cache and application performance when running with high network bandwidth
 ---

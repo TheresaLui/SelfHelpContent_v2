@@ -10,8 +10,9 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="1a1c538b-332e-401b-84e1-e1c1f7ed2456"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check if SLB Health Probe is Allowed

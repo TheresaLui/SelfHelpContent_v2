@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Issue attaching cognitive services resource"
-	description="Issue attaching cognitive services resource"
+	description="Only a small number of documents get processed through skillset"
 	service="microsoft.search"
 	resource="searchservices"
 	authors="luiscabrer"
@@ -11,14 +11,15 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="skillset-attach-cs"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Issue attaching cognitive services resource
 
 ## **Recommended Steps**
 
-If you don't attach a cognitive services resource to your skillset, you may get an error that says that the indexing stopped because the *"free skillset execution quota exceeded"*. This means that you have exceeded the number of documents you can enrich for free. If that is the case you can attach a billable Cognitive Services resource to a skillset for larger and more frequent workloads. 
+If you don't attach a cognitive services resource to your skillset, you may get an error that says that the indexing stopped because the *"free skillset execution quota exceeded"*. This means that you have exceeded the number of documents you can enrich for free  (20 documents per day). If that is the case you can attach a billable Cognitive Services resource to a skillset for larger and more frequent workloads. 
 
 [This article](https://docs.microsoft.com/azure/search/cognitive-search-attach-cognitive-services) describes how to attach a cognitive services resource to your skillset.
 

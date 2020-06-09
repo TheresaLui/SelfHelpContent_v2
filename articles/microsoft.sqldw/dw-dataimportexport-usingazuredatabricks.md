@@ -11,7 +11,8 @@
     selfHelpType="generic"
     resourceTags=""
     articleId="dw-dataimportexport-usingazuredatabricks.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Using Azure Databricks

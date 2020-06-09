@@ -10,8 +10,9 @@
 	supportTopicIds="32584371"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="Service_PowerShell_Issues"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - PowerShell

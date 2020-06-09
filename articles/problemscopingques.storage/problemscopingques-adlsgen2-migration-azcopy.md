@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32680753"
 	productPesIds="16598"
-	cloudEnvironments="public,MoonCake,FairFax"
+	cloudEnvironments="public,MoonCake,FairFax, usnat, ussec"
 	schemaVersion="1"
 	articleId="055ce476-f2e2-4285-8a03-0b86fbe2ee97"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 
 # Files migration with AzCopy
