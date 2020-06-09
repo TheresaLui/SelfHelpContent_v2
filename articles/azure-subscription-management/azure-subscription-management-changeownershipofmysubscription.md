@@ -21,7 +21,7 @@
 
 [Supported subscription types](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#supported-subscription-types)<br>
 
-### **Transfer billing ownership**
+**Transfer billing ownership**
 
 1. Sign in to the [Azure portal](https://ms.portal.azure.com/#home) as the [Account Admin](https://ms.portal.azure.com/#) of the billing account that has the subscription you want to transfer
 
@@ -60,7 +60,7 @@ If your current Account Admin has left and you need to take over ownership, plea
    * **App Services** configured with Azure Active Directory authentication could be impacted.
    * **Visual Studio Team** Services accounts connected to Azure subscriptions may temporarily lose access when the connected Azure subscription is cancelled.
 
-### **Add/Change Azure subscription administrators**
+**Add/Change Azure subscription administrators**
 
 To add someone as an administrator for an Azure subscription, assign them the Owner role (an RBAC role) at the subscription scope. The Owner role can manage the resources in the subscription that you assigned and doesn't have access privilege to other subscriptions.<br>
 
@@ -70,7 +70,7 @@ To add someone as an administrator for an Azure subscription, assign them the O
 
 Learn more: [Change Azure subscription administrator](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
 
-### **Move Resources**
+**Move Resources**
 
 Azure resources can be moved to either another Azure subscription or another resource group under the same subscription. You can use the Azure portal, Azure PowerShell, Azure CLI, or the REST API to move resources. Moving a resource only moves it to a new resource group or subscription. It doesn't change the location of the resource.
   * Learn more: [Move resources to a new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
