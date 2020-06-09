@@ -1,8 +1,8 @@
 <properties
     pageTitle="Upgrade your Azure Cosmos DB .NET SDK to the latest version from Nuget"
     description="Upgrade your Azure Cosmos DB .NET SDK to the latest version from Nuget"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    authors="pratnala"
+    ms.author="pratnala"
     articleId="7632ec99-ea15-4a40-be58-81168381b665_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
@@ -16,33 +16,36 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "7632ec99-ea15-4a40-be58-81168381b665",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
-    "dataSource": "SAS"
+    "dataSource": "Kusto",
+    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').OldDotNetSDK",
+    "refreshInterval": "0.12:00:00"
   },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDbUpgradeDotNetSdk",
   "recommendationMetadataState": "Active",
-  "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "cosmosnotifications@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "mdm://adspartner/CosmosDb",
+      "service": "Azure Cosmos DB",
+      "team": "Supportability"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "ingestionClientIdentities": [
-    "a4d5ef1d-aaa3-4f6c-a320-d928ebd4cf08"
-  ],
-  "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/cosmosdb/sql-api-sdk-dotnet",
   "description": "Upgrade your Azure Cosmos DB .NET SDK to the latest version from Nuget",
   "longDescription": "Your Azure Cosmos DB account is using an old version of the .NET SDK. We recommend upgrading to the latest version from Nuget for latest fixes, performance improvements, and new feature capabilities.",
   "potentialBenefits": "Improved reliability, performance, and new feature capabilities",
+  "displayLabel": "Upgrade your Azure Cosmos DB .NET SDK to the latest version from Nuget",
+  "additionalColumns": [
+    {
+      "name": "latestVersion",
+      "title": "Latest Version"
+    }
+  ],
   "actions": [
     {
       "actionId": "f73e70bf-eb0e-441c-b59d-c057612bd7e6",
@@ -61,13 +64,6 @@
         "id": "{resourceId}"
       }
     }
-  },
-  "displayLabel": "Upgrade your Azure Cosmos DB .NET SDK to the latest version from Nuget",
-  "additionalColumns": [
-    {
-      "name": "latestVersion",
-      "title": "Latest Version"
-    }
-  ]
+  }
 }
 ---

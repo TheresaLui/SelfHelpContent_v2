@@ -16,8 +16,8 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "7632ec99-ea15-4a40-be58-81168381b665",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://cdbfairfax.kusto.usgovcloudapi.net').database('LiveSite').OldDotNetSDK",
     "dataSource": "Kusto",
+    "streamNamespace": "cluster('https://cdbfairfax.kusto.usgovcloudapi.net').database('LiveSite').OldDotNetSDK",
     "refreshInterval": "0.12:00:00"
   },
   "recommendationCategory": "HighAvailability",
