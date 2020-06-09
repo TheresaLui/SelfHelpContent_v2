@@ -20,7 +20,7 @@
 <!--issueDescription-->
 
 1. Bot Connector Services request to post an activity to the bot endpoint was blocked. 
-2. Follow the instructions on https://docs.microsoft.com/en-us/azure/bot-service/bot-service-troubleshoot-authentication-problems?view=azure-bot-service-4.0.
+2. Follow the instructions on [Troubleshoot authentication problems](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-troubleshoot-authentication-problems?view=azure-bot-service-4.0)
 3. Also check the App Service logs, proxy and firewall settings to ensure that incoming request from the Bot connector service are allowed. 
 
 <!--/issueDescription-->
