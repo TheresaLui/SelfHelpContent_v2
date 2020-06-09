@@ -24,8 +24,8 @@ We found through troubleshooting that the point-to-site client causes this issue
 - Misbehaving Third party software
 
 
-## Recommended Steps (Needs validation)
-
+## Recommended Steps 
+(Needs validation)
 **For SSTP clients** the only requirement is for the client to have a route for the destination network pointing to the VPN gateway.
 
 1. You can add such route on the client by means of the **route add** command.
