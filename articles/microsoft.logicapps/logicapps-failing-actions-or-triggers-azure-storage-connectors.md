@@ -10,8 +10,9 @@
     supportTopicIds="32728877"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="0cbb7a50-e51e-4016-b2a5-6fc899ad8924"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps - Azure Storage (Table, File or Queue) Connectors

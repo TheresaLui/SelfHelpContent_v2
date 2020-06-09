@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32633797"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="557afdbf-5310-9dfb-d0ff-6470f353a737"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Tutorial: Invoke a Machine Learning Studio model in Power BI (Preview)

@@ -9,10 +9,11 @@
     selfHelpType="generic"
     supportTopicIds="32639978"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="7a89af74-874f-4cc1-a34b-77fdb5a0be0d"
-    />
+    	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+/>
 
 # Error while scaling a resource in Azure Database for PostgreSQL
 

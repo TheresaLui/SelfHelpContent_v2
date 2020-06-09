@@ -6,9 +6,10 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32581609"
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="5f2982f2-c334-4fbd-ac90-27edb5dd22b1"
+	ownershipId="Compute_AppService"
 />
 
 # ASE is unavailable or unhealthy

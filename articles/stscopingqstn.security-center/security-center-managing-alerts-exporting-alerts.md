@@ -8,8 +8,9 @@
     supportTopicIds="32693230"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="71a4470c-4759-402d-ae43-0afbfe1ff5da"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center – Managing Alerts – Exporting Alerts

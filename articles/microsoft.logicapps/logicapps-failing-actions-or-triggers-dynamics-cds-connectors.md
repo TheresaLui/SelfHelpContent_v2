@@ -10,8 +10,9 @@
     supportTopicIds="32677625"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="02eb5781-913c-4f26-922c-226f0c3a4bd9"
+	ownershipId="Compute_LogicApps"
 />
 
 # Receiving or Transmitting data through a specific Connector - Dynamics

@@ -10,8 +10,9 @@
     supportTopicIds="32628005,32628012"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="7520716a-1463-4666-b9d2-60f15be30964"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Updating or Importing Modules
@@ -31,7 +32,7 @@ It is recommended to have a test Automation Account to ensure updating modules d
 
 ### I am using Az modules in Azure Automation
 
-* While Az modules are supported in Azure Automation, there are several important considerations. Review the [Az Module Support documentation](https://docs.microsoft.com/azure/automation/az-modules) for potential pitfalls, including using AzureRM modules in the same account as Az modules. 
+* While Az modules are supported in Azure Automation, there are several important considerations. Review the [Az Module Support documentation](https://docs.microsoft.com/azure/automation/automation-update-azure-modules) for potential pitfalls, including using AzureRM modules in the same account as Az modules. 
 
 ### Module import stuck, "importing newer version" stuck
 

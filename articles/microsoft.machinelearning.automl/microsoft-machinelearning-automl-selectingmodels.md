@@ -8,9 +8,10 @@
     ms.author="cesardl"
     supportTopicIds="32690882"
     productPesIds="16644"
-    cloudEnvironments="Public"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
     articleId="microsoft-machinelearning-automl-selectingmodels.md"
     selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # How to select or block algorithms in Azure Automated ML

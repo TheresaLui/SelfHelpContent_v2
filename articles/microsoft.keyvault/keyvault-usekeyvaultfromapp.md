@@ -10,8 +10,9 @@
 	supportTopicIds="32375288"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="a6efe2a3-2fd6-4e5d-a4b2-d84d70eaec45"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # How Configure an Application to Use Keys

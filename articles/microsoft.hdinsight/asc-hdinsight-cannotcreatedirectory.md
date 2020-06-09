@@ -13,7 +13,8 @@
     supportTopicIds="32636418"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found an issue
@@ -27,7 +28,7 @@ The following error <!--$Text-->[Text]<!--/$Text--> occurs when the HDInsight cl
 
 In order to mitigate the issue please do the following:
 
-* Ssh to affected node
+* Ssh to affected node <!--$AlertHost-->[AlertHost]<!--/$AlertHost-->
 * Get root user i.e. sudo su
 * Recursively create needed directories
 * Change owner and group for these folders:

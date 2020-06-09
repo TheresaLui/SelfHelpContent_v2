@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32642154"
          productPesIds="16370"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="8ppb1fde-7000-4e97-b711-4b07ac45db50"
+	ownershipId="Compute_SiteRecovery"
 />
 # My application or crash consistent points are not generated
 

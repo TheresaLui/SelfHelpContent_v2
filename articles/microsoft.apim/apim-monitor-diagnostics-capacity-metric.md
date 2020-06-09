@@ -9,8 +9,9 @@
     supportTopicIds="32632404"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="f94cadf6-cae6-4f3a-b91b-4b0985fa4afc"
+	ownershipId="Compute_APIManagement"
 />
 
 # Capacity Metric

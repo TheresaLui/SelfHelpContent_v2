@@ -7,11 +7,12 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32636534,32636535,32636539,32690274,32636537,32636538,32636527,32636528,32636529,32636530,32636533,32636536,32636540,32636541"
+	supportTopicIds="32636528"
 	resourceTags=""
 	productPesIds="16601"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="82bdb2c7-dce1-4218-ab35-d5b7ac426f2d"
+	ownershipId="Azure_BlockchainService_Content"
 />
 
 # Azure Blockchain Service

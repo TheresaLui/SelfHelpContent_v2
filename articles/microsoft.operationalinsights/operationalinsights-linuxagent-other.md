@@ -10,8 +10,9 @@
     supportTopicIds="32612416"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="20577cae-91fa-4aa2-b584-cc268cb99e08"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Linux Agent

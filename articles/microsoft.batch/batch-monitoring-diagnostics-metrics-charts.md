@@ -11,7 +11,8 @@
     supportTopicIds="32636041"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_AzureBatch"
 />
 
 # Monitoring and Diagnostics - Metrics data and charts

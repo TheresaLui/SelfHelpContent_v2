@@ -7,10 +7,11 @@
     authors="debugthings"
     ms.author="jamdavi"
     displayOrder="1018"
-    selfHelpType="resource"
+    selfHelpType="generic"
     productPesIds="15693"
     supportTopicIds="32632991"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
 # How do I investigate errors with my application?

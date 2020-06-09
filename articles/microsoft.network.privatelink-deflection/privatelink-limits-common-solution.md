@@ -13,7 +13,8 @@
 	supportTopicIds="32681490"
 	resourceTags=""
 	productPesIds="16843"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="CloudNet_PrivateLink"
 />
 
 # What are the subscription limits associated with Private Link Service?

@@ -10,8 +10,9 @@
 	supportTopicIds="32539947"
 	resourceTags=""
 	productPesIds="15480"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="exr-performance"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # ExpressRoute Performance Issues

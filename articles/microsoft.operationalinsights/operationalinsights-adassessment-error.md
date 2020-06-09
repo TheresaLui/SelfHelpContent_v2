@@ -10,8 +10,9 @@
     supportTopicIds="32536529"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="8a9e4df3-6d12-4320-a141-04381ab2c328"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # adassessment-error

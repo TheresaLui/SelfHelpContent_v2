@@ -12,7 +12,8 @@ diagnosticScenario="AAUpdateSolutionFailedInsights"
 selfHelpType="diagnostics"
 supportTopicIds="32599861,32599878,32599924,32599864,32599866,32599868,32599870,32599903,32599925,32599936,32599937"
 productPesIds="15607"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_Automation"
 />
 
 # Update management solution failed to deploy correctly

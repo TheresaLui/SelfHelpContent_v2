@@ -3,7 +3,6 @@
 	description=""
 	service=""
 	resource=""
-	authors=""
 	ms.author=""
 	displayOrder=""
 	selfHelpType=""
@@ -12,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments=""
 	articleId=""
+	ownershipId=""
 />
 
 # tools

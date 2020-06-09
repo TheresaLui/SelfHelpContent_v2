@@ -10,8 +10,9 @@
 	supportTopicIds="32688616"
 	resourceTags=""
 	productPesIds="16152"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="9715117F-04CF-4B05-8F4E-8474B17211A9"
+	ownershipId="Compute_BotService"
 />
 # I have a problem sending an activity to a channel
 

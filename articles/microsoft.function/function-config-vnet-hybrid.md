@@ -10,8 +10,9 @@
 	supportTopicIds="32630473"
 	resourceTags=""
 	productPesIds="16072"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="fe08eafc-356b-4ae5-af6a-68cc5ae76f0c"
+	ownershipId="Compute_AppService"
 />
 
 # Configuring and Managing Function Apps/VNET or Hybrid Connection
