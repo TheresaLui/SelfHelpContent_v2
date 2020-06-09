@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-Follow the instructions in https://supportability.visualstudio.com/Developer/_wiki/wikis/Developer/185023/Bot-is-returning-errors-or-exceptions
+Follow the instructions in [Bot is returning errors](https://supportability.visualstudio.com/Developer/_wiki/wikis/Developer/185023/Bot-is-returning-errors-or-exceptions)
 
 <!--/issueDescription-->
 
