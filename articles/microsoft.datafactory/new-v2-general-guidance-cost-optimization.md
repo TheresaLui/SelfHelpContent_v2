@@ -24,7 +24,7 @@ Please review the following articles for pricing and billing related queries/FAQ
 
  * [Data Factory pricing FAQs](https://azure.microsoft.com/pricing/details/data-factory/data-pipeline/)
   
-To make estimates, and validate cost for different scenarios, try using the [Azure Pricing Calculator](https://azure.microsoft.com/pricing/calculator/) you can include other services you might consider to use such as storage, data bases, or networking to find estimated associated costs.
+To make estimates, and validate cost for different scenarios, try using the [Azure Pricing Calculator](https://azure.microsoft.com/pricing/calculator/) you can include other services you might consider to use such as storage, databases, or networking to find estimated associated costs.
 
 ## **Recommended Documents**
 
