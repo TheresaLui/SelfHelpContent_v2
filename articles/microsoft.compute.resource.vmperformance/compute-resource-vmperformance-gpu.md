@@ -10,8 +10,9 @@
 	supportTopicIds="32628268"
 	resourceTags="windows, windowsSQL"
 	productPesIds="14749,14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="ebbfb793-02ec-4762-89bf-56d4914940bd"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Diagnose and resolve Virtual Machine GPU performance issues

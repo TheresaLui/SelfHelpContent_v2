@@ -6,10 +6,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32689184,32689185,32689186,32689187,32689188,32689191,32689196,32689197,32689198,32689199,32689200,32689201"
     productPesIds="16957"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="29f3d1a7-da74-4612-9c5c-62bdfd8aee96"
-    />
+    	ownershipId="AzureIdentity_OtherMSGraphAPIs"
+/>
 
 # Problem calling Microsoft Graph APIs
 

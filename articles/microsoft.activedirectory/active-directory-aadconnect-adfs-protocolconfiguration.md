@@ -10,8 +10,9 @@
     supportTopicIds="32689918"
     resourceTags=""
 	productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="8fe71a43-0175-436a-b351-29bcf585f596"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Help configuring an application with OAuth, OIDC, WS-FED, or SAML

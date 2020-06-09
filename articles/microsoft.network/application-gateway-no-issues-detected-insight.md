@@ -10,8 +10,9 @@
     articleId="application-gateway-no-issues-detected-insight"
     diagnosticScenario="AppGwCertificateIssuesAzurePortalInsight,AppGwConnectionTimedOutAzurePortalInsight,AppGwUnknownBackendHealthAzurePortalInsight,AppGwChecklistInsights"
     supportTopicIds=""
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
- />
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Issues with Application Gateway
 

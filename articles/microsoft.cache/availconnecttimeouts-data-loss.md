@@ -10,8 +10,9 @@
 	supportTopicIds="32690909"
 	resourceTags=""
 	productPesIds="14783"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="d9763801-01a0-449a-baf7-48af8bb288ee"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # Data Loss with Azure Cache For Redis

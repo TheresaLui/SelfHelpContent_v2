@@ -10,7 +10,8 @@ displayOrder=""
 articleId="c95b09f8-3f33-4fe9-8c66-79505deb412d"
 selfHelpType="diagnoseandsolve"
 productPesIds="13491"
-cloudEnvironments="public,blackForest,fairfax,mooncake"
+cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Top common problems for SQL Database

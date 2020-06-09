@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639978"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-scaleresource-errorsscale"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Scaling a resource - Errors scaling a resource
 ---

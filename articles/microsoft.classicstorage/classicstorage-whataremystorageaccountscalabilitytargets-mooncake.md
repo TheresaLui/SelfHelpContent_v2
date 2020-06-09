@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="1d52d299-9d90-482f-83aa-75a016e18ace"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # What are my Storage account scalability targets?

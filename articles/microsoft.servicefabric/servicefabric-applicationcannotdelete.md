@@ -10,8 +10,9 @@
 	supportTopicIds="32690981"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="servicefabric-applicationcannotdelete"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # application/Delete Application

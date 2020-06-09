@@ -11,8 +11,9 @@
     supportTopicIds="32629788"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
-    />
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+    	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
+/>
 
 # Manual upgrade: Missing Azure AD connector
 

@@ -9,8 +9,9 @@
 	supportTopicIds="32599625"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="a985052f-648f-4215-a870-d153a8f21826"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Set device compliance - Create an Android Policy

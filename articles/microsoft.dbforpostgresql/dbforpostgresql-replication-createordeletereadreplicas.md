@@ -9,9 +9,10 @@
     selfHelpType="generic"
     supportTopicIds="32639973"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="9e065390-0a87-42d8-812b-39f24f7d04c7"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Create a replica
@@ -19,6 +20,10 @@
 Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Steps**
+
+**Issue:** Preferred region not listed for replica.
+The list of available cross-regions depends on your master server's region. Visit the read replica documentation for more information: https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#cross-region-replication. We are working to expand to more regions in the future.
+
 
 **Issue:** The *Add Replica* button is disabled.
 

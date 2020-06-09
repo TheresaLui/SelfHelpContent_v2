@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="cognitiveservices-whichplatformsaresupportedbycognitiveservicesapis-mooncake"
+	ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # Which platforms are supported by Cognitive Services APIs?

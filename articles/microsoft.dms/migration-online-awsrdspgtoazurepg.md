@@ -13,7 +13,8 @@
 	supportTopicIds="32673576"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 
 # Configuration info for migrating from PostgreSQL to Azure Database for PostgreSQL using online migration and errors you may encounter while migrating 

@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="2e1f3077-969a-4cd3-8094-a3c3713f7251"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # I am seeing System.XXX Errors in Service Fabric Explorer

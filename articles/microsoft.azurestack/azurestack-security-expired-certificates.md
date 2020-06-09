@@ -10,8 +10,9 @@
     supportTopicIds="32663931"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="60efa9c9-73df-4816-9eab-40409496cc66"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack expired certificates issue

@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640600"
 	productPesIds="16355"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureDDoSProtection"
 />
 # Configure protection on Virtual Network resource
 ---

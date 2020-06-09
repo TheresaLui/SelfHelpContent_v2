@@ -13,7 +13,8 @@
 	supportTopicIds="32629623,32629673"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # Configuration: Creating, editing, or deleting alert rules

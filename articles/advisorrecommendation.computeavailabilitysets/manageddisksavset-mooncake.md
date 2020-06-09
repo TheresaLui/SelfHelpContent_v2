@@ -6,8 +6,9 @@
     articleId="02cfb5ef-a0c1-4633-9854-031fbda09946_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
+	ownershipId="StorageMediaEdge_XStore"
 />
-# Use Managed Disks to improve data reliability
+# Use Managed Disks to improve    data reliability
 ---
 {
   "recommendationOfferingId": "c6b94711-f1f5-4e7e-9c89-c17ed4190969",
@@ -24,7 +25,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Compute/availabilitySets",
   "recommendationFriendlyName": "ManagedDisksAvSet",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",
@@ -38,7 +39,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 2.0,
-  "learnMoreLink": "https://aka.ms/aa_avset_manageddisk_learnmore",
+  "learnMoreLink": "https://aka.ms/aa_avset_manageddisk_learnmore_cn",
   "description": "Use Managed Disks to improve data reliability",
   "longDescription": "Virtual machines in an Availability Set with disks that share either storage accounts or storage scale units are not resilient to single storage scale unit failures during outages. Migrate to Azure Managed Disks to ensure that the disks of different VMs in the Availability Set are sufficiently isolated to avoid a single point of failure.",
   "potentialBenefits": "Ensure business continuity through data resilience",

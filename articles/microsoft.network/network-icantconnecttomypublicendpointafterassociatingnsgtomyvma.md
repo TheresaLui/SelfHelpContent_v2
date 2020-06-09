@@ -10,8 +10,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="20184d93-cd41-486d-861c-7b0f8664d9b0"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # I cannot connect to my public endpoint after associating NSG to my virtual machine.

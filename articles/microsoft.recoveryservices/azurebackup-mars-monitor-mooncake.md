@@ -6,12 +6,13 @@
 	authors="saurabhsensharma"
 	ms.author="saurse"
 	displayOrder="28"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-mars-monitor-mooncake"
+	ownershipId="Compute_SiteRecovery"
 />
 
 

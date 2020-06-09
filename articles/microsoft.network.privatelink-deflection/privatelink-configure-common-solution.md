@@ -13,7 +13,8 @@
 	supportTopicIds="32681486"
 	resourceTags=""
 	productPesIds="16843"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="CloudNet_PrivateLink"
 />
 
 # How to configure Private Link?

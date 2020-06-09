@@ -9,8 +9,9 @@
 	supportTopicIds="32416703"
 	resourceTags="userandgroups_overview,userandgroups_user,userandgroups_group"
 	productPesIds="14785,16580"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="9c3caee9-a539-4c9d-afb9-9a713e01ab49"
+	ownershipId="AzureIdentity_B2C"
 />
 
 # B2C: How to create or migrate users into Azure AD B2C

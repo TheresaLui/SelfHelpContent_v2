@@ -10,8 +10,9 @@
     supportTopicIds="32633549, 32633566, 32633569, 32633578, 32633580, 32633584, 32633586, 32633589, 32633550, 32633571, 32633575, 32633582, 32633583, 32633587, 32633551, 32633567, 32633570, 32633579, 32633581, 32633585, 32633588"
     resourceTags=""
     productPesIds="15968"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="c3de7ceb-08a1-4eb0-988b-04409d799e0a"
+	ownershipId="AzureLabServices_DevTestLab"
 />
 
 # Classroom Labs Problem Types

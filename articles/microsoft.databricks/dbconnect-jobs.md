@@ -10,8 +10,9 @@
 	supportTopicIds="32677705"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="a245243e-bcb4-4ae2-ab42-26c9d97fad31"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Jobs

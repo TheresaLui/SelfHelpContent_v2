@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="compute-myvmisnotbootinglinuxvm-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Resolve connection issue with your Linux VM

@@ -12,7 +12,8 @@ diagnosticScenario="Access tiers is not supported on this storage account"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Access tiers is not supported on this storage account

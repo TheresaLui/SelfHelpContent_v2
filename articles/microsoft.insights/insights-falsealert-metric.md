@@ -13,7 +13,8 @@
 	supportTopicIds="32629644"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # My metric alert fired when it shouldn't have

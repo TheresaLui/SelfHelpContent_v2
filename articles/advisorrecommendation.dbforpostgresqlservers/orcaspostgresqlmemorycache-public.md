@@ -1,11 +1,12 @@
 <properties
     pageTitle="Move your PostgreSQL server to Memory Optimized SKU"
     description="Move your PostgreSQL server to Memory Optimized SKU"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    authors="manishku"
+    ms.author="kummanish"
     articleId="47b11ec4-7950-43a1-b6b5-f051f812bd34_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Move your PostgreSQL server to Memory Optimized SKU
 ---
@@ -31,7 +32,7 @@
       "service": "Azure OSS Databases",
       "team": "Open Source RDBMS (Project OrcaSQL)"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a"
   },
   "ingestionClientIdentities": [
     "49ebada5-bdc9-4c9b-826c-3cb789357c5d"

@@ -10,8 +10,9 @@
 	supportTopicIds="32608878"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="946f4a44-e3c6-4256-88fc-5ee215c76675"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # How to configure Immutable Blob Storage

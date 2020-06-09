@@ -7,8 +7,9 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32635074"
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
+	ownershipId="Compute_AzureBatch"
 />
 # Job, Pool, and node details
 ---

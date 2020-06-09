@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="213974c8-ed9c-459f-9398-7cdaa3c28856_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure Consistent indexing mode on your Azure Cosmos DB container
 ---

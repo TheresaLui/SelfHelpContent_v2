@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639980"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-createupdatedrop-firewallrules"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Create Update and Drop Resources - Firewal Rules
 ---
