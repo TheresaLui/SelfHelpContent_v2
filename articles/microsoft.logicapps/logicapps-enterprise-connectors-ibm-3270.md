@@ -22,4 +22,4 @@ The connector communicates with IBM mainframes by using the TN3270 protocol and 
 
 ## **Recommended Documents**
 
-[Integrate 3270 screen-driven apps on IBM mainframes with Azure by using Azure Logic Apps and IBM 3270 connector](https://docs.microsoft.com/azure/connectors/connectors-run-3270-apps-ibm-mainframe-create-api-3270)
+* [Integrate 3270 screen-driven apps on IBM mainframes with Azure by using Azure Logic Apps and IBM 3270 connector](https://docs.microsoft.com/azure/connectors/connectors-run-3270-apps-ibm-mainframe-create-api-3270)
