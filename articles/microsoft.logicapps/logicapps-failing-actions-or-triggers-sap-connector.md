@@ -10,8 +10,9 @@
     supportTopicIds="32677629"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="57f87e36-9de0-48a3-95c3-530291f7378f"
+	ownershipId="Compute_LogicApps"
 />
 
 # Receiving or Transmitting data through a specific Connector - SAP

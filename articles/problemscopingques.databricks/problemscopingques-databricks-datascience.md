@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32677651, 32677667, 32677686, 32677696, 32677706, 32677709, 32677710, 32677722, 32677726"
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureDatabricks"
 />
 # Databricks Cluster Data Science Issue
 ---

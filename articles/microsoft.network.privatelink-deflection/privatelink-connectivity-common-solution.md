@@ -13,7 +13,8 @@
 	supportTopicIds="32681488"
 	resourceTags=""
 	productPesIds="16843"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="CloudNet_PrivateLink"
 />
 
 # My Azure Private Link connectivity is not working

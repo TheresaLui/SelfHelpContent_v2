@@ -10,8 +10,9 @@
     supportTopicIds="32677628"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="889395c1-ae9f-49da-98af-7a88f33a5bd0"
+	ownershipId="Compute_LogicApps"
 />
 
 # Receiving or Transmitting data through a specific Connector - HTTP

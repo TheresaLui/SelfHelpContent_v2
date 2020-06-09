@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602885"
 	productPesIds="16462"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="cb9c0899-36e8-4fa6-bc1e-142271c7743e"
+	ownershipId="StorageMediaEdge_StorageTables"
 />
 # Performance issue on table
 ---

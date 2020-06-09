@@ -10,8 +10,9 @@
 	supportTopicIds="32677707"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="171610b6-aa2c-4b63-a017-65a5b58f7c88"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve library compatibility issues

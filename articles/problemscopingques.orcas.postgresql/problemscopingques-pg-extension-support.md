@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640016"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-extension-support"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Extensions - Request support for new extension
 ---

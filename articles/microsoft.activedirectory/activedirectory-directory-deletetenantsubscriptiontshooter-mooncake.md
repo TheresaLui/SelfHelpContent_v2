@@ -12,6 +12,7 @@
     productPesIds="" 
     cloudEnvironments="MoonCake"
  	articleId="activedirectory-directory-deletetenantsubscriptiontshooter-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I have Microsoft Online Services blocking deletion of my Azure AD

@@ -13,7 +13,8 @@ selfHelpType="diagnostics"
 supportTopicIds="32635012,32599853,32599860,32599908,32615224"
 resourceTags="windows"
 productPesIds="15607"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_Automation"
 />
 
 # Runbook was stopped or failed because it exceeded the fair share time limit

@@ -9,8 +9,9 @@
 	supportTopicIds="32589281"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="c4c47148-71e9-4882-8eed-a6c522f7b4a4"
+	ownershipId="Compute_AppService"
 />
 # Questions on IP Configuration
 ## **Recommended documents** 

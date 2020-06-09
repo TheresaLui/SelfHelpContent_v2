@@ -12,7 +12,8 @@
 	supportTopicIds="32632130"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Issues encrypting with Widevine

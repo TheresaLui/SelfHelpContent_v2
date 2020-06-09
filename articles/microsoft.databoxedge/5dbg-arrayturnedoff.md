@@ -11,8 +11,9 @@
 	supportTopicIds=""
 	resourceTags="DataBoxGateway"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="8bbce42c-0cce-4266-a72e-3f24c184a576"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box Gateway has turned off

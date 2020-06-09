@@ -6,13 +6,14 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32636799,32636811,32684530,32692542"
+	supportTopicIds="32636799,32741538,32684530,32692542"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-portal-metrics"
 	displayOrder="262"
 	category="Monitoring"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 

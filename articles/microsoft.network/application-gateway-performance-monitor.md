@@ -11,8 +11,9 @@
  	resourceTags=""
 	productPesIds="15922"
     supportTopicIds="32680759"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
- />
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Monitor performance of Application Gateway
 If you are interested in monitoring the performance of your Application Gateway, then view the [Performance metrics](https://docs.microsoft.com/azure/application-gateway/application-gateway-metrics#application-gateway-metrics) in the portal to see the count of compute units consumed, connections, throughput, etc.

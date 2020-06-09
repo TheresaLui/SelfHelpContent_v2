@@ -8,9 +8,10 @@
     articleId="insights_python_data"
     displayOrder="1126"
     selfHelpType="resource"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds=""
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # No data or Partial data with OpenCensus Python
 

@@ -9,8 +9,9 @@
 	supportTopicIds="32565560"
 	resourceTags="Windows"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="15b897e5-232d-4b0d-a952-b725c3c1a4cf"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Suspected Malware, Safety Bulletins, and Security Bulletins/Virus or Trojan detected on system

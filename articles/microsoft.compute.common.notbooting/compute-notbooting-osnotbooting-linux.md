@@ -10,8 +10,9 @@
     supportTopicIds="32675600"
     resourceTags=""
     productPesIds="15571,15797,16454,16470,16342"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="dfa46cbd-abb8-46e1-a56d-7710571dcafb"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My Linux VM is not booting

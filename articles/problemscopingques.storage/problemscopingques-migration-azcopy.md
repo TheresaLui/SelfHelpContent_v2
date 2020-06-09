@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602696,32630512"
 	productPesIds="15629,16459"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="321513E7-1346-42C6-A5BC-2D43DA486F20"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Storage migration with AzCopy

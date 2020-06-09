@@ -9,8 +9,9 @@
     supportTopicIds="32615363"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="0b7fc380-4fe8-409b-86f9-69a898328ca2"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # I'm having a problem with password reset auditing and reporting

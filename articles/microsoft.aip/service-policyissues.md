@@ -10,8 +10,9 @@
 	supportTopicIds="32584369"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="90771a7a-a1d9-4db9-94a3-cd2be2ac28a8"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - policy issues

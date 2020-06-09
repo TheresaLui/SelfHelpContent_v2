@@ -9,8 +9,9 @@
 	supportTopicIds="32608421"
 	resourceTags=""
 	productPesIds="16533"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="53ae8eca-2812-45a2-bf10-8c0df8630a1c"
+	ownershipId="Compute_AppService"
 />
 
 # ssl\Certificate Issues

@@ -1,7 +1,6 @@
 <properties
 	pageTitle=""
 	description=""
-	authors=""
 	ms.author=""
 	selfHelpType=""
 	supportTopicIds=""
@@ -9,6 +8,7 @@
 	cloudEnvironments=""
 	schemaVersion="1"
 	articleId=""
+	ownershipId=""
 />
 # Useful Title
 ---

@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="9ebff5d5-10c1-4fed-8c58-1954e27d3bfa_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="Compute_LogicApps"
 />
 # Move your App Service Plan to PremiumV2 for better performance
 ---

@@ -10,8 +10,9 @@
     supportTopicIds="32663912"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="6f641910-1006-4135-b8d1-85ab25fa1503"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Windows VM monitoring and diagnostics issues
