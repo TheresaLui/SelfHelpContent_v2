@@ -3,13 +3,13 @@
 	description="Windows Virtual Desktop"
 	service=""
 	resource=""
-	authors="ScottAzure"
-	ms.author="scotro"
+	authors="jerrycif"
+	ms.author="jerrycif"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32625539,32625540,32625541,32625542,32625544"
+	supportTopicIds="32625539,32625540,32625541,32625542,32625544,32741366,32741362,32741362,32741361,32741359,32741356"
 	resourceTags=""
-	productPesIds="16582"
+	productPesIds="16582,14749"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="586ec56a-93f1-4c0c-86c0-63debae7b9f8"
 	ownershipId="Windows_Virtual_Desktop"
@@ -18,7 +18,7 @@
 # Windows Virtual Desktop
 
 4 out of 5 customers resolved their Windows Virtual Desktop issue using the guides listed below.<br>
-
+32741359
 ## **Recommended Documents**
 
 * [WVD How to videos: Troubleshoot connectivity](https://support.microsoft.com/help/4563049/how-to-videos-about-windows-virtual-desktop)<br>
