@@ -17,15 +17,15 @@
   "recommendationTypeId": "129d8c1e-a4d2-4bac-86ce-c7c2b2e37feb",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "Microsoft.Cloud.idlevnetgatewaysff",
-    "dataSource": "Cosmos",
+    "streamNamespace": "cluster('https://aznwff.kusto.usgovcloudapi.net').database('aznwcosmos').FairfaxIdleGateways",
+    "dataSource": "Kusto",
     "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Network/virtualNetworkGateways",
   "recommendationFriendlyName": "IdleVNetGateway",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
     "email": "azvpnpms@microsoft.com",

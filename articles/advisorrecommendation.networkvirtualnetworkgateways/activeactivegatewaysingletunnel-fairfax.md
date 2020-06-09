@@ -19,15 +19,15 @@
   "recommendationTypeId": "f3be5a9b-2583-4a1c-b774-2481c00ccb04",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "Microsoft.Cloud.activeactivevpngatewaysazureadvisorFF",
-    "dataSource": "Cosmos",
+    "streamNamespace": "cluster('https://aznwff.kusto.usgovcloudapi.net').database('aznwcosmos').FairfaxAAgateway1tunnel",
+    "dataSource": "Kusto",
     "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Network/virtualNetworkGateways",
   "recommendationFriendlyName": "ActiveActiveGatewaySingleTunnel",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
     "email": "azvpnpms@microsoft.com",
