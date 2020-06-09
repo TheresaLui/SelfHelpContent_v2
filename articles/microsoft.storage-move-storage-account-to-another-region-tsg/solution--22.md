@@ -19,7 +19,6 @@
 
 <!--issueDescription-->
 
-
 After the deployment, if you want to start over, you can delete the target storage account, and repeat the steps described in the Prepare and Move sections of this article. To commit the changes and complete the move of a storage account, delete the source storage account. 
 
 **To remove a storage account by using the Azure portal:**
