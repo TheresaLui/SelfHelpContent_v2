@@ -17,7 +17,8 @@
 
 # open source technologies/java
 
-## **Recommended documents**
+## **Recommended Documents**
+
 * [How to deploy your app to Azure App Service with a ZIP or WAR file](https://docs.microsoft.com/azure/app-service/app-service-deploy-zip)<br>
 * [Deploying WAR files using wardeploy](https://github.com/projectkudu/kudu/wiki/Deploying-WAR-files-using-wardeploy)<br>
 * [Java on Azure](https://docs.microsoft.com/java/azure/) <br>
