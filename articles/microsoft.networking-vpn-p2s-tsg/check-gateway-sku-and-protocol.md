@@ -33,9 +33,3 @@ Basic SKU doesn't support IKEv2 nor OpenVPN.
 ## Recommended Documents
 
 * https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways#gwsku
-
-Is the customer attempting to use a Basic Gateway with IKEv2/OpenVPN?
-- Yes the Gateway is Basic and the customer is trying to use IKEv2/OpenVPN.
-- The gateway is Basic and the protocol is SSTP.
-- The Gateway is not Basic
----
