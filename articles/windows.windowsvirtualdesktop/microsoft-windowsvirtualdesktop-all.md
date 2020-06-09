@@ -7,7 +7,7 @@
 	ms.author="jerrycif"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32625539,32625540,32625541,32625542,32625544,32741366,32741362,32741362,32741361,32741359,32741356"
+	supportTopicIds="32625539,32625540,32625541,32625542,32625544,32741366,32741362,32741361,32741359,32741356"
 	resourceTags=""
 	productPesIds="16582,14749"
 	cloudEnvironments="public, fairfax, usnat, ussec"
