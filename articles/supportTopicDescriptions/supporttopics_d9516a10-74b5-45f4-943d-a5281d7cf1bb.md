@@ -721,6 +721,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c00846f0-18a5-8383-3d9f-e10d7b16ec54",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring your Cosmos DB data using Azure Synapse Link for Cosmos DB",
+      "searchTags": "Analytical Store;Synapse Link;Synapse;configuration",
+      "category": "Azure Synapse Link for Cosmos DB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c3a11f26-6f54-639b-6d73-dba9cc3b96e3",
       "longDescription": "",
       "shortDescription": "Issues or questions with using Free Tier billing option",
