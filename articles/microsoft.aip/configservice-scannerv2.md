@@ -11,11 +11,15 @@
 	supportTopicIds="32727935"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
-	ownershipId="AzureIdentity_InformationProtection"
+	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	ownershipId="AzureInformationProtection"
 />
 
 # Azure Information Protection - Configuring the Service - AIP Scanner Unified
+
+## **Recommended Steps**
+
+Run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#troubleshooting-using-scanner-diagnostic-tool) in order to troubleshoot common issues when deploying scanner
 
 ### Export Azure Information Protection Scanner logs
 

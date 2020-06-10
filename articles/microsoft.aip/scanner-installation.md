@@ -11,8 +11,8 @@
 	supportTopicIds="32629559"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId="AzureIdentity_InformationProtection"
+	cloudEnvironments="public"
+	ownershipId="AzureInformationProtection"
 />
 
 # Azure Information Protection - Scanner Installation
@@ -27,6 +27,8 @@ If an alternate configuration is needed for any of the below reasons, please fol
 * Service accounts cannot be synchronized to Azure Active Directory but servers have Internet connectivity
 
 Verify that you comply with all [Firewalls and network infrastructure settings requirements](https://docs.microsoft.com/azure/information-protection/requirements#firewalls-and-network-infrastructure).
+
+Run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#troubleshooting-using-scanner-diagnostic-tool) in order to troubleshoot common issues when deploying scanner
 
 If you still experience issues, please export the scanner logs and add them to your ticket. 
 
