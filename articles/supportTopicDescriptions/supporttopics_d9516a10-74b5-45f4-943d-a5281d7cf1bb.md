@@ -585,6 +585,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "96c6ad7f-e3b8-5567-984c-68fb3ba1e2e8",
+      "longDescription": "",
+      "shortDescription": "Issues with Spark using Azure Synapse Link for Cosmos DB",
+      "searchTags": "Spark;Synapse Link;Analytical Store",
+      "category": "Azure Synapse Link for Cosmos DB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9719a964-8780-bd76-4337-9c3ab9ae0fc4",
       "longDescription": "",
       "shortDescription": "Connection to Azure Cosmos DB is failing with authentication error or connection is failing with SSL errors",
