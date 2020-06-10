@@ -26,9 +26,9 @@ Access denied while trying to access files/directory
 
 Accessing a file or directory when using Azure Files with identity-based authentication requires two levels of authorization 1) share-level and 2) file/directory object-level.
     
-For share-level authorization, Administrators assign permissions through the RBAC model in Portal. For more details, see here: https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-assign-permissions
+For share-level authorization, Administrators assign permissions through the RBAC model in Portal. For more details, see here: https://docs.microsoft.com/azure/storage/files/storage-files-identity-ad-ds-assign-permissions
     
-For file-level authorization, the system uses NTFS ACLs on a per-file/directory basis.  A user must have a SID present in their Kerberos ticket that matches a SID authorized in the in the security descriptor for the file/directory object. Fore more details, see here: https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-configure-permissions 
+For file-level authorization, the system uses NTFS ACLs on a per-file/directory basis.  A user must have a SID present in their Kerberos ticket that matches a SID authorized in the in the security descriptor for the file/directory object. Fore more details, see here: https://docs.microsoft.com/azure/storage/files/storage-files-identity-ad-ds-configure-permissions 
     
 To open a file for a certain permission (for example "write"), the user must have share-level write permissions as well as file-level write permissions.  
 
