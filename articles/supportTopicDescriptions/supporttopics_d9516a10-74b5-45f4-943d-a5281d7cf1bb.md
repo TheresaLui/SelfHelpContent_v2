@@ -121,6 +121,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "23791114-7071-6812-e2b0-4d0b41a14300",
+      "longDescription": "",
+      "shortDescription": "Issues with connectivity using Azure Synapse Link for Cosmos DB",
+      "searchTags": "Synapse;Synapse Link;Analytical Store;connection;connect",
+      "category": "Azure Synapse Link for Cosmos DB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "281f8d5e-90e3-1239-4da1-44ad98360fdb",
       "longDescription": "",
       "shortDescription": "Connection to Azure Cosmos DB Cassandra are timing out, or application is getting Service Unavailable exceptions",
