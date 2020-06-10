@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="16582"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId=" Needed "
+	articleId="e4142ef2-a17c-4bad-ac00-5be2b4ce3b68"
 	ownershipId="Windows_Virtual_Desktop"
 />
 
