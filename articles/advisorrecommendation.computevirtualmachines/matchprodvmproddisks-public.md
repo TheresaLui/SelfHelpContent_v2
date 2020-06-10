@@ -1,8 +1,8 @@
 <properties
     pageTitle="Match production Virtual Machines with Production Disk for consistent performance and better latency"
     description="Match Production Virtual Machine with Production Disks"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    authors="xdataanalytics"
+    ms.author="xdataanalytics"
     articleId="9b0d1cf7-8a3a-4c8b-8f9f-1c3e70e399d6_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, USSec, USNat"
