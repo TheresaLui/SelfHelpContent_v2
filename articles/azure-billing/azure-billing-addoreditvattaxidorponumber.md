@@ -64,6 +64,5 @@ Note: The existing invoices will be unable to show the updated Billing informati
 * [Manage (Reactivate/Cancel/Switch) subscription](https://azure.microsoft.com/pricing/faq/)
 * [How to pay by Invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice)
 * [How to add, update or remove a credit or debit card from Azure](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
-* [How to associate or add an Azure subscription to Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory)
 * [How to change currency](https://azure.microsoft.com/pricing/faq/)
 * [Understand your Azure billing for marketplace charges](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges)
