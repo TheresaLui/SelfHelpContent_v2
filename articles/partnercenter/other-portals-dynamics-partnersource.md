@@ -20,6 +20,8 @@
 
 # This topic is to report problems with PartnerSource Business Center (PSBC) or CustomerSource (Center) portals
 
+This topic is to report problems with PartnerSource Business Center (PSBC) or CustomerSource (Center) portals
+
 
 ## **Recommended Steps**
 

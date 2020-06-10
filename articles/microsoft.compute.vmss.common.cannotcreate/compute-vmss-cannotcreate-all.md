@@ -21,7 +21,7 @@
 
 ## **Recommended Steps**
 
->If you are experiencing allocation failures in **UK South**, please try alternate regions (as first preference) or alternate SKUs.<br>
+>If you are experiencing allocation failures in **UAE North**, please try alternate regions (as first preference) or alternate SKUs.<br>
 
 For general troubleshooting, please follow these guides:<br>
 

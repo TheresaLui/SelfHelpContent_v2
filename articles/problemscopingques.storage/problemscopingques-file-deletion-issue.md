@@ -4,7 +4,7 @@
 	authors="Passaree"
     ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32602743"
+	supportTopicIds="32736816"
 	productPesIds="16460"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"

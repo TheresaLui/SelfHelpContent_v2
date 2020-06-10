@@ -247,6 +247,16 @@ cloudEnvironments="public, fairfax, usnat, ussec"
       "symptomId": ""
     },
     {
+      "id": "Allocation_failure_Top",
+      "title": "Allocation failure",
+      "description": "Troubleshoot allocation failures with a VM in Azure (Start VM or Create VM)",
+      "category": "Allocation",
+      "searchTags": "allocation",
+      "supportTopicId": "32628252",
+      "commonSolutionArticleId": "9c0b9ec9-a07a-40e3-a6a2-f4d49f5f4ccb",
+      "symptomId": ""
+    },
+    {
     "id": "Help_with_VM_Sizing",
     "title": "Help with VM Sizing",
     "description": "Guidance on VM sizing and troubleshooting resize issues",
@@ -743,14 +753,14 @@ cloudEnvironments="public, fairfax, usnat, ussec"
       "type": "tool",
       "bladeLink": {
         "extensionName": "Microsoft_Azure_ChangeAnalysis",
-        "bladeName": "ChangeAnalysisBlade",
+        "bladeName": "ResourceChangesBlade",
         "parameters": [
           {
             "name": "resourceId",
             "value": "$resourceId"
           },
           {
-            "name": "deeplinkOrigin",
+            "name": "deepLinkOrigin",
             "value": "d&sp"
           }
         ]

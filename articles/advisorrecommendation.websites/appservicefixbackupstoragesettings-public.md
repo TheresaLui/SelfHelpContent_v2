@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="80efd6cb-dcee-491b-83a4-7956e9e058d5_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="Compute_AppService"
 />
 # Fix the backup storage settings of your App Service resource

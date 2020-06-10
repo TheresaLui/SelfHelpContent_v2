@@ -22,4 +22,4 @@
 ## **Recommended Steps**
 
 * To provide access to Azure Synapse workspace or SQL on-demand endpoint, [visit full guide on access control for more information](https://docs.microsoft.com/azure/synapse-analytics/sql/access-control) 
-* To configure how SQL on-demand accesses storage account, visit [control storage access for SLQ on-demand](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control) 
+* To configure how SQL on-demand accesses storage account, visit [control storage access for SQL on-demand](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control) 

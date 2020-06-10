@@ -10,11 +10,11 @@
 	articleId="insights-alertcrud-log-la"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629624,32612472,32629674"
+	supportTopicIds="32629624,32629674"
 	resourceTags=""
 	productPesIds="15454,15725"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="AzureMonitoring_ActionGroup"
+	ownershipId="AzureMonitoring_Alerts_LogSearchAlerts"
 />
 
 # I am having issues creating, editing, or deleting log alert rules

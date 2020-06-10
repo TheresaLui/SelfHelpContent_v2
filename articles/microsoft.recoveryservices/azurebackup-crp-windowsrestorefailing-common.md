@@ -12,7 +12,7 @@
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="4f74f61e-97d5-49ba-8caf-fc1f0d5c2792"
-	ownershipId="Compute_VirtualMachines_Content"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Backup - Restore is failing
