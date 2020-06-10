@@ -35,6 +35,14 @@
       "searchTags": "Templates;Schedulers;Schedulers configuration;scheduler;template",
       "category": "CycleCloud",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fe5555d4-6b9b-a2cb-218c-712a019e37f6",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with the CycleCloud webserver application, including installation, configuration, and troubleshooting.",
+      "searchTags": "CycleCloud webserver application;CycleCloud webserver installation;CycleCloud webserver configuration;CycleCloud webserver troubleshooting",
+      "category": "CycleCloud",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
