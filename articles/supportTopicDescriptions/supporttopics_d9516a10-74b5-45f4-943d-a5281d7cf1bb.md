@@ -537,6 +537,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8db15022-bd00-4325-92e2-cebe7380d0d3",
+      "longDescription": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will provide related self help and expedite your support ticket if one is created.",
+      "searchTags": "Synapse Link;Synapse;Analytical Store",
+      "category": "Azure Synapse Link for Cosmos DB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "929094fb-8913-d934-8afe-0f81175a3e64",
       "longDescription": "",
       "shortDescription": "Issues regarding setting min or max RU limits",
