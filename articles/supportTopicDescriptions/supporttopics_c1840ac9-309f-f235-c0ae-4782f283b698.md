@@ -398,6 +398,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c5ed0546-8211-affd-84d9-8f91699ec24a",
+      "longDescription": "",
+      "shortDescription": "I am getting duplicate emails or automation runs after the migration of my classic alert rules",
+      "searchTags": "Alerts;Alert rules migration;Metric alerts (classic);Actions and notifications",
+      "category": "Alert rules migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cc03fd48-3dc7-2c2a-5172-21cecfc48594",
       "longDescription": "",
       "shortDescription": "A log search alert should have fired but I do not see it in the Azure  portal",
