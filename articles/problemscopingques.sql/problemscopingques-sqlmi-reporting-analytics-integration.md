@@ -42,9 +42,7 @@
         {
           "value": "Troubleshooting",
           "text": "Error when using SQL MI for reporting, analytics and interation"
-        }
-        "，",
-        ,
+        },
         {
           "value": "dont_know_answer",
           "text": "Other, don't know or not applicable"
