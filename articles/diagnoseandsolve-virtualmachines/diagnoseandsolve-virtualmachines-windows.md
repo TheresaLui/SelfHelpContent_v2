@@ -545,7 +545,7 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
           "title": "ARM template issues",
           "description": "Troubleshoot Azure Resource Manager template issues",
           "supportTopicId": "32727878",
-          "commonSolutionArticleId": "e4142ef2-a17c-4bad-ac00-5be2b4ce3b68",
+          "commonSolutionArticleId": " Needed ",
           "symptomId": ""
         },
         {
@@ -553,7 +553,7 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
           "title": "Desired State Configuration (DSC) issues",
           "description": "Troubleshoot Desired State Configuration (DSC) errors",
           "supportTopicId": "32727878",
-          "commonSolutionArticleId": "e4142ef2-a17c-4bad-ac00-5be2b4ce3b68",
+          "commonSolutionArticleId": " Needed ",
           "symptomId": ""
         },
         {
