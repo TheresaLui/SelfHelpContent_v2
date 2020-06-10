@@ -27,13 +27,13 @@ Azure resources can be moved to either another Azure subscription or another res
 * [Services that can be moved](https://docs.microsoft.com/azure/azure-resource-manager/move-support-resources)
 * [How to validate the move](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#validate-move)
 * [Move guidance for services](https://docs.microsoft.com/azure/azure-resource-manager/move-limitations/app-service-move-limitations)
-* To move resources,
+* To move resources:
 
-   * [Azure portal](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#use-the-portal)
-   * [Azure Powershell](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#use-azure-powershell)
-   * [Azure CLI](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#use-azure-cli)
-   * [REST API](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#use-rest-api)
-Tutorial: [Move Azure resources to another resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-tutorial-move-resources)
+   	* [Azure portal](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#use-the-portal)
+   	* [Azure Powershell](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#use-azure-powershell)
+   	* [Azure CLI](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#use-azure-cli)
+   	* [REST API](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#use-rest-api)
+	* Tutorial: [Move Azure resources to another resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-tutorial-move-resources)
 
 **Troubleshoot errors with Azure Resource Manager**
 
@@ -42,18 +42,18 @@ Refer to the article below to learn about some common Azure deployment errors, a
 * [Troubleshoot deployment errors](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors#authentication-subscription-role-and-quota-issues)
 * [Troubleshoot moving Azure resources to new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/troubleshoot-move)
 
-**Note**: If you want to upgrade your Azure subscription (such as switching from free to pay-as-you-go), you need to convert your subscription.
+**Note**: If you want to upgrade your Azure subscription (such as switching from free to pay-as-you-go), you need to convert your subscription.
 
-* To upgrade a free trial, see [Upgrade your Free Trial or Microsoft Imagine Azure subscription to Pay-As-You-Go](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription)
-* To change a pay-as-you-go account, see [Change your Azure Pay-As-You-Go subscription to a different offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)
+* To upgrade a free trial, see [Upgrade your Free Trial or Microsoft Imagine Azure subscription to Pay-As-You-Go](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription)
+* To change a pay-as-you-go account, see [Change your Azure Pay-As-You-Go subscription to a different offer](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)
 
 **Add or Associate an Azure subscription to your Azure Active Directory tenant**
 
-1. Sign in and select the subscription you want to use from the [Subscriptions page in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
-2. Select **Change directory**
-3. Review any warnings that appear, and then select **Change**
+1. Sign in and select the subscription you want to use from the [Subscriptions page in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
+2. Select **Change directory**
+3. Review any warnings that appear, and then select **Change**
 4. The directory is changed for the subscription and you get a success message
-5. Use the Directory switcher to go to your new directory. Note: It might take up to 10 minutes for everything to show up properly.
+5. Use the Directory switcher to go to your new directory. Note: It might take up to 10 minutes for everything to show up properly.
 
 **EA Subscriptions**
 
