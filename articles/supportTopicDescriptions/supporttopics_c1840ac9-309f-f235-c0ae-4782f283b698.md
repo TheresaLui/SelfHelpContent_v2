@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3882002b-3d85-7c5e-b65c-83839770842a",
+      "longDescription": "",
+      "shortDescription": "I have an issue with migration of my classic metric alert rules",
+      "searchTags": "Alerts;Metric alerts (classic);Metric alerts;Alert rules migration",
+      "category": "Alert rules migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "398a1ec3-2056-6ca1-285c-f2f54c00c551",
       "longDescription": "",
       "shortDescription": "A classic metric alert fired when it should not have ",
