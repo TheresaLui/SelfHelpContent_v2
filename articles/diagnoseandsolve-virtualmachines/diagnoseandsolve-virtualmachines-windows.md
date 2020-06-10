@@ -524,7 +524,7 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
         }
       ]
     },
-  {					   
+  	{					   
       "id": "Troubleshoot_WindowsVirtualDeskTop",
       "title": "Troubleshoot Windows Virtual Desktop",
       "description": "Troubleshoot Windows Virtual Desktop issues",
@@ -532,8 +532,8 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
       "searchTags": "WVD, Windows Virtual Desktop",
       "supportTopicId": "",
       "subProblems": [
-        {
-          "id": ""WVD_CommonIssues",
+			{
+          "id": "VD_CommonIssues",
           "title": "Common Issues",
           "description": "Troubleshoot Common Issues",
           "supportTopicId": "32625539",
@@ -566,7 +566,7 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
         },
         {
           "id": "WVD_SpringUpdate",
-          "title": "Spring Update Issues"",
+          "title": "Spring Update Issues",
           "description": "Troubleshoot Spring Update Issues",
           "supportTopicId": "32740695",
           "commonSolutionArticleId": "2a0f5b97-41f3-44d6-8a1f-f25ad89822fe",
