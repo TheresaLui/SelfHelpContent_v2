@@ -53,10 +53,3 @@ Once VPN protocol is determined you can apply the relevant solution.
 However, having a route for the destination network pointing to the VPN gateway is not enough for an IKEv2 client. This is because the Point to Site client and the VPN Gateway establish an IPsec connection that uses narrow traffic selectors. **The Traffic Selectors will only include the routes that the gateway knows about.** So no matter which route you add to the client, it won't work if there isn't a corresponding Traffic Selector sent by the gateway.
 
 You need to review the [IkeLogsTable](https://jarvis-west.dc.ad.msft.net/A5B239BD) at the time of VPN connection establishment to check the Traffic Selector exchanged and verify if the destination the client wants to reach is included in those.
-
-Are all routes and/or Traffic Selectors correctly in place?
-- Yes
-- No 
-- This is a Windows IKEv2 client with more than 25 traffic selectors.
-
-
