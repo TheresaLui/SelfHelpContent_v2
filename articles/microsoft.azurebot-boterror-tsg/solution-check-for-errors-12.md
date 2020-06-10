@@ -11,15 +11,15 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="0c72e43e-046b-4c71-a946-b65f617d5dc5"
+	articleId="fe7f0887-ddf2-44e9-b0e5-2d6843b5c59d"
    	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# CHeck for errors
+# Check for errors
 
 <!--issueDescription-->
 
-Follow the instructions in https://supportability.visualstudio.com/Developer/_wiki/wikis/Developer/185023/Bot-is-returning-errors-or-exceptions
+Follow the instructions in [Bot is returning errors](https://supportability.visualstudio.com/Developer/_wiki/wikis/Developer/185023/Bot-is-returning-errors-or-exceptions)
 
 <!--/issueDescription-->
 

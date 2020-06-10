@@ -76,7 +76,3 @@ If Mac OS:
 1. Stop the network capture by pressing **CTRL+C**
 
 Engage a TA shall you require help reviewing any of the collected logs.
-
-By reviewing the trace on the client side, is the traffic forwarded on the VPN interface, or on the external interface?
-- VPN interface
-- External interface
