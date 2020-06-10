@@ -26,7 +26,7 @@ Support tickets for this issue should be reported in the Azure portal. To create
 - In the Support Requests section, select the New request drop-down menu, and then select Microsoft Azure
 - In the Azure portal, select New support request
 - Enter the relevant information for the service request, and then select Submit. For more information about how to fill out the support request, see [How to create Azure support requests](https://docs.microsoft.com/azure/azure-supportability/how-to-create-azure-support-request).
-- Daily rated usage normally takes 24 hours to appear in Partner Center or to be accessed through API
+- Daily-rated usage normally takes 24 hours to appear in Partner Center or to be accessed through API
 
 ## **Recommended Documents**
 
