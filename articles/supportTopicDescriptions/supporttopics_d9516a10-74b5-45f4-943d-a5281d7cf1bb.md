@@ -257,6 +257,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4218e462-d49b-ff75-bdc8-9b773f101bfa",
+      "longDescription": "",
+      "shortDescription": "Issues with using Synapse SQL Serverless with Azure Synapse Link for Cosmos DB",
+      "searchTags": "SQL Serverless;Synapse;Synapse Link",
+      "category": "Azure Synapse Link for Cosmos DB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "43564fd3-9f8b-9ae9-e225-3949be830689",
       "longDescription": "",
       "shortDescription": "Any other General advisory question not listed",
