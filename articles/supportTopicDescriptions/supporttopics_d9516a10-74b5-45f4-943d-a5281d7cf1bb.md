@@ -959,6 +959,14 @@
       "searchTags": "sdk",
       "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fa1d2af4-5a02-6ef3-5fd1-6c1821365b85",
+      "longDescription": "",
+      "shortDescription": "Issues with Accessing your Cosmos DB data using Azure Synapse Link for Cosmos DB",
+      "searchTags": "Synapse Link;Analytical Store;Access",
+      "category": "Azure Synapse Link for Cosmos DB",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
