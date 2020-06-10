@@ -326,6 +326,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9e91c081-257e-7d53-cb93-d6dc9691a738",
+      "longDescription": "",
+      "shortDescription": "An activity log alert fired when it should not have ",
+      "searchTags": "Alerts;Activity Log Alerts",
+      "category": "Alerts accuracy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9ea694c8-0231-4556-1b4c-113d59151b81",
       "longDescription": "",
       "shortDescription": "A metric alert should have fired but I do not see it in the Azure portal",
