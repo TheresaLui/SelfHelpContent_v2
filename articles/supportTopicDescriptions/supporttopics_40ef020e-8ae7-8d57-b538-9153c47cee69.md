@@ -17,7 +17,7 @@
   "$schema": "SelfHelpContent",
   "shortDescription": "Questions or concerns specific to running SQL Server in Linux Virtual machines on Azure",
   "longDescription": "",
-  "productLink1": "https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/linux/sql-server-on-linux-vm-what-is-iaas-overview",
+  "productLink1": "https://docs.microsoft.com/azure/azure-sql/virtual-machines/linux/sql-server-on-linux-vm-what-is-iaas-overview",
   "productLinkName1": "Product Overview",
   "productLink2": "",
   "productLinkName2": "",
