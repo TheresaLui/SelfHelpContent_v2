@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "5ebd7586-ace8-7133-d98c-22f89e7ac64c",
+      "longDescription": "",
+      "shortDescription": "Questions or issues about node software installation errors or configuration.",
+      "searchTags": "Node;Nodes errors;Node configuration;node software installation",
+      "category": "CycleCloud",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c8e55431-8031-51f4-6174-7dbc9c3d5ff0",
       "longDescription": "",
       "shortDescription": "Questions or issues about customizing cluster templates, scheduler configuration, or CycleCloud projects",
