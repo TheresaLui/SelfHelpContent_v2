@@ -39,7 +39,3 @@ Non-authoritative answer:
 Name:    azuregateway-ced1006d-062f-41d9-874c-a71d135c5962-807ed9db6637.vpn.azure.com
 Address:  40.115.164.54
 ~~~
-
-Can the client resolve the Azure VPN Gateway IP address?
-- Yes
-- No

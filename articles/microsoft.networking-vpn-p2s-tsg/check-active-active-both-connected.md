@@ -29,7 +29,3 @@ When only one of the VPN gateways is connected in an Active Active configuration
 ##Recommended Documents
 
 1. [Verify a VPN Gateway connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-verify-connection-resource-manager)
-
-What is the connection status?
-- Only one connection is Connected
-- Both Active Active Connections are Connected
