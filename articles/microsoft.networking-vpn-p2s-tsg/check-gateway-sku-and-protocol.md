@@ -15,7 +15,7 @@
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
 
-# Check gateway SKU & protocol
+# Check gateway SKU and protocol
 
 ## Recommended Steps
 
