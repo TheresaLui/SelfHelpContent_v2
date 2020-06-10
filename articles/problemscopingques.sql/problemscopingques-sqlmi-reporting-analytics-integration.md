@@ -6,7 +6,7 @@
 	authoralias="zhizhwan"
 	ms.author="zhizhwan"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32637226,32637249,32637290,"
+	supportTopicIds="32637226,32637249,32637290"
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -31,7 +31,7 @@
     {
        "id": "problem_type",
             "order": 2,
-            "controlType": "multiselectdropdown",
+            "controlType": "dropdown",
             "displayLabel": "What is the problem type",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
@@ -105,7 +105,7 @@
       "controlType": "multilinetextbox",
       "useAsAdditionalDetails": true,
       "displayLabel": "Details of the issue.",
-      "watermarkText": "Please provide additional context for your Reproting, Analytics and Integration issues.",
+      "watermarkText": "Please provide additional context for your Reporting, Analytics and Integration issues.",
       "required": true
     }
   ]
