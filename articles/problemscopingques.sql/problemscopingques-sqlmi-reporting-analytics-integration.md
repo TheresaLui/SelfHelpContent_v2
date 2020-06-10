@@ -6,7 +6,7 @@
 	authoralias="zhizhwan"
 	ms.author="zhizhwan"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32637226,32637249,32637290"
+	supportTopicIds="32637249,32637290"
 	productPesIds="16259"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -42,17 +42,21 @@
                 {
                     "value": "Troubleshooting",
                     "text": "Error when using SQL MI for reporting, analytics and interation"
-                }
+                }，
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }               
             ],
             "required": true
     },
     {
         "id": "error_message",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Please provide the error message",
-            "required": false,
-            "visibility": "problem_type == Troubleshooting"
+        "order": 3,
+        "controlType": "multilinetextbox",
+        "displayLabel": "Please provide the error message",
+        "required": false,
+        "visibility": "problem_type == Troubleshooting"
     },    
     {
         "id": "Source_or_Target",
