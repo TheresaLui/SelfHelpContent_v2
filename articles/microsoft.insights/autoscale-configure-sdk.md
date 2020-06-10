@@ -16,8 +16,6 @@
 
 # <-- autoscale-configure-sdk -->
 
-I don't believe our team has owned any of these samples.  I would probably guide customers to use the Fluent SDK.  If I search Azure code samples, I do see a Java code sample for configuring autoscale via SDK
-
 You can use Azure Monitor autoscale with Virtual Machine Scale Sets, Cloud Services, App Service - Web Apps, and API Management services. Follow the recommended steps if you are experiencing an issue configuring autoscale using SDK.
 
 ## **Recommended Steps**
