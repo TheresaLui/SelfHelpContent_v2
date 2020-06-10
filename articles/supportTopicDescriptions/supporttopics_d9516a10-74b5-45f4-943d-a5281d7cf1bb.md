@@ -217,6 +217,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3c2bbd0a-df98-33cc-7188-f251c15df3cd",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring or accessing your Cosmos DB data using Azure Synapse Link for Cosmos DB.  ",
+      "searchTags": "Synapse;Spark;Synapse Link;SQL Serverless;Analytical Store",
+      "category": "Azure Synapse Link for Cosmos DB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3d7fd440-9090-f546-9914-082eb3983c38",
       "longDescription": "",
       "shortDescription": "How to migrate data to Azure Cosmos DB Cassandra API, estimate the throughput needs and optimize migration",
