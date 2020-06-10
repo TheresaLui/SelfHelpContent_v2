@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f7bd30ed-5d30-30bb-aa36-b2e3955f41ab",
+      "longDescription": "",
+      "shortDescription": "Questions or issues around autoscale behavior and issues provisioning VMs.",
+      "searchTags": "Autoscale;autoscale issues;provisioning VMs;CycleCloud provisioning VMs;autoscale behavior ",
+      "category": "CycleCloud",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fe5555d4-6b9b-a2cb-218c-712a019e37f6",
       "longDescription": "",
       "shortDescription": "Questions or issues with the CycleCloud webserver application, including installation, configuration, and troubleshooting.",
