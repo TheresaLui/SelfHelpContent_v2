@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2b917b93-215b-1bd4-d829-15c17868df31",
+      "longDescription": "",
+      "shortDescription": "Use only if your scenario does not fit any other topic.",
+      "searchTags": "sensor",
+      "category": "Sensor issues",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2dd5a7a5-a47e-3633-80a6-0e2335307b08",
       "longDescription": "",
       "shortDescription": "Problems with installing the sensor deployment package",
