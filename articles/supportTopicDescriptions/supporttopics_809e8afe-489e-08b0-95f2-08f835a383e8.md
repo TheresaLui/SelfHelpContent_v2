@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "795a4e2d-765f-4a96-c757-144e56e03331",
+      "longDescription": "",
+      "shortDescription": "Sensor service unexpectedly terminates or continually restarting for a previously working sensor",
+      "searchTags": "restart;stop",
+      "category": "Sensor Issues",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "964fcec4-a407-37d2-a079-4290b09c55ab",
       "longDescription": "",
       "shortDescription": "Use only if your question does not fit any other topic.",
