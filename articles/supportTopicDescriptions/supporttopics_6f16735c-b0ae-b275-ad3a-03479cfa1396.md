@@ -801,6 +801,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "9c28c4c9-db23-c7e7-1edc-3e5abca575dd",
+      "longDescription": "",
+      "shortDescription": "Covers issues with the management of Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9cbf3cf0-08ae-c0ee-838d-0e478fd1db59",
       "longDescription": null,
       "shortDescription": "Assistance with deploying a virtual machine with managed disks",
