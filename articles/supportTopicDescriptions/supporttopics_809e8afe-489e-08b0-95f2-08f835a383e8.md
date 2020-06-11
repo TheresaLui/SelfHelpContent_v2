@@ -59,6 +59,14 @@
       "searchTags": "sensor,gmsa,install",
       "category": "Onboarding and installing",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "f9f594b0-0983-780d-b21d-e8b0781e2a80",
+      "longDescription": "",
+      "shortDescription": "Use only if your scenario does not fit any other topic.",
+      "searchTags": "configuration",
+      "category": "Configuring the Portal",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
