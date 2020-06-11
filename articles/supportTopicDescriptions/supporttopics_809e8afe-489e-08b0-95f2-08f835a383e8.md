@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "47e73a1c-30b9-7098-ad6c-7614d0977613",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to portal usage and configuration",
+      "searchTags": "portal;config;configuration;use",
+      "category": "Configuring the Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "964fcec4-a407-37d2-a079-4290b09c55ab",
       "longDescription": "",
       "shortDescription": "Use only if your question does not fit any other topic.",
