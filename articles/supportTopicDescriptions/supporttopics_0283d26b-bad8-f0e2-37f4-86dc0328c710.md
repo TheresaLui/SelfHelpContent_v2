@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4e68e03a-e983-cd28-7840-e2dc5c710235",
+      "longDescription": "",
+      "shortDescription": "Issues with creating or importing key or secret in Key vault via Portal, PowerShell or CLI",
+      "searchTags": "key creation;import key;HSM key",
+      "category": "Executing key creation in key vault",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "75c2dc58-1d95-3177-58af-a275c569edde",
       "longDescription": "",
       "shortDescription": "Issues with certificate policy, authorization, web service certificate",
