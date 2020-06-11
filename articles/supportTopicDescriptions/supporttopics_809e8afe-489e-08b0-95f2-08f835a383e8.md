@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "18b4c4d9-8b6a-76bd-10d6-986d8f8483d8",
+      "longDescription": "",
+      "shortDescription": "Problems or errors with the sensor service not starting or continually restarting during an initial installation",
+      "searchTags": "sensor;fail to start",
+      "category": "Onboarding and Installing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1eb2d47d-0f21-4451-f8c9-b140beac15d4",
       "longDescription": "",
       "shortDescription": "Issue creating a new Azure ATP instance for initial onboarding",
