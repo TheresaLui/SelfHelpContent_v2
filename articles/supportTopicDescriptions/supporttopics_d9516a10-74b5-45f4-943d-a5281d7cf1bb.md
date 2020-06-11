@@ -243,8 +243,8 @@
     {
       "id": "40f4b569-b293-8464-4f20-90f684aa6a0e",
       "longDescription": "",
-      "shortDescription": "Any issue with SQL API that is not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "SQL",
       "category": "Core (SQL)",
       "useInDiagnoseAndSolve": "true"
     },
