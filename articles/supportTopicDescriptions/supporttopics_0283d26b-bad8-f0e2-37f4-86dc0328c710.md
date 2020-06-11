@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f06eea61-9862-e45e-dd27-ac20f101176b",
+      "longDescription": "",
+      "shortDescription": "Issues with securing server on Windows or Linux VM in Azure with SSL certificate stored in key Vault ",
+      "searchTags": "server;certificate;virtual machine;vm",
+      "category": "Securing web service with KV certificate",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fb4d84b4-6177-bd6b-3524-762f05d970c8",
       "longDescription": "",
       "shortDescription": "Manage securing Key Vault and accessing Key Vault. Troubleshoot any access issues.",
