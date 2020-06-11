@@ -963,8 +963,8 @@
     {
       "id": "f05ce96b-e2d9-d08c-8def-83abbe94840c",
       "longDescription": "",
-      "shortDescription": "Any issue related to Account Administration not covered by the existing topics",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will provide related self help and expedite your support ticket if one is created.",
+      "searchTags": "Administration",
       "category": "Administration",
       "useInDiagnoseAndSolve": "true"
     },
