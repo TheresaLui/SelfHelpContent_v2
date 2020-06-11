@@ -40,7 +40,7 @@ To configure the EnableLinkedConnections registry value
 7. Exit Registry Editor, and then restart the computer.
 
 **Recommended Documents**
-<br>More info: https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee844140(v=ws.10)</br>
+<br>More info: <a href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee844140(v=ws.10)">https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee844140(v=ws.10)</a></br>
 
 <!---
 
