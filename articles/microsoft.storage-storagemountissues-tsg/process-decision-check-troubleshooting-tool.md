@@ -23,8 +23,7 @@
 3. It can also map drive if you prefer to do so and collect in-depth diagnostics trace if it is turned on.
 
 **Recommended Documents**
-
-<a href="https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5">Troubleshooting tool</a>
+<br><a href="https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5">Troubleshooting tool</a></br>
 
 <!---
 

@@ -29,27 +29,29 @@ The cause, is related to the removal of old SSL ciphers e.g. SSL3, TLS1.0, TLS1.
 
 For the client to negotiate TLS 1.2, the OS and the .NET Framework version both need to support TLS 1.2. The following sample shows how to enable TLS 1.2 in your .NET client.
 
-    ```csharp
-    static void EnableTls12() 
+```csharp
+static void EnableTls12() 
+
+{ 
+
+ // Enable TLS 1.2 before connecting to Azure Storage 
+
+System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12; 
+
+// Connect to Azure Storage 
+
+CloudStorageAccount storageAccount = CloudStorageAccount.Parse('DefaultEndpointsProtocol=https;AccountName={yourstorageaccount};AccountKey={yourstorageaccountkey};EndpointSuffix=core.windows.net'); 
+
+ CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient(); 
+
+ CloudBlobContainer container = blobClient.GetContainerReference('foo'); 
+
+ container.CreateIfNotExists(); 
+
+ }
+```
+
     
-    { 
-    
-     // Enable TLS 1.2 before connecting to Azure Storage 
-    
-    System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12; 
-    
-    // Connect to Azure Storage 
-    
-    CloudStorageAccount storageAccount = CloudStorageAccount.Parse('DefaultEndpointsProtocol=https;AccountName={yourstorageaccount};AccountKey={yourstorageaccountkey};EndpointSuffix=core.windows.net'); 
-    
-     CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient(); 
-    
-     CloudBlobContainer container = blobClient.GetContainerReference('foo'); 
-    
-     container.CreateIfNotExists(); 
-    
-     }
-    ```
 
 
 **Recommended Documents**
