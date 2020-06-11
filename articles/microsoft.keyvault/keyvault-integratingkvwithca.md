@@ -31,6 +31,10 @@
 
 	The certificate status changes after the CA signs the request. Check the progress after sometime, if it is never enabled, then it is likely that your request failed or was rejected by the CA.
 
+* How to autorotate DigiCert Certificates?
+
+	This would require you to add DigiCert to **Certificate Authorities** list. For the imported certificate, modify the **issuance policy** and **select CA** to be DigiCert. Modify the Lifetime action to **enable Auto-renewal**.
+
 ## **Recommended Documents**
 
 * [Creating Certificate using CLI](https://docs.microsoft.com/rest/api/keyvault/createcertificate/createcertificate)
