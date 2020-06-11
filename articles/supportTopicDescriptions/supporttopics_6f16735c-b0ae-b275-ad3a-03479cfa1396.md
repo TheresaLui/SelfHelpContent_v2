@@ -809,6 +809,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "a632159c-a15a-62dd-0420-73c273e43e02",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to deploying Azure Window Virtual Desktop",
+      "searchTags": "WVD;Windows Virtual Desktop;Desktop;Remote Desktop;RDS",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "aaa925f8-bbc6-997b-e8e2-35d9b6c78b2b",
       "longDescription": null,
       "shortDescription": "Moving resources between resource groups",
