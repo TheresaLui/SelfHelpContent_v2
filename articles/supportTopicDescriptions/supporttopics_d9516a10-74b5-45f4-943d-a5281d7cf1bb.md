@@ -121,6 +121,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "23791114-7071-6812-e2b0-4d0b41a14300",
+      "longDescription": "",
+      "shortDescription": "Issues with connectivity using Azure Synapse Link for Cosmos DB",
+      "searchTags": "Synapse;Synapse Link;Analytical Store;connection;connect",
+      "category": "Azure Synapse Link for Cosmos DB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "281f8d5e-90e3-1239-4da1-44ad98360fdb",
       "longDescription": "",
       "shortDescription": "Connection to Azure Cosmos DB Cassandra are timing out, or application is getting Service Unavailable exceptions",
@@ -217,6 +225,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3c2bbd0a-df98-33cc-7188-f251c15df3cd",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring or accessing your Cosmos DB data using Azure Synapse Link for Cosmos DB.  ",
+      "searchTags": "Synapse;Spark;Synapse Link;SQL Serverless;Analytical Store",
+      "category": "Azure Synapse Link for Cosmos DB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3d7fd440-9090-f546-9914-082eb3983c38",
       "longDescription": "",
       "shortDescription": "How to migrate data to Azure Cosmos DB Cassandra API, estimate the throughput needs and optimize migration",
@@ -238,6 +254,14 @@
       "shortDescription": "Provision or manage Azure Cosmos DB account using ARM, CLI or PowerShell, configure security, setup global replication and multi-write regions",
       "searchTags": "administration",
       "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4218e462-d49b-ff75-bdc8-9b773f101bfa",
+      "longDescription": "",
+      "shortDescription": "Issues with using Synapse SQL Serverless with Azure Synapse Link for Cosmos DB",
+      "searchTags": "SQL Serverless;Synapse;Synapse Link",
+      "category": "Azure Synapse Link for Cosmos DB",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -513,6 +537,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8db15022-bd00-4325-92e2-cebe7380d0d3",
+      "longDescription": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will provide related self help and expedite your support ticket if one is created.",
+      "searchTags": "Synapse Link;Synapse;Analytical Store",
+      "category": "Azure Synapse Link for Cosmos DB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "929094fb-8913-d934-8afe-0f81175a3e64",
       "longDescription": "",
       "shortDescription": "Issues regarding setting min or max RU limits",
@@ -550,6 +582,14 @@
       "shortDescription": "How to migrate data to Cosmos DB Gremlin API or estimate the throughput needs and optimize migration",
       "searchTags": "gremlin, migration, data migration, data ingestion",
       "category": "Gremlin",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "96c6ad7f-e3b8-5567-984c-68fb3ba1e2e8",
+      "longDescription": "",
+      "shortDescription": "Issues with Spark using Azure Synapse Link for Cosmos DB",
+      "searchTags": "Spark;Synapse Link;Analytical Store",
+      "category": "Azure Synapse Link for Cosmos DB",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -710,6 +750,14 @@
       "shortDescription": "Procedure to calculate RU or questions on why RU charges are huge in the bill",
       "searchTags": "billing, pricing, refund",
       "category": "Billing and Pricing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c00846f0-18a5-8383-3d9f-e10d7b16ec54",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring your Cosmos DB data using Azure Synapse Link for Cosmos DB",
+      "searchTags": "Analytical Store;Synapse Link;Synapse;configuration",
+      "category": "Azure Synapse Link for Cosmos DB",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -950,6 +998,14 @@
       "shortDescription": "SDK is throwing an error or returning an unexpected result",
       "searchTags": "sdk",
       "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fa1d2af4-5a02-6ef3-5fd1-6c1821365b85",
+      "longDescription": "",
+      "shortDescription": "Issues with Accessing your Cosmos DB data using Azure Synapse Link for Cosmos DB",
+      "searchTags": "Synapse Link;Analytical Store;Access",
+      "category": "Azure Synapse Link for Cosmos DB",
       "useInDiagnoseAndSolve": "true"
     }
   ]
