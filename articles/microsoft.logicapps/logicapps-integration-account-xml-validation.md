@@ -18,7 +18,7 @@
 
 You can validate documents against a predefined schema by using the XML validation action.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 - [Validate XML for B2B enterprise integration in Azure Logic Apps with Enterprise Integration Pack](https://docs.microsoft.com/azure/logic-apps/logic-apps-enterprise-integration-xml-validation)
 - [Logic App XML Validation with all the error handling](https://docs.microsoft.com/archive/blogs/david_burgs_blog/logic-app-xml-validation-with-all-the-error-handling)

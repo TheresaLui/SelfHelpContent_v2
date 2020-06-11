@@ -18,7 +18,7 @@
 
 To transfer XML data between formats for enterprise integration scenarios in Azure Logic Apps, your logic app can use maps, or more specifically, Extensible Style sheet Language Transformations (XSLT) maps. A map is an XML document that describes how to convert data from an XML document into another format.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 - [Transform XML with maps in Azure Logic Apps with Enterprise Integration Pack](https://docs.microsoft.com/azure/logic-apps/logic-apps-enterprise-integration-maps)
 - [Use BizTalk transform maps in Logic Apps](https://devguy.azurewebsites.net/2020/01/03/logic-apps-using-biztalk-transform-maps-in-logic-apps/)

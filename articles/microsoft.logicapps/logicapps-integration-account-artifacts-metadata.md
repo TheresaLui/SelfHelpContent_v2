@@ -18,6 +18,6 @@
 
 You can define custom metadata for artifacts in integration accounts and get that metadata during runtime for your logic app to use.
 
-## **Recommended Documents**
+## **Recommended documents**
 
 - [How to manage artifact metadata in integration accounts with Azure Logic Apps and Enterprise Integration Pack](https://docs.microsoft.com/azure/logic-apps/logic-apps-enterprise-integration-metadata)
