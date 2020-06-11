@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "67cee420-039d-bdd2-0e44-f84388f2f7f3",
+      "longDescription": "",
+      "shortDescription": "Problems accessing the portal for an existing Azure ATP instance",
+      "searchTags": "instance;unable to access",
+      "category": "Onboarding and Installing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6b424050-0c5d-b493-a705-ca4080a9ec14",
       "longDescription": "",
       "shortDescription": "How to create, schedule, review reports or reports fail to generate",
