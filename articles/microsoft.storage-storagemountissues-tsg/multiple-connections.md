@@ -38,6 +38,5 @@ Error: 'Multiple connections to a server or shared resource by the same user, us
 
 1. Yes
 2. No
-3. Case is pending customer or collaboration with another team
 
 -->

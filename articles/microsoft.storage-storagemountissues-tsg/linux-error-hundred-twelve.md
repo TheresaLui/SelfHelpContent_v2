@@ -70,6 +70,5 @@ Please ask customer to use Supported version of the Linux Distribution mentioned
 
 1. Yes
 2. No
-3. Case is pending customer or collaboration with another team
 
 -->

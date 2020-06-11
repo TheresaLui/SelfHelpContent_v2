@@ -48,6 +48,5 @@ To configure the EnableLinkedConnections registry value
 **This is the end of the work flow. Did this TSG resolve your issue?**
 1. Yes
 2. No
-3. Case is pending customer or collaboration with another team
 
 -->

@@ -32,6 +32,5 @@ Azure Files also supports REST in addition to SMB. REST access works over port 4
 
 1. Yes
 2. No
-3. Case is pending customer or collaboration with another team
 
 -->
