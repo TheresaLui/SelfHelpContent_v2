@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2edbbe27-b1a1-da12-fc4c-f30dd06624fa",
+      "longDescription": "",
+      "shortDescription": "Questions on network utilization by the sensor service. ",
+      "searchTags": "utilization",
+      "category": "Performance and Capacity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "400a4834-ae8a-5306-d114-faa145c5ac70",
       "longDescription": "",
       "shortDescription": "Questions and problems related to the directory services connection, gMSA or user account",
