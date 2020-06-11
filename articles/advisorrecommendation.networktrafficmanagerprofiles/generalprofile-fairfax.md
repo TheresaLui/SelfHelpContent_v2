@@ -61,7 +61,7 @@
     "action": {
       "actionId": "1f5147e8-3437-4537-975b-3d32aae47ae2",
       "actionType": "Blade",
-      "extensionName": "Microsoft_Azure_Network",
+      "extensionName": "Microsoft_Azure_DNS",
       "bladeName": "TrafficManagerBlade",
       "metadata": {
         "id": "{resourceId}"
