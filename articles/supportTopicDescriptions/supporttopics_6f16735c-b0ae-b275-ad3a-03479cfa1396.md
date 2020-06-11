@@ -321,6 +321,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "49c6557e-46fa-ad0f-c980-4e3ce0b93089",
+      "longDescription": "",
+      "shortDescription": "Issue with licenses for Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4af02697-cd73-222d-c180-4ff928f26312",
       "longDescription": null,
       "shortDescription": "Questions about configuring Windows Remote Desktop Service (RDS) for a virtual machine running in Azure",
