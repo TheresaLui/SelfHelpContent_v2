@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1eb2d47d-0f21-4451-f8c9-b140beac15d4",
+      "longDescription": "",
+      "shortDescription": "Issue creating a new Azure ATP instance for initial onboarding",
+      "searchTags": "create instance;initial onboarding",
+      "category": "Onboarding and Installing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2b917b93-215b-1bd4-d829-15c17868df31",
       "longDescription": "",
       "shortDescription": "Use only if your scenario does not fit any other topic.",
