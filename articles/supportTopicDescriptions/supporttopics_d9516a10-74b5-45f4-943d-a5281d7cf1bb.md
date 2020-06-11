@@ -275,8 +275,8 @@
     {
       "id": "45897651-c1e4-156b-994b-2db7a9fc1979",
       "longDescription": "",
-      "shortDescription": "Any issue related to billing and pricing that is not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Billing;Pricing",
       "category": "Billing and Pricing",
       "useInDiagnoseAndSolve": "true"
     },
