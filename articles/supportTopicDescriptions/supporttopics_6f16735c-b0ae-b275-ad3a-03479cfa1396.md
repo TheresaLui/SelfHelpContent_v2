@@ -577,6 +577,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "761c2072-db63-b5a4-d038-9cf7bb03cf86",
+      "longDescription": "",
+      "shortDescription": "Need assistance with the configuration of Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "773b125f-f9a8-f282-abe3-051d8ffe0f26",
       "longDescription": null,
       "shortDescription": "General questions specific to Guest OS not booting, not covered by the support topics above",
