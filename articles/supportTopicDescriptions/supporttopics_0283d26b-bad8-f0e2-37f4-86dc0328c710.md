@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e14d73d4-8783-99bd-ec31-e5b3d7191ca7",
+      "longDescription": "",
+      "shortDescription": "Issues with importing HSM protected key to azure key vault",
+      "searchTags": "BYOK;HSM;transfer HSM;HSM key",
+      "category": "Transferring HSM key in Key vault ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f06eea61-9862-e45e-dd27-ac20f101176b",
       "longDescription": "",
       "shortDescription": "Issues with securing server on Windows or Linux VM in Azure with SSL certificate stored in key Vault ",
