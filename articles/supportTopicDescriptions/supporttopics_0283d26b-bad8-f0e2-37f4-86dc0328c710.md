@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "75c2dc58-1d95-3177-58af-a275c569edde",
+      "longDescription": "",
+      "shortDescription": "Issues with certificate policy, authorization, web service certificate",
+      "searchTags": "not authorized;policy;certificate;.pfx;web certificate",
+      "category": "Storing certificates in Azure Key Vault",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "883a8b09-4255-4bc2-421d-c89bb0129de3",
       "longDescription": "",
       "shortDescription": "Issues with generating HSM protected keys in Key vault or getting not authorized error",
