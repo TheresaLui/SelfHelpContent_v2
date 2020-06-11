@@ -489,6 +489,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "615cba4d-560a-c720-5034-9b745b9a9a7f",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to connectivity using Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "618d9f4b-5418-7c9b-2fb5-8075eb937a32",
       "longDescription": null,
       "shortDescription": "Requests to manage a Windows virtual machine running in Azure including client licenses",
