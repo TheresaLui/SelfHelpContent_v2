@@ -177,6 +177,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "20e98c4a-ad27-441f-a4f1-ba5641b207d7",
+      "longDescription": "",
+      "shortDescription": "Issues where SQL Server performance is lower than expected in an Azure Virtual Machine",
+      "searchTags": "Performance;VM;SQL;SQL Server",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "240605e1-1510-255d-b490-cb95f582b1dc",
       "longDescription": null,
       "shortDescription": "Resolve errors with disks when starting or stopping a virtual machine",
