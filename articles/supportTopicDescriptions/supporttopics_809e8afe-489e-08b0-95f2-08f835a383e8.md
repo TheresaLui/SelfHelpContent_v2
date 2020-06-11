@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "964fcec4-a407-37d2-a079-4290b09c55ab",
+      "longDescription": "",
+      "shortDescription": "Use only if your question does not fit any other topic.",
+      "searchTags": "Performance;Capacity",
+      "category": "Performance and Capacity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d8dc25fb-8427-e2bd-158d-02ea396984fd",
       "longDescription": "",
       "shortDescription": "How to Enable Group managed service accounts (gMSA) with Azure ATP",
