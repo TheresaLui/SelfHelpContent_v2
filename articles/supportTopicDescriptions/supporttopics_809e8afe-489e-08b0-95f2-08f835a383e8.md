@@ -133,6 +133,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6cc49ed6-e2f3-ee2d-2bc0-d9be37ef8518",
+      "longDescription": "",
+      "shortDescription": "Questions for the subscription or licensing required to onboard or use Azure ATP",
+      "searchTags": "licensing",
+      "category": "Onboarding and Installing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "964fcec4-a407-37d2-a079-4290b09c55ab",
       "longDescription": "",
       "shortDescription": "Use only if your question does not fit any other topic.",
