@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a4a4a251-e238-7f62-0f64-b8542fae12f0",
+      "longDescription": "",
+      "shortDescription": "Issues with creating certificate via PowerShell, CLI, Portal. Questions on how to export or download .pfx certificate file",
+      "searchTags": "export;create certificate;.pfx;.pem;certificate expired",
+      "category": "Managing creation of AKV certificates",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fb4d84b4-6177-bd6b-3524-762f05d970c8",
       "longDescription": "",
       "shortDescription": "Manage securing Key Vault and accessing Key Vault. Troubleshoot any access issues.",
