@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "2e7b054d-d4c6-2a14-bac9-919ffb19a6c5",
+      "longDescription": "",
+      "shortDescription": "Issues with integrating with DigiCert or other CA or disabled certificate state",
+      "searchTags": "CA;Digicert;disabled;certificate;.pfx",
+      "category": "Issuing certificates from CA",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "305708fc-6f45-65da-3ece-3f8b33fe05dd",
       "longDescription": "",
       "shortDescription": "Issues with storing App Service Certificate in Key Vault, deploying Web Service Certificate through Key Vault",
