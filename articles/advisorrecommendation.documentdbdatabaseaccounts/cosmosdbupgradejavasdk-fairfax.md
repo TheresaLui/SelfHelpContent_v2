@@ -18,7 +18,8 @@
   "dataSourceMetadata": {
     "dataSource": "Kusto",
     "streamNamespace": "cluster('https://cdbfairfax.kusto.usgovcloudapi.net').database('LiveSite').OldJavaSDK",
-    "refreshInterval": "0.12:00:00"
+    "refreshInterval": "0.12:00:00",
+    "schemaVersion": 3.0
   },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
