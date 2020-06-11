@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax"
-	articleId=""
+	articleId="0385512d-6687-4be7-a661-2cb914f1198f"
   ownershipId="CloudNet_LoadBalancer"
 />
 
