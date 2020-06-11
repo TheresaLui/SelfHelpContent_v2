@@ -37,11 +37,11 @@
       "dropdownOptions": [
         {
           "value": "Advisory",
-          "text": "How to use SQL MI for reporting, analytics and interation"
+          "text": "How to use SQL MI for reporting, analytics and integration"
         },
         {
           "value": "Troubleshooting",
-          "text": "Error when using SQL MI for reporting, analytics and interation"
+          "text": "Error when using SQL MI for reporting, analytics and integration"
         },
         {
           "value": "dont_know_answer",
