@@ -173,6 +173,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d2a16891-95ca-40ad-01bd-e4ad0a983a5f",
+      "longDescription": "",
+      "shortDescription": "Questions on network utilization by the sensor service.",
+      "searchTags": "network;excessive",
+      "category": "Sensor Issues",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d8dc25fb-8427-e2bd-158d-02ea396984fd",
       "longDescription": "",
       "shortDescription": "How to Enable Group managed service accounts (gMSA) with Azure ATP",
