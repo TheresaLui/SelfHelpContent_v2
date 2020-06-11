@@ -819,8 +819,8 @@
     {
       "id": "ca4248d9-17e1-ab45-81b3-1634e1eb4202",
       "longDescription": "",
-      "shortDescription": "Any Security issue with Azure Cosmos DB not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Security",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
