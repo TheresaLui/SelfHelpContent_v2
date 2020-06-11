@@ -23,7 +23,7 @@
 ## **Recommended Steps**
 
 1.	As an MPN Partner, once you have acquired a subscription, go to [Benefits](https://partner.microsoft.com/pcv/partnership/benefits) tab in your Partner Center dashboard
-2.	Please ensure that you are an user with Global Admin or an MPN Partner Admin role to perform these activities
+2.	Please ensure that you are a user with Global Admin or an MPN Partner Admin role to perform these activities
 3.	Click on Visual Studio Subscription benefits tab in the left navigation panel
 4.	Refer to this article [Visual Studio Subscription Benefits](https://support.microsoft.com/help/4515204/visual-studio-subscriptions-benefits-tab-for-mpn-partners-in-partner-c) for step by step instructions to **review, activate, sort or download** the Visual Studio benefit
 5.	For additional help, please refer to Recommended documents below
