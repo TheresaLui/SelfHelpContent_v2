@@ -787,8 +787,8 @@
     {
       "id": "c3faf836-a0df-6e47-8523-a54e1a84637a",
       "longDescription": "",
-      "shortDescription": "Any issue with Cassandra API that is not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Cassandra",
       "category": "Cassandra",
       "useInDiagnoseAndSolve": "true"
     },
