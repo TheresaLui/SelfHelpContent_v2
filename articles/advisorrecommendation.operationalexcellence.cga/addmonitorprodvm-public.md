@@ -51,7 +51,8 @@
                 "extensionName": "Microsoft_Azure_WorkloadInsights",
                 "bladeName": "VmResourceInsightsBladeViewModel",
                 "metadata": {
-                     "virtualMachineResourceId": "{resourceId}"
+                     "virtualMachineResourceId": "{resourceId}",
+                     "sourceType": "Advisor.Recommendation"
                 }
             }
       ],
