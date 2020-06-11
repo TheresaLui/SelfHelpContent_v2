@@ -115,8 +115,8 @@
     {
       "id": "2365fe01-8934-7641-3bb8-2e5209c639ad",
       "longDescription": "",
-      "shortDescription": "Any throughput or scaling issue not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Throughput",
       "category": "Throughput",
       "useInDiagnoseAndSolve": "true"
     },
