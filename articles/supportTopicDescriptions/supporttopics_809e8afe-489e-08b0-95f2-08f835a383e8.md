@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "03f77db7-d3a1-9687-97c2-9628efa1edb8",
+      "longDescription": "",
+      "shortDescription": "Scenarios and questions related to ATP performance and Capacity",
+      "searchTags": "performance;capacity",
+      "category": "Performance and capacity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1eb2d47d-0f21-4451-f8c9-b140beac15d4",
       "longDescription": "",
       "shortDescription": "Issue creating a new Azure ATP instance for initial onboarding",
