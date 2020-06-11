@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "befd90e1-f46f-0410-0ae2-48fbbd1c6b5c",
+      "longDescription": "",
+      "shortDescription": "Issues with enabling Azure Disk Encryption on Windows or Linux VM",
+      "searchTags": "disk encryption;virtual machine;linux;virtual disk",
+      "category": "Managing Disk encryption on VM",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f06eea61-9862-e45e-dd27-ac20f101176b",
       "longDescription": "",
       "shortDescription": "Issues with securing server on Windows or Linux VM in Azure with SSL certificate stored in key Vault ",
