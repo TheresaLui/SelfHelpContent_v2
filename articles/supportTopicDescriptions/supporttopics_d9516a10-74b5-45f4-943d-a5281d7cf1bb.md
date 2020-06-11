@@ -267,8 +267,8 @@
     {
       "id": "43564fd3-9f8b-9ae9-e225-3949be830689",
       "longDescription": "",
-      "shortDescription": "Any other General advisory question not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Advisory",
       "category": "General Advisory",
       "useInDiagnoseAndSolve": "true"
     },
