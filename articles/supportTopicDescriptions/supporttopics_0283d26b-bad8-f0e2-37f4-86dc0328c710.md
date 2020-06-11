@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "883a8b09-4255-4bc2-421d-c89bb0129de3",
+      "longDescription": "",
+      "shortDescription": "Issues with generating HSM protected keys in Key vault or getting not authorized error",
+      "searchTags": "HSM;HSM key;not authorized error ;access denied ",
+      "category": "Managing HSM key creation ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a4a4a251-e238-7f62-0f64-b8542fae12f0",
       "longDescription": "",
       "shortDescription": "Issues with creating certificate via PowerShell, CLI, Portal. Questions on how to export or download .pfx certificate file",
