@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6b424050-0c5d-b493-a705-ca4080a9ec14",
+      "longDescription": "",
+      "shortDescription": "How to create, schedule, review reports or reports fail to generate",
+      "searchTags": "create;schedule;review",
+      "category": "Configuring the Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "964fcec4-a407-37d2-a079-4290b09c55ab",
       "longDescription": "",
       "shortDescription": "Use only if your question does not fit any other topic.",
