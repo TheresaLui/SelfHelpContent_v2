@@ -53,7 +53,7 @@ For the client to negotiate TLS 1.2, the OS and the .NET Framework version both 
 
 
 **Recommended Documents**
-<br>[https://docs.microsoft.com/en-us/azure/storage/common/storage-security-tls#enable-tls-12-in-net-client](https://docs.microsoft.com/en-us/azure/storage/common/storage-security-tls#enable-tls-12-in-net-client)</br>
+<br><a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-security-tls#enable-tls-12-in-net-client">https://docs.microsoft.com/en-us/azure/storage/common/storage-security-tls#enable-tls-12-in-net-client</a></br>
 
 <!---
 
