@@ -524,6 +524,88 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
         }
       ]
     },
+  	{					   
+      "id": "Troubleshoot_WindowsVirtualDeskTop",
+      "title": "Troubleshoot Windows Virtual Desktop",
+      "description": "Troubleshoot Windows Virtual Desktop issues",
+      "category": "Windows Virtual Products",
+      "searchTags": "WVD, Windows Virtual Desktop",
+      "supportTopicId": "",
+      "subProblems": [
+			{
+          "id": "VD_CommonIssues",
+          "title": "Common Issues",
+          "description": "Troubleshoot Common Issues",
+          "supportTopicId": "32625539",
+          "commonSolutionArticleId": "586ec56a-93f1-4c0c-86c0-63debae7b9f8",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_ARMTemplate",
+          "title": "ARM template issues",
+          "description": "Troubleshoot Azure Resource Manager template issues",
+          "supportTopicId": "32727878",
+          "commonSolutionArticleId": " Needed ",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_PowershellDSC issues",
+          "title": "Desired State Configuration (DSC) issues",
+          "description": "Troubleshoot Desired State Configuration (DSC) errors",
+          "supportTopicId": "32727878",
+          "commonSolutionArticleId": " Needed ",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_FXLogicIssues",
+          "title": "FXLogix issues",
+          "description": "Troubleshoot FXLogix issues",
+          "supportTopicId": "32681783",
+          "commonSolutionArticleId": "803975e4-6094-4086-95ff-2896a7e7902f",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_SpringUpdate",
+          "title": "Spring Update Issues",
+          "description": "Troubleshoot Spring Update Issues",
+          "supportTopicId": "32740695",
+          "commonSolutionArticleId": "2a0f5b97-41f3-44d6-8a1f-f25ad89822fe",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_Tenant",
+          "title": "Tenant Issues",
+          "description": "Issues creating Windows Virtual Desktop tenant",
+          "supportTopicId": "32727880",
+          "commonSolutionArticleId": "8f53a07f-1c5d-4b08-9510-96b41e6d065b",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_DomainConfig",
+          "title": "Domain Configuration",
+          "description": "Issues configuring your domain",
+          "supportTopicId": "32727876",
+          "commonSolutionArticleId": "53fb2b60-cfd0-4e5a-b9fb-f8bf83acc01d",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_DeviceRedirection",
+          "title": "Device Redirection",
+          "title": "Issues configuring device redirection",
+          "supportTopicId": "32727874",
+          "commonSolutionArticleId": "032cf025-2f52-4420-b161-bce71302f41b",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_HostPoolSessionHost",
+          "title": "HostPool/SessionHost",
+          "description": "Creating a host pool or session host",
+          "supportTopicId": "32727879",
+          "commonSolutionArticleId": "1b9984b1-6b6c-4f67-9415-a597c3de8112",
+          "symptomId": ""
+        }
+      ]
+    },
     {
       "id": "Backup_and_Restore",
       "title": "Backup and Restore",
