@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "af0fec6b-8cda-b727-9ead-dd65a0e6ae6f",
+      "longDescription": "",
+      "shortDescription": "Configuring email and syslog notifications for Threat Protection",
+      "searchTags": "syslog;email",
+      "category": "Configuring the Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d8dc25fb-8427-e2bd-158d-02ea396984fd",
       "longDescription": "",
       "shortDescription": "How to Enable Group managed service accounts (gMSA) with Azure ATP",
