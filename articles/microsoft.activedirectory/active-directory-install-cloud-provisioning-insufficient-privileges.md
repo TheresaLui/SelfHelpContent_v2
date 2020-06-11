@@ -9,9 +9,9 @@
 	articleId="1957ed0c-6e3c-4f50-ab61-983341597856"
 	diagnosticScenario=""
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32689667"
 	resourceTags="directory_ad_connect,azure ad cloud provisioning, cloud provisioning,cloud provisioning install issue"
-	productPesIds=""
+	productPesIds="16666"
 	cloudEnvironments="public"
 	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
