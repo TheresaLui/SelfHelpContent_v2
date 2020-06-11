@@ -1,5 +1,5 @@
 <properties
-
+          pageTitle="Upgrade to the latest API version"
 />
 
 # Recommend upgrading to a more recent SDK API version.
