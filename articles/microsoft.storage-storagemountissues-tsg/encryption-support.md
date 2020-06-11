@@ -46,6 +46,5 @@ To copy a file to the File storage, you must first decrypt it. You can do this b
 
 1. Yes
 2. No
-3. Case is pending customer or collaboration with another team
 
 -->

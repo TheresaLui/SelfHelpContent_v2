@@ -30,6 +30,5 @@
 
 1. Yes
 2. No
-3. Case is pending customer or collaboration with another team
 
 -->

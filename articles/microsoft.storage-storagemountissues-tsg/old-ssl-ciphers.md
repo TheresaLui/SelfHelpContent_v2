@@ -62,6 +62,5 @@ For the client to negotiate TLS 1.2, the OS and the .NET Framework version both 
 
 1. Yes
 2. No
-3. Case is pending customer or collaboration with another team
 
 -->
