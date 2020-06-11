@@ -219,8 +219,8 @@
     {
       "id": "3a324c04-5cc9-36a6-49df-11ab63c936bf",
       "longDescription": "",
-      "shortDescription": "Any issue with Connectors not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Connectors;Tools",
       "category": "Tools and Connectors",
       "useInDiagnoseAndSolve": "true"
     },
