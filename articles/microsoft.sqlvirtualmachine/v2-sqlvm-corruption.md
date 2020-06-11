@@ -1,8 +1,8 @@
 <properties
 	pageTitle="database corruption, recovery, configuration"
 	description="database corruption, recovery, configuration"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""

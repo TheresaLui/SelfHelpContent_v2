@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Change SQL Server Version or Edition on Azure VM"
 	description="Change SQL Server Version or Edition on Azure VM"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""
