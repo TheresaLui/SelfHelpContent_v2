@@ -553,6 +553,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "6fa2b14c-d769-1357-43f0-7c1d3d34b4f8",
+      "longDescription": "",
+      "shortDescription": "Assistance with the management of Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6fddc208-ceac-8c83-a5a9-4cc00dae14be",
       "longDescription": null,
       "shortDescription": "Azure Backup is encountering a failure when restoring your virtual machine using Azure Backup",
