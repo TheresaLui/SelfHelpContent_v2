@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "02daa438-4135-fd63-0ea3-1a312f104877",
+      "longDescription": "",
+      "shortDescription": "Create exclusions for security alerts or exclusions do not apply",
+      "searchTags": "exclude",
+      "category": "Configuring the Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2b917b93-215b-1bd4-d829-15c17868df31",
       "longDescription": "",
       "shortDescription": "Use only if your scenario does not fit any other topic.",
