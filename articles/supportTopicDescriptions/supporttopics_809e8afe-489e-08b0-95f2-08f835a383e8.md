@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e7c4dc8c-5b34-4cd2-f8d8-ae541f119b09",
+      "longDescription": "",
+      "shortDescription": "Enable Windows Event collection or SIEM event collection",
+      "searchTags": "SIEM;events",
+      "category": "Configuring the Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f9f594b0-0983-780d-b21d-e8b0781e2a80",
       "longDescription": "",
       "shortDescription": "Use only if your scenario does not fit any other topic.",
