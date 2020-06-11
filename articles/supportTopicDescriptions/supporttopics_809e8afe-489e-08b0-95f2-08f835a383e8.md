@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b91d612a-be7b-5280-7c9d-d1bb300257ec",
+      "longDescription": "",
+      "shortDescription": "Sensor service not starting for a previously working sensor",
+      "searchTags": "sensor start",
+      "category": "Sensor Issues",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d2a16891-95ca-40ad-01bd-e4ad0a983a5f",
       "longDescription": "",
       "shortDescription": "Questions on network utilization by the sensor service.",
