@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2d7249f5-fdc3-ab46-8812-7cae1f713236",
+      "longDescription": "",
+      "shortDescription": "Questions related to investigating alerts",
+      "searchTags": "alert;investigate",
+      "category": "Investigating Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2dd5a7a5-a47e-3633-80a6-0e2335307b08",
       "longDescription": "",
       "shortDescription": "Problems with installing the sensor deployment package",
