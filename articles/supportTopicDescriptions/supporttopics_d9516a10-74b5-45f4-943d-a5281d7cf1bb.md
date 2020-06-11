@@ -971,8 +971,8 @@
     {
       "id": "f10fee82-842f-5525-a1db-06dc5a2d8fa6",
       "longDescription": "",
-      "shortDescription": "Any issue with Mongo API not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Mongo;MongoDB",
       "category": "MongoDB",
       "useInDiagnoseAndSolve": "true"
     },
