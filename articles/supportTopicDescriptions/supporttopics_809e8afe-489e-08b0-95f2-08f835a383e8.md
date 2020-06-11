@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "442f06d6-f3d6-0b22-8a5b-9fd85403eafd",
+      "longDescription": "",
+      "shortDescription": "Help with failures with the sensor service",
+      "searchTags": "sensor;failure;excessive",
+      "category": "Sensor Issues",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "47e73a1c-30b9-7098-ad6c-7614d0977613",
       "longDescription": "",
       "shortDescription": "Questions or issues related to portal usage and configuration",
