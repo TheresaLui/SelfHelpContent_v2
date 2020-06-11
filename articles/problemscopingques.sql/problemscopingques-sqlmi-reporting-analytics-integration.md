@@ -85,7 +85,7 @@
       "order": 5,
       "controlType": "dropdown",
       "displayLabel": "What kind of data are you trying to ingest from MI?",
-      "watermarkText": "Choose an otion",
+      "watermarkText": "Choose an option",
       "visibility": "Source_or_Target == Source",
       "dropdownOptions": [
         {
