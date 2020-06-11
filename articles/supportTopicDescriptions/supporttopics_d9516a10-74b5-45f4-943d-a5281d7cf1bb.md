@@ -883,8 +883,8 @@
     {
       "id": "d8b9051c-b540-34d6-39e4-89a83ef0d395",
       "longDescription": "",
-      "shortDescription": "Any other issue with SDKs",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "SDK",
       "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
