@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "017a8048-8476-8d01-da2c-2681f5a0ac84",
+      "longDescription": "",
+      "shortDescription": "Use only if your scenario does not fit any other topic.",
+      "searchTags": "onboarding;install",
+      "category": "Onboarding and Installing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2dd5a7a5-a47e-3633-80a6-0e2335307b08",
       "longDescription": "",
       "shortDescription": "Problems with installing the sensor deployment package",
