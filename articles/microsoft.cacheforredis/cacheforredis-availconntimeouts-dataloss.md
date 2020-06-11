@@ -24,7 +24,7 @@
 
 ## **Recommended Documents**
 
-* [Troubleshoot data loss in Azure Cache for Redis](hhttps://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)<br>
+* [Troubleshoot data loss in Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-data-loss)<br>
 * [Best practices for better performance and avoiding common issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-best-practices)<br>
 * [Troubleshoot cache server issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server)<br>
 * [Troubleshoot cache client issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-client)<br>
