@@ -30,6 +30,7 @@ Thank you for contacting us about your bot related error. We need the following 
 5. What language of SDK is being used?<br>
 6. Is the issue reproducible at will or occuring all the time?<br>
 7. How was the bot created?<br>
+<br>
 Thank you
 
 <!--/issueDescription-->
