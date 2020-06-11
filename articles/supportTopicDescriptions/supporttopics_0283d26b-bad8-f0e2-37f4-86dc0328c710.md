@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c7bf8b26-c208-2d9c-439e-d88a0fec7516",
+      "longDescription": "",
+      "shortDescription": "Issues with certificate near expiry or certificate autorotation feature of key vault",
+      "searchTags": "renewal;autorotation;near expiry;certificate;.pfx",
+      "category": "Manage certificate lifecycle attributes",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f06eea61-9862-e45e-dd27-ac20f101176b",
       "longDescription": "",
       "shortDescription": "Issues with securing server on Windows or Linux VM in Azure with SSL certificate stored in key Vault ",
