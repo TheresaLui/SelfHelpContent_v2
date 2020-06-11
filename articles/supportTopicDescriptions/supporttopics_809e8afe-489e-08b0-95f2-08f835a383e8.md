@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "01afa720-e29e-8d52-1868-5d185a916ca7",
+      "longDescription": "",
+      "shortDescription": "Problems for excessive CPU and Memory use by the sensor service",
+      "searchTags": "CPU;memory;performance",
+      "category": "Performance and Capacity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "02daa438-4135-fd63-0ea3-1a312f104877",
       "longDescription": "",
       "shortDescription": "Create exclusions for security alerts or exclusions do not apply",
