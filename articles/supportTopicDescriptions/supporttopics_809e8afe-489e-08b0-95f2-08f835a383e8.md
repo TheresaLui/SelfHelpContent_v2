@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "41159b88-e709-6b6a-32c5-c7a779bca991",
+      "longDescription": "",
+      "shortDescription": "How to resolving a sensor health alert",
+      "searchTags": "sensor;health",
+      "category": "Investigating Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "47e73a1c-30b9-7098-ad6c-7614d0977613",
       "longDescription": "",
       "shortDescription": "Questions or issues related to portal usage and configuration",
