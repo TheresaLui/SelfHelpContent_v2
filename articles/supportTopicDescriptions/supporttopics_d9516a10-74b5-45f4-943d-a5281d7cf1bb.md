@@ -523,7 +523,7 @@
     {
       "id": "8c945397-c1d2-bea4-b1c0-16671080bbcc",
       "longDescription": "",
-      "shortDescription": "Any configuration requests related to backup and restore not listed",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
       "searchTags": "backup, restore",
       "category": "Backup and Restore",
       "useInDiagnoseAndSolve": "true"
