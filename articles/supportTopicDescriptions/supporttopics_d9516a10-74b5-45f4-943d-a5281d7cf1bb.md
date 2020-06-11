@@ -43,8 +43,8 @@
     {
       "id": "085ddeed-255d-e905-63c2-797cc68c2f81",
       "longDescription": "",
-      "shortDescription": "Any issue with Monitoring not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Monitoring;Alerts;Metrics;Logs",
       "category": "Monitoring",
       "useInDiagnoseAndSolve": "true"
     },
