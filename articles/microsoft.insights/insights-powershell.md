@@ -1,6 +1,6 @@
 <properties 
-    pageTitle="I need help using powershell to automate my Application Insights deployments"
-    description="General troubleshooting guide for ARM deployment"
+    pageTitle="I need help configuring Application Insights using PowerShell"
+    description="General troubleshooting guide for PowerShell"
     service="microsoft.insights"
     resource="components"
     authors="debugthings"
@@ -10,11 +10,11 @@
     selfHelpType="generic"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
-    supportTopicIds="32602216,32632995"
+    supportTopicIds="32602216,32632995,32729591"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
-# I need help using powershell to automate my Application Insights deployments
+# I need help using PowerShell to automate my Application Insights deployments
 
 Most of our cmdlets work by calling an ARM endpoint and should work so long as you have access to the resource or the subscription. Below are the most common questions we get with PowerShell and Application Insights.<br>
 
