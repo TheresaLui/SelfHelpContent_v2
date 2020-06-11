@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b477811e-451e-5943-b225-0af18b1c18fe",
+      "longDescription": "",
+      "shortDescription": "Issues with importing certificate, supported formats and downloading .pfx certificate file",
+      "searchTags": "import certificate;.pfx;.pem;something went wrong;certificate format",
+      "category": "Performing certificate operations in KV",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fb4d84b4-6177-bd6b-3524-762f05d970c8",
       "longDescription": "",
       "shortDescription": "Manage securing Key Vault and accessing Key Vault. Troubleshoot any access issues.",
