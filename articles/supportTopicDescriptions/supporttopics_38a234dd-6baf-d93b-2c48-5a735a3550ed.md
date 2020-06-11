@@ -214,6 +214,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "be7539f0-c7eb-d128-6d68-d540faf50142",
+      "longDescription": "",
+      "shortDescription": "Issues with provisioning to or from MIM sync, via a MIM sync generic connector or management agent",
+      "searchTags": "MIM;sync;LDAP",
+      "category": "MIM",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bf9ebb9f-3b4e-9d70-0cd0-c11b33fe9936",
       "longDescription": "",
       "shortDescription": "You cannot download the sync error report",

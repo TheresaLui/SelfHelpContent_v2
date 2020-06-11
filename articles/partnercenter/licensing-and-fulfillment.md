@@ -27,6 +27,7 @@
 
 * [Dynamics 365 licensing](https://partner.microsoft.com/resources/collection/microsoft-dynamics-365)
 * [Office 365 product documentation](https://docs.microsoft.com/office/)
+* [Communication credits and calling plans](https://docs.microsoft.com/microsoftteams/what-are-communications-credits)
 * [Microsoft 365 product documentation](https://partner.microsoft.com/en-US/resources/collection/microsoft-dynamics-365#/)
 * [Azure Pricing](https://azure.microsoft.com/pricing/)
 * [Azure Products](https://docs.microsoft.com/azure/#pivot=products)
