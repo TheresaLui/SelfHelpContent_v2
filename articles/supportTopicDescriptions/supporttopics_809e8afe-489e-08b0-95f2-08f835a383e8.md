@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "400a4834-ae8a-5306-d114-faa145c5ac70",
+      "longDescription": "",
+      "shortDescription": "Questions and problems related to the directory services connection, gMSA or user account",
+      "searchTags": "gMSA;AD",
+      "category": "Configuring the Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "47e73a1c-30b9-7098-ad6c-7614d0977613",
       "longDescription": "",
       "shortDescription": "Questions or issues related to portal usage and configuration",
