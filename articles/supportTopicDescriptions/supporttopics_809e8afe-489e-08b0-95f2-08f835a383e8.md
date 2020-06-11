@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4ca9d70d-636a-bf51-3cde-2db5cf98a255",
+      "longDescription": "",
+      "shortDescription": "Investigating a suspicious activity security alert as a potential true positive or benign true positive",
+      "searchTags": "suspicious",
+      "category": "Investigating Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "67cee420-039d-bdd2-0e44-f84388f2f7f3",
       "longDescription": "",
       "shortDescription": "Problems accessing the portal for an existing Azure ATP instance",
