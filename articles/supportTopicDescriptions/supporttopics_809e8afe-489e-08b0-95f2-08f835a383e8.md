@@ -189,6 +189,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d4b29b22-bebe-65c0-249f-cf15d4e38064",
+      "longDescription": "",
+      "shortDescription": "Questions for planning and sizing review to deploy Azure ATP",
+      "searchTags": "size;plan",
+      "category": "Performance and Capacity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d8dc25fb-8427-e2bd-158d-02ea396984fd",
       "longDescription": "",
       "shortDescription": "How to Enable Group managed service accounts (gMSA) with Azure ATP",
