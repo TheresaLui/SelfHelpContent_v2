@@ -21,8 +21,6 @@
 
 ### Subscription & Directory Filtering
 
-* [Associate Azure Subscriptions to Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory)
-
 ### Non-Microsoft Services
 
 * For SendGrid related issues in Azure portal please contact [SendGrid support](https://sendgrid.com/docs/ui/account-and-settings/support/)

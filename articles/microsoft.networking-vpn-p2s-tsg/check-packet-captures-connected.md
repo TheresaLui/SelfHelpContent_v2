@@ -15,7 +15,7 @@
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
 
-# Collect Packet Captures in "Connected but can't reach destination" scenario
+# Collect Packet Captures in 'Connected but can't reach destination' scenario
 
 If the point to site VPN is connected, but the client can't reach the destination, the issue is one of the following:
 
@@ -76,7 +76,3 @@ If Mac OS:
 1. Stop the network capture by pressing **CTRL+C**
 
 Engage a TA shall you require help reviewing any of the collected logs.
-
-By reviewing the trace on the client side, is the traffic forwarded on the VPN interface, or on the external interface?
-- VPN interface
-- External interface
