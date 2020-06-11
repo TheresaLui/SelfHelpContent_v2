@@ -54,7 +54,7 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -63,7 +63,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",
