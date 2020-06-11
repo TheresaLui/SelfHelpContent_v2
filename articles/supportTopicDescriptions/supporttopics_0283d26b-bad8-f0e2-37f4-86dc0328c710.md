@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 0283d26b-bad8-f0e2-37f4-86dc0328c710"
   description="SupportTopicDescriptions for 0283d26b-bad8-f0e2-37f4-86dc0328c710"
   authors="elixirsys2"
-  ms.author="jalichwa"
+  ms.author="jalichwa, sebansal"
   selfhelptype="SupportTopicDescription"
   productpesids="0283d26b-bad8-f0e2-37f4-86dc0328c710"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -21,6 +21,14 @@
   "productLink3": "",
   "productLinkName3": "",
   "supportTopics": [
+    {
+      "id": "305708fc-6f45-65da-3ece-3f8b33fe05dd",
+      "longDescription": "",
+      "shortDescription": "Issues with storing App Service Certificate in Key Vault, deploying Web Service Certificate through Key Vault",
+      "searchTags": "App Service Certificate;Web Service Certificate;SSL Certificate",
+      "category": "Storing SSL Certificate in Key vault",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "fb4d84b4-6177-bd6b-3524-762f05d970c8",
       "longDescription": "",
