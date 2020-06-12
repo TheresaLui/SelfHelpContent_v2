@@ -12,7 +12,7 @@
 	supportTopicIds="32689667"
 	resourceTags="directory_ad_connect,azure ad cloud provisioning, cloud provisioning,cloud provisioning install issue"
 	productPesIds="16666"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
