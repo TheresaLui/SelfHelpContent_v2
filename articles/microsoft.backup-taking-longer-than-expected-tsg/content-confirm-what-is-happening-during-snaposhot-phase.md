@@ -35,7 +35,8 @@ Milliseconds, e2EDurationInMilliseconds,  operationName , resourceGroupName, res
 ~~~
 
 3. Confirm if you see restorepoint.put operation  several times and with failure.  
-4. Please engage your TA to review the extension logs and the context of the operation to decide if the reason of the snapshot failing and retry  taking longer requiere other teams collaboration or PG 
+4. Please engage your TA to review the extension logs and the context of the operation to decide if the reason of the snapshot failing and retry taking longer require other teams collaboration or PG 
 
 ## Recommended Documents
-https://supportability.visualstudio.com/AzureBackup/_wiki/wikis/AzureBackup/184551/Azure-VM-Backup-Performance?anchor=snapshot-phase-of-the-backup-takes-a-long-time
+
+1. https://supportability.visualstudio.com/AzureBackup/_wiki/wikis/AzureBackup/184551/Azure-VM-Backup-Performance?anchor=snapshot-phase-of-the-backup-takes-a-long-time

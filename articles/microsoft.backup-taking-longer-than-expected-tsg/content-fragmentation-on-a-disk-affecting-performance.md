@@ -18,7 +18,7 @@
 # Fragmentation on a disk affecting performance
 
 1. Please engage your TA for mitigation steps actions to defrag a disk
-2. If this a windows VM we would recommend the customer to?**DeFragment**?the disk and **TRIM** it.?
+2. If this a windows VM we would recommend the customer to **DeFragment** the disk and **TRIM** it.
 3. Use the below two links to defrag and trim the disk on windows
 
 1.  [https://www.howtogeek.com/257196/how-to-check-if-trim-is-enabled-for-your-ssd-and-enable-it-if-it-isnt/](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.howtogeek.com%2F257196%2Fhow-to-check-if-trim-is-enabled-for-your-ssd-and-enable-it-if-it-isnt%2F&data=02%7C01%7Craagg%40microsoft.com%7Cf14541ccd9dc4fe7397e08d6b75ba794%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636898001690197901&sdata=8gWceo5OfJoPQruidZy6RotQMNEB%2F4fRUMvA6uhgTJI%3D&reserved=0)?
@@ -53,8 +53,8 @@ This will tell us if TRIM is enabled or not. If return is 0, skip to step 3.
 
 ~~~
 
-
 ## Recommended Documents
+
 Other links related to trim functionality are:
 
 1. [https://docs.microsoft.com/en-us/azure/virtual-machines/windows/about-disks-and-vhds\#one-last-recommendation-use-trim-with-unmanaged-standard-disks](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fvirtual-machines%2Fwindows%2Fabout-disks-and-vhds%23one-last-recommendation-use-trim-with-unmanaged-standard-disks&data=02%7C01%7Craagg%40microsoft.com%7Cf14541ccd9dc4fe7397e08d6b75ba794%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636898001690207894&sdata=2GAbQoiPoB%2BU8R5DEbtx8fE0fF%2BlknWukrwlXed2vbM%3D&reserved=0)

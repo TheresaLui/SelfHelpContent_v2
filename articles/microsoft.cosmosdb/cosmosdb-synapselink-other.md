@@ -6,9 +6,9 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32742614"
+	supportTopicIds="32742614,32743056"
 	resourceTags=""
-	productPesIds="15585"
+	productPesIds="15585,15818"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-synapselink-other"
 	displayOrder="318"
@@ -22,26 +22,21 @@ Most users are able to resolve their Azure Synapse Link for Cosmos DB issue usin
 
 ## **Recommended Steps**  
 
-### **Missing items in Analytical Store**
-If specific items in your container violate the [well-defined schema for analytics](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema) they will not be included in the analytical store. If you have scenarios blocked by well defined schema for analytics, please create a support ticket for assistance.  
-
 ### **Experiencing latency when adding a new Cosmos DB region**
 For multi-region Azure Cosmos DB accounts, the data stored in the analytical store is also globally distributed. Regardless of single write region or multiple write regions, analytical queries performed from Azure Synapse Analytics can be served from the closest local region.   
-
 When planning to configure a multi-region Azure Cosmos DB account with analytical store support, it is recommended to have all the necessary regions added at time of account creation as if there is a large amounts of data this action can take a long time to complete.  
 
-
-### **Expected Latency for replication from transactional store to analytical store**
-The replication is asynchronous, and currently the expected latency is within 5 min  
-
+<br>
 
 ### **Picking a custom partitioning strategy for Analytical Store**
 The data in analytical store is partitioned based on the horizontal partitioning of shards in the transactional store.  Currently, you cannot choose a different partitioning strategy for the analytical store.  
 
+<br>
 
 ### **Synapse Link support for Azure Cosmos DB APIs**
 In the public preview release, Synapse Link is supported only for the azure Cosmos DB SQL (Core) API.  Support for Azure Cosmos DB API for MongoDB and Cassandra is currently under gated preview.  To request access to gated preview, reach out to the Azure Cosmos DB Synapse Link team: *cosmosdbsynapselink@microsoft.com*  
 
+<br>
 
 ### **Connecting to analytical store from analytics engines other than Azure Synapse Analytics**
 You can only access and run queries against the analytical store using the various run-times provided by Azure Synapse Analytics. 
@@ -49,7 +44,7 @@ The analytical store can be queried and analyzed using:
 * Synapse Spark with full support for Scala, Python, Spark SQL, and C#. Synapse Spark is central to data engineering and science scenarios 
 * SQL serverless with T-SQL language and support for familiar BI tools (For example, Power BI Premium, etc.)  
 
-
+<br>
 
 
 ## **Recommended Documents**  

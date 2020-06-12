@@ -4,7 +4,7 @@
     service="microsoft.insights"
     resource="components"
     authors="ssharma"
-    ms.author="shilsha"
+    ms.author="shilpasharmaAM"
     displayOrder="2"
     articleId="autoscale-configure-notifications"
     selfHelpType="generic"
