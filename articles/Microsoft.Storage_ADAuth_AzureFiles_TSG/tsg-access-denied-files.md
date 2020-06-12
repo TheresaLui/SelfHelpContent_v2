@@ -28,7 +28,7 @@ Accessing a file or directory when using Azure Files with identity-based authent
     
 For share-level authorization, Administrators assign permissions through the RBAC model in Portal. For more details, see here: https://docs.microsoft.com/azure/storage/files/storage-files-identity-ad-ds-assign-permissions
     
-For file-level authorization, the system uses NTFS ACLs on a per-file/directory basis.  A user must have a SID present in their Kerberos ticket that matches a SID authorized in the in the security descriptor for the file/directory object. Fore more details, see here: https://docs.microsoft.com/azure/storage/files/storage-files-identity-ad-ds-configure-permissions 
+For file-level authorization, the system uses NTFS ACLs on a per-file/directory basis.  A user must have a SID present in their Kerberos ticket that matches a SID authorized in the in the security descriptor for the file/directory object. For more details, see here: https://docs.microsoft.com/azure/storage/files/storage-files-identity-ad-ds-configure-permissions 
     
 To open a file for a certain permission (for example "write"), the user must have share-level write permissions as well as file-level write permissions.  
 
@@ -46,7 +46,7 @@ To open a file for a certain permission (for example "write"), the user must hav
 
 Based on the RBAC and NTFS permissions customer has in place, they will have the following permissions on a file/directory.
 
-|                      | RBAC - None   | RBAC - SMB Reader | RBAC Contributor                 | RBAC SMB Elvdated                                                                  |
+|                      | RBAC - None   | RBAC - SMB Reader | RBAC Contributor                 | RBAC SMB Elevated                                                                  |
 |----------------------|---------------|-------------------|----------------------------------|------------------------------------------------------------------------------------|
 | NTFS -None           | Access Denied | Access Denied     | Access Denied                    | Access Denied                                                                      |
 | NTFS - Read          | Access Denied |        Read       |               Read               |                                        Read                                        |
