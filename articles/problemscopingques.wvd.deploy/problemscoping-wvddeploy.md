@@ -15,7 +15,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
 	"title": "Issues with WVD deployment",
 	"fileAttachmentHint": "",
 	"formElements": [
