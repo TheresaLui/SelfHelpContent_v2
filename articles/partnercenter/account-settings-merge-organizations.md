@@ -7,7 +7,7 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	displayOrder=""
-        articleId="partnercenter_Account_settings_merge_organizations"
+        articleId="account_settings_merge_organizations"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32725784"
