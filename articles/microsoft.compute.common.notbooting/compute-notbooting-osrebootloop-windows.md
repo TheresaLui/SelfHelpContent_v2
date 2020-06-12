@@ -26,7 +26,7 @@
 ### If you cannot connect to your Windows virtual machine (VM) and are unsure of the cause, the following troubleshooting steps should be performed
 
 * Verify that your VM has been started
-* [Updating Boot Error](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-stuck-updating-boot-error)
+* If your VM fails to start and you recently applied Windows Updates please see [Troubleshooting VM not booting after Windows Update](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-stuck-updating-boot-error)
 * Understand [how to use boot diagnostics to troubleshoot Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics) in Azure
 
 ### If your VM is not at the **ctrl-alt-del** screen, it may be experiencing a boot error
