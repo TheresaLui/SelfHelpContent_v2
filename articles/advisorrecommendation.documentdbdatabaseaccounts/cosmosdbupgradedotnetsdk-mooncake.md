@@ -35,7 +35,7 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.0,
+  "version": 1.2,
   "learnMoreLink": "https://aka.ms/cosmosdb/sql-api-sdk-dotnet",
   "description": "Upgrade your Azure Cosmos DB .NET SDK to the latest version from Nuget",
   "longDescription": "Your Azure Cosmos DB account is using an old version of the .NET SDK. We recommend upgrading to the latest version from Nuget for latest fixes, performance improvements, and new feature capabilities.",
