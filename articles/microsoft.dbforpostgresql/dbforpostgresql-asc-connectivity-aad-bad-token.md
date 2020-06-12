@@ -9,7 +9,7 @@
 	displayOrder="100"
 	articleId="dbforpostgresql-asc-connectivity-aad-bad-token"
 	diagnosticScenario="OrcasPostgresAADBadToken"
-	selfHelpType="rca"
+	selfHelpType="diagnostics"
 	supportTopicIds="32742678"
 	resourceTags="windows, linux"
 	productPesIds="16222, 17067"

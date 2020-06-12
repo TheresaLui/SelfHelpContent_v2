@@ -9,7 +9,7 @@
 	displayOrder="100"
 	articleId="dbforpostgresql-asc-connectivity-aad-mfa-required"
 	diagnosticScenario="OrcasPostgresAADMFARequired"
-	selfHelpType="rca"
+	selfHelpType="diagnostics"
 	supportTopicIds="32742678"
 	resourceTags="windows, linux"
 	productPesIds="16222, 17067"
