@@ -22,13 +22,13 @@
 "recommendationFriendlyName": "UpgradeSDKVersion",
 "recommendationMetadataState": "Active",
 "owner": 
-{ "email": "cplatsdkdev@microsoft.com", 
+  { "email": "cplatsdkdev@microsoft.com", 
           "icm": { "routingId": "",
-                  "service": "",
-                  "team": ""
+                  "service": "AzureRT",
+                  "team": "CPlat SDK/PowerShell"
                   },
          "serviceTreeId": ""
-},
+  },
   "version": 1.0,
   "learnMoreLink": "https://github.com/Azure/azure-sdk/blob/master/README.md",
   "description": "Upgrade to the recommended SDK version to ensure you avoid performance issues.",
@@ -39,11 +39,11 @@
   "tip": "Upgrade to the recommended SDK version to ensure you avoid performance issues.",
   "supportedSDKLanguages": [".Net", "Java", "JavaScript", "Python"], 
   "actions": [{
-          "actionId": "",
-          "description": "Upgrade to the recommended SDK version.",
-          "actionType": "Document",
-          "condition": "",
-          "documentLink": "https://github.com/Azure/azure-sdk/blob/master/README.md"
+                    "actionId": "",
+                    "description": "Upgrade to the recommended SDK version.",
+                    "actionType": "Document",
+                    "condition": "",
+                    "documentLink": "https://github.com/Azure/azure-sdk/blob/master/README.md"
           }],
   "dataSourceMetadata": 
           {
