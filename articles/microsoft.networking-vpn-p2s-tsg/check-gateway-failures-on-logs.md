@@ -19,7 +19,7 @@
 
 Check for gateway noteworthy events at the time of the issue using ASC insights, NetVMA or GatewayTenantLogsTable.
 
-##Gateway Failover (most common scenario)
+## Gateway Failover (most common scenario)
 
 1. There might have been a gateway failover, caused by Maintenance or any other reason on the Gateway itself.
 2. GatewayTenantLogs indicate failover events, and the same can also be seen in NetVMA (you will notice the instance starting to listen on port 8081 has changed).

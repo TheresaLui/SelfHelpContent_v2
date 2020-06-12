@@ -15,7 +15,7 @@
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
 
-# Collect Packet Captures in "Connected but can't reach destination" scenario
+# Collect Packet Captures in 'Connected but can't reach destination' scenario
 
 If the point to site VPN is connected, but the client can't reach the destination, the issue is one of the following:
 
