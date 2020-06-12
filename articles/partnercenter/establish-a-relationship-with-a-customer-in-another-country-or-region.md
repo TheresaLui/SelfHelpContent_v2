@@ -7,7 +7,7 @@
 	authors="LauraBrenner"
 	ms.author="labrenne"
 	displayOrder=""
-	articleId="partnercenter_establishing_a_relationship_with_a_customer_in_another_country_or_region"
+	articleId="partnercenter_establishing_a_relationship_with_a_customer"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32725888"
