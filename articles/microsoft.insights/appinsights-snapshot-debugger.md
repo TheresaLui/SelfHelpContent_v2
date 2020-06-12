@@ -1,24 +1,24 @@
 <properties
-    pageTitle="My metric chart shows no data"
-    description="My metric chart shows no data"
+    pageTitle="Snapshot Debugger captures are incorrect or missing"
+    description="MSnapshot Debugger captures are incorrect or missing"
     service="microsoft.insights"
     resource="components"
-    authors="vgorbenko"
-    ms.author="vitalyg"
+    authors="rishabjolly"
+    ms.author="rijolly"
     displayOrder="2"
-    articleId="metrics-chart-shows-no-data"
+    articleId="appinsights-snapshot-debugger"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32677618"
+    supportTopicIds="32729632"
     resourceTags=""
-    productPesIds="16250"
+    productPesIds="15693"
     cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
-	ownershipId="AzureMonitoring_Essentials"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
 # <-- metrics-chart-shows-no-data -->
 
-Sometimes the charts in metrics explorer might show no data after selecting correct resources and metrics. This can be caused by one of the reasons listed below.
+Sometimes even after enabling Application Insights Snapshot Debugger for your application, you still don’t see snapshots for exceptions, or they seem incorrect. There can be many different reasons why snapshots are not generated. Please see below recommended solutions:
 
 ### **Microsoft.Insights resource provider isn't registered for your subscription**
 
