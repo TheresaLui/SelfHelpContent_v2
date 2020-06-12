@@ -27,7 +27,6 @@ Azure Database for MariaDB allows you to configure parameters at a server level 
 * If a parameter you'd like to configure is not listed, let us know by creating a new request or voting for existing requests in our [feedback forum](https://feedback.azure.com/forums/915439-azure-database-for-mariadb)
 * If there is a change in the server's parameter value from the portal, sometime the client does not see the parameter changed. In such cases client need to reconnect to take param effect after updating param on portal.
 * When using read replicas, some server parameters are locked from being updated to prevent data from becoming out of sync and to avoid potential data loss. Refer to the [documentation](https://docs.microsoft.com/azure/mariadb/concepts-read-replicas#server-parameters) for the list of parameters that are locked.
-* To change session level parameter in MariaDB for each new connection you can set it through init_connect. Refer to the [server parameter setting](https://docs.microsoft.com/azure/mariadb/howto-server-parameters) how-to.
 * If the server parameter you want to update is not listed in the Azure portal, you can optionally set the parameter at the connection level using **init_connect**. Refer to [setting parameter not listed](https://docs.microsoft.com/azure/mariadb/howto-server-parameters#setting-parameters-not-listed)
 
 ## **Recommended Documents**
