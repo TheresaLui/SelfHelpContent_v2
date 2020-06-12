@@ -8,7 +8,7 @@
     selfHelpType="generic"
     articleId="activitylog-configure-powershellcli"
     productPesIds="16251"
-    supportTopicIds="32684694"
+    supportTopicIds="32684689"
     cloudEnvironments="public, Fairfax, usnat, ussec"
      ownershipId="AzureMonitoring_AzureMetrics"
 />
