@@ -40,14 +40,14 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full
 Windows PowerShell runs on the [these versions of Windows](https://docs.microsoft.com/powershell/scripting/install/windows-powershell-system-requirements?view=powershell-7#operating-system-requirements).
 
 ## Az Module Requirements
-Az Module have the following pre-requisites. 
+Az Module have the following prerequisites. 
 
 1. Windows PowerShell 5.1 or higher
 2. .NET Framework 4.7.2 or higher
-3. Lated version of PowerShellGet - Update-Module PowerShellGet -Force
+3. Latest version of PowerShellGet - Update-Module PowerShellGet -Force
 
 ## Update to .Net Framework 4.7.2
 
 https://support.microsoft.com/help/4054530/microsoft-net-framework-4-7-2-offline-installer-for-windows
 
-Please make sure customer's environment has the above pre-requisites in place and see if they are facing any of the following errors.
+Please make sure customer's environment has the above prerequisites in place and see if they are facing any of the following errors.
