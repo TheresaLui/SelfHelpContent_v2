@@ -26,7 +26,7 @@
    1. Open [Get Gateway](https://jarvis-west.dc.ad.msft.net/?page=actions&acisEndpoint=Public&selectedNodeType=3&extension=Brooklyn&group=Gateway%20Service%20Operations&operationId=getgateway&operationName=Get%20Gateway&inputMode=single&params={"gatewayid":null}&actionEndpoint=Brooklyn%20-%20Prod&genevatraceguid=834f4699-2014-4939-bebe-2740adc95585) from Jarvis Actions and search for the GatewayID
    1. From the "Get Gateway" output identify the **HostedServiceName**
    1. The FQDN of the gateway will be in the form of _HostedServiceName.vpn.azure.com_
-2. Alternatively, customer can check on their side**
+2. Alternatively, customer can check on their side
    1. Find the FQDN of the Azure Gateway in the VpnSettings.xml file contained in the VPN package.
    1. This is in the form of _HostedServiceName.vpn.azure.com_
 3. Once Gateway FQDN is identified perform **nslookup** from a command prompt to verify if the gateway IP address can be resolved.
