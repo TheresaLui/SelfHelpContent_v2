@@ -1,7 +1,7 @@
 <properties
-    pageTitle="Active provisioning issue"
-    description="This insight analyzes your provisioing job for any issues."
-	  infoBubbleText="This insight analyzes your provisioing job for any issues."
+    pageTitle="analysis of provisioning job for active issues and other recommendations"
+    description="analysis of provisioning job for active issues and other recommendations"
+    infoBubbleText="analysis of provisioning job for active issues and other recommendations"
     service="microsoft.activedirectory"
     resource=""
     authors="arvinh"
