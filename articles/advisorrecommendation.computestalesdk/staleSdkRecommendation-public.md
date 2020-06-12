@@ -12,7 +12,7 @@
 # Recommend upgrading to a more recent SDK API version.
 ---
 { 
-"recommendationOfferingId": "084b42b9-7e8e-4013-9ac1-8c22e1dbefa3",
+"recommendationOfferingId": "",
 "recommendationOfferingName": "Compute",
 "$schema": "AdvisorRecommendation",
 "recommendationTypeId": "",
