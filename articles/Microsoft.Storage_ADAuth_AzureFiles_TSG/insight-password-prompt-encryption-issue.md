@@ -43,4 +43,4 @@ You (or their domain administrator) need to examine your domain group policy for
 
 You can validate the mitigation by retrying mount and running Get-AzStorageKerberosTicketStatus after the policy change.
 
-We understand that there are concerns in the industry on whether RC4 cipher is still cryptographically secure. We recommend you to make your own assessment on whether to leverage RC4 cipher based on your security and compliance requirements. We plan to extend the Kerberos support on Azure Files with newer encryption types of AES128 and ASE256 in H2 CY2020.
+We understand that there are concerns in the industry on whether RC4 cipher is still cryptographically secure. We recommend you to make your own assessment on whether to leverage RC4 cipher based on your security and compliance requirements. We plan to extend the Kerberos support on Azure Files with newer encryption types of AES128 and ASE256 in H2 CY 2020.
