@@ -35,7 +35,7 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.2,
+  "version": 1.3,
   "learnMoreLink": "https://aka.ms/cosmosdb/sql-api-sdk-async-java",
   "description": "Upgrade your Azure Cosmos DB Java SDK to the latest version from Maven",
   "longDescription": "Your Azure Cosmos DB account is using an old version of the Java SDK. We recommend upgrading to the latest version from Maven for latest fixes, performance improvements, and new feature capabilities.",
@@ -60,8 +60,8 @@
     "action": {
       "actionId": "7b999253-6a98-4f48-96c1-2852be4db70c",
       "actionType": "Blade",
-      "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
+      "extensionName": "Microsoft_Azure_DocumentDB",
+      "bladeName": "DatabaseAccountTemplateBladeForGlobalDb",
       "metadata": {
         "id": "{resourceId}"
       }

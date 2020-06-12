@@ -35,7 +35,7 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.2,
+  "version": 1.3,
   "learnMoreLink": "https://aka.ms/cosmosdb/sql-api-sdk-dotnet",
   "description": "Upgrade your Azure Cosmos DB .NET SDK to the latest version from Nuget",
   "longDescription": "Your Azure Cosmos DB account is using an old version of the .NET SDK. We recommend upgrading to the latest version from Nuget for latest fixes, performance improvements, and new feature capabilities.",
@@ -60,8 +60,8 @@
     "action": {
       "actionId": "40731314-8a80-4229-9e17-8250a7921987",
       "actionType": "Blade",
-      "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
+      "extensionName": "Microsoft_Azure_DocumentDB",
+      "bladeName": "DatabaseAccountTemplateBladeForGlobalDb",
       "metadata": {
         "id": "{resourceId}"
       }
