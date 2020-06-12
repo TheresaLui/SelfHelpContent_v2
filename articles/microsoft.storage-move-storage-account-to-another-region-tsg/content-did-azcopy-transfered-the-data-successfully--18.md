@@ -55,7 +55,7 @@ azcopy copy 'https://<source-storage-account-name>.blob.core.windows.net/<contai
 
 azcopy copy 'https://<source-storage-account-name>.blob.core.windows.net/<container-name>?<SAS-token>' 'https://<destination-storage-account-name>.blob.core.windows.net/<container-name>' --recursive 
 
-~~
+~~~
 
 5. Copy all containers, directories, and blobs to another storage account. (try double quotes if single quotes fail): 
 
