@@ -31,5 +31,5 @@ When connecting from an application, make sure that the Azure AD token retrieval
 
 ## **Recommended Documents**
 
-* [How-to use Azure Active Directory for authenticating with PostgreSQL](https://docs.microsoft.com/en-us/azure/postgresql/howto-configure-sign-in-aad-authentication)
-* [How-to connect with Managed Identity to Azure Database for PostgreSQL](https://docs.microsoft.com/en-us/azure/postgresql/howto-connect-with-managed-identity)
+* [How-to use Azure Active Directory for authenticating with PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-configure-sign-in-aad-authentication)
+* [How-to connect with Managed Identity to Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-connect-with-managed-identity)

@@ -29,4 +29,4 @@ Set the Azure AD administrator for this database, login using the Azure AD admin
 
 ## **Recommended Documents**
 
-* [How-to use Azure Active Directory for authenticating with PostgreSQL](https://docs.microsoft.com/en-us/azure/postgresql/howto-configure-sign-in-aad-authentication)
+* [How-to use Azure Active Directory for authenticating with PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-configure-sign-in-aad-authentication)

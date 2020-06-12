@@ -29,4 +29,4 @@ Make sure that your server has sufficient memory available to handle new incomin
 
 ## **Recommended Documents**
 
-* [Monitor and tune Azure Database for PostgreSQL](https://docs.microsoft.com/en-us/azure/postgresql/concepts-monitoring)
+* [Monitor and tune Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-monitoring)

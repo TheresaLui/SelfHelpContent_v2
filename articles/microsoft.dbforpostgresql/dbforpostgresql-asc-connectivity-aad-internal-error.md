@@ -29,4 +29,4 @@ This error indicates that there was an internal problem validating your Azure AD
 
 ## **Recommended Documents**
 
-* [How-to use Azure Active Directory for authenticating with PostgreSQL](https://docs.microsoft.com/en-us/azure/postgresql/howto-configure-sign-in-aad-authentication)
+* [How-to use Azure Active Directory for authenticating with PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-configure-sign-in-aad-authentication)

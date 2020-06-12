@@ -29,4 +29,4 @@ When fetching the Azure AD token for connecting to your database, make sure that
 
 ## **Recommended Documents**
 
-* [How-to use Azure Active Directory for authenticating with PostgreSQL](https://docs.microsoft.com/en-us/azure/postgresql/howto-configure-sign-in-aad-authentication)
+* [How-to use Azure Active Directory for authenticating with PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-configure-sign-in-aad-authentication)
