@@ -1,7 +1,7 @@
 <properties
-    pageTitle="analysis of provisioning job for active issues and other recommendations"
-    description="analysis of provisioning job for active issues and other recommendations"
-    infoBubbleText="analysis of provisioning job for active issues and other recommendations"
+    pageTitle="Active provisioning issue"
+    description="This insight displays an active provisioning issue for one or more connectors in a customer's tenant."
+	infoBubbleText="his insight displays an active provisioning issue for one or more connectors in a customer's tenant."
     service="microsoft.activedirectory"
     resource=""
     authors="arvinh"
@@ -20,9 +20,5 @@
 # PREVIEW: Active provisioning issue
 <!--issueDescription-->
 **There are one or more active issues with the provisioning service that may be related to your support request. Please review the issues below:**
-[issuesSection]
-
-**We've analyzed your job and found the below:** 
-[jobHealthSection] 
-
+<!--$provisioningActiveIssue-->[provisioningActiveIssue]<!--/$provisioningActiveIssue-->
 <!--/issueDescription-->
