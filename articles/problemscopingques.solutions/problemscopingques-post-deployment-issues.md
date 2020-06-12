@@ -14,8 +14,8 @@
 # Managed Application Post-deployment Issues
 ---
 {
-    "subscriptionRequired": false,
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Creating Managed Application Definitions",
     "fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements": [
