@@ -21,6 +21,7 @@
 Decode XML content from a business partner in a business-to-business (B2B) scenario. You can encode and decode flat files by using the Flat File connector.
 
 - [Add flat file decode action](https://docs.microsoft.com/azure/logic-apps/logic-apps-enterprise-integration-flatfile#add-flat-file-decode-action)
+- [Azure Flat File Decode](https://www.connected-pawns.com/2019/03/06/flat-file-decode-suppress-empty-nodes/)
 
 ## **Recommended Documents**
 

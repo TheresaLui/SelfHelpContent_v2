@@ -25,5 +25,6 @@ With the Encode X12 message connector, you can validate EDI and partner-specific
 
 ## **Recommended Documents**
 
+- [Getting Started with Logic Apps - XML to EDI X12](https://www.tech-findings.com/2019/11/getting-started-with-logic-apps-xml-to-EDI-x12.html)
 - For Azure Logic Apps questions, visit the [Azure Logic Apps forum](https://social.msdn.microsoft.com/forums/home?forum=azurelogicapps)
 - To submit or vote on feature ideas, visit the [Logic Apps feedback page](https://feedback.azure.com/forums/287593-logic-apps)
