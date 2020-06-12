@@ -16,7 +16,7 @@
 
 # Run a logic app on schedules
 
-## **Recommended Document**
+## **Recommended Documents**
 
 Run a logic app on a specified recurrence, ranging from basic to advanced schedules with the Recurrence trigger.
 

@@ -16,9 +16,9 @@
 
 # Call Azure API Apps, or Web Apps, hosted on Azure App Service
 
-## **Recommended Document**
+## **Recommended Documents**
 
 Call Azure API Apps, or Web Apps, hosted on Azure App Service.
 
-- [Azure App Service connector](https://docs.microsoft.com/en-us/connectors/azureappservice/ )
+- [Azure App Service connector](https://docs.microsoft.com/connectors/azureappservice/ )
 - [How to deploy and call custom APIs from workflows in Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-custom-api-host-deploy-call)

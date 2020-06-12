@@ -16,7 +16,7 @@
 
 # Process messages in batches with the Batch messages trigger
 
-## **Recommended Document**
+## **Recommended Documents**
 
 Process messages in batches with the Batch messages trigger.
 

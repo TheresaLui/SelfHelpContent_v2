@@ -16,7 +16,7 @@
 
 # Make logic app callable from other apps or services
 
-## **Recommended Document**
+## **Recommended Documents**
 
 Make your logic app callable from other apps or services, trigger on Event Grid resource events, or use trigger request and response action.  
 

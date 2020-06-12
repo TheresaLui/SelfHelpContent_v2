@@ -16,7 +16,7 @@
 
 # Call HTTP or HTTPS endpoints with triggers and actions for HTTP
 
-## **Recommended Document**
+## **Recommended Documents**
 
 - [Call service endpoints over HTTP or HTTPS from Azure Logic Apps](https://docs.microsoft.com/azure/connectors/connectors-native-http)
 - [Call a Secure Azure Function from a Logic App](http://www.mattruma.com/call-a-secure-azure-function-from-a-logic-app/)

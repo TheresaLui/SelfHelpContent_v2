@@ -16,7 +16,7 @@
 
 # Call triggers and actions defined by your own APIs
 
-## **Recommended Document**
+## **Recommended Documents**
 
 Call triggers and actions defined by your own APIs that you manage and publish with Azure API Management.
 
