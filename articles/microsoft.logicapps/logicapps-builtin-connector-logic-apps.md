@@ -16,7 +16,7 @@
 
 # Call other Azure Logic Apps that start with the Request trigger
 
-## **Recommended Document**
+## **Recommended Documents**
 
 Call other Azure Logic Apps that start with the Request trigger.
 
