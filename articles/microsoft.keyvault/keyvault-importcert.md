@@ -35,7 +35,7 @@
 
 * For Error type: Access denied or user is unauthorized to import certificate
 	
-	Access control for certificates is managed by Key Vault, and is provided by the Key Vault that contains those certificates. This operation requires the certificates/import permission. Navigate to where the Key Vault is located, you will need to grant the user appropriate permissions under **access policies**. Navigate to the **KeyVault> Access policies > Add Access Policy > Select Certificate Permissions (or as you want the permissions) > Principal > search for and then add user's email**. [Read more](https://docs.microsoft.com/azure/key-vault/certificates/about-certificates#certificate-access-control)
+   Access control for certificates is managed by Key Vault, and is provided by the Key Vault that contains those certificates. This operation requires the certificates/import permission. Navigate to where the Key Vault is located, you will need to grant the user appropriate permissions under **access policies**. Navigate to the **KeyVault> Access policies > Add Access Policy > Select Certificate Permissions (or as you want the permissions) > Principal > search for and then add user's email**. [Read more](https://docs.microsoft.com/azure/key-vault/certificates/about-certificates#certificate-access-control)
 
 * Importing expired certificate in Azure Key vault
 	
