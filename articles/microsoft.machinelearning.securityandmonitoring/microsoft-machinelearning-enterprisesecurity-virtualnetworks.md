@@ -6,7 +6,7 @@
 	resource="machinelearning"
 	authors="johnwu0604"
 	ms.author="johwu"
-	supportTopicIds=""
+	supportTopicIds="32740868"
 	productPesIds="16644"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.enterprisesecurity.virtualnetwork"
