@@ -2,7 +2,7 @@
 	pageTitle="CSP analyze and reporting"
 	description="CSP analyze and reporting"
 	authors="brentserbus"
-	ms.author="brserbus"
+	ms.author="A-COFLOR"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32725818"
 	productPesIds="17001"
