@@ -12,7 +12,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="sqlmanagedinstance-perf-log-near-full"
 	ownershipId="AzureData_AzureSQLMI"
 />
