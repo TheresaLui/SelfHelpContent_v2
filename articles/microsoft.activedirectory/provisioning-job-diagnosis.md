@@ -1,7 +1,7 @@
 <properties
-    pageTitle="analysis of provisioning job for active issues and other recommendations"
-    description="analysis of provisioning job for active issues and other recommendations"
-    infoBubbleText="analysis of provisioning job for active issues and other recommendations"
+    pageTitle="Analysis of provisioning job for active issues and other recommendations."
+    description="Analysis of provisioning job for active issues and other recommendations."
+    infoBubbleText="Analysis of provisioning job for active issues and other recommendations."
     service="microsoft.activedirectory"
     resource=""
     authors="arvinh"
@@ -17,7 +17,7 @@
 	ownershipId="AzureIdentity_SyncFabric"
 />
 
-# provisioning job analysis
+# PREVIEW: provisioning job analysis
 <!--issueDescription-->
 **There are one or more active issues with the provisioning service that may be related to your support request. Please review the issues below:**
 [issuesSection]
