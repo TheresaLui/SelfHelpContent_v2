@@ -10,12 +10,12 @@
 	articleId="partnercenter_establishing_a_relationship_with_a_customer_in_another_country_or_region"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635671, 32725888"
+	supportTopicIds="32725888"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960, 17012"
+	productPesIds="17012"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Establishing a relationship with a customer in another country or region
 Below documents describe how to establish relationships with customers when they reside in a country or region different than the partner's.
