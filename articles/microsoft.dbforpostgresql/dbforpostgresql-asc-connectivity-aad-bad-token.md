@@ -25,7 +25,7 @@ There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL serv
 
 ## **Recommended Steps**
 
-Ensure that you are connecting to your PostgreSQL database server with a new Azure AD token that is retrieved shortly before making the connection. Azure AD tokens need to be requested for the resource “https://ossrdbms-aad.database.windows.net/”.
+Ensure that you are connecting to your PostgreSQL database server with a new Azure AD token that is retrieved shortly before making the connection. Azure AD tokens need to be requested for the resource `https://ossrdbms-aad.database.windows.net/`.
 
 When connecting from an application, make sure that the Azure AD token retrieval is retrieved just in time when you are connecting to your database, instead of being only retrieved once when your application starts. In particular, pay attention to connection retry behavior, as a retry would need to fetch a new Azure AD token before connecting to the database.
 
