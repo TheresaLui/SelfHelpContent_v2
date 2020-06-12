@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Configure the new storage account "
-	description="Configure the new storage account "
+	pageTitle="Configure the new storage account"
+	description="Configure the new storage account"
 	service=""
 	resource=""
 	authors="rimayber"
