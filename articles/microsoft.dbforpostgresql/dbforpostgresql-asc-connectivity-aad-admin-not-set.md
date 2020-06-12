@@ -23,7 +23,7 @@
 There are <!--$Count-->Count<!--/$Count--> failed connections to PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC) that attempted to use Azure AD authentication, but the Azure AD administrator is not set.
 <!--/issueDescription-->
 
-## **Recommended Steps:**
+## **Recommended Steps**
 
 Set the Azure AD administrator for this database, login using the Azure AD administrator credentials, and then create appropriate database roles to grant Azure AD users and groups access to your database.
 
