@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Move data with Data Factory "
-	description="Move data with Data Factory "
+	pageTitle="Move data with Data Factory"
+	description="Move data with Data Factory"
 	service=""
 	resource=""
 	authors="rimayber"
