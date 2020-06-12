@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Account settings - Merge organizations"
-	description="Account settings - Merge organizations"
+	pageTitle="Account settings - Merge organizations"
+	description="Account settings - Merge organizations"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -18,7 +18,7 @@
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Account settings - Merge organizations
+# Account settings - Merge organizations
 
 Guidance on how to do an Account Merge can be found below.
 
