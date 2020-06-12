@@ -4,13 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635633"
-	productPesIds="15960"
+	supportTopicIds="32725818"
+	productPesIds="17001"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques_partnercenter_reporting"
 	clientIds="partnercenter"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Analytics"
 />
 # CSP analyze and reporting
 ---
