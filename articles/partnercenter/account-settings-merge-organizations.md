@@ -5,7 +5,7 @@
 	service="partnercenter"
 	resource="csp"
 	authors="lucywu"
-	ms.author="brserbus"
+	ms.author="v-luwu"
 	displayOrder=""
         articleId="account_settings_merge_organizations"
 	diagnosticScenario=""
