@@ -4,7 +4,7 @@
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
-	authors="lucywu"
+	authors="brentserbus"
 	ms.author="brserbus"
 	displayOrder=""
         articleId="account_settings_merge_organizations"
