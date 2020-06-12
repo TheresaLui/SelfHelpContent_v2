@@ -25,7 +25,8 @@ You can retrieve information from activity logs and export them by creating diag
 1. To retrieve information from activity logs via Azure CLI, [follow these instructions](https://docs.microsoft.com/azure/azure-resource-manager/management/view-activity-logs#azure-cli)
 1. Review [overview of diagnostic settings](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings)
 1. Refer to [how to create diagnostic settings using powershell](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings#create-diagnostic-settings-using-powershell)
-1. Refer to [how to create diagnostic settings using Azure CLI](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings#create-diagnostic-settings-using-azure-cli)
+1. For Azure CLI, [Create diagnostic setting in Azure Monitor using a Resource Manager template](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings-template#activity-log) to create a Resource Manager template and deploy it with CLI. Refer to the example of a CLI command to create a diagnostic setting [here](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings#create-diagnostic-settings-using-azure-cli)
+
 
 ## **Recommended Documents**
 
