@@ -18,7 +18,7 @@
 
 # Unable to mount - User is not able to retrieve the Kerberos ticket
 <!--issueDescription-->
-In order for AD Auth to work properly, we need a valid Kerberos ticket to connect to the storage account. The customers may run into issue with CheckGetKerberosTicket step if their doamin group policy does not have supported Kerberos encryption type enabled.
+In order for AD Auth to work properly, we need a valid Kerberos ticket to connect to the storage account. The customers may run into issue with CheckGetKerberosTicket step if their domain group policy does not have supported Kerberos encryption type enabled.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -43,4 +43,4 @@ You (or their domain administrator) need to examine your domain group policy for
 
 You can validate the mitigation by retrying mount and running Get-AzStorageKerberosTicketStatus after the policy change.
 
-We understand that there are concerns in the industry on whether RC4 cipher is still cryptographically secure. We recommend you to make your own assessment on whether to leverage RC4 cipher based on your security and compliance requirements. We plan to extend the Kerberos support on Azure Files with newer encryption types of AES128 and ASE256 in H1 CY2020.
+We understand that there are concerns in the industry on whether RC4 cipher is still cryptographically secure. We recommend you to make your own assessment on whether to leverage RC4 cipher based on your security and compliance requirements. We plan to extend the Kerberos support on Azure Files with newer encryption types of AES128 and ASE256 in H2 CY 2020.
