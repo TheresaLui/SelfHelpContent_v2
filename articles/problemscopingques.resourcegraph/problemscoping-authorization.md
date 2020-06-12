@@ -14,8 +14,8 @@
 # Resource Graph Authorization Issues
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Resource Graph Authorization Issues",
     "fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements": [
