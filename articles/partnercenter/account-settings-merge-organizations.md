@@ -1,21 +1,18 @@
 <properties
-	pageTitle="Account settings - Merge organizations"
-	description="Account settings - Merge organizations"
-	infoBubbleText=""
-	service="partnercenter"
-	resource="csp"
-	authors="brentserbus"
-	ms.author="brserbus"
-	displayOrder=""
-        articleId="account_settings_merge_organizations"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32725784"
-	clientIds='partnercenter'
-	resourceTags="csp"
-	productPesIds="17000"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+pageTitle="Account settings - Merge organizations"
+description="Account settings - Merge organizations"
+infoBubbleText=""
+authors="brentserbus"
+ms.author="brserbus"
+articleId="account_settings_merge_organizations"
+diagnosticScenario=""
+selfHelpType="generic"
+supportTopicIds="32725784"
+clientIds='partnercenter'
+resourceTags="csp"
+productPesIds="17000"
+cloudEnvironments="public, fairfax, usnat, ussec"
+ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Account settings - Merge organizations
