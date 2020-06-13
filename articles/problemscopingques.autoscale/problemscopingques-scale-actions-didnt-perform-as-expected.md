@@ -26,25 +26,6 @@
             "displayLabel": "When did the problem start happening?",
             "required": true
         },
-                {
-            "id": "runbook selection",
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Select the runbook that has the problem",
-            "watermarkText": "Choose a runbook",
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/providers/microsoft.insights/autoscalesettings?api-version=2015-04-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            },
-            "required": true
-        },
         {
             "id": "problem_description",
             "order": 5,
