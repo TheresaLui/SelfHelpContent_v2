@@ -16,11 +16,11 @@
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
-# <-- metrics-chart-shows-no-data -->
+# <-- Snapshot-Debugger-captures-are-incorrect-or-missing -->
 
 Sometimes even after enabling Application Insights Snapshot Debugger for your application, you still don’t see snapshots for exceptions, or they seem incorrect. There can be many different reasons why snapshots are not generated. Please see below recommended solutions:
 
-### **Microsoft.Insights resource provider isn't registered for your subscription**
+### **Recommended solutions**
 
 Exploring metrics requires *Microsoft.Insights* resource provider registered in your subscription. In many cases, it is registered automatically (that is, after you configure an alert rule, customize diagnostic settings for any resource, or configure an autoscale rule). If the Microsoft.Insights resource provider is not registered, you must manually register it by following steps described in [Azure resource providers and types](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-supported-services).
 
