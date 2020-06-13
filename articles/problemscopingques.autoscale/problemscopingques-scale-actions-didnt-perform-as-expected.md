@@ -33,7 +33,7 @@
             "displayLabel": "Select the runbook that has the problem",
             "watermarkText": "Choose a runbook",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/microsoft.insights/autoscalesettings?api-version=2015-04-01",
+                "uri": "/subscriptions/{subscriptionid}/providers/microsoft.insights/autoscalesettings?api-version=2015-04-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
