@@ -25,4 +25,4 @@ Please go back to the previous tab, 'Basics' and select the service for the reso
 
 For example, if you are planning to move a virtual network from one subscription to another, please select 'Virtual Network' as the service. For VM move, please select 'Virtual machines for Windows' and so on.
 
-Details regarding the Azure Migrate resources that can be moved is available [here] (https://docs.microsoft.com/azure/azure-resource-manager/management/move-support-resources#microsoftmigrate)
+Details regarding the Azure Migrate resources that can be moved is available [here](https://docs.microsoft.com/azure/azure-resource-manager/management/move-support-resources#microsoftmigrate)
