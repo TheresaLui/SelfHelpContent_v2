@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="protectopencontent_cantapplyprotection"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - Unable to apply a protection label
