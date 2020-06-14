@@ -19,8 +19,8 @@
 
 ## **Recommended Steps**
 
-1. If you created a new label that applies protection, it can take up to 24 hours for a computer running the Azure Information Protection client to get these changed settings.
-2. If you waited 24 hours and still can't apply this label, select Reset Settings from the Protect/Sensitivity button on the Office ribbon, then Help and feedback. This action signs out the user, deletes the currently downloaded Azure Information Protection policy, and resets the user settings for the Azure Rights Management service.
+1. If you created a new label that applies protection, it can take up to 24 hours for a computer running the Azure Information Protection client to get these changed settings
+2. If you waited 24 hours and still can't apply this label, select **Reset Settings** from the **Protect/Sensitivity** button on the Office ribbon, then **Help and feedback**. This action signs out the user, deletes the currently downloaded Azure Information Protection policy, and resets the user settings for the Azure Rights Management service
 3. If you have never used AIP before, please verify your OnBoarding policy is set correctly:
 
 	* Open a PowerShell session as administration and run the below commands:
