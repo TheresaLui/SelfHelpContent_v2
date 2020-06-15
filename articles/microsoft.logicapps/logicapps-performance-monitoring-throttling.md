@@ -18,7 +18,7 @@
 
 Logic App has definitions limits.  
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Limits and configuration information for Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-limits-and-config)
 - [Run duration and retention limits](https://docs.microsoft.com/azure/logic-apps/logic-apps-limits-and-config#run-duration-and-retention-limits)

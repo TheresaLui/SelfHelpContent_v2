@@ -18,7 +18,7 @@
 
 Monitor run status, review trigger history, and set up alerts for Azure Logic Apps.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Monitor Logic apps](https://docs.microsoft.com/azure/logic-apps/monitor-logic-apps)
 - [What are the limits and configuration information for Azure Logic Apps?](https://docs.microsoft.com/azure/logic-apps/logic-apps-limits-and-config)

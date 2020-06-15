@@ -18,7 +18,7 @@
 
 Azure Monitor helps you monitor your cloud and on-premises environments so that you can more easily maintain their availability and performance.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Set up Azure Monitor logs and collect diagnostics data for B2B messages in Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/monitor-b2b-messages-log-analytics)
 - [Monitor B2B messages with Azure Monitoring Logs](https://docs.microsoft.com/azure/logic-apps/monitor-b2b-messages-log-analytics#set-up-azure-monitor-logs)

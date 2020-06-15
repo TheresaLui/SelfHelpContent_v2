@@ -18,7 +18,7 @@
 
 Alerts allow to create an alert and detect failures or other possible problems.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Monitor run status, review trigger history, and set up alerts for Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/monitor-logic-apps)
 - [Setup monitoring alerts](https://docs.microsoft.com/azure/logic-apps/monitor-logic-apps#set-up-monitoring-alerts)
