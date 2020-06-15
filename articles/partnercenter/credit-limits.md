@@ -10,10 +10,10 @@
 	articleId="partnercenter_credit_limits"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692596,32635661"
+	supportTopicIds="32692596,32725793"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="17003,15960"
+	productPesIds="17003,17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
