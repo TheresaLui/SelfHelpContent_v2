@@ -14,8 +14,8 @@
 # Resource Graph Query
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Resource Graph Query",
     "fileAttachmentHint": "Please provide a query file and screenshot of any errors",
     "formElements": [

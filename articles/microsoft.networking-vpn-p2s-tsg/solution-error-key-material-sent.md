@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax, usnat, ussec"
-	articleId="0db3e0eb-81d2-4917-ac8e-704509ce487b-material-sent"
+	articleId="e523cd3d-7019-47f3-b49d-4c9e3b0c2606"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
 
@@ -29,4 +29,3 @@ The error *"Server did not respond properly to VPN control packets. Session stat
 ## Recommended Documents
 
 * [Create an Azure Active Directory tenant for P2S OpenVPN protocol connections](https://docs.microsoft.com/en-us/azure/vpn-gateway/openvpn-azure-ad-tenant)
-
