@@ -10,7 +10,7 @@
 	articleId="marketplace_d365offerpreview"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="332728108,32728121,32728134"
+	supportTopicIds="32728108,32728121,32728134"
 	resourceTags="marketplace"
 	productPesIds="17006"
 	cloudEnvironments="public, fairfax, usnat, ussec"
