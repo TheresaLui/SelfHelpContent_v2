@@ -18,7 +18,7 @@
 
 Schemas are used to validate messages.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Validate XML with schemas in Azure Logic Apps with Enterprise Integration Pack](https://docs.microsoft.com/azure/logic-apps/logic-apps-enterprise-integration-schemas)
 - [Schema Operations](https://docs.microsoft.com/rest/api/logic/schemas)

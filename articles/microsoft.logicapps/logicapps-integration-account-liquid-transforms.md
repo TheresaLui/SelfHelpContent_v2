@@ -18,7 +18,7 @@
 
 A Liquid template defines how to transform JSON output and supports more complex JSON transformations, such as iterations, control flows, variables, and so on.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Perform advanced JSON transformations with Liquid templates in Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-enterprise-integration-liquid-transform)
 - [Liquid templates in Logic Apps](https://www.c-sharpcorner.com/article/liquid-templates-in-logic-apps/)

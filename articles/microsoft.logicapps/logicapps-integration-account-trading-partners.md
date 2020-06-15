@@ -18,7 +18,7 @@
 
 Trading partners represent your organization and others.  Partners are entities that participate in B2B transactions and exchange messages with each other.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Create and manage integration accounts for B2B enterprise integrations in Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-enterprise-integration-create-integration-account)
 - [Manage artifact metadata in integration accounts with Azure Logic Apps and Enterprise Integration Pack](https://docs.microsoft.com/azure/logic-apps/logic-apps-enterprise-integration-metadata)

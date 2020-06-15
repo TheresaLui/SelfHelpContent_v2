@@ -18,7 +18,7 @@
 
 Certificates are digital documents that check the identities for the participants in electronic communications and help secure communication.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Improve security for B2B messages by using certificates](https://docs.microsoft.com/azure/logic-apps/logic-apps-enterprise-integration-certificates)
 - [In depth walk through of using certificates in Logic Apps AS2 connector](https://blogs.biztalk360.com/certificates-in-logic-apps-as2-connector/)

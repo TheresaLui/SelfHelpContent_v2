@@ -18,6 +18,6 @@
 
 Agreements help organizations and businesses communicate with each other by defining the specific industry-standard protocol to use when exchanging B2B messages.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Create and manage trading partner agreements in Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-enterprise-integration-agreements)
