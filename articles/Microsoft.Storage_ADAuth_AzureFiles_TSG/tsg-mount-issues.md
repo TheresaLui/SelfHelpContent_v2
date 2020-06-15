@@ -17,7 +17,7 @@
 
 # Customer is facing issues while mounting the file share
 
-The following section of the TSG will help you troubleshooter mount issues or issues with accessing the files/directories in the file share.
+The following section of the TSG will help you troubleshoot mount issues for a particular file share.
 
 Before you go to next step, make sure the customer is trying to mount the file share using the "net use" command as explained [here](https://docs.microsoft.com/azure/storage/files/storage-files-identity-auth-active-directory-enable#4-mount-a-file-share-from-a-domain-joined-vm).
 
@@ -33,7 +33,7 @@ Once you have verified that the customer does not have Private Endpoint enabled 
 
 ## Use "Debug-AzStorageAccountAuth" command to further isolate the issue
 
-Once you have confirmed that the user is able to mount the file share using the storage account key but can not map the same share using their On-Prem credential, use Debug-AzStorageAccountAuth cmdlet (with "-Verbose" option) to further isolate the issue. This cmdlet is supported on [AzFilesHybrid v0.1.2+ version](https://github.com/Azure-Samples/azure-files-samples/releases). You need to run this cmdlet with an AD user that has owner permission on the target storage account.
+Once you have confirmed that the user is able to mount the file share using the storage account key but cannot map the same share using their On-Prem credential, use Debug-AzStorageAccountAuth cmdlet (with "-Verbose" option) to further isolate the issue. This cmdlet is supported on [AzFilesHybrid v0.1.2+ version](https://github.com/Azure-Samples/azure-files-samples/releases). You need to run this cmdlet with an AD user that has owner permission on the target storage account.
 
     $ResourceGroupName = "<resource-group-name-here>"
     $StorageAccountName = "<storage-account-name-here>"

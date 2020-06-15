@@ -14,8 +14,8 @@
 # Management Groups
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Management Groups",
     "fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements": [
