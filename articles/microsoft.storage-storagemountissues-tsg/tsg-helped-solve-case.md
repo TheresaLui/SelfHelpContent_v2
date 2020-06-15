@@ -18,5 +18,5 @@
 
 **TSG helped solve the case**
 
-1. You've indicated the TSG has helped you solve this case.
-2. Feel free to provide positive or additional feedback you may have on this troubleshooter.
+1. You've indicated the TSG has helped you solve this case
+2. Feel free to provide positive or additional feedback you may have on this troubleshooter
