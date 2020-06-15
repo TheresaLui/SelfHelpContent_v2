@@ -14,8 +14,8 @@
 # Blueprint Definitions
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Blueprint Definition",
     "fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements": [
