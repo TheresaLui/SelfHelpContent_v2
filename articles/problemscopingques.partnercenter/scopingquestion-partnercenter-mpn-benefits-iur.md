@@ -2,7 +2,7 @@
 	pageTitle="Partner Center MPN benefits IUR Requests"
 	description="Partner Center MPN benefits IUR Requests"
 	authors="dimanjar" 
-  ms.author="dimanjar"
+        ms.author="dimanjar"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32725801,32725871,32725861,32725862"
 	productPesIds="15960"
