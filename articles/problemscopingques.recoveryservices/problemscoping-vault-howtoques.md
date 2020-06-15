@@ -35,8 +35,8 @@
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "Description",
-            "watermarkText": "Provide additional information about your issue",
+            "displayLabel": "Please describe your question in detail",
+            "watermarkText": "Ex. What happen to old retention points if I change the backup policy? How to permanently delete vault? How to change from GRS to LRS?",
             "diagnosticInputRequiredClients": "Portal",
             "required": true,
             "useAsAdditionalDetails": true
