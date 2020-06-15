@@ -1,11 +1,11 @@
 <properties
     pageTitle="Upgrade your Azure Cosmos DB Java SDK to the latest version from Maven"
     description="Upgrade your Azure Cosmos DB Java SDK to the latest version from Maven"
-    authors="rnagpal"
-    ms.author="rnagpal"
-    articleId="3312d528-e60e-4d3a-8dd0-e97f030c4681_Fairfax"
+    authors="pratnala"
+    ms.author="pratnala"
+    articleId="3312d528-e60e-4d3a-8dd0-e97f030c4681_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Fairfax"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Upgrade your Azure Cosmos DB Java SDK to the latest version from Maven
@@ -17,8 +17,8 @@
   "recommendationTypeId": "3312d528-e60e-4d3a-8dd0-e97f030c4681",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbfairfax.kusto.usgovcloudapi.net').database('LiveSite').OldJavaSDK",
-    "refreshInterval": "0.12:00:00",
+      "streamNamespace": "cluster('https://cdbmooncake3.chinanorth2.kusto.chinacloudapi.cn').database('Support').OldJavaSDK",
+      "refreshInterval": "0.12:00:00",
     "schemaVersion": 3.0
   },
   "recommendationCategory": "HighAvailability",
@@ -29,7 +29,7 @@
   "owner": {
     "email": "cosmosnotifications@microsoft.com",
     "icm": {
-      "routingId": "mdm://adspartner/CosmosDb",
+      "routingId": "mdm://adspartner/CosmosDB",
       "service": "Azure Cosmos DB",
       "team": "Supportability"
     },
@@ -47,7 +47,6 @@
       "title": "Latest Version"
     }
   ],
-  "testData": "0b5e1089-df61-40f6-9c0c-8aed0ac76a35,/subscriptions/0b5e1089-df61-40f6-9c0c-8aed0ac76a35/resourceGroups/SupportabilityTest/providers/Microsoft.DocumentDB/databaseAccounts/supportabilitytest-ff,\"{\"\"LatestVersion\"\":\"\"2.5.0\"\"}\"",
   "actions": [
     {
       "actionId": "68e6f866-956c-4fd9-b16a-916222b663b6",

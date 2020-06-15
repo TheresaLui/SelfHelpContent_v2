@@ -3,9 +3,9 @@
     description="Upgrade your Azure Cosmos DB .NET SDK to the latest version from Nuget"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="7632ec99-ea15-4a40-be58-81168381b665_Public"
+    articleId="7632ec99-ea15-4a40-be58-81168381b665_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Upgrade your Azure Cosmos DB .NET SDK to the latest version from Nuget
@@ -17,7 +17,7 @@
   "recommendationTypeId": "7632ec99-ea15-4a40-be58-81168381b665",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').OldDotNetSDK",
+    "streamNamespace": "cluster('https://cdbmooncake3.chinanorth2.kusto.chinacloudapi.cn').database('LiveSite').OldDotNetSDK",
     "refreshInterval": "0.12:00:00",
     "schemaVersion": 3.0
   },
@@ -47,7 +47,6 @@
       "title": "Latest Version"
     }
   ],
-  "testData": "ac899844-6480-4758-92b7-87b813c078f4,/subscriptions/ac899844-6480-4758-92b7-87b813c078f4/resourceGroups/rnagpal/providers/Microsoft.DocumentDb/databaseAccounts/rnagpal-france,\"{\"\"LatestVersion\"\":\"\"2.5.0\"\"}\"",
   "actions": [
     {
       "actionId": "f73e70bf-eb0e-441c-b59d-c057612bd7e6",
