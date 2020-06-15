@@ -10,12 +10,12 @@
 	articleId="partnercenter_help_with_delegated_admin_privileges"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635675,32725889"
+	supportTopicIds="32725889"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17012"
+	productPesIds="17012"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Help with delegated admin privileges
 

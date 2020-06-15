@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-We are unable to whitelist the subscription in the target region for the preview feature [feature name]  which exists in the source storage account/region.
+We are unable to whitelist the subscription in the target region for the preview feature [feature name] which exists in the source storage account/region.
 
 If this was a powershell/cli command error, then follow the command reference troubleshooting guide to determine the cause of error.
 
