@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32740695"
 	productPesIds="16582"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="5fabf3fb-cf85-4c9c-8246-7d22dbe8343d"
 	ownershipId="Windows_Virtual_Desktop"
@@ -15,7 +15,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Issues with WVD Spring Update",
   "fileAttachmentHint": "",
   "formElements": [

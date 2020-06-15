@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Check if AzCopy transfered the data successfully?"
-	description="Check if AzCopy transfered the data successfully?"
+	pageTitle="Check if AzCopy transfered the data successfully"
+	description="Check if AzCopy transfered the data successfully"
 	service=""
 	resource=""
 	authors="rimayber"
@@ -15,7 +15,7 @@
    	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# Check if AzCopy transfered the data successfully?
+# Check if AzCopy transfered the data successfully
 
 AzCopy is a command-line utility that you can use to copy blobs or files to or from a storage account. This article helps you download AzCopy, connect to your storage account, and then transfer files. 
 
@@ -55,7 +55,7 @@ azcopy copy 'https://<source-storage-account-name>.blob.core.windows.net/<contai
 
 azcopy copy 'https://<source-storage-account-name>.blob.core.windows.net/<container-name>?<SAS-token>' 'https://<destination-storage-account-name>.blob.core.windows.net/<container-name>' --recursive 
 
-~~
+~~~
 
 5. Copy all containers, directories, and blobs to another storage account. (try double quotes if single quotes fail): 
 

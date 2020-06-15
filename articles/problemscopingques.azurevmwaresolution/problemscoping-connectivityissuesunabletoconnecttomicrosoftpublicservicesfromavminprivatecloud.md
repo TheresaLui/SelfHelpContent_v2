@@ -5,7 +5,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32739972"
                 productPesIds="17080"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="75642182-c613-40e9-be84-9fdd935d3e2d"
 	            ownershipId="Azure_VMwareSolution_Content"

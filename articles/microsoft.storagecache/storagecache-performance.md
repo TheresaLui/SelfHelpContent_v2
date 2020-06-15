@@ -11,7 +11,7 @@
     supportTopicIds="32674487"
     resourceTags=""
     productPesIds="16790"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     ownershipId="StorageMediaEdge_HPCCache"
 />
 
