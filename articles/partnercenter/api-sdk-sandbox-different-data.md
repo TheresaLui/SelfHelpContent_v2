@@ -10,12 +10,12 @@
 	articleId="api_sdk_different_data"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635650"
+	supportTopicIds="32692592"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17002"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_API_and_Integration_Support"
 />
 
 # API data different than Partner Center portal
