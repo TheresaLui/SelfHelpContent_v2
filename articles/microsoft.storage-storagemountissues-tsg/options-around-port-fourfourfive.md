@@ -20,7 +20,7 @@ Azure File Sync can transforms your on-premises Windows Server into a quick cach
 
 2. Use VPN
 <br>By Setting up a VPN to your specific Storage Account, the traffic will go through a secure tunnel as opposed to over the internet. Follow the <a href="https://github.com/Azure-Samples/azure-files-samples/tree/master/point-to-site-vpn-azure-files">instructions to setup VPN</a> to access Azure Files from Windows.</br>
-<br>Work with your IT department or ISP to open port 445 outbound to <a href="https://www.microsoft.com/en-us/download/details.aspx?id=41653">Azure IP ranges</a></br>
+<br>Work with your IT department or ISP to open port 445 outbound to <a href="https://www.microsoft.com/en-us/download/details.aspx?id=56519">Azure IP ranges</a></br>
 
 3. Use REST API based tools like Storage Explorer/PowerShell
 Azure Files also supports REST in addition to SMB. REST access works over port 443 (standard tcp). There are various tools that are written using REST API which enable rich UI experience. Storage Explorer is one of them. <a href="https://azure.microsoft.com/en-us/features/storage-explorer/">Download and Install Storage Explorer</a> and connect to your file share backed by Azure Files. You can also use PowerShell which also user REST API.

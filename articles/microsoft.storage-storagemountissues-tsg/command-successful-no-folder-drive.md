@@ -27,7 +27,7 @@ Mount the share from a non-administrator command line.
 
 **Resolution 2**
 
-Alternatively, you can follow this TechNet topic to configure the <a href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee844140(v%3Dws.10">EnableLinkedConnections</a>) registry value. To work around this problem, configure the EnableLinkedConnections registry value. This value enables Windows Vista and Windows 7 to share network connections between the filtered access token and the full administrator access token for a member of the Administrators group. After you configure this registry value, LSA checks whether there is another access token that is associated with the current user session if a network resource is mapped to an access token. If LSA determines that there is a linked access token, it adds the network share to the linked location.
+Alternatively, you can follow this TechNet topic to configure the <a href="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee844140(v%3Dws.10)">EnableLinkedConnections</a> registry value. To work around this problem, configure the EnableLinkedConnections registry value. This value enables Windows Vista and Windows 7 to share network connections between the filtered access token and the full administrator access token for a member of the Administrators group. After you configure this registry value, LSA checks whether there is another access token that is associated with the current user session if a network resource is mapped to an access token. If LSA determines that there is a linked access token, it adds the network share to the linked location.
 
 To configure the EnableLinkedConnections registry value
 
