@@ -1,8 +1,8 @@
 <properties
 	pageTitle="VM size guidelines"
 	description="VM size guidelines"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,yareyes,amamun"	
 	authors="ujpat,yareyes,AbdullahMSFT"
 	displayOrder=""
