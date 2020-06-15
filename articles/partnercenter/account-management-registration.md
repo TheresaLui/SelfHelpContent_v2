@@ -18,7 +18,7 @@
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Account management - Registration
+# Account management - Registration
 
 Information about Partner Center Account Registration
 
