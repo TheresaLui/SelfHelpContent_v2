@@ -10,10 +10,10 @@
 	articleId="indirect_direct_update_details"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692579,32725815,32725817"
+	supportTopicIds="32692579,32725815,32725817,32739485"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="17001"
+	productPesIds="17001,17011"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Analytics"
 />
