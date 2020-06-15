@@ -10,7 +10,7 @@
 	articleId="partnercenter_customers_suspend_error"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds=" 32725896"
+	supportTopicIds="32725896"
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="17012"
