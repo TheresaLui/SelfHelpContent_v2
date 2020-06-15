@@ -27,7 +27,7 @@
                   "service": "AzureRT",
                   "team": "CPlat SDK/PowerShell"
                   },
-         "serviceTreeId": ""
+         "serviceTreeId": "92a514eb-a2bc-48e3-a6f2-262f18a2ce40"
   },
   "version": 1.0,
   "learnMoreLink": "https://github.com/Azure/azure-sdk/blob/master/README.md",
