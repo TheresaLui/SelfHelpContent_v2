@@ -10,10 +10,10 @@
 	articleId="partnercenter_cannot_find_offers_in_the_catalog"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635654,32692594"
+	supportTopicIds="32692594"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17011"
+	productPesIds="17011"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Pricing_and_Offers"
 />
