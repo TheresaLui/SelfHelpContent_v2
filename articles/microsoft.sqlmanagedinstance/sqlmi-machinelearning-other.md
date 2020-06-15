@@ -39,7 +39,7 @@ This process might take up to 5 business days from the time the requested region
 ### Is the Preview Available for Azure SQL Database as well?
 No. This preview is available only for Azure SQL Managed Instance.
 As of 30 June 2020, support will be discontinued for Azure SQL Database , Machine Learning Services with R (preview) - and the preview will not be released for general availability. R scripts in use after 30 June 2020 will not work. To continue working with machine learning in Azure SQL, sign up for Machine Learning Services in Azure SQL Managed Instance (preview).
-[Discontinued Preview](https://docs.microsoft.com/en-au/azure/azure-sql/database/machine-learning-services-overview)
+[Discontinued Preview](https://docs.microsoft.com/azure/azure-sql/database/machine-learning-services-overview)
  
 ### Preview Limitations
 Machine Learning Services is a feature of Azure SQL Managed Instance that's currently in public preview. This preview functionality is initially available in a limited number of regions in the US, Asia Europe, and Australia with additional regions being added later.
@@ -52,12 +52,12 @@ During the preview, the service has the following limitations:
 - Scenarios using the Message Passing Interface (MPI) are not supported.
 - In case of a Service Level Objective (SLO) update, please update the SLO and raise a support ticket to re-enable the dedicated resource limits for R/Python.
  
-For more details check: [Preview Limitations](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/machine-learning-services-differences#preview-limitations)
+For more details check: [Preview Limitations](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#preview-limitations)
  
 ### How is Resource Governance Managed when we enable Machine Learning Services for Azure SQL Managed Instance
 It is not possible to limit R resources through Resource Governor and external resource pools.
 During the public preview, R resources are set to a maximum of 20% of the SQL Managed Instance resources, and depend on which service tier you choose. For more information, see Azure SQL Database purchasing models
-[Resource Governance](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/machine-learning-services-differences#resource-governance)
+[Resource Governance](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#resource-governance)
  
 ### What additional steps do I have to perform to use Machine Learning Services on Azure SQL Managed Instance
 There is no need to configure external scripts enabled via sp_configure. Once you are signed up for the preview, machine learning is enabled for your SQL database.
@@ -74,12 +74,12 @@ An external script error occurred: Error: cannot allocate vector of size.>
  
 Memory usage depends on how much is used in your R scripts and the number of parallel queries being executed. If you receive the errors above, you can scale your database to a higher service tier to resolve this. 
 In case of a Service Level Objective (SLO) update, please update the SLO and raise a support ticket to re-enable the dedicated resource limits for R/Python.
-[Script Errors due to insufficient Memory](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/machine-learning-services-differences#insufficient-memory-error). 
+[Script Errors due to insufficient Memory](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#insufficient-memory-error). 
  
  
 ### Key differences between Machine Learning Services in Azure SQL Managed Instance and SQL Server
 The functionality of Machine Learning Services in Azure SQL Managed Instance (preview) is nearly identical to SQL Server Machine Learning Services , however the key differences are listed below
-[Key Differences](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/machine-learning-services-differences#packages)
+[Key Differences](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#packages)
 
 
 ## **Recommended Documents**
@@ -100,10 +100,10 @@ In addition to the pre-installed packages, you can also install additional packa
     
 ### Quickstarts & Tutorials   
  
-- [Quickstart: Run simple R scripts with SQL machine learning](https://docs.microsoft.com/en-us/sql/machine-learning/tutorials/quickstart-r-create-script?context=/azure/azure-sql/managed-instance/context/ml-context&view=sql-server-ver15)
+- [Quickstart: Run simple R scripts with SQL machine learning](https://docs.microsoft.com/sql/machine-learning/tutorials/quickstart-r-create-script?context=/azure/azure-sql/managed-instance/context/ml-context&view=sql-server-ver15)
  
-- [Quickstart: Run simple Python scripts with SQL machine learning](https://docs.microsoft.com/en-us/sql/machine-learning/tutorials/quickstart-python-create-script?context=/azure/azure-sql/managed-instance/context/ml-context&view=sql-server-ver15)
+- [Quickstart: Run simple Python scripts with SQL machine learning](https://docs.microsoft.com/sql/machine-learning/tutorials/quickstart-python-create-script?context=/azure/azure-sql/managed-instance/context/ml-context&view=sql-server-ver15)
 
-- [R tutorials for SQL machine learning](https://docs.microsoft.com/en-us/sql/machine-learning/tutorials/r-tutorials?view=sql-server-ver15)
+- [R tutorials for SQL machine learning](https://docs.microsoft.com/sql/machine-learning/tutorials/r-tutorials?view=sql-server-ver15)
 
 - [Python tutorials for SQL machine learning](https://docs.microsoft.com/sql/machine-learning/tutorials/python-tutorials?view=sql-server-ver15)
