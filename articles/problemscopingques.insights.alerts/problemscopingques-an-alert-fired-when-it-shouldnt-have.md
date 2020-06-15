@@ -5,7 +5,7 @@
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32739794, 32739768, 32739784, 32739813, 32739789, 32739809"
+	supportTopicIds="32739793, 32739766, 32739783, 32739812, 32739788, 32739808"
 	productPesIds="15454"
 	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
