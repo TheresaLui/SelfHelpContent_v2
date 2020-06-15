@@ -26,7 +26,7 @@
             "displayLabel": "When did the problem start happening?",
             "required": false
         },
-                {
+        {
             "id": "problem_frequency",
             "order": 2,
             "controlType": "dropdown",
@@ -52,7 +52,7 @@
                 }
             ]
         },
-                {
+        {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
@@ -69,7 +69,7 @@
                 },
                 {
                     "text": "Screenshot of any details outlining why the alert should have fired"
-                },
+                }
             ]
         },
         {
