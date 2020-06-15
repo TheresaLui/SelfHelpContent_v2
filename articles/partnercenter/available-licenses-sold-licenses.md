@@ -10,12 +10,12 @@
 	articleId="partnercenter_available_licenses_vs_sold_licenses"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635651,32725881"
+	supportTopicIds="32725881"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17012"
+	productPesIds="17012"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Available licenses vs. sold licenses
 
