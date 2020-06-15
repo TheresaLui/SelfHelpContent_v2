@@ -17,7 +17,7 @@
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "An alert fired when it should not have",
-    "fileAttachmentHint": "Please upload screenshots of all relevant details from the Azure portal and any additional information which may help the support engineer troubleshoot your issue.",
+    "fileAttachmentHint": "Please upload screenshots of all relevant details from the Azure portal.  Include any additional information which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
             "id": "problem_start_time",
