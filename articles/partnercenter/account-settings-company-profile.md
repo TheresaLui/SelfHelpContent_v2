@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Account settings - Company profile"
-	description="Account settings - Company profile"
+	pageTitle="Account settings - Company profile"
+	description="Account settings - Company profile"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -18,7 +18,7 @@
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Account settings - Company profile
+# Account settings - Company profile
 
 Information about company profile in partner center.
 
@@ -26,3 +26,4 @@ Information about company profile in partner center.
 
 * [Update your partner profile](https://docs.microsoft.com/partner-center/update-your-partner-profile)
 * [Update details for your Legal Business profile](https://support.microsoft.com/help/4512635/update-the-country-and-details-for-your-legal-business-profile-on-part)
+
