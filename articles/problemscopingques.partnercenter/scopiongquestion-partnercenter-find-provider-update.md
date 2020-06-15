@@ -5,7 +5,7 @@
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32739485,32725815,32725817"
-	productPesIds="17001"
+	productPesIds="17001,17011"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_update_provider_details"
