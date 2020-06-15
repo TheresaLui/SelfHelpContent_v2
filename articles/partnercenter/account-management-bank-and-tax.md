@@ -18,7 +18,7 @@
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Account management - Bank and Tax
+# Account management - Bank and Tax
 
 Information about Bank and Tax profiles
 
