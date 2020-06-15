@@ -1,22 +1,22 @@
 <properties
-	articleId="problemscopingques-issue-configuring-alert-rules-in-the-azure-portal-another-alert-type"
-	pageTitle="Issue configuring alert rules in the Azure portal"
-	description="Issue configuring alert rules in the Azure portal"
+	articleId="problemscopingques-issue-migrating-my-classic-alerts"
+	pageTitle="Issue migrating my classic alerts"
+	description="Issue migrating my classic alerts"
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32739802"
+	supportTopicIds="32739799, 32739800, 32739804, 32739805, 32739810, 32739803"
 	productPesIds="15454"
 	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ActionGroup"
 />
-# Issue configuring action groups or action rules in the Azure portal
+# Issue migrating my classic alerts
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Issue configuring action groups or action rules in the Azure portal",
+    "title": "Issue migrating my classic alerts",
     "fileAttachmentHint": "If possible, please upload screenshots of the error.  Include any additional information which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
@@ -25,29 +25,6 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start happening?",
             "required": false
-        },
-                },
-                        {
-            "id": "alert_type",
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "What kind of alert is having the problem?",
-            "watermarkText": "What kind of alert is having the problem?",
-            "required": true,
-            "dropdownOptions": [
-                {
-                    "value": "Budget alert",
-                    "text": "Budget alert"
-                },
-                {
-                    "value": "Autoscale notification",
-                    "text": "Autoscale notification"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "I don't know"
-                }
-            ]
         },
         {
             "id": "problem_description",
