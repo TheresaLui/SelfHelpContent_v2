@@ -2,7 +2,7 @@
        pageTitle="Request for MFA exception"
        description="Request for MFA exception"
        authors="brentserbus"
-       ms.author="brserbus"
+       ms.author="a-crmire"
        selfHelpType="problemScopingQuestions"
        supportTopicIds="32725807"
        productPesIds="17000"
