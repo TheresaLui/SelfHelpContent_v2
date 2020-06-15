@@ -16,7 +16,7 @@
 
 # Tools and management - PowerShell and SDK Experience
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Listing of the Logic Apps cmdlets](https://docs.microsoft.com/powershell/module/az.logicapp/?view=azps-3.8.0)
 - [Azure Logic Apps for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=VinaySinghMSFT.AzureLogicAppsToolsForVS2019)

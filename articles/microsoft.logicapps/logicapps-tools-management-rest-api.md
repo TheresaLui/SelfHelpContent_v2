@@ -18,7 +18,7 @@
 
 Representational State Transfer (REST) APIs are service endpoints that support sets of HTTP operations (methods), which provide create, retrieve, update, or delete access to the service's resources
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Azure Logic Apps REST Operation groups](https://docs.microsoft.com/rest/api/logic/)
 - [Azure REST API reference](https://docs.microsoft.com/rest/api/azure/)

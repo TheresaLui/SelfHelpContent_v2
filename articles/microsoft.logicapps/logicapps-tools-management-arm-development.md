@@ -18,7 +18,7 @@
 
 Create and deploy Logic Apps with Azure Resource Manager
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Create Azure Resource Manager templates to automate deployment for Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-azure-resource-manager-templates)
 - [Deploy Azure Resource Manager templates for Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-deploy-azure-resource-manager-templates)

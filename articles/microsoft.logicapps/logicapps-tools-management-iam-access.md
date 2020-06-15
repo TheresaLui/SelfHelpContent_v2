@@ -25,7 +25,7 @@ To access resources in other Azure Active Directory (Azure AD) tenants and authe
 - Azure API Management
 - Azure App Services
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Prerequisites](https://docs.microsoft.com/azure/logic-apps/create-managed-service-identity#prerequisites)
 - [Enable identity access to resources](https://docs.microsoft.com/azure/logic-apps/create-managed-service-identity)

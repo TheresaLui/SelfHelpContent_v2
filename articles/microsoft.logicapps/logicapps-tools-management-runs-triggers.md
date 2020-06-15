@@ -18,7 +18,7 @@
 
 After you create and run a logic app, you can check that logic app's run status, runs history, trigger history, and performance. To get notifications about failures or other possible problems, set up alerts
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Review runs history](https://docs.microsoft.com/azure/logic-apps/monitor-logic-apps#review-runs-history)
 - [Review trigger history](https://docs.microsoft.com/azure/logic-apps/monitor-logic-apps#review-trigger-history)

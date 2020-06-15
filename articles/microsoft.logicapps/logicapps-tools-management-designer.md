@@ -18,7 +18,7 @@
 
 Azure Logic Apps helps you simplify and implement scalable integrations and workflows in the cloud. You can model and automate your process visually as a series of steps known as a workflow in the Logic App Designer.   Portal designer is used to build a workflow.  
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Quickstart: Create your first workflow by using Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/quickstart-create-first-logic-app-workflow)
 - [Hand content types in Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-content-type)
