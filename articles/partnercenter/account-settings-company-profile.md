@@ -10,10 +10,10 @@
 	articleId="account_company_profile"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635659, 32725792"
+	supportTopicIds="32725792"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960, 17000"
+	productPesIds="17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
