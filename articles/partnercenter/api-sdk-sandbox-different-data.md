@@ -20,7 +20,7 @@
 
 # API data different than Partner Center portal
 
-Review how to test and debug troublshooting tips for using the Partner Center APIs and SDK.
+Review how to test and debug troubleshooting tips for using the Partner Center APIs and SDK.
 
 ## **Recommended Documents**
 
