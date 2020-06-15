@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-problemscopingques-an-alert-was-not-fired-when-it-should-another-alert-type"
+	articleId="problemscopingques-an-alert-was-not-fired-when-it-should-another-alert-type"
 	pageTitle="An alert was not fired when it should with another alert type"
 	description="An alert was not fired when it should with another alert type"
 	authors="neilghuman"
@@ -17,7 +17,7 @@
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "An alert was not fired when it should with another alert type",
-    "fileAttachmentHint": "Please upload screenshots of all relevant details from the Azure portal.  Include any any details outlining why the alert should have fired and additional information which may help the support engineer troubleshoot your issue.",
+    "fileAttachmentHint": "Please upload screenshots of all relevant details from the Azure portal.  Include any details outlining why the alert should have fired and additional information which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
             "id": "problem_start_time",

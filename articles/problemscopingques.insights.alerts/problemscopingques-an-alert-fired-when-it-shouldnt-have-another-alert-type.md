@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-problemscopingques-an-alert-fired-when-it-shouldnt-have-another-alert-type"
+	articleId="problemscopingques-an-alert-fired-when-it-shouldnt-have-another-alert-type"
 	pageTitle="An alert fired when it shouldn't have another alert type"
 	description="An alert fired when it shouldn't have another alert type"
 	authors="neilghuman"
