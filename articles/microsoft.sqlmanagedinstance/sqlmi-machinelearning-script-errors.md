@@ -1,7 +1,7 @@
 <properties
-	pageTitle="Machine Learning Services for SQL Managed Instance (Preview)/Other issue or 'How To' questions"
-	description="Machine Learning Services for SQL Managed Instance (Preview)/Other issue or 'How To' questions"
-	infoBubbleText="Machine Learning Services for SQL Managed Instance (Preview)/Other issue or 'How To' questions"
+	pageTitle="Machine Learning Services for SQL Managed Instance (Preview)/Script error or incorrect results"
+	description="Machine Learning Services for SQL Managed Instance (Preview)/Script error or incorrect results"
+	infoBubbleText="Machine Learning Services for SQL Managed Instance (Preview)/Script error or incorrect results"
 	service="microsoft.sql"
 	resource="servers"
 	authors="vitomaz-msft"
@@ -16,10 +16,6 @@
 	articleId="sqlmi-machinelearning-script-errors"
 	ownershipId="AzureData_AzureSQLMI"
 />
-
-# Other issue or 'How To' questions
-
-## **Recommended Steps**
 
 ### **Preview Limitations**
 Machine Learning Services is a feature of Azure SQL Managed Instance that's currently in public preview. This preview functionality is initially available in a limited number of regions in the US, Asia Europe, and Australia with additional regions being added later.
