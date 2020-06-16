@@ -376,8 +376,8 @@
     {
       "id": "afe7bec7-d37d-0453-f1f2-86974678b222",
       "longDescription": "",
-      "shortDescription": "I am trying to configure another type of alert rule (not mentioned above) but I do not know how to do it",
-      "searchTags": "Alerts;Alert rules;Alert rule configuration",
+      "shortDescription": "I am trying to configure another type of alert rule (not mentioned above) but not sure how to do it",
+      "searchTags": "Alerts;Alert rules;Alert rule configuration;UI",
       "category": "Alert rule configuration",
       "useInDiagnoseAndSolve": "true"
     },
