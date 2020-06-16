@@ -26,7 +26,7 @@
             "displayLabel": "Select the private endpoint associated with the Batch account",
             "watermarkText": "Choose a private endpoint",
             "dynamicDropdownOptions": {
-				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/privateEndpoints/{resourceName}?api-version=2020-05-01",
+				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Network/privateEndpoints/{resourceName}?api-version=2020-04-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
