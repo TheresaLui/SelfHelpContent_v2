@@ -401,7 +401,7 @@
       "id": "c5ed0546-8211-affd-84d9-8f91699ec24a",
       "longDescription": "",
       "shortDescription": "I am getting duplicate emails or automation runs after the migration of my classic alert rules",
-      "searchTags": "Alerts;Alert rules migration;Metric alerts (classic);Actions and notifications",
+      "searchTags": "Alerts;Alert rules migration;Metric alerts (classic);Actions;Notifications",
       "category": "Alert rules migration",
       "useInDiagnoseAndSolve": "true"
     },
