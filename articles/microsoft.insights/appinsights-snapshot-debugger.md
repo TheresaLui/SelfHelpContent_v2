@@ -20,58 +20,52 @@
 
 Sometimes even after enabling Application Insights Snapshot Debugger for your application, you still don’t see snapshots for exceptions, or they seem incorrect. There can be many different reasons why snapshots are not generated. Please see below recommended solutions:
 
-### **Recommended solutions**
+## **Recommended solutions**
 
-Exploring metrics requires *Microsoft.Insights* resource provider registered in your subscription. In many cases, it is registered automatically (that is, after you configure an alert rule, customize diagnostic settings for any resource, or configure an autoscale rule). If the Microsoft.Insights resource provider is not registered, you must manually register it by following steps described in [Azure resource providers and types](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-supported-services).
+### 1. **Ensure the Snapshot is enabled** 
 
-**Recommended Steps**
+* if Application is running in Azure App Service then follow the steps mentioned in this [link](https://docs.microsoft.com/en-us/azure/azure-monitor/app/snapshot-debugger-appservice) to ensure its enabled.
+* if your application requires a customized Snapshot Debugger configuration, or a preview version of .NET core, then [this instruction](https://docs.microsoft.com/en-us/azure/azure-monitor/app/snapshot-debugger-vm?toc=/azure/azure-monitor/toc.json) should be followed **in addition** to the instructions for [enabling through the Application Insights portal page](https://docs.microsoft.com/en-us/azure/azure-monitor/app/snapshot-debugger-appservice?toc=/azure/azure-monitor/toc.json).
+* if your application runs in Azure Service Fabric, Cloud Service, Virtual Machines, or on-premises machines verify that you have enabled its via steps [mentioned here](https://docs.microsoft.com/en-us/azure/azure-monitor/app/snapshot-debugger-vm). 
 
-* Open **Subscriptions**, **Resource providers** tab, and verify that *Microsoft.Insights* is registered for your subscription
+### 2. **Ensure the Snapshot is enabled** 
 
-### **You don't have sufficient access rights to your resource**
+* Access to snapshots is protected by role-based access control (RBAC). To inspect a snapshot, you must first be added to the necessary role by a subscription owner. Follow [this link](https://docs.microsoft.com/en-us/azure/azure-monitor/app/snapshot-debugger#grant-permissions) to ensure permissions. 
 
-In Azure, access to metrics is controlled by [role-based access control (RBAC)](https://docs.microsoft.com/azure/role-based-access-control/overview). You must be a member of [monitoring reader](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#monitoring-reader), [monitoring contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#monitoring-contributor), or [contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) to explore metrics for any resource.
+### 3. **Ensure the Snapshot is enabled** 
 
-**Recommended Steps**
+* Use the Snapshot Health Check to troubleshoot common problems like using an outdated Snapshot Collector, reaching the daily upload limit, or perhaps the snapshot is just taking a long time to upload. Follow the [instructions here](https://docs.microsoft.com/en-us/azure/azure-monitor/app/snapshot-debugger-troubleshoot) to use the health check.
 
-* Ensure that you have sufficient permissions for the resource from which you are exploring metrics
+### 4. **Ensure the Snapshot is enabled** 
 
-### **Your resource didn't emit metrics during the selected time range**
+* Make sure you're using the correct instrumentation key in your published application. Usually, the instrumentation key is read from the ApplicationInsights.config file. Verify the value is the same as the instrumentation key for the Application Insights resource that you see in the portal.
 
-Some resources don’t constantly emit their metrics. For example, Azure will not collect metrics for stopped virtual machines. Other resources might emit their metrics only when some condition occurs. For example, a metric showing processing time of a transaction requires at least one transaction. If there were no transactions in the selected time range, the chart will naturally be empty. Additionally, while most of the metrics in Azure are collected every minute, there are some that are collected less frequently. See the metric documentation to get more details about the metric that you are trying to explore.
+### 5. **Ensure the Snapshot is enabled** 
 
-**Recommended Steps**
+* Follow [this link](https://docs.microsoft.com/en-us/azure/azure-monitor/app/snapshot-debugger-troubleshoot#preview-versions-of-net-core) to get the latest version of the NuGet package
 
-* Change the time of the chart to a wider range. You may start from "Last 30 days" using a larger time granularity (or relying on the "Automatic time granularity" option)
+### 6. **Ensure the Snapshot is enabled** 
 
-### **You picked a time range greater than 30 days**
+* You can get details on how to check the uploader logs for your apps hosted on App Service and other environments [here](https://docs.microsoft.com/en-us/azure/azure-monitor/app/snapshot-debugger-troubleshoot#check-the-uploader-logs) .
 
-[Most metrics in Azure are stored for 93 days](https://docs.microsoft.com/azure/azure-monitor/platform/data-platform-metrics#retention-of-metrics). However, you can only query for no more than 30 days worth of data on any single chart. This limitation doesn't apply to [log-based metrics](https://docs.microsoft.com/azure/azure-monitor/app/pre-aggregated-metrics-log-metrics#log-based-metrics).
+### 7. **Ensure the Snapshot is enabled** 
 
-**Recommended Steps**
+* For roles in Cloud Services, the default temporary folder may be too small to hold the minidump files, leading to lost snapshots. The space needed depends on the total working set of your application and the number of concurrent snapshots. Get details on [this link](https://docs.microsoft.com/en-us/azure/azure-monitor/app/snapshot-debugger-troubleshoot#troubleshooting-cloud-services) to further troubleshoot.
 
-* If you see a blank chart or your chart only displays part of metric data, verify that the difference between start- and end- dates in the time picker doesn't exceed the 30-day interval
+### 8. **Ensure the Snapshot is enabled** 
 
-### **All metric values were outside of the locked y-axis range**
+* When the Snapshot Collector starts up, it tries to find a folder on disk that is suitable for running the Snapshot Uploader process. The chosen folder is known as the Shadow Copy folder. To work around any errors pertaining to Shadow Copy folder, follow [instruction in this link](https://docs.microsoft.com/en-us/azure/azure-monitor/app/snapshot-debugger-troubleshoot#overriding-the-shadow-copy-folder)
 
-By [locking the boundaries of chart y-axis](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-charts#lock-boundaries-of-chart-y-axis), you can unintentionally  make the chart display area not show the chart line. For example, if the y-axis is locked to a range between 0% and 50%, and the metric has a constant value of 100%, the line is always rendered outside of the visible area, making the chart appear blank.
+### 9. **Ensure the Snapshot is enabled** 
 
-**Recommended Steps**
+* When a snapshot is created, the throwing exception is tagged with a snapshot ID Using Search in Application Insights, you can find all telemetry with the ai.snapshot.id custom property. Follow [these instruction](https://docs.microsoft.com/en-us/azure/azure-monitor/app/snapshot-debugger-troubleshoot#use-application-insights-search-to-find-exceptions-with-snapshots)
 
-* Verify that the y-axis boundaries of the chart aren’t locked outside of the range of the metric values. If the y-axis boundaries are locked, you may want to temporarily reset them to ensure that the metric values don’t fall outside of the chart range. Locking the y-axis range isn’t recommended with automatic granularity for the charts with **sum**, **min**, and **max** aggregation because their values will change with granularity by resizing browser window or going from one screen resolution to another. Switching granularity may leave the display area of your chart empty.
+### 10. **Ensure the Snapshot is enabled** 
 
-### **You are looking at a VM Guest OS metric (for example, "Available memory") but didn’t enable Azure Diagnostic Extension**
-
-Collection of **Guest OS** metrics requires configuring the Azure Diagnostics Extension or enabling it using the **Diagnostic Settings** panel for your resource.
-
-**Recommended Steps**
-
-* If Azure Diagnostics Extension is enabled but you are still unable to see your metrics, follow steps outlined in [Azure Diagnostics Extension troubleshooting guide](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-troubleshooting#metric-data-doesnt-appear-in-the-azure-portal). See also the troubleshooting steps for [Cannot pick Guest OS namespace and metrics](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-troubleshoot#cannot-pick-guest-os-namespace-and-metrics).
+* If your application connects to the Internet via a proxy or a firewall, you may need to edit the rules to allow your application to communicate with the Snapshot Debugger service. The IPs used by Snapshot Debugger are included in the Azure Monitor service tag
 
 ## **Recommended Documents**
 
-* [Getting started with Azure Metrics Explorer](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-getting-started)<br>
-* [Advanced features of Azure Metrics Explorer](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-charts)<br>
-* [Troubleshooting metrics charts](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-troubleshoot)<br>
-* [See a list of available metrics for Azure services](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-supported)<br>
-* [See examples of configured charts](https://docs.microsoft.com/azure/azure-monitor/platform/metric-chart-samples)
+* [Snapshot Debugger Troubleshooting Guide](https://docs.microsoft.com/en-us/azure/azure-monitor/app/snapshot-debugger-troubleshoot)<br>
+* [Debug snapshots on exceptions in .NET apps](https://go.microsoft.com/fwlink/?linkid=848053)<br>
+* [Diagnose exceptions in your web apps with Application Insights.](https://go.microsoft.com/fwlink/?linkid=867931)<br>
