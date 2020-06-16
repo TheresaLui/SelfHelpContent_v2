@@ -10,12 +10,12 @@
 	articleId="indirect_direct_update_details"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32739485,32635706"
+	supportTopicIds="32692579,32725815,32725817,32739485"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="17011,15960"
+	productPesIds="17001,17011"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Analytics"
 />
 
 # Update details published on Find a Provider page

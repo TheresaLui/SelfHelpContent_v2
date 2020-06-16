@@ -10,12 +10,12 @@
 	articleId="partnercenter_mpn_benefits_technical_benefits"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635700,32725861"
+	supportTopicIds="32725861"
 	clientIds='partnercenter'
 	resourceTags="mpn"
-	productPesIds="15960,17007"
+	productPesIds="17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 # Technical Benefits request
 

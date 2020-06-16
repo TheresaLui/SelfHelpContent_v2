@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Polybase, R Services, Service Broker, Resource governor"
 	description="Polybase, R Services, Service Broker, Resource governor"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""
