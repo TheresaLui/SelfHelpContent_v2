@@ -337,7 +337,7 @@
       "id": "9e91c081-257e-7d53-cb93-d6dc9691a738",
       "longDescription": "",
       "shortDescription": "An activity log alert fired when it should not have ",
-      "searchTags": "Alerts;Activity Log Alerts",
+      "searchTags": "Alerts;Activity Log Alerts;Alert misfired",
       "category": "Alerts accuracy",
       "useInDiagnoseAndSolve": "true"
     },
