@@ -17,7 +17,7 @@
 	ownershipId="AzureData_AzureSQLMI"
 />
 
-**Preview Limitations**
+### **Preview Limitations**
 Machine Learning Services is a feature of Azure SQL Managed Instance that's currently in public preview. This preview functionality is initially available in a limited number of regions in the US, Asia Europe, and Australia with additional regions being added later.
 This preview version is provided without a service level agreement, and it's NOT recommended for production workloads. Certain features might not be supported or might have constrained capabilities.
 
@@ -30,16 +30,16 @@ During the preview, the service has the following limitations:
  
 For more details check: [Preview Limitations](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#preview-limitations)
  
-**How is Resource Governance Managed when we enable Machine Learning Services for Azure SQL Managed Instance**
+### **How is Resource Governance Managed when we enable Machine Learning Services for Azure SQL Managed Instance**
 It is not possible to limit R resources through Resource Governor and external resource pools.
 During the public preview, R resources are set to a maximum of 20% of the SQL Managed Instance resources, and depend on which service tier you choose. For more information, see Azure SQL Database purchasing models
 [Resource Governance](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#resource-governance)
  
-**What additional steps do I have to perform to use Machine Learning Services on Azure SQL Managed Instance**
+### **What additional steps do I have to perform to use Machine Learning Services on Azure SQL Managed Instance**
 There is no need to configure external scripts enabled via sp_configure. Once you are signed up for the preview, machine learning is enabled for your SQL database.
 In case of a Service Level Objective (SLO) update, please update the SLO and raise a support ticket to re-enable the dedicated resource limits for R/Python.
  
-**What if I get message "External script execution for 'R' script ran out of resources" or "A R' script error occurred during execution of 'sp_execute_external_script" ?**
+### **What if I get message "External script execution for 'R' script ran out of resources" or "A R' script error occurred during execution of 'sp_execute_external_script" ?**
   
 If there is insufficient memory available for R, you will get an error message. Common error messages are:
 Unable to communicate with the runtime for 'R' script for request id: *******. Please check the requirements of 'R' runtime
@@ -53,7 +53,7 @@ In case of a Service Level Objective (SLO) update, please update the SLO and rai
 [Script Errors due to insufficient Memory](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#insufficient-memory-error). 
  
  
-**Key differences between Machine Learning Services in Azure SQL Managed Instance and SQL Server**
+### **Key differences between Machine Learning Services in Azure SQL Managed Instance and SQL Server**
 The functionality of Machine Learning Services in Azure SQL Managed Instance (preview) is nearly identical to SQL Server Machine Learning Services , however the key differences are listed below
 [Key Differences](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#packages)
 
