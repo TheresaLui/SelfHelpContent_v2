@@ -26,7 +26,7 @@ Application map shows failures and a component as red based on a failure thresho
 
 * Application Map has a toggle for filtering out errors 4xx class error codes. Switch the toggle to on to exclude these 400 class errors from your application map.
 
-![appmap image](https://docs.microsoft.com/azure/azure-monitor/platform/media/metrics-troubleshoot/missing-data-point-line-chart.png)
+![appmap image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/app-insights/application-map-indicates-failure-but-my-app-works.png)
 
 ### 2. **Go to failure blade to investigate failures** 
 

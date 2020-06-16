@@ -20,11 +20,11 @@
 
 A dependency is an external component that is called by your application. It's typically a service called using HTTP, or a database, or a file system. Sometimes, they fail to show up on a map for various reasons below:
 
-![appmap image](https://docs.microsoft.com/azure/azure-monitor/platform/media/metrics-troubleshoot/missing-data-point-line-chart.png)
+![appmap image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/app-insights/application-map-dependencies.png)
 
 ## **Recommended solutions**
 
-### 1. **Check Auto collected dependency ** 
+### 1. **Check Auto collected dependency** 
 
 * If you're missing a dependency, make sure it's in the list of [auto-collected dependencies](https://docs.microsoft.com/azure/application-insights/auto-collect-dependencies). This page gives list of dependency calls that are automatically detected as dependencies without requiring any additional modification to your application's code.
 
@@ -49,8 +49,9 @@ A dependency is an external component that is called by your application. It's t
     * If you're using Azure Functions with C#, upgrade to [Functions V2](https://docs.microsoft.com/azure/azure-functions/functions-versions)
 * If you don’t see Z (async across a queue): This is not supported currently. If X and Z are in the same resource group, as a workaround you can use the map in the [resource group insights experience](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/resource-group-insights#diagnose-issues-in-your-resource-group).
 
-![appmap image](https://docs.microsoft.com/azure/azure-monitor/platform/media/metrics-troubleshoot/missing-data-point-line-chart.png)
+![appmap dependency image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/app-insights/application-map-doesnt-show-data-from-related-resources.png)
 
+### 5. **Check Cloud RoleName configuration****
 * If dependencies are application components, modeled as different roles
 within the same AI resource: Confirm [cloud_RoleName](https://docs.microsoft.com/azure/azure-monitor/app/app-map#Set-cloud-RoleName) is correctly configured.
 

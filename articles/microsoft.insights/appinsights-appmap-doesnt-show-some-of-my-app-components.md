@@ -20,7 +20,7 @@
 
 Application map displays your app components and dependencies. These app components are independently deployable parts of your distributed/microservices application and can be within the same AI resource or a different AI resource. Sometimes, they fail to show up on a map for various reasons below:
 
-![appmap image](https://docs.microsoft.com/azure/azure-monitor/platform/media/metrics-troubleshoot/missing-data-point-line-chart.png)
+![appmap image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/app-insights/application-map-doesnt-show-some-of-my-app-components.png)
 
 ## **Recommended solutions**
 

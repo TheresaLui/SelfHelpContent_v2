@@ -22,7 +22,7 @@ Application Map shows the dependency relationships between your application comp
 
 In the diagram below, X, Y and Z are 3 components with dependency relationships between them. If your Application Map for X does not show Y or Z, follow the steps below to diagnose.
 
-![appmap image](https://docs.microsoft.com/azure/azure-monitor/platform/media/metrics-troubleshoot/missing-data-point-line-chart.png)
+![appmap image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/app-insights/application-map-doesnt-show-data-from-related-resources.png)
 
 ## **Recommended solutions**
 
