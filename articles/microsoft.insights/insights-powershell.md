@@ -27,10 +27,20 @@ Application Insights has a variety of PowerShell cmdlets that help automate comm
 * To manage your Application Insights resource’s Continuous Export rules, use **Get-AzApplicationInsightsContinuousExport**, **Set-AzApplicationInsightsContinuousExport**, **New-AzApplicationInsightsContinuousExport**, and **Remove-AzApplicationInsightsContinuousExport**
 * To manage your Application Insights resource’s API keys using **Get-AzApplicationInsightsApiKey**, **New-AzApplicationInsightsApiKey**, and **Remove-AzApplicationInsightsApiKey**
 
-Review the [Manage Application Insights using PowerShell](https://docs.microsoft.com/azure/azure-monitor/app/powershell) doc for more information
+Review the [Manage Application Insights using PowerShell](https://docs.microsoft.com/azure/azure-monitor/app/powershell) doc for more information.
+
+**How to work with Application Insights resources using an ARM template?**<br>
+
+1. Review the [Deploy resources with templates](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-template-deploy) guide.
+2. Review the [Create Application Insights resources using an ARM template](https://docs.microsoft.com/azure/azure-monitor/app/powershell#create-application-insights-resources-using-a-resource-manager-template) doc
+
+**How do I troubleshoot issues using the Application Insights ARM template?**
+
+If you’re getting an error using the Application Insights ARM template, [this page](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors) will guide you through steps to understand and mitigate the error. 
 
 ## **Recommended Documents**
 
 * [Deploy resources with templates](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-template-deploy)
 * [Manage Application Insights using PowerShell](https://docs.microsoft.com/azure/azure-monitor/app/powershell)
+* [Create Application Insights resources using an ARM template](https://docs.microsoft.com/azure/azure-monitor/app/powershell#create-application-insights-resources-using-a-resource-manager-template)
 * [Deployment Errors](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors)
