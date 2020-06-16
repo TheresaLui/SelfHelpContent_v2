@@ -10,8 +10,7 @@
     productPesIds="15693"
     supportTopicIds="32729585,32729584,32729583"
     cloudEnvironments="public, Fairfax, usnat, ussec"
- 	articleId="ca41db6f-2d4b-455e-8cbe-8152fc10fb1a"
-	ownershipId="AzureMonitoring_ApplicationInsights"
+	 ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
 # End-to-end transaction details data is incorrect or incomplete
