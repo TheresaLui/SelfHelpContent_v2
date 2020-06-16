@@ -10,12 +10,12 @@
 	articleId="api_sdk_sandbox_errors"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635670"
+	supportTopicIds="32692598,32725821"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17002"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_API_and_Integration_Support"
 />
 
 # Errors while using Partner Center API

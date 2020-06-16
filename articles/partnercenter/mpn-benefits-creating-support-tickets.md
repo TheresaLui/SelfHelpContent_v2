@@ -15,7 +15,7 @@
 	resourceTags="csp"
 	productPesIds="17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 
 # MPN - Creating technical support tickets on behalf of customers
