@@ -21,7 +21,7 @@
 
 Most users are able to resolve portal access issues using the steps below.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 To access the Cloud App Security portal, make sure that:
 

@@ -27,7 +27,7 @@ Most users are able to resolve the following issues using the steps below:
 - My native app is not recognized
 - I cannot configure controls for my native app
 
-## **Recommended steps**
+## **Recommended Steps**
 
 - Make sure that you are enforcing access controls and not session controls
 
@@ -39,7 +39,7 @@ Most users are able to resolve the following issues using the steps below:
     **NOTE**  
     The Authenticator app, among other native client app sign-in flows, uses a non-interactive sign-in flow and cannot be used with access controls.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Overview of Conditional Access App Control](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
 - [Supported Apps and Clients](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients)

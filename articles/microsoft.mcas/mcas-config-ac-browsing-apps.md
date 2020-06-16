@@ -1,6 +1,6 @@
 <properties
-  pageTitle="I’m having issues with session controls while browsing a protected app"
-  description="I’m having issues with session controls while browsing a protected app"
+  pageTitle="I'm having issues with session controls while browsing a protected app"
+  description="I'm having issues with session controls while browsing a protected app"
   infoBubbleText=""
   service="microsoft.mcas"
   resource=""
@@ -17,7 +17,7 @@
   cloudEnvironments="public"
 />
 
-# I’m having issues with session controls while browsing a protected app
+# I'm having issues with session controls while browsing a protected app
 
 Browsing a protected app that has been secured using session controls allows a user to access a web-based app while restricting actions such as copy, cut, paste, download, upload, and some custom activities.
 
@@ -26,9 +26,9 @@ Most users are able to resolve the following issues using the steps below:
 - Blocking an action is not enforced
 - My app is missing functionality or is unresponsive
 
-## **Recommended steps**
+## **Recommended Steps**
 
-- Verify that session controls are enforced by checking that `*.cas.ms` is appended to the URL.
+- Verify that session controls are enforced by checking that `*.cas.ms` is appended to the URL
 - Make sure you are using sessions controls with a web-based app
 
     **NOTE**  
@@ -36,7 +36,7 @@ Most users are able to resolve the following issues using the steps below:
 - In your Azure Active Directory Conditional Access policy, under **Sessions**, clear **Conditional Access App Control**. If the issue persists, open a ticket for the relevant app.
 - If you are using a Cloud App Security session policy, in your Azure AD Conditional Access policy, under **Sessions**, make sure that **Use Custom Policy** is selected.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Overview of Conditional Access App Control](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
 - [Session Controls](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#how-session-control-works)

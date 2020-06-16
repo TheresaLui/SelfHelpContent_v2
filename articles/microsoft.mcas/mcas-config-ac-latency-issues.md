@@ -29,7 +29,7 @@ When investigating performance and latency issues, it’s important to understan
 
 Most users are able to resolve the issues using the steps below.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 - Investigate what other factors outside of the Cloud App Security proxy could be impacting the performance, such as:
   
@@ -47,7 +47,7 @@ Most users are able to resolve the issues using the steps below.
         - Apple Safari (latest)
     - We will continue to support the latest version of Internet Explorer and the legacy version of Microsoft Edge, but the support will be limited and we recommend using one of the fully-supported browsers.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Overview of Conditional Access App Control](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
 - [Session Controls](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#how-session-control-works)

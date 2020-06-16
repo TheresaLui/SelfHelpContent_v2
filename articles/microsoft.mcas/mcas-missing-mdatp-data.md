@@ -21,7 +21,7 @@
 
 Most users are able to resolve missing Microsoft Defender Advanced Threat Protection (ATP) data issues using the steps below.
 
-## **Recommended steps**
+## **Recommended Steps**
 
 1. Make sure that sufficient time has passed for traffic information to be collected. If you recently enabled the Microsoft Defender ATP integration, it takes up to two hours for the data to show up in Cloud App Security.
 

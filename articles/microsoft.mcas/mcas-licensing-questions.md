@@ -21,7 +21,7 @@
 
 Most users are able to address licensing questions using the information below.
 
-## **Recommended documents**
+## **Recommended Documents**
 
 **What license do I need to use Cloud App Security?**
 
