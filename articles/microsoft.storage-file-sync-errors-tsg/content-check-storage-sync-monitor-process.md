@@ -17,12 +17,6 @@
 
 # How to check if the Storage Sync Monitor process is running
 
-
-**Problem**
-
-1: When I view the status of a server under Registered Servers, the server has a status of "Appears offline."
-2: When I view the health of a server endpoint, the health status is "No Activity."
-
-**Cause**
-
-1: This issue can occur if the Storage Sync Monitor process is not running or the server is unable to communicate with our service due to a proxy or firewall.
+1. When you view the status of a server under Registered Servers, the server has a status of "Appears offline." OR
+2. When I view the health of a server endpoint, the health status is "No Activity."
+3. This issue can occur if the Storage Sync Monitor process is not running or the server is unable to communicate with our service due to a proxy or firewall.
