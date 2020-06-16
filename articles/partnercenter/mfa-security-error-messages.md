@@ -10,10 +10,10 @@
 	articleId="partner_center_mfa_security_error_messages"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32674992"
+	supportTopicIds="32725797"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />

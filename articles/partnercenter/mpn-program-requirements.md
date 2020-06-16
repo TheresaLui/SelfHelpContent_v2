@@ -10,10 +10,10 @@
 	articleId="mpn_program_requirements"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32681431, 32728292"
+	supportTopicIds="32728292"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960, 17000"
+	productPesIds="17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
