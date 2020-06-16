@@ -145,7 +145,7 @@
       "id": "3186f061-e2cb-e48e-e25d-22ae36bc3f7f",
       "longDescription": "",
       "shortDescription": "I need to increase my quota of activity log alert rules ",
-      "searchTags": "Alerts;Activity log alerts",
+      "searchTags": "Alerts;Activity log alerts;Alert rules quota",
       "category": "Alert rules quota",
       "useInDiagnoseAndSolve": "true"
     },
