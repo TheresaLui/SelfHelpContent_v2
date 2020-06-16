@@ -17,6 +17,8 @@
 
 # How to check for File Sync errors
 
+To check for file sync errors, follow this navigation in the Azure Portal
+
 1. Azure portal > Storage Sync Service > Registered Servers > State.
 2. ASC > resource explorer > Microsoft.StorageSync > Registered Servers > Status.
 3. View the health of a server endpoint Registered Servers status.

@@ -18,15 +18,14 @@
 # Escalation
 
 <!--issueDescription-->
-You've reached this page because the TSG did not have the ability to solve your case. We suggest using the feedback link below to describe the circumstances of your case so they can be accounted for in future revisions of this TSG.
+You've reached this page because the TSG did not have the ability to solve your case. We suggest using the feedback link below to describe the circumstances of your case so they can be accounted for in future revisions of this TSG.<br>
+<br>
+If this TSG was not able to solve your issue and you are still experiencing issues, please leverage the following resources:<br>
 
-If this TSG was not able to solve your issue and you are still experiencing issues, please leverage the following resources:
-
-1. Make an AVA Bot post in the Storage SME File Sync Services channel
-2. Get advisement from your TA or peers
-3. Create an IcM to Xstore EEE
-4. If you reached this page by mistake, please click the Start Over button to start the TSG from the beginning. Otherwise, you can close this window.
-
+1. Make an AVA Bot post in the Storage SME File Sync Services channel<br>
+2. Get advisement from your TA or peers<br>
+3. Create an IcM to Xstore EEE<br>
+4. If you reached this page by mistake, please click the Start Over button to start the TSG from the beginning. Otherwise, you can close this window.<br>
 
 <!--/issueDescription-->
 
