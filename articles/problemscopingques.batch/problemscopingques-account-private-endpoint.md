@@ -40,7 +40,7 @@
         },
 		{
             "id": "private_endpoint_id_selection",
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Select the private endpoint associated with the Batch account",
             "watermarkText": "Choose a private endpoint",
@@ -59,14 +59,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
