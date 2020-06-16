@@ -17,6 +17,8 @@
 	ownershipId="AzureData_AzureSQLMI"
 />
 
+# Other issue or 'How To' questions
+
 ### **How do I sign up for the Preview?**
 In your request, state that you would like to be enrolled into limited public preview of Machine Learning for SQL Managed Instance with these details: logical server name, region, and subscription ID.
 Once you're enrolled in the program, Microsoft will onboard you to the public preview and enable Machine Learning Services for your existing or new database.

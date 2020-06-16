@@ -17,6 +17,8 @@
 	ownershipId="AzureData_AzureSQLMI"
 />
 
+# Performance issues and timeouts
+
 ### **Preview Limitations**
 Machine Learning Services is a feature of Azure SQL Managed Instance that's currently in public preview. This preview functionality is initially available in a limited number of regions in the US, Asia Europe, and Australia with additional regions being added later.
 This preview version is provided without a service level agreement, and it's NOT recommended for production workloads. Certain features might not be supported or might have constrained capabilities.
