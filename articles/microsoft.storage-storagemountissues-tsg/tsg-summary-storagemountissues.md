@@ -15,4 +15,4 @@
 
 # Storage Mount Issues
 
-This troubleshooter will guide you to find the root cause and resolution for Storage Files Mount Issues.
+This troubleshooter will guide you to find the root cause and resolution for Storage Files Mount Issues
