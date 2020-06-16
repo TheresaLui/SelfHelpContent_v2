@@ -51,11 +51,9 @@ CloudStorageAccount storageAccount = CloudStorageAccount.Parse('DefaultEndpoints
  }
 ```
 
-    
-
-
 **Recommended Documents**
-<br><a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-security-tls#enable-tls-12-in-net-client">https://docs.microsoft.com/en-us/azure/storage/common/storage-security-tls#enable-tls-12-in-net-client</a></br>
+
+[https://docs.microsoft.com/azure/storage/common/storage-security-tls#enable-tls-12-in-net-client](https://docs.microsoft.com/azure/storage/common/storage-security-tls#enable-tls-12-in-net-client)
 
 <!---
 

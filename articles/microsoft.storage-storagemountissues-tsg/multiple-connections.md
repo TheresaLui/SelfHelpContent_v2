@@ -17,7 +17,7 @@
 
 **Symptom**
 
-Error: 'Multiple connections to a server or shared resource by the same user, using more that one user name, are not allowed' when access the mounted File share drive.
+Error: 'Multiple connections to a server or shared resource by the same user, using more that one user name, are not allowed' when access the mounted File share drive
 
 **Resolution**
 

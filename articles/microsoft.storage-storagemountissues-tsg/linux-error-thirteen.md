@@ -21,8 +21,8 @@ Wrong username and/or password
 
 **Resolution**
 
-1. For Mount Error 13, verify the username and password.
-2. The username should be the name of the storage account, and the password has to be the correct Storage Account key.
+1. For Mount Error 13, verify the username and password
+2. The username should be the name of the storage account, and the password has to be the correct Storage Account key
 
     Example:
     ```bash

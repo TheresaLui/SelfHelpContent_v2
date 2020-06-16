@@ -18,13 +18,13 @@
 
 **How to check for OS compatibility**
 
-1. Windows: To mount an Azure file share outside of the Azure region it is hosted in, such as on-premises or in a different Azure region, the client's OS must support SMB 3.0 with encryption.
+1. **Windows:** To mount an Azure file share outside of the Azure region it is hosted in, such as on-premises or in a different Azure region, the client's OS must support SMB 3.0 with encryption
 
         Check the following table to see if the client that you used to mount the file share supports SMB 3.0
 
-2. Linux: To mount an Azure file share outside of the Azure region it is hosted in, such as on-premises or in a different Azure region, the clients OS must support SMB 3.0 with encryption.
+2. **Linux:** To mount an Azure file share outside of the Azure region it is hosted in, such as on-premises or in a different Azure region, the clients OS must support SMB 3.0 with encryption
 
-        SMB 3.0 encryption support was introduced in Linux kernel version 4.11.
+        SMB 3.0 encryption support was introduced in Linux kernel version 4.11
 
 **Client: SMB Version Supported Table**
 
@@ -35,7 +35,7 @@
 5. Windows 8.1: SMB 3.0
 6. Windows 10 (versions 1507, 1607, 1703, and 1709.): SMB 3.0
 7. Windows Server 2016: SMB 3.0
-8. Windows Server Semi-Annual Channel. (Windows Server Semi-Annual Channel, version 1709): SMB 3.0
+8. Windows Server Semi-Annual Channel (version 1709): SMB 3.0
 9. Ubuntu Server 14.04+: SMB 2.1 and 3.0
 10. CentOS 7+: SMB 2.1 and 3.0
 11. Open SUSE 13.2+: SMB 2.1 and 3.0

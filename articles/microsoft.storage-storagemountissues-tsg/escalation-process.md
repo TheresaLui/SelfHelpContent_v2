@@ -28,11 +28,11 @@ If this TSG was not able to solve your issue and you are still experiencing issu
 
 **Recommended Documents**
 
-1. <a href="https://teams.microsoft.com/l/channel/19%3a359d3e19232242b48286d8076579389f%40thread.skype/File%2520Sync%2520Services%2520-%2520All%2520Topics?groupId=082ae864-dfc1-4ae5-b096-6e1e878b339e&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47">AVA Channel</a>
+1. [AVA Channel](https://teams.microsoft.com/l/channel/19%3a359d3e19232242b48286d8076579389f%40thread.skype/File%2520Sync%2520Services%2520-%2520All%2520Topics?groupId=082ae864-dfc1-4ae5-b096-6e1e878b339e&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47)
 2. Collect network trace of Azure File Share (AFS) mount operation and follow suggestions in below TSG:
     1. [Advanced troubleshooting (Win)](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265557/Azure_Storage_Azure-Files-Performance-Workflow?anchor=advanced-troubleshooting-(win))
     2. [Advanced troubleshooting (Linux)](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/265557/Azure_Storage_Azure-Files-Performance-Workflow?anchor=advanced-troubleshooting-(linux))
-3. <a href="http://aka.ms/cri-xeee">Create an ICM to Xstore EEE</a>
+3. [Create an ICM to Xstore EEE](http://aka.ms/cri-xeee)
 
 
 
