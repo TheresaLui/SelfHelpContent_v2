@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "93e1fc55-3711-45e9-978d-15e98f262213",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with overage invoice clarifications and marketplace invoice clarifications",
+      "searchTags": " overage invoice clarifications;marketplace invoice clarifications",
+      "category": "Enrollment Invoicing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b8b5c9b7-0f05-148f-9aee-00703d7171a0",
       "longDescription": "",
       "shortDescription": "Questions or need assistance with signing into the EA portal",
