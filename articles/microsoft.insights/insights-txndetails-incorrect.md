@@ -1,6 +1,6 @@
 <properties 
-    pageTitle="End-to-end transaction details data isn't correlated across services"
-    description="End-to-end transaction details data isn't correlated across services"
+    pageTitle="End-to-end transaction details data is incorrect or incomplete"
+    description="End-to-end transaction details data is incorrect or incomplete"
     service="microsoft.insights"
     resource="components"
     authors="osvaldorosado"
@@ -14,7 +14,7 @@
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
-# End-to-end transaction details data isn't correlated across services
+# End-to-end transaction details data is incorrect or incomplete
 
 ## **Recommended Steps**
 
@@ -26,3 +26,4 @@ If you can see data from your services in Application Insights, but aren't getti
    - If you're using Azure Functions with C#, upgrade to [Functions V2](https://docs.microsoft.com/azure/azure-functions/functions-versions)
 5. If some transactions are complete, but not all, [double-check your sampling settings](https://docs.microsoft.com/azure/application-insights/app-insights-sampling). By default, adaptive sampling generally only occurs at higher traffic volumes
    - If sampling is in effect but cannot be reduced, make sure to select the **"Suggested"** result when opening a transaction from Performance or Failures. The suggested transaction is least likely to be impacted by sampling.
+6. If you're missing a dependency, make sure it's in the list of [auto-collected dependencies](https://docs.microsoft.com/azure/application-insights/auto-collect-dependencies). If not, you can still track it manually with a [track dependency call](https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics#trackdependency).

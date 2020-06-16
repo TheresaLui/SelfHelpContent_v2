@@ -8,7 +8,7 @@
     displayOrder="1"
     selfHelpType="resource"
     productPesIds="15693"
-    supportTopicIds="32402629,32402626,32602225,32632988,32632990,32729585,32729584,32729583"
+    supportTopicIds="32402629,32402626,32602225,32632988,32632990"
     cloudEnvironments="public, Fairfax, usnat, ussec"
  	articleId="ca41db6f-2d4b-455e-8cbe-8152fc10fb1a"
 	ownershipId="AzureMonitoring_ApplicationInsights"
