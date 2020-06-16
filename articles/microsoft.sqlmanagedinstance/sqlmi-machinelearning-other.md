@@ -33,11 +33,11 @@ The onboarding dates for each region are:
  
 ### **Is the Preview Available for Azure SQL Database as well?**
 No. This preview is available only for Azure SQL Managed Instance.
-As of 30 June 2020, support will be discontinued for Azure SQL Database , Machine Learning Services with R (preview) - and the preview will not be released for general availability. R scripts in use after 30 June 2020 will not work. To continue working with machine learning in Azure SQL, sign up for Machine Learning Services in Azure SQL Managed Instance (preview).
+As of 30 June 2020, support will be discontinued for Azure SQL Database, Machine Learning Services with R (preview) - and the preview will not be released for general availability. R scripts in use after 30 June 2020 will not work. To continue working with machine learning in Azure SQL, sign up for Machine Learning Services in Azure SQL Managed Instance (preview).
 [Discontinued Preview](https://docs.microsoft.com/azure/azure-sql/database/machine-learning-services-overview)
  
 ### **Preview Limitations**
-Machine Learning Services is a feature of Azure SQL Managed Instance that's currently in public preview. This preview functionality is initially available in a limited number of regions in the US, Asia Europe, and Australia with additional regions being added later.
+Machine Learning Services is a feature of Azure SQL Managed Instance that's currently in public preview. This preview functionality is initially available in a limited number of regions in the US, Asia, Europe, and Australia with additional regions being added later.
 This preview version is provided without a service level agreement, and it's NOT recommended for production workloads. Certain features might not be supported or might have constrained capabilities.
 
 During the preview, the service has the following limitations:
@@ -73,7 +73,7 @@ In case of a Service Level Objective (SLO) update, please update the SLO and rai
  
  
 ### **Key differences between Machine Learning Services in Azure SQL Managed Instance and SQL Server**
-The functionality of Machine Learning Services in Azure SQL Managed Instance (preview) is nearly identical to SQL Server Machine Learning Services , however the key differences are listed below
+The functionality of Machine Learning Services in Azure SQL Managed Instance (preview) is nearly identical to SQL Server Machine Learning Services, however the key differences are listed below
 [Key Differences](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#packages)
 
 
