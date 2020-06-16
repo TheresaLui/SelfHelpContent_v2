@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8c2bdff7-9b5f-9c2a-0ae4-83944dc7ff25",
+      "longDescription": "",
+      "shortDescription": "Need assistance with adding or removing notification contact or updating notification frequency in the portal",
+      "searchTags": "Notification contact;Update notification frequency",
+      "category": "Notifications",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b8b5c9b7-0f05-148f-9aee-00703d7171a0",
       "longDescription": "",
       "shortDescription": "Questions or need assistance with signing into the EA portal",
