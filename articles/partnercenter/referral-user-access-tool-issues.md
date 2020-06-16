@@ -10,10 +10,10 @@
 	articleId="partnercenter_referral user access and tool issues"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32641060,32728151"
+	supportTopicIds="32728151"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17004"
+	productPesIds="17004"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Cosell"
 />

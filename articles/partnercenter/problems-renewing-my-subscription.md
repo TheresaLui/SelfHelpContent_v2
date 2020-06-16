@@ -10,12 +10,12 @@
 	articleId="partnercenter_problems_renewing_my_subscription"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635690"
+	supportTopicIds="32725895"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17012"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Problems renewing my subscription
 
