@@ -10,15 +10,15 @@
 	articleId="account_management_bankandtax"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32728066,32689327"
+	supportTopicIds="32728066"
 	clientIds='partnercenter'
 	resourceTags="marketplace"
-	productPesIds="17000,15960"
+	productPesIds="17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Account management - Bank and Tax
+# Account management - Bank and Tax
 
 Information about Bank and Tax profiles
 

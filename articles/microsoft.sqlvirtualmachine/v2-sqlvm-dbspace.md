@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Database Space Issues"
 	description="Database Space Issues"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""

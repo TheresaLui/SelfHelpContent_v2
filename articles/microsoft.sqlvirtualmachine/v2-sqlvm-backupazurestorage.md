@@ -1,8 +1,8 @@
 <properties
 	pageTitle="SQL Server database backup to Azure storage"
 	description="SQL Server database backup to Azure storage"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""
