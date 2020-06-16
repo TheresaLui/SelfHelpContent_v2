@@ -31,7 +31,7 @@ Review the [Manage Application Insights using PowerShell](https://docs.microsoft
 
 **How to work with Application Insights resources using an ARM template?**<br>
 
-1. Review the [Deploy resources with templates](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-template-deploy) guide.
+1. Review the [Deploy resources with templates](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-template-deploy) guide
 2. Review the [Create Application Insights resources using an ARM template](https://docs.microsoft.com/azure/azure-monitor/app/powershell#create-application-insights-resources-using-a-resource-manager-template) doc
 
 **How do I troubleshoot issues using the Application Insights ARM template?**
