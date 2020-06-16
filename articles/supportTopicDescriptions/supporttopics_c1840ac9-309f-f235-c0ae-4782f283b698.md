@@ -241,7 +241,7 @@
       "id": "5b733ca5-08b9-fce3-7d2c-7637d7f6ed9c",
       "longDescription": "",
       "shortDescription": "A metric alert fired when it should not have ",
-      "searchTags": "Alerts;Metric Alerts",
+      "searchTags": "Alerts;Metric Alerts;Alert misfired",
       "category": "Alerts accuracy",
       "useInDiagnoseAndSolve": "true"
     },
