@@ -15,6 +15,11 @@
     "resourceRequired": false,
     "title": "Problem with AAD Domain services vnet",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+        "title": "PREVIEW: Get help from our intelligent knowledge base",
+        "description": "Our self-service troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "We did not find a match for your specific problem in our knowledge base. See links below for other info that may address your problem."
+    },
     "formElements": [
         {
             "id": "whichUser",
@@ -51,7 +56,7 @@
             "numberOfLines": 2
         },
         {
-            "id": "problem",
+            "id": "userInput",
             "visibility": null,
             "order": 3,
             "controlType": "multilinetextbox",
@@ -65,7 +70,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 2
+            "numberOfLines": 2,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "symptoms",

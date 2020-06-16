@@ -2,7 +2,7 @@
 	 description="addomainservicesconfigurationandmanagement"
 	 authors="anupnadigm"
 	 selfHelpType="problemScopingQuestions"
-	 supportTopicIds="32447390"
+	 supportTopicIds="32447390,32570967"
 	 productPesIds="14785,16578"
 	 cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	 schemaVersion="1"
@@ -15,6 +15,11 @@
     "resourceRequired": false,
     "title": "Problem with AAD Domain services configuration management",
     "fileAttachmentHint": null,
+    "diagnosticCard": {
+        "title": "PREVIEW: Get help from our intelligent knowledge base",
+        "description": "Our self-service troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "We did not find a match for your specific problem in our knowledge base. See links below for other info that may address your problem."
+    },
     "formElements": [
         {
             "id": "whichUser",
@@ -51,11 +56,11 @@
             "numberOfLines": 2
         },
         {
-            "id": "problem",
+            "id": "userInput",
             "visibility": null,
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "What is the user trying to accomplish?",
+            "displayLabel": "What task do you need to accomplish?",
             "content": null,
             "watermarkText": "Examples: trying to configure Azure AD Domain Services, trying to integrate an app to Azure AD Domain Services.",
             "infoBalloonText": null,
@@ -65,7 +70,8 @@
             "required": false,
             "maxLength": 0,
             "useAsAdditionalDetails": false,
-            "numberOfLines": 2
+            "numberOfLines": 2,
+            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "symptoms",

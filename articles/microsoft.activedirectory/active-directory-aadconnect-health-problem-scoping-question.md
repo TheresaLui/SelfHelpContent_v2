@@ -4,7 +4,7 @@
     authors="hsku"
     ms.author="hsku"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32689664,32689665,32689666,32689668,32684522,32684507,32684508,32684512,32684521,32689667"
+    supportTopicIds="32689664,32689665,32689666,32689668"
     productPesIds="16666"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
