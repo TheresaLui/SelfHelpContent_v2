@@ -345,8 +345,8 @@
       "id": "9ea694c8-0231-4556-1b4c-113d59151b81",
       "longDescription": "",
       "shortDescription": "A metric alert should have fired but I do not see it in the Azure portal",
-      "searchTags": "Alerts;Metric Alerts;Alert Not Fired",
-      "category": "Alerts Accuracy",
+      "searchTags": "Alerts;Metric Alerts;Alert not fired",
+      "category": "Alerts accuracy",
       "useInDiagnoseAndSolve": "true"
     },
     {
