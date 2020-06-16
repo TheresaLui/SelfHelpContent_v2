@@ -69,12 +69,12 @@ An external script error occurred: Error: cannot allocate vector of size.>
  
 Memory usage depends on how much is used in your R scripts and the number of parallel queries being executed. If you receive the errors above, you can scale your database to a higher service tier to resolve this. 
 In case of a Service Level Objective (SLO) update, please update the SLO and raise a support ticket to re-enable the dedicated resource limits for R/Python.
-[Script Errors due to insufficient Memory](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#insufficient-memory-error). 
+[Script errors due to insufficient memory](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#insufficient-memory-error). 
  
  
 ### **Key differences between Machine Learning Services in Azure SQL Managed Instance and SQL Server**
 The functionality of Machine Learning Services in Azure SQL Managed Instance (preview) is nearly identical to SQL Server Machine Learning Services, however the key differences are listed below
-[Key Differences](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#packages)
+[Key differences](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#packages)
 
 
 ## **Recommended Documents**
