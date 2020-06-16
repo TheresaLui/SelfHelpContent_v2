@@ -14,6 +14,8 @@
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
+# I need help configuring Application Insights using ARM templates
+
 **How to work with Application Insights resources using an ARM template?**<br>
 
 1. Review the [Deploy resources with templates](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-template-deploy) guide.
