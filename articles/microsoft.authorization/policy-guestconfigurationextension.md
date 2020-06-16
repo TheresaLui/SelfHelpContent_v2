@@ -18,7 +18,7 @@
 # Azure Policy - Guest Configuration extension and client
 
 For Azure Policy to audit settings inside a machine, a
-[virtual machine extension](../../../virtual-machines/extensions/overview.md)
+[virtual machine extension](https://docs.microsoft.com/azure/virtual-machines/extensions/overview)
 is enabled. The extension downloads applicable policy assignment and the corresponding configuration definition.
 
 The Guest Configuration extension is required to perform audits in Azure virtual machines. To
