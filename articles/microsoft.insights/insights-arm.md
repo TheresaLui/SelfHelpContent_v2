@@ -5,7 +5,7 @@
     resource="components"
     authors="osvaldorosado"
     ms.author="osrosado"
-    articleId="insights-powershell"
+    articleId="insights-arm"
     displayOrder="97"
     selfHelpType="generic"
     cloudEnvironments="public, Fairfax, usnat, ussec"

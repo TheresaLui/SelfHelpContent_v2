@@ -5,6 +5,7 @@
     resource="components"
     authors="osvaldorosado"
     ms.author="osrosado"
+    articleId="insights-txndetails-incorrect"
     displayOrder="1"
     selfHelpType="resource"
     productPesIds="15693"
