@@ -3,7 +3,7 @@
     description="General troubleshooting guide for PowerShell"
     service="microsoft.insights"
     resource="components"
-    authors="debugthings"
+    authors="debugthings,osvaldorosado"
     ms.author="jamdavi"
     articleId="insights-powershell"
     displayOrder="97"
@@ -22,22 +22,15 @@ Most of our cmdlets work by calling an ARM endpoint and should work so long as y
 
 Application Insights has a variety of PowerShell cmdlets that help automate common interactions with the service:
 
-* To create a new resource use **New-AzureRmApplicationInsights** or **Remove-AzureRmApplicationInsights** to delete one 
-* To manage your Application Insights resource’s daily cap using **Get-AzureRmApplicationInsights -IncludeDailyCap** to retrieve the current value, or **Set-AzureRmApplicationInsightsDailyCap** to set a new cap
-* To manage your Application Insights resource’s Continuous Export rules, use **Get-AzureRmApplicationInsightsContinuousExport**, **Set-AzureRmApplicationInsightsContinuousExport**, **New-AzureRmApplicationInsightsContinuousExport**, and **Remove-AzureRmApplicationInsightsContinuousExport**
-* To manage your Application Insights resource’s API keys using **Get-AzureRmApplicationInsightsApiKey**, **New-AzureRmApplicationInsightsApiKey**, and **Remove-AzureRmApplicationInsightsApiKey**
+* To create a new resource use **New-AzApplicationInsights** or **Remove-AzApplicationInsights** to delete one 
+* To manage your Application Insights resource’s daily cap using **Get-AzApplicationInsights -IncludeDailyCap** to retrieve the current value, or **Set-AzApplicationInsightsDailyCap** to set a new cap
+* To manage your Application Insights resource’s Continuous Export rules, use **Get-AzApplicationInsightsContinuousExport**, **Set-AzApplicationInsightsContinuousExport**, **New-AzApplicationInsightsContinuousExport**, and **Remove-AzApplicationInsightsContinuousExport**
+* To manage your Application Insights resource’s API keys using **Get-AzApplicationInsightsApiKey**, **New-AzApplicationInsightsApiKey**, and **Remove-AzApplicationInsightsApiKey**
 
-**How to work with Application Insights resources using an ARM template?**<br>
-
-1. Review the [Deploy resources with templates](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-template-deploy) guide.
-2. Review the [Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/powershell#create-an-azure-resource-manager-template) ARM template doc
-
-**How do I troubleshoot issues using the Application Insights ARM template?**
-
-If you’re getting an error using the Application Insights ARM template, [this page](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors) will guide you through steps to understand and mitigate the error. 
+Review the [Manage Application Insights using PowerShell](https://docs.microsoft.com/azure/azure-monitor/app/powershell) doc for more information
 
 ## **Recommended Documents**
 
 * [Deploy resources with templates](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-template-deploy)
-* [Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/powershell#create-an-azure-resource-manager-template)
+* [Manage Application Insights using PowerShell](https://docs.microsoft.com/azure/azure-monitor/app/powershell)
 * [Deployment Errors](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors)
