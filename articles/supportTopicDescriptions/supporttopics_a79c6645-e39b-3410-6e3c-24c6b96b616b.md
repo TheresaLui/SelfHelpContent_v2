@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a5d16ad2-550f-a131-52d2-91c4b650ea96",
+      "longDescription": "",
+      "shortDescription": "Need assistance with changing PO number prior to issuing invoice or for an invoice already issued",
+      "searchTags": "Change PO number",
+      "category": "Enrollment Invoicing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b8b5c9b7-0f05-148f-9aee-00703d7171a0",
       "longDescription": "",
       "shortDescription": "Questions or need assistance with signing into the EA portal",
