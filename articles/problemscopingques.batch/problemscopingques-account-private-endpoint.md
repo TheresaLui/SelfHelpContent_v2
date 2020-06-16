@@ -19,28 +19,9 @@
     "title": "Batch account and private endpoint details",
     "fileAttachmentHint": "",
     "formElements": [
-        {
-            "id": "batch_account_id_selection",
-            "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "Select the Batch account that has the problem",
-            "watermarkText": "Choose a Batch account",
-            "dynamicDropdownOptions": {
-				"uri": "/subscriptions/{subscriptionId}/resourceGroups/{resourcegroup}/providers/Microsoft.Batch/batchAccounts/{resourceName}?api-version=2020-05-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Not applicable / Don't know / Resource deleted (include ID in description below)"
-                }
-            },
-            "required": true
-        },
-		{
+     {
             "id": "private_endpoint_id_selection",
-            "order": 2,
+            "order": 1,
             "controlType": "dropdown",
             "displayLabel": "Select the private endpoint associated with the Batch account",
             "watermarkText": "Choose a private endpoint",
@@ -59,14 +40,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 2,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
