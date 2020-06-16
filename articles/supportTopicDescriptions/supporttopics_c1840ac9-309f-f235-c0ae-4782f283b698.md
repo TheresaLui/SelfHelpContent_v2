@@ -288,9 +288,9 @@
     {
       "id": "8b787ca8-a207-8e96-4e26-42b7d7d8f805",
       "longDescription": "",
-      "shortDescription": "I can see my fired alert in the portal, but its actions or notifications did not happen, or malfunctioned",
+      "shortDescription": "I can see my fired alert in the portal, but its actions or notifications were not received, or malfunctioned",
       "searchTags": "Alerts;Notifications;Actions",
-      "category": "Notifications and Actions",
+      "category": "Actions and Notifications",
       "useInDiagnoseAndSolve": "true"
     },
     {
