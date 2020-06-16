@@ -320,9 +320,9 @@
     {
       "id": "995bfe73-3864-b206-c43f-724f3f7d0327",
       "longDescription": "",
-      "shortDescription": "A Service health or a resource health alert fired when it should not have",
-      "searchTags": "Alerts;Service Health Alerts;Resource Health Alerts",
-      "category": "Alert accuracy",
+      "shortDescription": "A service health or a resource health alert fired when it should not have",
+      "searchTags": "Alerts;Service Health Alerts;Resource Health Alerts;Alert misfired",
+      "category": "Alerts accuracy",
       "useInDiagnoseAndSolve": "true"
     },
     {
