@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e538fab2-a793-330e-b5e3-7c51e6c8638f",
+      "longDescription": "",
+      "shortDescription": "Need assistance with adding or removing EA admin, account owner or unable to add an user",
+      "searchTags": "Add EA admin;Remove EA admin;Add account owner;Remove account owner;unable to add user",
+      "category": "User Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f2704d19-9f1f-5b7c-b07a-24748c4358d6",
       "longDescription": "",
       "shortDescription": "Questions or issues with Partner markup function or understand how a feature works or updating enrollment or any other management functions",
