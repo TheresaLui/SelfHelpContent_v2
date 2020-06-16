@@ -20,9 +20,7 @@
 # Other issue or 'How To' questions
 
 ### **How do I sign up for the Preview?**
-In your request, state that you would like to be enrolled into limited public preview of Machine Learning for SQL Managed Instance with these details: logical server name, region, and subscription ID.
-Once you're enrolled in the program, Microsoft will onboard you to the public preview and enable Machine Learning Services for your existing or new database.
-Machine Learning Services in SQL Managed Instance is not recommended for production workloads during the public preview.
+In your request, state that you would like to be enrolled into limited public preview of Machine Learning for SQL Managed Instance with these details: logical server name, region, and subscription ID. Once you're enrolled in the program, Microsoft will onboard you to the public preview and enable Machine Learning Services for your existing or new database. Machine Learning Services in SQL Managed Instance is not recommended for production workloads during the public preview.
 
 ### **How long will it take for me to get onboarded for the Preview once I submit a request?**
 The enrollment is subject to verification, availability of seats and internal approval. The preview will be available for enrollment for the specific regions on the below dates. This process might take up to 5 business days from the time the requested region is open for enrollment.  
@@ -41,18 +39,18 @@ Machine Learning Services is a feature of Azure SQL Managed Instance that's curr
 This preview version is provided without a service level agreement, and it's NOT recommended for production workloads. Certain features might not be supported or might have constrained capabilities.
 
 During the preview, the service has the following limitations:
-- Loopback connections do not work (see Loopback connection to SQL Server from a Python or R script).
-- External Resource pools are not supported.
+- Loopback connections do not work (see Loopback connection to SQL Server from a Python or R script)
+- External Resource pools are not supported
 - Only Python and R are supported. External languages such as Java cannot be added.
-- Scenarios using the Message Passing Interface (MPI) are not supported.
-- In case of a Service Level Objective (SLO) update, please update the SLO and raise a support ticket to re-enable the dedicated resource limits for R/Python.
+- Scenarios using the Message Passing Interface (MPI) are not supported
+- In case of a Service Level Objective (SLO) update, please update the SLO and raise a support ticket to re-enable the dedicated resource limits for R/Python
  
-For more details check: [Preview Limitations](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#preview-limitations)
+For more details, see [Preview Limitations](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#preview-limitations).
  
 ### **How is Resource Governance Managed when we enable Machine Learning Services for Azure SQL Managed Instance**
 It is not possible to limit R resources through Resource Governor and external resource pools.
 During the public preview, R resources are set to a maximum of 20% of the SQL Managed Instance resources, and depend on which service tier you choose. For more information, see Azure SQL Database purchasing models
-[Resource Governance](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#resource-governance)
+[Resource Governance](https://docs.microsoft.com/azure/azure-sql/managed-instance/machine-learning-services-differences#resource-governance).
  
 **What additional steps do I have to perform to use Machine Learning Services on Azure SQL Managed Instance**
 There is no need to configure external scripts enabled via sp_configure. Once you are signed up for the preview, machine learning is enabled for your SQL database.
