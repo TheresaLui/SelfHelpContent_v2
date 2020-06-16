@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "084bb960-5e55-6c92-ef44-08dfbd5fff7f",
+      "longDescription": "",
+      "shortDescription": "Need assistance with re sending activation email for existing contact",
+      "searchTags": "Activation email;No activation email received",
+      "category": "User Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b8b5c9b7-0f05-148f-9aee-00703d7171a0",
       "longDescription": "",
       "shortDescription": "Questions or need assistance with signing into the EA portal",
