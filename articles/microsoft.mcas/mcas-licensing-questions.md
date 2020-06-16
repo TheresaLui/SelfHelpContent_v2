@@ -34,7 +34,7 @@ For details about the different licenses, see the [licensing datasheet](https://
 
 **Who needs a license to use Cloud App Security?**
 
-The Cloud App Security license applies at the tenant level. Each user must be licensed for Cloud App Security to use or benefit from the service. For customers who license a subset of users, services enforced at the tenant level are not licensed for the other users of the tenant. For more information, see the [licensing datasheet](https://aka.ms/mcaslicensing).
+The Cloud App Security license applies at the tenant level. Each user must be licensed for Cloud App Security to use or benefit from the service. For customers who license a subset of users, services enforced at the tenant level are not licensed for the other users of the tenant. For more information, see the [licensing datasheet](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2NXYO).
 
 **What license do I need to make API calls?**
 
