@@ -18,7 +18,7 @@
 # Azure Policy - Guest Configuration custom policies
 
 When auditing Windows, Guest Configuration uses a
-[Desired State Configuration](https://docs.microsoft.com/en-us/powershell/scripting/dsc/overview/overview)
+[Desired State Configuration](https://docs.microsoft.com/powershell/scripting/dsc/overview/overview)
 (DSC) resource module to create the configuration file. The DSC configuration defines the condition that the machine should be in. If the evaluation of the configuration fails, the policy effect auditIfNotExists is triggered and the machine is considered non-compliant.
 
 When auditing Linux, Guest Configuration uses
