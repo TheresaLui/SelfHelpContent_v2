@@ -328,7 +328,7 @@
     {
       "id": "999ba260-9870-e452-0474-3b8b54503bb0",
       "longDescription": "",
-      "shortDescription": "I am trying to create, edit or delete a metric alert rule in the Azure portal, but I am getting an error, or I do not know how to configure it",
+      "shortDescription": "I am trying to create, edit or delete a metric alert rule in the Azure portal, but I am getting an error, or not sure how to configure it",
       "searchTags": "Alerts;Alert rules;Alert rule configuration;Metric alerts;UI",
       "category": "Alert rule configuration",
       "useInDiagnoseAndSolve": "true"
