@@ -438,7 +438,7 @@
 			{
 				"value": "AzPowershell",
 				"text": "Azure Powershell"
-			},			
+			},
 			{
 				"value": "AzCli",
 				"text": "Azure CLI"
