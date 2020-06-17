@@ -473,7 +473,7 @@
       "id": "fb45954c-5d56-57de-bf43-680d43ae68c1",
       "longDescription": "",
       "shortDescription": "A service health or a resource health alert should have fired but I do not see it in Azure portal",
-      "searchTags": "Alerts;Service Health Alerts;Resource Health Alerts;Alert not fired",
+      "searchTags": "Alerts;Alert not fired;Service health alerts;Resource health alerts",
       "category": "Alerts accuracy",
       "useInDiagnoseAndSolve": "true"
     },
