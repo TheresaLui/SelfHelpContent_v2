@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5792b030-de7c-85a3-d058-a9ece7e18ce7",
+      "longDescription": "",
+      "shortDescription": "Create and manage Azure Key Vault, configure settings, guidelines for throttling and best practices",
+      "searchTags": "throttling;soft delete;recovery",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "75c2dc58-1d95-3177-58af-a275c569edde",
       "longDescription": "",
       "shortDescription": "Issues with certificate policy, authorization, web service certificate",
