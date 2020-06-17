@@ -89,7 +89,7 @@
       "id": "103ccbfb-f45a-0fa4-6519-7810f037df39",
       "longDescription": "",
       "shortDescription": "A log search alert fired when it should not have ",
-      "searchTags": "Alerts;Log Search Alerts;Alert misfired",
+      "searchTags": "Alerts;Alert misfired;Log search alerts",
       "category": "Alerts accuracy",
       "useInDiagnoseAndSolve": "true"
     },
