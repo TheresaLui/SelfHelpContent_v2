@@ -177,7 +177,7 @@
       "id": "3e1869f3-da18-05a3-a701-fe95385300c3",
       "longDescription": "",
       "shortDescription": "I am getting an error or not sure how to create or manage classic metric alert rules using ARM templates, REST API, Azure CLI or PowerShell cmdlets",
-      "searchTags": "Alerts;Metric alerts (Classic);Alert rule configuration;CLI;ARM Templates",
+      "searchTags": "Alerts;Alert rule configuration;CLI;ARM Templates;Metric alerts (classic)",
       "category": "Alert rule configuration",
       "useInDiagnoseAndSolve": "true"
     },
