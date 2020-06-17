@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "715c9793-b31c-14a0-1a1c-0ef014944a2b",
+      "longDescription": "",
+      "shortDescription": "Issues with deleting secrets in key vault with soft delete enabled",
+      "searchTags": "delete secret",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7277d9b1-6224-8361-a9d9-c42495161069",
       "longDescription": "",
       "shortDescription": "Key Vault management issues which are not listed in any of existing topics",
