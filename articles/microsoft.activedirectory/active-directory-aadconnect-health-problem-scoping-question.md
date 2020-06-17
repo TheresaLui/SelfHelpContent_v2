@@ -26,8 +26,42 @@
     },
     "formElements": [
         {
-            "id": "problem_start_time",
+            "id": "whichUser",
+            "visibility": null,
             "order": 1,
+            "controlType": "textbox",
+            "displayLabel": "Which user is experiencing this problem?",
+            "content": null,
+            "watermarkText": "Enter user name or Object ID of the user in Azure Active Directory",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
+        },
+        {
+            "id": "resource",
+            "visibility": null,
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Which Resource ID is experiencing this problem?",
+            "content": null,
+            "watermarkText": "Note: Resource ID information can be found in the properties blade of your domain service",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 2
+        },
+        {
+            "id": "problem_start_time",
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error.",
@@ -35,20 +69,12 @@
         },
         {
             "id": "problem_description",
-            "order": 2,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "userInput",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "What task do you need to accomplish?",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
         }
     ],
     "$schema": "SelfHelpContent"
