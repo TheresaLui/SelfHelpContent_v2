@@ -15,7 +15,7 @@
 	resourceTags="PartnerCenter_Incentives"
 	productPesIds="17005"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Payouts"
+	ownershipId="PartnerCenter_Incentives"
 />
 
 # Partner Center Incentives: Incorrect or missing payments
