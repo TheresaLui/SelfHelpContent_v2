@@ -38,7 +38,7 @@
                 "defaultDropdownOptions": {
                     "value": "Yes",
                     "text": "Yes"
-                }
+                },
             "dropdownOptions": [
                 {
                     "value": "Yes",
