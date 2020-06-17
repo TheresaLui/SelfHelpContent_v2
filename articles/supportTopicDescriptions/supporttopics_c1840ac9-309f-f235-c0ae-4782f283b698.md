@@ -464,7 +464,7 @@
     {
       "id": "f6c4c1d0-298b-38a1-fd40-6835db25649a",
       "longDescription": "",
-      "shortDescription": "I am trying to create, update or delete a log search alert rule in the Azure portal, but I am getting an error, or I do not know how to do it",
+      "shortDescription": "I am trying to create, update or delete a log search alert rule in the Azure portal, but I am getting an error, or not sure how to do it",
       "searchTags": "Alerts;Alert rules;Alert rule configuration;Log search alerts;UI",
       "category": "Alert rule configuration",
       "useInDiagnoseAndSolve": "true"
