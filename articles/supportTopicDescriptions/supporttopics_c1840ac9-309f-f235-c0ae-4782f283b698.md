@@ -490,7 +490,7 @@
       "longDescription": "",
       "shortDescription": "I am trying to create, edit or delete an action group but I am getting an error, or not sure how to configure it",
       "searchTags": "Alerts;Action groups;Action group configuration;UI",
-      "category": "Alert group configuration",
+      "category": "Action group configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
