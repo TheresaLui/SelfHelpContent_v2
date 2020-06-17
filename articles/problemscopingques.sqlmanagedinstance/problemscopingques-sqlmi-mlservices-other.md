@@ -16,11 +16,10 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "resourceRequired": True,
-    "subscriptionRequired": True,
+    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Instance",
     "fileAttachmentHint": "",
-    "subscriptionRequired": false,
     "formElements": [
         {
             "id": "problem_start_time",
