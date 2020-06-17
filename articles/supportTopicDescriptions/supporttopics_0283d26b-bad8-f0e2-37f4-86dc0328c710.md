@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9f847f79-c702-fdc8-3588-27bc228028b8",
+      "longDescription": "",
+      "shortDescription": "Guidelines to avoid being throttled and best practices to avoid it",
+      "searchTags": "throttling",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a02ffa44-f2f2-ef97-cfc9-223eadd83698",
       "longDescription": "",
       "shortDescription": "Management of existing key vault, changing settings, development with key vault",
