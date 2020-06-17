@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "98a32e7d-83d6-642f-b26f-f4edacfda6d8",
+      "longDescription": "",
+      "shortDescription": "Managing Secrets and Managed Storage Account Keys in Key Vault",
+      "searchTags": "storage account key;secret",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9f847f79-c702-fdc8-3588-27bc228028b8",
       "longDescription": "",
       "shortDescription": "Guidelines to avoid being throttled and best practices to avoid it",
