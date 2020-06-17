@@ -497,7 +497,7 @@
       "id": "fee94b45-ca8e-c368-5c0d-a9a0c47115f9",
       "longDescription": "",
       "shortDescription": "I need to increase my quota of metric alert rules ",
-      "searchTags": "Alerts;Metric alerts",
+      "searchTags": "Alerts;Metric alerts;Alert rules quota",
       "category": "Alert rules quota",
       "useInDiagnoseAndSolve": "true"
     }
