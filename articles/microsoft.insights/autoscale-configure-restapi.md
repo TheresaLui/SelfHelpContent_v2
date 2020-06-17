@@ -1,5 +1,5 @@
 <properties
-    pageTitle="I can’t configure autoscale from REST API"
+    pageTitle="I can’t configure autoscale using REST API"
     description="Issues configuring autoscale using REST API"
     service="microsoft.insights"
     resource="components"

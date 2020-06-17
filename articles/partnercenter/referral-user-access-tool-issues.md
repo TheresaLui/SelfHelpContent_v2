@@ -10,22 +10,23 @@
 	articleId="partnercenter_referral user access and tool issues"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32641060,32728151"
+	supportTopicIds="32728151"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17004"
+	productPesIds="17004"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Cosell"
 />
 # Business Profile, Co-sell, and Referrals
-* You should have referral admin access to view or create referrals
-* At least one solution from your company should be Co-sell ready for you to start creating Co-sell opportunities
-* If your PDM informed that the solution is whitelisted, please wait for 24 hours before creating a referral
-* If you want to become Co-sell ready, contact the cosell desk after looking at the details of the program mentioned in the below link
 
 ## **Recommended Steps**
 
 Learn more about Referrals from the below links.
+
+* You should have referral admin access to view or create referrals
+* At least one solution from your company should be Co-sell ready for you to start creating Co-sell opportunities
+* If your PDM informed that the solution is whitelisted, please wait for 24 hours before creating a referral
+* If you want to become Co-sell ready, contact the cosell desk after looking at the details of the program mentioned in the below link
 
 ## **Recommended Documents**
 

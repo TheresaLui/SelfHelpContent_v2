@@ -10,11 +10,11 @@
 	articleId="marketplace_azure_app_general_issues"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689427"
+	supportTopicIds="32728056,32728062,32728060"
 	resourceTags="marketplace"
-	productPesIds="15960"
+	productPesIds="17006"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # Azure applications - other issues

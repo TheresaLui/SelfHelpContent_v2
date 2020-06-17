@@ -10,12 +10,12 @@
 	articleId="api_sdk_sandbox_authentication_access"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635649"
+	supportTopicIds="32692580, 32692591, 32725822"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17002"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_API_and_Integration_Support"
 />
 
 # API authentication or access issues

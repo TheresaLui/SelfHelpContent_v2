@@ -22,7 +22,8 @@ You can use **Activity Log** to verify results of autoscale actions and review a
 
 1. Confirm that the scale actions did infact start. Open **Activity Logs** and apply filter to the subscription your autoscale setting is in. Then choose **Autoscale** as the event category, and review the messages.
 1. Track if there is a failure message associated with unavailability of capacity.
-1. Reach out to the Azure customer service to request for additional capacity. Once the resources are made available, autoscale automatically resumes the scaling operation. 
+1. Reach out to the Azure customer service to request for additional capacity. Once the resources are made available, autoscale automatically resumes the scaling operation.
+1. If you haven't already done it yet, consider setting up email notifications to receive notifications when an autoscale operation is unable to start or complete. Review [how to configure autoscale notifications](https://docs.microsoft.com/azure/azure-monitor/platform/autoscale-webhook-email)
 
 ## **Recommended Documents**
 

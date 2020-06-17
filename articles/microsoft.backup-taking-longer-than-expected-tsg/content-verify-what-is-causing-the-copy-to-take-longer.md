@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Verify what is causing the copy to take longer"
-	description="Verify what is causing the copy to take longer"
+	pageTitle="Check what is causing the copy to take longer"
+	description="Check what is causing the copy to take longer"
 	service=""
 	resource=""
 	authors="TestAuthor"
@@ -15,7 +15,7 @@
    	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# Verify what is causing the copy to take longer
+# Check what is causing the copy to take longer
 
 Check our telemetry using the TaskId  collected on the previous step .
 
