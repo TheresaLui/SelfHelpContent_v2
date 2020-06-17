@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7e6aa0ed-0ce8-988d-bf16-317ff5bb30af",
+      "longDescription": "",
+      "shortDescription": "Authentication to Key Vault with service principle and certificate or secret",
+      "searchTags": "service principle;certificate authentication",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "883a8b09-4255-4bc2-421d-c89bb0129de3",
       "longDescription": "",
       "shortDescription": "Issues with generating HSM protected keys in Key vault or getting not authorized error",
