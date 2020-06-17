@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7277d9b1-6224-8361-a9d9-c42495161069",
+      "longDescription": "",
+      "shortDescription": "Key Vault management issues which are not listed in any of existing topics",
+      "searchTags": "key vault",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "73189f02-5882-337a-e08a-302d711d9e0a",
       "longDescription": "",
       "shortDescription": "Guidelines for moving Key vault between resource groups, subscriptions",
