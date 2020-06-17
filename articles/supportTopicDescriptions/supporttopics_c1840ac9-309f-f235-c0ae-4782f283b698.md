@@ -417,7 +417,7 @@
       "id": "d888bba5-2bdd-8d91-92e4-8d80422566bf",
       "longDescription": "",
       "shortDescription": "I am trying to create, edit or delete an activity log alert rule in the Azure portal, but I am getting an error, or I do not know how to configure it",
-      "searchTags": "Alerts;Alert rules;Alert rule configuration;Activity Log alerts;UI",
+      "searchTags": "Alerts;Alert rules;Alert rule configuration;UI;Activity log alerts",
       "category": "Alert rule configuration",
       "useInDiagnoseAndSolve": "true"
     },
