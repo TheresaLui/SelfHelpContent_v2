@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7aceaef9-cf82-f85f-e7a0-a73f308ecab8",
+      "longDescription": "",
+      "shortDescription": "Authenticate to Key Vault with service principal",
+      "searchTags": "service principal",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7e6aa0ed-0ce8-988d-bf16-317ff5bb30af",
       "longDescription": "",
       "shortDescription": "Authentication to Key Vault with service principle and certificate or secret",
