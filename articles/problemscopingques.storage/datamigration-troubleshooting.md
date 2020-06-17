@@ -17,12 +17,12 @@
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "How to choose data migration solution",
+    "title": "Troubleshooting migration issue",
     "fileAttachmentHint": "",
     "diagnosticCard": {
-        "title": "Want to find a data migration issue solution?",
-        "description": "Our Azure Data Migration Troubleshooter can help you find the data migration solution for your specific scenario. Please fill in the information below to find a solution.",
-        "insightNotAvailableText": "Our solution finder did not find any solution for your migration. Please ensure the information provided is accurate and in the approved format. Also, see our manual steps below to find a method."
+        "title": "Want to troubleshoot a data migration issue?",
+        "description": "Our Azure Data Migration Troubleshooter can help you troubleshoot the data migration issue for your specific scenario. Please fill in the information below to find a solution.",
+        "insightNotAvailableText": "Our troubleshooter did not find any issue for your migration. Please ensure the information provided is accurate and in the approved format. Also, see our manual steps below to find a solution."
     },
     "formElements": [
     	{
