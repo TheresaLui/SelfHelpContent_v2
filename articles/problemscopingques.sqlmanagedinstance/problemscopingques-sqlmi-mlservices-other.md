@@ -57,7 +57,7 @@
         },
         {
             "id": "region",
-            "order": 4,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "What Azure region(s) is your instance(s) in?",
             "required": true,
@@ -65,7 +65,7 @@
         },
         {
             "id": "subscription",
-            "order": 4,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "Please confirm your SubscriptionId?",
             "required": true,
