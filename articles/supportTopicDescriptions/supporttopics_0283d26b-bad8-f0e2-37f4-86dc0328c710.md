@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "1ce6ba1a-143e-5fc8-2d3c-f5627dafc6df",
+      "longDescription": "",
+      "shortDescription": "Issues with secrets which are not covered in above topics",
+      "searchTags": "secret",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "21b85356-5cbf-5204-c2e1-dea650a3e613",
       "longDescription": "",
       "shortDescription": "Issues with retrieving secret when deleted, recovering secret, restoring secret",
