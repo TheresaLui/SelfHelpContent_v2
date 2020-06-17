@@ -185,7 +185,7 @@
       "id": "44ffb620-5ad1-6572-f77d-115542b7df33",
       "longDescription": "",
       "shortDescription": "A web availability alert should have fired but I do not see it in the Azure  portal",
-      "searchTags": "Alerts;Alert not fired",
+      "searchTags": "Alerts;Alert not fired;Web availability alert",
       "category": "Alerts accuracy",
       "useInDiagnoseAndSolve": "true"
     },
