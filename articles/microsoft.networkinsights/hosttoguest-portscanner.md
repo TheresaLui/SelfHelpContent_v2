@@ -16,14 +16,14 @@ productPesIds="16098"
 cloudEnvironments="public, fairfax, usnat, ussec"
 ownershipId="Cloudnet_NetworkWatcher"
 />
-# Microsoft Azure has identified an issue with your virtual machine connectivity
+# Cannot connect to Virtual Machine because of blocked ports
 <!--issueDescription-->
 We have identified that your virtual machine(s), **'<!--$VMArray-->[VMArray]<!--/$VMArray-->'** have firewall or application issues blocking port(s) **'<!--$PortsArray-->[PortsArray]<!--/$PortsArray-->'**.
 <!--/issueDescription-->
 
-This issue is caused by a virtual machine (VM) application and/or firewall misconfiguration that is not enabling network traffic to reach the application. By default, VM applications need to be configured to listen on particular TCP/UDP ports to receive the requests from the networking layer. A firewall rule must also be configured to allow this traffic through. 
+This issue is caused by a virtual machine (VM) application and/or firewall misconfiguration that is blocking network traffic to the application. By default, VM applications have to be configured to listen on particular TCP/UDP ports to receive requests from the networking layer. A firewall rule must also be configured to allow this traffic through. 
 
-## **Recommended Steps**
+## **Recommended steps to resolve the issue**
 
 ### Windows
 
@@ -75,7 +75,7 @@ Again, we can see that the application is running on IPv4 and IPv6.
 sudo iptables -S
 ~~~
 
-#### Note: Do not leave your firewall disabled. Enable your firewall again after testing.
+#### Important!: Do not leave your firewall disabled. Enable your firewall again after testing.
 
 ## **Recommended Documents**
 
