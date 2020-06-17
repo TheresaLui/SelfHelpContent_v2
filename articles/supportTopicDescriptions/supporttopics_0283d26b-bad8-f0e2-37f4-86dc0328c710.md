@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "73189f02-5882-337a-e08a-302d711d9e0a",
+      "longDescription": "",
+      "shortDescription": "Guidelines for moving Key vault between resource groups, subscriptions",
+      "searchTags": "move vault",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "75c2dc58-1d95-3177-58af-a275c569edde",
       "longDescription": "",
       "shortDescription": "Issues with certificate policy, authorization, web service certificate",
