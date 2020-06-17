@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "27c0d246-662c-ee5b-fc87-eaeba9487e53",
+      "longDescription": "",
+      "shortDescription": "How to configure Managed Identity in Key Vault and how to authenticate to Key Vault using Managed Identity",
+      "searchTags": "managed identity;msi",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2e7b054d-d4c6-2a14-bac9-919ffb19a6c5",
       "longDescription": "",
       "shortDescription": "Issues with integrating with DigiCert or other CA or disabled certificate state",
