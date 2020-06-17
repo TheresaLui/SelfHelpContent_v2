@@ -48,26 +48,28 @@
             "required": false
         },
         {
-            "id": "server",
+            "id": "instances",
             "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "What's the Managed Instance name(s) you wish to enable ML Services?",
-            "required": true,
-            "visibility": "enrollment == Yes"
-        },
-        {
-            "id": "region",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "What Azure region(s) is your instance(s) in?",
-            "required": true,
-            "visibility": "enrollment == Yes"
-        },
-        {
-            "id": "subscription",
-            "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "Please confirm your SubscriptionId?",
+            "controlType": "multiselectdropdown",
+            "displayLabel": "What's the Managed Instance(s) you wish to enable ML Services?",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "{resourceid}?api-version=2017-03-01-preview",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to get the list of instances",
+                    "text": "Unable to get the list of instances"
+                }
+            ],
             "required": true,
             "visibility": "enrollment == Yes"
         },
