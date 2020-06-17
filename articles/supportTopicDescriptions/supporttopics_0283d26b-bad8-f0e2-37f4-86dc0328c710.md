@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a02ffa44-f2f2-ef97-cfc9-223eadd83698",
+      "longDescription": "",
+      "shortDescription": "Management of existing key vault, changing settings, development with key vault",
+      "searchTags": "existing key vault",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a4a4a251-e238-7f62-0f64-b8542fae12f0",
       "longDescription": "",
       "shortDescription": "Issues with creating certificate via PowerShell, CLI, Portal. Questions on how to export or download .pfx certificate file",
