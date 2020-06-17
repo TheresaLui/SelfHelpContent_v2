@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8dd4e55c-7217-d718-dd9e-8dff146dedd9",
+      "longDescription": "",
+      "shortDescription": "Guidelines how to create secret in Key Vault",
+      "searchTags": "secret",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "98a32e7d-83d6-642f-b26f-f4edacfda6d8",
       "longDescription": "",
       "shortDescription": "Managing Secrets and Managed Storage Account Keys in Key Vault",
