@@ -152,8 +152,8 @@
     {
       "id": "33c71f09-df99-07d5-25fa-09ceac71a325",
       "longDescription": "",
-      "shortDescription": "I am trying to create, edit or delete a Service health or resource health alert rule, but I am getting an error, or I am not sure how to configure it",
-      "searchTags": "Alerts;Alert rules;Alert rule configuration;Service Health alerts;Resource Health alerts",
+      "shortDescription": "I am trying to create, edit or delete a Service health or resource health alert rule, but I am getting an error, or not sure how to configure it",
+      "searchTags": "Alerts;Alert rules;Alert rule configuration;Service health alerts;Resource health alerts",
       "category": "Alert rule configuration",
       "useInDiagnoseAndSolve": "true"
     },
