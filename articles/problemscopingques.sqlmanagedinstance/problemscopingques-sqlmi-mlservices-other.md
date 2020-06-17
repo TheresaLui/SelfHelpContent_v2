@@ -16,7 +16,6 @@
 ---
 {
     "$schema": "SelfHelpContent",
-    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Instance",
     "fileAttachmentHint": "",
