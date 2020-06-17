@@ -126,6 +126,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c41a63c0-96b0-679d-7ba6-0fcd6de40839",
+      "longDescription": "",
+      "shortDescription": "How to secure and access your Key Vault with firewall",
+      "searchTags": "firewall",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c58cea10-157b-3ef7-e26f-ab8c641b7b65",
       "longDescription": "",
       "shortDescription": "Recover and purge deleted key vault secrets, certificates and keys",
