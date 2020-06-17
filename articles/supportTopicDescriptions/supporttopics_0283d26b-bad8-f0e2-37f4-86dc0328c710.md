@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "21b85356-5cbf-5204-c2e1-dea650a3e613",
+      "longDescription": "",
+      "shortDescription": "Issues with retrieving secret when deleted, recovering secret, restoring secret",
+      "searchTags": "restore secret;recover secret",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "27c0d246-662c-ee5b-fc87-eaeba9487e53",
       "longDescription": "",
       "shortDescription": "How to configure Managed Identity in Key Vault and how to authenticate to Key Vault using Managed Identity",
