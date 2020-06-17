@@ -35,6 +35,10 @@
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Are you trying to sign up for the Preview?",
+                "defaultDropdownOptions": {
+                    "value": "Yes",
+                    "text": "Yes"
+                }
             "dropdownOptions": [
                 {
                     "value": "Yes",
@@ -45,7 +49,7 @@
                     "text": "No"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "instances",
@@ -58,11 +62,7 @@
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
+                "textPropertyRegex": "[^/]+$"
             },
             "dropdownOptions": [
                 {
