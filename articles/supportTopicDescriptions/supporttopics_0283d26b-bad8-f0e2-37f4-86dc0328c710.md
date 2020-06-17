@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2abb7bf8-e50d-f4d3-a810-8eeb05231f82",
+      "longDescription": "",
+      "shortDescription": "Issues related to managed storage account keys",
+      "searchTags": "managed storage account keys;msak",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2e7b054d-d4c6-2a14-bac9-919ffb19a6c5",
       "longDescription": "",
       "shortDescription": "Issues with integrating with DigiCert or other CA or disabled certificate state",
