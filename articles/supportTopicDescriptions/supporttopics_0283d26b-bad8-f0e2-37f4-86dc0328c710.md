@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e13a6f6d-e126-632a-123f-66b24ac54ec2",
+      "longDescription": "",
+      "shortDescription": "How to create key vault, manage available settings, troubleshoot creating key vault issues",
+      "searchTags": "create key vault",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e14d73d4-8783-99bd-ec31-e5b3d7191ca7",
       "longDescription": "",
       "shortDescription": "Issues with importing HSM protected key to azure key vault",
