@@ -54,7 +54,7 @@
             "displayLabel": "What's the Managed Instance(s) you wish to enable ML Services?",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
-                "uri": "{resourceid}?api-version=2017-03-01-preview",
+                "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Sql/managedInstances?api-version=2018-06-01-preview",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
