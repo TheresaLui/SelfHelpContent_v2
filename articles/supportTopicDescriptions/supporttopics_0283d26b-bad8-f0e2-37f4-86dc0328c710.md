@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c4d20538-ce60-05a0-e8ce-05d3bbfb5069",
+      "longDescription": "",
+      "shortDescription": "Configure Logging and Auditing for Key Vault",
+      "searchTags": "logging",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c58cea10-157b-3ef7-e26f-ab8c641b7b65",
       "longDescription": "",
       "shortDescription": "Recover and purge deleted key vault secrets, certificates and keys",
