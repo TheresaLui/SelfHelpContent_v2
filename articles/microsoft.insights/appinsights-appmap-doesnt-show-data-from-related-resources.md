@@ -36,7 +36,7 @@ In the diagram below, X, Y and Z are 3 components with dependency relationships 
 * If you don’t see Z (async across a queue): This is not supported currently. If X and Z are in the same resource group, as a workaround you can use the map in the [resource group insights experience](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/resource-group-insights#diagnose-issues-in-your-resource-group).
 
 
-### 2. **Check Auto collected dependency ** 
+### 2. **Check Auto collected dependency** 
 
 * If you're missing a dependency, make sure it's in the list of [auto-collected dependencies](https://docs.microsoft.com/azure/application-insights/auto-collect-dependencies). This page gives list of dependency calls that are automatically detected as dependencies without requiring any additional modification to your application's code.
 

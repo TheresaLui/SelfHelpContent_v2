@@ -31,7 +31,7 @@ Application map displays your app components and dependencies. These app compone
 * Confirm [cloud role name](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-map#set-cloud-role-name) is correctly configured
 
 
-### 2. **If the components are in same App Insights resources with direct calls being made between the components:** 
+### 2. **If the components are in different App Insights resources with direct calls being made between the components:** 
 
 * Sometimes the components are in different Application Insights resources. In that case clicking button **Update Map Components** in the top-left corner of the map will update with the number of components in your application as they are discovered. 
 * Ensure that that you have [permissions](https://docs.microsoft.com/en-us/azure/azure-monitor/app/resources-roles-access-control#to-provide-access-to-another-user) to the App Insights resource with other components of the application. 

@@ -9,7 +9,7 @@
     articleId="appinsights-appmap-doesnt-show-dependencies"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32729573"
+    supportTopicIds="32729568"
     resourceTags=""
     productPesIds="15693"
     cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
@@ -40,11 +40,11 @@ A dependency is an external component that is called by your application. It's t
 
 * Make sure you're using an officially supported SDK. Unsupported/community SDKs might not support correlation. Refer to [this article](https://docs.microsoft.com/azure/application-insights/app-insights-platforms) for a list of supported SDKs.
 
-### 4. **Dependencies are application components in separate resource**
+### 4. **Dependencies are application components thar are in a separate resource**
 
 * Check to see if the “update map components” button is failing to light up. This may happen for very large distributed applications. Reducing the time range you are querying for may help here.
-* •	Ensure that that you have [permissions](https://docs.microsoft.com/en-us/azure/azure-monitor/app/resources-roles-access-control#to-provide-access-to-another-user) to the App Insights resource with other components of the application.
-* •	If you don’t see Y (direct HTTP calls):
+* Ensure that that you have [permissions](https://docs.microsoft.com/en-us/azure/azure-monitor/app/resources-roles-access-control#to-provide-access-to-another-user) to the App Insights resource with other components of the application.
+* If you don’t see Y (direct HTTP calls):
     * Upgrade all components to the latest SDK version
     * If you're using Azure Functions with C#, upgrade to [Functions V2](https://docs.microsoft.com/azure/azure-functions/functions-versions)
 * If you don’t see Z (async across a queue): This is not supported currently. If X and Z are in the same resource group, as a workaround you can use the map in the [resource group insights experience](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/resource-group-insights#diagnose-issues-in-your-resource-group).
