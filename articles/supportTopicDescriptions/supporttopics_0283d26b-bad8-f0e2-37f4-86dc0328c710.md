@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "df73f4f2-8720-ffb8-6c2d-9703363d4a4b",
+      "longDescription": "",
+      "shortDescription": "Management soft delete settings for Key Vault. Guidelines how to recover, purge key vault objects",
+      "searchTags": "soft delete;recovery",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e13a6f6d-e126-632a-123f-66b24ac54ec2",
       "longDescription": "",
       "shortDescription": "How to create key vault, manage available settings, troubleshoot creating key vault issues",
