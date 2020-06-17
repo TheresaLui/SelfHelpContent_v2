@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c58cea10-157b-3ef7-e26f-ab8c641b7b65",
+      "longDescription": "",
+      "shortDescription": "Recover and purge deleted key vault secrets, certificates and keys",
+      "searchTags": "recover;purge",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c7bf8b26-c208-2d9c-439e-d88a0fec7516",
       "longDescription": "",
       "shortDescription": "Issues with certificate near expiry or certificate autorotation feature of key vault",
