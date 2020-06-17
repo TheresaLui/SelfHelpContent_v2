@@ -5,7 +5,7 @@
     ms.author="ajlam"
     articleId="997839f4-48e4-49e4-9b15-628a7757765c_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Increase the reliability of audit logs
