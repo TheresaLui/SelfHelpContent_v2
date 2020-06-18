@@ -70,7 +70,7 @@
                     "text": "Unable to get the list of instances"
                 }
             ],
-            "required": false            
+            "required": false
         },
         {
             "id": "problem_description",
