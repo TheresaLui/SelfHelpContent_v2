@@ -51,7 +51,7 @@
             "id": "instances",
             "order": 4,
             "controlType": "multiselectdropdown",
-            "displayLabel": "What's the Managed Instance(s) you wish to enable ML Services?",
+            "displayLabel": "If you do, what's the Managed Instance(s) you wish to enable ML Services?",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.Sql/managedInstances?api-version=2018-06-01-preview",
