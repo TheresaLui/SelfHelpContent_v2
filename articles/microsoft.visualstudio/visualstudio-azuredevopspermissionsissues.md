@@ -1,5 +1,5 @@
-<properties 
-	pageTitle="Azure DevOps Services Permissions Related Self Service Scenarios"   "
+<properties
+	pageTitle="Azure DevOps Services Permissions Related Self Service Scenarios"
 	description="Troubleshooting guide for Permissions related scenarios"
 	infoBubbleText="Azure DevOps Services Permissions Related Help"
 	service="microsoft.visualstudio"
@@ -17,7 +17,7 @@
 /> 
 
 # Common Permissions-Related Issues
-
+## **Recommended Steps** 
 
 **How do I find my admin?**
 - To learn how to find your administration, [see here](https://docs.microsoft.com/azure/devops/organizations/security/lookup-organization-owner-admin?view=azure-devops&amp;tabs=preview-page).
