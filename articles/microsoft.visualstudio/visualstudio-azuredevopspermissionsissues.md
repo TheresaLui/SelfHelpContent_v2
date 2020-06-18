@@ -7,7 +7,7 @@
 	authors="pazand"
 	ms.author="pazand"
 	articleId="AzureDevOpsPermissionsRelatedSelfServiceScenarios"
-	supportTopicIds="32572357"
+	supportTopicIds="32572359"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	resourceTags=""
