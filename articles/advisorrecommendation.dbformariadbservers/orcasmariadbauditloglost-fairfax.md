@@ -40,7 +40,7 @@
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/mariadb-audit-logs",
   "description": "Increase the reliability of audit logs",
-  "longDescription": "Our internal telemetry shows that the server's audit logs may have been lost over the past day. This can occur when a server generates a large number of audit logs over a short period of time. We recommend only logging the necessary events required for your audit purposes using the following server parameters: audit_log_events, audit_log_exclude_users, audit_log_include_users.",
+  "longDescription": ""Our internal telemetry shows that the server's audit logs may have been lost over the past day. This can occur when your server is experiencing a CPU heavy workload or a server generates a large number of audit logs over a short period of time. We recommend only logging the necessary events required for your audit purposes using the following server parameters: audit_log_events, audit_log_exclude_users, audit_log_include_users. If the CPU usage on your server is high due to your workload, we recommend increasing the server's vCores to improve performance.",
   "potentialBenefits": "Improve the reliability of audit logs for monitoring and troubleshooting.",
   "actions": [
     {
