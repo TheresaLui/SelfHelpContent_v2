@@ -22,4 +22,5 @@
 ## Recommended Steps
 
 1. Review the customer verbatim
-2. Choose the issue that most closely fits the customer issue
+2. Read **Each** option below
+3. Choose the issue that most closely fits the customer issue
