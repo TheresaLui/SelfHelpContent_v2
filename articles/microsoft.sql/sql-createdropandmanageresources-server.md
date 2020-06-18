@@ -16,6 +16,12 @@
 
 # create drop and manage resources/server
 
+## Move to Azure Resource Manager REST APIs for Azure SQL Database
+
+Azure Resource Manager is our cloud infrastructure stack that fully replaces the classic Azure Service Manager deployment model. As a result, support for Service Manager REST APIs for Azure SQL Database will be retired on December 1, 2019. As with all changes of this type, we’re providing 12 months’ notice so you have adequate time to update your services that use Service Manager APIs for SQL Database to Resource Manager APIs. For more information see the [update announcement](https://azure.microsoft.com/updates/move-to-azure-resource-manager-rest-apis-for-azure-sql-database/) or for more details on the differences between Azure Resource Manager and Service Management see this [TechNet Blog article](https://secureinfra.blog/2016/12/22/difference-between-azure-service-manager-and-azure-resource-manager/).
+Also see below for links to REST API Documentation for Server related operations in Azure Resource Manager.
+
+
 **Capacity challenges and restrictions**
 
 As demand continues to grow, we are faced with temporary capacity constraints in a number of Azure regions so we have established clear criteria for the priority of new cloud capacity. 
