@@ -32,6 +32,6 @@ Also see below for links to REST API Documentation for Elastic pool related oper
 * [vCore-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-elastic-pools?WT.mc_id=pid:13491:sid:32630419/)<br>
 * [DTU-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-elastic-pools?WT.mc_id=pid:13491:sid:32630419/)<br>
 
-## **REST API Documentation**
+### **REST API Documentation**
 * [Elastic pools REST API](https://docs.microsoft.com/rest/api/sql/elasticpools)
 * [Azure SQL Management .NET SDK Library Microsoft.Azure.Management.Sql](https://www.nuget.org/packages/Microsoft.Azure.Management.Sql)

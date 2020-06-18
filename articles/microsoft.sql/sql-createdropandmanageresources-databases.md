@@ -56,6 +56,6 @@ Subscription whitelisting is required for provisioning new databases in the Cent
 * [Change database name, edition, size and other options](https://docs.microsoft.com/sql/t-sql/statements/alter-database-transact-sql?view=sql-server-2017?WT.mc_id=pid:13491:sid:32630418/)<br>
 * [Managing Azure SQL Databases using the Azure portal](https://azure.microsoft.com/documentation/articles/sql-database-manage-portal?WT.mc_id=pid:13491:sid:32630418/)
 
-## **REST API Documentation**
+### **REST API Documentation**
 * [Databases REST API](https://docs.microsoft.com/rest/api/sql/databases)
 * [Azure SQL Management .NET SDK Library Microsoft.Azure.Management.Sql](https://www.nuget.org/packages/Microsoft.Azure.Management.Sql)

@@ -56,5 +56,5 @@ Please create a support request with our Quota team using these [instructions](h
 * [Create a server-level firewall rule for single and pooled databases using the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal-firewall)
 * [Create a single database in Azure SQL Database using the Azure Resource Manager template](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-get-started-template)
 
-## **Rest API Documentation**
+### **Rest API Documentation**
 * [Servers REST API Documentation](https://docs.microsoft.com/rest/api/sql/servers)
