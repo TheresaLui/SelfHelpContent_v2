@@ -10,10 +10,10 @@
 	articleId="partnercenter_credit_requests_and_refunds"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692597,32725886"
+	supportTopicIds="32692597"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="17003,17012"
+	productPesIds="17003"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
