@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ActionGroup"
 />
-# An alert was not fired when it should
+# An alert was not fired when it should no
 ---
 {
     "resourceRequired": false,
