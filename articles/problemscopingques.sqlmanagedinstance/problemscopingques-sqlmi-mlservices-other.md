@@ -70,8 +70,7 @@
                     "text": "Unable to get the list of instances"
                 }
             ],
-            "required": true,
-            "visibility": "enrollment==yes"
+            "required": false            
         },
         {
             "id": "problem_description",
