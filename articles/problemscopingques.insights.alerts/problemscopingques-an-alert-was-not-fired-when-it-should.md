@@ -1,7 +1,7 @@
 <properties
 	articleId="problemscopingques-an-alert-was-not-fired-when-it-should"
-	pageTitle="An alert wasn't fired when it should"
-	description="An alert wasn't fired when it should"
+	pageTitle="An alert was not fired when it should"
+	description="An alert was not fired when it should"
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
