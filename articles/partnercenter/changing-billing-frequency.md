@@ -17,7 +17,7 @@
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Transact_and_Manage"
 />
-# Changing billing frequency
+# Changing billing frequency 
 Below are resources describing how to change the billing freqency of an online service.
 
 ## **Recommended Documents**
