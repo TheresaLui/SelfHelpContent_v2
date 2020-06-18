@@ -35,13 +35,9 @@
             "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Are you trying to sign up for the Preview?",
-                "defaultDropdownOptions": {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
             "dropdownOptions": [
                 {
-                    "value": "Yes",
+                    "value": "yes",
                     "text": "Yes"
                 },
                 {
@@ -75,7 +71,7 @@
                 }
             ],
             "required": true,
-            "visibility": "enrollment == Yes"
+            "visibility": "enrollment==yes"
         },
         {
             "id": "problem_description",
