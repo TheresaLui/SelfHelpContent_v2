@@ -16,10 +16,10 @@
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
     "streamNamespace": "cluster('https://azeeclu.kusto.windows.net').database('AzEE-DB').ResourceHealthRecommendation",
-    "dataSource": "Kusto",
+    "dataSource": "AzureDataExplorer",
     "refreshInterval": "1:00:00"
   },
-  "recommendationCategory": "OperationalExcellence",
+  "recommendationCategory": "OperationalExcellency",
   "recommendationImpact": "Low",
   "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
   "recommendationFriendlyName": "ResourceHealthAlert",
@@ -37,7 +37,7 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 3.0,
-  "learnMoreLink": "https://docs.microsoft.com/azure/service-health/resource-health-alert-arm-template-guide",
+  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/service-health/resource-health-alert-arm-template-guides",
   "description": "Create an Azure Resource Health alert",
   "longDescription": "Resource Health alerts keeps you informed about the current and historical health status of your Azure resources. Azure Resource Health alerts can notify you in near real-time when these resources have a change in their health status.",
   "potentialBenefits": "Get notified of your Azure resource health status",
