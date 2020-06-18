@@ -36,11 +36,11 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 3.0,
+  "version": 4.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/service-health/resource-health-alert-arm-template-guide",
   "description": "Create an Azure Resource Health alert",
   "longDescription": "Resource Health alerts keeps you informed about the current and historical health status of your Azure resources. Azure Resource Health alerts can notify you in near real-time when these resources have a change in their health status.",
-  "potentialBenefits": "Get notified of your Azure resource health status",
+  "potentialBenefits": "Get notified of the health of your Azure resources",
   "actions": [
     {
       "actionId": "01c7102f-e029-466c-955e-62e1c10ec8d2",
