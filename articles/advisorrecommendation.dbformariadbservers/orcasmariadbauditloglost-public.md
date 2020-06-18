@@ -53,6 +53,17 @@
       "metadata": {
         "resourceId": "{resourceId}"
       }
+    },
+    {
+        "actionId": "c4a002f4-a1d5-42d9-93c3-2dae6767b550",
+        "description": "Increase vCores",
+        "actionType": "Blade",
+        "extensionName": "HubsExtension",
+        "bladeName": "ResourceMenuBlade",
+        "metadata": {
+        "id": "{resourceId}",
+        "menuid": "pricingTier"
+      }
     }
   ],
   "resourceMetadata": {
