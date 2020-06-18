@@ -10,7 +10,7 @@
     diagnosticScenario="ApplicationInsightsJavaSDK"
     displayOrder="6"
     selfHelpType="generic"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32402632, 32632984"
  	ownershipId="AzureMonitoring_ApplicationInsights"
@@ -19,13 +19,14 @@
 
 ## **Recommended Steps**
 
+### Try Going Codeless
+
+It is recommended to try a codeless approach (currently in public preview) instead of the SDK. It is super easy to enable and does not require any code instrumentation. Follow the instructions to enable the [Java agent](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent). 
+
+### If you decide to stick with the SDK
+
 The most common types of issues are related to the configuration of the SDK, or a network configuration issue such as a proxy or firewall. Here is a list of recommended items to review to ensure your application is configured correctly. Our [troubleshooting guide](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot) has a list of the most common concerts with problems using the Java SDK.
 
-**Try Going Codeless**
-
-It is recommended to try a codeless approach (currently in public preview) instead of the SDK. Follow the instructions to  enable the [Java agent](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent). 
-
-**If you decide to stick with the SDK**
 1. First, review the Java SDK [getting started guide](https://docs.microsoft.com/azure/application-insights/app-insights-java-get-started?toc=/azure/azure-monitor/toc.json) and check the default configuration
 1. If you're configuration looks correct, enable the [SDK Logs](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot#debug-data-from-the-sdk) and search for errors prefixed with to `AI`
 1. If you spot an exception or strange error ensure the java version you're using does not have any known issues by checking the [Java SDK Releases](https://github.com/Microsoft/ApplicationInsights-Java/releases) page
@@ -55,6 +56,7 @@ It is recommended to try a codeless approach (currently in public preview) inste
 
 ## **Recommended Documents**
 
+* [Java auto-instrumentation](https://docs.microsoft.com/azure/azure-monitor/app/java-in-process-agent)
 * [Getting Started](https://docs.microsoft.com/azure/application-insights/app-insights-java-quick-start?toc=/azure/azure-monitor/toc.json)<br>
 * [Java SDK GitHub](https://github.com/Microsoft/ApplicationInsights-Java)<br>
 * [Troubleshooting](https://docs.microsoft.com/azure/application-insights/app-insights-java-troubleshoot?toc=/azure/azure-monitor/toc.json)

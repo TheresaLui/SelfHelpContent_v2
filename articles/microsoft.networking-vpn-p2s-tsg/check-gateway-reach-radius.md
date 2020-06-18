@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="3afecd50-287d-4284-9035-7f6bcdc5c55a"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -35,9 +35,3 @@ It is a good test to use Test Traffic to check connectivity if the RADIUS server
    1. Verify the RADIUS server is in the virtual network (The RADIUS server must be in an Azure Virtual Network (either the one where the Gateway is, or another vnet connected to it). The RADIUS server can also be located on-premises, but only a VPN Site-to-Site connection can be used for connecting to a RADIUS server on-premises. An ExpressRoute connection cannot be used.)
    2. In ASC, go to Resource Explorer > Find the VM Running RADIUS > Select Diagnostics > port scanner
    3. Test ports 1812/1813 (Point to site using RADIUS authentication uses by default UDP ports 1812/1813. A custom RADIUS server implementation may use different ports)
-
-##Can the gateway reach the RADIUS server?
-- Yes
-- No, there are NSG/UDR blocking the connection
-- No, the RADIUS is connected via ExpressRoute
-- No, The RADIUS is on-premises connected via Site to Site and VPN is down

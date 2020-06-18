@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="eea1c5c3-30bd-4fc7-a8b1-85acaf198362"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -28,7 +28,3 @@ Verify if the customer can correctly resolve Azure resources via DNS.
  Get-NetIPInterface
  ~~~
 4. Make sure the point to site client can correctly resolve Azure resources by pinging the FQDN of an Azure Virtual Machine.
-
-Are the client DNS settings configured and working properly?
-- Yes
-- No

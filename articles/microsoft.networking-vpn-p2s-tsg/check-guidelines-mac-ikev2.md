@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="aab1db29-b8ae-40c7-8598-8eca0cf00bdf"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -26,7 +26,3 @@ We can only debug the Gateway side, and if we determine that the issue is on the
 2. Have customer follow the [Mac Install for Point to Site IKE v2](https://docs.microsoft.com/azure/vpn-gateway/point-to-site-vpn-client-configuration-azure-cert#installmac) document for proper installation of clients.
 3. Have customer manually [configure the native IKEv2 VPN client](https://docs.microsoft.com/azure/vpn-gateway/point-to-site-vpn-client-configuration-radius#admaccli
 ) on every Mac that will connect to Azure. Azure does not provide mobileconfig file for native Azure certificate authentication.
-
-Is the customer running a supported version of the software, and performed correct installation as per the guidelines?
-- Yes
-- No

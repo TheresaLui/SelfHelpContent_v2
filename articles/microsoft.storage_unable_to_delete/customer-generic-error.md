@@ -17,5 +17,6 @@
 
 # Solution Found
 <!--issueDescription-->
-We have researched your case and have identified the problematic operations below. Please review these issues and proceed as recommended.
+**INTERNAL MICROSOFT MESSAGE TO SUPPORT ENGINEER**<br>
+You've indicated that ASC or the TSG helped resolve this issue. If an insight helped you solve this step, please provide the customer the customer ready message from the ASC insight.
 <!--/issueDescription-->

@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="e0c8b8da-5f3d-4338-bff9-6f9b8e18f87d"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -30,7 +30,3 @@ This is a legacy error (haven't appeared in about 2 years because it's fixed in 
 ## Recommended Documents
 
 1. https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/134255/Point-to-Site-VPN-Issues?anchor=unable-to-access-the-network-shares-of-azure-vms-from-p2s-client-with-error-%22the-network-path-was-not-found%22
-
-Did this solve?
-Yes --> Solution
-No --> Escalate

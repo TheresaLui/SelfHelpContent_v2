@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="0deb3c01-cbb0-4c0d-bbf0-c5b7eff231fd"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -27,8 +27,3 @@ The gateway only forwards it on the Inner interface (not on the Outer). <br/>If 
 
 1. Check the topology and determine the last gateway
 2. Check the last gateway traces to see if the traffic is arriving
-
-Can you see the traffic in the last gateway traces?
-- Yes, i can see the traffic in the **networktrace.etl** file
-- This is the last gateway before destination, but I can only see the traffic in the **TunnelInnerPacketTrace.etl** file
-- No, I cannot see the traffic on the Gateway traces

@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-If you are experiencing some issues with SQL Server Agent, some of the following steps might help you to troubleshoot the issues:
+If you are experiencing problems with SQL Server Agent, some of the following steps might help you to troubleshoot the issues:
 
 ### **I cannot see my SQL Server Agent node in Object explorer**
 
@@ -47,6 +47,10 @@ Each of the logins added to SQL Agent fixed database roles needs to [explicitly 
 ### **How can I disable my SQL Server Agent?**
 
 For managed instance enabling and disabling of SQL Server Agent is currently not supported. SQL Agent is always running.
+
+### **SQL Agent email notifications**
+
+Email notifications are supported, although it is required that you configure a Database Mail profile. SQL Server Agent can use only one Database Mail profile, and it must be called **[AzureManagedInstance_dbmail_profile](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)**. If this profile is missing you can see errors like "profile name is not valid [SQLSTATE 42000] Error 14607."
 
 ## **Recommended Documents**
 

@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="f997dc32-a4c1-4b79-b50e-858b36e3443e"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -27,7 +27,3 @@
 6. If a "vpnClientRootCertificates" parameter exists and is not empty -> the authentication method is **Certificates**<br/>
    1. If a "RadiusServerAddress" parameter exists and is not empty -> the authentication method is **RADIUS** <br/>
    2. If an "aadTenant" parameter exists and is not empty -> the authentication method is **Azure AD**
-
-Is the customer using RADIUS based authentication?
-- Yes
-- No

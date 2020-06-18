@@ -7,13 +7,13 @@
 	authors="a-crmire"
 	ms.author="a-crmire"
 	displayOrder=""
-	articleId="partnercenter_marketplace_general_help"
+	articleId="mpn_benefits_marketplace_activation"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32740810"
 	clientIds='partnercenter'
 	resourceTags="mpn"
-	productPesIds="17006"
+	productPesIds="17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
@@ -23,4 +23,4 @@
 
 ## **Recommended Documents**
 
-* [Sales and marketing benefits](https://docs.microsoft.com/partner-center/marketplace-rewards#sales-and-marketing-benefits)
+* [Manage Marketplace Rewards](https://docs.microsoft.com/partner-center/marketplace-rewards#sales-and-marketing-benefits)

@@ -22,7 +22,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Sql/servers/databases",
   "recommendationFriendlyName": "SQLDBAdvisor",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

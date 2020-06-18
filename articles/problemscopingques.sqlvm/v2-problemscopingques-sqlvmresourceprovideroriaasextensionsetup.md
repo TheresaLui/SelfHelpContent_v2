@@ -6,7 +6,7 @@
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32740102"
   productPesIds="14745"
-  cloudEnvironments="Public, BlackForest, Fairfax, USSEC, USNAT"
+  cloudEnvironments="Public, BlackForest, Fairfax, Mooncake, USSEC, USNAT"
   schemaVersion="1"
   articleId="fbb02313-b08e-467f-a1ca-974d66641e59"
   ownershipId="AzureData_AzureSQLVM"
@@ -45,7 +45,7 @@
                     "value": "Configure_Manage_RP"
                 },
                 {
-                    "text": "I’m not sure/don’t know",
+                    "text": "I'm not sure/don't know",
                     "value": "dont_know_answer"
                 }
             ],

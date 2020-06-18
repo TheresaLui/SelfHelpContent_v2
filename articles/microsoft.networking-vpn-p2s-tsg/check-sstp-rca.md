@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="df5103e7-f37d-4f9e-be7a-ab1dcdb9a3ef"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -24,7 +24,3 @@
 3. If the customer has more than one protocols enabled (for example SSTP + IKEv2) the only way to tell whether the failing client was using SSTP or IKEv2 is to ask the customer.
 
 **Note**: the customer might have changed the setting since the time of the issue. It is advised to doublecheck with customer.
-
-Was the client using SSTP to connect to the Point to Site VPN (this includes WebApps)
-- Yes
-- No

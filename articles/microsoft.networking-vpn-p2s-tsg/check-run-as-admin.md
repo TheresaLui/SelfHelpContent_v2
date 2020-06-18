@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="a61bfc85-a4e9-4e8a-8fcf-ac7e97ea100a"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -26,8 +26,3 @@ To use Point to Site VPN, Admin rights are required on the Windows client. The r
 ##Recommended Documents
 
 * https://docs.microsoft.com/azure/vpn-gateway/point-to-site-about
-
-Is the user using the P2S VPN an administrator for the Windows point to site clients?
-- Yes
-- No 
----

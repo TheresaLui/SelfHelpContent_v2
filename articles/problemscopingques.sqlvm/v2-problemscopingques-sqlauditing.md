@@ -5,7 +5,7 @@
   ms.author="ujpat,amamun"
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32740091"
-  productPesIds="14745"
+  productPesIds="14745,16342"
   cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
   schemaVersion="1"
   articleId="3cd6b3d5-a537-4b61-ba23-cd73e08b714e"
@@ -46,7 +46,7 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "I’m not sure/don’t know"
+                    "text": "I'm not sure/don't know"
                 }
             ],
             "dynamicDropdownOptions": null,

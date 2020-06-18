@@ -21,7 +21,7 @@
 
 * **How/When are compliance scans triggered?**
 
-Please allow about 15 minutes for the compliance scan to be triggered and get back compliance results. Compliance scan is triggered once it receives notification of resource change and a new scan every 24 hours. If you do not see any results within 24 hours, please create a support ticket. To get information on demand scan, please refer [here](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data#on-demand-evaluation-scan).
+Please allow about 15 minutes for the compliance scan to be triggered and get back compliance results. Compliance scan is triggered once it receives notification of resource change and a new scan every 24 hours. If you do not see any results within 24 hours, please create a support ticket. You can trigger on demand scan using REST API and PS, please refer [here](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data#on-demand-evaluation-scan).
 
 * **How do I find an alias?**
 
@@ -29,11 +29,7 @@ To search for an alias, you can run a command or use the VS Code extension. More
 
 * **How do I export my compliance data/ How do I export my policy definitions and assignments?**
 
-We currently do not support exporting compliance data through the portal. Please leverage [UserVoice](https://feedback.azure.com/forums/915958-azure-governance?category_id=345055)to vote on your preference for exporting or other features. You can export compliance data through a [Rest API and/or Command line](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data) call. You can use our VS Code extension to export the definitions and assignments.
-
-* **How do I get alerts?**
-
-To get alerts on Non-compliant Azure policies using Azure Monitor alerts, follow this [tutorial](https://techcommunity.microsoft.com/t5/ITOps-Talk-Blog/How-to-Create-Azure-Monitor-Alerts-for-Non-Compliant-Azure/ba-p/713466).
+We currently do not support exporting compliance data through the portal. Please leverage [UserVoice](https://feedback.azure.com/forums/915958-azure-governance?category_id=345055)to vote on your preference for exporting or other features. You can get compliance data through a [Rest API and/or Command line](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data) call. You can use our VS Code extension to export the definitions and assignments.
 
 * **Can I use REGEX within Policy?**
 
@@ -49,7 +45,7 @@ Please follow these links for information on Azure Policy for **Kubernetes**: [A
 
 * **How can I get information on what's to come for Azure Policy?**
 
-If you are interested in getting more information on what the Azure Policy team is doing, join the quarterly call on Azure Governance [here](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxPH3jrBa8ZLgoOwxx0Zj5BUQlNBMTZPQVZJRzFYNjBQUDhMSVUwTDRISi4u).
+If you are interested in getting more information on what the Azure Policy team is doing, join the quarterly call on Azure Governance [here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRxn7UD7lweFDnmuLj72r6E1UN1dLNTBZUVMyNVpHUjJLRE5PVDVGNlkyOC4u)
 
 ## **Recommended Documents**
 

@@ -14,14 +14,29 @@
 	clientIds='partnercenter'
 	resourceTags="PartnerCenter_Incentives"
 	productPesIds="17005"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Incentives"
 />
 
 # Partner Center Incentives: Rejected claims
 
 ## **Recommended Steps**
+If the materials you provided with your co-op claim are determined to be insufficient, it will be rejected. You can view the reasons for the rejection in the **History** field of your co-op claims page. If you would like to dispute the rejection, use the following procedure:
 
+**Dispute a rejected co-op claim**
 
+1. Sign into the [Partner Center dashboard](https://partner.microsoft.com/dashboard).
+2. Under **Incentives**, select **Co-op claims**.
+3. Select the co-op claim you want to dispute. This will open the co-op claim page. 
+4. At the bottom of the page, select **Dispute**.
 
+The co-op claims validation team will review the claim within five business days. During this time, the status will show as **Disputed**. We may contact you to request additional information. When the review is complete, the validation team will update the status to either **Approved**, **Rejected**, or **Partner Action Required**.
 
+## **Recommended Documents**
+* [How to check claim status in Partner Center](https://support.microsoft.com/help/4524526/)
+* [Co-op Claim Submission deadlines](https://support.microsoft.com/help/2969974)
+* [Overview of Incentives coop claims](https://docs.microsoft.com/partner-center/claims-overview)
+* [Create and manage incentives claims](https://docs.microsoft.com/partner-center/create-incentives-claims)
+* [How to submit a co-op claim](https://support.microsoft.com/help/4024368/)
+* [Who can submit a coop claim?](https://docs.microsoft.com/partner-center/create-incentives-claims)
+* [Core requirements for incentives co-op claims](https://docs.microsoft.com/partner-center/core-requirements)

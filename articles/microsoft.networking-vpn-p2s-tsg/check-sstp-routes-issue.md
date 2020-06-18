@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="ea93cec7-16c2-4bb9-a745-ad90fcf1e855"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -28,7 +28,3 @@ There is a known Routing and Remote Access issue for which point to site SSTP cl
 ## **Recommended Documents**
 
 1. [Windows OS Work item for SSTP bug](https://microsoft.visualstudio.com/OS/_workitems/edit/21097365)
-
-Did this solve the issue?
-Yes --> Solution
-No --> Escalate

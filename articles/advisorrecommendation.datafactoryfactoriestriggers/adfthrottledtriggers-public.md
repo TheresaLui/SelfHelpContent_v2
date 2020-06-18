@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="eb4f67d2-2440-4d58-bec7-6de73cc5ba75_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureData_DataFactory"
 />
 # Review your throttled Data Factory Triggers

@@ -23,6 +23,6 @@ In order for AD Auth to work properly, the logged on user needs to have a valid 
 
 ## **Recommended Steps**
 
-1. Please work with the customer and recreate the AD Object using "Join-AzStorageAccountForAuth" cmdlet. Please run the cmdlet with "-verbose" option in order to see if the customer is facing any issues creating this AD Object. 
+1. Please work with the customer to recreate the AD Object using "Join-AzStorageAccountForAuth" cmdlet or manually using the steps [defined here](https://docs.microsoft.com/azure/storage/files/storage-files-identity-ad-ds-enable#creating-an-identity-representing-the-storage-account-in-your-ad-manually). Please run the "Join-AzStorageAccountForAuth" cmdlet with "-verbose" option in order to see if the customer is facing any issues creating this AD Object. 
 2. Once the AD Object is created successfully, re-run the "Debug-AzStorageAccountAuth" cmdlet to make sure all the other checks pass successfully. If they do not, go back to previous step to further troubleshoot. 
 3. If "Debug-AzStorageAccountAuth" completes successfully, ask the customer to try mounting the file share. If mount still fails, escalate.

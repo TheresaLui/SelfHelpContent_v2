@@ -10,16 +10,16 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
-	articleId="02f6d18b-dce5-4243-9d63-e6fff45f0546"
+	cloudEnvironments="public,fairfax, usnat, ussec"
+	articleId="8ff50259-e147-4b23-ae44-ef462e5da24a"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
 
-#Solution for Error "...Session state: TLS Handshake in Progress"
+# Solution for Error "...Session state: TLS Handshake in Progress"
 
 The error *"Server did not respond properly to VPN control packets. Session state: TLS Handshake in Progress"* is an Azure AD specific error where the VPN client certificate is incorrect. Follow the steps below to validate the certificate.
 
-##Recommended Steps [Need Validation]
+## Recommended Steps [Need Validation]
 
 1. If the Server Stops responding in the TLS Handshake phase, please check the Client Cert is acceptable to the server.
 (how???) 

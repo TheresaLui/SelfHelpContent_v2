@@ -18,6 +18,8 @@
 />
 # We ran diagnostics on your resource and found an allocation failure
 
+The Region this VM is associated with did not have enough capacity for the requested VM size at the time of provisioning to support its allocation.<br>
+
 >We are currently experiencing high demand for specific regions across the globe. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
 
 <!--issueDescription-->
@@ -25,6 +27,8 @@ Based on the analysis of start failure: **<!--$CorrelationId-->CorrelationId<!--
 
 **<!--$SkuRegRec-->No information provided<!--/$SkuRegRec-->**<br>
 <!--/issueDescription-->
+
+Consider the above alternate VM sizes and/or Regions for future provisioning actions. These recommendations are generated based on the current capacity conditions. If you see the originally requested region and size in the recommendations, please try creating the VM again as the issue might have been temporary and there could be sufficient resources for allocation currently.
 
 The hardware cluster where the VM is currently deployed did not have enough capacity of this size to support your allocation request.<br>
 

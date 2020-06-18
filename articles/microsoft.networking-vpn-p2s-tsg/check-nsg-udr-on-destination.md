@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="a72e15d8-dcb9-43c0-b578-ac3d9398466e"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -24,7 +24,3 @@
 1. Insert the IP address of the Azure VM as the **Destination**
 1. Populate TCP ports according to your scenario
 1. Execute the Test Traffic diagnostic by clicking on **Run**
-
-Is there an NSG or UDR blocking connectivity to the destination?
-- Yes
-- No 
