@@ -13,7 +13,7 @@
 ---
 { 
 "recommendationOfferingId": "",
-"recommendationOfferingName": "Compute",
+"recommendationOfferingName": "Virtual Machines",
 "$schema": "AdvisorRecommendation",
 "recommendationTypeId": "",
 "recommendationCategory": "Performance", 
