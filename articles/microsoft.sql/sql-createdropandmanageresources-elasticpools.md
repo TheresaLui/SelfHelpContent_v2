@@ -23,13 +23,15 @@ Also see below for links to REST API Documentation for Elastic pool related oper
 
 
 ## **Recommended Steps**
-
 * [Create and manage elastic pools in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-manage?WT.mc_id=pid:13491:sid:32630419/)
 
 ## **Recommended Documents**
-
 * [Overview of elastic pools](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool?WT.mc_id=pid:13491:sid:32630419/)<br>
 * [Elastic pools REST API](https://docs.microsoft.com/rest/api/sql/elasticpools?WT.mc_id=pid:13491:sid:32630419/)<br>
 * [Scale elastic pool resources](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-scale?WT.mc_id=pid:13491:sid:32630419/)<br>
 * [vCore-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-elastic-pools?WT.mc_id=pid:13491:sid:32630419/)<br>
 * [DTU-based resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-elastic-pools?WT.mc_id=pid:13491:sid:32630419/)<br>
+
+## **REST API Documentation**
+* [Elastic pools REST API](https://docs.microsoft.com/rest/api/sql/elasticpools)
+* [Azure SQL Management .NET SDK Library Microsoft.Azure.Management.Sql](https://www.nuget.org/packages/Microsoft.Azure.Management.Sql)
