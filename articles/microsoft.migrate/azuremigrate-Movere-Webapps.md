@@ -29,7 +29,8 @@ The queries related to database assessment and migration are to be submitted und
 
 Please go back to the previous tab, 'Basics' and select 'Database Migration Service' as the service. In this particular service you can find more details of issues related to database assessment and migration.
 
-### **Incase of issue with VDI Assessment (lakeside)**
+### **In case of issue with VDI Assessment (lakeside)** 
+
 Find links to troubleshoot/open support tickets with lake side, [here](https://go.microsoft.com/fwlink/?linkid=2118054) 
 
 ### **My added tools don't show up in the "Servers" or "Databases" or "VDI" page**
