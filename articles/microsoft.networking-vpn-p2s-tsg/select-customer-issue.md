@@ -16,7 +16,7 @@
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
 
-# Select the customer report issue
+# Select the customer reported issue
 
 
 ## Recommended Steps
