@@ -7,7 +7,7 @@
 	ms.author="dashe"
 	articleId="datafactory-newtree-ssis-ir-management-vnet.md"
 	displayOrder="11"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32680896"
 	resourceTags=""
 	productPesIds="15613"

@@ -7,7 +7,7 @@
 	ms.author="dashe"
 	articleId="datafactory-newtree-ssis-ir-management-general-start-stop.md"
 	displayOrder="9"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32680895"
 	resourceTags=""
 	productPesIds="15613"
