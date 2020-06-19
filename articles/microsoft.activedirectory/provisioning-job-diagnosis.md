@@ -19,7 +19,7 @@
 
 # PREVIEW: provisioning job analysis
 <!--issueDescription-->
-There are one or more active issues with the provisioning service that may be related to your support request. Please review the issues below:
+
 <!--$issuesSection-->issuesSection<!--/$issuesSection-->
 
 We've analyzed your job and found the below:
