@@ -10,14 +10,14 @@
     displayOrder = ""
     diagnosticScenario = ""
     infoBubbleText = ""
-    pageTitle = "Data Import, Export (ETL) with SQL pool/Data Import, Export (ETL) with SQL pool"
-    description = "Data Import, Export (ETL) with SQL pool/Data Import, Export (ETL) with SQL pool"
+    pageTitle = "Data Import, Export (ETL) with SQL pool/Loading Machine Learning Models"
+    description = "Data Import, Export (ETL) with SQL pool/Loading Machine Learning Models"
     articleId = "synapse-dataimportexportetlwithsqlpool-loadingmachinelearningmodels.md"
     authors = "saltug"
     ms.author = "saltug"
 />
 
-# Data Import, Export (ETL) with SQL pool/Data Import, Export (ETL) with SQL pool
+# Data Import, Export (ETL) with SQL pool/Loading Machine Learning Models
 
 ## **Recommended Steps**
 * A model is saved in a table with varbinary(max) data type

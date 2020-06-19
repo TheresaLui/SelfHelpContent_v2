@@ -5,14 +5,14 @@
     ownershipId = "AzureData_SQLDataWarehouse"
     productPesIds = "15818"
     supportTopicIds = "32743060"
-    pageTitle = "SQL Performance and Query Execution/SQL Performance and Query Execution"
-    description = "SQL Performance and Query Execution/SQL Performance and Query Execution"
+    pageTitle = "SQL Performance and Query Execution/SQL pool queries using PREDICT"
+    description = "SQL Performance and Query Execution/SQL pool queries using PREDICT"
     articleId = "synapse-scoping-sqlperformanceandqueryexecution-sqlpoolqueriesusingpredict.md"
     authors = "saltug"
     ms.author = "saltug"
 />
 
-# SQL Performance and Query Execution/SQL Performance and Query Execution
+# SQL Performance and Query Execution/SQL pool queries using PREDICT
 
 ---
 {
@@ -20,7 +20,7 @@
     "subscriptionRequired": true,
     "resourceRequired": true,
     "fileAttachmentHint": "",
-    "title": "SQL Performance and Query Execution",
+    "title": "SQL pool queries using PREDICT",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -31,7 +31,7 @@
             "infoBalloonText": ""
         },
         {
-            "id": "",
+            "id": "synapse_2",
             "order": 2,
             "required": false,
             "controlType": "textbox",

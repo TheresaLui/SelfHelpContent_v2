@@ -10,14 +10,14 @@
     displayOrder = ""
     diagnosticScenario = ""
     infoBubbleText = ""
-    pageTitle = "SQL Performance and Query Execution/SQL Performance and Query Execution"
-    description = "SQL Performance and Query Execution/SQL Performance and Query Execution"
+    pageTitle = "SQL Performance and Query Execution/SQL pool queries using PREDICT"
+    description = "SQL Performance and Query Execution/SQL pool queries using PREDICT"
     articleId = "synapse-sqlperformanceandqueryexecution-sqlpoolqueriesusingpredict.md"
     authors = "saltug"
     ms.author = "saltug"
 />
 
-# SQL Performance and Query Execution/SQL Performance and Query Execution
+# SQL Performance and Query Execution/SQL pool queries using PREDICT
 
 ## **Recommended Steps**
 * T-SQL Predict is used for batch scoring scenario in the data warehouse without moving the data out of the data warehouse. See [documentation](https://docs.microsoft.com/sql/t-sql/queries/predict-transact-sql) for details.

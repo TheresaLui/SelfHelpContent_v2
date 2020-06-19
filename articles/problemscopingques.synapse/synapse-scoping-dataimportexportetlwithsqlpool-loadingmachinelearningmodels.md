@@ -5,14 +5,14 @@
     ownershipId = "AzureData_SQLDataWarehouse"
     productPesIds = "15818"
     supportTopicIds = "32743061"
-    pageTitle = "Data Import, Export (ETL) with SQL pool/Data Import, Export (ETL) with SQL pool"
-    description = "Data Import, Export (ETL) with SQL pool/Data Import, Export (ETL) with SQL pool"
+    pageTitle = "Data Import, Export (ETL) with SQL pool/Loading Machine Learning Models"
+    description = "Data Import, Export (ETL) with SQL pool/Loading Machine Learning Models"
     articleId = "synapse-scoping-dataimportexportetlwithsqlpool-loadingmachinelearningmodels.md"
     authors = "saltug"
     ms.author = "saltug"
 />
 
-# Data Import, Export (ETL) with SQL pool/Data Import, Export (ETL) with SQL pool
+# Data Import, Export (ETL) with SQL pool/Loading Machine Learning Models
 
 ---
 {
@@ -20,7 +20,7 @@
     "subscriptionRequired": true,
     "resourceRequired": true,
     "fileAttachmentHint": "",
-    "title": "Data Import, Export (ETL) with SQL pool",
+    "title": "Loading Machine Learning Models",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -31,7 +31,7 @@
             "infoBalloonText": ""
         },
         {
-            "id": "",
+            "id": "synapse_2",
             "order": 2,
             "required": false,
             "controlType": "textbox",
