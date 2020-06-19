@@ -187,8 +187,8 @@
     {
       "id": "71c1694b-d17e-a160-7281-9dac18051ba2",
       "longDescription": "",
-      "shortDescription": "Issues Connecting to the Virtaul Machine like RDP, SSH, Firewall or NSG",
-      "searchTags": "",
+      "shortDescription": "Issues connecting to the Virtual Machine like RDP, SSH, Firewall or NSG",
+      "searchTags": "connect to vm",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "FALSE"
     },
