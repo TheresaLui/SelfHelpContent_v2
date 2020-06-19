@@ -57,12 +57,11 @@ You will see 429s if the underlying physical partition a logical partition key r
 
  As a best practice, to avoid hot partitions, [choose a good partition key](https://docs.microsoft.com/azure/cosmos-db/partitioning-overview#choose-partitionkey) that results in an even distribution of both storage and throughput. If you need to change your partition key, see this [article](https://devblogs.microsoft.com/cosmosdb/how-to-change-your-partition-key/) for instructions.
 
-
-
 ### **How do I work with autoscale programatically?**  
-Currently, you can enable autoscale on an existing database or container only through the Azure portal. 
 
-To create or manage new resources with autoscale, use the Azure portal, Azure Resource Manager, or the latest version of the .NET V3 SDK and Java V4 SDK. Support in Azure CLI, PowerShell, and other SDKs is planned, sbut not yet available.
+Currently, you can enable autoscale on an existing database or container only through the Azure portal.
+
+To create or manage new resources with autoscale, use the Azure portal, Azure Resource Manager, or the latest version of the .NET V3 SDK and Java V4 SDK. Support in Azure CLI, PowerShell, and other SDKs is planned, but not yet available.
 
 ### **Why did the autoscale max RU/s change as storage increased?**  
 For any value of max RU/s ``Tmax``, the database or container can store a total of ``0.01 * Tmax GB``. After this amount of storage is reached, the maximum RU/s will be automatically increased based on the new storage value, with no impact to your application.
