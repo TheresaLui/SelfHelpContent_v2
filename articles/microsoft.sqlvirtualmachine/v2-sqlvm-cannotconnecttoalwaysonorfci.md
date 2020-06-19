@@ -2,8 +2,8 @@
   pageTitle="cannot connect to sql server/alwayson or fci"
 	description="cannot connect to sql server/alwayson or fci"
 	infoBubbleText=""
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""
@@ -12,8 +12,8 @@
 	selfHelpType="generic"
 	supportTopicIds="32740110"
 	resourceTags="windowsSQL"
-	productPesIds="14745"
-	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
+	productPesIds="14745,16342"
+	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
 	ownershipId="AzureData_AzureSQLVM"
 />
 

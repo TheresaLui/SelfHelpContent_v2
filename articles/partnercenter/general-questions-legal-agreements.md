@@ -10,10 +10,10 @@
 	articleId="general_questions_legal_agreements"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635681,32725786"
+	supportTopicIds="32725786"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17000"
+	productPesIds="17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />

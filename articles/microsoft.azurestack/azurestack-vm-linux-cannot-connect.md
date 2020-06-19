@@ -17,6 +17,8 @@
 
 # Azure Stack Linux VM connectivity issues
 
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
 ## **Recommended Steps**
 
 **I have an issue with my public IP**

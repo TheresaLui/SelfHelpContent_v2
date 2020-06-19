@@ -10,11 +10,11 @@
 	articleId="marketplace_container_general_issues"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689430"
+	supportTopicIds="32728089,32728095,32728093"
 	resourceTags="marketplace"
-	productPesIds="15960"
+	productPesIds="17006"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # Containers - other issues

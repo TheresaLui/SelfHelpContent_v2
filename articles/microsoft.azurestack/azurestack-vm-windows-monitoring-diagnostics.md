@@ -19,6 +19,8 @@
 
 Azure Stack provides many of the same tools as Azure public cloud for VM diagnostics. **Azure Diagnostics Extension** helps you configure the VM to collect diagnostics data that can be used to monitor the health of your application. **Azure Monitor for VMs** monitors your Azure and Azure Stack virtual machines (VM) and virtual machine scale sets at scale. It analyzes the performance and health of your Windows VMs, and monitors their processes and dependencies on other resources and external processes.
 
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
 ## **Recommended Steps**
 
 - To view diagnostic information for a specific VM, select the VM in the Azure Stack portal, choose Diagnostic settings, and select the metrics you wish to track

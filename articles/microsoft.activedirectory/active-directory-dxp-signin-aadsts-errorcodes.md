@@ -14,10 +14,10 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-    ownershipId="AzureIdentity_B2B"
+    ownershipId="AzureIdentity_IdentityDiagnostics"
 />
 
-# How Do I Resolve the User Sign-in Issues? 
+# How Do I Resolve the User Sign-in Issues?
 
 <!--issueDescription-->
 Based on the information you provided we have identified following issue and recommend taking the action to resolve the issue.
