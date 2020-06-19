@@ -8,7 +8,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="1BBD6149-205A-42C1-A193-7B2C571FFFA6"
+	articleId="84515be5-f55b-43f2-bf22-de87779a91e0"
 	ownershipId="AzureData_AzureSQLDB_Security"
 />
 # Scoping questions for Firewall Errors
