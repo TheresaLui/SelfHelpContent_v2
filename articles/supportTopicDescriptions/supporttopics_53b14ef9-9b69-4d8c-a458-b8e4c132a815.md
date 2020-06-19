@@ -355,7 +355,7 @@
     {
       "id": "e577bc7a-f909-4835-5c24-3d9d7ec67029",
       "longDescription": "",
-      "shortDescription": "Questions or issues with Automated Patching for Windows Server (VM) or SQL Server and SQL server patching with Cumilative updates or service packs",
+      "shortDescription": "Questions or issues with Automated Patching for Windows Server (VM) or SQL Server and SQL server patching with Cumulative updates or service packs",
       "searchTags": "patching;automated patching;vm patching;os;vm os;setup;sql patching;CU;SP;cumilative update;Securtiy patch;service pack",
       "category": "Administration",
       "useInDiagnoseAndSolve": "TRUE"
