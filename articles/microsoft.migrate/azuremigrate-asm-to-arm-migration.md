@@ -7,11 +7,11 @@
     ms.author="snehaa"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32675728"
+    supportTopicIds="32675750"
     resourceTags=""
     productPesIds="16348"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="6ee5b08a-b24f-11ea-b3de-0242ac130004"
+    articleId="azure-migrate-asm-arm-move"
 	ownershipId="Compute_AzureMigrate"
 />
 
