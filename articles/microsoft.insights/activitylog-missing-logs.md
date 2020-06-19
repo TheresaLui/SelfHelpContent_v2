@@ -20,9 +20,9 @@ Activity logs retains the logs for 90 days, users can choose to store the logs i
 
 ## **Recommended Steps**
 
-1. Refer to the [diagnostic settings](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) to ensure it's correct setup and then setting up the destination.
-1. Refer to the [supported categories](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log-schema#next-steps) of logs supported by Activity logs.
-1. Ensure that the logs you would want to view is not older than 90 days.
+1. Refer to the [diagnostic settings](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) to ensure it's correct setup and then setting up the destination
+1. Refer to the [supported categories](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log-schema#next-steps) of logs supported by Activity logs
+1. Ensure that the logs you would want to view are not older than 90 days
 
 ## **Recommended Documents**
 
