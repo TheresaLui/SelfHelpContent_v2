@@ -171,7 +171,7 @@
     {
       "id": "6b518fc2-4819-41ca-b850-ba57e7d640ab",
       "longDescription": "",
-      "shortDescription": "Questions on commonly accepted best practices for SQL Server on Azure VM and tuning queries,indexes,SQL Server seetings to improve query execution speed",
+      "shortDescription": "Questions on commonly accepted best practices for SQL Server on Azure VM and tuning queries,indexes and improve query execution time.",
       "searchTags": "best practice;performance best practices;performance recommendations;query;query performance;qp;query optimization;indexes;tuning",
       "category": "Performance",
       "useInDiagnoseAndSolve": "FALSE"
