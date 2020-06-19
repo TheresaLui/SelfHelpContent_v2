@@ -16,6 +16,7 @@
 # <-- query-missinglogs -->
 
 If you are missing log information in the response body, it is most probably due to the fact that the response body contains sensitive information which is not logged in Activity Logs. Sensitive information includes passwords, security keys, tokens etc.
+
 If you have issues with logs missing from activity logs other than the response body, then please proceed with creating a support ticket.
 
 ## **Recommended Documents**
