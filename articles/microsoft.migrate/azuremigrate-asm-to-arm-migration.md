@@ -19,7 +19,6 @@
 
 ## **Recommended Steps**
 
-### **Please raise this issue in related service**
+### **Guidance for support ticket creation**
 
-Please go back to the previous tab, 'Basics' and select the service for the resource that you are planning to migrate. 
-For example, if you are planning to migrate a virtual machine from ASM to ARM, please select 'Virtual machines for Windows' as the service.
+Azure Migrate helps you migrate on-premises resources to Azure. For issues or queries regarding ASM to ARM migration, please go back to the previous tab, 'Basics' and select the service for the resource that you are planning to migrate. For example, if you are planning to migrate a virtual machine from ASM to ARM, please select 'Virtual machines for Windows' as the service.
