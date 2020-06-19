@@ -475,9 +475,9 @@
     {
       "id": "fe4569a4-9745-ae43-785f-812e63b668ae",
       "longDescription": "",
-      "shortDescription": "Issues Virtual Machine start, stop, restarts, Storage configuration, VM size guidelines",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issues with  Virtual Machine start, stop, restarts, Storage configuration, VM size guidelines",
+      "searchTags": "virtual machine mangement",
+      "category": "Administration",
       "useInDiagnoseAndSolve": "FALSE"
     }
   ]
