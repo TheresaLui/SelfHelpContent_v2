@@ -8,7 +8,7 @@
          productPesIds="16348"
          cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
-        articleId=""
+        articleId="6ee5b29c-b24f-11ea-b3de-0242ac130004"
 	ownershipId="Compute_AzureMigrate"
 />
 # ISV tools (non Microsoft tools)

@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16348"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="azure-migrate-asm-arm-move"
+    articleId="6ee5b08a-b24f-11ea-b3de-0242ac130004"
 	ownershipId="Compute_AzureMigrate"
 />
 
