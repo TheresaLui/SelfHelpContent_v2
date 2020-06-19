@@ -35,7 +35,7 @@
             "order": 2,
             "required": false,
             "controlType": "textbox",
-            "displayLabel": "",
+            "displayLabel": "If an error was displayed, what was the error message?",
             "watermarkText": "",
             "infoBalloonText": ""
         },
