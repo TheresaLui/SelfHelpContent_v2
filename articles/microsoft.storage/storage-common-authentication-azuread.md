@@ -6,7 +6,7 @@
 	authors="annayak"
 	ms.author="annayak"
 	displayOrder=""
-	selfHelpType="generic"
+	selfHelpType="generic,diagnoseandsolve"
 	supportTopicIds="32678715,32679285,32679299,32679292"
 	resourceTags=""
 	productPesIds="15629,16459,16461,16462,16598"
