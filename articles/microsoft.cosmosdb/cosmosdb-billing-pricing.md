@@ -33,7 +33,7 @@ In Free Tier accounts, you will get the first 400 RUs and 5 GB of storage in you
 [Azure Cosmos DB pricing](https://azure.microsoft.com/pricing/details/cosmos-db/)
 <br>This article provides Azure Cosmos DB Price and Cost estimation, and how cost are calculated.  
 
-[Estimate Request Units and Data Storage](https://www.documentdb.com/capacityplanner)
+[Estimate Request Units and Data Storage](https://cosmos.azure.com/capacitycalculator/)
 <br>Calculator to assist you in estimating your account configured capacity.
 
 [Request Units in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/request-units)

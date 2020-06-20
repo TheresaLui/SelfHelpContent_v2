@@ -37,7 +37,7 @@ Modifying indexes would result in better performance.
 ### **Cannot find the option to enable autoscale?** 
 
 * You can enable autoscale on existing databases and containers through the Azure portal. 
-* To create new databases and containers with autoscale, use the Azure portal, Azure Resource Manager template, or latest versions of the Azure Cosmos DB .NET SDK V3 or Java SDK V4.
+* To create new databases and containers with autoscale, use the Azure portal, Azure Resource Manager template, or latest versions of the Azure Cosmos DB .NET SDK V3.9+ or Java SDK V4+.
 * Support in Azure CLI, PowerShell, and other SDKs is planned, but not yet available.
 
 
@@ -51,7 +51,7 @@ You can have several options to change the throughput for your collections or da
 * [Azure CLI](https://docs.microsoft.com/cli/azure/cosmosdb/collection?view=azure-cli-latest#az-cosmosdb-collection-show)
 * [.NET SDK](https://docs.microsoft.com/azure/cosmos-db/how-to-provision-database-throughput#provision-throughput-using-net-sdk)
 * [Offers](https://docs.microsoft.com/rest/api/cosmos-db/offers)
-* You can also change to use [autoscale throughput](https://docs.microsoft.com/en-us/azure/cosmos-db/provision-throughput-autoscale)
+* You can also change to use [autoscale throughput](https://docs.microsoft.com/azure/cosmos-db/provision-throughput-autoscale)
 
 
 ## **Recommended Documents**
@@ -62,7 +62,7 @@ You can have several options to change the throughput for your collections or da
 With autoscale, Azure Cosmos DB automatically and instantly scales the throughput (RU/s) of your database or container based on usage, without impacting the availability, latency, throughput, or performance of the workload.
 
 [How to enable autoscale](https://docs.microsoft.com/azure/cosmos-db/how-to-provision-autoscale-throughput?tabs=api-async)
-<br>You can enable autoscale on existing databases and containers through the Azure portal. To create new databases and containers with autoscale, use the Azure portal, Azure Resource Manager template, or latest versions of the Azure Cosmos DB .NET SDK V3 or Java SDK V4. See this article for samples. 
+<br>You can enable autoscale on existing databases and containers through the Azure portal. To create new databases and containers with autoscale, use the Azure portal, Azure Resource Manager template, or latest versions of the Azure Cosmos DB .NET SDK V3.9+ or Java SDK V4+. See this article for samples. 
 
 [Provision throughput on containers and databases](https://docs.microsoft.com/azure/cosmos-db/set-throughput)
 <br>An Azure Cosmos database is a unit of management for a set of containers. A database consists of a set of schema-agnostic containers. An Azure Cosmos container is the unit of scalability for both throughput and storage. A container is horizontally partitioned across a set of machines within an Azure region and is distributed across all Azure regions associated with your Azure Cosmos account.  

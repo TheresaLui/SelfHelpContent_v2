@@ -57,7 +57,7 @@ Cosmos DB has a per document size limit of 2MB [Azure Cosmos DB Per-item limits.
 [How to enable autoscale on a database or container](https://docs.microsoft.com/azure/cosmos-db/how-to-provision-autoscale-throughput?tabs=api-async)
 <br> Autoscale automatically scales the RU/s of your database or container between the max RU/s you set, and 0.1 * max RU/s. 
 
-You can enable autoscale on existing resources through the Azure portal. To create new autoscale resources, use an Azure Resource Manager template or the latest versions of the Azure Cosmos DB .NET SDK V3 and Java SDK V4. See this article for samples. 
+You can enable autoscale on existing resources through the Azure portal. To create new autoscale resources, use an Azure Resource Manager template or the latest versions of the Azure Cosmos DB .NET SDK V3.9+ and Java SDK V4+. See this article for samples. 
 
 
 [Request Unit Factors](https://docs.microsoft.com/azure/cosmos-db/request-units#request-unit-considerations)

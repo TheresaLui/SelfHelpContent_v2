@@ -60,5 +60,5 @@ Azure Cosmos DB resources are charged based on the storage consumed(GB) and the 
 With autoscale, Azure Cosmos DB automatically and instantly scales the throughput (RU/s) of your database or container based on usage, without impacting the availability, latency, throughput, or performance of the workload.
 
 [How to enable autoscale](https://docs.microsoft.com/azure/cosmos-db/how-to-provision-autoscale-throughput?tabs=api-async)
-<br>You can enable autoscale on existing databases and containers through the Azure portal. To create new databases and containers with autoscale, use the Azure portal, Azure Resource Manager template, or latest versions of the Azure Cosmos DB .NET SDK V3 or Java SDK V4. See this article for samples. 
+<br>You can enable autoscale on existing databases and containers through the Azure portal. To create new databases and containers with autoscale, use the Azure portal, Azure Resource Manager template, or latest versions of the Azure Cosmos DB .NET SDK V3.9+ or Java SDK V4+. See this article for samples. 
 

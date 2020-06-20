@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Autopilot"
-    description="Troubleshoot Azure Cosmos DB throughput Autopilot issues"
+    pageTitle="Autoscale"
+    description="Troubleshoot Azure Cosmos DB throughput autoscale issues"
     service="microsoft.documentdb" 
     resource="databaseAccounts"
     authors="jimsch"
@@ -31,7 +31,7 @@ Azure Cosmos DB supports switching between autoscale and manual provisioned thro
 
 PowerShell and CLI support is planned, but not yet available. 
 
-If you are unable to do this operation via the Azure portal, and you have greater than X RU/s, file a support ticket under the **Limits and quotas** category. 
+If you are unable to do this operation via the Azure portal, and you have greater than 100,000 RU/s on a resource, file a support ticket under the **Limits and quotas** category. 
 
 ### **Unable to lower RU/s beyond the minimum**  
 When you lower the max RU/s, the minimum value you can set it to is: MAX(4000, highest max RU/s ever provisioned / 10, current storage in GB * 100), rounded to the nearest 1000 RU/s.
@@ -40,9 +40,7 @@ For a shared throughput database, when you lower the max RU/s, the minimum value
 
 You can find the history of autoscale max RU/s and storage in Azure Monitor metrics. 
 
-The above formulas and examples relate to the minimum autoscale max RU/s you can set, and is distinct from the 0.1 * Tmax to Tmax range the system automatically scales between. No matter what the max RU/s is, the system will always scale between 0.1 * Tmax to Tmax.
-
-[Learn more.](https://docs.microsoft.com/azure/cosmos-db/autoscale-faq#lowering-the-max-rus)
+The above formulas and examples relate to the minimum autoscale max RU/s you can set, and is distinct from the 0.1 * Tmax to Tmax range the system automatically scales between. No matter what the max RU/s is, the system will always scale between 0.1 * Tmax to Tmax. [Learn more.](https://docs.microsoft.com/azure/cosmos-db/autoscale-faq#lowering-the-max-rus)
 
 ### **Why am I getting throttled or seeing 429s with autoscale?**  
 It is possible to see 429s in two scenarios. 
@@ -84,7 +82,7 @@ You can have up to 25 containers in a shared throughput database in Azure Cosmos
 <br>This article covers commonly asked questions about Azure Cosmos DB autoscale
 
 [How to enable autoscale](https://docs.microsoft.com/azure/cosmos-db/how-to-provision-autoscale-throughput?tabs=api-async)
-<br>You can enable autoscale on existing resources through the Azure portal, or use the Azure Resource Manager, or latest versions of the Azure Cosmos DB .NET SDK V3 or Java SDK V4. See this article for samples. 
+<br>You can enable autoscale on existing resources through the Azure portal, or use the Azure Resource Manager, or latest versions of the Azure Cosmos DB .NET SDK V3.9+ or Java SDK V4+. See this article for samples. 
 
-[How to choose between manual and autoscale](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-choose-offer)
+[How to choose between manual and autoscale](https://docs.microsoft.com/azure/cosmos-db/how-to-choose-offer)
 <br>This article describes how to choose between standard (manual) and autoscale provisioned throughput. Learn how to understand your traffic patterns, monitor your existing applications, and determine if autoscale can help. 

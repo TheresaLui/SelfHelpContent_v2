@@ -30,7 +30,7 @@ Please check your firewall rules.  If you have recently updated your firewall, t
 Autoscale automatically scales the RU/s of your database or container between the max RU/s you set, and 0.1 * max RU/s.
 
 * You can enable autoscale on existing databases and containers through the Azure portal. 
-* To create new databases and containers with autoscale, use the Azure portal, Azure Resource Manager template, or latest versions of the Azure Cosmos DB .NET SDK V3 or Java SDK V4.
+* To create new databases and containers with autoscale, use the Azure portal, Azure Resource Manager template, or latest versions of the Azure Cosmos DB .NET SDK V3.9+ or Java SDK V4+.
 * Support in Azure CLI, PowerShell, and other SDKs is planned, but not yet available.
 
 
