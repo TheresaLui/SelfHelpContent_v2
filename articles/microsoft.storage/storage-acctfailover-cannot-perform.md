@@ -18,7 +18,8 @@
 />
 
 # Azure Account Failover Cannot Perform
-## **Recommended Action**
+
+## **Recommended Steps**
 Customer-managed account failover feature is currently unavailable due to a service bug that may impact access to the storage account after failover. We are working with priority to fix the problem, validate and deploy the fix. We apologize for the inconvenience this has caused.
 
 ## **Recommended Documents**
