@@ -5,6 +5,7 @@ infoBubbleText="Issues with your resource were detected. See details on the righ
 service="microsoft.compute"
 resource="VirtualMachine"
 authors="chadmath"
+ms.author="chadmat"
 displayOrder=""
 articleId="ComputeRcaTorReboot"
 diagnosticScenario="ComputeRcaTorReboot"
