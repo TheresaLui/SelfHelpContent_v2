@@ -48,7 +48,7 @@ Heartbeat
 
 This query displays 20 VMs with highest ingestion latency. Examine the results (RESULT column) - OK means the latency is within normal, SERVICE DELAY indicates delay on Log Analytics service side, AGENT delay signals some latency before the data reaches Log Analytics ingestion endpoint.
 
-Consult this [article](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-ingestion-time#factors-affecting-latency) for additional insights.
+Consult this [article](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#factors-affecting-latency) for additional insights.
 
 3. Check if **your resource is sending the data**. Use the following query to list the active computers that haven’t reported heartbeat recently (heartbeat is sent once a minute)
 
