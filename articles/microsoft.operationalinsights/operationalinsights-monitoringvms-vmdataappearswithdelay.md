@@ -32,6 +32,7 @@ Typical issues causing ingestion delay are:
 1. Review the **[Azure Monitor Status blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog)** for service availability and issues. If you are seeing a notification about ongoing incident - we are already working on it and will communicate through the same blog once it is resolved.
 
 2. Check for recent **latency issues** - execute the following Log Analytics query:
+
 ```
 Heartbeat
 | where TimeGenerated > ago(8h) 
@@ -50,6 +51,7 @@ This query displays 20 VMs with highest ingestion latency. Examine the results (
 Consult this [article](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-ingestion-time#factors-affecting-latency) for additional insights.
 
 3. Check if **your resource is sending the data**. Use the following query to list the active computers that haven’t reported heartbeat recently (heartbeat is sent once a minute)
+
 ```
 Heartbeat  
 | where TimeGenerated > ago(1d) //show only VMs that were active in the last day 
