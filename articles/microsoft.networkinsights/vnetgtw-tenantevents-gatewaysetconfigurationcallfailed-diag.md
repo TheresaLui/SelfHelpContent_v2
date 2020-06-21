@@ -6,13 +6,14 @@ service="microsoft.network"
 resource="VirtualNetworkGateway"
 authors="chadmath"
 displayOrder="1"
-articleId="VNGTenantEventsSetConfigurationCallFailedInsight"
-diagnosticScenario="VNGTenantEventsSetConfigurationCallFailedInsight"
+articleId="VNGTenantEventsGatewayConfigurationFailedInsight"
+diagnosticScenario="VNGTenantEventsGatewayConfigurationFailedInsight"
 selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # A platform configuration issue has been detected
 <!--issueDescription-->

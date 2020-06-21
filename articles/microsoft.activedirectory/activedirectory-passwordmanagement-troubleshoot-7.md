@@ -1,5 +1,5 @@
 <properties
-    pageTitle="I want to look through all password reset threoubleshooting content"
+    pageTitle="I want to look through all password reset troubleshooting content"
     description="Top Tips from customers - Tip 8"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
@@ -7,9 +7,11 @@
     displayOrder="800"
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
-    cloudEnvironments="public"
- />
-# I want to look through all password reset threoubleshooting content
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+ 	articleId="ca9755c2-f8fe-4b11-adb9-024ffeed4e5d"
+	ownershipId="AzureIdentity_User"
+/>
+# I want to look through all password reset troubleshooting content
 ## **Recommended steps**
 Did you know that password reset has a rich set of troubleshooting guidance and a FAQ? Chances are, if you have a question, you can find the answer to it in the links below.
 

@@ -6,13 +6,14 @@ service="microsoft.network"
 resource="VirtualNetworkGateway"
 authors="chadmath"
 displayOrder="10"
-articleId="VNGVirtualNetworkGatewayHighBandwidthUtilizationMultiSiteInsight2"
-diagnosticScenario="VNGVirtualNetworkGatewayHighBandwidthUtilizationMultiSiteInsight"
+articleId="VNGMultiSiteHighBandwidthUtilizationInsight"
+diagnosticScenario="VNGMultiSiteHighBandwidthUtilizationInsight"
 selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # The Virtual Network Gateway has high bandwidth utilization
 <!--issueDescription-->

@@ -6,9 +6,11 @@
     authors="kgremban"
     selfHelpType="generic"
     supportTopicIds="32570990"
-    productPesIds="14947"
-    cloudEnvironments="public"
-    />
+    productPesIds="14947,16579"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+    	articleId="9e0b4d86-a819-4f6a-8d67-3c9b72d1ed8f"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
+/>
 
 # Configuring Azure MFA Settings
 

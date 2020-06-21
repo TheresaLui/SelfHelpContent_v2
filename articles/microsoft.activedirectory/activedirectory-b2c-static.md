@@ -8,8 +8,10 @@
 	selfHelpType="generic"
 	supportTopicIds="32416703"
 	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
+	productPesIds="16580"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	articleId="0acebf67-f42a-44f3-8dff-463418a08e65"
+	ownershipId="AzureIdentity_B2C"
 />
 
 # Business to Consumer (B2C)

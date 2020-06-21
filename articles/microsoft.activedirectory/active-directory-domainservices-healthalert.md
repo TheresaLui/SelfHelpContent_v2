@@ -5,19 +5,22 @@
   service="microsoft.aad"
 	resource="Microsoft_AAD_DomainServices"
 	authors="jicha"
+	ms.author="jihochang"
 	displayOrder="1"
 	articleId="DomainServices_HealthAlert"
 	diagnosticScenario="DomainServicesHealthAlert"
 	selfHelpType="diagnostics"
 	supportTopicIds="Azure AD Domain Services"
 	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="public"
+	productPesIds="14785,16577"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 
 # Health Alert for Azure AD Domain Services
-
+<!--/issueDescription-->
 A health alert was detected for Azure AD Domain Services in the Azure portal. <!--$AlertDescription-->AlertDescription<!--/$AlertDescription-->
+<!--/issueDescription-->
 
 To resolve this issue, please refer to the following steps in this guide: **<!--$ResolutionLink-->ResolutionLink<!--/$ResolutionLink-->**
 

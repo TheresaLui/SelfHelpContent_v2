@@ -7,10 +7,12 @@
     displayOrder="200"
     selfHelpType="resource"
     resourceTags="sspr_passwordreset"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	articleId="7bedaf87-db7e-482b-8d50-cd4ffa87c410"
+	ownershipId="AzureIdentity_User"
 />
 
-# Problems testing password rest policy
+# Problems testing password reset policy
 
 ## **Recommended steps**
 **I reset my password but it used a different policy from the one I set in the portal**

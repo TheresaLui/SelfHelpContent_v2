@@ -10,6 +10,8 @@
 	resourceTags=""
 	productPesIds="15629"
 	cloudEnvironments="MoonCake"
+	articleId="f944c5d2-0ba9-4b2b-b1bc-07d627058388"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Migrating to Azure Premium Storage

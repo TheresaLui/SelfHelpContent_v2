@@ -1,14 +1,16 @@
 <properties
-  pageTitle="Issues that are related to Azure Active Directory Application Management"
-  description="Resolve the most common issues related to Azure Active Directory Application Management"
-  service="microsoft.aad"
-  resource="Microsoft_AAD_IAM"
-  authors="ajamess"
-  selfHelpType="generic"
-  supportTopicIds="32570274"
-  productPesIds="14785"
-  cloudEnvironments="public"
- />
+    pageTitle="Issues that are related to Azure Active Directory Application Management"
+    description="Resolve the most common issues related to Azure Active Directory Application Management"
+    service="microsoft.aad"
+    resource="Microsoft_AAD_IAM"
+    authors="ajamess"
+    selfHelpType="generic"
+    supportTopicIds="32570274"
+    productPesIds="14785,16575"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+    	articleId="eaf4bf4e-f901-4448-a298-d7f63f33ef56"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
+/>
 
 # Issues that are related to Azure Active Directory Application Management
 

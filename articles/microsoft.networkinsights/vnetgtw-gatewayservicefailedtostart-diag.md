@@ -6,13 +6,14 @@ service="microsoft.network"
 resource="VirtualNetworkGateway"
 authors="chadmath"
 displayOrder="1"
-articleId="VirtualNetworkGatewayServiceFailedToStartInsight2"
-diagnosticScenario="VirtualNetworkGatewayServiceFailedToStartInsight"
+articleId="VNGTenantLogsGatewayServiceFailedToStartInsight"
+diagnosticScenario="VNGTenantLogsGatewayServiceFailedToStartInsight"
 selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # The virtual network gateway is not started
 <!--issueDescription-->
