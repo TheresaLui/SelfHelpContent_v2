@@ -25,13 +25,13 @@ The typical delay to ingest log data is between 2 and 5 minutes. The specific la
 Typical issues causing ingestion delay are:
 * Service incidents - these are rare, but they happen. They may affect one or many types
 * Data type is inherently slow - some data types are slow. Frequently it relates to how data is being collected.
-* Customer-side delays - sometime, some VMs may introduce additonial delays. This is frequently happens becuase of the network issues or agent issue running on specific VMs
+* Customer-side delays - sometime, some VMs may introduce additional delays. This may occur due to some network issues 
 
 ## **Recommended Steps**
 
-1. Review the **[Azure Monitor Status blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog)** for service availability and issues. If you are seeing a noitification about ongoing incident - we are already working on it and will communicate through the same blog once it is resolved.
+1. Review the **[Azure Monitor Status blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog)** for service availability and issues. If you are seeing a notification about ongoing incident - we are already working on it and will communicate through the same blog once it is resolved.
 
-2. Check for recent **latency issues** - execute the follownig Log Analytics query:
+2. Check for recent **latency issues** - execute the following Log Analytics query:
 ```
 Heartbeat
 | where TimeGenerated > ago(8h) 
@@ -43,13 +43,13 @@ Heartbeat
 | top 20 by percentile_E2EIngestionLatency_95 desc
 ```
 
-*Note: you can customize threasholds in the avove query or run it on any other table*
+*Note: you can customize thresholds in the above query or run it on any table*
 
-This query displays 20 VMs with highest ingestion latency. Examine the results (RESULT column) - OK means the latency is within norma, SERVICE DELAY indicates delay on Log Analytics service side, AGENT delay signals some latency before the data reaches Log Analytics ingestion endpoint.
+This query displays 20 VMs with highest ingestion latency. Examine the results (RESULT column) - OK means the latency is within normal, SERVICE DELAY indicates delay on Log Analytics service side, AGENT delay signals some latency before the data reaches Log Analytics ingestion endpoint.
 
-Consult this [article](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-ingestion-time#factors-affecting-latency) for additonal insights.
+Consult this [article](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-ingestion-time#factors-affecting-latency) for additional insights.
 
-3. Check if **your resource is sending the data**. Use the following query to  to list the active computers that haven’t reported heartbeat recently (heartbeat is sent once a minute)
+3. Check if **your resource is sending the data**. Use the following query to list the active computers that haven’t reported heartbeat recently (heartbeat is sent once a minute)
 ```
 Heartbeat  
 | where TimeGenerated > ago(1d) //show only VMs that were active in the last day 
@@ -57,9 +57,9 @@ Heartbeat
 | top 20 by NoHeartbeatPeriod desc
 ```
 
-4. Check if the issue is related to a **new custom log table**. When a new type of custom data is created from a custom log or the Data Collector API, the system creates a dedicated storage container. This is a one-time overhead that occurs only on the first appearance of this data type. It may take 10-15 for new custom log table to be made avaialble for queires, however, this does not affect the ingestion - your data will be safely stored into the table  
+4. Check if the issue is related to a **new custom log table**. When a new type of custom data is created from a custom log or the Data Collector API, the system creates a dedicated storage container. This is a one-time overhead that occurs only on the first appearance of this data type. It may take 10-15 for new custom log table to be made avaialable, however, this does not affect the ingestion - your data will be safely stored into the table  
 
-5. Check **additonal queries** to investigate  the latency, see [this article](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-ingestion-time#checking-ingestion-time)
+5. Check **additional queries** to investigate  the latency, see [this article](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#checking-ingestion-time)
 
 ## **Recommended Documents**
 
