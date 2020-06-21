@@ -1,0 +1,18 @@
+<properties
+pageTitle="Failed to acces log portal"
+description="Failed to acces log portal"
+service="microsoft.operationalinsights"
+resource="workspaces"
+symptomID=""
+infoBubbleText=""
+authors="roygal"
+ms.author="roygal"
+displayorder=""
+selfHelpType="generic"
+supportTopicIds="32727886"
+resourceTags=""
+productPesIds="15725"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+articleId="operationalinsights-queryingworkspace-logsportalaccess"
+ownershipId="AzureMonitoring_LogAnalytics"
+/>

@@ -1,0 +1,18 @@
+<properties
+pageTitle="Query My query is slow or timing out"
+description="My query is slow or timing out"
+service="microsoft.operationalinsights"
+resource="workspaces"
+symptomID=""
+infoBubbleText=""
+authors="meirm"
+ms.author="meirm"
+displayorder=""
+selfHelpType="generic"
+supportTopicIds="32727887"
+resourceTags=""
+productPesIds="15725"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+articleId="operationalinsights-queryingworkspace-queryslowortimeout"
+ownershipId="AzureMonitoring_LogAnalytics"
+/>
