@@ -1,6 +1,7 @@
 <properties
     pageTitle="HowToQuestionsAnswerFound"
     description="HowToQuestionsAnswerFound"
+    infoBubbleText="Answer found for advisory question."
     service="microsoft.recoveryservices"
     resource="backup"
     authors="t-anmsah"
