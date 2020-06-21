@@ -29,9 +29,9 @@ Typical issues causing ingestion delay are:
 
 ## **Recommended Steps**
 
-1. Review the **[Azure Monitor Status blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog)** for service availability and issues. If you are seeing a notification about ongoing incident - we are already working on it and will communicate through the same blog once it is resolved.
+* Review the **[Azure Monitor Status blog](https://techcommunity.microsoft.com/t5/Azure-Monitor-Status/bg-p/AzureMonitorStatusBlog)** for service availability and issues. If you are seeing a notification about ongoing incident - we are already working on it and will communicate through the same blog once it is resolved.
 
-2. Check for recent **latency issues** - execute the following Log Analytics query:
+* Check for recent **latency issues** - execute the following Log Analytics query:
 
 ```
 Heartbeat
@@ -50,7 +50,7 @@ This query displays 20 VMs with highest ingestion latency. Examine the results (
 
 Consult this [article](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#factors-affecting-latency) for additional insights.
 
-3. Check if **your resource is sending the data**. Use the following query to list the active computers that haven’t reported heartbeat recently (heartbeat is sent once a minute)
+* Check if **your resource is sending the data**. Use the following query to list the active computers that haven’t reported heartbeat recently (heartbeat is sent once a minute)
 
 ```
 Heartbeat  
@@ -59,9 +59,9 @@ Heartbeat
 | top 20 by NoHeartbeatPeriod desc
 ```
 
-4. Check if the issue is related to a **new custom log table**. When a new type of custom data is created from a custom log or the Data Collector API, the system creates a dedicated storage container. This is a one-time overhead that occurs only on the first appearance of this data type. It may take 10-15 for new custom log table to be made available, however, this does not affect the ingestion - your data will be safely stored into the table  
+* Check if the issue is related to a **new custom log table**. When a new type of custom data is created from a custom log or the Data Collector API, the system creates a dedicated storage container. This is a one-time overhead that occurs only on the first appearance of this data type. It may take 10-15 for new custom log table to be made available, however, this does not affect the ingestion - your data will be safely stored into the table  
 
-5. Check **additional queries** to investigate  the latency, see [this article](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#checking-ingestion-time)
+* Check **additional queries** to investigate  the latency, see [this article](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#checking-ingestion-time)
 
 ## **Recommended Documents**
 
