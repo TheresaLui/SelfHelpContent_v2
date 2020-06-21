@@ -59,7 +59,7 @@ Heartbeat
 | top 20 by NoHeartbeatPeriod desc
 ```
 
-4. Check if the issue is related to a **new custom log table**. When a new type of custom data is created from a custom log or the Data Collector API, the system creates a dedicated storage container. This is a one-time overhead that occurs only on the first appearance of this data type. It may take 10-15 for new custom log table to be made avaialable, however, this does not affect the ingestion - your data will be safely stored into the table  
+4. Check if the issue is related to a **new custom log table**. When a new type of custom data is created from a custom log or the Data Collector API, the system creates a dedicated storage container. This is a one-time overhead that occurs only on the first appearance of this data type. It may take 10-15 for new custom log table to be made available, however, this does not affect the ingestion - your data will be safely stored into the table  
 
 5. Check **additional queries** to investigate  the latency, see [this article](https://docs.microsoft.com/azure/azure-monitor/platform/data-ingestion-time#checking-ingestion-time)
 
