@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "78d61090-2f1f-f9cc-1108-16dfb6aa5383",
+      "longDescription": "",
+      "shortDescription": "Issue while linking and unlinking an Azure Automation account. For better troubleshooting content, please raise this issue on the Automation product",
+      "searchTags": "Automation;linking;unlinking",
+      "category": "Workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7bf12a35-1ea2-549e-899d-49c288732c92",
       "longDescription": "",
       "shortDescription": "I have tried to create, update or modify an alert rule in the Azure portal, but I am getting an error, or I do not know how to create it",
