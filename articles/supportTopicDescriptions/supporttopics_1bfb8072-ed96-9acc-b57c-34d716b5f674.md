@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3aa3064e-3ba8-1473-2ffc-b22605146cfe",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot when many instances of agent related processes are running (OMSAGENT, OMISERVER, OMIAGENT)",
+      "searchTags": "Log Analytics;Agents;OMS;performance;VM",
+      "category": "Data Collection",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6d4e512e-07af-5da6-8365-a3f00dcb7edb",
       "longDescription": "",
       "shortDescription": "Troubleshoot agent uninstallation issues",
