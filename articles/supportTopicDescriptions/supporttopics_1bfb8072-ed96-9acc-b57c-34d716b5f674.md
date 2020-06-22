@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "23945c76-b6c2-84a1-8258-bc3f3a95b001",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with Windows events within Log Analytics environment",
+      "searchTags": "Windows events",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2c0b4df2-2497-9c34-488f-d0795d77a2c2",
       "longDescription": "",
       "shortDescription": "Troubleshoot Update Compliance solution data collection and visualization issues.",
