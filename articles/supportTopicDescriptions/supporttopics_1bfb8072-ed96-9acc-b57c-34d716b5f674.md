@@ -350,6 +350,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d340ebfa-0927-768a-daa5-e64d25ebbb9a",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related to connecting Grafana to Log Analytics environment",
+      "searchTags": "Grafana",
+      "category": "Portal and visualization",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d4bf9cc9-faef-cc69-71eb-097b5c3b4cb1",
       "longDescription": "",
       "shortDescription": "Investigate high memory usage caused by the OMS agent process (OMSAGENT)",
