@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3bc0c89d-ef6b-ee87-048b-6a84a8cd210f",
+      "longDescription": "",
+      "shortDescription": "Investigate high memory usage caused by one of the OMI processes (OMISERVER, OMIAGENT)",
+      "searchTags": "Log Analytics;OMI;Agents;memory",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6d4e512e-07af-5da6-8365-a3f00dcb7edb",
       "longDescription": "",
       "shortDescription": "Troubleshoot agent uninstallation issues",
