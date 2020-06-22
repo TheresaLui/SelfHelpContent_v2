@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0eac147a-eddf-c6d8-0c3a-67dddf1882d7",
+      "longDescription": "",
+      "shortDescription": "For OnDemand assessments prerequisites, configuration and recommendations issues, please raise your issue on the Services Hub portal.",
+      "searchTags": "Service hub;Assesments;Solution",
+      "category": "Solutions and Azure Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "10aca9fd-ed40-a91d-6477-af3f8db98c95",
       "longDescription": "",
       "shortDescription": "Issues related with the Windows Log Analytics agent (also known as MMA agent)",
