@@ -6,7 +6,7 @@
           articleId="158f0a07-0a66-4a25-9e37-c43c49c8dd64"
           selfHelpType="advisorRecommendationMetadata"
           cloudEnvironments="Public"
-          ownershipId=""
+          ownershipId="Compute_ComputePlatform"
 />
 
 # Recommend upgrading to a more recent SDK API version.
