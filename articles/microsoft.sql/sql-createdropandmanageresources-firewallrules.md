@@ -47,7 +47,7 @@ These can be managed only using T-SQL.
 * [sp_set_database_firewall_rule](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-set-database-firewall-rule-azure-sql-database)
 * [sp_delete_database_firewall_rule](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-delete-database-firewall-rule-azure-sql-database)
 
-## **Troubleshooting the database firewall**
+### **Troubleshooting the database firewall**
 
 If you are seeing that the firewall rules are not behaving as expected, please follow the [recommendations](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid%3A13491%3Asid%3A32630421%2F#troubleshoot-the-database-firewall)
 

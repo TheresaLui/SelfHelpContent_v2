@@ -20,7 +20,7 @@ Azure Resource Manager templates enable you to define your infrastructure as cod
 
 [List of available templates for Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/arm-templates-content-guide?tabs=single-database)
 
-If you are using a template and facing isssues, Azure Resource Manager enables you to view your deployment history. You can examine specific operations in past deployments and see which resources were deployed. This history also contains information about any errors.
+If you are using a template and facing issues, Azure Resource Manager enables you to view your deployment history. You can examine specific operations in past deployments and see which resources were deployed. This history also contains information about any errors.
 
 * [View Deployment History](https://docs.microsoft.com/azure/azure-resource-manager/templates/deployment-history?tabs=azure-portal)
 * [Troubleshoot common deployment errors with ARM](https://docs.microsoft.com/azure/azure-resource-manager/templates/common-deployment-errors)
