@@ -334,6 +334,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e59edf31-8fdf-a805-2bd6-5903cfbbde9c",
+      "longDescription": "",
+      "shortDescription": "Issues related with Syslog data analysis",
+      "searchTags": "syslog;data analysis",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "eb40c2d7-31ba-113a-9454-118b93ee8dbe",
       "longDescription": "",
       "shortDescription": "Issues related to security, privacy and compliance aspects of Log Analytics data handling",
