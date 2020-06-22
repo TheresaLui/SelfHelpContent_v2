@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "99a9e88d-8597-6405-f244-633568b9deab",
+      "longDescription": "",
+      "shortDescription": "Investigate high processor (CPU) usage caused by the OMS agent process (OMSAGENT)",
+      "searchTags": "Log Analytics;OMS;Agents;CPU",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b6d30d09-8e6c-1e77-7d18-d3f590dc9212",
       "longDescription": "",
       "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing",
