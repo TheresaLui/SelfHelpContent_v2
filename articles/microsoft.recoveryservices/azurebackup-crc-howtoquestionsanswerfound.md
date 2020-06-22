@@ -19,6 +19,6 @@
 
 # HowToQuestionsAnswerFound
 <!--issueDescription-->
-Here is the **suggested answer** based on the information you provided: test 2:
+Here is the **suggested answer** based on the information you provided:
 <!--$MatchedAnswer-->MatchedAnswer<!--/$MatchedAnswer-->
 <!--/issueDescription-->
