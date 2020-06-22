@@ -350,6 +350,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e1d6454a-a824-7905-6e7f-7359d0ddeb0a",
+      "longDescription": "",
+      "shortDescription": "Investigate visualization issues with Azure Dashboards in Log Analytics workspace",
+      "searchTags": "Dashboards;workspace;Log Analytics;visualization",
+      "category": "Portal and visualization",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e59edf31-8fdf-a805-2bd6-5903cfbbde9c",
       "longDescription": "",
       "shortDescription": "Issues related with Syslog data analysis",
