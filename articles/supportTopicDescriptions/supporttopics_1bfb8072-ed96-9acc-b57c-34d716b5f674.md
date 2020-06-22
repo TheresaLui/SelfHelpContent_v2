@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ebf41f04-0371-eabe-8e01-e3425b851837",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related to Log Analytics workspaces",
+      "searchTags": "Log Analytics;Workspace",
+      "category": "Workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f193fd31-6be9-6a5d-6659-0baff702482a",
       "longDescription": "",
       "shortDescription": "Investigate issues when one or more of agent processes is using too much CPU or memory (HEALTHSERVICE.EXE, MONITORINGHOST.EXE)",
