@@ -17,10 +17,13 @@
 
 # Issue with delete vault
 
-## **Recommended Documents**
+## **Recommended Steps**
+
 * You can't delete a Recovery Services vault with any of the following dependencies:
-  * You can't delete a vault that contains protected data sources (for example, IaaS VMs, SQL databases, Azure file shares, etc.)
-  * You can't delete a vault that contains backup data. Once backup data is deleted, it will go into the soft deleted state.
-  * You can't delete a vault that contains backup data in the soft deleted state.
-  * You can't delete a vault that has registered storage accounts.
-* For **step-by-step instructions to permanently delete vault** refer this [article](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#proper-way-to-delete-a-vault).
+  
+  * Vault contains protected data sources (for example, IaaS VMs, SQL databases, Azure file shares, etc.)
+  * Vault contains backup data. Once backup data is deleted, it will go into the soft deleted state.
+  * Vault contains backup data in the soft deleted state
+  * Vault has registered storage accounts
+  
+* For **step-by-step instructions to permanently delete vault** refer to this [article](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#proper-way-to-delete-a-vault)
