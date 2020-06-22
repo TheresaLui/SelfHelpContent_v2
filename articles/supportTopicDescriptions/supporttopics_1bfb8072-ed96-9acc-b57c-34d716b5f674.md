@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "aeb97539-7853-1596-e409-26507c873ebe",
+      "longDescription": "",
+      "shortDescription": "Issues related with the recovery Log Analytics workspaces, while using Azure Portal, PowerShell, Azure CLI, Rest API or ARM templates",
+      "searchTags": "Log Analytics;Recovery",
+      "category": "Workspace",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b6d30d09-8e6c-1e77-7d18-d3f590dc9212",
       "longDescription": "",
       "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing",
