@@ -10,7 +10,7 @@
     selfHelpType="generic"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
-    supportTopicIds="32632981"
+    supportTopicIds="32632981,32729605"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
