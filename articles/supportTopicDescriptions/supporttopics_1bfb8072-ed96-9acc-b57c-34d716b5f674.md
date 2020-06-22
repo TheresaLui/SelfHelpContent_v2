@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6ce9e032-88ec-82a1-a8b5-8dbfd2dd571d",
+      "longDescription": "",
+      "shortDescription": "Issues related to visualization issues within Log Analytics workspace",
+      "searchTags": "visualization;workspace",
+      "category": "Portal and visualization",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6d4e512e-07af-5da6-8365-a3f00dcb7edb",
       "longDescription": "",
       "shortDescription": "Troubleshoot agent uninstallation issues",
