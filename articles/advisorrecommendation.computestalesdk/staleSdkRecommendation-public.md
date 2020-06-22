@@ -12,7 +12,7 @@
 # Recommend upgrading to a more recent SDK API version.
 ---
 { 
-"recommendationOfferingId": "",
+"recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
 "recommendationOfferingName": "Virtual Machines",
 "$schema": "AdvisorRecommendation",
 "recommendationTypeId": "",
