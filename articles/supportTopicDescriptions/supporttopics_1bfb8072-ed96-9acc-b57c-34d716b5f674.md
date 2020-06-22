@@ -222,6 +222,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "eb40c2d7-31ba-113a-9454-118b93ee8dbe",
+      "longDescription": "",
+      "shortDescription": "Issues related to security, privacy and compliance aspects of Log Analytics data handling",
+      "searchTags": "Log Analytics;Workspace;security;privacy;compliance",
+      "category": "Billing and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ebf41f04-0371-eabe-8e01-e3425b851837",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues related to Log Analytics workspaces",
