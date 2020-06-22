@@ -30,7 +30,7 @@
          "serviceTreeId": "ae53b53f-9347-4198-b9b7-ff4b8228d6a7"
   },
   "version": 1.0,
-  "learnMoreLink": "https://github.com/Azure/azure-sdk/blob/master/README.md",
+  "learnMoreLink": "https://github.com/Azure/azure-sdk/blob/master/README.md#azure-sdk",
   "description": "Upgrade to the recommended SDK version to ensure you avoid performance issues.",
   "longDescription": "You have recently invoked an SDK version that is significantly out of date. The old SDK can lead to the utilization of processes that later versions improved. If many SDK versions are out of date, the inefficient processes can compound and lead to significant problems. Regularly updating to more recent SDK versions will help prevent this.",
   "potentialBenefits": "Ensure business continuity through API improvements.",
