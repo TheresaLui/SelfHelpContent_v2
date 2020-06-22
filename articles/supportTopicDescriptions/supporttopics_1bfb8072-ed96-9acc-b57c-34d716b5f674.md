@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "40645054-c873-c723-3485-cb959f477c47",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot agent installation failures",
+      "searchTags": "MMA;Agent",
+      "category": "Agents",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6d4e512e-07af-5da6-8365-a3f00dcb7edb",
       "longDescription": "",
       "shortDescription": "Troubleshoot agent uninstallation issues",
