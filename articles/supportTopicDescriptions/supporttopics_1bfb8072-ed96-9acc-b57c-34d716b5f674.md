@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2c0b4df2-2497-9c34-488f-d0795d77a2c2",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot Update Compliance solution data collection and visualization issues.",
+      "searchTags": "Update Compliance;data colletion;solution",
+      "category": "Solutions and Azure Resources",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "314d31e0-2bfe-54d3-fff5-4644edb9bb01",
       "longDescription": "",
       "shortDescription": "Issues related with the Linux Log Analytics agent (previously known as OMS agent)",
