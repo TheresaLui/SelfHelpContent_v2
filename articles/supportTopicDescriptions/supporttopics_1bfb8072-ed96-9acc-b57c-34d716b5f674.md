@@ -116,6 +116,14 @@
       "searchTags": "Log Analytics;Agents;OMS;Performance;Memory",
       "category": "Performance",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "f193fd31-6be9-6a5d-6659-0baff702482a",
+      "longDescription": "",
+      "shortDescription": "Investigate issues when one or more of agent processes is using too much CPU or memory (HEALTHSERVICE.EXE, MONITORINGHOST.EXE)",
+      "searchTags": "Log Analytics;MMA;CPU;Agents;Performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
