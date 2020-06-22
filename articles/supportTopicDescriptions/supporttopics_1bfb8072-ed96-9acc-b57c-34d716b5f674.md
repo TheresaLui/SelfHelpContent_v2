@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "94167379-b342-2514-f031-8352c49d1659",
+      "longDescription": "",
+      "shortDescription": "A log search alert fired but it should not have",
+      "searchTags": "Alerts;Log Analytics",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "99a9e88d-8597-6405-f244-633568b9deab",
       "longDescription": "",
       "shortDescription": "Investigate high processor (CPU) usage caused by the OMS agent process (OMSAGENT)",
