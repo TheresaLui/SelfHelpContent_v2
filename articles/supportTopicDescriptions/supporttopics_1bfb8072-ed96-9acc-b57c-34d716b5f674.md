@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "64b4915e-677b-fa83-71d6-e36d1f8fde1e",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related with Azure Activity Logs data collection and analysis",
+      "searchTags": "Activity logs;data collection;analysis",
+      "category": "Solutions and Azure Resources",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6d4e512e-07af-5da6-8365-a3f00dcb7edb",
       "longDescription": "",
       "shortDescription": "Troubleshoot agent uninstallation issues",
