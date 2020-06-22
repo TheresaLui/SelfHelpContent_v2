@@ -19,7 +19,7 @@
 "recommendationCategory": "Performance", 
 "recommendationImpact": "High",
 "recommendationResourceType": "",
-"recommendationFriendlyName": "UpgradeSDKVersion",
+"recommendationFriendlyName": "UpdateSDKVersion",
 "recommendationMetadataState": "Active",
 "owner": 
   { "email": "cplatsdkdev@microsoft.com", 
