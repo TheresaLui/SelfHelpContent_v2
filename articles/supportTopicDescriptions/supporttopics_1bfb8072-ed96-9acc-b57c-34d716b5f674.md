@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b6d30d09-8e6c-1e77-7d18-d3f590dc9212",
+      "longDescription": "",
+      "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing",
+      "searchTags": "Log Analytics;Agents;Data Collection;OMS",
+      "category": "Agents",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ce5af84c-902c-0cfe-f2d2-ba655bbe5861",
       "longDescription": "",
       "shortDescription": "Issues when one or more of agent related processes are crashing (OMSAGENT, OMISERVER, OMIAGENT)",
