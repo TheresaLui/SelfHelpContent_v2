@@ -10,10 +10,10 @@
 	articleId="azure_plan_earned_credits"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32684680,32692604"
+	supportTopicIds="32692604,32725891"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17003"
+	productPesIds="17003,17012"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />

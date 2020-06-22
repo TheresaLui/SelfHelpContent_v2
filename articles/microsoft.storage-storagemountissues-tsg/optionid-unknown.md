@@ -18,15 +18,15 @@
 **Symptom**
 
 1. The customer is trying to map a network drive with net use. The Storage Account key contains a forward slash.
-2. When they try to map the drive, they may receive an error message that resembles the following: The option ID == is unknown
+2. When they try to map the drive, they may receive an error message that resembles the following: The option ID == is unknown.
 
 **Cause**
 
-The Command Interpreter (cmd.exe) is interpreting everything after the forward slash (/) as a command line option.
+The Command Interpreter (cmd.exe) is interpreting everything after the forward slash (/) as a command line option
 
 **Resolution**
 
-To fix this issue, you can use PowerShell to map the network drive, as PowerShell will not interpret the forward slash as a command-line option.
+To fix this issue, you can use PowerShell to map the network drive, as PowerShell will not interpret the forward slash as a command-line option
 
 
 **Using PowerShell by itself**

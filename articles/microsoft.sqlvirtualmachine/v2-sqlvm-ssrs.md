@@ -1,8 +1,8 @@
 <properties
 	pageTitle="SQL Server Reporting Services (SSRS)"
 	description="SQL Server Reporting Services (SSRS)"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"
     authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""

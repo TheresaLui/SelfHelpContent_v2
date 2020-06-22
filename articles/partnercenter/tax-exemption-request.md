@@ -10,12 +10,12 @@
 	articleId="partnercenter_tax_exemption_request"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635701,32692609"
+	supportTopicIds="32725811,32692609"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17003"
+	productPesIds="17000,17003"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Billing_and_Invoicing"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Tax exemption request
 
