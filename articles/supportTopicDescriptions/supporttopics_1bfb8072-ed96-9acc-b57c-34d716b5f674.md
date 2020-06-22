@@ -28,6 +28,14 @@
       "searchTags": "Log Analytics;Agent;OMS;Collect",
       "category": "Data Collection",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "ce5af84c-902c-0cfe-f2d2-ba655bbe5861",
+      "longDescription": "",
+      "shortDescription": "Issues when one or more of agent related processes are crashing (OMSAGENT, OMISERVER, OMIAGENT)",
+      "searchTags": "Log Analytics;Agents;Data Collection;Process Crash;OMS",
+      "category": "Data Collection",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
