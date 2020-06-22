@@ -350,6 +350,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "eff3bd58-daa9-cc73-369b-82a31155f1b1",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related with the Service Map solution, including issue with the Dependency agent",
+      "searchTags": "Service Map;Dependency agent",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f193fd31-6be9-6a5d-6659-0baff702482a",
       "longDescription": "",
       "shortDescription": "Investigate issues when one or more of agent processes is using too much CPU or memory (HEALTHSERVICE.EXE, MONITORINGHOST.EXE)",
