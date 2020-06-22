@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6e4c91f3-88ca-467b-ad97-9b1b8e311306",
+      "longDescription": "",
+      "shortDescription": "Issues related with ARM templates (authoring and deployment), Log Analytics PowerShell module cmdlets and Log Analytics Azure CLI commands.",
+      "searchTags": "Log Analytics;Workspaces",
+      "category": "Workspaces",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7bf12a35-1ea2-549e-899d-49c288732c92",
       "longDescription": "",
       "shortDescription": "I have tried to create, update or modify an alert rule in the Azure portal, but I am getting an error, or I do not know how to create it",
