@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "8c548d25-8725-5de5-6124-7045f615264f",
+      "longDescription": "",
+      "shortDescription": "I received the alert, but some of its fields are missing or incorrect",
+      "searchTags": "Alerts;Log Analytics",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "99a9e88d-8597-6405-f244-633568b9deab",
       "longDescription": "",
       "shortDescription": "Investigate high processor (CPU) usage caused by the OMS agent process (OMSAGENT)",
