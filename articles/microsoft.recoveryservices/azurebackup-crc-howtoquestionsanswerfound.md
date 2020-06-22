@@ -22,4 +22,4 @@
 Here is the **suggested answer** based on the information you provided:
 <!--/issueDescription-->
 
-<!--$MatchedAnswer-->[MatchedAnswer]<!--/$MatchedAnswer-->
+<!--$MatchedAnswer-->MatchedAnswer<!--/$MatchedAnswer-->
