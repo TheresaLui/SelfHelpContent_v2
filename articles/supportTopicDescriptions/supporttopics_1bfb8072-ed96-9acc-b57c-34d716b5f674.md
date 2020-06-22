@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "34ee4c48-dc0a-4b7f-0714-895cabd00e47",
+      "longDescription": "",
+      "shortDescription": "I am getting an error or do not know how to perform a specific configuration of log search alert with ARM templates, REST API, Azure CLI or CmdLets",
+      "searchTags": "Alerts;Log Analytics",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "3aa3064e-3ba8-1473-2ffc-b22605146cfe",
       "longDescription": "",
       "shortDescription": "Troubleshoot when many instances of agent related processes are running (OMSAGENT, OMISERVER, OMIAGENT)",
