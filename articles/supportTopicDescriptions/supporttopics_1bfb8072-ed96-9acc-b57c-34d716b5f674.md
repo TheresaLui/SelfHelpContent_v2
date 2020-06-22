@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "0db24733-52f0-5093-c414-2805551c8052",
+      "longDescription": "",
+      "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its email",
+      "searchTags": "Alerts;Search",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "10aca9fd-ed40-a91d-6477-af3f8db98c95",
       "longDescription": "",
       "shortDescription": "Issues related with the Windows Log Analytics agent (also known as MMA agent)",
