@@ -3,7 +3,7 @@
           description ="Send a recommendation that the user should update their SDK version to the most recent major version."
           authors="adsandor"
           ms.author="cplatsdkdev"
-          articleId=""
+          articleId="158f0a07-0a66-4a25-9e37-c43c49c8dd64"
           selfHelpType="advisorRecommendationMetadata"
           cloudEnvironments="Public"
           ownershipId=""
@@ -15,7 +15,7 @@
 "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
 "recommendationOfferingName": "Virtual Machines",
 "$schema": "AdvisorRecommendation",
-"recommendationTypeId": "",
+"recommendationTypeId": "158f0a07-0a66-4a25-9e37-c43c49c8dd64",
 "recommendationCategory": "Performance", 
 "recommendationImpact": "High",
 "recommendationResourceType": "",
