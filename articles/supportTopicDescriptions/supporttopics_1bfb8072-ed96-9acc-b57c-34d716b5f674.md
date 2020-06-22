@@ -446,6 +446,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f0a7aa31-8768-37d2-08e1-3f5a65c74151",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues when it is not possible to create, modify or delete a view in View Designer",
+      "searchTags": "View Designer",
+      "category": "Portal and visualization",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f193fd31-6be9-6a5d-6659-0baff702482a",
       "longDescription": "",
       "shortDescription": "Investigate issues when one or more of agent processes is using too much CPU or memory (HEALTHSERVICE.EXE, MONITORINGHOST.EXE)",
