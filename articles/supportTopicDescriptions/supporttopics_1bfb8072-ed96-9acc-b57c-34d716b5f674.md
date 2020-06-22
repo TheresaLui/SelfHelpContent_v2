@@ -350,6 +350,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c6d2ee35-d81a-de56-258b-7e51e3e52e04",
+      "longDescription": "",
+      "shortDescription": "Investigate query execution performance issues, when the query either takes too long or times out",
+      "searchTags": "performance;times out;too long;query;log analytics",
+      "category": "Query Execution",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "cd8d9ea2-8d77-4239-9d47-3381bcdd6cb8",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues related with monitoring Container environments (AKS, hosted, and OnPrem)",
