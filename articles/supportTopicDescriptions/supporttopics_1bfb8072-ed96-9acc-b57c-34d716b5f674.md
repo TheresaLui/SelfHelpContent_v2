@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bc68e868-6cb7-7831-4cc0-b23dcdf05237",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related with sending Diagnostic Logs data from Azure resources to a Log Analytics workspace",
+      "searchTags": "Diagnostic logs;workspaces",
+      "category": "Solutions and Azure Resources",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bd83dd2f-282f-8d65-2a2d-6923272787ce",
       "longDescription": "",
       "shortDescription": "Investigate issues when one or more of agent processes are crashing (HEALTHSERVICE.EXE, MONITORINGHOST.EXE)",
