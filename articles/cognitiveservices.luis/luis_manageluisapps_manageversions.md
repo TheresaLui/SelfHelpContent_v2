@@ -1,5 +1,5 @@
 <properties
-pageTitle="Manage Versions"
+pageTitle="manage-versions"
 description="Understanding how to work and manage versions"
 service="microsoft.CognitiveServices"
 resource="accounts"
@@ -15,8 +15,9 @@ ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # Manage Versions or Export and Import
+## **Recommended Steps**
 
-## **Getting started**
+### **Getting started**
 
 * Versions are copies of your active model, that allows you to build, edit and test different models without impacting staging or production applications.
 * It allows you to compare and contrast between different stages of an application.
@@ -26,7 +27,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 * When exporting, choose "JSON" to export for backup and choose **Export for container** to use this app in a [LUIS container](https://docs.microsoft.com/azure/cognitive-services/luis/luis-container-howto?tabs=v3).
 * [Manage contributor changes with versions](https://docs.microsoft.com/azure/cognitive-services/LUIS/luis-concept-app-iteration#manage-contributor-changes-with-versions-and-contributors).
 
-## **Troubleshoot Version Errors**
+### **Troubleshoot Version Errors**
 
 * If you get a **tokenizer error** when importing, then you are trying to import a version that uses a different tokenizer than the app currently uses. To fix this, [Migrating between tokenizer versions](https://docs.microsoft.com/azure/cognitive-services/luis/luis-language-support#migrating-between-tokenizer-versions).
 * [Read more about tokenization](https://docs.microsoft.com/azure/cognitive-services/luis/luis-language-support#tokenization) and [custom tokenization versions](https://docs.microsoft.com/azure/cognitive-services/luis/luis-language-support#custom-tokenizer-versions).

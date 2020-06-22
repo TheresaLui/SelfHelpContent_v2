@@ -1,5 +1,5 @@
 <properties
-pageTitle="Model deletion or backup"
+pageTitle="model-deletion-or-backup"
 description="Model deletion or backup"
 service="microsoft.CognitiveServices"
 resource="accounts"
@@ -15,6 +15,8 @@ ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # LUIS Models Deletion or Backup
+
+## **Recommended Steps**
 
 * You have full control to [delete any user content](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-user-privacy#deleting-customer-data), either through the LUIS web portal or the LUIS Authoring (also known as Programmatic) APIs. You have the ability to:
     * Delete Account

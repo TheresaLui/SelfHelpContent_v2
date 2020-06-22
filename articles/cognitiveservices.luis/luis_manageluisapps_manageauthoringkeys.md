@@ -1,5 +1,5 @@
 <properties
-pageTitle="Manage LUIS Apps and Migrations"
+pageTitle="manage-luis-apps-and-migrations"
 description="Understanding and troubleshooting for migrations"
 service="microsoft.CognitiveServices"
 resource="accounts"
@@ -16,11 +16,11 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 # Manage Authoring Keys
 
-## **Getting started**
+## **Recommended Steps**
 
-* To link Azure Authoring keys or resources on your application, you must first [Migrate you account](https://docs.microsoft.com/azure/cognitive-services/luis/luis-migration-authoring#what-is-migration).
+* To link Azure Authoring keys or resources on your application, you must first [Migrate your account](https://docs.microsoft.com/azure/cognitive-services/luis/luis-migration-authoring#what-is-migration).
 
-* To Migrate, you need to create a new authoring resource, **make sure it is an authoring and not a runtime/prediction LUIS resource**, either from the [LUIS portal](https://docs.microsoft.com/azure/cognitive-services/luis/luis-migration-authoring#migration-steps)or from the [Azure portal](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#create-luis-resources-in-azure-portal).
+* To Migrate, you need to create a new authoring resource, **make sure it is an authoring and not a runtime/prediction LUIS resource**, either from the [LUIS Portal](https://docs.microsoft.com/azure/cognitive-services/luis/luis-migration-authoring#migration-steps)or from the [Azure portal](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#create-luis-resources-in-azure-portal).
 
 * Create [authoring resources in Azure CLI](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#create-resources-in-azure-cli).
 
