@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7bf12a35-1ea2-549e-899d-49c288732c92",
+      "longDescription": "",
+      "shortDescription": "I have tried to create, update or modify an alert rule in the Azure portal, but I am getting an error, or I do not know how to create it",
+      "searchTags": "Log Analytics;Alerts",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8c548d25-8725-5de5-6124-7045f615264f",
       "longDescription": "",
       "shortDescription": "I received the alert, but some of its fields are missing or incorrect",
