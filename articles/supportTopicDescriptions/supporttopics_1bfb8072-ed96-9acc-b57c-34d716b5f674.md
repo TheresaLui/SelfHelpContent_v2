@@ -302,6 +302,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b38335b0-6c72-f78f-671f-a4002e517954",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot errors generated while trying to access the azure logs blade in Log Analytics workspace",
+      "searchTags": "access;log analytics;portal",
+      "category": "Query Execution",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b69e3143-055d-7d33-897c-30bcb43fd49d",
       "longDescription": "",
       "shortDescription": "Investigate issues related to collecting logs from other Azure resources and Solutions (for VMs issues use the Agent topic)",
