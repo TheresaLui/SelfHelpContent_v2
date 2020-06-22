@@ -238,6 +238,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "adfccda7-c815-5ba3-9160-96c5e7fbab6f",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with Windows or Linux performance counters within Log Analytics environment",
+      "searchTags": "performance counters;workspace",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "aeb97539-7853-1596-e409-26507c873ebe",
       "longDescription": "",
       "shortDescription": "Issues related with the recovery Log Analytics workspaces, while using Azure Portal, PowerShell, Azure CLI, Rest API or ARM templates",
