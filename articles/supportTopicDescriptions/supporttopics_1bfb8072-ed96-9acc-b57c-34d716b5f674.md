@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a720a040-57f2-8f4c-fcc8-feab03e15004",
+      "longDescription": "",
+      "shortDescription": "The action happen long time after the alert arrived to the portal",
+      "searchTags": "Alerts;Search;Log Analytics",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b6d30d09-8e6c-1e77-7d18-d3f590dc9212",
       "longDescription": "",
       "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing",
