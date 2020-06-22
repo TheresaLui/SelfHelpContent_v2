@@ -1,0 +1,33 @@
+<properties
+  pagetitle="SupportTopicDescriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674"
+  description="SupportTopicDescriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674"
+  authors="elixirsys2"
+  ms.author="shemers"
+  selfhelptype="SupportTopicDescription"
+  productpesids="1bfb8072-ed96-9acc-b57c-34d716b5f674"
+  cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  articleid="supporttopics_1bfb8072-ed96-9acc-b57c-34d716b5f674" />
+# Support Topic Descriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674
+---
+{
+  "$schema": "SelfHelpContent",
+  "shortDescription": null,
+  "longDescription": null,
+  "productLink1": null,
+  "productLinkName1": null,
+  "productLink2": null,
+  "productLinkName2": null,
+  "productLink3": null,
+  "productLinkName3": null,
+  "supportTopics": [
+    {
+      "id": "314d31e0-2bfe-54d3-fff5-4644edb9bb01",
+      "longDescription": "",
+      "shortDescription": "Issues related with the Linux Log Analytics agent (previously known as OMS agent)",
+      "searchTags": "Log Analytics;Agent;OMS;Collect",
+      "category": "Data Collection",
+      "useInDiagnoseAndSolve": "false"
+    }
+  ]
+}
+---
