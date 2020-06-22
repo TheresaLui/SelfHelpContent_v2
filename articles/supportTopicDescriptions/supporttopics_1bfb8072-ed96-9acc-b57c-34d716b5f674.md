@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "429ce77a-1237-b75c-3107-a0fca3c4d9b8",
+      "longDescription": "",
+      "shortDescription": "Issues related to Log Analytics billing volume such as setting retention, daily cap, capacity reservation, or investigating unexpected high ingestion.",
+      "searchTags": "Log Analytics;Workspace;Billing",
+      "category": "Billing and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5e55f0c0-2f77-73cc-0de5-f301685b1932",
       "longDescription": "",
       "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing",
