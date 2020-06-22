@@ -142,6 +142,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5457385e-c3fd-237f-87f3-65212e347d44",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues when a query does not execute and return an error.",
+      "searchTags": "execute;error;log analytics;query;fail",
+      "category": "Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5e55f0c0-2f77-73cc-0de5-f301685b1932",
       "longDescription": "",
       "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing",
