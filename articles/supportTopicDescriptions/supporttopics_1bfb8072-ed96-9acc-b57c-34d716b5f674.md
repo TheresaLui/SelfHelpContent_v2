@@ -222,6 +222,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a45a3747-d2ef-8c4c-ae52-b44379bb8454",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with the integration with System Center Operations Manager (SCOM) or issues related with the Log Analytics Gateway",
+      "searchTags": "SCOM;System Center;Log Analytics Gateway",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a720a040-57f2-8f4c-fcc8-feab03e15004",
       "longDescription": "",
       "shortDescription": "The action happen long time after the alert arrived to the portal",
