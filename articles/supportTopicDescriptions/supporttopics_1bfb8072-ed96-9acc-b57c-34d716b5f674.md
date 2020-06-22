@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b69e3143-055d-7d33-897c-30bcb43fd49d",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related to collecting logs from other Azure resources and Solutions (for VMs issues use the Agent topic)",
+      "searchTags": "Log Analytics;Solutions;Resources",
+      "category": "Solutions and Azure Resources",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b6d30d09-8e6c-1e77-7d18-d3f590dc9212",
       "longDescription": "",
       "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing",
