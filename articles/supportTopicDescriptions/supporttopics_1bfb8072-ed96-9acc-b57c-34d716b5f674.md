@@ -350,6 +350,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f3435e37-7c49-7a6e-97e8-bcc0350fdc9c",
+      "longDescription": "",
+      "shortDescription": "Investigate issues while ingesting data via the HTTP Data collector API or issue with custom log configuration and data ingestion",
+      "searchTags": "API;data collector;custom log;ingestion",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f48c1356-97fe-7085-5d6f-dbe214b90227",
       "longDescription": "",
       "shortDescription": "A log search alert should have fired but I do not see it in the Azure  portal",
