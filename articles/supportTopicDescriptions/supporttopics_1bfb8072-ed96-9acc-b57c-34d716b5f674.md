@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "1e7791e4-f79c-7fc8-8d66-830a57ac1ab1",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot agent installation failures",
+      "searchTags": "Log Analitics;OMS;Agents;Installation",
+      "category": "Agents",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "314d31e0-2bfe-54d3-fff5-4644edb9bb01",
       "longDescription": "",
       "shortDescription": "Issues related with the Linux Log Analytics agent (previously known as OMS agent)",
