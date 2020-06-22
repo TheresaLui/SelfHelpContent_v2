@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "cf4aa2ba-4538-7526-5f5f-eeee01bb3766",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot agent uninstallation issues",
+      "searchTags": "Agnets;installation;MMA",
+      "category": "Instalation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d4bf9cc9-faef-cc69-71eb-097b5c3b4cb1",
       "longDescription": "",
       "shortDescription": "Investigate high memory usage caused by the OMS agent process (OMSAGENT)",
