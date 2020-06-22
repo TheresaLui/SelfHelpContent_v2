@@ -180,6 +180,14 @@
       "searchTags": "Log Analytics;MMA;CPU;Agents;Performance",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f48c1356-97fe-7085-5d6f-dbe214b90227",
+      "longDescription": "",
+      "shortDescription": "A log search alert should have fired but I do not see it in the Azure  portal",
+      "searchTags": "Alerts;Log Analytics",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
