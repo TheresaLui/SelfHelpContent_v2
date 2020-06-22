@@ -366,6 +366,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e8b00c1c-8b19-94ca-1349-23cec3a21caf",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related to connecting Power BI to Log Analytics environment",
+      "searchTags": "Power BI",
+      "category": "Portal and visualization",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "eb40c2d7-31ba-113a-9454-118b93ee8dbe",
       "longDescription": "",
       "shortDescription": "Issues related to security, privacy and compliance aspects of Log Analytics data handling",
