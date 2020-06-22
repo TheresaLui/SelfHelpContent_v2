@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1e34ca9c-f240-d239-4ba5-08913a1dc7af",
+      "longDescription": "",
+      "shortDescription": "Assistance on determining why a given query is not returning the expected results.",
+      "searchTags": "query;queries;log analytics",
+      "category": "Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1e7791e4-f79c-7fc8-8d66-830a57ac1ab1",
       "longDescription": "",
       "shortDescription": "Troubleshoot agent installation failures",
