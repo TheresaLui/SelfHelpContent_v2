@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5e55f0c0-2f77-73cc-0de5-f301685b1932",
+      "longDescription": "",
+      "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing",
+      "searchTags": "Log Analytics;MMA;heartbeat;Agent",
+      "category": "Agents",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6d4e512e-07af-5da6-8365-a3f00dcb7edb",
       "longDescription": "",
       "shortDescription": "Troubleshoot agent uninstallation issues",
