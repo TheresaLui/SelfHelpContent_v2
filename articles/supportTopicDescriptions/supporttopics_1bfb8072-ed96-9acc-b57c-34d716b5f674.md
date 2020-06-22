@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6d4e512e-07af-5da6-8365-a3f00dcb7edb",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot agent uninstallation issues",
+      "searchTags": "Agents;uninstall;vm;linux",
+      "category": "Virtual Machine",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ce5af84c-902c-0cfe-f2d2-ba655bbe5861",
       "longDescription": "",
       "shortDescription": "Issues when one or more of agent related processes are crashing (OMSAGENT, OMISERVER, OMIAGENT)",
