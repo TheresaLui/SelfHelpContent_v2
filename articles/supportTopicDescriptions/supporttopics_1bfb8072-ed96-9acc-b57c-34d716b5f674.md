@@ -262,6 +262,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "eb4131a9-a4ec-e865-db56-6a74dc419b0b",
+      "longDescription": "",
+      "shortDescription": "Issues while moving Log Analytics workspace Note, if caused by the linked Automation Account, please select Link or unlink automation account",
+      "searchTags": "Workspace;move",
+      "category": "Workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ebf41f04-0371-eabe-8e01-e3425b851837",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues related to Log Analytics workspaces",
