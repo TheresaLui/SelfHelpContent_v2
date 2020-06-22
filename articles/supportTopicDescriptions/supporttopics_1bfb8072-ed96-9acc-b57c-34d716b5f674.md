@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9e8b2206-536b-6ed5-1220-4b0ffb6aa157",
+      "longDescription": "",
+      "shortDescription": "Issues related with Role Based Access Control (RBAC) that affects the access to any of the Log Analytics workspace features or data",
+      "searchTags": "Log Analytics;RBAC;Access",
+      "category": "Billing And Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a2014060-acb8-43ea-1dd0-d9fd86d1845f",
       "longDescription": "",
       "shortDescription": "Issues related with Log Search Alerts",
