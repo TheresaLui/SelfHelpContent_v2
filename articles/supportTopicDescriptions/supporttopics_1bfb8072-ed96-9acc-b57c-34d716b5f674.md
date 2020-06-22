@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "10aca9fd-ed40-a91d-6477-af3f8db98c95",
+      "longDescription": "",
+      "shortDescription": "Issues related with the Windows Log Analytics agent (also known as MMA agent)",
+      "searchTags": "Log Analytics;Agents",
+      "category": "Agenets",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1e7791e4-f79c-7fc8-8d66-830a57ac1ab1",
       "longDescription": "",
       "shortDescription": "Troubleshoot agent installation failures",
