@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "0b242861-e676-c1cd-9679-b4929328163d",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with connecting Azure Virtual machine to a Log Analytics workspace (for VM related issues please select the Agent topic)",
+      "searchTags": "workspace",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0db24733-52f0-5093-c414-2805551c8052",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its email",
