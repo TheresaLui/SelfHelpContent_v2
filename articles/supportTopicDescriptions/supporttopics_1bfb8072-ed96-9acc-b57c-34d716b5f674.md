@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8958d151-7dfa-7dfb-5e5f-30fae6fa0f03",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related to query execution",
+      "searchTags": "query;queries",
+      "category": "Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8c548d25-8725-5de5-6124-7045f615264f",
       "longDescription": "",
       "shortDescription": "I received the alert, but some of its fields are missing or incorrect",
