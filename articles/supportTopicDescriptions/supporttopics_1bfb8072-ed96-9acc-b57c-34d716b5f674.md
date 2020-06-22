@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2d3a925a-a181-ec4e-ed45-5536c7a45cee",
+      "longDescription": "",
+      "shortDescription": "Assistance in authoring new queries or to improve existing queries",
+      "searchTags": "queries;query;performance",
+      "category": "Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "314d31e0-2bfe-54d3-fff5-4644edb9bb01",
       "longDescription": "",
       "shortDescription": "Issues related with the Linux Log Analytics agent (previously known as OMS agent)",
