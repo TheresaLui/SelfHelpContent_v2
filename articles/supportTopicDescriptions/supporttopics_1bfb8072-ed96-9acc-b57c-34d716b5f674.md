@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1245a677-dd2f-af60-1c6f-ce0ffa4ef05f",
+      "longDescription": "",
+      "shortDescription": "issues related to Virtual machine logs and Container logs within Log Analytics workspace (for VMs issues use the Agent topic)",
+      "searchTags": "Container;Workspaces;logs",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1e7791e4-f79c-7fc8-8d66-830a57ac1ab1",
       "longDescription": "",
       "shortDescription": "Troubleshoot agent installation failures",
