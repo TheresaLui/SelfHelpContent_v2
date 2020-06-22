@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6acf8b6e-910d-81bf-968d-3e3a78beb074",
+      "longDescription": "",
+      "shortDescription": "Investigate issues when the data being collected takes more than expected to be accessible on the workspace (latency).",
+      "searchTags": "Log Analytics;data collection;delay;latency;workspace",
+      "category": "Solutions and Azure Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6d4e512e-07af-5da6-8365-a3f00dcb7edb",
       "longDescription": "",
       "shortDescription": "Troubleshoot agent uninstallation issues",
