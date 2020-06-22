@@ -18,7 +18,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 ## **Recommended Steps**
 
-* You have full control to [delete any user content](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-user-privacy#deleting-customer-data), either through the LUIS web portal or the LUIS Authoring (also known as Programmatic) APIs. You have the ability to:
+* You have full control to [delete any user content](https://docs.microsoft.com/azure/cognitive-services/luis/luis-user-privacy#deleting-customer-data), either through the LUIS web portal or the LUIS Authoring (also known as Programmatic) APIs. You have the ability to:
     * Delete Account
     * Delete Application
     * Delete Utterances
