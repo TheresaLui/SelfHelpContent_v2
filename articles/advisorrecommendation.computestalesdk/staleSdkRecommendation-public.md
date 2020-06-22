@@ -23,7 +23,7 @@
 "recommendationMetadataState": "Active",
 "owner": 
   { "email": "cplatsdkdev@microsoft.com", 
-          "icm": { "routingId": "",
+          "icm": { "routingId": "mdm:/adspartner/AzureRTCPlatSDK/Powershell",
                   "service": "AzureRT",
                   "team": "CPlat SDK/PowerShell"
                   },
