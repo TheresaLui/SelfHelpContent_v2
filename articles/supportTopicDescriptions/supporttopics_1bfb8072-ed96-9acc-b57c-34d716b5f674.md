@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "8e47ea30-80ad-2df6-e6c8-9a0a22e8a67b",
+      "longDescription": "",
+      "shortDescription": "Please raise issues related with Update Management under Azure Automation service",
+      "searchTags": "Update Management",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "94167379-b342-2514-f031-8352c49d1659",
       "longDescription": "",
       "shortDescription": "A log search alert fired but it should not have",
