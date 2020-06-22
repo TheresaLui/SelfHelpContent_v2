@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bd83dd2f-282f-8d65-2a2d-6923272787ce",
+      "longDescription": "",
+      "shortDescription": "Investigate issues when one or more of agent processes are crashing (HEALTHSERVICE.EXE, MONITORINGHOST.EXE)",
+      "searchTags": "Log Analytics;Agenets;MMA;crash;VM",
+      "category": "Agents",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c5632844-3efb-65f7-b278-2ee770b71c75",
       "longDescription": "",
       "shortDescription": "Investigate high processor (CPU) usage caused by one of the OMI processes (OMISERVER, OMIAGENT)",
