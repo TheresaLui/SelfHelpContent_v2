@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a2014060-acb8-43ea-1dd0-d9fd86d1845f",
+      "longDescription": "",
+      "shortDescription": "Issues related with Log Search Alerts",
+      "searchTags": "alerts;search",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b6d30d09-8e6c-1e77-7d18-d3f590dc9212",
       "longDescription": "",
       "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing",
