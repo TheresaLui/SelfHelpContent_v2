@@ -6,19 +6,20 @@
   selfhelptype="SupportTopicDescription"
   productpesids="1bfb8072-ed96-9acc-b57c-34d716b5f674"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_1bfb8072-ed96-9acc-b57c-34d716b5f674" />
+  articleid="supporttopics_1bfb8072-ed96-9acc-b57c-34d716b5f674"
+  ownershipid="AzureMonitoring_LogAnalytics" />
 # Support Topic Descriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
-  "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "shortDescription": "Log Analytics is the primary tool in the Azure portal for writing log queries and interactively analyzing their results.",
+  "longDescription": "",
+  "productLink1": "https://docs.microsoft.com/azure/azure-monitor/log-query/log-query-overview",
+  "productLinkName1": "Overview of log queries in Azure Monitor",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "314d31e0-2bfe-54d3-fff5-4644edb9bb01",
