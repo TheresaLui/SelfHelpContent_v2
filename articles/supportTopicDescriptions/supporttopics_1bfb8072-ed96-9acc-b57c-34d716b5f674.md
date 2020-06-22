@@ -278,6 +278,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "cd8d9ea2-8d77-4239-9d47-3381bcdd6cb8",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with monitoring Container environments (AKS, hosted, and OnPrem)",
+      "searchTags": "Containers;AKS;monitoring",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ce5af84c-902c-0cfe-f2d2-ba655bbe5861",
       "longDescription": "",
       "shortDescription": "Issues when one or more of agent related processes are crashing (OMSAGENT, OMISERVER, OMIAGENT)",
