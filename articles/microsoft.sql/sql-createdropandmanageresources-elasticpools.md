@@ -19,7 +19,7 @@
 ## **Recommended Steps**
 
 There are several ways through which you can manage your elastic pools. If you are facing issues using one way please try an alternate approach. 
-Elastic pools can be manged using:
+Elastic pools can be managed using:
 
 * [Azure Portal](https://docs.microsoft.com/azure/azure-sql/database/elastic-pool-manage?WT.mc_id=pid%3A13491%3Asid%3A32630419%2F#azure-portal)
 * [PowerShell](https://docs.microsoft.com/azure/azure-sql/database/elastic-pool-manage?WT.mc_id=pid%3A13491%3Asid%3A32630419%2F#powershell)

@@ -20,15 +20,15 @@
 
 To be able to create and manage IP firewall rules for the Azure SQL Server, you will need to either be:
 
-* in the [SQL Server Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-server-contributor) role
-* in the [SQL Security Manager](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-security-manager) role
-* the owner of the resource that contains the Azure SQL Server
+* In the [SQL Server Contributor](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-server-contributor) role
+* In the [SQL Security Manager](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#sql-security-manager) role
+* The owner of the resource that contains the Azure SQL Server
 
 There are two types of firewall rules :
 
 1. Server level firewall rules:
 
-These rules enable clients to access your entire server, that is, all the databases managed by the server. The rules are stored in the master database. You can have a maximum of 128 server-level IP firewall rules for a server. If you have the Allow Azure Services and resources to access this server setting enabled, this counts as a single firewall rule for the server. These can can be manged using various ways mentioned below. If you are facing issues using one way please try an alternate approach. 
+These rules enable clients to access your entire server, that is, all the databases managed by the server. The rules are stored in the master database. You can have a maximum of 128 server-level IP firewall rules for a server. If you have the Allow Azure Services and resources to access this server setting enabled, this counts as a single firewall rule for the server. These can be managed using various ways mentioned below. If you are facing issues using one way please try an alternate approach. 
 
 * [Azure Portal](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid%3A13491%3Asid%3A32630421%2F#create-and-manage-ip-firewall-rules)
 * [PowerShell](https://docs.microsoft.com/powershell/module/az.sql/?view=azps-4.2.0)
