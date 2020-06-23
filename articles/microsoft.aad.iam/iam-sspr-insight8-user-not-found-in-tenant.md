@@ -13,7 +13,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+    cloudEnvironments="public, Fairfax, Blackforest, Mooncake, usnat, ussec"
 	  ownershipId="AzureIdentity_B2B"
 />
 
