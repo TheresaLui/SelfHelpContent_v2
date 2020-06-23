@@ -27,7 +27,7 @@
       "shortDescription": "Issues with basic configuration and setup of scale sets not covered by other support topics.",
       "searchTags": "Configuration",
       "category": "Configuration",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "0de20670-5c38-4b50-9964-e74157cc6364",
