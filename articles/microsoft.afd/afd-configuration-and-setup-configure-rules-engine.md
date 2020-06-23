@@ -20,6 +20,6 @@ Azure Front Door Rules Engine allows you to customize how HTTP requests are hand
 
 ## **Recommended Documents**
 
-* [What is Rules Engine for Azure Front Door?](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-rules-engine)
+* [What is Rules Engine for Azure Front Door?](https://docs.microsoft.com/azure/frontdoor/front-door-rules-engine)
 
 

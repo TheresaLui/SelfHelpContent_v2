@@ -20,6 +20,6 @@ Azure Front Door Rules Engine allows you to rewrite URLS for traffic send from A
 
 ## **Recommended Documents**
 
-* [URL rewrite (custom forwarding path)](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-url-rewrite)
-* [Route configuration overrides](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-rules-engine-actions#route-configuration-overrides)
+* [URL rewrite (custom forwarding path)](https://docs.microsoft.com/azure/frontdoor/front-door-url-rewrite)
+* [Route configuration overrides](https://docs.microsoft.com/azure/frontdoor/front-door-rules-engine-actions#route-configuration-overrides)
 

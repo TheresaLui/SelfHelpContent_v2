@@ -20,7 +20,7 @@ Azure Front Door Rules Engine allows you to dynamically modify your AFD routing 
 
 ## **Recommended Documents**
 
-* [Azure Front Door Rules Engine Match Conditions](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-rules-engine-match-conditions)
-* [Tutorial - Configure your Rules Engine (Portal, CLI)](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-tutorial-rules-engine)
+* [Azure Front Door Rules Engine Match Conditions](https://docs.microsoft.com/azure/frontdoor/front-door-rules-engine-match-conditions)
+* [Tutorial - Configure your Rules Engine (Portal, CLI)](https://docs.microsoft.com/azure/frontdoor/front-door-tutorial-rules-engine)
 
 

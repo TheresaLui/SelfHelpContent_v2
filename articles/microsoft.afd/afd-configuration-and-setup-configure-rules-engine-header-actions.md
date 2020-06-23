@@ -20,7 +20,7 @@ Azure Front Door Rules Engine allows you to modify request and response headers 
 
 ## **Recommended Documents**
 
-* [Azure Front Door Rules Engine Actions]( https://docs.microsoft.com/en-us/azure/frontdoor/front-door-rules-engine-actions)
+* [Azure Front Door Rules Engine Actions]( https://docs.microsoft.com/azure/frontdoor/front-door-rules-engine-actions)
 
 
 
