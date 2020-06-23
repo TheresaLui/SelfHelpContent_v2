@@ -33,14 +33,17 @@ Most users are able to resolve the following issues using the steps below:
 
 - Make sure you are using sessions controls with a web-based app
 
-    **NOTE**:  Session controls can only be enforced on web-based apps. Access controls can be enforced on native apps.
+**NOTE**:  Session controls can only be enforced on web-based apps. Access controls can be enforced on native apps.
+
 - Validate your sign-in flow by downloading the Azure Active Directory (Azure AD) sign-in logs in the JSON file format. If you proceed to open the support case, make sure you include the file with the ticket.
 
-    **NOTE**: The Authenticator app, among other native client app sign-in flows, uses a non-interactive sign-in flow and cannot be used with access controls.
-- If you are using a custom app, and the app is stuck in a loop trying to log in, try changing the settings for nonce handling.
-    1. In Cloud App Security, browse to **Investigate** > **Connected apps** > **Conditional Access App Control**.
-    1. In the list of apps, on the row in which the app you are deploying appears, choose the three dots at the end of the row, and then under **APP DETAILS**, choose **Edit**.
-    1. Change the nonce-handling settings and then click **Save**.
+**NOTE**: The Authenticator app, among other native client app sign-in flows, uses a non-interactive sign-in flow and cannot be used with access controls.
+
+- If you are using a custom app, and the app is stuck in a loop trying to log in, try changing the settings for nonce handling:
+
+    * In Cloud App Security, browse to **Investigate** > **Connected apps** > **Conditional Access App Control**
+    * In the list of apps, on the row in which the app you are deploying appears, choose the three dots at the end of the row, and then under **APP DETAILS**, choose **Edit**
+    * Change the nonce-handling settings and then click **Save**
 
 - In Azure AD, go to the relevant conditional access policy, and clear **Use Conditional Access App Control**. If the issue is still not resolved, open a ticket for Azure AD.
 - If the app displays a failure message when you try to log in, make a note of the displayed **request id**, and then restart your browser session. If the issue persists, please continue with opening the ticket and include the **request id** in the details.
