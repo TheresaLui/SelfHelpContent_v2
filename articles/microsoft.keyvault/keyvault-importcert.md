@@ -19,6 +19,7 @@
 ## **Recommended Steps**
 
 * [Import certificate in Key vault](https://docs.microsoft.com/azure/key-vault/certificates/tutorial-import-certificate)
+* [Creating and merging certificate signing request (CSR)](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-signing-request)
 * [Monitor and manage certificate creation](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-scenarios)
 
 
@@ -31,7 +32,7 @@
 
 * Error when importing certificate via Portal "Something went wrong". How to investigate further?
  	
-	To see more descriptive error, import the certificate file via [Azure CLI](https://docs.microsoft.com/cli/azure/keyvault/certificate?view=azure-cli-latest#az-keyvault-certificate-import) or [PowerShell](https://docs.microsoft.com/powershell/module/azurerm.keyvault/import-azurekeyvaultcertificate?view=azurermps-6.13.0).
+	Make sure the import file is in [correct format](https://docs.microsoft.com/azure/key-vault/certificates/certificate-scenarios#formats-of-import-we-support). It is required for certificate (pem or pfx) to have a private key for import. To see more descriptive error, import the certificate file via [Azure CLI](https://docs.microsoft.com/cli/azure/keyvault/certificate?view=azure-cli-latest#az-keyvault-certificate-import) or [PowerShell](https://docs.microsoft.com/powershell/module/azurerm.keyvault/import-azurekeyvaultcertificate?view=azurermps-6.13.0).
 
 * For Error type: Access denied or user is unauthorized to import certificate
 	

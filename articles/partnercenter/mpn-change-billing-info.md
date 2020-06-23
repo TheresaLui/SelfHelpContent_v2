@@ -10,12 +10,12 @@
 	articleId="partnercenter_mpn_change_billing_information"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635656"
+	supportTopicIds="32725823"
 	clientIds='partnercenter'
 	resourceTags="mpn"
-	productPesIds="15960"
+	productPesIds="17003"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Credit card purchase issue
 

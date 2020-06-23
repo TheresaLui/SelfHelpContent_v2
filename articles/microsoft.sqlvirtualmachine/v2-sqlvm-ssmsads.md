@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Tools-Management Studio, Azure Data Studio"
 	description="Tools-Management Studio, Azure Data Studio"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""

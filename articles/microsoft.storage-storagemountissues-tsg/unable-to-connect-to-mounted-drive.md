@@ -18,19 +18,19 @@
 
 **Symptom**
 
-Customer complaints that his application or service is unable to connect to the mounted Azure Files Drive.
+Customer complaints that his application or service is unable to connect to the mounted Azure Files Drive
 
 **Cause**
 
-Drives are mounted per user, if the application/service is running under different user context, it won't see the Azure Files mounted drive.
+Drives are mounted per user, if the application/service is running under different user context, it won't see the Azure Files mounted drive
 
 **Resolution**
 
 To resolve the issue, follow the instructions:
 
-1. Mount drive from the same user context that the application is running. You can use tools such as psexec to do this.
-2. Run the net use command after you run the command 'psexec -i -s cmd.exe' in elevated mode to mount the drive under System context (as described in step 3).
-3. Run the net use command after you run the command 'psexec -i -u UserName cmd.exe' in elevated mode to mount the drive under a specific user context.
+1. Mount drive from the same user context that the application is running. You can use tools such as psexec to do this
+2. Run the net use command after you run the command 'psexec -i -s cmd.exe' in elevated mode to mount the drive under System context (as described in step 3)
+3. Run the net use command after you run the command 'psexec -i -u UserName cmd.exe' in elevated mode to mount the drive under a specific user context
 
     Note: If you are uncertain whether you are running the application in the context of the user who mapped the drive, please try running 'net use' with 'psexec' as described in the previous steps.
     *<br>Or, you can create a new user with the same permission as the network service or system account, and run cmd and net use under that user. The username should be the storage account name, and password should be the storage account key.<br>*
@@ -38,9 +38,9 @@ To resolve the issue, follow the instructions:
 
 **More information**
 
-1. After following the above instructions, if you receive error 'System error 1312 has occurred.
-2. A specified logon session does not exist.
-3. It may already have been terminated.' with net use for the system/network service account, ensure that the username passed to net use includes domain information e.g. '[storage account name].file.core.windows.net'.
+1. After following the above instructions, if you receive error 'System error 1312 has occurred
+2. A specified logon session does not exist
+3. It may already have been terminated with net use for the system/network service account, ensure that the username passed to net use includes domain information e.g. '[storage account name].file.core.windows.net'
 
 <!---
 

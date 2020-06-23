@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Change Licensing Model- Pay As You Go or Bring Your Own"
 	description="Change Licensing Model- Pay As You Go or Bring Your Own"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""
