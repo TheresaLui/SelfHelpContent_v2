@@ -35,7 +35,7 @@
       "shortDescription": "need more information regarding instances that were stopped or restarted unexpectedly. ",
       "searchTags": "Restart;Stop",
       "category": "Restart",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "261ba305-9e8e-a055-4f65-486cb98d5d6a",
