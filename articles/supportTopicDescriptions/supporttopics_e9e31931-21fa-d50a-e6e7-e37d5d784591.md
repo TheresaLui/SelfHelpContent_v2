@@ -131,7 +131,7 @@
       "shortDescription": "Common problems related to starting or stopping your instance or scale set",
       "searchTags": "Start;Stop",
       "category": "Starting",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "e53f61aa-bd8b-5b53-6482-165906f30a3c",
