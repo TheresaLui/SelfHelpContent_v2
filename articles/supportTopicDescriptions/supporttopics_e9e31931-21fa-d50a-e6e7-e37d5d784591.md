@@ -139,7 +139,7 @@
       "shortDescription": "Questions specific to configuring monitoring alerts",
       "searchTags": "Alert",
       "category": "Configuring",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "fc7ce244-83c2-72dc-049b-055413ea0401",
