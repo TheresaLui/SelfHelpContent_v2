@@ -32,7 +32,7 @@ Log Analytics visualizations pinned to a dashboard have some specific considerat
 	In order for us to reduce cognitive load when viewing a dashboard we optimize the visualizations, loading up to 25 different data values.
 	In the rare case where a visualization has more than 25 different data values – Log Analytics will optimize it, showing the 25 values with most data as discrete data values and grouping the remaining values under an “other” value.
 3. ###	**I want my dashboard to auto refresh:**
-Dashboards are refreshed upon load; this  means all queries related to a pinned Log Analytics visualizations in the dashboard are executed and the dashboard is refreshed once it loads.
+	Dashboards are refreshed upon load; this  means all queries related to a pinned Log Analytics visualizations in the dashboard are executed and the dashboard is refreshed once it loads.
 4. ### **Azure dashboard’s time picker restricts the time span for the parts in the dashboard:**
 	 If you want to decouple the time span for particular Analytics parts on the dashboard, follow these steps:
 	1. Click the filter icon, located on the top left corner of Analytics parts
