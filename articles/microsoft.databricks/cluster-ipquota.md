@@ -7,7 +7,7 @@
 	ms.author="deeptivu"
 	displayOrder="15"
 	selfHelpType="generic"
-	supportTopicIds="32677649"
+	supportTopicIds="32743377"
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public, fairfax, usnat, ussec"
@@ -19,13 +19,12 @@
 
 ## **Recommended Steps**
 
-* To submit an expedited request for IP quota limit increase follow the [steps here](https://docs.microsoft.com/azure/azure-portal/supportability/networking-quota-requests)
+* **Follow [steps here](https://docs.microsoft.com/azure/azure-portal/supportability/networking-quota-requests) to submit an expedited request for IP quota limit increase
 * To check current resources, please navigate to: Azure Portal under your subscription --> Usage + quotas
 
 ## **Recommended Documents**
 * For current status of Azure Databricks Service by region and to subscribe for updates on status changes, browse to [Azure Databricks Status Page](https://status.azuredatabricks.net/)
-* [Azure Databricks initiated request limit exceeded](https://kb.azuredatabricks.net/clusters/termination-reasons.html#databricks-initiated-request-limit-exceeded)
-* [Launch failure](https://kb.azuredatabricks.net/clusters/termination-reasons.html#launch-failure)
+* [Common cloud provider related termination reasons and remediation steps](https://kb.azuredatabricks.net/clusters/termination-reasons.html#databricks-initiated-request-limit-exceeded)
 
 
 > **Known Issue**: Starting 19 Mar 2020 some Azure Databricks customers have encountered error "Azure error code: AllocationFailed" when performing service management operations - such as create, update, scale clusters or submit jobs. We are aware of this issue and are actively working to ensure availability of resources in the quickest time frame possible. We recommend you consider one of the below workarounds:
