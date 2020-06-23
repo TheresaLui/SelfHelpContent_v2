@@ -18,7 +18,7 @@
 "recommendationTypeId": "158f0a07-0a66-4a25-9e37-c43c49c8dd64",
 "recommendationCategory": "Performance", 
 "recommendationImpact": "High",
-"recommendationResourceType": "",
+"recommendationResourceType": "Microsoft.Compute/virtualMachines",
 "recommendationFriendlyName": "UpgradeSDKVersion",
 "recommendationMetadataState": "Active",
 "owner": 
