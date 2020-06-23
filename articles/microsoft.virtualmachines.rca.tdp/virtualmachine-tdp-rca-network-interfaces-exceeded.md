@@ -24,8 +24,10 @@ The operation on virtual machine **<!--$vmname-->Virtual machine<!--/$vmname-->*
 
 To avoid this issue, either change the number of network interfaces requested to a value that is supported by the VM SKU. Or, select another SKU that supports that value.<br>
 
->A [**network interface (NIC**](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface) is the interconnection between a VM and a virtual network (VNet). A VM must have at least one NIC, but can have more than one, depending on the size of the VM you create. Learn about how many NICs each VM size supports for [Windows](https://docs.microsoft.com/azure/virtual-machines/windows/sizes) or [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/sizes).<br>
+A [**network interface (NIC**](https://docs.microsoft.com/azure/virtual-network/virtual-network-network-interface) is the interconnection between a VM and a virtual network (VNet). A VM must have at least one NIC, but can have more than one, depending on the size of the VM you create. Learn about how many NICs each VM size supports for [Windows](https://docs.microsoft.com/azure/virtual-machines/windows/sizes) or [Linux](https://docs.microsoft.com/azure/virtual-machines/linux/sizes).<br>
+
 You can create a VM with multiple NICs, and add or remove NICs through the lifecycle of a VM. Multiple NICs allow a VM to connect to different subnets and send or receive traffic over the most appropriate interface. VMs with any number of network interfaces can exist in the same availability set, up to the number supported by the VM size.<br>
+
 Each NIC attached to a VM must exist in the same location and subscription as the VM. Each NIC must be connected to a VNet that exists in the same Azure location and subscription as the NIC. You can change the subnet a VM is connected to after it's created, but you cannot change the VNet. Each NIC attached to a VM is assigned a MAC address that doesn't change until the VM is deleted.<br>
 
 ## **Recommended Documents**
