@@ -123,7 +123,7 @@
       "shortDescription": "Covers issues related to scaling your scale set",
       "searchTags": "Scaling;Scale",
       "category": "Scaling",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "da505cd0-5cd6-3398-2923-beaf5170b260",
