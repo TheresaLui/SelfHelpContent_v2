@@ -51,7 +51,6 @@
       "title": "Current Version"
     }
   ],
-  "testData": "ac899844-6480-4758-92b7-87b813c078f4,/subscriptions/ac899844-6480-4758-92b7-87b813c078f4/resourceGroups/rnagpal/providers/Microsoft.DocumentDb/databaseAccounts/rnagpal-france,\"{\"\"LatestVersion\"\":\"\"2.5.0\"\"}\"",
   "actions": [
     {
       "actionId": "68e6f866-956c-4fd9-b16a-916222b663b6",

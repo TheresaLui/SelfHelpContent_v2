@@ -51,7 +51,6 @@
       "title": "Current Version"
     }
   ],
-  "testData": "0b5e1089-df61-40f6-9c0c-8aed0ac76a35,/subscriptions/0b5e1089-df61-40f6-9c0c-8aed0ac76a35/resourceGroups/SupportabilityTest/providers/Microsoft.DocumentDB/databaseAccounts/supportabilitytest-ff,\"{\"\"LatestVersion\"\":\"\"2.5.0\"\"}\"",
   "actions": [
     {
       "actionId": "f73e70bf-eb0e-441c-b59d-c057612bd7e6",
