@@ -23,7 +23,7 @@
   "recommendationImpact": "Low",
   "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
   "recommendationFriendlyName": "ResourceHealthAlert",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "ahex@microsoft.com",
