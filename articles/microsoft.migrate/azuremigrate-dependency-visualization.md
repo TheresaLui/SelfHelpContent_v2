@@ -35,9 +35,9 @@ Azure Migrate currently supports creation or associations of OMS workspaces that
 
 No, you cannot change the OMS workspace once it has been configured.
 
-### ***What is the supported OS matrix for the Microsoft Monitoring Agent (MMA) and the dependency agent?***
+### ***What are the supported OS for agent-based dependency analysis?***
 
-Refer to the support matrix document [MMA agent](https://go.microsoft.com/fwlink/?linkid=2104194) and [dependency agent](https://go.microsoft.com/fwlink/?linkid=2104195) for details.
+Refer to the supported OS documentation [here](https://go.microsoft.com/fwlink/?linkid=2133723).
 
 ### **I want to automate the installation of Microsoft Monitoring Agent (MMA) and dependency agent. How do I do that?**
 
