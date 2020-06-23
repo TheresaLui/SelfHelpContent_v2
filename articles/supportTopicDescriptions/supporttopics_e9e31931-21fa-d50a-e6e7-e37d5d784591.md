@@ -115,7 +115,7 @@
       "shortDescription": "Common problems related to extensions not operating correctly",
       "searchTags": "Extensions",
       "category": "Extensions",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "cf9647f1-5c82-1327-05af-73ecaa5e7aea",
