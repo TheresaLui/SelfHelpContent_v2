@@ -34,9 +34,7 @@ Queries may return with errors in a few cases, the Log Analytics UI should provi
     2.	Check permissions – are your permissions configured correctly? 
         Read the following articles to [better understand Log Analytics permissions](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/roles-permissions-security) and to [manage Log Analytics access](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/manage-access).
 3. There’s an issue with the Log Analytics service
-    The Log Analytics service might be experiencing issues or undergoing maintenance in your area.
-    Please refer to the [Azure Status page](https://status.azure.com/en-us/status) to get Log Analytics service status.
-    If the Log Analytics service is undergoing maintenance or experiencing issues, please try running your query at a later time. 
+    Review the [Azure Monitor Status blog](https://techcommunity.microsoft.com/t5/azure-monitor-status/bg-p/AzureMonitorStatusBlog) for service availability and issues. If you are seeing a notification about ongoing incident - we are already working on it and will communicate through the same blog once it is resolved.
 
 ## **Recommended Documents**
 
