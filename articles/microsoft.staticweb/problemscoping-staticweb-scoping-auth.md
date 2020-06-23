@@ -58,14 +58,13 @@
 		"displayLabel": "Problem start time",
 		"required": true
 	}, {
-		"id": "q3",
+		"id": "problem_description",
 		"order": 3,
 		"controlType": "multilinetextbox",
 		"displayLabel": "Description",
 		"watermarkText": "Is there a specific error you are observing with your application?",
 		"required": true,
-		"useAsAdditionalDetails": true,
-		
+		"useAsAdditionalDetails": true
 	}],
 	"$schema": "SelfHelpContent"
 }
