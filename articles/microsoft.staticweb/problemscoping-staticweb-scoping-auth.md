@@ -18,6 +18,7 @@
 {
 	"resourceRequired": false,
 	"fileAttachmentHint": "GitHub action logs",
+	"subscriptionRequired": true,
 	"formElements": [{
 		"id": "q1",
 		"order": 1,
@@ -62,7 +63,9 @@
 		"controlType": "multilinetextbox",
 		"displayLabel": "Description",
 		"watermarkText": "Is there a specific error you are observing with your application?",
-		"required": false
+		"required": true,
+		"useAsAdditionalDetails": true,
+		
 	}],
 	"$schema": "SelfHelpContent"
 }
