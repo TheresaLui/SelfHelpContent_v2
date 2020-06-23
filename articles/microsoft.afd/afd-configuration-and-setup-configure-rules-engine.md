@@ -11,7 +11,8 @@
     resourceTags=""
     productPesIds="16611"
     cloudEnvironments="public"
-	articleId="5da14838-5798-4fb6-bf3e-6adda9522409"
+	articleId="configure_rules_engine"
+	ownershipId="CloudNet_AzureFrontdoor"
 />
 
 # Configure Rules Engine
