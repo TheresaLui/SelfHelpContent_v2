@@ -83,7 +83,7 @@
       "shortDescription": "Questions specific to issues with automatic instance repairs",
       "searchTags": "repair",
       "category": "Instance Repairs",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "92fda6be-46b1-2d65-4aa8-4bdb6b7d3bd9",
