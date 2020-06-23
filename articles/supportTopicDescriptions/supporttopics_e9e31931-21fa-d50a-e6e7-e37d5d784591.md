@@ -97,9 +97,9 @@
       "id": "ba0a4f26-e1b9-4747-21ba-7b6cda11647c",
       "longDescription": "",
       "shortDescription": "Questions specific to Azure Planned Maintenance of the Azure hardware",
-      "searchTags": "Planned ",
+      "searchTags": "Planned",
       "category": "Planned Maintenance ",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "c1a0211a-8db9-39f6-7cc0-f1dc54a097d5",
