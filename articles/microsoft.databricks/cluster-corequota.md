@@ -24,7 +24,7 @@
 
 ## **Recommended Documents**
 
-* For current status of Azure Databricks Service by region and to subscribe for updates on status changes, browse to [Azure Databricks Status Page](https://status.azuredatabricks.net/) current status
+* For current status of Azure Databricks Service by region and to subscribe for updates on status changes, browse to [Azure Databricks Status Page](https://status.azuredatabricks.net/)
 * [Azure Databricks initiated request limit exceeded](https://kb.azuredatabricks.net/clusters/termination-reasons.html#databricks-initiated-request-limit-exceeded)
 * [Launch failure](https://kb.azuredatabricks.net/clusters/termination-reasons.html#launch-failure)
 
