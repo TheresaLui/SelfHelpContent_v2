@@ -38,10 +38,10 @@ Most users are able to resolve the issues using the steps below.
   - Location of where the user is coming from
   - Location of the targeted resource
 
-    **NOTE**
+**NOTE**:
 
-    - Functionality may differ between browsers. We recommend using one of the following fully-supported browsers: Microsoft Edge Chromium (latest), Google Chrome (latest), Mozilla Firefox (latest), Apple Safari (latest)
-    - We will continue to support the latest version of Internet Explorer and the legacy version of Microsoft Edge, but the support will be limited and we recommend using one of the fully-supported browsers.
+- Functionality may differ between browsers. We recommend using one of the following fully-supported browsers: Microsoft Edge Chromium (latest), Google Chrome (latest), Mozilla Firefox (latest), Apple Safari (latest).
+- We will continue to support the latest version of Internet Explorer and the legacy version of Microsoft Edge, but the support will be limited and we recommend using one of the fully-supported browsers
 
 ## **Recommended Documents**
 
