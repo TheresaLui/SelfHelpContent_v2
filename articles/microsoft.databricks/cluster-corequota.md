@@ -7,7 +7,7 @@
 	ms.author="deeptivu"
 	displayOrder="15"
 	selfHelpType="generic"
-	supportTopicIds="32677649"
+	supportTopicIds="32743376"
 	resourceTags=""
 	productPesIds="16432"
 	cloudEnvironments="public, fairfax, usnat, ussec"
@@ -19,14 +19,13 @@
 
 ## **Recommended Steps**
 
-* To submit an expedited request for core quota limit increase follow the [steps here](https://docs.microsoft.com/azure/azure-portal/supportability/per-vm-quota-requests) 
+* **Follow [steps here](https://docs.microsoft.com/azure/azure-portal/supportability/per-vm-quota-requests) to submit an expedited request for core quota limit increase**
 * To check current resources, navigate to: Azure Portal under your subscription --> Usage + quotas
 
 ## **Recommended Documents**
 
 * For current status of Azure Databricks Service by region and to subscribe for updates on status changes, browse to [Azure Databricks Status Page](https://status.azuredatabricks.net/)
-* [Azure Databricks initiated request limit exceeded](https://kb.azuredatabricks.net/clusters/termination-reasons.html#databricks-initiated-request-limit-exceeded)
-* [Launch failure](https://kb.azuredatabricks.net/clusters/termination-reasons.html#launch-failure)
+* [Common cloud provider related termination reasons and remediation steps](https://kb.azuredatabricks.net/clusters/termination-reasons.html#databricks-initiated-request-limit-exceeded)
 
 
 
