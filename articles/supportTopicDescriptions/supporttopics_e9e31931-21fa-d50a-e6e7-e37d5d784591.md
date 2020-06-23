@@ -75,7 +75,7 @@
       "shortDescription": "Issue with scaling using the Azure Scale-In Policy",
       "searchTags": "Scaling",
       "category": "Scaling",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "91bc0968-15ef-b89e-508e-23abc069d38f",
