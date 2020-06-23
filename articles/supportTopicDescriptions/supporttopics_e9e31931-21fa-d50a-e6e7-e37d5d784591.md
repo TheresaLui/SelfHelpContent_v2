@@ -91,7 +91,7 @@
       "shortDescription": "Resolve issues with updating your scale set",
       "searchTags": "Update",
       "category": "Update",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "ba0a4f26-e1b9-4747-21ba-7b6cda11647c",
