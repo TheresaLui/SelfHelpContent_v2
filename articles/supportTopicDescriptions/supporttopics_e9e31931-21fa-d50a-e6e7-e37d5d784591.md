@@ -147,7 +147,7 @@
       "shortDescription": "Issues with basic management of scale sets not covered by other support topics.",
       "searchTags": "Management",
       "category": "Management",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
