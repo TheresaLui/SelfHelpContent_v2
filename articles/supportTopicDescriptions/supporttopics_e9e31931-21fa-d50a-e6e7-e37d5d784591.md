@@ -43,7 +43,7 @@
       "shortDescription": "Guidance with Virtual Disk Management",
       "searchTags": "Virtual Disk Management",
       "category": "Virtual Disk Management",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "43522e61-3009-baea-794b-04ca93c4ee2a",
