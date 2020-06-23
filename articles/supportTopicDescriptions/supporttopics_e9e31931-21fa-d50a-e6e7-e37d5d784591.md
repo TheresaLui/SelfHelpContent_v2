@@ -107,7 +107,7 @@
       "shortDescription": "Issues with connecting to your VMSS instance",
       "searchTags": "connect",
       "category": "Connect",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "c3b53fce-6618-327c-8e3d-7df85a9bda84",
