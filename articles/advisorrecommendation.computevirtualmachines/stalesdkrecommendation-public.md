@@ -3,7 +3,7 @@
           description ="Send a recommendation that the user should upgrade their SDK version to the most recent major version."
           authors="adsandor"
           ms.author="cplatsdkdev"
-          articleId="158f0a07-0a66-4a25-9e37-c43c49c8dd64"
+          articleId="158f0a07-0a66-4a25-9e37-c43c49c8dd64_Public"
           selfHelpType="advisorRecommendationMetadata"
           cloudEnvironments="Public"
           ownershipId="Compute_ComputePlatform"
@@ -11,18 +11,17 @@
 
 # Recommend upgrading to a more recent SDK API version.
 ---
-{ 
-"recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
+{"recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
 "recommendationOfferingName": "Virtual Machines",
 "$schema": "AdvisorRecommendation",
 "recommendationTypeId": "158f0a07-0a66-4a25-9e37-c43c49c8dd64",
-"recommendationCategory": "Performance", 
+"recommendationCategory": "Performance",
 "recommendationImpact": "High",
 "recommendationResourceType": "Microsoft.Compute/virtualMachines",
 "recommendationFriendlyName": "UpgradeSDKVersion",
 "recommendationMetadataState": "Active",
-"owner": 
-  { "email": "cplatsdkdev@microsoft.com", 
+"owner":
+  { "email": "cplatsdkdev@microsoft.com",
           "icm": { "routingId": "mdm:/adspartner/AzureRTCPlatSDK/Powershell",
                   "service": "AzureRT",
                   "team": "CPlat SDK/PowerShell"
@@ -37,16 +36,16 @@
   "displayLabel": "Upgrade SDK Vesion",
   "additionalColumns": {"name": "staleSDKRecommendation", "title": "Upgrade SDK Version"},
   "tip": "Upgrade to the recommended SDK version to ensure you avoid performance issues.",
-  "supportedSDKLanguages": [".Net", "Java", "JavaScript", "Python"], 
+  "supportedSDKLanguages": [".Net", "Java", "JavaScript", "Python"],
   "actions": [{
                     "actionId": "0a71357b-bf25-439e-8e69-6bc1538279ae",
                     "description": "Upgrade to the recommended SDK version.",
                     "actionType": "Document",
                     "documentLink": "https://github.com/Azure/azure-sdk/blob/master/README.md"
           }],
-  "dataSourceMetadata": 
+  "dataSourceMetadata":
           {
-                    "streamNamespace": "cluster('https://cplatsdk.westus2.kusto.windows.net').database('sdk').StaleSDKRecommendation", 
+                    "streamNamespace": "cluster('https://cplatsdk.westus2.kusto.windows.net').database('sdk').StaleSDKRecommendation",
                     "dataSource": "Kusto",
                     "refreshInterval": "1.00:00:00"
           }
