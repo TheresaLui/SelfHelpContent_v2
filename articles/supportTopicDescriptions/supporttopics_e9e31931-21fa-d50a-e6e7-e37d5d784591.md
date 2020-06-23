@@ -51,7 +51,7 @@
       "shortDescription": "Common problems related to creating a new scale set",
       "searchTags": "create",
       "category": "Create",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "59a3951a-b590-04ab-d1bc-6a221800c3e1",
