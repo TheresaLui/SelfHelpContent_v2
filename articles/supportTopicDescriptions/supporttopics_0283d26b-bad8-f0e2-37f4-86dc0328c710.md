@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "72529663-afb6-ca04-d262-5677d9241c93",
+      "longDescription": "",
+      "shortDescription": "Integrate Azure Key Vault with App Services",
+      "searchTags": "Azure;App Services;Integration",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7277d9b1-6224-8361-a9d9-c42495161069",
       "longDescription": "",
       "shortDescription": "Key Vault management issues which are not listed in any of existing topics",
