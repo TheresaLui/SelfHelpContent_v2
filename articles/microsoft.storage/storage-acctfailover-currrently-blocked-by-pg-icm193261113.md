@@ -17,7 +17,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
-# Customer-managed account failover feature is currently unavailable
+## Customer-managed account failover feature is currently unavailable
 <!--issueDescription-->
 # We found an issue - Customer-managed account failover feature is currently unavailable
 
