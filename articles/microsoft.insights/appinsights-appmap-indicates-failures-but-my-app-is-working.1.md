@@ -28,7 +28,16 @@ Application map shows failures and a component as red based on a failure thresho
 
 ![appmap image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/app-insights/application-map-indicates-failure-but-my-app-works.png)
 
-### 2. **Go to failure blade to investigate failures** 
+### 2. **Transient failures** 
+
+* Often there are transient failures that happen for various reasons. When looking over a larger time range these failures are still reflected. Reduce the time range to see if the failures still exist.
+
+### 3. **Retries as failures** 
+
+* There might be a scenario where the dependencies are timing out but retries succeed. In this case all the retries which failed will be shown in the map as failure. Your app might still work as one of the retries eventually succeeded but you see the ones that failed as red in the map. 
+
+
+### 4. **Go to failure blade to investigate failures** 
 
 * To understand what failures are occurring that’s causing your application map to be filled with errors, navigate to failure blade. This will give you insight on what failures you are seeing, and you can decide whether they contribute to your application’s failures or not. Please follow [instruction here](https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-exceptions#diagnosing-failures-using-the-azure-portal).  
 

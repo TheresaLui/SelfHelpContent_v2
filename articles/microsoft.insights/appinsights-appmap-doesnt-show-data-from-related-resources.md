@@ -26,37 +26,22 @@ In the diagram below, X, Y and Z are 3 components with dependency relationships 
 
 ## **Recommended solutions**
 
-### 1. **If Y or Z are application components in a different Application Insights resource:**
+### 1. **Permissions**
+
+* If Y and Z are in a different Application Insights resource and you don’t see data related to them then ensure that that you have [permissions](https://docs.microsoft.com/en-us/azure/azure-monitor/app/resources-roles-access-control#to-provide-access-to-another-user) to these different App Insights resource. 
+
+### 2. **Using the supported SDK to instrument**  
+
+* Make sure you have instrumented the components using supported SDKs. The component will not show any data if its not instrumented. Refer to this [article](https://docs.microsoft.com/azure/application-insights/app-insights-platforms) for a list of supported SDKs. Also, confirm [cloud_RoleName](https://docs.microsoft.com/azure/azure-monitor/app/app-map#Set-cloud-RoleName) is correctly configured for Y or Z.
+
+### 3. **If Y or Z are application components in a different Application Insights resource:**
 
 * Check to see if the “update map components” button is failing to light up. This may happen for very large distributed applications. Reducing the time range you are querying for may help here.
-* •	Ensure that that you have [permissions](https://docs.microsoft.com/en-us/azure/azure-monitor/app/resources-roles-access-control#to-provide-access-to-another-user) to the App Insights resource with other components of the application.
-* •	If you don’t see Y (direct HTTP calls):
+* If you don’t see Z (direct HTTP calls):
     * Upgrade all components to the latest SDK version
     * If you're using Azure Functions with C#, upgrade to [Functions V2](https://docs.microsoft.com/azure/azure-functions/functions-versions)
-* If you don’t see Z (async across a queue): This is not supported currently. If X and Z are in the same resource group, as a workaround you can use the map in the [resource group insights experience](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/resource-group-insights#diagnose-issues-in-your-resource-group).
-
-
-### 2. **Check Auto collected dependency** 
-
-* If you're missing a dependency, make sure it's in the list of [auto-collected dependencies](https://docs.microsoft.com/azure/application-insights/auto-collect-dependencies). This page gives list of dependency calls that are automatically detected as dependencies without requiring any additional modification to your application's code.
-
-* There are some dependencies that are not automatically collected by SDK, you can track them manually using the [TrackDependency API](https://docs.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics#trackdependency) that is used by the standard auto collection modules. Below are examples of dependencies which are not automatically collected:
-    * Azure Cosmos DB is tracked automatically only if HTTP/HTTPS is used. TCP mode won't be captured by Application Insights.
-    * Redis
-
-### 3. **Select a longer time range** 
-
-* Increase the time duration on the map to check if the component appears as it may not have been called in the last hour but might appear for a longer duration selected. 
-
-### 4. **Using the supported SDK**  
-
-* Make sure you're using an officially supported SDK. Unsupported/community SDKs might not support correlation. Refer to [this article](https://docs.microsoft.com/azure/application-insights/app-insights-platforms) for a list of supported SDKs.
-
-### 5. **Check Cloud RoleName configuration**
-
-* If dependencies are application components, modeled as different roles
-within the same AI resource: Confirm [cloud_RoleName](https://docs.microsoft.com/azure/azure-monitor/app/app-map#Set-cloud-RoleName) is correctly configured.
-
+* If you don’t see Y (async across a queue): 
+    * Click on “Try” button on the purple banner on the top to try preview of App Map that provides this cross-component tracing across supported queues only. Note: This is a preview version only. 
 
 ## **Recommended Documents**
 

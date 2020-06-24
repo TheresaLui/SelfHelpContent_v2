@@ -24,27 +24,28 @@ Application map displays your app components and dependencies. These app compone
 
 ## **Recommended solutions**
 
-### 1. **If the components are in same App Insights resources with direct calls being made between the components:** 
+### 1. **Grouped under a category say HTTP** 
 
-* Increase the time duration on the map to check if the component appears as it may not have been called in the last hour but might appear for a longer duration selected. 
-* If you're using Azure Functions with C#, upgrade to [Functions V2](https://docs.microsoft.com/en-us/azure/azure-functions/functions-versions).
-* Confirm [cloud role name](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-map#set-cloud-role-name) is correctly configured
-
-
-### 2. **If the components are in different App Insights resources with direct calls being made between the components:** 
-
-* Sometimes the components are in different Application Insights resources. In that case clicking button **Update Map Components** in the top-left corner of the map will update with the number of components in your application as they are discovered. 
-* Ensure that that you have [permissions](https://docs.microsoft.com/en-us/azure/azure-monitor/app/resources-roles-access-control#to-provide-access-to-another-user) to the App Insights resource with other components of the application. 
+* Sometimes the dependency is grouped as an external dependency and gets grouped under the category typically http. When you expand that category, you will be able to see it.
+* To avoid this, ensure you have instrumented your app components using a supported SDK. Refer [to this article](https://docs.microsoft.com/azure/application-insights/app-insights-platforms) for a list of supported SDKs.
 
 
-### 3. **Using the supported SDK**  
+### 2. **Select a longer time range** 
 
-* Make sure you're using an officially supported SDK. Unsupported/community SDKs might not support correlation. Refer to [this article](https://docs.microsoft.com/azure/application-insights/app-insights-platforms) for a list of supported SDKs.
+* Increase the time duration on the map to check if the component appears as it may not have been called in the last hour but might appear for a longer duration selected.
+
+
+### 3. **App components is showing as an external dependency**  
+
+* If the app component is showing as an external dependency (like “correlation” component in the map) then either you don’t have [permissions](https://docs.microsoft.com/en-us/azure/azure-monitor/app/resources-roles-access-control#to-provide-access-to-another-user) to the app resource or you need to instrument the app component by using the [supported SDKs](https://docs.microsoft.com/azure/application-insights/app-insights-platforms). 
 
 ### 4. **Check Auto collected dependency**
 
 * If you're missing a dependency, make sure it's in the list of [auto-collected dependencies](https://docs.microsoft.com/azure/application-insights/auto-collect-dependencies). If not, you can still track it manually with a [track dependency call](https://docs.microsoft.com/azure/application-insights/app-insights-api-custom-events-metrics#trackdependency).
 
+### 5. **Update Map Component**
+
+* Check to see if the “update map components” button is failing to light up. This may happen for very large distributed applications. Reducing the time range you are querying for may help here.
 
 ## **Recommended Documents**
 
