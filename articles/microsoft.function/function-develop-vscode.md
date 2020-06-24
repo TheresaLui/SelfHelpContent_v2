@@ -18,7 +18,7 @@
 # Developing Functions/Visual Studio Code
 
 ## **Recommended Documents**
-* [Quickstart: Create a function in Azure using Visual Studio Code](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-function-vs-code?pivots=programming-language-typescript)
+* [Quickstart: Create a function in Azure using Visual Studio Code](https://docs.microsoft.com/azure/azure-functions/functions-create-first-function-vs-code?pivots=programming-language-typescript)
 
 
 
