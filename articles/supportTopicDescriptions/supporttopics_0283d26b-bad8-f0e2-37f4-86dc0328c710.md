@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5d362261-51e0-466b-2117-7b7915ee7d98",
+      "longDescription": "",
+      "shortDescription": "Understand how to use key vault for high availability",
+      "searchTags": "Key Vault;Availability;Redundancy",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5ebdb448-3d5a-3d73-259a-c0b310a3447c",
       "longDescription": "",
       "shortDescription": "Integrate Azure Key Vault with Data Factory",
