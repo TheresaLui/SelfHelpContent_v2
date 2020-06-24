@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7b79de02-aff4-9a75-e249-5b975c2279e7",
+      "longDescription": "",
+      "shortDescription": "Review developer guide, best practices to use key vault",
+      "searchTags": "key",
+      "category": "General advisory for key related issues",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7e6aa0ed-0ce8-988d-bf16-317ff5bb30af",
       "longDescription": "",
       "shortDescription": "Authentication to Key Vault with service principle and certificate or secret",
