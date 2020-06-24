@@ -34,7 +34,6 @@ A dependency is an external component that is called by your application. It's t
 
 * There are some dependencies that are not automatically collected by SDK, you can track them manually using the [TrackDependency API](https://docs.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics#trackdependency) 
 
-
 ### 3. **Dependencies are application components thar are in a separate resource**
 
 * Check to see if the “update map components” button is failing to light up. This may happen for very large distributed applications. Reducing the time range you are querying for may help here.
@@ -45,9 +44,9 @@ A dependency is an external component that is called by your application. It's t
 * If you don’t see Y (async across a queue): 
     * Click on “Try” button on the purple banner on the top to try preview of App Map that provides this cross-component tracing across supported queues only. Note: This is a preview version only.  
 
-![appmap dependency image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/app-insights/application-map-doesnt-show-data-from-related-resources.png)
+![appmap dependency image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/app-insights/application-map-not-showing-data-from-related-resources.png)
 
-### 4. **Check Cloud RoleName configuration****
+### 4. **Check Cloud RoleName configuration**
 * If dependencies are application components, modeled as different roles
 within the same AI resource: Confirm [cloud_RoleName](https://docs.microsoft.com/azure/azure-monitor/app/app-map#Set-cloud-RoleName) is correctly configured.
 

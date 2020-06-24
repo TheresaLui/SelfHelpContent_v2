@@ -32,7 +32,7 @@ Sometimes even after enabling Application Insights Snapshot Debugger for your ap
 
 * Navigate to Failures page and click on the “Snapshot only” checkbox to view if snapshots are being collected. Expand the time range to see when they stopped collecting. Refer to this [troubleshooting guide](https://docs.microsoft.com/en-us/azure/azure-monitor/app/snapshot-debugger-troubleshoot).  
 
-![appmap image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/app-insights/application-map-indicates-failure-but-my-app-works.png)
+![appmap image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/app-insights/application-insights-snapshot-debugger-is-missing.png)
 
 
 ### 3. **Ensure you have permissions** 
