@@ -214,6 +214,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9e26a269-4a5a-5a9d-ed9a-70d172b0d43d",
+      "longDescription": "",
+      "shortDescription": "Configure an application to obtain and use keys stored in Azure Key Vault",
+      "searchTags": "Azure ;Key Vault;Key",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9f847f79-c702-fdc8-3588-27bc228028b8",
       "longDescription": "",
       "shortDescription": "Guidelines to avoid being throttled and best practices to avoid it",
