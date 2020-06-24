@@ -31,7 +31,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 2,
             "controlType": "multiselectdropdown",
-            "infoBalloonText": "Check delete a <a href='https://aka.ms/AB-AA4ecq5'>Recovery Services vault</a> article",
+            "infoBalloonText": "Check delete a <a href='https://docs.microsoft.com/azure/backup/backup-azure-delete-vault'>Recovery Services vault</a> article",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
