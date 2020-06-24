@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 0283d26b-bad8-f0e2-37f4-86dc0328c710"
   description="SupportTopicDescriptions for 0283d26b-bad8-f0e2-37f4-86dc0328c710"
   authors="elixirsys2"
-  ms.author="jalichwa, sebansal"
+  ms.author="jalichwa, sebansal, sudbalas"
   selfhelptype="SupportTopicDescription"
   productpesids="0283d26b-bad8-f0e2-37f4-86dc0328c710"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -227,6 +227,14 @@
       "shortDescription": "Issues with certificate near expiry or certificate autorotation feature of key vault",
       "searchTags": "renewal;autorotation;near expiry;certificate;.pfx",
       "category": "Manage certificate lifecycle attributes",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d9faf7fc-ce65-01a1-ec0a-5bea4f733cfc",
+      "longDescription": "",
+      "shortDescription": "Integrating Azure Key Vault with Azure Sercvices",
+      "searchTags": "Azure;Integration",
+      "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {
