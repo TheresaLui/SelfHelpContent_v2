@@ -88,7 +88,12 @@
 				{
                     "value": "8",
                     "text": "Other"
+                },
+			{
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
+		
 			],
             "required": true,
 			"watermarkText": "Please select one of the below"
