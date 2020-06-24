@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "01a2a265-c50a-b665-a065-c4afc3df4a5a",
+      "longDescription": "",
+      "shortDescription": "Use Azure Key Vault to manage credentials for an application. ",
+      "searchTags": "Azure;Key Vault;Application",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1ce6ba1a-143e-5fc8-2d3c-f5627dafc6df",
       "longDescription": "",
       "shortDescription": "Issues with secrets which are not covered in above topics",
