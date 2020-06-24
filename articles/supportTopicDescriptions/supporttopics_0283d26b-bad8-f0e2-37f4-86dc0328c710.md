@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5ebdb448-3d5a-3d73-259a-c0b310a3447c",
+      "longDescription": "",
+      "shortDescription": "Integrate Azure Key Vault with Data Factory",
+      "searchTags": "Azure;Data Factory;Integrate",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "715c9793-b31c-14a0-1a1c-0ef014944a2b",
       "longDescription": "",
       "shortDescription": "Issues with deleting secrets in key vault with soft delete enabled",
