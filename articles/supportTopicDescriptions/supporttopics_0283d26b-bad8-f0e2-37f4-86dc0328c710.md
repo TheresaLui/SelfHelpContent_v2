@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3d1ec42b-a8b4-1ee9-0426-c556a4341df5",
+      "longDescription": "",
+      "shortDescription": "Integrate Azure Key Vault with Visual Studio",
+      "searchTags": "Azure;Visual Studio;Integrate",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4e68e03a-e983-cd28-7840-e2dc5c710235",
       "longDescription": "",
       "shortDescription": "Issues with creating or importing key or secret in Key vault via Portal, PowerShell or CLI",
