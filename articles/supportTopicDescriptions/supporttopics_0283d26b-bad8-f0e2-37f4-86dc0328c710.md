@@ -246,6 +246,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d2eae441-2938-3691-8af0-d2a4aee6a8c1",
+      "longDescription": "",
+      "shortDescription": "Integrate Azure Key Vault with SQL",
+      "searchTags": "Azure;Integrate;SQL",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d9faf7fc-ce65-01a1-ec0a-5bea4f733cfc",
       "longDescription": "",
       "shortDescription": "Integrating Azure Key Vault with Azure Sercvices",
