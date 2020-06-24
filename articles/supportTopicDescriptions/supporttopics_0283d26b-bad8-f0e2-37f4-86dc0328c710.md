@@ -302,6 +302,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e629c483-5274-e223-b70d-ea11bad7f3f8",
+      "longDescription": "",
+      "shortDescription": "Integrate Azure Key Vault with an Azure Service",
+      "searchTags": "Azure;Integrate",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e837ae8d-73fe-afdb-66cc-8b485af9cc91",
       "longDescription": "",
       "shortDescription": "Integrate Azure Key Vault with ARM Templates",
