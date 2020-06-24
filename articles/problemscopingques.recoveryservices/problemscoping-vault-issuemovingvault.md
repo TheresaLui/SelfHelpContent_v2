@@ -31,7 +31,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 2,
             "controlType": "multiselectdropdown",
-            "infoBalloonText": "Check move <a href='https://aka.ms/AB-vault-move'>Recovery Services vault</a> article",
+            "infoBalloonText": "Check move <a href='https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault'>Recovery Services vault</a> article",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
