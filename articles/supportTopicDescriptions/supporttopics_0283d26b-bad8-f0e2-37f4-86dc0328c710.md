@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2bfbcff3-7f92-ab9b-9191-6c45e9002e13",
+      "longDescription": "",
+      "shortDescription": "Integrate Azure Key Vault with Web Apps",
+      "searchTags": "Azure;Integrate;Web Apps",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2e7b054d-d4c6-2a14-bac9-919ffb19a6c5",
       "longDescription": "",
       "shortDescription": "Issues with integrating with DigiCert or other CA or disabled certificate state",
