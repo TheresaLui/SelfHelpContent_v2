@@ -374,6 +374,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "efb8c574-ac5b-f276-4d16-06b2230576fc",
+      "longDescription": "",
+      "shortDescription": "Manage certificate creation, import, renewal, export and CA integration with Key vault",
+      "searchTags": "certificate;pfx;pem;cert",
+      "category": "Resolve Key vault certificate issues",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f06eea61-9862-e45e-dd27-ac20f101176b",
       "longDescription": "",
       "shortDescription": "Issues with securing server on Windows or Linux VM in Azure with SSL certificate stored in key Vault ",
