@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "46ca6094-e1c4-bbff-7753-07a1f8206438",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues with key creation, import, HSM key, disk encryption",
+      "searchTags": "key;HSM;ADE;encryption",
+      "category": "Resolve issues related to keys",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4e68e03a-e983-cd28-7840-e2dc5c710235",
       "longDescription": "",
       "shortDescription": "Issues with creating or importing key or secret in Key vault via Portal, PowerShell or CLI",
