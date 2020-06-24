@@ -18,11 +18,7 @@
 # Developing Functions/Dependency Injection
 
 ## **Recommended Documents**
-* [Use dependency injection in .NET Azure Functionsr](https://docs.microsoft.com/azure/azure-functions/functions-dotnet-dependency-injection)
+
+* [Use dependency injection in .NET Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-dotnet-dependency-injection)
 * [Options pattern in ASP.NET Core](https://docs.microsoft.com/aspnet/core/fundamentals/configuration/options?view=aspnetcore-3.1)
-
-
-
-
-
 
