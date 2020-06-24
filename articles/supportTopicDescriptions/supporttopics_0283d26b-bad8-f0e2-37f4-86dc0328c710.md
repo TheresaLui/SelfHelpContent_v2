@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "20151f2b-54e2-9064-c15a-52f7370edfb1",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues when an application cannot retrieve or use a key in Key Vault",
+      "searchTags": "Key Vault;Key",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "21b85356-5cbf-5204-c2e1-dea650a3e613",
       "longDescription": "",
       "shortDescription": "Issues with retrieving secret when deleted, recovering secret, restoring secret",
