@@ -20,7 +20,7 @@
 
 * Move a key vault to a new subscription. [Move Key Vault to new Subscription](https://docs.microsoft.com/azure/key-vault/general/keyvault-move-subscription)
 
-* How do I change the tenant ID for my key vault and set correct ACLs for principals after moving to a new tenant? [Change Key Vault tenant ID](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
+* Change the tenant ID for my key vault and set correct ACLs after moving to a new tenant. [Change Key Vault tenant ID](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
 
 * Move a key vault to a new region. [Move Key Vault to new Region](https://docs.microsoft.com/azure/key-vault/general/keyvault-moveregion)
 
