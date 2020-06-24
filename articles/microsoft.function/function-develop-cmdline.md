@@ -1,6 +1,6 @@
 <properties
-	pageTitle="	Developing Functions/Command Line"
-	description="	Developing Functions/Command Line"
+	pageTitle="Developing Functions/Command Line"
+	description="Developing Functions/Command Line"
 	service="microsoft.web"
 	resource="functions"
 	authors="cts-shrahman,cts-shrahman"
@@ -18,6 +18,7 @@
 # Developing Functions/Command Line
 
 ## **Recommended Documents**
+
 * [Create a function in Azure that responds to HTTP requests](https://docs.microsoft.com/azure/azure-functions/functions-create-first-azure-function-azure-cli?tabs=bash%2Cbrowser&pivots=programming-language-csharp)
 
 
