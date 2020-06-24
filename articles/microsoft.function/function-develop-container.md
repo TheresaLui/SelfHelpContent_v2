@@ -18,11 +18,6 @@
 # Developing Functions/Creating Custom Containers
 
 ## **Recommended Documents**
+
 * [Create a function on Linux using a custom container](https://docs.microsoft.com/azure/azure-functions/functions-create-function-linux-custom-image?tabs=bash%2Cportal&pivots=programming-language-python)
-
-
-
-
-
-
 
