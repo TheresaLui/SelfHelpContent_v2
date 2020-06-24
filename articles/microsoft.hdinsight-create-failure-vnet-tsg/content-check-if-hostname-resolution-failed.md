@@ -17,10 +17,9 @@
 
 # Check if HostName Resolution failed?
 
-Run the below kusto query to check
+The hostname must resolve for HDInsight cluster creation to work successfully. Use the kusto command below tocheck DNS resolution.
 
-
-```sql
+```kusto
 
 IaasClusterCRUDEvent
 | where ClusterDnsName =~ "{ClusterDnsName}" and HdiDeploymentId =~ "{HdiDeploymentId}" and UserSubscriptionId =~ "{UserSubscriptionId}"

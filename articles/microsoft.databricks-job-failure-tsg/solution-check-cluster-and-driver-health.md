@@ -21,9 +21,9 @@
 
 Based on provided details and our investigation, since the job is scheduled to run on interactive cluster, we need to check the Ganglia metrics to ensure cluster was healthy at issue time. If there are too many GC event failure and driver unresponsive event, please:<br>
 <br>
-1. try to use bigger instance <br>
-2. restart the cluster <br>
-3. reattempt to run the job<br>
+1. Try to use bigger instance <br>
+2. Restart the cluster <br>
+3. Reattempt to run the job<br>
 <br>
 
 <!--/issueDescription-->
