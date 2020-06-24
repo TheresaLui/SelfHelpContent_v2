@@ -18,13 +18,7 @@
 # Developing Functions/Coding with Bindings or Triggers
 
 ## **Recommended Documents**
+
 * [Azure Functions triggers and bindings concepts](https://docs.microsoft.com/azure/azure-functions/functions-triggers-bindings)
 * [Azure Functions trigger and binding example](https://docs.microsoft.com/azure/azure-functions/functions-bindings-example)
-
-
-
-
-
-
-
 
