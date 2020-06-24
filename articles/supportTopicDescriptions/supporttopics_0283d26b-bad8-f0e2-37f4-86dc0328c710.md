@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f6c7bab1-cffc-9d53-d082-edd6e7713602",
+      "longDescription": "",
+      "shortDescription": "Integrate Azure Key Vault with Azure DevOps",
+      "searchTags": "Azure;DevOps;Integrate",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fb4d84b4-6177-bd6b-3524-762f05d970c8",
       "longDescription": "",
       "shortDescription": "Manage securing Key Vault and accessing Key Vault. Troubleshoot any access issues.",
