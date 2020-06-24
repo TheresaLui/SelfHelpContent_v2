@@ -21,7 +21,7 @@ In many cases, a Marketplace download failure is caused by an underlying problem
 
 **Common issues**
 
-* If you see a **rainy cloud**, or if you have a Usage Bridge alert, the simplest solution is un-register and [register Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-registration). 
+* If you see a **rainy cloud**, or if you have a Usage Bridge alert, the simplest solution is to [re-register Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-registration) using the same parameters.
 
 **NOTE**: Before you create a support ticket, review [**Release notes**](https://docs.microsoft.com/azure-stack/operator/release-notes) and [**Known issues**](https://docs.microsoft.com/azure-stack/operator/known-issues) for the update you are applying (choose from the Version drop-down menu). This may save you time and effort.
 
