@@ -8,7 +8,7 @@
     cloudEnvironments="Fairfax"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
-# Increase the reliability of audit logs
+# Increase the reliability of audit logs 
 ---
 {
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
