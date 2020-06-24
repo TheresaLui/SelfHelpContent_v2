@@ -126,6 +126,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "66bbbb9f-eb66-93d1-4137-0950c97901c0",
+      "longDescription": "",
+      "shortDescription": "Integrate Azure Key Vault with a Custom Application",
+      "searchTags": "Azure ",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "715c9793-b31c-14a0-1a1c-0ef014944a2b",
       "longDescription": "",
       "shortDescription": "Issues with deleting secrets in key vault with soft delete enabled",
