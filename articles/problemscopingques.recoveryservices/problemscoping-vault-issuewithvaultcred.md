@@ -18,11 +18,6 @@
     "subscriptionRequired": true,
     "title": "issue with vault credential",
     "fileAttachmentHint": "",
-     "diagnosticCard": {
-        "title": "Issue with vault credential",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "error_message",
@@ -30,7 +25,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that are you seeing:",
             "watermarkText": "Copy and paste error message text here",
-            "required": false
+            "required": true
         },
         {
             "id": "basic_troubleshooting_multiselect",
@@ -84,8 +79,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_start_time",
