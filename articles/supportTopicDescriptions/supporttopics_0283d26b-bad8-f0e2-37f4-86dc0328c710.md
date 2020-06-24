@@ -326,6 +326,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ea6b2950-8622-351f-01f8-d7288227c33d",
+      "longDescription": "",
+      "shortDescription": "Authorize applications to use Azure Key Vault",
+      "searchTags": "Azure;Key Vault",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f06eea61-9862-e45e-dd27-ac20f101176b",
       "longDescription": "",
       "shortDescription": "Issues with securing server on Windows or Linux VM in Azure with SSL certificate stored in key Vault ",
