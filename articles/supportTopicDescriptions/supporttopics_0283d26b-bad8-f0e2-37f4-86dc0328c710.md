@@ -270,6 +270,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e837ae8d-73fe-afdb-66cc-8b485af9cc91",
+      "longDescription": "",
+      "shortDescription": "Integrate Azure Key Vault with ARM Templates",
+      "searchTags": "Azure;Integrate;ARM Template",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f06eea61-9862-e45e-dd27-ac20f101176b",
       "longDescription": "",
       "shortDescription": "Issues with securing server on Windows or Linux VM in Azure with SSL certificate stored in key Vault ",
