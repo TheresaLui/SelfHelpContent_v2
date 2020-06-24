@@ -18,7 +18,7 @@
 # Developing Functions/Visual Studio
 
 ## **Recommended Steps**
-1. When deploying Azure Functions from Visual Studio, make sure the function runs locally using the latest Azure Function Runtime Core Tools. The Azure Function Runtime, targeting versions 1.x or 2.x, is updated periodically .
+1. When deploying Azure Functions from Visual Studio, make sure the function runs locally using the latest Azure Function Runtime Core Tools. The Azure Function Runtime, targeting versions 1.x or 2.x, is updated periodically.
 
 2. App settings , such as connection strings for bindings, are not automatically updated on your function app located in the cloud. Validate that these settings are present under the Azure Portal -> Function App -> Application Settings. If these settings are missing or incorrect, your function app may behave unexpectedly or the function app may return an error "Function Host is currently unavailable". If application insights is enabled, host start up errors and exceptions can be investigated. Please see the documentation linked below on handling application settings with Visual Studio Deployments for more detail.
 
@@ -40,12 +40,7 @@ Attempting to deploy an Azure Function from Visual Studio, while the Azure Funct
 SOLUTION:<br>
 Stop the Azure Function prior to deployment.
 Once Slots for Azure Functions are out of (preview) then recommend deployment to a slot and then swap.
+
 ## **Recommended Documents**
+
 * [Develop Azure Functions using Visual Studio](https://docs.microsoft.com/azure/azure-functions/functions-develop-vs)
-
-
-
-
-
-
-
