@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3d1a7383-1a79-f024-3de9-b04a19e01878",
+      "longDescription": "",
+      "shortDescription": "Get general guidance on working with Azure Key Vault",
+      "searchTags": "Azure;Key Vault",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3d1ec42b-a8b4-1ee9-0426-c556a4341df5",
       "longDescription": "",
       "shortDescription": "Integrate Azure Key Vault with Visual Studio",
