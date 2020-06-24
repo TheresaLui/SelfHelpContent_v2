@@ -20,10 +20,3 @@
 ## **Recommended Documents**
 
 * [Create a function in Azure that responds to HTTP requests](https://docs.microsoft.com/azure/azure-functions/functions-create-first-azure-function-azure-cli?tabs=bash%2Cbrowser&pivots=programming-language-csharp)
-
-
-
-
-
-
-
