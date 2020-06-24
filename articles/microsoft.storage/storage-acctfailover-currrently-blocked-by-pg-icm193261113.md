@@ -19,6 +19,7 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 
 ## Customer-managed account failover feature is currently unavailable
 <!--issueDescription-->
+  
 <!--/issueDescription-->
 
 # We found an issue - Customer-managed account failover feature is currently unavailable
