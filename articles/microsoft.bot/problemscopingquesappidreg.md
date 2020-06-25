@@ -82,27 +82,12 @@
 			"required": true
 		},
 		{
-			"id": "localhost",
-			"order": 6,
-			"controlType": "radioButtonGroup",
-			"displayLabel": "Does the bot work on localhost if you disable App ID and password?",
-			"radioButtonOptions": [{
-					"value": "yes_6",
-					"text": "Yes"
-				}, {
-					"value": "no_6",
-					"text": "No"
-				}
-			],
-			"required": false
-		},
-		{
             "id": "signinaudience",
             "order": 7,
             "controlType": "multiselectdropdown",
             "displayLabel": "Please select the value set in signInAudience attribute in the AAD App manifest?",
 			"watermarkText": "To know more about AAD App manifest visit the link in the info balloon.",
-			"infoBalloonText": "Azure Active Directory app manifest <a href='https://docs.microsoft.com/azure/active-directory/develop/reference-app-manifest'>link</a>",
+			"infoBalloonText": "<a href='https://docs.microsoft.com/azure/active-directory/develop/reference-app-manifest'>Azure Active Directory app manifest</a>",
 			"dropdownOptions": [
                 {
                     "value": "1",
@@ -122,6 +107,21 @@
                 }
 			]
         },
+	{
+			"id": "localhost",
+			"order": 6,
+			"controlType": "radioButtonGroup",
+			"displayLabel": "Does the bot work on localhost if you disable App ID and password?",
+			"radioButtonOptions": [{
+					"value": "yes_6",
+					"text": "Yes"
+				}, {
+					"value": "no_6",
+					"text": "No"
+				}
+			],
+			"required": false
+		},
 		{
 			"id": "postman",
 			"order": 8,
@@ -136,7 +136,7 @@
 				}
 			],
 			"watermarkText": "To know more about using Postman/cURL visit the link in the info balloon.",
-			"infoBalloonText": "Troubleshooting Bot Framework authentication<a href='https://docs.microsoft.com/azure/bot-service/bot-service-troubleshoot-authentication-problems?view=azure-bot-service-4.0#issue-an-http-request-to-the-microsoft-login-service'>link</a>"
+			"infoBalloonText": "<a href='https://docs.microsoft.com/azure/bot-service/bot-service-troubleshoot-authentication-problems?view=azure-bot-service-4.0#issue-an-http-request-to-the-microsoft-login-service'>Troubleshooting Bot Framework authentication</a>"
 		},
         {
             "id": "problem_description",
