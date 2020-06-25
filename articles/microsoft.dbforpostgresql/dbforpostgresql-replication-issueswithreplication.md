@@ -21,7 +21,7 @@ Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Steps**
 
-Issue: **Replica server is writable**, or has some other property expected only on master.
+Issue: **Replica server is writable**, or has some other property expected only on master
 
 Connect to your replica server and run the following query: `SELECT pg_is_in_recovery();`. If this returns false, you are not connected to a replica server. Look at the username field (username@servername) in your connection string. Confirm that the server name is the same as that of the replica.
 
