@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Check if failed to connect to Azure Storage Account?"
-	description="Check if failed to connect to Azure Storage Account?"
+	pageTitle="Check if failed to connect to Azure Storage Account"
+	description="Check if failed to connect to Azure Storage Account"
 	service=""
 	resource=""
 	authors="rimayber"
@@ -15,7 +15,7 @@
    	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# Check if failed to connect to Azure Storage Account?
+# Check if failed to connect to Azure Storage Account
 
 A storage account is required for HDInsight. Use the command below to ensure that a connection to Azure Storage was made successfully. 
 
