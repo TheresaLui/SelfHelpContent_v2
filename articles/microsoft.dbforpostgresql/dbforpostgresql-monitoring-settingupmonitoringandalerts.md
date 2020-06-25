@@ -17,7 +17,7 @@
 
 # Issues with setting up monitors and alerts
 
-In Azure Database for PostgreSQL, you can alert on metrics for your Azure services. If you use [Azure Monitor Logs for your Postgres logs](https://docs.microsoft.com/en-us/azure/postgresql/concepts-server-logs#azure-monitor-logging), you can [configure log alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-unified-log). 
+In Azure Database for PostgreSQL, you can alert on metrics for your Azure services. If you use [Azure Monitor Logs for your Postgres logs](https://docs.microsoft.com/azure/postgresql/concepts-server-logs), you can [configure log alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-unified-log). 
 
 Most users are able to resolve their issue using the steps below.
 
