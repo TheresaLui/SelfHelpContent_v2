@@ -18,20 +18,34 @@
 
 # Unable to mount - User is not able to retrieve the Kerberos ticket
 <!--issueDescription-->
-In order for AD Auth to work properly, we need a valid Kerberos ticket to connect to the storage account. The customers may run into issue with CheckGetKerberosTicket step if their domain group policy does not have supported Kerberos encryption type enabled.
+In order for AD Auth to work properly, we need a valid Kerberos ticket to connect to the storage account. The customers may run into issue with CheckGetKerberosTicket step if their domain group policy does not have supported Kerberos encryption type enabled or if the client has cached credentials for the storage account (in windows Credential manager) for the storage account and key..
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-1. The customer (or their domain administrator) needs to examine their domain group policy for:
+1. Check the error message that the customer sees during the CheckGetKerberosTicket step. If the error message is " 0x80090303/-2146893053: The specified target is unknown or unreachable", follow the steps defined below. 
+
+    a. Run "Cmdkey /list" command from the PowerShell console. This will show a list of all cached credentials on the Windows client.
+    b. Look for any credentials in this list with the target equal to <storageaccountname>.file.core.windows.net. Example below:
+    
+            Target: Domain:target=aaddsrgdiag721.file.core.windows.net
+            Type: Domain Password
+            User: Azure\AADDsrgdiag721
+    c. Run "Cmdkey /delete:<TARGETNAMEFROMLISTABOVE>" to delete cached credentials. Example below:
+    
+            Z:\>cmdkey /delete:Domain:target=aaddsrgdiag721.file.core.windows.net
+            CMDKEY: Credential deleted successfully.
+    d. Re-run the Debug command. If it still fails, proceed to next step. 
+
+2. The customer (or their domain administrator) needs to examine their domain group policy for:
 
    https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/network-security-configure-encryption-types-allowed-for-kerberos
 
-2. And make sure RC4_HMAC_MD5 is included as a value.  They may be wary about reverting to a weaker encryption type, below section has customer communication regarding that.
+3. And make sure RC4_HMAC_MD5 is included as a value.  They may be wary about reverting to a weaker encryption type, below section has customer communication regarding that.
 
-3. Once the group policy changes have been made, re-run the "Debug-AzStorageAccountAuth" cmdlet to make sure all the other checks pass successfully. If they do not, go back to previous step to further troubleshoot. 
+4. Once the group policy changes have been made, re-run the "Debug-AzStorageAccountAuth" cmdlet to make sure all the other checks pass successfully. If they do not, go back to previous step to further troubleshoot. 
 
-4. If "Debug-AzStorageAccountAuth" completes successfully, ask the customer to try mounting the file share. If mount still fails, escalate.
+5. If "Debug-AzStorageAccountAuth" completes successfully, ask the customer to try mounting the file share. If mount still fails, escalate.
 
 **Customer Ready Message**
 
