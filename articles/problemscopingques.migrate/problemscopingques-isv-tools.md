@@ -14,8 +14,8 @@
 # ISV tools (non Microsoft tools)
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "ISV tools (non Microsoft tools)",
     "fileAttachmentHint": "",
     "formElements": [

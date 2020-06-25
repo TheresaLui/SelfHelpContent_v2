@@ -14,8 +14,8 @@
 # Cannot find existing project
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Cannot find existing project",
     "fileAttachmentHint": "",
     "formElements": [
