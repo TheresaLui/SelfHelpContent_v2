@@ -10,7 +10,7 @@
 	articleId="mpn_marketplace_general_help"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32740811"
+	supportTopicIds="32740795"
 	clientIds='partnercenter'
 	resourceTags="mpn"
 	productPesIds="17007"
