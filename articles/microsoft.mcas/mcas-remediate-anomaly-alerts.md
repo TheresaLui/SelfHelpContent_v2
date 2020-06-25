@@ -30,6 +30,6 @@ Most users are able to resolve governance issues using the steps below.
 ## **Recommended Documents**
 
 - [Use the Cloud App Security REST API for remediation](https://docs.microsoft.com/cloud-app-security/api-introduction)
-- [Investigate activities using the API](https://docs.microsoft.com/-app-security/investigate-activities-api)
+- [Investigate activities using the API](https://docs.microsoft.com/cloud-app-security/investigate-activities-api)
 
 If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket.
