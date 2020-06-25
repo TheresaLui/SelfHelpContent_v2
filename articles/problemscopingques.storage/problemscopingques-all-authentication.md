@@ -38,6 +38,7 @@
             "controlType": "dropdown",
             "displayLabel": "Error code",
             "watermarkText": "HTTP error of failed operation",
+	    "infoBalloonText":"Select the HTTP error of the failed operation"
             "dropdownOptions": [
                 {
                     "value": "HTTP_304",
@@ -113,9 +114,16 @@
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
             "watermarkText": "Request ID of failed operation ending with 000000",
-            "textPropertyRegex": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
+	    "infoBalloonText":"Request ID of failed operation ending with 000000(6 zeros)"
             "required": false,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "diagnosticInputRequiredClients": "Portal,ASC",
+	    "validations": [
+		{
+		    "type": "RegExMatch",
+		    "value": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
+		    "text": "Request ID of failed operation ending with 000000(6 zeros)"
+		}
+	    ]
         },
         {
             "id": "problem_description",
