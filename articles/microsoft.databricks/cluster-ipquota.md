@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-* **Follow [steps here](https://docs.microsoft.com/azure/azure-portal/supportability/networking-quota-requests) to submit an expedited request for IP quota limit increase
+* **Follow [steps here](https://docs.microsoft.com/azure/azure-portal/supportability/networking-quota-requests) to submit an expedited request for IP quota limit increase**
 * To check current resources, please navigate to: Azure Portal under your subscription --> Usage + quotas
 
 ## **Recommended Documents**
