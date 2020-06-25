@@ -42,7 +42,7 @@ It is recommended to have a test Automation Account to ensure updating modules d
 
 ### "The module is imported but not loaded"
 
-* Add an explicit ["Import-Module" statement](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/import-module?view=powershell-5.1) to the beginning of your runbook. 
+* Add an explicit ["Import-Module" statement](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/import-module?view=powershell-5.1) to the beginning of your runbook. 
 
 ## **Recommended Documents**
 
