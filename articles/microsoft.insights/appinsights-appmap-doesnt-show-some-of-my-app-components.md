@@ -37,7 +37,7 @@ Application map displays your app components and dependencies. These app compone
 
 ### 3. **App components is showing as an external dependency**  
 
-* If the app component is showing as an external dependency (like “correlation” component in the map) then either you don’t have [permissions](https://docs.microsoft.com/en-us/azure/azure-monitor/app/resources-roles-access-control#to-provide-access-to-another-user) to the app resource or you need to instrument the app component by using the [supported SDKs](https://docs.microsoft.com/azure/application-insights/app-insights-platforms). 
+* If the app component is showing as an external dependency (like “correlation” component in the map) then either you don’t have [permissions](https://docs.microsoft.com/azure/azure-monitor/app/resources-roles-access-control#to-provide-access-to-another-user) to the app resource or you need to instrument the app component by using the [supported SDKs](https://docs.microsoft.com/azure/application-insights/app-insights-platforms). 
 
 ### 4. **Check Auto collected dependency**
 
@@ -49,7 +49,7 @@ Application map displays your app components and dependencies. These app compone
 
 ## **Recommended Documents**
 
-* [Troubleshooting Application Map](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-map#troubleshooting)
-* [Telemetry correlation](https://docs.microsoft.com/en-us/azure/azure-monitor/app/correlation) 
+* [Troubleshooting Application Map](https://docs.microsoft.com/azure/azure-monitor/app/app-map#troubleshooting)
+* [Telemetry correlation](https://docs.microsoft.com/azure/azure-monitor/app/correlation) 
 
 

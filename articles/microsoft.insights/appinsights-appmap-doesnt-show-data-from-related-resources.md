@@ -28,7 +28,7 @@ In the diagram below, X, Y and Z are 3 components with dependency relationships 
 
 ### 1. **Permissions**
 
-* If Y and Z are in a different Application Insights resource and you don’t see data related to them then ensure that that you have [permissions](https://docs.microsoft.com/en-us/azure/azure-monitor/app/resources-roles-access-control#to-provide-access-to-another-user) to these different App Insights resource. 
+* If Y and Z are in a different Application Insights resource and you don’t see data related to them then ensure that that you have [permissions](https://docs.microsoft.com/azure/azure-monitor/app/resources-roles-access-control#to-provide-access-to-another-user) to these different App Insights resource. 
 
 ### 2. **Using the supported SDK to instrument**  
 
@@ -45,4 +45,4 @@ In the diagram below, X, Y and Z are 3 components with dependency relationships 
 
 ## **Recommended Documents**
 
-* [Application Map Troubleshooting](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-map#troubleshooting)
+* [Application Map Troubleshooting](https://docs.microsoft.com/azure/azure-monitor/app/app-map#troubleshooting)
