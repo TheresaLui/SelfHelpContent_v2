@@ -137,7 +137,7 @@
 			],
 			"watermarkText": "To know more about using Postman/cURL visit the link in the info balloon.",
 			"infoBalloonText": "Troubleshooting Bot Framework authentication<a href='https://docs.microsoft.com/azure/bot-service/bot-service-troubleshoot-authentication-problems?view=azure-bot-service-4.0#issue-an-http-request-to-the-microsoft-login-service'>link</a>"
-		}
+		},
         {
             "id": "problem_description",
             "order": 1000,
