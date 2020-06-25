@@ -34,7 +34,6 @@
   "longDescription": "You have recently invoked an SDK version that is significantly out of date. The old SDK can lead to the utilization of processes that later versions improved. If many SDK versions are out of date, the inefficient processes can compound and lead to significant problems. Regularly updating to more recent SDK versions will help prevent this.",
   "potentialBenefits": "Ensure business continuity through API improvements.",
   "displayLabel": "Upgrade SDK Vesion",
-  "additionalColumns": {"name": "staleSDKRecommendation", "title": "Upgrade SDK Version"},
   "tip": "Upgrade to the recommended SDK version to ensure you avoid performance issues.",
   "supportedSDKLanguages": [".Net", "Java", "JavaScript", "Python"],
   "actions": [{
