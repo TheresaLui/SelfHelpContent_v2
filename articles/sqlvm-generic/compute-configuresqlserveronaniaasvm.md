@@ -9,8 +9,9 @@
 	supportTopicIds="32411855"
 	resourceTags="windows"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="756bcac5-6341-4b44-962e-c59eaf1bf093"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Configuration and Setup/Configure SQL Server on an IaaS VM

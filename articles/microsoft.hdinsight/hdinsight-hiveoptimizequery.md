@@ -10,8 +10,9 @@
     supportTopicIds="32636464"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="0d3e4f2d-cfe6-4921-8395-750ac12be8c9"
+	ownershipId="AzureData_HDInsight"
 />
 
 # My Hive Queries Are Really Slow

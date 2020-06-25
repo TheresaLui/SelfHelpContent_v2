@@ -7,11 +7,12 @@
 	ms.author="lianw"
 	articleId="datafactory-newtree-ssis-ir-pacakge-execution-customized-component.md"
 	displayOrder="14"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32680897"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Execute SSIS Package - Customized Components Issues

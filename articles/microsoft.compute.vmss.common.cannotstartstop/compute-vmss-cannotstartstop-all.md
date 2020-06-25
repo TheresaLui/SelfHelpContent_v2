@@ -10,8 +10,9 @@
 	supportTopicIds="32641073"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="2c5e3e6b-90f3-48c5-8045-eb600b18c22f"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # Cannot start or stop my instances

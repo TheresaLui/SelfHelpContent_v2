@@ -4,12 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635671"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32725888"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_establishing_customer_relationship"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Partner Center Establishing Customer Relationship
 ---

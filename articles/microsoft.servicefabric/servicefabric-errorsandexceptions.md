@@ -9,8 +9,9 @@
 	supportTopicIds="32449687"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public,BlackForest,Fairfax"
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
 	articleId="274e2399-596c-4a21-8af6-d6922592736a"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # development/errors and exceptions

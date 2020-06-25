@@ -10,8 +10,9 @@
     supportTopicIds="32674906"
     resourceTags=""
     productPesIds="15879"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="aab8c95b-2e36-4987-8c67-db03b7744763"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # Troubleshoot performance issue - low throughput

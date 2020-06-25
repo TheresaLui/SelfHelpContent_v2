@@ -4,12 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635708"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32728287,32728293,32725812"
+	productPesIds="17000"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_users_notifications"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Users Notifications
 ---

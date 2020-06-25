@@ -10,8 +10,9 @@
     supportTopicIds="32637617"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="11ed1924-1269-45f1-9d2c-6175a9bb8d3c"    
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting site-to-site VPN connectivity to Cloud Simple 

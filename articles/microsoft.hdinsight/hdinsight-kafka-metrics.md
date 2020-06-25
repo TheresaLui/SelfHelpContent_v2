@@ -10,8 +10,9 @@
     supportTopicIds="32629085"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-kafka-metrics"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight: How to analyze Kafka metrics
 

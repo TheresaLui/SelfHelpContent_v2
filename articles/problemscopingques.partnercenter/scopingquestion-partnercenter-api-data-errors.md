@@ -4,12 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635670,32635650"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32692598,32725821,32692592"
+	productPesIds="17002"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_api_data_errors"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_API_and_Integration_Support"
 />
 # Partner Center API Data Issues and Errors
 ---

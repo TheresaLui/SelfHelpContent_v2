@@ -11,7 +11,8 @@
     supportTopicIds="32635094"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_AzureBatch"
 />
 
 # Pools and nodes - Low priority nodes

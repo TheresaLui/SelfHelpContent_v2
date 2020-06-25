@@ -9,8 +9,9 @@
 	supportTopicIds="32542211"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="53038703-6985-4015-a312-634d9f03a594"
+	ownershipId="Compute_AppService"
 />
 
 # configuration and management/scaling

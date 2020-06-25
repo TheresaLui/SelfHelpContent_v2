@@ -9,8 +9,9 @@
     supportTopicIds="32565596"
     resourceTags=""
     productPesIds="14785,16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="b177f2d4-f278-402d-9392-e1b7007af595"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # I still have other problems deleting my Azure AD tenant

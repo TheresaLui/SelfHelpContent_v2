@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640095"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mysql-perf-unexpected_behavior"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Performance and Query Execution - Unexpected behavior, errors or exceptions executing a query
 ---

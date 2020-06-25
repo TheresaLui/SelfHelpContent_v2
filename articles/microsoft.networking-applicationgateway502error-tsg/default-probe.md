@@ -10,8 +10,9 @@
         supportTopicIds=""
         resourceTags=""
         productPesIds=""
-        cloudEnvironments="public"
+        cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="83a7fcf2-0a9f-4887-b91e-308d1e1b6b62"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 **How to check if the backend server is accessible for default probe settings:**

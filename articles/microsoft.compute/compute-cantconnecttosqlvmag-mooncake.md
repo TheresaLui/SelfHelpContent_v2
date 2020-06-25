@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="WindowsSQL"
 	productPesIds="14749"
-	cloudEnvironments="MoonCake"
+	cloudEnvironments="MoonCake, Fairfax"
 	articleId="8e5e4f2d-f753-4d40-8997-72bf29a5a124"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # I can't connect to SQL Server Availability Group

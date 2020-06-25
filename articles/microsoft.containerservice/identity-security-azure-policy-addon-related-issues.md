@@ -10,8 +10,9 @@
     supportTopicIds="32640163"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="identity-security-azure-policy-addon-related-issues"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Kubernetes Service

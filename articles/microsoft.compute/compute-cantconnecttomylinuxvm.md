@@ -10,8 +10,9 @@
     supportTopicIds="32547978,32547979,32615531,32615526,32639640,32615530,32675597,32675600,32675601,32675599"
     resourceTags="linux,redhat,Ubuntu"
     productPesIds="15571,16342,16065,15797,16454,16470"
-    cloudEnvironments="public, Mooncake"
+    cloudEnvironments="public, Mooncake, Fairfax, usnat, ussec"
     articleId="51356b1f-09f5-4a5b-85f4-dc96cea89c14"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Resolve connection issue with your Linux VM
@@ -37,3 +38,4 @@ To resolve common issues, try one or more of the following:
 
 * [Detailed troubleshooting of SSH errors](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-ssh-connection) <br>
 * [Automate Linux VM Customization Tasks using Custom Script Extension](https://azure.microsoft.com/blog/automate-linux-vm-customization-tasks-using-customscript-extension/)
+* [Troubleshooting a Linux VM that is using LVM and is not booting](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/chroot-logical-volume-manager)

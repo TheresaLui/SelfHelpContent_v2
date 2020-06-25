@@ -10,8 +10,9 @@
     supportTopicIds="32675744"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="b5dcb587-3130-4550-af8e-2517b61fb5e2"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # View Dependencies
@@ -24,11 +25,11 @@ When you configure your OMS workspace for the first time for an Azure Migrate: S
 
 ### I am not able to create an Log Analytics workspace in the region of my preference. How do I proceed?
 
-Azure Migrate currently supports creation of OMS workspace in East US, Southeast Asia and West Europe regions. Within Azure Migrate, you cannot create a workspace in regions in Japan or Australia. Even if the workspace is created outside of Azure Migrate, it currently cannot be associated with an Azure Migrate project. This limitation is temporary and will be addressed in the future.
+Azure Migrate currently supports creation of OMS workspace in East US, Southeast Asia and West Europe regions. Within Azure Migrate, you cannot create a workspace in regions in Japan or Australia. Even if the workspace is created outside of Azure Migrate in an unsupported region, it currently cannot be associated with an Azure Migrate project. This limitation is temporary and will be addressed in the future.
 
 ### I am not able to associate my Log Analytics workspace with the Azure Migrate project. How do I proceed?
 
-Azure Migrate currently supports creation or associations of OMS workspaces that are in East US, Southeast Asia and West Europe regions. Within Azure Migrate, you cannot create a workspace in regions in Japan or Australia. Even if the workspace is created outside of Azure Migrate, it currently cannot be associated with an Azure Migrate project. This limitation is temporary and will be addressed in the future.
+Azure Migrate currently supports creation or associations of OMS workspaces that are in East US, Southeast Asia and West Europe regions. Within Azure Migrate, you cannot create a workspace in regions in Japan or Australia. Even if the workspace is created outside of Azure Migrate in an unsupported region, it currently cannot be associated with an Azure Migrate project. This limitation is temporary and will be addressed in the future.
 
 ### **Can I change the OMS workspace used by Server Assessment?**
 

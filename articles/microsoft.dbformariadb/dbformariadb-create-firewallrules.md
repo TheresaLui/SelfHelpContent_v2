@@ -5,13 +5,14 @@
     resource="servers"
     authors="kummanish"
     ms.author="manishku"
-    displayOrder="210"
+    displayOrder="210" 
     selfHelpType="generic"
     supportTopicIds="32640121"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="d4b60714-37a7-4235-94ae-0efd1bd28fb8"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Managing firewall rules for Azure Database for MariaDB
@@ -29,11 +30,19 @@ Most users are able to resolve their issue using the steps below.
   * If you client does not have a static IP address, your IP address might not be covered by the firewall rule
 
 * There may be as much as a five-minute delay for changes to the Azure Database for MariaDB Server firewall configuration to take effect. Confirm your rule was added and re-try to connect for at least 5 minutes.
+
+* To set up firewall rules on your client for outbound connection to Azure Database for MariaDB, whitelist the gateway IP for your particular region. For information related to gateway IP addresses, visit the [connectivity architecture article](https://docs.microsoft.com/azure/mariadb/concepts-connectivity-architecture#azure-database-for-mariadb-gateway-ip-addresses).
+
 * If you are having trouble using Azure CLI:
 
   * Make sure you are signed-in to the correct using **az login**
   * Ensure you are using the correct subscription, in case you have more than one
   * Specify all required parameters in **az mariadb server firewall-rule** with valid values. Review the [Azure CLI MariaDB firewall rule](https://docs.microsoft.com/cli/azure/mariadb/server/firewall-rule?view=azure-cli-latest) documentation for valid parameters.
+
+* If you are deploying firewall rules using ARM templates:
+
+  * Familiarize yourself with [Create Azure Database for MariaDB with multiple firewall rules](https://github.com/Azure/azure-mariadb/tree/master/arm-templates/ExampleWithFirewallRule) ARM template
+  * If you are deploying or updating multiple server attributes which includes firewall rules, Virtual Network rules, server parameters or databases for a given server, make sure you are deploying these serially, in any order. Familiarize yourself with [Sample ARM templates](https://github.com/Azure/azure-mariadb/tree/master/arm-templates/ExampleWithMultipleServerProperties).
 
 ## **Recommended Documents**
 

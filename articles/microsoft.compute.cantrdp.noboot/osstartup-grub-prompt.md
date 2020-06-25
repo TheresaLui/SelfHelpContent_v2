@@ -13,7 +13,8 @@
     supportTopicIds="32411835"
     resourceTags="linux"
     productPesIds="15571,15797,16454,16470"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # VM Boot Error - Grub Rescue

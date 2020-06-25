@@ -10,8 +10,9 @@
     supportTopicIds="32641422"
     resourceTags=""
     productPesIds="16757"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="bastion-usability-ssh"
+	ownershipId="CloudNet_AzureBastion"
 />
 
 # Have trouble using my SSH session or not responding as expected

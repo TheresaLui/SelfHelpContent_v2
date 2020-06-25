@@ -10,8 +10,9 @@
 	supportTopicIds="32632996"
 	resourceTags=""
 	productPesIds="15693"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="appinsights-dashboard"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
 # Azure Portal

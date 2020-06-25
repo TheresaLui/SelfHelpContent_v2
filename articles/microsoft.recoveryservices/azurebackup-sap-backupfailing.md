@@ -10,11 +10,13 @@
 	supportTopicIds="32690765"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="8914d3eb-ef72-48b6-aa76-e80246b99342"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 #  When backup of SAP HANA fails follow these troubleshooting steps listed by error code
+Use [Backup alerts](https://go.microsoft.com/fwlink/?linkid=2112848) to know more about the error that you are currently seeing.
 ## **Recommended Steps**
 - [HanaBackupOperationFailed – Backup operation failed](https://go.microsoft.com/fwlink/?linkid=2109506)
 - [UserErrorHANAPODoesNotSupportBackupType – Backup type not supported](https://go.microsoft.com/fwlink/?linkid=2109506)

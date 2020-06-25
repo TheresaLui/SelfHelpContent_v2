@@ -8,10 +8,11 @@
     articleId="insights_trackdependencies"
     displayOrder="140"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
-    supportTopicIds="32632981"
- />
+    supportTopicIds="32632981,32729605"
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # How do I automatically track dependencies
 
