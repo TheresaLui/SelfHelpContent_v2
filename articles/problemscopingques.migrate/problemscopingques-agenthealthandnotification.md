@@ -14,8 +14,8 @@
 # Agent health and notification
 ---
 {
-    "subscriptionRequired": false,
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Agent health and notification",
     "fileAttachmentHint": "",
     "formElements": [

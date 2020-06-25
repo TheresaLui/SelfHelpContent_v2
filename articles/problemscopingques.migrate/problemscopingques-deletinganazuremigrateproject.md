@@ -14,8 +14,8 @@
 # Deleting an Azure Migrate project
 ---
 {
-    "subscriptionRequired": false,
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Deleting an Azure Migrate project",
     "fileAttachmentHint": "",
     "formElements": [

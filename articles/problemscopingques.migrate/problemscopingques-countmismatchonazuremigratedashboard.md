@@ -14,8 +14,8 @@
 # Count mismatch on Azure Migrate Dashboard
 ---
 {
-    "subscriptionRequired": false,
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
    "title": "Count mismatch on Azure Migrate dashboard",
     "fieAttachmentHint": "",
     "formElements": [

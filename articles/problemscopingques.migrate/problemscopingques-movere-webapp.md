@@ -14,8 +14,8 @@
 # Movere, VDI, Database and webapp tools
 ---
 {
-    "subscriptionRequired": false,
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Movere, VDI, Database and webapp tools",
     "fileAttachmentHint": "",
     "formElements": [

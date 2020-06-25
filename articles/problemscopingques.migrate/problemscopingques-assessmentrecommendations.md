@@ -16,8 +16,8 @@
 
 ---
 {
-    "subscriptionRequired": false,
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Discovery issues",
     "fileAttachmentHint": "",
     "formElements": [

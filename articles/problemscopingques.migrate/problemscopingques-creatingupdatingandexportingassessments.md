@@ -16,8 +16,8 @@
 
 ---
 {
-    "subscriptionRequired": false,
-    "resourceRequired": false,
+    "subscriptionRequired": true,
+    "resourceRequired": true,
     "title": "Creating, updating and exporting issues",
     "fileAttachmentHint": "",
     "formElements": [
