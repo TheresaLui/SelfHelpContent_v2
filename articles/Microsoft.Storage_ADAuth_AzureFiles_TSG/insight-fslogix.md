@@ -23,74 +23,70 @@ FSLogix is designed to roam profiles in remote computing environments, such as W
 
 ## **Recommended Steps**
 
-### 1. RBAC Azure permissions
-After you domain-joined the Azure storage account, assign Azure RBAC permissions to Windows Virtual Desktop users.
-All users that need to have FSLogix profiles stored on the storage account must be assigned the ***Storage File Data SMB Share Contributor role***.
-Users signing in to the Windows Virtual Desktop session hosts need access permissions to access your file share. Granting access to an Azure File share involves configuring permissions both at the share level as well as on the NTFS level, similar to a traditional Windows share.
-The accounts or groups you assign permissions to should have been created in the domain and synchronized with Azure AD. Accounts created in Azure AD won't work.
+### RBAC Azure permissions
 
-                ** Open the Azure portal.
-                ** Go to the storage account that is domain-joined
-                ** Select Access Control (IAM)
-                ** Select Add a role assignment.
-                ** In the Add role assignment tab, select Storage File Data SMB Share Elevated Contributor for the administrator account.
-                   To assign users permissions for their FSLogix profiles, follow these same instructions. However, when you get to step 5, select Storage File Data SMB Share Contributor instead.
+* After you domain-joined the Azure storage account, assign Azure RBAC permissions to Windows Virtual Desktop users
+* All users that need to have FSLogix profiles stored on the storage account must be assigned the ***Storage File Data SMB Share Contributor role***
+* Users signing in to the Windows Virtual Desktop session hosts need access permissions to access your file share. Granting access to an Azure File share involves configuring permissions both at the share level as well as on the NTFS level, similar to a traditional Windows share.
+* The accounts or groups you assign permissions to should have been created in the domain and synchronized with Azure AD. Accounts created in Azure AD won't work.
 
-### 2. NTFS Windows permissions
+To assign permissions:
+
+* Open the Azure portal
+* Go to the storage account that is domain-joined
+* Select Access Control (IAM)
+* Select Add a role assignment
+* In the Add role assignment tab, select Storage File Data SMB Share Elevated Contributor for the administrator account
+* To assign users permissions for their FSLogix profiles, follow these same instructions. However, when you get to step 5, select Storage File Data SMB Share Contributor instead.
+
+### NTFS Windows permissions
+
 Once you've assigned RBAC permissions to your users, next you'll need to configure the NTFS permissions.
-- Run the following cmdlet to mount the Azure file share and assign it a drive letter:
-                        
-                        net use <desired-drive-letter>: <UNC-pat> <SA-key> /user:Azure\<SA-name>
 
-- Run the following cmdlets to let your Windows Virtual Desktop users create their own profile containers while blocking access to their profile container from other users.
-                       
-                        icacls <mounted-drive-letter>: /grant <user-email>:(M)
+- Run the following cmdlet to mount the Azure file share and assign it a drive letter: `net use <desired-drive-letter>: <UNC-pat> <SA-key> /user:Azure\<SA-name>`
+- Run the following cmdlets to let your Windows Virtual Desktop users create their own profile containers while blocking access to their profile container from other users:
 
-                        icacls <mounted-drive-letter>: /grant "Creator Owner":(OI)(CI)(IO)(M)
+```
+icacls <mounted-drive-letter>: /grant <user-email>:(M)
+icacls <mounted-drive-letter>: /grant "Creator Owner":(OI)(CI)(IO)(M)
+icacls <mounted-drive-letter>: /remove "Authenticated Users"
+icacls <mounted-drive-letter>: /remove "Builtin\Users"
+```
 
-                        icacls <mounted-drive-letter>: /remove "Authenticated Users"
+For example, `icacls G: /grant john.doe@contoso.com:(M)`.
 
-                        icacls <mounted-drive-letter>: /remove "Builtin\Users"
+### Configure FSLogix on client
 
-
-For example:
-                       
-                        icacls G: /grant john.doe@contoso.com:(M)
-
-
-
-### 3. Configure FSLogix on client
 This section will show you how to configure a VM with FSLogix. You'll need to follow these instructions every time you configure a session host.
+
 There are several options available that ensure the registry keys are set on all session hosts. You can set these options in an image or configure a group policy.
 To configure FSLogix on your session host VM:
 
-- RDP to the session host VM of the Windows Virtual Desktop host pool.
+- RDP to the session host VM of the Windows Virtual Desktop host pool
 - Download and install FSLogix [here](https://docs.microsoft.com/fslogix/install-ht)
-- Follow the instructions in [Configure profile container registry settings](https://docs.microsoft.com/fslogix/configure-profile-container-tutorial#configure-profile-container-registry-settings)
-        
-        **  Navigate to Computer > HKEY_LOCAL_MACHINE > SOFTWARE > FSLogix.
-        **  Create a Profiles key.
-        **  Create Enabled, DWORD with a value of 1.
-        **  Create VHDLocations, MULTI_SZ.
-        **  Set the value of VHDLocations to the UNC path you generated in Get the UNC path.
-- Restart the VM
+- Follow the instructions in [Configure profile container registry settings](https://docs.microsoft.com/fslogix/configure-profile-container-tutorial#configure-profile-container-registry-settings):
 
+    * Navigate to Computer > HKEY_LOCAL_MACHINE > SOFTWARE > FSLogix
+    * Create a Profiles key
+    * Create Enabled, DWORD with a value of 1
+    * Create VHDLocations, MULTI_SZ
+    * Set the value of VHDLocations to the UNC path you generated in Get the UNC path
 
-###Troubleshooting Symptom
+* Restart the VM
+
+## Troubleshooting Symptoms
 
 Users profiles are not able to read or write to the storage account as necessary.
 
-###Troubleshooting
+### Troubleshooting
 
 At the Azure File Share level, make sure that the WVD Users and WVD Admin have Azure SMB permissions.
 
+### Collaboration
 
-###Collaboration
+If user needs assistance configuring FSlogix, create a collaboration to FSLogix team: Routing: Windows Servers/Windows Remote Management/FSLogix/Profile
 
-If user needs assistance configuring FSlogix, create a collaboration to FSLogix team as below:
-Routing: Windows Servers/Windows Remote Management/FSLogix/Profile
+## **Recommended Documents**
 
+* [Create File Share](https://docs.microsoft.com/azure/virtual-desktop/create-file-share)
 
-###Public doc:
-
-https://docs.microsoft.com/azure/virtual-desktop/create-file-share
