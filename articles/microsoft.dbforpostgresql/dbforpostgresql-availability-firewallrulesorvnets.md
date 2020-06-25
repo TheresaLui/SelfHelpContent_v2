@@ -17,7 +17,7 @@
 
 # Managing firewall rules and virtual networks
 
-[Firewall rules]((https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules)) or [virtual network service endpoints](https://docs.microsoft.com/azure/postgresql/concepts-data-access-and-security-vnet) need to be configured to enable access to your Azure Database for PostgreSQL server.
+[Firewall rules](https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules) or [virtual network service endpoints](https://docs.microsoft.com/azure/postgresql/concepts-data-access-and-security-vnet) need to be configured to enable access to your Azure Database for PostgreSQL server.
 
 ## **Recommended Steps**
 
