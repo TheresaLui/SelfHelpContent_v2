@@ -35,7 +35,7 @@ Azure Migrate currently supports creation or associations of OMS workspaces that
 
 No, you cannot change the OMS workspace once it has been configured.
 
-### ***What are the supported OS for agent-based dependency analysis?***
+### ***What are the supported operating systems for agent-based dependency analysis?***
 
 Refer to the supported OS documentation [here](https://go.microsoft.com/fwlink/?linkid=2133723).
 
