@@ -119,7 +119,7 @@
 				{
                     "value": "4",
                     "text": "PersonalMicrosoftAccount"
-                },
+                }
 			]
         },
 		{
