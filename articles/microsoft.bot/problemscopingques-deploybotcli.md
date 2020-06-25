@@ -80,7 +80,7 @@
             "controlType": "textbox",
             "displayLabel": "Please provide Resource Group name",
             "required": true,
-			visibility: "operation == existing_rg"
+			visibility: "rg == existing_rg"
         },
 		{
 			"id": "command",
