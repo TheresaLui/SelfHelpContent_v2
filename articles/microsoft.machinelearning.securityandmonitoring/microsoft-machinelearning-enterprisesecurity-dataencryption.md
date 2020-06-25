@@ -34,7 +34,7 @@ An HBI-enabled workspace controls the amount of data Microsoft collects for diag
 - Securely passes credentials for your storage account, container registry and SSH account from the execution layer to your compute clusters using your key vault
 - Enables IP filtering to ensure the underlying batch pools cannot be called by any external services other than Azure Machine Learning service
 
-To create an HBI-enabled workspace, set the `hbi_workspace` parameter to True in the [Workspace.create()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.workspace(class)?view=azure-ml-py#create-name--auth-none--subscription-id-none--resource-group-none--location-none--create-resource-group-true--sku--basic---friendly-name-none--storage-account-none--key-vault-none--app-insights-none--container-registry-none--cmk-keyvault-none--resource-cmk-uri-none--hbi-workspace-false--default-cpu-compute-target-none--default-gpu-compute-target-none--private-endpoint-config-none--private-endpoint-auto-approval-true--exist-ok-false--show-output-true-) method.
+To create an HBI-enabled workspace, set the `hbi_workspace` parameter to True in the <a href="https://docs.microsoft.com/python/api/azureml-core/azureml.core.workspace(class)?view=azure-ml-py#create-name--auth-none--subscription-id-none--resource-group-none--location-none--create-resource-group-true--sku--basic---friendly-name-none--storage-account-none--key-vault-none--app-insights-none--container-registry-none--cmk-keyvault-none--resource-cmk-uri-none--hbi-workspace-false--default-cpu-compute-target-none--default-gpu-compute-target-none--private-endpoint-config-none--private-endpoint-auto-approval-true--exist-ok-false--show-output-true-">Workspace.create()</a> method.
 
 ### **Customer-managed Keys**
 
