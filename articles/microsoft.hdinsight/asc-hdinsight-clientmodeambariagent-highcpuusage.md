@@ -10,10 +10,11 @@
     articleId="Hdi_ClientModeAgentCpuUsage"
     diagnosticScenario="HDInsightClientModeAmbariAgentHighCpuUsageInsight"
     selfHelpType="rca"
-    supportTopicIds="32636495, 32636496, 32636497, 32636498"
+    supportTopicIds=""
     resourceTags=""
-    productPesIds="15078"
-    cloudEnvironments="public, mooncake, blackforest, fairfax"
+    productPesIds=""
+    cloudEnvironments="public, mooncake, blackforest, fairfax, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found an issue

@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630423"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="1BBD6149-205A-42C1-A193-7B2C571FFFA6"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 # Scoping questions for Firewall Errors
 ---
@@ -16,7 +17,7 @@
   "$schema": "SelfHelpContent",
   "resourceRequired": true,
   "subscriptionRequired": true,
-  "title": "Scoping questions for Firewall rules and related issues",
+  "title": "Firewall errors related scoping questions",
   "fileAttachmentHint": "",
 	"diagnosticCard": {
 	  "title": "Scoping questions for Firewall rules and related issues",
@@ -55,7 +56,7 @@
 			"id": "sqlexception_received_on_client",
 			"order": 2000,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please provide the verbatim for the SQL error, or client error message you're seeing. Complete callstack (with appropriate user and/or application sensitive information redacted) is preferred.",
+			"displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
 			"required": false,
 			"visibility": true,
 			"diagnosticInputRequiredClients": "Portal"

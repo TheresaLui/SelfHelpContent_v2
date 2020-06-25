@@ -8,11 +8,12 @@
 	articleId="datafactory-newtree-ssis-ir-pacakge-execution-data-connectivity.md"
 	displayOrder="12"
 	diagnosticScenario=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32680898"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Execute SSIS Package - Data Connectivity Issues

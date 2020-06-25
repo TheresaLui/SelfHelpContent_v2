@@ -10,8 +10,9 @@
     supportTopicIds="32588749"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="nli04tg3-936d-421c-b919-f924c12f1e9f"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps service interruption notified by Azure Portal

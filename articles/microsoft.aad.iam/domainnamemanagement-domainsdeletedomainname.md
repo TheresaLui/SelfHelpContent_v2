@@ -5,10 +5,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32045808"
     productPesIds="14785,16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="a8f4e38a-eaf1-43c4-b846-bd216f8631f0"
-    />
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
+/>
 
 # Problem with Domains Name domains delete
 

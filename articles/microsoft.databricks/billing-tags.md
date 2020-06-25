@@ -10,8 +10,9 @@
 	supportTopicIds="32677730"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="50078350-c098-4986-bd32-ec5c3f9e5618"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Databricks Tags

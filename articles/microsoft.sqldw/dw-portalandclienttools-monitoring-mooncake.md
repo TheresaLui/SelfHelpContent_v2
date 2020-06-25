@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-portalandclienttools-monitoring-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Monitoring, metrics or alerts

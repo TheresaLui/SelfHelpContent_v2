@@ -13,7 +13,8 @@
 	supportTopicIds="32628416"
 	resourceTags="windows, linux"
 	productPesIds="16221"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Can't connect MySQL database server because of SSL connection errors
 

@@ -10,11 +10,13 @@
 	supportTopicIds="32690772"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="269720f8-523e-42f0-a577-8af0e987abb5"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # When faced with issues during SAP HANA restore follow these troubleshooting steps
+Use [Backup alerts](https://go.microsoft.com/fwlink/?linkid=2112848) to know more about the error that you are currently seeing.
 ## **Recommended Steps**
 - [UserErrorSDCtoMDCUpgradeDetected – SDC to MDC upgrade](https://go.microsoft.com/fwlink/?linkid=2109508) 
 - [UserErrorOperationFailedHanaDatabaseIsOffline – Ensure HANA database is online](https://go.microsoft.com/fwlink/?linkid=2109408)

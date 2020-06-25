@@ -11,8 +11,9 @@
 	supportTopicIds="32639207"
 	resourceTags=""
 	productPesIds="16505"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="32639207"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box setup and configuration

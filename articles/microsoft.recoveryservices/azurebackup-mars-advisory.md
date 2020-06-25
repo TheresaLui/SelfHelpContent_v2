@@ -10,8 +10,9 @@
 	supportTopicIds="32553272"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="f6d84ce0-9084-497c-9e2b-31084d714d0a"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Configure Backup for Files &Folders using Azure Backup agent
 

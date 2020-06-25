@@ -13,7 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds="32584249"
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # We ran connectivity diagnostics on your resource and found an issue

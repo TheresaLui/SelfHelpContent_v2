@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake" 
 	articleId="76f7d460-e696-489b-8a36-61fa09fa9f06"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Can I have more than 20 throughput units? 

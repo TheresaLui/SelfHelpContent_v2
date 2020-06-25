@@ -13,7 +13,8 @@
 	supportTopicIds="32630506"
 	resourceTags="9000Or1200Series"
 	productPesIds="16161"	
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Slow read writes to the volumes or shares 

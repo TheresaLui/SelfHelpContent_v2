@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
 	supportTopicIds="32584336"
     productPesIds="14997"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     articleId="scoping_custom_permissions"
 	schemaVersion="1"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 # Can't apply this label
 ---
@@ -79,6 +80,23 @@
                     "order": 7,
                     "controlType": "dropdown",
                     "displayLabel": "Is the issue related to a scoped policy?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Yes",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "No",
+                            "text": "No"
+                        }
+                    ],
+                    "required": false
+                },{
+                    "id": "checkrightclick",
+                    "order": 6,
+                    "controlType": "dropdown",
+                    "displayLabel": "Were you able to replicate this issue using Right Click - Classify and Protect",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {

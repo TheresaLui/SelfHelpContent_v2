@@ -10,8 +10,9 @@
     supportTopicIds="32536541"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="ee9aa6bd-6e68-4cf6-a07e-e4791a915485"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # configurationassessment-error

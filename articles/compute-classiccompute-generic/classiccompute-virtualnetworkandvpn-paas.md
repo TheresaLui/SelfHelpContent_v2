@@ -9,8 +9,9 @@
 	supportTopicIds="32422594"
 	resourceTags=""
 	productPesIds="13185"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="87aa158e-febe-423a-8f8d-c314e7a8ffc1"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # worker role (paas)/Connectivity/Virtual Network and VPN

@@ -13,7 +13,8 @@
 	supportTopicIds="32632107"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Azure Media Services analyzing with the OCR processor (v2 legacy)

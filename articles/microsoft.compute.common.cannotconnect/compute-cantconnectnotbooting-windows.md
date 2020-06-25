@@ -10,8 +10,9 @@
     supportTopicIds="32615532,32628284,32639646"
     resourceTags=""
     productPesIds="14749,14745"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="f77c4d7d-6738-46fb-afea-07b627a597b6"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # My Windows VM is not booting for reconnection

@@ -10,8 +10,9 @@
   supportTopicIds="32629069"
   resourceTags=""
   productPesIds="15078"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax, usnat, ussec"
   ArticleId="b47d28df-b6a9-4eb6-b5c7-a6f595e49636"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Hiveserver2 

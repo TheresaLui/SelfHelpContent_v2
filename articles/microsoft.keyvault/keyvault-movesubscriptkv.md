@@ -10,16 +10,19 @@
 	supportTopicIds="32375297"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="6c2979b7-4bb2-4c90-a61c-0c81d6a7a117"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # How to Change Key Vault Type for Azure Key Vault
 ## **Recommended Steps**
 
-* My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
+* Move a key vault to a new subscription. [Move Key Vault to new Subscription](https://docs.microsoft.com/azure/key-vault/general/keyvault-move-subscription)
 
-	[Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
+* Change the tenant ID for my key vault and set correct ACLs after moving to a new tenant. [Change Key Vault tenant ID](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
+
+* Move a key vault to a new region. [Move Key Vault to new Region](https://docs.microsoft.com/azure/key-vault/general/keyvault-moveregion)
 
 
 ## **Recommended Documents**

@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32612187"
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureDatabricks"
 />
 # Databricks Cluster Creation Issue
 ---

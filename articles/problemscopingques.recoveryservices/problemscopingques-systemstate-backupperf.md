@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32594867"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="03d5807f-181f-4e1b-a698-8f2744043e9b"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions System State backup performance
 ---

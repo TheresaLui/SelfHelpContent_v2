@@ -1,11 +1,13 @@
 <properties
-    pageTitle="Add an endpoint configured to "All (World)""
-    description="Add an endpoint configured to "All (World)""
+    pageTitle='Add an endpoint configured to "All (World)"'
+    description='Add an endpoint configured to "All (World)"'
     authors="aadevteam"
     ms.author="aadevteam"
     articleId="0bbe0a49-3c63-49d3-ab4a-aa24198f03f7_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    productPesIds="15400"
+    cloudEnvironments="Public, usnat, ussec"
+  	ownershipId="CloudNet_TrafficManager"
 />
 # Add an endpoint configured to "All (World)"
 ---
@@ -27,13 +29,13 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "atmredmond@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "Metrics://TrafficManager",
+      "service": "Cloudnet",
+      "team": "TrafficManager"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "d99081c1-c81f-49e3-8aec-541f00ffba62"
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
@@ -59,8 +61,8 @@
     "action": {
       "actionId": "98cb0db6-eef6-48b3-acec-d05cf2f24de3",
       "actionType": "Blade",
-      "extensionName": "Microsoft_Azure_Network",
-      "bladeName": "TrafficManagerBlade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}"
       }

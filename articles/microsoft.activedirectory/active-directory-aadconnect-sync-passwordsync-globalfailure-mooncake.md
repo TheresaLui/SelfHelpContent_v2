@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	  articleId="active-directory-aadconnect-sync-passwordsync-globalfailure-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Password synchronization does not work – No passwords are synchronized

@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32637299,32637300"
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="384cea3e-e6bd-42ee-938e-9400cc9ed1c1"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Resource governance

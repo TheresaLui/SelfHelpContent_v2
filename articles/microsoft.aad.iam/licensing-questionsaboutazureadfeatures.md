@@ -6,10 +6,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32615394"
     productPesIds="16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="licensing-questionsaboutazureadfeatures"
-    />
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
+/>
 
 # Problem assigning licenses to a group
 

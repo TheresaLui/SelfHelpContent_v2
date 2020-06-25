@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32675735"
          productPesIds="16348"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
         articleId="3a479135-f725-4996-98b2-fcf529877594"
+	ownershipId="Compute_AzureMigrate"
 />
 # Agent health and notification
 ---

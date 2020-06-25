@@ -10,11 +10,12 @@
 	articleId="mpn_benefits_swap_request"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32681436"
+	supportTopicIds="32725864"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17007"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 
 # MPN - Benefits swap request

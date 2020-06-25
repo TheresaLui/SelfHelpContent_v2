@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32637320"
          productPesIds="14749"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="950d1291-6069-4bb8-b439-b817f20deccd"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM backup failure for windows
 ---

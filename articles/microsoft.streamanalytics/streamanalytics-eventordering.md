@@ -11,8 +11,9 @@
 	supportTopicIds="32636043"
 	resourceTags=""
 	productPesIds="15663"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ms.author="sidram"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # Event ordering in Stream Analytics

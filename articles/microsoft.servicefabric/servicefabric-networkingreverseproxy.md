@@ -9,8 +9,9 @@
 	supportTopicIds="32608959"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="e46b720a-b95c-4274-973b-ac971925b235"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # networking/reverseproxy

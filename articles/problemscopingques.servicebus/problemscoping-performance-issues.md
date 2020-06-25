@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633389"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="sb-performance-issue"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Performance and Latency Issues
 ---

@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32637185"
                 productPesIds="16450"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b2ecdb4d-ff62-4ed2-9a20-29ca8b399640"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Cluster upgrade
 ---
@@ -44,7 +45,7 @@
             "id": "getCloudShellCheck",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Does this operation failed through Cloud Shell as well?",
+            "displayLabel": "Does this operation fail through Cloud Shell as well?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {

@@ -10,8 +10,9 @@
 	supportTopicIds="32677693"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="ffd69571-58a7-4330-8c66-18cfc96d866c"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Notebook history, revision and audits

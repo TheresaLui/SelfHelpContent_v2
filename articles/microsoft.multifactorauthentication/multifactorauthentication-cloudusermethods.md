@@ -7,8 +7,9 @@
     selfHelpType="generic"
     supportTopicIds="32570992"
     productPesIds="14947,16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     	articleId="6b261f05-a624-4416-870e-4701bede999a"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # User MFA methods issues

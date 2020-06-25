@@ -10,11 +10,13 @@
 	supportTopicIds="32690768"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="74a0286f5-efae-403b-9acf-b7e9008eb9e2"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # When the SAP HANA configuration or disable DB backup fails follow these troubleshooting steps
+Use [Backup alerts](https://go.microsoft.com/fwlink/?linkid=2112848) to know more about the error that you are currently seeing.
 
 ## **Recommended Steps**
 - [UserErrorSDCtoMDCUpgradeDetected – SDC to MDC upgrade](https://go.microsoft.com/fwlink/?linkid=2109508) 

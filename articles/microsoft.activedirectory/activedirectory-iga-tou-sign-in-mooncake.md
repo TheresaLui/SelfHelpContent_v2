@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="activedirectory-iga-tou-sign-in-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Users are unable to sign in with Terms of Use

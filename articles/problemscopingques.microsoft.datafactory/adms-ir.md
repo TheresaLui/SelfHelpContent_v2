@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
     supportTopicIds="32629536, 32629537, 32629541, 32637155"
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
     articleId="c39fcac9-2658-490f-9888-e78d2b526dee"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Azure Data Movement Integration Runtime Issue

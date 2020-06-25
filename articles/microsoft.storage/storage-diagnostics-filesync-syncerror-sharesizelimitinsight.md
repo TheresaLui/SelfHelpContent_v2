@@ -13,7 +13,8 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # File Sync failed because the Azure File Share storage limit has been reached
