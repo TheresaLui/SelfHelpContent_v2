@@ -76,17 +76,21 @@ To configure FSLogix on your session host VM:
 - Restart the VM
 
 
-#Troubleshooting Symptom
+###Troubleshooting Symptom
+
 Users profiles are not able to read or write to the storage account as necessary.
 
-#Troubleshooting
+###Troubleshooting
+
 At the Azure File Share level, make sure that the WVD Users and WVD Admin have Azure SMB permissions.
 
 
-#Collaboration
+###Collaboration
+
 If user needs assistance configuring FSlogix, create a collaboration to FSLogix team as below:
 Routing: Windows Servers/Windows Remote Management/FSLogix/Profile
 
 
-#Public doc:
+###Public doc:
+
 https://docs.microsoft.com/en-us/azure/virtual-desktop/create-file-share
