@@ -102,7 +102,7 @@
             "controlType": "multiselectdropdown",
             "displayLabel": "Please select the value set in signInAudience attribute in the AAD App manifest?",
 			"watermarkText": "To know more about AAD App manifest visit the link in the info balloon.",
-			"infoBalloonText": "Azure Active Directory app manifest <a href='https://docs.microsoft.com/azure/active-directory/develop/reference-app-manifest'>link</a>"
+			"infoBalloonText": "Azure Active Directory app manifest <a href='https://docs.microsoft.com/azure/active-directory/develop/reference-app-manifest'>link</a>",
 			"dropdownOptions": [
                 {
                     "value": "1",
