@@ -17,7 +17,7 @@
 
 # Check if HostName Resolution failed
 
-The hostname must resolve for HDInsight cluster creation to work successfully. Use the kusto command below tocheck DNS resolution.
+The hostname must resolve for HDInsight cluster creation to work successfully. Use the kusto command below to check DNS resolution.
 
 ```kusto
 
