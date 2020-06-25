@@ -5,7 +5,7 @@
 	resource="storageaccounts"
 	authors="annayak"
 	ms.author="annayak"
-	displayOrder=""
+	displayOrder="8"
 	selfHelpType="resource"
 	supportTopicIds="32678715,32679285,32679299,32679292"
 	resourceTags=""
