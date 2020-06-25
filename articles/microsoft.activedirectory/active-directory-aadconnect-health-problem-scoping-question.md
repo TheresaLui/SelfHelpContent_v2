@@ -26,63 +26,54 @@
     },
     "formElements": [
         {
-            "id": "problem_description",
+            "id": "whichUser",
+            "visibility": null,
             "order": 1,
-            "controlType": "multilinetextbox",
-            "displayLabel": "DescriptionTest",
-            "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "useAsAdditionalDetails": true
-        },
-        {
-            "id": "jobIdentifier",
-            "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Job ID",
-            "watermarkText": "Example: serviceNow.5547032d9415500cb27b277e3fb6f2c8.5aaf8326-b305-4b63-aa55-0990eb3265f5",
-            "infoBalloonText": "Unique identifier for your provisioning job, found in the progress bar.",
+            "displayLabel": "Which user is experiencing this problem?",
+            "content": null,
+            "watermarkText": "Enter user name or Object ID of the user in Azure Active Directory",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
             "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 0
         },
         {
-            "id": "userNameOrId",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "User(s) and / or group(s) impacted:",
-            "watermarkText": "Example: foo@contosocom; fa93f620-091d-46b4-8edd-83195c62d746 (UPN; ObjectId)",
-            "required": false
-        },
-        {
-            "id": "application_name",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Application name",
-            "watermarkText": "Example: Salesforce, Workday",
-            "required": false
-        },
-        {
-            "id": "appId",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Application ID",
-            "watermarkText": "Example: 751d4c55-15c1-4ed0-b2c0-ef30ebfe5743",
-            "required": false
+            "id": "resource",
+            "visibility": null,
+            "order": 2,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Which Resource ID is experiencing this problem?",
+            "content": null,
+            "watermarkText": "Note: Resource ID information can be found in the properties blade of your domain service",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 2
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error.",
-            "required": false
+            "required": true
         },
         {
-            "id": "problem_steps_taken",
-            "order": 7,
+            "id": "problem_description",
+            "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please describe the steps, if any, that you already took to remedy the issue",
-            "watermarkText": "Example: Restarted provisioning before creating support case. Reviewed documentation.",
-            "required": false
+            "displayLabel": "Description Test 01,
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "diagnosticInputRequiredClients": "Portal"
         }
     ],
     "$schema": "SelfHelpContent"
