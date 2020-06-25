@@ -38,7 +38,7 @@
             "controlType": "dropdown",
             "displayLabel": "Error code",
             "watermarkText": "HTTP error of failed operation",
-	    "infoBalloonText":"Select the HTTP error of the failed operation"
+	    "infoBalloonText":"Select the HTTP error of the failed operation",
             "dropdownOptions": [
                 {
                     "value": "HTTP_304",
@@ -114,7 +114,7 @@
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
             "watermarkText": "Request ID of failed operation ending with 000000",
-	    "infoBalloonText":"Request ID of failed operation ending with 000000(6 zeros)"
+	    "infoBalloonText":"Request ID of failed operation ending with 000000(6 zeros)",
             "required": false,
             "diagnosticInputRequiredClients": "Portal,ASC",
 	    "validations": [
