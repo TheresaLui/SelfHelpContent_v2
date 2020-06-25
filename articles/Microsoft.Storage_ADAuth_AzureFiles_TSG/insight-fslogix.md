@@ -65,8 +65,8 @@ There are several options available that ensure the registry keys are set on all
 To configure FSLogix on your session host VM:
 
 - RDP to the session host VM of the Windows Virtual Desktop host pool.
-- Download and install FSLogix [here](https://docs.microsoft.com/en-us/fslogix/install-ht)
-- Follow the instructions in [Configure profile container registry settings](https://docs.microsoft.com/en-us/fslogix/configure-profile-container-tutorial#configure-profile-container-registry-settings)
+- Download and install FSLogix [here](https://docs.microsoft.com/fslogix/install-ht)
+- Follow the instructions in [Configure profile container registry settings](https://docs.microsoft.com/fslogix/configure-profile-container-tutorial#configure-profile-container-registry-settings)
         
         **  Navigate to Computer > HKEY_LOCAL_MACHINE > SOFTWARE > FSLogix.
         **  Create a Profiles key.
@@ -93,4 +93,4 @@ Routing: Windows Servers/Windows Remote Management/FSLogix/Profile
 
 ###Public doc:
 
-https://docs.microsoft.com/en-us/azure/virtual-desktop/create-file-share
+https://docs.microsoft.com/azure/virtual-desktop/create-file-share
