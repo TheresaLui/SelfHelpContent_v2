@@ -17,7 +17,7 @@
 />
 
 
-# Customer does not have RC4-HMAC Encryption type enabled on their computer.
+# Customer is not able to set NTFS permissions
 <!--issueDescription-->
 Customer is not able to set NTFS permissions. They are seeing "An error occurred while applying security information to \\StorageaccountName.file.core.windows.net\FileshareFailed to enumerate objects in the container. Access is denied" error.  
 
