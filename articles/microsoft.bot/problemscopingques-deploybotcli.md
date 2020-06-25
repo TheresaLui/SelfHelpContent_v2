@@ -88,7 +88,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Please type in the command you are using to deploy the bot ",
 			"infoBalloonText": "<a href='https://docs.microsoft.com/azure/bot-service/bot-builder-deploy-az-cli?view=azure-bot-service-4.0&tabs=csharp'>Deploy your bot</a>",
-			"watermarkText": "Remove any sensitive information like password/secret"
+			"watermarkText": "Remove any sensitive information like password/secret",
 			"required": true
 		},
         {
