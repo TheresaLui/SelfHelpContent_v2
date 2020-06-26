@@ -25,7 +25,7 @@ Review and validate customer case:
 
 Run the below kusto query to get the error code with above information
 
-```sql
+```kusto
 
 IaasClusterCRUDEvent
 | where ClusterDnsName =~ "{ClusterDnsName}" and HdiDeploymentId =~ "{HdiDeploymentId}" and UserSubscriptionId =~ "{UserSubscriptionId}" 

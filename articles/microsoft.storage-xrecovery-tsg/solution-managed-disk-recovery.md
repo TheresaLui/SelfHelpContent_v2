@@ -36,7 +36,7 @@ cluster("disks.kusto.windows.net").database("Disks").DiskRPResourceLifecycleEven
 ~~~
 
 4. Choose an ICM Template based on severity and include all deletion information gathered in previous steps<br>
-<br>
+<br><br>
 **Important**<br>
 <br>
 Must mail (xsupportpm@microsoft.com) with detailed business justification and CC (cssstorageta@microsoft.com) and all details of the IcM so we can track such customer requests.

@@ -19,9 +19,9 @@
 
 <!--issueDescription-->
 
-We have checked the cluster and it seems that cluster creation failure is due to invalid NSG configuration
-
-Please follow the recommended document 1 to check NSG rules
+We have checked the cluster and it seems that cluster creation failure is due to invalid NSG configuration.<br>
+<br>
+Please follow the recommended documents to check NSG rules<br>
 
 <!--/issueDescription-->
 
