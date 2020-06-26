@@ -37,9 +37,7 @@ Before continuing in this document, please review the [notes found in the Update
 
 * If module imports are stuck, unsuccessful, or otherwise in a bad state, you can use PowerShell to remove the module and try again:
 
-``` 
-Get-AzureRmAutomationModule -ResourceGroupName RGoftheAAAcount -AutomationAccountName YourAutomationAccount| Where-Object { $_.ProvisioningState -eq "Creating"} | Remove-AzureRmAutomationModule
-```
+`Get-AzureRmAutomationModule -ResourceGroupName RGoftheAAAcount -AutomationAccountName YourAutomationAccount| Where-Object { $_.ProvisioningState -eq "Creating"} | Remove-AzureRmAutomationModule`
 
 ### "The module is imported but not loaded"
 
