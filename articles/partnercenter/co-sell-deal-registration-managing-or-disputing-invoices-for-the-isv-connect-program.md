@@ -22,5 +22,5 @@
 
 ## **Recommended Documents**
 
-* [Microsoft Business Applications Independent Software Vendor (ISV) Connect Program onboarding guide](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/business-applications-isv-program#:~:text=Microsoft%20Business%20Applications%20Independent%20Software,...%205%20Further%20info)
-* [Business Applications ISV Connect Program (Guide, Benefits & Join):](https://partner.microsoft.com/solutions/business-applications/isv-overview)
+* [Microsoft Business Applications Independent Software Vendor (ISV) Connect Program onboarding guide](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/business-applications-isv-program)
+* [Business Applications ISV Connect Program (Guide, Benefits & Join)](https://partner.microsoft.com/solutions/business-applications/isv-overview)
