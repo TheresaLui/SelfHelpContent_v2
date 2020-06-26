@@ -10,7 +10,7 @@
 	articleId="partnercenter_marketplace_unable_see_dashboard"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32740813"
+	supportTopicIds="32740807"
 	clientIds='partnercenter'
 	resourceTags="mpn"
 	productPesIds="17007"

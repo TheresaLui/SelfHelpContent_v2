@@ -4,7 +4,7 @@
   resource=""
   ms.author="jerrycif,evas"
   selfhelptype="Generic"
-  supporttopicids="32625540,32625541,32625542,32625544"
+  supporttopicids="32625541,32625542,32625544"
   resourcetags=""
   productpesids="16582"
   cloudenvironments="public"

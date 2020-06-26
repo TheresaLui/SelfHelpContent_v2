@@ -21,7 +21,7 @@
 
 After applying the 2002 update, you might see a false-positive alert in the Administrator portal for an **Invalid Time Source**. The alert can be ignored and will be fixed in an upcoming release. For more information, see [Azure Stack Hub known issues](https://docs.microsoft.com/azure-stack/operator/known-issues?view=azs-2002).  
 
-If you see Usage Bridge alert **AADSTS900439: Confidential Client requests are not supported** or **certificateValidationError**, the simplest solution is to un-register and [register Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-registration). Make sure you are using correct [endpoints](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-endpoints) to register.  
+If you see Usage Bridge alert **AADSTS900439: Confidential Client requests are not supported** or **certificateValidationError**, the simplest solution is to [re-register Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-registration). Make sure you are using correct [endpoints](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-endpoints) to register.  
 
 **NOTE**: Before you create a support ticket, review [**Release notes**](https://docs.microsoft.com/azure-stack/operator/release-notes) and [**Known issues**](https://docs.microsoft.com/azure-stack/operator/known-issues) for the update you are applying (choose from the Version drop-down menu). This may save you time and effort.
 

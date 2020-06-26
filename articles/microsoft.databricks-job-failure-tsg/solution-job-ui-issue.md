@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-Based on the provided details, it seems you are facing issue with Job UI. This usually means having outages with Databricks services. Please refer?to [Azure Databricks Status](https://status.azuredatabricks.net)?page for service status updates.<br>
+Based on the provided details, it seems you are facing issue with Job UI. This usually means having outages with Databricks services. Please refer to [Azure Databricks Status](https://status.azuredatabricks.net) page for service status updates.<br>
 <br>
 At this point, we need to involve Databricks team to check the impacted backend service, root cause, and resolution.<br>
 
