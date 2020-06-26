@@ -1,6 +1,6 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Node Service Heal - Node Crash"
+	description="RCA - Hardware Node Fault - Disk Slow IO Staging"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service=""
 	resource=""
@@ -26,8 +26,8 @@ We identified that the host node where the VM was running was experiencing a tra
 
 We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.<br>
 
-• We recommend evaluating and consider resizing the VM to an equivale v3 series SKU. V3 series VMs will be placed on newer hardware where this issue is less likely to occur. 
-• Reference:https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes-general#dv3-series-1
+• We recommend evaluating and consider resizing the VM to an equivalent v3 series SKU. V3 series VMs will be placed on newer hardware where this issue is less likely to occur. 
+• Reference:[Dv3 and Dsv3-series VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes-general#dv3-series-1)
 
 
 ## **Recommended Documents**
