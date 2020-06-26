@@ -5,8 +5,8 @@
 	resource="storageaccounts"
 	authors="annayak"
 	ms.author="annayak"
-	displayOrder=""
-	selfHelpType="generic"
+	displayOrder="8"
+	selfHelpType="resource"
 	supportTopicIds="32678715,32679285,32679299,32679292"
 	resourceTags=""
 	productPesIds="15629,16459,16461,16462,16598"
@@ -15,7 +15,7 @@
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
-# Troubleshoot and resolve Azure Storage access issues with Azure AD Authentication
+# Troubleshoot and resolve Azure Storage access issues with Azure AD Authentication 
 
 ## **Recommended Documents**
 
