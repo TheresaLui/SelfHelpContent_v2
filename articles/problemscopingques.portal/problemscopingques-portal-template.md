@@ -44,7 +44,7 @@
                 {
                   "value": "Resource Group",
                   "text": "Resource Group"
-                }
+                },
                 {
                   "value": "Subscription",
                   "text": "Subscription"

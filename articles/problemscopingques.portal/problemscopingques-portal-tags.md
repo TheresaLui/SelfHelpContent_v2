@@ -37,15 +37,15 @@
                 {
                   "value": "Resource",
                   "text": "Resource"
-                }
+                },
                 {
                   "value": "Resource Group",
                   "text": "Resource Group"
-                }
+                },
                 {
                   "value": "Subscription",
                   "text": "Subscription"
-                },
+                }
             ],
             "required": false
         },
