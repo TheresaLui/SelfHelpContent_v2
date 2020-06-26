@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureDatabricks"
 />
 
-# Diagnose and resolve issues with Databricks cluster creation due to quota limit
+# Diagnose and resolve issues with Databricks cluster creation due to IP quota limit
 
 ## **Recommended Steps**
 
