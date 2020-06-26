@@ -8,7 +8,7 @@
   supporttopicids="32741366,32741362,32741361,32741359,32741356"
   resourcetags=""
   productpesids="14749"
-  cloudenvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
   articleid="ebcca225-c673-41a2-97b8-7a1528d258f4"
   ownershipid="Compute_VirtualMachines_Content" />
 # Windows Virtual Desktop
