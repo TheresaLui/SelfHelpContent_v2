@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="ea613e7a-4361-47ca-9108-1c76436a3e84"
+	articleId="e3357e04-813a-478d-a29f-038ee6cd78d7"
    	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
@@ -19,9 +19,9 @@
 
 Please provide customer with ready message below and work with them on checking the Ganglia metrics to ensure cluster was healthy at issue time. If there are too many GC event failure and driver unresponsive event, please:
 
-1. try to use bigger instance 
-2. restart the cluster 
-3. reattempt to run the job
+1. Try to use bigger instance 
+2. Restart the cluster 
+3. Reattempt to run the job
 
 If issues persist, discuss the issue further with your SME/TA/EEE through [Ava](https://supportability.visualstudio.com/AzureDataBricks/_wiki/wikis/AzureDataBricks.wiki/312127/Ava).
 
