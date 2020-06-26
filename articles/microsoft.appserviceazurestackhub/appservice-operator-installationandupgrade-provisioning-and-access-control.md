@@ -9,7 +9,7 @@
     selfHelpType="generic"
     supportTopicIds="32629233"
     resourceTags=""
-    productPesIds="16226"
+    productPesIds="17136"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-deployment-OEM"
 	ownershipId="StorageMediaEdge_AzureStack_Hub"

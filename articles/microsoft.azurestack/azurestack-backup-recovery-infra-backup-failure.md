@@ -7,7 +7,7 @@
     ms.author="mquian"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32629217, 32629218"
+    supportTopicIds="32742867"
     resourceTags=""
     productPesIds="16226"
     cloudEnvironments="public, Fairfax, usnat, ussec"
