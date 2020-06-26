@@ -28,11 +28,9 @@ Follow the guides in [Sampling in Application Insights](https://docs.microsoft.c
 You can use the following Logs query to see the actual sampling rate per type of telemetry item:
 
 ~~~kusto
-
 union requests,dependencies,pageViews,browserTimings,exceptions,traces
 | where timestamp > ago(1d)
 | summarize RetainedPercentage = 100/avg(itemCount) by bin(timestamp, 1h), itemType
-
 ~~~
 
 If you see that `RetainedPercentage` for any type is less than `100`, then that type of telemetry is being sampled.
