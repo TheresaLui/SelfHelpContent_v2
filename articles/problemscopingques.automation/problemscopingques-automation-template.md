@@ -1,17 +1,16 @@
 <properties
-    articleId="problemscopingques-automation-template.md"
-    pageTitle="Azure Automation - ARM Template Issue"
-    description="Azure Automation - ARM Template Issue"
-    authors="rthorn17"
-    ms.author="rithorn"
-    selfHelpType="problemScopingQuestions"
-    supportTopicIds="32641156,32641157,32641158"
-    productPesIds="15607"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
-    schemaVersion="1"
-    ownershipId="Compute_Automation"
+	pageTitle="Azure Automation - ARM Template Issue"
+	description="Azure Automation - ARM Template Issue"
+	ms.author="rithorn"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32641156,32641157,32641158"
+	productPesIds="15607"
+	cloudEnvironments="public,Fairfax,usnat,ussec,mooncake"
+	schemaVersion="1"
+	articleId="problemscoping-automation-template.md"
+	ownershipId="Compute_Automation"
 />
-# ARM Template Deployment Issue
+# ARM Template Issue Questions
 ---
 {
     "$schema": "SelfHelpContent",
