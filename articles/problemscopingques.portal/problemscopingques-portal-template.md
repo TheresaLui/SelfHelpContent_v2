@@ -30,7 +30,7 @@
         {
             "id": "problem_correlation-id",
             "order": 20,
-            "controlType": "Text",
+            "controlType": "textbox",
             "displayLabel": "If you have the Correlation ID, please provide it",
             "required": false
         },
