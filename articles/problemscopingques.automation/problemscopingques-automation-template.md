@@ -1,20 +1,20 @@
 <properties
-	articleId="problemscopingques-automation-template.md"
-	pageTitle="Azure Automation - ARM Template Issue"
-	description="Azure Automation - ARM Template Issue"
-	authors="rthorn17"
-	ms.author="rithorn"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32641156,32641157,32641158"
-	productPesIds="15607"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	schemaVersion="1"
-	ownershipId="Compute_Automation"
+    articleId="problemscopingques-automation-template.md"
+    pageTitle="Azure Automation - ARM Template Issue"
+    description="Azure Automation - ARM Template Issue"
+    authors="rthorn17"
+    ms.author="rithorn"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32641156,32641157,32641158"
+    productPesIds="15607"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+    schemaVersion="1"
+    ownershipId="Compute_Automation"
 />
-
 # ARM Template Deployment Issue
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "ARM Template Deployment Issue",
@@ -44,15 +44,15 @@
                 {
                   "value": "Resource Group",
                   "text": "Resource Group"
-                }
+                },
                 {
                   "value": "Subscription",
                   "text": "Subscription"
-                }
+                },
                 {
                   "value": "Management Group",
                   "text": "Management Group"
-                }
+                },
                 {
                   "value": "Tenant",
                   "text": "Tenant"
@@ -74,7 +74,6 @@
                 }
             ]
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---

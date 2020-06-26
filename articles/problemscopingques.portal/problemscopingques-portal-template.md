@@ -56,7 +56,7 @@
                 {
                   "value": "Tenant",
                   "text": "Tenant"
-                },
+                }
             ],
             "required": false
         },
