@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-management.md"
+	articleId="problemscopingques-management-issues.md"
 	pageTitle="Azure Management Groups - Management Groups"
 	description="Azure Management Groups - Management Groups"
 	authors="apclouds"
@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32626109,32609536,32609537,32609538,32609540,32609544,32609547,32609534,32609543,32609546,32609548,32609549,32609550"
 	productPesIds="16530"
-	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="ARM_ManagementGroups"
 />
