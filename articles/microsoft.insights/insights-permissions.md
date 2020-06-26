@@ -23,9 +23,6 @@ To control Application Insights resources and linked-resources such as **Web Tes
 ### Permission to View Resource and Data
 
 * Add user to the **Reader** role at the **resource group** or **component** level
-
-Or alternatively,
-
 * Add user to the **Monitoring Reader** role at the **resource group** level
 
 ### Permission to Edit or Create Resources and View Data
