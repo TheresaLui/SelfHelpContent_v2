@@ -42,7 +42,7 @@ A dependency is an external component that is called by your application. It's t
     * Upgrade all components to the latest SDK version
     * If you're using Azure Functions with C#, upgrade to [Functions V2](https://docs.microsoft.com/azure/azure-functions/functions-versions)
 * If you don’t see Y (async across a queue): 
-    * Click on “Try” button on the purple banner on the top to try preview of App Map that provides this cross-component tracing across supported queues only. Note: This is a preview version only.  
+    * Click on *Try* button on the purple banner on the top to try preview of App Map that provides this cross-component tracing across supported queues only. Note: This is a preview version only.  
 
 ![appmap dependency image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/app-insights/application-map-not-showing-data-from-related-resources.png)
 

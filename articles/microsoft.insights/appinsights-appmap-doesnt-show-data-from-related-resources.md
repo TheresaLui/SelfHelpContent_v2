@@ -41,7 +41,7 @@ In the diagram below, X, Y and Z are 3 components with dependency relationships 
     * Upgrade all components to the latest SDK version
     * If you're using Azure Functions with C#, upgrade to [Functions V2](https://docs.microsoft.com/azure/azure-functions/functions-versions)
 * If you don’t see Y (async across a queue): 
-    * Click on “Try” button on the purple banner on the top to try preview of App Map that provides this cross-component tracing across supported queues only. Note: This is a preview version only. 
+    * Click on *Try* button on the purple banner on the top to try preview of App Map that provides this cross-component tracing across supported queues only. Note: This is a preview version only. 
 
 ## **Recommended Documents**
 
