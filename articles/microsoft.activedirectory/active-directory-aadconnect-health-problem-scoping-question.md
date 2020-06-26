@@ -54,8 +54,7 @@
             "dynamicDropdownOptions": null,
             "required": false,
             "maxLength": 0,
-            "useAsAdditionalDetails": false,
-            "numberOfLines": 2
+            "useAsAdditionalDetails": false
         },
         {
             "id": "problem_start_time",
