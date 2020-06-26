@@ -19,7 +19,7 @@
 
 # Virtual network/subnet configuration
 
-Azure SQL Managed Instance must be deployed within an Azure virtual network and the subnet dedicated for managed instances only. You can use the existing virtual network and subnet if they're configured according to the SQL Managed Instance virtual [network requirements](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/connectivity-architecture-overview#service-aided-subnet-configuration).
+Azure SQL Managed Instance must be deployed within an Azure virtual network and the subnet dedicated for managed instances only. You can use the existing virtual network and subnet if they're configured according to the SQL Managed Instance virtual [network requirements](https://docs.microsoft.com/azure/azure-sql/managed-instance/connectivity-architecture-overview#service-aided-subnet-configuration).
 
 If you have a new subnet that's still not configured, you're not sure that the subnet is aligned with the requirements or you want to check that the subnet still complies with the network requirements after you made changes, we recommend the [PowerShell script to validate and prepare the subnet](https://docs.microsoft.com/azure/azure-sql/managed-instance/vnet-existing-add-subnet).
 
