@@ -1,6 +1,6 @@
 <properties
-    pageTitle="App Service Operator Billing Create Offers and Plans"
-    description="App Service Operator Billing Create Offers and Plans"
+    pageTitle="App Service on Azure Stack Hub Operator Billing Create Offers and Plans"
+    description="App Service on Azure Stack Hub Operator Billing Create Offers and Plans"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="TobyTu"
@@ -15,7 +15,7 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# App Service Operator Billing Create Offers and Plans
+# App Service on Azure Stack Hub Operator Billing Create Offers and Plans
 
 ## **Recommended Steps**
 

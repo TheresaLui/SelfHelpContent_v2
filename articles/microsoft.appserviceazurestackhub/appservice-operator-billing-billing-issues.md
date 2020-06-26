@@ -1,6 +1,6 @@
 <properties
-    pageTitle="App Service Operator Billing Issues"
-    description="App Service Operator Billing Issues"
+    pageTitle="App Service on Azure Stack Hub Operator Billing Issues"
+    description="App Service on Azure Stack Hub Operator Billing Issues"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="TobyTu"
@@ -15,7 +15,7 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# App Service Operator Billing Issues
+# App Service on Azure Stack Hub Operator Billing Issues
 
 ## **Recommended Steps**
 

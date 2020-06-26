@@ -1,6 +1,6 @@
 <properties
-    pageTitle="App Service Operator Backup Restore Restore Issues"
-    description="App Service Operator Backup Restore Restore Issues"
+    pageTitle="App Service on Azure Stack Hub Operator Backup Restore Restore Issues"
+    description="App Service on Azure Stack Hub Operator Backup Restore Restore Issues"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="TobyTu"
@@ -15,7 +15,7 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# App Service Operator Backup Restore Restore Issues
+# App Service on Azure Stack Hub Operator Backup Restore Restore Issues
 
 ## **Recommended Steps**
 
