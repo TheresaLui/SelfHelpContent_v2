@@ -12,7 +12,7 @@
     ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
-# PREVIEW: Get help from our Virtual Assistant 
+# PREVIEW: Get help from our Virtual Assistant
 ---
 {
     "subscriptionRequired": false,
@@ -69,7 +69,7 @@
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Description Test 01,
+            "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true,
