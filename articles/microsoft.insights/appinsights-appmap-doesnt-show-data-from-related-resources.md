@@ -24,7 +24,7 @@ In the diagram below, X, Y and Z are 3 components with dependency relationships 
 
 ![appmap image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/app-insights/application-map-not-showing-data-from-related-resources.png)
 
-## **Recommended solutions**
+## **Recommended Steps**
 
 ### 1. **Permissions**
 
@@ -36,7 +36,7 @@ In the diagram below, X, Y and Z are 3 components with dependency relationships 
 
 ### 3. **If Y or Z are application components in a different Application Insights resource:**
 
-* Check to see if the “update map components” button is failing to light up. This may happen for very large distributed applications. Reducing the time range you are querying for may help here.
+* Check to see if the **update map components** button is failing to light up. This may happen for very large distributed applications. Reducing the time range you are querying for may help here.
 * If you don’t see Z (direct HTTP calls):
     * Upgrade all components to the latest SDK version
     * If you're using Azure Functions with C#, upgrade to [Functions V2](https://docs.microsoft.com/azure/azure-functions/functions-versions)

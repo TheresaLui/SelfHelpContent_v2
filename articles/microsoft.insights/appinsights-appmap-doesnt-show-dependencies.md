@@ -22,7 +22,7 @@ A dependency is an external component that is called by your application. It's t
 
 ![appmap image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/app-insights/application-map-dependencies.png)
 
-## **Recommended solutions**
+## **Recommended Steps**
 
 ### 1. **Select a longer time range** 
 
@@ -32,12 +32,12 @@ A dependency is an external component that is called by your application. It's t
 
 * If you're missing a dependency, make sure it's in the list of [auto-collected dependencies](https://docs.microsoft.com/azure/application-insights/auto-collect-dependencies). This page gives list of dependency calls that are automatically detected as dependencies.
 
-* There are some dependencies that are not automatically collected by SDK, you can track them manually using the [TrackDependency API](https://docs.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics#trackdependency) 
+* There are some dependencies that are not automatically collected by SDK, you can track them manually using the [TrackDependency API](https://docs.microsoft.com/azure/azure-monitor/app/api-custom-events-metrics#trackdependency) 
 
 ### 3. **Dependencies are application components thar are in a separate resource**
 
-* Check to see if the “update map components” button is failing to light up. This may happen for very large distributed applications. Reducing the time range you are querying for may help here.
-* Ensure that that you have [permissions](https://docs.microsoft.com/en-us/azure/azure-monitor/app/resources-roles-access-control#to-provide-access-to-another-user) to the App Insights resource with other components of the application.
+* Check to see if the **update map components** button is failing to light up. This may happen for very large distributed applications. Reducing the time range you are querying for may help here.
+* Ensure that that you have [permissions](https://docs.microsoft.com/azure/azure-monitor/app/resources-roles-access-control#to-provide-access-to-another-user) to the App Insights resource with other components of the application.
 * If you don’t see Z (direct HTTP calls):
     * Upgrade all components to the latest SDK version
     * If you're using Azure Functions with C#, upgrade to [Functions V2](https://docs.microsoft.com/azure/azure-functions/functions-versions)
@@ -53,7 +53,7 @@ within the same AI resource: Confirm [cloud_RoleName](https://docs.microsoft.com
 
 ## **Recommended Documents**
 
-* [Dependency Auto-collection](https://docs.microsoft.com/en-us/azure/azure-monitor/app/auto-collect-dependencies)
-* [Manually Track dependency](https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-dependencies#manually-tracking-dependencies)
-* [Application Map Troubleshooting](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-map#troubleshooting)
+* [Dependency Auto-collection](https://docs.microsoft.com/azure/azure-monitor/app/auto-collect-dependencies)
+* [Manually Track dependency](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-dependencies#manually-tracking-dependencies)
+* [Application Map Troubleshooting](https://docs.microsoft.com/azure/azure-monitor/app/app-map#troubleshooting)
 

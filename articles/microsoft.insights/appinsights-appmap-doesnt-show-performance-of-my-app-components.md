@@ -18,10 +18,10 @@
 
 # <-- appinsights-appmap-doesnt-show-performance-of-my-app-components -->
 
-Application Map helps you spot performance bottlenecks or failure hotspots across all components of your distributed application. Sometimes because of various reasons Application Map doesn’t work the way its supposed to like “not showing performance”. Following below steps should help you troubleshoot:
+Application Map helps you spot performance bottlenecks or failure hotspots across all components of your distributed application. Sometimes because of various reasons Application Map doesn’t work the way its supposed to like not showing performance. Following below steps should help you troubleshoot:
 
 
-## **Recommended solutions**
+## **Recommended Steps**
 
 
 * Make sure you're using an officially supported SDK. Unsupported/community SDKs might not support correlation. Refer to [this article](https://docs.microsoft.com/azure/application-insights/app-insights-platforms) for a list of supported SDKs.
@@ -32,5 +32,5 @@ Application Map helps you spot performance bottlenecks or failure hotspots acros
 
 ## **Recommended Documents**
 
-* [Application Map Troubleshooting](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-map#troubleshooting)
+* [Application Map Troubleshooting](https://docs.microsoft.com/azure/azure-monitor/app/app-map#troubleshooting)
 

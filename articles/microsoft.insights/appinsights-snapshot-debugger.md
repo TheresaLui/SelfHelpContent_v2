@@ -18,9 +18,9 @@
 
 # <-- Snapshot-Debugger-captures-are-incorrect-or-missing -->
 
-Sometimes even after enabling Application Insights Snapshot Debugger for your application, you still don’t see snapshots for exceptions, or they seem incorrect. There can be many different reasons why snapshots are not generated. Please see below recommended solutions:
+Sometimes even after enabling Application Insights Snapshot Debugger for your application, you still don’t see snapshots for exceptions, or they seem incorrect. There can be many different reasons why snapshots are not generated. Please see below Recommended Steps:
 
-## **Recommended solutions**
+## **Recommended Steps**
 
 ### 1. **Ensure the Snapshot is enabled** 
 
@@ -30,7 +30,7 @@ Sometimes even after enabling Application Insights Snapshot Debugger for your ap
 
 ### 2. **If the Snapshots were collected but went missing recently** 
 
-* Navigate to Failures page and click on the “Snapshot only” checkbox to view if snapshots are being collected. Expand the time range to see when they stopped collecting. Refer to this [troubleshooting guide](https://docs.microsoft.com/azure/azure-monitor/app/snapshot-debugger-troubleshoot).  
+* Navigate to Failures page and click on the **Snapshot only** checkbox to view if snapshots are being collected. Expand the time range to see when they stopped collecting. Refer to this [troubleshooting guide](https://docs.microsoft.com/azure/azure-monitor/app/snapshot-debugger-troubleshoot).  
 
 ![appmap image](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/app-insights/application-insights-snapshot-debugger-is-missing.png)
 

@@ -20,7 +20,7 @@
 
 Application map shows failures and a component as red based on a failure threshold of 0.1%. These represent the failures that might be causing your apps to fail. In case you are in a situation, where you feel your app is working fine but the map seems full of failures, then follow one of the recommended steps below.
 
-## **Recommended solutions**
+## **Recommended Steps**
 
 ### 1. **Filter out 4xx errors on Map** 
 
