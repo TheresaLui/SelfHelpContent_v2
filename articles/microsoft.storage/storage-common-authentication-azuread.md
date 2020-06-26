@@ -15,7 +15,7 @@
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
-# Troubleshoot and resolve Azure Storage access issues with Azure AD Authentication
+# Troubleshoot and resolve Azure Storage access issues with Azure AD Authentication 
 
 ## **Recommended Documents**
 
