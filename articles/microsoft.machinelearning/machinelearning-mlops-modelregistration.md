@@ -22,3 +22,4 @@ Follow the documentation to register and manage machine learning models.
 
 * [How to register and manage machine learning models](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#registermodel)
 * [How to register and deploy an existing model](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-existing-model)
+* [Deploy a model for use with Cognitive Search](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-model-cognitive-search)
