@@ -26,23 +26,24 @@
     },
     "formElements": [
         {
-            "id": "problem_description",
+            "id": "jobIdentifier",
             "order": 1,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Job ID",
+            "watermarkText": "Example: serviceNow.5547032d9415500cb27b277e3fb6f2c8.5aaf8326-b305-4b63-aa55-0990eb3265f5",
+            "infoBalloonText": "Unique identifier for your provisioning job, found in the progress bar.",
+            "required": false,
+            "numberOfLines": 2,
+            "diagnosticInputRequiredClients": "Portal"
+        },
+        {
+            "id": "problem_description",
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "DescriptionTest",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
-        },
-        {
-            "id": "jobIdentifier",
-            "order": 2,
-            "controlType": "textbox",
-            "displayLabel": "Job ID",
-            "watermarkText": "Example: serviceNow.5547032d9415500cb27b277e3fb6f2c8.5aaf8326-b305-4b63-aa55-0990eb3265f5",
-            "infoBalloonText": "Unique identifier for your provisioning job, found in the progress bar.",
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "userNameOrId",
