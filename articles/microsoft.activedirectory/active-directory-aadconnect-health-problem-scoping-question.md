@@ -12,7 +12,7 @@
     ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
-# PREVIEW: Get help from our Virtual Assistant
+# PREVIEW: Get help from our Virtual Assistant 
 ---
 {
     "subscriptionRequired": false,
