@@ -1,6 +1,7 @@
 <properties
     pageTitle="User gets Positional Parameters error while running the PowerShell"
     description="User gets Positional Parameters error while running the PowerShell"
+    infoBubbleText="User gets Positional Parameters error while running the PowerShell"
     service="Microsoft.Storage"
     resource="storageAccounts"
     authors="yagohel23"
