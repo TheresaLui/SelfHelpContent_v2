@@ -19,13 +19,11 @@
 
 ## **Recommended Steps**
 
-To change **licensing model of SQL Server on Azure VM**
-from Pay As you Go to Bring your own license or Azure Hybrid benefit please follow article
-[Change the license model for a SQL virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb?tabs=azure-portal)
+* To change **the licensing model of SQL Server on Azure VM** from "Pay As You Go" to "Bring your own license" or Azure Hybrid benefit please follow the instructions to [change the license model for a SQL virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-ahb?tabs=azure-portal)
+* To change SQL Server Version or Edition on Azure VM:
 
-To change SQL Server Version or Edition on Azure VM, please follow below articles:
-- To upgrade or downgrade SQL **Version** (example - change version to and from SQL Server 2008/2008R2/2012/2016/2017/2019 etc.) please follow article [In-place Change of SQL Server Version on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-version)
-- To upgrade or downgrade SQL **Edition** (example - change edition to and from SQL edition Standard/Enterprise/Express/Developer/Web ) please follow article [In-place change of SQL Server edition on Azure VM](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-edition)
+	- To [upgrade or downgrade SQL **Version**](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-version) (for example, change to or from SQL Server 2008/2008R2/2012/2016/2017/2019)
+	* To [upgrade or downgrade SQL **Edition**](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/change-sql-server-edition) (for example, change edition to or from SQL edition Standard/Enterprise/Express/Developer/Web)
 
 ## **Recommended Documents**
 
