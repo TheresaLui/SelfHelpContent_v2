@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-management-and-policy.md"
+	articleId="problemscopingques-management.md"
 	pageTitle="Azure Management Groups - Management Groups"
 	description="Azure Management Groups - Management Groups"
 	authors="apclouds"
