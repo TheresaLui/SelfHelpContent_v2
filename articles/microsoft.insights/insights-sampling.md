@@ -16,13 +16,14 @@
 
 # Issue configuring sampling from my code
 
-## **Overriding default sampling**
+## **Recommended Steps**
+### **Overriding default sampling**
 
 The method to configure sampling, and the default behavior of sampling, depends on the specific SDK implementation you are using. SDKs typically provide means for **Adaptive Sampling** where the sample rate varies with incoming request rate, and **Fixed Sampling** where the sampling rate is a fixed constant.
 
 Follow the guides in [Sampling in Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/sampling) to configure sampling from your code for the specific SDK implementation you are using and the kind of sampling you wish to configure.
 
-## **Is sampling taking effect?**
+### **Is sampling taking effect?**
 
 You can use the following Logs query to see the actual sampling rate per type of telemetry item:
 

@@ -35,6 +35,13 @@ Follow the following guides to track additional telemetry in Azure Functions, de
 
 During debugging, you can use **Developer Mode** to expedite telemetry sending and emit additional debugging information. [Learn more about enabling Developer Mode](https://docs.microsoft.com/azure/azure-monitor/app/api-custom-events-metrics#debug).
 
+### **I'm seeing errors when sending telemetry**
+If you are seeing errors that are specific to **dc.services.visualstudio.com**, please use the steps below.
+
+1. Verify the version of the SDK you are using is up to date or a [supported version](https://github.com/Microsoft/ApplicationInsights-Home#officially-supported-sdks)
+2. If the errors are inside of your telemetry, please open a case for the correct SDK
+3. If you are receiving an error message from the service, it is likely that we are experiencing issues and it is recommended to open a case for tracking
+
 ## **Recommended Documents**
 
 * [Application Insights API for custom events and metrics](https://docs.microsoft.com/azure/azure-monitor/app/api-custom-events-metrics)
