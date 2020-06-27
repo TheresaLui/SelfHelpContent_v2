@@ -19,7 +19,7 @@
 
 ## **Recommended Documents**
 
-### **Anonymous Access**
+### **Anonymous (Public) Access**
 
 - [Anonymous read access to containers and blobs](https://docs.microsoft.com/azure/storage/blobs/storage-manage-access-to-resources)
 - [Operations available to anonymous users](https://docs.microsoft.com/azure/storage/blobs/storage-manage-access-to-resources#features-available-to-anonymous-users)
