@@ -1,12 +1,12 @@
 <properties
-	pageTitle="Troubleshoot and resolve Azure Storage authentication issues with anonymous access"
-	description="Troubleshoot and resolve Azure Storage authentication issues with anonymous access"
+	pageTitle="Troubleshoot authentication issues with Anonymous(Public) access"
+	description="Troubleshoot authentication issues with Anonymous(Public) access"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="annayak"
 	ms.author="annayak"
-	displayOrder=""
-	selfHelpType="generic"
+	displayOrder="25"
+	selfHelpType="resource"
 	supportTopicIds="32678714,32679284,32679298,32679291"
 	resourceTags=""
 	productPesIds="15629,16459,16461,16462,16598"
@@ -15,7 +15,7 @@
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
-# Troubleshoot and resolve Azure Storage access issues with Anonymous Access
+# Troubleshoot Authentication Issues With Anonymous(Public) Access
 
 ## **Recommended Documents**
 
