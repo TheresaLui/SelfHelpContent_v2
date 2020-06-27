@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Troubleshoot encryption issue"
-	description="Troubleshoot encryption issue"
+	pageTitle="Troubleshoot Encryption issue"
+	description="Troubleshoot Encryption issue"
 	service="microsoft.storage"
 	resource="storageaccounts"
 	authors="annayak"
