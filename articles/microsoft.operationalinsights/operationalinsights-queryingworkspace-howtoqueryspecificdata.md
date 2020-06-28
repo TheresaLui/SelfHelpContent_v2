@@ -20,8 +20,7 @@ cloudEnvironments="Public, Fairfax, usnat, ussec"
 
 # How to query specific data
 
-Need help writing or fixing a query? Post your question on the [Log Analytics community space](https://aka.ms/AzureLogAnalyticsCommunity) 
-for quick answers by the Azure Monitor product group and community.
+Need help writing or fixing a query? Post your question on the [Log Analytics community space](https://techcommunity.microsoft.com/t5/azure-log-analytics/bd-p/AzureLogAnalytics) for quick answers by the Azure Monitor product group and community.
 
 ### **Use Example queries**
 
@@ -31,8 +30,7 @@ Pick a query to see its text in the query editor, where you can adjust it to you
 
 ### **Query by table**
    
-All ingested logs are organized by tables, that you can easily query. A list of all tables can be found on the left 
-area of the Logs page, titled *Tables*. To query a table, you can either:
+All ingested logs are organized by tables, that you can easily query. A list of all tables can be found on the left area of the Logs page, titled *Tables*. To query a table, you can either:
 - Hover on a table in the Tables list and click the Preview icon
 - Type the name of the table into the query editor, and click Run. For example, to review the Perf table, type:
    
@@ -44,7 +42,7 @@ To learn how to filter logs, search for a term, sort, extend and more, see [Gett
 
 If your query is valid but doesn't return the expected results, consider the following:
 
-* Sorting - Logs are not sorted by default. That means you may not see the latest records on top. To get the latest recods, use the *top* operator, for example:
+* Sorting - Logs are not sorted by default. That means you may not see the latest records on top. To get the latest records, use the *top* operator, for example:
   ```SecurityEvent | top 10 by TimeGenerated```
 * Time range - The query editor applies a default "last 24 hours" time range. You can use the time picker (located next to the *Run* button) to set a different time range.
 * Capping - The query editor displays up to 10,000 records. If you've reached the 10K limit, apply filters to narrow down the result set.

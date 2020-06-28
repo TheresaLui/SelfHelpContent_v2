@@ -20,8 +20,7 @@ cloudEnvironments="Public, Fairfax, usnat, ussec"
 
 # Query not returning any or desired data
 
-Need help writing or fixing a query? Post your question on the [Log Analytics community space](https://aka.ms/AzureLogAnalyticsCommunity) 
-for quick answers by the Azure Monitor product group and community.
+Need help writing or fixing a query? Post your question on the [Log Analytics community space](https://techcommunity.microsoft.com/t5/azure-log-analytics/bd-p/AzureLogAnalytics) for quick answers by the Azure Monitor product group and community.
 
 If your query is valid but does not return the log records you expect, try the following troubleshooting steps:
 
