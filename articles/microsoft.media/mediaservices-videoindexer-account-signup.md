@@ -17,7 +17,13 @@
     ownershipId="StorageMediaEdge_Media_VI"
 />
 
+# Account sign up and sign in
+
 To help you get started with Video Indexer you can learn more here:
-* [Sign up and upload your first video](https://docs.microsoft.com/en-us/azure/media-services/video-indexer/video-indexer-get-started)
-* [Subscribe to the API](https://docs.microsoft.com/en-us/azure/media-services/video-indexer/video-indexer-use-apis#subscribe-to-the-api)
-* [Invite users to Video Indexer](https://docs.microsoft.com/en-us/azure/media-services/video-indexer/invite-users)
+* [Sign up and upload your first video](https://docs.microsoft.com/azure/media-services/video-indexer/video-indexer-get-started)
+
+* [Subscribe to the API](https://docs.microsoft.com/azure/media-services/video-indexer/video-indexer-use-apis#subscribe-to-the-api)
+
+## **Recommended Documents**
+
+* [Invite users to Video Indexer](https://docs.microsoft.com/azure/media-services/video-indexer/invite-users)

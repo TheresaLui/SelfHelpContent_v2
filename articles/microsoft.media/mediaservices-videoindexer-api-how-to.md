@@ -17,4 +17,11 @@
     ownershipId="StorageMediaEdge_Media_VI"
 />
 
-Learn how to use Video Indexer’s APIs - https://docs.microsoft.com/en-us/azure/media-services/video-indexer/video-indexer-use-apis
+# Using Video Indexer's API
+
+* [Video Indexer's Developer portal](https://api-portal.videoindexer.ai/)
+
+## **Recommended Documents**
+
+* [Learn how to use Video Indexer’s APIs](https://docs.microsoft.com/azure/media-services/video-indexer/video-indexer-use-apis)
+

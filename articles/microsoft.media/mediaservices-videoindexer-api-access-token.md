@@ -17,4 +17,10 @@
     ownershipId="StorageMediaEdge_Media_VI"
 />
 
-Learn how to obtain access token using the Authorization API - https://docs.microsoft.com/en-us/azure/media-services/video-indexer/video-indexer-use-apis#obtain-access-token-using-the-authorization-api
+# Access tokens
+
+[Subscribe to Video Indexer's API](https://api-portal.videoindexer.ai/products/authorization)
+
+## **Recommended Documents**
+
+[Learn how to obtain access token using the Authorization API](https://docs.microsoft.com/azure/media-services/video-indexer/video-indexer-use-apis#obtain-access-token-using-the-authorization-api)
