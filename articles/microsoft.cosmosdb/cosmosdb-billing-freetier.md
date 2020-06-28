@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Free Tier in Azure Cosmos DB"
-	description="Free Tier in Azure Cosmos DB"
-	service="microsoft.documentdb"
-	resource="databaseAccounts"
-	authors="jimsch"
-	ms.author="jimsch"
-	selfHelpType="generic"
-	supportTopicIds="32738666"
-	resourceTags=""
-	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-billing-freetier"
-	displayOrder="102"
-	category="Security"
-	ownershipId="AzureData_AzureCosmosDB"
+    pageTitle="Free Tier in Azure Cosmos DB"
+    description="Free Tier in Azure Cosmos DB"
+    service="microsoft.documentdb"
+    resource="databaseAccounts"
+    authors="jimsch"
+    ms.author="jimsch"
+    selfHelpType="generic"
+    supportTopicIds="32738666"
+    resourceTags=""
+    productPesIds="15585"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+    articleId="cosmosdb-billing-freetier"
+    displayOrder="102"
+    category="Security"
+    ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Free Tier in Azure Cosmos DB
@@ -51,8 +51,8 @@ In Free Tier accounts, you will get the first 400 RUs and 5 GB of storage in you
 ### **Does Free Tier apply to all the Azure Cosmos DB APIs?**
 Yes, Free Tier works for all Azure Cosmos DB APIs including Core (SQL), API for MongoDB, Cassandra, and Gremlin.   
 
-### **Can I apply the Free Tier discount to autopilot databases and containers?**
-**Answer:** Yes. With autopilot, you are billed for the highest RUs the database or container scales to in the hour. When the free tier discount is applied, 400 RUs will be subtracted from that value. See our documentation for examples and details.  
+### **Can I apply the Free Tier discount to autoscale databases and containers?**
+**Answer:** Yes. With autoscale, you are billed for the highest RUs the database or container scales to in the hour. When the free tier discount is applied, 400 RUs will be subtracted from that value. See our documentation for examples and details.  
 
 ### **How does Free Tier discount work if I have an account with multiple regions?**
 In multi-region accounts, the RUs of the database or container are replicated in all regions. For example, if you have a container with 400 RUs and the account is in 3 regions, the total RUs of the account is 1200 RUs. When the discount is applied, you will be billed for 1200 RUs – 400 RUs = 800 RUs per hour.  
