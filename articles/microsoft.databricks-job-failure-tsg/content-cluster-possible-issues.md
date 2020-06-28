@@ -30,6 +30,7 @@ There are more that one possible root cause here. Please proceed according to us
 1. NRP throttling 
 
 *Subscription XXX was used to perform too many calls within last 5 minutes. The number of calls exceeds Microsoft. Network throttling limit. or Encountered Azure Resource provider throttling. Please try again later.*
+
 2. Sporadic VM network issues/partitions 
 *Cluster terminated. Reason: Metastore Component Unhealthy*
 
