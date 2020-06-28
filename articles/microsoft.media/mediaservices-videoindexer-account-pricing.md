@@ -7,7 +7,7 @@
     authors="ReutAmior"
     ms.author="t-reutam"
     displayOrder="1"
-    articleId="mediaserices-videoindexer-account-pricing"
+    articleId="mediaservices-videoindexer-account-pricing"
     diagnosticScenario=""
     selfHelpType="generic"
     supportTopicIds="32606562"
@@ -16,6 +16,8 @@
     cloudEnvironments="public, fairfax, usnat, ussec"
     ownershipId="StorageMediaEdge_Media_VI"
 />
+
+# Video Indexer’s pricing
 
 Video Indexer can be used with two types of accounts:
 * *Free trial account:* up to 10 hours of free indexing for website users, and up to 40 hours of free indexing for API users.
@@ -26,4 +28,6 @@ Price per input minute:
 * Video analysis - $0.15
 * Audio analysis - $0.04
 
-Learn more about Video Indexer’s pricing -  https://azure.microsoft.com/en-gb/pricing/details/media-services/
+## **Recommended Documents**
+
+* [Video Indexer’s pricing](https://azure.microsoft.com/pricing/details/media-services/)
