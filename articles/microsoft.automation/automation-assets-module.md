@@ -49,4 +49,4 @@ It is recommended to have a test Automation Account to ensure updating modules d
 * [Common errors when importing modules](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#common-errors-when-importing-modules)<br>
 * [Integration modules in Azure Automation](https://docs.microsoft.com/azure/automation/automation-integration-modules)<br>
 * [Runbook and module galleries for Azure Automation](https://docs.microsoft.com/azure/automation/automation-runbook-gallery)<br>
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)
