@@ -16,7 +16,7 @@
 />
 
 # SQL Server Agent
-[Sql Server Agent](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent?view=sql-server-ver15) is a Microsoft Windows service that executes scheduled administrative tasks, which are called jobs in SQL Server 2019 (15.x).
+[SQL Server Agent](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent?view=sql-server-ver15) is a Microsoft Windows service that executes scheduled administrative tasks, which are called jobs in SQL Server 2019 (15.x).
 
 ## **Recommended Steps**
 

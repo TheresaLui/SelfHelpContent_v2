@@ -10,13 +10,13 @@
 	supportTopicIds="32637273"
 	productPesIds="16259"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-	articleId=""
+	articleId="09add851-4125-406c-af6a-70eff2d8d7e1"
 	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Monitoring - Monitor, Metrics, Alert
-
 **Monitoring** for Managed Instance is supported through built-in metrics in Azure portal, through Azure SQL Analytics, third party tools, and your own implementation of DMV querying.
+
 ```
 Please note that QPI (Query Performance Insights), metrics alerting from Azure Portal, and Automatic tuning index management is not supported for Managed Instance at this time. In addition, monitoring with SCOM is not supported for monitoring Managed Instance at this time.
 ```
@@ -53,7 +53,7 @@ To monitor metrics of Managed Instance, consider using one of the following opti
 4. Build your own solution using DMV querying:
 
 	* You can schedule your own queries using the built-in Agent. 
-    * You can use database mail feature in Managed Instance to send email notificatin automatically upon the DMV query result.
+    * You can use database mail feature in Managed Instance to send email notifications automatically upon the DMV query result.
     * Note that DBA knowledge is required for this option.
 
 5. Consider using third party products that support Managed Instance.
@@ -64,5 +64,5 @@ To configure alert for Managed Instance, see [Create Alert for SQL Managed Insta
 
 * [Monitor Azure SQL Database using Azure SQL Analytics](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql)
 * [Get started with Azure Monitor log queries](https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-queries)
-* [Monitoring Microsoft Azure SQL Database and Azure SQL Managed Instance performance using dynamic management views](https://docs.microsoft.com/en-us/azure/azure-sql/database/monitoring-with-dmvs#monitor-resource-use)
+* [Monitoring Microsoft Azure SQL Database and Azure SQL Managed Instance performance using dynamic management views](https://docs.microsoft.com/azure/azure-sql/database/monitoring-with-dmvs#monitor-resource-use)
 * [Configure Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/configure-database-mail)
