@@ -38,9 +38,15 @@
   "supportedSDKLanguages": [".Net", "Java", "JavaScript", "Python"],
   "actions": [{
                     "actionId": "0a71357b-bf25-439e-8e69-6bc1538279ae",
-                    "description": "Upgrade to the recommended {language} SDK version: {version}",
+                    "description": "Upgrade to the recommended {language} SDK version, {version}",
                     "actionType": "Document",
                     "documentLink": "{releaseNotes}"
+          },
+          {
+                    "actionId": "11941fbb-2321-4a49-a34d-25c007404331",
+                    "description": "View release notes for recommended SDK version",
+                    "actionType": "Document",
+                    "documentLink": "{recommendedActionLearnMore}"
           }],
   "dataSourceMetadata":
           {
