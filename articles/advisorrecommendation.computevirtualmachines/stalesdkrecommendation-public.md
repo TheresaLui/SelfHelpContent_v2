@@ -46,7 +46,7 @@
           {
                     "streamNamespace": "cluster('https://cplatsdk.westus2.kusto.windows.net').database('sdk').StaleSDKRecommendation",
                     "dataSource": "Kusto",
-                    "refreshInterval": "0.00:30:00"
+                    "refreshInterval": "0.00:05:00"
           }
 }
 ---
