@@ -48,6 +48,10 @@ Update Management logs attempts to install updates. [Check the job output](https
 * Follow the troubleshooting guide for ["Machine shows as Not Assessed and shows an HResult exception"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#hresult)
   * This error commonly indicates an inaccessible WSUS server has been configured, or Windows Update is not reachable on the network.
 
+  ### **"Sudo status check failed"**
+
+  * Verify the [configuration of the nxautomationuser account in the sudoers file](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#prompt-for-password). 
+
 
 ## **Recommended Documents**
 

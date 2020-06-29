@@ -31,12 +31,13 @@ Most users are able to resolve the following issues using the steps below:
 
 - Make sure that you are enforcing access controls and not session controls
 
-**NOTE**: Access controls can be enforced on native apps. Session controls can only be enforced on web-based apps.
-
+    **NOTE**  
+    Access controls can be enforced on native apps. Session controls can only be enforced on web-based apps.
 - If you are unable to block access to your native app, in your access policy, set the **Client app filter** to **Mobile** and **Desktop**. If this is not set, the resulting policy will only apply to browser sessions.
 - Validate your sign in flow by downloading the Azure AD sign-in logs in the JSON file format. If you proceed to open the support case, make sure you include the file with the ticket.
 
-**NOTE**: The Authenticator app, among other native client app sign-in flows, uses a non-interactive sign-in flow and cannot be used with access controls.
+    **NOTE**  
+    The Authenticator app, among other native client app sign-in flows, uses a non-interactive sign-in flow and cannot be used with access controls.
 
 ## **Recommended Documents**
 
