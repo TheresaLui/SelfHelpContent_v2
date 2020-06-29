@@ -1,20 +1,18 @@
-﻿<properties
-	pageTitle="<Enter the step title>"
-	description="<Brief Description of the step>"
-	service="<service provider>"
-	resource="<resource type>"
-	ms.author="<Your Microsoft alias>"
+<properties
+	pageTitle="Enter the page title"
+	description="Brief description of the article"
+	service="service provider"
+	resource="resource type"
+	ms.author="Your Microsoft alias"
 	selfHelpType="TSG_Content"
-	cloudEnvironments="<cloud environments>"
-	articleId="public, fairfax, ussec, usnat, mooncake"
+	cloudEnvironments="public, fairfax, ussec, usnat, mooncake"
+	articleId="Unique field - use article name OR [a generated GUID](https://www.guidgenerator.com/online-guid-generator.aspx)"
 	ownershipId=""
 />
 
-# <Title for the step. This text is presented at the top of the card>
+# <Title for the article. This text is presented at the top of the card>
 
 This is a brief paragraph about the problem or the steps you are asking the user to take.
-
-## **Sample H2 Title**
 
 ## **Recommended Steps**
 
@@ -35,7 +33,7 @@ This is a brief paragraph about the problem or the steps you are asking the user
     Autoscale = $Autoscale
 ```
 
-Below is an example of a bulleted list. Note that only 2 levels of bullets are supported:
+Below is an example of a bulleted list. Note that only **2 levels** of bullets are supported:
 
 * Item1
 * Item2
@@ -45,6 +43,10 @@ Below is an example of a bulleted list. Note that only 2 levels of bullets are s
 
 All lists require an empty line before the first item and after the last item.
 
+### **H3 Header**
+
+Bolded H2 headers are reserved for **Recommended Steps** or **Recommended Documents**. If you wish to use a header to separate sections, use the H3 header. Double asterisks on either side of the header (after the ###) will bold the text.
+
 ## **Recommended Documents**
 
 * [This is the display text of an external document](https://)
@@ -52,6 +54,8 @@ All lists require an empty line before the first item and after the last item.
 
 ### Notes
 
+* In the metadata, **selfHelpType="TSG_Content"** does not need to be changed
+* The Cloud Environments metadata property lists all available environments. Delete the ones not needed from the list: **cloudEnvironments="public, fairfax, ussec, usnat, mooncake"**
 * The **Recommended Steps** and **Recommended Documents** headings must be entered as shown above (bolded H2)
 * Formatting is not identical to Microsoft Docs - tables do not work, nor [!NOTE] tags
 * Your Recommended Steps should be actual steps, not just links to other articles
