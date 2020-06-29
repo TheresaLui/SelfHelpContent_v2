@@ -44,7 +44,7 @@
           },
           {
                     "actionId": "11941fbb-2321-4a49-a34d-25c007404331",
-                    "description": "View release notes for recommended SDK version",
+                    "description": "View details to update to the latest SDK version",
                     "actionType": "Document",
                     "documentLink": "{recommendedActionLearnMore}"
           }],
