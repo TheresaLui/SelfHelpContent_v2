@@ -1,22 +1,23 @@
 <properties
-	articleId="problemscopingques-portal.md"
-	pageTitle="Azure Automation - Automation Account"
-	description="Azure Automation - Automation Account"
-	authors="zjalexander"
-	ms.author="zachal"
+	articleId="problemscopingques-portal-throttling.md"
+	pageTitle="Issue with tags"
+	description="Issue with tags"
+	authors="rthorn17"
+	ms.author="rithorn"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32599921,32599929,32599933,32628005,32628012"
-	productPesIds="15607"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
+	supportTopicIds="32637531"
+	productPesIds="15739"
+	cloudEnvironments="public, Fairfax, usnat, ussec, blackforest, mooncake"
 	schemaVersion="1"
-	ownershipId="Compute_Automation"
+	ownershipId="Compute_AzurePortal"
 />
-# Automation Account
+
+# Throttling Issues
 ---
 {
     "subscriptionRequired": false,
     "resourceRequired": false,
-    "title": "Automation Account",
+    "title": "Throttling Issue",
     "fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements": [
         {
@@ -28,7 +29,7 @@
         },
         {
             "id": "problem_description",
-            "order": 30,
+            "order": 40,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Describe the issue, including as much detail as possible with the exact text of error messages where available",
