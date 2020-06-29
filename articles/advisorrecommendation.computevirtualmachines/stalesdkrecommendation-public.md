@@ -36,12 +36,6 @@
   "displayLabel": "Upgrade SDK Vesion",
   "tip": "Upgrade to the recommended SDK version to ensure you avoid performance issues.",
   "supportedSDKLanguages": [".Net", "Java", "JavaScript", "Python"],
-  "actions": [{
-                    "actionId": "0a71357b-bf25-439e-8e69-6bc1538279ae",
-                    "description": "Upgrade to the recommended SDK version.",
-                    "actionType": "Document",
-                    "documentLink": "https://github.com/Azure/azure-sdk/blob/master/README.md"
-          }],
   "dataSourceMetadata":
           {
                     "streamNamespace": "cluster('https://cplatsdk.westus2.kusto.windows.net').database('sdk').StaleSDKRecommendation",
