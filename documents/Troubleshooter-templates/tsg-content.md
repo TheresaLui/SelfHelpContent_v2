@@ -7,7 +7,7 @@
 	selfHelpType="TSG_Content"
 	cloudEnvironments="public, fairfax, ussec, usnat, mooncake"
 	articleId="Unique field - use article name OR [a generated GUID](https://www.guidgenerator.com/online-guid-generator.aspx)"
-	ownershipId=""
+	ownershipId="this is required"
 />
 
 # <Title for the article. This text is presented at the top of the card>
