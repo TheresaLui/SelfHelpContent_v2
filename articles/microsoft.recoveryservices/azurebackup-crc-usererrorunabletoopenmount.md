@@ -33,7 +33,7 @@ To resolve this issue, perform the following:
 
 - Ensure all mount points of fstype Ext3/4, ReiserFS, JFS, XFS are accessible
 - After the file recovery option to RESTORE file and folders, if the operation did not cleanup mountpoints and still available on the VM, then the next backup might fail. For more information, refer this [article](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#closing-the-connection). 
-  The filesystem state which is not clean, unmount it by running the command unmount <FilesSystem>, ex. unmount “/dev/sdb1”
+  The filesystem state which is not clean, unmount it by running the command *unmount FilesSystem-name*, ex. unmount “/dev/sdb1”
 - After completing the steps retry backup operation
 
 ## **Recommended documents**
