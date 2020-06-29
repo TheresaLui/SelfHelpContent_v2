@@ -4,7 +4,7 @@
     authors="alexsmithMSFT"
     ms.author="alexsmit, mquian, v-miegge"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32663924,32663923,32663922,32629265"
+    supportTopicIds=""
     productPesIds="17136"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
@@ -37,7 +37,7 @@
                 {
                     "value": "1910",
                     "text": "1910"
-                },
+                }
             ],
             "required": false,
             "infoBalloonText": "Example: Select 2002 if your build number is 1.2002.0.35."

@@ -19,9 +19,9 @@
 
 ## **Recommended Steps**
 
-<!--- DeWitt suggested this additional link but I cant locate it https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-app-service-before-you-get-started?view=azs-2002#get-certificates --->
+<!--- DeWitt suggested this additional link but I cant locate it https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started?view=azs-2002#get-certificates --->
 
-* [Prerequisites for deploying App Service on Azure Stack Hub](hhttps://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-app-service-before-you-get-started?view=azs-2002&pivots=state-connected#certificates-and-server-configuration-integrated-systems)
+* [Prerequisites for deploying App Service on Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started?view=azs-2002&pivots=state-connected#certificates-and-server-configuration-integrated-systems)
 
 ## **Recommended Documents**
 
