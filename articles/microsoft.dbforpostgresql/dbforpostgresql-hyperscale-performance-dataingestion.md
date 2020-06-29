@@ -2,13 +2,13 @@
     pageTitle="Data ingestion performance on Azure Database for PostgreSQL - Hyperscale (Citus)"
     description="Data ingestion performance on Azure Database for PostgreSQL - Hyperscale (Citus)"
     service="microsoft.dbforpostgresql"
-    resource="servers"
+    resource="serverGroups"
     ms.author="raagyema"
     displayOrder="70"
     articleId="dbforpostgresql-hyperscale-performance-dataingestion.md"
     selfHelpType="resource"
     supportTopicIds="32731227"
-    resourceTags="servers, databases"
+    resourceTags=""
     productPesIds="17068"
     cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
@@ -17,4 +17,4 @@
 # Data ingestion performance
 
 ## **Recommended Documents**
-* [Citus data ingestion](https://citus.readthedocs.io/latest/performance/scaling_data_ingestion.html)
+* [Citus data ingestion](https://citus.readthedocs.io/en/latest/performance/scaling_data_ingestion.html)
