@@ -16,7 +16,7 @@
 	ownershipId="AzureCogSvc_CognitiveServices"
 />
 
-# Knowledge Base Management
+# QnA components
 
 ### **Frequently asked questions**
 
