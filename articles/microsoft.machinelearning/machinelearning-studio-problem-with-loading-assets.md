@@ -17,8 +17,7 @@
 
 # How do I log metrics to training runs?
 
-## **Recommended Documents**
-Follow the documentation to learn how to add logging code to your training script, submit an experiment run, monitor that run, and inspect
-the results in Azure Machine Learning. 
+## **Recommended Steps**
 
-* [Monitor Azure ML experiment runs and metrics](https://docs.microsoft.com/azure/machine-learning/how-to-track-experiments#view-the-experiment-in-your-workspace-in-azure-machine-learning-studio)
+Follow the [Monitor Azure ML experiment runs and metrics](https://docs.microsoft.com/azure/machine-learning/how-to-track-experiments#view-the-experiment-in-your-workspace-in-azure-machine-learning-studio) documentation to learn how to add logging code to your training script, submit an experiment run, monitor that run, and inspect the results in Azure Machine Learning. 
+
