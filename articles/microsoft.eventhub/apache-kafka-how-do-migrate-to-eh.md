@@ -1,6 +1,6 @@
 <properties
-    pageTitle="How do I migreate to EH"
-    description="How do I migreate to EH"
+    pageTitle="How do I migrate to EH"
+    description="How do I migrate to EH"
     service="microsoft.eventhub"
     resource="namespaces"
     ms.author="chiragpa"
@@ -12,10 +12,10 @@
     productPesIds="16125"
     cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
     articleId="apache-kafka-how-do-migrate-to-eh"
-	ownershipId="AzureMessaging_Common"
+    ownershipId="AzureMessaging_Common"
 />
 
-# How do I migreate to EH
+# How do I migrate to EH
 
 ## **Recommended Documents**
 
