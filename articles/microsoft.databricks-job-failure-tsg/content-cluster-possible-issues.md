@@ -19,11 +19,11 @@
 
 If the job failed prematurely at cluster creation stage, please collect cluster details and check the following:
 
-1. Check if any throttling or issues reported in ASC insights.
+1. Are there any throttling or issues reported in ASC insights?
 2. From ASC, go to the Resource under Resource Explorer -> Cluster Resources tab -> Specify issue time frame and run diagnostics. Find the cluster and check the provisioning status and errors.
-3. Check cluster event logs in customer workspace.
+3. Check cluster event logs in customer workspace
 
-There are more that one possible root cause here. Please proceed according to user facing errors below:
+There is more than one possible root cause. Please proceed according to user-facing errors below.
 
 **Azure Network**
 
