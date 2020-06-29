@@ -23,7 +23,7 @@
 ## **Recommended Steps**
 
 1. If you are looking to **create a co-sell opportunity for Azure or Dynamics**, please use the **+ New Deal in the Co-Sell Opportunities tab**. If you are looking to **register a closed**, non co-sell signed contract for a Dynamics solution as part of the **ISV Connect Program**, please use the **+ New Deal Registration** button in the **Deal Registration -> Action Required tab**
-2. Access: To access deal registration left navigation in Partner Center or the + New Deal Registration button, **Referral Admin access is required**. Your company **Global Admin can assign** the Referrals Admin role if required (Refer to Recommended Documents)
+2. Access: To access deal registration left navigation in Partner Center or the + New Deal Registration button, **Referral Admin access is required**. Your company **Global Admin can assign** the Referrals Admin role if required *(Refer to Recommended Documents)
 3. To **find an existing deal or register a new** one, go to Referrals in the left navigation of partner center and click the **Deal Registration tab**
 4. There are 3 tabs: Action Required, In Progress, and Closed:
    - All Active/Non-closed deals will be in the Action Required or In Progress tabs under Deal Registration
