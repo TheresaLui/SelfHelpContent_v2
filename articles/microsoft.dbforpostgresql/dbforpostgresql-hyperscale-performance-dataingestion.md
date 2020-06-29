@@ -18,3 +18,4 @@
 
 ## **Recommended Documents**
 * [Citus data ingestion](https://citus.readthedocs.io/en/latest/performance/scaling_data_ingestion.html)
+* [Using Azure Data Factory for ingestion](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/bring-your-data-to-azure-database-for-postgresql-hyperscale/ba-p/857975)

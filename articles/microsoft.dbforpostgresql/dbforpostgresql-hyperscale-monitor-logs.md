@@ -20,12 +20,12 @@ You can configure your Azure Database for PostgreSQL - Hyperscale (Citus) logs t
 
 ## **Recommended Steps**
 * To configure logging from [the Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings#create-in-azure-portal),
-   1. Go to the portal page for your Hyperscale server. 
-   2. Select *Diagnostic settings* and follow the prompts. 
+   1. Go to the portal page for your Hyperscale server
+   2. Select *Diagnostic settings* and follow the prompts
 
-* To configure logging using the Azure CLI, ARM Template, or other API, visit [the diagnostic settings](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) article. 
+* To configure logging using the Azure CLI, ARM Template, or other API, visit [the diagnostic settings](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings) article 
 
-* If you are using Azure Monitor Logs, you can query logs, create charts, and alert on log events. [Learn more](https://docs.microsoft.com/azure/azure-monitor/platform/data-platform-logs).
+* If you are using Azure Monitor Logs, you can query logs, create charts, and alert on log events. [Learn more](https://docs.microsoft.com/azure/azure-monitor/platform/data-platform-logs)
 
 * Audit logging is not available in Hyperscale (Citus)
 

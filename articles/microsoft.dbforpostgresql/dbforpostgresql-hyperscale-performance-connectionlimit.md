@@ -16,7 +16,7 @@
 
 # Connection limit
 
-Azure Database for PostgreSQL - Hyperscale (Citus) has a maximum connection limit of 300 connections.
+Azure Database for PostgreSQL - Hyperscale (Citus) has a maximum connection limit of 300 connections on the coordinator node.
 
 ## **Recommended Steps**
 * We recommend that you set up and use [pgBouncer](https://techcommunity.microsoft.com/t5/Azure-Database-for-PostgreSQL/Steps-to-install-and-setup-PgBouncer-connection-pooling-proxy/ba-p/730555) or another connection pooler to manage connections. Server-side pgBouncer is not available in Azure Database for PostgreSQL - Hyperscale (Citus). 

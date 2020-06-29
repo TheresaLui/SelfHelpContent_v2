@@ -18,6 +18,8 @@
 
 We recommend that you configure alerting on Azure Database for PostgreSQL - Hyperscale (Citus). In Azure, you can have alerts on both metrics and logs.
 
+Query Store is not an available feature in Hyperscale (Citus). Consider using the pg_stat_statements extension. 
+
 ## **Recommended Documents**
 * [Create alerts in Hyperscale](https://docs.microsoft.com/azure/postgresql/howto-hyperscale-alert-on-metric)
 * [Azure Monitor Alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-overview)

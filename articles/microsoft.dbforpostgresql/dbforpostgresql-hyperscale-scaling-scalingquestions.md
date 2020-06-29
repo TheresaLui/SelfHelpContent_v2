@@ -16,6 +16,11 @@
 
 # Scaling 
 
+## **Recommended Steps**
+* To add worker nodes, [review the how to](https://docs.microsoft.com/azure/postgresql/howto-hyperscale-scaling)
+* To scale compute or storage on your nodes, continue creating a support request
+
+
 ## **Recommended Documents**
 * [How to scale Azure Database for PostgreSQL - Hyperscale (Citus)](https://docs.microsoft.com/azure/postgresql/howto-hyperscale-scaling)
 * [Scale configuration options](https://docs.microsoft.com/azure/postgresql/concepts-hyperscale-configuration-options)

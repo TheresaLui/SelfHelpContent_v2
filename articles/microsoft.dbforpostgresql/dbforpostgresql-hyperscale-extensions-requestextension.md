@@ -19,5 +19,5 @@
 The list of extensions that are available on Azure Database for PostgreSQL - Hyperscale (Citus) can be found in [the extensions document](https://docs.microsoft.com/azure/postgresql/concepts-hyperscale-extensions).
 
 ## **Recommended Steps**
-* If an extension you would like to use is not available, let us know by upvoting existing requests or creating new feedback requests in our [feedback forum](https://feedback.azure.com/forums/597976-azure-database-for-postgresql).
+* If an extension you would like to use is not available, let us know by upvoting existing requests or creating new feedback requests in our [feedback forum](https://feedback.azure.com/forums/597976-azure-database-for-postgresql)
 

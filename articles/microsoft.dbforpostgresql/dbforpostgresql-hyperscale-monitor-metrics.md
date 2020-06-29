@@ -18,5 +18,7 @@
 
 Metrics in Azure Database for PostgreSQL - Hyperscale (Citus) are provided per node. Metrics are not aggregated a cluster level. However, with Azure Monitor [you can view metrics for multiple nodes on one chart](https://docs.microsoft.com/azure/azure-monitor/platform/metrics-charts#create-views-with-multiple-metrics-and-charts). 
 
+Query Store is not an available feature in Hyperscale (Citus). Consider using the pg_stat_statements extension. 
+
 ## **Recommended Documents**
-* [Metrics availalable in Hyperscale (Citus)](https://docs.microsoft.com/azure/postgresql/concepts-hyperscale-monitoring)
+* [Metrics available in Hyperscale (Citus)](https://docs.microsoft.com/azure/postgresql/concepts-hyperscale-monitoring)
