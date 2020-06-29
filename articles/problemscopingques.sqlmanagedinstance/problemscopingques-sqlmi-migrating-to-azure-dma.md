@@ -131,7 +131,7 @@
     },
     {
       "id": "migration_scope",
-      "order": 25,
+      "order": 35,
       "controlType": "dropdown",
       "visibility": "project_type == migration",
       "displayLabel": "What is the scope of the migration?",
