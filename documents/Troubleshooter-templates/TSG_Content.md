@@ -6,7 +6,7 @@
 	ms.author="<Your Microsoft alias>"
 	selfHelpType="TSG_Content"
 	cloudEnvironments="<cloud environments>"
-	articleId="<Unique GUID identifying the Content step>"
+	articleId="public, fairfax, ussec, usnat, mooncake"
 	ownershipId=""
 />
 
