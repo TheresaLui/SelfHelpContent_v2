@@ -32,7 +32,7 @@ To resolve this issue, perform the following:
   The filesystem state which is not clean, unmount it by running the command *unmount FilesSystem-name*, ex. *unmount /dev/sdb1*
 - After completing the steps retry backup operation
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - Related error [UserErrorFsFreezeFailed](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#usererrorfsfreezefailed---failed-to-freeze-one-or-more-mount-points-of-the-vm-to-take-a-file-system-consistent-snapshot)
 - [Application-consistent backup of Azure Linux VMs](https://docs.microsoft.com/azure/backup/backup-azure-linux-app-consistent)
