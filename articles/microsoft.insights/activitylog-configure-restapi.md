@@ -23,6 +23,8 @@ You can retrieve information from activity logs through REST API.
 
 1. The REST operations for working with the activity log are part of the [Insights REST API](https://docs.microsoft.com/rest/api/monitor/). To retrieve activity log events, see [List the management events in a subscription](https://docs.microsoft.com/rest/api/monitor/activitylogs).
 1. Review [how to view activity logs to monitor actions on resources](https://docs.microsoft.com/azure/azure-resource-manager/management/view-activity-logs#rest-api)
+1. Review overview of [diagnostic settings](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostic-settings)
+1. Refer to how to create [diagnostic settings via REST API](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings#create-using-rest-api)
 
 ## **Recommended Documents**
 
