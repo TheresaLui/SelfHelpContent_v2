@@ -48,7 +48,7 @@
                     "text": "Assessment"
                 },
                 {
-                    "value": "Migration",
+                    "value": "migration",
                     "text": "Migration"
                 },
                 {
