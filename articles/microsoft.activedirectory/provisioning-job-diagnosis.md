@@ -20,9 +20,8 @@
 # PREVIEW: provisioning job analysis
 <!--issueDescription-->
 
-<!--$issuesSection-->issuesSection<!--/$issuesSection-->
-
-We've analyzed your job and found the below:
+**We've analyzed your job and found the below:**
 <!--$jobHealthSection-->jobHealthSection<!--/$jobHealthSection-->
+<!--$issuesSection-->issuesSection<!--/$issuesSection-->
 
 <!--/issueDescription-->
