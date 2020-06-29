@@ -127,7 +127,7 @@
                     "text": "Don't know the answer"
                 }
             ],
-            "required": true
+            "required": false
     },
     {
       "id": "migration_scope",
