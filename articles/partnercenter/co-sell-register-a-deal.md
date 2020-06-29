@@ -23,6 +23,7 @@
 ## **Recommended Steps**
 
 1. To **register a new deal**, go to Referrals > Deal registrations > Action required and select +New deal registration
+   - Refer to Recommended Documents for full instructions on registering a deal
 2. If you are looking to **create a lead/co-sell** opportunity deal, go to Co-Sell Opportunities tab >  click +New Deal
 3. If you are looking to **register a closed** and signed contract for a Dynamics solution, go to the + New Deal Registration button in the Deal Registration Action Required tab
 
