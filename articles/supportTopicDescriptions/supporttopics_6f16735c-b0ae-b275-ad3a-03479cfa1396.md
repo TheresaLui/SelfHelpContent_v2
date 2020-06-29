@@ -131,8 +131,8 @@
     {
       "id": "134405f7-3ab8-50a5-3f68-2b87855f74f6",
       "longDescription": null,
-      "shortDescription": "Covers issues with the Azure Custom Scipt extension",
-      "searchTags": "",
+      "shortDescription": "Covers issues with the Azure Custom Script Extension",
+      "searchTags": "CSE",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -177,6 +177,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "20e98c4a-ad27-441f-a4f1-ba5641b207d7",
+      "longDescription": "",
+      "shortDescription": "Issues where SQL Server performance is lower than expected in an Azure Virtual Machine",
+      "searchTags": "Performance;VM;SQL;SQL Server",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "240605e1-1510-255d-b490-cb95f582b1dc",
       "longDescription": null,
       "shortDescription": "Resolve errors with disks when starting or stopping a virtual machine",
@@ -215,6 +223,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "31b44bbf-c250-1176-5986-9cdc37510515",
+      "longDescription": "",
+      "shortDescription": "Resolve concerns dealing with shared disk",
+      "searchTags": "Shared Disk",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "32e9eab8-0dfe-2ee6-aa44-226df969736c",
@@ -303,6 +319,14 @@
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "49c6557e-46fa-ad0f-c980-4e3ce0b93089",
+      "longDescription": "",
+      "shortDescription": "Issue with licenses for Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "4af02697-cd73-222d-c180-4ff928f26312",
@@ -409,6 +433,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "594f8e0e-7e66-9028-40ba-35925de830a9",
+      "longDescription": "",
+      "shortDescription": "Assistance with Azure Image Builder",
+      "searchTags": "Image builder",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5a105230-54e6-b09a-5667-764d781026a1",
       "longDescription": null,
       "shortDescription": "Covers issues with NVIDIA GPU driver extension",
@@ -465,6 +497,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "615cba4d-560a-c720-5034-9b745b9a9a7f",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to connectivity using Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "618d9f4b-5418-7c9b-2fb5-8075eb937a32",
       "longDescription": null,
       "shortDescription": "Requests to manage a Windows virtual machine running in Azure including client licenses",
@@ -491,9 +531,9 @@
     {
       "id": "6322d0b2-1b5c-129b-ea42-cace57e14805",
       "longDescription": null,
-      "shortDescription": " ",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Covers scenarios where the operating system or image does not boot after encrypting",
+      "searchTags": "ADE",
+      "category": "ADE",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -521,6 +561,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "6fa2b14c-d769-1357-43f0-7c1d3d34b4f8",
+      "longDescription": "",
+      "shortDescription": "Assistance with the management of Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6fddc208-ceac-8c83-a5a9-4cc00dae14be",
       "longDescription": null,
       "shortDescription": "Azure Backup is encountering a failure when restoring your virtual machine using Azure Backup",
@@ -543,6 +591,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "761c2072-db63-b5a4-d038-9cf7bb03cf86",
+      "longDescription": "",
+      "shortDescription": "Need assistance with the configuration of Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "773b125f-f9a8-f282-abe3-051d8ffe0f26",
@@ -649,6 +705,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "8a82f77d-c3ab-7b08-d915-776b4ff64ff4",
+      "longDescription": "",
+      "shortDescription": "Covers questions with retiring of Classic IAAS resources (ASM) ",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8b618100-f5cd-7ad5-1c69-72aaf37d801d",
       "longDescription": null,
       "shortDescription": "Requests to help where CPU usage is higher than expected for the virtual machine",
@@ -737,6 +801,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "9c28c4c9-db23-c7e7-1edc-3e5abca575dd",
+      "longDescription": "",
+      "shortDescription": "Covers issues with the management of Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9cbf3cf0-08ae-c0ee-838d-0e478fd1db59",
       "longDescription": null,
       "shortDescription": "Assistance with deploying a virtual machine with managed disks",
@@ -777,6 +849,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "a632159c-a15a-62dd-0420-73c273e43e02",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to deploying Azure Window Virtual Desktop",
+      "searchTags": "WVD;Windows Virtual Desktop;Desktop;Remote Desktop;RDS",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "aaa925f8-bbc6-997b-e8e2-35d9b6c78b2b",
       "longDescription": null,
       "shortDescription": "Moving resources between resource groups",
@@ -795,8 +875,8 @@
     {
       "id": "ad87fcbe-dbe1-5757-c644-b5511f27f5c4",
       "longDescription": null,
-      "shortDescription": "Disk throughput is lower than expected for the virtual machine",
-      "searchTags": "",
+      "shortDescription": "Disk throughput or IOPS are lower than expected for the virtual machine",
+      "searchTags": "IOPS;Performance;throughput",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
     },
@@ -819,9 +899,9 @@
     {
       "id": "af987d76-3ad6-c91a-5050-24712c6edc1f",
       "longDescription": null,
-      "shortDescription": "",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Covers issues where the status of encryption is incorrect for the VM (Portal, CLI, PS)",
+      "searchTags": "ADE",
+      "category": "ADE",
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
@@ -859,8 +939,8 @@
     {
       "id": "b6dec86c-f1a4-e67f-cc26-1bb9efce43f3",
       "longDescription": null,
-      "shortDescription": "Covers issues with the OMS/Log Analytics extension",
-      "searchTags": "",
+      "shortDescription": "Covers issues with the OMS Log Analytics extension",
+      "searchTags": "OMS",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
     },

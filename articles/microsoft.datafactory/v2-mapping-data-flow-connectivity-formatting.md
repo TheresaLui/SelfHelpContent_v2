@@ -10,7 +10,7 @@
  supportTopicIds="32633540,32633539"
  resourceTags=""
  productPesIds="15613"
- cloudEnvironments="public"
+ cloudEnvironments="public, fairfax, usnat, ussec"
  articleId="v2-mapping-data-flow-connectivity-formatting.md"
  ownershipId="AzureData_DataFactory"
 />

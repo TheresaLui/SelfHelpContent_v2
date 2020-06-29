@@ -24,6 +24,7 @@ Causes of intermittent connection issues include server restart, high resource u
 
 * Retry the connection
 * **An existing connection was forcibly closed by the remote host** indicates that your client closed a connection to the Postgres server. Check your client timeout and idle connection settings. [Learn more about this error](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/troubleshoot-postgresql-an-existing-connection-was-forcibly/ba-p/925164).  
+* There may be a planned maintenance activity going on your database server. Check your Resource Health for the current status. You may also want to setup planned maintenance [notification](https://docs.microsoft.com/azure/postgresql/concepts-monitoring#planned-maintenance-notification) to get notified of any planned activities.
 * Check your server metrics to see if any resource is near 100% utilization. High utilization may lead to unavailable resources for a new connection.
 * Check the [connections limit for your server's sku](https://docs.microsoft.com/azure/postgresql/concepts-limits)
 
@@ -40,6 +41,7 @@ If connection issues last for more than a couple minutes, the root cause may be 
 * Confirm that the username field correlates correctly with the servername/hostname field
 * Follow [connection recommendations](https://docs.microsoft.com/azure/postgresql/concepts-connection-libraries) on computers hosting your client programs
 * Make sure you are using the correct [SSL configuration](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security)
+* Make sure you are using the correct [TLS configuration](https://docs.microsoft.com/azure/postgresql/howto-tls-configurations)
 
 
 ## **Recommended Documents**

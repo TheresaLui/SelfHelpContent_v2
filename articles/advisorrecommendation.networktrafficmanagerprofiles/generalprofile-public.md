@@ -6,7 +6,7 @@
     articleId="6cd70072-c45c-4716-bf7b-b35c18e46e72_Public"
     selfHelpType="advisorRecommendationMetadata"
     productPesIds="15400"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="CloudNet_TrafficManager"
 />
 # Add at least one more endpoint to the profile, preferably in another Azure region
@@ -61,8 +61,8 @@
     "action": {
       "actionId": "1f5147e8-3437-4537-975b-3d32aae47ae2",
       "actionType": "Blade",
-      "extensionName": "Microsoft_Azure_Network",
-      "bladeName": "TrafficManagerBlade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}"
       }

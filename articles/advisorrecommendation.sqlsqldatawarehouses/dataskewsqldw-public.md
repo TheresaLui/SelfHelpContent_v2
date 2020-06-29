@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="9d7196d1-2d7c-4316-820f-7374a4ddf250_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 # Remove data skew to increase query performance
