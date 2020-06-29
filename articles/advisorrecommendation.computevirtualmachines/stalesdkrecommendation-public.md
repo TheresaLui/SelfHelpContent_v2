@@ -38,9 +38,9 @@
   "supportedSDKLanguages": [".Net", "Java", "JavaScript", "Python"],
   "actions": [{
                     "actionId": "0a71357b-bf25-439e-8e69-6bc1538279ae",
-                    "description": "Upgrade to the recommended SDK version.",
+                    "description": "Upgrade to the recommended {language} SDK version: {version}",
                     "actionType": "Document",
-                    "documentLink": "https://github.com/Azure/azure-sdk/blob/master/README.md"
+                    "documentLink": "{releaseNotes}"
           }],
   "dataSourceMetadata":
           {
