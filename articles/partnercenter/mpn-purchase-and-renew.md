@@ -10,11 +10,12 @@
 	articleId="partnercenter_mpn_purchase_and_renewals"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635688"
+	supportTopicIds="32725824"
 	clientIds='partnercenter'
 	resourceTags="mpn"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Purchase and renewal of MAPS and competencies
 

@@ -7,11 +7,12 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32681783,32681784,32681785,32681786,32681787,32681788"
+	supportTopicIds="32681783"
 	resourceTags=""
 	productPesIds="16582"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="803975e4-6094-4086-95ff-2896a7e7902f"
+	ownershipId="Windows_Virtual_Desktop"
 />
 
 # Windows Virtual Desktop

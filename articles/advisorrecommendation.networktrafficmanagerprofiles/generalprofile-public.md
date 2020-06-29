@@ -5,7 +5,9 @@
     ms.author="aadevteam"
     articleId="6cd70072-c45c-4716-bf7b-b35c18e46e72_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    productPesIds="15400"
+    cloudEnvironments="Public, usnat, ussec"
+    ownershipId="CloudNet_TrafficManager"
 />
 # Add at least one more endpoint to the profile, preferably in another Azure region
 ---
@@ -27,13 +29,13 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "atmredmond@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "Metrics://TrafficManager",
+      "service": "Cloudnet",
+      "team": "TrafficManager"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "d99081c1-c81f-49e3-8aec-541f00ffba62"
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
@@ -59,8 +61,8 @@
     "action": {
       "actionId": "1f5147e8-3437-4537-975b-3d32aae47ae2",
       "actionType": "Blade",
-      "extensionName": "Microsoft_Azure_Network",
-      "bladeName": "TrafficManagerBlade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}"
       }

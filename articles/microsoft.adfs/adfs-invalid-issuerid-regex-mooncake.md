@@ -14,6 +14,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureIdentity_SignIn"
 />
 
 # Sign-In issues into Azure AD with AD FS due to improper IssuerID claim rule

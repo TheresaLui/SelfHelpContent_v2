@@ -5,7 +5,8 @@
     ms.author="hux"
     articleId="7393910d-8cca-4b4b-957c-f53d79a5cd70_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Use Premium Blobs for block blob storage
 ---
@@ -15,9 +16,9 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "c6b94711-f1f5-4e7e-9c89-c17ed4190969",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('Xstore').azurestorageadvisorusepremiumblob",
-    "dataSource": "Kusto",
-    "refreshInterval": "0.12:00:00"
+    "streamNamespace": "AzureStorage.Data.StorageAdvisorPremiumBlobStorageAccountV1",
+    "dataSource": "Cosmos",
+    "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
@@ -26,7 +27,7 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "hux@microsoft.com, Sijia.Zhu@microsoft.com",
+    "email": "Sijia.Zhu@microsoft.com",
     "icm": {
       "routingId": "MDM://AzureAdvisor",
       "service": "Azure Advisor",

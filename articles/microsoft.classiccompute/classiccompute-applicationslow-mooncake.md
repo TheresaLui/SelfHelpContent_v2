@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="classiccompute-applicationslow-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My application is slow

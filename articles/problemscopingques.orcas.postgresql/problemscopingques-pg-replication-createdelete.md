@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639973"
     productPesIds="16222"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-replication-createdelete"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Replication - Create or delete read replicas
 ---

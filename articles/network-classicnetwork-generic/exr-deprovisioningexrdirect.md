@@ -10,8 +10,9 @@
     supportTopicIds="32627989, 32627993"
     resourceTags=""
     productPesIds="15480"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="a69eee20-f1cb-4ef6-a3f4-a2ade648df86"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # De-provisioning Issues

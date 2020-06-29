@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="main_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="e5641142-823e-4bce-b04e-f2da805daed8"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Where can I find documentation about how Intune works?

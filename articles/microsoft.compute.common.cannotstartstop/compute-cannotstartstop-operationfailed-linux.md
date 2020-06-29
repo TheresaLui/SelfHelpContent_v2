@@ -10,8 +10,9 @@
 	supportTopicIds="32628282"
 	resourceTags=""
 	productPesIds="15571,15797,16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="aa0bafee-2385-4cb8-8352-dd65f180361a"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My start or stop operation failed

@@ -12,7 +12,8 @@
 	supportTopicIds="32632102"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Issues with a specific browser or platform 

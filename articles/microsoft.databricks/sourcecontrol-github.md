@@ -10,8 +10,9 @@
 	supportTopicIds="32677692"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c74f19c0-2c4b-4b75-9006-eb91e8944594"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with github source control

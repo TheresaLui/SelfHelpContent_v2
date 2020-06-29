@@ -10,8 +10,9 @@
 	supportTopicIds="32637314"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="b951b1c5-2d93-4c5a-8fc6-836421bda563"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # Back up a managed instance database to Azure Blob Storage
 

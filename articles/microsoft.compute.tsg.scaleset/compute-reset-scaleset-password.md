@@ -10,8 +10,9 @@
     supportTopicIds=""
     productPesIds=""
     resourceTags=""
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, fairfax, MoonCake, usnat, ussec"
     articleId="a3d775e6-285d-4c78-86ab-4c098fca5145"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # How do I reset the password or ssh key on my scale set VMs

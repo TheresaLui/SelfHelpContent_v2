@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="c38d8bf8-d7a7-4480-ad49-15e52bf4481a_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Upgrade your Azure Cosmos DB Spark Connector to the latest version from Maven
 ---

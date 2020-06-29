@@ -10,8 +10,9 @@
 	supportTopicIds="32637296"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="c4abfa00-1b0f-48cd-adc1-256665fb436b"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Query Performance troubleshooting

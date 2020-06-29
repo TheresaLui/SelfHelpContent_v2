@@ -9,8 +9,9 @@
 	supportTopicIds="32411846"
 	resourceTags=""
 	productPesIds="16454,15797"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="46b75dfc-0e0c-4be1-b60d-bf258b33403c"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Configuration and Setup/Network

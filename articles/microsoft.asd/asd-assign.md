@@ -10,8 +10,9 @@
 	supportTopicIds="32604401"
 	resourceTags=""
 	productPesIds="16513"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="40c6640a-37bc-4f38-b765-7f43b3d3ac24"
+	ownershipId="Compute_AppService"
 />
 
 # ASD/Assigning Domain

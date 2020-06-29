@@ -11,8 +11,9 @@
 	supportTopicIds="32680652"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="datalakeanalytics-job-started-to-run-slow"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # U-SQL jobs started to run slow

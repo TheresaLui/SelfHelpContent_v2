@@ -10,11 +10,12 @@
 	articleId="partnercenter_purchasing_a_qualified_offer"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635693"
+	supportTopicIds="32692607"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17011"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Pricing_and_Offers"
 />
 # Purchasing a qualified offer
 

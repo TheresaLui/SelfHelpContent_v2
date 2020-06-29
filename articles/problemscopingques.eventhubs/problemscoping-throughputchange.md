@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636956"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="eh-throughput"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Request to change Throughput unit
 ---

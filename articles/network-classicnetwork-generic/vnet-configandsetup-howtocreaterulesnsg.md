@@ -11,8 +11,9 @@
 	supportTopicIds="32584257"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="9e12c5bc-79c3-4f5c-b5ef-0f68f7d8f9e7"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # configurationandsetup/howtocreaterulesinanexistingnsg

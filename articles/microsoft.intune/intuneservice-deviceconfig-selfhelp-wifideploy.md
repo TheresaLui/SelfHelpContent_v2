@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="deviceconfiguration_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="1972d6b6-ebcc-4214-8d43-0da2349912c4"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I deployed a Wi-Fi profile to a device. Intune is showing that it was successful, but the device is not connecting to Wi-Fi.
