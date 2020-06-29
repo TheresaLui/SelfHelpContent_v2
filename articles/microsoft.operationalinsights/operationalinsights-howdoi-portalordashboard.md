@@ -20,7 +20,7 @@ cloudEnvironments="Public, Fairfax, Blackforest, usnat, ussec"
 
 # Portal or dashboard not loading or throwing error
 
-## **Pinning A Log Analytics Visualzition to an Azure Dashboard**
+## **Pinning A Log Analytics Visualization to an Azure Dashboard**
 
 Log Analytics visualizations pinned to a dashboard have some specific considerations designed for an optimal dashboard experience, Please refer to the following items before submitting your support ticket:
 1.	### **I want to report a time scope larger than 30 days:**
