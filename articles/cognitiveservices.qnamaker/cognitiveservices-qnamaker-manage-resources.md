@@ -20,7 +20,7 @@
 ### **Frequently asked questions**
 
 * **Why is my service region shown as West-US, when I selected some other region?**<br>
-Your data is stored in the region you choose for your Azure Search Service and App Service. [QnA Maker management layer is present in only West-US](https://docs.microsoft.com/azure/cognitive-services/qnamaker/concepts/azure-resources#management-service-region) which is used for only QnA Maker portal and no customer data is stored there ever. 
+Your data is stored in the region you choose for your Azure Search Service and App Service. [QnA Maker management layer is present in only West-US](https://docs.microsoft.com/azure/cognitive-services/qnamaker/concepts/azure-resources#management-service-region) which is used for QnA Maker portal only and no customer data is stored there ever. 
 
 * **What are the recommended settings for my target QPS?**<br>
 You need to select the tiers for App Service and Azure Cognitive Service based on your expected QPS, please check the [Recommended Settings](https://docs.microsoft.com/azure/cognitive-services/qnamaker/concepts/azure-resources#recommended-settings).
