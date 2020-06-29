@@ -52,6 +52,10 @@ For managed instance enabling and disabling of SQL Server Agent is currently not
 
 Email notifications are supported, although it is required that you configure a Database Mail profile. SQL Server Agent can use only one Database Mail profile, and it must be called **[AzureManagedInstance_dbmail_profile](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)**. If this profile is missing you can see errors like "profile name is not valid [SQLSTATE 42000] Error 14607."
 
+### **SQL Agent job history retention**
+
+For managed instance, it is not supported to change SQL Agent job history retention. Default job history retention is set to 1000 rows. If you need this feature due to business requirements, please vote for this feature on **[Azure feedback forum](https://feedback.azure.com/)**
+
 ## **Recommended Documents**
 
 - [Managed instance T-SQL differences and limitations (SQL Server Agent)](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)
