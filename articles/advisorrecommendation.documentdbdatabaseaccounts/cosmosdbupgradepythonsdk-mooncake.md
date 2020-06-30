@@ -35,7 +35,7 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 2.0,
+  "version": 2.1,
   "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-python",
   "description": "Upgrade your Azure Cosmos DB Python SDK to the latest version from PyPI",
   "longDescription": "Your Azure Cosmos DB account is using an old version of the Python SDK. We recommend upgrading to the latest version from PyPI for latest fixes, performance improvements, and new feature capabilities.",
@@ -44,7 +44,7 @@
   "additionalColumns": [
     {
       "name": "RecommendedVersion",
-      "title": "Recommended Version"
+      "title": "Minimum Recommended Version"
     },
     {
       "name": "CurrentVersion",
