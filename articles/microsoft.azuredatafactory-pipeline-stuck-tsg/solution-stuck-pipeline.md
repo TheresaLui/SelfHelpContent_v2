@@ -20,5 +20,5 @@
 In this case the pipeline is stuck. Please raise an Icm with ADF Orchestration team using ASC to find the root cause of the issue. Refer to the following wiki to raise an Icm.
 <!--/issueDescription-->
 
-## **Recommended Documents**
+**Recommended Documents**
 1. [How to raise ICMs from ASC](https://supportability.visualstudio.com/AzureDataFactory/_wiki/wikis/AzureDataFactory/315079/How-to-raise-ICMs-from-ASC-)

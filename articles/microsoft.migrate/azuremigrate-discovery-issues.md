@@ -96,3 +96,7 @@ The discovery of installed applications is currently only supported for VMware V
 
 The application discovery is done without installing any agents or scripts on the machines and VMs. Server Assessment uses the Azure Migrate appliance to perform discovery using the machine credentials provided. The appliance remotely accesses machines using WMI and SSH.
 
+### **What are the privileges required to set up application discovery**
+
+Review the necessary prerequisites for app discovery [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-vmware#application-discovery).
+

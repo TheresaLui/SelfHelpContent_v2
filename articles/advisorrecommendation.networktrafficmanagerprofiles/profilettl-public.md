@@ -6,7 +6,7 @@
     articleId="d374a732-e69b-41dc-bbc2-a7234e2270be_Public"
     selfHelpType="advisorRecommendationMetadata"
     productPesIds="15400"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	  ownershipId="CloudNet_TrafficManager"
 />
 # Configure DNS Time to Live to 60 seconds
@@ -39,7 +39,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 4.0,
   "learnMoreLink": "https://aka.ms/Um3xr5",
   "description": "Configure DNS Time to Live to 60 seconds",
   "longDescription": "Time to Live (TTL) affects how recent of a response a client will get when it makes a request to Azure Traffic Manager. Reducing the TTL value means that the client will be routed to a functioning endpoint faster in the case of a failover. Configure your TTL to 60 seconds to route traffic to a health endpoint as quickly as possible.",
@@ -61,14 +61,30 @@
     "action": {
       "actionId": "75b83538-dfc6-4da9-94c1-9fc79fd3ebdb",
       "actionType": "Blade",
-      "extensionName": "Microsoft_Azure_Network",
-      "bladeName": "TrafficManagerBlade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}"
       }
     }
   },
   "displayLabel": "Configure Time to Live",
-  "additionalColumns": []
+  "additionalColumns": [],
+  "remediation": [
+    {
+      "httpMethod": "PATCH",
+      "uri": "{armEndpoint}{resourceId}?api-version=2018-04-01",
+      "actionId": "151f3e91-ccff-44b9-8e5c-6f8c4f796319",
+      "implication": null,
+      "documentationLink": "https://docs.microsoft.com/rest/api/trafficmanager/profiles/update",
+      "requestBody": {
+        "properties": {
+          "dnsConfig": {
+            "ttl": 60
+          }
+        }
+      }
+    }
+  ]
 }
 ---

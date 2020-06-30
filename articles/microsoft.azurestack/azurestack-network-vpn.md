@@ -22,7 +22,8 @@
 Create a site-to-site VPN to connect a virtual network in Azure Stack Hub to a virtual network in Azure or to an on-premises workload:
 
 1. First, review [VPN service differences on Azure Stack Hub](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
-1. Make sure the [gateway type is VPN for Azure Stack Hub](https://docs.microsoft.com/azure-stack/user/azure-stack-vpn-gateway-settings#vpn-gateway-settings)
+1. [Troubleshoot site-to-site VPN connections](https://docs.microsoft.com/azure-stack/user/azure-stack-vpn-gateway-settings)
+1. [Troubleshoot Network Virtual appliance (NVA) VPN connections](https://docs.microsoft.com/azure-stack/user/network-virtual-appliance)
 1. [Test the connection](https://docs.microsoft.com/azure/azure-stack/azure-stack-connect-vpn#test-the-connection)
 
 For sample configurations on 3rd party devices, see [VPN devices and IPsec/IKE parameters for Site-to-Site VPN Gateway connections](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices).

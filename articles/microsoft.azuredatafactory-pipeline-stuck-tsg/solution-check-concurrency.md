@@ -31,6 +31,6 @@ If the concurrency value is already set to a larger value, then the issue could 
 Try setting the concurrency limits for the tumbling window trigger. You may set value between 1 and 50 concurrent triggered pipeline runs.
 <!--/issueDescription-->
 
-## **Recommended Documents**
+**Recommended Documents**
 
 1. [Check concurrency](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities#pipeline-json)

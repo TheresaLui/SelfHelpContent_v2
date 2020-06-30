@@ -15,7 +15,7 @@
    ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# How to check if this run is in status "Queued"?
+# How to check if this run is in status Queued?
 
 Run the following Kusto Query to check the status of the Pipeline Runs: 
 

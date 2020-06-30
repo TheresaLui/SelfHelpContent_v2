@@ -23,7 +23,7 @@ Many times we see customers experiencing issues with the execution of the pipeli
 
 Refer to the following link to monitor pipeline run status: 
 
-## **Recommended Documents**
+**Recommended Documents**
 
 1. [Visually monitor Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/monitor-visually)
 

@@ -1,7 +1,7 @@
 <properties
 	pageTitle="CNAME mapping is missing"
 	description="CNAME mapping is missing"
-	service="Microsoft.Network/"
+	service="Microsoft.Network"
 	resource="Microsoft.Network/frontDoors"
 	authors="JRMayberry"
 	ms.author="rimayber"

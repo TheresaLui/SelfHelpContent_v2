@@ -5,7 +5,7 @@
     ms.author="aoaft"
     articleId="b83241d3-47ba-4603-8d5a-a1b3331e74f4_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureData_AzureSQLDB"
 />
 # Right-size underutilized SQL Databases
