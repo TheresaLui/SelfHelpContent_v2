@@ -7,11 +7,11 @@
 	ms.author="ansubram"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32743106,32743107"
+	supportTopicIds="32743107"
 	resourceTags=""
 	productPesIds="16505"
 	cloudEnvironments="public,fairfax, usnat, ussec"
-	articleId="32743107"
+	articleId="32743106"
 	ownershipId="StorageMediaEdge_DataBox"
 />
 
@@ -21,8 +21,8 @@
 
 ### Order is halted after a customer managed key error
 
-If you had used a customer managed key to encrypt the device unlock password and there was an issue with the key, check if it is recoverable. See [Troubleshooting errors] (https://docs.microsoft.com/azure/databox/data-box-customer-managed-encryption-key-portal#troubleshoot-errors) 
-In cases where recoverable, if access to the customer managed key has been restored, continue to log a support ticket with the order details.
+If you had used a customer managed key to encrypt the device unlock password and there was an issue with the key, check if it is recoverable. See [Troubleshooting errors](https://docs.microsoft.com/azure/databox/data-box-customer-managed-encryption-key-portal#troubleshoot-errors) 
+If access to the customer managed key has been restored, continue to log a support ticket so that the order can be unblocked.
 
 ## **Recommended Documents**
 
