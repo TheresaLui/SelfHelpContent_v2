@@ -13,7 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public" />
+cloudEnvironments="Public, fairfax, usnat, ussec" 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Application Gateway 502 Error: Certificate Invalid Insight
 

@@ -9,10 +9,11 @@
     articleId="694d1932-31de-4b5b-b393-22a52c75d533"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32615426"
+    supportTopicIds="32690724"
     resourceTags=""
-    productPesIds="16578"
-    cloudEnvironments="public"
+    productPesIds="16986"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+    ownershipId="AzureIdentity_RBAC"
 />
 
 # Azure Active Directory: Problems with RBAC role assignments

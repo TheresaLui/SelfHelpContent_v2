@@ -10,8 +10,9 @@
 	supportTopicIds="32612201"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="46c97f17-7adf-407a-88cc-60da6cbc8e04"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Machine Learning on Azure Databricks    

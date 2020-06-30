@@ -5,27 +5,24 @@
     resource="clusters"
     authors="ramakoni1"
     ms.author="deeptivu"
-    displayOrder=""
-    selfHelpType="Generic"
+    displayOrder="99"
+    selfHelpType="resource"
     supportTopicIds="32636451"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-slowerjobsorqueries"
+	ownershipId="AzureData_HDInsight"
 />
 # Slow HBase queries or jobs
 
-## **Recommended Documents**
+## **Recommended Steps**
 
-* [Server-side configuration tuning](https://docs.microsoft.com/azure/hdinsight/hbase/troubleshoot-hbase-performance-issues#server-side-config-tunings) to improve performance
+* Follow the performance tuning suggestions in [Troubleshoot Apache HBase performance issues on Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hbase/troubleshoot-hbase-performance-issues#server-side-config-tunings) to get optimal performance for your HBase queries
+* Implement accelerated writes to get 4 to 10-times faster writes. Accelerated writes uses Azure premium SSD managed disks to improve performance of the Apache HBase Write Ahead Log (WAL). For more information, see [Azure HDInsight Accelerated Writes for Apache HBase](https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-accelerated-writes).
+* Use a [Premium Block Blob Storage Account](https://azure.microsoft.com/blog/azure-premium-block-blob-storage-is-now-generally-available) as your remote storage to gain significant improvements in read operations. This option is available only if the Write Ahead Logs feature is enabled.
 
-* Did you know that Writes to Hbase would be 4 to 10x faster with our Accelerated Writes feature for Apache HBase in Azure HDInsight? Accelerated Writes uses Azure premium SSD managed disks to improve performance of the Apache HBase Write Ahead Log (WAL). To learn more about it please follow [Azure HDInsight Accelerated Writes for Apache HBase](https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-accelerated-writes)
+### Troubleshooting specific scenarios
 
-* Use [Premium Block Blob Storage Account](https://azure.microsoft.com/blog/azure-premium-block-blob-storage-is-now-generally-available) as your remote storage to gain significant improvement in read operations. This option is possible only if Write Ahead Logs feature is enabled.
-
-* [Troubleshoot Apache HBase performance issues on Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hbase/troubleshoot-hbase-performance-issues#server-side-config-tunings)
-
-### Troubleshooting specific scenario
-
-* [Timeouts with 'hbase hbck' command in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hbase/hbase-troubleshoot-timeouts-hbase-hbck)
-* [Restart operation on HBase Region Server fails to complete](https://hdinsight.github.io/hbase/hbase-regionserver-restart-failed.html)
+* If you are using the hbase hbck command and get timeout errors, see [Timeouts with 'hbase hbck' command in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hbase/hbase-troubleshoot-timeouts-hbase-hbck)
+* If your restart operation fails, see [Restart operation on HBase Region Server fails to complete](https://hdinsight.github.io/hbase/hbase-regionserver-restart-failed.html)

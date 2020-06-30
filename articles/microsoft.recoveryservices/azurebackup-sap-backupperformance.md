@@ -10,11 +10,13 @@
 	supportTopicIds="32690766"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="b1a8678e-227b-4df6-933e-bb0e6e75df75"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # When the SAP HANA backup has performance issues follow these troubleshooting steps 
+Use [Backup alerts](https://go.microsoft.com/fwlink/?linkid=2112848) to know more about the error that you are currently seeing.
 ## **Recommended Steps**
 - [Verify the prerequisites](https://go.microsoft.com/fwlink/?linkid=2109326)
 

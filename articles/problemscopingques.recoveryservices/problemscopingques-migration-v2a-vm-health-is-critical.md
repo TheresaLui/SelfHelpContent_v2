@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32680616"
          productPesIds="16370"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="9b342a85-0813-4b4d-b7d0-43639892e013"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions for My VM health is critical
 

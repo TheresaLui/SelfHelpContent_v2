@@ -5,12 +5,13 @@
 	resource="vaults"
 	authors="saurabhsensharma"
 	displayOrder="4"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32553287"
 	resourceTags=""
 	productPesIds="15207"
 	cloudEnvironments="MoonCake"
 	articleId="922bb97a-5ed2-44af-a953-bec1213aed57"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Recovery Services Agent installation or registration issues

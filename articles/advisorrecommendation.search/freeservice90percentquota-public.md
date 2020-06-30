@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="8d31f25f-31a9-4267-b817-20ee44f88069_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureSearch_AzureSearch"
 />
 # You are close to exceeding storage quota of 50MB
 ---
@@ -27,11 +28,11 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "csi-ux@microsoft.com",
+    "email": "azuresearch_contact@microsoft.com",
     "icm": {
       "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "service": "Azure Search",
+      "team": "Portal"
     },
     "serviceTreeId": "28d32201-d1ad-47ab-9a4a-3de2dcb6ea2a"
   },

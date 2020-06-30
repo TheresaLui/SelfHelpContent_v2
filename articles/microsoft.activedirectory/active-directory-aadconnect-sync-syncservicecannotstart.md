@@ -9,8 +9,9 @@
     supportTopicIds=""
     resourceTags="directory_ad_connect,directory_overview"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="21d7ffcc-3ebb-4063-8ebf-e28e3bfadbd8"
+	ownershipId="AzureIdentity_User"
 />
 
 # Cannot start Azure AD Connect Synchronization Service

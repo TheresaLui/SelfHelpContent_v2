@@ -11,8 +11,9 @@
     supportTopicIds="32612436"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
+    cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 	articleId="b14d2a39-2094-4a57-8645-7095056c5dd2"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Linux Agent/Cannot uninstall agent

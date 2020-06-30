@@ -10,8 +10,9 @@
     supportTopicIds="32640048"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="dc501f13-9441-4f1b-936f-4f399e5eea5d"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Azure Portal

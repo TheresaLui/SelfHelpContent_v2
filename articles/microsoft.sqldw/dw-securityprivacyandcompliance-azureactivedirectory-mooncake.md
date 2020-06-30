@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-securityprivacyandcompliance-azureactivedirectory-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Troubleshooting Azure Active Directory Authentication

@@ -4,7 +4,8 @@ description="Firewall Setting"
 infoBubbleText="Windows firewall service is not running in your VM preventing connectivity.  See details on the right."
 service="microsoft.compute"
 resource="virtualmachines"
-authors="manavis"
+authors="timbasham"
+ms.author="tibasham"
 displayOrder=""
 articleId="vmhealthsignal_16f84eeb-3655-45bb-a60d-2839f159fbf4"
 diagnosticScenario="Firewall Misconfigured"
@@ -12,7 +13,8 @@ selfHelpType="diagnostics"
 supportTopicIds="32411835"
 resourceTags="windows"
 productPesIds="14749"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Windows Firewall is not running
@@ -29,4 +31,4 @@ To resolve the issue, please try the steps below using the Azure virtual machine
   * If the service is hung with a status starting or stopping, try to stop the service `sc stop Mpssvc` and start it again using `sc start Mpssvc`
   * Once the service is started, set the service startup type to automatic by executing `sc config Mpssvc start= auto`
 
-If the service is not starting due to an error or an issue with a dependent process, a memory dump needs to be collected to continue troubleshooting. If this is the case for you, please email us with your approval to collect a memory dump of this VM and we will investigate further.  
+If the service is not starting due to an error or an issue with dependent processes, a memory dump needs to be collected to continue troubleshooting. 

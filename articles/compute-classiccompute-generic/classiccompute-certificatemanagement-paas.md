@@ -10,8 +10,9 @@
 	supportTopicIds="32553311"
 	resourceTags=""
 	productPesIds="13185"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="9b9288fc-ffe1-497f-96e1-3bd4553c23dd"
+	ownershipId="Compute_CloudServices_Content"
 />
 
 # Worker Role (PaaS) Configuration and Management/Certificate Management

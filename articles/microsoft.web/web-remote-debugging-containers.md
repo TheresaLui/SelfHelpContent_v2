@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32581620"
 	productPesIds="16333"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="73a9bee6-dfe2-4bec-8921-1bcd1bf64d1f"
+	ownershipId="Compute_AppService"
 />
 
 

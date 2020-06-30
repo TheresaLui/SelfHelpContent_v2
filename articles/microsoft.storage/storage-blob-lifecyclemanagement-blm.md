@@ -7,11 +7,12 @@ authors="annayak"
 ms.author="annayak"
 displayOrder=""
 selfHelpType="generic"
-supportTopicIds="32683730"
+supportTopicIds="32683730,32691086,32691087"
 resourceTags=""
-productPesIds="16459"
-cloudEnvironments="public, blackForest, fairfax, mooncake"
+productPesIds="16459,15629"
+cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 articleId="Troubleshoot_and_resolve_Blob_Lifecycle_Management_issues"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Troubleshoot and resolve lob Lifecycle Management issues

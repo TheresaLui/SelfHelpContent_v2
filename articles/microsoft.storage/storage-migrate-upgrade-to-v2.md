@@ -11,8 +11,9 @@
 	supportTopicIds="32602706"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="b9cdcbc6-1cd7-41e2-8246-e2e0334b92ad"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Upgrade to Azure Storage Account V2

@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="eefc117c-85ad-4f54-8d35-038e292cc41b"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Move Data to, from, or within Azure Storage

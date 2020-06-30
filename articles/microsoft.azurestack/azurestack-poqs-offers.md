@@ -10,8 +10,9 @@
     supportTopicIds="32629234"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-poqs-offers"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Manage Azure Stack Offers

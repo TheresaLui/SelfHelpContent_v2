@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640090"
 	productPesIds="16221"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-mysql-connectivity-maxlimit"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Database Connectivity - Server hit maximum connection limit
 ---

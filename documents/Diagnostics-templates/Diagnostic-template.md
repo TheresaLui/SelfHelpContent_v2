@@ -4,7 +4,6 @@
 	infoBubbleText="Diagnostic Template"
 	service=""
 	resource=""
-	authors=""
 	ms.author=""
 	displayOrder=""
 	articleId=""
@@ -14,6 +13,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments=""
+	ownershipId=""
 />
 
 # <-- This is the title of the solution. It is not displayed in the portal, however, an **H1** header is a required part of every file. -->

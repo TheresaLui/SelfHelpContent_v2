@@ -10,8 +10,9 @@
     supportTopicIds="32628805"
     resourceTags=""
     productPesIds="16556"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="50a61557-0235-480d-8abc-4e3295cb77bf"
+	ownershipId="CloudNet_AzureFirewall"
 />
 # Configure Automation
 

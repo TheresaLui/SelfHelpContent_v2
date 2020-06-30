@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="3acf1daa-ac94-43f1-8317-1a26771e363e"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # My cluster is not starting or nodes are not displaying

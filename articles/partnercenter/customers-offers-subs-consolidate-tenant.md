@@ -10,11 +10,12 @@
 	articleId="customer_offers_subs_consolidate_tenant"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635660"
+	supportTopicIds="32725884"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
 # Consolidate customer tenants
