@@ -1,4 +1,3 @@
-
 <properties
 	pageTitle="App Service"
 	description="App service"
