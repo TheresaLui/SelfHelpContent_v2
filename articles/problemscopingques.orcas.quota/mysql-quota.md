@@ -19,6 +19,7 @@
     "resourceRequired": false,
     "title": "MySQL-Quota",
     "fileAttachmentHint": "",
+    "quotaRequestVersion": "0.0",
     "formElements": [
         {
             "id": "quota_subtype",
