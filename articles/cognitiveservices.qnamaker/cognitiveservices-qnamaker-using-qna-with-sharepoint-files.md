@@ -19,12 +19,12 @@
 
 ### **Frequently asked questions**
 
-* **Are sharepoint files supported in QnA Maker?**<br>
+* **Are SharePoint files supported in QnA Maker?**<br>
 Yes. Add cloud-based SharePoint data sources to your knowledge base to enrich the knowledge base with questions and answers that may be secured with Active Directory.
 
-* **What are the sharepoint supported file types in QnA Maker?**<br>
-You can add all QnA Maker-supported [file types](https://docs.microsoft.com/azure/cognitive-services/qnamaker/concepts/content-types) from a SharePoint site to your knowledge base. You may have to grant [permissions](https://docs.microsoft.com/azure/cognitive-services/qnamaker/how-to/add-sharepoint-datasources#permissions), if the file resource is secured.
+* **What are the SharePoint supported file types in QnA Maker?**<br>
+You can add all QnA Maker supported [file types](https://docs.microsoft.com/azure/cognitive-services/qnamaker/concepts/content-types) from a SharePoint site to your knowledge base. You may have to grant [permissions](https://docs.microsoft.com/azure/cognitive-services/qnamaker/how-to/add-sharepoint-datasources#permissions) if the file resource is secured.
 
 ## **Recommended Documents**
 
-* [QnA Maker Sharepoint Datasources](https://docs.microsoft.com/azure/cognitive-services/qnamaker/how-to/add-sharepoint-datasources)
+* [QnA Maker SharePoint Data sources](https://docs.microsoft.com/azure/cognitive-services/qnamaker/how-to/add-sharepoint-datasources)
