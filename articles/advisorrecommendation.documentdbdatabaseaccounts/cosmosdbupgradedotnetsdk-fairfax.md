@@ -35,25 +35,28 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.5,
-  "learnMoreLink": "https://aka.ms/cosmosdb/sql-api-sdk-dotnet",
+  "version": 2.6,
+  "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-standard",
   "description": "Upgrade your Azure Cosmos DB .NET SDK to the latest version from Nuget",
   "longDescription": "Your Azure Cosmos DB account is using an old version of the .NET SDK. We recommend upgrading to the latest version from Nuget for latest fixes, performance improvements, and new feature capabilities.",
   "potentialBenefits": "Improved reliability, performance, and new feature capabilities",
   "displayLabel": "Upgrade your Azure Cosmos DB .NET SDK to the latest version from Nuget",
   "additionalColumns": [
     {
-      "name": "LatestVersion",
-      "title": "Latest Version"
+      "name": "RecommendedVersion",
+      "title": "Minimum Recommended Version"
+    },
+    {
+      "name": "CurrentVersion",
+      "title": "Current Version"
     }
   ],
-  "testData": "0b5e1089-df61-40f6-9c0c-8aed0ac76a35,/subscriptions/0b5e1089-df61-40f6-9c0c-8aed0ac76a35/resourceGroups/SupportabilityTest/providers/Microsoft.DocumentDB/databaseAccounts/supportabilitytest-ff,\"{\"\"LatestVersion\"\":\"\"2.5.0\"\"}\"",
   "actions": [
     {
       "actionId": "f73e70bf-eb0e-441c-b59d-c057612bd7e6",
       "description": "Upgrade your .NET SDK",
       "actionType": "Document",
-      "documentLink": "https://aka.ms/cosmosdb/sql-api-sdk-dotnet"
+      "documentLink": "https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-standard"
     }
   ],
   "resourceMetadata": {
