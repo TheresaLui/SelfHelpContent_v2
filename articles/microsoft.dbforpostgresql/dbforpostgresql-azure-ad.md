@@ -51,6 +51,6 @@ When connecting with Managed Identity, ensure the following:
 
 ## **Recommended Documents**
 
-* [Use Azure Active Directory for authenticating with PostgreSQL](https://docs.microsoft.com/en-us/azure/postgresql/howto-configure-sign-in-aad-authentication)
-* [Connect with Managed Identity to Azure Database for PostgreSQL](https://docs.microsoft.com/en-us/azure/postgresql/howto-connect-with-managed-identity)
+* [Use Azure Active Directory for authenticating with PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-configure-sign-in-aad-authentication)
+* [Connect with Managed Identity to Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/howto-connect-with-managed-identity)
 * [Using Azure Data Studio and Azure AD for connecting to Azure Database for PostgreSQL](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/new-simpler-way-to-sign-in-to-azure-database-for-postgresql/ba-p/1247272)

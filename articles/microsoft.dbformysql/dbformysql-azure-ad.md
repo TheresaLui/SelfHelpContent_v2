@@ -51,5 +51,5 @@ When connecting with Managed Identity, ensure the following:
 
 ## **Recommended Documents**
 
-* [Use Azure Active Directory for authenticating with MySQL](https://docs.microsoft.com/en-us/azure/mysql/howto-configure-sign-in-azure-ad-authentication)
-* [Connect with Managed Identity to Azure Database for MySQL](https://docs.microsoft.com/en-us/azure/mysql/howto-connect-with-managed-identity)
+* [Use Azure Active Directory for authenticating with MySQL](https://docs.microsoft.com/azure/mysql/howto-configure-sign-in-azure-ad-authentication)
+* [Connect with Managed Identity to Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/howto-connect-with-managed-identity)
