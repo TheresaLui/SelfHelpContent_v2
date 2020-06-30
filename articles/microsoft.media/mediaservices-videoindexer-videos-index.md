@@ -33,7 +33,7 @@ Once your video has been uploaded, Video Indexer (optionally) encodes the video.
 * The request URL length is limited to 6144 characters where the query string URL length is limited to 4096 characters .
 * The upload size with the byte array option is limited to 2GB.
 * The byte array option times out after 30 min.
-* The URL provided in the videoURL param needs to be encoded.
+* The URL provided in the "videoURL" parameter needs to be encoded.
 * Indexing Media Services assets has the same limitation as indexing from URL.
 * Video Indexer has a max duration limit of 4 hours for a single file.
 * The URL needs to be accessible (for example a public URL). If it is a private URL, the access token need to be provided in the request.

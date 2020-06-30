@@ -19,7 +19,7 @@
 
 # Custom models in Video Indexer
 
-Video Indexer allows you to customize some of its models to be adapted to your specific use case. These models include persono, brands, language, and animation. You can easily customize these models using the Video Indexer website or API.
+Video Indexer allows you to customize some of its models to be adapted to your specific use case. These models include person, brands, language, and animation. You can easily customize these models using the Video Indexer website or API.
 
 ## **Recommended Documents**
 
