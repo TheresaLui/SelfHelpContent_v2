@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Performance/SQL Server Performance Best Practices"
 	description="Performance/SQL Server Performance Best Practices"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""

@@ -177,6 +177,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "20e98c4a-ad27-441f-a4f1-ba5641b207d7",
+      "longDescription": "",
+      "shortDescription": "Issues where SQL Server performance is lower than expected in an Azure Virtual Machine",
+      "searchTags": "Performance;VM;SQL;SQL Server",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "240605e1-1510-255d-b490-cb95f582b1dc",
       "longDescription": null,
       "shortDescription": "Resolve errors with disks when starting or stopping a virtual machine",
@@ -311,6 +319,14 @@
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "49c6557e-46fa-ad0f-c980-4e3ce0b93089",
+      "longDescription": "",
+      "shortDescription": "Issue with licenses for Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "4af02697-cd73-222d-c180-4ff928f26312",
@@ -481,6 +497,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "615cba4d-560a-c720-5034-9b745b9a9a7f",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to connectivity using Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "618d9f4b-5418-7c9b-2fb5-8075eb937a32",
       "longDescription": null,
       "shortDescription": "Requests to manage a Windows virtual machine running in Azure including client licenses",
@@ -537,6 +561,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "6fa2b14c-d769-1357-43f0-7c1d3d34b4f8",
+      "longDescription": "",
+      "shortDescription": "Assistance with the management of Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6fddc208-ceac-8c83-a5a9-4cc00dae14be",
       "longDescription": null,
       "shortDescription": "Azure Backup is encountering a failure when restoring your virtual machine using Azure Backup",
@@ -559,6 +591,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "761c2072-db63-b5a4-d038-9cf7bb03cf86",
+      "longDescription": "",
+      "shortDescription": "Need assistance with the configuration of Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "773b125f-f9a8-f282-abe3-051d8ffe0f26",
@@ -761,6 +801,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "9c28c4c9-db23-c7e7-1edc-3e5abca575dd",
+      "longDescription": "",
+      "shortDescription": "Covers issues with the management of Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9cbf3cf0-08ae-c0ee-838d-0e478fd1db59",
       "longDescription": null,
       "shortDescription": "Assistance with deploying a virtual machine with managed disks",
@@ -799,6 +847,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "a632159c-a15a-62dd-0420-73c273e43e02",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to deploying Azure Window Virtual Desktop",
+      "searchTags": "WVD;Windows Virtual Desktop;Desktop;Remote Desktop;RDS",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "aaa925f8-bbc6-997b-e8e2-35d9b6c78b2b",

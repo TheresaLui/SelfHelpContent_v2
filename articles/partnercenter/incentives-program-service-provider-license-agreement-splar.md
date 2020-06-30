@@ -32,7 +32,6 @@ These resources explain enrollment, eligibility, earnings, payments, and policy 
 
 ### **Payments**
 * [Identifying the program associated with a CHIP payment](https://support.microsoft.com/help/4483767/how-do-i-identify-which-incentive-program-a-payment-i-received-is-for)
-* [SAM Payment status in CHIP](https://support.microsoft.com/help/2952898/sam-payment-status-in-chip)
 
 
 ### **Still need help?**

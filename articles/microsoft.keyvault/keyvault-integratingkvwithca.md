@@ -18,6 +18,7 @@
 # Integrating Key vault with Certificate Authority
 ## **Recommended Steps**
 
+* [Integrating Key Vault with DigiCert Certificate Authority](https://docs.microsoft.com/azure/key-vault/certificates/how-to-integrate-certificate-authority)
 * [Monitor and manage certificate creation](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-scenarios)
 
 
@@ -30,6 +31,10 @@
 * New certificates show up in a disabled state, why?
 
 	The certificate status changes after the CA signs the request. Check the progress after sometime, if it is never enabled, then it is likely that your request failed or was rejected by the CA.
+
+* How to autorotate DigiCert Certificates?
+
+	This would require you to add DigiCert to **Certificate Authorities** list. For the imported certificate, modify the **issuance policy** and **select CA** to be DigiCert. Modify the Lifetime action to **enable Auto-renewal**.
 
 ## **Recommended Documents**
 

@@ -1,8 +1,8 @@
 <properties
 	pageTitle="alwayson hadr/sql server replication"
 	description="alwayson hadr/sql server replication"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"
     authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""

@@ -19,13 +19,13 @@
 
 When only one of the VPN gateways is connected in an Active Active configuration, point to site clients may fail to reach destination.
 
-##Recommended Steps
+## Recommended Steps
 
 1. In the Azure portal, click 'All Resources' and navigate to your **Virtual Network Gateway**.
 2. On the blade for your virtual network gateway, click **Connections**. You can see the status of each connection.
 
 ***Notice***: By design the Azure Vpn Gateway will try to connect both connections. If only one is established, it may mean that the on-premises device is misconfigured/refusing the connection.
 
-##Recommended Documents
+## Recommended Documents
 
 1. [Verify a VPN Gateway connection](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-verify-connection-resource-manager)
