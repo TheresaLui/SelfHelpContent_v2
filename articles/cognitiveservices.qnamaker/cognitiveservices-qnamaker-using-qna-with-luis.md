@@ -20,7 +20,7 @@
 ### **Frequently asked questions**
 
 * **When to use LUIS?**<br>
-Use LUIS when you need to know the intention of the utterance as part of a process in the chat bot. you can read more about it [here](https://docs.microsoft.com/azure/cognitive-services/qnamaker/choose-natural-language-processing-service#when-do-you-use-luis)
+Use LUIS when you need to know the intention of the utterance as part of a process in the chat bot. You can read more about it [here](https://docs.microsoft.com/azure/cognitive-services/qnamaker/choose-natural-language-processing-service#when-do-you-use-luis)
 
 * **When to use QnA Maker?**<br>
 Use QnA Maker when you have a static knowledge base of answers. This knowledge base is custom to your needs, which you've built with documents such as PDFs and URLs. Checkout [here](https://docs.microsoft.com/azure/cognitive-services/qnamaker/choose-natural-language-processing-service#when-do-you-use-qna-maker)
