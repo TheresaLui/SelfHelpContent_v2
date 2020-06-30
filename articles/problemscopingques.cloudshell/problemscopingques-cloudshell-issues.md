@@ -1,5 +1,6 @@
 <properties
-	pageTitle="Issues related to Azure Cloud Shell"
+	articleId="problemscopingques-cloudshell-issues.md"
+    pageTitle="Issues related to Azure Cloud Shell"
 	description="Issues related to Azure Cloud Shell"
 	service="microsoft.cloudshell"
 	authors="apclouds"
@@ -7,9 +8,8 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32584384,32584385,32592920,32584386,32589452,32584387,32584388,32584389"
 	productPesIds="16304"
-    schemaVersion="1"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="problemscopingques.cloudshell-issues.md"
+    schemaVersion="1"
 	ownershipId="Azure_Cloud_Shell_Content"
 />
 # Cloud Shell Issues
