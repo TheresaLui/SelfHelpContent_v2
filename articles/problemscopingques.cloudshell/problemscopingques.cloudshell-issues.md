@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Problems related to Azure Cloud Shell (BASH / Powershell)"
-	description="Problems related to Azure Cloud Shell (BASH / Powershell)"
+	pageTitle="Issues related to Azure Cloud Shell (BASH / Powershell)"
+	description="Issues related to Azure Cloud Shell (BASH / Powershell)"
 	service="microsoft.cloudshell"
 	authors="apclouds"
 	ms.author="angperez"
