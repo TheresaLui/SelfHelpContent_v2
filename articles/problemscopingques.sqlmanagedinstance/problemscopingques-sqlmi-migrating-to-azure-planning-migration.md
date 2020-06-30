@@ -118,8 +118,8 @@
             "infoBalloonText": "Choose the DB engine source location",
 	          "dropdownOptions": [
                 {
-                    "value": "onpremise",
-                    "text": "On-premise"
+                    "value": "onpremises",
+                    "text": "On-premises"
                 },
                 {
                     "value": "azure",
@@ -131,7 +131,7 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Don't know the answer, several engines or not listed"
+                    "text": "Don't know the answer, several locations"
                 }
             ],
             "required": false
