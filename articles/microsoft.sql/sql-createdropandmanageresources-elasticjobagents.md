@@ -19,6 +19,12 @@
 ## **Recommended Steps**
 
 * [Create and manage Elastic Job agents in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool-manage?WT.mc_id=pid:13491:sid:32630419/)
+* If you are experiencing a restriction with creating Job agents and you are seeing an error similar to
+`The Job agent could not be created because it would exceed the maximum Job agent quota of 5 for your subscription in the selected region`, 
+feel free to continue creating this ticket as a request to bump up your Job agent quota.
+* If you are experiencing Job step timeouts with your ongoing Job executions, make sure you try bumping up your job step's timeout values such as `step_timeout_seconds`, `retry_attempts`, and `retry_interval_backoff_multiplier`.
+	* See [sp_update_jobstep](https://docs.microsoft.com/azure/azure-sql/database/elastic-jobs-tsql-create-manage#sp_update_jobstep) T-SQL documentation or [Set-AzSqlSqlElasticJobStep](https://docs.microsoft.com/powershell/module/az.sql/Set-AzSqlElasticJobStep) for PowerShell documentation for more details on how to update step retry or timeout settings for your Job step.
+* If you are seeing an increase in your Job database storage size due to Job execution history taking up space, you can use the [sp_purge_job_history](https://docs.microsoft.com/azure/azure-sql/database/elastic-jobs-tsql-create-manage#delete-old-job-history) to cleanup more job history prior to a certain date. By default, the Jobs service retains job execution history of 45 days.
 
 ## **Recommended Documents**
 

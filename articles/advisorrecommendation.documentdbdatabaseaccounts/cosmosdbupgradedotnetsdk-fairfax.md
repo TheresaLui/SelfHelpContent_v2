@@ -16,9 +16,10 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "7632ec99-ea15-4a40-be58-81168381b665",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://cdbfairfax.kusto.usgovcloudapi.net').database('LiveSite').OldDotNetSDK",
     "dataSource": "Kusto",
-    "refreshInterval": "0.12:00:00"
+    "streamNamespace": "cluster('https://cdbfairfax.kusto.usgovcloudapi.net').database('LiveSite').OldDotNetSDK",
+    "refreshInterval": "0.12:00:00",
+    "schemaVersion": 3.0
   },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
@@ -34,7 +35,7 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.0,
+  "version": 1.5,
   "learnMoreLink": "https://aka.ms/cosmosdb/sql-api-sdk-dotnet",
   "description": "Upgrade your Azure Cosmos DB .NET SDK to the latest version from Nuget",
   "longDescription": "Your Azure Cosmos DB account is using an old version of the .NET SDK. We recommend upgrading to the latest version from Nuget for latest fixes, performance improvements, and new feature capabilities.",
@@ -46,6 +47,7 @@
       "title": "Latest Version"
     }
   ],
+  "testData": "0b5e1089-df61-40f6-9c0c-8aed0ac76a35,/subscriptions/0b5e1089-df61-40f6-9c0c-8aed0ac76a35/resourceGroups/SupportabilityTest/providers/Microsoft.DocumentDB/databaseAccounts/supportabilitytest-ff,\"{\"\"LatestVersion\"\":\"\"2.5.0\"\"}\"",
   "actions": [
     {
       "actionId": "f73e70bf-eb0e-441c-b59d-c057612bd7e6",
@@ -58,8 +60,8 @@
     "action": {
       "actionId": "40731314-8a80-4229-9e17-8250a7921987",
       "actionType": "Blade",
-      "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
+      "extensionName": "Microsoft_Azure_DocumentDB",
+      "bladeName": "DatabaseAccountTemplateBladeForGlobalDb",
       "metadata": {
         "id": "{resourceId}"
       }

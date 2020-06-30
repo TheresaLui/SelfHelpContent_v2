@@ -10,11 +10,11 @@
 	articleId="marketplace_container_certification_issues"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689333"
+	supportTopicIds="32728086"
 	resourceTags="marketplace"
-	productPesIds="15960"
+	productPesIds="17009"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Offer_Certification"
 />
 
 # Containers - certification

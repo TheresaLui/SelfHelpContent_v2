@@ -28,7 +28,3 @@ There is a known Routing and Remote Access issue for which point to site SSTP cl
 ## **Recommended Documents**
 
 1. [Windows OS Work item for SSTP bug](https://microsoft.visualstudio.com/OS/_workitems/edit/21097365)
-
-Did this solve the issue?
-Yes --> Solution
-No --> Escalate

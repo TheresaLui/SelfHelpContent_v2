@@ -1,8 +1,8 @@
 <properties
     pageTitle="Clustering technologies"
     description="Clustering technologies"
-    service="microsoft.compute"
-    resource="virtualmachines"
+    service="Microsoft.SqlVirtualMachine"
+    resource="SqlVirtualMachines"
     ms.author="ujpat,vadeveka,amamun"   
     authors="ujpat,vadeveka,AbdullahMSFT"
     displayOrder=""
@@ -10,7 +10,7 @@
     supportTopicIds="32740075"
     resourceTags="windowsSQL"
     productPesIds="16342"
-    cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
+    cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
     articleId="f57ac583-97a5-4dba-b3bc-df6ca8b9133c"
     ownershipId="AzureData_AzureSQLVM"
 />

@@ -10,11 +10,11 @@
 	articleId="marketplace_d365offerpreview"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689417, 32689418, 32689419"
+	supportTopicIds="32728108,32728121,32728134"
 	resourceTags="marketplace"
-	productPesIds="15960"
+	productPesIds="17006"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # D365 offer preview deflection

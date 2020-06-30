@@ -10,12 +10,12 @@
 	articleId="partnercenter_mpn_update_tax_ID"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635702"
+	supportTopicIds="32725825"
 	clientIds='partnercenter'
 	resourceTags="mpn"
-	productPesIds="15960"
+	productPesIds="17003"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Update tax ID/VAT ID
 

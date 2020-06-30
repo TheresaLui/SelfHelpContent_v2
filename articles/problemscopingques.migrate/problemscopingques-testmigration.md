@@ -16,8 +16,8 @@
 
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Test Migration",
     "fileAttachmentHint": "",
     "formElements": [
