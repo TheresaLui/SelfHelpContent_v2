@@ -23,7 +23,7 @@ To access the administrator portal, you only need to go the portal URL and sign 
 
 If the portal is unavailable, and no type of patch, update, or field replacement is in progress, you can run the following command to remediate the problem:
 
-```powershell
+```
 Test-AzureStack -Repair -Include AzsPortalAPISummary
 ```
 
