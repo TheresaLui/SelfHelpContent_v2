@@ -18,7 +18,7 @@
 # Configure SSL and Authentication/Trusted Root Certificates
 ***SSL Offload*** and ***End to End SSL*** requires an [SSL certificate in the PFX format](https://docs.microsoft.com/azure/application-gateway/self-signed-certificates) on the HTTPS listener. On the V2 SKU, you have the option to [use KeyVault](https://docs.microsoft.com/azure/application-gateway/key-vault-certs) to refer to your certificates on the listener.
 <br><br>
-***To perform end to end SSL termination***, Application Gateway requires the [backend instances to be whitelisted](https://docs.microsoft.com/azure/application-gateway/certificates-for-backend-authentication) by uploading authentication/trusted root certificates. In case of v1 SKU, authentication certificates are required whereas in case of v2 SKU, trusted root certificates are required for whitelisting the certificates
+***To perform end to end SSL termination***, Application Gateway requires the [backend instances to be whitelisted by uploading authentication/trusted root certificates](https://docs.microsoft.com/azure/application-gateway/certificates-for-backend-authentication). In case of v1 SKU, authentication certificates are required whereas in case of v2 SKU, trusted root certificates are required for whitelisting the certificates
 
 
 ## **Recommended Documents**
