@@ -55,7 +55,7 @@
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
                 "jTokenPath":"value",
                 "textProperty":"displayName",
-                "ValueProperty":"displayName",
+                "ValueProperty":"name",
                 "valuePropertyRegex": ".*",
                 "defaultDropdownOptions": {
                     "value": "dont_know_answer",
