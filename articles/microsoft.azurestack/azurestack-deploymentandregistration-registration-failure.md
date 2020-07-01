@@ -21,14 +21,6 @@ Registering Azure Stack with Azure allows you to download marketplace items from
 
 If you encounter registration issues, check for known issues in [Azure Stack Registration failures](hhttps://docs.microsoft.com/azure-stack/operator/azure-stack-registration?view=azs-2002&pivots=state-disconnected#registration-failures)
 
-Add a table for Connected vs Disconnected 
-
-Move this to the top 'If you encounter registration issues, check for known issues in Azure Stack Registration failures' 
-
-'Add guidance for Operators to make sure they have the right subscription' 
-
-'Make sure you run Readiness checker' 
-
 
 ## **Recommended Steps**
 
