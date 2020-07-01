@@ -106,7 +106,7 @@
             ],
             "infoBalloonText": "We would love your feedback on how useful the logs are for troubleshooting.",
             "required": false
-        },
+        }
     ],
     "$schema": "SelfHelpContent"
 }
