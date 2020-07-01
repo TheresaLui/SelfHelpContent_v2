@@ -85,7 +85,7 @@
             "watermarkText": "Example: Restarted provisioning before creating support case. Reviewed documentation.",
             "required": false
         },
-         {
+        {
             "id": "provisioning_logs_feedback",
             "order": 8,
             "controlType": "dropdown",
