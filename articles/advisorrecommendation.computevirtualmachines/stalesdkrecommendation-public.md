@@ -38,15 +38,15 @@
   "supportedSDKLanguages": [".Net", "Java", "JavaScript", "Python"],
   "actions": [{
                     "actionId": "0a71357b-bf25-439e-8e69-6bc1538279ae",
-                    "description": "Upgrade to the recommended {language} SDK version, {version}",
+                    "description": "Upgrade your current {language} SDK to the latest version, {version}",
                     "actionType": "Document",
-                    "documentLink": "{releaseNotes}"
+                    "documentLink": "{recommendedActionLearnMore}"
           },
           {
                     "actionId": "11941fbb-2321-4a49-a34d-25c007404331",
-                    "description": "View details to update to the latest SDK version",
+                    "description": "Learn more about the latest {language} SDK {version}",
                     "actionType": "Document",
-                    "documentLink": "{recommendedActionLearnMore}"
+                    "documentLink": "{releaseNotes}"
           }],
   "dataSourceMetadata":
           {
