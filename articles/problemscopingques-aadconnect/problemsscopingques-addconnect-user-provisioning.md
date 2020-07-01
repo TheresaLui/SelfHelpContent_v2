@@ -29,7 +29,7 @@
             "id": "jobIdentifier",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "Job ID",
+            "displayLabel": "Job ID (Unique identifier for your provisioning job, found in the progress bar):",
             "watermarkText": "Example: serviceNow.5547032d9415500cb27b277e3fb6f2c8.5aaf8326-b305-4b63-aa55-0990eb3265f5",
             "infoBalloonText": "Unique identifier for your provisioning job, found in the progress bar.",
             "required": false,
