@@ -19,6 +19,25 @@
     "title": "Action rule is not working as expected",
     "fileAttachmentHint": "Please upload screenshots of all relevant details from the Azure portal.  Include any additional information which may help the support engineer troubleshoot your issue.",
     "formElements": [
+                {
+            "id": "action_group_id",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Select the impacted Action Rule resource.",
+            "watermarkText": "Choose an action rule",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/providers/microsoft.alertsmanagement/actionRules?api-version=2019-05-05-preview",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "Unable to get the list of Action rules",
+                    "text": "Unable to get the list of Action rules"
+                }
+            },
+            "required": true
+        },
         {
             "id": "problem_start_time",
             "order": 2,
