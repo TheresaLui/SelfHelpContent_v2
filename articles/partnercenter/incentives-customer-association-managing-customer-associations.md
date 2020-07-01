@@ -43,6 +43,7 @@ Below are the reasons why your claim status might be **Partner Action Required**
 
 
 **How do I edit my CPOR association claim?**
+
 You have the ability to edit specific fields in your CPOR association claim. You may be asked to remove product(s)/workload(s) if the reviewers provide guidance that the PoE submitted is insufficient. In order to edit, your CPOR association claim must be in Submitted or Partner Action Required states. 
 Fields you may edit:
 * MPN
@@ -51,15 +52,22 @@ Fields you may edit:
 * Add additional PoE and commentary 
 
 **How do I dispute a CPOR association claim status?**
-Submit a support request in Partner Center and provide the support team the following information:
 
-* MPN ID
-* Incentive Program Name 
-* CPOR association claim ID 
-* Product: For Business Applications, provide the Dynamics products and subscriptions. For M365, provide workloads. 
-* Customer Tenant ID
-* Details of the issue
+If your CPOR association is rejected, you have 30 days to dispute the rejection. The email you receive notifying you of the rejection also tells you where you can view the reason for rejection, and how to dispute it.  
+
+If 30 days have passed and you still want to dispute a rejected claim, you’ll need to submit a new association with your updated Proof of Execution (POE). 
+
+**To dispute a rejected claim:**
+1. Sign into the [Partner Center dashboard](https://partner.microsoft.com/dashboard/).
+2. Open the claim that you want to dispute.
+3. On the claim page, select **Dispute**.
+4. Enter a business justification and/or an updated PoE explaining why the rejection should be reconsidered. 
+5. When you’re finished adding information, select **Dispute**. Our reviewers should contact you with results within 5 working days.
 
 
 ## **Recommended Documents**
 * [Create a customer association using CPOR](https://docs.microsoft.com/partner-center/submit-osa-claim)
+* [Manage customer associations](https://docs.microsoft.com/partner-center/incentives-manage-customer-associations
+)
+* [Customer association issues](https://docs.microsoft.com/partner-center/incentives-customer-association-issues
+)
