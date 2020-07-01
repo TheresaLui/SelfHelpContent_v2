@@ -19,7 +19,7 @@
 
 Registering Azure Stack with Azure allows you to download marketplace items from Azure and to set up commerce data reporting back to Microsoft. After you register Azure Stack, usage is reported to Azure commerce and you can see it under the subscription used for registration.
 
-If you encounter registration issues, check for known issues in [Azure Stack Registration failures](hhttps://docs.microsoft.com/azure-stack/operator/azure-stack-registration?view=azs-2002&pivots=state-disconnected#registration-failures)
+If you encounter registration issues, check for known issues in [Azure Stack Registration failures](https://docs.microsoft.com/azure-stack/operator/azure-stack-registration?view=azs-2002&pivots=state-disconnected#registration-failures)
 
 
 ## **Recommended Steps**
