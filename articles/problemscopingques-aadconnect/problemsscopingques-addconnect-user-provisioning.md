@@ -40,7 +40,7 @@
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "DescriptionTest",
+            "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
@@ -92,18 +92,19 @@
             "displayLabel": "Provisioning logs feedback",
             "dropdownOptions": [
                 {
-                    "value": "Logs missing",
-                    "text": "Logs missing"
+                    "value": "Logs are missing",
+                    "text": "Logs are missing"
                 },
                 {
-                    "value": "Logs available and unclear",
-                    "text": "Logs available and unclear"
+                    "value": Logs are available and unclear",
+                    "text": "Logs are available and unclear"
                 },
                 {
-                    "value": "Not applicable to scenario",
-                    "text": "Not applicable to scenario"
+                    "value": "Not applicable to support case",
+                    "text": "Not applicable to support case"
                 }
             ],
+            "infoBalloonText": "We would love your feedback on how useful the logs are for troubleshooting.",
             "required": false
         },
     ],
