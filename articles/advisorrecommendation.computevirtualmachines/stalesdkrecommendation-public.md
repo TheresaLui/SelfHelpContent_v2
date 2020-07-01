@@ -34,7 +34,7 @@
   "longDescription": "We have identified operations under this subscription using outdated SDK versions. We recommend switching to the latest SDK version, which might involve changes to your existing codebase, to obtain improved security and performance.",
   "potentialBenefits": "Improved security, performance, data resiliency, and support for new features.",
   "displayLabel": "Update your current SDK version to the most recent version",
-  "tip": "Regularly update your SDK versions to prevent security issues and access new features.",
+  "tip": "Regularly update your SDK versions to prevent security issues and access new features. Edit",
   "supportedSDKLanguages": [".Net", "Java", "JavaScript", "Python"],
   "actions": [{
                     "actionId": "0a71357b-bf25-439e-8e69-6bc1538279ae",
