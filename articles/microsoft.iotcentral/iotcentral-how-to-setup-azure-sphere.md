@@ -18,6 +18,6 @@
 
 ## **Recommended Documents**
 
-* [Connect an Azure Sphere device to your Azure IoT Central application](https://docs.microsoft.com/en-us/azure/iot-central/core/howto-connect-sphere)
-* [Set up Azure IoT Central to work with Azure Sphere](https://docs.microsoft.com/en-us/azure-sphere/app-development/setup-iot-central)
+* [Connect an Azure Sphere device to your Azure IoT Central application](https://docs.microsoft.com/azure/iot-central/core/howto-connect-sphere)
+* [Set up Azure IoT Central to work with Azure Sphere](https://docs.microsoft.com/azure-sphere/app-development/setup-iot-central)
 

@@ -18,5 +18,5 @@
 
 ## **Recommended Documents**
 
-* [Understand and use Azure IoT Hub SDKs](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-sdks)
+* [Understand and use Azure IoT Hub SDKs](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-sdks)
 

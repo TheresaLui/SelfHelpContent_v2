@@ -18,6 +18,6 @@
 
 ## **Recommended Documents**
 
-* [Get connected to Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/core/concepts-get-connected)
-* [Monitor device connectivity using Azure CLI](https://docs.microsoft.com/en-us/azure/iot-central/core/howto-monitor-devices-azure-cli)
-* [Connect Azure IoT Edge devices to an Azure IoT Central application](https://docs.microsoft.com/en-us/azure/iot-central/core/concepts-iot-edge)
+* [Get connected to Azure IoT Central](https://docs.microsoft.com/azure/iot-central/core/concepts-get-connected)
+* [Monitor device connectivity using Azure CLI](https://docs.microsoft.com/azure/iot-central/core/howto-monitor-devices-azure-cli)
+* [Connect Azure IoT Edge devices to an Azure IoT Central application](https://docs.microsoft.com/azure/iot-central/core/concepts-iot-edge)

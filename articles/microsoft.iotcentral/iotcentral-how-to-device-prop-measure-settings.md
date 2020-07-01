@@ -18,5 +18,5 @@
 
 ## **Recommended Documents**
 
-* [Devices - Update Properties](https://docs.microsoft.com/en-us/rest/api/iotcentral/devices/updateproperties)
-* [Define a new IoT device type in your Azure IoT Central application](https://docs.microsoft.com/en-us/azure/iot-central/core/howto-set-up-template)
+* [Devices - Update Properties](https://docs.microsoft.com/rest/api/iotcentral/devices/updateproperties)
+* [Define a new IoT device type in your Azure IoT Central application](https://docs.microsoft.com/azure/iot-central/core/howto-set-up-template)

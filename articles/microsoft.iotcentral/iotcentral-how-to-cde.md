@@ -18,7 +18,7 @@
 
 ## **Recommended Documents**
 
-* [Export IoT data to destinations in Azure](https://docs.microsoft.com/en-us/azure/iot-central/core/howto-export-data)
-* [Set up continuous data export from Azure IoT Central to a Power BI appe](https://docs.microsoft.com/en-us/learn/modules/continuously-export-data-from-iot-central-power-bi/)
-* [Continuous Data Exports - Get](https://docs.microsoft.com/en-us/rest/api/iotcentral/continuousdataexports/get)
+* [Export IoT data to destinations in Azure](https://docs.microsoft.com/azure/iot-central/core/howto-export-data)
+* [Set up continuous data export from Azure IoT Central to a Power BI appe](https://docs.microsoft.com/learn/modules/continuously-export-data-from-iot-central-power-bi/)
+* [Continuous Data Exports - Get](https://docs.microsoft.com/rest/api/iotcentral/continuousdataexports/get)
 
