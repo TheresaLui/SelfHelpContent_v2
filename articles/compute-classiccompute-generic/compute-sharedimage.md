@@ -9,8 +9,9 @@
 	supportTopicIds="32615272,32615273,32615274,32615275"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="66a91fe5-1c4c-4a74-8831-8e680171ccf6"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Shared Image Gallery

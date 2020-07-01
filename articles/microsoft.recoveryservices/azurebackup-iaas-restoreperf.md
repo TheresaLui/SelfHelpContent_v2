@@ -10,8 +10,9 @@
 	supportTopicIds="32612998"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="7041fa01-a626-4d0d-ad8c-064952896cf9"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Virtual Machine Restore Performance

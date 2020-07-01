@@ -1,6 +1,6 @@
 <properties
-	pageTitle="ASC/Pending Verification for Fraud Protection"
-	description="ASC/Pending Verification for Fraud Protection"
+	pageTitle="ASC/Pending Verification due to Fraud Protection"
+	description="ASC/Pending Verification due to Fraud Protection"
 	service="microsoft.asc"
 	resource="asc"
 	ms.author="shrahman"
@@ -10,11 +10,12 @@
 	supportTopicIds="32604396"
 	resourceTags=""
 	productPesIds="16512"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="fdccae2e-f103-4a82-be97-33f6cc3a7658"
+	ownershipId="Compute_AppService"
 />
 
-# ASC/Pending Verification for Fraud Protection
+# ASC/Pending Verification due to Fraud Protection
 
 ## **Recommended Steps**
 

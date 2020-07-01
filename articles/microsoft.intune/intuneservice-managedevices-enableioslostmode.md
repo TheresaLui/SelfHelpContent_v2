@@ -9,8 +9,9 @@
 	supportTopicIds="32599630"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="6b326dd7-b7d0-4b61-adc5-0c5c04f4b896"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Devices - Enable iOS Lost Mode

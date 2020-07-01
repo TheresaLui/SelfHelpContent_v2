@@ -1,11 +1,11 @@
 <properties
     pageTitle=""
     description=""
-    authors=""
     ms.author=""
     articleId=""
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments=""
+    ownershipId=""
 />
 # Sample title
 ---

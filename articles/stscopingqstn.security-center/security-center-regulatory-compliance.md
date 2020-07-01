@@ -2,14 +2,15 @@
     pageTitle="Azure Security Center Regulatory Compliance Common Solutions"
     description="Azure Security Center Regulatory Compliance Common Solutions"
     authors="genlin, v-miegge"
-    ms.author="jaserano"
+    ms.author="jaserano, kawilson"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636903"
+    supportTopicIds="32693246"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="a15f057d-9001-8910-a98a-dfaf3843dc2f"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center Regulatory Compliance Common Solutions 
@@ -50,7 +51,10 @@ The compliance dashboard surfaces security assessments and recommendations as th
 ## **Recommended Documents**
 
 * [Azure Security Center Compliance Dashboard](https://docs.microsoft.com/azure/security-center/security-center-compliance-dashboard)<br>
+* [Azure Security Center Using Custom Security Policies](https://docs.microsoft.com/azure/security-center/custom-security-policies)
+<br>
 * [Azure Security Center Pricing Tiers](https://docs.microsoft.com/azure/security-center/security-center-pricing)
+
 
 ### Troubleshooting
 

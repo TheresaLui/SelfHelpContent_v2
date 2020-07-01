@@ -7,9 +7,10 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32444083"
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="793d003c-aff7-4810-9edf-8bbeccf38e7c"
+	ownershipId="Compute_AppService"
 />
 
 # PHP

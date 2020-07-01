@@ -5,10 +5,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570261"
     productPesIds="14785,16575"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="32aa0b19-fee7-4350-af1c-9dffba151bd6"
-    />
+    	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
+/>
 
 # Active Directory application dev development issue
 

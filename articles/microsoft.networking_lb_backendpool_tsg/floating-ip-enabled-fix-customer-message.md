@@ -13,7 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds="32588977"
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public" />
+cloudEnvironments="Public, fairfax, usnat, ussec" 	ownershipId="CloudNet_LoadBalancer"
+/>
 
 # Disable or correct the Floating IP configuration 
 

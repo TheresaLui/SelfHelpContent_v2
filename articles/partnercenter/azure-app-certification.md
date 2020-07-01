@@ -10,10 +10,11 @@
 	articleId="marketplace_azure_app_cert_issues"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689329"
+	supportTopicIds="32728052"
 	resourceTags="marketplace"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17009"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Offer_Certification"
 />
 
 # Azure applications - certification

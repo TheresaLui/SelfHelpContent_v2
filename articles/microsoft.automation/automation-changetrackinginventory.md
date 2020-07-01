@@ -10,13 +10,16 @@
     supportTopicIds="32599863,32599865,32599902,32599918"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="aad511bc-804b-4d75-8748-121f7ae222fe"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Change Tracking and Inventory Isn't Working
 
 ## **Recommended Steps**
+
+You can run the [offline version of the Agent Registration script](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline) to find more detailed troubleshooting on prerequisites for the Change Tracking and Inventory. Although this script performs some checks related to Update Management, most requirements are the same for Change Tracking and Inventory. 
 
 ### I am unable to onboard machines onto Change Tracking and Inventory
 

@@ -1,11 +1,12 @@
 <properties
     pageTitle="Right-size underutilized SQL Databases"
     description="Right-size underutilized SQL Databases"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    authors="raldaba"
+    ms.author="aoaft"
     articleId="b83241d3-47ba-4603-8d5a-a1b3331e74f4_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Right-size underutilized SQL Databases
 ---
@@ -16,9 +17,9 @@
   "recommendationTypeId": "b83241d3-47ba-4603-8d5a-a1b3331e74f4",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "AzureAdvisor.SQLRightSizingFilteredIn_Public",
-    "dataSource": "Cosmos",
-    "refreshInterval": "1.00:00:00"
+    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('Publish').AzureAdvisor_Sql_SqlResizeReco",
+    "dataSource": "Kusto",
+    "refreshInterval": "0.08:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
@@ -28,15 +29,20 @@
   "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "aoaft@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "AROTOOLBOX\\AROToolboxDevTeam",
+      "service": "Azure Optimization Automation",
+      "team": "Azure Optimization Automation"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "a3db6cf3-640c-4340-8381-108d31853b7f"
   },
-  "ingestionClientIdentities": [],
+  "ingestionClientIdentities": [
+    "6c75c76c-7792-4dd0-8e85-ad598f14bc93",
+    "db97364d-48bf-4567-af34-e0843d0ee0af",
+    "bd26e40e-c0cc-4d1d-8801-569dac0cd7fe",
+    "9c14bff5-1bda-4de6-a74f-4c3caa370570"
+  ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/SQLDBrecommendation",
@@ -80,6 +86,7 @@
       "name": "ObservationPeriodEndDate",
       "title": "Observation End Period"
     }
-  ]
+  ],
+  "costSavingInfo": "*You can save up to the stated amount if you choose to right-size your database. Your actual savings may vary."
 }
 ---

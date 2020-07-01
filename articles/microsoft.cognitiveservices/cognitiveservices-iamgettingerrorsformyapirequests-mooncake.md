@@ -11,6 +11,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="4074b1f1-f5cb-4472-8f70-0f4f7735c7ce"
+	ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # I am getting 401 errors for my API requests

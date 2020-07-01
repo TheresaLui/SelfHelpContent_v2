@@ -10,8 +10,9 @@
 	supportTopicIds="32584354"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="342f4408-16f8-4570-95e3-9f716dbcb8c9"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - managing protection templates

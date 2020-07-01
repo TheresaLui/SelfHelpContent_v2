@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633407"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="sb-sku-migration-issues"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Issues with Standard to Premium SKu Migration
 ---

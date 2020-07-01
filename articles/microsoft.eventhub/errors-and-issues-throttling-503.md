@@ -10,8 +10,9 @@
     supportTopicIds="32636939"
     resourceTags=""
     productPesIds="16125"
-    cloudEnvironments="public,BlackForest,Fairfax"
+    cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
     articleId="536c9bb5-f086-438b-9f5f-c7386f52257b"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I am experiencing throttling (503)

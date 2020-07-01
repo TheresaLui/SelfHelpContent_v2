@@ -10,8 +10,9 @@
     articleId="appinsights-metricsexplorer"
     productPesIds="15693"
     supportTopicIds="32602208"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # Metrics Explorer
 

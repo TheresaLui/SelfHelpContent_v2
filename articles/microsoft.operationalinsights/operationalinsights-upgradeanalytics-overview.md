@@ -10,8 +10,9 @@
     supportTopicIds="32536646"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="8f7aeb7f-957a-41c2-abe9-286bf62fa048"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # upgradeanalytics-overview

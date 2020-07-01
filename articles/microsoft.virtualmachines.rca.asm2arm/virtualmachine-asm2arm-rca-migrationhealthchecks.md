@@ -12,7 +12,8 @@
 	supportTopicIds="32513964"
 	resourceTags="windows, linux"
 	productPesIds="14749,15571"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 

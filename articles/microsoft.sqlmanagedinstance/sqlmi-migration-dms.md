@@ -7,10 +7,11 @@
     ms.author="mlandzic"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32637252"
+	supportTopicIds="32637255"
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="48edeb33-20e6-410c-945d-a23e04d24a16"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Database migration service

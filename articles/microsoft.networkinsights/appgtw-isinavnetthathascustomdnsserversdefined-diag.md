@@ -13,7 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Microsoft Azure has identified custom DNS for your Vnet containing your Application Gateway

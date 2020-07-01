@@ -11,8 +11,9 @@
 	supportTopicIds="32602719"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="112a3653-ed44-40ea-bb56-5b137a937d03"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Upgrade to Azure Storage Account V2

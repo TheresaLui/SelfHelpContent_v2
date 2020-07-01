@@ -13,7 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds="32591158,32584882,32584881"
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public" />
+cloudEnvironments="Public, fairfax, usnat, ussec" 	ownershipId="CloudNet_AzureVPNGateway"
+/>
 
 # Connection failure due to no response to gateway keep alive pings
 

@@ -9,8 +9,9 @@
     supportTopicIds="32684009"
     resourceTags=""
     productPesIds="15922"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="ba47610e-7271-4f6d-8402-be9dc4160fc4"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Application Gateway - General Guidance or Advisory

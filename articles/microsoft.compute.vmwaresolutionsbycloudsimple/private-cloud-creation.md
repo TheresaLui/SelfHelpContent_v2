@@ -10,8 +10,9 @@
     supportTopicIds="32637602"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="0bffcea6-3c61-4b74-9521-d9cd72f25b4a"    
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting Private Cloud creation 
@@ -20,10 +21,10 @@
 
 * Ensure that the vSphere and vSAN network does not overlap with any other network in the region
 
-
 ## **Recommended Documents**
 
 <span title="Problems related to creation of Private Cloud on your CloudSimple service">
-
+	
 * [Create a Private Cloud](https://docs.microsoft.com/azure/vmware-cloudsimple/create-private-cloud)<br>
+
 </span>

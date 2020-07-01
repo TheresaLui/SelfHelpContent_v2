@@ -10,8 +10,9 @@
 	supportTopicIds="32606432"
 	resourceTags=""
 	productPesIds="16160"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="dc005bf7-c965-45b0-aff6-33c11f440a54"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # Traffic Analytics - Disable

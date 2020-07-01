@@ -10,10 +10,11 @@
     displayOrder="90"
     diagnosticScenario="ApplicationInsightsUnsupportedSDKDiagnostic"
     selfHelpType="diagnostics"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32402637"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # **Unsupported SDK(s) found in Telemetry**
 <!--issueDescription-->

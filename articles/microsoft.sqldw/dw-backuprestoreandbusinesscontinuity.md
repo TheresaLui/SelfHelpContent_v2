@@ -11,7 +11,8 @@
     selfHelpType="resource"
     resourceTags="datawarehouse"
     articleId="dw-backuprestoreandbusinesscontinuity.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # How to recover from a backup and data protection

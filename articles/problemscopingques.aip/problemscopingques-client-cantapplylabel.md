@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
 	supportTopicIds="32584334"
     productPesIds="14997"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     articleId="scoping_cant_apply_label"
 	schemaVersion="1"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 # Can't apply this label
 ---
@@ -62,6 +63,23 @@
                     "visibility": "client_type == Azure Information Protection client (classic)",
                     "controlType": "dropdown",
                     "displayLabel": "Did you activate Unified Labeling in your tenant?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Yes",
+                            "text": "Yes"
+                        },
+                        {
+                            "value": "No",
+                            "text": "No"
+                        }
+                    ],
+                    "required": false
+                },{
+                    "id": "checkrightclick",
+                    "order": 6,
+                    "controlType": "dropdown",
+                    "displayLabel": "Were you able to replicate this issue using Right Click - Classify and Protect",
                     "watermarkText": "Choose an option",
                     "dropdownOptions": [
                         {
