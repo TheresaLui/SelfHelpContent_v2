@@ -22,7 +22,7 @@ SQL DB Export service supports exporting an Azure SQL database to a BACPAC file.
 
 ### BlobUri could not be found for this request
 
-* While retrieving the status of a request there are edge cases where the service will return a status of "Completed" and an error message of "BlobUri could not be found for this request". In these cases, the Export operation has completed succesfully and the error message can be safely ignored.
+* While retrieving the status of a request there are edge cases where the service will return a status of "Completed" and an error message of "BlobUri could not be found for this request". In these cases, the Export operation has completed successfully and the error message can be safely ignored.
 
 ### Unable to authenticate request
 
