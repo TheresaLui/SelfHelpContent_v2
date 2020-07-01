@@ -96,7 +96,7 @@
                     "text": "Logs are missing"
                 },
                 {
-                    "value": Logs are available and unclear",
+                    "value": "Logs are available and unclear",
                     "text": "Logs are available and unclear"
                 },
                 {
