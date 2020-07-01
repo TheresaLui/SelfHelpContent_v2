@@ -84,7 +84,28 @@
             "displayLabel": "Please describe the steps, if any, that you already took to remedy the issue",
             "watermarkText": "Example: Restarted provisioning before creating support case. Reviewed documentation.",
             "required": false
-        }
+        },
+         {
+            "id": "provisioning_logs_feedback",
+            "order": 8,
+            "controlType": "dropdown",
+            "displayLabel": "Provisioning logs feedback",
+            "dropdownOptions": [
+                {
+                    "value": "Logs missing",
+                    "text": "Logs missing"
+                },
+                {
+                    "value": "Logs available and unclear",
+                    "text": "Logs available and unclear"
+                },
+                {
+                    "value": "Not applicable to scenario",
+                    "text": "Not applicable to scenario"
+                }
+            ],
+            "required": false
+        },
     ],
     "$schema": "SelfHelpContent"
 }
