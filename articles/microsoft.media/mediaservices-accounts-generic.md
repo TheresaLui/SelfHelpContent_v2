@@ -20,9 +20,9 @@ Azure Media Services accounts can be created directly in the portal, using the A
 
 ## **Recommended Steps**
 
-1. Follow the instructions on how to create a new Media Services account using the CLI - [Create a new Media Services account with the Azure CLI or Cloud Shell](https://docs.microsoft.com/azure/media-services/latest/create-account-cli-how-to)
-2. Access the Media Services API using the CLI - [Access the Media Services API using the CLI](https://docs.microsoft.com/azure/media-services/latest/access-api-cli-how-to)
-3. Start [developing with client SDKs (.NET, Java, Node.js, Python, Go, Ruby.)](https://docs.microsoft.com/azure/media-services/latest/developers-guide)
+1. Follow the instructions on how to [create a new Media Services account with the Azure CLI or Cloud Shell](https://docs.microsoft.com/azure/media-services/latest/create-account-cli-how-to)
+2. [Access the Media Services API using the CLI](https://docs.microsoft.com/azure/media-services/latest/access-api-cli-how-to)
+3. Start [developing with client SDKs (.NET, Java, Node.js, Python, Go, Ruby)](https://docs.microsoft.com/azure/media-services/latest/developers-guide)
 
 
 ## **Recommended Documents**
