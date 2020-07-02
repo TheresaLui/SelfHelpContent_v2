@@ -26,10 +26,11 @@ This topic is for help on updating your offer properties (categories or industri
 ## **Recommended Steps**
 Offers in Azure Marketplace and AppSource can be tagged with a primary category and a secondary category (optional). Up to two subcategories for each category can also be selected. For offers that are industry specific (AppSource only), two industries and two verticals per industry can be tagged to the offer.
 Here is how you access and modify the Offer categories or industries:
-- In Partner Center click Commercial Marketplace in the left navigation, then click **Overview**.
-- **Select the offer** to update and click on **Properties**.
-- Review the new taxonomy and **update your offer categories and industries as appropriate**.
-- **Save draft, review and publish**.
+
+- In Partner Center click Commercial Marketplace in the left navigation, then click **Overview**
+- **Select the offer** to update and click on **Properties**
+- Review the new taxonomy and **update your offer categories and industries as appropriate**
+- **Save draft, review, and publish**
  
 ## **Recommended Documents**
 
