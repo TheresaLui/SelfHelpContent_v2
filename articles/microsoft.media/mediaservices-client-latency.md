@@ -9,7 +9,7 @@
 	articleId="mediaservices-client-latency"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32729550,32632085"
+	supportTopicIds="32729550"
 	resourceTags=""
 	productPesIds="14885"
 	cloudEnvironments="public, fairfax, usnat, ussec"

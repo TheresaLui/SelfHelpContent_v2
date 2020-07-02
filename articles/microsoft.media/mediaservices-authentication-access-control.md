@@ -32,6 +32,6 @@ Instead of creating a service principal, consider using managed identities for A
 * [Develop with Media Services v3 APIs](https://docs.microsoft.com/azure/media-services/latest/media-services-apis-overview)
 
 **Media Services v2 (legacy)**
-* [Access the Azure Media Services API with Azure AD authentication](https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-use-aad-auth-to-access-ams-api)
+* [Access the Azure Media Services API with Azure AD authentication](https://docs.microsoft.com/azure/media-services/previous/media-services-use-aad-auth-to-access-ams-api)
 
 
