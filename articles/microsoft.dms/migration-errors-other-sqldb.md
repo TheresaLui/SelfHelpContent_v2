@@ -101,7 +101,7 @@ See How-to Guides, Tutorials and Resources section in Azure Database Migration S
 * [Troubleshoot common Azure DMS issues and errors](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms)<br>
 * [Known issues/migration limitations with online migrations to Azure SQL DB](https://docs.microsoft.com/azure/dms/known-issues-azure-sql-online)<br>
 
-# Troubleshooting the error when more than max number of databases are selected for migration  
+## Troubleshooting the error when more than max number of databases are selected for migration  
 
 ## **Recommended Steps**
 
