@@ -32,4 +32,4 @@ Cosmos DB account **<!--$GlobalDatabaseAccountName-->GlobalDatabaseAccountName<!
 
 ## **Recommended Documents**
 
-* [Upgrade Cosmos DB <!--$SDKType-->SDKType<!--/$SDKType--> SDK](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-<!--$LinkUrlSuffix-->LinkUrlSuffix<!--/$LinkUrlSuffix-->)
+* [Upgrade Cosmos DB <!--$SDKType-->SDKType<!--/$SDKType--> SDK](<!--$SDKReferenceUrl-->SDKReferenceUrl<!--/$SDKReferenceUrl-->)
