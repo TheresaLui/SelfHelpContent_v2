@@ -9,11 +9,11 @@
 	articleId="timeseriesinsights-misconfiguredtsid"
 	diagnosticScenario=""
 	selfHelpType="resource"
-	supportTopicIds=""
+	supportTopicIds="32571145"
 	resourceTags=""
 	productPesIds="16244"
 	cloudEnvironments="public, mooncake"
-	ownershipId="AzureIot_TimeSeriesInsights"
+	ownershipId="AzureIot_IotTSI"
 />
 
 # Environment configuration issue due to misconfigured Time Series ID property
