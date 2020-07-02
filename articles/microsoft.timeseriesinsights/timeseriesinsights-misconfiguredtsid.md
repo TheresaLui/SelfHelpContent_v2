@@ -23,8 +23,8 @@ When an environment's Time Series ID (TS ID) is misconfigured or missing, "(null
 ## **Recommended Steps**
 
 1. Check the Time Series ID for your environment on the overview page
-2. Make sure that the value provided is the correct unique identifer for your time series instances, and that it is present in your incoming JSON telemetry paylod. 
-3. An environment Time Series ID is immutable and cannot be changed, if it is incorrect, make a new Azure Time Series Insights environment. 
+2. Make sure that the value provided is the correct unique identifier for your time series instances, and that it is present in your incoming JSON telemetry payload
+3. An environment Time Series ID is immutable and cannot be changed. If it is incorrect, make a new Azure Time Series Insights environment.
 
 ## **Recommended Documents**
 
