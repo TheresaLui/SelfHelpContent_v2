@@ -21,7 +21,7 @@
 
 ## **Recommended Steps**
 
-### Mongo DB to Cosmos DB Migration errors 
+### MongoDB to Cosmos DB Migration errors 
 
 **Migration failing due to incorrect SSL Cert**
 
@@ -35,10 +35,10 @@
 
 **Version of the database not supported when connecting to source**
 
-* Cause: The version of the source database configured for migration is not supported by DMS yet. As newer versions of Mongo DB are released, they are tested with DMS to ensure compatibility and DMS is updated before they are supported as valid sources. 
+* Cause: The version of the source database configured for migration is not supported by DMS yet. As newer versions of MongoDB are released, they are tested with DMS to ensure compatibility and DMS is updated before they are supported as valid sources. 
 * Workaround: In order to proceed with the migration before such update, export the databases/collections to Azure storage and use the "Data from Azure storage" option for source configuration as described [here](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db#specify-source-details)
 
-### Migration Activity in Queued State
+## Migration Activity in Queued State
 
 * [Troubleshooting migration activity in queued state](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms#migration-activity-in-queued-state)<br>
 
@@ -46,14 +46,14 @@
 
 * [Troubleshoot common Azure DMS issues and errors](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms)<br>
 
-# Troubleshooting the error when more than max number of databases selected for migration  
+## Troubleshooting the error when more than max number of databases are selected for migration  
 
 ## **Recommended Steps**
 
 * [Troubleshooting max number of databases selected for migration](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms#max-number-of-databases-selected-for-migration)
 * **Error**: "Service has reported errors when trying to migrate more than 4DBs per service."
 
-	* The Service can only migrate 4 DBs concurrently and you can have 2 service per subspcription
+	* The Service can only migrate 4 DBs concurrently and you can have 2 services per subscription
 	* DMS only supports 4 DBs to migrate concurrently. It allows you to create many projects, for example, you create 10 projects and select 4 databases in each. Although you have 40 Dbs but only 4 of them will be migrated at one time.
 	* Another limit is per sub, per region, only 2 DMS services are allowed to create, which means you will have 8 Dbs to migrate concurrently at one time
 

@@ -17,7 +17,7 @@
 	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 
-## Troubleshooting migration errors
+# Troubleshooting migration errors
 
 **Migration errors - AWS RDS PostgreSQL to Azure Database for PostgreSQL using online migration**
 
@@ -37,7 +37,7 @@
 
 	This errors occurs when there is no schema on the target database. Please make sure schema on the target matches schema on the source. If you need help with migrating schema, please refer to our [Azure PostgreSQL online migration documentation](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online#migrate-the-sample-schema).
 
-### **Recommended Documents**
+## **Recommended Documents**
 
 * [Known issues/migration limitations with online migrations to Azure DB for PostgreSQL](https://docs.microsoft.com/azure/dms/known-issues-azure-postgresql-online)
 * [Tutorial: Migrate PostgreSQL to Azure Database for PostgreSQL online using DMS](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online)<br>
@@ -53,11 +53,11 @@
 
 ## Troubleshooting the error when more than max number of databases are selected for migration  
 
-### **Recommended Steps**
+## **Recommended Steps**
 
 * [Troubleshooting max number of databases selected for migration](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms#max-number-of-databases-selected-for-migration)
 * **Error**: "Service has reported errors when trying to migrate more than 4DBs per service."
 
-	* The Service can only migrate 4 DBs concurrently and you can have 2 service per subspcription
+	* The Service can only migrate 4 DBs concurrently and you can have 2 services per subscription
 	* DMS only supports 4 DBs to migrate concurrently. It allows you to create many projects, for example, you create 10 projects and select 4 databases in each. Although you have 40 Dbs but only 4 of them will be migrated at one time.
 	* Another limit is per sub, per region, only 2 DMS services are allowed to create, which means you will have 8 Dbs to migrate concurrently at one time

@@ -21,20 +21,20 @@
 
 ## Errors Connecting to Target
 
-#### **Recommended Documents**
+## **Recommended Documents**
 
 * [Troubleshoot connection issues to Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-troubleshoot-common-connection-issues)<br>
 * [Azure SQL Database Managed Instance Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-connectivity-architecture)
 
 ## Errors Connecting to Source
 
-#### **Recommended Documents**
+## **Recommended Documents**
 
 * [Troubleshoot DMS errors when connecting to source databases](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms-source-connectivity)
 
 ## Errors you may encounter with firewall rules and network configuration 
 
-#### **Recommended Steps**
+## **Recommended Steps**
 
 **Connection error when using ExpressRoute**
 
@@ -43,7 +43,7 @@ When you try to connect to source in the Azure Database Migration service projec
 See here for causes and troubleshooting info:
 [Connection error when using ExpressRoute](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms#connection-error-when-using-expressroute)
 
-#### **Recommended Documents**
+## **Recommended Documents**
 
 * [DMS known issues and troubleshooting](https://docs.microsoft.com/azure/dms/known-issues-troubleshooting-dms)
 
@@ -51,6 +51,6 @@ See here for causes and troubleshooting info:
 
 See How-to Guides, Tutorials, and Resources section in Azure Database Migration Service documentation for DMS service pre-requisites, instance settings, configuring migration projects, and troubleshooting errors.
 
-#### **Recommended Documents**
+## **Recommended Documents**
 
 * [Azure Database Migration Service Documentation](https://docs.microsoft.com/azure/dms/)
