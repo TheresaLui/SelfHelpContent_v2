@@ -23,7 +23,7 @@ _View Designer is in the process of being retired and will no longer be supporte
 
 ### View Designer is missing from my Log Analytics Workspace
 
-Users are required to have [contributor level permissions](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/manage-access#manage-access-using-azure-permissions) for the Log Analytics Workspace, otherwise the View Designer option will not be displayed in the menu.
+Users are required to have [contributor level permissions](https://docs.microsoft.com/azure/azure-monitor/platform/manage-access#manage-access-using-azure-permissions) for the Log Analytics Workspace, otherwise the View Designer option will not be displayed in the menu.
 
 ### How do I share my View Designer visualizations?
 
@@ -45,11 +45,10 @@ If you have an existing file with extension .omsview, then you can use the `Impo
 
 Azure Monitor Workbooks offers templates pre-loaded into the gallery for users to open with a single click, or users can also upload their custom template JSON via the `</> Advanced Editor`
 
-# Recommend Articles
+# Recommend Documents
 
 [View Designer Documentation](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer)
 
 [View Designer to Workbooks](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer-conversion-overview)
 
-[Workbooks GitHub Repo](https://github.com/microsoft/Application-Insights-Workbooks/tree/master/Workbooks
-)
+[Workbooks GitHub Repo](https://github.com/microsoft/Application-Insights-Workbooks/tree/master/Workbooks)

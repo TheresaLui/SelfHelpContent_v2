@@ -26,7 +26,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
 
 ### **Consider applying query optimization steps**
 
-The following article review all the possible explains all the common query performance optimization techniques: https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/query-optimization
+The following article review all the possible explains all the common query performance optimization techniques: https://docs.microsoft.com/azure/azure-monitor/log-query/query-optimization
 
 Most common query optimization tips:
 
