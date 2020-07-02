@@ -21,7 +21,7 @@
 
 ## Errors you may encounter while migrating from SQL Server to Azure SQLDB using offline migration  
 
-### **Recommended Steps**
+## **Recommended Steps**
 
 * **Error**: Could not start the scenario 'StartAzureSqlDbMigrationScenario' as an exception occurred while deserializing the input.
 
@@ -41,7 +41,7 @@
 	* No columns found for the source table. It may not exist, it may have been deleted, or the user may not have access.
 
 
-### **Recommended Documents**
+## **Recommended Documents**
 
 * [Tutorial: Migrate SQL Server to a single database or pooled database in Azure SQL Database offline using DMS](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql)<br>
 * [Azure Database Migration Service Documentation](https://docs.microsoft.com/azure/dms/dms-overview)
@@ -49,7 +49,7 @@
 
 ## Errors you may encounter while migrating from AWS RDS SQL Server to Azure SQL Database using online migration
 
-### **Recommended Steps**
+## **Recommended Steps**
 
 **Migration errors - AWS RDS SQL Server to Azure SQL Database using online migration**
 
@@ -86,12 +86,12 @@ SELECT COUNT(type) AS result FROM msdb.dbo.backupset bk WHERE bk.database_name =
 	* If the result shows 'SIMPLE' recovery mode, change the database recovery mode to 'FULL' using this T-SQL command: `USE master; ALTER DATABASE {0} SET RECOVERY FULL;`
 	* Take Full database backup after the recovery mode is changed to FULL
 
-### **Recommended Documents**
+## **Recommended Documents**
 
 * [Tutorial: Migrate RDS SQL Server to Azure SQL Database online using DMS](https://docs.microsoft.com/azure/dms/tutorial-rds-sql-server-azure-sql-and-managed-instance-online)<br>
 * [Database Migration Guide](https://datamigration.microsoft.com/)
 
-# Troubleshooting migration failures 
+## Troubleshooting migration failures 
 
 See How-to Guides, Tutorials and Resources section in Azure Database Migration Service Documentation website for DMS pre-requisites, service instance, configuring migration projects, and troubleshooting errors.
 
