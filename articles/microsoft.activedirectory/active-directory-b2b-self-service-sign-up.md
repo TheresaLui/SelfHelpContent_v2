@@ -9,7 +9,7 @@
     selfHelpType="generic"
     supportTopicIds="32741680"
     resourceTags=""
-    productPesIds="16580"
+    productPesIds="16578"
     cloudEnvironments="public"
     articleId="active-directory-b2b-self-service-sign-up.md"
 	ownershipId="AzureIdentity_B2C"
