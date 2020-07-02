@@ -23,7 +23,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
 
 ## How can I understand my workspace’s usage?<br>
 
-The Log Analytics page “Usage and estimated costs” has information on your estimated monthly costs based on the last 30 days of usage. Additionally, there is a chart of data volume ingested so you can see any trends and information on which solutions account for the most data volume. From your workspace, click “Usage and estimated costs” on the left navigation pane to see information on your [estimated monthly costs](https://docs.microsoft.com/azure/azure-monitor/platform/data-usage)based on the last 30 days of usage. Additionally, there is a chart of data volume ingested so you can see any trends and information on which solutions account for the most data volume.
+The Log Analytics page 'Usage and estimated costs' has information on your estimated monthly costs based on the last 30 days of usage. Additionally, there is a chart of data volume ingested so you can see any trends and information on which solutions account for the most data volume. From your workspace, click 'Usage and estimated costs' on the left navigation pane to see information on your [estimated monthly costs](https://docs.microsoft.com/azure/azure-monitor/platform/data-usage)based on the last 30 days of usage. Additionally, there is a chart of data volume ingested so you can see any trends and information on which solutions account for the most data volume.
 
 ## **Recommended Documents**
 * [Usage and estimated costs](https://docs.microsoft.com/azure/azure-monitor/platform/manage-cost-storage#understand-your-usage-and-estimate-costs)
