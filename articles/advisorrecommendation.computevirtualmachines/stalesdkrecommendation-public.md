@@ -44,7 +44,7 @@
           },
           {
                     "actionId": "11941fbb-2321-4a49-a34d-25c007404331",
-                    "description": "Learn more about the latest {language} SDK {version}",
+                    "description": "Learn more about the latest {language} SDK version, {version}",
                     "actionType": "Document",
                     "documentLink": "{releaseNotes}"
           }],
