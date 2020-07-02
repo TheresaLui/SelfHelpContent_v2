@@ -18,8 +18,6 @@ ownershipId="AzureMonitoring_LogAnalytics"
 />
 # My query is slow or timing out
 
-# My query is slow or timing out
-
 ## **Recommended Steps** 
 
 ### **Examine the query performance profile**
@@ -30,7 +28,7 @@ The following article review all the possible explains all the common query perf
 
 Most common query optimization tips:
 
-* Don’t use “contains”, use “has” instead – “has” is much more efficient than “contains” on large data sets.
+* Don’t use 'contains', use 'has' instead – 'has' is much more efficient than 'contains' on large data sets.
 
 * Consider running the query on shorter time range - The time range of the query has the most substantial influence on the query performance. When less time is scanned, less data is processed.
 
