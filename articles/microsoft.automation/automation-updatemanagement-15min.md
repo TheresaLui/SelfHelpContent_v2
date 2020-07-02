@@ -52,4 +52,4 @@ Information can take a few minutes to propagate through Log Analytics, but if ma
 * [Understand the agent check results in Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues)
 * [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management)
 * [Update Management Tutorial](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management)
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)

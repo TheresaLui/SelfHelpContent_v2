@@ -32,4 +32,4 @@ This article will help you remove your machines from Update Management
 * [Understand the agent check results in Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues)
 * [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management)
 * [Update Management Tutorial](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management)
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)
