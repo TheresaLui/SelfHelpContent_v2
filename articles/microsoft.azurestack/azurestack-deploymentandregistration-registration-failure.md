@@ -19,11 +19,15 @@
 
 Registering Azure Stack with Azure allows you to download marketplace items from Azure and to set up commerce data reporting back to Microsoft. After you register Azure Stack, usage is reported to Azure commerce and you can see it under the subscription used for registration.
 
+If you encounter registration issues, check for known issues in [Azure Stack Registration failures](https://docs.microsoft.com/azure-stack/operator/azure-stack-registration?view=azs-2002&pivots=state-disconnected#registration-failures)
+
+
 ## **Recommended Steps**
 
+1. [Use the Azure Stack Hub Readiness Checker tool (AzsReadinessChecker)](https://docs.microsoft.com/azure-stack/operator/azure-stack-validate-registration)
 1. [Determine your registration scenario](https://docs.microsoft.com/azure-stack/operator/azure-stack-registration#determine-your-registration-scenario)
-2. [Register disconnected with capacity billing](https://docs.microsoft.com/azure-stack/operator/azure-stack-registration#register-disconnected-with-capacity-billing)
-3. [Renew or change registration in disconnected environments](https://docs.microsoft.com/azure-stack/operator/azure-stack-registration#renew-or-change-registration-in-disconnected-environments)
+1. [Register disconnected with capacity billing](https://docs.microsoft.com/azure-stack/operator/azure-stack-registration#register-disconnected-with-capacity-billing)
+1. [Renew or change registration in disconnected environments](https://docs.microsoft.com/azure-stack/operator/azure-stack-registration#renew-or-change-registration-in-disconnected-environments)
 
 ## **Recommended Documents**
 
