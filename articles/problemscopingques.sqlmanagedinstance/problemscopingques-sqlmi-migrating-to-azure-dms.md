@@ -250,7 +250,6 @@
                "value":"no",
                "text":"No"
             },
-	    ,
             {
                "value":"running_issues",
                "text":"Can't run due to other issues"
