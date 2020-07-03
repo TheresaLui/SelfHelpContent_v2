@@ -95,7 +95,7 @@
          "order":22,
          "controlType":"textbox",
          "visibility":"issue_type == provision",
-         "displayLabel":"What is the VNet\\Subnet being used?",
+         "displayLabel":"What is the VNet and Subnet being used?",
          "required":false
       },
       {
