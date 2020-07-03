@@ -20,6 +20,7 @@
 
 # Invoices and taxes in Partner Center
 
+Due to unforeseen issues we will not be able to offer credit card payment option for Japan, South Korea and Taiwan until further notice. You will notice that you can still make your purchase seamlessly via Wire Transfer. Please contact your financial institution for more information on how to execute a wire transfer.
 
 ## **Recommended Steps**
 
