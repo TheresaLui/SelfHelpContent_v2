@@ -9,7 +9,7 @@
 	articleId="mediaservices-authentication-access-control"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32729544, 32632085"
+	supportTopicIds="32729544"
 	resourceTags=""
 	productPesIds="14885"
 	cloudEnvironments="public, fairfax, usnat, ussec"
