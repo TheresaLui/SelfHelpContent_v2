@@ -23,7 +23,7 @@
 ## **Recommended Steps**
 
 1. The ability to modify closed deals is **only available for submitted ISV Connect deals**
-  * Find these under Referrals > Deal Registration > In Progress > Submitted
+   * Find these under Referrals > Deal Registration > In Progress > Submitted
 2. **Click on the deal** to modify and click **Edit** in the top right
    - Editing is allowed for contract details and  contact for your company
    - Editing is **not** allowed for Customer, Solution Name, and Engagement ID (if applicable)
