@@ -8,7 +8,7 @@
 	cloudEnvironments="public, mooncake"
 	schemaVersion="1"
 	articleId="969d90c5-c125-470a-9822-4759ffea4939"
-	ownershipId="AzurefIot_TimeSeriesInsights"
+	ownershipId="AzureIot_IotTSI"
 />
 # Errors and exceptions scoping questions
 ---
@@ -19,13 +19,13 @@
 	"title": "Errors and Exceptions",
 	"fileAttachmentHint": "",
 	"formElements": [
-        { 
-            "id": "problem_start_time", //This is a required value
-            "order": 1, 
-            "controlType": "datetimepicker", 
+        {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
-            "required": true 
-        }, 
+            "required": true
+        },
           {
 			"id": "problem_description",
 			"order": 2,
