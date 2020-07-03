@@ -60,6 +60,37 @@
          "required":true
       },
       {
+         "id":"dms_region",
+         "order":20,
+         "controlType":"textbox",
+         "visibility":"issue_type == provision",
+         "displayLabel":"In what Azure region are you trying to provision DMS?",
+         "required":false
+      },
+      {
+         "id":"service_mode",
+         "order":21,
+         "controlType":"dropdown",
+         "visibility":"issue_type == provision",
+         "displayLabel":"What is the service mode being selected?",
+         "watermarkText":"Choose an option",
+         "dropdownOptions":[
+            {
+               "value":"azure",
+               "text":"Azure"
+            },
+            {
+               "value":"hybrid",
+               "text":"Hybrid"
+            },
+            {
+               "value":"dont_know_answer",
+               "text":"Don't know the answer, any of them"
+            }
+         ],
+         "required":true
+      },
+      {
          "id":"problem_description",
          "order":99,
          "controlType":"multilinetextbox",
