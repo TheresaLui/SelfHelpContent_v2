@@ -1,6 +1,6 @@
 <properties
-	pageTitle="How to check for Queue history deletion"
-	description="How to check for Queue history deletion"
+	pageTitle="How to check for deletion history"
+	description="How to check for deletion history"
 	service="microsoft.storage"
 	resource="storageAccounts"
 	authors="JRMayberry"
@@ -15,7 +15,7 @@
 	articleId="66df6877-5f61-4974-b556-3432791fc07f"
 />
 
-# How to check for Queue history deletion
+# How to check for deletion history
 
 1. Use sample query in Jarvis [Sample Geneva Logs Query](https://jarvis-west.dc.ad.msft.net/A6927181)
 2. Query with the following settings in DGrep:

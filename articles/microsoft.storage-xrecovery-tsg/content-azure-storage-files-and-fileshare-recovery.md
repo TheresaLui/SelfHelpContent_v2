@@ -20,7 +20,7 @@
 Azure Storage Files and FileShares are generally not recoverable. Please check if customer has fileshare snapshots. If present they can copy data out from the share snapshot using storage explorer as follows.
 
 1. Navigate to the share using storage explorer.
-2.  Choose View Share Snapshots from the top ribbon
+2. Choose View Share Snapshots from the top ribbon
 3. Double click on the preferred snapshot
 4. Right click on the required file and choose to Restore Snapshot.
 
