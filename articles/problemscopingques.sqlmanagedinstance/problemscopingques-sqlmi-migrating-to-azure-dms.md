@@ -46,7 +46,7 @@
             },
             {
                "value":"managing",
-               "text":"Managing DMS projects (creating, updating or deleting)"
+               "text":"Managing DMS projects (create, update or delete)"
             },
             {
                "value":"migrating",
@@ -112,7 +112,7 @@
             },
             {
                "value":"long_running",
-               "text":"Migration is taking too long"
+               "text":"Slow migration"
             },
             {
                "value":"dont_know_answer",
@@ -218,6 +218,42 @@
             {
                "value":"project",
                "text":"Create project only"
+            },
+            {
+               "value":"dont_know_answer",
+               "text":"Don't know the answer"
+            }
+         ],
+         "required":false
+      },
+      {
+         "id":"dma",
+         "order":40,
+         "controlType":"dropdown",
+         "visibility":"issue_type == migrating && source_engine == sql",
+         "displayLabel":"Have you used Database Migration Assistant (DMA)?",
+         "watermarkText":"Choose an option",
+         "dropdownOptions":[
+            {
+               "value":"yes",
+               "text":"Yes and it didn't found any compatibility issue"
+            },
+            {
+               "value":"yes_resolver",
+               "text":"Yes it has found issues that were fixed"
+            },
+            {
+               "value":"yes_unresolved",
+               "text":"Yes if was found issues that require support"
+            },
+            {
+               "value":"no",
+               "text":"No"
+            },
+	    ,
+            {
+               "value":"running_issues",
+               "text":"Can't run due to other issues"
             },
             {
                "value":"dont_know_answer",
