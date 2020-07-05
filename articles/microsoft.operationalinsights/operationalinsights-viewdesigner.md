@@ -52,3 +52,4 @@ Azure Monitor Workbooks offers templates pre-loaded into the gallery for users t
 [View Designer to Workbooks](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer-conversion-overview)
 
 [Workbooks GitHub Repo](https://github.com/microsoft/Application-Insights-Workbooks/tree/master/Workbooks)
+ 
