@@ -1,26 +1,25 @@
 <properties
-    pageTitle="App Service on Azure Stack Hub Operator Billing Issues"
-    description="App Service on Azure Stack Hub Operator Billing Issues"
+    pageTitle="App Service tenant DevOps advanced developer tools"
+    description="App Service tenant DevOps advanced developer tools"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="TobyTu"
     ms.author="mquian"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32742843"
+    supportTopicIds="32742853"
     resourceTags=""
     productPesIds="17136"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="appservice-operator-billing-billing-issues"
+    articleId="appservice-tenant-devops-advanced-developer-tools"
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# App Service on Azure Stack Hub Operator Billing Issues
+# App Service tenant DevOps advanced developer tools
 
 ## **Recommended Steps**
 
-
-* [Billing FAQs](https://docs.microsoft.com/azure-stack/operator/app-service-billing-faq)
+* [Prerequisites for deploying App Service on Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started)
 
 ## **Recommended Documents**
 
