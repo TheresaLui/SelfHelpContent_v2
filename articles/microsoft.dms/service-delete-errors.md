@@ -26,7 +26,7 @@
 * *"Service failed to Stop. Error: {'error':{'code':'InvalidRequest','message':'One or more activities are currently running. To
  stop the service, please wait until the activities have completed or stop those activities manually and try again.'}}"*
 
-### **Recommended Steps** 
+## **Recommended Steps** 
 
 When this error is reported, it is possible that there are activities or tasks off projects that may not be visible on the Azure portal. This removes the ability to clean up DMS instance by deleting the service instance which requires the deletion of all tasks in all projects across service using the UI.
 
@@ -39,6 +39,6 @@ In such situation, use the Azure Resource Manager PowerShell module for Data Mig
 
 Once this is done, try deleting the service again.
 
-### **Recommended Documents**
+## **Recommended Documents**
 
 * [Data Migration specific PowerShell cmdlets](https://docs.microsoft.com/powershell/module/azurerm.datamigration/?view=azurermps-6.13.0#data_migration)

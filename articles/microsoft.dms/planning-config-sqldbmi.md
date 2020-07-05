@@ -17,7 +17,9 @@
 	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 
-# Information on setting up database migration to Azure SQL Database Managed Instance in online mode
+# Planning and Configuration for SQL DB Managed Instance Migrations
+
+## Information on setting up database migration to Azure SQL Database Managed Instance in online mode
 
 ## **Recommended Documents**
 
@@ -27,7 +29,7 @@
 * [Migrate certificate of TDE protected database to Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-migrate-tde-certificate)<br>
 * [Database Migration Guide](https://datamigration.microsoft.com/)
 
-# Information on setting up database migration to Azure SQL Database Managed Instance in offline mode
+## Information on setting up database migration to Azure SQL Database Managed Instance in offline mode
 
 ## **Recommended Documents**
 
@@ -37,7 +39,7 @@
 * [Migrate certificate of TDE protected database to Azure SQL Database Managed Instance](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-migrate-tde-certificate)<br>
 * [Database Migration Guide](https://datamigration.microsoft.com/)
 
-# Migration Project and Activity Configuration
+## Migration Project and Activity Configuration
 
 ## **Recommended Documents**
 

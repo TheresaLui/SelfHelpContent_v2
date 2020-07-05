@@ -17,7 +17,7 @@
 	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 
-# Migration Project and Activity Configuration to Azure CosmosDB
+# Migration Project and Activity Configuration to Azure Cosmos DB
 
 ## **Recommended Documents**
 
