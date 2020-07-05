@@ -20,7 +20,7 @@ cloudEnvironments="Public, Fairfax, Blackforest, usnat, ussec"
 
 # Portal or dashboard not loading or throwing error
 
-## **Pinning A Log Analytics Visualization to an Azure Dashboard**
+### **Pinning A Log Analytics Visualization to an Azure Dashboard**
 
 Log Analytics visualizations pinned to a dashboard have some specific considerations designed for an optimal dashboard experience, Please refer to the following items before submitting your support ticket:
 ### **1. I want to report a time scope larger than 30 days:** 
@@ -33,7 +33,7 @@ This is done so we can ensure a reasonable load time for a dashboard.
 
 Dashboards are a visually dense and complex artifacts. 
 In order for us to reduce cognitive load when viewing a dashboard we optimize the visualizations, loading up to 25 different data values.
-In the rare case where a visualization has more than 25 different data values, Log Analytics will optimize it, showing the 25 values with most data as discrete data values and grouping the remaining values under an “other” value.
+In the rare case where a visualization has more than 25 different data values, Log Analytics will optimize it, showing the 25 values with most data as discrete data values and grouping the remaining values under an other value.
 
 ###	**3. I want my dashboard to auto refresh:** 
 
