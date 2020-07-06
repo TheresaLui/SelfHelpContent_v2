@@ -8,7 +8,7 @@
 	productPesIds="16505"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="d06d9c34-763f-46e7-958b-d1aca0f950a2"
+	articleId="32743104"
 	ownershipId="StorageMediaEdge_DataBox"
 />
 # Data Box issues with data copy and validation in Data export
