@@ -4,11 +4,11 @@
 	authors="meetshamir"
 	ms.author="saziz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32688661"
+	supportTopicIds="32688629"
 	productPesIds="16152"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="CCD78FF1-5210-418B-B01E-17264949196F"
+	articleId="A0C15CEA-8E1D-4252-8467-337F49AAE779"
 	ownershipId="Compute_BotService"
 />
 # Cognitive - QnA Maker 
