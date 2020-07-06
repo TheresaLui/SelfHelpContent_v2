@@ -43,10 +43,10 @@
 			"displayLabel": "What kind of help do you need?",
 			"radioButtonOptions": [{
 					"value": "3a",
-					"text": "Do you need advice on how to use QnA maker with a bot "
+					"text": "Need advice on how to use QnA maker with a bot"
 				}, {
 					"value": "3b",
-					"text": "Are you facing an issue when using QnA maker with a bot"
+					"text": "Seeing an issue when using QnA maker with a bot"
 				}
 			],
 			"required": true
