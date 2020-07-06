@@ -57,7 +57,7 @@
             "watermarkText": "Describe in detail the changes which were made",
             "required": true
         },
-	    {
+	{
             "id": "cmk_access",
             "order": 200,
             "controlType": "dropdown",
@@ -77,7 +77,6 @@
                 "text" : "Other, don't know or not applicable"
             }
           ],
-                
             "required": true
         },
         {
