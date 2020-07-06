@@ -36,7 +36,7 @@ If you have do not have Software Assurance, you can use the setup media from a m
 - RDP into this new SQL Server VM and navigate to where the SQL Server setup media is: C:\SQLServerFull
 - Copy over the directory to the intended VM and launch setup.exe
 - If you created a new VM to obtain the media, remember to delete it to avoid the billing costs
-Another alternative is to download the SQL evaluation edition on your VM and use the product key form a marketplace SQL Server VM image that has the desired version and edition. To get the product key, you can launch setup.exe from C:\SQLServerFull on the Azure VM that has desired edition and version, copy the product key that appears in the install process and exit the installer.
+Another alternative is to download the SQL evaluation edition on your VM and use the product key from a marketplace SQL Server VM image that has the desired version and edition. To get the product key, you can launch setup.exe from C:\SQLServerFull on the Azure VM that has desired edition and version, copy the product key that appears in the install process and exit the installer.
 
 To get SQL Server setup **product key**, you can launch setup.exe from C:\SQLServerFull on the Azure VM that has desired edition and version, copy the product key that appears in the install process and exit the installer.
 
