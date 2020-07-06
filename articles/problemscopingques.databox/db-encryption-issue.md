@@ -4,7 +4,7 @@
 	authors="ansubram"
 	ms.author="ansubram"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32743106,32743107"
+	supportTopicIds="32743107"
 	productPesIds="16505"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -93,7 +93,7 @@
             "id": "learn_more_text",
             "order": 700,
             "controlType": "infoblock",
-            "content": "<a href='https://docs.microsoft.com/en-us/azure/databox/data-box-customer-managed-encryption-key-portal'>Learn more</a> about using customer managed keys for Azure Data Box"
+            "content": "<a href='https://docs.microsoft.com/azure/databox/data-box-customer-managed-encryption-key-portal'>Learn more</a> about using customer managed keys for Azure Data Box"
         }
 	],
 	"$schema": "SelfHelpContent"
