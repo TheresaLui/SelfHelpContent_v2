@@ -46,10 +46,10 @@ If you have an existing file with extension .omsview, then you can use the `Impo
 Azure Monitor Workbooks offers templates pre-loaded into the gallery for users to open with a single click, or users can also upload their custom template JSON via the `</> Advanced Editor`
 
 ## **Recommended Documents**
-
+ 
 [View Designer Documentation](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer)
-
+ 
 [View Designer to Workbooks](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer-conversion-overview)
-
+ 
 [Workbooks GitHub Repo](https://github.com/microsoft/Application-Insights-Workbooks/tree/master/Workbooks)
  
