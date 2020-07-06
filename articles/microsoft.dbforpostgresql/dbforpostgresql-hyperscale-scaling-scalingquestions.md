@@ -7,7 +7,7 @@
     displayOrder="70"
     articleId="dbforpostgresql-hyperscale-scaling-scalingquestions.md"
     selfHelpType="resource"
-    supportTopicIds="32640014"
+    supportTopicIds="32640014, 32731222"
     resourceTags=""
     productPesIds="17068"
     cloudEnvironments="public, Fairfax, usnat, ussec"

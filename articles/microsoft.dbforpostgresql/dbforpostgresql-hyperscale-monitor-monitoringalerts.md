@@ -7,7 +7,7 @@
     displayOrder="70"
     articleId="dbforpostgresql-hyperscale-monitor-metrics.md"
     selfHelpType="resource"
-    supportTopicIds="32640022"
+    supportTopicIds="32640022, 32639998"
     resourceTags=""
     productPesIds="17068"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -21,5 +21,7 @@ We recommend that you configure alerting on Azure Database for PostgreSQL - Hype
 Query Store is not an available feature in Hyperscale (Citus). Consider using the pg_stat_statements extension. 
 
 ## **Recommended Documents**
-* [Create alerts in Hyperscale](https://docs.microsoft.com/azure/postgresql/howto-hyperscale-alert-on-metric)
-* [Azure Monitor Alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-overview)
+* [Create metric alerts in Hyperscale](https://docs.microsoft.com/azure/postgresql/howto-hyperscale-alert-on-metric)
+* [Azure Monitor Alerts overview](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-overview)
+* [Log alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log)
+* [Metrics available in Hyperscale (Citus)](https://docs.microsoft.com/azure/postgresql/concepts-hyperscale-monitoring)
