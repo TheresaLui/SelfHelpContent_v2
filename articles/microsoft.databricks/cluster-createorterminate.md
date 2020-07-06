@@ -60,8 +60,8 @@ Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for c
 	* Set up the init script in cluster, confirm changes, and launch the cluster
 	
 ### **Troubleshooting**
-* [Unexpected Cluster Termination](https://kb.azuredatabricks.net/clusters/termination-reasons.html#unexpected-cluster-termination)
-* [Cluster Failed to Launch](https://kb.azuredatabricks.net/clusters/cluster-failed-launch.html)
+* [Unexpected Cluster Termination](https://docs.microsoft.com/azure/databricks/kb/clusters/termination-reasons)
+* [Cluster Failed to Launch](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch)
 * [Error: The subscription is not registered to use namespace 'Microsoft.Compute'](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-register-provider-errors)
 
 ## **Recommended Documents**
