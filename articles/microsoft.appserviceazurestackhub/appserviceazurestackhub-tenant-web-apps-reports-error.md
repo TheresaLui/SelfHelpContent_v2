@@ -1,28 +1,26 @@
 <properties
-    pageTitle="App Service Operator Installation and Upgrade File Server Issues"
-    description="App Service Operator Installation and Upgrade File Server Issues"
+    pageTitle="App Service tenant web apps reports error"
+    description="App Service tenant web apps reports error"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT, v-miegge"
     ms.author="alexsmit"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32742855"
+    supportTopicIds="32742875"
     resourceTags=""
     productPesIds="17136"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="appservice-operator-installationandupgrade-file-server-issues"
+    articleId="appservice-tenant-web-apps-reports-error"
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# App Service Operator Installation and Upgrade File Server Issues
-
+# App Service tenant web apps reports error
 
 ## **Recommended Steps**
 
-* [Post-deployment steps](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-deploy#post-deployment-steps-1)
+* [Prerequisites for deploying App Service on Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started)
 
 ## **Recommended Documents**
 
 * [App Service overview](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-overview)
-
