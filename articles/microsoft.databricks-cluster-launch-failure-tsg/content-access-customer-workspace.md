@@ -26,7 +26,7 @@ The cluster event log displays important cluster lifecycle events that are trigg
 
 To access these logs, please follow these steps:
 
-1. Click the clusters icon Clusters Icon in the sidebar.
+1. Click the clusters icon in the sidebar.
 2. Click a cluster name.
 3. Click the Event Log tab.
 
