@@ -37,5 +37,5 @@ When using live encoding, the encoding preset defines how the incoming stream is
 
 **Media Services v2 (legacy)**
 
-* [Live sreaming with v2](https://docs.microsoft.com/azure/media-services/previous/media-services-manage-live-encoder-enabled-channels)
+* [Live streaming with v2](https://docs.microsoft.com/azure/media-services/previous/media-services-manage-live-encoder-enabled-channels)
 
