@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Scoping Questions for Data Box Data copy and validation - Issue with exported data"
-	description="Scoping Questions for Data Box Data copy and validation - Issue with exported data"
+	pageTitle="Scoping Questions for Data Box Data export"
+	description="Scoping Questions for Data Box Data export"
 	authors="ansubram"
 	ms.author="ansubram"
 	selfHelpType="problemScopingQuestions"
@@ -11,12 +11,12 @@
 	articleId="32743104"
 	ownershipId="StorageMediaEdge_DataBox"
 />
-# Data Box issues with data copy and validation in Data export
+# Data Box issues with data export using Data Box
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "Data Box issues - Data copy and validation - Issue with exported data",
+    "title": "Data Box issues - Data Export from Azure",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -57,7 +57,7 @@
             "watermarkText": "Describe in detail the changes which were made",
             "required": true
         },
-        {
+	{
             "id": "exported_data",
             "order": 200,
             "controlType": "dropdown",
@@ -79,7 +79,7 @@
              ]
             "required": true
         },
-	      {
+        {
             "id": "problem_description",
             "order": 600,
             "controlType": "multilinetextbox",
