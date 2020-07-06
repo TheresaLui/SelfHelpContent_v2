@@ -55,7 +55,7 @@
 			"id": "work",
 			"order": 4,
 			"controlType": "radioButtonGroup",
-			"displayLabel": "Does the knowledge base work correctly (correct answers/correct format) when testing it in the QnA portal? ", 
+			"displayLabel": "Does the knowledge base work correctly (correct answers/correct format) when testing it in the QnA portal? ",
 			"radioButtonOptions": [{
 					"value": "4a",
 					"text": "Yes"
@@ -90,7 +90,7 @@
 			"id": "multiturn",
 			"order": 6,
 			"controlType": "radioButtonGroup",
-			"displayLabel": "Are you having a trouble only with multi-turn conversation?", 
+			"displayLabel": "Are you having a trouble only with multi-turn conversation?",
 			"radioButtonOptions": [{
 					"value": "6a",
 					"text": "Yes"
