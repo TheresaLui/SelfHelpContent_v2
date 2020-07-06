@@ -26,5 +26,5 @@
 	%sh
 	curl -H Metadata:true "http://169.254.169.254/metadata/instance/network?api-version=2017-08-01"
 
-* [Error: Instances unreachable](https://kb.azuredatabricks.net/clusters/cluster-failed-launch.html#instances-unreachable)
-* [Troubleshooting JDBC and ODBC Connections](https://kb.azuredatabricks.net/bi/jdbc-odbc-troubleshooting.html)
+* [Error: Instances unreachable](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#instances-unreachable)
+* [Troubleshooting JDBC and ODBC Connections](https://docs.microsoft.com/azure/databricks/kb/bi/jdbc-odbc-troubleshooting)
