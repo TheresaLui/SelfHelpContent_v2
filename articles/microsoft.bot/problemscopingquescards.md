@@ -40,7 +40,7 @@
 			"id": "kindofassistance",
 			"order": 3,
 			"controlType": "radioButtonGroup",
-			"displayLabel": "What kind of help do you need? ", 
+			"displayLabel": "What kind of help do you need? ",
 			"radioButtonOptions": [{
 					"value": "3a",
 					"text": "Need advice on how to use Cards in a bot "
@@ -55,7 +55,7 @@
 			"id": "version",
 			"order": 4,
 			"controlType": "radioButtonGroup",
-			"displayLabel": "What is the version of the Bot Framework SDK ?", 
+			"displayLabel": "What is the version of the Bot Framework SDK ?",
 			"radioButtonOptions": [{
 					"value": "4a",
 					"text": "Version 3"
