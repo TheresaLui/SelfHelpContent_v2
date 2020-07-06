@@ -22,5 +22,5 @@
 * [Security and Privacy](https://docs.microsoft.com/azure/databricks/security/)
 * [AAD Credential Passthrough](https://docs.microsoft.com/azure/databricks/security/credential-passthrough/adls-passthrough)
 * [Retrieve the current username for the notebook](https://docs.microsoft.com/azure/databricks/kb/notebooks/get-notebook-username). This is currently supported for:
-	* Standard clusters in both Scala and Python.
-	* High Concurrency clusters in Python with Credential Passthrough **disabled**.
+	* Standard clusters in both Scala and Python
+	* High Concurrency clusters in Python with Credential Passthrough **disabled**
