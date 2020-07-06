@@ -66,10 +66,9 @@ An unexpected error was encountered while setting up the cluster.
 	
 ## **Recommended Documents**
 
-* [Problem: Spark Job Fails with Driver is temporarily unavailable](https://kb.azuredatabricks.net/jobs/driver-unavailable.html)
-* [Problem: Job Fails Due to Job Rate Limit](https://kb.azuredatabricks.net/jobs/job-rate-limit.html)
-* [Problem: Azure Databricks Job Fails Because Library is Not Installed](https://kb.azuredatabricks.net/jobs/job-fails-no-library.html)
-* [Problem: Maximum Execution Context or Notebook Attachment Limit Reached](https://kb.azuredatabricks.net/execution/maximum-execution-context.html)
+* [Jobs Common Issues](https://docs.microsoft.com/azure/databricks/kb/jobs/)
+* [Jobs Excecution Common Issues](https://docs.microsoft.com/azure/databricks/kb/execution/)
+
 
 > **Known Issue**: Starting 19 Mar 2020 some Azure Databricks customers have encountered error "Azure error code: AllocationFailed" when performing service management operations - such as create, update, scale clusters or submit jobs. We are aware of this issue and are actively working to ensure availability of resources in the quickest time frame possible. We recommend you consider one of the below workarounds:
 >
