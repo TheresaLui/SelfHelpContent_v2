@@ -64,6 +64,10 @@ The *Max lag across replicas* metric shows the lag in bytes between the master a
 
 If data is missing from your replica while *Max lag across replicas* continues to be 0, proceed to open a support ticket. 
 
+**Issue:** Receiving a number of alerts with  *max lag exceeding number of bytes*
+
+ Please check your alert setting for maximum replica lag metric. It may be too low (may be in KBs) for your workload. Depending in your workload and the replica placement, the replica may be hitting this alert limit often. In such case, please consider increasing the max replica lag limit to a higher value - to even in MBs.
+
 ## **Recommended Documents**
 
 * [How to create and manage read replicas in the portal](https://docs.microsoft.com/azure/postgresql/howto-read-replicas-portal)
