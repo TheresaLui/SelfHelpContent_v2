@@ -55,4 +55,4 @@ Specific problems and their solutions are listed below, but we highly recommend 
 * [Quickstart create a runbook](https://docs.microsoft.com/azure/automation/automation-quickstart-create-runbook)<br>
 * [Starting an Azure Automation runbook with a webhook](https://docs.microsoft.com/azure/automation/automation-webhooks)<br>
 * [Runbook and module galleries for Azure Automation](https://docs.microsoft.com/azure/automation/automation-runbook-gallery)<br>
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)
