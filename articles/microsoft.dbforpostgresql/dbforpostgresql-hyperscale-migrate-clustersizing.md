@@ -16,3 +16,5 @@
 
 # Help sizing cluster 
 
+## **Recommended Documents**
+* [Configuration options](https://docs.microsoft.com/azure/postgresql/concepts-hyperscale-configuration-options)
