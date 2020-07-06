@@ -16,8 +16,11 @@
 />
 
 # Notebook-How to
-
+	
 ## **Recommended Documents**
 
 * [Problem: Notebook Autosave Fails Due to File Size Limits](https://kb.azuredatabricks.net/notebooks/notebook-autosave.html)
 * [How to Get the Full Path to the Current Notebook](https://kb.azuredatabricks.net/notebooks/get-notebook-path.html)
+* [Retrieve the current username for the notebook](https://docs.microsoft.com/azure/databricks/kb/notebooks/get-notebook-username). This is currently supported for:
+	* Standard clusters in both Scala and Python.
+	* High Concurrency clusters in Python with Credential Passthrough **disabled**.
