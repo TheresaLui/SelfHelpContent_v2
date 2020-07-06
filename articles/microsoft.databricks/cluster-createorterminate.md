@@ -34,6 +34,31 @@ Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for c
 	* [Pin a Cluster](https://docs.azuredatabricks.net/clusters/clusters-manage.html#pin-a-cluster)
 	* [Delete a Cluster](https://docs.azuredatabricks.net/clusters/clusters-manage.html#cluster-delete)
 
+* If Databricks cluster is experiencing **'METASTORE_DOWN'** frequently, interrupting processing and requiring a restart, it could be caused by a known issue of BoneCP not attempting to re-establish the broken connection after the issue happens. To workaround this behavior, you can use the new jar *hikari_datanucleus_2.11_0.1.jar* and copy it to */databricks/hive*:
+
+	* Upload the jar *hikari-datanucleus.jar* to DBFS
+	* Go to workspace, create Library, upload the file, and copy the path
+	* Create init script using notebook:
+ 
+    	```
+    	%python
+    
+    	dbutils.fs.put("dbfs:/databricks/init_hikari/<clustername>/hikari.sh","""
+    
+    	#!/bin/bash
+    	cp /dbfs/FileStore/jars/03390a65_418b_49d2_842e_a1069475b3d1-hikari_datanucleus_2_11_0_1-6bb4f.jar /databricks/hive
+    	cp /databricks/jars/spark--maven-trees--spark_2.4--com.zaxxer--HikariCP--com.zaxxer__HikariCP__3.1.0.jar /databricks/hive
+    
+    	""",True)
+    	```
+    
+	* Edit the cluster and add the below Spark configuration under Advanced Options:
+    	```
+    	spark.hadoop.datanucleus.connectionPoolingType hikari
+    	```
+
+	* Set up the init script in cluster, confirm changes, and launch the cluster
+	
 ### **Troubleshooting**
 * [Unexpected Cluster Termination](https://kb.azuredatabricks.net/clusters/termination-reasons.html#unexpected-cluster-termination)
 * [Cluster Failed to Launch](https://kb.azuredatabricks.net/clusters/cluster-failed-launch.html)
