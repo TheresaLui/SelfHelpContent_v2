@@ -129,7 +129,7 @@
 			"id": "allusers",
 			"order": 7,
 			"controlType": "dropdown",
-			"displayLabel": "Is the issue impacting a single user or more than one?", 
+			"displayLabel": "Is the issue impacting a single user or more than one?",
 			"dropdownOptions": [{
 					"value": "7a",
 					"text": "Only seen by me"
