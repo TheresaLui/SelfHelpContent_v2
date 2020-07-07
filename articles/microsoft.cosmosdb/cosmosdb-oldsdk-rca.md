@@ -32,4 +32,4 @@ Cosmos DB account **<!--$GlobalDatabaseAccountName-->GlobalDatabaseAccountName<!
 
 ## **Recommended Documents**
 
-* [Upgrade Cosmos DB <!--$SDKType-->SDKType<!--/$SDKType--> SDK](<!--$SDKReferenceUrl-->SDKReferenceUrl<!--/$SDKReferenceUrl-->)
+* <!--$SDKDocsLink-->SDKDocsLink<!--/$SDKDocsLink-->
