@@ -19,7 +19,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Restore deleted workspace",
-    "fileAttachmentHint": "Please provide a screenshot including any dashboard or view of where you're seeing the billing and\or usage issue.",
+    "fileAttachmentHint": "Please provide a screenshot including any dashboard or view of where you're seeing the billing and/or usage issue.",
     "formElements": [
         {
             "id": "problem_start_time",
