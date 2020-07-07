@@ -1,4 +1,3 @@
-
 <properties
 pageTitle="Agent not reporting data or Heartbeat data missing"
 description="Agent not reporting data or Heartbeat data missing"
