@@ -1,25 +1,25 @@
 
 <properties
-pageTitle="Grafana dashboards issue"
-description="Grafana dashboards issue"
-articleId="problemscopingques-grafana-dashboards-issue"
+pageTitle="Power BI dashboards issue"
+description="Power BI dashboards issue"
+articleId="problemscopingques-power-bi-dashboards-issue"
 authors="neilghuman"
 ms.author="neghuman"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32727884"
+supportTopicIds="32727885"
 productPesIds="15725"
 cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 schemaVersion="1"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
-# Grafana dashboards issue
+# Power BI dashboards issue
 ---
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Grafana dashboards issue",
+    "title": "Power BI dashboards issue",
     "fileAttachmentHint": "If possible, please upload screenshots and additional attachments which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
@@ -37,16 +37,16 @@ schemaVersion="1"
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Visualization issue in Grafana",
-                    "text": "Visualization issue in Grafana"
+                    "value": "Visualization issue in Power BI dashboard",
+                    "text": "Visualization issue in Power BI dashboard"
                 },
                 {
-                    "value": "Data missing or incorrect in Grafana",
-                    "text": "Data missing or incorrect in Grafana"
+                    "value": "Data missing or incorrect in Power BI dashboard",
+                    "text": "Data missing or incorrect in Power BI dashboard"
                 },
                                 {
-                    "value": "Setting up the integration between Azure Monitor Logs and Grafana",
-                    "text": "Setting up the integration between Azure Monitor Logs and Grafana"
+                    "value": "Setting up the integration between Azure Monitor Logs and Power BI",
+                    "text": "Setting up the integration between Azure Monitor Logs and Power BI"
                 },
                                 {
                     "value": "Timeout while retrieving the data from the Log Analytics workspace",
@@ -130,7 +130,7 @@ schemaVersion="1"
             "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the query being executed?",
-            "watermarkText": "Please enter the full query being executed to retrieve the data into Grafana",
+            "watermarkText": "Please enter the full query being executed to retrieve the data into Power BI",
             "required": false
         },
         {
