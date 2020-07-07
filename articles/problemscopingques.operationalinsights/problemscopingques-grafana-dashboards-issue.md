@@ -20,7 +20,7 @@ schemaVersion="1"
     "subscriptionRequired": true,
     "resourceRequired": false,
     "title": "Grafana dashboards issue",
-    "fileAttachmentHint": "If possible, please upload screenshots and additional attachments which may help the support engineer troubleshoot your issue.",
+    "fileAttachmentHint": "If possible, please upload screenshots and any additional attachments which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
             "id": "problem_start_time",
