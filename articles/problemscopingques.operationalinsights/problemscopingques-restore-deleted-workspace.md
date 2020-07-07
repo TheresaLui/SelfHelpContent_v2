@@ -36,7 +36,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "displayLabel": "What is the workspace name or workspace ID of the deleted workspace?",
             "watermarkText": "Enter the 32 characters workspace ID or the workspace name",
             "required": false,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": false
         },
         {
             "id": "how_method",
