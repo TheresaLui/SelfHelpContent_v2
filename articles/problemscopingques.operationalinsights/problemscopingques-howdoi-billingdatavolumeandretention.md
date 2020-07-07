@@ -28,7 +28,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "required": true
         },
         {
-            "id": "is_it_azure_vm",
+            "id": "disputing_charge",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Are you disputing a charge on your bill?",
@@ -65,7 +65,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "id": "usage_query",
             "order": 4,
             "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
+            "useAsAdditionalDetails": false,
             "displayLabel": "If the issue is usage related, kindly provide query used to retrieve data set.",
             "watermarkText": "Please enter the full query being executed, including the time interval",
             "required": false
@@ -74,7 +74,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
+            "useAsAdditionalDetails": false,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": false
