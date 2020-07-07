@@ -16,7 +16,8 @@ ownershipId="AzureMonitoring_LogAnalytics"
 # Billing data volume and retention
 ---
 {
-    "resourceRequired": true,
+    "resourceRequired": false,
+    "subscriptionRequired": true,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "Please provide a screenshot including any dashboard or view of where you're seeing the billing and\or usage issue.",
     "formElements": [

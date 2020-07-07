@@ -17,7 +17,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "Please provide a screenshot of any errors and please also attach all relevant JSON files related with the ARM template. JSON files must be compressed and uploaded in ZIP format.",
     "formElements": [

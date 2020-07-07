@@ -18,7 +18,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "",
     "formElements": [
