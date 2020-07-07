@@ -24,7 +24,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error.",
-            "required": true,
+            "required": true
         },
         {
             "id": "problem_end_time",
@@ -32,7 +32,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem stop? (If ongoing, leave this field blank)",
             "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
-            "required": false,
+            "required": false
         },
         {
             "id": "problem_description",
@@ -42,7 +42,7 @@
             "required": true,
             "useAsAdditionalDetails": true,
             "watermarkText": "Always provide the full error text from Azure Container Instances when possible."
-	    "required": true,
+	    "required": true
         },
         {
             "id": "local_repro",
