@@ -5,12 +5,12 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588394, 32588401, 32588400"
 	productPesIds="16326"
-	cloudEnvironments="public, Fairfax"
-	articleId="aci-failed-deployment"
+	cloudEnvironments="public, fairfax"
 	schemaVersion="1"
+	articleId="aci-failed-deployment"
 	ownershipId="compute-containerinstances-cs"
 />
-# ACI 
+# ACI failed deployment
 ---
 {
     "$schema": "SelfHelpContent",
