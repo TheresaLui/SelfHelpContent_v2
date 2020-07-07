@@ -17,8 +17,6 @@
     "resourceRequired": false,
     "subscriptionRequired": false,
     "title": "ACI failed deployment",
-    "fileAttachmentHint": "",
-    "diagnosticCard": "",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -91,3 +89,4 @@
         }
     ]
 }
+---
