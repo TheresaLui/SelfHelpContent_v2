@@ -149,7 +149,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "displayLabel": "What version of Windows are you running?",
             "watermarkText": "Enter the Windows version",
             "required": false
-        }, 
+        },
         {
             "id": "win_version",
             "order": 8,

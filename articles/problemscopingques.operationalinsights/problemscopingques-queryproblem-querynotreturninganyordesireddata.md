@@ -48,7 +48,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
                 }
             ],
             "required": false
-        }, 
+        },
         {
             "id": "is_multiple_users",
             "order": 3,
@@ -93,7 +93,6 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "id": "expected_resualts",
             "order": 6,
             "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
             "displayLabel": "What were the expected query results?",
             "watermarkText": "Please include as much details as possible",
             "required": false,

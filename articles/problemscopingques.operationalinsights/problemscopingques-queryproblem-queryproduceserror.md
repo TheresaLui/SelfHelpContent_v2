@@ -2,7 +2,7 @@
 <properties
 pageTitle="Query produces error"
 description="Query produces error"
-articleId="problemscopingques-queryproduceserror"
+articleId="problemscopingques-Query_produces_error_times_out_or_too_slow"
 authors="shemers"
 ms.author="shemers"
 selfHelpType="problemScopingQuestions"
@@ -106,11 +106,9 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "id": "query_desc",
             "order": 6,
             "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
             "displayLabel": "What is the query being executed?",
             "watermarkText": "Please enter the full query being executed",
-            "required": true,
-            "hints": []
+            "required": true
         },
         {
             "id": "attachment",
