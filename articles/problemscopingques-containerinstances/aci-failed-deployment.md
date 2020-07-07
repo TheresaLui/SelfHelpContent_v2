@@ -84,7 +84,6 @@
         {
             "id": "last_successful_deployment",
             "order": 6,
-            //presented ONLY when the condition is met
             "visibility": "previous_success == Yes",
             "controlType": "datetimepicker",
             "displayLabel": "When was your last successful deployment on ACI?",
