@@ -3,8 +3,8 @@
 pageTitle="Agent not reporting data or Heartbeat data missing"
 description="Agent not reporting data or Heartbeat data missing"
 articleId="problemscopingques-Windows_Agent not reporting data or Heartbeat data missing"
-authors="yossiy"
-ms.author="yossiy"
+authors="yossiy,luki,shemers"
+ms.author="yossiy,luki,shemers"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612463"
 productPesIds="15725"
@@ -16,8 +16,9 @@ schemaVersion="1"
 # Agent not reporting data or Heartbeat data missing
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Restore deleted workspace",
+    "title": "Agent not reporting data or Heartbeat data missing",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -25,7 +26,7 @@ schemaVersion="1"
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": false
         },
         {
             "id": "single_multiple_machines",
@@ -35,23 +36,64 @@ schemaVersion="1"
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Single machine",
-                    "text": "Single machine"
+                    "value": "Single Azure Virtual machine",
+                    "text": "Single Azure Virtual machine"
                 },
                 {
-                    "value": "Multiple machines",
-                    "text": "Multiple machines"
+                    "value": "Single Non-Azure machine",
+                    "text": "Single Non-Azure machine"
+                },
+                {
+                    "value": "Multiple Azure Virtual machines",
+                    "text": "Multiple Azure Virtual machines"
+                },
+                {
+                    "value": "Multiple Non-Azure machines",
+                    "text": "Multiple Non-Azure machines"
+                },
+                {
+                    "value": "Multiple Azure Virtual machines and Non-Azure machines",
+                    "text": "Multiple Azure Virtual machines and Non-Azure machines"
                 },
                 {
                     "value": "dont_know_answer",
                     "text": "Not sure"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
+        },
+          {
+            "id": "virtualmachine_id",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Please select affected virtual machine name.",
+            "watermarkText": "Choose an option",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/providers/Microsoft.Compute/virtualMachines?api-version=2018-10-01",
+               "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to get the list of virtual machines",
+                    "text": "Unable to get the list of virtual machines"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "affected_machine",
+            "order": 6,
+            "controlType": "textbox",
+            "displayLabel": "What's the name of an affected machine? If there are multiple, please include a few names",
+            "watermarkText": "Enter the name of the machine(s)",
+            "required": false
         },
         {
             "id": "is_it_azure_vm",
