@@ -60,12 +60,12 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "watermarkText": "Please enter the solution name as displayed on the Azure portal",
             "required": false
         },
-                {
+        {
             "id": "platform",
             "order": 9,
             "visibility": "type_of_issue == Platform"
             "controlType": "textbox",
-            "displayLabel": "What is the Azure platform log type and/or name?",
+            "displayLabel": "What is the Azure platform log type or name?",
             "watermarkText": "Please enter the log type or name as displayed on the Azure portal",
             "required": false
         },
