@@ -73,16 +73,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "problem_description",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": false,
-            "displayLabel": "Additional details",
-            "watermarkText": "Provide additional information about your issue",
-            "required": false
-        },
-        {
-            "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
