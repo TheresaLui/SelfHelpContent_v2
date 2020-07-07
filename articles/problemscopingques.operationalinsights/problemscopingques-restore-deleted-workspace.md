@@ -37,7 +37,6 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "watermarkText": "Enter the 32 characters workspace ID or the workspace name",
             "required": false,
             "useAsAdditionalDetails": false,
-            "hints": []
         },
         {
             "id": "how_method",
