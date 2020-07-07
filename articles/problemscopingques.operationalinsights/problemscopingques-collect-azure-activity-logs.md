@@ -30,28 +30,6 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "required": true
         },
         {
-            "id": "subscription_same",
-            "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Is the Log Analytics workspace located on the same subscription where you've configured the data to be collected?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Same subscription",
-                    "text": "Same subscription"
-                },
-                {
-                    "value": "Different subscription on the same tenant",
-                    "text": "Different subscription on the same tenant"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know / Not sure"
-                }
-            ],
-            "required": false
-        },
-        {
             "id": "activity_data",
             "order": 4,
             "controlType": "dropdown",
