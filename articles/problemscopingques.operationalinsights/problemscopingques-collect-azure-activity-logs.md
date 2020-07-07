@@ -31,7 +31,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "activity_data",
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Is all the Azure Activity data missing, incomplete or incorrect?",
             "watermarkText": "Choose an option",
