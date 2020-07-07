@@ -66,7 +66,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
                     "value": "Azure Activity data is showing up, but some details are incomplete",
                     "text": "Azure Activity data is showing up, but some details are incomplete"
                 },
-                                {
+                {
                     "value": "Azure Activity data is showing up, but some details are incorrect",
                     "text": "Azure Activity data is showing up, but some details are incorrect"
                 },
