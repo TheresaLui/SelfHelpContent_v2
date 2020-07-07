@@ -3,8 +3,8 @@
 pageTitle="Billing, data volume and retention"
 description="Billing, data volume and retention"
 articleId="problemscopingques-Billing_data_volume_and_retention"
-authors="yossiy"
-ms.author="yossiy"
+authors="yossiy,neilghuman"
+ms.author="yossiy,neghuman"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612512"
 productPesIds="15725"
@@ -18,7 +18,7 @@ schemaVersion="1"
 {
     "resourceRequired": true,
     "title": "Restore deleted workspace",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Please provide a screenshot including any dashboard or view of where you're seeing the billing and\or usage issue.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -62,12 +62,30 @@ schemaVersion="1"
             "required": false
         },
         {
+            "id": "usage_query",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "If the issue is usage related, kindly provide query used to retrieve data set.",
+            "watermarkText": "Please enter the full query being executed, including the time interval",
+            "required": false
+        }
+        {
             "id": "problem_description",
             "order": 4,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
+            "required": false
+        }
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": true,
+            "displayLabel": "Additional details",
+            "watermarkText": "Describe the issue, including as much detail as possible including what changes might have happened in the environment that might be related with the issue",
             "required": true,
             "hints": []
         }
