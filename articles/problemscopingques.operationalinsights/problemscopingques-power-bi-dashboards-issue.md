@@ -1,25 +1,25 @@
 
 <properties
-pageTitle="Power BI dashboards issue"
-description="Power BI dashboards issue"
-articleId="problemscopingques-power-bi-dashboards-issue"
+pageTitle="My query is slow or timing out"
+description="My query is slow or timing out"
+articleId="problemscopingques-my-query-is-slow-or-timing-out"
 authors="neilghuman"
 ms.author="neghuman"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32727885"
+supportTopicIds="32727887"
 productPesIds="15725"
 cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 schemaVersion="1"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
-# Power BI dashboards issue
+# My query is slow or timing out
 ---
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": false,
-    "title": "Power BI dashboards issue",
+    "title": "My query is slow or timing out",
     "fileAttachmentHint": "If possible, please upload screenshots and additional attachments which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
@@ -27,36 +27,6 @@ schemaVersion="1"
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
-        },
-        {
-            "id": "type_of_issue",
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "What type of issue is occurring?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Visualization issue in Power BI dashboard",
-                    "text": "Visualization issue in Power BI dashboard"
-                },
-                {
-                    "value": "Data missing or incorrect in Power BI dashboard",
-                    "text": "Data missing or incorrect in Power BI dashboard"
-                },
-                                {
-                    "value": "Setting up the integration between Azure Monitor Logs and Power BI",
-                    "text": "Setting up the integration between Azure Monitor Logs and Power BI"
-                },
-                                {
-                    "value": "Timeout while retrieving the data from the Log Analytics workspace",
-                    "text": "Timeout while retrieving the data from the Log Analytics workspace"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know / Not sure"
-                }
-            ],
             "required": true
         },
         {
@@ -101,7 +71,7 @@ schemaVersion="1"
                     "text": "Don't know / Not sure"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "itermittent_or_consistant",
@@ -126,12 +96,20 @@ schemaVersion="1"
             "required": false
         },
         {
+            "id": "request_id",
+            "order": 6,
+            "controlType": "textbox",
+            "displayLabel": "What is the request id for the query?",
+            "watermarkText": "Please enter the 32 character request id displayed on the error message",
+            "required": false
+        },
+        {
             "id": "query_being_executed",
             "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the query being executed?",
-            "watermarkText": "Please enter the full query being executed to retrieve the data into Power BI",
-            "required": false
+            "watermarkText": "Please enter the full query being executed",
+            "required": true
         },
         {
             "id": "problem_description",
