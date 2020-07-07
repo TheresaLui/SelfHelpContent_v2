@@ -76,7 +76,7 @@ schemaVersion="1"
         {
             "id": "consistant",
             "order": 8,
-            "visibility": "itermittent_or_consistant == Consistant"
+            "visibility": "itermittent_or_consistant == Consistant",
             "controlType": "multilinetextbox",
             "displayLabel": "As the issue is constant, would you please describe how to reproduce the issue?",
             "watermarkText": "Please write the detailed steps to reproduce the issue",
