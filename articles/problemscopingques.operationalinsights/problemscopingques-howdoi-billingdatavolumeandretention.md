@@ -10,12 +10,13 @@ supportTopicIds="32612512"
 productPesIds="15725"
 cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 schemaVersion="1"
-ownershipId="AzureMonitoring_LogAnalytics"
+
 />
 
 # Billing data volume and retention
 ---
 {
+    "$schema": "SelfHelpContent"
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Restore deleted workspace",
@@ -29,6 +30,49 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "required": true
         },
         {
+            "id": "disputing_charge",
+            "order": 2,
+            "controlType": "dropdown",
+            "displayLabel": "Are you disputing a charge on your bill?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not sure"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "error_message",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "What is your current data retention setting in days?",
+            "watermarkText": "e.g. 31, 90, 180, etc.",
+            "required": false
+        },
+        {
+            "id": "usage_query",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "useAsAdditionalDetails": false,
+            "displayLabel": "If the issue is usage related, kindly provide query used to retrieve data set.",
+            "watermarkText": "Please enter the full query being executed, including the time interval",
+            "required": false
+        },
+        {
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
@@ -39,6 +83,5 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "hints": []
         }
     ],
-    "$schema": "SelfHelpContent"
 }
 ---
