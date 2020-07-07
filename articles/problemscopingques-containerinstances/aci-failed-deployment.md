@@ -1,8 +1,6 @@
 <properties
 	pageTitle="aci failed deployment"
 	description="aci failed deployment"
-	service="microsoft.containerinstances"
-	authors="macolso1"
 	ms.author="macolso"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588394, 32588401, 32588400"
