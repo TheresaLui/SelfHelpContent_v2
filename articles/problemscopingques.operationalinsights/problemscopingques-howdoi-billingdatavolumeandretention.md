@@ -8,7 +8,7 @@ ms.author="yossiy,neghuman"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612512"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax, usnat, ussec"
+cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 schemaVersion="1"
 ownershipId="AzureMonitoring_LogAnalytics"
 />
@@ -69,7 +69,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "displayLabel": "If the issue is usage related, kindly provide query used to retrieve data set.",
             "watermarkText": "Please enter the full query being executed, including the time interval",
             "required": false
-        }
+        },
         {
             "id": "problem_description",
             "order": 4,
@@ -78,7 +78,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
             "required": false
-        }
+        },
         {
             "id": "problem_description",
             "order": 4,
