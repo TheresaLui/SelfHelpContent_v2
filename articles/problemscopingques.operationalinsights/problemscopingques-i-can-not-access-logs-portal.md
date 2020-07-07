@@ -96,7 +96,7 @@ schemaVersion="1"
             "required": false
         },
         {
-            "id": "itermittent_or_consistant",
+            "id": "browser_occurrence",
             "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Is the issue occurring on all browsers?",
