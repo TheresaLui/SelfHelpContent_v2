@@ -63,9 +63,9 @@ ownershipId="AzureMonitoring_LogAnalytics"
         {
             "id": "platform",
             "order": 9,
-            "visibility": "type_of_issue == Platform"
+            "visibility": "type_of_issue == Platform",
             "controlType": "textbox",
-            "displayLabel": "What is the Azure platform log type or name?",
+            "displayLabel": "What is the Azure platform log type and/or name?",
             "watermarkText": "Please enter the log type or name as displayed on the Azure portal",
             "required": false
         },
