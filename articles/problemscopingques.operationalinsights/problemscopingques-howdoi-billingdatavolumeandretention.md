@@ -2,9 +2,9 @@
 <properties
 pageTitle="Billing data volume and retention"
 description="Billing data volume and retention"
-articleId="problemscopingques-Billing_data_volume_and_retention"
-authors="yossiy,neilghuman"
-ms.author="yossiy,neghuman"
+articleId="problemscopingques-billing_data_volume_and_retention"
+authors="yossiy, neilghuman"
+ms.author="yossiy, neghuman"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612512"
 productPesIds="15725"
