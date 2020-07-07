@@ -10,7 +10,7 @@ supportTopicIds="32612463"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
-	ownershipId="AzureMonitoring_LogAnalytics"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Agent not reporting data or Heartbeat data missing
@@ -64,7 +64,7 @@ schemaVersion="1"
         },
           {
             "id": "virtualmachine_id",
-            "order": 3,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Please select affected virtual machine name.",
             "watermarkText": "Choose an option",
@@ -89,17 +89,17 @@ schemaVersion="1"
         },
         {
             "id": "affected_machine",
-            "order": 6,
+            "order": 3,
             "controlType": "textbox",
-            "displayLabel": "What's the name of an affected machine? If there are multiple, please include a few names",
+            "displayLabel": "If any of the affected machine is a non-Azure machine, please type the machine(s) name",
             "watermarkText": "Enter the name of the machine(s)",
             "required": false
         },
         {
-            "id": "is_it_azure_vm",
-            "order": 3,
+            "id": "is_troubleshooting",
+            "order": 4
             "controlType": "dropdown",
-            "displayLabel": "Is this an Azure VM?",
+            "displayLabel": "Have you tried to execute the agent troubleshooting tool to fix this problem?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -112,59 +112,47 @@ schemaVersion="1"
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Not sure"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
+                    "text": Not sure"
                 }
             ],
             "required": true
         },
         {
-            "id": "flush_agent",
-            "order": 4,
+            "id": "missing_data",
+            "order": 5,
             "controlType": "dropdown",
-            "displayLabel": "Have you tried to flush the agent cache?",
+            "displayLabel": "	5. What data is missing?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Yes",
-                    "text": "Yes"
+                    "value": "All data, including heartbeat",
+                    "text": "All data, including heartbeat"
                 },
                 {
-                    "value": "No",
-                    "text": "No"
+                    "value": "Only heartbeat data",
+                    "text": "Only heartbeat data"
+                },
+                {
+                    "value": "Just some data type(s)",
+                    "text": "Just some data type(s)"
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Not sure"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
+                    "text": Not sure"
                 }
             ],
             "required": true
         },
         {
             "id": "error_message",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "What error are you seeing?",
-            "watermarkText": "Enter the error message",
-            "required": false
-        },
-        {
-            "id": "affected_machine",
             "order": 6,
             "controlType": "textbox",
-            "displayLabel": "What's the name of an affected machine? If there are multiple, please include a few names",
-            "watermarkText": "Enter the name of the machine(s)",
+            "displayLabel": "What version of Windows are you running?",
+            "watermarkText": "Enter the Windows version",
             "required": false
-        },
+        }, 
         {
-            "id": "agen_version",
+            "id": "win_version",
             "order": 7,
             "controlType": "textbox",
             "displayLabel": "What version of Windows are you running?",
@@ -177,9 +165,13 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
-            "watermarkText": "Provide additional information about your issue",
+            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of error messages where available. If only some data type(s) are missing, please specify which one(s).",
             "required": true,
-            "hints": []
+            "hints": [
+                {
+                    "text": "Please provide a screenshot of any errors. In case you’re using an ARM template, please also attach all relevant JSON files."
+                }
+            ]
         }
     ],
     "$schema": "SelfHelpContent"
