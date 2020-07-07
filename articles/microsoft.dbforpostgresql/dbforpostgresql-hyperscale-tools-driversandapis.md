@@ -16,6 +16,6 @@
 
 # Client drivers and APIs
 
-## *Recommended Steps*
+## **Recommended Steps**
 * When connecting to Hyperscale (Citus), ensure you are connecting to the database called `citus`
 * The default and most highly privileged role (user) on Hyperscale (Citus) is called `citus`. You can [create other users](https://docs.microsoft.com/azure/postgresql/howto-hyperscale-create-users).
