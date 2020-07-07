@@ -13,7 +13,7 @@ schemaVersion="1"
 ownershipId="AzureMonitoring_LogAnalytics"
 />
 
-# Billing, data volume and retention
+# Billing data volume and retention
 ---
 {
     "resourceRequired": true,
