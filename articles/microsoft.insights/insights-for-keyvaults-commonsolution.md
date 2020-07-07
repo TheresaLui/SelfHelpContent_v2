@@ -19,7 +19,7 @@
 
 Most customers resolved their questions about Azure Monitor for Azure Cache for Key Vault on their own with the links below.
 
-- [Explore Azure Monitor for Key Vault](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/key-vault-insights-overview):
+- [Explore Azure Monitor for Key Vault](https://docs.microsoft.com/azure/azure-monitor/insights/key-vault-insights-overview):
 
 	* For issues related to customizing Azure Monitor for Key Vault-[Customize Azure Monitor for Key Vault](https://docs.microsoft.com/azure/azure-monitor/insights/key-vault-insights-overview#customize-azure-monitor-for-key-vault)<br>
 	* For issues related to troubleshooting Azure Monitor for Key Vault -[Troubleshooting Azure Monitor for Key Vault](https://docs.microsoft.com/azure/azure-monitor/insights/key-vault-insights-overview#troubleshooting)<br>
