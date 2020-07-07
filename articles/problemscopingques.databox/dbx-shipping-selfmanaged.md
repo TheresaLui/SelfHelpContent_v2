@@ -100,7 +100,7 @@
                 }
             ],
             "required": true
-        },  
+        },
         {
             "id": "problem_description",
             "order": 600,
