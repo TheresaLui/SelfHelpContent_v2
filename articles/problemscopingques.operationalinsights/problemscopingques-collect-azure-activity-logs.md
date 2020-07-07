@@ -43,7 +43,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
                 {
                     "value": "Different subscription on the same tenant",
                     "text": "Different subscription on the same tenant"
-                },    
+                },
                 {
                     "value": "dont_know_answer",
                     "text": "Don't know / Not sure"
