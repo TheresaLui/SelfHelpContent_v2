@@ -112,7 +112,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": Not sure"
+                    "text": "Not sure"
                 }
             ],
             "required": true
@@ -138,7 +138,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": Not sure"
+                    "text": "Not sure"
                 }
             ],
             "required": true
