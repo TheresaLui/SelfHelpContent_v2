@@ -53,7 +53,7 @@ schemaVersion="1"
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "is_it_azure_vm",
