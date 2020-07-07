@@ -18,9 +18,6 @@
 
 ## **Recommended Steps**
 
-**Server Group (Cluster)**
-* Hyperscale (Citus) can be created and managed through the Azure portal only. CLI, ARM template, REST API are not currently supported. 
-
 **Roles (Users) and Databases**
 * The `citus` role (user) is the most privileged role available to you. The citus role has [various permissions](https://docs.microsoft.com/azure/postgresql/howto-hyperscale-create-users#the-server-admin-account) and two notable restrictions:
    * Cannot create databases
