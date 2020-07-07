@@ -83,7 +83,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "required": true
         },
                 {
-            "id": "lighthouse,
+            "id": "lighthouse",
             "order": 9,
             "controlType": "dropdown",
             "displayLabel": "Do you have Azure Lighthouse in your environment?",
