@@ -63,7 +63,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
           {
             "id": "virtualmachine_id",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Please select affected virtual machine name.",
             "watermarkText": "Choose an option",
@@ -88,7 +88,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "affected_machine",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "If any of the affected machine is a non-Azure machine, please type the machine(s) name",
             "watermarkText": "Enter the name of the machine(s)",
@@ -96,7 +96,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "is_troubleshooting",
-            "order": 4
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Have you tried to execute the agent troubleshooting tool to fix this problem?",
             "watermarkText": "Choose an option",
@@ -118,7 +118,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "missing_data",
-            "order": 5,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "	5. What data is missing?",
             "watermarkText": "Choose an option",
@@ -144,7 +144,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "error_message",
-            "order": 6,
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "What version of Windows are you running?",
             "watermarkText": "Enter the Windows version",
@@ -152,7 +152,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         }, 
         {
             "id": "win_version",
-            "order": 7,
+            "order": 8,
             "controlType": "textbox",
             "displayLabel": "What version of Windows are you running?",
             "watermarkText": "Enter the Windows version",
@@ -160,7 +160,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 9,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
