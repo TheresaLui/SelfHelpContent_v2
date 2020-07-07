@@ -30,7 +30,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "workspace",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "What is the workspace name or workspace ID of the deleted workspace?",
