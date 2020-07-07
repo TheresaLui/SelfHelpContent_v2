@@ -8,7 +8,7 @@ ms.author="yossiy,neghuman"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612544"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax, usnat, ussec"
+cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 schemaVersion="1"
 ownershipId="AzureMonitoring_LogAnalytics"
 />
@@ -16,6 +16,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
 # ARM templates, PowerShell and CLI
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "Please provide a screenshot of any errors and please also attach all relevant JSON files related with the ARM template. JSON files must be compressed and uploaded in ZIP format.",
