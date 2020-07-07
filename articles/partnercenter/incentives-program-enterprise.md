@@ -25,7 +25,7 @@ These resources explain enrollment, eligibility, earnings, payments, and policy 
 
 
 ### **Enrollment & eligibility**
-* [Partner Eligibility & Onboarding](https://support.microsoft.com/help/4532487/partner-eligibility-onboarding)
+* [Partner Eligibility & Onboarding](https://support.microsoft.com/help/4566966/enterprise-incentives-faq-s)
 
 ### **Earnings**
 * [Monitoring Azure consumption](https://support.microsoft.com/help/4532661/how-do-we-self-monitor-azure-consumption)
