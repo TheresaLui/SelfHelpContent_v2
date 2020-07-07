@@ -1,7 +1,7 @@
 
 <properties
-pageTitle="Billing, data volume and retention"
-description="Billing, data volume and retention"
+pageTitle="Billing data volume and retention"
+description="Billing data volume and retention"
 articleId="problemscopingques-Billing_data_volume_and_retention"
 authors="yossiy,neilghuman"
 ms.author="yossiy,neghuman"
@@ -10,7 +10,7 @@ supportTopicIds="32612512"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
-	ownershipId="AzureMonitoring_LogAnalytics"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Billing, data volume and retention
