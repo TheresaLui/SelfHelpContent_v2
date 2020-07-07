@@ -16,7 +16,7 @@
 
 # High availability
 
-High availability (HA) avoids database downtime by maintaining standby replicas of every node in a server group. 
+High availability (HA) avoids database downtime by maintaining standby replicas of every node in a server group using synchronous streaming replication. 
 
 ## **Recommended Steps**
 * [How to configure high availability](https://docs.microsoft.com/azure/postgresql/howto-hyperscale-high-availability)
