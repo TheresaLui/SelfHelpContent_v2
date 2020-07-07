@@ -10,7 +10,7 @@ supportTopicIds="32612439"
 productPesIds="15725"
 cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 schemaVersion="1"
-	ownershipId="AzureMonitoring_LogAnalytics"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Permissions and access control (IAM)
