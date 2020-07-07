@@ -16,7 +16,6 @@ ownershipId="AzureMonitoring_LogAnalytics"
 # Billing data volume and retention
 ---
 {
-    "$schema": "SelfHelpContent",
     "resourceRequired": false,
     "subscriptionRequired": true,
     "title": "Restore deleted workspace",
@@ -82,6 +81,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "required": true,
             "hints": []
         }
-    ]
+    ],
+    "$schema": "SelfHelpContent"
 }
 ---
