@@ -10,7 +10,7 @@ supportTopicIds="32612512"
 productPesIds="15725"
 cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 schemaVersion="1"
-
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Billing data volume and retention
@@ -82,6 +82,6 @@ schemaVersion="1"
             "required": true,
             "hints": []
         }
-    ],
+    ]
 }
 ---
