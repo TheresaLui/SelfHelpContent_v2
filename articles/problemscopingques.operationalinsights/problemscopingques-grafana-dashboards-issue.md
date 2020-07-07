@@ -130,40 +130,16 @@ schemaVersion="1"
             "required": false
         },
         {
-            "id": "error_message",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "What error are you seeing?",
-            "watermarkText": "Enter the error message",
-            "required": false
-        },
-        {
-            "id": "affected_machine",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "What's the name of an affected machine? If there are multiple, please include a few names",
-            "watermarkText": "Enter the name of the machine(s)",
-            "required": false
-        },
-        {
             "id": "query_being_executed",
-            "order": 6,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the query being executed?",
             "watermarkText": "Please enter the full query being executed to retrieve the data into Grafana",
             "required": false
         },
         {
-            "id": "vm_name",
-            "order": 7,
-            "controlType": "textbox",
-            "displayLabel": "What is the name of the VM/ARM Call?",
-            "watermarkText": "Enter the VM/ARM Call name(s)",
-            "required": false
-        },
-        {
             "id": "problem_description",
-            "order": 8,
+            "order": 10,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
