@@ -118,13 +118,8 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "id": "attachment",
             "order": 5,
             "controlType": "infoblock",
-            "content": "Attachment",
-            "required": false,
-            "hints": [
-                {
-                    "text": "Please provide a screenshot of any errors. In case you’re using an ARM template, please also attach all relevant JSON files."
-                }
-            ]
+            "content": "Please provide a screenshot of any errors. In case you’re using an ARM template, please also attach all relevant JSON files.",
+            "required": false
         },
         {
             "id": "problem_description",

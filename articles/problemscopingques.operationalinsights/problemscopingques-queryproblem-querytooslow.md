@@ -127,11 +127,9 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "id": "query_desc",
             "order": 7,
             "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
             "displayLabel": "What is the query being executed?",
             "watermarkText": "Please enter the full query being executed",
-            "required": true,
-            "hints": []
+            "required": true
         },
         {
             "id": "attachment",

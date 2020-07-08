@@ -70,7 +70,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
                 }
             ],
             "required": false
-        }, 
+        },
         {
             "id": "request_id",
             "order": 4,
