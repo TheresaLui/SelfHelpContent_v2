@@ -20,11 +20,11 @@
  
 <!--issueDescription-->
 
-We have identified that your operation for enabling the backup failed because another operation in progress.
+We have identified that your operation for enabling the backup failed because another operation is in progress.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
 To resolve this issue, perform the following:
-- Ensure the operation currently in progress is completed and retry the backup. For more info, refer this [article](https://docs.microsoft.com/azure/backup/troubleshoot-azure-files#bmsusererrorobjectlocked--another-operation-is-in-progress-on-the-selected-item)
-- Review the backup scheduling limits in this [article](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#are-there-limits-on-backup-scheduling)
+- Ensure the operation currently in progress is completed and retry the backup. For more info, refer this [article](https://docs.microsoft.com/azure/backup/troubleshoot-azure-files#bmsusererrorobjectlocked--another-operation-is-in-progress-on-the-selected-item).
+- Review the backup scheduling limits listed in this [article](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#are-there-limits-on-backup-scheduling).
