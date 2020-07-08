@@ -35,7 +35,7 @@ Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for c
 	* [Delete a Cluster](https://docs.azuredatabricks.net/clusters/clusters-manage.html#cluster-delete)
 
 ### **Troubleshooting**
-* [Unexpected Cluster Termination](https://kb.azuredatabricks.net/clusters/termination-reasons.html#unexpected-cluster-termination)
+* [Unexpected Cluster Termination](https://docs.microsoft.com/azure/databricks/kb/clusters/termination-reasons)
 * [Error: The subscription is not registered to use namespace 'Microsoft.Compute'](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-register-provider-errors)
 
 ## **Recommended Documents**
