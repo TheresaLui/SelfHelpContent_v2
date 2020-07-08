@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="138e57d5-294b-43d2-97d9-1f60ce0f63d0"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -29,7 +29,3 @@ Often, this is caused by a forced tunneling rule.
 ## Recommended Documents
 
 1. https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-forced-tunneling-rm
-
-Did this solve?
-Yes --> Solution
-No --> Escalation

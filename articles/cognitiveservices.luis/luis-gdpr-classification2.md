@@ -13,7 +13,7 @@
 	supportTopicIds="32683897"
 	resourceTags="luis"
 	productPesIds="16869"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
     ownershipId="AzureCogSvc_CognitiveServices"
 />
 

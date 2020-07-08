@@ -27,13 +27,13 @@ The following details explain how to set up and update common access and permiss
 
 * If you're looking to change the administrator password for a SQL pool in Synapse Workspace, you can simply click "Reset SQL admin password" at the top of the Synapse workspace resource blade
 
-* To set-up and connect to SQL pool using [Azure Active Directory](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-authentication/) authentication
+* Follow the configuration steps to set-up and connect to SQL pool using [Azure Active Directory](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-authentication/) authentication
 
 * [Secure your SQL Pool](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-overview-manage-security/)
 
 ### What access control can be done at the server level
 
-* Roles cannot be made at the [server level](https://docs.microsoft.com/sql/relational-databases/security/authentication-access/create-a-server-role?view=sql-server-2017&viewFallbackFrom=sql-server-2017?WT.mc_id=pid:13491:sid:32630403/), they must be made at the database level
+* Server-level permissions are not available in Synapse SQL. For more information, see [Using fixed and custom database roles](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins#using-fixed-and-custom-database-roles).
 
 ## **Recommended Documents**
 

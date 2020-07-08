@@ -14,8 +14,8 @@
 	clientIds='partnercenter'
 	resourceTags="PartnerCenter_Incentives"
 	productPesIds="17005"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Payouts"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Incentives"
 />
 
 # Partner Center Incentives: Payment status

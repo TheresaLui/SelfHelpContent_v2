@@ -20,8 +20,10 @@
 1. Open up Kusto or Kusto.WebExplorer to https://armprod.kusto.windows.net:443/ARMProd
 2. Edit the StorageAccount name and adjust the time range parameters and run the following query:
 
-~~~sql
+~~~kusto
+
 ShoeboxEntries | where resourceId contains '/StorageAccountName'| where TIMESTAMP > ago(1d) and resultType == 'Failure' | project PreciseTimeStamp , resourceId , operationName , resultSignature , properties, correlationId
+
 ~~~
 
 3. When the relevant operation is found, take note of the timeframe of the operation(PreciseTimeStamp) and CorrelationId.

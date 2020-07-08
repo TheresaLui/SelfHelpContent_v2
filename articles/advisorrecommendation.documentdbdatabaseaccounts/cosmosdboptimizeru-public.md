@@ -5,7 +5,7 @@
     ms.author="aoaft"
     articleId="8b993855-1b3f-4392-8860-6ed4f5afd8a7_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureData_AzureCosmosDB"
 />
 # Provision the optimal amount of Request Units for Azure Cosmos DB

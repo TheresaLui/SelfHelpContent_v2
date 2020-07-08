@@ -6,7 +6,7 @@
 	authors="jimsch" 
 	ms.author="jimsch" 
 	selfHelpType="generic" 
-	supportTopicIds="32636812,32688840,32681010"
+	supportTopicIds="32741535,32688840,32681010"
 	resourceTags="" 
 	productPesIds="15585" 
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
@@ -51,7 +51,7 @@ You can use both strategies but you should keep in mind that when indexer runs i
 [Troubleshoot issues when you use the Java Async SDK with Azure Cosmos DB SQL API accounts](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-java-async-sdk)
 <br>This article covers common issues, workarounds, diagnostic steps, and tools when you use the Java Async SDK with Azure Cosmos DB SQL API accounts. The Java Async SDK provides client-side logical representation to access the Azure Cosmos DB SQL API. This article describes tools and approaches to help you if you run into any issues.  
 
-[FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api)
+[FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api-faq)
 <br>Frequently asked questions about Cosmos DB SQL API.  
 
 [How can I improve my database performance?](https://docs.microsoft.com/azure/cosmos-db/performance-tips)

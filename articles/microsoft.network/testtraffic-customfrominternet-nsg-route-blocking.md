@@ -19,28 +19,26 @@ ownershipId="CloudNet_VirtualNetwork"
 
 # Traffic is blocked by NSG and altered by UDR
 
-### **<!--$VmName-->VmName<!--/$VmName-->**: <!--$InsightTitle-->InsightTitle<!--/$InsightTitle-->
-
 <!--issueDescription-->
-We have identified a problem that prevents network traffic flowing from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$VmName-->VmName<!--/$VmName--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that one or both of the following conditions exist:<br>
+We have identified a problem that prevents network traffic from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the virtual machine <!--$VmName-->VmName<!--/$VmName--> on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Our diagnostics detected that both of the following conditions exist:<br>
 
-1.Network security group <!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName--> has rule <!--$SecurityRuleName-->SecurityRuleName<!--/$SecurityRuleName--> that is causing this issue.<br>
-2.User-defined route tables have a route that is causing this issue.
+. Network security group "<!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName-->" has rule "<!--$SecurityRuleName-->SecurityRuleName<!--/$SecurityRuleName-->" that is causing this issue.<br>
+. User-defined route tables have a route that is causing this issue.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-* If the access control result is not the desired result, remove or relax the <!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName--> network security group to allow network traffic to flow from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$VmName-->VmName<!--/$VmName--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Or, you can create an INBOUND basic rule that has a higher priority (lower number) than have the existing rules that specify port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. To do this, follow these steps:
+To resolve the issue that is caused by the network security group, remove the network security group "<!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName-->" to allow network traffic to flow from <!--$SourceIp-->SourceIp<!--/$SourceIp--> to the <!--$VmName-->VmName<!--/$VmName--> virtual machine on port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->. Or, you can create an INBOUND basic rule that has a higher priority (lower number) than have the existing rules that specify port <!--$DestinationPort-->DestinationPort<!--/$DestinationPort-->.
 
-    1. Open the [Azure portal](https://portal.azure.com) and browse to the [Network Security Group blade](https://portal.azure.com/?feature.customportal=false#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FNetworkSecurityGroups)
-    2. Open your **<!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName-->** network security group
-    3. Add an **Allow** rule for the **<!--$SourceIp-->SourceIp<!--/$SourceIp-->** IP address that has a lower number (higher priority) than has the Block rule
-    4. Save the changes, and check the traffic status again
+To do this, follow these steps:
 
-* You can use [Next hop](https://docs.microsoft.com/azure/network-watcher/network-watcher-next-hop-overview) to learn which custom route alters the traffic flow:
+1. Open the [Azure portal](https://portal.azure.com) and browse to the [Network Security Group blade](https://portal.azure.com/?feature.customportal=false#blade/HubsExtension/Resources/resourceType/Microsoft.Network%2FNetworkSecurityGroups).
+2. Open your <!--$DestinationNsgName-->DestinationNsgName<!--/$DestinationNsgName--> network security group.
+3. Add an **Allow** rule for the <!--$SourceIp-->SourceIp<!--/$SourceIp--> IP address that has a lower number (higher priority) than has the Block rule
+4. Save the changes, and check the traffic status again.
 
-    If the routing method does not produce the desired result, examine the [User-defined route tables](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Network/routeTables) to make sure that the routing is set up correctly. You can try to disassociate questionable User-defined route tables from the affected subnet to determine whether that resolves the issue.
+To resolve the routing issue with User-defined route tables, you can use [Next hop](https://docs.microsoft.com/azure/network-watcher/network-watcher-next-hop-overview) to find out which custom route is altering the traffic flow, and examine the [User-defined route tables]( https://ms.portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FrouteTables) to make sure that the routing is set up correctly. You can try to disassociate questionable User-defined route tables from the affected subnet to determine whether that resolves the issue.
 
-### Tests Executed
+### **Tests Executed**
 
 <!--$TestTrafficExecutionDetails-->TestTrafficExecutionDetails<!--/$TestTrafficExecutionDetails-->

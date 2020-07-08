@@ -23,13 +23,13 @@ Use the 'Test Traffic' utility to check for blocking Network Security Group Rule
    * Node Id: Auto Populated by ASC
    * Container Id: Auto Populated by ASC
    * Source IP: ***<'Destination' private IP address>***
-   * Source Port: 55555
+   * Source Port: ***55555***
    * Destination IP: ***<'Source' private IP address>***
    * Destination Port: ***<'choose port the customer is testing with'>***
-   * Transport Protocol: TCP
+   * Transport Protocol: ***TCP***
 4. Make note of the following: 
-   * The 'Test Result' for the "Stateful Test (NSG Layer)" and the blocking Rule Name listed.
-   * The "Stateless Test (Routing Layer)" any 'NSG or Routing Layer' and the blocking Rule Name listed.
+   * The 'Test Result' for the "Stateful Test (NSG Layer)" and the blocking rule name listed.
+   * The "Stateless Test (Routing Layer)" any 'NSG or Routing Layer' and the blocking rule name listed.
 
 ## **Recommended Documents**
 

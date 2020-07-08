@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="2a894ab8-a282-419c-8d07-33a9e2652c0e"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -22,7 +22,3 @@ There might be multiple clients, so the customer needs to tell us which one he i
 ## Recommended Steps
 
 1. Check the SR verbatim or with the customer directly to see which type of client the customer is using during testing
-
-Which client is the customer using?
-- Azure VPN Client
-- OpenVPN client

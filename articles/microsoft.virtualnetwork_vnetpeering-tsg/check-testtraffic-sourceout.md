@@ -26,14 +26,14 @@ Use the 'Test Traffic' utility to check for blocking Network Security Group Rule
    * Source IP: client source IP address (Auto Populated by ASC)
    * Source Port: ***55555***
    * Destination IP: ***<'enter destination VM private VNet IP>***
-   * Destination Port: ***<'enter port the customer is testing with***
-   * Transport Protocol: TCP
+   * Destination Port: ***<'enter port the customer is testing with>***
+   * Transport Protocol: ***TCP***
 4. Make note of the following: 
    * The 'Test Result' for the "Stateful Test (NSG Layer)" and the blocking Rule Name listed.
    * The "Stateless Test (Routing Layer)" any 'NSG or Routing Layer' and the blocking Rule Name listed.
 
 ## **Recommended Documents**
 
-* [TestTraffic](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/133274/ASC-TestTraffic)
+1. [TestTraffic](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/133274/ASC-TestTraffic)
 
 

@@ -12,7 +12,7 @@ diagnosticScenario="AccelNetNvaCx4Insight"
 selfHelpType="resource"
 supportTopicIds=""
 cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	ownershipId="Compute_VirtualMachines"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # VM image may need to be updated
