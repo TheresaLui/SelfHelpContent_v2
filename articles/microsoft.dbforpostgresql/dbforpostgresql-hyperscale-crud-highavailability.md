@@ -19,5 +19,8 @@
 High availability (HA) avoids database downtime by maintaining standby replicas of every node in a server group using synchronous streaming replication. 
 
 ## **Recommended Steps**
+* If you received a message in the Azure portal indicating that your subscription is not yet enabled for the Hyperscale (Citus) high availability feature, continue creating a support request
+
+## **Recommended Documents**
 * [How to configure high availability](https://docs.microsoft.com/azure/postgresql/howto-hyperscale-high-availability)
 * [Learn how high availability works in Hyperscale (Citus)](https://docs.microsoft.com/azure/postgresql/concepts-hyperscale-high-availability)
