@@ -22,6 +22,7 @@ In the Azure portal page for your Hyperscale (Citus) server group, you can view 
 * Parameters that are not listed in the Azure portal are not available for reconfiguration. This includes `max_connections`; learn more about [connection limits](https://docs.microsoft.com/azure/postgresql/concepts-hyperscale-configuration-options#limits-and-limitations).
 * Submit requests or vote on [our feedback page](https://feedback.azure.com/forums/597976-azure-database-for-postgresql) for parameters you would like supported
 
-## *Recommended Documents**
+## **Recommended Documents**
+
 * [High availability in Hyperscale (Citus)](https://docs.microsoft.com/azure/postgresql/concepts-hyperscale-high-availability)
 * [Available extensions Hyperscale (Citus)](https://docs.microsoft.com/azure/postgresql/concepts-hyperscale-extensions)
