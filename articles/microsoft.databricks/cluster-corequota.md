@@ -20,13 +20,10 @@
 ## **Recommended Steps**
 
 * **Follow [steps here](https://docs.microsoft.com/azure/azure-portal/supportability/per-vm-quota-requests) to submit an expedited request for core quota limit increase**
+
 * To check current resources, navigate to: Azure Portal under your subscription --> Usage + quotas
 
-## **Recommended Documents**
-
 * For current status of Azure Databricks Service by region and to subscribe for updates on status changes, browse to [Azure Databricks Status Page](https://status.azuredatabricks.net/)
-* [Common cloud provider related termination reasons and remediation steps](https://kb.azuredatabricks.net/clusters/termination-reasons.html#databricks-initiated-request-limit-exceeded)
-
 
 
 > **Known Issue**: Starting 17 June 2020 some Azure Databricks customers in UAE North have encountered error "Azure error code: AllocationFailed" when performing service management operations - such as create, update, scale clusters or submit jobs. We are aware of this issue and are actively working to ensure availability of resources in the quickest time frame possible. We recommend you consider one of the below workarounds:
