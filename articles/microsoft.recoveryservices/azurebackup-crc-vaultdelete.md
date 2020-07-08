@@ -1,7 +1,7 @@
 <properties
     pageTitle="Unable to delete vault"
 	description="Issue with delete vault due to items protected"
-    infoBubbleText="Some protected items exist"
+    infoBubbleText="Protected items exist"
     service="microsoft.recoveryservices"
     resource="backup"
     authors="akgoyal"
@@ -21,17 +21,17 @@
 
 **These are the Protected items in the vault that are blocking the delete operation:**
 <!--issueDescription-->
-IaaSVM: <!--IaaSVM-->IaaSVM<!--/IaaSVM-->
+IaaSVM: <!--$IaaSVM-->IaaSVM<!--/$IaaSVM-->
 
-Azure Workload: <!--AzureWorkload-->AzureWorkload<!--/AzureWorkload-->
+Azure Workload: <!--$AzureWorkload-->AzureWorkload<!--/$AzureWorkload-->
 
-Azure Storage: <!--AzureStorage-->AzureStorage<!--/AzureStorage-->
+Azure Storage: <!--$AzureStorage-->AzureStorage<!--/$AzureStorage-->
 
-DPM: <!--DPM-->DPM<!--/DPM-->
+DPM: <!--$DPM-->DPM<!--/$DPM-->
 
-Azure Backup Server: <!--AzureBackupServer-->AzureBackupServer<!--/AzureBackupServer-->
+Azure Backup Server: <!--$AzureBackupServer-->AzureBackupServer<!--/$AzureBackupServer-->
 
-MAB: <!--MAB-->MAB<!--/MAB--> 
+MAB: <!--$MAB-->MAB<!--/$MAB--> 
 
 <!--/issueDescription-->
 
