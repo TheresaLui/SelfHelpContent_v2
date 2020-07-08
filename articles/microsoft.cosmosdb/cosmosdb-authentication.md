@@ -21,7 +21,7 @@ Most users are able to resolve their Authentication case using the steps below.
 
 ## **Recommended Steps**
 
-## **TLS 1.2 on Azure Cosmos DB**
+### **TLS 1.2 on Azure Cosmos DB**
 
 Cosmos DB supports TLS 1.2 and enforcement is based on the below factors
 - The account should be enabled to only allow TLS 1.2 connection
@@ -34,7 +34,7 @@ The enforcement plan is as follows
 
 <br>
 
-## **How can you migrate your legacy account to enforce TLS 1.2?**   
+### **How can you migrate your legacy account to enforce TLS 1.2?**   
 Please file a support ticket with the Cosmos DB.
 
 
