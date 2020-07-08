@@ -35,5 +35,7 @@
 
 * You can get the public/private IP address of your [driver or executor node(s)](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/clusters#--sparknode) by running this command in a notebook:
 
+```
 	%sh
 	curl -H Metadata:true "http://169.254.169.254/metadata/instance/network?api-version=2017-08-01"
+```
