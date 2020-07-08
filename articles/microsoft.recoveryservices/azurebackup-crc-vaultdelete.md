@@ -7,9 +7,9 @@
 	ms.author="akgoyal"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32632791"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="15207"
+	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId= "6F401FC2-342B-437B-84A8-C4F43B28C017"
 	ownershipId="StorageMediaEdge_Backup"
@@ -17,7 +17,7 @@
 
 # Issue with delete vault 
 
-**These are the Protected items in the vault that blocking the delete operation:**
+**These are the Protected items in the vault that are blocking the delete operation:**
 <!--issueDescription-->
 IaaSVM : <!--IaaSVM-->IaaSVM<!--/IaaSVM-->
 
