@@ -14,8 +14,8 @@ supportTopicIds="32612514"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
-	articleId="b53c5697-02b1-4956-8198-cf0520f3024a"
-	ownershipId="AzureMonitoring_LogAnalytics"
+articleId="b53c5697-02b1-4956-8198-cf0520f3024a"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Query Samples
@@ -36,5 +36,5 @@ Additional examples are available in the documentation articles listed below. Yo
 * [IIS logs](https://docs.microsoft.com/azure/log-analytics/log-analytics-data-sources-performance-counters?toc=/azure/azure-monitor/toc.json#log-searches-with-performance-records)
 * [Log Analytics query language reference](https://docs.microsoft.com/azure/log-analytics/query-language/query-language)
 * [Online course](https://www.pluralsight.com/courses/kusto-query-language-kql-from-scratch)
-* [Log Analytics community space](https://aka.ms/AzureLogAnalyticsCommunity)
+* [Log Analytics community space](https://techcommunity.microsoft.com/t5/azure-log-analytics/bd-p/AzureLogAnalytics)
 

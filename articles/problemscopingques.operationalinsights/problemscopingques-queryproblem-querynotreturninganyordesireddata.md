@@ -1,24 +1,23 @@
-
 <properties
-pageTitle="Query produces error"
-description="Query produces error"
-articleId="problemscopingques-Query_produces_error_times_out_or_too_slow"
+pageTitle="My query does not return any results"
+description="My query does not return any results"
+articleId="problemscopingques-queryproblem-querynotreturninganyordesireddata"
 authors="shemers"
 ms.author="shemers"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32612514"
+supportTopicIds="32612517"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
 ownershipId="AzureMonitoring_LogAnalytics"
 />
 
-# Query produces error
+# My query does not return any results
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Query produces error",
+    "title": "My query does not return any results",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -32,7 +31,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "id": "worked_before",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Did this query ever worked before?",
+            "displayLabel": "Did this query ever worked before as expected?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -73,30 +72,8 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "required": false
         },
         {
-            "id": "is_intermittent",
-            "order": 4,
-            "controlType": "dropdown",
-            "displayLabel": "Is the error intermittent or constant?",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Intermittent",
-                    "text": "Intermittent"
-                },
-                {
-                    "value": "Multiple users",
-                    "text": "Multiple users"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Not Sure"
-                }
-            ],
-            "required": false
-        },
-        {
             "id": "request_id",
-            "order": 5,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "What is the request id for the query?",
             "watermarkText": "Enter the 32 characters request id displayed on the error message",
@@ -104,11 +81,19 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "query_desc",
-            "order": 6,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the query being executed?",
             "watermarkText": "Please enter the full query being executed",
             "required": true
+        },
+        {
+            "id": "expected_resualts",
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What were the expected query results?",
+            "watermarkText": "Please include as much details as possible",
+            "required": false
         },
         {
             "id": "attachment",

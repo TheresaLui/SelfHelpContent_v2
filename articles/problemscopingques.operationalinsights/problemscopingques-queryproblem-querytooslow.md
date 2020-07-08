@@ -1,24 +1,24 @@
 
 <properties
-pageTitle="Query produces error"
-description="Query produces error"
-articleId="problemscopingques-Query_produces_error_times_out_or_too_slow"
+pageTitle="My query is too slow or timing out"
+description="My query is too slow or timing out"
+articleId="problemscopingques-queryproblem-querytooslow"
 authors="shemers"
 ms.author="shemers"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32612514"
+supportTopicIds="32727887"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
 ownershipId="AzureMonitoring_LogAnalytics"
 />
 
-# Query produces error
+# My query is too slow or timing out
 ---
 {
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Query produces error",
+    "title": "My query is slow or timing out",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -32,7 +32,29 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "id": "worked_before",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Did this query ever worked before?",
+            "displayLabel": "Did this query ever worked before as expected?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "Multiple machines"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not Sure"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "worked_timechange",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Does the query worked correctly if you change any parameter or the time interval?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -52,7 +74,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "is_multiple_users",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Is the error happening to a single user or multiple users?",
             "watermarkText": "Choose an option",
@@ -74,7 +96,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "is_intermittent",
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Is the error intermittent or constant?",
             "watermarkText": "Choose an option",
@@ -96,7 +118,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "request_id",
-            "order": 5,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "What is the request id for the query?",
             "watermarkText": "Enter the 32 characters request id displayed on the error message",
@@ -104,7 +126,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "query_desc",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the query being executed?",
             "watermarkText": "Please enter the full query being executed",
@@ -112,14 +134,14 @@ ownershipId="AzureMonitoring_LogAnalytics"
         },
         {
             "id": "attachment",
-            "order": 7,
+            "order": 8,
             "controlType": "infoblock",
             "content": "Please attach or paste in the query and expected results",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 9,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
