@@ -19,20 +19,18 @@
 
 To access the administrator portal, you only need to go the portal URL and sign in as an Azure Stack operator. Most support questions related to the Administrator portal are covered in the following steps. 
 
-**Known Issue**
-
-If the portal is unavailable, and no type of patch, update, or field replacement is in progress, you can run the following command to remediate the problem:
-
-```
-Test-AzureStack -Repair -Include AzsPortalAPISummary
-```
 
 ## **Recommended Steps**
 
 * For multi-node integrated systems, the portal address varies based on the region name and fully-qualified domain name (FQDN) of your Azure Stack deployment. It will match the pattern: `https://adminportal.<REGION>.<FQDN>`
 * Verify [DNS name resolution](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-dns) is working
 * Access to the Administrator portal requires allowing traffic through TCP port 443. For more information, see [Azure Stack firewall integration](https://docs.microsoft.com/azure-stack/operator/azure-stack-firewall) and [Publish Azure Stack Services](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-endpoints) 
-* 
+* If the portal is unavailable, and no type of patch, update, or field replacement is in progress, you can run the following command to remediate the problem:
+
+  ```
+  Test-AzureStack -Repair -Include AzsPortalAPISummary
+  ```
+
 
 
 ## **Recommended Documents**
