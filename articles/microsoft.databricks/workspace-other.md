@@ -31,7 +31,15 @@
 * Please avoid having any special characters (- or _) as the first or last character in workspace name. Maximum length for Managed resource group Name: 90 characters. Workspace creation will fail due to invalid characters. 
 
 * [Error: Instances unreachable](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#instances-unreachable)
+* You can get the public/private IP address of your [driver or executor node(s)](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/clusters#--sparknode) by running this command in a notebook:
+
+```
+	%sh
+	curl -H Metadata:true "http://169.254.169.254/metadata/instance/network?api-version=2017-08-01"
+```
+
 * [Retrieve the current username for the notebook](https://docs.microsoft.com/azure/databricks/kb/notebooks/get-notebook-username). This is currently supported for:
 
 	* Standard clusters in both Scala and Python
 	* High Concurrency clusters in Python with Credential Passthrough **disabled**
+
