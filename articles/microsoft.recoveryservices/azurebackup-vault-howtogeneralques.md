@@ -19,13 +19,13 @@
 
 ## **Recommended Documents**
 
-- [Move a vault between subscriptions](https://aka.ms/AB-move-a-rsv-to-a-different-subscription)<br>
-- [Move a vault between Resource Groups](https://aka.ms/AB-move-a-rsv-to-different-resource-group)<br>
-- [Delete vault from portal](https://aka.ms/AB-delete-vault-from-azure-portal)<br>
-- [Determine the data source size in vault](https://aka.ms/AB-data-source-size)<br>
+- [Move a vault between subscriptions](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)<br>
+- [Move a vault between Resource Groups](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)<br>
+- [Delete vault from portal](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#delete-the-recovery-services-vault)<br>
+- [Determine the data source size in vault](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#how-is-the-data-source-size-determined)<br>
 - Stop backup/protection for:
-	* [Azure Virtual Machine](https://aka.ms/AB-stop-protecting-vm)<br>
-	* [SQL databases in Azure Virtual Machine](https://aka.ms/AB-stop-protection-sql-server)<br>
-	* [Azure File Share](https://aka.ms/AB-stop-protecting-azure-file-share)<br>
-- [Can I move backup data/protected items to another vault?](https://aka.ms/AB-another-vault)<br>
+	* [Azure Virtual Machine](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)<br>
+	* [SQL databases in Azure Virtual Machine](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)<br>
+	* [Azure File Share](https://docs.microsoft.com/azure/backup/manage-afs-backup#stop-protection-on-a-file-share)<br>
+- [Can I move backup data/protected items to another vault?](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#can-i-move-backup-data-to-another-vault)<br>
 - [Can I change backup configuration from GRS to LRS or vice versa?](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)<br>
