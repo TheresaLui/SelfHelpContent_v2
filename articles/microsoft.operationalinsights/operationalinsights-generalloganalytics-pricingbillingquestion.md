@@ -76,7 +76,7 @@ There are three main reasons why this will show that data is not being collected
 2.	If your workspace is in the legacy Free pricing tier, the workspace has a 500 MB/day daily cap.  You can either wait until the end of the 24 hour period for collection to resume, or change to the [Pay-As-You-Go pricing tier](https://docs.microsoft.com/azure/azure-monitor/platform/manage-cost-storage#changing-pricing-tier).
 3.	Azure subscription is in a suspended state due to your free trial ending, your Azure pass expiring or your monthly spending limit reached (for example on an MSDN or Visual Studio subscription). Depending on your situation, you can convert to a paid subscription, remove limit, or wait until limit resets. 
 
-### **Recommended Documents**
+## **Recommended Documents**
 * [Troubleshooting Log Analytics data collection](https://docs.microsoft.com/azure/azure-monitor/platform/manage-cost-storage#troubleshooting-why-log-analytics-is-no-longer-collecting-data)
 * [Changing pricing tiers](https://docs.microsoft.com/azure/azure-monitor/platform/manage-cost-storage#troubleshooting-why-log-analytics-is-no-longer-collecting-data)
 * [Managing your daily cap](https://docs.microsoft.com/azure/azure-monitor/platform/manage-cost-storage#troubleshooting-why-log-analytics-is-no-longer-collecting-data)
