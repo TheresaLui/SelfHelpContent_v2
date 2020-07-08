@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="protectopencontent_cannot_open_external"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection Protection - Protecting and Opening Content - Cannot open protected content - External
