@@ -17,7 +17,7 @@
 
 # Docker Containers/Docker container continuous integration
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Continuous deployment with Web App for Containers](https://docs.microsoft.com/azure/app-service/containers/app-service-linux-ci-cd)
 * [Deploying a Docker based web application to Azure App Service](https://azuredevopslabs.com/labs/vstsextend/docker/)
