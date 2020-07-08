@@ -54,7 +54,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "id": "worked_timechange",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Does the query worked correctly if you change any parameter and\or the time interval?",
+            "displayLabel": "Does the query worked correctly if you change any parameter or the time interval?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
