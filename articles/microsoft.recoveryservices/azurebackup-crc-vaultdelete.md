@@ -1,17 +1,19 @@
 <properties
-	pageTitle="Unable to delete vault"
+    pageTitle="Unable to delete vault"
 	description="Issue with delete vault due to items protected"
-	service="microsoft.recoveryservices"
-	resource="vaults"
-	authors="akgoyal"
-	ms.author="akgoyal"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds=""
-	resourceTags=""
-	productPesIds=""
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId= "6F401FC2-342B-437B-84A8-C4F43B28C017"
+    infoBubbleText="Some protected items exist"
+    service="microsoft.recoveryservices"
+    resource="backup"
+    authors="akgoyal"
+    ms.author="akgoyal"
+    displayOrder=""
+    articleId= "6F401FC2-342B-437B-84A8-C4F43B28C017"
+    diagnosticScenario="azurebackup-crc-vaultdelete"
+    selfHelpType="diagnostics"
+    supportTopicIds=""
+    resourceTags=""
+    productPesIds="15207"
+    cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="StorageMediaEdge_Backup"
 />
 
@@ -19,17 +21,17 @@
 
 **These are the Protected items in the vault that are blocking the delete operation:**
 <!--issueDescription-->
-IaaSVM : <!--IaaSVM-->IaaSVM<!--/IaaSVM-->
+IaaSVM: <!--IaaSVM-->IaaSVM<!--/IaaSVM-->
 
-Azure Workload : <!--AzureWorkload-->AzureWorkload<!--/AzureWorkload-->
+Azure Workload: <!--AzureWorkload-->AzureWorkload<!--/AzureWorkload-->
 
-Azure Storage : <!--AzureStorage-->AzureStorage<!--/AzureStorage-->
+Azure Storage: <!--AzureStorage-->AzureStorage<!--/AzureStorage-->
 
-DPM : <!--DPM-->DPM<!--/DPM-->
+DPM: <!--DPM-->DPM<!--/DPM-->
 
-Azure Backup Server : <!--AzureBackupServer-->AzureBackupServer<!--/AzureBackupServer-->
+Azure Backup Server: <!--AzureBackupServer-->AzureBackupServer<!--/AzureBackupServer-->
 
-MAB : <!--MAB-->MAB<!--/MAB--> 
+MAB: <!--MAB-->MAB<!--/MAB--> 
 
 <!--/issueDescription-->
 
