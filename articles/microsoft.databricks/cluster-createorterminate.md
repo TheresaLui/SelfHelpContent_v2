@@ -55,7 +55,6 @@ dbutils.fs.put("dbfs:/databricks/init_hikari/<clustername>/hikari.sh","""
 ### **Troubleshooting**
 
 * [Unexpected Cluster Termination](https://docs.microsoft.com/azure/databricks/kb/clusters/termination-reasons)
-* [Cluster Failed to Launch](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch)
 * [Error: The subscription is not registered to use namespace 'Microsoft.Compute'](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-register-provider-errors)
 
 ## **Recommended Steps**
@@ -71,7 +70,7 @@ dbutils.fs.put("dbfs:/databricks/init_hikari/<clustername>/hikari.sh","""
 
 Note: To check current resources, please navigate to: Azure Portal under your subscription --> Usage + quotas
 
-> **Known Issue**: Starting 19 Mar 2020 some Azure Databricks customers have encountered error "Azure error code: AllocationFailed" when performing service management operations - such as create, update, scale clusters or submit jobs. We are aware of this issue and are actively working to ensure availability of resources in the quickest time frame possible. We recommend you consider one of the below workarounds:
+> **Known Issue**: Starting 17 June 2020 some Azure Databricks customers in UAE North have encountered error "Azure error code: AllocationFailed" when performing service management operations - such as create, update, scale clusters or submit jobs. We are aware of this issue and are actively working to ensure availability of resources in the quickest time frame possible. We recommend you consider one of the below workarounds:
 >
 > * Shift the workload towards the end of the working day if possible
 > * Try to provision an alternate family VM
