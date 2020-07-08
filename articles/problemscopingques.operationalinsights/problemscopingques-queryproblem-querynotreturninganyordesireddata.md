@@ -83,11 +83,9 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "id": "query_desc",
             "order": 5,
             "controlType": "multilinetextbox",
-            "useAsAdditionalDetails": true,
             "displayLabel": "What is the query being executed?",
             "watermarkText": "Please enter the full query being executed",
-            "required": true,
-            "hints": []
+            "required": true
         },
         {
             "id": "expected_resualts",
@@ -95,8 +93,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "controlType": "multilinetextbox",
             "displayLabel": "What were the expected query results?",
             "watermarkText": "Please include as much details as possible",
-            "required": false,
-            "hints": []
+            "required": false
         },
         {
             "id": "attachment",
