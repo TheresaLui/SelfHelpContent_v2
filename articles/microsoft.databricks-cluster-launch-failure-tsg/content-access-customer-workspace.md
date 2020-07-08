@@ -18,7 +18,7 @@
 **Access customer workspace through Genie as below**
 
 1. Go to [Genie](https://genie-azure-prod.dev.databricks.com/)
-2. Fill customer workspace and ticket details gathered in previous steps.
+2. Fill customer workspace and ticket details gathered in previous steps
 
 **Cluster Event logs:**
 
@@ -26,9 +26,9 @@ The cluster event log displays important cluster lifecycle events that are trigg
 
 To access these logs, please follow these steps:
 
-1. Click the clusters icon in the sidebar.
-2. Click a cluster name.
-3. Click the Event Log tab.
+1. Click the clusters icon in the sidebar
+2. Click a cluster name
+3. Click the Event Log tab
 
 Given timestamp(s) provided earlier, look for event(s) when cluster fails and click on it to get more info to get more details of the quota limit being hit.
 
