@@ -1,6 +1,7 @@
+
 <properties
-pageTitle="My query is slow or timing out"
-description="My query is slow or timing out"
+pageTitle="My query is too slow or timing out"
+description="My query is too slow or timing out"
 articleId="problemscopingques-queryproblem-querytooslow"
 authors="shemers"
 ms.author="shemers"
@@ -12,7 +13,7 @@ schemaVersion="1"
 ownershipId="AzureMonitoring_LogAnalytics"
 />
 
-# My query is slow or timing out
+# My query is too slow or timing out
 ---
 {
     "subscriptionRequired": true,
