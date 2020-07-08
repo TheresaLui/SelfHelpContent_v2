@@ -1,7 +1,7 @@
 <properties
     pageTitle="Active provisioning issue"
     description="This insight displays an active provisioning issue for one or more connectors in a customer's tenant."
-	infoBubbleText="his insight displays an active provisioning issue for one or more connectors in a customer's tenant."
+	infoBubbleText="This insight displays an active provisioning issue for one or more connectors in a customer's tenant."
     service="microsoft.activedirectory"
     resource=""
     authors="arvinh"
