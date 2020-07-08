@@ -36,7 +36,6 @@ Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for c
 
 ### **Troubleshooting**
 * [Unexpected Cluster Termination](https://kb.azuredatabricks.net/clusters/termination-reasons.html#unexpected-cluster-termination)
-* [Cluster Failed to Launch](https://kb.azuredatabricks.net/clusters/cluster-failed-launch.html)
 * [Error: The subscription is not registered to use namespace 'Microsoft.Compute'](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-register-provider-errors)
 
 ## **Recommended Documents**
