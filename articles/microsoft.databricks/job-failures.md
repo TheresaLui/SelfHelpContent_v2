@@ -61,8 +61,8 @@ An unexpected error was encountered while setting up the cluster.
 ````
 
 * When using JAR based jobs on interactive clusters, the JAR jobs will not be automatically updated when a new JAR is uploaded as it will pick up the old JAR. This issue is by design. As a resolution:
-	* The cluster needs to be restarted whenever you want to update the JAR in the same job.
-	* Or create a new job with same configurations and use the new JAR instead.
+	* The cluster needs to be restarted whenever you want to update the JAR in the same job
+	* Or create a new job with same configurations and use the new JAR instead
 	
 ## **Recommended Documents**
 
