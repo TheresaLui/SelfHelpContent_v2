@@ -20,7 +20,7 @@
 
 * [Logging with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-logging)
 * [Key Vault Monitoring](https://docs.microsoft.com/azure/key-vault/general/alert)
-* [Secrets, Keys and Certificates lifetime monitoring](https://docs.microsoft.com/en-us/azure/key-vault/general/event-grid-logicapps)
+* [Secrets, Keys and Certificates lifetime monitoring](https://docs.microsoft.com/azure/key-vault/general/event-grid-logicapps)
 
 ### **Troubleshooting**
 
