@@ -49,8 +49,8 @@ dbutils.fs.put("dbfs:/databricks/init_hikari/<clustername>/hikari.sh","""
     	""",True)
 ```
 
-	* Edit the cluster and add `spark.hadoop.datanucleus.connectionPoolingType hikari` below Spark configuration under Advanced Options
-	* Set up the init script in cluster, confirm changes, and launch the cluster
+* Edit the cluster and add `spark.hadoop.datanucleus.connectionPoolingType hikari` below Spark configuration under Advanced Options
+* Set up the init script in cluster, confirm changes, and launch the cluster
 	
 ### **Troubleshooting**
 
