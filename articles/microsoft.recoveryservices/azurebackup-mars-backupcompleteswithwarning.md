@@ -19,6 +19,7 @@
 
 ## **Recommended Steps**
 
+- Backup status shows **Backup job completed with warnings?** Refer to the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-azure-mars-troubleshoot#backup-jobs-completed-with-warning). 
 - [Ensure unsupported file & folders are excluded from backup](https://aka.ms/AB-AA4dp52)<br>
 
 ## **Recommended Documents**
