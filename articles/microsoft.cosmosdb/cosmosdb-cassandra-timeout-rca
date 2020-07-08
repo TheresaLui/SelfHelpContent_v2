@@ -16,13 +16,12 @@
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# IP Blocked by Firewall
+# Cassandra Timeout
 
 ## We ran diagnostics on your account **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->** and found an issue
 
 <!--issueDescription-->
-We are aware of an issue in our service that might result in operation timeout errors in your Cassandra application for idle connections. These errors are safe to ignore until we fix the issue. 
-
+We are aware of an issue in our service that might result in operation timeout errors in your Cassandra application for idle connections. These errors are safe to ignore until we fix the issue.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
