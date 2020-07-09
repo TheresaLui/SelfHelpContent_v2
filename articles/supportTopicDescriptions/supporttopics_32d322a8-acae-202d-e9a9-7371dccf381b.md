@@ -710,6 +710,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d80e8f80-059d-66c2-2df4-f90affbe910b",
+      "longDescription": "",
+      "shortDescription": "Supported Azure Stack Hub APIs, including PowerShell, REST, and CLI",
+      "searchTags": "API;CLI;REST;PowerShell",
+      "category": "Devops",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "dbb87f8c-9c72-691d-0cdb-a1bdf4f5f34a",
       "longDescription": "",
       "shortDescription": "Creation of storage accounts within user environment",
