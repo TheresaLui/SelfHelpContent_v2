@@ -334,6 +334,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b0655c49-26e5-673f-183c-9f0f6626b96c",
+      "longDescription": "",
+      "shortDescription": "Registration of an Azure Stack Hub integrated system, in a connected environment",
+      "searchTags": "Deployment;Registration;Connected",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b19e79ba-f8f7-8e5a-2cda-c1c07b4ee4a6",
       "longDescription": "",
       "shortDescription": "Alerts and replacement for physical disks",
