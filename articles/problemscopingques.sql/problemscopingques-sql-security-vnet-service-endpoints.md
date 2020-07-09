@@ -61,7 +61,7 @@
          "controlType":"textbox",
          "displayLabel":"What is the name of the vNet and subnet associated with the vNet endpoint rule?",
          "infoBalloonText":"Enter the vNet and subnet name",
-         "required":false
+         "required":true
       },
       {
          "id":"tracking_id",
