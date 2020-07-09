@@ -790,6 +790,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e2486205-96a8-8b63-a0dc-4e4b5e977c64",
+      "longDescription": "",
+      "shortDescription": "Adding or configurating extensions to Linux virtual machines, using the portal, ARM template, or APIs",
+      "searchTags": "Linux;Extension;CSE",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e524568b-6d6c-70e5-c685-66c1dd2c27c6",
       "longDescription": "",
       "shortDescription": "Managing integrated system accounts accounts, including adding, removing, and rotating passwords",
