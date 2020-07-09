@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "0c88224b-1990-3b43-9150-e2f0ba5e72e0",
+      "longDescription": "",
+      "shortDescription": "Licensing and activation of user VMs",
+      "searchTags": "Licensing;Activation",
+      "category": "Marketplace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "18a6d748-7150-98ab-0bdc-0f1c473ff25c",
       "longDescription": "",
       "shortDescription": "Alerts and actions for physical infrastructure nodes",
