@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5ba62d70-5747-aa56-68a2-0762a6adc148",
+      "longDescription": "",
+      "shortDescription": "Operating or using SQL PaaS resource provider, other than initial deployment or upgrade",
+      "searchTags": "AddOnRP;DBaaS;PaaS",
+      "category": "AddOnRP",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6848be8a-bc7e-b6e4-7b09-8b9fa1687ae9",
       "longDescription": "",
       "shortDescription": "Creating custom marketplace items, including Azure Gallery Package (.azpkg) format and the Azure Gallery Packager tool",
