@@ -59,6 +59,14 @@
       "searchTags": "missing;unable to find;show up;showing up",
       "category": "Update Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fcdfde48-8169-374a-d10f-0df4f0d1afe2",
+      "longDescription": "",
+      "shortDescription": "Help creating deployments, targeting machines, or schedules not working as expected. ",
+      "searchTags": "schedule;create;preview;saved search",
+      "category": "Update Management",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
