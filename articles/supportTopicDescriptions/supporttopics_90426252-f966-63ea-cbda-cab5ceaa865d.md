@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d6c05c75-e488-211d-a5cf-5e110828410a",
+      "longDescription": "",
+      "shortDescription": "Issues scanning for updates, such as machines showing Not Assessed or disconnected. ",
+      "searchTags": "readiness;not assessed",
+      "category": "Update Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d8502d2b-4177-bcba-4511-9d3db71c9d1b",
       "longDescription": "",
       "shortDescription": "Machines enrolled successfully but not displayed in portal",
