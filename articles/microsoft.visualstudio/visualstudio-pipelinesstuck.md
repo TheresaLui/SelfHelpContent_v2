@@ -48,6 +48,7 @@ Are you facing one of these common problems?
 ## **Recommended Documents**
 
 * [Microsoft-hosted agents](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops)
+* [Self-hosted agents](https://docs.microsoft.com/azure/devops/pipelines/agents/agents?view=azure-devops)
 * [Build Troubleshooting](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting?view=azure-devops)
 * [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
 * [Azure DevOps Services Status](https://status.dev.azure.com)

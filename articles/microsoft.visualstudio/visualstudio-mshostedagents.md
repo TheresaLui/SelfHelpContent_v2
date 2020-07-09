@@ -26,8 +26,10 @@ Are you facing one of these common problems?
 
 * My pipelines are stuck waiting in a queue although I see that all my agents are idle
 
-	- [Check to make sure that you have not exceeded your parallel job limits](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting?view=azure-devops#my-pipeline-tries-to-start-but-never-gets-an-agent)
-	- If your jobs are experiencing long delays (> 30 mins), check our [service status page](https://status.dev.azure.com/)
+	- Ensure that you haven't exceeded the [parallel job limits](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting/troubleshooting?view=azure-devops#my-pipeline-tries-to-start-but-never-gets-an-agent)
+	- Ensure that your jobs aren't waiting for [approval](https://docs.microsoft.com/azure/devops/pipelines/process/approvals?view=azure-devops&tabs=check-pass)
+	- Check the [agent pools](https://docs.microsoft.com/azure/devops/pipelines/agents/pools-queues?view=azure-devops&tabs=yaml%2Cbrowser) page to see if all of your available agents are in use. 
+	- Check the [Azure DevOps status page](https://status.dev.azure.com/) to ensure there aren’t any ongoing or past incidents in Azure Pipelines.
 	- [Report a service outage](https://support.microsoft.com/supportrequestform/e5848d32-abfe-4091-dbde-43caa4d30d0f). This is more effective than creating a support ticket.
 
 * I need to buy more concurrency or parallel jobs
@@ -38,6 +40,15 @@ Are you facing one of these common problems?
 * My pipeline fails with the error: **no space left on device**
 
 	Microsoft-hosted agents only have 10 GB of disk space available for running your job. We **cannot** increase the free space available on Microsoft-hosted images. Read the topic on [Microsoft-hosted agents](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops) and the [Q & A](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops#q--a) at the end of that topic to understand what consumes this space, and what you can do to workaround this problem.
+
+* My pipeline fails with the following error: 
+
+	```
+	The agent did not connect within the allotted time of 45 minutes
+	The request was abandoned due to an infrastructure failure. Notification of assignment to an agent was never received.
+	```
+
+	This is an indication that the service is experiencing a problem. [Report a service outage](https://support.microsoft.com/supportrequestform/e5848d32-abfe-4091-dbde-43caa4d30d0f). This is more effective than creating a support ticket.
 
 * The pipeline fails because Microsoft-hosted agents are **unable to reach resources in my company network**
 
