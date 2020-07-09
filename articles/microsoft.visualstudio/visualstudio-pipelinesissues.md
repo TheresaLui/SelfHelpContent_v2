@@ -23,9 +23,8 @@
 * Want a quicker answer? For quick answers to common questions and issues, try the Azure DevOps Virtual Agent
 * For service impacting issues, please check Azure DevOps Services Status
 
-
 ## **Recommended Documents**
-* [Build Troubleshooting](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting?view=azure-devops)
+* [Troubleshoot pipelines](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting)
 * [Azure DevOps Virtual Agent](https://azuredevopsvirtualagent.azurewebsites.net/)
 * [Azure DevOps Services Status](https://status.dev.azure.com)
 
