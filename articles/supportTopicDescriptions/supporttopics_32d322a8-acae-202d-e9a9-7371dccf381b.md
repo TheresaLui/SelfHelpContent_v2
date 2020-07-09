@@ -534,6 +534,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a75cd898-4b31-18ae-5389-90f8ad97a7f8",
+      "longDescription": "",
+      "shortDescription": "Managing storage accounts within user environment",
+      "searchTags": "User;Storage",
+      "category": "Storage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "acba8e31-02de-0bba-f6a9-84f61342f338",
       "longDescription": "",
       "shortDescription": "VPNs for connectivity in user environment, including network virtual appliances, and site-to-site connections",
