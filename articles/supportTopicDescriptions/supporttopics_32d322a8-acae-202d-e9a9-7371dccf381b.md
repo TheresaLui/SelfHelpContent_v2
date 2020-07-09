@@ -470,6 +470,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f867695d-5a05-8acf-7c21-7c7d51952c3f",
+      "longDescription": "",
+      "shortDescription": "User environment networking",
+      "searchTags": "Networking;User",
+      "category": "Network",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f8da6c5b-2a74-37ac-a4c3-f3d40c0039ea",
       "longDescription": "",
       "shortDescription": "Administration of Azure Stack Hub integrated system",
