@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "01cef3f8-abfa-504f-cf98-76a457296291",
+      "longDescription": "",
+      "shortDescription": "Firewall issues affecting user VM network communication",
+      "searchTags": "Firewall",
+      "category": "Network",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "067c2dcc-47d2-71fc-e379-5eaa1ad1d85f",
       "longDescription": "",
       "shortDescription": "Connectivity and issues with customer border networking devices",
