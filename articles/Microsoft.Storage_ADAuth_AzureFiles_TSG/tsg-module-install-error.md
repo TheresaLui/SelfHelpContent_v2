@@ -23,7 +23,7 @@ It is common for customers to run into errors when attempting to domain join an 
 2. PowerShell: 5.1 or Above
 3. [Az Module Installed](https://docs.microsoft.com/powershell/azure/new-azureps-module-az?view=azps-3.6.1)
 4. [PowerShellGet Module Installed](https://docs.microsoft.com/powershell/scripting/gallery/installing-psget?view=powershell-7)
-5. [Az.Storage Module: 1.11.1-preview](https://www.powershellgallery.com/packages/Az.Storage/2.0.0)
+5. [Az.Storage Module: 2.0.0](https://www.powershellgallery.com/packages/Az.Storage/2.0.0)
 
 *Note:  In most cases Az, PowerShellGet and Az.Storage will be installed as part of importing the AzFileHybrid module.  
 ## How to check PowerShell Version
