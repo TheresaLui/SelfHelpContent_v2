@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a68966b2-59d4-c537-80d3-89d5337502b0",
+      "longDescription": "",
+      "shortDescription": "Partner Center usage billing for Azure Stack Hub as a Cloud Solution Provider (CSP)",
+      "searchTags": "Usage;Billing;CSP",
+      "category": "Usage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ad5572e9-7f54-2e67-c06d-12857b62b867",
       "longDescription": "",
       "shortDescription": "Operating or using App Service PaaS resource provider, other than initial deployment or upgrade",
