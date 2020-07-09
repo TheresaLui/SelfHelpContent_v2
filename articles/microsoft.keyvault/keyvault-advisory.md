@@ -24,7 +24,10 @@
 
 **Troubleshooting**
 
-* To see how to associate a certificate with an Azure AD application look at [Getting Started with Key Vault for Certificates](https://blogs.technet.microsoft.com/kv/2016/09/26/get-started-with-azure-key-vault-certificates/) <br>
+* To see how to associate a certificate with an Azure AD application look at [Getting Started with Key Vault for Certificates](https://blogs.technet.microsoft.com/kv/2016/09/26/get-started-with-azure-key-vault-certificates/)
+
+* How can I **monitor how and when your key vaults are accessed**, and by whom? <br>
+You can turn on [logs on Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-logging) and to monitor health of key vault [configure metrics and alerting for Key Vault](https://docs.microsoft.com/azure/key-vault/general/alert)
 
 * My subscription was moved from tenant A to tenant B. How do I change the tenant ID for my existing key vault and set correct ACLs for principals in tenant B?<br>
 	
