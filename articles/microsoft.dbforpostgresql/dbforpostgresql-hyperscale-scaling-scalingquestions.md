@@ -7,7 +7,7 @@
     displayOrder="70"
     articleId="dbforpostgresql-hyperscale-scaling-scalingquestions.md"
     selfHelpType="resource"
-    supportTopicIds="32640014"
+    supportTopicIds="32640014, 32731222"
     resourceTags=""
     productPesIds="17068"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -18,8 +18,8 @@
 
 ## **Recommended Steps**
 * To add worker nodes, [review the how to](https://docs.microsoft.com/azure/postgresql/howto-hyperscale-scaling)
+* Storage can only be scaled up, not down
 * To scale compute or storage on your nodes, continue creating a support request
-
 
 ## **Recommended Documents**
 * [How to scale Azure Database for PostgreSQL - Hyperscale (Citus)](https://docs.microsoft.com/azure/postgresql/howto-hyperscale-scaling)
