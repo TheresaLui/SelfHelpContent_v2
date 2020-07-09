@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2c4fb54b-90f1-1d5d-4f28-0e3ea3fa9609",
+      "longDescription": "",
+      "shortDescription": "Initial deployment of Azure Stack Hub integrated system",
+      "searchTags": "Deployment",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2c955157-c507-f9a8-3005-1a75f06000c0",
       "longDescription": "",
       "shortDescription": "Capacity planning, prerequisites, initial deployment or update of SQL PaaS resource provider",
