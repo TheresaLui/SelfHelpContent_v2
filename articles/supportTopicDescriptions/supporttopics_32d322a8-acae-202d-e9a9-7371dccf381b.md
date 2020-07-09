@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "42a06dd9-b9d5-a377-94b2-ee766a2e9a1f",
+      "longDescription": "",
+      "shortDescription": "Azure Stack Syslog Forwarding issues",
+      "searchTags": "Monitoring;Syslog",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4876243b-3ce7-ec63-afd4-37910d46ff21",
       "longDescription": "",
       "shortDescription": "Azure Stack Hub marketplace management, and add-on resource providers for PaaS services",
