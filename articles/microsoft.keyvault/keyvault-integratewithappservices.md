@@ -23,10 +23,10 @@
 
 Azure App Services is a Key Vault trusted service **only** for the scenario of deploying a certificate. All other operations in Azure App Service do not qualify as a Key Vault trusted service. To resolve this issue, you must grant your App Service access through the Key Vault Firewall by performing the following steps.  
 
-1. Navigate to your App Service resource in the Azure portal.
-2. Click on "Properties" in the App Service settings. 
-3. Find the IP Address of your App Service. 
-4. Add this IP Address to the "Allow" list of the Key Vault Firewall. 
+1. Navigate to your App Service resource in the Azure portal
+2. Click on "Properties" in the App Service settings
+3. Find the IP Address of your App Service
+4. Add this IP Address to the "Allow" list of the Key Vault Firewall
 
 ## **Recommended Documents**
 
