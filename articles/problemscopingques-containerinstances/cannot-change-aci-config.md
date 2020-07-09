@@ -1,22 +1,22 @@
 <properties
-	pageTitle="aci cannot access metrics logs or events"
-	description="aci cannot access metrics logs or events"
+	pageTitle="aci cannot change config"
+	description="aci cannot change config"
 	ms.author="macolso"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32742283"
+	supportTopicIds="32588395"
 	productPesIds="16326"
 	cloudEnvironments="public,fairfax"
 	schemaVersion="1"
-	articleId="problemscopingques-acimetricslogsevents"
+	articleId="problemscopingques-acicannotchangeconfig"
 	ownershipId="compute-containerinstances-cs"
 />
-# ACI cannot access metrics, logs, or events
+# ACI cannot change config
 ---
 {
    "$schema":"SelfHelpContent",
    "resourceRequired":true,
    "subscriptionRequired":true,
-   "title":"ACI cannot access metrics logs or events",
+   "title":"ACI cannot change config",
    "formElements":[
       {
          "id":"problem_start_time",
@@ -44,26 +44,34 @@
          "watermarkText":"Always provide the full error text from Azure Container Instances when possible."
       },
       {
-         "id":"applications_on_vm",
+         "id":"radio_button",
          "order":4,
-         "required":true,
-         "controlType":"multiselectdropdown",
-         "displayLabel":"Select the diagnostic(s) you're having difficulty with:",
-         "dropdownOptions":[
+         "controlType":"radioButtonGroup",
+         "displayLabel":"Have you been able to update your container group configuration file previously?",
+         "radioButtonOptions":[
             {
-               "value":"Metrics",
-               "text":"Metrics"
+               "value":"Yes",
+               "text":"Yes"
             },
             {
-               "value":"Container logs (std out/std err)",
-               "text":"Container logs (std out/std err)"
+               "value":"No",
+               "text":"No"
             },
             {
-               "value":"Platform events",
-               "text":"Platform events"
+               "value":"Unsure",
+               "text":"Unsure"
             }
          ],
-         "required":false
+         "required":true
+      },
+      {
+         "id":"last_success_time",
+         "order":5,
+         "visibility":"radio_button == Yes",
+         "controlType":"datetimepicker",
+         "displayLabel":"When was the last time you were able to change your container group configuration file successfully?",
+         "infoBalloonText":"Enter the approximate time",
+         "required":true
       }
    ]
 }

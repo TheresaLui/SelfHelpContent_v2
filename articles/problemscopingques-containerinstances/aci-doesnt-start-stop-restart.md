@@ -1,22 +1,22 @@
 <properties
-	pageTitle="aci cannot access metrics logs or events"
-	description="aci cannot access metrics logs or events"
+	pageTitle="aci does not start stop or restart"
+	description="aci does not start stop or restart"
 	ms.author="macolso"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32742283"
+	supportTopicIds="32588392"
 	productPesIds="16326"
 	cloudEnvironments="public,fairfax"
 	schemaVersion="1"
-	articleId="problemscopingques-acimetricslogsevents"
+	articleId="problemscopingques-acidoesntstartstoprestart"
 	ownershipId="compute-containerinstances-cs"
 />
-# ACI cannot access metrics, logs, or events
+# ACI does not start stop or restart
 ---
 {
    "$schema":"SelfHelpContent",
    "resourceRequired":true,
    "subscriptionRequired":true,
-   "title":"ACI cannot access metrics logs or events",
+   "title":"ACI does not start stop or restart",
    "formElements":[
       {
          "id":"problem_start_time",
@@ -44,27 +44,26 @@
          "watermarkText":"Always provide the full error text from Azure Container Instances when possible."
       },
       {
-         "id":"applications_on_vm",
-         "order":4,
-         "required":true,
-         "controlType":"multiselectdropdown",
-         "displayLabel":"Select the diagnostic(s) you're having difficulty with:",
-         "dropdownOptions":[
-            {
-               "value":"Metrics",
-               "text":"Metrics"
-            },
-            {
-               "value":"Container logs (std out/std err)",
-               "text":"Container logs (std out/std err)"
-            },
-            {
-               "value":"Platform events",
-               "text":"Platform events"
-            }
-         ],
-         "required":false
-      }
+        "id": "problem_operation",
+        "order": 4,
+        "controlType": "multiselectdropdown",
+        "displayLabel": "Select the operation(s) you are experiencing difficulty with",
+        "dropdownOptions": [{
+                "value": "Start",
+                "text": "Start"
+            }, {
+                "value": "Stop",
+                "text": "Stop"
+            }, {
+                "value": "Restart",
+                "text": "Restart"
+            }, {
+	    	"value": "dont_know_answer",
+		"text": "I don't know"
+	    }
+        ],
+        "required": true
+    }
    ]
 }
 ---
