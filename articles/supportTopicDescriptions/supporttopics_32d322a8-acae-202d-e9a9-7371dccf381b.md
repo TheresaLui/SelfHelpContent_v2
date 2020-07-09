@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "32da9999-5ffa-6fcb-21a0-15a03152d185",
+      "longDescription": "",
+      "shortDescription": "Integration and issues between Azure Stack Hub and customer firewall or proxy",
+      "searchTags": "Infrastructure;Firewall;Proxy",
+      "category": "Infrastructure",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "36664371-9f0c-76e2-71f1-16bc566e5a82",
       "longDescription": "",
       "shortDescription": "Configuring and managing infrastructure backups",
