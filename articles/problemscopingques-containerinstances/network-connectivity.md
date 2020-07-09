@@ -49,7 +49,6 @@
          "controlType":"multilinetextbox",
          "displayLabel":"Where are you trying to connect to?",
          "required":true,
-         "useAsAdditionalDetails":true,
          "watermarkText":"Examples: another Azure resource via service endpoint, external IP, etc."
       },
       {
