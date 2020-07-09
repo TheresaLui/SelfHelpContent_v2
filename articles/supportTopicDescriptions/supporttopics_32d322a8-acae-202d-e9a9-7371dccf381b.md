@@ -574,6 +574,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "cbf74ac9-344b-b425-9d2f-1af1d92c7f20",
+      "longDescription": "",
+      "shortDescription": "Question about Azure Stack Hub update packages or hotfixes (not related to pre-update health check)",
+      "searchTags": "Update;Patch",
+      "category": "Update",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "cf745e51-c194-344c-1bc5-c81e3a162abe",
       "longDescription": "",
       "shortDescription": "Issues and questions for Azure Stack Hub integrated system update packages, hotfixes, and OEM updates",
