@@ -1,6 +1,6 @@
 <properties
 	pageTitle="aci does not start stop or restart"
-	description="aci does not start stop or restart"
+	description="aci does not start stop restart"
 	ms.author="macolso"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588392"
@@ -9,7 +9,6 @@
 	schemaVersion="1"
 	articleId="problemscopingques-acidoesntstartstoprestart"
 	ownershipId="compute-containerinstances-cs"
-/>
 # ACI does not start stop or restart
 ---
 {
