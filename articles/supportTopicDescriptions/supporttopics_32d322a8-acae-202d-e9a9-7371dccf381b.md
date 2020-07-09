@@ -574,6 +574,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e0a0d737-3cb7-dcf2-81e6-96f2210de4f1",
+      "longDescription": "",
+      "shortDescription": "Update package is not progressing, even if specific errors have not occurred",
+      "searchTags": "Update;Patch;Progressing",
+      "category": "Update",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e239c8b9-40cb-184b-3fac-931fc1026b69",
       "longDescription": "",
       "shortDescription": "Expected update package is not available in the Admin portal",
