@@ -142,6 +142,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "4fb4b5ba-abbf-71de-f7ab-ea4af199b5a0",
+      "longDescription": "",
+      "shortDescription": "Creating or managing offers, including trial offers and delegated providers",
+      "searchTags": "Offers;POQS",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "55de25a0-c429-a306-1a92-4f2a62fe3cb9",
       "longDescription": "",
       "shortDescription": "Data recovery of specific resource provider (RP) data",
