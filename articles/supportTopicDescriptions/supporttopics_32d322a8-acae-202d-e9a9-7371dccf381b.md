@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "47cc3dca-d07a-94cd-ad0b-7ac0255240eb",
+      "longDescription": "",
+      "shortDescription": "Update package not recognized after starting an update",
+      "searchTags": "Update;Patch;Hotfix",
+      "category": "Update",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4876243b-3ce7-ec63-afd4-37910d46ff21",
       "longDescription": "",
       "shortDescription": "Azure Stack Hub marketplace management, and add-on resource providers for PaaS services",
