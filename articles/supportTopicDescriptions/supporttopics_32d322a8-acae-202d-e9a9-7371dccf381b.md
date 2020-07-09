@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d3f579c0-61f4-b497-1f08-2c3b532af564",
+      "longDescription": "",
+      "shortDescription": "Certificate expiration and secret rotation alerts",
+      "searchTags": "Certificate;Secrets",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "fb86f689-195e-d800-eeeb-8b276ea33893",
       "longDescription": "",
       "shortDescription": "Running the validation tool and accessing results",
