@@ -606,6 +606,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b14b395a-06e5-0e87-2697-4e6e382bcfe7",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to Linux-based virtual machines deployed from the Azure Stack Hub User Portal or APIs",
+      "searchTags": "Linux;VM",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b15715f2-ac21-d3d3-5476-7bccc77547eb",
       "longDescription": "",
       "shortDescription": "Connectivity between virtual networks on Azure Stack Hub using Azure ExpressRoute",
