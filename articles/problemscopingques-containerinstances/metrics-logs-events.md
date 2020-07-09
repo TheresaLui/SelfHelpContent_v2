@@ -3,7 +3,7 @@
 	description="aci cannot access metrics logs or events"
 	ms.author="macolso"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32641172"
+	supportTopicIds="32742283"
 	productPesIds="16326"
 	cloudEnvironments="public,fairfax"
 	schemaVersion="1"
