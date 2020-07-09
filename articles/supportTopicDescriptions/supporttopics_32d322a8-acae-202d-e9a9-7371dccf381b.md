@@ -766,6 +766,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "cac3f28d-b508-d1db-b50c-a69784ab882d",
+      "longDescription": "",
+      "shortDescription": "Provisioning or redeployment of Linux virtual machines using marketplace or customized images",
+      "searchTags": "Linux;Image;Deployment",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "cbf74ac9-344b-b425-9d2f-1af1d92c7f20",
       "longDescription": "",
       "shortDescription": "Question about Azure Stack Hub update packages or hotfixes (not related to pre-update health check)",
