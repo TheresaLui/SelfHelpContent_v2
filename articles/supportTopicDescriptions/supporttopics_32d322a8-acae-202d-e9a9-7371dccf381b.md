@@ -374,6 +374,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ca3688eb-70ba-264f-88ab-216942a9101f",
+      "longDescription": "",
+      "shortDescription": "Azure Stack general guidance and advisory",
+      "searchTags": "Guidance;Advisory",
+      "category": "Advisory",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d180a570-a585-4565-4416-4eea7c141c42",
       "longDescription": "",
       "shortDescription": "Performing management operations on infrastructure nodes, including Add, Drain, or Repair",
