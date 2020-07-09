@@ -462,6 +462,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "81833deb-3569-0128-bc8c-b4db8273a832",
+      "longDescription": "",
+      "shortDescription": "Create and manage a group of identical, load balanced, and auto-scaling VMs",
+      "searchTags": "Scaleset",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8a8bc58f-d95e-02bf-5360-1c03a78ab102",
       "longDescription": "",
       "shortDescription": "Questions before or during initial deployment of Azure Stack Hub",
