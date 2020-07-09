@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3a398ea2-670c-bd78-728c-2dc887cbed5b",
+      "longDescription": "",
+      "shortDescription": "Monitoring and managing storage and physical memory capacity",
+      "searchTags": "Capacity;Storage;Memory",
+      "category": "Capacity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "42a06dd9-b9d5-a377-94b2-ee766a2e9a1f",
       "longDescription": "",
       "shortDescription": "Azure Stack Syslog Forwarding issues",
