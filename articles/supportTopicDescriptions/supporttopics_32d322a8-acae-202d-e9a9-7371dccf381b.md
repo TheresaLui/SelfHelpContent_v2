@@ -382,6 +382,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5950eeea-8c11-ae83-87ca-81bb3d102141",
+      "longDescription": "",
+      "shortDescription": "Security, compliance, or compromise issues with Windows-based virtual machines",
+      "searchTags": "Windows;Malware;Security",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5a92f99a-2d8b-3067-f6f5-a3f2d082b8da",
       "longDescription": "",
       "shortDescription": "Investigate performance or usage issues for Linux virtual machines",
