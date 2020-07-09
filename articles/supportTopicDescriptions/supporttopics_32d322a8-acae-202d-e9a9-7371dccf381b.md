@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "77bb319e-b2e3-13cc-606b-07b5a820e341",
+      "longDescription": "",
+      "shortDescription": "Other admin portal alerts not covered by another topic",
+      "searchTags": "Monitoring;Alerts",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7b04f510-a627-61bc-2ca0-e2781a2a5073",
       "longDescription": "",
       "shortDescription": "SCOM management pack for external monitoring of Azure Stack Hub",
