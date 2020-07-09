@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8545671d-c7cc-c4b5-5f0e-b5d0a7b6721b",
+      "longDescription": "",
+      "shortDescription": "Issues installing patches or updates, such as getting an HRESULT or patches not being applied. ",
+      "searchTags": "install;patches;KB;apply;patch",
+      "category": "Update Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d8502d2b-4177-bcba-4511-9d3db71c9d1b",
       "longDescription": "",
       "shortDescription": "Machines enrolled successfully but not displayed in portal",
