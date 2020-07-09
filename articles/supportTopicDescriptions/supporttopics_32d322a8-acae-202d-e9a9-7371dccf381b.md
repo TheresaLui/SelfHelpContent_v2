@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5fb1b477-4498-b370-6c91-38bbd48cfb84",
+      "longDescription": "",
+      "shortDescription": "Usage reporting and billing issues and questions",
+      "searchTags": "Usage;Billing",
+      "category": "Usage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6848be8a-bc7e-b6e4-7b09-8b9fa1687ae9",
       "longDescription": "",
       "shortDescription": "Creating custom marketplace items, including Azure Gallery Package (.azpkg) format and the Azure Gallery Packager tool",
