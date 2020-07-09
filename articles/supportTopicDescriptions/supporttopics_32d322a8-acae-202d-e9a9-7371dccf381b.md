@@ -614,6 +614,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "fb61c748-b0c2-e772-3a5b-a8a40599cc41",
+      "longDescription": "",
+      "shortDescription": "Preparation failure after starting an update",
+      "searchTags": "Update;Patch;Hotfix;Preparation",
+      "category": "Update",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "fb7d4c97-8d3f-b4ac-17bf-9977dfcee20f",
       "longDescription": "",
       "shortDescription": "Recovery of Azure Stack Hub integrated systems, including cloud recovery mode",
