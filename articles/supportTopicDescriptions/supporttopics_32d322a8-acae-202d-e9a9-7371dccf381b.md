@@ -238,6 +238,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b92a7f8c-bb0c-32c1-6572-d503c97555fd",
+      "longDescription": "",
+      "shortDescription": "Performing Stop and Start procedures for Azure Stack Hub integrated system",
+      "searchTags": "Start;Stop;Infrastructure",
+      "category": "Infrastructure",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bb0f154d-2c52-5711-9724-1fbd7c45c438",
       "longDescription": "",
       "shortDescription": "Alert for infrastructure role unavailable, or repair action fails",
