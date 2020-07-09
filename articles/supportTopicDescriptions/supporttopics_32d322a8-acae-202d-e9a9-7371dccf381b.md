@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2ac017b0-da9f-5087-d935-ba1891f1377d",
+      "longDescription": "",
+      "shortDescription": "Security compromise or compliance concerns for Azure Stack Hub integrated system",
+      "searchTags": "Compromise;Compliance",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2bdefc45-14c3-0313-bdca-2765f8dbceec",
       "longDescription": "",
       "shortDescription": "Infrastructure backup job failures and alerts",
