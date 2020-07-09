@@ -806,6 +806,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d7d7436f-e85a-0058-9361-a3e71b9983e8",
+      "longDescription": "",
+      "shortDescription": "Connecting or configuring access to Linux virtual machine deployed by a user",
+      "searchTags": "Linux;SSH",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d80e8f80-059d-66c2-2df4-f90affbe910b",
       "longDescription": "",
       "shortDescription": "Supported Azure Stack Hub APIs, including PowerShell, REST, and CLI",
