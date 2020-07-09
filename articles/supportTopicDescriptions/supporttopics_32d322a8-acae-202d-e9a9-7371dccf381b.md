@@ -270,6 +270,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "eeeb83f4-2cd4-c9b3-8a33-a3e964c92892",
+      "longDescription": "",
+      "shortDescription": "Accessing Privileged Endpoint (PEP) sessions on Emergency Recovery Console Servers (ERCS)",
+      "searchTags": "ERCS;PEP;Administration",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f8da6c5b-2a74-37ac-a4c3-f3d40c0039ea",
       "longDescription": "",
       "shortDescription": "Administration of Azure Stack Hub integrated system",
