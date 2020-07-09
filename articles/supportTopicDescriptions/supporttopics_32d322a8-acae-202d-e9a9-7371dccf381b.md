@@ -398,6 +398,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "96587c34-1177-5792-a152-1b6ccfa89a36",
+      "longDescription": "",
+      "shortDescription": "Integration and authentication issues with customer Active Directory Federation Services (ADFS)",
+      "searchTags": "Authentication;ADFS",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "985f93a4-18cd-45f5-3939-982d9a0e2574",
       "longDescription": "",
       "shortDescription": "Network performance for user virtual networks",
