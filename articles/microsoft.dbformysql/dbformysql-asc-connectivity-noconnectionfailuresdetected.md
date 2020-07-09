@@ -9,7 +9,7 @@
 	displayOrder="100"
 	articleId="dbformysql-asc-connectivity-noconnectionfailuresdetected"
 	diagnosticScenario="OrcasMySQLNoSystemErrorsInsightV2TroubleShooter"
-	selfHelpType="rca"
+	selfHelpType="diagnostics"
 	supportTopicIds="32640053, 32640051"
 	resourceTags="servers, databases"
 	cloudEnvironments="public, blackForest, Fairfax, usnat, ussec"
