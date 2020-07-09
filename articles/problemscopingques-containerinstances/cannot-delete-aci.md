@@ -44,15 +44,6 @@
          "watermarkText":"Always provide the full error text from Azure Container Instances when possible."
       },
       {
-         "id":"problem_description",
-         "order":3,
-         "controlType":"multilinetextbox",
-         "displayLabel":"Please provide additional context about the issue you are encountering.",
-         "required":true,
-         "useAsAdditionalDetails":true,
-         "watermarkText":"Always provide the full error text from Azure Container Instances when possible."
-      },
-      {
          "id":"radio_button",
          "order":4,
          "controlType":"radioButtonGroup",
@@ -75,7 +66,7 @@
       },
       {
          "id":"stuck_resources",
-         "order":3,
+         "order":5,
          "visibility":"radio_button == Yes",
          "controlType":"multiselectdropdown",
          "displayLabel":"What resources are you having difficulty deleting?",
