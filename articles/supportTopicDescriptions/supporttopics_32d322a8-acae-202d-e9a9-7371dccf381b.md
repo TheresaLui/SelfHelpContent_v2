@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6fb60b1b-8076-5fc6-78c8-7e33fa92a330",
+      "longDescription": "",
+      "shortDescription": "Health of network adapters, data drives, and other field replaceable units",
+      "searchTags": "Hardware",
+      "category": "Hardware",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "70d49cb3-cbc8-3b14-4329-afbf83b9e599",
       "longDescription": "",
       "shortDescription": "Adding marketplace images, extensions, or solutions templates from the Azure Marketplace",
