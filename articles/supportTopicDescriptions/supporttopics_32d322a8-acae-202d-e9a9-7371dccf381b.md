@@ -830,6 +830,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c7eff80e-c107-52db-f0ce-68b79bfd22d4",
+      "longDescription": "",
+      "shortDescription": "Starting, stopping, or restarting user Windows virtual machines",
+      "searchTags": "Windows;Start;Stop",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ca3688eb-70ba-264f-88ab-216942a9101f",
       "longDescription": "",
       "shortDescription": "Azure Stack general guidance and advisory",
