@@ -622,6 +622,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e524568b-6d6c-70e5-c685-66c1dd2c27c6",
+      "longDescription": "",
+      "shortDescription": "Managing integrated system accounts accounts, including adding, removing, and rotating passwords",
+      "searchTags": "Accounts",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ec11f6fe-dc4e-3a92-f27e-f0304b2f3088",
       "longDescription": "",
       "shortDescription": "Azure Stack Hub infrastructure security and secret management",
