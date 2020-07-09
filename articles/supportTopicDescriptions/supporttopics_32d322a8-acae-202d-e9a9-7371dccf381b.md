@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "22170cc1-7c4b-684d-86bc-fcab770ffc88",
+      "longDescription": "",
+      "shortDescription": "Add or Remove public IP pools for external network connectivity to Azure Stack Hub resources",
+      "searchTags": "Administration;Public",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "259bcd67-f09f-f713-d241-e704e71c5f9c",
       "longDescription": "",
       "shortDescription": "Creating or managing quotas that define the limits of resources that a user subscription can provision",
