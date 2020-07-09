@@ -10,7 +10,7 @@
 	articleId="problemscopingques-acicannotchangeconfig"
 	ownershipId="compute-containerinstances-cs"
 />
-# ACI volume mount integration
+# ACI cannot change config
 ---
 {
    "$schema":"SelfHelpContent",
@@ -67,7 +67,7 @@
       {
          "id":"problem_start_time",
          "order":5,
-         "visibility": "radio_button == Yes",
+         "visibility":"radio_button == Yes",
          "controlType":"datetimepicker",
          "displayLabel":"When was the last time you were able to change your container group configuration file successfully?",
          "infoBalloonText":"Enter the approximate time",
