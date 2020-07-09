@@ -22,6 +22,11 @@
 
 ## Recommended Steps
 
+**MaxRU/s metric is being depricated. The recommended metric now is NormalizedRU.**  
+Please check this doc https://docs.microsoft.com/en-us/azure/cosmos-db/monitor-normalized-request-units  
+
+
+
 **Metrics show throttling (429) but chart shows consumed throughput doesn't exceed provisioned throughput**   
 
 - Scenario: You are seeing throttling (429) in Metrics, but the Max consumed RU/s per partition key range chart shows you are not exceeding the provisioned throughput on your database or container.
