@@ -358,6 +358,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "985f93a4-18cd-45f5-3939-982d9a0e2574",
+      "longDescription": "",
+      "shortDescription": "Network performance for user virtual networks",
+      "searchTags": "VNet;Performance",
+      "category": "Network",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9c97dbb5-0239-d195-c926-ef07228b76e2",
       "longDescription": "",
       "shortDescription": "Licensing for marketplace images including pay-as-you-go and bring-your-own-license",
