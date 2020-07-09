@@ -598,6 +598,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ec11f6fe-dc4e-3a92-f27e-f0304b2f3088",
+      "longDescription": "",
+      "shortDescription": "Azure Stack Hub infrastructure security and secret management",
+      "searchTags": "Security;Secret;Authentication;Certificate",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "eeeb83f4-2cd4-c9b3-8a33-a3e964c92892",
       "longDescription": "",
       "shortDescription": "Accessing Privileged Endpoint (PEP) sessions on Emergency Recovery Console Servers (ERCS)",
