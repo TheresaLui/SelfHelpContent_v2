@@ -126,6 +126,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "640b50ab-f94e-e616-c96a-2bc27173cc52",
+      "longDescription": "",
+      "shortDescription": "Pricing and licensing of Azure Stack Hub integrated systems",
+      "searchTags": "Licensing",
+      "category": "Usage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6848be8a-bc7e-b6e4-7b09-8b9fa1687ae9",
       "longDescription": "",
       "shortDescription": "Creating custom marketplace items, including Azure Gallery Package (.azpkg) format and the Azure Gallery Packager tool",
