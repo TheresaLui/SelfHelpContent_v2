@@ -390,6 +390,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7d005beb-678e-2699-eda1-6ddf0c7ce1c7",
+      "longDescription": "",
+      "shortDescription": "Questions about supported public certificate authorities (CA)",
+      "searchTags": "Certificate;Authorities;CA",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7eb0b2b2-6f93-1c40-9c89-7c2a0084dfa7",
       "longDescription": "",
       "shortDescription": "Network security groups (NSG) in user environment",
