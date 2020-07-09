@@ -16,7 +16,7 @@
    "$schema":"SelfHelpContent",
    "resourceRequired":true,
    "subscriptionRequired":true,
-   "title":"ACI network connectivity",
+   "title":"Unable to delete ACI",
    "formElements":[
       {
          "id":"problem_start_time",
