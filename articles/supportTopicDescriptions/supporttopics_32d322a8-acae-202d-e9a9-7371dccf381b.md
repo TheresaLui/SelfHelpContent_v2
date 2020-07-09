@@ -318,6 +318,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5b7fa69c-3e16-a804-d922-c67d586ebeba",
+      "longDescription": "",
+      "shortDescription": "Azure-consistent Table service issues",
+      "searchTags": "Storage;Table",
+      "category": "Storage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5ba62d70-5747-aa56-68a2-0762a6adc148",
       "longDescription": "",
       "shortDescription": "Operating or using SQL PaaS resource provider, other than initial deployment or upgrade",
