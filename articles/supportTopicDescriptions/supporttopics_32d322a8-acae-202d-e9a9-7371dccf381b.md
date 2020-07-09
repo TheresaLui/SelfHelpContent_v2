@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1a95ab60-9a3b-1cae-7f8b-05eebedc8097",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to Windows-based virtual machines deployed from the Azure Stack Hub User Portal or APIs",
+      "searchTags": "Windows;IaaS",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "21f189e8-3f3d-0301-282e-41104647911d",
       "longDescription": "",
       "shortDescription": "Data protection for user VMs, using Azure Backup",
