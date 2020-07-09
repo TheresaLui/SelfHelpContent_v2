@@ -358,6 +358,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "acba8e31-02de-0bba-f6a9-84f61342f338",
+      "longDescription": "",
+      "shortDescription": "VPNs for connectivity in user environment, including network virtual appliances, and site-to-site connections",
+      "searchTags": "VPN;NVA;S2S",
+      "category": "Network",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ad5572e9-7f54-2e67-c06d-12857b62b867",
       "longDescription": "",
       "shortDescription": "Operating or using App Service PaaS resource provider, other than initial deployment or upgrade",
