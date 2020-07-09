@@ -19,11 +19,6 @@
    "subscriptionRequired":true,
    "title":"vNet endpoints errors related scoping questions",
    "fileAttachmentHint":"",
-   "diagnosticCard":{
-      "title":"Scoping questions for vNet endpoints and related issues",
-      "description":"These diagnostics will check for errors with the Database vNet endpoints",
-      "insightNotAvailableText":"We did not find any issues."
-   },
    "formElements":[
       {
          "id":"problem_start_time",
