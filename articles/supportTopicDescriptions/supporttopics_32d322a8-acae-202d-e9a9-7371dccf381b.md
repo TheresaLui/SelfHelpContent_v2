@@ -534,6 +534,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "999a1242-1628-087a-7a98-b87b11b6e152",
+      "longDescription": "",
+      "shortDescription": "Monitoring or diagnosing issues with Linux virtual machines, including Boot Diagnostics and Diagnostics Extension",
+      "searchTags": "Linux;Monitoring;Diagnostics",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9c97dbb5-0239-d195-c926-ef07228b76e2",
       "longDescription": "",
       "shortDescription": "Licensing for marketplace images including pay-as-you-go and bring-your-own-license",
