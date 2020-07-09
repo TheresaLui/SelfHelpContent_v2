@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "70d49cb3-cbc8-3b14-4329-afbf83b9e599",
+      "longDescription": "",
+      "shortDescription": "Adding marketplace images, extensions, or solutions templates from the Azure Marketplace",
+      "searchTags": "Marketplace",
+      "category": "Marketplace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7f351813-44b4-cb7b-a267-1e70bc4e6c53",
       "longDescription": "",
       "shortDescription": "Capacity planning, prerequisites, initial deployment or update of App Service PaaS resource provider",
