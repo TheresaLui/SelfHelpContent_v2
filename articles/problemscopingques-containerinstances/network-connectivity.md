@@ -40,7 +40,6 @@
          "controlType":"multilinetextbox",
          "displayLabel":"Please provide additional context about the issue you are encountering.",
          "required":true,
-         "useAsAdditionalDetails":true,
          "watermarkText":"Always provide the full error text from Azure Container Instances when possible."
       },
       {
