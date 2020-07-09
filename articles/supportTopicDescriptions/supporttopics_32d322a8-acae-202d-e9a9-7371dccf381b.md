@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "55de25a0-c429-a306-1a92-4f2a62fe3cb9",
+      "longDescription": "",
+      "shortDescription": "Data recovery of specific resource provider (RP) data",
+      "searchTags": "AddOnRP;Protection;Recovery;BCDR",
+      "category": "Protection",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "565fcc07-e789-0d23-8a1d-c1af841f0598",
       "longDescription": "",
       "shortDescription": "Monitoring and responding to alerts related to Azure Stack Hub infrastructure and hardware",
