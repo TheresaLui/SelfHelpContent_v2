@@ -246,6 +246,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "45a8200e-7a1f-0bd2-f1b4-3f532722bcce",
+      "longDescription": "",
+      "shortDescription": "Azure-consistent storage in user environment",
+      "searchTags": "Blobs;Tables;Queues",
+      "category": "Storage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "45cf0cf0-200d-f724-5630-08e1938df235",
       "longDescription": "",
       "shortDescription": "Integration and authentication issues with Azure Active Directory (AAD)",
