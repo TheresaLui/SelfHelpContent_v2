@@ -558,6 +558,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e239c8b9-40cb-184b-3fac-931fc1026b69",
+      "longDescription": "",
+      "shortDescription": "Expected update package is not available in the Admin portal",
+      "searchTags": "Update;Patch;Hotfix",
+      "category": "Update",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "eeeb83f4-2cd4-c9b3-8a33-a3e964c92892",
       "longDescription": "",
       "shortDescription": "Accessing Privileged Endpoint (PEP) sessions on Emergency Recovery Console Servers (ERCS)",
