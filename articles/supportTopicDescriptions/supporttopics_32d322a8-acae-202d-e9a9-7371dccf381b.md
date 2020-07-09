@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "565fcc07-e789-0d23-8a1d-c1af841f0598",
+      "longDescription": "",
+      "shortDescription": "Monitoring and responding to alerts related to Azure Stack Hub infrastructure and hardware",
+      "searchTags": "Monitoring;Alerts",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5ba62d70-5747-aa56-68a2-0762a6adc148",
       "longDescription": "",
       "shortDescription": "Operating or using SQL PaaS resource provider, other than initial deployment or upgrade",
