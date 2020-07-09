@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7f351813-44b4-cb7b-a267-1e70bc4e6c53",
+      "longDescription": "",
+      "shortDescription": "Capacity planning, prerequisites, initial deployment or update of App Service PaaS resource provider",
+      "searchTags": "AppServices;AddOnRP;PaaS",
+      "category": "AddOnRP",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9dded50f-68e9-19d9-812f-c867b98c3771",
       "longDescription": "",
       "shortDescription": "Supportability of issues on single-node Azure Stack Hub Development Kit (ASDK)",
