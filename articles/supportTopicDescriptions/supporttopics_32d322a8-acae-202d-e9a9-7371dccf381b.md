@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9164e579-0783-a42a-05a8-9cd60a177c12",
+      "longDescription": "",
+      "shortDescription": "Pending or expired internal or external certificates",
+      "searchTags": "Expired;Certificates",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "96587c34-1177-5792-a152-1b6ccfa89a36",
       "longDescription": "",
       "shortDescription": "Integration and authentication issues with customer Active Directory Federation Services (ADFS)",
