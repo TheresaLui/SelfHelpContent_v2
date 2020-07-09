@@ -534,6 +534,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "cf745e51-c194-344c-1bc5-c81e3a162abe",
+      "longDescription": "",
+      "shortDescription": "Issues and questions for Azure Stack Hub integrated system update packages, hotfixes, and OEM updates",
+      "searchTags": "Update;Patch;Hotfix",
+      "category": "Update",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d180a570-a585-4565-4416-4eea7c141c42",
       "longDescription": "",
       "shortDescription": "Performing management operations on infrastructure nodes, including Add, Drain, or Repair",
