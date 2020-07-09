@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "0fa16741-73c8-f5b4-592f-00ff36f39ab9",
+      "longDescription": "",
+      "shortDescription": "User storage capacity and re-balancing",
+      "searchTags": "Capacity;Rebalancing",
+      "category": "Storage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "18a6d748-7150-98ab-0bdc-0f1c473ff25c",
       "longDescription": "",
       "shortDescription": "Alerts and actions for physical infrastructure nodes",
