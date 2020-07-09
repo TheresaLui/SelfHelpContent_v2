@@ -41,6 +41,6 @@ Please see
 [Cosmos DB Data Migration Tool](https://docs.microsoft.com/azure/cosmos-db/import-data)
 <br>Can be used to insert documents that will be recognized as vertices or edges by Gremlin engine.  
 
-[GraphFrames](https://spark-packages.org/package/graphframes/graphframes)
+[GraphFrames](https://github.com/graphframes/graphframes)
 <br>This is a prototype package for DataFrame-based graphs in Spark. Users can write highly expressive queries by leveraging the DataFrame API, combined with a new API for motif finding. The user also benefits from DataFrame performance optimizations within the Spark SQL engine.
 
