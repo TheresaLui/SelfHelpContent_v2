@@ -65,7 +65,7 @@
          "required":true
       },
       {
-         "id":"problem_start_time",
+         "id":"last_success_time",
          "order":5,
          "visibility":"radio_button == Yes",
          "controlType":"datetimepicker",
