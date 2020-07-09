@@ -18,7 +18,7 @@
 # No MySQL server connection failures detected
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your connection issues to your MySQL server <!--$ServerName-->ServerName<!--/$ServerName-->. Please note that we have checked our backend telemetry and noticed that there were no database side errors in the provided time range <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->.
+Thank you for contacting Microsoft support about your connection issues to your MySQL server <!--$ServerName-->ServerName<!--/$ServerName-->. Please note that we have checked our backend telemetry and noticed that there were no database side errors in the provided time range <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC).
 <!--/issueDescription-->
 
 ## **Recommended Steps**
