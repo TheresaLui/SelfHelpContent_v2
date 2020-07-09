@@ -8,7 +8,7 @@
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="84515be5-f55b-43f2-bf22-de87779a91e0"
+	articleId="problemscopingques-sql-security-vnet-service-endpoints"
 	ownershipId="AzureData_AzureSQLDB_Security"
 />
 # Scoping questions for vNet endpoints Errors
