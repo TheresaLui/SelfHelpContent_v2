@@ -430,6 +430,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "707be4b1-617a-bea9-5e40-27eebf96bc2a",
+      "longDescription": "",
+      "shortDescription": "Starting, stopping, or restarting user Linux virtual machines",
+      "searchTags": "Linux;Start;Stop",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "70d49cb3-cbc8-3b14-4329-afbf83b9e599",
       "longDescription": "",
       "shortDescription": "Adding marketplace images, extensions, or solutions templates from the Azure Marketplace",
