@@ -446,6 +446,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c07fe5f8-994a-035c-50c2-db5a10da2798",
+      "longDescription": "",
+      "shortDescription": "Configuration of virtual network interfaces on user VMs",
+      "searchTags": "vNIC",
+      "category": "Network",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c0b3c6f9-a1db-b4a6-7d7e-b54fb1105701",
       "longDescription": "",
       "shortDescription": "Issues applying OEM Extension Package during initial deployment",
