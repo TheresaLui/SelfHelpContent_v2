@@ -6,7 +6,7 @@
     articleId="16456F6D-3FD8-425C-8CD4-E74DF6ABE514_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
-	  ownershipId="AzureDataExplorer_Kusto"
+    ownershipId="AzureDataExplorer_Kusto"
 />
 # The following ADX clusters have been identified as candidates for re-scaling
 ---
@@ -49,24 +49,24 @@
       "actionId": "9bdcbfa6-0dbf-4c48-9291-587251102c63",
       "description": "Change your SKU to scale down",
       "actionType": "Blade",
-	  "extensionName": "HubsExtension",
+      "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}",
-		"menuid": "scale_up"
+        "menuid": "scale_up"
       }
     },
-	{
+    {
       "actionId": "10c9bd8e-e88e-4e42-b1cd-069fa043857e",
       "description": "Change your instance count to scale in",
       "actionType": "Blade",
-	  "extensionName": "HubsExtension",
+      "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}",
-		"menuid": "scale_out"
+        "menuid": "scale_out"
       }
-	}
+    }
   ],
   "resourceMetadata": {
     "action": {
@@ -81,7 +81,7 @@
   },
   "displayLabel": "Consider scaling your cluster to the recommended configuration",
   "additionalColumns": [
-	{
+    {
       "name": "clusterName",
       "title": "Cluster Name"
     },
@@ -89,15 +89,15 @@
       "name": "currentConfig",
       "title": "Current Configuration"
     },
-	{
+    {
       "name": "recommendedConfig",
       "title": "Recommended Configuration"
     },
-	{
+    {
       "name": "observationStartTime",
       "title": "Observation Start Time"
     },
-	{
+    {
       "name": "observationEndTime",
       "title": "Observation End Time"
     }

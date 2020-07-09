@@ -1,12 +1,12 @@
 <properties
     pageTitle="Detect unused or empty Azure Data Explorer (ADX) clusters."
     description="Detect unused or empty Azure Data Explorer (ADX) clusters."
-    authors="raldaba"
-    ms.author="aoaft"
+    authors="prvavill"
+    ms.author="kustosee"
     articleId="3C636DDD-1551-4EDD-A482-E71D73A79815_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
-	ownershipId="AzureDataExplorer_Kusto"
+    ownershipId="AzureDataExplorer_Kusto"
 />
 # The following ADX clusters are not being used and are candidates for deletion.
 ---
@@ -49,7 +49,7 @@
       "actionId": "2f150ed8-58b6-485c-9843-2efac1d74e35",
       "description": "Consider deleting empty or unused clusters",
       "actionType": "Blade",
-	  "extensionName": "HubsExtension",
+      "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}"
@@ -73,15 +73,15 @@
       "name": "instanceCount",
       "title": "Instance Count"
     },
-	{
+    {
       "name": "region",
       "title": "Region"
     },
-	{
+    {
       "name": "vmSku",
       "title": "VM SKU"
     },
-	{
+    {
       "name": "recGeneratedOn",
       "title": "Generated On"
     }

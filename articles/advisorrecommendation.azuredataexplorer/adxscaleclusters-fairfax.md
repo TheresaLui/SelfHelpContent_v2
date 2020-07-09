@@ -1,12 +1,12 @@
 <properties
     pageTitle="Right-size Azure Data Explorer (ADX) clusters."
     description="Right-size Azure Data Explorer (ADX) clusters."
-    authors="raldaba"
-    ms.author="aoaft"
+    authors="prvavill"
+    ms.author="kustosee"
     articleId="FBBC84E7-4D4D-4AC2-9850-D9AF01801829_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
-	ownershipId="AzureDataExplorer_Kusto"
+    ownershipId="AzureDataExplorer_Kusto"
 />
 # The following ADX clusters have been identified as candidates for re-scaling
 ---
@@ -49,22 +49,22 @@
       "actionId": "2407eac0-6bd3-4f89-9d48-2c5e372a9366",
       "description": "Change your SKU to scale up",
       "actionType": "Blade",
-	  "extensionName": "HubsExtension",
+      "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}",
-		"menuid": "scale_up"
+        "menuid": "scale_up"
       }
     },
-	{
+    {
       "actionId": "10c9bd8e-e88e-4e42-b1cd-069fa043857e",
       "description": "Change your instance count to scale out",
       "actionType": "Blade",
-	  "extensionName": "HubsExtension",
+      "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}",
-		"menuid": "scale_out"
+        "menuid": "scale_out"
       }
     }
   ],
@@ -81,7 +81,7 @@
   },
   "displayLabel": "Consider scaling your cluster to the recommended configuration",
   "additionalColumns": [
-	{
+    {
       "name": "clusterName",
       "title": "Cluster Name"
     },
@@ -89,15 +89,15 @@
       "name": "currentConfig",
       "title": "Current Configuration"
     },
-	{
+    {
       "name": "recommendedConfig",
       "title": "Recommended Configuration"
     },
-	{
+    {
       "name": "observationStartTime",
       "title": "Observation Start Time"
     },
-	{
+    {
       "name": "observationEndTime",
       "title": "Observation End Time"
     }
