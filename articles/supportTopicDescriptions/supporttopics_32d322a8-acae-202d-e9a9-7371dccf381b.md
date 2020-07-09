@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "49f30ab9-8c5f-49b8-eaaf-12488828f6fd",
+      "longDescription": "",
+      "shortDescription": "Supportability of issues on single-node Azure Stack Hub Development Kit (ASDK)",
+      "searchTags": "ASDK",
+      "category": "ASDK",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9dded50f-68e9-19d9-812f-c867b98c3771",
       "longDescription": "",
       "shortDescription": "Supportability of issues on single-node Azure Stack Hub Development Kit (ASDK)",
