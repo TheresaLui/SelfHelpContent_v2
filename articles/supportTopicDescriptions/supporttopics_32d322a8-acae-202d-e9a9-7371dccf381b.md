@@ -590,6 +590,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "8c127d8c-d311-d95d-a2e8-460acb91c4f7",
+      "longDescription": "",
+      "shortDescription": "Attaching and detaching disks on Windows VMs (managed or unmanaged)",
+      "searchTags": "Windows;Disks;Attach;Detach",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8dcf763f-7d15-1ff4-bf6a-fba9238e68a7",
       "longDescription": "",
       "shortDescription": "Removing existing marketplace images, extensions, and solution templates",
