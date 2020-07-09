@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32633533,32633532,32633535,32637157,32633536,32633537,32633539,32633540"
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="mapping-dataflow"
 	ownershipId="AzureData_DataFactory"

@@ -18,5 +18,5 @@
 # Solution Found
 <!--issueDescription-->
 **INTERNAL MICROSOFT MESSAGE TO SUPPORT ENGINEER**<br>
-You've indicated that an insight helped resolve this issue. Please provide the customer the customer ready message from the ASC insight. We will not duplicate the customer ready message on this step.
+You've indicated that ASC or the TSG helped resolve this issue. If an insight helped you solve this step, please provide the customer the customer ready message from the ASC insight.
 <!--/issueDescription-->

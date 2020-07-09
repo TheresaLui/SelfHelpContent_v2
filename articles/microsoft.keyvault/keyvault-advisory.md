@@ -18,9 +18,12 @@
 # Advisory for Key Vault related tasks
 ## **Recommended Steps**
 
-* [Key Vault Get Started](https://docs.microsoft.com/azure/key-vault/key-vault-overview)
-* [About Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts)
-* [Key Vault Best Practices](https://docs.microsoft.com/azure/key-vault/key-vault-best-practices)
+* For general questions and not urgent incidents please use Stack Overflow providing 'azure-keyvault' as a tag:
+
+	* [Microsoft Internal Stack Overflow](https://stackoverflow.microsoft.com/questions/ask)
+	* [Stack Overflow](https://stackoverflow.com/questions/ask)<br>
+	
+* For features requests please use [Key Vault User Voice](https://feedback.azure.com/forums/906355-azure-key-vault)
 
 **Troubleshooting**
 
@@ -33,25 +36,24 @@ You can turn on [logs on Key Vault](https://docs.microsoft.com/azure/key-vault/k
 	
 	[Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
 
-* I have several (over 1024) applications that need to access a key vault. Since Key Vault only allows 1024 access control entries, how can I achieve that?<br>
+* I have many (over 1024) applications that need to access a key vault. Since Key Vault only allows 1024 access control entries, how can I achieve that?<br>
 	
 	[Grant permission to many applications to access a key vault](https://docs.microsoft.com/azure/key-vault/key-vault-group-permissions-for-apps)
 
 ## **Recommended Documents**
 
-* [Creating and Managing Key Vault with Azure CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
-* [Creating and Managing Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-get-started)<br>
-* [Using Azure Key Vault from a Web Application](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)<br>
-* [Using Soft-Delete with Key Vault with PowerShell](https://docs.microsoft.com/azure/key-vault/key-vault-soft-delete-powershell)<br>
-* [Using Soft-Delete with Key Vault with CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-soft-delete-cli)<br>
-* [Using Soft-Delete with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)<br>
-* [Azure Code Samples](https://azure.microsoft.com/resources/samples/?service=key-vault&sort=0)<br>
-* [Key Vault Developer's Guide](https://docs.microsoft.com/azure/key-vault/key-vault-developers-guide)<br>
-* [How to Generate and Transfer HSM-protected Keys for Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-hsm-protected-keys)<br>
-* [Getting Started with Certificates in Key Vault](https://blogs.technet.microsoft.com/kv/2016/09/26/get-started-with-azure-key-vault-certificates/)<br>
-* [Logging with Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-logging)<br>
-* [Set Up Key Vault with End-to-End Key Rotation and Auditing](https://docs.microsoft.com/azure/key-vault/key-vault-key-rotation-log-monitoring)<br>
-* [Key Vault Storage Account Keys](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-storage-keys)<br>
-* [Understanding Backup and Restore Behavior in Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-security-worlds)<br>
+* [Key Vault Get Started](https://docs.microsoft.com/azure/key-vault/key-vault-overview)<br>
+* [About Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts)<br>
+* [Key Vault Best Practices](https://docs.microsoft.com/azure/key-vault/key-vault-best-practices)
 * [Secure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-secure-your-key-vault)<br>
 * [Key Vault Throttling Limits](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-throttling)<br>
+* [Using Soft-Delete with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)<br>
+* [Logging with Azure Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-logging)<br>
+* [Creating and Managing Key Vault with Azure CLI 2.0](https://docs.microsoft.com/azure/key-vault/key-vault-manage-with-cli2)<br>
+* [Using Azure Key Vault from a Web Application](https://docs.microsoft.com/azure/key-vault/key-vault-use-from-web-application)<br>
+* [Key Vault Developer's Guide](https://docs.microsoft.com/azure/key-vault/key-vault-developers-guide)<br>
+* [Getting Started with Certificates in Key Vault](https://blogs.technet.microsoft.com/kv/2016/09/26/get-started-with-azure-key-vault-certificates/)<br>
+* [Key Vault Storage Account Keys](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-storage-keys)<br>
+* [Understanding Backup and Restore Behavior in Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-security-worlds)<br>
+* [Azure Code Samples](https://azure.microsoft.com/resources/samples/?service=key-vault&sort=0)<br>
+

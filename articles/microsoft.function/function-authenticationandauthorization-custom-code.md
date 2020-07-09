@@ -11,11 +11,14 @@
 	resourceTags=""
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId = "Compute_AppService"
 	articleId="189c3727-ebd3-4d15-9498-7a29b19e85d1"
-	ownershipId="Compute_AppService"
 />
 
 # authentication and authorization/Authentication through custom code
+
+**Note:**
+If you have questions related to Azure Active Directory, please consider going back to the previous screen and selecting one of the Active Directory services to get better solution recommendations and faster access to an appropriate support resource.  <br>
 
 ## **Recommended Documents**
 
@@ -32,3 +35,10 @@
 * [Setting up Application Gateway with an App Service and AAD](https://blogs.msdn.microsoft.com/waws/2017/11/21/setting-up-application-gateway-with-an-app-service-that-uses-azure-active-directory-authentication-and-url-authorization-rules/)<br>
 * [Authentication and authorization HTTP status codes, ex: 401.71, 401.83](https://github.com/cgillum/easyauth/wiki/HTTP-Status-Codes)<br>
 * [Authentication and authorization error codes, ex: AADSTS####](https://docs.microsoft.com/azure/active-directory/develop/reference-aadsts-error-codes)
+
+
+
+
+
+
+
