@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "42eb1212-2b76-e2f5-c244-efb22fc3270f",
+      "longDescription": "",
+      "shortDescription": "Code Integrity Violation or other Windows Defender Application Control alerts",
+      "searchTags": "Security",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4876243b-3ce7-ec63-afd4-37910d46ff21",
       "longDescription": "",
       "shortDescription": "Azure Stack Hub marketplace management, and add-on resource providers for PaaS services",
