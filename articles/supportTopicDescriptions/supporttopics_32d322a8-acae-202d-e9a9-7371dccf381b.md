@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1662a7fe-7f56-cc04-cd59-86a8488c0d20",
+      "longDescription": "",
+      "shortDescription": "Diagnose or investigate a Linux virtual machine that restarted or stopped unexpectedly",
+      "searchTags": "Linux;Stopped",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1755af9b-a59f-9330-d8bd-3b549292c5a1",
       "longDescription": "",
       "shortDescription": "Azure-consistent Queue service issues",
