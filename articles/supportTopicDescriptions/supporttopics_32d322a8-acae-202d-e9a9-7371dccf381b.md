@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3c188226-6a0c-8085-e97d-2a35abca3a77",
+      "longDescription": "",
+      "shortDescription": "Data protection for user VMs, using 3rd-party products or services",
+      "searchTags": "BCDR;Backup",
+      "category": "Protection",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "42a06dd9-b9d5-a377-94b2-ee766a2e9a1f",
       "longDescription": "",
       "shortDescription": "Azure Stack Syslog Forwarding issues",
