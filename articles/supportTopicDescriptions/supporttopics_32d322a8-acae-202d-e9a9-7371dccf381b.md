@@ -462,6 +462,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "810995f9-b00b-a175-c43d-1e148851f286",
+      "longDescription": "",
+      "shortDescription": "Performing operations on virtual machine instances that are part of a scale-set",
+      "searchTags": "Scaleset",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "81833deb-3569-0128-bc8c-b4db8273a832",
       "longDescription": "",
       "shortDescription": "Create and manage a group of identical, load balanced, and auto-scaling VMs",
