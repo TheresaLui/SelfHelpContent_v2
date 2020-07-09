@@ -782,6 +782,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "edd51786-68d6-51c9-1970-6aa834c90550",
+      "longDescription": "",
+      "shortDescription": "Create and manage a group of identical, load balanced, and auto-scaling VMs running Linux",
+      "searchTags": "Scaleset",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "eeeb83f4-2cd4-c9b3-8a33-a3e964c92892",
       "longDescription": "",
       "shortDescription": "Accessing Privileged Endpoint (PEP) sessions on Emergency Recovery Console Servers (ERCS)",
