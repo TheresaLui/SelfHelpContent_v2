@@ -22,5 +22,5 @@
 ## **Recommended Documents**
 
 * [Set custom properties on the Hostpool](https://docs.microsoft.com/azure/virtual-desktop/customize-rdp-properties)<br>
-* [Review supported RDP file settings](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context )<br>
-* [Understand what redirection is supported by Remote Desktop clients](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context   )
+* [Review supported RDP file settings](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context)<br>
+* [Understand what redirection is supported by Remote Desktop clients](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context)

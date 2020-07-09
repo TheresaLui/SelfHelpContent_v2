@@ -30,4 +30,4 @@
 * [Monitor status, set up diagnostics logging, and turn on alerts for Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-monitor-your-logic-apps)<br>
 * [Limits and configuration information for Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-limits-and-config)<br>
 * [Secure access in Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/logic-apps-securing-a-logic-app)<br>
-* Review the [Current Azure Status](https://azure.microsoft.com/status/) or [Azure Status - History](https://azure.microsoft.com/status/history/) for outages
+* Review the [Current Azure Status](https://azure.microsoft.com/status/) or [Azure Status - History](https://status.azure.com/status/history/) for outages

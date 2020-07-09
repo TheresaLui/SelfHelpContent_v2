@@ -28,12 +28,17 @@ If you are having trouble indexing data from Azure Cosmos DB, you may want to en
 
 If change detection is not working for you:
 
-1. Confirm that you have specified a [HighWaterMarkChangeDetectionPolicy](https://docs.microsoft.com/azure/search/search-howto-index-cosmosdb#indexing-changed-documents).
-1. For a custom query, make sure that the _ts property is projected by the query.
+1. Confirm that you have specified a [HighWaterMarkChangeDetectionPolicy](https://docs.microsoft.com/azure/search/search-howto-index-cosmosdb#indexing-changed-documents)
+1. For a custom query, make sure that the _ts property is projected by the query
 
 If data deletion detection is not working for you:
 
-1. Confirm the [soft delete](https://docs.microsoft.com/azure/search/search-howto-index-cosmosdb#indexing-deleted-documents) policy is specified.
+1. Confirm the [soft delete](https://docs.microsoft.com/azure/search/search-howto-index-cosmosdb#indexing-deleted-documents) policy is specified
+
+Other special considerations:
+
+1. Note that for partitioned collections, the default document key is Azure Cosmos DB's *\_rid* property, which Azure Cognitive Search automatically renames to *rid* because field names cannot start with an underscore character. Also, Azure Cosmos DB *\_rid* values contain characters that are invalid in Azure Cognitive Search keys. For this reason, the *\_rid* values are base64 encoded.  
+1. Similarly, for MongoDB collections, Azure Cognitive Search automatically renames the *\_id* property to *id*
 
 ## **Recommended Documents**
 

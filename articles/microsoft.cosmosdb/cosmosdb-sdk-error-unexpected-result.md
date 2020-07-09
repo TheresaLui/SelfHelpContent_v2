@@ -36,6 +36,19 @@ Review the Github issues links below for your SDK platform to see if there is a 
 
 ### **Common Errors**  
   
+**401: The MAC signature found in the HTTP request is not the same as the computed signature**
+<br>If you received the following 401 error message: "The MAC signature found in the HTTP request is not the same as the computed signature." It can be caused by the following scenarios.
+
+* The key was rotated and did not follow the [best practices](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data#key-rotation). This is usually the case. Cosmos DB account key rotation can take anywhere from a few seconds to possibly days depending on the Cosmos DB account size.
+   * 401 MAC signature is seen shortly after a key rotation and eventually stops without any changes. 
+* The key is misconfigured on the application so the key does not match the account.
+   * 401 MAC signature issue will be consistent and happens for all calls
+* The application is using the [read-only keys](https://docs.microsoft.com/azure/cosmos-db/secure-access-to-data#master-keys).
+   * 401 MAC signature issue will only happen when the application is doing write requests, but read requests will succeed.
+* There is a race condition with container creation. An application instance is trying to access the container before container creation is complete. The most common scenario for this if the application is running, and the container is deleted and recreated with the same name while the application is running. The SDK will attempt to use the new container, but the container creation is still in progress so it does not have the keys.
+   * 401 MAC signature issue is seen shortly after a container creation, and only occur until the container creation is completed.
+
+
 **403 Forbidden**
 <br>The authorization token expired:  
 
@@ -101,7 +114,7 @@ For more information, see [Handle rate limiting/request rate too large](https://
 [Troubleshoot issues when you use the Java Async SDK with Azure Cosmos DB SQL API accounts](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-java-async-sdk)
 <br>This article covers common issues, workarounds, diagnostic steps, and tools when you use the Java Async SDK with Azure Cosmos DB SQL API accounts. The Java Async SDK provides client-side logical representation to access the Azure Cosmos DB SQL API. This article describes tools and approaches to help you if you run into any issues.  
 
-[FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api)
+[FAQ](https://docs.microsoft.com/azure/cosmos-db/faq#sql-api-faq)
 <br>Frequently asked questions about Cosmos DB SQL API.  
 
 [List of HTTP Status Codes for Azure Cosmos DB](https://docs.microsoft.com/rest/api/cosmos-db/http-status-codes-for-cosmosdb)

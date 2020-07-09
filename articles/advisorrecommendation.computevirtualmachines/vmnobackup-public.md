@@ -5,8 +5,8 @@
     ms.author="aadevteam"
     articleId="af0be9f8-e590-48d0-9e19-380d8819b8dc_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-	ownershipId="Compute_VirtualMachines"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Enable virtual machine backup to protect your data from corruption and accidental deletion
 ---

@@ -29,18 +29,31 @@
 * *"xxx/NIC-xxxxxxxxxxxx/ipConfigurations/ipconfig cannot be used because it contains external resources."*
 * *"You need to ***delete these external resources*** before deploying into this subnet."*
 
-### **Recommened Steps**
+### **Recommended Steps**
 
 * The VNET selected to create DMS instance in contained external resources like application gateway, Azure SQL DB Managed Instance, or hosting environments. DMS can be created in the same VNET but it needs to be created in a separate Subnet. 
 
-**Error:** 
+**Error message contains some of the following text:**
 
 * *"VM has reported a failure when processing extension **'CustomScriptExtension'**. Error message: "Finished executing command."*
+* *Download of configuration content from GCS failed.*
+* *Thread running configuration downloader exited, but configuration file was not downloaded.*
+* *Failed to download the configuration for MA; cannot start Agent.*
+* *Error message: "Command execution finished, but failed because it returned a non-zero exit code of: '1'.
+The command had an error output of: ' actual size (xxxxxx) expected size (xxxxxx).*
 
 ### **Recommended Steps** 
 
-* This error most commonly occurs when the VNET selected to create a DMS instance is blocking connectivity to the metrics and health monitoring end point https://prod.warmpath.msftcloudes.com and/or blocking the following communication ports: 443, 53, 9354, 
+* This error most commonly occurs when the VNET selected to create the DMS instance is blocking connectivity to the metrics and health monitoring end point https://prod.warmpath.msftcloudes.com and/or blocking the following communication ports: 443, 53, 9354,
 445, 12000
+* If VNET config is allowing port 443, it might be due to firewall blocking the metrics endpoint. To validate this,  please perform the following steps:
+  - Create an Azure VM in the same VNET from which the DMS provisioning is being attempted.
+  - Login to the VM and try this URL from a browser: https://prod.warmpath.msftcloudes.com/
+  - The content of the web page should be a response from the API like this:
+
+	*{"Message":"Unable to parse MDS environment/MDS account from path /","Code":"BadRequest","StackTrace":"","Details":null}''*
+  - If you get an error, such as Page Not Found 404, that means the firewall config is not allowing the endpoint. Please contact your system administrator.
+  - If you are able to hit the endpoint and view the content, then please continue to file the support ticket.
 
 ### **Recommended Documents**
 

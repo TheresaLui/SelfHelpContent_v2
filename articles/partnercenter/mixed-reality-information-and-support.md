@@ -14,12 +14,13 @@
 	clientIds='partnercenter'
 	resourceTags="other"
 	productPesIds="17113"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Other_Portals"
 />
 
 # This topic will guide you to the Mixed Reality information and support
 
+This topic will guide you to the Mixed Reality information and support
 
 ## **Recommended Steps**
 

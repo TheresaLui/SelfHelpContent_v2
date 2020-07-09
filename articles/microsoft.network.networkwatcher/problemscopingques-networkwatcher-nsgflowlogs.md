@@ -8,7 +8,7 @@
 	productPesIds="16160"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="23f8d822-ea47-49a0-8638-95e9d8d1113f"
+	articleId="23f8d822-ea47-49a0-8638-95e9d8d1113f-psq"
 	ownershipId="CloudNet_NetAnalytics"
 />
 

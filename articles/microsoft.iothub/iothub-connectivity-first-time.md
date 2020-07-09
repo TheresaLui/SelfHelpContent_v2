@@ -23,6 +23,7 @@
 2. Try testing the connection with a [default sample](https://docs.microsoft.com/azure/iot-hub/tutorial-connectivity) and running our [diagnostic tool](https://github.com/azure/iothub-diagnostics)
 3. If you can get the sample to work, but not your own application, check to see if there's an authorization or firewall issue: [IoT Hub device side troubleshooting guide](https://github.com/Azure/azure-iot-sdk-node/wiki/Troubleshooting-Guide-Devices#cannot-connect-to-your-azure-iot-hub)
 4. If you have access to the device either physically or remotely (like SSH), see if you can get the logs from the device to find out more. These logs will also help our support team to help you troubleshoot.
+5. Ensure the clock on the device is correct since the [time validity for SAS token is validated on IoT Hub machines](https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-security). You may need to sync your device clock with an NTP server.
 
 ## **Recommended Documents**
 

@@ -12,7 +12,7 @@
 	supportTopicIds="32613464,32613482,32613506"
 	resourceTags=""
 	productPesIds="16602"
-	cloudEnvironments="Public, Fairfax, MoonCake"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
     articleId="8A5B4B0A-D1FB-48D9-86A3-1871C9533519"
 	ownershipId="AzureDataExplorer_Kusto"
 />

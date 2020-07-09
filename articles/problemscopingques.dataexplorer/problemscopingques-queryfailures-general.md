@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32613464,32613482,32613506"
     productPesIds="16602"
-    cloudEnvironments="Public, Fairfax, MoonCake"
+    cloudEnvironments="Public, fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="9445526A-2D4B-41D8-9DE4-B19B4D64F397"
     ownershipId="AzureDataExplorer_Kusto"

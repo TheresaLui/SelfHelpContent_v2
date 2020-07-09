@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="ed651749-cd37-4fd5-9897-01b416926745_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="Compute_SiteRecovery"
 />
 # Enable virtual machine replication to protect your applications from regional outage
