@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2bdefc45-14c3-0313-bdca-2765f8dbceec",
+      "longDescription": "",
+      "shortDescription": "Infrastructure backup job failures and alerts",
+      "searchTags": "BCDR;Backup;Infrastructure",
+      "category": "Protection",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2c955157-c507-f9a8-3005-1a75f06000c0",
       "longDescription": "",
       "shortDescription": "Capacity planning, prerequisites, initial deployment or update of SQL PaaS resource provider",
