@@ -814,6 +814,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c6b46d23-f349-1435-827c-e759a50d7d97",
+      "longDescription": "",
+      "shortDescription": "Managing OS and data disks in Windows VMs, including new deployments",
+      "searchTags": "Windows;Managed;Disks",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ca3688eb-70ba-264f-88ab-216942a9101f",
       "longDescription": "",
       "shortDescription": "Azure Stack general guidance and advisory",
