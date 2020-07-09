@@ -326,6 +326,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5a92f99a-2d8b-3067-f6f5-a3f2d082b8da",
+      "longDescription": "",
+      "shortDescription": "Investigate performance or usage issues for Linux virtual machines",
+      "searchTags": "Linux;Performance",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5b7fa69c-3e16-a804-d922-c67d586ebeba",
       "longDescription": "",
       "shortDescription": "Azure-consistent Table service issues",
