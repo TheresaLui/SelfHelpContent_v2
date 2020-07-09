@@ -7,7 +7,7 @@
 	ms.author="raagyema"
 	displayOrder="100"
 	articleId="dbforpostgresql-asc-connectivity-noconnectionfailuresdetected"
-	diagnosticScenario="OrcasPostgresNoSystemErrorsInsightV2TroubleShooter"
+	diagnosticScenario="OrcasPostgresNoSystemErrorsV2TroubleShooter"
 	selfHelpType="diagnostics"
 	supportTopicIds="32731217, 32639977"
 	cloudEnvironments="public, blackForest, Fairfax, usnat, ussec"
