@@ -30,4 +30,4 @@ To resolve the issue:<br>
 
 ## Recommended documents
 
-1. [Authorize a managed identity](https://docs.microsoft.com/en-us/azure/hdinsight/domain-joined/apache-domain-joined-configure-using-azure-adds#create-and-authorize-a-managed-identity)
+1. [Authorize a managed identity](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-configure-using-azure-adds#create-and-authorize-a-managed-identity)
