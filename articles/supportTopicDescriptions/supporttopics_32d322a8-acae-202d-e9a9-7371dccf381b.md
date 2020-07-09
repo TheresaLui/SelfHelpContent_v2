@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7b04f510-a627-61bc-2ca0-e2781a2a5073",
+      "longDescription": "",
+      "shortDescription": "SCOM management pack for external monitoring of Azure Stack Hub",
+      "searchTags": "Monitoring;SCOM",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7f351813-44b4-cb7b-a267-1e70bc4e6c53",
       "longDescription": "",
       "shortDescription": "Capacity planning, prerequisites, initial deployment or update of App Service PaaS resource provider",
