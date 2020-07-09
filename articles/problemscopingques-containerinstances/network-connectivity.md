@@ -38,6 +38,7 @@
          "id":"problem_description",
          "order":3,
          "controlType":"multilinetextbox",
+	 "useAsAdditionalDetails":true,
          "displayLabel":"Please provide additional context about the issue you are encountering.",
          "required":true,
          "watermarkText":"Always provide the full error text from Azure Container Instances when possible."
