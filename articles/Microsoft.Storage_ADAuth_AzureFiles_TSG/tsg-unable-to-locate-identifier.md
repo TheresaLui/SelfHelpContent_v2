@@ -19,7 +19,7 @@
 # Unable to allocate a relative identifier error when trying to domain join account
 
 <!--issueDescription-->
-User gets Unable to allocate a relative identifier error when trying to domain join account
+User gets Unable to allocate a relative identifier error when trying to domain join account.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -31,10 +31,9 @@ When customer attempts to domain join an Azure Storage Account using the Join-Az
 **Root Cause/Mitigation**
 
 This problem may occur if a domain controller, that holds the operations master role of RID Master, is unavailable or was removed from the domain and restored from backup.  
-
 **Next Steps:**  
 
-1. Have the customer go to their Active Directory Users and Computers.  Select the "domain controllers" container: 
-2. Confirm with the customer that all DCs listed in the Domain Controllers container are running and available.   
+1. Have the customer go to their Active Directory Users and Computers. Select the "domain controllers" container. 
+2. Confirm with the customer that all DCs listed in the Domain Controllers container are running and available
 3. If bringing the unavailable DC back on-line does not resolve the issue, collaborate with Directory Services  
-4. More information for scenarios where a domain controller was restored from backup [explained here](https://support.microsoft.com/help/822053/error-message-windows-cannot-create-the-object-because-the-directory-s). 
+4. More information for scenarios where a domain controller was restored from backup [explained here](https://support.microsoft.com/help/822053/error-message-windows-cannot-create-the-object-because-the-directory-s)
