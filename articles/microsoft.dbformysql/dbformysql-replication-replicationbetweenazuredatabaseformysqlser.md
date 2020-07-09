@@ -56,9 +56,15 @@ To prevent data from becoming out of sync and to avoid potential data loss or co
 
 To update one of the locked parameters on the master server, please delete replica servers, update the parameter value on the master, and recreate replicas.
 
-### **Monitor replication lag**
+### **Replication lag**
 
-The **Replica Lag** metric is available on replica servers to monitor the lag in seconds. This metric reflects the time since the last transaction that was replayed on that replica. The master server does not show data for this metric. Alerts can be configured on this metric through Azure Monitor.
+Monitoring replication can be done through the **Replica Lag** metric available on replica servers. This metric reflects the time since the last transaction that was replayed on that replica. The master server does not show data for this metric. Alerts can be configured on this metric through Azure Monitor.
+
+If your replica server is experiencing an unexpected increase in replication lag, this may be due to changes in your workload. It is recommended to investigate any changes. Examples of patterns to look for include a large number of small transactions. Updating your workload pattern may help with decreasing the replication lag.
+
+### **Move replicas to other subscriptions**
+
+Replica servers are always created in the same resource group and same subscription as the master server. If you want to create a replica server in a different resource group or different subscription, you can [move the replica server](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) after creation.
 
 ## **Recommended Documents**
 
