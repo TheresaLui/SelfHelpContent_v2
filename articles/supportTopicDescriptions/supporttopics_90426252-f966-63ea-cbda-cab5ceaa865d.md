@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "616ef7d8-887f-2356-8513-1aafdfcd2b63",
+      "longDescription": "",
+      "shortDescription": "Issues enrolling machines in Update Management, including firewall and permission ",
+      "searchTags": "enable;firewall;permissions;setup",
+      "category": "Update Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d8502d2b-4177-bcba-4511-9d3db71c9d1b",
       "longDescription": "",
       "shortDescription": "Machines enrolled successfully but not displayed in portal",
