@@ -588,6 +588,14 @@
       "searchTags": "Monitoring",
       "category": "Monitoring",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "fc9f6c87-876d-b15b-96ad-7b654363b584",
+      "longDescription": "",
+      "shortDescription": "Network connectivity for user VM resources",
+      "searchTags": "Connect;Connectivity",
+      "category": "Network",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
