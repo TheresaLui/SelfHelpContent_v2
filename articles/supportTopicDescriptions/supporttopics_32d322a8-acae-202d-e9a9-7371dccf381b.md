@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2c955157-c507-f9a8-3005-1a75f06000c0",
+      "longDescription": "",
+      "shortDescription": "Capacity planning, prerequisites, initial deployment or update of SQL PaaS resource provider",
+      "searchTags": "AddOnRP;DBaaS;PaaS",
+      "category": "AddOnRP",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4876243b-3ce7-ec63-afd4-37910d46ff21",
       "longDescription": "",
       "shortDescription": "Azure Stack Hub marketplace management, and add-on resource providers for PaaS services",
