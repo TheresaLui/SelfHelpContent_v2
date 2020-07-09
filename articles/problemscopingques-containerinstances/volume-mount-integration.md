@@ -16,7 +16,7 @@
    "$schema":"SelfHelpContent",
    "resourceRequired":true,
    "subscriptionRequired":true,
-   "title":"ACI Managed Identity Integration",
+   "title":"ACI volume mount integration",
    "formElements":[
       {
          "id":"problem_start_time",
