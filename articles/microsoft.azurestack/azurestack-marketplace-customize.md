@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Customize Azure Stack Marketplace"
-    description="Customize Azure Stack Marketplace"
+    pageTitle="Customize Azure Stack Hub Marketplace"
+    description="Customize Azure Stack Hub Marketplace"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="TobyTu"
@@ -15,7 +15,7 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Customize Azure Stack Marketplace
+# Customize Azure Stack Hub Marketplace
 
 ## **Recommended steps**
 
