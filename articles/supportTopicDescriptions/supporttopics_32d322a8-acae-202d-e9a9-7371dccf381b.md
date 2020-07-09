@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "667d29f8-c275-05c8-0e5d-70f923c9d62b",
+      "longDescription": "",
+      "shortDescription": "Creating or managing user subscriptions",
+      "searchTags": "Subscription;POQS",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6848be8a-bc7e-b6e4-7b09-8b9fa1687ae9",
       "longDescription": "",
       "shortDescription": "Creating custom marketplace items, including Azure Gallery Package (.azpkg) format and the Azure Gallery Packager tool",
