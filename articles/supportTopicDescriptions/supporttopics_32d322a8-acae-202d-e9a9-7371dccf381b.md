@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "259bcd67-f09f-f713-d241-e704e71c5f9c",
+      "longDescription": "",
+      "shortDescription": "Creating or managing quotas that define the limits of resources that a user subscription can provision",
+      "searchTags": "Quota;POQS",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2c955157-c507-f9a8-3005-1a75f06000c0",
       "longDescription": "",
       "shortDescription": "Capacity planning, prerequisites, initial deployment or update of SQL PaaS resource provider",
