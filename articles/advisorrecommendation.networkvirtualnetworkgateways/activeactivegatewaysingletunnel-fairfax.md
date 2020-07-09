@@ -19,15 +19,15 @@
   "recommendationTypeId": "f3be5a9b-2583-4a1c-b774-2481c00ccb04",
   "dataSourceMetadata": {
     "schemaVersion": 1.0,
-    "streamNamespace": "Microsoft.Cloud.activeactivevpngatewaysazureadvisorFF",
-    "dataSource": "Cosmos",
+    "streamNamespace": "cluster('https://aznwff.kusto.usgovcloudapi.net').database('aznwcosmos').FairfaxAAgateway1tunnel",
+    "dataSource": "Kusto",
     "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Network/virtualNetworkGateways",
   "recommendationFriendlyName": "ActiveActiveGatewaySingleTunnel",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
     "email": "azvpnpms@microsoft.com",
@@ -40,7 +40,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/aa_activeactive_singletun_learnmore",
   "description": "Configure redundant tunnel for your active-active VPN gateway",
   "longDescription": "In active-active configuration, each Azure gateway instance has a unique public IP address, and each establishes an IPsec/IKE S2S VPN tunnel to your on-premises VPN device specified in your local network gateway and connection. Note that both VPN tunnels are actually part of the same connection. You need to configure your on-premises VPN device to accept or establish two S2S VPN tunnels to those two Azure VPN gateway public IP addresses.",

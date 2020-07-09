@@ -36,7 +36,7 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/HighP2SConnectionsVNetGateway",
+  "learnMoreLink": "https://aka.ms/HighCPUP2SVNetGateway",
   "description": "Consider increasing the size of your VNet Gateway SKU to address consistently high CPU use",
   "longDescription": "Under high traffic load, the VPN gateway may drop packets due to high CPU. You should consider upgrading your VPN Gateway SKU since your VPN has consistently been running at .",
   "potentialBenefits": "Increasing the size of your VPN gateway will ensure that connections aren't dropped due to high CPU",

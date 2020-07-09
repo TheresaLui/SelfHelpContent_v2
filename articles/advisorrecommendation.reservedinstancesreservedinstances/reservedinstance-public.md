@@ -12,7 +12,7 @@
 ---
 {
   "recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
-  "recommendationOfferingName": "Virtual Machines",
+  "recommendationOfferingName": "ReservedInstances",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "84b1a508-fc21-49da-979e-96894f1665df",
   "dataSourceMetadata": {

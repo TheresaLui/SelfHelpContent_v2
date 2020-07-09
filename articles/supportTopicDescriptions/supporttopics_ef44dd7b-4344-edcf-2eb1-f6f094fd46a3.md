@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0b1f6dc4-bffb-f815-e06d-4a2ec47be9c7",
+      "longDescription": "",
+      "shortDescription": "Issues related to a difference in count of servers discovered ",
+      "searchTags": "count mismatch",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1f2fef07-eb7b-4c44-925a-99d3cdaf9bd1",
       "longDescription": "",
       "shortDescription": "Issues that occur when users press Test Migrate button",
@@ -62,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "313fe1a0-1802-5f25-a6c8-453b712d3b90",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when using DMA and DMS",
+      "searchTags": "DMA;DMS",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "38a40792-63b6-584a-16f9-ca5b97315a1b",
       "longDescription": "",
       "shortDescription": "Issues when you use non-Microsoft tools in assessment and migration.",
@@ -74,6 +90,14 @@
       "longDescription": "",
       "shortDescription": "How to delete an Azure Migrate project",
       "searchTags": "projectdeletion",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "39ffdf11-4699-b519-23d0-2c5538394329",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when users want to assess and migrate databases. Select Database Migration as service instead of Azure Migrate. ",
+      "searchTags": "Database;DMA;DMS",
       "category": "Tool",
       "useInDiagnoseAndSolve": "true"
     },
@@ -91,6 +115,14 @@
       "shortDescription": "All issues related to Hub and dashboard must be filed here.",
       "searchTags": "hub;dashboard",
       "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4eb14b57-a392-d27f-3d01-0cf396e7f2c9",
+      "longDescription": "",
+      "shortDescription": "Issues related to ISV tools",
+      "searchTags": "ISV tools",
+      "category": "Tools",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -158,6 +190,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "84a682f2-093f-f8cb-97b7-ebf18a30a5e4",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while moving resources to another subscription",
+      "searchTags": "ResourceMove",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "84dc27a8-0944-8b1b-c855-20b6a2eeaf2e",
+      "longDescription": "",
+      "shortDescription": "Cases related to Classic to ARM Migration. Please file the case under Virtual Machines team.",
+      "searchTags": "ASMARM;ClassicARMMigration",
+      "category": "Reroutes",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9123773b-88c6-9665-e93c-a31fae5482dd",
       "longDescription": "",
       "shortDescription": "Issues related to Azure Migrate Server Migration tool used to migrate virtual machines to Azure",
@@ -170,6 +218,14 @@
       "longDescription": "",
       "shortDescription": "Issues related to project not found. ",
       "searchTags": "project;not;found;notfound",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a540ce87-433a-50e3-36bc-3aa12816c46c",
+      "longDescription": "",
+      "shortDescription": "Issues encountered while moving resources from one subscription to another",
+      "searchTags": "resource move",
       "category": "Tool",
       "useInDiagnoseAndSolve": "true"
     },

@@ -10,10 +10,10 @@
 	articleId="advanced_specialization_enrollment"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32681428, 32725785"
+	supportTopicIds="32725785"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960, 17000"
+	productPesIds="17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />

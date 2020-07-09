@@ -22,21 +22,21 @@
         {
             "id": "source_container",
             "order": 1,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Source container name",
             "required": true
         },
         {
             "id": "destination_account",
             "order": 2,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Destination account name",
             "required": false
         },
         {
             "id": "destination_container",
             "order": 3,
-            "controlType": "multilinetextbox",
+            "controlType": "textbox",
             "displayLabel": "Destination container name",
             "required": false
         },

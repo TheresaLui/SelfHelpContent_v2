@@ -19,6 +19,8 @@
 
 <!---this is number one hit topic. This currently is sunny day content. Most customers coming through this path require a break-glass solution. MPI is very high. Some engineering work in 2005 to improve perf of patch and update by using image-based process. Look for how to streamline.  --->
 
+**NOTE**: Before you create a support ticket, review [**Release notes**](https://docs.microsoft.com/azure-stack/operator/release-notes) and [**Known issues**](https://docs.microsoft.com/azure-stack/operator/known-issues) for the update you are applying (choose from the Version drop-down menu). This may save you time and effort.
+
 Each release of Microsoft software updates is bundled as a single update package. As an Azure Stack Hub operator, you can import, install, and monitor the installation progress of update packages from the Azure Stack Hub Administration portal. 
 
 * For information regarding information on how to manage updates for Azure Stack Hub, please review [Manage updates in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-updates#install-updates-and-monitor-progress)
