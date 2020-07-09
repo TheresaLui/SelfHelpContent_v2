@@ -16,7 +16,7 @@
    "$schema":"SelfHelpContent",
    "resourceRequired":true,
    "subscriptionRequired":true,
-   "title":"ACI network connectivity",
+   "title":"Unable to connect to ACI",
    "formElements":[
       {
          "id":"problem_start_time",
@@ -53,26 +53,30 @@
          "watermarkText":"Always provide the full error text from Azure Container Instances when possible."
       },
       {
-        "id": "connection_mechanism",
-        "order": 4,
-        "controlType": "multiselectdropdown",
-        "displayLabel": "Select the applications running on your virtual machine",
-        "dropdownOptions": [{
-                "value": "Public IP",
-                "text": "Public IP"
-            }, {
-                "value": "Private IP",
-                "text": "Private IP"
-            }, {
-                "value": "SSH into container",
-                "text": "SSH into container"
-            },  {
-                "text": "Other, don't know or not applicable",
-                "value": "dont_know_answer"
+         "id":"connection_mechanism",
+         "order":4,
+         "controlType":"multiselectdropdown",
+         "displayLabel":"Select the applications running on your virtual machine",
+         "dropdownOptions":[
+            {
+               "value":"Public IP",
+               "text":"Public IP"
+            },
+            {
+               "value":"Private IP",
+               "text":"Private IP"
+            },
+            {
+               "value":"SSH into container",
+               "text":"SSH into container"
+            },
+            {
+               "text":"Other, don't know or not applicable",
+               "value":"dont_know_answer"
             }
-        ],
-        "required": true
-    }
+         ],
+         "required":true
+      }
    ]
 }
 ---
