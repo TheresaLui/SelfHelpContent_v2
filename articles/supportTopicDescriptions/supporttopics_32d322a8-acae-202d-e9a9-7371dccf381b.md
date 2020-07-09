@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "24dda133-3082-aeca-0bb5-c22ef873f55b",
+      "longDescription": "",
+      "shortDescription": "Load Balancer resources in user environment",
+      "searchTags": "LB",
+      "category": "Network",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "259bcd67-f09f-f713-d241-e704e71c5f9c",
       "longDescription": "",
       "shortDescription": "Creating or managing quotas that define the limits of resources that a user subscription can provision",
