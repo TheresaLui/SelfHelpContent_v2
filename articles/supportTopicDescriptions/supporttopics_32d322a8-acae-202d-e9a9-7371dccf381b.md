@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5ddedcaf-2317-9150-db62-64e79beb940c",
+      "longDescription": "",
+      "shortDescription": "Monitoring or diagnosing issues with Windows virtual machines, including Boot Diagnostics and Diagnostics Extension",
+      "searchTags": "Windows;Monitoring;Diagnostics",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5faaebf5-23ed-c0da-50d5-a3de17927cde",
       "longDescription": "",
       "shortDescription": "Attaching and detaching disks on Linux VMs (managed or unmanaged)",
