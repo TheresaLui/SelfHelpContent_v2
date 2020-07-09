@@ -270,6 +270,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d180a570-a585-4565-4416-4eea7c141c42",
+      "longDescription": "",
+      "shortDescription": "Performing management operations on infrastructure nodes, including Add, Drain, or Repair",
+      "searchTags": "Infrastructure;Node;Add;Drain;Repair",
+      "category": "Infrastructure",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d3f579c0-61f4-b497-1f08-2c3b532af564",
       "longDescription": "",
       "shortDescription": "Certificate expiration and secret rotation alerts",
