@@ -1,13 +1,13 @@
 
 <properties
-pageTitle="Query samples"
-description="Query samples"
+pageTitle="My query returns with error "
+description="Deflection article for queries returning with errors"
 service="microsoft.operationalinsights"
 resource="workspaces"
 symptomID=""
 infoBubbleText=""
-authors="noakup"
-ms.author="noakuper"
+authors="roygal"
+ms.author="roygal"
 displayorder=""
 selfHelpType="generic"
 supportTopicIds="32612514"
@@ -18,14 +18,23 @@ articleId="b53c5697-02b1-4956-8198-cf0520f3024a"
 ownershipId="AzureMonitoring_LogAnalytics"
 />
 
-# Query Samples
+# **My query returns with error**
 
-Many query samples are available through Log Analytics itself:
+Queries may return with errors in a few cases, the Log Analytics UI should provide an error message to point you at the right direction.
 
-1. Basic examples are available when you open a new tab, or open the *Help* menu, and select *Examples*
-2. Additional query examples and solution queries are available through the Query Explorer
-
-Additional examples are available in the documentation articles listed below. You can also use the Log Analytics [demo environment](https://portal.loganalytics.io/demo#) to try out any of these examples on real data.
+1. There’s an issue with the query syntax
+    Queries may return an  error if not composed correctly:
+    1.	Use our [example queries](https://docs.microsoft.com/azure/azure-monitor/log-query/examples) to get a head start on building a query ‘right’
+    2.	Refer to the following [documentation for writing a query](https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-queries)
+    3.	Refer to the following [documentation for improving queries and building efficient queries](https://docs.microsoft.com/azure/azure-monitor/log-query/query-optimization)
+    4.	Refer to the following [KQL guide](https://docs.microsoft.com/azure/azure-monitor/log-query/query-language) to learn more about KQL – Log analytics querying language
+2. 	There’s an issue with underlying log analytics configuration
+    Underlying Log Analytics configuration may result in queries returning unexpected results or errors:
+    1.	Check your workspace configuration – is everything configured correctly? See the [following article](https://docs.microsoft.com/azure/azure-monitor/platform/design-logs-deployment)for pointers.
+    2.	Check permissions – are your permissions configured correctly? 
+        Read the following articles to [better understand Log Analytics permissions](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security) and to [manage Log Analytics access](https://docs.microsoft.com/azure/azure-monitor/platform/manage-access)
+3. There’s an issue with the Log Analytics service </br>
+    Review the [Azure Monitor Status blog](https://techcommunity.microsoft.com/t5/azure-monitor-status/bg-p/AzureMonitorStatusBlog) for service availability and issues. If you are seeing a notification about ongoing incident - we are already working on it and will communicate through the same blog once it is resolved.
 
 ## **Recommended Documents**
 

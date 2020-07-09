@@ -24,6 +24,6 @@ Information about Bank and Tax profiles
 
 ## **Recommended Documents**
 
+* [Information on how to setup your payout account tax forms](https://docs.microsoft.com/azure/marketplace/partner-center-portal/set-up-your-payout-account-tax-forms)
+* [Payment thresholds, methods and time frames by Country, Region and Payout Account Type](https://docs.microsoft.com/azure/marketplace/partner-center-portal/payment-thresholds-methods-timeframes)
 * [Configure your Bank and Tax profiles](https://docs.microsoft.com/azure/marketplace/partner-center-portal/manage-account#payout-account)
-
-

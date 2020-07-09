@@ -20,6 +20,7 @@
 
 * [Certificate creation methods](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate)
 * [Creating Self-Signed Certificate](https://docs.microsoft.com/azure/key-vault/certificates/quick-create-portal)
+* [Creating and merging certificate signing request (CSR)](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-signing-request)
 * [Creating certificate with CA not partnered with Key vault](https://docs.microsoft.com/azure/key-vault/certificates/certificate-scenarios#creating-a-certificate-with-a-ca-not-partnered-with-key-vault)
 * [Monitor and manage certificate creation](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-scenarios)
 

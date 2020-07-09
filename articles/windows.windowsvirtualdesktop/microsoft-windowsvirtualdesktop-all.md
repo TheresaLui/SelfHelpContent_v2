@@ -4,10 +4,10 @@
   resource=""
   ms.author="jerrycif,evas"
   selfhelptype="Generic"
-  supporttopicids="32625540,32625541,32625542,32625544"
+  supporttopicids="32625541,32625542,32625544"
   resourcetags=""
   productpesids="16582"
-  cloudenvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
   articleid="586ec56a-93f1-4c0c-86c0-63debae7b9f8"
   ownershipid="Windows_Virtual_Desktop" />
 # Windows Virtual Desktop
