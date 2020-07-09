@@ -614,6 +614,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "94efd0f3-4eaa-c941-8888-88607c72164e",
+      "longDescription": "",
+      "shortDescription": "Provisioning or redeployment of Windows virtual machines using marketplace or customized images",
+      "searchTags": "Windows;Deployment;Provisioning",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "96587c34-1177-5792-a152-1b6ccfa89a36",
       "longDescription": "",
       "shortDescription": "Integration and authentication issues with customer Active Directory Federation Services (ADFS)",
