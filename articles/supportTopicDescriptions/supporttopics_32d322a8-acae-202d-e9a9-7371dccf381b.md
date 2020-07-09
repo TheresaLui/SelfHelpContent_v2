@@ -116,6 +116,14 @@
       "searchTags": "AddOnRP;DBaaS;PaaS",
       "category": "AddOnRP",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "fb86f689-195e-d800-eeeb-8b276ea33893",
+      "longDescription": "",
+      "shortDescription": "Running the validation tool and accessing results",
+      "searchTags": "Monitoring",
+      "category": "Monitoring",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
