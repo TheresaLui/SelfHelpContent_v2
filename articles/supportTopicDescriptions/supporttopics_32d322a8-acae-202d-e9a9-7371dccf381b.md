@@ -6,19 +6,20 @@
   selfhelptype="SupportTopicDescription"
   productpesids="32d322a8-acae-202d-e9a9-7371dccf381b"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_32d322a8-acae-202d-e9a9-7371dccf381b" />
+  articleid="supporttopics_32d322a8-acae-202d-e9a9-7371dccf381b"
+  ownershipid="StorageMediaEdge_AzureStack_Hub" />
 # Support Topic Descriptions for 32d322a8-acae-202d-e9a9-7371dccf381b
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
-  "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "shortDescription": "Azure Stack Hub is an extension of Azure that provides a way to run apps in an on-premises environment and deliver Azure services in your datacenter.",
+  "longDescription": "",
+  "productLink1": "https://azure.microsoft.com/products/azure-stack/hub/",
+  "productLinkName1": "Azure Stack Hub Product",
+  "productLink2": "https://docs.microsoft.com/azure-stack/operator/azure-stack-overview",
+  "productLinkName2": "Azure Stack Hub Overview",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "49f30ab9-8c5f-49b8-eaaf-12488828f6fd",
