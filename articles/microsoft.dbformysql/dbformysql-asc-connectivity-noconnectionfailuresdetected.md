@@ -12,7 +12,7 @@
 	selfHelpType="rca"
 	supportTopicIds="32640053, 32640051"
 	resourceTags="servers, databases"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
+	cloudEnvironments="public, blackForest, Fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # No MySQL server connection failures detected
