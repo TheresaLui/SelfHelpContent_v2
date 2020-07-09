@@ -358,6 +358,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6888c67d-1a0c-1214-69f1-a942e5a6f1e7",
+      "longDescription": "",
+      "shortDescription": "User storage account management",
+      "searchTags": "Storage",
+      "category": "Storage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6ef2ac46-1b0a-bb9e-e9f6-f5ab59de6979",
       "longDescription": "",
       "shortDescription": "Initial deployment and registration of Azure Stack Hub integrated system",
