@@ -10,12 +10,12 @@
 	articleId="partnercenter_licensing_and_fulfillment"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635682"
+	supportTopicIds="32692600"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17011"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Pricing_and_Offers"
 />
 # Licensing and fulfillment
 

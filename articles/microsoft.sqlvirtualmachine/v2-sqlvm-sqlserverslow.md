@@ -1,8 +1,8 @@
 <properties
 	pageTitle="performance/SQL Server is slow"
 	description="performance/SQL Server is slow"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	authors="yareyes, amamun"
 	ms.author="yareyes, AbdullahMSFT"
 	displayOrder=""

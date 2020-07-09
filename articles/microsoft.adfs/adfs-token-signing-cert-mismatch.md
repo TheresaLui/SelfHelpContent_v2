@@ -13,7 +13,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
+	cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 	ownershipId="AzureIdentity_AuthReach_HybridAuthentication"
 />
 

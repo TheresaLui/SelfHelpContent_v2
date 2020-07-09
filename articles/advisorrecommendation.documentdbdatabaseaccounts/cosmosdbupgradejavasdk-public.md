@@ -1,12 +1,12 @@
 <properties
     pageTitle="Upgrade your Azure Cosmos DB Java SDK to the latest version from Maven"
     description="Upgrade your Azure Cosmos DB Java SDK to the latest version from Maven"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    authors="pratnala"
+    ms.author="pratnala"
     articleId="3312d528-e60e-4d3a-8dd0-e97f030c4681_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="AzureData_AzureCosmosDB"
+    ownershipId="AzureData_AzureCosmosDB"
 />
 # Upgrade your Azure Cosmos DB Java SDK to the latest version from Maven
 ---
@@ -16,58 +16,59 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "3312d528-e60e-4d3a-8dd0-e97f030c4681",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
-    "dataSource": "SAS"
+    "dataSource": "Kusto",
+      "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').OldJavaSDK",
+      "refreshInterval": "0.12:00:00",
+    "schemaVersion": 3.0
   },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDbUpgradeJavaSdk",
   "recommendationMetadataState": "Active",
-  "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "cosmosnotifications@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "mdm://adspartner/CosmosDB",
+      "service": "Azure Cosmos DB",
+      "team": "Supportability"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "ingestionClientIdentities": [
-    "a4d5ef1d-aaa3-4f6c-a320-d928ebd4cf08"
-  ],
-  "recommendationTimeToLive": 86400,
-  "version": 1.0,
-  "learnMoreLink": "https://aka.ms/cosmosdb/sql-api-sdk-async-java",
+  "version": 2.6,
+  "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-java-v4",
   "description": "Upgrade your Azure Cosmos DB Java SDK to the latest version from Maven",
   "longDescription": "Your Azure Cosmos DB account is using an old version of the Java SDK. We recommend upgrading to the latest version from Maven for latest fixes, performance improvements, and new feature capabilities.",
   "potentialBenefits": "Improved reliability, performance, and new feature capabilities",
+  "displayLabel": "Upgrade your Azure Cosmos DB Java SDK to the latest version from Maven",
+  "additionalColumns": [
+    {
+      "name": "RecommendedVersion",
+      "title": "Minimum Recommended Version"
+    },
+    {
+      "name": "CurrentVersion",
+      "title": "Current Version"
+    }
+  ],
   "actions": [
     {
       "actionId": "68e6f866-956c-4fd9-b16a-916222b663b6",
       "description": "Upgrade your Java SDK",
       "actionType": "Document",
-      "documentLink": "https://aka.ms/cosmosdb/sql-api-sdk-async-java"
+      "documentLink": "https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-java-v4"
     }
   ],
   "resourceMetadata": {
     "action": {
       "actionId": "7b999253-6a98-4f48-96c1-2852be4db70c",
       "actionType": "Blade",
-      "extensionName": "HubsExtension",
-      "bladeName": "ResourceMenuBlade",
+      "extensionName": "Microsoft_Azure_DocumentDB",
+      "bladeName": "DatabaseAccountTemplateBladeForGlobalDb",
       "metadata": {
         "id": "{resourceId}"
       }
     }
-  },
-  "displayLabel": "Upgrade your Azure Cosmos DB Java SDK to the latest version from Maven",
-  "additionalColumns": [
-    {
-      "name": "latestVersion",
-      "title": "Latest Version"
-    }
-  ]
+  }
 }
 ---

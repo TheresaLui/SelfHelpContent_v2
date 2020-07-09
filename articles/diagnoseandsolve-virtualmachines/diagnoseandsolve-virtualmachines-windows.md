@@ -86,7 +86,7 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
       "subProblems": [
         {
           "id": "Disk_throughput_low",
-          "title": "Disk throughput low",
+          "title": "Disk throughput or IOPS are lower than expected",
           "description": "Troubleshoot performance issues when disk throughput is lower than expected",
           "supportTopicId": "32628264",
           "commonSolutionArticleId": "1846ef6d-3aa8-44c1-bff0-cc8ede1933c6",
@@ -94,7 +94,7 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
         },
         {
           "id": "CPU_usage_high",
-          "title": "CPU usage high",
+          "title": "CPU usage is higher than expected",
           "description": "Troubleshoot performance issues when CPU usage is higher than expected",
           "supportTopicId": "32628261",
           "commonSolutionArticleId": "c56d711a-2df1-4c2a-b250-b6dc68a4975b",
@@ -102,7 +102,7 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
         },
         {
           "id": "Memory_usage_high",
-          "title": "Memory usage high",
+          "title": "Memory usage is higher than expected",
           "description": "Troubleshoot performance issues when memory usage is higher than expected",
           "supportTopicId": "32628275",
           "commonSolutionArticleId": "6aaf31c5-6dde-4418-9af0-f3fa234593fc",
@@ -110,18 +110,10 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
         },
         {
           "id": "GPU_processing_slow",
-          "title": "GPU processing slow",
+          "title": "GPU processing is slower than expected",
           "description": "Troubleshoot performance issues when GPU processing is slower than expected",
           "supportTopicId": "32628268",
           "commonSolutionArticleId": "0ab4f15c-3ab7-44d1-8f36-f81b3156971b",
-          "symptomId": ""
-        },
-        {
-          "id": "Guidance_for_better_VM_sizing_and_throughput",
-          "title": "Guidance for better VM sizing and throughput",
-          "description": "Guidance on VM sizing and throughput for better performance of Azure VMs",
-          "supportTopicId": "32628270",
-          "commonSolutionArticleId": "b3157bac-dc37-4341-98c8-14320fad6c37",
           "symptomId": ""
         },
         {
@@ -520,6 +512,88 @@ cloudEnvironments="public, Fairfax, usnat, ussec"
           "description": "Troubleshoot issues with Update Management extension",
           "supportTopicId": "32633803",
           "commonSolutionArticleId": "cd2fec93-b941-40e5-ae9e-9461817e53de",
+          "symptomId": ""
+        }
+      ]
+    },
+  	{					   
+      "id": "Troubleshoot_WindowsVirtualDeskTop",
+      "title": "Troubleshoot Windows Virtual Desktop",
+      "description": "Troubleshoot Windows Virtual Desktop issues",
+      "category": "Windows Virtual Products",
+      "searchTags": "WVD, Windows Virtual Desktop",
+      "supportTopicId": "",
+      "subProblems": [
+			{
+          "id": "VD_CommonIssues",
+          "title": "Common Issues",
+          "description": "Troubleshoot Common Issues",
+          "supportTopicId": "32625539",
+          "commonSolutionArticleId": "586ec56a-93f1-4c0c-86c0-63debae7b9f8",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_ARMTemplate",
+          "title": "ARM template issues",
+          "description": "Troubleshoot Azure Resource Manager template issues",
+          "supportTopicId": "32727878",
+          "commonSolutionArticleId": " Needed ",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_PowershellDSC issues",
+          "title": "Desired State Configuration (DSC) issues",
+          "description": "Troubleshoot Desired State Configuration (DSC) errors",
+          "supportTopicId": "32727878",
+          "commonSolutionArticleId": " Needed ",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_FXLogicIssues",
+          "title": "FXLogix issues",
+          "description": "Troubleshoot FXLogix issues",
+          "supportTopicId": "32681783",
+          "commonSolutionArticleId": "803975e4-6094-4086-95ff-2896a7e7902f",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_SpringUpdate",
+          "title": "Spring Update Issues",
+          "description": "Troubleshoot Spring Update Issues",
+          "supportTopicId": "32740695",
+          "commonSolutionArticleId": "2a0f5b97-41f3-44d6-8a1f-f25ad89822fe",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_Tenant",
+          "title": "Tenant Issues",
+          "description": "Issues creating Windows Virtual Desktop tenant",
+          "supportTopicId": "32727880",
+          "commonSolutionArticleId": "8f53a07f-1c5d-4b08-9510-96b41e6d065b",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_DomainConfig",
+          "title": "Domain Configuration",
+          "description": "Issues configuring your domain",
+          "supportTopicId": "32727876",
+          "commonSolutionArticleId": "53fb2b60-cfd0-4e5a-b9fb-f8bf83acc01d",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_DeviceRedirection",
+          "title": "Device Redirection",
+          "title": "Issues configuring device redirection",
+          "supportTopicId": "32727874",
+          "commonSolutionArticleId": "032cf025-2f52-4420-b161-bce71302f41b",
+          "symptomId": ""
+        },
+        {
+          "id": "WVD_HostPoolSessionHost",
+          "title": "HostPool/SessionHost",
+          "description": "Creating a host pool or session host",
+          "supportTopicId": "32727879",
+          "commonSolutionArticleId": "1b9984b1-6b6c-4f67-9415-a597c3de8112",
           "symptomId": ""
         }
       ]

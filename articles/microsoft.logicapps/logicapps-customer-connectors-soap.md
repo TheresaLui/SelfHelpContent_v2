@@ -4,7 +4,7 @@
     service="microsoft.logicapps"
     resource="logicapps"
     authors="TobyTu"
-    ms.author="mquian"
+    ms.author="kawilson"
     selfHelpType="generic"
     supportTopicIds="32742557"
     resourceTags=""

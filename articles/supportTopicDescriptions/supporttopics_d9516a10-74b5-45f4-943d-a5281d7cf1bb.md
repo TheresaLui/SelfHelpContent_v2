@@ -43,8 +43,8 @@
     {
       "id": "085ddeed-255d-e905-63c2-797cc68c2f81",
       "longDescription": "",
-      "shortDescription": "Any issue with Monitoring not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Monitoring;Alerts;Metrics;Logs",
       "category": "Monitoring",
       "useInDiagnoseAndSolve": "true"
     },
@@ -115,8 +115,8 @@
     {
       "id": "2365fe01-8934-7641-3bb8-2e5209c639ad",
       "longDescription": "",
-      "shortDescription": "Any throughput or scaling issue not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Throughput",
       "category": "Throughput",
       "useInDiagnoseAndSolve": "true"
     },
@@ -219,8 +219,8 @@
     {
       "id": "3a324c04-5cc9-36a6-49df-11ab63c936bf",
       "longDescription": "",
-      "shortDescription": "Any issue with Connectors not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Connectors;Tools",
       "category": "Tools and Connectors",
       "useInDiagnoseAndSolve": "true"
     },
@@ -243,8 +243,8 @@
     {
       "id": "40f4b569-b293-8464-4f20-90f684aa6a0e",
       "longDescription": "",
-      "shortDescription": "Any issue with SQL API that is not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "SQL",
       "category": "Core (SQL)",
       "useInDiagnoseAndSolve": "true"
     },
@@ -267,16 +267,16 @@
     {
       "id": "43564fd3-9f8b-9ae9-e225-3949be830689",
       "longDescription": "",
-      "shortDescription": "Any other General advisory question not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Advisory",
       "category": "General Advisory",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "45897651-c1e4-156b-994b-2db7a9fc1979",
       "longDescription": "",
-      "shortDescription": "Any issue related to billing and pricing that is not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Billing;Pricing",
       "category": "Billing and Pricing",
       "useInDiagnoseAndSolve": "true"
     },
@@ -523,7 +523,7 @@
     {
       "id": "8c945397-c1d2-bea4-b1c0-16671080bbcc",
       "longDescription": "",
-      "shortDescription": "Any configuration requests related to backup and restore not listed",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
       "searchTags": "backup, restore",
       "category": "Backup and Restore",
       "useInDiagnoseAndSolve": "true"
@@ -787,8 +787,8 @@
     {
       "id": "c3faf836-a0df-6e47-8523-a54e1a84637a",
       "longDescription": "",
-      "shortDescription": "Any issue with Cassandra API that is not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Cassandra",
       "category": "Cassandra",
       "useInDiagnoseAndSolve": "true"
     },
@@ -819,8 +819,8 @@
     {
       "id": "ca4248d9-17e1-ab45-81b3-1634e1eb4202",
       "longDescription": "",
-      "shortDescription": "Any Security issue with Azure Cosmos DB not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Security",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
@@ -883,8 +883,8 @@
     {
       "id": "d8b9051c-b540-34d6-39e4-89a83ef0d395",
       "longDescription": "",
-      "shortDescription": "Any other issue with SDKs",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "SDK",
       "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
@@ -963,16 +963,16 @@
     {
       "id": "f05ce96b-e2d9-d08c-8def-83abbe94840c",
       "longDescription": "",
-      "shortDescription": "Any issue related to Account Administration not covered by the existing topics",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will provide related self help and expedite your support ticket if one is created.",
+      "searchTags": "Administration",
       "category": "Administration",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "f10fee82-842f-5525-a1db-06dc5a2d8fa6",
       "longDescription": "",
-      "shortDescription": "Any issue with Mongo API not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Mongo;MongoDB",
       "category": "MongoDB",
       "useInDiagnoseAndSolve": "true"
     },

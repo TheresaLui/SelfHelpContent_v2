@@ -10,10 +10,10 @@
 	articleId="partnercenter_invoices"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635679,32692599"
+	supportTopicIds="32692599"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17003"
+	productPesIds="17003"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />

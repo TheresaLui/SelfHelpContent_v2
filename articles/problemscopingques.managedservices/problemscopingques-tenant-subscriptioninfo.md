@@ -6,7 +6,7 @@
     supportTopicIds="32642164, 32642165, 32642166, 32642168, 32642169, 32642170"
     productPesIds="16761"
     articleId="problemscopingques- tenant-subscriptioninfo.md"
-    cloudEnvironments="public, fairfax, usnat"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     ownershipId="Compute_AzureLighthouse"
     schemaVersion="1"
 />

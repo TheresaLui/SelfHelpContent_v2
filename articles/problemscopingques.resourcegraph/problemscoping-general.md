@@ -14,8 +14,8 @@
 # Resource Graph General Issues
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Resource Graph General Issues",
     "fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements": [

@@ -31,6 +31,10 @@
 	
 	Azure Key vault automatically rotates certificates issued by trusted CA partners ie. DigiCert and GlobalSign. For Self-signed certificates and other CA certificates, you can set near expiry email notification.
 
+* How to autorotate DigiCert Certificates?
+
+	This would require you to add DigiCert to **Certificate Authorities** list. For the imported certificate, modify the **issuance policy** and **select CA** to be DigiCert. Modify the Lifetime action to **enable Auto-renewal**.
+
 ## **Recommended Documents**
 
 * [Creating Certificate using CLI](https://docs.microsoft.com/rest/api/keyvault/createcertificate/createcertificate)

@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32625544"
 	productPesIds="16582"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="50e845ed-1ce7-4686-8117-92ca137db0f1"
 	ownershipId="Windows_Virtual_Desktop"
@@ -15,7 +15,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Issues with performance in WVD session",
   "fileAttachmentHint": "",
   "formElements": [

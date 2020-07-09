@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32625539"
 	productPesIds="16582"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="bb6ed34a-346b-4fb9-854e-ccb007e60020"
 	ownershipId="Windows_Virtual_Desktop"
@@ -15,7 +15,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Issues with WVD licensing",
   "fileAttachmentHint": "",
   "formElements": [
