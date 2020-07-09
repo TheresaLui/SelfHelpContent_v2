@@ -310,6 +310,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7eb0b2b2-6f93-1c40-9c89-7c2a0084dfa7",
+      "longDescription": "",
+      "shortDescription": "Network security groups (NSG) in user environment",
+      "searchTags": "NSG",
+      "category": "Network",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7f351813-44b4-cb7b-a267-1e70bc4e6c53",
       "longDescription": "",
       "shortDescription": "Capacity planning, prerequisites, initial deployment or update of App Service PaaS resource provider",
