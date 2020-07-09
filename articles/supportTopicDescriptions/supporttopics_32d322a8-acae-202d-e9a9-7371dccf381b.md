@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9c97dbb5-0239-d195-c926-ef07228b76e2",
+      "longDescription": "",
+      "shortDescription": "Licensing for marketplace images including pay-as-you-go and bring-your-own-license",
+      "searchTags": "Marketplace;licensing",
+      "category": "Marketplace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9dded50f-68e9-19d9-812f-c867b98c3771",
       "longDescription": "",
       "shortDescription": "Supportability of issues on single-node Azure Stack Hub Development Kit (ASDK)",
