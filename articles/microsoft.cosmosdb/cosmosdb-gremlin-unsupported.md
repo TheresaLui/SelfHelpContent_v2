@@ -41,13 +41,16 @@ Gremlin follows very closely [Apache TinkerPop](https://tinkerpop.apache.org/doc
 * ***Transactions*** are not supported due to distributed nature of the system. Please configure desired consistency model on Gremlin account to "read your own writes".
 
 
-### **Case-insesitive string functions with Gremlin API**
+### **Case-insensitive string functions with Gremlin API**
 As of now this case insensitive search feature in Gremlin is not supported .  The official Tinkerpop Gremlin spec itself does not have a way to specify case insensitivity in the predicate.  
 You can search with Text containing string filtering function using the SQL query for the gremlin account.  
 **Example:** SQL query to filter on DisplayName property of a vertex
+
 ```
 SELECT c.DisplayName FROM c WHERE CONTAINS(c.DisplayName[0]._value, "ab5", true)
-```
+```   
+
+
 
 
 ## **Recommended Documents**
