@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6f52dc06-6c89-08cb-e685-6896b0f3e19f",
+      "longDescription": "",
+      "shortDescription": "Integration of Azure Stack Hub with customer DNS infrastructure",
+      "searchTags": "Infrastructure;DNS",
+      "category": "Infrastructure",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6fb60b1b-8076-5fc6-78c8-7e33fa92a330",
       "longDescription": "",
       "shortDescription": "Health of network adapters, data drives, and other field replaceable units",
