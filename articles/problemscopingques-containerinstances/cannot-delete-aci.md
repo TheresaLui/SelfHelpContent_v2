@@ -86,7 +86,11 @@
             {
                "text":"Virtual network",
                "value":"Virtual network"
-            }
+            },
+	    {
+	       "text":"I don't know",
+	       "value:"dont_know_answer"
+	    }
          ],
          "required":true
       }
