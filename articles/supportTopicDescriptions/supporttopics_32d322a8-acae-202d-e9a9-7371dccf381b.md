@@ -398,6 +398,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7ef37fab-c6a6-d2e1-ed0c-e1f8902b668c",
+      "longDescription": "",
+      "shortDescription": "Issues occurring during secret or certificate rotation ",
+      "searchTags": "Secret;Certificate",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7f351813-44b4-cb7b-a267-1e70bc4e6c53",
       "longDescription": "",
       "shortDescription": "Capacity planning, prerequisites, initial deployment or update of App Service PaaS resource provider",
