@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1755af9b-a59f-9330-d8bd-3b549292c5a1",
+      "longDescription": "",
+      "shortDescription": "Azure-consistent Queue service issues",
+      "searchTags": "Storage;Queues",
+      "category": "Storage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "18a6d748-7150-98ab-0bdc-0f1c473ff25c",
       "longDescription": "",
       "shortDescription": "Alerts and actions for physical infrastructure nodes",
