@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "8a8bc58f-d95e-02bf-5360-1c03a78ab102",
+      "longDescription": "",
+      "shortDescription": "Questions before or during initial deployment of Azure Stack Hub",
+      "searchTags": "Deployment",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8dcf763f-7d15-1ff4-bf6a-fba9238e68a7",
       "longDescription": "",
       "shortDescription": "Removing existing marketplace images, extensions, and solution templates",
