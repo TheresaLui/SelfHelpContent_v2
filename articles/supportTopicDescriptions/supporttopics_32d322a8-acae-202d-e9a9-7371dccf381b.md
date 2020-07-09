@@ -406,6 +406,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b8407124-2971-4879-6a3c-0a930ea799df",
+      "longDescription": "",
+      "shortDescription": "Registration of an Azure Stack Hub integrated system, in a disconnected environment",
+      "searchTags": "Deployment;Registration;Disconnected",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b92a7f8c-bb0c-32c1-6572-d503c97555fd",
       "longDescription": "",
       "shortDescription": "Performing Stop and Start procedures for Azure Stack Hub integrated system",
