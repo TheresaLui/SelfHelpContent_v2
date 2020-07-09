@@ -37,4 +37,4 @@ This problem may occur if a domain controller, that holds the operations master 
 1. Have the customer go to their Active Directory Users and Computers.  Select the "domain controllers" container: 
 2. Confirm with the customer that all DCs listed in the Domain Controllers container are running and available.   
 3. If bringing the unavailable DC back on-line does not resolve the issue, collaborate with Directory Services  
-4. More information for scenarios where a domain controller was restored from backup:https://support.microsoft.com/help/822053/error-message-windows-cannot-create-the-object-because-the-directory-s 
+4. More information for scenarios where a domain controller was restored from backup [explained here](https://support.microsoft.com/help/822053/error-message-windows-cannot-create-the-object-because-the-directory-s). 
