@@ -342,6 +342,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c228dac0-f3d1-f0f6-c2f5-94fb3ea92437",
+      "longDescription": "",
+      "shortDescription": "Replication of user VMs, using 3rd-party products or services",
+      "searchTags": "BCDR;Backup;Replication",
+      "category": "Protection",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d180a570-a585-4565-4416-4eea7c141c42",
       "longDescription": "",
       "shortDescription": "Performing management operations on infrastructure nodes, including Add, Drain, or Repair",
