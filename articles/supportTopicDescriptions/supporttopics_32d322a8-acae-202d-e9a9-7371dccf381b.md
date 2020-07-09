@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "24f11a9d-316e-49c6-5629-661c9180cf5f",
+      "longDescription": "",
+      "shortDescription": "Resizing and changing other properties of Linux virtual machines",
+      "searchTags": "Linux",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "259bcd67-f09f-f713-d241-e704e71c5f9c",
       "longDescription": "",
       "shortDescription": "Creating or managing quotas that define the limits of resources that a user subscription can provision",
