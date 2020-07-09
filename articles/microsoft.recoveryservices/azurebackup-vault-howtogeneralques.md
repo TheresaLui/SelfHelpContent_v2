@@ -19,7 +19,7 @@
 
 ## **Recommended Documents**
 
-- For **step-by-step instructions to permanently delete vault**, refer to this [article](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#delete-the-recovery-services-vault)<br>
+- [Step-by-step instructions to permanently delete the vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault#delete-the-recovery-services-vault)<br>
 - [How to change vault configuration from GRS to LRS?](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)<br>
 - [Move a vault between subscriptions](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)<br>
 - [Move a vault between Resource Groups](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)<br>
