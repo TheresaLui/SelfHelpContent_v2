@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "09ee5320-1039-bfed-1b99-b2f429188042",
+      "longDescription": "",
+      "shortDescription": "Capacity planning, prerequisites, initial deployment or update of MySQL PaaS resource provider",
+      "searchTags": "AddOnRP;DBaaS;PaaS",
+      "category": "AddOnRP",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4876243b-3ce7-ec63-afd4-37910d46ff21",
       "longDescription": "",
       "shortDescription": "Azure Stack Hub marketplace management, and add-on resource providers for PaaS services",
