@@ -958,6 +958,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ebcdf19d-a470-f37a-b6e1-475fe4d3f7dc",
+      "longDescription": "",
+      "shortDescription": "Removing a virtual machine and associated resources, including custom images",
+      "searchTags": "Windows;Delete;Image",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ec11f6fe-dc4e-3a92-f27e-f0304b2f3088",
       "longDescription": "",
       "shortDescription": "Azure Stack Hub infrastructure security and secret management",
