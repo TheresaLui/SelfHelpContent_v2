@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "18aa6471-7f00-5d30-746b-1421f2475718",
+      "longDescription": "",
+      "shortDescription": "Removing a virtual machine and associated resources, including custom images",
+      "searchTags": "Linux;Image;Deletion",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "21f189e8-3f3d-0301-282e-41104647911d",
       "longDescription": "",
       "shortDescription": "Data protection for user VMs, using Azure Backup",
