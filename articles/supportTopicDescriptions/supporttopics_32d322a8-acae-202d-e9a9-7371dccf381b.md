@@ -804,6 +804,14 @@
       "searchTags": "Connect;Connectivity",
       "category": "Network",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "febc0325-632d-fbbe-b2bd-e32748363f4d",
+      "longDescription": "",
+      "shortDescription": "Hybrid-cloud development with Azure Stack Hub integrated system",
+      "searchTags": "SDK;Devops",
+      "category": "Devops",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
