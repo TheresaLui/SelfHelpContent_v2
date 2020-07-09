@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "0431701f-89da-b51d-5c9e-4b6a9c0aa6a8",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to OEM update package provided by a hardware-vendor",
+      "searchTags": "Update;Patch;OEM;Firmware",
+      "category": "Update",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "067c2dcc-47d2-71fc-e379-5eaa1ad1d85f",
       "longDescription": "",
       "shortDescription": "Connectivity and issues with customer border networking devices",
