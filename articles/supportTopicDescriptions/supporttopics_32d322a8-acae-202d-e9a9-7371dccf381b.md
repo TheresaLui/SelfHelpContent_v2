@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "4876243b-3ce7-ec63-afd4-37910d46ff21",
+      "longDescription": "",
+      "shortDescription": "Azure Stack Hub marketplace management, and add-on resource providers for PaaS services",
+      "searchTags": "AddOnRP;Marketplace;PaaS",
+      "category": "AddOnRP",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "49f30ab9-8c5f-49b8-eaaf-12488828f6fd",
       "longDescription": "",
       "shortDescription": "Supportability of issues on single-node Azure Stack Hub Development Kit (ASDK)",
