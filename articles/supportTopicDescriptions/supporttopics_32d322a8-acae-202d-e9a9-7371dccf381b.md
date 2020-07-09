@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "064ece6a-8be7-7f51-1b33-d9e632414bef",
+      "longDescription": "",
+      "shortDescription": "Obtaining and validating certificates for Azure Stack Hub infrastructure",
+      "searchTags": "Certificate;PKI",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "067c2dcc-47d2-71fc-e379-5eaa1ad1d85f",
       "longDescription": "",
       "shortDescription": "Connectivity and issues with customer border networking devices",
