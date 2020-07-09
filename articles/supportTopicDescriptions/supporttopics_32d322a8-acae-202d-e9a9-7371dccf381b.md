@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "067c2dcc-47d2-71fc-e379-5eaa1ad1d85f",
+      "longDescription": "",
+      "shortDescription": "Connectivity and issues with customer border networking devices",
+      "searchTags": "Infrastructure;Border;Network",
+      "category": "Infrastructure",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "09ee5320-1039-bfed-1b99-b2f429188042",
       "longDescription": "",
       "shortDescription": "Capacity planning, prerequisites, initial deployment or update of MySQL PaaS resource provider",
