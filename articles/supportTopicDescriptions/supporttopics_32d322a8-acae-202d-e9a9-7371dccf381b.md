@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "41e0d437-9dd2-6719-843c-6f99f6d44a0c",
+      "longDescription": "",
+      "shortDescription": "DNS configuration for user VM resources",
+      "searchTags": "DNS",
+      "category": "Network",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "42a06dd9-b9d5-a377-94b2-ee766a2e9a1f",
       "longDescription": "",
       "shortDescription": "Azure Stack Syslog Forwarding issues",
