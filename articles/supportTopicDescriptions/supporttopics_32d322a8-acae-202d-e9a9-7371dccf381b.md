@@ -942,6 +942,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ebbd7c6b-e502-6af9-f6ed-6a626c409b5b",
+      "longDescription": "",
+      "shortDescription": "Resizing and changing other properties of Windows virtual machines",
+      "searchTags": "Windows;Resize",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ec11f6fe-dc4e-3a92-f27e-f0304b2f3088",
       "longDescription": "",
       "shortDescription": "Azure Stack Hub infrastructure security and secret management",
