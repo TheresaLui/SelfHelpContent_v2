@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "56b24722-7ca9-e4a2-e3bd-4f7d92c44215",
+      "longDescription": "",
+      "shortDescription": "Questions about configuring Update Management, including removal and unexpected reboots. ",
+      "searchTags": "remove;disable",
+      "category": "Update Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "616ef7d8-887f-2356-8513-1aafdfcd2b63",
       "longDescription": "",
       "shortDescription": "Issues enrolling machines in Update Management, including firewall and permission ",
