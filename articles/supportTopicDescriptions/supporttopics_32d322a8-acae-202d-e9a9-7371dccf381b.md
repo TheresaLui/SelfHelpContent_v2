@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "27a3fcfd-5057-e31d-3735-758b2e2a42b6",
+      "longDescription": "",
+      "shortDescription": "Replication of user VMs to public Azure",
+      "searchTags": "BCDR;ASR;Replication",
+      "category": "Protection",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2bdefc45-14c3-0313-bdca-2765f8dbceec",
       "longDescription": "",
       "shortDescription": "Infrastructure backup job failures and alerts",
