@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "224e4e80-5cdd-341d-f146-03e0d6baac58",
+      "longDescription": "",
+      "shortDescription": "Pre-update health check questions, or Test-AzureStack update readiness failures",
+      "searchTags": "Update;Patch;Precheck;Test-AzureStack",
+      "category": "Update",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "24dda133-3082-aeca-0bb5-c22ef873f55b",
       "longDescription": "",
       "shortDescription": "Load Balancer resources in user environment",
