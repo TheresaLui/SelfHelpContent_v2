@@ -710,6 +710,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b5ac38e6-6d3c-a48e-4a92-8c704bacd0e1",
+      "longDescription": "",
+      "shortDescription": "Diagnose or investigate a Windows virtual machine that restarted or stopped unexpectedly",
+      "searchTags": "Windows;Reboot",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b8407124-2971-4879-6a3c-0a930ea799df",
       "longDescription": "",
       "shortDescription": "Registration of an Azure Stack Hub integrated system, in a disconnected environment",
