@@ -28,7 +28,7 @@
 ### **Blob Public Access (applicable to only blobs and adlsgen2)**
 
 - [How to enable/disable Public Access at the storage account level](https://docs.microsoft.com/azure/storage/blobs/anonymous-read-access-configure?tabs=portal#enable-or-disable-public-read-access-for-a-storage-account)
-- [If public access is disabled for the storage account,changing the public access level for a container is not permitted](https://docs.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal#set-the-public-access-level-for-a-container)
+- [If public access is disabled for the storage account,changing the public access level for a container is not permitted](https://docs.microsoft.com/azure/storage/blobs/anonymous-read-access-configure?tabs=portal#set-the-public-access-level-for-a-container)
 
 ### **Access Options**
 
