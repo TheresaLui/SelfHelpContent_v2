@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b41ec3de-1649-8dad-abd6-6b2813dcb278",
+      "longDescription": "",
+      "shortDescription": "Alert for infrastructure role unhealthy",
+      "searchTags": "Infrastructure",
+      "category": "Infrastructure",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bfe35e43-4c55-1d01-6b0c-9472726ee3ae",
       "longDescription": "",
       "shortDescription": "Operating or using MySQL PaaS resource provider, other than initial deployment or upgrade",
