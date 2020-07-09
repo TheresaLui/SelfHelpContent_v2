@@ -44,15 +44,6 @@
          "watermarkText":"Always provide the full error text from Azure Container Instances when possible."
       },
       {
-         "id":"problem_description",
-         "order":3,
-         "controlType":"multilinetextbox",
-         "displayLabel":"Please provide additional context about the issue you are encountering.",
-         "required":true,
-         "useAsAdditionalDetails":true,
-         "watermarkText":"Always provide the full error text from Azure Container Instances when possible."
-      },
-      {
          "id":"attempted_connection",
          "order":4,
          "controlType":"multilinetextbox",
