@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2cadcac7-1d00-5156-9685-350fc5f9bac7",
+      "longDescription": "",
+      "shortDescription": "Business continuity and disaster recovery for Azure Stack Hub integrated systems and user data",
+      "searchTags": "BCDR;Protection;Backup;Restore",
+      "category": "Protection",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "38274da1-4009-6575-2e36-26d7731d9a8a",
       "longDescription": "",
       "shortDescription": "Usage reporting and billing issues and questions",
