@@ -366,6 +366,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5faaebf5-23ed-c0da-50d5-a3de17927cde",
+      "longDescription": "",
+      "shortDescription": "Attaching and detaching disks on Linux VMs (managed or unmanaged)",
+      "searchTags": "Linux;Disks;VHD",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5fb1b477-4498-b370-6c91-38bbd48cfb84",
       "longDescription": "",
       "shortDescription": "Usage reporting and billing issues and questions",
