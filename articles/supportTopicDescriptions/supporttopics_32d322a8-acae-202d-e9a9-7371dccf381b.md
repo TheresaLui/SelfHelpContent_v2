@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "38274da1-4009-6575-2e36-26d7731d9a8a",
+      "longDescription": "",
+      "shortDescription": "Usage reporting and billing issues and questions",
+      "searchTags": "Usage;Billing",
+      "category": "Usage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "3a398ea2-670c-bd78-728c-2dc887cbed5b",
       "longDescription": "",
       "shortDescription": "Monitoring and managing storage and physical memory capacity",
