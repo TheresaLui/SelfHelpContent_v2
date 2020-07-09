@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "304295bb-9801-24cb-f325-e0940ded56be",
+      "longDescription": "",
+      "shortDescription": "Issues while applying Azure Stack Hub update packages or hotfixes",
+      "searchTags": "Update;Patch;Failure",
+      "category": "Update",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "32da9999-5ffa-6fcb-21a0-15a03152d185",
       "longDescription": "",
       "shortDescription": "Integration and issues between Azure Stack Hub and customer firewall or proxy",
