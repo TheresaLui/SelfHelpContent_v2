@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "8dcf763f-7d15-1ff4-bf6a-fba9238e68a7",
+      "longDescription": "",
+      "shortDescription": "Removing existing marketplace images, extensions, and solution templates",
+      "searchTags": "Marketplace",
+      "category": "Marketplace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9c97dbb5-0239-d195-c926-ef07228b76e2",
       "longDescription": "",
       "shortDescription": "Licensing for marketplace images including pay-as-you-go and bring-your-own-license",
