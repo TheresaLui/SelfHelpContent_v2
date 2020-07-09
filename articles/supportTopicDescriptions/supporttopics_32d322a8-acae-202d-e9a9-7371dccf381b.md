@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "21f189e8-3f3d-0301-282e-41104647911d",
+      "longDescription": "",
+      "shortDescription": "Data protection for user VMs, using Azure Backup",
+      "searchTags": "BCDR;Backup",
+      "category": "Protection",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "259bcd67-f09f-f713-d241-e704e71c5f9c",
       "longDescription": "",
       "shortDescription": "Creating or managing quotas that define the limits of resources that a user subscription can provision",
