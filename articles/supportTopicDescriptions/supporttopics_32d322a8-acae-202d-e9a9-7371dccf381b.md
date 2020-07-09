@@ -438,6 +438,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b15715f2-ac21-d3d3-5476-7bccc77547eb",
+      "longDescription": "",
+      "shortDescription": "Connectivity between virtual networks on Azure Stack Hub using Azure ExpressRoute",
+      "searchTags": "ExpressRoute",
+      "category": "Network",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b19e79ba-f8f7-8e5a-2cda-c1c07b4ee4a6",
       "longDescription": "",
       "shortDescription": "Alerts and replacement for physical disks",
