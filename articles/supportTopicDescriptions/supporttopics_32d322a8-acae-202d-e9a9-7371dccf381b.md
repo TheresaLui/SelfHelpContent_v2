@@ -334,6 +334,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "adc85a50-5087-6adc-6188-e7e75331b89d",
+      "longDescription": "",
+      "shortDescription": "Integration and connectivity of Azure Stack Hub infrastructure to customer datacenter networks",
+      "searchTags": "Network;Infrastructure",
+      "category": "Infrastructure",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "af2464ca-0a9a-cf94-1019-ce806cffaf1e",
       "longDescription": "",
       "shortDescription": "Issues accessing or authenticating with Admin or User portals",
