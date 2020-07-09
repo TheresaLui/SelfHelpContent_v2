@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "36664371-9f0c-76e2-71f1-16bc566e5a82",
+      "longDescription": "",
+      "shortDescription": "Configuring and managing infrastructure backups",
+      "searchTags": "BCDR;Backup",
+      "category": "Protection",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "38274da1-4009-6575-2e36-26d7731d9a8a",
       "longDescription": "",
       "shortDescription": "Usage reporting and billing issues and questions",
