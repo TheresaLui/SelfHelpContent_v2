@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a25872fb-a5ea-4167-6d28-e84e8c3a4d2c",
+      "longDescription": "",
+      "shortDescription": "Issues using the Update Management function of Azure Automation",
+      "searchTags": "Update Management",
+      "category": "Update Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d6c05c75-e488-211d-a5cf-5e110828410a",
       "longDescription": "",
       "shortDescription": "Issues scanning for updates, such as machines showing Not Assessed or disconnected. ",
