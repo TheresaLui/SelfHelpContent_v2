@@ -100,6 +100,14 @@
       "searchTags": "AppServices;AddOnRP;PaaS",
       "category": "AddOnRP",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "bfe35e43-4c55-1d01-6b0c-9472726ee3ae",
+      "longDescription": "",
+      "shortDescription": "Operating or using MySQL PaaS resource provider, other than initial deployment or upgrade",
+      "searchTags": "AddOnRP;DBaaS;PaaS",
+      "category": "AddOnRP",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
