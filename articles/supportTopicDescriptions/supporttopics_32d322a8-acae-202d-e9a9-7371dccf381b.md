@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6848be8a-bc7e-b6e4-7b09-8b9fa1687ae9",
+      "longDescription": "",
+      "shortDescription": "Creating custom marketplace items, including Azure Gallery Package (.azpkg) format and the Azure Gallery Packager tool",
+      "searchTags": "Marketplace",
+      "category": "Marketplace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7f351813-44b4-cb7b-a267-1e70bc4e6c53",
       "longDescription": "",
       "shortDescription": "Capacity planning, prerequisites, initial deployment or update of App Service PaaS resource provider",
