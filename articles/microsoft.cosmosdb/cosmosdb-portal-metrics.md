@@ -23,7 +23,7 @@
 ## Recommended Steps
 
 **MaxRU/s metric is being depricated. The recommended metric now is NormalizedRU.**  
-Please check this doc https://docs.microsoft.com/en-us/azure/cosmos-db/monitor-normalized-request-units  
+Please check [How to monitor normalized RU/s for an Azure Cosmos container or an account](https://docs.microsoft.com/azure/cosmos-db/monitor-normalized-request-units)  
 
 
 
