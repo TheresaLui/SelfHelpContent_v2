@@ -262,6 +262,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f8da6c5b-2a74-37ac-a4c3-f3d40c0039ea",
+      "longDescription": "",
+      "shortDescription": "Administration of Azure Stack Hub integrated system",
+      "searchTags": "Operator;Administration",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "fb86f689-195e-d800-eeeb-8b276ea33893",
       "longDescription": "",
       "shortDescription": "Running the validation tool and accessing results",
