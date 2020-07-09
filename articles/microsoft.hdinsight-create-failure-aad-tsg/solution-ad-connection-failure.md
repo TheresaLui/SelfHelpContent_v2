@@ -21,7 +21,7 @@
 
 We have checked the cluster and it seems that cluster creation failure is due to an AADDS connection issue<br>
 
-We already asked AAD support help to futhur investigate the issue. If any update, we'll let you know.<br>
+We already asked AAD support help to furthur investigate the issue. If any update, we'll let you know.<br>
 
 <!--/issueDescription-->
 

@@ -27,4 +27,4 @@ Please follow the recommended documents to check DNS setup<br>
 
 ## Recommended documents
 
-1. [Troubleshoot domainnotfound](https://docs.microsoft.com/azure/hdinsight/domain-joined/troubleshoot-domainnotfound)
+1. [Troubleshoot domain not found](https://docs.microsoft.com/azure/hdinsight/domain-joined/troubleshoot-domainnotfound)
