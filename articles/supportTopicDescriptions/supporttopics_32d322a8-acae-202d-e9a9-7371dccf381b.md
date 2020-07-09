@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "4367efbb-e41d-b88a-c10e-fb2f99723481",
+      "longDescription": "",
+      "shortDescription": "Creating or managing base plans and add-ons to offer to users",
+      "searchTags": "Plan;POQS",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4876243b-3ce7-ec63-afd4-37910d46ff21",
       "longDescription": "",
       "shortDescription": "Azure Stack Hub marketplace management, and add-on resource providers for PaaS services",
