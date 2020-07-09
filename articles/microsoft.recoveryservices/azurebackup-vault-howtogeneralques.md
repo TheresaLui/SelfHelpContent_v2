@@ -24,7 +24,7 @@
 - [Move a vault between subscriptions](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)<br>
 - [Move a vault between Resource Groups](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)<br>
 - [How to use Azure Backup reports to view cloud storage consumed at a backup-item level?](https://docs.microsoft.com/azure/backup/configure-reports#get-started)<br>
-- [What happens to my existing recovery points and future recovery points if I modify policy](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#what-happens-when-i-change-my-backup-policy)
+- [What happens to my existing recovery points and future recovery points if I modify policy?](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#what-happens-when-i-change-my-backup-policy)
 - Stop backup/protection for:
 	* [Azure Virtual Machine](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)<br>
 	* [SQL databases in Azure Virtual Machine](https://docs.microsoft.com/azure/backup/manage-monitor-sql-database-backup#stop-protection-for-a-sql-server-database)<br>
