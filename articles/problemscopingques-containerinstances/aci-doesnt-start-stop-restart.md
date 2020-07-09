@@ -1,6 +1,6 @@
 <properties
 	pageTitle="aci does not start stop or restart"
-	description="aci does not start stop restart"
+	description="aci does not start stop or restart"
 	ms.author="macolso"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588392"
@@ -44,15 +44,6 @@
          "watermarkText":"Always provide the full error text from Azure Container Instances when possible."
       },
       {
-         "id":"problem_description",
-         "order":3,
-         "controlType":"multilinetextbox",
-         "displayLabel":"Please provide additional context about the issue you are encountering.",
-         "required":true,
-         "useAsAdditionalDetails":true,
-         "watermarkText":"Always provide the full error text from Azure Container Instances when possible."
-      },
-      {
         "id": "problem_operation",
         "order": 4,
         "controlType": "multiselectdropdown",
@@ -66,7 +57,10 @@
             }, {
                 "value": "Restart",
                 "text": "Restart"
-            }
+            }, {
+	    	"value": "dont_know_answer",
+		"text": "I don't know"
+	    }
         ],
         "required": true
     }
