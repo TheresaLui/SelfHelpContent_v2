@@ -518,6 +518,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a583bab8-a12c-0a18-4b65-a0c171a62ef3",
+      "longDescription": "",
+      "shortDescription": "Azure-consistent Blob service issues",
+      "searchTags": "Storage;Blob",
+      "category": "Storage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a68966b2-59d4-c537-80d3-89d5337502b0",
       "longDescription": "",
       "shortDescription": "Partner Center usage billing for Azure Stack Hub as a Cloud Solution Provider (CSP)",
