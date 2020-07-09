@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "18a6d748-7150-98ab-0bdc-0f1c473ff25c",
+      "longDescription": "",
+      "shortDescription": "Alerts and actions for physical infrastructure nodes",
+      "searchTags": "Node;Offline;Infrastructure",
+      "category": "Infrastructure",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2c955157-c507-f9a8-3005-1a75f06000c0",
       "longDescription": "",
       "shortDescription": "Capacity planning, prerequisites, initial deployment or update of SQL PaaS resource provider",
