@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "0157cca5-bf8e-078f-ba95-5e52e3df09d7",
+      "longDescription": "",
+      "shortDescription": "Managing OS and data disks in Linux VMs, including new deployments",
+      "searchTags": "Disks;VHD;Linux",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "01cef3f8-abfa-504f-cf98-76a457296291",
       "longDescription": "",
       "shortDescription": "Firewall issues affecting user VM network communication",
