@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "24dd5feb-c196-3be1-c94d-2b17c43f1598",
+      "longDescription": "",
+      "shortDescription": "Adding or configurating extensions to Windows virtual machines, using the portal, ARM template, or APIs",
+      "searchTags": "Windows;Extension;CSE",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "24dda133-3082-aeca-0bb5-c22ef873f55b",
       "longDescription": "",
       "shortDescription": "Load Balancer resources in user environment",
