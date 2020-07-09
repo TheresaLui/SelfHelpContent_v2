@@ -22,7 +22,7 @@
 
 ## **Recommended Steps**
 
-1. As an MPN Partner, once you have acquired a subscription, go to [Benefits](https://partner.microsoft.com/pcv/partnership/benefits) tab in your Partner Center dashboard
+1. As an MPN Partner, once you have acquired a subscription, go to [Benefits](https://partner.microsoft.com/pcv/partnership/benefits)  tab in your Partner Center dashboard
 2. Please ensure that you are a user with Global Admin or an MPN Partner Admin role to perform these activities
 3. Click on Go-To-Market benefits tab in the left navigation panel
 4. Refer to this article [Go-To-Market Benefits](https://support.microsoft.com/help/4515226) for step by step instructions to **review or use** these benefits

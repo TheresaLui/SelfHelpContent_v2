@@ -23,7 +23,7 @@
 ## **Recommended Steps**
 
 1.	As an MPN Partner, once you have acquired a subscription, go to [Benefits](https://partner.microsoft.com/pcv/partnership/benefits) tab in your Partner Center dashboard
-2.	Please ensure that you are an user with Global Admin or an MPN Partner Admin role to perform these activities
+2.	Please ensure that you are a user with Global Admin or an MPN Partner Admin role to perform these activities
 3.	Click on Technical benefits tab in the left navigation panel
 4.	Refer to this article [Technical Benefits](https://support.microsoft.com/help/4515208/technical-benefits-tab-for-mpn-partners-in-partner-center) for step by step instructions to **review or activate** the technical benefit
 5.	For additional help, please refer to Recommended documents below

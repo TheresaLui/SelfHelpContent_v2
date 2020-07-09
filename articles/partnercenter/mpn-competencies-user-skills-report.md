@@ -24,7 +24,7 @@
 
 - During the preparation for attaining a competency, Global Admin or MPN Partner Admin have the possibility to analyze who has completed an exam / certification / assessment and check the progress against the requirements of the competencies by accessing **Competencies** Tab and then **Download skills report**
 
-	- Note: Partner university account will be associated to the Partner Center user account and the user’s assessments will reflect in the Partner Center User Skills report within **72 hrs**
+  - Note: Partner university account will be associated to the Partner Center user account and the user’s assessments will reflect in the Partner Center User Skills report within **72 hrs**
 	
 - Only skills relevant to the competencies and programs of Partner Center are shown in this report (some retired skills may be shown for 12 months or more after retirement). Make sure you check the requirements under competencies in Partner Center or select the competency on the Microsoft Partner Network portal. Unless an exam / assessment / certification is specifically mentioned as part of the requirements listed under the competency, it will not be considered towards meeting the competency.
 - For additional help, please refer to the recommended documents below

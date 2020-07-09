@@ -38,7 +38,7 @@
     "49ebada5-bdc9-4c9b-826c-3cb789357c5d"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/mysqlpricing",
   "description": "Right-size underutilized MySQL servers",
   "longDescription": "Our internal telemetry shows that the MySQL database server resources has been underutilized for an extended period of time over the last 7 days. Low resource utilization results in unwanted expenditure which can be fixed without significant performance impact. To reduce your costs and efficiently manage your resources, we recommend reducing the compute size (vCores) by half.",
@@ -48,7 +48,7 @@
       "actionId": "205a6772-83ab-42d4-9b5d-3343037a1dfe",
       "description": "Right-size underutilized MySQL servers",
       "actionType": "Blade",
-      "extensionName": "SqlAzureExtension",
+      "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}",

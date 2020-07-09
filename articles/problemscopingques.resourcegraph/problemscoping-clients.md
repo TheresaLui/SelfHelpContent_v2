@@ -14,8 +14,8 @@
 # Resource Graph Client Tools
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Resource Graph Issues with Clients",
     "fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements": [

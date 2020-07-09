@@ -20,14 +20,14 @@
 
 # MPN - Competency status
 
-Resources providing knowledge on Competency status
+Due to unforeseen issues we will not be able to offer credit card payment option for Japan, South Korea and Taiwan until further notice. You will notice that you can still make your purchase seamlessly via Wire Transfer. Please contact your financial institution for more information on how to execute a wire transfer.
 
 ## **Recommended Steps**
 * **Sign In** with your work account credentials in the [Microsoft Partner website](https://partner.microsoft.com/) and access your [Dashboard](https://partner.microsoft.com/pcv/dashboard)
 * Under the MPN section on the Partner Center menu, select [Competencies](https://partner.microsoft.com/pcv/partnership/competencies)
 * Select the competency name and specific competency option to view details. You should be able to see the requirements and links to the specific exams or certifications.
 * Click on Download Skills Report in the Competencies page to view the number of employees who have completed various certifications and exams
-* Click on [Competency performance report](https://partner.microsoft.com/pcv/partnership/competenciesreport) in the Competencies page to view the performance of your organisation across competencies
+* Click on [Competency performance report](https://partner.microsoft.com/pcv/partnership/competenciesreport) in the Competencies page to view the performance of your organization across competencies
 * For additional help, please refer to the recommended documents below
 
 ## **Recommended Documents**

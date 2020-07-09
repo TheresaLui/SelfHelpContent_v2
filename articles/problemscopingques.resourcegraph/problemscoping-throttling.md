@@ -14,8 +14,8 @@
 # Resource Graph Throttling
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Resource Graph Throttling",
     "fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements": [

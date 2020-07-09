@@ -20,8 +20,3 @@
 If some clients work and some others don't, even if they are all using the same protocol, it means that the Azure VPN Gateway is working correctly.
 
 The issue must then be specific to the OS with the failure.
-
-Which is the Client OS that is failing?
-- Windows
-- Mac
-- Other OS
