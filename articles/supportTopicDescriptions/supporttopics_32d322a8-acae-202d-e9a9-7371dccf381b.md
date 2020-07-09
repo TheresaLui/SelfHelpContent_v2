@@ -686,6 +686,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "dbb87f8c-9c72-691d-0cdb-a1bdf4f5f34a",
+      "longDescription": "",
+      "shortDescription": "Creation of storage accounts within user environment",
+      "searchTags": "Creating",
+      "category": "Storage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e0a0d737-3cb7-dcf2-81e6-96f2210de4f1",
       "longDescription": "",
       "shortDescription": "Update package is not progressing, even if specific errors have not occurred",
