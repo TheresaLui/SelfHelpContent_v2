@@ -470,6 +470,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c3a80102-1cc8-a913-ef00-f98944f65a66",
+      "longDescription": "",
+      "shortDescription": "User virtual networks",
+      "searchTags": "Vnet",
+      "category": "Network",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ca3688eb-70ba-264f-88ab-216942a9101f",
       "longDescription": "",
       "shortDescription": "Azure Stack general guidance and advisory",
