@@ -302,6 +302,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "45597953-0596-d210-cecf-10e134e57332",
+      "longDescription": "",
+      "shortDescription": "Investigate performance or usage issues for Windows virtual machines",
+      "searchTags": "Windows;Performance",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "45a8200e-7a1f-0bd2-f1b4-3f532722bcce",
       "longDescription": "",
       "shortDescription": "Azure-consistent storage in user environment",
