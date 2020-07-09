@@ -52,6 +52,14 @@
       "searchTags": "ASDK",
       "category": "ASDK",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "ad5572e9-7f54-2e67-c06d-12857b62b867",
+      "longDescription": "",
+      "shortDescription": "Operating or using App Service PaaS resource provider, other than initial deployment or upgrade",
+      "searchTags": "AppServices;AddOnRP;PaaS",
+      "category": "AddOnRP",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
