@@ -4,7 +4,7 @@
     authors="hsku"
     ms.author="hsku"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32684504"
+    supportTopicIds="32684504,32684506,32684510,32684513,32684523,32684505,32684509,32684518,32684520,32684524"
     productPesIds="16666"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
@@ -29,7 +29,7 @@
             "id": "jobIdentifier",
             "order": 1,
             "controlType": "multilinetextbox",
-            "displayLabel": "Job ID",
+            "displayLabel": "Job ID (Unique identifier for your provisioning job, found in the progress bar):",
             "watermarkText": "Example: serviceNow.5547032d9415500cb27b277e3fb6f2c8.5aaf8326-b305-4b63-aa55-0990eb3265f5",
             "infoBalloonText": "Unique identifier for your provisioning job, found in the progress bar.",
             "required": false,
@@ -40,7 +40,7 @@
             "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
-            "displayLabel": "DescriptionTest",
+            "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
@@ -83,6 +83,28 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Please describe the steps, if any, that you already took to remedy the issue",
             "watermarkText": "Example: Restarted provisioning before creating support case. Reviewed documentation.",
+            "required": false
+        },
+        {
+            "id": "provisioning_logs_feedback",
+            "order": 8,
+            "controlType": "dropdown",
+            "displayLabel": "Provisioning logs feedback",
+            "dropdownOptions": [
+                {
+                    "value": "Logs are missing",
+                    "text": "Logs are missing"
+                },
+                {
+                    "value": "Logs are available and unclear",
+                    "text": "Logs are available and unclear"
+                },
+                {
+                    "value": "Not applicable to support case",
+                    "text": "Not applicable to support case"
+                }
+            ],
+            "infoBalloonText": "We would love your feedback on how useful the logs are for troubleshooting.",
             "required": false
         }
     ],

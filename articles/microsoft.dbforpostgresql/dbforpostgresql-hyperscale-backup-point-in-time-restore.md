@@ -3,18 +3,18 @@
     description="Hyperscale (Citus) server group point-in-time restore"
 	infoBubbleText="How to perform point-in-time restore for Hyperscale (Citus) server group"
     service="microsoft.dbforpostgresql"
-    resource="dbforpostgresql"
+    resource="serverGroups"
     authors="onlined"
     ms.author="srranga"
     displayOrder="100"
 	articleId="dbforpostgresql-hyperscale-backup-point-in-time-restore"
 	diagnosticScenario="OrcasBreadthCitusPITR"
-    selfHelpType="rca"
-    supportTopicIds="32640011,32639954"
-    resourceTags="linux"
+    selfHelpType="resource"
+    supportTopicIds="32640011"
+    resourceTags=""
     productPesIds="17068"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-	ownershipId="AzureData_AzureDatabaseforCitus"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # How to perform point-in-time restore for Hyperscale (Citus) server group
