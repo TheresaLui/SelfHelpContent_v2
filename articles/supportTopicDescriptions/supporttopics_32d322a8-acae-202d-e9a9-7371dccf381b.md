@@ -230,6 +230,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6ef2ac46-1b0a-bb9e-e9f6-f5ab59de6979",
+      "longDescription": "",
+      "shortDescription": "Initial deployment and registration of Azure Stack Hub integrated system",
+      "searchTags": "Deployment;Registration",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6fb60b1b-8076-5fc6-78c8-7e33fa92a330",
       "longDescription": "",
       "shortDescription": "Health of network adapters, data drives, and other field replaceable units",
