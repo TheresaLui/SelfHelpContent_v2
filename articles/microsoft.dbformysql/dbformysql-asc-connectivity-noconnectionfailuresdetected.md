@@ -11,7 +11,7 @@
 	diagnosticScenario="OrcasMySQLNoSystemErrorsInsightV2TroubleShooter"
 	selfHelpType="rca"
 	supportTopicIds="32640053, 32640051"
-    resourceTags="servers, databases"
+	resourceTags="servers, databases"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
