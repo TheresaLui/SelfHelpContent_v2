@@ -790,6 +790,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "be13a621-758d-6f2d-5bfd-87903a60b594",
+      "longDescription": "",
+      "shortDescription": "Connecting or configuring access to Windows virtual machine deployed by a user",
+      "searchTags": "Windows;Connect;RDP",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bfe35e43-4c55-1d01-6b0c-9472726ee3ae",
       "longDescription": "",
       "shortDescription": "Operating or using MySQL PaaS resource provider, other than initial deployment or upgrade",
