@@ -726,6 +726,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e0268345-b904-a3ea-9d0f-40db605bb638",
+      "longDescription": "",
+      "shortDescription": "Azure Stack Hub Software Development Kit (SDK) and development environment integration",
+      "searchTags": "SDK;DevOps",
+      "category": "DevOps",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e0a0d737-3cb7-dcf2-81e6-96f2210de4f1",
       "longDescription": "",
       "shortDescription": "Update package is not progressing, even if specific errors have not occurred",
