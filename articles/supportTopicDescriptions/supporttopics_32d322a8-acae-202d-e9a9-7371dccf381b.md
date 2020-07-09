@@ -230,6 +230,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "45cf0cf0-200d-f724-5630-08e1938df235",
+      "longDescription": "",
+      "shortDescription": "Integration and authentication issues with Azure Active Directory (AAD)",
+      "searchTags": "AAD;AzureAD;Authentication",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "47cc3dca-d07a-94cd-ad0b-7ac0255240eb",
       "longDescription": "",
       "shortDescription": "Update package not recognized after starting an update",
