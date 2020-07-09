@@ -334,6 +334,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "fb7d4c97-8d3f-b4ac-17bf-9977dfcee20f",
+      "longDescription": "",
+      "shortDescription": "Recovery of Azure Stack Hub integrated systems, including cloud recovery mode",
+      "searchTags": "BCDR;Recovery",
+      "category": "Protection",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "fb86f689-195e-d800-eeeb-8b276ea33893",
       "longDescription": "",
       "shortDescription": "Running the validation tool and accessing results",
