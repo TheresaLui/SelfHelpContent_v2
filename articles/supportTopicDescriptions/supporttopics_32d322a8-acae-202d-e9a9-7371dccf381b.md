@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b19e79ba-f8f7-8e5a-2cda-c1c07b4ee4a6",
+      "longDescription": "",
+      "shortDescription": "Alerts and replacement for physical disks",
+      "searchTags": "Hardware;Disk",
+      "category": "Hardware",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bfe35e43-4c55-1d01-6b0c-9472726ee3ae",
       "longDescription": "",
       "shortDescription": "Operating or using MySQL PaaS resource provider, other than initial deployment or upgrade",
