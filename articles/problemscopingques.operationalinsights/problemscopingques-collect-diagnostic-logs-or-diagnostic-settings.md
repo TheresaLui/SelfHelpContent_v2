@@ -10,7 +10,7 @@ supportTopicIds="32633017"
 productPesIds="15725"
 cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 schemaVersion="1"
-	ownershipId="AzureMonitoring_LogAnalytics"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Collect Diagnostics logs or Diagnostics Settings
