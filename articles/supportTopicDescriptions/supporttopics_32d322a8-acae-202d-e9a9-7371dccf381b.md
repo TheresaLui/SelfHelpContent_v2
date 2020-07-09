@@ -222,6 +222,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "bb0f154d-2c52-5711-9724-1fbd7c45c438",
+      "longDescription": "",
+      "shortDescription": "Alert for infrastructure role unavailable, or repair action fails",
+      "searchTags": "Infrastructure;Repair",
+      "category": "Infrastructure",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bfe35e43-4c55-1d01-6b0c-9472726ee3ae",
       "longDescription": "",
       "shortDescription": "Operating or using MySQL PaaS resource provider, other than initial deployment or upgrade",
