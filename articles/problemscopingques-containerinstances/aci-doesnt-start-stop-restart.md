@@ -8,7 +8,7 @@
 	cloudEnvironments="public,fairfax"
 	schemaVersion="1"
 	articleId="problemscopingques-acidoesntstartstoprestart"
-	ownershipId="compute-containerinstances-cs
+	ownershipId="compute-containerinstances-cs"
 />
 # ACI does not start stop or restart
 ---
