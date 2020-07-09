@@ -430,6 +430,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c0b3c6f9-a1db-b4a6-7d7e-b54fb1105701",
+      "longDescription": "",
+      "shortDescription": "Issues applying OEM Extension Package during initial deployment",
+      "searchTags": "Deployment;Extension",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c228dac0-f3d1-f0f6-c2f5-94fb3ea92437",
       "longDescription": "",
       "shortDescription": "Replication of user VMs, using 3rd-party products or services",
