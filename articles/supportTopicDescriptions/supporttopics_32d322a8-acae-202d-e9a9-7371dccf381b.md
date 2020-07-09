@@ -422,6 +422,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "78595c03-62ec-9120-7347-95e3f5e2feab",
+      "longDescription": "",
+      "shortDescription": "Create and manage a group of identical, load balanced, and auto-scaling VMs running Windows",
+      "searchTags": "Scaleset",
+      "category": "Compute",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7b04f510-a627-61bc-2ca0-e2781a2a5073",
       "longDescription": "",
       "shortDescription": "SCOM management pack for external monitoring of Azure Stack Hub",
