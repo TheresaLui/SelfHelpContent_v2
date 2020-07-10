@@ -10,7 +10,7 @@
     articleId="insights-for-container-enableageent-openshift"
     productPesIds="17083"
     supportTopicIds="32740207"
-   cloudEnvironments="public, blackForest, fairfax, mooncake"
+  cloudEnvironments="public, blackForest, fairfax,mooncake"
     ownershipId="AzureMonitoring_Essentials"
  />
 
