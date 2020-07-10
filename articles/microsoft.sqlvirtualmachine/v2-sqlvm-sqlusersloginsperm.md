@@ -35,11 +35,10 @@ Alternatively, you can remote desktop to the VM as an administrator and do the f
 
 NET STOP MSSQLSERVER
 NET START MSSQLSERVER /m"SQLCMD" 
-sqlcmd -S VM_Name
+SQLCMD -S VM_Name
 ```
 
 ```SQLCMD
-
 CREATE LOGIN [Domain\login] FROM WINDOWS; 
 GO
 
@@ -50,7 +49,6 @@ Exit
 ```
 
 ```
-
 NET STOP MSSQLSERVER
 NET START MSSQLSERVER
 ```
