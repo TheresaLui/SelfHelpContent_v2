@@ -929,6 +929,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "b1c65b89-ce7f-349b-796b-fd98bf60fb71",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance with my availability zone.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b20d0fe1-828e-d1b8-2278-1c22a0dcb560",
       "longDescription": null,
       "shortDescription": "Assistance when receiving an Azure Safe Guard email notification",
