@@ -19,7 +19,8 @@
 
 ## **Recommended Documents**
 
-* [Azure Event Hubs - Authentication and security model](https://docs.microsoft.com/azure/event-hubs/event-hubs-authentication-and-security-model-overview)<br>
+* [Event Hub Authentication and Authorization issues troubleshooting guide](https://docs.microsoft.com/azure/event-hubs/troubleshoot-authentication-authorization)<br>
+* [Event Hub Authentication and security model](https://docs.microsoft.com/azure/event-hubs/event-hubs-authentication-and-security-model-overview)<br>
 * [RBAC for Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-role-based-access-control)<br>
 * [Create or update Authorization Rule](https://docs.microsoft.com/rest/api/eventhub/eventhubs/createorupdateauthorizationrule)<br>
 * [How to delete an Authorization Rule](https://docs.microsoft.com/rest/api/eventhub/eventhubs/deleteauthorizationrule)<br>
