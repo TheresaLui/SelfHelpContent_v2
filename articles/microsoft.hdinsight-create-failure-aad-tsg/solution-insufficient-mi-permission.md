@@ -19,15 +19,15 @@
 
 <!--issueDescription-->
 
-We have checked the cluster and it seems that ESP cluster creation failure is due to insufficient MI permission<br>
-<br>
-To resolve the issue:<br>
-<br>
-1. Please follow the recommended documents to assign **HDInsight Domain Services Contributor** role to your managed identity  <br>
-2. Delete error cluster and recreate ESP cluster<br>
+We have checked the cluster and it seems that ESP cluster creation failure is due to insufficient MI permissions.
 
 <!--/issueDescription-->
 
-## Recommended documents
+## **Recommended Steps**
 
-1. [Authorize a managed identity](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-configure-using-azure-adds#create-and-authorize-a-managed-identity)
+1. Please follow the recommended documents to assign **HDInsight Domain Services Contributor** role to your managed identity 
+2. Delete error cluster and recreate ESP cluster<br>
+
+## **Recommended Documents**
+
+* [Authorize a managed identity](https://docs.microsoft.com/azure/hdinsight/domain-joined/apache-domain-joined-configure-using-azure-adds#create-and-authorize-a-managed-identity)
