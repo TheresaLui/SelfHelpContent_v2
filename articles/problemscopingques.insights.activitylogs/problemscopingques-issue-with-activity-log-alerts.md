@@ -59,7 +59,7 @@
             "displayLabel": "Describe the problem that is being experienced with the alert rule.",
             "watermarkText": "Describe the problem that is being experienced with the alert rule.",
             "required": false,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": false
             },
                 {
             "id": "problem_description",
