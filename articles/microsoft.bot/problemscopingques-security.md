@@ -40,7 +40,7 @@
 			"id": "kindofassistance",
 			"order": 3,
 			"controlType": "radioButtonGroup",
-			"displayLabel": "What kind of help do you need? ", 
+			"displayLabel": "What kind of help do you need? ",
 			"radioButtonOptions": [{
 					"value": "3a",
 					"text": "Need advice on securing a bot "
