@@ -1,22 +1,22 @@
 <properties
-	articleId="problemscopingques-i-cannot-view-activity-logs-in-log-analytics"
-	pageTitle="I can't view Activity Log in Log Analytics"
-	description="I can't view Activity Log in Log Analytics"
+	articleId="problemscopingques-integration-with-3rd-party-siem-tools"
+	pageTitle="Integration with 3rd party SIEM tools"
+	description="Integration with 3rd party SIEM tools"
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32684685"
+	supportTopicIds="32688872"
 	productPesIds="16251"
 	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_AzureMetrics"
 />
-# I can't view Activity Log in Log Analytics
+# Integration with 3rd party SIEM tools
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "I can't view Activity Log in Log Analytics",
+    "title": "Integration with 3rd party SIEM tools",
     "fileAttachmentHint": "If possible, please upload screenshots and additional attachments which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
@@ -27,11 +27,11 @@
             "required": false
         },
         {
-            "id": "workspace_name",
+            "id": "thirdparty_tool",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide the Log Analytics workspace name and the Azure subscription id where it exists.",
-            "watermarkText": "Provide the Log Analytics workspace name and the Azure subscription id where it exists.",
+            "displayLabel": "What third party tool is being utilized?",
+            "watermarkText": "What third party tool is being utilized?",
             "required": true,
             "useAsAdditionalDetails": false
         },
@@ -39,19 +39,19 @@
             "id": "problem_description",
             "order": 7,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide details of exactly what you are trying to view in Log Analytics.",
-            "watermarkText": "Provide details of exactly what you are trying to view in Log Analytics.",
+            "displayLabel": "Provide details of the issue you are experiencing and any verbatim error message(s) you are receiving.",
+            "watermarkText": "Provide details of the issue you are experiencing and any verbatim error message(s) you are receiving.",
             "required": true,
             "useAsAdditionalDetails": false,
             "hints": [
                 {
-                    "text": "Provide the Log Analytics query being executed"
+                    "text": "Provide details of the kind of integration is being attempted"
                 },
                 {
-                    "text": "Provide details of results you are expecting"
+                    "text": "Provide timestamp and time zone of at least one instance of the issue occurring"
                 },
                 {
-                    "text": "If possible, attach a screenshot of the issue"
+                    "text": "If possible, attach a screenshot of the issue and any errors"
                 }
             ]
         },
