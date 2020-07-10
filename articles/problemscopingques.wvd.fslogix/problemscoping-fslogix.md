@@ -95,7 +95,6 @@
         {
           "value": "I don't know",
           "text": "I don't know"
-
         }
       ],
       "required": false
