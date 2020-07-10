@@ -34,7 +34,7 @@
             "watermarkText": "Provide the Log Analytics workspace name and the Azure subscription id where it exists.",
             "required": true,
             "useAsAdditionalDetails": false
-        }
+        },
         {
             "id": "problem_description",
             "order": 5,
