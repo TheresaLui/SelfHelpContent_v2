@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "00badc12-33e2-cba8-2338-e32770db904b",
+      "longDescription": "",
+      "shortDescription": "An allocation error was encountered and need assistance with my availability set",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "01ed3ac2-367f-aaa3-5464-fbbb9c7eade8",
       "longDescription": "",
       "shortDescription": "Resolve issues with custom images deployments in Azure",
