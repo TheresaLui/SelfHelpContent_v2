@@ -13,7 +13,8 @@ productPesIds="13186"
 cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="sb-performance-issue"
 schemaVersion="1"
-	ownershipId="AzureMessaging_Common"
+	ownershipId="AzureMessaging_Common",
+	"resourceRequired": true
 />
 # Performance and Latency Issues
 ---
