@@ -58,9 +58,7 @@ To update one of the locked parameters on the master server, please delete repli
 
 ### **Replication lag**
 
-Monitoring replication can be done through the **Replica Lag** metric available on replica servers. This metric reflects the time since the last transaction that was replayed on that replica. The master server does not show data for this metric. Alerts can be configured on this metric through Azure Monitor.
-
-If your replica server is experiencing an unexpected increase in replication lag, this may be due to changes in your workload. It is recommended to investigate any changes. Examples of patterns to look for include a large number of small transactions. Updating your workload pattern may help with decreasing the replication lag.
+Monitoring replication can be done through the **Replication lag in seconds** metric available on replica servers. This metric reflects the time since the last transaction that was replayed on that replica and is calculated using the *seconds_behind_master* metric available in the MySQL engine. Alerts can be configured on this metric through Azure Monitor.
 
 ### **Move replicas to other subscriptions**
 
