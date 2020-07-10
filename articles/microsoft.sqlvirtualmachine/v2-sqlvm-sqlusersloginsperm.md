@@ -42,6 +42,7 @@ ALTER SERVER ROLE sysadmin ADD MEMBER [Domain\login];
 GO
 
 Exit
+
 NET STOP MSSQLSERVER
 NET start MSSQLSERVER
 ```
