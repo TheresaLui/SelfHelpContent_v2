@@ -22,7 +22,7 @@
 1. Ensure [Azure Stack Hub is registered with Azure](https://docs.microsoft.com/azure/azure-stack/azure-stack-registration)
 1. [Download Azure Marketplace items](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item) to your local Azure Stack Marketplace.
 
-**Note:** In a disconnected environment, you cannot download Azure Marketplace items directly using the Azure Stack Hub portal. Follow the guide to [download Marketplace items for disconnected or a partially connected scenarios](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item#disconnected-or-a-partially-connected-scenario), by using the Marketplace syndication tool and then transferring the items to your Azure Stack Hub environment.
+**Note:** In a disconnected environment, you cannot download Azure Marketplace items directly using the Azure Stack Hub portal. Follow the guide to [download Marketplace items for disconnected or a partially connected scenarios](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item), by using the Marketplace syndication tool and then transferring the items to your Azure Stack Hub environment.
 
 ## **Recommended Documents**
 
