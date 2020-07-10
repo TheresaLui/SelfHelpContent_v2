@@ -41,7 +41,6 @@ SQLCMD -S VM_Name
 ```SQLCMD
 CREATE LOGIN [Domain\login] FROM WINDOWS; 
 GO
-
 ALTER SERVER ROLE sysadmin ADD MEMBER [Domain\login];
 GO
 
