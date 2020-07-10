@@ -79,7 +79,7 @@
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Please provide the version of Visual Studio and extensions that are being used",
-            "required": true,
+            "required": true
         },
 		{
 			"id": "deploy",
