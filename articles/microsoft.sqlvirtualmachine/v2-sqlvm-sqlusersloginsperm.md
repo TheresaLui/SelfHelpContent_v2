@@ -31,13 +31,13 @@ by opening [SQL virtual machines resource](https://docs.microsoft.com/azure/azur
 
 Alternatively, you can remote desktop to the VM as an administrator and do the following from command prompt with administrative privilege to add a new account to the default SQL instance as sysadmin. SQL Server will be restarted during this process. Please replace VM_Name, [Domain\login] with appropriate values for your environment.
 
-``` 
+```
 
 NET STOP MSSQLSERVER
 NET START MSSQLSERVER /m"SQLCMD" 
 sqlcmd -S VM_Name
 ```
-``` SQLCMD
+```SQLCMD
 
 CREATE LOGIN [Domain\login] FROM WINDOWS; 
 GO
