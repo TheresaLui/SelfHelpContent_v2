@@ -185,6 +185,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "22e49208-4a54-ddb9-7b39-23cad009afc3",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to the Azure Diagnostic Extension (VM)",
+      "searchTags": "Diagnostic",
+      "category": "Extension",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "240605e1-1510-255d-b490-cb95f582b1dc",
       "longDescription": null,
       "shortDescription": "Resolve errors with disks when starting or stopping a virtual machine",
