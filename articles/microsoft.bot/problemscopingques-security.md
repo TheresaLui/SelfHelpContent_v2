@@ -36,22 +36,7 @@
             "infoBalloonText": "Enter when the error stopped, or leave blank if the issue is ongoing.",
             "required": false
         },
-		{
-			"id": "kindofassistance",
-			"order": 3,
-			"controlType": "radioButtonGroup",
-			"displayLabel": "What kind of help do you need? ",
-			"radioButtonOptions": [{
-					"value": "3a",
-					"text": "Need advice on securing a bot "
-				}, {
-					"value": "3b",
-					"text": "Issue implementing security for a bot"
-				}
-			],
-			"required": true
-		},
-		{
+			{
 			"id": "advice",
 			"order": 5,
 			"controlType": "dropdown",
@@ -77,14 +62,13 @@
 				}
 				, {
 					"value": "5g",
-					"text": "others"
+					"text": "Others"
 				},
 				{
 					"value": "dont_know_answer",
 					"text": "Don't know"
 				}
 			],
-			"visibility": "kindofassistance == 3a",
 			"required": true
 		},
         {
