@@ -37,7 +37,7 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide details of exactly what you are trying to view in Log Analytics.",
             "watermarkText": "Provide details of exactly what you are trying to view in Log Analytics.",
