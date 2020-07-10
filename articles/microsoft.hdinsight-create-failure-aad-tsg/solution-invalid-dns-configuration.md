@@ -21,10 +21,10 @@
 
 We have checked the cluster and it seems that cluster creation failure is due to invalid DNS configuration.<br>
 <br>
-Please follow the recommended documents to check DNS setup<br>
+Please follow the recommended documents to check DNS setup.
 
 <!--/issueDescription-->
 
-## Recommended documents
+## **Recommended Documents**
 
-1. [Troubleshoot domain not found](https://docs.microsoft.com/azure/hdinsight/domain-joined/troubleshoot-domainnotfound)
+* [Troubleshoot domain not found](https://docs.microsoft.com/azure/hdinsight/domain-joined/troubleshoot-domainnotfound)
