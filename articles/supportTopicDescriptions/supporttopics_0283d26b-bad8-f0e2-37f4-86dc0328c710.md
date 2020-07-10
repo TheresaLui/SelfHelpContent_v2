@@ -336,7 +336,7 @@
     {
       "id": "d9faf7fc-ce65-01a1-ec0a-5bea4f733cfc",
       "longDescription": "",
-      "shortDescription": "Integrating Azure Key Vault with Azure Sercvices",
+      "shortDescription": "Integrating Azure Key Vault with Azure Services",
       "searchTags": "Azure;Integration",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
