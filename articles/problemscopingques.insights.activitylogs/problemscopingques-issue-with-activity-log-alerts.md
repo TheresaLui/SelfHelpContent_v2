@@ -19,25 +19,6 @@
     "title": "Issues with Activity Log Alerts",
     "fileAttachmentHint": "Please upload screenshots of all relevant details from the Azure portal.  Include any additional information which may help the support engineer troubleshoot your issue.",
     "formElements": [
-                {
-            "id": "action_group_id",
-            "order": 1,
-            "controlType": "dropdown",
-            "displayLabel": "Select the impacted Action Rule resource.",
-            "watermarkText": "Choose an action rule",
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/providers/microsoft.alertsmanagement/actionRules?api-version=2019-05-05-preview",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "Unable to get the list of Action rules",
-                    "text": "Unable to get the list of Action rules"
-                }
-            },
-            "required": true
-        },
         {
             "id": "problem_start_time",
             "order": 2,
@@ -71,9 +52,19 @@
                 }
             ]
         },
+                        {
+            "id": "problem_details",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Describe the problem that is being experienced with the alert rule.",
+            "watermarkText": "Describe the problem that is being experienced with the alert rule.",
+            "required": false,
+            "useAsAdditionalDetails": false,
+            "hints": []
+        },
                 {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide details of at least one Alert instance.",
             "watermarkText": "Provide details of at least one Alert instance.",
@@ -96,7 +87,7 @@
         },
         {
             "id": "additional_information",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",
