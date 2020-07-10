@@ -998,6 +998,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "fc2b9f80-e360-cb41-c4f5-9e71c4f9b53c",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "fd3c1878-732c-0f98-5b78-f3108ff0c26f",
       "longDescription": "",
       "shortDescription": "Creating or configuring a Linux failover cluster for a virtual machine running in Azure",
