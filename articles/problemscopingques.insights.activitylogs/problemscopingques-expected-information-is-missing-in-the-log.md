@@ -39,10 +39,10 @@
                     "text": "Provide the operation name for the expected events"
                 },
                 {
-                    "text:" "Provide the timestamp and time zone of when the events were expected"
+                    "text": "Provide the timestamp and time zone of when the events were expected"
                 },
                 {
-                    "text:" "Provide a copy/paste of the event JSON"
+                    "text": "Provide a copy/paste of the event JSON"
                 }
             ]
         },
