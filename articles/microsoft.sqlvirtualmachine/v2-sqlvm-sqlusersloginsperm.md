@@ -29,7 +29,7 @@ If you have not removed that administrator account from SQL instance later, you 
 You can also enable SQL authentication and set new user and password as sa, if you have not done it already, provided you have [SQL VM resource provider registered](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/sql-vm-resource-provider-register?tabs=azure-cli%2Cbash) with full mode. This can be done 
 by opening [SQL virtual machines resource](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/manage-sql-vm-portal#access-the-sql-virtual-machines-resource) and by selecting Security. VM deployed using SQL market place images by default has the resource provider registered with full mode. This will restart SQL Server instance.
 
-Alternatively, you can remote desktop to the VM as an administrator and do the following from command prompt with administrative privilege to add a new account to the default SQL instance as sysadmin. SQL Server will be restarted during this process. Please replace VM_Name, [Domain\login] with appropriate values for your environment.
+Alternatively, you can remote desktop to the VM as an administrator and do the following from command prompt with administrative privilege to add a new account to the default SQL instance as sysadmin. SQL Server will be restarted during this process. Please replace VM_Name and [Domain\login] with appropriate values for your environment.
 
 ```
 
