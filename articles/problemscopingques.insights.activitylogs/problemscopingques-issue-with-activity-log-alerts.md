@@ -52,7 +52,7 @@
                 }
             ]
         },
-                        {
+            {
             "id": "problem_details",
             "order": 4,
             "controlType": "multilinetextbox",
@@ -60,8 +60,7 @@
             "watermarkText": "Describe the problem that is being experienced with the alert rule.",
             "required": false,
             "useAsAdditionalDetails": false,
-            "hints": []
-        },
+            },
                 {
             "id": "problem_description",
             "order": 5,
