@@ -55,6 +55,7 @@ schemaVersion="1"
             "id": "problem_locationofcode",
             "order": 3,
             "controlType": "textbox",
+            "displayLabel": "Are you running the code from Azure or On-premise or external cloud provider? If Azure, please specify the Azure service name and specific resource name.",
             "required": true
         },
         {
