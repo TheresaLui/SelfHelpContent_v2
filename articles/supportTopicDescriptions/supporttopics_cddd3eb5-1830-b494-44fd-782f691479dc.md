@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1355ede6-1a5d-fed9-7ee3-fdf57927f88d",
+      "longDescription": "",
+      "shortDescription": "Common problems related to admin specific actions or issues within the VM itself",
+      "searchTags": "Admin",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "13ff4901-20a9-a149-bd79-9d30e2d84335",
       "longDescription": "",
       "shortDescription": "Resolve concerns dealing with shared disk",
@@ -198,10 +206,18 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "446adcca-c7da-6896-1928-d11130c6312c",
+      "longDescription": "",
+      "shortDescription": "Assistance with joining a domain",
+      "searchTags": "Admin",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "46d3b5cb-4fa8-12e0-c525-9c41d42dcb8b",
       "longDescription": "",
-      "shortDescription": "Disk throughput is lower than expected for the virtual machine",
-      "searchTags": "Performance",
+      "shortDescription": "Disk throughput or IOPS are lower than expected for the virtual machine",
+      "searchTags": "Performance;IOPS;throughput",
       "category": "Management",
       "useInDiagnoseAndSolve": "false"
     },
@@ -219,6 +235,14 @@
       "shortDescription": "Assistance with issues encountered when trying to resize a virtual machine",
       "searchTags": "Performance",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "4f744396-a2aa-b4df-ddac-eb26caad4d00",
+      "longDescription": "",
+      "shortDescription": "Assistance with managing a virtual machine running SQL in Azure",
+      "searchTags": "SQL",
+      "category": "Management",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -494,6 +518,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9277162e-9c05-41f5-49a3-fbbd5db5014f",
+      "longDescription": "",
+      "shortDescription": "Assistance with repository for a specific distro",
+      "searchTags": "Repo",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "92bf5bcc-b7cd-6a7f-add6-973b02755e4c",
       "longDescription": "",
       "shortDescription": "Questions about migrating virtual machines using Azure Site recovery ",
@@ -506,6 +538,30 @@
       "longDescription": "",
       "shortDescription": "Assistance with resizing the partition within the guest OS or the virtual disk",
       "searchTags": "Resizing",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "9593b47c-b73f-e3b0-5cc5-5a9ce6b50c1c",
+      "longDescription": "",
+      "shortDescription": "Issue with a local account within the VM",
+      "searchTags": "Account",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "9661955c-fa9d-7306-516e-7d4f9330c911",
+      "longDescription": "",
+      "shortDescription": "Assistance with managing a fail over cluster in Azure",
+      "searchTags": "Cluster",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "97c59b9b-ba59-7c33-b005-2ce77fa4a6cd",
+      "longDescription": "",
+      "shortDescription": "Covers issues with kernel upgrades for Linux operating systems",
+      "searchTags": "Kernel",
       "category": "Management",
       "useInDiagnoseAndSolve": "false"
     },
@@ -670,6 +726,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c01dc4d0-1080-9d9c-c70a-0af732fe8a9f",
+      "longDescription": "",
+      "shortDescription": "Covers issues with package management for Linux operating systems",
+      "searchTags": "Admin",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c334a302-aa5c-e950-5656-755d0e981c7e",
       "longDescription": "",
       "shortDescription": "Covers issues related to Planned Maintenance notifications in Azure",
@@ -795,6 +859,14 @@
       "shortDescription": "Covers issues with the virtual machine boot diagnostic extension",
       "searchTags": "boot diagnostic",
       "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "e1ba7a87-ee3e-97c1-79bb-bd8a0d45958d",
+      "longDescription": "",
+      "shortDescription": "Assistance with file system issue for a Linux VM",
+      "searchTags": "Admin",
+      "category": "Management",
       "useInDiagnoseAndSolve": "false"
     },
     {

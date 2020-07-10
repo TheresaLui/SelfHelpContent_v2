@@ -32,6 +32,6 @@ Based on the summary problem description, the issue you are encountering could b
 * [Configure how end-users consent to applications](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent) 
 * [Permissions and consent in the Microsoft identity platform endpoint](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
 
-### Action
+## **Action**
 
 You can click on the link below to directly navigate to Enterprise Applications to review and fix the configuration issue for the application: [Enterprise Applications](https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps/menuId/)

@@ -9,7 +9,8 @@
     articleId="metrics-cannot-pick-guest-os-namespace-and-metrics"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32677615,32684744,32684746,32684747,32684757,32684740"
+    supportTopicIds="32677615,32684744,32684736,32684737,32684738,32684739,32684740,32684746,32684747,32684757"
+
     resourceTags=""
     productPesIds="16250"
     cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
@@ -18,7 +19,7 @@
 
 # <-- metrics-cannot-pick-guest-os-namespace-and-metrics -->
 
-## I can't pick Guest OS namespace and metrics
+## Use this information if you can't pick Guest OS metrics in Azure Metrics Explorer or having troubles collecting metrics on computers running Windows or Linux
 
 Virtual machines and virtual machine scale sets have two categories of metrics: **Virtual Machine Host** metrics that are collected by the Azure hosting environment, and **Guest OS (classic)** metrics that are collected by the [monitoring agent](https://docs.microsoft.com/azure/azure-monitor/platform/agents-overview) running on your virtual machines. You install the monitoring agent by enabling [Azure Diagnostic Extension](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-overview).
 

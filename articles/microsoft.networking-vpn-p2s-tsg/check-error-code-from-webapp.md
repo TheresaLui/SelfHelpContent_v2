@@ -22,5 +22,3 @@
 <Need Info: need some steps here to tell how to check if the WEb App is giving error code>
 
 Do you have a specific error code from the WebApp? If not, you need to troubleshoot like the WebApp was a regular client.
-- Yes
-- No

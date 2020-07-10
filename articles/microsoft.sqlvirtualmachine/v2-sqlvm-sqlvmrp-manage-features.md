@@ -1,16 +1,16 @@
 <properties
 	pageTitle="Manage SQL VM Resource provider and features"
 	description="Manage SQL VM Resource provider and features"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32740084"
 	resourceTags="windowsSQL"
-	productPesIds="14745"
-	cloudEnvironments="public,fairfax, usnat, ussec"
+	productPesIds="14745,16342"
+	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
 	articleId="e4b15454-3556-4186-9793-92c030ff73f8"
 	ownershipId="AzureData_AzureSQLVM"
 />
@@ -32,7 +32,7 @@ You can execute the following commands in PowerShell to reinstall the extension:
 ```
 Remove-AzVMSqlServerExtension -ResourceGroupName "<ResourceGroupName>" -VMName "<VMName>" -Name "SqlIaasExtension" 
 
-Set-AzVMExtension -ResourceGroupName "<ResourceGroupName>" -Location "<VMLocation>" -VMName "<VMName>" -Name "SqlIaasExtension" -Publisher "Microsoft.SqlServer.Management" -ExtensionType "SqlIaaSAgent" -TypeHandlerVersion "2.0";
+Set-AzVMSqlServerExtension -VMName "<VMName>" -ResourceGroupName "<ResourceGroupName>" -Name "SQLIaasExtension" -Version "2.0" -Location "<VMLocation>"
 ```
 
 ### Cannot disable Automated Patching/Managed Backup

@@ -23,8 +23,3 @@
 ~~~powershell
 Reset-AzureVNetGateway -VNetname <name>
 ~~~
-
-Did the gateway Reset fix the customer issue?
-- Yes
-- No 
----
