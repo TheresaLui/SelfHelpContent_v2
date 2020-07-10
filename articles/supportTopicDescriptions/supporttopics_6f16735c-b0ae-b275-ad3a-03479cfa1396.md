@@ -1009,6 +1009,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "c0109de5-9bda-7008-ba20-44fd6e947891",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance finding a new region or size",
+      "searchTags": "allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c330d1a5-2f80-c72f-9bf5-df862a6629c3",
       "longDescription": null,
       "shortDescription": "Requests to help a virtual machine that is unresponsive to start or stop operations",
