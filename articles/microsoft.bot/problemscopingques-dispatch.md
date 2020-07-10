@@ -52,6 +52,28 @@
 			"infoBalloonText": "Check the version of Microsoft.Bot.Builder version used by your bot application. If it is 4.x.x, it is using SDK v4, and if it is 3.x.x, it is using SDK v3",
 			"required": true
 		},
+		{
+			"id": "language",
+			"order": 5,
+			"controlType": "dropdown",
+			"displayLabel": "Which SDK are you making use of?",
+			"dropdownOptions": [{
+					"value": "5a",
+					"text": "C#"
+				}, {
+					"value": "5b",
+					"text": "JavaScript"
+				}, {
+					"value": "5c",
+					"text": "Python"
+				},
+				{
+					"value": "dont_know_answer",
+					"text": "Don't know"
+				}
+			],
+			"required": true
+		},
         {
             "id": "problem_description",
             "order": 1000,
