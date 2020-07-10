@@ -246,6 +246,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5067298b-f8fc-ee7c-dd6d-cbad3a7b6c62",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "514ac81e-be99-54a4-eaf4-9370fc0be72c",
       "longDescription": "",
       "shortDescription": "Covers issues with AMD GPU driver extension",
