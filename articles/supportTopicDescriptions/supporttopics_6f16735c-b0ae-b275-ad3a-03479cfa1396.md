@@ -417,6 +417,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "55f2ff82-8c1b-2d18-bd7e-5b0cfafa929d",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "579bb510-ba46-26a3-19c7-3ce5e37bf1c5",
       "longDescription": null,
       "shortDescription": "Resolve errors when moving resources between subscriptions ",
