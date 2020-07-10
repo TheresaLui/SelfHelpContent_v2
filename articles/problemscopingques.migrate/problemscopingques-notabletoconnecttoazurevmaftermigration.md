@@ -16,8 +16,8 @@
 
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Not able to connect to the Azure VM after migration",
     "fileAttachmentHint": "",
     "formElements": [

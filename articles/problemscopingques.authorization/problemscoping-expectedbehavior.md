@@ -53,7 +53,7 @@
                     "text": "Unable to retrieve list of policy definition"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "builtinPolicyDefinition",
@@ -78,7 +78,7 @@
                     "text": "Unable to retrieve list of policy definition"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "policyAssignment",

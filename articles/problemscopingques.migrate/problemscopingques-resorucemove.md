@@ -14,8 +14,8 @@
 # ISV tools (non Microsoft tools)
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Resource move to another subscription",
     "fileAttachmentHint": "",
     "formElements": [

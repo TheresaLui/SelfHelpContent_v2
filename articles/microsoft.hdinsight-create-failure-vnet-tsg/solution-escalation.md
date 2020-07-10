@@ -19,7 +19,7 @@
 
 <!--issueDescription-->
 
-We have checked the cluster and already escalate this case to our experts to do furthur investigation.<br>
+We have checked the cluster and already escalated this for further investigation.<br>
 <br>
 When we have an update, we'll let you know<br>
 
