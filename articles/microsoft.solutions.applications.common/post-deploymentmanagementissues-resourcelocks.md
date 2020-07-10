@@ -10,7 +10,7 @@
 	supportTopicIds="32628300"
 	resourceTags=""
 	productPesIds="16651"
-	cloudEnvironments="public, fairfax, mooncake"	
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"	
     articleId="Post-DeploymentManagementIssues-Resourcelocks"
 	ownershipId="Compute_AzureManagedApplications"
 />

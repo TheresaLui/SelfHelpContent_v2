@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Escalation"
 	description="Escalation"
-	service="Microsoft.Network/"
+	service="Microsoft.Network"
 	resource="Microsoft.Network/frontDoors"
 	authors="JRMayberry"
 	ms.author="rimayber"

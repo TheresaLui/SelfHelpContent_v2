@@ -10,7 +10,7 @@
 	supportTopicIds="32628301"
 	resourceTags=""
 	productPesIds="16651"
-	cloudEnvironments="public, fairfax, mooncake"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
     articleId="post-deploymentmanagementissues-userauthrbac"
 	ownershipId="Compute_AzureManagedApplications"
 />

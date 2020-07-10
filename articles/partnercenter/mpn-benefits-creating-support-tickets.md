@@ -15,8 +15,7 @@
 	resourceTags="csp"
 	productPesIds="17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
-
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 
 # MPN - Creating technical support tickets on behalf of customers
@@ -26,11 +25,6 @@ Resources providing knowledge of how to create technical support ticket on behal
 ## **Recommended Documents**
 
 * [Providing technical support](https://docs.microsoft.com/partner-center/provide-technical-support)
-
 * [Technical Support for Microsoft Partners](https://support.microsoft.com/help/4020188/technical-support-for-microsoft-partners)
-
 * [Microsoft Partner Network Support contract activation and Access ID in Partner Center](https://support.microsoft.com/help/2904733/microsoft-partner-network-support-contract-activation)
-
 * [How many Partner support incidents are remaining?](https://support.microsoft.com/help/4559075/how-many-partner-support-incidents-are-remaining)
-
-

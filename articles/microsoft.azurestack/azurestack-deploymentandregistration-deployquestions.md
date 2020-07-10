@@ -21,11 +21,12 @@ If you’re interested in deploying an Azure Stack integrated system, you should
 
 ## **Recommended Steps**
 
+1. Understand the [end-to-end deployment experience](https://docs.microsoft.com/azure-stack/operator/azure-stack-customer-journey)
 1. Review [datacenter integration considerations for Azure Stack integrated systems](https://docs.microsoft.com/azure/azure-stack/azure-stack-datacenter-integration)
-2. Use the [Azure Stack capacity planner spreadsheet](https://docs.microsoft.com/azure/azure-stack/capacity-planning-spreadsheet) to help you make informed decisions with respect to planning capacity
-3. Discuss with your Azure Stack hardware vendor while collecting pre-deployment information
-4. Review the worksheets contained in the planner and use your scenario details to match the system configurations being considered for use or purchase
-5. After initial deployment, you can [configure multi-tenancy on Azure Stack](https://docs.microsoft.com/azure-stack/operator/azure-stack-enable-multitenancy) to allow users from multiple Azure Active Directory (Azure AD) tenants to use services on Azure Stack
+1. Decide how to plan capacity with the [Azure Stack capacity planner spreadsheet](https://docs.microsoft.com/azure/azure-stack/capacity-planning-spreadsheet) 
+1. Collect pre-deployment information with your Azure Stack hardware vendor
+1. Review the worksheets contained in the planner and use your scenario details to match the system configurations being considered for use or purchase
+1. After initial deployment, you can [configure multi-tenancy on Azure Stack](https://docs.microsoft.com/azure-stack/operator/azure-stack-enable-multitenancy) to allow users from multiple Azure Active Directory (Azure AD) tenants to use services on Azure Stack
 
 ## **Recommended Documents**
 

@@ -5,7 +5,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32739968"
                 productPesIds="17080"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="08d87070-129c-4fa9-8dd4-9477845b1330"
 	            ownershipId="Azure_VMwareSolution_Content"
@@ -32,7 +32,7 @@
             "required": true,
 	    "useAsAdditionalDetails": true,
 	    "hints": [{
-					"text": "Which operation are you trying to perform?"
+					"text": "Please describe the operation you trying to perform"
 				}]
         },
         {

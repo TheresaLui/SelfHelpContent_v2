@@ -4,10 +4,10 @@
     ms.author="t-reutam"
     authors="ReutAmior"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32606571"
+    supportTopicIds="32740746, 32740748"
     productPesIds="16535"
     articleId="problemscopingques-video-indexer-upload"
-    cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+    cloudEnvironments="public,blackForest,fairfax, usnat, ussec"
     schemaVersion="1"
     ownershipId="StorageMediaEdge_Media_VI"
 />

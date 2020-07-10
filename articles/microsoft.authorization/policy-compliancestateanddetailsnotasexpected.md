@@ -26,18 +26,19 @@ After the initial scan, policy engine will have another full scan every 24 hours
 
 * **Triggering azure policy compliance**
 
-The first compliance scan can take time to be triggered in which it will be in 'Not Started' phase. Please allow about _15 minutes_ for the compliance scan to be triggered and get back compliance results. Compliance scan is triggered once it receives notification of resource change and a new scan every 24 hours. If you do not see any results within 24 hours, please create a support ticket.
-You can trigger a on demand scan using API only, please refer [here](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data#on-demand-evaluation-scan).
+The first compliance scan can take time to be triggered in which it will be in 'Not Started' phase. Please allow about _30 minutes_ for  compliance results. Compliance scan is triggered once it receives notification of resource change and a new scan every 24 hours. If you do not see any results within 24 hours, please create a support ticket.
+You can trigger an on demand scan using REST API and PowerShell, please refer [here](https://docs.microsoft.com/azure/governance/policy/how-to/get-compliance-data#on-demand-evaluation-scan).
 
 * **Compliance not correct/not as expected debugging**
 
-If your compliance is not correct/ not as expected, please check the compliance details. Click on the rightmost three dots on the resource bar to see the non-compliance details. Please check that the expected results are what is expected and modify the definition or assignment as needed.  If this is a built-in policy, be sure to have the correct parameters and the assignment is to the correct scope.
+If your compliance is not correct/ not as expected, please check the compliance details. Ensure the expected results are correct and modify the definition or assignment as needed.  If this is a built-in policy, be sure to have the correct parameters and the assignment is to the correct scope.
 If your compliance shows 0/0 resources, this is because the policy compliance didn't find any resources that match your definition. Please revise your definition.
 Keep in mind that for deployIfNotExist and Modify policies, existing resources will not be automatically remediated. You need to create a remediation task.
 To find help with definition debugging a policy, please refer to support topics section: Authoring a policy.
 
 * **Azure Security Center policies compliance**
-Azure Security Center's (ASC) policies are built on top of the Azure Policy platform. However, ASC policies have their own management, hence we recommend managing ASC policies on ASC. Policy does not evaluate ASC resources but just report back information from the Microsoft.Security RP. Therefore, if the compliance of ASC Policies are not correct, please route your questions to ASC.
+
+Azure Security Center's (ASC) policies are built on top of the Azure Policy platform. However, ASC policies have their own management, hence we recommend managing ASC policies on ASC. Policy does not evaluate ASC resources but just report back information from the Microsoft.Security Resource Provider. Therefore, if the compliance of ASC Policies are not correct, please route your questions to ASC.
 
 ## **Recommended Documents**
 

@@ -9,7 +9,7 @@
     articleId="insights-for-vm-extension-install-Azurevm"
     productPesIds="17081"
     supportTopicIds="32738506"
-    cloudEnvironments="public, blackForest, fairfax, mooncake"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
  />
 
