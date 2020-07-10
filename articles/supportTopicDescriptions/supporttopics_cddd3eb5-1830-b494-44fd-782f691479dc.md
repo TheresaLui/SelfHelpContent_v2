@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "188f913d-c8a6-0598-8c62-ef8aa9d96920",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1ae095b6-523e-28e8-1f5d-db00a4c8217b",
       "longDescription": "",
       "shortDescription": "Memory usage is higher than expected for the virtual machine",
