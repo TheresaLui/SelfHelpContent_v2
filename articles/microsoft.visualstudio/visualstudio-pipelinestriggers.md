@@ -33,7 +33,7 @@ Follow through all the steps before you create a support ticket. If you do need 
 	- [GitHub Enterprise](https://docs.microsoft.com/azure/devops/pipelines/repos/github-enterprise#failing-triggers)
 	- [BitBucket Cloud](https://docs.microsoft.com/azure/devops/pipelines/repos/bitbucket#failing-triggers)
 	- [BitBucket server](https://docs.microsoft.com/azure/devops/pipelines/repos/on-premises-bitbucket#failing-triggers)
-	- [TFVC](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/tfvc#ci-triggers)
+	- [TFVC](https://docs.microsoft.com/azure/devops/pipelines/repos/tfvc#ci-triggers)
 	- [Subversion](https://docs.microsoft.com/azure/devops/pipelines/repos/subversion#failing-triggers)
 	
 * I am using **scheduled triggers** in my **YAML pipeline**, and the pipeline is not being triggered on schedule

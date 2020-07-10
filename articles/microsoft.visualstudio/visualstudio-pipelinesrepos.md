@@ -30,7 +30,7 @@ Follow through all the steps before you create a support ticket. If you do need 
 
 	- [GitHub Enterprise](https://docs.microsoft.com/azure/devops/pipelines/repos/github-enterprise)
 	- [BitBucket server](https://docs.microsoft.com/azure/devops/pipelines/repos/on-premises-bitbucket)
-	- [Subversion](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/subversion)
+	- [Subversion](https://docs.microsoft.com/azure/devops/pipelines/repos/subversion)
 
 * My pipeline is not being triggered when I make an update to the source code
 
