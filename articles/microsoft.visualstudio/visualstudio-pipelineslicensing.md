@@ -38,7 +38,7 @@ Are you facing one of these common problems?
 
 	- By purchasing Microsoft-hosted parallel jobs, you can increase your timeouts up to 6 hours per job. The default timeout is still 60 minutes. 
 	- To increase the timeout in YAML pipelines, specify [timeoutInMinutes](https://docs.microsoft.com/azure/devops/pipelines/process/phases?view=azure-devops&tabs=yaml#timeouts) property in the YAML file.
-	- To increase the timeout in classic pipelines, specify the value of timeout in [Options tab](https://docs.microsoft.comazure/devops/pipelines/process/phases?view=azure-devops&tabs=classic#timeouts).
+	- To increase the timeout in classic pipelines, specify the value of timeout in [Options tab](https://docs.microsoft.com/azure/devops/pipelines/process/phases?view=azure-devops&tabs=classic#timeouts).
 
 * My pipelines are **stuck** waiting in a queue although I have a number of parallel jobs
 

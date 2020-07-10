@@ -22,7 +22,7 @@
 
 ## **Recommended Steps**
 
-Your source code may be in an Azure Repos, GitHub, BitBucket, or Subversion. You may be having trouble with CI, PR, CD, or pipeline-to-pipeline triggers. Select the appropriate problem and the repository type below:
+Your source code may be in an Azure Repos, GitHub, BitBucket, or Subversion. You may be having trouble with CI, CD, pull request, or pipeline-to-pipeline triggers. Select the appropriate problem and the repository type below:
 
 Follow through all the steps before you create a support ticket. If you do need to create a ticket after completing the diagnostic steps, provide information about the path you took and results of the steps you ran in your ticket to expedite the resolution of your problem.
 
