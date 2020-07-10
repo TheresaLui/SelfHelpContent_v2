@@ -977,6 +977,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "be9a1d07-3471-0a7e-16da-cbc2fc89e801",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bf5eafd5-a438-6e15-458f-e614453346a2",
       "longDescription": null,
       "shortDescription": "Covers issues related to Planned Maintenance notifications in Azure",
