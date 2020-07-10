@@ -1,22 +1,22 @@
 <properties
-	pageTitle="aci cannot access metrics logs or events"
-	description="aci cannot access metrics logs or events"
+	pageTitle="aci unable to connect"
+	description="aci unable to connect"
 	ms.author="macolso"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32742283"
+	supportTopicIds="32588399"
 	productPesIds="16326"
 	cloudEnvironments="public,fairfax"
 	schemaVersion="1"
-	articleId="problemscopingques-acimetricslogsevents"
+	articleId="problemscopingques-aciunabletoconnect"
 	ownershipId="compute-containerinstances-cs"
 />
-# ACI cannot access metrics, logs, or events
+# Unable to connect to ACI
 ---
 {
    "$schema":"SelfHelpContent",
    "resourceRequired":true,
    "subscriptionRequired":true,
-   "title":"ACI cannot access metrics logs or events",
+   "title":"Unable to connect to ACI",
    "formElements":[
       {
          "id":"problem_start_time",
@@ -44,26 +44,29 @@
          "watermarkText":"Always provide the full error text from Azure Container Instances when possible."
       },
       {
-         "id":"applications_on_vm",
+         "id":"connection_mechanism",
          "order":4,
-         "required":true,
          "controlType":"multiselectdropdown",
-         "displayLabel":"Select the diagnostic(s) you're having difficulty with:",
+         "displayLabel":"Select the applications running on your virtual machine",
          "dropdownOptions":[
             {
-               "value":"Metrics",
-               "text":"Metrics"
+               "value":"Public IP",
+               "text":"Public IP"
             },
             {
-               "value":"Container logs (std out/std err)",
-               "text":"Container logs (std out/std err)"
+               "value":"Private IP",
+               "text":"Private IP"
             },
             {
-               "value":"Platform events",
-               "text":"Platform events"
+               "value":"SSH into container",
+               "text":"SSH into container"
+            },
+            {
+               "text":"Other, don't know or not applicable",
+               "value":"dont_know_answer"
             }
          ],
-         "required":false
+         "required":true
       }
    ]
 }

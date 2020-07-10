@@ -1,22 +1,22 @@
 <properties
-	pageTitle="aci cannot access metrics logs or events"
-	description="aci cannot access metrics logs or events"
+	pageTitle="aci network connectivity"
+	description="aci network connectivity"
 	ms.author="macolso"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32742283"
+	supportTopicIds="32588398"
 	productPesIds="16326"
 	cloudEnvironments="public,fairfax"
 	schemaVersion="1"
-	articleId="problemscopingques-acimetricslogsevents"
+	articleId="problemscopingques-acinetworkconnectivity"
 	ownershipId="compute-containerinstances-cs"
 />
-# ACI cannot access metrics, logs, or events
+# ACI network connectivity
 ---
 {
    "$schema":"SelfHelpContent",
    "resourceRequired":true,
    "subscriptionRequired":true,
-   "title":"ACI cannot access metrics logs or events",
+   "title":"ACI network connectivity",
    "formElements":[
       {
          "id":"problem_start_time",
@@ -38,32 +38,39 @@
          "id":"problem_description",
          "order":3,
          "controlType":"multilinetextbox",
+	 "useAsAdditionalDetails":true,
          "displayLabel":"Please provide additional context about the issue you are encountering.",
          "required":true,
-         "useAsAdditionalDetails":true,
          "watermarkText":"Always provide the full error text from Azure Container Instances when possible."
       },
       {
-         "id":"applications_on_vm",
+         "id":"attempted_connection",
          "order":4,
+         "controlType":"multilinetextbox",
+         "displayLabel":"Where are you trying to connect to?",
          "required":true,
-         "controlType":"multiselectdropdown",
-         "displayLabel":"Select the diagnostic(s) you're having difficulty with:",
-         "dropdownOptions":[
+         "watermarkText":"Examples: another Azure resource via service endpoint, external IP, etc."
+      },
+      {
+         "id":"radio_button",
+         "order":5,
+         "controlType":"radioButtonGroup",
+         "displayLabel":"Can you connect to the desired endpoint with a mechanism other than ACI container groups?",
+         "radioButtonOptions":[
             {
-               "value":"Metrics",
-               "text":"Metrics"
+               "value":"Yes",
+               "text":"Yes"
             },
             {
-               "value":"Container logs (std out/std err)",
-               "text":"Container logs (std out/std err)"
+               "value":"No",
+               "text":"No"
             },
             {
-               "value":"Platform events",
-               "text":"Platform events"
+               "value":"Unsure",
+               "text":"Unsure"
             }
          ],
-         "required":false
+         "required":true
       }
    ]
 }

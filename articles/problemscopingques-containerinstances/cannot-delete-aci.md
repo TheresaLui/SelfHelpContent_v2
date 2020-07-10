@@ -1,22 +1,22 @@
 <properties
-	pageTitle="aci cannot access metrics logs or events"
-	description="aci cannot access metrics logs or events"
+	pageTitle="aci unable to delete"
+	description="aci unable to delete"
 	ms.author="macolso"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32742283"
+	supportTopicIds="32588396"
 	productPesIds="16326"
 	cloudEnvironments="public,fairfax"
 	schemaVersion="1"
-	articleId="problemscopingques-acimetricslogsevents"
+	articleId="problemscopingques-aciunabletodelete"
 	ownershipId="compute-containerinstances-cs"
 />
-# ACI cannot access metrics, logs, or events
+# Unable to delete ACI
 ---
 {
    "$schema":"SelfHelpContent",
    "resourceRequired":true,
    "subscriptionRequired":true,
-   "title":"ACI cannot access metrics logs or events",
+   "title":"Unable to delete ACI",
    "formElements":[
       {
          "id":"problem_start_time",
@@ -44,26 +44,55 @@
          "watermarkText":"Always provide the full error text from Azure Container Instances when possible."
       },
       {
-         "id":"applications_on_vm",
+         "id":"radio_button",
          "order":4,
-         "required":true,
-         "controlType":"multiselectdropdown",
-         "displayLabel":"Select the diagnostic(s) you're having difficulty with:",
-         "dropdownOptions":[
+         "controlType":"radioButtonGroup",
+         "displayLabel":"Are you deploying your container group into an Azure Virtual Network",
+         "radioButtonOptions":[
             {
-               "value":"Metrics",
-               "text":"Metrics"
+               "value":"Yes",
+               "text":"Yes"
             },
             {
-               "value":"Container logs (std out/std err)",
-               "text":"Container logs (std out/std err)"
+               "value":"No",
+               "text":"No"
             },
             {
-               "value":"Platform events",
-               "text":"Platform events"
+               "value":"Unsure",
+               "text":"Unsure"
             }
          ],
-         "required":false
+         "required":true
+      },
+      {
+         "id":"stuck_resources",
+         "order":5,
+         "visibility":"radio_button == Yes",
+         "controlType":"multiselectdropdown",
+         "displayLabel":"What resources are you having difficulty deleting?",
+         "dropdownOptions":[
+            {
+               "value":"Container group",
+               "text":"Container group"
+            },
+            {
+               "value":"Network profile",
+               "text":"Network profile"
+            },
+            {
+               "value":"Subnet",
+               "text":"Subnet"
+            },
+            {
+               "text":"Virtual network",
+               "value":"Virtual network"
+            },
+            {
+               "text":"I don't know",
+               "value":"dont_know_answer"
+            }
+         ],
+         "required":true
       }
    ]
 }
