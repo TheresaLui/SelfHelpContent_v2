@@ -1,22 +1,22 @@
 <properties
-	articleId="problemscopingques-i-cannot-configure-export-of-activity-log"
-	pageTitle="I can't configure Export of Activity Log"
-	description="I can't configure Export of Activity Log"
+	articleId="problemscopingques-expected-information-is-missing-in-the-log"
+	pageTitle="Expected information is missing in the log"
+	description="Expected information is missing in the log"
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32684688,32684690,32684689"
+	supportTopicIds="32684691"
 	productPesIds="16251"
 	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_AzureMetrics"
 />
-# I can't configure Export of Activity Log
+# Expected information is missing in the log
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "I can't configure Export of Activity Log",
+    "title": "Expected information is missing in the log",
     "fileAttachmentHint": "If possible, please upload screenshots and additional attachments which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
@@ -30,19 +30,34 @@
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide the verbatim error message(s) you are receiving.",
-            "watermarkText": "Provide the verbatim error message(s) you are receiving.",
+            "displayLabel": "Provide details of the Activity Log event.",
+            "watermarkText": "Provide details of the Activity Log event.",
             "required": true,
-            "useAsAdditionalDetails": true,
+            "useAsAdditionalDetails": false,
             "hints": [
                 {
-                    "text": "If possible, attach a screenshot of the error"
+                    "text": "Provide the operation name for the expected events"
+                },
+                {
+                    "text:" "Provide the timestamp and time zone of when the events were expected"
+                },
+                {
+                    "text:" "Provide a copy/paste of the event JSON"
                 }
             ]
         },
+                {
+            "id": "expected_information",
+            "order": 7,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide details of what was expected but is missing from the event.",
+            "watermarkText": "Provide details of what was expected but is missing from the event.",
+            "required": true,
+            "useAsAdditionalDetails": false
+        }
         {
             "id": "additional_information",
-            "order": 6,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional information about the issue.",
             "watermarkText": "Provide any additional information about the issue.",

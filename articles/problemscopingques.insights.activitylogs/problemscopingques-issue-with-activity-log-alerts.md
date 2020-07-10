@@ -9,7 +9,7 @@
 	productPesIds="16251"
 	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	ownershipId="AzureMonitoring_ActionGroup"
+	ownershipId="AzureMonitoring_AzureMetrics"
 />
 # Issues with Activity Log Alerts
 ---
@@ -68,7 +68,7 @@
             "displayLabel": "Provide details of at least one Alert instance.",
             "watermarkText": "Provide details of at least one Alert instance.",
             "required": true,
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "hints": [
                 {
                     "text": "Provide the Alert id as seen in Azure portal"

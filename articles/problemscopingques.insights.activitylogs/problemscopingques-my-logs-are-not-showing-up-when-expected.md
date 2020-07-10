@@ -1,22 +1,22 @@
 <properties
-	articleId="problemscopingques-i-cannot-configure-export-of-activity-log"
-	pageTitle="I can't configure Export of Activity Log"
-	description="I can't configure Export of Activity Log"
+	articleId="problemscopingques-my-logs-are-not-showing-up-when-expected"
+	pageTitle="My logs are not showing up when expected"
+	description="My logs are not showing up when expected"
 	authors="neilghuman"
 	ms.author="neghuman"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32684688,32684690,32684689"
+	supportTopicIds="32684696"
 	productPesIds="16251"
 	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_AzureMetrics"
 />
-# I can't configure Export of Activity Log
+# My logs are not showing up when expected
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "I can't configure Export of Activity Log",
+    "title": "My logs are not showing up when expected",
     "fileAttachmentHint": "If possible, please upload screenshots and additional attachments which may help the support engineer troubleshoot your issue.",
     "formElements": [
         {
@@ -30,13 +30,19 @@
             "id": "problem_description",
             "order": 5,
             "controlType": "multilinetextbox",
-            "displayLabel": "Provide the verbatim error message(s) you are receiving.",
-            "watermarkText": "Provide the verbatim error message(s) you are receiving.",
+            "displayLabel": "Provide details of events that were expected.",
+            "watermarkText": "Provide details of events that were expected.",
             "required": true,
-            "useAsAdditionalDetails": true,
+            "useAsAdditionalDetails": false,
             "hints": [
                 {
-                    "text": "If possible, attach a screenshot of the error"
+                    "text": "Provide the resources related to the expected events"
+                },
+                {
+                    "text": "Provide the operation name for the expected events"
+                },
+                {
+                    "text": "Provide the timestamp and time zone of when the events were expected"
                 }
             ]
         },
