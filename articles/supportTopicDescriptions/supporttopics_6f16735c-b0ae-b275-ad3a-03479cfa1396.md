@@ -849,6 +849,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "a1aefb3f-3405-47dc-e3b8-43c38a5e6891",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a2e34c4b-a2ba-2cb2-5e46-ee867cff565f",
       "longDescription": null,
       "shortDescription": "Assistance for website in your subscription that has been defaced",
