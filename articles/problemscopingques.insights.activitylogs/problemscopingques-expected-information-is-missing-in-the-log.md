@@ -46,7 +46,7 @@
                 }
             ]
         },
-                {
+            {
             "id": "expected_information",
             "order": 7,
             "controlType": "multilinetextbox",
@@ -54,7 +54,7 @@
             "watermarkText": "Provide details of what was expected but is missing from the event.",
             "required": true,
             "useAsAdditionalDetails": false
-        }
+        },
         {
             "id": "additional_information",
             "order": 9,
