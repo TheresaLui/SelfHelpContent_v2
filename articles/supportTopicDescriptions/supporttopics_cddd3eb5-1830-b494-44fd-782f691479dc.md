@@ -302,6 +302,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "55b98978-62f8-9c90-589a-4e63c05a27d1",
+      "longDescription": "",
+      "shortDescription": "An allocation error was encountered and need assistance with availability zones. ",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "562c48c7-c68f-0a96-99d2-8d13f3554ce7",
       "longDescription": "",
       "shortDescription": "Azure Backup is encountering a failure when backing up your virtual machine using Azure Backup",
