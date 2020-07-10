@@ -694,6 +694,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b8848060-d17e-78e7-2856-5362e02cc3a8",
+      "longDescription": "",
+      "shortDescription": "An allocation error was encountered and need assistance with finding a new size or region",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bae68529-51c1-d9b0-9e84-157fe59ac631",
       "longDescription": "",
       "shortDescription": " Request to increase the subscription limit",
