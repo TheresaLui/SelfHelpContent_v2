@@ -10,7 +10,7 @@
     articleId="insights-for-container-enableageent-hybrid cluster"
     productPesIds="17083"
     supportTopicIds="32740208, 32740209"
-    cloudEnvironments="public,fairfax"
+   cloudEnvironments="public, blackForest, fairfax, mooncake"
     ownershipId="AzureMonitoring_Essentials"
  />
 
@@ -21,5 +21,5 @@
 Most customers resolved their questions about enabling monitoring for hybrid cluster using the below links.
 
 * [Configure hybrid Kubernetes clusters with Azure Monitor for Containers](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-hybrid-setup#enable-monitoring)
-* [Troubleshooting errors related to monitoring for your hybrid Kubernetes cluster ](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-hybrid-setup#troubleshooting)
+* [Troubleshoot errors related to monitoring for hybrid Kubernetes cluster](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-hybrid-setup#troubleshooting)
 * [Troubleshooting Azure Monitor for Containers ](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-troubleshoot)

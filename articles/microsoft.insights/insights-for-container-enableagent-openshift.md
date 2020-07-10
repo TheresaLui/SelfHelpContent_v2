@@ -10,11 +10,12 @@
     articleId="insights-for-container-enableageent-openshift"
     productPesIds="17083"
     supportTopicIds="32740207"
-    cloudEnvironments="public,fairfax"
+   cloudEnvironments="public, blackForest, fairfax, mooncake"
     ownershipId="AzureMonitoring_Essentials"
  />
 
 # I am having issues enabling monitoring for Azure Red Hat OpenShift 
+
 ## **Recommended Documents**
 
 Most customers resolved their questions about enabling monitoring for OpenShift cluster using the below links.

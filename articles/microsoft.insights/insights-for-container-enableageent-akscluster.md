@@ -10,7 +10,7 @@
     articleId="insights-for-container-enableageent-akscluster"
     productPesIds="17083"
     supportTopicIds="32740206"
-    cloudEnvironments="public,fairfax"
+    cloudEnvironments="public, blackForest, fairfax, mooncake"
     ownershipId="AzureMonitoring_Essentials"
  />
 
