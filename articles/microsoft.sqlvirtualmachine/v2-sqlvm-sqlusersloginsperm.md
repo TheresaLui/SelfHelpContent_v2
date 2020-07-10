@@ -30,7 +30,8 @@ You can also enable SQL authentication and set new user and password as sa, if y
 by opening [SQL virtual machines resource](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/manage-sql-vm-portal#access-the-sql-virtual-machines-resource) and by selecting Security. VM deployed using SQL market place images by default has the resource provider registered with full mode. This will restart SQL Server instance.
 
 Alternatively, you can remote desktop to the VM as an administrator and do the following from command prompt with administrative privilege to add a new account to the default SQL instance as sysadmin. SQL Server will be restarted during this process. Please replace VM_Name, [Domain\login] with appropriate values for your environment.
-```
+``` 
+
 NET STOP MSSQLSERVER
 NET START MSSQLSERVER /m"SQLCMD" 
 sqlcmd -S VM_Name
