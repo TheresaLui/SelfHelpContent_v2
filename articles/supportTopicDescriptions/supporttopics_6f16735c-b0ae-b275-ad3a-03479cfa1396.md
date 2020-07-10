@@ -961,6 +961,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "b748565d-1033-ede0-045c-079c3641af1f",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance with the availability set",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b82154fe-4659-31f6-584e-fcc90408a34a",
       "longDescription": null,
       "shortDescription": "Covers issues related to security concerns with virtual machines in Azure",
