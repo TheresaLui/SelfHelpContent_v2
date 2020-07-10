@@ -22,5 +22,4 @@
 * [Event Hub Authentication and Authorization issues troubleshooting guide](https://docs.microsoft.com/azure/event-hubs/troubleshoot-authentication-authorization)<br>
 * [Event Hub Authentication and security model](https://docs.microsoft.com/azure/event-hubs/event-hubs-authentication-and-security-model-overview)<br>
 * [RBAC for Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-role-based-access-control)<br>
-* [Create or update Authorization Rule](https://docs.microsoft.com/rest/api/eventhub/eventhubs/createorupdateauthorizationrule)<br>
 * [Use Event Hubs with managed identities](https://docs.microsoft.com/azure/event-hubs/event-hubs-managed-service-identity#use-event-hubs-with-managed-identities-for-azure-resources)
