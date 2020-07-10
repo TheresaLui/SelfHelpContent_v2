@@ -10,7 +10,7 @@
 	supportTopicIds="32602734"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="79e7465d-f9b4-4e70-a715-59de1a39b376"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />

@@ -9,7 +9,7 @@
     articleId="insights-for-vm-understand-specific-metric"
     productPesIds="17081"
     supportTopicIds="32738510"
-    cloudEnvironments="public, blackForest, fairfax, mooncake"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
  />
 

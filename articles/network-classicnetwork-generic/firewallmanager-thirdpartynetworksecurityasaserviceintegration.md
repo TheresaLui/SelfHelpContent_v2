@@ -10,7 +10,7 @@
     supportTopicIds="32690529"
     resourceTags=""
     productPesIds="16922"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="third-party-network-security-as-a-service-integration"
 	ownershipId="CloudNet_AzureFirewallManager"
 />

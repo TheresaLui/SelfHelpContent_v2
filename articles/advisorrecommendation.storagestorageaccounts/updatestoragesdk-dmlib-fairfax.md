@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "7e9fbfe8-1234-435c-b114-424445c9be6f",
   "dataSourceMetadata": {
-    "streamNamespace": "AzureStorage.Data.AzureStorageAdvisorUseLatestVersionSDK_DMLib_Fairfax",
+    "streamNamespace": "AzureStorage.Data.AzureStorageAdvisorUseLatestVersionSDK_DMLib_FairfaxV2",
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
@@ -24,7 +24,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "UpdateStorageDataMovementSDK",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "owner": {
     "email": "yinfan@microsoft.com",
     "icm": {
@@ -34,7 +34,7 @@
     },
     "serviceTreeId": "734379f9-2d2c-48d4-a52a-5c509f699de4"
   },
-  "version": 1,
+  "version": 2,
   "learnMoreLink": "https://aka.ms/AA5wtca",
   "description": "Upgrade your Storage Client Library to the latest version for better reliability and performance",
   "longDescription": "The latest version of Storage Client Library/ SDK contains fixes to issues reported by customers and proactively identified through our QA process. The latest version also carries reliability and performance optimization in addition to new features that can improve your overall experience using Azure Storage.",

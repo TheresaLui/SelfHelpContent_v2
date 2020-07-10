@@ -13,7 +13,7 @@
 	supportTopicIds="32688682"
 	resourceTags=""
 	productPesIds="16867"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="AzureEA_SelfDeflectionContent"
 />
 
@@ -48,7 +48,7 @@ To view your negotiated Price Sheet in the Azure EA portal, go to Reports > Clic
 
 If you're an indirect customer, contact your partner to get their pricing sheet and details about pricing.
 
-If you require special pricing and Azure Commitment Discount (ACD) amendments, you need to discuss them with your account team. The Azure Ops team can apply ACD after an amendment has been processed by the Business Desk ​and requested to Azure Ops team. ACD discount is only applied to the current month. Any previous months are compensated by backdated credit.
+If you require special pricing and Azure Commitment Discount (ACD) amendments, you need to discuss them with your account team. The Azure Ops team can apply ACD after an amendment has been processed by the Business Desk ​and requested to Azure Ops team. ACD discount is only applied to the current month. Any previous months are compensated by backdated credit.
 
 ## **Recommended Documents**
 

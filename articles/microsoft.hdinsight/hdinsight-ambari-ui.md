@@ -10,11 +10,13 @@
     supportTopicIds="32636419"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-ambari-ui"
 	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight Ambari UI is not loading Troubleshooting
+
+When Ambari database usage is high, the Ambari UI may not load. This is a transient issue and the Ambari UI typically loads when usage is reduced.
 
 ## **Recommended Documents**
 

@@ -12,7 +12,7 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Virtual network gateway has switched over to a backup instance

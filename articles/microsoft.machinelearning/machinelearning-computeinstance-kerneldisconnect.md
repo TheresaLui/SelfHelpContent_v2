@@ -10,7 +10,7 @@
     supportTopicIds="32690895"
     resourceTags="notebook,computeinstance"
     productPesIds="16644"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
     articleId="microsoft.machinelearning.computeinstance.kerneldisconnect"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />

@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32684015"
     productPesIds="15621"
-    cloudEnvironments="Public, Fairfax"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-orcas-quota-mariadb"
     ownershipId="AzureData_AzureDatabaseforMariaDB"
@@ -65,7 +65,7 @@
             "visibility": "quotaType != null && quotaType == enablelocation",
             "order": 3,
             "controlType": "numerictextbox",
-            "displayLabel": "Capacity requesed (in VCores)",
+            "displayLabel": "Capacity requested (in VCores)",
             "infoBalloonText": "<a href='https://docs.microsoft.com/azure/mariadb/concepts-pricing-tiers'>Learn more</a>.",
             "required": true
         },

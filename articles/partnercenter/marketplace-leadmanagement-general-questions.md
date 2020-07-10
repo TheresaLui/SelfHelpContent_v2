@@ -10,12 +10,12 @@
 	articleId="marketplace_leadmanagement_faq"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689393,32689391,32689392,32675144,32689388,32689396,32675146,32689387,32689386,32689385,32689384,32689383,32689382,32689381"
+	supportTopicIds="32728033"
     clientIds="partnercenter"
 	resourceTags="marketplace"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17006"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # Commercial marketplace - Lead management configuration

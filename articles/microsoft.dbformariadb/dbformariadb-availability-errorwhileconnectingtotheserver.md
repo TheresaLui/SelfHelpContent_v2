@@ -10,7 +10,7 @@
     supportTopicIds="32640118"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="bb62de23-25af-4ae3-9740-7a7670636337"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
@@ -37,6 +37,7 @@ If connection issues last for more than a couple minutes, the root cause may be 
 * Follow [connection recommendations](https://docs.microsoft.com/azure/mariadb/connect-workbench) on computers hosting your client programs
 * Fix [incorrect connection strings](https://docs.microsoft.com/azure/mariadb/howto-connection-string) in your application
 * Make sure you are using the correct [SSL configuration](https://docs.microsoft.com/azure/mariadb/howto-configure-ssl)
+* Make sure you are using the correct [TLS configuration](https://docs.microsoft.com/azure/mariadb/howto-tls-configurations)
 * Review the [supported client driver list](https://docs.microsoft.com/azure/mariadb/concepts-compatibility) and ensure you are using a driver that is supported
 * Make sure the user you are using has the appropriate permissions
 

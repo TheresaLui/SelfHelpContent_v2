@@ -10,7 +10,7 @@
     supportTopicIds="32731235"
     resourceTags=""
     productPesIds="16922"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="associating-azure-firewall-policy-with-virtual-network"
 	ownershipId="CloudNet_AzureFirewallManager"
 />

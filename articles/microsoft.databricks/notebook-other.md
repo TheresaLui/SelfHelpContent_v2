@@ -10,7 +10,7 @@
 	supportTopicIds="32677716"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="d3320720-fa2f-4bf2-bd25-77fbca3033f8"
 	ownershipId="AzureData_AzureDatabricks"
 />
@@ -20,3 +20,6 @@
 ## **Recommended Documents**
 
 * [Common Errors in Notebooks](https://kb.databricks.com/notebooks/common-errors-in-notebooks.html)
+* [Retrieve the current username for the notebook](https://docs.microsoft.com/azure/databricks/kb/notebooks/get-notebook-username). This is currently supported for:
+	* Standard clusters in both Scala and Python
+	* High Concurrency clusters in Python with Credential Passthrough **disabled**

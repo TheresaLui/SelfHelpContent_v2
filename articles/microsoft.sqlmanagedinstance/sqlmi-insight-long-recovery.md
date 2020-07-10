@@ -12,7 +12,7 @@
   	supportTopicIds="32637216,32637254"
   	resourceTags=""
   	productPesIds="16259"
-  	cloudEnvironments="public,blackForest,fairfax,mooncake"
+  	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
   	articleId="sqlmanagedinstance-connectivity-long-recovery"
   	ownershipId="AzureData_AzureSQLMI"
 />

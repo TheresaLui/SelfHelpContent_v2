@@ -10,17 +10,17 @@
 	articleId="api_sdk_different_data"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635650"
+	supportTopicIds="32692592"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17002"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_API_and_Integration_Support"
 />
 
 # API data different than Partner Center portal
 
-Review how to test and debug troublshooting tips for using the Partner Center APIs and SDK.
+Review how to test and debug troubleshooting tips for using the Partner Center APIs and SDK.
 
 ## **Recommended Documents**
 

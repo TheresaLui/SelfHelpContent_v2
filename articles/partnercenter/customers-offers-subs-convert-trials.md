@@ -10,12 +10,12 @@
 	articleId="partnercenter_customers_offers_subs_convert_trials"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692615"
+	supportTopicIds="32725885"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
 # Converting trial to paid offers

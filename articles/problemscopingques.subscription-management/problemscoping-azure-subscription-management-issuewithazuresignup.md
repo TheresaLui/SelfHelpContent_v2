@@ -6,7 +6,7 @@
    selfHelpType="problemScopingQuestions"
    supportTopicIds="32632950"
 	productPesIds="15660"
-	cloudEnvironments="public, MoonCake, Fairfax, Blackforest"
+	cloudEnvironments="public, MoonCake, Fairfax, Blackforest, usnat, ussec"
    schemaVersion="1"
    articleId="problemscopingquestion-azure-sign-up"
 	ownershipId="ASMS_SubscriptionManagement"

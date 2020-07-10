@@ -14,7 +14,7 @@
   resourceTags=""
   productPesIds="16031"
  ownershipId="CloudAppSecurity_Discovery"
-  cloudEnvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
 />
 
 # I can't see my Microsoft Defender Advanced Threat Protection discovery data

@@ -11,7 +11,7 @@
 	supportTopicIds="32589558,32584249"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="SolutionGuestApplicationOrFirewall"
 />
 
@@ -33,7 +33,7 @@ C:\Users\dgoddard>netstat -ano | findstr LISTENING | findstr 3389
 
 In this example, we see that the application is listening on IPv4 which we know because the second column starts with 0.0.0.0. And, it is listening on IPv6, which we know because the second column is [::]. The last column is the Windows process (PID) of the network application.
 
-2. Disable the firewall with powershell or manually check for blocking rules
+2. Temporarily disable the firewall with powershell or manually check for blocking rules
 
 ~~~powershell
 netsh advfirewall set currentprofile state off

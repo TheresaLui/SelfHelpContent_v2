@@ -10,12 +10,12 @@
 	articleId="customer_offers_subs_marketplace_offers"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32639664,32639663"
+	supportTopicIds="32692602,32725890"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17011,17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Pricing_and_Offers"
 />
 
 # Marketplace offers

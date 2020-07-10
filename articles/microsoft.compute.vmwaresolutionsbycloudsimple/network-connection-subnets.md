@@ -10,9 +10,9 @@
     supportTopicIds="32637618"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="81b3a99e-1f85-4ae4-bac4-2aaebbfedece"    
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting network connection between subnets 

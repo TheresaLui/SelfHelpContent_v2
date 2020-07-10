@@ -10,11 +10,11 @@
 	articleId="marketplace_azure_app_preview_issues"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689414,32689416"
+	supportTopicIds="32728061,32728094"
 	resourceTags="marketplace"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17006"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # IaaS offers - preview

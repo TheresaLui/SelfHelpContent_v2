@@ -10,7 +10,7 @@
 	supportTopicIds="32602738"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="3d8aaec1-a13d-42c5-aecb-c0af447e3bbb"
 	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
@@ -20,7 +20,7 @@
 You may execute the following query in order to retrieve the Blob related errors for a Storage Account.
 Note: The following Table has only errors logged, therefore successful operations won't show here.
 
-1. In Jarvis /MDM access the Logs section.
+1. In Jarvis/MDM access the Logs section.
 2. Complete the query details. The link is below.
 
 ~~~powershell
@@ -43,5 +43,5 @@ Filtering: Account contains $StorageAccountName
 
 **Recommended Documents**
 
-1. https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
-2. https://jarvis-west.dc.ad.msft.net/4ECD880C
+1. [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+2. [Jarvis Logs](https://jarvis-west.dc.ad.msft.net/4ECD880C)

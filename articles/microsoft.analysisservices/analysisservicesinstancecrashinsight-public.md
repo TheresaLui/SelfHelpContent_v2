@@ -13,8 +13,8 @@
     supportTopicIds="32675704"
     resourceTags=""
     productPesIds="1003281"
-    cloudEnvironments="Public, Fairfax, MoonCake"
-    ownershipId="ASEP_ContentService_Placeholder"
+    cloudEnvironments="Public, Fairfax, MoonCake, usnat, ussec"
+    ownershipId="AzureData_AnalysisServices"
 />
 
 # A crash was detected on Analysis Services instance

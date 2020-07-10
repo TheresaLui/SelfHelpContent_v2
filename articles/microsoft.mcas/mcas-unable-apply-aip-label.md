@@ -14,7 +14,7 @@
   resourceTags=""
   productPesIds="16031"
   ownershipId="CloudAppSecurity_API"
-  cloudEnvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
 />
 
 # I am unable to apply an Azure Information Protection label to a file
@@ -27,6 +27,7 @@ To use Azure Information Protection labels in Cloud App Security, make sure that
 
 1. You have enabled the [Office 365 app connector](https://docs.microsoft.com/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security)
 1. The labels are published as part of the policy. If you're using Azure Information Protection labels, the labels must be published via the Azure Information Protection portal. If you migrated to unified labels, the labels must be published via the Office 365 Security and Compliance Center.
+1. You have not exceeded the default maximum of applying 100 labels per day. If you want to increase the limit, please continue with opening the ticket.
 1. The file is one of the following supported types:
     * Word: docm, docx, dotm, dotx
     * Excel: xlam, xlsm, xlsx, xltx

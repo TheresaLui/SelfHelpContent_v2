@@ -14,7 +14,7 @@
 	clientIds='partnercenter'
 	resourceTags="marketplace"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 

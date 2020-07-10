@@ -10,7 +10,7 @@
 	supportTopicIds="32677703"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="ffd3d204-607f-4a47-aee4-8a61f4a03056"
 	ownershipId="AzureData_AzureDatabricks"
 />
@@ -19,4 +19,5 @@
 
 ## **Recommended Documents**
 
-* [How to Resolve Job Hangs and Collect Diagnostic Information](https://kb.azuredatabricks.net/jobs/job-hang-resolve-and-collect-diagnostics.html)
+* Review [Azure Databricks Status Page](https://status.azuredatabricks.net/) for current status by region and to subscribe for updates on status changes
+* [How to Resolve Job Hangs and Collect Diagnostic Information](https://docs.microsoft.com/azure/databricks/kb/jobs/job-hang-resolve-and-collect-diagnostics)

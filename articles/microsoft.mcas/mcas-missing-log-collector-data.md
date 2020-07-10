@@ -14,7 +14,7 @@
   resourceTags=""
   productPesIds="16031"
   ownershipId="CloudAppSecurity_Discovery"
-  cloudEnvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
 />
 
 # I'm having a problem with setting up or getting data from my log collector

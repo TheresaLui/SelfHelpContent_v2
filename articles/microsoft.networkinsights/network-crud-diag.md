@@ -13,7 +13,7 @@ selfHelpType="Diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public, Fairfax, Mooncake"
+cloudEnvironments="Public, Fairfax, Mooncake, usnat, ussec"
 ownershipId="CloudNet_VirtualNetwork"
 />
 # Your operation <!--$operationName-->[operationName]<!--/$operationName--> has failed

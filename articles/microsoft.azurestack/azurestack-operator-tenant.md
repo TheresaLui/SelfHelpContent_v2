@@ -10,7 +10,7 @@
     supportTopicIds="32629269"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-operator-tenant"
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
@@ -24,7 +24,6 @@ There are two portals in Azure Stack: the administration portal and the user por
 Your Azure Stack operator (either a service provider or an administrator in your organization) will let you know the correct URL to access the portal.
 
 * To register your Azure Stack environment, [Connect to Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-version-profiles-azurecli2#connect-to-azure-stack), using the right parameters for your environment
-* For ASDK environments, the tenant portal will be hosted at https://portal.local.azurestack.external
 * For multi-node integrated systems, the address will match the pattern `https://portal.&lt;*region*&gt;.&lt;*FQDN*&gt;`
 
 ## **Recommended Documents**

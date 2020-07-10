@@ -11,7 +11,7 @@
     supportTopicIds="32636853,32636872"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="10e15626-7ad8-4ca2-8885-74242b55fd0c"
 	ownershipId="Azure_Security_Security_Center"
 />

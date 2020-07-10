@@ -1,29 +1,37 @@
 
 <properties
-pageTitle="Configure user: Privileges in workspace"
-description="Configure user: Privileges in workspace"
+pageTitle="Permissions and access control (IAM)"
+description="Permissions and access control (IAM)"
 service="microsoft.operationalinsights"
 resource="workspaces"
 symptomID=""
 infoBubbleText=""
-authors="yossiy"
-ms.author="yossiy"
+authors="meirm"
+ms.author="meirm"
 displayorder=""
 selfHelpType="generic"
 supportTopicIds="32612439"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
-	articleId="bd047e2f-6aa4-4218-a8a8-059135dbc5f2"
-	ownershipId="AzureMonitoring_LogAnalytics"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+articleId="bd047e2f-6aa4-4218-a8a8-059135dbc5f2"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
-# Configure User Privileges in Workspace
+# Permissions and access control (IAM)
 
-* Log Analytics Workspaces are standard Azure entities that are managed by Azure RBAC. Read about [role-based access control](https://docs.microsoft.com/azure/role-based-access-control/overview) for overview, tools and full reference.
-* In the past, user access was managed on OMS Portal, which is now deprecated. See [more details](https://docs.microsoft.com/azure/azure-monitor/platform/oms-portal-transition) about the deprecation process.<br>
+## **Recommended Steps** 
+
+### **Are you using resource-context or workspace-context?**
+When executing a query, you may use the context of an Azure resource or resource-group or subscription. In that case:
+1.	You should have read access to the resource
+2.	The workspace shall have [access control mode](https://docs.microsoft.com/azure/azure-monitor/platform/design-logs-deployment#access-control-mode) set to “Use resource or workspace permissions:”
+When executing a query in the context of a workspace, only the workspace permissions are evaluated. 
+
+### **Check workspace and resource permissions using the Azure portal**
+You can check workspace or resource access rights of a user as explained [here](https://docs.microsoft.com/azure/role-based-access-control/check-access).
 
 ## **Recommended Documents**
 
-* [Manage accounts and users](https://docs.microsoft.com/azure/azure-monitor/platform/manage-access#manage-accounts-and-users) in Log Analytics
-* [What is role-based access control (RBAC)?](https://docs.microsoft.com/azure/role-based-access-control/overview)<br>
+* [Manage access to log data and workspaces in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/manage-access)
+* [Designing your Azure Monitor Logs deployment](https://docs.microsoft.com/azure/azure-monitor/platform/design-logs-deployment)

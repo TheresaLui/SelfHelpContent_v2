@@ -10,7 +10,7 @@
     supportTopicIds="32683761,32683766"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="cluster-create-need-help-with-existing-cluster-config"
 	ownershipId="Compute_AzureKubernetesService"
 />

@@ -4,13 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32684682,32684680,32684681,32692604"
-	productPesIds="15960,17003"
-	cloudEnvironments="public"
+	supportTopicIds="32725891,32725899,32692604"
+	productPesIds="17012,17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_azureplan"
 	clientIds="partnercenter"
-	ownershipId="PartnerCenter_Billing_and_Invoicing"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 
 />
 # Partner Center Azure plan request
@@ -30,8 +30,16 @@
             "required": false
         },
 	{
-            "id": "pc_iseligible",
+            "id": "invoice_number",
             "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Please provide the invoice number.",
+            "watermarkText": "Invoice number",
+            "required": false
+        },
+	{
+            "id": "pc_iseligible",
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Have you reviewed the eligibility criteria in the recommended steps and verified that you should be eligible for partner earned credit for your Azure subscriptions?",
             "dropdownOptions": [
@@ -48,7 +56,7 @@
              },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -57,7 +65,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",

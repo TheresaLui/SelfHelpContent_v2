@@ -1,22 +1,18 @@
 <properties
-	pageTitle="Azure CycleCloud"
-	description="Azure CycleCloud"
-	service="microsoft.compute"
-	resource="virtualmachines"
-	authors="ScottAzure"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32605193,32608325,32609713,32608326,32605195,32608327,32608328,32608329,32608330"
-	resourceTags=""
-	productPesIds="16478"
-	cloudEnvironments="public"
-	articleId="ffec6649-fad3-40bc-b233-444daa633943"
-	ownershipId="Compute_CloudServices_Content"
-/>
-
+  pagetitle="Azure CycleCloud"
+  service="microsoft.compute"
+  resource="virtualmachines"
+  ms.author="ywan,bewon"
+  selfhelptype="Generic"
+  supporttopicids="32608325"
+  resourcetags=""
+  productpesids="16478"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="ffec6649-fad3-40bc-b233-444daa633943"
+  ownershipid="Compute_CloudServices_Content" />
 # Azure CycleCloud
 
-## **Recommended documents**
+## **Recommended Steps**
 
 * [Understanding Azure CycleCloud](https://azure.microsoft.com/features/azure-cyclecloud/)<br>
 * [What is Azure CycleCloud?](https://docs.microsoft.com/azure/cyclecloud/overview)<br>

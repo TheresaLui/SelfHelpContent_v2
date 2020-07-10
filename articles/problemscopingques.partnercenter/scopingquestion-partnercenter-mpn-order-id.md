@@ -4,15 +4,15 @@
 	authors="dimanjar" 
         ms.author="dimanjar"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635656"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32725823"
+	productPesIds="17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_MPN_order_id"
 	clientIds="partnercenter"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
-#Partner Center MPN Order ID
+# Partner Center MPN Order ID
 ---
 {
     "resourceRequired": true,

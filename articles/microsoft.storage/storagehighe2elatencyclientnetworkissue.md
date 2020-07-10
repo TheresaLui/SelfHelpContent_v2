@@ -12,7 +12,7 @@ diagnosticScenario="High E2E Latency due to client side network issues"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 

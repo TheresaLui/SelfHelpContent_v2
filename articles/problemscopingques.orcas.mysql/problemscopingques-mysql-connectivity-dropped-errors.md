@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640055,32640053"
 	productPesIds="16221"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-mysql-connectivity-dropped-errors"
 	ownershipId="AzureData_AzureDatabaseforMySQL"

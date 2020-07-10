@@ -10,7 +10,7 @@
 	supportTopicIds="32632927"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="billing-addoreditvattaxidorponumber"
 	ownershipId="ASMS_Billing"
 />
@@ -22,7 +22,7 @@
 
 ### **Add/update TAX ID**
 
-To add or update Tax ID, visit [Profile in Azure Account Center](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade), then select **Tax record**. This Tax ID is used for tax exemption calculations and appears on your invoice.
+To add or update Tax ID, visit your [Profile in Azure Account Center](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade), then select **Tax record**. This Tax ID is used for tax exemption calculations and appears on your invoice.
 
 ### **Add/update PO Number**
 
@@ -46,14 +46,14 @@ Users should add a VAT ID to their account during the initial purchase and accou
 
 ### **Edit Profile/Company Information**
 
-  1. Sign in to the [Azure Account Center](https://account.azure.com/Profile). Select the **Profile** button. Select the **Edit** details button, and then update the Profile information.
-  2. Update the necessary information and select **Complete**<br>
+  1. Sign in to the [Azure Account Center](https://account.azure.com/Profile) and select the **Profile** button. Click **Edit details**,  then update the Profile information.
+  2. Update the necessary information and click **Complete**
   
 Note: If there is no tax information added to your profile, it won't be reflected on the Azure invoice. Once the tax information and company details have been added, they would start reflecting on the next billing cycle invoice copies.
 
 ### **Add/Update Billing Information**
 
-  1. Sign in to the [Azure Account Center](https://account.azure.com/Profile). Select the **Subscriptions** button and select the one that needs to be updated.
+  1. Sign in to the [Azure Account Center](https://account.azure.com/Profile). Select the **Subscriptions** button and select the one that needs to be updated.
   2. Click on **Manage payment methods** and then select **Edit** next to the payment instrument. Update the required details on the billing address field. Click **Save**.
   
 Note: The existing invoices will be unable to show the updated Billing information, however all the future invoices will reflect the change
@@ -64,6 +64,5 @@ Note: The existing invoices will be unable to show the updated Billing informati
 * [Manage (Reactivate/Cancel/Switch) subscription](https://azure.microsoft.com/pricing/faq/)
 * [How to pay by Invoice](https://docs.microsoft.com/azure/billing/billing-how-to-pay-by-invoice)
 * [How to add, update or remove a credit or debit card from Azure](https://docs.microsoft.com/azure/billing/billing-how-to-change-credit-card)
-* [How to associate or add an Azure subscription to Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory)
 * [How to change currency](https://azure.microsoft.com/pricing/faq/)
 * [Understand your Azure billing for marketplace charges](https://docs.microsoft.com/azure/billing/billing-understand-your-azure-marketplace-charges)

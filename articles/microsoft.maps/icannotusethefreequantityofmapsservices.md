@@ -10,7 +10,7 @@
 	supportTopicIds=""
 	productPesIds=""
 	displayOrder="4"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
  	articleId="f3c87bb8-3aef-4d0a-b9ac-3686338ecbf4"
 	ownershipId="AzureIot_AzureMaps"
 />
