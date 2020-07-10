@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32675680"
 	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="8758e0b9-7dea-389f-9bd9-5bb8dcce2e95"
 	ownershipId="AzureData_AnalysisServices"
 />

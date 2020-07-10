@@ -9,7 +9,7 @@
 	supportTopicIds="32636765, 32681011"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-admin-account-management"
 	displayOrder="20"
 	category="Administration"
@@ -26,13 +26,15 @@ As companies operationalize to address new and unique challenges, we have mobili
 
 As demand continues to grow, if we are faced with any capacity constraints in any region during this time, we have established clear criteria for the priority of new cloud capacity. Top priority will be going to first responders, health and emergency management services, critical government infrastructure organizational use, and ensuring remote workers stay up and running with the core functionality of Teams. We will also consider adjusting free offers, as necessary, to ensure support of existing customers.
 
-You may run into capacity constraints when performing the following operations:
+As per the continuity plan, you may run into capacity constraints when performing the following operations:
 
-- Provision/Create new Cosmos DB Account
-- Adding a region to an existing Cosmos DB Account
-- Provision a new Azure Cosmos DB Free Tier account
+1. Provision/Create a new Cosmos DB Account(including Free-Tier account).
+2. Adding a region to an existing Cosmos DB Account
+3. Create a new database/container in an existing Cosmos DB Account which does not have any container yet.
 
 However, you should be able to perform all operations against your existing Azure Cosmos DB resources in all regions without any restrictions.
+
+If possible, please consider choosing any of the regions from **East US, East US 2, West US, West US 2, South Central US, North Europe, West Europe, Brazil South, Canada Central, France Central, Korea South or Korea Central** for new deployments which do not have any restrictions as of now.
 
 For further information, please review our [commitment and service continuity](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity/).
 

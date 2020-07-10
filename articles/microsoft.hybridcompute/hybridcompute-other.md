@@ -22,7 +22,7 @@
 "
     resourceTags=""
     productPesIds="16872"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="57ca1e41-f9db-450e-89b5-03b7b69b39c7"
     ownershipId="Compute_HybridResourceProvider"
 />

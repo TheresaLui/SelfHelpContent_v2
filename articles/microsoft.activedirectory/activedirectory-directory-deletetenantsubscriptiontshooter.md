@@ -3,25 +3,26 @@
     description="I have Microsoft Online Services blocking deletion of my Azure AD"
     service="microsoft.aad"
     resource="Microsoft_AAD_IAM"
-    authors="piotrci"
+    authors="simonschlegel"
+    ms.author="sischleg"
     displayOrder="1870"
-    supportTopicIds="32565594"
+    supportTopicIds="32565595"
     selfHelpType="resource"
     resourceTags="directory_delete"
-    productPesIds="14785,16578" 
-    cloudEnvironments="public, Fairfax, Mooncake"
+    productPesIds="16578" 
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="72fb9b5a-7925-4358-8f2e-2f62b53755d3"
 	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # I have Microsoft Online Services blocking deletion of my Azure AD
 
-## **Recommended steps**
+## **Recommended Steps**
 
 Organizational subscriptions are related to products that require user-level license assignment, for example: Office 365 Enterprise E3, Enterprise Mobility + Security, or Azure AD Premium. To delete an Azure AD tenant, all subscriptions associated to the tenant need to be in a completely **Deprovisioned** state. Deprovisioning occurs after one or more of the following occurs:
 
 * A canceled subscription in the Admin Center is deleted no later than 180 days after cancellation, and marked as **Deprovisioned**
-* You transfer subscriptions to another tenant
+* You transfer subscriptions to another tenant. For guidance on adding an existing subscription to an Azure AD tenant, see [Associate or add an Azure subscription to your Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/active-directory-how-subscriptions-associated-directory).
 * You create a support request for immediate cancellation of your subscription. Learn more about [Subscription Lifecycle management and retention](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
 
 To view the list of all subscriptions present in your tenant, go to the [Office 365 Admin Center-&gt;Billing-&gt;Subscriptions](https://portal.office.com/adminportal/home#/subscriptions). You view each type of subscription offer (for example, trial or paid) as well as their state (active or expiring).
@@ -36,14 +37,9 @@ Your ability to manage subscriptions depends on how they were originally purchas
 
 If you would like to move an Azure subscription to a different Azure AD tenant or Office 365, you can move your Pay-As-You-Go, Visual Studio, Action Pack or BizSpark subscription in the Account Center via self-service transfer. Learn more on [How to transfer ownership of an Azure subscription](https://docs.microsoft.com/azure/billing/billing-subscription-transfer).
 
-## **Recommended documents**
-
-* [How Azure subscriptions are associated with Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-how-subscriptions-associated-directory)
+## **Recommended Documents**
 
 * [Deleting Users from Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-users-delete-user-azure-portal)
-
 * [Removing applications in the directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#removing-an-application)
-
 * [Transfer ownership of an Azure subscription to another account](https://docs.microsoft.com/azure/billing/billing-subscription-transfer)
-
 * [Additional information on deleting an Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-administer#how-can-i-delete-an-azure-ad-directory)

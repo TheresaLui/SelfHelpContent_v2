@@ -10,7 +10,7 @@
 	supportTopicIds="32632932"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake, usnat, ussec"
 	articleId="pricing-marketplace"
 	ownershipId="ASMS_Billing"
 />
@@ -25,9 +25,14 @@ For example, if you purchased the subscription on January 15th, the anniversary 
 
 ### **Understand charges on an Azure free account**
 
-Azure free trial account is only for 1 month and once it is upgraded to pay-g there will be 12 month free services. The Azure free account includes free access to the most popular Azure products for 12 months, $200 credit to spend for the first 30 days of sign up, and access to more than 25 products that are always free. If you are seeing a charge, it is likely possible that it is not one of the listed products that are available monthly, for free.<br>
-Note, you would need to upgrade to [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) after the first 30 days in order to continue using the Free Account for the remaining 11 months and you would not be charged if you stayed within the free service limits.<br>
-[Products available monthly for free under Azure free account](https://azure.microsoft.com/free/free-account-faq/)
+Azure free trial account is only for 1 month and once it is upgraded to pay-g there will be 12 month free services. The Azure free account includes free access to the most popular Azure products for 12 months, $200 credit to spend for the first 30 days of sign up, and access to more than 25 products that are always free. If you are seeing a charge, it is likely possible that it is not one of the listed products that are available monthly, for free: [Products available monthly for free under Azure free account](https://azure.microsoft.com/free/free-account-faq/)<br>
+**Note**, you would need to upgrade to [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) after the first 30 days in order to continue using the Free Account for the remaining 11 months and you would not be charged if you stayed within the free service limits.<br>
+
+### **How to determine the resources accruing costs**
+
+* Log into the Azure portal. Click on **Cost Management and billing**
+* Click on the subscription to see the resource and their associated cost
+Refer [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) before any resource is created which gives an idea about the cost.
 
 ### **Understand charges on Azure for Students account**
 
@@ -40,20 +45,13 @@ Your subscription might be disabled if the monthly credits on your subscription 
 
 * If you have spending limit enabled or if you have deployed any third-party services. If so, please go ahead and remove the spending limit or delete/remove the service. Once the spending limit is removed, clear browser cache, cookies or use in-private browser to login to Azure portal to verify the subscription status, **or**
 * Wait until the next billing cycle when new credits would be added and the subscription would be automatically enabled, **or**
-* If you have a [Free Trial](https://azure.microsoft.com/free/) or an [Azure for Students Starter](https://azure.microsoft.com/offers/ms-azr-0144p/) subscription, you can upgrade to [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) in the Azure portal: [Upgrade subscription](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription)
-
-### **How to determine the resources accruing costs**
-
-* Log into the Azure portal.  Click on **Cost Management and billing**
-* Click on the subscription to see the resource and their associated cost
-
-Refer [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) before any resource is created which gives an idea about the cost.<br>
-
-Learn more on [how charges are processed](https://docs.microsoft.com/azure/devops/organizations/billing/billing-faq?view=azure-devops#how-charges-are-processed) for Azure DevOps<br>
+* If you have a [Free Trial](https://azure.microsoft.com/free/) or an [Azure for Students Starter](https://azure.microsoft.com/offers/ms-azr-0144p/) subscription, you can upgrade to [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) in the Azure portal: [Upgrade free account](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription)
 
 ## **Recommended Documents**
 
-* [Understand your Microsoft Azure Bill](https://docs.microsoft.com/azure/billing/billing-understand-your-bill)
+* Learn more on [how a reservation discount is applied](https://docs.microsoft.com/azure/cost-management-billing/reservations/reservation-discount-application)
+* Learn more on [how charges are processed](https://docs.microsoft.com/azure/devops/organizations/billing/billing-faq?view=azure-devops#how-charges-are-processed) for Azure DevOps
+* [Understand your Microsoft Azure Bill](https://docs.microsoft.com/azure/cost-management-billing/understand/review-individual-bill)
 * [Understand charges on your Microsoft Customer Agreement Invoice](https://docs.microsoft.com/azure/cost-management-billing/understand/review-customer-agreement-bill)
 * [Understand usage terms in Azure usage and charges file](https://docs.microsoft.com/azure/billing/billing-understand-your-usage)
 * [Understand terms on Microsoft Azure invoice](https://docs.microsoft.com/azure/billing/billing-understand-your-invoice)

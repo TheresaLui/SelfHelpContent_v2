@@ -11,7 +11,7 @@
     diagnosticScenario=""
     productPesIds="15693"
     supportTopicIds="32602225"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 

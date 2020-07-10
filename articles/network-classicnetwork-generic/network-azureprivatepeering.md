@@ -9,7 +9,7 @@
 	supportTopicIds="32539949"
 	resourceTags=""
 	productPesIds="15480"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="4d8190d5-265c-424f-ba1c-f5105f92aeae"
 	ownershipId="CloudNet_AzureExpressRoute"
 />

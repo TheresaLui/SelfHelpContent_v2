@@ -10,9 +10,9 @@
 	supportTopicIds="32727875"
 	resourceTags=""
 	productPesIds="16582"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="816619f7-c15e-4d55-b984-5804ccbedf5e"
-	ownershipId="test_rediscache1"
+	ownershipId="Windows_Virtual_Desktop"
 />
 
 # Windows Virtual Desktop - Issues configuring tenant using PowerShell

@@ -10,7 +10,7 @@
 	supportTopicIds="32641400"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="routing-header-rewrite"
 	ownershipId="CloudNet_AzureApplicationGateway"
 />

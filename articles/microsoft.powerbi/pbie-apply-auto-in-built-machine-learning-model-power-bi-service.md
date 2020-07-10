@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32633798"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="6b4afb80-a71f-438e-82dc-285b9e05a639"
 	ownershipId="PowerBI_PowerBI"
 />

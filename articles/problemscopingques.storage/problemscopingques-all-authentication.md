@@ -7,7 +7,7 @@
 	articleId="StorageScoping_all_authentication"
 	supportTopicIds="32678714,32678715,32678713,32680117,32679284,32679285,32679283,32680500,32679291,32679292,32679290,32680499,32679298,32679299,32679297,32680501"
 	productPesIds="15629,16459,16462,16461,16598"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
@@ -38,6 +38,7 @@
             "controlType": "dropdown",
             "displayLabel": "Error code",
             "watermarkText": "HTTP error of failed operation",
+	    "infoBalloonText":"Select the HTTP error of the failed operation",
             "dropdownOptions": [
                 {
                     "value": "HTTP_304",
@@ -112,10 +113,17 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Storage server Request ID",
-            "watermarkText": "Request ID of failed operation ending with 000000",
-            "textPropertyRegex": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
+            "watermarkText": "Server Request ID of failed operation ending with 000000",
+	    "infoBalloonText":"Server Request ID of failed operation ending with 000000(6 zeros). It's part of every response that is sent back by storage.",
             "required": false,
-            "diagnosticInputRequiredClients": "Portal,ASC"
+            "diagnosticInputRequiredClients": "Portal,ASC",
+	    "validations": [
+		{
+		    "type": "RegExMatch",
+		    "value": "^([0-9A-Za-z]{8}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{4}[-][0-9A-Za-z]{6}[0]{6})$",
+		    "text": "Server Request ID always ends 000000(6 zeros) e.g 05b2d321-403q-0037-4f62-2ag1aa000000"
+		}
+	    ]
         },
         {
             "id": "problem_description",

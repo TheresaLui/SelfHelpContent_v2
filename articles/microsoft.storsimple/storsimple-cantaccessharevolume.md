@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags="9000Or1200Series"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="fffdfbd4-03dc-4d08-beda-26b94fdb39b0"
 	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />

@@ -13,11 +13,11 @@
 	supportTopicIds="32606424"
 	resourceTags=""
 	productPesIds="16160"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="CloudNet_NetAnalytics"
 />
 
-# Common issues with NSG Flow Logs
+# Common issues with NSG Flow Logs 
 
 ## **Recommended Steps**
 

@@ -13,8 +13,8 @@
 	supportTopicIds="32630405, 32630429, 32630438, 32637230"
 	resourceTags=""
 	productPesIds="13491, 16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
-	ownershipId="AzureData_AzureSQLDB"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_Security"
 />
 
 # Database Inaccessible due to Azure Key Vault configuration - Key Deleted
@@ -33,7 +33,7 @@ When transparent data encryption (TDE) is configured to use a customer-managed k
 After access to the key is restored, taking database back online requires additional steps, which may vary based on the time elapsed without access to the key and the size of the database.
 
 * If key access is restored within 8 hours, the database will auto-heal and become accessible
-* If key access is restored after 8 hours, auto-heal is not possible and bringing the database might take time depending on the size of the database and requires opening a support ticket. Once the database is back online, previously configured server-level settings such as failover group configuration, point-in-time-restore history, and tags will be lost.
+* If key access is restored after more than 8 hours, auto-heal is not possible and bringing the database back requires additional steps on the portal and can take a significant amount of time depending on the size of the database. Once the database is back online, previously configured server-level settings such as failover group configuration, point-in-time-restore history, and tags will be lost.
 
 ## **Recommended Steps**
 

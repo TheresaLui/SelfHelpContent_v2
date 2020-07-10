@@ -10,7 +10,7 @@
 	supportTopicIds="32727977"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	articleId="MIP_Upgrading_Scanner_Unified"
 	ownershipId="AzureIdentity_InformationProtection"
 />
@@ -19,7 +19,8 @@
 
 ## **Recommended Steps**
 
-Follow [Upgrading the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide#upgrading-the-azure-information-protection-scanner)
+1. Follow [Upgrading the Azure Information Protection scanner](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide#upgrading-the-azure-information-protection-scanner)
+2. Run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#troubleshooting-using-scanner-diagnostic-tool) in order to troubleshoot common issues when deploying scanner
 
 ### Export Azure Information Protection Scanner logs
 

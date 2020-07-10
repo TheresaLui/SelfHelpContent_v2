@@ -7,9 +7,9 @@
     ms.author="mlandzic"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32637309"
+	supportTopicIds="32637291"
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="3c56c281-38de-48d5-a076-d497a6fc2a71"
 	ownershipId="AzureData_AzureSQLMI"
 />
@@ -43,7 +43,7 @@ In case you have considerable number of databases to migrate, consider using Dat
 In case you need to migrate a single (or a few) databases offline, the quickest method is to use SQL native backup and restore:
 
 1. Execute native backup of your database with on-prem SQL server
-2. Use [restore](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started-restore) to restore your backed database to managed instance
+2. Use [restore](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started-restore) to restore your backup database to managed instance
 
 For all methods migrating to managed instance, such is for example transactional replication, see [SQL Database migration methods](https://docs.microsoft.com/azure/sql-database/sql-database-features#migration-methods).
 

@@ -11,9 +11,9 @@
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public, Fairfax, Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="16666"
+  cloudEnvironments="public, Fairfax, Mooncake, ussec, usnat"
+  ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # The Active Directory account password has been changed but it has not been updated on the synchronization service AD DS connector

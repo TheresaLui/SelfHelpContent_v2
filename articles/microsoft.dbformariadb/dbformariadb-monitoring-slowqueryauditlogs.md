@@ -10,7 +10,7 @@
     supportTopicIds="32731922"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="1086df0a-65e8-428f-8e7d-dfd76741b8987"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
@@ -38,9 +38,11 @@ Most users are able to resolve their issue using the steps below.
 * Review documentation about [audit logs](https://docs.microsoft.com/azure/mariadb/concepts-audit-logs)
 * Review how to configure logs from the [Azure portal](https://docs.microsoft.com/azure/mariadb/howto-configure-audit-logs-portal)
 * Audit logs are only available through Azure Monitor diagnostic logging (which routes to storage account, Event Hub, or Azure Monitor logs)
+* It is recommended to only log the event types (using the **audit_log_events** parameter) and users (using the **audit_log_include_users** & **audit_log_exclude_users** parameters) required for your auditing purposes to ensure your server's performance is not heavily impacted.
 
 ## **Recommended Documents**
 
 * [Access slow query logs - Portal](https://docs.microsoft.com/azure/mariadb/howto-configure-server-logs-portal)<br>
 * [Access slow query logs - CLI](https://docs.microsoft.com/azure/mariadb/howto-configure-server-logs-cli)<br>
-* [Audit logs - Portal](https://docs.microsoft.com/azure/mariadb/howto-configure-audit-logs-portal)
+* [Configure and access audit logs - Portal](https://docs.microsoft.com/azure/mariadb/howto-configure-audit-logs-portal)<br>
+* [Configure and access audit logs - CLI](https://docs.microsoft.com/azure/mariadb/howto-configure-audit-logs-cli)

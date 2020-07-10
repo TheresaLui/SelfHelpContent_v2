@@ -5,7 +5,7 @@
     ms.author="hux"
     articleId="700a6195-ddbc-42e9-9341-fa26f2039d96_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="StorageMediaEdge_XStore"
 />
 # Utilize Lifecycle Management 
@@ -16,18 +16,18 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "96d733d8-6d43-4340-ba9a-c7bbdef18f62",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('Xstore').azurestorageadvisorusedlm",
-    "dataSource": "Kusto",
-    "refreshInterval": "0.12:00:00"
+    "streamNamespace": "AzureStorage.Data.StorageAdvisorLifecycleManagmentV1",
+    "dataSource": "Cosmos",
+    "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "LifecycleManagement",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "hux@microsoft.com, Sijia.Zhu@microsoft.com",
+    "email": "Sijia.Zhu@microsoft.com",
     "icm": {
       "routingId": "MDM://AzureAdvisor",
       "service": "Azure Advisor",

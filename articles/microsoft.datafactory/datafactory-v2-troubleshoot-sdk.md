@@ -10,7 +10,7 @@
     supportTopicIds="32629521"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="DataFactorySDKTroubleshooter"
 	ownershipId="AzureData_DataFactory"
 />

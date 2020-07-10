@@ -9,8 +9,8 @@
     selfHelpType="generic"
     supportTopicIds="32639997"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="c2ef1831-8aaf-41b4-b8a9-ad7d62ef91ef"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
@@ -26,6 +26,7 @@ To review the current list of configurable parameters, navigate to the **Server 
 ## **Recommended Steps**
 
 * If a parameter you'd like to configure is not listed, let us know by creating a new request or voting for existing requests in our [feedback forum](https://feedback.azure.com/forums/597976-azure-database-for-postgresql). We evaluate these requests periodically and make parameters configurable if we can safely do so.
+* Query Performance Insights, Performance Recommendations do not work for read replica servers. Query Store for read replica servers contains a copy of the master server's data. 
 * Some PostgreSQL parameters can be modified at a session level using the PostgreSQL [SET command](https://www.postgresql.org/docs/current/sql-set.html). You can identify which parameters are session-level-modifiable using the SQL query: `SELECT name, context FROM pg_settings where context='user';`.
 * If there is a change in the server's parameter value from the portal, sometime the client does not see the parameter changed. In such cases client need to reconnect to take param effect after updating param on portal.
 * The 'shared_buffers' setting changes depending on the selected sku (sku determines the memory available). General Purpose servers have 2GB shared_buffers for 2 vCores; Memory Optimized servers have 4GB shared_buffers for 2 vCores. The shared_buffers setting scales linearly (approximately) as vCores increase in a tier.

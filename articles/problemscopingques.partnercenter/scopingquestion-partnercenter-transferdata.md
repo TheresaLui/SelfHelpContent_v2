@@ -4,13 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635660"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32725884"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_transferdata"
 	clientIds="partnercenter"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Partner Center Transfer Data
 ---

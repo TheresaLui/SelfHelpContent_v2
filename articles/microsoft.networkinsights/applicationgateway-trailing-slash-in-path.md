@@ -13,7 +13,7 @@
 	supportTopicIds="32436961,32573483,32582834"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="CloudNet_AzureApplicationGateway"
 />
 

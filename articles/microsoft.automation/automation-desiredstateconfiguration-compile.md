@@ -10,7 +10,7 @@
     supportTopicIds="32628001"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="2d29a6eb-da07-4c39-a026-5ad589bb53fb"
 	ownershipId="Compute_Automation"
 />
@@ -57,4 +57,4 @@
 * [Onboarding machines to Automation DSC](https://docs.microsoft.com/azure/automation/automation-dsc-onboarding)<br>
 * [Configure servers to a desired state](https://docs.microsoft.com/azure/automation/tutorial-configure-servers-desired-state) <br>
 * [Compiling Configurations in Automation DSC](https://docs.microsoft.com/azure/automation/automation-dsc-compile) <br>
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)

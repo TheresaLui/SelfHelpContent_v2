@@ -11,9 +11,9 @@ pageTitle="DirectorySynchronization is disabled for tenant"
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public, Fairfax, Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="16666"
+  cloudEnvironments="public, Fairfax, Mooncake, ussec, usnat"
+  ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # DirectorySynchronization is disabled for tenant

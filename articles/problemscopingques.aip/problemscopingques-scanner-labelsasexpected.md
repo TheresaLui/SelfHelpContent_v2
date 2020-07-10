@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
 	supportTopicIds="32629560"
     productPesIds="14997"
-    cloudEnvironments="Public, Fairfax"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     articleId="scoping_scanner_labels_not_as_expected_new"
 	schemaVersion="1"
 	ownershipId="AzureIdentity_InformationProtection"

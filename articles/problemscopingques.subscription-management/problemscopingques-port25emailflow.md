@@ -6,7 +6,7 @@
   selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640601"
 	productPesIds="15660"
-	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
   schemaVersion="1"
    articleId="port25emailflow-problemscopingquestion"
 	ownershipId="ASMS_SubscriptionManagement"

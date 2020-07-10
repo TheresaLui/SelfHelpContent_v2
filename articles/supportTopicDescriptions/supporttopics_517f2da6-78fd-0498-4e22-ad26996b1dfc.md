@@ -5,12 +5,12 @@
   ms.author="akankshajsh, prdasneo"
   selfhelptype="SupportTopicDescription"
   productpesids="517f2da6-78fd-0498-4e22-ad26996b1dfc"
-  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="billing-supporttopicdescription"
+  ownershipid="ASMS_Billing"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" 	ownershipId="ASMS_Billing"
-/>
+  feedbackemail="email" />
 # Support Topic Descriptions for 517f2da6-78fd-0498-4e22-ad26996b1dfc
 ---
 {
@@ -99,9 +99,9 @@
     {
       "id": "15da022a-a108-c566-b944-c6d46ccd6479",
       "longDescription": null,
-      "shortDescription": "Questions about billing cycles, when you will get your bill, and when your credit card will be auto-charged",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance with pricing discounts",
+      "searchTags": "pricing;discounts",
+      "category": "Pricing",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -275,9 +275,9 @@
     {
       "id": "6d607aed-0da2-0322-dfd1-987002d9f410",
       "longDescription": null,
-      "shortDescription": "Questions on any other bill or usage related issues not listed in the above scenarios",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance understanding how a service is charged",
+      "searchTags": "service charges;assistance;bill;charge",
+      "category": "Assistance with bill or usage",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -377,6 +377,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a5f5229a-130c-e227-564e-b8a9cd46889d",
+      "longDescription": "",
+      "shortDescription": "Questions or need assistance with Azure Pricing calculator",
+      "searchTags": "Price calculator;Azure calculator;calculator",
+      "category": "Pricing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a7096926-dcd0-2504-ba61-a40ec81b9566",
       "longDescription": null,
       "shortDescription": "Questions regarding export related errors or files not exported as expected",
@@ -467,9 +475,9 @@
     {
       "id": "dc1655d0-baa0-76a1-8521-717732d5eb5a",
       "longDescription": null,
-      "shortDescription": "Questions on any other Pricing related issue not listed in the above scenarios",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Questions or need assistance with Azure price sheet API",
+      "searchTags": "price sheet;API",
+      "category": "Pricing",
       "useInDiagnoseAndSolve": "true"
     },
     {

@@ -10,7 +10,7 @@
 	supportTopicIds="32727962"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	articleId="protectopencontent_scannerprotect"
 	ownershipId="AzureIdentity_InformationProtection"
 />
@@ -18,6 +18,8 @@
 # Azure Information Protection Protection - Protecting and Opening Content - Questions about applying protection with AIP Scanner
 
 ## **Recommended Steps**
+
+Run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#troubleshooting-using-scanner-diagnostic-tool) in order to troubleshoot common issues when deploying scanner.
 
 ### Export Azure Information Protection Scanner logs
 

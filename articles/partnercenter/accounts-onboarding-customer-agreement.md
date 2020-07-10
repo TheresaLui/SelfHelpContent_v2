@@ -14,7 +14,7 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="17000"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
@@ -35,3 +35,12 @@ Information and resources about Microsoft Cloud and Customer Agreements.
 * [CSP Resource Gallery](https://partner.microsoft.com/resources/collection/Microsoft-Customer-Agreement-in-the-CSP-program#/)
 * [Microsoft Cloud Agreement customer acceptance confirmation Frequently Asked Questions](https://docs.microsoft.com/partner-center/confirm-consent)
 * [Microsoft Cloud Agreements by region and language](https://docs.microsoft.com/partner-center/agreements)
+
+Below are various amendments to Microsoft Cloud and Customer Agreements.
+
+* [Financial Services Amendment](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4m8dP)
+* [Data Processing Amendment for Argentina](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3P75X)
+* [Data Processing Amendment for Argentina](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pk5l)
+* [Professional Secrecy Amendment for Germany](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PeTb)
+* [Professional Secrecy Amendment for Germany](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pcj0)
+* [Microsoft Online Services HIPAA Business Associate Amendment](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PciZ)
