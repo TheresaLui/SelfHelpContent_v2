@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"
@@ -21,5 +21,6 @@
 
 ## **Recommended Documents**
 
-* [Iterative development and debugging](https://review.docs.microsoft.com/azure/data-factory/iterative-development-debugging?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json&branch=release-ignite-arcadia)
-* [Monitor your workspace pipeline runs](https://review.docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-pipeline-runs?branch=release-ignite-arcadia)
+* [Iterative development and debugging](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json)
+* [Monitor your workspace pipeline runs](https://docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-pipeline-runs)
+

@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"
@@ -21,9 +21,9 @@
 
 ## **Recommended Steps**
 
-Review [SQL scripts](https://review.docs.microsoft.com/azure/synapse-analytics/sql/author-sql-script?branch=release-ignite-arcadia)
+Review [SQL scripts](https://docs.microsoft.com/azure/synapse-analytics/sql/author-sql-script)
 
 ## **Recommended Documents**
 
-* [Author SQL script](https://review.docs.microsoft.com/en-us/azure/synapse-analytics/sql/author-sql-script?branch=release-ignite-arcadia#create-your-sql-script) using Synapse Studio
-* [Run SQL script](https://review.docs.microsoft.com/en-us/azure/synapse-analytics/sql/author-sql-script?branch=release-ignite-arcadia#run-your-sql-script) using Synapse Studio
+* [Author SQL script](https://docs.microsoft.com/azure/synapse-analytics/sql/author-sql-script#create-your-sql-script) using Synapse Studio
+* [Run SQL script](https://docs.microsoft.com/azure/synapse-analytics/sql/author-sql-script#run-your-sql-script) using Synapse Studio

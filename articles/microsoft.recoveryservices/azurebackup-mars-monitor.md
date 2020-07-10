@@ -6,7 +6,7 @@
 	authors="srinathvasireddy"
 	ms.author="srinathvasireddy"
 	displayOrder="6"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32632803"
 	resourceTags=""
 	productPesIds="15207"

@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"
@@ -21,6 +21,5 @@
 
 ## **Recommended Steps**
 
-* To provide access to Azure Synapse workspace or SQL on-demand endpoint, [visit full guide on access control for more information](https://review.docs.microsoft.com/azure/synapse-analytics/sql-analytics/access-control?branch=release-ignite-arcadia)
-* To configure how SQL on-demand accesses storage account, visit [control storage access for SLQ on-demand](https://review.docs.microsoft.com/azure/synapse-analytics/sql-analytics/development-storage-files-storage-access-control?branch=release-ignite-arcadia)
-
+* To provide access to Azure Synapse workspace or SQL on-demand endpoint, [visit full guide on access control for more information](https://docs.microsoft.com/azure/synapse-analytics/sql/access-control) 
+* To configure how SQL on-demand accesses storage account, visit [control storage access for SQL on-demand](https://docs.microsoft.com/azure/synapse-analytics/sql/develop-storage-files-storage-access-control) 

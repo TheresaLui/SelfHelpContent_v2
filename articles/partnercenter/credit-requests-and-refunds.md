@@ -10,12 +10,12 @@
 	articleId="partnercenter_credit_requests_and_refunds"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635662"
+	supportTopicIds="32692597"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17003"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Credit requests and refunds
 Partners may have different reasons for asking for credit or refunds. Follow the steps below to submit a request that can efficiently evaluated.

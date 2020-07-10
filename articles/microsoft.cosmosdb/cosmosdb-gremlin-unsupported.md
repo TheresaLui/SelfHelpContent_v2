@@ -3,10 +3,10 @@
 	description="High-level scope of what is explicitly unsupported in Gremlin"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="olignat"
-	ms.author="olignat"
+	authors="jimsch"
+	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32675638,32684531"
+	supportTopicIds="32675638"
 	resourceTags=""
 	productPesIds="15585"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
@@ -17,6 +17,13 @@
 />
 # Gremlin - Unsupported Features
 
+Most users are able to resolve their Gremlin data issue using the steps below. 
+
+
+## **Recommended Steps**  
+
+
+### **Commands**
 Gremlin follows very closely [Apache TinkerPop](https://tinkerpop.apache.org/docs/current/reference/#graph-traversal-steps) traversal steps specification but a few things are not yet available:
 
 * ***[Gremlin Bytecode](http://tinkerpop.apache.org/docs/current/tutorials/gremlin-language-variants/)*** is a programming language agnostic specification for graph traversals. Cosmos DB does not yet support it. Please use ```GremlinClient.SubmitAsync()``` and pass traversal as a text string. Support for Bytecode should be available in near future.
@@ -32,6 +39,19 @@ Gremlin follows very closely [Apache TinkerPop](https://tinkerpop.apache.org/doc
 * ***GraphSONv3*** serializer is not available today but will become available in near future.
 
 * ***Transactions*** are not supported due to distributed nature of the system. Please configure desired consistency model on Gremlin account to "read your own writes".
+
+
+### **Case-insensitive string functions with Gremlin API**
+As of now this case insensitive search feature in Gremlin is not supported .  The official Tinkerpop Gremlin spec itself does not have a way to specify case insensitivity in the predicate.  
+You can search with Text containing string filtering function using the SQL query for the gremlin account.  
+**Example:** SQL query to filter on DisplayName property of a vertex
+
+```
+SELECT c.DisplayName FROM c WHERE CONTAINS(c.DisplayName[0]._value, "ab5", true)
+```   
+
+
+
 
 ## **Recommended Documents**
 

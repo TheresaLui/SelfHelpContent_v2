@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"
@@ -21,4 +21,4 @@
 
 ## **Recommended Documents**
 
-* [Create and configure a self-hosted integration runtime](https://review.docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json&branch=release-ignite-arcadia#setting-up-a-self-hosted-integration-runtime)
+* [Create and configure a self-hosted integration runtime](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#setting-up-a-self-hosted-integration-runtime)

@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "sqlPools"
@@ -21,12 +21,13 @@
 
 ## **Recommended Steps**
 
-* If you cannot use PolyBase to load and must use the SQLBulkCopy API (or BCP), you should consider increasing batch size for better throughput.
-* [Use the appropriate resource class and service level](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data) to ensure [enough memory](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data#loading-to-a-staging-table). As you scale your service level, SQL pool increases the numbers of readers and writers for parallelism.
+* If you cannot use PolyBase or the [COPY statement](https://docs.microsoft.com/sql/t-sql/statements/copy-into-transact-sql?view=azure-sqldw-latest) to load and must use the SQLBulkCopy API (or BCP), you should consider increasing batch size for better throughput.
 * When loading using BCP, make sure you specify the -q parameter to set the QUOTED_IDENTIFIERS on
-* [Using bcp or SQLBulkCopy API to load data into SQL pool](https://docs.microsoft.com/azure/sql-data-warehouse/design-elt-data-loading#4-load-the-data-into-sql-data-warehouse-staging-tables-using-polybase)
+* Use [the appropriate resource class and service level](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/guidance-for-loading-data) to ensure [enough memory](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/guidance-for-loading-data#loading-to-a-staging-table). As you scale your service level, SQL pool increases the numbers of readers and writers for parallelism.
+* See the following documentation for more details: [Using bcp or SQLBulkCopy API to load data into SQL pool](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/design-elt-data-loading#4-load-the-data-into-sql-data-warehouse-staging-tables-using-polybase)
 
 ## **Recommended Documents**
 
-* [Best practices when loading into SQL pool](https://docs.microsoft.com/azure/sql-data-warehouse/guidance-for-loading-data)
+* [Best practices when loading into SQL pool](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/guidance-for-loading-data)
+
 

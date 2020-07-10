@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "sqlPools"
@@ -28,4 +28,5 @@
 * [Upgrade to Gen2](https://docs.microsoft.com/azure/sql-data-warehouse/upgrade-to-latest-generation)<br>
 * [Maintenance Schedules](https://docs.microsoft.com/azure/sql-data-warehouse/maintenance-scheduling)<br>
 * [Troubleshooting connectivity issues](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-troubleshoot-connectivity)
+
 

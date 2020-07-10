@@ -25,7 +25,7 @@
 * Check if Network Watcher is supported in the region you are trying to create Connection Monitor in <br>
 * Ensure that your source VM has Network Watcher extension installed without issues and is in the same subscription in which you are trying to create the Connection Monitor <br>
 * Check if destination selected is available <br>
-* Sometimes, internal server error is thrown intermittently during resource creation, so please re-try
+* Sometimes an internal server error is thrown intermittently during resource creation, so please retry
 
 ### **Unsupported Source VMs**
 
@@ -82,7 +82,7 @@
 
 ### **Does Connection Monitor(Preview)support IPv6**
 
-* Yes, Connection Monitor(Preview) supports IPv6**
+* Yes, Connection Monitor(Preview) supports IPv6
 
 ### **How is Checks Failed % calculated for a test**
 * If HTTP is selected, the service calculates the number of HTTP responses that returned a response code to determine the checks failed %.  To calculate RTT we measure the time taken to receive the response of a HTTP call. 
@@ -113,5 +113,5 @@
 ## **Recommended Documents**
 
 * [Connection Monitor in Azure Network Watcher](https://docs.microsoft.com/azure/network-watcher/connection-monitor)<br>
-* [Connection Monitor (Preview) in Azure Network Watcher](https://docs.microsoft.com/azure/network-watcher/connection-monitor-2-preview)<br>
+* [Connection Monitor (Preview) in Azure Network Watcher](https://docs.microsoft.com/azure/network-watcher/connection-monitor-preview)<br>
 * [Permissions required to use Azure Network Watcher](https://docs.microsoft.com/azure/network-watcher/required-rbac-permissions)

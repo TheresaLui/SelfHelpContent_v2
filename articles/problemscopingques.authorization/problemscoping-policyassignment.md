@@ -7,7 +7,7 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32730235,32730236,32730241,32730234,32730224,32730226,32730227,32730240"
+    supportTopicIds="32739632,32739634,32739635"
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
@@ -53,7 +53,7 @@
                     "text": "Unable to retrieve list of policy definition"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "builtinPolicyDefinition",
@@ -78,7 +78,7 @@
                     "text": "Unable to retrieve list of policy definition"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "policyAssignment",

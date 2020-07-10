@@ -32,12 +32,13 @@ These resources explain enrollment, eligibility, earnings, payments, and policy 
 
 ### **Payments**
 * [Identifying the program associated with a CHIP payment](https://support.microsoft.com/help/4483767/how-do-i-identify-which-incentive-program-a-payment-i-received-is-for)
-* [SAM Payment status in CHIP](https://support.microsoft.com/help/2952898/sam-payment-status-in-chip)
 
 
 ### **Still need help?**
-Create a Support Ticket
-* [North America](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=CIQuest@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=SPLAR&supporttopicid_l3=Support&locale=en-us&language=EN)
-* [Europe, Middle East, and Africa](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=erebates@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=SPLAR&supporttopicid_l3=Support&locale=en-us&language=EN)
-* [Asia Pacific](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=apocchi@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=SPLAR&supporttopicid_l3=Support&locale=en-us&language=EN)
-* [Latin America](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=msreb@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=SPLAR&supporttopicid_l3=Support&locale=en-us&language=EN)
+
+**Create a support ticket:**
+
+* [North America](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=pisuppna@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=SPLAR&supporttopicid_l3=Support&locale=en-us&language=EN)
+* [Europe, Middle East, and Africa](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=pisupp@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=SPLAR&supporttopicid_l3=Support&locale=en-us&language=EN)
+* [Asia Pacific](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=piasia@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=SPLAR&supporttopicid_l3=Support&locale=en-us&language=EN)
+* [Latin America](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=pisupp@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=SPLAR&supporttopicid_l3=Support&locale=en-us&language=EN)

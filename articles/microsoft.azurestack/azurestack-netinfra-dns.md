@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Stack DNS Integration"
-    description="Azure Stack infrastructure integration with customer DNS"
+    pageTitle="Azure Stack Hub DNS Integration"
+    description="Azure Stack Hub infrastructure integration with customer DNS"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -15,16 +15,15 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Azure Stack Infrastructure DNS Integration
+# Azure Stack Hub Infrastructure DNS Integration
 
 ## **Recommended Steps**
 
-If you are integrating Azure Stack with your corporate DNS, see [DNS integration](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-dns) article.
+If you are integrating Azure Stack Hub with your corporate DNS, see [DNS integration](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-dns).
 
-If you need to change the DNS servers that Azure Stack was deployed with, you will need to open a case with Microsoft Support.
+If you need to change the DNS forwarders that Azure Stack Hub was deployed with, connect to the privileged endpoint and run `Get-AzSDnsForwarder` and `Set-AzSDnsForwarder`. For more information, see [Use the privileged endpoint in Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-privileged-endpoint).
 
 ## **Recommended Documents**
 
-* [DNS integration](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-dns)
-* [Setting up conditional forwarding to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-dns#setting-up-conditional-forwarding-to-azure-stack)
-* [Delegating the external DNS zone to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-dns#delegating-the-external-dns-zone-to-azure-stack)
+* [Setting up conditional forwarding to Azure Stack Hub](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-dns#setting-up-conditional-forwarding-to-azure-stack)
+* [Delegating the external DNS zone to Azure Stack Hub](https://docs.microsoft.com/azure/azure-stack/azure-stack-integrate-dns#delegating-the-external-dns-zone-to-azure-stack)

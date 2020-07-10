@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32688668"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax, usnat, ussec"
+	cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
 	articleId="f39fd2ea-00d9-4c05-a271-35611754ad1c"
 	ownershipId="AzureData_AzureSQLDB_BackupRestore"
 />

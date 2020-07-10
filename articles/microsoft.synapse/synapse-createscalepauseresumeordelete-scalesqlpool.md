@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "sqlPools"
@@ -28,4 +28,5 @@ If you are unable to scale higher, it is usually due to DTU quota limits on the 
 * [Scale from Azure portal](https://docs.microsoft.com/azure/sql-data-warehouse/quickstart-scale-compute-portal)<br>
 * [Scale from PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/quickstart-scale-compute-powershell)<br>
 * [Scale from T-SQL](https://docs.microsoft.com/azure/sql-data-warehouse/quickstart-scale-compute-tsql)
+
 

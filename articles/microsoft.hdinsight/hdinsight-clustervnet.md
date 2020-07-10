@@ -16,20 +16,6 @@
 />
 # Azure HDInsight: Virtual Network
 
-**Known issues**
-
-As of March 18th, 2020 some Azure HDInsight customers have received error notifications when creating or scaling HDInsight clusters in some regions. Errors related to this issue include:
-
-- Internal server error occurred while processing the request. Please retry the request or contact support.
-- At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/DeployOperations for usage details
-- User SubscriptionId '\<Subscription ID\>' does not have cores left to create resource '\<cluster name>'. Required: \<X\>, Available: 0.
-
-Engineers are aware of this issue and are actively investigating.
-
-For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-release-notes#known-issues) page.
-
-For additional help, continue creating this support request.
-
 **Common HDInsight VNET issues**
 
 **I have created my cluster but forgot to add it to my VNet**
@@ -51,6 +37,10 @@ If you plan to use a firewall, and access the cluster from outside on certain po
 **Error: HiveMetastoreSchemaInitializationFailedErrorCode**
 
 Solution: If you are using a custom Hive metastore, please run 'Hive Schema Tool' against your metastore to check for possible issues with metastore configuration. Also Check if Azure services or subnet is whitelisted in sql server firewall.
+
+**Error: Unable to connect to cluster management endpoint** 
+
+Solution: Ensure that the IPs in the the [Health and management services: All regions](https://docs.microsoft.com/azure/hdinsight/hdinsight-management-ip-addresses#health-and-management-services-all-regions) document have been whitelisted. To verify the configurations work, you can ping or [tracert](https://docs.microsoft.com/windows-server/administration/windows-commands/tracert) to the required IP addresses from an Azure Virtual Machine in the custom VNet to test whether the IP addresses are accessible from the virtual machines. If you are unable to access these IPs, it validates that your configured firewall is not allowing connections to the whitelisted IPs.
 
 **Error: Unable to connect to cluster**
 

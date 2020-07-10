@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"
@@ -21,6 +21,7 @@
 
 ## **Recommended Steps**
 
-Review [prerequisites](https://review.docs.microsoft.com/azure/synapse-analytics/sql/tutorial-connect-power-bi-desktop?branch=release-ignite-arcadia#prerequisites) connecting your SQL on-demand to Power BI Desktop for working with SQL On-demand.
+Review [prerequisites](https://docs.microsoft.com/azure/synapse-analytics/sql/tutorial-connect-power-bi-desktop#prerequisites) connecting your SQL on-demand to Power BI Desktop for working with SQL On-demand.
 
 ## **Recommended Documents**
+

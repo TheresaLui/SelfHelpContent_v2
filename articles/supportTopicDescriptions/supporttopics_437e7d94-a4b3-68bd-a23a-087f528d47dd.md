@@ -2,23 +2,24 @@
   pagetitle="SupportTopicDescriptions for 437e7d94-a4b3-68bd-a23a-087f528d47dd"
   description="SupportTopicDescriptions for 437e7d94-a4b3-68bd-a23a-087f528d47dd"
   authors="elixirsys2"
-  ms.author="v-vigra"
+  ms.author="v-vigra, marwa"
   selfhelptype="SupportTopicDescription"
   productpesids="437e7d94-a4b3-68bd-a23a-087f528d47dd"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_437e7d94-a4b3-68bd-a23a-087f528d47dd" />
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  articleid="supporttopics_437e7d94-a4b3-68bd-a23a-087f528d47dd"
+  ownershipid="AzureIdentity_MSGraphSitesFilesAndListsAPIs" />
 # Support Topic Descriptions for 437e7d94-a4b3-68bd-a23a-087f528d47dd
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Issues relevant to MS Graph Files, Sites, and Lists APIs",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "42da7ce2-dc00-33da-283e-19078bd9e0e7",

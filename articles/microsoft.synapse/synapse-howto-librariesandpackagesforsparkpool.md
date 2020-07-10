@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "bigDataPools"
@@ -26,21 +26,21 @@ Spark pools in Azure Synapse include the following libraries that are available 
 * [Anaconda](https://docs.continuum.io/anaconda/)
 * [.NET for Apache Spark](https://dot.net/spark)
 
-Review the list of [Supported language and runtime versions](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-version-support) for Apache Spark and dependent components
+Review the list of [Supported language and runtime versions](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-version-support) for Apache Spark and dependent components
 
-You can [add and manage additional libraries](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-azure-portal-add-libraries) for Spark pool.
+You can [add and manage additional libraries](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-azure-portal-add-libraries) for Spark pool.
 
-Review [```requirements.txt``` file format](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-azure-portal-add-libraries?branch=release-ignite-arcadia#requirements-format) and [the pip freeze reference documentation](https://pip.pypa.io/en/stable/reference/pip_freeze/).
+Review [```requirements.txt``` file format](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-azure-portal-add-libraries#requirements-format) and [the pip freeze reference documentation](https://pip.pypa.io/en/stable/reference/pip_freeze/).
 
 **Important**
 * The packages listed in ```requirements.txt``` file for install or upgrade are downloaded from PyPi at the time of cluster startup.
-*  If the package you are installing is large or takes a long time to install, this affects the Spark instance start up time.
+*  If the package you are installing is large or takes a long time to install, this affects the Spark instance startup time.
 * Packages which require compiler support at install time, such as GCC, are not supported.
-* Packages can not be downgraded, only added or upgraded.
+* Packages cannot be downgraded, only added or upgraded.
 
 
 ## **Recommended Documents**
 
-* [Build a machine learning app with Apache Spark MLlib](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-machine-learning-mllib-notebook)
-* [Use .NET for Apache Spark with Azure Synapse Analytics](https://review.docs.microsoft.com/azure/synapse-analytics/spark/spark-dotnet?branch=release-ignite-arcadia)
-* [Spark.NET C# kernel features](https://review.docs.microsoft.com/en-us/azure/synapse-analytics/spark/spark-dotnet?branch=release-ignite-arcadia#sparknet-c-kernel-features)
+* [Build a machine learning app with Apache Spark MLlib](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-machine-learning-mllib-notebook)
+* [Use .NET for Apache Spark with Azure Synapse Analytics](https://docs.microsoft.com/azure/synapse-analytics/spark/spark-dotnet)
+* [Spark.NET C# kernel features](https://docs.microsoft.com/azure/synapse-analytics/spark/spark-dotnet#sparknet-c-kernel-features)

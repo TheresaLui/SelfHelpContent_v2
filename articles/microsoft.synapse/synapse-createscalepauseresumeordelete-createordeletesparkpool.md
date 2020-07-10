@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "bigDataPools"
@@ -21,12 +21,13 @@
 
 ## **Recommended Steps**
 
-Review the required steps outlined in [Creating an Apache Spark pool](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool?branch=release-ignite-arcadia) using Azure portal.
+Review the required steps outlined in [Creating an Apache Spark pool](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool) using Azure portal.
 
-You can delete your Apache Spark pool by following [these steps](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool?branch=release-ignite-arcadia#clean-up-resources).
+You can delete your Apache Spark pool by following [these steps](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool#clean-up-resources).
 
 ## **Recommended Documents**
 
-* [Create Apache Spark pool using web tools](https://review.docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-notebook-create-spark-use-sql)
-* [Create Apache Spark pool using Azure portal](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool)
-* [Delete Apache Spark pool](https://review.docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool?branch=release-ignite-arcadia#clean-up-resources)
+* [Create Apache Spark pool using web tools](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-notebook-create-spark-use-sql)
+* [Create Apache Spark pool using Azure portal](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool)
+* [Delete Apache Spark pool](https://docs.microsoft.com/azure/synapse-analytics/quickstart-create-apache-spark-pool#clean-up-resources)
+

@@ -1,10 +1,10 @@
 <properties
 	pageTitle="Azure Data Factory Pipeline Info"
 	description="Scoping questions to gather Azure Data Factory pipeline information"
-	authors="lisaliu"
+	authors="lisaliu,hecepeda"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32629483, 32629491"
+	supportTopicIds="32629483,32637158,32637159,32629480,32629495,32637161,32740731"
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"

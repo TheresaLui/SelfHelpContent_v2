@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"
@@ -21,10 +21,10 @@
 
 ## **Recommended Steps**
 
- You can [Monitor resource utilization and query activity](https://review.docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-concept-resource-utilization-query-activity?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json&branch=release-ignite-arcadia) of your SQL pool queries from Azure Portal
+ You can [Monitor resource utilization and query activity](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-concept-resource-utilization-query-activity?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json) of your SQL pool queries from Azure Portal
 
 ## **Recommended Documents**
 
-* [Manageability and monitoring with Synapse SQL pool](https://review.docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-manageability-monitoring?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json&branch=release-ignite-arcadia)
-* [Monitor your Apache Spark applications](https://review.docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-spark-applications?branch=release-ignite-arcadia#accessing-the-list-of-spark-applications)
-* [Monitor your workspace pipeline runs](https://review.docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-pipeline-runs?branch=release-ignite-arcadia)
+* [Manageability and monitoring with Synapse SQL pool](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-manageability-monitoring?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json)
+* [Monitor your Apache Spark applications](https://docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-spark-applications#accessing-the-list-of-spark-applications)
+* [Monitor your workspace pipeline runs](https://docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-pipeline-runs)

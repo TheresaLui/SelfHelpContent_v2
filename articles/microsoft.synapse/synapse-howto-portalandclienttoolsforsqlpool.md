@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "sqlPools"
@@ -34,4 +34,5 @@
 * [Query with Visual Studio](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-query-visual-studio)
 * [Manageability and monitoring](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-manageability-monitoring)
 * [Understanding metrics and logs available in the Azure portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-concept-resource-utilization-query-activity)
+
 

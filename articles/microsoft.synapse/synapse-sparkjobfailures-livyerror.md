@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "bigDataPools"
@@ -24,4 +24,4 @@
 
 ## **Recommended Documents**
 
-* [Monitor your Apache Spark applications](https://review.docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-spark-applications?branch=release-ignite-arcadia#accessing-the-list-of-spark-applications)
+* [Monitor your Apache Spark applications](https://docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-spark-applications#accessing-the-list-of-spark-applications)

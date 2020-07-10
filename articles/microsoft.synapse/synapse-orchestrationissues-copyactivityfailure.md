@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"
@@ -21,11 +21,12 @@
 
 ## **Recommended Documents**
 
-* [Activity troubleshooting](https://review.docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json&branch=release-ignite-arcadia#azure-databricks)
-* [Copy activity in Azure Synapse Analytics](https://review.docs.microsoft.com/azure/data-factory/copy-activity-overview?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json&branch=release-ignite-arcadia#supported-file-formats)
-* [Copy activity performance and scalability guide](https://review.docs.microsoft.com/azure/data-factory/copy-activity-performance?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json&branch=release-ignite-arcadia#copy-performance-and-scalability-achievable-using-adf)
-* [Iterative development and debugging](https://review.docs.microsoft.com/azure/data-factory/iterative-development-debugging?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json&branch=release-ignite-arcadia)
-* [Monitor your workspace pipeline runs](https://review.docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-pipeline-runs?branch=release-ignite-arcadia)
-* [Ingesting data into a SQL pool](https://review.docs.microsoft.com/azure/synapse-analytics/data-integration/data-integration-sql-pool?branch=release-ignite-arcadia#prerequisites)
-* [Ingesting data into Azure Data Lake Storage Gen2](https://review.docs.microsoft.com/azure/synapse-analytics/data-integration/data-integration-data-lake?branch=release-ignite-arcadia#prerequisites)
-* [Supported data stores](https://review.docs.microsoft.com/azure/data-factory/connector-overview?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json&branch=release-ignite-arcadia#supported-data-stores)
+* [Activity troubleshooting](https://docs.microsoft.com/azure/data-factory/data-factory-troubleshoot-guide?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#azure-databricks)
+* [Copy activity in Azure Synapse Analytics](https://docs.microsoft.com/azure/data-factory/copy-activity-overview?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#supported-file-formats)
+* [Copy activity performance and scalability guide](https://docs.microsoft.com/azure/data-factory/copy-activity-performance?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#copy-performance-and-scalability-achievable-using-adf)
+* [Iterative development and debugging](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json)
+* [Monitor your workspace pipeline runs](https://docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-pipeline-runs)
+* [Ingesting data into a SQL pool](https://docs.microsoft.com/azure/synapse-analytics/data-integration/data-integration-sql-pool#prerequisites)
+* [Ingesting data into Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/synapse-analytics/data-integration/data-integration-data-lake#prerequisites)
+* [Supported data stores](https://docs.microsoft.com/azure/data-factory/connector-overview?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#supported-data-stores)
+

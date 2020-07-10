@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "sqlPools"
@@ -28,4 +28,5 @@
 * [Create from Azure portal](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-portal)<br>
 * [Create from PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/create-data-warehouse-powershell)<br>
 * [Clean up resources](https://docs.microsoft.com/azure/sql-data-warehouse/pause-and-resume-compute-powershell#clean-up-resources)
+
 

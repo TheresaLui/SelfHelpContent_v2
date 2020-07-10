@@ -1,6 +1,6 @@
 <properties
 	selfHelpType = "generic"
-	cloudEnvironments = "public, fairfax, blackforest, mooncake"
+	cloudEnvironments = "public, fairfax, blackforest, mooncake, usnat, ussec"
 	ownershipId = "AzureData_SQLDataWarehouse"
 	service = "microsoft.synapse"
 	resource = "workspaces"
@@ -21,10 +21,11 @@
 
 ## **Recommended Documents**
 
-* [Mapping data flow overview](https://review.docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/backup-and-restore?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json)
-* [Iterative development and debugging](https://review.docs.microsoft.com/azure/data-factory/iterative-development-debugging?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json&branch=release-ignite-arcadia)
-* [Monitor your workspace pipeline runs](https://review.docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-pipeline-runs?branch=release-ignite-arcadia)
-* [Supported data stores](https://review.docs.microsoft.com/azure/data-factory/connector-overview?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json&branch=release-ignite-arcadia#supported-data-stores)
-* [Supported file formats and compression codecs](https://review.docs.microsoft.com/azure/data-factory/supported-file-formats-and-compression-codecs?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json&branch=release-ignite-arcadia)
-* [Connector troubleshooting](https://review.docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json&branch=release-ignite-arcadia#azure-blob-storage)
+* [Mapping data flow overview](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/backup-and-restore?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json)
+* [Iterative development and debugging](https://docs.microsoft.com/azure/data-factory/iterative-development-debugging?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json)
+* [Monitor your workspace pipeline runs](https://docs.microsoft.com/azure/synapse-analytics/monitoring/how-to-monitor-pipeline-runs)
+* [Supported data stores](https://docs.microsoft.com/azure/data-factory/connector-overview?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#supported-data-stores)
+* [Supported file formats and compression codecs](https://docs.microsoft.com/azure/data-factory/supported-file-formats-and-compression-codecs?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json)
+* [Connector troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide?toc=/azure/synapse-analytics/toc.json&bc=/azure/synapse-analytics/breadcrumb/toc.json#azure-blob-storage)
+
 
