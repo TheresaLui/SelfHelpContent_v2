@@ -68,7 +68,7 @@
             "displayLabel": "Provide details of at least one Alert instance.",
             "watermarkText": "Provide details of at least one Alert instance.",
             "required": true,
-            "useAsAdditionalDetails": true,
+            "useAsAdditionalDetails": false,
             "hints": [
                 {
                     "text": "Provide the Alert id as seen in Azure portal"
