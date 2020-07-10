@@ -28,8 +28,8 @@ Follow through all the steps before you create a support ticket. If you do need 
 
 * My repository is behind a firewall. How do I configure Azure Pipelines or hosted agents?
 
-	- [GitHub Enterprise](https://docs.microsoft.com/azure/pipelines/repos/github-enterprise)
-	- [BitBucket server](https://docs.microsoft.com/azure/pipelines/repos/on-premises-bitbucket)
+	- [GitHub Enterprise](https://docs.microsoft.com/azure/devops/pipelines/repos/github-enterprise)
+	- [BitBucket server](https://docs.microsoft.com/azure/devops/pipelines/repos/on-premises-bitbucket)
 	- [Subversion](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/subversion)
 
 * My pipeline is not being triggered when I make an update to the source code

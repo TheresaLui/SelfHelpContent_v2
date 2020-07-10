@@ -28,11 +28,11 @@ Follow through all the steps before you create a support ticket. If you do need 
 
 * I get an error in my `checkout` or `get sources` step
 
-	- [Azure Repos Git repo](https://docs.microsoft.com/azure/pipelines/repos/azure-repos-git#failing-checkout)
-	- [GitHub](https://docs.microsoft.com/azure/pipelines/repos/github#failing-checkout)
-	- [GitHub Enterprise](https://docs.microsoft.com/azure/pipelines/repos/github-enterprise#failing-checkout)
-	- [BitBucket server](https://docs.microsoft.com/azure/pipelines/repos/on-premises-bitbucket#failing-checkout)
-	- [TFVC](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/tfvc#faq)
+	- [Azure Repos Git repo](https://docs.microsoft.com/azure/devops/pipelines/repos/azure-repos-git#failing-checkout)
+	- [GitHub](https://docs.microsoft.com/azure/devops/pipelines/repos/github#failing-checkout)
+	- [GitHub Enterprise](https://docs.microsoft.com/azure/devops/pipelines/repos/github-enterprise#failing-checkout)
+	- [BitBucket server](https://docs.microsoft.com/azure/devops/pipelines/repos/on-premises-bitbucket#failing-checkout)
+	- [TFVC](https://docs.microsoft.com/azure/devops/pipelines/repos/tfvc#faq)
 	- [Subversion](https://docs.microsoft.com/azure/devops/pipelines/repos/subversion#failing-checkout)
 
 * My pipeline is **not being triggered** when I make an update to the source code

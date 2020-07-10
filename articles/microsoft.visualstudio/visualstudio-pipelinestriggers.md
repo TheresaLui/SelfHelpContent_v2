@@ -28,21 +28,21 @@ Follow through all the steps before you create a support ticket. If you do need 
 
 * I am setting up **CI (Continuous Integration) or PR (Pull Request) triggers** in my **YAML pipeline**, and they do not work
 
-	- [Azure Repos Git repo](https://docs.microsoft.com/azure/pipelines/repos/azure-repos-git#failing-triggers)
-	- [GitHub](https://docs.microsoft.com/azure/pipelines/repos/github#failing-triggers)
-	- [GitHub Enterprise](https://docs.microsoft.com/azure/pipelines/repos/github-enterprise#failing-triggers)
-	- [BitBucket Cloud](https://docs.microsoft.com/azure/pipelines/repos/bitbucket#failing-triggers)
-	- [BitBucket server](https://docs.microsoft.com/azure/pipelines/repos/on-premises-bitbucket#failing-triggers)
+	- [Azure Repos Git repo](https://docs.microsoft.com/azure/devops/pipelines/repos/azure-repos-git#failing-triggers)
+	- [GitHub](https://docs.microsoft.com/azure/devops/pipelines/repos/github#failing-triggers)
+	- [GitHub Enterprise](https://docs.microsoft.com/azure/devops/pipelines/repos/github-enterprise#failing-triggers)
+	- [BitBucket Cloud](https://docs.microsoft.com/azure/devops/pipelines/repos/bitbucket#failing-triggers)
+	- [BitBucket server](https://docs.microsoft.com/azure/devops/pipelines/repos/on-premises-bitbucket#failing-triggers)
 	- [TFVC](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/tfvc#ci-triggers)
-	- [Subversion](https://docs.microsoft.com/azure/pipelines/repos/subversion#failing-triggers)
+	- [Subversion](https://docs.microsoft.com/azure/devops/pipelines/repos/subversion#failing-triggers)
 	
 * I am using **scheduled triggers** in my **YAML pipeline**, and the pipeline is not being triggered on schedule
 
-	- Read the suggestions in [scheduled triggers FAQ](https://docs.microsoft.com/azure/pipelines/process/scheduled-triggers#faq).
+	- Read the suggestions in [scheduled triggers FAQ](https://docs.microsoft.com/azure/devops/pipelines/process/scheduled-triggers#faq).
 
 * I am using **pipeline resources** in my **YAML pipeline**, and the pipeline is not being triggered
 
-	- Read the section on [pipeline triggers](https://docs.microsoft.com/azure/pipelines/process/pipeline-triggers?tabs=yaml) to understand the limitations of this feature.
+	- Read the section on [pipeline triggers](https://docs.microsoft.com/azure/devops/pipelines/process/pipeline-triggers?tabs=yaml) to understand the limitations of this feature.
 
 * I have a **classic build or release pipeline**, and triggers do not work
 
