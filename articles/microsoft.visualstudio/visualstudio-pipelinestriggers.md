@@ -22,7 +22,7 @@
 
 ## **Recommended Steps**
 
-Your source code may be in an Azure Repos, GitHub, BitBucket, or SVN. You may be having trouble with CI, PR, CD, or pipeline-to-pipeline triggers. Select the appropriate problem and the repository type below:
+Your source code may be in an Azure Repos, GitHub, BitBucket, or Subversion. You may be having trouble with CI, PR, CD, or pipeline-to-pipeline triggers. Select the appropriate problem and the repository type below:
 
 Follow through all the steps before you create a support ticket. If you do need to create a ticket after completing the diagnostic steps, provide information about the path you took and results of the steps you ran in your ticket to expedite the resolution of your problem.
 
@@ -30,11 +30,11 @@ Follow through all the steps before you create a support ticket. If you do need 
 
 	- [Azure Repos Git repo](https://docs.microsoft.com/azure/pipelines/repos/azure-repos-git#failing-triggers)
 	- [GitHub](https://docs.microsoft.com/azure/pipelines/repos/github#failing-triggers)
-	- [GitHub Enterprise](https://docs.microsoft.com/azure/pipelines/repos/ghe#failing-triggers)
+	- [GitHub Enterprise](https://docs.microsoft.com/azure/pipelines/repos/github-enterprise#failing-triggers)
 	- [BitBucket Cloud](https://docs.microsoft.com/azure/pipelines/repos/bitbucket#failing-triggers)
-	- [BitBucket server](https://docs.microsoft.com/azure/pipelines/repos/onprem-bitbucket#failing-triggers)
+	- [BitBucket server](https://docs.microsoft.com/azure/pipelines/repos/on-premises-bitbucket#failing-triggers)
 	- [TFVC](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/tfvc#ci-triggers)
-	- [Subversion](https://docs.microsoft.com/azure/pipelines/repos/svn#failing-triggers)
+	- [Subversion](https://docs.microsoft.com/azure/pipelines/repos/subversion#failing-triggers)
 	
 * I am using **scheduled triggers** in my **YAML pipeline**, and the pipeline is not being triggered on schedule
 
@@ -61,7 +61,7 @@ Follow through all the steps before you create a support ticket. If you do need 
 		* Problem type: **Pipelines - Building and testing your application**
 		* Problem subtype: **Getting source code from repository into pipeline**
 
-* I have **other issues** with integrating my pipeline with Azure Repos, GitHub, BitBucket, or SVN.
+* I have **other issues** with integrating my pipeline with Azure Repos, GitHub, BitBucket, or Subversion.
 
 	- Please go back and change the problem type as follows:
 		* Problem type: **Pipelines - Building and testing your application**
@@ -74,3 +74,5 @@ Follow through all the steps before you create a support ticket. If you do need 
 * [Pipeline completion triggers](https://docs.microsoft.com/azure/devops/pipelines/process/pipeline-triggers?view=azure-devops&tabs=yaml)
 * [Classic release management triggers](https://docs.microsoft.com/azure/devops/pipelines/release/triggers?view=azure-devops)
 * [YAML syntax for triggers](https://docs.microsoft.com/azure/devops/pipelines/yaml-schema?view=azure-devops&tabs=schema%2Cparameter-schema#triggers)
+* [Build Troubleshooting](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting?view=azure-devops)
+* [Azure DevOps Services Status](https://status.dev.azure.com)
