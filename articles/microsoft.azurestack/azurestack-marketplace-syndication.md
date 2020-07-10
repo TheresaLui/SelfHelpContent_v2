@@ -15,7 +15,7 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Azure Stack Marketplace items
+# Azure Stack Hub Marketplace items
 
 ## **Recommended Steps**
 
