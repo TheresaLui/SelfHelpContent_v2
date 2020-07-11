@@ -25,7 +25,7 @@
 ### **Troubleshooting**
 
 * How can I install and configure the SQL Server Connector for Azure Key Vault? <br>
-    [Set up SQL Server TDE Extensible Key Management by using Azure Key Vault](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/setup-steps-for-extensible-key-management-using-the-azure-key-vault?view=sql-server-ver15&tabs=portal)
+    [Set up SQL Server TDE Extensible Key Management by using Azure Key Vault](https://docs.microsoft.com/sql/relational-databases/security/encryption/setup-steps-for-extensible-key-management-using-the-azure-key-vault?view=sql-server-ver15&tabs=portal)
 
 * How can I configure customer-managed TDE? <br>
     [Azure SQL Transparent Data Encryption with customer-managed key](https://docs.microsoft.com/azure/azure-sql/database/transparent-data-encryption-byok-overview)
