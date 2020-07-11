@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="d472fb24-d23c-480f-896f-b3095d5bd868_usnat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="usnat"
 	ownershipId="CloudFit_CostOptimization"
 />
 # Right-size or shutdown underutilized virtual machines
