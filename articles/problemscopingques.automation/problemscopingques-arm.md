@@ -41,15 +41,41 @@
             "required": false
         },
         {
-            "id": "deployment_tool",
+            "id": "problem_scope",
             "order": 40,
+            "controlType": "dropdown",
+            "displayLabel": "Select the scope of the deployment",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                  "value": "Resource Group",
+                  "text": "Resource Group"
+                },
+                {
+                  "value": "Subscription",
+                  "text": "Subscription"
+                },
+                {
+                  "value": "Management Group",
+                  "text": "Management Group"
+                },
+                {
+                  "value": "Tenant",
+                  "text": "Tenant"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "deployment_tool",
+            "order": 50,
             "controlType": "textbox",
             "displayLabel": "Please provide what tool was used to assign the blueprint (PowerShell, Azure CLI, Portal, REST API, Other)",
             "required": false
         },
         {
             "id": "problem_description",
-            "order": 50,
+            "order": 60,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Describe the issue, including as much detail as possible with the exact text of error messages where available",
