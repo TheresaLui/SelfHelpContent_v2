@@ -3,7 +3,7 @@
     description="Right-size or shutdown underutilized virtual machines"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="e10b1381-5f0a-47ff-8c7b-37bd13d7c974_USNat"
+    articleId="e10b1381-5f0a-47ff-8c7b-37bd13d7c974_usnat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
 	ownershipId="CloudFit_CostOptimization"
