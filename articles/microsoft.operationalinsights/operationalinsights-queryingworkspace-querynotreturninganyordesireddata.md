@@ -41,7 +41,7 @@ If your query is valid but does not return the log records you expect, try the f
 	```...| extend localtime = TimeGenerated-8h```
 	
 	* The Log Analytics query editor applies a "last 24 hours" time range by default. You can use the time picker (located next to the *Run* button) to set a different time range. To assure you're seeing the logs you're interested in, apply conditions to filter out irrelevant log records, and append ```| top 10 by TimeGenerated``` (or another number as you prefer) to your query.
-	* Drilling in to Log Analytics from a dashboard tile or a customer view created through the view designer - if some or all log records are not showing, review the applied time range. If the time range is set to a specific custom range in the past, it may be querying a time period outside your retention limit. Instead, it is recommended that you apply a relative time range (e.g. "Last 24 hours").
+	* Drilling into Log Analytics from a dashboard tile or a customer view created through the view designer - if some or all log records are not showing, review the applied time range. If the time range is set to a specific custom range in the past, it may be querying a time period outside your retention limit. Instead, it is recommended that you apply a relative time range (e.g. "Last 24 hours").
 
 ## **Recommended Documents**
 
