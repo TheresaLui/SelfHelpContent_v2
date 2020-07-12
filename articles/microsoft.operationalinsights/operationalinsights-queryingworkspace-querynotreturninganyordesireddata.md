@@ -49,4 +49,3 @@ If your query is valid but does not return the log records you expect, try the f
 * [Getting started with queries](https://docs.microsoft.com/azure/log-analytics/query-language/get-started-queries)
 * [Writing search queries](https://docs.microsoft.com/azure/log-analytics/query-language/search-queries)
 * [Online course](https://www.pluralsight.com/courses/kusto-query-language-kql-from-scratch)
-* [Log Analytics community space](https://techcommunity.microsoft.com/t5/azure-log-analytics/bd-p/AzureLogAnalytics)
