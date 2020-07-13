@@ -21,9 +21,9 @@
 
 ### *Agentless replication of VMware virtual machines*
 
-**Error:** “Key Vault operation failed. Operation : Configure managed storage account, Key Vault: Key-vault-name, Storage Account: storage account name failed with the error:”
+**Error:** Key Vault operation failed. Operation - Configure managed storage account, Key Vault - Key-vault-name, Storage Account - storage account name failed with the error
 
-**Error:** “Key Vault operation failed. Operation : Generate shared access signature definition, Key Vault: Key-vault-name, Storage Account: storage account name failed with the error:”
+**Error:** Key Vault operation failed. Operation - Generate shared access signature definition, Key Vault - Key-vault-name, Storage Account: storage account name failed with the error:
 
 User access policy might not be assigned to the key vault that was created, when customer has logged in using foreign principal account. Always logged in user access policy should be found in the key vault.
 
