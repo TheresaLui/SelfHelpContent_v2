@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e87c7046-e633-8553-7468-61ff9b66215f",
+      "longDescription": "",
+      "shortDescription": "Changing Start Stop schedules, targeted VMs or resource groups. Changing the order in which machines start or stop",
+      "searchTags": "start stop;schedule;order;parallel;exclusion",
+      "category": "start stop",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f9b99fd1-f749-19d7-a933-e5e7511e1ae5",
       "longDescription": "",
       "shortDescription": "Configuring or using Source Control with Azure Automation runbooks",
