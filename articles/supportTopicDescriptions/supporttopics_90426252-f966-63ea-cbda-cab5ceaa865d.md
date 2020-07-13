@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "25a05dcd-e43b-4071-b7f4-71673a7a223c",
+      "longDescription": "",
+      "shortDescription": "Help moving Automation assets to a new account",
+      "searchTags": "migrate;move",
+      "category": "Automation Account",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "56b24722-7ca9-e4a2-e3bd-4f7d92c44215",
       "longDescription": "",
       "shortDescription": "Questions about configuring Update Management, including removal and unexpected reboots. ",
