@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f9b99fd1-f749-19d7-a933-e5e7511e1ae5",
+      "longDescription": "",
+      "shortDescription": "Configuring or using Source Control with Azure Automation runbooks",
+      "searchTags": "source control;repo",
+      "category": "Runbooks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fcdfde48-8169-374a-d10f-0df4f0d1afe2",
       "longDescription": "",
       "shortDescription": "Help creating deployments, targeting machines, or schedules not working as expected. ",
