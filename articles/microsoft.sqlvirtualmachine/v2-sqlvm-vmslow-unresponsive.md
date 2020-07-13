@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Diagnose and resolve Virtual Machine performance issues"
 	description="Diagnose and resolve Virtual Machine performance issues"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""

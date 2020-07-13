@@ -9,7 +9,7 @@
             supportTopicIds=""
             resourceTags=""
             productPesIds=""
-            cloudEnvironments="public"
+            cloudEnvironments="public, fairfax, usnat, ussec"
             articleId="b3b2b8e4-4c5b-4133-b2c0-f6d4b69dab14"
             ownershipId="Centennial_CloudNet_LoadBalancer" />
 
@@ -18,11 +18,11 @@
 
 **Symptoms**
 
-Time stamps were lost in copying files from Windows to Linux. On Linux/Unix platforms, the cp -p command fails if file 1 and file 2 are owned by different users.
+Time stamps were lost in copying files from Windows to Linux. On Linux/Unix platforms, the cp -p command fails if file 1 and file 2 are owned by different users
 
 **Cause**
 
-The force flag f in COPYFILE results in executing cp -p -f on Unix. This command also fails to preserve the time stamp of the file that you don't own.
+The force flag f in COPYFILE results in executing cp -p -f on Unix. This command also fails to preserve the time stamp of the file that you don't own
 
 **Workaround**
 

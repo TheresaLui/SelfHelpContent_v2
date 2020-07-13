@@ -9,7 +9,7 @@
             supportTopicIds=""
             resourceTags=""
             productPesIds=""
-            cloudEnvironments="public"
+            cloudEnvironments="public, fairfax, usnat, ussec"
             articleId="0e71ee85-406e-4e1d-a6c5-6d4f4eba64f7"
             ownershipId="Centennial_CloudNet_LoadBalancer" />
 
@@ -17,7 +17,7 @@
 
 **Symptoms**
 
-When you try to list files in an Azure file share by using ls command, ls command hangs when listing directory or you receive the following error :
+When you try to list files in an Azure file share by using ls command, ls command hangs when listing directory or you receive the following error:
 
 ```bash
 '*ls: cannot access **'*****File*Path*** : **Input/output error**
@@ -26,11 +26,11 @@ When you try to list files in an Azure file share by using ls command, ls comman
 
 **Cause**
 
-Missing Linux OS fixes.
+Missing Linux OS fixes
 
 **Resolution**
 
-Upgrade the Linux kernel to the following versions that have fix for this issue :
+Upgrade the Linux kernel to the following versions that have fix for this issue:
 
 1. 4.4.87+
 2. 4.9.48+

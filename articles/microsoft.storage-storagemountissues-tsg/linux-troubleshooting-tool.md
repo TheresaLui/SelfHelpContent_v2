@@ -9,7 +9,7 @@
             supportTopicIds=""
             resourceTags=""
             productPesIds=""
-            cloudEnvironments="public"
+            cloudEnvironments="public, fairfax, usnat, ussec"
             articleId="9f7c7583-013f-42cf-8c43-77f2e1a28982"
             ownershipId="Centennial_CloudNet_LoadBalancer" />
 
@@ -18,7 +18,8 @@
 This tool aims to help you validate the client running environment, detect the incompatible client configuration which would cause access failure for Azure Files, gives prescriptive guidance on self-fix and, collect the diagnostics traces.
 
 **Recommended Documents**
-<a href="https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089">https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089</a>
+
+[https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089)
 
 <!---
 

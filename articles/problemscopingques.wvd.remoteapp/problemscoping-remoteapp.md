@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32625541"
 	productPesIds="16582"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="eda9f457-ce1a-45a5-bbb4-e8d9b79edfc6"
 	ownershipId="Windows_Virtual_Desktop"
@@ -15,7 +15,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Issues with RemoteApp publishing and configuration",
   "fileAttachmentHint": "",
   "formElements": [

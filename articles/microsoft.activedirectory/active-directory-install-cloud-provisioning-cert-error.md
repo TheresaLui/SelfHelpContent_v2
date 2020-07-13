@@ -2,18 +2,18 @@
 	pageTitle="Problem installing Cloud Provisioning Agent"
 	description="Problem installing Cloud Provisioning agent due to certificate invalidity"
 	infoBubbleText="Problem installing Cloud Provisioning agent"
-	service="microsoft.activedirectory"
+	service="microsoft.aad"
 	resource="Microsoft_AAD_IAM"
 	ms.author="Dhanyahk"
-	displayOrder="2302"
+	displayOrder="2223"
 	articleId="943dbd16-aa56-4afa-96d0-77a908d95089"
 	diagnosticScenario=""
 	selfHelpType="resource"
 	supportTopicIds="32689667"
-	resourceTags="directory_ad_connect,azure ad cloud provisioning, cloud provisioning,cloud provisioning install issue"
+	resourceTags="directory_ad_connect"
 	productPesIds="16666"
-	cloudEnvironments="public"
-	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureIdentity_User"
 />
 
 # Installation issues around Cloud Provisioning due to certificate becoming invalid

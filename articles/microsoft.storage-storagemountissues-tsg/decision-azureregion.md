@@ -9,7 +9,7 @@
             supportTopicIds=""
             resourceTags=""
             productPesIds=""
-            cloudEnvironments="public"
+            cloudEnvironments="public, fairfax, usnat, ussec"
             articleId="bdd729e9-09e4-4d7d-9c22-9d6f05e89987"
             ownershipId="Centennial_CloudNet_LoadBalancer" />
 
@@ -17,7 +17,7 @@
 
 **How to check Azure regions for Storage Account and VM**
 
-To check regions, go to Azure portal and select the Storage Account and/or VM then look at location field.
+To check regions, go to Azure portal and select the Storage Account and/or VM then look at location field
 
 PowerShell to check VMs name and region list:
 ```Powershell

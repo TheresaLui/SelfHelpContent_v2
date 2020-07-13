@@ -9,7 +9,7 @@
             supportTopicIds=""
             resourceTags=""
             productPesIds=""
-            cloudEnvironments="public"
+            cloudEnvironments="public, fairfax, usnat, ussec"
             articleId="6401d380-ba65-4596-a1b1-45d0e4b67646"
             ownershipId="Centennial_CloudNet_LoadBalancer" />
 
@@ -51,11 +51,9 @@ CloudStorageAccount storageAccount = CloudStorageAccount.Parse('DefaultEndpoints
  }
 ```
 
-    
-
-
 **Recommended Documents**
-<br><a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-security-tls#enable-tls-12-in-net-client">https://docs.microsoft.com/en-us/azure/storage/common/storage-security-tls#enable-tls-12-in-net-client</a></br>
+
+[https://docs.microsoft.com/azure/storage/common/storage-security-tls#enable-tls-12-in-net-client](https://docs.microsoft.com/azure/storage/common/storage-security-tls#enable-tls-12-in-net-client)
 
 <!---
 

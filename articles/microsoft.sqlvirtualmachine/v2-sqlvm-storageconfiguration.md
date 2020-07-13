@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Storage configuration"
 	description="Storage configuration"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,yareyes,amamun"	
 	authors="ujpat,yareyes,AbdullahMSFT"
 	displayOrder=""

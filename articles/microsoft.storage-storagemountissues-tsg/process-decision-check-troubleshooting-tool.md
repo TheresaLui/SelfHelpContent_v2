@@ -9,7 +9,7 @@
             supportTopicIds=""
             resourceTags=""
             productPesIds=""
-            cloudEnvironments="public"
+            cloudEnvironments="public, fairfax, usnat, ussec"
             articleId="d3c6cec2-a3a7-4ed2-8bfe-c89341321bab"
             ownershipId="Centennial_CloudNet_LoadBalancer" />
 
@@ -19,11 +19,12 @@
 **How to check if troubleshooting tool can resolve the issue**
 
 1. This Script validates most of the known issues as described in Azure File service troubleshooter
-2. It also shows client configuration issues which would cause access failure for Azure Files and give prescriptive guidance on fixing these issues.
-3. It can also map drive if you prefer to do so and collect in-depth diagnostics trace if it is turned on.
+2. It also shows client configuration issues which would cause access failure for Azure Files and give prescriptive guidance on fixing these issues
+3. It can also map drive if you prefer to do so and collect in-depth diagnostics trace if it is turned on
 
 **Recommended Documents**
-<br><a href="https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5">Troubleshooting tool</a></br>
+
+[Troubleshooting tool](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-a9fa1fe5)
 
 <!---
 

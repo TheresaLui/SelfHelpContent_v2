@@ -9,7 +9,7 @@
             supportTopicIds=""
             resourceTags=""
             productPesIds=""
-            cloudEnvironments="public"
+            cloudEnvironments="public, fairfax, usnat, ussec"
             articleId="4784446c-225d-4145-8bff-1e6b455d2e20"
             ownershipId="Centennial_CloudNet_LoadBalancer" />
 
@@ -17,7 +17,7 @@
 
 **Symptom**
 
-Error: 'Multiple connections to a server or shared resource by the same user, using more that one user name, are not allowed' when access the mounted File share drive.
+Error: 'Multiple connections to a server or shared resource by the same user, using more that one user name, are not allowed' when access the mounted File share drive
 
 **Resolution**
 

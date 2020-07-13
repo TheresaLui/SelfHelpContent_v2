@@ -9,7 +9,7 @@
             supportTopicIds=""
             resourceTags=""
             productPesIds=""
-            cloudEnvironments="public"
+            cloudEnvironments="public, fairfax, usnat, ussec"
             articleId="28ca1dc8-1329-4630-85ca-134418b5babd"
             ownershipId="Centennial_CloudNet_LoadBalancer" />
 
@@ -17,7 +17,7 @@
 
 **How to check for common error messages**
 
-Below error(s) may be presented in CMD after trying to mount share or a window pops up after trying to map network drive in Windows.
+Below error(s) may be presented in CMD after trying to mount share or a window pops up after trying to map network drive in Windows
 
 <!---
 

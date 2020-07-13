@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "00badc12-33e2-cba8-2338-e32770db904b",
+      "longDescription": "",
+      "shortDescription": "An allocation error was encountered and need assistance with my availability set",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "01ed3ac2-367f-aaa3-5464-fbbb9c7eade8",
       "longDescription": "",
       "shortDescription": "Resolve issues with custom images deployments in Azure",
@@ -91,6 +99,14 @@
       "shortDescription": "You have configured the Start Stop VM solution but it does not start or stop all the VMs configured",
       "searchTags": "Starting",
       "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "188f913d-c8a6-0598-8c62-ef8aa9d96920",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -246,6 +262,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5067298b-f8fc-ee7c-dd6d-cbad3a7b6c62",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "514ac81e-be99-54a4-eaf4-9370fc0be72c",
       "longDescription": "",
       "shortDescription": "Covers issues with AMD GPU driver extension",
@@ -284,6 +308,14 @@
       "searchTags": "Initialize;Format;Logical Volume Manager",
       "category": "Virtual Disk Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "55b98978-62f8-9c90-589a-4e63c05a27d1",
+      "longDescription": "",
+      "shortDescription": "An allocation error was encountered and need assistance with availability zones. ",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "562c48c7-c68f-0a96-99d2-8d13f3554ce7",
@@ -686,6 +718,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b8848060-d17e-78e7-2856-5362e02cc3a8",
+      "longDescription": "",
+      "shortDescription": "An allocation error was encountered and need assistance with finding a new size or region",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bae68529-51c1-d9b0-9e84-157fe59ac631",
       "longDescription": "",
       "shortDescription": " Request to increase the subscription limit",
@@ -979,6 +1019,14 @@
       "shortDescription": "Covers issues where the start operation for the VM fails and an error message is provided",
       "searchTags": "Booting",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "fc2b9f80-e360-cb41-c4f5-9e71c4f9b53c",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
       "useInDiagnoseAndSolve": "false"
     },
     {

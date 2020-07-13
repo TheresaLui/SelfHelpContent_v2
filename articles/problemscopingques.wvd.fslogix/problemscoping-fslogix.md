@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32681787,32681784,32681783"
 	productPesIds="16582"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="929d8099-8422-44ae-a1de-38c5a2150120"
 	ownershipId="Windows_Virtual_Desktop"
@@ -15,7 +15,7 @@
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
-  "resourceRequired": true,
+  "resourceRequired": false,
   "title": "Issues with FSLogix",
   "fileAttachmentHint": "",
   "formElements": [
@@ -95,7 +95,6 @@
         {
           "value": "I don't know",
           "text": "I don't know"
-
         }
       ],
       "required": false

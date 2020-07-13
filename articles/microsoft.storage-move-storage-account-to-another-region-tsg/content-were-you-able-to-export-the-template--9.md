@@ -19,7 +19,7 @@
 
 This template contains settings that describe your storage account. To export a template by using Azure portal: 
 
-1. sign in to Azure portal 
+1. Sign in to Azure portal 
 2. Select your storage account 
 3. select > settings > Export template 
 4. Choose Download in the Export template blade. 

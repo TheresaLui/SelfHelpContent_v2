@@ -12,7 +12,7 @@
 	selfHelpType="Diagnostics"
 	resourceTags=""
 	productPesIds="1666"
-	cloudEnvironments="public, Fairfax, Mooncake"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 

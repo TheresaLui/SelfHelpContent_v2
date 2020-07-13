@@ -5,15 +5,15 @@
 	service="microsoft.azureactivedirectory"
 	resource="userassignedidentities"
 	authors="janelmsft"
-	ms.author="janelmsft"
+	ms.author="janelg"
 	displayOrder="2"
 	articleId="Problem-acquiring-token-for-managed-identity"
 	diagnosticScenario=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32690728"
 	resourceTags=""
 	productPesIds="16985"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureIdentity_Managed Identities"
 />
 

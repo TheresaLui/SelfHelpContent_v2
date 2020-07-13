@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Troubleshoot Virtual Machine firewall"
 	description="Troubleshoot Virtual Machine firewall"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""
