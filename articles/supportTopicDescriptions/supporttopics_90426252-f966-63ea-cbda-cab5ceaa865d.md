@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "214619ec-73ac-f343-2fc9-882bd2db823b",
+      "longDescription": "",
+      "shortDescription": "Issues deploying Start Stop Solution or configuring it",
+      "searchTags": "start stop",
+      "category": "Start Stop",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "25a05dcd-e43b-4071-b7f4-71673a7a223c",
       "longDescription": "",
       "shortDescription": "Help moving Automation assets to a new account",
