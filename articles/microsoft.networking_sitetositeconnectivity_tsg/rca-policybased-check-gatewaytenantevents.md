@@ -4,7 +4,7 @@
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="Arshad Sharif, Rituraj Choudhary, Sushant Rao"
-	ms.author="arshads, riturajc, shshrao"
+	ms.author="riturajc"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds="32591158,32584882,32584881"

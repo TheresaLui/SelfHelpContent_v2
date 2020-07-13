@@ -3,7 +3,7 @@
 	description="Check Brooklyn Diagnostic Logs for Route Based VPN"
 	service="microsoft.network"
 	resource="vpnGateways"
-	authors="Arshad Sharif, Rituraj Choudhary, Sushant Rao"
+	authors="riturajc"
 	ms.author="arshads, riturajc, shshrao"
 	displayOrder=""
 	selfHelpType="TSG_Content"

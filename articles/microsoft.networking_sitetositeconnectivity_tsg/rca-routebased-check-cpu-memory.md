@@ -3,7 +3,7 @@
 	description="How to check the CPU \ Memory Utilization of the Gateway using Visual Debugging"
 	service="microsoft.network"
 	resource="vpnGateways"
-	authors="Arshad Sharif, Rituraj Choudhary, Sushant Rao"
+	authors="riturajc"
 	ms.author="arshads, riturajc, shshrao"
 	displayOrder=""
 	selfHelpType="TSG_Content"

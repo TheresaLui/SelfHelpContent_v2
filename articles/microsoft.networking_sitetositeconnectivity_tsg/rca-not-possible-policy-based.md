@@ -3,7 +3,7 @@
 	description="VPN Gateway Maintenance - RCA not possible"
 	service="microsoft.network"
 	resource="vpnGateways"
-	authors="Arshad Sharif, Rituraj Choudhary, Sushant Rao"
+	authors="riturajc"
 	ms.author="arshads, riturajc, shshrao"
 	displayOrder=""
 	selfHelpType="TSG_Content"
