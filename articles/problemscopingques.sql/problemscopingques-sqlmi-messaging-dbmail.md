@@ -59,36 +59,6 @@
       "required": true
     },
     {
-      "id": "smtp_configuration",
-      "order": 3,
-      "controlType": "dropdown",
-      "displayLabel": "Where does your SMTP server locate?",
-      "watermarkText": "Choose an option",
-      "dropdownOptions": [
-        {
-          "value": "On-premise network",
-          "text": "SMTP server locates in your own on-premise network "
-        },
-        {
-          "value": "public network",
-          "text": "SMTP server locates in public network"
-        },
-        {
-          "value": "Azure cloud",
-          "text": "SMTP server locates in Microsoft Azure"
-        },
-        {
-          "value": "Other public cloud",
-          "text": "SMTP server locates in other public cloud"
-        },
-        {
-          "value": "dont_know_answer",
-          "text": "Don't know answer"
-        }
-      ],
-      "required": true
-    },
-    {
       "id": "dns_configuration",
       "order": 4,
       "controlType": "dropdown",
