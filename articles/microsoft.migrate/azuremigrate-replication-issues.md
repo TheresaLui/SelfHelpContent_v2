@@ -56,7 +56,7 @@ This error occurs when the VMware account used to access the vCenter server from
 - VirtualMachine.Provisioning.AllowVirtualMachineDownload
 - VirtualMachine.Interaction.PowerOff
 
-You can update the account with one that has sufficient permissions by going to the [appliance management portal](https://appliance_ip_address:44368)
+You can update the account with one that has sufficient permissions by going to the appliance management portal (https://appliance_ip_address:44368)
 
 **Replication cycle failed with error "No disk snapshots were found for snapshot replication"**
 
