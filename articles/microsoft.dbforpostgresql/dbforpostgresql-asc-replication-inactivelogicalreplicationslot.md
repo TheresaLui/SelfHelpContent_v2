@@ -14,7 +14,9 @@
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
-Our telemetry has alerted us to an inactive logical replication slot (<!--$Slotname --> Slotname <!--/$Slotname -->) on your Azure Database for PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->.
+# Inactive logical replication slot detected
+
+Our telemetry has alerted us to an inactive logical replication slot (<!--$Slotname -->Slotname<!--/$Slotname -->) on your Azure Database for PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName-->.
 A replication slot that is not consumed causes your server storage to fill up. When storage is almost full, your server will become read-only. In extreme cases, unconsumed slots can lead to transaction ID wraparound. 
 
 ## **Recommended Steps**

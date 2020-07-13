@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Connections closed - Azure Database for PostgreSQL"
 	description="Connections closed - Azure Database for PostgreSQL"
-	infoBubbleText=""
+	infoBubbleText="Found recent connection close event"
 	service="microsoft.dbforpostgresql"
 	resource="dbforpostgresql"
 	ms.author="raagyema"
@@ -16,7 +16,7 @@
 
 # Connection close events
 
-Our telemetry indicates that your server recently experienced connection closed events. Your application logs may show intermittent errors such as “*An I/O error occurred while sending to the backend*” or other error messages that indicate a timeout, write failure, or a pipe error. On the other hand, the PostgreSQL logs show an error like *could not receive data from client: "An existing connection was forcibly closed by the remote host"*. 
+Our telemetry indicates that your server recently experienced connection closed events. Your application logs may show intermittent errors such as “*An IO error occurred while sending to the backend*” or other error messages that indicate a timeout, write failure, or a pipe error. On the other hand, the PostgreSQL logs show an error like *could not receive data from client: "An existing connection was forcibly closed by the remote host"*. 
 
 These two events are interrelated and are typically caused by connection handling issues on the client.
 
