@@ -12,7 +12,7 @@
 	supportTopicIds="32689667"
 	resourceTags="directory_ad_connect"
 	productPesIds="16666"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="AzureIdentity_User"
 />
 

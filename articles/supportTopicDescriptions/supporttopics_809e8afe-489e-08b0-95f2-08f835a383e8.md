@@ -189,6 +189,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b12986af-682d-38f2-9baf-72667494f905",
+      "longDescription": "",
+      "shortDescription": "Report an incorrect alert generated when the underlying activity does not exist",
+      "searchTags": "FP;false positive;false negative",
+      "category": "Investigating Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b91d612a-be7b-5280-7c9d-d1bb300257ec",
       "longDescription": "",
       "shortDescription": "Sensor service not starting for a previously working sensor",
