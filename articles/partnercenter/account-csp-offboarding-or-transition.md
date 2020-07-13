@@ -18,7 +18,7 @@
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Partner Center account csp offboarding or transition
+# Partner Center account CSP offboarding or transition
  
 ## **Recommended Documents**
 
