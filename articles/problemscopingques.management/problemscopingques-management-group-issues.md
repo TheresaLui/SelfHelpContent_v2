@@ -64,7 +64,7 @@
                   "text": "REST API"
                 },
                 {
-                    "value": "Other"
+                    "value": "Other",
                     "text": "Other"
                 }
             ],
