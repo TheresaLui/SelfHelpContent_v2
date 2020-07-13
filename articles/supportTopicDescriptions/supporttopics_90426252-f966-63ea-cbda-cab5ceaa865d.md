@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ce87f1a3-8698-2770-99c6-8c1e7dfa9fe6",
+      "longDescription": "",
+      "shortDescription": "Creating and running PowerShell or Python scripts with Azure Automation",
+      "searchTags": "runbook;powershell;python;job",
+      "category": "Runbooks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d6c05c75-e488-211d-a5cf-5e110828410a",
       "longDescription": "",
       "shortDescription": "Issues scanning for updates, such as machines showing Not Assessed or disconnected. ",
