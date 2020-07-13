@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Check if HostName Resolution failed?"
-	description="Check if HostName Resolution failed?"
+	pageTitle="Check if HostName Resolution failed"
+	description="Check if HostName Resolution failed"
 	service=""
 	resource=""
 	authors="rimayber"
@@ -15,12 +15,11 @@
    	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# Check if HostName Resolution failed?
+# Check if HostName Resolution failed
 
-Run the below kusto query to check
+The hostname must resolve for HDInsight cluster creation to work successfully. Use the kusto command below to check DNS resolution.
 
-
-```sql
+```kusto
 
 IaasClusterCRUDEvent
 | where ClusterDnsName =~ "{ClusterDnsName}" and HdiDeploymentId =~ "{HdiDeploymentId}" and UserSubscriptionId =~ "{UserSubscriptionId}"

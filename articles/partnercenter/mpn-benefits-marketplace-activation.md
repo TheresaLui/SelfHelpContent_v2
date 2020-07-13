@@ -10,7 +10,7 @@
 	articleId="mpn_benefits_marketplace_activation"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32740810"
+	supportTopicIds="32740787"
 	clientIds='partnercenter'
 	resourceTags="mpn"
 	productPesIds="17007"

@@ -185,6 +185,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "22e49208-4a54-ddb9-7b39-23cad009afc3",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to the Azure Diagnostic Extension (VM)",
+      "searchTags": "Diagnostic",
+      "category": "Extension",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "240605e1-1510-255d-b490-cb95f582b1dc",
       "longDescription": null,
       "shortDescription": "Resolve errors with disks when starting or stopping a virtual machine",
@@ -407,6 +415,14 @@
       "searchTags": "",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "55f2ff82-8c1b-2d18-bd7e-5b0cfafa929d",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "579bb510-ba46-26a3-19c7-3ce5e37bf1c5",
@@ -841,6 +857,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "a1aefb3f-3405-47dc-e3b8-43c38a5e6891",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a2e34c4b-a2ba-2cb2-5e46-ee867cff565f",
       "longDescription": null,
       "shortDescription": "Assistance for website in your subscription that has been defaced",
@@ -913,6 +937,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "b1c65b89-ce7f-349b-796b-fd98bf60fb71",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance with my availability zone.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b20d0fe1-828e-d1b8-2278-1c22a0dcb560",
       "longDescription": null,
       "shortDescription": "Assistance when receiving an Azure Safe Guard email notification",
@@ -943,6 +975,14 @@
       "searchTags": "OMS",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "b748565d-1033-ede0-045c-079c3641af1f",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance with the availability set",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "b82154fe-4659-31f6-584e-fcc90408a34a",
@@ -977,12 +1017,28 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "be9a1d07-3471-0a7e-16da-cbc2fc89e801",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bf5eafd5-a438-6e15-458f-e614453346a2",
       "longDescription": null,
       "shortDescription": "Covers issues related to Planned Maintenance notifications in Azure",
       "searchTags": "Maintenance",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "c0109de5-9bda-7008-ba20-44fd6e947891",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance finding a new region or size",
+      "searchTags": "allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "c330d1a5-2f80-c72f-9bf5-df862a6629c3",

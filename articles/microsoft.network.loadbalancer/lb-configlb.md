@@ -20,10 +20,10 @@
 ## **Recommended Steps**
 
 * Go through the [Azure Load Balancer overview](https://docs.microsoft.com/azure/load-balancer/load-balancer-overview)
-* Learn about [Load Balancer components](https://docs.microsoft.com/azure/load-balancer/concepts-limitations)
+* Learn about Load Balancer [Components](https://docs.microsoft.com/azure/load-balancer/components), [Concepts](https://docs.microsoft.com/azure/load-balancer/concepts), and [SKUs](https://docs.microsoft.com/azure/load-balancer/skus)
 * Create an internet-facing Load Balancer using:
 	- [Portal](https://docs.microsoft.com/azure/load-balancer/load-balancer-get-started-internet-portal)
-	- [PowerShell](https://docs.microsoft.com/azure/load-balancer/load-balancer-get-started-internet-arm-ps)
+	- [PowerShell](https://docs.microsoft.com/azure/load-balancer/quickstart-create-standard-load-balancer-powershell)
 	- [CLI](https://docs.microsoft.com/azure/load-balancer/load-balancer-get-started-internet-arm-cli)
 	- [Template](https://docs.microsoft.com/azure/load-balancer/load-balancer-get-started-internet-arm-template)<br>
 * Create an internal Load Balancer using:
