@@ -18,7 +18,7 @@
 
 Azure Resource Manager templates enable you to define your infrastructure as code and deploy your solutions to the Azure cloud for Azure SQL Database and Azure SQL Managed Instance.
 
-[List of available templates for Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/arm-templates-content-guide?tabs=single-database)
+* [List of available templates for Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/arm-templates-content-guide?tabs=single-database)
 
 If you are using a template and facing issues, Azure Resource Manager enables you to view your deployment history. You can examine specific operations in past deployments and see which resources were deployed. This history also contains information about any errors.
 
