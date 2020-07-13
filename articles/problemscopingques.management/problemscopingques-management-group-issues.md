@@ -5,7 +5,7 @@
 	authors="apclouds"
 	ms.author="angperez"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32626109,32609536,32609537,32609538,32609540,32609544,32609547,32609534,32609543,32609546,32609548,32609549,32609550"
+	supportTopicIds="32743300,32743301,32743302,32743303,32743304,32743299"
 	productPesIds="16530"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	schemaVersion="1"
@@ -41,8 +41,38 @@
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": "client_tools",
             "order": 40,
+            "controlType": "dropdown",
+            "displayLabel": "Select the client tool being used",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                  "value": "Azure Portal",
+                  "text": "Azure Portal"
+                },
+                {
+                  "value": "Azure CLI",
+                  "text": "Azure CLI"
+                },
+                {
+                  "value": "PowerShell",
+                  "text": "PowerShell"
+                },
+                {
+                  "value": "REST API",
+                  "text": "REST API"
+                },
+                {
+                    "value": "Other"
+                    "text": "Other"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 50,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Describe the issue, including as much detail as possible with the exact text of error messages where available",
