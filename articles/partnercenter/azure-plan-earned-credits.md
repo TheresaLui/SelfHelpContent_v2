@@ -27,6 +27,7 @@ Resources and information about partner earned credit for managed services in Az
 * Partner should verify they have an active MPN agreement and valid RBAC role to receive earned credit for the Azure assets they manage
 * Indirect provider should verify that either themselves or their indirect reseller (or both) has 24x7 operational control and management of the customer's Azure resources in CSP
 * If partner has lost RBAC they can [Reinstate admin privileges for Azure CSP subscriptions](https://docs.microsoft.com/partner-center/revoke-reinstate-csp)
+* The monthly invoice amount is net of partner earned credit. Partners can see the PEC details on their [monthly recon file](https://docs.microsoft.com/partner-center/daily-rated-usage-recon-files)
 
 ## **Recommended Documents**
 

@@ -17,12 +17,9 @@
 
 # How to check for backup or copy
 
-<!--issueDescription-->
 1. Does customer have copies through some backup solution. If yes they can retrieve the blob from there.<br>
 2. If Yes to the previous question the data was recovered<br>
 3. Please explain to customer that while we are happy that recovery was successful, it is a best effort attempt and is not always guaranteed. We rely on our customers to follow best practices to safeguard their data.<br>
-
-<!--/issueDescription-->
 
 ## Recommended Documents
 
