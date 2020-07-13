@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a2a8c230-4f6d-d7e0-2545-0f88a5ea176c",
+      "longDescription": "",
+      "shortDescription": "Deploying and configuring the Start Stop solution for Azure Automation",
+      "searchTags": "start stop",
+      "category": "Start Stop",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ce87f1a3-8698-2770-99c6-8c1e7dfa9fe6",
       "longDescription": "",
       "shortDescription": "Creating and running PowerShell or Python scripts with Azure Automation",
