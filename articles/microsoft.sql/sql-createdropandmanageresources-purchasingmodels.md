@@ -23,11 +23,11 @@
 	This model is best for  Customers who want simple, preconfigured resource options. It is based on a bundled measure of compute, storage, and I/O resources. Compute sizes are expressed in DTUs for single databases and in elastic database transaction units (eDTUs) for elastic pools. For more information about DTUs and eDTUs, see [What are DTUs and eDTUs?](https://docs.microsoft.com/azure/azure-sql/database/purchasing-models#dtu-based-purchasing-model).	
 
 * vCore-based
-		This model is best for Customers who value flexibility, control, and transparency. It allows you to independently choose compute and storage resources. The vCore-based purchasing model also allows you to use [Azure Hybrid Benefit](https://azure.microsoft.com/en-us/pricing/hybrid-benefit/) for SQL Server to save costs.
+		This model is best for Customers who value flexibility, control, and transparency. It allows you to independently choose compute and storage resources. The vCore-based purchasing model also allows you to use [Azure Hybrid Benefit](https://azure.microsoft.com/pricing/hybrid-benefit/) for SQL Server to save costs.
 
 ### Upgrade to latest version of SQL
 
-Azure SQL database always uses the latest version of SQL Server. The version can not be manually configured and is managed by us to keep up with the latest updates. 
+Azure SQL database always uses the latest version of SQL Server. The version cannot be manually configured and is managed by us to keep up with the latest updates. 
 
 ### Automate management of databases
 
@@ -36,7 +36,7 @@ Every job logs the status of execution and also automatically retries the operat
 
 ### Quota Requests
 
-To request a qupta increase or whitelist a subsription for a particular region follow [Quota requests](https://docs.microsoft.com/azure/azure-sql/database/quota-increase-request)
+To request a quota increase or whitelist a subscription for a particular region follow [Quota requests](https://docs.microsoft.com/azure/azure-sql/database/quota-increase-request)
 
 ### Problems selecting a particular service tier
 
@@ -61,7 +61,7 @@ If you are facing issues while choosing a particular service tier, it could be d
 ### 2. Portal issues 
 
 	If you are unable to view the database in your Azure portal but are still able to view\manage it using other client tools, it could be a issue with browser cache, we recommend:
-	* Trying in-cognito or private mode in the browser. 
+	* Trying incognito or private mode in the browser. 
 	* Clear your browser cache. 
 	* Re-login into your portal.
 
