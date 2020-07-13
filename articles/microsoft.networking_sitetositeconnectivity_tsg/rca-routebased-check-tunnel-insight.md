@@ -4,7 +4,7 @@
 	service="microsoft.network"
 	resource="vpnGateways"
 	authors="riturajc"
-	ms.author="arshads, riturajc, shshrao"
+	ms.author="arshads, riturajc, sushrao"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds="32591158,32584882,32584881"
