@@ -38,7 +38,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 * Learn about [LUIS resource boundaries and key tiers](https://docs.microsoft.com/azure/cognitive-services/luis/luis-boundaries#key-limits).
 
-* Learn about [LUIS key management experience](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-keys) and the differences between authoring and prediction keys.
+* Learn about [LUIS Key management experience](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-keys) and the differences between authoring and prediction keys.
 
 * If your application needs more than the defined intents and entities, consider using [Dispatch tool](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-enterprise#dispatch-tool-and-model). It is a CLI tool which allows you to have a parent app that dispatches between multiple child LUIS apps.
 

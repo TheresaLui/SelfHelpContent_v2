@@ -30,12 +30,12 @@ LUIS has 3 authoring regions that are supported by 3 corresponding LUIS portals.
 
 * Understand the [difference between authoring and prediction keys](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription).
 
-* The app is published to all regions associated with the LUIS resources added in the LUIS portal. However, [Publishing regions are tied to authoring regions](https://docs.microsoft.com/azure/cognitive-services/luis/luis-reference-regions#publishing-regions-are-tied-to-authoring-regions)
+* The app is published to all regions associated with the LUIS resources added in the LUIS Portal. However, [Publishing regions are tied to authoring regions](https://docs.microsoft.com/azure/cognitive-services/luis/luis-reference-regions#publishing-regions-are-tied-to-authoring-regions)
 
 * When using an endpoint API, make sure the subscription key you are using is in the correct region.
-•	In the LUIS portal, click on your application
+•	In the LUIS Portal, click on your application
 •	Click on Manage -> Azure resources
 •	Make sure the correct key is used for the region in your URL
-•	For example, subscription key for a specific region would be used in the URL https://<Region>.api.cognitive.microsoft.com/luis/v2.0/apps/<appId>?subscription-key=<Region_Subscription_Key>
+
 
 * If your app is currently in the wrong authoring region, export the app, and import it into the correct authoring region for your publishing region.
