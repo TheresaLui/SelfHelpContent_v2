@@ -15,7 +15,6 @@ ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # Phrase List or Features
-
 ### Getting Started
 * Features which are previously called phrase lists allows you to define important and significant words in your application and boosts signal of word list.
 
