@@ -14,10 +14,10 @@ articleId="LUIS_Conversation_ImprovePredictionAccuracy_PhraseList"
 ownershipId="AzureCogSvc_CognitiveServices"
 />
 
-# Phrase List
+# Phrase List or Features
 
 ### Getting Started
-* Features which are previously called phrase lists, allows you to define important and significant words in your application and boosts signal of word list.
+* Features which are previously called phrase lists allows you to define important and significant words in your application and boosts signal of word list.
 
 * Features give higher weights to the words that are included in it, therefore give higher scores when they appear. Adding them properly to you application helps improving its prediction accuracy.
 
