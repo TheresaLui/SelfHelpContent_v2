@@ -19,6 +19,8 @@
 
 Removing a VM will not automatically remove associated resources such as virtual disks, network interfaces, public IPs, and so on. 
 
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
 ## **Recommended Steps**
 
 If you wish to remove all resources contained in the same resource group, use any of these options: 

@@ -5,7 +5,7 @@
     ms.author="aoaft"
     articleId="567187Ba-1bdd-4dd8-ab70-6d494190df58_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureOptimizationAutomation_AORec"
 />
 # The following ADX clusters have been identified as candidates for re-scaling

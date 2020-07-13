@@ -5,7 +5,7 @@
   ms.author="ujpat,amamun"
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32740081"
-  productPesIds="14745"
+  productPesIds="14745,16342"
   cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
   schemaVersion="1"
   articleId="35fde683-665d-42ab-9d01-d76aa184ee4c"

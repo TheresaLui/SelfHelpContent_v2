@@ -5,7 +5,7 @@
     ms.author="ambhatna"
     articleId="f62ef41c-2cdb-4f4e-9dc9-a391c579b0fb_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Improve MySQL connection management

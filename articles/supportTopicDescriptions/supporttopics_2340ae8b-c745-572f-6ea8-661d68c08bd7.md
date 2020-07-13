@@ -5,7 +5,7 @@
   ms.author="tibasham"
   selfhelptype="SupportTopicDescription"
   productpesids="2340ae8b-c745-572f-6ea8-661d68c08bd7"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_2340ae8b-c745-572f-6ea8-661d68c08bd7" />
 # Support Topic Descriptions for 2340ae8b-c745-572f-6ea8-661d68c08bd7
 ---
@@ -26,6 +26,14 @@
       "shortDescription": "Issues with disks in the Guest OS of the VM such as, initializing, or formatting disks.",
       "searchTags": "Initialize;Format;Logical Volume Manager",
       "category": "Virtual Disk Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6d316553-632c-0fae-43d9-39b79e79fd8c",
+      "longDescription": "",
+      "shortDescription": "Disk throughput or IOPS are lower than expected for the virtual machine",
+      "searchTags": "Performance;IOPS;throughput",
+      "category": "Management",
       "useInDiagnoseAndSolve": "true"
     }
   ]

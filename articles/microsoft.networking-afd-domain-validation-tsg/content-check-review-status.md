@@ -15,11 +15,11 @@
    ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# How to check the current status of certificateion validation
+# How to check the current status of certificate validation
 
 1. Go to the URL of the domain in your browser
 2. Using F12/Developer Tools, check the X-Azure-Ref response headers
-3. Go to https://www.afdcp.com and go to Check Impression Log Search Tab
+3. Go to [AFD Control Panel](https://www.afdcp.com) and go to Check Impression Log Search Tab
 4. Enter the X-Azure-Ref value string and check the output (even if it errors) for the ""Tenant"" GUID
 5. Modify the following URL and go to it https://www.afdcp.com/api/v2.0/Tenants/$TENANTGUID$/KeyVaultCertificates
 6. JSON response will return with StatusDetails showing the Status and Details

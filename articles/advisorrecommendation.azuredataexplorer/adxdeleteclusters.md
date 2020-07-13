@@ -5,7 +5,7 @@
     ms.author="aoaft"
     articleId="d9c2f871-904e-4907-8572-0a33b0651f01_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureOptimizationAutomation_AORec"
 />
 # The following ADX clusters are not being used and are candidates for deletion.

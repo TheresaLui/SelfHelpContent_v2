@@ -17,7 +17,7 @@
 	ownershipId="AzureData_DataFactory"
 />
 
-# Data Factory Activity Invalid Template
+# Data Factory Activity Invalid Expression
 
 ## We ran diagnostics on your resource and found an issue
 

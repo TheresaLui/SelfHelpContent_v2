@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="da6630fb-4286-4996-92a3-a43f5f26dd34_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Delete ExpressRoute circuits in the provider status of Not Provisioned
