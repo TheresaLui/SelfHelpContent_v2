@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c9e9b661-d0b7-8c96-d869-0c8e61dbec8d",
+      "longDescription": "",
+      "shortDescription": "Starting and stopping Azure VMs using a runbook from the gallery or one you wrote",
+      "searchTags": "start stop;gallery",
+      "category": "start stop",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ce87f1a3-8698-2770-99c6-8c1e7dfa9fe6",
       "longDescription": "",
       "shortDescription": "Creating and running PowerShell or Python scripts with Azure Automation",
