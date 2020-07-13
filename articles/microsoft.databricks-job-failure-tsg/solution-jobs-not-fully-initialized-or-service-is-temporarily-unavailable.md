@@ -21,7 +21,7 @@
 
 Based on the provided details, issue is most likely due to:<br>
 <br>
-1. Cluster manager service being unavailable. This is expected during weekly shard maintenance. Please refer to [Databricks Status](https://status.azuredatabricks.net) page for any maintenace notification.<br>
+1. Cluster manager service being unavailable. This is expected during weekly shard maintenance. Please refer to [Databricks Status](https://status.azuredatabricks.net) page for any maintenance notification.<br>
 2. Azure or Databricks service outages. Please refer to [Azure Status](https://status.azure.com/status?) and [Databricks Status](https://status.azuredatabricks.net) pages for insights. <br>
 <br>
 
