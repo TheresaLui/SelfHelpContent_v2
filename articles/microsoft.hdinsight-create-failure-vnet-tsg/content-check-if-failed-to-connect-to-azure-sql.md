@@ -17,11 +17,11 @@
 
 # Check if failed to connect to Azure SQL
 
+HDInsight requires a connection to a SQL server as a main function of HDInsight. A cluster can not be created if this connection to SQL fails. 
 
-Run the below kusto query to check
+Use the Kusto command below to check SQL connections.
 
-
-```sql
+```kusto
 
 IaasClusterCRUDEvent
 | where ClusterDnsName =~ "{ClusterDnsName}" and HdiDeploymentId =~ "{HdiDeploymentId}" and UserSubscriptionId =~ "{UserSubscriptionId}"

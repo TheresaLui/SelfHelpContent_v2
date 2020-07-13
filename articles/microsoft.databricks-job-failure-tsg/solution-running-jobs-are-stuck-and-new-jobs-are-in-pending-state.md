@@ -29,7 +29,7 @@ It is important to mention that by design:<br>
 2. The number of jobs a workspace can create in an hour is limited to 5000 (includes ?run now? and ?runs submit?). This limit also affects jobs created by the REST API and notebook workflows.<br>
 3. A workspace is limited to 150 concurrent (running) job runs.<br>
 4. A workspace is limited to 1000 active (running and pending) job runs.<br>
-<br>
+<br><br>
 Exceeding these limits would usually cause issues when trying to run Jobs.<br>
 
 <!--/issueDescription-->

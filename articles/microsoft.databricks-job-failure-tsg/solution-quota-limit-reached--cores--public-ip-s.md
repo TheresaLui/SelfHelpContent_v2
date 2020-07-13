@@ -28,6 +28,7 @@ To resolve the issue:<br>
 2. Or if the first suggested solution is not feasible, please *open a case with Azure Subscription Management team* making sure to incluse these details: 
    Subscription ID, Region, VM type, Current available number of cores, Number of cores to be added.<br>
   <br>
+  <br>
 Please check these documents for further details regarding:<br>
 
 <!--/issueDescription-->
