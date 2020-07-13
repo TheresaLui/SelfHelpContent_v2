@@ -14,7 +14,7 @@ articleId="LUIS_Conversation_ImprovePredictionAccuracy_PhraseList"
 ownershipId="AzureCogSvc_CognitiveServices"
 />
 
-# Phrase List/Features
+# Phrase List or Features
 
 ### Getting Started
 * Features which are previously called phrase lists, allows you to define important and significant words in your application and boosts signal of word list.
