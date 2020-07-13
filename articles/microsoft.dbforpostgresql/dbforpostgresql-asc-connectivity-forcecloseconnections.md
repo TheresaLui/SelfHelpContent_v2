@@ -10,6 +10,7 @@
 	diagnosticScenario="OrcasPostgresForceCloseConnectionsV2TroubleShooter"
 	selfHelpType="diagnostics"
 	supportTopicIds="32731217, 32639977"
+    productPesIds="17067"
 	cloudEnvironments="public, blackForest, Fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />

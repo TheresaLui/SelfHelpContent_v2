@@ -10,6 +10,7 @@
 	diagnosticScenario="OrcasPostgresInactiveLogicalReplicationSlotV2TroubleShooter"
 	selfHelpType="diagnostics"
 	supportTopicIds="32639973, 32639976, 32639992, 32639995, 32640026, 32731228, 32639968, 32639994"
+    productPesIds="17067"
 	cloudEnvironments="public, blackForest, Fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
@@ -24,7 +25,7 @@ A replication slot that is not consumed causes your server storage to fill up. W
 ## **Recommended Steps**
 
 * If the slot is no longer needed, delete it using the following command:
-`SELECT pg_drop_replication_slot('<slotname>');`
+   SELECT pg_drop_replication_slot('<!--$Slotname -->Slotname<!--/$Slotname -->');
 
 * Start consuming the data from the logical replication slot
 
