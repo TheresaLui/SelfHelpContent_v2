@@ -34,4 +34,6 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 * Use the [LUIS analytics dashboard]((https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-use-dashboard)) to give you an overview of your **training data's accuracy** and help you improve your LUIS app.
 
+* Read [this tutorial](https://docs.microsoft.com/azure/cognitive-services/luis/luis-tutorial-review-endpoint-utterances#review-endpoint-utterances) to fix unsure predictions by reviewing endpoint utterances.
+
 * Follow the [best practices](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-best-practices#do-and-dont) for building an app in LUIS.
