@@ -19,13 +19,19 @@
 
 ## **Recommended Steps**
 
-### Agentless replication of VMWare virtual machines
+### *Agentless replication of VMWare virtual machines*
 
-**Receiving transient internal error Azure Migrate**
+**Error:** “Key Vault operation failed. Operation : Configure managed storage account, Key Vault: <Key-vault-name>, Storage Account: <storage account name> failed with the error:”
 
-- Check if appropriate [user access policies](https://docs.microsoft.com/powershell/module/azuread/get-azureaduser?view=azureadps-2.0) are set on the key vault which got created as part of replication
-- Switch the user to admin account and set access policies properly
-- Retry replication
+**Error:** “Key Vault operation failed. Operation : Generate shared access signature definition, Key Vault: <Key-vault-name>, Storage Account: <storage account name> failed with the error:”
+
+User access policy might not be assigned to the key vault that was created, when customer has logged in using foreign principal account. Always logged in user access policy should be found in the key vault.
+
+Applied correct permissions by using a local admin to the subscription and performing the following PowerShell commands:
+ 
+$userPrincipalId = $(Get-AzureRmADUser -UserPrincipalName "loggedinuser").Id
+Set-AzureRmKeyVaultAccessPolicy -VaultName "keyvaultname" -ObjectId $userPrincipalId -PermissionsToStorage get, list, delete, set, update, regeneratekey, getsas, listsas, deletesas, setsas, recover, backup, restore, purge
+
 
 **When trying to replicate agentless we get "An internal error occurred. Please retry the operation after some time."**
 
@@ -45,6 +51,7 @@ This error occurs when the VMware account used to access the vCenter server from
 - VirtualMachine.Configuration.DiskChangeTracking
 - VirtualMachine.Configuration.DiskLease
 - VirtualMachine.Provisioning.AllowReadOnlyDiskAccess
+- VirtualMachine.Provisioning.AllowDiskRandomAccess:
 - VirtualMachine.SnapshotManagement.* 
 - VirtualMachine.Provisioning.AllowVirtualMachineDownload
 - VirtualMachine.Interaction.PowerOff
@@ -84,7 +91,7 @@ If the Azure Migrate appliance is behind a proxy server, ensure that these URLs 
 - *.hypervrecoverymanager.windowsazure.com
 - *.blob.core.windows.net
 
-### Agent based replication of VMware virtual machines and physical servers
+### *Agent based replication of VMware virtual machines and physical servers*
 
 **Troubleshoot connectivity between the Mobility service on the replicating machine and the Configuration Server, and between the replicating machine and a Scale-out Process Server**
 
@@ -103,7 +110,7 @@ Connectivity from the Mobility service to the Configuration Server or Process Se
 * The Configuration Server process ('cxpsprocessserver' in services.msc) that listens on port 443 is not running
 * The Process Server process ('tmansvc' in services.msc) than listens on port 9443 is not running
 
-### Agentless replication of Hyper-V virtual machines
+### *Agentless replication of Hyper-V virtual machines*
 
 **Failures while attempting to replicate a Hyper-V virtual machine**
 
