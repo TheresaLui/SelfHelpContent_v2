@@ -1,19 +1,19 @@
 <properties
-	pageTitle="Limits in Azure Cosmos DB" 
-	description="Limits in Azure Cosmos DB"
-	service="microsoft.documentdb"
-	resource="databaseAccounts"
-	authors="jimsch"
-	ms.author="jimsch"
-	selfHelpType="generic"
-	supportTopicIds="32636797"
-	resourceTags=""
-	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="cosmosdb-limits-quotas"
-	displayOrder="200"
-	category="Limits and quotas"
-	ownershipId="AzureData_AzureCosmosDB"
+    pageTitle="Limits in Azure Cosmos DB" 
+    description="Limits in Azure Cosmos DB"
+    service="microsoft.documentdb"
+    resource="databaseAccounts"
+    authors="jimsch"
+    ms.author="jimsch"
+    selfHelpType="generic"
+    supportTopicIds="32636797"
+    resourceTags=""
+    productPesIds="15585"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+    articleId="cosmosdb-limits-quotas"
+    displayOrder="200"
+    category="Limits and quotas"
+    ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Limits in Azure Cosmos DB
@@ -49,17 +49,16 @@ Look for the specific limit or quota threshold and the appropriate way to raise 
 Cosmos DB has a per document size limit of 2MB [Azure Cosmos DB Per-item limits.](https://docs.microsoft.com/azure/cosmos-db/concepts-limits#per-item-limits)  
 **Solution:** If your requirements need to exceed this, it is recommended to split the document into multiple sub-documents and create a new field to link them together.  When retrieving, you would use a query to retrieve all documents that are linked together.  
 
-
-
-
-
 ## **Recommended Documents**
 
 [Limits in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/concepts-limits)
 <br>This article provides an overview of the default quotas offered to different resources in the Azure Cosmos DB.  
 
-[Create Azure Cosmos containers and databases in autopilot mode (Preview)](https://docs.microsoft.com/azure/cosmos-db/provision-throughput-autopilot)
-<br>Azure Cosmos DB allows you to provision throughput on your containers in either manual or autopilot mode. This article describes the benefits and use cases of autopilot mode. In addition to manual provisioning of throughput, you can now configure Azure cosmos containers in autopilot mode. Azure Cosmos containers and databases configured in autopilot mode will automatically and instantly scale the provisioned throughput based on your application needs without compromising the SLAs.  
+[How to enable autoscale on a database or container](https://docs.microsoft.com/azure/cosmos-db/how-to-provision-autoscale-throughput?tabs=api-async)
+<br> Autoscale automatically scales the RU/s of your database or container between the max RU/s you set, and 0.1 * max RU/s. 
+
+You can enable autoscale on existing resources through the Azure portal. To create new autoscale resources, use an Azure Resource Manager template or the latest versions of the Azure Cosmos DB .NET SDK V3.9+ and Java SDK V4+. See this article for samples. 
+
 
 [Request Unit Factors](https://docs.microsoft.com/azure/cosmos-db/request-units#request-unit-considerations)
 <br>When estimating the number of RUs per second to provision, use this article to consider factors that impact RUs.  
