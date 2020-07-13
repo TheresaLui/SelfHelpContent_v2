@@ -17,7 +17,7 @@
 # Connection close events
 
 <!--issueDescription-->
-Our telemetry indicates that your server recently experienced connection closed events. Your client or application logs may show intermittent errors such as: An IO error occurred while sending to the backend (or other messages that indicate a timeout, write failure, or pipe error). On the other hand, the PostgreSQL logs show an error like: could not receive data from client. An existing connection was forcibly closed by the remote host. 
+Our telemetry indicates that your server recently experienced connection closed events. Your client or application logs may show intermittent errors such as 'An IO error occurred while sending to the backend,' or other messages that indicate a timeout, write failure, or pipe error. On the other hand, the PostgreSQL logs show an error like 'could not receive data from client. An existing connection was forcibly closed by the remote host'. 
 
 These two events are interrelated and are typically caused by connection handling issues on the client.
 <!--/issueDescription-->
