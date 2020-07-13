@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4197ab26-516f-dd73-251c-46670e146601",
+      "longDescription": "",
+      "shortDescription": "Problems creating or deploying the Start Stop solution",
+      "searchTags": "start stop;create ;deploy",
+      "category": "start stop",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "56b24722-7ca9-e4a2-e3bd-4f7d92c44215",
       "longDescription": "",
       "shortDescription": "Questions about configuring Update Management, including removal and unexpected reboots. ",
