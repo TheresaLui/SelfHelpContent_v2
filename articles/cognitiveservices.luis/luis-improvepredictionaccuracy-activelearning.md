@@ -32,7 +32,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 * Export all your endpoint utterances if you wish to view them [programmatically](https://westus.dev.cognitive.microsoft.com/docs/services/5890b47c39e2bb17b84a55ff/operations/5ae02c03d5b81c092c6cf2c2) or from LUIS portal in the "My Apps" page by selecting the application and **export endpoint logs** from the top toolbar.  
 
-* Use the [LUIS analytics dashboard]((https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-use-dashboard)) to give you an overview of your **training data's accuracy** and help you improve your LUIS app.
+* Use the [LUIS analytics dashboard](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-use-dashboard) to give you an overview of your **training data's accuracy** and help you improve your LUIS app.
 
 * Read [this tutorial](https://docs.microsoft.com/azure/cognitive-services/luis/luis-tutorial-review-endpoint-utterances#review-endpoint-utterances) to fix unsure predictions by reviewing endpoint utterances.
 

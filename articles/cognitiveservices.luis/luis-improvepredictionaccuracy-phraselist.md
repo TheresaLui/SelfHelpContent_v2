@@ -17,7 +17,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 # Phrase List/Features
 
 ### Getting Started
-* Features, previously called phrase lists, allows you to define important and significant words in your application and boosts signal of word list.
+* Features (previously called phrase lists) allows you to define important and significant words in your application and boosts signal of word list.
 
 * Features give higher weights to the words that are included in it, therefore give higher scores when they appear. Adding them properly to you application helps improving its prediction accuracy.
 
