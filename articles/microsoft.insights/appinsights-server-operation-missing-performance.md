@@ -10,7 +10,7 @@
     productPesIds="15693"
     supportTopicIds="32729629"
     cloudEnvironments="public, Fairfax, usnat, ussec"
- 	articleId="insights-serveroperationmissing-performance"
+ 	articleId="appinsights-serveroperationmissing-performance"
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  

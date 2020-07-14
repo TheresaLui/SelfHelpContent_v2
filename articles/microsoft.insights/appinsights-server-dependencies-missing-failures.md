@@ -1,6 +1,6 @@
 <properties 
-    pageTitle="Server Exceptions data is incorrect or missing on Failures screen"
-    description="Troubleshooting guide for missing/incorrect exceptions in the Failures triage experience"
+    pageTitle="Server Dependencies data is incorrect or missing on Failures screen"
+    description="Troubleshooting guide for missing/incorrect dependencies in the Failures triage experience"
     service="microsoft.insights"
     resource="components"
     authors="sdash"
@@ -8,14 +8,15 @@
     displayOrder="1"
     selfHelpType="generic"
     productPesIds="15693"
-    supportTopicIds="32729627"
+    supportTopicIds="32729625"
     cloudEnvironments="public, Fairfax, usnat, ussec"
- 	articleId="insights-serverexceptionsmissing-failures"
+ 	articleId="appinsights-serverdependenciesmissing-failures"
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
-# Server Exceptions data is incorrect or missing on Failures screen
+# Server Dependencies data is incorrect or missing on Failures screen
 
+Dependencies are grouped by the "name" attribute in the Performance & Failure triage experiences. Dependency name is typically a low cardinality value representing the command initiated by that dependency call, such as the stored procedure name for SQL, or the URL path template for HTTP.  
 
 ## **Recommended Steps**
 
