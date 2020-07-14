@@ -6,6 +6,7 @@
     articleId="99811474-2a6c-4d40-ac91-ae76c76e3258_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Improve performance by optimizing MySQL temporary-table sizing
 ---
