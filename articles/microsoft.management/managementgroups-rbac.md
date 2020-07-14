@@ -7,7 +7,7 @@
     ms.author="rithorn"
     articleId="managementgroups-rbac"
     selfHelpType="generic"
-    supportTopicIds="32609543,32609546,32609548,32609549,32609550 "
+    supportTopicIds="32743304"
     productPesIds="16530"
     cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
     ownershipId="ARM_ManagementGroups"
