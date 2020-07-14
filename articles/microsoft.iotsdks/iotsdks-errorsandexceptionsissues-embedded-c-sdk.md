@@ -1,6 +1,6 @@
 <properties
 	pageTitle="EmbeddedCSDKIssues"
-	description="Embedded C SDK Issues"
+	description="Embedded-C-SDK-Issues"
 	ms.author="wduraes"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds=""
@@ -10,7 +10,7 @@
 	articleId="61c54bbd-c2c6-5271-96e7-009a87ff44bf"
 	ownershipId=""
 />
-# I'm having issues with the Embedded C SDK
+# Issues with the Embedded C SDK
 ---
 {
   "$schema": "SelfHelpContent",
