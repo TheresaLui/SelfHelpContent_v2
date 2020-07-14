@@ -19,14 +19,15 @@
 
 # Packet drop is detected
 <!--issueDescription-->
-Azure VPN gateway has detected packet drops. This issue occurs when one of the following conditions are true:
-
-- On-premises devices refuse the Quick Mode.
-- Traffic selector is mismatch between Azure VPN gateway and on-premises device.
-- A corresponding tunnel for the traffic may not be connected.
+Azure VPN gateway has detected packet drops.
 <!--/issueDescription-->
 
 ## **Recommended steps**
 
-- Ensure your IPsec configurations on the on-premises device is compatible with Azure VPN gateway.
-- Ensure the connections are showing in Connected state. If the connections are not connected, try to troubleshoot the connections from Azure portal.
+This issue occurs due to one of the following reasons:
+
+- On-premises devices refuse the Quick Mode.
+- Traffic selector is mismatch between Azure VPN gateway and on-premises device.
+  - Ensure your IPsec configurations on the on-premises device is compatible with Azure VPN gateway.
+- A corresponding tunnel for the traffic may not be connected.
+  - Ensure the connections are showing in Connected state. If the connections are not connected, try to troubleshoot the connections from Azure portal.
