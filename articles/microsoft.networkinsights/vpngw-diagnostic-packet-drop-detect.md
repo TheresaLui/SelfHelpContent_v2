@@ -26,7 +26,7 @@ Azure VPN gateway has detected packet drops.
 
 This issue occurs due to one of the following reasons:
 
-- On-premises devices refuse the Quick Mode.
+- On-premises devices refuse the Quick Mode (QM) or the devices has restrictions on supporting multiple QMs.
 - Traffic selector is mismatch between Azure VPN gateway and on-premises device.
   - Ensure your IPsec configurations on the on-premises device is compatible with Azure VPN gateway.
 - A corresponding tunnel for the traffic may not be connected.
