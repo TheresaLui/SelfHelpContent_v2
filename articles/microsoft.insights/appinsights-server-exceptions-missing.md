@@ -9,7 +9,7 @@
     selfHelpType="generic"
     productPesIds="15693"
     supportTopicIds="32729627"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, mooncake, usnat, ussec"
  	articleId="appinsights-serverexceptionsmissing-failures"
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />
@@ -31,7 +31,7 @@ If you do not see an exception, try the following steps:
     * Exception thrown during application start-up.
     * Exception thrown in background tasks.
 
-2. If you are using MVC 4 (and prior), or a very old Application Insights Web SDK, version 2.5 (and prior): then the unhandled exceptions are only collected if the [CustomErrors](https://docs.microsoft.com/previous-versions/dotnet/netframework-4.0/h0hfz6fc(v=vs.100)) configuration is set to `Off`. If it is set to `On`, then follow the [guidance](https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-exceptions#prior-versions-support) to collect exceptions.
+2. If you are using MVC 4 (and prior), or a very old Application Insights Web SDK, version 2.5 (and prior): then the unhandled exceptions are only collected if the CustomErrors configuration is set to `Off`. If it is set to `On`, then follow the [guidance](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-exceptions#prior-versions-support) to collect exceptions.
 2. If it is a WCF application, see [this](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-exceptions#wcf) to collect exceptions.
 3. If you aren't seeing any data at all, validate that your instrumentation key is set correctly through your code or in your configuration file.
 4. Ensure the Server/Browser toggle, is set to Server.

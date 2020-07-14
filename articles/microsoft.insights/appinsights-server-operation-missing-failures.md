@@ -9,7 +9,7 @@
     selfHelpType="generic"
     productPesIds="15693"
     supportTopicIds="32729628"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, mooncake, usnat, ussec"
  	articleId="appinsights-serveroperationmissing-failures"
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />

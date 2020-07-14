@@ -9,7 +9,7 @@
     selfHelpType="generic"
     supportTopicIds="32729600"
     productPesIds="15693"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, mooncake, usnat, ussec"
  	articleId="appinsights-rename-move"
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />

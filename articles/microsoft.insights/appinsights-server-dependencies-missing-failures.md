@@ -9,7 +9,7 @@
     selfHelpType="generic"
     productPesIds="15693"
     supportTopicIds="32729625"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, mooncake, usnat, ussec"
  	articleId="appinsights-serverdependenciesmissing-failures"
 	ownershipId="AzureMonitoring_ApplicationInsights"
 />
@@ -23,7 +23,7 @@ Dependencies are grouped by the "name" attribute in the Performance & Failure tr
 If you do not see a failed Dependency, try the following steps:
 
 1. The dependency you are looking for may not have been called, or may not have failed in the selected time period. Try using a longer time range.
-2. Is the dependency type you are looking for, in the list of [auto-collected dependencies](https://docs.microsoft.com/azure/application-insights/auto-collect-dependencies)? If not, has your application been instrumented with [TrackDependency](https://docs.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics#trackdependency) to collect calls to it?
+2. Is the dependency type you are looking for, in the list of [auto-collected dependencies](https://docs.microsoft.com/azure/application-insights/auto-collect-dependencies)? If not, has your application been instrumented with [TrackDependency](https://docs.microsoft.com/azure/azure-monitor/app/api-custom-events-metrics#trackdependency) to collect calls to it?
 3. If you aren't seeing any data at all, validate that your instrumentation key is set correctly through your code or in your configuration file. 
 4. Ensure the Server/Browser toggle, is set to Server.
 5. Check for any other filters on the page. A filter on roles may be excluding the role which executed the dependency call you are looking for. Try resetting the filters.
@@ -37,7 +37,7 @@ If you do not see a failed Dependency, try the following steps:
 
 7. If you see the expected failed dependency in the results of this query, with an incorrect name: Use a [custom Telemetry initializer](https://docs.microsoft.com/azure/azure-monitor/app/api-filtering-sampling#addmodify-properties-itelemetryinitializer) to override the dependency name to an appropriate meaningful value.  
 
-8. If you do not see the expected failed dependency, check to see if that dependency type is in the list of [auto-collected dependencies](https://docs.microsoft.com/azure/application-insights/auto-collect-dependencies)? If not, has your application been instrumented with [TrackDependency](https://docs.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics#trackdependency) to collect calls to it? 
+8. If you do not see the expected failed dependency, check to see if that dependency type is in the list of [auto-collected dependencies](https://docs.microsoft.com/azure/application-insights/auto-collect-dependencies)? If not, has your application been instrumented with [TrackDependency](https://docs.microsoft.com/azure/azure-monitor/app/api-custom-events-metrics#trackdependency) to collect calls to it? 
 9. Check to see if sampling is in effect. You can use the following Logs query to see the actual sampling rate per type of telemetry item:
 
 ~~~kusto
