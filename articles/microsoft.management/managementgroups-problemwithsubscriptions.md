@@ -18,7 +18,7 @@
 Here are a some common issues you might experience with subscriptions and management groups:
 
 - [I received a generic error saying something went wrong and to contact support](#generic-error-when-something-went-wrong)
-- [The management group or subscription I want to move is not listed in the dropdown](#The-subscription-or-management-group-is-not-listed)
+- [The management group or subscription I want to move is not listed in the drop down](#The-subscription-or-management-group-is-not-listed)
 - [I can't see the subscription that I just moved under a management group](#I-cannot-see-the-subscription-that-I-just-moved)
 - [Issues with Resource Groups?](#issues-with-Resource-Groups)
 
