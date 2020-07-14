@@ -40,8 +40,7 @@
 					"text": "What specific error code, if any, are you getting (400, 404, 500)"
 				}
 			]
-		},
-
+		}
 	]
 }
 ---
