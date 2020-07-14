@@ -10,9 +10,9 @@
 	articleId="falsealert-log"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629643, 32612427, 32629642"
+	supportTopicIds="32629643, 32629642"
 	resourceTags=""
-	productPesIds="15454, 15725"
+	productPesIds="15454"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="AzureMonitoring_ActionGroup"
 />

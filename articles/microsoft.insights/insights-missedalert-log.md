@@ -10,7 +10,7 @@
 	articleId="missedalert-log"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629637, 32612428, 32629636"
+	supportTopicIds="32629637, 32629636"
 	resourceTags=""
 	productPesIds="15454, 15725"
 	cloudEnvironments="public, fairfax, usnat, ussec"

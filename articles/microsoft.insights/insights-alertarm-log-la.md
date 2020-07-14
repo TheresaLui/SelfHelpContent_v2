@@ -10,9 +10,9 @@
 	articleId="insights-alertarm-log-la"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629631,32612430"
+	supportTopicIds="32629631"
 	resourceTags=""
-	productPesIds="15454,15725"
+	productPesIds="15454"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="AzureMonitoring_ActionGroup"
 />

@@ -10,7 +10,7 @@
 	articleId="insights-alertapi-log-la"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629617,32633014"
+	supportTopicIds="32629617"
 	resourceTags=""
 	productPesIds="15454,15725"
 	cloudEnvironments="public, fairfax, usnat, ussec"
