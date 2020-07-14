@@ -17,7 +17,7 @@
   "subscriptionRequired": true,
   "resourceRequired": true,
 	"title": "Errors and Exceptions",
-	"fileAttachmentHint": "",
+	"fileAttachmentHint": "If applicable, upload a screenshot of your error",
 	"formElements": [
         {
             "id": "problem_start_time",
@@ -26,24 +26,22 @@
             "displayLabel": "When did the problem start?",
             "required": true
         },
-          {
+		{
 			"id": "problem_description",
-			"order": 2,
-			"controlType": "textblock",
-			"displayLabel": "What specific error code are you getting (400, 404, 500)",
-			"watermarkText": "Provide any error message that you're seeing",
-			"required": false,
-			"useAsAdditionalDetails": false
+			"order": 5,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Details",
+			"watermarkText": "Provide additional information about your issue",
+			"required": true,
+			"useAsAdditionalDetails": true,
+			"hints": [{
+					"text": "Issue description."
+				}, {
+					"text": "What specific error code, if any, are you getting (400, 404, 500)"
+				}
+			]
 		},
-        {
-            "id": "problem_description",
-            "order": 3,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Description",
-            "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "useAsAdditionalDetails": true
-        }
+
 	]
 }
 ---
