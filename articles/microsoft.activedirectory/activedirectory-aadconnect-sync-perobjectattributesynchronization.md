@@ -8,8 +8,9 @@
     supportTopicIds="32570976"
     resourceTags=""
     productPesIds="14785,16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="bd143943-d7e5-4dba-b5e0-f52fae4358cd"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Synchronizing AD to Azure AD/Per object or attribute synchronization

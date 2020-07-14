@@ -11,8 +11,9 @@
     supportTopicIds="32637160"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="34ab8c42-43e2-4cf2-8dfa-0a18dce86b9d"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Pipeline Activities - General Common Solutions

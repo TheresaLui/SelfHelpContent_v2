@@ -10,8 +10,9 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="4af8436b-767f-444a-8499-330740d8d7da"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check the VIP/DIP of Standard External LB

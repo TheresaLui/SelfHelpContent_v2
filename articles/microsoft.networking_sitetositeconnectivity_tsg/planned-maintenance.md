@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="542836b5-d407-4c33-87fc-2957a83f4f26"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Planned Maintenance

@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633402"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="sb-debug-monitor"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Monitor and Debug 
 ---

@@ -5,10 +5,11 @@
     ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639994"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="17067,17069,17068"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-mornitoring-issuesmetricshown"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Monitoring and Alerting - Issues with metrics shown in the portal
 ---

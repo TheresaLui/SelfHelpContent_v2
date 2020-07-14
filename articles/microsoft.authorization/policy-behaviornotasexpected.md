@@ -7,11 +7,12 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636050"
+    supportTopicIds="32730236"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="public"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     articleId="617fa773-33d8-4073-a8a4-1e9a3c83dcae"
+    ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Policy behavior not as expected
@@ -28,7 +29,7 @@
 
 **Is this a built-in policy or initiative?**
 
-* [Understanding ‘Enable Monitoring using Azure Security Center’ initiative](https://docs.microsoft.com/azure/security-center/tutorial-security-policy)
+* [Understanding 'Enable Monitoring using Azure Security Center' initiative](https://docs.microsoft.com/azure/security-center/tutorial-security-policy)
 * [Understanding Policy effects](https://docs.microsoft.com/azure/governance/policy/concepts/effects)
 
 **Is this a custom policy?**

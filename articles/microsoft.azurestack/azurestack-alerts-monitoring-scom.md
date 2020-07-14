@@ -10,8 +10,9 @@
     supportTopicIds="32629267"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="456410f8-bbc3-40ee-b02c-6bae79afe699"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack System Center Operations Manager (SCOM) connectivity

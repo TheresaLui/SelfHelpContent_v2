@@ -9,8 +9,9 @@
 	supportTopicIds="32518067"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="a810d1d5-cbbf-4938-9387-14fde6384bb4"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # tools/azure portal

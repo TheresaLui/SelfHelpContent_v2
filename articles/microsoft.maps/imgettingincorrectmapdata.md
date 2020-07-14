@@ -10,8 +10,9 @@
 	supportTopicIds=""
 	productPesIds=""
 	displayOrder="7"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleID="azuremaps.imgettingincorrectmapdata"
+	ownershipId="AzureIot_AzureMaps"
 />
 
 # I'm getting incorrect map data

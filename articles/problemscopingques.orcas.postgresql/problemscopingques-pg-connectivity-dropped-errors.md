@@ -4,11 +4,12 @@
 	authors="Xin-Cheng"
 	ms.author="chengxin"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32639979,32639977"
-	productPesIds="16222"
-	cloudEnvironments="public"
+	supportTopicIds="32731217,32639977"
+	productPesIds="17067,17069,17068"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-pg-connectivity-dropped-errors"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Database Connectivity - Established connection is dropped or terminated && Error while connecting to the server
 ---

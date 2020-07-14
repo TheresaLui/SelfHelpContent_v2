@@ -11,8 +11,9 @@
 	supportTopicIds="32680651"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="datalakeanalytics-Job-started-to-return-incorrect-results"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # Job started to return incorrect results

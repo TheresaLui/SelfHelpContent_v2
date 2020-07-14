@@ -6,6 +6,7 @@
     articleId="e10b1381-5f0a-47ff-8c7b-37bd13d7c974_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="CloudFit_CostOptimization"
 />
 # Right-size or shutdown underutilized virtual machines
 ---
@@ -105,7 +106,7 @@
   "displayLabel": "Shut down or resize your virtual machine",
   "additionalColumns": [],
   "ingestionClientIdentities": [
-    "CN=metricsclient.geneva.core.windows.net;CN=Microsoft IT TLS CA 5, OU=Microsoft IT, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+    "CN=metricsclient.geneva.core.windows.net;CN=Microsoft IT TLS CA 1, OU=Microsoft IT, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
   ],
   "tip": "You can optimize underutilized virtual machines to reduce your monthly Azure spend.",
   "costSavingInfo": "*You can save up to the stated amount and your actual savings may vary."

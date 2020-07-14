@@ -10,8 +10,9 @@
     supportTopicIds="32637609"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="ba1d8271-95f4-4cd0-89a2-cfd44581ba3b"    
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting privilege escalation 

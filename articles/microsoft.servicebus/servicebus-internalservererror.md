@@ -10,8 +10,9 @@
 	supportTopicIds="32633399"
 	resourceTags=""
 	productPesIds="13186"
-	cloudEnvironments="public,BlackForest,Fairfax"
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
 	articleId="37410e78-f238-4ed2-9bfc-f52eab42da9d"
+	ownershipId="AzureMessaging_Common"
 />
 
 # errors and exceptions/internal server error

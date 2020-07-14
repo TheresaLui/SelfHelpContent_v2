@@ -10,8 +10,9 @@
 	supportTopicIds="32302787"
 	resourceTags=""
 	productPesIds="16975"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="c3ddfee8-4a69-4fce-9575-81182c2bb277"
+	ownershipId="CloudNet_ContentDeliveryNetwork"
 />
 
 # configuration/custom domain name (cname)

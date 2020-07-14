@@ -5,15 +5,16 @@
 	service="Microsoft.Adfs"
 	resource="Tenant"
 	authors="madhavpatel6"
-  ms.author="madpatel"
+    ms.author="madpatel"
 	displayOrder="1"
 	articleId="adfs_token_signing_cert_mismatch"
 	diagnosticScenario="ADFS - Token Signing Cert Mismatch"
 	selfHelpType="diagnostics"
-	supportTopicIds="32045775"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
+	productPesIds=""
+	cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
+	ownershipId="AzureIdentity_AuthReach_HybridAuthentication"
 />
 
 # Sign-In issues into Azure AD with AD FS due a mismatch of the token signing certificate

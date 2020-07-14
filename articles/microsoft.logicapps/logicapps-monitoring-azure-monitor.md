@@ -10,8 +10,9 @@
     supportTopicIds="32588754"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="oli02tg3-706d-401c-b984-f924c12f1e9f"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps Azure Monitor

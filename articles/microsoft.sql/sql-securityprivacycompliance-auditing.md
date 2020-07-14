@@ -10,8 +10,9 @@
 	supportTopicIds="32630407"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="9fcb9dab-5912-42b6-b6d8-9d0a4bd18c87"
+	ownershipId="AzureData_AzureSQLDB_Security"
 />
 
 # Auditing

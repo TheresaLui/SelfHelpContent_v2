@@ -12,20 +12,21 @@
 	supportTopicIds="32632079"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Create an Asset
 
 **NOTE:** This topic references Media Services v3 API documentation. v3 is the latest Media Services version.
 
-You need to create an Asset if you want to encode or analyze your on-demand content. Or, if you have a Live Output that is associated with an Asset, which it uses to store the record videos.
+You need to create an Asset if you want to encode or analyze your on-demand content. Or, if you have a Live Output that is associated with an Asset. A Live Output uses an Asset to store recorded videos.
 
 ## **Recommended Steps**
 
 **Upload digital files into Assets**
 
-The following general steps describe how to upload a file. Then, encode or analyze the uploaded file. <br>
+The following steps describe how to upload a file and then encode or analyze the uploaded file. <br>
 
 1. Use the Media Services v3 API to create a new "input" Asset. This operation creates a container in the storage account associated with your Media Services account. The API returns the container name, for example: `"container": "asset-b8d8b68a-2d7f-4d8c-81bb-8c7bbbe67ee4"`. If you already have a blob container that you want to associate with an Asset, you can specify the container name when creating the Asset. Media Services currently only supports blobs in the container root and not with paths in the file name. Thus, a container with the "input.mp4" file name will work. However, a container with the "videos/inputs/input.mp4" file name, will not work.
 

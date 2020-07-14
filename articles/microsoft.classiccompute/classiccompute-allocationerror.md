@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""	 
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="06689373-2b72-4fb3-b8d9-189d28ec8228"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My deployment fails with allocation errors

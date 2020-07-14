@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640123"
 	productPesIds="16617"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-mariadb-connectivity-firewall"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Database Connectivity - Firewall rules or VNETs
 ---

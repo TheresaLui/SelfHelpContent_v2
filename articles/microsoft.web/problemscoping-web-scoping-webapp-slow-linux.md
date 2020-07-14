@@ -7,9 +7,10 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32457411"
 	productPesIds="16170"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="a9219edd-4dc7-9b67-099847303e2a"
+	ownershipId="Compute_AppService"
 />
 
 # Web app slow
@@ -65,8 +66,8 @@
 			"displayLabel": "Is the issue still occurring? If not, how was the issue resolved??",
 			"watermarkText": "...",
 			"required": false
-		}
-    ],
+		}],
     "$schema": "SelfHelpContent"
 }
 ---
+

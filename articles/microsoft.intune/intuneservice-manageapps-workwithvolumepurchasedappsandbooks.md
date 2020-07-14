@@ -9,8 +9,9 @@
 	supportTopicIds="32599688"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="42fa2f90-e411-4af9-a81c-b97abce6f922"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Apps - Work with volume purchased apps and books

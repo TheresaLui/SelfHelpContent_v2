@@ -7,8 +7,9 @@
     displayOrder="2570"
     selfHelpType="resource"
     resourceTags="userandgroups_overview,userandgroups_user"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="0bb3f8d7-e9be-4515-94e8-1de8eaec35c0"
+	ownershipId="AzureIdentity_User"
 />
 # I can’t delete a user from my directory
 

@@ -11,7 +11,8 @@
 	supportTopicIds="32629560"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection - Labels are not being applied as expected

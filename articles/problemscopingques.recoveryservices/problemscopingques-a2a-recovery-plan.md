@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32574721"
          productPesIds="16370"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="q2ade905-df87-4222-9534-98223c9c0527"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Recovery plans

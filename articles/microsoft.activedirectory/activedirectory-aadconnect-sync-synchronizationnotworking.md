@@ -9,8 +9,9 @@
     supportTopicIds="32565591"
     resourceTags=""
     productPesIds="14785,16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="d23e4390-180d-4024-8eea-23fc48044803"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Synchronizing AD to Azure AD/Synchronization not working

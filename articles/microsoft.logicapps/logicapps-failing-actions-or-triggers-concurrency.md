@@ -10,8 +10,9 @@
     supportTopicIds="32728879"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="cc4f0826-9c81-4fd5-a993-882aabd666fb"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps - Concurrency

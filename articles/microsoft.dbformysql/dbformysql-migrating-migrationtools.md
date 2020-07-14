@@ -10,8 +10,9 @@
     supportTopicIds="32640069"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="4acf8133-6c71-4ef1-a9dc-bc8310c40650"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Migration tools for Azure Database for MySQL
@@ -25,6 +26,7 @@ Most question around migration tools and recommendations can be solved by workin
 * Review the [Azure Database Migration Guide](https://datamigration.microsoft.com/)
 * Review the [Migrate MySQL to Azure Database for MySQL online using DMS](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online) tutorial
 * If you are migrating using dump & restore and encounter problems, familiarize yourself with [Migrate your MySQL database to Azure Database for MySQL using dump and restore](https://docs.microsoft.com/azure/mysql/concepts-migrate-dump-restore/) how-to
+* If you are migrating using the MySQL Workbench Database Migration Wizard, refer to the [MySQL Workbench](https://dev.mysql.com/doc/workbench/en/wb-migration.html) documentation
 
 If you are using dump and restore:
 
@@ -41,4 +43,5 @@ If you are using dump and restore:
 * [Data Migration Service](https://azure.microsoft.com/services/database-migration/)<br>
 * [Database Migration Guide](https://datamigration.microsoft.com/)<br>
 * [Azure Database for MySQL documentation](https://docs.microsoft.com/azure/mysql/)<br>
-* [Migrate MySQL using dump and restore](https://docs.microsoft.com/azure/mysql/concepts-migrate-dump-restore/)
+* [Migrate MySQL using dump and restore](https://docs.microsoft.com/azure/mysql/concepts-migrate-dump-restore/)<br>
+* [Migrate using MySQL Workbench Database Migration Wizard](https://dev.mysql.com/doc/workbench/en/wb-migration.html)

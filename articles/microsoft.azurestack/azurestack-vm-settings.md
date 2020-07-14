@@ -10,13 +10,16 @@
     supportTopicIds="32663898,32663899"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-vm-settings"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Modifying Azure Stack Virtual Machine Settings
 
 Azure Stack has the ability to change the size of your VM based on the needs for CPU, Network, or disk performance. You can modify size, as well as a number of other settings for your VM.
+
+4 out of 5 customers resolved their issue using the guides listed below.<br>
 
 ## **Recommended Steps**
 

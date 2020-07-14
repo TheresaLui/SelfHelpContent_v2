@@ -12,6 +12,7 @@
     productPesIds="15629"
     cloudEnvironments="MoonCake"
 	articleId="d17eba63-bd7e-4fd8-bc02-ff1207ebfabb"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # I need help with Import/Export

@@ -10,8 +10,9 @@
     supportTopicIds="32615432"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="5430abc2-3eaf-4dec-bdbb-32778f621290"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 # I'm having a problem with password reset registration
 ## **Recommended steps**

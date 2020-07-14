@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="servicefabric"
 	productPesIds=""
-	cloudEnvironments="public,BlackForest,Fairfax"	 
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"	 
 	articleId="f46fdc09-d92b-464e-aea2-48c7793a402d"
+	ownershipId="Compute_ServiceFabric"
 />
     
 # My cluster is not starting or nodes are not displaying

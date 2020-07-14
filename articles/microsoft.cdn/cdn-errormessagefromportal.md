@@ -10,8 +10,9 @@
 	supportTopicIds="32302788"
 	resourceTags=""
 	productPesIds="16975"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="8c1979e3-771b-445b-8477-1f43455b1eba"
+	ownershipId="CloudNet_ContentDeliveryNetwork"
 />
 
 # management portal/error message from portal

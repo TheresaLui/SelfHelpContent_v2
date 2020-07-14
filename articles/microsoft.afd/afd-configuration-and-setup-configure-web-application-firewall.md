@@ -10,8 +10,9 @@
     supportTopicIds="32614248,32663936"
     resourceTags=""
     productPesIds="16611"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="24eaa3ea-0e2e-42df-a929-441543bd6558"
+	ownershipId="CloudNet_AzureFrontdoor"
 />
 
 # Configure Web Application Firewall (WAF)

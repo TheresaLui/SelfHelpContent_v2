@@ -6,6 +6,7 @@
     articleId="02c15f98-aedb-481b-884b-af5847b2bf3d_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="Compute_VirtualMachines"
 />
 # Use availability sets for improved fault tolerance
 ---
@@ -24,7 +25,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Compute/virtualMachines",
   "recommendationFriendlyName": "SIVM",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

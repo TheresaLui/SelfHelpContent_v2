@@ -10,8 +10,9 @@
 	supportTopicIds="32628268"
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454,16470"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="2f101132-9899-437e-a74f-f5dd404fd8f9"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Diagnose and resolve Linux Virtual Machine GPU performance issues

@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="7223b7a3-e982-43de-a303-6b747ccd9af0"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # IKE SA Deleted Error

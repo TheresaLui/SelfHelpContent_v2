@@ -10,8 +10,9 @@
 	supportTopicIds="32689185"
 	resourceTags=""
 	productPesIds="16957"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="26eb6a60-c79d-4945-906a-4fe1806b7eff"
+	ownershipId="AzureIdentity_OtherMSGraphAPIs"
 />
 
 # Microsoft Graph Data Connect API issues

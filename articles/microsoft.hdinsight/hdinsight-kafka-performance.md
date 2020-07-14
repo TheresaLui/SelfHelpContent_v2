@@ -10,8 +10,9 @@
     supportTopicIds="32636470"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-kafka-performance"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight Kafka Performance: How to get the most out of your Kafka cluster

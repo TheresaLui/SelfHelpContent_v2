@@ -10,6 +10,7 @@
     resourceTags="Azure_RBAC"
     cloudEnvironments="MoonCake"
     articleId="activedirectory-rbac-unable-to-view-and-manage-resources-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Unable to view and manage Azure resources

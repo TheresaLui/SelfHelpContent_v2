@@ -8,9 +8,10 @@
 	ms.author="bradwall"
 	supportTopicIds="32690897"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.pipelines.usingpipelinestep"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Using a Built-In Pipeline Step

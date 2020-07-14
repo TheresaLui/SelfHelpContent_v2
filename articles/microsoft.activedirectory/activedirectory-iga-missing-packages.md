@@ -10,8 +10,9 @@
 	supportTopicIds=""
 	resourceTags="governance_overview"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="8986a0a9-aa7e-49ee-b38a-c337752b52fe"
+	ownershipId="AzureIdentity_User"
 />
 
 # Why aren't access packages showing up in a user's MyAccess portal?

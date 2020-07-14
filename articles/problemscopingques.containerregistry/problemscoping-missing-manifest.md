@@ -7,9 +7,10 @@ ms.author="nathana"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32680714"
 productPesIds="16213"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="problemscoping-missing-manifest"
 schemaVersion="1"
+	ownershipId="ContainerRegistry_Runtime"
 />
 # Missing Manifest or Tag
 ---

@@ -8,9 +8,10 @@
 	ms.author="anumamah"
 	supportTopicIds="32690880"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.automl.runningexperiments"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Running an Automated ML Experiment

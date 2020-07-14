@@ -9,8 +9,9 @@
 	supportTopicIds="32680938"
 	resourceTags=""
 	productPesIds="16509"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="14bc5cb4-01f0-49fb-8757-fc31add23ffc"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # Problems related to the Azure CLI

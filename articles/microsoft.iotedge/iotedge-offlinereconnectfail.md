@@ -9,8 +9,9 @@
 	supportTopicIds="32680983"
 	resourceTags=""
 	productPesIds="16509"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="ff4317fd-3c49-446d-882b-bef72440ed17"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # My IoT Edge device doesn't reconnect after coming back online

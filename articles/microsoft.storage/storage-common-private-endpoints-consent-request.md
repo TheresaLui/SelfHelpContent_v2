@@ -11,8 +11,9 @@
 	supportTopicIds="32689875,32689149,32689871,32689879,32689867"
 	productPesIds="15629,16459,16461,16462,16598,16460"
 	resourceTags=""
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="storage_common_private_endpoints_consent_request"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Troubleshoot consent approval/rejection with Azure Private Endpoints for Storage service

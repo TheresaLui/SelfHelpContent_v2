@@ -10,8 +10,9 @@
 	supportTopicIds="32628279"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="2b6deeb3-490a-4d18-8a36-83ed65de8451"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # I received a provisioning or deployment timeout error

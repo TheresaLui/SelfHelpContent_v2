@@ -10,10 +10,13 @@
     selfHelpType="generic"
     supportTopicIds="32684743"
     productPesIds="16250"
-    cloudEnvironments="public,fairfax,mooncake"
+    cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- metrics-export-or-query-rest-api -->
+
+**NOTE:** If you need to query metrics programmatically without the context of the authenticated user, you need to create and use a service account as described in [How to: Use the portal to create an Azure AD application and service principal that can access resources](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal).
 
 When you are making REST API calls for metrics, you may receive one the following error messages or indications of a problem: 
 * "Authorization Failed" error message

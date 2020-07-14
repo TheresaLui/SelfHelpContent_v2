@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="2b96812f-70a5-4de7-856f-e5ec13e8a4ec"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # How to collect Brooklyn Diagnostics for Policy Based VPN

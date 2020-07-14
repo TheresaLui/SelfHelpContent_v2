@@ -7,8 +7,9 @@
       selfHelpType="problemScopingQuestions"
       supportTopicIds="32675688"
       productPesIds="16157"
-      cloudEnvironments="public, MoonCake, fairfax" 
+      cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
       schemaVersion="1"
+	ownershipId="AzureData_AnalysisServices"
 />
 # Quickstart: Configure server firewall - Portal
 ---

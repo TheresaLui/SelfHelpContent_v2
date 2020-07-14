@@ -9,8 +9,9 @@ description="diagnostictools/nexthop"
 	supportTopicIds="32606440"
 	resourceTags=""
 	productPesIds="16160"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="a4dd9713-f962-4bc6-a389-6b79764692f7"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # diagnostictools/nexthop

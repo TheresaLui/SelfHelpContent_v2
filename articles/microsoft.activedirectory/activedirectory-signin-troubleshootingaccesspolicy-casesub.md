@@ -10,16 +10,29 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="484b506b-cd37-45aa-b0eb-ea11c390a70b"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Troubleshooting conditional access policies in Azure Active Directory
-To view a short video, see [Enable Azure Active Directory Conditional Access to secure user access](https://www.youtube.com/watch?time_continue=4&v=eLAYBwjCGoA).
 
 ## **Recommended Steps**
 
-Now that you have configured your conditional access policy, you probably want to know whether it works as expected. As a first step, use the conditional access [what-if policy tool](https://docs.microsoft.com/azure/active-directory/conditional-access/what-if-tool) to simulate a sign-in of your test user. The simulation estimates the impact this sign-in has on your policies and generates a simulation report.
+**Steps to [Troubleshoot a Sign-In](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if)**
+1.	Navigate to the Azure AD Sign-ins page
+2.	Filter sign-ins by user, time range, application, status, client app and more
+3.	Select a sign-in event and view the Conditional Access tab to see which policies were evaluated
+4.	Click on the row of a policy to view the policy details and understand why it applied
+
+**Tools to troubleshoot a Conditional Access policy**
+* Report-only mode lets you evaluate a policy without impacting users
+* What-if tool lets you simulate sign-in events and see which policies apply
+* Insights and reporting workbook displays real-time impact of each policy
+
+**Baseline Protection Policies**
+- Baseline Protection policies have been deprecated. They are no longer being enforced and will soon be removed from Azure Portal. We recommend enabling [security defaults](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) or [configuring equivalent conditional access policies](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common#typical-policies-deployed-by-organizations) instead. 
+
 
 ## **Recommended Documents**
 

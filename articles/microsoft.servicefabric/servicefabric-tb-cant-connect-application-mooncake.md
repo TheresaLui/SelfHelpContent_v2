@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="03d4c6ed-690c-48b3-ad68-2a8c7c4e4e8b"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Connection failures to applications deployed in a cluster

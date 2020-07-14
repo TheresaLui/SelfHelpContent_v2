@@ -13,7 +13,8 @@
     supportTopicIds="32513964"
     resourceTags="windows,linux"
     productPesIds="14749,15571,15797,16454,16470"
-    cloudEnvironments="public,fairfax"
+    cloudEnvironments="public,fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Migrate your IaaS resources to Azure Resource Manager by 3/1/2023
@@ -32,7 +33,7 @@ The following Azure services and functionality will **NOT** be impacted by this 
 
 ## **Recommended Steps**
  
-You should start planning the migration of your existing Classic IaaS VMs from ASM to ARM today. For more information please see our [classic IaaS VM deprecation](https://docs.microsoft.com/azure/virtual-machines/windows/migration-classic-resource-manager-plan) documentation.
+You should start planning the migration of your existing Classic IaaS VMs from ASM to ARM today. For more information please see our [classic IaaS VM deprecation](https://docs.microsoft.com/azure/virtual-machines/classic-vm-deprecation) documentation.
 
 ## **Recommended Documents**
 

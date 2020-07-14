@@ -10,8 +10,9 @@
 	supportTopicIds="32727942"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	articleId="configpolicy_createpolicies"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - Creating and configuring Labels and Policies - Creating Policies"

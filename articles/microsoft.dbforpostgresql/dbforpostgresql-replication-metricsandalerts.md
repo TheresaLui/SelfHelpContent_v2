@@ -9,9 +9,10 @@
     selfHelpType="generic"
     supportTopicIds="32639995"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="fba936eb-4442-45b7-b086-a4b6b912d5ac"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Monitoring replication
@@ -62,6 +63,10 @@ Periodically, an agent does a check on the master and on the replica. If you don
 The *Max lag across replicas* metric shows the lag in bytes between the master and its most lagging replica. If all replicas are up to date with the master, the value will be 0.
 
 If data is missing from your replica while *Max lag across replicas* continues to be 0, proceed to open a support ticket. 
+
+**Issue:** Receiving a number of alerts with  *max lag exceeding number of bytes*
+
+ Please check your alert setting for maximum replica lag metric. It may be too low (may be in KBs) for your workload. Depending in your workload and the replica placement, the replica may be hitting this alert limit often. In such case, please consider increasing the max replica lag limit to a higher value - to even in MBs.
 
 ## **Recommended Documents**
 

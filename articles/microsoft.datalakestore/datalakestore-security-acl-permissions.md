@@ -10,8 +10,9 @@
     supportTopicIds="32674925"
     resourceTags=""
     productPesIds="15879"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="ad7ac39e-68f5-42d8-88e5-dbd2a9cc068f"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # Troubleshoot my security or access issue - ACL or permissions related

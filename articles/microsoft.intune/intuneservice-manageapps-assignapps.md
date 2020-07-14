@@ -9,8 +9,9 @@
 	supportTopicIds="32599600"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="f6ca8359-0a1e-4a92-ae61-560062e07596"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Apps - Assign Apps

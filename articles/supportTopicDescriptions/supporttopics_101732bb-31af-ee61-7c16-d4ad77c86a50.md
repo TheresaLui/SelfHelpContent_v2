@@ -9,7 +9,8 @@ feedbackEmail="appgwpm@microsoft.com"
 productPesIds = "101732bb-31af-ee61-7c16-d4ad77c86a50"
 selfHelpType = "supportTopicDescription"
 articleId = "application-gateway-supporttopicdescription"
-cloudEnvironments = "public,BlackForest,Fairfax,MoonCake" 
+cloudEnvironments="public,BlackForest,Fairfax,MoonCake, usnat, ussec" 
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 

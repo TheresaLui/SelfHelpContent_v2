@@ -9,8 +9,9 @@
 	resourceTags="notificationHubs"
 	productPesIds="15973"
 	supportTopicIds="32565569"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
 	articleId="1643aeac-0b65-40c4-a4e3-815a4fd90fcf"
+	ownershipId="AzureNotificationHubs"
 />
 
 # Manage My Hub/How do I achieve disaster recovery

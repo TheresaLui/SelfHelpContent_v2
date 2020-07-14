@@ -5,7 +5,8 @@
     ms.author="xdataanalytics"
     articleId="02cfb5ef-z9b0-3522-8743-142gceb10057_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Sample title
 ---
@@ -15,8 +16,8 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "7e9fbfe8-1234-435c-b114-424445c9be6f",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('xstore').AzureStorageAdvisorUseLatestVersionSDK_DMLib",
-    "dataSource": "Kusto",
+    "streamNamespace": "AzureStorage.Data.AzureStorageAdvisorUseLatestVersionSDK_DMLib_PublicV2",
+    "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
@@ -33,7 +34,7 @@
     },
     "serviceTreeId": "734379f9-2d2c-48d4-a52a-5c509f699de4"
   },
-  "version": 1,
+  "version": 2,
   "learnMoreLink": "https://aka.ms/AA5wtca",
   "description": "Upgrade your Storage Client Library to the latest version for better reliability and performance",
   "longDescription": "The latest version of Storage Client Library/ SDK contains fixes to issues reported by customers and proactively identified through our QA process. The latest version also carries reliability and performance optimization in addition to new features that can improve your overall experience using Azure Storage.",

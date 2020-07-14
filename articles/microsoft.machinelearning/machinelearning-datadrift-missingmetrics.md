@@ -9,8 +9,9 @@
     supportTopicIds="32690851"
     resourceTags=""
     productPesIds="16644"
-    cloudEnvironments="Public"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
  	articleId="machinelearning-datadrift-missingmetrics"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Why are some or all drift metrics missing?

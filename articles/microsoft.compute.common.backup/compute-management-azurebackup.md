@@ -10,8 +10,9 @@
 	supportTopicIds="32565495"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public,mooncake"
+	cloudEnvironments="public,mooncake, Fairfax, usnat, ussec"
 	articleId="8d288890-9ec2-4271-a3b9-7c40c1849958"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Resolve issues with Azure Backup Management

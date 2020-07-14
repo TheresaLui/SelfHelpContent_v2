@@ -11,7 +11,8 @@
     supportTopicIds="32635060"
     resourceTags=""
     productPesIds="15614"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_AzureBatch"
 />
 
 # Batch with Azure Data Factory

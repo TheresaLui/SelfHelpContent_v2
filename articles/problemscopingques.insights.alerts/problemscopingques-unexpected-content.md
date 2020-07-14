@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32629652, 32629665, 32629666, 32629667, 32629668, 32629670"
 	productPesIds="15454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 # Notification content is not what I expected
 ---

@@ -7,8 +7,9 @@
 	articleid="ProvideOnPremDevice"
 	supportTopicIds="32591149, 32591152, 32633157, 32584874"
 	productPesIds="16094,15526"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # VPN Gwy On Prem Device
 ---

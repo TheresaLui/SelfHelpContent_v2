@@ -13,7 +13,8 @@
 	supportTopicIds="32640115"
 	resourceTags="windows, linux"
 	productPesIds="16617"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Having trouble with Azure Portal

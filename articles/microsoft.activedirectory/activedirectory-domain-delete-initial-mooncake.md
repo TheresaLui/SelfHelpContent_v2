@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="activedirectory-domain-delete-initial-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I want to delete the initial .omschina.cn domain

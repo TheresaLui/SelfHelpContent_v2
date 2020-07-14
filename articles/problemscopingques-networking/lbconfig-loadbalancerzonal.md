@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32608576"
 	productPesIds="16098"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="700961cc-d014-454a-be70-2069dc2e00ff"
+	ownershipId="CloudNet_LoadBalancer"
 />
 # SLB - Configure a Zone-Specific Load Balancer
 ---

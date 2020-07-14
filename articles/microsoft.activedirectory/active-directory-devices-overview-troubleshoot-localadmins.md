@@ -10,8 +10,9 @@
 	supportTopicIDs=""
 	resourceTags="devices_overview"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="d1827712-638c-4a0c-baf4-f5b04e0194e2"
+	ownershipId="AzureIdentity_User"
 />
 
 # I cannot add groups to additional local administrators

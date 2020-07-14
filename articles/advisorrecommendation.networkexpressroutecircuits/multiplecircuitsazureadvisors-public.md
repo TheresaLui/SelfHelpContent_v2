@@ -5,7 +5,8 @@ authors = "aadevteam"
 ms.author = "aadevteam"
 articleId = "70f87e66-9b2d-4bfa-ae38-1d7d74837689_Public"
 selfHelpType = "advisorRecommendationMetadata"
-cloudEnvironments = "Public" 
+cloudEnvironments="Public, usnat, ussec" 
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Implement multiple ExpressRoute circuits in your Virtual Network for cross premises resiliency
 ---

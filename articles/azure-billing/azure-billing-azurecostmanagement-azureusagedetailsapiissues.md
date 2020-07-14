@@ -1,53 +1,29 @@
 <properties
-	pageTitle="azure usage details api issues"
-	description="azure usage details api issues"
+	pageTitle="azure cost management - issuenotlisted"
+	description="azure cost management- issuenotlisted"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
+	ms.author="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32615282"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Blackforest, Mooncake, Fairfax, usnat, ussec"
 	articleId="6d796f8e-2c5d-4cf5-97bf-61f2ad86cc00"
+	ownershipId="ASMS_Billing"
 />
 
-# Azure Usage details API Issues
-The Azure Consumption APIs give you programmatic access to cost and usage data for your Azure resources. Azure Consumption APIs provide access to:
+# Azure cost management- issuenotlisted
 
-* Enterprise Customers Only<br>
-* Price sheet<br>
-* Budgets<br>
-* Forecasts<br>
-* Balances<br>
-* Tags<br>
-* Cost Tags<br>
-* Enterprise and Web Direct Customers<br>
-* Reservation Details<br>
-* Reservation Summaries<br>
-* Marketplace Charges<br>
-* Usage Details<br>
-* Reservation Recommendations<br>
+## **Recommended Documents**
 
-List of Unsupported Subscription Types:
-
-* MS-AZR-0145P (CSP)<br>
-* MS-AZR-0146P (CSP)<br>
-* MS-AZR-159P (CSP)<br>
-* MS-AZR-0036P (sponsored)<br>
-* MS-AZR-0143P (sponsored)<br>
-* MS-AZR-0015P (internal)<br>
-* MS-AZR-0144P (DreamSpark)<br>  
-Learn more : [Azure Consumption REST API documentation](https://docs.microsoft.com/rest/api/consumption/)<br>
-
-## **Recommended documents**
-
-* [Azure Cost Management REST API](https://docs.microsoft.com/rest/api/cost-management/)<br>
-* [Azure Consumption Python SDK](https://docs.microsoft.com/python/api/overview/azure/consumption?view=azure-python)<br>
-* [Azure Consumption CLI](https://docs.microsoft.com/cli/azure/consumption?view=azure-cli-latest)<br>
-* [Azure Consumption .NET SDK](https://docs.microsoft.com/dotnet/api/overview/azure/consumption/management?view=azure-dotnet)<br>
-* [Azure Consumption NodeJS SDK](https://docs.microsoft.com/javascript/api/overview/azure/consumption?view=azure-node-2.2.0)<br>
-* [Azure Consumption Ruby SDK](https://rubygems.org/gems/azure_mgmt_consumption)<br>
-* [What is Azure Cost Management ?](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)<br>
-* [Azure Cost Management best practices](https://docs.microsoft.com/azure/cost-management/cost-mgt-best-practices)<br>
+* [Cost Management best practices](https://docs.microsoft.com/azure/cost-management/cost-mgt-best-practices)<br>
+* [What is Azure Cost Management?](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview)<br>
+* [Costs included in Cost Management](https://docs.microsoft.com/azure/cost-management/understand-cost-mgt-data#costs-included-in-cost-management)<br>
+* [Scopes in Cost Management](https://docs.microsoft.com/azure/cost-management/understand-work-scopes#scopes)<br>
+* [Historical data in Cost Management](https://docs.microsoft.com/azure/cost-management/understand-cost-mgt-data#historical-data-might-not-match-invoice)<br>
+* [Cost Analysis and Invoice Reconciliation](https://azure.microsoft.com/blog/azure-cost-management-updates-september-2019/#invoices)<br>
+* [How to validate cost by analyzing usage](https://docs.microsoft.com/azure/billing/billing-understand-your-bill)<br>
+* [Connect to Azure Cost Management in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-azure-cost-management)<br>

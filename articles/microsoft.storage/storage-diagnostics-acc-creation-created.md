@@ -12,7 +12,8 @@ diagnosticScenario="Storage account was successfully created"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Storage account was successfully created
@@ -20,6 +21,6 @@ cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
 
 Storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** was successfully created at **<!--$IssueTime-->[IssueTime]<!--/$IssueTime-->**.
 
-Any access issue to this storage account could caused by security restrictions. Please ensure you have permission to access this storage account. 
+Any access issue to this storage account could be caused by security restrictions. Please ensure you have permission to access this storage account. 
 <!--/issueDescription-->
 

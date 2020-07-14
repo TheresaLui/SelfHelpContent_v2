@@ -4,11 +4,12 @@
 	authors="Passaree"
     ms.author="passap"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32688873"
-	productPesIds="15629"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	supportTopicIds="32688873,32642178"
+	productPesIds="15629,16459"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="E6801E5C-EFBD-472A-ADC5-F21DC1C5B133"
+    ownershipId="StorageMediaEdge_XStore"
 />
 # Issues accessing a new storage account
 ---
@@ -44,18 +45,6 @@
                 {
                     "value": "blob",
                     "text": "Blob"
-                },
-                {
-                    "value": "file_share",
-                    "text": "File share"
-                },
-                {
-                    "value": "file",
-                    "text": "File"
-                },
-                {
-                    "value": "table",
-                    "text": "Table"
                 },
                 {
                     "value": "dont_know_answer",

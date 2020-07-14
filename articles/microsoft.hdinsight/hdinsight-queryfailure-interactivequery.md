@@ -10,8 +10,9 @@
     supportTopicIds="32636465"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="cbc180e5-cb47-4b36-a294-f08b97e02421"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight Interactive Query Troubleshooting

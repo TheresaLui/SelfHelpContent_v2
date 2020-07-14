@@ -7,9 +7,10 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32542208"
 	productPesIds="16333"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="69353d19-4a89-8e61-a74482e15"
+	ownershipId="Compute_AppService"
 />
 
 # Backup and Restore

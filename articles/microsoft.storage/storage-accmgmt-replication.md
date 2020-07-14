@@ -10,8 +10,9 @@
 	supportTopicIds="32691089"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="commonSoln_replication"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Which account replication type to use

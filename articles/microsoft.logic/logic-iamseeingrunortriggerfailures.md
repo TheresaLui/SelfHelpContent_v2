@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="8c9deb0c-7785-4555-9e7d-54e712df444b"
+	ownershipId="Compute_LogicApp"
 />
 
 # I am seeing run or trigger failures

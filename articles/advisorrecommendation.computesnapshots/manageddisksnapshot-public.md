@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="702b474d-698f-4029-9f9d-4782c626923e_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Use Standard Storage to store Managed Disks snapshots
 ---
@@ -16,9 +17,9 @@
   "recommendationTypeId": "702b474d-698f-4029-9f9d-4782c626923e",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('XResiliency').GetPremiumSnapshotsOfManagedDisks",
-    "dataSource": "Kusto",
-    "refreshInterval": "08:00:00"
+    "streamNamespace": "AzureStorage.Data.StorageAdvisorManagedDiskSnapshotV1",
+    "dataSource": "Cosmos",
+    "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "High",
@@ -27,7 +28,7 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "Sijia.Zhu@microsoft.com",
     "icm": {
       "routingId": "MDM://AzureAdvisor",
       "service": "Azure Advisor",

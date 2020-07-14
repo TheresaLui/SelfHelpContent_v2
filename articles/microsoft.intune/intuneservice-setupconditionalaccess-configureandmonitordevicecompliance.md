@@ -9,8 +9,9 @@
 	supportTopicIds="32599604"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="287040a6-fa0e-441e-adf9-146ed5dfa4f5"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Setup Conditional Access - Configure and monitor device compliance

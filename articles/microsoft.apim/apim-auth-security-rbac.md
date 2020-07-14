@@ -9,8 +9,9 @@
     supportTopicIds="32632431"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="b42d93ae-1822-407e-a6e8-e1ebc6b5b935"
+	ownershipId="Compute_APIManagement"
 />
 
 # Use Role-Based Access Control in Azure API Management

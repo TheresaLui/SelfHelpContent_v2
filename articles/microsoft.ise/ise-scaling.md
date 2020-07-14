@@ -10,8 +10,9 @@
     supportTopicIds="32727985"
     resourceTags=""
     productPesIds="17030"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="724d9d90-c22b-4512-a493-32ef4dc7f765"
+	ownershipId="Compute_LogicApps"
 />
 
 # Scaling

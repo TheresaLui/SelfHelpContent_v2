@@ -12,7 +12,8 @@ diagnosticScenario="Storage blob container is not recoverable due to storage acc
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Unable to recover blob container(s) in storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to its replication type

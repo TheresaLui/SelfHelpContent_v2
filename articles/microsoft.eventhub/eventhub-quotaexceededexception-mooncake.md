@@ -11,6 +11,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake" 
 	articleId="966e6e65-eeeb-42a1-b3ed-162c6cbdaddc"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I am receiving a quota exceeded exception

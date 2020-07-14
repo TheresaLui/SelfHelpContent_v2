@@ -9,10 +9,11 @@
 	supportTopicIds="32636750"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-tables-devhowto"
 	displayOrder="300"
 	category="Azure Table"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Tables 

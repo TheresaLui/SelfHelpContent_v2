@@ -10,8 +10,9 @@
 	supportTopicIds="32690982"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="servicefabric-clusterproblemwithcustomerdeletion"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Cluster deletion

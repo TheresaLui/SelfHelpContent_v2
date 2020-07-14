@@ -9,8 +9,9 @@
 	supportTopicIds="32549258"
 	resourceTags="linux"
 	productPesIds="15571,16454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="d5791b9e-0827-46fb-a771-0133edc79e14"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Management/Capacity issues that are related to SAP HANA large instances

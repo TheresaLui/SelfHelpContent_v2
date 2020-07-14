@@ -10,8 +10,9 @@
 	supportTopicIds="32675716"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="4ae50390-ac62-416d-b0de-d50f4c8a6108"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Troubleshooting Azure File Sync - Management Issues

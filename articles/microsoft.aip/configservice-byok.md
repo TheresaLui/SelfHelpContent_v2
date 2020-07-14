@@ -11,7 +11,8 @@
 	supportTopicIds="32727964"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Service - Configuring the Service - Questions about Bring Your Own Key

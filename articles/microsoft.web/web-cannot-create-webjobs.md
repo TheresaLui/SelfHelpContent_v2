@@ -9,8 +9,9 @@
 	supportTopicIds="32581610"
 	resourceTags=""
 	productPesIds="14748,16170"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="9094e5ad-2de9-494b-90ce-70691c675a73"
+	ownershipId="Compute_AppService"
 />
 
 # Problems with WebJobs/Cannot create WebJobs

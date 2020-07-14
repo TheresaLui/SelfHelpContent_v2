@@ -13,7 +13,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="DevDivAzServices_SpringCloud"
 />
 
 # My application cannot be registered

@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640155"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-toolsapis-setup_alert"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Portal, Client Tools and APIs - Setting up Monitoring and Alerts
 ---

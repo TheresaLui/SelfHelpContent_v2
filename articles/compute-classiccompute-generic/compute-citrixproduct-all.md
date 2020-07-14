@@ -9,8 +9,9 @@
 	supportTopicIds="32567269,32567274,32567278,32567282,32567270,32567275,32567279,32567283,32567271,32567276,32567280,32567285,32567272,32567277,32567281,32567286"
 	resourceTags=""
 	productPesIds="16215"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="7477e71a-a637-4e4a-8a77-9d5abf6dd6a7"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Citrix Help

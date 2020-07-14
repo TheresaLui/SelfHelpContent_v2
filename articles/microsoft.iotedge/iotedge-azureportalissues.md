@@ -9,8 +9,9 @@
 	supportTopicIds="32680939"
 	resourceTags=""
 	productPesIds="16509"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="8e8e3fc4-c61c-4cf6-a84b-0d2458e87c56"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # Problems related to the Azure portal

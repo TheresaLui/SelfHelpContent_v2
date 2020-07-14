@@ -10,8 +10,9 @@
 	supportTopicIds="32691057"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="c7179830-bf69-4dae-95ee-f7652046295c"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # Orchestration issue with my scale set

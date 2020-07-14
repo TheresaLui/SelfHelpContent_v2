@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553300"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="a3318b66-8d65-4588-8eeb-4fec45b46791"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions DPM - Restore Failure
 ---

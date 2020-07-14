@@ -11,12 +11,13 @@
 	diagnosticScenario="OrcasMySQLAccessDenied"
 	selfHelpType="rca"
 	resourceTags="servers, databases"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Can't connect MySQL database server because Access Denied
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your connection issues to your MySQL server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that <!--$Count-->Count<!--/$Count--> connection attempts to fail due to Access Denied error between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. An Access denied error can have many causes. Often the problem is related to the MySQL accounts that the server permits client programs to use when connecting.
+During our investigation regarding connection issues to your MySQL server <!--$ServerName-->ServerName<!--/$ServerName--> we found that <!--$Count-->Count<!--/$Count--> connection attempts to fail due to Access Denied error between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC). An Access denied error can have many causes. Often the problem is related to the MySQL accounts that the server permits client programs to use when connecting.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

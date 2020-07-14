@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640093"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mysql-toolsapis-setup_alert"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Portal, Client Tools and APIs - Setting up Monitoring and Alerts
 ---

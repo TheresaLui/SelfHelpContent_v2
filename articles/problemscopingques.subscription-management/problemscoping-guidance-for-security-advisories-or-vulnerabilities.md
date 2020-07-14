@@ -7,13 +7,15 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32611254"
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 # Guidance for Security Advisories or Vulnerabilities
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Guidance for Security Advisories or Vulnerabilities",
     "fileAttachmentHint": "",
     "formElements": [

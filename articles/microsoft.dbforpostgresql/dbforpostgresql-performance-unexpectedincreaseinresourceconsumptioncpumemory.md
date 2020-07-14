@@ -9,9 +9,10 @@
     selfHelpType="generic"
     supportTopicIds="32640027"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="3f47468a-cc1e-41c2-9665-57b66bbe16e2"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Troubleshooting unexpected increase in resource consumption
