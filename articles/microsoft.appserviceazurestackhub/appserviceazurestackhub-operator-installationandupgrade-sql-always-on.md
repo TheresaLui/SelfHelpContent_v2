@@ -19,11 +19,15 @@
 
 ## **Recommended Steps**
 
-* [Add a Database to an Always On availability group](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-add-a-database?view=sql-server-ver15)
+### Verify completion of installation prerequisites
 
-* [Prepare the SQL Server instance](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#prepare-the-sql-server-instance)
+First, make sure you've followed the prerequisites outlined in [Prerequisites for deploying App Service on Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started). 
 
-* [Azure Stack Hub QuickStart Template](https://github.com/Azure/AzureStack-QuickStart-Templates/tree/master/appservice-fileserver-sqlserver-ha)
+If you did not deploy SQL Server using the [Quickstart template for Highly Available file server and SQL Server](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#quickstart-template-for-highly-available-file-server-and-sql-server), be sure to review [Prepare the SQL Server instance](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#prepare-the-sql-server-instance) and deploy SQL Server in a highly available configuration. 
+
+### App Service blade status says "can't be reached", or "can’t reach database". 
+
+This occurs when a database fails over, but wasn’t added to an availability group during installation. If you've provided the App Service RP with a SQL Always On server instance, you must [add the appservice_hosting and appservice_metering databases to an Always On availability group](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-add-a-database), and synchronize the databases to prevent any loss of service in the event of a database failover.
 
 ## **Recommended Documents**
 
