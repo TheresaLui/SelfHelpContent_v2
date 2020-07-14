@@ -21,7 +21,7 @@ Azure Database for MySQL allows you to configure parameters at a server level us
 
 > [!NOTE]
 > The server parameter `enforce_gtid_consistency` was configured to ON to help with avoiding unexpected issues after enabling GTID in the future. In some cases transaction may violate the GTID consistency and you may experience issues blocking your workload with an error like "ERROR: Statement violates GTID consistency".<br>
-If you do not want to enforce GTID, please contact us at AskAzureDBforMySQL@service.microsoft.com with your subscription ID & server name and we will help update the parameter.
+If you do not want to enforce GTID, please contact support or our team at AskAzureDBforMySQL@service.microsoft.com with your subscription ID & server name and we will help update the parameter.
 
 ## **Recommended Steps**
 
