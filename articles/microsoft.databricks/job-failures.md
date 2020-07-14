@@ -17,8 +17,6 @@
 
 # Diagnose and resolve job failures
 
-### **COMMON ERRORS AND SUGGESTED SOLUTIONS**
-
 **Error**:  Driver failed to start in time. INTERNAL_ERROR: The Spark driver failed to start within 300 seconds; Cluster failed to be healthy within 200 seconds  
 * Store the Hive libraries in DBFS and access them locally from the DBFS location. See [Spark Options](https://docs.microsoft.com/azure/databricks/data/metastores/external-hive-metastore#spark-options). More information on this error: [Cluster Timeout](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#cluster-timeout)
 
@@ -45,7 +43,7 @@
 * Troubleshoot the error according to the article: [Job fails due to job rate limit](https://docs.microsoft.com/azure/databricks/kb/jobs/job-rate-limit)
 	   
 
-### **Other Recommended Steps**
+## **Recommended Steps**
 
 When using JAR based jobs on interactive clusters, the JAR jobs will not be automatically updated when a new JAR is uploaded as it will pick up the old JAR. This issue is by design. As a resolution:
 * The cluster needs to be restarted whenever you want to update the JAR in the same job
