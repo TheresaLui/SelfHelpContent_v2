@@ -23,9 +23,9 @@
 
 * [Use PowerShell](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-add-worker-roles#add-additional-workers-with-powershell) 
 
-* [Use the Administrator Portal](https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-app-service-add-worker-roles#add-additional-workers-using-the-administrator-portal)
+* [Use the Administrator Portal](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-add-worker-roles#add-additional-workers-using-the-administrator-portal)
 
-* See "Unable to scale out workers" in [App Service Known Issues](https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-app-service-release-notes-update-eight)
+* See "Unable to scale out workers" in [App Service Known Issues](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-release-notes-update-eight)
 
 ## **Recommended Documents**
 
