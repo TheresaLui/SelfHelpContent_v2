@@ -32,3 +32,4 @@ You can deploy Windows Server VM images on Azure Stack by adding a Windows-based
 * [Windows Virtual Machines Documentation](https://docs.microsoft.com/azure/virtual-machines/windows/)
 * [Make a virtual machine image available in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-vm-image)
 * [Considerations for using virtual machines in Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-vm-considerations)
+* [Known Issues: VMs on Azure Stack Hub](https://docs.microsoft.com/azure-stack/user/troubleshoot-vm-known-issues)
