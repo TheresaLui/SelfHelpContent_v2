@@ -33,18 +33,19 @@ Most users are able to resolve the following issues using the steps below:
 ## **Recommended Steps**
 
 1. For Intune Compliant or Hybrid Azure AD joined devices, do the following:
-    1. In Cloud App Security, in the menu bar, click the settings cog, select **Settings**, under **Conditional Access App Control**, select **Device identification** and verify that compliant and Hybrid Azure AD joined device are configured correctly.
-    1. In Azure AD, go to the relevant CA policy and under **Session**, clear **Use Conditional Access App Control**.
+
+    1. In Cloud App Security, in the menu bar, click the settings cog, select **Settings**, under **Conditional Access App Control**, select **Device identification** and verify that compliant and Hybrid Azure AD joined device are configured correctly
+    1. In Azure AD, go to the relevant CA policy and under **Session**, clear **Use Conditional Access App Control**
     1. Sign in from an Intune Compliant or Hybrid Azure AD joined device
-    1. Under **Monitoring** > **Sign-ins**, verify that there are sign-in activities in logs.
-    1. Select the relevant log entry for the device you logged into.
+    1. Under **Monitoring** > **Sign-ins**, verify that there are sign-in activities in logs
+    1. Select the relevant log entry for the device you logged into
     1. In the **Details** pane, on the **Device info** tab, verify that the device is **Managed** (Hybrid Azure AD joined) or **Compliant** (Intune compliant). If you cannot verify either state, try another log entry or ensure that your device data is configured correctly in Azure AD.
-    1. If you still do not see the device information in the **Sign-ins** page, open a support ticket for Azure AD.
+    1. If you still do not see the device information in the **Sign-ins** page, open a support ticket for Azure AD
 
 1. For valid client certificates, do the following:
-    1. In Cloud App Security, in the menu bar, click the settings cog, select **Settings**, under **Conditional Access App Control**, select **Device identification**, and upload the CA (root or intermediate) that signed the client certificate.
-    1. Ensure your client certificate is in .p12 or .pfx file format.
-    1. If **Require certificate revocation check** is enabled, verify that your client certificate contains a CRL endpoint.
+    1. In Cloud App Security, in the menu bar, click the settings cog, select **Settings**, under **Conditional Access App Control**, select **Device identification**, and upload the CA (root or intermediate) that signed the client certificate
+    1. Ensure your client certificate is in .p12 or .pfx file format
+    1. If **Require certificate revocation check** is enabled, verify that your client certificate contains a CRL endpoint
 
 ## **Recommended Documents**
 
