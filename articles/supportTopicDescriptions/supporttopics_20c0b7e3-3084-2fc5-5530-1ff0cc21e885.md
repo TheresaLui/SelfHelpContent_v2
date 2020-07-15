@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ad5ec509-82bb-d6e6-a403-2da755f49b20",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior using Azure portal to manage your Synapse resources.",
+      "searchTags": "azure;portal;manage;workspace;studio",
+      "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b2041720-4dd0-7625-cfef-1c9b767a24bc",
       "longDescription": "",
       "shortDescription": "Use for issues with SSMS tool features. Do not use for connectivity, failed queries with server side errors, DMVs or permissions.",
