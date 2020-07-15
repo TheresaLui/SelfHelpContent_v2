@@ -381,6 +381,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e56e18a6-b3b2-69b8-d338-1be16db8121b",
+      "longDescription": "",
+      "shortDescription": "Security related questions or advisory on best practices, recommendations and product expected behavior using SQL On-demand.",
+      "searchTags": "how;advisory;sql;security;permissions",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e57bee21-e911-bec0-9816-55f7ceaff787",
       "longDescription": "",
       "shortDescription": "Issues related to SSDT Database Projects or custom applications interacting with Synapse resources and pools.",
