@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4732c725-6edf-9850-731a-d6245e326b13",
+      "longDescription": "",
+      "shortDescription": "Jobs running Spark SQL script fail with an error message or return unexpected results.",
+      "searchTags": "spark;job;execution;failure;sql",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5be6ab91-edaf-9c94-e08b-65de1dd26039",
       "longDescription": "",
       "shortDescription": "Queries failing with an error or returning unexpected results. Use only for SQL on-demand, separate topic for SQL pool.",
