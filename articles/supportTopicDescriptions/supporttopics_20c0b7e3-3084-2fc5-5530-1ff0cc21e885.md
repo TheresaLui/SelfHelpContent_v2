@@ -541,6 +541,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c1ae4432-f35a-ff44-1f70-009244a2c40f",
+      "longDescription": "",
+      "shortDescription": "Problems related to Transparent Data Encryption (TDE), including Azure Key Vault (AKV) and Database Encryption Key (DEK).",
+      "searchTags": "TDE;AKV;DEK;encryption;transparent data encryption",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cc311cde-a960-10fc-2879-3879c9b06556",
       "longDescription": "",
       "shortDescription": "Failures to connect to SQL pool endpoint or database unavailable. Do not use for AAD authentication or firewall issues.",
