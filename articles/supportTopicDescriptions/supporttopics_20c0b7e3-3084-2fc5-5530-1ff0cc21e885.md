@@ -173,6 +173,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b066c719-5b56-77c5-8039-eccf89686609",
+      "longDescription": "",
+      "shortDescription": "Python job is running slow or hangs.",
+      "searchTags": "spark;job;execution;python;pyspark",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b12f560c-2c86-9baf-b65e-5bd576674dd0",
       "longDescription": "",
       "shortDescription": "Scala job is running slow or hang.",
