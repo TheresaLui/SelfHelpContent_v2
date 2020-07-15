@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "13f50b2b-ee3c-10b4-ccb8-62fa87fa0ced",
+      "longDescription": "",
+      "shortDescription": "Errors or unexpected behavior while creating or executing SQL scripts in Synapse Studio environment.",
+      "searchTags": "sql;script;studio;authoring;development",
+      "category": "Authoring and Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "182c052a-90c8-913f-403f-7d0ee8acc3b6",
       "longDescription": "",
       "shortDescription": "Assistance with issues affecting any client tools used to interact with the available Synapse Workspace components.",
