@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0cecfd76-fb79-c487-bed2-f8f944117ea5",
+      "longDescription": "",
+      "shortDescription": "Questions or advisory on best practices, recommendations and product expected behavior related Scheduled Maintenance.",
+      "searchTags": "how;advisory;sql;schedule;maintenance",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "10e0990d-93f6-9653-e90a-15c1354936d1",
       "longDescription": "",
       "shortDescription": "Pipeline is stuck in one state for a long time, or the execution does not start even though no other run is in progress.",
