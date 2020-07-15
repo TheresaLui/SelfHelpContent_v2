@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "515629d0-64a2-ecf6-ed51-c5013eb40c89",
+      "longDescription": "",
+      "shortDescription": ".NET for Spark C-Sharp job is running slow or hangs.",
+      "searchTags": "spark;job;performance;net",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5be6ab91-edaf-9c94-e08b-65de1dd26039",
       "longDescription": "",
       "shortDescription": "Queries failing with an error or returning unexpected results. Use only for SQL on-demand, separate topic for SQL pool.",
