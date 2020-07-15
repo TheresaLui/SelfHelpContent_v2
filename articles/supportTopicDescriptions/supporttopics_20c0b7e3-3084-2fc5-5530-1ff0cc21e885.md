@@ -301,6 +301,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "be4c71f8-bc71-355f-a176-a6a218920381",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices, recommendations and product behavior related to querying and performance for SQL Pool.",
+      "searchTags": "how;advisory;sql;query;performance",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c1363d1f-fac5-4344-bcb2-f23f953b1d70",
       "longDescription": "",
       "shortDescription": "Problems creating or editing a source data type or issues that only appear with a particular format or dataset type.",
