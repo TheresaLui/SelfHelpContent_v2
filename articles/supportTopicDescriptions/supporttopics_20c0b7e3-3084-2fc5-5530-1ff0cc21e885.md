@@ -485,6 +485,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dd022ada-96ee-5fce-b2ad-1fcc556c27a5",
+      "longDescription": "",
+      "shortDescription": "Assistance with unavailable databases, failure to establish a connection to SQL Pool or SQL on-demand, or dropped connections.",
+      "searchTags": "connectivity;unavailable;sql;connection;fail",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e0fa8b6e-3965-b7c0-b5cf-3add6ec6fd30",
       "longDescription": "",
       "shortDescription": "Security related questions or advisory on best practices, recommendations and product expected behavior using SQL pools.",
