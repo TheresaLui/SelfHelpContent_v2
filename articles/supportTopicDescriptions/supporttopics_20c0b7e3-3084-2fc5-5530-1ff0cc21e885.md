@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5be6ab91-edaf-9c94-e08b-65de1dd26039",
+      "longDescription": "",
+      "shortDescription": "Queries failing with an error or returning unexpected results. Use only for SQL on-demand, separate topic for SQL pool.",
+      "searchTags": "sql;query;execution;error;failure",
+      "category": "SQL Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68903275-cf37-27c7-a285-2fc62764fb41",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data to or from Azure Data Lake.",
