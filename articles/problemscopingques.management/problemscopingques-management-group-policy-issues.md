@@ -7,7 +7,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32609539,32609541,32609542,32609545"
 	productPesIds="16530"
-	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="ARM_ManagementGroups"
 />

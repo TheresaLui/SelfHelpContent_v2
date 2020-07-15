@@ -41,30 +41,32 @@ Customer needs to identify the Process/Daemon/Application/Code which creates suc
 
 1. Go to ASC > resource explorer > find storage account > file tab > search file handle
 2. Input the Azure File Share, Directory or File to search for the handle amount. Format: {fileshare}/{file or directory path}
-3. Review the report for all open handles.
+3. Review the report for all open handles
 4. Search Directory Handles for an AFS in ASC
-5. Instruct the customer to ensure that all unnecessary handles are closed.
-6. With customer consent, you may proceed to Force closure of a handle or Force the closure of all handles.
-7. Create ICM with the details of the Handle/s to be closed and Storage Account information. <a href="https://icm.ad.msft.net/imp/v3/incidents/create?tmpl=RK24oB">ICM Template</a>
+5. Instruct the customer to ensure that all unnecessary handles are closed
+6. With customer consent, you may proceed to Force closure of a handle or Force the closure of all handles
+7. Create ICM with the details of the Handle/s to be closed and Storage Account information [ICM Template](https://icm.ad.msft.net/imp/v3/incidents/create?tmpl=RK24oB)
 
 	**Use windows tools**
 
-	You can use <a href="https://docs.microsoft.com/en-us/sysinternals/downloads/handle">Handle.exe</a> on a Windows client to check if there are open handles on the client against the Azure File share. Example below:
+	You can use [Handle.exe](https://docs.microsoft.com/sysinternals/downloads/handle) on a Windows client to check if there are open handles on the client against the Azure File share. Example below:
 
 	```powershell
     handle $StorageAccountName$.file.core.windows.net
     ```
 
 
-	If you are member of project TM-CSSStgRec Auto assign the ICM. Proceed to open the 'Force close handle' link in the ASC report or execute the Jarvis Action XStore-> Resource Property Retrieval -> <a href="https://jarvis-west.dc.ad.msft.net/58B0211D?genevatraceguid=ecec0968-55a6-4621-bb0e-9d5c2baaf3e3">Force Close File Handle Operation</a>
+	If you are member of project TM-CSSStgRec Auto assign the ICM. Proceed to open the 'Force close handle' link in the ASC report or execute the Jarvis Action XStore-> Resource Property Retrieval -> [Force Close File Handle Operation](https://jarvis-west.dc.ad.msft.net/58B0211D?genevatraceguid=ecec0968-55a6-4621-bb0e-9d5c2baaf3e3)
 
 8. Force Closure of a Single handle using Jarvis Actions
 
-		Use the 'Get Access' button to generate the JIT request
+	Use the 'Get Access' button to generate the JIT request
 
 9. Complete the JIT request by filling the 'Work-item Id' field with the previously created ICM, select the Access Level as PlatformServiceOperator and submit it. The other fields should auto-populate.
 
-		Execute the query. Note: Jarvis Actions should automatically refresh after successfully creating the JIT request. Confirm with Customer that the handle is released and the file/s can be deleted. Resolve the ICM if issue is resolved.
+	Execute the query
+    
+    *Note: Jarvis Actions should automatically refresh after successfully creating the JIT request. Confirm with Customer that the handle is released and the file/s can be deleted. Resolve the ICM if issue is resolved.*
 
 <!---
 

@@ -10,10 +10,10 @@
 	articleId="mpn_program_requirements"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32681431, 32728292"
+	supportTopicIds="32728292"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960, 17000"
+	productPesIds="17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
@@ -26,6 +26,7 @@ Resources providing knowledge on Program requirements
 
 - For more information on the CSP program and enrolling as a Direct Bill or Indirect reseller, refer to [https://partner.microsoft.com/membership/cloud-solution-provider](https://partner.microsoft.com/membership/cloud-solution-provider)
 - To verify your program status as a CSP refer to [https://partner.microsoft.com/pcv/accountsettings/partnerprofile](https://partner.microsoft.com/pcv/accountsettings/partnerprofile)
+- To review which markets and geographies you can sell in, refer to [regional authorization overview](https://docs.microsoft.com/partner-center/regional-authorization-overview)
 
 ## **Recommended Documents**
 

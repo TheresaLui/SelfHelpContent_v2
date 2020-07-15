@@ -17,5 +17,5 @@
 
 **Thank you for your response**
 
-1. Please close this window to exit this TSG.
-2. Feel free to provide any additional feedback you may have on this troubleshooter.
+1. You may exit TSG troubleshooter now
+2. Feel free to provide any additional feedback you may have on this troubleshooter

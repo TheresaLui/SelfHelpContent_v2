@@ -1,8 +1,8 @@
 <properties
 	pageTitle="SQL Server exceptions, crashes, dumps"
 	description="SQL Server exceptions, crashes, dumps"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""

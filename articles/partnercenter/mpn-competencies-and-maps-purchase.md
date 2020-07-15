@@ -10,17 +10,17 @@
 	articleId="mpn_competencies_and_maps_purchase"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32725876"
+	supportTopicIds="32725798,32725800,32725876"
 	clientIds="partnercenter"
 	resourceTags="csp"
-	productPesIds="17007"
+	productPesIds="17000,17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # MPN - competencies and MAPS purchasing
 
-How to start using your Microsoft Partner Network (MPN) membership benefits in the Partner Center.
+Due to unforeseen issues we will not be able to offer credit card payment option for Japan, South Korea and Taiwan until further notice. You will notice that you can still make your purchase seamlessly via Wire Transfer. Please contact your financial institution for more information on how to execute a wire transfer.
 
 ## **Recommended Steps**
 
