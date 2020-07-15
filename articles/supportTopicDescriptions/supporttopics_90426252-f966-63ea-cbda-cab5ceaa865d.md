@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a894a3e2-f954-9a79-3e14-a0a0472d673b",
+      "longDescription": "",
+      "shortDescription": "General guidance and advisory",
+      "searchTags": "general",
+      "category": "general",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a9ed6f44-bb78-3941-2100-d52010ea9ab8",
       "longDescription": "",
       "shortDescription": "Readiness column shows disconnected, hresult, or error.",
