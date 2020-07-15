@@ -381,6 +381,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f253538c-9fcb-85f7-01a4-153f6cd50be8",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices, recommendations and product behavior related to querying and performance for SQL On-demand.",
+      "searchTags": "how;advisory;sql;query;performance",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f2cd58dd-b098-1aaf-820b-560fc61a8390",
       "longDescription": "",
       "shortDescription": "Error or unexpected behavior during Spark job submission phase. Not for failures after job execution starts successfully.",
