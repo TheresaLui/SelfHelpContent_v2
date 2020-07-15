@@ -277,6 +277,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e1273bb0-fb2b-d5e1-a436-9b8835b601ac",
+      "longDescription": "",
+      "shortDescription": "Failures setting up Self-Hosted IR service, startup issues, network or connectivity errors or unhandled exceptions.",
+      "searchTags": "self;hosted;ir;start;stop",
+      "category": "Orchestration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e20d598a-7a3f-4386-e8e5-0f374c2ec5e6",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior when using IntelliJ tool to develop, submit or run Scala Spark applications.",
