@@ -179,6 +179,14 @@
       "searchTags": "sql;driver;ssdt;party;application",
       "category": "Synapse Studio, Portal and Client Tools",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f2cd58dd-b098-1aaf-820b-560fc61a8390",
+      "longDescription": "",
+      "shortDescription": "Error or unexpected behavior during Spark job submission phase. Not for failures after job execution starts successfully.",
+      "searchTags": "spark;job;execution;failure;pool",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
