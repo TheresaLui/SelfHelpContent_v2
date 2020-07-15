@@ -237,6 +237,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bb72697c-d59b-6a85-e36b-10abd618f57a",
+      "longDescription": "",
+      "shortDescription": "Data flows are running for an extended period of time or are less reliable than expected. Slow or hanging Copy activity.",
+      "searchTags": "pipeline;trigger;performance;slow;hang",
+      "category": "Orchestration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c1363d1f-fac5-4344-bcb2-f23f953b1d70",
       "longDescription": "",
       "shortDescription": "Problems creating or editing a source data type or issues that only appear with a particular format or dataset type.",
