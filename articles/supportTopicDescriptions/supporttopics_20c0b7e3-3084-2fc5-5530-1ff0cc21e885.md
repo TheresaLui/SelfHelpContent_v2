@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "abd7233f-6063-d1ea-5b94-071df586b299",
+      "longDescription": "",
+      "shortDescription": "Executing a copy or data flow activity in a pipeline terminates with unexpected results or is running into system errors.",
+      "searchTags": "piepline;execution;activity;data;flow",
+      "category": "Orchestration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ad5ec509-82bb-d6e6-a403-2da755f49b20",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior using Azure portal to manage your Synapse resources.",
