@@ -10,204 +10,116 @@
 	articleId="61c54bbd-c2c6-5271-96e7-009a87ff44bf"
 	ownershipId="AzureIot_IotHub"
 />
----
-{
-  "$schema": "SelfHelpContent",
-  "subscriptionRequired": true,
-  "resourceRequired": true,
-	"title": "Embedded-C SDK Issues",
-	"fileAttachmentHint": "",
-	"formElements":
-	[
-		{
-            "id": "problem_start_time", //This is a required value
-            "order": 1,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start?",
-            "required": true
-		},
-		{
-			"id": "sdk_version",
-			"order": 2,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Version",
-			"watermarkText": "What is the version of Embedded C SDK you're using? ",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints":
-			[
-				{
-					"text": "SDK Version."
-				},
-				{
-					"text": "Version of the Embedded C SDK you're using."
-				}
-			]
-		},
-		{
-			"id": "external_components",
-			"order": 3,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Version",
-			"watermarkText": "Which external components does the solution use? ",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints":
-			[
-				{
-					"text": "External components."
-				},
-				{
-					"text": "Please list which libraries for MQTT, TLS and socket your aplication uses and any external Hardware components like HSM chips."
-				}
-			]
-		},
-		{
-			"id": "reconnection_retry_issues",
-			"order": 4,
-			"controlType": "dropdown",
-			"infoBalloonText": "string",
-			"displayLabel": "Are you experiencing reconnection / retry issues?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions":
-			[
-				{
-					"value": "Yes",
-					"text": "Yes"
-				},
-				{
-					"value": "No",
-					"text": "No"
-				},
-				{
-					"value": "dont_know_answer",
-					"text": "Don't Know"
-				}
-			],
-			"required": false
-		},
-		{
-			"id": "internet_connectivity",
-			"order": 5,
-			"controlType": "dropdown",
-			"infoBalloonText": "string",
-			"displayLabel": "Is the device able to connect to Internet?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions":
-			[
-				{
-					"value": "Yes",
-					"text": "Yes"
-				},
-				{
-					"value": "No",
-					"text": "No"
-				},
-				{
-					"value": "dont_know_answer",
-					"text": "Don't Know"
-				}
-			],
-			"required": false
-		},
-		{
-			"id": "firewall_connectivity",
-			"order": 6,
-			"controlType": "dropdown",
-			"infoBalloonText": "string",
-			"displayLabel": "Is the device using any proxy or firewall?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions":
-			[
-				{
-					"value": "Yes",
-					"text": "Yes"
-				},
-				{
-					"value": "No",
-					"text": "No"
-				},
-				{
-					"value": "dont_know_answer",
-					"text": "Don't Know"
-				}
-			],
-			"required": false
-		},
-		{
-			"id": "Certificate_issues",
-			"order": 7,
-			"controlType": "dropdown",
-			"infoBalloonText": "string",
-			"displayLabel": "Are root certificates set on TLS layer for server validation?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions":
-			[
-				{
-					"value": "Yes",
-					"text": "Yes"
-				},
-				{
-					"value": "No",
-					"text": "No"
-				},
-				{
-					"value": "No certificates",
-					"text": "Don't use certificates"
-				},
-				{
-					"value": "dont_know_answer",
-					"text": "Don't Know"
-				}
-			],
-			"required": false
-		},
-		{
-			"id": "SAS_issues",
-			"order": 8,
-			"controlType": "dropdown",
-			"infoBalloonText": "string",
-			"displayLabel": "Is the SAS token still valid (not expired)?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions":
-			[
-				{
-					"value": "Yes",
-					"text": "Yes"
-				},
-				{
-					"value": "No",
-					"text": "No"
-				},
-				{
-					"value": "No SAS",
-					"text": "Don't use SAS Tokens"
-				},
-				{
-					"value": "dont_know_answer",
-					"text": "Don't Know"
-				}
-			],
-			"required": false
-		},
-		{
-			"id": "problem_description",
-			"order": 10,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Details",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints":
-			[
-				{
-					"text": "Issue description."
-				},
-				{
-					"text": "Please provide any aditional detail to the problem."
-				}
-			]
-		}
-	]
-}
----
+# Issues with the Embedded C SDK
+
+## Issues with the Embedded C SDK
+
+# Retry Policies
+
+### 1. How to set up a retry mechanism for using azure-sdk-for-c IoT?
+ 
+Please refer to the guidelines for implementing a retry logic documented in the ["MQTT state machine"](https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/docs/iot/mqtt_state_machine.md#retrying-operations):
+
+It is highly recommended to have the reconnection strategy based on the retry logic detailed in the documentation above.
+
+Not having a controlled retry strategy may actually lead to increased delays or preventing the client from effectively reconnecting to the Azure IoT Hub (due to timing or throttling).
+	 
+### 2.  How to tweak the retry logic frequency?
+ 
+According to the [documentation](https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/docs/iot/mqtt_state_machine.md#retrying-operations), the following arguments control the frequency of the retry logic:
+	 
+* min_retry_delay_msec =   1000;
+* max_retry_delay_msec = 100000;
+* max_random_msec      =   5000;
+
+Note that az_iot_retry_calc_delay(...) is based on an Exponential Backoff with Jitter strategy.
+ 
+
+To make the retry attempts to be more sparse from the beginning, increase the value of `min_retry_delay_msec`.
+
+To reduce the maximum delay between attempts, decrease the value of `max_retry_delay_msec`.
+
+To increase the variability (jitter) between successive retry attempts, increase the value of `max_random_msec`.
+ 
+ 
+# Sequence of API calls
+ 
+Please refer to the [guidelines](https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/docs/iot/mqtt_state_machine.md). The minimum set of functionality needed to connect to the Azure IoT Hub and exchange messages is to:
+ 
+1. Establish a secure socket connection with the Azure IoT Hub;
+
+	This includes the following concepts:
+	* Connect to the port where the Azure IoT Hub listens for MQTT connections (8883, or 443 if using MQTT over WebSockets) - [reference](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-protocols)
+	
+	* Encrypt the connection using a SSL API (example: OpenSSL) and the highest TLS version supported (currently TLS 1.2) - [reference](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-tls-support)
+	
+	*	Validate the server certificate using the proper root certificate.
+	Baltimore CyberTrust Root - [reference](https://www.digicert.com/digicert-root-certificates.htm)
+ 
+2. Connect a MQTT client to the Azure IoT Hub, providing proper authentication information;
+* The Azure SDK for Embedded C IoT client must be initialized using `az_iot_hub_client_init`.
+ 
+*	Authentication schemes:
+
+*	If using x509 certs for device authentication
+	* Client certificate must be set on the TLS layer to be presented to the Azure IoT Hub.
+	* MQTT client must use username obtained with `az_iot_hub_client_get_user_name` and empty (NULL) password: [Example](https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/samples/iot/hub/src/paho_iot_hub_telemetry_example.c)
+ 
+* If using SAS tokens:
+	* MQTT client must use username obtained with `az_iot_hub_client_get_user_name` and password obtained with `az_iot_hub_client_sas_get_signature` and `az_iot_hub_client_sas_get_password`: [Example](https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/samples/iot/hub/src/paho_iot_hub_sas_telemetry_example.c)
+ 
+3. Subscribe to the topics expected by the Azure IoT Hub for the features if supports;
+Use the following macros or functions to provide the topics the MQTT client must subscribe to to use the features supported by Azure IoT Hub:
+ 
+	* AZ_IOT_HUB_CLIENT_C2D_SUBSCRIBE_TOPIC
+	* AZ_IOT_HUB_CLIENT_METHODS_SUBSCRIBE_TOPIC
+	* AZ_IOT_HUB_CLIENT_TWIN_RESPONSE_SUBSCRIBE_TOPIC
+	* AZ_IOT_HUB_CLIENT_TWIN_PATCH_SUBSCRIBE_TOPIC
+	
+	Please refer to the header for more [documentation](https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/inc/azure/iot/az_iot_hub_client.h). 
+
+4. Parse messages received from the Azure IoT Hub;
+
+	Messages sent by the Azure IoT Hub for the features supported have specific topic names, which contains the key information of each response.
+
+	The following functions shall be used to parse the relevant information from the topic names for each feature:
+
+	* az_iot_hub_client_c2d_parse_received_topic
+	* az_iot_hub_client_methods_parse_received_topic
+	* az_iot_hub_client_twin_parse_received_topic
+	
+	Please refer to the header for more [documentation](https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/inc/azure/iot/az_iot_hub_client.h).
+ 
+5. Publish messages to the topics expected by the Azure IoT Hub for the features if supports;
+Use the following functions to provide the topics the MQTT client must publish to to use the features supported by Azure IoT Hub:
+ 
+	* az_iot_hub_client_telemetry_get_publish_topic
+	* az_iot_hub_client_methods_response_get_publish_topic
+	* az_iot_hub_client_twin_document_get_publish_topic
+	* az_iot_hub_client_twin_patch_get_publish_topic
+	
+	Please refer to the header for more [documentation](https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/inc/azure/iot/az_iot_hub_client.h).
+ 
+# Can't get my TLS to work
+ 
+## 1. Issue found in one of our samples
+ 
+If the customer has used one of our samples as a base to develop their application (against the same stacks and APIs used by the samples), the customer must refer to all the proper calls in those samples to ensure their system can connect and work properly with the Azure IoT Hub.
+
+Locations of our samples:
+* [Hub samples](https://github.com/Azure/azure-sdk-for-c/tree/master/sdk/samples/iot/hub)
+* [Device Provisioning samples](https://github.com/Azure/azure-sdk-for-c/tree/master/sdk/samples/iot/provisioning)
+
+Samples also have detailed step-by-step guides. Please explore more [here](https://github.com/Azure/azure-sdk-for-c/tree/master/sdk/samples/iot/hub#azure-iot-hub-samples)
+	 
+## 2. Issue not found in one of our samples
+ 
+In cases where the customer code is not directly based on any of the samples we do provide, the customer must consult with the developer of TLS/socket layers for guidance (e.g., WolfSSL, OpenSSL, etc).
+
+All the basic requirements of the Azure IoT Hub for socket security will apply to any SSL API used.
+
+Resources available:
+* [https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-troubleshoot-connectivity](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-troubleshoot-connectivity)
+* [https://azure.microsoft.com/en-us/blog/azure-iot-hub-server-tls-leaf-certificate-renewal-may-2017/](https://azure.microsoft.com/en-us/blog/azure-iot-hub-server-tls-leaf-certificate-renewal-may-2017/)
+
+
