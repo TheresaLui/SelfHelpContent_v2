@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16556"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="configure-DNS-settings"
+	articleId="configure-dns-settings"
 	ownershipId="CloudNet_AzureFirewall"
 />
 # Configure DNS settings
