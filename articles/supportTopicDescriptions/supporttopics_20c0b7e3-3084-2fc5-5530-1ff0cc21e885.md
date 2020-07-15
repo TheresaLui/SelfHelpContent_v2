@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2461cf21-293c-0fd4-8469-f4953277f73f",
+      "longDescription": "",
+      "shortDescription": "Issues related to monitoring and alerting for SQL pools, Sparks pools and workspace pipeline runs.",
+      "searchTags": "monitoring;metric;alert;operations;management",
+      "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68903275-cf37-27c7-a285-2fc62764fb41",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data to or from Azure Data Lake.",
