@@ -197,6 +197,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "73036aa4-a3a7-42fd-f0d6-add2ad34a6e6",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices and recommendations related to loading data to SQL pools.",
+      "searchTags": "how;advisory;sql;pool;recommendation",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "801be9fa-94f4-d940-148c-88b8778e3101",
       "longDescription": "",
       "shortDescription": "Spark Job succeeds but returns unexpected or incorrect results, or shows unexpected behavior.",
