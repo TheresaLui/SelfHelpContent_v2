@@ -675,6 +675,14 @@
       "searchTags": "create;drop;delete;sql;pool",
       "category": "Management Operations",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fedb2dcb-7720-5b2b-9c30-cf6e56e98ff6",
+      "longDescription": "",
+      "shortDescription": "Issues to load data from Cosmos DB Analytical Store data using Azure Synapse Link for Cosmos DB.",
+      "searchTags": "synapse;link;cosmosdb;import;load",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
