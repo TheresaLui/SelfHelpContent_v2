@@ -213,6 +213,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5e734df8-143b-9785-d804-5a0851b89c4e",
+      "longDescription": "",
+      "shortDescription": "Failures to configure virtual network rules or connect to SQL pool through a VNet service endpoints.",
+      "searchTags": "connectivity;unavailable;sql;vnet;endpoint",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "63bad926-3763-a7a3-0d22-06e2d04a9bac",
       "longDescription": "",
       "shortDescription": "Advisory on best practices, recommendations or product behavior using Azure Portal or client tools with SQL On-demand.",
