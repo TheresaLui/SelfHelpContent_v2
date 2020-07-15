@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1c7e286b-27b0-081c-f5a1-4bcfa02fffde",
+      "longDescription": "",
+      "shortDescription": "Queries failures, unexpected results, slow or hung queries when loading data from Synapse Link for CosmosDB from SQL On-demand.",
+      "searchTags": "sql;performance;query;link;cosmosdb",
+      "category": "SQL Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2461cf21-293c-0fd4-8469-f4953277f73f",
       "longDescription": "",
       "shortDescription": "Issues related to monitoring and alerting for SQL pools, Sparks pools and workspace pipeline runs.",
