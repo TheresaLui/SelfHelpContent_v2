@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "198218e0-2df8-9678-1735-22115da1d1c9",
+      "longDescription": "",
+      "shortDescription": "General guidance and advisory for Update Management",
+      "searchTags": "general",
+      "category": "update management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "214619ec-73ac-f343-2fc9-882bd2db823b",
       "longDescription": "",
       "shortDescription": "Issues deploying Start Stop Solution or configuring it",
