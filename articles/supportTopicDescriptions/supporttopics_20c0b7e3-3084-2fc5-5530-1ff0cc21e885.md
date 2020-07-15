@@ -381,6 +381,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "98f8149c-a41d-ac34-e6ab-ec4e5bbbb938",
+      "longDescription": "",
+      "shortDescription": "Assistance with issues related to the process of authoring or developing Synapse resources.",
+      "searchTags": "authoring;development;studio",
+      "category": "Authoring and Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a4379e04-c5f0-1d19-448c-7fae301b061a",
       "longDescription": "",
       "shortDescription": "Assistance with performance related issues running Spark jobs.",
