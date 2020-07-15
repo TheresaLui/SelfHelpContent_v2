@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2a098ca0-1502-2f12-551d-b1f9365cb413",
+      "longDescription": "",
+      "shortDescription": "Slow or hung queries, or queries terminating with a timeout. Use only for SQL pool, separate topic for SQL on-demand.",
+      "searchTags": "sql;performance;query;execution;slow",
+      "category": "SQL Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3162d5ce-5a1d-c422-c9dd-c6c1905d9ff4",
       "longDescription": "",
       "shortDescription": "Jobs running Python script fail with an error message or show an unexpected behavior.",
