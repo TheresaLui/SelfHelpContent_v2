@@ -373,6 +373,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ce92e971-af53-5a9f-7127-37ba8c857264",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Azure Data Factory pipelines.",
+      "searchTags": "sql;adf;pipeline;copy;load",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d6c64586-f123-8b73-08f6-5d70297ccec6",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior when using History Server to debug and diagnose completed and running Spark applications.",
