@@ -125,6 +125,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "37e5ce8d-89aa-c41f-f3ac-5bab5ee0be0d",
+      "longDescription": "",
+      "shortDescription": "Issues pausing or resuming a SQL pool, slow or hung operations, or unexpected behavior.",
+      "searchTags": "manage;pause;resume;sql;pool",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3896f082-9b9c-28c4-217a-f7abb9b3e782",
       "longDescription": "",
       "shortDescription": "Errors or unexpected behavior during job submission or interactive sessions occuring at Livy server frontend.",
