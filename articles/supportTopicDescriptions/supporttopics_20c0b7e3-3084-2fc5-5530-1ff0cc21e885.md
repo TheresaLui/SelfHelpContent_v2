@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "05d24cc2-6f8a-4ddd-7e38-1e0ba3f3189b",
+      "longDescription": "",
+      "shortDescription": "Failures related to authentication when accessing storage from Synapse Studio, SQL pool, Spark job or pipelines.",
+      "searchTags": "authentication;connectivity;storage;spark;pool",
+      "category": "Authentication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "06177cab-d26f-9ff9-4530-f446df3b68d0",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior when using Synapse Studio Notebooks to author, run and debug Spark applications.",
