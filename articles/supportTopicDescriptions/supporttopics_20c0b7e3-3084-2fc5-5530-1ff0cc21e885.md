@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "af8c8965-4e35-e603-16bb-c6aa07c641b8",
+      "longDescription": "",
+      "shortDescription": "Assistance with failures during the lifetime of a Spark job from submition until completion.",
+      "searchTags": "spark;job;execution;failure;error",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b2041720-4dd0-7625-cfef-1c9b767a24bc",
       "longDescription": "",
       "shortDescription": "Use for issues with SSMS tool features. Do not use for connectivity, failed queries with server side errors, DMVs or permissions.",
