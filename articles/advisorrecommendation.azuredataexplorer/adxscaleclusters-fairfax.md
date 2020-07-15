@@ -17,7 +17,7 @@
   "recommendationTypeId": "FBBC84E7-4D4D-4AC2-9850-D9AF01801829",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://kustodataestate.usgovvirginia.kusto.usgovcloudapi.net').database("AdvisorRecommendations").PerformanceSkuChangeRecommendations",
+    "streamNamespace": "cluster('https://kustodataestate.usgovvirginia.kusto.usgovcloudapi.net').database('AdvisorRecommendations').PublishPerformanceSkuChangeRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
   },

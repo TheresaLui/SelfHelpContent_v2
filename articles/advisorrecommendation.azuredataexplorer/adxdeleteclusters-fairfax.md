@@ -17,7 +17,7 @@
   "recommendationTypeId": "3C636DDD-1551-4EDD-A482-E71D73A79815",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://kustodataestate.usgovvirginia.kusto.usgovcloudapi.net').database("AdvisorRecommendations").UnusedClustersRecommendations",
+    "streamNamespace": "cluster('https://kustodataestate.usgovvirginia.kusto.usgovcloudapi.net').database('AdvisorRecommendations').PublishUnusedClustersRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
   },
