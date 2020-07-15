@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "085a1f2d-0bf5-282c-5f3f-39f72ca9269c",
+      "longDescription": "",
+      "shortDescription": "Assistance when the database is experiencing problems related to performance, query processing, or query execution.",
+      "searchTags": "sql;performance;query;execution;slow",
+      "category": "SQL Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "182c052a-90c8-913f-403f-7d0ee8acc3b6",
       "longDescription": "",
       "shortDescription": "Assistance with issues affecting any client tools used to interact with the available Synapse Workspace components.",
