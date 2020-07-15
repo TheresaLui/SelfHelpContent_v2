@@ -35,6 +35,14 @@
       "searchTags": "studio;errors;access;permissions;proxy",
       "category": "Synapse Studio, Portal and Client Tools",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b2041720-4dd0-7625-cfef-1c9b767a24bc",
+      "longDescription": "",
+      "shortDescription": "Use for issues with SSMS tool features. Do not use for connectivity, failed queries with server side errors, DMVs or permissions.",
+      "searchTags": "ssms;management;studio;connect;sql",
+      "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
