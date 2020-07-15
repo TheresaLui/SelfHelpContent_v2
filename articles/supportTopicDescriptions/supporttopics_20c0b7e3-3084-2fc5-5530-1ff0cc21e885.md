@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0a926141-ffad-89c7-e202-516a1ea269a5",
+      "longDescription": "",
+      "shortDescription": "Any issue that does not fall into any specific category above.",
+      "searchTags": "synapse;link;cosmosdb;analytical",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0cecfd76-fb79-c487-bed2-f8f944117ea5",
       "longDescription": "",
       "shortDescription": "Questions or advisory on best practices, recommendations and product expected behavior related Scheduled Maintenance.",
