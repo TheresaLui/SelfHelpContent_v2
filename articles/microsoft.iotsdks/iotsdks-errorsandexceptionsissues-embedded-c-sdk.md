@@ -12,9 +12,7 @@
 />
 # Issues with the Embedded C SDK
 
-## Issues with the Embedded C SDK
-
-# Retry Policies
+## Retry Policies
 
 ### 1. How to set up a retry mechanism for using azure-sdk-for-c IoT?
  
@@ -43,7 +41,7 @@ To reduce the maximum delay between attempts, decrease the value of `max_retry_d
 To increase the variability (jitter) between successive retry attempts, increase the value of `max_random_msec`.
  
  
-# Sequence of API calls
+## Sequence of API calls
  
 Please refer to the <a href='https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/docs/iot/mqtt_state_machine.md'>guidelines</a>. The minimum set of functionality needed to connect to the Azure IoT Hub and exchange messages is to:
  
@@ -64,7 +62,7 @@ Please refer to the <a href='https://github.com/Azure/azure-sdk-for-c/blob/maste
 
 *	If using x509 certs for device authentication
 	* Client certificate must be set on the TLS layer to be presented to the Azure IoT Hub.
-	* MQTT client must use username obtained with `az_iot_hub_client_get_user_name` and empty (NULL) password: [Example](https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/samples/iot/hub/src/paho_iot_hub_telemetry_example.c)
+	* MQTT client must use username obtained with `az_iot_hub_client_get_user_name` and empty (NULL) password: <a href='https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/samples/iot/hub/src/paho_iot_hub_telemetry_example.c'>Example</a>
  
 * If using SAS tokens:
 	* MQTT client must use username obtained with `az_iot_hub_client_get_user_name` and password obtained with `az_iot_hub_client_sas_get_signature` and `az_iot_hub_client_sas_get_password`: <a href='https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/samples/iot/hub/src/paho_iot_hub_sas_telemetry_example.c'>Example</a>
@@ -77,7 +75,7 @@ Use the following macros or functions to provide the topics the MQTT client must
 	* AZ_IOT_HUB_CLIENT_TWIN_RESPONSE_SUBSCRIBE_TOPIC
 	* AZ_IOT_HUB_CLIENT_TWIN_PATCH_SUBSCRIBE_TOPIC
 	
-	Please refer to the header for more [documentation](https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/inc/azure/iot/az_iot_hub_client.h). 
+	Please refer to the header for more <a href='https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/inc/azure/iot/az_iot_hub_client.h'>Documentation</a>. 
 
 4. Parse messages received from the Azure IoT Hub;
 
@@ -101,7 +99,7 @@ Use the following functions to provide the topics the MQTT client must publish t
 
 	Please refer to the header for more <a href='https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/inc/azure/iot/az_iot_hub_client.h'>Documentation</a>.
  
-# Can't get my TLS to work
+## Can't get my TLS to work
  
 ## 1. Issue found in one of our samples
  
