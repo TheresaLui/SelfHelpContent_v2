@@ -14,7 +14,7 @@
   "recommendationOfferingId": "f69180f4-2eea-4124-a08d-c8ab3663a249",
   "recommendationOfferingName": "Azure Data Explorer",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "3C636DDD-1551-4EDD-A482-E71D73A79815",
+  "recommendationTypeId": "d9c2f871-904e-4907-8572-0a33b0651f01",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
     "streamNamespace": "cluster('https://kustodataestate.usgovvirginia.kusto.usgovcloudapi.net').database('AdvisorRecommendations').PublishUnusedClustersRecommendations",
