@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2872d3c0-6fd4-0cfd-7bbb-e86d5197453e",
+      "longDescription": "",
+      "shortDescription": "Failures to configure or connect to SQL pool through a Private Link.",
+      "searchTags": "connectivity;unavailable;sql;private;link",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2a098ca0-1502-2f12-551d-b1f9365cb413",
       "longDescription": "",
       "shortDescription": "Slow or hung queries, or queries terminating with a timeout. Use only for SQL pool, separate topic for SQL on-demand.",
