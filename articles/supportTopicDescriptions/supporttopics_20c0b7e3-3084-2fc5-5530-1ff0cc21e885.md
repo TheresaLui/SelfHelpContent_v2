@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3896f082-9b9c-28c4-217a-f7abb9b3e782",
+      "longDescription": "",
+      "shortDescription": "Errors or unexpected behavior during job submission or interactive sessions occuring at Livy server frontend.",
+      "searchTags": "spark;job;execution;error;livy",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3da2d38e-2243-af43-0473-f9711cb9637b",
       "longDescription": "",
       "shortDescription": "Jobs running Scala script fail with an error message or show an unexpected behavior.",
