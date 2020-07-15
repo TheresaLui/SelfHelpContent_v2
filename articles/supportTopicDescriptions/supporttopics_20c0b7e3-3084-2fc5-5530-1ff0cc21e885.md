@@ -197,6 +197,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e252c2eb-7205-ff74-3ef6-957a21e49a1e",
+      "longDescription": "",
+      "shortDescription": "Job failures related to reading data from Azure Synapse Link for CosmosDB, returning an error message.",
+      "searchTags": "spark;job;execution;link;cosmosdb",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e57bee21-e911-bec0-9816-55f7ceaff787",
       "longDescription": "",
       "shortDescription": "Issues related to SSDT Database Projects or custom applications interacting with Synapse resources and pools.",
