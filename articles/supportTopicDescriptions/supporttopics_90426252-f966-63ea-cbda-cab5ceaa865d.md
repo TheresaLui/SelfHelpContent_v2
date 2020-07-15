@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8e875bc3-833d-858c-6ee3-620b9f811ddb",
+      "longDescription": "",
+      "shortDescription": "General guidance and advisory",
+      "searchTags": "general",
+      "category": "general",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a25872fb-a5ea-4167-6d28-e84e8c3a4d2c",
       "longDescription": "",
       "shortDescription": "Issues using the Update Management function of Azure Automation",
