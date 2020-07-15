@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "00f0a41f-85ba-e79e-53bb-3952c4f306c7",
+      "longDescription": "",
+      "shortDescription": "Questions on configuring and using threat detection for detecting anomalous and potentially harmful activities",
+      "searchTags": "threat;detection;security;alert;protection",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "05c89f3d-fb54-b346-843d-a203269e9d89",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior using Azure Data Studio to interact with Synapse Workspace and its components.",
