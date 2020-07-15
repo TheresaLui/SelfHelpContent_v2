@@ -509,6 +509,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e48b0486-e343-3de2-b43b-824caa21603b",
+      "longDescription": "",
+      "shortDescription": "Failures to configure the firewall or connectivity issues to SQL pools caused by the firewall settings.",
+      "searchTags": "connectivity;unavailable;sql;connection;firewall",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e56e18a6-b3b2-69b8-d338-1be16db8121b",
       "longDescription": "",
       "shortDescription": "Security related questions or advisory on best practices, recommendations and product expected behavior using SQL On-demand.",
