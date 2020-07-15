@@ -349,6 +349,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a8bbf09b-ee58-52c9-9b39-7c1387270685",
+      "longDescription": "",
+      "shortDescription": "Errors logging in using Azure Active Directory (AAD) authentication, creating new AAD users and setting up AAD administrators",
+      "searchTags": "connectivity;unavailable;sql;connection;aad",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "abd7233f-6063-d1ea-5b94-071df586b299",
       "longDescription": "",
       "shortDescription": "Executing a copy or data flow activity in a pipeline terminates with unexpected results or is running into system errors.",
