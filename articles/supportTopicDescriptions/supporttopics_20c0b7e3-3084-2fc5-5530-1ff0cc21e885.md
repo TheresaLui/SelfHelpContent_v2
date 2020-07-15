@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e20d598a-7a3f-4386-e8e5-0f374c2ec5e6",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior when using IntelliJ tool to develop, submit or run Scala Spark applications.",
+      "searchTags": "intellij;client;scala;spark",
+      "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e57bee21-e911-bec0-9816-55f7ceaff787",
       "longDescription": "",
       "shortDescription": "Issues related to SSDT Database Projects or custom applications interacting with Synapse resources and pools.",
