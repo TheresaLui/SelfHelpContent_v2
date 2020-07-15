@@ -309,6 +309,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "685f76b1-55d6-0c7a-2e1d-5c4619de647b",
+      "longDescription": "",
+      "shortDescription": "Resource Health showed that the database was unavailable and need to know the cause.",
+      "searchTags": "availability;unavailable;health;resource;connectivity",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68903275-cf37-27c7-a285-2fc62764fb41",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data to or from Azure Data Lake.",
