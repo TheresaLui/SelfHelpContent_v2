@@ -253,6 +253,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7613eca2-44c7-f59e-62a9-1932e13e5502",
+      "longDescription": "",
+      "shortDescription": "Failures to create or drop a Spark pool, slow or hung operations, or unexpected behavior.",
+      "searchTags": "manage;create;delete;spark;pool",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "801be9fa-94f4-d940-148c-88b8778e3101",
       "longDescription": "",
       "shortDescription": "Spark Job succeeds but returns unexpected or incorrect results, or shows unexpected behavior.",
