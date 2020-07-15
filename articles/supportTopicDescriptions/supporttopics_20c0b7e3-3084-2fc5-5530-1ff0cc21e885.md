@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "855adc6f-60a4-40d2-267f-3fa3cd744306",
+      "longDescription": "",
+      "shortDescription": "Problems creating or editing a sink data type or issues that only appear with a particular format or dataset type.",
+      "searchTags": "pipeline;sink;connector;dataset;type",
+      "category": "Orchestration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "95ad42ac-dcff-21bf-5ede-e9a6e70a44f9",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior using Power BI or Azure Analysis Services to query data in Synapse SQL pool or SQL On-demand.",
