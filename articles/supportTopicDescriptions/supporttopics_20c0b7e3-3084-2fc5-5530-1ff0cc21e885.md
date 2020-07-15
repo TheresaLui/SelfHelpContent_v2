@@ -259,6 +259,14 @@
       "searchTags": "spark;job;execution;failure;pool",
       "category": "Spark",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f36784d7-89d4-8421-c64a-ace5e91a8b6a",
+      "longDescription": "",
+      "shortDescription": "Spark SQL job is running slow or hang.",
+      "searchTags": "spark;job;execution;performance;sql",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
