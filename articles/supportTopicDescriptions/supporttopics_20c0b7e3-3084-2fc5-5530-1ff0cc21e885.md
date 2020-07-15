@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "43cf96c8-497c-5d92-f3bf-2e4c124e6c1a",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices and recommendations to achieve the best performance using Spark jobs.",
+      "searchTags": "how;advisory;spark;job;optimize",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4732c725-6edf-9850-731a-d6245e326b13",
       "longDescription": "",
       "shortDescription": "Jobs running Spark SQL script fail with an error message or return unexpected results.",
