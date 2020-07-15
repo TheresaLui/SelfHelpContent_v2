@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "15869ba0-d4f6-d2b8-ce98-d8aa87601488",
+      "longDescription": "",
+      "shortDescription": "Assistance with authentication issues when connecting to workspaces, SQL On-demand, Linked Services or storage accounts.",
+      "searchTags": "authentication;connectivity;sql;storage;aad",
+      "category": "Authentication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "182c052a-90c8-913f-403f-7d0ee8acc3b6",
       "longDescription": "",
       "shortDescription": "Assistance with issues affecting any client tools used to interact with the available Synapse Workspace components.",
