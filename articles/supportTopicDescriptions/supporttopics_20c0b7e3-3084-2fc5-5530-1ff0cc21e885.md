@@ -261,6 +261,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f09e82fa-d572-ee69-0c57-dfa7b86f7b77",
+      "longDescription": "",
+      "shortDescription": "Jobs are running slow or hang while reading data from Azure Synapse Link for CosmosDB.",
+      "searchTags": "spark;job;execution;link;cosmosdb",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f2cd58dd-b098-1aaf-820b-560fc61a8390",
       "longDescription": "",
       "shortDescription": "Error or unexpected behavior during Spark job submission phase. Not for failures after job execution starts successfully.",
