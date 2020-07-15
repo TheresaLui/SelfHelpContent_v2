@@ -357,6 +357,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d81df766-ee28-e5d6-0822-6ca5304ae3ff",
+      "longDescription": "",
+      "shortDescription": "Guidance on how to use Synapse features, best practices and recommendations, or questions about expected product behavior.",
+      "searchTags": "how;to;advisory;practices;recommendations",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d8a439eb-5193-5dff-43c8-60017c234cea",
       "longDescription": "",
       "shortDescription": "Failure to start execution, autoscaling not scaling as expected, difference between resources requested and allocated.",
