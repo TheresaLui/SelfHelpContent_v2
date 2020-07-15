@@ -41,7 +41,7 @@
         },
         {
           "value": "Message Queue",
-          "text": "Message queue is build up or cannot be processed"
+          "text": "Message queue is built up or cannot be processed"
         },
         {
           "value": "Conversation Endpoints",

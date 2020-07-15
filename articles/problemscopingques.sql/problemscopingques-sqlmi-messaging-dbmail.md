@@ -32,24 +32,24 @@
       "id": "smtp_configuration",
       "order": 2,
       "controlType": "dropdown",
-      "displayLabel": "Where does your SMTP server locate?",
+      "displayLabel": "Where is your SMTP server located?",
       "watermarkText": "Choose an option",
       "dropdownOptions": [
         {
           "value": "On-premise network",
-          "text": "SMTP server locates in your own on-premise network "
+          "text": "SMTP server is located in your own on-premise network "
         },
         {
           "value": "public network",
-          "text": "SMTP server locates in public network"
+          "text": "SMTP server is located in public network"
         },
         {
           "value": "Azure cloud",
-          "text": "SMTP server locates in Microsoft Azure"
+          "text": "SMTP server is located in Microsoft Azure"
         },
         {
           "value": "Other public cloud",
-          "text": "SMTP server locates in other public cloud"
+          "text": "SMTP server is located in other public cloud"
         },
         {
           "value": "dont_know_answer",
