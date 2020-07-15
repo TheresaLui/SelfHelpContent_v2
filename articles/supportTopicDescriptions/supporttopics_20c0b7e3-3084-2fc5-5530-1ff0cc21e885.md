@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "65db58f5-0eb3-c4df-7cbc-4adbc1b6a99a",
+      "longDescription": "",
+      "shortDescription": "Jobs running .NET Spark (C-Sharp) fail with an error message.",
+      "searchTags": "spark;job;failure;net",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68903275-cf37-27c7-a285-2fc62764fb41",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data to or from Azure Data Lake.",
