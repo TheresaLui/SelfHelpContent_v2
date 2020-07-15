@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "70cc99e6-6860-963a-3150-eaf121d497e3",
+      "longDescription": "",
+      "shortDescription": "Other issues with Change Tracking and Inventory",
+      "searchTags": "change;inventory",
+      "category": "Change Tracking",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "73dffd04-a2de-fc42-38dc-ba679fbfce76",
       "longDescription": "",
       "shortDescription": "Change Tracking is not picking changes to files, folders or services. ",
