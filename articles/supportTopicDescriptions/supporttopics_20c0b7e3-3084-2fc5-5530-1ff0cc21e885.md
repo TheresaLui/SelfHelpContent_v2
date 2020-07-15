@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a4379e04-c5f0-1d19-448c-7fae301b061a",
+      "longDescription": "",
+      "shortDescription": "Assistance with performance related issues running Spark jobs.",
+      "searchTags": "spark;job;execution;performance;slow",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ad5ec509-82bb-d6e6-a403-2da755f49b20",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior using Azure portal to manage your Synapse resources.",
