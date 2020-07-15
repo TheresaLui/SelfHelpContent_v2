@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "95ad42ac-dcff-21bf-5ede-e9a6e70a44f9",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior using Power BI or Azure Analysis Services to query data in Synapse SQL pool or SQL On-demand.",
+      "searchTags": "aas;analysis;services;process;cube",
+      "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b2041720-4dd0-7625-cfef-1c9b767a24bc",
       "longDescription": "",
       "shortDescription": "Use for issues with SSMS tool features. Do not use for connectivity, failed queries with server side errors, DMVs or permissions.",
