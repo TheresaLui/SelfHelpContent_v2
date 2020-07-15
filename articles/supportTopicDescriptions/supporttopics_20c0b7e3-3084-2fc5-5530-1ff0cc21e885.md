@@ -213,6 +213,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "68e4a433-8d41-b8a2-622d-eba70489b6b5",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Databricks.",
+      "searchTags": "sql;databricks;spark;load",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "73036aa4-a3a7-42fd-f0d6-add2ad34a6e6",
       "longDescription": "",
       "shortDescription": "Advisory on best practices and recommendations related to loading data to SQL pools.",
