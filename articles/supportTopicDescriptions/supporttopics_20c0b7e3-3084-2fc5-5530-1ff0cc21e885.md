@@ -677,6 +677,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f9a5148c-1fc8-a62c-ee91-45658bf274cb",
+      "longDescription": "",
+      "shortDescription": "Problems authenticating to external data using Linked Services like Storage accounts, CosmosDB and Datasets.",
+      "searchTags": "authentication;connectivity;linked;service;storage",
+      "category": "Authentication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fbd5b784-3db2-da8b-fbe3-4d2727fca8fb",
       "longDescription": "",
       "shortDescription": "Failures to create or drop a SQL pool, slow or hung operations, or unexpected behavior.",
