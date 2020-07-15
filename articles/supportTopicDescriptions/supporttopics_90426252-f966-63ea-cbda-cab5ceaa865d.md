@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "73dffd04-a2de-fc42-38dc-ba679fbfce76",
+      "longDescription": "",
+      "shortDescription": "Change Tracking is not picking changes to files, folders or services. ",
+      "searchTags": "file;folder;service;daemon",
+      "category": "Change Tracking",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7cad395f-7f36-9c2c-af5b-372b0a0d4b11",
       "longDescription": "",
       "shortDescription": "Other issues with Update Management",
