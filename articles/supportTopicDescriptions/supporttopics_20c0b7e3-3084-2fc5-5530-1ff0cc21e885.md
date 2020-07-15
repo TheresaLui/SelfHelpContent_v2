@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "05c89f3d-fb54-b346-843d-a203269e9d89",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior using Azure Data Studio to interact with Synapse Workspace and its components.",
+      "searchTags": "data;studio;extension;connect;sql",
+      "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "06177cab-d26f-9ff9-4530-f446df3b68d0",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior when using Synapse Studio Notebooks to author, run and debug Spark applications.",
