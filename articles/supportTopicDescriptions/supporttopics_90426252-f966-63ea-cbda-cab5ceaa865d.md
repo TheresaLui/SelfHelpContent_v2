@@ -157,6 +157,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f08ed460-14f2-f90b-2695-6a196afe8f8a",
+      "longDescription": "",
+      "shortDescription": "General guidance and advisory for RunAs",
+      "searchTags": "general",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f9b99fd1-f749-19d7-a933-e5e7511e1ae5",
       "longDescription": "",
       "shortDescription": "Configuring or using Source Control with Azure Automation runbooks",
