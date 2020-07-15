@@ -317,6 +317,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e0fa8b6e-3965-b7c0-b5cf-3add6ec6fd30",
+      "longDescription": "",
+      "shortDescription": "Security related questions or advisory on best practices, recommendations and product expected behavior using SQL pools.",
+      "searchTags": "how;advisory;sql;security;permissions",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e1273bb0-fb2b-d5e1-a436-9b8835b601ac",
       "longDescription": "",
       "shortDescription": "Failures setting up Self-Hosted IR service, startup issues, network or connectivity errors or unhandled exceptions.",
