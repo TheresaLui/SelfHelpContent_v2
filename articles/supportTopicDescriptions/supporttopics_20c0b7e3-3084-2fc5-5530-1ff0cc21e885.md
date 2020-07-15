@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "20e978f5-6ede-aba5-039b-b98797886044",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices, recommendations or product behavior using Azure Portal or client tools with SQL Pools.",
+      "searchTags": "how;advisory;sql;client;tools",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2461cf21-293c-0fd4-8469-f4953277f73f",
       "longDescription": "",
       "shortDescription": "Issues related to monitoring and alerting for SQL pools, Sparks pools and workspace pipeline runs.",
