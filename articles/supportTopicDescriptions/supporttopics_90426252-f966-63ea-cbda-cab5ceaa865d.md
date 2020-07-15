@@ -133,6 +133,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "bf96609f-f01c-a33e-50f6-de9417df900b",
+      "longDescription": "",
+      "shortDescription": "Onboarding and configuring Change Tracking or Inventory",
+      "searchTags": "add VM;enable;populate",
+      "category": "Change Tracking",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c9e9b661-d0b7-8c96-d869-0c8e61dbec8d",
       "longDescription": "",
       "shortDescription": "Starting and stopping Azure VMs using a runbook from the gallery or one you wrote",
