@@ -293,6 +293,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "59b066a7-f057-dfb2-e7df-c3e3169817a9",
+      "longDescription": "",
+      "shortDescription": "Problems that occur during a database restore, backup retention policies, or issues restoring to different region.",
+      "searchTags": "backup;restore;sla;region;retention",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5be6ab91-edaf-9c94-e08b-65de1dd26039",
       "longDescription": "",
       "shortDescription": "Queries failing with an error or returning unexpected results. Use only for SQL on-demand, separate topic for SQL pool.",
