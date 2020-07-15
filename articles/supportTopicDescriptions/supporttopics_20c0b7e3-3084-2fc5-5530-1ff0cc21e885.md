@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0fb96aa1-1f37-c0f5-f52a-2a839ddb8301",
+      "longDescription": "",
+      "shortDescription": "Failures configuring access or accessing data on storage using External Data Sources, External Tables, OPENROWSET, COPY INTO, CTAS or CETAS.",
+      "searchTags": "roles;access control;permissions;security;sql",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "10e0990d-93f6-9653-e90a-15c1354936d1",
       "longDescription": "",
       "shortDescription": "Pipeline is stuck in one state for a long time, or the execution does not start even though no other run is in progress.",
