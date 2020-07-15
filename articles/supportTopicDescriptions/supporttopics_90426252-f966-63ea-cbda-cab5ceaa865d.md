@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a3e6d6f4-1eb9-7f27-baba-f679988f2563",
+      "longDescription": "",
+      "shortDescription": "General guidance and advisory for runbooks",
+      "searchTags": "general",
+      "category": "runbooks",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a9ed6f44-bb78-3941-2100-d52010ea9ab8",
       "longDescription": "",
       "shortDescription": "Readiness column shows disconnected, hresult, or error.",
