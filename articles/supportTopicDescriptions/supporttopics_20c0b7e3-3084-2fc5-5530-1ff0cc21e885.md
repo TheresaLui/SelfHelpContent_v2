@@ -325,6 +325,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "601630e5-94a2-633b-5f77-e78bbdc5b266",
+      "longDescription": "",
+      "shortDescription": "Failures or configuration issues managing Synapse Workspace roles and permissions, Azure roles, or acessing Synapse Studio.",
+      "searchTags": "roles;access control;permissions;security;workspace",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "63bad926-3763-a7a3-0d22-06e2d04a9bac",
       "longDescription": "",
       "shortDescription": "Advisory on best practices, recommendations or product behavior using Azure Portal or client tools with SQL On-demand.",
