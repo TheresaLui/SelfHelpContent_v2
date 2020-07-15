@@ -669,6 +669,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f50a89b9-94a6-c278-5601-7321b85caf26",
+      "longDescription": "",
+      "shortDescription": "Errors logging while using Azure Active Directory (AAD) authentication, creating new AAD users and setting up AAD administrators.",
+      "searchTags": "authentication;connectivity;sql;on-demand;aad",
+      "category": "Authentication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fbd5b784-3db2-da8b-fbe3-4d2727fca8fb",
       "longDescription": "",
       "shortDescription": "Failures to create or drop a SQL pool, slow or hung operations, or unexpected behavior.",
