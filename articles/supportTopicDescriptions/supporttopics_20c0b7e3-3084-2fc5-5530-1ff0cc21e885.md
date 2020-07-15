@@ -531,6 +531,14 @@
       "searchTags": "spark;job;execution;performance;sql",
       "category": "Spark",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fbd5b784-3db2-da8b-fbe3-4d2727fca8fb",
+      "longDescription": "",
+      "shortDescription": "Failures to create or drop a SQL pool, slow or hung operations, or unexpected behavior.",
+      "searchTags": "create;drop;delete;sql;pool",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
