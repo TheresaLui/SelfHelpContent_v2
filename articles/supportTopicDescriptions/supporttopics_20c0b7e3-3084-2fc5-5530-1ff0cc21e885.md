@@ -237,6 +237,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8360d72c-0c2a-dd07-bf99-0230ab114d56",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Polybase.",
+      "searchTags": "sql;polybase;load;import;export",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8486c5fa-0318-50ec-58d8-b2d438372cc8",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior using Synapse Studio interface. Do not use for permissions issues.",
