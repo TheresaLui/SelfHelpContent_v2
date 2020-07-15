@@ -597,6 +597,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d68f6850-ba98-2795-8330-7b5c974fe9d0",
+      "longDescription": "",
+      "shortDescription": "Failures configuring access or accessing data on storage using External Data Sources, External Tables, OPENROWSET or CETAS.",
+      "searchTags": "roles;access control;permissions;security;sql",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d6c64586-f123-8b73-08f6-5d70297ccec6",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior when using History Server to debug and diagnose completed and running Spark applications.",
