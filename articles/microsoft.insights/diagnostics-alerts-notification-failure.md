@@ -14,6 +14,7 @@
     cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
     ownershipId="AzureMonitoring_ActionGroup"
 />
+# <-- Alerts Notification Failure -->
 ## **Recommended Steps**
 
 If no action group is configured for your alert rule. 
