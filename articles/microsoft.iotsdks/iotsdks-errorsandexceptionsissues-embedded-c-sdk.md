@@ -70,14 +70,13 @@ Please refer to the <a href='https://github.com/Azure/azure-sdk-for-c/blob/maste
  
 3. Subscribe to the topics expected by the Azure IoT Hub for the features if supports;
 Use the following macros or functions to provide the topics the MQTT client must subscribe to to use the features supported by Azure IoT Hub:
- 
 	* AZ_IOT_HUB_CLIENT_C2D_SUBSCRIBE_TOPIC
 	* AZ_IOT_HUB_CLIENT_METHODS_SUBSCRIBE_TOPIC
 	* AZ_IOT_HUB_CLIENT_TWIN_RESPONSE_SUBSCRIBE_TOPIC
 	* AZ_IOT_HUB_CLIENT_TWIN_PATCH_SUBSCRIBE_TOPIC
 	
-	Please refer to the header for more <a href='https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/inc/azure/iot/az_iot_hub_client.h'>Documentation</a>. 
-
+	Please refer to the header for more <a href='https://github.com/Azure/azure-sdk-for-c/blob/master/sdk/inc/azure/iot/az_iot_hub_client.h'>Documentation</a>.
+	
 4. Parse messages received from the Azure IoT Hub;
 
 	Messages sent by the Azure IoT Hub for the features supported have specific topic names, which contains the key information of each response.
