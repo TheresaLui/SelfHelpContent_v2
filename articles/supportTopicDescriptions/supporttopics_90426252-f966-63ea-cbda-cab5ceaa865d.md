@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a9ed6f44-bb78-3941-2100-d52010ea9ab8",
+      "longDescription": "",
+      "shortDescription": "Readiness column shows disconnected, hresult, or error.",
+      "searchTags": "agent;ready",
+      "category": "update management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c9e9b661-d0b7-8c96-d869-0c8e61dbec8d",
       "longDescription": "",
       "shortDescription": "Starting and stopping Azure VMs using a runbook from the gallery or one you wrote",
