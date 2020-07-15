@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "06177cab-d26f-9ff9-4530-f446df3b68d0",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior when using Synapse Studio Notebooks to author, run and debug Spark applications.",
+      "searchTags": "notebooks;spark;studio;run;debug",
+      "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68903275-cf37-27c7-a285-2fc62764fb41",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data to or from Azure Data Lake.",
