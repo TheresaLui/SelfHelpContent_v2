@@ -549,6 +549,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bd9291ca-67ff-e2ab-72e6-1c1fa580abc5",
+      "longDescription": "",
+      "shortDescription": "Assistance with roles and access control to control activities and access to workspaces, pools, data and pipelines in Synapse Analytics.",
+      "searchTags": "roles;access control;permissions;security",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "be1de058-17fc-92cf-2850-8b31cf6bb82c",
       "longDescription": "",
       "shortDescription": "Pipeline or Trigger execution fails with an error, times out, or fails for other unexpected reasons.",
