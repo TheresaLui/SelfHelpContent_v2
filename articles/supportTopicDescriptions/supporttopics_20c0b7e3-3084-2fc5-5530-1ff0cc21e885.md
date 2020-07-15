@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1a7cc81b-b118-888f-8893-a909a26c51a9",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using bcp utility or SQLBulkCopy API.",
+      "searchTags": "sql;api;bcp;bulk;copy",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1c7e286b-27b0-081c-f5a1-4bcfa02fffde",
       "longDescription": "",
       "shortDescription": "Queries failures, unexpected results, slow or hung queries when loading data from Synapse Link for CosmosDB from SQL On-demand.",
