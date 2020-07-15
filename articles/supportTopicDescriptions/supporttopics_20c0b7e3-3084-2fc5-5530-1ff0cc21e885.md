@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3da2d38e-2243-af43-0473-f9711cb9637b",
+      "longDescription": "",
+      "shortDescription": "Jobs running Scala script fail with an error message or show an unexpected behavior.",
+      "searchTags": "spark;job;execution;failure;scala",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4732c725-6edf-9850-731a-d6245e326b13",
       "longDescription": "",
       "shortDescription": "Jobs running Spark SQL script fail with an error message or return unexpected results.",
