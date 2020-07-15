@@ -485,6 +485,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e5e21493-f9c7-da2e-420f-48563dcbdd67",
+      "longDescription": "",
+      "shortDescription": "Failures to create or drop a Workspace, slow or hung operations, or unexpected behavior.",
+      "searchTags": "manage;create;drop;delete;workspace",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f09e82fa-d572-ee69-0c57-dfa7b86f7b77",
       "longDescription": "",
       "shortDescription": "Jobs are running slow or hang while reading data from Azure Synapse Link for CosmosDB.",
