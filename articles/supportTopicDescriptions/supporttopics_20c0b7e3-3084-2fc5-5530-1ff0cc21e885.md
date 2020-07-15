@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "10e0990d-93f6-9653-e90a-15c1354936d1",
+      "longDescription": "",
+      "shortDescription": "Pipeline is stuck in one state for a long time, or the execution does not start even though no other run is in progress.",
+      "searchTags": "piepline;execution;progress;queued;hang",
+      "category": "Orchestration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "182c052a-90c8-913f-403f-7d0ee8acc3b6",
       "longDescription": "",
       "shortDescription": "Assistance with issues affecting any client tools used to interact with the available Synapse Workspace components.",
