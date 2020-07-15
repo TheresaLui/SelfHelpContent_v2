@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3a5bb507-43b8-1548-c97e-b0f20112f6b7",
+      "longDescription": "",
+      "shortDescription": "Assistance with configuration, management or access to Azure Synapse Link for CosmosDB.",
+      "searchTags": "synapse;link;cosmosdb;analytical",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3da2d38e-2243-af43-0473-f9711cb9637b",
       "longDescription": "",
       "shortDescription": "Jobs running Scala script fail with an error message or show an unexpected behavior.",
