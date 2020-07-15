@@ -237,6 +237,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c1363d1f-fac5-4344-bcb2-f23f953b1d70",
+      "longDescription": "",
+      "shortDescription": "Problems creating or editing a source data type or issues that only appear with a particular format or dataset type.",
+      "searchTags": "pipeline;source;connector;dataset;type",
+      "category": "Orchestration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d6c64586-f123-8b73-08f6-5d70297ccec6",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior when using History Server to debug and diagnose completed and running Spark applications.",
