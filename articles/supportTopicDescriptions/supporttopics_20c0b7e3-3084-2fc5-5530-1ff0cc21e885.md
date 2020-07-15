@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3162d5ce-5a1d-c422-c9dd-c6c1905d9ff4",
+      "longDescription": "",
+      "shortDescription": "Jobs running Python script fail with an error message or show an unexpected behavior.",
+      "searchTags": "spark;job;execution;pyspark;python",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3387ebac-8a0a-c223-07ea-3bd093fb981a",
       "longDescription": "",
       "shortDescription": "Queries using PREDICT() function to run Machine Learning models with error messages, performance issues or unexpected behavior.",
