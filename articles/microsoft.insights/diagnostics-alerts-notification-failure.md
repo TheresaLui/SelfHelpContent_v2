@@ -9,6 +9,7 @@
     displayOrder="8"
     articleId="28b9e583-dbcf-44d2-907f-d8d686799206"
     selfHelpType="generic"
+    supportTopicIds="32739779"
     productPesIds="15454"
     cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
     ownershipId="AzureAlerts"
