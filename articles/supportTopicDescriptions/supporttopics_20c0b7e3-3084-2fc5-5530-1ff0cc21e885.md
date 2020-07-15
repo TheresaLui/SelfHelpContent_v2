@@ -269,6 +269,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5e49148d-7344-0f44-e03b-db04283802c2",
+      "longDescription": "",
+      "shortDescription": "Failures related to authentication when accessing storage from SQL on-demand.",
+      "searchTags": "authentication;connectivity;sql;on-demand;storage",
+      "category": "Authentication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5e734df8-143b-9785-d804-5a0851b89c4e",
       "longDescription": "",
       "shortDescription": "Failures to configure virtual network rules or connect to SQL pool through a VNet service endpoints.",
