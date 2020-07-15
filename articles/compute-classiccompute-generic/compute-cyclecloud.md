@@ -4,7 +4,7 @@
   resource="virtualmachines"
   ms.author="ywan,bewon"
   selfhelptype="Generic"
-  supporttopicids="32608325"
+  supporttopicids="32605195,32608325,32608326,32608327,32608328,32608329,32608330"
   resourcetags=""
   productpesids="16478"
   cloudenvironments="public,fairfax,usnat,ussec"

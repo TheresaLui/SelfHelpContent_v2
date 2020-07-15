@@ -10,12 +10,12 @@
 	articleId="partnercenter_update_your_partner_profile"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32725791,32692595"
+	supportTopicIds="32692595"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="17000,17003"
+	productPesIds="17003"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Change your billing info
 
