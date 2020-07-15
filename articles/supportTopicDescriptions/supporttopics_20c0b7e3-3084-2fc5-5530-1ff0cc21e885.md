@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "302b0486-c30d-001a-bb38-e2109a55cb1f",
+      "longDescription": "",
+      "shortDescription": "Failures to scale a SQL pool to a different SLO, slow or hung scale operations, or unexpected behavior.",
+      "searchTags": "hang;scale;sql;pool;slo",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3162d5ce-5a1d-c422-c9dd-c6c1905d9ff4",
       "longDescription": "",
       "shortDescription": "Jobs running Python script fail with an error message or show an unexpected behavior.",
