@@ -453,6 +453,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cc311cde-a960-10fc-2879-3879c9b06556",
+      "longDescription": "",
+      "shortDescription": "Failures to connect to SQL pool endpoint or database unavailable. Do not use for AAD authentication or firewall issues.",
+      "searchTags": "connectivity;unavailable;sql;connection;fail",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ce92e971-af53-5a9f-7127-37ba8c857264",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Azure Data Factory pipelines.",
