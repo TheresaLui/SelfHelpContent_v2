@@ -173,6 +173,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b12f560c-2c86-9baf-b65e-5bd576674dd0",
+      "longDescription": "",
+      "shortDescription": "Scala job is running slow or hang.",
+      "searchTags": "spark;job;execution;performance;scala",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b2041720-4dd0-7625-cfef-1c9b767a24bc",
       "longDescription": "",
       "shortDescription": "Use for issues with SSMS tool features. Do not use for connectivity, failed queries with server side errors, DMVs or permissions.",
