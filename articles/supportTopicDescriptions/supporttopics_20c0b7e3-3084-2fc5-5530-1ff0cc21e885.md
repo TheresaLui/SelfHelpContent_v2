@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d8a439eb-5193-5dff-43c8-60017c234cea",
+      "longDescription": "",
+      "shortDescription": "Failure to start execution, autoscaling not scaling as expected, difference between resources requested and allocated.",
+      "searchTags": "spark;job;execution;failure;autoscaling",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e20d598a-7a3f-4386-e8e5-0f374c2ec5e6",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior when using IntelliJ tool to develop, submit or run Scala Spark applications.",
