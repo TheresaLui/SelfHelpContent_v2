@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7cad395f-7f36-9c2c-af5b-372b0a0d4b11",
+      "longDescription": "",
+      "shortDescription": "Other issues with Update Management",
+      "searchTags": "general",
+      "category": "Update Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8545671d-c7cc-c4b5-5f0e-b5d0a7b6721b",
       "longDescription": "",
       "shortDescription": "Issues installing patches or updates, such as getting an HRESULT or patches not being applied. ",
