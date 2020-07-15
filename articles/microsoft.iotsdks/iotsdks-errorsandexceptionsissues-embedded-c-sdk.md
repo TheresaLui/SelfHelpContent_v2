@@ -15,7 +15,7 @@
   "$schema": "SelfHelpContent",
   "subscriptionRequired": true,
   "resourceRequired": true,
-	"title": "Embedded C SDK Issues",
+	"title": "Embedded-C SDK Issues",
 	"fileAttachmentHint": "",
 	"formElements":
 	[
