@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b8486326-e052-b8ab-ab40-17f34a86b012",
+      "longDescription": "",
+      "shortDescription": "Slow or hung queries, or queries terminating with a timeout. Use only for SQL on-demand, separate topic for SQL pool.",
+      "searchTags": "sql;performance;query;execution;slow",
+      "category": "SQL Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d6c64586-f123-8b73-08f6-5d70297ccec6",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior when using History Server to debug and diagnose completed and running Spark applications.",
