@@ -605,6 +605,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ddd9eb44-e847-71ac-f668-5e0915900a22",
+      "longDescription": "",
+      "shortDescription": "Failures related to authentication when accessing SQL on-demand endpoint, except Azure Active Directory (AAD).",
+      "searchTags": "authentication;connectivity;sql;on-demand",
+      "category": "Authentication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e0fa8b6e-3965-b7c0-b5cf-3add6ec6fd30",
       "longDescription": "",
       "shortDescription": "Security related questions or advisory on best practices, recommendations and product expected behavior using SQL pools.",
