@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "560fcaa6-9baa-6bd3-b618-b6a4a2832640",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Azure Machine Learning models.",
+      "searchTags": "sql;ml;machine;learning;model",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5be6ab91-edaf-9c94-e08b-65de1dd26039",
       "longDescription": "",
       "shortDescription": "Queries failing with an error or returning unexpected results. Use only for SQL on-demand, separate topic for SQL pool.",
