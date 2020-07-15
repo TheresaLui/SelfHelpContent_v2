@@ -6,19 +6,20 @@
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885" />
+  articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
+  ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
-  "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "shortDescription": "Assistance or advisory related to Synapse Analytics product.",
+  "longDescription": "",
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "00f0a41f-85ba-e79e-53bb-3952c4f306c7",
