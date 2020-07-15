@@ -245,6 +245,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5ee9e45a-9ce1-c2c7-49e2-641764b87af2",
+      "longDescription": "",
+      "shortDescription": "Issues connecting  to CosmoDB Analytical store using Azure Synapse Link for Cosmos DB.",
+      "searchTags": "synapse;link;cosmosdb;connectivity",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "63bad926-3763-a7a3-0d22-06e2d04a9bac",
       "longDescription": "",
       "shortDescription": "Advisory on best practices, recommendations or product behavior using Azure Portal or client tools with SQL On-demand.",
