@@ -381,6 +381,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bf66f37b-a473-9e4c-72d1-94ff5d529dfd",
+      "longDescription": "",
+      "shortDescription": "Issues related to capacity when creating or scaling a SQL pool.",
+      "searchTags": "create;scale;sql;pool;region",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c1363d1f-fac5-4344-bcb2-f23f953b1d70",
       "longDescription": "",
       "shortDescription": "Problems creating or editing a source data type or issues that only appear with a particular format or dataset type.",
