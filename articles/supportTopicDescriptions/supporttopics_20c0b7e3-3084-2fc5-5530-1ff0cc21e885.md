@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "858f2f8c-d82b-2561-e218-305fc243c323",
+      "longDescription": "",
+      "shortDescription": "Problems authoring a Copy Activity on the portal, authentication or networking errors, unexpected results copying data.",
+      "searchTags": "pipeline;execution;copy;activity;monitor",
+      "category": "Orchestration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "95ad42ac-dcff-21bf-5ede-e9a6e70a44f9",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior using Power BI or Azure Analysis Services to query data in Synapse SQL pool or SQL On-demand.",
