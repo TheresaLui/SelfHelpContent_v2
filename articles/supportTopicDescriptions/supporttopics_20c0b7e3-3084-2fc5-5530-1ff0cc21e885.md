@@ -157,6 +157,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "23b20fa3-3b71-f49b-f2c2-ee098b6850b1",
+      "longDescription": "",
+      "shortDescription": "Slow or hung queries, queries failing with an error or unexpected results, issues related to file formats or data types.",
+      "searchTags": "sql;performance;cetas;format;types",
+      "category": "SQL Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2461cf21-293c-0fd4-8469-f4953277f73f",
       "longDescription": "",
       "shortDescription": "Issues related to monitoring and alerting for SQL pools, Sparks pools and workspace pipeline runs.",

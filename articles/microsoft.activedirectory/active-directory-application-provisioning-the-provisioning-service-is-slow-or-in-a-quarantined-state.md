@@ -1,23 +1,23 @@
 <properties
-	pageTitle="Problems with user provisioning to an application being slow or in quarantine"
-	description="Problems with user provisioning to an application being slow or in quarantine"
-	infoBubbleText="Problems with user provisioning to an application being slow or in quarantine"
+	pageTitle="The provisioning service is slow or in a quarantined state"
+	description="The provisioning service is slow or in a quarantined state"
+	infoBubbleText="The provisioning service is slow or in a quarantined state"
 	service="microsoft.activedirectory"
 	resource="activedirectory"
-	authors="asmalser-msft"
-	ms.author="asmalser"
+	authors="rodejo"
+	ms.author="rodejor"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32629807"
+	supportTopicIds="32684524"
 	productPesIds="16666"
-	articleId="3eefc8c1-c360-495a-bfe0-ea51ac686ddd"
+	articleId="2f95fd80-eae3-4a65-9202-f41bfcef2152"
 	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
-# Problems with user provisioning to an application being slow or in quarantine
+# The provisioning service is slow or in a quarantined state
 
-The Azure AD user provisioning service perpetually synchronizes user account data from Azure AD to target applications, typically on 40 minute sync cycle intervals. However, the time it takes to complete a sync cycle depends on what type of cycle it is (initial sync or incremental sync), and how much user data needs to be processed.
+The Azure AD user provisioning service continuously synchronizes user account data from Azure AD to target applications, typically on 40 minute sync cycle intervals. However, the time it takes to complete a sync cycle depends on what type of cycle it is (initial sync or incremental sync), and how much user data needs to be processed.
 
 A provisioning job can also go into a "quarantine" state, which means that the frequency of sync execution has been reduced due to a high volume of errors.
 
@@ -29,7 +29,9 @@ For recommended steps dealing with slow provisioning jobs and quarantine, see th
 
 **Slow Provisioning Jobs**
 
-* For detailed information on how to estimate the time it will take to complete a user provisioning cycle, see [How long will it take to provision users?](https://docs.microsoft.com/azure/active-directory/manage-apps/user-provisioning#how-long-will-it-take-to-provision-users)
+1. Use the [on-demand provisioning](https://docs.microsoft.com/azure/active-directory/app-provisioning/provision-on-demand) capability to provision a user and get detailed diagnostics about the steps taken.
+2. Periodically restart provisioning to catch any users that were missed in a previous provisioning cycle.
+3. For detailed information on how to estimate the time it will take to complete a user provisioning cycle, see [How long will it take to provision users?](https://docs.microsoft.com/azure/active-directory/manage-apps/user-provisioning#how-long-will-it-take-to-provision-users)
 
 **Quarantined provisioning jobs**
 
