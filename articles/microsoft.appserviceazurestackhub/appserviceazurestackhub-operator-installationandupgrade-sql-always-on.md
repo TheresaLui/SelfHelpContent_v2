@@ -1,10 +1,10 @@
 <properties
-    pageTitle="App service operator installation and upgrade SQL Always On"
-    description="App service operator installation and upgrade SQL Always On"
+    pageTitle="App Service operator installation and upgrade SQL Always On"
+    description="App Service operator installation and upgrade SQL Always On"
     service="microsoft.azurestack"
     resource="azurestack"
-    authors="alexsmithMSFT"
-    ms.author="alexsmit"
+    authors="BryanLa"
+    ms.author="bryanla"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32742870"
@@ -15,7 +15,7 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# App service operator installation and upgrade SQL Always On
+# App Service operator installation and upgrade SQL Always On
 
 ## **Recommended Steps**
 
