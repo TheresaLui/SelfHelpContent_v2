@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3387ebac-8a0a-c223-07ea-3bd093fb981a",
+      "longDescription": "",
+      "shortDescription": "Queries using PREDICT() function to run Machine Learning models with error messages, performance issues or unexpected behavior.",
+      "searchTags": "sql;predict;ml;machine;learning",
+      "category": "SQL Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68903275-cf37-27c7-a285-2fc62764fb41",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data to or from Azure Data Lake.",
