@@ -75,6 +75,14 @@
       "searchTags": "history;server;spark;log;debug",
       "category": "Synapse Studio, Portal and Client Tools",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e57bee21-e911-bec0-9816-55f7ceaff787",
+      "longDescription": "",
+      "shortDescription": "Issues related to SSDT Database Projects or custom applications interacting with Synapse resources and pools.",
+      "searchTags": "sql;driver;ssdt;party;application",
+      "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
