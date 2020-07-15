@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "96c29b26-d9fd-70be-f4b5-57da77c9625a",
+      "longDescription": "",
+      "shortDescription": "Queries failing with an error or returning unexpected results. Use only for SQL pool, separate topic for SQL on-demand.",
+      "searchTags": "sql;query;execution;error;failure",
+      "category": "SQL Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ad5ec509-82bb-d6e6-a403-2da755f49b20",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior using Azure portal to manage your Synapse resources.",
