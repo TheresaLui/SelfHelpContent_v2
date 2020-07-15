@@ -341,6 +341,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8661e1f9-cdb6-519a-4dc2-cd228cf9c409",
+      "longDescription": "",
+      "shortDescription": "Issues to configure for Azure Synapse Link for Cosmos DB.",
+      "searchTags": "synapse;link;cosmosdb;configuration;analytical",
+      "category": "Azure Synapse Link",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "95ad42ac-dcff-21bf-5ede-e9a6e70a44f9",
       "longDescription": "",
       "shortDescription": "Issues, questions or unexpected behavior using Power BI or Azure Analysis Services to query data in Synapse SQL pool or SQL On-demand.",
