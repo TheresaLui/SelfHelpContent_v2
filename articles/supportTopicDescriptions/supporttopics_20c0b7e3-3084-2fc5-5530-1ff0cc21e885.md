@@ -613,6 +613,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dae30f60-1ec8-a84a-04c4-679062875e45",
+      "longDescription": "",
+      "shortDescription": "Questions on setting up and using auditing to track database events and analyzing the corresponding audit logs.",
+      "searchTags": "audit;logs;reports;analytics",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dd022ada-96ee-5fce-b2ad-1fcc556c27a5",
       "longDescription": "",
       "shortDescription": "Assistance with unavailable databases, failure to establish a connection to SQL Pool or SQL on-demand, or dropped connections.",
