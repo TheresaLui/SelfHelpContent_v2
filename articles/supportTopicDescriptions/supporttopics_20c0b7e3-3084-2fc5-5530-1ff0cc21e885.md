@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "182c052a-90c8-913f-403f-7d0ee8acc3b6",
+      "longDescription": "",
+      "shortDescription": "Assistance with issues affecting any client tools used to interact with the available Synapse Workspace components.",
+      "searchTags": "client;tools;driver;application;workspace",
+      "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2461cf21-293c-0fd4-8469-f4953277f73f",
       "longDescription": "",
       "shortDescription": "Issues related to monitoring and alerting for SQL pools, Sparks pools and workspace pipeline runs.",
