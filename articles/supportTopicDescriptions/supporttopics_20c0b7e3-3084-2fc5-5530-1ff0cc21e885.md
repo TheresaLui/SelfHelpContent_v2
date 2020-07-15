@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "63bad926-3763-a7a3-0d22-06e2d04a9bac",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices, recommendations or product behavior using Azure Portal or client tools with SQL On-demand.",
+      "searchTags": "how;advisory;sql;client;tools",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "65db58f5-0eb3-c4df-7cbc-4adbc1b6a99a",
       "longDescription": "",
       "shortDescription": "Jobs running .NET Spark (C-Sharp) fail with an error message.",
