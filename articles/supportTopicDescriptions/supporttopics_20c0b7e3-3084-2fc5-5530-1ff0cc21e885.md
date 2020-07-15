@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "39ccedf8-52d5-f2f6-8fa3-b5ee23b94974",
+      "longDescription": "",
+      "shortDescription": "Assistance with Orchestration issues during design time or runtime.",
+      "searchTags": "orchestration;pipeline;run;monitor;performance",
+      "category": "Orchestration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3da2d38e-2243-af43-0473-f9711cb9637b",
       "longDescription": "",
       "shortDescription": "Jobs running Scala script fail with an error message or show an unexpected behavior.",
