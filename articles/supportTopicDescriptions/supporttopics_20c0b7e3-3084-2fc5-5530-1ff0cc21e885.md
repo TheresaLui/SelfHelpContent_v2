@@ -27,6 +27,14 @@
       "searchTags": "data;lake;adls;load;import",
       "category": "ETL with SQL Pool",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8486c5fa-0318-50ec-58d8-b2d438372cc8",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior using Synapse Studio interface. Do not use for permissions issues.",
+      "searchTags": "studio;errors;access;permissions;proxy",
+      "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
