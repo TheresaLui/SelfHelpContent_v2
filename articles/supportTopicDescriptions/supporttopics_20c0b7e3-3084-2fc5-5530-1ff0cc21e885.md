@@ -125,6 +125,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "22988c8c-8c88-c35f-a61a-b3e9210a22b4",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior related to the authoring and development of Notebooks.",
+      "searchTags": "authoring;development;notebooks;spark;studio",
+      "category": "Authoring and Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2461cf21-293c-0fd4-8469-f4953277f73f",
       "longDescription": "",
       "shortDescription": "Issues related to monitoring and alerting for SQL pools, Sparks pools and workspace pipeline runs.",
