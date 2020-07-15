@@ -477,6 +477,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b7610fd7-6578-9f54-6f4f-4c32418d8d93",
+      "longDescription": "",
+      "shortDescription": "Questions on configuring, tracking, and using vulnerability assessment to remediate potential database vulnerabilities.",
+      "searchTags": "vulnerability;assessment;security;compliance;scan",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b8486326-e052-b8ab-ab40-17f34a86b012",
       "longDescription": "",
       "shortDescription": "Slow or hung queries, or queries terminating with a timeout. Use only for SQL on-demand, separate topic for SQL pool.",
