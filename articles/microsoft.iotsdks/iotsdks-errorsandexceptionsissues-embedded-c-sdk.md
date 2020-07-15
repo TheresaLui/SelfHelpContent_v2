@@ -1,14 +1,14 @@
 <properties
-	pageTitle="EmbeddedCSDKIssues"
-	description="Embedded-C-SDK-Issues"
-	ms.author="wduraes"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32596697"
-	productPesIds="16122"
-	cloudEnvironments="Public"
-	schemaVersion="1"
-	articleId="61c54bbd-c2c6-5271-96e7-009a87ff44bf"
-	ownershipId="AzureIot_IotHub"
+pageTitle="EmbeddedCSDKIssues"
+description="Embedded-C-SDK-Issues"
+ms.author="wduraes"
+selfHelpType="problemScopingQuestions"
+supportTopicIds="32596697"
+productPesIds="16122"
+cloudEnvironments="Public"
+schemaVersion="1"
+articleId="61c54bbd-c2c6-5271-96e7-009a87ff44bf"
+ownershipId="AzureIot_IotHub"
 />
 
 # Issues with the Embedded C SDK
