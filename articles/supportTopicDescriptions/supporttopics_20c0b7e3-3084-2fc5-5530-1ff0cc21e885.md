@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "42c82b42-2044-aea1-01eb-2a71df1e745f",
+      "longDescription": "",
+      "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using SSIS Data Flows, but not directly related to SSIS product.",
+      "searchTags": "sql;ssis;dataflow;load",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "43cf96c8-497c-5d92-f3bf-2e4c124e6c1a",
       "longDescription": "",
       "shortDescription": "Advisory on best practices and recommendations to achieve the best performance using Spark jobs.",
