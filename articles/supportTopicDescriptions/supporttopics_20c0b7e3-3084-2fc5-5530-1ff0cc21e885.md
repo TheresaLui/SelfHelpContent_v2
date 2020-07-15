@@ -269,6 +269,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5230904e-c469-a8f8-f7fe-63ea50c9ad65",
+      "longDescription": "",
+      "shortDescription": "Issues related to data sensitivity classification feature, applying recommendations, auditing access to sensitive data and alerting.",
+      "searchTags": "data;discovery;classification;sensitivity;security",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "560fcaa6-9baa-6bd3-b618-b6a4a2832640",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Azure Machine Learning models.",
