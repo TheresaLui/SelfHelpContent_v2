@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0d4e16f7-1077-5b8d-8066-189ee2a24f54",
+      "longDescription": "",
+      "shortDescription": "Assistance to management operations for workspaces or pools, manually or using ARM templates.",
+      "searchTags": "manage;scale;pause;create;resume",
+      "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "10e0990d-93f6-9653-e90a-15c1354936d1",
       "longDescription": "",
       "shortDescription": "Pipeline is stuck in one state for a long time, or the execution does not start even though no other run is in progress.",
