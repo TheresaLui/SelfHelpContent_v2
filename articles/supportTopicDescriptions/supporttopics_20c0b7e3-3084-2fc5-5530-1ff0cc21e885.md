@@ -67,6 +67,14 @@
       "searchTags": "ssms;management;studio;connect;sql",
       "category": "Synapse Studio, Portal and Client Tools",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d6c64586-f123-8b73-08f6-5d70297ccec6",
+      "longDescription": "",
+      "shortDescription": "Issues, questions or unexpected behavior when using History Server to debug and diagnose completed and running Spark applications.",
+      "searchTags": "history;server;spark;log;debug",
+      "category": "Synapse Studio, Portal and Client Tools",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
