@@ -261,6 +261,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "be1de058-17fc-92cf-2850-8b31cf6bb82c",
+      "longDescription": "",
+      "shortDescription": "Pipeline or Trigger execution fails with an error, times out, or fails for other unexpected reasons.",
+      "searchTags": "piepline;trigger;execution;activity;timeout",
+      "category": "Orchestration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c1363d1f-fac5-4344-bcb2-f23f953b1d70",
       "longDescription": "",
       "shortDescription": "Problems creating or editing a source data type or issues that only appear with a particular format or dataset type.",
