@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "706c32d4-82f7-4811-7ff2-2d8957e7b003",
+      "longDescription": "",
+      "shortDescription": "Someone else created a Run As account and you are unable to renew it",
+      "searchTags": "renew",
+      "category": "Shared Resource",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "70cc99e6-6860-963a-3150-eaf121d497e3",
       "longDescription": "",
       "shortDescription": "Other issues with Change Tracking and Inventory",
