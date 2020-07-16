@@ -294,6 +294,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f436c389-505a-b386-9010-5e551b43c390",
+      "longDescription": "",
+      "shortDescription": "Issues running jobs through hybrid workers, including behind a gateway.",
+      "searchTags": "gateway;hybrid",
+      "category": "Runbooks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f9b99fd1-f749-19d7-a933-e5e7511e1ae5",
       "longDescription": "",
       "shortDescription": "Configuring or using Source Control with Azure Automation runbooks",
