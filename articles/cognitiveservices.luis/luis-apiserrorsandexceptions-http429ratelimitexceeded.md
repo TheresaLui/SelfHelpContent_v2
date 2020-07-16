@@ -31,4 +31,4 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 * Learn about [LUIS key management experience](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-keys) and the differences between authoring and prediction keys.
 
-* Another option to work around the transaction per second limit is to use [LUIS on containers](https://docs.microsoft.com/azure/cognitive-services/luis/luis-container-howto"). Containers give you the freedom to manage your LUIS application in a connected container environment.
+* Another option to work around the transaction per second limit is to use [LUIS on containers](https://docs.microsoft.com/azure/cognitive-services/luis/luis-container-howto). Containers give you the freedom to manage your LUIS application in a connected container environment.

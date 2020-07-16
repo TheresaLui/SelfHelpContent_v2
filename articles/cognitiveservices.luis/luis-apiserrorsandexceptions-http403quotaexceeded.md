@@ -44,4 +44,4 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 * If your application needs more than the defined intents and entities, consider using [Dispatch tool](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-enterprise#dispatch-tool-and-model). It is a CLI tool which allows you to have a parent app that dispatches between multiple child LUIS apps.
 
-* Another option to work around the transaction per second limit is to use [LUIS on containers](https://docs.microsoft.com/azure/cognitive-services/luis/luis-container-howto"). Containers give you the freedom to manage your LUIS application in a connected container environment.
+* Another option to work around the transaction per second limit is to use [LUIS on containers](https://docs.microsoft.com/azure/cognitive-services/luis/luis-container-howto). Containers give you the freedom to manage your LUIS application in a connected container environment.
