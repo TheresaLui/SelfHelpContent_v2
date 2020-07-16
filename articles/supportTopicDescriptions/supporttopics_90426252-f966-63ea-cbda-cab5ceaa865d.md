@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5d108ae9-3e65-ad3a-0440-c402f4d815fc",
+      "longDescription": "",
+      "shortDescription": "Desired State Configuration through Azure Automation",
+      "searchTags": "DSC;mof;template",
+      "category": "dsc",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "616ef7d8-887f-2356-8513-1aafdfcd2b63",
       "longDescription": "",
       "shortDescription": "Issues enrolling machines in Update Management, including firewall and permission ",
