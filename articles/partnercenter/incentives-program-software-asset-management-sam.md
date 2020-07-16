@@ -42,9 +42,9 @@ These resources explain enrollment, eligibility, earnings, payments, and policy 
 * [SAM Incentives FAQ](https://support.microsoft.com/help/4499346/software-asset-management-sam-incentives-faq)
 <br></br>
 
-## **Still need help?**
+### **Still need help?**
 
-**Create a support ticket:** 
+Create a support ticket:
 
 * [North America](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=pisuppna@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=SAM&supporttopicid_l3=Support&locale=en-us&language=EN)
 * [Europe, Middle East, and Africa](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=pisupp@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=SAM&supporttopicid_l3=Support&locale=en-us&language=EN)
