@@ -16,8 +16,6 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 # Phrase list or Features
 
-* Features, previously called phrase lists, allows you to define important and significant words in your application.
-
 * Features give higher weights to the words that are included in it, therefore give higher scores when they appear. Adding them properly to you application helps improving its prediction accuracy.
 
 * Many get confused on when to use phrase list features list entities. [List entities](https://docs.microsoft.com/azure/cognitive-services/luis/reference-entity-list?tabs=V2) are a list of words that get extracted exactly as they are in the list entity. They are used differently to phrase list features, which tend to improve your model as a whole.
