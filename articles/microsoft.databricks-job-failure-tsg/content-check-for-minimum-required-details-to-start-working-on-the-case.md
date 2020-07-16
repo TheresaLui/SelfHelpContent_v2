@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="ecc19b05-c378-4aab-ab1b-d157682470dd"
+	articleId="fd98f2fc-1e9e-4cdd-b814-fcf6d1eaabb9"
    	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
@@ -19,13 +19,14 @@
 
 Review customer verbatim for the following and validate that the case has the minimum required details to start working:
 
-1. Detailed issue description
-2. Subscription ID
-3. Workspace ID/URL
-4. Cluster Name/ID/URL
+1. Detailed issue description.
+2. Subscription ID.
+3. Workspace ID/URL.
+4. Cluster Name/ID/URL.
 5. Was the job running fine before? What changes were made?
-6. Failed and Successful Job runs URLs
-7. Steps to repro or test job which can be re-run
+6. Failed and Successful Job runs URLs.
+7. Steps to repro or test job which can be re-run.
 8. Customer consent to allow Microsoft/Databricks access workspace and logs for investigation purposes.
 
-If not enough details, please provide customer with customer ready message for minimum required details to start the case. (Make sure to ask for missing info only)
+If not enough details, please provide customer with customer ready message for minimum required details to start the case. 
+**Note**: Make sure to ask for missing info only.
