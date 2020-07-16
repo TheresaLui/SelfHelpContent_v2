@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1ad33a0f-27de-0e7f-5f3c-9580c7201db2",
+      "longDescription": "",
+      "shortDescription": "Unable to get an ARM template to deploy",
+      "searchTags": "deploy;ARM;template",
+      "category": "ARM",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "214619ec-73ac-f343-2fc9-882bd2db823b",
       "longDescription": "",
       "shortDescription": "Issues deploying Start Stop Solution or configuring it",
