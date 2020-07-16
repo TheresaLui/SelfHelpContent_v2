@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4c6dd9b2-27ea-b5bb-f4f9-563cd08e4b0b",
+      "longDescription": "",
+      "shortDescription": "Start Stop is running, but not all VMs start or stop. ",
+      "searchTags": "one vm;some vm;VM fail",
+      "category": "start stop",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "56b24722-7ca9-e4a2-e3bd-4f7d92c44215",
       "longDescription": "",
       "shortDescription": "Questions about configuring Update Management, including removal and unexpected reboots. ",
