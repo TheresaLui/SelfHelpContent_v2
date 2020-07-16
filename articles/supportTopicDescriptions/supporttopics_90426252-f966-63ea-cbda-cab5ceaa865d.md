@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "05fd52aa-7f70-1e8a-eddc-2fc162af66c7",
+      "longDescription": "",
+      "shortDescription": "Unable to renew an existing RunAs account",
+      "searchTags": "renew;invalid",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1175148d-8465-c4af-0f7b-4b94ffc17b22",
       "longDescription": "",
       "shortDescription": "Change Tracking and Inventory has been configured, but stopped collecting data. ",
