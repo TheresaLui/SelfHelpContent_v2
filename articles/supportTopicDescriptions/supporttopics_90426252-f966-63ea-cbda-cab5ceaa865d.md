@@ -221,6 +221,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e9bc5014-bb63-acf1-8e22-c3bd28bfb75d",
+      "longDescription": "",
+      "shortDescription": "Issues taking an existing script that runs in your environment and making it run in Azure Automation",
+      "searchTags": "logon;authentication;error",
+      "category": "Runbooks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f08ed460-14f2-f90b-2695-6a196afe8f8a",
       "longDescription": "",
       "shortDescription": "General guidance and advisory for RunAs",
