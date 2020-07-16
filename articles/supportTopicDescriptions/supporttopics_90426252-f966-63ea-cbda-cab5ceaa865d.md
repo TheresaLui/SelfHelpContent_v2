@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3b069b67-5c7c-6658-188a-6a90e322678a",
+      "longDescription": "",
+      "shortDescription": "Issues when importing modules",
+      "searchTags": "module;import;activities;cmdlet",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4197ab26-516f-dd73-251c-46670e146601",
       "longDescription": "",
       "shortDescription": "Problems creating or deploying the Start Stop solution",
