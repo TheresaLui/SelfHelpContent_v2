@@ -278,6 +278,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e9c94082-ccfd-c15e-3ddd-ea3fae6c0bc6",
+      "longDescription": "",
+      "shortDescription": "Using a template to apply DSC across multiple nodes",
+      "searchTags": "template;apply",
+      "category": "dsc",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f08ed460-14f2-f90b-2695-6a196afe8f8a",
       "longDescription": "",
       "shortDescription": "General guidance and advisory for RunAs",
