@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "1175148d-8465-c4af-0f7b-4b94ffc17b22",
+      "longDescription": "",
+      "shortDescription": "Change Tracking and Inventory has been configured, but stopped collecting data. ",
+      "searchTags": "heartbeat;stop",
+      "category": "Change Tracking",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "198218e0-2df8-9678-1735-22115da1d1c9",
       "longDescription": "",
       "shortDescription": "General guidance and advisory for Update Management",
