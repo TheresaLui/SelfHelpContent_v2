@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2eeda1d1-ab94-6d7f-fe20-7971e26c9b72",
+      "longDescription": "",
+      "shortDescription": "A runbook job shows up as running and can not be stopped",
+      "searchTags": "stuck;queued;hang;stalled",
+      "category": "Runbooks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4197ab26-516f-dd73-251c-46670e146601",
       "longDescription": "",
       "shortDescription": "Problems creating or deploying the Start Stop solution",
