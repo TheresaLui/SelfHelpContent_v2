@@ -126,6 +126,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4dac3f91-e15b-c7c3-b6f0-9bd387cf6477",
+      "longDescription": "",
+      "shortDescription": "Issues with hybrid workers NOT related to setup, install, certificates or RunAs",
+      "searchTags": "uninstall;remove",
+      "category": "Runbooks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4e986703-6a6c-b8ae-1d19-ef9bc92ba8d2",
       "longDescription": "",
       "shortDescription": "Help using RunAs accounts in a runbook",
