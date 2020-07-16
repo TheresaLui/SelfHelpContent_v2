@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "526e0568-b4fa-fb09-b70e-b946dcd97075",
+      "longDescription": "",
+      "shortDescription": "Other ARM issues",
+      "searchTags": "ARM",
+      "category": "ARM",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "56b24722-7ca9-e4a2-e3bd-4f7d92c44215",
       "longDescription": "",
       "shortDescription": "Questions about configuring Update Management, including removal and unexpected reboots. ",
