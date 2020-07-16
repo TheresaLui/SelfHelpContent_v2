@@ -270,6 +270,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "986fdbe8-e849-0447-2015-f6ac430ab952",
+      "longDescription": "",
+      "shortDescription": "An existing RunAs account has expired",
+      "searchTags": "expire;cert",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9f1170fa-83f6-3d76-57a3-04c93186de18",
       "longDescription": "",
       "shortDescription": "Issues installing, setting up, or running jobs on a hybrid worker",
