@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "94240eb5-ccc1-96ee-e7c7-a25bfab55df0",
+      "longDescription": "",
+      "shortDescription": "Issues creating ARM Templates",
+      "searchTags": "ARM;template",
+      "category": "ARM",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a25872fb-a5ea-4167-6d28-e84e8c3a4d2c",
       "longDescription": "",
       "shortDescription": "Issues using the Update Management function of Azure Automation",
