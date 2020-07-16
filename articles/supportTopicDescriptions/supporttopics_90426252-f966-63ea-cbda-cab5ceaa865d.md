@@ -262,6 +262,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9f1170fa-83f6-3d76-57a3-04c93186de18",
+      "longDescription": "",
+      "shortDescription": "Issues installing, setting up, or running jobs on a hybrid worker",
+      "searchTags": "hybrid;setup;install;HW;connect",
+      "category": "Runbooks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a25872fb-a5ea-4167-6d28-e84e8c3a4d2c",
       "longDescription": "",
       "shortDescription": "Issues using the Update Management function of Azure Automation",
