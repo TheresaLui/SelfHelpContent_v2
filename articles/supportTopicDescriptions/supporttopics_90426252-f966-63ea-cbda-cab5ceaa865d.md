@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2a251647-236f-800c-7532-18dcac6ac285",
+      "longDescription": "",
+      "shortDescription": "Start Stop works, but in the wrong order. ",
+      "searchTags": "tag;sequence",
+      "category": "start stop",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2eeda1d1-ab94-6d7f-fe20-7971e26c9b72",
       "longDescription": "",
       "shortDescription": "A runbook job shows up as running and can not be stopped",
