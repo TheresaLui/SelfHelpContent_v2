@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "32d054de-879b-ac15-60d9-5569476bacac",
+      "longDescription": "",
+      "shortDescription": "Issues creating an Automation Account, including regional availability, RunAs accounts, and Log Analytics linking",
+      "searchTags": "link;permission;greyed out;grayed out;region",
+      "category": "Automation Account",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4197ab26-516f-dd73-251c-46670e146601",
       "longDescription": "",
       "shortDescription": "Problems creating or deploying the Start Stop solution",
