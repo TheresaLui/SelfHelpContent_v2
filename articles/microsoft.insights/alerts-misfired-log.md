@@ -10,7 +10,7 @@
     articleId="alerts-misfired-log"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32612427, 32739783"
+    supportTopicIds="32739783"
     resourceTags=""
     productPesIds="15454, 15725"
    cloudEnvironments="public,fairfax,mooncake,usnat,ussec"

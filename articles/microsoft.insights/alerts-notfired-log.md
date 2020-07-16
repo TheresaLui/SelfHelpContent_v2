@@ -10,7 +10,7 @@
     articleId="alerts-notfired-log"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds=" 32612428,32739784"
+    supportTopicIds="32739784"
     resourceTags=""
     productPesIds="15454, 15725"
     cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
