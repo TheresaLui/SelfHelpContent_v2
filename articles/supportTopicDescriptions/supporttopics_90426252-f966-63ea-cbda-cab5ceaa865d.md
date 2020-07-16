@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5b186507-1b79-34ab-58f5-4e2cb883c2dc",
+      "longDescription": "",
+      "shortDescription": "Creating a new RunAs account",
+      "searchTags": "RunAs;connection;permission;unable to create;create",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5d108ae9-3e65-ad3a-0440-c402f4d815fc",
       "longDescription": "",
       "shortDescription": "Desired State Configuration through Azure Automation",
