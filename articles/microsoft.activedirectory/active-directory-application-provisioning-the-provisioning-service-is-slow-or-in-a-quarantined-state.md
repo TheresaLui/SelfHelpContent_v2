@@ -35,10 +35,13 @@ For recommended steps dealing with slow provisioning jobs and quarantine, see th
 
 **Quarantined provisioning jobs**
 
-1. For information on why provisioning jobs can go into quarantine, see [What happens during automatic provisioning?](https://docs.microsoft.com/azure/active-directory/manage-apps/user-provisioning#what-happens-during-provisioning)
-2. If the provisioning job has gone into quarantine due to a high volume of errors (error code = `EntryLevelError`), check the [provisioning audit logs](https://docs.microsoft.com/azure/active-directory/manage-apps/check-status-user-account-provisioning#provisioning-audit-logs) to view the details of these errors.
+1. Review the progress bar to understand why the application is in quarantine.
+2. Review the audit logs with the activity filter set to "Quarantine" to view the quarantine history for the application.
+3. Review the [provisioning logs](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-provisioning-logs) to get detailed error information. 
+
 
 ## **Recommended Documents**
 
+* [Learn more about quarantine](https://docs.microsoft.com/azure/active-directory/app-provisioning/application-provisioning-quarantine-status)
 * [Automate user provisioning and deprovisioning to SaaS applications with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/user-provisioning#how-does-automatic-provisioning-work)
 * [Reporting on automatic user provisioning](https://docs.microsoft.com/azure/active-directory/manage-apps/check-status-user-account-provisioning)
