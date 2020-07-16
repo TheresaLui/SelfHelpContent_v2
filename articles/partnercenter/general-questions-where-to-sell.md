@@ -10,10 +10,10 @@
 	articleId="general_questions_where_to_sell"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635709,32730254"
+	supportTopicIds="32730254"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17012"
+	productPesIds="17012"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Transact_and_Manage"
 />

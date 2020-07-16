@@ -177,6 +177,22 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "20e98c4a-ad27-441f-a4f1-ba5641b207d7",
+      "longDescription": "",
+      "shortDescription": "Issues where SQL Server performance is lower than expected in an Azure Virtual Machine",
+      "searchTags": "Performance;VM;SQL;SQL Server",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "22e49208-4a54-ddb9-7b39-23cad009afc3",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to the Azure Diagnostic Extension (VM)",
+      "searchTags": "Diagnostic",
+      "category": "Extension",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "240605e1-1510-255d-b490-cb95f582b1dc",
       "longDescription": null,
       "shortDescription": "Resolve errors with disks when starting or stopping a virtual machine",
@@ -313,6 +329,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "49c6557e-46fa-ad0f-c980-4e3ce0b93089",
+      "longDescription": "",
+      "shortDescription": "Issue with licenses for Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4af02697-cd73-222d-c180-4ff928f26312",
       "longDescription": null,
       "shortDescription": "Questions about configuring Windows Remote Desktop Service (RDS) for a virtual machine running in Azure",
@@ -391,6 +415,14 @@
       "searchTags": "",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "55f2ff82-8c1b-2d18-bd7e-5b0cfafa929d",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "579bb510-ba46-26a3-19c7-3ce5e37bf1c5",
@@ -481,6 +513,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "615cba4d-560a-c720-5034-9b745b9a9a7f",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to connectivity using Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "618d9f4b-5418-7c9b-2fb5-8075eb937a32",
       "longDescription": null,
       "shortDescription": "Requests to manage a Windows virtual machine running in Azure including client licenses",
@@ -537,6 +577,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "6fa2b14c-d769-1357-43f0-7c1d3d34b4f8",
+      "longDescription": "",
+      "shortDescription": "Assistance with the management of Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6fddc208-ceac-8c83-a5a9-4cc00dae14be",
       "longDescription": null,
       "shortDescription": "Azure Backup is encountering a failure when restoring your virtual machine using Azure Backup",
@@ -559,6 +607,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "761c2072-db63-b5a4-d038-9cf7bb03cf86",
+      "longDescription": "",
+      "shortDescription": "Need assistance with the configuration of Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "773b125f-f9a8-f282-abe3-051d8ffe0f26",
@@ -761,6 +817,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "9c28c4c9-db23-c7e7-1edc-3e5abca575dd",
+      "longDescription": "",
+      "shortDescription": "Covers issues with the management of Azure Window Virtual Desktop",
+      "searchTags": "WVD",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9cbf3cf0-08ae-c0ee-838d-0e478fd1db59",
       "longDescription": null,
       "shortDescription": "Assistance with deploying a virtual machine with managed disks",
@@ -793,12 +857,28 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "a1aefb3f-3405-47dc-e3b8-43c38a5e6891",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a2e34c4b-a2ba-2cb2-5e46-ee867cff565f",
       "longDescription": null,
       "shortDescription": "Assistance for website in your subscription that has been defaced",
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "a632159c-a15a-62dd-0420-73c273e43e02",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to deploying Azure Window Virtual Desktop",
+      "searchTags": "WVD;Windows Virtual Desktop;Desktop;Remote Desktop;RDS",
+      "category": "Windows Virtual Desktop",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "aaa925f8-bbc6-997b-e8e2-35d9b6c78b2b",
@@ -857,6 +937,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "b1c65b89-ce7f-349b-796b-fd98bf60fb71",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance with my availability zone.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b20d0fe1-828e-d1b8-2278-1c22a0dcb560",
       "longDescription": null,
       "shortDescription": "Assistance when receiving an Azure Safe Guard email notification",
@@ -887,6 +975,14 @@
       "searchTags": "OMS",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "b748565d-1033-ede0-045c-079c3641af1f",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance with the availability set",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "b82154fe-4659-31f6-584e-fcc90408a34a",
@@ -921,12 +1017,28 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "be9a1d07-3471-0a7e-16da-cbc2fc89e801",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bf5eafd5-a438-6e15-458f-e614453346a2",
       "longDescription": null,
       "shortDescription": "Covers issues related to Planned Maintenance notifications in Azure",
       "searchTags": "Maintenance",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "c0109de5-9bda-7008-ba20-44fd6e947891",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance finding a new region or size",
+      "searchTags": "allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "c330d1a5-2f80-c72f-9bf5-df862a6629c3",

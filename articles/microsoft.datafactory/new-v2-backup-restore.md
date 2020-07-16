@@ -18,11 +18,11 @@
 
 ## **Recommended Steps**
 
-### Restore
+### **Restore**
 
-Azure Data Factory does not retain any customer data after factory deletion has been requested. If a factory has been deleted, there is no way to restore the resource. If the factory was integrated with a Git repository, the factory can be recreated from the ARM Template in the publish branch or from the existing resources in the repository. Git integration is highly recommended as backup for accidental deletion.
+Azure Data Factory does not retain any customer data after factory deletion has been requested. **If a factory has been deleted, there is no way to restore the resource.** If the factory was integrated with a Git repository, the factory can be recreated from the ARM Template in the publish branch or from the existing resources in the repository. Git integration is highly recommended as backup for accidental deletion.
 
-### Backup
+### **Backup**
 
 Azure Data Factory provides Source Control integration with Git repositories to manage version control and history of changes. To review the benefits of Source Control integration, and a step by step guide on how to configure it, please review [Advantages of git integration](https://docs.microsoft.com/azure/data-factory/source-control#advantages-of-git-integration).
 

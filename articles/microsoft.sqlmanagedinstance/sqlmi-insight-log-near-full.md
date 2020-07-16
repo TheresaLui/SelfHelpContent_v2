@@ -12,7 +12,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="sqlmanagedinstance-perf-log-near-full"
 	ownershipId="AzureData_AzureSQLMI"
 />
@@ -40,7 +40,7 @@ When the transaction log becomes full, SQL Server Database Engine issues a 9002 
 
   Instance storage limit hit: <!--$DiskFullIssue-->DiskFullIssue<!--/$DiskFullIssue-->
 
-  Log file misconfigured : <!--$LogSizeMisconfiguredIssue-->LogSizeMisconfiguredIssue<!--/$LogSizeMisconfiguredIssue-->
+  Log file size misconfigured : <!--$LogSizeMisconfiguredIssue-->LogSizeMisconfiguredIssue<!--/$LogSizeMisconfiguredIssue-->
 
   Long running transactions: <!--$LongRunningTransactionsIssue-->LongRunningTransactionsIssue<!--/$LongRunningTransactionsIssue-->
 
@@ -61,7 +61,7 @@ When the transaction log becomes full, SQL Server Database Engine issues a 9002 
 
 - __Instance storage limit hit__ : This means that managed instance was reaching the preconfigured maximum storage limit. Once when instance storage limit is hit, all insert, update, delete, and index maintenance queries or any other requests that require system or user database space expansion will fail immediately due to the insufficient space. To enable normal operation of your instance, please increase the instance storage size. 
 
-- __Log size misconfigured__ : This issue means that log file was not configured properly, leaving very small amount of space for the log file itself. To resolve the issue, if you have free, unneeded space on your instance, you can [enlarge your log files](https://docs.microsoft.com/sql/relational-databases/logs/manage-the-size-of-the-transaction-log-file?view=sql-server-ver15#AddOrEnlarge). To enlarge the log file, use the __MODIFY FILE__ clause of the __ALTER DATABASE__ statement, specifying the __SIZE__ syntax, as described in the following example:
+- __Log file size misconfigured__ : This issue means that log file was not configured properly, leaving very small amount of space for the log file itself. To resolve the issue, if you have free, unneeded space on your instance, you can [enlarge your log files](https://docs.microsoft.com/sql/relational-databases/logs/manage-the-size-of-the-transaction-log-file?view=sql-server-ver15#AddOrEnlarge). To enlarge the log file, use the __MODIFY FILE__ clause of the __ALTER DATABASE__ statement, specifying the __SIZE__ syntax, as described in the following example:
 
   ```sql
   alter database database_name

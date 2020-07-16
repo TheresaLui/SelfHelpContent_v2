@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Troubleshoot network security group (NSG)"
 	description="Troubleshoot network security group (NSG)"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""

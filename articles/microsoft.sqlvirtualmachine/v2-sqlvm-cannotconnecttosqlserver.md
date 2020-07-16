@@ -1,8 +1,8 @@
  <properties
 	pageTitle="connectivity/cannot connect to a SQL Server"
 	description="connectivity/cannot connect to a SQL Server"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"
     authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""

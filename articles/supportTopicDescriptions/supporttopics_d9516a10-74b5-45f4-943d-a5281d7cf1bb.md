@@ -43,8 +43,8 @@
     {
       "id": "085ddeed-255d-e905-63c2-797cc68c2f81",
       "longDescription": "",
-      "shortDescription": "Any issue with Monitoring not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Monitoring;Alerts;Metrics;Logs",
       "category": "Monitoring",
       "useInDiagnoseAndSolve": "true"
     },
@@ -115,9 +115,17 @@
     {
       "id": "2365fe01-8934-7641-3bb8-2e5209c639ad",
       "longDescription": "",
-      "shortDescription": "Any throughput or scaling issue not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Throughput",
       "category": "Throughput",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "23791114-7071-6812-e2b0-4d0b41a14300",
+      "longDescription": "",
+      "shortDescription": "Issues with connectivity using Azure Synapse Link for Cosmos DB",
+      "searchTags": "Synapse;Synapse Link;Analytical Store;connection;connect",
+      "category": "Azure Synapse Link for Cosmos DB",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -211,9 +219,17 @@
     {
       "id": "3a324c04-5cc9-36a6-49df-11ab63c936bf",
       "longDescription": "",
-      "shortDescription": "Any issue with Connectors not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Connectors;Tools",
       "category": "Tools and Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3c2bbd0a-df98-33cc-7188-f251c15df3cd",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring or accessing your Cosmos DB data using Azure Synapse Link for Cosmos DB.  ",
+      "searchTags": "Synapse;Spark;Synapse Link;SQL Serverless;Analytical Store",
+      "category": "Azure Synapse Link for Cosmos DB",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -227,8 +243,8 @@
     {
       "id": "40f4b569-b293-8464-4f20-90f684aa6a0e",
       "longDescription": "",
-      "shortDescription": "Any issue with SQL API that is not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "SQL",
       "category": "Core (SQL)",
       "useInDiagnoseAndSolve": "true"
     },
@@ -241,18 +257,26 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4218e462-d49b-ff75-bdc8-9b773f101bfa",
+      "longDescription": "",
+      "shortDescription": "Issues with using Synapse SQL Serverless with Azure Synapse Link for Cosmos DB",
+      "searchTags": "SQL Serverless;Synapse;Synapse Link",
+      "category": "Azure Synapse Link for Cosmos DB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "43564fd3-9f8b-9ae9-e225-3949be830689",
       "longDescription": "",
-      "shortDescription": "Any other General advisory question not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Advisory",
       "category": "General Advisory",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "45897651-c1e4-156b-994b-2db7a9fc1979",
       "longDescription": "",
-      "shortDescription": "Any issue related to billing and pricing that is not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Billing;Pricing",
       "category": "Billing and Pricing",
       "useInDiagnoseAndSolve": "true"
     },
@@ -499,7 +523,7 @@
     {
       "id": "8c945397-c1d2-bea4-b1c0-16671080bbcc",
       "longDescription": "",
-      "shortDescription": "Any configuration requests related to backup and restore not listed",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
       "searchTags": "backup, restore",
       "category": "Backup and Restore",
       "useInDiagnoseAndSolve": "true"
@@ -510,6 +534,14 @@
       "shortDescription": "Observing exception or error when using Emulator",
       "searchTags": "emulator",
       "category": "Tools and Connectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8db15022-bd00-4325-92e2-cebe7380d0d3",
+      "longDescription": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will provide related self help and expedite your support ticket if one is created.",
+      "searchTags": "Synapse Link;Synapse;Analytical Store",
+      "category": "Azure Synapse Link for Cosmos DB",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -550,6 +582,14 @@
       "shortDescription": "How to migrate data to Cosmos DB Gremlin API or estimate the throughput needs and optimize migration",
       "searchTags": "gremlin, migration, data migration, data ingestion",
       "category": "Gremlin",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "96c6ad7f-e3b8-5567-984c-68fb3ba1e2e8",
+      "longDescription": "",
+      "shortDescription": "Issues with Spark using Azure Synapse Link for Cosmos DB",
+      "searchTags": "Spark;Synapse Link;Analytical Store",
+      "category": "Azure Synapse Link for Cosmos DB",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -713,6 +753,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c00846f0-18a5-8383-3d9f-e10d7b16ec54",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring your Cosmos DB data using Azure Synapse Link for Cosmos DB",
+      "searchTags": "Analytical Store;Synapse Link;Synapse;configuration",
+      "category": "Azure Synapse Link for Cosmos DB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c3a11f26-6f54-639b-6d73-dba9cc3b96e3",
       "longDescription": "",
       "shortDescription": "Issues or questions with using Free Tier billing option",
@@ -739,8 +787,8 @@
     {
       "id": "c3faf836-a0df-6e47-8523-a54e1a84637a",
       "longDescription": "",
-      "shortDescription": "Any issue with Cassandra API that is not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Cassandra",
       "category": "Cassandra",
       "useInDiagnoseAndSolve": "true"
     },
@@ -771,8 +819,8 @@
     {
       "id": "ca4248d9-17e1-ab45-81b3-1634e1eb4202",
       "longDescription": "",
-      "shortDescription": "Any Security issue with Azure Cosmos DB not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Security",
       "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
@@ -835,8 +883,8 @@
     {
       "id": "d8b9051c-b540-34d6-39e4-89a83ef0d395",
       "longDescription": "",
-      "shortDescription": "Any other issue with SDKs",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "SDK",
       "category": "SDK (SQL API)",
       "useInDiagnoseAndSolve": "true"
     },
@@ -915,16 +963,16 @@
     {
       "id": "f05ce96b-e2d9-d08c-8def-83abbe94840c",
       "longDescription": "",
-      "shortDescription": "Any issue related to Account Administration not covered by the existing topics",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will provide related self help and expedite your support ticket if one is created.",
+      "searchTags": "Administration",
       "category": "Administration",
       "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "f10fee82-842f-5525-a1db-06dc5a2d8fa6",
       "longDescription": "",
-      "shortDescription": "Any issue with Mongo API not listed",
-      "searchTags": "",
+      "shortDescription": "Selecting the most accurate topic for your issue will expedite your support ticket if one is created. This topic is for a non listed issue.",
+      "searchTags": "Mongo;MongoDB",
       "category": "MongoDB",
       "useInDiagnoseAndSolve": "true"
     },
@@ -950,6 +998,14 @@
       "shortDescription": "SDK is throwing an error or returning an unexpected result",
       "searchTags": "sdk",
       "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fa1d2af4-5a02-6ef3-5fd1-6c1821365b85",
+      "longDescription": "",
+      "shortDescription": "Issues with Accessing your Cosmos DB data using Azure Synapse Link for Cosmos DB",
+      "searchTags": "Synapse Link;Analytical Store;Access",
+      "category": "Azure Synapse Link for Cosmos DB",
       "useInDiagnoseAndSolve": "true"
     }
   ]
