@@ -36,7 +36,7 @@ These resources explain enrollment, eligibility, earnings, payments, and policy 
 * [Identifying the program associated with a CHIP payment](https://support.microsoft.com/help/4483767/how-do-i-identify-which-incentive-program-a-payment-i-received-is-for)
 <br></br>
 
-## **Still need help?**
+**Still need help?**
 
 Create a support ticket:
 * [North America](http://www.microsoftpartnersupport.com/create-incident?mpnid=NA&email=pisuppna@microsoft.com&supporttopicid_l1=Incentives%20and%20Payouts&supporttopicid_l2=SPLAR&supporttopicid_l3=Support&locale=en-us&language=EN)
