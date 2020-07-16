@@ -326,6 +326,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "daabf8d2-541e-7e90-6a9d-d7b3617b6e4d",
+      "longDescription": "",
+      "shortDescription": "Importing and using modules or packages for Azure Automation runbooks",
+      "searchTags": "module;package",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "de221482-a3d7-af7f-0723-0089101db3eb",
       "longDescription": "",
       "shortDescription": "Start Stop solution fails to start stop ALL VMs",
