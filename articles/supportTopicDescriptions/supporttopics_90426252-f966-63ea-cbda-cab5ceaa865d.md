@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "99f956eb-3e01-f14c-b12e-a0586277fed8",
+      "longDescription": "",
+      "shortDescription": "An existing RunAs account is about to expire or has expired",
+      "searchTags": "runas",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9f1170fa-83f6-3d76-57a3-04c93186de18",
       "longDescription": "",
       "shortDescription": "Issues installing, setting up, or running jobs on a hybrid worker",
