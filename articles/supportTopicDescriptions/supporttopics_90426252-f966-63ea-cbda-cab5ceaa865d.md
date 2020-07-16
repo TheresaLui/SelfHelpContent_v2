@@ -422,6 +422,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fa51e967-1f5c-f135-7f4d-59f6e9e18ceb",
+      "longDescription": "",
+      "shortDescription": "Running Azure Automation jobs on-premise through the Hybrid Worker agent",
+      "searchTags": "hybrid worker",
+      "category": "Runbooks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fcdfde48-8169-374a-d10f-0df4f0d1afe2",
       "longDescription": "",
       "shortDescription": "Help creating deployments, targeting machines, or schedules not working as expected. ",
