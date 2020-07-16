@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6e551778-1455-77a1-bd60-700ba414eb18",
+      "longDescription": "",
+      "shortDescription": "Issues were runbook jobs are failed, stopped or suspended, or runbooks emit errors",
+      "searchTags": "error;fail;job;exception;runbook",
+      "category": "Runbooks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "70cc99e6-6860-963a-3150-eaf121d497e3",
       "longDescription": "",
       "shortDescription": "Other issues with Change Tracking and Inventory",
