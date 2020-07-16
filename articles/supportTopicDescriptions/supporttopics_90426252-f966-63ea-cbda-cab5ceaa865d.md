@@ -238,6 +238,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "78a828dd-1403-42e5-1521-08db5a519a14",
+      "longDescription": "",
+      "shortDescription": "Issues trying to use AzureRm or Az cmdlets",
+      "searchTags": "az;azureRM;module;cmdlet",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7a01c701-3bc4-e6b5-d0ed-329cb214125a",
       "longDescription": "",
       "shortDescription": "A DSC configuration is failing to apply to a specific node",
