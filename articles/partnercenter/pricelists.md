@@ -10,12 +10,12 @@
 	articleId="partnercenter_pricelists"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635689,32692606"
+	supportTopicIds="32692606"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17011"
+	productPesIds="17011"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Pricing_and_Offers"
 />
 
 # Pricelists

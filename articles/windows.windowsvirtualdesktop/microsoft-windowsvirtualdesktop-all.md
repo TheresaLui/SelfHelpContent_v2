@@ -1,20 +1,15 @@
 <properties
-	pageTitle="Windows Virtual Desktop"
-	description="Windows Virtual Desktop"
-	service=""
-	resource=""
-	authors="ScottAzure"
-	ms.author="scotro"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32625539,32625540,32625541,32625542,32625544"
-	resourceTags=""
-	productPesIds="16582"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="586ec56a-93f1-4c0c-86c0-63debae7b9f8"
-	ownershipId="Windows_Virtual_Desktop"
-/>
-
+  pagetitle="Windows Virtual Desktop"
+  service=""
+  resource=""
+  ms.author="jerrycif,evas"
+  selfhelptype="Generic"
+  supporttopicids="32625541,32625542,32625544"
+  resourcetags=""
+  productpesids="16582"
+  cloudEnvironments="public, fairfax, usnat, ussec"
+  articleid="586ec56a-93f1-4c0c-86c0-63debae7b9f8"
+  ownershipid="Windows_Virtual_Desktop" />
 # Windows Virtual Desktop
 
 4 out of 5 customers resolved their Windows Virtual Desktop issue using the guides listed below.<br>

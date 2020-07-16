@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "00badc12-33e2-cba8-2338-e32770db904b",
+      "longDescription": "",
+      "shortDescription": "An allocation error was encountered and need assistance with my availability set",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "01ed3ac2-367f-aaa3-5464-fbbb9c7eade8",
       "longDescription": "",
       "shortDescription": "Resolve issues with custom images deployments in Azure",
@@ -70,6 +78,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1355ede6-1a5d-fed9-7ee3-fdf57927f88d",
+      "longDescription": "",
+      "shortDescription": "Common problems related to admin specific actions or issues within the VM itself",
+      "searchTags": "Admin",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "13ff4901-20a9-a149-bd79-9d30e2d84335",
       "longDescription": "",
       "shortDescription": "Resolve concerns dealing with shared disk",
@@ -83,6 +99,14 @@
       "shortDescription": "You have configured the Start Stop VM solution but it does not start or stop all the VMs configured",
       "searchTags": "Starting",
       "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "188f913d-c8a6-0598-8c62-ef8aa9d96920",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -166,6 +190,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3385321a-4a96-c811-4c9c-61a6c799aab6",
+      "longDescription": "",
+      "shortDescription": "Assistance with managing a virtual machine running SQL in Azure",
+      "searchTags": "SQL",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "36b2730a-cb80-23d9-656d-c0c2d476e45f",
       "longDescription": "",
       "shortDescription": "Requests for help with configuring backups for your Azure virtual machine using Azure Backup",
@@ -190,10 +222,18 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "446adcca-c7da-6896-1928-d11130c6312c",
+      "longDescription": "",
+      "shortDescription": "Assistance with joining a domain",
+      "searchTags": "Admin",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "46d3b5cb-4fa8-12e0-c525-9c41d42dcb8b",
       "longDescription": "",
-      "shortDescription": "Disk throughput is lower than expected for the virtual machine",
-      "searchTags": "Performance",
+      "shortDescription": "Disk throughput or IOPS are lower than expected for the virtual machine",
+      "searchTags": "Performance;IOPS;throughput",
       "category": "Management",
       "useInDiagnoseAndSolve": "false"
     },
@@ -211,6 +251,22 @@
       "shortDescription": "Assistance with issues encountered when trying to resize a virtual machine",
       "searchTags": "Performance",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "4f744396-a2aa-b4df-ddac-eb26caad4d00",
+      "longDescription": "",
+      "shortDescription": "Assistance with managing a virtual machine running SQL in Azure",
+      "searchTags": "SQL",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "5067298b-f8fc-ee7c-dd6d-cbad3a7b6c62",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -254,6 +310,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "55b98978-62f8-9c90-589a-4e63c05a27d1",
+      "longDescription": "",
+      "shortDescription": "An allocation error was encountered and need assistance with availability zones. ",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "562c48c7-c68f-0a96-99d2-8d13f3554ce7",
       "longDescription": "",
       "shortDescription": "Azure Backup is encountering a failure when backing up your virtual machine using Azure Backup",
@@ -278,11 +342,27 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5bc29796-6299-6056-68d5-d2fc58302ebe",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to managing a virtual machine on Azure",
+      "searchTags": "Management",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5f4ad650-1aec-c7f3-d671-f42fbc706af6",
       "longDescription": "",
       "shortDescription": "Covers issues related to migrating or moving a virtual machine or associated resource on Azure",
       "searchTags": "Migration",
       "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "609fff6e-d1b6-61a5-0ec0-577ab025cd95",
+      "longDescription": "",
+      "shortDescription": "Using Azure Instance Metadata Service to provide information and configure the virtual machine running in Azure",
+      "searchTags": "MSI",
+      "category": "Management",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -294,11 +374,35 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6825cbf2-c7fc-a14a-a2f7-f10ad953f5bd",
+      "longDescription": "",
+      "shortDescription": "Resolve issues with unlocking an encrypted VM for troubleshooting reasons",
+      "searchTags": "ADE",
+      "category": "ADE",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "69720acf-121d-1581-bc05-b35043d3989f",
       "longDescription": "",
       "shortDescription": "Covers issues with the Azure Disk Encryption extension",
       "searchTags": "ADE",
       "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "69f642dd-74a8-34c8-c4e4-dd2b00b3512c",
+      "longDescription": "",
+      "shortDescription": "Moving resources between resource groups",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "6ea04af3-f79f-522a-07d7-5542f30e1d7b",
+      "longDescription": "",
+      "shortDescription": "Using Azure Scheduled Events to prepare your virtual machine for scheduled maintenance",
+      "searchTags": "Scheduled Events",
+      "category": "Management",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -331,6 +435,14 @@
       "shortDescription": "Covers issues related to installation, execution, and updating of extensions for virtual machines on Azure",
       "searchTags": "Extensions",
       "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "785dbce9-3d5c-4799-46e2-8b83db4eef73",
+      "longDescription": "",
+      "shortDescription": "Assistance with moving resources between regions",
+      "searchTags": "Migration",
+      "category": "Migration",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -398,6 +510,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "8898cc57-0473-2a4a-cd16-0a661fe2b618",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to configuration of a failover cluster, RDS, or disk encryption for a VM running in Azure",
+      "searchTags": "Config",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "89a2d1f5-09e9-e2fa-f074-f5b690e82998",
       "longDescription": "",
       "shortDescription": "Covers issues with Azure Active Directory Login extension",
@@ -414,11 +534,35 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9020a3f4-8868-d4ff-8d67-a9ccb5afb7b6",
+      "longDescription": "",
+      "shortDescription": "Resolve errors when moving resources between subscriptions ",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "90d85a5b-aab4-4375-f298-2049d519ab76",
       "longDescription": "",
       "shortDescription": "Covers issues with Monitoring agent (MMA) extension",
       "searchTags": "MMA",
       "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "9277162e-9c05-41f5-49a3-fbbd5db5014f",
+      "longDescription": "",
+      "shortDescription": "Assistance with repository for a specific distro",
+      "searchTags": "Repo",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "92bf5bcc-b7cd-6a7f-add6-973b02755e4c",
+      "longDescription": "",
+      "shortDescription": "Questions about migrating virtual machines using Azure Site recovery ",
+      "searchTags": "Migration",
+      "category": "Migration",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -430,12 +574,44 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9593b47c-b73f-e3b0-5cc5-5a9ce6b50c1c",
+      "longDescription": "",
+      "shortDescription": "Issue with a local account within the VM",
+      "searchTags": "Account",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "9661955c-fa9d-7306-516e-7d4f9330c911",
+      "longDescription": "",
+      "shortDescription": "Assistance with managing a fail over cluster in Azure",
+      "searchTags": "Cluster",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "97c59b9b-ba59-7c33-b005-2ce77fa4a6cd",
+      "longDescription": "",
+      "shortDescription": "Covers issues with kernel upgrades for Linux operating systems",
+      "searchTags": "Kernel",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9a7863c9-b048-81d3-0e88-9f5d3806173b",
       "longDescription": "",
       "shortDescription": "Covers issues where the Guest OS is in a continuous reboot loop and unable complete booting to a usable state.",
       "searchTags": "Booting",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9b504558-994b-fa7d-7f64-8ac6382b1db1",
+      "longDescription": "",
+      "shortDescription": "Assistance with Azure Image Builder",
+      "searchTags": "Image Builder",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "9f3b8c5f-02c0-7f6e-7b95-9a00ba99aded",
@@ -542,6 +718,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b8848060-d17e-78e7-2856-5362e02cc3a8",
+      "longDescription": "",
+      "shortDescription": "An allocation error was encountered and need assistance with finding a new size or region",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bae68529-51c1-d9b0-9e84-157fe59ac631",
       "longDescription": "",
       "shortDescription": " Request to increase the subscription limit",
@@ -558,11 +742,51 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "bd0acd80-7468-6588-5ae3-cfe2b179f195",
+      "longDescription": "",
+      "shortDescription": "Covers issues with kernel upgrades for Linux operating systems",
+      "searchTags": "upgrade",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "beacf412-7db1-a73e-9130-3f717a3511e5",
+      "longDescription": "",
+      "shortDescription": "Assistance with deleting a resource group in Azure",
+      "searchTags": "Delete",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bf46b021-8045-213e-8857-d7b83562e22e",
       "longDescription": "",
       "shortDescription": "Assistance when the guest OS is causing restarts repeatedly",
       "searchTags": "restart",
       "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "c01dc4d0-1080-9d9c-c70a-0af732fe8a9f",
+      "longDescription": "",
+      "shortDescription": "Covers issues with package management for Linux operating systems",
+      "searchTags": "Admin",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "c334a302-aa5c-e950-5656-755d0e981c7e",
+      "longDescription": "",
+      "shortDescription": "Covers issues related to Planned Maintenance notifications in Azure",
+      "searchTags": "Planned",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "c4aa16ad-4241-d898-28c2-38d21faa52ee",
+      "longDescription": "",
+      "shortDescription": "Requests to help move resources between storage accounts",
+      "searchTags": "Migration",
+      "category": "Migration",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -622,6 +846,30 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d9bb543f-fd32-6a17-40ff-bc2b75f55027",
+      "longDescription": "",
+      "shortDescription": "Assistance with deleting a virtual machine in Azure",
+      "searchTags": "Delete",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "da01b1c1-7d54-941d-888a-7da4fb85d897",
+      "longDescription": "",
+      "shortDescription": "Migrating virtual machines from a third-party provider to Azure using Azure Site recovery ",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "daccad3e-eabc-e716-5059-e7109fe0560a",
+      "longDescription": "",
+      "shortDescription": "Requests to help migrate virtual machines from on-premises to Azure using Azure Site recovery ",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "dcf6f0d6-63ca-7638-f29a-79e3ebbf94fb",
       "longDescription": "",
       "shortDescription": "Request an official root cause for the virtual machine downtime",
@@ -638,11 +886,35 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "deb635fc-d919-065f-6ca0-b7bc61479177",
+      "longDescription": "",
+      "shortDescription": "Covers questions with retiring of Classic IAAS resources (ASM)",
+      "searchTags": "Migration",
+      "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e0377a4c-88a2-2e30-7ba8-d7079f986fd9",
       "longDescription": "",
       "shortDescription": "Covers issues with the virtual machine boot diagnostic extension",
       "searchTags": "boot diagnostic",
       "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "e1ba7a87-ee3e-97c1-79bb-bd8a0d45958d",
+      "longDescription": "",
+      "shortDescription": "Assistance with file system issue for a Linux VM",
+      "searchTags": "Admin",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "e2542607-20ad-4425-e30d-eec8e2121f55",
+      "longDescription": "",
+      "shortDescription": "Covers questions with retiring of Classic IAAS resources (ASM)",
+      "searchTags": "Migration",
+      "category": "Migration",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -674,6 +946,14 @@
       "longDescription": "",
       "shortDescription": "Disk throughput is lower than expected for the virtual machine",
       "searchTags": "Disk",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "e828e8d4-ff7f-6594-4f9d-fa7004f419fa",
+      "longDescription": "",
+      "shortDescription": "Creating or configuring a Windows failover cluster for a virtual machine running in Azure",
+      "searchTags": "Cluster",
       "category": "Management",
       "useInDiagnoseAndSolve": "false"
     },
@@ -710,6 +990,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f634afb0-8ab2-18e7-ae60-0953e0dc624e",
+      "longDescription": "",
+      "shortDescription": "Resolve issues related  to Azure Shared Image Gallery or Azure Shared Image definitions",
+      "searchTags": "Shared image",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f6b80563-6a99-2b18-68b1-87302cf1d2d4",
       "longDescription": "",
       "shortDescription": "Covers issues with the Microsoft Antimalware extension",
@@ -731,6 +1019,22 @@
       "shortDescription": "Covers issues where the start operation for the VM fails and an error message is provided",
       "searchTags": "Booting",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "fc2b9f80-e360-cb41-c4f5-9e71c4f9b53c",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "fd3c1878-732c-0f98-5b78-f3108ff0c26f",
+      "longDescription": "",
+      "shortDescription": "Creating or configuring a Linux failover cluster for a virtual machine running in Azure",
+      "searchTags": "Cluster",
+      "category": "Management",
       "useInDiagnoseAndSolve": "false"
     },
     {

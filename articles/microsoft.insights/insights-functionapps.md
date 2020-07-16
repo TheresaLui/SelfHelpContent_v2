@@ -1,6 +1,6 @@
 <properties 
-    pageTitle="How do I setup Application Insights with my FunctionApp?"
-    description="Getting started doc on how to enable Application Insights with your FunctionApp"
+    pageTitle="How do I setup Application Insights with my Function App?"
+    description="Getting started doc on how to enable Application Insights with your Function App"
     infoBubbleText="Here is a set of links and concepts to help with this topic."
     service="microsoft.insights"
     resource="components"
@@ -15,7 +15,8 @@
     supportTopicIds="32632998"
  	ownershipId="AzureMonitoring_ApplicationInsights"
 />
-# How do I setup application insights with my FunctionApp?
+
+# Enabling Application Insights for app that runs on Azure Functions
 
 ## **Recommended Steps**
 
@@ -26,7 +27,8 @@
 ### **Common Questions**
 
 **What is auto collected?**<br>
-FunctionApps v2 will auto collect HTTP, ServiceBus and SQL dependencies for .NET Applications. [See here](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#dependencies) for information.<br>
+FunctionApps v2 will auto collect HTTP, ServiceBus and SQL dependencies for .NET Applications. [See here](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#dependencies) for information.
+For Java applications running on Azure Functions, the distributed tracing can be enabled - [follow the instructions here](https://docs.microsoft.com/azure/azure-monitor/app/monitor-functions).<br>
 
 **Missing or partial data**<br>
 Sampling is enabled by default which can make it appear as if some data is not being sent. [Click here](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#configure-sampling) for information.<br>
@@ -47,3 +49,4 @@ To create custom telemetry see the [log custom telemetry in C# functions](https:
 * [Write logs in JavaScript functions](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#write-logs-in-javascript-functions)<br>
 * [Log custom telemetry in C# functions](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#log-custom-telemetry-in-c-functions)<br>
 * [Log custom telemetry in JavaScript functions](https://docs.microsoft.com/azure/azure-functions/functions-monitoring#log-custom-telemetry-in-javascript-functions)<br>
+* [Enable distributed tracing for Java applications](https://docs.microsoft.com/azure/azure-monitor/app/monitor-functions)

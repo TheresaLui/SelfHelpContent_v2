@@ -28,7 +28,8 @@ Flapping occurs when the act of scaling down would later cause autoscale to scal
 An example of this is the following:
 * Increase instances by 1 count when Thread Count >= 600
 * Decrease instances by 1 count when Thread Count <= 600
-The above scenario would cause autoscale to scale up or down every time it is executed. So it is prevented by autoscale.
+
+The above scenario would cause autoscale to scale up right after it is scaled down. So it is prevented by autoscale.
 
 ## **Recommended Steps**
 

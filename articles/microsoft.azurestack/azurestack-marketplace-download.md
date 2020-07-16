@@ -17,6 +17,14 @@
 
 # Azure Stack Marketplace download
 
+In many cases, a Marketplace download failure is caused by an underlying problem related to things like insufficient bandwidth or ports blocked by firewall. Make sure all your settings are correct. If you don't have internet access, see the [prerequisites](https://docs.microsoft.com/azure-stack/operator/azure-stack-download-azure-marketplace-item?view=azs-2002&pivots=state-disconnected) for Azure Stack Hub Marketplace download.
+
+**Common issues**
+
+* If you see a **rainy cloud**, or if you have a Usage Bridge alert, the simplest solution is to [re-register Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-registration) using the same parameters.
+
+**NOTE**: Before you create a support ticket, review [**Release notes**](https://docs.microsoft.com/azure-stack/operator/release-notes) and [**Known issues**](https://docs.microsoft.com/azure-stack/operator/known-issues) for the update you are applying (choose from the Version drop-down menu). This may save you time and effort.
+
 ## **Recommended Steps**
 
 There are two scenarios for connecting to the Azure Marketplace:
@@ -24,9 +32,9 @@ There are two scenarios for connecting to the Azure Marketplace:
 * Connected scenario
 * Disconnected or partially connected scenario
 
-**Note :** In a disconnected environment, you cannot download Marketplace items directly by using the Azure Stack portal. Follow the guide to [download Marketplace items for disconnected or a partially connected scenarios](https://docs.microsoft.com/azure-stack/operator/azure-stack-download-azure-Marketplace-item#disconnected-or-a-partially-connected-scenario) by using the Marketplace syndication tool and then transferring the items to your Azure Stack environment.
+**Note:** In a disconnected environment, you cannot download Marketplace items directly by using the Azure Stack Hub portal. Follow the guide to [download Marketplace items for disconnected or a partially connected scenarios](https://docs.microsoft.com/azure-stack/operator/azure-stack-download-azure-marketplace-item#disconnected-or-a-partially-connected-scenario) by using the Marketplace syndication tool and then transferring the items to your Azure Stack Hub environment.
 
 ## **Recommended Documents**
 
-* [Download Marketplace items from Azure to Azure Stack](https://docs.microsoft.com/azure-stack/operator/azure-stack-download-azure-Marketplace-item)
-* [Azure Marketplace items for Azure Stack](https://docs.microsoft.com/azure-stack/operator/azure-stack-Marketplace-azure-items)
+* [Download Marketplace items from Azure to Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-download-azure-marketplace-item)
+* [Azure Marketplace items for Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-marketplace-azure-items)
