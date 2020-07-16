@@ -6,19 +6,20 @@
   selfhelptype="SupportTopicDescription"
   productpesids="90426252-f966-63ea-cbda-cab5ceaa865d"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_90426252-f966-63ea-cbda-cab5ceaa865d" />
+  articleid="supporttopics_90426252-f966-63ea-cbda-cab5ceaa865d"
+  ownershipid="Compute_Automation" />
 # Support Topic Descriptions for 90426252-f966-63ea-cbda-cab5ceaa865d
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Azure Automation delivers a cloud-based automation and configuration service across your Azure and non-Azure environments",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "https://azure.microsoft.com/services/automation/",
+  "productLinkName1": "Azure Automation",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "1175148d-8465-c4af-0f7b-4b94ffc17b22",
