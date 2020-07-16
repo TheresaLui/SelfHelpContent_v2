@@ -213,6 +213,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "de221482-a3d7-af7f-0723-0089101db3eb",
+      "longDescription": "",
+      "shortDescription": "Start Stop solution fails to start stop ALL VMs",
+      "searchTags": "start stop not working",
+      "category": "start stop",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e87c7046-e633-8553-7468-61ff9b66215f",
       "longDescription": "",
       "shortDescription": "Changing Start Stop schedules, targeted VMs or resource groups. Changing the order in which machines start or stop",
