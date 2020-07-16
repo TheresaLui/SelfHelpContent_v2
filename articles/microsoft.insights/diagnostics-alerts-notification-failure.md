@@ -8,7 +8,7 @@
     ms.author="napolish"
     displayOrder="8"
     articleId="28b9e583-dbcf-44d2-907f-d8d686799206"
-    selfHelpType="generic"
+    selfHelpType="rca"
     supportTopicIds="32739779,32739780,32739781,32739782"
     productPesIds="15454"
     cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
