@@ -42,7 +42,7 @@ These resources explain enrollment, eligibility, earnings, payments, and policy 
 * [SAM Incentives FAQ](https://support.microsoft.com/help/4499346/software-asset-management-sam-incentives-faq)
 <br></br>
 
-### **Still need help?**
+**Still need help?**
 
 Create a support ticket:
 
