@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4e986703-6a6c-b8ae-1d19-ef9bc92ba8d2",
+      "longDescription": "",
+      "shortDescription": "Help using RunAs accounts in a runbook",
+      "searchTags": "Run as;account;permissions",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "56b24722-7ca9-e4a2-e3bd-4f7d92c44215",
       "longDescription": "",
       "shortDescription": "Questions about configuring Update Management, including removal and unexpected reboots. ",
