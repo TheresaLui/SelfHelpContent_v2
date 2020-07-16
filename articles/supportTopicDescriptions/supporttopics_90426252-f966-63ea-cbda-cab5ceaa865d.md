@@ -142,6 +142,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7a01c701-3bc4-e6b5-d0ed-329cb214125a",
+      "longDescription": "",
+      "shortDescription": "A DSC configuration is failing to apply to a specific node",
+      "searchTags": "node",
+      "category": "dsc",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7cad395f-7f36-9c2c-af5b-372b0a0d4b11",
       "longDescription": "",
       "shortDescription": "Other issues with Update Management",
