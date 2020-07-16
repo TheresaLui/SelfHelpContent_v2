@@ -262,6 +262,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e2fce0ad-40dd-1b35-d9ce-a575b521526e",
+      "longDescription": "",
+      "shortDescription": "Help removing an Automation Account or removing the link between an Automation Account and a Log Analytics workspace",
+      "searchTags": "delete;unlink",
+      "category": "Automation Account",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e87c7046-e633-8553-7468-61ff9b66215f",
       "longDescription": "",
       "shortDescription": "Changing Start Stop schedules, targeted VMs or resource groups. Changing the order in which machines start or stop",
