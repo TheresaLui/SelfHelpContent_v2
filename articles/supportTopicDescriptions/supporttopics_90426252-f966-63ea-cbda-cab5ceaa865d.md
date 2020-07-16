@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "0206260c-37de-18b1-3022-b92b3cf3d0e5",
+      "longDescription": "",
+      "shortDescription": "Other issues around Run As accounts",
+      "searchTags": "run as",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1175148d-8465-c4af-0f7b-4b94ffc17b22",
       "longDescription": "",
       "shortDescription": "Change Tracking and Inventory has been configured, but stopped collecting data. ",
