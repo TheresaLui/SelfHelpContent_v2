@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2cafedd7-7821-9cbd-55fc-d4fa659542fb",
+      "longDescription": "",
+      "shortDescription": "Problems generating a DSC MOF file in Azure Automation. ",
+      "searchTags": "config;compile;compilation;module;job",
+      "category": "dsc",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2eeda1d1-ab94-6d7f-fe20-7971e26c9b72",
       "longDescription": "",
       "shortDescription": "A runbook job shows up as running and can not be stopped",
