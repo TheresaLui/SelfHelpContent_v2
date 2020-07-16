@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3d9a7fca-0701-caea-4823-961249dda8a6",
+      "longDescription": "",
+      "shortDescription": "Using Hybrid Workers with RunAs accounts or certificates",
+      "searchTags": "cert;export;run as;sign",
+      "category": "Runbooks",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4197ab26-516f-dd73-251c-46670e146601",
       "longDescription": "",
       "shortDescription": "Problems creating or deploying the Start Stop solution",
