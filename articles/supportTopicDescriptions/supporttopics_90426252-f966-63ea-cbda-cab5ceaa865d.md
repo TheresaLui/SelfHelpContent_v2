@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2234a2e0-d909-dc99-6e98-685629b65cb1",
+      "longDescription": "",
+      "shortDescription": "Creating a RunAs account",
+      "searchTags": "runas;run as",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "25a05dcd-e43b-4071-b7f4-71673a7a223c",
       "longDescription": "",
       "shortDescription": "Help moving Automation assets to a new account",
