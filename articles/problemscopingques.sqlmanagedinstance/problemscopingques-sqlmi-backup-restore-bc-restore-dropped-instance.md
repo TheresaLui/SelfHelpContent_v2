@@ -109,7 +109,7 @@
       "id": "list_db_recover",
       "order": 50,
       "controlType": "multilinetextbox",
-      "visibility": "recover_all_db == yes",
+      "visibility": "recover_all_db == no",
       "displayLabel": "What are the DBs you want to recover?",
       "required": true
     },
