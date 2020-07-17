@@ -2,7 +2,7 @@
     pageTitle="Improve performance by optimizing MySQL temporary-table sizing"
     description="Improve performance by optimizing MySQL temporary-table sizing"
     authors="alau"
-    ms.author="alau"
+    ms.author="alau-ms"
     articleId="99811474-2a6c-4d40-ac91-ae76c76e3258_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
@@ -51,7 +51,8 @@
       "extensionName": "SqlAzureExtension",
       "bladeName": "MySqlServerParametersBlade",
       "metadata": {
-      "resourceId": "{resourceId}"
+        "resourceId": "{resourceId}"
+      }
     }
   ],
   "resourceMetadata": {
