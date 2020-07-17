@@ -53,7 +53,8 @@
       "extensionName": "SqlAzureExtension",
       "bladeName": "MySqlServerParametersBlade",
       "metadata": {
-      "resourceId": "{resourceId}"
+        "resourceId": "{resourceId}"
+      }
     }
   ],
   "resourceMetadata": {
