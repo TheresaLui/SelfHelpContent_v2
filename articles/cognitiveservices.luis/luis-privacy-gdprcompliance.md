@@ -18,6 +18,6 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 ## **Recommended Documents**
 
-Language Understanding Intelligent Service (LUIS) preserves customer content to operate the service. But the LUIS user has full control over viewing, exporting, and deleting their data. [Learn more about LUIS GDPR compliance](https://docs.microsoft.com/azure/cognitive-services/luis/luis-user-privacy).
+* Language Understanding Intelligent Service (LUIS) preserves customer content to operate the service. But the LUIS user has full control over viewing, exporting, and deleting their data. [Learn more about LUIS GDPR compliance](https://docs.microsoft.com/azure/cognitive-services/luis/luis-user-privacy).
 
-[Understand more about privacy and compliance for Azure Cognitive Services](https://azure.microsoft.com/support/legal/cognitive-services-compliance-and-privacy/).
+* [Understand more about privacy and compliance for Azure Cognitive Services](https://azure.microsoft.com/support/legal/cognitive-services-compliance-and-privacy/).
