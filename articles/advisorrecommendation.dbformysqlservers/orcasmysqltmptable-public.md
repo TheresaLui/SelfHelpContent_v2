@@ -38,7 +38,7 @@
     "49ebada5-bdc9-4c9b-826c-3cb789357c5d"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 2.0,
+  "version": 1.0,
   "learnMoreLink": "https://aka.ms/azure_mysql_tmp_table",
   "description": "Improve performance by optimizing MySQL temporary-table sizing",
   "longDescription": "Our internal telemetry indicates that your MySQL server may be incurring unncessary I/O overhead due to low temporary-table parameter settings. This may result in unnecessary disk-based transactions and reduced performance. We recommend that you increase the 'tmp_table_size' and 'max_heap_table_size' parameter values to reduce the number of disk-based transactions.",
