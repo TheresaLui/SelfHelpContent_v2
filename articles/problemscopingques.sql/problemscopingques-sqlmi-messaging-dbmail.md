@@ -32,7 +32,7 @@
       "id": "smtp_configuration",
       "order": 2,
       "controlType": "dropdown",
-      "displayLabel": "Where is your SMTP server located?",
+      "displayLabel": "Where your SMTP server is located?",
       "watermarkText": "Choose an option",
       "dropdownOptions": [
         {
