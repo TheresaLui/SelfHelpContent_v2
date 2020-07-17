@@ -134,8 +134,7 @@
           "text": "Screenshots and Diagnostic log"
         }
       ]
-    }    
-
-  ]
+    }
+]
 }
 ---
