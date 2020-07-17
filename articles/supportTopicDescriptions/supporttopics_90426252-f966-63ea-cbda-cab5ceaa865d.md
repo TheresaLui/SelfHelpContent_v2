@@ -484,6 +484,14 @@
       "searchTags": "schedule;create;preview;saved search",
       "category": "Update Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ffa06910-7d76-1596-5bec-da597fc57a2d",
+      "longDescription": "",
+      "shortDescription": "Can not renew or create Classic RunAs account",
+      "searchTags": "classic",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
