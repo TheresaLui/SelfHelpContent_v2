@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "20c5fa5f-59cc-4981-dbc4-9fb94a51116e",
+      "longDescription": "",
+      "shortDescription": "You have questions about configuring data encryption at-rest with customer-managed keys",
+      "searchTags": "byok;data encryption;encryption;at rest;key vault",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2810f269-823e-2e78-2447-a5ed63786990",
       "longDescription": "",
       "shortDescription": "You have questions about configuring audit logging",
