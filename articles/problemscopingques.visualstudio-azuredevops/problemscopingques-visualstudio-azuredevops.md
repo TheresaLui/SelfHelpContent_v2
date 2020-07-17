@@ -95,26 +95,11 @@
 "resourceRequired": false,
   "subscriptionRequired": false,
   "title": "Azure DevOps Issues",
-    "fileAttachmentHint": "Please upload any screenshots logs for your issue",
+    "fileAttachmentHint": "Please upload any screenshots or relevant logs",
   "formElements": [
     {
-      "id": "org_name",
-      "order": 1,
-      "controlType": "textbox",
-      "displayLabel": "Please provide your Azure DevOps Organization URL (like XYZ.visualstudio.com or dev.azure.com/XYZ)",
-      "watermarkText": "Organization URL",
-      "required": false
-    },
-    {
-      "id": "project_name",
-      "order": 2,
-      "controlType": "textbox",
-      "displayLabel": "Please provide the name of Team Project affected",
-      "required": false
-    },
-    {
       "id": "problem_description",
-      "order": 3,
+      "order": 1,
       "controlType": "multilinetextbox",
       "displayLabel": "Please provide these details",
       "required": true,
@@ -131,10 +116,32 @@
           "text": "Additional details"
         },
         {
-          "text": "Screenshots and Diagnostic log"
+          "text": "Screenshots or Logs"
         }
       ]
+    },
+    {
+      "id": "org_name",
+      "order": 2,
+      "controlType": "textbox",
+      "displayLabel": "Please provide your Azure DevOps Organization URL (like XYZ.visualstudio.com or dev.azure.com/XYZ)",
+      "watermarkText": "Organization URL",
+      "required": false
+    },
+    {
+      "id": "project_name",
+      "order": 3,
+      "controlType": "textbox",
+      "displayLabel": "Please provide the name of Team Project affected",
+      "required": false
+    },
+    {
+      "id": "problem_start_time",
+      "order": 4,
+      "controlType": "datetimepicker",
+      "displayLabel": "When did the problem start?",
+      "required": true
     }
-]
+  ]
 }
 ---
