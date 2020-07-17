@@ -246,6 +246,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "78765c3a-cd8e-f691-511b-7be94e3be6c3",
+      "longDescription": "",
+      "shortDescription": "Can not create a new RunAs account",
+      "searchTags": "create",
+      "category": "Shared Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "78a828dd-1403-42e5-1521-08db5a519a14",
       "longDescription": "",
       "shortDescription": "Issues trying to use AzureRm or Az cmdlets",
