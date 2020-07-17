@@ -11,7 +11,7 @@
 	schemaVersion="1"
 	ownershipId="AzureMonitoring_ActionGroup"
 />
-# I need to increase my quota of alert rules or action groups y
+# I need to increase my quota of alert rules or action groups
 ---
 {
     "resourceRequired": false,
