@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "65616ee6-03b8-cb93-967b-d8a2b237ba75",
+      "longDescription": "",
+      "shortDescription": "Change Tracking and Inventory functionality in Azure Automation",
+      "searchTags": "change tracking;inventory",
+      "category": "Change Tracking",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6e551778-1455-77a1-bd60-700ba414eb18",
       "longDescription": "",
       "shortDescription": "Issues were runbook jobs are failed, stopped or suspended, or runbooks emit errors",
