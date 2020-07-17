@@ -82,7 +82,7 @@
             "required": true
     },
     {
-      "id": "recover_all_db",
+      "id": "recover_db_or_not",
       "order": 40,
       "controlType": "dropdown",
       "displayLabel": "If it’s not possible to recover a DB do you want to continue and exclude that DB?",
