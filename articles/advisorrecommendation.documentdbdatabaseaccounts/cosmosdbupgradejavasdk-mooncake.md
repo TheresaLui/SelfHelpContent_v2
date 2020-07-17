@@ -17,7 +17,7 @@
   "recommendationTypeId": "3312d528-e60e-4d3a-8dd0-e97f030c4681",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-      "streamNamespace": "cluster('https://cdbmooncake3.chinanorth2.kusto.chinacloudapi.cn').database('Support').OldJavaSDK",
+      "streamNamespace": "cluster('https://cdbmooncake3.chinanorth2.kusto.chinacloudapi.cn').database('LiveSite').OldJavaSDK",
       "refreshInterval": "0.12:00:00",
     "schemaVersion": 3.0
   },

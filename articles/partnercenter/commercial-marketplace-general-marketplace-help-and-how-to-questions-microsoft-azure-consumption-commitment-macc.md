@@ -26,4 +26,3 @@ This topic is to help with general questions about MACC eligible offers in Comme
 - MACC eligible offers are offers that are **transactable** in Azure Marketplace and/or AppSource that **have Azure IP Co-sell status**. BYOL (bring your own license) offers are NOT considered transactable.
 - As a publisher, first verify which of your offer(s) are MACC eligible by working with your PDM.
 - It is important to note that only Azure consumption commitments are eligible. Prepayments, Monetary Commitments, or any other credits are not eligible for marketplace purchases.
-- Anything else you think would drive questions to support that we want to pull out?
