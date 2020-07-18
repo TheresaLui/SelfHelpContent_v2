@@ -41,7 +41,7 @@
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/azure_mysql_tmp_table",
   "description": "Improve performance by optimizing MySQL temporary-table sizing",
-  "longDescription": "Our internal telemetry indicates that your MySQL server may be incurring unncessary I/O overhead due to low temporary-table parameter settings. This may result in unnecessary disk-based transactions and reduced performance. We recommend that you increase the 'tmp_table_size' and 'max_heap_table_size' parameter values to reduce the number of disk-based transactions.",
+  "longDescription": "Our internal telemetry indicates that your MySQL server may be incurring unnecessary I/O overhead due to low temporary-table parameter settings. This may result in unnecessary disk-based transactions and reduced performance. We recommend that you increase the 'tmp_table_size' and 'max_heap_table_size' parameter values to reduce the number of disk-based transactions.",
   "potentialBenefits": "Improve MySQL workload performance by reducing I/O overhead associated with disk-based transactions",
   "actions": [
     {
@@ -53,14 +53,20 @@
       "metadata": {
         "resourceId": "{resourceId}"
       }
+    },
+    {
+      "actionId": "4c2718c4-dfcf-4e2b-a5eb-d24d18c76c15",
+      "description": "Optimally tuning your workload on Azure Database for MySQL",
+      "actionType": "Document",
+      "documentLink": "https://aka.ms/azure_mysql_tmp_table"
     }
   ],
   "resourceMetadata": {
     "action": {
       "actionId": "78e7e4b9-bac2-47bc-92da-6979eba19b7d",
       "actionType": "Blade",
-      "extensionName": "SqlAzureExtension",
-      "bladeName": "MySqlServerParametersBlade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}"
       }
