@@ -14,6 +14,7 @@
 # Problems with ARM Templates
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
     "title": "ARM Deployment Errors",
@@ -70,7 +71,7 @@
             "id": "deployment_tool",
             "order": 50,
             "controlType": "dropdown",
-            "displayLabel": "Please select the client tool bien used.",
+            "displayLabel": "Please select the client tool bien used",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -83,7 +84,7 @@
                 },
                 {
                     "value": "Portal",
-                    "text": "Portal
+                    "text": "Portal"
                 },
                 {
                     "value": "REST API",
@@ -93,7 +94,7 @@
                     "value": "Other",
                     "text": "Other"
                 }
-            ]
+            ],
             "required": false
         },
         {
@@ -110,7 +111,6 @@
                 }
             ]
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
