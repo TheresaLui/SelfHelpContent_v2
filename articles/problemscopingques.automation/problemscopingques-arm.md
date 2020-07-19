@@ -1,13 +1,13 @@
 <properties
-	articleId="problemscopingques-arm.md"
 	pageTitle="Azure Automation - Problems with ARM Template Deployments"
 	description="Azure Automation - Problems with ARM Template Deployments"
-	authors="apclouds"
+    authors="apclouds"
 	ms.author="angperez"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32641156,32641157,32641158"
 	productPesIds="15607"
+	supportTopicIds="32641156,32641157,32641158"
 	cloudEnvironments="public, fairfax, usnat, ussec"
+    articleId="problemscopingques-arm.md"
 	schemaVersion="1"
 	ownershipId="Compute_ARM"
 />
@@ -70,7 +70,7 @@
             "id": "deployment_tool",
             "order": 50,
             "controlType": "dropdown",
-            "displayLabel": "Please provide what tool was used to assign the blueprint (PowerShell, CLI, Portal, REST API, Other)",
+            "displayLabel": "Please select the client tool bien used.",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
