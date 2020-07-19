@@ -9,9 +9,10 @@
 	supportTopicIds="32615383"
 	resourceTags=""
 	productPesIds="16579"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	ms.author="billmath"
 	articleId="e96d1e54-8776-4276-839d-382206513c45"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 

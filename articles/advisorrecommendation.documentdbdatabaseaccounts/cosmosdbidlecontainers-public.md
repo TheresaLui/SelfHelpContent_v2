@@ -5,7 +5,8 @@
     ms.author="thweiss"
     articleId="a4255ba5-b07e-45ae-99ca-25e6c2079e3c_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Consider taking action on your idle Azure Cosmos DB containers
 ---

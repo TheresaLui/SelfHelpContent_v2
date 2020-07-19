@@ -10,8 +10,9 @@
 	supportTopicIds="32689187"
 	resourceTags=""
 	productPesIds="16957"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="47f933d6-23eb-4dfb-a1d4-dbca76317491"
+	ownershipId="AzureIdentity_OtherMSGraphAPIs"
 />
 
 # Microsoft Graph Education API issues

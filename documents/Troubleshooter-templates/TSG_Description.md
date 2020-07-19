@@ -3,11 +3,11 @@
 	description="<Brief Description of the troubleshooter. This text is not presented>"
 	service="<service provider>"
 	resource="<resource type>"
-	authors="<Your Github alias>"
 	ms.author="<Your Microsoft alias>"
 	selfHelpType="TSG_Description"
 	cloudEnvironments="<cloud environments>"
 	articleId="<Unique GUID identifying the Content step>"
+	ownershipId=""
 />
 
 # <Troubleshooter title - Will be presented the user. Example: 502 Bad Application Gateway Errors

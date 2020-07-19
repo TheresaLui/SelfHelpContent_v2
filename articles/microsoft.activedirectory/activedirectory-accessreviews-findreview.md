@@ -9,8 +9,9 @@
 	supportTopicIds="32596834"
 	resourceTags="AccessReviews"
 	productPesIds="16577"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="c8ec2252-fc2a-484b-a983-1d1c4a03c974"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 
 # End users cannot locate a pending review in the access panel.

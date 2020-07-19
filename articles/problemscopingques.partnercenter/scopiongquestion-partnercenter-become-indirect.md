@@ -4,12 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635676"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32730245"
+	productPesIds="17000"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_become_indirect"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Partner Center Become an Indirect Reseller
 ---

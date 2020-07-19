@@ -10,6 +10,7 @@
     resourceTags="Azure_RBAC"
     cloudEnvironments="MoonCake"
     articleId="activedirectory-rbac-subscription-ownership-transfer-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Unable to transfer ownership of a subscription

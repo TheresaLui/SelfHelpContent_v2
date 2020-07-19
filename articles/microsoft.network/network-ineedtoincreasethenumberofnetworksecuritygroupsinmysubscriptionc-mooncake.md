@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="aefb511d-c310-4b60-a465-208e32970281"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # I need to increase the number of Network Security Groups in my subscription.

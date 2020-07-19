@@ -10,8 +10,9 @@
     supportTopicIds="32634433"
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="8a419a45-2857-4c54-8661-90c3759ba81e"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Delete a VMM Server

@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="device_enrollment_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c5e748c8-b252-49d2-ba69-17483b344d9e"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # The PC client license software installation failed and said that "The software cannot be installed, 0x80cf4017".

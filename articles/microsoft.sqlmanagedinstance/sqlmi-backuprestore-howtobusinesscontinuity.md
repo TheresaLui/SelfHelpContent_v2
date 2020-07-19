@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32637266"
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="de6cd457-a03a-4c2d-9a1b-18940b998243"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Planning a recovery strategy

@@ -5,10 +5,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32045781"
     productPesIds="14785,16578,16575"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="3ef55133-23fb-428a-93c3-a29aa9a53154"
-    />
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
+/>
 
 # Problem with administrator initiated password reset
 

@@ -1,43 +1,46 @@
 
 <properties
-pageTitle="Questions about Windows Analytics"
-description="Questions about Windows Analytics"
+pageTitle="Questions about Update Compliance"
+description="Questions about Update Compliance"
 service="microsoft.operationalinsights"
 resource="workspaces"
 symptomID=""
 infoBubbleText=""
-authors="jaimeo, zdvorak, mattreyn, chinglis"
-ms.author="jaimeo, zdvorak, mattreyn, chinglis"
+authors="jaimeo, chinglis"
+ms.author="jaimeo, chinglis"
 displayorder=""
 selfHelpType="generic"
 supportTopicIds="32612530"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
-	articleId="1776cd2c-92b4-400e-9277-38ad60f8d03b"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+    articleId="1776cd2c-92b4-400e-9277-38ad60f8d03b"
+    ownershipId="AzureMonitoring_LogAnalytics"
 />
 
-# Questions about devices or names not appearing
+# Questions about Update Compliance
 
-**I've enrolled devices, but some of them aren't showing up in Upgrade Readiness**<br>
+## Ensuring devices are configured correctly to send data
 
-There is some latency in the system which means it could be a few days before all devices appear. But if you need to check sooner than that, try the steps in [Devices not appearing in Upgrade Readiness](https://docs.microsoft.com/windows/deployment/update/windows-analytics-faq-troubleshooting#devices-not-appearing-in-upgrade-readiness).
+The first step to troubleshooting is ensuring that devices are configured as documented on [Manually Configuring Devices for Update Compliance](https://docs.microsoft.com/windows/deployment/update/update-compliance-configuration-manual). We recommend using the [Update Compliance Configuration Script](https://docs.microsoft.com/windows/deployment/update/update-compliance-configuration-script) for troubleshooting and configuring devices.
 
-**I see devices in Upgrade Readiness or Update Compliance, but some of them aren't showing up in Device Health**
+### Devices have been correctly configured but aren't showing up in Update Compliance
 
-This could be a problem with the Commercial ID, the diagnostic data setting, or access to the necessary endpoints that collect the data. To diagnose and fix these problems, have a look at [Devices not appearing in Device Health Device Reliability](https://docs.microsoft.com/windows/deployment/update/windows-analytics-faq-troubleshooting#devices-not-appearing-in-device-health-device-reliability)
+It takes some time for data to appear in Update Compliance for the first time and if a Commercial ID has recently changed for a device. To learn more about data latencies for Update Compliance, refer to the official documentation covering [Update Compliance Data Latency](https://docs.microsoft.com/windows/deployment/update/update-compliance-using#update-compliance-data-latency).
 
+## Devices are appearing, but without a device name or device name appearing as '#'
 
+Device Name is now an opt-in via policy as of Windows 10, 1803. See the required policies for enabling device name at [Manually Configuring Devices for Update Compliance](https://docs.microsoft.com/windows/deployment/update/update-compliance-configuration-manual).
 
-**How come I can see GUIDS for enrolled devices, but not their device names?**<br>
+## Using Update Compliance with Desktop Analytics
 
-Starting with Windows 10, version 1803, you have to follow an extra step to allow the device names to be transmitted to Windows Analytics. To do this, change the value of the *AllowDeviceNameInTelemetry* by using Group Policy or Mobile Device Management. See the [Distributing policies at scale](https://docs.microsoft.com/windows/deployment/update/windows-analytics-get-started#deploying-windows-analytics-at-scale) section of the linked topic for more.  
+Devices can be configured to send data to both Update Compliance and Desktop Analytics. In order to do this, you must ensure that Desktop Analytics and Update Compliance are using the same Log Analytics workspace. See the [Desktop Analytics FAQ](https://docs.microsoft.com/configmgr/desktop-analytics/faq) for more information.
 
+## Windows Analytics retirement
 
+As of January 31, 2020, Windows Analytics: Upgrade Readiness and Device Health solutions have been retired and data is no longer being provided to those solutions. Data will age out according to each customer's data retention policies. Customers can learn more about the retirement by referring to the [Windows Support article](https://support.microsoft.com/help/4521815/windows-analytics-retirement) addressing the retirement.
 
 ## **Recommended Documents**
 
-* [Enrolling devices in Windows Analytics](https://docs.microsoft.com/windows/deployment/update/windows-analytics-get-started)
-* [Frequently asked questions and troubleshooting Windows Analytics](https://docs.microsoft.com/windows/deployment/update/windows-analytics-faq-troubleshooting)
-* [Windows Analytics in the Azure Portal](https://docs.microsoft.com/windows/deployment/update/windows-analytics-azure-portal)
-* [Windows Analytics and privacy](https://docs.microsoft.com/windows/deployment/update/windows-analytics-privacy)
+* [Update Compliance official documentation](https://docs.microsoft.com/windows/deployment/update/update-compliance-monitor)
+* [Desktop Analytics official documentation](https://docs.microsoft.com/configmgr/desktop-analytics/)

@@ -4,12 +4,13 @@
        authors="brentserbus"
        ms.author="brserbus"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds="32641059"
-       productPesIds="15960"
-       cloudEnvironments="public"
+       supportTopicIds="32692610"
+       productPesIds="17003"
+       cloudEnvironments="public, fairfax, usnat, ussec"
        schemaVersion="1"
        articleId="problemscopingques-partnercenterwht"
        clientIds="partnercenter"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # PC Sample
 ---
@@ -18,7 +19,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Partner Center Tax Withholding",
-       "fileAttachmentHint": "Tax Withholding requests require attached files: Tax Certificate and the Withholding Tax Credit form. More information about these forms can be found in the documentation.",
+       "fileAttachmentHint": "Please attach any files that may help explain your issue, this could include image screen captures or tax certificate files.",
     "formElements": [
               {
             "id": "problem_description",
@@ -34,6 +35,14 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did your issue begin",
             "required": true
+              },
+        {
+            "id": "pc_taxwithholding_id",
+            "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Please provide the tax withholding ID this is about.",
+            "watermarkText": "Provide the tax withholding ID, it will look something like: 1048177",
+            "required": false
               }
     ]
 }

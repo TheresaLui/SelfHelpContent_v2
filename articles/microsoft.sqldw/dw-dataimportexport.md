@@ -11,7 +11,8 @@
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
 	articleId="dw-dataimportexport.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # How to troubleshoot data import and export issues
 

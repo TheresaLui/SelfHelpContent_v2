@@ -10,8 +10,9 @@
     supportTopicIds="32642188"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="9e8d2130-e9dc-4958-a9c6-dd9c336814f8"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - General Guidance
@@ -25,4 +26,4 @@ By choosing a more specific topic, you might find information more relevant to y
 * [Create and manage Run As account](https://docs.microsoft.com/azure/automation/automation-create-runas-account)<br>
 * [Troubleshoot errors with runbooks](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks)<br>
 * [Start-stop VMs during off hours solution](https://docs.microsoft.com/azure/automation/automation-solution-vm-management)<br>
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)

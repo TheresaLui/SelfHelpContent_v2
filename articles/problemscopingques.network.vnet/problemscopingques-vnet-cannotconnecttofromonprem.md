@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32584251"
     productPesIds="15526"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="700961cc-d014-45db-be70-2069dc2e00ff"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Cannot connect to another virtual machine on-prem

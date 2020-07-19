@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32637201,32637203,32637202,32637204,32637205,32637206,32637200"
                 productPesIds="16450"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="f9a4bd20-01cd-4358-999e-fecb3f0eda25"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # My problem is not listed
 ---

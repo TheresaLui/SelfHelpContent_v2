@@ -11,8 +11,9 @@
 	supportTopicIds="32639196"
 	resourceTags=""
 	productPesIds="16505"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="32639196"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box Disk unlock and data copy

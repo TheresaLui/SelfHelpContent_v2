@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""	
 	productPesIds=""
-	cloudEnvironments="public,BlackForest,Fairfax" 
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec" 
 	articleId="1af4035b-e34c-4222-bb02-c7c790c044f7"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Can I have more than 20 throughput units? 

@@ -7,8 +7,9 @@
 	articleid="vpngwp2sclientsideissues"
 	supportTopicIds="32633158"
 	productPesIds="16094"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Point-to-site client side issues
 ---

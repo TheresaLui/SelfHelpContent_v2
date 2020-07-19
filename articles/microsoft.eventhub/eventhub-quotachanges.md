@@ -9,8 +9,9 @@
 	supportTopicIds="32589221"
 	resourceTags=""
 	productPesIds="16125"
-	cloudEnvironments="public,BlackForest,Fairfax"
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
 	articleId="12463152-0b71-4217-abed-d41997634588"
+	ownershipId="AzureMessaging_Common"
 />
 
 # quota changes, namespace management, and billing

@@ -8,8 +8,9 @@
     supportTopicIds="32636845,32636862,32636901,32636907,32636909"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="13004dd1-4fc1-4b43-bfb7-b509cb337586"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # IoT Common Solutions

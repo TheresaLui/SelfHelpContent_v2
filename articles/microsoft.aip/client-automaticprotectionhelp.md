@@ -10,8 +10,9 @@
 	supportTopicIds="32584330"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="e814fd5d-9e33-43dc-871b-7cb3c3c952a8"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - automatic protection

@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c347650e-cde5-482e-8a16-f0ea4cafb3c9"
+	ownershipId="Compute_LogicApp"
 />
 
 # My Logic App is not running

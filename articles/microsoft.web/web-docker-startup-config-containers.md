@@ -3,14 +3,16 @@
 	description="Docker Containers/Docker container startup and configuration"
 	service="microsoft.web"
 	resource="sites"
-	authors="shrahman"
+	authors="cts-shrahman, cts-shrahman"
+    ms.author="shrahman,shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32588775"
 	resourceTags=""
 	productPesIds="16333"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="28c4b3b3-5314-49af-9040-125fef444476"
+	ownershipId="Compute_AppService"
 />
 
 # Docker Containers/Docker container startup and configuration

@@ -10,8 +10,9 @@
 	supportTopicIds="32628285"
 	resourceTags=""
 	productPesIds="15571,15797,16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="845b0f97-0026-43f2-aaea-daf3cea70cb8"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My VM will not start after a configuration change

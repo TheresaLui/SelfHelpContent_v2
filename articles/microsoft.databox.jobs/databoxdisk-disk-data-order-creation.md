@@ -11,8 +11,9 @@
 	supportTopicIds="32614263, 32614267, 32614268, 32614273, 32614275, 32614294"
 	resourceTags=""
 	productPesIds="16505"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="aa5e4203-744b-4281-9f7b-a420cfb8bd30"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box Disk Order Creation

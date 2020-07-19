@@ -9,8 +9,9 @@
 	supportTopicIds="32335894"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="bd0c18c2-2c87-46a5-96d8-831ec45857f2"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # sharepoint online

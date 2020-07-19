@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32675753"
          productPesIds="16348"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="66fd8479-a4a5-42e1-a0c0-4864b6adefd2"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Installation issues with dependency agents

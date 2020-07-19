@@ -1,7 +1,7 @@
 <properties
 pageTitle="Physical host node underwent regular maintenance update recently"
 description="The physical host node where was undergoing a regular maintenance of the networking stack. This impacted connectivity briefly."
-infoBubbleText="Networking stack maintanence. See details on the right"
+infoBubbleText="Networking stack maintenance. See details on the right"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="rkrir"
@@ -11,16 +11,17 @@ articleId="NmAgentUpdated"
 diagnosticScenario="NmAgentUpdated"
 selfHelpType="resource"
 supportTopicIds=""
-cloudEnvironments="Public"
+cloudEnvironments="Public, fairfax, usnat, ussec"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 If you have verified that the customer's impact is primarily due to NMAgent update, please adapt the root cause statement below:
 
 # We ran diagnostics on your VM and found an issue
 
-The physical host node where your VM was running was undergoing a regular maintenance of the networking stack. This impacted connectivity briefly.    
+The physical host node where your VM was running was undergoing a regular maintenance of the networking stack. This impacted connectivity briefly.
 
-Azure periodically performs updates to improve the reliability, performance, and security of the host infrastructure for virtual machines. The purpose of these updates ranges from patching software components in the hosting environment to upgrading networking components or decommissioning hardware. Updates rarely affect hosted VMs. When updates do have an effect, Azure chooses the least impactful method for updates, which may sometimes still result in a brief downtime or connectivity loss. We are continuously working on improving the platform and apologize for any inconvenience this may have caused to you. 
+Azure periodically performs updates to improve the reliability, performance, and security of the host infrastructure for virtual machines. The purpose of these updates ranges from patching software components in the hosting environment to upgrading networking components or decommissioning hardware. Updates rarely affect hosted VMs. When updates do have an effect, Azure chooses the least impactful method for updates, which may sometimes still result in a brief downtime or connectivity loss. We are continuously working on improving the platform and apologize for any inconvenience this may have caused to you.
 
 ## **Recommended Steps**
 

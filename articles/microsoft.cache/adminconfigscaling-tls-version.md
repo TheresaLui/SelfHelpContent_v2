@@ -10,8 +10,9 @@
 	supportTopicIds="32690920"
 	resourceTags=""
 	productPesIds="14783"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="5810cbac-7244-424c-a634-99a3147cbc68"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # TLS version with Azure Cache for Redis

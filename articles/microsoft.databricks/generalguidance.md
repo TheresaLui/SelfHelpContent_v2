@@ -10,8 +10,9 @@
 	supportTopicIds="32677654"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="1305df1d-4f65-4bc0-afc4-d4825784826a"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Provide general guidance and advisory

@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32688623"
 	productPesIds="16152"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="E0099F57-8791-4D2D-AB5C-5FE7B97597BA"
+	ownershipId="Compute_BotService"
 />
 # Bot is returning an error
 ---

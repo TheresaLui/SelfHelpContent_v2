@@ -10,8 +10,9 @@
 	supportTopicIds="32680608"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="cacf99c1-dc45-48a5-9229-c3060b679502"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Run a Failover in Site recovery - VMware to Azure

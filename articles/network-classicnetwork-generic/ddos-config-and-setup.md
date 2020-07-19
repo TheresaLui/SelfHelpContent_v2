@@ -10,8 +10,9 @@
     supportTopicIds="32640595,32640596,32640597,32640598,32640599,32640600"
     resourceTags=""
     productPesIds="16355"
-    cloudEnvironments="public,mooncake,fairfax"
+    cloudEnvironments="public,mooncake,fairfax, usnat, ussec"
     articleId="ddos-config-and-setup"
+	ownershipId="CloudNet_AzureDDoSProtection"
 />
 # General guidance or advisory
 

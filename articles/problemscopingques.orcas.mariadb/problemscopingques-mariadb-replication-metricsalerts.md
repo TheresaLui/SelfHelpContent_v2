@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32673563"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-replication-metrics_alerts"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Replication - Metrics and alerts
 ---

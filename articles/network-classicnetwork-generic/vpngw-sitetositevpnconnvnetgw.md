@@ -10,8 +10,9 @@
 	supportTopicIds="32591158"
 	resourceTags=""
 	productPesIds="16094"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cc230e94-e48b-46d4-9f87-d618a6fe01ff"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # Diagnose and resolve site-to-Site VPN connectivity issues

@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32634425"
     productPesIds="16370"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="2b342a85-2019-4l4f-b7d0-43636992e013"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions Migration Issues
 ---

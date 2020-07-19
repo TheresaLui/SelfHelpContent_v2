@@ -10,8 +10,9 @@
 	supportTopicIds="32302790"
 	resourceTags=""
 	productPesIds="16975"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="bace63bd-6a38-4f7b-9162-5ab9cd5d79ac"
+	ownershipId="CloudNet_ContentDeliveryNetwork"
 />
 
 # configuration/https and ssl configuration

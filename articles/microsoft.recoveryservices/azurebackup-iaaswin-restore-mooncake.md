@@ -6,12 +6,13 @@
 	authors="trinadhk"
 	ms.author="trinadhk"
 	displayOrder="25"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-iaaswin-restore-mooncake"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Azure Windows VM Restore Limitations

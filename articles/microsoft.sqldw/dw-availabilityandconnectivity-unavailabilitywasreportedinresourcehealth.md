@@ -11,7 +11,8 @@
     selfHelpType="generic"
     resourceTags=""
     articleId="dw-availabilityandconnectivity-unavailabilitywasreportedinresourcehealth.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Unavailability was reported in Resource Health

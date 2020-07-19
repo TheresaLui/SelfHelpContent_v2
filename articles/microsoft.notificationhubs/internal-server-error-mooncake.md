@@ -12,6 +12,7 @@
     supportToicIds =""
     cloudEnvironments="MoonCake"
 	articleId="b8cba404-f94f-4c30-8c8f-4bba78e1146a"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I am getting an 'Internal server' error

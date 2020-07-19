@@ -10,8 +10,9 @@
 	supportTopicIds="32375283"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="c91b46a1-97cf-4619-9767-45d0c3e0fdd8-res"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Application Cannot Obtain or Use a Key

@@ -11,14 +11,16 @@
 	supportTopicIds="32628778"
 	resourceTags=""
 	productPesIds="15663"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ms.author="sidram"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # Malformed Input Event Causes Deserialization Errors
 
 Deserialization issues are caused when the input stream of your Stream Analytics job contains malformed messages.To address this issue, see the recommended documents.
 
+Note that Stream Analytics cannot process Event Hub Capture files from blob storage even though it is in AVRO format. Doing so will result in deserialization errors.
 
 ## **Recommended Documents**
 

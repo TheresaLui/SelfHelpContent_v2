@@ -10,8 +10,9 @@
 	supportTopicIds="32613317"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="0100bc27-2ec0-4f76-8ffb-0e56e84a97a5"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Azure Files - General guidance or advisory  

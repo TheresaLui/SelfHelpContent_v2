@@ -10,15 +10,25 @@
 	articleId="partnercenter_transfer_o365_or_d365_licenses"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635704"
+	supportTopicIds="32725898"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Transfer O365 or D365 licenses to CSP channel or to new CSP partner
 
+## **Recommended Steps**
+
+Partner center supports multi-partner and multi-channel engagement. To facilitate this, follow the steps to [create a new Online subscription](https://docs.microsoft.com/partner-center/create-a-new-subscription).
+
+If you provision the same offers as those your customer has been using, there is no need to reassign licenses, and there will be no disruption to end-users. The offers must be the same to ensure no data loss. As long as the total number of licenses remains the same and the offer is equivalent your customers will not be impacted.
+
+If you transfer customers who are on offers that have been discontinued, you will need to find an equivalent offer in order to prevent data loss. If you move the customer to a different offer, you will need to update their license assignment.
+
 ## **Recommended Documents**
 
-* **[Multi-channel support](https://docs.microsoft.com/partner-center/work-with-other-partners#multi-channel-support)**
-* **[Remove a reseller relationship](https://docs.microsoft.com/partner-center/remove-a-relationship)**
+* **[Transfer license-based services customers to the Cloud Solution Provider Program from another channel or from one partner to another](https://docs.microsoft.com/partner-center/transition-seat-based-services)**
+* **[Work with other partners](https://docs.microsoft.com/partner-center/work-with-other-partners#multi-channel-support)**
+* **[Multi-partner support](https://docs.microsoft.com/partner-center/multipartner)**

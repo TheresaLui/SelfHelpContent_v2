@@ -4,14 +4,15 @@
 	service="microsoft.web"
 	resource="sites"
 	authors="cts-shrahman,cts-shrahman"
-    ms.author="shrahman, curibe"
+    	ms.author="shrahman, curibe"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32542212"
 	resourceTags=""
-	productPesIds="14748, 16170"
-	cloudEnvironments="public"
+	productPesIds="14748,16170,16333"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="5550443b-0e39-4b41-98ee-e576e6843d2a"
+	ownershipId="Compute_AppService"
 />
 
 # configuration and management/vnet
@@ -33,11 +34,11 @@ The [New VNet Integration](https://blogs.msdn.microsoft.com/appserviceteam/2018/
 
 * Existing VNet Integration does not support: Mounting a drive, AD integration, NetBios, private site access, accessing resources across ExpressRoute, accessing resources across Service Endpoints. 
 
-* Q. Why does tcpping in the Kudu console results on “Connection attempt failed: An attempt was made to access a socket in a way forbidden by its access permissions”? <br>
+* Q. Why does tcpping in the Kudu console results on "Connection attempt failed: An attempt was made to access a socket in a way forbidden by its access permissions"? <br>
 
-	A: This could happen because the IP address you are trying to connect to is not included on the “IP ADDRESSES ROUTED TO VNET” section of the Networking blade of the App Service Plan. For more info see [Managing the VNet Integrations](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#managing-the-vnet-integrations). <br>
+	A: This could happen because the IP address you are trying to connect to is not included on the "IP ADDRESSES ROUTED TO VNET" section of the Networking blade of the App Service Plan. For more info see [Managing the VNet Integrations](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#managing-the-vnet-integrations). <br>
 
-* Q: Why does tcpping result on “Connection attempt failed: A non-recoverable error occurred during a database lookup”? <br>
+* Q: Why does tcpping result on "Connection attempt failed: A non-recoverable error occurred during a database lookup"? <br>
 
 	A: This could happen because of one of the two reasons below: <br>
    
@@ -47,11 +48,11 @@ The [New VNet Integration](https://blogs.msdn.microsoft.com/appserviceteam/2018/
 	* 172.16.0.0 – 172.31.255.255
 	* 192.168.0.0 – 192.168.255.255 <br> 
 
-* IKEV2 is selected as the “Tunnel type” of the  “Point-to-site configuration” section of your Virtual Network Gateway. Change it to SSTP (SSL). For more info see: [Set up a gateway in your VNet](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#set-up-a-gateway-in-your-vnet). <br> 
+* IKEV2 is selected as the "Tunnel type" of the "Point-to-site configuration" section of your Virtual Network Gateway. Change it to SSTP (SSL). For more info see: [Set up a gateway in your VNet](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#set-up-a-gateway-in-your-vnet). <br> 
 
-* Q: Getting “Certificate sync has failed: Legacy Cmak generation is not supported for gateway id…when IKEV2 or External Radius based authentication is configured” <br> 
+* Q: Getting "Certificate sync has failed: Legacy Cmak generation is not supported for gateway id…when IKEV2 or External Radius based authentication is configured" error.<br> 
 	
-	A: In your Virtual Network Gateway change the “Tunnel type” from IKEV2 to SSTP (SSL) in the “Point-to-site configuration” section.
+	A: In your Virtual Network Gateway change the "Tunnel type" from IKEV2 to SSTP (SSL) in the "Point-to-site configuration" section.
 
 ## **Recommended Documents**
 

@@ -10,8 +10,9 @@
     supportTopicIds="32637610"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="50880251-6362-494a-aff3-fd516d531019"    
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting public IP allocation 

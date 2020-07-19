@@ -9,8 +9,9 @@
     supportTopicIds=""
     resourceTags="directory_ad_connect,directory_overview"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="de1b995a-6d58-444a-a2f1-9ec874dd2d75"
+	ownershipId="AzureIdentity_User"
 />
 
 # Synchronization Service is started but there is no synchronization activity

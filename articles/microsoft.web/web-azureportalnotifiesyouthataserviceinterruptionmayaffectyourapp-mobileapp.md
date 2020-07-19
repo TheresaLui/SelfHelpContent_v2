@@ -9,8 +9,9 @@
 	supportTopicIds="32440109"
 	resourceTags="mobileapp"
 	productPesIds="15046"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="ebd08447-7531-419f-a532-e569cedd383d"
+	ownershipId="Compute_AppService"
 />
 
 # performance, errors, and other application issues/azure portal notifies you that a service interruption may affect your app

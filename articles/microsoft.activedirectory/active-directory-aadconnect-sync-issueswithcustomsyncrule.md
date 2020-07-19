@@ -10,8 +10,9 @@
     supportTopicIds="32629774"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="8b608391-742e-4627-b9da-772a75bb078c"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Syncing and custom rules

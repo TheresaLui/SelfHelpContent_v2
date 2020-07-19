@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="56089005-f16c-4b41-ba0d-2eb3549292d2_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"/>
+    cloudEnvironments="Public, usnat, ussec"	ownershipId="CGA_DataPlatform"
+/>
 # Enforce 'Allowed virtual machine SKUs' using Azure Policy
 ---
 {

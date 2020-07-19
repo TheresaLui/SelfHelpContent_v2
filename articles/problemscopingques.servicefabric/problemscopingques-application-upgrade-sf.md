@@ -4,11 +4,12 @@
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32608939"
+	supportTopicIds="32691000"
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-application-upgrade-sf"
+	ownershipId="Compute_ServiceFabric"
 />
 # Application Upgrade
 ---

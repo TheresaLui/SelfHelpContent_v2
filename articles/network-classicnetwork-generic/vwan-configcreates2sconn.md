@@ -9,8 +9,9 @@
 	supportTopicIds="32609810"
 	resourceTags=""
 	productPesIds="16572"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="8f2a2e36-88ed-4f12-9241-58090ce5b2b0"
+	ownershipId="CloudNet_VirtualWAN"
 />
 
 # Create a Site-to-Site connection

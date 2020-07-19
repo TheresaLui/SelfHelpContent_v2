@@ -10,8 +10,9 @@
     supportTopicIds="32536676"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="12a53f77-aad2-415a-9571-d504f4a2337c"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # systemupdateassessment-setup

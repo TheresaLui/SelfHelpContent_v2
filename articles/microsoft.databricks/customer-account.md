@@ -10,8 +10,9 @@
 	supportTopicIds="32612189"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="9b4e2cc2-29d7-4e15-bf00-1bb43fd3e0e6"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Azure Databricks Account Management

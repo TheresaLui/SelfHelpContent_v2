@@ -11,9 +11,10 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="75fb55a8-7c9a-4b8b-b5a1-75e24049eb02"
-    />
+    	ownershipId="AzureIdentity_MultiFactorAuthentication"
+/>
 
 # Risk Investigation (Alerts, Risks, and Reporting)
 

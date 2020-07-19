@@ -10,8 +10,9 @@
 	supportTopicIds="32605567,32691090"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="d7a99bd7-9456-4186-aae4-a4e6b85c0bf0"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Change to ZRS replication type

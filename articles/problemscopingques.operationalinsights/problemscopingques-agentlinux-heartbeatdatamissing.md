@@ -3,13 +3,14 @@
 pageTitle="Agent not reporting data or Heartbeat data missing"
 description="Agent not reporting data or Heartbeat data missing"
 articleId="problemscopingques-Linux_Heartbeat data missing"
-authors="yossiy"
-ms.author="yossiy"
+authors="yossiy, neilghuman"
+ms.author="yossiy, neghuman"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612462"
 productPesIds="15725"
-cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
+cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 schemaVersion="1"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Agent not reporting data or Heartbeat data missing
@@ -17,7 +18,7 @@ schemaVersion="1"
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "",
     "formElements": [
@@ -52,7 +53,7 @@ schemaVersion="1"
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "is_it_azure_vm",
@@ -130,9 +131,35 @@ schemaVersion="1"
             "watermarkText": "Enter the agent and OMI versions",
             "required": false
         },
+                {
+            "id": "data_is_missing",
+            "order": 8,
+            "controlType": "dropdown",
+            "displayLabel": "What data is missing??",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "All data, including heartbeat",
+                    "text": "All data, including heartbeat"
+                },
+                {
+                    "value": "Only heartbeat data",
+                    "text": "Only heartbeat data"
+                },
+                {
+                    "value": "Just some data type(s)",
+                    "text": "Just some data type(s)"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 9,
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",

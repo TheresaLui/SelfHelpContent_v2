@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="66d3137a-c4da-4c8a-b6b8-e03f5dfba66e_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="Compute_AppService"
 />
 # Consider scaling up your App Service Plan SKU to avoid memory exhaustion
 ---

@@ -10,8 +10,9 @@
     supportTopicIds="32640125"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="803dfa11-bd6e-479b-9554-8a7e934ea898"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Troubleshooting high latency with 'Select 1' in Azure Database for MariaDB

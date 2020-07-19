@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636941"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="eh-high-send-latency"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Performance issues due to high send latency
 ---
@@ -54,7 +55,7 @@ schemaVersion="1"
             "id": "problem_locationofcode",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Are you running the code from Azure or On-premise or external cloud provider?",
+            "displayLabel": "Are you running the code from Azure or On-premise or external cloud provider? If Azure, please specify the Azure service name and specific resource name.",
             "required": true
         },
         {

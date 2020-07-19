@@ -10,8 +10,9 @@
 	supportTopicIds="32690984"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="servicefabric-clusterneedhelpwithconfigurationchange"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Need help with cluster configuration change

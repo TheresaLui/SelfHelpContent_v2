@@ -13,7 +13,8 @@
 	supportTopicIds="32629628"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # I am having issues with Action groups ARM templates

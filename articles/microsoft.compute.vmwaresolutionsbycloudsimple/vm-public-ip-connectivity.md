@@ -10,8 +10,9 @@
     supportTopicIds="32637556"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="af441601-6699-4716-ad0a-5ecf470e35d4"    
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting public ip address network connectivity 

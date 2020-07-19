@@ -10,13 +10,16 @@
 	articleId="partnercenter_mpn_update_tax_ID"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635702"
+	supportTopicIds="32725825"
 	clientIds='partnercenter'
 	resourceTags="mpn"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Update tax ID/VAT ID
+
+Due to unforeseen issues we will not be able to offer credit card payment option for Japan, South Korea and Taiwan until further notice. You will notice that you can still make your purchase seamlessly via Wire Transfer. Please contact your financial institution for more information on how to execute a wire transfer.
 
 ## **Recommended Documents**
 

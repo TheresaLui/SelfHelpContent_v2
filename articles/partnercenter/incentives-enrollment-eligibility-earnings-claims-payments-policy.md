@@ -14,14 +14,14 @@
 	clientIds='partnercenter'
 	resourceTags="PartnerCenter_Incentives"
 	productPesIds="17005"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Incentives"
 />
 
 # Partner Center Incentives: Enrollment, eligibility, earnings, claims, payments, and policy
 
 ## **Recommended Documents**
 These resources explain enrollment, eligibility, earnings, claims, payments, and policy for incentives programs in Partner Center.
-
 
 ### **Getting Started with Incentives in Partner Center**
 * [How to check your Incentive roles in Partner Center](https://support.microsoft.com/help/4534700)
@@ -33,17 +33,11 @@ These resources explain enrollment, eligibility, earnings, claims, payments, and
 * [How to enroll in Incentives programs in Partner Center](https://support.microsoft.com/help/4490451/)
 * [I'm unable to find the Incentives program in Partner Center](https://support.microsoft.com/help/4526987)
 * [Managing bank and tax profiles in Partner Center](https://support.microsoft.com/help/4524534)
-* [Partner eligibility Requirements in Cloud Solutions Provider (CSP) Program](https://support.microsoft.com/help/3192802/incentive-eligibility-requirements-in-csp-program)
-* [How to become eligible for Microsoft Azure Incentives Program](https://support.microsoft.com/help/3073460/can-i-join-the-microsoft-azure-incentives-program)
-
-
-### **Customer Association**
-* [OSA Claims FAQ](https://support.microsoft.com/help/4491739/frequently-asked-question-on-osa-claim)
 
 
 ### **Earnings**
 * [Incorrect or missing Earnings](https://support.microsoft.com/help/4534675)
-* [Understanding transaction and payment status'](https://support.microsoft.com/help/4534675)
+* [Understanding transaction and payment statuses](https://support.microsoft.com/help/4534675)
 * [Opening CSV transaction files in in Excel internationally](https://support.office.com/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba)
 * [Modifying regional settings to improve CSV delimiting accuracy in Excel](https://support.office.com/article/Change-the-Windows-regional-settings-to-modify-the-appearance-of-some-data-types-EDF41006-F6E2-4360-BC1B-30E9E8A54989)
 
@@ -53,11 +47,10 @@ These resources explain enrollment, eligibility, earnings, claims, payments, and
 * [Understanding earnings/payments discrepancies](https://support.microsoft.com/help/4534675)
 * [Checking the status of a claim](https://support.microsoft.com/help/4524526)
 * [Understanding claim submission deadlines](https://support.microsoft.com/help/2969974/)
-* [OSA Claims FAQ](https://support.microsoft.com/help/4491739/frequently-asked-question-on-osa-claim)
 
 
 ### **Payments**
 * [Reconciling earnings and payments](https://support.microsoft.com/help/4528724)
-* [Understanding payment status'](https://docs.microsoft.com/partner-center/understand-incentive-payouts#payment-status)
+* [Understanding payment statuses](https://docs.microsoft.com/partner-center/understand-incentive-payouts#payment-status)
 * [Opening CSV transaction files in in Excel internationally](https://support.office.com/article/Import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba)
 * [Modifying regional settings to improve CSV delimiting accuracy in Excel](https://support.office.com/article/Change-the-Windows-regional-settings-to-modify-the-appearance-of-some-data-types-EDF41006-F6E2-4360-BC1B-30E9E8A54989)

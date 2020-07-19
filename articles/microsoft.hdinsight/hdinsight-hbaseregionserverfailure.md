@@ -9,8 +9,9 @@
     supportTopicIds="32511184"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
 	articleId="5815b294-cb5e-4d93-9733-d839e1fc04f0"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Restart operation on HBase Region Server fails to complete

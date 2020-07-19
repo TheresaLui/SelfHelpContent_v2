@@ -10,8 +10,9 @@
     supportTopicIds="32691177"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-billing-questions-about-data-usage"
+	ownershipId="Azure_Sentinel"
 />
 
 # Understand more about data use

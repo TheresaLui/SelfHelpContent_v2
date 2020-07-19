@@ -10,8 +10,9 @@
     supportTopicIds="32691179"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-displaying-data-questions-about-workbook-customization"
+	ownershipId="Azure_Sentinel"
 />
 
 # How can you customize workbooks

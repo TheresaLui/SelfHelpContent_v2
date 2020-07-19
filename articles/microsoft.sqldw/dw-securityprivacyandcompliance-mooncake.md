@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-securityprivacyandcompliance-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Security, Privacy and Compliance
 

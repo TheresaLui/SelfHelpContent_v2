@@ -9,8 +9,9 @@
     supportTopicIds=""
     resourceTags="users-assignrole,userandgroups_overview,userandgroups_user"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="c413431f-16ff-477b-8fe0-aeac99229c06"
+	ownershipId="AzureIdentity_User"
 />
 
 # I want to assign an administrator role to a user

@@ -7,9 +7,10 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32581617"
 	productPesIds="16170"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="bf000ecb-9268-4834-bb7f-6eced0867de3"
+	ownershipId="Compute_AppService"
 />
 # Metrics are not available or are incorrect
 ---

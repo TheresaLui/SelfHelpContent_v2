@@ -5,11 +5,12 @@
   ms.author="chiragpa"
   selfhelptype="SupportTopicDescription"
   productpesids="a730ab7a-33ae-c83a-bca5-4935433e38ff"
-  cloudenvironments="public, blackforest, fairfax, mooncake"
+  cloudEnvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
   articleid="service-fabric-supporttopicdescription"
   icmteam="icmteam"
   icmservice="icmservice"
-  feedbackemail="email" />
+  feedbackemail="email" 	ownershipId="Compute_AzurePolicy"
+/>
 # Support Topic Descriptions for a730ab7a-33ae-c83a-bca5-4935433e38ff
 ---
 {

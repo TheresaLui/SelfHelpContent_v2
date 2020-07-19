@@ -10,8 +10,9 @@
     supportTopicIds="32677624"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="cc0056ba-f4ef-4e7f-8a89-07c470eaa6b3"
+	ownershipId="Compute_LogicApps"
 />
 
 # Receiving or Transmitting data through a specific Connector - Custom Connector

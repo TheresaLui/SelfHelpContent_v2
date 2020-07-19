@@ -8,8 +8,9 @@
   selfHelpType="generic"
   supportTopicIds="32570259"
   productPesIds="16575"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
   articleId="b158b5f2-616c-4aaa-9f72-e3d76845665f"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
  
 # Issues adding or configuring applications in Azure Active Directory

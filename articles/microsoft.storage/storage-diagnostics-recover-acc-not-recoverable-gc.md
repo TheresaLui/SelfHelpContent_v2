@@ -12,7 +12,8 @@ diagnosticScenario="Deleted storage account(s) are not recoverable"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public, blackForest, fairfax, mooncake"
+cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Unable to recover storage account(s) because deleted account was already garbage collected

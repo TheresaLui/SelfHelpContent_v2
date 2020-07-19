@@ -10,8 +10,9 @@
 	supportTopicIds="32727978"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	articleId="protectopencontent_powershell"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection Protection - Protecting and Opening Content - Using Powershell to apply classification or protection

@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Stack DNS resolution for User environment"
-    description="Resolve issues with Azure Stack DNS resolution"
+    pageTitle="Azure Stack Hub DNS resolution for User environment"
+    description="Resolve issues with Azure Stack Hub DNS resolution"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -10,13 +10,14 @@
     supportTopicIds="32629210"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-network-dnsresolution"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Resolve issues with Azure Stack VM DNS resolution
+# Resolve issues with Azure Stack Hub VM DNS resolution
 
-By default, tenant VMs deployed in Azure Stack will have name resolution for other VMs within the same Virtual Network (VNet), as well as external addresses on the internet.
+By default, tenant VMs deployed in Azure Stack Hub will have name resolution for other VMs within the same Virtual Network (VNet), as well as external addresses on the internet.
 
 When resources deployed in virtual networks need to resolve domain names to internal IP addresses, they can use one of two methods:
 
@@ -31,13 +32,11 @@ When resources deployed in virtual networks need to resolve domain names to inte
 
 ## **Recommended Steps**
 
-* Become familiar with the differences in Azure Stack in [comparison with Azure DNS](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-dns#comparison-with-azure-dns)
-* Use [DNS hostname resolution](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-dns#support-for-dns-hostname-resolution) and [create and manage DNS zones and records using the API](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-dns#create-and-manage-dns-zones-and-records-using-the-api)
-* Use [iDNS for Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-understanding-dns) to resolve internet DNS names and other VMs in the same virtual network
+* Become familiar with the differences in Azure Stack Hub in [comparison with Azure DNS](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-dns#comparison-with-azure-dns)
+* Use [DNS hostname resolution](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-dns#support-for-dns-hostname-resolution) and [create and manage DNS zones and records using the API](https://docs.microsoft.com/azure-stack/user/azure-stack-dns#create-and-manage-dns-zones-and-records-using-the-apis)
+* Use [iDNS for Azure Stack Hub](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-understanding-dns) to resolve internet DNS names and other VMs in the same virtual network
 
 ## **Recommended Documents**
 
 * [Name resolution for resources in Azure virtual networks](https://docs.microsoft.com/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances)
-* [Using DNS in Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-dns)
-* [Introducing iDNS for Azure Stack](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-understanding-dns)
-* [Azure Stack Networking Considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
+* [Azure Stack Hub Networking Considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)

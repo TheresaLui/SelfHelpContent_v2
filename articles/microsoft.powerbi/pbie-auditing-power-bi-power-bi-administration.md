@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628066"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="34d87411-be3d-5b36-ed94-798b70cc8349"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Use auditing within your organization

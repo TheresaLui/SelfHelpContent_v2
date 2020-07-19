@@ -10,8 +10,9 @@
 	supportTopicIds="32628289"
 	resourceTags=""
 	productPesIds="14749,14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="26d21b85-4966-4e96-b29e-0866f17f2bf6"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshoot Windows Update issues

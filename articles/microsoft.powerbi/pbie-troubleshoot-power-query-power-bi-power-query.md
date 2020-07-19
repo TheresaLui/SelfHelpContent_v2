@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628160"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="09f80bd1-c1ee-2aa2-d24d-865dc7df064a"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Troubleshoot Power Query

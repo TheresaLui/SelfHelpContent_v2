@@ -9,8 +9,9 @@
     supportTopicIds="32689836"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="b9784bb2-c784-4610-8ced-da931373e289"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # I have a problem or question related to Cluster Creation

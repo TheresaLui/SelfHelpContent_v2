@@ -10,8 +10,9 @@
     supportTopicIds="32602122"
     resourceTags=""
     productPesIds="15480"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="e4f8d975-04f9-468a-8333-358d0b2160e0"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # Configuration and Setup/Setup NPM for ExpressRoute

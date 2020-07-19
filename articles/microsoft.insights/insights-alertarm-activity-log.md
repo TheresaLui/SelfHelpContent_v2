@@ -13,7 +13,8 @@
 	supportTopicIds="32629629"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # I am having problems with Activity Log Alerts API/CLI

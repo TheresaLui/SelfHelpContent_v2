@@ -10,8 +10,9 @@
 	supportTopicIds="32375287"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="cb727e8d-89ea-4d5e-ba1f-d1679f0ecb35"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # How to configure an application for multi-region redundant operation

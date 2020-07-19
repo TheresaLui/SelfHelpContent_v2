@@ -11,8 +11,9 @@
 	supportTopicIds="32639187,32639194"
 	resourceTags=""
 	productPesIds="16505"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
     articleId="32639187"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Can't schedule a pick-up

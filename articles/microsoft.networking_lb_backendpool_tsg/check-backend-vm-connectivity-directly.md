@@ -10,8 +10,9 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c397f4ae-2986-432c-800a-1aac421db1d4"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check backend VM connectivity directly

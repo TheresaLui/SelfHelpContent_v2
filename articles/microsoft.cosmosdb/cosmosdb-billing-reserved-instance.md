@@ -9,10 +9,11 @@
 	supportTopicIds="32692544"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-billing-reserved-instance"
 	displayOrder="101"
 	category="Billing and Pricing"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 

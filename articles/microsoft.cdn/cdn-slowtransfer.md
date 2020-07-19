@@ -10,8 +10,9 @@
 	supportTopicIds="32302797"
 	resourceTags=""
 	productPesIds="16975"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="f87cd7c7-1abc-4e44-a543-74196271a24a"
+	ownershipId="CloudNet_ContentDeliveryNetwork"
 />
 
 # availability and performance/slow transfer

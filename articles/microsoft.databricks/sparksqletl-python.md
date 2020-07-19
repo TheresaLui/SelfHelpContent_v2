@@ -10,8 +10,9 @@
 	supportTopicIds="32677724"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="1f3f892a-e17f-4431-9ff2-25cd86d68240"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Python

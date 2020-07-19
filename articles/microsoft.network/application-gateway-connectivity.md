@@ -9,8 +9,9 @@
     supportTopicIds="32684008"
     resourceTags=""
     productPesIds="15922"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="ce34067e-61ad-41ca-88b3-8134937b70df"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Application Gateway - Connectivity

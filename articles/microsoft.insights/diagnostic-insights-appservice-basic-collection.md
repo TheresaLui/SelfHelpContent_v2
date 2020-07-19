@@ -10,11 +10,12 @@
     diagnosticScenario="ApplicationInsightsDefaultModeEnablementDiagnostic"
     displayOrder=""
     selfHelpType="diagnostics"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     resourceTags=""
     productPesIds="15693" 
     supportTopicIds="32602209"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
  
 # How do I enable Application Insights for an App Service in Recommended Collection level?
 ## **Basic level collection in Azure App Service**
