@@ -12,13 +12,16 @@
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax"
 	articleId="configpolicy_creatinglabels"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection - Creating and configuring Labels and Policies - Creating Labels"
 
 ## **Recommended Steps**
 
-Review the documentation below for information how to create labels
+1. If you migrated to UL and using SCC to manage your policies, raise a support ticket to Security and Compliance Center team: [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
+
+2. If you require assistance with creating labels on AIP portal, review [Create a new Azure Information Protection label for specific users](https://docs.microsoft.com/azure/information-protection/quickstart-label-specificusers) and [How to create a new label for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-new-label)
 
 ### Export Azure Information Protection logs
 

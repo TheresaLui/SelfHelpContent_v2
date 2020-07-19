@@ -12,6 +12,7 @@
 	productPesIds="14997"
 	cloudEnvironments="public"
 	articleId="0d30f2ba-7532-4734-8b03-3cc06c602ce9"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - installation issues
@@ -32,7 +33,7 @@
 ### Export Azure Information Protection logs
 
 1. Open an Office document or create a new email in Outlook
-2. Select the **Protect** button -> **Help and feedback**
+2. Select the **Protect/Sensitivity** button -> **Help and feedback**
 3. Select **Export Logs**
 4. Save the logs to your choice of location, and attach them to this service request
 
