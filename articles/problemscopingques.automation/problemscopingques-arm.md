@@ -69,8 +69,31 @@
         {
             "id": "deployment_tool",
             "order": 50,
-            "controlType": "textbox",
-            "displayLabel": "Please provide what tool was used to assign the blueprint (PowerShell, Azure CLI, Portal, REST API, Other)",
+            "controlType": "dropdown",
+            "displayLabel": "Please provide what tool was used to assign the blueprint (PowerShell, CLI, Portal, REST API, Other)",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "PowerShell",
+                    "text": "PowerShell"
+                },
+                {
+                    "value": "CLI",
+                    "text": "CLI"
+                },
+                {
+                    "value": "Portal",
+                    "text": "Portal
+                },
+                {
+                    "value": "REST API",
+                    "text": "REST API"
+                },
+                {
+                    "value": "Other",
+                    "text": "Other"
+                }
+            ]
             "required": false
         },
         {
