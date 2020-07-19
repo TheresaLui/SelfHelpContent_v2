@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-1. If you migrated to UL and using SCC to manage your policies, raise a support ticket to Security and Compliance Center team: [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
+1. If you migrated to UL and using SCC to manage your policies, raise a support ticket to Security and Compliance Center team to troubleshoot the policy configuration issues: [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
 
 2. If you are having issues with visual markings, please review [When visual markings are applied](https://docs.microsoft.com/azure/information-protection/configure-policy-markings#when-visual-markings-are-applied)<br>
 
@@ -29,7 +29,7 @@
 
 5. Check if you are using scoped policies which aren't configured properly: [How to configure the Azure Information Protection policy for specific users by using scoped policies](https://docs.microsoft.com/azure/information-protection/configure-policy-scope)
 
-6. If automatic labeling isn't working for Outlook when attaching a labeled document, verify that DRMEncryptProperty isn't defined as described here: [IRM registry settings for security](https://docs.microsoft.com/deployoffice/security/protect-sensitive-messages-and-documents-by-using-irm-in-office#office-2016-irm-registry-key-options)
+6. If automatic labeling isn't working for Outlook when attaching a labeled document or Label information doesn't appear properly on files using PowerShell or other applications, verify that DRMEncryptProperty isn't defined as described here: [IRM registry settings for security](https://docs.microsoft.com/deployoffice/security/protect-sensitive-messages-and-documents-by-using-irm-in-office#office-2016-irm-registry-key-options)
 
 7. If you still experiencing issues, please collect Azure Information Protection client logs and attach the exported logs to this ticket.
 
