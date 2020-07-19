@@ -9,7 +9,7 @@
 	cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="problemscopingques-arm.md"
 	schemaVersion="1"
-	ownershipId="Compute_ARM"
+	ownershipId="Compute_Automation"
 />
 # Problems with ARM Templates
 ---
