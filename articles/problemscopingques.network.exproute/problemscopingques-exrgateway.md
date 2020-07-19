@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32627977"
     productPesIds="15480"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="b4b6273d-8527-4f2d-8526-36a830ea0098"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 # Azure ExpressRoute Gateway questions
 ---

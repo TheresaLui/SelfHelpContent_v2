@@ -10,8 +10,9 @@
     supportTopicIds="32614255"
     resourceTags=""
     productPesIds="16611"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="d5772567-8d86-4519-9c31-f3070c4bbccf"
+	ownershipId="CloudNet_AzureFrontdoor"
 />
 
 # Priority Based Load Balancing

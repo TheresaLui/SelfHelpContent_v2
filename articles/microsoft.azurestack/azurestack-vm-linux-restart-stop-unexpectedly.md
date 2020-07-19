@@ -10,17 +10,23 @@
     supportTopicIds="32663919"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="6f641910-1004-4135-b8d1-85ab25fa1503"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Linux VM restarted or stopped unexpectedly
 
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
+## **Recommended Steps**
+
+1. [View VM reboot logs to identify the cause of reboot](https://azure.microsoft.com/blog/viewing-vm-reboot-logs)
+1. [Diagnose & recover from boot failures after a restart](https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2/)
+
 ## **Recommended Documents**
 
 - [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview) 
-- [How to view VM reboot logs to identify the cause of reboot](https://azure.microsoft.com/blog/viewing-vm-reboot-logs)
-- [Diagnose & recover from boot failures after a restart](https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2/)
 - [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/linux/manage-availability)
 - [Configure availability sets for virtual machines with Azure CLI](https://docs.microsoft.com/azure/virtual-machines/linux/tutorial-availability-sets)
 - [Understand planned maintenance for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-and-updates)

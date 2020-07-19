@@ -10,8 +10,9 @@
 	supportTopicIds="32599495"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="986c8067-48e4-487b-ae3f-a6315cf6a0f5"
+	ownershipId="ASMS_Billing"
 />
 
 # Download consumption data by using Billing API

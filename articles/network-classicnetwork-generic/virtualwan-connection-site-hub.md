@@ -10,8 +10,9 @@
     supportTopicIds="32640646"
     resourceTags=""
     productPesIds="16572"
-    cloudEnvironments="public,mooncake,fairfax"
+    cloudEnvironments="public,mooncake,fairfax, usnat, ussec"
 	articleId="virtualwan-connection-site-hub"
+	ownershipId="CloudNet_VirtualWAN"
 />
 
 # Create or associate connections from site to hub

@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633406"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="sb-unexpected-delete-issues"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Queue, Topic or Subscription deleted unexpectedly
 ---

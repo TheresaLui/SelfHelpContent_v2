@@ -7,8 +7,9 @@
     supportTopicIds="32632071,32632083, 32632105, 32632108, 32632120"
     productPesIds="14885"
     articleId="problemscopingques-liveevent-errors"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
+	ownershipId="StorageMediaEdge_Media"
 />
 # Media Services Live Event or Channel connectivity or encoding errors
 ---

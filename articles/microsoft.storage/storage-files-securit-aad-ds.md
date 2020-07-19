@@ -3,25 +3,29 @@
 	description="Azure AAD DS authentication over SMB"
 	service="microsoft.storage"
 	resource="storageaccounts"
-	authors="passaree"
-	ms.author="passap"
+	authors="kartikshah9"
+	ms.author="kashah"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32689882"
+	supportTopicIds="32629551"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="9142F58A-99B0-4C8D-88A8-09F0805308E1"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
-# Azure AAD DS authentication over SMB
+# Azure Active Directory (AD DS) authentication over SMB
 
-Most users are able to resolve their Azure AAD DS authentication over SMB issue using the steps below.
+## **Recommended Documents**
 
-## **Recommended Steps**    
-Ensure that the following steps are completed to enable AAD DS Authentication feature on your storage account:
-1. Have you ran through the [prerequisites to enable Azure AD DS authentication over SMB](https://docs.microsoft.com/azure/storage/files/storage-files-active-directory-enable#prerequisites)?
-2. Is the virtual machine you used to mount Azure Files using AAD credentials domain joined to AAD DS? 
-3. Have you [granted share level permissin](https://docs.microsoft.com/azure/storage/files/storage-files-active-directory-enable#assign-access-permissions-to-an-identity) to the target user through RBAC?
-4.	Have you [granted file/directory level permissions (NTFS ACLs)](https://docs.microsoft.com/azure/storage/files/storage-files-active-directory-enable#configure-ntfs-permissions-over-smb) to the target user through file explorers or icacls? 
+Most users are able to resolve their AAD DS authentication over SMB issue using the steps below 
 
+### **Prerequisites for enabling Azure AD DS Authentication** 
+- [Review Prerequisites](https://docs.microsoft.com/azure/storage/files/storage-files-identity-auth-active-directory-domain-service-enable#prerequisites/)<br>
+
+### **Step by Step instructions for enabling Azure AD DS Authentication for Azure Files**
+- [Step by Step Instructions](https://docs.microsoft.com/azure/storage/files/storage-files-identity-auth-active-directory-domain-service-enable#overview-of-the-workflow/)<br>
+
+### **Azure Files FAQ for Security**
+- [Azure Files FAQ for Security](https://docs.microsoft.com/azure/storage/files/storage-files-faq#security-authentication-and-access-control/)<br>

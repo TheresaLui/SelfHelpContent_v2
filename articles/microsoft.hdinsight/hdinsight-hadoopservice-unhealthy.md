@@ -10,8 +10,9 @@
     supportTopicIds="32636448"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="328b4e89-006b-481e-b12e-f700ca1938d7"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight: Services hosted on the Cluster are Failing to start
  

@@ -10,8 +10,9 @@
 	supportTopicIds="32630530,32630537,32630562"
 	resourceTags=""
 	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="c011fffa-d2cf-47bb-b2df-1e2850fb7044"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Unable to create an IoT hub using ARM Templates, CLI, REST or Service SDK

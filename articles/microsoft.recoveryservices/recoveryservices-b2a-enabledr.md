@@ -9,8 +9,9 @@
 	supportTopicIds="32536401"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="a82911a0-1297-4460-85c1-156ecbb41914"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Replication does not progress in H2A scenario

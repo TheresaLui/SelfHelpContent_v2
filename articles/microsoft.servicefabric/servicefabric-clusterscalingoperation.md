@@ -10,8 +10,9 @@
 	supportTopicIds="32690996"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="fa5e87fb-f80e-437b-b7f4-e4d13b835934"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Cluster Scaling

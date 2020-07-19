@@ -9,8 +9,9 @@
 	supportTopicIds="32599643"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="b6697a24-7b1c-4a64-bd23-b4dd70e58f54"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Apps - iOS app configuration profiles

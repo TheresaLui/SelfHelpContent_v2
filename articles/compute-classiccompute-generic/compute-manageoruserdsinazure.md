@@ -9,8 +9,9 @@
 	supportTopicIds="32411819"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="e58f5faa-a4c8-41d0-a0c3-d7dc1c6abf7a"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # management/manage or use rds in azure

@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="8000Series"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="ad191107-0163-4838-b754-201e1769d23b"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # I can't delete the StorSimple Device Manager or StorSimple device from Azure portal.

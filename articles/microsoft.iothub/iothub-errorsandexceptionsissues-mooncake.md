@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="iothub-errorsandexceptionsissues-mooncake"
+	ownershipId="AzureIot_IotHub"
 />
 
 # How to get more details on IoT Hub errors

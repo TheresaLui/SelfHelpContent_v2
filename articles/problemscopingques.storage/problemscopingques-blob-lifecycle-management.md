@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32683730,32691063"
 	productPesIds="16459,16598"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="StorageScoping_Blob_Lifecycle_Management"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Blob Lifecycle Management
 ---

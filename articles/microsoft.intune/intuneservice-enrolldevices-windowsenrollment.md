@@ -10,8 +10,9 @@
 	supportTopicIds="32599687"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="86945c81-28a8-43c9-b32a-9ba1bb4360e6"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Diagnose and resolve issues experienced when attempting to enroll devices via Windows Enrollment

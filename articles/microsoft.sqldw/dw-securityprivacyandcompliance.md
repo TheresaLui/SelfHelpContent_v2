@@ -11,7 +11,8 @@
     selfHelpType="resource"
     resourceTags="datawarehouse"
     articleId="dw-securityprivacyandcompliance.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Security, Privacy and Compliance
@@ -33,12 +34,12 @@ The following details explain how to set up and update common access and permiss
 ## **Recommended Documents**
 
 * [SQL Data Warehouse Security Overview](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-overview-manage-security/)
-* [Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing?WT.mc_id=pid:13491:sid:32630407/)
-* [Transparent Data Encryption (TDE)](https://docs.microsoft.com/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-2017&viewFallbackFrom=sql-server-2017%2F?WT.mc_id=pid:13491:sid:32630405/)
-* [TDE with Bring Your Own Key](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-byok-azure-sql?view=sql-server-2017?WT.mc_id=pid:13491:sid:32630405/)
-* [Configure Azure AD authentication](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?WT.mc_id=pid:13491:sid:32630410/)
-* [Configure multi-factor authentication for Azure AD](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication-configure?WT.mc_id=pid:13491:sid:32630410/)
-* [Threat detection overview](https://docs.microsoft.com/azure/sql-database/sql-database-threat-detection?WT.mc_id=pid:13491:sid:32630457/)
-* [Vulnerability assessment](https://docs.microsoft.com/azure/sql-database/sql-vulnerability-assessment?WT.mc_id=pid:13491:sid:32630461/)
+* [Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing)
+* [Transparent Data Encryption (TDE)](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-azure-sql?tabs=azure-portal)
+* [TDE with Bring Your Own Key](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-byok-azure-sql)
+* [Configure Azure AD authentication](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?tabs=azure-powershell)
+* [Configure multi-factor authentication for Azure AD](https://docs.microsoft.com/azure/sql-database/sql-database-ssms-mfa-authentication-configure)
+* [Threat detection overview](https://docs.microsoft.com/azure/sql-database/sql-database-threat-detection)
+* [Vulnerability assessment](https://docs.microsoft.com/azure/sql-database/sql-vulnerability-assessment)
 * [Advanced Threat Protection Alerts](https://docs.microsoft.com/azure/sql-database/sql-database-threat-detection-overview#advanced-threat-protection-alerts)
 * [Troubleshooting connectivity issues](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-troubleshoot-connectivity)

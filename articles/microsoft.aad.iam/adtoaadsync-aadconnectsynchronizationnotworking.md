@@ -5,10 +5,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32565591"
     productPesIds="14785,16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="1081c592-989c-4a7f-bf06-7438278335e7"
-    />
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
+/>
 
 # AAD Connect synchronization not working
 

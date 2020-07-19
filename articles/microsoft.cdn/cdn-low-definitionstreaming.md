@@ -10,8 +10,9 @@
 	supportTopicIds="32302792"
 	resourceTags=""
 	productPesIds="16975"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="c8f953a7-66b6-4c69-8a4d-eb580fb22890"
+	ownershipId="CloudNet_ContentDeliveryNetwork"
 />
 
 # availability and performance/low-definition streaming

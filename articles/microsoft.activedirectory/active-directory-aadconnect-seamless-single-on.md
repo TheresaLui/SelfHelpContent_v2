@@ -10,8 +10,9 @@
   supportTopicIds="32596867,32629770"
   resourceTags="aadconnect,aadconnect_seamless_single_sign_on,managed_authentication"
   productPesIds="16579,16666"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
   articleId="c300cc33-1cc1-4136-a957-b36423c13730"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Problems configuring and signing in with Azure AD Seamless Single Sign-on

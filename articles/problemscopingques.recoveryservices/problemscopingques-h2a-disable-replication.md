@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32592051"
          productPesIds="16370"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
 	     articleId="442121ed-583f-4be5-bcc9-5bb3a8088002"
+	ownershipId="Compute_SiteRecovery"
 />
 # Fail to disable replication for Hyper-V VM
 ---

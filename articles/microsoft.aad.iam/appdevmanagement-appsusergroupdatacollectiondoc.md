@@ -4,9 +4,10 @@
 	 selfHelpType="problemScopingQuestions" 
 	 supportTopicIds="32570977" 
 	 productPesIds="14785,16578" 
-	 cloudEnvironments="public" 
+	 cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec" 
 	 schemaVersion="1"
     articleId="8c3526fd-c247-4c2e-937e-c925ba5b797d"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 /> 
 # Active Directory application user group issue 
 ---

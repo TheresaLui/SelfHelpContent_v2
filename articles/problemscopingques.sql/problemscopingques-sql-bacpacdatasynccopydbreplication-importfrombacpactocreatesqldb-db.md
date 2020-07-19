@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630430"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-sql-bacpacdatasynccopydbreplication-importfrombacpactocreatesqldb-db"
+	ownershipId="AzureData_AzureSQLDB_ImportExport"
 />
 # Import from BACPAC to create SQL DB
 ---

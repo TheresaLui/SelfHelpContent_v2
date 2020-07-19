@@ -9,8 +9,9 @@
     supportTopicIds="32632428"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="5098b113-a3ea-45e1-a94c-91ddc3aa5855"
+	ownershipId="Compute_APIManagement"
 />
 
 # Quota and Rate Limit policies

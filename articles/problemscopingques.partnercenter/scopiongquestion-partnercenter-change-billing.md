@@ -4,12 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635655"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32725883,32692595"
+	productPesIds="17012,17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_change_billing"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Partner Center Change Billing
 ---

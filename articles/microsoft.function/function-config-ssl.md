@@ -10,8 +10,9 @@
 	supportTopicIds="32630470"
 	resourceTags=""
 	productPesIds="16072"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="9bc90049-f983-4d90-8969-aab9d214cbaa"
+	ownershipId="Compute_AppService"
 />
 
 # Configuring Function Apps/SSL

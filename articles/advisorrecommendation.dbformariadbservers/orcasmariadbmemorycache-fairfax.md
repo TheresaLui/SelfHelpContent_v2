@@ -6,6 +6,7 @@
     articleId="a092afdb-6f20-4b42-8d8f-423ac8d71a3f_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Move your MariaDB server to Memory Optimzed SKU
 ---
@@ -15,8 +16,10 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "a092afdb-6f20-4b42-8d8f-423ac8d71a3f",
   "dataSourceMetadata": {
+    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetMariaDBMemoryRecommendations",
     "schemaVersion": 2.0,
-    "dataSource": "SAS"
+    "dataSource": "Kusto",
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",

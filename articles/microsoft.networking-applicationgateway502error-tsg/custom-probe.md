@@ -10,8 +10,9 @@
         supportTopicIds=""
         resourceTags=""
         productPesIds=""
-        cloudEnvironments="public"
+        cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="82af8570-2d65-4710-847a-7de2e1617468"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # How to check if there is a custom probe configured

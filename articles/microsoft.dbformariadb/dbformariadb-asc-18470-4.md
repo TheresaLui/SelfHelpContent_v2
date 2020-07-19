@@ -13,7 +13,8 @@
 	supportTopicIds="32640117,32640118,32640120"
 	resourceTags="windows, linux"
 	productPesIds="16617"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Can't connect MariaDB database server because the server could not be found
 

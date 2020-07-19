@@ -13,7 +13,8 @@
 	supportTopicIds="32630506"
 	resourceTags="8000Series"
 	productPesIds="15438"	
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Read or write to volume/share is slow

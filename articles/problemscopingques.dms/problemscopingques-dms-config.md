@@ -8,8 +8,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32673578,32673579,32673580,32673584,32673599,32673575,32673576,32673577,32673586,32673600,32673582,32673583,32673588,32673596"
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 # Failure when running a database migration using DMS
 ---

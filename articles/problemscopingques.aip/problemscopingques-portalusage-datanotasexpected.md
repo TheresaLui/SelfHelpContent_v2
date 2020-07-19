@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
 	supportTopicIds="32727944"
     productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
     articleId="scoping_portalusage_datanotasexpected"
 	schemaVersion="1"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 # Can't apply this label
 ---

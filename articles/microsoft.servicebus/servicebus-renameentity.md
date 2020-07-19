@@ -10,8 +10,9 @@
 	supportTopicIds=""
 	resourceTags=""	
 	productPesIds="13186"
-	cloudEnvironments="public,BlackForest,Fairfax, MoonCake" 
+	cloudEnvironments="public,BlackForest,Fairfax, MoonCake, usnat, ussec" 
 	articleId="cdc14e12-4e6f-490a-93db-179b0e08a425"
+	ownershipId="AzureMessaging_Common"
 />
 
 # How can I rename a queue/topic after I create it?

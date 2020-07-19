@@ -10,8 +10,9 @@
 	supportTopicIds="32629437"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="2aae3671-bww5-0099-erd7-3623ebc13d45"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Author and Develop - ADF Portal not Loading

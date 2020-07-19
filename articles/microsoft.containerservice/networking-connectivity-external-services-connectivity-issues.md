@@ -10,8 +10,9 @@
     supportTopicIds="32683764"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="networking-connectivity-external-services-connectivity-issues"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Kubernetes Service

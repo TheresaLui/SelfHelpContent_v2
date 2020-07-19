@@ -10,8 +10,9 @@
     supportTopicIds="32635009"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="279cadce-7e06-46bf-a70a-f0268a71a9be"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Creating Run As Accounts 
@@ -39,4 +40,4 @@ In order to manage RunAs accounts, you will need permissions as listed at ["Perm
 * [Create and manage Run As account](https://docs.microsoft.com/azure/automation/automation-create-runas-account)<br>
 * [Test Run As account authentication](https://docs.microsoft.com/azure/automation/automation-verify-runas-authentication)<br>
 * [Delete a Run As account](https://docs.microsoft.com/azure/automation/automation-manage-account#delete-a-run-as-or-classic-run-as-account)<br>
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)

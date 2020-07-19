@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="activedirectory-iga-pim-userrole-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Unable to manage role in a Microsoft Online Services portal after being assigned or activated

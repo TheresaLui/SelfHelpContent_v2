@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-performanceandqueryexecution-specificerrorsorexceptions-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Specific errors or exceptions

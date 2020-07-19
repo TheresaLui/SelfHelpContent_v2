@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="6dcdcb36-ee1d-4507-ab15-093098330426_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="Compute_LogicApps"
 />
 # Repair your log alert rule
 ---

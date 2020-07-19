@@ -11,13 +11,16 @@
 	supportTopicIds="32684505"
 	productPesIds="16666"
 	articleId="5d66987d-73a4-4ac9-a1f6-11c732cc61f4"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Provisioning from Azure AD to SaaS (Including SCIM) Apps - Problem affecting a single user
 ## **Recommended Steps**
 
-* The user/group may not have been provisioned because our service hasn't had a chance to evaluate the user yet. Review the [guidance](https://docs.microsoft.com/azure/active-directory/manage-apps/application-provisioning-when-will-provisioning-finish-specific-user) for how long provisioning takes as well as the [progress bar](https://docs.microsoft.com/azure/active-directory/manage-apps/application-provisioning-when-will-provisioning-finish-specific-user) on the provisioning configuration page. If the steady state specified in the additional details section is before the date the user was created/updated/ deleted, it means we have not evaluated the user yet. In this scenario, the best thing to do is wait for the provisioning service to finish.  
+* Use the [on-demand provisioning](https://docs.microsoft.com/azure/active-directory/app-provisioning/provision-on-demand) capability to provision a user and get detailed diagnostics about the steps taken.
+* Periodically restart provisioning to catch any users that were missed in a previous provisioning cycle.
+* The user/group may not have been provisioned because our service hasn't had a chance to evaluate the user yet. Review the [guidance](https://docs.microsoft.com/azure/active-directory/manage-apps/application-provisioning-when-will-provisioning-finish-specific-user) for how long provisioning takes as well as the [progress bar](https://docs.microsoft.com/azure/active-directory/manage-apps/application-provisioning-when-will-provisioning-finish-specific-user) on the provisioning configuration page. If the steady state specified in the additional details section is before the date the user was created/updated/ deleted, it means we have not evaluated the user yet. In this scenario, the best thing to do is wait for the provisioning service to finish. If the steady state has been achieved, we recommend performing a restart from the UI in the Azure Portal. 
     * Note that our service is only aware of changes to a user/group in the source system (Azure Active Directory). If a user/group is removed directly in the application (e.g. ServiceNow), we are not aware of those changes and do not roll it back based on the state of the user in the source system. In this scenario, it is best to roll back the change directly in the target application. 
 * Our service evaluated the user/group and determined it should not be provisioned:
 

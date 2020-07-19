@@ -9,8 +9,9 @@
 	supportTopicIds="32553276"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="a77142cc-8a49-48ab-965c-4ad278e5cab0"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure iaas vm backup/register or back up a linux virtual machine

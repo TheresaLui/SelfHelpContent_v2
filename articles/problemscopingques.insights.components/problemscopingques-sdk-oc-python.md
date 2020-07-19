@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32681426"
 	productPesIds="15693"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # OpenCensus Python SDK
 ---

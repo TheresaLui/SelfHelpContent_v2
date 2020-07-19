@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32641083"
                 productPesIds="16080"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0202"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 # Management
 ---
@@ -17,10 +18,40 @@
     "resourceRequired": true,
     "title": "Virtual Disk Management",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+            "title": "Virtual machine scale set diagnostics",
+            "description": "These diagnostics will check for details about your selected VM instance within your VMSS.",
+            "insightNotAvailableText": "We didn't find any problems"},
     "formElements": [
         {
-            "id": "disk_error",
+            "id": "vmss_instance",
             "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "If your issue is related to a specific instance, select the instance name",
+            "dynamicDropdownOptions": {
+                "uri": "{resourceId}/virtualMachines?api-version=2019-03-01",
+                "jTokenPath": "value",
+                "textProperty": "id",
+                "valueProperty": "id",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            },
+            "dropdownOptions": [
+                {
+                    "value": "Unable to retrieve list of instances.",
+                    "text": "Unable to retrieve list of instances."
+                }
+            ],
+            "useAsAdditionalDetails": false,
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal,ASC"
+        },
+        {
+            "id": "disk_error",
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error you are getting?",
             "useAsAdditionalDetails": false,
@@ -28,7 +59,7 @@
         },
         {
             "id": "disk_add_remove",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Are you trying to add or remove data disks?",
             "watermarkText": "Choose an option",
@@ -50,7 +81,7 @@
         },
         {
             "id": "disk_if_vmss",
-            "order": 3,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Are you trying to do it on the VMSS model, or a single instance?",
             "watermarkText": "Choose an option",
@@ -68,7 +99,7 @@
         },
         {
             "id": "disk_if_attachedportal",
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Do you see the disks attached on the Azure Portal, but not inside the guest OS?",
             "watermarkText": "Choose an option",
@@ -86,7 +117,7 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -94,7 +125,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true

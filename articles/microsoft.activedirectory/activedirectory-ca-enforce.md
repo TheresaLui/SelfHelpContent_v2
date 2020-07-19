@@ -9,8 +9,9 @@
     supportTopicIds=""
     resourceTags="conditionalaccess_overview"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="14fe722d-a90d-40f1-86d7-da02e95348ce"
+	ownershipId="AzureIdentity_User"
 />
 
 # Problems with policy not being enforced

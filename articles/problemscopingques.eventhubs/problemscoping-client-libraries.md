@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636948"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="eh-client-libraries-question"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Questions about Event Hubs client library
 ---

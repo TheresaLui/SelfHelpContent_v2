@@ -12,7 +12,8 @@ diagnosticScenario="Storage account recovery with multiple results"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # <!--issueDescription-->Recover storage account(s) in deleted Resource Group<!--/issueDescription-->

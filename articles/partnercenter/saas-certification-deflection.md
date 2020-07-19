@@ -10,10 +10,11 @@
 	articleId="marketplace_cert_failures"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689351"
+	supportTopicIds="32728233"
 	resourceTags="marketplace"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17009"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Offer_Certification"
 />
 
 # <-- SaaS certification deflection -->

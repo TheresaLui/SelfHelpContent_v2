@@ -12,7 +12,8 @@
 	selfHelpType="diagnostics"
 	supportTopicIds=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Backup failed with an internal error

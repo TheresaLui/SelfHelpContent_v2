@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="a092afdb-6f20-4b42-8d8f-423ac8d71a3f_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Move your MariaDB server to Memory Optimzed SKU
 ---

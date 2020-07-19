@@ -10,8 +10,9 @@
 	supportTopicIds="32542213"
 	resourceTags=""
 	productPesIds="14748, 16170, 16333"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
 	articleId="c6314c74-7957-4ad3-8464-2ba89527b0e0"
+	ownershipId="Compute_AppService"
 />
 
 # deployment/ftp

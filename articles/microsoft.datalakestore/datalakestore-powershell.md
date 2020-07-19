@@ -10,8 +10,9 @@
     supportTopicIds="32674918"
     resourceTags=""
     productPesIds="15879"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="31d53b68-20cb-49b8-841a-9fefb8e76a84"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # ADLS Gen1 - Need help with PowerShell

@@ -13,7 +13,8 @@
 	supportTopicIds="32688695"
 	resourceTags=""
 	productPesIds="16867"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureEA_SelfDeflectionContent"
 />
 
 # Transfer an enterprise account to a new enrollment
@@ -50,7 +51,7 @@ Other points to keep in mind before an account transfer:
 - Approval from an EA Administrator is required for the target and source enrollment
   - In some cases, Microsoft might request additional approval from an EA administrator of the source enrollment
 - If an account transfer doesn't meet your requirements, consider an enrollment transfer
-- The account transfer transfers all services and subscriptions related to specific accounts
+- The account transfer transfers all services and subscriptions related to specific accounts
 - After the transfer is complete, the transferred account appears inactive under the source enrollment
 - An account transfer can be backdated to any date within the target enrollment start date
 - The account shows the end date corresponding to the effective transfer date on the source enrollment and as a start date on the target enrollment

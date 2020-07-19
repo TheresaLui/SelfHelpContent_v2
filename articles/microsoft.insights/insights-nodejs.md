@@ -9,10 +9,11 @@
     articleId="insights_nodejs"
     displayOrder="1134"
     selfHelpType="generic"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     productPesIds="15693" 
     supportTopicIds="32632985, 32632999"
- />
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 # Application Insights for Node.js
 
 Add this SDK to your Node.js services to include deep info about Node.js processes and their external dependencies such as database and cache services. You can use this SDK for your Node.js services hosted anywhere: your datacenter, Azure VMs and Azure Web Apps, and even other public clouds.

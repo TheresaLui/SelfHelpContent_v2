@@ -7,8 +7,9 @@
       selfHelpType="problemScopingQuestions"
       supportTopicIds="32675699"
       productPesIds="16157"
-      cloudEnvironments="public, MoonCake, fairfax" 
+      cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
       schemaVersion="1"
+	ownershipId="AzureData_AnalysisServices"
 />
 # Organizing subscriptions and resource groups within the Enterprise
 ---
@@ -50,7 +51,7 @@
       "order": 400,
       "controltype": "dropdown",
       "displaylabel": "Are you a subscription administrator?",
-      "watermarkText":"Choose an option","dropdownOptions":[{"value": "Yes","text": "Yes"},{"value": "No","text": "No"},{"value": "dont_know_answer","text":"Other, don’t know or not applicable"}],
+      "watermarkText":"Choose an option","dropdownOptions":[{"value": "Yes","text": "Yes"},{"value": "No","text": "No"},{"value": "dont_know_answer","text":"Other, dont know or not applicable"}],
       "required": true
     }
 ,

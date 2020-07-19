@@ -6,9 +6,10 @@
 	selfHelpType="problemscopingquestions"
 	supportTopicIds="32615431"
 	productPesIds="16578"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="1813121f-9a01-4698-8b29-b2eb4e79a6df"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Self service group management

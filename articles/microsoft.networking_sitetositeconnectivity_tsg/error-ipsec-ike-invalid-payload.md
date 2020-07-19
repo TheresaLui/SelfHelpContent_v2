@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="4c64e0b4-fe08-45af-a99b-11ea0d087abe"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # IKE Payload is Invalid

@@ -11,8 +11,9 @@
 	supportTopicIds="32626104"
 	resourceTags=""
 	productPesIds="16505"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="General guidance or Advisory"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box general guidance or advisory

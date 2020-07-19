@@ -10,8 +10,9 @@
     supportTopicIds="32636504"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
     articleId="9290d0d0-2d6b-4794-992d-362c80c96ff4"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight Storm Troubleshooting
 

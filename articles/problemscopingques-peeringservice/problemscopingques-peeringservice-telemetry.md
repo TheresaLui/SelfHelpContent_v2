@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32689971"
 	productPesIds="16932"
-	cloudEnvironments="public,mooncake,fairfax"
+	cloudEnvironments="public,mooncake,fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="Peering_PeeringService"
 />
 
 # Telemetry Scoping Questions

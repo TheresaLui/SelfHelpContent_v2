@@ -11,7 +11,8 @@
 	supportTopicIds="32684504"
 	productPesIds="16666"
 	articleId="8d591007-b405-4b63-9f3e-451f17322ef4"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Troubleshooting quarantine issues with Workday provisioning

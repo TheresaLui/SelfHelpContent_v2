@@ -13,7 +13,8 @@
 	supportTopicIds="32629622"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # Creating, editing, or deleting activity log alert rules

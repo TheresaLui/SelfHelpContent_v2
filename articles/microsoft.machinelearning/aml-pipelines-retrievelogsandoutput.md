@@ -8,9 +8,10 @@
 	ms.author="bradwall"
 	supportTopicIds="32690877"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.pipelines.retrievelogsandoutput"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Retrieving logs, snapshots, and other output from Azure ML pipeline steps

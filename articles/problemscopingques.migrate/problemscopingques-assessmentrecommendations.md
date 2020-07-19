@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32675736"
          productPesIds="16348"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="5a50e5a6-4466-46c7-83bf-70918fcee374"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Assessment Recommendations

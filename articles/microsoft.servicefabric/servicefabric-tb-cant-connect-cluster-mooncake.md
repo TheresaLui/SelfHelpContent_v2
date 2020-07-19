@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="5c726746-aef7-4f99-83b2-d6555722a0a4"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Connection failures using Service Fabric Explorer (SFX) or PowerShell to the Management Endpoint

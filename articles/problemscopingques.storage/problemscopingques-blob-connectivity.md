@@ -7,8 +7,9 @@
 	articleId="StorageScoping_blob_connectivity"
 	supportTopicIds="32602725,32602735"
 	productPesIds="16459"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Blob Connectivity Issue
 ---

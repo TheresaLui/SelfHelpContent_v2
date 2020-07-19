@@ -10,8 +10,9 @@
     supportTopicIds="32674922"
     resourceTags=""
     productPesIds="15879"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="4eba55b5-707e-479b-ad28-cdf514a26a82"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen1"
 />
  
 # Troubleshoot and resolve connectivity (throttling) issues

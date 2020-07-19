@@ -10,8 +10,9 @@
     supportTopicIds="32588767"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="oli02tg3-736d-401c-b919-f924c12f1e9f"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps throughput limits

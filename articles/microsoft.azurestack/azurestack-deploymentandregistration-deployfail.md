@@ -10,8 +10,9 @@
     supportTopicIds="32629194"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-deployment-failure"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Deployment Failure

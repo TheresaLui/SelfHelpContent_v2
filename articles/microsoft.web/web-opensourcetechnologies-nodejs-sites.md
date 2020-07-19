@@ -10,8 +10,9 @@
 	supportTopicIds="32444082"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
 	articleId="7ba0fd5f-8a79-441e-8375-417e68b0b8fb"
+	ownershipId="Compute_AppService"
 />
 
 # open source technologies/node.js

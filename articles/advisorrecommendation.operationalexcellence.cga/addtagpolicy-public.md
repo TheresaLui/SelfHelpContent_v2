@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="bbd39b95-99d9-4b7e-b66b-8813081307c8_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"/>
+    cloudEnvironments="Public, usnat, ussec"	ownershipId="CGA_DataPlatform"
+/>
 # Enforce 'Add or replace a tag on resources' using Azure Policy
 ---
 {

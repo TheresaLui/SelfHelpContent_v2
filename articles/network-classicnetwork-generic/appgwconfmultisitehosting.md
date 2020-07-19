@@ -10,8 +10,9 @@
 	supportTopicIds="32582827"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="3209a960-3d4f-4220-8eb1-a99848e6a5cc"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Configure Multi-site Hosting

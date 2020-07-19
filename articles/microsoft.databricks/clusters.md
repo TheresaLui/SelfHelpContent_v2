@@ -10,8 +10,9 @@
 	supportTopicIds="32612187"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="4e43f6fa-57dd-4bd3-b6f4-9b10f7a8dccc"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with Databricks cluster creation, termination, or sizing

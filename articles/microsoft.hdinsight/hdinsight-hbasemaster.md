@@ -10,8 +10,9 @@
     supportTopicIds="32629048"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
 	articleId="31edd692-27c1-4142-82bb-0ede271d7ff8"
+	ownershipId="AzureData_HDInsight"
 />
 
 # HBase Master fails at startup

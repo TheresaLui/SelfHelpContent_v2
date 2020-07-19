@@ -10,8 +10,9 @@
 	supportTopicIds="32628268"
 	resourceTags="linux, redhat, Ubuntu"
 	productPesIds="16342,15571,15797,16454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="3d66057d-3c6b-4d12-9241-09830bfd7083"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Diagnose and resolve Linux Virtual Machine GPU performance issues
@@ -20,7 +21,7 @@ Try the following steps to diagnose and mitigate VM GPU performance issues.<br>
 
 ## **Recommended Steps**
 
-1. **Did you know Performance diagnostics can help you analyze guest VM issues?** **For Linux virtual machines, you can [download PerfInsights](https://aka.ms/perfinsightslinux) and run it on your virtual machine.** To ensure a speedy resolution, provide us the PerfInsights logs if you create a support case. [Learn more](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics)
+1. **Did you know Performance diagnostics can help you analyze guest VM issues?** **For Linux virtual machines, you can [run Performance diagnostics](data-blade:Microsoft_Azure_Compute.PerformanceDiagnosticsBlade.resourceId.$resourceId)** and review results directly from the Azure portal. You may also [download PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights-linux) and run it on your virtual machine. To ensure a speedy resolution, provide us the PerfInsights logs if you create a support case. [How to use PerfInsights](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/how-to-use-perfinsights)
 2. Ensure you have the latest [GPU drivers](https://docs.microsoft.com/azure/virtual-machines/linux/n-series-driver-setup) installed in your VM.
 3. Review your application error logs, traces, and metrics to determine if any application level bottlenecks are causing performance issues. As a quick way to recover from one-time issues, restart your application and virtual machine.
 4. Review operating system level metrics such as CPU, memory usage, IO, and network to see if any resource has consistently high utilization.<br>

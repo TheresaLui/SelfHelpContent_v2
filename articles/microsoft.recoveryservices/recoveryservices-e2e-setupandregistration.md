@@ -9,8 +9,9 @@
 	supportTopicIds="32536454"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="43c7077b-dfc3-40b1-975f-37f8ed55ec27"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Site Recovery (VMM to VMM)/Site Recovery provider setup and registration

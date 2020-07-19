@@ -2,14 +2,15 @@
        pageTitle="Request for MFA exception"
        description="Request for MFA exception"
        authors="brentserbus"
-       ms.author="brserbus"
+       ms.author="a-crmire"
        selfHelpType="problemScopingQuestions"
-       supportTopicIds="32684683"
-       productPesIds="15960"
-       cloudEnvironments="public"
+       supportTopicIds="32725807"
+       productPesIds="17000"
+       cloudEnvironments="public, fairfax, usnat, ussec"
        schemaVersion="1"
        articleId="problemscopingques-partnercentermfaexception"
        clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # PC Sample
 ---

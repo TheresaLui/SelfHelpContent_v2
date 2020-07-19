@@ -10,8 +10,9 @@
     supportTopicIds="32680905"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="7d5dba8e-e49d-11e9-81b4-2a2ae2dbcce4"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Pipeline Activities - Delete

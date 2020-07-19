@@ -11,8 +11,9 @@ pageTitle="AADConnect server(s) running Windows Server 2008/2008R2"
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
+	productPesIds="16666"
+  cloudEnvironments="public, Fairfax, Mooncake, ussec, usnat"
+  ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # AADConnect server(s) running Windows Server 2008/2008R2

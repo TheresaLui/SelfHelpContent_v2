@@ -6,13 +6,14 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32636807"
+	supportTopicIds="32741537"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-cassandra-other"
 	displayOrder="144"
 	category="Cassandra"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Apache Cassandra features Supported by Azure Cosmos DB Cassandra API

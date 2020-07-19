@@ -10,8 +10,9 @@
     supportTopicIds="32675601"
     resourceTags=""
     productPesIds="15571,15797,16454,16470,16342"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="c90c2539-5432-4e1d-b302-62aa635251be"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My Linux VM is stuck in a reboot loop

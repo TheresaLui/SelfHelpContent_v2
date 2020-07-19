@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-performanceandqueryexecution-queryperformanceandtimeouts-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Query performance and timeouts
 

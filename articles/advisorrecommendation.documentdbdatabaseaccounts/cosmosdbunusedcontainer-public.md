@@ -5,7 +5,8 @@
     ms.author="aoaft"
     articleId="893a1342-e1f6-49ec-97dc-c5c4471438c2_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Optimize Unused Containers and Geo-replications in Azure Cosmos DB
 ---
@@ -15,9 +16,10 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "893a1342-e1f6-49ec-97dc-c5c4471438c2",
   "dataSourceMetadata": {
-    "streamNamespace": "Microsoft.Cloud.AzureAdvisorAcdbRecoUnused",
-    "dataSource": "Cosmos",
-    "refreshInterval": "1.00:00:00"
+    "schemaVersion": 2.0,
+    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('Publish').GetAzureAdvisorUnusedContainersRecommendations",
+    "dataSource": "Kusto",
+    "refreshInterval": "0.08:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Low",

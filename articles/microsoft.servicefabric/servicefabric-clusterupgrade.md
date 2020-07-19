@@ -10,8 +10,9 @@
 	supportTopicIds="32690995, 32690989"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="f7d8df66-6bd3-4d84-81c8-a2bf560b7dc8"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # Cluster Upgrades

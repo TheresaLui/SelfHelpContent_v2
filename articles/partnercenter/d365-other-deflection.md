@@ -10,10 +10,11 @@
 	articleId="marketplace_d365offer_other"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689431, 32689433, 32689434"
+	supportTopicIds="32728103,32728116,32728129,32728109,32728122,32728135,32728107,32728120,32728133"
 	resourceTags="marketplace"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17006"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # D365 offer other issues deflection

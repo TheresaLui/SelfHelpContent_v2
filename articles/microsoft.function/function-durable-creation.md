@@ -10,8 +10,9 @@
 	supportTopicIds="32607518"
 	resourceTags=""
 	productPesIds="16072"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="48996ff7-002f-47c1-85b2-df138843d5d5"
+	ownershipId="Compute_AppService"
 />
 
 # Durable Functions/Creation

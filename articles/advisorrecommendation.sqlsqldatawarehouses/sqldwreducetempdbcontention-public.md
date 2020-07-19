@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="33e515fe-354c-4016-a0f7-c4d6585aea61_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 # Scale up or update resource class to reduce tempdb contention with SQL Data Warehouse
 ---

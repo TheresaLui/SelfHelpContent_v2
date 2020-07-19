@@ -9,8 +9,9 @@
     supportTopicIds="32142240"
     resourceTags=""
     productPesIds="14785,16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="a2c07ff1-f903-4199-9f92-8cad5067a668"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Synchronizing AD to Azure AD/Password synchronization

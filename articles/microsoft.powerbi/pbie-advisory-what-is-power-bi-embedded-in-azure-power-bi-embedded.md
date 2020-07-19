@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628061"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="aa0b70f5-c574-39b1-e52e-b0bf89507004"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # What is Power BI Embedded in Azure?

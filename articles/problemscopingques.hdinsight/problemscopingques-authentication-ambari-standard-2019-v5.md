@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32636437"
 	productPesIds="15078"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_HDInsight"
 />
 # HDInsight Authentication with Ambari in standard cluster Issue
 ---

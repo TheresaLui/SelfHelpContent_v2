@@ -13,7 +13,8 @@
     supportTopicIds="32636455"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, blackforest, mooncake, fairfax"
+    cloudEnvironments="public, blackforest, mooncake, fairfax, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found the following issue

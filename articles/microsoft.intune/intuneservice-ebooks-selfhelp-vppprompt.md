@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="ebooks_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="b8173a5d-214c-4402-9852-f3096b52fd73"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Users are prompted to join the Apple VPP when they try to install e-books. How can I prevent these prompts?

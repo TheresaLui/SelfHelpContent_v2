@@ -9,9 +9,10 @@
     selfHelpType="generic"
     supportTopicIds="32640012"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="007d3fbd-450a-447e-86ef-de03b367ecbd"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Using PowerShell to manage Azure Databases for PostgreSQL

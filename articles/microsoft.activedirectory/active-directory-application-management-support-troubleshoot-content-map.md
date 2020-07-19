@@ -7,8 +7,9 @@
   selfHelpType="generic"
   supportTopicIds="32268132"
   productPesIds="14785,16575"
-  cloudEnvironments="public"
+  cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="7c729343-fdfb-4ac1-9497-57ec8e1608d2"
+	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
 />
 
 # Issues that are related to Azure Active Directory Application Management

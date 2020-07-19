@@ -10,8 +10,9 @@
     supportTopicIds="32629241"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="f7b38aef-8641-4e65-8a79-b2196bcf88da"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Disk Failure

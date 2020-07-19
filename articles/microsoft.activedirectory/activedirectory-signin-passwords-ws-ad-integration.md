@@ -10,9 +10,10 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="5030bda0-8655-4c9b-9e05-c49900ea8234"
-     />
+     	ownershipId="AzureIdentity_MultiFactorAuthentication"
+/>
 
 # Azure AD Password Protection – Windows Server AD integration
 

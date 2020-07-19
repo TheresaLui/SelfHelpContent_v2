@@ -13,7 +13,8 @@
 	supportTopicIds="32630498"
 	resourceTags="8000series"
 	productPesIds="15438"	
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Device not sending heartbeat 

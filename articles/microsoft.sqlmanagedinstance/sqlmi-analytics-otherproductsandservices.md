@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32637290"
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
     articleId="f916cd57-c82e-475e-9b20-019c1337cf30"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Other analytics products and services

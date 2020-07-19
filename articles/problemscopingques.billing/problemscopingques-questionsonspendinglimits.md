@@ -7,13 +7,15 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632938"
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 #  Questions on Spending Limits
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Questions on Spending Limits",
     "fileAttachmentHint": "",
     "formElements": [

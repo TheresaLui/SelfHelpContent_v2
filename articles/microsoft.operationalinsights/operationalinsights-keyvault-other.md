@@ -10,8 +10,9 @@
     supportTopicIds="32536598"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="7b1c4d6e-64bb-4c8b-9879-817b9674d3e8"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # keyvault-other

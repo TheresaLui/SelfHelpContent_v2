@@ -5,10 +5,11 @@
     ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639976"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="17067,17069,17068"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-replication-enabledisable"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Replication - Enable or disable replication support for PG
 ---

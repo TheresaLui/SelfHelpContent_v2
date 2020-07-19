@@ -10,8 +10,9 @@
     supportTopicIds="32677645"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="nli04tg3-836d-421c-b919-f924c12f1e9f"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps encryption

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="classiccompute-webappinternalservererror-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My web application shows Internal Server Error or Service Unavailable (50x)

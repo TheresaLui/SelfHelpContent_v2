@@ -11,7 +11,8 @@
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-dataimportexport-usingpolybase.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Using Polybase
 

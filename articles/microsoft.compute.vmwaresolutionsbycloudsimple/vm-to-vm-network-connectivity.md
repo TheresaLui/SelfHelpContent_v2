@@ -10,8 +10,9 @@
     supportTopicIds="32637629"
     resourceTags=""
     productPesIds="16733"
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     articleId="34600d96-683e-4909-84e6-a87d888f9cb9"    
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshooting network connectivity between VMs 
