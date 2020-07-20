@@ -16,7 +16,7 @@
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
     "resourceRequired": true,
-    "title": "Embedded C SDK Issues",
+    "title": "Azure IoT Embedded C SDK Issues",
     "fileAttachmentHint": "",
     "formElements":
     [
