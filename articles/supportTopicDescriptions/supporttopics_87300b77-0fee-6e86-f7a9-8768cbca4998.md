@@ -9,7 +9,7 @@
   articleid="supporttopics_87300b77-0fee-6e86-f7a9-8768cbca4998"
   clientIds='partnercenter'
   ownershipid="PartnerCenter_Analytics" />
-# Support Topic Descriptions for 87300b77-0fee-6e86-f7a9-8768cbca4998
+# Support Topic Descriptions for 87300b77-0fee-6e86-f7a9-8768cbca4998 
 ---
 {
   "$schema": "SelfHelpContent",
