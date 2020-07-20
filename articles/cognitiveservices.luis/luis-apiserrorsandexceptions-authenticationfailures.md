@@ -30,6 +30,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 ### If your access is denied while using LUIS Authoring APIs
 * Ensure that the key you are using is in fact an authoring or a starter key and not a prediction runtime key
 
+* Ensure that the key you are using is in fact an authoring or a starter key and not a prediction runtime key
 * Ensure that they key you are using is assigned to the application you are calling. Sign-in to the [appropriate LUIS Portal](https://docs.microsoft.com/azure/cognitive-services/luis/luis-reference-regions#luis-authoring-regions) you have been authoring your apps in and navigate to [authoring under Azure resources under the manage tab in the top bar](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#assign-a-resource-to-an-app).
 
 * If you have validated that your keys are the correct ones, make sure that you have been [given consent to your application by your Azure Active Directory Tenant admin](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-collaborate#azure-active-directory-tenant-user)
@@ -37,11 +38,8 @@ ownershipId="AzureCogSvc_CognitiveServices"
 * Validate first that you are an owner or collaborator or contributor of the LUIS app you are trying to access
 
 * If not, you will not be able to see the application and will not have access to modify it. Request from the app owner to [add you as a contributor or collaborator](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-collaborate) depending whether you are a [migrated or a non migrated user](https://docs.microsoft.com//azure/cognitive-services/luis/luis-migration-authoring).
-
 * Check that you are [assigning an Ocp-Apim-Subscription-Key to your request header](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#assign-query-prediction-runtime-resource-without-using-luis-portal). The Ocp-Apim-Subscription-Key is your authoring/programmatic key.
-
-* Ensure that the [key location matches the authoring region of your application](https://docs.microsoft.com/azure/cognitive-services/luis/luis-reference-regions#luis-authoring-regions). Otherwise this could cause the error.
-
+* Ensure that the [key location matches the authoring region of your application](https://docs.microsoft.com/azure/cognitive-services/luis/luis-reference-regions#luis-authoring-regions), or this could cause the error
 
 ## **Recommended Documents**
 * Learn more on [common API response codes](https://docs.microsoft.com/azure/cognitive-services/luis/luis-reference-response-codes)
