@@ -1,7 +1,7 @@
 <properties
 	pageTitle="EmbeddedCSDKIssues"
 	description="Embedded-C-SDK-Issues"
-	author="wduraes"	
+	author="wduraes"
 	ms.author="wduraes"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32596697"
