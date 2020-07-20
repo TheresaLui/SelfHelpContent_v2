@@ -1,8 +1,8 @@
 <properties
 	pageTitle="How to check CRUD error code"
 	description="How to check CRUD error code"
-	service=""
-	resource=""
+            service="Microsoft.HDInsight"
+            resource="Microsoft.HDInsight/clusters"
 	authors="Jacky-hdi"
 	ms.author="linjzhu"
 	displayOrder=""
