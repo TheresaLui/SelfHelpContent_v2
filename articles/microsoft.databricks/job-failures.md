@@ -50,7 +50,7 @@ When using JAR based jobs on interactive clusters, the JAR jobs will not be auto
 * Or create a new job with same configurations and use the new JAR instead
 
 
-> **Known Issue**: Starting 19 Mar 2020 some Azure Databricks customers have encountered error "Azure error code: AllocationFailed" when performing service management operations - such as create, update, scale clusters or submit jobs. We are aware of this issue and are actively working to ensure availability of resources in the quickest time frame possible. We recommend you consider one of the below workarounds:
+> **Known Issue**: Starting 17 June 2020 some Azure Databricks customers in UAE North have encountered error "Azure error code: AllocationFailed" when performing service management operations - such as create, update, scale clusters or submit jobs. We are aware of this issue and are actively working to ensure availability of resources in the quickest time frame possible. We recommend you consider one of the below workarounds:
 >
 > * Shift the workload towards the end of the working day if possible
 > * Try to provision an alternate family VM
