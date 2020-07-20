@@ -21,6 +21,8 @@ If most or all of the calls made against the target system consistently fail due
 
 ## **Recommended Steps**
 
+* Use the [on-demand provisioning](https://docs.microsoft.com/azure/active-directory/app-provisioning/provision-on-demand) capability to provision a user and get detailed diagnostics about the steps taken.
+
 * Review the provisioning summary report at the bottom of the provisioning configuration page
 
 * Review provisioning errors in the Azure AD audit logs. From there you can get detailed information about which users were unsuccessfully provisioned, as well as details about the error. 
