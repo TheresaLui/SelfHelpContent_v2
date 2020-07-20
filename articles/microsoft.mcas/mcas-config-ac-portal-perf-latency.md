@@ -23,8 +23,8 @@ Most users are able to resolve performance and latency issues using the steps be
 
 ## **Recommended Steps**
 
-1. Check the [current status](https://status.cloudappsecurity.com/) of Microsoft Cloud App Security to see if there is a scheduled maintenance or known issue in the service you are using.
-1. If you are conducting an investigation that requires a large amount of data, try to optimize your query by reducing the scope of the search.
+1. Check the [current status](https://status.cloudappsecurity.com/) of Microsoft Cloud App Security to see if there is a scheduled maintenance or known issue in the service you are using
+1. If you are conducting an investigation that requires a large amount of data, try to optimize your query by reducing the scope of the search
 
 If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket with the following details:
 
