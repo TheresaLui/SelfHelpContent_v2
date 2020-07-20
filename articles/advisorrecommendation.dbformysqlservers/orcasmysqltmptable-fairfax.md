@@ -36,9 +36,7 @@
     },
     "serviceTreeId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a"
   },
-  "ingestionClientIdentities": [
-    "49ebada5-bdc9-4c9b-826c-3cb789357c5d"
-  ],
+  "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/azure_mysql_tmp_table",
@@ -67,8 +65,8 @@
     "action": {
       "actionId": "78e7e4b9-bac2-47bc-92da-6979eba19b7d",
       "actionType": "Blade",
-      "extensionName": "SqlAzureExtension",
-      "bladeName": "MySqlServerParametersBlade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}"
       }
