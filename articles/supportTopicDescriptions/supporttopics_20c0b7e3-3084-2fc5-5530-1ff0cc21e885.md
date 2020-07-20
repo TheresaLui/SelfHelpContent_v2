@@ -390,6 +390,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7064fa16-d600-390b-e37d-ac68f9334658",
+      "longDescription": "",
+      "shortDescription": "Unexpected errors blocking authoring, or difficulty while debugging pipelines, or configuring any type of Trigger.",
+      "searchTags": "pipelines;triggers;debug;trigger;adf",
+      "category": "Authoring and Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "73036aa4-a3a7-42fd-f0d6-add2ad34a6e6",
       "longDescription": "",
       "shortDescription": "Advisory on best practices and recommendations related to loading data to SQL pools.",
