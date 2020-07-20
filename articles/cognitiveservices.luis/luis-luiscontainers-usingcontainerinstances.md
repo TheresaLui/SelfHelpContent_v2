@@ -18,12 +18,12 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 ## **Recommended Steps**
 
-* When using a container, it needs to be connected to the internet for billing purposes, every 15 minutes.
+* When using a container, it needs to be connected to the internet for billing purposes, every 15 minutes
 
-* LUIS is not yet available as a completely offline container.
+* LUIS is not yet available as a completely offline container
 
-* Learn [how to consume your LUIS runtime in a container](https://docs.microsoft.com/azure/cognitive-services/luis/deploy-luis-on-container-instances).
+* Learn [how to consume your LUIS runtime in a container](https://docs.microsoft.com/azure/cognitive-services/luis/deploy-luis-on-container-instances)
 
-* Learn about [LUIS Pricing details and the transaction per second(TPS) for each key](https://azure.microsoft.com/pricing/details/cognitive-services/language-understanding-intelligent-services/).
+* Learn about [LUIS Pricing details and the transaction per second(TPS) for each key](https://azure.microsoft.com/pricing/details/cognitive-services/language-understanding-intelligent-services/)
 
-* Learn about [LUIS key management experience](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-keys) and the differences between authoring and prediction keys.
+* Learn about [LUIS key management experience](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-keys) and the differences between authoring and prediction keys
