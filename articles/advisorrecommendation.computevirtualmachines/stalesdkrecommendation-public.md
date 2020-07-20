@@ -50,7 +50,7 @@
           }],
   "dataSourceMetadata":
           {
-                    "streamNamespace": "cluster('https://cplatsdk.westus2.kusto.windows.net').database('sdk').StaleSDKRecommendation",
+                    "streamNamespace": "cluster('https://advisorfollower.centralus.kusto.windows.net').database('ARMProdHelper').StaleSDKRecommendation",
                     "dataSource": "Kusto",
                     "refreshInterval": "0.01:00:00"
           }
