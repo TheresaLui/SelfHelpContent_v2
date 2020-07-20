@@ -14,20 +14,20 @@
 # Issues with the Embedded C SDK
 ---
 {
-  "$schema": "SelfHelpContent",
-  "subscriptionRequired": true,
-  "resourceRequired": true,
-	"title": "Embedded C SDK Issues",
-	"fileAttachmentHint": "",
-	"formElements":
-	[
+    "$schema": "SelfHelpContent",
+    "subscriptionRequired": true,
+    "resourceRequired": true,
+    "title": "Embedded C SDK Issues",
+    "fileAttachmentHint": "",
+    "formElements":	
+    [
 		{
             "id": "problem_start_time", //This is a required value
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
-		},
+        },
 		{
 			"id": "sdk_version",
 			"order": 2,
