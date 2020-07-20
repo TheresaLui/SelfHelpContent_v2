@@ -11,7 +11,7 @@
 	articleId="a3cd8d2d-eadb-4acd-a102-4ebb8b9b51c2"
 	ownershipId="AzureIot_IotHub"
 />
-# Issues-with-the-Embedded-C-SDK
+# Issues with the Embedded C SDK
 ---
 {
   "$schema": "SelfHelpContent",
