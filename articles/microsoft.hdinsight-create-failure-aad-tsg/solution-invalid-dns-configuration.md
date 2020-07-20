@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Invalid DNS Configuration"
 	description="Invalid DNS Configuration"
-	service=""
-	resource=""
+            service="Microsoft.HDInsight"
+            resource="Microsoft.HDInsight/clusters"
 	authors="Jacky-hdi"
 	ms.author="linjzhu"
 	displayOrder=""

@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Escalation"
 	description="Escalation"
-	service=""
-	resource=""
+            service="Microsoft.HDInsight"
+            resource="Microsoft.HDInsight/clusters"
 	authors="Jacky-hdi"
 	ms.author="linjzhu"
 	displayOrder=""

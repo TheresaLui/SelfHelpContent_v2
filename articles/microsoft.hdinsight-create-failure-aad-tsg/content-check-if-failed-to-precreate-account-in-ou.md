@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Check if failed to precreate account in ou"
 	description="Check if failed to precreate account in ou"
-	service=""
-	resource=""
+            service="Microsoft.HDInsight"
+            resource="Microsoft.HDInsight/clusters"
 	authors="Jacky-hdi"
 	ms.author="linjzhu"
 	displayOrder=""
