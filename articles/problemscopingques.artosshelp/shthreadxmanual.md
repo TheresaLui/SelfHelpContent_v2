@@ -12,7 +12,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32725744"
 	resourceTags=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	productPesIds="16920"
 	ownershipId="Azure_RTOS"
 />

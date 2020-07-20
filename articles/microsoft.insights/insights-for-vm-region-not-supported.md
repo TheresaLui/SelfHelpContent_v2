@@ -9,7 +9,7 @@
     articleId="insights-for-vm-region-not-supported"
     productPesIds="17081"
     supportTopicIds="32738516"
-    cloudEnvironments="public, blackForest, fairfax, mooncake"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
  />
 

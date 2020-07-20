@@ -10,7 +10,7 @@
     supportTopicIds="32739606"
     resourceTags=""
     productPesIds="16600"
-    cloudEnvironments="public, fairfax"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="managed-identity-and-other-permissions-issues"
     ownershipId="Compute_AzureBlueprint"
 />

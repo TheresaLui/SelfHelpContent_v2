@@ -10,7 +10,7 @@
     supportTopicIds="32739603"
     resourceTags=""
     productPesIds="16600"
-    cloudEnvironments="public, fairfax"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="blueprint-locks-issues"
     ownershipId="Compute_AzureBlueprint"
 />

@@ -5,7 +5,7 @@ authors="vakr,scottnap"
 ms.author="nvaeng"
 articleId="e9a96e96-c68f-4604-b9ff-6b57ffb693da"
 selfHelpType="advisorRecommendationMetadata"
-cloudEnvironments="Public"
+cloudEnvironments="Public, usnat, ussec"
 ownershipId="CloudNet_NVA"
 />
 # Accelerated Networking Recommendation for Palo Alto Networks VM-Series Firewall

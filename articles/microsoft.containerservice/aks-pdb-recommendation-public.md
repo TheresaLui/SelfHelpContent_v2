@@ -5,7 +5,7 @@
     ms.author="aksoverlay"
     articleId="9738c5a0-a330-4465-a7f4-9132e004bd30"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="Compute_AzureKubernetesService"
 />
 

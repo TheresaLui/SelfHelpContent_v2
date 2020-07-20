@@ -5,7 +5,7 @@ authors="vakr,scottnap"
 ms.author="nvaeng"
 articleId="43a3c88f-5bef-46c8-8e17-932159b3287d"
 selfHelpType="advisorRecommendationMetadata"
-cloudEnvironments="Public"
+cloudEnvironments="Public, usnat, ussec"
 ownershipId="CloudNet_NVA"
 />
 # Accelerated Networking Recommendation for Arista Networks vEOS Router

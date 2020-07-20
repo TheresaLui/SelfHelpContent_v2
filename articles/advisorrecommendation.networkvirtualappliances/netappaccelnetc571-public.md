@@ -5,7 +5,7 @@ authors="vakr,scottnap"
 ms.author="nvaeng"
 articleId="c571b9b2-fe79-4785-8083-30b7b57a4f3d"
 selfHelpType="advisorRecommendationMetadata"
-cloudEnvironments="Public"
+cloudEnvironments="Public, usnat, ussec"
 ownershipId="CloudNet_NVA"
 />
 # Accelerated Networking Recommendation for NetApp Cloud Volumes ONTAP

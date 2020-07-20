@@ -5,7 +5,7 @@ authors="vakr,scottnap"
 ms.author="nvaeng"
 articleId="270c5ab3-31d0-461f-bf8d-55d739552d31"
 selfHelpType="advisorRecommendationMetadata"
-cloudEnvironments="Public"
+cloudEnvironments="Public, usnat, ussec"
 ownershipId="CloudNet_NVA"
 />
 # Accelerated Networking Recommendation for Barracuda Networks NextGen Firewall

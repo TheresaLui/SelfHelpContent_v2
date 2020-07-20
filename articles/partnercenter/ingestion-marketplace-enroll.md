@@ -10,10 +10,10 @@
 	articleId="partnercenter_enrollment"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32740794"
+	supportTopicIds="32740794,32725873"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="17006"
+	productPesIds="17006,17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Ingestion"
 />

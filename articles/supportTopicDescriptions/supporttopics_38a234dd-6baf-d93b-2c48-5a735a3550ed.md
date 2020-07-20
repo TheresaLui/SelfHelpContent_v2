@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   description="SupportTopicDescriptions for 38a234dd-6baf-d93b-2c48-5a735a3550ed"
   authors="elixirsys2"
-  ms.author="v-vigra, rodejo"
+  ms.author="v-vigra, rodejo, mwahl"
   selfhelptype="SupportTopicDescription"
   productpesids="38a234dd-6baf-d93b-2c48-5a735a3550ed"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -21,6 +21,14 @@
   "productLink3": "",
   "productLinkName3": "",
   "supportTopics": [
+    {
+      "id": "013bf5eb-0229-eedf-ada0-d9d1fc46093a",
+      "longDescription": "",
+      "shortDescription": "Issues with MIM sync installation or provisioning configuration in the MIM Sync Service Manager UI",
+      "searchTags": "MIM;sync",
+      "category": "MIM",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "0610c7f2-38a0-4514-ee0a-adc146934bf2",
       "longDescription": "",
@@ -126,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6a3b4523-5ffd-8cc4-244e-bf509386f3ea",
+      "longDescription": "",
+      "shortDescription": "Issues with MIM Service and Portal installation, synchronization rule configuration in MIM Portal, and processing in MIM Service",
+      "searchTags": "MIM",
+      "category": "MIM",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "716e3152-bfe2-0433-ee75-a20101b4a426",
       "longDescription": "",
       "shortDescription": "You have configured Password Hash Sync (PHS) and are seeing issues",
@@ -195,6 +211,14 @@
       "shortDescription": "You are having a problem configuring the scoping filters for provisioning to a SaaS app",
       "searchTags": "issue configuring the scope filters",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "be7539f0-c7eb-d128-6d68-d540faf50142",
+      "longDescription": "",
+      "shortDescription": "Issues with provisioning to or from MIM sync, via a MIM sync generic connector or management agent",
+      "searchTags": "MIM;sync;LDAP",
+      "category": "MIM",
       "useInDiagnoseAndSolve": "true"
     },
     {

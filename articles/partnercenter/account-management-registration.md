@@ -10,15 +10,15 @@
 	articleId="account_management_registration"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32728232,32689463"
+	supportTopicIds="32728232"
 	clientIds='partnercenter'
 	resourceTags="marketplace"
-	productPesIds="17000,15960"
+	productPesIds="17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Account management - Registration
+# Account management - Registration
 
 Information about Partner Center Account Registration
 

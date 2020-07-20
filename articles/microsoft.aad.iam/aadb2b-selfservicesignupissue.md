@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions" 
     supportTopicIds="32741680" 
     productPesIds="16578" 
-    cloudEnvironments="public" 
+    cloudEnvironments="public, fairfax, usnat, ussec" 
     schemaVersion="1"
     articleId="problemscopingques-aadb2bselfservicesignupissue"
 	ownershipId="AzureIdentity_DirectoryObjectManagement"
