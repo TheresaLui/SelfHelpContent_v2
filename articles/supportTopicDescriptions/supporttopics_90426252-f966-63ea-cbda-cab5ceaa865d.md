@@ -294,6 +294,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "90a76cbe-5b2e-7ea1-a96d-5db297eba9e6",
+      "longDescription": "",
+      "shortDescription": "Issues with ARM Templates",
+      "searchTags": "ARM;template",
+      "category": "ARM",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "94240eb5-ccc1-96ee-e7c7-a25bfab55df0",
       "longDescription": "",
       "shortDescription": "Issues creating ARM Templates",
