@@ -12,7 +12,7 @@
 ---
 {
   "recommendationOfferingId": "1132b618-fefe-40a0-9256-e685ff575ac7",
-  "recommendationOfferingName": "Windows Virtual Desktop,
+  "recommendationOfferingName": "Windows Virtual Desktop",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "ba1f4576-9ace-4fa9-b0d6-311ad9f2f233",
   "dataSourceMetadata": {
@@ -65,6 +65,6 @@
   },
   "displayLabel": "Deploy Host Pool to validation environment",
   "additionalColumns": [],
-  "tip": "Use Host Pool deployed to Validation Environment to ensure deployment resilience and business functionality continuation",
+  "tip": "Use Host Pool deployed to Validation Environment to ensure deployment resilience and business functionality continuation"
 }
 ---
