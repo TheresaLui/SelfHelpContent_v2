@@ -1,7 +1,6 @@
 <properties
 	pageTitle="EmbeddedCSDKIssues"
 	description="Embedded-C-SDK-Issues"
-	author="wduraes"
 	ms.author="wduraes"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32596697"
@@ -19,7 +18,7 @@
     "resourceRequired": true,
     "title": "Embedded C SDK Issues",
     "fileAttachmentHint": "",
-    "formElements":	
+    "formElements":
     [
 		{
             "id": "problem_start_time", //This is a required value
