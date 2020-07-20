@@ -15,9 +15,9 @@ ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # Phrase list or Features
-* Features were previously referred to as phrase lists.
+* Features were previously referred to as phrase lists
 
-* Adding features allows you to define important and significant words in your application and boosts signal of word list.
+* Adding features allows you to define important and significant words in your application and boosts signal of word list
 
 * Features give higher weights to the words that are included in it, therefore give higher scores when they appear. Adding them properly to you application helps improving its prediction accuracy.
 
@@ -25,10 +25,10 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 ## **Recommended Steps**
 
-* Review concepts of [phrase list feature](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-feature#a-phrase-list-for-a-particular-concept), [model as a feature](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-feature#a-model-as-a-feature-helps-another-model), [required features](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-feature#required-features) and [global features](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-feature#global-features) and understand when to use each.
+* Review concepts of [phrase list feature](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-feature#a-phrase-list-for-a-particular-concept), [model as a feature](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-feature#a-model-as-a-feature-helps-another-model), [required features](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-feature#required-features) and [global features](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-feature#global-features) and understand when to use each
 
-* Learn how to add [phrase list as a feature](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-add-features#add-phrase-list-as-a-feature).
+* Learn how to add [phrase list as a feature](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-add-features#add-phrase-list-as-a-feature)
 
-* Learn how to add [model as a feature](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-add-features#model-as-a-feature).
+* Learn how to add [model as a feature](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-add-features#model-as-a-feature)
 
-* Follow the [best practices](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-best-practices) for building an app in LUIS to understand how to use features in the cycle of creating an app.
+* Follow the [best practices](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-best-practices) for building an app in LUIS to understand how to use features in the cycle of creating an app

@@ -29,22 +29,22 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 ## **Recommended Steps**
 
-* If you are getting a **403 quota exceeded response** and using a key, you have exceeded the F0 authoring quota or the F0 prediction quota and it will be replenished at the beginning of next month.  
+* If you are getting a **403 quota exceeded response** and using a key, you have exceeded the F0 authoring quota or the F0 prediction quota and it will be replenished at the beginning of next month  
 
-* Use Azure portal to check [how many transactions a key has made](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#viewing-azure-resource-metrics).
+* Use Azure portal to check [how many transactions a key has made](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#viewing-azure-resource-metrics)
 
-* To exceed the endpoint calls per month, [purchase a LUIS paid tier (S0) runtime key through Azure](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#change-pricing-tier) and [assign it to your application](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#assign-a-resource-to-an-app).
+* To exceed the endpoint calls per month, [purchase a LUIS paid tier (S0) runtime key through Azure](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#change-pricing-tier) and [assign it to your application](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#assign-a-resource-to-an-app)
 
-* Learn about [LUIS Pricing details and the transaction per second(TPS) for each key](https://azure.microsoft.com/pricing/details/cognitive-services/language-understanding-intelligent-services/).
+* Learn about [LUIS Pricing details and the transaction per second(TPS) for each key](https://azure.microsoft.com/pricing/details/cognitive-services/language-understanding-intelligent-services/)
 
-* Learn about [LUIS resource boundaries and key tiers](https://docs.microsoft.com/azure/cognitive-services/luis/luis-boundaries#key-limits).
+* Learn about [LUIS resource boundaries and key tiers](https://docs.microsoft.com/azure/cognitive-services/luis/luis-boundaries#key-limits)
 
-* Learn about [LUIS key management experience](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-keys) and the differences between authoring and prediction keys.
+* [**Understand the differences between authoring and prediction keys**](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-keys)
 
-* Note that response codes may differ if you are using V2 or V3 APIs.
+* Note that response codes may differ if you are using V2 or V3 APIs
 
-* If you are using LUIS V2 APIS, review LUIS [V2 Authoring APIs](https://westus.dev.cognitive.microsoft.com/docs/services/5890b47c39e2bb17b84a55ff/operations/5890b47c39e2bb052c5b9c2f) and [V2 Endpoint APIs](https://westus.dev.cognitive.microsoft.com/docs/services/5819c76f40a6350ce09de1ac/operations/5819c77140a63516d81aee78).
+* If you are using LUIS V2 APIS, review LUIS [V2 Authoring APIs](https://westus.dev.cognitive.microsoft.com/docs/services/5890b47c39e2bb17b84a55ff/operations/5890b47c39e2bb052c5b9c2f) and [V2 Endpoint APIs](https://westus.dev.cognitive.microsoft.com/docs/services/5819c76f40a6350ce09de1ac/operations/5819c77140a63516d81aee78)
 
-* If you are using LUIS V3 APIS, review LUIS [V3 Authoring APIs](https://westeurope.dev.cognitive.microsoft.com/docs/services/luis-programmatic-apis-v3-0-preview/operations/5890b47c39e2bb052c5b9c2f) and [V3 Endpoint APIs](https://westus.dev.cognitive.microsoft.com/docs/services/luis-endpoint-api-v3-0/operations/5cb0a91e54c9db63d589f433).
+* If you are using LUIS V3 APIS, review LUIS [V3 Authoring APIs](https://westeurope.dev.cognitive.microsoft.com/docs/services/luis-programmatic-apis-v3-0-preview/operations/5890b47c39e2bb052c5b9c2f) and [V3 Endpoint APIs](https://westus.dev.cognitive.microsoft.com/docs/services/luis-endpoint-api-v3-0/operations/5cb0a91e54c9db63d589f433)
 
-* Learn how to [migrate to V3 APIs](https://docs.microsoft.com/azure/cognitive-services/luis/luis-migration-api-v3).
+* Learn how to [migrate to V3 APIs](https://docs.microsoft.com/azure/cognitive-services/luis/luis-migration-api-v3)
