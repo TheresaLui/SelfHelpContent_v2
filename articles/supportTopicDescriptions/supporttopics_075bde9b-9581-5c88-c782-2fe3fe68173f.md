@@ -9,7 +9,7 @@
   articleid="supporttopics_075bde9b-9581-5c88-c782-2fe3fe68173f"
   clientIds='partnercenter'
   ownershipid="PartnerCenter_Accounts_Onboarding_Access" />
-# Support Topic Descriptions for 075bde9b-9581-5c88-c782-2fe3fe68173f
+# Support Topic Descriptions for 075bde9b-9581-5c88-c782-2fe3fe68173f 
 ---
 {
   "$schema": "SelfHelpContent",
