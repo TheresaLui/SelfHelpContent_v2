@@ -8,7 +8,7 @@
     productPesIds="16579"
     cloudEnvironments="public, fairfax,  Mooncake, usnat, ussec"
     schemaVersion="1"
-    articleId="Conditional_Access_Resultant_Set_of_Policy_Issue"
+    articleId="Multifactor_Authentication_BOT_No_DSQ"
     ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
