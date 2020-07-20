@@ -15,6 +15,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # Customer Managed Keys
+## **Recommended Steps**
 
 * By default, your subscription uses Microsoft-managed encryption keys. There is also an option to manage your subscription with your own keys with Customer managed keys.
 

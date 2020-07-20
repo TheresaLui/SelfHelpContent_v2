@@ -18,4 +18,4 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 ## **Recommended Documents**
 
-[Understand about privacy and compliance for Azure Cognitive Services](https://azure.microsoft.com/support/legal/cognitive-services-compliance-and-privacy/).
+* [Understand about privacy and compliance for Azure Cognitive Services](https://azure.microsoft.com/support/legal/cognitive-services-compliance-and-privacy/)
