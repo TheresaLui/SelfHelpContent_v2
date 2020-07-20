@@ -854,6 +854,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c825f1a3-1cca-b2aa-4dd6-f6b315bd316b",
+      "longDescription": "",
+      "shortDescription": "Administrator operations for tenant management, including tenant registration and usage tracking",
+      "searchTags": "Operator;Administration",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ca3688eb-70ba-264f-88ab-216942a9101f",
       "longDescription": "",
       "shortDescription": "Azure Stack general guidance and advisory",
