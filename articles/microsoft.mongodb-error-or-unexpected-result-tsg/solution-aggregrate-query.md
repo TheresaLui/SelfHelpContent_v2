@@ -30,7 +30,7 @@ To resolve the issue:
 
 Only the highlighted portion from the aggregate query should be copied over to the find() query.
 3. Does the aggregate query contains only $match, $sort, $project stages (any combination of these stages)?
-    If the query contains any/all of these stages (AND NO OTHER STAGE), then we suggest moving to the find() command instead of aggregate() for better query performance. The format of the find() command is documented at https://docs.mongodb.com/manual/reference/method/db.collection.find/  
+    If the query contains any/all of these stages (AND NO OTHER STAGE), then we suggest moving to the find() command instead of aggregate() for better query performance. The format of the find() command is documented at [find documentation](https://docs.mongodb.com/manual/reference/method/db.collection.find/)
 
 <!--/issueDescription-->
 

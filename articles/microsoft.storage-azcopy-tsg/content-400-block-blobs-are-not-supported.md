@@ -21,8 +21,8 @@
 2.  The account type called "Premium" is actually "Premium Page Blobs". 
 3. Verify the customer intends to move page blobs. GPv1 and GPv2 storage accounts only support page blobs (aka VHD). If not, educate customer about premium block blob storage if that's their intention. 
 4. If using AzCopy v10. To specify blob type:
-    1. Upload files as Append Blobs or Page Blobs.	` --blob-type=[BlockBlob|PageBlob|AppendBlob]`
-    2. Upload to a specific access tier (such as the archive tier). 	`--block-blob-tier=[None|Hot|Cool|Archive]`
+    1. Upload files as Append Blobs or Page Blobs.	--blob-type=[BlockBlob|PageBlob|AppendBlob]
+    2. Upload to a specific access tier (such as the archive tier). 	--block-blob-tier=[None|Hot|Cool|Archive]
 
 ### Recommended Documents
 

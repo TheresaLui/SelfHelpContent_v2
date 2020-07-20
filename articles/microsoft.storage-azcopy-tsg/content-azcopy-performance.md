@@ -17,5 +17,5 @@
 
 # AzCopy Performance
 
-* This section of the troubleshooter will help diagnose and troubleshoot AzCopy performance issues.
+This section of the troubleshooter will help diagnose and troubleshoot AzCopy performance issues.
 
