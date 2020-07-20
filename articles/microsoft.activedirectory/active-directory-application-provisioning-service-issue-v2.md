@@ -21,14 +21,10 @@ If most or all of the calls made against the target system consistently fail due
 
 ## **Recommended Steps**
 
-* Review the progress bar to understand why the application is in [quarantine](https://docs.microsoft.com/azure/active-directory/app-provisioning/application-provisioning-quarantine-status).
-
-* Review the audit logs and set the activity filter to "Quarantine" to see the quarantine history for the application.
-
-* Review the [provisioning logs](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-provisioning-logs) to get detailed error information. 
-
-* Use the [on-demand provisioning](https://docs.microsoft.com/azure/active-directory/app-provisioning/provision-on-demand) capability to provision a user and get detailed diagnostics about the steps taken.
-
+* Review the progress bar to understand why the application is in [quarantine](https://docs.microsoft.com/azure/active-directory/app-provisioning/application-provisioning-quarantine-status)
+* Review the audit logs and set the activity filter to "Quarantine" to see the quarantine history for the application
+* Review the [provisioning logs](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-provisioning-logs) to get detailed error information
+* Use the [on-demand provisioning](https://docs.microsoft.com/azure/active-directory/app-provisioning/provision-on-demand) capability to provision a user and get detailed diagnostics about the steps taken
 
 ## **Recommended Documents**
 
