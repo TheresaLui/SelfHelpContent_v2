@@ -71,7 +71,7 @@
             "id": "deployment_tool",
             "order": 50,
             "controlType": "dropdown",
-            "displayLabel": "Please select the client tool bien used",
+            "displayLabel": "Please select the client tool used",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
