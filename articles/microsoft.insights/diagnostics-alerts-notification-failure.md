@@ -16,7 +16,7 @@
 />
 # Alerts notification failure – no action groups 
 
-## **  Issue Description  **
+## Issue Description
 <!--issueDescription-->
  <!--$Description-->[Description]<!--/$Description-->
 <!--/issueDescription-->
