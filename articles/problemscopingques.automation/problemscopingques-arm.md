@@ -1,22 +1,23 @@
 <properties
-	articleId="problemscopingques-management-issues.md"
-	pageTitle="Azure Management Groups - Management Groups"
-	description="Azure Management Groups - Management Groups"
-	authors="apclouds"
+	pageTitle="Azure Automation - Problems with ARM Template Deployments"
+	description="Azure Automation - Problems with ARM Template Deployments"
+    authors="apclouds"
 	ms.author="angperez"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32743300,32743301,32743302,32743303,32743304,32743299"
-	productPesIds="16530"
-	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
+	productPesIds="15607"
+	supportTopicIds="32641156,32641157,32641158"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+    articleId="problemscopingques-arm.md"
 	schemaVersion="1"
-	ownershipId="ARM_ManagementGroups"
+	ownershipId="Compute_Automation"
 />
-# Management Groups
+# Problems with ARM Templates
 ---
 {
+    "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
     "resourceRequired": false,
-    "title": "Management Groups",
+    "title": "ARM Deployment Errors",
     "fileAttachmentHint": "Please provide a screenshot of any errors",
     "formElements": [
         {
@@ -27,10 +28,10 @@
             "required": true
         },
         {
-            "id": "management_group_id",
+            "id": "deployment_correlation_id",
             "order": 20,
             "controlType": "textbox",
-            "displayLabel": "Please provide your management group ID",
+            "displayLabel": "Please provide your Deployment Correlation ID",
             "required": false
         },
         {
@@ -41,27 +42,53 @@
             "required": false
         },
         {
-            "id": "client_tools",
+            "id": "problem_scope",
             "order": 40,
             "controlType": "dropdown",
-            "displayLabel": "Select the client tool being used",
+            "displayLabel": "Select the scope of the deployment",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                  "value": "Azure Portal",
-                  "text": "Azure Portal"
+                  "value": "Resource Group",
+                  "text": "Resource Group"
                 },
                 {
-                  "value": "Azure CLI",
-                  "text": "Azure CLI"
+                  "value": "Subscription",
+                  "text": "Subscription"
                 },
                 {
-                  "value": "PowerShell",
-                  "text": "PowerShell"
+                  "value": "Management Group",
+                  "text": "Management Group"
                 },
                 {
-                  "value": "REST API",
-                  "text": "REST API"
+                  "value": "Tenant",
+                  "text": "Tenant"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "deployment_tool",
+            "order": 50,
+            "controlType": "dropdown",
+            "displayLabel": "Please select the client tool used",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "PowerShell",
+                    "text": "PowerShell"
+                },
+                {
+                    "value": "CLI",
+                    "text": "CLI"
+                },
+                {
+                    "value": "Portal",
+                    "text": "Portal"
+                },
+                {
+                    "value": "REST API",
+                    "text": "REST API"
                 },
                 {
                     "value": "Other",
@@ -72,7 +99,7 @@
         },
         {
             "id": "problem_description",
-            "order": 50,
+            "order": 60,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Describe the issue, including as much detail as possible with the exact text of error messages where available",
@@ -84,7 +111,6 @@
                 }
             ]
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---
