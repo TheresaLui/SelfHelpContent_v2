@@ -14,9 +14,9 @@
     cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
     ownershipId="AzureMonitoring_ActionGroup"
 />
-# <-- Alerts notification failure – no action groups -->
+# Alerts notification failure – no action groups 
 
-## ** <-- Issue Description --> **
+## **  Issue Description  **
 <!--issueDescription-->
  <!--$Description-->[Description]<!--/$Description-->
 <!--/issueDescription-->
