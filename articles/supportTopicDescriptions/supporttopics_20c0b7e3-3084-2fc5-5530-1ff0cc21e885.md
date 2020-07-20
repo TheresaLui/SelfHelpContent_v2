@@ -758,6 +758,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e9262106-de01-0e1d-d7d3-2e5b4412a72a",
+      "longDescription": "",
+      "shortDescription": "Help with properties and setting up DataSets, Linked Service, and IR integration with various activities.",
+      "searchTags": "activities;dataset;linked service;adf;ir",
+      "category": "Authoring and Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f09e82fa-d572-ee69-0c57-dfa7b86f7b77",
       "longDescription": "",
       "shortDescription": "Jobs are running slow or hang while reading data from Azure Synapse Link for CosmosDB.",
