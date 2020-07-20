@@ -29,15 +29,15 @@ For recommended steps dealing with slow provisioning jobs and quarantine, see th
 
 **Slow Provisioning Jobs**
 
-1. Use the [on-demand provisioning](https://docs.microsoft.com/azure/active-directory/app-provisioning/provision-on-demand) capability to provision a user and get detailed diagnostics about the steps taken.
-2. Periodically restart provisioning to catch any users that were missed in a previous provisioning cycle.
+1. Use the [on-demand provisioning](https://docs.microsoft.com/azure/active-directory/app-provisioning/provision-on-demand) capability to provision a user and get detailed diagnostics about the steps taken
+2. Periodically restart provisioning to catch any users that were missed in a previous provisioning cycle
 3. For detailed information on how to estimate the time it will take to complete a user provisioning cycle, see [How long will it take to provision users?](https://docs.microsoft.com/azure/active-directory/manage-apps/user-provisioning#how-long-will-it-take-to-provision-users)
 
 **Quarantined provisioning jobs**
 
-1. Review the progress bar to understand why the application is in quarantine.
-2. Review the audit logs with the activity filter set to "Quarantine" to view the quarantine history for the application.
-3. Review the [provisioning logs](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-provisioning-logs) to get detailed error information. 
+1. Review the progress bar to understand why the application is in quarantine
+2. Review the audit logs with the activity filter set to "Quarantine" to view the quarantine history for the application
+3. Review the [provisioning logs](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-provisioning-logs) to get detailed error information
 
 
 ## **Recommended Documents**
