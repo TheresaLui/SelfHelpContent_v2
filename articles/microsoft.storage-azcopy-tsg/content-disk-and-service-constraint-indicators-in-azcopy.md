@@ -38,6 +38,7 @@ This is explained in detail [**here**](https://supportability.visualstudio.com/A
 If you want to extract all the relevant log files to a separate file, you can use a command like this PowerShell one (substituting in the correct name for your log file):
 
 ~~~shell
-**-string "Page blob" .\858ebb30-4796-914f-632e-dc355cda0e1c.log | Out-File pageBlobLines.txt**
+
+-string "Page blob" .\858ebb30-4796-914f-632e-dc355cda0e1c.log | Out-File pageBlobLines.txt
 
 ~~~

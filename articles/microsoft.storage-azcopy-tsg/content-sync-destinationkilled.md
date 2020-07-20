@@ -21,9 +21,9 @@
 2. Caused by performance constraints in the environment 
 3. There are five possible solutions:
    1. Add memory to the machine where he's running it. (Easy if its an on-prem VM, harder if its a physical machine) 
-   2.  Get a big Azure VM and use that.? One with lots of RAM.?? 
-   3. Break the work up.? E.g. if the source container contains, say, 20 subfolders, do the subfolders one at a time. 
-   4. Use copy instead of sync.? I see that the customer is using the default sync settings. (I.e. no extra parameters).? So, to reduce memory usage they can use? "azcopy copy" with this added to the command line: -overwrite IfSourceNewer
+   2.  Get a big Azure VM and use that. One with lots of RAM. 
+   3. Break the work up. E.g. if the source container contains, say, 20 subfolders, do the subfolders one at a time. 
+   4. Use copy instead of sync. I see that the customer is using the default sync settings. (I.e. no extra parameters). So, to reduce memory usage they can use "azcopy copy" with this added to the command line: -overwrite IfSourceNewer
 4. That will give them exactly the same effect as their sync, but it will start copying sooner, and will use less memory. This requires AzCopy 10.3.4 (earlier versions don't support it). 
    1. One day, we might optimize sync's memory usage. but that probably won't be any time soon.
   

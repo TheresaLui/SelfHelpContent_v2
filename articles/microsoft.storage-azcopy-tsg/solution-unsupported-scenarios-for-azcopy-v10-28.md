@@ -21,7 +21,7 @@
 
 This is the end of the work flow. Did this TSG resolve your issue?
 
-If not, please reach the ava enabled Teams channel or a TA for further assistance. 
+If not, please provide feedback in the TSG and reach the ava enabled Teams channel or a TA for further assistance. 
 
 <!--/issueDescription-->
 
