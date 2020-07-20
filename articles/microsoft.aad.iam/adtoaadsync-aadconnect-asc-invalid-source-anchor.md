@@ -11,9 +11,9 @@ pageTitle="AAD Connect is configured using an unexpected source anchor"
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="16666"
+  cloudEnvironments="public, Fairfax, Mooncake, ussec, usnat"
+  ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # AAD Connect is configured using an unexpected source anchor

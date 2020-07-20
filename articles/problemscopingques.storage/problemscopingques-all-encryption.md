@@ -5,9 +5,9 @@
 	ms.author="Annayak"
 	selfHelpType="problemScopingQuestions"
 	articleId="StorageScoping_all_encryption"
-	supportTopicIds="32691406,32691407,32691408,32691401,32691402,32691403,32691082,32691083,32691084,32691411,32691413"
-	productPesIds="15629,16459,16598,16460"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	supportTopicIds="32691406,32691407,32691408,32691401,32691402,32691403,32691082,32691083,32691084,32691411,32691413,32738646,32729194,32729195,32728875,32729196"
+	productPesIds="15629,16459,16460,16598,16461,16462"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_AccountManagement"
 />

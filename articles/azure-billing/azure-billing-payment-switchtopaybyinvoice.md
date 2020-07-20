@@ -10,7 +10,7 @@
 	supportTopicIds="32632941"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="payment-switchtopaybyinvoice"
 	ownershipId="ASMS_Billing"
 />

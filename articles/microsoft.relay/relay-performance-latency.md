@@ -10,7 +10,7 @@
     supportTopicIds="32684538"
     resourceTags=""
     productPesIds="16123"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="relay-performance-latency"
 	ownershipId="AzureMessaging_Common"
 />

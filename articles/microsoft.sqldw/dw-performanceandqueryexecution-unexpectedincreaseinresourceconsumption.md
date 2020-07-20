@@ -11,7 +11,7 @@
     selfHelpType="generic"
     resourceTags="datawarehouse"
     articleId="dw-performanceandqueryexecution-unexpectedincreaseinresourceconsumption.md"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_SQLDataWarehouse"
 />
 

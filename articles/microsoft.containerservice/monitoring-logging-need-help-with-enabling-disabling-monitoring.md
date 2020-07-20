@@ -10,7 +10,7 @@
     supportTopicIds="32674475"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="monitoring-logging-need-help-with-enabling-disabling-monitoring"
 	ownershipId="Compute_AzureKubernetesService"
 />
@@ -26,6 +26,7 @@
 * [How to disable Azure Monitor for Azure Kubernetes Service (AKS) (Container Insight)](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-optout)<br>
 * [How to update Azure Monitor for containers to enable metrics](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-update-metrics)<br>
 * [How to monitor Azure Kubernetes Service (AKS) with Azure Monitor container health](https://azure.microsoft.com/blog/monitoring-azure-kubernetes-service-aks-with-azure-monitor-container-health-preview/)<br>
+* [How to integrate monitoring data with an existing workspace](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-enable-existing-clusters#integrate-with-an-existing-workspace)<br>
 
 ### Troubleshooting Guides <br>
 

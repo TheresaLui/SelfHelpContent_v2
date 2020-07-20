@@ -7,15 +7,15 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32636045"
+    supportTopicIds="32739640"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     articleId="d7371e4f-39e0-477f-a401-9af1173bc0a0"
     schemaVersion="1"
-	ownershipId="Compute_AzurePolicy"
+    ownershipId="Compute_AzurePolicy"
 />
-#Authoring a custom policy definition
+# Authoring a custom policy definition
 ---
 {
     "subscriptionRequired": true,

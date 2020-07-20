@@ -10,12 +10,12 @@
 	articleId="indirect_direct_getting_recognized"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635674"
+	supportTopicIds="32730251"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
 # Help getting recognized for Indirect Reseller sales

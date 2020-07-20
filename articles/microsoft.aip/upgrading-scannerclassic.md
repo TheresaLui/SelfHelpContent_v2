@@ -10,7 +10,7 @@
 	supportTopicIds="32727976"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	articleId="MIP_Upgrading_Scanner_Classic"
 	ownershipId="AzureIdentity_InformationProtection"
 />

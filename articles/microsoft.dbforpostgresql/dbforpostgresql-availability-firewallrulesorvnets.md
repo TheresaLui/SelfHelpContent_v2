@@ -9,18 +9,19 @@
     selfHelpType="generic"
     supportTopicIds="32639982"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="88983e2b-0ed3-4183-8eb3-24ecc5539e4e"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Managing firewall rules and virtual networks
 
-[Firewall rules]((https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules)) or [virtual network service endpoints](https://docs.microsoft.com/azure/postgresql/concepts-data-access-and-security-vnet) need to be configured to enable access to your Azure Database for PostgreSQL server.
+[Firewall rules](https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules) or [virtual network service endpoints](https://docs.microsoft.com/azure/postgresql/concepts-data-access-and-security-vnet) need to be configured to enable access to your Azure Database for PostgreSQL server.
 
 ## **Recommended Steps**
 
+* If you have added new firewall rules and they are not taking effect (you see a pg_hba.conf error), you may be in a subset of customers affected by a recent bug. A fix is available; please [restart your server](https://docs.microsoft.com/azure/postgresql/howto-restart-server-portal) to apply this fix. 
 * You can either specify a single IP address or a range of IP addresses that are allowed to access your server. Server-level firewall rules can be managed through the [Azure portal](https://docs.microsoft.com/azure/postgresql/howto-manage-firewall-using-portal), the [Azure CLI](https://docs.microsoft.com/azure/postgresql/howto-manage-firewall-using-cli), and our [REST API](https://docs.microsoft.com/rest/api/postgresql/).
 * If you are using a virtual network (vnet), ensure that the service endpoints are correctly configured for the Postgres server and the client. This can be done using the [Azure portal](https://docs.microsoft.com/azure/postgresql/howto-manage-vnet-using-portal) or the [Azure CLI](https://docs.microsoft.com/azure/postgresql/howto-manage-vnet-using-cli/).
 * If you are using Private Link ensure the correct configuration of the [Private link](https://docs.microsoft.com/azure/postgresql/howto-configure-privatelink-portal)

@@ -10,7 +10,7 @@
 	supportTopicIds="32632952"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="accessandresourcemanagementhowtoaddandmanageadmins"
 	ownershipId="ASMS_SubscriptionManagement"
 />
@@ -20,16 +20,16 @@
 ## **Recommended Steps**
 
 **Change the Subscription Administrator or Co-administrator**
-The Account Administrator can change both roles whereas the Subscription Administrator can only change Co-administrators in the [Management portal](https://ms.portal.azure.com/).<br>
-[Add or change Azure subscription administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
+
+* The Account Administrator can change both roles whereas the Subscription Administrator can only change Co-administrators in the [Management portal](https://ms.portal.azure.com/): [Add or change Azure subscription administrators](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
 
 **Update the Subscription Administrator or Co-Administrator for Internal (AIRS) Subscriptions**
 The Service Administrator or the Co-administrator can self-serve this action by using the steps below:
 
-* Log into the [Azure Portal](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/a84d2c8e-8fab-45bd-afa5-7151a29b800f) and click on **Cost Management + Billing** in the left blade
-* Click on the line item with your subscription. (This will open the Overview for your subscription)
-* On the **Subscription** blade, click on **Properties**. Click the **Service Admin** button
-* Enter the email of the user that you want to set as a Service Administrator. Click **OK**
+* Log into the [Azure Portal](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/a84d2c8e-8fab-45bd-afa5-7151a29b800f) and click on **Cost Management + Billing** in the left blade
+* Click on the line item with your subscription. This will open the Overview for your subscription.
+* On the **Subscription** blade, click on **Properties**. Click the **Service Admin** button.
+* Enter the email of the user that you want to set as a Service Administrator and click **OK**
 
 **Add/Change/Remove Co-administrator**
 
@@ -37,6 +37,7 @@ The Service Administrator or the Co-administrator can self-serve this action by 
 * Open [Subscriptions](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) and select a subscription. (Co-admins can only be assigned at the subscription scope)
 * Click **Access control (IAM)** and click the **Classic administrators** tab. Now click **Add > Add co-administrator** to open the Add co-admin pane (If the Add co-administrator option is disabled, you do not have permissions)
 * Select the user that you want to add and click **Add**<br>
+
 Learn more:
 
   * [Add a Co-Administrator](https://docs.microsoft.com/azure/role-based-access-control/classic-administrators#add-a-co-administrator)
@@ -46,11 +47,13 @@ Learn more:
   * [Manage access using RBAC and Azure portal](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)
 
 **Add/Delete users using Azure Active Directory**
-You can add new users or delete existing users from your Azure Active Directory (Azure AD) organization
+
+You can add new users or delete existing users from your Azure Active Directory (Azure AD) organization:
 
 * To add a new user, sign in to the [Azure portal](https://portal.azure.com/) as a User administrator for the organization
 * Select **Azure Active Directory**, select **Users** and then select **New user**
-* On the **User** page, fill out the required information. Select Create. The user is created and added to your Azure AD tenant<br>
+* On the **User** page, fill out the required information. Select Create. The user is created and added to your Azure AD tenant.
+
 Learn more:
 
   * [Add a new user](https://docs.microsoft.com/azure/active-directory/fundamentals/add-users-azure-active-directory#add-a-new-user)
@@ -66,7 +69,6 @@ Learn more:
 
 * [What is role-based access control (RBAC)?](https://docs.microsoft.com/azure/role-based-access-control/overview)
 * [Understand the different roles in Azure](https://docs.microsoft.com/azure/role-based-access-control/rbac-and-directory-admin-roles)
-* [How to: Associate or add an Azure subscription to Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory)
 * [Administrator role permissions in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)
 * [Tutorial: Grant access for a user using RBAC and the Azure portal](https://docs.microsoft.com/azure/role-based-access-control/quickstart-assign-role-user-portal)
 * [Troubleshoot RBAC in Azure](https://docs.microsoft.com/azure/role-based-access-control/troubleshooting)

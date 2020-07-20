@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32640125"
 	productPesIds="16617"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-mariadb-perf-select1"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"

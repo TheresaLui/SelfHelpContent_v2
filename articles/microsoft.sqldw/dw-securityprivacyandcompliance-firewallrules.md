@@ -11,7 +11,7 @@
     selfHelpType="generic"
     resourceTags="datawarehouse"
     articleId="dw-securityprivacyandcompliance-firewallrules.md"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_SQLDataWarehouse"
 />
 
@@ -24,7 +24,7 @@
 * For Polybase connectivity from Azure SQL Data Warehouse to Azure Storage under firewalls or virtual network, refer to [this](https://docs.microsoft.com/azure/sql-database/sql-database-private-endpoint-overview#connecting-from-an-azure-sql-data-warehouse-to-azure-storage-using-polybase) document
 * For virtual network service endpoints, refer to [Use virtual network service endpoints for database servers](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview?toc=/azure/sql-data-warehouse/toc.json&bc=/azure/sql-data-warehouse/breadcrumb/toc.json)
 * For details on Azure SQL Data Warehouse connectivity architecture, refer to [Azure SQL Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture)
-* For details on Network Security Groups, refer to this [Security groups](https://docs.microsoft.com/azure/virtual-network/security-overview#service-tags) document
+* For details on Network Security Groups and Azure Service tags, refer to this [Security groups](https://docs.microsoft.com/azure/virtual-network/security-overview#service-tags) document
 
 ## **Recommended Documents**
 

@@ -8,9 +8,9 @@
     supportTopicIds="32693239"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="8a62be5e-a71f-4c7a-b4c6-d896309e8200"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center – Managing Alerts – My Alerts Topic is not listed

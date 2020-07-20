@@ -13,21 +13,27 @@
     supportTopicIds="32677649, 32677680, 32677678, 32677671, 32677670, 32677681, 32677655"
     resourceTags=""
     productPesIds="16432"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureDatabricks"
 />
 
 # We ran diagnostics on your resource and found the following issue
 <!--issueDescription-->
-Cluster unable to start/scale due to insufficient number of cores within the subscription. 
+Cluster unable to start/scale due to insufficient number of cores within the subscription: <!--$SubscriptionId-->[SubscriptionId]<!--/$SubscriptionId-->
 
-Requested Cores: <!--$AdditionalRequestCores-->[AdditionalRequestCores]<!--/$AdditionalRequestCores-->
+Current number of cores in use: <!--$CurrentDeploymentCount-->[CurrentDeploymentCount]<!--/$CurrentDeploymentCount-->
+
+Maximum allowed cores: <!--$MaxAllowedQuota-->[MaxAllowedQuota]<!--/$MaxAllowedQuota-->
+
+Requested cores: <!--$AdditionalRequestCores-->[AdditionalRequestCores]<!--/$AdditionalRequestCores-->
+
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
 * Check whether sufficient quota of cores are available in region for this subscription: <!--$SubscriptionId-->[SubscriptionId]<!--/$SubscriptionId-->
-* Not enough cores available: follow instructions for raising a [ticket](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests) 
+
+* Please follow instructions for raising a [ticket](https://docs.microsoft.com/azure/azure-supportability/per-vm-quota-requests) for more cores
 
 ## **Recommended Documents**
 

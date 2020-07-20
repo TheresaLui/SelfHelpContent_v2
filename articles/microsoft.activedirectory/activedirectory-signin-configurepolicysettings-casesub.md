@@ -10,7 +10,7 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="b797ec2d-c7fb-40ae-8baf-0b6ddcfe0a69"
 	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
@@ -19,14 +19,23 @@
 
 ## **Recommended Steps**
 
-* If you would like a video on how to configure Conditional Access, see [Enable Azure Active Directory Conditional Access to secure user access](https://www.youtube.com/watch?time_continue=4&v=eLAYBwjCGoA)
-* [Require MFA for specific apps with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)
-* If you are ready to configure conditional access policies for your environment, review the [best practices for conditional access in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices)
-* If you would like a step-by-step deployment plan with recommended policies, download this [conditional access deployment plan](http://aka.ms/conditionalaccessdeploymentplan)
+**Steps to deploy a Conditional Access Policy**
+
+Before you get started, download the step-by-step Conditional Access [Deployment plan](http://aka.ms/conditionalaccessdeploymentplan)
+1. [Configure Policy](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies), including assignments, conditions, and controls
+2. Test policy using [What-if Tool](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if) and [Report-Only Mode](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-report-only)	
+3. [Move to Production](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access)
+
 
 ## **Recommended Documents**
 
-* [Conditional Access overview](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
-* [“What If” tool for Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/what-if-tool)
-* [Quickstart: Block access when a session risk is detected with Azure Active Directory conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-sign-in-risk)
-* [How to: Block legacy authentication to Azure AD with conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication)
+**Getting started with Conditional Access**
+* Short intro to Conditional Access [Document](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) and [Video](https://www.youtube.com/watch?v=c_izIRNJNuk)
+
+* [Best Practices](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices)
+	
+**Common Conditional Access Policies**
+* [Require MFA for Administrators](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa)
+* [Block Access by Location](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-location)
+* [Block Legacy Authentication](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)
+* [Require Compliant Devices](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device)

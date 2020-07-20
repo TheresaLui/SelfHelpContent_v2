@@ -5,7 +5,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570265"
     productPesIds="14785,16575"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleID="59f008b6-1525-48d0-aded-235559b387b3"
     	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"

@@ -11,9 +11,9 @@ pageTitle="Default run profile configuration has been modified"
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="16666"
+	cloudEnvironments="public, Fairfax, Mooncake, Ussec, Usnat"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Default run profile configuration has been modified

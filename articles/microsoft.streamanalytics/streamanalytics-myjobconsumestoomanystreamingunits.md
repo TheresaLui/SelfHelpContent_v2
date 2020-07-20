@@ -8,7 +8,7 @@
 	selfHelpType="resource"
 	supportTopicIds=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="6223d52c-85e8-47c4-b110-1f2064cb5be8"
 	ownershipId="AzureData_StreamAnalytics"
 />

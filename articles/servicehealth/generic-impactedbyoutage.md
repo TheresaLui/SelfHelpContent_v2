@@ -9,9 +9,9 @@
 	articleId="Service-healthevent-article-id"
 	diagnosticScenario="health_diagnostic"
 	selfHelpType="servicehealthinsights"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleTags="healthannotation_impactedbyoutage"
-ownershipId="ASEP_ContentService_Placeholder"
+ownershipId="ASEP_ServiceHealth"
 />
 
 # An Azure service issue impacted resources in your subscription

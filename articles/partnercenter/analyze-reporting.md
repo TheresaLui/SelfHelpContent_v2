@@ -10,12 +10,12 @@
 	articleId="analyze_reporting"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635633"
+	supportTopicIds="32725818"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17001"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Analytics"
 />
 
 # CSP - analyze and reporting

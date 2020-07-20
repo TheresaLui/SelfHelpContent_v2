@@ -6,7 +6,7 @@
     articleId="0dc165fd-69bf-468a-aa04-a69377b6feb0_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AppService"
 />
 # Use deployment slots for your App Service resource
 ---

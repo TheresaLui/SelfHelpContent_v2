@@ -1,15 +1,15 @@
 <properties
-	pageTitle="Issues with IoT Edge"
-	description="Scoping questions for the most generic IoT Edge problems. Basically the same set of stuff as the issue template on https://github.com/Azure/iotedge/issues"
-	authors="jlian"
-	ms.author="jlian"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32680950,32680966,32680969,32680976,32680986,32680963,32680983,32680985,32680987,32680945,32680946,32680949,32680952,32680953,32680962,32680967,32680973,32680942,32680958,32680959,32680960,32680977,32680943,32680961,32680978,32680979,32680980,32680981,32680982,32680970,32680971,32680972,32680936,32680937,32680940,32689202,32680941,32680944,32680947,32680948,32680954,32680964,32680968,32680984"
-	productPesIds="16509"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
-	schemaVersion="1"
-	articleId="04c1f45a-af94-4bba-b814-7106107ffae4"
-	ownershipId="AzureIot_IotEdge"
+  pageTitle="Issues with IoT Edge"
+  description="Scoping questions for the most generic IoT Edge problems. Basically the same set of stuff as the issue template on https://github.com/Azure/iotedge/issues"
+  authors="jlian"
+  ms.author="jlian"
+  selfHelpType="problemScopingQuestions"
+  supportTopicIds="32680950,32680966,32680969,32680976,32680986,32680963,32680983,32680985,32680987,32680945,32680946,32680949,32680952,32680953,32680962,32680967,32680973,32680942,32680958,32680959,32680960,32680977,32680943,32680961,32680978,32680979,32680980,32680981,32680982,32680970,32680971,32680972,32680936,32680937,32680940,32689202,32680941,32680944,32680947,32680948,32680954,32680964,32680968,32680984"
+  productPesIds="16509"
+  cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
+  schemaVersion="1"
+  articleId="04c1f45a-af94-4bba-b814-7106107ffae4"
+  ownershipId="AzureIot_IotEdge"
 />
 # Issues with IoT Edge
 ---
@@ -18,7 +18,7 @@
   "subscriptionRequired": false,
   "resourceRequired": false,
   "title": "Issue with IoT Edge",
-  "fileAttachmentHint": "Upload screenshots of errors if available",
+  "fileAttachmentHint": "On releases 1.0.9 and later, please attach the output of 'sudo iotedge support-bundle --since 24h'",
   "formElements": [
     {
       "id": "problem_start_time",
@@ -26,6 +26,16 @@
       "controlType": "datetimepicker",
       "displayLabel": "When did the problem start?",
       "required": true
+    },
+    {
+      "id": "problem_description",
+      "order": 11,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Description",
+      "infoBalloonText": "To get iotedged logs, edge-agent logs, and edge-hub logs, see <a href='https://docs.microsoft.com/azure/iot-edge/troubleshoot#standard-diagnostic-steps'>IoT Edge diagnostic steps</a>",
+      "watermarkText": "Please provide the description of the issue and expected behavior vs. what you're observing.",
+      "required": true,
+      "useAsAdditionalDetails": true
     },
     {
       "id": "edge_device_id",
@@ -44,8 +54,12 @@
       "watermarkText": "Choose an option",
       "dropdownOptions": [
         {
-          "value": "108OrHigher",
-          "text": "1.0.8 or higher"
+          "value": "109+",
+          "text": "1.0.9 or higher"
+        },
+        {
+          "value": "108",
+          "text": "1.0.8"
         },
         {
           "value": "107",
@@ -68,13 +82,50 @@
       "required": false
     },
     {
+      "id": "include_sb",
+      "visibility": "edge_version == 109+",
+      "order": 14,
+      "controlType": "multilinetextbox",
+      "displayLabel": "iotedge support-bundle",
+      "watermarkText": "You can help reduce the issue resolution time by attaching the file output from 'iotedge support-bundle'.\n\nOn Linux, use command:\nsudo iotedge support-bundle --since 24h\n\nOn Windows, use:\niotedge support-bundle --since 24h",
+      "infoBalloonText": "To learn more, see the <a href='https://docs.microsoft.com/azure/iot-edge/troubleshoot#gather-debug-information-with-iotedge-support-bundle-command'>docs page</a>"
+    },
+    {
+      "id": "sb_included",
+      "visibility": "edge_version == 109+",
+      "order": 15,
+      "controlType": "dropdown",
+       "displayLabel": "'iotedge support-bundle' output attached?",
+      "watermarkText": "Choose an option",
+      "dropdownOptions": [
+        {
+          "value": "y",
+          "text": "Yes"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "No"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "update_to_109",
+      "visibility": "edge_version == 107 || edge_version == dont_know_answer || edge_version == 108",
+      "order": 13,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Latest version advisory",
+      "watermarkText": "1.0.9 release is now available with many improvements!\n\nIf you haven't already, you should strongly consider updating the IoT Edge runtime containers and IoT Edge daemon to this version.",
+      "infoBalloonText": "To learn more, see the <a href='https://techcommunity.microsoft.com/t5/internet-of-things/iot-edge-1-0-9/ba-p/1237100'>release blog post</a>"
+    },
+    {
       "id": "iotedge_check_108",
-      "visibility": "edge_version == 108OrHigher",
+      "visibility": "edge_version == 108",
       "order": 5,
       "controlType": "multilinetextbox",
       "displayLabel": "Output of 'sudo iotedge check --output json'",
       "infoBalloonText": "Remove `sudo` on Windows: `iotedge check --output json`",
-      "watermarkText": "Example: \n{\"additional_info\":{\"docker_version\":\"3.0.5\",\"iotedged_version\":\"1.0.8\",\"now\":\"2019-08-15T19:21:07.163516400Z\",\"os\":{\"id\":\"windows\",\"version_id\":\"10.0.17763 \",\"bitness\":64}}\n...",
+      "watermarkText": "Example: \n{\"additional_info\":{\"docker_version\":\"3.0.5\",\"iotedged_version\":\"1.0.8\",\"now\":\"2019-08-15T19:21:07.163516400Z\",\"os\":{\"id\":\"windows\"blah,\"version_id\":\"10.0.17763 \",\"bitness\":64}}\n...",
       "required": false
     },
     {
@@ -217,27 +268,6 @@
       "displayLabel": "Docker version",
       "watermarkText": "Paste output of `docker version` here",
       "required": false
-    },
-    {
-      "id": "problem_description",
-      "order": 11,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Description",
-      "infoBalloonText": "To get iotedged logs, edge-agent logs, and edge-hub logs, see <a href='https://docs.microsoft.com/azure/iot-edge/troubleshoot#standard-diagnostic-steps'>IoT Edge diagnostic steps</a>",
-      "watermarkText": "Please provide any additional information that may be helpful in understanding the issue. ",
-      "required": true,
-      "useAsAdditionalDetails": true,
-      "hints": [
-        {
-          "text": "Description of the issue and steps to reproduce"
-        },
-        {
-          "text": "Expected behavior and current behavior"
-        },
-        {
-          "text": "Share as many logs as possible (iotedged logs, edge-agent logs, edge-hub logs)"
-        }
-      ]
     }
   ]
 }

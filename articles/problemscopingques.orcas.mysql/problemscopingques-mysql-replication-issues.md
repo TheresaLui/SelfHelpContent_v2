@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32673559"
     productPesIds="16221"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mysql-replication-issues"
 	ownershipId="AzureData_AzureDatabaseforMySQL"

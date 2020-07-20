@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32689203"
                 productPesIds="14749,15571,15797,16454,16470"
-                cloudEnvironments="Public, Fairfax"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="299e5964-a726-47f3-9722-829ffb6d360f"
 	ownershipId="Compute_VirtualMachines_Content"
@@ -15,8 +15,8 @@
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
-    "title": "My issue or extension isn’t listed above",
+    "resourceRequired": false,
+    "title": "VM Guest Agent issue (crash, hung, not upgrading, or not connecting)",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -28,33 +28,8 @@
             "useAsAdditionalDetails": false
         },
         {
-            "id": "vm_extension",
-            "order": 2,
-            "controlType": "multiselectdropdown",
-            "displayLabel": "Select all the applicable extensions you are having issue with",
-            "dynamicDropdownOptions": {
-                "uri": "{resourceId}/extensions?api-version=2019-03-01",
-                "jTokenPath": "value",
-                "textProperty": "id",
-                "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Other, don't know or not applicable"
-                }
-            },
-            "dropdownOptions": [
-                {
-                    "value": "Unable to retrieve list of extensions.",
-                    "text": "Unable to retrieve list of extensions."
-                }
-            ],
-            "useAsAdditionalDetails": false,
-            "required": true
-        },
-        {
             "id": "extension_configure",
-            "order": 3,
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What extension are you trying to configure?",
             "required": false,
@@ -62,7 +37,7 @@
         },
         {
             "id": "extension_operation",
-            "order": 4,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "What operation are you trying to do?",
             "watermarkText": "Choose an option",
@@ -92,7 +67,7 @@
         },
         {
             "id": "extension_agentinstalled",
-            "order": 5,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Do you have the latest Azure VM Agent installed?",
             "watermarkText": "Choose an option",
@@ -114,7 +89,7 @@
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
@@ -122,7 +97,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 7,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true

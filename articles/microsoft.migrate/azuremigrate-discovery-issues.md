@@ -10,7 +10,7 @@
     supportTopicIds="32675749"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="3a672f3a-1f25-4ba7-92f8-cecd50db4097"
 	ownershipId="Compute_AzureMigrate"
 />
@@ -18,6 +18,25 @@
 # Discovery issues
 
 ## **Recommended Steps**
+
+### **I don't see the discovered VMs on Azure portal. Server Assessment and Server Migration tiles show a status of "Discovery in progress"**
+
+After starting discovery from the appliance, allow some time for the discovered machines to show up on the Azure portal. It takes around 15 minutes for a VMware discovery, and around 2 minutes per added host for a Hyper-V discovery. If you continue to see "Discovery in progress" even after this time, try the following: 
+
+ - Click **Refresh** on the **Servers** tab. This should show the count of the discovered servers in the Server Assessment and Server Migration tiles.
+ - If you are discovering VMware servers, verify that the vCenter account you specified has permissions set correctly and has access granted to at least 1 VM. 
+ 
+ Please note that while you can set the discovery scope to vCenter Server datacenters, clusters, folder of clusters, hosts, folder of hosts, or individual VMs, Azure Migrate is not able to discover VMs if the vCenter account has access granted at vCenter VM folder level. Learn more about scoping discovery [here](https://docs.microsoft.com/azure/migrate/tutorial-assess-vmware#scoping-discovery).
+
+
+### **Application discovery is not working due to error ID 9013 (temporary profile error).**
+
+Please edit the credentials for the Windows user in username@domain.com format, popularly known as [UPN format](https://docs.microsoft.com/windows/win32/secauthn/user-name-formats). [Learn more](https://docs.microsoft.com/azure/migrate/troubleshoot-appliance-discovery#common-app-discovery-errors) on troubleshooting application discovery issues. 
+
+### **Machines are showing outdated information on the portal. How do I proceed?**
+
+Ensure that the Azure Migrate appliance is up and running. Note that it takes 30 minutes for the latest information to reflect on the Azure Migrate portal. If you still see outdated information, you can perform a refresh using the steps listed [here](https://docs.microsoft.com/azure/migrate/troubleshooting-general#i-do-not-the-latest-information-on-the-on-premise-vms-on-the-portal).
+
 
 ### **What data is collected by Azure Migrate: Server Assessment?**
 
@@ -27,17 +46,6 @@ The Azure Migrate appliance collects metadata about the on-premises VMs, the com
 * [Metadata collected using VMware appliance](https://docs.microsoft.com/azure/migrate/migrate-appliance#collected-metadata-vmware)
 
 Additionally, if you are using the [dependency visualization functionality](https://docs.microsoft.com/azure/migrate/how-to-create-group-machine-dependencies), the dependency agents collect details such as FQDN, OS, IP address, MAC address, processes running inside the VM and the incoming/outgoing TCP connections from the VM.
-
-### **Machines are showing outdated information on the portal. How do I proceed?**
-
-Ensure that the Azure Migrate appliance is up and running. Note that it takes 30 minutes for the latest information to reflect on the Azure Migrate portal. If you still see outdated information, you can perform a refresh using the steps listed [here](https://docs.microsoft.com/azure/migrate/troubleshooting-general#i-do-not-the-latest-information-on-the-on-premise-vms-on-the-portal).
-
-### **I don't see the discovered VMs on Azure portal. Server Assessment and Server Migration tiles show a status of "Discovery in progress"**
-
-After starting discovery from the appliance, allow some time for the discovered machines to show up on the Azure portal. It takes around 15 minutes for a VMware discovery, and around 2 minutes per added host for a Hyper-V discovery. If you continue to see "Discovery in progress" even after this time, try the following: 
-
- - Click **Refresh** on the **Servers** tab. This should show the count of the discovered servers in the Server Assessment and Server Migration tiles.
- - If you are discovering VMware servers, verify that the vCenter account you specified has permissions set correctly and has access granted to at least 1 VM. Please note that while you can set the discovery scope to vCenter Server datacenters, clusters, folder of clusters, hosts, folder of hosts, or individual VMs, Azure Migrate is not able to discover VMs if the vCenter account has access granted at vCenter VM folder level. Learn more about scoping discovery [here](https://docs.microsoft.com/azure/migrate/tutorial-assess-vmware#scoping-discovery).
 
 ## Hyper-V VM discovery
 
@@ -87,4 +95,8 @@ The discovery of installed applications is currently only supported for VMware V
 ### Is the application discovery using Azure Migrate agentless?  
 
 The application discovery is done without installing any agents or scripts on the machines and VMs. Server Assessment uses the Azure Migrate appliance to perform discovery using the machine credentials provided. The appliance remotely accesses machines using WMI and SSH.
+
+### **What are the privileges required to set up application discovery**
+
+Review the necessary prerequisites for app discovery [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-vmware#application-discovery).
 

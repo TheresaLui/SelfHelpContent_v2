@@ -1,6 +1,6 @@
 <properties
-	pageTitle="billing-pricing-my issue is not listed above"
-	description="billing-pricing-my issue is not listed above"
+	pageTitle="billing-pricing-azure price sheet API"
+	description="billing-pricing-azure price sheet API"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
@@ -10,37 +10,32 @@
 	supportTopicIds="32680676"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="pricing-myissueisnotlistedabove"
 	ownershipId="ASMS_Billing"
 />
 
-# Pricing-my issue is not listed above
+# Pricing-azure price sheet API
 
-### **Azure Free Trial account**
+### **Help me use Azure price sheet API?**<br>
+The Price Sheet API provides the applicable rate for each Meter for the given Enrollment and Billing Period<br>
+[Billing Enterprise API Pricesheet](https://docs.microsoft.com/rest/api/billing/enterprise/billing-enterprise-api-pricesheet)
 
-Azure free trial account is only for 1 month and once it is upgraded to pay-g there will be 12 month free services. The Azure free account includes free access to the most popular Azure products for 12 months, $200 credit to spend for the first 30 days of sign up, and access to more than 25 products that are always free. If you are seeing a charge, it is likely possible that it is not one of the listed products that are available monthly, for free.<br>
-Note, you would need to upgrade to [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) after the first 30 days in order to continue using the Free Account for the remaining 11 months and you would not be charged if you stayed within the free service limits otherwise, once you upgrade to pay as you go subscription you will be charged as per the standard rates of pay as you go subscription depends on the consumption.<br>
-[Products available monthly for free under Azure free account](https://azure.microsoft.com/free/free-account-faq/)<br>
-Use [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) to configure and estimate the costs for Azure products
+### **Understand charges on an Azure free account?**<br>
+Azure free trial account is only for 1 month and once it is upgraded to pay-g there will be 12 month free services. The Azure free account includes free access to the most popular Azure products for 12 months, $200 credit to spend for the first 30 days of sign up, and access to more than 25 products that are always free. If you are seeing a charge, it is likely possible that it is not one of the listed products that are available monthly, for free: [Products available monthly for free under Azure free account](https://azure.microsoft.com/free/free-account-faq/)<br>
+**Note**: You would need to upgrade to [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) after the first 30 days in order to continue using the Free Account for the remaining 11 months and you would not be charged if you stayed within the free service limits<br>
+Use [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) to configure and estimate the costs for Azure products
 
-### **Change a SendGrid plan**
-To change a SendGrid plan you need to cancel the current plan and purchase a new one. For example, currently using Bronze plan and would like to change to silver, then you need to cancel Bronze plan and purchase Silver plan.<br>
-Learn more: [Azure SendGrid](http://azure.microsoft.com/marketplace/partners/sendgrid/sendgrid-azure/)
+### **Need to change a SendGrid plan?**<br>
+To change a SendGrid plan you need to cancel the current plan and purchase a new one. For example, currently using Bronze plan and would like to change to silver, then you need to cancel Bronze plan and purchase Silver plan<br>
+Learn more: [Azure SendGrid](http://azure.microsoft.com/marketplace/partners/sendgrid/sendgrid-azure/)
 
-### **Invoice**
-The anniversary day is the day of the month you purchased the subscription. The invoice is generated on the anniversary date and 10 days later the credit card is charged. For example, if you purchased the subscription on January 15th, the anniversary day will be the 15th of each month when the invoice is generated and 10 days later the card is charged.
-Invoice customers need to pay using Wire transfer/check and the details for payment is available on your monthly invoice.<br>
-[Download or view your Azure billing invoice and daily usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
+### **Help me understand when I will be charged?**<br>
+The anniversary day is the day of the month you purchased the subscription. The invoice is generated on the anniversary date and 10 days later the credit card is charged. Invoice customers need to pay using Wire transfer/check and the details for payment is available on your monthly invoice<br>
+For example, if you purchased the subscription on January 15th, the anniversary day will be the 15th of each month when the invoice is generated and 10 days later the card is charged.
 
-### **Azure Sponsorship**
-This offer for a limited sponsored Microsoft Azure account is available by e-mail invitation only for limited customers selected by Microsoft. If you are entitled to the Microsoft Azure Sponsorship offer, you would have received an e-mail invitation to accept this offer for your Account Id. You can access usages and balances on the Azure Sponsorship portal [here](https://www.microsoftazuresponsorships.com/balance)
-
-### **Spending limit**
-
-* [Set up/Remove spending limit](https://docs.microsoft.com/azure/billing/billing-spending-limit)
-* [Set up cost alerts to monitor usage and spending limit](https://docs.microsoft.com/azure/cost-management/cost-mgt-alerts-monitor-usage-spending)
-* [Prevent unexpected costs](https://docs.microsoft.com/azure/billing/billing-getting-started)
+### **Azure Sponsorship**<br>
+This offer for a limited sponsored Microsoft Azure account is available by e-mail invitation only for limited customers selected by Microsoft. If you are entitled to the Microsoft Azure Sponsorship offer, you would have received an e-mail invitation to accept this offer for your Account Id. You can access usages and balances on the Azure Sponsorship portal [here](https://www.microsoftazuresponsorships.com/balance)
 
 ## **Recommended Documents**
 
@@ -50,5 +45,5 @@ This offer for a limited sponsored Microsoft Azure account is available by e-mai
 * [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/)
 * [Azure pricing and purchase options](https://azure.microsoft.com/pricing/)
 * [Azure Purchase FAQ](https://azure.microsoft.com/pricing/faq/)
-* [Upgrade free subscription to Pay-As-You-Go](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription/)
-* [Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/billing/billing-getting-started)
+* [Upgrade free subscription to Pay-As-You-Go](https://docs.microsoft.com/azure/cost-management-billing/manage/upgrade-azure-subscription)
+* [Getting started with Azure billing and cost management](https://docs.microsoft.com/azure/cost-management-billing/manage/getting-started)

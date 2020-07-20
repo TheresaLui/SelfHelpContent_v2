@@ -4,12 +4,12 @@
     ms.author="t-reutam"
     authors="ReutAmior"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32606571"
+    supportTopicIds="32740746, 32740748"
     productPesIds="16535"
     articleId="problemscopingques-video-indexer-upload"
-    cloudEnvironments="public,blackForest,fairfax,mooncake"
+    cloudEnvironments="public,blackForest,fairfax, usnat, ussec"
     schemaVersion="1"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_Media_VI"
 />
 # Uploading a video to Video Indexer
 ---

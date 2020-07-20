@@ -9,15 +9,15 @@
     selfHelpType="generic"
     supportTopicIds="32640022"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="7983296e-b490-453f-9244-e50acd80e869"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Issues with setting up monitors and alerts
 
-In Azure Database for PostgreSQL, you can alert on metrics for your Azure services.
+In Azure Database for PostgreSQL, you can alert on metrics for your Azure services. If you use [Azure Monitor Logs for your Postgres logs](https://docs.microsoft.com/azure/postgresql/concepts-server-logs), you can [configure log alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-unified-log). 
 
 Most users are able to resolve their issue using the steps below.
 
@@ -37,5 +37,5 @@ Most users are able to resolve their issue using the steps below.
 
 * [List of Azure Database for PostgreSQL metrics](https://docs.microsoft.com/azure/postgresql/concepts-monitoring)<br>
 * [Create an alert rule on a metric from Azure portal](https://docs.microsoft.com/azure/postgresql/howto-alert-on-metric/)<br>
-* [How to configuring webhooks in alerts.](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-webhooks/)<br>
+* [How to configure webhooks in alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-webhooks/)<br>
 * [Overview of metrics collection](https://docs.microsoft.com/azure/azure-monitor/platform/data-platform#metrics/)

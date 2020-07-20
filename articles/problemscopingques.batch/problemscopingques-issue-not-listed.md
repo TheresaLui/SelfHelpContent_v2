@@ -7,7 +7,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32635068,32635077,32635084,32635052,32635064,32635083,32635055,32636039,32636040,32636041,32636042,32635080,32635081,32635085,32635086,32635062,32635063,32635060"
     productPesIds="15614"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
 	ownershipId="Compute_AzureBatch"
 />

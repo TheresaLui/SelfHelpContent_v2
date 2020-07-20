@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32570111,32570112,32570113"
                 productPesIds="14749,15571,15797,16454,16470"
-                cloudEnvironments="Public, Fairfax"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0102"
 	ownershipId="Compute_VirtualMachines_Content"
@@ -14,7 +14,8 @@
 # VM Migration
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Migrate virtual machines to Azure using Azure Site Recovery",
     "fileAttachmentHint": "",
     "formElements": [

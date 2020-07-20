@@ -10,7 +10,7 @@
   supportTopicIds="32684515"
   resourceTags="aadconnect,aadconnect_pass_through_authentication,managed_authentication"
   productPesIds="16666"
-  cloudEnvironments="public, Fairfax"
+  cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
   articleId="c6546fa2-9f7b-4f75-b3d5-985156272dc2"
 	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />

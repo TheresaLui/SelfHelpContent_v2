@@ -5,7 +5,6 @@ description="Restore deleted workspace"
 service="microsoft.operationalinsights"
 resource="workspaces"
 articleId="777445d0-915a-43d5-adfc-749a17c03410"
-ownershipId="AzureMonitoring_LogAnalytics"
 symptomID=""
 infoBubbleText=""
 authors="yossiy"
@@ -15,8 +14,8 @@ selfHelpType="generic"
 supportTopicIds="32612520"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
-	ownershipId="AzureMonitoring_LogAnalytics"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Restore deleted workspace

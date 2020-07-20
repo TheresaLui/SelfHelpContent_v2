@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628093"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="1dec7a4b-3a96-a1e5-db0e-2335dddd31b0"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Scenario: App performing the on-behalf-of flow

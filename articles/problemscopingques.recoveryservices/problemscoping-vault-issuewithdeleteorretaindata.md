@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632785"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="532fa46c-9d45-454c-84d5-fce64a5d639d"
 	ownershipId="StorageMediaEdge_Backup"
@@ -18,11 +18,6 @@
     "subscriptionRequired": true,
     "title": "Issue with delete or retain data",
     "fileAttachmentHint": "",
-     "diagnosticCard": {
-        "title": "Issue with delete or retain data",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "error_message",
@@ -30,7 +25,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the error message that are you seeing:",
             "watermarkText": "Copy and paste error message text here",
-            "required": false
+            "required": true
         },
         {
             "id": "item_name",
@@ -45,8 +40,7 @@
             "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_description",

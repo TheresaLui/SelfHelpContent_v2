@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32683758"
                 productPesIds="16450"
-                cloudEnvironments="Public,Fairfax"
+                cloudEnvironments="Public,Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="problemscoping-cluster-management-performance-high-cpu-memory"
 	ownershipId="Compute_AzureKubernetesService"

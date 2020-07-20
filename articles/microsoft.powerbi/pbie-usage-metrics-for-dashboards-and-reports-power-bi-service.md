@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628168"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="8aafd39a-bde7-a834-af8e-eae2c786601c"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Monitor usage metrics for Power BI dashboards and reports

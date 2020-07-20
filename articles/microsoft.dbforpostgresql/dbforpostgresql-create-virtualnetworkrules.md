@@ -8,8 +8,8 @@
     displayOrder="240"
     selfHelpType="generic"
     supportTopicIds="32640028"
-    productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="dd2fe58d-ee46-42c8-a58a-b9775d8f84fb"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />

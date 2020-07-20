@@ -2,13 +2,13 @@
   pagetitle="SupportTopicDescriptions for b98631b1-d53a-3ac4-3181-aef136ec703d"
   description="SupportTopicDescriptions for b98631b1-d53a-3ac4-3181-aef136ec703d"
   authors="elixirsys2"
-  ms.author="marwa"
+  ms.author="marwa, v-vigra"
   selfhelptype="SupportTopicDescription"
   productpesids="b98631b1-d53a-3ac4-3181-aef136ec703d"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_b98631b1-d53a-3ac4-3181-aef136ec703d" 
-ownershipId="ASEP_ContentService_Placeholder"
-/>
+  ownershipId="AzureIdentity_ComplianceAndReporting"
+  />
 # Support Topic Descriptions for b98631b1-d53a-3ac4-3181-aef136ec703d
 ---
 {
@@ -31,6 +31,14 @@ ownershipId="ASEP_ContentService_Placeholder"
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1041540a-71ef-2209-92d5-97e2cbe84c3b",
+      "longDescription": "",
+      "shortDescription": "You are using an Azure AD P1 license and still cant access the sign-in logs in Azure AD ",
+      "searchTags": "issue with licensing requirements",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1ee404fa-ef5e-b82a-4bea-c754ddb40087",
       "longDescription": "",
       "shortDescription": "You have a problem with the configuration of AADConnect Health",
@@ -43,6 +51,22 @@ ownershipId="ASEP_ContentService_Placeholder"
       "longDescription": "",
       "shortDescription": "You have a problem with the on-prem agent of AADConnect Health",
       "searchTags": "Configuring On-Prem Agent;AAD Connect Health ",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "209aa00a-5ea8-2d0f-5a04-44314d9f5738",
+      "longDescription": "",
+      "shortDescription": "You are expecting to see data for a longer period of time (based on your license) and is not seeing them",
+      "searchTags": "issue with a data retention period",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "218c9912-b35c-b04d-2551-57baacbc19d8",
+      "longDescription": "",
+      "shortDescription": "You are not seeing an authentication log you expected to see either through Graph API endpoint or when using the portal",
+      "searchTags": "Missing AAD Auth Log;AAD Audit Log",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -71,6 +95,14 @@ ownershipId="ASEP_ContentService_Placeholder"
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "35f6627d-8c2c-d446-0a24-c6123893aa4b",
+      "longDescription": "",
+      "shortDescription": "Sign-In Activity Reports-provides information about the usage of managed applications and user sign-in activities",
+      "searchTags": "Sign-in Activity reports",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "452f11c9-845e-da2b-a531-d39f6518c5b3",
       "longDescription": "",
       "shortDescription": "You have a problem with Azure AD Sign-in logs",
@@ -79,10 +111,26 @@ ownershipId="ASEP_ContentService_Placeholder"
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5915703f-55dc-709b-1572-25ba641f0545",
+      "longDescription": "",
+      "shortDescription": "Problems or issues you are encountering with the Access Review feature in Azure AD",
+      "searchTags": "Access Review;Access Review Configuration;Access Review in AAD",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6221fab0-c4f1-37c5-84f7-fc2af0de1d0a",
       "longDescription": "",
       "shortDescription": "You have a problem with AADConnect Health alerts for ADFS",
       "searchTags": "ADFS ;AAD Connect Health;Connect Health alerts for ADFS",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "758e5ad4-4994-5aad-d525-95690bb2c954",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with the Terms of Use feature in Azure AD",
+      "searchTags": "AAD Terms of Use",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -111,6 +159,14 @@ ownershipId="ASEP_ContentService_Placeholder"
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b3efa415-971c-d1af-f926-daa7be464196",
+      "longDescription": "",
+      "shortDescription": "You are seeing a problem with the Privileged Identity Management (PIM) feature in Azure AD",
+      "searchTags": "AAD PIM;Privileged Identity Management ;Configuring PIM",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b7bc5482-ee36-5ea9-36fd-0e4eb4c870af",
       "longDescription": "",
       "shortDescription": "You have a problem with AADConnect Health metrics and reports",
@@ -132,6 +188,22 @@ ownershipId="ASEP_ContentService_Placeholder"
       "shortDescription": "You are expecting to see data for a longer period of time (based on your license) and you are not seeing them",
       "searchTags": "Missing logs data;Log data retention",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d614d539-bec7-cf97-ae36-4957cf229652",
+      "longDescription": "",
+      "shortDescription": "You are not seeing an authentication log you expected to see either through Graph API endpoint or when using the portal",
+      "searchTags": "issue with a specific sign-in log entry",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fa30f710-2a37-b2ab-0462-dbc653e3b429",
+      "longDescription": "",
+      "shortDescription": "You are using Azure AD sign-in logs and have an issue downloading the logs either using MS Graph API or Azure Portal",
+      "searchTags": "issue downloading data with MS Graph API",
+      "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     }
   ]

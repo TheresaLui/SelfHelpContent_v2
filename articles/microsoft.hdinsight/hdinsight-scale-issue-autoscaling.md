@@ -10,18 +10,16 @@
     supportTopicIds="32681538"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="9651a650-909c-4f84-a526-cb7ed6313e0b"
 	ownershipId="AzureData_HDInsight"
 />
 
 # HDInsight cluster deployment issue with Autoscaling
 
-## **Recommended Steps**
+The Azure HDInsight Autoscale feature was released for general availability on November 7th, 2019 for Spark and Hadoop clusters and included improvements not available in the preview version of the feature. If you created a Spark cluster prior to November 7th, 2019 and want to use the Autoscale feature on your cluster, the recommended path is to create a new cluster, and enable Autoscale on the new cluster.
 
-**Autoscale Preview**
-
-The Autoscale feature is a preview feature and only works for Spark, Hive and MapReduce clusters created after May 8th 2019.
+Autoscale for Interactive Query (LLAP) and HBase clusters is still in preview. Autoscale is only available on Spark, Hadoop, Interactive Query, and HBase clusters.
 
 **Error: The deployment would exceed the quota of '800'.**
 
@@ -52,12 +50,12 @@ To resolve this issue, use one of the following methods:
 - Change the IP range of subnet settings for large available addresses
 - Add a subnet and create a new HDInsight cluster within the newly created subnet
 
-**MISC**
+**Additional information**
 
-1. HDInsight doesn't allow you to upgrade worker node disk sizes on a running cluster. Currently, you can choose the disk size when you create the cluster. HDInsight clusters are designed to be easily dropped and re-created.
+1. HDInsight doesn't allow you to upgrade worker node disk sizes on a running cluster. Currently, you can choose the disk size when you create the cluster. HDInsight clusters are designed to be easily dropped and re-created.
 2. It is recommended to scale down HDInsight to three worker nodes at least. For Kafka you cannot scale down the worker nodes.  
 3. You can enable auto scale only when you create the cluster. If you have not configured auto scale during the creation, you must delete the cluster and recreate a cluster with autoscale enabled.
 
-**Recommended Documents**
+## **Recommended Documents**
 
-* [Automatically scale Azure HDInsight clusters (preview)](https://docs.microsoft.com/azure/hdinsight/hdinsight-autoscale-clusters)
+* [Automatically scale Azure HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-autoscale-clusters)

@@ -11,7 +11,7 @@
 	supportTopicIds="32684509"
 	productPesIds="16666"
 	articleId="4bdf7902-fce3-428b-8587-80fcfd1988fd"
-	cloudEnvironments="Public, Fairfax"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
@@ -20,6 +20,8 @@
 If most or all of the calls made against the target system consistently fail due to an error (such as in the case of invalid admin credentials), then the provisioning job goes into a "quarantine" state.
 
 ## **Recommended Steps**
+
+* Use the [on-demand provisioning](https://docs.microsoft.com/azure/active-directory/app-provisioning/provision-on-demand) capability to provision a user and get detailed diagnostics about the steps taken.
 
 * Review the provisioning summary report at the bottom of the provisioning configuration page
 

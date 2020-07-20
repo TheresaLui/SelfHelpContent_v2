@@ -10,7 +10,7 @@
     supportTopicIds="32614239, 32614250"
     resourceTags=""
     productPesIds="16611"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="5d7a3915-402f-4b74-a589-070a68aa49f4"
 	ownershipId="CloudNet_AzureFrontdoor"
 />

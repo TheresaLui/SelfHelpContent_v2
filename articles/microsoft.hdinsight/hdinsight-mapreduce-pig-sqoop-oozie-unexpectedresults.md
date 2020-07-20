@@ -10,7 +10,7 @@
     supportTopicIds="32636477"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-unexpectedresults-mapreduce-pig-oozie-sqoop"
 	ownershipId="AzureData_HDInsight"
 />

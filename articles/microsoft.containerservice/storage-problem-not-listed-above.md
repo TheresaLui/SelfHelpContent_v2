@@ -10,7 +10,7 @@
     supportTopicIds="32637206"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="d1296474-8050-4fa2-a337-751fe8e9ea84"
 	ownershipId="Compute_AzureKubernetesService"
 />
@@ -19,9 +19,10 @@
 
 ## **Recommended Documents**
 
-* [Types of Volumes](https://kubernetes.io/docs/concepts/storage/volumes/)<br>
-* [Types of Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)<br>
-* [Lifecycle of a volume snapshot and volume snapshot content](https://kubernetes.io/docs/concepts/storage/volume-snapshots/)<br>
-* [Lifecycle of a volume and claim](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#lifecycle-of-a-volume-and-claim)<br>
+* [Dynamically create and use a persistent volume with Azure Files in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/azure-files-dynamic-pv)<br>
+* [Performance guidelines for Premium Storage](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage-performance)<br>
+* [Converting a Linux VM from unmanaged to managed disk](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/virtual-machines/linux/convert-unmanaged-to-managed-disks.md)<br>
+* [Manually create and use a volume with Azure disks in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/azure-disk-volume)<br>
+* [How to use azcopy command for sync between source and target](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-blobs#synchronize-files)<br>
 * [Best practices for storage and backups](https://docs.microsoft.com/azure/aks/best-practices)<br>
-* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)
+* [Azure Kubernetes Service support policies](https://docs.microsoft.com/azure/aks/support-policies#azure-kubernetes-service-support-coverage)<br>

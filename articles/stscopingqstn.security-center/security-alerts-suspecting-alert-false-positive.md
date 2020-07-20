@@ -11,9 +11,9 @@
     supportTopicIds="32636915"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="05bf673e-e051-4d97-8a7f-bb3bb7aee044"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Security Alerts - Suspecting alert false positive Common Solutions

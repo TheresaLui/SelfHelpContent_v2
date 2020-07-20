@@ -9,7 +9,7 @@ description="nwsetupandmgmt/disablenw"
 	supportTopicIds="32606431"
 	resourceTags=""
 	productPesIds="16160"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="73f823ac-a1d3-4480-af88-3d877c7e8bf8"
 	ownershipId="CloudNet_NetAnalytics"
 />

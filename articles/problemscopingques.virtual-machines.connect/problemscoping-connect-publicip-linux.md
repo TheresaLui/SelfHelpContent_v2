@@ -6,7 +6,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615527"
                 productPesIds="15571,15797,16454,16470"
-                cloudEnvironments="Public, Fairfax"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0019"
 	ownershipId="Compute_VirtualMachines"
@@ -14,7 +14,9 @@
 # Connect to a VM
 ---
 {
-    "resourceRequired": true,
+    "$schema": "SelfHelpContent",
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "I have an issue with my public IP",
     "fileAttachmentHint": "",
     "formElements": [

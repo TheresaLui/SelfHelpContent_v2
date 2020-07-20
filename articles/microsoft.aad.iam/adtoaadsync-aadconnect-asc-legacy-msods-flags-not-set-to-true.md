@@ -11,9 +11,9 @@ pageTitle="Legacy MSODS flag(s) have their value not set to 'true'"
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="16666"
+  cloudEnvironments="public, Fairfax, Mooncake, ussec, usnat"
+  ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Legacy MSODS flag(s) have their value not set to "true"

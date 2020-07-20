@@ -6,7 +6,7 @@
     articleId="0db76759-6d22-4262-93f0-2f989ba2b58e_Public"
     selfHelpType="advisorRecommendationMetadata"
     productPesIds="15400"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="CloudNet_TrafficManager"
 />
 # Add or move one endpoint to another Azure region
@@ -61,8 +61,8 @@
     "action": {
       "actionId": "36168ba0-c0bc-4f9e-998e-9322ea48cc3a",
       "actionType": "Blade",
-      "extensionName": "Microsoft_Azure_Network",
-      "bladeName": "TrafficManagerBlade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
       "metadata": {
         "id": "{resourceId}"
       }

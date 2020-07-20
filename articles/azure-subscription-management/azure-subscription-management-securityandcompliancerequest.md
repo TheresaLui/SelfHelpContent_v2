@@ -7,10 +7,10 @@
 	ms.author="prdasneo"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32454936,32611254,32607560"
+	supportTopicIds="32611254,32607560"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="5b0fd4a5-6959-4934-9682-642c9a2c9e72"
 	ownershipId="ASMS_SubscriptionManagement"
 />
