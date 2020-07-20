@@ -7,7 +7,7 @@
   authors="igamigo"
   ms.author="igamigo"
   displayOrder=""
-  articleId="cache-diagnostics-patchinginsight"
+  articleId="cache-diagnostics-analysisinsight"
   diagnosticScenario=""
   selfHelpType="diagnostics"
   supportTopicIds=""
@@ -33,11 +33,11 @@ The following aspects of the instance's metrics should be reviewed:
 
 1. Implement our [best practices](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-best-practices) to make sure the client application is making good use of the cache
 1. Review the client application health to check for related symptoms
-1. Review the documentation article related to [client-side issues](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-troubleshoot-client)
+1. Review the documentation article related to [client-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-client)
 
 
 ## **Recommended Documents**
 
-* [Troubleshoot Azure Cache for Redis client-side issues](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-troubleshoot-client)
+* [Troubleshoot Azure Cache for Redis client-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-client)
 * [Failover and patching - Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-failover)
 
