@@ -29,4 +29,4 @@ Endpoints:
  
 ## **Recommended Documents**
 
-* [Azure REST API Reference](https://docs.microsoft.com/en-us/rest/api/azure)
+* [Azure REST API Reference](https://docs.microsoft.com/rest/api/azure)
