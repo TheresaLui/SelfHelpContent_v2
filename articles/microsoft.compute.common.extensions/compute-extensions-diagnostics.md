@@ -21,10 +21,12 @@
 
 ## **Recommended Documents**
 
-* [Using Windows Diagnostic Extension to monitor metrics and logs](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-windows)<br>
-* [How to view your data](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-windows#view-your-data)<br>
-* [Installing the extension in your VM](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#installing-the-extension-in-your-vm)<br>
-* [Review the boot error troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-error-troubleshoot)<br>
-* [Installing and configuring LAD 3.0 via CLI](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-linux#installing-and-configuring-lad-30-via-cli)<br>
-* [Use monitoring and diagnostics with Azure Resource Manager templates](https://docs.microsoft.com/azure/virtual-machines/extensions/diagnostics-template)<br>
-* [General troubleshooting steps for extensions](https://docs.microsoft.com/azure/virtual-machines/extensions/troubleshoot)
+* [Azure Diagnostics extension overview](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-overview)<br>
+* [Azure Diagnostics extension installation and configuration](https://docs.microsoft.com//azure/azure-monitor/platform/diagnostics-extension-overview#installation-and-configuration)<br>
+* [Azure Diagnostics troubleshooting](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-troubleshooting)<br>
+* [Azure Diagnostics troubleshooting](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-troubleshooting)<br>
+* [Azure Diagnostics known issues and limitation](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-troubleshooting#known-issues-and-mitigations)<br>
+* [Metric data doesn't appear in the Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-troubleshooting#metric-data-doesnt-appear-in-the-azure-portal)<br>
+* [Azure Diagnostics is not starting](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-troubleshooting#azure-diagnostics-is-not-starting)<br>
+* [Diagnostics data is not logged to Azure Storage](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-troubleshooting#diagnostics-data-is-not-logged-to-azure-storage)<br>
+* [Diagnostics data tables not found](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-troubleshooting#diagnostics-data-tables-not-found)

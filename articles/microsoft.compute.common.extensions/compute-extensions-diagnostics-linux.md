@@ -21,7 +21,7 @@
 
 ## **Recommended Documents**
 
-* [Azure Diagnostics extension overview](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostics-extension-overview)<br>
+* [Azure Diagnostics extension overview](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-overview)<br>
 * [Azure Diagnostics extension installation and configuration](https://docs.microsoft.com//azure/azure-monitor/platform/diagnostics-extension-overview#installation-and-configuration)<br>
 * [Azure Diagnostics troubleshooting](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-troubleshooting)<br>
 * [Azure Diagnostics troubleshooting](https://docs.microsoft.com/azure/azure-monitor/platform/diagnostics-extension-troubleshooting)<br>
