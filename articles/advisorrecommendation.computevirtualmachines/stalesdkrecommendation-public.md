@@ -28,7 +28,7 @@
                   },
          "serviceTreeId": "ae53b53f-9347-4198-b9b7-ff4b8228d6a7"
   },
-  "version": 2.0,
+  "version": 3.0,
   "learnMoreLink": "https://github.com/Azure/azure-sdk/blob/master/README.md#azure-sdk",
   "description": "Update your current SDK version to the most recent version.",
   "longDescription": "We have identified operations under this subscription using outdated SDK versions. We recommend switching to the latest SDK version, which might involve changes to your existing codebase, to obtain improved security and performance.",
