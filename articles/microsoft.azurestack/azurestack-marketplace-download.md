@@ -34,15 +34,15 @@ There are two scenarios for connecting to the Azure Marketplace:
 
 **Note:** In a disconnected environment, you cannot download Marketplace items directly by using the Azure Stack Hub portal. Follow the guide to [download Marketplace items for disconnected or a partially connected scenarios](https://docs.microsoft.com/azure-stack/operator/azure-stack-download-azure-marketplace-item) by using the Marketplace syndication tool and then transferring the items to your Azure Stack Hub environment.
 
-1. Some of the images offered on the marketplace are quite large (> 100GB). Make sure that you have high bandwidth connectivity to avoid timeout failures.
+1. Check that you have enough bandwidth to download the Marketplace items.
 
    In a low bandwidth area, consider using the [disconnected/partially connected method](https://docs.microsoft.com/azure-stack/operator/azure-stack-download-azure-marketplace-item).
 
-2. Marketplace images can also fail to download if the endpoints for marketplace syndication are being blocked by a firewall. Please see the [publishing endpoints documentation](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-endpoints#ports-and-urls-outbound) to ensure the appropriate ports and URLs are unblocked for outbound connections.
+2. Check that the Marketplace syndication endpoints are not blocked by a firewall. [Learn more](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-endpoints#ports-and-urls-outbound).
 
-3. Azure Stack Hub does not support SSL interception. Please ensure that no proxy devices intercept any outbound SSL traffic.
+3. Delete the item that failed to download before downloading it again.
 
-4. If a marketplace image is in a failed state, delete the image before retrying the download.
+4. Download one item at a time.
 
 ## **Recommended Documents**
 
