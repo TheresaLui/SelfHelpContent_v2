@@ -16,17 +16,17 @@
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# IP Blocked by Firewall
+# Issues with your linked key vault
 
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The Cosmos DB account, **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->** is having issues reaching the key vaults to access your encryption keys.
+The Cosmos DB account, **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->** is unable to access the Azure Kay Vault instance hosting your encryption key.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-It appears that your key vault's access control policies are preventing your Cosmos DB account from contacting the key vault to access your managed encryption keys.
+It appears that your key vault's access control policies are preventing your Cosmos DB account from contacting the key vault to access your managed encryption keys. If you've recently performed a key rotation (with link to the doc above), make sure that the previous key or key version remains enabled and available until Cosmos DB has completed the rotation. The previous key or key version can be disabled after 24 hours, or after the Azure Key Vault audit logs don't show activity from Azure Cosmos DB on that key or key version anymore.
 
 ## **Recommended Documents**
 
