@@ -46,7 +46,7 @@
                     "text": "Barracuda Networks"
                 },
                 {
-                    "value": "unknown",
+                    "value": "dont_know_answer",
                     "text": "I'm not sure"
                 }
             ],
@@ -61,7 +61,7 @@
             "required": true,
             "useAsAdditionalDetails": true,
             "watermarkText": "Please give us as many details as you can about the problem you're having."
-        },
+        }
 
     ]
 }
