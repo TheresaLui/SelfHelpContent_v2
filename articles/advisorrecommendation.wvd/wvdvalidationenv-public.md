@@ -20,7 +20,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
-  "recommendationCategory": "HighAvailability",
+  "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.DesktopVirtualization/hostpools",
   "recommendationFriendlyName": "ValidationEnvHostPools",
@@ -36,7 +36,7 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://aka.ms/wvd",
+  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/virtual-desktop/create-validation-host-pool",
   "description": "Deploy Host Pool to validation environment",
   "longDescription": "We have detected that Windows Virtual Desktop Host Pool is not deployed in validation environment in current subscription. Session Hosts that are running as part of Host Pool deployed to validation environment help increasing resiliency to potential changes caused by service deployment. Ensuring that Host Pool is deployed to validation ring, business continuity should improve with early detection of potential issues with version released and deployed to production environment later.",
   "potentialBenefits": "Ensure business continuity through WVD service deployments",
