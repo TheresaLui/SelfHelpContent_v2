@@ -21,6 +21,8 @@
 
 ## **Recommended Documents**
 
+Try using [Azure Bastion](data-blade:Microsoft_Azure_HybridNetworking.BastionHostBlade.resourceId.$resourceId) to connect to your VM.  [Azure Bastion](https://docs.microsoft.com/azure/bastion/bastion-overview) provides secure and seamless RDP connectivity to your virtual machine directly in the Azure portal over TLS. When you connect via Azure Bastion, your virtual machine does not need a public IP address, or inbound NSG rule allowing RDP traffic.
+
 * [Guidelines on how to create, change or delete a public IP address](https://docs.microsoft.com/azure/virtual-network/virtual-network-public-ip-address)<br>
 * [Guidelines on how to create, change or delete a public IP address prefix](https://docs.microsoft.com/azure/virtual-network/manage-public-ip-address-prefix)<br>
 * Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade.id.$subscriptionId) to confirm if a rule in a Network Security Group or user defined route is blocking traffic to or from a virtual machine
