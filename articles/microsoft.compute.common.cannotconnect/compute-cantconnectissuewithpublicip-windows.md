@@ -33,3 +33,4 @@ Try using [Azure Bastion](https://docs.microsoft.com/azure/bastion/bastion-overv
 * [Quick steps to address common RDP connection issues](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)
 * [Follow the RDP troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)
 * [Troubleshooting specific RDP error messages to a Windows VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-specific-rdp-errors)
+
