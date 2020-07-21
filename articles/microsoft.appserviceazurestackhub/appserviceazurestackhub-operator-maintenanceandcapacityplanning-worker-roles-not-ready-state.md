@@ -25,10 +25,15 @@ There can be multiple causes for a worker role to not show in a "ready" state.
 ### File server health check failure
 
 Check logs to verify whether the file server health check failed:
-- App Service - Roles blade
-- Choose broken roles, go into logs
-- Look for "Failed to exercise FileServer message (after 3 tries)"
-- Go to worker NSG blade 
+1. Sign in to the Azure Stack Hub administrator portal.
+2. Go to the App Service service, select the "Roles" blade.
+3. Verify whether any of the Web Worker roles have not reached a "Ready" status.
+4. For any worker roles not in a "Ready" status, select the role.
+5. On the work role "Instances" blade, select the role instance that has not reached a "Ready" status.
+6. On the worker role "Instance" blade, select the "Logs" button.
+7. On the "Server Logs" blade, scan the log messages. Look for "Failed to exercise FileServer message (after 3 tries)"
+8. If you find the above message, got to the "Network Security Group" blade, and select the "WorkersNsg" security group.
+9. TBD... 
 
 ### Missing network security group configuration
 
@@ -36,7 +41,7 @@ If you're deploying to an existing virtual network and using an internal IP addr
 
 ### Incorrect server password configuration
 
-If a password was specified incorrectly during during install, you will need to go ahead and open a support case to get it resolved. 
+If a password was specified incorrectly during install, you will need to proceed with opening a support case to get it resolved. 
 
 ### TBD
 
