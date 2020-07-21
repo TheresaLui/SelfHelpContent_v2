@@ -19,7 +19,14 @@
 />
 
 # Partner Center API and integration support-Azure rest API
+
+## **Recommended Steps**
+If your query is related to Azure REST API (examples endpoints below), please create Support Request with Azure team through Azure Support Portal.
+
+Endpoints: 
+- https://management.azure.com
+- https://management.core.windows.net
  
 ## **Recommended Documents**
 
-* [Test and debug](https://docs.microsoft.com/partner-center/develop/test-and-debug#troubleshooting-tips-for-common-rest-problems)
+* [Azure REST API Reference](https://docs.microsoft.com/en-us/rest/api/azure)
