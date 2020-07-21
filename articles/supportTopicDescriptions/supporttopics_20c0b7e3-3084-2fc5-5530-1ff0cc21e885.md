@@ -390,6 +390,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7064fa16-d600-390b-e37d-ac68f9334658",
+      "longDescription": "",
+      "shortDescription": "Unexpected errors blocking authoring, or difficulty while debugging pipelines, or configuring any type of Trigger.",
+      "searchTags": "pipelines;triggers;debug;trigger;adf",
+      "category": "Authoring and Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "73036aa4-a3a7-42fd-f0d6-add2ad34a6e6",
       "longDescription": "",
       "shortDescription": "Advisory on best practices and recommendations related to loading data to SQL pools.",
@@ -747,6 +755,14 @@
       "shortDescription": "Failures to create or drop a Workspace, slow or hung operations, or unexpected behavior.",
       "searchTags": "manage;create;drop;delete;workspace",
       "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e9262106-de01-0e1d-d7d3-2e5b4412a72a",
+      "longDescription": "",
+      "shortDescription": "Help with properties and setting up DataSets, Linked Service, and IR integration with various activities.",
+      "searchTags": "activities;dataset;linked service;adf;ir",
+      "category": "Authoring and Development",
       "useInDiagnoseAndSolve": "true"
     },
     {
