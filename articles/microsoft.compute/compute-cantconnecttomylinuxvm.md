@@ -7,7 +7,7 @@
     ms.author="scotro,tibasham"
     displayOrder="5"
     selfHelpType="resource"
-    supportTopicIds="32547978,32547979,32615531,32615526,32639640,32615530,32675597,32675600,32675601,32675599"
+    supportTopicIds="32547978,32547979,32615531,32615526,32615530,32675597,32675600,32675601,32675599"
     resourceTags="linux,redhat,Ubuntu"
     productPesIds="15571,16342,16065,15797,16454,16470"
     cloudEnvironments="public, Mooncake, Fairfax, usnat, ussec"
