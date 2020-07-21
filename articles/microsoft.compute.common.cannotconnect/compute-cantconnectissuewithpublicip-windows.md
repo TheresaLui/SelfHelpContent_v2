@@ -12,7 +12,7 @@
     productPesIds="14749,14745"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="6ce39c44-2a32-41c2-a8ce-7dedc93e6619"
-	ownershipId="Compute_VirtualMachines_Content"
+    ownershipId="Compute_VirtualMachines_Content"
 />
 
 # I have an issue with my public IP
@@ -33,4 +33,3 @@ Try using [Azure Bastion](https://docs.microsoft.com/azure/bastion/bastion-overv
 * [Quick steps to address common RDP connection issues](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)
 * [Follow the RDP troubleshooting guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-rdp)
 * [Troubleshooting specific RDP error messages to a Windows VM in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-specific-rdp-errors)
-
