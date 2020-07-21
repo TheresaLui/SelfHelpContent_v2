@@ -20,7 +20,6 @@
 
 # Partner Center Offer Properties - Categories or Industries questions
 
-**Description**
 This topic is for help on updating your offer properties (categories or industries) including Storefront offer details, Storefront listing details, Category (to target your offer), Industries, Storefront marketing details and Link to your offer page.
 
 ## **Recommended Steps**
