@@ -48,7 +48,7 @@
       "extensionName": "Microsoft_Azure_Network",
       "bladeName": "FlowLogsExtendedDiagnosticsSettingsUpdateBlade",
       "metadata": {
-		"id": "{resourceId}
+		"id": "{resourceId}"
 	  }
     }
   ],
@@ -59,7 +59,7 @@
       "extensionName": "Microsoft_Azure_Network",
       "bladeName": "NetworkSecurityGroupBlade",
       "metadata": {
-		"id": "{resourceId}
+		"id": "{resourceId}"
 	  }
     }
   },
