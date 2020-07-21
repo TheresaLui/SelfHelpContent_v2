@@ -75,7 +75,7 @@
     }
   },
   "displayLabel": "Shut down or resize your virtual machine",
-  "additionalColumns": [], 
+  "additionalColumns": [],
   "ingestionClientIdentities": [
     "CN=metricsclient.geneva.core.eaglex.ic.gov"
   ],
