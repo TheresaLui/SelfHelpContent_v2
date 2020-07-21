@@ -350,6 +350,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "df9bcf26-1477-5801-566a-df450245903c",
+      "longDescription": "",
+      "shortDescription": "Integrate Azure Key Vault with an application",
+      "searchTags": "Azure;Key Vault;Application",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e13a6f6d-e126-632a-123f-66b24ac54ec2",
       "longDescription": "",
       "shortDescription": "How to create key vault, manage available settings, troubleshoot creating key vault issues",
