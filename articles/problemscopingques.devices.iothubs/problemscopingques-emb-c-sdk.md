@@ -21,7 +21,7 @@
     "formElements":
     [
 		{
-            "id": "problem_start_time", //This is a required value
+            "id": "problem_start_time",
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
