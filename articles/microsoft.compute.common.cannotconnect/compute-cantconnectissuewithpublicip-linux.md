@@ -12,7 +12,7 @@
     productPesIds="15571,15797,16454,16470,16342"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="0b945377-40b3-4d60-90ef-5e37b98ad0af"
-	ownershipId="Compute_VirtualMachines"
+    ownershipId="Compute_VirtualMachines"
 />
 
 # I have an issue with my public IP
@@ -27,7 +27,6 @@ Try using [Azure Bastion](https://docs.microsoft.com/azure/bastion/bastion-overv
 * [Guidelines on how to create, change or delete a public IP address prefix](https://docs.microsoft.com/azure/virtual-network/manage-public-ip-address-prefix)
 * Use [IP flow verify](data-blade:microsoft_azure_network.verifyipflowblade.id.$subscriptionId) to confirm if a rule in a Network Security Group or user defined route is blocking traffic to or from a virtual machine
 
-
 **Additional Documents**
 
 * [Quick steps to diagnose & address common SSH connection issues](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/)
@@ -35,4 +34,3 @@ Try using [Azure Bastion](https://docs.microsoft.com/azure/bastion/bastion-overv
 * [Learn more about Network Security Groups](https://docs.microsoft.com/azure/virtual-network/security-overview)
 * [How to reset local Linux password on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/linux/reset-password)
 * [How to use boot diagnostics to troubleshoot Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)
-
