@@ -33,7 +33,7 @@ US : US East, US Central, US West Central <br> Europe : UK West ,EU North <br> A
 - [How to mount a storage container](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support-how-to#step-6-mount-the-container)<br>
 - [Pricing details](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support#pricing)
 
-## **Common Issues**
+### **Common Issues**
 
 | Issue/Error | Resolution |
 |-|-|
