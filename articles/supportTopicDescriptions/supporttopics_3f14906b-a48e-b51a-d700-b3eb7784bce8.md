@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "19526fe4-8235-0d9c-16c4-6a3abec0590c",
+      "longDescription": "",
+      "shortDescription": "You have questions about configuring Advanced Threat Protection",
+      "searchTags": "Advanced Threat Protection",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1ddb92cc-9817-ab78-d7c9-610118e75c65",
       "longDescription": "",
       "shortDescription": "You have issues with monitoring replication or configuring replication lag alerts",
