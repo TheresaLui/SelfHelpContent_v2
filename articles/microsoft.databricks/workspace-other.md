@@ -34,12 +34,23 @@
 * You can get the public/private IP address of your [driver or executor node(s)](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/clusters#--sparknode) by running this command in a notebook:
 
 ```
-	%sh
-	curl -H Metadata:true "http://169.254.169.254/metadata/instance/network?api-version=2017-08-01"
+    %sh
+    curl -H Metadata:true "http://169.254.169.254/metadata/instance/network?api-version=2017-08-01"
 ```
 
 * [Retrieve the current username for the notebook](https://docs.microsoft.com/azure/databricks/kb/notebooks/get-notebook-username). This is currently supported for:
 
 	* Standard clusters in both Scala and Python
-	* High Concurrency clusters in Python with Credential Passthrough **disabled**
+	* High Concurrency clusters in Python with Credential Passthrough **disabled**.
+	
+* Getting error **Unexpected error while loading Spark UI: Max Response Size Reached**: the issue is due to response limit of 30 MB for Spark UI proxy. This can happen if the jobs page returned by Spark UI is very big which can happen in long running cluster with too many jobs. To resolve the issue, please modify [Spark UI configurations](http://spark.apache.org/docs/latest/configuration.html#spark-ui) as below:
+
+```
+    spark.ui.retainedJobs 100
+    spark.ui.retainedStages 100
+    spark.ui.retainedTasks 10000
+ ```
+ 
+	
+
 
