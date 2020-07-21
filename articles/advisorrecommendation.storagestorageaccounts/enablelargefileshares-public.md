@@ -19,7 +19,7 @@
     "schemaVersion": 2.0,
     "streamNamespace": "AzureStorage.Data.StorageAdvisorEnableLargeFileSharesPublicV1_0",
     "dataSource": "Cosmos",
-    "refreshInterval": "03:00:00"
+    "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
