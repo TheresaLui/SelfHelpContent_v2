@@ -17,7 +17,8 @@
 
 # Azure HDInsight: Ambari Alerts
 
-* If your node is unresponsiveness and/or you see a critical alert for a specific node, use restart hosts REST API to reboot the nodes. More details can be found [here](https://docs.microsoft.com/rest/api/hdinsight/virtualmachines/restarthosts)
+* If your node is unresponsiveness and/or you see a critical alert for a specific node, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm) 
+
 
 * For an explanation of the type of alert statuses provided in Ambari, see [Alerts](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-manage-ambari#alerts).
 
