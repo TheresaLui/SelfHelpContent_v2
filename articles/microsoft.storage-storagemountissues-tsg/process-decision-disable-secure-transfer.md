@@ -13,6 +13,7 @@
             articleId="1067eecf-012e-4cca-bfeb-3dc13b2c9b45"
             ownershipId="Centennial_CloudNet_LoadBalancer" />
 
+## **Recommended Steps**
 
 ### Disable Secure Transfer
 
