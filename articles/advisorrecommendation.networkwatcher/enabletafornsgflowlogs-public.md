@@ -20,7 +20,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "1.00:00:00"
   },
-  "recommendationCategory": "Operational Excellence",
+  "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Network/networkSecurityGroups",
   "recommendationFriendlyName": "NSGFlowLogsenableTA",
@@ -65,7 +65,6 @@
   },
   "displayLabel": "Enable Traffic Analytics for NSG",
   "additionalColumns": [],
-  "tip": "* Use 10 mins processing interval for faster insights. * You can select Flog Logs version 2 to see bytes and packets per flow",
-  "testData": ""
+  "tip": "* Use 10 mins processing interval for faster insights. * You can select Flog Logs version 2 to see bytes and packets per flow"
 }
 ---
