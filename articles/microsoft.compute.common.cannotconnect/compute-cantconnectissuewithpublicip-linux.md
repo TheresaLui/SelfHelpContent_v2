@@ -21,7 +21,7 @@
 
 ## **Recommended Documents**
 
-Try using [Azure Bastion](data-blade:Microsoft_Azure_HybridNetworking.BastionHostBlade.resourceId.$resourceId) to connect to your VM.  [Azure Bastion](https://docs.microsoft.com/azure/bastion/bastion-overview) provides secure and seamless RDP connectivity to your virtual machine directly in the Azure portal over TLS. When you connect via Azure Bastion, your virtual machine does not need a public IP address, or inbound NSG rule allowing RDP traffic.
+Try using [Azure Bastion](https://docs.microsoft.com/azure/bastion/bastion-overview) to connect to your VM.  [Azure Bastion](https://docs.microsoft.com/azure/bastion/bastion-overview) provides secure and seamless RDP connectivity to your virtual machine directly in the Azure portal over TLS. When you connect via Azure Bastion, your virtual machine does not need a public IP address, or inbound NSG rule allowing RDP traffic.
 
 * [Guidelines on how to create, change or delete a public IP address](https://docs.microsoft.com/azure/virtual-network/virtual-network-public-ip-address)
 * [Guidelines on how to create, change or delete a public IP address prefix](https://docs.microsoft.com/azure/virtual-network/manage-public-ip-address-prefix)
@@ -35,3 +35,4 @@ Try using [Azure Bastion](data-blade:Microsoft_Azure_HybridNetworking.BastionHos
 * [Learn more about Network Security Groups](https://docs.microsoft.com/azure/virtual-network/security-overview)
 * [How to reset local Linux password on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/linux/reset-password)
 * [How to use boot diagnostics to troubleshoot Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)
+
