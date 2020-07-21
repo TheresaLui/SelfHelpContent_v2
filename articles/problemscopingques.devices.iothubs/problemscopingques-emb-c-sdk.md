@@ -33,17 +33,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Version",
 			"watermarkText": "What is the version of Embedded C SDK you're using? ",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints":
-			[
-				{
-					"text": "SDK Version."
-				},
-				{
-					"text": "Version of the Embedded C SDK you're using."
-				}
-			]
+			"required": true
 		},
 		{
 			"id": "external_components",
@@ -51,17 +41,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Version",
 			"watermarkText": "Which external components does the solution use? ",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints":
-			[
-				{
-					"text": "External components."
-				},
-				{
-					"text": "Please list which libraries for MQTT, TLS and socket your aplication uses and any external Hardware components like HSM chips."
-				}
-			]
+			"required": false
 		},
 		{
 			"id": "reconnection_retry_issues",
