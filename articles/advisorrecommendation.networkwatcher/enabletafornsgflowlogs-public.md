@@ -1,10 +1,11 @@
 <properties
     pageTitle="Enable Traffic Analytics to view insights into traffic patterns across Azure resources"
     description="Enable Traffic Analytics to view insights into traffic patterns across Azure resources"
-    ms.author="moagra"
+    authors="nwta"
+    ms.author="nwta"
     articleId="7c27d589-c7ed-47e1-8fe9-fe12ea81634a_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, USSec, USNat"
+    cloudEnvironments="Public"
     ownershipId="CloudNet_NetworkWatcher"
 />
 # Enable Traffic Analytics to view insights into traffic patterns across Azure resources
@@ -25,7 +26,7 @@
   "recommendationFriendlyName": "NSGFlowLogsenableTA",
   "recommendationMetadataState": "Active",
   "owner": {
-    "email": "ntwa@microsoft.com",
+    "email": "nwta@microsoft.com",
     "icm": {
       "routingId": "mdm://NWTACloudService/Severity3Errors",
       "service": "Network Watcher Traffic Analytics",
