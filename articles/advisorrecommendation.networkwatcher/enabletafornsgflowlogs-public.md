@@ -5,7 +5,7 @@
     ms.author="nwta"
     articleId="7c27d589-c7ed-47e1-8fe9-fe12ea81634a_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, USSec, USNat"
     ownershipId="CloudNet_NetworkWatcher"
 />
 # Enable Traffic Analytics to view insights into traffic patterns across Azure resources
