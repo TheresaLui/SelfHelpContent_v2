@@ -18,7 +18,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 ## **Recommended Steps**
 
-* Cognitive Services provides two natural language processing services, [LUIS](https://docs.microsoft.com/azure/cognitive-services/luis/)and [QnA Maker](https://docs.microsoft.com/azure/cognitive-services/qnamaker/), each with a different purpose
+* Cognitive Services provides two natural language processing services, [LUIS](https://docs.microsoft.com/azure/cognitive-services/luis/) and [QnA Maker](https://docs.microsoft.com/azure/cognitive-services/qnamaker/), each with a different purpose
 
 * Dispatch is a CLI tool that allows you to create an application that combines LUIS and QnA Maker together
 
