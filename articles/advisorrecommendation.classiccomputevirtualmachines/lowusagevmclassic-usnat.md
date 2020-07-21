@@ -75,19 +75,7 @@
     }
   },
   "displayLabel": "Shut down or resize your virtual machine",
-  "additionalColumns": [],
-  "recommendationValidator": {
-    "className": "Microsoft.Azure.Advisor.Common.Validators.LowUsageClassicVmValidator",
-    "assemblyName": "Microsoft.Azure.Advisor.Common"
-  },
-  "partialRecommendationGenerator": {
-    "className": "Microsoft.Azure.Advisor.Common.Generators.LowUsageClassicVmPartialRecommendationGenerator",
-    "assemblyName": "Microsoft.Azure.Advisor.Common"
-  },
-  "recommendationHydrator": {
-    "className": "Microsoft.Azure.Advisor.Common.Hydrators.LowUsageClassicVmHydrator",
-    "assemblyName": "Microsoft.Azure.Advisor.Common"
-  },
+  "additionalColumns": [], 
   "ingestionClientIdentities": [
     "CN=metricsclient.geneva.core.eaglex.ic.gov"
   ],
