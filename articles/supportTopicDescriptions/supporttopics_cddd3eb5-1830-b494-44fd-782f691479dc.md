@@ -742,6 +742,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b9707d49-1891-33e1-57aa-3aa7ced71bda",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Hybrid Use Benefit (HUB)",
+      "searchTags": "HUB;Hybrid Use Benefit",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bae68529-51c1-d9b0-9e84-157fe59ac631",
       "longDescription": "",
       "shortDescription": " Request to increase the subscription limit",
