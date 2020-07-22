@@ -43,4 +43,4 @@ If you think the action rule shouldn't have suppressed your alert but it did, ca
 
 ## **Recommended Documents**
 
-* [Azure alerts action rules](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-action-rules?tabs=portal)
+* [Azure alerts action rules](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-action-rules?tabs=portal)
