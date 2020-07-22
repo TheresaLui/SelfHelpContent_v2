@@ -1089,6 +1089,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "cfb33b8d-11b7-2d7d-3535-4976d4b04154",
+      "longDescription": "",
+      "shortDescription": "Issue with file system within the VM",
+      "searchTags": "file system",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d0135195-91e8-58c5-d179-52a0b3df9346",
       "longDescription": null,
       "shortDescription": "Assistance when the guest OS is causing restarts repeatedly",
