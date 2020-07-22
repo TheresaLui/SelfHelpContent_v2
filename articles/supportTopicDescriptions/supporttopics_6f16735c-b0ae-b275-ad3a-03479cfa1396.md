@@ -721,6 +721,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "81c1cd1f-e247-53fa-f05f-5a233ef7550e",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Instance Metadata Service",
+      "searchTags": "Instance Metadata Service",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "82c9e600-dff7-e0d7-05c0-db58c3775b79",
       "longDescription": null,
       "shortDescription": "General questions on how to manage Azure Disk Encryption for a virtual machine running in Azure (Keys, secrets, or permissions)",
