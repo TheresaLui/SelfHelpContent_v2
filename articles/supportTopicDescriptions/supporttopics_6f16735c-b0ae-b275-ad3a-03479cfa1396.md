@@ -449,6 +449,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "562e521d-18a8-126f-4366-43be749e52a7",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Update Management",
+      "searchTags": "Update Management",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "579bb510-ba46-26a3-19c7-3ce5e37bf1c5",
       "longDescription": null,
       "shortDescription": "Resolve errors when moving resources between subscriptions ",
