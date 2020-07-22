@@ -22,6 +22,6 @@ Note that private traffic ranges are configured alongside Forced Tunneling confi
 
 ## **Recommended Documents**
 
-- Configure [Forced Tunneling](https://docs.microsoft.com/azure/firewall/forced-tunneling).
-- Learn more about [SNAT private IP address ranges](https://docs.microsoft.com/azure/firewall/snat-private-range).
-- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues).
+- Configure [Forced Tunneling](https://docs.microsoft.com/azure/firewall/forced-tunneling)
+- Learn more about [SNAT private IP address ranges](https://docs.microsoft.com/azure/firewall/snat-private-range)
+- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues)
