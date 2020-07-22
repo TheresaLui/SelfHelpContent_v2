@@ -886,6 +886,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "dcd5315e-fb89-e194-d760-4e5a7ccaeb9d",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Update Management",
+      "searchTags": "Update Management",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "dcf6f0d6-63ca-7638-f29a-79e3ebbf94fb",
       "longDescription": "",
       "shortDescription": "Request an official root cause for the virtual machine downtime",
