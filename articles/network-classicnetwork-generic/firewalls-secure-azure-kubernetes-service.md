@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-- Follow [Protect Azure Kubernetes Service](https://docs.microsoft.com/azure/firewall/protect-azure-kubernetes-service) for guidelines on providing additional protection for your Azure Kubernetes cluster using Azure Firewall.
+- Follow [Protect Azure Kubernetes Service](https://docs.microsoft.com/azure/firewall/protect-azure-kubernetes-service) for guidelines on providing additional protection for your Azure Kubernetes cluster using Azure Firewall
