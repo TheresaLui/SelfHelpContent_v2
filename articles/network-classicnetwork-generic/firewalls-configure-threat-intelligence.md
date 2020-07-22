@@ -20,7 +20,7 @@ Threat intelligence-based filtering can be enabled for your firewall to alert an
 
 ## **Recommended Documents**
 
-- Learn how to configure [Threat Intelligence](https://docs.microsoft.com/azure/firewall/threat-intel).
-- Monitor [malicious traffic blocked by Threat Intelligence](https://docs.microsoft.com/azure/firewall/threat-intel#logs).
-- Exclude [FQDN or IP address from threat intelligence based filtering](https://docs.microsoft.com/azure/firewall/firewall-faq#can-i-exclude-a-fqdn-or-an-ip-address-from-azure-firewall-threat-intelligence-based-filtering).
-- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues).
+- Learn how to configure [Threat Intelligence](https://docs.microsoft.com/azure/firewall/threat-intel)
+- Monitor [malicious traffic blocked by Threat Intelligence](https://docs.microsoft.com/azure/firewall/threat-intel#logs)
+- Exclude [FQDN or IP address from threat intelligence based filtering](https://docs.microsoft.com/azure/firewall/firewall-faq#can-i-exclude-a-fqdn-or-an-ip-address-from-azure-firewall-threat-intelligence-based-filtering)
+- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues)
