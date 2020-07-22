@@ -889,6 +889,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "a5fd783b-fb4a-0bca-8055-b2a170f5769a",
+      "longDescription": "",
+      "shortDescription": "Issue with SQL Server running in the VM",
+      "searchTags": "SQL",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a632159c-a15a-62dd-0420-73c273e43e02",
       "longDescription": "",
       "shortDescription": "Covers issues related to deploying Azure Window Virtual Desktop",
