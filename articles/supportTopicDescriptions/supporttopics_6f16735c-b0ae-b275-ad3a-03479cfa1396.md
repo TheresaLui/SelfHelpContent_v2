@@ -513,6 +513,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "5d47430c-d9a5-fcf5-e4e1-c36dcd562921",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Automatic in-quest updates",
+      "searchTags": "Updates",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5dd4e579-22b4-ee21-ee22-6b027061b157",
       "longDescription": null,
       "shortDescription": "Requests for help with configuring backups for your Azure virtual machine using Azure Backup",
