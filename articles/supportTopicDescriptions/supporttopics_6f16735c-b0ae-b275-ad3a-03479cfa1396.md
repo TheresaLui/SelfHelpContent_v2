@@ -73,6 +73,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "0b50b522-9214-852a-7d0e-bd6ec0dd17d2",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Managed Identity Integration ",
+      "searchTags": "Managed Identity Integration",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0b726570-b04d-be6e-3fab-0e458a65aa90",
       "longDescription": null,
       "shortDescription": "Requests to help move resources between storage accounts",
