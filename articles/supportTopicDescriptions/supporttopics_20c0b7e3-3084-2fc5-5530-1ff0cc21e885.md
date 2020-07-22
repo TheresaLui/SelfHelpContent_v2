@@ -430,6 +430,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "74622fa6-f28e-fc89-4226-89bdf8392c29",
+      "longDescription": "",
+      "shortDescription": "Execution of a stored procedure activity is failing due to some error code.",
+      "searchTags": "pipeline;trigger;stored;procedure;activity",
+      "category": "Orchestration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7613eca2-44c7-f59e-62a9-1932e13e5502",
       "longDescription": "",
       "shortDescription": "Failures to create or drop a Spark pool, slow or hung operations, or unexpected behavior.",
