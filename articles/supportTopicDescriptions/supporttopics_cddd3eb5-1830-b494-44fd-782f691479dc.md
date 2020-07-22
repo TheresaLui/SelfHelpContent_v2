@@ -350,6 +350,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5c08c706-0938-c5f5-b8c7-0e0e8c733653",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to specific Azure Features",
+      "searchTags": "Features",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5f4ad650-1aec-c7f3-d671-f42fbc706af6",
       "longDescription": "",
       "shortDescription": "Covers issues related to migrating or moving a virtual machine or associated resource on Azure",
