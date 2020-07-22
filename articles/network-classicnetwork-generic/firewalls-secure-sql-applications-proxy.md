@@ -19,8 +19,8 @@
 With SQL FQDNs, you can filter traffic:
 
 - From your VNET to an Azure SQL Database or an Azure SQL Data Warehouse. For example, you may wantto only allow access to `sql-server1.database.windows.net`.
-- From on-premises to Azure SQL Managed Instances or SQL IaaS running in your VNETs.
-- From spoke-to-spoke to Azure SQL Managed Instances or SQL IaaS running in your VNETs.
+- From on-premises to Azure SQL Managed Instances or SQL IaaS running in your VNETs
+- From spoke-to-spoke to Azure SQL Managed Instances or SQL IaaS running in your VNETs
 
 Note that SQL FQDN filtering is supported in proxy-mode only (port 1433). If you use SQL in the default redirect mode, you can filter access using the SQL service tag as part of network rules. If you use non-default ports for SQL IaaS traffic, you can configure those ports in the firewall application rules.
 
