@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "11782991-706b-d8c0-3184-904f4d8e529c",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Automatic in-quest updates",
+      "searchTags": "Updates",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1355ede6-1a5d-fed9-7ee3-fdf57927f88d",
       "longDescription": "",
       "shortDescription": "Common problems related to admin specific actions or issues within the VM itself",
