@@ -262,6 +262,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3f2f0f66-b4ef-91ee-5ef4-d21e79b520a0",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices and recommendations related to configure storage access in SQL on-demand.",
+      "searchTags": "how;advisory;storage;sql;on-demand",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "42c82b42-2044-aea1-01eb-2a71df1e745f",
       "longDescription": "",
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using SSIS Data Flows, but not directly related to SSIS product.",
