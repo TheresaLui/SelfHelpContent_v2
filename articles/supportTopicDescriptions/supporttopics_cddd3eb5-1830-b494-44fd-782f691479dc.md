@@ -750,6 +750,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b88c2bb3-7e37-184c-52ef-c0ecab2e2c0b",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Managed Identity Integration ",
+      "searchTags": "Managed Identity Integration",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b9707d49-1891-33e1-57aa-3aa7ced71bda",
       "longDescription": "",
       "shortDescription": "Resolve errors or configuration issues related to Azure Hybrid Use Benefit (HUB)",
