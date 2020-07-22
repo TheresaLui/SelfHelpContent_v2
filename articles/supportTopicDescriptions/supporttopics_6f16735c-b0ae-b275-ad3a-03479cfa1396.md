@@ -1217,6 +1217,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "e94a0227-7f91-f0d6-de85-c630bcde099f",
+      "longDescription": "",
+      "shortDescription": "Issue with Windows OS in-place upgrades",
+      "searchTags": "Upgrade",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e99d3660-70d7-d2f6-29a2-8571fe13516d",
       "longDescription": null,
       "shortDescription": "Assistance with moving resources between regions",
