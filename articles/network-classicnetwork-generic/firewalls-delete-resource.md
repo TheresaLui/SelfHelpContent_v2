@@ -6,7 +6,7 @@
     authors="v-miegge"
     ms.author="Mario.Liu"
     selfHelpType="generic"
-    supportTopicIds="32745454, 32745462"
+    supportTopicIds="32745462"
     resourceTags=""
     productPesIds="16556"
     ownershipId="CloudNet_AzureFirewall"
@@ -16,7 +16,7 @@
 
 # Issues with deleting a resource
 
-You can delete Azure Firewall and its associated resources using the Azure portal, CLI or PowerShell. You can also start and stop Azure firewall.
+You can delete Azure Firewall and its associated resources using the Azure portal, CLI or PowerShell. You can also [start and stop](https://docs.microsoft.com/azure/firewall/firewall-faq#how-can-i-stop-and-start-azure-firewall) Azure firewall.
 
 ## **Recommended Documents**
 
