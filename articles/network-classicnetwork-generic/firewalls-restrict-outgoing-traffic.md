@@ -20,7 +20,7 @@ You can limit outbound HTTP/S traffic or Azure SQL traffic (preview) to a specif
 
 ## **Recommended Documents**
 
-- Use the Azure Portal to [configure application rule](https://docs.microsoft.com/azure/firewall/tutorial-firewall-deploy-portal#configure-an-application-rule).
-- Use an [FQDN tag](https://docs.microsoft.com/azure/firewall/fqdn-tags) in application rules to allow application centric (like AKS, ASE, SQL) outbound traffic through your firewall.
+- Use the Azure Portal to [configure application rule](https://docs.microsoft.com/azure/firewall/tutorial-firewall-deploy-portal#configure-an-application-rule)
+- Use an [FQDN tag](https://docs.microsoft.com/azure/firewall/fqdn-tags) in application rules to allow application centric (like AKS, ASE, SQL) outbound traffic through your firewall
 - Configure NAT rules, network rules, and applications rules on Azure Firewall. Rule collections are processed according to the rule type in priority order. For more information, learn about [rule collection priority](https://docs.microsoft.com/azure/firewall/rule-processing).
-- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues).
+- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues)
