@@ -9,7 +9,7 @@
     articleId="cosmosdb-keyvaultwrap-rca"
     diagnosticScenario="CosmosDBKeyVaultWrapInsight"
     selfHelpType="rca"
-    supportTopicIds="32741326"
+    supportTopicIds="32636769, 32636770, 32636771, 32741326"
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
