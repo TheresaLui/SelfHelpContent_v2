@@ -22,7 +22,7 @@ Azure Firewall is fully stateful, so it can distinguish legitimate packets for d
 
 ## **Recommended Documents**
 
-- Use the Azure Portal to [configure network rules](https://docs.microsoft.com/azure/firewall/tutorial-hybrid-portal#configure-network-rules).
-- Use [Service tag in network](https://docs.microsoft.com/azure/firewall/service-tags) rules to help minimize complexity for security rule creation.
-- Use [IP Groups](https://docs.microsoft.com/azure/firewall/ip-groups) to group and manage IP addresses for Azure Firewall rules.
-- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues).
+- Use the Azure Portal to [configure network rules](https://docs.microsoft.com/azure/firewall/tutorial-hybrid-portal#configure-network-rules)
+- Use [Service tag in network](https://docs.microsoft.com/azure/firewall/service-tags) rules to help minimize complexity for security rule creation
+- Use [IP Groups](https://docs.microsoft.com/azure/firewall/ip-groups) to group and manage IP addresses for Azure Firewall rules
+- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues)
