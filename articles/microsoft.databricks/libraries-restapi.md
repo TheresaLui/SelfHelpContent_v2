@@ -19,11 +19,11 @@
 
 * Push the JAR to Databricks cluster directly using REST API and Databricks Connect:  
 
-	**Step 1:** Use the REST API to post the JAR to the DBFS directly using [DBFS API Put](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/dbfs#--put). And this is an example on how to [upload the JAR to DBFS programmatically](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/examples#--upload-a-big-file-into-dbfs). 
+	**Step 1:** Use the REST API to post the JAR to the DBFS directly using [DBFS API Put](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/dbfs#--put) (this is an example on how to [upload the JAR to DBFS programmatically](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/examples#--upload-a-big-file-into-dbfs))
 
-	**Step 2:** Use the REST API to [install the library to cluster](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/libraries#--install).
+	**Step 2:** Use the REST API to [install the library on cluster](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/libraries#--install)
 	
 ## **Recommended Documents**
 
-* [Install libraries on a cluster](https://docs.databricks.com/api/latest/libraries.html#install)
+* [Install libraries on a cluster](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/libraries#--install)
 * [Databricks Connect](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-connect)
