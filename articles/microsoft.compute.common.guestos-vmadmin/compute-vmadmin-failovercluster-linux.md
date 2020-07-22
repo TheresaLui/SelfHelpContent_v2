@@ -1,6 +1,6 @@
 <properties
-	pageTitle="configuration and setup/Create a Linux failover cluster"
-	description="configuration and setup/Create a Linux failover cluster"
+	pageTitle="Issue with Linux failover cluster in Azure"
+	description="Issue with Linux failover cluster in Azure"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
@@ -15,9 +15,9 @@
 	ownershipId="Compute_VirtualMachines_Content"
 />
 
-# Configuration and Setup/Create a Linux failover cluster
+# Issue with Linux failover cluster in Azure
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * Linux Server Failover Cluster on Azure IAAS VM – Part 1](https://blogs.technet.microsoft.com/askcore/2015/06/24/windows-server-failover-cluster-on-azure-iaas-vm-part-1-storage/)<br>
 * [Building Linux Server Failover Cluster on Azure IAAS VM – Part 2 (Network and Creation)](https://blogs.technet.microsoft.com/askcore/2015/06/24/windows-server-failover-cluster-on-azure-iaas-vm-part-1-storage/)<br>
