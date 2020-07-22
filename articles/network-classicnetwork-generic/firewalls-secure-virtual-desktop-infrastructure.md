@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-- Follow [Protect windows virtual desktop](https://docs.microsoft.com/azure/firewall/protect-windows-virtual-desktop) for guidelines on providing additional protection for your Windows Virtual Desktop host pool using Azure Firewall.
+- Follow [Protect windows virtual desktop](https://docs.microsoft.com/azure/firewall/protect-windows-virtual-desktop) for guidelines on providing additional protection for your Windows Virtual Desktop host pool using Azure Firewall
