@@ -654,6 +654,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d03def72-e2b5-8c3d-35c2-b02ff22816b3",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices, recommendations or product behavior when managing custom Libraries and Packages on a Spark pool.",
+      "searchTags": "how;advisory;spark;libraries;packages",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d68f6850-ba98-2795-8330-7b5c974fe9d0",
       "longDescription": "",
       "shortDescription": "Failures configuring access or accessing data on storage using External Data Sources, External Tables, OPENROWSET or CETAS.",
