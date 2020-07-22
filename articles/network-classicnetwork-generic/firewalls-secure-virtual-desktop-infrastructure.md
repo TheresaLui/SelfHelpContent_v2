@@ -6,7 +6,7 @@
     authors="v-miegge"
     ms.author="Mario.Liu"
     selfHelpType="generic"
-    supportTopicIds="32745453, 32745471"
+    supportTopicIds="32745471"
     resourceTags=""
     productPesIds="16556"
     ownershipId="CloudNet_AzureFirewall"
