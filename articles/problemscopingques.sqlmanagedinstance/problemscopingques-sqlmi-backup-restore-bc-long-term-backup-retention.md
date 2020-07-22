@@ -62,6 +62,7 @@
             "id": "database_name",
             "order": 20,
             "controlType": "dropdown",
+	    "visibility": "type_issue != questions || type_issue != dont_know_answer",
             "displayLabel": "What database are you configuring Long-Term Retention?",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
