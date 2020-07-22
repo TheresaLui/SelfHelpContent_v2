@@ -26,7 +26,7 @@ The Cosmos DB account, **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccount
 
 ## **Recommended Steps**
 
-It appears that your key vault's access control policies are preventing your Cosmos DB account from contacting the key vault to access your managed encryption keys. If you've recently performed a key rotation, make sure that the previous key or key version remains enabled and available until Cosmos DB has completed the rotation. The previous key or key version can be disabled after 24 hours, or after the Azure Key Vault audit logs don't show activity from Azure Cosmos DB on that key or key version anymore.
+It appears that your key vault's configuration is preventing your Cosmos DB account from contacting the key vault to access your managed encryption keys. If you've recently performed a key rotation, make sure that the previous key or key version remains enabled and available until Cosmos DB has completed the rotation. The previous key or key version can be disabled after 24 hours, or after the Azure Key Vault audit logs don't show activity from Azure Cosmos DB on that key or key version anymore.
 
 ## **Recommended Documents**
 
