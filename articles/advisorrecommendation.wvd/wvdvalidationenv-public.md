@@ -37,8 +37,8 @@
   "ingestionClientIdentities": [],
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-desktop/create-validation-host-pool",
-  "description": "Deploy Host Pool to validation environment",
-  "longDescription": "We have detected that Windows Virtual Desktop Host Pool is not deployed in validation environment in current subscription. Session Hosts that are running as part of Host Pool deployed to validation environment help increasing resiliency to potential changes caused by service deployment. Ensuring that Host Pool is deployed to validation ring, business continuity should improve with early detection of potential issues with version released and deployed to production environment later.",
+  "description": "No validation environment enabled",
+  "longDescription": "We have determined that you do not have a validation environment enabled in current subscription. When creating your host pools, you have selected "No" for "Validation environment" in the properties tab. Having at least one host pool with a validation environment enabled, ensures the business continuity through Windows Virtual Desktop service deployments with early detection of potential issues.",
   "potentialBenefits": "Ensure business continuity through WVD service deployments",
   "actions": [
     {
