@@ -46,3 +46,9 @@ https://docs.microsoft.com/azure/storage/common/storage-encryption-keys-cli?toc=
 ### **Disk Encryption**
 
 - [Use Azure Disk Encryption or Storage Service Encryption (SSE) for Disk Encryption](https://docs.microsoft.com/azure/storage/common/storage-security-guide#comparison-of-azure-disk-encryption-sse-and-client-side-encryption)
+
+### **Infrastructure Encryption**
+
+- [What is Infrastructure Encryption for storage](https://docs.microsoft.com/azure/storage/common/infrastructure-encryption-enable?tabs=powershell)
+- [Sign up for the feature](https://docs.microsoft.com/azure/storage/common/infrastructure-encryption-enable?tabs=powershell#about-the-feature)
+- [How to create an account with Infrastructure Encryption enabled](https://docs.microsoft.com/azure/storage/common/infrastructure-encryption-enable?tabs=powershell#create-an-account-with-infrastructure-encryption-enabled)
