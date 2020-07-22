@@ -28,7 +28,7 @@ Additional ports are available for outbound SNAT connections, reducing the poten
 
 ## **Recommended Documents**
 
-- [Create an Azure firewall](https://docs.microsoft.com/azure/firewall/deploy-multi-public-ip-powershell#create-a-firewall-with-two-or-more-public-ip-addresses) with two or more public IP addresses.
-- [Add a public IP address](https://docs.microsoft.com/azure/firewall/deploy-multi-public-ip-powershell#add-a-public-ip-address-to-an-existing-firewall) to an existing Azure firewall.
-- [Remove a public IP address](https://docs.microsoft.com/azure/firewall/deploy-multi-public-ip-powershell#remove-a-public-ip-address-from-an-existing-firewall) from an existing Azure firewall.
-- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues).
+- [Create an Azure firewall](https://docs.microsoft.com/azure/firewall/deploy-multi-public-ip-powershell#create-a-firewall-with-two-or-more-public-ip-addresses) with two or more public IP addresses
+- [Add a public IP address](https://docs.microsoft.com/azure/firewall/deploy-multi-public-ip-powershell#add-a-public-ip-address-to-an-existing-firewall) to an existing Azure firewall
+- [Remove a public IP address](https://docs.microsoft.com/azure/firewall/deploy-multi-public-ip-powershell#remove-a-public-ip-address-from-an-existing-firewall) from an existing Azure firewall
+- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues)
