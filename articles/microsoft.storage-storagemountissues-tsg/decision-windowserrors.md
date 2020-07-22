@@ -17,7 +17,7 @@
 
 **How to check for common error messages**
 
-Below error(s) may be presented in CMD after trying to mount share or a window pops up after trying to map network drive in Windows.
+Below error(s) may be presented in CMD after trying to mount share or a window pops up after trying to map network drive in Windows
 
 <!---
 

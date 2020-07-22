@@ -18,7 +18,8 @@
 This tool aims to help you validate the client running environment, detect the incompatible client configuration which would cause access failure for Azure Files, gives prescriptive guidance on self-fix and, collect the diagnostics traces.
 
 **Recommended Documents**
-<a href="https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089">https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089</a>
+
+[https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089](https://gallery.technet.microsoft.com/Troubleshooting-tool-for-02184089)
 
 <!---
 

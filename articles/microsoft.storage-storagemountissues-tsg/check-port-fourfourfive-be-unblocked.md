@@ -17,8 +17,8 @@
 
 **How to check if you can unblock port 445**
 
-1. Unblock port 445 with help of your ISP/IT Admin.
-2. Work with your IT department or ISP to open port 445 outbound to <a href="https://www.microsoft.com/en-us/download/details.aspx?id=41653">Azure IP ranges</a>
+1. Unblock port 445 with help of your ISP/IT Admin
+2. Work with your IT department or ISP to open port 445 outbound to [Azure IP ranges](https://www.microsoft.com/download/details.aspx?id=56519)
 
 <!---
 

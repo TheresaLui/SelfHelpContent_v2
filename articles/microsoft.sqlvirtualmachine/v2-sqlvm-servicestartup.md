@@ -1,8 +1,8 @@
 <properties
 	pageTitle="SQL Service startup or configuration"
 	description="SQL Service startup or configuration"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""

@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Manage SQL VM Resource provider and features"
 	description="Manage SQL VM Resource provider and features"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""
@@ -32,7 +32,7 @@ You can execute the following commands in PowerShell to reinstall the extension:
 ```
 Remove-AzVMSqlServerExtension -ResourceGroupName "<ResourceGroupName>" -VMName "<VMName>" -Name "SqlIaasExtension" 
 
-Set-AzVMExtension -ResourceGroupName "<ResourceGroupName>" -Location "<VMLocation>" -VMName "<VMName>" -Name "SqlIaasExtension" -Publisher "Microsoft.SqlServer.Management" -ExtensionType "SqlIaaSAgent" -TypeHandlerVersion "2.0";
+Set-AzVMSqlServerExtension -VMName "<VMName>" -ResourceGroupName "<ResourceGroupName>" -Name "SQLIaasExtension" -Version "2.0" -Location "<VMLocation>"
 ```
 
 ### Cannot disable Automated Patching/Managed Backup

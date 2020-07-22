@@ -1,8 +1,8 @@
 <properties
 	pageTitle="SQL Certificate Management, SSL and TLS"
 	description="SQL Certificate Management, SSL and TLS"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""

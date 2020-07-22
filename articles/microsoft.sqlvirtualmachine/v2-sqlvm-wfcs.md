@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Windows Failover Cluster Service"
 	description="Windows Failover Cluster Service"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"
     authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""

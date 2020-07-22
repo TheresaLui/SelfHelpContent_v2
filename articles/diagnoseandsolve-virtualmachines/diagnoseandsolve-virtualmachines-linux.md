@@ -86,7 +86,7 @@ cloudEnvironments="public, fairfax, usnat, ussec"
       "subProblems": [
         {
           "id": "Disk_throughput_low",
-          "title": "Disk throughput low",
+          "title": "Disk throughput or IOPS are lower than expected",
           "description": "Troubleshoot performance issues when disk throughput is lower than expected",
           "supportTopicId": "32628264",
           "commonSolutionArticleId": "e32c32c4-edf2-470f-a731-7f4fe2cff95d",
@@ -94,7 +94,7 @@ cloudEnvironments="public, fairfax, usnat, ussec"
         },
         {
           "id": "CPU_usage_high",
-          "title": "CPU usage high",
+          "title": "CPU usage is higher than expected",
           "description": "Troubleshoot performance issues when CPU usage is higher than expected",
           "supportTopicId": "32628261",
           "commonSolutionArticleId": "d0fa4014-1b31-4dea-beaa-0e7d1ef6d466",
@@ -102,7 +102,7 @@ cloudEnvironments="public, fairfax, usnat, ussec"
         },
         {
           "id": "Memory_usage_high",
-          "title": "Memory usage high",
+          "title": "Memory usage is higher than expected",
           "description": "Troubleshoot performance issues when memory usage is higher than expected",
           "supportTopicId": "32628275",
           "commonSolutionArticleId": "d2aaff89-b196-425a-99ed-15656d09fbd1",
@@ -110,18 +110,10 @@ cloudEnvironments="public, fairfax, usnat, ussec"
         },
         {
           "id": "GPU_processing_slow",
-          "title": "GPU processing slow",
+          "title": "GPU processing is slower than expected",
           "description": "Troubleshoot performance issues when GPU processing is slower than expected",
           "supportTopicId": "32628268",
           "commonSolutionArticleId": "2f101132-9899-437e-a74f-f5dd404fd8f9",
-          "symptomId": ""
-        },
-        {
-          "id": "Guidance_for_better_VM_sizing_and_throughput",
-          "title": "Guidance for better VM sizing and throughput",
-          "description": "Guidance on VM sizing and throughput for better performance of Azure VMs",
-          "supportTopicId": "32628270",
-          "commonSolutionArticleId": "59d5ee22-322d-4b0e-9d2b-fe07bdc1442f",
           "symptomId": ""
         },
         {

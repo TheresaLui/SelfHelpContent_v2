@@ -1,11 +1,11 @@
 <properties
-    pageTitle="Error: Server not available or SSL SYSCALL error: EOF detected"
-    description="Error: Server not available or SSL SYSCALL error: EOF detected"
+    pageTitle="Server is currently not available"
+    description="Server is currently not available"
     service="microsoft.dbforpostgresql"
     resource="servers"
     authors="jan-eng"
     ms.author="janeng"
-    displayOrder="20"
+    displayOrder="200"
     selfHelpType="generic"
     supportTopicIds="32639974"
     resourceTags="servers, databases"
@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
-# Server not available
+# Database server is currently not available
 
 Server unavailability is typically transient and due to a restart. A restart happens when a service update is rolled out to your server, a technical issue with the underlying infrastructure was encountered, you triggered a restart of the server, you scale the compute resources, or you change between service tiers.
 
