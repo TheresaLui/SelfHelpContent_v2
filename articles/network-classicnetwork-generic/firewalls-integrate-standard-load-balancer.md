@@ -24,6 +24,6 @@ You can use a public load balancer if you already have one deployed and you want
 
 Use the below links to configure appropriately.
 
-- Integrate with [public load balancer](https://docs.microsoft.com/azure/firewall/integrate-lb#public-load-balancer).
-- Integrate with [Internal load balancer](https://docs.microsoft.com/azure/firewall/integrate-lb#internal-load-balancer).
-- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues).
+- Integrate with [public load balancer](https://docs.microsoft.com/azure/firewall/integrate-lb#public-load-balancer)
+- Integrate with [Internal load balancer](https://docs.microsoft.com/azure/firewall/integrate-lb#internal-load-balancer)
+- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues)
