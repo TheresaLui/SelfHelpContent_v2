@@ -23,11 +23,11 @@
 ## **Recommended Steps**
 For How to questions on:
 
-Setup Secure App Model Framework
+- Setup Secure App Model Framework
 
-Integrate Partner Center API with your Marketplace
+- Integrate Partner Center API with your Marketplace
 
-[Create Advisory Request](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical/createadvisoryhours-servicerequest)
+Create Advisory Request, click [here](https://partner.microsoft.com/dashboard/mpn/membership/benefits/technical/createadvisoryhours-servicerequest)
 
 ## **Recommended Documents**
 
