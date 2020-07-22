@@ -31,7 +31,7 @@
 * Please avoid having any special characters (- or _) as the first or last character in workspace name. Maximum length for Managed resource group Name: 90 characters. Workspace creation will fail due to invalid characters. 
 
 * [Error: Instances unreachable](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#instances-unreachable)
-* You can get the public/private IP address of your [driver or executor node(s)](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/clusters#--sparknode) by running this command in a notebook:
+* You can get the public/private IP address of your [driver or executor node(s)](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/clusters#--sparknode) by running this command in a Databricks notebook:
 
 ```
     %sh
@@ -41,7 +41,7 @@
 * [Retrieve the current username for the notebook](https://docs.microsoft.com/azure/databricks/kb/notebooks/get-notebook-username). This is currently supported for:
 
 	* Standard clusters in both Scala and Python
-	* High Concurrency clusters in Python with Credential Passthrough **disabled**.
+	* High Concurrency clusters in Python with Credential Passthrough **disabled**
 	
 * Getting error **Unexpected error while loading Spark UI: Max Response Size Reached**: the issue is due to response limit of 30 MB for Spark UI proxy. This can happen if the jobs page returned by Spark UI is very big which can happen in long running cluster with too many jobs. To resolve the issue, please modify [Spark UI configurations](http://spark.apache.org/docs/latest/configuration.html#spark-ui) as below:
 
