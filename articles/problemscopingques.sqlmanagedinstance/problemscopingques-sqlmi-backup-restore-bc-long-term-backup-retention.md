@@ -16,8 +16,8 @@
 ---
 {
   "$schema": "SelfHelpContent",
-  "resourceRequired": false,
-  "subscriptionRequired": false,
+  "subscriptionRequired": true,
+  "resourceRequired": true,
   "title": "Long-term backup retention",
   "fileAttachmentHint": "",
   "formElements": [
