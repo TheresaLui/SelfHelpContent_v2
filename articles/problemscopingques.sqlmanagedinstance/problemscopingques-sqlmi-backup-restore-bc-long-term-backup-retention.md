@@ -87,7 +87,7 @@
     {
       "id": "retention_plan",
       "order": 30,
-      "controlType": "textbox",
+      "controlType": "multilinetextbox",
       "visibility": "type_issue != questions && type_issue != dont_know_answer",
       "displayLabel": "What is the retention plan configuration?",
       "required": false
