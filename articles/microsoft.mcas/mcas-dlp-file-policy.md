@@ -14,12 +14,12 @@
   resourceTags=""
   productPesIds="16031"
  ownershipId="CloudAppSecurity_DataProtection"
-  cloudEnvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
 />
 
 # I'm having a problem with DLP and file policies
 
-Most users are able to DLP and file policy questions using the information below.
+Most users are able to resolve DLP and file policy questions using the information below.
 
 ## **Recommended Steps**
 
