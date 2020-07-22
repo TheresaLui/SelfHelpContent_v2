@@ -177,6 +177,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "1f4b3a8f-c497-4408-c6df-05ee7030fee4",
+      "longDescription": "",
+      "shortDescription": "Issue with configuration or managing a Windows failover cluster in Azure",
+      "searchTags": "Cluster",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "20e98c4a-ad27-441f-a4f1-ba5641b207d7",
       "longDescription": "",
       "shortDescription": "Issues where SQL Server performance is lower than expected in an Azure Virtual Machine",
