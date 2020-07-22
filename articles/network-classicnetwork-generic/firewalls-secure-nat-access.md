@@ -22,5 +22,5 @@ When you configure DNAT, the NAT rule collection action is set to DNAT. Each rul
 
 ## **Recommended Documents**
 
-- Use the [step by step guide](https://docs.microsoft.com/azure/firewall/tutorial-firewall-dnat) to Filter inbound Internet traffic with Azure Firewall DNAT using the Azure portal.
-- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues).
+- Use the [step by step guide](https://docs.microsoft.com/azure/firewall/tutorial-firewall-dnat) to Filter inbound Internet traffic with Azure Firewall DNAT using the Azure portal
+- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues)
