@@ -673,6 +673,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "7c876ab3-753f-71db-0101-fc6057dee104",
+      "longDescription": "",
+      "shortDescription": "Issues related to management of the VM at the Guest level",
+      "searchTags": "admin",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7deec2fa-ffd5-a10b-b26e-1891f495242b",
       "longDescription": null,
       "shortDescription": "Questions about managing Windows Remote Desktop Service (RDS) for a virtual machine running in Azure",
