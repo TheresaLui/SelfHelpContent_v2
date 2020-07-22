@@ -19,6 +19,15 @@
 
 <!--issueDescription-->
 
+Native MongoDB support the quotation mark in the NumberLong(): [Data Types](https://docs.mongodb.com/manual/core/shell-types/)
+
+Current Cosmos DB doesn't support quotation mark in NuberLong(), there is bug tracking the issue
+
+Until quotation mark is supported in NumberLong() by Cosmos DB recommend to customer to remove them, insert should then succeed
+
+Provide customer with ready message below.
+
+### Customer Message
 Dear customer,
 
 Altough, native MongoDB support the quotation mark in the NumberLong(): [Data Types](https://docs.mongodb.com/manual/core/shell-types/), Cosmos DB MongoDB API currentntly doesn't support quotation mark in NumberLong(). Until quotation mark is supported in NumberLong() by Cosmos DB, we recommend you to remove them, insert should then succeed.

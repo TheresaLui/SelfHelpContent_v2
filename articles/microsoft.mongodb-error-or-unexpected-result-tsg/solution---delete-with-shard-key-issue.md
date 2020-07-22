@@ -27,6 +27,7 @@ We have tried both deleteMany() and remove() operations, both exhibit the same b
 
 Provide customer with ready message below.
 
+### Customer Message
 Dear customer,
 
 _deleteMany()_ and _remove()_ commands in MongoDB require a shardKey to be present. For your scenario, the recommended way is to delete documents in batches so that the delete request is not rate-limited and can fully utilize the provisioned throughput.
