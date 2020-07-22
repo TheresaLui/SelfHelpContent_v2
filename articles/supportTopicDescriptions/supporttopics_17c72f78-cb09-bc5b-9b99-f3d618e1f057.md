@@ -464,7 +464,7 @@
     {
       "id": "e4510a28-7375-4af4-e9d6-4b7ed39cb3aa",
       "longDescription": "",
-      "shortDescription": "Your ARM template is not deploying successfully",
+      "shortDescription": "You have questions or issues with your custom ARM template or your template is not deploying successfully",
       "searchTags": "ARM templates;azure resource manager",
       "category": "Create, Update and Drop Resources",
       "useInDiagnoseAndSolve": "true"
