@@ -174,9 +174,9 @@
          "order":25,
          "visibility":"problem_type == Issue",
          "controlType":"textbox",
-         "displayLabel":"Error XID - Can be found in network trace",
-         "watermarkText":"Error XID - Can be found in network trace",
-         "textPropertyRegex":"[0-9]$",
+         "displayLabel":"Linux Distro Version",
+         "watermarkText":"To find distro version - cat /etc/os-release",
+         "textPropertyRegex":"^\d+(\.\d+)*$",
          "required":false
       },
       {
