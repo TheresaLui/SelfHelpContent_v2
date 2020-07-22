@@ -7,7 +7,7 @@
 	ms.author="vtpombei"
 	selfHelpType="problemScopingQuestions"
 	productPesIds="16259"
-	supportTopicIds="32637302"
+	supportTopicIds="32637272"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureData_AzureSQLMI"
