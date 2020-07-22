@@ -18,8 +18,8 @@
 
 Azure Firewall health state metric indicates the health of the firewall based on (static network address translation) SNAT port availability. This metric has two dimensions:
 
-- Status: Possible values are Healthy, Degraded, Unhealthy.
-- Reason: Indicate the reason for the corresponding status of the firewall.
+- Status: Possible values are Healthy, Degraded, Unhealthy
+- Reason: Indicate the reason for the corresponding status of the firewall
 
 If SNAT ports are used greater than 95%, they are considered exhausted and the health is 50% with `status=Degraded` and `reason=SNAT port`. The firewall keeps processing traffic and existing connections are not affected. However, new connections may not be established intermittently.
 
@@ -33,6 +33,6 @@ When you add more public IP addresses to your firewall, more SNAT ports are avai
 
 ## **Recommended Documents**
 
-- Learn how to [monitor Azure Firewall logs and metrics](https://docs.microsoft.com/azure/firewall/tutorial-diagnostics).
-- Learn more about [Metrics in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-platform-metrics).
-- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues).
+- Learn how to [monitor Azure Firewall logs and metrics](https://docs.microsoft.com/azure/firewall/tutorial-diagnostics)
+- Learn more about [Metrics in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-platform-metrics)
+- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues)
