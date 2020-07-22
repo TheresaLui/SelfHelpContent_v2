@@ -6,19 +6,20 @@
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885" />
+  articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
+  ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
-  "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "shortDescription": "Assistance or advisory related to Synapse Analytics product.",
+  "longDescription": "",
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "00f0a41f-85ba-e79e-53bb-3952c4f306c7",
@@ -154,6 +155,14 @@
       "shortDescription": "Failures or unexpected behavior related to the authoring and development of Notebooks.",
       "searchTags": "authoring;development;notebooks;spark;studio",
       "category": "Authoring and Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "23b20fa3-3b71-f49b-f2c2-ee098b6850b1",
+      "longDescription": "",
+      "shortDescription": "Slow or hung queries, queries failing with an error or unexpected results, issues related to file formats or data types.",
+      "searchTags": "sql;performance;cetas;format;types",
+      "category": "SQL Performance and Query Execution",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -378,6 +387,14 @@
       "shortDescription": "Failures or unexpected behavior while manipulating data in SQL pool using Databricks.",
       "searchTags": "sql;databricks;spark;load",
       "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7064fa16-d600-390b-e37d-ac68f9334658",
+      "longDescription": "",
+      "shortDescription": "Unexpected errors blocking authoring, or difficulty while debugging pipelines, or configuring any type of Trigger.",
+      "searchTags": "pipelines;triggers;debug;trigger;adf",
+      "category": "Authoring and Development",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -738,6 +755,14 @@
       "shortDescription": "Failures to create or drop a Workspace, slow or hung operations, or unexpected behavior.",
       "searchTags": "manage;create;drop;delete;workspace",
       "category": "Management Operations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e9262106-de01-0e1d-d7d3-2e5b4412a72a",
+      "longDescription": "",
+      "shortDescription": "Help with properties and setting up DataSets, Linked Service, and IR integration with various activities.",
+      "searchTags": "activities;dataset;linked service;adf;ir",
+      "category": "Authoring and Development",
       "useInDiagnoseAndSolve": "true"
     },
     {
