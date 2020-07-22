@@ -69,7 +69,7 @@
                "text":"Not specific to a blob container"
             }
          ],
-         "required":true
+         "required":false
       },
       {
          "id":"issue_nature",
@@ -303,5 +303,4 @@
    ],
    "$schema":"SelfHelpContent"
 }
-
 ---
