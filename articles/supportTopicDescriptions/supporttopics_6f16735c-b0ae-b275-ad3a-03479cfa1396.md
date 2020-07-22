@@ -977,6 +977,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "ac49fc5f-cc3d-46d7-78e1-8156d2f8994a",
+      "longDescription": "",
+      "shortDescription": "Issues with deleting a resource group",
+      "searchTags": "Delete",
+      "category": "Cannot Start",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ad486945-9500-f754-c39f-26ac7db9a17d",
       "longDescription": null,
       "shortDescription": "Creating or configuring a Windows failover cluster for a virtual machine running in Azure",
