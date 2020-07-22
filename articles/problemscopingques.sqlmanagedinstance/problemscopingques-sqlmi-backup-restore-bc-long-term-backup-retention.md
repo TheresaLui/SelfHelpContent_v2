@@ -53,7 +53,7 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Don't know the answer"
+                    "text": "Don't know the answer or issue not listed"
                 }
             ],
             "required": true
@@ -62,8 +62,8 @@
             "id": "database_name",
             "order": 20,
             "controlType": "dropdown",
-	    "visibility": "type_issue != questions || type_issue != dont_know_answer",
-            "displayLabel": "What database are you configuring Long-Term Retention?",
+	    "visibility": "type_issue != questions && type_issue != dont_know_answer",
+            "displayLabel": "What is the database facing the issue?",
             "watermarkText": "Choose an option",
             "dynamicDropdownOptions": {
                 "uri": "{resourceid}/databases?api-version=2017-03-01-preview",
@@ -88,7 +88,7 @@
       "id": "retention_plan",
       "order": 30,
       "controlType": "textbox",
-      "visibility": "type_issue != questions || type_issue != dont_know_answer",
+      "visibility": "type_issue != questions && type_issue != dont_know_answer",
       "displayLabel": "What is the retention plan configuration?",
       "required": false
     },
@@ -96,7 +96,7 @@
       "id": "list_db_recover",
       "order": 40,
       "controlType": "multilinetextbox",
-      "visibility": "type_issue != questions || type_issue != dont_know_answer",
+      "visibility": "type_issue != questions && type_issue != dont_know_answer",
       "displayLabel": "What are the permissions of the user facing the issue?",
       "watermarkText": "Please provide the scope of the permissions, Subscription or Resource Group",
       "required": true
