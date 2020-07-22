@@ -222,6 +222,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "67060bc1-a351-ca57-d61c-888edaceeabb",
+      "longDescription": "",
+      "shortDescription": "You get an Access Forbidden, 403, or other error when trying to take action",
+      "searchTags": "403;access forbidden;authorize",
+      "category": "start stop",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6e551778-1455-77a1-bd60-700ba414eb18",
       "longDescription": "",
       "shortDescription": "Issues were runbook jobs are failed, stopped or suspended, or runbooks emit errors",
