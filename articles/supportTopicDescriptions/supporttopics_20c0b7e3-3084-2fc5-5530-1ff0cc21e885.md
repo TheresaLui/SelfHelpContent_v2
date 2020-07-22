@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  cloudenvironments="public, fairfax, blackforest, mooncake"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -179,6 +179,14 @@
       "shortDescription": "Failures to configure or connect to SQL pool through a Private Link.",
       "searchTags": "connectivity;unavailable;sql;private;link",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "28b7b329-9ad4-72d3-f69e-2725b9105c6d",
+      "longDescription": "",
+      "shortDescription": "Assistance with issues related to loading or extracting data from SQL pool using external tools or engine features like Polybase.",
+      "searchTags": "import;export;polybase;adf;databricks",
+      "category": "ETL with SQL Pool",
       "useInDiagnoseAndSolve": "true"
     },
     {
