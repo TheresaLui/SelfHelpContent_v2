@@ -774,6 +774,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "eb96363f-5788-3078-1bb7-9d6f94de5c0b",
+      "longDescription": "",
+      "shortDescription": "Failures to configure the firewall or connectivity issues to Synapse Workspace pools caused by the firewall settings.",
+      "searchTags": "connectivity;unavailable;workspace;firewall",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f09e82fa-d572-ee69-0c57-dfa7b86f7b77",
       "longDescription": "",
       "shortDescription": "Jobs are running slow or hang while reading data from Azure Synapse Link for CosmosDB.",
