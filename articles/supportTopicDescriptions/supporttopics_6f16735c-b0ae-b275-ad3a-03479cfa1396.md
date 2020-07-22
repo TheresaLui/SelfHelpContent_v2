@@ -257,6 +257,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "38acd653-fd62-c0d5-89c4-3e3dc4a13666",
+      "longDescription": "",
+      "shortDescription": "Issue with local accounts within the VM.",
+      "searchTags": "account",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "391055aa-2419-54f5-a5c1-b7cee895e0b7",
       "longDescription": null,
       "shortDescription": "Assistance with resizing a virtual machine or the desired size isn't available",
