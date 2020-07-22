@@ -17,7 +17,7 @@
 
 # Azure Instance Metadata Service
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Overview of Azure Instance Metadata service](https://docs.microsoft.com/azure/virtual-machines/linux/instance-metadata-service)<br>
 * [Frequently Asked Questions (FAQ) Metadata service](https://docs.microsoft.com/azure/virtual-machines/linux/instance-metadata-service#faq)<br>
