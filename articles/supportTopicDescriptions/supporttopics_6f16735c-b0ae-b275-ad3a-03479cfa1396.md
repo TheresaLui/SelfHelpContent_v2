@@ -673,6 +673,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "78665244-fee8-8a47-fc35-d87703af2ee5",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Hybrid Use Benefit (HUB)",
+      "searchTags": "HUB;Hybrid Use Benefit",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7894368f-87ed-8e4b-df9a-4b2f8fa19e71",
       "longDescription": null,
       "shortDescription": "Covers issues with Hybrid Use Benefit (HUB)for a virtual machine running in Azure",
