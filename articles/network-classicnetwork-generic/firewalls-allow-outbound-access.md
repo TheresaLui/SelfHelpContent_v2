@@ -20,4 +20,4 @@ Allows outbound access to ASE platform traffic. This tag does not cover customer
 
 ## **Recommended Documents**
 
-- For more information about integrating Azure Firewall with ASE, see [Locking down an App Service Environment](https://docs.microsoft.com/azure/app-service/environment/firewall-integration#configuring-azure-firewall-with-your-ase).
+- For more information about integrating Azure Firewall with ASE, see [Locking down an App Service Environment](https://docs.microsoft.com/azure/app-service/environment/firewall-integration#configuring-azure-firewall-with-your-ase)
