@@ -176,7 +176,6 @@
          "controlType":"textbox",
          "displayLabel":"Linux Distro Version",
          "watermarkText":"To find distro version",
-         "textPropertyRegex":"^\d+(\.\d+)*$",
          "required":false
       },
       {
