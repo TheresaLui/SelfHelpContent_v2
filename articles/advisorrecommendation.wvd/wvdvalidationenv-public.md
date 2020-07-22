@@ -5,7 +5,7 @@
     ms.author="rdinfra"
     articleId="ba1f4576-9ace-4fa9-b0d6-311ad9f2f233_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, ussec, usnat"
     ownershipId="Windows_Virtual_Desktop"
 />
 # Enable Validation Environment
@@ -38,7 +38,7 @@
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-desktop/create-validation-host-pool",
   "description": "No validation environment enabled",
-  "longDescription": "We have determined that you do not have a validation environment enabled in current subscription. When creating your host pools, you have selected \"No\" for \"Validation environment\" in the properties tab. Having at least one host pool with a validation environment enabled, ensures the business continuity through Windows Virtual Desktop service deployments with early detection of potential issues.",
+  "longDescription": "We have determined that you do not have a validation environment enabled in current subscription. When creating your host pools, you have selected \"No\" for \"Validation environment\" in the properties tab. Having at least one host pool with a validation environment enabled ensures the business continuity through Windows Virtual Desktop service deployments with early detection of potential issues.",
   "potentialBenefits": "Ensure business continuity through WVD service deployments",
   "actions": [
     {
