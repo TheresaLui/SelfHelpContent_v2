@@ -222,6 +222,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "34682f4b-fd21-1907-dcbc-db95431292b4",
+      "longDescription": "",
+      "shortDescription": "Questions or advisory on best practices, recommendations and product behavior related to backing up or restoring SQL Pool databases.",
+      "searchTags": "how;advisory;sql;backup;restore",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "37e5ce8d-89aa-c41f-f3ac-5bab5ee0be0d",
       "longDescription": "",
       "shortDescription": "Issues pausing or resuming a SQL pool, slow or hung operations, or unexpected behavior.",
