@@ -20,9 +20,9 @@ Virtual Network traffic is secured by deploying Azure Firewall and configuring r
 
 ## **Recommended Documents**
 
-- Use the [Azure portal](https://docs.microsoft.com/azure/firewall/tutorial-firewall-deploy-portal) to secure subnet-to-subnet traffic.
-- Use [Quickstart ARM Templates](https://docs.microsoft.com/azure/firewall/deploy-template) to deploy Azure Firewall.
-- Use [Azure CLI](https://docs.microsoft.com/azure/firewall/deploy-cli) to deploy Azure Firewall.
-- Use Firewall logs to [monitor Azure Firewall](https://docs.microsoft.com/azure/firewall/logs-and-metrics).
-- Learn more about [Azure Firewall features](https://docs.microsoft.com/azure/firewall/features).
-- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues).
+- Use the [Azure portal](https://docs.microsoft.com/azure/firewall/tutorial-firewall-deploy-portal) to secure subnet-to-subnet traffic
+- Use [Quickstart ARM Templates](https://docs.microsoft.com/azure/firewall/deploy-template) to deploy Azure Firewall
+- Use [Azure CLI](https://docs.microsoft.com/azure/firewall/deploy-cli) to deploy Azure Firewall
+- Use Firewall logs to [monitor Azure Firewall](https://docs.microsoft.com/azure/firewall/logs-and-metrics)
+- Learn more about [Azure Firewall features](https://docs.microsoft.com/azure/firewall/features)
+- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues)
