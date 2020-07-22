@@ -726,6 +726,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b2a80d2e-5a91-92f7-2346-992b1aa27775",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Shared Image Gallery or Azure Shared Image definitions (SIG)",
+      "searchTags": "Shared Image",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b3ca1e6d-ea88-4d89-2f27-cf22e3bf6b37",
       "longDescription": "",
       "shortDescription": "Assistance with troubleshooting network security groups (NSG) associated to the virtual machine",
