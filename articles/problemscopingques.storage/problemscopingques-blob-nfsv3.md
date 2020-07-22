@@ -11,9 +11,7 @@
 	articleId="42b389c1-1224-4646-a84f-4687eb6bf600"
 	ownershipId="StorageMediaEdge_StorageBlobs"
 />
-
 # NFS 3.0 issues with Azure Blob storage
-
 ---
 {
    "subscriptionRequired":true,
