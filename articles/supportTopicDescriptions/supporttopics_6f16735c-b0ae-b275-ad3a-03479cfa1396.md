@@ -1465,6 +1465,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "fcc8678d-5fe8-e491-84de-c4bdce7561e5",
+      "longDescription": "",
+      "shortDescription": "Issues when deleting a virtual machine",
+      "searchTags": "Delete",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "fd32c173-79fe-462d-bfff-aeef92800055",
       "longDescription": null,
       "shortDescription": "Look into actions and events that can cause VMs to reboot and understand how to avoid unexpected reboots",
