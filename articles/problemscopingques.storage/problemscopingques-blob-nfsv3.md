@@ -176,7 +176,7 @@
          "controlType":"textbox",
          "displayLabel":"Linux Distro Version",
          "watermarkText":"To find distro version - cat /etc/os-release",
-         "textPropertyRegex":"^\\d+(\\.\\d+)*$",
+         "textPropertyRegex":"^\d+(\.\d+)*$",
          "required":false
       },
       {
