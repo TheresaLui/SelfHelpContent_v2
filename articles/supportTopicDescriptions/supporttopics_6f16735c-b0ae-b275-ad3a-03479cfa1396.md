@@ -1329,6 +1329,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "ef64d754-4abe-3465-b745-7e0fab9ea45e",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Image Builder",
+      "searchTags": "Image Builder",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f0ee0e3f-41b3-3911-fff5-cc68d7853c1e",
       "longDescription": null,
       "shortDescription": "Resolve issues with custom images deployments in Azure",
