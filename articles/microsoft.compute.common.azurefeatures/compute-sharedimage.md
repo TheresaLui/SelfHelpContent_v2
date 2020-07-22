@@ -6,7 +6,7 @@
 	authors="ScottAzure"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32615272,32615273,32615274,32615275"
+	supportTopicIds="32615272,32615273,32615274,32615275,32743896"
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax, usnat, ussec"

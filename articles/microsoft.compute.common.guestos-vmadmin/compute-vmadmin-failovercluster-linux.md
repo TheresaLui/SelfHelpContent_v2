@@ -1,6 +1,6 @@
 <properties
-	pageTitle="configuration and setup/Create a Linux failover cluster"
-	description="configuration and setup/Create a Linux failover cluster"
+	pageTitle="Issue with Linux failover cluster in Azure"
+	description="Issue with Linux failover cluster in Azure"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
@@ -15,7 +15,7 @@
 	ownershipId="Compute_VirtualMachines_Content"
 />
 
-# Configuration and Setup/Create a Linux failover cluster
+# Issue with Linux failover cluster in Azure
 
 ## **Recommended documents**
 

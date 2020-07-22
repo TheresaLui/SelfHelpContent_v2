@@ -1,13 +1,13 @@
 <properties
-	pageTitle="configuration and setup/Create a Windows failover cluster"
-	description="configuration and setup/Create a Windows failover cluster"
+	pageTitle="Issue with Windows failover cluster in Azure"
+	description="Issue with Windows failover cluster in Azure"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411853,32411853"
+	supportTopicIds="32411853,32411853,32743893"
 	resourceTags=""
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -15,7 +15,7 @@
 	ownershipId="Compute_VirtualMachines_Content"
 />
 
-# Configuration and Setup/Create a Windows failover cluster
+# Issue with Windows failover cluster in Azure
 
 ## **Recommended documents**
 
