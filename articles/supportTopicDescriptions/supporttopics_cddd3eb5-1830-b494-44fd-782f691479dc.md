@@ -470,6 +470,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7be0ea41-46a2-f33f-3345-34e53fae245b",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Reserved Instances (RI)",
+      "searchTags": "Reserved Instances",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7d8fb79f-7fbc-7125-b4dc-3060a75a755d",
       "longDescription": "",
       "shortDescription": "A configuration change to the virtual machine has impacted RDP or SSH connectivity",
