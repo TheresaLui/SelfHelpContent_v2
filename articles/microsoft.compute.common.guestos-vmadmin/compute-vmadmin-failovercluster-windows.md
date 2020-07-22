@@ -17,7 +17,7 @@
 
 # Issue with Windows failover cluster in Azure
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Windows Server Failover Cluster on Azure IAAS VM – Part 1](https://blogs.technet.microsoft.com/askcore/2015/06/24/windows-server-failover-cluster-on-azure-iaas-vm-part-1-storage/)<br>
 * [Building Windows Server Failover Cluster on Azure IAAS VM – Part 2 (Network and Creation)](https://blogs.technet.microsoft.com/askcore/2015/06/24/windows-server-failover-cluster-on-azure-iaas-vm-part-1-storage/)<br>
