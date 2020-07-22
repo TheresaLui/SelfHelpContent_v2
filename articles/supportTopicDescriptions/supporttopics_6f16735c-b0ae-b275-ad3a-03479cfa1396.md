@@ -569,6 +569,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "62064939-dbf3-898e-6259-c8f20a6f6c30",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to specific Azure Features",
+      "searchTags": "Features",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "62446684-0e2d-4d89-e8ac-a75e02e52b62",
       "longDescription": null,
       "shortDescription": "During the creation of the VM, an allocation error was encountered",
