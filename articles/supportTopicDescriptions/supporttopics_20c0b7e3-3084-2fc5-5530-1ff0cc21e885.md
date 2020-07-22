@@ -230,6 +230,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3641365f-4980-5427-b9a6-f7d6bffa442c",
+      "longDescription": "",
+      "shortDescription": "Failures to set the maintenance schedule, maintenance occuring out of the scheduled window, or issues with maintenance notifications.",
+      "searchTags": "maintenance;schedule;window;notification;upgrade",
+      "category": "Administration and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "37e5ce8d-89aa-c41f-f3ac-5bab5ee0be0d",
       "longDescription": "",
       "shortDescription": "Issues pausing or resuming a SQL pool, slow or hung operations, or unexpected behavior.",
