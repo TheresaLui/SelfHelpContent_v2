@@ -206,6 +206,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "63952d03-cc9d-6740-111a-0177d050c928",
+      "longDescription": "",
+      "shortDescription": "Issues with creating, moving, or deleting Automation Accounts",
+      "searchTags": "account;delete;unlink",
+      "category": "Automation Account",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "65616ee6-03b8-cb93-967b-d8a2b237ba75",
       "longDescription": "",
       "shortDescription": "Change Tracking and Inventory functionality in Azure Automation",
