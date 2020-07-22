@@ -16,7 +16,7 @@
 
 # Issues with or questions about pgdump, pgrestore
 
-## Recommended Steps
+## **Recommended Steps**
 * Review our [pg_dump and pg_restore guide](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-dump-and-restore)
 * Consider using Azure Database Migration Service for online migrations with larger databases:
    * [Tutorial for migration from another Azure Database for PostgreSQL server](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online-portal)
