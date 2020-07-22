@@ -23,9 +23,9 @@ You can access some of these logs through the portal. Logs can be sent to Azure 
 ## **Recommended Documents**
 
 - Enable Azure Firewall [diagnostic logging](https://docs.microsoft.com/azure/firewall/firewall-diagnostics#enable-diagnostic-logging-through-the-azure-portal) through the Azure portal.
-- Enable Azure Firewall [logging using PowerShell](https://docs.microsoft.com/azure/firewall/firewall-diagnostics#enable-logging-with-powershell).
-- View and analyze the [Azure Firewall activity log](https://docs.microsoft.com/azure/firewall/firewall-diagnostics#view-and-analyze-the-activity-log).
-- View and analyze the [Azure Firewall network and application rule logs](https:\docs.microsoft.com\azure\firewall\firewall-diagnostics#view-and-analyze-the-network-and-application-rule-logs).
-- View Azure Firewall [metrics](https://docs.microsoft.com/azure/firewall/firewall-diagnostics#view-metrics).
-- Learn more about Azure Firewall [logs and metrics](https://docs.microsoft.com/azure/firewall/logs-and-metrics).
-- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues).
+- Enable Azure Firewall [logging using PowerShell](https://docs.microsoft.com/azure/firewall/firewall-diagnostics#enable-logging-with-powershell)
+- View and analyze the [Azure Firewall activity log](https://docs.microsoft.com/azure/firewall/firewall-diagnostics#view-and-analyze-the-activity-log)
+- View and analyze the [Azure Firewall network and application rule logs](https:\docs.microsoft.com\azure\firewall\firewall-diagnostics#view-and-analyze-the-network-and-application-rule-logs)
+- View Azure Firewall [metrics](https://docs.microsoft.com/azure/firewall/firewall-diagnostics#view-metrics)
+- Learn more about Azure Firewall [logs and metrics](https://docs.microsoft.com/azure/firewall/logs-and-metrics)
+- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues)
