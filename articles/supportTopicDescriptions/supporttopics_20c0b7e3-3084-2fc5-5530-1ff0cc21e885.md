@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2bb9dea4-7436-2104-812e-99970f0b7b5f",
+      "longDescription": "",
+      "shortDescription": "Failures to connect to SQL on-demand endpoint or database unavailable. Do not use for AAD authentication or Firewall issues.",
+      "searchTags": "connectivity;unavailable;sql;connection;fail",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "302b0486-c30d-001a-bb38-e2109a55cb1f",
       "longDescription": "",
       "shortDescription": "Failures to scale a SQL pool to a different SLO, slow or hung scale operations, or unexpected behavior.",
