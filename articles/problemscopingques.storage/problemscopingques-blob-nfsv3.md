@@ -172,7 +172,7 @@
       {
          "id":"Distro_Version",
          "order":25,
-         "visibility":"problem_type == Issue && Linux_distro == True",
+         "visibility":"problem_type == Issue",
          "controlType":"textbox",
          "displayLabel":"Error XID - Can be found in network trace",
          "watermarkText":"Error XID - Can be found in network trace",
