@@ -689,6 +689,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7cf55793-6ed6-f876-f464-038f86443722",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Reserved Instances (RI)",
+      "searchTags": "Reserved Instances",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7deec2fa-ffd5-a10b-b26e-1891f495242b",
       "longDescription": null,
       "shortDescription": "Questions about managing Windows Remote Desktop Service (RDS) for a virtual machine running in Azure",
