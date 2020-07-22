@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3020f209-0fa7-bf1a-6989-5a584eaeb498",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Image Builder",
+      "searchTags": "Image Builder",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "315d6829-1ab2-b452-6663-51eb961c246f",
       "longDescription": "",
       "shortDescription": "Covers issues that are not listed above and are related to Azure Disk Encryption",
