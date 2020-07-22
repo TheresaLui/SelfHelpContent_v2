@@ -1185,6 +1185,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "dde26058-7ed2-550e-0095-663e912a3d3f",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Shared Image Gallery or Azure Shared Image definitions (SIG)",
+      "searchTags": "Shared Image",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "df1436d9-bc4b-555b-eeda-7b5150c974fa",
       "longDescription": null,
       "shortDescription": "Assistance migrating from unmanaged disks to managed disks used by the virtual machine",
