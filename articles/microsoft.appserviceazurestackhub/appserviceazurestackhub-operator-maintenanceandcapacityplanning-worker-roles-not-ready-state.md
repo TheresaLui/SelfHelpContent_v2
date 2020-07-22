@@ -26,7 +26,7 @@ There can be multiple causes for a worker role to not show in a "ready" state.
 
 Check logs to verify whether the file server health check failed:
 1. Sign in to the Azure Stack Hub administrator portal.
-2. Go to the App Service service, select the "Roles" blade.
+2. Go to the "App Service" service, select the "Roles" blade.
 3. Verify whether any of the Web Worker roles have not reached a "Ready" status.
 4. For any worker roles not in a "Ready" status, select the role.
 5. On the work role "Instances" blade, select the role instance that has not reached a "Ready" status.
