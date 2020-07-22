@@ -37,9 +37,17 @@
          ],
          "required":true
       },
-	  {
-         "id":"blob_container",
+      {
+         "id":"problem_start_time",
+         "visibility":"problem_type == Issue",
          "order":5,
+         "controlType":"datetimepicker",
+         "displayLabel":"Local start time of the most recent occurrence",
+         "required":true
+      },
+      {
+         "id":"blob_container",
+         "order":10,
          "visibility":"problem_type == Issue",
          "controlType":"dropdown",
          "displayLabel":"Blob Container",
@@ -65,7 +73,7 @@
       },
       {
          "id":"issue_nature",
-         "order":10,
+         "order":15,
          "visibility":"problem_type == Issue",
          "controlType":"dropdown",
          "displayLabel":"What error did you get?",
@@ -83,49 +91,48 @@
                "value":"Issue_ConnectionTimedOut",
                "text":"Connection timed out"
             },
-			{
+            {
                "value":"Issue_MountPointDoesntExist",
                "text":"mount point does not exist"
             },
-			{
+            {
                "value":"Issue_NoSuchFileOrDirectory",
                "text":"mount: bad option"
             },
-			{
+            {
                "value":"Issue_NoSuchFileOrDirectory",
                "text":"mount.nfs: Remote I/O error"
-            }
-		    ,
-			{
+            },
+            {
                "value":"Issue_NoSuchFileOrDirectory",
                "text":"mount.nfs: an incorrect mount option was specified"
             },
-			{
+            {
                "value":"Issue_NoSuchFileOrDirectory",
                "text":"mount.nfs: Connection timed out"
             },
-			{
+            {
                "value":"Issue_NoSuchFileOrDirectory",
                "text":"mount.nfs: Stale file handle"
             },
-			{
+            {
                "value":"Issue_NoSuchFileOrDirectory",
                "text":"not able to list a recently added file"
             },
-			{
+            {
                "value":"Issue_NoSuchFileOrDirectory",
                "text":"requested NFS version or transport protocol is not supported"
             },
-			{
+            {
                "value":"dont_know_answer",
                "text":"Got some other error"
-			}
+            }
          ],
          "required":true
       },
       {
          "id":"Linux_distro",
-         "order":15,
+         "order":20,
          "visibility":"problem_type == Issue",
          "controlType":"dropdown",
          "displayLabel":"Linux distro being used",
@@ -143,39 +150,38 @@
                "value":"Linux_SUSE",
                "text":"SUSE Enterprise Linux"
             },
-			{
+            {
                "value":"Linux_CentOS",
                "text":"CentOS-based Linux"
             },
-			{
+            {
                "value":"Linux_Debian ",
                "text":"Debian"
             },
-			{
+            {
                "value":"Linux_Oracle",
                "text":"Oracle Linux"
             },
             {
                "value":"dont_know_answer",
                "text":"Other distro"
-			}
+            }
          ],
          "required":true
       },
       {
-            "id": "Distro_Version",
-            "order":20,
-            "visibility":"problem_type == Issue && Linux_distro == True",
-            "controlType": "textbox",
-            "displayLabel": "Error XID - Can be found in network trace",
-            "watermarkText": "Error XID - Can be found in network trace",
-            "textPropertyRegex": "[0-9]$",
-            "required": false
-        }
-	  ,
+         "id":"Distro_Version",
+         "order":25,
+         "visibility":"problem_type == Issue && Linux_distro == True",
+         "controlType":"textbox",
+         "displayLabel":"Error XID - Can be found in network trace",
+         "watermarkText":"Error XID - Can be found in network trace",
+         "textPropertyRegex":"[0-9]$",
+         "required":false
+      },
       {
          "id":"NFS_Error",
-         "order":25,
+         "order":30,
          "visibility":"problem_type == Issue",
          "controlType":"dropdown",
          "displayLabel":"NFSv3 Returned Error Code",
@@ -193,19 +199,19 @@
                "value":"NFS3ERR_IO",
                "text":"NFS3ERR_IO"
             },
-			{
+            {
                "value":"NFS3ERR_NXIO",
                "text":"NFS3ERR_NXIO"
             },
-			{
+            {
                "value":"NFS3ERR_ACCES",
                "text":"NFS3ERR_ACCES"
             },
-			{
+            {
                "value":"NFS3ERR_EXIST",
                "text":"NFS3ERR_EXIST"
             },
-			{
+            {
                "value":"NFS3ERR_XDEV",
                "text":"NFS3ERR_XDEV"
             },
@@ -213,27 +219,27 @@
                "value":"NFS3ERR_NODEV",
                "text":"NFS3ERR_NODEV"
             },
-			{
+            {
                "value":"NFS3ERR_NOTDIR",
                "text":"NFS3ERR_NOTDIR"
             },
-			{
+            {
                "value":"NFS3ERR_ISDIR",
                "text":"NFS3ERR_ISDIR"
             },
-			{
+            {
                "value":"NFS3ERR_INVAL",
                "text":"NFS3ERR_INVAL"
             },
-			{
+            {
                "value":"NFS3ERR_FBIG",
                "text":"NFS3ERR_FBIG"
             },
-			{
+            {
                "value":"NFS3ERR_NOSPC",
                "text":"NFS3ERR_NOSPC"
             },
-			{
+            {
                "value":"NFS3ERR_ROFS",
                "text":"NFS3ERR_ROFS"
             },
@@ -241,23 +247,23 @@
                "value":"NFS3ERR_NODEV",
                "text":"NFS3ERR_NODEV"
             },
-			{
+            {
                "value":"NFS3ERR_MLINK",
                "text":"NFS3ERR_MLINK"
             },
-			{
+            {
                "value":"NFS3ERR_NAMETOOLONG",
                "text":"NFS3ERR_NAMETOOLONG"
             },
-			{
+            {
                "value":"NFS3ERR_NOTEMPTY",
                "text":"NFS3ERR_NOTEMPTY"
             },
-			{
+            {
                "value":"NFS3ERR_DQUOT",
                "text":"NFS3ERR_DQUOT"
             },
-			{
+            {
                "value":"NFS3ERR_STALE",
                "text":"NFS3ERR_STALE"
             },
@@ -265,32 +271,30 @@
                "value":"NFS3ERR_REMOTE",
                "text":"NFS3ERR_REMOTE"
             },
-			{
+            {
                "value":"NFS3ERR_BADHANDLE",
                "text":"NFS3ERR_BADHANDLE"
             },
-			{
+            {
                "value":"dont_know_answer",
                "text":"dont know error"
-			}
-
+            }
          ],
          "required":false
       },
       {
-            "id": "xid",
-            "order":30,
-            "visibility":"problem_type == Issue",
-            "controlType": "textbox",
-            "displayLabel": "Error XID - Can be found in network trace",
-            "watermarkText": "Error XID - Can be found in network trace",
-            "textPropertyRegex": "[0-9]$",
-            "required": false
-        }
-	  ,
+         "id":"xid",
+         "order":35,
+         "visibility":"problem_type == Issue",
+         "controlType":"textbox",
+         "displayLabel":"Error XID - Can be found in network trace",
+         "watermarkText":"Error XID - Can be found in network trace",
+         "textPropertyRegex":"[0-9]$",
+         "required":false
+      },
       {
          "id":"problem_description",
-         "order":35,
+         "order":40,
          "controlType":"multilinetextbox",
          "displayLabel":"Provide details of your advisory ask. For troubleshooting issues provide additional details like error message or exception stack",
          "required":true,
@@ -299,3 +303,5 @@
    ],
    "$schema":"SelfHelpContent"
 }
+
+---
