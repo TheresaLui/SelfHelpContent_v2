@@ -20,8 +20,8 @@ You can use Azure Firewall to control network access in a hybrid network using r
 
 ## **Recommended Documents**
 
-- Deploy and configure Azure Firewall in a hybrid network using the [Azure portal](https://docs.microsoft.com/azure/firewall/tutorial-firewall-deploy-portal).
-- Deploy and configure Azure Firewall in a hybrid network using [Azure PowerShell](https://docs.microsoft.com/azure/firewall/tutorial-hybrid-ps).
-- Use Firewall logs to [monitor Azure Firewall](https://docs.microsoft.com/azure/firewall/logs-and-metrics).
-- Learn more about [Azure Firewall features](https://docs.microsoft.com/azure/firewall/features).
-- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues).
+- Deploy and configure Azure Firewall in a hybrid network using the [Azure portal](https://docs.microsoft.com/azure/firewall/tutorial-firewall-deploy-portal)
+- Deploy and configure Azure Firewall in a hybrid network using [Azure PowerShell](https://docs.microsoft.com/azure/firewall/tutorial-hybrid-ps)
+- Use Firewall logs to [monitor Azure Firewall](https://docs.microsoft.com/azure/firewall/logs-and-metrics)
+- Learn more about [Azure Firewall features](https://docs.microsoft.com/azure/firewall/features)
+- Learn more about [Azure Firewall](https://docs.microsoft.com/azure/firewall/overview), [Firewall FAQs](https://docs.microsoft.com/azure/firewall/firewall-faq) and [known issues](https://docs.microsoft.com/azure/firewall/overview#known-issues)
