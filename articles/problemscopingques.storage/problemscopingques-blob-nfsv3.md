@@ -175,7 +175,7 @@
          "visibility":"problem_type == Issue",
          "controlType":"textbox",
          "displayLabel":"Linux Distro Version",
-         "watermarkText":"To find distro version - cat /etc/os-release",
+         "watermarkText":"To find distro version",
          "textPropertyRegex":"^\d+(\.\d+)*$",
          "required":false
       },
