@@ -27,9 +27,9 @@
 	>NFS 3.0 protocol support in Azure Blob storage is in public preview and is available in the following regions:<br>
 	>[Currrent Regions](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support)
 
-- [Verify that the feature is registered](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support-how-to#step-2-verify-that-the-feature-is-registered)
+- [Verify that the feature is registered](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support-how-to#step-2-verify-that-the-feature-is-registered) using the following PowerShell cmdlets
 
-	```powershell
+	```java
 	Get-AzProviderFeature -ProviderNamespace Microsoft.Storage -FeatureName AllowNFSV3
 	Get-AzProviderFeature -ProviderNamespace Microsoft.Storage -FeatureName PremiumHns
 	```
