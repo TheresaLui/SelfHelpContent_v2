@@ -206,11 +206,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "63952d03-cc9d-6740-111a-0177d050c928",
+      "longDescription": "",
+      "shortDescription": "Issues with creating, moving, or deleting Automation Accounts",
+      "searchTags": "account;delete;unlink",
+      "category": "Automation Account",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "65616ee6-03b8-cb93-967b-d8a2b237ba75",
       "longDescription": "",
       "shortDescription": "Change Tracking and Inventory functionality in Azure Automation",
       "searchTags": "change tracking;inventory",
       "category": "Change Tracking",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "67060bc1-a351-ca57-d61c-888edaceeabb",
+      "longDescription": "",
+      "shortDescription": "You get an Access Forbidden, 403, or other error when trying to take action",
+      "searchTags": "403;access forbidden;authorize",
+      "category": "start stop",
       "useInDiagnoseAndSolve": "true"
     },
     {
