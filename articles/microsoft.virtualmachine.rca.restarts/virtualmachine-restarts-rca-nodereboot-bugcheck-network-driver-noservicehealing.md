@@ -1,18 +1,18 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Node Service Heal - Node Crash"
+	description="RCA - Network Driver Bugcheck - Node Service Heal"
 	infoBubbleText="Found recent reboot. See details on the right."
-	service="microsoft.compute"
-	resource="virtualmachines"
-	authors="ScottAzure"
-	ms.author="jozender"
+	service=""
+	resource=""
+	authors="NatErns"
+	ms.author="naterns"
 	displayOrder=""
 	articleId="UnexpectedVMReboot_Node_Reboot_Bug_Check_Network_Driver"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
-	supportTopicIds="32411816"
+	supportTopicIds=""
 	resourceTags="windows, linux"
-	productPesIds="14749"
+	productPesIds=""
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_VirtualMachines_Content"
 />
@@ -22,9 +22,9 @@
 We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated host node reboot action**.
 <!--/issueDescription-->
 
-The host node reboot action was triggered by our Azure monitoring systems that detected a failure condition due to a **high load of networking traffic**. The failure was caused by a **networking driver** on the physical node where the virtual machine was hosted. This caused your VM to get rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
+The physical host node where the VM was running experienced an unexpected bug check caused by a networking driver. This caused your VM to get rebooted. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
 
-Our core platform engineers identified the bug and are currently working on a fix that will be deployed to all affected nodes.<br>
+Our core platform engineers are tracking this issue are working on a fix for this issue. Once the solution has been verified and completed testing, it will be deployed to all affected nodes.<br>
 
 To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.<br>
 
