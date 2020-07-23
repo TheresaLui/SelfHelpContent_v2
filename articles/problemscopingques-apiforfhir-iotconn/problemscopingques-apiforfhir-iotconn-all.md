@@ -23,20 +23,22 @@
     "title": "Job details",
     "fileAttachmentHint": "",
     "formElements": [
-        {
-            "id": "job_id_selection",
+       {
+            "id": "fileupload_required",
             "order": 1,
-            "controlType": "textbox",
-            "displayLabel": "Provide the job ID which has the problem",
-            "watermarkText": "The job ID which has the problem",
-            "required": true
+            "controlType": "multilinetextbox",
+            "displayLabel": "Did you upload the devicemapping.json and fhirmapping.json files",
+            "required": true,
+            "useAsAdditionalDetails": false,
+            "watermarkText": "(Yes/No)"
         },
         {
-            "id": "problem_start_time",
+            "id": "connector_name",
             "order": 2,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem begin?",
-            "required": true
+            "controlType": "textbox",
+            "displayLabel": "Connector Name(s)",
+            "useAsAdditionalDetails": false,
+            "required": false
         },
         {
             "id": "problem_description",
