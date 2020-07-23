@@ -25,14 +25,14 @@
     "formElements": [
         {
             "id": "connector_name",
-            "order": 1,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Connector Name(s)",
             "required": false
         },
         {
             "id": "ID_name",
-            "order": 2,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "ID(s)",
             "required": false
@@ -46,7 +46,7 @@
         },
         {
             "id": "fileupload_required",
-            "order": 4,
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Did you upload the devicemapping.json and fhirmapping.json files",
             "required": true,
@@ -55,7 +55,7 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
