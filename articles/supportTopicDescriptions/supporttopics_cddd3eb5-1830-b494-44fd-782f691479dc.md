@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "00badc12-33e2-cba8-2338-e32770db904b",
+      "longDescription": "",
+      "shortDescription": "An allocation error was encountered and need assistance with my availability set",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "01ed3ac2-367f-aaa3-5464-fbbb9c7eade8",
       "longDescription": "",
       "shortDescription": "Resolve issues with custom images deployments in Azure",
@@ -70,6 +78,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "11782991-706b-d8c0-3184-904f4d8e529c",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Automatic in-quest updates",
+      "searchTags": "Updates",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1355ede6-1a5d-fed9-7ee3-fdf57927f88d",
       "longDescription": "",
       "shortDescription": "Common problems related to admin specific actions or issues within the VM itself",
@@ -91,6 +107,14 @@
       "shortDescription": "You have configured the Start Stop VM solution but it does not start or stop all the VMs configured",
       "searchTags": "Starting",
       "category": "Deployment",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "188f913d-c8a6-0598-8c62-ef8aa9d96920",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -163,6 +187,14 @@
       "shortDescription": "Issues with restoring a virtual machine from a snapshot of a disk",
       "searchTags": "Snapshot",
       "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "3020f209-0fa7-bf1a-6989-5a584eaeb498",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Image Builder",
+      "searchTags": "Image Builder",
+      "category": "Azure Features",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -246,6 +278,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5067298b-f8fc-ee7c-dd6d-cbad3a7b6c62",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "514ac81e-be99-54a4-eaf4-9370fc0be72c",
       "longDescription": "",
       "shortDescription": "Covers issues with AMD GPU driver extension",
@@ -286,6 +326,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "55b98978-62f8-9c90-589a-4e63c05a27d1",
+      "longDescription": "",
+      "shortDescription": "An allocation error was encountered and need assistance with availability zones. ",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "562c48c7-c68f-0a96-99d2-8d13f3554ce7",
       "longDescription": "",
       "shortDescription": "Azure Backup is encountering a failure when backing up your virtual machine using Azure Backup",
@@ -315,6 +363,14 @@
       "shortDescription": "Covers issues related to managing a virtual machine on Azure",
       "searchTags": "Management",
       "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "5c08c706-0938-c5f5-b8c7-0e0e8c733653",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to specific Azure Features",
+      "searchTags": "Features",
+      "category": "Azure Features",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -419,6 +475,14 @@
       "shortDescription": "GPU processing is slower than expected for your virtual machine",
       "searchTags": "Performance",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "7be0ea41-46a2-f33f-3345-34e53fae245b",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Reserved Instances (RI)",
+      "searchTags": "Reserved Instances",
+      "category": "Azure Features",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -662,6 +726,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b2a80d2e-5a91-92f7-2346-992b1aa27775",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Shared Image Gallery or Azure Shared Image definitions (SIG)",
+      "searchTags": "Shared Image",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b3ca1e6d-ea88-4d89-2f27-cf22e3bf6b37",
       "longDescription": "",
       "shortDescription": "Assistance with troubleshooting network security groups (NSG) associated to the virtual machine",
@@ -683,6 +755,30 @@
       "shortDescription": "Assistance with virtual machine sizing or better understanding of throughtput",
       "searchTags": "Performance",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "b8848060-d17e-78e7-2856-5362e02cc3a8",
+      "longDescription": "",
+      "shortDescription": "An allocation error was encountered and need assistance with finding a new size or region",
+      "searchTags": "Allocation",
+      "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "b88c2bb3-7e37-184c-52ef-c0ecab2e2c0b",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Managed Identity Integration ",
+      "searchTags": "Managed Identity Integration",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "b9707d49-1891-33e1-57aa-3aa7ced71bda",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Hybrid Use Benefit (HUB)",
+      "searchTags": "HUB;Hybrid Use Benefit",
+      "category": "Azure Features",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -827,6 +923,14 @@
       "shortDescription": "Requests to help migrate virtual machines from on-premises to Azure using Azure Site recovery ",
       "searchTags": "Migration",
       "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "dcd5315e-fb89-e194-d760-4e5a7ccaeb9d",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Update Management",
+      "searchTags": "Update Management",
+      "category": "Azure Features",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -979,6 +1083,14 @@
       "shortDescription": "Covers issues where the start operation for the VM fails and an error message is provided",
       "searchTags": "Booting",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "fc2b9f80-e360-cb41-c4f5-9e71c4f9b53c",
+      "longDescription": "",
+      "shortDescription": "During the creation or starting a VM, an allocation error was encountered and need assistance.",
+      "searchTags": "Allocation",
+      "category": "Allocation",
       "useInDiagnoseAndSolve": "false"
     },
     {
