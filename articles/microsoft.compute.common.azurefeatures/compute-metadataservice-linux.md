@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Management/Instance Metadata Service"
-	description="Management/Instance Metadata Service"
+	pageTitle="Issue with Instance Metadata Service"
+	description="Issue with Instance Metadata Service"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32584393,32583111"
+	supportTopicIds="32583111,32743884"
 	resourceTags=""
 	productPesIds="15571,16342,15797,16454,16470"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -15,9 +15,9 @@
 	ownershipId="Compute_VirtualMachines"
 />
 
-# Management/Instance Metadata Service
+# Azure Instance Metadata Service
 
-## **Recommended documents**
+## **Recommended Documents**
 
 * [Overview of Azure Instance Metadata service](https://docs.microsoft.com/azure/virtual-machines/linux/instance-metadata-service)<br>
 * [Frequently Asked Questions (FAQ) Metadata service](https://docs.microsoft.com/azure/virtual-machines/linux/instance-metadata-service#faq)<br>
