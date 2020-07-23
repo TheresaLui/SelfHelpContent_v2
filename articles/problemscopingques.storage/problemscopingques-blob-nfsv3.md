@@ -176,8 +176,14 @@
          "controlType":"textbox",
          "displayLabel":"Linux Distro Version",
          "watermarkText":"To find distro version - cat /etc/os-release",
-         "RegExMatch":"^\\\\d+(\\\\.\\\\d+)*$",
-         "required":false
+         "required":false,
+         "validations": [
+		{
+		    "type": "RegExMatch",
+		    "value": "^\\\\d+(\\\\.\\\\d+)*$",
+		    "text": "Version are of the format 14 or 18.6"
+		}
+         ]
       },
       {
          "id":"NFS_Error",
@@ -289,8 +295,14 @@
          "controlType":"textbox",
          "displayLabel":"Error XID - Can be found in network trace",
          "watermarkText":"Error XID - Can be found in network trace",
-         "RegExMatch":"[0-9]$",
-         "required":false
+         "required":false,
+         "validations": [
+		{
+		    "type": "RegExMatch",
+		    "value": "^\\[0-9]$",
+		    "text": "XID is a a numerical number"
+		}
+         ]
       },
       {
          "id":"problem_description",
