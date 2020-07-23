@@ -45,8 +45,17 @@
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "fileupload_required",
             "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Did you upload the devicemapping.json and fhirmapping.json files",
+            "required": true,
+            "useAsAdditionalDetails": false,
+            "watermarkText": "(Yes/No)"
+        },
+        {
+            "id": "problem_description",
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
