@@ -3,9 +3,9 @@
     description="Move your MySQL server to Memory Optimized SKU"
     authors="manishku"
     ms.author="kummanish"
-    articleId="74aa92b7-9c42-4640-9b1b-8ab645c86a00_usnat"
+    articleId="74aa92b7-9c42-4640-9b1b-8ab645c86a00_USNat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="usnat"
+    cloudEnvironments="USNat"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Move your MySQL server to Memory Optimized SKU

@@ -3,9 +3,9 @@
     description="Improve performance by optimizing MySQL temporary-table sizing"
     authors="kummanish"
     ms.author="manishku"
-    articleId="99811474-2a6c-4d40-ac91-ae76c76e3258_usnat"
+    articleId="99811474-2a6c-4d40-ac91-ae76c76e3258_USNat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="usnat"
+    cloudEnvironments="USNat"
     ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Improve performance by optimizing MySQL temporary-table sizing

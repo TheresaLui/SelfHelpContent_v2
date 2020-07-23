@@ -3,9 +3,9 @@
     description="Right size the MySQL server vCores based on the utilization telemetry."
     authors="manishku"
     ms.author="kummanish"
-    articleId="7e76e54f-7978-4d48-9ab9-a4da5b7c69a3_usnat"
+    articleId="7e76e54f-7978-4d48-9ab9-a4da5b7c69a3_USNat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="usnat"
+    cloudEnvironments="USNat"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Reduce the resource cost for Azure Database for MySQL

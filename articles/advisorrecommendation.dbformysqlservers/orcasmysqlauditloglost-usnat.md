@@ -3,9 +3,9 @@
     description="Increase the reliability of audit logs"
     authors="kummanish"
     ms.author="manishku"
-    articleId="997839f4-48e4-49e4-9b15-628a7757765c_usnat"
+    articleId="997839f4-48e4-49e4-9b15-628a7757765c_USNat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="usnat"
+    cloudEnvironments="USNat"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Increase the reliability of audit logs

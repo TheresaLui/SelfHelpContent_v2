@@ -3,9 +3,9 @@
     description="Increase the MySQL server vCores"
     authors="manishku"
     ms.author="kummanish"
-    articleId="0fb3f293-899e-458a-81cc-ad263dd89629_usnat"
+    articleId="0fb3f293-899e-458a-81cc-ad263dd89629_USNat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="usnat"
+    cloudEnvironments="USNat"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Increase the MySQL server vCores

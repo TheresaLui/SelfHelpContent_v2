@@ -3,9 +3,9 @@
     description="Add a MySQL Read Replica server"
     authors="manishku"
     ms.author="kummanish"
-    articleId="1efe9592-f5ae-4167-97d7-63e973821fca_usnat"
+    articleId="1efe9592-f5ae-4167-97d7-63e973821fca_USNat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="usnat"
+    cloudEnvironments="USNat"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Add a MySQL Read Replica server
