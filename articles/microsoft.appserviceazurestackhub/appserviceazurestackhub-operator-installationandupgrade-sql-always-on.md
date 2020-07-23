@@ -19,21 +19,17 @@
 
 ## **Recommended Steps**
 
-### 1. Verify completion of installation prerequisites
+### 1. Verify completion of prerequisites
 
-First, make sure you've followed the prerequisites outlined in [Prerequisites for deploying App Service on Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started). 
+If you've followed the prerequisites outlined in [Prerequisites for deploying App Service on Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started), you can proceed to the next section. 
 
-### 2. Verify SQL Server is deployed a highly available configuration
+If you did not deployed SQL Server using the [Quickstart template for Highly Available file server and SQL Server](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#quickstart-template-for-highly-available-file-server-and-sql-server), be sure to review [Prepare the SQL Server instance](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#prepare-the-sql-server-instance) to ensure SQL Server is deployed in a highly available configuration. 
 
-If you deployed SQL Server using the [Quickstart template for Highly Available file server and SQL Server](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#quickstart-template-for-highly-available-file-server-and-sql-server), you can proceed to the next section. 
-
-If you did not use the template, be sure to review [Prepare the SQL Server instance](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#prepare-the-sql-server-instance) to ensure SQL Server is deployed in a highly available configuration. 
-
-### 3. Verify SQL Server instance belongs to an Always On availability group
+### 2. Verify SQL Server instance belongs to an Always On availability group
 
 For production deployments, SQL Server must be configured to be highly available and capable of handling failures, using the SQL Always On feature. Following deployment of the App Service resource provider, you must also [add the appservice_hosting and appservice_metering databases to an Always On availability group](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-add-a-database), and synchronize the databases to prevent any loss of service in the event of a database failover. 
 
-### 4. Resolve "can't be reached" or "can’t reach database" status in administrator portal
+### 3. Resolve "can't be reached" or "can’t reach database" status in administrator portal
 
 Confirm whether the SQL Server database instance is reachable, by opening the App Service RP blade in the Azure Stack Hub administrator portal. If you see a raining cloud image with text *"Failed to load App Service extension. Please check whether App Service resource provider and sql database is up and running"*, the database is not reachable.
 
