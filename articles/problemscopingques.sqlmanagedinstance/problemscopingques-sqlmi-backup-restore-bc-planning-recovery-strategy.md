@@ -62,58 +62,6 @@
             "required": true
         },
         {
-            "id": "backups",
-            "order": 20,
-            "controlType": "dropdown",
-            "visibility": "type_question == backups",
-            "displayLabel": "What kind of backups?",
-            "dropdownOptions": [
-                {
-                    "value": "auto",
-                    "text": "Automated Backups"
-                },
-                {
-                    "value": "native",
-                    "text": "Native Backup to BLOB storage"
-                },
-                {
-                    "value": "ltr",
-                    "text": "Long-Term Retention Backups"
-                },
-                {
-                    "value": "dont_know_answer",
-                     "text": "Don't know or several of the previous options"
-                }
-            ],
-            "required": true
-        },
-        {
-            "id": "replication",
-            "order": 30,
-            "controlType": "dropdown",
-            "visibility": "type_question == replication",
-            "displayLabel": "What kind of data replication?",
-            "dropdownOptions": [
-                {
-                    "value": "active",
-                    "text": "Active Geo-Replication"
-                },
-                {
-                    "value": "groups",
-                    "text": "Auto Failover Groups"
-                },
-                {
-                    "value": "trans_repl",
-                    "text": "Transaction Replication"
-                },
-                {
-                    "value": "dont_know_answer",
-                     "text": "Don't know or several of the previous options"
-                }
-            ],
-            "required": true
-        },
-        {
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
