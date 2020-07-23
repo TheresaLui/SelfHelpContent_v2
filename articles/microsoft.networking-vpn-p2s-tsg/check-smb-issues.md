@@ -30,7 +30,3 @@ This is a legacy error (haven't appeared in about 2 years because it's fixed in 
 ## Recommended Documents
 
 1. https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/134255/Point-to-Site-VPN-Issues?anchor=unable-to-access-the-network-shares-of-azure-vms-from-p2s-client-with-error-%22the-network-path-was-not-found%22
-
-Did this solve?
-Yes --> Solution
-No --> Escalate

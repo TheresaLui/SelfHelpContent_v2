@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="42dbf883-9e4b-4f84-9da4-232b87c4b5e9_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="StorageMediaEdge_XStore"
 />
 # Enable Soft Delete to protect your blob data

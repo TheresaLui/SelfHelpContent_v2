@@ -27,7 +27,3 @@
 6. If a "vpnClientRootCertificates" parameter exists and is not empty -> the authentication method is **Certificates**<br/>
    1. If a "RadiusServerAddress" parameter exists and is not empty -> the authentication method is **RADIUS** <br/>
    2. If an "aadTenant" parameter exists and is not empty -> the authentication method is **Azure AD**
-
-Is the customer using RADIUS based authentication?
-- Yes
-- No

@@ -6,7 +6,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32725744"
 	productPesIds="16920"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="404f1f00-63c0-4080-9b0a-0d74d26348cd"
 	ownershipId="Azure_RTOS"

@@ -52,10 +52,6 @@ pageTitle="Incentives co-op claims issues"
 					"text": "Campaigns"
 				},
 				{
-					"value": "B1040434-30BB-40F0-A498-C3338D73845C",
-					"text": "Certified Software Advisor"
-				},
-				{
 					"value": "197650E7-3E3A-4FCA-9C8D-890951954D4C",
 					"text": "Channel Disti - ProWins"
 				},
@@ -132,10 +128,6 @@ pageTitle="Incentives co-op claims issues"
 					"text": "OSA Sell - Direct"
 				},
 				{
-					"value": "7088781F-1853-4A3A-A9D2-C6A1B22FABC5",
-					"text": "OSIS - OEM Campaigns"
-				},
-				{
 					"value": "D21798E0-C0FF-420A-8A03-8331EB969925",
 					"text": "OSU - Business Applications"
 				},
@@ -182,7 +174,7 @@ pageTitle="Incentives co-op claims issues"
 			"id": "location_mpnid",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Please enter the location MPN ID(s) enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
+			"displayLabel": "Please provide the location MPN ID enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
 			"watermarkText": "If you have multiple location MPN IDs you need help with, please include a comma separated list.",
 			"required": true
 		},
@@ -203,20 +195,20 @@ pageTitle="Incentives co-op claims issues"
 		{
 			"id": "claim_ids",
 			"order": 5,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please enter the claim ID(s) in question.",
+			"controlType": "textbox",
+			"displayLabel": "Please provide the claim ID(s) in question.",
 			"watermarkText": "If you have multiple claims you need help with, please include a comma separated list.",
 			"required": false
 		},
 		{
-			"id": "problem_description",
-			"order": 1000,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
-			"watermarkText": "Problem description",
-			"useAsAdditionalDetails": true,
-			"required": true
-		}
+         	"id":"problem_description",
+         	"order":1000,
+         	"controlType":"multilinetextbox",
+         	"displayLabel":"Problem description",
+         	"watermarkText":"Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
+         	"useAsAdditionalDetails":true,
+         	"required":true
+      }
 	]
 }
 ---

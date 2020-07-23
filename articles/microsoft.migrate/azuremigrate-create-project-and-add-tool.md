@@ -22,7 +22,7 @@ For creating a project user needs "Owner" or "Contributor" permissions. [Please 
 
 ### **I don't see a particular geography when creating the Azure Migrate project**
 
- One can use a project in any geography to perform a migration to an Azure region of your choice. Review the supported geographies for [public](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-public-cloud) and [government clouds](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-azure-government).
+ You can use a project in any geography to perform a migration to an Azure region of your choice. Review the supported geographies for [public](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-public-cloud) and [government clouds](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-azure-government).
 
 ### **I want to create a new project in a different geography and add tools to it**  
   

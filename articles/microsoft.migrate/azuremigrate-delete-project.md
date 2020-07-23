@@ -21,5 +21,5 @@
 
 ### **Deleting an Azure Migrate project**
 
-Step 1: Check for access - For deleting a project user needs "owner" or "contributor" permissions. [Please check here,](https://docs.microsoft.com/azure/role-based-access-control/check-access) whether you have required access on project
-Step 2: [Please follow steps listed here](https://docs.microsoft.com/azure/migrate/how-to-delete-project) to delete project and related resources
+* Check for access. To delete a project, the user needs "owner" or "contributor" permissions. [Check here](https://docs.microsoft.com/azure/role-based-access-control/check-access) whether you have required access on project.
+* [Please follow steps listed here](https://docs.microsoft.com/azure/migrate/how-to-delete-project) to delete project and related resources
