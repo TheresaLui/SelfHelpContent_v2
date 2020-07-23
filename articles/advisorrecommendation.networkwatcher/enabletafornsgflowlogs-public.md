@@ -18,7 +18,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://aztmmon.kusto.windows.net').database('NetWatcherDB').AzAdvisorPublicFlowLogs",
     "dataSource": "Kusto",
-    "refreshInterval": "1.00:00:00"
+    "refreshInterval": "01:00:00"
   },
   "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "High",
