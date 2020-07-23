@@ -20,7 +20,7 @@
 
 4 out of 5 customers resolved their NFS mount issue using the steps listed below.
 
-## **Recommended Documents**
+## **Recommended Steps**
 
 - [How to sign up for the preview](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support-how-to#step-1-register-the-nfs-30-protocol-feature-with-your-subscription)<br>
 
