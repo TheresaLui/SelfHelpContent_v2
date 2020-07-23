@@ -17,7 +17,7 @@
 {
     "$schema": "SelfHelpContent",
     "resourceRequired": false,
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "title": "How to questions or planning a recovery strategy",
     "fileAttachmentHint": "",
     "formElements": [
