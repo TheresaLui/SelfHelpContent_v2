@@ -100,7 +100,7 @@
 			"visibility": "request_type == Yes",
             "controlType": "dropdown",
             "displayLabel": "I acknowledge and understand the impact of increasing the container limit on the overall throughput (RUs) distribution across the containers. For every set of 25 containers, the set will only be able to use up to a fraction of the total RUs, as described in the article. ",
-            "infoBalloonText": "Please read the section *Throughput distribution in database level offer* in the previous *Solutions* page.",
+            "infoBalloonText": "Please read the section **Throughput distribution in database level offer** in the previous **Solutions** page.",
 			"watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
