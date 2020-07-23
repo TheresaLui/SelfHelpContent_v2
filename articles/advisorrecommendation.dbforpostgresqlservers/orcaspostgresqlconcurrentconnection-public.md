@@ -5,7 +5,7 @@
     ms.author="kummanish"
     articleId="bd109fe8-a2cf-415a-adcb-5e9f9fc1d3c0_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Public, ussec"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Scale the PostgreSQL server to higher SKU
