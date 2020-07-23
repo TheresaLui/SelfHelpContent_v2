@@ -43,7 +43,7 @@
         },
         {
             "id": "missing_update_id",
-            "visibility": "if_missing_update == Yes"
+            "visibility": "if_missing_update == Yes",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Please provide the Update ID that did not install.",
@@ -70,7 +70,7 @@
         },
         {
             "id": "vm_names",
-            "visibility": "if_need_enable_disable_update == Yes"
+            "visibility": "if_need_enable_disable_update == Yes",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Please provide the Azure VM name(s).",
