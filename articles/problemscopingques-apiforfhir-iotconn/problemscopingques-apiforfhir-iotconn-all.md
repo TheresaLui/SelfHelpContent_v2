@@ -39,15 +39,15 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 32,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "fileupload_required",
-            "order": 2,
-            "controlType": "multilinetextbox",
+            "order": 3,
+            "controlType": "textbox",
             "displayLabel": "Did you upload the devicemapping.json and fhirmapping.json files",
             "required": true,
             "useAsAdditionalDetails": false,
