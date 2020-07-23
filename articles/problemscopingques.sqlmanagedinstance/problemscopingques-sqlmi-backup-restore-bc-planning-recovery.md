@@ -1,5 +1,5 @@
 <properties
-	articleId="problemscopingques-sqlmi-backup-restore-bc-planning-recovery-strategy"
+	articleId="problemscopingques-sqlmi-backup-restore-bc-planning-recovery"
 	pageTitle="SQL Database Managed Instance"
 	description="Scoping questions about how to questions or planning a recovery strategy"
 	authors="vtpombei"
