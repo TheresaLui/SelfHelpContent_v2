@@ -23,26 +23,30 @@
     "title": "Job details",
     "fileAttachmentHint": "",
     "formElements": [
-       {
-            "id": "fileupload_required",
-            "order": 1,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Did you upload the devicemapping.json and fhirmapping.json files",
-            "required": true,
-            "useAsAdditionalDetails": false,
-            "watermarkText": "(Yes/No)"
-        },
         {
             "id": "connector_name",
-            "order": 2,
+            "order": 1,
             "controlType": "textbox",
             "displayLabel": "Connector Name(s)",
-            "useAsAdditionalDetails": false,
             "required": false
         },
         {
-            "id": "problem_description",
+            "id": ""ID_name",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "ID(s)",
+            "required": false
+        },
+        {
+            "id": "problem_start_time",
             "order": 3,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
@@ -53,13 +57,6 @@
                     "text": "Provide additional information about your issue."
                 }
             ]
-        }
-        {
-            "id": "problem_start_time",
-            "order": 4,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem start?",
-            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
