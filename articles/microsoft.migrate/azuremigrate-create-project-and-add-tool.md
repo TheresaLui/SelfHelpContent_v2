@@ -22,7 +22,7 @@ For creating a project user needs "Owner" or "Contributor" permissions. [Please 
 
 ### **I don't see a particular geography when creating the Azure Migrate project**
 
- One can use a project in any geography to perform a migration to an Azure region of your choice.Review the supported geographies for [public](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-public-cloud) and [government clouds](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-azure-government).
+ One can use a project in any geography to perform a migration to an Azure region of your choice. Review the supported geographies for [public](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-public-cloud) and [government clouds](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-azure-government).
 
 ### **I want to create a new project in a different geography and add tools to it**  
   
@@ -47,3 +47,7 @@ We are constantly [adding tools to Azure Migrate](https://docs.microsoft.com/azu
 ### **ISV tools that are available in other geographies are not listed in Azure Government**
 
 ISV partners are in process of enabling their tools in Azure Government for Azure Migrate. In the meanwhile, either you can use the partner tool independently or use any of the listed tools.
+
+### **Looking to know more about Azure Migrate**
+
+Extensive details regarding Azure Migrate are [documented here](https://docs.microsoft.com/azure/migrate/).
