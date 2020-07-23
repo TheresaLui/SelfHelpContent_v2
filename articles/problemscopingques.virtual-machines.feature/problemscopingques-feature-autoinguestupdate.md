@@ -1,15 +1,15 @@
 <properties
-  pageTitle="Automatic in-guest updates"
-  description="Automatic in-guest updates"
-  authors="summertgu"
-  ms.author="tiag"
-  selfHelpType="problemScopingQuestions"
-  supportTopicIds="32743880"
-  productPesIds="14749"
-  cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-  schemaVersion="1"
-  articleId="1110f06a-a830-4a22-ad14-229045de5cc9"
-  ownershipId="Compute_VirtualMachines_Content"
+                pageTitle="Automatic in-guest updates"
+                description="Automatic in-guest updates"
+                authors="summertgu"
+                ms.author="tiag"
+                selfHelpType="problemScopingQuestions"
+                supportTopicIds="32743880"
+                productPesIds="14749"
+                cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
+                schemaVersion="1"
+                articleId="1110f06a-a830-4a22-ad14-229045de5cc9"
+                ownershipId="Compute_VirtualMachines_Content"
 />
 # Automatic in-guest updates
 ---
