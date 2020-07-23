@@ -176,7 +176,7 @@
          "controlType":"textbox",
          "displayLabel":"Linux Distro Version",
          "watermarkText":"To find distro version - cat /etc/os-release",
-         "textPropertyRegex":"^\\\\d+(\\\\.\\\\d+)*$",
+         "RegExMatch":"^\\\\d+(\\\\.\\\\d+)*$",
          "required":false
       },
       {
@@ -289,7 +289,7 @@
          "controlType":"textbox",
          "displayLabel":"Error XID - Can be found in network trace",
          "watermarkText":"Error XID - Can be found in network trace",
-         "textPropertyRegex":"[0-9]$",
+         "RegExMatch":"[0-9]$",
          "required":false
       },
       {
