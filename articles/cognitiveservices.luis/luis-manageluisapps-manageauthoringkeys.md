@@ -9,7 +9,7 @@ displayOrder=""
 selfHelpType="generic"
 supportTopicIds="32683912"
 productPesIds="16869"
-cloudEnvironments="public, MoonCake, fairfax"
+cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
 articleId="LUIS_Conversation_ManageLUISApps_ManageAuthoringKeys"
 ownershipId="AzureCogSvc_CognitiveServices"
 />
@@ -29,4 +29,5 @@ ownershipId="AzureCogSvc_CognitiveServices"
 * There is a **restriction in the naming conventions for authoring resources**. Names can only include alphanumeric characters and the - character; it must be between 2 and 64 characters in length and cannot end with a '-'.
 * [Assign a new authoring resource to your application](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#assign-a-resource-to-an-app)
 * [Un-assign your authoring resource](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#unassign-resource)
-* [Reset your authoring key](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#reset-authoring-key) if it is compromised
+* [Reset your authoring key](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#reset-authoring-key) if it is compromised.
+* Learn the [difference between authoring and prediction keys](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription).

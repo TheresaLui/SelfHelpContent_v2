@@ -7,7 +7,7 @@
 	ms.author="vadeveka"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411820"
+	supportTopicIds="32411820,32743892"
 	resourceTags="windows"
 	productPesIds="14749"
 	cloudEnvironments="public, Fairfax, usnat, ussec"

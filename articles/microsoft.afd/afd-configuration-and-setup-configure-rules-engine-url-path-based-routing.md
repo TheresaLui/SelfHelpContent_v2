@@ -10,7 +10,7 @@
     supportTopicIds="32741678"
     resourceTags=""
     productPesIds="16611"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="configure_rules_engine_URL_path_based_routing"
 	ownershipId="CloudNet_AzureFrontdoor"
 />

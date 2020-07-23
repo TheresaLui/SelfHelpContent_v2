@@ -19,6 +19,8 @@
 />
 # Credit card purchase issue
 
+Due to unforeseen issues we will not be able to offer credit card payment option for Japan, South Korea and Taiwan until further notice. You will notice that you can still make your purchase seamlessly via Wire Transfer. Please contact your financial institution for more information on how to execute a wire transfer.
+
 ## **Recommended Documents**
 
 * [How to update billing information during purchase](https://support.microsoft.com/help/4505986/update-bill-to-sold-to-address-details-during-your-purchase-experience)

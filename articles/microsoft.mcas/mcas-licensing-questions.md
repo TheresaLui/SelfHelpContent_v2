@@ -14,7 +14,7 @@
   resourceTags=""
   productPesIds="16031"
  ownershipId="CloudAppSecurity_Portal"
-  cloudEnvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
 />
 
 # I have a question about my Cloud App Security license
