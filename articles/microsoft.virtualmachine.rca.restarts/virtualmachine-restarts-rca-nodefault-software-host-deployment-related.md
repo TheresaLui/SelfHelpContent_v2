@@ -27,8 +27,8 @@ We identified the VM was impacted due to a recent platform deployment of Azure c
 
 We sincerely apologize for the impact to affected customers. We are continuously taking steps to improve the Microsoft Azure Platform and our processes to help reduce the duration of such incidents. This includes (but is not limited to): 
 
-- Incorporating the missed combination deployment mechanism in our validation matrix before deploying similar updates. 
-- Improving deployment monitoring and correlation capabilities to detect such faults and halt the rollout sooner. 
+- Incorporating the missed combination deployment mechanism in our validation matrix before deploying similar updates
+- Improving deployment monitoring and correlation capabilities to detect such faults and halt the rollout sooner
 <br>
 
 To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.

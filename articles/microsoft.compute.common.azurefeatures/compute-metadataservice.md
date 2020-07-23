@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Management/Instance Metadata Service"
-	description="Management/Instance Metadata Service"
+	pageTitle="Issues with Instance Metadata Service"
+	description="Issues with Instance Metadata Service"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32583111,32587973"
+	supportTopicIds="32583111,32587973,32743884"
 	resourceTags=""
 	productPesIds="14749,16215,14745"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -15,7 +15,7 @@
 	ownershipId="Compute_VirtualMachines_Content"
 />
 
-# Management/Instance Metadata Service
+# Issues with Instance Metadata Service
 
 ## **Recommended Documents**
 

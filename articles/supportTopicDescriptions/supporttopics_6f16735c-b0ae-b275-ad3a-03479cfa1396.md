@@ -73,6 +73,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "0b50b522-9214-852a-7d0e-bd6ec0dd17d2",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Managed Identity Integration ",
+      "searchTags": "Managed Identity Integration",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0b726570-b04d-be6e-3fab-0e458a65aa90",
       "longDescription": null,
       "shortDescription": "Requests to help move resources between storage accounts",
@@ -177,6 +185,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "1f4b3a8f-c497-4408-c6df-05ee7030fee4",
+      "longDescription": "",
+      "shortDescription": "Issue with configuration or managing a Windows failover cluster in Azure",
+      "searchTags": "Cluster",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "20e98c4a-ad27-441f-a4f1-ba5641b207d7",
       "longDescription": "",
       "shortDescription": "Issues where SQL Server performance is lower than expected in an Azure Virtual Machine",
@@ -255,6 +271,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "38acd653-fd62-c0d5-89c4-3e3dc4a13666",
+      "longDescription": "",
+      "shortDescription": "Issue with local accounts within the VM.",
+      "searchTags": "account",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "391055aa-2419-54f5-a5c1-b7cee895e0b7",
@@ -425,6 +449,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "562e521d-18a8-126f-4366-43be749e52a7",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Update Management",
+      "searchTags": "Update Management",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "579bb510-ba46-26a3-19c7-3ce5e37bf1c5",
       "longDescription": null,
       "shortDescription": "Resolve errors when moving resources between subscriptions ",
@@ -481,6 +513,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "5d47430c-d9a5-fcf5-e4e1-c36dcd562921",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Automatic in-quest updates",
+      "searchTags": "Updates",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5dd4e579-22b4-ee21-ee22-6b027061b157",
       "longDescription": null,
       "shortDescription": "Requests for help with configuring backups for your Azure virtual machine using Azure Backup",
@@ -527,6 +567,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "62064939-dbf3-898e-6259-c8f20a6f6c30",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to specific Azure Features",
+      "searchTags": "Features",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "62446684-0e2d-4d89-e8ac-a75e02e52b62",
@@ -641,6 +689,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "78665244-fee8-8a47-fc35-d87703af2ee5",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Hybrid Use Benefit (HUB)",
+      "searchTags": "HUB;Hybrid Use Benefit",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "7894368f-87ed-8e4b-df9a-4b2f8fa19e71",
       "longDescription": null,
       "shortDescription": "Covers issues with Hybrid Use Benefit (HUB)for a virtual machine running in Azure",
@@ -655,6 +711,22 @@
       "searchTags": "Resize",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "7c876ab3-753f-71db-0101-fc6057dee104",
+      "longDescription": "",
+      "shortDescription": "Issues related to management of the VM at the Guest level",
+      "searchTags": "admin",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "7cf55793-6ed6-f876-f464-038f86443722",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Reserved Instances (RI)",
+      "searchTags": "Reserved Instances",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "7deec2fa-ffd5-a10b-b26e-1891f495242b",
@@ -687,6 +759,14 @@
       "searchTags": "",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "81c1cd1f-e247-53fa-f05f-5a233ef7550e",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Instance Metadata Service",
+      "searchTags": "Instance Metadata Service",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "82c9e600-dff7-e0d7-05c0-db58c3775b79",
@@ -873,6 +953,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "a5fd783b-fb4a-0bca-8055-b2a170f5769a",
+      "longDescription": "",
+      "shortDescription": "Issue with SQL Server running in the VM",
+      "searchTags": "SQL",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a632159c-a15a-62dd-0420-73c273e43e02",
       "longDescription": "",
       "shortDescription": "Covers issues related to deploying Azure Window Virtual Desktop",
@@ -887,6 +975,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "ac49fc5f-cc3d-46d7-78e1-8156d2f8994a",
+      "longDescription": "",
+      "shortDescription": "Issues with deleting a resource group",
+      "searchTags": "Delete",
+      "category": "Cannot Start",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "ad486945-9500-f754-c39f-26ac7db9a17d",
@@ -1081,6 +1177,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "cfb33b8d-11b7-2d7d-3535-4976d4b04154",
+      "longDescription": "",
+      "shortDescription": "Issue with file system within the VM",
+      "searchTags": "file system",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d0135195-91e8-58c5-d179-52a0b3df9346",
       "longDescription": null,
       "shortDescription": "Assistance when the guest OS is causing restarts repeatedly",
@@ -1143,6 +1247,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "dde26058-7ed2-550e-0095-663e912a3d3f",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Shared Image Gallery or Azure Shared Image definitions (SIG)",
+      "searchTags": "Shared Image",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "df1436d9-bc4b-555b-eeda-7b5150c974fa",
@@ -1209,6 +1321,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "e94a0227-7f91-f0d6-de85-c630bcde099f",
+      "longDescription": "",
+      "shortDescription": "Issue with Windows OS in-place upgrades",
+      "searchTags": "Upgrade",
+      "category": "VM Admin",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e99d3660-70d7-d2f6-29a2-8571fe13516d",
       "longDescription": null,
       "shortDescription": "Assistance with moving resources between regions",
@@ -1239,6 +1359,14 @@
       "searchTags": "",
       "category": "Performance",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "ef64d754-4abe-3465-b745-7e0fab9ea45e",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Image Builder",
+      "searchTags": "Image Builder",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "f0ee0e3f-41b3-3911-fff5-cc68d7853c1e",
@@ -1335,6 +1463,14 @@
       "searchTags": "",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "fcc8678d-5fe8-e491-84de-c4bdce7561e5",
+      "longDescription": "",
+      "shortDescription": "Issues when deleting a virtual machine",
+      "searchTags": "Delete",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "fd32c173-79fe-462d-bfff-aeef92800055",
