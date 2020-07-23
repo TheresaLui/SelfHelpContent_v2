@@ -3,7 +3,7 @@
     description="Move your MariaDB server to Memory Optimzed SKU"
     authors="manishku"
     ms.author="kummanish"
-    articleId="a092afdb-6f20-4b42-8d8f-423ac8d71a3f_Fairfax"
+    articleId="a092afdb-6f20-4b42-8d8f-423ac8d71a3f_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "a092afdb-6f20-4b42-8d8f-423ac8d71a3f",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetMariaDBMemoryRecommendations",
+    "streamNamespace": "cluster('https://sqlazureusnate.usnateast.kusto.core.eaglex.ic.gov').database('sqlazure1').GetMariaDBMemoryRecommendations",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
@@ -47,7 +47,7 @@
   "potentialBenefits": "Improve query performance by caching more data in memory",
   "actions": [
     {
-      "actionId": "f5ff3c1e-c227-4068-97af-d95059f8a3c0",
+      "actionId": "4e2378d5-62b7-48bf-87f6-91d697e32f56",
       "description": "Increase your server's memory by scaling to a higher memory SKU",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -60,7 +60,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "8a31f3b1-261c-44da-a889-0c1423bd3627",
+      "actionId": "894e0a1d-dec9-4339-b9a4-6f41b081d708",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

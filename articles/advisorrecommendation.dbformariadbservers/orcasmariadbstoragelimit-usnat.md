@@ -3,7 +3,7 @@
     description="Scale the storage limit for MariaDB server"
     authors="manishku"
     ms.author="kummanish"
-    articleId="dc791c8d-a74e-4b3e-b7f1-40793399ecd6_Fairfax"
+    articleId="dc791c8d-a74e-4b3e-b7f1-40793399ecd6_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "dc791c8d-a74e-4b3e-b7f1-40793399ecd6",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetMariaDBStorageRecommendations",
+    "streamNamespace": "cluster('https://sqlazureusnate.usnateast.kusto.core.eaglex.ic.gov').database('sqlazure1').GetMariaDBStorageRecommendations",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
@@ -47,7 +47,7 @@
   "potentialBenefits": "Improve query performance by allocating larger storage for the server",
   "actions": [
     {
-      "actionId": "c66446e9-d62b-4a1c-849a-7cdfd7d752d1",
+      "actionId": "37a7ea58-78ea-4e1a-b7b2-c402c3197ade",
       "description": "Increase Storage for your MariaDB Server",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -60,7 +60,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "b00ad8dd-8ed1-4572-9ad5-bab8d4e167fb",
+      "actionId": "2a74ef9f-d8ae-46cb-b41f-62e12c1bcd3e",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

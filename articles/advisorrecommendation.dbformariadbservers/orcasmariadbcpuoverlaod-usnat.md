@@ -3,7 +3,7 @@
     description="Increase the MariaDB server vCores"
     authors="manishku"
     ms.author="kummanish"
-    articleId="a5f888e3-8cf4-4491-b2ba-b120e14eb7ce_Fairfax"
+    articleId="a5f888e3-8cf4-4491-b2ba-b120e14eb7ce_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "a5f888e3-8cf4-4491-b2ba-b120e14eb7ce",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetMariaDBCpuRecommendations",
+    "streamNamespace": "cluster('https://sqlazureusnate.usnateast.kusto.core.eaglex.ic.gov').database('sqlazure1').GetMariaDBCpuRecommendations",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
@@ -47,7 +47,7 @@
   "potentialBenefits": "Improve query performance by reducing CPU pressure",
   "actions": [
     {
-      "actionId": "1286c84f-266f-43ff-9773-4eb1f0a027c9",
+      "actionId": "e38d13d7-73d7-49c5-9fbf-80c4a54ea738",
       "description": "Increase your server's CPU vCores",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -60,7 +60,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "055ea9a1-6af1-4a0d-92c7-83e493489772",
+      "actionId": "ed2d8fc8-6bc8-421a-97f6-5447f22db61c",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

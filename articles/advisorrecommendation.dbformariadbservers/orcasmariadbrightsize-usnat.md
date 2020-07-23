@@ -3,7 +3,7 @@
     description="Right size the MariaDB server vCores based on the utilization telemetry."
     authors="manishku"
     ms.author="kummanish"
-    articleId="2af11142-942e-45c1-8ce8-d9d2df25aae9_Fairfax"
+    articleId="2af11142-942e-45c1-8ce8-d9d2df25aae9_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "2af11142-942e-45c1-8ce8-d9d2df25aae9",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetMariaDBRightSizeRecommendations",
+    "streamNamespace": "cluster('https://sqlazureusnate.usnateast.kusto.core.eaglex.ic.gov').database('sqlazure1').GetMariaDBRightSizeRecommendations",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
@@ -44,7 +44,7 @@
   "potentialBenefits": "Reduce cost by right-sizing the MariaDB server",
   "actions": [
     {
-      "actionId": "c4a0f43f-8b9f-450e-b3ba-d7f20f1a567b",
+      "actionId": "17b7e978-1a73-4d71-a337-71e8986f3a8c",
       "description": "Right-size underutilized MariaDB servers",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -57,7 +57,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "15117dd0-e036-4713-9a2a-559baa46775f",
+      "actionId": "ad10c72a-1386-4b1e-a6f5-654d05ef521a",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

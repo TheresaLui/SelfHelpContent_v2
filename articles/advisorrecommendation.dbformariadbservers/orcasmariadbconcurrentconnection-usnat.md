@@ -3,7 +3,7 @@
     description="Scale the MariaDB server to higher SKU"
     authors="manishku"
     ms.author="kummanish"
-    articleId="860d2d5d-7934-4ccb-a34a-577adf3022a6_Fairfax"
+    articleId="860d2d5d-7934-4ccb-a34a-577adf3022a6_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "860d2d5d-7934-4ccb-a34a-577adf3022a6",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetMariaDBConnectionRecommendations",
+    "streamNamespace": "cluster('https://sqlazureusnate.usnateast.kusto.core.eaglex.ic.gov').database('sqlazure1').GetMariaDBConnectionRecommendations",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
@@ -47,7 +47,7 @@
   "potentialBenefits": "Improve query performance by allowing more concurrent connections",
   "actions": [
     {
-      "actionId": "827d16b5-5dd3-4f18-9122-64f9471724ff",
+      "actionId": "ef80ca3e-819f-40eb-805f-9609a1001b24",
       "description": "Increase vCores or switch to Memory Optimized pricing tier",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
@@ -60,7 +60,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "54840dc7-cf7f-4845-9b59-63d37353fb76",
+      "actionId": "58da2a8a-2142-410b-a006-177d4a20063b",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",

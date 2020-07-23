@@ -3,7 +3,7 @@
     description="Increase the reliability of audit logs"
     authors="andrela"
     ms.author="ajlam"
-    articleId="a77dd319-ffb5-4f88-bdf2-e98e59afc79f_Fairfax"
+    articleId="a77dd319-ffb5-4f88-bdf2-e98e59afc79f_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "a77dd319-ffb5-4f88-bdf2-e98e59afc79f",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetMariaDbAuditLogRecommendations",
+    "streamNamespace": "cluster('https://sqlazureusnate.usnateast.kusto.core.eaglex.ic.gov').database('sqlazure1').GetMariaDbAuditLogRecommendations",
     "schemaVersion": 2.0,
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
@@ -44,7 +44,7 @@
   "potentialBenefits": "Improve the reliability of audit logs for monitoring and troubleshooting.",
   "actions": [
     {
-      "actionId": "2f241ac7-4ed1-4759-8331-82e4f500302e",
+      "actionId": "c1cb1fbf-8fe9-4ef3-bf11-d852bcdac641",
       "description": "Update your audit log settings.",
       "actionType": "Blade",
       "extensionName": "SqlAzureExtension",
@@ -54,7 +54,7 @@
       }
     },
     {
-        "actionId": "a356d30a-2769-44b3-8b00-2f1ae041b656",
+        "actionId": "de27d1dd-3e67-4ca8-8431-9fa9bcf06d92",
         "description": "Increase vCores",
         "actionType": "Blade",
         "extensionName": "HubsExtension",
@@ -67,7 +67,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "04118bc9-331d-4dd5-8aa1-a613f4b31616",
+      "actionId": "27d66d9c-7e0a-484f-b40b-0282b7d8d619",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
