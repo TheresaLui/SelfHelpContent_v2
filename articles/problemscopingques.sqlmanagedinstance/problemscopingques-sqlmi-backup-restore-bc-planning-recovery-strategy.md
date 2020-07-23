@@ -34,8 +34,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "test",
             "watermarkText": "Provide additional information about your request",
-            "required": true,
-            "useAsAdditionalDetails": true
+            "required": true
         },
         {
             "id": "problem_description",
