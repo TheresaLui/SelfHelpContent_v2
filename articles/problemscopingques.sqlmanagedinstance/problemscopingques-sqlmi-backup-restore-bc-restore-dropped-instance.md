@@ -41,8 +41,7 @@
       "controlType": "dropdown",
       "displayLabel": "Have you created a new MI with the same name? If not, please don’t do it. ",
       "watermarkText": "Choose an option",
-      "infoBalloonText": "Choose the migration source",
-			"dropdownOptions": [
+      "dropdownOptions": [
                 {
                     "value": "yes",
                     "text": "Yes"
@@ -64,8 +63,7 @@
       "controlType": "dropdown",
       "displayLabel": "Do you want to recover all the DBs?",
       "watermarkText": "Choose an option",
-      "infoBalloonText": "Choose the migration source",
-			"dropdownOptions": [
+      "dropdownOptions": [
                 {
                     "value": "yes",
                     "text": "Yes"
@@ -88,8 +86,7 @@
       "displayLabel": "If it’s not possible to recover a DB do you want to continue and exclude that DB?",
       "visibility": "recover_all_db == yes",
       "watermarkText": "Choose an option",
-      "infoBalloonText": "Choose the migration source",
-			"dropdownOptions": [
+      "dropdownOptions": [
                 {
                     "value": "yes",
                     "text": "Yes"
