@@ -48,7 +48,7 @@
       "extensionName": "Microsoft_Azure_Network",
       "bladeName": "FlowLogsExtendedDiagnosticsSettingsUpdateBlade",
       "metadata": {
-		"flowLogsSettingsInputs": 
+		"flowLogsSettingsInputs":
 		{
 			"resourceId": "{resourceId}",
 			"location": "{location}"
