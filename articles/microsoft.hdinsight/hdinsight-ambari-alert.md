@@ -17,11 +17,14 @@
 
 # Azure HDInsight: Ambari Alerts
 
-For an explanation of the type of alert statuses provided in Ambari, see [Alerts](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-manage-ambari#alerts).
+* If your node is unresponsiveness and/or you see a critical alert for a specific node, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm) 
 
-Ambari heartbeat lost alerts are usually transient and will resolve on their own own. For more information about heartbeat issues, see [Apache Ambari heartbeat issues in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues).
 
-Ambari stale alerts can be caused when the host is highly utilized or cluster is under heavy load. One way to mitigate this is to disable and enable the alert. For more information, see [Apache Ambari stale alerts in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-stale-alerts).
+* For an explanation of the type of alert statuses provided in Ambari, see [Alerts](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-manage-ambari#alerts).
+
+* Ambari heartbeat lost alerts are usually transient and will resolve on their own own. For more information about heartbeat issues, see [Apache Ambari heartbeat issues in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues).
+
+* Ambari stale alerts can be caused when the host is highly utilized or cluster is under heavy load. One way to mitigate this is to disable and enable the alert. For more information, see [Apache Ambari stale alerts in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-stale-alerts).
 
 ## **Recommended Documents**
 
