@@ -29,7 +29,7 @@
 
 - [Verify that the feature is registered](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support-how-to#step-2-verify-that-the-feature-is-registered) using the following PowerShell cmdlets
 
-	```java
+	```powershell
 	Get-AzProviderFeature -ProviderNamespace Microsoft.Storage -FeatureName AllowNFSV3
 	Get-AzProviderFeature -ProviderNamespace Microsoft.Storage -FeatureName PremiumHns
 	```
