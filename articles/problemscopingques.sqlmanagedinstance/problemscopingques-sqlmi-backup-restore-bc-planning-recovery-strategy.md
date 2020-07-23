@@ -28,38 +28,14 @@
             "displayLabel": "When did you face this question?",
             "required": true
         },
-        {
-            "id": "type_question",
-            "order": 10,
-            "controlType": "dropdown",
-            "displayLabel": "What is the topic you need clarification?",
-            "dropdownOptions": [
-                {
-                    "value": "architecture",
-                    "text": "High Availability Architecture"
-                },
-                {
-                    "value": "backups",
-                    "text": "Backups"
-                },
-                {
-                    "value": "replication",
-                    "text": "Replication"
-                },
-                {
-                    "value": "recover",
-                    "text": "Recover a database or instance"
-                },
-                {
-                    "value": "drill",
-                    "text": "Disaster Recovery Drill or Application connectivity resiliency"
-                },
-                {
-                    "value": "dont_know_answer",
-                     "text": "Don't know, other topic or several of the previous topics"
-                }
-            ],
-            "required": true
+	{
+            "id": "test",
+            "order": 100,
+            "controlType": "multilinetextbox",
+            "displayLabel": "test",
+            "watermarkText": "Provide additional information about your request",
+            "required": true,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "problem_description",
