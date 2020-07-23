@@ -6,7 +6,7 @@
 	resource="trainingandexperimentation"
 	authors="riedgar"
 	ms.author="riedgar"
-	supportTopicIds="????????"
+	supportTopicIds="32745199"
 	productPesIds="16644"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.trainingandexperimentation.problemsfairnessdashboard"
