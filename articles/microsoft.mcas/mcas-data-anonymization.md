@@ -51,8 +51,6 @@ IP addresses and subdomains are not anonymized.
 
 - To deanonymize usernames in bulk, use the steps in [Cloud Discovery data anonymization](https://docs.microsoft.com/cloud-app-security/cloud-discovery-anonymizer), under **To resolve multiple usernames**.
 
-Recommended documents:
-
 ## **Recommended Documents**
 
 - [Cloud Discovery data anonymization](https://docs.microsoft.com/cloud-app-security/cloud-discovery-anonymizer)
