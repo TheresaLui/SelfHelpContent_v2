@@ -15,13 +15,13 @@
 	articleId="f29ea932-7dd8-4960-a619-4d9d4ec47bcf"
 	ownershipId="API_FHIR_Health_Eng"
 />
-# Recommended Steps
+# Issues with IoT Connect on API for FHIR
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Job details",
-    "fileAttachmentHint": "",
+    "title": "Issues with IoT Connect on API for FHIR",
+    "fileAttachmentHint": "Please upload devicemapping.json and fhirmapping.json files",
     "formElements": [
         {
             "id": "connector_name",
