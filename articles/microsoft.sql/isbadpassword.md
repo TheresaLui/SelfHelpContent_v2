@@ -29,8 +29,8 @@ Typically, the service administrator can use the following steps to add the logi
 3. If the corresponding name is disabled, enable it with `Alter login (User name) enable`
 4. If the SQL login user name does not exist, create it by using SSMS. To do this, follow these steps:<br>
 
-	* Double-click **Security** to expand it
-	* Right-click **Logins**, and then select **New login**
+	* Double-click **Security** to expand it
+	* Right-click **Logins**, and then select **New login**
 	* In the generated script with placeholders, you can edit and run the following SQL query:<br>
 	
 ```
@@ -39,10 +39,10 @@ WITH PASSWORD = '(password, sysname, Change_Password)'
 GO
 ```
 
-5. Double-click **Database**
+5. Double-click **Database**
 6. Select the database to which you want to grant user the permission
-7. Double-click **Security**
-8. Right-click **Users**, and then select **New User**
+7. Double-click **Security**
+8. Right-click **Users**, and then select **New User**
 9. In the generated script with placeholders, you can edit and run the following SQL query:<br>
 
 ```
@@ -58,6 +58,6 @@ EXEC sp_addrolemember N'db_owner', N'(user_name, sysname, user_name)'
 GO      
 ```
 
-**Note** that you can also use **sp_addrolemember** to map specific users to specific database roles.<br>
+**Note** that you can also use **sp_addrolemember** to map specific users to specific database roles.<br>
 
-For more information, refer to [Managing Databases and Logins in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins).
+For more information, refer to [Managing Databases and Logins in Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins).

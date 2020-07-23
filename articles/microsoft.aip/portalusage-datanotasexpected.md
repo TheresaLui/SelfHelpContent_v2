@@ -26,7 +26,11 @@
    - Your account is not configured for Azure Active Directory Conditional Access
    - If you have migrated to SCC, please make sure you have the [appropriate permissions](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels#important-information-about-administrative-roles)
 
-If you still experience the issue, take a screenshot of the problem and attach the screenshot to this ticket.
+2. If your issue is related to Central Reporting and Analytics reports, please select the appropriate support topic 
+
+3. If you have migrated to Unified Labeling and your issue is regarding SCC portal, raise a support ticket to Security and Compliance Center team: [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
+
+4. If you still experience the issue, take a screenshot of the problem and attach the screenshot to this ticket.
 
 ## **Recommended Documents**
 

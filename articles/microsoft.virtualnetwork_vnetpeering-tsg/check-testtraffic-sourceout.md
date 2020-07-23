@@ -1,4 +1,4 @@
-﻿<properties
+<properties
 	pageTitle="TSG Content Step: Check platform nsg and routing from source 'DirectionOut'"
 	description="TSG Content Step: Check platform nsg & routing from source 'DirectionOut'"
 	service="microsoft.network"
@@ -16,8 +16,8 @@ Use the 'Test Traffic' utility to check for blocking Network Security Group Rule
 
 ## **Recommended Steps**
 
-1. Choose a 'source' VM in one of the peered VNet and a 'destination' VM in the other peered VNet. (For the next several steps we will refer to the VMs you've selected as 'source' & 'destination' VM)
-2. Browse to the source VM in ASC Resource Explorer. Click on the Diagnostics tab, and choose Test Traffic.
+1. Choose a 'source' VM or VMSS instance in one of the peered VNet and a 'destination' VM in the other peered VNet. (For the next several steps we will refer to the VMs you've selected as 'source' & 'destination' VM)
+2. Browse to the source VM/VMSS instance in ASC Resource Explorer. Click on the Diagnostics tab, and choose Test Traffic.
 3. Specify the following options to Test Traffic and then click "Run":
    * Traffic Direction: ***Out***
    * Cluster node: Auto Populated by ASC
@@ -35,5 +35,4 @@ Use the 'Test Traffic' utility to check for blocking Network Security Group Rule
 ## **Recommended Documents**
 
 1. [TestTraffic](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/133274/ASC-TestTraffic)
-
 
