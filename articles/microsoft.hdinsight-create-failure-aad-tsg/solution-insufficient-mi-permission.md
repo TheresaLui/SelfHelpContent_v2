@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Insufficient MI permission"
 	description="Insufficient MI permission"
-	service=""
-	resource=""
+            service="Microsoft.HDInsight"
+            resource="Microsoft.HDInsight/clusters"
 	authors="Jacky-hdi"
 	ms.author="linjzhu"
 	displayOrder=""

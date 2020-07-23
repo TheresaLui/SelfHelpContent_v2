@@ -19,12 +19,12 @@
 
 4 out of 5 customers resolved their NFS mount issue using the steps listed below.
 
-## **Recommended Documents**
+## **Recommended Steps**
 
 - [How to sign up for the preview](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support-how-to#step-1-register-the-nfs-30-protocol-feature-with-your-subscription)<br>
 
 >NFS 3.0 protocol support in Azure Blob storage is in public preview and is available in the following regions:<br>
->>US : US East, US Central, US West Central <br> Europe : UK West ,EU North <br> Asia : Korea South, Korea Central <br> Other Regions :  Canada Central, Australia Southeast
+US : US East, US Central, US West Central <br> Europe : UK West ,EU North <br> Asia : Korea South, Korea Central <br> Other Regions :  Canada Central, Australia Southeast
 
 - [Types of Storage account supported for the preview](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support-how-to#step-4-create-and-configure-a-storage-account)<br>
 - [NFS 3.0 features not supported during the preview](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support#nfs-30-features-not-yet-supported)<br>
@@ -32,7 +32,7 @@
 - [How to mount a storage container](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support-how-to#step-6-mount-the-container)<br>
 - [Pricing details](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support#pricing)
 
-## **Common Issues**
+### **Common Issues**
 
 | Issue/Error | Resolution |
 |-|-|
