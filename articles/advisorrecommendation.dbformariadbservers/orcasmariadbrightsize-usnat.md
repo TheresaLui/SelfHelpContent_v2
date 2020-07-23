@@ -5,7 +5,7 @@
     ms.author="kummanish"
     articleId="2af11142-942e-45c1-8ce8-d9d2df25aae9_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Fairfax"
+    cloudEnvironments="USNat"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Decrease the MariaDB server vCores

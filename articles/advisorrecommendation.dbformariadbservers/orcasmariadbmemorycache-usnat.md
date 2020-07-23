@@ -5,7 +5,7 @@
     ms.author="kummanish"
     articleId="a092afdb-6f20-4b42-8d8f-423ac8d71a3f_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Fairfax"
+    cloudEnvironments="USNat"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Move your MariaDB server to Memory Optimzed SKU
