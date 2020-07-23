@@ -19,7 +19,7 @@
 
 We found that this is not a supported scenario. The Azure public documentation states "_Only a VPN Site-to-Site connection can be used for connecting to a RADIUS server on-premises. An ExpressRoute connection cannot be used._"
 
-##Recommended Steps
+## Recommended Steps
 
 1. Use a site-to-site VPN connection to connect your VNet to your on-premises RADIUS server or
 2. Move your RADIUS server into your VNet

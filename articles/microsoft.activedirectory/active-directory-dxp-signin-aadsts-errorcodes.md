@@ -14,7 +14,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
-    ownershipId="AzureIdentity_B2B"
+    ownershipId="AzureIdentity_IdentityDiagnostics"
 />
 
 # How Do I Resolve the User Sign-in Issues?

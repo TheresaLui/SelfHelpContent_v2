@@ -5,7 +5,7 @@
     ms.author="alzam"
     articleId="129d8c1e-a4d2-4bac-86ce-c7c2b2e37feb_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Repurpose or delete idle virtual network gateways

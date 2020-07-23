@@ -20,7 +20,7 @@
 
 ## **Recommended Steps**
 
-If you are experiencing some issues with SQL Server Agent, some of the following steps might help you to troubleshoot the issues:
+If you are experiencing problems with SQL Server Agent, some of the following steps might help you to troubleshoot the issues:
 
 ### **I cannot see my SQL Server Agent node in Object explorer**
 

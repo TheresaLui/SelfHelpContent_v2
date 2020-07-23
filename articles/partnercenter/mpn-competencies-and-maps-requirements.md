@@ -10,10 +10,10 @@
 	articleId="mpn_competencies_and_maps_requirements"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635697, 32725867"
+	supportTopicIds="32725867"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960, 17007"
+	productPesIds="17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />

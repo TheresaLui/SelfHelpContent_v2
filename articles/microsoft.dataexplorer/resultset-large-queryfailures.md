@@ -12,7 +12,7 @@
 	supportTopicIds="32613464,32613482,32613506"
 	resourceTags=""
 	productPesIds="16602"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
     articleId="862E4B9B-7E83-4FB1-97FA-2D62605245B7"
 	ownershipId="AzureDataExplorer_Kusto"
 />

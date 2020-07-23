@@ -10,7 +10,7 @@
     articleId="insights-for-vm-agent-onprem"
     productPesIds="17081"
     supportTopicIds="32738495"
-    cloudEnvironments="public,fairfax"
+    cloudEnvironments="public,fairfax, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
  />
 

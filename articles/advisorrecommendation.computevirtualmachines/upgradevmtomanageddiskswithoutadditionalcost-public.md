@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="57ecb3cd-f2b4-4cad-8b3a-232cca527a0b_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="StorageMediaEdge_XStore"
 />
 # Upgrade VM from Premium Unmanaged Disks to Managed Disks at no additional cost
