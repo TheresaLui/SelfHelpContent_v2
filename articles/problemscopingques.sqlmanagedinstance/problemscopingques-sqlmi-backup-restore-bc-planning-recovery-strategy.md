@@ -21,6 +21,13 @@
     "title": "How to questions or planning a recovery strategy",
     "fileAttachmentHint": "",
     "formElements": [
+            {
+            "id": "problem_start_time",
+            "order": 1,
+            "controltype": "datetimepicker",
+            "displayLabel": "When did you face this question?",
+            "required": true
+        },
         {
             "id": "type_question",
             "order": 10,
