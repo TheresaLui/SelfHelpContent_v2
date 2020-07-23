@@ -37,7 +37,7 @@ If no discovered apps are available, do the following:
 If apps are not being blocked, do the following:
 
 1. In Cloud App Security, in the Cloud App Catalog, verify that at least one app has been marked as **Unsanctioned**.
-1. In the Zscalar portal, go to **Administration** > **Access Control** > **URL categories**.
+1. In the Zscaler portal, go to **Administration** > **Access Control** > **URL categories**.
 1. Under **User-Defined**, verify that **MCAS Unsanctioned Apps** exists and that custom URLs are defined.
 
 If you cannot see any discovered data or completed parsed tasks in the governance log:
