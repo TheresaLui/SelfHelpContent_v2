@@ -49,9 +49,9 @@
       "bladeName": "FlowLogsExtendedDiagnosticsSettingsUpdateBlade",
       "metadata": {
 		"flowLogsSettingsInputs": 
-		{     
-			"resourceId": "{resourceId}",         
-			"location": "{location}"              
+		{
+			"resourceId": "{resourceId}",
+			"location": "{location}"
 		}
 	  }
     }
