@@ -38,7 +38,7 @@ This can be due to some intermittent issue, retry is suggested way to fix this i
 
 ### **Do I need to pay for Azure Migrate and the non-Microsoft ISV tools that I plan to use?**
 
-Azure Migrate and the in-built Server Assessment, Server Migration tools are available at [no additional charge](https://azure.microsoft.com/pricing/details/azure-migrate). However, you may incur charges for other non-Microsoft or ISV assessment and migration tools you use while using Azure Migrate.
+Azure Migrate and the first party Server Assessment & Server Migration tools are available at [no additional charge](https://azure.microsoft.com/pricing/details/azure-migrate). However, you may incur charges for using inetrgated non-Microsoft ISV assessment and migration tools.
   
 ### **I don't see the tool that I want to use**
   
