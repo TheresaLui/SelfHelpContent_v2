@@ -73,7 +73,7 @@
       "httpMethod": "DELETE",
       "uri": "{armEndpoint}{resourceId}?api-version=2019-09-01",
       "actionId": "dd5b01af-7897-4686-ac02-7d57f1dfbe3f",
-      "implication": "There is availability implication for this action.",
+      "implication": null,
       "documentationLink": "https://docs.microsoft.com/rest/api/expressroute/expressroutecircuits/delete"
     }
   ]
