@@ -299,7 +299,7 @@
          "validations": [
 		{
 		    "type": "RegExMatch",
-		    "value": "^\\[0-9]$",
+		    "value": "[0-9]$",
 		    "text": "XID is a a numerical number"
 		}
          ]
