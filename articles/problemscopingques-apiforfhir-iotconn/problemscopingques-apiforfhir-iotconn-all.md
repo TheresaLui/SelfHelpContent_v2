@@ -31,7 +31,7 @@
             "required": false
         },
         {
-            "id": ""ID_name",
+            "id": "ID_name",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "ID(s)",
