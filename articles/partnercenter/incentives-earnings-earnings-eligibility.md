@@ -33,5 +33,8 @@
 3.	From the document refer to the section **Program structure and Rates**.
 
 ## **Recommended Documents**
+
+* [Confirm your earnings eligibility](https://docs.microsoft.com/partner-center/incentives-confirm-your-earnings-eligibility)
+* [Troubleshooting payments and earnings issues](https://docs.microsoft.com/partner-center/incentives-payment-issues)
 * [Understanding earnings/payments discrepancies](https://support.microsoft.com/help/4534675)
 
