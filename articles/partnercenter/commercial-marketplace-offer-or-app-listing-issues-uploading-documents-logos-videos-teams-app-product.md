@@ -22,8 +22,7 @@
  
 ## **Recommended Documents**
 
+ * [Create your listing](https://docs.microsoft.com/office/dev/store/appsource-listing)
 
- 1. [Create your listing](https://docs.microsoft.com/office/dev/store/appsource-listing)
-
- 2. [Create effective AppSource listing](https://docs.microsoft.com/office/dev/store/create-effective-office-store-listings) 
+ * [Create effective AppSource listing](https://docs.microsoft.com/office/dev/store/create-effective-office-store-listings) 
  
