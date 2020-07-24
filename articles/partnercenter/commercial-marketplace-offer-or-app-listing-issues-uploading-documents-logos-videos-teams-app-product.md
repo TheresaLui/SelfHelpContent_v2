@@ -18,11 +18,10 @@
 	ownershipId="PartnerCenter_Ingestion"
 />
 
-# Partner Center DAF Requests
+# Teams app product
  
 ## **Recommended Documents**
 
- * [Create your listing](https://docs.microsoft.com/office/dev/store/appsource-listing)
+* [Create your listing](https://docs.microsoft.com/office/dev/store/appsource-listing)
 
- * [Create effective AppSource listing](https://docs.microsoft.com/office/dev/store/create-effective-office-store-listings) 
- 
+* [Create effective AppSource listing](https://docs.microsoft.com/office/dev/store/create-effective-office-store-listings) 
