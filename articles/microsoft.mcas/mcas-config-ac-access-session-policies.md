@@ -10,7 +10,7 @@
   articleId="mcas-config-ac-access-session-policies"
   diagnosticScenario=""
   selfHelpType="generic"
-  supportTopicIds="32728961"
+  supportTopicIds="32745217"
   resourceTags=""
   productPesIds="16031"
   ownershipId="CloudAppSecurity_CAAC"
