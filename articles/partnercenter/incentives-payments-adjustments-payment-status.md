@@ -26,9 +26,9 @@ The totals on the Payment page represent all of the MPN IDs you use.
 
 You can filter by Participant ID, Program, Payment ID, and Earning type. Amounts are given in US dollars. The paid value is also displayed in pay to currency.
 
-**Note**: data is only visible for the programs and MPN ID’s that you have been assigned an incentive user or admin role. From this view, you can download remittance or view transaction details by payment.
+**Note**: Data is only visible for the programs and MPN IDs that you have been assigned an incentive user or admin role. From this view, you can download remittance or view transaction details by payment.
 
-To better understand your Payments status please access [Understanding payment statuses](https://docs.microsoft.com/partner-center/understand-incentive-payouts#payment-status)
+To better understand your Payment status, please review [Understanding payment statuses](https://docs.microsoft.com/partner-center/understand-incentive-payouts#payment-status).
 
 ## **Recommended Documents**
 
