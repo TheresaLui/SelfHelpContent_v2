@@ -10,7 +10,7 @@
 	supportTopicIds="32683907"
 	productPesIds="16869"
 	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-	articleId="LUIS_Conversation_BuildModel_Intents"
+	articleId="LUIS_Conversation_buildAModel_Intents"
 	ownershipId="AzureCogSvc_CognitiveServices"
 />
 
