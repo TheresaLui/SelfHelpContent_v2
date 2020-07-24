@@ -6,7 +6,7 @@
     articleId="944611b9-0357-4272-a9ac-a97a65932599_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
-	  ownershipId="AzureData_AzureDatabaseforMySQL"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Scale the MySQL server to higher SKU
 ---

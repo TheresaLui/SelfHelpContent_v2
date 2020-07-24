@@ -6,7 +6,7 @@
     articleId="997839f4-48e4-49e4-9b15-628a7757765c_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
-	  ownershipId="AzureData_AzureDatabaseforMySQL"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Increase the reliability of audit logs
 ---

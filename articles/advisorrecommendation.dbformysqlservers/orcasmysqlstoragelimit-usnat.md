@@ -6,7 +6,7 @@
     articleId="c0576597-4910-48b5-9828-5b3a99190b82_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
-	  ownershipId="AzureData_AzureDatabaseforMySQL"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Scale the storage limit for MySQL server
 ---
