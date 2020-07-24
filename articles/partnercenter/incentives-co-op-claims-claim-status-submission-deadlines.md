@@ -28,7 +28,7 @@ The status of each claim can be found in the Status column.
 
 Claims should be submitted within 45 days of activity completion and must be submitted by the period claim deadline.
 
-Upload proof of execution materials and Submit claim “Usage Period” refers to the six months that immediately follow the earning period. Partners perform co-op activities and submit claims during the Usage Period. There is a 45-day grace period after the end of the Usage Period for partners to complete their claim submissions. If funds are not claimed by the conclusion of the grace period, they will be forfeited with no possibility of reinstatement.
+Upload proof of execution materials and Submit claim "Usage Period" refers to the six months that immediately follow the earning period. Partners perform co-op activities and submit claims during the Usage Period. There is a 45-day grace period after the end of the Usage Period for partners to complete their claim submissions. If funds are not claimed by the conclusion of the grace period, they will be forfeited with no possibility of reinstatement.
 You can learn more about claims status and submission deadlines by accessing the Recommended Documents below.
 
 ## **Recommended Documents**
