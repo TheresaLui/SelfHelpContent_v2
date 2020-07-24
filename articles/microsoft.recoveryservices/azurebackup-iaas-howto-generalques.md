@@ -18,6 +18,7 @@
 # Diagnose and resolve issues for Azure Virtual Machine Backup and Restore
 
 ## **Recommended Steps**
+
 Before filing a support ticket you can find answers to many common questions:
 - [How do I change my vault storage replication type from GRS to LRS?](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)<br>
 - [How do I move an Azure VM to a different Resource Group/Vault while retaining the existing backup?](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#how-do-i-move-a-vm-backed-up-by-azure-backup-to-a-different-resource-group)
@@ -33,6 +34,7 @@ Before filing a support ticket you can find answers to many common questions:
 - [Complete list of Frequently Asked Questions](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq)
 
 **Additional References**
+
 - [Complete list of supported, unsupported and know limitations](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas)
 - [Azure VM restore scenarios](https://docs.microsoft.com/azure/backup/about-azure-vm-restore)
 - [Stop protecting virtual machines](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)
@@ -58,3 +60,8 @@ Before filing a support ticket you can find answers to many common questions:
 * [Delete Recovery Services vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault)
 *-* How do I move recovery service vault between [resource groups](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group) and [subscriptions?](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)
 * [What are application-consistent and crash-consistent snapshots?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#snapshot-consistency)
+
+
+
+
+
