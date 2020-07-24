@@ -43,3 +43,9 @@
 	* Note that if you select **Proof documents**, you must add explanatory notes. When you’ve added a note, select **Save**. 
 
 12.	Enter any final comments before submitting your POE, and then select **Submit claim**
+
+## **Recommended Documents**
+
+- [Create your plan](https://docs.microsoft.com/partner-center/incentives-create-your-plan)
+- [Prepare your proof of execution](https://docs.microsoft.com/partner-center/incentives-prepare-your-proof-of-execution)
+
