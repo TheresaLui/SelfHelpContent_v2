@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureDatabricks"
 />
 
-# Diagnose and resolve cluster create or launch errors
+# Diagnose and resolve cluster create and launch errors
 
 | ERROR | RECOMMENDED STEPS|
 |-------|---------|
@@ -31,6 +31,9 @@
 |Cloud Provider Launch Failure: A cloud provider error was encountered while setting up the cluster.<br>Operation results in exceeding quota limits of Core. Maximum allowed: xx, Current in use: xxx, Additional requested: xx|Request additional quota as per the article [here](https://docs.microsoft.com/azure/databricks/kb/clusters/azure-core-limit)
 |Cloud Provider Launch Failure: A cloud provider error was encountered while setting up the cluster<br>ResourceQuotaExceeded Azure error message: Creating the resource of type 'Microsoft.Network/publicIPAddresses' would exceed the quota of 'xx' resources of type 'Microsoft.Network/publicIPAddresses' per resource group. The current resource count is 'xx', please delete some resources of this type before creating a new one.|Request additional quota as per the article [here](https://docs.microsoft.com/azure/databricks/kb/clusters/azure-ip-limit)
 
+
+
+## Recommended Documents
 
 > **Known Issue**: Starting 17 June 2020 some Azure Databricks customers in UAE North have encountered error "Azure error code: AllocationFailed" when performing service management operations - such as create, update, scale clusters or submit jobs. We are aware of this issue and are actively working to ensure availability of resources in the quickest time frame possible. We recommend you consider one of the below workarounds:
 >
