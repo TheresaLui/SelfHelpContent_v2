@@ -6,7 +6,7 @@
     articleId="84978654-5304-4b2a-81f6-022d18a8b676_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="usnat"
-	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+    ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Improve PostgreSQL connection management
 ---

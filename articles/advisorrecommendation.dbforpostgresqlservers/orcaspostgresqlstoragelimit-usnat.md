@@ -6,7 +6,7 @@
     articleId="ae2b8ab9-f6b9-4531-ba04-44f00880dc18_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="usnat"
-	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+    ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Scale the storage limit for PostgreSQL server
 ---

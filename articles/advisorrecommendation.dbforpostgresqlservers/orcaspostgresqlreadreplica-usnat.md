@@ -6,7 +6,7 @@
     articleId="8fd46c9b-5ba1-4133-8a5d-dfc61e1195b1_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="usnat"
-	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+    ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Add a PostgreSQL Read Replica server
 ---

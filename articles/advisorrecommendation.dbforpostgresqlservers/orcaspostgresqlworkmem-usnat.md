@@ -6,7 +6,7 @@
     articleId="2613de4e-b3d7-11e9-a2a3-2a2ae2dbcce4_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="usnat"
-	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+    ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Increase the server work_mem to avoid excessive disk spilling
 ---

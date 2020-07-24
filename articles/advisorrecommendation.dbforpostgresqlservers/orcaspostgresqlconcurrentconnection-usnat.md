@@ -6,7 +6,7 @@
     articleId="bd109fe8-a2cf-415a-adcb-5e9f9fc1d3c0_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="usnat"
-	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+    ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Scale the PostgreSQL server to higher SKU
 ---

@@ -6,7 +6,7 @@
     articleId="47b11ec4-7950-43a1-b6b5-f051f812bd34_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="usnat"
-	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
+    ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Move your PostgreSQL server to Memory Optimized SKU
 ---
