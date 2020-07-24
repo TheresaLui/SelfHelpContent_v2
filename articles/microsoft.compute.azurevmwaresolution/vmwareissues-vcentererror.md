@@ -1,6 +1,6 @@
 <properties
-	pageTitle="vmwareIssuesvCenterError"
-	description="VMwareIssuesvCenterError"
+	pageTitle="vmwareissuesvcentererror"
+	description="vmwareissuesvcentererror"
 	infoBubbleText="Problems related to Azure VMware Solution"
 	ms.service="azure-vmware-cloudsimple"
 	authors="neshenoy"

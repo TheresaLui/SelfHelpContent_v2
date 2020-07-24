@@ -1,6 +1,6 @@
 <properties
-	pageTitle="VMwareIssuesvCenterAlarm"
-	description="VMwareIssuesvCenterAlarm"
+	pageTitle="vmwareissuesvcenteralarm"
+	description="vmwareissuesvcenteralarm"
 	infoBubbleText="Problems related to Azure VMware Solution"
 	ms.service="azure-vmware-cloudsimple"
 	authors="neshenoy"
