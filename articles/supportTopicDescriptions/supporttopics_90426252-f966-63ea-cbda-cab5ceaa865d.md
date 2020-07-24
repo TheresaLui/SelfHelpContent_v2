@@ -206,6 +206,30 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "63952d03-cc9d-6740-111a-0177d050c928",
+      "longDescription": "",
+      "shortDescription": "Issues with creating, moving, or deleting Automation Accounts",
+      "searchTags": "account;delete;unlink",
+      "category": "Automation Account",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "65616ee6-03b8-cb93-967b-d8a2b237ba75",
+      "longDescription": "",
+      "shortDescription": "Change Tracking and Inventory functionality in Azure Automation",
+      "searchTags": "change tracking;inventory",
+      "category": "Change Tracking",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "67060bc1-a351-ca57-d61c-888edaceeabb",
+      "longDescription": "",
+      "shortDescription": "You get an Access Forbidden, 403, or other error when trying to take action",
+      "searchTags": "403;access forbidden;authorize",
+      "category": "start stop",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6e551778-1455-77a1-bd60-700ba414eb18",
       "longDescription": "",
       "shortDescription": "Issues were runbook jobs are failed, stopped or suspended, or runbooks emit errors",
@@ -235,6 +259,14 @@
       "shortDescription": "Change Tracking is not picking changes to files, folders or services. ",
       "searchTags": "file;folder;service;daemon",
       "category": "Change Tracking",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "78765c3a-cd8e-f691-511b-7be94e3be6c3",
+      "longDescription": "",
+      "shortDescription": "Can not create a new RunAs account",
+      "searchTags": "create",
+      "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -275,6 +307,14 @@
       "shortDescription": "General guidance and advisory",
       "searchTags": "general",
       "category": "general",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "90a76cbe-5b2e-7ea1-a96d-5db297eba9e6",
+      "longDescription": "",
+      "shortDescription": "Issues with ARM Templates",
+      "searchTags": "ARM;template",
+      "category": "ARM",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -475,6 +515,14 @@
       "shortDescription": "Help creating deployments, targeting machines, or schedules not working as expected. ",
       "searchTags": "schedule;create;preview;saved search",
       "category": "Update Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ffa06910-7d76-1596-5bec-da597fc57a2d",
+      "longDescription": "",
+      "shortDescription": "Can not renew or create Classic RunAs account",
+      "searchTags": "classic",
+      "category": "Shared Resources",
       "useInDiagnoseAndSolve": "true"
     }
   ]

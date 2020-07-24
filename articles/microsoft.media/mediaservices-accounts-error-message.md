@@ -6,13 +6,13 @@
 	authors="akucer"
 	ms.author="akucer"
 	displayOrder="1"
-	articleId="mediaservices-authentication-access-control"
+	articleId="mediaservices-error-message"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32729544"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public, fairfax, usnat, ussec"
+	cloudEnvironments="public, mooncake, fairfax, usnat, ussec"
 	ownershipId="StorageMediaEdge_Media"
 />
 # Account management error messages
