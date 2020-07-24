@@ -19,11 +19,11 @@
     "schemaVersion": 2.0,
     "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('Publish').AzureAdvisor_ADX_UpdateCacheReco",
     "dataSource": "Kusto",
-    "refreshInterval": "0.06:00:00"
+    "refreshInterval": "0.04:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
-  "recommendationResourceType": "Microsoft.Kusto/clusters",
+  "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
   "recommendationFriendlyName": "Right-size cache for ADX clusters",
   "recommendationMetadataState": "Active",
   "recommendationScope": "Internal",

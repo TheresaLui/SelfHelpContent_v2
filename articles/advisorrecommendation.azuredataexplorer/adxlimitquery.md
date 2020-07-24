@@ -19,11 +19,11 @@
     "schemaVersion": 2.0,
     "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('Publish').AzureAdvisor_ADX_LimitQueryReco",
     "dataSource": "Kusto",
-    "refreshInterval": "0.06:00:00"
+    "refreshInterval": "0.04:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
-  "recommendationResourceType": "Microsoft.Kusto/clusters",
+  "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
   "recommendationFriendlyName": "Increase cache performance for ADX tables",
   "recommendationMetadataState": "Active",
   "recommendationScope": "Internal",
@@ -72,7 +72,7 @@
       }
     }
   },
-  "displayLabel": "Consider scaling your cluster to the recommended configuration",
+  "displayLabel": "Consider setting your cache to the recommended value",
   "additionalColumns": [
 	{
       "name": "tableName",
