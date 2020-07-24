@@ -24,7 +24,7 @@
 
 Most change organization owner requests fall into the following categories:
 
-  I need to change the owner of my organization and either the current organization owner or a project collection administrator is still active. 
+###  I need to change the owner of my organization and either the current organization owner or a project collection administrator is still active. 
     
 Prerequisites:
   - Ensure that you are either a project collection [administrator](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-user-and-permissions-management?view=azure-devops#q-how-do-i-find-a-project-collection-administrator) or the organization [owner](https://docs.microsoft.com/azure/devops/organizations/accounts/faq-user-and-permissions-management?view=azure-devops#q-how-do-i-find-the-organization-owner) 
@@ -33,14 +33,14 @@ Prerequisites:
 
 If this is your issue and you meet the above prerequisites, please see [Changing organization owner](https://docs.microsoft.com/azure/devops/organizations/accounts/change-organization-ownership?view=azure-devops#change-organization-owner).
 	
- I need to change the owner of my organization and the organization owner and project collection administrator(s) are no longer active.
+###  I need to change the owner of my organization and the organization owner and project collection administrator(s) are no longer active.
 
 Prerequisites: 
   - Your Azure DevOps Services organization must be connected to Azure Active Directory (Azure AD)
 
 If this is your issue and you meet the above prerequisites, please see [How to transfer ownership to another user](https://docs.microsoft.com/azure/devops/organizations/accounts/resolve-orphaned-organization?view=azure-devops).
 
- I need to change the owner of my organization. It is not connected to Azure Active Directory (Azure AD) and neither the current organization owner or project collection administrator(s) are still active.
+###  I need to change the owner of my organization. It is not connected to Azure Active Directory (Azure AD) and neither the current organization owner or project collection administrator(s) are still active.
     
 If this is your issue or your issue is not listed, please continue to create a support request.
 
