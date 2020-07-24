@@ -1,22 +1,26 @@
 <properties
-  pagetitle="Windows Virtual Desktop - Issues configuring device redirection"
-  service=""
-  resource=""
-  ms.author="jerrycif,evas"
-  selfhelptype="Generic"
-  supporttopicids="32727874"
-  resourcetags=""
-  productpesids="16582"
-  cloudenvironments="public"
-  articleid="032cf025-2f52-4420-b161-bce71302f41b"
-  ownershipid="Windows_Virtual_Desktop" />
+	pageTitle="Issues configuring device redirection"
+	description="Issues configuring device redirection"
+	service=""
+	resource=""
+	authors="jerrycif"
+	ms.author="jerrycif"
+	displayOrder=""
+	selfHelpType="generic"
+	supportTopicIds="32727874"
+	resourceTags=""
+	productPesIds="16582"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	articleId="032cf025-2f52-4420-b161-bce71302f41b"
+	ownershipId="Windows_Virtual_Desktop"
+/>
+
 # Windows Virtual Desktop - Issues configuring device redirection
-## **Recommended Steps**
 
-1. Review that device redirection is enabled: 
-  * [Set custom properties on the host pool using Windows Virtual Desktop with Azure Resource Manager integration](https://docs.microsoft.com/azure/virtual-desktop/customize-rdp-properties)
-  * [Set custom properties on the host pool using Windows Virtual Desktop (classic)](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/customize-rdp-properties-2019)
+4 out of 5 customers resolved their Windows Virtual Desktop device redirection issues using the information listed below.<br>
 
-2. Review supported RDP file settings:
-  * [Review supported RDP file settings on Windows Virtual Desktop](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context) - independent of service release
-  * [Review RD client overview for details on supported device redirection](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/remote-desktop-app-compare)
+## **Recommended Documents**
+
+* [Set custom properties on the Hostpool](https://docs.microsoft.com/azure/virtual-desktop/customize-rdp-properties)<br>
+* [Review supported RDP file settings](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context)<br>
+* [Understand what redirection is supported by Remote Desktop clients](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context)
