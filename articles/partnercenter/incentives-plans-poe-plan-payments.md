@@ -31,5 +31,6 @@ For example, if your plan is approved for $10,000, and you earned $5,000 in the 
 Under that same plan, if you earn $15,000 in the month of April, you’ll receive $10,000 on May 15th because $10,000 was the limit for your plan. To receive more payment, you need to raise the limit of your plan for the next month.
 
 ## **Recommended Documents**
+
  * [Create your plan](https://docs.microsoft.com/partner-center/incentives-create-your-plan)
  * [Prepare your proof of execution](https://docs.microsoft.com/partner-center/incentives-prepare-your-proof-of-execution)
