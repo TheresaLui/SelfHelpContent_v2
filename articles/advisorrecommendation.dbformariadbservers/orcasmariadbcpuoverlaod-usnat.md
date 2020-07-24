@@ -6,7 +6,7 @@
     articleId="a5f888e3-8cf4-4491-b2ba-b120e14eb7ce_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
-	  ownershipId="AzureData_AzureDatabaseforMariaDB"
+    ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Increase the MariaDB server vCores
 ---
