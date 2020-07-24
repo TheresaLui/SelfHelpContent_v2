@@ -20,7 +20,7 @@
 ## **Recommended Steps**
 
 Before filing a support ticket you can find answers to many common questions:
-- [How do I change my vault storage replication type from GRS to LRS?](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)<br>
+- [How do I change my vault storage replication type from GRS to LRS?](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)
 - [How do I move an Azure VM to a different Resource Group/Vault while retaining the existing backup?](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#how-do-i-move-a-vm-backed-up-by-azure-backup-to-a-different-resource-group)
 - [How to delete VM that is in soft delete state?](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud)
 - [How can I modify the retention period in backup policy?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)
@@ -58,7 +58,7 @@ Before filing a support ticket you can find answers to many common questions:
 * [Monitor Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#using-log-analytics-workspace) and [create Alerts](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#create-alerts-by-using-log-analytics) using Log Analytics
 * [Delete Backup data](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#delete-backup-data)
 * [Delete Recovery Services vault](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault)
-*-* How do I move recovery service vault between [resource groups](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group) and [subscriptions?](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)
+* How do I move recovery service vault between [resource groups](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group) and [subscriptions?](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)
 * [What are application-consistent and crash-consistent snapshots?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#snapshot-consistency)
 
 
