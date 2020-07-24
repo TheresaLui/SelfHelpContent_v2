@@ -417,6 +417,7 @@
 	},
 	{
 		"id": "data_size_tb",
+		"visibility": "IssueType == Performance || IssueType ==Connectivity",
 		"order": 14,
 		"controlType": "dropdown",
 		"displayLabel": "Estimated data size to migrate",
@@ -464,6 +465,7 @@
 	},
 	{
 		"id": "network_bandwidth_mbps",
+		"visibility": "IssueType == Performance || IssueType ==Connectivity",
 		"order": 15,
 		"controlType": "dropdown",
 		"displayLabel": "Approximate available network bandwidth",
