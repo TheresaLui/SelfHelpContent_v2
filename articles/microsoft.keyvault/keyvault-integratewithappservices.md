@@ -19,14 +19,16 @@
 
 ## **Recommended Steps**
 
-**If  your App Service cannot access Key Vault due to a firewall issue, please read the following guidance.**
+* **If your App Service cannot access Key Vault due to a firewall issue, please read the following guidance:**
 
-Azure App Services is a Key Vault trusted service **only** for the scenario of deploying a certificate. All other operations in Azure App Service do not qualify as a Key Vault trusted service. To resolve this issue, you must grant your App Service access through the Key Vault Firewall by performing the following steps.  
+Azure App Services is a Key Vault trusted service **only** for the scenario of deploying a certificate. All other operations in Azure App Service do not qualify as a Key Vault trusted service. To resolve this issue, you must grant your App Service access through the Key Vault Firewall by performing the following steps:
 
-1. Navigate to your App Service resource in the Azure portal
-2. Click on "Properties" in the App Service settings
-3. Find the IP Address of your App Service
-4. Add this IP Address to the "Allow" list of the Key Vault Firewall
+  1. Navigate to your App Service resource in the Azure portal
+  2. Click on "Properties" in the App Service settings
+  3. Find the IP Address of your App Service
+  4. Add this IP Address to the "Allow" list of the Key Vault Firewall
+
+* [Troubleshooting Key Vault References for App Service and Azure Functions](https://docs.microsoft.com/azure/app-service/app-service-key-vault-references#troubleshooting-key-vault-references)
 
 ## **Recommended Documents**
 

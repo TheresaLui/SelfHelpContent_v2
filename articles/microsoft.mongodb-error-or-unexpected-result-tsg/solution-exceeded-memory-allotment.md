@@ -23,7 +23,7 @@ As a multi-tenant service, if you receive this error it means the operation has 
 
 The 40 MB limit is only removed on server version 3.6. It is recommended the customer create a new account on server version 3.6, or request we update this existing account to server version 3.6. Create an IcM to the Cosmos DB MongoDB API product group to update the account to 3.6 version. 
 
-###Customer Message<br>
+### Customer Message
 
 Dear customer,
 
