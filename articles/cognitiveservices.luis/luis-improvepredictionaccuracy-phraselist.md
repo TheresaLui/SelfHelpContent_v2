@@ -15,7 +15,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # Phrase list or Features
-* Features were previously referred to as phrase lists
+* [Features](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-feature) were previously referred to as phrase lists
 
 * Adding features allows you to define important and significant words in your application and boosts signal of word list
 
