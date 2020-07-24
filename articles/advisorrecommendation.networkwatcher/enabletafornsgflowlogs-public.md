@@ -51,7 +51,8 @@
 		"flowLogsSettingsInputs":
 		{
 			"resourceId": "{resourceId}",
-			"location": "{location}"
+			"location": "{location}",
+			"flowLogId": "{flowLogId}"
 		}
 	  }
     }
