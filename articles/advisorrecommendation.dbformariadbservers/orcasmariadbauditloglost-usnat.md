@@ -6,7 +6,7 @@
     articleId="a77dd319-ffb5-4f88-bdf2-e98e59afc79f_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
-	ownershipId="AzureData_AzureDatabaseforMariaDB"
+ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Increase the reliability of audit logs 
 ---
