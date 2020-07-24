@@ -20,7 +20,7 @@
 
 # Commercial Marketplace Edit Pricing Office add-in
 
-Office Add-ins are moving to an always-free model. To monetize your add-in, learn [Monetize through the Microsoft commercial marketplace](https://docs.microsoft.com/office/dev/store/monetize-addins-through-microsoft-commercial-marketplace), use a SaaS offer. If you had a paid add-in, learn [how Microsoft can help you move it from paid to free](https://docs.microsoft.com/office/dev/store/moving-from-paid-to-free-addins)
+Office Add-ins are moving to an always-free model. To monetize your add-in, learn [Monetize through the Microsoft commercial marketplace](https://docs.microsoft.com/office/dev/store/monetize-addins-through-microsoft-commercial-marketplace), use a SaaS offer. If you had a paid add-in, learn [how Microsoft can help you move it from paid to free](https://docs.microsoft.com/office/dev/store/moving-from-paid-to-free-addins).
 
 ## **Recommended Documents**
 
