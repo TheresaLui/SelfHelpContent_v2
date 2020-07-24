@@ -55,4 +55,5 @@ ShoeboxEntries | where resourceId has "/mystorageaccount" and (operationName has
         4. Find the affected ***Storage Account/s*** and look at the properties under properties > networkAcls > **virtualNetworkRules**
         5. Review the ACLs in this section and pay attention to the value of the **State** property for each subnet.
 6. If there are one or more Subnets with NetworkSourceDeleted, you have confirmed that the cusotmer is experiencing this scenario. Otherwise, the customer is not experiencing this scenario.
-7. Answer the question below appropriately.
+
+If this did not solve your issue, please restart the troubleshooter and choose the Generic Issues Troubleshooting option.
