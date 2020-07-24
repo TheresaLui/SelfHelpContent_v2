@@ -24,10 +24,10 @@
 
 How you can initiate an incentives claim form within Partner Center:
 
-1. From **Incentives** on the Partner Center dashboard, select **Claims**.
-2. If you already have a claim in process, the Claims overview page shows information on the status of existing claims and funds approved, claimed, and totals.
-3. To create a new claim, select **Create a claim**.
-4. When you have filled out the initial form and selected **Create Claim**, you will be taken to the Claim detail page where you will be able to add invoices, CSR's, proof documents, and metrics. You can also add additional information if needed.
+1. From **Incentives** on the Partner Center dashboard, select **Claims**
+2. If you already have a claim in process, the Claims overview page shows information on the status of existing claims and funds approved, claimed, and totals
+3. To create a new claim, select **Create a claim**
+4. When you have filled out the initial form and selected **Create Claim**, you will be taken to the Claim detail page where you will be able to add invoices, CSRs, proof documents, and metrics. You can also add additional information if needed.
 
 The claims details page allows you to request others in your organization to upload documentation to the form. For each of the supporting documents you upload, you can provide explanatory details.
 
