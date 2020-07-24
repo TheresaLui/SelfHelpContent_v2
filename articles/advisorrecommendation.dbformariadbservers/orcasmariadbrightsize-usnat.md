@@ -6,7 +6,7 @@
     articleId="2af11142-942e-45c1-8ce8-d9d2df25aae9_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
-	ownershipId="AzureData_AzureDatabaseforMariaDB"
+	  ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Decrease the MariaDB server vCores
 ---
