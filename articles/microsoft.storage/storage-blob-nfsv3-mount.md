@@ -24,8 +24,7 @@
 
 - [How to sign up for the preview](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support-how-to#step-1-register-the-nfs-30-protocol-feature-with-your-subscription)<br>
 
-	>NFS 3.0 protocol support in Azure Blob storage is in public preview and is available in the following regions:<br>
-	>[Currrent Regions](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support)
+	>NFS 3.0 protocol support in Azure Blob storage is in public preview and is available in the following regions: [Current Regions](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support)
 
 - [Verify that the feature is registered](https://docs.microsoft.com/azure/storage/blobs/network-file-system-protocol-support-how-to#step-2-verify-that-the-feature-is-registered) using the following PowerShell cmdlets
 
