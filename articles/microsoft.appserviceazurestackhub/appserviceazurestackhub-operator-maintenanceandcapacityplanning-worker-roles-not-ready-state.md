@@ -21,7 +21,7 @@
 
 ### 1. Verify worker roles are in a "ready" state 
 
-If a worker role is not in a "ready" state, you will not be able to deploy applications to it. 
+There can be multiple causes preventing a worker role from reaching the "ready" state, which also prevents deployment of applications. 
 
 #### File server health check failure
 
