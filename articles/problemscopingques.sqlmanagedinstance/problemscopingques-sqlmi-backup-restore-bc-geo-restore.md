@@ -149,7 +149,7 @@
             "id": "version",
             "order": 60,
             "controlType": "textbox",
-	          "visibility": "request_method == ps && request_method == cli && request_method == rest",
+	    "visibility": "request_method == ps || request_method == cli || request_method == rest",
             "displayLabel": "What is the version number being used?",
             "required": false
     },
