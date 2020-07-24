@@ -23,7 +23,7 @@
 
 Confirm that you've followed the [Prerequisites for deploying App Service on Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started).
 
-If you didn't deploy SQL Server using the [Quickstart template for Highly Available file server and SQL Server](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#quickstart-template-for-highly-available-file-server-and-sql-server), review [Prepare the SQL Server instance](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#prepare-the-sql-server-instance) to ensure SQL Server is deployed in a highly available configuration. 
+If you didn't deploy SQL Server using the [Quickstart template for Highly Available file server and SQL Server](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#quickstart-template-for-highly-available-file-server-and-sql-server), review [Prepare the SQL Server instance](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#prepare-the-sql-server-instance) to ensure your SQL Server is deployed in a highly available configuration. 
 
 ### 2. Verify SQL Server belongs to an Always On availability group
 
@@ -31,7 +31,7 @@ For production deployments, SQL Server must be configured to be highly available
 
 ### 3. Resolve "can't be reached" or "can’t reach database" status in administrator portal
 
-Confirm whether the SQL Server database instance is reachable, by opening the App Service RP blade in the Azure Stack Hub administrator portal. If you see a raining cloud image with text *"Failed to load App Service extension. Please check whether App Service resource provider and sql database is up and running"*, the database is not reachable.
+Confirm whether the SQL Server database instance is reachable, by opening the App Service blade in the Azure Stack Hub administrator portal. If you see a raining cloud image with text *"Failed to load App Service extension. Please check whether App Service resource provider and sql database is up and running"*, the database is not reachable.
 
 If you provided your own SQL Server databases during deployment, you'll need to complete additional diagnosis to determine why SQL Server cannot be reached..
 
