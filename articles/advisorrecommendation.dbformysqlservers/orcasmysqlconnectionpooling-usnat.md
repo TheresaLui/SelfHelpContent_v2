@@ -6,7 +6,7 @@
     articleId="f62ef41c-2cdb-4f4e-9dc9-a391c579b0fb_USNat"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
-	ownershipId="AzureData_AzureDatabaseforMySQL"
+	  ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Improve MySQL connection management
 ---
