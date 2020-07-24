@@ -32,7 +32,7 @@
 6. On the **New proof of execution** page, enter the required fields
 7. Select **Save**
 8. On the **New proof of execution claim** page, enter the required fields
-9. When you’re finished, select **Create claim**.
+9. When you’re finished, select **Create claim**
 10. On the **Invoice and expense information page**, upload one of the following two documents:
 
 	* Third-party invoice 
