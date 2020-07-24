@@ -55,4 +55,7 @@ If you are creating a CPOR association claim for a customer and the product(s) h
 **IMPORTANT:** If we require additional information to verify your CPOR association PoE, we’ll contact you via CPOR association claim comments section.
 
 ## **Recommended Documents**
+
+* [Customer association issues](https://docs.microsoft.com/partner-center/incentives-customer-association-issues)
+* [Manage customer associations](https://docs.microsoft.com/partner-center/incentives-manage-customer-associations)
 * [Create a customer association using CPOR](https://docs.microsoft.com/partner-center/submit-osa-claim)
