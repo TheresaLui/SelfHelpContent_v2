@@ -43,7 +43,7 @@ Check the worker role logs to verify the file server health check completion:
 
 If a password was specified incorrectly during install, you will need to proceed with opening a support case to get it resolved. 
 
-### 2. TBD / verify appropriate capacity 
+### 2. Verify adequate resource capacity (TBD)
 
 Scale up/out: [Add workers and infrastructure in Azure App Service on Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-add-worker-roles) ??
 
