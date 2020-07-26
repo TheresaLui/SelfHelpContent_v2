@@ -25,8 +25,8 @@ Recommended solution to this problem would be to use Pools to reduce churn of re
 Another suggested workaround is to perform resizing and/or create clusters in smaller batches (around 50 workers max at one time). This number can also be affected by whatever else is occurring in the subscription since the throttling is occurring at the subscription level (whether databricks or non-databricks related Azure events).
 
 ## Recommended Documents
-1. [Pools](https://docs.microsoft.com/azure/databricks/clusters/instance-pools/)
-2. [Azure Requests Limits and Throttling](https://docs.microsoft.com/azure/azure-resource-manager/management/request-limits-and-throttling)
+* [Pools](https://docs.microsoft.com/azure/databricks/clusters/instance-pools/)
+* [Azure Requests Limits and Throttling](https://docs.microsoft.com/azure/azure-resource-manager/management/request-limits-and-throttling)
 
 Please try the suggested workaround(s) and let us know if the issue persists or if any concerns.
 
