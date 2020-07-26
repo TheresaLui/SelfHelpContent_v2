@@ -1,7 +1,7 @@
 <properties
-	pageTitle="Authenticate, provision or manage my workspace"
-	description="Authenticate, provision or manage my workspace"
-	infoBubbleText="Authenticate, provision or manage my workspace"
+	pageTitle="Problem provisioning or managing workspace"
+	description="Problem provisioning or managing workspace"
+	infoBubbleText="Problem provisioning or managing workspace"
 	service="microsoft.machinelearning.workspace"
 	resource="machinelearning"
 	authors="johnwu0604"
@@ -14,7 +14,7 @@
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
-# Authenticate, provision or manage my workspace
+# Problem provisioning or managing workspace
 
 ## **Recommended Steps**
 
