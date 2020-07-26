@@ -22,12 +22,12 @@ This usually occurs when there is about 50 simultaneous write operations (create
 
 ## Troubleshooting and Solution**
 
-1. Check number of nodes requested for cluster creation and see if multiple clusters are being spun up and terminated.
-2. Check if this Subscription has multiple workspaces created.
-3. Check cluster events tab for cluster creation failure/delay cases.
-4. Check driver logs for job failure cases.
+1. Check number of nodes requested for cluster creation and see if multiple clusters are being spun up and terminated
+2. Check if this Subscription has multiple workspaces created
+3. Check cluster events tab for cluster creation failure/delay cases
+4. Check driver logs for job failure cases
 
-Good solution to this problem would be to use [Pools](https://docs.microsoft.com/en-us/azure/databricks/clusters/instance-pools/) to reduce churn of resources.
+Good solution to this problem would be to use [Pools](https://docs.microsoft.com/azure/databricks/clusters/instance-pools/) to reduce churn of resources.
 
 Another suggested workaround is to perform resizing and/or create clusters in smaller batches (around 50 workers max at one time). This number can also be affected by whatever else is occurring in the customer subscription since the throttling is occurring at the subscription level (whether databricks or non-databricks related Azure events).
 
