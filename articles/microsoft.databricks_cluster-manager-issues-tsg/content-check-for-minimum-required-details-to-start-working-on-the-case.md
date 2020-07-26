@@ -18,15 +18,15 @@
 
 Review customer verbatim for the following and validate that the case has the minimum required details to start working:
 
-1. Detailed issue description.
-2. Subscription ID.
-3. Workspace ID/URL.
-4. Cluster Name/ID/URL.
-5. Issue start and end timestamps (UTC) if available.
+1. Detailed issue description
+2. Subscription ID
+3. Workspace ID/URL
+4. Cluster Name/ID/URL
+5. Issue start and end timestamps (UTC)
 6. Was the cluster launching fine before? What changes were made?
-7. Were there failing jobs? Please provide both Failed and Successful Job runs URLs.
-8. Steps to repro or test job which can be re-run.
-9. Customer consent to allow Microsoft/Databricks access workspace and logs for investigation purposes.
+7. Were there failing jobs? (Please provide both Failed and Successful Job runs URLs)
+8. Steps to repro or test job which can be re-run
+9. Customer consent to allow Microsoft/Databricks access workspace and logs for investigation purposes
 
 If not enough details, please provide customer with customer ready message for minimum required details to start the case. 
 **Note**: Make sure to ask for missing info only.
