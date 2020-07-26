@@ -20,14 +20,14 @@
 
 We have reviewed your case and we need additional information to scope and investigate the issue further. Please provide us with the following:<br>
 <br>
-1. Detailed issue description.<br>
-2. Subscription ID.<br>
-3. Workspace ID/URL.<br>
-4. Cluster Name/ID/URL.<br>
-5. Issue start and end timestamps (UTC) if available.<br>
+1. Detailed issue description<br>
+2. Subscription ID<br>
+3. Workspace ID/URL<br>
+4. Cluster Name/ID/URL<br>
+5. Issue start and end timestamps (UTC) if available<br>
 6. Was the cluster launching fine before? What changes were made?<br>
-7. Were there failing jobs? Please provide both Failed and Successful Job runs URLs.<br>
-8. Steps to repro or test job which can be re-run.<br>
-9. Your consent to allow Microsoft/Databricks access workspace and logs for investigation purposes.<br>
+7. Were there failing jobs? (Please provide both Failed and Successful Job runs URLs)<br>
+8. Steps to repro or test job which can be re-run<br>
+9. Your consent to allow Microsoft/Databricks access workspace and logs for investigation purposes<br>
 
 <!--/issueDescription-->
