@@ -16,7 +16,7 @@
 
 # Slow or unreliable VM launch issue
 
-Azure VM provisioning on average takes 2.5-3.5 min but sometimes cluster creation take 40+ minutes due to all VM's not provisioned at the sametime. This is due to VM not getting provisioned in timely manner and Databricks having to retry VM requests stragglered over a period of time.
+Azure VM provisioning on average takes 2.5-3.5 min but sometimes cluster creation take 40+ minutes due to all VMs not provisioned at the sametime. This is due to VM not getting provisioned in timely manner and Databricks having to retry straggler VM requests over a period of time.
 
 **User facing error**: *Cluster is running but X nodes could not be acquired.*
 
