@@ -11,7 +11,7 @@
     productPesIds="13491"
     cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
     resourceTags="servers, databases"
-    articleId="ed58b3a0-20fe-4cb6-a261-5afaa0d4324a"
+    articleId="ed58b3a0-20fe-4cb6-a261-5afaa0d4324a-new-st"
     ownershipId="AzureData_AzureSQLDB_Availability"
 />
 

@@ -10,7 +10,7 @@
 	supportTopicIds="32745438"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
-	articleId="ec03f2ee-fbd5-4879-9f4f-73b76f7f22d4"
+	articleId="ec03f2ee-fbd5-4879-9f4f-73b76f7f22d4-new-st"
 	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 

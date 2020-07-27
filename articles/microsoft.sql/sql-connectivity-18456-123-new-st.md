@@ -7,7 +7,7 @@
 	ms.author="vitomaz"
 	authors="vitomaz-msft"
 	displayOrder=""
-	articleId="sql_connectivity_18456_123"
+	articleId="sql_connectivity_18456_123-new-st"
 	diagnosticScenario="SqlLtsFailedLogin"
 	selfHelpType="diagnostics"
 	supportTopicIds="32745425"

@@ -10,7 +10,7 @@
 	supportTopicIds="32745436"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
-	articleId="sqldb-selfhelp-solutions-availabilityandconnectivity-privatelink"
+	articleId="sqldb-selfhelp-solutions-availabilityandconnectivity-privatelink-new-st"
 	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 

@@ -7,7 +7,7 @@
 	authors="nikolasoggMSFT"
 	ms.author="niogg"
 	displayOrder=""
-	articleId="IsDBInaccessibleKeyVaultDeleted_C205F2D0-7AAB-4C50-B9B2-AF699A53A2B8"
+	articleId="IsDBInaccessibleKeyVaultDeleted_C205F2D0-7AAB-4C50-B9B2-AF699A53A2B8-new-st"
 	diagnosticScenario=""
 	selfHelpType="rca"
 	supportTopicIds="32630405, 32745425, 32745438, 32637230"
