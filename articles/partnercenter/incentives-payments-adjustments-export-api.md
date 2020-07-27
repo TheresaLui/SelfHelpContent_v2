@@ -30,7 +30,7 @@ The Partner Center [Payments](https://partner.microsoft.com/dashboard/payouts/re
  
  Building on these capabilities, we are now introducing the ability for partners to use an API to get their Payout data directly. This leverages the capability of the [Export data](https://partner.microsoft.com/dashboard/payouts/reports/incentiveexport) that you might find on the Partner Center UI.
 
-Available APIs - https://apidocs.microsoft.com/services/partnerpayouts
+Available APIs-https://apidocs.microsoft.com/services/partnerpayouts
 
 You can learn more about Partner Center APIs by accessing the Recommended Documents below.
 
