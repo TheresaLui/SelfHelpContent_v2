@@ -25,6 +25,17 @@
 
 3. If you require assistance with creating labels on AIP portal, review [Create a new Azure Information Protection label for specific users](https://docs.microsoft.com/azure/information-protection/quickstart-label-specificusers) and [How to create a new label for Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-new-label)
 
+4. If you are missing the Sensitivity labels in Excel only and your client appears to work offline, make sure to remove any files in the following folders: 
+```
+C:\Users\<UserName>\AppData\Roaming\Microsoft\Excel\XLSTART
+C:\Program Files\Microsoft Office\Root\Office16\XLSTART 
+```
+and add the following Registry key:
+```
+[HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Security\Labels]
+"UseOfficeForLabelling"=dword:00000000
+```
+
 ### Export Azure Information Protection logs
 
 1. Open an Office document or create a new email in Outlook

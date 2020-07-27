@@ -33,7 +33,20 @@
 
 7. If automatic labeling isn't working for Outlook when attaching a labeled document or Label information doesn't appear properly on files using PowerShell or other applications, verify that DRMEncryptProperty isn't defined as described here: [IRM registry settings for security](https://docs.microsoft.com/deployoffice/security/protect-sensitive-messages-and-documents-by-using-irm-in-office#office-2016-irm-registry-key-options)
 
-8. If you still experiencing issues, please collect Azure Information Protection client logs and attach the exported logs to this ticket.
+8. If you are encountering issues regarding justification messages or default labels, review [Order of precedence - how conflicting settings are resolved](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#order-of-precedence---how-conflicting-settings-are-resolved)
+
+9. If you are missing the Sensitivity labels in Excel only and your client appears to work offline, make sure to remove any files in the following folders: 
+```
+C:\Users\<UserName>\AppData\Roaming\Microsoft\Excel\XLSTART
+C:\Program Files\Microsoft Office\Root\Office16\XLSTART 
+```
+and add the following Registry key:
+```
+[HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Security\Labels]
+"UseOfficeForLabelling"=dword:00000000
+```
+
+10. If you still experiencing issues, please collect Azure Information Protection client logs and attach the exported logs to this ticket.
 
 ### Export Azure Information Protection logs
 
