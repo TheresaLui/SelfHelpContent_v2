@@ -22,9 +22,7 @@
 
 <!--issueDescription-->
 
-Cosmos DB account **<!--$GlobalDatabaseAccountName-->GlobalDatabaseAccountName<!--/$GlobalDatabaseAccountName-->** has one or more client applications using version **<!--$SDKVersion-->SDKVersion<!--/$SDKVersion-->** of the **<!--$SDKType-->SDKType<!--/$SDKType-->** SDK that is an outdated version.
-
-<!--/issueDescription-->
+Cosmos DB account **<!--$GlobalDatabaseAccountName-->GlobalDatabaseAccountName<!--/$GlobalDatabaseAccountName-->** has one or more client applications using version **<!--$SDKVersion-->SDKVersion<!--/$SDKVersion-->** of the **<!--$SDKType-->SDKType<!--/$SDKType-->** SDK that is a relatively older version.
 
 ## **Recommended Steps**
 
@@ -33,3 +31,5 @@ We highly recommend upgrading to the latest version of the SDK for performance a
 ## **Recommended Documents**
 
 * <!--$SDKDocsLink-->SDKDocsLink<!--/$SDKDocsLink-->
+
+<!--/issueDescription-->
