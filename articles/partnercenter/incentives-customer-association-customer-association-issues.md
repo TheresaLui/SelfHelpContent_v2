@@ -27,7 +27,7 @@ Below are some of the more common issues that you may encounter when submitting 
 
 The CPOR association claim flow requires you to provide the customer tenant ID and subdomain. The customer tenant id and subdomain must match.  If you receive an error that they do not match, please reach out to the customer to ensure you have the correct details. 
 
-**Subscription Errors in CPOR association claim flow:**
+**Subscription Errors in CPOR association claim flow**
 
 In the CPOR association claim flow, you may be asked to provide a subscription for a product that you are trying to claim via Business Applications (Dynamics 365). The subscription is used to verify that the product and subscription belong to the tenant being claimed for and that the subscription is in active/in grace status. 
 
@@ -43,14 +43,14 @@ If you receive an error, it could be for several reasons:
 **Next Step:** If you have a question regarding the accuracy of your subscription, please work with your customer to ensure the subscription is correct and that you are using the correct tenant ID. 
  
 
-**Competing Claims Process and Timeline:**
+**Competing Claims Process and Timeline**
 
 If you are creating a CPOR association claim for a customer and the product(s) has already been associated with another partner, your claim will go through arbitration:
 
 1. After you create a new customer association, Microsoft will verify the details of the association and proof of execution provided to ensure its accuracy. 
 2. If you and another partner claim for the same customer and product/workload, Microsoft will review each partner’s proof of execution documentation to determine which partner to approve. 
 3. Additional information might be requested from both partners which could cause delays in processing your association request. 
-4. Your CPOR association claim will still be undergo it’s initial review within 5 business days.  The  status will remain Under Review while we work with the partner currently owning the product/workload.  You will be notified within the comments section of your claim if this is the case. 
+4. Your CPOR association claim will still undergo its initial review within 5 business days.  The  status will remain Under Review while we work with the partner currently owning the product/workload.  You will be notified within the comments section of your claim if this is the case. 
 
 **IMPORTANT:** If we require additional information to verify your CPOR association PoE, we’ll contact you via CPOR association claim comments section.
 
