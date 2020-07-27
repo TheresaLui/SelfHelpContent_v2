@@ -10,9 +10,9 @@
     articleId="alerts-crud-api-log"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32739786"
+    supportTopicIds="32739786,32612430,32633014"
     resourceTags=""
-    productPesIds="15454"
+    productPesIds="15454,15725"
     cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
     ownershipId="AzureMonitoring_Alerts_LogSearchAlerts"
 />
