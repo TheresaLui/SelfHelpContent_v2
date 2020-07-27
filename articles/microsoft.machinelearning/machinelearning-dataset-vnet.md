@@ -18,7 +18,7 @@
  
 # Problem accessing dataset or connecting to datastore
 
- If you have problem acceessing dataset or connecting to datastore, please find possible causes and steps to be taken as below:
+ If you have problem accessing dataset or connecting to datastore, please find possible causes and steps to be taken as below:
 
 ## **Recommended Steps**
 
