@@ -80,7 +80,7 @@
         {
             "id": "problem_run_id",
             "order": 6,
-			"visibility": "ir_type == Azure IR"
+			"visibility": "ir_type == Azure IR",
             "controlType": "textbox",
             "displayLabel": "Is this a run time issue? If yes, please provide the RunIDs. (separate with commas)",
             "required": true
@@ -88,9 +88,9 @@
         {
             "id": "problem_report_id",
             "order": 7,
-			"visibility": "ir_type == Self-hosted IR"
+			"visibility": "ir_type == Self-hosted IR",
             "controlType": "textbox",
-            "displayLabel": "Is this a run time issue? If yes, please provide the Report ID. (see Recommended solution section below for guidance to obtain it)",
+            "displayLabel": "Is this a run time issue? If yes, please provide the Report ID. (see Recommended solution section for guidance to obtain it)",
             "required": true
         },
         {
