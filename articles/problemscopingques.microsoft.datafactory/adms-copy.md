@@ -73,6 +73,10 @@
                 {
                     "value": "Self-hosted IR",
                     "text": "Self-hosted IR"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Not applicable"
                 }
             ],
             "required": true
@@ -80,7 +84,7 @@
         {
             "id": "problem_run_id",
             "order": 6,
-			"visibility": "ir_type == Azure IR",
+			"visibility": "ir_type == Azure IR || dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Is this a run time issue? If yes, please provide the RunIDs. (separate with commas)",
             "required": true
