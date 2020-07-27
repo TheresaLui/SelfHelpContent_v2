@@ -57,7 +57,7 @@
                 {
                     "value": "No authentication",
                     "text": "No authentication"
-                },
+                }
             ],
             "required": false
         },
