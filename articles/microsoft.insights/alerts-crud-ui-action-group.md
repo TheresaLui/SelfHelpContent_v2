@@ -48,5 +48,3 @@ Learn about the [behavior of each action type](https://go.microsoft.com/fwlink/?
 
 * [Creating and managing action groups](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-action-groups)<br>
 * [Pricing information for action group notifications](https://azure.microsoft.com/pricing/details/monitor/)
-
-[![Monitoring Video](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/media/tutorial-metrics-explorer/metric-picker.png)](https://www.microsoft.com/en-us/videoplayer/embed/RE4rBZ2)
