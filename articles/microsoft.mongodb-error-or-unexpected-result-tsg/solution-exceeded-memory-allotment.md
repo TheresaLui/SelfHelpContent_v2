@@ -23,10 +23,8 @@ As a multi-tenant service, if you receive this error it means the operation has 
 
 The 40 MB limit is only removed on server version 3.6. It is recommended the customer create a new account on server version 3.6, or request we update this existing account to server version 3.6. Create an IcM to the Cosmos DB MongoDB API product group to update the account to 3.6 version. 
 
-## Recommended Documents
-https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-feature-support-36
+### Customer Message
 
-###Customer Message
 Dear customer,
 
 I would like to mention that your account is using version 3.2, and now we do have an updated version of 3.6. Updating to 3.6 would help in this scenario. 
@@ -54,10 +52,11 @@ Please let me know your feedback on the above.
  
 Thank you.
 
-#Recommended Documents
-https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-feature-support-36
-https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-feature-support
-https://docs.microsoft.com/en-us/azure/cosmos-db/connect-mongodb-account
+
 
 <!--/issueDescription-->
+## Recommended Documents
 
+1. [Mongo feature support](https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-feature-support-36)
+2. [Mongo feature support](https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb-feature-support)
+3. [Mongo feature support](https://docs.microsoft.com/en-us/azure/cosmos-db/connect-mongodb-account)

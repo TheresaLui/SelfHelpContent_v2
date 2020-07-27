@@ -291,7 +291,7 @@
     {
       "id": "bbced0ca-41db-1090-add7-919480c1a25a",
       "longDescription": "",
-      "shortDescription": "Connection issues with standalone SQL instance or AlwaysOn AG/FCI",
+      "shortDescription": "Connection issues with standalone SQL server instance or AlwaysOn AG/FCI",
       "searchTags": "",
       "category": "",
       "useInDiagnoseAndSolve": "FALSE"

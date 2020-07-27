@@ -1,8 +1,8 @@
 <properties
 	pageTitle="AD connection failure"
 	description="AD connection failure"
-	service=""
-	resource=""
+            service="Microsoft.HDInsight"
+            resource="Microsoft.HDInsight/clusters"
 	authors="Jacky-hdi"
 	ms.author="linjzhu"
 	displayOrder=""
