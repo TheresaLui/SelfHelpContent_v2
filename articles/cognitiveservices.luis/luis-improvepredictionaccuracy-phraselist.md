@@ -9,13 +9,13 @@ displayOrder=""
 selfHelpType="generic"
 supportTopicIds="32683922"
 productPesIds="16869"
-cloudEnvironments="public, MoonCake, fairfax"
+cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
 articleId="LUIS_Conversation_ImprovePredictionAccuracy_PhraseList"
 ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # Phrase list or Features
-* Features were previously referred to as phrase lists
+* [Features](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-feature) were previously referred to as phrase lists
 
 * Adding features allows you to define important and significant words in your application and boosts signal of word list
 
