@@ -12,7 +12,7 @@
 	infoBubbleText = ""
 	pageTitle = "Connectivity/SQL pool Azure Active Directory Authentication"
 	description = "Connectivity/SQL pool Azure Active Directory Authentication"
-	articleId = "synapse-connectivity-sqlpoolazureactivedirectoryauthentication"
+	articleId = "synapse-connectivity-sqlpoolazureactivedirectoryauthentication-new-st"
 	authors = "saltug"
 	ms.author = "saltug"
 />

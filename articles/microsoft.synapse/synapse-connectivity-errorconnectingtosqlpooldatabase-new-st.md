@@ -12,7 +12,7 @@
 	infoBubbleText = ""
 	pageTitle = "Connectivity/Error connecting to SQL pool database"
 	description = "Connectivity/Error connecting to SQL pool database"
-	articleId = "synapse-connectivity-errorconnectingtosqlpooldatabase"
+	articleId = "synapse-connectivity-errorconnectingtosqlpooldatabase-new-st"
 	authors = "saltug"
 	ms.author = "saltug"
 />

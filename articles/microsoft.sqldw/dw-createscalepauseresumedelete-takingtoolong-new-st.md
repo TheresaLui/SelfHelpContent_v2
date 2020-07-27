@@ -10,7 +10,7 @@
     displayOrder="21"
     selfHelpType="generic"
     resourceTags="datawarehouse"
-    articleId="dw-createscalepauseresumedelete-takingtoolong.md"
+    articleId="dw-createscalepauseresumedelete-takingtoolong.md-new-st"
     cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_SQLDataWarehouse"
 />

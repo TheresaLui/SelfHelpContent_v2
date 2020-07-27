@@ -12,7 +12,7 @@
 	infoBubbleText = ""
 	pageTitle = "Connectivity/SQL pool VNET service endpoints"
 	description = "Connectivity/SQL pool VNET service endpoints"
-	articleId = "synapse-connectivity-sqlpoolvnetserviceendpoints"
+	articleId = "synapse-connectivity-sqlpoolvnetserviceendpoints-new-st"
 	authors = "saltug"
 	ms.author = "saltug"
 />
