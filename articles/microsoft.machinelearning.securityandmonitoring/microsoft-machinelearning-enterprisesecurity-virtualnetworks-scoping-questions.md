@@ -78,12 +78,7 @@
             "id": "architecture",
             "order": 4,
             "controlType": "multilinetextbox",
-            "displayLabel": "Additional network configuration details",
-            "hints": [
-                { 
-                    "text": "If applicable, please provide any additional details about your network configuration." 
-                }
-            ],
+            "displayLabel": "Additional network configuration details (if applicable)",
             "required": false
         },
         {

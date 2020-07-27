@@ -12,7 +12,6 @@
     schemaVersion="1"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.workspace.python"
-	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 

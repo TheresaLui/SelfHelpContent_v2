@@ -45,7 +45,7 @@
                 {
                     "value": "REST API",
                     "text": "REST API"
-                }
+                },
                 {
                     "value": "ARM Template",
                     "text": "ARM Template"
