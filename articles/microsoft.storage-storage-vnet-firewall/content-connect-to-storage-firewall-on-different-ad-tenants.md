@@ -42,3 +42,5 @@ This needs to be configured using Azure PowerShell or CLI.
 Follow steps to help with [network virtual appliance](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet) and routing of traffic.
 
 This scenario will send all traffic on the subnet the VM is on to the IP address of the NVA (network virtual Appliance) and then access the storage.
+
+If this did not solve your issue, please restart the troubleshooter and choose the Generic Issues Troubleshooting option.

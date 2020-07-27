@@ -10,7 +10,7 @@
     articleId="insights-for-container-opening-ports"
     productPesIds="17083"
     supportTopicIds="32740216"
- cloudEnvironments="public, blackForest, fairfax,mooncake"
+ cloudEnvironments="public, blackForest, fairfax,mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
  />
 
