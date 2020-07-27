@@ -10,7 +10,7 @@
 	resourceTags=""
 	productPesIds="16644"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleid="machinelearning-dataset-accessing-issues"
+	articleid="machinelearning-dataset-vnet"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
