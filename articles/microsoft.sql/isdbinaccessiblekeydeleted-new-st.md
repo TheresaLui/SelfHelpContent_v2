@@ -7,7 +7,7 @@
 	authors="nikolasoggMSFT"
 	ms.author="niogg"
 	displayOrder=""
-	articleId="IsDBInaccessibleKeyDeleted_CF4FF7FC-3BEB-497C-98D2-02186D45B0CD"
+	articleId="IsDBInaccessibleKeyDeleted_CF4FF7FC-3BEB-497C-98D2-02186D45B0CD-new-st"
 	diagnosticScenario=""
 	selfHelpType="rca"
 	supportTopicIds="32630405, 32745425, 32745438, 32637230"

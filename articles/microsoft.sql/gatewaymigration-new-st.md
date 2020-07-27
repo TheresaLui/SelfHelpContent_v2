@@ -7,7 +7,7 @@
   authors="subbu-kandhaswamy, swbhartims"
   ms.author="subbuk, swbharti"
   displayOrder=""
-  articleId="GatewayMigration_257E0082-CAC5-4934-812E-AC8DA79D9318"
+  articleId="GatewayMigration_257E0082-CAC5-4934-812E-AC8DA79D9318-new-st"
   diagnosticScenario="crc_sqldb_connectivity"
   selfHelpType="diagnostics"
   supportTopicIds="32745425, 32635195"

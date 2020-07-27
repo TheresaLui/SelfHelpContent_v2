@@ -7,7 +7,7 @@
 	authors="VMMicrosoft"
 	ms.author="vimahadi"
 	displayOrder=""
-	articleId="HasDoSGuardTriggered_1F33F35F-FB10-4E34-89B6-25BEFA276D9A"
+	articleId="HasDoSGuardTriggered_1F33F35F-FB10-4E34-89B6-25BEFA276D9A-new-st"
 	diagnosticScenario="crc_sqldb_connectivity"
 	selfHelpType="rca"
 	supportTopicIds="31980414,32745423"

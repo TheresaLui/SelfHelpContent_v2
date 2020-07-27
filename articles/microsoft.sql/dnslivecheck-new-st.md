@@ -7,7 +7,7 @@
   authors="subbu-kandhaswamy, swbhartims"
   ms.author="subbuk, swbharti"
   displayOrder=""
-  articleId="DnsLiveCheck_5A769A5F-883A-4E9D-A336-DF22A8A32E07"
+  articleId="DnsLiveCheck_5A769A5F-883A-4E9D-A336-DF22A8A32E07-new-st"
   diagnosticScenario="crc_sqldb_connectivity"
   selfHelpType="rca"
   supportTopicIds="32745425"

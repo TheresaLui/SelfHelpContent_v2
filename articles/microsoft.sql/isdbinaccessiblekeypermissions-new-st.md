@@ -7,7 +7,7 @@
 	authors="nikolasoggMSFT"
 	ms.author="niogg"
 	displayOrder=""
-	articleId="IsDBInaccessibleKeyPermissions_B554ABD3-E901-4ABF-B7A4-5CE3CA10D5D9"
+	articleId="IsDBInaccessibleKeyPermissions_B554ABD3-E901-4ABF-B7A4-5CE3CA10D5D9-new-st"
 	diagnosticScenario=""
 	selfHelpType="rca"
 	supportTopicIds="32630405, 32745425, 32745438, 32637230"

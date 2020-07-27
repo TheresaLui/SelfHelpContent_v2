@@ -7,7 +7,7 @@
 	authors="nikolasoggMSFT"
 	ms.author="niogg"
 	displayOrder=""
-	articleId="IsDBInaccessible_DCA4DB29-A73E-44A2-9C76-D8B70ACB5AD1"
+	articleId="IsDBInaccessible_DCA4DB29-A73E-44A2-9C76-D8B70ACB5AD1-new-st"
 	diagnosticScenario=""
 	selfHelpType="rca"
 	supportTopicIds="32630405, 32745425, 32745438, 32637230"
