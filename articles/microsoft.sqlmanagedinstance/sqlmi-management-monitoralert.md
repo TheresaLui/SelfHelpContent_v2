@@ -55,7 +55,7 @@ To monitor metrics of Managed Instance, consider using one of the following opti
     * You can use database mail feature in Managed Instance to send email notifications automatically upon the DMV query result
     * Note that DBA knowledge is required for this option
 
-5. Consider using third party products that support Managed Instance.
+5. Consider using third party products that support Managed Instance
 
 To configure alert for Managed Instance, see [Create Alert for SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/alerts-create). 
 
