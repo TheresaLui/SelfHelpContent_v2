@@ -22,5 +22,7 @@ Creating and using content libraries will prevent many of the vCenter errors ass
 ## **Recommended Documents**
 
 * [Azure VMware Solution-AVS Preview networking and interconnectivity concepts](https://docs.microsoft.com/azure/azure-vmware/concepts-networking)<br>
+
 * [Azure VMware Solution-AVS identity concepts](https://docs.microsoft.com/azure/azure-vmware/concepts-identity)<br>
+
 * [Tutorial: Learn how to create a content library in your Azure VMware Solution-AVS private cloud](<https://docs.microsoft.com/azure/azure-vmware/tutorial-deploy-vm-content-library>)<br>
