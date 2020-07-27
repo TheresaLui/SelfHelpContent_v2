@@ -16,11 +16,9 @@
 />
 # Azure VMware Solution
 
-AVS private clouds provide vSphere clusters in Azure with configured and operational vCenter Server Appliances and NSX-T Managers. Access to those VMware management interfaces first require that you configure Azure-based network services to access your private cloud.
-
-If you have other questions regarding the operation and use of you vCenter in your private cloud, you can consult the documentation available from VMware. 
+AVS private clouds provide vSphere clusters in Azure with configured and operational vCenter Server Appliances and NSX-T Managers. Access to those VMware management interfaces first require that you configure Azure-based network services to access your private cloud. If you have other questions regarding the operation and use of you vCenter in your private cloud, you can consult the documentation available from VMware. 
 
 ## **Recommended Documents**
 
-* [Tutorial: Learn how to access an Azure VMware Solution (AVS) private cloud] (https://docs.microsoft.com/en-us/azure/azure-vmware/tutorial-access-private-cloud)<br>
+* [Tutorial: Learn how to access an Azure VMware Solution (AVS) private cloud] (https://docs.microsoft.com/azure/azure-vmware/tutorial-access-private-cloud)<br>
 * [VMware vSphere and VSAN documentation] (https://docs.vmware.com/en/VMware-vSphere/index.html)<br>
