@@ -19,6 +19,8 @@
 
 # V2 - Copy Activity – Connectivity
 
+**Note -** If you use **Self-Hosted IR** please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** to provide it with the support request.
+
 Many problems related with connectivity, using a **copy activity**, are related with configuration steps on how to authenticate to the source/sink data or with the permissions configured for the account accessing the data.
 
 Depending on your scenario, the troubleshooting actions might require multiple steps.

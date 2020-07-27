@@ -17,6 +17,8 @@
 
 # V2 - Copy Activity and Self-Hosted IR – Errors or unexpected results
 
+**Note -** If you use **Self-Hosted IR** please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** to provide it with the support request.
+
 If the execution of a **Copy Activity** throws an error code or exception code you can start by validating if the error is contained on the [General Copy Activity errors](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#general-copy-activity-error) documentation which contains the most common errors from different data sources and the actions that could help resolving them.
 
 For formatting errors, review the following sections:
