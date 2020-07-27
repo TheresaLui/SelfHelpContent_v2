@@ -9,6 +9,7 @@
     selfHelpType="problemScopingQuestions"
 	supportTopicIds="32690874"
 	productPesIds="16644"
+    schemaVersion="1"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.workspace.r"
 	selfHelpType="generic"
@@ -32,16 +33,18 @@
             "required": false
         },
         {
-            "id": "description",
+            "id": "problem_description",
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": true,
-            "hints": [
-                { 
-                    "text": "Please describe your issue." 
-                }
-            ],
+            "required": true
+        },
+        {
+            "id": "problem_start_time",
+            "order": 3,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
             "required": true
         }
     ],
