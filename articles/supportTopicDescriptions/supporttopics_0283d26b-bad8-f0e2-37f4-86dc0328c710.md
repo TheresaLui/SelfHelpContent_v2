@@ -336,7 +336,7 @@
     {
       "id": "d9faf7fc-ce65-01a1-ec0a-5bea4f733cfc",
       "longDescription": "",
-      "shortDescription": "Integrating Azure Key Vault with Azure Sercvices",
+      "shortDescription": "Integrating Azure Key Vault with Azure Services",
       "searchTags": "Azure;Integration",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
@@ -347,6 +347,14 @@
       "shortDescription": "Management soft delete settings for Key Vault. Guidelines how to recover, purge key vault objects",
       "searchTags": "soft delete;recovery",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "df9bcf26-1477-5801-566a-df450245903c",
+      "longDescription": "",
+      "shortDescription": "Integrate Azure Key Vault with an application",
+      "searchTags": "Azure;Key Vault;Application",
+      "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {

@@ -19,8 +19,9 @@
 
 ## **Recommended Documents**
 
-* [How to Run SQL Queries from Python Scripts](https://kb.azuredatabricks.net/python/sql-in-python.html)
-* [Reading Large DBFS-Mounted Files Using Python APIs](https://kb.azuredatabricks.net/python/dbfs-file-size-limit.html)
-* [Problem: Python Command Execution Fails with AttributeError](https://kb.azuredatabricks.net/python/python-exec-display-cancelled.html)
-* [Running C++ Code in Python](https://kb.azuredatabricks.net/python/running-c-plus-plus-code.html)
-* [How to Create Table DDLs to Import into an External Metastore](https://kb.azuredatabricks.net/metastore/create-table-ddl-for-metastore.html)
+* [How to: Run SQL Queries from Python Scripts](https://docs.microsoft.com/azure/databricks/kb/python/sql-in-python)
+* [Reading Large DBFS-Mounted Files Using Python APIs](https://docs.microsoft.com/azure/databricks/kb/python/dbfs-file-size-limit)
+* [How to: Create Table DDLs to Import into an External Metastore](https://docs.microsoft.com/azure/databricks/kb/metastore/create-table-ddl-for-metastore)
+* [How to: Import a custom CA certificate](https://docs.microsoft.com/azure/databricks/kb/python/import-custom-ca-cert)
+* Error: Python Command Execution Fails with AttributeError
+     * Resolve this error following the steps in artile: [Python command execution fails with AttributeError](https://docs.microsoft.com/azure/databricks/kb/python/python-command-cancelled)
