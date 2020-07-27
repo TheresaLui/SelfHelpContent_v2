@@ -35,11 +35,14 @@
 6. If your issue related to AIP Scanner, select the appropriate support topic
 
 7. If you are missing the Sensitivity labels in Excel only and your client appears to work offline, make sure to remove any files in the following folders: 
+
 ```
 C:\Users\<UserName>\AppData\Roaming\Microsoft\Excel\XLSTART
 C:\Program Files\Microsoft Office\Root\Office16\XLSTART 
 ```
+
 and add the following Registry key:
+
 ```
 [HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Security\Labels]
 "UseOfficeForLabelling"=dword:00000000
