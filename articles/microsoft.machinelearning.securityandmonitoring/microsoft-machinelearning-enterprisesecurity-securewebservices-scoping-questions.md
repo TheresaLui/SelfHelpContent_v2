@@ -30,12 +30,12 @@
             "displayLabel": "Where are you deploying your web service?",
             "radioButtonOptions": [
                 {
-                    "value": "Azure container instance (ACI)",
-                    "text": "Azure container instance (ACI)"
+                    "value": "Azure container instance",
+                    "text": "Azure container instance"
                 },
                 {
-                    "value": "Azure kubernetes service (AKS)",
-                    "text": "Azure kubernetes service (AKS)"
+                    "value": "Azure kubernetes service",
+                    "text": "Azure kubernetes service"
                 }
             ],
             "required": false
