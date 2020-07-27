@@ -10,7 +10,7 @@
 	displayOrder="1"
 	selfHelpType="generic"
 	resourceTags=""
-	articleId="dw-availabilityandconnectivity-dwisstuckduringcreationscalingorresuming.md"
+	articleId="dw-availabilityandconnectivity-dwisstuckduringcreationscalingorresuming.md-new-st"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_SQLDataWarehouse"
 />

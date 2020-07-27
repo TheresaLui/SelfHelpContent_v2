@@ -10,7 +10,7 @@
 	displayOrder="4"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-createscalepauseresumedelete-takingtoolong-mooncake"
+	articleId="dw-createscalepauseresumedelete-takingtoolong-mooncake-new-st"
 	cloudEnvironments="MoonCake"
 	ownershipId="AzureData_AzureSQLDB"
 />

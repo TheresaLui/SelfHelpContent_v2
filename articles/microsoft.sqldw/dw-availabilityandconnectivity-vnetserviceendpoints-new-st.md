@@ -10,7 +10,7 @@
 	displayOrder="1"
 	selfHelpType="generic"
 	resourceTags=""
-	articleId="dw-availabilityandconnectivity-vnetserviceendpoints.md"
+	articleId="dw-availabilityandconnectivity-vnetserviceendpoints.md-new-st"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_SQLDataWarehouse"
 />

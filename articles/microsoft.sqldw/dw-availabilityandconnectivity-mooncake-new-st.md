@@ -10,7 +10,7 @@
 	displayOrder="1"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-availabilityandconnectivity-mooncake"
+	articleId="dw-availabilityandconnectivity-mooncake-new-st"
 	cloudEnvironments="MoonCake"
 	ownershipId="AzureData_AzureSQLDB"
 />

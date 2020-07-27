@@ -10,7 +10,7 @@
 	displayOrder="10"
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
-	articleId="dw-availabilityandconnectivity.md"
+	articleId="dw-availabilityandconnectivity.md-new-st"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_SQLDataWarehouse"
 />

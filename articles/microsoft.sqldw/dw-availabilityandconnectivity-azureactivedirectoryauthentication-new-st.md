@@ -10,7 +10,7 @@
 	displayOrder="1"
 	selfHelpType="generic"
 	resourceTags=""
-	articleId="dw-availabilityandconnectivity-azureactivedirectoryauthentication.md"
+	articleId="dw-availabilityandconnectivity-azureactivedirectoryauthentication.md-new-st"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_SQLDataWarehouse"
 />
