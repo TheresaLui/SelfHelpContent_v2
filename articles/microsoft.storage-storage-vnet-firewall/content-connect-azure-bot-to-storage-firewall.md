@@ -54,3 +54,5 @@ Here is the structure of one type Bot service (with APP service plan), confirmed
 
 Storage account is a mandatory service for deploying the Bot service. Bot service is utilizing the storage account table for deployment & functionality purpose.
 
+
+If this did not solve your issue, please restart the troubleshooter and choose the Generic Issues Troubleshooting option.
