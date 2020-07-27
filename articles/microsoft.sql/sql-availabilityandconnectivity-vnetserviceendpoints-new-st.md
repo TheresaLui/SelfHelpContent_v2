@@ -7,7 +7,7 @@
     ms.author="emlisa"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32745439,32636832"
+	supportTopicIds="32745439"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="29f2e1ab-bae1-4060-a8b4-8d15e0091788-new-st"

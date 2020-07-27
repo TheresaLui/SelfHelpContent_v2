@@ -41,11 +41,11 @@ The error returned indicates that the user was not found. This may occur if the 
 	3. If the query returns no record, please create the login
 
 * If you are using contained database users, check that the user exists:
-	
+
 	1. Connect to the database
 	2. Run the following query: `select * from sys.database_principals where name = 'insert the username here'`
 	3. If the query returns no record, please create the user
 
 ## **Recommended Documents**
 
-* [Create SQL Login and SQL User on your Azure SQL DB – Azure SQL Database Support](https://blogs.msdn.microsoft.com/azuresqldbsupport/2016/10/05/create-sql-login-and-sql-user-on-your-azure-sql-db/)
+* [Create SQL Login and SQL User on your Azure SQL DB - Azure SQL Database Support](https://docs.microsoft.com/azure/azure-sql/database/logins-create-manage)
