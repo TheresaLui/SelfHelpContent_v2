@@ -7,7 +7,7 @@
     ms.author="emlisa,andikshi"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32630421, 32745431, 32630422"
+	supportTopicIds="32630421, 32745431"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="66d117ce-0066-4e22-96a9-5a931234316c-new-st"
@@ -28,7 +28,7 @@ There are two types of firewall rules :
 
 1. Server level firewall rules:
 
-These rules enable clients to access your entire server, that is, all the databases managed by the server. The rules are stored in the master database. You can have a maximum of 128 server-level IP firewall rules for a server. If you have the Allow Azure Services and resources to access this server setting enabled, this counts as a single firewall rule for the server. These can be managed using various ways mentioned below. If you are facing issues using one way please try an alternate approach. 
+These rules enable clients to access your entire server, that is, all the databases managed by the server. The rules are stored in the master database. You can have a maximum of 128 server-level IP firewall rules for a server. If you have the Allow Azure Services and resources to access this server setting enabled, this counts as a single firewall rule for the server. These can be managed using various ways mentioned below. If you are facing issues using one way please try an alternate approach.
 
 * [Azure Portal](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid%3A13491%3Asid%3A32630421%2F#create-and-manage-ip-firewall-rules)
 * [PowerShell](https://docs.microsoft.com/powershell/module/az.sql/?view=azps-4.2.0)
@@ -38,7 +38,7 @@ These rules enable clients to access your entire server, that is, all the databa
 
 To improve performance, server-level IP firewall rules are temporarily cached at the database level. To refresh the cache, see [DBCC FLUSHAUTHCACHE](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-flushauthcache-transact-sql?redirectedfrom=MSDN&view=azuresqldb-current).
 
-2. Database level firewall rules: 
+2. Database level firewall rules:
 
 These rules enable clients to access certain (secure) databases. You create the rules for each database (including the master database), and they're stored in the individual database.It is recommended to use database-level IP firewall rules whenever possible. This practice enhances security and makes your database more portable.
 These can be managed only using T-SQL.

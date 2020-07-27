@@ -7,7 +7,7 @@
     ms.author="emlisa"
 	displayOrder="6"
 	selfHelpType="generic"
-	supportTopicIds="32630454"
+	supportTopicIds="326304540"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
     resourceTags="servers, databases"
@@ -21,7 +21,7 @@
 
 Use [this reference](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues?WT.mc_id=pid:13491:sid:32745425/) to prevent, troubleshoot, diagnose, and mitigate connection errors and transient errors that your client application encounters when it interacts with Azure SQL Database. Information about specific SQL error codes for SQL Database client applications can be found [here](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages). Further information about specific database engine error messages can be found [here](https://docs.microsoft.com/sql/relational-databases/errors-events/database-engine-events-and-errors?view=sql-server-2017?WT.mc_id=pid:13491:sid:32745425/). Information about troubleshooting specific common errors is given below.  
 
-### Error 9002: The transaction log for database X is full. 
+### Error 9002: The transaction log for database X is full.
 
 * Use [this reference](https://docs.microsoft.com/sql/relational-databases/logs/troubleshoot-a-full-transaction-log-sql-server-error-9002?view=sql-server-2017?WT.mc_id=pid:13491:sid:32745425/) to assist in troubleshooting a full transaction log. This will also provide suggestions on how to avoid this in the future. <br>
 
