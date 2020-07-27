@@ -20,9 +20,3 @@
 ## Recommended Steps
 
 1. Determine the client OS by checking the SR Verbatim or asking the customer 
-
-
-Which OS is the customer using on the Point to Site client?
-- Windows
-- Mac OSX
-- Other

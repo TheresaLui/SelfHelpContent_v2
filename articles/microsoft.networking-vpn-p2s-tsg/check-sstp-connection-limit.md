@@ -22,7 +22,3 @@ SSTP in Azure VPN gateway is implemented via Routing and Remote Access server ro
 ## **Recommended Documents**
 
 * https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/134255/Point-to-Site-VPN-Issues?anchor=too-many-p2s-clients-connected-at-once
-
-Is the customer exceeding the maximum number of SSTP connections?
-- Yes
-- No

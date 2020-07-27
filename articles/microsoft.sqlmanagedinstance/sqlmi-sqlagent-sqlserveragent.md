@@ -16,11 +16,11 @@
 />
 
 # SQL Server Agent
-[Sql Server Agent](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent?view=sql-server-ver15) is a Microsoft Windows service that executes scheduled administrative tasks, which are called jobs in SQL Server 2019 (15.x).
+[SQL Server Agent](https://docs.microsoft.com/sql/ssms/agent/sql-server-agent?view=sql-server-ver15) is a Microsoft Windows service that executes scheduled administrative tasks, which are called jobs in SQL Server 2019 (15.x).
 
 ## **Recommended Steps**
 
-If you are experiencing some issues with SQL Server Agent, some of the following steps might help you to troubleshoot the issues:
+If you are experiencing problems with SQL Server Agent, some of the following steps might help you to troubleshoot the issues:
 
 ### **I cannot see my SQL Server Agent node in Object explorer**
 
@@ -51,6 +51,10 @@ For managed instance enabling and disabling of SQL Server Agent is currently not
 ### **SQL Agent email notifications**
 
 Email notifications are supported, although it is required that you configure a Database Mail profile. SQL Server Agent can use only one Database Mail profile, and it must be called **[AzureManagedInstance_dbmail_profile](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#sql-server-agent)**. If this profile is missing you can see errors like "profile name is not valid [SQLSTATE 42000] Error 14607."
+
+### **SQL Agent job history retention**
+
+For managed instance, it is not supported to change SQL Agent job history retention. Default job history retention is set to 1000 rows. If you need this feature due to business requirements, please vote for this feature on **[Azure feedback forum](https://feedback.azure.com/)**
 
 ## **Recommended Documents**
 

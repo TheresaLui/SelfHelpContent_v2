@@ -21,8 +21,9 @@ In the Azure AD user provisioning service, attribute mappings allow you to map h
 
 ## **Recommended Steps**
 
+* Use the [on-demand provisioning](https://docs.microsoft.com/azure/active-directory/app-provisioning/provision-on-demand) capability to provision a user and get detailed diagnostics about the steps taken.
 * For documentation on how to configure attribute mappings in the Azure AD user provisioning service, see [Customizing User Provisioning Attribute-Mappings for SaaS Applications in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/customize-application-attributes)
-* Occasionally, the provisioning configuration tutorials for selected applications may make recommendations or list known issues specific to those apps. For more information, find the tutorial specific to you application at [Tutorials for integrating SaaS applications with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list).
+* Occasionally, the provisioning configuration tutorials for selected applications may make recommendations or list known issues specific to your application. For more information, find the tutorial specific to your application at [Tutorials for integrating SaaS applications with Azure Active Directory](https://docs.microsoft.com/azure/active-directory/saas-apps/tutorial-list).
 
 
 ## **Recommended Documents**

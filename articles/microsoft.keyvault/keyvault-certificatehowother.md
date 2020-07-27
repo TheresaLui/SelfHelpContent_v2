@@ -29,6 +29,10 @@
 
 * Unauthorized access, access denied, forbidden, or similar error: The principal used doesn't have access to the resource it's trying to access.
 
+* I have accidentally **deleted a certificate**. How can i recover it?
+	
+	If the key vault had soft-deleted enabled, you can [recover deleted certificate](https://docs.microsoft.com/rest/api/keyvault/recoverdeletedcertificate), [view deleted certificate](https://docs.microsoft.com/rest/api/keyvault/getdeletedcertificate/getdeletedcertificate).
+
 ## **Recommended Documents**
 
 * [Securely save secret application settings for a web](https://docs.microsoft.com/azure/key-vault/vs-secure-secret-appsettings)
