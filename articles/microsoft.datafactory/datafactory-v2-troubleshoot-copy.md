@@ -27,7 +27,7 @@ For formatting errors, review the following sections:
 * Troubleshooting errors related with [JSON format](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#json-format)
 * Troubleshooting errors when using [Parquet format](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#parquet-format)
 
-For errors on the most common associated data sources and sinks, review the following error troubleshooting guides:
+For errors on the most commonly associated data sources and sinks, review the following error troubleshooting guides:
 
 * [SQL connector common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-sql-data-warehouseazure-sql-databasesql-server)
 * [Azure Storage connector common errors and troubleshooting](https://docs.microsoft.com/azure/data-factory/connector-troubleshoot-guide#azure-blob-storage)
