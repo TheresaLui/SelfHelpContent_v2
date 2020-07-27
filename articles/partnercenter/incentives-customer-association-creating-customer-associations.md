@@ -39,7 +39,7 @@
 9. Supply your proof of execution (POE). You can drag it to the box, browse to your own supporting documentation, or use a template by selecting **Download template**.
 10. Add and save comments if you like, and then select **Submit claim**. We'll send an email to the customer requesting approval of your customer association.  
 
-**Note**: Once you submit your customer association, you can't edit it. The status of your customer association appears in the **Status** field. Select **History** to view the history of a customer association.*
+**Note**: Once you submit your customer association, you can't edit it. The status of your customer association appears in the **Status** field. Select **History** to view the history of a customer association.
 
 ## **Recommended Documents**
 
