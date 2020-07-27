@@ -36,13 +36,13 @@ For majority of your use-cases, we recommend using file dataset for any file for
 4. When should I use dataset mounting v/s datastore mounting?
 
 You should always use the dataset mount, upload and download options to benefit from the improved capabilities and advanced optimizations.  Refer to this documentation for 
-[details](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-train-with-datasets#mount-files-to-remote-compute-targets). 
+[details](https://docs.microsoft.com/azure/machine-learning/how-to-train-with-datasets#mount-files-to-remote-compute-targets). 
 
 **Note**: Currently dataset mount has a known performance issue when working with millions of small files for small size of data (in MBs), until this issue is resolved, we recommend using datastore mount only for this scenario.
 
 5. When should I use dataset upload/download v/s datastore upload/download?
 
-You should always use the dataset upload and download options to benefit from the improved capabilities and performance.  Refer to this documentation for [details](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-train-with-datasets#mount-vs-download). 
+You should always use the dataset upload and download options to benefit from the improved capabilities and performance.  Refer to this documentation for [details](https://docs.microsoft.com/azure/machine-learning/how-to-train-with-datasets#mount-vs-download). 
 
 
 6. My data is in SQL DW, how should I access data from AML workspace? 
@@ -51,7 +51,7 @@ Creating a datastore for SQL DW is not recommended as Azure ML datastore cannot 
  
 7. Can I use ADLS gen2 as default storage for my workspace? 
 
-No, currently ADLS Gen2 cannot be set as default storage for your workspace. When you create an Azure ML workspace, an Azure blob container named workspaceblobstore is created as default storage to store workspace artifacts and your machine learning experiment logs. You can choose to set this default storage as a blob storage of your choice by using the command : ws.set_default_datastore(new_default_datastore). Please refer to an example [here](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fmachine-learning%2Fhow-to-access-data%23get-datastores-from-your-workspace&data=02%7C01%7Cxunwan%40microsoft.com%7C8d9cd159bcad4725008408d8300773b4%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637312155861218870&sdata=JOL0Oe72IzmNvlAe8mMogTRpzZkqymYWdA8FGG%2B4WtM%3D&reserved=0).
+No, currently ADLS Gen2 cannot be set as default storage for your workspace. When you create an Azure ML workspace, an Azure blob container named workspaceblobstore is created as default storage to store workspace artifacts and your machine learning experiment logs. You can choose to set this default storage as a blob storage of your choice by using the command : ws.set_default_datastore(new_default_datastore). Please refer to an example [here](https://docs.microsoft.com/azure/machine-learning/how-to-access-data#get-datastores-from-your-workspace).
 
 **Note**: You can still use ADLS Gen2 storage type when you create your own datastore in Azure ML for your training data, but not as a default datastore for your workspace artifacts and experiment logs.
 
