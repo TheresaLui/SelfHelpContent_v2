@@ -4,7 +4,7 @@
   resource="machines"
   ms.author="t-juwa"
   selfhelptype="Generic"
-  supporttopicids="32689165,32689166,32689155,32689156,32689160"
+  supporttopicids="32689165,32689166"
   resourcetags=""
   productpesids="16872"
   cloudenvironments="public,fairfax,usnat,ussec"
