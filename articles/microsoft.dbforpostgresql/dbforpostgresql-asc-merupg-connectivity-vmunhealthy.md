@@ -23,4 +23,4 @@ The PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> has been r
 
 ## **Recommended Steps**
 
-* Report to the product group for further investigation if the VM did not self-recover
+* Report to the product group for further investigation if the VM did not self-recover.
