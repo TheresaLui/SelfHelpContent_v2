@@ -1,5 +1,5 @@
 <properties
-    pageTitle="V2 - Pipeline Activities - Web Activity Common Solutions"
+    pageTitle="V2 - Pipeline Activities - Web Activity Common Solutions"
     description="V2 - Pipeline Activities - Web Activity Common Solutions"
     service=""
     resource=""
