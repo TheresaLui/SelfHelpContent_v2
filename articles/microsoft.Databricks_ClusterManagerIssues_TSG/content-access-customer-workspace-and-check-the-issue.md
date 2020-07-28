@@ -45,8 +45,4 @@ Check in the case that the **DatabricksConsent**  is **True**. This gives Micros
 **Access customer workspace**
 
 1. Go to [Genie](https://genie-azure-prod.dev.databricks.com/)
-<<<<<<< HEAD
 2. Fill customer workspace and ticket details gathered in previous steps
-=======
-2. Fill customer workspace and ticket details gathered in previous steps
->>>>>>> 83f6e224819d46478402e5a872516bbcfee2c944
