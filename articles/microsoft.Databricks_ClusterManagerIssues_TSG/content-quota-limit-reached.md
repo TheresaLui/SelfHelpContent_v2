@@ -37,12 +37,7 @@ To resolve the issue:
 
 Please check these documents for further details regarding:
 
-<<<<<<< HEAD
 * [Step by step on opening the case](https://docs.microsoft.com/azure/azure-portal/supportability/per-vm-quota-requests)
 * [Check resource usage against limits](https://docs.microsoft.com/azure/networking/check-usage-against-limits)
-=======
-1. [Step by step on opening the case](https://docs.microsoft.com/azure/azure-portal/supportability/per-vm-quota-requests)
-2. [Check resource usage against limits](https://docs.microsoft.com/azure/networking/check-usage-against-limits)
->>>>>>> 83f6e224819d46478402e5a872516bbcfee2c944
 
 If issue persists after trying the suggested approach, please discuss issue further with your SME/TA/EEE using [Ava](https://supportability.visualstudio.com/AzureDataBricks/_wiki/wikis/AzureDataBricks.wiki/312127/Ava), and [file an IcM](https://supportability.visualstudio.com/AzureDataBricks/_wiki/wikis/AzureDataBricks.wiki/333941/Escalate-to-Product-Group-team) if needed.
