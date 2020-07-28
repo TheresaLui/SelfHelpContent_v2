@@ -17,9 +17,7 @@ cloudEnvironments="Public, Fairfax, usnat, ussec"
 ownershipId="Compute_ComputePlatform"
 />
 
-# Classic VM and VNet Management Error
-
-## The address IpAddress is reserved by the platform and cannot be used
+# The address IpAddress is reserved by the platform and cannot be used
 
 <!--issueDescription-->
 Customers were unable to make any service management operations on a subset of classic Virtual Networks. Customers would have received error “The address IpAddress is reserved by the platform and cannot be used”.
