@@ -30,3 +30,4 @@ To learn more about authoring queries in Azure Stream Analytics jobs, see the re
 * [Tumbling, Hopping, Sliding, and Session Windows](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-window-functions)
 * [Geospatial functions in Stream Analytics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-geospatial-functions)
 * [Stream Analytics Query Language Reference](https://docs.microsoft.com/stream-analytics-query/stream-analytics-query-language-reference)
+* [Access metadata properties from Event Hubs or IoT Hub (e.g. device twin properties, user properties, etc.)](https://docs.microsoft.com/stream-analytics-query/getmetadatapropertyvalue)
