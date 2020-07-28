@@ -47,3 +47,4 @@ You can enable this by deploying your Function App into an App Service Environme
 
 Documentation: [Azure Functions](https://docs.microsoft.com/azure/azure-functions/ip-addresses#dedicated-ip-addresses}
 
+If this did not solve your issue, please restart the troubleshooter and choose the Generic Issues Troubleshooting option.

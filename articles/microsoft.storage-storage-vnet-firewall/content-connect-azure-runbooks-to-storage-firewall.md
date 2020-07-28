@@ -38,3 +38,6 @@ Customer Feedback submission: [https://feedback.azure.com/forums/217298-storage/
 ### B) Using Hybrid Runbook Worker
 
 Currently, the best possible solution is to use an Hybrid Runbook Worker and then enable the [Storage Service Endpoint on the VNET](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview) of the [Hybrid Runbook Worker](https://docs.microsoft.com/en-us/azure/automation/automation-hybrid-runbook-worker).
+
+
+If this did not solve your issue, please restart the troubleshooter and choose the Generic Issues Troubleshooting option.
