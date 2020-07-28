@@ -1,6 +1,6 @@
 <properties
-    pageTitle="V2 - Pipeline Activities - Web Activity Common Solutions"
-    description="V2 - Pipeline Activities - Web Activity Common Solutions"
+    pageTitle="V2-Pipeline-Activities%2DWeb-Activity-Common-Solutions"
+    description="V2-Pipeline-Activities%2DWeb-Activity-Common-Solutions"
     service=""
     resource=""
     authors="Vimal Sharma"
@@ -12,7 +12,7 @@
     productPesIds="15613"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="c2b6d7cf-eae2-4c9e-9bde-f9021ba698fe"
-	ownershipId="AzureData_DataFactory"
+    ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Pipeline Activities - Web Activities
