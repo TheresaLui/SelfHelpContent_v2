@@ -22,5 +22,5 @@ If you have questions regarding the operation and use of NSX-T to create other c
 
 ## **Recommended Documents**
 
-* [Tutorial Create an NSX-T network segment in an Azure VMware Solution (AVS) private cloud] (<https://docs.microsoft.com/en-us/azure/azure-vmware/tutorial-nsx-t-network-segment>)<br>
+* [Tutorial Create an NSX-T network segment in an Azure VMware Solution (AVS) private cloud](<https://docs.microsoft.com/en-us/azure/azure-vmware/tutorial-nsx-t-network-segment>)<br>
 * [VMware vSphere and VSAN documentation](https://docs.vmware.com/en/VMware-vSphere/index.html)<br>
