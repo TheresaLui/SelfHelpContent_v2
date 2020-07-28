@@ -1,8 +1,8 @@
 <properties
   pagetitle="Installing the Azure Arc for Servers Agent"
   service="microsoft.hybridcompute"
-  resource="hybridcompute"
-  ms.author="zachal,t-juwa"
+  resource="machines"
+  ms.author="t-juwa"
   selfhelptype="Generic"
   supporttopicids="32689165,32689166,32689155,32689156,32689160,32689161,32689162"
   resourcetags=""
