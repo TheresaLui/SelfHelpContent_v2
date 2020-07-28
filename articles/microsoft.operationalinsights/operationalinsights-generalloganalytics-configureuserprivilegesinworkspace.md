@@ -25,7 +25,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
 ### **Are you using resource-context or workspace-context?**
 When executing a query, you may use the context of an Azure resource or resource-group or subscription. In that case:
 1.	You should have read access to the resource
-2.	The workspace shall have [access control mode](https://docs.microsoft.com/azure/azure-monitor/platform/design-logs-deployment#access-control-mode) set to “Use resource or workspace permissions:”
+2.	The workspace shall have [access control mode](https://docs.microsoft.com/azure/azure-monitor/platform/design-logs-deployment#access-control-mode) set to "Use resource or workspace permissions:"
 When executing a query in the context of a workspace, only the workspace permissions are evaluated. 
 
 ### **Check workspace and resource permissions using the Azure portal**
