@@ -40,8 +40,8 @@ Network Security Group by default deny connections from Internet unless it is ex
 You can reset or restart the SSH Service and reset credentials by using one of the following methods:
 - Connect to the Azure portal, and use [Reset password feature](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection#use-the-azure-portal) to reset the SSH configuration and the credentials for the user
 - Alternatively, [perform the reset actions using CLI](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection#use-the-azure-cli) and VMAccess extension for Linux
-- If **Reset Password** is broken because the VMAccess extension isn't working, use a [Linux recovery VM](https://docs.microsoft.com/azure-stack/operator/azure-stack-troubleshooting#troubleshoot-virtual-machines-vms)  
-- If the above options fail, you can also use the [offline method of resetting the password by attaching the source OS virtual disk to another VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-password). Only use this process as a last resort. Always try to reset a password using the Azure portal or Azure CLI first.
+- If **Reset Password** is broken because the VMAccess extension isn't working, use a [Linux recovery VM to reset the password](https://docs.microsoft.com/azure-stack/operator/azure-stack-troubleshooting#troubleshoot-virtual-machines-vms)  
+- If the above options fail, you can also use the [offline method of resetting the password by attaching the source OS virtual disk to another VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/reset-password). Only use this process as a last resort. Always try to reset a password using the Azure portal or Azure CLI first
 
 Note: If you use the VMAccess Extension to reset the password of your VM after installing the AAD Login Extension, you will need to rerun the AAD Login Extension to re-enable AAD Login for your machine. 
 
