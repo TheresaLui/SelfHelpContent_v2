@@ -22,4 +22,4 @@ If you have other questions regarding the operation and use of you vCenter in yo
 
 ## **Recommended Documents**
 
-* [Azure VMware Solution (AVS) identity concepts](https://docs.microsoft.com/azure/azure-vmware/concepts-identity)<br>
+* [Learn how to access an Azure VMware Solution (AVS) private cloud] (https://docs.microsoft.com/en-us/azure/azure-vmware/tutorial-access-private-cloud)<br>
