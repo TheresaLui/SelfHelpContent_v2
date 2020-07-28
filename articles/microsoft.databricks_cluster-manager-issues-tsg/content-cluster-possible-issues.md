@@ -18,9 +18,9 @@
 
 If cluster launch failed or a job failed prematurely at cluster creation stage, please collect cluster details and check the following:
 
-1. Check if any throttling or issues reported in ASC insights.
+1. Check if any throttling or issues reported in ASC insights
 2. From ASC, go to the Resource under Resource Explorer -> Cluster Resources tab -> Specify issue time frame and run diagnostics. Find the cluster and check the provisioning status and errors.
-3. Check cluster event logs in customer workspace.
+3. Check cluster event logs in customer workspace
 
 There are more that one possible **root cause** here. Please proceed according to user facing errors below:
 
@@ -55,7 +55,7 @@ There are more that one possible **root cause** here. Please proceed according t
 
 **Azure Subscription Limit**
 
-8. Quota limit reached (cores, public IP’s,...)
+8. Quota limit reached (cores, public IPs,...)
 *Cloud Provider Launch Failure: A cloud provider error was encountered while setting up the cluster. See the Databricks guide for more information.*
 *Azure error code: OperationNotAllowed*
 *Azure error message: Operation results in exceeding quota limits of Core. Maximum allowed: xx, Current in use: xx, Additional requested: x.*
