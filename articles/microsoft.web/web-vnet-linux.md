@@ -29,5 +29,5 @@
 * [General Availability of VNet Integration for Linux Web Apps](https://azure.github.io/AppService/2020/06/17/General-Availability-of-VNet-Integration-with-Linux-Web-Apps.html)
 * [Integrate your app with an Azure virtual network](https://azure.microsoft.com/documentation/articles/web-sites-integrate-with-vnet/)<br>
 * [How to Connect your app to your virtual network by using PowerShell](https://gallery.technet.microsoft.com/scriptcenter/Connect-an-app-in-Azure-ab7527e3)<br>
-* [How to  Configure a Point-to-Site VPN connection to a VNet using the classic portal](https://azure.microsoft.com/documentation/articles/vpn-gateway-point-to-site-create/) <br>
+* [How to Configure a Point-to-Site VPN connection to a VNet using the classic portal](https://azure.microsoft.com/documentation/articles/vpn-gateway-point-to-site-create/) <br>
 * [Accessing on-premises resources](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet#accessing-on-premises-resources)
