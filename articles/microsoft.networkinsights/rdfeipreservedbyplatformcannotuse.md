@@ -16,9 +16,7 @@ productPesIds="15526, 14749, 16470, 16454, 15797, 15571, 16065, 16215"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
 ownershipId="Compute_ComputePlatform"
 />
-
 # The address IpAddress is reserved by the platform and cannot be used
-
 <!--issueDescription-->
 Customers were unable to make any service management operations on a subset of classic Virtual Networks. Customers would have received error “The address IpAddress is reserved by the platform and cannot be used”.
 <!--/issueDescription-->
