@@ -22,11 +22,7 @@ Cluster startup fails with error: *The Spark driver failed to start within 300 s
 
 1. Verify if customer is using external Metastore and Maven to download dependencies
 2. Try to verify if cluster starts with internal Metastore
-<<<<<<< HEAD
 3. Verify customer is not blocking Outbound/Inbound connections to external repos
-=======
-3. Verify customer is not blocking Outbound/Inbound connections to external repo's
->>>>>>> 83f6e224819d46478402e5a872516bbcfee2c944
 
 Solution would be to store the Hive libraries in DBFS and access them locally from the DBFS location. We have [KB](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#cluster-timeout) for this as well.
 
