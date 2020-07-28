@@ -21,4 +21,4 @@ To create an Azure VMware Solutions (AVS) private cloud, you need to first plan 
 ## **Recommended Documents**
 
 * [Tutorial : Network planning in Azure VMware Solutions (AVS)](https://docs.microsoft.com/azure/azure-vmware/tutorial-network-checklist)<br>
-* [VMware NSX-T Administration documentation](https://docs.vmware.com/en/VMware-NSX-T-Data-Center/2.5/administration/GUID-FBFD577B-745C-4658-B713-A3016D18CB9A.html)<br>
+* [Tutorial : Deploy an AVS private cloud in Azure](https://docs.microsoft.com/azure/azure-vmware/tutorial-create-private-cloud)<br>
