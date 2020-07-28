@@ -30,19 +30,21 @@ Use the steps in [Integrate Cloud App Security with Zscaler](https://docs.micros
 If no discovered apps are available, do the following:
 
 1. In Cloud App Security, verify that:
+
     1. The data source name is **NSS**
     1. The Cloud App Security API token which is used by Zscaler is active (go to **Settings** > **Security extensions** > **API tokens**)
+
 1. In Zscaler, verify that all statuses are valid (go to **Administration** > **Partner Integrations** > **Microsoft Cloud App Security**)
 
 If apps are not being blocked, do the following:
 
-1. In Cloud App Security, in the Cloud App Catalog, verify that at least one app has been marked as **Unsanctioned**.
-1. In the Zscaler portal, go to **Administration** > **Access Control** > **URL categories**.
-1. Under **User-Defined**, verify that **MCAS Unsanctioned Apps** exists and that custom URLs are defined.
+1. In Cloud App Security, in the Cloud App Catalog, verify that at least one app has been marked as **Unsanctioned**
+1. In the Zscaler portal, go to **Administration** > **Access Control** > **URL categories**
+1. Under **User-Defined**, verify that **MCAS Unsanctioned Apps** exists and that custom URLs are defined
 
 If you cannot see any discovered data or completed parsed tasks in the governance log:
 
-- In Zscaler, verify that the NSS server allows the following [domains](https://docs.microsoft.com/cloud-app-security/network-requirements#log-collector).
+- In Zscaler, verify that the NSS server allows the following [domains](https://docs.microsoft.com/cloud-app-security/network-requirements#log-collector)
 
 **For iboss integration issues**
 
