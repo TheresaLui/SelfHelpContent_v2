@@ -22,7 +22,7 @@
 ## **Recommended Documents**
 
 * [Overview: End-to-end encryption for your VM Data](https://docs.microsoft.com/azure/virtual-machines/windows/disk-encryption#encryption-at-host---end-to-end-encryption-for-your-vm-data)<br>
-* [Frequently Asked Questions](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/faq-for-disks#managed-disks-and-storage-service-encryption)<br>
+* [Frequently Asked Questions](https://docs.microsoft.com/azure/virtual-machines/windows/faq-for-disks#managed-disks-and-storage-service-encryption)<br>
 * Enable end-to-end encryption using **encryption at host** via [Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/disks-enable-host-based-encryption-portal) or [Azure Portal](https://docs.microsoft.com/azure/virtual-machines/windows/disks-enable-host-based-encryption-portal)<br>
 * Enable **customer managed keys** with server-side encryption via [Azure Powershell](https://docs.microsoft.com/azure/virtual-machines/windows/disks-enable-customer-managed-keys-powershell) or [Azure Portal](https://docs.microsoft.com/azure/virtual-machines/windows/disks-enable-customer-managed-keys-portal)<br>
 * Enable **double encryption at rest** on your managed disks via [Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/disks-enable-double-encryption-at-rest-powershell) or [Azure Portal](https://docs.microsoft.com/azure/virtual-machines/windows/disks-enable-double-encryption-at-rest-portal)
