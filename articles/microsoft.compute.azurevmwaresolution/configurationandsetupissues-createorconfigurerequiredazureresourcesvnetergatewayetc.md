@@ -22,4 +22,4 @@ Review the private cloud documentation for the resources that you are required t
 
 ## **Recommended Documents**
 
-* [Tutorial: Learn how to access an Azure VMware Solution (AVS) private cloud](https://docs.microsoft.com/en-us/azure/azure-vmware/tutorial-access-private-cloud)<br>
+* [Tutorial: Learn how to access an Azure VMware Solution (AVS) private cloud](https://docs.microsoft.com/azure/azure-vmware/tutorial-access-private-cloud)<br>
