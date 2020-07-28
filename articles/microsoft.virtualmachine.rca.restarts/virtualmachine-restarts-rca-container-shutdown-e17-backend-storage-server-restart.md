@@ -33,8 +33,8 @@ To ensure an increased level of protection and redundancy for your application i
 
 To learn more about high availability options, refer to the following articles:<br>
 
-* [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
-* [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)<br>
+* [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)<br>
+* [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)<br>
 * [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)<br>
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.<br>

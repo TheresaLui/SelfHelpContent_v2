@@ -9,7 +9,7 @@
     articleId="insights-for-cosmosdb-commonsolution"
     productPesIds="17266"
     supportTopicIds="32742621,32742626,32742622,32742624,32742632,32742634,32742630,32742631,32742635,32742623,32742629,32742633,32742625,32742627"
-    cloudEnvironments="public, blackForest, fairfax, mooncake"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
 />
 
