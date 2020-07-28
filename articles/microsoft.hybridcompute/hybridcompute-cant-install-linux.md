@@ -4,7 +4,7 @@
   resource="hybridcompute"
   ms.author="t-juwa"
   selfhelptype="Generic"
-  supporttopicids="32689163,32689164,32689153,32689154,32689155,32689156,32689165,32742674,32689160,32689161,32689166,32742675,32689162,32689167,32689168,32742676"
+  supporttopicids="32689165"
   resourcetags=""
   productpesids="16872"
   cloudenvironments="public,fairfax,usnat,ussec"
