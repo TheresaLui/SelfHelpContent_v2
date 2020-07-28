@@ -1,6 +1,6 @@
 <properties
-	pageTitle="TSG Summary: Cluster Manager Issues"
-	description="TSG Summary: Cluster Manager Issues"
+	pageTitle="TSG Summary: Cluster Manager Issues "
+	description="TSG Summary: Cluster Manager Issues "
 	service="Microsoft.Databricks"
 	resource="Microsoft.Databricks/workspaces"
 	ms.author="lahaddad"
