@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Azure Disk Encryption (ADE)"
-	description="Azure Disk Encryption (ADE)"
+	pageTitle="Azure Encryption"
+	description="Azure Disk Encryption"
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="ScottAzure"
@@ -15,7 +15,7 @@
 	ownershipId="Compute_VirtualMachines"
 />
 
-# Azure Disk Encryption (ADE)
+# Azure Encryption
 
 4 out of 5 customers resolved their issue using the guides listed below.<br>
 
@@ -29,7 +29,4 @@
 * [Creating and configuring a key vault for Azure Disk Encryption](https://docs.microsoft.com/azure/virtual-machines/linux/disk-encryption-key-vault)<br>
 * [Azure Disk Encryption sample scripts](https://docs.microsoft.com/azure/virtual-machines/linux/disk-encryption-sample-scripts)<br>
 * [Azure Disk Encryption troubleshooting](https://docs.microsoft.com/azure/virtual-machines/linux/disk-encryption-troubleshooting)<br>
-* [Azure Disk Encryption frequently asked questions](https://docs.microsoft.com/azure/virtual-machines/linux/disk-encryption-faq)<br>
-* [Server-side encryption of Azure Disk Storage](https://docs.microsoft.com/azure/virtual-machines/windows/disk-encryption#encryption-at-host---end-to-end-encryption-for-your-vm-data)<br>
-* [Enable end-to-end encryption using encryption at host - Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/disks-enable-host-based-encryption-powershell)<br>
-* [Enable double encryption at rest on your managed disks -Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/disks-enable-double-encryption-at-rest-powershell)
+* [Azure Disk Encryption frequently asked questions](https://docs.microsoft.com/azure/virtual-machines/linux/disk-encryption-faq)

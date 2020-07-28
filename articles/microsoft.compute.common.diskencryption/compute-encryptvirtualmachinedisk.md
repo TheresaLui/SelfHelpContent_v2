@@ -14,7 +14,8 @@
 	articleId="3b9c5dfb-2a76-453e-a9c7-c2f048634b46"
 	ownershipId="Compute_VirtualMachines_Content"
 />
-# Azure Disk Encryption (ADE)
+
+# Azure Encryption
 
 4 out of 5 customers resolved their issue using the guides listed below.<br>
 
@@ -29,6 +30,3 @@
 * [Azure Disk Encryption sample scripts](https://docs.microsoft.com/azure/virtual-machines/Windows/disk-encryption-sample-scripts)<br>
 * [Azure Disk Encryption troubleshooting](https://docs.microsoft.com/azure/virtual-machines/Windows/disk-encryption-troubleshooting)<br>
 * [Azure Disk Encryption frequently asked questions](https://docs.microsoft.com/azure/virtual-machines/Windows/disk-encryption-faq)<br>
-* [Server-side encryption of Azure Disk Storage](https://docs.microsoft.com/azure/virtual-machines/windows/disk-encryption#encryption-at-host---end-to-end-encryption-for-your-vm-data)<br>
-* [Enable end-to-end encryption using encryption at host - Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/disks-enable-host-based-encryption-powershell)<br>
-* [Enable double encryption at rest on your managed disks -Azure PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/disks-enable-double-encryption-at-rest-powershell)
