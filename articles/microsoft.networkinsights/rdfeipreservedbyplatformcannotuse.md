@@ -23,10 +23,10 @@ Customers were unable to make any service management operations on a subset of c
 
 ### Root Cause
 
-This root cause of this issue is due to a recent change in a networking configuration subsystem used in Azure. The change introduced a check that prevented “invalid” subnet prefixes used in Virtual Networks and subnets. For example, a subnet may be configured as CIDR prefix 10.0.0.1/24 instead of the proper 10.0.0.0/24. Because of this check, existing Virtual Networks provisioned as “invalid” CIDR prefixes will fail any configuration changes. This only affects classic Virtual Networks, and there is no communication or data path impact.
+This root cause of this issue is due to a recent change in a networking configuration subsystem used in Azure. The change introduced a check that prevented invalid subnet prefixes used in Virtual Networks and subnets. For example, a subnet may be configured as CIDR prefix 10.0.0.1/24 instead of the proper 10.0.0.0/24. Because of this check, existing Virtual Networks provisioned as invalid CIDR prefixes will fail any configuration changes. This only affects classic Virtual Networks, and there is no communication or data path impact.
 
 ### Next Steps
 
-Microsoft is manually updating Virtual Network configurations to “proper” CIDR prefix for any affected customers to unblock
+Microsoft is manually updating Virtual Network configurations to proper CIDR prefix for any affected customers to unblock
 Microsoft is developing a code fix for this regression
 Microsoft is developing internal alerting to quickly identify issues such as these going forward
