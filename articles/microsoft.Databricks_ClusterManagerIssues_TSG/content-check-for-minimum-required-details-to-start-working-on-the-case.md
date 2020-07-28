@@ -22,11 +22,7 @@ Review customer verbatim for the following and validate that the case has the mi
 2. Subscription ID
 3. Workspace ID/URL
 4. Cluster Name/ID/URL
-<<<<<<< HEAD
 5. Issue start and end timestamps (UTC) if available
-=======
-5. Issue start and end timestamps (UTC)
->>>>>>> 83f6e224819d46478402e5a872516bbcfee2c944
 6. Was the cluster launching fine before? What changes were made?
 7. Were there failing jobs? (Please provide both Failed and Successful Job runs URLs)
 8. Steps to repro or test job which can be re-run
