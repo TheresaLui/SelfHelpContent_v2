@@ -18,8 +18,3 @@
 # Check if Web App is connected
 
 <Info Needed>: need some steps here to tell how to check if the WEb App is connected
-
-Is the Point to Site connected on the WebApp?
-- Yes
-- No
----

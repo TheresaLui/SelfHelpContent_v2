@@ -34,8 +34,8 @@ To ensure an increased level of protection and redundancy for your application i
 
 To learn more about high availability options, refer to the following articles:<br>
 
-* [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
-* [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)
+* [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)<br>
+* [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.<br>
 

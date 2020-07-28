@@ -15,7 +15,7 @@
 	resourceTags="PartnerCenter_Incentives"
 	productPesIds="17005"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Payouts"
+	ownershipId="PartnerCenter_Incentives"
 />
 
 # Partner Center Incentives: Incorrect or missing payments
@@ -50,3 +50,8 @@ Missing or incorrect payments are often due to one of the following:
 	1. Sign into Partner Center here: [Partner incentives](https://partner.microsoft.com/membership/partner-incentives)
 	2. Open the Transaction history page
 	3. Review the fields in this page for any outstanding actions to be completed, such as Pending Tax profile, Pending payment profile, or Pending tax invoice submission
+
+## **Recommended Documents**
+
+* [Troubleshooting payments issues](https://docs.microsoft.com/partner-center/incentives-payment-issues#my-payment-is-missing-or-incorrect)
+* [Understanding earnings/payments discrepancies](https://support.microsoft.com/help/4534675)

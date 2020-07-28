@@ -17,21 +17,9 @@
 
 # Create failure due to quota limit
 
-**Known issues**
+If your subscription requires a quota increase, click **Previous** and change the **Issue type** to **Service and subscription limits (quotas)** and then continue with your support request. For complete instructions, see [Create a support ticket to increase core](https://docs.microsoft.com/azure/hdinsight/quota-increase-request#gather-required-information). If you received the error "The maximum node exceeded the available cores in this region" that indicates your subscription requires a quota increase.
 
-As of March 18th, 2020 some Azure HDInsight customers have received error notifications when creating or scaling HDInsight clusters in some regions. Errors related to this issue include:
-
-- Internal server error occurred while processing the request. Please retry the request or contact support.
-- At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/DeployOperations for usage details
-- User SubscriptionId '\<Subscription ID\>' does not have cores left to create resource '\<cluster name>'. Required: \<X\>, Available: 0.
-
-Engineers are aware of this issue and are actively investigating.
-
-For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/azure/hdinsight/hdinsight-release-notes#known-issues) page.
-
-For additional help, continue creating this support request.
-
-## **Recommended Steps**
+**To check available cores**
 
 To check the cores available to the cluster, do the following steps:
 
@@ -53,21 +41,6 @@ Solution:
 
 For more information, see [Resolve errors for resource quotas](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-quota-errors).
 
-**Error: The maximum node exceeded the available cores in this region**
-
-Your subscription may be configured to limit the number of cores for a region. If you attempt to deploy a resource with more cores than the permitted amount, you receive an error stating the quota has been exceeded.
-
-To request a quota increase, follow these steps:
-
-1. Go to Azure portal, and then select **Help + support**
-2. Select **New support request**
-3. On the **New support request** page, under **Basics** tab, select the following options:
-
-    - Issue type: Service and subscription limits (quotas)
-    - Subscription: the subscription you want to modify
-    - Quota type: HDInsight
-
-For more information, see [Create a support ticket to increase core](https://docs.microsoft.com/azure/hdinsight/hdinsight-capacity-planning#quotas).
 
 ## **Recommended Documents**
 

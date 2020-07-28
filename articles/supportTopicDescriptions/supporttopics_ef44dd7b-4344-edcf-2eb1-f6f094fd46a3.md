@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "39ffdf11-4699-b519-23d0-2c5538394329",
+      "longDescription": "",
+      "shortDescription": "Issues encountered when users want to assess and migrate databases. Select Database Migration as service instead of Azure Migrate. ",
+      "searchTags": "Database;DMA;DMS",
+      "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4716fda9-6f51-8451-d72a-4e0232108d50",
       "longDescription": "",
       "shortDescription": "Replication related issues in all the stacks that Azure Migrate supports",
@@ -187,6 +195,14 @@
       "shortDescription": "Issues encountered while moving resources to another subscription",
       "searchTags": "ResourceMove",
       "category": "Tool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "84dc27a8-0944-8b1b-c855-20b6a2eeaf2e",
+      "longDescription": "",
+      "shortDescription": "Cases related to Classic to ARM Migration. Please file the case under Virtual Machines team.",
+      "searchTags": "ASMARM;ClassicARMMigration",
+      "category": "Reroutes",
       "useInDiagnoseAndSolve": "true"
     },
     {

@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32628245"
          productPesIds="15739"
-         cloudEnvironments="public, Fairfax, usnat, ussec"
+         cloudEnvironments="public, Fairfax, usnat, ussec, blackforest, mooncake"
          schemaVersion="1"
          articleId="problemscopingquesportalresourceblade"
 	ownershipId="Compute_AzurePortal"
@@ -44,7 +44,7 @@
             "useAsAdditionalDetails": true,
             "hints": [
                 {
-                    "text": "Learn more - <a href='https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/18/capture-a-trace-for-troubleshooting-azure-portal-issues/'>how to capture a browser network trace</a>"
+                    "text": "Learn more - <a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>how to capture a browser network trace</a>"
                 },
                 {
                     "text": "Issue description."

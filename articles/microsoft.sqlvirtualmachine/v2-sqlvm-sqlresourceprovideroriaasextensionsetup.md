@@ -1,16 +1,16 @@
 <properties
 	pageTitle="SQL VM Resource provider or IaaS Extension setup"
 	description="SQL VM Resource provider or IaaS Extension setup"
-	service="microsoft.compute"
-	resource="virtualmachines"
+	service="Microsoft.SqlVirtualMachine"
+	resource="SqlVirtualMachines"
 	ms.author="ujpat,vadeveka,amamun"	
 	authors="ujpat,vadeveka,AbdullahMSFT"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32740102"
 	resourceTags="windowsSQL"
-	productPesIds="14745"
-	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
+	productPesIds="14745,16342"
+	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
 	articleId="2c2e2bf6-60c9-4adf-aee7-cdc04adbcf26"
 	ownershipId="AzureData_AzureSQLVM"
 />
@@ -34,9 +34,9 @@ If you are planning to deploy a SQL inside a Virtual Machine, follow the [Provis
 The extension may occasionally encounter issues during its workflow resulting in a bad state. Uninstalling and reinstalling the extension should address this issue. You can execute the following commands in PowerShell to re-install the extension:
 
 ```
-Remove-AzVMSqlServerExtension -ResourceGroupName "<ResourceGroupName>" -VMName "<VMName>" -Name "SqlIaasExtension" 
+Remove-AzVMSqlServerExtension -ResourceGroupName "<ResourceGroupName>" -VMName "<VMName>" -Name "SqlIaasExtension"
 
-Set-AzVMExtension -ResourceGroupName "<ResourceGroupName>" -Location "<VMLocation>" -VMName "<VMName>" -Name "SqlIaasExtension" -Publisher "Microsoft.SqlServer.Management" -ExtensionType "SqlIaaSAgent" -TypeHandlerVersion "2.0";
+Set-AzVMSqlServerExtension -VMName "<VMName>" -ResourceGroupName "<ResourceGroupName>" -Name "SQLIaasExtension" -Version "2.0" -Location "<VMLocation>"
 ```
 
 ## **Recommended Documents**
