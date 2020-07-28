@@ -17,9 +17,9 @@
 
 # Problem Connecting to Jupyter, JupyterLab, RStudio
 
-This section helps with issues connecting to Compute instance through Jupyter, JupyterLab and Rstudio and running your notebooks.
+This section helps with issues connecting to Compute instance through Jupyter, JupyterLab and RStudio and running your notebooks.
 
 ## **Recommended Steps**
 - If compute instance is created behind VNET make sure you have NSG rule where compute instance inbound TCP traffic on port 44224 is allowed from a Service Tag of AzureMachineLearning.
-- If you are behind a proxy ensure that web socket communication is not disabled for azureml.net and azumrel.ms domains
+- If you are behind a proxy ensure that web socket communication is not disabled for azureml.net and azureml.ms domains
 - Try restarting the Compute Instance and then rerunning the notebook
