@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32743826,32743827,32743819,32743820,32743821,32743822,32743823,32743824,32743825"
 	productPesIds="16572"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="a522beba-5a48-4e1e-be06-f905b9dd1708"
 	ownershipId="CloudNet_VirtualWAN"
