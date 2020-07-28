@@ -23,11 +23,7 @@ Init scripts that run during the cluster spin-up stage send an RPC (remote proce
 ## Troubleshooting and Solution
 
 1. Validate if customer uses Init script V1 (cluster named or global init scripts)
-<<<<<<< HEAD
 2. Confirm this is transient issue and check init logs to rule out any issues due to script error
-=======
-2. Confirm this is transient issue, check init logs to rule out any issues due to script error.
->>>>>>> 83f6e224819d46478402e5a872516bbcfee2c944
 
 As a solution, use a [cluster-scoped init script](https://docs.microsoft.com/azure/databricks/clusters/init-scripts#--cluster-scoped-init-scripts) instead of global or cluster-named init scripts. With cluster-scoped init scripts, Databricks does not use synchronous blocking of RPCs to fetch init script execution status.
 
