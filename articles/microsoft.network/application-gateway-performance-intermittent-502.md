@@ -27,6 +27,8 @@ To troubleshoot the issue, follow the recommended steps below.
 
 ## **Recommended Steps**
 
+4 out of 5 customers resolved their intermittent 502 issues using the steps listed below.
+
 * View the [back-end health](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal) and check if any servers have been marked unhealthy in the **Status** column. If there are unhealthy servers, then look for the reason displayed for the unhealthy state and perform the troubleshooting steps mentioned in the **Details** column.
 * For more information on 502 troubleshooting, you can use the guided troubleshooter [here](https://support.microsoft.com/help/4504111/azure-application-gateway-with-bad-gateway-502-errors).
 * If all the servers are healthy and if you are experiencing intermittent 502 errors, check the serverResponseLatency values in the [Application Gateway access log](https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#access-log). 

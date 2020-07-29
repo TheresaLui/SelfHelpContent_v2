@@ -20,5 +20,5 @@ If you are interested in monitoring the performance of your Application Gateway,
 
 ## **Recommended Documents**
 
-- [Check throughput limits for application gateway](https://azure.microsoft.com/documentation/articles/application-gateway-introduction/).
+- [Check sizing information for application gateway here](https://docs.microsoft.com/azure/application-gateway/features#sizing).
 - [Migrate to high-performance V2 SKU of Application Gateway](https://docs.microsoft.com/azure/application-gateway/migrate-v1-v2).

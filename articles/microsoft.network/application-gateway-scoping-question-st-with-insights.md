@@ -4,7 +4,7 @@
 	authors="abshamsft"
 	ms.author="absha"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32582825,32582828,32640605,32639115,32639109,32639114,32639116,32640602"
+    supportTopicIds="32582825,32582828,32640605,32639109,32640602"
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	schemaVersion="1"
