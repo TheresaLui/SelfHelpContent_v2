@@ -1,22 +1,22 @@
 <properties
-    articleId="ac92ca9c-34p2-017a-a5e4-49812c98d489"
-    pageTitle="I am unable to uninstall the mobility service agent"
-    description="I am unable to uninstall the mobility service agent"
+    articleId="ac92ca9c-02p2-017a-a5e4-49812c98d489"
+    pageTitle="My attempt to failover failed with errors"
+    description="My attempt to failover failed with errors"
     authors="TobyTu"
     ms.author="sideeksh"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32744988"
+    supportTopicIds="32745022"
     productPesIds="16370"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     ownershipId="Compute_SiteRecovery"
 />
-# I am unable to uninstall the mobility service agent
+# My attempt to failover failed with errors
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "I am unable to uninstall the mobility service agent",
+    "title": "My attempt to failover failed with errors",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -61,16 +61,24 @@
            ]
         },
         {
-            "id": "name",
+            "id": "vm_name",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Please provide the name of the VM with which you are experiencing the problem.",
+            "displayLabel": "Please provide the name of the VM(s) experiencing the problem.",
             "watermarkText": "Enter the name",
             "required": false
         },
         {
-            "id": "job_id",
+            "id": "os_version",
             "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "What is the operating system version of the VM(s)?",
+            "watermarkText": "Enter the OS version",
+            "required": false
+        },
+        {
+            "id": "job_id",
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "Please provide the ID of the failed Site Recovery job.",
             "watermarkText": "Enter the ID",
@@ -78,7 +86,7 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Please additional details about the issue.",
             "watermarkText": "Please provide the detailed symptom and any other relevant information.",

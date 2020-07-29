@@ -1,22 +1,22 @@
 <properties
-    articleId="ac92ca9c-35p2-017a-a5e4-49812c98d489"
-    pageTitle="Reprotect is taking too long to complete"
-    description="Reprotect is taking too long to complete"
+    articleId="ac92ca9c-07p2-017a-a5e4-49812c98d489"
+    pageTitle="The first recovery point did not get generated"
+    description="The first recovery point did not get generated"
     authors="TobyTu"
     ms.author="sideeksh"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32745026"
+    supportTopicIds="32745027"
     productPesIds="16370"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     ownershipId="Compute_SiteRecovery"
 />
-# Reprotect is taking too long to complete
+# The first recovery point did not get generated
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Reprotect is taking too long to complete",
+    "title": "The first recovery point did not get generated",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -61,10 +61,10 @@
            ]
         },
         {
-            "id": "name",
+            "id": "vm_name",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Please provide the name of the VM with which you are experiencing the problem.",
+            "displayLabel": "Please provide the name of the VM(s) experiencing the problem.",
             "watermarkText": "Enter the name",
             "required": false
         },
