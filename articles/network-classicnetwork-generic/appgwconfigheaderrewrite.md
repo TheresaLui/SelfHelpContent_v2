@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="configure-header-url-rewrite"
+	articleId="configure-header-rewrite"
 	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
