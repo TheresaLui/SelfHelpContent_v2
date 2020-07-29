@@ -9,7 +9,7 @@
     articleId="insights-for-rediscache-commonsolution"   
     productPesIds="17269"
     supportTopicIds="32743264,32743271,32743266,32743269,32743278,32743275,32743276,32743268,32743273,32743277,32743270"
-    cloudEnvironments="public, blackForest, fairfax, mooncake"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
     ownershipId="AzureMonitoring_Essentials"
 />
 
