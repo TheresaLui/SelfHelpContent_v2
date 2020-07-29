@@ -22,5 +22,5 @@ Note:  Any changes to the pre-provisioned NSX-T T0 or T1 gateways will result in
 
 ## **Recommended Documents**
 
-* [Tutorial : Network planning in Azure VMware Solutions (AVS)](https://docs.microsoft.com/azure/azure-vmware/tutorial-network-checklist)<br>
-* [Tutorial : Deploy an AVS private cloud in Azure](https://docs.microsoft.com/azure/azure-vmware/tutorial-create-private-cloud)<br>
+* [Tutorial: Create an NSX-T network segment in an Azure VMware Solution (AVS) private cloud](https://docs.microsoft.com/azure/azure-vmware/tutorial-nsx-t-network-segment)<br>
+* [VMware NSX-T Administration documentation](https://docs.vmware.com/en/VMware-NSX-T-Data-Center/2.5/administration/GUID-FBFD577B-745C-4658-B713-A3016D18CB9A.html)<br>
