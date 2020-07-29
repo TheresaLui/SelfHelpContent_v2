@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="79ea66a5-20fa-42bc-970c-6e6d01706fd5"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check if the error failed due to a partner dependency

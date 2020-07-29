@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="418ec899-4fea-41c0-84dc-899e5f64066b"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Connectivty to Azure is impacted

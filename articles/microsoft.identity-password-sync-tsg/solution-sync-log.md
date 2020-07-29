@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="60cab146-48a4-4461-80e2-ff9fc0315c76"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Sync logging

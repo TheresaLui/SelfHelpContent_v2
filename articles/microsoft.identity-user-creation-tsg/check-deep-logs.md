@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="31ee5e34-2ba4-4b46-be96-6150cdad5770"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check Kusto for request debugging

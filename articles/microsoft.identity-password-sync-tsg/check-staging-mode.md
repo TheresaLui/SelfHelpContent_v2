@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="21ed34df-bd3d-431a-b54c-12c691a8932c"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check if a server is in staging mode

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="d3e65bb2-7783-41ce-8ca4-35a35ec8d8a6"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Resolving global sync errors

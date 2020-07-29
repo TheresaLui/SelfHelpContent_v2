@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="894f3a14-8b55-46df-9ef0-c374b6b4e40d"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check sync feature state 

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="36ee9002-df79-4880-b5b2-5d993607437d"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Enable/disable password sync resolved the issue

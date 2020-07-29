@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="20d5f5fd-9e1f-47cc-881d-655a71124d7e"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # User is not authorized to create users in Azure AD

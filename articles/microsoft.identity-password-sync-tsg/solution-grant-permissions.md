@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="2350d2f1-d897-4527-a962-0e4818712c6e"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Grant permissions

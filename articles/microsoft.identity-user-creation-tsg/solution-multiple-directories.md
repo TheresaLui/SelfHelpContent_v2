@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="bb96b3d5-19dc-45bc-a165-7635164a0072"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Domain can not be verified in multiple Azure AD instances

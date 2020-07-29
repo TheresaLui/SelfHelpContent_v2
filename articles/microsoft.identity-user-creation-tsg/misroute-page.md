@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="8ca163f3-0942-4ba4-8632-174cf3f6ded1"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check if the case is assigned the right support topic

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="fbb1c152-be96-46fd-8229-97b4e359d445"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Users can not be created in federated domain

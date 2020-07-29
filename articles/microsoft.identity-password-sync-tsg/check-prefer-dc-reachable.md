@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="ec41b322-4c33-4bdf-9e9b-1ea81c5045f4"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check if the preferred domain controller is reachable

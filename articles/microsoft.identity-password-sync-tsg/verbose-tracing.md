@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="22c55743-ff8a-4a03-a98b-d43150404f5f"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Perform verbose tracing

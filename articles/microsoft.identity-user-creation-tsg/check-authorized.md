@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="b0ae7246-672f-4326-be68-931b0ff70685"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check if the user is authorized to create a member in Azure AD

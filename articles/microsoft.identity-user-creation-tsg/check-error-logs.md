@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="04f4da24-cb9e-41b6-ab51-0da7cb524a73"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check error logs

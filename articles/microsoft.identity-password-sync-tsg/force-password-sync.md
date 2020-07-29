@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="5981b983-d1be-414b-8ed3-7907a458aa82"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Force password sync

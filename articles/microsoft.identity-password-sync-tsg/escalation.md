@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="ff7f3cc1-f942-4eb5-b4c5-edd4725a0f88"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Escalation

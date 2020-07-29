@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="a9e22902-1907-4c03-887e-eb16ebad6ee9"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Fix AD/DNS/Network configuration

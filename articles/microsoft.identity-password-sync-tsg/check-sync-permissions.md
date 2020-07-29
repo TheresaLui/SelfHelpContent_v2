@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="8e331ffc-3195-4060-9286-a22c1d69a248"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check connect user permissions

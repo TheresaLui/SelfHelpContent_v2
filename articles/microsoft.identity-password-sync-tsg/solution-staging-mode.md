@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="377cab24-731b-4dba-b142-6f91f332a826"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Password Hash Sync does not work when the AADConnect server is in staging mode

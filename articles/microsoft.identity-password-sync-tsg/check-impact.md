@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="543cf42a-6877-4479-8878-76dc0def1fee"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check impact of password sync issues

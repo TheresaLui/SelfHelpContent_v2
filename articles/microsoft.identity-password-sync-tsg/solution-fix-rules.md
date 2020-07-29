@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="d70fef84-60c5-43df-be50-96f37988df56"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Fix sync rules

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="69ae9126-7fdf-4272-be5e-10ffbc56625a"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check if the domain name is verified

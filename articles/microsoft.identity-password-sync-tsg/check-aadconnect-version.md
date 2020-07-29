@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="db4e9551-b630-45ba-83a4-7f54ec12a236"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check AADConnect Version

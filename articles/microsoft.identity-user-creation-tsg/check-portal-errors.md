@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="4c3764b1-75ed-4188-9912-b6fc62d38662"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check Kusto for admin portal errors

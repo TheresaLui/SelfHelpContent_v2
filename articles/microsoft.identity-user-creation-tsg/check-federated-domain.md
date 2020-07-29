@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c9ddffd4-24ba-4a46-9c69-7a673e8bb758"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check if the domain is federated

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="bfa5be87-e803-4e25-a7e3-9c0807af2c65"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check if Password Hash Sync enabled for this forest

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="69f62959-5579-44d3-ad89-b2e2714a9505"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to enable logging for connector space object

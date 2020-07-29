@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="ed98dda7-b21a-4a0c-aeac-8576868c40e3"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check connectivity to AAD

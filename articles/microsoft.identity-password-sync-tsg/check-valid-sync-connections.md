@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="974b4253-5a28-4392-aa05-bb5c6ea3c1d6"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check if there are valid sync connections

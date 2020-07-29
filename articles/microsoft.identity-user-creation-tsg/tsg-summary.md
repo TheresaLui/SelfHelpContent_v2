@@ -12,6 +12,7 @@
     productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="975f8e24-825e-4a05-bc3a-c05c3cc2983a"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Azure AD User Creation Errors

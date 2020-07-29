@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="62ebbe6a-9153-41e7-b3d6-d4f9a7fb2415"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check if domain controller is discoverable

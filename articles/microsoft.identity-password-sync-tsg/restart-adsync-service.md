@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="54799fbf-3bd5-4fbe-ac6e-4a4f32242873"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Restart ADSync service

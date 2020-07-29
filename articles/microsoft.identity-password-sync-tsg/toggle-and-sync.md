@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="6af39e43-6f51-4158-a0ec-a27ab872e4ba"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Disable and reenable password sync using AADConnect wizard

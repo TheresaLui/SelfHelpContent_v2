@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="4a2fd971-e772-4c93-b214-d8eb75ffea46"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Collect AADConnect wizard logs

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="2eb4c504-f4ff-41ee-a86a-0e9998977dec"
+	   	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # How to check if this case involves an admin of multiple directories
