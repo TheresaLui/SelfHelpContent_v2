@@ -7,7 +7,7 @@
     ms.author="migreene"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="HOLD"
+    supportTopicIds="32743813"
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
