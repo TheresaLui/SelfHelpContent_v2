@@ -20,7 +20,7 @@
 
 ## **Recommended Documents**
 
-* [Learn about event routes](https://docs.microsoft.com/azure/digital-twins/concepts-event-routes) 
+* [Learn about event routes](https://docs.microsoft.com/azure/digital-twins/concepts-route-events) 
 
 * [Learn how to manage endpoints and event routes](https://docs.microsoft.com/azure/digital-twins/how-to-manage-routes)
 

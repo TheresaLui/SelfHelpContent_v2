@@ -22,7 +22,7 @@
 
 * [Learn about custom models](https://docs.microsoft.com/azure/digital-twins/concepts-models) 
 
-* [Learn about digital twins and the twin graph](https://docs.microsoft.com/azure/digital-twins/concepts-twin-graph)
+* [Learn about digital twins and the twin graph](https://docs.microsoft.com/azure/digital-twins/concepts-twins-graph)
 
 * [Learn how to parse and validate models](https://docs.microsoft.com/azure/digital-twins/how-to-use-parser) 
 
