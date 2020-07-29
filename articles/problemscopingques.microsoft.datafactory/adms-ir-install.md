@@ -1,18 +1,18 @@
 <properties
-	pageTitle="Azure Data Movement IR issue info"
-	description="Scoping questions to gather Azure Data Movement IR issue information"
-	authors="chez-charlie"
-	ms.author="chez"
+	pageTitle="Azure Data Movement IR installation info"
+	description="Scoping questions to gather Azure Data Movement IR installation information"
+	authors="hecepeda"
+	ms.author="hecepeda"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629537, 32637155"
+    supportTopicIds="32629536, 32629541"
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-    articleId="c39fcac9-2658-490f-9888-e78d2b526dee"
+    articleId="adms-ir-install.md"
 	ownershipId="AzureData_DataFactory"
 />
 
-# Azure Data Movement Integration Runtime Issue
+# Azure Data Movement Integration Runtime Installation Issue
 
 ---
 {
@@ -44,23 +44,30 @@
             "displayLabel": "What error message do you see?",
             "required": false
         },
-        {
-            "id": "problem_report_id",
+		{
+            "id": "ir_name",
             "order": 3,
             "controlType": "textbox",
+            "displayLabel": "Name of the Self-Hosted IR",
+            "required": false
+        },
+        {
+            "id": "problem_report_id",
+            "order": 4,
+            "controlType": "textbox",
             "displayLabel": "Is this a run time issue? If yes, please provide the Report ID. (see Solutions tab for guidance on how to obtain it)",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
         },
         {
             "id": "problem_end_time",
-            "order": 5,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
             "required": false
