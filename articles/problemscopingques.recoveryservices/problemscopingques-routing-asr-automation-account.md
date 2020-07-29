@@ -1,22 +1,22 @@
 <properties
-    articleId="ac92ca9c-37p2-017a-a5e4-49812c98d489"
-    pageTitle="Failback failed"
-    description="Failback failed"
+    articleId="ac92ca9c-17p2-017a-a5e4-49812c98d489"
+    pageTitle="I need help with my automation account"
+    description="I need help with my automation account"
     authors="TobyTu"
     ms.author="sideeksh"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32744979"
+    supportTopicIds="32745003"
     productPesIds="16370"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     ownershipId="Compute_SiteRecovery"
 />
-# Failback failed
+# I need help with my automation account
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Failback failed",
+    "title": "I need help with my automation account",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -61,19 +61,11 @@
            ]
         },
         {
-            "id": "name",
+            "id": "disk_name",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Please provide the name of the VM with which you are experiencing the problem.",
+            "displayLabel": "Please provide the name of the automation account(s) with which you are experiencing the problem.",
             "watermarkText": "Enter the name",
-            "required": false
-        },
-        {
-            "id": "os_version",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "What is the operating system version of the VM(s)?",
-            "watermarkText": "Enter the OS version",
             "required": false
         },
         {

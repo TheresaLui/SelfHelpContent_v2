@@ -1,22 +1,22 @@
 <properties
-    articleId="ac92ca9c-36p2-017a-a5e4-49812c98d489"
-    pageTitle="Reprotect failed"
-    description="Reprotect failed"
+    articleId="ac92ca9c-08p2-017a-a5e4-49812c98d489"
+    pageTitle="Crash-consistent recovery points are not being generated"
+    description="Crash-consistent recovery points are not being generated"
     authors="TobyTu"
     ms.author="sideeksh"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32745025"
+    supportTopicIds="32744976"
     productPesIds="16370"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     ownershipId="Compute_SiteRecovery"
 />
-# Reprotect failed
+# Crash-consistent recovery points are not being generated
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Reprotect failed",
+    "title": "Crash-consistent recovery points are not being generated",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -61,10 +61,10 @@
            ]
         },
         {
-            "id": "name",
+            "id": "vm_name",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Please provide the name of the VM with which you are experiencing the problem.",
+            "displayLabel": "Please provide the name of the VM(s) experiencing the problem.",
             "watermarkText": "Enter the name",
             "required": false
         },
