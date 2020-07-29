@@ -1,22 +1,22 @@
 <properties
-    articleId="ac92ca9c-36p2-017a-a5e4-49812c98d489"
-    pageTitle="Reprotect failed"
-    description="Reprotect failed"
+    articleId="ac92ca9c-30p2-017a-a5e4-49812c98d489"
+    pageTitle="I am unable to install the mobility service agent due to connectivity issues"
+    description="I am unable to install the mobility service agent due to connectivity issues"
     authors="TobyTu"
     ms.author="sideeksh"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32745025"
+    supportTopicIds="32744985"
     productPesIds="16370"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     ownershipId="Compute_SiteRecovery"
 />
-# Reprotect failed
+# I am unable to install the mobility service agent due to connectivity issues
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Reprotect failed",
+    "title": "I am unable to install the mobility service agent due to connectivity issues",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -69,16 +69,8 @@
             "required": false
         },
         {
-            "id": "os_version",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "What is the operating system version of the VM(s)?",
-            "watermarkText": "Enter the OS version",
-            "required": false
-        },
-        {
             "id": "job_id",
-            "order": 5,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Please provide the ID of the failed Site Recovery job.",
             "watermarkText": "Enter the ID",
@@ -86,7 +78,7 @@
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Please additional details about the issue.",
             "watermarkText": "Please provide the detailed symptom and any other relevant information.",
