@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "63dcaba0-2bc7-b7c0-fcb0-4ea632232087",
+      "longDescription": "",
+      "shortDescription": "Investigate anomaly alerts (Impossible travel, Suspicious inbox manipulation, etc.), Risky or Suspicious users, Risky OAuth apps",
+      "searchTags": "impossible travel;suspicious;alerts;anomaly",
+      "category": "Investigation",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "65ff0c49-4d24-0b04-8368-b8e5278a06e7",
       "longDescription": "",
       "shortDescription": "How can connector setting impact files visibility",
