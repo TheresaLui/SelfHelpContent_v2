@@ -9,7 +9,7 @@ displayOrder=""
 selfHelpType="generic"
 supportTopicIds="32683942"
 productPesIds="16869"
-cloudEnvironments="public, MoonCake, fairfax"
+cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
 articleId="LUIS_Conversation_LuisPortal_unableToSignInOrUnresponsive Portal"
 ownershipId="AzureCogSvc_CognitiveServices"
 />

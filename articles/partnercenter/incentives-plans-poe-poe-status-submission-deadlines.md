@@ -41,3 +41,7 @@ To view the status of a PoE:
 	* Editing 
 	* Approved
 	* Rejected
+
+## **Recommended Documents**
+* [Create your plan](https://docs.microsoft.com/partner-center/incentives-create-your-plan)
+* [Prepare your proof of execution](https://docs.microsoft.com/partner-center/incentives-prepare-your-proof-of-execution)

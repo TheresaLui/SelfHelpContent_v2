@@ -1,20 +1,15 @@
 <properties
-    pageTitle="Azure Arc for Servers - Cannot install agent (Linux)"
-    description="Azure Arc for Servers - Cannot install agent (Linux)"
-    service="microsoft.hybridcompute"
-    resource="hybridcompute"
-    authors="zjalexander"
-    ms.author="zachal"
-    displayorder=""
-    selfHelpType="generic"
-    supportTopicIds="32689153"
-    resourceTags=""
-    productPesIds="16872"
-    cloudEnvironments="public, fairfax, usnat, ussec"
-    articleId="ac3a1409-1fec-41f8-bcb1-443a43f9afde"
-    ownershipId="Compute_HybridResourceProvider"
-/>
-
+  pagetitle="Installing the Azure Arc for Servers Agent"
+  service="microsoft.hybridcompute"
+  resource="hybridcompute"
+  ms.author="t-juwa"
+  selfhelptype="Generic"
+  supporttopicids="32689165"
+  resourcetags=""
+  productpesids="16872"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="ac3a1409-1fec-41f8-bcb1-443a43f9afde"
+  ownershipid="Compute_HybridResourceProvider" />
 # Installing the Azure Arc for Servers Agent
 
 This article will help with issues installing the Azure Arc for Servers Agent on Windows.
