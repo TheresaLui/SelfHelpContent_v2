@@ -9,7 +9,7 @@
 	articleId="digitaltwins-apis-security-authentication"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="d70922b5-0792-f226-1f60-c24962bb0bbe"
+	supportTopicIds="32741659"
 	resourceTags=""
 	productPesIds="17262"
 	cloudEnvironments="public"

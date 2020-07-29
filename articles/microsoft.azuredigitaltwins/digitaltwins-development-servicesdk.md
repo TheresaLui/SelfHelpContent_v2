@@ -9,7 +9,7 @@
 	articleId="digitaltwins-development-servicesdk"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="a45f9cf1-2f63-2212-c57e-c9ee5ef1c6b2"
+	supportTopicIds="32741662"
 	resourceTags=""
 	productPesIds="17262"
 	cloudEnvironments="public"

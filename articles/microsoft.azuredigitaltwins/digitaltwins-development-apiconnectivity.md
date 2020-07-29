@@ -9,7 +9,7 @@
 	articleId="digitaltwins-development-apiconnectivity"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="87e5a11c-eb91-449a-f76e-e310746442a1"
+	supportTopicIds="32741639"
 	resourceTags=""
 	productPesIds="17262"
 	cloudEnvironments="public"

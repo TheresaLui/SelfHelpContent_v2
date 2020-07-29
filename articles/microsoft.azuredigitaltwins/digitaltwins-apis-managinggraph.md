@@ -9,7 +9,7 @@
 	articleId="digitaltwins-apis-managinggraph"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="287285bc-64dc-3e7c-bd24-bf5e0569bee8"
+	supportTopicIds="32741642"
 	resourceTags=""
 	productPesIds="17262"
 	cloudEnvironments="public"

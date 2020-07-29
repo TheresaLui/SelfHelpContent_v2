@@ -9,7 +9,7 @@
 	articleId="digitaltwins-apis-security-rbac"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="712c6197-195b-37d7-321e-c3ea66263774"
+	supportTopicIds="32741660"
 	resourceTags=""
 	productPesIds="17262"
 	cloudEnvironments="public"

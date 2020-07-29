@@ -9,7 +9,7 @@
 	articleId="digitaltwins-apis-queryinggraph"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="69ba4fbd-d678-389b-10f4-3901aaf4c19b"
+	supportTopicIds="32741657"
 	resourceTags=""
 	productPesIds="17262"
 	cloudEnvironments="public"
