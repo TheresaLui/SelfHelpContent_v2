@@ -1,22 +1,22 @@
 <properties
-    articleId="ac92ca9c-38p2-017a-a5e4-49812c98d489"
-    pageTitle="I need help with Site Recovery licenses"
-    description="I need help with Site Recovery licenses"
+    articleId="ac92ca9c-24p2-017a-a5e4-49812c98d489"
+    pageTitle="I need help with configuration server"
+    description="I need help with configuration server"
     authors="TobyTu"
     ms.author="sideeksh"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32745016"
+    supportTopicIds="32744997"
     productPesIds="16370"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     ownershipId="Compute_SiteRecovery"
 />
-# I need help with Site Recovery licenses
+# I need help with configuration server
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "I need help with Site Recovery licenses",
+    "title": "I need help with configuration server",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -27,20 +27,32 @@
             "required": true
         },
         {
-            "id": "user_type",
+            "id": "failover_scenario",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Are you a current user of Site Recovery or a prospective user?",
+            "displayLabel": "What is the scenario?",
             "watermarkText": "Choose an option",
             "required": true,
             "dropdownOptions": [
               {
-              "value": "Current user",
-              "text": "Current user"
+              "value": "Azure VMs to Azure",
+              "text": "Azure VMs to Azure"
               },
               {
-              "value": "Prospective user",
-              "text": "Prospective user"
+              "value": "VMware VMs to Azure",
+              "text": "VMware VMs to Azure"
+              },
+              {
+              "value": "Hyper-V VMs to Azure",
+              "text": "Hyper-V VMs to Azure"
+              },
+              {
+              "value": "Physical machines to Azure",
+              "text": "Physical machines to Azure"
+              },
+              {
+              "value": "Enterprise to Enterprise",
+              "text": "Enterprise to Enterprise"
               },
               {
               "value": "dont_know_answer",
@@ -49,29 +61,24 @@
            ]
         },
         {
-            "id": "reference",
+            "id": "name",
             "order": 3,
-            "controlType": "multiselectdropdown",
-            "displayLabel": "Please confirm you have gone through the steps mentioned in the following articles:",
-            "required": false,
-            "dropdownOptions": [
-              {
-              "value": "Pricing for Azure Site Recovery",
-              "text": "Pricing for Azure Site Recovery"
-              },
-              {
-              "value": "Know how much it will cost you for enabling DR on your Azure VMs",
-              "text": "Know how much it will cost you for enabling DR on your Azure VMs"
-              },
-              {
-              "value": "dont_know_answer",
-              "text": "Other, don't know or not applicable"
-              }
-           ]
+            "controlType": "textbox",
+            "displayLabel": "Please provide the name of the configuration server.",
+            "watermarkText": "Enter the name",
+            "required": false
+        },
+        {
+            "id": "job_id",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Please provide the ID of the failed Site Recovery job.",
+            "watermarkText": "Enter the ID",
+            "required": false
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Please additional details about the issue.",
             "watermarkText": "Please provide the detailed symptom and any other relevant information.",

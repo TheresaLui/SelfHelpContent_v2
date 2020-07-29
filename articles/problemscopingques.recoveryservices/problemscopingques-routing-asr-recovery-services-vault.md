@@ -1,22 +1,22 @@
 <properties
-    articleId="ac92ca9c-36p2-017a-a5e4-49812c98d489"
-    pageTitle="Reprotect failed"
-    description="Reprotect failed"
+    articleId="ac92ca9c-18p2-017a-a5e4-49812c98d489"
+    pageTitle="I need help with my Recovery Services Vault"
+    description="I need help with my Recovery Services Vault"
     authors="TobyTu"
     ms.author="sideeksh"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32745025"
+    supportTopicIds="32745005"
     productPesIds="16370"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     ownershipId="Compute_SiteRecovery"
 />
-# Reprotect failed
+# I need help with my Recovery Services Vault
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Reprotect failed",
+    "title": "I need help with my Recovery Services Vault",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -61,19 +61,11 @@
            ]
         },
         {
-            "id": "name",
+            "id": "vault_name",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Please provide the name of the VM with which you are experiencing the problem.",
+            "displayLabel": "Please provide the name of the Recovery Services Vault(s) with which you are experiencing the problem.",
             "watermarkText": "Enter the name",
-            "required": false
-        },
-        {
-            "id": "os_version",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "What is the operating system version of the VM(s)?",
-            "watermarkText": "Enter the OS version",
             "required": false
         },
         {
