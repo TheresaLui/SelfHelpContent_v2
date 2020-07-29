@@ -9,7 +9,7 @@
 	articleId="digitaltwins-apis-endpointsroutes"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="e0c94c16-b6d3-80c7-5586-a12f9272f125"
+	supportTopicIds="32741664"
 	resourceTags=""
 	productPesIds="17262"
 	cloudEnvironments="public"
