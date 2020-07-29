@@ -111,7 +111,7 @@
     {
       "id": "41159b88-e709-6b6a-32c5-c7a779bca991",
       "longDescription": "",
-      "shortDescription": "How to resolving a sensor health alert",
+      "shortDescription": "Help resolving a sensor health alert",
       "searchTags": "sensor;health",
       "category": "Investigating Alerts",
       "useInDiagnoseAndSolve": "true"
