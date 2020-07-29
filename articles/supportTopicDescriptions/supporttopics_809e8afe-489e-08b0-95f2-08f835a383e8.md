@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6776c9d5-7a61-021e-21ac-c2f923db2b0d",
+      "longDescription": "",
+      "shortDescription": "How to Enable Group managed service accounts (gMSA) with Azure ATP",
+      "searchTags": "gMSA;Group Management",
+      "category": "Onboarding and Installing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "67cee420-039d-bdd2-0e44-f84388f2f7f3",
       "longDescription": "",
       "shortDescription": "Problems accessing the portal for an existing Azure ATP instance",
