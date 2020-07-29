@@ -16,9 +16,9 @@
 />
 
 # Monitor performance of Application Gateway
-If you are interested in monitoring the performance of your Application Gateway, then view the [Performance metrics](https://docs.microsoft.com/azure/application-gateway/application-gateway-metrics#application-gateway-metrics) in the portal to see the count of compute units consumed, connections, throughput, etc.
+If you are interested in monitoring the performance of your Application Gateway, view the [Performance metrics](https://docs.microsoft.com/azure/application-gateway/application-gateway-metrics#application-gateway-metrics) in the portal to see the count of compute units consumed, connections, throughput, etc.
 
 ## **Recommended Documents**
 
-- [Check sizing information for application gateway here](https://docs.microsoft.com/azure/application-gateway/features#sizing).
-- [Migrate to high-performance V2 SKU of Application Gateway](https://docs.microsoft.com/azure/application-gateway/migrate-v1-v2).
+- [Check sizing information for application gateway here](https://docs.microsoft.com/azure/application-gateway/features#sizing)
+- [Migrate to high-performance V2 SKU of Application Gateway](https://docs.microsoft.com/azure/application-gateway/migrate-v1-v2)
