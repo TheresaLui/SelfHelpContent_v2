@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b84a60f2-9cdf-dd88-f8d7-b3df57529804",
+      "longDescription": "",
+      "shortDescription": "Creation of custom activity policies for detecting specific conditions",
+      "searchTags": "activities;policies;conditions",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cdd4edb6-7fd4-0cf4-c416-df6c8af89538",
       "longDescription": "",
       "shortDescription": "How can scoped deployment, connector issues or errors, O365 Auditing result in missing activities",
