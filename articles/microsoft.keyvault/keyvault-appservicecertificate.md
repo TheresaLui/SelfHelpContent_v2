@@ -16,10 +16,10 @@
 />
 
 # App Service Certificate
+
 ## **Recommended Steps**
 
-* Unable to see the certificate imported to Key Vault from Azure App services <br>
-  If the certificate was successfully imported, please review in under secrets if it is not showing under certificates.
+* Unable to see the certificate imported to Key Vault from Azure App services? If the certificate was successfully imported, please review in under secrets if it is not showing under certificates.
 * [Storing App Service Certificate in Key Vault](https://docs.microsoft.com/azure/app-service/configure-ssl-certificate#import-an-app-service-certificate)
 * [Web Service Certificate](https://azure.github.io/AppService/2016/05/24/Deploying-Azure-Web-App-Certificate-through-Key-Vault.html)
 * [Add a TLS/SSL certificate in Azure App Service](https://docs.microsoft.com/azure/app-service/configure-ssl-certificate)
