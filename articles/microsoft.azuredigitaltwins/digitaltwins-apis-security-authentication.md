@@ -20,7 +20,7 @@
 
 ## **Recommended Documents**
 
-* Explore the basics of authentication in the "Authenticating against the service" section of the [code a client app tutorial](https://docs.microsoft.com/azure/digital-twins/-tutorial-code) in documentation.
+* Explore the basics of authentication in the "Authenticating against the service" section of the [code a client app tutorial](https://docs.microsoft.com/azure/digital-twins/tutorial-code) in documentation.
 
 * [Learn how to authenticate a client app](https://docs.microsoft.com/azure/digital-twins/how-to-authenticate-client)
 
