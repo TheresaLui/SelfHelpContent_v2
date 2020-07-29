@@ -18,5 +18,10 @@
 # No Access (403) when trying to delete an Azure File Share
 
 <!--issueDescription-->
-We've researched your case and believe that your unable to delete issue is due to Azure Firewall being enabled on your storage account and the source IP/Public IP of the connection not being whitelisted. In order to resolve this issue you must whitelist the Public IP within the Firewall of the Storage Account.
+We've researched your case and believe that the unable to delete issue is due to [Azure Firewall](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security) being enabled on your storage account and the source IP/Public IP of the connection not being whitelisted. In order to resolve this issue you must [whitelist the Public IP within the Firewall of the Storage Account](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security#grant-access-from-an-internet-ip-range).
 <!--/issueDescription-->
+
+## Recommended Documents
+
+1. [Grant access from an internet IP range](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security#grant-access-from-an-internet-ip-range)
+2. [Azure Firewall](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security)

@@ -21,8 +21,9 @@
 
 ### **Troubleshooting**
 
-* Job failures/long running jobs could be caused due to insufficient resources on the cluster for yarn to allocate containers for already executing applications. We recommend to retry the job when sufficient resources are available. You can check Ambari for 
+* Job failures/long running jobs could be caused due to insufficient resources on the cluster for yarn to allocate containers for already executing applications. We recommend retrying the job when sufficient resources are available. You can check Ambari for 
 available resources by following article [here](https://docs.microsoft.com/azure/hdinsight/hdinsight-changing-configs-via-ambari#apache-hive-optimization).
+* If you have migrated from HDI 3.6 to HDI 4.0, there are changes to the way the metastores work between the two that you should be familiar with. Mainly, in HDI 4.0, there are 2 separate metastores for Spark and Hive. You will need to use the Hive Data Warehouse Connector to explicitly register Hive transactional tables as Spark tables. For more information, see [Integrate Apache Spark and Apache Hive with the Hive Warehouse Connector](https://docs.microsoft.com/azure/hdinsight/interactive-query/apache-hive-warehouse-connector).
 * Check out [Apache Hive Optimization](https://docs.microsoft.com/azure/hdinsight/hdinsight-changing-configs-via-ambari#apache-hive-optimization) for configuration options like vectorization, parallel execution, and more which will optimize your Apache Hive performance
 * [How to resolve poor performance in Apache Hive LLAP queries in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/interactive-query/interactive-query-troubleshoot-query-performance)
 * [Troubleshoot Apache Hive by using Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-hive)

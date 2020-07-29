@@ -23,6 +23,6 @@ In order for AD Auth to work properly, please make sure customer's client machin
 
 ## **Recommended Steps**
 
-1. Please ask the customer to work with their ISP/IT Admin to open outbound port 445. This is one of the prerequisites which is needed in order to mound Azure File Storage. 
-2. Once they have successfully opened the port, re-run the "Debug-AzStorageAccountAuth" cmdlet to make sure all the other checks pass successfully. If they do not, go back to previous step to further troubleshoot. 
+1. Please ask the customer to review the solutions specified in this [public document](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#solution-for-cause-1-1). Possible solutions include unblocking 445 port with the help of their ISP/IT Admin or setting up a VPN. 
+2. Once they have successfully opened the port or have setup the VPN, re-run the "Debug-AzStorageAccountAuth" cmdlet to make sure all the other checks pass successfully. If they do not, go back to previous step to further troubleshoot. 
 3. If "Debug-AzStorageAccountAuth" completes successfully, ask the customer to try mounting the file share. If mount still fails, escalate.

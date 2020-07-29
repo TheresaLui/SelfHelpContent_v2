@@ -5,7 +5,7 @@
   ms.author="ujpat,amamun"
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32740095"
-  productPesIds="14745"
+  productPesIds="14745,16342"
   cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
   schemaVersion="1"
   articleId="ce183e5b-5f6a-4568-a33d-56ff5ccf6b39"
@@ -37,15 +37,15 @@
             "infoBalloonText": null,
             "dropdownOptions": [
                 {
-                    "text": "I’m still planning/have general questions",
+                    "text": "I'm still planning/have general questions",
                     "value": "Planning"
                 },
                 {
-                    "text": "I’m setting it up and need help",
+                    "text": "I'm setting it up and need help",
                     "value": "SettingBackupRestoreHelp"
                 },
                 {
-                    "text": "I’ve got a backup/restore that is failing",
+                    "text": "I've got a backup/restore that is failing",
                     "value": "FailedBackupRestore"
                 }
             ],
@@ -103,7 +103,7 @@
                     "value": "TSQL"
                 },
                 {
-                    "text": "I’m not sure/don’t know",
+                    "text": "I'm not sure/don't know",
                     "value": "dont_know_answer"
                 }
             ],

@@ -5,7 +5,7 @@
   ms.author="ujpat,amamun"
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32740079"
-  productPesIds="14745"
+  productPesIds="14745,16342"
   cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
   schemaVersion="1"
   articleId="f89cfb37-73fe-446a-9b93-b3112c2e2ca4"
@@ -45,7 +45,7 @@
                     "value": "DBPartition"
                 },
                 {
-                    "text": "I’m not sure/don’t know",
+                    "text": "I'm not sure/don't know",
                     "value": "dont_know_answer"
                 }
             ],

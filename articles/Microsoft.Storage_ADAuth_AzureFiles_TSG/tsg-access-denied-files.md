@@ -26,43 +26,38 @@ Access denied while trying to access files/directory
 
 Accessing a file or directory when using Azure Files with identity-based authentication requires two levels of authorization 1) share-level and 2) file/directory object-level.
     
-For share-level authorization, Administrators assign permissions through the RBAC model in Portal.  A user may be authorized one or many of the following share-level permissions:
+For share-level authorization, Administrators assign permissions through the RBAC model in Portal. For more details, see here: https://docs.microsoft.com/azure/storage/files/storage-files-identity-ad-ds-assign-permissions
     
-            FileShareFile_Read,
-            FileShareFile_Write,
-            FileShareFile_Delete,
-            FileShareFile_ModifyPermission,
-    
-A user must have a SID present in their Kerberos ticket that corresponds to an OID present in the role definition for their subscription.  
-    
-For file-level authorization, the system uses NTFS ACLs on a per-file/directory basis.  A user must have a SID present in their Kerberos ticket that matches a SID authorized in the in the security descriptor for the file/directory object.  
+For file-level authorization, the system uses NTFS ACLs on a per-file/directory basis.  A user must have a SID present in their Kerberos ticket that matches a SID authorized in the in the security descriptor for the file/directory object. For more details, see here: https://docs.microsoft.com/azure/storage/files/storage-files-identity-ad-ds-configure-permissions 
     
 To open a file for a certain permission (for example "write"), the user must have share-level write permissions as well as file-level write permissions.  
 
-**Data to collect**
+**Things to check**
 
 1. Ask the customer for their output for the security descriptor of the file.
         
-        icalcls "fileOrdirectoryName"
+        icacls "fileOrdirectoryName"
         
 2. Ask the customer for the output of "whoami /user" and "whoami /groups"
 
-3. Identify OID corresponding to customer's AD Account and Ggab the storage account's role definition.This is available via Azure Support Center -> AD Explorer.
-
-![](Screenshots\ASCAccountRoles.png)
-
-4. Ask the customer to do graph lookup to get corresponding SIDs for their OIDs.
-
-    a. Login to http://graphexplorer.azurewebsites.net/# as any azure user
-
-    b. In the query space, enter as below. Modify the highlighted to match the OID for which you are trying to get corresponding on-prem SID.
-
-      https://graph.windows.net/myorganization/users/41afbc1d-e326-41aa-b737-c7b46c2bbc3e
-
-   ![GraphAPI.png](Screenshots\GraphAPI.png)
+3. Verify the RBAC permissions customer has on their storage account. This can be done through ASC Resource Explorer as shown below. See here: https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD/295083/ADAuth-for-Azure-Files-Access-Denied.md?anchor=things-to-check
 
 **Resolution**
 
-1. Determine if the user has Share level access by verifying their RBAC permissions through ASC and verify their SID which we retrieved from Step 4 is part of the "whoami /user" or "whoami /groups" result. Provide appropriate RBAC permissions as required. 
+Based on the RBAC and NTFS permissions customer has in place, they will have the following permissions on a file/directory.
 
-2. Determine if the user has appropriate file/directory level NTFS permissions. Use the result of step 2 and verify one of the username is part of the result of step 1.
+|                      | RBAC - None   | RBAC - SMB Reader | RBAC Contributor                 | RBAC SMB Elevated                                                                  |
+|----------------------|---------------|-------------------|----------------------------------|------------------------------------------------------------------------------------|
+| NTFS -None           | Access Denied | Access Denied     | Access Denied                    | Access Denied                                                                      |
+| NTFS - Read          | Access Denied |        Read       |               Read               |                                        Read                                        |
+| NTFS - Run & Execute | Access Denied |        Read       |               Read               |                                        Read                                        |
+| NTFS - List Folder   | Access Denied |        Read       |               Read               |                                        Read                                        |
+| NTFS - Write         | Access Denied |        Read       |        Read,   Run, Write        |           Read,   Write,       Apply Permissions to your own folder/files          |
+| NTFS - Modify        | Access Denied |        Read       | Read,   Write,       Run, Delete | Read,   Write,       Run, Delete,       Apply Permissions to your own folder/files |
+| NTFS - Full          | Access Denied |        Read       | Read,   Write,       Run, Delete |    Read,   Write, Run,       Delete, Apply Permissions to anyone's folders/files   |
+
+1. Determine if the user should have share access by verifying the RBAC permissions.
+
+2. Determine if the user should have file/directory access by verifying the NTFS permissions.  
+
+If the user does not have appropriate permissions, please work with them to provide user necessary RBAC/NTFS permissions by referring to the table above. 

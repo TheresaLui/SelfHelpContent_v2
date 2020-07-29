@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="1f8b97ae-9dbb-4f91-b5c3-0817bc6eabdc"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -22,9 +22,3 @@ There might be multiple VPN protocols methods enabled so the customer needs to t
 ## Recommended Steps
 
 1. Check the SR verbatim or ask the customer to confirm which protocol their clients are using
-
-
-Which protocol is the customer using?
-- SSTP
-- IKEv2
-- OpenVPN

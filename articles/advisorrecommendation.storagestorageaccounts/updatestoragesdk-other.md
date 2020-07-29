@@ -5,7 +5,7 @@
     ms.author="xdataanalytics"
     articleId="13215084-d37f-41b3-889a-be66f24fd805_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="StorageMediaEdge_XStore"
 />
 # Sample title
@@ -16,8 +16,8 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "97172837-e5ea-45b2-af3b-cadbf428a6d9",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('xstore').AzureStorageAdvisorUseLatestVersionSDK_AllRoles",
-    "dataSource": "Kusto",
+    "streamNamespace": "AzureStorage.Data.AzureStorageAdvisorUseLatestVersionSDK_AllRoles_PublicV2",
+    "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
@@ -34,7 +34,7 @@
     },
     "serviceTreeId": "734379f9-2d2c-48d4-a52a-5c509f699de4"
   },
-  "version": 1,
+  "version": 4,
   "learnMoreLink": "{recommendedActionLearnMore}",
   "description": "Upgrade your Storage Client Library to the latest version for better reliability and performance",
   "longDescription": "The latest version of Storage Client Library/ SDK contains fixes to issues reported by customers and proactively identified through our QA process. The latest version also carries reliability and performance optimization in addition to new features that can improve your overall experience using Azure Storage.",
@@ -74,8 +74,13 @@
     {
       "name": "version",
       "title": "Minimum Recommended Version"
+    },
+    {
+      "name": "currentVersion",
+      "title": "Current Version"
     }
   ],
-  "tip": ""
+  "tip": "",
+  "testData": "65490f91-f2c2-4514-80ba-4ec1de89aeda, /subscriptions/65490f91-f2c2-4514-80ba-4ec1de89aeda/resourceGroups/XStoreDataAnalytics/providers/Microsoft.Storage/storageAccounts/axdataanalyticsstgwestus, \"{\"\"language\"\":\"\".Net\"\",\"\"version\"\":\"\"10.0.1\"\",\"\"recommendedActionLearnMore\"\":\"\"https://github.com/Azure/azure-storage-net/#via-nuget\"\",\"\"releaseNotes\"\":\"\"https://github.com/Azure/azure-storage-net/releases/tag/v10.0.2\"\"}\""
 }
 ---

@@ -4,7 +4,7 @@
 	authors="lle"
     ms.author="lle"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629549, 32629522"
+    supportTopicIds="32680897, 32680900"
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"

@@ -29,4 +29,5 @@ For other security capabilities, refer to these documents:
 
 * [SQL Pool Security Overview](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-overview-manage-security/)
 * [Auditing - servers, pools, and databases](https://docs.microsoft.com/azure/sql-database/sql-database-auditing?WT.mc_id=pid:13491:sid:32630407/)
+* [Advanced data security](https://docs.microsoft.com/azure/sql-database/sql-database-advanced-data-security)
 

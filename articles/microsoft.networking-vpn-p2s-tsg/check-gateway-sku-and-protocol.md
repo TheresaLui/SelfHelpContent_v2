@@ -10,12 +10,12 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="2eb3f89b-0950-43c9-9e85-cb3920fb7647"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
 
-# Check gateway SKU & protocol
+# Check gateway SKU and protocol
 
 ## Recommended Steps
 
@@ -30,12 +30,6 @@ Basic SKU doesn't support IKEv2 nor OpenVPN.
 * A classic gateway or Basic SKU does not support IKEv2 nor OpenVPN.
 * For this reason the  classic gateway or Basic SKU only supports SSTP (and Windows clients).
 
-## Recommended Documents
+## Recommended documents
 
 * https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways#gwsku
-
-Is the customer attempting to use a Basic Gateway with IKEv2/OpenVPN?
-- Yes the Gateway is Basic and the customer is trying to use IKEv2/OpenVPN.
-- The gateway is Basic and the protocol is SSTP.
-- The Gateway is not Basic
----
