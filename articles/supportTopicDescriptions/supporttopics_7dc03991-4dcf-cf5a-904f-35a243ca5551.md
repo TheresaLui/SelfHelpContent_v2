@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8b9f5f69-8c34-3a8f-2353-ae09020daeec",
+      "longDescription": "",
+      "shortDescription": "Access and session policies configuration",
+      "searchTags": "access;policies",
+      "category": "Conditional Access",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8ef7e43f-6258-f2d1-2577-9494243a1a60",
       "longDescription": "",
       "shortDescription": "Anomaly detection alerts remediation",
