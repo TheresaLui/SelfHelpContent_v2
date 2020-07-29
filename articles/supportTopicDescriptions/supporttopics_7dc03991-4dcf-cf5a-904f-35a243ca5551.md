@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "84eb2e50-1369-c8f2-78ad-bf1f808ba7a2",
+      "longDescription": "",
+      "shortDescription": "Investigate suspicious users and accounts, including issues in UEBA",
+      "searchTags": "UEBA;accounts;users",
+      "category": "Investigation",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b9f5f69-8c34-3a8f-2353-ae09020daeec",
       "longDescription": "",
       "shortDescription": "Access and session policies configuration",
