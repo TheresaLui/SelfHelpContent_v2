@@ -9,7 +9,7 @@
 	articleId="AZDevOpsDeployReleaseIssues"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32373545,  32452973"
+	supportTopicIds="32742294, 32742297, 32742298, 32742299, 32742300, 32742302, 32742303, 32742310, 32742324"
    	resourceTags=""
 	productPesIds="15543"
 	cloudEnvironments="public, fairfax, usnat, ussec"

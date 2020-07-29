@@ -10,11 +10,11 @@
 	articleId="marketplace_sharepointaddin_support"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689373"
+	supportTopicIds="32728248"
 	resourceTags="marketplace"
-	productPesIds="15960, 17000"
+	productPesIds="17006"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # Resources for SharePoint Add-ins
@@ -22,6 +22,6 @@
 
 ## **Recommended Documents**
 
-* [Deploying and installing SharePoint Add-ins: methods and options](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/deploying-and-installing-sharepoint-add-ins-methods-and-options)
-* [Tenancies and deployment scopes for SharePoint Add-ins](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/tenancies-and-deployment-scopes-for-sharepoint-add-ins)
-* [SharePoint Add-ins update process](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins-update-process)
+- [Deploying and installing SharePoint Add-ins: methods and options](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/deploying-and-installing-sharepoint-add-ins-methods-and-options)
+- [Tenancies and deployment scopes for SharePoint Add-ins](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/tenancies-and-deployment-scopes-for-sharepoint-add-ins)
+- [SharePoint Add-ins update process](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins-update-process)

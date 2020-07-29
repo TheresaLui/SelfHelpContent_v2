@@ -10,9 +10,9 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
-	articleId="8745748b-81a4-4dd5-a5ac-8ea77cb2a6cd"
-        ownershipId="Centennial_CloudNet_AzureVPNGateway"
+	cloudEnvironments="public,fairfax, usnat, ussec"
+	articleId="a1f3ff58-d0fe-40f1-a277-7e6cefbd82f8"
+  ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
 
 # Solution for OpenVPN does not support this scenario

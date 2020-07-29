@@ -11,7 +11,7 @@
 	articleId="02f28dcb-27ef-4feb-b54a-d00eccd5d16c"
 />
 
-# Select the customer's connectiviyt scenario
+# Select the customer's connectivity scenario
 
 Review the customer verbatim or talk with the customer to determine the scenario that matches best
 

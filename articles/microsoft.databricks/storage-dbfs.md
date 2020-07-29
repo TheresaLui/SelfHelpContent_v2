@@ -19,4 +19,10 @@
 
 ## **Recommended Documents**
 
-* [Cannot Read Azure Databricks Objects Stored in DBFS Root Directory](https://kb.azuredatabricks.net/dbfs/dbfs-root-permissions.html)
+* [How To: Configure customer-managed keys on default (root) DBFS](https://docs.microsoft.com/azure/databricks/security/keys/customer-managed-keys-dbfs) 
+
+* [Troubleshoot Error: Access Denied error returns when you attempt to read Azure Databricks objects stored in the DBFS root directory in blob storage](https://docs.microsoft.com/azure/databricks/kb/dbfs/dbfs-root-permissions)
+
+* If you encounter error "Unable to update storage account <storage account name>", make sure the storage account identity is given access policy permission
+	
+* If you encounter error "Missing Key Identifier", verify the key and key version are provided and keyvault uri format is correct

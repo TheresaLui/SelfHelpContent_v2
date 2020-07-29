@@ -10,12 +10,12 @@
 	articleId="partnercenter_customers_offers_subs_cancelazure_rbac"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692614"
+	supportTopicIds="32725882"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
+	productPesIds="17012"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
 # Cancel Azure plan without role-based access control

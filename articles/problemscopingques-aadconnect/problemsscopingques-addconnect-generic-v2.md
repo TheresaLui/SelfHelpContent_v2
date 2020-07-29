@@ -4,7 +4,7 @@
     authors="rodejo"
     ms.author="rodejo"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32684505,32684509,32684511,32684518,32684520,32684524,32684507,32684508,32684512,32684521,32684522,32684514,32684515,32684516,32684517,32684519,32684504,32684506,32684510,32684513,32684523"
+    supportTopicIds="32684514,32684515,32684516,32684517,32684519"
     productPesIds="16666"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"

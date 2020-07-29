@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32739550,32739547,32739553,32739554,32739529"
     productPesIds="17005"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="scopingquestion-partnercenter-incentives-payments-adjustment"
     clientIds="partnercenter"
@@ -19,9 +19,8 @@
 	"resourceRequired": true,
 	"subscriptionRequired": true,
 	"title": "Incentives payment and adjustment issues",
-	"fileAttachmentHint": "Upload any screenshots, transaction history CSVs, or other supporting files that can help us understand the technical issue.",
-	"formElements": [
-		{
+	"fileAttachmentHint": "Please include any transaction history/summary CSVs, screenshots (including screenshots of your payout and tax profile setup), and other files that will help us understand the technical issue.",
+	"formElements": [{
 			"id": "incentives_program",
 			"order": 1,
 			"controlType": "dropdown",
@@ -51,10 +50,6 @@
 				{
 					"value": "BE9B1C44-C2C9-47E3-8E5B-EA8DAD561D76",
 					"text": "Campaigns"
-				},
-				{
-					"value": "B1040434-30BB-40F0-A498-C3338D73845C",
-					"text": "Certified Software Advisor"
 				},
 				{
 					"value": "197650E7-3E3A-4FCA-9C8D-890951954D4C",
@@ -133,10 +128,6 @@
 					"text": "OSA Sell - Direct"
 				},
 				{
-					"value": "7088781F-1853-4A3A-A9D2-C6A1B22FABC5",
-					"text": "OSIS - OEM Campaigns"
-				},
-				{
 					"value": "D21798E0-C0FF-420A-8A03-8331EB969925",
 					"text": "OSU - Business Applications"
 				},
@@ -183,7 +174,7 @@
 			"id": "location_mpnid",
 			"order": 2,
 			"controlType": "textbox",
-			"displayLabel": "Please enter the location MPN ID(s) enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
+			"displayLabel": "Please provide the location MPN ID enrolled in the above Incentives program.  Note that this is different than your V-org MPN ID.",
 			"watermarkText": "If you have multiple location MPN IDs you need help with, please include a comma separated list.",
 			"required": true
 		},
@@ -218,14 +209,14 @@
 			"required": false
 		},
 		{
-			"id": "problem_description",
-			"order": 1000,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
-			"watermarkText": "Problem description",
-			"useAsAdditionalDetails": true,
-			"required": true
-		}
+        	"id":"problem_description",
+         	"order":1000,
+         	"controlType":"multilinetextbox",
+         	"displayLabel":"Problem description",
+         	"watermarkText":"Please include a detailed description of the problem including any error messages you received.  Be sure to include screenshots and any other supporting files in the file attachments.",
+         	"useAsAdditionalDetails":true,
+         	"required":true
+      }
 	]
 }
 ---

@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="f4d2cbe1-60d6-42e7-8853-5f6f68950bf4"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -30,21 +30,5 @@ The errors *"Error: 691: The remote connection was denied because the user name 
 
 * Another cause could be that the RADIUS server is unreachable from the VPN gateway: you can determine that by collecting simultaneous packet captures on the Gateway and on the RADIUS server
 
-##How to check if Gateway Can reach Radius
-
-It is a good test to use Test Traffic to check connectivity if the RADIUS server is on Azure:
-
-- Identify the RADIUS server in ASC
-- from the **Diagnostics** Tab, select **Test Traffic**
-- Select "TunnelOrLocalIn" as the **Traffic Direction**
-- Insert the DIP address of the Gateway instance as the **Source**
-- Insert the IP address of the RADIUS as the **Destination**
-- Populate UDP ports according to your scenario (by default 1812/1813)
-- Execute the Test Traffic diagnostic by clicking on **Run**
-
-
-Point to site using RADIUS authentication uses by default UDP ports 1812/1813 (custom RADIUS server implementations may use different ports)
-
-The RADIUS server must be located in an Azure Virtual Network (either the one where the Gateway is, or another vnet connected to it). The RADIUS server can also be located onpremises, but only a VPN Site-to-Site connection can be used for connecting to a RADIUS server onpremises. An ExpressRoute connection cannot be used.
 
 
