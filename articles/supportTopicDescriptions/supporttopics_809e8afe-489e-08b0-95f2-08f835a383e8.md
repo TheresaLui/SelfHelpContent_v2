@@ -223,8 +223,8 @@
     {
       "id": "d8dc25fb-8427-e2bd-158d-02ea396984fd",
       "longDescription": "",
-      "shortDescription": "How to Enable Group managed service accounts (gMSA) with Azure ATP",
-      "searchTags": "sensor,gmsa,install",
+      "shortDescription": "Questions about onboarding, installing and troubleshooting licensing for Advanced Threat Protection.",
+      "searchTags": "onboard;install;licensing",
       "category": "Onboarding and installing",
       "useInDiagnoseAndSolve": "false"
     },
