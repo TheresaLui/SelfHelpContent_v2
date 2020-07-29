@@ -24,8 +24,8 @@ CSP partner support is not the best place to ask these questions, instead utiliz
 
 ## **Recommended Steps**
 
-* If your MPN has been migrated to partner center you can log your question [here](https://partner.microsoft.com/pcv/partnership/benefits/createadvisoryhoursservicerequest)
-* If your MPN has not been migrated to partner center, use your technical presales and deployment service benefits to get phone or chat via the regional service center who will create an Advisory ticket. Instructions about this are [here](https://support.microsoft.com/help/3121537/using-technical-presales-and-deployment-services).  
+If your MPN has been migrated to partner center you can log your question [here](https://partner.microsoft.com/pcv/partnership/benefits/createadvisoryhoursservicerequest)
+
 
 ## **Recommended Documents**
 
