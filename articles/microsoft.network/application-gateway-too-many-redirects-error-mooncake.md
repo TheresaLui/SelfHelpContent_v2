@@ -10,7 +10,7 @@
     articleId="application-gateway-too-many-redirects-error-mooncake"
 	resourceTags=""
 	productPesIds=""
-    supportTopicIds=""
+    supportTopicIds="32639115"
     cloudEnvironments="MoonCake"
  	ownershipId="CloudNet_AzureApplicationGateway"
 />
