@@ -10,6 +10,7 @@
     articleId="application-gateway-performance"
  	resourceTags=""
 	productPesIds="15922"
+    supportTopicIds="32436962"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
  	ownershipId="CloudNet_AzureApplicationGateway"
 />
