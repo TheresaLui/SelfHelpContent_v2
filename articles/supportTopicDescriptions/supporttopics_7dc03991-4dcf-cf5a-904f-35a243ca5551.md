@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8ef7e43f-6258-f2d1-2577-9494243a1a60",
+      "longDescription": "",
+      "shortDescription": "Anomaly detection alerts remediation",
+      "searchTags": "remediate;detection;governance",
+      "category": "Investigation",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cdd4edb6-7fd4-0cf4-c416-df6c8af89538",
       "longDescription": "",
       "shortDescription": "How can scoped deployment, connector issues or errors, O365 Auditing result in missing activities",
