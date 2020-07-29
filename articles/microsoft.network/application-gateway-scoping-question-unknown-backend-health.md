@@ -1,65 +1,35 @@
 <properties
-	pageTitle="Application Gateway URL"
-	description="Application Gateway URL"
-	authors="abshamsft"
-	ms.author="absha"
+	pageTitle="Scoping questions for Application Gateway unknown backend health"
+	description="Scoping questions for Application Gateway unknown backend health"
+	authors="surajmb"
+	ms.author="surmb"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32582825,32582828,32640605,32639109,32640602"
+    supportTopicIds="32639116"
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
+	cloudEnvironments="public,fairfax,mooncake,blackforest,usnat,ussec"
 	schemaVersion="1"
-	articleId="scoping-question-for-insights"
+	articleId="appgw-scoping-question-unknown-backend-health"
 	ownershipId="CloudNet_AzureApplicationGateway"
 />
-
-# Application Gateway URL
+# Scoping questions for Application Gateway unknown backend health
 ---
 {
     "subscriptionRequired": true,
 	"resourceRequired": true,
     "title": "Application Gateway URL",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "Application Gateway Access URL",
-        "description": "Use our Application Gateway Troubleshooter to troubleshoot and solve your problem.",
-        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource."
-    },
     "formElements": [
         {
             "id": "ApplicationGatewayAccessURL",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "Please provide the URL you are using to access the Application Gateway in the format domainNameOrIPAddress:portNumber/urlPath. Port number is not required if you are using standard ports 80 and 443.",
-            "watermarkText": "Example:http://contoso.com/abc or http://contoso.com:8080/abc",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "displayLabel": "Please provide the URL you are using to access the Application Gateway in the format protocol://domainNameOrIPAddress:portNumber. Port number is not required if you are using standard ports 80 and 443.",
+            "watermarkText": "Example: http://contoso.com or http://contoso.com:8080",
+            "required": true
         },
-		{
-            "id": "ApplicationGatewayAccessProtocol",
-            "order": 2,
-            "controlType": "dropdown",
-            "displayLabel": "Please provide Protocol you are using to access Appplication Gateway",
-            "watermarkText": "Choose an option from http/https",
-            "dropdownOptions": [
-                {
-                    "value": "http",
-                    "text": "http"
-                },
-                {
-                    "value": "https",
-                    "text": "https"
-                },
 				{
-                    "value": "dont_know_answer",
-                    "text": "Don't know"
-                }
-            ],
-			"required": true,
-			"diagnosticInputRequiredClients": "Portal"
-        },
-		{
             "id": "sku_version",
-            "order": 3,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "What is the SKU version of your Application Gateway?",
             "watermarkText": "Choose an option",
@@ -81,6 +51,29 @@
                     "text": "WAF_v2"
                 },
 				{
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "nsgudr_check",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Have you verified if the traffic to Application Gateway on ports 65200-65535 are not blocked by NSG/UDR or default route advertised via BGP?",
+            "infoBalloonText": "See <a href='https://docs.microsoft.com/azure/application-gateway/application-gateway-backend-health-troubleshooting#backend-health-status-unknown'>Unknown backend health</a> for more information on troubleshooting the issue",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
                     "value": "dont_know_answer",
                     "text": "Don't know"
                 }
