@@ -34,7 +34,7 @@ If you are running into issues creating, updating or deleting metric alert rules
 
 2. If you cannot find metrics for a resource type, [check if the resource type is supported with metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time)
 
-3. If you are looking to alert on a custom metric, make sure that the metric is already being reported, as you cannot define an alert rule on a custom metric that doesn't yet exist
+3. If you are looking to alert on a custom metric, but that metric isn't reported yet, please see how to [define an alert rule on a custom metric that isn't emitted yet](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-troubleshoot-metric#define-an-alert-rule-on-a-custom-metric-that-isnt-emitted-yet)
 
 4. If you are looking to alert on [specific dimension values of a metric](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview#using-dimensions), but cannot find these values, please note the following:
 
