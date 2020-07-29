@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "65ff0c49-4d24-0b04-8368-b8e5278a06e7",
+      "longDescription": "",
+      "shortDescription": "How can connector setting impact files visibility",
+      "searchTags": "files;alerts",
+      "category": "Investigation",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cdd4edb6-7fd4-0cf4-c416-df6c8af89538",
       "longDescription": "",
       "shortDescription": "How can scoped deployment, connector issues or errors, O365 Auditing result in missing activities",
