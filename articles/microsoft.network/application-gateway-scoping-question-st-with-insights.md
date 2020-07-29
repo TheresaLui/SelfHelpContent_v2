@@ -65,12 +65,20 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "v1_SKU",
-                    "text": "V1 SKU"
+                    "value": "Standard",
+                    "text": "Standard"
                 },
                 {
-                    "value": "v2_SKU",
-                    "text": "V2 SKU"
+                    "value": "WAF",
+                    "text": "WAF"
+                },
+                {
+                    "value": "Standard_v2",
+                    "text": "Standard_v2"
+                },
+                {
+                    "value": "WAF_v2",
+                    "text": "WAF_v2"
                 },
 				{
                     "value": "dont_know_answer",
