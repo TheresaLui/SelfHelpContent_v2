@@ -78,7 +78,7 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Please additional details about the issue.",
             "watermarkText": "Please provide the detailed symptom and any other relevant information.",
