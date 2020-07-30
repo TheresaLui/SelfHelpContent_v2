@@ -16,7 +16,7 @@
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Issues with your linked key vault
+# Issues with your linked Azure Key Vault
 
 ## We ran diagnostics on your resource and found an issue
 

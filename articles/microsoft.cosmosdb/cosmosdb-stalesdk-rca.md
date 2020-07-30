@@ -16,13 +16,13 @@
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Old SDK detected
+# Outdated SDK detected
 
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
 
-Cosmos DB account **<!--$GlobalDatabaseAccountName-->GlobalDatabaseAccountName<!--/$GlobalDatabaseAccountName-->** has one or more client applications using version **<!--$SDKVersion-->SDKVersion<!--/$SDKVersion-->** of the **<!--$SDKType-->SDKType<!--/$SDKType-->** SDK that is an outdated version. This version of the SDK <!--$SDKRetirementDate-->SDKRetirementDate<!--/$SDKRetirementDate-->.
+Cosmos DB account **<!--$GlobalDatabaseAccountName-->GlobalDatabaseAccountName<!--/$GlobalDatabaseAccountName-->** has one or more client applications using version **<!--$SDKVersion-->SDKVersion<!--/$SDKVersion-->** of the **<!--$SDKLanguage-->SDKLanguage<!--/$SDKLanguage-->** SDK that is an outdated version. This version of the SDK **<!--$SDKRetirementDate-->SDKRetirementDate<!--/$SDKRetirementDate-->**.
 
 ## **Recommended Steps**
 
