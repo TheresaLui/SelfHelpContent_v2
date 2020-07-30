@@ -33,6 +33,8 @@ Most users are able to resolve their issue using the steps below.
   * Familiarize yourself with [Components of a REST API request/response](https://docs.microsoft.com/rest/api/azure/#components-of-a-rest-api-requestresponse)
   * If your **Metric Alerts** deployment is failing, make sure required parameters are set and valid. See the [Metric alerts REST API documentation](https://docs.microsoft.com/rest/api/monitor/metricalerts).
 
+* If you are having trouble configuring planned maintenance notification, review [how to receive planned maintenance notification](https://docs.microsoft.com/azure/postgresql/concepts-monitoring#to-receive-planned-maintenance-notification)
+
 ## **Recommended Documents**
 
 * [List of Azure Database for PostgreSQL metrics](https://docs.microsoft.com/azure/postgresql/concepts-monitoring)<br>
