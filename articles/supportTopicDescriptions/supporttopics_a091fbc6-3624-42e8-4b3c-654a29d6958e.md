@@ -125,6 +125,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6ecfb9c4-318c-100d-4bbd-6681ec4e1fc2",
+      "longDescription": "",
+      "shortDescription": "Issue with creating a Data Box or Data Box Disk order such as unsupported region, subscription type or active order limit reached",
+      "searchTags": "order creation unavailable;unsupported region;subscription not supported",
+      "category": "Order creation",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "74452497-7805-766a-8926-51164ceb2518",
       "longDescription": "",
       "shortDescription": "Issues during data copy and validation including access, slow copy, prepare to ship failures, and any hardware issues",
