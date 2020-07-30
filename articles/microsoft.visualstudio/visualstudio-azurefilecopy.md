@@ -41,15 +41,15 @@ Are you facing one of these common problems?
 
 	 The log and plan files are not deleted by the task. To explicitly clean up the files you can add a CLI step in the workflow using [this command](https://docs.microsoft.com/azure/storage/common/storage-ref-azcopy-jobs-clean).
 
-* I'm not sure which version of AzCopy is being used in the task? I need help specifying the additional arugments accordingly
+* I'm not sure which version of AzCopy is being used in the task? I need help specifying the additional arguments accordingly
 
 	The following are the versions of AzCopy are used in the task
-	- Task version 4: AzCopy V 10. [Look here for list of arguments and their usage](https://docs.microsoft.com/azure/storage/common/storage-ref-azcopy-copy)
-	- Task version 3 or below: AzCopy V 7. [Look here for list of arguments and their usage](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy)
+	- Task version 4: AzCopy V10. [Look here for list of arguments and their usage](https://docs.microsoft.com/azure/storage/common/storage-ref-azcopy-copy)
+	- Task version 3 or below: AzCopy V7. [Look here for list of arguments and their usage](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy)
 
 
 ## **Recommended Documents**
 
-* [Azure File Copy V 4](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-file-copy?view=azure-devops#faq)
+* [Azure File Copy V4](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-file-copy?view=azure-devops#faq)
 * [Azure File Copy V3 or below](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-file-copy-version3?view=azure-devops)
-* [AzCopy V 10](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
+* [AzCopy V10](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
