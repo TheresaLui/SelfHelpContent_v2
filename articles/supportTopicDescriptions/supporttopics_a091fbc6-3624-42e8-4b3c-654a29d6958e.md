@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "34c1a19e-274c-5e28-13f3-59ac74e9fcad",
+      "longDescription": "",
+      "shortDescription": "Device cannot be used due to a hardware issue",
+      "searchTags": "hardware issue;reboot",
+      "category": "Data copy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5bc887f2-8dfc-b1a2-df3c-d7a11c8dc95b",
       "longDescription": "",
       "shortDescription": "Issue with data exported to the device such as missing objects",
