@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "11782991-706b-d8c0-3184-904f4d8e529c",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Automatic in-quest updates",
+      "searchTags": "Updates",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1355ede6-1a5d-fed9-7ee3-fdf57927f88d",
       "longDescription": "",
       "shortDescription": "Common problems related to admin specific actions or issues within the VM itself",
@@ -179,6 +187,14 @@
       "shortDescription": "Issues with restoring a virtual machine from a snapshot of a disk",
       "searchTags": "Snapshot",
       "category": "Management",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "3020f209-0fa7-bf1a-6989-5a584eaeb498",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Image Builder",
+      "searchTags": "Image Builder",
+      "category": "Azure Features",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -350,6 +366,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5c08c706-0938-c5f5-b8c7-0e0e8c733653",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to specific Azure Features",
+      "searchTags": "Features",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5f4ad650-1aec-c7f3-d671-f42fbc706af6",
       "longDescription": "",
       "shortDescription": "Covers issues related to migrating or moving a virtual machine or associated resource on Azure",
@@ -451,6 +475,14 @@
       "shortDescription": "GPU processing is slower than expected for your virtual machine",
       "searchTags": "Performance",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "7be0ea41-46a2-f33f-3345-34e53fae245b",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Reserved Instances (RI)",
+      "searchTags": "Reserved Instances",
+      "category": "Azure Features",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -662,6 +694,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ae19c6a1-5367-d9ff-c393-da757944ff7e",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Instance Metadata Service",
+      "searchTags": "Instance Metadata Service",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "aeca6c5b-eeda-205d-8e9a-84fbc3787d58",
       "longDescription": "",
       "shortDescription": "Resolve issues with resetting the local admin account password of the virtual machine",
@@ -694,6 +734,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b2a80d2e-5a91-92f7-2346-992b1aa27775",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Shared Image Gallery or Azure Shared Image definitions (SIG)",
+      "searchTags": "Shared Image",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b3ca1e6d-ea88-4d89-2f27-cf22e3bf6b37",
       "longDescription": "",
       "shortDescription": "Assistance with troubleshooting network security groups (NSG) associated to the virtual machine",
@@ -723,6 +771,22 @@
       "shortDescription": "An allocation error was encountered and need assistance with finding a new size or region",
       "searchTags": "Allocation",
       "category": "Allocation",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "b88c2bb3-7e37-184c-52ef-c0ecab2e2c0b",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Managed Identity Integration ",
+      "searchTags": "Managed Identity Integration",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "b9707d49-1891-33e1-57aa-3aa7ced71bda",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Hybrid Use Benefit (HUB)",
+      "searchTags": "HUB;Hybrid Use Benefit",
+      "category": "Azure Features",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -867,6 +931,14 @@
       "shortDescription": "Requests to help migrate virtual machines from on-premises to Azure using Azure Site recovery ",
       "searchTags": "Migration",
       "category": "Migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "dcd5315e-fb89-e194-d760-4e5a7ccaeb9d",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Azure Update Management",
+      "searchTags": "Update Management",
+      "category": "Azure Features",
       "useInDiagnoseAndSolve": "false"
     },
     {

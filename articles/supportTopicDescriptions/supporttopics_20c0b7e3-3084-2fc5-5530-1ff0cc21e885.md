@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -182,11 +182,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "28b7b329-9ad4-72d3-f69e-2725b9105c6d",
+      "longDescription": "",
+      "shortDescription": "Assistance with issues related to loading or extracting data from SQL pool using external tools or engine features like Polybase.",
+      "searchTags": "import;export;polybase;adf;databricks",
+      "category": "ETL with SQL Pool",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2a098ca0-1502-2f12-551d-b1f9365cb413",
       "longDescription": "",
       "shortDescription": "Slow or hung queries, or queries terminating with a timeout. Use only for SQL pool, separate topic for SQL on-demand.",
       "searchTags": "sql;performance;query;execution;slow",
       "category": "SQL Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2bb9dea4-7436-2104-812e-99970f0b7b5f",
+      "longDescription": "",
+      "shortDescription": "Failures to connect to SQL on-demand endpoint or database unavailable. Do not use for AAD authentication or Firewall issues.",
+      "searchTags": "connectivity;unavailable;sql;connection;fail",
+      "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -211,6 +227,22 @@
       "shortDescription": "Queries using PREDICT() function to run Machine Learning models with error messages, performance issues or unexpected behavior.",
       "searchTags": "sql;predict;ml;machine;learning",
       "category": "SQL Performance and Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "34682f4b-fd21-1907-dcbc-db95431292b4",
+      "longDescription": "",
+      "shortDescription": "Questions or advisory on best practices, recommendations and product behavior related to backing up or restoring SQL Pool databases.",
+      "searchTags": "how;advisory;sql;backup;restore",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3641365f-4980-5427-b9a6-f7d6bffa442c",
+      "longDescription": "",
+      "shortDescription": "Failures to set the maintenance schedule, maintenance occuring out of the scheduled window, or issues with maintenance notifications.",
+      "searchTags": "maintenance;schedule;window;notification;upgrade",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -251,6 +283,14 @@
       "shortDescription": "Jobs running Scala script fail with an error message or show an unexpected behavior.",
       "searchTags": "spark;job;execution;failure;scala",
       "category": "Spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3f2f0f66-b4ef-91ee-5ef4-d21e79b520a0",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices and recommendations related to configure storage access in SQL on-demand.",
+      "searchTags": "how;advisory;storage;sql;on-demand",
+      "category": "How-To",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -403,6 +443,14 @@
       "shortDescription": "Advisory on best practices and recommendations related to loading data to SQL pools.",
       "searchTags": "how;advisory;sql;pool;recommendation",
       "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "74622fa6-f28e-fc89-4226-89bdf8392c29",
+      "longDescription": "",
+      "shortDescription": "Execution of a stored procedure activity is failing due to some error code.",
+      "searchTags": "pipeline;trigger;stored;procedure;activity",
+      "category": "Orchestration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -638,6 +686,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d03def72-e2b5-8c3d-35c2-b02ff22816b3",
+      "longDescription": "",
+      "shortDescription": "Advisory on best practices, recommendations or product behavior when managing custom Libraries and Packages on a Spark pool.",
+      "searchTags": "how;advisory;spark;libraries;packages",
+      "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d68f6850-ba98-2795-8330-7b5c974fe9d0",
       "longDescription": "",
       "shortDescription": "Failures configuring access or accessing data on storage using External Data Sources, External Tables, OPENROWSET or CETAS.",
@@ -763,6 +819,14 @@
       "shortDescription": "Help with properties and setting up DataSets, Linked Service, and IR integration with various activities.",
       "searchTags": "activities;dataset;linked service;adf;ir",
       "category": "Authoring and Development",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "eb96363f-5788-3078-1bb7-9d6f94de5c0b",
+      "longDescription": "",
+      "shortDescription": "Failures to configure the firewall or connectivity issues to Synapse Workspace pools caused by the firewall settings.",
+      "searchTags": "connectivity;unavailable;workspace;firewall",
+      "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {
