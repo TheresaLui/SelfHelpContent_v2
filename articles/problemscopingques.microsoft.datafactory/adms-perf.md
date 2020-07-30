@@ -104,14 +104,14 @@
         },
                 {
             "id": "problem_start_time",
-            "order": 8,
+            "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
         },
         {
             "id": "problem_end_time",
-            "order": 9,
+            "order": 10,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
             "required": false
