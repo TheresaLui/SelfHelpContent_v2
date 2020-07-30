@@ -9,7 +9,7 @@
     articleId="cosmosdb-outdatedsdk-rca"
     diagnosticScenario="CosmosDBOldSDKInsight"
     selfHelpType="rca"
-    supportTopicIds="32636763,32636796,32636801,32636775,32741535"
+    supportTopicIds="32636763, 32636796, 32636801, 32636775, 32741535"
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
