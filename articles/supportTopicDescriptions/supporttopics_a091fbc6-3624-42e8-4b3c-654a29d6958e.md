@@ -163,6 +163,14 @@
       "searchTags": "shares;NFS",
       "category": "Data copy",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fcdf60ae-0eef-398b-1d63-3ab7b0da6805",
+      "longDescription": "",
+      "shortDescription": "Data copy is slow when file sizes are not very small (file size greater than 10 MBs)",
+      "searchTags": "disk copy slow",
+      "category": "Data Box Disk usage",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
