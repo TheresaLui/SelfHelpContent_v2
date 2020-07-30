@@ -189,6 +189,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b24ad733-5e57-ae60-c29b-dbcfeab993d3",
+      "longDescription": "",
+      "shortDescription": "Issues with self-managed or Microsoft managed shipping for Data Box or Data Box Disk",
+      "searchTags": "shipping issue;shipment delayed",
+      "category": "Shipping",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b8583da1-75dd-bfc0-3529-6efa8fafb074",
       "longDescription": "",
       "shortDescription": "Order halted due to an issue with customer managed key such as expired key, key disabled, or access revoked",
