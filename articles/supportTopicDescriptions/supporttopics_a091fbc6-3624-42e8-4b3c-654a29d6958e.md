@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b8583da1-75dd-bfc0-3529-6efa8fafb074",
+      "longDescription": "",
+      "shortDescription": "Order halted due to an issue with customer managed key such as expired key, key disabled, or access revoked",
+      "searchTags": "cmk error",
+      "category": "Encryption",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c3db556a-eddd-81f2-88f8-418247f50a42",
       "longDescription": "",
       "shortDescription": "Device is noisy when connected and powered on",
