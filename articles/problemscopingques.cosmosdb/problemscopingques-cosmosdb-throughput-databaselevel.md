@@ -99,8 +99,8 @@
             "order": 6,
 			"visibility": "request_type == Yes",
             "controlType": "dropdown",
-            "displayLabel": "I acknowledge and understand the impact of increasing the container limit on the overall throughput (RUs) distribution across the containers. For every set of 25 containers, the set will only be able to use up to a fraction of the total RUs, as described in the article. ",
-            "infoBalloonText": "Please read the section *Throughput distribution in database level offer* in the previous *Solutions* page.",
+            "displayLabel": "I acknowledge and understand the impact of increasing the container limit on the overall throughput (RUs) distribution across the containers. For every set of 25 containers, the set will only be able to use up to a fraction of the overall RU/s provisioned on the database, as described in the previous article",
+            "infoBalloonText": "Please read the section **Throughput distribution in database level offer** in the previous **Solutions** page or view in github https://aka.ms/cosmos-css-shared-db-doc",
 			"watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
