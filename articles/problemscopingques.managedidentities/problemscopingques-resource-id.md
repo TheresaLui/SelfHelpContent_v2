@@ -19,14 +19,32 @@
   "resourceRequired": true,
   "title": "Problem acquiring tokens for the managed identity",
   "fileAttachmentHint": "",
-  "formElements": [{
-    "id": "Resource ID", 
+  "formElements":[
+  {
+    "id": "problem_start_time",
+    "order": 1,
+    "controlType": "datetimepicker",
+    "displayLabel": "When did the problem start?",
+    "required": true,
+    "diagnosticInputRequiredClients": "Portal"
+    },
+    {
+    "id": "ResourceID", 
     "order": 1,
     "controlType": "textbox",
     "displayLabel": "Resoure ID",
     "watermarkText": "Provide Resource ID for Resource with issue",
     "required": true,
     "useAsAdditionalDetails": true
-    }]
+    }
+    ,
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Provide any additional details",
+            "required": true,
+            "useAsAdditionalDetails": true
+        }]
 }
 ---
