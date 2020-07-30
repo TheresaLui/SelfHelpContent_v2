@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d30fa28c-bc0a-c135-22e3-a938d3a9f2e3",
+      "longDescription": "",
+      "shortDescription": "Issues with Data Box or Data Box Disk during the copy to storage accounts in Azure",
+      "searchTags": "data copy;copy at Azure",
+      "category": "Data copy at Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fcdf60ae-0eef-398b-1d63-3ab7b0da6805",
       "longDescription": "",
       "shortDescription": "Data copy is slow when file sizes are not very small (file size greater than 10 MBs)",
