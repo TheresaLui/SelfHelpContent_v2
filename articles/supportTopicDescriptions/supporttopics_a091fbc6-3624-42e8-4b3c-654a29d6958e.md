@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "1627e4ef-2c7d-7bc6-d1ab-89df599f5f82",
+      "longDescription": "",
+      "shortDescription": "Unable to copy data to device and only Prepare to ship is available",
+      "searchTags": "copy failure;hardware issue",
+      "category": "Data copy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "74452497-7805-766a-8926-51164ceb2518",
       "longDescription": "",
       "shortDescription": "Issues during data copy and validation including access, slow copy, prepare to ship failures, and any hardware issues",
