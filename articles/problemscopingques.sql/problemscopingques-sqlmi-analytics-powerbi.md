@@ -44,7 +44,7 @@
           "text": "SMTP server is located in public network"
         },
         {
-          "value": "Other, don't know or not applicable",
+          "value": "dont_know_answer",
           "text": "Don't know answer"
         }
       ],
