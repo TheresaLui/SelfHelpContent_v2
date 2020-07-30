@@ -50,4 +50,5 @@ Keep in mind that `--connection-type` parameter is the only one which is require
 
 ## **Recommended Documents**
 
-* [Azure SQL Connectivity Architecture](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture)
+* [Azure SQL Managed Instance connection types](https://docs.microsoft.com/azure/azure-sql/managed-instance/connection-types-overview)
+* [Connectivity architecture for Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/connectivity-architecture-overview)

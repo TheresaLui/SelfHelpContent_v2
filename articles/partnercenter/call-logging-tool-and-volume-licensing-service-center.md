@@ -30,5 +30,5 @@ Get more information and support for Volume Licensing operations questions suppo
 
 ## **Recommended Documents**
 
-- [How to open a Call Logging Tool (CLT) ticket](https://support.microsoft.com/help/4476980)
+- [How to open a Call Logging Tool (CLT) ticket](https://partner.microsoft.com/resources/detail/system-and-tools-onboarding-call-logging-tool-pdf)
 - [For Volume Licensing information search the explore.ms site](https://www.explore.ms/)
