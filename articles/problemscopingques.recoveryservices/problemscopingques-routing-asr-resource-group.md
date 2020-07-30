@@ -51,8 +51,8 @@
               "text": "Physical machines to Azure"
               },
               {
-              "value": "Enterprise to Enterprise",
-              "text": "Enterprise to Enterprise"
+              "value": "Site to site",
+              "text": "Site to site"
               },
               {
               "value": "dont_know_answer",
