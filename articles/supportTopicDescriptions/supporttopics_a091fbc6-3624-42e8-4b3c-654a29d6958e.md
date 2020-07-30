@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ce3d4f11-af29-87d1-28b1-749aa6acc0fb",
+      "longDescription": "",
+      "shortDescription": "Issue with an order taking too long to be prepared or delivered",
+      "searchTags": "order delayed",
+      "category": "Order creation",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d02f3780-4360-fe5c-b55e-23d0086156a3",
       "longDescription": "",
       "shortDescription": "Issue with e-ink due to which shipping label cannot be displayed",
