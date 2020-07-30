@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5bc887f2-8dfc-b1a2-df3c-d7a11c8dc95b",
+      "longDescription": "",
+      "shortDescription": "Issue with data exported to the device such as missing objects",
+      "searchTags": "data export",
+      "category": "Data copy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "74452497-7805-766a-8926-51164ceb2518",
       "longDescription": "",
       "shortDescription": "Issues during data copy and validation including access, slow copy, prepare to ship failures, and any hardware issues",
