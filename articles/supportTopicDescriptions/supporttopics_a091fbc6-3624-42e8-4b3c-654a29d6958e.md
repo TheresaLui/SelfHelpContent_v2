@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "061eeef7-ead7-18d7-7dd7-5e9248355a46",
+      "longDescription": "",
+      "shortDescription": "Issue with order completing with full or partial data copy failure in Azure",
+      "searchTags": "order completed with errors;copy failure",
+      "category": "Data copy at Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1627e4ef-2c7d-7bc6-d1ab-89df599f5f82",
       "longDescription": "",
       "shortDescription": "Unable to copy data to device and only Prepare to ship is available",
