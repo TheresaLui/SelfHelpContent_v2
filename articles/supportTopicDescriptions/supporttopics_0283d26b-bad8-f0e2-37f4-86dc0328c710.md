@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "71fbae25-f818-0ad0-9dff-4267aab35031",
+      "longDescription": "",
+      "shortDescription": "To integrate a key vault with Azure Private Link",
+      "searchTags": "private link",
+      "category": "Connectivity with private link ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "72529663-afb6-ca04-d262-5677d9241c93",
       "longDescription": "",
       "shortDescription": "Integrate Azure Key Vault with App Services",
