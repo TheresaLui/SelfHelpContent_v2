@@ -173,6 +173,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a83d7a6a-4c6a-f5f9-77e7-5374ed30a7fc",
+      "longDescription": "",
+      "shortDescription": "Issue with booking a pickup with the carrier",
+      "searchTags": "pickup scheduling;return",
+      "category": "Shipping",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "af639f2b-35ca-19c8-680a-a7119ef0def3",
       "longDescription": "",
       "shortDescription": "Disk not detected or recognized when using USB 3.x port or due to inadequate power support",
