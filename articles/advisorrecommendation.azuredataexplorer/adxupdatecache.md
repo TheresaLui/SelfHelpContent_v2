@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Right-size cache in Azure Data Explorer (ADX) table"
-    description="Right-size cache for Azure Data Explorer (ADX) tables"
+    pageTitle="Right-size cache in Azure Data Explorer table"
+    description="Right-size cache for Azure Data Explorer tables"
     authors="raldaba"
     ms.author="aoaft"
     articleId="acb1c04d-975a-4649-80d6-6178765741c1_Public"
@@ -8,7 +8,7 @@
     cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureOptimizationAutomation_AORec"
 />
-# The following ADX tables have been identified as candidates for updating their cache settings
+# The following Azure Data Explorer tables have been identified as candidates for updating their cache settings
 ---
 {
   "recommendationOfferingId": "942bca88-3367-420f-a8c7-7eb34957f84d",
@@ -24,7 +24,7 @@
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
-  "recommendationFriendlyName": "Right-size cache for ADX clusters",
+  "recommendationFriendlyName": "Right-size cache for Azure Data Explorer Tables",
   "recommendationMetadataState": "Active",
   "recommendationScope": "Internal",
   "portalFeatures": [],
@@ -45,9 +45,9 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
-  "description": "(PREVIEW) Right-size ADX table cache for cluster node optimization",
-  "longDescription": "(PREVIEW) Right-sizing ADX table cache will free up ADX cluster nodes having low CPU utilization, memory, and a high cache size configuration",
+  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/data-explorer/kusto/management/cachepolicy",
+  "description": "(PREVIEW) Right-size Azure Data Explorer table cache policy for cluster node optimization",
+  "longDescription": "(PREVIEW) Right-sizing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
   "potentialBenefits": "Optimize cost",
   "actions": [
 	{
@@ -72,7 +72,7 @@
       }
     }
   },
-  "displayLabel": "Consider setting your cache to the recommended value",
+  "displayLabel": "Consider setting your cache policy to the recommended value",
   "additionalColumns": [
 	{
       "name": "tableName",
@@ -80,7 +80,7 @@
     },
 	{
       "name": "currentConfig",
-      "title": "Current Config"
+      "title": "Current Cache Policy"
     },
 	{
       "name": "cacheUsage",
@@ -88,7 +88,7 @@
     },
 	{
       "name": "recommendedConfig",
-      "title": "Recommended Config"
+      "title": "Recommended Cache Policy"
     },
 	{
       "name": "potentialDataSavings",
@@ -99,6 +99,6 @@
       "title": "Observation Window"
     }
   ],
-  "costSavingInfo": "*Adjusting the table cache will enable you to optimize your cluster node count which will result cost savings. Your actual savings may vary."
+  "costSavingInfo": "*Adjusting the cache policy will enable you to optimize your cluster node count which will result cost savings. Your actual savings may vary."
 }
 ---

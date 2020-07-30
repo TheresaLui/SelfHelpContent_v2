@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Increase cache performance in Azure Data Explorer (ADX) table"
-    description="Increase cache performance for Azure Data Explorer (ADX) tables"
+    pageTitle="Update cache policies in Azure Data Explorer table"
+    description="Update cache policies for Azure Data Explorer tables"
     authors="raldaba"
     ms.author="aoaft"
     articleId="d437a3b5-c7a2-4162-83a2-ba8e7ce18d99_Public"
@@ -8,7 +8,7 @@
     cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureOptimizationAutomation_AORec"
 />
-# The following ADX tables have been identified as candidates for updating their cache settings
+# The following Azure Data Explorer tables have been identified as candidates for updating their cache settings
 ---
 {
   "recommendationOfferingId": "0b85c950-0437-4844-be0e-dbbeced43ae5",
@@ -24,7 +24,7 @@
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
-  "recommendationFriendlyName": "Increase cache performance for ADX tables",
+  "recommendationFriendlyName": "Update Cache Policies for ADX tables",
   "recommendationMetadataState": "Active",
   "recommendationScope": "Internal",
   "portalFeatures": [],
@@ -45,14 +45,14 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
-  "description": "(PREVIEW) Review ADX table cache to increase performance",
-  "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which have a high number of queries that look back beyond the configured cache settings. The recommended action to improve the cluster's performance is to limit the queries within the defined policy or increase the cache setting to the recommended value.",
+  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/data-explorer/kusto/management/cachepolicy",
+  "description": "(PREVIEW) Review Azure Data Explorer table cache-period (policy) for better performance",
+  "longDescription": "(PREVIEW) This recommendation surfaces Azure Data Explorer tables which have a high number of queries that look back beyond the configured cache period (policy) (You will see the top 10 tables by query percentage that access out-of-cache data). The recommended action to improve the cluster's performance: \n -Limit queries on this table to the minimal necessary time range (within the defined policy). \n -Alternatively, if data from the entire time range is required, increase the cache period to the recommended value.",
   "potentialBenefits": "Optimize performance",
   "actions": [
     {
       "actionId": "d437a3b5-c7a2-4162-83a2-ba8e7ce18d99",
-      "description": "Update cache settings",
+      "description": "Update cache period",
       "actionType": "Blade",
 	  "extensionName": "Microsoft_Azure_Kusto",
       "bladeName": "DatabaseOverviewBladeViewModel",
@@ -72,7 +72,7 @@
       }
     }
   },
-  "displayLabel": "Consider setting your cache to the recommended value",
+  "displayLabel": "Query time range is too wide - Consider setting your cache period (policy) to the recommended value",
   "additionalColumns": [
 	{
       "name": "tableName",
@@ -80,7 +80,7 @@
     },
 	{
       "name": "currentConfig",
-      "title": "Current Config"
+      "title": "Current Cache Period"
     },
 	{
       "name": "cacheUsage",
@@ -88,7 +88,7 @@
     },
 	{
       "name": "recommendedConfig",
-      "title": "Recommended Config"
+      "title": "Recommended Cache Period"
     },
 	{
       "name": "observationWindow",
