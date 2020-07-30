@@ -133,6 +133,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cb564d7b-a849-63a5-4c07-6fe8da46fd99",
+      "longDescription": "",
+      "shortDescription": "Issue with unlocking the disk using the Disk Unlock tool",
+      "searchTags": "disk unlock;unlock tool",
+      "category": "Data Box Disk usage",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d02f3780-4360-fe5c-b55e-23d0086156a3",
       "longDescription": "",
       "shortDescription": "Issue with e-ink due to which shipping label cannot be displayed",
