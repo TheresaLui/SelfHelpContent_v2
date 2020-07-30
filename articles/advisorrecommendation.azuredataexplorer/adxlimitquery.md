@@ -45,7 +45,7 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/en-us/azure/data-explorer/kusto/management/cachepolicy",
+  "learnMoreLink": "https://docs.microsoft.com/azure/data-explorer/kusto/management/cachepolicy",
   "description": "(PREVIEW) Review Azure Data Explorer table cache-period (policy) for better performance",
   "longDescription": "(PREVIEW) This recommendation surfaces Azure Data Explorer tables which have a high number of queries that look back beyond the configured cache period (policy) (You will see the top 10 tables by query percentage that access out-of-cache data). The recommended action to improve the cluster's performance: \n -Limit queries on this table to the minimal necessary time range (within the defined policy). \n -Alternatively, if data from the entire time range is required, increase the cache period to the recommended value.",
   "potentialBenefits": "Optimize performance",
