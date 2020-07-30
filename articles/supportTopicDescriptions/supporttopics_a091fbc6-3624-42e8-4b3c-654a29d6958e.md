@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6e074849-8fa9-2333-3736-77d4561c9be9",
+      "longDescription": "",
+      "shortDescription": "Issue with creating a Data Box or Data Box Disk order",
+      "searchTags": "order creation failure;order creation blocked",
+      "category": "Order creation",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "74452497-7805-766a-8926-51164ceb2518",
       "longDescription": "",
       "shortDescription": "Issues during data copy and validation including access, slow copy, prepare to ship failures, and any hardware issues",
