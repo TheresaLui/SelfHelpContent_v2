@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8569ec70-d80a-94f8-75d6-6af6b115f410",
+      "longDescription": "",
+      "shortDescription": "Validation tool indicates that disk is not usable as it was formatted",
+      "searchTags": "disk formatted",
+      "category": "Data Box Disk usage",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9080d83c-4c7b-1554-a203-31e80edb3a24",
       "longDescription": "",
       "shortDescription": "Issue accessing device shares via SMB",
