@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7f579f35-2595-9ff7-2bcf-31099d400c3f",
+      "longDescription": "",
+      "shortDescription": "Issue with unlocking the device using the provided password or with accessing the local UI",
+      "searchTags": "device unlock;device password",
+      "category": "Device setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9080d83c-4c7b-1554-a203-31e80edb3a24",
       "longDescription": "",
       "shortDescription": "Issue accessing device shares via SMB",
