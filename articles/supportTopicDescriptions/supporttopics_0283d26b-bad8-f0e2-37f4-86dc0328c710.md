@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6bd4c475-4a4d-bad4-9523-f16c6f9feda6",
+      "longDescription": "",
+      "shortDescription": "Issues with key vault access control policies",
+      "searchTags": "access denied;access;policy;security group",
+      "category": "Key Vault access policy issues ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "715c9793-b31c-14a0-1a1c-0ef014944a2b",
       "longDescription": "",
       "shortDescription": "Issues with deleting secrets in key vault with soft delete enabled",
