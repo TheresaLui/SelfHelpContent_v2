@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2bd589dc-ad99-f95c-20bb-36732b697300",
+      "longDescription": "",
+      "shortDescription": "Data copy to the device is slow despite parallel copy sessions",
+      "searchTags": "copy slow",
+      "category": "Data copy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5bc887f2-8dfc-b1a2-df3c-d7a11c8dc95b",
       "longDescription": "",
       "shortDescription": "Issue with data exported to the device such as missing objects",
