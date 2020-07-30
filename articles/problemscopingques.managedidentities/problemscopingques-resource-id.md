@@ -26,11 +26,10 @@
     "controlType": "datetimepicker",
     "displayLabel": "When did the problem start?",
     "required": true,
-    "diagnosticInputRequiredClients": "Portal"
     },
     {
-    "id": "ResourceID", 
-    "order": 1,
+    "id": "ResourceID",
+    "order": 2,
     "controlType": "textbox",
     "displayLabel": "Resoure ID",
     "watermarkText": "Provide Resource ID for Resource with issue",
