@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c3db556a-eddd-81f2-88f8-418247f50a42",
+      "longDescription": "",
+      "shortDescription": "Device is noisy when connected and powered on",
+      "searchTags": "noise",
+      "category": "Data copy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d104b424-095f-c5a8-735f-8b5eec38cb88",
       "longDescription": "",
       "shortDescription": "Issue accessing device shares via NFS",
