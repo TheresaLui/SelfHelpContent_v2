@@ -27,6 +27,14 @@
       "searchTags": "data copy;slow;prepare to ship",
       "category": "Data copy",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d104b424-095f-c5a8-735f-8b5eec38cb88",
+      "longDescription": "",
+      "shortDescription": "Issue accessing device shares via NFS",
+      "searchTags": "shares;NFS",
+      "category": "Data copy",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
