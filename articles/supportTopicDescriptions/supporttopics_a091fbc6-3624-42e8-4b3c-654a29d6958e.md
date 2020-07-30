@@ -261,6 +261,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e671bff5-0210-10dc-29e2-56edf1acde84",
+      "longDescription": "",
+      "shortDescription": "Issue with downloading shipping label for Data Box Disk or Data Box",
+      "searchTags": "return shipping;return label",
+      "category": "Shipping",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fcdf60ae-0eef-398b-1d63-3ab7b0da6805",
       "longDescription": "",
       "shortDescription": "Data copy is slow when file sizes are not very small (file size greater than 10 MBs)",
