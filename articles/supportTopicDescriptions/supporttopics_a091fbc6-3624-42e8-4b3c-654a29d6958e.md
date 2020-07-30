@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2ab15576-dcf0-a625-d7d1-e1df4635a89c",
+      "longDescription": "",
+      "shortDescription": "Issue with encryption using a customer managed key",
+      "searchTags": "cmk error;encryption",
+      "category": "Encryption",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2bd589dc-ad99-f95c-20bb-36732b697300",
       "longDescription": "",
       "shortDescription": "Data copy to the device is slow despite parallel copy sessions",
