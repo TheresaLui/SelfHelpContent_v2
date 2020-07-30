@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "80d46a20-9e79-9946-7831-567bb0295efb",
+      "longDescription": "",
+      "shortDescription": "Issue with device including physical damage, hardware or software tampering",
+      "searchTags": "damaged device",
+      "category": "Shipping",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8569ec70-d80a-94f8-75d6-6af6b115f410",
       "longDescription": "",
       "shortDescription": "Validation tool indicates that disk is not usable as it was formatted",
