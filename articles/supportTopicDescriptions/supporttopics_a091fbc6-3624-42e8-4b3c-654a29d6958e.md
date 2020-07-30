@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "58c27a90-ef6c-52ca-ea12-d2167468ee3e",
+      "longDescription": "",
+      "shortDescription": "Issue with connecting to the device and setting up the network interfaces",
+      "searchTags": "device setup;network configuration",
+      "category": "Device setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5bc887f2-8dfc-b1a2-df3c-d7a11c8dc95b",
       "longDescription": "",
       "shortDescription": "Issue with data exported to the device such as missing objects",
