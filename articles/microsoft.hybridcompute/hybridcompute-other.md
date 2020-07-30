@@ -4,7 +4,7 @@
   resource="machines"
   ms.author="t-juwa"
   selfhelptype="Generic"
-  supporttopicids="32689168"
+  supporttopicids="32689162"
   resourcetags=""
   productpesids="16872"
   cloudenvironments="public,fairfax,usnat,ussec"
@@ -12,7 +12,7 @@
   ownershipid="Compute_HybridResourceProvider" />
 # Installing the Azure Arc for Servers Agent
 
-This article will help with regarding Azure Arc for Servers Agent on Windows.
+This article will help with regarding Arc for Servers Agent on Windows.
 
 ## **Recommended Steps**
 
