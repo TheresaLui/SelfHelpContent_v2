@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "45228519-63b6-aefe-c781-80ba93665093",
+      "longDescription": "",
+      "shortDescription": "To identify how and when your key vaults are accessed, and by whom",
+      "searchTags": "logging;monitoring;access;who;whom",
+      "category": "Key vault access, performance monitoring",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "46ca6094-e1c4-bbff-7753-07a1f8206438",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues with key creation, import, HSM key, disk encryption",
