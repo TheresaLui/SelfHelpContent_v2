@@ -229,6 +229,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c002d951-1829-0ead-6214-504b021cc64b",
+      "longDescription": "",
+      "shortDescription": "Issue with device arrival including delay, missing components, or accessories",
+      "searchTags": "shipment delayed;parts missing",
+      "category": "Shipping",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c3db556a-eddd-81f2-88f8-418247f50a42",
       "longDescription": "",
       "shortDescription": "Device is noisy when connected and powered on",
