@@ -34,8 +34,8 @@ To resolve the issue, follow the instructions:
 
 **Note**: If you are uncertain whether you are running the application in the context of the user who mapped the drive, please try running `net use` with `psexec` as described in the previous steps, Or:
 
-    1. You can create a new user with the same permission as the network service or system account, and run `cmd` and `net use` under that user. The username should be the storage account name, and password should be the storage account key.
-    2. Another option for `net use` is to pass in the storage account name and key in the username and password parameters of the `net use` command
+1. You can create a new user with the same permission as the network service or system account, and run `cmd` and `net use` under that user. The username should be the storage account name, and password should be the storage account key.
+2. Another option for `net use` is to pass in the storage account name and key in the username and password parameters of the `net use` command
 
 **More information**
 
