@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Azure Data Movement performance issue info"
 	description="Scoping questions to gather Azure Data Movement performance issue information"
-	authors="chez-charlie"
+	authors="chez-charlie, hecepeda"
 	ms.author="chez"
 	selfHelpType="problemScopingQuestions"
     supportTopicIds="32629468"
@@ -79,36 +79,39 @@
             "required": true
         },
         {
-            "id": "sample_slow_run_ids",
+            "id": "problem_run_id",
             "order": 6,
+			"visibility": "ir_type == Azure IR || dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Sample slow pipeline RunIDs (separate with commas)",
-            "required": false
+            "required": true
+        },
+		{
+            "id": "problem_report_id",
+            "order": 7,
+			"visibility": "ir_type == Self-hosted IR",
+            "controlType": "textbox",
+            "displayLabel": "Sample slow pipeline Report ID from all nodes separated with commas. (see Solutions tab for guidance on how to obtain Report ID)",
+            "required": true
         },
         {
-            "id": "sample_normal_run_ids",
-            "order": 7,
+            "id": "sample_normal_run_id",
+            "order": 8,
+			"visibility": "ir_type == Azure IR || dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Sample normal pipeline RunIDs (separate with commas)",
             "required": false
         },
-        {
-            "id": "factory_name",
-            "order": 8,
-            "controlType": "textbox",
-            "displayLabel": "Name of the data factory",
-            "required": false
-        },
-        {
+                {
             "id": "problem_start_time",
-            "order": 9,
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
         },
         {
             "id": "problem_end_time",
-            "order": 10,
+            "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
             "required": false
