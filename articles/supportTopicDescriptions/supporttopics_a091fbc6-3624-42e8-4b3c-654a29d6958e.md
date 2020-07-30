@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a0b85848-4194-7a6b-286d-274b01f74485",
+      "longDescription": "",
+      "shortDescription": "Issue with setting up and configuring the device",
+      "searchTags": "device setup;network configuration",
+      "category": "Device setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b8583da1-75dd-bfc0-3529-6efa8fafb074",
       "longDescription": "",
       "shortDescription": "Order halted due to an issue with customer managed key such as expired key, key disabled, or access revoked",
