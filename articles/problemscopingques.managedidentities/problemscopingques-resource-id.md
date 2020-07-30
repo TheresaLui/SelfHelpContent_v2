@@ -6,17 +6,17 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32690728,32690729,32690730"
     productPesIds="16985"
-    articleId="problemscopingques-Problem retrieving token or assigning identity to resource"
     cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
-    ownershipID="AzureIdentity_Managed Identities"
     schemaVersion="1"
+    articleId="problemscopingques-Problem retrieving token or assigning identity to resource"
+    ownershipID="AzureIdentity_Managed Identities"
 />
 
 # Azure Managed Identity
 ---
 {
-    "resourceRequired": false,
     "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Problem acquiring tokens for the managed identity",
     "fileAttachmentHint": null,
     "formElements": [
@@ -45,7 +45,7 @@
             "required": true,
             "useAsAdditionalDetails": true
         }
-    ]
+    ],
     "$schema": "SelfHelpContent"
 }
 ---
