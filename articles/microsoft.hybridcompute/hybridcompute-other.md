@@ -12,7 +12,7 @@
   ownershipid="Compute_HybridResourceProvider" />
 # Installing the Azure Arc for Servers Agent
 
-This article will help with regarding Azure Arc for Servers Agent on Windows.
+This article will help with regarding Arc for Servers Agent on Windows.
 
 ## **Recommended Steps**
 
