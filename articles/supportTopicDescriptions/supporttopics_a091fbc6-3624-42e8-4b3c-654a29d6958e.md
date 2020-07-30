@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9080d83c-4c7b-1554-a203-31e80edb3a24",
+      "longDescription": "",
+      "shortDescription": "Issue accessing device shares via SMB",
+      "searchTags": "shares;SMB",
+      "category": "Data copy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d104b424-095f-c5a8-735f-8b5eec38cb88",
       "longDescription": "",
       "shortDescription": "Issue accessing device shares via NFS",
