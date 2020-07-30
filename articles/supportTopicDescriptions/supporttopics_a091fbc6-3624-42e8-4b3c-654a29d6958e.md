@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "20721a25-3cad-dbd0-8e55-6ef6bdbaf9b5",
+      "longDescription": "",
+      "shortDescription": "Issue running prepare to ship after data copy is complete",
+      "searchTags": "prepare to ship;critical error",
+      "category": "Data copy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2bd589dc-ad99-f95c-20bb-36732b697300",
       "longDescription": "",
       "shortDescription": "Data copy to the device is slow despite parallel copy sessions",
