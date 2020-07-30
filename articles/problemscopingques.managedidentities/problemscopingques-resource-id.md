@@ -28,7 +28,7 @@
     "required": true
     },
     {
-    "id": "ResourceID",
+    "id": "resourceID",
     "order": 2,
     "controlType": "textbox",
     "displayLabel": "Resoure ID",
