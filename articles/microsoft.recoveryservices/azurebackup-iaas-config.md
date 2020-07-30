@@ -17,18 +17,16 @@
 
 # Unable to Configure Backup for Azure Virtual Machines
 
-## **Recommended Steps**
-
-- [UserErrorGuestAgentStatusUnavailable - VM agent unable to communicate with Azure Backup](https://aka.ms/AB-AA4ecq8) <br>
-- [UserErrorBackupOperationInProgress/SystemBackupOperationInProgress - Unable to initiate backup as another backup operation is currently in progress](https://aka.ms/AB-AA4e56y) <br>
-- [UserErrorUnsupportedDiskSize - Currently Azure Backup does not support disk sizes greater than 4095GB](https://aka.ms/AB-AA4ecqf) <br>
-- [ExtensionSnapshotFailedNoNetwork - Snapshot operation failed due to no network connectivity on the virtual machine](https://aka.ms/AB-AA4ecqk) <br>
-- [GuestAgentSnapshotTaskStatusError - Could not communicate with the VM agent for snapshot status](https://aka.ms/AB-AA4e56x) <br>
-- [UserErrorRpCollectionLimitReached - The Restore Point collection max limit has reached](https://aka.ms/AB-AA4e56l) <br>
-- [UserErrorKeyvaultPermissionNotConfigured - Backup doesn't have sufficient permissions to the key vault for backup of encrypted VMs](https://aka.ms/AB-AA4e56m) <br>
-- [ExtentionOperationFailed - VMSnapshot extension operation failed](https://aka.ms/AB-AA4e56c) <br>
-- [BackUpOperationFailed / BackUpOperationFailedV2 - Backup fails, with an internal error](https://aka.ms/AB-AA4ecqe) <br>
-
 ## **Recommended Documents**
 
-* [Azure Virtual Machine backup troubleshooting guide](https://aka.ms/AB-AA4ecqg)
+- [How can I modify the retention period?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)
+- [What happens to the existing recovery points if I change the retention policy?](https://docs.microsoft.com/azure/backup/backup-architecture#backup-policy-essentials)
+- [How do I take multiple backups on the same day?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#run-an-on-demand-backup). **Scheduled backup** is limited to one per day, for multiple backups use on-demand backup as workaround.  
+- [Can I exclude disks that I do not want to backup?](https://azure.microsoft.com/updates/excludediskpreview/)
+- [How long will the backup data be retained after I stop backup?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)
+- [How to stop backup on my VM and delete all the recovery points?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)
+- [How to troubleshoot permission issues during configure protection?](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault)
+- [How to enable cross region restore?](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#set-cross-region-restore)
+- How to configure protection through [PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation) and [Azure automation](https://docs.microsoft.com/azure/backup/backup-rm-template-samples)
+- [Common configuration errors and how to troubleshoot them](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)
+- [Troubleshooting Azure VM extension and Guest Agent issues](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout)
