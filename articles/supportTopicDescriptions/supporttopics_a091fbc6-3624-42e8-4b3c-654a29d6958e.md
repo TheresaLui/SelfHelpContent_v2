@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "63a377b0-6d0a-a8ce-27c4-476f1dd4c824",
+      "longDescription": "",
+      "shortDescription": "Issue with writing to the disk such as volumes not found or access denied",
+      "searchTags": "disk copy issue;disk access",
+      "category": "Data Box Disk usage",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "74452497-7805-766a-8926-51164ceb2518",
       "longDescription": "",
       "shortDescription": "Issues during data copy and validation including access, slow copy, prepare to ship failures, and any hardware issues",
