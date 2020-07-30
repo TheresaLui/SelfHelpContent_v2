@@ -125,6 +125,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d02f3780-4360-fe5c-b55e-23d0086156a3",
+      "longDescription": "",
+      "shortDescription": "Issue with e-ink due to which shipping label cannot be displayed",
+      "searchTags": "e-ink;shipping label",
+      "category": "Device setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d104b424-095f-c5a8-735f-8b5eec38cb88",
       "longDescription": "",
       "shortDescription": "Issue accessing device shares via NFS",
