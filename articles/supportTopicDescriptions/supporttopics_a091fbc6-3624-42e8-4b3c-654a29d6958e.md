@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "af639f2b-35ca-19c8-680a-a7119ef0def3",
+      "longDescription": "",
+      "shortDescription": "Disk not detected or recognized when using USB 3.x port or due to inadequate power support",
+      "searchTags": "disk detection",
+      "category": "Data Box Disk usage",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b8583da1-75dd-bfc0-3529-6efa8fafb074",
       "longDescription": "",
       "shortDescription": "Order halted due to an issue with customer managed key such as expired key, key disabled, or access revoked",
