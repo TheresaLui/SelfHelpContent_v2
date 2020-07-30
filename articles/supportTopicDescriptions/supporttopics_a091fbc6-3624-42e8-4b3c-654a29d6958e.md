@@ -1,0 +1,33 @@
+<properties
+  pagetitle="SupportTopicDescriptions for a091fbc6-3624-42e8-4b3c-654a29d6958e"
+  description="SupportTopicDescriptions for a091fbc6-3624-42e8-4b3c-654a29d6958e"
+  authors="elixirsys2"
+  ms.author="ansubram"
+  selfhelptype="SupportTopicDescription"
+  productpesids="a091fbc6-3624-42e8-4b3c-654a29d6958e"
+  cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  articleid="supporttopics_a091fbc6-3624-42e8-4b3c-654a29d6958e" />
+# Support Topic Descriptions for a091fbc6-3624-42e8-4b3c-654a29d6958e
+---
+{
+  "$schema": "SelfHelpContent",
+  "shortDescription": null,
+  "longDescription": null,
+  "productLink1": null,
+  "productLinkName1": null,
+  "productLink2": null,
+  "productLinkName2": null,
+  "productLink3": null,
+  "productLinkName3": null,
+  "supportTopics": [
+    {
+      "id": "74452497-7805-766a-8926-51164ceb2518",
+      "longDescription": "",
+      "shortDescription": "Issues during data copy and validation including access, slow copy, prepare to ship failures, and any hardware issues",
+      "searchTags": "data copy;slow;prepare to ship",
+      "category": "Data copy",
+      "useInDiagnoseAndSolve": "true"
+    }
+  ]
+}
+---
