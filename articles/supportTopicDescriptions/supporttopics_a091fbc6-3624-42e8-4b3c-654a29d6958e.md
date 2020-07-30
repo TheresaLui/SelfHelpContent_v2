@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "491c562f-dd15-fc61-74cf-d011d8a785f9",
+      "longDescription": "",
+      "shortDescription": "Issue with slow data copy from Data Box or Data Box Disk in Azure",
+      "searchTags": "slow copy;copy stuck",
+      "category": "Data copy at Azure",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4ae0f608-4568-38ff-813b-d5b2cdd7684f",
       "longDescription": "",
       "shortDescription": "Issues during disk unlock, data copy and validation including access, slow copy, any hardware issues",
