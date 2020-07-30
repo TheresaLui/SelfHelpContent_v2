@@ -406,6 +406,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e67b72ab-c6f9-bed4-b57e-2ef1033516e0",
+      "longDescription": "",
+      "shortDescription": "Recommended troubleshooting Steps for error types",
+      "searchTags": "401;403;429;authentication;error",
+      "category": "TSG for key vault access policy issues ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e837ae8d-73fe-afdb-66cc-8b485af9cc91",
       "longDescription": "",
       "shortDescription": "Integrate Azure Key Vault with ARM Templates",
