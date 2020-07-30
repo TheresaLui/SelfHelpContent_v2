@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3ecd5b7b-e928-03c6-e96b-f0cd682ea56a",
+      "longDescription": "",
+      "shortDescription": "Device does not power on despite reboot attempts",
+      "searchTags": "device not powering",
+      "category": "Device setup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5bc887f2-8dfc-b1a2-df3c-d7a11c8dc95b",
       "longDescription": "",
       "shortDescription": "Issue with data exported to the device such as missing objects",
