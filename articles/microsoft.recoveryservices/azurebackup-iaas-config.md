@@ -30,3 +30,21 @@
 - How to configure protection through [PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation) and [Azure automation](https://docs.microsoft.com/azure/backup/backup-rm-template-samples)
 - [Common configuration errors and how to troubleshoot them](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)
 - [Troubleshooting Azure VM extension and Guest Agent issues](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout)
+
+**Additional references**
+
+- [Complete list of supported, unsupported and know limitations](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas) for Azure VM backup
+- [How to configure backup of Azure VM from a Recovery Service vault?](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare)
+- [How to enable backup during VM creation?](https://docs.microsoft.com/azure/backup/backup-during-vm-creation)
+- [How to enable backup after creating a VM?](https://docs.microsoft.com/azure/backup/backup-during-vm-creation#start-a-backup-after-creating-the-vm)
+- [Configure](https://docs.microsoft.com/azure/backup/configure-reports) and [view](https://docs.microsoft.com/azure/backup/configure-reports#what-happened-to-the-power-bi-reports) Backup reports using Power BI
+* Monitor [Alerts and Jobs](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-built-in-monitor#backup-jobs-in-recovery-services-vault) through Recovery Service vault
+* [Configure notifications](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-built-in-monitor#notification-for-backup-alerts) for backup alerts through Recovery Service vault
+* [Monitor Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#using-log-analytics-workspace) and [create alerts](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#create-alerts-by-using-log-analytics) using Log Analytics
+* [How to delete Backup data?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#delete-backup-data)<br>
+* [How to delete Recovery Services vault?](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault)<br>
+
+
+## **Recommended Documents**
+
+- Azure VM backup - [Frequently asked questions](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq)
