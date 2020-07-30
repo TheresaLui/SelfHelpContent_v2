@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b9e79783-de12-1c74-a242-f2614fd8b529",
+      "longDescription": "",
+      "shortDescription": "Validation issues with data copied on the disk such as incorrect container, file names or unsupported data type",
+      "searchTags": "disk validation;incorrect file name;unsupported data",
+      "category": "Data Box Disk usage",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c3db556a-eddd-81f2-88f8-418247f50a42",
       "longDescription": "",
       "shortDescription": "Device is noisy when connected and powered on",
