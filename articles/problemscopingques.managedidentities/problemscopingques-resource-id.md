@@ -6,11 +6,12 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32690728,32690729,32690730"
     productPesIds="16985"
-    articleId="problemscopingques-Problem-managed-identity"
+    articleId="problemscopingques-Problem retrieving token or assigning identity to resource"
     cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
-    ownershipID="AzureIdentity_Managed_Identities"
+    ownershipID="AzureIdentity_Managed Identities"
     schemaVersion="1"
 />
+
 # Azure Managed Identity
 ---
 {
@@ -43,8 +44,8 @@
             "watermarkText": "Provide additional information about your issue",
             "required": true,
             "useAsAdditionalDetails": true
-        },
+        }
     ]
-    "$schema": "SelfHelpContent",
+    "$schema": "SelfHelpContent"
 }
 ---
