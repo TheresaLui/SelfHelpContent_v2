@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4ae0f608-4568-38ff-813b-d5b2cdd7684f",
+      "longDescription": "",
+      "shortDescription": "Issues during disk unlock, data copy and validation including access, slow copy, any hardware issues",
+      "searchTags": "disk unlock;validation tool;disk slow copy",
+      "category": "Data Box Disk usage",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5bc887f2-8dfc-b1a2-df3c-d7a11c8dc95b",
       "longDescription": "",
       "shortDescription": "Issue with data exported to the device such as missing objects",
