@@ -24,8 +24,7 @@
 
 
 ## **Recommended Steps**
-- Contact Dynamics Operations 
-* [Contact Credit & Collections](https://partner.microsoft.com/resources/detail/how-to-engage-with-operations-pdf) 
+* [Contact Dynamics Operations](https://partner.microsoft.com/resources/detail/how-to-engage-with-operations-pdf) 
 
 ## **Recommended Documents**
 
