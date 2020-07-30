@@ -24,8 +24,8 @@
                 "id": "version_number",
                 "order": 3,
                 "controlType": "textbox",
-                "displayLabel": "What version are you using? For details, use the link in the help balloon",
-				"infoBalloonText": "Verify that you use a <a href='https://docs.microsoft.com/azure/information-protection/rms-client/client-version-release-history'>supported version</a>",
+                "displayLabel": "Which version are you using? For details, use the link in the help balloon",
+				"infoBalloonText": "You can see the version number Using Protect/Sensitivity button - Help and Feedback. Verify that you use a <a href='https://docs.microsoft.com/azure/information-protection/rms-client/client-version-release-history'>supported version</a>",
                 "required": true
                 },{
                     "id": "problem_description",
