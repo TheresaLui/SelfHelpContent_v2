@@ -36,11 +36,11 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 * Ensure you have the correct permissions to create deployments, especially Contributor access on any Azure VMs you are trying to manage, by referencing the ["Update Management"](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#update-management) section of the Automation RBAC documentation
 * If you receive the error **"You have requested to create an update configuration on a machine that is not registered for Update Management"**, follow the steps in ["Machines don't show up"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs) to ensure scope configuration is correct and machines are reporting to Log Analytics properly.
 * If you receive a message like **"The client has permission to perform action [...]], however the current tenant is not authorized to access linked subscription .."**, you need to schedule the update as defined in the [linked subscription troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#multi-tenant)
-* If you receive an error like **"No computers match the Update deployment target specification"**, the machines are not reporting to the workspace presently. You can work around this by using [dynamic groups](https://docs.microsoft.com/en-us/azure/automation/update-management/update-mgmt-groups). 
+* If you receive an error like **"No computers match the Update deployment target specification"**, the machines are not reporting to the workspace presently. You can work around this by using [dynamic groups](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-groups). 
 
 ### **Error editing an existing deployment**
 
-* If you see a grey cloud icon when opening an existing update deployment, [the underlying schedule might have been deleted](https://docs.microsoft.com/en-us/azure/automation/update-management/update-mgmt-deploy-updates#schedule-an-update-deployment). You will need to recreate the deployment. 
+* If you see a grey cloud icon when opening an existing update deployment, [the underlying schedule might have been deleted](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-deploy-updates#schedule-an-update-deployment). You will need to recreate the deployment. 
 
 ### **No saved searches appear**
 
@@ -48,7 +48,7 @@ First, try running the Update Agent Troubleshooter ([Windows](https://docs.micro
 
 ### **Scheduled deployment doesn't occur**
 
-* Check the "Start time" field on the [schedule settings](https://docs.microsoft.com/en-us/azure/automation/update-management/update-mgmt-deploy-updates#schedule-an-update-deployment). The schedule doesn't start firing until the start time has passed.
+* Check the "Start time" field on the [schedule settings](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-deploy-updates#schedule-an-update-deployment). The schedule doesn't start firing until the start time has passed.
 * Check the "Recurrence" field to ensure the schedule is correctly configured. The options are the same as described in the [Azure Automation Schedules](https://docs.microsoft.com/azure/automation/shared-resources/schedules) document.
 * Check the "Set Expiration" and "Expires" fields to ensure the schedule has not expired. 
 
