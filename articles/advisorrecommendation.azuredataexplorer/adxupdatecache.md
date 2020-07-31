@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Right-size cache in Azure Data Explorer table"
-    description="Right-size cache for Azure Data Explorer tables"
+    pageTitle="Reduce cache in Azure Data Explorer table"
+    description="Reduce cache for Azure Data Explorer tables"
     authors="raldaba"
     ms.author="aoaft"
     articleId="acb1c04d-975a-4649-80d6-6178765741c1_Public"
@@ -24,7 +24,7 @@
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/Clusters/Databases",
-  "recommendationFriendlyName": "Right-size cache for Azure Data Explorer Tables",
+  "recommendationFriendlyName": "Reduce cache for Azure Data Explorer Tables",
   "recommendationMetadataState": "Active",
   "recommendationScope": "Internal",
   "portalFeatures": [],
@@ -46,7 +46,7 @@
   "recommendationTimeToLive": 86400,
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/data-explorer/kusto/management/cachepolicy",
-  "description": "(PREVIEW) Right-size Azure Data Explorer table cache policy for cluster node optimization",
+  "description": "(PREVIEW) Reduce Azure Data Explorer table cache period for cluster node cost optimization",
   "longDescription": "(PREVIEW) Right-sizing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
   "potentialBenefits": "Optimize cost",
   "actions": [
@@ -72,7 +72,7 @@
       }
     }
   },
-  "displayLabel": "Consider setting your cache policy to the recommended value",
+  "displayLabel": "Cache Reduction - Consider setting your cache policy to the recommended value",
   "additionalColumns": [
 	{
       "name": "tableName",
@@ -93,6 +93,10 @@
 	{
       "name": "potentialDataSavings",
       "title": "Est. Data Savings"
+    },
+	{
+      "name": "requiredDataReductionForScaleIn",
+      "title": "Req. Data Reduction for Scale-In"
     },
 	{
       "name": "observationWindow",
