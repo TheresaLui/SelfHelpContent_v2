@@ -17,5 +17,5 @@
 
 # Disable and reenable password sync using AADConnect wizard
 
-* To disable/Re-enable PasswordHashSync open Azure AD Connect Wizard from the Desktop and click Configure, then Customize synchronization options. 
-* Provide Azure AD and local AD credentials and proceed to the Optional Feature page where you can check or uncheck Password synchronization.
+1. To disable/Re-enable PasswordHashSync open Azure AD Connect Wizard from the Desktop and click Configure, then Customize synchronization options. 
+2. Provide Azure AD and local AD credentials and proceed to the Optional Feature page where you can check or uncheck Password synchronization.

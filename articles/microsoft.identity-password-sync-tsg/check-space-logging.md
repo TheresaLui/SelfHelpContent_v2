@@ -17,6 +17,6 @@
 
 # How to enable logging for connector space object
 
-* Open Synchronization Service Manager and search for the affected object in the AD DS Connector Space. 
-* Open ‘Properties…’ for the object and click “Log…”.
-* Under Object Log status, check if there’s any errors. 
+1. Open Synchronization Service Manager and search for the affected object in the AD DS Connector Space. 
+2. Open ‘Properties…’ for the object and click “Log…”.
+3. Under Object Log status, check if there’s any errors. 
