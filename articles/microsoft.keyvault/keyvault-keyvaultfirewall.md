@@ -27,7 +27,7 @@ the resource's ip address or virtual ip address to the key vault firewall manual
 
 ## **Recommended Documents**
 
-* [Access Key Vault behind firewall](https://docs.microsoft.com/azure/key-vault/key-vault-access-behind-firewall)
+* [Access Key Vault behind firewall](https://docs.microsoft.com/azure/key-vault/key-vault-access-behind-firewall)<br>
 * [Virtual network service endpoints](https://docs.microsoft.com/azure/key-vault/key-vault-overview-vnet-service-endpoints)<br>
 * [Configure firewalls and virtual networks](https://docs.microsoft.com/azure/key-vault/key-vault-network-security)<br>
 * [Key Vault Trusted Services List](https://docs.microsoft.com/azure/key-vault/general/overview-vnet-service-endpoints#trusted-services)<br>
