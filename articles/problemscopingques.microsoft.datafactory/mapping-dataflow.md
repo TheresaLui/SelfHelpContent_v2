@@ -26,7 +26,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error",
-            "required": true,
+            "required": true
         },
         {
             "id": "problem_run_id",
@@ -34,7 +34,7 @@
             "controlType": "textbox",
             "displayLabel": "Provide the Pipeline or Activity RunIDs. (separate with commas)",
             "infoBalloonText": "Enter the RunId for the issue",
-            "required": true,
+            "required": true
         },
         {
             "id": "problem_description",
@@ -51,8 +51,7 @@
                     "text": "Is the issue intermittent or persistent?"
                 }
             ]
-        }
-        
+        }  
     ]
 }
 ---
