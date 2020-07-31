@@ -18,7 +18,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Azure mapping Data Flow issue info",
-    "fileAttachmentHint": "Consider attaching the support files to help us triage your problem faster. From the Author and Deploy section, select the pipeline/dataflow having issues -> click ... (3 dots) -> Download Support Files",
+    "fileAttachmentHint": "Consider attaching the support files to help us triage your problem faster. From the Author and Deploy section, select the pipeline/dataflow having issues, then click ... (3 dots) and choose Download Support Files",
     "formElements": [
         {
             "id": "problem_start_time",
