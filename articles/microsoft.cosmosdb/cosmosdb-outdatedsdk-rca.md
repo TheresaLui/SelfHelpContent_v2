@@ -30,6 +30,6 @@ We highly recommend upgrading to the latest version of the SDK for performance a
 
 ## **Recommended Documents**
 
-* <!--$SDKDocsLink-->SDKDocsLink<!--/$SDKDocsLink-->
+* <!--$SDKDocsLinkText-->SDKDocsLinkText<!--/$SDKDocsLinkText-->
 
 <!--/issueDescription-->
