@@ -61,7 +61,7 @@
          "id":"permissions",
          "order":20,
          "controlType":"multilinetextbox",
-         "visibility": "issuetype_dropdown == cud_operations && issuetype_dropdown == permissions",
+         "visibility": "issuetype_dropdown == cud_operations || issuetype_dropdown == permissions",
          "displayLabel":"What are the user permissions?",
          "required":false
       },
@@ -69,7 +69,7 @@
          "id":"interface_used",
          "order":30,
          "controlType":"multiselectdropdown",
-         "visibility": "issuetype_dropdown == cud_operations && issuetype_dropdown == permissions",
+         "visibility": "issuetype_dropdown == cud_operations || issuetype_dropdown == permissions",
          "displayLabel":"What was the interface(s) used?",
          "watermarkText":"Choose an option",
          "dropdownOptions":[
