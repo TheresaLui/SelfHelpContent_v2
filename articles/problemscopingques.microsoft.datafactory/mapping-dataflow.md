@@ -27,7 +27,6 @@
             "displayLabel": "When did the problem start?",
             "infoBalloonText": "Enter the approximate time you started to see the error",
             "required": true,
-            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_run_id",
@@ -36,7 +35,6 @@
             "displayLabel": "Provide the Pipeline or Activity RunIDs. (separate with commas)",
             "infoBalloonText": "Enter the RunId for the issue",
             "required": true,
-            "diagnosticInputRequiredClients": "Portal"
         },
         {
             "id": "problem_description",
