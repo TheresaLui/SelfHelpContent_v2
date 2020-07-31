@@ -17,7 +17,7 @@
 
 # Resolve Update Management issues with Azure Automation
 
-This article will help with several kinds of issues relating to onboarding and using the Azure Update Management solution. 
+This article will help with several kinds of issues relating to onboarding and using the Azure Update Management solution.
 For general questions about Update Management scenarios, see [Update Management Overview](https://docs.microsoft.com/azure/automation/automation-update-management).
 
 ## **Recommended Steps**
