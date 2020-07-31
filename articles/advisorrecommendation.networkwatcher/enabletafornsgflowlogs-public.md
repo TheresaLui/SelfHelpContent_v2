@@ -49,7 +49,6 @@
       "bladeName": "FlowLogsEnabledResourcesViewModelV2",
       "metadata": {
 			"id": "{resourceId}"
-		
 	  }
     }
   ],
