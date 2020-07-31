@@ -35,9 +35,9 @@ The Update Agent Troubleshooter for [Windows](https://docs.microsoft.com/azure/a
 
 ### **Updates show as missing even after deployment**
 
-* Deploying updates to Linux by classification ("Critical and security updates") has important caveats, especially for CentOS. These [limitations are documented on the Update Management overview page](https://docs.microsoft.com/azure/automation/automation-update-management#linux-2).
-* Check the [job logs](https://docs.microsoft.com/azure/automation/manage-update-multi#view-results-of-an-update-deployment) of a deployment to see if updates were filtered out due to classification
-* Updates are often [superseded by other updates](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting#the-update-is-not-applicable-to-your-computer). The superseded update will no longer appear in Update Management, even if the [Inclusion feature](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management#schedule-an-update-deployment) is used to specify the KB number. 
+* Deploying updates to Linux by classification ("Critical and security updates") has important caveats, especially for CentOS. These [limitations are documented on the Update Management overview page](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-view-update-assessments#linux).
+* Check the [job logs](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-deploy-updates#view-results-of-a-completed-update-deployment) of a deployment to see if updates were filtered out due to classification
+* Updates are often [superseded by other updates](https://docs.microsoft.com/windows/deployment/update/windows-update-troubleshooting#the-update-is-not-applicable-to-your-computer). The superseded update will no longer appear in Update Management, even if the [Inclusion feature](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-deploy-updates#schedule-an-update-deployment) is used to specify the KB number. 
 * Some updates can be dependent on other required updates. If a required update needs a reboot, and "Never reboot" is selected, the required update will not finish installing and any dependent updates will not be able to install until the next update deployment.
 * Updates can also be skipped once the maintenance window is exceeded. See ["The scheduled update failed with a MaintenanceWindowExceeded error"](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#mw-exceeded). 
 
@@ -56,5 +56,5 @@ The Update Agent Troubleshooter for [Windows](https://docs.microsoft.com/azure/a
 ## **Recommended Documents**
 
 * [Troubleshoot issues using Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/update-management)
-* [Update Management Overview - Supported Clients, Permissions and Network Requirements](https://docs.microsoft.com/azure/automation/automation-update-management)
-* [Configure Windows Update Client Settings for Update Management](https://docs.microsoft.com/azure/automation/automation-configure-windows-update)
+* [Update Management - Get Started](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-manage-updates-for-vm)
+* [Configure Windows Update Client Settings for Update Management](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-configure-wuagent)

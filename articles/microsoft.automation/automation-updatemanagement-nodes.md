@@ -7,7 +7,7 @@
     ms.author="zachal"
     displayorder="103"
     selfHelpType="generic"
-    supportTopicIds="32615227,32642182"
+    supportTopicIds="32615227"
     resourceTags=""
     productPesIds="15607,15725"
     cloudEnvironments="public, Fairfax, usnat, ussec, blackForest, mooncake"
