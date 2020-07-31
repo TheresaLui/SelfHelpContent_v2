@@ -5,7 +5,7 @@
     ms.author="christoc"
     articleId="52a9d0a7-efe1-4512-9716-394abd4e0ab1_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, USSec, USNat"
     ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Avoid hostname override to ensure site integrity
