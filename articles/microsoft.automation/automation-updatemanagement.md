@@ -18,28 +18,28 @@
 # Resolve Update Management issues with Azure Automation
 
 This article will help with several kinds of issues relating to onboarding and using the Azure Update Management solution.
-For general questions about Update Management scenarios, see [Update Management Overview](https://docs.microsoft.com/en-us/azure/automation/update-management/update-mgmt-overview).
+For general questions about Update Management scenarios, see [Update Management Overview](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-overview).
 
 ## **Recommended Steps**
 
 The most common issues with Update Management are caused by:
-* [Network issues](https://docs.microsoft.com/en-us/azure/automation/update-management/update-mgmt-overview#ports) or [Windows Update registry keys](https://docs.microsoft.com/en-us/azure/automation/update-management/update-mgmt-configure-wuagent), which can be detected by running the Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux))
-* [Scope Configuration issues](https://docs.microsoft.com/en-us/azure/automation/update-management/update-mgmt-scope-configuration), which can be detected by [querying Log Analytics](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
+* [Network issues](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-overview#ports) or [Windows Update registry keys](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-configure-wuagent), which can be detected by running the Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues), [Linux](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues-linux))
+* [Scope Configuration issues](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-scope-configuration), which can be detected by [querying Log Analytics](https://docs.microsoft.com/azure/automation/troubleshoot/update-management#nologs)
 
 
 ### **Prerequisites for Update Management**
-* The [Update Management Overview](https://docs.microsoft.com/en-us/azure/automation/update-management/update-mgmt-overview) covers [supported clients](https://docs.microsoft.com/en-us/azure/automation/update-management/update-mgmt-overview#clients), [required permissions](https://docs.microsoft.com/en-us/azure/automation/update-management/update-mgmt-overview#permissions), and [network requirements ](https://docs.microsoft.com/en-us/azure/automation/update-management/update-mgmt-overview#ports)
+* The [Update Management Overview](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-overview) covers [supported clients](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-overview#clients), [required permissions](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-overview#permissions), and [network requirements ](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-overview#ports)
 * Only certain regions are supported for linking Log Analytics and Automation Accounts, which is required for Update Management. See the ["Workspace Mappings"](https://docs.microsoft.com/azure/automation/how-to/region-mappings) document for the full list of supported regions.
 * If your region is not listed as a supported region, you can [file a feedback request on our UserVoice](https://feedback.azure.com/forums/905242-update-management)
 
 
 ### **Remove machine from Update Management**
 
-* To unenroll a machine from Update Management, Follow the instructions at ["Remove VMs from Update Management"](https://docs.microsoft.com/en-us/azure/automation/update-management/update-mgmt-remove-vms)
+* To unenroll a machine from Update Management, Follow the instructions at ["Remove VMs from Update Management"](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-remove-vms)
 
 ### **Machines reboot unexpectedly**
 
-* This behavior is caused by Windows Update registry keys. See ["Configure Reboot Settings"](https://docs.microsoft.com/en-us/azure/automation/update-management/update-mgmt-configure-wuagent#configure-reboot-settings)
+* This behavior is caused by Windows Update registry keys. See ["Configure Reboot Settings"](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-configure-wuagent#configure-reboot-settings)
 
 ### **Machines update without an update deployment**
 
