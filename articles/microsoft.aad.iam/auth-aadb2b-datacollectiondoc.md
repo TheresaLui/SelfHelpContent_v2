@@ -186,7 +186,15 @@
             "maxLength": 0,
             "useAsAdditionalDetails": false,
             "numberOfLines": 10
-        }
+        },
+        {
+            "id": "resourceID",
+            "order": 8,
+            "controlType": "textbox",
+            "displayLabel": "Resoure ID",
+            "watermarkText": "Provide Resource ID for Resource with issue",
+            "required": true
+        },
     ],
     "$schema": "SelfHelpContent"
 }
