@@ -48,19 +48,26 @@
             "id": "problem_report_id",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Is this a run time issue? If yes, please provide the Report ID from all nodes separated with commas. (see Solutions tab for guidance on how to obtain Report ID)",
+            "displayLabel": "Please provide the ReportIDs from all nodes separated with commas. (see Solutions tab for guidance on how to obtain Report ID)",
+            "required": true
+        },
+		{
+            "id": "problem_run_id",
+            "order": 4,
+            "controlType": "textbox",
+            "displayLabel": "Is this a run time issue? If yes, Provide the Pipeline or Activity RunIds (separated by commas)",
             "required": true
         },
         {
             "id": "problem_start_time",
-            "order": 4,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
         },
         {
             "id": "problem_end_time",
-            "order": 5,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
             "required": false

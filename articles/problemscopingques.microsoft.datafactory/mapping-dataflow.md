@@ -1,11 +1,12 @@
 <properties
 	pageTitle="Azure mapping Data Flow issue info"
 	description="Scoping questions to gather mapping data flow issues information"
+	authors="hecepeda,vimals"
 	ms.author="hecepeda"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32633533,32633532,32633535,32637157,32633536,32633537,32633539,32633540"
 	productPesIds="15613"
-	cloudEnvironments="public, fairfax, usnat, ussec"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="mapping-dataflow"
 	ownershipId="AzureData_DataFactory"
@@ -17,13 +18,31 @@
 	"resourceRequired": true,
 	"subscriptionRequired": true,
 	"title": "Azure mapping Data Flow issue info",
-	"fileAttachmentHint": "Consider attaching screen shots or pipeline json files to help us triage your problem faster",
+	"fileAttachmentHint": "Consider attaching the support files to help us triage your problem faster. From the Author & Deploy section, select the pipeline/dataflow having issues -> click ... (3 dots) -> Download Support Files",
 	"formElements": [
+	    {
+            "id": "problem_start_time",
+            "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem start?",
+            "infoBalloonText": "Enter the approximate time you started to see the error",
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal"
+		},
+		{
+			"id": "problem_run_id",
+			"order": 2,
+			"controlType": "textbox",
+			"displayLabel": "Provide the Pipeline or Activity RunIDs. (separate with commas)",
+			"infoBalloonText": "Enter the RunId for the issue",
+			"required": true,
+			"diagnosticInputRequiredClients": "Portal"
+		},
 		{
 			"id": "problem_description",
 			"order": 1,
 			"controlType": "multilinetextbox",
-			"displayLabel": "Please briefly describe the issue",
+			"displayLabel": "Please provide additional context for the error message you are encountering",
 			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [
@@ -34,35 +53,8 @@
 				    "text": "Is the issue intermittent or persistent?"
 				}
 			]
-		},
-		{
-			"id": "error_message",
-			"order": 2,
-			"controlType": "multilinetextbox",
-			"displayLabel": "What error message do you see?",
-			"required": false
-		},
-		{
-			"id": "problem_run_id",
-			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "Is this a run time issue? If yes, please provide the Activity RunIDs. (separate with commas)",
-			"required": false
-		},
-		{
-			"id": "problem_session_id",
-			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "If this an issue while debugging please provide the SessionID.",
-			"required": false
-		},
-		{
-			"id": "problem_start_time",
-			"order": 5,
-			"controlType": "datetimepicker",
-			"displayLabel": "What time did the problem begin?",
-			"required": true
 		}
+		
 	]
 }
 ---
