@@ -20,8 +20,8 @@
 ## **Recommended Steps**
 
 * Please note that while some Azure services are part of the trusted services list, they are only trusted for certain supported usage scenarios. 
-* For example Azure App Service is only a trusted service for deploying web app certificates. Other operations will require that you add 
-the resource's ip address or virtual ip address to the key vault firewall manually. 
+* For example Azure App Service is only a trusted service for deploying web app certificates. 
+* Operations that are not part of supported usage scenarios will require that you add the resource's ip address or virtual ip address to the key vault firewall manually. 
 * Please see the links below for further guidance. 
 
 
