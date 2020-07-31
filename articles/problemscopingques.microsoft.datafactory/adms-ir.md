@@ -56,7 +56,7 @@
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Is this a run time issue? If yes, Provide the Pipeline or Activity RunIds (separated by commas)",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_start_time",
