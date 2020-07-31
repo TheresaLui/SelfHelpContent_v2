@@ -19,6 +19,11 @@
     "subscriptionRequired": true,
     "title": "Azure mapping Data Flow issue info",
     "fileAttachmentHint": "Consider attaching the support files to help us triage your problem faster. From the Author and Deploy section, select the pipeline/dataflow having issues, then click ... (3 dots) and choose Download Support Files",
+    "diagnosticCard": {
+        "title": "Azure mapping Data Flow Troubleshooter",
+        "description": "Our Azure mapping Data Flow RunId Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect the issues we were looking for in your resource. Refer to the help manual below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "problem_start_time",
