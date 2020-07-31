@@ -17,11 +17,11 @@
 
 # How to check error logs
 
-* Many customer questions about user creation can be answered by looking at the audit logs in Azure Support Center.
-* To find requests having to do with user creation, go to the audit logs in Azure Support Center. 
-   * Set the time range that corresponds to the time when the customer indicated the problem began. 
-   * Put the words “Add user” into the filter box for Action.
-   * Enter the user name object ID for the requestor into the ‘Actor’ column. 
-   * You may find it helpful to filter down to requests that were failed. 
-   * You can find information about the request in the JSON document.
+1. Many customer questions about user creation can be answered by looking at the audit logs in Azure Support Center.
+2. To find requests having to do with user creation, go to the audit logs in Azure Support Center. 
+   1. Set the time range that corresponds to the time when the customer indicated the problem began. 
+   2. Put the words “Add user” into the filter box for Action.
+   3. Enter the user name object ID for the requestor into the ‘Actor’ column. 
+   4. You may find it helpful to filter down to requests that were failed. 
+   5. You can find information about the request in the JSON document.
  
