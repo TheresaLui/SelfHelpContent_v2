@@ -46,14 +46,10 @@
       "description": "Turn on Traffic Analytics status in flow logs settings",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_Network",
-      "bladeName": "FlowLogsExtendedDiagnosticsSettingsUpdateBlade",
+      "bladeName": "FlowLogsEnabledResourcesViewModelV2",
       "metadata": {
-		"flowLogsSettingsInputs":
-		{
-			"resourceId": "{resourceId}",
-			"location": "{location}",
-			"flowLogId": "{flowLogId}"
-		}
+			"id": "{resourceId}"
+		
 	  }
     }
   ],
