@@ -53,7 +53,7 @@
                     "text": "Is the issue intermittent or persistent?"
                 }
             ]
-        }  
+        }
     ]
 }
 ---
