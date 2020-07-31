@@ -17,7 +17,7 @@
 
 # Azure Key Vault Behind Firewall
 
-## **Recommended Troubleshooting Steps**
+## **Recommended Steps**
 
 * Please note that while some Azure services are part of the trusted services list, they are only trusted for certain supported usage scenarios. 
 * For example Azure App Service is only a trusted service for deploying web app certificates. Other operations will require that you add 
