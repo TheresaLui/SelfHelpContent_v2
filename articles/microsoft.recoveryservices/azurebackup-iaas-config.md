@@ -22,7 +22,7 @@
 - [How can I modify the retention period?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)
 - [What happens to the existing recovery points if I change the retention policy?](https://docs.microsoft.com/azure/backup/backup-architecture#backup-policy-essentials)
 - [How do I take multiple backups on the same day?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#run-an-on-demand-backup) **Scheduled backup** is limited to one per day, for multiple backups use on-demand backup as workaround. 
-- If your VM is not listed to configure backup, then it might be in soft deleted state [Learn more](https://docs.microsoft.com/azure/backup/soft-delete-virtual-machines#soft-delete-for-vms-using-azure-portal).   
+- If your VM is not listed to configure backup, then it might be soft deleted state [Learn more](https://docs.microsoft.com/azure/backup/soft-delete-virtual-machines#soft-delete-for-vms-using-azure-portal).   
 - [Can I exclude disks that I do not want to backup?](https://azure.microsoft.com/updates/excludediskpreview/)
 - [How long will the backup data be retained after I stop backup?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)
 - [How to stop backup on my VM and delete all the recovery points?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)
