@@ -10,7 +10,7 @@
     supportTopicIds="32615227,32642182"
     resourceTags=""
     productPesIds="15607,15725"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, usnat, ussec, blackForest, mooncake"
     articleId="bad97f5e-f660-4295-a360-df54b1784a65"
 	ownershipId="Compute_Automation"
 />
@@ -40,6 +40,6 @@ The Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/auto
 
 ## **Recommended Documents**
 
-* [Update Management Overview - Supported Clients, Permissions and Network Requirements](https://docs.microsoft.com/azure/automation/automation-update-management)
-* [Update Management Tutorial - Manage Updates for Multiple VMs](https://docs.microsoft.com/azure/automation/manage-update-multi)
-* [Configure Windows Update Client Settings for Update Management](https://docs.microsoft.com/azure/automation/automation-configure-windows-update)
+* [Update Management Overview - Supported Clients, Permissions and Network Requirements](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-overview)
+* [Update Management - Get Started](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-manage-updates-for-vm)
+* [Configure Windows Update Client Settings for Update Management](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-configure-wuagent)
