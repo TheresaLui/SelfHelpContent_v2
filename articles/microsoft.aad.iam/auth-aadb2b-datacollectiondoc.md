@@ -194,7 +194,7 @@
             "displayLabel": "Resoure ID",
             "watermarkText": "Provide Resource ID for Resource with issue",
             "required": true
-        },
+        }
     ],
     "$schema": "SelfHelpContent"
 }
