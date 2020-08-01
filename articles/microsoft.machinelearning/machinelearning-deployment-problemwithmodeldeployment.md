@@ -4,6 +4,7 @@
     infoBubbleText="Problem with Model Deployment"
     service="microsoft.machinelearning"
     resource="deployment"
+    displayOrder="1"
     authors="shivanissambare"
     ms.author="ssambare"
     articleId="machinelearning-deployment-problemwithmodeldeployment"
