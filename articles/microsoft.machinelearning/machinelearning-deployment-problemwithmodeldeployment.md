@@ -6,7 +6,6 @@
     resource="deployment"
     authors="shivanissambare"
     ms.author="ssambare"
-    displayOrder="1"
     articleId="machinelearning-deployment-problemwithmodeldeployment"
     selfHelpType="generic"
     supportTopicIds="32690852"
