@@ -5,7 +5,7 @@
           ms.author="cplatsdkdev"
           articleId="158f0a07-0a66-4a25-9e37-c43c49c8dd64_Public"
           selfHelpType="advisorRecommendationMetadata"
-          cloudEnvironments="Public, usnat"
+          cloudEnvironments="Public"
           ownershipId="Compute_ComputePlatform"
 />
 
