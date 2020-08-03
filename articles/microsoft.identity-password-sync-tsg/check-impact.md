@@ -17,7 +17,7 @@
 
 # How to check impact of password sync issues
 
-* Determine impact
-   * Is it to specific users or 
-   * Domain or forest level? 
-* Ask the customer or refer to case description to find out
+1. Determine impact
+   1. Is it to specific users or 
+   2. Domain or forest level? 
+2. Ask the customer or refer to case description to find out

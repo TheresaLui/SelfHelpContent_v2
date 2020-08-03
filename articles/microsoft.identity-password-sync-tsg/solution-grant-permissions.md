@@ -17,9 +17,11 @@
 
 # Grant permissions
 
-* A powershell command exists to set permissions
-* There is no command to test or check permissions
-* The powershell command is as follows
+<!--issueDescription-->
+
+1. A powershell command exists to set permissions
+2. There is no command to test or check permissions
+3. The powershell command is as follows
 
 ~~~powershell
 
@@ -27,6 +29,8 @@ Set-ADSyncPasswordHashSyncPermissions -ADConnectorAccountName <String> -ADConnec
 
 ~~~
 
-## **Recommended Documents**
+<!--/issueDescription-->
 
-* [Azure AD Connect: Configure AD DS Connector Account Permissions](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-configure-ad-ds-connector-account)
+## Recommended Documents
+
+1. [Azure AD Connect: Configure AD DS Connector Account Permissions](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-configure-ad-ds-connector-account)

@@ -94,7 +94,7 @@
             "order": 7,
 			"visibility": "ir_type == Self-hosted IR",
             "controlType": "textbox",
-            "displayLabel": "Is this a run time issue? If yes, please provide the Report ID. (see Solutions tab for guidance on how to obtain it)",
+            "displayLabel": "Is this a run time issue? If yes, please provide the Report ID from all nodes separated with commas. (see Solutions tab for guidance on how to obtain Report ID)",
             "required": true
         },
         {

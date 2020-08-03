@@ -17,7 +17,7 @@
 
 # How to check Kusto for request debugging
 
-* You can use Kusto to get more in-depth debugging of what happened for a particular request.
+1. You can use Kusto to get more in-depth debugging of what happened for a particular request.
 
 ~~~kusto
 
