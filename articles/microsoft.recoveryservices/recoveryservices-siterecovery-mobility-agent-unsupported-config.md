@@ -16,14 +16,16 @@
 
 # I am unable to install the mobility service agent due to unsupported configuration or OS
 
-## Unsupported OS/kernel
+## **Recommended Steps**
+
+### Unsupported OS/kernel
 
 Check the support matrix to identify the supported versions:
 
 - [Support matrix for disaster recovery of VMware VMs and physical servers to Azure](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#replicated-machines(V2A))
 - [Support matrix for Azure VM disaster recovery between Azure regions](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix#replicated-machine-operating-systems(A2A))
 
-## Prerequisites for success
+### Prerequisites for success
 
 Avoid failures from unsupported configurations by verifying that you are within our support matrix.
 

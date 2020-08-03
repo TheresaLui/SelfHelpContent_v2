@@ -18,12 +18,14 @@
 
 Mobility agent installation failed due to connectivity failures? Follow the below troubleshooting guidance to resolve most commonly seen errors:
 
-## Azure to Azure DR
+## **Recommended Steps**
+
+### Azure to Azure DR
 
 - Resolve connectivity errors with [ids: 151037, 151072, 151195, 151196)](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-network-connectivity)
 - Set up the NSG to whitelist specific URLs for [communication with Azure services](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-network-connectivity#example-nsg-configuration)
 
-## VMware to Azure DR
+### VMware to Azure DR
 
 - Ensure that all network requirements are met on configuration server to allow [communication with Azure services](https://docs.microsoft.com/azure/site-recovery/vmware-azure-deploy-configuration-server#network-requirements)
 - Resolve connectivity errors with [ids: 95117, 95118, 95523, 95105, 95106](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#connectivity-failure-errorid-95117--97118)
