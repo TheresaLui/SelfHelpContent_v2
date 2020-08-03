@@ -71,11 +71,11 @@ Not all system functions utilize the index.
 Here is the list of the most commonly used string functions that don't utilize the index:
     
 - [LOWER(<str_expr>)](https://docs.microsoft.com/azure/cosmos-db/sql-query-lower)
-    - Consider using case-insensitive [CONTAINS](https://docs.microsoft.com/azure/cosmos-db/sql-query-contains), [STARTSWITH](https://docs.microsoft.com/azure/cosmos-db/sql-query-startswith), or [STRINGEQUALS](https://docs.microsoft.com/azure/cosmos-db/sql-query-stringequals) instead.
+  - Consider using case-insensitive [CONTAINS](https://docs.microsoft.com/azure/cosmos-db/sql-query-contains), [STARTSWITH](https://docs.microsoft.com/azure/cosmos-db/sql-query-startswith), or [STRINGEQUALS](https://docs.microsoft.com/azure/cosmos-db/sql-query-stringequals) instead.
 - [UPPER(<str_expr>)](https://docs.microsoft.com/azure/cosmos-db/sql-query-upper)
-    - Consider using case-insensitive [CONTAINS](https://docs.microsoft.com/azure/cosmos-db/sql-query-contains), [STARTSWITH](https://docs.microsoft.com/azure/cosmos-db/sql-query-startswith), or [STRINGEQUALS](https://docs.microsoft.com/azure/cosmos-db/sql-query-stringequals) instead.
+  - Consider using case-insensitive [CONTAINS](https://docs.microsoft.com/azure/cosmos-db/sql-query-contains), [STARTSWITH](https://docs.microsoft.com/azure/cosmos-db/sql-query-startswith), or [STRINGEQUALS](https://docs.microsoft.com/azure/cosmos-db/sql-query-stringequals) instead.
 - [Most mathematical system functions](https://docs.microsoft.com/azure/cosmos-db/sql-query-mathematical-functions)
-    - Avoid using mathematical system functions in the `WHERE` clause of your query, if possible.
+  - Avoid using mathematical system functions in the `WHERE` clause of your query, if possible.
 
 For more system function details see [System Functions](https://docs.microsoft.com/azure/cosmos-db/sql-query-system-functions). You can navigate to each individual system function's page in the documentation to understand how it uses the index.
 
@@ -85,5 +85,5 @@ Please refer to documents below on how to get execution statistics and tune your
 
 * [Troubleshoot Query Performance](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance)
 * [Performance tips for .NET SDK](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
-* [Performance tips for Java SDK](https://docs.microsoft.com/en-us/azure/cosmos-db/performance-tips-java-sdk-v4-sql?tabs=api-async)
-* [Indexing in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/index-policy)
+* [Performance tips for Java SDK](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java-sdk-v4-sql?tabs=api-async)
+* [Indexing in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/index-policy)
