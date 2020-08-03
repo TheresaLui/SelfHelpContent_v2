@@ -24,8 +24,5 @@
 
 ## **Recommended Steps**
 
-We have identified that your backup operation might have failed, because our backup service could not communicate with the VM agent. To resolve this issue, follow the below steps:
-
-- Guest agent might be outdated, stopped or unresponsive. Follow [these](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-agent-installed-in-the-vm-is-out-of-date-for-linux-vms) instructions to update and restart the agent
-- [Ensure Backup extension running on the VM has outbound access to Azure public IP addresses](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#establish-network-connectivity)
-- Backup operation could fail if the backup extension is in an inconsistent state. To resolve this issue reinstall the extension by follow these [steps](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-backup-extension-fails-to-update-or-load) and retry the operation
+- We have identified that your backup operation might have failed, because our backup service could not communicate with the VM agent. To resolve this issue, follow the steps listed in this [section](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-2-check-azure-vm-guest-agent-service-health)
+- - Ensure [VM Extensions](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-3-check-azure-vm-extension-health) and [VM Backup Extension](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-4-check-azure-backup-vm-extension-health) are healthy
