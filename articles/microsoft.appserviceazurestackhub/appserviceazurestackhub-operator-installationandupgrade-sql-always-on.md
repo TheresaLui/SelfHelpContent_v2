@@ -39,14 +39,14 @@ If you deployed SQL Server using the "Quickstart template for Highly Available f
     2. Add/enable an inbound security rule for RDP, port 3389.
     3. Open the "Virtual machines" service. Note the "Private IP" addresses for the 2 SQL Server VMs (APS-SQL-0 and APS-SQL-1) as you'll use them later. Then select the CN0-VM or CN-1-VM controller VM (either will work).
     4. Select "Connect" at the top of the controller VM blade. You'll need the admin credentials provided during deployment to sign in.
-3. Establish a remote desktop connection with the SQL Server VMs
+3. Establish a remote desktop connection with each SQL Server VM and restart the SQL Server database instance:
     1. From the controller VM, use the Start menu to find and run the "Remote Desktop Connection" app. 
-    2. Use a SQL Server IP address obtained in step 2.c to connect to the SQL Server VM. You'll need the admin credentials provided during deployment to sign in.
+    2. Use a SQL Server IP address obtained in step 2.iii to connect to the SQL Server VM. You'll need the admin credentials provided during deployment to sign in.
     3. In the SQL Server VM, select and run "SQL Server Management Studio" from the Start menu.
     4. In the "Connect to Server" dialog, enter the name of one of the SQL Server instances (APS-SQL-0 or APS-SQL-1) under "Server name". Leave "Authentication" as "Windows Authentication". Select the "Connect" button.
     5. Using the "Object explorer" panel, right-click on the topmost database server node and select "Restart". Select "Yes" to confirm the "Are you sure you want to restart the MSSQLSERVER service" message. Wait for the "Attempting to stop" and "Attempting to start" dialogs to complete.
     6. In the "Object explorer" panel, expand the "Databases" name and verify that the "appservice_hosting" and "appservice_metering" databases are "Synchronized". 
-    7. Click the "Connect" icon (looks like a plug) at the top of the "Object Explorer" panel. Using the name of the second SQL Server instance, repeat steps d through g.
+    7. Click the "Connect" icon (looks like a plug) at the top of the "Object Explorer" panel. Using the name of the second SQL Server instance, repeat steps iv through vii.
 4. Close the remote desktop session with the first SQL Server VM. Using the IP address of the 2nd SQL Server VM, repeat step 3.
 5. Close the remote desktop session with the controller VM. Return to the App Service RP blade in the Azure Stack Hub administrator portal and verify that the database is now reachable. 
 6. If the database is still not reachable, proceed with opening a support case to contact a support engineer.
