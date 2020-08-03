@@ -26,7 +26,7 @@ You can learn how to create or register an Azure Machine Learning datasets via d
 2. Create [datasets](https://docs.microsoft.com/azure/machine-learning/how-to-create-register-datasets) from paths from your datastores
 
 
-## **FAQ**
+### **FAQ**
 
 1. When should I use file dataset v/s tabular dataset?
 
