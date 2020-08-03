@@ -93,4 +93,4 @@ Now you have an operational web service to generate predictions! You can test th
 * [Known issues and troubleshooting in Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/resource-known-issues#automated-machine-learning)
 * [Sample Notebook: deploying to ACI](https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/automated-machine-learning/classification-bank-marketing-all-features/auto-ml-classification-bank-marketing-all-features.ipynb)
 * [Sample Notebook: deploying to AKS](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/deployment/production-deploy-to-aks)
-* [Sample Notebook: general deployment]
+* [Sample Notebook: general deployment](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/deployment)
