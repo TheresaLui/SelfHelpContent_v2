@@ -21,7 +21,7 @@ Here you will learn how to debug failed hyperparameter runs.
 ## **Recommended Steps**
 
 ## **Recommended Documents**
-* [Known Issues and trouble shooting in Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/resource-known-issues)
+* [Known Issues and troubleshooting in Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/resource-known-issues)
 * [How to tune hyperparameters](https://docs.microsoft.com/azure/machine-learning/how-to-tune-hyperparameters)
 * [Define a hyperparameter search space](https://docs.microsoft.com/azure/machine-learning/how-to-tune-hyperparameters#define-search-space)
 * [Configure hyperparameter sampling](https://docs.microsoft.com/azure/machine-learning/how-to-tune-hyperparameters#sampling-the-hyperparameter-space)
