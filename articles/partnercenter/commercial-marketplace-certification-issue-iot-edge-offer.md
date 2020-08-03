@@ -28,13 +28,10 @@ If your offer failed certification, the following resources can help you underst
 ## **Recommended Steps**
 
 1. Open the certification failure report shared in email or access it from the publishing status on the Offer overview page in Partner Center.
-
 2. Review the [commercial marketplace certification policies](https://docs.microsoft.com/legal/marketplace/certification-policies) for the applicable policy failures to resolve any issues.
-
 3. Make adjustments to your offer in Partner Center according to the policy recommendation. This can touch any part of your offer related to the policy failure.
-
 4. Re-publish your offer in Partner Center to resubmit your changes for certification. If needed, provide additional details in "Notes for certification" on the review and publish page during publishing.
 
 ## **Recommended Documents**
 
-* [Commercial marketplace certification policies](https://aka.ms/commercial-marketplace-certification-policies)
+* [Commercial marketplace certification policies](https://docs.microsoft.com/legal/marketplace/certification-policies)
