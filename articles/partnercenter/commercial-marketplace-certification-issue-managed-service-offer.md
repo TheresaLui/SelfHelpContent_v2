@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Commercial Marketplace - Certification issue - Managed service offer"
-	description="Commercial Marketplace - Certification issue - Managed service offer"
+	pageTitle="Commercial Marketplace - Certification issue -Managed service offer"
+	description="Commercial Marketplace - Certification issue -Managed service offer"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
