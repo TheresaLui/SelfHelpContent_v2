@@ -85,7 +85,7 @@
         "order": 3,
         "controlType": "textbox",
         "displayLabel": "How many instances are you deploying?",
-        "required": false,
+        "required": true,
         "useAsAdditionalDetails": false,
         "diagnosticInputRequiredClients": "Portal,ASC"
     },
