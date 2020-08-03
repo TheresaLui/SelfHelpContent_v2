@@ -2,7 +2,7 @@
   pagetitle="Support topic description for SQL server in VM - Windows"
   description="Support topic description for SQL server in VM - Windows"
   authors="ujpat, vadeveka, amamun, elixirsys2"
-  ms.author="ujpat, vadeveka, amamun"
+  ms.author="ujpat, vadeveka, amamun, amigan"
   selfhelptype="SupportTopicDescription"
   productpesids="53b14ef9-9b69-4d8c-a458-b8e4c132a815"
   cloudenvironments="public, blackforest, fairfax, mooncake, usnat, ussec"
@@ -190,7 +190,7 @@
       "shortDescription": "Issues connecting to the Virtual Machine like RDP, SSH, Firewall or NSG",
       "searchTags": "connect to vm",
       "category": "Connectivity",
-      "useInDiagnoseAndSolve": "FALSE"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "76d18e8d-9f50-5415-da66-ab3aa4c063d5",
