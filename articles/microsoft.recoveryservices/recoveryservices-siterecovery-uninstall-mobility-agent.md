@@ -16,9 +16,7 @@
 
 # I am unable to uninstall the mobility service agent
 
-## Force uninstall
-
-### Unable to remove mobility agent on protected machine
+## Unable to remove mobility agent on protected machine
 
 - You can choose to uninstall or disable ASR through a simple powershell command:
 
@@ -34,6 +32,6 @@
     - [Troubleshoot replication issues for VMware VMs and physical servers](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-replication)
     - [Troubleshoot configuration server issues](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-configuration-server)
 
-### HyperV to Azure
+## HyperV to Azure
 
 - Ensure that there are no [performance issues](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-troubleshoot)
