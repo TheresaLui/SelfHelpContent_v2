@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Commercial Marketplace - Certification issue - PowerBI app offer"
-	description="Commercial Marketplace - Certification issue - PowerBI app offer"
+	pageTitle="Commercial Marketplace - Certification issue -PowerBI app offer"
+	description="Commercial Marketplace - Certification issue -PowerBI app offer"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
