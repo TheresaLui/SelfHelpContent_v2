@@ -21,7 +21,7 @@
 # Commercial Marketplace - Certification issue - IoT Edge Offer
 Submitted offers undergo rigorous review during the certification step, some automated and others manual. Review the commercial marketplace certification policies to learn more on tests performed during the review.
 
-The review process can take up to 2 business days.
+The review process can take up to **2 business days**.
 
 If your offer failed certification, the following resources can help you understand the failure and what actions should be taken to address it. Certification requires re-publishing your offer after making the necessary changes to send the offer back through the review.
 
