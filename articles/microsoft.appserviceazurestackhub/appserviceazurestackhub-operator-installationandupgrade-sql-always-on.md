@@ -31,19 +31,17 @@ Confirm that you've followed the [deployment prerequisites](https://docs.microso
 
 ### 2. Verify that SQL Server is reachable from the App Service RP blade
 
-Open the App Service RP blade in the Azure Stack Hub administrator portal. If you see a raining cloud image with text *"Failed to load App Service extension. Please check whether App Service resource provider and sql database is up and running"*, the database is not reachable.
+If you deployed SQL Server using the "Quickstart template for Highly Available file server and SQL Server", the SQL Server databases were deployed to Azure Stack Hub as part of the App Service installation. Attempt to restart the SQL Server instances provided during deployment, by remoting into one of the App Service controller VMs, then into each SQL Server VM:
 
-If you deployed SQL Server using the "Quickstart template for Highly Available file server and SQL Server", the SQL Server databases were deployed to Azure Stack Hub as part of the App Service installation. Attempt to restart the SQL Server instances by remoting into one of the App Service controller VMs, then into the SQL Server VMs:
-
-1. Sign in to the Azure Stack Hub administrator portal.
-2. Establish a remote desktop connection with the App Service controller VM
+1. Sign in to the Azure Stack Hub administrator portal. Open the App Service RP blade. If you see a raining cloud image with text *"Failed to load App Service extension. Please check whether App Service resource provider and sql database is up and running"*, the database is not reachable. Continue with the following steps.
+2. Establish a remote desktop connection with one of the App Service controller VMs:
     1. Open the "Network security groups" service, and select the "ControllersNsg" blade.
     2. Add/enable an inbound security rule for RDP, port 3389.
-    3. Open the "Virtual machines" service. Note the "Private IP" addresses for the 2 SQL Server VMs (APS-SQL-0 and APS-SQL-1) as you will use them later. Then select the CN0-VM or CN-1-VM controller VM (either will work).
-    4. Select "Connect" at the top of the controller VM blade. You will need the admin credentials you provided during deployment to sign in.
+    3. Open the "Virtual machines" service. Note the "Private IP" addresses for the 2 SQL Server VMs (APS-SQL-0 and APS-SQL-1) as you'll use them later. Then select the CN0-VM or CN-1-VM controller VM (either will work).
+    4. Select "Connect" at the top of the controller VM blade. You'll need the admin credentials provided during deployment to sign in.
 3. Establish a remote desktop connection with the SQL Server VMs
     1. From the controller VM, use the Start menu to find and run the "Remote Desktop Connection" app. 
-    2. Use a SQL Server IP address obtained in step 2.c to connect to the SQL Server VM. You will need the admin credentials you provided during deployment to sign in.
+    2. Use a SQL Server IP address obtained in step 2.c to connect to the SQL Server VM. You'll need the admin credentials provided during deployment to sign in.
     3. In the SQL Server VM, select and run "SQL Server Management Studio" from the Start menu.
     4. In the "Connect to Server" dialog, enter the name of one of the SQL Server instances (APS-SQL-0 or APS-SQL-1) under "Server name". Leave "Authentication" as "Windows Authentication". Select the "Connect" button.
     5. Using the "Object explorer" panel, right-click on the topmost database server node and select "Restart". Select "Yes" to confirm the "Are you sure you want to restart the MSSQLSERVER service" message. Wait for the "Attempting to stop" and "Attempting to start" dialogs to complete.
@@ -57,7 +55,7 @@ If you provided your own SQL Server databases during deployment, you'll need to 
 
 ### 3. Verify that you're using the correct SQL Server SA password
 
-If an SA password was changed from what it was when you deployed, this can also prevent SQL Server from being reachable. You will need to review log messages to look for clues that would prevent SQL Server from being reachable.
+If an SA password was changed from what it was when you deployed, this can also prevent SQL Server from being reachable. You'll need to review log messages to look for clues that would prevent SQL Server from being reachable.
 
 ## **Recommended Documents**
 

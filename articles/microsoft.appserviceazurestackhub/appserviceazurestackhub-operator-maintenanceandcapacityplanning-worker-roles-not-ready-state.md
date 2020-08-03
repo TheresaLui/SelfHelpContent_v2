@@ -21,13 +21,13 @@
 
 ### 1. Verify worker roles are in a "ready" state 
 
-There can be multiple causes preventing a worker role from reaching the "ready" state, which also prevents deployment of applications. 
+There can be multiple causes preventing a worker role from reaching the "ready" state, which will prevent deployment of applications. 
 
 #### File server health check failure
 
 If you've deployed to an existing virtual network and are using an internal IP address to connect to your file server, you must add a network security group (NSG) rule to allow traffic between the worker role subnet and your file server. If you didn't, the file server health check will fail on the worker role.
 
-Check the worker role logs to verify the file server health check completion:
+Check the worker role logs to verify file server health check completion:
 
 1. Sign in to the Azure Stack Hub administrator portal.
 2. Go to the "App Service" service, select the "Roles" blade.
