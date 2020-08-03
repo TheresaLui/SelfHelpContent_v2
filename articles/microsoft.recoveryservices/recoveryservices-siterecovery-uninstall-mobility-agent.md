@@ -16,7 +16,7 @@
 
 # I am unable to uninstall the mobility service agent
 
-## **Recommended steps**
+## **Recommended Steps**
 
 ### Unable to remove mobility agent on protected machine
 

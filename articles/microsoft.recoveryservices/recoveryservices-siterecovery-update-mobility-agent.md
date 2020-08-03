@@ -16,7 +16,7 @@
 
 # I am unable to update the mobility service agent
 
-## **Recommended steps**
+## **Recommended Steps**
 
 ### Troubleshoot the most commonly seen mobility agent update errors
 
