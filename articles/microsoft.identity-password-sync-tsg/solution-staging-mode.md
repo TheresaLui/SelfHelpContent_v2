@@ -17,9 +17,13 @@
 
 # Password Hash Sync does not work when the AADConnect server is in staging mode
 
-* When the Azure AD Connect server is in staging mode, no password hashes are synced to Azure AD
-* If you want to sync password hashes with this server you need to take it out of staging mode
+<!--issueDescription-->
 
-## **Recommended Documents**
+1. When the Azure AD Connect server is in staging mode, no password hashes are synced to Azure AD
+2. If you want to sync password hashes with this server you need to take it out of staging mode
+
+<!--/issueDescription-->
+
+## Recommended Documents
 
 You can read more about how to do that in [this article](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-staging-server#switch-active-server).

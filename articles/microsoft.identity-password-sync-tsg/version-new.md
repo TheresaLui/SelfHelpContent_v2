@@ -17,5 +17,5 @@
 
 # Use interactive troubleshooting tool
 
-* For Password Hash Sync version 1.1.542.1 there is an interactive troubleshooting tool that you can use to troubleshoot Password Hash Sync issues. 
-* Please refer to [this document](https://microsoft.sharepoint.com/teams/adiamteam/AzureSync/Forms/AllItems.aspx?id=%2Fteams%2Fadiamteam%2FAzureSync%2FADSyncDiagnostics%20-%20Password%20Sync%20Troubleshooting%2Epdf&parent=%2Fteams%2Fadiamteam%2FAzureSync&p=true) to learn about how to use the interactive troubleshooting tool
+1. For Password Hash Sync version 1.1.542.1 there is an interactive troubleshooting tool that you can use to troubleshoot Password Hash Sync issues. 
+2. Please refer to [this document](https://microsoft.sharepoint.com/teams/adiamteam/AzureSync/Forms/AllItems.aspx?id=%2Fteams%2Fadiamteam%2FAzureSync%2FADSyncDiagnostics%20-%20Password%20Sync%20Troubleshooting%2Epdf&parent=%2Fteams%2Fadiamteam%2FAzureSync&p=true) to learn about how to use the interactive troubleshooting tool
