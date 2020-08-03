@@ -16,12 +16,12 @@
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Issues with your linked key vault
+# Issues with your linked Azure Key Vault
 
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The Cosmos DB account, **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->** is unable to access the Azure Kay Vault instance hosting your encryption key.
+The Cosmos DB account, **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->** is unable to access the Azure Key Vault instance hosting your encryption key.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

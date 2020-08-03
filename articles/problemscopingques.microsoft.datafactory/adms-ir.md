@@ -4,7 +4,7 @@
 	authors="chez-charlie"
 	ms.author="chez"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629536, 32629537, 32629541, 32637155"
+    supportTopicIds="32629537, 32637155"
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -45,36 +45,22 @@
             "required": false
         },
         {
-            "id": "sample_run_ids",
+            "id": "problem_report_id",
             "order": 3,
             "controlType": "textbox",
-            "displayLabel": "Is this a run time issue? If yes, please provide the RunIDs. (separate with commas)",
-            "required": false
-        },
-        {
-            "id": "factory_name",
-            "order": 4,
-            "controlType": "textbox",
-            "displayLabel": "Name of the data factory",
-            "required": false
-        },
-        {
-            "id": "ir_name",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "Name of the IR",
-            "required": false
+            "displayLabel": "Is this a run time issue? If yes, please provide the Report ID from all nodes separated with commas. (see Solutions tab for guidance on how to obtain Report ID)",
+            "required": true
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
         },
         {
             "id": "problem_end_time",
-            "order": 7,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
             "required": false
