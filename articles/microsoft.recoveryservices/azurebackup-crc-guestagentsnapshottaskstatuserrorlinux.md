@@ -20,7 +20,7 @@
 # Guest Agent Snapshot Task Status Error: Linux
 
 <!--issueDescription-->
-## Could not communicate with the VM agent for snapshot status
+Could not communicate with the VM agent for snapshot status
 <!--/issueDescription-->
 
 ## **Recommended Steps**
