@@ -27,9 +27,6 @@ Based on the analysis of your desired deployment allocation of with the requeste
 
 **<!--$SkuRegRec-->No information provided<!--/$SkuRegRec-->**<br>
 
-**<!--$AlternateRegions-->No information provided<!--/$AlternateRegions-->**<br>
-
-**<!--$AlternateSizes-->No information provided<!--/$AlternateSizes-->**<br>
 <!--/issueDescription-->
 
 ## **Recommended Steps**
