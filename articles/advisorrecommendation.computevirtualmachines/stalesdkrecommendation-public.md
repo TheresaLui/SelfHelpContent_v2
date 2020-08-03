@@ -5,7 +5,7 @@
           ms.author="cplatsdkdev"
           articleId="158f0a07-0a66-4a25-9e37-c43c49c8dd64_Public"
           selfHelpType="advisorRecommendationMetadata"
-          cloudEnvironments="Public, usnat"
+          cloudEnvironments="Public"
           ownershipId="Compute_ComputePlatform"
 />
 
@@ -52,7 +52,7 @@
           {
                     "streamNamespace": "cluster('https://advisorfollower.centralus.kusto.windows.net').database('ARMProdHelper').StaleSDKRecommendation",
                     "dataSource": "Kusto",
-                    "refreshInterval": "0.01:00:00"
+                    "refreshInterval": "0.02:00:00"
           }
 }
 ---
