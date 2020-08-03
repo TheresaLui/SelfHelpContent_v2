@@ -19,6 +19,10 @@
 
 **Troubleshooting**
 
+
+* RBAC new roles Key Vault Administrator, Key Vault Reader and Key Vault Secrets, Certificates and Keys roles are currently in private preview. It require subscription to be enabled for roles to take affect. Please contact jalichwa@microsoft.com for more information
+
+
 * Per-secret/key/certificate access control: Custom access control feature work is in the roadmap. Preview would be available in next few months. [Read more](https://feedback.azure.com/forums/906355-azure-key-vault/suggestions/32213176-per-secret-key-certificate-access-control)
 
 ## **Recommended Documents**
