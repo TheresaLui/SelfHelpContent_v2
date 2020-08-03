@@ -193,7 +193,7 @@
             "controlType": "textbox",
             "displayLabel": "Resoure ID",
             "watermarkText": "Provide Resource ID for Resource with issue",
-            "required": true
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
