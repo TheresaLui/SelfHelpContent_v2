@@ -19,6 +19,8 @@
 
 # Understand and Tune Performance of Copy Activity
 
+**Note:** If you use **Self-Hosted IR** please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** of each IR node, to provide it with the support request.
+
 ## **Recommended Steps**
 
 * [Performance Tuning Guide](https://docs.microsoft.com/azure/data-factory/copy-activity-performance) offers detailed information about expected throughput and how to identify and address performance bottlenecks due to a variety of issues, including: <br>
