@@ -18,8 +18,7 @@
 # GuestAgentSnapshotTaskStatusErrorWindows
 
 <!--issueDescription-->
-
-## **Could not communicate with the VM agent for snapshot status**
+## Could not communicate with the VM agent for snapshot status
 <!--/issueDescription-->
 
 ## **Recommended Steps**
