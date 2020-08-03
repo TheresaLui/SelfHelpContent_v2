@@ -32,7 +32,7 @@ If your product failed certification, the following resources can help you under
 
 2. Review the [commercial marketplace certification policies](https://docs.microsoft.com/legal/marketplace/certification-policies) for the applicable policy failures to resolve any issues.
 
-3. Review [Tips for a successful Teams app submission ](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/frequently-failed-cases). 
+3. Review [Tips for a successful Teams app submission](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/frequently-failed-cases). 
 
 4. Make adjustments to your product in Partner Center according to the policy recommendation. This can touch any part of your product related to the policy failure.
 
