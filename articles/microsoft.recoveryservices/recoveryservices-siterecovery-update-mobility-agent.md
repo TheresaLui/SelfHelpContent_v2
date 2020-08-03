@@ -16,7 +16,9 @@
 
 # I am unable to update the mobility service agent
 
-## Troubleshoot the most commonly seen mobility agent update errors
+## **Recommended steps**
+
+### Troubleshoot the most commonly seen mobility agent update errors
 
 - Update failure due to Azure Site Recovery extension [time-out error](https://docs.microsoft.com/azure/site-recovery/site-recovery-extension-troubleshoot#azure-site-recovery-extension-time-out)
 - Update failure due to VM agent [unresponsive error](https://docs.microsoft.com/azure/site-recovery/site-recovery-extension-troubleshoot#protection-fails-because-the-vm-agent-is-unresponsive)
