@@ -17,8 +17,8 @@
 
 # How to check if domain controller is discoverable
 
-* Azure AD Connect includes a powershell module to detect local DNS issues
-* Example syntax is below
+1. Azure AD Connect includes a powershell module to detect local DNS issues
+2. Example syntax is below
 
 ~~~powershell
 
@@ -28,6 +28,6 @@ Confirm-DnsConnectivity -Forest "TEST.CONTOSO.COM" -DCs "MYDC1.CONTOSO.COM","MYD
 
 ~~~
 
-## **Recommended Documents**
+## Recommended Documents
 
-* [Use Azure AD Connect ADConnectivityTools PowerShell to check AD connectivity](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-adconnectivitytools)
+1. [Use Azure AD Connect ADConnectivityTools PowerShell to check AD connectivity](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-adconnectivitytools)

@@ -17,7 +17,7 @@
 
 # How to check if the error failed due to a partner dependency
 
-* Use Kusto to find out whether the error was due to a failed request to one of the APIs that the Azure AD admin portal depends upon.
+1. Use Kusto to find out whether the error was due to a failed request to one of the APIs that the Azure AD admin portal depends upon.
  
 ~~~kusto
 
