@@ -21,7 +21,9 @@
 # Certification issue - SharePoint add-in
 
 Submitted products undergo rigorous review during the certification step, some automated and others manual. Review the commercial marketplace certification policies to learn more on tests performed during the review.
+
 The review process can take up to **5 business days**. Cancelling an in-progress submission will reset your position to the back of the review queue when you resubmit.
+
 If your product failed certification, the following resources can help you understand the failure and what actions should be taken to address it. You must resubmit your product after making the necessary changes to send it back through the review.
 
 ## **Recommended Steps**
@@ -34,4 +36,4 @@ If your product failed certification, the following resources can help you under
 
 ## **Recommended Documents**
 
-* [Commercial marketplace certification policies](https://aka.ms/commercial-marketplace-certification-policies)
+* [Commercial marketplace certification policies](https://docs.microsoft.com/en-us/legal/marketplace/certification-policies)
