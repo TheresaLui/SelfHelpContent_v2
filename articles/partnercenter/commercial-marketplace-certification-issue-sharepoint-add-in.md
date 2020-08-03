@@ -36,4 +36,4 @@ If your product failed certification, the following resources can help you under
 
 ## **Recommended Documents**
 
-* [Commercial marketplace certification policies](https://docs.microsoft.com/en-us/legal/marketplace/certification-policies)
+* [Commercial marketplace certification policies](https://docs.microsoft.com/legal/marketplace/certification-policies)
