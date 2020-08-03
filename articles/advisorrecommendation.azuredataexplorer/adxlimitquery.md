@@ -6,7 +6,7 @@
     articleId="d437a3b5-c7a2-4162-83a2-ba8e7ce18d99_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, usnat, ussec"
-	ownershipId="AzureOptimizationAutomation_AORec"
+    ownershipId="AzureOptimizationAutomation_AORec"
 />
 # The following Azure Data Explorer tables have been identified as candidates for updating their cache settings
 ---
