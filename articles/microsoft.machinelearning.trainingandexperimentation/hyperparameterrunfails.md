@@ -18,7 +18,6 @@
 
 Here you will learn how to debug failed hyperparameter runs.
 
-## **Recommended Steps**
 
 ## **Recommended Documents**
 * [Known Issues and troubleshooting in Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/resource-known-issues)
