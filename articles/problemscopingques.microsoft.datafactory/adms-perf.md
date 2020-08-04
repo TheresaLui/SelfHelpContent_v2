@@ -81,26 +81,25 @@
         {
             "id": "problem_run_id",
             "order": 6,
-			"visibility": "ir_type == Azure IR || dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Sample slow pipeline RunIDs (separate with commas)",
             "required": true
         },
 		{
-            "id": "problem_report_id",
-            "order": 7,
-			"visibility": "ir_type == Self-hosted IR",
-            "controlType": "textbox",
-            "displayLabel": "Sample slow pipeline Report ID from all nodes separated with commas. (see Solutions tab for guidance on how to obtain Report ID)",
-            "required": true
-        },
-        {
             "id": "sample_normal_run_id",
-            "order": 8,
-			"visibility": "ir_type == Azure IR || dont_know_answer",
+            "order": 7,
             "controlType": "textbox",
             "displayLabel": "Sample normal pipeline RunIDs (separate with commas)",
             "required": false
+        },
+
+		{
+            "id": "problem_report_id",
+            "order": 8,
+			"visibility": "ir_type == Self-hosted IR",
+            "controlType": "textbox",
+            "displayLabel": "Provide ReportIDs from all nodes separated with commas. (see Solutions tab for guidance on how to obtain Report ID)",
+            "required": true
         },
                 {
             "id": "problem_start_time",
