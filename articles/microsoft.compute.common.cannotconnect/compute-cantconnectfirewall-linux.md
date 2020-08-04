@@ -31,7 +31,7 @@
 **Additional Documents**<br>
 
 * [Learn more about Serial Console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux)
-* [Quick steps to diagnose & address common SSH connection issues](https://azure.microsoft.com/documentation/articles/virtual-machines-troubleshoot-ssh-connections/)<br>
+* [Quick steps to diagnose & address common SSH connection issues](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection)<br>
 * [Detailed SSH troubleshooting steps for issues connecting to a Linux VM in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)<br>
 * [How to reset local Linux password on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/linux/reset-password)<br>
 * [How to use boot diagnostics to troubleshoot Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)
