@@ -34,4 +34,3 @@ Try using [Azure Bastion](https://docs.microsoft.com/azure/bastion/bastion-overv
 * [Learn more about Network Security Groups](https://docs.microsoft.com/azure/virtual-network/security-overview)
 * [How to reset local Linux password on Azure VMs](https://docs.microsoft.com/azure/virtual-machines/linux/reset-password)
 * [How to use boot diagnostics to troubleshoot Linux virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/boot-diagnostics)
-
