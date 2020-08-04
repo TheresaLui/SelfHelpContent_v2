@@ -19,6 +19,7 @@
 Here you will learn how to deploy your AutoML models.
 
 ### Using the SDK
+
 The workflow is similar no matter where you deploy your model: 
 
 1. [Retrieve the Best Model](https://docs.microsoft.com/azure/machine-learning/tutorial-auto-train-models#retrieve-the-best-model): Below we select the best pipeline from our iterations. The get_output method returns the best run and the fitted model. Overloads on get_output allow you to retrieve the best run and fitted model for any logged metric or for a particular iteration.
@@ -48,42 +49,42 @@ print(remote_run.model_id) # This will be written to the script file later in th
 4. [Test](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service) the deployed model, also called a web service
 
 ### Using the User Interface
+
 Once you have the best model at hand, it is time to deploy it as a web service to predict on new data.
 
 Automated ML helps you with deploying the model without writing code:
 
-1. You have a couple options for deployment. 
+1. You have a couple options for deployment:
 
-    + Option 1: Deploy the best model, according to the metric criteria you defined. 
-        1. After the experiment is complete, navigate to the parent run page by selecting **Run 1** at the top of the screen. 
-        1.  Select the model listed in the **Best model summary** section. 
-        1. Select **Deploy** on the top left of the window. 
+* Option 1: Deploy the best model, according to the metric criteria you defined:
+	
+	1. After the experiment is complete, navigate to the parent run page by selecting **Run 1** at the top of the screen
+	1. Select the model listed in the **Best model summary** section
+        1. Select **Deploy** on the top left of the window
 
-    + Option 2: To deploy a specific model iteration from this experiment.
-        1. Select the desired model from the **Models** tab
-        1. Select **Deploy** on the top left of the window.
+* Option 2: To deploy a specific model iteration from this experiment:
 
-1. Populate the **Deploy model** pane.
+	1. Select the desired model from the **Models** tab
+        1. Select **Deploy** on the top left of the window
+
+2. Populate the **Deploy model** pane:
 
     Field| Value
     ----|----
-    Name| Enter a unique name for your deployment.
-    Description| Enter a description to better identify what this deployment is for.
-    Compute type| Select the type of endpoint you want to deploy: *Azure Kubernetes Service (AKS)* or *Azure Container Instance (ACI)*.
-    Compute name| *Applies to AKS only:* Select the name of the AKS cluster you wish to deploy to.
-    Enable authentication | Select to allow for token-based or key-based authentication.
+    Name| Enter a unique name for your deployment
+    Description| Enter a description to better identify what this deployment is for
+    Compute type| Select the type of endpoint you want to deploy: *Azure Kubernetes Service (AKS)* or *Azure Container Instance (ACI)*
+    Compute name| *Applies to AKS only:* Select the name of the AKS cluster you wish to deploy to
+    Enable authentication | Select to allow for token-based or key-based authentication
     Use custom deployment assets| Enable this feature if you want to upload your own scoring script and environment file. [Learn more about scoring scripts](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#script).
 
-    >[!Important]
-    > File names must be under 32 characters and must begin and end with alphanumerics. May include dashes, underscores, dots, and alphanumerics between. Spaces are not allowed.
+    >**NOTE**: File names must be under 32 characters and must begin and end with alphanumerics. May include dashes, underscores, dots, and alphanumerics between. Spaces are not allowed.
 
     The *Advanced* menu offers default deployment features such as [data collection](https://docs.microsoft.com/azure/machine-learning/how-to-enable-app-insights) and resource utilization settings. If you wish to override these defaults do so in this menu.
 
-1. Select **Deploy**. Deployment can take about 20 minutes to complete.
-    Once deployment begins, the **Model summary** tab appears. See the deployment progress under the **Deploy status** section. 
+1. Select **Deploy**. Deployment can take about 20 minutes to complete. Once deployment begins, the **Model summary** tab appears. See the deployment progress under the **Deploy status** section. 
 
 Now you have an operational web service to generate predictions! You can test the predictions by querying the service from [Power BI's built in Azure Machine Learning support](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service#consume-the-service-from-power-bi).
-
 
 ## **Recommended Documents**
 
