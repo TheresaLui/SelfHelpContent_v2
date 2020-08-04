@@ -5,7 +5,7 @@
   ms.author="goventur"
   selfhelptype="SupportTopicDescription"
   productpesids="20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_20c0b7e3-3084-2fc5-5530-1ff0cc21e885"
   ownershipid="AzureData_SQLDataWarehouse" />
 # Support Topic Descriptions for 20c0b7e3-3084-2fc5-5530-1ff0cc21e885
@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2bb9dea4-7436-2104-812e-99970f0b7b5f",
+      "longDescription": "",
+      "shortDescription": "Failures to connect to SQL on-demand endpoint or database unavailable. Do not use for AAD authentication or Firewall issues.",
+      "searchTags": "connectivity;unavailable;sql;connection;fail",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "302b0486-c30d-001a-bb38-e2109a55cb1f",
       "longDescription": "",
       "shortDescription": "Failures to scale a SQL pool to a different SLO, slow or hung scale operations, or unexpected behavior.",
@@ -227,6 +235,14 @@
       "shortDescription": "Questions or advisory on best practices, recommendations and product behavior related to backing up or restoring SQL Pool databases.",
       "searchTags": "how;advisory;sql;backup;restore",
       "category": "How-To",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3641365f-4980-5427-b9a6-f7d6bffa442c",
+      "longDescription": "",
+      "shortDescription": "Failures to set the maintenance schedule, maintenance occuring out of the scheduled window, or issues with maintenance notifications.",
+      "searchTags": "maintenance;schedule;window;notification;upgrade",
+      "category": "Administration and Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
