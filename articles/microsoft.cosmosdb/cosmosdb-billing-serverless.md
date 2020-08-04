@@ -22,8 +22,6 @@ Most users are able to resolve their Cosmos DB related serverless questions or i
 ## **Recommended Steps**  
 
 
-### **FAQ**
-
 **I cannot create a serverless account with free tier**  
 Cosmos DBs free tier can only be applied to provisioned capacity, not serverless accounts.   
 
