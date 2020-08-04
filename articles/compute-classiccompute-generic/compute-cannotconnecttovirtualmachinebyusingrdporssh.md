@@ -31,7 +31,7 @@
   	* [Remote Desktop disconnects frequently in Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-intermittent-connectivity)<br>
   	* [Troubleshoot a general RDP error in an Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-general-error)<br>
   	* [Remote Desktop Services is not starting on an Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-remote-desktop-services-issues)<br>
-  	* [Reset Remote Access to address remote server issues using PowerShell or CLI](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection)<br>
+  	* [Reset Remote Access to address remote server issues using PowerShell or CLI](http://aka.ms/resetsarmwinremoteaccess)<br>
 
 ## **Recommended Documents**
 
