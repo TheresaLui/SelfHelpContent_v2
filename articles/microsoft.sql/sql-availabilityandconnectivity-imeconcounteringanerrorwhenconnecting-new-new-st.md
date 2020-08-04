@@ -25,15 +25,15 @@
 
 ### Error 18456: Login failed for user X
 
-* Troubleshoot this error using the [Azure SQL Database Connectivity troubleshooter](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database#unable-to-log-in-to-the-server-errors-18456-40531?WT.mc_id=pid:13491:sid:32745425/) <br>
+* Troubleshoot this error using the [Azure SQL Database Connectivity troubleshooter](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database?WT.mc_id=pid:13491:sid:32745425/#unable-to-log-in-to-the-server-errors-18456-40531) <br>
 
 ### Error 40613: Database X on server Y is not currently available
 
-* This common, transient error occurs when you database is undergoing a reconfiguration, and normally lasts less than 60 seconds. [Read more](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database#transient-fault-error-messages-40197-40613-and-others?WT.mc_id=pid:13491:sid:32745425/) about how to handle this. <br>
+* This common, transient error occurs when you database is undergoing a reconfiguration, and normally lasts less than 60 seconds. [Read more](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database?WT.mc_id=pid:13491:sid:32745425/#transient-fault-error-messages-40197-40613-and-others) about how to handle this. <br>
 
 ### Error 40615: Cannot open server X requested by the login
 
-* Resolve this error by creating a server firewall rule as described [here](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview#errors-40914-and-40615?WT.mc_id=pid:13491:sid:32745425/) <br>
+* Resolve this error by creating a server firewall rule as described [here](https://docs.microsoft.com/azure/sql-database/sql-database-vnet-service-endpoint-rule-overview?WT.mc_id=pid:13491:sid:32745425/#errors-40914-and-40615) <br>
 
 ### Login/connection timeouts
 
@@ -61,7 +61,7 @@ In order to run it you need to:
         Database = ''  # Set the name of the database you wish to test, 'master' will be used by default if nothing is set
         User = ''  # Set the login username you wish to use, 'AzSQLConnCheckerUser' will be used by default if nothing is set
         Password = ''  # Set the login password you wish to use, 'AzSQLConnCheckerPassword' will be used by default if nothing is set
-    
+
         ## Optional parameters (default values will be used if omitted)
         SendAnonymousUsageData = $true  # Set as $true (default) or $false
         RunAdvancedConnectivityPolicyTests = $true  # Set as $true (default) or $false, this will load the library from Microsoft's GitHub repository needed for running advanced connectivity tests
