@@ -40,7 +40,7 @@ You do not have to provision any throughput in a serverless account, so shared-t
 Serverless containers can currently deliver a maximum throughput of 5k RU/s.    
 
 
-**I’m getting the following error when trying to add data in my container: *Reached the maximum storage limit for the serverless container*.**    
+**I am getting the following error when trying to add data in my container: *Reached the maximum storage limit for the serverless container*.**    
 During preview, a serverless container has a maximum storage size of 50 GB. This error indicates that you have hit the maximum storage limit for your container.   
 
 
