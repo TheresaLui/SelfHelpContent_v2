@@ -45,9 +45,9 @@
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/azure/data-explorer/kusto/management/cachepolicy",
+  "learnMoreLink": "https://aka.ms/adxcachepolicy",
   "description": "(PREVIEW) Reduce Azure Data Explorer table cache-period (policy) for cluster cost optimization",
-  "longDescription": "(PREVIEW) Right-sizing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
+  "longDescription": "Reducing the table cache policy will free up Azure Data Explorer cluster nodes having low CPU utilization, memory, and a high cache size configuration",
   "potentialBenefits": "Optimize cost",
   "actions": [
 	{
