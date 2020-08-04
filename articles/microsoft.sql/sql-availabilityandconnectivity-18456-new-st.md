@@ -21,11 +21,11 @@
 
 ### Error 18456: Login failed for user X
 
-* Login failures may occur commonly for one or more of the following reasons -
+* Login failures may occur commonly for one or more of the following reasons:
+
   * Incorrect / empty passwords
   * Database requested by user does not exist
   * The connections were rejected due to DoS Guard protection
   * Insufficient permissions
-
 
 * Troubleshoot this error using the [Azure SQL Database Connectivity troubleshooter](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database#unable-to-log-in-to-the-server-errors-18456-40531?WT.mc_id=pid:13491:sid:32745425/) <br>
