@@ -10,7 +10,7 @@ selfHelpType="generic"
 supportTopicIds="32683946"
 productPesIds="16869"
 cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
-articleId="LUIS_Conversation_HowToDevelopmentQuestions_usingTheC#SDK"
+articleId="LUIS_Conversation_HowToDevelopmentQuestions_usingTheCSharpSDK"
 ownershipId="AzureCogSvc_CognitiveServices"
 />
 
