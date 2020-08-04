@@ -60,29 +60,30 @@ Automated ML helps you with deploying the model without writing code:
 	
 	1. After the experiment is complete, navigate to the parent run page by selecting **Run 1** at the top of the screen
 	1. Select the model listed in the **Best model summary** section
-        1. Select **Deploy** on the top left of the window
+	1. Select **Deploy** on the top left of the window
 
 * Option 2: To deploy a specific model iteration from this experiment:
 
 	1. Select the desired model from the **Models** tab
-        1. Select **Deploy** on the top left of the window
+	1. Select **Deploy** on the top left of the window
 
 2. Populate the **Deploy model** pane:
 
-    Field| Value
-    ----|----
-    Name| Enter a unique name for your deployment
-    Description| Enter a description to better identify what this deployment is for
-    Compute type| Select the type of endpoint you want to deploy: *Azure Kubernetes Service (AKS)* or *Azure Container Instance (ACI)*
-    Compute name| *Applies to AKS only:* Select the name of the AKS cluster you wish to deploy to
-    Enable authentication | Select to allow for token-based or key-based authentication
-    Use custom deployment assets| Enable this feature if you want to upload your own scoring script and environment file. [Learn more about scoring scripts](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#script).
+Field| Value
+----|----
+Name| Enter a unique name for your deployment
+Description| Enter a description to better identify what this deployment is for
+Compute type| Select the type of endpoint you want to deploy: *Azure Kubernetes Service (AKS)* or *Azure Container Instance (ACI)*
+Compute name| *Applies to AKS only:* Select the name of the AKS cluster you wish to deploy to
+Enable authentication | Select to allow for token-based or key-based authentication
 
-    >**NOTE**: File names must be under 32 characters and must begin and end with alphanumerics. May include dashes, underscores, dots, and alphanumerics between. Spaces are not allowed.
+Use custom deployment assets| Enable this feature if you want to upload your own scoring script and environment file. [Learn more about scoring scripts](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#script).
 
-    The *Advanced* menu offers default deployment features such as [data collection](https://docs.microsoft.com/azure/machine-learning/how-to-enable-app-insights) and resource utilization settings. If you wish to override these defaults do so in this menu.
+**NOTE**: File names must be under 32 characters and must begin and end with alphanumerics. May include dashes, underscores, dots, and alphanumerics between. Spaces are not allowed.
 
-1. Select **Deploy**. Deployment can take about 20 minutes to complete. Once deployment begins, the **Model summary** tab appears. See the deployment progress under the **Deploy status** section. 
+The *Advanced* menu offers default deployment features such as [data collection](https://docs.microsoft.com/azure/machine-learning/how-to-enable-app-insights) and resource utilization settings. If you wish to override these defaults do so in this menu.
+
+3. Select **Deploy**. Deployment can take about 20 minutes to complete. Once deployment begins, the **Model summary** tab appears. See the deployment progress under the **Deploy status** section. 
 
 Now you have an operational web service to generate predictions! You can test the predictions by querying the service from [Power BI's built in Azure Machine Learning support](https://docs.microsoft.com/azure/machine-learning/how-to-consume-web-service#consume-the-service-from-power-bi).
 
