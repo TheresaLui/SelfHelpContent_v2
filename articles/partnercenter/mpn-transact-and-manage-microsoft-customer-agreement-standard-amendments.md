@@ -31,7 +31,7 @@ Microsoft Customer Agreement Amendments previously available on the pricing and 
 * [FSA English](https://go.microsoft.com/fwlink/?linkid=2104605)
 * [Data processing amendment Argentina English](https://go.microsoft.com/fwlink/?linkid=2104439)
 * [Data processing amendment Argentina Spanish](https://go.microsoft.com/fwlink/?linkid=2104606)
-* [Profesional secrecy amendment Germany English](https://go.microsoft.com/fwlink/?linkid=2104520)
-* [Profesional secrecy amendment Germany German](https://go.microsoft.com/fwlink/?linkid=2104522)
+* [Professional secrecy amendment Germany English](https://go.microsoft.com/fwlink/?linkid=2104520)
+* [Professional secrecy amendment Germany German](https://go.microsoft.com/fwlink/?linkid=2104522)
 * [Microsoft Online Services HIPAA Business Associate Amendment USA English](https://go.microsoft.com/fwlink/?linkid=2104519)
 
