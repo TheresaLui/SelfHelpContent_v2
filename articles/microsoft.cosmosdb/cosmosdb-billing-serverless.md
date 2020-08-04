@@ -50,7 +50,7 @@ During public preview, it is not possible to add Azure regions to a serverless a
 During public preview, it is not possible to enable the Synapse Link preview on a serverless account.  
 
 
-**I can not find the *Throughput*, *Availability*, *Latency* or *Consistency* tabs in the metrics shown in the portal**  
+**I cannot find the *Throughput*, *Availability*, *Latency* or *Consistency* tabs in the metrics shown in the portal**  
 - There is no *Throughput* tab because serverless resources do not require any throughput management. 
 - The *Availability*, *Latency* and *Consistency* tabs are not shown because there is no SLA guarantee for preview features.
 
