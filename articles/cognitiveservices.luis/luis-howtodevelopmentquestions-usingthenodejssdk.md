@@ -18,11 +18,11 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 ## **Recommended Steps**
 
-* Follow the [Java Script authoring SDK client library quickstart](https://docs.microsoft.com/azure/cognitive-services/luis/sdk-authoring?pivots=programming-language-csharp) to get started
+* Follow the [JavaScript authoring SDK client library quickstart](https://docs.microsoft.com/azure/cognitive-services/luis/sdk-authoring?pivots=programming-language-csharp) to get started
 
-* Follow the [Java Script prediction endpoint SDK quickstart](https://docs.microsoft.com/azure/cognitive-services/luis/sdk-query-prediction-endpoint?pivots=programming-language-csharp)
+* Follow the [JavaScript prediction endpoint SDK quickstart](https://docs.microsoft.com/azure/cognitive-services/luis/sdk-query-prediction-endpoint?pivots=programming-language-csharp)
 
-* Find the [Java Script SDK reference, samples and NPM packages](https://docs.microsoft.com/azure/cognitive-services/luis/developer-reference-resource#language-based-sdks)
+* Find the [JavaScript SDK reference, samples and NPM packages](https://docs.microsoft.com/azure/cognitive-services/luis/developer-reference-resource#language-based-sdks)
 
 * Understand the [LUIS authoring and prediction requests](https://docs.microsoft.com/azure/cognitive-services/luis/developer-reference-resource#language-understanding-authoring-and-prediction-requests)
 
