@@ -24,7 +24,7 @@ For "Performance-based" assessment, the assessment report export says 'Percentag
 
 - If the VMs are powered on for the duration for which you are creating the assessment
 - If only memory counters are missing and you are trying to assess Hyper-V VMs, check if you have dynamic memory enabled on these VMs. There is a known issue currently due to which Azure Migrate appliance cannot collect memory utilization for such VMs.
-- If all of the performance counters are missing, ensure that outbound connections on ports 443 (HTTPS) is allowed.
+- If all of the performance counters are missing, ensure that outbound connections on ports 443 (HTTPS) is allowed
 
 Note- If any of the performance counters are missing, Azure Migrate: Server Assessment falls back to the allocated cores/memory on-premises and recommends a VM size accordingly.
 
@@ -56,26 +56,30 @@ Meanwhile, you can manually ensure if the Linux OS running on the on-premises VM
 
 This may happen due to the following reasons:
 
-- You have provided the memory size in GB. The CSV expects the memory size to be in MB.
-- You have chosen a performance-based assessment and provided a memory utilization value that is lower than 100%.
+- You have provided the memory size in GB. The CSV expects the memory size to be in MB
+- You have chosen a performance-based assessment and provided a memory utilization value that is lower than 100%
 
 ### **Readiness is 'Unknown OS' on my imported machine**
+
 Ensure the operating system names provided in the CSV file meet the requirements documented [here](https://docs.microsoft.com/azure/migrate/tutorial-assess-import#supported-operating-system-names).
 
 
 ### **The VM SKU recommended by Server Assessment has more number of cores and a larger memory size than what is allocated on-premises. Why is that so?**
 
 The VM SKU recommendation in Server Assessment depends on the assessment properties. You can create two kinds of assessments in Server Assessment, 'performance-based' and 'as on-premises' assessments. 
+
 - For 'performance-based' assessments, Server Assessment considers the utilization data of the on-premises VMs (CPU, memory, disk, and network utilization) to determine the right target VM SKU for your on-premises VMs. It also adds a comfort factor when determining effective utilization.
-- For 'as on-premises' assessments, performance data is not considered, and the target SKU is recommended based on-premises allocation.
+- For 'as on-premises' assessments, performance data is not considered, and the target SKU is recommended based on-premises allocation
 
 For example, let's say there is an on-premises VM with 4 cores and 8 GB memory with 50% CPU utilization and 50% memory utilization, and a comfort factor of 1.3 is specified in the assessment:
-- If the sizing criterion is 'As on-premises' an Azure VM SKU with 4 cores and 8 GB memory is recommended.
+
+- If the sizing criterion is 'As on-premises' an Azure VM SKU with 4 cores and 8 GB memory is recommended
 - If the sizing criterion is performance-based, based on effective CPU and memory utilization (50% of 4 cores *1.3 = 2.6 cores and 50% of 8 GB memory* 1.3 = 5.3 GB memory), the cheapest VM SKU of 4 cores (nearest supported core count) and 8 GB memory size (nearest supported memory size) would be recommended. [Learn more about how Server Assessment performs sizing](https://docs.microsoft.com/azure/migrate/concepts-assessment-calculation#calculating-sizing).
 
 ### **The disk SKU recommended by Server Assessment has a bigger size than what is allocated on-premises. Why is that so?**
 
 The disk sizing in Server Assessment depends on two assessment properties - sizing criterion and storage type:
+
 - If the sizing criterion is 'Performance-based' and storage type is set to 'Automatic', the IOPS and throughput values of the disk are considered to identify the target disk type (Standard HDD, Standard SSD or Premium disks). A disk SKU within the disk type is then recommended considering the size requirements of the on-premises disk. 
 - If the sizing criterion is 'Performance-based' and storage type is 'Premium', a premium disk SKU in Azure is recommended based on the IOPS, throughput and size requirements of on-premises disk. The same logic is used to do disk sizing when the sizing criterion is 'As on-premises' sizing and storage type is 'Standard HDD', 'Standard SSD' or 'Premium'.
 
@@ -107,13 +111,13 @@ The storage engine used in Azure VMware Solution (AVS) is vSAN. vSAN storage pol
 
 ### **How is node sizing done in an Azure VMware Solution (AVS) assessment?**
 
-For sizing related queries, please refer to the documentation [here](https://docs.microsoft.com/azure/migrate/concepts-azure-vmware-solution-assessment-calculation#sizing)
+* For sizing related queries, please refer to the documentation [here](https://docs.microsoft.com/azure/migrate/concepts-azure-vmware-solution-assessment-calculation#sizing)
 
 ### **Why is my VM marked conditionally ready Internet Protocol?**
 
-AVS currently does not support IPv6 internet addressing. Contact your local MSFT AVS GBB team for guidance on remediation guidance if your machine is detected with IPv6.
+* AVS currently does not support IPv6 internet addressing. Contact your local MSFT AVS GBB team for guidance on remediation guidance if your machine is detected with IPv6.
 
 ### **Why can I not see some groups when I am creating an Azure VMware Solution (AVS) assessment?**
 
 - AVS assessment can be done on groups that have only VMware machines. Please remove any non-VMware machine from the group if you intend to perform an AVS assessment.
-- If you are running AVS assessments in Azure Migrate for the first time, it is advisable to create a new group of VMware machines.
+- If you are running AVS assessments in Azure Migrate for the first time, it is advisable to create a new group of VMware machines
