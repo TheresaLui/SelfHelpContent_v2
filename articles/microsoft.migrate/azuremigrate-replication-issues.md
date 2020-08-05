@@ -40,8 +40,8 @@ Use Azure Site Recovery (ASR) and follow the [guidance here](https://go.microsof
 
 **Start replication failed with the following errors** 
 
-a. Key Vault operation failed. Operation is Configure managed storage account.
-b. Key Vault operation failed. Operation is Generate shared access signature definition.
+***Key Vault operation failed. Operation is Configure managed storage account.***
+***Key Vault operation failed. Operation is Generate shared access signature definition.***
 
 This can happen if the logged-in user doesn't have the necessary permissions to configure storage accounts to be managed by the Key Vault. You can give yourself the necessary Key vault permissions by using the following PowerShell snippet:
  
