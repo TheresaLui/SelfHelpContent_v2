@@ -26,10 +26,10 @@ Cosmos DB account **<!--$GlobalDatabaseAccountName-->GlobalDatabaseAccountName<!
 
 ## **Recommended Steps**
 
-We highly recommend upgrading to the latest version of the SDK for performance and reliability improvements along with the latest bug fixes.
+We highly recommend upgrading to the latest version of the <!--$SDKLanguage-->SDKLanguage<!--/$SDKLanguage--> SDK for performance and reliability improvements along with the latest bug fixes.
 
 ## **Recommended Documents**
 
-* <!--$SDKDocsLink-->SDKDocsLink<!--/$SDKDocsLink-->
+* <!--$SDKDocsLinkText-->SDKDocsLinkText<!--/$SDKDocsLinkText-->
 
 <!--/issueDescription-->
