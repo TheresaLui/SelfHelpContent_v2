@@ -60,7 +60,7 @@
                             "value": "Office 365 Click-To-Run",
                             "text": "Office 365 Click-To-Run"
                         },	                    {
-							"value": "none_of_the_above",
+							"value": "dont_know_answer",
 							"text": "None of the above"
 						}
                     ],
