@@ -57,7 +57,7 @@
       "longDescription": "",
       "shortDescription": "Questions or issues about node software installation errors or configuration.",
       "searchTags": "Node;Nodes errors;Node configuration;node software installation",
-      "category": "CycleCloud",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
