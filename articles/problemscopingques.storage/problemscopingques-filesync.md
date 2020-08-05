@@ -1,8 +1,8 @@
 <properties
 	pageTitle="Storage File Sync"
 	description="Storage File Sync scoping question"
-	authors="Passaree"
-    ms.author="passap"
+	authors="kartikshah9"
+    ms.author="kashah"
 	articleId="StorageScoping_file_sync"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32675720,32675721,32675722,32675723,32675724,32675725,32675726"
@@ -47,15 +47,23 @@
         {
             "id": "problem_description",
             "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Sync Group Name",
+            "watermarkText": "Enter Sync Group Name else enter Not Applicable",
+            "required": true,
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
-            "watermarkText": "If applicable, please provide sync group name, server endpoint name, and error message.",
+            "watermarkText": "If applicable, please provide sync group name, server endpoint name, cloud endppoint and error message.",
             "required": true,
             "useAsAdditionalDetails": true
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
