@@ -45,7 +45,7 @@
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "syncgroup",
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Sync Group Name",
