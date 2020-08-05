@@ -105,7 +105,7 @@
       "longDescription": "",
       "shortDescription": "Questions or issues with the CycleCloud webserver application, including installation, configuration, and troubleshooting.",
       "searchTags": "CycleCloud webserver application;CycleCloud webserver installation;CycleCloud webserver configuration;CycleCloud webserver troubleshooting",
-      "category": "CycleCloud",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     }
   ]
