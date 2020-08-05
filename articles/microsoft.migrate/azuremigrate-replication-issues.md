@@ -3,8 +3,8 @@
     description="Troubleshooting replication issues"
     service="microsoft.migrate"
     resource="migrateprojects"
-    authors="bsiva"
-    ms.author="bsiva"
+    authors="anvar"
+    ms.author="anvar"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32675757"
@@ -19,44 +19,44 @@
 
 ## **Recommended Steps**
 
-### *Agentless replication of VMware virtual machines*
+**Migrate AWS VMs to Azure**
 
-**Error:** Key Vault operation failed. Operation - Configure managed storage account, Key Vault - Key-vault-name, Storage Account - storage account name failed with the error
+Follow the [guidance here](https://go.microsoft.com/fwlink/?linkid=2137866)
 
-**Error:** Key Vault operation failed. Operation - Generate shared access signature definition, Key Vault - Key-vault-name, Storage Account: storage account name failed with the error:
+**Migrate physical servers/bare metal servers to Azure** 
 
-User access policy might not be assigned to the key vault that was created, when customer has logged in using foreign principal account. Always logged in user access policy should be found in the key vault.
+Follow the [guidance here](https://go.microsoft.com/fwlink/?linkid=2137867)
 
-Applied correct permissions by using a local admin to the subscription and performing the following PowerShell commands:
- 
-$userPrincipalId = $(Get-AzureRmADUser -UserPrincipalName "loggedinuser").Id
-Set-AzureRmKeyVaultAccessPolicy -VaultName "keyvaultname" -ObjectId $userPrincipalId -PermissionsToStorage get, list, delete, set, update, regeneratekey, getsas, listsas, deletesas, setsas, recover, backup, restore, purge
+**Migrate servers from other clouds (GCP, IBM Cloud, etc.) to Azure**
+
+You can migrate most x64 servers by treating them as physical servers for the purpose of migration. Follow the [guidance here](https://go.microsoft.com/fwlink/?linkid=2137963)
+
+**Migrate Azure VMs from one Azure region to another**
+
+Use Azure Site Recovery (ASR) and follow the [guidance here](https://go.microsoft.com/fwlink/?linkid=2137868)
 
 
-**When trying to replicate agentless we get "An internal error occurred. Please retry the operation after some time."**
+## **Agentless replication of VMware virtual machines**
 
-Replace HostName with your ESXi host name where VM belongs in the following steps:
+**Start replication failed with the error:**
+* Key Vault operation failed. Operation - Configure managed storage account.
+* Key Vault operation failed. Operation - Generate shared access signature definition.
 
-- Is the host name resolvable from the appliance? (Remote desktop into the Azure Migrate appliance, open PowerShell and do an `nslookup` on HostName)
-- Is the ping from appliance to the host working? (Remote desktop into to the Azure Migrate appliance, open PowerShell and `ping -4 HostName`)
-- Is the port 902 on the host opened? (Remote desktop into the Azure Migrate appliance, open PowerShell and try `Test-NetConnection HostName -port 902` and see if the TCP test succeeds)
-- You can add the ESXi host entry into the hosts file of Azure Migrate Appliance, and check if replication starts working
+This can happen if the logged-in user doesn't have the necessary permissions to configure storage accounts to be managed by the Key Vault. You can give yourself the necessary Key vault permissions by using the following PowerShell snippet:
 
-**Replication cycle failed with error "Permission to perform this operation was denied"**
+ 
+$userPrincipalId = $(Get-AzureRmADUser -UserPrincipalName "loggedinuser").Id
+Set-AzureRmKeyVaultAccessPolicy -VaultName "keyvaultname" -ObjectId $userPrincipalId -PermissionsToStorage get, list, delete, set, update, regeneratekey, getsas, listsas, deletesas, setsas, recover, backup, restore, purge
 
-This error occurs when the VMware account used to access the vCenter server from the Azure Migrate appliance, doesn't have sufficient permissions to replicate the virtual machine. Ensure that the account provided has the following VMware permissions:
+**Replication is stuck at 0%**
 
-- Datastore.Browse
-- Datastore.LowLevelFileOperations
-- VirtualMachine.Configuration.DiskChangeTracking
-- VirtualMachine.Configuration.DiskLease
-- VirtualMachine.Provisioning.AllowReadOnlyDiskAccess
-- VirtualMachine.Provisioning.AllowDiskRandomAccess:
-- VirtualMachine.SnapshotManagement.* 
-- VirtualMachine.Provisioning.AllowVirtualMachineDownload
-- VirtualMachine.Interaction.PowerOff
+If there are multiple VMs that are replicating, initial replication for the VMs will be sequenced in batches. Initial replication may seem to be stuck at 0% for VMs that are sequenced behind others.  Check replication events for the VM to see if there are any errors. If there are no errors, wait for initial replication for the other VMs to complete.
 
-You can update the account with one that has sufficient permissions by going to the appliance management portal 
+
+**Bandwidth throttling for replication**
+
+You can control the bandwidth used by the Azure Migrate appliance for replication using Windows NetQosPolicy. Follow the [guidance here.](https://go.microsoft.com/fwlink/?linkid=2137869)
+
 
 **Replication cycle failed with error "No disk snapshots were found for snapshot replication"**
 
@@ -65,33 +65,7 @@ This error occurs when a storage vMotion happens on a virtual machine under repl
 - Storage vMotion the virtual machine back to its original datastore to allow subsequent replication cycles to proceed
 - Else, stop replication for the virtual machine and configure replication again. This is equivalent to a fresh replication of the virtual machine after the storage vMotion.
 
-**Replication cycle failed with error "encountered an error while trying to fetch change blocks"**
-
-* The agentless replication method uses VMware's changed block tracking technology(CBT) to optimize replication. CBT lets Server Migration track and replicate only the blocks that have changed since the last replication cycle. This error occurs if changed block tracking for a replicating virtual machine is reset or if the changed block tracking file is corrupt.
-* If this error occurs, stop replication for the virtual machine, reset changed block tracking on the virtual machine, and then reconfigure replication
-* One such known issue that may cause a CBT reset of virtual machine on VMware vSphere 5.5 is described in
-VMware KB 2048201: Changed Block Tracking is reset after a storage vMotion operation in vSphere 5.x. If you are on VMware vSphere 5.5 ensure that you apply the updates described in this KB.
-* Resetting VMware changed block tracking on a virtual machine using VMware PowerCLI 
-
-**Replication cycle failed with error "Snapshot Replication engine encountered timeout"**
-
-This error occurs when the Azure Migrate Replication Gateway service component on the Azure Migrate appliance is unable to communicate with the Azure Migrate: Server Migration tool. Ensure that the appliance is powered on, has internet connectivity, and that the Azure Migrate Replication Gateway service is running (from run > services.msc)
-
-If the Azure Migrate appliance is behind a proxy server, ensure that these URLs are whitelisted for access on the proxy server (including canonical name resolution of the URLs):
-
-- *.portal.azure.com
-- *.windows.net
-- *.microsoftonline.com
-- management.azure.com
-- dc.services.visualstudio.com
-- *.vault.azure.net
-- *.servicebus.windows.net
-- *.discoverysrv.windowsazure.com
-- *.migration.windowsazure.com
-- *.hypervrecoverymanager.windowsazure.com
-- *.blob.core.windows.net
-
-### *Agent based replication of VMware virtual machines and physical servers*
+## **Agent-based replication of VMware virtual machines and physical servers**
 
 **Troubleshoot connectivity between the Mobility service on the replicating machine and the Configuration Server, and between the replicating machine and a Scale-out Process Server**
 
@@ -110,41 +84,17 @@ Connectivity from the Mobility service to the Configuration Server or Process Se
 * The Configuration Server process ('cxpsprocessserver' in services.msc) that listens on port 443 is not running
 * The Process Server process ('tmansvc' in services.msc) than listens on port 9443 is not running
 
-### *Agentless replication of Hyper-V virtual machines*
 
-**Failures while attempting to replicate a Hyper-V virtual machine**
+**Installation issues with Mobility service agent**
 
-If you experience failures in the 'Start replication' operation, verify the following:
+1. Machines with Secure Boot aren't supported. Disable Secure Boot, and retry installation. 
 
-- Your Hyper-V hosts and VMs meet all [requirements and prerequisites](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-hyper-v#migration-hyper-v-vm-requirements)
-- The Hyper-V Virtual Machine Management service is running on Hyper-V hosts
-- Look for Hyper-V-VMMS\Admin events in Event viewer on the virtual machine. This log is located in Applications and Services Logs > Microsoft > Windows
-- If the virtual machine you are attempting to replicate is running Windows, ensure that WMI is enabled and accessible on the virtual machine
-- [Learn about](https://blogs.technet.microsoft.com/askperf/2007/06/22/basic-wmi-testing/) basic WMI testing
-- [Troubleshoot](https://docs.microsoft.com/windows/win32/wmisdk/wmi-troubleshooting) WMI
-- [Troubleshoot](https://technet.microsoft.com/library/ff406382.aspx#H22) problems with WMI scripts and services
-- Ensure that the latest version of Hyper-V Integration Services are running on the virtual machine
-- [Check](https://docs.microsoft.com/windows-server/virtualization/hyper-v/manage/manage-hyper-v-integration-services) that you have the latest version of the integration services
-- [Keep](https://docs.microsoft.com/windows-server/virtualization/hyper-v/manage/manage-hyper-v-integration-services#keep-integration-services-up-to-date) Integration Services up-to-date
+2. Check if installation failed due to missing OS updates. Follow the [guidance here.](https://go.microsoft.com/fwlink/?linkid=2137871)
 
-**Replication issues**
+3. Check if installation failed due to insufficient boot space on Linux VMs. Follow the [guidance here.](https://go.microsoft.com/fwlink/?linkid=2137964)
 
-Troubleshoot issues with initial and ongoing replication as follows:
+**Error 78188: Replication critical due to high churn**
 
-- Verify whether replication is paused
-- Check the VM health status in the Hyper-V Manager console
-- If it's critical, right-click the VM > Replication > View Replication Health
-- If replication is paused, click Resume Replication
-- Ensure that the following services are running on the Hyper-V host:
+This can happen when the data change rate (write bytes/sec) on the disks of the virtual machines under replication is more than the [supported limits](https://go.microsoft.com/fwlink/?linkid=2137870) for the target disks.
 
-    - Virtual Machine Management service
-    - Microsoft Azure Recovery Services Agent service
-    - Microsoft Azure Site Recovery service
-    * WMI Provider Host service
-
-- Check connectivity between the Hyper-V server and Azure. Specifically, check for connectivity to storage from the 'cbengine.exe' process (cbengine.exe is the name of the Windows process running on the Hyper-V server that performs the replication).
-- To check connectivity, open Task Manager on the Hyper-V host. On the Performance tab, click Open Resource Monitor. On the Network tab go to "View TCP Connections" and select cbengine.exe by clicking the checkbox next to it. If connectivity exists, you'll see open connections between cbengine.exe and a URL resembling \*.blob.core.windows.net. This method will not work if the Hyper-V host has to go through a proxy server to connect to Azure.
-
-**Replication health of the virtual machine is critical**
-
-To check replication health, open Hyper-V manager on the Hyper-V host. Right click on the VM in the Hyper-V manager console, select 'Replication' and click 'View Replication Health'. If replication is paused, click 'Resume replication'.
+If you see this issue consistently, use Premium Managed Disks. If you're replicating to Standard HDD/SSD, then upgrade to Premium SSD. To do this, disable replication for the VM, and enable replication again with Premium SSD disks selected for replication.
