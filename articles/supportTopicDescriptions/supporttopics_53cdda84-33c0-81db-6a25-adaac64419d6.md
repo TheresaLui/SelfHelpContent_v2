@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2704103a-d81e-b96f-2979-0b9220dd21df",
+      "longDescription": "",
+      "shortDescription": "Questions about the configuration and use the REST API",
+      "searchTags": "Configuration with VMs;use REST API with VMs",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2b7d1721-8b72-ada9-90fc-88d81e3dd75b",
       "longDescription": "",
       "shortDescription": "Questions with creating, start, terminate, or monitor a cluster and how to work with Nodes, and help with grant user access.",
