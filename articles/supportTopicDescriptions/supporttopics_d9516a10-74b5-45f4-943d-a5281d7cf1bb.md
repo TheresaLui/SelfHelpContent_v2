@@ -593,6 +593,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "95bae313-257a-1d98-2ddf-f49674ec268d",
+      "longDescription": "",
+      "shortDescription": "Connection to Azure Cosmos DB is failing with authentication error or connection is failing with SSL errors",
+      "searchTags": "Gremlin;graph;authentication",
+      "category": "Gremlin",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9696c747-b2e2-81d9-af15-beaba7684eff",
       "longDescription": "",
       "shortDescription": "How to migrate data to Cosmos DB Gremlin API or estimate the throughput needs and optimize migration",
