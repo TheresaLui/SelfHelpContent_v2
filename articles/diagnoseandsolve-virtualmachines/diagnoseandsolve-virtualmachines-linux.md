@@ -184,7 +184,17 @@ cloudEnvironments="public, fairfax, usnat, ussec"
         }
       ]
     },
-    {
+		{
+			"id": "Allocation_recommender",
+			"title": "Allocation Success Recommender",
+			"description": "Provide prediction of the chance of a successful allocation in the next 7 days for given sizes and regions.",
+			"category": "Deployment",
+			"searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
+			"supportTopicId": "32743100",
+			"commonSolutionArticleId": "9c65e013-d2bf-4376-87cd-b34554d71bf7",
+			"symptomId": ""
+		},
+		{
       "id": "VM_Deployment_Guidance",
       "title": "VM Deployment Guidance",
       "description": "Guidance on creating a new VM in Azure",
