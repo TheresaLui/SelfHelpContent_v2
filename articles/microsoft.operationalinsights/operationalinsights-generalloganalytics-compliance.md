@@ -12,7 +12,7 @@ supportTopicIds="32690787"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
-articleId="operationalinsights-generalloganalytics-issueslinkingautomation"
+articleId="operationalinsights-generalloganalytics-compliance"
 ownershipId="AzureMonitoring_LogAnalytics"
 />
 
