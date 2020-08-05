@@ -50,7 +50,7 @@
             "controlType": "textbox",
             "displayLabel": "Sync Group Name",
             "watermarkText": "Enter Sync Group Name else enter Not Applicable",
-            "required": true,
+            "required": true
         },
         {
             "id": "problem_description",
