@@ -1,17 +1,18 @@
 <properties
-                pageTitle="Recieved an Allocation Failure"
-                description="Recieved an Allocation Failure"
-                authors="summertgu"
-                ms.author="tiag"
-                selfHelpType="problemScopingQuestions"
-                supportTopicIds="32743100"
-                productPesIds="14749,15571,15797,16454,16470"
-                cloudEnvironments="Public, Fairfax, usnat, ussec"
-                schemaVersion="1"
-                articleId="6dd1f126-a89d-497e-9a83-eb4a21e33091"
-                ownershipId="Compute_VirtualMachines_Content"
+pageTitle="Recieved an Allocation Failure"
+description="Recieved an Allocation Failure"
+authors="summertgu"
+ms.author="tiag"
+selfHelpType="problemScopingQuestions"
+supportTopicIds="32743100"
+productPesIds="14749,15571,15797,16454,16470"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+schemaVersion="1"
+articleId="6dd1f126-a89d-497e-9a83-eb4a21e33091"
+ownershipId="Compute_VirtualMachines_Content"
 />
 # Recieved an Allocation Failure
+
 ---
 {
     "subscriptionRequired": true,
