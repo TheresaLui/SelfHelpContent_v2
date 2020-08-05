@@ -31,7 +31,7 @@
   - To create and manage child resources with PowerShell or SDK, __contributor__ role at _resource_ level or above is sufficient
   - To have more granular access control for ADF portal users, please consider create a separate resource group for your data factory
 
-- **Custom Roles**: To create custom role to grant different access levels for different data factory users, please refer to [Custom scenarios and custom roles](https://docs.microsoft.com/en-us/azure/data-factory/concepts-roles-permissions#custom-scenarios-and-custom-roles)
+- **Custom Roles**: To create custom role to grant different access levels for different data factory users, please refer to [Custom scenarios and custom roles](https://docs.microsoft.com/azure/data-factory/concepts-roles-permissions#custom-scenarios-and-custom-roles)
 
 ## **Recommended Documents**
 
