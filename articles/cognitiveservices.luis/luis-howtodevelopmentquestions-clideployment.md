@@ -19,9 +19,6 @@ ownershipId="AzureCogSvc_CognitiveServices"
 ## **Recommended Steps**
 
 * Learn more on [how to use the LUIS CLI tool](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/LUIS)
-
 * Check the [Azure CLI commands for Azure Cognitive Services account](https://docs.microsoft.com/cli/azure/cognitiveservices/account?view=azure-cli-latest) and subscription management
-
-* Create and manage your LUIS applications using the [LUIS CLI](https://github.com/microsoft/botbuilder-tools/tree/master/packages/LUIS) provided by bot framework tool.
-
+* Create and manage your LUIS applications using the [LUIS CLI](https://github.com/microsoft/botbuilder-tools/tree/master/packages/LUIS) provided by bot framework tool
 * Understand the [LUIS app schema definition](https://docs.microsoft.com/azure/cognitive-services/luis/app-schema-definition)
