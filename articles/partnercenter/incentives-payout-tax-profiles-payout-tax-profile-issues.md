@@ -51,7 +51,7 @@ For partner companies in the United States, if you require information on comple
 
 5. **How do I provide/ update my payout and/ or tax details?**
 	
-	* For detailed information on how to on how to update payment and tax details in Partner Center, see [How to create and manage bank and tax profiles in Partner Center](https://support.microsoft.com/help/4524534/how-to-create-and-manage-bank-and-tax-profiles-in-partner-center).
+	* For detailed information on how to update payment and tax details in Partner Center, see [How to create and manage bank and tax profiles in Partner Center](https://support.microsoft.com/help/4524534/how-to-create-and-manage-bank-and-tax-profiles-in-partner-center).
 
 6. **Why don't I see my enrollments when I go to assign my payout and tax profile?**
 	
