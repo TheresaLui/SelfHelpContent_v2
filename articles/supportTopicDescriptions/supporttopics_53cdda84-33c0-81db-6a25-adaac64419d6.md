@@ -47,9 +47,9 @@
     {
       "id": "c8e55431-8031-51f4-6174-7dbc9c3d5ff0",
       "longDescription": "",
-      "shortDescription": "Questions or issues about customizing cluster templates, scheduler configuration, or CycleCloud projects",
-      "searchTags": "Templates;Schedulers;Schedulers configuration;scheduler;template",
-      "category": "CycleCloud",
+      "shortDescription": "Questions or issues about customizing cluster templates, scheduler configuration, or CycleCloud projects.",
+      "searchTags": "Schedulers configuration;customizing cluster;CycleCloud projects",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
