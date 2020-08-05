@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Health Alert"
+	pageTitle="Health Alert - TEST"
 	description="Health Alert"
 	infoBubbleText="Health Alert"
 	service="microsoft-aatp"

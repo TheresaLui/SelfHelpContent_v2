@@ -46,3 +46,9 @@ You must create and submit your plan by the last day of the program year. If nec
  
 Your plan has now been submitted. Microsoft will notify your Incentive admin when it’s been approved or if we need additional information. You can view the plan’s progress in the Status window of the status page. 
 
+## **Recommended Documents**
+
+ * [Create your plan](https://docs.microsoft.com/partner-center/incentives-create-your-plan)
+ 
+ * [Prepare your proof of execution](https://docs.microsoft.com/partner-center/incentives-prepare-your-proof-of-execution)
+  

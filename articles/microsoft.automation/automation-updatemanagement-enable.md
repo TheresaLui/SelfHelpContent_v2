@@ -10,7 +10,7 @@
     supportTopicIds="32599903"
     resourceTags=""
     productPesIds="15607,15725"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, usnat, ussec, blackForest, mooncake"
     articleId="e7641147-7a28-4ba4-ba37-49ee74bc9637"
 	ownershipId="Compute_Automation"
 />
@@ -30,7 +30,7 @@ The Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/auto
 
 ### **Permissions needed to enable and use Update Management**
 
-* The ["Role-Based Access Control" guide](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#update-management) has a list of necessary permissions for enabling and using Update Management
+* The ["Role-Based Access Control" guide](https://docs.microsoft.com/azure/automation/automation-role-based-access-control#feature-setup-permissions) has a list of necessary permissions for enabling and using Update Management
 
 ### **Machine isn't onboarding after waiting 15 minutes**
 
@@ -48,4 +48,4 @@ The Update Agent Troubleshooter ([Windows](https://docs.microsoft.com/azure/auto
 
 * [Troubleshoot issues onboarding Update Management](https://docs.microsoft.com/azure/automation/troubleshoot/onboarding)
 * [Automate onboarding Update Management](https://docs.microsoft.com/azure/cloud-adoption-framework/manage/azure-server-management/onboarding-automation)
-* [Update Management Overview - Supported Clients, Permissions and Network Requirements](https://docs.microsoft.com/azure/automation/automation-update-management)
+* [Update Management Overview - Supported Clients, Permissions and Network Requirements](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-overview)
