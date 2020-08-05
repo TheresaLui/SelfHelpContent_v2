@@ -28,7 +28,7 @@
                   },
          "serviceTreeId": "ae53b53f-9347-4198-b9b7-ff4b8228d6a7"
   },
-  "version": 4.0,
+  "version": 5.0,
   "learnMoreLink": "https://aka.ms/azureSDKReadMe",
   "description": "Update your current Compute Management SDK version to the most recent version.",
   "longDescription": "We have identified operations under this subscription using outdated Compute Management SDK versions. We recommend switching to the latest Compute Management SDK versions, which might involve changes to your existing codebase, to obtain improved security and performance.",
