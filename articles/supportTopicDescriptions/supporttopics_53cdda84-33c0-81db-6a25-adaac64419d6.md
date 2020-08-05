@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c61f51d3-2cc3-94f4-7a87-195803176f97",
+      "longDescription": "",
+      "shortDescription": "Common Errors working with VMs",
+      "searchTags": "Common Errors working with VMs",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c8e55431-8031-51f4-6174-7dbc9c3d5ff0",
       "longDescription": "",
       "shortDescription": "Questions or issues about customizing cluster templates, scheduler configuration, or CycleCloud projects.",
