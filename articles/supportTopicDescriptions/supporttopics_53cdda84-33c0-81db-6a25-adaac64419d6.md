@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c235ad81-8919-fb7b-2f52-9d424c0585b7",
+      "longDescription": "",
+      "shortDescription": "How to use Disks, Availability Sets, Environment, projects, cloud-init, Storage Blocs, and more.",
+      "searchTags": "availability sets;projects;cloud-init;storate blocs",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c8e55431-8031-51f4-6174-7dbc9c3d5ff0",
       "longDescription": "",
       "shortDescription": "Questions or issues about customizing cluster templates, scheduler configuration, or CycleCloud projects.",
