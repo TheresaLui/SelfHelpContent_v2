@@ -19,7 +19,6 @@
 
 ## **Recommended steps**
 
-
 ### **Migrate AWS VMs to Azure**
 
 Follow the [guidance here](https://go.microsoft.com/fwlink/?linkid=2137866)
