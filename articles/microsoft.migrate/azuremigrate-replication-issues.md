@@ -19,32 +19,28 @@
 
 ## **Recommended Steps**
 
-**Migrate AWS VMs to Azure**
+### **Migrate AWS VMs to Azure**
 
 Follow the [guidance here](https://go.microsoft.com/fwlink/?linkid=2137866)
 
-**Migrate physical servers/bare metal servers to Azure** 
+### **Migrate physical servers/bare metal servers to Azure** 
 
 Follow the [guidance here](https://go.microsoft.com/fwlink/?linkid=2137867)
 
-**Migrate servers from other clouds (GCP, IBM Cloud, etc.) to Azure**
+### **Migrate servers from other clouds (GCP, IBM Cloud, etc.) to Azure**
 
 You can migrate most x64 servers by treating them as physical servers for the purpose of migration. Follow the [guidance here](https://go.microsoft.com/fwlink/?linkid=2137963)
 
-**Migrate Azure VMs from one Azure region to another**
+### **Migrate Azure VMs from one Azure region to another**
 
 Use Azure Site Recovery (ASR) and follow the [guidance here](https://go.microsoft.com/fwlink/?linkid=2137868)
 
 
-## **Agentless replication of VMware virtual machines**
+### **Agentless replication of VMware virtual machines**
 
-**Start replication failed with the error:**
-
-a. Key Vault operation failed. Operation is Configure managed storage account.
-b. Key Vault operation failed. Operation is Generate shared access signature definition.
+**Start replication failed with the errors: a. Key Vault operation failed. Operation is Configure managed storage account. b. Key Vault operation failed. Operation is Generate shared access signature definition.**
 
 This can happen if the logged-in user doesn't have the necessary permissions to configure storage accounts to be managed by the Key Vault. You can give yourself the necessary Key vault permissions by using the following PowerShell snippet:
-
  
 $userPrincipalId = $(Get-AzureRmADUser -UserPrincipalName "loggedinuser").Id
 Set-AzureRmKeyVaultAccessPolicy -VaultName "keyvaultname" -ObjectId $userPrincipalId -PermissionsToStorage get, list, delete, set, update, regeneratekey, getsas, listsas, deletesas, setsas, recover, backup, restore, purge
@@ -66,7 +62,7 @@ This error occurs when a storage vMotion happens on a virtual machine under repl
 - Storage vMotion the virtual machine back to its original datastore to allow subsequent replication cycles to proceed
 - Else, stop replication for the virtual machine and configure replication again. This is equivalent to a fresh replication of the virtual machine after the storage vMotion.
 
-## **Agent-based replication of VMware virtual machines and physical servers**
+### **Agent-based replication of VMware virtual machines and physical servers**
 
 **Troubleshoot connectivity between the Mobility service on the replicating machine and the Configuration Server, and between the replicating machine and a Scale-out Process Server**
 
