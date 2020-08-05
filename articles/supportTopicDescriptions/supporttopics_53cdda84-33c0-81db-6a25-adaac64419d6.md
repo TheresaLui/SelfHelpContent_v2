@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "2b7d1721-8b72-ada9-90fc-88d81e3dd75b",
+      "longDescription": "",
+      "shortDescription": "Questions with creating, start, terminate, or monitor a cluster and how to work with Nodes, and help with grant user access.",
+      "searchTags": "cluster;operations with clusters;clusters with nodes",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5ebd7586-ace8-7133-d98c-22f89e7ac64c",
       "longDescription": "",
       "shortDescription": "Questions or issues about node software installation errors or configuration.",
