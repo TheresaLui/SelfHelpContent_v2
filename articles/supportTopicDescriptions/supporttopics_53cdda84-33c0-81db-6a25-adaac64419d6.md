@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "73a1ae2a-ada0-4355-d239-8bf94d4f5fd4",
+      "longDescription": "",
+      "shortDescription": "Questions about the configuration and use the REST API.",
+      "searchTags": "autoscale;cluster;REST API;CycleCloud REST API",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c8e55431-8031-51f4-6174-7dbc9c3d5ff0",
       "longDescription": "",
       "shortDescription": "Questions or issues about customizing cluster templates, scheduler configuration, or CycleCloud projects",
