@@ -32,6 +32,7 @@ Review the recommended steps and documents before submitting a service request a
 - [Price changes](https://docs.microsoft.com/partner-center/pricing-and-offers#price-changes)
 - [Offers matrix includes which license-based products can be sold in various markets](https://docs.microsoft.com/partner-center/pricing-and-offers#offers-matrix)
 - [Pricing and special segments](https://docs.microsoft.com/partner-center/pricing-and-offers#pricing-and-special-segments)
+- [Azure plan tiered pricing](https://docs.microsoft.com/partner-center/azure-plan-price-list#tiered-pricing)
 - [Pricing between Azure and non-Azure](https://docs.microsoft.com/partner-center/pricing-and-offers#pricing-between-azure-and-non-azure)
 - [Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)
 - [How Non-profit, GCC and Education offers work in Partner Center](https://docs.microsoft.com/partner-center/get-special-pricing-for-offers)
