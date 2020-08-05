@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "1b00562e-e33b-2a9b-2741-8048f5523c71",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with the CycleCloud webserver application, including installation, configuration, and common errors messages.",
+      "searchTags": "webserver application;installation;configuration;common errors messages CycleCloud app",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1c8bd87b-95e3-83ea-86f1-ae34101a6e36",
       "longDescription": "",
       "shortDescription": "How to make configurations, autoscale, usage, and jobs with schedulers.",
