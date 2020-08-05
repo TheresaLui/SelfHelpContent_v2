@@ -58,9 +58,16 @@
             "displayLabel": "What's the sink of the copy activity?",
             "required": false
         },
+		{
+            "id": "problem_run_id",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Is this a run time issue? If yes, Provide the Pipeline or Activity RunIds (separated by commas)",
+            "required": true
+        },
         {
             "id": "ir_type",
-            "order": 5,
+            "order": 6,
 			"visibility": "null",
             "controlType": "dropdown",
             "displayLabel": "Which type of integration runtime are you using?",
@@ -82,19 +89,11 @@
             "required": true
         },
         {
-            "id": "problem_run_id",
-            "order": 6,
-			"visibility": "ir_type == Azure IR || dont_know_answer",
-            "controlType": "textbox",
-            "displayLabel": "Is this a run time issue? If yes, please provide the RunIDs. (separate with commas)",
-            "required": true
-        },
-        {
             "id": "problem_report_id",
             "order": 7,
 			"visibility": "ir_type == Self-hosted IR",
             "controlType": "textbox",
-            "displayLabel": "Is this a run time issue? If yes, please provide the Report ID. (see Solutions tab for guidance on how to obtain it)",
+            "displayLabel": "Please provide the ReportIDs from all nodes separated with commas. (see Solutions tab for guidance on how to obtain Report ID)",
             "required": true
         },
         {
