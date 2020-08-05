@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5a19388b-36ce-c4e3-d660-2fab84038b7f",
+      "longDescription": "",
+      "shortDescription": "How to install Jetpack, create a custom image, and how to use HB and HC VMs and HealthCheck.",
+      "searchTags": "install Jetpack;custom image;HB and HC VMs;HealthCheck",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5ebd7586-ace8-7133-d98c-22f89e7ac64c",
       "longDescription": "",
       "shortDescription": "Questions or issues about node software installation errors or configuration.",
