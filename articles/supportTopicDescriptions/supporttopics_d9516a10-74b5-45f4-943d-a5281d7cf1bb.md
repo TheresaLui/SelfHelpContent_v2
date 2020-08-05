@@ -65,6 +65,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "18094d03-12d5-0a69-ece4-6f45202fc038",
+      "longDescription": "",
+      "shortDescription": "Provision and use an Azure Cosmos DB account in Serverless mode",
+      "searchTags": "serverless",
+      "category": "Billing and Pricing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1a1e2a2b-ee61-b1fa-f230-57fb94694e04",
       "longDescription": "",
       "shortDescription": "Gremlin command is failing with an error, returning an unexpected result, or generating exceptions",
