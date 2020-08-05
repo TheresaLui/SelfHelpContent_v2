@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "270fd1aa-a163-1af6-f7da-4dd26013b4ec",
+      "longDescription": "",
+      "shortDescription": "How to use spot instances, availability sets, and storage blobs and helps to add or mount a disk.",
+      "searchTags": "Spot Instances;Availability Sets;add a disk",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2b7d1721-8b72-ada9-90fc-88d81e3dd75b",
       "longDescription": "",
       "shortDescription": "Questions with creating, start, terminate, or monitor a cluster and how to work with Nodes, and help with grant user access.",
