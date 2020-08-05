@@ -39,8 +39,8 @@ Use Azure Site Recovery (ASR) and follow the [guidance here](https://go.microsof
 ## **Agentless replication of VMware virtual machines**
 
 **Start replication failed with the error:**
-- Key Vault operation failed. Operation: Configure managed storage account.
-- Key Vault operation failed. Operation: Generate shared access signature definition.
+a. Key Vault operation failed. Operation is Configure managed storage account.
+b. Key Vault operation failed. Operation is Generate shared access signature definition.
 
 This can happen if the logged-in user doesn't have the necessary permissions to configure storage accounts to be managed by the Key Vault. You can give yourself the necessary Key vault permissions by using the following PowerShell snippet:
 
