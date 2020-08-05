@@ -559,7 +559,7 @@ ownershipId="Compute_VirtualMachines"
 			"category": "Deployment",
 			"searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
 			"supportTopicId": "32743100",
-			"symptomId": ""
+			"symptomId": "VmSKURecommendationsPortalInsight"
 		},
     {
       "id": "Redeploy_virtual_machine_tool",
