@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "1ab3036b-e1ec-3103-417d-bbec5ac459c9",
+      "longDescription": "",
+      "shortDescription": "Questions with installation, uses, configuration, and common errors with CycleCloud App.",
+      "searchTags": "installation;configuration;common errors with CycleCloud",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1b00562e-e33b-2a9b-2741-8048f5523c71",
       "longDescription": "",
       "shortDescription": "Questions or issues with the CycleCloud webserver application, including installation, configuration, and common errors messages.",
