@@ -185,16 +185,6 @@ ownershipId="Compute_VirtualMachines_Content"
       ]
     },
 		{
-			"id": "Allocation_recommender",
-			"title": "Allocation Success Recommender",
-			"description": "Provide prediction of the chance of a successful allocation in the next 7 days for given sizes and regions.",
-			"category": "Deployment",
-			"searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
-			"supportTopicId": "32743100",
-			"commonSolutionArticleId": "37f0fdfb-3b67-4b90-b692-c0db770af827",
-			"symptomId": ""
-		},
-		{
       "id": "VM_Deployment_Guidance",
       "title": "VM Deployment Guidance",
       "description": "Guidance on creating a new VM in Azure",
@@ -644,7 +634,16 @@ ownershipId="Compute_VirtualMachines_Content"
     }
   ],
   "troubleshootingTools": [
-    {
+		{
+				"id": "Allocation_recommender",
+				"title": "Allocation Success Recommender",
+				"description": "Predict the chance of a successful allocation in the next 7 days for given sizes and regions.",
+				"category": "Deployment",
+				"searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
+				"supportTopicId": "32743100",
+				"symptomId": ""
+		},
+		{
       "id": "Redeploy_virtual_machine_tool",
       "title": "Redeploy virtual machine",
       "description": "Migrate and redeploy this virtual machine to a different Azure host",
