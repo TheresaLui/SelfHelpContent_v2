@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "541f58b0-73db-ff40-b476-1ccb826870bd",
+      "longDescription": "",
+      "shortDescription": "How to use HB and HC VMs",
+      "searchTags": "Node Preparation with VMs;HB and HC VMs",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5a19388b-36ce-c4e3-d660-2fab84038b7f",
       "longDescription": "",
       "shortDescription": "How to install Jetpack, create a custom image, and how to use HB and HC VMs and HealthCheck.",
