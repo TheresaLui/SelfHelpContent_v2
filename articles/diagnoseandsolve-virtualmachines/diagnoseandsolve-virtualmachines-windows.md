@@ -593,7 +593,7 @@ ownershipId="Compute_VirtualMachines_Content"
         {
           "id": "WVD_DeviceRedirection",
           "title": "Device Redirection",
-          "title": "Issues configuring device redirection",
+          "description": "Issues configuring device redirection",
           "supportTopicId": "32727874",
           "commonSolutionArticleId": "032cf025-2f52-4420-b161-bce71302f41b",
           "symptomId": ""
