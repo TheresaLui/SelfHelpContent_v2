@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "1c8bd87b-95e3-83ea-86f1-ae34101a6e36",
+      "longDescription": "",
+      "shortDescription": "How to make configurations, autoscale, usage, and jobs with schedulers.",
+      "searchTags": "OpenPBS;Grid Engine;Slurm;HT Condor;IBM Spectrum LSF",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2b7d1721-8b72-ada9-90fc-88d81e3dd75b",
       "longDescription": "",
       "shortDescription": "Questions with creating, start, terminate, or monitor a cluster and how to work with Nodes, and help with grant user access.",
