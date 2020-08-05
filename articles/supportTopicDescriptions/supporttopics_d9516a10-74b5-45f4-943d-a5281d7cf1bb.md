@@ -425,6 +425,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6363ad95-0069-d153-32d7-a1a921c16adf",
+      "longDescription": "",
+      "shortDescription": "Provision and use an Azure Cosmos DB account in Serverless mode",
+      "searchTags": "serverless",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6729d7fe-ea40-441c-9c1a-62d7372c7c60",
       "longDescription": "",
       "shortDescription": "Using Azure Functions triggers for Cosmos DB",
