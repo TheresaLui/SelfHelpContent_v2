@@ -32,7 +32,7 @@ Are you facing one of these common problems?
 
 * My Kubernetes cluster is behind a firewall and I am using hosted agents. How can I deploy to this cluster?
 
-    You can grant hosted agents access through your firewall by allowing the IP addresses for the hosted agents. For more details, see [Agent IP ranges](https://docs.microsoft.com/en-gb/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#agent-ip-ranges)
+    You can grant hosted agents access through your firewall by allowing the IP addresses for the hosted agents. For more details, see [Agent IP ranges](https://docs.microsoft.com/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#agent-ip-ranges)
 
 * HelmInstaller task running on a private agent behind a proxy fails to download helm package
 
@@ -49,6 +49,6 @@ Are you facing one of these common problems?
 ## **Recommended Documents**
 
 * [Troubleshoot Azure Resource Manager service connections](https://github.com/MicrosoftDocs/azure-devops-docs/blob/master/docs/pipelines/release/azure-rm-endpoint.md)
-* [Build and push Docker images](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/build/docker?view=azure-devops)
-* [Deploy to Kubernetes using Helm](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/helm-deploy?view=azure-devops)
-* [Deploy to Kubernetes using Kubectl](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/kubernetes?view=azure-devops)
+* [Build and push Docker images](https://docs.microsoft.com/azure/devops/pipelines/tasks/build/docker?view=azure-devops)
+* [Deploy to Kubernetes using Helm](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/helm-deploy?view=azure-devops)
+* [Deploy to Kubernetes using Kubectl](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/kubernetes?view=azure-devops)
