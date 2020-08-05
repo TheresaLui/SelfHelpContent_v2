@@ -7,7 +7,7 @@
     authors="vritiJain"
     ms.author="vrjai"
     displayOrder="1"
-    articleId="active-directory-dxp-signin-aad-ca-mfa"
+    articleId="active-directory-dxp-signin-aad-block-ca"
     diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
