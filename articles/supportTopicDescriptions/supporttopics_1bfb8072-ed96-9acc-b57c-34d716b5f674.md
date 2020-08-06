@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4fb18d17-9056-ed22-a90d-15e71a6ea99f",
+      "longDescription": "",
+      "shortDescription": "Investigate high processor (CPU) usage caused by one of the OMI processes (OMISERVER, OMIAGENT)",
+      "searchTags": "Agnets;Windows;CPU;OMI",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5457385e-c3fd-237f-87f3-65212e347d44",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues when a query does not execute and return an error.",
