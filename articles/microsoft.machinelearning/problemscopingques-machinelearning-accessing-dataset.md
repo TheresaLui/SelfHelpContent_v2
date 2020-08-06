@@ -32,20 +32,19 @@
             		"required": true
         },
 		{
-			"id": "sdk_version",
+			"id": "problem_description",
 			"order": 2,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Version",
-			"watermarkText": "What version of azureml SDK are you using? ",
+			"watermarkText": "Version details",
 			"required": true
-		},
-		{
-			"id": "dprep_version",
-			"order": 3,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Version",
-			"watermarkText": "What version of azureml-dataprep SDK is installed in your environment?",
-			"required": true
+			"useAsAdditionalDetails": true,
+			"hints": [{
+					"text": "Version details"
+				}, {
+					"text": "What version of azureml SDK are you using? What version azureml-dataprep SDK is installed?"
+				}
+			]
 		}
 	]
 }
