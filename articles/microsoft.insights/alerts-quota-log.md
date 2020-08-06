@@ -1,22 +1,15 @@
 <properties
-    pageTitle="I want to increase my log search alerts quota"
-    description="I want to increase my log search alerts quota"
-    infoBubbleText=""
-    service="microsoft.insights"
-    resource="scheduledqueryrules"
-    authors="yalavi"
-    ms.author="yalavi"
-    displayOrder="8"
-    articleId="alerts-quota-log"
-    diagnosticScenario=""
-    selfHelpType="generic"
-    supportTopicIds="32739787"
-    resourceTags=""
-    productPesIds="15454"
-     cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
-    ownershipId="AzureMonitoring_Alerts_LogSearchAlerts"
-/>
-
+  pagetitle="I want to increase my log search alerts quota"
+  service="microsoft.insights"
+  resource="scheduledqueryrules"
+  ms.author="yalavi,yagil"
+  selfhelptype="Generic"
+  supporttopicids="32739787,32745407"
+  resourcetags=""
+  productpesids="15454,15725"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="alerts-quota-log"
+  ownershipid="AzureMonitoring_Alerts_LogSearchAlerts" />
 # I want to increase my log search alerts quota
 
 The number of log search alert rules per subscription and resource are subject to the quota limits described [here](https://docs.microsoft.com/azure/azure-monitor/service-limits).
