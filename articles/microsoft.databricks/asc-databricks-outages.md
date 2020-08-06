@@ -12,7 +12,7 @@
 	diagnosticScenario="DatabricksNotificationInsight"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="078C7927-3E0E-4E25-868F-C68CBC170EBA"
 	ownershipId="AzureData_AzureDatabricks"
 />

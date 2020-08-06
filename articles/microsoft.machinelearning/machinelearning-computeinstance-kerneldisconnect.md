@@ -1,27 +1,26 @@
 <properties 
-    pageTitle="Kernel Disconnect Error in Integrated Notebooks"
-    description="Kernel Disconnect Error in Integrated Notebooks"
+    pageTitle="Problem Connecting to Jupyter, JupyterLab, RStudio"
+    description="Problem Connecting to Jupyter, JupyterLab, RStudio"
     service="microsoft.machinelearning"
     resource="computeinstance"
     authors="hustcrystal"
     ms.author="chrjia, femi.olukoya"
     displayOrder="1"
     selfHelpType="resource"
-    supportTopicIds="32690895"
+    supportTopicIds="32745197"
     resourceTags="notebook,computeinstance"
     productPesIds="16644"
-    cloudEnvironments="public, fairfax, mooncake"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
     articleId="microsoft.machinelearning.computeinstance.kerneldisconnect"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
-# Kernel Disconnect Error in Integrated Notebooks
+# Problem Connecting to Jupyter, JupyterLab, RStudio
 
-- Integrated notebooks aren't working in workspace 2.0 (but they work from the vm/ci itself in Jupyter)
-- This affects primarily the UI and Notebooks
-- How to mitigate this problem and the eventual resolution
+This section helps with issues connecting to Compute instance through Jupyter, JupyterLab and RStudio and running your notebooks.
 
 ## **Recommended Steps**
 
-- Workaround 1: Use Jupyter from the Compute Instance/Notebook VM instead
-- Workaround 2: Try restarting the Compute Instance/Notebook VM and then rerunning the notebook
+- If compute instance is created behind VNET, make sure you have NSG rule where compute instance inbound TCP traffic on port 44224 is allowed from a Service Tag of AzureMachineLearning
+- If you are behind a proxy ensure that web socket communication is not disabled for azureml.net and azureml.ms domains
+- Try restarting the Compute Instance and then rerunning the notebook

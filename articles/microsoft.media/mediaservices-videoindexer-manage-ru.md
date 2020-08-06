@@ -10,10 +10,10 @@
     articleId="mediaservices-videoindexer-manage-ru"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32606569,32606571"
+    supportTopicIds="32740746,32740748"
     resourceTags=""
     productPesIds="16535"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     ownershipId="StorageMediaEdge_Media_VI"
 />
 

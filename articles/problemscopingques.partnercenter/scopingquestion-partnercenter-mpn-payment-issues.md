@@ -4,15 +4,15 @@
 	authors="dimanjar"
 	ms.author="dimanjar"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635688"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32725824"
+	productPesIds="17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_mpn_payment_issues"
 	clientIds="partnercenter"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
-#Partner Center MPN payment issues
+# Partner Center MPN payment issues
 ---
 {
   "resourceRequired": true,

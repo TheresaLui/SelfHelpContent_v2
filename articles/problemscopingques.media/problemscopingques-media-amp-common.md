@@ -7,7 +7,7 @@
     supportTopicIds="32632081, 32632086, 32632099, 32632111, 32632077, 32729550"
     productPesIds="14885"
     articleId="problemscopingques-amp-common"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     schemaVersion="1"
 	ownershipId="StorageMediaEdge_Media"
 />

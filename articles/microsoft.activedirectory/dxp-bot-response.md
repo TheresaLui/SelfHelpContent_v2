@@ -19,6 +19,6 @@
 
 # PREVIEW: Get help from our intelligent knowledge base
 <!--issueDescription-->
-**Top 3 recommendations from our intelligent knowledge base.**
+**Top recommendations from our intelligent knowledge base.**
 <!--$botResponseContent-->[botResponseContent]<!--/$botResponseContent-->
 <!--/issueDescription-->

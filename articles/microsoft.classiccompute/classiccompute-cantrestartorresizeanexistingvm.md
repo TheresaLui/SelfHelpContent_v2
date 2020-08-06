@@ -9,7 +9,7 @@
     supportTopicIds=""
     resourceTags="windows, linux, windowsSQL, redhat"
     productPesIds=""
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
  	articleId="fbc3e808-7804-4f9b-b708-ecd3b0bbf998"
 	ownershipId="Compute_VirtualMachines"
 />

@@ -6,7 +6,7 @@
 	authors="saurabhsensharma"
 	ms.author="saurse"
 	displayOrder="21"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""

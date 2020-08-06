@@ -13,8 +13,8 @@
 	supportTopicIds="32739589"
 	clientIds="partnercenter"
 	resourceTags="csp"
-	productPesIds="17013"
-	cloudEnvironments="public"
+	productPesIds="17113"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Other_Portals"
 />
 

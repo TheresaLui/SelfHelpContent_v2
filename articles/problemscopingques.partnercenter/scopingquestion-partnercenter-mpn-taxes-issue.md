@@ -4,15 +4,15 @@
 	authors="dimanjar" 
 	ms.author="dimanjar"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635702"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32725825"
+	productPesIds="17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_mpn_taxes_issues"
 	clientIds="partnercenter"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
-#Partner Center MPN taxes issues
+# Partner Center MPN taxes issues
 ---
 {
   "resourceRequired": true,

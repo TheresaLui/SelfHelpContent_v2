@@ -17,7 +17,7 @@
 
 # Cancel or change an existing reservation
 
-* **Self-service:** You can cancel or exchange a reserved instance yourself using [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade). Select the reservation and click on refund or exchange. Note that you must have owner access on the Reservation Order to exchange or refund. Access to only the Reservation will not let you proceed with refund or exchange. Ask the Reservation Order owner to give you owner access to the Reservation Order<br>
+* **Self-service:** You can cancel or exchange a reserved instance yourself using [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade). Select the reservation and click on refund or exchange. Note that you must have owner access on the Reservation Order to exchange or refund. Access to only the Reservation will not let you proceed with refund or exchange. Ask the Reservation Order owner to give you owner access to the Reservation Order<br>
 * **Exchange policy:** You can exchange a reservation for another reservation of the same type – there are **no penalties** on reservation exchange. The total commitment with new reservation should be greater than the sum of exchanged reservation’s refund amount and the future monthly payments (if applicable)<br>
 * **Refund policy:** Sum of refund and the cancelled future payments cannot exceed $50,000 USD in a 12-month rolling window. We are **currently not charging any penalty** on refunds but could charge it on future refunds<br>
 ** **Exceptions:** Self-service exchange and cancel capability isn't available for US Government Enterprise Agreement customers<br>

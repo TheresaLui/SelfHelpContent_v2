@@ -1,32 +1,31 @@
 <properties
-    pageTitle="Azure Arc for Servers - Cannot install agent (Windows)"
-    description="Azure Arc for Servers - Cannot install agent (Windows)"
-    service="microsoft.hybridcompute"
-    resource="hybridcompute"
-    authors="zjalexander"
-    ms.author="zachal"
-    displayorder=""
-    selfHelpType="generic"
-    supportTopicIds="32689154"
-    resourceTags=""
-    productPesIds="16872"
-    cloudEnvironments="public"
-    articleId="482ad613-f6b9-45c6-a189-307ccfe560f0"
-    ownershipId="Compute_HybridResourceProvider"
-/>
+  pagetitle="Unable to onboard a machine to Azure Arc for Servers by using the command `azcmagent connect`"
+  service="microsoft.hybridcompute"
+  resource="machines"
+  ms.author="t-juwa"
+  selfhelptype="Generic"
+  supporttopicids="32689163,32689167,32689153,32689154,32689164,32689168"
+  resourcetags=""
+  productpesids="16872"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="482ad613-f6b9-45c6-a189-307ccfe560f0"
+  ownershipid="Compute_HybridResourceProvider" />
+# Unable to onboard a machine to Azure Arc for Servers by using the command `azcmagent connect`
 
-# Installing the Azure Arc for Servers Agent
-
-This article will help with issues installing the Azure Arc for Servers Agent on Windows.
+This article will help with issues onboarding a machine to Azure Arc for Servers by using the command `azcmagent connect`.
 
 ## **Recommended Steps**
 
-Please add '--verbose' to the onboarding command being executed and then collect the log files under '%programdata%\AzureConnectedMachineAgent\Log'.
+1. Your proxy configuration may be incorrect. [Update or remove proxy settings](https://docs.microsoft.com/azure/azure-arc/servers/manage-agent#update-or-remove-proxy-settings) shows the instructions to update your proxy settings. Arc for Servers does not support authenticated proxies, so make sure your proxy is unauthenticated. 
+2. The Azcmagent client may not be able to reach our services in Azure. [Networking configuration](https://docs.microsoft.com/azure/azure-arc/servers/agent-overview#networking-configuration) shows the instructions to verify your Firewall/Gateway/Proxy settings to ensure the endpoints are whitelisted for access.
+3. You may have provided an unsupported location as the Azure region. Run the following commands to get the list of locations for our resource provider, which will give you the display name for each region: 
 
-### **Prerequisites for Azure Arc for Servers**
+  * CLI (Linux): `az provider show --namespace "Microsoft.HybridCompute" --query "resourceTypes[?resourceType=='machines'].locations | [0]"`
+  * PowerShell (Windows): `$locations = Get-AzResourceProvider -ProviderNamespace Microsoft.HybridCompute | Where-Object { $_.ResourceTypes.ResourceTypeName -eq "machines" } | Select-Object -ExpandProperty Locations`
 
-* Most issues are caused by network configuration. Check the [Networking Configuration](https://docs.microsoft.com/azure/azure-arc/servers/overview#networking-configuration) document.
+4. Find the ARM location name for the region’s display name: 
 
-### **The subscription is not registered to use namespace Microsoft.HybridCompute**
+  * CLI (Linux):`az account list-locations --query "sort_by([].{DisplayName: displayName, ARMName:name}, &DisplayName)" --output table`
+  * PowerShell (Windows): `Get-AzLocation | Where-Object DisplayName -in $locations | Select-Object Location`
 
-* If you receive this message, follow the steps at [Register Azure Service Providers](https://docs.microsoft.com/azure/azure-arc/servers/overview#register-azure-resource-providers)
+5. If the above steps do not resolve your issue, please file a support ticket

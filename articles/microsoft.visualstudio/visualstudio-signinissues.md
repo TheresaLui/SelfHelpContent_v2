@@ -12,8 +12,8 @@
 	selfHelpType="generic"
 	resourceTags=""
 	productPesIds="15543"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="Azure_DevOps_Services"
 /> 
 
 # Common causes of sign-in issues 

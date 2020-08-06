@@ -12,7 +12,7 @@
     resourceTags=""
     productPesIds="16506"
     cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 
 # Avere vFXT Documentation Request

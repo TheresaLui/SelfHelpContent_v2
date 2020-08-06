@@ -10,8 +10,8 @@
 	supportTopicIds="32681350"
 	resourceTags=""
 	productPesIds="15568"
-	articleId="search-index-schema"
-	cloudEnvironments="public, Fairfax"
+	articleId="search-index-schema-data-invalid"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureSearch_AzureSearch"
 />
 # Issue with index data when using the import data wizard

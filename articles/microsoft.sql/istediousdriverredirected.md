@@ -12,7 +12,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
     	ms.author="aamalvea"
 	ownershipId="AzureData_AzureSQLDB"
 />

@@ -8,11 +8,11 @@
 	articleId="datafactory-newtree-ssis-ir-pacakge-execution-data-connectivity-vnet.md"
 	displayOrder="13"
 	diagnosticScenario=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32680899"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_DataFactory"
 />
 

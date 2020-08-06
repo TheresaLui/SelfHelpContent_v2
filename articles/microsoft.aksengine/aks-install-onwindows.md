@@ -11,8 +11,8 @@
     resourceTags=""
     productPesIds="16963"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="aks-install-onlinux"
-	ownershipId="ASEP_ContentService_Placeholder"
+    articleId="aks-install-onwindows"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Issues installing AKS Engine on Linux

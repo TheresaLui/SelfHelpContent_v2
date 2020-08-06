@@ -10,7 +10,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32690871"
 	productPesIds="16644"
-	cloudEnvironments="public, fairfax, mooncake"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 

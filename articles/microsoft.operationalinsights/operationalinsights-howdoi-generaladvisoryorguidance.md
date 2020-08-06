@@ -14,7 +14,7 @@ selfHelpType="generic"
 supportTopicIds="32633015"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
+cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 	ownershipId="AzureMonitoring_LogAnalytics"
 />
 

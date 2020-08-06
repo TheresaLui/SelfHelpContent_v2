@@ -6,10 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32637326"
          productPesIds="14749"
-         cloudEnvironments="public, Fairfax"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
 		     articleId="a935b82e-d051-46f9-ad37-e74b6886619b"
-	ownershipId="Compute_VirtualMachines_Content"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM Restore failure for Windows
 ---

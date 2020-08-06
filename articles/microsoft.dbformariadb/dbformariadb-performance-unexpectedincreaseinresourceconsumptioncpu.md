@@ -10,7 +10,7 @@
     supportTopicIds="32640158"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="58c3084a-4d18-44c2-8a21-e27d51c2f130"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
@@ -23,6 +23,7 @@ Increase in resource consumption can be a result of an explicit user action or c
 
 * Ensure there are no changes to the pricing-tier of your service that might have triggered it
 * Adjust the pricing-tier commensurate to the increase in the workload
+* You can increase the IOPS available to your server by scaling up storage. IOPS scale with the size of the provisioned storage in a 3:1 ratio.
 * Check if there are any schema changes, for example was an index dropped
 * Ensure that the statistics are up to date
 

@@ -10,7 +10,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="7473390e-3355-41f2-ba95-3d322bd9dcf1"
 	ownershipId="AzureLabServices_DevTestLab"
 />

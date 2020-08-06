@@ -4,13 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635662,32635698,32635699"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32725886,32725893,32725894,32692597"
+	productPesIds="17012,17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_credit_requests"
 	clientIds="partnercenter"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Partner Center Credit Requests
 ---

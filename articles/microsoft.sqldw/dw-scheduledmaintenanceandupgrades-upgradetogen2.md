@@ -11,7 +11,7 @@
     selfHelpType="generic"
     resourceTags="datawarehouse"
     articleId="dw-scheduledmaintenanceandupgrades-upgradetogen2"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_SQLDataWarehouse"
 />
 

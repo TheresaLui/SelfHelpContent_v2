@@ -13,24 +13,26 @@
 	supportTopicIds="32599602,32599605,32599626,32599644,32599650,32599653,32599665,32599632"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="IntuneCxP_Intune"
 />
 
 # We ran diagnostics on your Microsoft Intune subscription and found an issue.
 
 <div>
-Microsoft Intune has detected application failures on <b><!--$FailureUPN-->[FailureUPN]<!--/$FailureUPN-->devices</b>. 
-Please review the steps below to resolve:
+Microsoft Intune has detected an application installation failure for <b><!--$UPN-->[UPN]<!--/$UPN--></b>. Please review the steps below to resolve:
 <br/><br/>
-User <!--$FailureUPN-->[FailureUPN]<!--/$FailureUPN--> experienced an enrollment error on <!--$FailureDate-->[FailureDate]<!--/$FailureDate-->
+User <!--$UPN-->[UPN]<!--/$UPN--> has experienced <!--$CountOfFailures-->[CountOfFailures]<!--/$CountOfFailures--> application installation failures across <!--$CountOfDevices-->[CountOfDevices]<!--/$CountOfDevices--> devices in the past 30 days.
 <br/><br/>
-<b>Enrollment failed with the error:</b> <!--$FailureDescription-->[FailureDescription]<!--/$FailureDescription-->
+The most recent app install error occurred on <!--$FailureDate-->[FailureDate]<!--/$FailureDate--> on the device whose ID is <!--$DeviceId-->[DeviceId]<!--/$DeviceId-->
 <br/><br/>
-<b>Enrollment failure details:</b> <!--$FailureDetails-->[FailureDetails]<!--/$FailureDetails-->
+<b>Application installation failed with the error:</b> <!--$ErrorCode-->[ErrorCode]<!--/$ErrorCode-->
 <br/><br/>
-<b>How to resolve this enrollment failure:</b> <!--$FailureRemediation-->[FailureRemediation]<!--/$FailureRemediation-->
+<b>Failure description:</b> <!--$FailureDetails-->[FailureDetails]<!--/$FailureDetails-->
 <br/><br/>
-To review further enrollment failures for this user please use the <a href="https://go.microsoft.com/fwlink/?linkid=2113020" target="_blank">Intune Troubleshooting blade</a>.
+<b>How to resolve this failure:</b> <!--$FailureRemediation-->[FailureRemediation]<!--/$FailureRemediation-->
+<br/><br/>
+To troubleshoot the most recent failure, go to the <a href="<!--$ManagedAppViewLink-->[ManagedAppViewLink]<!--/$ManagedAppViewLink-->" target="_blank">Managed App View</a> for the device.
+<br/><br/>
+To troubleshoot all of this user’s application installation failures go to the <a href="https://go.microsoft.com/fwlink/?linkid=2113020" target="_blank">Intune Troubleshooting blade</a>.
 </div>
-

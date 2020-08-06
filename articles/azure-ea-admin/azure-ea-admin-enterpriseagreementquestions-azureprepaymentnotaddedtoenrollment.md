@@ -23,7 +23,7 @@ If a purchase order for a monetary commitment was submitted by your partner and 
 
 ### Enrollment provisioning status
 
-The start date of a new monetary commitment is defined by the date that the regional operations center processed it. The coverage start date on the purchase order shown at [https://www.explore.ms](https://www.explore.ms) shows the start of the monetary commitment. The coverage start date is when the when the monetary commitment appears in the Azure EA portal. 
+The start date of a new monetary commitment is defined by the date that the regional operations center processed it. The coverage start date on the purchase order shown at [https://www.explore.ms](https://www.explore.ms) shows the start of the monetary commitment. The coverage start date is when the when the monetary commitment appears in the Azure EA portal. 
 
 ### Commitment not added to the enrollment
 

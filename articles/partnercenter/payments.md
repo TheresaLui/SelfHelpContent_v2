@@ -10,12 +10,12 @@
 	articleId="partnercenter_payments"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635687,32692605"
+	supportTopicIds="32692605"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17003"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Payments
 

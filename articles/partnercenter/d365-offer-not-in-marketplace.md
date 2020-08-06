@@ -13,7 +13,7 @@
 	supportTopicIds="32689401, 32689402, 32689403"
 	resourceTags="marketplace"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 

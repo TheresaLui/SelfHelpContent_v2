@@ -13,7 +13,7 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="16094"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, fairfax, usnat, ussec"
     ownershipId="CloudNet_AzureVPNGateway"
 />
 

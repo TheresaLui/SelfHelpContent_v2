@@ -4,7 +4,6 @@
 	infoBubbleText="Common Solutions Template"
 	service=""
 	resource=""
-	authors=""
 	ms.author=""
 	displayOrder=""
 	articleId=""

@@ -7,9 +7,9 @@
     ms.author="rithorn"
     articleId="managementgroups-rbac"
     selfHelpType="generic"
-    supportTopicIds="32609543,32609546,32609548,32609549,32609550 "
+    supportTopicIds="32743304"
     productPesIds="16530"
-    cloudEnvironments="public,fairfax,mooncake"
+    cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
     ownershipId="ARM_ManagementGroups"
 />
 
@@ -18,13 +18,6 @@
 ## Management groups Role Based Access Control (RBAC) troubleshooting
 
 Management groups are a hierarchical structure of groups that allow you to build a tree of inherited RBAC permissions. Having multiple tiers of inheritance can cause confusion and sometimes issues.  To help troubleshoot these items, we have listed some of the common issues reported with management group and RBAC Accesses.  
-
-- [I can't move or having trouble moving a subscription/ management group](#recommended-steps)
-- [What are inherited accesses and why is there someone able to see my resources](#inherited-access)
-- [I can't see my subscription or management group](#the-subscription-or-management-group-is-not-listed)
-- [I lost access to my management group by deleting the RBAC role accidentally](#how-to-regain-access-to-a-management-group)
-- [Custom RBAC roles and management groups](#custom-RBAC-roles-and-management-groups)
-- [Issues with Resource Groups?](#issues-with-Resource-Groups)
 
 ## **Recommended Steps**
 
@@ -59,7 +52,7 @@ To check who has inherited access to your resource and where it is assigned:
 
 ## The subscription or management group is not listed
 
-When working within the Azure portal, the dropdowns will only show you the items you are able to move.  This is to help avoid any errors as the service only will present the items with the proper permissions.  If you are not seeing the proper items in the dropdowns, check your permissions on the subscriptions or management groups. For help see [Recommended Steps](#recommended-steps) on how to check your permissions.  
+When working within the Azure portal, the dropdowns will only show you the items you are able to move.  This is to help avoid any errors as the service only will present the items with the proper permissions.  If you are not seeing the proper items in the dropdowns, check your permissions on the subscriptions or management groups. For help see the recommended steps above on how to check your permissions.  
 
 ## I can't see the subscription that I just moved
 
@@ -67,7 +60,7 @@ If you are having trouble finding the subscription you just moved under a manage
 
 - Check the notifications section in the portal to see if there was a failure. If the process of moving the subscription failed, you will see an error in the notifications. You can find the notifications window in the upper right hand corner of the Azure portal with the icon of a bell.
 - Check the default subscription filter to make sure the subscription you are looking for is enabled in the views. You can find the Directory + subscription filter window in the upper right hand corner of the Azure portal with the icon of a notebook with the filter icon on top of it.
-- Check your permission on the new management group and the subscription itself. While you needed the proper permissions to move the subscription there could have been changes to the role assignments since then. See [Recommended Steps](#recommended-steps) on how to check your permissions.
+- Check your permission on the new management group and the subscription itself. While you needed the proper permissions to move the subscription there could have been changes to the role assignments since then. See the recommended steps above on how to check your permissions.
 - Was the move done within the last 30 minutes?
   - If so, there could be a user token issue that is preventing the subscription from showing within the Azure portal. Try refreshing the browser and/or logging in and out of the Azure portal. This will renew the user token.
   - If you are on the management group pages within the Azure portal, select the refresh button on the table to refresh the table

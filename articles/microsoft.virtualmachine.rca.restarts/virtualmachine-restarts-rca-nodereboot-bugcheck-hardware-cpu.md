@@ -1,0 +1,42 @@
+<properties
+	pageTitle="VMA RCA"
+	description="RCA - Node Service Heal - CPU Hardware Bugcheck"
+	infoBubbleText="Found recent reboot. See details on the right."
+	service="microsoft.compute"
+	resource="virtualmachines"
+	authors="ScottAzure"
+	ms.author="naterns"
+	displayOrder=""
+	articleId="UnexpectedVMReboot_Node_Reboot_bugcheck_Hardware_CPU"
+	diagnosticScenario="UnexpectedVMReboot"
+	selfHelpType="rca"
+	supportTopicIds="32411816"
+	resourceTags="windows, linux"
+	productPesIds="14749"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
+/>
+# We ran diagnostics on your resource and found an issue
+
+
+<!--issueDescription-->
+We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** experienced downtime at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated host node reboot action**.
+<!--/issueDescription-->
+
+The host node reboot was triggered by our Azure monitoring systems that detected a **CPU Error** on the physical node where the virtual machine was hosted. This node has been taken out of service for debugging and your VM has been transferred over to a different node. RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed during this time.<br>
+
+The Hardware Engineering team is working on the following long-term fixes to reduce the impact of these errors:
+
+- Azure is continually working to make improvements to pre-production hardware screening
+- Azure is continually working with manufacturers to identify and prevent failures through improvements in CPU microcode
+- Improvements to CPU failure handling to reduce or avoid impact to customers
+- Improvements to failure prediction telemetry and models
+<br>
+
+To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.<br>
+
+## **Recommended Documents**
+
+* [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)<br>
+* [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
+* [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)

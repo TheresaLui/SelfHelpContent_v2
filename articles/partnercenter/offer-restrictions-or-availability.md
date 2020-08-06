@@ -10,12 +10,12 @@
 	articleId="partnercenter_offer_restrictions_or_availability"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635686"
+	supportTopicIds="32692603"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	productPesIds="17011"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Pricing_and_Offers"
 />
 # Offer restrictions or availability
 

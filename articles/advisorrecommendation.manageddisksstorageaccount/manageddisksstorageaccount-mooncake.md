@@ -6,9 +6,9 @@
     articleId="36c3633b-daac-4e01-af95-11b8c2f4fe20_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_XStore"
 />
-# Use Managed disks to prevent disk I/O throttling
+# Use Managed disks to prevent    disk I/O throttling
 ---
 {
   "recommendationOfferingId": "c6b94711-f1f5-4e7e-9c89-c17ed4190969",
@@ -25,7 +25,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Compute/virtualMachines",
   "recommendationFriendlyName": "ManagedDisksStorageAccount",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",
@@ -68,6 +68,6 @@
   "displayLabel": "Use Managed Disks",
   "additionalColumns": [],
   "tip": "You can use Managed Disks to prevent disk throttling and improve virtual machine performance.",
-  "learnMoreLink": "https://aka.ms/aa_avset_manageddisk_learnmore"
+  "learnMoreLink": "https://aka.ms/aa_avset_manageddisk_learnmore_cn"
 }
 ---

@@ -10,7 +10,7 @@
     supportTopicIds="32599908"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public, Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, usnat, ussec, Mooncake"
     articleId="d6370ffa-48c7-48a5-9c4d-0dfd966ce672"
 	ownershipId="Compute_Automation"
 />
@@ -63,7 +63,7 @@ There are several reasons why a runbook may be suspended or failed:
 
 ### "Command not recognized"
 
-* This error is commonly caused when modules have not been imported or are otherwise out of date. Ensure any dependent modules in your script have been [imported into Azure Automation](https://docs.microsoft.com/azure/automation/automation-runbook-gallery#modules-in-powershell-gallery) and are the correct version. 
+* This error is commonly caused when modules have not been imported or are otherwise out of date. Ensure any dependent modules in your script have been [imported into Azure Automation](https://docs.microsoft.com/azure/automation/automation-runbook-gallery#modules-in-powershell-gallery) and are the correct version. If the module exists in your Automation Account already, there might be an issue with loading it in the sandbox. You can try adding an explicit Import-Module statement to the beginning of your runbook. 
 
 ### "Forbidden with client authentication scheme "anonymous""
 
@@ -92,7 +92,7 @@ There are several reasons why a runbook may be suspended or failed:
 
 ### Using Az modules
 
-* Using Az modules and AzureRM modules in the same Automation Account is not supported. Please see ["Az modules in runbooks" for more details](https://docs.microsoft.com/azure/automation/az-modules).
+* Using Az modules and AzureRM modules in the same Automation Account is not supported. Please see ["Az modules in runbooks" for more details](https://docs.microsoft.com/azure/automation/automation-update-azure-modules).
 
 ### Runbook is stuck
 
@@ -110,7 +110,7 @@ There are several reasons why a runbook may be suspended or failed:
 
 * If you need to manage Azure resources across several subscriptions with Azure Automation, please follow the guidance in ["Dealing with Multiple Subscriptions"](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#runbook-auth-failure) to prevent errors
 
-If none of the above solutions address your problem, please follow the steps in [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510) before opening a case. This will help us resolve your case as quickly as possible.
+If none of the above solutions address your problem, please follow the steps in [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case) before opening a case. This will help us resolve your case as quickly as possible.
 
 ## **Recommended Documents**
 

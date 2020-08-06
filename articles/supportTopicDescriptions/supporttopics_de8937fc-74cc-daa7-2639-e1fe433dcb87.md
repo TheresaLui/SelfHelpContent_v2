@@ -5,7 +5,7 @@
   ms.author="tibasham"
   selfhelptype="SupportTopicDescription"
   productpesids="de8937fc-74cc-daa7-2639-e1fe433dcb87"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_de8937fc-74cc-daa7-2639-e1fe433dcb87" />
 # Support Topic Descriptions for de8937fc-74cc-daa7-2639-e1fe433dcb87
 ---
@@ -20,6 +20,14 @@
   "productLink3": null,
   "productLinkName3": null,
   "supportTopics": [
+    {
+      "id": "20aa3013-c309-ffdb-e8ec-d6214202fe2c",
+      "longDescription": "",
+      "shortDescription": "Disk throughput or IOPS are lower than expected for the virtual machine",
+      "searchTags": "Performance;IOPS;throughput",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "7d220707-3b80-bad6-8690-4f0010b552aa",
       "longDescription": "",

@@ -29,7 +29,7 @@ Our analysis of the support information indicates that specific personal or orga
 
 We recommend continuing to open a support case to better understand the data exposed and having one of your privacy professionals review this information to understand your impact.<br>
 
-We are committed to the privacy and security of your data and have taken the appropriate steps to promptly investigate and mitigate this issue.<br>
+We are committed to the privacy and security of your data and have taken the appropriate steps to promptly investigate and mitigate this issue.<br>
 
 ### Additional Information:
 * [For more information regarding Microsoft Privacy Policy](https://privacy.microsoft.com)

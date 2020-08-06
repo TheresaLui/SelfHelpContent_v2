@@ -2,7 +2,7 @@
     pageTitle="Computer Identity is used to access Azure Files"
     description="Computer Identity is used to access Azure Files"
     service="microsoft.storage"
-    resource="file storage"
+    resource="storageAccounts"
     authors="yagohel23"
     ms.author="yagohel"
     displayOrder=""
@@ -10,7 +10,7 @@
     supportTopicIds="32689882"
     resourceTags=""
     productPesIds="1003478"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="cbaf527c-36c4-48ca-9f4f-af3578176758"
     ownershipID="Centennial_CloudNet_LoadBalancer"
 />

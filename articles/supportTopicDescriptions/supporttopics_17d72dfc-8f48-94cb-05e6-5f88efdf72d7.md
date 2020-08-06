@@ -5,7 +5,7 @@
   ms.author="akankshajsh, v-kraku, srinathv"
   selfhelptype="SupportTopicDescription"
   productpesids="17d72dfc-8f48-94cb-05e6-5f88efdf72d7"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="azure-backup-supporttopicdescription"
   ownershipid=""
   icmteam="icmteam"
@@ -635,9 +635,9 @@
     {
       "id": "d4fb7bab-207d-54e6-4463-473bd9f65d1d",
       "longDescription": null,
-      "shortDescription": "Issue while configuring virtual machine backup",
-      "searchTags": "",
-      "category": "",
+      "shortDescription": "Issue related to configuring new or modifying existing backup, stopping, deleting or moving backup.",
+      "searchTags": "configure;modify;stop",
+      "category": "configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {

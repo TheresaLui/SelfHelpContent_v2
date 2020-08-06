@@ -13,7 +13,7 @@ selfHelpType="generic"
 supportTopicIds="32612530"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
     articleId="1776cd2c-92b4-400e-9277-38ad60f8d03b"
     ownershipId="AzureMonitoring_LogAnalytics"
 />
