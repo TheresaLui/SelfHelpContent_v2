@@ -19,7 +19,7 @@
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Partner Center Azure plan",
-    "fileAttachmentHint": "Please provide screenshots of the 'Role Assignments' page under this "Access control (IAM)" tab in Azure portal to verify access on the customers' Azure Plan subscription.",
+    "fileAttachmentHint": "Please provide screenshots of the 'Role Assignments' page under this 'Access control (IAM)' tab in Azure portal to verify access on the customers' Azure Plan subscription.",
     "formElements": [
         {
             "id": "pc_subscription_id",
