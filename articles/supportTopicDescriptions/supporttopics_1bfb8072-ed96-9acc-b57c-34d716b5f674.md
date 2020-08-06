@@ -334,6 +334,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "834c327b-4d87-138e-7368-30cff59d1712",
+      "longDescription": "",
+      "shortDescription": "Issues related to Log Analytics billing volume.",
+      "searchTags": "Log Analytics;Billing",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "88667a2b-ec88-7d1d-b65e-8c37a71567da",
       "longDescription": "",
       "shortDescription": "Investigate visualization issues with Azure Dashboards in Log Analytics workspace.",
