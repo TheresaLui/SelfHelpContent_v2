@@ -3,9 +3,9 @@
     description="Deprecation of Older Spark Versions in HDInsight Spark cluster"
     authors="xunwei"
     ms.author="xunwei"
-    articleId="20dfc768-7850-4176-9707-b9bb52afb95a_Public"
+    articleId="20dfc768-7850-4176-9707-b9bb52afb95a_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_HDInsight"
 />
 # Deprecation of Older Spark Versions in HDInsight Spark cluster 

@@ -3,9 +3,9 @@
     description="Use Accelerated Writes to Improve Write Performance"
     authors="xunwei"
     ms.author="xunwei"
-    articleId="8109a740-abe9-453e-91fc-c25598de73d0_Public"
+    articleId="8109a740-abe9-453e-91fc-c25598de73d0_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_HDInsight"
 />
 # Use Accelerated Writes to Improve Write Performance
@@ -36,7 +36,7 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-accelerated-writes",
+  "learnMoreLink": "https://docs.azure.cn/zh-cn/hdinsight/hbase/apache-hbase-accelerated-writes",
   "description": "Consider using Accelerated Writes feature in your HBase cluster to improve cluster performance.",
   "longDescription": "You are seeing this advisor recommendation because HDInsight team's system log shows that in the past 7 days, your cluster has encountered the following scenarios:\n\t1. High WAL sync time latency\n\t2. High write request count (at least 3 one hour windows of over 1000 avg_write_requests/second/node)\n\nThese conditions are indicators that your cluster is suffering from high write latencies. This could be due to heavy workload performed on your cluster.\nTo improve the performance of your cluster, you may want to consider utilizing the Accelerated Writes feature provided by Azure HDInsight HBase.  The Accelerated Writes feature for HDInsight Apache HBase clusters attaches premium SSD-managed disks to every RegionServer (worker node) instead of using cloud storage. As a result, provides low write-latency and better resiliency for your applications.\nTo read more on this feature, please visit link: ",
   "potentialBenefits": "Lower write-latency and better resiliency for your applications.",
@@ -45,7 +45,7 @@
       "actionId": "bf11f4ca-c126-4a60-9d9f-dc93b7ba161d",
       "description": "Consider upgrade to Accelerated Writes to improve performance of your HBase cluster",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/azure/hdinsight/hbase/apache-hbase-accelerated-writes#how-to-enable-accelerated-writes-for-hbase-in-hdinsight"
+      "documentLink": "https://docs.azure.cn/zh-cn/hdinsight/hbase/apache-hbase-accelerated-writes#how-to-enable-accelerated-writes-for-hbase-in-hdinsight"
     }
   ],
   "resourceMetadata": {
