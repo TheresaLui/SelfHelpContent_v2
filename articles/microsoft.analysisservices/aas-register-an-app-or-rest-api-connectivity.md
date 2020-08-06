@@ -24,6 +24,6 @@
 
 * [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
 
-* [Azure Analysis Services REST API](https://docs.microsoft.com/en-us/rest/api/analysisservices/)
+* [Azure Analysis Services REST API](https://docs.microsoft.com/rest/api/analysisservices/)
 
-* [Azure App Configuration](https://docs.microsoft.com/en-us/rest/api/appconfiguration/)
+* [Azure App Configuration](https://docs.microsoft.com/rest/api/appconfiguration/)
