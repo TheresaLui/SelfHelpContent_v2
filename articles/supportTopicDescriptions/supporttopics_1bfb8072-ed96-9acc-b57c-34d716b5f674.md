@@ -550,6 +550,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ca7f2e16-4d40-8d40-df9c-381631368faf",
+      "longDescription": "",
+      "shortDescription": "I need assistance to understand the usage in my workspace.",
+      "searchTags": "Billing;Workspace;Log Analytics",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cb542110-8b87-318e-c6ab-36c5ec4118a5",
       "longDescription": "",
       "shortDescription": "Investigate issues related with sending Diagnostic Logs data from Azure resources to a Log Analytics workspace.",
