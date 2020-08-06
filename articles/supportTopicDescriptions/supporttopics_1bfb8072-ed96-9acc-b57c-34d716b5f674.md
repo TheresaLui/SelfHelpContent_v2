@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "30ddae08-4760-ee4b-4187-d11a1eaae8b3",
+      "longDescription": "",
+      "shortDescription": "Assistance with setting ingestion daily cap, and how to control data volume in your workspace ",
+      "searchTags": "Billing;Log Analytics;ingestion;data volume",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "314d31e0-2bfe-54d3-fff5-4644edb9bb01",
       "longDescription": "",
       "shortDescription": "Issues related with the Linux Log Analytics agent (previously known as OMS agent)",
