@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "292d3195-558b-7255-ce4c-b2f3eac4a70c",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with connecting an Azure Virtual machine to a Log Analytics workspace.",
+      "searchTags": "Agent;Log Analytics;Virtual Machine",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2c0b4df2-2497-9c34-488f-d0795d77a2c2",
       "longDescription": "",
       "shortDescription": "Troubleshoot Update Compliance solution data collection and visualization issues.",
