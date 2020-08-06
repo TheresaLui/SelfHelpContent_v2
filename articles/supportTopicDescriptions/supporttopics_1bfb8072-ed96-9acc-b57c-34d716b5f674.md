@@ -214,6 +214,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6f77daea-0c4c-c78a-b14a-36307e1b84c3",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with disconnecting an Azure Virtual machine to a Log Analytics workspace.",
+      "searchTags": "Agents;Log Analytics;Virtual Machine",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "78d61090-2f1f-f9cc-1108-16dfb6aa5383",
       "longDescription": "",
       "shortDescription": "Issue while linking and unlinking an Azure Automation account. For better troubleshooting content, please raise this issue on the Automation product",
