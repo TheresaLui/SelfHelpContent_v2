@@ -502,6 +502,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "cb542110-8b87-318e-c6ab-36c5ec4118a5",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related with sending Diagnostic Logs data from Azure resources to a Log Analytics workspace.",
+      "searchTags": "Diagnostic Logs",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cbc8e6c1-31b3-e54c-fc44-b1cedde5a1b4",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but an expected ITSM action did trigger or was not received appropriately.",
