@@ -318,6 +318,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7df0385d-a098-72c2-f419-8293761a4b0b",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with configuring Custom Logs within Log Analytics workspace.",
+      "searchTags": "Custom Logs;workspace",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8958d151-7dfa-7dfb-5e5f-30fae6fa0f03",
       "longDescription": "",
       "shortDescription": "Investigate issues related to query execution",
