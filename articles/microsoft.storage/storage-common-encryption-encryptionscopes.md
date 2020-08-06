@@ -35,5 +35,5 @@ Below are the common scenarios seen when customers needed help with Encryption S
 
 - [How do encryption scopes work?](https://docs.microsoft.com/azure/storage/common/storage-service-encryption#encryption-scopes-for-blob-storage-preview)
 
-- [You can not delete an encryption scope. They can only be disabled.](https://docs.microsoft.com/azure/storage/common/storage-service-encryption#disable-an-encryption-scope)
+- [You cannot delete an encryption scope. They can only be disabled.](https://docs.microsoft.com/azure/storage/common/storage-service-encryption#disable-an-encryption-scope)
 
