@@ -438,6 +438,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b56cd2e1-e619-49de-18f4-fd91cdcc091e",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related with Azure Activity Logs data collection and analysis.",
+      "searchTags": "Activity Logs",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b69e3143-055d-7d33-897c-30bcb43fd49d",
       "longDescription": "",
       "shortDescription": "Investigate issues related to collecting logs from other Azure resources and Solutions (for VMs issues use the Agent topic)",
