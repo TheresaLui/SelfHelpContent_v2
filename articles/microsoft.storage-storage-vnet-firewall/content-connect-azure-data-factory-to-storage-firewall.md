@@ -38,9 +38,9 @@ Below are the solutions/workarounds available to use Azure Data Factory with Sto
 #### Steps to connect as Trusted Service
 
 1. Connecting to Azure Storage (using [**Azure blob**](https://docs.microsoft.com/azure/data-factory/connector-azure-blob-storage#linked-service-properties) or [**Azure Data lake Gen2**](https://docs.microsoft.com/azure/data-factory/connector-azure-data-lake-storage#linked-service-properties) linked service)
-2. Grant Data Factory's Managed identity access to read data in storage's access control. For more detailed instructions, please refer [**this**](https://docs.microsoft.com/azure/data-factory/connector-azure-data-lake-storage#managed-identity).
+2. Grant Data Factory's Managed identity access to read data in storage's access control. For more detailed instructions, please refer to [**this**](https://docs.microsoft.com/azure/data-factory/connector-azure-data-lake-storage#managed-identity).
 3. Create the [linked service using Managed identities](https://docs.microsoft.com/azure/data-factory/connector-azure-data-lake-storage#managed-identity) for Azure resources authentication
-4. Modify the firewall settings in Azure Storage account to select `Allow trusted Microsoft Services`?. 
+4. Modify the firewall settings in Azure Storage account to select `Allow trusted Microsoft Services`
 
 **Note**: Only [Managed Identity](https://docs.microsoft.com/azure/data-factory/data-factory-service-identity) authentication is supported when using Trusted Service functionality in storage to allow Azure Data Factory to access its data. 
 
@@ -51,7 +51,7 @@ Below are the solutions/workarounds available to use Azure Data Factory with Sto
     2. Recommendation : **Use Azure IR/ SSIS IR**
 2. Use a private network/ virtual network to connect to data stores over TLS
     1. Security : secure data using **Auth** + **compute injection/ peering** with the private network
-    2. Recommendation : **Use Self-hosted IR/ SSIS IR** within your Virtual Network/ Private network.
+    2. Recommendation : **Use Self-hosted IR/ SSIS IR** within your Virtual Network/ Private network
 
 **Note**: We are actively working on adding the capability to add/ peer an Azure IR inside VNET. 
 
