@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "20dfc768-7850-4176-9707-b9bb52afb95a",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').SparkVersionRetirementInHDI",
+    "streamNamespace": "cluster('https://hdinsightmooncake2.chinanorth2.kusto.chinacloudapi.cn').database('HDInsightMC').SparkVersionRetirementInHDI",
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },
