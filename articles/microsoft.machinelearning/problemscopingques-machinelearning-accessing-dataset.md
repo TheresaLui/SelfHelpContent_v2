@@ -38,7 +38,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Version",
 			"watermarkText": "Version details",
-			"required": true
+			"required": true,
 			"useAsAdditionalDetails": true,
 			"hints": [{
 					"text": "Version details"
