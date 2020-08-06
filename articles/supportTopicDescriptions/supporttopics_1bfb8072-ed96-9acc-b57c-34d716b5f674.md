@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1a9d003d-dee4-e3ca-9798-d6d6dfddc70f",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues when it is not possible to create, modify or delete a view in View Designer.",
+      "searchTags": "View Designer",
+      "category": "View Designer",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1c057d1f-a9c2-b778-93aa-0f6cdb2aba00",
       "longDescription": "",
       "shortDescription": "Investigate issues related with the Service Map solution, including issue with the Dependency agent.",
