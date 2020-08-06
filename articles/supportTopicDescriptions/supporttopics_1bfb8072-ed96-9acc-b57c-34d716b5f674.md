@@ -430,6 +430,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "cbc8e6c1-31b3-e54c-fc44-b1cedde5a1b4",
+      "longDescription": "",
+      "shortDescription": "I can see my fired alert in the Azure portal, but an expected ITSM action did trigger or was not received appropriately.",
+      "searchTags": "Alerts;ITSM;actions",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cd8d9ea2-8d77-4239-9d47-3381bcdd6cb8",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues related with monitoring Container environments (AKS, hosted, and OnPrem)",
