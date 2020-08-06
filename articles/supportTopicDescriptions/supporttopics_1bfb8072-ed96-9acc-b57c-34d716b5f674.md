@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "0cab330d-9656-4e19-cdb9-301fe51d1f4d",
+      "longDescription": "",
+      "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing.",
+      "searchTags": "Agents;Windows;Log Analytics;hearthbeat",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0db24733-52f0-5093-c414-2805551c8052",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its email",
