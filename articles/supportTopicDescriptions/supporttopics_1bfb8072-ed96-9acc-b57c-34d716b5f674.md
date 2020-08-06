@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "179d83e2-4b29-badf-9f51-3695903976b7",
+      "longDescription": "",
+      "shortDescription": "Please raise issues related with Update Management under the Azure Automation service.",
+      "searchTags": "Automation;Update management",
+      "category": "Solutions",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1c057d1f-a9c2-b778-93aa-0f6cdb2aba00",
       "longDescription": "",
       "shortDescription": "Investigate issues related with the Service Map solution, including issue with the Dependency agent.",
