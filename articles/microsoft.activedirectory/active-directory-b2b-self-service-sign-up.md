@@ -10,7 +10,7 @@
     supportTopicIds="32741680"
     resourceTags=""
     productPesIds="16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="active-directory-b2b-self-service-sign-up.md"
 	ownershipId="AzureIdentity_B2C"
 />
