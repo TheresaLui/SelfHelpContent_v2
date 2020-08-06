@@ -182,6 +182,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4b6cc690-988d-72c1-7b50-4e5ed8597a9d",
+      "longDescription": "",
+      "shortDescription": "Issue related to Network monitoring - NPM, DNS.",
+      "searchTags": "NPM;DNS;Network monitoring",
+      "category": "Solutions",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4fb18d17-9056-ed22-a90d-15e71a6ea99f",
       "longDescription": "",
       "shortDescription": "Investigate high processor (CPU) usage caused by one of the OMI processes (OMISERVER, OMIAGENT)",
