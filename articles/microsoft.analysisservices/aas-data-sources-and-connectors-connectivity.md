@@ -26,4 +26,4 @@
 
 * [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)
 
-* [Troubleshooting the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-onprem-tshoot)
+* [Troubleshooting the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-onprem-tshoot)
