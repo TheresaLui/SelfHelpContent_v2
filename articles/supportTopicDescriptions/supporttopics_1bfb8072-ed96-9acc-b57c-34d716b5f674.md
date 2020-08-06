@@ -454,6 +454,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a4cbf848-cc22-e020-4ac3-d09cca1d276c",
+      "longDescription": "",
+      "shortDescription": "How do I chose the pricing tier that best suits my needs. ",
+      "searchTags": "Billing;Log Analytics;pricing tier",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a720a040-57f2-8f4c-fcc8-feab03e15004",
       "longDescription": "",
       "shortDescription": "The action happen long time after the alert arrived to the portal",
