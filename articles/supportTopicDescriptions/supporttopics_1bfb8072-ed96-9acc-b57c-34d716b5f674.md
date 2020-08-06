@@ -354,8 +354,8 @@
       "longDescription": "",
       "shortDescription": "Investigate high processor (CPU) usage caused by one of the OMI processes (OMISERVER, OMIAGENT)",
       "searchTags": "Log Analytics;CPU;OMI;Agents",
-      "category": "Performance",
-      "useInDiagnoseAndSolve": "false"
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "c6d2ee35-d81a-de56-258b-7e51e3e52e04",
