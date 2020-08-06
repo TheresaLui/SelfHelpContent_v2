@@ -74,7 +74,7 @@
       "longDescription": "",
       "shortDescription": "Troubleshoot agent installation failures",
       "searchTags": "Log Analitics;OMS;Agents;Installation",
-      "category": "Agents",
+      "category": "Agents and VMs",
       "useInDiagnoseAndSolve": "true"
     },
     {
