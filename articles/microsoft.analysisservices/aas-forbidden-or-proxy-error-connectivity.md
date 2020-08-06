@@ -24,6 +24,6 @@
 
 * [Hardening Azure Analysis Services with the new firewall capability](https://azure.microsoft.com/blog/hardening-azure-analysis-services-with-the-new-firewall-capability/)
 
-* [Azure Firewall FAQ](https://docs.microsoft.com/en-us/azure/firewall/firewall-faq)
+* [Azure Firewall FAQ](https://docs.microsoft.com/azure/firewall/firewall-faq)
 
 * [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
