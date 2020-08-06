@@ -26,4 +26,4 @@
 
 * [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
 
-* [Tabular model solution deployment](https://docs.microsoft.com/en-us/analysis-services/deployment/tabular-model-solution-deployment?view=azure-analysis-services-current)
+* [Tabular model solution deployment](https://docs.microsoft.com/analysis-services/deployment/tabular-model-solution-deployment?view=azure-analysis-services-current)
