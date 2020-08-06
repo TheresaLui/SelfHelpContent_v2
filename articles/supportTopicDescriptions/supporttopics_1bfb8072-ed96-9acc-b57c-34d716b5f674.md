@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1c057d1f-a9c2-b778-93aa-0f6cdb2aba00",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related with the Service Map solution, including issue with the Dependency agent.",
+      "searchTags": "Service map;dependency",
+      "category": "Solutions",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1e34ca9c-f240-d239-4ba5-08913a1dc7af",
       "longDescription": "",
       "shortDescription": "Assistance on determining why a given query is not returning the expected results.",
