@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b1cb91b5-5724-8df8-c49d-ee9cd35ed339",
+      "longDescription": "",
+      "shortDescription": "Issues related to VNet configurations, Private links, Private Endpoints",
+      "searchTags": "Private links;Private Endpoints;VNet Configuraitons",
+      "category": "Workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b38335b0-6c72-f78f-671f-a4002e517954",
       "longDescription": "",
       "shortDescription": "Troubleshoot errors generated while trying to access the azure logs blade in Log Analytics workspace",
