@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5b12e9a4-5f97-959c-39b6-e6c31f977fae",
+      "longDescription": "",
+      "shortDescription": "I can see my fired alert in the Azure portal, but it did not call a webhook, logic app, Azure function, or automation runbook.",
+      "searchTags": "Alerts;webhook;Logic app;function;runbook",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5e55f0c0-2f77-73cc-0de5-f301685b1932",
       "longDescription": "",
       "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing",
