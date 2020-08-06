@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32690860,32690849,32690851"
 	productPesIds="16644"
-	articleId="problemscopingques-machinelearning-accessing-dataset"
+	articleId="problemscopingques-machinelearning-accessing-dataset-datastores-or-using-datadrift"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	ownershipID="AzureML_AzureMachineLearningServices"
 	schemaVersion="1"
