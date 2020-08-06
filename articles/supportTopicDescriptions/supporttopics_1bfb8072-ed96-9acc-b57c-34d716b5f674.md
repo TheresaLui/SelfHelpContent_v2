@@ -510,6 +510,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e97fa065-3620-e755-f579-f6bfbd68362e",
+      "longDescription": "",
+      "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its SMS, push notification, or voice call.",
+      "searchTags": "Alerts;SMS;Actions;notificaitons",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "eb40c2d7-31ba-113a-9454-118b93ee8dbe",
       "longDescription": "",
       "shortDescription": "Encryption, privacy, compliance of data stored in Log Analytics. For collection of security-related data, use Azure Sentinel or Azure Security Center",
