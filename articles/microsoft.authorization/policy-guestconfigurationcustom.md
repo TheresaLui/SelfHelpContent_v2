@@ -17,16 +17,12 @@
 
 # Azure Policy - Guest Configuration custom policies
 
-When auditing Windows, Guest Configuration uses a
-[Desired State Configuration](https://docs.microsoft.com/powershell/scripting/dsc/overview/overview)
+When auditing Windows, Guest Configuration uses a [Desired State Configuration](https://docs.microsoft.com/powershell/scripting/dsc/overview/overview)
 (DSC) resource module to create the configuration file. The DSC configuration defines the condition that the machine should be in. If the evaluation of the configuration fails, the policy effect auditIfNotExists is triggered and the machine is considered non-compliant.
 
-When auditing Linux, Guest Configuration uses
-[Chef InSpec](https://www.inspec.io/).
-The InSpec profile defines the condition that the machine should be in. If the evaluation of the configuration fails, the policy effect auditIfNotExists is triggered and the machine is considered non-compliant.
+When auditing Linux, Guest Configuration uses [Chef InSpec](https://www.inspec.io/). The InSpec profile defines the condition that the machine should be in. If the evaluation of the configuration fails, the policy effect auditIfNotExists is triggered and the machine is considered non-compliant.
 
-Before creating custom policy definitions, it's a good idea to read the
-[conceptual overview information](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration).
+Before creating custom policy definitions, it's a good idea to read the [conceptual overview information](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration).
 
 The documentation below provides detailed information regarding custom policies for Windows and Linux machines.
 
@@ -35,7 +31,7 @@ The documentation below provides detailed information regarding custom policies 
 - [How to create Guest Configuration policies for Windows](https://docs.microsoft.com/azure/governance/policy/how-to/guest-configuration-create)
 - [How to create Guest Configuration policies for Linux](https://docs.microsoft.com/azure/governance/policy/how-to/guest-configuration-create-linux)
 
-### Related documents
+### Related Documents
 
 - [Understand Azure Policy's Guest Configuration](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration)
 - [Compliance details for Guest Configuration](https://docs.microsoft.com/azure/governance/policy/how-to/determine-non-compliance#compliance-details-for-guest-configuration)
