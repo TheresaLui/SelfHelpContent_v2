@@ -15,8 +15,39 @@
 
 # Problem accessing dataset or connecting to datastore: scoping questions
 
-	• What version of azureml SDK are you using?
-  
-	• What version of azureml-dataprep SDK is installed in your environment?
-  
-	• What is the subscription id, Workspace ID?
+---
+{
+    "$schema": "SelfHelpContent",
+    "subscriptionRequired": true,
+    "resourceRequired": true,
+    "title": "Problem accessing dataset or connecting to datastore",
+    "fileAttachmentHint": "",
+    "formElements":
+    [
+		{
+           		 "id": "problem_start_time",
+            		"order": 1,
+            		"controlType": "datetimepicker",
+            		"displayLabel": "When did the problem start?",
+            		"required": true
+        },
+		{
+			"id": "sdk_version",
+			"order": 2,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Version",
+			"watermarkText": "What version of azureml SDK are you using? ",
+			"required": true
+		},
+		{
+			"id": "dprep_version",
+			"order": 3,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Version",
+			"watermarkText": "What version of azureml-dataprep SDK is installed in your environment?",
+			"required": false
+		}
+	]
+}
+---
+
