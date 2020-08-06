@@ -270,6 +270,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "602e353e-ebe4-2a2f-2409-6879c9e8078a",
+      "longDescription": "",
+      "shortDescription": "I need assistance to understand my workspace billed costs",
+      "searchTags": "Billing;Log Analytics",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "618641f5-670c-a008-fa47-18e1438552c3",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues related with connecting an Azure Virtual machine to a Log Analytics workspace.",
