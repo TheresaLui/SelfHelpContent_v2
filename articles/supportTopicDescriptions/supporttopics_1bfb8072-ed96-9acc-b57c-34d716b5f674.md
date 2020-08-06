@@ -278,6 +278,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "95839737-d421-7957-1186-077718eb0368",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with the integration with issues related with the Log Analytics Gateway",
+      "searchTags": "OMS;Agents;Log Analytics",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "99a9e88d-8597-6405-f244-633568b9deab",
       "longDescription": "",
       "shortDescription": "Investigate high processor (CPU) usage caused by the OMS agent process (OMSAGENT)",
