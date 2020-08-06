@@ -628,6 +628,14 @@
       "searchTags": "Alerts;Log Analytics",
       "category": "Alerts",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "fa751f6a-10f3-c7ae-1ae3-33dca5fcef52",
+      "longDescription": "",
+      "shortDescription": "Issues related to Log Analytics Clusters and Customer managed key (CMK)",
+      "searchTags": "Log Analytics;Clusters;Managed keys",
+      "category": "Workspace",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
