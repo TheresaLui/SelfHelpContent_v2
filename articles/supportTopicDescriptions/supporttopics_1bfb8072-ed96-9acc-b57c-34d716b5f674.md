@@ -326,6 +326,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "88667a2b-ec88-7d1d-b65e-8c37a71567da",
+      "longDescription": "",
+      "shortDescription": "Investigate visualization issues with Azure Dashboards in Log Analytics workspace.",
+      "searchTags": "Log Analytics;Dashboard",
+      "category": "Query Execution and visualization",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "8958d151-7dfa-7dfb-5e5f-30fae6fa0f03",
       "longDescription": "",
       "shortDescription": "Investigate issues related to query execution",
