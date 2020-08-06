@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674"
   description="SupportTopicDescriptions for 1bfb8072-ed96-9acc-b57c-34d716b5f674"
   authors="elixirsys2"
-  ms.author="shemers"
+  ms.author="shemers, olegan"
   selfhelptype="SupportTopicDescription"
   productpesids="1bfb8072-ed96-9acc-b57c-34d716b5f674"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -440,9 +440,9 @@
     {
       "id": "eb40c2d7-31ba-113a-9454-118b93ee8dbe",
       "longDescription": "",
-      "shortDescription": "Issues related to security, privacy and compliance aspects of Log Analytics data handling",
-      "searchTags": "Log Analytics;Workspace;security;privacy;compliance",
-      "category": "Billing and Security",
+      "shortDescription": "Encryption, privacy, compliance of data stored in Log Analytics. For collection of security-related data, use Azure Sentinel or Azure Security Center",
+      "searchTags": "Log Analytics;Workspace;privacy;compliance;encryption",
+      "category": "Compliance",
       "useInDiagnoseAndSolve": "true"
     },
     {
