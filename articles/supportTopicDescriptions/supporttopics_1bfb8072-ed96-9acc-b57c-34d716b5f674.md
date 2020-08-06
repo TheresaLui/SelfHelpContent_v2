@@ -606,6 +606,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e3f3b2bd-de5c-923e-dad3-48e82685d665",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related with sending Diagnostic Logs data from Azure resources to a Log Analytics workspace.",
+      "searchTags": "Diagnostic Logs;workspace",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e59edf31-8fdf-a805-2bd6-5903cfbbde9c",
       "longDescription": "",
       "shortDescription": "Issues related with Syslog data analysis",
