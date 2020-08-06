@@ -10,8 +10,9 @@
 	supportTopicIds="32681393"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="d9141b4d-3574-45a4-aded-bab8b56c746e"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with DBFS mount point

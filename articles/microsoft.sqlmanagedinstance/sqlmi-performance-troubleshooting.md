@@ -10,8 +10,9 @@
 	supportTopicIds="32637296"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="c4abfa00-1b0f-48cd-adc1-256665fb436b"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Query Performance troubleshooting
@@ -47,6 +48,7 @@ If you are experiencing some issues with the queries that are running slower on 
 - Try to find some regressed queries using [SQL Server Management Studio/Query store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?toc=%2Fazure%2Fsql-database%2Ftoc.json#Regressed), or [sys.dm_db_tuning_recommendations](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-db-tuning-recommendations-transact-sql). Regressed queries can be automatically corrected if you have enabled automatic tuning feature using **ALTER DATABASE current SET AUTOMATIC_TUNING ( FORCE_LAST_GOOD_PLAN = ON )**, or you can manually corrected them using [sp_force_plan](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-query-store-force-plan-transact-sql) procedure.
 - [Analyze wait statistics](https://blogs.msdn.microsoft.com/sqlserverstorageengine/2019/03/05/analyzing-wait-statistics-on-managed-instance/) to see why the workload is waiting and identify the queries that are waiting
 - [Measure IO performance](https://blogs.msdn.microsoft.com/sqlserverstorageengine/2019/03/04/measuring-file-io-performance-on-managed-instance-qpi/) on your instance (especially if you see dominant **PAGEIOLATCH** or **WRITELOG** wait statistics) to see are you hitting some IO storage limit. You might need to pre-allocate files to get [better IO performance](https://techcommunity.microsoft.com/t5/DataCAT/Storage-performance-best-practices-and-considerations-for-Azure/ba-p/305525).
+- Bypass internal proxy and set `ProxyOverride` setting to `Redirect` when you are not using a public end-point with [Powershell](https://docs.microsoft.com/powershell/module/az.sql/set-azsqlinstance) or [Azure CLI](https://docs.microsoft.com/cli/azure/sql/mi#az-sql-mi-update). Make sure that your client application is in the same region as Managed Instance.
 
 ## **Recommended Documents**
 

@@ -1,0 +1,58 @@
+ <properties
+    description = "Support topic metadata for <Product Name>"
+    pageTitle = "Support topic metadata for <Product Name>"
+    ms.author = "<Git username>"
+    icmTeam="<icmteam>" 
+    icmService="<icmservice>"
+    feedbackEmail="<email address of author>"
+    productPesIds = "<product sap id eg:17d72dfc-8f48-94cb-05e6-5f88efdf72d7>"
+    selfHelpType = "supportTopicDescription"
+    articleId = "<product name>-supporttopicdescription"
+    cloudEnvironments = "public,BlackForest, Fairfax, MoonCake" 
+     ownershipId=""
+    />
+
+# Support topic description for Azure Backup
+
+---
+
+{
+    "shortDescription": "",
+    "longDescription": "",
+    "productLink1": "",
+    "productLink2": "",
+    "productLink3": "",
+    "SupportTopics": [
+        {
+            "id": "SAP ID of L2/L3",
+            "shortDescription": "",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": ""
+        },
+        {
+            "id": "SAP ID of L2/L3",
+            "shortDescription": "",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": ""
+        },
+        {
+            "id": "SAP ID of L2/L3",
+            "shortDescription": "",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": ""
+        },
+        {
+            "id": "SAP ID of L2/L3",
+            "shortDescription": "",
+            "category": "",
+            "searchTags": "",
+            "useInDiagnoseAndSolve": ""
+        }
+    ],
+    "$schema": "SelfHelpContent"
+}
+---
+       

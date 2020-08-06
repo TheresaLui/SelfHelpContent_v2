@@ -9,31 +9,36 @@
 	selfHelpType="generic"
 	supportTopicIds="32628270"
 	resourceTags="linux, redhat, Ubuntu"
-	productPesIds="16342,15571,15797,16454"
-	cloudEnvironments="public"
+	productPesIds="16342,15571,15797,16454,16470"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="59d5ee22-322d-4b0e-9d2b-fe07bdc1442f"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Diagnose and resolve Linux Virtual Machine sizing issues
 
-Try the following steps to diagnose and mitigate VM sizing issues.<br>
+## **Awareness**
+
+>We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
 
 ## **Recommended Steps**
 
-1. **Did you know Performance diagnostics can help you analyze performance on your VM?** **For Linux virtual machines, you can [download PerfInsights](https://aka.ms/perfinsightslinux) and run it on your virtual machine.** To ensure a speedy resolution, provide us the PerfInsights logs if you create a support case. [Learn more](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/performance-diagnostics)
-2. Review operating system level metrics such as CPU, memory usage, IO, and network to see if any resource has consistently high utilization.<br>
+>If you are experiencing allocation failures in **UAE North**, please try alternate regions (as first preference) or alternate SKUs.<br>
 
-	* Use commands such as Top, VmStat, Lsof, and Tcpdump.<br>
+For general troubleshooting, please follow these guides:<br>
 
-3. [Enable diagnostics, monitor, identify and remediate issues with Azure VMs and storage](https://support.microsoft.com/help/3150851/generic-performance-troubleshooting-for-azure-virtual-machine-running)<br>
-4. Review the different VM types in Azure, to resize click 'Size' in the Settings blade of the VM resource. 
-* [Azure Virtual Machine Sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes)
-* [General purpose VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-general)
-* [Compute optimized VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-compute)
-* [Memory optimized VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-memory)
-* [Storage optimized VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-storage)
-* [GPU VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-gpu)
-* [High performance compute VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-hpc)
+1. Understand your specific error ([SkuNotAvailable](https://docs.microsoft.com/azure/azure-resource-manager/templates/error-sku-not-available), [Quota Limit](https://docs.microsoft.com/azure/azure-resource-manager/templates/error-resource-quota), or [Allocation Failure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure))<br>
+2. Deploy to another region<br>
+3. Use another size in the given region ([Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm) or [Resize a Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/change-vm-size))<br>
+4. Review the different VM types in Azure. To resize, click 'Size' in the Settings blade of the VM resource.
+
+    * [Azure Virtual Machine Sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes)
+    * [General purpose VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-general)
+    * [Compute optimized VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-compute)
+    * [Memory optimized VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-memory)
+    * [Storage optimized VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-storage)
+    * [GPU VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-gpu)
+    * [High performance compute VM sizes](https://docs.microsoft.com/azure/virtual-machines/linux/sizes-hpc)
 
 ## **Recommended Documents**
 

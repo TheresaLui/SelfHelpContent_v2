@@ -10,8 +10,9 @@
 	supportTopicIds="32584255"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="867463"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # configurationandsetup/unabletoreachaport

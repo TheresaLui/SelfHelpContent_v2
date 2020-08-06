@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Managing firewall rules for Azure Database for PostgreSQL"
+    pageTitle="Managing firewall rules for Azure Database for PostgreSQL"  
     description="Managing firewall rules for Azure Database for PostgreSQL"
     service="microsoft.dbforpostgresql"
     resource="servers"
@@ -9,9 +9,10 @@
     selfHelpType="generic"
     supportTopicIds="32639980"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="5705595d-4b91-4fed-8a03-f71cb0f1dcc5"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Managing firewall rules for Azure Database for PostgreSQL
@@ -35,6 +36,11 @@ Most users are able to resolve their issue using the steps below.
   * Make sure you are signed in to the correct Azure account using **az login**
   * Ensure you are using the correct subscription, in case you have more than one
   * Specify all required parameters in **az postgres server firewall-rule** with valid values. Review the [Azure CLI PostgreSQL firewall rule](https://docs.microsoft.com/cli/azure/postgres/server/firewall-rule?view=azure-cli-latest) documentation for valid parameters.
+
+* If you are deploying firewall rules using ARM templates:
+
+  * Familiarize yourself with [Create Azure Database for PostgreSQL with multiple firewall rules](https://github.com/Azure/azure-postgresql/tree/master/arm-templates/ExampleWithFirewallRule) ARM template.
+  * If you are deploying or updating multiple server attributes which includes firewall rules, Virtual Network rules, server parameters or databases for a given server, make sure you are deploying these serially, in any order. Familiarize yourself with [Sample ARM templates](https://github.com/Azure/azure-postgresql/tree/master/arm-templates/ExampleWithMultipleServerProperties)
 
 ## **Recommended Documents**
 

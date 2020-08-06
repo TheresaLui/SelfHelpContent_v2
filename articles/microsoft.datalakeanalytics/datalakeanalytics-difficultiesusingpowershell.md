@@ -2,22 +2,23 @@
 	pageTitle="Difficulties using Azure Data Lake PowerShell extensions"
 	description="Difficulties using Azure Data Lake PowerShell extensions"
 	service="Microsoft.DataLakeAnalytics"
-	resource="datalake"
+	resource="accounts"
 	ms.author="guyhay"
 	authoralias="guyhay"
 	authors="guyhay"
-	displayOrder="1"
+	displayOrder="10"
 	selfHelpType="resource"
 	supportTopicIds="32680653"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="datalakeanalytics-difficulties-using-powershell"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # Difficulties using Azure Data Lake PowerShell extensions
 
-You can use the PowerShell extensios for Azure Data Lake to operate ADL jobs, accounts, data sources, and users.  You must have PowerShell installed on your workstation 
+You can use the PowerShell extensions for Azure Data Lake to operate ADL jobs, accounts, data sources, and users.  You must have PowerShell installed on your workstation 
 
 ## **Recommended Steps**
 

@@ -11,12 +11,17 @@
 	supportTopicIds="32628958"
 	resourceTags=""
 	productPesIds="15663"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ms.author="sidram"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # Billing and Pricing Information
-Azure Stream Analytics is priced by the number of streaming units required to process the data into the service. Each streaming unit providing is billed on an hourly basis. To learn more about pricing in Azure Stream Analytics, see the recommended documents.
+Azure Stream Analytics is priced by the number of streaming units (SUs) required to process the data into the service. Each streaming unit providing is billed on an hourly basis. 
+
+Once the SUs are allocated and job is started, you will be charged according to the pricing mode. There can be idle states where the job is running but not processing any data. Billing will still occur in these cases as your job has some amount of compute and memory resources allocated in the form of SUs.
+
+To learn more about pricing in Azure Stream Analytics, see the recommended documents.
 
 ## **Recommended Documents**
 

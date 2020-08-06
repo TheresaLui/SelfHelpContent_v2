@@ -12,7 +12,8 @@
     supportTopicIds="32447987"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Configuration Issue Causing Failure To Add Internal/External Members In Microsoft Teams

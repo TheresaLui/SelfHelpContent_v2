@@ -6,14 +6,16 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628256"
                 productPesIds="14749,15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0043"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Agent and extensions
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Azure Custom Script (CSE) extension issue",
     "fileAttachmentHint": "",
     "formElements": [
@@ -64,8 +66,75 @@
             "required": true
         },
         {
-            "id": "extension_agentinstalled",
+            "id": "extension_identity",
             "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Are you using an identity?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "System assigned",
+                    "text": "System assigned"
+                },
+                {
+                    "value": "User assigned",
+                    "text": "User assigned"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "extension_access",
+            "order": 5,
+            "visibility": "extension_identity != null && extension_identity != No",
+            "controlType": "dropdown",
+            "displayLabel": "Does the identity have access to the Azure Storage for the referenced script?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "I do not know",
+                    "text": "I do not know"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "extension_download",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "Are you having an issue downloading the script?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "Via public URI",
+                    "text": "Via public URI"
+                },
+                {
+                    "value": "via Azure Storage",
+                    "text": "via Azure Storage"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "extension_agentinstalled",
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Do you have the latest Azure VM Agent installed?",
             "watermarkText": "Choose an option",
@@ -87,7 +156,7 @@
         },
         {
             "id": "problem_description",
-            "order": 5,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "useAsAdditionalDetails": false,
@@ -95,7 +164,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 9,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true

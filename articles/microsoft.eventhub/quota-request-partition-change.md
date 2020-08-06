@@ -10,8 +10,9 @@
     supportTopicIds="32636955"
     resourceTags=""
     productPesIds="16125"
-    cloudEnvironments="public,BlackForest,Fairfax"
+    cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
     articleId="e7368895-6deb-4df2-a4f7-89b43b52d24f"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Request for Partition change

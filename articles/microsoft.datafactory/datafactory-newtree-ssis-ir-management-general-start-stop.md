@@ -6,15 +6,16 @@
 	authors="chinadragon0515"
 	ms.author="dashe"
 	articleId="datafactory-newtree-ssis-ir-management-general-start-stop.md"
-	displayOrder="8"
-	selfHelpType="resource"
+	displayOrder="9"
+	selfHelpType="generic"
 	supportTopicIds="32680895"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
-# Troubleshooting Azure-SSIS IR Management - General start and stop Issues
+# Azure-SSIS IR General start and stop Issues
 
 The ADF Portal can be used to check the result of Azure SSIS IR start and there is detail error message shows on the ADF portal. The start result can also be retrieved via Azure powershell command.
 
@@ -32,7 +33,7 @@ An Azure SQL Database server or managed instance is required if you're provision
 
 You might see this issue when you're provisioning a new SSIS IR or while IR is running. If you experience this error during IR provisioning, you might get a detailed SqlException message in the error message that indicates one of the following problems:
 
-* A network connection issue. Check whether the SQL Server or managed instance host name is accessible. Also verify that no firewall or network security group (NSG) is blocking SSIS IR access to the server.
+* A network connection issue. Check whether the SQL Server or managed instance hostname is accessible. Also verify that no firewall or network security group (NSG) is blocking SSIS IR access to the server.
 * Login failed during SQL authentication. The account provided can't sign in to the SQL Server database. Make sure you provide the correct user account.
 * Login failed during Microsoft Azure Active Directory (Azure AD) authentication (managed identity). Add the managed identity of your factory to an AAD group, and make sure the managed identity has access permissions to your catalog database server.
 * Connection timeout. This error is always caused by a security-related configuration. We recommend that you:

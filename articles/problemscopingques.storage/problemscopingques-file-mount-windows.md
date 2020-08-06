@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602765"
 	productPesIds="16460"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="bf5acf40-b1c1-4cd9-b96d-023163fbf5db"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Storage File Share mounting issues - Windows
 ---
@@ -102,35 +103,35 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "error5",
+                    "value": "win_error5",
                     "text": "System error 5 has occurred. Access is denied."
                 },
                 {
-                    "value": "error53",
+                    "value": "win_error53",
                     "text": "System error 53 has occurred. The network path was not found."
                 },
                 {
-                    "value": "error64",
+                    "value": "win_error64",
                     "text": "System error 64 has occurred. The specified network name is no longer available."
                 },
                 {
-                    "value": "error67",
+                    "value": "win_error67",
                     "text": "System error 67 has occurred. The network name cannot be found."
                 },
                 {
-                    "value": "error86",
+                    "value": "win_error86",
                     "text": "System error 86 has occurred. The specified network password is not correct."
                 },
                 {
-                    "value": "error87",
+                    "value": "win_error87",
                     "text": "System error 87 has occurred. The parameter is incorrect."
                 },
                 {
-                    "value": "error1816",
+                    "value": "win_error1816",
                     "text": "System error 1816 has occurred. Not enough quota is available to process this command."
                 },
                 {
-                    "value": "dont_know_answer",
+                    "value": "win_dont_know_answer",
                     "text": "Don't know or not listed above"
                 }
             ],
@@ -140,7 +141,7 @@
         {
             "id": "error_other",
             "order": 4,
-            "visibility": "mount_error == dont_know_answer",
+            "visibility": "mount_error == win_dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Error message",
             "watermarkText": "Error message received",

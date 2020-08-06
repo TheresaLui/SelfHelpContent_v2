@@ -10,21 +10,28 @@
     supportTopicIds="32629245"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-operator-adminportal"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Azure Stack Administration Portal
+# Azure Stack Administrator Portal
 
-There are two portals in Azure Stack: the administration portal and the user portal (sometimes referred to as the tenant portal). As an Azure Stack operator, you can use the administration portal for day-to-day management and operations of Azure Stack.
+To access the administrator portal, you only need to go the portal URL and sign in as an Azure Stack operator. Most support questions related to the Administrator portal are covered in the following steps. 
+
 
 ## **Recommended Steps**
 
-To access the administrator portal, browse to the portal URL and sign in by using the credentials of an Azure Stack operator.
+* For multi-node integrated systems, the portal address varies based on the region name and fully-qualified domain name (FQDN) of your Azure Stack deployment. It will match the pattern: `https://adminportal.<REGION>.<FQDN>`
+* Verify [DNS name resolution](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-dns) is working
+* Access to the Administrator portal requires allowing traffic through TCP port 443. For more information, see [Azure Stack firewall integration](https://docs.microsoft.com/azure-stack/operator/azure-stack-firewall) and [Publish Azure Stack Services](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-endpoints) 
+* If the portal is unavailable, and no type of patch, update, or field replacement is in progress, you can run the following command to remediate the problem:
 
-* For single-node ASDK environments, the admin portal is hosted at- `https://adminportal.local.azurestack.external`
-* For multi-node integrated systems, the portal address varies based on the region name and fully-qualified domain name (FQDN) of your Azure Stack deployment. It will match the pattern- `https://adminportal.<REGION>.<FQDN>`
-* Subscriptions are created by users in the user portal based on the plans and offers you create for them. However, the user portal doesn't provide access to any of the administrative or operational capabilities of the administration portal.
+  ```
+  Test-AzureStack -Repair -Include AzsPortalAPISummary
+  ```
+
+
 
 ## **Recommended Documents**
 

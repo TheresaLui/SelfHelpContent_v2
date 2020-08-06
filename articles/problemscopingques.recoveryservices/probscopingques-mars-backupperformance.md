@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553280"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="a0f92ce4-69a0-48c6-be51-670b7ddcfd16"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MARS backup performance
 ---
@@ -17,11 +18,6 @@
     "subscriptionRequired": false,
     "title": "MARS backup performance",
     "fileAttachmentHint": "",
-     "diagnosticCard": {
-        "title": "MARS backup performance",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "machine_name",
@@ -51,8 +47,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "agent_location",
@@ -117,7 +112,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "learn_more_text",

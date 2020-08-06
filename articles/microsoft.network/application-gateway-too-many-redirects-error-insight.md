@@ -11,8 +11,9 @@
     diagnosticScenario="ApplicationGatewayTooManyRedirectsError"
     supportTopicIds="32639115"
 	productPesIds="15922"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
- />
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Too many redirects error
 

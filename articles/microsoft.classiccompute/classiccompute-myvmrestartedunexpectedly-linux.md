@@ -1,17 +1,18 @@
 <properties
-	pageTitle="My VM restarted unexpectedly"
-	description="My VM restarted unexpectedly "
-	service="microsoft.classiccompute"
-	resource="virtualmachines"
-	authors="ScottAzure"
-	ms.author="scotro"
-	displayOrder="8"
-	selfHelpType="resource"
-	supportTopicIds="32593740,32628269,32628280,32628287"
-	resourceTags="linux,redhat,ubuntu"
-	productPesIds="15571,16342,15797,16454,16470"
-	cloudEnvironments="public"
-	articleId="cf085c22-540c-47ed-b869-98eec09214de"
+    pageTitle="My VM restarted unexpectedly"
+    description="My VM restarted unexpectedly "
+    service="microsoft.classiccompute"
+    resource="virtualmachines"
+    authors="ScottAzure"
+    ms.author="scotro"
+    displayOrder="8"
+    selfHelpType="resource"
+    supportTopicIds="32628269,32628280,32628287"
+    resourceTags="linux,redhat,ubuntu"
+    productPesIds="15571,16342,15797,16454,16470"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+    articleId="cf085c22-540c-47ed-b869-98eec09214de"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My VM restarted unexpectedly
@@ -27,9 +28,9 @@ The most common reasons for a VM restarting are Azure caused (planned/unplanned 
 
 ## **Recommended Documents**
 
-* [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)<br>
+* [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/service-health/resource-health-overview)<br>
 * [How to view VM reboot logs to identify the cause of reboot](https://azure.microsoft.com/blog/viewing-vm-reboot-logs)<br>
-* [Diagnose & recover from boot failures after a restart](https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2/)<br>
+* [Diagnose & recover from boot failures after a restart](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics)<br>
 * [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/linux/manage-availability)<br>
 * [Configure availability sets for virtual machines with Azure CLI](https://docs.microsoft.com/azure/virtual-machines/linux/tutorial-availability-sets)<br>
 * [Understand planned maintenance for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/linux/maintenance-and-updates)<br>

@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636957"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="eh-scale-dedicated-sku-request"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Request to scale up Event Hubs Dedicated Sku
 ---

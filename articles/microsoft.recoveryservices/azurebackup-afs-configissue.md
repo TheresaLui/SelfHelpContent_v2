@@ -10,8 +10,9 @@
 	supportTopicIds="32612212"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="dc9adca9-f7e2-4bba-94d7-4135382f28a5"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure File shares Backup Configuration Issue

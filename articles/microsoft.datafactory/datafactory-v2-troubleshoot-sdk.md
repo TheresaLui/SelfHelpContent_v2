@@ -5,13 +5,14 @@
     resource="factories"
     authors="samiranshah"
     ms.author="samirans"
-    displayOrder="8"
+    displayOrder="1"
     selfHelpType="resource"
-    supportTopicIds="32629444"
+    supportTopicIds="32629521"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="DataFactorySDKTroubleshooter"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 - Data Factory SDK

@@ -5,10 +5,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32134055"
     productPesIds="14785,16575"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleID="9f90a783-6756-40a9-8231-b754e048c31f"
-    />
+    	ownershipId="AzureIdentity_AppDevelopmentAndRegistration"
+/>
 
 # Problem with grpah API authentication
 

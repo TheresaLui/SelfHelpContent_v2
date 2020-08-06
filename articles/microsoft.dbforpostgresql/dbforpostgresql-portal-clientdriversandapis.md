@@ -9,9 +9,10 @@
     selfHelpType="generic"
     supportTopicIds="32639972"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="97d8ae39-61c1-4046-b1bb-f64f37742a9c"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Connecting to Azure Databases for PostgreSQL

@@ -10,8 +10,9 @@
 	supportTopicIds="32640628"
 	resourceTags=""
 	productPesIds="16469"
-	cloudEnvironments="public"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="NetAppConfigDelegateSubnetToNetAppRP"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Troubleshoot and resolve issue delegating subnet to NetApp Resource Provider 

@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32675689"
 	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="f9edd860-e767-1d4c-9221-5116896d16e1"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Azure SQL Database gateway IP addresses

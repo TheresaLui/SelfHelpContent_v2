@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32594870"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="d82a2f62-74a2-4e0f-9fc3-e81782434a1f"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions System State restore failure
 ---
@@ -52,7 +53,7 @@
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\MachineId",
             "watermarkText": "Paste MachineId here",
             "required": false
         },
@@ -61,7 +62,7 @@
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Provide the ResourceId:",
-            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\ResourceId",
             "watermarkText": "Paste ResourceId here",
             "required": false
         },

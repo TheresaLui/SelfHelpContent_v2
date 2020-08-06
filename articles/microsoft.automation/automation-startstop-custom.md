@@ -10,8 +10,9 @@
     supportTopicIds="32615221"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="01e5e79d-abe0-4560-b8b2-9ec9cbbd582a"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Start/Stop with Custom Runbook

@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633410"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="sb-dead-letter-errors"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Unexpected Message Dead Lettering
 ---

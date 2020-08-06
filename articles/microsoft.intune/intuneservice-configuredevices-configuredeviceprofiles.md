@@ -9,8 +9,9 @@
 	supportTopicIds="32599608"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="8513408e-896d-47f1-b4e3-6824e14fba59"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Configure Devices - Configure device profiles

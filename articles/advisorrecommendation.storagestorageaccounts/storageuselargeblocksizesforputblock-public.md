@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="70065997-d4d4-4671-baeb-39a2ac66e8ec_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Use larger block sizes for large block blob uploads
 ---

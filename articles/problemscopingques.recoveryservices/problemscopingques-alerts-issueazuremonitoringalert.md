@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632783"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	articleId="581fcaaa-2d8f-4897-8dba-20e19a78926e"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for Issue with Azure Monitoring alerts (rule based)
 ---

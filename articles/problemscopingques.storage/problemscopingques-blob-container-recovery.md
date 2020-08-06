@@ -6,13 +6,15 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602730"
 	productPesIds="16459"
-	cloudEnvironments="public"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="c5205999-f0e2-41c5-96d1-b711cd8498c2"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Recover deleted Blob Container
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Storage Blob Container recovery scoping question",
     "fileAttachmentHint": "",
@@ -49,19 +51,10 @@
             "required": true
         },
         {
-            "id": "problem_approx_time",
-            "order": 3,
-            "visibility": "recovery_option != by_time_period",
-            "controlType": "datetimepicker",
-            "displayLabel": "Approximate local time the Container was deleted",
-            "required": false
-        },
-        {
             "id": "problem_start_time",
-            "order": 4,
-            "visibility": "recovery_option == by_time_period",
+            "order": 3,
             "controlType": "datetimepicker",
-            "displayLabel": "Start time",
+            "displayLabel": "Local start time when container was deleted",
             "required": true
         },
         {
@@ -69,7 +62,7 @@
             "order": 5,
             "visibility": "recovery_option == by_time_period",
             "controlType": "datetimepicker",
-            "displayLabel": "End time",
+            "displayLabel": "Local end time when container was deleted (cannot be same as Local start time)",
             "required": true
         },
         {

@@ -9,8 +9,9 @@
 	supportTopicIds="32599673"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="d28e27ee-3fca-40bf-ba1b-cbe71d472a7f"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Apps - Selectively Wipe Apps

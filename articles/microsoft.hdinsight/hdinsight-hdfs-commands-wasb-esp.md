@@ -10,8 +10,9 @@
     supportTopicIds="32636508"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="221c44f3-d906-4638-8d94-7c0b8bb70dea"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsights HDFS commands do not work - WASB in cluster with Enterprise Security Package
@@ -22,3 +23,4 @@
 * [Common problems regarding to WASBS](https://hdinsight.github.io/hdfs/wasbs-common-problems-regarding-to-wasbs.html#common-problems-regarding-to-wasbs)
 * [Use Azure storage with Azure HDInsight clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-use-blob-storage)
 * [Use Azure Storage Shared Access Signatures to restrict access to data in HDInsight](https://docs.microsoft.com/azure/hdinsight/hdinsight-storage-sharedaccesssignature-permissions)
+* [FAQ:Azure HDInsight Security and Certificates](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq#security-and-certificates)

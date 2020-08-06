@@ -13,16 +13,21 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # One or more parameters in the storage request was out of range
 <!--issueDescription-->
-We found recently an **_OutOfRangeInput_** error (caused when one of the request parameter is out of range) at **<!--$CurrentTimestamp-->[CurrentTimestamp]<!--/$CurrentTimestamp-->** which may be of interest. Unfortunately, we couldn't find any requests resulting in **_OutOfRangeInput_** for the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** at **<!--$IssueTimestamp-->[IssueTimestamp]<!--/$IssueTimestamp-->**. Either the time period provided was incorrect, or it's beyond the retention period of storage logs.<br><br> Sample list of requests that failed:<br>**<!--$IpParameterErrorRequestUrl-->[IpParameterErrorRequestUrl]<!--/$IpParameterErrorRequestUrl-->** 
+We found recently an **OutOfRangeInput** error (caused when one of the request parameter is out of range) at **<!--$CurrentTimestamp-->[CurrentTimestamp]<!--/$CurrentTimestamp-->** which may be of interest. Unfortunately, we couldn't find any requests resulting in **OutOfRangeInput** for the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** at **<!--$IssueTimestamp-->[IssueTimestamp]<!--/$IssueTimestamp-->**. Either the time period provided was incorrect, or it's beyond the retention period of storage logs.
+
+Sample list of requests that failed:
+
+**<!--$IpParameterErrorRequestUrl-->[IpParameterErrorRequestUrl]<!--/$IpParameterErrorRequestUrl-->** 
+<!--/issueDescription-->
 
 There may be more failed requests. To get the exhaustive list, please see [storage analytics logs](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
-<!--/issueDescription-->
 
 Request parameters like api-version and date are a common cause of this error. 
 

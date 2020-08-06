@@ -6,15 +6,16 @@
 	authors="chinadragon0515"
 	ms.author="dashe"
 	articleId="datafactory-newtree-ssis-ir-management-customized-setup.md"
-	displayOrder="8"
-	selfHelpType="resource"
+	displayOrder="10"
+	selfHelpType="generic"
 	supportTopicIds="32680894"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
-# Troubleshooting Azure-SSIS IR Management - Customized Setup Issues
+# Azure-SSIS IR Customized Setup Issues
 
 The ADF Portal can be used to check the result of Azure SSIS IR start and there is detail error message shows on the ADF portal. The start result can also be retrieved via Azure powershell command.
 
@@ -42,7 +43,7 @@ This error means the execution of custom setup script (main.cmd) failed. Try the
 
 ### CustomSetupScriptTimeout
 
-This error indicates an execute custom setup script timeout. Make sure that your blob container contains only the necessary custom setup files. You should also check the custom setup execution logs in your blob container. The maximum period for custom setup is 45 minutes before it times out, and the maximum period includes the time to download all files from your container and install them on SSIS IR. If you need a longer period, raise a support ticket.
+This error indicates an execute custom setup script timeout. Make sure that your script can be executed silently, and no interactive input needed, and make sure your blob container contains only the necessary custom setup files. It is recommended to test the script on local machine first. You should also check the custom setup execution logs in your blob container. The maximum period for custom setup is 45 minutes before it times out, and the maximum period includes the time to download all files from your container and install them on SSIS IR. If you need a longer period, raise a support ticket.
 
 ### CustomSetupScriptLogUploadFailure
 

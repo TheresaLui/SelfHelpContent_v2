@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Exchanges and refunds for an Azure Reserved Instance"
-	description="Exchanges and refunds for an Azure Reserved Instance"
+	pageTitle="Cancel or change an existing reservation"
+	description="Cancel or change an existing reservation"
 	service="azure-billing"
 	resource="billing"
 	authors="prdasneo"
@@ -10,44 +10,56 @@
 	supportTopicIds="32593227"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="0f67df6b-5123-49f6-9ab8-ff5755ec54f4"
+	ownershipId="ASMS_Billing"
 />
 
-# Exchanges and refunds for an Azure Reserved Instance
+# Cancel or change an existing reservation
 
-### **Purchase a Reserved Instance**
+* **Self-service:** You can cancel or exchange a reserved instance yourself using [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade). Select the reservation and click on refund or exchange. Note that you must have owner access on the Reservation Order to exchange or refund. Access to only the Reservation will not let you proceed with refund or exchange. Ask the Reservation Order owner to give you owner access to the Reservation Order<br>
+* **Exchange policy:** You can exchange a reservation for another reservation of the same type – there are **no penalties** on reservation exchange. The total commitment with new reservation should be greater than the sum of exchanged reservation’s refund amount and the future monthly payments (if applicable)<br>
+* **Refund policy:** Sum of refund and the cancelled future payments cannot exceed $50,000 USD in a 12-month rolling window. We are **currently not charging any penalty** on refunds but could charge it on future refunds<br>
+** **Exceptions:** Self-service exchange and cancel capability isn't available for US Government Enterprise Agreement customers<br>
+* **API / PS / CLI** support is not available for cancellation and refunds [Self-service exchanges and refunds for Azure Reservations](https://docs.microsoft.com/azure/cost-management-billing/reservations/exchange-and-refund-azure-reservations)<br>
+* Self-service exchange and cancel capability isn't available for US Government Enterprise Agreement customers. Other US Government subscription types including Pay-As-You-Go and CSP are supported
 
-To buy a reservation, you must have a subscription owner role in an Enterprise (MS-AZR-0017P or MS-AZR-0148P) or Pay-As-You-Go subscription (MS-AZR-003P or MS-AZR-0023P). Cloud solution providers can use the Azure portal or [Partner Center](https://docs.microsoft.com/partner-center/azure-reservations) to purchase Azure Reservations.<br>
-Learn more, see [Azure Reservations](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)
+ Learn more : [How return and exchange transactions are processed](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#how-return-and-exchange-transactions-are-processed)<br> 
+ Learn more : [Exchange and Refund policies](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#exchange-policies)<br>
+Other questions: [Visit reserved instance docs](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)<br>
 
 ### **Exchange an existing reserved instance (Self-service)**
 
-You can exchange a reservation for another reservation of the same type. You can also refund a reservation, up to $50,000 USD per year, if you no longer need it. Self-service exchange and cancel capability isn't available for US Government Enterprise Agreement customers. Other US Government subscription types including Pay-As-You-Go and CSP are supported. You must have owner access on the Reservation Order to exchange or refund an existing reservation
+You can exchange a reservation for another reservation of the same type. You can also refund a reservation, up to $50,000 USD per year, if you no longer need it. Self-service exchange and cancel capability isn't available for US Government Enterprise Agreement customers. Other US Government subscription types including Pay-As-You-Go and CSP are supported. You must have owner access on the Reservation Order to exchange or refund an existing reservation.<br>
 
-  1. Log in to your [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade). Select the reservations that you want to refund and click **Exchange**
-  2. Select the VM product that you want to purchase and type a quantity. Make sure that the new purchase total is more than the return total. [Determine the right size before you purchase](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances#determine-the-right-vm-size-before-you-buy)
-  3.Review and complete the transaction.
+The following steps will guide on the procedure to complete the transaction
+
+1. Log in to your [Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Reservations/ReservationsBrowseBlade). Select the reservations that you want to refund and click **Exchange**<br>
+2. Select the VM product that you want to purchase and type a quantity. Make sure that the new purchase total is more than the return total [Determine the right size before you purchase](https://docs.microsoft.com/azure/virtual-machines/windows/prepay-reserved-vm-instances#determine-the-right-vm-size-before-you-buy).<br>
+3. Review and complete the transaction
 
 ### **Refund for a reserved instance**
-To refund a reservation, go to **Reservation Details** and click **Refund**<br>
 
-Learn more : [How return and exchange transactions are processed](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#how-return-and-exchange-transactions-are-processed)<br>
-Learn more : [Exchange and Refund policies](https://docs.microsoft.com/azure/billing/billing-azure-reservations-self-service-exchange-and-refund#exchange-policies)<br>
+To refund a reservation, go to **Reservation Details** and click **Refund**
 
-### **Discounted subscription and offer types**
-Reservation discounts apply to the following eligible subscriptions and offer types. Resources that run in a subscription with other offer types don't receive the reservation discount.
+### **Pro-rated refund:**
 
-  1. Enterprise agreement (offer numbers: MS-AZR-0017P or MS-AZR-0148P)
-  2. Individual plans with pay-as-you-go rates (offer numbers: MS-AZR-0003P or MS-AZR-0023P)
-  3. CSP subscriptions<br>
+**Pro-ration and minimum requirement examples for refund and exchange**<br>
+Upfront reservation example:
+* You purchase a one-year term RI for $120 on January 1
+* On April 7th you want to refund or exchange this reservation
+* Since the reservation has been live for 97 days, you will get (1-97/365) * $120 back. (i.e. $88.1). There is currently no penalty on refunds
+* If exchanging, your new purchase should be greater than $88.1
+* There is no penalty on refunds currently
 
-Learn more on how discount is applied:
+**Billing plan reservation example:**
 
-  * [Reserved VM Instance](https://docs.microsoft.com/azure/billing/billing-understand-vm-reservation-charges)<br>
-  * [Cosmos DB](https://docs.microsoft.com/azure/billing/billing-understand-cosmosdb-reservation-charges)<br>
-  * [SQL Database](https://docs.microsoft.com/azure/billing/billing-understand-reservation-charges)<br>
-  * [SUSE Linux](https://docs.microsoft.com/azure/billing/billing-understand-suse-reservation-charges)<br>
+* You purchase a one-year term RI for $10 per month
+* On April 7th you want to refund or exchange this reservation
+* Since the last payment happened 7 days, you will get (1-7/31) * $10 back. (i.e. $7.74)
+* The future payments cancelled are $ 80. There is currently no penalty on refunds
+* This cancellation will deduct $87.74 from you’re the $50,000 refund limit
+* If exchanging, the total value of new purchase should be greater than $87.74 
 
 ## **Recommended Documents**
 

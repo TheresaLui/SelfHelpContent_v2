@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640083"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mysql-backuprestore-pointintime_restore"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Backup, Restore and Business Continuity - Point in Time Restore
 ---

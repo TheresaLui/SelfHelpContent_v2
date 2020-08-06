@@ -2,20 +2,23 @@
 	pageTitle="Scoping questions for Configuring custom domain names"
 	description="Configuring custom domain names"
 	service="microsoft.web"
-	authors="shrahman"
+	authors="shrahman, khaled-zayed"
+    ms.author="shrahman, khzayed"
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32440122"
 	productPesIds="14748"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="9314bc56-da73-49ab-951c-93cba03e0ab2"
+	ownershipId="Compute_AppService"
 />
 
 # Configuring custom domain names
 
 ---
 {
-    "resourceRequired": false,
+     "resourceRequired": false,
+    "subscriptionRequired": true,
     "formElements": [
         {
             "id": "problem_description",
@@ -24,21 +27,7 @@
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
             "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "hints": [
-                {
-                    "text": "What is the name of the App Service?"
-                },
-                {
-                    "text": "What is the custom domain?"
-                },
-                {
-                    "text": "Is this an App Service Domain or an externally hosted domain?"
-                },
-                {
-                    "text": "What error are you seeing and when are you seeing it?"
-                }
-            ]
+            "required": true
         },
         {
             "id": "problem_start_time",
@@ -46,7 +35,31 @@
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
-        }
+        },
+         {
+			"id": "3",
+			"order": 3,
+			"controlType": "dropdown",
+			"displayLabel": "Is this an App Service Domain or an externally hosted domain?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "App Service Domain",
+					"text": "App Service Domain"
+				}, {
+					"value": "Externally hosted domain",
+					"text": "Externally hosted domain"
+				}
+			],
+			"required": false
+		},
+        {
+			"id": "4",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "What is the custom domain?",
+			"watermarkText": "...",
+			"required": false
+		}
     ],
     "$schema": "SelfHelpContent"
 }

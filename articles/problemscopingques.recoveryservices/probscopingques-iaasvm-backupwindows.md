@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553277"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="8a6de52d-409f-4240-ba1c-1bd98e7cc819"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure VM backup failure for windows
 ---
@@ -17,31 +18,25 @@
     "subscriptionRequired": true,
     "title": "Azure VM backup failure for windows",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "Azure Virtual Machine backup failure diagnostics",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "vm_facing_issue",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Which virtual machine(s) is experiencing the problem?",
-            "watermarkText": "Enter the name of the virtual machine(s)",
+            "displayLabel": "Which virtual machine is experiencing the problem?",
+            "watermarkText": "Enter the name of the virtual machine",
 	    "dynamicDropdownOptions": {
-            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
-       	    "jTokenPath": "value",
-            "textProperty": "name",
-            "valueProperty": "id",
+            "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
+       	    "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "id",
             "textPropertyRegex": ".*",
 	    "defaultDropdownOptions": {
                 "value": "dont_know_answer",
                 "text": "Other, don't know or not applicable"
             }
 	    },
-            "required": false,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "jobID_Name",
@@ -59,27 +54,23 @@
             "watermarkText": "Select",
             "dropdownOptions": [
                 {
-                    "value": "VM Agent is unable to communicate with azure backup service",
+                    "value": "UserErrorGuestAgentStatusUnavailable",
                     "text": "VM Agent is unable to communicate with Azure Backup service"
                 },
                 {
-                    "value": "Could not communicate with the VM agent for snapshot status",
+                    "value": "GuestAgentSnapshotTaskStatusError",
                     "text": "Could not communicate with the VM agent for snapshot status"
                 },
                 {
-                    "value": "Snapshot operation failed due to no network connectivity on the virtual machine",
-                    "text": " Snapshot operation failed due to no network connectivity on the virtual machine"
+                    "value": "ExtensionSnapshotFailedNoNetwork",
+                    "text": "Snapshot operation failed due to no network connectivity"
                 },
                 {
-                    "value": "Could not copy the snapshot of the virtual machine...",
-                    "text": "Could not copy the snapshot of the virtual machine...."
+                    "value": "Could not copy the snapshot of the virtual machine",
+                    "text": "Could not copy the snapshot of the virtual machine"
                 },
                 {
-                    "value": "Could not communicate with the VM agent for snapshot status",
-                    "text": "Could not communicate with the VM agent for snapshot status"
-                },
-                {
-                    "value": "VM is in Failed Provisioning State",
+                    "value": "UserErrorVmProvisioningStateFailed",
                     "text": "VM is in Failed Provisioning State"
                 },
                 {
@@ -87,16 +78,11 @@
                     "text": "Currently Azure Backup does not support disk sizes greater than 1023GB"
                 },
                 {
-                    "value": "My error message is not listed here",
-                    "text": "My error message is not listed here"
-                },
-                {
                     "value": "dont_know_answer",
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "Basic_troubleshooting_multiselect",
@@ -136,8 +122,7 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_description",

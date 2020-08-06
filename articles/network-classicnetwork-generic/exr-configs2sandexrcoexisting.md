@@ -9,8 +9,9 @@
 	supportTopicIds="32609839"
 	resourceTags=""
 	productPesIds="15480"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="c83008b5-42a7-4adc-9fa7-7d3ef81b6726"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # How to configure ExpressRoute and site-to-site coexisting connections

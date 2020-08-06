@@ -6,12 +6,14 @@
 	authors="LianwMS"
 	ms.author="lianw"
 	articleId="datafactory-newtree-ssis-ir-pacakge-execution-data-connectivity-vnet.md"
+	displayOrder="13"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32680899"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Execute SSIS Package - Data Connectivity VNet Issues

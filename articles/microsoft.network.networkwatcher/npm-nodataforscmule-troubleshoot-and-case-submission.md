@@ -6,12 +6,13 @@
 	ms.author="vinigam"
 	authors="vinynigam"
 	displayOrder="6"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32606443"
 	resourceTags="optional"
 	productPesIds="16160"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="npm-nodataforscmule-troubleshoot-and-case-submission"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # No monitoring data in NPM for a specific rule

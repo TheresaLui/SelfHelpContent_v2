@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640062"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mysql-security-superuser_access"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Security - I need superuser access
 ---

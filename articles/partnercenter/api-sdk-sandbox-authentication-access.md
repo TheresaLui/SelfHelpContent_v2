@@ -10,11 +10,12 @@
 	articleId="api_sdk_sandbox_authentication_access"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635649"
+	supportTopicIds="32692580, 32692591, 32725822"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17002"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_API_and_Integration_Support"
 />
 
 # API authentication or access issues
@@ -24,5 +25,5 @@ Reference information about how Partner Center API and SDK authentication work a
 ## **Recommended Documents**
 
 * [Set up API access in Partner Center](https://docs.microsoft.com/partner-center/develop/set-up-api-access-in-partner-center) 
-* [Partner Center authentication](https://docs.microsoft.com/partner-center/develop/test-and-debug#troubleshooting-tips-for-common-rest-problems)
+* [Partner Center authentication](https://docs.microsoft.com/partner-center/develop/partner-center-authentication)
 	 

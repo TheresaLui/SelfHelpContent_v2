@@ -9,8 +9,9 @@
     supportTopicIds=""
     resourceTags="userandgroups_overview, userandgroups_user, userandgroups_group, directory_overview, directory_ad_connect"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="506a1887-4b13-48ed-a0f6-be029d7b5e72"
+	ownershipId="AzureIdentity_User"
 />
 
 # Synchronization issue with specific user, group or contact object

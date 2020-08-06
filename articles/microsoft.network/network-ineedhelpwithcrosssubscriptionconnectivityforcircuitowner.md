@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="64e9f068-e638-4c93-bd11-c34a5f8ddd1e"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # I need help with cross-subscription connectivity (for Circuit Owner)

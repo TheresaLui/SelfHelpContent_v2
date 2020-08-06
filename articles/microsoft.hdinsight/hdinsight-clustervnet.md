@@ -10,12 +10,13 @@
     supportTopicIds="32636507"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, mooncake"
+    cloudEnvironments="public, mooncake, Fairfax, usnat, ussec"
     articleId="bfa4e56c-3fbc-461d-a7d5-1e485b42932b"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight: Virtual Network
 
-## Common HDInsight VNET issues
+**Common HDInsight VNET issues**
 
 **I have created my cluster but forgot to add it to my VNet**
 
@@ -31,9 +32,27 @@ If you use either network security groups or user defined routes to control traf
 
 **Ensure you have the required ports open**
 
-If you plan to use a firewall, and access the cluster from outside on certain ports, you might need to allow traffic on those ports needed for your scenario. [Click here for the list of ports for specific services](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-port-settings-for-services).
+If you plan to use a firewall, and access the cluster from outside on certain ports, you might need to allow traffic on those ports needed for your scenario. [Click here for the list of ports for specific services](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-port-settings-for-services).
+
+**Error: HiveMetastoreSchemaInitializationFailedErrorCode**
+
+Solution: If you are using a custom Hive metastore, please run 'Hive Schema Tool' against your metastore to check for possible issues with metastore configuration. Also Check if Azure services or subnet is whitelisted in sql server firewall.
+
+**Error: Unable to connect to cluster management endpoint** 
+
+Solution: Ensure that the IPs in the the [Health and management services: All regions](https://docs.microsoft.com/azure/hdinsight/hdinsight-management-ip-addresses#health-and-management-services-all-regions) document have been whitelisted. To verify the configurations work, you can ping or [tracert](https://docs.microsoft.com/windows-server/administration/windows-commands/tracert) to the required IP addresses from an Azure Virtual Machine in the custom VNet to test whether the IP addresses are accessible from the virtual machines. If you are unable to access these IPs, it validates that your configured firewall is not allowing connections to the whitelisted IPs.
+
+**Error: Unable to connect to cluster**
+
+Possible Solution: If you are using user-defined routes (UDRs), you should specify a route and allow outbound traffic from the VNET to the above IPs with the next hop set to "Internet".
+
+Please review the following links for more information:
+* [HDInsight Controlling network traffic](https://docs.microsoft.com/azure/hdinsight/hdinsight-plan-virtual-network-deployment#networktraffic)
+* [HDInsight management IP addresses](https://docs.microsoft.com/azure/hdinsight/hdinsight-management-ip-addresses)
 
 ## **Recommended Documents**
 
+* [Connectivity and Virtual Networks FAQ](https://docs.microsoft.com/en-au/azure/hdinsight/hdinsight-faq#connectivity-and-virtual-networks)
 * [VNET and Networking](https://docs.microsoft.com/azure/hdinsight/hdinsight-extend-hadoop-virtual-network)
 * [Connect HDInsight to your on-premises network](https://docs.microsoft.com/azure/hdinsight/connect-on-premises-network#configure-the-virtual-network-to-use-the-custom-dns-server)
+* [Create Cluster Error Dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)

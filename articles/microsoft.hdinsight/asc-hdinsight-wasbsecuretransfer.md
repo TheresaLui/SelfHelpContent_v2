@@ -13,12 +13,14 @@
     supportTopicIds="32636430"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 We determined that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has a WASB storage account with secure transfer enabled breaking the cluster.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

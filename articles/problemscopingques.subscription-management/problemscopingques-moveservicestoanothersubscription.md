@@ -7,15 +7,16 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632956"
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Move Services to Another Subscription
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Move Services to Another Subscription",
     "fileAttachmentHint": "",
     "formElements": [

@@ -10,13 +10,18 @@
 	supportTopicIds="32628256"
 	resourceTags=""
 	productPesIds="15797,15571,16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="0f978043-20db-48ba-a5f7-e75b32083c75"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Azure Custom Script (CSE) extension issue
 
 4 out of 5 customers resolved their extension issue using the guides listed below.<br>
+
+A new version of Custom Script Extension is available at [GitHub CSE for Linux](https://github.com/Azure/custom-script-extension-linux). The new v2.0 version offers better reliability and wider Linux distro support.<br>
+
+Please consider switching your new deployments to use the new version (Microsoft.Azure.Extensions.CustomScript) instead. The new version is intended to be a drop-in replacement. Therefore, the migration is as easy as changing the name and version, you do not need to change your extension configuration.<br>
 
 ## **Recommended Steps**
 

@@ -4,16 +4,17 @@
 	infoBubbleText=""
 	service="microsoft.insights"
 	resource="scheduledqueryrules"
-	authors="snehithm, msvijayn"
-	ms.author="snmuvva, vinagara"
+	authors="yalavi"
+	ms.author="yalavi"
 	displayOrder="8"
 	articleId="insights-alertcrud-log-la"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629624,32612472"
+	supportTopicIds="32629624,32629674"
 	resourceTags=""
 	productPesIds="15454,15725"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_Alerts_LogSearchAlerts"
 />
 
 # I am having issues creating, editing, or deleting log alert rules
@@ -32,10 +33,10 @@ If you are running into issues while creating, editing, or deleting log alert ru
 
 2. Ensure that the various options for log alert rule have been configured:
 
-    * Configuring alert rules in Azure Monitor requires you to specify the resource, condition, action groups and alert details. Each of the section requires parameters and variables to be chosen, you can [view walk through on creating log alerts in Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log#managing-log-alerts-from-the-azure-portal) to understand each section and variable better. And set them correctly to allow alert rule creation without errors or issues.
+    * Configuring alert rules in Azure Monitor requires you to specify the resource, condition, action groups and alert details. Each of the section requires parameters and variables to be chosen, you can [view walkthrough on creating log alerts in Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log#managing-log-alerts-from-the-azure-portal) to understand each section and variable better. And set them correctly to allow alert rule creation without errors or issues.
     * Log alert rules which are invalid will get disabled by Azure Monitor. [Understand the reasons why alert would get disabled and how to its communicated](https://docs.microsoft.com/azure/azure-monitor/platform/alert-log-troubleshoot#log-alert-was-disabled). If your alert rule is disabled, it will be still available in Azure Monitor and [the rules can be managed or edited in Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log#view--manage-log-alerts-in-azure-portal).
 
-3. Hidden alert rules creation for billing can not be deleted:
+3. Hidden alert rules creation for billing cannot be deleted:
 
     * For billing of alerts created via legacy means, hidden pseudo alert rules are made on `microsoft.insights/scheduledqueryrules` as shown as `<WorkspaceName>|<savedSearchId>|<scheduleId>|<ActionId>` along with resource group and alert properties. To understand the need for these hidden alert rules and how to remove them, see article on [billing of log alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-unified-log#pricing-and-billing-of-log-alerts).
 

@@ -13,7 +13,8 @@
 	supportTopicIds="32673577"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 
 # Troubleshooting errors while migrating to Azure SQLDB

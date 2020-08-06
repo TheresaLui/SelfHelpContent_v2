@@ -13,7 +13,8 @@
     supportTopicIds="32411835"
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # VM boot error
 <!--issueDescription-->
@@ -39,14 +40,15 @@ To restore the connectivity to the VM, please follow the troubleshooting steps b
 
 6. Determine state of the SYSTEM hive:
 
-    a. If the hive fails to open with the following error, open a support case use the following error: Cannot Load C:\<path to hive>\SYSTEM: Error while loading the hive.
+    a. If the hive fails to open with the following error, open a support case use the following error: "Cannot Load C:\<path to hive>\SYSTEM: Error while loading the hive."
+    
     b. If the hive opens up with no issues then the hive may not have been closed properly. Proceed with the next step.
 
 7. Unload the SYSTEM hive
 8. At this time, you may want to enable Azure Serial Console. This will allow for quicker resolutions to issues in the future.  First identify the Boot partition and the Windows partition. If there is only one partition on the OS disk, this partition is the both the Boot partition and the Windows partition.
 
-    * The Windows partition contains a folder named "Windows," and this partition is larger than the others
-    * The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB.
+    * The Windows partition contains a folder named "Windows", and this partition is larger than the others
+    * The Boot partition contains a folder named "Boot". This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB.
 
 9. Run `bcdedit /store [Boot partition]:\boot\bcd /enum` as administrator and record the identifier of Windows Boot Loader (not Windows Boot Manager). The identifier is a 32-character code and it looks like this: `xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`. You will use this identifier in the next step.
 10. If you want to enable Azure Serial Console on this machine, then run these following extra flags:

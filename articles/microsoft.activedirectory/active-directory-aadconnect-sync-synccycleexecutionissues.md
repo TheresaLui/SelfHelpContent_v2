@@ -10,8 +10,9 @@
     supportTopicIds="32629805"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="8d6ad72d-004d-405b-ab2c-e9fa8ed83357"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Synchronization cycle execution issues

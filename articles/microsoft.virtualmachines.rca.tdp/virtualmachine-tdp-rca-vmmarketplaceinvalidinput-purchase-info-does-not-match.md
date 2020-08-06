@@ -5,6 +5,7 @@
 	service="microsoft.compute"
 	resource="virtualmachines"
 	authors="scottAzure"
+	ms.author="scotro"
 	displayOrder=""
 	articleId="DeploymentFailure_rca-vmmarketplaceinvalidinput-purchase-info-does-not-match"
 	diagnosticScenario="DeploymentFailure"
@@ -12,7 +13,8 @@
 	supportTopicIds="32411844"
 	resourceTags="windows, linux"
 	productPesIds="14749,15571"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 
@@ -29,12 +31,12 @@ A Marketplace image, or an image associated to a publisher, in Azure has the fol
 | SKU 					| An instance of an offer, such as a major release of a distribution. Examples: 16.04-LTS, 2016-Datacenter |
 |  Version 			|The version number of an image SKU|
 
-To view an image's purchase plan information, run  [*Get-AzureRMVMImage*](https://docs.microsoft.com/powershell/module/azurerm.compute/get-azurermvmimage)(PS) or [*az vm image show *](https://docs.microsoft.com/cli/azure/image#az_image_show)(CLI) to obtain the above properties.<br>
+To view an image's purchase plan information, run  [*Get-AzVMImage*](https://docs.microsoft.com/powershell/module/az.compute/get-azvmimage)(PS) or [*az vm image show *](https://docs.microsoft.com/cli/azure/image#az_image_show)(CLI) to obtain the above properties.<br>
 
 Example:<br>
 
 	$version = "2016.127.20170406"
-	Get-AzureRMVMImage -Location $locName -Publisher $pubName -Offer $offerName -Skus $skuName -Version $version
+	Get-AzVMImage -Location $locName -Publisher $pubName -Offer $offerName -Skus $skuName -Version $version
 
 Once the properties have been identified, validate  your configuration for the deployment and compare the results. Often, there is a typo or the plan no longer exists. When no longer existing, please reach out to the publisher support channel for assistance or select a new plan/image to deploy.<br>
 

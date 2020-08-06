@@ -2,17 +2,18 @@
 	pageTitle="Difficulties using Azure Data Lake SDK"
 	description="Difficulties using Azure Data Lake SDK"
 	service="Microsoft.DataLakeAnalytics"
-	resource="datalake"
+	resource="accounts"
 	ms.author="guyhay"
 	authoralias="guyhay"
 	authors="guyhay"
-	displayOrder="1"
+	displayOrder="19"
 	selfHelpType="resource"
 	supportTopicIds="32680646"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="datalakeanalytics-difficulties-using-adlsdk"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # Difficulties using Azure Data Lake SDK

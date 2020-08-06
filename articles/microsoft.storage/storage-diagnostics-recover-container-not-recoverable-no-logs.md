@@ -12,12 +12,14 @@ diagnosticScenario="Storage Blob Container(s) is not recoverable since no deleti
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Unable to recover Blob Container
-
-Microsoft Azure sincerely apologizes that we are unable to recover the following deleted blob container(s). 
+<!--issueDescription-->
+Microsoft Azure sincerely apologizes that we are unable to recover deleted blob container(s).
+<!--/issueDescription-->
 
 ### Blob container(s) does not exist
 The following blob container(s) in storage account _**<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**_ are not recoverable because we cannot find deletion log for them between **<!--$LogSearchStartTime-->[LogSearchStartTime]<!--/$LogSearchStartTime-->** and **<!--$LogSearchEndTime-->[LogSearchEndTime]<!--/$LogSearchEndTime-->**. Any container(s) that was deleted at an earlier time are also not recoverable. As part of our [data privacy guarantee](https://www.microsoft.com/TrustCenter/Privacy/default.aspx), we ensure that data deleted by our customer is eventually overwritten. These blob container(s) and all their contents were cleaned up after deletion and is no longer recoverable by Azure:<br>

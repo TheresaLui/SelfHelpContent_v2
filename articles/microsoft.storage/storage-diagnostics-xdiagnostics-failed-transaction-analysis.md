@@ -13,12 +13,13 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Failed Transactions
-
+<!--issueDescription-->
 Failed transactions have been detected for **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**:
 
 **<!--$AADescription-->[AADescription]<!--/$AADescription-->**
-
+<!--/issueDescription-->

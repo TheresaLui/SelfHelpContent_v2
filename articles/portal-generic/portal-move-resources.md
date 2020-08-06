@@ -10,8 +10,9 @@
 	supportTopicIds="32628246"
 	resourceTags=""
 	productPesIds="15739"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="5e36557d-f24d-43ce-971e-1b80a65645be"
+	ownershipId="Compute_AzurePortal"
 />
 
 # Azure Portal

@@ -10,9 +10,10 @@
     supportTopicIds="32640119"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="50905891-e140-4f61-a758-41493777c12d"
-    />
+    	ownershipId="AzureData_AzureDatabaseforMariaDB"
+/>
 
 # Error while scaling a resource in Azure Database for MariaDB
 
@@ -24,8 +25,7 @@ Most users are able to resolve their issue using the steps below.
 
 * Not able to scale from Basic to General Purpose/Memory Optimized service tiers and vice-versa:
 
-    * In case you want to migrate from Basic to General purpose/Memory Optimized and vice-versa, you can take a database dump of your Basic tier MariaDB database, recreate the server in General Purpose/Memory Optimized and then load the database dump and vice-versa.
-
+    * If you want to switch from Basic to General Purpose or Memory Optimized and vice-versa, please follow the steps in [Upgrade from Basic to General Purpose or Memory Optimized tiers in Azure Database for MariaDB](https://techcommunity.microsoft.com/t5/Azure-Database-for-MySQL/Upgrade-from-Basic-to-General-Purpose-or-Memory-Optimized-tiers/ba-p/830404) blog
 
 * Connections are dropped and no new connections can be established while vCores are scaled:
 
@@ -34,6 +34,8 @@ Most users are able to resolve their issue using the steps below.
 * Cannot scale up the master server when a replica exists, or cannot scale down a replica:
 
     * Before a master server configuration is updated to new values, update the replica configuration to equal or greater values. This action ensures the replica can keep up with any changes made to the master.
+
+* The Azure Monitor auto-scale feature is not supported in Azure Database for MariaDB
 
 ## **Recommended Documents**
 

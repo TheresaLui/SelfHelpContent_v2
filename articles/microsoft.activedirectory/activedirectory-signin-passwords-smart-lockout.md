@@ -10,9 +10,10 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="29e952b2-6c23-47a3-81ff-4540e447627e"
-     />
+     	ownershipId="AzureIdentity_MultiFactorAuthentication"
+/>
 
 # Azure AD Password Protection – Smart lockout
 

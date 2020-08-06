@@ -5,6 +5,7 @@ infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="jeffpatt"
+ms.author="passap"
 displayOrder=""
 articleId="FileSync_RecallVolumeHigh"
 diagnosticScenario="health_diagnostic"
@@ -12,14 +13,15 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # One of more Azure File Sync servers have recalled a large amount of data. 
 
 <!--issueDescription-->
 The following server(s) under the Storage Sync Service **<!--$StorageSyncServiceName-->[StorageSyncServiceName]<!--/$StorageSyncServiceName-->** have recalled a large amount of data in the time window from **<!--$startTime-->[startTime]<!--/$startTime-->** to **<!--$endTime-->[endTime]<!--/$endTime-->**. Below is the list of servers with high recall volume in GB: <br><!--$ServerNameList-->[ServerNameList]<!--/$ServerNameList-->.
-<br/>
+
 If the recall activity is not expected, follow the guidance in the recommended steps section.
 <!--/issueDescription-->
 

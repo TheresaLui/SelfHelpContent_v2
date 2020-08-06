@@ -12,7 +12,8 @@ diagnosticScenario="Archive tier is NOT available in the regoing of this storage
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Archive tier is not available in <!--$ResourceRegion-->[ResourceRegion]<!--/$ResourceRegion--> region

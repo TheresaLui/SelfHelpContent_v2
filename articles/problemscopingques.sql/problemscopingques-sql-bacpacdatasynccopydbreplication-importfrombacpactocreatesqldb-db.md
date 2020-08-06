@@ -6,16 +6,18 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630430"
 	productPesIds="13491"
-	cloudEnvironments="Public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-sql-bacpacdatasynccopydbreplication-importfrombacpactocreatesqldb-db"
+	ownershipId="AzureData_AzureSQLDB_ImportExport"
 />
 # Import from BACPAC to create SQL DB
 ---
 {
-	"resourceRequired": true,
-	"subscriptionRequired": true,
-    "formElements": [
+	"$schema": "SelfHelpContent",
+	"resourceRequired": false,
+	"subscriptionRequired": false,
+	"formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
@@ -72,7 +74,6 @@
             "useAsAdditionalDetails": true,
             "watermarkText": "Please provide the full error that you are seeing or explain your issue in detail.If available, please attach any relevant screenshots and scripts that you have used."
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---

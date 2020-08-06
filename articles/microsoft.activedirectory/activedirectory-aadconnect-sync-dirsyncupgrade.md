@@ -9,8 +9,9 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="a4c281dd-514f-4398-8ef4-54c451d70b53"
+	ownershipId="AzureIdentity_User"
 />
 
 # How to upgrade DirSync to Azure AD Connect

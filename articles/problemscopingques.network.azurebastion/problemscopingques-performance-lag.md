@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32641419"
 	productPesIds="16757"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureBastion"
 />
 # Have a lag while using my RDP or SSH session
 ---

@@ -13,7 +13,8 @@
 	supportTopicIds="32631236"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Azure Account Failover Error

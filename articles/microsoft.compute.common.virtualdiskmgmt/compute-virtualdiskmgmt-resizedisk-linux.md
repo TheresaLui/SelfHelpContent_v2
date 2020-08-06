@@ -10,8 +10,9 @@
 	supportTopicIds="32632142"
 	resourceTags=""
 	productPesIds="15571,15797,16470,16454"
-	cloudEnvironments="public"
-	articleId="compute-virtualdiskmgmt-resizedisk-linux"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	articleId="b9eb1036-325b-40aa-b5fe-d2a55fd25848"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Resolving issues with VM Disk Management
@@ -22,6 +23,7 @@
 
 * [How to expand the disk of a Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/expand-disks)<br>
 * [Resize a Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/change-vm-size)<br>
+* [Downsizing or shrinking a VM disk is not supported](https://docs.microsoft.com/azure/virtual-machines/windows/faq-for-disks)<br>
 * [Convert between Standard and Premium storage for a disk](https://docs.microsoft.com/azure/virtual-machines/linux/convert-disk-storage)<br>
 * [What VMs are supported for Premium Storage (SSD)?](https://docs.microsoft.com/azure/virtual-machines/linux/premium-storage#supported-vms)<br>
 * [Expand a volume in Linux](https://docs.microsoft.com/azure/virtual-machines/linux/expand-disks#expand-a-disk-partition-and-filesystem)<br>

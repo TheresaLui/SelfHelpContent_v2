@@ -5,13 +5,15 @@
 	service="microsoft.storage"
 	resource="storage"
 	authors="Passaree"
+	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32602720"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="6c4aca2a-1807-4e65-a56e-c6c8d847468a"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Upgrade to Azure Storage Account V2

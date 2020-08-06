@@ -5,13 +5,14 @@
     resource="servers"
     authors="saltug,happynicolle"
     ms.author="saltug,nicw"
-    supportTopicIds="32635201, 32635207, 32635224"
+    supportTopicIds="32635201, 32635207"
     productPesIds="15818"
     displayOrder="70"
     selfHelpType="resource"
     resourceTags="datawarehouse"
     articleId="dw-backuprestoreandbusinesscontinuity.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # How to recover from a backup and data protection

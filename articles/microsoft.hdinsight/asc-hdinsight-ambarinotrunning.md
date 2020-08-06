@@ -10,10 +10,11 @@
     articleId="Hdi_Ambari_ServerNotRunning"
     diagnosticScenario="HDInsightAmbariServerNotRunningInsight"
     selfHelpType="diagnostics"
-    supportTopicIds="32628984, 32629005, 32629006, 32636436, 32636437"
+    supportTopicIds="32636419"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Ambari Service is not running

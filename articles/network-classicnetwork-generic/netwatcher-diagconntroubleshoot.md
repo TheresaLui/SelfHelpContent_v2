@@ -9,8 +9,9 @@ description="diagnostictools/connectiontroubleshoot"
 	supportTopicIds="32606429"
 	resourceTags=""
 	productPesIds="16160"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="fda515b3-8c87-439b-a9aa-be36aba6aaa7"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # diagnostictools/connectiontroubleshoot

@@ -6,15 +6,16 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628260"
                 productPesIds="14749,15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0011"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Start or Stop My VM
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "I am unable to resize my VM",
     "fileAttachmentHint": "",
     "formElements": [

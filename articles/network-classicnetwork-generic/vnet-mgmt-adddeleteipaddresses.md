@@ -10,8 +10,9 @@
 	supportTopicIds="32584248"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="a8d8b692-36e7-450b-93bd-c9270358a688"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # management/addordeleteipaddressestoavnet

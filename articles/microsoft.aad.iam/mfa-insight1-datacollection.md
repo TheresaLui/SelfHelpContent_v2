@@ -4,18 +4,20 @@
     authors="arupela"
     ms.author="arupela"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32615399,32615515,32615516,32615400,32615519,32630265"
+    supportTopicIds="32615400"
     productPesIds="16579"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="mfa-insight1-datacollection"
-    />
+    ownershipId="AzureIdentity_MultiFactorAuthentication"
+/>
 
 # Azure Active Directory Sign-In and Multi-Factor Authentication
 
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Azure Active Directory Sign-In and Multi-Factor Authentication",
     "fileAttachmentHint": null,
     "formElements": [

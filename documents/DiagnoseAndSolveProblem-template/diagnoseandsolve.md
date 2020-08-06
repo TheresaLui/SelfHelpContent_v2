@@ -3,7 +3,6 @@ pageTitle="Top common problems for "
 description="Menu based workflow document for top compute problems"        
 service=""
 resource=""
-authors=""
 ms.author=""
 displayOrder=""
 articleId=""
@@ -11,6 +10,7 @@ selfHelpType=""
 resourceTags=""
 productPesIds=""
 cloudEnvironments=""
+ownershipId=""
 />
 # Diagnose and solve v2 sample article 
 ---

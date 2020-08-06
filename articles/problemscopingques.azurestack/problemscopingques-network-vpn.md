@@ -1,12 +1,13 @@
 <properties
     pageTitle="Azure Stack Network for User Environment - VPN"
     description="Azure Stack Network for User Environment - VPN"
-    authors="genlin"
-    ms.author="prchint"
+    authors="alexsmithMSFT"
+    ms.author="alexsmit, mquian, v-miegge"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32629282"
     productPesIds="16226"
-    cloudEnvironments="public"
+    ownershipId="StorageMediaEdge_AzureStack_Hub"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="8ccb2fde-7000-4e97-b711-4b07ac45db50"
 />
@@ -70,43 +71,23 @@
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Current Patch Level",
-            "watermarkText": "Example: 1903 if your build number is 1.1903.0.35.",
+            "watermarkText": "Example: 2002 if your build number is 1.2002.0.35.",
             "dropdownOptions": [
+                {
+                    "value": "2002",
+                    "text": "2002"
+                },
+                {
+                    "value": "1910",
+                    "text": "1910"
+                },
+                {
+                    "value": "1908",
+                    "text": "1908"
+                },
                 {
                     "value": "1907",
                     "text": "1907"
-                },
-                {
-                    "value": "1906",
-                    "text": "1906"
-                },
-                {
-                    "value": "1905",
-                    "text": "1905"
-                },
-                {
-                    "value": "1904",
-                    "text": "1904"
-                },
-                {
-                    "value": "1903",
-                    "text": "1903"
-                },
-                {
-                    "value": "1902",
-                    "text": "1902"
-                },
-                {
-                    "value": "1901",
-                    "text": "1901"
-                },
-                {
-                    "value": "1811",
-                    "text": "1811"
-                },
-                {
-                    "value": "1809",
-                    "text": "1809"
                 },
                 {
                     "value": "Other",
@@ -123,11 +104,41 @@
             "displayLabel": "Current Build Number",
             "watermarkText": "Example: 1.1903.0.35",
             "required": false,
-            "infoBalloonText": "Includes hotfixes. See steps to <a href='https://docs.microsoft.com/azure/azure-stack/azure-stack-updates#determine-the-current-version'>Determine the Current Version</a>"
+            "infoBalloonText": "Includes hotfixes. Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-apply-updates#determine-the-current-version'>determine the current build number</a>"
+        },
+        {
+            "id": "connected_deployment",
+            "visibility": "patch_level == 2002",
+            "order": 4,
+            "controlType": "dropdown",
+            "displayLabel": "Can Azure Stack Hub connect to Azure?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [{
+                    "value": "Yes",
+                    "text": "Yes"
+                },{
+                    "value": "No",
+                    "text": "No"
+                },{
+                    "value": "dont_know_answer",
+                    "text": "Unsure"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "cloud_id",
+            "visibility": "connected_deployment == Yes",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Enter your the Stamp Cloud ID",
+            "watermarkText": "Enter the Stamp Cloud ID",
+            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
+            "required": true
         },
         {
             "id": "region_name",
-            "order": 4,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "Region Name",
             "watermarkText": "Name of your Azure Stack region",
@@ -136,7 +147,7 @@
         },
         {
             "id": "tenant_impact",
-            "order": 5,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "Availability of running tenant applications impacted",
             "watermarkText": "Tenant impact",
@@ -155,7 +166,7 @@
         },
         {
             "id": "s2s_status",
-            "order": 6,
+            "order": 8,
             "controlType": "dropdown",
             "displayLabel": "What is the status of the Site-to-Site VPN gateway connection?",
             "watermarkText": "Connection status",
@@ -177,7 +188,7 @@
         },
         {
             "id": "issue_resource",
-            "order": 7,
+            "order": 9,
             "controlType": "dropdown",
             "displayLabel": "Is there a issue when you connect to a resource by using the Site-to-Site VPN?",
             "watermarkText": "Choose a option",
@@ -195,7 +206,7 @@
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "On-premises VPN device configuration",
             "watermarkText": "Provide details about your local VPN device",

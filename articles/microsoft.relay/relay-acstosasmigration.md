@@ -9,8 +9,9 @@
 	supportTopicIds="32609204"
 	resourceTags=""
 	productPesIds="16123"
-	cloudEnvironments="public,BlackForest,Fairfax"
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
 	articleId="3c4941d8-3312-419e-8e30-fa62367779fa"
+	ownershipId="AzureMessaging_Common"
 />
 
 # ACS to SAS migration

@@ -10,8 +10,9 @@
     supportTopicIds="32640111"
     resourceTags="servers, databases"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec" 
     articleId="5c807c9b-3605-4ec4-8942-feed80629bc0"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # Manage the Azure Database for MariaDB using ARM Templates
@@ -22,17 +23,15 @@ Most users are able to resolve their issue using the steps below.
 
 ## **Recommended Steps**
 
-* To familiarize yourself with Azure Resource Manager templates, create a sample template by clicking on **Export Template** in the portal for an existing Azure Database for MariaDB
-
 * If your deployment is failing:
     
-    * Make sure your the server name is globally unique
-    * Required parameters are set and valid. See the [Azure Database for MariaDB REST API](https://docs.microsoft.com/rest/api/mariadb) to understand the valid values of the parameters.
-  
+  * If you are creating a new server, make sure your the server name is globally unique
+  * If you are deploying or updating multiple server attributes which includes firewall rules, Virtual Network rules, server parameters or databases for a given server, make sure you are deploying these serially, in any order. Familiarize yourself with [Sample ARM templates](https://github.com/Azure/azure-mariadb/tree/master/arm-templates/ExampleWithMultipleServerProperties)
+  * Required parameters are set and valid. See the [Azure Database for MariaDB REST API](https://docs.microsoft.com/rest/api/mariadb) to understand the valid values of the parameters.
 * Poll the status of the operation after you issues the request. Most operations are asynchronous and can take a few minutes to complete.
 
 ## **Recommended Documents**
 
-* [Azure Database for MariaDB](https://docs.microsoft.com/azure/mariadb/)<br>
-* [Rest API for MariaDB](https://docs.microsoft.com/rest/api/mariadb/)<br>
-* [Resource types and versions](https://docs.microsoft.com/azure/templates/microsoft.dbformariadb/allversions)
+* [Create databases in Azure Database for MariaDB](https://github.com/Azure/azure-mariadb/tree/master/arm-templates/ExampleWithDatabase)<br>
+* [Deploy Azure Database for MariaDB with CanNotDelete lock](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithLocks)<br>
+* [Create Azure Database for MariaDB with multiple firewall rules](https://github.com/Azure/azure-mariadb/tree/master/arm-templates/ExampleWithFirewallRule)

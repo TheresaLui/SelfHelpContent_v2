@@ -7,16 +7,26 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32636049"
+    supportTopicIds="32730234"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="public"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     articleId="5a12fb4f-fc19-4cb6-834b-6cc5851a8172"
+    ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Permission error message from Policy
 
 ## **Recommended Steps**
+
+* **Denied by Policy**
+
+When you are denied by a policy, the error message will give the policy definition and assignment ID. Please use that ID to get more information from within Policy. If you did not get the ID in the error message, you can refer to the activity log to get that information.
+
+* **Required Roles**
+
+To create, update, or delete a Policy definition or assignment, you must have Owner or Policy Contributor role.
+To view compliance details, you must have reader role.
 
 * **Getting the following error on assignment at root Management Group: The current subscription type is not permitted to perform operations on any provider namespace. Please use a different subscription.**
 

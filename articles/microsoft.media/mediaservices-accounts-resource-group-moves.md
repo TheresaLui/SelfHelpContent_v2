@@ -13,7 +13,8 @@
 	supportTopicIds="32632118"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Azure Media Services resource group moves

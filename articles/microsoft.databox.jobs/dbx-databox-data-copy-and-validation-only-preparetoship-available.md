@@ -11,8 +11,9 @@
 	supportTopicIds="32639197"
 	resourceTags=""
 	productPesIds="16505"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
     	articleId="32639197"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box - Data copy and validation

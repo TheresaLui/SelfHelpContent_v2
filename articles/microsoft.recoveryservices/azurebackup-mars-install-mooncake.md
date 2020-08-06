@@ -6,12 +6,13 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="27"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="azurebackup-mars-install-mooncake"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Azure Recovery Services Agent installation or registration issues

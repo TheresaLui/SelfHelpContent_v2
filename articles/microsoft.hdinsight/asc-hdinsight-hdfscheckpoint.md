@@ -10,15 +10,17 @@
     articleId="Hdi_Health_Checkpoint"
     diagnosticScenario="HDInsightHdfsCheckpointInsight"
     selfHelpType="rca"
-    supportTopicIds="32628986, 32629101, 32636418, 32636425"
+    supportTopicIds="32636425"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> checkpoint error
-
+<!--issueDescription-->
 The HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> is currently suffering from HDFS checkpoint error. 
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

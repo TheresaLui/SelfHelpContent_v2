@@ -10,15 +10,24 @@
 	supportTopicIds="32632953"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake, usnat, ussec"
 	articleId="accessandresourcemanagementissuessigninginoraccessingmysubscription"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # issues signing in or accessing my subscription
 
-### Unable to Sign-in Azure due to browser issues (Browser hangs, keeps spinning, does not load, etc.)
+### **Awareness**
+If you are experiencing location constraint, please try alternate regions (as first preference) since the location might not be available at this unprecedented time. Please review our [commitment to customers and Microsoft Cloud Services continuity](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/) for more details about this capacity constraint. For additional questions about this, contact support by selecting the below path only:<br>
 
-* You might be impacted by an outage. Please check to see if there is an ongoing outage: [Azure Health Status](https://azure.microsoft.com/status/history/)<br>
+* **Issue type**: Service and subscription limits (quotas)
+* **Quota type**: Compute-VM (cores-vCPUs) subscription limit increases
+
+## Recommended Steps
+
+### **Unable to Sign-in Azure due to browser issues (Browser hangs, keeps spinning, does not load, etc.)**
+
+* You might be impacted by an outage. Please check to see if there is an ongoing outage: [Azure Health Status](https://status.azure.com/status/history/)<br>
 * Please log out of all the active azure sessions. Follow the below steps [here](http://www.thewindowsclub.com/launch-start-private-browsing) for in- Private session of the internet explorer, if using google chrome please use the incognito mode of the browsing<br>
 * You could also try to Refresh browser, use another browser, delete cache cookies if above doesn't work<br>
 	
@@ -36,6 +45,11 @@ Learn more: [Troubleshoot No Subscriptions found](https://docs.microsoft.com/azu
 * The account admin needs to make sure the user accessing the billing information is added in the Azure Active directory as a guest user: [Add or delete a new user](https://docs.microsoft.com/azure/active-directory/fundamentals/add-users-azure-active-directory)<br>
 * The user then needs to be given a Global admin role: [Assign role to users](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)<br>
 * Post this, the user can be given billing access using RBAC policies: [Grant access to billing](https://docs.microsoft.com/azure/billing/billing-manage-access)<br>
+
+The **Azure Free Account** offer includes $200 of Azure credits (to be used within the first 30 days of sign-up) and 12 months of select free services (subject to change).
+This offer is limited to one enrollment per eligible customer and cannot be combined with any other offer unless otherwise permitted by Microsoft.<br>
+Within 30 days of sign-up or upon exhaustion of the customer’s credits (whichever occurs first), the customer must upgrade to a Pay-As-You-Go account by removing the Spending Limit. This allows continued use of the Azure Free Account for the remaining 11 months. After the customer has upgraded, usage outside the initial credits and select free services will be billed at Pay-As-You-Go rates. If the customer elects not to upgrade, the Free Account subscription will be disabled.<br>
+Learn more : [Products available monthly for free under Azure free account](https://azure.microsoft.com/free/free-account-faq/)
 
 ## **Recommended Documents**
 

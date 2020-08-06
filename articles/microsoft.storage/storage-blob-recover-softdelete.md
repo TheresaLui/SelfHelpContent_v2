@@ -5,13 +5,15 @@
 	service="microsoft.storage"
 	resource="storage"
 	authors="Passaree"
+	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32608637"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="d7c6e609-d580-4502-a4ed-32c2303578b1"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Recover deleted Blob with soft delete

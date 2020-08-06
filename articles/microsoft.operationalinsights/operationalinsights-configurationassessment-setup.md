@@ -10,8 +10,9 @@
     supportTopicIds="32536663"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="f421e136-31c1-4b2e-8539-3fa91f099c7b"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # configurationassessment-setup

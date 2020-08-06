@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="billing-increasemyquota-mooncake"
+	ownershipId="ASMS_Billing"
 />
 
 # I need to increase my quota

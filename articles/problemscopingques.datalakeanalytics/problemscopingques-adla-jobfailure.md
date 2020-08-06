@@ -1,21 +1,22 @@
 <properties
 	articleId="a0cf70ba-6b43-43fa-9806-3fa329592dde"
-	pageTitle="Scoping Questions for ADLA Job Failure Issue"
-	description="Scoping Questions for ADLA Job Failure Issue"
+	pageTitle="Scoping Questions for ADLA Job started to fail with error"
+	description="Scoping Questions for ADLA Job start to fail with error"
 	authors="guyhay, lisaliu"
 	ms.author="guyhay, lisaliu"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32680650"
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
-# ADLA Job Failure Issues
+# ADLA Job started to fail with error
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "ADLA Job Failure Issue",
+    "title": "ADLA Job started to fail with error",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -41,24 +42,32 @@
             "required": true
         },
         {
-            "id": "job_name",
+            "id": "failed_job_name",
             "order": 140,
             "controlType": "textbox",
-            "displayLabel": "Job name",
+            "displayLabel": "Failed job name",
             "watermarkText": "Please provide the job name for the job that failed",
             "required": false
         },
         {
-            "id": "job_url",
+            "id": "failed_job_url",
             "order": 150,
             "controlType": "textbox",
-            "displayLabel": "Job URL",
+            "displayLabel": "Failed job URL",
             "watermarkText": "Please provide the job URL for the job that failed",
             "required": false
         },
         {
-            "id": "usql_script",
+            "id": "successful_job_url",
             "order": 160,
+            "controlType": "textbox",
+            "displayLabel": "Prior successful job URL",
+            "watermarkText": "Please provide the job URL for a previous job that succeeded",
+            "required": false
+        },
+        {
+            "id": "usql_script",
+            "order": 170,
             "controlType": "multilinetextbox",
             "displayLabel": "U-SQL script",
             "watermarkText": "Please provide the U-SQL script for the job that failed",
@@ -91,7 +100,7 @@
             "order": 500,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the detail symptom including the full error message text if available, and any other relevant information",
+            "watermarkText": "Please provide the detailed symptoms including the full error message text if available, job graph for both the failed and previous sucessful job, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         }

@@ -7,11 +7,12 @@
 	ms.author="arturl,saziz"
 	displayOrder="43"
 	selfHelpType="resource"
-	supportTopicIds="32630659, 32630663, 32630672, 32630676, 32630684, 32630690, 32630654, 32630666, 32630667, 32630677, 32630679, 32630655, 32630664, 32630665, 32630668, 32630678, 32630686"
+	supportTopicIds="32688635, 32688636, 32688637, 32688638"
 	resourceTags=""
 	productPesIds="16152"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="bot-unabletocreatebot"
+	ownershipId="Compute_BotService"
 />
 
 # Unable to create a bot

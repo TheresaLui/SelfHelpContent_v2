@@ -6,21 +6,45 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588977"
 	productPesIds="16098"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="700961cc-d014-4555-be70-2069dc2e00ff"
+	ownershipId="CloudNet_LoadBalancer"
 />
 # SLB - No connectivity to the backend pool
 ---
 {
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
     "title": "No connectivity to the backend pool",
     "fileAttachmentHint": "",
     "formElements": [
+           {
+            "id": "is_backend_issue",
+            "order": 1,
+            "controlType": "dropdown",
+            "displayLabel": "Can you access the backend pool instance directly without the load balancer?",
+             "infoBalloonText": "If no, this issue should not be considered as a load balancer issue. You need to fix the connectivity issue with the backed pool instances first.",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes. "
+                },
+                {
+                    "value": "No",
+                    "text": "No."
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "I didn't try"
+                }
+            ],
+            "required": true
+        },
         {
             "id": "inbound-connectivity",
-            "order": 1,
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Please specify the source location",
             "watermarkText": "Choose an option",
@@ -50,7 +74,7 @@
         },
         {
             "id": "connectivity-break-type",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Please specify the type of connectivity loss",
             "watermarkText": "Choose an option",
@@ -72,7 +96,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
@@ -92,10 +116,7 @@
                     "text": "Did the connectivity work in the past and stopped working now?"
                 },
                 {
-                    "text": "Can you access the backend pool instances directly without the load balancer?"
-                },
-                {
-                    "text": "Did you recieve any error messages from the Load Balancer that you want to share?"
+                    "text": "Did you receive any error messages from the Load Balancer that you want to share?"
                 }
             ]
         }

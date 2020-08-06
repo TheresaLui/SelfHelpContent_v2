@@ -1,11 +1,12 @@
 <properties
     pageTitle="Scale the MariaDB server to higher SKU"
     description="Scale the MariaDB server to higher SKU"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    authors="manishku"
+    ms.author="kummanish"
     articleId="860d2d5d-7934-4ccb-a34a-577adf3022a6_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Scale the MariaDB server to higher SKU
 ---
@@ -25,13 +26,13 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "orcasql-livesite@service.microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "AIMS://AZURE OSS DATABASES/Open Source RDBMS",
+      "service": "Azure OSS Databases",
+      "team": "Open Source RDBMS (Project OrcaSQL)"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a"
   },
   "ingestionClientIdentities": [
     "49ebada5-bdc9-4c9b-826c-3cb789357c5d"

@@ -10,8 +10,9 @@
 	supportTopicIds="32584250"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="1e7ff5db-a7c2-4165-93e7-1ec44b4f9583"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Diagnose and troubleshoot Azure connectivity issues to and from the internet
@@ -25,9 +26,9 @@
 
 ## **Recommended Documents**
 
-* [Troubleshoot Connectivity problems: Cannot connect to Internet](https://support.microsoft.com/help/4048050/troubleshooter-for-azure-vm-connectivity-problems)<br>
+* [Troubleshoot Connectivity problems: Cannot connect to Internet](https://docs.microsoft.com/azure/virtual-network/troubleshoot-vm-connectivity)<br>
 * [Fix your **Network Virtual Appliance (NVA)**](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva)<br>
-* [Solve **VNet Peering** issues - Answer 3 questions](https://support.microsoft.com/help/4486956/troubleshooter-for-virtual-network-peering-issues)
+* [Solve **VNet Peering** issues - Answer 3 questions](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-peering-issues)
 
 <!--- THE ARTICLES BELOW HAVE A HISTORY OF NO CLICK THROUGH RATE (1/25/19)
 [Network watcher overview](https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview)<br>

@@ -3,20 +3,29 @@
 	description="Troubleshooting Azure File Sync - Files are not syncing from server to Azure file share"
 	service="microsoft.storage"
 	resource="storageaccounts"
-	authors="jeffpatt24"
-	ms.author="jeffpatt"
+	authors="kartikshah9"
+	ms.author="kashah"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32675722"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="d4e6dd45-4491-4393-98fc-cc4d7ff5b47e"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Troubleshooting Azure File Sync - Files are not syncing from server to Azure file share.
 
 ## **Recommended Documents**
+
+**Setting up Azure File Sync**
+
+- [File created or modified directly in the Azure file share are not syncing to the servers in the sync group](https://docs.microsoft.com/azure/storage/files/storage-files-faq#afs-change-detection)<br>
+- [Planning Azure File Sync Deployment](https://docs.microsoft.com/azure/storage/files/storage-sync-files-planning)<br>
+- [Step by Step instructions to deploy Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-deployment-guide?tabs=azure-portal)<br>
+- [Data Migration overview for Azure Files](https://docs.microsoft.com/azure/storage/files/storage-files-migration-overview)<br>
+
 
 **Sync Failures**
 

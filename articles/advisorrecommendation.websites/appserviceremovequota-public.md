@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="78c5ab69-858a-43ca-a5ac-4ca6f9cdc30d_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="Compute_AppService"
 />
 # Scale up your App Service resource to remove the quota limit
 ---
@@ -33,7 +34,8 @@
   },
   "ingestionClientIdentities": [
   "95ef4a4a-35e3-48f4-9313-aa225c47e995",
-  "2f750bee-e9a6-4ecf-881d-e0a2d3ee2f46"
+  "2f750bee-e9a6-4ecf-881d-e0a2d3ee2f46",
+  "adf3bc1f-f9ab-49a3-b81c-06a36582c68f"
   ],
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/ant-asp",

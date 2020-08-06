@@ -10,8 +10,9 @@
     supportTopicIds="32599939"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="700a5b2b-7aec-4816-bb4f-4cd60893b2c3"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Setup Hybrid Runbook Worker
@@ -19,6 +20,8 @@
 ## **Recommended Steps**
 
 Many issues with Hybrid Workers are caused by connectivity problems. Run [the "Test Cloud Connectivity" tool](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows-troubleshoot#connectivity-issues) to ensure your environment is properly configured. 
+
+You can run the [offline version of the Agent Registration script](https://docs.microsoft.com/azure/automation/troubleshoot/update-agent-issues#troubleshoot-offline) to find more detailed troubleshooting on prerequisites for the Hybrid Worker. Although this script performs some checks related to Update Management, most requirements are the same for hybrid workers. 
 
 ### **Ensure the agent is present** 
 
@@ -48,4 +51,4 @@ Many issues with Hybrid Workers are caused by connectivity problems. Run [the "T
 * [Deploy Windows Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-windows-hrw-install)<br>
 * [Deploy Linux Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-linux-hrw-install)<br>
 * [Run runbooks on Hybrid Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hrw-run-runbooks)<br>
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)

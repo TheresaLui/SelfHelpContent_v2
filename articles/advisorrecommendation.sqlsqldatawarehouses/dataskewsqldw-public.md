@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="9d7196d1-2d7c-4316-820f-7374a4ddf250_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 # Remove data skew to increase query performance
 ---
@@ -25,13 +26,13 @@
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "sqldwninjas@service.microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "AIMS://AZURESQLDB/DATAWAREHOUSE/ADVISORS",
+      "service": "Azure SQL DB",
+      "team": "Datawarehouse"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "6d302332-f404-4848-9509-b8a6b81510f7"
   },
   "ingestionClientIdentities": [
     "b580d7a3-ef03-4330-913e-85a879b27bff",

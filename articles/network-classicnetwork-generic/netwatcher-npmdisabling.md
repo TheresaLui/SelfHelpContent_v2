@@ -9,8 +9,9 @@
 	supportTopicIds="32606430"
 	resourceTags=""
 	productPesIds="16160"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="19de9bda-4f98-4409-bc4d-453f81b913c0"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # npm/disablingnpm

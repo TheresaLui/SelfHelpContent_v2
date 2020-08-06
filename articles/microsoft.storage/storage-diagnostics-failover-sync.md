@@ -12,12 +12,15 @@ diagnosticScenario="Storage account cannot failover due to sync not finished"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Storage account cannot failover due to sync not finished
 
 <!--issueDescription-->
 Account cannot Failover due to sync not finished. If last sync time is unavailable, please dinish sync before enable failover.
-To understand the implications of account failover and learn more about the feature, please read [Disaster recovery and account failover in Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance).
 <!--/issueDescription-->
+
+To understand the implications of account failover and learn more about the feature, please read [Disaster recovery and account failover in Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance).
+

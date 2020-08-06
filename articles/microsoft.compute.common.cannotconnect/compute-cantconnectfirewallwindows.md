@@ -10,8 +10,9 @@
     supportTopicIds="32615534,32639648"
     resourceTags=""
     productPesIds="14749,14745"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="72a1d281-9123-421c-9cf6-90fed2618648"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Troubleshoot my VM firewall
@@ -20,7 +21,7 @@
 
 ## **Recommended Steps**
 
-Use [Serial console](data-blade:Microsoft_Azure_Compute.SerialConsoleBlade.resourceId.$resourceId) and open a CMD instance to query the current status.<br>
+Use [Serial console](data-blade:Microsoft_Azure_Compute.VmSerialConsoleValidationBlade.resourceId.$resourceId) and open a CMD instance to query the current status.<br>
 
 1. Query the firewall rules using any of the following methods:
 

@@ -10,7 +10,8 @@
 	supportTopicIds="32629536"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Integration Runtime Express Setup Issue
@@ -34,6 +35,8 @@
   * [Proxy Server](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#proxy-server-considerations) <br>
 * [Self-hosted integration runtime](https://docs.microsoft.com/azure/data-factory/concepts-integration-runtime#self-hosted-integration-runtime)<br>
 * [Monitor integration runtime](https://docs.microsoft.com/azure/data-factory/monitor-integration-runtime/) <br>
-
+* [Troubleshoot Self-Hosted Integration Runtime](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide) <br>
+  **Note:** Please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** to provide it with the support request if needed.<br>
 * Latest version of Self-hosted Integration Runtime [Download Page](https://www.microsoft.com/download/details.aspx?id=39717)
-  * __Note__: Please refer to _Release Notes_ for feature enhancements, new capabilities, and changes introduced in the latest versions.
+  * __Note__: Please refer to _Release Notes_ for feature enhancements, new capabilities, and changes introduced in the latest versions.<br>
+

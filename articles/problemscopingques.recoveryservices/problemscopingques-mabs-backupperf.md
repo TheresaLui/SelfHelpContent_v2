@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553282,32553278"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
   	 articleId="c7e81485-c8d4-44d9-8abd-adea1ca94875"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions Azure backup server backup performance
 ---
@@ -52,7 +53,7 @@
             "order": 2,
             "visibility": "null",
             "controlType": "textbox",
-            "infoBalloonText": "You can find version information from Microsoft Azure Backup Server Console\\\\Help\\\\About",
+            "infoBalloonText": "You can find version information from Microsoft Azure Backup Server Console\\Help\\About",
             "displayLabel": "What is the software version of Microsoft Azure Backup Server?",
             "watermarkText": "ex. version 12.0.332.0.",
             "required": false

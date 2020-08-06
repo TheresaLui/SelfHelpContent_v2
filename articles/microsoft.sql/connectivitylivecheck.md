@@ -13,12 +13,13 @@
   supportTopicIds="32630429"
   resourceTags=""
   productPesIds="13491"
-  cloudEnvironments="public"
+  cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
-The issue is assumed ongoing since no end time is provided. We performed a live connectivity check, using mock username/password, against database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->.<!--$ServerNameSuffix-->ServerNameSuffix<!--/$ServerNameSuffix-->, and confirmed <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> is online and processing logins. 
+We performed a live connectivity check, using mock username/password, against database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->.<!--$ServerNameSuffix-->ServerNameSuffix<!--/$ServerNameSuffix-->, and confirmed <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> is online and processing logins. 
 <!--/issueDescription-->
 
 The issue you are experiencing could also be a network-related problem at your end.

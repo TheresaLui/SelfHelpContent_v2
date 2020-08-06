@@ -3,30 +3,73 @@
 	description="Troubleshoot CosmosDB Backup and Restore related issues"
 	service="microsoft.documentdb"
 	resource="databaseAccounts"
-	authors="balaksms"
-	ms.author="balaks"
-	selfHelpType="resource"
-	supportTopicIds="32636805, 32636825"
+	authors="jimsch"
+	ms.author="jimsch"
+	selfHelpType="generic"
+	supportTopicIds="32741531,32636825"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-admin-backuprestore"
 	displayOrder="1"
 	category="CosmosDB Backup and Restore"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Backup and restore
+Most users are able to resolve their Backup and Restore case using the steps below.
 
 ## **Recommended Steps**
 
-* Your Cosmos DB account may not require backup/restore for disaster recovery. Please see [High availability with Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/high-availability) and [multi-region accounts](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account) for additional details.
-* For [cloning, data movement, or migration](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#migrating-data-to-the-original-account), we recommend using Azure Data Factory or the change feed library
-* For details on how backup works, retention periods for accidental deletions, and known limitations, see [Backup and restore](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore)
+### **Data backup retention**
+Azure Cosmos DB automatically takes a backup of your database every 4 hours and at any point of time, only the latest 2 backups are stored. However, if the container or database is deleted, Azure Cosmos DB retains the existing snapshots of a given container or database for 30 days.
+<br>We do have the option to increase the backups retention duration to help you customize.  
+There are some limits for the backups:
+* Backup cannot be retained for more than 30 days
+* The minimum backup interval is 1 hour  
 
 
-## **Recommended Documents**
+### **Performing a restore**
+Microsoft can only do a copy of a Cosmos DB account within the same subscription and resource group. It is not possible to restore the database to a new subscription. If you need a copy of your data in a new subscription, please use the [Cosmos DB Data Migration tool](https://azure.microsoft.com/updates/documentdb-data-migration-tool/).  
 
-* [Azure Cosmos DB backup process](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#automatic-and-online-backups)
-* [Manage your account](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account)
-* [High availability](https://docs.microsoft.com/azure/cosmos-db/high-availability)
-* [Distribute data globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
+The restore process always creates a new Azure Cosmos account to hold the restored data. The name of the new account, if not specified, will have the format <Azure_Cosmos_account_original_name>-restored1. The last digit is incremented if multiple restores are attempted. You cannot restore data to a pre-created Azure Cosmos account.  
+
+
+
+### **How long a restore takes**
+There is no SLA for restore timelines.
+<br>However, the restore process can be broken down into the following:
+* The time to engage the Cosmos DB engineering team to initiate the restore based on the case severity
+* The execution for the data restore depends upon the size of the data. As an example, once a restore has been initiated for 500 GB of data the approximate restore time could be about 4 hours.
+**Note**:  There is no SLA guarantee. The above times are an estimate.  
+
+ 
+
+### **Managing your own backups**
+We have some suggestions for how you can clone your Cosmos DB to another Resource Group or even to the same RG to manage your own backups:
+* You can use the [Cosmos DB Data Migration tool](https://azure.microsoft.com/updates/documentdb-data-migration-tool/). With the Azure Cosmos DB Data Migration tool you can easily migrate data to Azure Cosmos DB. The Azure Cosmos DB Data Migration tool is an open source solution.
+* You can use Azure Data Factory (ADF), using ADF you can copy data from Azure Cosmos DB (SQL API) to another Azure Cosmos DB (SQL API)  
+
+
+
+### **Reducing need for backups**
+Your Cosmos DB account may not require backup/restore for disaster recovery. Azure Cosmos DB provides [High availability with Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/high-availability) to transparently replicate your data across all the Azure regions associated with your Cosmos account.  
+
+ 
+
+## **Recommended Documents**  
+
+[Azure Cosmos DB backup and restore process and policy](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore)
+<br>This article describes how Azure Cosmos DB performs data backup.  
+
+[Multi-region accounts](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account)
+<br>This article describes how to manage various tasks on an Azure Cosmos account using the Azure portal, Azure PowerShell, Azure CLI, and Azure Resource Manager templates.  
+
+[Distribute data globally](https://docs.microsoft.com/azure/cosmos-db/distribute-data-globally)
+<br>This article describes the Key benefits of global distribution:
+* Build global active-active apps
+* Highly responsive apps
+* Highly available apps
+* Maintain business continuity during regional outages
+* Scale read and write throughput globally
+* Choose from several well-defined consistency models

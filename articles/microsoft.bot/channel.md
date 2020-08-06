@@ -7,11 +7,12 @@
 	ms.author="arturl,saziz"
 	displayOrder="4"
 	selfHelpType="resource"
-	supportTopicIds="32630659, 32630663, 32630672, 32630676, 32630684, 32630690"
+	supportTopicIds="32688622"
 	resourceTags=""
 	productPesIds="16152"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="72372ddb-82ce-4172-af6f-4d616a3844ff"
+	ownershipId="Compute_BotService"
 />
 
 # I have a problem with a channel
@@ -25,7 +26,7 @@
 
 	* **Channel Configuration Issues**: Determine if channel configuration parameters have been set incorrectly or have changed externally. Try removing the channel and redoing the channel configuration with the right parameters.
 	* **Channel-Specific Behavior**: Determine if a feature you're using is supported by the channel. If you see differences in how some message types work in different channels, consult [Connect a bot to channels](https://docs.microsoft.com/azure/bot-service/bot-service-manage-channels).
-	* **Channel Outage**: Determine if the channel you're using is experiencing an outage. This can be done by consulting a channel web site (see below) or by building a test echo bot and connecting it to the channel.
+	* **Channel Outage**: Determine if the channel you're using is experiencing an outage. This can be done by consulting a channel website (see below) or by building a test echo bot and connecting it to the channel.
 
 ## **Recommended Documents**
 

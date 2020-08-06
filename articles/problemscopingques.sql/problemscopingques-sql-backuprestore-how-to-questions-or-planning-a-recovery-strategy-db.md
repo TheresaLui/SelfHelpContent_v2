@@ -6,16 +6,18 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630426"
 	productPesIds="13491"
-	cloudEnvironments="Public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="problem-scopingques-sql-backuprestore-how-to-questions-or-planning-a-recovery-strategy-db"
+	ownershipId="AzureData_AzureSQLDB_BackupRestore"
 />
 # Advisory-how-to-questions-or-planning-a-recovery-strategy
 ---
 {
-	"resourceRequired": true,
-	"subscriptionRequired": true,
-    "formElements": [
+	"$schema": "SelfHelpContent",
+	"resourceRequired": false,
+	"subscriptionRequired": false,
+	"formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
@@ -33,7 +35,6 @@
             "useAsAdditionalDetails": true,
             "watermarkText": "Please provide your questions with additional details like the environment, business needs, cost considerations, etc."
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---

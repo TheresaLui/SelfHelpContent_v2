@@ -7,10 +7,11 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630491"
 	productPesIds="15438"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
-# Scoping for 700-8000 Migration
+# Scoping for 7000-8000 Migration
 ---
 {
     "resourceRequired": true,

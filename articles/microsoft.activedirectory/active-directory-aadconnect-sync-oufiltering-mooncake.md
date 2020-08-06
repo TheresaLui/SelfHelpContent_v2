@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="active-directory-aadconnect-sync-oufiltering-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Synchronization issue with OU-based (Organizational Unit) filtering

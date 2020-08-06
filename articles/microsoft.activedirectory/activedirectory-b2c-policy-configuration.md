@@ -10,13 +10,16 @@
 	supportTopicIds="32633316,32633317,32633318,32633320,32633325,32633327,32633328"
 	resourceTags=""
 	productPesIds="16580"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="0868fb74-803a-4c70-86e8-1f09c7b74cba"
+	ownershipId="AzureIdentity_B2C"
 />
 
 # Business to Consumer (B2C)
 
 ## **Recommended Steps**
+
+* [I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
 
 ### **Password reset link is not working**
 
@@ -32,6 +35,8 @@ If you use the "Sign-in" policy, your custom session token duration will not be 
 ### **I am unable to customize the UI**
 
 At this time, we do not support UI customization for "Sign-in" policies. You can use a "Sign-up or Sign-in" policy if you would like to customize your sign-in page. If you would like to see UI customization supported for "Sign-in" policies, we encourage you to vote and/or add comments in our [UserVoice](https://feedback.azure.com/forums/169401-azure-active-directory/suggestions/13062033-b2c-fully-customizable-sign-in-page) forum with your feedback.
+
+
 
 ## **Recommended Documents**
 

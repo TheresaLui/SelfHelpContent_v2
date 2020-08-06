@@ -13,7 +13,8 @@
 	supportTopicIds="32411816"
 	resourceTags="windows, linux"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 
@@ -22,7 +23,7 @@ We identified that your VM <!--$vmname-->Virtual machine<!--/$vmname--> became u
 This unexpected occurrence was caused by an **Azure initiated VM shutdown** triggered by detection of **temporary IO transaction timeouts** between the physical host node where your VM was running, and the Azure Storage services where your Virtual Hard Disks (VHDs) reside.
 <!--/issueDescription-->
 
-Azure Standard Storage disks have a limit of 500 IOPS for each VHD.  We have documented a few best practices for [Configuring Azure Virtual Machines for Optimal Storage Performance](http://blogs.msdn.com/b/mast/archive/2014/10/14/configuring-azure-virtual-machines-for-optimal-storage-performance.aspx)<br> 
+Azure Standard Storage disks have a limit of 500 IOPS for each VHD.  We have documented a few best practices for [Configuring Azure Virtual Machines for Optimal Storage Performance](http://blogs.msdn.com/b/mast/archive/2014/10/14/configuring-azure-virtual-machines-for-optimal-storage-performance.aspx)<br> 
 
 Depending on the workload, a striped disk or configuring Storage Spaces inside the Guest VM may help mitigate the issue.  You may also want to consider Premium Storage if the issue persists.<br>
 
@@ -30,8 +31,8 @@ To ensure an increased level of protection and redundancy for your application i
 
 To learn more about high availability options, refer to the following articles:<br>
 
-* [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
-* [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)<br>
+* [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)<br>
+* [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)<br>
 * [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.<br>

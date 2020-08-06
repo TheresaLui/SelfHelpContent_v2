@@ -7,17 +7,16 @@
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="Generic"
-    supportTopicIds="32636445"
+    supportTopicIds="32681536"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-delete-cluster"
+	ownershipId="AzureData_HDInsight"
 />
 # Common Solutions to HDInsight Delete Issues
 
-When attempting to delete an HDInsight cluster, customers may encounter the following error:
-
-*Conflict (HTTP Status Code: 409) error when attempting to delete a cluster immediately after creation of a cluster. If you encounter this error, please wait until the newly created cluster is in operational state before attempting to delete it.*
+When attempting to delete an HDInsight cluster, it is recommended that there is at least 30 minutes to 60 minutes of time between create and delete operations. Otherwise, the operation may fail with the following error message *"Conflict (HTTP Status Code: 409) error* when attempting to delete a cluster immediately after creation of a cluster. If you encounter this error, please wait until the newly created cluster is in operational state before attempting to delete it".
 
 If you are unable to delete your cluster in **PowerShell**:
 

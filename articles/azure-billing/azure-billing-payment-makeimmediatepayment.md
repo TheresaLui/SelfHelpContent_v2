@@ -10,8 +10,9 @@
 	supportTopicIds="32632937"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="payment-makeimmediatepayment"
+	ownershipId="ASMS_Billing"
 />
 
 # make immediate payment

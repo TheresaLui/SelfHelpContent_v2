@@ -4,8 +4,8 @@
 	infoBubbleText="Some suggestions have been found to help solve your metric alert issue more quickly."
 	service="microsoft.insights"
 	resource="metricalerts"
-	authors="snehithm"
-	ms.author="snmuvva"
+	authors="harelbr"
+	ms.author="harelbr"
 	displayOrder="6"
 	articleId="insights-falsealert-metric"
 	diagnosticScenario=""
@@ -13,7 +13,8 @@
 	supportTopicIds="32629644"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # My metric alert fired when it shouldn't have
@@ -26,22 +27,25 @@ If you believe your metric alert shouldn't have triggered but it did, the follow
 
 1. Review the [fired alerts list](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/alertsV2) to see the alert fired for your metric alert rule. Review the alert details to see the metric chart, **Metric Value** and **Threshold value** when the alert was triggered (under **Why did this alert fire?**).
 
-**Note:** If you are using Dynamic Thresholds condition type and think that thresholds used were not correct, please provide feedback using the frown icon. This feedback will impact the machine learning algorithmic research and improve future detections.
+**Note:** If you are using a Dynamic Thresholds condition type and think that the thresholds used were not correct, please provide feedback using the frown icon. This feedback will impact the machine learning algorithmic research and improve future detections.
 
-1. If you have selected multiple dimension values for a metric, the alert will be triggered when **any** of the metric time-series (as defined by a combination of dimension values) breaches the threshold
-1. Review the alert rule configuration:
+2. If you have selected multiple dimension values for a metric, the alert will be triggered when **any** of the metric time-series (as defined by a combination of dimension values) breaches the threshold. For more information about using dimensions in metric alerts, see [here](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview#using-dimensions).
 
-    - Check that **Aggregation type**, **Aggregation granularity (period)**, and **Threshold value** or **Sensitivity** specified in the metric alert rule condition are what you want
-    - Please also mind Dynamic Thresholds advanced settings, if used, as **Number of violations** may filter alerts and **Ignore data before** can impact how the thresholds are calculated.
+3. Review the alert rule configuration:
+
+    - Check that the **Aggregation type**, **Aggregation granularity (period)**, and **Threshold value** or **Sensitivity** specified in the metric alert rule condition are what you want
+    - Please also mind the Dynamic Thresholds advanced settings, if used, as **Number of violations** may filter alerts and **Ignore data before** can impact how the thresholds are calculated
 
 If they are not what you want, edit the rule to match what you want.
 
 **Note:** Dynamic Thresholds requires at least 3 days of data before becoming active and chart will display continuous historical thresholds, which include thresholds updates over time.
 
-1. If you are visualizing the metric condition using [Metrics chart](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/metrics), ensure that:
+4. If you are visualizing the metric condition using [Metrics chart](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/metrics), ensure that:
 
-    - **Aggregation** in the metric chart is the same as **Aggregation type** in your alert rule
+    - **Aggregation** in the metric chart is the same as the **Aggregation type** in your alert rule
     - **Time granularity** is set to be same as the **Aggregation granularity (period)** in your alert rule and not set to automatic
+
+5. If the alert rule fires new alerts, while existing fired alerts that monitor the same criteria are still unresolved, check if the alert rule has been configured with the *autoMitigate* property set to **false** (this property can only be configured via REST/PowerShell/CLI). In such case, the alert rule will not auto-resolve fired alerts, and will not require a fired alert to be resolved before firing again.
 
 ## **Recommended Documents**
 

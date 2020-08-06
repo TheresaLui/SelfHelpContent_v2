@@ -10,8 +10,9 @@
 	supportTopicIds="32336445"
 	resourceTags=""
 	productPesIds="15400"
-	cloudEnvironments="public,fairfax,mooncake,blackforest"
+	cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	articleId="f3f4c110-7a20-49a9-a99d-6ddf72cb9dc9"
+	ownershipId="CloudNet_TrafficManager"
 />
 
 # performance issues

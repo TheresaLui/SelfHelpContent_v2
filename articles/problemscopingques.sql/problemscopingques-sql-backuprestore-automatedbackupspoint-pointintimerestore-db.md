@@ -4,18 +4,20 @@
 	authors="andikshi"
 	ms.author="andikshi"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630409"
+	supportTopicIds="32688667"
 	productPesIds="13491"
-	cloudEnvironments="Public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="problem-scopingques-sql-automatedbackupspoint-pointintimerestore-db"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # Error with automatedbackupspoint- pointintimerestore-db
 ---
 {
-	"resourceRequired": true,
-	"subscriptionRequired": true,
-    "formElements": [
+	"$schema": "SelfHelpContent",
+	"resourceRequired": false,
+	"subscriptionRequired": false,
+	"formElements": [
         {
             "id": "problem_start_time",
             "order": 1,
@@ -65,7 +67,6 @@
             "useAsAdditionalDetails": true,
             "watermarkText": "Please provide the full error you are receiving. If available,please attach any relevant screenshots and scripts that you have used."
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---

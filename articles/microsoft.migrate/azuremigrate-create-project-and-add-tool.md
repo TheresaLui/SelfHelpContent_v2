@@ -1,5 +1,5 @@
 <properties
-    pageTitle="Creating an Azure Migrate project and adding a tool to the project"  description="Issues and guidance regarding creating a Migrate project and adding a tool"  service="microsoft.migrate"  
+    pageTitle="Creating an Azure Migrate project"  description="Issues and guidance regarding creating a Migrate project and adding a tool"  service="microsoft.migrate"  
     resource="migrateprojects"  
     authors="ponatara"  
     ms.author="ponatara"  
@@ -8,38 +8,47 @@
     supportTopicIds="32675740"  
     resourceTags=""  
     productPesIds="16348"  
-    cloudEnvironments="public"  
+    cloudEnvironments="public, Fairfax, usnat, ussec"  
     articleId="75vc3501-2a3f-4d0d-96c5-b2b5886483e6"  
- />  
+     ownershipId="Compute_AzureMigrate"
+/>  
 
-# Creating an Azure Migrate project and adding a tool to the project
+# Creating an Azure Migrate project
 
-## **Recommended Steps**  
+## **Recommended Steps**
 
-### **My Azure Migrate project creation fails**  
+### **How to check whether user has appropriate access to create a project**
 
-You can usually retry to fix this error. Click on the job notification for the failed deployment, navigate to "Deployments", and click on "Re-deploy" to re-trigger the creation of the project and addition of the selected tools. If a re-deploy does not solve the issue, make sure that your account has "Owner" or "Contributor" permissions for the subscription or resource group where you wish to create the migrate project. This should solve the issue.
+To create a project, a user needs "Owner" or "Contributor" permissions. [Check here](https://docs.microsoft.com/azure/role-based-access-control/check-access) to see if you have the required access.
 
-### **Not able to select the geography to create my migrate project**
-If you are not able to see and choose a geography where Azure Migrate was deployed recently, wait for up to 15-20 mins and retry project creation. 
-Azure Migrate is deployed in these [geographies](https://aka.ms/migrate/self-help/geographies-for-migrate-project). 
+### **I don't see a particular geography when creating the Azure Migrate project**
+
+One can use a project in any geography to perform a migration to an Azure region of your choice. Review the supported geographies for [public](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-public-cloud) and [government clouds](https://docs.microsoft.com/azure/migrate/migrate-support-matrix#supported-geographies-azure-government).
 
 ### **I want to create a new project in a different geography and add tools to it**  
   
-If you need to specify a different geography to store discovery, assessment or migration related metadata (typically used for scenarios where your data centers are present in different geographies), go to 'Servers' or 'Databases' and click on 'Change' against the 'Migrate project (Change)' on the top-right corner of your screen. Then click on 'click here' to create a new Azure Migrate project. [Learn more](https://aka.ms/migrate/self-help/create-migrate-project).
+If you need to specify a different geography to store discovery, assessment or migration related metadata (typically used for scenarios where your data centers are present in different geographies), go to 'Servers' or 'Databases' and click on 'Change' against the 'Migrate project (Change)' on the top-right corner of your screen. Then click on 'click here' to create a new Azure Migrate project. [Learn more](https://docs.microsoft.com/azure/migrate/how-to-add-tool-first-time#create-additional-projects).
 
-### **My added tools don't show up in the "Servers" or "Databases" page**
+### **My added tools don't show up in the "Servers" or "Database" or "VDI" or "Web Apps" goal page**
 
-Make sure that you have selected the right project by clicking on 'Change' against 'Migrate project (Change)' on the top-right corner of your screen in 'Servers' or 'Databases'. Now choose the correct subscription and project name and click on 'OK'. The page should refresh with the added tools of the selected [Azure Migrate](https://aka.ms/migrate/self-help/create-migrate-project) project.
+Make sure that [project you are looking for is selected](https://docs.microsoft.com/azure/migrate/create-manage-projects#find-a-project).
+  
+### **My Azure Migrate project creation fails**  
+
+This can be due to some intermittent issue, retry is suggested way to fix this issue. Click on the job notification for the failed deployment, navigate to "Deployments", and click on "Re-deploy" to re-trigger the creation of the project and addition of the selected tools. If a re-deploy does not solve the issue, make sure that your account has "Owner" or "Contributor" permissions for the subscription or resource group where you wish to create the migrate project. 
+
+### **Do I need to pay for Azure Migrate and the non-Microsoft ISV tools that I plan to use?**
+
+Azure Migrate and the first party Server Assessment and Server Migration tools are available at [no additional charge](https://azure.microsoft.com/pricing/details/azure-migrate). However, you may incur charges for using integrated non-Microsoft ISV assessment and migration tools.
   
 ### **I don't see the tool that I want to use**
   
-We are constantly [adding tools to Azure Migrate](https://aka.ms/migrate/self-help/add-new-tools-to-migrate-project).
-  
-### **Do I need to pay for Azure Migrate and the non-Microsoft ISV tools that I plan to use?**
+We are constantly [adding tools to Azure Migrate](https://docs.microsoft.com/azure/migrate/how-to-add-tool-first-time).
 
-Azure Migrate and the in-built Server Assessment, Server Migration tools are available at [no additional charge](https://aka.ms/migrate/self-help/pricing-of-tools). However, you may incur charges for other non-Microsoft/ISV assessment and migration tools you use while using Azure Migrate. 
+### **ISV tools that are available in other geographies are not listed in Azure Government**
 
-### **I don't see a particular geography when creating the Azure Migrate project**
-  
-Azure Migrate is currently available in United States, Europe, Asia, and United Kingdom. We will soon add support for Canada and Australia. Other geographies will follow later this year. You can use a project in any geography to perform a migration to an Azure region of your choice.  
+ISV partners are in process of enabling their tools in Azure Government for Azure Migrate. In the meanwhile, either you can use the partner tool independently or use any of the listed tools.
+
+### **Looking to know more about Azure Migrate**
+
+Extensive details regarding Azure Migrate are [documented here](https://docs.microsoft.com/azure/migrate/).

@@ -13,13 +13,14 @@
     supportTopicIds="32636420"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found the following issue
 <!--issueDescription-->
 There is a problem with the on-premises Active Directory instance for your HDInsight cluster: the **AllowCloudPasswordValidation** policy has not been set by the tenant. The administrator of the Azure Active Directory (AAD) tenant should update settings to allow the use of password hashes for Active Directory Federation Services (ADFS) backed users. 
-<!--issueDescription-->
+<!--/issueDescription-->
 
 ## **Recommended Steps** 
 

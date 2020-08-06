@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32613000"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="9434ba9d-5881-4eea-8c68-6b3cde03323e"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MARS restore performance
 ---
@@ -17,11 +18,6 @@
     "subscriptionRequired": true,
     "title": "MARS restore performance",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "MARS restore performance",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "machine_name",
@@ -29,8 +25,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "restore_type",
@@ -74,8 +69,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "job_time",

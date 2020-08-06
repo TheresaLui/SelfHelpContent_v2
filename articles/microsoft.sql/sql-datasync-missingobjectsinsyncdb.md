@@ -13,7 +13,8 @@
 	supportTopicIds="32630455"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_DataSync"
 />
 
 # Data Sync related objects are missing from Sync Metadata database

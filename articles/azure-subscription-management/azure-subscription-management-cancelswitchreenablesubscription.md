@@ -1,82 +1,54 @@
 <properties
-	pageTitle="cancel switch or reenable subscriptions"
-	description="cancel switch or reenable subscriptions"
+	pageTitle="cancel subscriptions"
+	description="cancel subscriptions"
 	service="azure-subscription-management"
 	resource="subscription-management"
 	authors="prdasneo"
 	ms.author="prdasneo"
 	displayOrder="1"
 	selfHelpType="generic"
-	supportTopicIds="32632949,32632954"
+	supportTopicIds="32632949"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="cancelswitchorreenablesubscriptions"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
-# cancel, switch or re-enable subscriptions
+# Cancel Subscription
+
+If you cancel a paid Azure Support plan, you are billed for the rest of the subscription term. Pay-as-you-go customers can cancel at any time without any penalty fees. You will still owe the balance for any unbilled or unpaid monthly consumption.<br>
+
+Learn more: [Azure support plans](https://azure.microsoft.com/support/plans/)
 
 ## **Recommended Steps**
 
-* You can cancel, change, or re-enable your Azure subscription as the [Account Administrator](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
+**Cancel Subscription in Azure portal**
 
-### Cancel Subscription
+1. Select your subscription from the [Subscriptions page in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
+2. Select the subscription that you want to cancel. Select **Overview**.
+3. Select **Cancel subscription**
+4. Follow prompts and finish cancellation
 
-* Select your subscription from the [Subscriptions page in Azure portal](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade)
-* Select the subscription that you want to cancel
-* Select **Overview**, and then select **Cancel subscription**
-* Follow prompts and finish cancellation
+* Learn more: [Cancel Azure Subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)
+* [Who can cancel a subscription?](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#who-can-cancel-a-subscription)
+* [What happens after the subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#what-happens-after-i-cancel-my-subscription)
 
-Learn more: [Cancel Azure Subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)
+If you don't want to cancel your subscription but want to stop charges for a deployment, you can manually delete your deployed Azure packages using the Azure Management Portal.
 
-### Re-enable your Azure Subscription
-
-The [Account Administrator](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa) can reactivate a canceled Pay-As-You-Go subscription in the Account Center:
-
- * Sign in to the [Account Center](https://account.windowsazure.com/Subscriptions)
- * Select the canceled subscription
- * Click **Reactivate**
- * For other subscription types, [contact support](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade) to have your subscription reactivated
-
-Learn more: [Reactivate Subscription](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable) <br>
-
-### Transfer your Azure Subscription
-
-  * Sign in at Azure Account Center as the Account Admin
-  * Select the subscription to transfer
-  * Verify that your subscription is eligible for self-serve transfer by checking the **Offer** and **Offer ID** with the [supported offers list](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#supported)
-  * Click **Transfer subscription**
-  * Specify the recipient. The recipient automatically gets an email with an acceptance link.<br>
-  * The recipient clicks the link and follows the instructions, including entering their payment information
-  * The subscription is now transferred
-	
-Learn more: [Switch Subscription](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer) <br>
-
-### Upgrade from Free Azure Trial
-
-You can upgrade your [Free Trial](https://azure.microsoft.com/free/) or [Microsoft Imagine](https://azure.microsoft.com/offers/ms-azr-0144p/) subscription to [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) in the Azure Account Center:
-
-* Sign in to the [Azure Account Center](https://account.windowsazure.com/subscriptions)
-* In the subscription status section, click the **Upgrade now** banner
-* Confirm your upgrade
-
-Learn more: [Upgrade Subscription](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription) <br>
-
-_Note:_  When you upgrade from a Free Trial subscription, you keep your remaining credit for the full 30 days after you created the subscription. You also have access to free services for 12 months. If you want to [transfer the subscription](https://docs.microsoft.com/azure/billing/billing-subscription-transfer) after upgrading, you must wait until the subscription offer ID changes to MS-AZR-003P. The offer ID changes when:
-
-  * You consume all the remaining credit, or
-  * 30 days pass since the start of the free trial
+* In this case, all application data will be removed, and you will not receive further charges. However, your profile and billing information will remain in the system, and you will be billed for usage at the next billing cycle.Exception: Virtual machines (VMs) can be stopped/deallocated to pause billing without outright deletion.
+* If you cancel the support plan before the sixth month, you will not be charged after the current month of cancellation, and there is no pro-rate refund
 
 ## **Recommended Documents**
 
 * [Cancel subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription)
-* [What happens after I cancel my subscription?](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#what-happens-after-i-cancel-my-subscription)
 * [Reactivate subscription](https://docs.microsoft.com/azure/billing/billing-how-to-cancel-azure-subscription#reactivate-subscription)
 * [Switch subscription](https://docs.microsoft.com/azure/billing/billing-how-to-switch-azure-offer)
+* [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/?source=datamarket)
 * [How to download your invoice and usage data](https://docs.microsoft.com/azure/billing/billing-download-azure-invoice-daily-usage-date)
 * [How to request copy of Azure invoice via email](https://azure.microsoft.com/blog/azure-email-invoices/)
 * [Migrate resources between accounts/subscriptions](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
 * [Add/Manage admins and co-admins](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator)
-* Locate the [Account Admin ](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
+* Locate the [Account Admin](https://docs.microsoft.com/azure/billing/billing-subscription-transfer#whoisaa)
 * [What do I do if my Azure subscription becomes disabled? ](https://docs.microsoft.com/azure/billing/billing-subscription-become-disable/)
-* [Getting started - spending limit](https://docs.microsoft.com/azure/billing/billing-getting-started#spending-limit)
+* [Azure spending limit](https://docs.microsoft.com/azure/cost-management-billing/manage/spending-limit)

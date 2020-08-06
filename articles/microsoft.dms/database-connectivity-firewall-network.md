@@ -13,7 +13,8 @@
 	supportTopicIds="32673588"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 
 # Errors you may encounter with firewall rules and network configuration 

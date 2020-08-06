@@ -6,17 +6,19 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630451"
 	productPesIds="13491"
-	cloudEnvironments="Public"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="problem-scopingques-sql-backuprestore-recover-dropped-server-or-resourcegroup-db"
+	ownershipId="AzureData_AzureSQLDB_BackupRestore"
 />
 # Scoping questions to recover-dropped-server-or-resourcegroup
 ---
 {
+	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
-	"subscriptionRequired": true,
-    "formElements": [
-      {
+	"subscriptionRequired": false,
+	"formElements": [
+	{
             "id": "resource_type_dropdown",
             "order": 1,
             "controlType": "dropdown",
@@ -74,7 +76,6 @@
             "useAsAdditionalDetails": true,
             "watermarkText": "Please provide additional context about how the resource was deleted, business justification for restore , and any other specifications if needed."
         }
-    ],
-    "$schema": "SelfHelpContent"
+    ]
 }
 ---

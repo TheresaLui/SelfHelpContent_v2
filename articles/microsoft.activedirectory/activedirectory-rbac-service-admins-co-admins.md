@@ -9,10 +9,11 @@
     articleId="8a68770e-c96b-48ea-9cc6-952ff9fb2ec1"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32615391"
+    supportTopicIds="32690725"
     resourceTags=""
-    productPesIds="16578"
-    cloudEnvironments="public"
+    productPesIds="16986"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_RBAC"
 />
 
 # Azure Active Directory: Issues with service admins or co-admins

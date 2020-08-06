@@ -10,16 +10,18 @@
     articleId="Hdi_Crud_InvalidStorageAccount"
     diagnosticScenario="HDInsightInvalidStorageAccountInsight"
     selfHelpType="rca"
-    supportTopicIds="32629032"
+    supportTopicIds="32636423"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found the following issue
-
+<!--issueDescription-->
 There is a problem with the storage account required to create your HDInsight cluster. <br>
 The storage account selected does not support page blobs which is a requirement for this cluster type.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

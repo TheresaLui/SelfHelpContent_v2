@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="activedirectory-iga-reviewer-email-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I created a review, but the reviewer did not receive an email regarding the required action

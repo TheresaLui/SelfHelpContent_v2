@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Account settings - Merge organizations"
-	description="Account settings - Merge organizations"
+	pageTitle="Account settings - Merge organizations"
+	description="Account settings - Merge organizations"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="csp"
@@ -10,17 +10,19 @@
 	articleId="account_settings_merge_organizations"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635683"
+	supportTopicIds="32725784"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17000"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-# Account settings - Merge organizations
+# Account settings - Merge organizations
 
-When you move your company account from PMC to Partner Center, you may be moving several accounts.
+Guidance on how to do an Account Merge can be found below.
 
 ## **Recommended Documents**
 
-* [Moving your multiple companies to Partner Center](https://docs.microsoft.com/partner-center/move-multiple-companies)
+* [Merge your partner account with another partner account](https://docs.microsoft.com/partner-center/merge-accounts#invite-a-company-to-merge-their-partner-center-account-with-your-partner-center-account)
+* [Consolidate your account from Partner Membership Center to Partner Center](https://docs.microsoft.com/partner-center/move-multiple-companies)

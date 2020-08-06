@@ -6,12 +6,13 @@
 	authors="mrcarter8"
 	ms.author="mcarter"
 	selfHelpType="resource"
-	displayOrder="5"
-	supportTopicIds="32681387"
+	displayOrder="18"
+	supportTopicIds="32681388"
 	resourceTags=""
 	productPesIds="15568"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="search-sslorothersecurityerrors"	
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # SSL or other security errors
@@ -20,10 +21,10 @@
 
 The security related status codes from the Azure Search REST API are listed below:
 
-* 403 "Forbidden": Confirm that you are passing a valid API key or the API is not allowed to perform the current operation. For example, you may be passing a query key while attempting to update the index definition.
+* 403 "Forbidden": Confirm that you are passing a valid API key and that the API is allowed to perform the current operation. For example, you may be passing a query key while attempting to update the index definition.
 * 502 "Bad Gateway": Ensure the search service endpoint URL in your request is using HTTPS and not HTTP
 
-If you receive a 400 "Bad Request" status codes, it may be related to Azure Search encryption using customer-managed keys.  These errors may be returned when you are either creating or updating an index with custom encryption keys enabled and there are issues with the current configuration.  You may also see these error messages when you later execute a request to the Azure Search API and the customer managed encryption key configuration has changed.
+If you receive a 400 "Bad Request" status code, it may be related to Azure Search encryption using customer-managed keys.  These errors may be returned when you are either creating or updating an index with custom encryption keys enabled and there are issues with the current configuration.  You may also see these error messages when you later execute a request to the Azure Search API and the customer-managed encryption key configuration has changed.
 
 * "Access to the required key vault permissions was denied": The credentials provided are not allowed to access Azure Key Vault or permissions were revoked
 * "Could not resolve the key vault uri": The provided Azure Key Vault URI is invalid or the Key Vault does not exist or was deleted
@@ -31,6 +32,8 @@ If you receive a 400 "Bad Request" status codes, it may be related to Azure Sear
 * "Service does not have a managed identity defined": The index is configured to use a [managed identity](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview) to authenticate to Azure Key Vault, but isn't currently enabled for the service or was previously disabled
 * "The provided application id is invalid": The index is configured to use an Azure Active Directory id to authenticate to Azure Key Vault, but it is invalid or no longer exists
 * "The provided application secret is invalid": The index is configured to use an Azure Active Directory secret to authenticate to Azure Key Vault, but it is invalid or was changed
+
+All client-to-service Azure Cognitive Search interactions require [SSL/TLS 1.2 or higher](https://docs.microsoft.com/security/solving-tls1-problem). To ensure your client applications remain secure, we recommend the TLS version should not be hardcoded.  If your client uses a version of TLS prior to 1.2, you may see the following exception: "The underlying connection was closed: An unexpected error occurred on a send." [Learn more](https://docs.microsoft.com/dotnet/framework/network-programming/tls)
 
 ## **Recommended Documents**
 

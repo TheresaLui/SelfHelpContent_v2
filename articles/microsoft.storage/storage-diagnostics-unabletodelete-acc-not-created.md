@@ -5,13 +5,15 @@ infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="passaree"
+ms.author="passap"
 displayOrder=""
 articleId="Storagev2insights_UnableToDelete_AccountCreationFailed"
 diagnosticScenario="Account cannot be deleted because it was not successfully created"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Unable to delete storage account that was not successfully created

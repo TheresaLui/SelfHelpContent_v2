@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="66d3137a-c4da-4c8a-b6b8-e03f5dfba66e_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="Compute_AppService"
 />
 # Consider scaling up your App Service Plan SKU to avoid memory exhaustion
 ---
@@ -33,7 +34,8 @@
   },
   "ingestionClientIdentities": [
   "95ef4a4a-35e3-48f4-9313-aa225c47e995",
-  "2f750bee-e9a6-4ecf-881d-e0a2d3ee2f46"
+  "2f750bee-e9a6-4ecf-881d-e0a2d3ee2f46",
+  "adf3bc1f-f9ab-49a3-b81c-06a36582c68f"
   ],
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/antbc-memory",

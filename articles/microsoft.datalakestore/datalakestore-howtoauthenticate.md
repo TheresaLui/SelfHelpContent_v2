@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="030fbaba-aa31-4c95-a95a-812b8aebc9f1"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 
 # How do I build applications that interact with Data Lake Store?

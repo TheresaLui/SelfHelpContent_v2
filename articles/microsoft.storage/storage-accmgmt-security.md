@@ -7,11 +7,12 @@
 	ms.author="passap"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32602691,32602775"
+	supportTopicIds="32602775"
 	resourceTags=""
 	productPesIds="15629,16461,16462"
-	cloudEnvironments="public"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="36bb39f4-b6d0-40cc-b011-6740948b2c34"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Access or Security Issues

@@ -9,8 +9,9 @@
 	supportTopicIds="32586811"
 	resourceTags=""
 	productPesIds="15480"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="7c12ced6-faaa-4c58-bd72-6d5dc8b2f176"
+	ownershipId="CloudNet_AzureExpressRoute"
 />
 
 # "management/networking limits for expressroute"

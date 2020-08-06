@@ -10,8 +10,9 @@
     supportTopicIds="32614245"
     resourceTags=""
     productPesIds="16611"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="91f1e0e5-5317-4900-ae44-654ab268acfe"
+	ownershipId="CloudNet_AzureFrontdoor"
 />
 
 # Configure SSL or HTTPS 

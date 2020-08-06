@@ -1,21 +1,22 @@
 <properties
 	articleId="300da47f-593c-4ac6-ae42-fd03befd5d5f"
-	pageTitle="Scoping Questions for ADLA Job Slow Issue"
-	description="Scoping Questions for ADLA Job Slow Issue"
+	pageTitle="Scoping Questions for ADLA job stated to run slow"
+	description="Scoping Questions for ADLA job stated to run slow"
 	authors="guyhay, lisaliu"
 	ms.author="guyhay, lisaliu"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32680652"
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
-# ADLA Job Slow Issues
+# ADLA job stated to run slow
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "ADLA Job Slow Issue",
+    "title": "ADLA job stated to run slow",
     "fileAttachmentHint": "",
     "formElements": [
         {

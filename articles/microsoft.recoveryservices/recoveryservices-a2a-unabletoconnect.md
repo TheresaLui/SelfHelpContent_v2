@@ -9,8 +9,9 @@
 	supportTopicIds="32574725"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="1de2801f-e170-4c01-9d27-7a4d9e8b8252"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Unable to connect to VM after fail over in A2A scenario

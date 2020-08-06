@@ -13,12 +13,14 @@
     supportTopicIds="32636421, 32636420"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found an issue
-
+<!--issueDescription-->
 We noticed that the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> has been failing due to a user account that is locked out.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

@@ -9,9 +9,10 @@
 	supportTopicIds="32615382"
 	resourceTags=""
 	productPesIds="16579"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	ms.author="billmath"
 	articleId="a6c99971-423b-4cb0-8818-1324a26728c6"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Farm Deployment Issues

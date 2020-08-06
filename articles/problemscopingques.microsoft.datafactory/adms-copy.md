@@ -1,14 +1,15 @@
 <properties
 	pageTitle="Azure Data Movement copy issue info"
 	description="Scoping questions to gather Azure Data Movement copy issue information"
-	authors="chez-charlie"
+	authors="chez-charlie, hecepeda"
 	ms.author="chez"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629461, 32629470, 32629463, 32629467"
+    supportTopicIds="32629461, 32629470, 32629463, 32637163"
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
     articleId="ff731302-5b98-42fd-98d3-73317cd531a0"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Azure Data Movement Issue
@@ -57,9 +58,17 @@
             "displayLabel": "What's the sink of the copy activity?",
             "required": false
         },
+		{
+            "id": "problem_run_id",
+            "order": 5,
+            "controlType": "textbox",
+            "displayLabel": "Is this a run time issue? If yes, Provide the Pipeline or Activity RunIds (separated by commas)",
+            "required": true
+        },
         {
             "id": "ir_type",
-            "order": 5,
+            "order": 6,
+			"visibility": "null",
             "controlType": "dropdown",
             "displayLabel": "Which type of integration runtime are you using?",
             "watermarkText": "Choose an IR type",
@@ -80,18 +89,12 @@
             "required": true
         },
         {
-            "id": "sample_run_ids",
-            "order": 6,
-            "controlType": "textbox",
-            "displayLabel": "Is this a run time issue? If yes, please provide the RunIDs. (separate with commas)",
-            "required": false
-        },
-        {
-            "id": "factory_name",
+            "id": "problem_report_id",
             "order": 7,
+			"visibility": "ir_type == Self-hosted IR",
             "controlType": "textbox",
-            "displayLabel": "Name of the data factory",
-            "required": false
+            "displayLabel": "Please provide the ReportIDs from all nodes separated with commas. (see Solutions tab for guidance on how to obtain Report ID)",
+            "required": true
         },
         {
             "id": "problem_start_time",

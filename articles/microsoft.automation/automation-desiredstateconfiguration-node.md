@@ -10,8 +10,9 @@
     supportTopicIds="32627997"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="f97563fd-0f5c-4f44-81ef-bc9bb5f48ba6"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - State Configuration (DSC) - Node Configuration Fails
@@ -39,8 +40,12 @@
 
 ### Checking error logs
 
-* See "Using xDscDiagnostics to Analyze DSC Logs" for information on how to collect logs Support will need to help you with your case
-* You can also [follow the "Using DSC Logs to diagnose script errors" guide](https://docs.microsoft.com/powershell/dsc/troubleshooting/troubleshooting#my-script-wont-run-using-dsc-logs-to-diagnose-script-errors)
+* See ["Using xDscDiagnostics to Analyze DSC Logs"](https://docs.microsoft.com/powershell/scripting/dsc/troubleshooting/troubleshooting?view=powershell-5.1#using-xdscdiagnostics-to-analyze-dsc-logs) for information on how to collect logs Support will need to help you with your case.
+* You can also [follow the "Using DSC Logs to diagnose script errors" guide](https://docs.microsoft.com/powershell/scripting/dsc/troubleshooting/troubleshooting?view=powershell-5.1#my-script-wont-run-using-dsc-logs-to-diagnose-script-errors)
+
+### Import-DscResource: Could not find the module
+
+* You must upload modules included in your DSC configuration to the automation account. See [Adding required DSC resources to Pull Server](https://docs.microsoft.com/azure/automation/automation-dsc-cd-chocolatey#step-3-adding-required-dsc-resources-to-the-pull-server).
 
 ### DSC and VMSS
 
@@ -60,4 +65,4 @@
 * [Onboarding machines to Automation DSC](https://docs.microsoft.com/azure/automation/automation-dsc-onboarding)<br>
 * [Configure servers to a desired state](https://docs.microsoft.com/azure/automation/tutorial-configure-servers-desired-state) <br>
 * [Compiling Configurations in Automation DSC](https://docs.microsoft.com/azure/automation/automation-dsc-compile) <br>
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)

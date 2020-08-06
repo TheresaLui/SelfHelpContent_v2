@@ -4,12 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635667,32635679,32635684,32635695,32635696,32639660"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32692599,32692601,32725827,32692608"
+	productPesIds="17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_invoices"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Partner Center Invoice and Billing Issue
 ---
@@ -37,7 +38,7 @@
             ],
             "required": false
         },
-        {
+	        {
             "id": "pc_invoice_id",
             "order": 2,
             "controlType": "textbox",
@@ -46,8 +47,16 @@
             "required": false
         },
         {
-            "id": "pc_recon_type",
+            "id": "pc_subscription_id",
             "order": 3,
+            "controlType": "textbox",
+            "displayLabel": "Please provide the subscription id you have issues with.",
+            "watermarkText": "Provide the subscription id (GUID)",
+            "required": false
+        },
+        {
+            "id": "pc_recon_type",
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "What kind of recon file is your issue about?",
             "watermarkText": "Select recon file type",
@@ -69,7 +78,7 @@
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please provide additional information about your issue",
@@ -78,7 +87,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",

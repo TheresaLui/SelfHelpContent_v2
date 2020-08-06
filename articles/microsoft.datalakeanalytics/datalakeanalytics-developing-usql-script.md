@@ -2,17 +2,18 @@
 	pageTitle="Developing a U-SQL script"
 	description="Developing a U-SQL script"
 	service="Microsoft.DataLakeAnalytics"
-	resource="datalake"
+	resource="accounts"
 	ms.author="guyhay,v-anukar"
 	authoralias="guyhay,v-anukar"
 	authors="guyhay,v-anukar"
-	displayOrder="1"
+	displayOrder="14"
 	selfHelpType="resource"
 	supportTopicIds="32680644"
 	resourceTags=""
 	productPesIds="15940"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="datalakeanalytics-developing-a-U-SQL-script"
+	ownershipId="AzureData_AzureDataLakeAnalytics"
 />
 
 # Developing a U-SQL script

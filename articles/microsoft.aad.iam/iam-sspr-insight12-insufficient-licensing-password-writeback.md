@@ -13,12 +13,15 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_B2B"
 />
 
 # Insufficient licensing for password writeback
-<!--/issueDescription-->
-Your tenant <!--$TenantId-->[TenantId]<!--/$TenantId--> does not have the appropriate licensing required for password writeback. <!--$UserId-->[UserId]<!--/$UserId--> is a hybrid user, therefore, password writeback must be enabled and licensing acquired before they can change or reset their password.
+<!--issueDescription-->
+Your Azure AD does not have licenses required to use the password writeback capabilities of Azure AD. <!--$UserId-->[UserId]<!--/$UserId--> is a synchronized into Azure AD from your Windows Server AD.
+
+In order for that user to change their password from the cloud, you must obtain the required licenses and enable password writeback for your Azure AD.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

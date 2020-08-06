@@ -10,7 +10,8 @@
     selfHelpType="generic"
     productPesIds="15693"
     supportTopicIds="32402638"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
  
 # Is there a service outage?
