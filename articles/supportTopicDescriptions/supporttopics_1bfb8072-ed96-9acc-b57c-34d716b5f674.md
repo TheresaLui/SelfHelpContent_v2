@@ -294,6 +294,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "8c7bfbcb-f54a-0ce7-131b-67c87d9b3538",
+      "longDescription": "",
+      "shortDescription": "I need to increase my quota of alert rules",
+      "searchTags": "Alerts;Quata",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8e47ea30-80ad-2df6-e6c8-9a0a22e8a67b",
       "longDescription": "",
       "shortDescription": "Please raise issues related with Update Management under Azure Automation service",
