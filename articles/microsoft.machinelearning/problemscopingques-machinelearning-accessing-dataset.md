@@ -1,7 +1,6 @@
 <properties
 	pageTitle="problemscopingques-machinelearning-accessing-dataset"
 	description="Problem accessing dataset or connecting to datastore - scoping questions"
-	authors="SturgeonMi"
 	ms.author="xunwan"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32690860,32690849,32690851"
