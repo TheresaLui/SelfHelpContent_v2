@@ -378,8 +378,8 @@
       "longDescription": "",
       "shortDescription": "Issues when one or more of agent related processes are crashing (OMSAGENT, OMISERVER, OMIAGENT)",
       "searchTags": "Log Analytics;Agents;Data Collection;Process Crash;OMS",
-      "category": "Data Collection",
-      "useInDiagnoseAndSolve": "false"
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "cf4aa2ba-4538-7526-5f5f-eeee01bb3766",
