@@ -33,7 +33,7 @@
   * Follow the steps on section [cannot find register button to register self-hosted IR](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#cannot-find-register-button-to-register-a-self-hosted-ir)<br>
   
 * Unable to **register** the Self-hosted IR due to **localhost**<br>
-  * When trying to register the Self-hosted IR on a new Machine, a step gives the foowing error message: _A runtime error has occurred. The type initializer for 'Microsoft.DataTransfer.DIAgentHost.DataSourceCache' threw an exception. A non-recoverable error occurred during a database lookup._ <br>
+  * When trying to register the Self-hosted IR on a new Machine, a step gives the following error message: _A runtime error has occurred. The type initializer for 'Microsoft.DataTransfer.DIAgentHost.DataSourceCache' threw an exception. A non-recoverable error occurred during a database lookup._ <br>
   * Use Localhost 127.0.0.1 on host file and resolve such issue <br>
   
 * **Firewall and proxy related issues**: [possible symptoms and error messages](https://docs.microsoft.com/azure/data-factory/create-self-hosted-integration-runtime#possible-symptoms-for-firewall-and-proxy-server-related-issues) <br>
