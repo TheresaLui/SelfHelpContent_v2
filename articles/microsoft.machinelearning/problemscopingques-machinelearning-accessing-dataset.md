@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Problem accessing dataset or connecting to datastore: scoping questions"
-	description="Problem accessing dataset or connecting to datastore: scoping questions"
+  pageTitle="Problem accessing dataset or connecting to datastore: scoping questions"
+  description="Problem accessing dataset or connecting to datastore: scoping questions"
   ms.author="xunwan"
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32690860,32690849,32690851"
