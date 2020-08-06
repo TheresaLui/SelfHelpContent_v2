@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "22de0d6a-f14b-2df9-7936-6908c3e1272f",
+      "longDescription": "",
+      "shortDescription": "How to Configure Log Analytics data retention",
+      "searchTags": "Log Analytics;data retention",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "23945c76-b6c2-84a1-8258-bc3f3a95b001",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues related with Windows events within Log Analytics environment",
