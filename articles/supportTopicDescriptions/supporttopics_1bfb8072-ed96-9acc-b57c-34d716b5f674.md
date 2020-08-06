@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "40b4d34a-e61c-a0d3-1ac1-68f4617afd85",
+      "longDescription": "",
+      "shortDescription": "Investigate issues when one or more of the agent processes are crashing (HEALTHSERVICE.EXE, MONITORINGHOST.EXE)",
+      "searchTags": "Agents;Windows;Log Analytics;processes",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "429ce77a-1237-b75c-3107-a0fca3c4d9b8",
       "longDescription": "",
       "shortDescription": "Issues related to Log Analytics billing volume such as setting retention, daily cap, capacity reservation, or investigating unexpected high ingestion.",
