@@ -21,19 +21,19 @@
 
 ### **Migrate AWS VMs to Azure**
 
-Follow the [guidance here](https://go.microsoft.com/fwlink/?linkid=2137866)
+Follow the [guidance here.](https://go.microsoft.com/fwlink/?linkid=2137866)
 
 ### **Migrate physical servers/bare metal servers to Azure** 
 
-Follow the [guidance here](https://go.microsoft.com/fwlink/?linkid=2137867)
+Follow the [guidance here.](https://go.microsoft.com/fwlink/?linkid=2137867)
 
 ### **Migrate servers from other clouds (GCP, IBM Cloud, etc.) to Azure**
 
-You can migrate most x64 servers by treating them as physical servers for the purpose of migration. Follow the [guidance here](https://go.microsoft.com/fwlink/?linkid=2137963)
+You can migrate most x64 servers by treating them as physical servers for the purpose of migration. Follow the [guidance here.](https://go.microsoft.com/fwlink/?linkid=2137963)
 
 ### **Migrate Azure VMs from one Azure region to another**
 
-Use Azure Site Recovery (ASR) and follow the [guidance here](https://go.microsoft.com/fwlink/?linkid=2137868)
+Use Azure Site Recovery (ASR) and follow the [guidance here.](https://go.microsoft.com/fwlink/?linkid=2137868)
 
 
 ### **Agentless replication of VMware virtual machines**
