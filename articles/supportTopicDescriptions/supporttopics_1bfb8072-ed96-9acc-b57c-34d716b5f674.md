@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "618641f5-670c-a008-fa47-18e1438552c3",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with connecting an Azure Virtual machine to a Log Analytics workspace.",
+      "searchTags": "Agents;Log Analytics;Virtual Machine",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "64b4915e-677b-fa83-71d6-e36d1f8fde1e",
       "longDescription": "",
       "shortDescription": "Investigate issues related with Azure Activity Logs data collection and analysis",
