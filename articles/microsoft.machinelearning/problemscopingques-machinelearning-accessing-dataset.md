@@ -1,14 +1,15 @@
 <properties
-	pageTitle="problemscopingques-machinelearning-accessing-dataset"
+	pageTitle="problemscopingques machinelearning accessing dataset"
 	description="Problem accessing dataset or connecting to datastore - scoping questions"
 	ms.author="xunwan"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32690860,32690849,32690851"
 	productPesIds="16644"
-	articleId="b2dad4ce-43d2-4ed1-bac1-e9744d7a32fa"
-	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	ownershipID="AzureML_AzureMachineLearningServices"
+	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
 	schemaVersion="1"
+	articleId="b2dad4ce-43d2-4ed1-bac1-e9744d7a32fa"
+	ownershipID="AzureML_AzureMachineLearningServices"
+
 />
 
 
