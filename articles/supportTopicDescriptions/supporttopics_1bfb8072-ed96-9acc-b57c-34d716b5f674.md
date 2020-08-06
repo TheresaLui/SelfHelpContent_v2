@@ -518,6 +518,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "da35652f-e45e-616b-778b-9ce1b9b03628",
+      "longDescription": "",
+      "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its email.",
+      "searchTags": "Alerts;email",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e1d6454a-a824-7905-6e7f-7359d0ddeb0a",
       "longDescription": "",
       "shortDescription": "Investigate visualization issues with Azure Dashboards in Log Analytics workspace",
