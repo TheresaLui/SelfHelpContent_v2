@@ -1,6 +1,9 @@
 <properties
 	pageTitle="problemscopingques machinelearning accessing dataset"
 	description="Problem accessing dataset or connecting to datastore - scoping questions"
+	service="microsoft.machinelearning"
+	resource="machinelearning"
+	authors="SturgeonMi"
 	ms.author="xunwan"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32690860,32690849,32690851"
@@ -10,6 +13,8 @@
 	articleId="b2dad4ce-43d2-4ed1-bac1-e9744d7a32fa"
 	ownershipID="AzureML_AzureMachineLearningServices"
 />
+
+
 # Problem accessing dataset or connecting to datastore: scoping questions
 ---
 {
