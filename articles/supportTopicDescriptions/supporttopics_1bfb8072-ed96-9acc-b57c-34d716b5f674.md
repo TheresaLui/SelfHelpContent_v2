@@ -702,6 +702,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f7e3263c-e4d3-b51a-b208-10578a8dea15",
+      "longDescription": "",
+      "shortDescription": "How to protect myself from unexpected large data ingestion",
+      "searchTags": "Billing;data ingestion;Log Analytics",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fa751f6a-10f3-c7ae-1ae3-33dca5fcef52",
       "longDescription": "",
       "shortDescription": "Issues related to Log Analytics Clusters and Customer managed key (CMK)",
