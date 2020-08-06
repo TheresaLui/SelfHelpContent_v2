@@ -23,6 +23,17 @@
 
 ## **Recommended Steps**
 
+After you run a copy activity, you can collect the run result and performance statistics using the [copy activity monitoring view](https://docs.microsoft.com/azure/data-factory/copy-activity-monitoring), then, you can use the [Troubleshoot copy activity performance](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-troubleshooting) to review:
+
+* Copy Activity [Performance tuning tips and best practices](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-troubleshooting#performance-tuning-tips) including data store specific tips, data store throttling, integration runtime, fault tolerance and staged copy<br>
+* Understand [copy activity execution details](https://docs.microsoft.com/en-us/azure/data-factory/copy-activity-performance-troubleshooting#understand-copy-activity-execution-details) to help identifying possible bottlenecks you can focus on
+
+Consider using the following guides for tuning and improving the execution of the copy activity:
+* [Copy Activity performance features](https://docs.microsoft.com/en-us/azure/data-factory/copy-activity-performance-features) outlines the copy activity performance optimization features that you can leverage in Azure Data Factory, including:
+  * [Data Integration Units](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-features#data-integration-units) when using Azure IR <br>
+  * Self-hosted IR [Scalability] (https://docs.microsoft.com/azure/data-factory/copy-activity-performance-features#self-hosted-integration-runtime-scalability)
+  * [Parallel Copy](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-features#parallel-copy) which applieas for both, Azure IR and Self-hosted IR scenarios <br>
+
 * [Performance Tuning Guide](https://docs.microsoft.com/azure/data-factory/copy-activity-performance) offers detailed information about expected throughput and how to identify and address performance bottlenecks due to a variety of issues, including: <br>
   * data factory configuration <br>
   * integration runtime hosting and configuration <br>
@@ -35,6 +46,7 @@
 
 ## **Recommended Documents**
 
+[Copy Activity Performance Troubleshooting](https://docs.microsoft.com/azure/data-factory/copy-activity-performance-troubleshooting)
 Copy Activity Performance and Tuning [Guide](https://docs.microsoft.com/azure/data-factory/copy-activity-performance), including following sections: <br>
 
 * [Performance Reference](https://docs.microsoft.com/azure/data-factory/copy-activity-performance#performance-reference) helps you to choose appropriate _DIUs_ and _Self-hosted IR Scalability_ levels <br>
