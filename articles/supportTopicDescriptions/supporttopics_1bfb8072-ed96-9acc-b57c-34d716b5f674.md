@@ -330,7 +330,7 @@
       "longDescription": "",
       "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing",
       "searchTags": "Log Analytics;Agents;Data Collection;OMS",
-      "category": "Agents",
+      "category": "Agents and VMs",
       "useInDiagnoseAndSolve": "true"
     },
     {
