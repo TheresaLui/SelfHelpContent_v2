@@ -7,7 +7,7 @@
 	ms.author="scotro"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32411885,32411852"
+	supportTopicIds="32411885"
 	resourceTags="redhat"
 	productPesIds="15797"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
