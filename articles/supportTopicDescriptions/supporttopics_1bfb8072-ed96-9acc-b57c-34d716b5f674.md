@@ -134,6 +134,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2f1953a2-0707-4647-a2c3-262b024112b5",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with monitoring Container environments (AKS, hosted, and OnPrem)",
+      "searchTags": "Containers;AKS",
+      "category": "Solutions",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "314d31e0-2bfe-54d3-fff5-4644edb9bb01",
       "longDescription": "",
       "shortDescription": "Issues related with the Linux Log Analytics agent (previously known as OMS agent)",
