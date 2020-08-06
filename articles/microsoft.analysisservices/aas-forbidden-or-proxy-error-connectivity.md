@@ -18,8 +18,12 @@
 
 ## **Recommended Documents**
 
-* [Azure SQL Database gateway IP addresses](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-architecture#connectivity-from-outside-of-azure)
+* [Connecting to servers](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect)
 
+* [Quickstart: Configure server firewall - Portal](https://docs.microsoft.com/azure/analysis-services/analysis-services-qs-firewall)
 
+* [Hardening Azure Analysis Services with the new firewall capability](https://azure.microsoft.com/en-us/blog/hardening-azure-analysis-services-with-the-new-firewall-capability/)
 
+* [Azure Firewall FAQ](https://docs.microsoft.com/en-us/azure/firewall/firewall-faq)
 
+* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
