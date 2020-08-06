@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "58075aed-ada8-1dfd-425b-890c3215e3ea",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with the integration with System Center Operations Manager (SCOM)",
+      "searchTags": "Agents;Log Analytics;SCOM",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5e55f0c0-2f77-73cc-0de5-f301685b1932",
       "longDescription": "",
       "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing",
