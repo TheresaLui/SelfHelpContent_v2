@@ -31,7 +31,7 @@ Below are the solutions/workarounds available to use Azure Data Factory with Sto
 
 ### Azure Data Factory as a Trusted Service
 
-**Data Factory** is now part of ?**Trusted Services**? in **Azure Key Vault** and **Azure Storage**. [**Integration runtime**](https://docs.microsoft.com/azure/data-factory/concepts-integration-runtime) (Azure, Self-hosted, and SSIS) can now connect to Storage/ Key Vault without having to be inside the same virtual network or requiring you to allow all inbound connections to the service. 
+**Data Factory** is now part of **Trusted Services** in **Azure Key Vault** and **Azure Storage**. [**Integration runtime**](https://docs.microsoft.com/azure/data-factory/concepts-integration-runtime) (Azure, Self-hosted, and SSIS) can now connect to Storage/ Key Vault without having to be inside the same virtual network or requiring you to allow all inbound connections to the service. 
 
 **Note**: Mapping Data flows does not work using the ?Trusted Services? yet. We will be enabling this functionality for data flows soon.
 
@@ -58,3 +58,6 @@ Below are the solutions/workarounds available to use Azure Data Factory with Sto
 ## Recommended Documents
 
 1. [Data factory is now a trusted service](https://techcommunity.microsoft.com/t5/azure-data-factory/data-factory-is-now-a-trusted-service-in-azure-storage-and-azure/ba-p/964993)
+
+
+If this did not solve your issue, please restart the troubleshooter and choose the Generic Issues Troubleshooting option.

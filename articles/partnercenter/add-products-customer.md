@@ -35,5 +35,5 @@ Below are useful resources related to adding products to customers in partner ce
 - [Offers matrix includes which license-based products can be sold in various markets](https://docs.microsoft.com/partner-center/pricing-and-offers#offers-matrix)
 - [Sell Microsoft Azure reservations](https://docs.microsoft.com/partner-center/azure-reservations)
 - [Online services subscriptions](https://docs.microsoft.com/partner-center/customer-subscriptions)
-- [Partner Center: How to access Customer tab](https://support.microsoft.com/help/4559086/partner-center-how-to-access-customer-tab)
+- [Use "Assists your customer as" Agent roles for customer management](https://docs.microsoft.com/partner-center/permissions-overview)
 - [Transfer license-based services customers to the Cloud Solution Provider Program from another channel or from one partner to another](https://docs.microsoft.com/partner-center/transition-seat-based-services)

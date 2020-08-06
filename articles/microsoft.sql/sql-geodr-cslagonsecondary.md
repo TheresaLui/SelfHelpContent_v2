@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-* [Geo Replication Lag](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication#monitoring-geo-replication-lag?WT.mc_id=pid:13491:sid:32731232/)<br>
+* [Geo Replication Lag](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication?WT.mc_id=pid:13491:sid:32731232/#monitoring-geo-replication-lag)<br>
