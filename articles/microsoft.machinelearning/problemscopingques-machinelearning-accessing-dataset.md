@@ -11,10 +11,7 @@
 	ownershipID="AzureML_AzureMachineLearningServices"
 
 />
-
-
 # Problem accessing dataset or connecting to datastore: scoping questions
-
 ---
 {
     "$schema": "SelfHelpContent",
