@@ -25,7 +25,7 @@
     "formElements":
     [
 		{
-           		 "id": "problem_start_time",
+            		"id": "problem_start_time",
             		"order": 1,
             		"controlType": "datetimepicker",
             		"displayLabel": "When did the problem start?",
@@ -45,7 +45,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "Version",
 			"watermarkText": "What version of azureml-dataprep SDK is installed in your environment?",
-			"required": false
+			"required": true
 		}
 	]
 }
