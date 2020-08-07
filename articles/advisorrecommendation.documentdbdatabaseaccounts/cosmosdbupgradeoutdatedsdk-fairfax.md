@@ -3,7 +3,7 @@
     description="Upgrade your outdated Azure Cosmos DB SDK to the latest version"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="60a55165-9ccd-4536-81f6-e8dc6246d3d2_Public"
+    articleId="60a55165-9ccd-4536-81f6-e8dc6246d3d2_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
     ownershipId="AzureData_AzureCosmosDB"
