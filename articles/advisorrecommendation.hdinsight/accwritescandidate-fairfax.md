@@ -3,9 +3,9 @@
     description="Use Accelerated Writes to Improve Write Performance"
     authors="xunwei"
     ms.author="xunwei"
-    articleId="8109a740-abe9-453e-91fc-c25598de73d0_Public"
+    articleId="8109a740-abe9-453e-91fc-c25598de73d0_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Fairfax"
     ownershipId="AzureData_HDInsight"
 />
 # Use Accelerated Writes to Improve Write Performance
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "8109a740-abe9-453e-91fc-c25598de73d0",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').AccWriteCandidateHBaseClusters",
+    "streamNamespace": "cluster('https://hdinsightff.kusto.usgovcloudapi.net').database('HDInsightFF').AccWriteCandidateHBaseClusters",
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },

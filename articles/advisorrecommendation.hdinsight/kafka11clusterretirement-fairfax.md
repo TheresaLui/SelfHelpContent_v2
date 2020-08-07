@@ -3,9 +3,9 @@
     description="Deprecation of Kafka 1.1 in HDInsight 4.0 Kafka Cluster"
     authors="xunwei"
     ms.author="xunwei"
-    articleId="36dff9ef-afde-40f5-b742-79a0bafcf6c2_Public"
+    articleId="36dff9ef-afde-40f5-b742-79a0bafcf6c2_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Fairfax"
     ownershipId="AzureData_HDInsight"
 />
 # Deprecation of Kafka 1.1 in HDInsight 4.0 Kafka cluster
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "36dff9ef-afde-40f5-b742-79a0bafcf6c2",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').KafkaVersionRetirementInHDI",
+    "streamNamespace": "cluster('https://hdinsightff.kusto.usgovcloudapi.net').database('HDInsightFF').KafkaVersionRetirementInHDI",
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },

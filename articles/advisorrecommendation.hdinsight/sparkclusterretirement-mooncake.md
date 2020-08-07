@@ -3,9 +3,9 @@
     description="Deprecation of Older Spark Versions in HDInsight Spark cluster"
     authors="xunwei"
     ms.author="xunwei"
-    articleId="20dfc768-7850-4176-9707-b9bb52afb95a_Public"
+    articleId="20dfc768-7850-4176-9707-b9bb52afb95a_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_HDInsight"
 />
 # Deprecation of Older Spark Versions in HDInsight Spark cluster 
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "20dfc768-7850-4176-9707-b9bb52afb95a",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').SparkVersionRetirementInHDI",
+    "streamNamespace": "cluster('https://hdinsightmooncake2.chinanorth2.kusto.chinacloudapi.cn').database('HDInsightMC').SparkVersionRetirementInHDI",
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },

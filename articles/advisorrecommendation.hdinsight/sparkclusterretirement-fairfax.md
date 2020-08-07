@@ -3,9 +3,9 @@
     description="Deprecation of Older Spark Versions in HDInsight Spark cluster"
     authors="xunwei"
     ms.author="xunwei"
-    articleId="20dfc768-7850-4176-9707-b9bb52afb95a_Public"
+    articleId="20dfc768-7850-4176-9707-b9bb52afb95a_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Fairfax"
     ownershipId="AzureData_HDInsight"
 />
 # Deprecation of Older Spark Versions in HDInsight Spark cluster 
@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "20dfc768-7850-4176-9707-b9bb52afb95a",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://hdinsight.kusto.windows.net').database('HDInsight').SparkVersionRetirementInHDI",
+    "streamNamespace": "cluster('https://hdinsightff.kusto.usgovcloudapi.net').database('HDInsightFF').SparkVersionRetirementInHDI",
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },
