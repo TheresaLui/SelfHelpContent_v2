@@ -6,7 +6,7 @@
 	resource="account"
 	authors="ninallam"
 	ms.author="ninallam"
-	articleId="AZDevOpsPipelinesAzureWebAppIssues"
+	articleId="AZDevOpsPipelinesAzureFunctionAppIssues"
 	supportTopicIds="32742297"
 	diagnosticScenario=""
 	selfHelpType="generic"
