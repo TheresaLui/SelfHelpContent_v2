@@ -20,40 +20,14 @@
 ## **Recommended Steps**
 
 ### Error 40613: Database X on server Y is not currently available
+* You will receive error 40613 when the connection to the SQL Database fails due to:
 
-* This common, transient error occurs when you database is undergoing a reconfiguration, and normally lasts less than 60 seconds. [Read more](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database#transient-fault-error-messages-40197-40613-and-others?WT.mc_id=pid:13491:sid:32745425/) about how to handle this. <br>
-
-### **Azure SQL Connectivity Checker tool**
-
-This PowerShell script will run some connectivity checks from your machine to the server and database.
-
-In order to run it you need to:
-
-1. Open Windows PowerShell ISE in Administrator mode. For the better results, our recommendation is to use the advanced connectivity tests which demand to start PowerShell in Administrator mode. You can still run the basic tests, in case you decide not to run this way. Please note that script parameters 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace' will only work if the admin privileges are granted.
-
-2. Open a New Script window
-3. Paste the following in the script window:
-
+ - **Reconfiguration** - Reconfigurations can be caused by planned events (Ex. Software upgrades) or unplanned events (Ex. Process crash or load balancing). Most reconfiguration events are generally short lived, however these events can occasionally take longer to finish (Ex. Long-running transactions can cause long-running recovery).
+ - **DAC Connections** - DAC (Dedicated Admin Connection) limits maximum number of admin connections to the database to only one. In this scenario, you will receive an error:
+ 
 ```
-    $parameters = @{
-        Server = '.database.windows.net'
-        Database = ''  # Set the name of the database you wish to test, 'master' will be used by default if nothing is set
-        User = ''  # Set the login username you wish to use, 'AzSQLConnCheckerUser' will be used by default if nothing is set
-        Password = ''  # Set the login password you wish to use, 'AzSQLConnCheckerPassword' will be used by default if nothing is set
-
-        ## Optional parameters (default values will be used if omitted)
-        SendAnonymousUsageData = $true  # Set as $true (default) or $false
-        RunAdvancedConnectivityPolicyTests = $true  # Set as $true (default) or $false, this will load the library from Microsoft's GitHub repository needed for running advanced connectivity tests
-        CollectNetworkTrace = $true  # Set as $true (default) or $false
-        #EncryptionProtocol = '' # Supported values: 'Tls 1.0', 'Tls 1.1', 'Tls 1.2'; Without this parameter operating system will choose the best protocol to use
-    }
-
-    $ProgressPreference = "SilentlyContinue";
-    $scriptUrlBase = 'raw.githubusercontent.com/Azure/SQL-Connectivity-Checker/master'
-    Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLConnectivityChecker.ps1')).Content)) -ArgumentList $parameters
-    #end
+   "17810, Severity: 20, State: 2. \<Timeframe\> Could not connect because the maximum number of '%1' dedicated administrator connections already exists. Before a new connection can be made, the existing dedicated administrator connection must be dropped, either by logging off or ending the process.".
 ```
+Dedicated Admin connection for administrators are solely for diagnosing under rare circumstances and with limitations. To guarantee that there are resources available for the connection, only one DAC is allowed at a time. If you experience the above error, please ensure to disconnect the existing DAC connection prior to attempting a new DAC connection. For more information, please visit [Diagnostic Connection for Database Administrators](https://docs.microsoft.com/sql/database-engine/configure-windows/diagnostic-connection-for-database-administrators?WT.mc_id=pid:13491:sid:32745425).
+* For additional information, please refer to [Transient errors](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database?WT.mc_id=pid:13491:sid:32745425/#transient-fault-error-messages-40197-40613-and-others)
 
-4. Set the parameters on the script, you need to set server name. Database name, user and password are optional but desirable.
-5. Run it
-6. The results can be seen in the output window. If the user has the permissions to create folders, a folder with the resulting log file will be created. When running on Windows, the folder will be opened automatically after the script completes. A zip file with all the log files (AllFiles.zip) will be created. Please send us AllFiles.zip using the 'File upload' option in the 'Details' step.
