@@ -30,7 +30,7 @@ The most common issues and workarounds are detailed below.
 
 Consider the examples below where the property `order` is a reserved word and the property `price($)` contains a special character:
 
-<p>&nbsp;</p>
+<br>
 
 ```sql
 SELECT *
@@ -38,7 +38,7 @@ FROM c
 WHERE c["order"].orderId = "12345"
 ```
 
-<p>&nbsp;</p>
+<br>
 
 ```sql
 SELECT *
@@ -46,9 +46,9 @@ FROM c
 WHERE c["order"]["price($)"] > 50
 ```
 
-Aliasing with reserved keywords, spaces, or special characters
+Aliasing with reserved keywords, spaces, or special characters:
 
-<p>&nbsp;</p>
+<br>
 
 ```sql
 SELECT
