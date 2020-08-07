@@ -19,8 +19,8 @@
     "title": "Azure Data Factory Pipeline Info",
     "fileAttachmentHint": "Please attach JSON code for dataset, linked service, and output of activity run to help us triage your problem faster",
     "diagnosticCard": {
-        "title": "Azure mapping Data Flow Troubleshooter",
-        "description": "Our Azure mapping Data Flow RunId Troubleshooter can help you troubleshoot and solve your problem.",
+        "title": "Azure Pipeline Activity Troubleshooter",
+        "description": "Our Pipeline Activity RunId Troubleshooter can help you troubleshoot and solve your problem.",
         "insightNotAvailableText": "Our troubleshooter did not detect the issues we were looking for in your resource. Refer to the help manual below to troubleshoot your problem."
     },
     "formElements": [
