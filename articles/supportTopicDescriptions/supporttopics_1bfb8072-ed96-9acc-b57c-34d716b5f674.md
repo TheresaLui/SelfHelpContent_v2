@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "0cab330d-9656-4e19-cdb9-301fe51d1f4d",
+      "longDescription": "",
+      "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing.",
+      "searchTags": "Agents;Windows;Log Analytics;hearthbeat",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0db24733-52f0-5093-c414-2805551c8052",
       "longDescription": "",
       "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its email",
@@ -62,6 +70,30 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "179d83e2-4b29-badf-9f51-3695903976b7",
+      "longDescription": "",
+      "shortDescription": "Please raise issues related with Update Management under the Azure Automation service.",
+      "searchTags": "Automation;Update management",
+      "category": "Solutions",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "1a9d003d-dee4-e3ca-9798-d6d6dfddc70f",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues when it is not possible to create, modify or delete a view in View Designer.",
+      "searchTags": "View Designer",
+      "category": "View Designer",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "1c057d1f-a9c2-b778-93aa-0f6cdb2aba00",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related with the Service Map solution, including issue with the Dependency agent.",
+      "searchTags": "Service map;dependency",
+      "category": "Solutions",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1e34ca9c-f240-d239-4ba5-08913a1dc7af",
       "longDescription": "",
       "shortDescription": "Assistance on determining why a given query is not returning the expected results.",
@@ -74,7 +106,15 @@
       "longDescription": "",
       "shortDescription": "Troubleshoot agent installation failures",
       "searchTags": "Log Analitics;OMS;Agents;Installation",
-      "category": "Agents",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "22de0d6a-f14b-2df9-7936-6908c3e1272f",
+      "longDescription": "",
+      "shortDescription": "How to Configure Log Analytics data retention",
+      "searchTags": "Log Analytics;data retention",
+      "category": "Billing",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -84,6 +124,14 @@
       "searchTags": "Windows events",
       "category": "Data collection configuration",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "292d3195-558b-7255-ce4c-b2f3eac4a70c",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with connecting an Azure Virtual machine to a Log Analytics workspace.",
+      "searchTags": "Agent;Log Analytics;Virtual Machine",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "2c0b4df2-2497-9c34-488f-d0795d77a2c2",
@@ -99,6 +147,22 @@
       "shortDescription": "Assistance in authoring new queries or to improve existing queries",
       "searchTags": "queries;query;performance",
       "category": "Query Execution",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "2f1953a2-0707-4647-a2c3-262b024112b5",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with monitoring Container environments (AKS, hosted, and OnPrem)",
+      "searchTags": "Containers;AKS",
+      "category": "Solutions",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "30ddae08-4760-ee4b-4187-d11a1eaae8b3",
+      "longDescription": "",
+      "shortDescription": "Assistance with setting ingestion daily cap, and how to control data volume in your workspace ",
+      "searchTags": "Billing;Log Analytics;ingestion;data volume",
+      "category": "Billing",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -142,11 +206,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "40b4d34a-e61c-a0d3-1ac1-68f4617afd85",
+      "longDescription": "",
+      "shortDescription": "Investigate issues when one or more of the agent processes are crashing (HEALTHSERVICE.EXE, MONITORINGHOST.EXE)",
+      "searchTags": "Agents;Windows;Log Analytics;processes",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "429ce77a-1237-b75c-3107-a0fca3c4d9b8",
       "longDescription": "",
       "shortDescription": "Issues related to Log Analytics billing volume such as setting retention, daily cap, capacity reservation, or investigating unexpected high ingestion.",
       "searchTags": "Log Analytics;Workspace;Billing",
       "category": "Billing and Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4b6cc690-988d-72c1-7b50-4e5ed8597a9d",
+      "longDescription": "",
+      "shortDescription": "Issue related to Network monitoring - NPM, DNS.",
+      "searchTags": "NPM;DNS;Network monitoring",
+      "category": "Solutions",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "4fb18d17-9056-ed22-a90d-15e71a6ea99f",
+      "longDescription": "",
+      "shortDescription": "Investigate high processor (CPU) usage caused by one of the OMI processes (OMISERVER, OMIAGENT)",
+      "searchTags": "Agnets;Windows;CPU;OMI",
+      "category": "Agents and VMs",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -158,11 +246,43 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "58075aed-ada8-1dfd-425b-890c3215e3ea",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with the integration with System Center Operations Manager (SCOM)",
+      "searchTags": "Agents;Log Analytics;SCOM",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "5b12e9a4-5f97-959c-39b6-e6c31f977fae",
+      "longDescription": "",
+      "shortDescription": "I can see my fired alert in the Azure portal, but it did not call a webhook, logic app, Azure function, or automation runbook.",
+      "searchTags": "Alerts;webhook;Logic app;function;runbook",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5e55f0c0-2f77-73cc-0de5-f301685b1932",
       "longDescription": "",
       "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing",
       "searchTags": "Log Analytics;MMA;heartbeat;Agent",
       "category": "Agents",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "602e353e-ebe4-2a2f-2409-6879c9e8078a",
+      "longDescription": "",
+      "shortDescription": "I need assistance to understand my workspace billed costs",
+      "searchTags": "Billing;Log Analytics",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "618641f5-670c-a008-fa47-18e1438552c3",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with connecting an Azure Virtual machine to a Log Analytics workspace.",
+      "searchTags": "Agents;Log Analytics;Virtual Machine",
+      "category": "Agents and VMs",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -206,6 +326,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6f77daea-0c4c-c78a-b14a-36307e1b84c3",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with disconnecting an Azure Virtual machine to a Log Analytics workspace.",
+      "searchTags": "Agents;Log Analytics;Virtual Machine",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "78d61090-2f1f-f9cc-1108-16dfb6aa5383",
       "longDescription": "",
       "shortDescription": "Issue while linking and unlinking an Azure Automation account. For better troubleshooting content, please raise this issue on the Automation product",
@@ -220,6 +348,30 @@
       "searchTags": "Log Analytics;Alerts",
       "category": "Alerts",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7df0385d-a098-72c2-f419-8293761a4b0b",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with configuring Custom Logs within Log Analytics workspace.",
+      "searchTags": "Custom Logs;workspace",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "834c327b-4d87-138e-7368-30cff59d1712",
+      "longDescription": "",
+      "shortDescription": "Issues related to Log Analytics billing volume.",
+      "searchTags": "Log Analytics;Billing",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "88667a2b-ec88-7d1d-b65e-8c37a71567da",
+      "longDescription": "",
+      "shortDescription": "Investigate visualization issues with Azure Dashboards in Log Analytics workspace.",
+      "searchTags": "Log Analytics;Dashboard",
+      "category": "Query Execution and visualization",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "8958d151-7dfa-7dfb-5e5f-30fae6fa0f03",
@@ -238,6 +390,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "8c7bfbcb-f54a-0ce7-131b-67c87d9b3538",
+      "longDescription": "",
+      "shortDescription": "I need to increase my quota of alert rules",
+      "searchTags": "Alerts;Quata",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8e47ea30-80ad-2df6-e6c8-9a0a22e8a67b",
       "longDescription": "",
       "shortDescription": "Please raise issues related with Update Management under Azure Automation service",
@@ -252,6 +412,14 @@
       "searchTags": "Alerts;Log Analytics",
       "category": "Alerts",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "95839737-d421-7957-1186-077718eb0368",
+      "longDescription": "",
+      "shortDescription": "Troubleshoot issues related with the integration with issues related with the Log Analytics Gateway",
+      "searchTags": "OMS;Agents;Log Analytics",
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "99a9e88d-8597-6405-f244-633568b9deab",
@@ -286,6 +454,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a4cbf848-cc22-e020-4ac3-d09cca1d276c",
+      "longDescription": "",
+      "shortDescription": "How do I chose the pricing tier that best suits my needs. ",
+      "searchTags": "Billing;Log Analytics;pricing tier",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a720a040-57f2-8f4c-fcc8-feab03e15004",
       "longDescription": "",
       "shortDescription": "The action happen long time after the alert arrived to the portal",
@@ -310,12 +486,28 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b1cb91b5-5724-8df8-c49d-ee9cd35ed339",
+      "longDescription": "",
+      "shortDescription": "Issues related to VNet configurations, Private links, Private Endpoints",
+      "searchTags": "Private links;Private Endpoints;VNet Configuraitons",
+      "category": "Workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b38335b0-6c72-f78f-671f-a4002e517954",
       "longDescription": "",
       "shortDescription": "Troubleshoot errors generated while trying to access the azure logs blade in Log Analytics workspace",
       "searchTags": "access;log analytics;portal",
       "category": "Query Execution",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "b56cd2e1-e619-49de-18f4-fd91cdcc091e",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related with Azure Activity Logs data collection and analysis.",
+      "searchTags": "Activity Logs",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "b69e3143-055d-7d33-897c-30bcb43fd49d",
@@ -330,7 +522,7 @@
       "longDescription": "",
       "shortDescription": "Issues when the agent is not sending data or heartbeat data is missing",
       "searchTags": "Log Analytics;Agents;Data Collection;OMS",
-      "category": "Agents",
+      "category": "Agents and VMs",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -354,8 +546,8 @@
       "longDescription": "",
       "shortDescription": "Investigate high processor (CPU) usage caused by one of the OMI processes (OMISERVER, OMIAGENT)",
       "searchTags": "Log Analytics;CPU;OMI;Agents",
-      "category": "Performance",
-      "useInDiagnoseAndSolve": "false"
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "c6d2ee35-d81a-de56-258b-7e51e3e52e04",
@@ -364,6 +556,30 @@
       "searchTags": "performance;times out;too long;query;log analytics",
       "category": "Query Execution",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "ca7f2e16-4d40-8d40-df9c-381631368faf",
+      "longDescription": "",
+      "shortDescription": "I need assistance to understand the usage in my workspace.",
+      "searchTags": "Billing;Workspace;Log Analytics",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "cb542110-8b87-318e-c6ab-36c5ec4118a5",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related with sending Diagnostic Logs data from Azure resources to a Log Analytics workspace.",
+      "searchTags": "Diagnostic Logs",
+      "category": "Data collection configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "cbc8e6c1-31b3-e54c-fc44-b1cedde5a1b4",
+      "longDescription": "",
+      "shortDescription": "I can see my fired alert in the Azure portal, but an expected ITSM action did trigger or was not received appropriately.",
+      "searchTags": "Alerts;ITSM;actions",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "cd8d9ea2-8d77-4239-9d47-3381bcdd6cb8",
@@ -378,8 +594,8 @@
       "longDescription": "",
       "shortDescription": "Issues when one or more of agent related processes are crashing (OMSAGENT, OMISERVER, OMIAGENT)",
       "searchTags": "Log Analytics;Agents;Data Collection;Process Crash;OMS",
-      "category": "Data Collection",
-      "useInDiagnoseAndSolve": "false"
+      "category": "Agents and VMs",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "cf4aa2ba-4538-7526-5f5f-eeee01bb3766",
@@ -414,11 +630,27 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "da35652f-e45e-616b-778b-9ce1b9b03628",
+      "longDescription": "",
+      "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its email.",
+      "searchTags": "Alerts;email",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e1d6454a-a824-7905-6e7f-7359d0ddeb0a",
       "longDescription": "",
       "shortDescription": "Investigate visualization issues with Azure Dashboards in Log Analytics workspace",
       "searchTags": "Dashboards;workspace;Log Analytics;visualization",
       "category": "Portal and visualization",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e3f3b2bd-de5c-923e-dad3-48e82685d665",
+      "longDescription": "",
+      "shortDescription": "Investigate issues related with sending Diagnostic Logs data from Azure resources to a Log Analytics workspace.",
+      "searchTags": "Diagnostic Logs;workspace",
+      "category": "Data collection configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -436,6 +668,14 @@
       "searchTags": "Power BI",
       "category": "Portal and visualization",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "e97fa065-3620-e755-f579-f6bfbd68362e",
+      "longDescription": "",
+      "shortDescription": "I can see my fired alert in the Azure portal, but did not receive its SMS, push notification, or voice call.",
+      "searchTags": "Alerts;SMS;Actions;notificaitons",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "eb40c2d7-31ba-113a-9454-118b93ee8dbe",
@@ -499,6 +739,22 @@
       "shortDescription": "A log search alert should have fired but I do not see it in the Azure  portal",
       "searchTags": "Alerts;Log Analytics",
       "category": "Alerts",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "f7e3263c-e4d3-b51a-b208-10578a8dea15",
+      "longDescription": "",
+      "shortDescription": "How to protect myself from unexpected large data ingestion",
+      "searchTags": "Billing;data ingestion;Log Analytics",
+      "category": "Billing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fa751f6a-10f3-c7ae-1ae3-33dca5fcef52",
+      "longDescription": "",
+      "shortDescription": "Issues related to Log Analytics Clusters and Customer managed key (CMK)",
+      "searchTags": "Log Analytics;Clusters;Managed keys",
+      "category": "Workspace",
       "useInDiagnoseAndSolve": "false"
     }
   ]
