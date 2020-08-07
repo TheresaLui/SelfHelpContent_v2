@@ -55,7 +55,7 @@
             "id": "problem_report_id",
             "order": 4,
             "controlType": "textbox",
-            "displayLabel": "Is this a run time issue? If yes, please provide the Report ID. (see Solutions tab for guidance on how to obtain it)",
+            "displayLabel": "Please provide the ReportIDs from all nodes. (see Solutions tab for guidance on how to obtain it)",
             "required": false
         },
         {

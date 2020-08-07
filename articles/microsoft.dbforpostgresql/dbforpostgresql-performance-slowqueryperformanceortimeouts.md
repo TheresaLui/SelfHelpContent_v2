@@ -33,7 +33,13 @@ To verify that you are experiencing slow query performance due to query executio
 
 * Ensure you have the right set of indexes created for your queries
 * Make sure that there are no deadlocks in the concurrent queries
-* Monitor the resource consumption of your server. If compute, memory or IO is the limiting factor, consider scaling up the resource that you are limited on.
+* Monitor the resource consumption of your server:
+
+  * Higher CPU Consumption: (a) check for high connection churn (open/close) as it can lead to high CPU consumption (b) check for queries are consuming most CPUs and look for ways to optimize them
+  * IO throttling: Before opting to increase IOPS, identify queries that are generating most IOs and look for ways to reduce IO. For example, index may be missing.
+  * High memory utilization: high memory can cause data churn leading to higher IOs
+  * If left with no other choice,  consider scaling up the resource that you are limited on
+
 * Only retrieve the columns you really need instead of using 'SELECT *'
 * Double-check your PostgreSQL logging settings (see below)
 

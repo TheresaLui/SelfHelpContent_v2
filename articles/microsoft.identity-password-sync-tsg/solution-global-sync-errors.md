@@ -17,6 +17,10 @@
 
 # Resolving global sync errors
 
-* If the customer is encounting global sync errors they can be resolved through the steps below
-* Open Azure AD Connect Wizard from the Desktop icon, click Configure, Troubleshoot, then Launch.
-* On the PowerShell menu, click ‘1’ and then ‘1’ again to Diagnose Object Synchronization Issues.
+<!--issueDescription-->
+
+1. If the customer is encounting global sync errors they can be resolved through the steps below
+2. Open Azure AD Connect Wizard from the Desktop icon, click Configure, Troubleshoot, then Launch.
+3. On the PowerShell menu, click ‘1’ and then ‘1’ again to Diagnose Object Synchronization Issues.
+
+<!--/issueDescription-->

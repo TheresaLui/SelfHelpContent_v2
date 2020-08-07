@@ -17,9 +17,9 @@
 
 # How to check connect user permissions
 
-* A powershell command exists to set permissions
-* There is no command to test or check permissions
-* The powershell command is as follows
+1. A powershell command exists to set permissions
+2. There is no command to test or check permissions
+3. The powershell command is as follows
 
 ~~~powershell
 
@@ -28,7 +28,7 @@ Set-ADSyncPasswordHashSyncPermissions -ADConnectorAccountName <String> -ADConnec
 ~~~
 
 
-## **Recommended Documents**
+## Recommended Documents
 
-* [Azure AD Connect: Accounts and permissions](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-accounts-permissions)
-* [Azure AD Connect: Configure AD DS Connector Account Permissions](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-configure-ad-ds-connector-account)
+1. [Azure AD Connect: Accounts and permissions](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-accounts-permissions)
+2. [Azure AD Connect: Configure AD DS Connector Account Permissions](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-configure-ad-ds-connector-account)

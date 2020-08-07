@@ -17,26 +17,30 @@
 
 # Domain can not be verified in multiple Azure AD instances
  
-## Root Cause
-
-* A user created in Azure AD can only have a domain name that has previously been added and verified in that Azure AD. 
-* A domain name can be verified in only one Azure AD at a time.
+ <!--issueDescription-->
  
-## Solution 1
+### Root Cause
 
-* To create a user whose user name contains ‘contoso.com’, you will to delete that domain name from the other Azure AD (contoso.onmicrosoft.com). 
-* Then you can verify it in contosoltd.onmicrosoft.com, and add users with user names like ‘alice@contoso.com.’
+1. A user created in Azure AD can only have a domain name that has previously been added and verified in that Azure AD. 
+2. A domain name can be verified in only one Azure AD at a time.
  
-## Solution 2
+### Solution 1
 
-* You can create a user whose user name contains a domain name that is already available for use in your Azure AD, e.g., ‘alice@contoso.onmicrosoft.com.’
+1. To create a user whose user name contains ‘contoso.com’, you will to delete that domain name from the other Azure AD (contoso.onmicrosoft.com). 
+2. Then you can verify it in contosoltd.onmicrosoft.com, and add users with user names like ‘alice@contoso.com.’
  
-## Solution 3
+### Solution 2
 
-* You can invite a user from the other directory as a B2B guest in your directory. 
-* The B2B guest user’s credential would remain under the control of the administrators of that other directory.
+1. You can create a user whose user name contains a domain name that is already available for use in your Azure AD, e.g., ‘alice@contoso.onmicrosoft.com.’
  
-## **Recommended Documents**
+### Solution 3
+
+1. You can invite a user from the other directory as a B2B guest in your directory. 
+2. The B2B guest user’s credential would remain under the control of the administrators of that other directory.
+ 
+ <!--/issueDescription-->
+
+## Recommended Documents
 
 * [Domain names in the Azure AD administration portal experience](http://todo-add-link.com)
 * [Documentation: Creating a user in Azure AD](http://todo-add-link.com)

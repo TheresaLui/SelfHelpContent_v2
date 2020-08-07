@@ -17,7 +17,7 @@
 
 # Perform verbose tracing
 
-* To perform verbose tracing, follow these steps
+1. To perform verbose tracing, follow these steps
 
 ~~~powershell
 
@@ -25,9 +25,9 @@ Net Stop ADSync
 
 ~~~
 
-* Open miiserver.exe.config
-* Make sure folder c:\temp\ exists
-* Add following fragment at appropriate location. 
+2. Open miiserver.exe.config
+3. Make sure folder c:\temp\ exists
+4. Add following fragment at appropriate location. 
 *MAKE SURE YOUR EDITOR DIDN T INSERT NON ASCII CHARACTERS OR SPECIAL QUOTATION MARKS OR SPECIAL WHITESPACE CHARACTERS*
 
 ~~~xml
@@ -36,7 +36,7 @@ Net Stop ADSync
 
 ~~~
 
-* Start ADSync
+5. Start ADSync
 
 ~~~powershell
 
@@ -44,7 +44,7 @@ Net Start ADSync
 
 ~~~
 
-* Run the experiment e.g. reset password on a test object and wait for 5-10 minutes, if running full password sync, wait for it to be over, or if you are troubleshooting connectivity issues etc, simply wait as necessary.
-* Above configuration collects traces at C:\Temp\passwordSyncVerboseTrace.log
-* Revert configuration to the original configuration when complete
-* Send diagnostics collected to PG/EEE for analysis if nothing found on initial analysis
+6. Run the experiment e.g. reset password on a test object and wait for 5-10 minutes, if running full password sync, wait for it to be over, or if you are troubleshooting connectivity issues etc, simply wait as necessary.
+7. Above configuration collects traces at C:\Temp\passwordSyncVerboseTrace.log
+8. Revert configuration to the original configuration when complete
+9. Send diagnostics collected to PG/EEE for analysis if nothing found on initial analysis
