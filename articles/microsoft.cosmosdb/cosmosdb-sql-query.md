@@ -26,8 +26,6 @@ The most common issues and workarounds are detailed below.
 
 **Understand common query syntax errors**
 
-- Using reserved keywords or special characters
-
 Consider the examples below where the property `order` is a reserved word and the property `price($)` contains a special character:
 
 ```
@@ -42,7 +40,7 @@ FROM c
 WHERE c["order"]["price($)"] > 50
 ```
 
-Aliasing with reserved keywords, spaces, or special characters:
+The below example shows aliasing with reserved keywords, spaces, and special characters:
 
 ```
 SELECT
