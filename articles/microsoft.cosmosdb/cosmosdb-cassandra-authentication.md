@@ -9,10 +9,11 @@
 	supportTopicIds="32636769"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-cassandra-authentication"
 	displayOrder="140"
 	category="Cassandra"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Cassandra authentication

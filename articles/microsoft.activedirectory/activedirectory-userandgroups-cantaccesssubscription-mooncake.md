@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="activedirectory-userandgroups-cantaccesssubscription-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # I can’t access an Azure subscription

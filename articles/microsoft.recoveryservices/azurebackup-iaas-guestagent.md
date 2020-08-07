@@ -10,19 +10,33 @@
 	supportTopicIds="32684549"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="1f35691a-9c9f-4176-add6-52866f441644"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Diagnose and resolve issues with Azure Virtual Machine Windows Guest Agent
 
 ## **Recommended Steps**
-Your backup operation will fail with *UserErrorGuestAgentStatusUnavailable - VM agent unable to communicate with Azure Backup* if the Azure VM Guest Agent is not in **Ready** state. To resolve this issue: 
--  Open *Azure Portal > VM > Settings > Properties blade > agent status* and check if it is **Ready**. If not check whether the *Windows Azure Guest Agent* service is running in the VM services (using services.msc). Try to restart the *Windows Azure Guest Agent* service and retry the backup operation (try an ad-hoc backup). For steps to restart the agent, see [Windows VMs](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#the-agent-installed-in-the-vm-but-unresponsive-for-windows-vms) or [Linux VMs](https://docs.microsoft.com/azure/virtual-machines/linux/update-agent).
--  If *Windows Azure Guest Agent* service does not restart, then [download](https://go.microsoft.com/fwlink/?LinkID=394789&clcid=0x409), reinstall the agent, ensure it is in **Ready** state and retry the backup operation. 
+
+**START HERE**:  To **self-resolve** common VM Guest agent issues, follow these [step-by-step](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-2-check-azure-vm-guest-agent-service-health) instructions
+- Ensure *Azure VM Guest Agent* service is up and running on the latest version, [for Windows](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows#manual-installation), [for Linux](https://docs.microsoft.com/azure/virtual-machines/extensions/update-linux-agent)
+- A manual installation of the [Windows VM Guest Agent](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows#manual-installation) or [Linux VM Agent](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-linux#installation) may be necessary when you create a custom VM image that is deployed to Azure.
+-  Review the supported/not supported [Linux Operating System and dependent *Python version*](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#operating-system-support-linux)
+- Review the supported/not supported [Windows Operating System](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas#operating-system-support-windows)
+
+
+**Common error codes**
+- [**UserErrorGuestAgentStatusUnavailable** - VM agent unable to communicate with Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#UserErrorGuestAgentStatusUnavailable-vm-agent-unable-to-communicate-with-azure-backup)
+- [**GuestAgentSnapshotTaskStatusError** - Could not communicate with the VM agent for snapshot status](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#guestagentsnapshottaskstatuserror---could-not-communicate-with-the-vm-agent-for-snapshot-status)
+- [**UserErrorVmNotInDesirableState** - VM is not in a state that allows backups](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#usererrorvmnotindesirablestate---vm-is-not-in-a-state-that-allows-backups)
+
+**Additional reference**
+- [Complete list of supported, unsupported and know limitations](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas) for Azure VM backup
+- Review the [best practices before you enable Azure VM backup](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices)
 
 ## **Recommended Documents**
 
-- [UserErrorGuestAgentStatusUnavailable - VM agent unable to communicate with Azure Backup](https://go.microsoft.com/fwlink/?linkid=2107408)
-- [Install the VM agent](https://go.microsoft.com/fwlink/?linkid=2107314)
-- [The agent is installed in the VM, but it's unresponsive](https://go.microsoft.com/fwlink/?linkid=2107410)
+- [Common configuration errors and how to troubleshoot them](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot)
+- [Troubleshooting Azure VM extension and Guest Agent issues](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout)
+- Azure VM backup - [Frequently asked questions](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq)

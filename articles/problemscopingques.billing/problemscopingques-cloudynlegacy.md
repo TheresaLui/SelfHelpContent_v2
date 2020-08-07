@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32615279,32615288,32615289,32615290,32615291,32615292,32615294,32615295,32615296,32615299,32615300,32615301,32615302,32615303,32615304,32615305"
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 # Cloudyn Legacy
 ---

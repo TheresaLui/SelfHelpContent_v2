@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640091"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mysql-perf-max_connection"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Performance and Query Execution - Server hit maximum connection limit
 ---

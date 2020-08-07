@@ -5,10 +5,11 @@
     ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640024"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="17067,17069,17068"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-createupdatedrop-server"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Create Update and Drop Resources - Server
 ---

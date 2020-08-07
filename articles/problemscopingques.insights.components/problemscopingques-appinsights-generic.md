@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32402602, 32602201, 32402604, 32402605, 32602213, 32402614, 32602206, 32632996, 32602207, 32602208, 32632997, 32609669, 32602211, 32602214, 32602218, 32452725, 32402641, 32632981, 32632988, 32632989, 32632990, 32632991, 32632993, 32402626, 32602209, 32602204, 32602205, 32602222, 32632998, 32546624, 32602225, 32602224, 32602223, 32629553"
 	productPesIds="15693"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # Application Insights
 ---

@@ -10,8 +10,9 @@
     supportTopicIds="32690778,32690779,32690780,32690781,32690782,32690783"
     resourceTags=""
     productPesIds="14749"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="0e4cade2-509a-40c5-853e-5a6980461ca3"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Cannot activate my Windows VM

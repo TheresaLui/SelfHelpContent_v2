@@ -12,8 +12,9 @@
 	selfHelpType="rca"
 	supportTopicIds="32628458, 32628418"
 	resourceTags="windows, linux"
-	productPesIds="16222"
-	cloudEnvironments="public"
+	productPesIds="16222, 17067"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # PostgreSQL server marked read-only because server storage is full
@@ -24,8 +25,8 @@ During our investigation we determined that the database server was marked as re
 
 Servers with less than 100 GB provisioned storage are marked read-only if the free storage is less than 512MB or 5% of the provisioned storage size. Servers with more than 100 GB provisioned storage are marked read only when the free storage is less than 5 GB. For example:
 
-1. If you have provisioned 110 GB of storage, and the actual utilization goes over 105 GB, the server is marked read-only
-2. Alternatively, if you have provisioned 5 GB of storage, the server is marked read-only when the free storage reaches less than 512 MB
+* If you have provisioned 110 GB of storage, and the actual utilization goes over 105 GB, the server is marked read-only
+* Alternatively, if you have provisioned 5 GB of storage, the server is marked read-only when the free storage reaches less than 512 MB
 
 The server will automatically be set to read/write again, when at least 5 GB of storage or 5% of the provisioned storage is free again.
 <!--/issueDescription-->

@@ -7,9 +7,10 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32581619"
 	productPesIds="14748"
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="73799750-2889-45e0-b6ea-ddb118e38d07"
+	ownershipId="Compute_AppService"
 />
 
 # Moving resources

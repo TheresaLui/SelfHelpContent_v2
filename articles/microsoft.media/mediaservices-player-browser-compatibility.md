@@ -13,7 +13,8 @@
 	supportTopicIds="32632081"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Azure Media Player browser and OS compatibility

@@ -5,9 +5,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602697"
 	productPesIds="15629"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="45381637-aa37-4dbf-81aa-529ab0d16599"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 # Storage Firewall and VNet
 ---

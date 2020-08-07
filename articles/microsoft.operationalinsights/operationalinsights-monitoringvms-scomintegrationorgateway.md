@@ -14,7 +14,8 @@ selfHelpType="generic"
 supportTopicIds="32633006"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # SCOM and Log Analytics integration issues

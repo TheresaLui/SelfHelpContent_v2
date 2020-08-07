@@ -11,8 +11,9 @@ pageTitle="Multiple sync clients detected"
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
+	productPesIds="16666"
+  cloudEnvironments="public, Fairfax, Mooncake, ussec, usnat"
+  ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Multiple sync clients detected

@@ -9,8 +9,9 @@
 	supportTopicIDs=""
 	resourceTags="devices_overview"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="c2c4333b-f96f-4c41-876b-3f9919fb4a49"
+	ownershipId="AzureIdentity_User"
 />
 
 # Can I restrict access to Devices in the Azure AD administration portal?

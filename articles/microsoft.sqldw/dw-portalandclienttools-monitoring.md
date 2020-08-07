@@ -11,7 +11,8 @@
     selfHelpType="generic"
     resourceTags="datawarehouse"
     articleId="dw-portalandclienttools-monitoring.md"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 
 # Monitoring, metrics or alerts

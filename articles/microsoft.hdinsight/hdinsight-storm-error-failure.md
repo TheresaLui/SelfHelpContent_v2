@@ -10,8 +10,9 @@
     supportTopicIds="32636501"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
     articleId="hdinsight-storm-error-failure"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight Storm Troubleshooting

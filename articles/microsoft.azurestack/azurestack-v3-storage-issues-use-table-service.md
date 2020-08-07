@@ -10,8 +10,9 @@
     supportTopicIds="32663906"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="ad9ff38d-f779-461d-9238-708e848761e6"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Table service usage issues

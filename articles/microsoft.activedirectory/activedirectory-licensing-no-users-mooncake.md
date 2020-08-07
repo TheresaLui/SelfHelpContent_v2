@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
  	articleId="activedirectory-licensing-no-users-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # A user doesn't have the right licenses

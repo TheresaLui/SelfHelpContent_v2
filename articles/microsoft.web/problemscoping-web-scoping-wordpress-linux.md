@@ -7,9 +7,10 @@
    selfHelpType="problemScopingQuestions"
 	supportTopicIds="32444080"
 	productPesIds="16170"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
    schemaVersion="1"
    articleId="746b4c1e-8b99-8236841af287"
+	ownershipId="Compute_AppService"
 />
 
 # WordPress

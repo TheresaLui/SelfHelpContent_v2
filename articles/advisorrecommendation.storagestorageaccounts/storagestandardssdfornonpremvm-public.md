@@ -5,7 +5,8 @@
     ms.author="xdataanalytics"
     articleId="2df6d034-c368-405b-b909-2b5811055dba_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Use Standard SSD for performance on VMs that do not support Premium Disks
 ---
@@ -17,13 +18,13 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://xstore.kusto.windows.net').database('xstore').StorageAdvisorStandardSSDForNonPremVMPublic",
     "dataSource": "Kusto",
-    "refreshInterval": "12:00:00"
+    "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "StandardSSDForNonPremVM",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "owner": {
     "email": "lisson@microsoft.com",
     "icm": {
@@ -33,7 +34,7 @@
     },
     "serviceTreeId": "734379f9-2d2c-48d4-a52a-5c509f699de4"
   },
-  "version": 1,
+  "version": 2,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-machines/windows/disks-types#standard-ssd",
   "description": "Upgrade to Standard SSD Disks for consistent and improved performance",
   "longDescription": "Because you are running IaaS virtual machine workloads on Standard HDD managed disks, we wanted to let you know that a Standard SSD disk option is now available for all Azure VM types. Standard SSD disks are a cost-effective storage option optimized for enterprise workloads that need consistent performance. Upgrade your disk configuration today for improved latency, reliability, and availability. Upgrading requires a VM reboot, which will take three to five minutes.",

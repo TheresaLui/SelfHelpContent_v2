@@ -11,7 +11,8 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="search-regions.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureSearch_AzureSearch"
 />
 
 # Azure Cognitive Search is not available in my desired region

@@ -11,8 +11,9 @@
 	supportTopicIds="32628779"
 	resourceTags=""
 	productPesIds="15663"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ms.author="sidram"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # Debug a Job

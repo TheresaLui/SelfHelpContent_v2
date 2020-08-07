@@ -6,6 +6,7 @@
     articleId="dc791c8d-a74e-4b3e-b7f1-40793399ecd6_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Scale the storage limit for MariaDB server
 ---
@@ -15,8 +16,10 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "dc791c8d-a74e-4b3e-b7f1-40793399ecd6",
   "dataSourceMetadata": {
+    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetMariaDBStorageRecommendations",
     "schemaVersion": 2.0,
-    "dataSource": "SAS"
+    "dataSource": "Kusto",
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",

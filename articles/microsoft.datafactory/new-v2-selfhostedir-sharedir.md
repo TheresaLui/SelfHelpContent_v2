@@ -7,10 +7,11 @@
 	articleId="3aee3661-982d-4627-a8dc-a9afe84cc820"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32629541, 32629542"
+	supportTopicIds="32629541"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Sharing Self-hosted IR
@@ -29,3 +30,6 @@
   * [Share the Self-hosted IR](https://docs.microsoft.com/azure/data-factory/create-shared-self-hosted-integration-runtime-powershell#share-the-self-hosted-integration-runtime-with-another-data-factory) <br>
   * [Create Linked Self-hosted IR](https://docs.microsoft.com/azure/data-factory/create-shared-self-hosted-integration-runtime-powershell#create-a-linked-self-hosted-integration-runtime) <br>
   * [Revoke Sharing](https://docs.microsoft.com/azure/data-factory/create-shared-self-hosted-integration-runtime-powershell#revoke-integration-runtime-sharing-from-a-data-factory) <br>
+
+* [Troubleshoot Self-Hosted Integration Runtime](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide) <br>
+  **Note:** Please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** to provide it with the support request if needed.

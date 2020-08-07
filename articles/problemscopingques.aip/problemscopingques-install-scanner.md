@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
 	supportTopicIds="32727933"
     productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
     articleId="scoping_installation_issues_scanner"
 	schemaVersion="1"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 # Can't apply this label
 ---
@@ -45,16 +46,16 @@
                 "order": 3,
 				"visibility": "client_type == Azure Information Protection client (classic)",
                 "controlType": "textbox",
-                "displayLabel": "What version are you using? For details, use the link in the help balloon",
-				"infoBalloonText": "Verify that you use a <a href='https://docs.microsoft.com/azure/information-protection/rms-client/client-version-release-history'>supported version</a>",
+                "displayLabel": "Which version are you using? For details, use the link in the help balloon",
+				"infoBalloonText": "You can see the version number Using Protect/Sensitivity button - Help and Feedback. Verify that you use a <a href='https://docs.microsoft.com/azure/information-protection/rms-client/client-version-release-history'>supported version</a>",
                 "required": true
                 },{
                 "id": "version_number_ul",
                 "order": 4,
 				"visibility": "client_type == Azure Information Protection Unified Labeling Client",
                 "controlType": "textbox",
-                "displayLabel": "What version are you using? For details, use the link in the help balloon",
-				"infoBalloonText": "Verify that you use a <a href='https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history'>supported version</a>",
+                "displayLabel": "Which version are you using? For details, use the link in the help balloon",
+				"infoBalloonText": "You can see the version number Using Protect/Sensitivity button - Help and Feedback. Verify that you use a <a href='https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history'>supported version</a>",
                 "required": true
                 },{
                 "id": "os_type",

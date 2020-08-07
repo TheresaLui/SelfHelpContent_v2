@@ -4,11 +4,12 @@
     ms.author="t-reutam"
     authors="ReutAmior"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32606571"
+    supportTopicIds="32740746, 32740748"
     productPesIds="16535"
     articleId="problemscopingques-video-indexer-upload"
-    cloudEnvironments="public,blackForest,fairfax,mooncake"
+    cloudEnvironments="public,blackForest,fairfax, usnat, ussec"
     schemaVersion="1"
+    ownershipId="StorageMediaEdge_Media_VI"
 />
 # Uploading a video to Video Indexer
 ---
@@ -124,7 +125,6 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What is your Video Indexer account ID?",
             "watermarkText": "Please provide the Video Indexer account ID.",
-
             "infoBalloonText": "You can find your account ID in the Video Indexer portal under the Settings page in the Account tab",
             "required": true
         },

@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32558764"
 	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="dfe796d1-7da5-f86f-0458-d2b2429413dc"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Connect Excel to an Azure Analysis Services server
@@ -19,6 +20,10 @@
 
 * [Connect Excel to an Azure Analysis Services server](https://azure.microsoft.com/blog/connect-excel-to-an-azure-analysis-services-server/)
 
+* [Analysis Services client libraries](https://docs.microsoft.com/analysis-services/client-libraries?view=azure-analysis-services-current)
 
+* [Connection string properties](https://docs.microsoft.com/analysis-services/instances/connection-string-properties-analysis-services?view=azure-analysis-services-current)
 
+* [Create an Office Data Connection file (.odc)](https://docs.microsoft.com/azure/analysis-services/analysis-services-odc)
 
+* [Connecting to servers](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect)

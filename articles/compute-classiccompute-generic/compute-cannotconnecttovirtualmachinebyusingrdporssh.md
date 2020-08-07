@@ -7,11 +7,12 @@
 	ms.author="scotro,tibasham"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32615531,32615526,32633498,32639640"
+	supportTopicIds="32615531,32615526"
 	resourceTags=""
 	productPesIds="14749,14745"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="d67fb475-a831-4f4b-a6ce-7fbacb0bf9df"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # connectivity/cannot connect to virtual machine using rdp or ssh
@@ -30,7 +31,7 @@
   	* [Remote Desktop disconnects frequently in Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-intermittent-connectivity)<br>
   	* [Troubleshoot a general RDP error in an Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-general-error)<br>
   	* [Remote Desktop Services is not starting on an Azure VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-remote-desktop-services-issues)<br>
-  	* [Reset Remote Access to address remote server issues using PowerShell or CLI](http://aka.ms/resetsarmwinremoteaccess)<br>
+  	* [Reset Remote Access to address remote server issues using PowerShell or CLI](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection)<br>
 
 ## **Recommended Documents**
 

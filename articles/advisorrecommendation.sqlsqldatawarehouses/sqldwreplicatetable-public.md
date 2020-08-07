@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="293984cf-b551-461f-b22d-9659ebd09a4f_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 # Convert tables to replicated tables with SQL Data Warehouse
 ---

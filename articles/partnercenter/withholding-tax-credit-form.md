@@ -10,11 +10,12 @@
 	articleId="partnercenter_withholding tax credit form"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32641059"
+	supportTopicIds="32692610"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 
 # Make sure you are credited for withholding tax
@@ -23,7 +24,7 @@ As of January 21st, 2020 the process for withholding tax submission has changed 
 
 ## **Recommended Steps**
 
-- Ensure you have the tax certificate you want to be credited for in electronic form. More about tax certificates can be found in the [tax withholding credit documentation](https://docs.microsoft.com/partner-center/withholding-tax-credit-form).
+- Ensure you have the tax certificate you want to be credited for in electronic form. More about tax certificates can be found in the [tax withholding credit documentation](https://docs.microsoft.com/partner-center/withholding-tax-credit-form). Attached tax certificate files must be one of the following file formats: .PDF and Image only (.JPEG, .PNG and .GIF). In addition, files names should not contain spaces or special characters.
 - Go to the Partner Center, sign in and navigate to the billing page. 
 - On the billing page locate the invoice you seek to be credited for. Next to the invoice you will see a "Tax Withholding" column with a "Submit new" option.
 - Click "Submit new". This will take you to a form where you will provide the total amount you seek credit for that particular invoice. You will also need to attach the tax certificate from your local tax authority.

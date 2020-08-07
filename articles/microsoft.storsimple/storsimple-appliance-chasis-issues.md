@@ -10,8 +10,9 @@
 	supportTopicIds="32295647"
 	resourceTags=""
 	productPesIds="15438"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="29ea0e50-a6dc-4980-b012-ed9509cb626c"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Appliance and Cable issues

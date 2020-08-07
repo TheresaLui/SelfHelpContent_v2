@@ -11,7 +11,8 @@
 	resourceTags=""
 	productPesIds="16160"
     articleId="ta-malicious-info"
-	cloudEnvironments="public,fairfax,mooncake"
+	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # Traffic Analytics - Malicious Data

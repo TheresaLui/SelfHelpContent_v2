@@ -13,7 +13,8 @@
 	supportTopicIds="32630725"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # I am having issues with Service Health Alerts

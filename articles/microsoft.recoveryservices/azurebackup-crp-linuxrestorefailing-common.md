@@ -10,8 +10,9 @@
 	supportTopicIds="32637326"
 	resourceTags=""
 	productPesIds="15571,15797,16470,16454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="6a55c94c-2fff-4536-ba7b-69dcbc1e2a1e"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Backup - Restore is failing for my VM

@@ -12,7 +12,8 @@
     supportTopicIds="32677614"
     resourceTags=""
     productPesIds="16250"
-    cloudEnvironments="public,fairfax"
+    cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- metrics-cant-find-your-resource-to-select-it -->

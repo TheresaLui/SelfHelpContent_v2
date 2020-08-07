@@ -10,8 +10,9 @@
     supportTopicIds="32536614"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="4dc3e779-0841-4ab8-868c-de2c9adc04b3"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # windowseventlogs-other

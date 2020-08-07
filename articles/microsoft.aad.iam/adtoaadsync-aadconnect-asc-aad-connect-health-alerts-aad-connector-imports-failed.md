@@ -11,8 +11,9 @@ pageTitle="Import from Azure Active Directory failed"
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
+	productPesIds="16666"
+  cloudEnvironments="public, Fairfax, Mooncake, ussec, usnat"
+  ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Import from Azure Active Directory failed

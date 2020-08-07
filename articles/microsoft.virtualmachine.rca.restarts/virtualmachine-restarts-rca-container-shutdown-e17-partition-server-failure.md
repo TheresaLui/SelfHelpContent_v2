@@ -13,7 +13,8 @@
 	supportTopicIds="32411816"
 	resourceTags="windows, linux"
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 
@@ -34,8 +35,8 @@ To ensure an increased level of protection and redundancy for your application i
 
 To learn more about high availability options, refer to the following articles:<br>
 
-* [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
-* [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)<br>
+* [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)<br>
+* [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)<br>
 * [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.<br>

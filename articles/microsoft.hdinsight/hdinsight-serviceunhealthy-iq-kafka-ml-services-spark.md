@@ -10,8 +10,9 @@
     supportTopicIds="32636466,32636472,32636480"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
     articleId="f10eed21-c120-4722-bfad-1b46217cae9d"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight: Service Unhealthy
@@ -25,6 +26,7 @@ The following steps may help you troubleshoot issues when a service running on H
 * If you are having heartbeat issues with Ambari, see [Apache Ambari heartbeat issues](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues), or try restarting Ambari using the following command: sudo systemctl restart ambari-server
 * If jobs on the cluster are running slow or failing, follow the steps in [Troubleshoot a slow or failing job](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster).
 * If you recently enabled secure transfer on your Storage account and get the error "The account being accessed does not support http" you need to disable secure transfer, or make additional configuration changes as described in [Enable WASBS in HDInsight clusters](https://hdinsight.github.io/hdfs/wasbs-common-problems-regarding-to-wasbs.html).
+* Please ensure that you are using the recommended NameNode sizes. If the NameNode size is smaller than the recommended size, you may encounter issues. See [Supported node configurations](https://docs.microsoft.com/azure/hdinsight/hdinsight-supported-node-configuration#all-supported-regions-except-brazil-south-and-japan-west) for more information. 
 
 Note that Microsoft Support teams can offer support only for the following situations:
 
@@ -34,3 +36,4 @@ Note that Microsoft Support teams can offer support only for the following situa
 ## **Recommended Documents**
 
 * [Frequently asked questions about Apache Kafka in Azure HDInsight](https://docs.microsoft.com/azure/hdinsight/kafka/kafka-faq)
+* [Troubleshooting Interactive Query clusters](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-hive-out-of-memory-error-oom)

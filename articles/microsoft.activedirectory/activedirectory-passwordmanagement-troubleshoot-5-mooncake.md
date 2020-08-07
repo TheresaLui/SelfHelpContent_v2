@@ -10,6 +10,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="MoonCake"
     articleId="activedirectory-passwordmanagement-troubleshoot-5-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 # I don't think I have the correct permissions, firewall rules, or connection settings for password writeback
 

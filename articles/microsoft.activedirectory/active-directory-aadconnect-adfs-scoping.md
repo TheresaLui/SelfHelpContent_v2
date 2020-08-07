@@ -6,9 +6,10 @@
 	selfHelpType="ProblemScopingQuestions"
 	supportTopicIds="32615405,32615362,32615367,32615368,32615375,32615382,32615383,32615427,32615434"
 	productPesIds="16579"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="21c79041-b9ae-4f4f-b431-5a3648c97e20"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 # AD FS Scoping question
 ---

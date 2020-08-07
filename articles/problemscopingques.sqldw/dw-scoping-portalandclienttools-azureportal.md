@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32635189"
 	productPesIds="15818"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Portal and client tools - Azure Portal
 ---

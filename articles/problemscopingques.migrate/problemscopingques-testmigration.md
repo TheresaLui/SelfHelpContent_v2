@@ -6,17 +6,18 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32675759"
          productPesIds="16348"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="114d28f4-3a14-4c48-b338-76f5b223aa1e"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Test Migration
 
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Test Migration",
     "fileAttachmentHint": "",
     "formElements": [

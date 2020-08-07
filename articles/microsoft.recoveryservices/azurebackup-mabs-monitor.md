@@ -9,8 +9,9 @@
 	supportTopicIds="32553288"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="e98bce42-16da-4bac-897e-509cd99fe1fe"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Troubleshooting Azure Backup server Monitor Reporting issues?

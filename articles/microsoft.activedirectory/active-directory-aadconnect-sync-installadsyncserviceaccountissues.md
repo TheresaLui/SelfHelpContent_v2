@@ -10,8 +10,9 @@
     supportTopicIds="32629783"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="77af65ea-b6be-4956-a3cf-dd2c16ca7075"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Install issues: AD sync service account

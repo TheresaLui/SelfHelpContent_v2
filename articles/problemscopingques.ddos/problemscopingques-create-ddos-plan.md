@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32680994"
 	productPesIds="16355"
-	cloudEnvironments="public,mooncake,fairfax"
+	cloudEnvironments="public,mooncake,fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureDDoSProtection"
 />
 # Create DDoS Plan
 ---

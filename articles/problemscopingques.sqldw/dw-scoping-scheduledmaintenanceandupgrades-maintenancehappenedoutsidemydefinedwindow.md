@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32635203"
 	productPesIds="15818"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Scheduled Maintenance and Upgrades - Maintenance happened outside of my defined window
 ---

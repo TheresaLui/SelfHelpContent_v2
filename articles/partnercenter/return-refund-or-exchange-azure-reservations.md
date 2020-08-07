@@ -10,11 +10,12 @@
 	articleId="partnercenter_return_refund_or_exchange_azure_reservations"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635699"
+	supportTopicIds="32725894"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Return, refund, or exchange Azure reservations
 Support tickets for Azure consumption disputes should be created in the Azure portal. To create an Azure support ticket:

@@ -13,7 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds="32592839, 32640601"
 resourceTags="windows"
 productPesIds="15526, 15660"
-cloudEnvironments="Public"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 # This subscription is authorized to send mail over TCP port 25
 

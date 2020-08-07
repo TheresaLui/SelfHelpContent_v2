@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32637264,32637263"
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="4640a2ab-ec5e-4a0a-8946-fe6524807455"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Geo replication (Preview)

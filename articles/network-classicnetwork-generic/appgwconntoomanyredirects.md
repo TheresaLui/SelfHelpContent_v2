@@ -10,8 +10,9 @@
 	supportTopicIds="32639115"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="connectivity-too-many-redirects"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Too Many Redirects Connectivity Error

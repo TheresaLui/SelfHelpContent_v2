@@ -10,8 +10,9 @@
     supportTopicIds=""
     resourceTags="directory_domain"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="2d359d87-aebf-40e8-badf-f9be35a38c49"
+	ownershipId="AzureIdentity_User"
 />
 
 # I still have other problems related to domain name management

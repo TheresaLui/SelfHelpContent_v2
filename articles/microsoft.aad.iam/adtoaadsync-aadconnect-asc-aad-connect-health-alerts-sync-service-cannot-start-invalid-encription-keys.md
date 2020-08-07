@@ -11,8 +11,9 @@ pageTitle="Microsoft Azure AD Sync Windows service cannot start due to invalid e
 	diagnosticScenario=""
 	selfHelpType="Diagnostics"
 	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public"
+	productPesIds="16666"
+  cloudEnvironments="public, Fairfax, Mooncake, ussec, usnat"
+  ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Microsoft Azure AD Sync Windows service cannot start due to invalid encryption keys

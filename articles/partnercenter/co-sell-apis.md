@@ -10,16 +10,20 @@
 	articleId="partnercenter_co-sell apis"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32639666"
+	supportTopicIds="32728017"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	productPesIds="17004"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Cosell"
 />
 # Co-sell APIs
 
+## **Recommended Steps**
+
+Please enter the details of the specific error you are getting back from the API for faster resolution.
+
 ## **Recommended Documents**
 
-* [Microsoft Partner API documentation and resources](https://docs.microsoft.com/partner/)
-* [Programmatically manage referrals (API)](https://docs.microsoft.com/partner/develop/referrals)
+* [Referrals API docs](https://docs.microsoft.com/partner/develop/referrals)
 

@@ -10,8 +10,9 @@
 	supportTopicIds="32628259"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="759ac937-32e7-4e89-a82c-28287ad85f9e"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # I am unable to deploy a captured or generalized image

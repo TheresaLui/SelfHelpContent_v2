@@ -9,8 +9,9 @@
 	supportTopicIds="32606437"
 	resourceTags=""
 	productPesIds="16160"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="9584a772-20ff-4c51-b665-f5f454202a44"
+	ownershipId="CloudNet_NetAnalytics"
 />
 
 # diagnostictools/nsgview

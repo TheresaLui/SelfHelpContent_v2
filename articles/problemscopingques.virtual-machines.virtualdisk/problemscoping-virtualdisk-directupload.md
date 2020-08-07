@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32641057"
                 productPesIds="14749"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="problemscoping-virtualdisk-directupload"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Virtual Disk Management
 ---

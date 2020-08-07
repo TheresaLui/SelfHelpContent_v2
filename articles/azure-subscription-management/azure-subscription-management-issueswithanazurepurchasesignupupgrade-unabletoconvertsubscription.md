@@ -10,8 +10,9 @@
 	supportTopicIds="32632955"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake, usnat, ussec"
 	articleId="issueswithpurchasesignuporupgrade-unabletoconvertsubscription"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Purchase,signup or upgrade - unable to convert subscription

@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640145"
     productPesIds="16617"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-backuprestore-pointintime_restore"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Backup, Restore and Business Continuity - Point in Time Restore
 ---

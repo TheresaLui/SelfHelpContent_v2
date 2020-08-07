@@ -9,8 +9,9 @@
 	supportTopicIds="32612206"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="2e802a04-972d-4944-8005-3c155c8baec1"
+	ownershipId="AzureData_AzureDatabricks"
 /> 
 
 # Azure Databricks Python

@@ -11,7 +11,8 @@
 	supportTopicIds="32689967"
 	resourceTags=""
 	productPesIds="16932"
-	cloudEnvironments="public,fairfax,mooncake"
+	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
+	ownershipId="Peering_PeeringService"
 />
 
 # Issues relating to configuration or setup of Peering Service

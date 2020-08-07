@@ -10,8 +10,9 @@
     supportTopicIds="32683732"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="d8e1b3c1-0a99-41ce-8a9e-6e7f3a06a64d"
+	ownershipId="Compute_APIManagement"
 />
 
 # APIM General Configuration and VNET Integration

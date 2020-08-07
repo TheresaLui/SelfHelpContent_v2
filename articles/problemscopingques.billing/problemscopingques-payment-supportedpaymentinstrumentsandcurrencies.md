@@ -5,16 +5,18 @@
 	ms.author="prdasneo"
 	authors="prdasneo"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32454870,32632940"
+	supportTopicIds="32632940"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 
 # Pricing -Supported Payment Instruments and currencies
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Supported Payment Instruments and currencies",
     "fileAttachmentHint": "",
     "formElements": [

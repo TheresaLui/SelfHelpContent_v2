@@ -10,8 +10,9 @@
     supportTopicIds="32681542"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="0a3f2d71-4401-4cf0-8591-a95d9b0ce136"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Create failure due to Azure Policy
@@ -44,6 +45,10 @@ To resolve this issue, follow these steps:
     - 168.61.48.131
     - 138.91.141.162
 
-- These IP addresses Destination must be set at *:433 and a Direction of "Inbound"
+- These IP addresses Destination must be set at *:433 and a Direction of "Inbound"
 - If your cluster is in a specific region, add the respective source IP. For the list of the IP addresses, see [Health and management services: Specific regions](https://docs.microsoft.com/azure/hdinsight/hdinsight-management-ip-addresses#health-and-management-services-specific-regions).
 - If you are using either Express Route or your own custom DNS server, see [Connecting multiple networks](https://docs.microsoft.com/azure/hdinsight/hdinsight-plan-virtual-network-deployment#multinet)
+
+## **Recommended Documents**
+
+* [Create Cluster Error Dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)

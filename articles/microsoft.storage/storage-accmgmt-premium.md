@@ -10,8 +10,9 @@
 	supportTopicIds="32639218,32691092"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="9d9458e6-3527-4d72-813f-46b955f73b2e"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Upgrade to premium storage tier

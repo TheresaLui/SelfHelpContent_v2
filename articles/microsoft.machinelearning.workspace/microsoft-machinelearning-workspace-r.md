@@ -8,9 +8,10 @@
 	ms.author="minxia"
 	supportTopicIds="32690874"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.workspace.r"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # R SDK issues

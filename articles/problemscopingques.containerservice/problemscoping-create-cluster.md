@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32637190"
                 productPesIds="16450"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="4a4301a5-9144-4c93-b482-f225df855dd0"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Cluster creation
 ---

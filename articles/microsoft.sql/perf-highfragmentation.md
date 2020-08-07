@@ -10,10 +10,11 @@
     articleId="HighFrag-522DA2B1-73AD-4EA2-AD1C-5C4FDEB97F35"
     diagnosticScenario="HighFragmentation"
     selfHelpType="diagnostics"
-    supportTopicIds="31980401,32511226"
+    supportTopicIds="32630434,32630454"
     resourceTags=""
     productPesIds="13491"
-    cloudEnvironments="public,blackForest,fairfax,mooncake"
+    cloudEnvironments="public,blackForest,fairfax,mooncake,usnat,ussec"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # We ran diagnostics on your resource and found an issue
 

@@ -10,8 +10,9 @@
     supportTopicIds="32728885"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="0cef5404-a743-483c-a66d-68428450dfa0"
+	ownershipId="Compute_LogicApps"
 />
 
 # Logic Apps - PowerShell and SDK Experience

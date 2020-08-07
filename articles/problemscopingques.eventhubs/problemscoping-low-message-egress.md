@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32636943"
 resourceTags=""
 productPesIds="16125"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="eh-low-message-egress"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Low message egress
 ---

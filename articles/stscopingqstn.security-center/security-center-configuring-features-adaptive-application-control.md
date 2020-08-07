@@ -8,8 +8,9 @@
     supportTopicIds="32693228"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="c6916b5a-1a1f-45ce-9c2a-ab38f2dc76e0"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Azure Security Center – Configuring Features – Adaptive Application Control

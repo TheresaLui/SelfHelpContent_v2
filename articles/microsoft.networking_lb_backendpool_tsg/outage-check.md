@@ -10,8 +10,9 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="1646127d-343b-4c92-8be4-331671a32a20"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # How to check for outages in the region

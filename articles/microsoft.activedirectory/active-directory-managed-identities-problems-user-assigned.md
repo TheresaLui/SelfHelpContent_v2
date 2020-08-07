@@ -13,7 +13,8 @@
 	supportTopicIds="32690729"
 	resourceTags=""
 	productPesIds="16985"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_Managed Identities"
 />
 
 # Problem with user-assigned managed identity

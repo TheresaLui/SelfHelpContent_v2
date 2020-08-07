@@ -10,8 +10,9 @@
 	supportTopicIds="32608636"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="7a2a66b3-995b-4693-9557-788e20b8e9b1"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Blob storage lifecycle

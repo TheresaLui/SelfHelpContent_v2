@@ -5,12 +5,13 @@
 	resource="vaults"
 	authors="trinadhk"
 	displayOrder="3"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32553281"
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="81ee4c43-2f1e-4b18-a11d-b0dabb6a571f"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Azure virtual machine backups are running slow

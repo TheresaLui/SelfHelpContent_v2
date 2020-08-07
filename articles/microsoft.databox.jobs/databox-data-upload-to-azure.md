@@ -11,8 +11,9 @@
 	supportTopicIds="32612617,32612635,32612648,32612654,32612655,32612656,32612657"
 	resourceTags=""
 	productPesIds="16505"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="Data Box - verifying data uploaded to Azure"
+	ownershipId="StorageMediaEdge_DataBox"
 />
 
 # Data Box upload to Azure

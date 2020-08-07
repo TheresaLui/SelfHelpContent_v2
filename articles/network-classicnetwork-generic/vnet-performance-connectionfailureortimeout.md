@@ -10,8 +10,9 @@
 	supportTopicIds="32547228"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="ab45b514-042c-46a6-8c33-2e92b4fb28c1"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # Common solutions for Virtual Network connection failures

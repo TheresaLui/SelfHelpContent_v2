@@ -10,8 +10,9 @@
 	supportTopicIds="32588770"
 	resourceTags=""
 	productPesIds="16170"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="b418215b-7712-4a07-8d8a-76203b6cc887"
+	ownershipId="Compute_AppService"
 />
 
 # Configuration and Management/Accessing app using SSH

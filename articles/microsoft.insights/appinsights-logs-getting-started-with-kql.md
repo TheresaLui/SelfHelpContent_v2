@@ -10,8 +10,9 @@
     articleId="need-help-writing-log-queries"
     productPesIds="15693"
     supportTopicIds="32729602, 32729595"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 
 # <-- need-help-writing-log-queries -->
 

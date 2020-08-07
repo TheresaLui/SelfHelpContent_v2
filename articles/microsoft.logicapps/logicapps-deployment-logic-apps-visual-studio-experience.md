@@ -10,8 +10,9 @@
     supportTopicIds="32588769"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="7447397f-eb25-44a3-8357-f595fc419e0b"
+ ownershipId="Compute_LogicApps"
 />
 
 # Deployment Logic Apps and API Connections - Deployment via Visual Studio

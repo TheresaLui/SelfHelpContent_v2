@@ -10,8 +10,9 @@
     supportTopicIds=""
     resourceTags="userandgroups_overview,userandgroups_user"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="2eec419f-9c11-4a06-90cf-63ff4aa23a6d"
+	ownershipId="AzureIdentity_User"
 />
 
 # I can’t assign roles to other users in the Azure AD tenant

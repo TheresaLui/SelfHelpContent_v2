@@ -10,8 +10,9 @@
 	supportTopicIds="32680753"
 	resourceTags=""
 	productPesIds="16598"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="111464ba-5f96-4f41-b8a0-816f18f05cfb"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 
 # Transfer Data with AzCopy v10

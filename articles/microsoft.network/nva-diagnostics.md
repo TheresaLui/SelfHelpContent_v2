@@ -13,7 +13,8 @@ selfHelpType="Diagnostics"
 supportTopicIds="32584252, 32584251, 32584250, 32584249, 32547215"
 resourceTags="windows"
 productPesIds="15526"
-cloudEnvironments="Public"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # We found an issue related to a Network Virtual Appliance used in this connectivity path

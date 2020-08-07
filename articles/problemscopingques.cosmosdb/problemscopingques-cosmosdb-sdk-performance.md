@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32688842"
 	productPesIds="15585"
-	cloudEnvironments="public"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="ed983611-5cd4-46cb-b701-74dbf025852c"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # CosmosDB SDK Performance Issues
 ---

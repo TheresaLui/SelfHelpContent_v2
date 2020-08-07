@@ -10,8 +10,9 @@
 	supportTopicIds="32573483"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cb9a55ba-84d0-430b-a741-f5b65a13b149"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Connectivity 502 Error

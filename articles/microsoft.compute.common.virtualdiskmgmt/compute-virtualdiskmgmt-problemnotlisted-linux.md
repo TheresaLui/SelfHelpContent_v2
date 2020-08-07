@@ -10,8 +10,9 @@
 	supportTopicIds="32632141"
 	resourceTags=""
 	productPesIds="15571,15797,16470,16454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="compute-virtualdiskmgmt-problemnotlisted-linux"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Resolving issues with VM Disk Management

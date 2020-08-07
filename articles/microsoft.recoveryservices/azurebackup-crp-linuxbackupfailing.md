@@ -6,12 +6,13 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder="2"
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32637320"
 	resourceTags="linux,redhat,ubuntu"
 	productPesIds="15571,15797,16470,16454"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="ce3059e1-dea9-432e-8d74-f16235e18dd6"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Backup - Backup is failing for my VM

@@ -12,7 +12,8 @@ diagnosticScenario="Deleted storage account(s) might be recoverable"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="public, blackForest, fairfax, mooncake"
+cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Storage Account Recovery

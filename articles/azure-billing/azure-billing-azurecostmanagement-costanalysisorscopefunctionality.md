@@ -10,8 +10,9 @@
 	supportTopicIds="32615286"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public, Blackforest, Fairfax, Mooncake"
+	cloudEnvironments="public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="6365bccc-8864-4f10-a133-1acc5fb026b9"
+	ownershipId="ASMS_Billing"
 />
 
 # Unexpected cost in Cost analysis or Power BI
@@ -20,7 +21,7 @@
 'Not applicable' is used when a value is empty. Here are a few reasons you might see 'not applicable':<br>
 Tenant resources, which aren’t deployed within a subscription, will not have a resource group. This is expected. To validate this, download the data and review the ResourceId column.<br>
 Classic resources are not tracked with resource group. If you see a non-classic resource without a resource group, please contact support.<br>
-Purchases do not have a subscription, resource group, or resource assigned. All of these values will show 'not applicable'. To validate that this a mount is from a purchase, group by charge type.<br>
+Purchases do not have a subscription, resource group, or resource assigned. All of these values will show 'not applicable'. To validate that this amount is from a purchase, group by charge type.<br>
  
 You may see an 'unassigned' location for services which are not configured with a specific location. They may be global services, as an example.<br>
  
@@ -40,10 +41,11 @@ When an indirect EA partner changes within the middle of a billing term, access 
 ## **Recommended Documents**
 
 * [Costs included in Cost Management](https://docs.microsoft.com/azure/cost-management/understand-cost-mgt-data#costs-included-in-cost-management)<br>
+* [Data Refresh Schedules](https://docs.microsoft.com/azure/cost-management-billing/costs/understand-cost-mgt-data#rated-usage-data-refresh-schedule)<br>
 * [Scopes in Cost Management](https://docs.microsoft.com/azure/cost-management/understand-work-scopes#scopes)<br>
 * [Historical data in Cost Management](https://docs.microsoft.com/azure/cost-management/understand-cost-mgt-data#historical-data-might-not-match-invoice)<br>
 * [Cost Analysis and Invoice Reconciliation](https://azure.microsoft.com/blog/azure-cost-management-updates-september-2019/#invoices)<br>
 * [How to validate cost by analyzing usage](https://docs.microsoft.com/azure/billing/billing-understand-your-bill)<br>
 * [Connect to Azure Cost Management in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-azure-cost-management)<br>
 * [Cost Management best practices](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview)<br>
-* [What is Azure Cost Management?]()<br>
+* [What is Azure Cost Management?](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview)<br>

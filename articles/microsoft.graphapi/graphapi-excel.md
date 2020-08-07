@@ -10,8 +10,9 @@
 	supportTopicIds="32689201"
 	resourceTags=""
 	productPesIds="16957"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="cedc2fe8-3a1e-457d-88f4-4fd8c5f8da52"
+	ownershipId="AzureIdentity_OtherMSGraphAPIs"
 />
 
 # Microsoft Graph Excel API issues

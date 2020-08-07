@@ -9,8 +9,9 @@
 	supportTopicIds="32571944"
 	resourceTags=""
 	productPesIds="13186"
-	cloudEnvironments="public,BlackForest,Fairfax"
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
 	articleId="707b59bf-3644-4c13-a9c3-4fc4e77cdee9"
+	ownershipId="AzureMessaging_Common"
 />
 
 # errors and exceptions/can't create or delete topics, queues

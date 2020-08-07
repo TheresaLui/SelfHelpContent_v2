@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32677656, 32677698, 32677699, 32677700, 32677707"
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureDatabricks"
 />
 # Databricks Cluster Library Issue
 ---

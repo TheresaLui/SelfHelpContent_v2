@@ -10,8 +10,9 @@
     supportTopicIds=""
     productPesIds=""
     resourceTags=""
-    cloudEnvironments="public,fairfax,mooncake,blackforest"
+    cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	articleId="privatedns-cantresolverecord"
+	ownershipId="CloudNet_DNS"
 />
 
 # I can't resolve DNS records from a private DNS zone

@@ -10,8 +10,9 @@
 	supportTopicIds="32681787"
 	resourceTags=""
 	productPesIds="16582"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="a2c00d6a-bc34-4082-ab3a-04e28a603cb3"
+	ownershipId="Windows_Virtual_Desktop"
 />
 
 # Using Profile and Office Container

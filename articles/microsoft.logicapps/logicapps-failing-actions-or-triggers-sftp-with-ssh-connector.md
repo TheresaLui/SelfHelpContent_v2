@@ -10,8 +10,9 @@
     supportTopicIds="32677631"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="66ef9c75-d32e-4bb9-ad9e-33f8ee8d4471"
+	ownershipId="Compute_LogicApps"
 />
 
 # Receiving or Transmitting data through a specific Connector - SFTP

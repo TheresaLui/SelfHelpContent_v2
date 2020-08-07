@@ -11,7 +11,8 @@
 	supportTopicIds="32727979"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Service - Configuring the Service - PowerShell

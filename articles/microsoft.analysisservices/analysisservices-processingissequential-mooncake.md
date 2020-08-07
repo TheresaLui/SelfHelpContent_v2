@@ -3,7 +3,7 @@
     description="Processing of partition is sequential"
     service="microsoft.analysisservices"
     resource="servers"
-    authors="bnmaa"
+    authors="brspie"
     ms.author="chanwa"
     resourceTags=""
     selfHelpType="resource"
@@ -12,7 +12,8 @@
     displayOrder="6"
     cloudEnvironments="MoonCake"
     issueNotListed="true"
- 	articleId="5d4f65e0-6668-4aa0-ac3d-68374e88c122"
+    articleId="5d4f65e0-6668-4aa0-ac3d-68374e88c122"
+    ownershipId="AzureData_AnalysisServices"
 />
 
 # Processing of partition is sequential

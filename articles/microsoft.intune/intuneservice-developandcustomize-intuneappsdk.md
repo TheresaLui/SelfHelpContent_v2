@@ -9,8 +9,9 @@
 	supportTopicIds="32599637"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="46e2c610-010c-426b-b025-151537655905"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Develop and Customize - Intune App SDK

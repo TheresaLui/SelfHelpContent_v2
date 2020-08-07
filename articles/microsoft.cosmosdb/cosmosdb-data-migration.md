@@ -6,13 +6,14 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32636783"
+	supportTopicIds="32636783, 32636785, 32692543"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-data-migration"
-	displayOrder="63"
-	category="Core (SQL)"
+	displayOrder="3"
+	category="CosmosDB Backup and Restore"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Migrating data to Azure Cosmos DB
@@ -23,6 +24,11 @@ Most users are able to resolve their data migration case using the steps and rec
 
 You can migrate data to Azure Cosmos DB by using the bulk executor library (to author fast import applications), or the ADF v2 service, or the data migration tool. It is recommended to increase the throughput of your collection for the duration of migration. With the higher throughput, you can avoid rate limiting and migrate data in less time.
 
+
+### **Unable to connect to Cosmos DB resource using Data Migration Tool**  
+The UI based Data Migration tool (dtui.exe) is not currently supported for Table API accounts.  
+The command-line Azure Cosmos DB Data Migration tool (dt.exe) can be used to import your existing Azure Table storage data to a Table API GA account, or migrate data from a Table API (preview) account into a Table API GA account. Other sources are not currently supported.  
+Please see documentation [Data Migration Tool](https://docs.microsoft.com/azure/cosmos-db/table-import#data-migration-tool).
 
 
 ## **Recommended Documents**

@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32609692"
 	productPesIds="16506"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="6717d922-bce8-47e3-9c14-bd88912dcbde"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 # License Activation Request
 ---

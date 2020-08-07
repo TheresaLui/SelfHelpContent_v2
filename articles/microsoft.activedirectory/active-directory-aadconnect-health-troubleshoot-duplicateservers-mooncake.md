@@ -9,6 +9,7 @@
 	selfHelpType="resource"
 	cloudEnvironments="MoonCake"
 	articleId="active-directory-aadconnect-health-troubleshoot-duplicateservers-mooncake"
+	ownershipId="Identity_AuthReach_HybridAuth_ADFS"
 />
 # Duplicate servers in the portal
 

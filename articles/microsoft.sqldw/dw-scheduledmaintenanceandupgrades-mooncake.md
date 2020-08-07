@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-scheduledmaintenanceandupgrades-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # How to manage and troubleshoot Scheduled Maintenance and upgrades
 

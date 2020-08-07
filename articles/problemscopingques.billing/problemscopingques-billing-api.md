@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32599495"
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Mooncake, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 
 # Billing API

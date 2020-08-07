@@ -5,10 +5,11 @@
     ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640011"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="17067,17069,17068"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-backuprestore-pointintimerestore"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Backup, Restore and Business Continuity - Point in Time Restore
 ---

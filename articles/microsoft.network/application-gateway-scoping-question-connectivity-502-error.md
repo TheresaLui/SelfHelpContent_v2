@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 supportTopicIds="32573483,32680993"
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,mooncake,blackforest"
+	cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
 	schemaVersion="1"
 	articleId="scoping-question-connectivity-502-error"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Application Gateway URL
@@ -37,7 +38,7 @@ supportTopicIds="32573483,32680993"
             "id": "ApplicationGatewayAccessProtocol",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Please provide Protocol you are using to access Appplication Gateway",
+            "displayLabel": "Please provide Protocol you are using to access Application Gateway",
             "watermarkText": "Choose an option from http/https",
             "dropdownOptions": [
                 {
@@ -60,8 +61,8 @@ supportTopicIds="32573483,32680993"
             "id": "backend_health",
             "order": 3,
             "controlType": "dropdown",
-            "displayLabel": "Are there any unhealthy backends?",
-			"infoBalloonText": "Use <a href='https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal'>Backend health</a> to view the health status of each backend",
+            "displayLabel": "In the backend health tab, do you see all the backend servers in a pool are unhealthy?",
+			"infoBalloonText": "Use <a href='https://docs.microsoft.com/azure/application-gateway/application-gateway-diagnostics#view-back-end-health-through-the-portal'>Backend health</a> to view the health status of each backend server. If all the servers in a pool are unhealthy, then you'll receive a 502 error. See <a href='https://docs.microsoft.com/azure/application-gateway/application-gateway-backend-health-troubleshooting'>here</a> for more troubleshooting options.",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -87,12 +88,20 @@ supportTopicIds="32573483,32680993"
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "v1_SKU",
-                    "text": "V1 SKU"
+                    "value": "Standard",
+                    "text": "Standard"
                 },
                 {
-                    "value": "v2_SKU",
-                    "text": "V2 SKU"
+                    "value": "WAF",
+                    "text": "WAF"
+                },
+                {
+                    "value": "Standard_v2",
+                    "text": "Standard_v2"
+                },
+                {
+                    "value": "WAF_v2",
+                    "text": "WAF_v2"
                 },
 				{
                     "value": "dont_know_answer",

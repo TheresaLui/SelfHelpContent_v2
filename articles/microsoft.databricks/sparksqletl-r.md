@@ -10,8 +10,9 @@
 	supportTopicIds="32677725"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c2398469-febb-48fb-ba0e-b11b32fbd44d"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with R

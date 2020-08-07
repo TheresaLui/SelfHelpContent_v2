@@ -13,14 +13,15 @@ selfHelpType="Diagnostics"
 supportTopicIds="32588977"
 resourceTags=""
 productPesIds=""
-cloudEnvironments="Public" />
+cloudEnvironments="Public, fairfax, usnat, ussec" 	ownershipId="CloudNet_LoadBalancer"
+/>
 
 # Support for Basic Load Balancer only exists within the same region
 
 <!--issueDescription-->
 Dear customer,
 
-Thank you for contacting us about your load balancer backend pool connectivity issue. We’ve reviewed your configuration and we’ve determined your issue is due to the use of a basic load balancer. Resources in one virtual network cannot communicate with the front-end IP address of a basic internal load balancer in a globally peered vnet. Our suggestion at this time is to migrate your basic load balancer to a standard load balancer where this is a supported scenario.  
+Thank you for contacting us about your load balancer backend pool connectivity issue. We’ve reviewed your configuration and we’ve determined your issue is due to the use of a basic load balancer. Resources in one virtual network cannot communicate with the front-end IP address of a basic internal load balancer in a globally peered vnet. Our suggestion at this time is to migrate your basic load balancer to a standard load balancer where this is a supported scenario. Here are the instructions of how to do it: https://docs.microsoft.com/azure/load-balancer/upgrade-basic-standard  
 
 Best regards,
 <!--/issueDescription-->

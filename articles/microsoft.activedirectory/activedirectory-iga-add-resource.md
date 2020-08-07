@@ -10,8 +10,9 @@
 	supportTopicIds=""
 	resourceTags="governance_overview"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="f1927a08-e64c-4866-a47e-0f6199388e7a"
+	ownershipId="AzureIdentity_User"
 />
 
 # Why can't I add a certain resource to an access package or catalog?

@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32642181"
 	productPesIds="16460"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="12748255-68F2-470D-919A-C860E861380B"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Storage File connectivity issues - Windows
 ---

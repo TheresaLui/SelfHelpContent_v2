@@ -5,10 +5,11 @@
     ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639965"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="17067,17069,17068"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-security-threatprotection"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Security - Advanced Threat Protection
 ---

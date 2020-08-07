@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32637234"
 	productPesIds="16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-sqlmi-automatedbackups-pitr"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # Error with automated backups or point-in-time restore
 ---

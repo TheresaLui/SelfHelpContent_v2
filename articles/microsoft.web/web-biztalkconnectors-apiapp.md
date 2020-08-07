@@ -9,8 +9,9 @@
 	supportTopicIds="32451847"
 	resourceTags="apiapp"
 	productPesIds="15792"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="51e17a55-8ae7-4f13-b29e-920ec181dcfc"
+	ownershipId="Compute_AppService"
 />
 
 # configuration and management/biztalk connectors

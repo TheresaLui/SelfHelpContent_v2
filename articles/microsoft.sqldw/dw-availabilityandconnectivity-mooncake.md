@@ -12,6 +12,7 @@
 	resourceTags="datawarehouse"
 	articleId="dw-availabilityandconnectivity-mooncake"
 	cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 # How to troubleshoot availability and connectivity issues
 
