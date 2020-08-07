@@ -35,7 +35,7 @@ These resources explain enrollment, eligibility, earnings, payments, and policy 
 * [Solution Assessment Incentives Payment status in CHIP](https://support.microsoft.com/help/2952898/sam-payment-status-in-chip)
 
 **Policy**
-* [Solution Assessment Incentives Incentives FAQ](https://support.microsoft.com/help/4499346/software-asset-management-sam-incentives-faq)
+* [Solution Assessment Incentives FAQ](https://support.microsoft.com/help/4499346/software-asset-management-sam-incentives-faq)
 
 **Still need help?**
 
