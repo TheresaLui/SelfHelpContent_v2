@@ -28,7 +28,7 @@ Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL AP
 
 ### **Known Issues and Solutions**
 Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:  
-* [.NET SDK](https://github.com/Azure/azure-cosmosdb-dotnet-v3/issues)
+* [.NET SDK](https://github.com/Azure/azure-cosmos-dotnet-v3/issues)
 * [Java SDK](https://github.com/Azure/azure-documentdb-java/issues)
 * [Node.js SDK](https://github.com/Azure/azure-cosmos-js/issues)
 * [Python SDK](https://github.com/Azure/azure-cosmos-python/issues)  
@@ -71,7 +71,7 @@ For more information, see [Handle rate limiting/request rate too large](https://
 
 **408 Request timeout**
 <br>The HTTP 408 error occurs if the SDK was not able to complete the request before the timeout limit occurs.
-* See the dedicated support article for [408 - request timeout](https://docs.microsoft.com/en-us/azure/cosmos-db/troubleshoot-dot-net-sdk-request-timeout).
+* See the dedicated support article for [408 - request timeout](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk-request-timeout).
 
 
 **Invalid characters in Resource.Id _rid Property**
