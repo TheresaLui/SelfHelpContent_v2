@@ -31,12 +31,14 @@ The most common issues and workarounds are detailed below.
 Consider the examples below where the property `order` is a reserved word and the property `price($)` contains a special character:
 
 ```sql
+
 SELECT *
 FROM c
 WHERE c["order"].orderId = "12345"
 ```
 
 ```sql
+
 SELECT *
 FROM c
 WHERE c["order"]["price($)"] > 50
@@ -45,6 +47,7 @@ WHERE c["order"]["price($)"] > 50
 - Aliasing with reserved keywords, spaces, or special characters
 
 ```sql
+
 SELECT
            {"JSON expression with a space": { "state": f.address.state, "city": f.address.city }},
            {"JSON expression with a special character!": { "name": f.id }}
