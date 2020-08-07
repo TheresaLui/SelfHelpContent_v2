@@ -3,8 +3,8 @@
     description="SQL query"
     service="microsoft.documentdb"
     resource="databaseAccounts"
-    authors="ginamr"
-    ms.author="girobins"
+    authors="timsander1"
+    ms.author="tisande"
     selfHelpType="generic"
     supportTopicIds="32636818,32636821,32688845,32741534"
     resourceTags=""
@@ -24,7 +24,37 @@ For optimal query performance, follow the steps from the [Troubleshoot Query Per
 
 The most common issues and workarounds are detailed below.
 
-**Read all query pages**  
+**Understand common query syntax errors**
+
+- Using reserved keywords or special characters
+
+Consider the examples below where the property `order` is a reserved word and the property `price($)` contains a special character:
+
+```sql
+SELECT *
+FROM c
+WHERE c["order"].orderId = "12345"
+```
+
+```sql
+SELECT *
+FROM c
+WHERE c["order"]["price($)"] > 50
+```
+
+- Aliasing with reserved keywords, spaces, or special characters
+
+```sql
+SELECT
+           {"JSON expression with a space": { "state": f.address.state, "city": f.address.city }},
+           {"JSON expression with a special character!": { "name": f.id }}
+FROM Families f
+WHERE f.id = "AndersenFamily"
+```
+
+Learn more about [SQL query syntax in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/sql-query-working-with-json)
+
+**Read all query pages**
 
 If you think you are not getting all the results, make sure to drain the continuation fully. In other words, make sure you have progressed through all query pages.
 
@@ -83,6 +113,7 @@ For more system function details see [System Functions](https://docs.microsoft.c
 
 Please refer to documents below on how to get execution statistics and tune your queries:
 
+* [Working with JSON in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/sql-query-working-with-json)
 * [Troubleshoot Query Performance](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance)
 * [Performance tips for .NET SDK](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
 * [Performance tips for Java SDK](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java-sdk-v4-sql?tabs=api-async)
