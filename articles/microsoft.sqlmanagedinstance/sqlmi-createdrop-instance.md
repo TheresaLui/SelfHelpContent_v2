@@ -28,7 +28,7 @@ Provisioning a Microsoft Azure SQL Managed Instance can be accomplished using Az
 
 ### Managed Instance Is Not Available for the Selected Subscription and Region
 
-Different subscription types have different resources available to them including regional deployments, and number of vCores or subnets available. More information can be found in [Supported subscription types](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits#supported-subscription-types). These limitations can be removed by submitting a quota increase request following the instructions in [this article](https://docs.microsoft.com/azure/sql-database/quota-increase-request#sqlmiquota).
+- Different subscription types have different resources available to them including regional deployments, and number of vCores or subnets available. More information can be found in [Supported subscription types](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits#supported-subscription-types). These limitations can be removed by submitting a quota increase request following the instructions in [this article](https://docs.microsoft.com/azure/sql-database/quota-increase-request#sqlmiquota).
 
 ### Delete Managed Instance Resources
 
