@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "52a9d0a7-efe1-4512-9716-394abd4e0ab1",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://aznw.kusto.windows.net').database('aznwcosmos').AdvisorAppGatewayHostOverride",
+    "streamNamespace": "cluster('https://hybridnetworking.kusto.windows.net').database('GatewayManager').AppGW.appgwAdvisorRecommendationForHostNameOverride",
     "dataSource": "Kusto",
     "refreshInterval": "01:00:00"
   },
