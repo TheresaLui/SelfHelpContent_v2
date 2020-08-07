@@ -20,8 +20,7 @@
 	"subscriptionRequired": true,
 	"title": "Incentives payment and adjustment issues",
 	"fileAttachmentHint": "Please include any transaction history/summary CSVs, screenshots (including screenshots of your payout and tax profile setup), and other files that will help us understand the technical issue.",
-	"formElements": [
-		{
+	"formElements": [{
 			"id": "incentives_program",
 			"order": 1,
 			"controlType": "dropdown",
@@ -51,10 +50,6 @@
 				{
 					"value": "BE9B1C44-C2C9-47E3-8E5B-EA8DAD561D76",
 					"text": "Campaigns"
-				},
-				{
-					"value": "B1040434-30BB-40F0-A498-C3338D73845C",
-					"text": "Certified Software Advisor"
 				},
 				{
 					"value": "197650E7-3E3A-4FCA-9C8D-890951954D4C",
@@ -133,10 +128,6 @@
 					"text": "OSA Sell - Direct"
 				},
 				{
-					"value": "7088781F-1853-4A3A-A9D2-C6A1B22FABC5",
-					"text": "OSIS - OEM Campaigns"
-				},
-				{
 					"value": "D21798E0-C0FF-420A-8A03-8331EB969925",
 					"text": "OSU - Business Applications"
 				},
@@ -150,7 +141,7 @@
 				},
 				{
 					"value": "B0556568-3E0F-429E-B17A-32B791C9F943",
-					"text": "Software Asset Management"
+					"text": "Solution Assessment Incentives"
 				},
 				{
 					"value": "3C1B8C00-FBAD-4142-A802-B1D740AD31E5",

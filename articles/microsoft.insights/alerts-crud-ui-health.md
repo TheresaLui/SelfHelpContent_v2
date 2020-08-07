@@ -34,5 +34,5 @@ If you are facing issues while trying to setup activity log alerts, please use t
 
 1. Ensure you have the appropriate permissions to author the alert.
     * You are required to have the role of [monitoring contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#built-in-monitoring-roles) on the target resource (or resource group/subscription) to author alerts on it.
-2. Creating alerts on Resource Health Events is not currently supported through the portal: You can create or update "Resource Health" alerts only through ARM template as described [here](https://docs.microsoft.com/azure/service-health/resource-health-alert-arm-template-guide)
+2. You can create or update "Resource health" alerts on the portal as documented [here](https://docs.microsoft.com/azure/service-health/resource-health-alert-monitor-guide)
 3. You can create or update "Service heath" alerts on the portal as documented [here](https://docs.microsoft.com/azure/service-health/alerts-activity-log-service-notifications?toc=%2Fazure%2Fservice-health%2Ftoc.json).
