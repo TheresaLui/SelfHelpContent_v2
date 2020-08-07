@@ -67,44 +67,22 @@
             "required": true
         },
         {
-            "id": "sample_run_ids",
+            "id": "problem_run_id",
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "Is this a run time issue? If yes, please provide the RunIDs. (separate with commas)",
             "required": false
         },
         {
-            "id": "df_version",
-            "order": 5,
-            "controlType": "dropdown",
-            "displayLabel": "Which Version of Data Factory are you using?",
-            "watermarkText": "Choose Data Factory Version",
-            "dropdownOptions": [
-                {
-                    "value": "V2",
-                    "text": "V2"
-                },
-                {
-                    "value": "V1",
-                    "text": "V1"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Not applicable"
-                }
-            ],
-            "required": false
-        },
-        {
             "id": "problem_start_time",
-            "order": 6,
+            "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "What time did the problem begin?",
             "required": true
         },
         {
             "id": "problem_end_time",
-            "order": 7,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "Approximate time when the problem stopped occurring. If the issue is ongoing, leave this field blank",
             "required": false
