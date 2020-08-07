@@ -27,8 +27,11 @@ Requirements to remove a CSP relationship from the customer list in Partner cent
 Removing a relationship has the following consequences:
 
 • Removes the customer from your list of customers in Partner Center
+
 • Removes you from the list of available support contacts for your customer
+
 • Removes your delegation admin privileges for the customer
+
 • Prevents you from making future purchases for the customer
 
 To remove a relationship, you'll first need to cancel Azure RI reservations, cancel software purchases, and suspend any remaining active subscriptions.
