@@ -25,12 +25,13 @@ This happens when your subscription has run out of its allocated quota of virtua
 
 You can check the available quota by going to Subscription > Usage + quotas.
 
-• Get your quota increased by clicking on New Support Request > Select “Service and subscription limits (quota)” in “Issue type” > Select your subscription > Select an appropriate “Quota type”.
+1. Get your quota increased by clicking on New Support Request > Select "Service and subscription limits (quota)" in "Issue type" > Select your subscription > Select an appropriate "Quote type".
 
 Alternatively, you can do the following:
-• Stop any running virtual machines in your Azure subscription that aren't being used to reclaim the quota used by it.
 
-• If you have sufficient quota to create a smaller sized virtual machine and don't need as many cores, you can update the target virtual machine size for the migration (and test migration):  Click 'Replicating servers' on the Server Migration tool > Click on the replicating machine > Click 'Compute and Network' > Update the ‘Target VM size’, save and then retry test migration.
+1. Stop any running virtual machines in your Azure subscription that aren't being used to reclaim the quota used by it.
+
+2. If you have sufficient quota to create a smaller sized virtual machine and don't need as many cores, you can update the target virtual machine size for the migration (and test migration):  Click 'Replicating servers' on the Server Migration tool > Click on the replicating machine > Click 'Compute and Network' > Update the ‘Target VM size’, save and then retry test migration.
 
 ### **I get an error that says that the resource was disallowed by policy.**
 
@@ -38,7 +39,7 @@ This happens when you have an Azure policy that enforces certain conventions. Fe
 
 1. A naming convention on Azure resources that are created in the subscription. The test migration operation creates Azure resources for the test virtual machine, its disks and its network interface cards. The resources created for the test migration have '-test' suffixed to its name. Ensure that the policy doesn't disallow this naming convention.
 
-2. VM size that is not allowed. Ensure that policy doesn’t disallow the selected target VM size. You can update the target virtual machine size for the migration (and test migration):  Click 'Replicating servers' on the Server Migration tool > Click on the replicating machine > Click 'Compute and Network' > Update the ‘Target VM size’, save and then retry test migration.
+2. VM size that is not allowed. Ensure that policy doesn’t disallow the selected target VM size. You can update the target virtual machine size for the migration (and test migration): Click 'Replicating servers' on the Server Migration tool > Click on the replicating machine > Click 'Compute and Network' > Update the ‘Target VM size’, save and then retry test migration.
 
 3. Policy requires resources to be created with certain Resource Tags. This is currently not supported by Server Migration tool. Tagging can be done post migration. You can create a policy exception for the duration of migration to allow migration to succeed.
 
