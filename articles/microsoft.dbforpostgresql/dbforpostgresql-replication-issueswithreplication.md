@@ -43,6 +43,10 @@ Issue: **Can't scale down** replica's compute
 
    * The replica's compute should be equal to or greater than the master server. 
 
+Issue: Interested in **logical replication**
+   * Logical replication with Azure Database for PostgreSQL as a subscriber is not supported
+   * Logical replication is a different PostgreSQL feature from [logical decoding](https://docs.microsoft.com/azure/postgresql/concepts-logical)
+
 Issue: **Queries on the replica fail** with error message "Canceling statement due to conflict with recovery. **User query might have needed to see row versions that must be removed**."
 
    * Consider setting the parameter `hot_standby_feedback` to `ON`. To learn about this parameter, see [the PostgreSQL documentation](https://www.postgresql.org/docs/10/runtime-config-replication.html). [Learn how to set PostgreSQL server parameters in Azure portal](https://docs.microsoft.com/azure/postgresql/howto-configure-server-parameters-using-portal).
