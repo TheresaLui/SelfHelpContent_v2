@@ -1,24 +1,24 @@
 <properties
-	articleId="0C42E85E-E838-4C5F-A4F3-4843C79D0A9E"
-	pageTitle="DMS Migration Error - scoping questions"
+	articleId="17F42952-E710-4EF4-897C-0FC07D8A9BFB"
+	pageTitle="DMS service management issue - scoping questions"
 	description="Scoping questions to capture migration error details"
 	authors="radjaram"
 	authoralias="rradjou"
 	ms.author="radjaram"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32743195,32743201,32743207,32743213,32743196,32743202,32743208,32743214,32743197,32743203,32743209,32743215,32743198,32743204,32743210,32743216,32743199,32743205,32743211,32743217,32743200,32743206,32743212,32743218"
+	supportTopicIds="32743193,32743194,32743219,32743220,32743221,32743222"
 	productPesIds="16307"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
-# Failure when running a database migration using DMS
+# DMS service management issue
 ---
 {
 	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
 	"subscriptionRequired": false,
-	"title": "DMS Migration Issue Description",
+	"title": "DMS Service Managemement Issue Description",
 	"fileAttachmentHint": "",
 	"formElements": [
         {
@@ -28,35 +28,22 @@
             "displayLabel": "What time did the problem begin?",
             "required": true
         },{
-			"id": "sourcetype_dropdown",
+			"id": "sourtype_dropdown",
 			"order": 2,
 			"controlType": "dropdown",
-			"displayLabel": "Where is your source server hosted?",
-			"watermarkText": "Select type of your source server",
-			"infoBalloonText": "If your source type is not in the list, choose Other",
+			"displayLabel": "Does the Vnet used to setup DMS allow outbound connection through port 443",
+			"watermarkText": "Validating connectivity to Azure telemetry endpoint",
+			"infoBalloonText": "<a href='https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet#-common-network-configuration-issues'>See Azure Telemetry endpoints documented here.<a> ",
 			"dropdownOptions": [
 				{
-					"value": "On-Premise",
-					"text": "On-Premise"
+					"value": "Yes",
+					"text": "Yes"
 				},{
-					"value": "Azure-VM",
-					"text": "Azure VM"
-				},{
-					"value": "AWS",
-					"text": "AWS"
-				},{
-					"value": "Other",
-					"text": "Other"
+					"value": "No",
+					"text": "No"
 				}
 			],
 			"required": true
-		},{
-			"id":"SourceServer",
-			"order":100,
-			"controlType":"multilinetextbox",
-			"displayLabel":"Please provide exact string used in the source server-name fields in the project/task creation",
-			"required":false,
-			"watermarkText":"This is needed to validate if there is a formatting issue in the IP address or FQDN in the configuration"
 		},{
 			"id":"problem_description",
 			"order":1000,
