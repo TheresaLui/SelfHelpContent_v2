@@ -45,7 +45,7 @@
 					"value": "AWS",
 					"text": "AWS"
 				},{
-					"value": "Other",
+					"value": "dont_know_answer",
 					"text": "Other"
 				}
 			],

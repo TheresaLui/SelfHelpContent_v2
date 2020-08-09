@@ -33,7 +33,7 @@
 			"controlType": "dropdown",
 			"displayLabel": "Does the Vnet used to setup DMS allow outbound connection through port 443",
 			"watermarkText": "Validating connectivity to Azure telemetry endpoint",
-			"infoBalloonText": "<a href='https://docs.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet#-common-network-configuration-issues'>See Azure Telemetry endpoints documented here.<a> ",
+			"infoBalloonText": "<a href='https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet#-common-network-configuration-issues'>See Azure Telemetry endpoints documented here.</a>",
 			"dropdownOptions": [
 				{
 					"value": "Yes",
@@ -41,6 +41,9 @@
 				},{
 					"value": "No",
 					"text": "No"
+				},{
+					"value": "dont_know_answer",
+					"text": "Don't know"
 				}
 			],
 			"required": true
@@ -51,7 +54,7 @@
 			"displayLabel":"Please provide additional context for the error message you are encountering.",
 			"required":true,
 			"useAsAdditionalDetails":true,
-			"watermarkText":"Please provide the detailed symptom including the full error text if available, whether the issue is intermittent or persistent, and any other relevant information"
+			"watermarkText":"Please provide the detailed symptom including the full error text if available and any other relevant information"
 		}
 	]
 }
