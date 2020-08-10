@@ -27,7 +27,7 @@ Error 40613 is a nonspecific, [transient error](https://docs.microsoft.com/azure
 During the period the service is reconfiguring your primary database replica to a new location, all attempts to connect to the database will fail with error 40613.  Within 15 minutes, [Resource Health](https://docs.microsoft.com/azure/azure-sql/database/resource-health-to-troubleshoot-connectivity?WT.mc_id=pid:13491:sid:32745425) events will reflect that the database was unavailable.  If a more detailed unavailability reason is available, Resource Health is updated with this information, usually within 30 minutes.
 
 To resolve this issue:
-1. Expect that you will periodically see brief windows where you encounter error 40613.  Make sure that all production applications have robust [retry logic](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745425#retry-logic-for-transient-errors), so that these brief periods of unavailability don't impact your users.
-1. Check Resource Health to see whether there is a detailed unavailability reason, and whether it is being caused by a user-initiated action.  If so, try to schedule these operations during a time that reduces impact.  
+1. You should expect periodic, brief windows (e.g., less than 60 seconds) where you see this error.  Make sure that all production applications have robust [retry logic](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745425#retry-logic-for-transient-errors) to handle this.
+1. Check Resource Health to see whether there is a detailed unavailability reason, and whether it is being caused by a user-initiated action.  If so, schedule these operations during a time that reduces impact.  
 1. Subscribe to planned maintenance notifications.  <how to do this goes here>
-1. Contact Azure Support for assistance with unplanned failovers or periods of extended database unavailability.
+1. Contact Azure Support if you need assistance with unplanned failovers or periods of extended database unavailability from other causes.
