@@ -34,7 +34,7 @@ The tempdb is a global resource that is shared by all users connected to the ins
 
 ## **Recommended Steps**
 
-* If the allocated space is not used, run `DBCC SHRINKFILE` to shrink the tempdb file size.
+* If the allocated space is not used, run `DBCC SHRINKFILE` to shrink the tempdb file size
 * If the allocated space is used, failover the instance to clean tempdb completely and restore its default configuration. You can failover the instance using REST API, PowerShell or Azure CLI.
 
 ## **Recommended Documents**
