@@ -30,4 +30,4 @@ For an immediate solution, scale your database to a larger DTU-based service tie
 
 ## **Recommended Documents**
 
-[Resource limits for single databases using the vCore purchasing model](https://docs.microsoft.com/azure/azure-sql/database/resource-limits-vcore-single-databases?WT.mc_id=pid:13491:sid:32745427)
+* [Resource limits for single databases using the vCore purchasing model](https://docs.microsoft.com/azure/azure-sql/database/resource-limits-vcore-single-databases?WT.mc_id=pid:13491:sid:32745427)
