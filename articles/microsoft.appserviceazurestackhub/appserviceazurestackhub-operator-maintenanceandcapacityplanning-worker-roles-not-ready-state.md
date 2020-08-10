@@ -19,13 +19,11 @@
 
 ## **Recommended Steps**
 
-### 1. Verify worker roles are in a "ready" state 
+There can be multiple reasons a worker role is unable to reach a "ready" state, which will prevent deployment of applications. 
 
-There can be multiple reasons a worker role is unable to reach a "ready" state, preventing deployment of applications. 
+### Missing network security group (NSG) role
 
-#### File server health check failure
-
-If you've deployed to an existing virtual network and are using an internal IP address to connect to your file server, you must add a network security group (NSG) rule to allow traffic between the worker role subnet and your file server. If you don't, the file server health check will fail on the worker role.
+If you've deployed to an existing virtual network and are using an internal IP address to connect to your file server, you must add an NSG rule to allow traffic between the worker role subnet and your file server. If you don't, the file server health check will fail on the worker role.
 
 Check the worker role logs to verify file server health check completion:
 
@@ -39,13 +37,9 @@ Check the worker role logs to verify file server health check completion:
 8. If you find the above message, go to the "Network Security Group" blade, and select the "WorkersNsg" security group.
 9. Verify that the [post-deployment steps for NSG configuration](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-deploy?pivots=state-connected#post-deployment-steps) have been completed. These steps will walk you through configuration of an outbound security rule, to enable SMB traffic between the worker subnet and the file server.
 
-#### Incorrect server password configuration
+### Incorrect server password configuration
 
 If a password was specified incorrectly during install, you will need to proceed with opening a support case to get it resolved. 
-
-### 2. Verify adequate resource capacity (TBD)
-
-Scale up/out: [Add workers and infrastructure in Azure App Service on Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-add-worker-roles) ??
 
 ## **Recommended Documents**
 
