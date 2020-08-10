@@ -22,7 +22,7 @@ To resolve common issues, try one or more of the following steps.  Keep in mind 
 
 * **Reboot your nodes.** If your node is unresponsiveness and/or you see that some services have not started, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm).
 * **Reset login password.** To reset the cluster login password, use the "Reset Credential" button in the [SSH + Cluster login](data-blade:Microsoft_Azure_HDInsight.LinuxLoginSettingBlade) tab.
-* **Reset credentials from Abmari.** For Linux clusters, if you cannot recall your SSH credentials, you can [reset the credentials within the Ambari UI](https://azure.microsoft.com/documentation/articles/hdinsight-administer-use-portal-linux/#change-passwords).
+* **Reset credentials from Ambari.** For Linux clusters, if you cannot recall your SSH credentials, you can [reset the credentials within the Ambari UI](https://azure.microsoft.com/documentation/articles/hdinsight-administer-use-portal-linux/#change-passwords).
  
 Please ensure that there are no port blocks on ports 22 and 23. In order to SSH into a cluster these ports needs to be accessible. For more information [click here](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-linux-use-ssh-unix).
 
