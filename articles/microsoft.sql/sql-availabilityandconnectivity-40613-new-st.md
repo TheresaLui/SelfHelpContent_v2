@@ -27,7 +27,7 @@ Error 40613 is a non-specific, [transient error](https://docs.microsoft.com/azur
 During the period the service is reconfiguring your database on different hardware, all attempts to connect to the database will receive error 40613.  The [Resource Health events](https://docs.microsoft.com/azure/azure-sql/database/resource-health-to-troubleshoot-connectivity?WT.mc_id=pid:13491:sid:32745425) will reflect the fact that the database was unavailable within 15 minutes.  If a more detailed unavailability reason is available, the resource health event is updated with this information (usually within 30 minutes).  
 
 To resolve this issue:
-1. Check the Resource Health event to see whether there is a detailed unavailability reason, and whether it is being caused by a user-initiated action.  If so, try to schedule these operations during a time that reduces impact.  
+1. Check Resource Health to see whether there is a detailed unavailability reason, and whether it is being caused by a user-initiated action.  If so, try to schedule these operations during a time that reduces impact.  
 2. Make sure that all production applications have robust [retry logic](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745425#retry-logic-for-transient-errors).  Most database unavailability is brief, so retry logic may allow the operation to complete successfully.
 3. Subscribe to planned maintenance notifications.
 4. Contact Azure Support for assistance with unplanned failovers or extended database unavailability.
