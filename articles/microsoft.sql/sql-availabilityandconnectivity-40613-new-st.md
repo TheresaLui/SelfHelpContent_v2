@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-Error 40613 is a nonspecific, [transient error](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745425) returned by Azure when your database is unavailable.  It is returned for all types of unavailability, including:
+Error 40613 is a nonspecific, [transient error](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745425) returned by Azure when your database is unavailable.  The common types of unavailability are:
  - **User-initiated actions** - certain operations that change the database configuration may briefly make the database unavailable.  Some of the most common are [scaling the database](https://docs.microsoft.com/azure/azure-sql/database/single-database-scale?WT.mc_id=pid:13491:sid:32745425#impact) or [elastic pool](https://docs.microsoft.com/azure/azure-sql/database/elastic-pool-scale?WT.mc_id=pid:13491:sid:32745425#impact-of-changing-service-tier-or-rescaling-compute-size)
  - **Planned maintenance** - the service periodically performs [planned maintenance](https://docs.microsoft.com/azure/azure-sql/database/planned-maintenance?WT.mc_id=pid:13491:sid:32745425) to deploy software upgrades and other system enhancements.  This usually occurs less than twice a month.
  - **Unplanned failover** - unexpected events such as a software crash, hardware failure, etc.
