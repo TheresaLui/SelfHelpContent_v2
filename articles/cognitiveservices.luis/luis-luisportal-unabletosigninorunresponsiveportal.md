@@ -20,7 +20,8 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 * LUIS is a generally available service and portal should always be responsive. If you have trouble with the responsiveness of the portal, please refresh and try using a private window.  
 
-* Make sure that you have been given consent to your application by your Azure Active Directory Tenant admin. Learn more about [AAD Tenant consent](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-collaborate#azure-active-directory-tenant-user)
+* * If **you can not login to LUIS**, it may be because the admin of the subscription hasn’t given access to you or to the company to use LUIS. You will need to contact the Azure Active Directory Tenant admin and make them [add LUIS to the list of approved services they can use](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-collaborate#azure-active-directory-tenant-user).
+
 
 * If still there is an issue, please proceed to open a ticket and elaborate.
 
