@@ -28,11 +28,11 @@ Are you facing one of these common problems?
 
 * The task fails with **5xx error** code
 
-	 If you are seeing a 5xx error, then check the status of your Azure service [here](https://status.azure.com/status)
+	 If you are seeing a 5xx error, [check the status of your Azure service](https://status.azure.com/status).
 
 * The task fails with the error: **Could not fetch access token for Azure. Verify if the Service Principal used is valid and not expired**
 
-	 Verify validity of the service principal used and that it is present in the app registration. For more details, see [Use Role-Based Access Control to manage access to your Azure subscription resources.](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)
+	 Verify validity of the service principal used and that it is present in the app registration. For more details, see [Use Role-Based Access Control to manage access to your Azure subscription resources.](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal).
 
 * I am seeing an **SSL error** in the Azure Function App deploy task
 
@@ -40,12 +40,11 @@ Are you facing one of these common problems?
 
 * Function app deployment on Windows is successful but the app is not working
 
-	This might be because web.config is not present in your app. [Follow these steps to add a web.config](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-function-app?view=azure-devops#function-app-deployment-on-windows-is-successful-but-the-app-is-not-working)
+	This might be because web.config is not present in your app. [Follow these steps to add a web.config](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-function-app?view=azure-devops#function-app-deployment-on-windows-is-successful-but-the-app-is-not-working).
 
 * I need guidance on deploying an app to Azure Web App
 
-	You can refer to tutorial on deploying an app to an Azure Function App
-	- [Java to Function App](https://docs.microsoft.com/azure/devops/pipelines/ecosystems/java-function?view=azure-devops)
+	Refer to the tutorial on deploying an app to an Azure Function App: [Java to Function App](https://docs.microsoft.com/azure/devops/pipelines/ecosystems/java-function?view=azure-devops).
 
 ## **Recommended Documents**
 
