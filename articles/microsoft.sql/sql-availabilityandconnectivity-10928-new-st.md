@@ -19,7 +19,7 @@
 
 For DTU-based service tiers, SQL Database limits the number of [concurrent sessions](https://docs.microsoft.com/azure/azure-sql/database/resource-limits-dtu-single-databases) allowed to the database.  Your application is attempting to open more connections than is allowed for your service tier, which is usually due to an increased workload.  If your application uses connection pooling, a slowdown in query response time may cause a constant rate of frontend requests to require more backend database connections.
 
-**NOTE**: This error number is used when hitting the limit on either sessions (i.e., connections) or requests (i.e., concurrent queries). This guidance is specific to hitting the **session** limit.  Confirm that your error message indicates hitting the session limit.
+**NOTE**: This error number is used when hitting the limit on either sessions (i.e., connections) or requests (i.e., concurrent queries). Confirm that your error message indicates you are hitting the *session limit* before following this guidance.
 
 ## **Recommended Steps**
 
