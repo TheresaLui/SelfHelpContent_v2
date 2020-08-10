@@ -25,7 +25,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDbUpgradeNodeJsSdk",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "owner": {
     "email": "cosmosnotifications@microsoft.com",
     "icm": {
