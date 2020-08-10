@@ -35,25 +35,25 @@ In order to run it you need to:
 2. Open a New Script window
 3. Paste the following in the script window:
 
-```
-    $parameters = @{
-        Server = '.database.windows.net'
-        Database = ''  # Set the name of the database you wish to test, 'master' will be used by default if nothing is set
-        User = ''  # Set the login username you wish to use, 'AzSQLConnCheckerUser' will be used by default if nothing is set
-        Password = ''  # Set the login password you wish to use, 'AzSQLConnCheckerPassword' will be used by default if nothing is set
+  ```
+      $parameters = @{
+          Server = '.database.windows.net'
+          Database = ''  # Set the name of the database you wish to test, 'master' will be used by default if nothing is set
+          User = ''  # Set the login username you wish to use, 'AzSQLConnCheckerUser' will be used by default if nothing is set
+          Password = ''  # Set the login password you wish to use, 'AzSQLConnCheckerPassword' will be used by default if nothing is set
 
-        ## Optional parameters (default values will be used if omitted)
-        SendAnonymousUsageData = $true  # Set as $true (default) or $false
-        RunAdvancedConnectivityPolicyTests = $true  # Set as $true (default) or $false, this will load the library from Microsoft's GitHub repository needed for running advanced connectivity tests
-        CollectNetworkTrace = $true  # Set as $true (default) or $false
-        #EncryptionProtocol = '' # Supported values: 'Tls 1.0', 'Tls 1.1', 'Tls 1.2'; Without this parameter operating system will choose the best protocol to use
-    }
+          ## Optional parameters (default values will be used if omitted)
+          SendAnonymousUsageData = $true  # Set as $true (default) or $false
+          RunAdvancedConnectivityPolicyTests = $true  # Set as $true (default) or $false, this will load the library from Microsoft's GitHub repository needed for running advanced connectivity tests
+          CollectNetworkTrace = $true  # Set as $true (default) or $false
+          #EncryptionProtocol = '' # Supported values: 'Tls 1.0', 'Tls 1.1', 'Tls 1.2'; Without this parameter operating system will choose the best protocol to use
+      }
 
-    $ProgressPreference = "SilentlyContinue";
-    $scriptUrlBase = 'raw.githubusercontent.com/Azure/SQL-Connectivity-Checker/master'
-    Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLConnectivityChecker.ps1')).Content)) -ArgumentList $parameters
-    #end
-```
+      $ProgressPreference = "SilentlyContinue";
+      $scriptUrlBase = 'raw.githubusercontent.com/Azure/SQL-Connectivity-Checker/master'
+      Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLConnectivityChecker.ps1')).Content)) -ArgumentList $parameters
+      #end
+  ```
 
 4. Set the parameters on the script, you need to set server name. Database name, user and password are optional but desirable.
 5. Run it
