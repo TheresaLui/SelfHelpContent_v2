@@ -31,6 +31,8 @@ Most users are able to resolve their issue using the steps below.
 
 * There may be as much as a five minute delay for changes to the Azure Database for PostgreSQL firewall configuration to take effect. Confirm your rule was added and re-try to connect for at least 5 minutes.
 
+* If you receive an error while trying to create a firewall rule, your server may have been unavailable due to a user- or service-initiated restart. You can review the Azure Activity Log for user-initiated operations like restart or scaling. You can review Resource Health Check for service-initiated maintenance. 
+
 * If you are having trouble using Azure CLI:
 
   * Make sure you are signed in to the correct Azure account using **az login**
