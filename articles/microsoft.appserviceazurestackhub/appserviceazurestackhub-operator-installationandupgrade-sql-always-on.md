@@ -55,8 +55,8 @@ If you deployed SQL Server using the "Quickstart template for Highly Available f
     1. Use the Start menu to find and run the "Remote Desktop Connection" app. 
     2. Use one of the SQL Server IP addresses obtained in step 2.ii to connect to that SQL Server VM. You'll need the admin credentials provided during deployment to sign in.
     3. In the SQL Server VM, select and run "SQL Server Management Studio" from the Start menu. When the "Connect to Server" dialog shows, make sure "Server type" is set to "Database server", and "Authentication" is set to "Windows Authentication".
-    5. First test for connectivity to the SQL Server load balancer, by entering the IP address obtained in step 2.vi in the "Server name" field.  Select the "Connect" button. If login fails and you cannot connect to the SQL Server load balancer, jump to step #7 so you can proceed with opening a support case.
-    6. Now test for connectivity to each SQL Server VM's databases.
+    4. First test for connectivity to the SQL Server load balancer, by entering the IP address obtained in step 2.vi in the "Server name" field.  Select the "Connect" button. If login fails and you cannot connect to the SQL Server load balancer, jump to step #7 so you can proceed with opening a support case.
+    5. Now test for connectivity to each SQL Server VM's databases.
         1. In the "Object Explorer" panel, select the "Connect" dropdown, then "Database Engine".
         2. In the "Connect to Server" dialog, enter a SQL Server VM IP address from step 2.ii under "Server name". 
         3. Select the "Connect" button. If login fails and you cannot connect to the SQL Server database, jump to step #7 so you can proceed with opening a support case. 
