@@ -1,5 +1,5 @@
 <properties
-    articleId="ac92ca9c-26p2-017a-a5e4-49812c98d489"
+    articleId="ac92ca9c-26p2-017a-a5e4-49862c98d489"
     pageTitle="I need help with master target server "
     description="I need help with master target server "
     authors="TobyTu"
