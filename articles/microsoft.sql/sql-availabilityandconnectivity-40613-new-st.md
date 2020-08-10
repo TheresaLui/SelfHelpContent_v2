@@ -28,5 +28,5 @@ During the period the service is reconfiguring your primary database replica to 
 
 1. You should expect periodic, brief windows (e.g., less than 60 seconds) where you see this error.  Make sure that all production applications have robust [retry logic](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745430#retry-logic-for-transient-errors) to handle this.
 1. Check Resource Health to see whether there is a detailed unavailability reason, and whether it is being caused by a user-initiated action.  If so, schedule these operations during a time that reduces impact.  
-1. Subscribe to Planned maintenance notifications in [Azure Service Health](https://docs.microsoft.com/en-us/azure/service-health/service-health-overview?WT.mc_id=pid:13491:sid:32745430), so you know when planned maintenance activities occur.
+1. Subscribe to Planned maintenance notifications in [Azure Service Health](https://docs.microsoft.com/azure/service-health/service-health-overview?WT.mc_id=pid:13491:sid:32745430), so you know when planned maintenance activities occur.
 1. Contact Azure Support if you need assistance with unplanned failovers or periods of extended database unavailability from other causes.
