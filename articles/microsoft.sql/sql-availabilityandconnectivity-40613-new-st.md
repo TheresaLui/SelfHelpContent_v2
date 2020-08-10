@@ -17,17 +17,20 @@
 
 # Database X on server Y is not currently available
 
-## **Recommended Steps**
+## Recommended steps
 
-### Error 40613: Database X on server Y is not currently available
-* You will receive error 40613 when the connection to the SQL Database fails due to:
+Error 40613 is a non-specific, [transient error](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745425)that is returned when your database is unavailable.  It is non-specific because it is returned for all types of unavailability, including:
+ - User-initiated action - certain operations that change the database configuration may briefly make the database unavailable.  Some of the most common are [scaling the database](https://docs.microsoft.com/azure/azure-sql/database/single-database-scale?WT.mc_id=pid:13491:sid:32745425#impact) or [elastic pool](https://docs.microsoft.com/azure/azure-sql/database/elastic-pool-scale?WT.mc_id=pid:13491:sid:32745425#impact-of-changing-service-tier-or-rescaling-compute-size)
+ - Planned maintenance - the service periodically performs [planned maintenance](https://docs.microsoft.com/azure/azure-sql/database/planned-maintenance?WT.mc_id=pid:13491:sid:32745425) to deploy software upgrades and other system enhancements.  This usually occurs less than twice a month.
+ - Unplanned failover - unexpected events such as a software crash, hardware failure, etc.
 
- - **Reconfiguration** - Reconfigurations can be caused by planned events (Ex. Software upgrades) or unplanned events (Ex. Process crash or load balancing). Most reconfiguration events are generally short lived, however these events can occasionally take longer to finish (Ex. Long-running transactions can cause long-running recovery).
- - **DAC Connections** - DAC (Dedicated Admin Connection) limits maximum number of admin connections to the database to only one. In this scenario, you will receive an error:
- 
-```
-   "17810, Severity: 20, State: 2. \<Timeframe\> Could not connect because the maximum number of '%1' dedicated administrator connections already exists. Before a new connection can be made, the existing dedicated administrator connection must be dropped, either by logging off or ending the process.".
-```
-Dedicated Admin connection for administrators are solely for diagnosing under rare circumstances and with limitations. To guarantee that there are resources available for the connection, only one DAC is allowed at a time. If you experience the above error, please ensure to disconnect the existing DAC connection prior to attempting a new DAC connection. For more information, please visit [Diagnostic Connection for Database Administrators](https://docs.microsoft.com/sql/database-engine/configure-windows/diagnostic-connection-for-database-administrators?WT.mc_id=pid:13491:sid:32745425).
-* For additional information, please refer to [Transient errors](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database?WT.mc_id=pid:13491:sid:32745425/#transient-fault-error-messages-40197-40613-and-others)
+During the period the service is reconfiguring your database on different hardware, all attempts to connect to the database will receive error 40613.  The Resource Health blade will reflect the fact that the database was unavailable within 15 minutes.  If a more detailed unavailability reason is available, the resource health event is updated with this information (usually within 30 minutes).  
+
+1. Check the [Resource Health events](https://docs.microsoft.com/azure/azure-sql/database/resource-health-to-troubleshoot-connectivity?WT.mc_id=pid:13491:sid:32745425) to see whether there is a detailed unavailability reason, and whether it is being caused by a user-initiated action.  If so, try to schedule these operations during a time that reduces impact.  
+2. Make sure that all production applications have robust [retry logic](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745425#retry-logic-for-transient-errors).  Most database unavailability is brief, so retry logic may allow the operation to complete successfully.
+3. Subscribe to planned maintenance notifications.
+4. Contact Azure Support for assistance with unplanned failovers or extended database unavailability.
+
+
+
 
