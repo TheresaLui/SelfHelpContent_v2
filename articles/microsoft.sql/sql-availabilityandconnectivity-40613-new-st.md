@@ -17,7 +17,7 @@
 
 # Database X on server Y is not currently available
 
-## Recommended steps
+## **Recommended Steps**
 
 Error 40613 is a non-specific, [transient error](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745425)that is returned when your database is unavailable.  It is non-specific because it is returned for all types of unavailability, including:
  - User-initiated action - certain operations that change the database configuration may briefly make the database unavailable.  Some of the most common are [scaling the database](https://docs.microsoft.com/azure/azure-sql/database/single-database-scale?WT.mc_id=pid:13491:sid:32745425#impact) or [elastic pool](https://docs.microsoft.com/azure/azure-sql/database/elastic-pool-scale?WT.mc_id=pid:13491:sid:32745425#impact-of-changing-service-tier-or-rescaling-compute-size)
