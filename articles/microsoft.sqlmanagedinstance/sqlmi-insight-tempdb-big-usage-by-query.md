@@ -34,8 +34,8 @@ The tempdb is a global resource that is shared by all users connected to the ins
 
 ## **Recommended Steps**
 
-* Consider rewriting the queries identified by the query hash codes listed above to consume fewer rows.
-* Consider running `DBCC SHRINKFILE` to shrink the tempdb file size.
+* Consider rewriting the queries identified by the query hash codes listed above to consume fewer rows
+* Consider running `DBCC SHRINKFILE` to shrink the tempdb file size
 
 ## **Recommended Documents**
 
