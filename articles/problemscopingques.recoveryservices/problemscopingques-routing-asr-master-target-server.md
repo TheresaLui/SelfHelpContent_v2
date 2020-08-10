@@ -1,5 +1,5 @@
 <properties
-    articleId="ac92ca9c-26p2-017a-a5e4-49812c98d489"
+    articleId="ac92ca9c-26p2-017a-a5e4-49862c98d489"
     pageTitle="I need help with master target server "
     description="I need help with master target server "
     authors="TobyTu"
@@ -35,28 +35,28 @@
             "required": true,
             "dropdownOptions": [
               {
-              "value": "Azure VMs to Azure",
-              "text": "Azure VMs to Azure"
+              "value": "Protection of Azure virtual machines",
+              "text": "Protection of Azure virtual machines"
               },
               {
-              "value": "VMware VMs to Azure",
-              "text": "VMware VMs to Azure"
+              "value": "Protection of VMware virtual machines to Azure",
+              "text": "Protection of VMware virtual machines to Azure"
               },
               {
-              "value": "Hyper-V VMs to Azure",
-              "text": "Hyper-V VMs to Azure"
+              "value": "Protection of Hyper-V virtual machines to Azure",
+              "text": "Protection of Hyper-V virtual machines to Azure"
               },
               {
-              "value": "Physical machines to Azure",
-              "text": "Physical machines to Azure"
+              "value": "Protection of physical servers from on-premises to Azure",
+              "text": "Protection of physical servers from on-premises to Azure"
               },
               {
-              "value": "Site to site",
-              "text": "Site to site"
+              "value": "Protection of Hyper-V virtual machines from one on-premise site to another on-premise site",
+              "text": "Protection of Hyper-V virtual machines from one on-premise site to another on-premise site"
               },
               {
               "value": "dont_know_answer",
-              "text": "Other, don't know or not applicable"
+              "text": "Other"
               }
            ]
         },
