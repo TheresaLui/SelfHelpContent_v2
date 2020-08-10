@@ -18,4 +18,6 @@
  
 ## **Recommended Documents**
 
-* [Ambari Agent Heartbeat Lost](https://hdinsight.github.io/ambari/ambari-agent-heartbeat-lost.html)
+**Reboot your nodes.** If your node is unresponsiveness and/or you see that some services have not started, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm).
+
+**Heartbeat lost.** If you are having heartbeat issues with Ambari, see [Apache Ambari heartbeat issues](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues).

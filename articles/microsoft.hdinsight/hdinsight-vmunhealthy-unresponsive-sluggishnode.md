@@ -15,7 +15,12 @@
 	ownershipId="AzureData_HDInsight"
 />
 # Unresponsive or sluggish node in a cluster
-In some cases, sluggishness can occur because of low disk space on the cluster. To check for this issue, follow these steps:
+
+## Recommended Steps
+
+**Reboot your nodes.** If your node is unresponsiveness and/or you see that some services have not started, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm).
+
+**Check for low disk space.** In some cases, sluggishness can occur because of low disk space on the cluster. To check for this issue, follow these steps:
 
 1. SSH into each of the nodes, and check disk usage on the node by running a command such as the following:
  

@@ -17,9 +17,9 @@
 
 # Azure HDInsight Storm Troubleshooting
 
-**Storm Binaries and Configuration Files**
+**Reboot your nodes.** If your node is unresponsiveness and/or you see that some services have not started, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm).
 
-Storm binaries are located at `/usr/hdp/current/storm-client`. Storm Log4J configuration is read from `usr/hdp/storm/log4j2`.
+**Locating Storm binaries and configuration files**. Storm binaries are located at `/usr/hdp/current/storm-client`. Storm Log4J configuration is read from `usr/hdp/storm/log4j2`.
 
 ## **Recommended Documents**
 

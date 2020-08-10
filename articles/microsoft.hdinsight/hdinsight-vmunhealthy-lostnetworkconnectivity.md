@@ -16,6 +16,8 @@
 />
 # Lost connectivity between nodes
 
+**Reboot your nodes.** If your node is unresponsiveness and/or you see that some services have not started, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm).
+
 ## **Recommended Documents**
 
 * [Troubleshoot: Ambari agent heartbeat lost issue](https://hdinsight.github.io/ambari/ambari-agent-heartbeat-lost.html)
