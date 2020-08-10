@@ -22,7 +22,7 @@ Error 40613 is a nonspecific, [transient error](https://docs.microsoft.com/azure
  - **Planned maintenance** - the service periodically performs [planned maintenance](https://docs.microsoft.com/azure/azure-sql/database/planned-maintenance?WT.mc_id=pid:13491:sid:32745430) to deploy software upgrades and other system enhancements.  This usually occurs less than twice a month.
  - **Unplanned failover** - unexpected events such as a software crash, hardware failure, etc.
 
-During the period the service is reconfiguring your primary database replica to a new location, all attempts to connect to the database will fail with error 40613.  Within a few minutes, [Resource Health](https://docs.microsoft.com/azure/azure-sql/database/resource-health-to-troubleshoot-connectivity?WT.mc_id=pid:13491:sid:32745430) events will reflect that the database was unavailable.  If a more detailed unavailability reason is available, Resource Health is updated with this information, usually within 30 minutes.
+During the period the service is reconfiguring your primary database replica to a new location, all attempts to connect to the database will fail with error 40613.  Within a few minutes (needed to process the health signal telemetry), [Resource Health](https://docs.microsoft.com/azure/azure-sql/database/resource-health-to-troubleshoot-connectivity?WT.mc_id=pid:13491:sid:32745430) should reflect that the database is unavailable.  As more detailed telemetry becomes available, additional processing is performed to determine the cause of unavailability.  When a more detailed unavailability reason is determined, Resource Health is updated with this information, usually within 30 minutes.
 
 ## **Recommended Steps**
 
