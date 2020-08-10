@@ -16,11 +16,11 @@
 />
 # Restart operation on HBase
 
-## Recommended Steps
+## **Recommended Steps**
 
 * **Reboot your nodes.** If your node is unresponsiveness and/or you see that some services have not started, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm).
 
-## Recommended Documents
+## **Recommended Documents**
 
 * [Restart operation on HBase Region Server fails to complete](https://hdinsight.github.io/hbase/hbase-regionserver-restart-failed)
 * Region server hotspotting can occur when writing records with sequential keys to HBase. Please read [here](https://docs.microsoft.com/azure/hdinsight/hdinsight-phoenix-in-hdinsight#salted-tables) to learn about mitigations.
