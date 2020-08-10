@@ -17,8 +17,15 @@
 
 # The session limit for the database has been reached
 
-## **Recommended Steps**
+**NOTE**: This error number is used to indicate a resource limit on either sessions (i.e., connections) or requests (i.e., concurrent queries). This guidance is specific to hitting the **session** limit.  Confirm that the error message you are receiving is reporting the limit on sessions.
 
-### Error 10928: The session limit for the database is X and has been reached
+For DTU-based service tiers, SQL Database limits the number of concurrent sessions allowed to the [database](https://docs.microsoft.com/azure/azure-sql/database/resource-limits-dtu-single-databases).  Your application is attempting to open more connections than is allowed for your service tier, which is usually due to an increased workload.  If your application uses connection pooling, a slowdown in query response time may cause a constant rate of frontend requests to require more backend database connections.
 
-* The Resource ID indicates which resource governance limit is being hit. A value of 1 is a limit on worker threads; 2 is a limit on sessions (connections). For short term mitigation, increase the [service tier](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu?WT.mc_id=pid:13491:sid:32745425/) of your database; longer term, tune the workload so it better fits the selected tier. Refer to the [Query Performance Insight](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance?WT.mc_id=pid:13491:sid:32745425/) feature for assistance analyzing and tuning your workload. <br>
+For an immediate solution, scale your database to a larger DTU-based service tier sufficient to handle the workload.  For a longer-term solution, choose between:
+-  Using [Query Performance Insight](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance?WT.mc_id=pid:13491:sid:32745425/) to identify poorly performing or resource intensive queries that need tuning, so that your workload can be handled by the current service tier.
+- Switching to an elastic pool or vCore-based purchasing models, which effectively removes the session limit (setting it to 30000)
+
+
+## **Recommended Documents**
+
+[Resource limits for single databases using the vCore purchasing model](https://docs.microsoft.com/azure/azure-sql/database/resource-limits-vcore-single-databases?WT.mc_id=pid:13491:sid:32745425)
