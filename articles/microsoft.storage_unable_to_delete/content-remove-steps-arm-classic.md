@@ -15,7 +15,7 @@
     ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-## **Recommended Steps**
+# Identify Disk
 
 1. Enter [**Azure Support Center (ASC)**](https://azuresupportcenter.msftcloudes.com/ticketdetails) and select the case being investigated.
 2. Navigate to **Resource Explorer** and search for the affected **Storage Account** resource.
