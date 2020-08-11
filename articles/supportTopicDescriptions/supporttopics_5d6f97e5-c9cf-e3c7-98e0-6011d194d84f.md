@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a0deb530-802e-b02d-97bc-fdff26d7fd66",
+      "longDescription": "",
+      "shortDescription": "Raise request if you want to move the gateway resource to a different subscription",
+      "searchTags": "Resource Move;Subscription",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f1e3d708-2dcf-7609-aba0-93507980eba8",
       "longDescription": "",
       "shortDescription": "Diagnose and report any issues with setting up web proxy configuration for data box gateway",
