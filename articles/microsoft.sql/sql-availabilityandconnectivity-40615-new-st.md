@@ -37,8 +37,10 @@ In Azure SQL Database service, a connection attempt from the internet and Azure 
 
 If you are seeing that the firewall rules are not behaving as expected, please follow the [recommendations](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745431#troubleshoot-the-database-firewall).
 
-## **Recommended Steps**
+## **Recommended Documents**
 
- * [Create and manage firewall rules](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745431)
+* [Create and manage firewall rules](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745431)
+* [Virtual network endpoints](https://docs.microsoft.com/azure/azure-sql/database/vnet-service-endpoint-rule-overview?WT.mc_id=pid:13491:sid:32745431)
+* [PowerShell create virtual service endpoint](https://docs.microsoft.com/azure/azure-sql/database/scripts/vnet-service-endpoint-rule-powershell-create?WT.mc_id=pid:13491:sid:32745431)
 
- <br>
+<br>

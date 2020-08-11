@@ -15,7 +15,9 @@
     ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
-### Client Drivers
+# Client drivers and API
+
+#### Client Drivers
 
 Azure SQL Service supports multiple  client libraries (drivers)  that applications can use for interacting with the SQL database. These drivers are available for a variety of programming languages, running on Windows, Linux or macOS.
 
@@ -25,12 +27,12 @@ Drivers for Object relational mapping (ORM) - These drivers work by expecting th
 
 For questions related to client drivers and how to use for interacting with your database  please refer [Connection modules for Microsoft SQL Database](https://docs.microsoft.com/sql/connect/sql-connection-libraries?WT.mc_id=pid:13491:sid:32745424&view=sql-server-ver15)
 
-### APIs
+#### APIs
 You  can develop API using the language of choice as Azure SQL supports various languages and frameworks. SQL database supports relational, JSON, spatial and XML data. Please visit below links for more information on
 
 - [Azure SQL Database APIs for .NET](https://docs.microsoft.com/dotnet/api/overview/azure/sql?WT.mc_id=pid:13491:sid:32745424&view=azure-dotnet#overview)
 - [Azure SQL Database APIs for Java](https://docs.microsoft.com/java/api/overview/azure/sql?WT.mc_id=pid:13491:sid:32745424&view=azure-java-stable#overview)
 
-### **Recommended Documents**
+## **Recommended Documents**
 [Java Libraries for SQL Database](https://docs.microsoft.com/java/api/overview/azure/sql?WT.mc_id=pid:13491:sid:32745424&view=azure-java-stable)
 <br>
