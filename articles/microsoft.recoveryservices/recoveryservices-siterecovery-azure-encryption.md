@@ -16,7 +16,7 @@
 
 # I need help with encryption
 
-## **Recommended documents**
+## **Recommended Documents**
 
 - [Replicate Azure Disk Encryption-enabled virtual machines to another Azure region](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-how-to-enable-replication-ade-vms)
 - [Azure Storage encryption for data at rest](https://docs.microsoft.com/azure/storage/common/storage-service-encryption)
