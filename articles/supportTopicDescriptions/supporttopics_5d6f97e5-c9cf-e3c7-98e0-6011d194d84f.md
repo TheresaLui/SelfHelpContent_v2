@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "63c8c809-c3bf-a649-0002-fe8aca451978",
+      "longDescription": "",
+      "shortDescription": "Initial setup and provisioning of the gateway for Hypervisor",
+      "searchTags": "Hyper-V;Hypervisor",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f1e3d708-2dcf-7609-aba0-93507980eba8",
       "longDescription": "",
       "shortDescription": "Diagnose and report any issues with setting up web proxy configuration for data box gateway",
