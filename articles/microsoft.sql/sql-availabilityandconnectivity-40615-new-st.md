@@ -17,8 +17,6 @@
 
 # Cannot open server y requested by the login
 
-## **Recommended Steps**
-
 In Azure SQL Database service, a connection attempt from the internet and Azure must pass through the firewalls before they reach your server or database. There are two types of firewall rules:
 
 * **Server level firewall rules**: These rules enable clients to access your entire server, that is, all the databases managed by the server. The rules are stored in the master database. You can have a maximum of 128 server-level IP firewall rules for a server. If you have the Allow Azure Services and resources to access this server setting enabled, this counts as a single firewall rule for the server. These can be managed using [Azure Portal](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745431/#create-and-manage-ip-firewall-rules), [PowerShell](https://docs.microsoft.com/powershell/module/az.sql/?WT.mc_id=pid:13491:sid:32745431&view=azps-4.5.0&viewFallbackFrom=azps-4.2.0), [Azure CLI](https://docs.microsoft.com/cli/azure/sql/server/firewall-rule?WT.mc_id=pid:13491:sid:32745431&view=azure-cli-latest), [T-SQL](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745431/#create-and-manage-ip-firewall-rules), [Rest-API](https://docs.microsoft.com/rest/api/sql/firewallrules/createorupdate?WT.mc_id=pid:13491:sid:32745431).
@@ -39,8 +37,8 @@ In Azure SQL Database service, a connection attempt from the internet and Azure 
 
 If you are seeing that the firewall rules are not behaving as expected, please follow the [recommendations](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745431#troubleshoot-the-database-firewall).
 
-## **Recommended Documents**
+## **Recommended Steps**
 
  * [Create and manage firewall rules](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745431)
- 
+
  <br>
