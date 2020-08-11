@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "61582bc1-8ae4-42fe-0afd-8061d654b634",
+      "longDescription": "",
+      "shortDescription": "Help configure shares to enable data transfer from device to cloud subscription using SMB or NFS",
+      "searchTags": "Create Shares;SMB share;NFS Share",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "63c8c809-c3bf-a649-0002-fe8aca451978",
       "longDescription": "",
       "shortDescription": "Initial setup and provisioning of the gateway for Hypervisor",
