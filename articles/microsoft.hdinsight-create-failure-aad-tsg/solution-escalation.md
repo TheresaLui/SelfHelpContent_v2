@@ -19,9 +19,13 @@
 
 <!--issueDescription-->
 
-We have checked the cluster and already escalated this for further investigation.<br>
-<br>
-When we have an update, we'll let you know<br>
+***INTERNAL CONTENT DO NOT PROVIDE TO CUSTOMER***
 
 <!--/issueDescription-->
 
+Try to follow the recommended documents to troubleshoot or escalate 
+
+## **Recommended Documents**
+
+* [Cluster creation process](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/296058/Cluster-create-process)
+* [Cluster creation failure](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/309196/Cluster-create-failed)

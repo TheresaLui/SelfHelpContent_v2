@@ -28,8 +28,8 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 To restore the connectivity to the VM, please follow the troubleshooting steps below:
 
 1. Please make a note of the file name and the path from the screenshot from the virtual machine <!--$vmname-->[vmname]<!--/$vmname-->
-2. If the file name refers to the file `\Windows\system32\config\SYSTEM`, [save a copy of the OS disk](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-vhd-copy)
-3. [Attach the copy/snapshot](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-attach-disk-portal) of the OS disk of the VM as a data disk to a troubleshooting VM
+2. If the file name refers to the file `\Windows\system32\config\SYSTEM`, [save a copy of the OS disk](https://docs.microsoft.com/azure/virtual-machines/windows/snapshot-copy-managed-disk)
+3. [Attach the copy/snapshot](https://docs.microsoft.com/azure/virtual-machines/windows/attach-managed-disk-portal) of the OS disk of the VM as a data disk to a troubleshooting VM
 4. Connect to the troubleshooting VM to ensure the newly attached OS disk is online and has a drive letter assigned
 5. Mount the SYSTEM hive of your VM:
 

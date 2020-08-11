@@ -24,7 +24,7 @@
 3. Make sure your [policies are set](https://docs.microsoft.com/azure/information-protection/configure-policy) to automatic labeling or have a default label in the policy
 4. Make sure that the relevant file type is configured for label/protection as described here: [File types supported by the Azure Information Protection client](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-file-types#supported-file-types-for-classification-and-protection). In addition, if you want to change the default behavior, follow this guidelines: [Changing the default protection level of files](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-file-types#changing-the-default-protection-level-of-files)
 5. Verify that the user account configured to run the scanner service has permissions to access all the configured repositories
-6. Run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#troubleshooting-using-scanner-diagnostic-tool) in order to troubleshoot common issues when deploying scanner
+6. Run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics?view=azureipps) in order to troubleshoot common issues when deploying scanner
 7. If you still experience issues, please export the scanner logs and add them to your ticket
 
 ### Export Azure Information Protection Scanner logs
