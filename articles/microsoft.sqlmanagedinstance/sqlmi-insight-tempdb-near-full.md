@@ -40,6 +40,7 @@ The tempdb is a global resource that is shared by all users connected to the ins
 ## **Recommended Documents**
 
 * [tempdb](https://docs.microsoft.com/sql/relational-databases/databases/tempdb-database)
+* [How to shrink the tempdb database in SQL Server](https://support.microsoft.com/help/307487/how-to-shrink-the-tempdb-database-in-sql-server)
 * [DBCC SHRINKFILE](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-shrinkfile-transact-sql)
 * [REST API - Managed Instance failover](https://docs.microsoft.com/rest/api/sql/managed%20instances%20-%20failover/failover)
 * [Az PowerShell - Managed Instance failover](https://docs.microsoft.com/powershell/module/az.sql/Invoke-AzSqlInstanceFailover?view=azps-4.4.0)
