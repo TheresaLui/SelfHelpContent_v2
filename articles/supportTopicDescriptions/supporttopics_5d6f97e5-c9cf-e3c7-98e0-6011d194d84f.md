@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "500d673f-e761-17ba-0306-388570230791",
+      "longDescription": "",
+      "shortDescription": "Initial setup and provisioning of the gateway for Host system running VMWare ",
+      "searchTags": "VMWare;Gateway setup;Provision gateway",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "63c8c809-c3bf-a649-0002-fe8aca451978",
       "longDescription": "",
       "shortDescription": "Initial setup and provisioning of the gateway for Hypervisor",
