@@ -33,7 +33,7 @@ In Azure SQL Database service, a connection attempt from the internet and Azure 
 
   Please visit [Server-level versus database-level IP firewall rules](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745431#server-level-versus-database-level-ip-firewall-rules) to understand the difference between server level and database level firewall rules.
 
-**Troubleshooting the database firewall**
+### **Troubleshooting database firewall rule issues**
 
 If you are seeing that the firewall rules are not behaving as expected, please follow the [recommendations](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745431#troubleshoot-the-database-firewall).
 
