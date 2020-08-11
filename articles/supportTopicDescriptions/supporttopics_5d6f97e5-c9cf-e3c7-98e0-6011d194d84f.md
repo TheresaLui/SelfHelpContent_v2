@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f1dcbd17-672e-5d5a-6749-a0b5bb5789d7",
+      "longDescription": "",
+      "shortDescription": "Diagnose if you are unable to connect via the Server Message Block (SMB) share for data transfers",
+      "searchTags": "SMB share;Data transfer",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f1e3d708-2dcf-7609-aba0-93507980eba8",
       "longDescription": "",
       "shortDescription": "Diagnose and report any issues with setting up web proxy configuration for data box gateway",
