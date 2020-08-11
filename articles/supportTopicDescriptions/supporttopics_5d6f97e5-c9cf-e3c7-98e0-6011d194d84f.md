@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "4e25002a-b606-8372-614b-a8718feef47a",
+      "longDescription": "",
+      "shortDescription": "Diagnose if you are unable to connect via the Network File System (NFS) share for data transfers",
+      "searchTags": "NFS Shares;Data transfer",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "500d673f-e761-17ba-0306-388570230791",
       "longDescription": "",
       "shortDescription": "Initial setup and provisioning of the gateway for Host system running VMWare ",
