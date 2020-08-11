@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6578b875-e5f1-ab6d-0034-af364d71ca00",
+      "longDescription": "",
+      "shortDescription": "Assistance with configuring data transfer bandwidth schedules on Azure Portal",
+      "searchTags": "Bandwidth schedules;variable bandwidth",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "94d69788-5eff-247c-9992-a1e35c7785e5",
       "longDescription": "",
       "shortDescription": "Help with configuration and specification of the network settings for the setup - DHCP or Static IPs",
