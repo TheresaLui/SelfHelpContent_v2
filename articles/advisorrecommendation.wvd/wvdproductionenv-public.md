@@ -43,7 +43,7 @@
   "actions": [
     {
       "actionId": "d106c31c-e4da-4418-aef9-33878467f11f",
-      "description": "Deploy Host Pool to non-validation environment",
+      "description": "Deploy Host Pool to production (non-validation) environment",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_WVD",
       "bladeName": "WvdManagerMenuBlade",
@@ -63,8 +63,8 @@
       }
     }
   },
-  "displayLabel": "Deploy Host Pool to non-validation environment",
+  "displayLabel": "Deploy Host Pool to production (non-validation) environment",
   "additionalColumns": [],
-  "tip": "Use Host Pool deployed to Non-Validation Environment to ensure business functionality continuation with increased stability"
+  "tip": "Use Host Pool deployed to production (non-validation) environment to ensure business functionality continuation with increased stability"
 }
 ---
