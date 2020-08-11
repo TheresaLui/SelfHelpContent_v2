@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f29c57b2-591b-ff61-298f-97a90c5a31d1",
+      "longDescription": "",
+      "shortDescription": "Assistance with connecting and using of Local User Interface provided for device management including password",
+      "searchTags": "Management;Local UI;password management",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f39cae3a-bb89-8929-d778-7d657bc676dd",
       "longDescription": "",
       "shortDescription": "Assistance if you are unable to activate the gateway with a generated activation key",
