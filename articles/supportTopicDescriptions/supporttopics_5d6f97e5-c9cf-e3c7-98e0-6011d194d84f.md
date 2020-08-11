@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "af5ea0b6-7977-8eba-b6e2-b1d7d1794bff",
+      "longDescription": "",
+      "shortDescription": "User management like addition and deletion through Azure portal or Local UI",
+      "searchTags": "Add User;User management;Delete user",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d9600321-42ab-55ad-6fa9-4e296c333867",
       "longDescription": "",
       "shortDescription": "Steps to update, monitor and Troubleshoot the update process for gateway managed from the cloud",
