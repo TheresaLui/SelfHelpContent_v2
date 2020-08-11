@@ -18,7 +18,7 @@
 
 ## **Recommended Steps**
 
-### Resolve the most commonly seen installation failures due to extension errors:
+### Resolve the most commonly seen installation failures due to extension errors
 
 - Resolve update failure from Azure Site Recovery extension [time-out error](https://docs.microsoft.com/azure/site-recovery/site-recovery-extension-troubleshoot#azure-site-recovery-extension-time-out)
 - Resolve update failure from VM agent [unresponsive error](https://docs.microsoft.com/azure/site-recovery/site-recovery-extension-troubleshoot#protection-fails-because-the-vm-agent-is-unresponsive)
