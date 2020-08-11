@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "26f4d0e6-ccf1-e84b-7bef-ca537a8a85a2",
+      "longDescription": "",
+      "shortDescription": "Help with seeing the status of files being synced to the storage account in the cloud",
+      "searchTags": "File sync;Cloud storage",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4e25002a-b606-8372-614b-a8718feef47a",
       "longDescription": "",
       "shortDescription": "Diagnose if you are unable to connect via the Network File System (NFS) share for data transfers",
