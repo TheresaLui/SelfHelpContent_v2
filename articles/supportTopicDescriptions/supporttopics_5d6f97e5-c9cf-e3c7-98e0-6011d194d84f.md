@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "63698e3a-5b8c-a140-90ea-e1e03f91d379",
+      "longDescription": "",
+      "shortDescription": "How to check data copy speeds and assistance if you observe data copy speeds to be slower than usual ",
+      "searchTags": "Data copy;Speed",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "63c8c809-c3bf-a649-0002-fe8aca451978",
       "longDescription": "",
       "shortDescription": "Initial setup and provisioning of the gateway for Hypervisor",
