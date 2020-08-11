@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Ensure production environment to benefit from stable functionality"
-    description="Ensure production environment to benefit from stable functionality"
+    pageTitle="Ensure production (non-validation) environment to benefit from stable functionality"
+    description="Ensure production (non-validation) environment to benefit from stable functionality"
     authors="marius"
     ms.author="rdinfra"
     articleId="87269ca9-dda6-448e-97ac-c5888b2a2d61_Public"
