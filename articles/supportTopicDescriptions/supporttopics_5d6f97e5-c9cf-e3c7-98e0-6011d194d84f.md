@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "94d69788-5eff-247c-9992-a1e35c7785e5",
+      "longDescription": "",
+      "shortDescription": "Help with configuration and specification of the network settings for the setup - DHCP or Static IPs",
+      "searchTags": "DHCP;Static IPs;Network settings",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f1e3d708-2dcf-7609-aba0-93507980eba8",
       "longDescription": "",
       "shortDescription": "Diagnose and report any issues with setting up web proxy configuration for data box gateway",
