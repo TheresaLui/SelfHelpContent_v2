@@ -35,4 +35,4 @@
 
 ## **Recommended Documents**
 
-* Use preferred language from supported list [Developer's Guide](https://docs.microsoft.com/azure/key-vault/general/developers-guide)
+* Roles that you can use to grant access to Azure resources - [List of Azure Role Definitions](https://docs.microsoft.com/azure/role-based-access-control/role-definitions-list)
