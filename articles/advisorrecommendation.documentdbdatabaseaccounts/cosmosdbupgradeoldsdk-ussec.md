@@ -3,9 +3,9 @@
     description="Upgrade your old Azure Cosmos DB SDK to the latest version"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="51a4e6bd-5a95-4a41-8309-40f5640fdb8b_Public"
+    articleId="51a4e6bd-5a95-4a41-8309-40f5640fdb8b_USSec"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, USNat, USSec"
+    cloudEnvironments="USSec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Upgrade your old Azure Cosmos DB SDK to the latest version
@@ -38,7 +38,7 @@
   "supportedSDKLanguages": [".NET", ".NET Core", "Sync Java", "Async Java", "Java", "Node.js", "Python"],
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').OldSDK",
+    "streamNamespace": "cluster('https://cdbusseceast.usseceast.kusto.core.microsoft.scloud').database('Support').OldSDK",
     "refreshInterval": "0.03:00:00"
   },
   "additionalColumns": [

@@ -1,24 +1,24 @@
 <properties
-    pageTitle="Upgrade your old Azure Cosmos DB SDK to the latest version"
-    description="Upgrade your old Azure Cosmos DB SDK to the latest version"
+    pageTitle="Upgrade your outdated Azure Cosmos DB SDK to the latest version"
+    description="Upgrade your outdated Azure Cosmos DB SDK to the latest version"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="51a4e6bd-5a95-4a41-8309-40f5640fdb8b_Public"
+    articleId="60a55165-9ccd-4536-81f6-e8dc6246d3d2_USNat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, USNat, USSec"
+    cloudEnvironments="USNat"
     ownershipId="AzureData_AzureCosmosDB"
 />
-# Upgrade your old Azure Cosmos DB SDK to the latest version
+# Upgrade your outdated Azure Cosmos DB SDK to the latest version
 ---
 {
   "recommendationOfferingId": "86ec4e3b-1865-4240-89f6-c2f3553df5ac",
   "recommendationOfferingName": "Azure Cosmos DB",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "51a4e6bd-5a95-4a41-8309-40f5640fdb8b",
+  "recommendationTypeId": "60a55165-9ccd-4536-81f6-e8dc6246d3d2",
   "recommendationCategory": "HighAvailability",
-  "recommendationImpact": "Medium",
+  "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.DocumentDb/databaseAccounts",
-  "recommendationFriendlyName": "CosmosDBUpgradeOldSDK",
+  "recommendationFriendlyName": "CosmosDBUpgradeOutdatedSDK",
   "recommendationMetadataState": "Active",
   "owner": {
     "email": "cosmosnotifications@microsoft.com",
@@ -31,14 +31,14 @@
   },
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/",
-  "description": "Upgrade your old Azure Cosmos DB SDK to the latest version",
-  "longDescription": "Your Azure Cosmos DB account is using an old version of the SDK. We recommend upgrading to the latest version for the latest fixes, performance improvements, and new feature capabilities.",
+  "description": "Upgrade your outdated Azure Cosmos DB SDK to the latest version",
+  "longDescription": "Your Azure Cosmos DB account is using an outdated version of the SDK. We recommend upgrading to the latest version for the latest fixes, performance improvements, and new feature capabilities.",
   "potentialBenefits": "Improved reliability, performance, and new feature capabilities",
-  "displayLabel": "Upgrade your old Azure Cosmos DB SDK to the latest version",
+  "displayLabel": "Upgrade your outdated Azure Cosmos DB SDK to the latest version",
   "supportedSDKLanguages": [".NET", ".NET Core", "Sync Java", "Async Java", "Java", "Node.js", "Python"],
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').OldSDK",
+    "streamNamespace": "cluster('https://cdbusnateast.usnateast.kusto.core.eaglex.ic.gov').database('Support').OutdatedSDK",
     "refreshInterval": "0.03:00:00"
   },
   "additionalColumns": [
@@ -57,7 +57,7 @@
   ],
   "actions":[
     {
-      "actionId": "4d0763f5-4225-492e-9b2d-40de0994c098",
+      "actionId": "d5f51e69-66dc-4c66-a949-2d205468c5c3",
       "description": "Upgrade your {language} SDK",
       "actionType": "Document",
       "documentLink": "{recommendedActionLearnMore}"
@@ -65,7 +65,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "fef02123-5f0a-4c34-b927-eb8e63d5eaef",
+      "actionId": "04475f2f-cf82-4edb-9be4-20724369962c",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_DocumentDB",
       "bladeName": "DatabaseAccountTemplateBladeForGlobalDb",
