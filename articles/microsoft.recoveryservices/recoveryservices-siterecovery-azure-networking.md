@@ -30,4 +30,4 @@
 - [Network Security Groups with Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/concepts-network-security-group-with-site-recovery)
 - [Manage VM network interfaces for on-premises disaster recovery to Azure](https://docs.microsoft.com/azure/site-recovery/site-recovery-manage-network-interfaces-on-premises-to-azure)
 - [Customize networking configurations of the target Azure VM](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-customize-networking)
-- [Support matrix for disaster recovey of Azure VMs across regions](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix)
+- [Support matrix for disaster recovery of Azure VMs across regions](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix)
