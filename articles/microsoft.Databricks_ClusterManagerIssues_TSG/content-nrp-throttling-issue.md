@@ -20,7 +20,7 @@ This usually occurs when there is about 50 simultaneous write operations (create
 
 **User facing Error:** *Subscription XXX was used to perform too many calls within last 5 minutes. The number of calls exceeds Microsoft. Network throttling limit. or Encountered Azure Resource provider throttling. Please try again later.*
 
-## Troubleshooting and Solution**
+## Troubleshooting and Solution
 
 1. Check number of nodes requested for cluster creation and see if multiple clusters are being spun up and terminated
 2. Check if this Subscription has multiple workspaces created
