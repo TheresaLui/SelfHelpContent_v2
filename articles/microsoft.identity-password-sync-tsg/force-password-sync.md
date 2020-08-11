@@ -17,9 +17,9 @@
 
 # Force password sync
 
-* Force a full password sync. 
-* This is an invasive resort resolution step which should be tried only when absolutely necessary and all other troubleshooting attempts have failed.
-* Use the steps below to force password sync
+1. Force a full password sync. 
+2. This is an invasive resort resolution step which should be tried only when absolutely necessary and all other troubleshooting attempts have failed.
+3. Use the steps below to force password sync
 
 ~~~powershell
 

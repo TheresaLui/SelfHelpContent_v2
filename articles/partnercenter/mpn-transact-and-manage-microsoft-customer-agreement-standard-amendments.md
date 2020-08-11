@@ -19,36 +19,19 @@
 />
 
 # Partner Center Transact and Manage - Microsoft Customer Agreement Standard Amendments
+
+Standard amendments to the Microsoft Customer agreement for download.
  
 ## **Recommended Steps**
 
-Standard amendments to the CSP Microsoft Cloud Agreement and the Microsoft Customer Agreement contain terms and conditions that help customers who are subject to additional privacy, security, and regulatory requirements. These customers may require this amendment to transact with Microsoft and Partners when purchasing Online Services.
-
+Microsoft Customer Agreement Amendments previously available on the pricing and offers page. The Amendments can be downloaded from [this URL](https://partner.microsoft.com/dashboard/support/csp/servicerequests/create?stage=2&topicid=c007d538-f817-84e3-06b5-ff4005c1a6bb), and do not require prior Microsoft approval to be presented to customers. This includes the FSI Amendment and other standard Amendments to the Microsoft Customer Agreement. 
 
 ## **Recommended Documents**
 
-Below are various amendments to Microsoft Cloud and Customer Agreements.
-- Financial Services Amendment
-
-https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4m8dP
-
-- Data Processing Amendment for Argentina (EN)
-
-https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3P75X
-
-- Data Processing Amendment for Argentina (ES)
-
-https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pk5l
-
-- Professional Secrecy Amendment for Germany (EN)
-
-https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PeTb
-
-- Professional Secrecy Amendment for Germany (ES)
-
-https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pcj0
-
-- Microsoft Online Services HIPAA Business Associate Amendment
-
-https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PciZ
+* [FSA English](https://go.microsoft.com/fwlink/?linkid=2104605)
+* [Data processing amendment Argentina English](https://go.microsoft.com/fwlink/?linkid=2104439)
+* [Data processing amendment Argentina Spanish](https://go.microsoft.com/fwlink/?linkid=2104606)
+* [Professional secrecy amendment Germany English](https://go.microsoft.com/fwlink/?linkid=2104520)
+* [Professional secrecy amendment Germany German](https://go.microsoft.com/fwlink/?linkid=2104522)
+* [Microsoft Online Services HIPAA Business Associate Amendment USA English](https://go.microsoft.com/fwlink/?linkid=2104519)
 

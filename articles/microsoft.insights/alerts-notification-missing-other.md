@@ -1,20 +1,15 @@
 <properties
-    pageTitle="Expected another type of action to trigger, but it did not"
-    description="I can see my fired alert in the Azure portal, but it did not call a webhook, logic app, Azure function, or automation runbook"
-    infoBubbleText=""
-    service="microsoft.alertsmanagement"
-    resource="alerts"
-    authors="ofirmanor"
-    ms.author="ofmanor"
-    displayOrder="4"
-    articleId="alert-notification-missing-other"
-    selfHelpType="generic"
-    supportTopicIds="32739782"
-    productPesIds="15454,15725"
-    cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
-    ownershipId="AzureMonitoring_ActionGroup"
-/>
-
+  pagetitle="I expected another type of action to trigger, but it didn't &#xD;"
+  service=""
+  resource=""
+  ms.author="ofmanor,yagil"
+  selfhelptype="Generic"
+  supporttopicids="32739782,32745406"
+  resourcetags=""
+  productpesids="15454,15725"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="alert-notification-missing-other"
+  ownershipid="AzureMonitoring_ActionGroup" />
 # I expected another type of action to trigger, but it didn't 
 
 ## **Recommended Steps**

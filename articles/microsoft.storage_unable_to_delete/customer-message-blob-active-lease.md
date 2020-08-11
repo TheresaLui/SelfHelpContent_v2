@@ -34,5 +34,5 @@ a. For the Disks resources associated with the VM Image you can Right Click and 
 
 ## **Recommended Documents**
 
-1. [https://docs.microsoft.com/azure/virtual-machines/troubleshooting/storage-resource-deletion-errors](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/storage-resource-deletion-errors)
+
 2. [Troubleshoot classic storage resource deletion errors](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/storage-classic-cannot-delete-storage-account-container-vhd)
