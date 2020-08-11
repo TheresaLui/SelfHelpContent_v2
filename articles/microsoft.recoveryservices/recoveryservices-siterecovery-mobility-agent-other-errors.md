@@ -48,19 +48,19 @@ Avoid failures from unsupported configurations by verifying that you are within 
 
 Troubleshooting guidance to resolve most commonly seen installation failures because of connectivity errors.
 
-#### Azure to Azure DR
+**Azure to Azure DR**
 
 - Resolve connectivity errors with [ids: 151037, 151072, 151195, 151196)](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-network-connectivity)
 - Set up NSG to whitelist specific URLs for [communication with Azure services](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-network-connectivity#example-nsg-configuration)
 
-#### VMware to Azure DR
+**VMware to Azure DR**
 
 - Ensure all network requirements are met on configuration server to allow [communication with Azure services](https://docs.microsoft.com/azure/site-recovery/vmware-azure-deploy-configuration-server#network-requirements)
 - Resolve connectivity errors with [ids: 95117, 95118, 95523, 95105, 95106](https://docs.microsoft.com/azure/site-recovery/vmware-azure-troubleshoot-push-install#connectivity-failure-errorid-95117--97118)
 - Ensure necessary folders are excluded from anti-virus to avoid [communication blockers](https://docs.microsoft.com/azure/site-recovery/vmware-azure-set-up-source#azure-site-recovery-folder-exclusions-from-antivirus-program)
 - Ensure process server is connected & source machine is able to [communicate with process server](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-troubleshoot-process-server#check-connectivity-and-replication)
 
-#### Mobility agent installation failed due to extension error? Follow the below troubleshooting guidance to resolve most commonly seen errors
+**Mobility agent installation failed due to extension error? Follow the below troubleshooting guidance to resolve most commonly seen errors**
 
 - Resolve update failure from Azure Site Recovery extension [time-out error](https://docs.microsoft.com/azure/site-recovery/site-recovery-extension-troubleshoot#azure-site-recovery-extension-time-out)
 - Resolve update failure from VM agent [unresponsive error](https://docs.microsoft.com/azure/site-recovery/site-recovery-extension-troubleshoot#protection-fails-because-the-vm-agent-is-unresponsive)
