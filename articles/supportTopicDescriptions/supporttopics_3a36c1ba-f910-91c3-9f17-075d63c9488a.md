@@ -5,10 +5,9 @@
   ms.author="marwa, v-vigra"
   selfhelptype="SupportTopicDescription"
   productpesids="3a36c1ba-f910-91c3-9f17-075d63c9488a"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
-  articleid="supporttopics_3a36c1ba-f910-91c3-9f17-075d63c9488a" 
-  ownershipid="AzureIdentity_SyncFabric"
-  />
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  articleid="supporttopics_3a36c1ba-f910-91c3-9f17-075d63c9488a"
+  ownershipid="AzureIdentity_SyncFabric" />
 # Support Topic Descriptions for 3a36c1ba-f910-91c3-9f17-075d63c9488a
 ---
 {
@@ -228,6 +227,14 @@
       "shortDescription": "Problems synching groups or group membership from on-premises AD to Azure AD",
       "searchTags": "problems synching groups",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "87812e3a-33a4-56c7-ae6d-452d283696c9",
+      "longDescription": "",
+      "shortDescription": "Assistance with assigning Azure AD role to a group and manage its membership",
+      "searchTags": "AAD;Roles;Groups;membership",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
