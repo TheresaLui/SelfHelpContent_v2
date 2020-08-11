@@ -23,6 +23,6 @@
 - [Support matrix for disaster recovery of Azure VMs across Azure regions](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-support-matrix)
 - [Enable replication to Azure for VMware VMs](https://docs.microsoft.com/azure/site-recovery/vmware-azure-enable-replication)
 - [Exclude disks from VMware VMs replicating to Azure](https://docs.microsoft.com/azure/site-recovery/vmware-azure-exclude-disk)
-- [Support matrix for disaste recovery of Hyper-V VMs to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-support-matrix)
+- [Support matrix for disaster recovery of Hyper-V VMs to Azure](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-support-matrix)
 - [Analyze the Azure Site Recovery Deployment Planner report](https://docs.microsoft.com/azure/site-recovery/hyper-v-deployment-planner-analyze-report)
 - [Plan capacity for Hyper-V VM disaster recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-capacity-planner)
