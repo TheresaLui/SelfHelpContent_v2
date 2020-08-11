@@ -11,7 +11,7 @@
 # Enable Production Environment
 ---
 {
-  "recommendationOfferingId": "1132b618-fefe-40a0-9256-e685ff575ac7",
+  "recommendationOfferingId": "4e8cb2f5-6d50-4c7e-9807-6d9ad3f36291",
   "recommendationOfferingName": "Windows Virtual Desktop",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "87269ca9-dda6-448e-97ac-c5888b2a2d61",
