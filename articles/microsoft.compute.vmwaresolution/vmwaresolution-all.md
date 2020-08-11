@@ -22,6 +22,6 @@ Azure VMware Solution (AVS) provides you with private clouds in Azure. The priva
 ## **Recommended Documents**
 
 * [What is Azure VMware Solution (AVS)](https://docs.microsoft.com/azure/azure-vmware/introduction)<br>
-* [Frequently Asked Questions (FAQ)](https://docs.microsoft.com/azure/azure-vmware/faq)<br>
+* [Frequently Asked Questions  (FAQ)](https://docs.microsoft.com/azure/azure-vmware/faq)<br>
 * [Manage DHCP](https://docs.microsoft.com/azure/azure-vmware/manage-dhcp)<br>
 * [Disaster Recovery](https://docs.microsoft.com/azure/azure-vmware/disaster-recovery)
