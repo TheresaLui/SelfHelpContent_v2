@@ -16,7 +16,7 @@
 
 # Service Unhealthy, Spark Update 2.7
 
-## Recommended Steps
+## **Recommended Steps**
 
 **Reboot your nodes.** If your node is unresponsiveness and/or you see that some services have not started, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm).
 
