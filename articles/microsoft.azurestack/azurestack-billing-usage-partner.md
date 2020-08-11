@@ -19,9 +19,7 @@
 
 ## **Recommended Steps**
 
-1. To enable multiple Azure AD tenants to use services in Azure Stack, you can read [enabling multi-tenancy in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-enable-multitenancy) or watch the tutorial video:
-
-> [!VIDEO https://www.youtube.com/embed/ZP6jkbLeS34]
+1. To enable multiple Azure AD tenants to use services in Azure Stack, you can read [enabling multi-tenancy in Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-enable-multitenancy) or [watch the tutorial video](https://www.youtube.com/embed/ZP6jkbLeS34).
 
 1. For end-users managed by a Cloud Service Provider (CSP), [add tenant for usage and billing to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-csp-howto-register-tenants)
 1. After creating a record of the tenant in the Partner Center, you can sell subscriptions for products in the catalog using steps to [create, suspend, or cancel customer subscriptions](https://msdn.microsoft.com/partner-center/create-a-new-subscription)
