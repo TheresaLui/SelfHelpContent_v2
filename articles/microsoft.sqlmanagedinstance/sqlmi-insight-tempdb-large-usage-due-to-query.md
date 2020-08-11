@@ -1,28 +1,28 @@
 <properties
-	pageTitle="Managed Instance - Tempdb big usage by a query"
-	description="Managed Instance - Tempdb big usage by a query"
+	pageTitle="Managed Instance - Large Tempdb Usage due to Query"
+	description="Managed Instance - Large Tempdb Usage due to Query"
 	infoBubbleText="Some queries are using a lot of tempdb space. See details on the right."
 	service="microsoft.sql"
 	resource="managedInstances"
 	ms.author="miobrado"
 	authors="miobrado"
 	displayOrder=""
-	diagnosticScenario="SqlMIPerf_TempdbBigUsageByQuery"
+	diagnosticScenario="SqlMIPerf_LargeTempdbUsageDueToQuery"
 	selfHelpType="diagnostics"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-	articleId="sqlmanagedinstance-perf-tempdb-big-usage-by-query"
+	articleId="sqlmanagedinstance-perf-tempdb-large-usage-due-to-query"
 	ownershipId="AzureData_AzureSQLMI"
 />
 
-# Managed Instance - Tempdb big usage by a query
+# Managed Instance - Large Tempdb Usage due to Query
 
 ## We ran diagnostics on your resource and found a potential issue
 
 <!--issueDescription-->
-Managed Instance named <!--$ServerName-->ServerName<!--/$ServerName--> on the subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> and the resource group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> was facing a potential problem between <!--$startTime-->startTime<!--/$startTime--> and <!--$endTime-->endTime<!--/$endTime--> where some queries were using a lot of tempdb space. Detected query hash: <!--$listQueryHash-->listQueryHash<!--/$listQueryHash-->. Detected tempdb usage (GB): <!--$listTempdbUsedByQueryGB-->listTempdbUsedByQueryGB<!--/$listTempdbUsedByQueryGB-->. Detected tempdb usage (%): <!--$listTempdbUsedByQueryPct-->listTempdbUsedByQueryPct<!--/$listTempdbUsedByQueryPct-->.
+Managed Instance named <!--$ServerName-->ServerName<!--/$ServerName--> on the subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> and the resource group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> was facing a potential problem between <!--$startTime-->startTime<!--/$startTime--> and <!--$endTime-->endTime<!--/$endTime--> where some queries were using a lot of tempdb space. Detected query hash codes: <!--$listQueryHash-->listQueryHash<!--/$listQueryHash-->. Detected tempdb usage (GB): <!--$listTempdbUsedByQueryGB-->listTempdbUsedByQueryGB<!--/$listTempdbUsedByQueryGB-->. Detected tempdb usage (%): <!--$listTempdbUsedByQueryPct-->listTempdbUsedByQueryPct<!--/$listTempdbUsedByQueryPct-->.
 <!--/issueDescription-->
 
 The tempdb is a global resource that is shared by all users connected to the instance. When SQL Server Database Engine runs out of tempdb space, query execution may start failing and transactions may be rolled back with a corresponding error. For example:
@@ -40,4 +40,5 @@ The tempdb is a global resource that is shared by all users connected to the ins
 ## **Recommended Documents**
 
 * [tempdb](https://docs.microsoft.com/sql/relational-databases/databases/tempdb-database)
+* [How to shrink the tempdb database in SQL Server](https://support.microsoft.com/help/307487/how-to-shrink-the-tempdb-database-in-sql-server)
 * [DBCC SHRINKFILE](https://docs.microsoft.com/sql/t-sql/database-console-commands/dbcc-shrinkfile-transact-sql)
