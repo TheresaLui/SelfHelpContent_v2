@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d9600321-42ab-55ad-6fa9-4e296c333867",
+      "longDescription": "",
+      "shortDescription": "Steps to update, monitor and Troubleshoot the update process for gateway managed from the cloud",
+      "searchTags": "Updates;Management",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f1e3d708-2dcf-7609-aba0-93507980eba8",
       "longDescription": "",
       "shortDescription": "Diagnose and report any issues with setting up web proxy configuration for data box gateway",
