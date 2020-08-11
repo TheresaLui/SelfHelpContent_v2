@@ -55,7 +55,7 @@ Follow through all the steps before you create a support ticket. If you do need 
 ## **Recommended Documents**
 
 * [Troubleshoot pipeline runs](https://docs.microsoft.com/azure/devops/pipelines/troubleshooting/troubleshooting)
-* [Linux agent diagnostics](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-linux#diagnostics)
-* [macOS agent diagnostics](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-osx#diagnostics)
-* [Windows agent diagnostics](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows#diagnostics)
+* [Linux agent diagnostics](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-linux#diagnostics)
+* [macOS agent diagnostics](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-osx#diagnostics)
+* [Windows agent diagnostics](https://docs.microsoft.com/azure/devops/pipelines/agents/v2-windows#diagnostics)
 * [Azure DevOps Services Status](https://status.dev.azure.com)
