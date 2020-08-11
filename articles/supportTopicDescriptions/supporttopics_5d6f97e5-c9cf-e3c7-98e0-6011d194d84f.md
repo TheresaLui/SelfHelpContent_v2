@@ -59,6 +59,14 @@
       "searchTags": "web proxy;Setup gateway",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f39cae3a-bb89-8929-d778-7d657bc676dd",
+      "longDescription": "",
+      "shortDescription": "Assistance if you are unable to activate the gateway with a generated activation key",
+      "searchTags": "Activation Key",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
