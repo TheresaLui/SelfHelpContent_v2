@@ -12,7 +12,7 @@
 ---
 {
   "recommendationOfferingId": "4e8cb2f5-6d50-4c7e-9807-6d9ad3f36291",
-  "recommendationOfferingName": "Windows Virtual Desktop",
+  "recommendationOfferingName": "Windows Virtual Desktop Production (Non-Validation) Environments",
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "87269ca9-dda6-448e-97ac-c5888b2a2d61",
   "dataSourceMetadata": {
