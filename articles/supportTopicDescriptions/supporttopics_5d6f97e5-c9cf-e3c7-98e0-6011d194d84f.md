@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "416c761d-8ae9-2532-fbc6-f22db194a86f",
+      "longDescription": "",
+      "shortDescription": "Steps on how to restart the gateway using local UI ",
+      "searchTags": "Restart device",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4e25002a-b606-8372-614b-a8718feef47a",
       "longDescription": "",
       "shortDescription": "Diagnose if you are unable to connect via the Network File System (NFS) share for data transfers",
