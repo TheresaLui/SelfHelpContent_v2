@@ -26,7 +26,5 @@
   * The connections were rejected due to DoS Guard protection
   * Insufficient permissions
 
-<br>
+* To increase security, the error message that is returned to the client deliberately hides the nature of the authentication error
 
-* To increase security, the error message that is returned to the client deliberately hides the nature of the authentication error.
-<br>
