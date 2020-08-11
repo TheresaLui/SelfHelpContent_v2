@@ -26,4 +26,4 @@
 
 We have identified that your backup operation might have failed, because our backup service could not communicate with the VM guest agent. 
 
-You can easily **self-resolve** this issues by following this [comprehensive STEP by STEP troubleshooting guide](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-by-step-guide-to-troubleshoot-backup-failures).
+You can easily self-resolve this issues by following this [comprehensive STEP by STEP troubleshooting guide](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout#step-by-step-guide-to-troubleshoot-backup-failures).
