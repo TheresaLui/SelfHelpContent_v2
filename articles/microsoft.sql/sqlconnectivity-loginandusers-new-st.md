@@ -17,7 +17,7 @@
 
 # Login and Users - How to Configure and use
 
-## **Authentication, Logins and Users**
+### **Authentication, Logins and Users**
 
 Azure SQL Database supports two authentication methods, **SQL Authentication** and **Azure Active Directory Authentication**.
 
