@@ -20,7 +20,7 @@ Heavy users of Azure Databricks run into storage throttling limits on WASB/ADLS.
 
 **User facing error**: *Files and folders are being created at too high a rate.*
 
-## Troubleshooting and Solution
+## **Recommended Steps**
 
 This is storage side limitation as the error suggests, please get azure storage team involved. 
 
