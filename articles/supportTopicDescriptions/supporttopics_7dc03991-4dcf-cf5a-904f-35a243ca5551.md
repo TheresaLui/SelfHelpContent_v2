@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "35ae2946-b4db-ff30-5286-727a7e0ce058",
+      "longDescription": "",
+      "shortDescription": "Accessibility issues to the portal",
+      "searchTags": "Log in;Access;portal",
+      "category": "Log in",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "60d60a8f-ceef-d145-900a-f6119864518b",
       "longDescription": "",
       "shortDescription": "Investigating alerts, activities, files, users and accounts, and governance actions",
