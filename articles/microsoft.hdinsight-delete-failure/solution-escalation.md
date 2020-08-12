@@ -18,12 +18,10 @@
 # Escalation
 
 <!--issueDescription-->
-
-***INTERNAL CONTENT DO NOT PROVIDE TO CUSTOMER***
-
+**INTERNAL CONTENT! DO NOT PROVIDE TO CUSTOMER!**
 <!--/issueDescription-->
 
-Try to follow the recommended documents to delete DeleteError cluster or escalate 
+Try to follow the recommended documents to delete DeleteError cluster or escalate:
 
 ## **Recommended Documents**
 
