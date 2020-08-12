@@ -18,14 +18,12 @@
 # GCS cluster DeleteError
 
 <!--issueDescription-->
+**INTERNAL CONTENT! DO NOT PROVIDE TO CUSTOMER!**
 
-***INTERNAL CONTENT DO NOT PROVIDE TO CUSTOMER***
 This error message is caused when clusters with custom vnet have GCS enable issue a delete DeleteCertificatesFromKeyVaultActivity tries to delete the GCS cert and fails.
-
-
 <!--/issueDescription-->
 
-Please follow recommended document to delete the DeleteError cluster
+Please follow recommended document to delete the DeleteError cluster.
 
 ## **Recommended Documents**
 
