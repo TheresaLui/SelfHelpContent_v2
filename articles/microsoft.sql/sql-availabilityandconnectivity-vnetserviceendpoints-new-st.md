@@ -16,13 +16,12 @@
 
 # VNeT Service Endpoints
 
-## **Recommended Documents**
-
-* Virtual Network (VNet) service endpoint provides secure and direct connectivity to Azure services (i.e., SQL DB) over an optimized route over the Azure backbone network. Endpoints allow you to secure your critical Azure service (i.e., SQL DB) resources to only your virtual networks. Service Endpoints enables private IP addresses in the VNet to reach the endpoint of an Azure service (i.e., SQL DB) without needing a public IP address on the VNet.
+* **Virtual Network (VNet) service endpoint** provides secure and direct connectivity to Azure services (i.e., SQL DB) over an optimized route over the Azure backbone network. Endpoints allow you to secure your critical Azure service (i.e., SQL DB) resources to only your virtual networks. Service Endpoints enables private IP addresses in the VNet to reach the endpoint of an Azure service (i.e., SQL DB) without needing a public IP address on the VNet.
 
 * Virtual network rule is a firewall security feature that controls whether the server for your databases in Azure SQL DB accepts communication that is sent from a particular subnet in the virtual network.
 
-* For more information to configure VNet for SQL Database, please refer to below links
+## **Recommended Documents**
+
  - [Configure a VNET](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-vnet-configuration?WT.mc_id=pid:13491:sid:32745439/)<br>
  - [Configure a VNET-to-VNET connection using Azure CLI](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-cli?WT.mc_id=pid:13491:sid:32745439/)<br>
  - [Configure a VNET-to-VNET connection using PowerShell](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps?WT.mc_id=pid:13491:sid:32745439/)
