@@ -83,6 +83,14 @@
       "searchTags": "activities;alerts",
       "category": "Investigation",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "dc11507f-cc8e-4b77-099d-bbc1f982b1c3",
+      "longDescription": "",
+      "shortDescription": "Conditional Access and real-time proxied access and session control for native apps, protected apps, and managed devices",
+      "searchTags": "Conditional Access;Usage;Control",
+      "category": "Conditional Access",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
