@@ -91,6 +91,14 @@
       "searchTags": "Conditional Access;Usage;Control",
       "category": "Conditional Access",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "dcf2c618-f29e-80b0-4cb1-f4b44be3fe26",
+      "longDescription": "",
+      "shortDescription": "Creating and configuring policies and related governance actions",
+      "searchTags": "Policies;Controls",
+      "category": "Policies",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
