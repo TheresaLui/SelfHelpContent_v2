@@ -25,7 +25,7 @@ In **SQL authentication**  users will submit a user account name and associated 
 
 And in **Azure Active Directory Authentication** method, users submit a user account name and requests that the service use the credential information stored in Azure Active Directory (Azure AD).    
 
-**Logins and users** : A user account in a database can be associated with a login that is stored in the master database or can be a user name that is stored in an individual database.
+**Logins and users** - A user account in a database can be associated with a login that is stored in the master database or can be a user name that is stored in an individual database.
 - A *Login* is an individual account in the master database, to which a user account in one or more databases can be linked. With a login, the credential information for the user account is stored with the login.
 - A *User account* is an individual account in any database that may be, but does not have to be, linked to a login. With a user account that is not linked to a login, the credential information is stored with the user account.
 
