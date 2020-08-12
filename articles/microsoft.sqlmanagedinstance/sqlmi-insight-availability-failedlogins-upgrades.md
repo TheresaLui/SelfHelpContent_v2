@@ -7,7 +7,7 @@
 	ms.author="vitomaz"
 	authors="vitomaz-msft"
 	displayOrder=""
-	articleId="sqlmi-insight-availability-failedlogins-upgrades"
+	articleId="sqlmanagedinstance-availability-failedlogins-upgrades"
 	diagnosticScenario="sqlmi-insight-availability-failedlogins-upgrades"
 	selfHelpType="diagnostics"
 	supportTopicIds="32739488,32637246,32637259,32637254"
