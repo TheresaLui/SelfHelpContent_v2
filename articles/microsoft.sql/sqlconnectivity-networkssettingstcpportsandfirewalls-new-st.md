@@ -34,5 +34,5 @@ Before your computer can access an Azure SQL Database, you may need to create a 
 ## **Recommended Documents**
 
  - [Ports beyond 1433 for ADO.NET 4.5](https://docs.microsoft.com/azure/azure-sql/database/adonet-v12-develop-direct-route-ports?WT.mc_id=pid:13491:sid:32745434/)
- - [Server-level versus database-level IP firewall rules](https://docs.microsoft.com/en-us/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745434/#server-level-versus-database-level-ip-firewall-rules)
+ - [Server-level versus database-level IP firewall rules](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745434/#server-level-versus-database-level-ip-firewall-rules)
  - [Troubleshoot the database firewall](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745434/#troubleshoot-the-database-firewall)<br>
