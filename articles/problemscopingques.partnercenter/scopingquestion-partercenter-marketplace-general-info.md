@@ -108,7 +108,7 @@
 	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide the publisher ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings or in CPP select the Profile page then Partner Center account details section",
+	   "watermarkText": "In Partner Center select Settings then Developer settings.",
 	   "required": false
        },
        {
@@ -116,7 +116,7 @@
 	   "order": 4,
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide the seller ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings or in CPP select the Profile page then Partner Center account details section",
+	   "watermarkText": "In Partner Center select Settings then Developer settings.",
 	   "required": true
        },
        {
