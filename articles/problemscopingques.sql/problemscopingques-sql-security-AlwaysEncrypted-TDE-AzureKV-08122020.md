@@ -1,5 +1,5 @@
 <properties
-	pageTitle="Scoping questions for Always Encrypted, TDE and Azure Key Vault"
+	pageTitle="scoping questions for always encrypted, tde and azure key vault"
 	description="Scoping questions to capture more details aboutAlways Encrypted, TDE and Azure Key Vault issue."
 	authors="sojaga"
 	ms.author="sojaga"
