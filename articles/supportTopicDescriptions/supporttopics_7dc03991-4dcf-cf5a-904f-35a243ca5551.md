@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "01c14281-f599-31ea-107e-1835788b0cf5",
+      "longDescription": "",
+      "shortDescription": "Managed admins or Azure AD or Office365 roles and permissions",
+      "searchTags": "Role;Permission",
+      "category": "Roles",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0e3227c7-56cc-4357-3f13-ac83af818c30",
       "longDescription": "",
       "shortDescription": "Scenarios related to importing user groups for connected apps",
