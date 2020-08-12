@@ -10,7 +10,7 @@
 	articleId="sql_connectivity_18456_123-new-st"
 	diagnosticScenario="SqlLtsFailedLogin"
 	selfHelpType="diagnostics"
-	supportTopicIds="32745425"
+	supportTopicIds="32745428"
 	resourceTags=""
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"

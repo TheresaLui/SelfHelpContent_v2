@@ -42,6 +42,30 @@
                     ],
                     "required": true
                 },{
+                    "id": "office_type",
+                    "order": 6,
+                    "controlType": "dropdown",
+                    "displayLabel": "Which Office version are you using?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Office 20XX Standard (Not supported for Protection)",
+                            "text": "Office 20XX Standard (Not supported for Protection)"
+                        },
+                        {
+                            "value": "Office 20XX ProPlus (Microsoft Apps for Enterprise)",
+                            "text": "Office 20XX ProPlus (Microsoft Apps for Enterprise)"
+                        },
+                        {
+                            "value": "Office 365 Click-To-Run",
+                            "text": "Office 365 Click-To-Run"
+                        },	                    {
+							"value": "dont_know_answer",
+							"text": "None of the above"
+						}
+                    ],
+                    "required": true
+                },{
                 "id": "version_number",
                 "order": 3,
 				"visibility": "client_type == Azure Information Protection client (classic)",
