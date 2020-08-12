@@ -107,6 +107,14 @@
       "searchTags": "Policies;Controls",
       "category": "Policies",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fc6d928b-098a-532d-6d3d-63350932eaaf",
+      "longDescription": "",
+      "shortDescription": "Questions and issues relating to portal usage, performance, licensing, permissions, and configuration",
+      "searchTags": "Portal;Usage;Performance;Licensing;Permissions",
+      "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
