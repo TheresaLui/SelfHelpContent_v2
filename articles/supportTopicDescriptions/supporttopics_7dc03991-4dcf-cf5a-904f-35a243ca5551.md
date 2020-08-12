@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "28d1454d-b3fe-b464-102d-4a2fcbc06f10",
+      "longDescription": "",
+      "shortDescription": "Configuration of mail notifications",
+      "searchTags": "mail;notifications",
+      "category": "Email Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "35ae2946-b4db-ff30-5286-727a7e0ce058",
       "longDescription": "",
       "shortDescription": "Accessibility issues to the portal",
