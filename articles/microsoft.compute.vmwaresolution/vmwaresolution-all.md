@@ -7,7 +7,7 @@
 	ms.author="dikamath"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32739953,32739955,32739954,32739956,32739970,32739950,32739960,32739969,32739971,32739942,32739943,32739944,32739945,32739957,32739972,32739965,32739976,32739979,32739959,32739978,32739975,32739974,32739968,32739967,32739977,32739973,32739963,32739962,32739961,32739951,32739948,32739947"
+	SupportTopicIds="32739971,32739970,32739955,32743025,32739942,32743019,32743018,32743021,32743020,32739951,32739977,32743027,32739963,32739948,32739976,32739979,32739965"
 	resourceTags=""
 	productPesIds="17080"
 	cloudEnvironments="public, fairfax, usnat, ussec"
@@ -21,7 +21,7 @@ Azure VMware Solution (AVS) provides you with private clouds in Azure. The priva
 
 ## **Recommended Documents**
 
-* [What is Azure VMware Solution (AVS)](https://docs.microsoft.com/azure/azure-vmware/introduction)<br>
-* [Frequently Asked Questions (FAQ)](https://docs.microsoft.com/azure/azure-vmware/faq)<br>
-* [Manage DHCP](https://docs.microsoft.com/azure/azure-vmware/manage-dhcp)<br>
+* [What is Azure VMware Solution (AVS)](https://docs.microsoft.com/azure/azure-vmware/introduction)
+* [Frequently Asked Questions (FAQ)](https://docs.microsoft.com/azure/azure-vmware/faq)
+* [Manage DHCP](https://docs.microsoft.com/azure/azure-vmware/manage-dhcp)
 * [Disaster Recovery](https://docs.microsoft.com/azure/azure-vmware/disaster-recovery)
