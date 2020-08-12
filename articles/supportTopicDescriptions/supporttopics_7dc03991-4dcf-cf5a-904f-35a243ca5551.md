@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "0e3227c7-56cc-4357-3f13-ac83af818c30",
+      "longDescription": "",
+      "shortDescription": "Scenarios related to importing user groups for connected apps",
+      "searchTags": "User;Groups;Data;Enrichment",
+      "category": "User Groups",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "18b84dcb-69b0-60a2-26ed-0a3182110d84",
       "longDescription": "",
       "shortDescription": "Connecting or disconnecting apps and log collectors",
