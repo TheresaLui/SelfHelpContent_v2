@@ -33,9 +33,9 @@ And in **Azure Active Directory Authentication** method, users submit a user acc
 
 **Azure AD Admin** - Remember, every server (which hosts Azure SQL Database) starts with a single server administrator account (**Server Admin**) that is the administrator of the entire server. Azure AD admin will be created as the second administrator account as an Azure AD account. And this principal (AAD Admin) will be  created as a contained database user in the master database of the server.
 
-**Recommended Documents**
+## **Recommended Documents**
 
 Please refer the following documents for additional information on Creating Logins & Users, Troubleshooting Login issues.
-- [Configuring and Managing Login and Users](https://docs.microsoft.com/en-us/azure/azure-sql/database/logins-create-manage?WT.mc_id=pid:13491:sid:32745433/)
+- [Configuring and Managing Login and Users](https://docs.microsoft.com/azure/azure-sql/database/logins-create-manage?WT.mc_id=pid:13491:sid:32745433/)
 - [Active Directory Authentication for Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/authentication-aad-overview?WT.mc_id=pid:13491:sid:32745433/)
 - [Troubleshooting Login issues for Azure Active directory Users](https://techcommunity.microsoft.com/t5/azure-sql-database/troubleshooting-problems-related-to-azure-ad-authentication-with/ba-p/1062991?WT.mc_id=pid:13491:sid:32745433/)
