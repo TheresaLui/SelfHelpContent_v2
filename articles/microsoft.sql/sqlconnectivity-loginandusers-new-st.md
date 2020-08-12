@@ -17,17 +17,17 @@
 
 # Login and Users - How to Configure and use
 
-### Authentication, Logins and Users
+## **Authentication, Logins and Users**
 
 Azure SQL Database supports two authentication methods, **SQL Authentication** and **Azure Active Directory Authentication**.
 
-In **SQL authentication**  users will submit a user account name and associated password to establish a connection. This password is stored in the master database for user accounts **linked** to a login or stored in the database containing the user accounts **not linked** to a login.
+In **SQL authentication**  users will submit a user account name and associated password to establish a connection. This password is stored in the master database for user accounts linked to a login or stored in the database containing the user accounts not linked to a login.
 
 And in **Azure Active Directory Authentication** method, users submit a user account name and requests that the service use the credential information stored in Azure Active Directory (Azure AD).    
 
 **Logins and users** : A user account in a database can be associated with a login that is stored in the master database or can be a user name that is stored in an individual database.
-- A **login** is an individual account in the master database, to which a user account in one or more databases can be linked. With a login, the credential information for the user account is stored with the login.
-- A **user account** is an individual account in any database that may be, but does not have to be, linked to a login. With a user account that is not linked to a login, the credential information is stored with the user account.
+- A *Login* is an individual account in the master database, to which a user account in one or more databases can be linked. With a login, the credential information for the user account is stored with the login.
+- A *User account* is an individual account in any database that may be, but does not have to be, linked to a login. With a user account that is not linked to a login, the credential information is stored with the user account.
 
 **Server Admin** - When you first deploy Azure SQL, you specify an admin login and an associated password for that login. This administrative account is called Server admin.
 
