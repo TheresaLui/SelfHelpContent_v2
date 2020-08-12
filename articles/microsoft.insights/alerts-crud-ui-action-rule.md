@@ -27,4 +27,4 @@ Ensure you have the permissions to author the action rule. Usually, you would us
 
 ### Have you configured all the action rules parameters correctly?
 
-Follow the action rule documentation of explanation of each parameter.
+Follow the action rule documentation of explanation of each parameter..
