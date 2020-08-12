@@ -16,8 +16,9 @@
 />
 
 # Check if failed to delete locked azure resource
+## **Recommended Steps**
 
-Run the below kusto query to check
+Run the below kusto query to check:
 
 ```kusto
 IaasClusterCRUDEvent
@@ -25,5 +26,5 @@ IaasClusterCRUDEvent
 | where PreciseTimeStamp > datetime('{yyyy-mm-dd HH:MI:SS}') and PreciseTimeStamp < datetime('{yyyy-mm-dd HH:MI:SS}')
 | where ErrorInfoAsJson has ""AzureResourceLockedDeletionFailedErrorCode""
 | project PreciseTimeStamp, State, ErrorInfoAsJson,InternalErrorMessage
-```"
+```
 
