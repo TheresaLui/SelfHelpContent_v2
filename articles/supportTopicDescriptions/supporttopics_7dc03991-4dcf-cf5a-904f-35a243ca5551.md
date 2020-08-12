@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "18b84dcb-69b0-60a2-26ed-0a3182110d84",
+      "longDescription": "",
+      "shortDescription": "Connecting or disconnecting apps and log collectors",
+      "searchTags": "Continuous ;Data;Apps",
+      "category": "Data collectors",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "60d60a8f-ceef-d145-900a-f6119864518b",
       "longDescription": "",
       "shortDescription": "Investigating alerts, activities, files, users and accounts, and governance actions",
