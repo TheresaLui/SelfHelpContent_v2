@@ -17,20 +17,21 @@
 
 # Check if in DeleteError state
 
-Review and validate customer case:
+## **Recommended Steps**
+
+Review and validate the customer case:
+
 1. UserSubscriptionId
 2. ClusterDnsName
 3. HdiDeploymentId
 4. Issue time window
 
-Run the below kusto query to get the error code with above information
+Run the below kusto query to get the error code with above information:
 
 ```kusto
-
 IaasClusterCRUDEvent
 | where ClusterDnsName =~ "{ClusterDnsName}" and HdiDeploymentId =~ "{HdiDeploymentId}" and UserSubscriptionId =~ "{UserSubscriptionId}" 
 | where PreciseTimeStamp > datetime('{yyyy-mm-dd HH:MI:SS}') and PreciseTimeStamp < datetime('{yyyy-mm-dd HH:MI:SS}')
 | where State == "DeleteError"
 | project PreciseTimeStamp, State, ErrorInfoAsJson,InternalErrorMessage,RpRegionName,IsSecureHadoop
-
 ```
