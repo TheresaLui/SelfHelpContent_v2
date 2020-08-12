@@ -157,6 +157,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f0099430-f0a1-5474-7db2-4d36a218d3ed",
+      "longDescription": "",
+      "shortDescription": "Portal performance and latency issues",
+      "searchTags": "Performance;Latency",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fc6d928b-098a-532d-6d3d-63350932eaaf",
       "longDescription": "",
       "shortDescription": "Questions and issues relating to portal usage, performance, licensing, permissions, and configuration",
