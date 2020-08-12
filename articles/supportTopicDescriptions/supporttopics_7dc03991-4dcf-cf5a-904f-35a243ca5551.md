@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3f66f651-7dbd-51bf-3a13-ce834735e6e7",
+      "longDescription": "",
+      "shortDescription": "Licensing questions, products comparison, or missing panes",
+      "searchTags": "Licensing ",
+      "category": "Licensing ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "60d60a8f-ceef-d145-900a-f6119864518b",
       "longDescription": "",
       "shortDescription": "Investigating alerts, activities, files, users and accounts, and governance actions",
