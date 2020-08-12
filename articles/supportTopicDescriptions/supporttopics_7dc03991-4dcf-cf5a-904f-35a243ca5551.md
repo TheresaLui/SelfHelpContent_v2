@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "62910a91-2877-434b-a6ec-20837c6abed4",
+      "longDescription": "",
+      "shortDescription": "Bulk set IP ranges in the portal or via REST API",
+      "searchTags": "REST;API;IP;Range",
+      "category": "IP Range",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "63dcaba0-2bc7-b7c0-fcb0-4ea632232087",
       "longDescription": "",
       "shortDescription": "Investigate anomaly alerts (Impossible travel, Suspicious inbox manipulation, etc.), Risky or Suspicious users, Risky OAuth apps",
