@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "60d60a8f-ceef-d145-900a-f6119864518b",
+      "longDescription": "",
+      "shortDescription": "Investigating alerts, activities, files, users and accounts, and governance actions",
+      "searchTags": "Alerts;Investigation",
+      "category": "Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "63dcaba0-2bc7-b7c0-fcb0-4ea632232087",
       "longDescription": "",
       "shortDescription": "Investigate anomaly alerts (Impossible travel, Suspicious inbox manipulation, etc.), Risky or Suspicious users, Risky OAuth apps",
