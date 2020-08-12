@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "870e2b92-29af-3f17-dd42-8e92c3014401",
+      "longDescription": "",
+      "shortDescription": "Integrations with Microsoft and third-party solutions, and methods for ingesting data from Cloud App Security, including REST APIs",
+      "searchTags": "REST;API;Integration;Third Party",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b9f5f69-8c34-3a8f-2353-ae09020daeec",
       "longDescription": "",
       "shortDescription": "Access and session policies configuration",
