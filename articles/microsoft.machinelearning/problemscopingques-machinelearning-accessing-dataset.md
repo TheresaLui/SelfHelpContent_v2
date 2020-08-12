@@ -33,33 +33,34 @@
             		"required": false
         },
 		{
-			"id": "problem_ids",
+			"id": "problem_runid",
 			"order": 2,
 			"controlType": "textbox",
 			"displayLabel": "What is the related RunId?",
 			"required": false
 	},
 		{
-			"id": "problem_ids",
+			"id": "problem_datasetid",
 			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "What is the related DatasetId?",
 			"required": false
 	},
-			{
-			"id": "problem_versions",
+		{
+			"id": "problem_description",
 			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "What version of azureml SDK are you using?",
-			"required": false
-	},
-			{
-			"id": "problem_versions",
-			"order": 5,
-			"controlType": "textbox",
-			"displayLabel": "What version of azureml-dataprep SDK is installed?",
-			"required": false
-	}
+			"controlType": "multilinetextbox",
+			"displayLabel": "Version",
+			"watermarkText": "Version details",
+			"required": true,
+			"useAsAdditionalDetails": true,
+			"hints": [{
+					"text": "Version details"
+				}, {
+					"text": "What version of azureml SDK are you using? What version of azureml-dataprep SDK is installed?"
+				}
+			]
+		}
 	]
 }
 ---
