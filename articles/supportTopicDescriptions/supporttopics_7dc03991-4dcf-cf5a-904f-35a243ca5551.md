@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e5d4ed3a-52ac-9a74-7d5c-0cd9b3b43226",
+      "longDescription": "",
+      "shortDescription": "Discovery data anonymization of user and machine names",
+      "searchTags": "Data;anonymization ",
+      "category": "Data Discovery",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f0099430-f0a1-5474-7db2-4d36a218d3ed",
       "longDescription": "",
       "shortDescription": "Portal performance and latency issues",
