@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 3a36c1ba-f910-91c3-9f17-075d63c9488a"
   description="SupportTopicDescriptions for 3a36c1ba-f910-91c3-9f17-075d63c9488a"
   authors="elixirsys2"
-  ms.author="marwa, v-vigra"
+  ms.author="marwa, v-vigra, absinh"
   selfhelptype="SupportTopicDescription"
   productpesids="3a36c1ba-f910-91c3-9f17-075d63c9488a"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -331,6 +331,14 @@
       "shortDescription": "Problems using Azure AD portal, PowerShell or B2B API to invite external user identities.",
       "searchTags": "problem to invite an external user",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d9e55b51-0dea-b866-480e-bfd1decea50a",
+      "longDescription": "",
+      "shortDescription": "Assistance with creating and managing Administrative Units.",
+      "searchTags": "roles;aad;admin unit;au;administrative unit",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {
