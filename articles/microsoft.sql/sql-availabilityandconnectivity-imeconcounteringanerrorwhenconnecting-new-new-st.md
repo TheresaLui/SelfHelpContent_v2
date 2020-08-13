@@ -17,7 +17,7 @@
 
 # Connection timeouts
 
-* Ensure your application is using a login timeout of at least 15 seconds. Also confirm that the database is not hitting the [limits](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu?WT.mc_id=pid:13491:sid:32745425/) of your selected service tier.
+When you are experiencing connection timeouts, please ensure your application is using a login timeout of at least 15 seconds. Also confirm that the database is not hitting the [limits](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu?WT.mc_id=pid:13491:sid:32745425/) of your selected service tier.
 
 ### **Azure SQL Connectivity Checker tool**
 
@@ -26,9 +26,9 @@ This PowerShell script will run some connectivity checks from your machine to th
 In order to run it you need to:
 
 <ol>
-<li> Open Windows PowerShell ISE in Administrator mode. For the better results, our recommendation is to use the advanced connectivity tests which demand to start PowerShell in Administrator mode. You can still run the basic tests, in case you decide not to run this way. Please note that script parameters 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace' will only work if the admin privileges are granted.</li>
+<li> Open Windows PowerShell ISE in Administrator mode. For the better results, our recommendation is to use the advanced connectivity tests which demand to start PowerShell in Administrator mode. You can still run the basic tests, in case you decide not to run this way. Please note that script parameters 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace' will only work if the admin privileges are granted.</li><br>
 
-<li> Open a New Script window</li>
+<li> Open a New Script window</li><br>
 <li> Paste the following in the script window:
 
   ```
@@ -50,10 +50,10 @@ In order to run it you need to:
       Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLConnectivityChecker.ps1')).Content)) -ArgumentList $parameters
       #end
   ```
-</li>
-<li> Set the parameters on the script, you need to set server name. Database name, user and password are optional but desirable.</li>
-<li> Run it</li>
-<li> The results can be seen in the output window. If the user has the permissions to create folders, a folder with the resulting log file will be created. When running on Windows, the folder will be opened automatically after the script completes. A zip file with all the log files (AllFiles.zip) will be created. Please send us AllFiles.zip using the 'File upload' option in the 'Details' step.</li>
+</li><br>
+<li> Set the parameters on the script, you need to set server name. Database name, user and password are optional but desirable.</li><br>
+<li> Run it</li><br>
+<li> The results can be seen in the output window. If the user has the permissions to create folders, a folder with the resulting log file will be created. When running on Windows, the folder will be opened automatically after the script completes. A zip file with all the log files (AllFiles.zip) will be created. Please send us AllFiles.zip using the 'File upload' option in the 'Details' step.</li><br>
 </ol>
 
 ## **Recommended Documents**
