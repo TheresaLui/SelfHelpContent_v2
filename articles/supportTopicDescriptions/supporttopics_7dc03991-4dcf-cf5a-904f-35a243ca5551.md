@@ -237,6 +237,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f6e13928-39a2-d2c1-2be9-73f9e3398164",
+      "longDescription": "",
+      "shortDescription": "How to integrate with Azure Information Protection (AIP), Investigate failures in labeling",
+      "searchTags": "AIP;Information;Protection;Integration",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fc6d928b-098a-532d-6d3d-63350932eaaf",
       "longDescription": "",
       "shortDescription": "Questions and issues relating to portal usage, performance, licensing, permissions, and configuration",
