@@ -173,6 +173,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c6c19055-d5ee-6872-bd3e-7b226f67e928",
+      "longDescription": "",
+      "shortDescription": "Shadow IT discovery and control, via integrations with Zscaler, iboss and Corrata",
+      "searchTags": "Discovery;IT",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cdd4edb6-7fd4-0cf4-c416-df6c8af89538",
       "longDescription": "",
       "shortDescription": "How can scoped deployment, connector issues or errors, O365 Auditing result in missing activities",
