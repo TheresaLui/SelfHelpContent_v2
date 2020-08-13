@@ -17,10 +17,12 @@
 
 # Cannot open server requested by the login
 
-## **Recommended Steps**
-
 The error 40532 occurs due to one of the following scenarios:
 
-* Scenario 1: When an invalid server name or username used to connect to the database. For example, if the username includes the '@' symbol then any characters after the '@' symbol will be considered as a part of the server name and will fail with error code 40532 "Cannot open server requested by the login". To troubleshoot this error, please follow the [instructions here](https://techcommunity.microsoft.com/t5/azure-database-support-blog/providing-the-server-name-explicitly-in-user-names-for-azure-sql/ba-p/368942).
+* Scenario 1: When an invalid server name or username used to connect to the database. For example, if the username includes the '@' symbol then any characters after the '@' symbol will be considered as a part of the server name and will fail with error code 40532 "Cannot open server requested by the login". Please refer to the recommended documents below to fix this issue.
 
-* Scenario 2: When using VNet firewall rules configuration to connect to the database. This can occur when VNet firewall rule was set for one subnet and the user is trying to access from another subnet on the same VNet. It is important to understand the configuration is per subnet inside a VNet and not the whole VNet. Please ensure the same to fix the issue. 
+* Scenario 2: When using VNet firewall rules configuration to connect to the database. This can occur when VNet firewall rule was set for one subnet and the user is trying to access from another subnet on the same VNet. It is important to understand the configuration is per subnet inside a VNet and not the whole VNet. Please ensure the same to fix the issue.
+
+## **Recommended Documents**
+
+- [Providing the server name explicitly in user names for Azure SQL DB](https://techcommunity.microsoft.com/t5/azure-database-support-blog/providing-the-server-name-explicitly-in-user-names-for-azure-sql/ba-p/368942?WT.mc_id=pid:13491:sid:32745429/)

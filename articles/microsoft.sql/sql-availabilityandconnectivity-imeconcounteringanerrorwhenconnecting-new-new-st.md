@@ -17,7 +17,7 @@
 
 # Connection timeouts
 
-When you are experiencing connection timeouts, please ensure your application is using a login timeout of at least 15 seconds. Also confirm that the database is not hitting the [limits](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu?WT.mc_id=pid:13491:sid:32745425/) of your selected service tier.
+When you are experiencing **connection timeouts**, please ensure your application is using a login timeout of at least 15 seconds. Also confirm that the database is not hitting the [limits](https://docs.microsoft.com/azure/sql-database/sql-database-service-tiers-dtu?WT.mc_id=pid:13491:sid:32745425/) of your selected service tier.
 
 ### **Azure SQL Connectivity Checker tool**
 
