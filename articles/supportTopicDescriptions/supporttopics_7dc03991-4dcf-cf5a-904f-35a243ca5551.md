@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "35d4b1f8-a7dc-23df-bf40-ab17200502d9",
+      "longDescription": "",
+      "shortDescription": "Shadow IT Discovery and controls directly on the endpoint, Block and Warn access scenarios to cloud apps, issues around MDATP integration ",
+      "searchTags": "ATP;Defender;MDATP;Integration",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3f66f651-7dbd-51bf-3a13-ce834735e6e7",
       "longDescription": "",
       "shortDescription": "Licensing questions, products comparison, or missing panes",
