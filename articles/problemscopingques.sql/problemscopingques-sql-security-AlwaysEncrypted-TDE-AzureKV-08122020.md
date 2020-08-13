@@ -198,10 +198,10 @@
          "required":false
       },
        {
-         "id":"akv_region",
+         "id":"server_region",
          "order":100,
          "controlType":"textbox",
-         "displayLabel":"What is the Azure Key Vault region?",
+         "displayLabel":"What is the Azure SQL Server egion?",
          "required":false
       },
       {
