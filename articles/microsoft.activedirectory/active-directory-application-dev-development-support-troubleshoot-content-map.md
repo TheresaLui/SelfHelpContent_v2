@@ -27,7 +27,7 @@ Below you will find help and links for the most common problems when building Az
 * [I don't know how to grant permissions to my application](https://docs.microsoft.com/azure/active-directory/application-dev-registration-config-grant-permissions-how-to/?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
 * [I don't understand the difference between delegated and application permissions](https://docs.microsoft.com/azure/active-directory/application-dev-delegated-and-app-perms/?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
 
-# End of support for Azure Active Directory Authentication Library (ADAL)
+## End of support for Azure Active Directory Authentication Library (ADAL)
 
 Starting June 30th, 2020, we will no longer add any new features to ADAL. We will continue to provide technical support and security updates but will no longer provide feature updates.
 
