@@ -17,7 +17,7 @@
 
 # Unable to login to the server
 
-* Login failed with error code 18456 indicates that your packet has reached the Azure SQL services, but was rejected due to one or more of the following reasons:
+* **Login failures** with error code 18456 indicates that your packet has reached the Azure SQL services, but was rejected due to one or more of the following reasons:
 
   * Incorrect / empty passwords
     - *The client tool / application connecting to the database has incorrect or blank password. Please ensure that you have provided the valid password.*
@@ -29,7 +29,7 @@
   * The connections were rejected due to DoSGuard protection
     - *DoSGuard actively tracks failed logins from IP addresses. If there are multiple failed logins from a specific IP address within a period of time, the IP address is blocked from accessing any resources in the service for a pre-defined time period.*
   * Insufficient permissions
-   - *The user does not have enough authorization to login to the database. Please ensure that the user is granted the necessary permissions to login.*
+    - *The user does not have enough authorization to login to the database. Please ensure that the user is granted the necessary permissions to login.*
 
 * To increase security, the error message that is returned to the client deliberately hides the nature of the authentication error
 
