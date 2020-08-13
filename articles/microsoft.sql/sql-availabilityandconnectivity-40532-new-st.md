@@ -17,7 +17,7 @@
 
 # Cannot open server requested by the login
 
-**Invalid server** error (*40532: Cannot open server "DomainName.com" requested by the login. The login failed.*) occurs when one of the following scenarios occur -
+**Error 40532** (*Cannot open server "DomainName.com" requested by the login. The login failed.*) can occur when one of the following scenarios is true -
 
 * **Scenario 1**: When an invalid server name or username used to connect to the database. For example, if the username includes the '@' symbol then any characters after the '@' symbol will be considered as a part of the server name and will fail with error code 40532 "Cannot open server requested by the login". Please refer to the recommended documents below to fix this issue.
 
