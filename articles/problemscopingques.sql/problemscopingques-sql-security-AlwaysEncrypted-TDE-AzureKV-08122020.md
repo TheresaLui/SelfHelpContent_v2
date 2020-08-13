@@ -1,6 +1,6 @@
 <properties
 	pageTitle="scoping-questions-for-always-encrypted-tde-and-azure-key-vault"
-	description="Scoping questions to capture more details aboutAlways Encrypted, TDE and Azure Key Vault issue."
+	description="Scoping questions to capture more details about always encrypted, tde and azure key vault issue."
 	authors="sojaga"
 	ms.author="sojaga"
 	selfHelpType="problemScopingQuestions"
