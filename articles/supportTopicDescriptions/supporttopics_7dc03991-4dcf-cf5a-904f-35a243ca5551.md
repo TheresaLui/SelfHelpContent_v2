@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0c22ca6b-a0bd-ea78-c5ba-21468e51a5c1",
+      "longDescription": "",
+      "shortDescription": "How to configure third-party DLP solutions, including Forcepoint DLP, Symantec Vontu and Generic ICAP",
+      "searchTags": "DLP;Integration;Third Party",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0e3227c7-56cc-4357-3f13-ac83af818c30",
       "longDescription": "",
       "shortDescription": "Scenarios related to importing user groups for connected apps",
