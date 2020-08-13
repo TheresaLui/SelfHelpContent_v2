@@ -171,7 +171,6 @@
      {
          "id":"subscription_administrator",
          "order":80,
-         "visibility": "IssueType_dropdown == save_setting",
          "controlType":"dropdown",
          "displayLabel":"Do you have an administrator permission on the subscription?",
          "watermarkText":"Choose an option",
@@ -199,26 +198,26 @@
          "required":false
       },
        {
-         "id":"server_region",
+         "id":"akv_region",
          "order":100,
          "controlType":"textbox",
          "displayLabel":"What is the Azure Key Vault region?",
          "required":false
       },
       {
-         "id":"storage_region",
+         "id":"akv_region",
          "order":110,
-         "visibility": "IssueType_dropdown == save_setting",
+         "visibility": "IssueType_dropdown == AEAKV",
          "controlType":"textbox",
-         "displayLabel":"What is the storage account region?",
+         "displayLabel":"What is the Azure Key Vault region?",
          "required":false
       },
       {
-         "id":"storage_region_server",
+         "id":"akv_region_server",
          "order":120,
-         "visibility": "IssueType_dropdown == save_setting ",
+         "visibility": "IssueType_dropdown == AEAKV ",
          "controlType":"dropdown",
-         "displayLabel":"Is the storage account in the same region as the Azure SQL Server?",
+         "displayLabel":"Is the Azure Key Vault in the same region as the Azure SQL Server?",
          "watermarkText":"Choose an option",
          "dropdownOptions":[
              {
@@ -237,11 +236,11 @@
          "required":false
       },
       {
-         "id":"storage_subscription_server",
+         "id":"AKV_subscription_server",
          "order":130,
-         "visibility": "IssueType_dropdown == save_setting ",
+         "visibility": "IssueType_dropdown == AEAKV ",
          "controlType":"dropdown",
-         "displayLabel":"Is the storage account in the same subscription as the Azure SQL Server?",
+         "displayLabel":"Is the Azure Key Vault in the same subscription as the Azure SQL Server?",
          "watermarkText":"Choose an option",
          "dropdownOptions":[
              {
@@ -260,11 +259,11 @@
          "required":false
       },
       {
-         "id":"storage_access",
+         "id":"AKV_access",
          "order":140,
-         "visibility": "IssueType_dropdown == view",
+         "visibility": "IssueType_dropdown == AEAKV",
          "controlType":"dropdown",
-         "displayLabel":"Do you have access to the Storage Account?",
+         "displayLabel":"Do you have access to the Azure KeyVault?",
          "watermarkText":"Choose an option",
          "dropdownOptions":[
              {
