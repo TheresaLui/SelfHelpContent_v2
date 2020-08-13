@@ -31,9 +31,9 @@ If you are experiencing issues with the Log Analytics portal, please try the fol
 1. Check if your network configuration is preventing the Log Analytics portal from loading correctly. </br>
     Review the [following document](https://docs.microsoft.com/en-us/azure/azure-monitor/app/ip-addresses#log-analytics-portal) to better understand Log Analytics network requirements and possible issues.
 1. Try the following browser operations:
-    1. Clear browser cache
-    1. Try using Private browsing
-    1. Try a different web browser
+    1. Clear browser cache.
+    1. Try using Private browsing.
+    1. Try a different web browser.
 1. Try using another network or a different proxi server if possible.
 
 ## **Recommended Documents**
