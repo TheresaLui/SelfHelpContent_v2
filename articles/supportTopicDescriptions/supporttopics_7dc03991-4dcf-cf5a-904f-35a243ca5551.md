@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b4a094be-0ffc-3a1e-9655-c2d6c43812f2",
+      "longDescription": "",
+      "shortDescription": "Security configuration recommendations for Azure Security Center, AWS Security Hub, and GCP Security Command Center",
+      "searchTags": "Security;Center;Configuration",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b84a60f2-9cdf-dd88-f8d7-b3df57529804",
       "longDescription": "",
       "shortDescription": "Creation of custom activity policies for detecting specific conditions",
