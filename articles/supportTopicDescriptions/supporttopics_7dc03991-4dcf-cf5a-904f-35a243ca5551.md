@@ -221,6 +221,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f45b4e54-396a-03c5-c952-5a34c1b9078f",
+      "longDescription": "",
+      "shortDescription": "How to integrate with Azure Sentinel including data sync in alerts or discovery data",
+      "searchTags": "Sentinel ;Integration",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fc6d928b-098a-532d-6d3d-63350932eaaf",
       "longDescription": "",
       "shortDescription": "Questions and issues relating to portal usage, performance, licensing, permissions, and configuration",
