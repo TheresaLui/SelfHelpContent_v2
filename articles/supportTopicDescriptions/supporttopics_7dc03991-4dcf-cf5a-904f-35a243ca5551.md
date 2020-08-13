@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6a64af51-1630-1ea0-0fef-b94512c0d28d",
+      "longDescription": "",
+      "shortDescription": "Generic SIEM integration setup using CEF or ArcSight formats. Missing activities and alerts on the SIEM server",
+      "searchTags": "SIEM ;CEF;Integration;External",
+      "category": "SIEM",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "84eb2e50-1369-c8f2-78ad-bf1f808ba7a2",
       "longDescription": "",
       "shortDescription": "Investigate suspicious users and accounts, including issues in UEBA",
