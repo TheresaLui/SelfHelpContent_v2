@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "96b184e9-53c3-dc7e-60de-0e2b691498c9",
+      "longDescription": "",
+      "shortDescription": "Ingesting data via programmatic access, export 5000 records and more, automate access, upload discovery logs, generate block script, list activities ",
+      "searchTags": "REST ;API;Script",
+      "category": "REST API",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b84a60f2-9cdf-dd88-f8d7-b3df57529804",
       "longDescription": "",
       "shortDescription": "Creation of custom activity policies for detecting specific conditions",
