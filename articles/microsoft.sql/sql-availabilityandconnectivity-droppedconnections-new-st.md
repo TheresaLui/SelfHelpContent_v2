@@ -62,4 +62,4 @@ In order to run it you need to:
 ## **Recommended Documents**
 
 - [Troubleshooting connectivity issues with Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-errors-issues?WT.mc_id=pid:13491:sid:32745426/)
-- [Common connectivity issues](https://docs.microsoft.com/en-us/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745426/)<br>
+- [Common connectivity issues](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745426/)<br>
