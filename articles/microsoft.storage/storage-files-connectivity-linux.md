@@ -15,7 +15,9 @@
 	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
-# Troubleshooting Azure Files: Connectivity issue on Linux
+# Troubleshooting Azure File Mount Issues on Linux
+
+## **Recommended Documents**
 
 **Troubleshooting for Mounting Errors**
 
