@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "464b650c-5f48-aa7b-30e9-fac7368ca8af",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to configuring extensions in an organization.",
+      "searchTags": "Extensions;DevOps;Admin",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "52be6b5f-08c7-167e-80b3-a23c990def7b",
       "longDescription": "",
       "shortDescription": "Issues that are related to designating or changing the Owner of an Azure DevOps organization.",
