@@ -1,3 +1,5 @@
+# Azure Migrate: Unable to connect to Azure VM after migration - Windows and Linux
+
 <properties
     pageTitle="Not able to connect to Azure VM after migration or test migration"
     description="Self help article to troubleshoot issues connecting to the virtual machine post migration"
@@ -14,8 +16,6 @@
     articleId="5e2a4f2f-34a4-4c04-9b07-10ca56c915bc"
     ownershipId="Compute_AzureMigrate"
 />
-
-# Azure Migrate: Unable to connect to Azure VM after migration - Windows and Linux
 
 ## **Recommended Steps**
 
