@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1a153eb2-22e4-f2ec-75e8-8d80ed78d546",
+      "longDescription": "",
+      "shortDescription": "Problems or questions related to creating, configuring or receiving version control notifications.",
+      "searchTags": "Version control;Source control;Notification;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1e6ff6cd-5691-54ac-1820-f8e542886d51",
       "longDescription": "",
       "shortDescription": "Issues that are related to Azure Artifacts",
