@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ceb568a9-9a15-7b30-53bd-a65e0baf334f",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to using Microsoft Office with Azure DevOps Services.",
+      "searchTags": "Office;DevOps;Connect;Excel",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "de309a3f-9d4f-efd1-80b7-fddc2cd0d9c1",
       "longDescription": "",
       "shortDescription": "Issues that are related to work item search.",
