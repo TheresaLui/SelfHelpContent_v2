@@ -26,7 +26,7 @@ Most users are able to resolve their issue using the steps below.
 *Slow query logs*
 
 * Review documentation about [slow query logs](https://docs.microsoft.com/azure/mariadb/concepts-server-logs)
-* Review how to configure & access logs from the [Azure portal](https://docs.microsoft.com/azure/mariadb/howto-configure-server-logs-portal) and [Azure CLI](https://docs.microsoft.com/azure/mariadb/howto-configure-server-logs-cli)
+* Review how to configure & access slow query logs from the [Azure portal](https://docs.microsoft.com/azure/mariadb/howto-configure-server-logs-portal) and [Azure CLI](https://docs.microsoft.com/azure/mariadb/howto-configure-server-logs-cli)
 * If your tables are not indexed, setting the **log_queries_not_using_indexes** and **log_throttle_queries_not_using_indexes** parameters to ON may affect MariaDB performance since all queries running against these non-indexed tables will be written to the slow query log.
 * There are two ways slow query logs can be consumed: .log files or Azure Monitor diagnostic logging (which routes to storage account, Event Hub, or Azure Monitor logs)
   * .log files provide short-term storage for logs in a CSV-like format and are stored locally on the server. These logs are retained for up to seven days and the files are rotated every 24 hours or 7 GB (whichever comes first). They can be downloaded from the Azure portal or CLI
