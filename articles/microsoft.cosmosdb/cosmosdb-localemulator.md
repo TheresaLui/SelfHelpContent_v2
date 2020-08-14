@@ -51,9 +51,7 @@ CosmosClientOptions cosmosClientOptions = new CosmosClientOptions()
     ConnectionMode = ConnectionMode.Gateway
 };
 
-CosmosClient client = new CosmosClient("https://localhost:8081", 
-    "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==", 
-    cosmosClientOptions);
+CosmosClient client = new CosmosClient("<emulator-endpoint>", "<emulator-key>", cosmosClientOptions);
 ```
 
 When running in a NET Standard 2.0 compatible framework:
@@ -73,9 +71,7 @@ CosmosClientOptions cosmosClientOptions = new CosmosClientOptions()
     ConnectionMode = ConnectionMode.Gateway
 };
 
-CosmosClient client = new CosmosClient("https://localhost:8081", 
-    "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==", 
-    cosmosClientOptions);
+CosmosClient client = new CosmosClient("<emulator-endpoint>", "<emulator-key>", cosmosClientOptions);
 ```
 
 **Note** : Do not use these configurations on a production environment, they are only meant to be used for development.
