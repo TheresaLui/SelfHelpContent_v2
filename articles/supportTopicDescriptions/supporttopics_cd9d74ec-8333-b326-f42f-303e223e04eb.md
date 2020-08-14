@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "40e0403d-2cb7-1560-66fc-904ed4611074",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to using the Visual Studio integrated development environment with Azure DevOps Services.",
+      "searchTags": "Visual Studio;DevOps;Connect;VS",
+      "category": "Connectivity ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5cbf3008-560f-8e3c-56ef-3fc584fa5231",
       "longDescription": "",
       "shortDescription": "Set up or configuration of an Artifact feed",
