@@ -253,6 +253,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9cb24e16-ed70-48cf-af65-94e35faa303e",
+      "longDescription": "",
+      "shortDescription": "Problems or questions related to creating, configuring or receiving request feedback notifications.",
+      "searchTags": "Feedback notification;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9d1b4757-5994-fe5d-5770-71af39265a44",
       "longDescription": "",
       "shortDescription": "Issues that are related to programming Azure DevOps Services by using REST.",
