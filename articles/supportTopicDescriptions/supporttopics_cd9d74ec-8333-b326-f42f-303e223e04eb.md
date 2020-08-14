@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "43816774-d26c-9390-17c4-ceb457051f42",
+      "longDescription": "",
+      "shortDescription": "Problems or questions related to creating or configuring Publish, Download Build, Pipeline artifact tasks, authenticating with Azure Artifacts feeds",
+      "searchTags": "Download artifact;Publish Artifact;Build",
+      "category": "Build",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "464b650c-5f48-aa7b-30e9-fac7368ca8af",
       "longDescription": "",
       "shortDescription": "Issues that are related to configuring extensions in an organization.",
