@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4901d9c5-38e6-5a00-370d-b7437a04e97f",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to configuring team dashboards",
+      "searchTags": "Dashboards;Configure;Reports",
+      "category": "Reporting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "52be6b5f-08c7-167e-80b3-a23c990def7b",
       "longDescription": "",
       "shortDescription": "Issues that are related to designating or changing the Owner of an Azure DevOps organization.",
