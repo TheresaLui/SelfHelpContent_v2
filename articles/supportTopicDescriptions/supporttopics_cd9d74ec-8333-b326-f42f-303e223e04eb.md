@@ -301,6 +301,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b9aed364-659b-6eb1-cb7e-c7de351593e0",
+      "longDescription": "",
+      "shortDescription": "Problems or questions related to creating, configuring or receiving build notifications.",
+      "searchTags": "Build Notifications;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c0d68c25-3f64-492e-711b-c1c8ceafd959",
       "longDescription": "",
       "shortDescription": "Issues that are related to using or configuring widgets",
