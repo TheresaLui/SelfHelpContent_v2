@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2e8fd6d5-fde4-17ff-b595-3507ddb758aa",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to creating or using README files or wiki pages",
+      "searchTags": "Readme;Dashboard;Configure;Wiki",
+      "category": "Reporting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "40e0403d-2cb7-1560-66fc-904ed4611074",
       "longDescription": "",
       "shortDescription": "Issues that are related to using the Visual Studio integrated development environment with Azure DevOps Services.",
