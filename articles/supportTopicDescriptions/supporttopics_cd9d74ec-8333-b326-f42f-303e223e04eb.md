@@ -27,6 +27,14 @@
       "searchTags": "Artifacts",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6b67fc5d-0efd-c5f6-d7fa-212b17b88873",
+      "longDescription": "",
+      "shortDescription": "Issues related to configuring or using Package Management",
+      "searchTags": "Packages;Artifacts",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
