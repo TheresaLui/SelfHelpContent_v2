@@ -269,6 +269,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e1607f06-4712-4fde-9d83-12a46223201b",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to integrating Power BI with Azure DevOps Services or otherwise utilizing the Analytics Service",
+      "searchTags": "Power BI;Analytics;Dashboards;Configure;Reports",
+      "category": "Reporting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f79141ad-56c8-7e2a-32c3-51ee5cc81d1d",
       "longDescription": "",
       "shortDescription": "Performance, configuration or customization of Backlogs, Boards, Charts, Work Items, Work Item Queries, Work Item Search and Work Item permissions",
