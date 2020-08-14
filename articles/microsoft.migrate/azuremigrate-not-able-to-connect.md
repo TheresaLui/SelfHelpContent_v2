@@ -15,7 +15,7 @@
     ownershipId="Compute_AzureMigrate"
 />
 
-# Azure Migrate: Unable to connect to Azure VM post migration - Windows and Linux
+# Azure Migrate: Unable to connect to Azure VM after migration - Windows and Linux
 
 ## **Recommended Steps**
 
