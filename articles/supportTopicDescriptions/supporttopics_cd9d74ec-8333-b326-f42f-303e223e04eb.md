@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "988ac8a6-feff-0d1a-df36-df6bfc7ab245",
+      "longDescription": "",
+      "shortDescription": "Issues related to configuring or using Backlogs",
+      "searchTags": "Configure;Work Item;Backlogs",
+      "category": "Boards Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f79141ad-56c8-7e2a-32c3-51ee5cc81d1d",
       "longDescription": "",
       "shortDescription": "Performance, configuration or customization of Backlogs, Boards, Charts, Work Items, Work Item Queries, Work Item Search and Work Item permissions",
