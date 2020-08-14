@@ -333,6 +333,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d251feca-9457-73eb-7739-855e9ec42a66",
+      "longDescription": "",
+      "shortDescription": "Problems or questions related to creating, configuring or receiving code review notifications.",
+      "searchTags": "Code Review Notification;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "de309a3f-9d4f-efd1-80b7-fddc2cd0d9c1",
       "longDescription": "",
       "shortDescription": "Issues that are related to work item search.",
