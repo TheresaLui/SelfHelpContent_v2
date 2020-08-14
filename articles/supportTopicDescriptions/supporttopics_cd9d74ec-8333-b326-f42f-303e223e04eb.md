@@ -59,6 +59,14 @@
       "searchTags": "Packages;Artifacts",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f79141ad-56c8-7e2a-32c3-51ee5cc81d1d",
+      "longDescription": "",
+      "shortDescription": "Performance, configuration or customization of Backlogs, Boards, Charts, Work Items, Work Item Queries, Work Item Search and Work Item permissions",
+      "searchTags": "Work Item;Boards",
+      "category": "Boards Configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
