@@ -1,6 +1,6 @@
 <properties
     pageTitle="Not able to connect to Azure VM after migration or test migration"
-    description="Self help article to troubleshoot issues connecting to the virual machine post migration"
+    description="Self help article to troubleshoot issues connecting to the virtual machine post migration"
     service="microsoft.migrate"
     resource="migrateprojects"
     authors="anvar"
@@ -12,7 +12,7 @@
     productPesIds="16348"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="5e2a4f2f-34a4-4c04-9b07-10ca56c915bc"
-	ownershipId="Compute_AzureMigrate"
+    ownershipId="Compute_AzureMigrate"
 />
 
 # Azure Migrate: Unable to connect to Azure VM post migration - Windows and Linux
@@ -52,7 +52,7 @@ Ensure that your VM's NIC is not in a disabled state. Use this as a [guide](http
 
 If your VM has not booted up,
 
-* Note: VMs with UEFI boot aren’t supported for the Agentless Migration method. Please use the [Agent-based approach](https://docs.microsoft.com/azure/migrate/tutorial-migrate-physical-virtual-machines) to perform your migration. 
+* Note: VMs with UEFI boot aren’t supported for the Agentless Migration method. Please use the [Agent-based approach](https://docs.microsoft.com/azure/migrate/tutorial-migrate-physical-virtual-machines) to perform your migration.
 * [For Linux VMs] If you are trying to migrate Linux VMs using the Agentless Migration workflow (for VMware VMs), use this [article](https://docs.microsoft.com/azure/migrate/prepare-for-migration#linux-machines) to check if your OS version would be automatically prepared for Azure. If not, please use the same [article](https://docs.microsoft.com/azure/migrate/prepare-for-migration#linux-machines) to manually prepare your VM/server for Azure. Retry the migration once you complete it.
 * You can additionally review any information/details on the Server Migration jobs that were not marked successful. This may give additional insights into the failures, potential causes, and possible resolutions.
 * If you are preparing the VM manually, ensure that you select the correct OS disk for migration. Choosing a Data disk instead of the OS disk can cause a VM boot error.
@@ -62,7 +62,6 @@ If your VM has not booted up,
 If your issue persists, please raise a support ticket, and also include details about any error message you may be seeing, your VM name, and Operating System and version. [Enable the Serial Console](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-windows) to aid faster troubleshooting.
 
 If you need to fix a configuration on the on-premises machine, wait for a while to allow the configuration change to be replicated and then retry the test migration.
-
 
 ## **Recommended Documents**
 
