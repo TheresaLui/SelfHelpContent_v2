@@ -75,4 +75,4 @@ When you configure your OMS workspace for the first time for an Azure Migrate: S
 
 ### **Do I need to install Service Map agents if I have System Center Operations Manager set up already?**
 
-For machines monitored by System Center Operations Manager 2012 R2 or later, there is no need to install the MMA agent. Service Map has an integration with SCOM that leverages the SCOM MMA to gather the necessary dependency data. You can enable the integration using the guidance [here](https://go.microsoft.com/fwlink/?linkid=2104197). Note that the dependency agent will still need to be installed on these machines.
+For machines monitored by System Center Operations Manager 2012 R2 or later, there is no need to install the MMA agent. Service Map has an integration with SCOM that leverages the SCOM MMA to gather the necessary dependency data. You can enable the integration using the guidance [here](https://go.microsoft.com/fwlink/?linkid=2104197). Note that the dependency agent will still need to be installed on these machines.
