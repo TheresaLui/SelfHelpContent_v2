@@ -20,7 +20,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "0.01:00:00"
   },
-  "recommendationCategory": "Reliability",
+  "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Compute/virtualMachines",
   "recommendationFriendlyName": "SessionHostNeedsAssistanceForUrlCheck",
