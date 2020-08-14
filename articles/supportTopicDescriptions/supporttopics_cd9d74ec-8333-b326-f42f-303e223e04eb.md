@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "59c00f36-0a61-12e3-9f09-87d3029668c7",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to integrating Azure Active Directory or O365 with Azure DevOps Services.",
+      "searchTags": "AAD;DevOps;Configure;O365",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5cbf3008-560f-8e3c-56ef-3fc584fa5231",
       "longDescription": "",
       "shortDescription": "Set up or configuration of an Artifact feed",
