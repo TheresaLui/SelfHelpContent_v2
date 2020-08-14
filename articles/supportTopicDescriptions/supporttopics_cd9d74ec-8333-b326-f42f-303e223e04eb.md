@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "68b6dd35-b19e-36d8-a5e4-364de8faad47",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to customization of work items and the process template.",
+      "searchTags": "Process customization;Customize work item;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6b57123d-d111-12d0-4834-dc90fc3c43a0",
       "longDescription": "",
       "shortDescription": "Issues that are related to light-weight charting.",
