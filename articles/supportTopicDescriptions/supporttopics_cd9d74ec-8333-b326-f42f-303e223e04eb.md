@@ -221,6 +221,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ae8a1e96-e03f-c68c-cd43-6ec3742a799a",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to using the REST API for app registration.",
+      "searchTags": "Register;Registration;App;Application;Pipeline",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "af497a7c-19f8-832d-1dc9-0451607ab645",
       "longDescription": "",
       "shortDescription": "Issues that are related to data backup and recovery.",
