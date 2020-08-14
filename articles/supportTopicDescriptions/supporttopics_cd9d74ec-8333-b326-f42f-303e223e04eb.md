@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8eacf30f-6ab6-340d-d946-13b9e69f073a",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to programming Azure DevOps Services by using an object model.",
+      "searchTags": "API;Object Model;Pipeline",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "957a6104-8e49-f606-54f0-748a056813e4",
       "longDescription": "",
       "shortDescription": "Issues that are related to using Team Explorer Everywhere with Azure DevOps Services.",
