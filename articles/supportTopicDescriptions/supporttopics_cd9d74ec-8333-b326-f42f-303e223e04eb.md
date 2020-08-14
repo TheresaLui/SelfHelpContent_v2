@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "af497a7c-19f8-832d-1dc9-0451607ab645",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to data backup and recovery.",
+      "searchTags": "Back up;Recovery;Deleted;DevOps",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c9f5a7db-ad40-8565-8248-7b13d1d81fdd",
       "longDescription": "",
       "shortDescription": "Issues related to the configuration or use of Boards",
