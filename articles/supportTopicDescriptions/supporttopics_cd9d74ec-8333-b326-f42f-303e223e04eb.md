@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "1102235f-35fc-bcb1-1f3b-11801a6f146f",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to Nuget, package restoration or consumption, including permissions",
+      "searchTags": "Restoring;Artifacts",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1e6ff6cd-5691-54ac-1820-f8e542886d51",
       "longDescription": "",
       "shortDescription": "Issues that are related to Azure Artifacts",
