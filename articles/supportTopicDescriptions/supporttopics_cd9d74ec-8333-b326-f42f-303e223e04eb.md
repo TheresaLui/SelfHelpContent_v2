@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a4df0ec0-9274-7858-4872-e4aac70aefc8",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to programming and extending Azure DevOps Services.",
+      "searchTags": "Extend;Integrate;Automation",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a7a2bf08-5c86-3379-79b8-e97d6459d3d1",
       "longDescription": "",
       "shortDescription": "Issues that are related to signing up for an Azure DevOps organization.",
