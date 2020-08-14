@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5914526c-22b3-ffec-8ce6-ce10c60792de",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to setting up or removing billing in Azure DevOps Services",
+      "searchTags": "DevOps;Billing",
+      "category": "Commerce",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "59c00f36-0a61-12e3-9f09-87d3029668c7",
       "longDescription": "",
       "shortDescription": "Issues that are related to integrating Azure Active Directory or O365 with Azure DevOps Services.",
