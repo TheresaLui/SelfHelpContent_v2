@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "16d054e0-5c46-7c21-8696-9c80e853f596",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to notifications.",
+      "searchTags": "Notification",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1e6ff6cd-5691-54ac-1820-f8e542886d51",
       "longDescription": "",
       "shortDescription": "Issues that are related to Azure Artifacts",
