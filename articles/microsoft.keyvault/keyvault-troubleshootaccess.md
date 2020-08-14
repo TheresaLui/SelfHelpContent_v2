@@ -23,7 +23,7 @@
 
 * If you have problem with authenticate to key vault in code, use [Authentication SDK](https://azure.github.io/azure-sdk/posts/2020-02-25/defaultazurecredentials.html) 
 
-## **Troubleshooting**
+### **Troubleshooting**
 
 * HTTP 401: Unauthenticated Request - [Troublehooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-401-unauthenticated-request)
 
