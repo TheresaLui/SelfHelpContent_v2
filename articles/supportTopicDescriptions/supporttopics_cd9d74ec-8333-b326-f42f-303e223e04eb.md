@@ -291,6 +291,14 @@
       "searchTags": "Work Item;Boards",
       "category": "Boards Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fc26eac4-f183-1a42-5074-953d917bd487",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to programming Azure DevOps Services by using OAuth.",
+      "searchTags": "OAuth;Permissions;Pipeline;Security",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
