@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5cbf3008-560f-8e3c-56ef-3fc584fa5231",
+      "longDescription": "",
+      "shortDescription": "Set up or configuration of an Artifact feed",
+      "searchTags": "Artifacts;Feed",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6b67fc5d-0efd-c5f6-d7fa-212b17b88873",
       "longDescription": "",
       "shortDescription": "Issues related to configuring or using Package Management",
