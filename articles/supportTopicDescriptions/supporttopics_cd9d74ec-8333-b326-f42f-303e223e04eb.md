@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "07d3041e-a87c-143a-18f5-26f741a96272",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to using web browsers and other clients to connect to Azure DevOps Services.",
+      "searchTags": "Browser;DevOps;Connect;Chrome;Edge",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0f067376-3811-6eb4-6143-2b4e5eabb6d7",
       "longDescription": "",
       "shortDescription": "Issues when it takes a long time to access to work items, or the process hangs.",
