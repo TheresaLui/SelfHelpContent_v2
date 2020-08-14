@@ -82,7 +82,7 @@ CosmosClient client = new CosmosClient("https://localhost:8081",
 
 **Request is being made with a forbidden encryption in transit protocol or cipher. Check account SSL/TLS minimum allowed protocol setting..**
 
-This might be caused by global changes in the OS (for example Insider Preview Build 20170) or the browser settings that enable TLS 1.3 as default. This is expected at this time since Cosmos emulator only accepts and works with TLS 1.2 protocol. The recommended work around is to change the settings and default to TLS 1.2; for instance in IIS Manager navigate to "Sites" -> "Default Web Sites" and locate the "Site Bindings" for port 8081 and edit them to disable TLS 1.3. Similar operation can be performed for the Web browser via the "Settings" options.
+This might be caused by global changes in the OS (for example Insider Preview Build 20170) or the browser settings that enable TLS 1.3 as default. This is expected at this time since Cosmos emulator only accepts and works with TLS 1.2 protocol. The recommended workaround is to change the settings and default to TLS 1.2; for instance in IIS Manager navigate to "Sites" -> "Default Web Sites" and locate the "Site Bindings" for port 8081 and edit them to disable TLS 1.3. Similar operation can be performed for the Web browser via the "Settings" options.
 
 ## **Recommended Documents**
 
