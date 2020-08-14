@@ -3,7 +3,7 @@
     description="Self help article to troubleshoot issues connecting to the virtual machine after migration"
     service="microsoft.migrate"
     resource="migrateprojects"
-    authors="deSeelam"
+    authors="Deepika"
     ms.author="deseelam"
     displayOrder=""
     selfHelpType="generic"
@@ -28,17 +28,17 @@ If your VM has booted up, but you are unable to connect to your VM, please refer
 ### **Unable to connect to VM**
 
 * Try logging into the VM using the Serial Console (SAC). You can use this [document](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-windows) (Windows) and [document](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux) (Linux) to turn on SAC if it’s not enabled.
-* For both Windows and Linux VMs alike, use a public IP to connect to the VM if you are connecting over the internet or a private IP can work if you have a Site to Site VPN connection. 
+* For both Windows and Linux VMs alike, use a public IP to connect to the VM if you are connecting over the internet or a private IP can work if you have a Site to Site VPN connection.
 
-#### **Troubleshooting for Windows:**
+#### **Troubleshooting for Windows**
 
-* Ensure that your VM has an IP address that can reached over the internet. Verify that there are no network security group (NSG) rules that are blocking RDP connections to your Azure VM. Use this [article](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nsg-problem) to troubleshoot.
-* Verify if there are any firewall rules or intrusion prevention software that may be restricting RDP connections (both Azure and your on-premises firewall rules and proxy settings). Ensure that the guest OS firewall is not restricting inbound RDP traffic across firewall profiles. This [document](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-blocking-inbound-traffic) will be helpful here.
-* If you are migrating a ***Windows Server 2003*** VM to Azure, ensure you prepare your machine for migration. Use this [article](https://docs.microsoft.com/azure/migrate/prepare-windows-server-2003-migration) to prepare your machine for migration.
-* You cannot connect remotely to ***Windows Server 2016*** VM or Windows 10 VMs because of netvsc.sys. You can identify this error with a red “X” on the NIC from the Boot diagnostics screenshot. This issue occurs if you are running Windows build 14393 or build 15063 on your machine. Please refer to this documentation to troubleshoot the issue: How to [troubleshoot netvsc issue](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-driver-netvsc).
-* Ensure that the migrated machine allows remote connections. You can use Serial Console (cmd or PowerShell) to set RDP if it is not enabled. 
-* A static IP should not be configured on the VM NIC. Make sure that the VM is set to use DHCP to obtain an IP address. Use this [guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-static-ip) to troubleshoot.
-* Ensure that your VM's NIC is not disabled. Use this as a [guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nic-disabled) to help you. 
+* Ensure that your VM has an IP address that can be reached over the Internet. Verify that there are no network security group (NSG) rules that are blocking RDP connections to your Azure VM. Use this [article](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nsg-problem) to troubleshoot.
+* Verify if there are any firewall rules or intrusion prevention software that may be restricting RDP connections (both Azure and your on-premises firewall rules and proxy settings). Ensure that the guest OS firewall is not restricting inbound RDP traffic across firewall profiles. This [document] (https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-blocking-inbound-traffic) will be helpful here.
+* If you are migrating a **Windows Server 2003** VM to Azure, ensure you prepare your machine for migration. Use this [article] (https://docs.microsoft.com/azure/migrate/prepare-windows-server-2003-migration) to prepare your machine for migration.
+* You cannot connect remotely to **Windows Server 2016** VM or Windows 10 VMs because of netvsc.sys. You can identify this error with a red "X" on the NIC from the Boot diagnostics screenshot. This issue occurs if you are running Windows build 14393 or build 15063 on your machine. Please refer to this [documentation](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-driver-netvsc) to troubleshoot the issue.
+* Ensure that the migrated machine allows remote connections. You can use the Serial Console (cmd or PowerShell) to set RDP if it is not enabled.
+* A static IP should not be configured on the VM NIC. Make sure that the VM is set to use DHCP to obtain an IP address. USe this [guide] (https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-static-ip) to troubleshoot.
+Ensure that your VM's NIC is not in a disabled state. Use this as a [guide] (https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nic-disabled) to help you.
 
 #### **Troubleshooting for Linux:**
 
@@ -51,6 +51,7 @@ If your VM has booted up, but you are unable to connect to your VM, please refer
 ### **VM boot troubleshoot**
 
 If your VM has not booted up, 
+
 * Note: VMs with UEFI boot aren’t supported for the Agentless Migration method. Please use the [Agent-based approach](https://docs.microsoft.com/azure/migrate/tutorial-migrate-physical-virtual-machines) to perform your migration. 
 * [For Linux VMs] If you are trying to migrate Linux VMs using the Agentless Migration workflow (for VMware VMs), use this [article](https://docs.microsoft.com/azure/migrate/prepare-for-migration#linux-machines) to check if your OS version would be automatically prepared for Azure. If not, please use the same [article](https://docs.microsoft.com/azure/migrate/prepare-for-migration#linux-machines) to manually prepare your VM/server for Azure. Retry the migration once you complete it.
 * You can additionally review any information/details on the Server Migration jobs that were not marked successful. This may give additional insights into the failures, potential causes, and possible resolutions.
@@ -68,4 +69,3 @@ If you need to fix a configuration on the on-premises machine, wait for a while 
 - [Troubleshoot RDP connection to Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/troubleshoot-rdp-connection)
 - [Troubleshoot SSH connection to Linux VM](https://docs.microsoft.com/azure/virtual-machines/linux/detailed-troubleshoot-ssh-connection)
 - [Detailed troubleshoot SSH connection to Linux VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/detailed-troubleshoot-ssh-connection) 
-
