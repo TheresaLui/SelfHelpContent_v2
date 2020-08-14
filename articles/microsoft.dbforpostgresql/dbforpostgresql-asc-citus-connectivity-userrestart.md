@@ -23,4 +23,4 @@ Your Hyperscale (Citus) server <!--$ServerName-->ServerName<!--/$ServerName--> w
 
 ## **Recommended Steps**
 * Servers typically return quickly after a restart. You can retry your connection.
-* If the server was quite busy when restarted, it has more to do in recovery and may take longer to return.
+* If the server was quite busy when restarted, it has more to do in recovery and may take longer to return
