@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "31e718b7-28df-b40d-e479-1a07cf5421a0",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to Azure DevOps Services extensions.",
+      "searchTags": "Building extensions;Build;Pipeline",
+      "category": "Build",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "40e0403d-2cb7-1560-66fc-904ed4611074",
       "longDescription": "",
       "shortDescription": "Issues that are related to using the Visual Studio integrated development environment with Azure DevOps Services.",
