@@ -245,6 +245,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9fee950c-b269-76b6-219f-67ceb5db4fe8",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to managing user permissions.",
+      "searchTags": "Permission;Security;User;Admin",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a4df0ec0-9274-7858-4872-e4aac70aefc8",
       "longDescription": "",
       "shortDescription": "Issues that are related to programming and extending Azure DevOps Services.",
