@@ -24,5 +24,5 @@ There are <!--$Count-->Count<!--/$Count--> failed password authentications to Hy
 
 ## **Recommended Steps**
 
-* Check the connection string to confirm you have correctly entered the password for this server.
-* Contact the server's admin to request a password change.
+* Check the connection string to confirm you have correctly entered the password for this server
+* Contact the server's admin to request a password change
