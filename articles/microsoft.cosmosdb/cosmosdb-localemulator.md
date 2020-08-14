@@ -29,7 +29,7 @@ By using the Azure Cosmos DB Emulator, you can develop and test your application
 * If you receive a Service Unavailable message, the emulator might have failed to initialize the network stack. Check to see if you have the Pulse secure client or Juniper networks client installed. The network filter drivers of these clients may cause issues. Uninstalling third-party network filter drivers typically fixes the issue.
 * Collect trace files and attach them to the support case for crashes or connectivity issues.
 
-## **Common errors**
+### **Common errors**
 
 **AuthenticationException: The remote certificate is invalid according to the validation procedure.**
 When using the .NET SDK, this means the application environment does not have the certificates the Emulator uses to provide HTTPS support. This can be resolved by turning off SSL verification:
@@ -50,7 +50,6 @@ CosmosClientOptions cosmosClientOptions = new CosmosClientOptions()
     // Gateway mode is used to force all communications with the Emulator to be HTTP
     ConnectionMode = ConnectionMode.Gateway
 };
-
 
 CosmosClient client = new CosmosClient("https://localhost:8081", 
     "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==", 
@@ -73,7 +72,6 @@ CosmosClientOptions cosmosClientOptions = new CosmosClientOptions()
     // Gateway mode is used to force all communications with the Emulator to be HTTP
     ConnectionMode = ConnectionMode.Gateway
 };
-
 
 CosmosClient client = new CosmosClient("https://localhost:8081", 
     "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==", 
