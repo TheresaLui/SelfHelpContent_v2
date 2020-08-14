@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2b6c179e-2e9a-9fe1-c5e6-0cb7c3c2feea",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to publishing and accessing symbols",
+      "searchTags": "Symbols;Artifacts",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5cbf3008-560f-8e3c-56ef-3fc584fa5231",
       "longDescription": "",
       "shortDescription": "Set up or configuration of an Artifact feed",
