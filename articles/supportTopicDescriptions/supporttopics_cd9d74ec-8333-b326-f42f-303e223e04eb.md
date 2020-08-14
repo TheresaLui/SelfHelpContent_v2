@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6ca0319c-497f-f877-7808-1ea91990f938",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to missing or incorrect work items.",
+      "searchTags": "Work item;Corrupt;Incorrect;Missing",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "988ac8a6-feff-0d1a-df36-df6bfc7ab245",
       "longDescription": "",
       "shortDescription": "Issues related to configuring or using Backlogs",
