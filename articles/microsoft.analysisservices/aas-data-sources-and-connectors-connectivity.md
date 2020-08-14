@@ -22,5 +22,8 @@
 
 * [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)
 
+* [Frequently asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
 
+* [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)
 
+* [Troubleshooting the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-onprem-tshoot)

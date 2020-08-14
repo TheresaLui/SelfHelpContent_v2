@@ -34,8 +34,8 @@ New-AzureStorageTableSASToken -Name "" -Permission rl -StartTime $startTime -Exp
 
 ~~~
 
-5. File the IcM to check for recovery options. <br>
-6. Choose an ICM Template based on severity and include all deletion information gathered in previous steps<br>
+4. File the IcM to check for recovery options. <br>
+5. Choose an ICM Template based on severity and include all deletion information gathered in previous steps<br>
 
 ## Recommended Documents
 1. [Sample Sev 2 IcM to WASU](https://portal.microsofticm.com/imp/v3/incidents/create?tmpl=v154BG)

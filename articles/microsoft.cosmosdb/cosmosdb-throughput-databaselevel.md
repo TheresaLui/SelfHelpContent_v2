@@ -20,6 +20,9 @@
 
 ## **Recommended Steps**
 
+### **Compatibility with customer-managed keys**
+Provisioning database-level throughput is currently not possible in accounts where [customer-managed keys](https://docs.microsoft.com/azure/cosmos-db/how-to-setup-cmk) are enabled. When using such accounts, resort to dedicated throughput in the meantime.
+
 ### **Migration from Dedicated throughput collection to Shared throughput**  
 We do not have out of the box support for migration of the dedicated throughput collection to shared throughput and vice-versa. To switch from dedicated throughput mode to shared throughput mode (and vice versa) after the container is created, you have to create a new container and migrate the data to the new container. You can migrate the data by using the ADF or tools based on change feed processor library.  
 1. Create the new container under the shared throughput from the portal 
