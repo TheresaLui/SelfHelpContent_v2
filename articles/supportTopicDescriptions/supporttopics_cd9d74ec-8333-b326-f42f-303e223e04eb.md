@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c9f5a7db-ad40-8565-8248-7b13d1d81fdd",
+      "longDescription": "",
+      "shortDescription": "Issues related to the configuration or use of Boards",
+      "searchTags": "Configure;Boards",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f79141ad-56c8-7e2a-32c3-51ee5cc81d1d",
       "longDescription": "",
       "shortDescription": "Performance, configuration or customization of Backlogs, Boards, Charts, Work Items, Work Item Queries, Work Item Search and Work Item permissions",
