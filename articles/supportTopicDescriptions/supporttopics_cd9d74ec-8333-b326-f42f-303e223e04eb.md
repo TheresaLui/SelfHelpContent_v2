@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "415c6d77-e63d-e0cc-36a4-69d0aeb64ef4",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to using Analytics and social tools.",
+      "searchTags": "Dashboards;Reports;Configure;Wiki",
+      "category": "Reporting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "464b650c-5f48-aa7b-30e9-fac7368ca8af",
       "longDescription": "",
       "shortDescription": "Issues that are related to configuring extensions in an organization.",
