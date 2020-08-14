@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "957a6104-8e49-f606-54f0-748a056813e4",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to using Team Explorer Everywhere with Azure DevOps Services.",
+      "searchTags": "TEE;Team Explorer Everywhere;Connect;DevOps",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "988ac8a6-feff-0d1a-df36-df6bfc7ab245",
       "longDescription": "",
       "shortDescription": "Issues related to configuring or using Backlogs",
