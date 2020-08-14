@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2d17b59f-54da-20cb-f1f6-23c308f82c72",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to clients that connect to Azure DevOps Services.",
+      "searchTags": "Office;Excel;Visual Studio;TEE",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "40e0403d-2cb7-1560-66fc-904ed4611074",
       "longDescription": "",
       "shortDescription": "Issues that are related to using the Visual Studio integrated development environment with Azure DevOps Services.",
