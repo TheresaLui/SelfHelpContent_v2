@@ -30,11 +30,25 @@
             		"order": 1,
             		"controlType": "datetimepicker",
             		"displayLabel": "When did the problem start?",
-            		"required": true
+            		"required": false
         },
 		{
-			"id": "problem_description",
+			"id": "problem_runid",
 			"order": 2,
+			"controlType": "textbox",
+			"displayLabel": "What is the related RunId?",
+			"required": false
+	},
+		{
+			"id": "problem_datasetid",
+			"order": 3,
+			"controlType": "textbox",
+			"displayLabel": "What is the related DatasetId?",
+			"required": false
+	},
+		{
+			"id": "problem_description",
+			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Version",
 			"watermarkText": "Version details",
@@ -43,7 +57,7 @@
 			"hints": [{
 					"text": "Version details"
 				}, {
-					"text": "What version of azureml SDK are you using? What version azureml-dataprep SDK is installed?"
+					"text": "What version of azureml SDK are you using? What version of azureml-dataprep SDK is installed?"
 				}
 			]
 		}

@@ -17,17 +17,17 @@
 
 # Database X on server Y is not currently available
 
+Error 40613 is a nonspecific, [transient error](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745430) returned by Azure any time your database is unavailable. The common types of unavailability are caused by:
+
+ - **User-initiated actions**: certain operations that change the database configuration may briefly make the database unavailable. Some of the most common are [scaling the database](https://docs.microsoft.com/azure/azure-sql/database/single-database-scale?WT.mc_id=pid:13491:sid:32745425#impact) or [elastic pool](https://docs.microsoft.com/azure/azure-sql/database/elastic-pool-scale?WT.mc_id=pid:13491:sid:32745430#impact-of-changing-service-tier-or-rescaling-compute-size).
+ - **Planned maintenance**: the service periodically performs [planned maintenance](https://docs.microsoft.com/azure/azure-sql/database/planned-maintenance?WT.mc_id=pid:13491:sid:32745430) to deploy software upgrades and other system enhancements. This usually occurs less than twice a month.
+ - **Unplanned failover**: unexpected events such as a software crash, hardware failure, etc.
+
+During the period the service is reconfiguring your primary database replica, attempts to connect to the database will fail with error 40613. Within a few minutes (needed to process the health signal), [Resource Health](https://docs.microsoft.com/azure/azure-sql/database/resource-health-to-troubleshoot-connectivity?WT.mc_id=pid:13491:sid:32745430) should reflect that the database is unavailable. As additional telemetry becomes available, analysis is performed to determine the detailed cause of unavailability. Resource Health is updated with the detailed unavailability reason (when available) in about 30 minutes.
+
 ## **Recommended Steps**
 
-### Error 40613: Database X on server Y is not currently available
-* You will receive error 40613 when the connection to the SQL Database fails due to:
-
- - **Reconfiguration** - Reconfigurations can be caused by planned events (Ex. Software upgrades) or unplanned events (Ex. Process crash or load balancing). Most reconfiguration events are generally short lived, however these events can occasionally take longer to finish (Ex. Long-running transactions can cause long-running recovery).
- - **DAC Connections** - DAC (Dedicated Admin Connection) limits maximum number of admin connections to the database to only one. In this scenario, you will receive an error:
- 
-```
-   "17810, Severity: 20, State: 2. \<Timeframe\> Could not connect because the maximum number of '%1' dedicated administrator connections already exists. Before a new connection can be made, the existing dedicated administrator connection must be dropped, either by logging off or ending the process.".
-```
-Dedicated Admin connection for administrators are solely for diagnosing under rare circumstances and with limitations. To guarantee that there are resources available for the connection, only one DAC is allowed at a time. If you experience the above error, please ensure to disconnect the existing DAC connection prior to attempting a new DAC connection. For more information, please visit [Diagnostic Connection for Database Administrators](https://docs.microsoft.com/sql/database-engine/configure-windows/diagnostic-connection-for-database-administrators?WT.mc_id=pid:13491:sid:32745425).
-* For additional information, please refer to [Transient errors](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database?WT.mc_id=pid:13491:sid:32745425/#transient-fault-error-messages-40197-40613-and-others)
-
+1. You should expect occasional, brief windows (e.g., less than 60 seconds) where you see error 40613. Make sure that all production applications have robust [retry logic](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745430#retry-logic-for-transient-errors) to handle this.
+1. Check Resource Health to see whether there is a detailed unavailability reason, and whether it is being caused by a user-initiated action. If so, schedule these operations during a time that reduces impact. 
+1. Subscribe to Planned maintenance notifications in [Azure Service Health](https://docs.microsoft.com/azure/service-health/service-health-overview?WT.mc_id=pid:13491:sid:32745430), so you know when planned maintenance activities will occur and can set expectations with your users
+1. Contact Azure Support if you need assistance with unplanned failovers or periods of extended database unavailability from other causes
