@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "095c9737-487c-bee1-0ff5-e821a11bf110",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to work item permissions and security.",
+      "searchTags": "Work item permissions;Security;Setting",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0f067376-3811-6eb4-6143-2b4e5eabb6d7",
       "longDescription": "",
       "shortDescription": "Issues when it takes a long time to access to work items, or the process hangs.",
