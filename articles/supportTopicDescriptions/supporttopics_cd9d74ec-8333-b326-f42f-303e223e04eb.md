@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "0f067376-3811-6eb4-6143-2b4e5eabb6d7",
+      "longDescription": "",
+      "shortDescription": "Issues when it takes a long time to access to work items, or the process hangs.",
+      "searchTags": "Performance;Work item;Slow",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1102235f-35fc-bcb1-1f3b-11801a6f146f",
       "longDescription": "",
       "shortDescription": "Issues that are related to Nuget, package restoration or consumption, including permissions",
