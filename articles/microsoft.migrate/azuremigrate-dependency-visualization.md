@@ -29,9 +29,9 @@ Refer to the supported OS documentation [here](https://go.microsoft.com/fwlink/?
 
 ### **Is there a charge for using dependency visualization?**
 
-• The [Service Map solution](https://go.microsoft.com/fwlink/?linkid=2104198) will not incur any charges for the first 180 days from the day of associating the [Log Analytics](https://go.microsoft.com/fwlink/?linkid=2104198) workspace with Server Assessment. After 180 days, standard Log Analytics charges will apply.
+The [Service Map solution](https://go.microsoft.com/fwlink/?linkid=2104198) will not incur any charges for the first 180 days from the day of associating the [Log Analytics](https://go.microsoft.com/fwlink/?linkid=2104198) workspace with Server Assessment. After 180 days, standard Log Analytics charges will apply.
 
-• The use of any solution other than Service Map within the linked OMS workspace will incur standard [Log Analytics](https://go.microsoft.com/fwlink/?linkid=2104391) charges
+The use of any solution other than Service Map within the linked OMS workspace will incur standard [Log Analytics](https://go.microsoft.com/fwlink/?linkid=2104391) charges
 
 
 ## Workspace association and agent installation

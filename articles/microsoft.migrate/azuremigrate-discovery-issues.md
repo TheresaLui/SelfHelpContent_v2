@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-### **I don't see the discovered VMs on Azure portal. Server Assessment and Server Migration tiles show a status of "Discovery in progress"**
+### **I don't see the discovered VMs on Azure portal. Server Assessment and Server Migration tiles show a status of "Discovery in progress."**
 
 After starting discovery from the appliance, allow some time for the discovered machines to show up on the Azure portal. It takes around 15 minutes for a VMware discovery, and around 2 minutes per added Hyper-V host or physical server. If you continue to see "Discovery in progress" even after this time, try the following: 
 
