@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5c4a230c-1440-b821-96e6-12ddfbd9875d",
+      "longDescription": "",
+      "shortDescription": "Issues that are specific to adding or inviting users to your Azure DevOps Services account.",
+      "searchTags": "Admin;Invite;Inviting;User",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5cbf3008-560f-8e3c-56ef-3fc584fa5231",
       "longDescription": "",
       "shortDescription": "Set up or configuration of an Artifact feed",
