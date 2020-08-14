@@ -25,11 +25,9 @@
 
 ### **Troubleshooting**
 
-* HTTP 401: Unauthenticated Request - [Troublehooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-401-unauthenticated-request)
-
-* HTTP 403: Insufficient Permissions - [Troublehooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-403-insufficient-permissions)
-
-* HTTP 429: Too Many Requests - [Troublehooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-429-too-many-requests)
+* HTTP 401: Unauthenticated Request - [Troubleshooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-401-unauthenticated-request)
+* HTTP 403: Insufficient Permissions - [Troubleshooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-403-insufficient-permissions)
+* HTTP 429: Too Many Requests - [Troubleshooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-429-too-many-requests)
 
 ## **Recommended Documents**
 
