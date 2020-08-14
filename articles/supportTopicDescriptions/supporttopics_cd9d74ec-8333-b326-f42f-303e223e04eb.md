@@ -229,6 +229,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9d1b4757-5994-fe5d-5770-71af39265a44",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to programming Azure DevOps Services by using REST.",
+      "searchTags": "REST;API;Pipeline",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a4df0ec0-9274-7858-4872-e4aac70aefc8",
       "longDescription": "",
       "shortDescription": "Issues that are related to programming and extending Azure DevOps Services.",
