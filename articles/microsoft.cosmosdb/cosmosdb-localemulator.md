@@ -36,7 +36,7 @@ When using the .NET SDK, this means the application environment does not have th
 
 When running in a NET Standard 2.1+ compatible framework:
 
-```csharp
+```
 CosmosClientOptions cosmosClientOptions = new CosmosClientOptions()
 {
     HttpClientFactory = () =>
@@ -56,7 +56,7 @@ CosmosClient client = new CosmosClient("<emulator-endpoint>", "<emulator-key>", 
 
 When running in a NET Standard 2.0 compatible framework:
 
-```csharp
+```
 CosmosClientOptions cosmosClientOptions = new CosmosClientOptions()
 {
     HttpClientFactory = () =>
