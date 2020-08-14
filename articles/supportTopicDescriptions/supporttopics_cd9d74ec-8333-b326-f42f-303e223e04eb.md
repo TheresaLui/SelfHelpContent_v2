@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "52d52b7c-9db9-8d6d-246a-41558f78213d",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to Azure DevOps Services service hooks.",
+      "searchTags": "Service hook;Pipeline",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5914526c-22b3-ffec-8ce6-ce10c60792de",
       "longDescription": "",
       "shortDescription": "Issues that are related to setting up or removing billing in Azure DevOps Services",
