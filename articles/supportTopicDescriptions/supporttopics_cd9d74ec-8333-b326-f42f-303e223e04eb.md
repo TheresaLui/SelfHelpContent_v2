@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0939cdca-bd30-c89a-1f04-a1c3ee6fd0dd",
+      "longDescription": "",
+      "shortDescription": "Problems or questions related to creating, configuring or receiving SOAP subscription notifications.",
+      "searchTags": "Soap Notification;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "095c9737-487c-bee1-0ff5-e821a11bf110",
       "longDescription": "",
       "shortDescription": "Issues that are related to work item permissions and security.",
