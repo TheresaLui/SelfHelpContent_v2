@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "52be6b5f-08c7-167e-80b3-a23c990def7b",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to designating or changing the Owner of an Azure DevOps organization.",
+      "searchTags": "Change Owner;DevOps;Configure;Org",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5cbf3008-560f-8e3c-56ef-3fc584fa5231",
       "longDescription": "",
       "shortDescription": "Set up or configuration of an Artifact feed",
