@@ -157,6 +157,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "741c3cd4-373b-eb08-fe78-fbdd4cf76cbc",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to migrating from TFS to Azure DevOps Services.",
+      "searchTags": "Migration;DevOps;Import;TFS",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "957a6104-8e49-f606-54f0-748a056813e4",
       "longDescription": "",
       "shortDescription": "Issues that are related to using Team Explorer Everywhere with Azure DevOps Services.",
