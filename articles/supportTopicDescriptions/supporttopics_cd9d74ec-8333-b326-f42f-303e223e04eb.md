@@ -221,6 +221,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c0d68c25-3f64-492e-711b-c1c8ceafd959",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to using or configuring widgets",
+      "searchTags": "Reports;Dashboard;Configure;Widget",
+      "category": "Reporting",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c9f5a7db-ad40-8565-8248-7b13d1d81fdd",
       "longDescription": "",
       "shortDescription": "Issues related to the configuration or use of Boards",
