@@ -189,6 +189,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a7a2bf08-5c86-3379-79b8-e97d6459d3d1",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to signing up for an Azure DevOps organization.",
+      "searchTags": "Configuring;Sign up;DevOps;Org",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "af497a7c-19f8-832d-1dc9-0451607ab645",
       "longDescription": "",
       "shortDescription": "Issues that are related to data backup and recovery.",
