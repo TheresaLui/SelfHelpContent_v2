@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6b57123d-d111-12d0-4834-dc90fc3c43a0",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to light-weight charting.",
+      "searchTags": "Create chart;Customize chart;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6b67fc5d-0efd-c5f6-d7fa-212b17b88873",
       "longDescription": "",
       "shortDescription": "Issues related to configuring or using Package Management",
