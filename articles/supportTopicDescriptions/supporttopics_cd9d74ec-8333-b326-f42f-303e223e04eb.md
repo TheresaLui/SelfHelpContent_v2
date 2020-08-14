@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "21841a77-7f47-4bf4-f840-d0d67a45d454",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring Azure DevOps Services (changing region, changing ownership, integrating with Azure Active Directory, data migration, etc.).",
+      "searchTags": "Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2b6c179e-2e9a-9fe1-c5e6-0cb7c3c2feea",
       "longDescription": "",
       "shortDescription": "Issues that are related to publishing and accessing symbols",
