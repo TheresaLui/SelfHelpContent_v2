@@ -19,7 +19,7 @@
 
 # The Virtual machine was rebooted due to Windows Update actions
 <!--issueDescription-->
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> rebooted due to Windows Updates being applied.
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> rebooted due to Windows Updates being applied. To learn more about this reboot review your System Event log located at "%SystemRoot%\System32\Winevt\Logs\System.evtx" and look for Event ID 1074.
 <!--/issueDescription-->
 
 ## **Recommended Documents**
