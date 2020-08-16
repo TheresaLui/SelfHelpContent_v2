@@ -116,7 +116,7 @@
             "required": true
         },
         {
-            "id": "clusterDeploymentID",
+            "id": "clusterID",
             "order": 300,
             "controlType": "dropdown",
             "displayLabel": "If the cluster is still running, please select the cluster ID from the dropdown list to help isolate the issue",
