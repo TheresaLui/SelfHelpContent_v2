@@ -51,6 +51,6 @@
     spark.ui.retainedTasks 10000
  ```
  
-	
+* [Configure custom DNS](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network#--option-configure-custom-dns) for VNet injected workspace.
 
 
