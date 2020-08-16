@@ -18,6 +18,6 @@
 
 ## **Recommended Documents**
 
-* [Scaling Geo Database](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication#upgrading-or-downgrading-primary-database?WT.mc_id=pid:13491:sid:32731233/)<br>
+* [Scaling Geo Database](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication?WT.mc_id=pid:13491:sid:32731233/#upgrading-or-downgrading-primary-database)<br>
 
-* [Configuring geo Secondary](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication#configuring-secondary-database?WT.mc_id=pid:13491:sid:32731233/)<br>
+* [Configuring geo Secondary](https://docs.microsoft.com/azure/sql-database/sql-database-active-geo-replication?WT.mc_id=pid:13491:sid:32731233/#configuring-secondary-database)<br>
