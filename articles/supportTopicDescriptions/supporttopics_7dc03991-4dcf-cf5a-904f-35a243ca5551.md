@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "872d8fa8-b990-e83f-3f34-b32418e4ea74",
+      "longDescription": "",
+      "shortDescription": "Configuration of governance actions within policies",
+      "searchTags": "Governance  ;actions;policies",
+      "category": "Policy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b9f5f69-8c34-3a8f-2353-ae09020daeec",
       "longDescription": "",
       "shortDescription": "Access and session policies configuration",
