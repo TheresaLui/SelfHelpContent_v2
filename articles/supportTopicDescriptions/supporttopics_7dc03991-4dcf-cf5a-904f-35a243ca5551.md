@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a81c02b3-9294-0a2a-d4dd-0d75103f5577",
+      "longDescription": "",
+      "shortDescription": "Limit actions through a web browser, including upload, download, copy, cut, paste, print, or custom activities",
+      "searchTags": "Browse;app;protected;actions;download",
+      "category": "Apps",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b4a094be-0ffc-3a1e-9655-c2d6c43812f2",
       "longDescription": "",
       "shortDescription": "Security configuration recommendations for Azure Security Center, AWS Security Hub, and GCP Security Command Center",
