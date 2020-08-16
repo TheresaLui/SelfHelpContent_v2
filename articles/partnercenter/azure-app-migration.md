@@ -10,11 +10,11 @@
 	articleId="marketplace_azure_app_migration_issues"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689409"
+	supportTopicIds="32728015"
 	resourceTags="marketplace"
-	productPesIds="15960"
+	productPesIds="17006"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # Azure applications - migration

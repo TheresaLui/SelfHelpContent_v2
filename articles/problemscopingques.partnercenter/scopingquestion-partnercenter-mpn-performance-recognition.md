@@ -4,13 +4,13 @@
 	authors="A-COFLOR"
         ms.author="A-COFLOR"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635697, 32725867"
-	productPesIds="15960, 17007"
+	supportTopicIds="32725867"
+	productPesIds="17007"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_mpn_performance_rec"
 	clientIds="partnercenter"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_MPN_Benefits_and_Competencies"
 />
 # Partner Center MPN Performance Recognition issues
 ---

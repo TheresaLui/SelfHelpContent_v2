@@ -11,8 +11,8 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public,fairfax, usnat, ussec"
-	articleId="8745748b-81a4-4dd5-a5ac-8ea77cb2a6cd-openvpn"
-        ownershipId="Centennial_CloudNet_AzureVPNGateway"
+	articleId="a1f3ff58-d0fe-40f1-a277-7e6cefbd82f8"
+  ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
 
 # Solution for OpenVPN does not support this scenario

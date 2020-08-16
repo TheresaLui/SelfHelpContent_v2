@@ -22,6 +22,30 @@
 
 ## **Recommended Steps**
 
+**Plan submission deadlines**
+
+You must create and submit your plan by the last day of the program year. If necessary, you can edit and resubmit the plan for an additional 90 days after that, but the plan must be created and initially submitted during the program year.
 
 
+**Plan Status**
 
+View the status of your plan:
+
+1. Sign into the [Partner Center dashboard](http://partner.microsoft.com/dashboard).
+2. On your **Incentives** page, select **Plan Management**, and then select the program you want. The status page will open. 
+3. In the **Plans** section, the status of each plan is listed in the **Status** column.
+
+The following are the various possible statuses for your plan:
+* Submitted
+* Under review
+* Action required
+* Editing 
+* Approved
+* Rejected
+
+## **Recommended Documents**
+
+ * [Create your plan](https://docs.microsoft.com/partner-center/incentives-create-your-plan)
+ 
+ * [Prepare your proof of execution](https://docs.microsoft.com/partner-center/incentives-prepare-your-proof-of-execution)
+ 

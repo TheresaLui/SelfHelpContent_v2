@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Contact Digicert for domain validation status"
 	description="Contact Digicert for domain validation status"
-	service="Microsoft.Network/"
+	service="Microsoft.Network"
 	resource="Microsoft.Network/frontDoors"
 	authors="JRMayberry"
 	ms.author="rimayber"
