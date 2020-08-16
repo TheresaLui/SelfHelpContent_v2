@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "46ab80c1-1c18-4aa0-0e13-106681af73af",
+      "longDescription": "",
+      "shortDescription": "Investigate oAuth or Catalog apps reported by CAS Alerts",
+      "searchTags": "apps;Investigating;OAuth",
+      "category": "Apps",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "60d60a8f-ceef-d145-900a-f6119864518b",
       "longDescription": "",
       "shortDescription": "Investigating alerts, activities, files, users and accounts, and governance actions",
