@@ -119,7 +119,7 @@
             "id": "clusterID",
             "order": 300,
             "controlType": "dropdown",
-            "displayLabel": "If the cluster is still running, please select the cluster ID from the dropdown list to help isolate the issue",
+            "displayLabel": "Please select the cluster ID for the running cluster",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/Microsoft.HDInsight/clusters/{resourcename}?api-version=2018-06-01-preview",
                 "jTokenPath": "value",
