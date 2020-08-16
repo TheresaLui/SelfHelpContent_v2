@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15922"
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
-	articleId="appgw-waf-ip-reputation"
+	articleId="appgw-waf-per-site-policy"
 	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
