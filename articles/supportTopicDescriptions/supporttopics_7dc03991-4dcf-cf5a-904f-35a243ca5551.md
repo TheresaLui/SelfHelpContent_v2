@@ -229,6 +229,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f397719e-5382-360f-8fd6-aeee0b1a5b19",
+      "longDescription": "",
+      "shortDescription": "Experiencing latency when performing specific actions or logging in, via Conditional Access App Control",
+      "searchTags": "latency;Performance;Investigate",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f45b4e54-396a-03c5-c952-5a34c1b9078f",
       "longDescription": "",
       "shortDescription": "How to integrate with Azure Sentinel including data sync in alerts or discovery data",
