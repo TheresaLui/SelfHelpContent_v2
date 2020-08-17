@@ -19,6 +19,4 @@
 
 ## **Recommended Steps**
 
-Verify the regional quota limit for the capacity pool 
-
-- [Resource limits for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-resource-limits)
+Verify the regional quota limit for the capacity pool
