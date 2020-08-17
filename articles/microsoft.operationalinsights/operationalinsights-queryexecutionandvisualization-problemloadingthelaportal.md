@@ -22,19 +22,16 @@ ownershipId="AzureMonitoring_LogAnalytics"
 
 If you are experiencing issues with the Log Analytics portal, please try the following before opening a support ticket:
 
-1. Check the status of the Azure portal:</br>
-    In some cases, general issues with the Azure Portal are impacting Log Analytics.
-    You can check the Azure portal status using [this link](https://status.azure.com/status).</br>
-1. 	Check the status of the Log Analytics service: </br>
-    In some cases issues in the Log Analytics portal and service impact portal usage.
-    You can check Azure monitor service status using [this link](https://techcommunity.microsoft.com/t5/azure-monitor-status/bg-p/AzureMonitorStatusBlog).
-1. Check if your network configuration is preventing the Log Analytics portal from loading correctly. </br>
-    Review the [following document](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#log-analytics-portal) to better understand Log Analytics network requirements and possible issues.
+1. Check the status of the Azure portal: In some cases, general issues with the Azure Portal are impacting Log Analytics. You can check the Azure portal status using [this link](https://status.azure.com/status).
+1. 	Check the status of the Log Analytics service: In some cases issues in the Log Analytics portal and service impact portal usage. You can check Azure monitor service status using [this link](https://techcommunity.microsoft.com/t5/azure-monitor-status/bg-p/AzureMonitorStatusBlog).
+1. Check if your network configuration is preventing the Log Analytics portal from loading correctly. Review the [following document](https://docs.microsoft.com/azure/azure-monitor/app/ip-addresses#log-analytics-portal) to better understand Log Analytics network requirements and possible issues.
 1. Try the following browser operations:
-    1. Clear browser cache.
-    1. Try using Private browsing.
-    1. Try a different web browser.
-1. Try using another network or a different proxi server if possible.
+    
+    1. Clear browser cache
+    1. Try using Private browsing
+    1. Try a different web browser
+    
+1. Try using another network or a different proxi server if possible
 
 ## **Recommended Documents** 
 
