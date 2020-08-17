@@ -18,8 +18,8 @@
     "resourceRequired": true,
     "title": "Unable to convert an Auto QoS Capacity Pool to Manual",
     "fileAttachmentHint": "",
-    "formElements":[        
-        {
+    "formElements":[
+		{
             "id": "problem_start_time",
             "order": 100,
             "controlType": "datetimepicker",
@@ -40,7 +40,7 @@
             "controlType": "dropdown",
             "displayLabel": "Service Level",
             "watermarkText": "Service Level of the pool",
-            "dropdownOptions": [
+            "dropdownOptions":[
                 {
                     "value": "Standard",
                     "text": "Standard"
@@ -52,10 +52,14 @@
                 {
                     "value": "Ultra",
                     "text": "Ultra"
-                }
+                },
+				{
+				    "value":"dont_know_answer",
+					"text":"Dont Know"
+				}
 			],
 			"required": true
-		},			
+			},			
         {
             "id": "problem_description",
             "order": 1000,

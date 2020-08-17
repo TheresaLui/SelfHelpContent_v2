@@ -18,8 +18,8 @@
     "resourceRequired": true,
     "title": "Unable to set or modify throughput level for my volume",
     "fileAttachmentHint": "",
-    "formElements":[        
-        {
+    "formElements":[
+		{
             "id": "problem_start_time",
             "order": 100,
             "controlType": "datetimepicker",
@@ -40,6 +40,10 @@
                 {
                     "value": "Edit Volume",
                     "text": "Edit Volume"
+                },
+				{
+                    "value": "dont_know_answer",
+                    "text": "Don't Know"
                 }
 			],
             "required": true
@@ -60,7 +64,7 @@
                     "text": "All Volumes"
                 },
                 {
-                    "value": "Don't Know",
+                    "value": "dont_know_answer",
                     "text": "Don't Know"
                 }
 			],
@@ -80,9 +84,13 @@
                 {
                     "value": "No",
                     "text": "No"
+                },
+				{
+                    "value": "dont_know_answer",
+                    "text": "Don't Know"
                 }
 			],
-            "required": true
+            "required": false
         },
 		{
             "id": "problem_description",

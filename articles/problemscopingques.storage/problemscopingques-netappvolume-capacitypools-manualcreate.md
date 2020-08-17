@@ -18,8 +18,8 @@
     "resourceRequired": true,
     "title": "Unable to create a Manual Capacity pool",
     "fileAttachmentHint": "",
-    "formElements":[        
-        {
+    "formElements":[
+		{
             "id": "problem_start_time",
             "order": 100,
             "controlType": "datetimepicker",
@@ -40,7 +40,7 @@
             "controlType": "textbox",
             "displayLabel": "Number of Pools in the account",
             "watermarkText": "Number of pools in the NetApp account",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
