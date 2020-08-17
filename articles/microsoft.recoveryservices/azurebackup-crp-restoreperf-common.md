@@ -12,7 +12,7 @@
 	productPesIds="15571,15797,16470,16454,14749"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="f8e41db8-7983-4264-bc44-ddb1fbe636ff"
-	ownershipId="Compute_VirtualMachines"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Azure Backup - Restore is taking longer than expected

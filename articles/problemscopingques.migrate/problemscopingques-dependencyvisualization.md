@@ -22,12 +22,12 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "assessment_name",
+            "id": "machine_name",
             "order": 1,
             "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "Provide the name of the assessment in which you are facing issue.",
-            "watermarkText": "E.g. MyContosoAssessment",
+            "displayLabel": "Provide the name of the machine on which you are facing issue.",
+            "watermarkText": "E.g. MyMachine01",
             "required": false
         },
         {

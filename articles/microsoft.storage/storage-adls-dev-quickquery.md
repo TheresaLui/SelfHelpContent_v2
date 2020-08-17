@@ -21,7 +21,8 @@
 
 ## **Recommended Documents**
 
+Most customers resolve their Query Acceleration related issues with Azure Data Lake Gen2 Storage on their own, using the links below.
 
-* [Quickstart for ADLS Gen2 Quick Query](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)<br>
-* [.NET and ADLS Gen2 Quick Query](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)<br>
+* [Overview for Query Acceleration](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-query-acceleration)<br>
+* [.NET and Java Quickstart for Query Acceleration](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-query-acceleration-how-to?tabs=dotnet)<br>
 

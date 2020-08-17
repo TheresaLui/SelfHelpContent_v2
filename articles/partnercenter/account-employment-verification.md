@@ -21,10 +21,8 @@
 # Partner Center account employment verification
 
 ## **Recommended Steps**
-- Employment verification confirms the primary contact is an employee of the enrolling company by virtue of having an active email address on an email domain owned by the company
-- If verification is delayed or pending by more than 3 days after enrollment, you can create a support ticket by clicking on Next step section
-- If your employment verification is rejected, verify that you have provided the correct Company and email information in your profile. If the information is incorrect, your company Global Admin can visit the profile page and update the information which will re-initiate the verification process.
-- If the information is correct and still the verification is rejected, you need to upload verification documents be clicking this link:
+- If your business verification is rejected, verify that you have provided the correct Company information in your profile. If the information is incorrect, your company Global Admin can visit the profile page and update the information which will re-initiate the verification process.
+- If the information is correct and still the verification is rejected, you need to upload verification documents by clicking this link:
 [Upload verification documents](https://partner.microsoft.com/dashboard/support/servicerequests/create?stage=3&topicid=21655de7-7dbb-4927-33a2-f60f45feadf3)
  
 ## **Recommended Documents**

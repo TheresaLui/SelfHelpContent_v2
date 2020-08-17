@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="ad488f61-5ada-4c72-8296-56ea29955552_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="StorageMediaEdge_XStore"
 />
 # Migrate your data from Standard Storage account to Premium Storage account

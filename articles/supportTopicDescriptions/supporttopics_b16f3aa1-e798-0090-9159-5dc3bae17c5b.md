@@ -2,12 +2,12 @@
   pagetitle="SupportTopicDescriptions for b16f3aa1-e798-0090-9159-5dc3bae17c5b"
   description="SupportTopicDescriptions for b16f3aa1-e798-0090-9159-5dc3bae17c5b"
   authors="elixirsys2"
-  ms.author="v-vigra"
+  ms.author="v-vigra, marwa"
   selfhelptype="SupportTopicDescription"
   productpesids="b16f3aa1-e798-0090-9159-5dc3bae17c5b"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_b16f3aa1-e798-0090-9159-5dc3bae17c5b"
-  ownershipid="" />
+  ownershipid="AzureIdentity_B2C" />
 # Support Topic Descriptions for b16f3aa1-e798-0090-9159-5dc3bae17c5b
 ---
 {

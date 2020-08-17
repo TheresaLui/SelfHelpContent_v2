@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32630438"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax, usnat, ussec"
+	cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
 	articleId="ec03f2ee-fbd5-4879-9f4f-73b76f7f22d4"
 	ownershipId="AzureData_AzureSQLDB_Availability"
 />
@@ -20,7 +20,7 @@ Resource Health determines the health of your SQL resource by examining the succ
 
 ## **Recommended Steps**
 
-* Implementing [retry logic](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues#retry-logic-for-transient-errors?WT.mc_id=pid:13491:sid:32630438/) in your client application helps mitigate these situations and should generally make the errors transparent to the end user
+* Implementing [retry logic](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues?WT.mc_id=pid:13491:sid:32630438/#retry-logic-for-transient-errors) in your client application helps mitigate these situations and should generally make the errors transparent to the end user
 * Check Resource Health blade in the Azure Portal for status updates. When available, downtime reasons for health events are reported in the Health History section of Resource Health. Downtime reasons are typically published 30 minutes after an event.<br>
 * If you continue to experience login failures on your SQL Database, please contact support
 

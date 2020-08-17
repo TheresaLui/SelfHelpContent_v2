@@ -10,10 +10,11 @@ displayOrder=""
 articleId="85756996-b184-46e6-8865-c7e0fa88d64c"
 diagnosticScenario=""
 selfHelpType="Diagnostics"
-supportTopicIds=""
+supportTopicIds="32689882"
 resourceTags=""
-productPesIds=""
-cloudEnvironments="Public, fairfax, usnat, ussec"     ownershipId="Centennial_CloudNet_LoadBalancer"
+productPesIds="1003478"
+cloudEnvironments="public,fairfax,blackforest,mooncake,usnat,ussec"
+ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
 # Net use 1326 error - Computer Accounts not supported Insight

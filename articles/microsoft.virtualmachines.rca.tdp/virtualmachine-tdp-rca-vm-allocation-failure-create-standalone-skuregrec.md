@@ -18,7 +18,7 @@
 />
 # We ran diagnostics on your resource and found an issue
 
-The region this VM is associated with did not have enough capacity at the time to support its allocation.<br>
+The Region this VM is associated with did not have enough capacity for the requested VM size at the time of deployment to support its allocation.<br>
 
 >We are currently experiencing high demand for specific regions across the globe. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
 
@@ -30,7 +30,7 @@ Based on the analysis of deployment failure: **<!--$CorrelationId-->CorrelationI
 
 ## **Recommended Steps**
 
-Please review the regions suggested above that are closest to the requested region that may have the requested size available. In addition, try creating the VM again as the issue might have been temporary and there now could be sufficient resources for the allocation. <br>
+Consider the above alternate VM sizes and/or Regions for your deployment. These recommendations are generated based on the current capacity conditions. If you see the originally requested region and size in the recommendations, please try creating the VM again as the issue might have been temporary and there could be sufficient resources for allocation currently.<br>
 
 | To determine sizes by ... | Do the following |
 | --- | --- |

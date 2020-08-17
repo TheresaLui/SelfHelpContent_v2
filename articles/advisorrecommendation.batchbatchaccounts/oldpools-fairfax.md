@@ -17,7 +17,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "962f2d6d-b2c7-4c48-9e61-2a857051815d",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://azurebatchff.kusto.windows.net').database('azurebatchprod').AzureAdvisor_OldPools",
+    "streamNamespace": "cluster('https://azurebatchff.kusto.usgovcloudapi.net').database('azurebatchprod').AzureAdvisor_OldPools",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
@@ -25,7 +25,7 @@
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Batch/batchAccounts",
   "recommendationFriendlyName": "OldPool",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "xcompute@microsoft.com",
@@ -38,7 +38,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 6.0,
+  "version": 7.0,
   "learnMoreLink": "https://aka.ms/batch_oldpool_learnmore",
   "description": "Recreate your pool to get the latest node agent features and fixes",
   "longDescription": "Your pool has an old node agent. Consider recreating your pool to get the latest node agent updates and bug fixes.",
