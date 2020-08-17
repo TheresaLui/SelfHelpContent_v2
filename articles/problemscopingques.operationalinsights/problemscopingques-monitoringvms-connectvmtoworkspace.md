@@ -6,11 +6,11 @@ articleId="problemscopingques-Connect_VM_to_workspace_or_no_VM_data_in_workspace
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32745397,32745398"
+supportTopicIds="32633004"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
-ownershipId="AzureMonitoring_LogAnalytics"
+    ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Connect VM to workspace or no VM data in workspace
