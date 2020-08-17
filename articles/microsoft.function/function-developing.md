@@ -49,3 +49,4 @@ The [Azure Serverless Community Library](https://serverlesslibrary.net/) has sam
 
 * [Developer Guide](https://docs.microsoft.com/azure/azure-functions/functions-reference)<br>
 * [Code and Test Functions Locally](https://docs.microsoft.com/azure/azure-functions/functions-run-local)<br>
+* [Python in Azure Functions](https://channel9.msdn.com/Shows/Azure-Friday/Azure-Friday-Live-Building-serverless-Python-apps-with-Azure-Functions)
