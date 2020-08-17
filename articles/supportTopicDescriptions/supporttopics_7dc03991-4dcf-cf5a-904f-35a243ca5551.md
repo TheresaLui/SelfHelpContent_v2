@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0c22ca6b-a0bd-ea78-c5ba-21468e51a5c1",
+      "longDescription": "",
+      "shortDescription": "How to configure third-party DLP solutions, including Forcepoint DLP, Symantec Vontu and Generic ICAP",
+      "searchTags": "DLP;Integration;Third Party",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0e3227c7-56cc-4357-3f13-ac83af818c30",
       "longDescription": "",
       "shortDescription": "Scenarios related to importing user groups for connected apps",
@@ -58,6 +66,14 @@
       "shortDescription": "Accessibility issues to the portal",
       "searchTags": "Log in;Access;portal",
       "category": "Log in",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "35d4b1f8-a7dc-23df-bf40-ab17200502d9",
+      "longDescription": "",
+      "shortDescription": "Shadow IT Discovery and controls directly on the endpoint, Block and Warn access scenarios to cloud apps, issues around MDATP integration ",
+      "searchTags": "ATP;Defender;MDATP;Integration",
+      "category": "Integrations",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -101,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6a64af51-1630-1ea0-0fef-b94512c0d28d",
+      "longDescription": "",
+      "shortDescription": "Generic SIEM integration setup using CEF or ArcSight formats. Missing activities and alerts on the SIEM server",
+      "searchTags": "SIEM ;CEF;Integration;External",
+      "category": "SIEM",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "84eb2e50-1369-c8f2-78ad-bf1f808ba7a2",
       "longDescription": "",
       "shortDescription": "Investigate suspicious users and accounts, including issues in UEBA",
@@ -133,11 +157,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "96b184e9-53c3-dc7e-60de-0e2b691498c9",
+      "longDescription": "",
+      "shortDescription": "Ingesting data via programmatic access, export 5000 records and more, automate access, upload discovery logs, generate block script, list activities ",
+      "searchTags": "REST ;API;Script",
+      "category": "REST API",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b4a094be-0ffc-3a1e-9655-c2d6c43812f2",
+      "longDescription": "",
+      "shortDescription": "Security configuration recommendations for Azure Security Center, AWS Security Hub, and GCP Security Command Center",
+      "searchTags": "Security;Center;Configuration",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b84a60f2-9cdf-dd88-f8d7-b3df57529804",
       "longDescription": "",
       "shortDescription": "Creation of custom activity policies for detecting specific conditions",
       "searchTags": "activities;policies;conditions",
       "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c6c19055-d5ee-6872-bd3e-7b226f67e928",
+      "longDescription": "",
+      "shortDescription": "Shadow IT discovery and control, via integrations with Zscaler, iboss and Corrata",
+      "searchTags": "Discovery;IT",
+      "category": "Integrations",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -165,11 +213,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e5d4ed3a-52ac-9a74-7d5c-0cd9b3b43226",
+      "longDescription": "",
+      "shortDescription": "Discovery data anonymization of user and machine names",
+      "searchTags": "Data;anonymization ",
+      "category": "Data Discovery",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f0099430-f0a1-5474-7db2-4d36a218d3ed",
       "longDescription": "",
       "shortDescription": "Portal performance and latency issues",
       "searchTags": "Performance;Latency",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f45b4e54-396a-03c5-c952-5a34c1b9078f",
+      "longDescription": "",
+      "shortDescription": "How to integrate with Azure Sentinel including data sync in alerts or discovery data",
+      "searchTags": "Sentinel ;Integration",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f6e13928-39a2-d2c1-2be9-73f9e3398164",
+      "longDescription": "",
+      "shortDescription": "How to integrate with Azure Information Protection (AIP), Investigate failures in labeling",
+      "searchTags": "AIP;Information;Protection;Integration",
+      "category": "Integrations",
       "useInDiagnoseAndSolve": "true"
     },
     {
