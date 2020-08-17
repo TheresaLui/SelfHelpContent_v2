@@ -694,6 +694,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ae19c6a1-5367-d9ff-c393-da757944ff7e",
+      "longDescription": "",
+      "shortDescription": "Resolve errors or configuration issues related to Instance Metadata Service",
+      "searchTags": "Instance Metadata Service",
+      "category": "Azure Features",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "aeca6c5b-eeda-205d-8e9a-84fbc3787d58",
       "longDescription": "",
       "shortDescription": "Resolve issues with resetting the local admin account password of the virtual machine",
