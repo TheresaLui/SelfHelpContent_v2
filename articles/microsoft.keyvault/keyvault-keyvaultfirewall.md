@@ -21,7 +21,7 @@
 
 **Please note that while some Azure services are part of the trusted services list, they are only trusted for certain supported usage scenarios.** For example Azure App Service is only a trusted service for deploying web app certificates. Operations that are not part of supported usage scenarios will require that you add the resource's ip address or virtual ip address to the key vault firewall manually. Please see the links below for further guidance.
 
-**If you need to allow a service through the key vault firewall, please download the list of Azure IP Ranges and Service Tags.** The link is available below. Please click the download link from the Microsoft Download Center. You will get a json file that will provide IP addresses for specific azure services and regions. Enter the ip address ranges corressponding to your application and region into the key vault firewall allow list. 
+**If you need to allow a service through the key vault firewall, please download the list of Azure IP Ranges and Service Tags.** The link is available below. Please click the download link from the Microsoft Download Center. You will get a json file that will provide IP addresses for specific azure services and regions. Enter the ip address ranges corresponding to your application and region into the key vault firewall allow list. 
 
 ## **Recommended Documents**
 
