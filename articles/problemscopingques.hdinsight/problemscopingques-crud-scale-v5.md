@@ -116,28 +116,28 @@
             "required": true
         },
         {
-            "id": "clusterID",
-            "order": 300,
-            "controlType": "dropdown",
-            "displayLabel": "Please select the cluster ID for the running cluster",
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/Microsoft.HDInsight/clusters/{resourcename}?api-version=2018-06-01-preview",
-                "jTokenPath": "value",
-                "textProperty": "properties.clusterId",
-                "valueProperty": "properties.clusterId",
-                "textPropertyRegex": "[^/]+$",
-                "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Unable to retrieve the cluster ID"
+            "id": "clusterID",
+            "order": 300,
+            "controlType": "dropdown",
+            "displayLabel": "Please select the cluster ID for the running cluster",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/Microsoft.HDInsight/clusters/{resourcename}?api-version=2018-06-01-preview",
+                "jTokenPath": "value",
+                "textProperty": "properties.clusterId",
+                "valueProperty": "properties.clusterId",
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Unable to retrieve the cluster ID"
                 }
             },
-            "DropdownOptions": [
+            "DropdownOptions": [
                 {
-                    "value": "NoClusterId",
-                    "text": "Unable to retrieve the cluster ID"
+                    "value": "NoClusterId",
+                    "text": "Unable to retrieve the cluster ID"
                 }
             ],
-            "required": false
+            "required": false
         },
         {
             "id": "problem_description",
