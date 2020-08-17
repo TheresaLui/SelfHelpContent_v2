@@ -16,10 +16,10 @@
 />
 
 # Force password sync
-
-* Force a full password sync. 
-* This is an invasive resort resolution step which should be tried only when absolutely necessary and all other troubleshooting attempts have failed.
-* Use the steps below to force password sync
+<!--issueDescription-->
+1. Force a full password sync. 
+2. This is an invasive resort resolution step which should be tried only when absolutely necessary and all other troubleshooting attempts have failed.
+3. Use the steps below to force password sync
 
 ~~~powershell
 
@@ -35,3 +35,4 @@ Set-ADSyncAADPasswordSyncConfiguration -SourceConnector $adConnector TargetConne
 Set-ADSyncAADPasswordSyncConfiguration -SourceConnector $adConnector TargetConnector $aadConnector -Enable $true
 
 ~~~
+<!--/issueDescription-->

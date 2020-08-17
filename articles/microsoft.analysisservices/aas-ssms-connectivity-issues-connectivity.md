@@ -25,3 +25,5 @@
 * [Manage Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage)
 
 * [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+
+* [Frequently asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
