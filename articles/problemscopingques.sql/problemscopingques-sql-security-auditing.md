@@ -60,7 +60,7 @@
          "required":true
       },
       {
-         "id":"IssueType_dropdown",
+         "id":"configuration_dropdown",
          "order":3,
          "controlType":"dropdown",
          "displayLabel":"What type of audit configuration for storing logs?",
@@ -91,7 +91,7 @@
          "required":true
       },
        {
-         "id":"IssueType_dropdown",
+         "id":"settings_dropdown",
          "order":4,
          "controlType":"dropdown",
          "displayLabel":"What Method or process used for setting up auditing?",
