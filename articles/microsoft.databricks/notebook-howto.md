@@ -16,7 +16,16 @@
 />
 
 # Notebook-How to
-	
+
+## **Recommended Steps**
+
+* Facing **timeout error** when running [notebook workflows](https://docs.microsoft.com/azure/databricks/notebooks/notebook-workflows) as command is taking long time to execute - resolution would be to increase the notebook workflow timeout set in parent notebook to a suitable number after benchmarking: 
+
+    ```
+    dbutils.notebook.run("LOCATION_OF_CALLEE_NOTEBOOK", timeout)
+    ```
+    Also, it would be good to add additional logging in the code to get an idea on excecution progress. This would make troubleshooting easier since these are non Spark logic and we won't find anything in driver logs.
+    
 ## **Recommended Documents**
 
 * [Problem: Notebook Autosave Fails Due to File Size Limits](https://docs.microsoft.com/azure/databricks/kb/notebooks/notebook-autosave)
