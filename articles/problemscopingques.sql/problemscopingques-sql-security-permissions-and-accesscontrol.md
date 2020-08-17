@@ -69,7 +69,7 @@
             },
             {
                "value":"UserAccount",
-               "text":"User Account issues"
+               "text":"User permissions or Account issues"
             },
             {
                "value":"sqlauth",
@@ -128,7 +128,7 @@
          "id":"granted_permissions",
          "order":30,
          "controlType":"multilinetextbox",
-         "displayLabel":"What are the permissions granted or existing for the user?",
+         "displayLabel":"What are the permissions or access granted for existing user?",
          "infoBalloonText":"You can found the permissions by using SSMS for specific user role",
          "required":false
       },
