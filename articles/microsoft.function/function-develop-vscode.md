@@ -10,7 +10,7 @@
 	supportTopicIds="32742787"
 	resourceTags=""
 	productPesIds="16072"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	ownershipId = "Compute_AppService"
 	articleId="c5374b7f-5d48-4ba9-a4df-e53cd9e557ff"
 />
