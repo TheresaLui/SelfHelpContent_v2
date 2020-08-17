@@ -37,7 +37,7 @@
   "ingestionClientIdentities": [],
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-desktop/safe-url-list",
-  "description": "Access to mandatory URLs missing",
+  "description": "Access to mandatory URLs missing for your Windows Virtual Desktop environment",
   "longDescription": "In order for a session host to deploy and register to WVD properly, you need to add a set of URLs to allowed list in case your virtual machine runs in restricted environment. After visiting \"Learn More\" link, you will be able to see the minimum list of URLs you need to unblock to have a successful deployment and functional session host. For specific URL(s) missing from allowed list, you may also search Application event log for event 3702.",
   "potentialBenefits": "Ensure successful deployment and session host functionality when using Windows Virtual Desktop service",
   "actions": [
