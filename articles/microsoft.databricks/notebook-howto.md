@@ -24,7 +24,7 @@
     ```
     dbutils.notebook.run("LOCATION_OF_CALLEE_NOTEBOOK", timeout)
     ```
-    Also, it would be good to add additional logging in the code to get an idea on excecution progress. This would make troubleshooting easier since these are non Spark logic and we won't find anything in driver logs.
+    Also, it would be good to add additional logging in the code to get an idea on execution progress. This would make troubleshooting easier since these are non Spark logic and we won't find anything in driver logs.
     
 ## **Recommended Documents**
 
