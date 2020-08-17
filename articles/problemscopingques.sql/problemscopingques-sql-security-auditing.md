@@ -30,7 +30,7 @@
       },
       {
          "id":"IssueType_dropdown",
-         "order":10,
+         "order":2,
          "controlType":"dropdown",
          "displayLabel":"What type of issue are you facing?",
          "watermarkText":"Choose an option",
@@ -61,7 +61,7 @@
       },
       {
          "id":"IssueType_dropdown",
-         "order":10,
+         "order":3,
          "controlType":"dropdown",
          "displayLabel":"What type of audit configuration for storing logs?",
          "watermarkText":"Choose an option",
@@ -92,7 +92,7 @@
       },
        {
          "id":"IssueType_dropdown",
-         "order":10,
+         "order":4,
          "controlType":"dropdown",
          "displayLabel":"What Method or process used for setting up auditing?",
          "watermarkText":"Choose an option",
