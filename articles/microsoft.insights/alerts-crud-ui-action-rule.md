@@ -19,6 +19,7 @@
 If you are trying to create, update, or delete an [action rule](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-action-rules) in the portal, but receiving unexpected errors, follow these steps:
 
 ## **Recommended Steps**
+[![Monitoring Video](https://docs.microsoft.com/en-us/azure/azure-monitor/app/media/troubleshoot/alerts/how-to-create-action-rules.png)](https://www.microsoft.com/en-us/videoplayer/embed/RE4rBZ2)
 
 ### Are you receiving a permission error?
 
