@@ -18,7 +18,7 @@
     "resourceRequired": true,
     "title": "Unable to convert an Auto QoS Capacity Pool to Manual",
     "fileAttachmentHint": "",
-    "formElements": [        
+    "formElements":[        
         {
             "id": "problem_start_time",
             "order": 100,
@@ -53,7 +53,8 @@
                     "value": "Ultra",
                     "text": "Ultra"
                 }
-			]
+			],
+			"required": true
 		},			
         {
             "id": "problem_description",
