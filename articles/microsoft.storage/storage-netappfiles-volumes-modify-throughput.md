@@ -19,4 +19,6 @@
 
 ## Changing throughput level for the Volume
 
+## **Recommended Steps**
+
 Changing throughput level is only allowed when the Capacity pool is set to Manual.

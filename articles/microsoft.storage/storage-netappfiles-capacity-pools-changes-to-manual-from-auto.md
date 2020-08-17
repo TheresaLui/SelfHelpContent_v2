@@ -19,4 +19,6 @@
 
 ## QoS Changes from Manual to Auto for Capacity Pool
 
+## **Recommended Steps**
+
 Changing  Capacity Pool from Auto to Manual is one way operation. Its not supported to change Manual Capacity pool QoS from Manual to Auto.
