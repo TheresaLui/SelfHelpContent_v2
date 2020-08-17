@@ -2,8 +2,8 @@
 	articleId="problemscopingques-netappvolume-flexcapacitypools"
 	pageTitle="Unable to create a Manual Capacity pool"
 	description="Unable to create a Manual Capacity pool"
-	authors="ram-kakani"
-	ms.author="ramakk"
+	authors="b-kiudup"
+	ms.author="b-kiudup"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32743313"
 	productPesIds="16469"
@@ -21,14 +21,14 @@
     "formElements":[
 		{
             "id": "problem_start_time",
-            "order": 100,
+            "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
         },
 		{
             "id": "pool_name",
-            "order": 1,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Pool Name",
             "watermarkText": "Pool name of failed capacity pool",
@@ -36,7 +36,7 @@
         },
 		{
             "id": "pool_count",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Number of Pools in the account",
             "watermarkText": "Number of pools in the NetApp account",
@@ -44,7 +44,7 @@
         },
         {
             "id": "problem_description",
-            "order": 1000,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
