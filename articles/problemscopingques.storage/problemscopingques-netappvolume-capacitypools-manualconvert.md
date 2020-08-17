@@ -59,8 +59,8 @@
 				}
 			],
 			"required": true
-			},			
-        {
+			},
+		{
             "id": "problem_description",
             "order": 1000,
             "controlType": "multilinetextbox",
