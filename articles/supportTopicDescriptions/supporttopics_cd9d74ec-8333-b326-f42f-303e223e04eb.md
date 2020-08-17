@@ -6,19 +6,20 @@
   selfhelptype="SupportTopicDescription"
   productpesids="cd9d74ec-8333-b326-f42f-303e223e04eb"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_cd9d74ec-8333-b326-f42f-303e223e04eb" />
+  articleid="supporttopics_cd9d74ec-8333-b326-f42f-303e223e04eb"
+  ownershipid="Azure_DevOps_Services" />
 # Support Topic Descriptions for cd9d74ec-8333-b326-f42f-303e223e04eb
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
-  "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "shortDescription": "Issues that are related to Azure DevOps Services",
+  "longDescription": "",
+  "productLink1": "https://azure.microsoft.com/services/devops/",
+  "productLinkName1": "Azure DevOps Services",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "07d3041e-a87c-143a-18f5-26f741a96272",
