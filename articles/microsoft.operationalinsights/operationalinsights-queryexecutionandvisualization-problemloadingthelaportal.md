@@ -36,7 +36,7 @@ If you are experiencing issues with the Log Analytics portal, please try the fol
     1. Try a different web browser.
 1. Try using another network or a different proxi server if possible.
 
-## **Recommended Documents**
+## **Recommended Documents** 
 
 * [Getting started with Azure Monitor Log Analyhtics](https://docs.microsoft.comazure/azure-monitor/log-query/get-started-queries)
 * [Log Analytics query language reference](https://docs.microsoft.com/azure/log-analytics/query-language/query-language)
