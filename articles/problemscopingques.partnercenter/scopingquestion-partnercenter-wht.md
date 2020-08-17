@@ -42,7 +42,7 @@
             "controlType": "textbox",
             "displayLabel": "Please provide the tax withholding ID this is about.",
             "watermarkText": "Provide the tax withholding ID, it will look something like: 1048177",
-            "required": false
+            "required": true
               }
     ]
 }

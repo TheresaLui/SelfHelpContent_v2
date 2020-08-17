@@ -16,10 +16,10 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "dd65e838-4473-4fdb-b124-e09798e35f36",
   "dataSourceMetadata": {
-    "schemaVersion": 1.0,
+    "schemaVersion": 2.0,
     "streamNamespace": "AzureStorage.Data.StorageAdvisorEnableLargeFileSharesPublicV1_0",
     "dataSource": "Cosmos",
-    "refreshInterval": "01:00:00"
+    "refreshInterval": "1.00:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
