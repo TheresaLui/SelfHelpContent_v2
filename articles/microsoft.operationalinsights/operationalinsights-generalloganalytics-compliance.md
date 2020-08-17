@@ -19,9 +19,9 @@ ownershipId="AzureMonitoring_LogAnalytics"
 
 
 # Data security, privacy and compliance
-For detailed infromation on how Log Analitics is handling Data security, Data privacy and Data compliance see recomanded documents below. 
+For detailed information on how Log Analytics is handling Data security, Data privacy and Data compliance see information documents below. 
 
-## **Recommended documents**
+## **Recommended Documents** 
 * [Logs data security](https://docs.microsoft.com/azure/azure-monitor/platform/data-security)
 * [Azure Monitor customer-managed key](https://docs.microsoft.com/azure/azure-monitor/platform/customer-managed-keys)
 * [Use Azure Private Link to securely connect networks to Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/private-link-security)
