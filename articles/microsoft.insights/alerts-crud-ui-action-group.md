@@ -22,7 +22,7 @@
 Learn about the [behavior of each action type](https://go.microsoft.com/fwlink/?linkid=827201#action-specific-information) that can be used in an Action group.
 
 ## **Recommended Steps**
-[![Monitoring Video](https://docs.microsoft.com/en-us/azure/azure-monitor/app/media/troubleshoot/alerts/how-to-configure-an-alert-rule.png)](https://www.microsoft.com/en-us/videoplayer/embed/RE4tflw)
+[![Monitoring Video](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/alerts/how-to-configure-an-alert-rule.png)](https://www.microsoft.com/videoplayer/embed/RE4tflw)
 
 ### Email
 
