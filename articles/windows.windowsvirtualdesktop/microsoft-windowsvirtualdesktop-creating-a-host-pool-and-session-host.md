@@ -7,7 +7,7 @@
   supporttopicids="32727879"
   resourcetags=""
   productpesids="16582"
-  cloudenvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
   articleid="1b9984b1-6b6c-4f67-9415-a597c3de8112"
   ownershipid="Windows_Virtual_Desktop" />
 # Windows Virtual Desktop - Creating a host pool or session host
