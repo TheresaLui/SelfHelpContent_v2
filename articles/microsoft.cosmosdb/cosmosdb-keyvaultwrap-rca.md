@@ -9,19 +9,19 @@
     articleId="cosmosdb-keyvaultwrap-rca"
     diagnosticScenario="CosmosDBKeyVaultWrapInsight"
     selfHelpType="rca"
-    supportTopicIds="32636769, 32636770, 32636771, 32741326"
+    supportTopicIds="32636769, 32636770, 32636771, 32741326, 32746031"
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 
-# Issues with your linked key vault
+# Issues with your linked Azure Key Vault
 
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The Cosmos DB account, **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->** is unable to access the Azure Kay Vault instance hosting your encryption key.
+The Cosmos DB account, **<!--$GlobalDatabaseAccountName-->[GlobalDatabaseAccountName]<!--/$GlobalDatabaseAccountName-->** is unable to access the Azure Key Vault instance hosting your encryption key.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
