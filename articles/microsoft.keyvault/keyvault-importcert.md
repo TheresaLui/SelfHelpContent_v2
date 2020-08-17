@@ -18,9 +18,10 @@
 # How to Import Certificate
 ## **Recommended Steps**
 
-* [Import certificate in Key vault](https://docs.microsoft.com/azure/key-vault/certificates/tutorial-import-certificate)
-* [Monitor and manage certificate creation](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-scenarios)
-
+* [Answered questions about issues related to importing certificate in key vault](https://docs.microsoft.com/azure/key-vault/certificates/import-cert-faqs)
+* [How to import certificate in Key vault](https://docs.microsoft.com/azure/key-vault/certificates/tutorial-import-certificate)
+* [How to export certificate from Key vault](https://docs.microsoft.com/azure/key-vault/certificates/how-to-export-certificate)
+* [How to create and merge certificate signing request (CSR)](https://docs.microsoft.com/azure/key-vault/certificates/create-certificate-signing-request)
 
 
 ### **Troubleshooting**
