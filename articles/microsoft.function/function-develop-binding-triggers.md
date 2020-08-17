@@ -12,7 +12,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	ownershipId = "Compute_AppService"
-	articleId="6ad09ad1-99bf-4088-82d9-3eb8fe76cce8"
+	articleId="876146ac-3951-41e5-80de-30e9a5ff0d89"
 />
 
 # Developing Functions/Coding with Bindings or Triggers

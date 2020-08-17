@@ -12,7 +12,7 @@
 	productPesIds="16072"
 	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	ownershipId = "Compute_AppService"
-	articleId="6ad09ad1-99bf-4088-82d9-3eb8fe76cce8"
+	articleId="46e0318b-461b-45ec-821f-f48b63a4ac21"
 />
 
 # Developing Functions/Creating Custom Containers
