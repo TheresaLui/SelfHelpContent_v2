@@ -17,6 +17,8 @@
 
 # Common NetApp Capacity Pool Manual QoS Changes Issues
 
-## **Recommended Documents**
+## **Recommended Steps**
 
-- [Change QOS of Capacity Pool](https://aka.ms/anfdocs-fcp)<br>
+Verify the regional quota limit for the capacity pool 
+
+- [Resource limits for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-resource-limits)

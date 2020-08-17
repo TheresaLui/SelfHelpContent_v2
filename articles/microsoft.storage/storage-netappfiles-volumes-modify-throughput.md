@@ -19,8 +19,4 @@
 
 ## Changing throughput level for the Volume
 
-Changing throughput level is only allowed when the Capacity pool is set to Manual. 
-
-## **Recommended Documents**
-
-- [Changing throughput of the Volume](https://aka.ms/anfdocs-fcp)<br>
+Changing throughput level is only allowed when the Capacity pool is set to Manual.
