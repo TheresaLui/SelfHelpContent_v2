@@ -17,6 +17,8 @@
 
 # Collect AADConnect wizard logs
 
+<!--issueDescription-->
 1. Open Azure AD Connect Wizard from the Desktop icon, click Configure, Troubleshoot, then Launch.
 2. On the PowerShell menu, click ‘3’ to Collect General Diagnostics Report.
 3. If you only want to get Azure AD Connect Wizard trace logs, open the folder %ProgramData%\AADConnect in Windows/File Explorer and create a zip file with all the contents.
+<!--/issueDescription-->
