@@ -30,4 +30,4 @@ Details: <!--$IssueDetails-->[IssueDetails]<!--/$IssueDetails-->
 
 ## **Recommended Documents**
 
-- [Conditional Access Chrome Support](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-conditions#chrome-support)
+- [Conditional Access Chrome Support](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-conditions#chrome-support)
