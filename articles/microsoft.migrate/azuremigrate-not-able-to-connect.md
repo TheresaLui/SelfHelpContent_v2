@@ -30,7 +30,7 @@ If your VM has booted up, but you are unable to connect to your VM, please refer
 * Try logging into the VM using the Serial Console (SAC). You can use this [document](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-windows) (Windows) and [document](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/serial-console-linux) (Linux) to turn on SAC if it’s not enabled.
 * For both Windows and Linux VMs alike, use a public IP to connect to the VM if you are connecting over the internet or a private IP can work if you have a Site to Site VPN connection.
 
-#### **Troubleshooting for Windows**
+### **Troubleshooting for Windows**
 
 * Ensure that your VM has an IP address that can be reached over the Internet. Verify that there are no network security group (NSG) rules that are blocking RDP connections to your Azure VM. Use this [article](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nsg-problem) to troubleshoot.
 * Verify if there are any firewall rules or intrusion prevention software that may be restricting RDP connections (both Azure and your on-premises firewall rules and proxy settings). Ensure that the guest OS firewall is not restricting inbound RDP traffic across firewall profiles. This [document](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/guest-os-firewall-blocking-inbound-traffic) will be helpful here.
@@ -40,7 +40,7 @@ If your VM has booted up, but you are unable to connect to your VM, please refer
 * A static IP should not be configured on the VM NIC. Make sure that the VM is set to use DHCP to obtain an IP address. USe this [guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-static-ip) to troubleshoot.
 Ensure that your VM's NIC is not in a disabled state. Use this as a [guide](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-nic-disabled) to help you.
 
-#### **Troubleshooting for Linux:**
+### **Troubleshooting for Linux**
 
 * Ensure that your VM has an IP address that can be reached over the internet. Check [security rules](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-ssh-connection#check-security-rules) to confirm if there are network security group (NSG) rules that are blocking SSH connections. Please ensure an inbound "Allow" NSG rule exists and is prioritized for SSH port (default 22).
 * A static IP should not be configured on the VM's NIC. Make sure that the VM is set to use DHCP to obtain an IP address. If not, use the command line or edit the appropriate network configuration file for your Linux distro to make this change.
