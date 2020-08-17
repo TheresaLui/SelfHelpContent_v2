@@ -28,10 +28,10 @@
 * [Error: Instances unreachable](https://docs.microsoft.com/azure/databricks/kb/clusters/cluster-failed-launch#instances-unreachable)
 * You can get the public/private IP address of your [driver or executor node(s)](https://docs.microsoft.com/azure/databricks/dev-tools/api/latest/clusters#--sparknode) by running this command in a Databricks notebook:
 
-```
+    ```
     %sh
     curl -H Metadata:true "http://169.254.169.254/metadata/instance/network?api-version=2017-08-01"
-```
+    ```
 
 * [Retrieve the current username for the notebook](https://docs.microsoft.com/azure/databricks/kb/notebooks/get-notebook-username). This is currently supported for:
 
@@ -39,18 +39,29 @@
 	* High Concurrency clusters in Python with Credential Passthrough **disabled**
 	
 * Getting error **Unexpected error while loading Spark UI: Max Response Size Reached**: the issue is due to response limit of 30 MB for Spark UI proxy. This can happen if the jobs page returned by Spark UI is very big which can happen in long running cluster with too many jobs. To resolve the issue, please modify [Spark UI configurations](http://spark.apache.org/docs/latest/configuration.html#spark-ui) as below:
-
-```
+    ```
     spark.ui.retainedJobs 100
     spark.ui.retainedStages 100
     spark.ui.retainedTasks 10000
- ```
- 
-* [Configure custom DNS](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network#--option-configure-custom-dns) for VNet injected workspace.
+    ```
+* In April 2020, Azure Databricks added **a new unique per-workspace URL for each workspace**. This per-workspace URL has the format:
+
+    ```
+    adb-<workspace-id>.<random-number>.azuredatabricks.net
+    ```
+
+	This URL is complementary to the existing regional URLs (<region>.azuredatabricks.net) that you have used up to now to access your workspaces. Both URLs continue to be supported. However, as Azure Databricks adds more infrastructure into existing regions, the regional URLs for new workspaces may vary from those of your existing workspaces. We therefore strongly recommend that you use the new per-workspace URL in scripts or other automation that you want to use with multiple workspaces.
+
+	* [How do I launch my workspace using the per-workspace URL?](https://docs.microsoft.com/azure/databricks/workspace/migrate-workspace-urls#how-do-i-launch-my-workspace-using-the-per-workspace-url)
+	* [Migrate scripts and other automation](https://docs.microsoft.com/azure/databricks/workspace/migrate-workspace-urls#migrate-scripts-and-other-automation)
+	* [Find the regional URL for a workspace](https://docs.microsoft.com/azure/databricks/workspace/migrate-workspace-urls#find-the-regional-url-for-a-workspace)	
+
+* [Configure custom DNS](https://docs.microsoft.com/azure/databricks/administration-guide/cloud-configurations/azure/on-prem-network#--option-configure-custom-dns) for VNet injected workspace
 * Deploying Azure Databricks data plane resources to your own VNet lets you take advantage of flexible CIDR ranges. If your **current workspace cannot accommodate the required number of active cluster nodes**:
 
 	* You cannot replace the VNet for an existing workspace
 	* You cannot change subnet CIDR range for an existing workspace
+
 
 Instead, it is recommended that you create another workspace in a larger VNet. Follow these [detailed migration steps](https://docs.microsoft.com/azure/azure-databricks/howto-regional-disaster-recovery#detailed-migration-steps) to copy resources (notebooks, cluster configurations, jobs) from the old to new workspace.	
 
