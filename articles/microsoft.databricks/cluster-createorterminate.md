@@ -72,8 +72,8 @@ dbutils.fs.put("dbfs:/databricks/init_hikari/<clustername>/hikari.sh","""
 	
 * Deploying Azure Databricks data plane resources to your own VNet lets you take advantage of flexible CIDR ranges. If your **current workspace cannot accommodate the required number of active cluster nodes**:
 
-	* You cannot replace the VNet for an existing workspace.  
-	* You cannot change subnet CIDR range for an existing workspace.
+	* You cannot replace the VNet for an existing workspace
+	* You cannot change subnet CIDR range for an existing workspace
 
 	Instead, it is recommended that you create another workspace in a larger VNet. Follow these [detailed migration steps](https://docs.microsoft.com/azure/azure-databricks/howto-regional-disaster-recovery#detailed-migration-steps) to copy resources (notebooks, cluster configurations, jobs) from the old to new workspace.
 
