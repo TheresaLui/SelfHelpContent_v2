@@ -11,11 +11,11 @@ authors="yossiy"
 ms.author="yossiy"
 displayorder=""
 selfHelpType="generic"
-supportTopicIds="32633004"
+supportTopicIds="32745397,32745398"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
-	ownershipId="AzureMonitoring_LogAnalytics"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Connect VM to workspace or no VM data in workspace
