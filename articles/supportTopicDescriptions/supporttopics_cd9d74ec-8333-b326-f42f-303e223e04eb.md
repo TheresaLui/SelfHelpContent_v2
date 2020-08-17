@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "80c3a4ff-3f7c-bf9d-75ed-a74a41d29fea",
+      "longDescription": "",
+      "shortDescription": "Problems or questions with implementing build and test pipelines using Azure Pipelines.",
+      "searchTags": "Pipeline;Build;Test",
+      "category": "Build",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8eacf30f-6ab6-340d-d946-13b9e69f073a",
       "longDescription": "",
       "shortDescription": "Issues that are related to programming Azure DevOps Services by using an object model.",
