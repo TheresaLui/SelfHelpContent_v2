@@ -1,23 +1,23 @@
 <properties
-	pageTitle="scoping-questions-for-sql-security-permissions-and-accesscontrol"
-	description="Scoping questions to capture more details about sql security permissions and access control issues."
+	pageTitle="scoping-questions-for-sql-security-threatdetection"
+	description="Scoping questions to capture more details about sql security threat detection issues."
 	authors="sojaga"
 	ms.author="sojaga"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630403"
+	supportTopicIds="32630457"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="228ddfce-5c2b-4a12-829f-2b15079d905f"
+	articleId="0b4b3711-806d-4b40-96ea-dff92d82220f"
 	ownershipId="AzureData_AzureSQLDB_Security"
 />
-# Scoping questions for sql security permissions and access control issues
+# Scoping questions for sql security threat detection issues
 ---
 {
    "$schema":"SelfHelpContent",
    "resourceRequired":true,
    "subscriptionRequired":true,
-   "title":"sql security permissions and access control errors related scoping questions",
+   "title":"sql security threat detection errors related scoping questions",
    "fileAttachmentHint":"",
    "formElements":[
       {
@@ -37,16 +37,20 @@
          "infoBalloonText":"Choose the type of issue you are facing",
          "dropdownOptions":[
             {
-               "value":"createpermissions",
-               "text":"Create or Update permissions"
+               "value":"sqlinjection",
+               "text":"SQL Injection notification or alert"
             },
             {
-               "value":"createaccesscontrol",
-               "text":"Create or Update Access control"
+               "value":"unusuallocation",
+               "text":"Access from Unusual location or data center notification or alert"
             },
             {
-               "value":"deletepermaccess",
-               "text":"Delete permissions or access granted"
+               "value":"unfamiliar",
+               "text":"Access from unfamiliar principal or potentially harmful application alert"
+            },
+            {
+               "value":"bruteforce",
+               "text":"Brute force SQL credentials notification or alert"
             },
             {
                "value":"dont_know_answer",
@@ -56,37 +60,6 @@
          "required":true
       },
       {
-         "id":"issuecategory_dropdown",
-         "order":3,
-         "controlType":"dropdown",
-         "displayLabel":"What type of permissions or access issues?",
-         "watermarkText":"Choose an option",
-         "infoBalloonText":"Choose the type of issue you are facing",
-         "dropdownOptions":[
-            {
-               "value":"login",
-               "text":"Login issues"
-            },
-            {
-               "value":"UserAccount",
-               "text":"User permissions or Account issues"
-            },
-            {
-               "value":"sqlauth",
-               "text":"SQL Authentication issuess"
-            },
-            {
-               "value":"aad",
-               "text":"Azure Active Directory Authentication issues"
-            },
-            {
-               "value":"dont_know_answer",
-               "text":"Other"
-            }
-         ],
-         "required":true
-      },
-       {
          "id":"settings_dropdown",
          "order":4,
          "controlType":"dropdown",
@@ -95,20 +68,16 @@
          "infoBalloonText":"Choose the type of issue you are facing",
          "dropdownOptions":[
             {
-               "value":"auditARM",
+               "value":"threatARM",
                "text":"Using ARM Templates for setting up permissions or access"
             },
             {
-               "value":"auditpowershell",
+               "value":"threatpowershell",
                "text":"Using PowerShell for setting up permissions or access"
             },
             {
-               "value":"auditportal",
+               "value":"threattportal",
                "text":"Using Portal for setting up permissions or access"
-            },
-            {
-               "value":"ssms",
-               "text":"Using SSMS for setting up permissions or access"
             },
             {
                "value":"dont_know_answer",
@@ -125,18 +94,10 @@
          "required":false
       },
       {
-         "id":"granted_permissions",
-         "order":30,
-         "controlType":"multilinetextbox",
-         "displayLabel":"What are the permissions or access granted for existing user?",
-         "infoBalloonText":"You can found the permissions by using SSMS for specific user role",
-         "required":false
-      },
-      {
          "id":"resource_firewall",
          "order":40,
          "controlType":"dropdown",
-         "displayLabel":"Does the resource accessing have any firewal policy enabled?",
+         "displayLabel":"Does the resource notified having any firewal policy enabled?",
          "watermarkText":"Choose an option",
          "dropdownOptions":[
             {
@@ -215,7 +176,7 @@
       {
          "id":"browser",
          "order":170,
-         "visibility": "IssueType_dropdown == auditportal",
+         "visibility": "IssueType_dropdown == threattportal",
          "controlType":"dropdown",
          "displayLabel":"If the issue only happen in Azure portal, what is the browser being used?",
          "watermarkText":"Choose an option",
