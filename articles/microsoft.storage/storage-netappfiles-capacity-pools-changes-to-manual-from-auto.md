@@ -20,7 +20,3 @@
 ## QoS Changes from Manual to Auto for Capacity Pool
 
 Changing  Capacity Pool from Auto to Manual is one way operation. Its not supported to change Manual Capacity pool QoS from Manual to Auto.
-
-## **Recommended Documents**
-
-- [Convert the QoS to Manual from Auto](https://aka.ms/anfdocs-fcp)<br>
