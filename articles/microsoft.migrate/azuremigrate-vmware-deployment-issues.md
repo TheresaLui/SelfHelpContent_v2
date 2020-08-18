@@ -54,7 +54,7 @@ No, setting up the appliance on an Azure VM is not recommended.
 
 **I am getting an error in the auto update check on the appliance**
 
-Ensure that you have whitelisted the aka.ms/latestapplianceservices URL and no proxy/firewall setting is blocking the URL. In case the update of any appliance component is failing, either rerun the prerequisites or follow these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version) to manually update the component.
+Ensure that you have whitelisted  the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) and no proxy/firewall setting is blocking the URLs. In case the update of any appliance component is failing, either rerun the prerequisites or follow these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version) to manually update the component.
 
 ### Issues in registering the appliance with Azure Migrate
 
