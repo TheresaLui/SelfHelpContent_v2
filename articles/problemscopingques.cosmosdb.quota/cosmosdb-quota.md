@@ -72,7 +72,7 @@
         },
         {
             "id": "quota_region",
-            "visibility": "quota_subtype != null && (quota_subtype == enablelocation || quota_subtype ==azenablelocation)",
+            "visibility": "quota_subtype == enablelocation || quota_subtype ==azenablelocation",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel":"Location requested",
@@ -85,7 +85,7 @@
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
                 "jTokenPath":"value",
                 "textProperty":"displayName",
-                "ValueProperty":"displayName",
+                "ValueProperty":"name",
                 "valuePropertyRegex": ".*",
                 "defaultDropdownOptions": {
                     "value": "dont_know_answer",
@@ -95,7 +95,7 @@
         },
         {
             "id": "quota_account",
-            "visibility": "quota_subtype != null && (quota_subtype == accountlimitincrease || quota_subtype == accountlimitdecrease ||  quota_subtype == throughputlimitincrease ||  quota_subtype == throughputlimitdecrease ||  quota_subtype == containerlimitincrease || quota_subtype == storagelimitincrease)",
+            "visibility": "quota_subtype == accountlimitincrease || quota_subtype == accountlimitdecrease ||  quota_subtype == throughputlimitincrease ||  quota_subtype == throughputlimitdecrease ||  quota_subtype == containerlimitincrease || quota_subtype == storagelimitincrease",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel":"Account Name",
@@ -119,7 +119,7 @@
         },
         {
             "id": "new_limit",
-            "visibility": "quota_subtype != null && quota_subtype == dbaccountlimit",
+            "visibility": "quota_subtype == accountlimitincrease || quota_subtype == accountlimitdecrease ||  quota_subtype == throughputlimitincrease ||  quota_subtype == throughputlimitdecrease ||  quota_subtype == containerlimitincrease || quota_subtype == storagelimitincrease",
             "order": 4,
             "controlType": "numerictextbox",
             "includeInQmsPayload": true,
@@ -136,7 +136,7 @@
         },
         {
             "id": "business_justification",
-            "visibility": "quota_subtype != null && quota_subtype == enablelocation",
+            "visibility": "quota_subtype != null && quota_subtype != dont_know_answer",
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe the business requirement",
