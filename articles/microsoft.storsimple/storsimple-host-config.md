@@ -28,7 +28,6 @@
 - [Configure MPIO as suggested in the best practices documentation](https://gallery.technet.microsoft.com/Azure-StorSimple-8000-72b01b68)  
 - Add interface(s) dedicated only for iSCSI traffic and segregate iSCSI traffic from production traffic using separate vlans
 - Reformatting a thinly provisioned volume may take a long time. We recommend deleting the volume and then creating a new one instead of reformatting. However, if you still prefer to reformat a volume:
-    - Run the following command before the reformat to avoid space reclamation delays:<br>
-        fsutil behavior set disabledeletenotify 1
-    - After the formatting is complete, use the following command to re-enable space reclamation:<br>
-        fsutil behavior set disabledeletenotify 0
+    - Run the following command before the reformat to avoid space reclamation delays: `fsutil behavior set disabledeletenotify 1`
+    - After the formatting is complete, use the following command to re-enable space reclamation: `fsutil behavior set disabledeletenotify 0`
+    
