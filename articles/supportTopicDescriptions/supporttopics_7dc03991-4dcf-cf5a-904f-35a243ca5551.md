@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "01b59f25-67c7-7f50-fd3e-f77ead0162af",
+      "longDescription": "",
+      "shortDescription": "Limit access and monitor logins on mobile, desktop, and or browsers apps ",
+      "searchTags": "Login;app;protected",
+      "category": "Apps",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "01c14281-f599-31ea-107e-1835788b0cf5",
       "longDescription": "",
       "shortDescription": "Managed admins or Azure AD or Office365 roles and permissions",
