@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d2f1025f-b36d-5188-de37-52d3630d8568",
+      "longDescription": "",
+      "shortDescription": "Limit access to native apps or monitor logins ",
+      "searchTags": "Native;apps;Access",
+      "category": "Apps",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dc11507f-cc8e-4b77-099d-bbc1f982b1c3",
       "longDescription": "",
       "shortDescription": "Conditional Access and real-time proxied access and session control for native apps, protected apps, and managed devices",
