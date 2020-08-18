@@ -19,4 +19,4 @@
 
 ## **Recommended Steps**
 
-Verify the regional quota limit for the capacity pool
+* Verify the regional quota limit for the capacity pool
