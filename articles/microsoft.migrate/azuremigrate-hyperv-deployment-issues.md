@@ -19,7 +19,6 @@
 # Deployment issues with Azure Migrate appliance for Hyper-V 
 
 ## **Recommended Steps**
-## **Recommended Steps**
 
 For general queries, please refer to the documentation [here](https://docs.microsoft.com/azure/migrate/common-questions-appliance).
 
@@ -43,14 +42,14 @@ No, setting up the appliance on an Azure VM is not recommended.
 
 **I am getting an error in the Internet prerequisite check on the appliance**
 
-1. Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) (for Public or US Gov cloud) from the appliance. 
+1. Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) (for Public or US Gov cloud) from the appliance.
 2. Check if there is a proxy/firewall blocking access to these URLs. If whitelisting is required, please ensure you whitelist all the URLs.
-3. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by clicking on “Setup proxy” in the same step. Make sure you provide the authorization credentials if the proxy needs them.
+3. If there is a proxy server configured on-premises,ensure that you provide the proxy details correctly by clicking on “Setup proxy” in the same step. Make sure you provide the authorization credentials if the proxy needs them.
 4. Ensure that the appliance VM has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or have mobility service agent installed on the VM.
 
 **I am getting an error in the auto update check on the appliance**
 
-Ensure that you have whitelisted the aka.ms/* URL and no proxy/firewall setting is blocking the URL. In case the update of any appliance component is failing, either rerun the prerequisites or follow these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version) to manually update the component.
+Ensure that you have whitelisted the aka.ms/latestapplianceservices URL and no proxy/firewall setting is blocking the URL. In case the update of any appliance component is failing, either rerun the prerequisites or follow these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version) to manually update the component.
 
 
 ### Issues in registering the appliance with Azure Migrate
@@ -93,7 +92,7 @@ This error is encountered when the Azure user account used to initiate the disco
 
 **I am getting Key Vault create/update issues after clicking on 'Save and start discovery'**
 
-Refer to this [document](https://docs.microsoft.com/en-us/azure/migrate/troubleshoot-appliance-discovery#error-6003060031-key-vault-management-operation-failed) for different types of Key Vault related errors and their remediation steps.
+Refer to this [document](https://docs.microsoft.com/azure/migrate/troubleshoot-appliance-discovery#error-6003060031-key-vault-management-operation-failed) for different types of Key Vault related errors and their remediation steps.
 
 ### Issues post discovery initiation
 
