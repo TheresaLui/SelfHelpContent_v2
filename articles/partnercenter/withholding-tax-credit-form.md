@@ -27,13 +27,13 @@ Completed requests will be reflected in the billing page's **Last payment** colu
 ## **Recommended Steps**
 
 - Ensure you have the tax certificate you want to be credited for in electronic form. More about tax certificates can be found in the [tax withholding credit documentation](https://docs.microsoft.com/partner-center/withholding-tax-credit-form). Attached tax certificate files must be one of the following file formats: .PDF and Image only (.JPEG, .PNG and .GIF). In addition, files names should not contain spaces or special characters.
-- Go to the Partner Center, sign in and navigate to the billing page. 
+- Go to the Partner Center, sign in, and navigate to the billing page
 - On the billing page locate the invoice you seek to be credited for. Next to the invoice you will see a "Tax Withholding" column with a "Submit new" option.
 - Click "Submit new". This will take you to a form where you will provide the total amount you seek credit for that particular invoice. You will also need to attach the tax certificate from your local tax authority.
-- Once you have provided the tax withholding total and have attached the tax certificate simply submit the form. 
+- Once you have provided the tax withholding total and have attached the tax certificate, submit the form
 - This will create a tax withholding request. When you navigate back to the billing page you should see the submission ID with the current status.
-- Request status will be set to "needs partner attention" if corrections to the request needs to be made and resubmitted. 
-- Completed request amounts will be viewable in the **Billing page** next to the invoice under **Last payment**.
+- Request status will be set to "needs partner attention" if corrections to the request needs to be made and resubmitted
+- Completed request amounts will be viewable in the **Billing page** next to the invoice under **Last payment**
 
 ## **Recommended Documents**
 
