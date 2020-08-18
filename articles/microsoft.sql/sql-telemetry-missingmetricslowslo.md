@@ -4,7 +4,6 @@
     infoBubbleText="Database metrics are missing due to low SLO. See details on the right."
     service="microsoft.sql"
     resource="servers"
-    resourceTags="databases"
     authors="yujzhan"
     ms.author="yujzhan"
     displayOrder=""

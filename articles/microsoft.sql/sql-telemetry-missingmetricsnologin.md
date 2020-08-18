@@ -4,7 +4,6 @@
     infoBubbleText="There is no login activity to the database. See details on the right."
     service="microsoft.sql"
     resource="servers"
-    resourceTags="databases"
     authors="yujzhan"
     ms.author="yujzhan"
     displayOrder=""
