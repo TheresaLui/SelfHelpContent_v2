@@ -126,17 +126,12 @@
                 "textProperty": "properties.clusterId",
                 "valueProperty": "properties.clusterId",
                 "textPropertyRegex": "[^/]+$",
+                "valuePropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
-                    "value": "dont_know_answer",
-                    "text": "Unable to retrieve the cluster ID"
+                    "value": "Cluster ID not available",
+                    "text": "Cluster ID not available"
                 }
             },
-            "DropdownOptions": [
-                {
-                    "value": "NoClusterId",
-                    "text": "Unable to retrieve the cluster ID"
-                }
-            ],
             "required": false
         },
         {
