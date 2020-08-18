@@ -4,7 +4,7 @@
 	authors="keithelm"
 	ms.author="keithelm,muruga,emlisa,swbharti,vimahadi"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32745431"
+	supportTopicIds="32745429,32745431"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
