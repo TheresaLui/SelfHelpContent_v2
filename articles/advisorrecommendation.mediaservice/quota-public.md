@@ -20,7 +20,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "1:00:00"
   },
-  "recommendationCategory": "Reliability",
+  "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Low",
   "recommendationResourceType": "microsoft.media/mediaservices",
   "recommendationFriendlyName": "AccountQuotaLimit",
