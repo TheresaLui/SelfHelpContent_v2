@@ -183,7 +183,7 @@
     {
       "id": "96b184e9-53c3-dc7e-60de-0e2b691498c9",
       "longDescription": "",
-      "shortDescription": "Ingesting data via programmatic access, export 5000 records and more, automate access, upload discovery logs, generate block script, list activities ",
+      "shortDescription": "Ingesting data via programmatic access, export more than 5000 records, automate access, upload discovery logs, managing alerts, list activities",
       "searchTags": "REST ;API;Script",
       "category": "REST API",
       "useInDiagnoseAndSolve": "true"
