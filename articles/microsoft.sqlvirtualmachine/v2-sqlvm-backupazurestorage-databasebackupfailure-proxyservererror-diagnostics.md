@@ -13,7 +13,7 @@
 	resourceTags="windowsSQL"
 	productPesIds="14745,16342"
 	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
-	articleId="3efc62eb-4656-4982-af13-da0ea9219cbe-azurestorage"
+	articleId="9900c3c4-acab-4349-99eb-018ef9122f3f-azurestorage"
 	ownershipId="AzureData_AzureSQLVM"
 />
 # We ran diagnostics on your resource and found an issue
