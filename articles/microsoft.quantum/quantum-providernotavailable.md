@@ -18,26 +18,19 @@
 
 # A Provider is not available in a particular region
 
-Not every provider is available in every Azure region where Azure Quantum is available. The *recommended steps* below should help you work out if a provider should be available in your region. 
+Not every provider is available in every Azure region where Azure Quantum is available.
+
+The *recommended steps* below should help you work out if a provider should be available in your region.
 
 ## **Recommended Steps**
 
-1. Please review our [provider documentation](https://) to check if your desired provider is available in your region.
+1. Please review our [provider documentation](https://github.com/MicrosoftDocs/quantum-docs-private/wiki/Azure-Quantum-provider) to check if your desired provider is available in your region.
    * If trying to add a third-party provider consider contacting them directly for more details regarding availability in the region you would like to use
 2. If using the CLI, verify that the provider/target combination that you are requesting is valid.
-3. If unsure, deploy a workspace in a different region to check if the provider is available to select there. 
+3. If unsure, deploy a workspace in a different region to check if the provider is available to select there.
 
 ## **Recommended Documents**
 
-TODO: Add Documentation Links
-* [This is the display text of an external document](https://)
-
-### Notes
-
-* The **Recommended Steps** and **Recommended Documents** headings must be entered as shown above (bolded H2)
-* Formatting is not identical to Microsoft Docs - tables do not work, nor [!NOTE] tags
-* Your Recommended Steps should be actual steps, not just links to other articles
-* Ensure all links to Microsoft docs are non-region-specific, i.e. does not include /en-us/. This does not apply to articles for Mooncake.
-* Don't link to internal review documentation - these URLs always start with "review.microsoft.docs", and users are unable to access them
-* Do not use aka.ms links
-* Copy the raw form of this article to use as a template for your own Common Solution article. Be sure to fill in the metadata!
+*Please note that our documentation for Azure Quantum is in limited preview. Only customers currently in the limited preview can access the documentation resources linked.*
+* [Azure Quantum QIO Provider](https://github.com/MicrosoftDocs/quantum-docs-private/wiki/Azure-Quantum-provider)
+* [IonQ Provider](https://github.com/MicrosoftDocs/quantum-docs-private/wiki/IonQ-provider)

@@ -30,9 +30,8 @@ It is also possible that the desired target/provider combination does not exist.
 ## **Recommended Steps**
 
 1. Navigate to your Quantum Workspace resource in the Portal
-1. Select the `Providers` blade
-	TODO: Can we link to the blade dynamically? (data-blade:extensionName.bladeName.nameOfInputParam.valueOfInputParam)
-1. If you see the desired provider enabled in the list of providers, follow the instructions below under "Modify a Provider". Otherwise, follow the instructions under "Enable a Provider".
+1. Select the [Providers blade](data-blade:Microsoft_Azure_Quantum.ProvidersBlade.assetId.$resourceId)
+1. If you see the desired provider, enabled it in the list of providers, follow the instructions below under "Modify a Provider". Otherwise, follow the instructions under "Enable a Provider".
 
 ### Enable a Provider
 
@@ -56,15 +55,6 @@ If you have enabled the provider, you may not have selected a plan which allows 
 
 ## **Recommended Documents**
 
-TODO: Add Documentation Links
-* [This is the display text of an external document](https://)
-
-### Notes
-
-* The **Recommended Steps** and **Recommended Documents** headings must be entered as shown above (bolded H2)
-* Formatting is not identical to Microsoft Docs - tables do not work, nor [!NOTE] tags
-* Your Recommended Steps should be actual steps, not just links to other articles
-* Ensure all links to Microsoft docs are non-region-specific, i.e. does not include /en-us/. This does not apply to articles for Mooncake.
-* Don't link to internal review documentation - these URLs always start with "review.microsoft.docs", and users are unable to access them
-* Do not use aka.ms links
-* Copy the raw form of this article to use as a template for your own Common Solution article. Be sure to fill in the metadata!
+*Please note that our documentation for Azure Quantum is in limited preview. Only customers currently in the limited preview can access the documentation resources linked.*
+* [Azure Quantum QIO Provider](https://github.com/MicrosoftDocs/quantum-docs-private/wiki/Azure-Quantum-provider)
+* [IonQ Provider](https://github.com/MicrosoftDocs/quantum-docs-private/wiki/IonQ-provider)
