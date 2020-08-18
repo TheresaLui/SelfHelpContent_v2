@@ -108,7 +108,7 @@
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/databaseAccounts?api-version=2020-04-01",
                 "jTokenPath":"value",
                 "textProperty":"name, location",
-                "textTemplate":"Name:{name}, Region{location}",
+                "textTemplate":"Name: {name}, Region: {location}",
                 "ValueProperty":"id",
                 "valuePropertyRegex": ".*",
                 "defaultDropdownOptions": {
