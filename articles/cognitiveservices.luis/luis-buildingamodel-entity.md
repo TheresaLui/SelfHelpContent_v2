@@ -23,7 +23,9 @@
 
 ## **Recommended Steps**
 
-* You first need to [plan your application](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-plan-your-app) before building it and [identify the intents and entities](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-plan-your-app#identify-your-entities) that you are planning to use
+* You first need to [plan your LUIS application](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-plan-your-app) before building it and [identify the intents and entities](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-plan-your-app#identify-your-entities) that you are planning to use. Understand the differences between the both.
+
+* Check the [best practices](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-best-practices#do-and-dont) for building an app in LUIS
 
 * Depending on what you want to extract from your [utterances](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-utterance), choose the type of entity that will work with it
 
@@ -47,10 +49,20 @@
 
 * [**Prebuilt entities**](https://docs.microsoft.com/azure/cognitive-services/luis/luis-concept-prebuilt-model#prebuilt-entities) are out-of-the-box entity extractors that you do not have to define yourself. You add them and it [extracts common information](https://docs.microsoft.com//azure/cognitive-services/luis/luis-reference-prebuilt-entities#english-american-entity-support) such as numbers, dates, times, currency, emails, and more.
 
+* Learn about the [LUIS model limits](https://docs.microsoft.com/azure/cognitive-services/luis/luis-limits#model-boundaries)
+
 ### Things to Note
 
 * You will not be able to create simple or composite entities anymore as these have been replaced by machine learned entities. It is also encouraged to upgrade to machine-learning entity. Please read the [following instructions and limitations carefully before upgrading](https://docs.microsoft.com/azure/cognitive-services/luis/migrate-from-composite-entity).
 
 * Note that if you export an application from the portal (uses V3 APIs) and try to import it back programmatically using V2 APIs, import will fail as it is not forward compatible
 
+* List entity synonyms do not affect your intent or entity predictions unless you add them as a feature to the intent or entity
+
 * Patterns primarily work for intents only and not entities. Pattern.any extracts information from the pattern. It will check if the entity is extracted then check if the pattern around it matches, go to the specific intent.
+
+* Use [LUIS authoring resource](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#create-luis-resources-in-azure-portal) to be able to add entities from the portal or through APIs
+
+* If you are using LUIS V2 APIS, review LUIS [V2 Authoring APIs](https://westus.dev.cognitive.microsoft.com/docs/services/5890b47c39e2bb17b84a55ff/operations/5890b47c39e2bb052c5b9c2f) and if you are using LUIS V3 APIS, review LUIS [V3 Authoring APIs](https://westeurope.dev.cognitive.microsoft.com/docs/services/luis-programmatic-apis-v3-0-preview/operations/5890b47c39e2bb052c5b9c2f)
+
+* Learn how to [migrate to V3 APIs](https://docs.microsoft.com/azure/cognitive-services/luis/luis-migration-api-v3)

@@ -36,3 +36,5 @@ Using [**App service with VNET integration**](https://docs.microsoft.com/azure/a
 3. Add storage service endpoint to the Vnet.
 4. Whitelist subnets on [**Storage Firewall**](https://docs.microsoft.com/azure/storage/common/storage-network-security)
 
+
+If this did not solve your issue, please restart the troubleshooter and choose the Generic Issues Troubleshooting option.

@@ -111,7 +111,7 @@
     {
       "id": "41159b88-e709-6b6a-32c5-c7a779bca991",
       "longDescription": "",
-      "shortDescription": "How to resolving a sensor health alert",
+      "shortDescription": "Help resolving a sensor health alert",
       "searchTags": "sensor;health",
       "category": "Investigating Alerts",
       "useInDiagnoseAndSolve": "true"
@@ -138,6 +138,14 @@
       "shortDescription": "Investigating a suspicious activity security alert as a potential true positive or benign true positive",
       "searchTags": "suspicious",
       "category": "Investigating Alerts",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6776c9d5-7a61-021e-21ac-c2f923db2b0d",
+      "longDescription": "",
+      "shortDescription": "How to Enable Group managed service accounts (gMSA) with Azure ATP",
+      "searchTags": "gMSA;Group Management",
+      "category": "Onboarding and Installing",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -223,8 +231,8 @@
     {
       "id": "d8dc25fb-8427-e2bd-158d-02ea396984fd",
       "longDescription": "",
-      "shortDescription": "How to Enable Group managed service accounts (gMSA) with Azure ATP",
-      "searchTags": "sensor,gmsa,install",
+      "shortDescription": "Questions about onboarding, installing and troubleshooting licensing for Advanced Threat Protection.",
+      "searchTags": "onboard;install;licensing",
       "category": "Onboarding and installing",
       "useInDiagnoseAndSolve": "false"
     },

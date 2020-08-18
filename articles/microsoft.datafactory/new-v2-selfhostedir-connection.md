@@ -16,6 +16,8 @@
 
 # Self-Hosted Integration Runtime fails to copy data to/from an on-premises data store
 
+**Note:** Please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** to provide it with the support request.
+
 ## **Recommended Steps**
 
 * You can find detailed information in Integration Runtime logs in Windows event logs. You can find them under **Event Viewer** > **Application and Services Logs** > **Microsoft Integration Runtime**. To troubleshoot IR related issues，please look for error level events in the event viewer.
