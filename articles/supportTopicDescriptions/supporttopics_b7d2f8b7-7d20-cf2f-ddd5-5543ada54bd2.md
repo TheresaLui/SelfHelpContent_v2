@@ -5,21 +5,21 @@
   ms.author="shrahman"
   selfhelptype="SupportTopicDescription"
   productpesids="b7d2f8b7-7d20-cf2f-ddd5-5543ada54bd2"
-  cloudEnvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
-  articleid="supporttopics_b7d2f8b7-7d20-cf2f-ddd5-5543ada54bd2" 	ownershipId="Compute_AppService"
-/>
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  articleid="supporttopics_b7d2f8b7-7d20-cf2f-ddd5-5543ada54bd2"
+  ownershipid="Compute_AppService" />
 # Support Topic Descriptions for b7d2f8b7-7d20-cf2f-ddd5-5543ada54bd2
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "App Service domain gives you a first class experience in the Azure portal to create and manage domains that will be hosted on Azure DNS.",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "https://azure.microsoft.com/blog/app-service-domain/",
+  "productLinkName1": "Product Overview",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "2a970c41-16e7-3b38-2ba1-48e2437ff2a1",

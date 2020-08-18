@@ -44,11 +44,11 @@
                     "value": "log_retention",
                     "text": "Log retention question"
                 },
-                {
-                    "value": "audit_action",
-                    "text": "Action audit question"
+                 {
+                    "value": "who_accessed_storage_resource",
+                    "text": "Who accessed storage resource"
                 },
-		            {
+		{
                     "value": "dont_know_answer",
                     "text": "Don't know or not listed above"
                 }
@@ -104,7 +104,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+	    "diagnosticInputRequiredClients": "Portal,ASC"
         }
     ],
     "$schema": "SelfHelpContent"

@@ -10,16 +10,17 @@
 	articleId="marketplace_teamsapp_appsource"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689446"
+	supportTopicIds="32728263"
 	resourceTags="marketplace"
-	productPesIds="15960, 17000"
+	productPesIds="17006"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # How to publish your app on AppSource and better understand AppSource submission
 
 
 ## **Recommended Documents**
-* [Submit your app to AppSource](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish)
-* [AppSource certification policies for Teams app](https://docs.microsoft.com/legal/marketplace/certification-policies#1140-teams)
+
+- [Submit your app to AppSource](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish)
+- [AppSource certification policies for Teams app](https://docs.microsoft.com/legal/marketplace/certification-policies#1140-teams)

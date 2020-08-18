@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="6425a2de-280f-4841-9387-d032c36f8080"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -19,7 +19,7 @@
 
 Check for gateway noteworthy events at the time of the issue using ASC insights, NetVMA or GatewayTenantLogsTable.
 
-##Gateway Failover (most common scenario)
+## Gateway Failover (most common scenario)
 
 1. There might have been a gateway failover, caused by Maintenance or any other reason on the Gateway itself.
 2. GatewayTenantLogs indicate failover events, and the same can also be seen in NetVMA (you will notice the instance starting to listen on port 8081 has changed).
@@ -42,7 +42,3 @@ We can only recommend the customer to collect captures during the next occurrenc
 * [Disconnected by design during gateway failover](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-highlyavailable)
 * [NetVMA](https://netvma.trafficmanager.net)
 * [Gateway Tenant Logs](https://jarvis-west.dc.ad.msft.net/?page=logs&be=DGrep&time=2018-11-01T14:15:00.000Z&offset=~5&offsetUnit=Minutes&UTC=true&ep=Diagnostics%20PROD&ns=BrkGWT&en=GatewayTenantLogsTable&scopingConditions=%5b%5b%22Tenant%22,%22c688c9853f2e41eeb777c2e096dafa4d%22%5d%5d&conditions=%5b%5d&clientQuery=orderby%20preciseTimeStamp%20asc%0A&chartEditorVisible=true&chartType=Line&chartLayers=%5b%5b%22New%20Layer%22,%22%22%5d%5d%20")
-
-Solved?
-Yes --> Solution
-No --> TA engagement

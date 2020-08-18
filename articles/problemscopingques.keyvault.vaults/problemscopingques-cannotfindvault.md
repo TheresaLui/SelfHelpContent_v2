@@ -4,11 +4,11 @@
          authors="osmuller"
          ms.author="osmuller"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32375295"
+         supportTopicIds="32375295,32596891,32452742,32738117,32738118,32738116"
          productPesIds="15657"
          schemaVersion="1"
          articleId="problemscopingques-cannotfindvault"
-	     cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	     cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	     ownershipId="AzureKeyVault_KeyVault"
 />
 # Vault cannot be found

@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="f3bfb1bc-130b-4124-aab0-51f3c998bf33"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -27,7 +27,3 @@ In case of IKEv2 you can also leverage the [IkeLogsTable](https://jarvis-west.dc
 
 1. Review the diagnostics at the time of the issue and try to identify an error code from the logs
 2. Consult a TA if you are unable to find a specific error code from the logs.
-
-Are you able to identify a specific error code from the logs?
-- Yes, I have an error code
-- No, the log is not helpful

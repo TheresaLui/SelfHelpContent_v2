@@ -21,15 +21,19 @@
 
 The following details explain how to model and design your data warehouse:
 
-* We recommend reviewing the SQL Data Warehouse [cheat sheet](https://docs.microsoft.com/azure/sql-data-warehouse/cheat-sheet) as you begin designing your data warehouse
-* [Table design documentation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-tables-overview#determine-table-category)
-* [Query design documentation](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-develop-dynamic-sql)
+* We recommend reviewing the SQL Data Warehouse [cheat sheet](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/cheat-sheet) as you begin designing your data warehouse
+* [Table design documentation](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-overview#determine-table-category)
+* [Query design documentation](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-develop-dynamic-sql)
+* [Performance tuning with ordered clustered columnstore index](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/performance-tuning-ordered-cci)
+* [Performance tuning with materialized views](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/performance-tuning-materialized-views)
+* [Performance tuning with result set caching](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/performance-tuning-result-set-caching?toc=/azure/sql-data-warehouse/toc.json&bc=/azure/sql-data-warehouse/breadcrumb/toc.json)
+
 
 ## **Recommended Steps**
 
 The following are the most common issues for slow query performance:
 
-1. Ensure [table statistics are created and kept up to date](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-tables-statistics#updating-statistics). SQL Data Warehouse does not currently support automatic creation or update of statistics. As you load data into your data warehouse, query plans can regress if statistics are not up to date.
+1. Ensure [table statistics are created and kept up to date](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-statistics#updating-statistics). SQL Data Warehouse supports automatic statistics creation and manual statistics updates by users. As you load data into your data warehouse, query plans can regress if statistics are not up to date.
 
     * The SQL Data Warehouse query optimizer is a cost-based optimizer. It compares the cost of various query plans, and then chooses the plan with the lowest cost, which is in most cases the plan that executes the fastest. The cost-based optimized relies on table statistics to ensure the most optimized query plan is selected.
 

@@ -7,7 +7,7 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32730237,32730238,32730239"
+    supportTopicIds="32739640"
     resourceTags=""
     productPesIds="16456"
     cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"

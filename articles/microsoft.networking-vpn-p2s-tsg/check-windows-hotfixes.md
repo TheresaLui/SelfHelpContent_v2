@@ -10,7 +10,7 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="4851ee35-87b5-4038-866b-3310eb06205b"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
@@ -23,7 +23,3 @@ OS versions prior to Windows 10 are not supported and can only use SSTP or OpenV
 
 1. Review [IKE and SSTP KB for Windows 10](https://docs.microsoft.com/azure/vpn-gateway/point-to-site-about#does-azure-support-ikev2-vpn-with-windows) for information about hotfix and registry setting requirements
 2. Validate the customer point-to-site client is running supported versions
-
-Is the customer running a supported version of Windows with all hotfixes and registry settings required?
-- Yes
-- No

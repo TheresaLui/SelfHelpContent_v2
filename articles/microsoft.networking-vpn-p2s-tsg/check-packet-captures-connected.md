@@ -10,12 +10,12 @@
 	supportTopicIds="32584878,32591156"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
 	articleId="44cfafa1-e32c-4719-8c88-a4f718fbc838"
         ownershipId="Centennial_CloudNet_AzureVPNGateway"
 />
 
-# Collect Packet Captures in "Connected but can't reach destination" scenario
+# Collect Packet Captures in 'Connected but can't reach destination' scenario
 
 If the point to site VPN is connected, but the client can't reach the destination, the issue is one of the following:
 
@@ -33,8 +33,9 @@ To gather diagnostic information, collect **simultaneous** traces on the:
 During data analysis, filter traffic on the network traces according to your scenario based on the IP and ports required for your scenario. Do NOT apply traffic filters upon data collection as they may prevent you from troubleshooting properly.
 
 
+## Recommended Steps
 
-## Collecting traces on Point to site client
+### Collecting traces on Point to site client
 
 If Windows:
 * Start a Network capture by running **netsh trace start report=disabled capture=yes tracefile=C:\VPNclient_trace.etl** from an elevated command prompt
@@ -49,9 +50,7 @@ If Linux:
 If Mac OS:
 * You can install Wireshark  or similar tool to gather a packet cature from the Mac client. Else you can follow Apple guidelines to use tcpdump via command line. https://developer.apple.com/documentation/network/recording_a_packet_trace 
 
-## Recommended Steps
-
-**Collecting traces on the Azure VPN Gateway**
+### Collecting traces on the Azure VPN Gateway
 
 1. Identify the VPN gateway in ASC.
 1. From the **Diagnostics** tab, select **Brooklyn Diagnostics** and **Create Diagnostics report**
@@ -61,7 +60,7 @@ If Mac OS:
 1. The most relevant files for point to site connection are the **networktrace.etl** (packet capture on the gateway side) and the **TunnelInnerPacketTrace.etl** that captures traffic on the inner interface of the gateway.
 1. Read more about inner and outer packet captures on the [wiki](https://supportability.visualstudio.com/AzureNetworking/_wiki/wikis/Wiki/134103/Azure-Gateway-Diagnostics?anchor=understanding-inner-and-outer-packet-captures).
 
-**Collecting traces on the destination Azure VM**
+### Collecting traces on the destination Azure VM
 
 ***If Windows***
 
@@ -76,7 +75,3 @@ If Mac OS:
 1. Stop the network capture by pressing **CTRL+C**
 
 Engage a TA shall you require help reviewing any of the collected logs.
-
-By reviewing the trace on the client side, is the traffic forwarded on the VPN interface, or on the external interface?
-- VPN interface
-- External interface

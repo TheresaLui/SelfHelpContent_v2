@@ -10,11 +10,11 @@
 	articleId="marketplace_othersaas_failures"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689443"
+	supportTopicIds="32728237"
 	resourceTags="marketplace"
-	productPesIds="15960, 17000"
+	productPesIds="17006"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # <-- SaaS other deflection -->
@@ -28,8 +28,8 @@ For other miscellaneous SaaS issues, the following resources may help finding a 
 3. For any other issues not covered in existing guidance, file a support ticket outlining the details of the issue
 
 ## **Recommended Documents**
-* [Overview of the Commercial Marketplace portal in Partner Center](https://docs.microsoft.com/azure/marketplace/partner-center-portal/commercial-marketplace-overview)
-* [Create a new SaaS offer](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer)
-* [Example marketplace offer listing](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer#example-marketplace-offer-listing)
-* [Update an existing offer in the Commercial Marketplace](https://docs.microsoft.com/azure/marketplace/partner-center-portal/update-existing-offer)
 
+- [Overview of the Commercial Marketplace portal in Partner Center](https://docs.microsoft.com/azure/marketplace/partner-center-portal/commercial-marketplace-overview)
+- [Create a new SaaS offer](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer)
+- [Example marketplace offer listing](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer#example-marketplace-offer-listing)
+- [Update an existing offer in the Commercial Marketplace](https://docs.microsoft.com/azure/marketplace/partner-center-portal/update-existing-offer)

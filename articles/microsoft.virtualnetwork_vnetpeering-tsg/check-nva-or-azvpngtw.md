@@ -13,7 +13,7 @@
 
 # Check if customer is using NVA as VPN or Azure VPN gateway
 
-It is important to determine what the customer is using as their VNet VPN. Is it a Network Virtual Appliance (NVA) or is it an Azure VPN Gateway?
+It is important to determine what the customer is using as their VNet VPN device. Is it a Network Virtual Appliance (NVA) or is it an Azure VPN Gateway?
 
 ## **Recommended Steps**
 
