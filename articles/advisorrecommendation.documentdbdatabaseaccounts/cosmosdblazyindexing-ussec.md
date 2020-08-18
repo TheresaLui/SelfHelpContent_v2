@@ -3,9 +3,9 @@
     description="Configure Consistent indexing mode on your Azure Cosmos DB container"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="213974c8-ed9c-459f-9398-7cdaa3c28856_Public"
+    articleId="213974c8-ed9c-459f-9398-7cdaa3c28856_USSec"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, USNat, USSec"
+    cloudEnvironments="USSec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure Consistent indexing mode on your Azure Cosmos DB container
@@ -37,7 +37,7 @@
   "displayLabel": "Configure Consistent indexing mode on your Azure Cosmos DB container",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').LazyIndexing",
+    "streamNamespace": "cluster('https://cdbusseceast.usseceast.kusto.core.microsoft.scloud').database('Support').LazyIndexing",
     "refreshInterval": "0.12:00:00"
   },
   "additionalColumns": [
