@@ -5,7 +5,7 @@
     ms.author="zimao,amscis"
     articleId="b7c9fd99-a979-40b4-ab48-b1dfab6bb41a_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, USSec, USNat"
     ownershipId="StorageMediaEdge_Media"
 />
 # Sample title
