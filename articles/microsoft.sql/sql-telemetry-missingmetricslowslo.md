@@ -17,12 +17,17 @@
     ownershipId="AzureData_AzureSQLDB_Telemetry"
 />
 
-# Database metrics are missing due to low SLO
+# We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC, metrics for database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** appear to be missing. The database is active, but no metrics are being uploaded. This means that the customer will not see metrics for this database on the Azure Portal.Database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** has a low SLO of **<!--$ServiceLevelObjective-->ServiceLevelObjective<!--/$ServiceLevelObjective-->**. For databases with low SLOs (Free, Basic, S0, S1, and S2), missing metric issues are typically caused by a lack of available memory for Monitoring Agent - the application that uploads database metrics.
+Metrics for database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** are missing due to by-design telemetry memory/CPU caps for Basic, S0, S1 and S2 databases. The database is active, but no metrics are being shown on the Azure Portal. When a database experiences memory/CPU contention, internal database operations are prioritized over the generation of metrics. 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-This issue can be mitigated by upgrading the database SLO to S3 or higher. Databases on lower SLOs (Free, Basic, S0, S1, and S2) may continue to see this issue due to by-design CPU and memory limitations.
+This issue can be mitigated by upgrading the database service tier to S3 or higher.
+
+## **Recommended Documents**
+ 
+* [Scale single database resources in Azure SQL Database](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-scale)
+* [Resource limits for single databases using the DTU-based purchasing model](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)

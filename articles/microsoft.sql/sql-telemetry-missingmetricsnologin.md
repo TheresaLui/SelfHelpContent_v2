@@ -17,12 +17,16 @@
     ownershipId="AzureData_AzureSQLDB_Telemetry"
 />
 
-# Database metrics are missing due to no connections to the database
+# We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC, there were no connections to the database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->**. So there will not be any cpu metrics uploaded. This means that the customer will not see cpu/dtu metrics for this database on the Azure Portal.
+Metrics for database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** are not being emitted because the database has no active connections.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-Inform the customer that there were no logins to the given database. As a result, there will be no CPU/DTU metrics by design.
+To resume the flow of database metrics, connect to the database and run a query.
+
+## **Recommended Documents**
+ 
+* [Monitoring and performance tuning in Azure SQL Database and Azure SQL Managed Instance](https://docs.microsoft.com/en-us/azure/azure-sql/database/monitor-tune-overview)
