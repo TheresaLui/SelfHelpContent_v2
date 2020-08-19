@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "55ba1aa0-5914-e81c-cb47-b2648b719355",
+      "longDescription": "",
+      "shortDescription": "Add app connectors, investigate connectivity and disabled connector",
+      "searchTags": "apps;connector",
+      "category": "Apps",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "60d60a8f-ceef-d145-900a-f6119864518b",
       "longDescription": "",
       "shortDescription": "Investigating alerts, activities, files, users and accounts, and governance actions",
