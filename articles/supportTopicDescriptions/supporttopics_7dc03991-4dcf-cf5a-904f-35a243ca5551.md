@@ -229,11 +229,11 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
-      "id": "d2f1025f-b36d-5188-de37-52d3630d8568",
+      "id": "d5a58542-0716-7c8c-dd69-052b541701d5",
       "longDescription": "",
-      "shortDescription": "Limit access to native apps or monitor logins ",
-      "searchTags": "Native;apps;Access",
-      "category": "Apps",
+      "shortDescription": "Identify managed or unmanaged devices including Microsoft Intune compliant, hybrid Azure AD joined devices, or client certificates",
+      "searchTags": "Manage;Device",
+      "category": "Devices",
       "useInDiagnoseAndSolve": "true"
     },
     {
