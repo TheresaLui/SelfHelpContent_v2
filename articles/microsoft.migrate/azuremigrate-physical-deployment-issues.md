@@ -47,7 +47,7 @@ For Linux servers, you need a root account on the Linux servers that you want to
 
 Execute 'winrm qc' and 'Enable-PSRemoting' commands using PowerShell as an administrator on the server to be discovered. Ensure that WinRM ports 5985 (HTTP) and 5986 (HTTPS) are open.
 
-**I do not want to use a root account to discover linux servers** 
+**I do not want to use a root account to discover Linux servers** 
 
 Find details on an alternative [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-physical#physical-server-requirements).
 
