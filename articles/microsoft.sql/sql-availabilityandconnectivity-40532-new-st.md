@@ -19,7 +19,7 @@
 
 **Error 40532: Cannot open server {servername} requested by the login. The login failed.**
 
-## **Recommended Solutions**
+## **Recommended Steps**
 
 Error 40532 is usually related to one of the following scenarios:
 
