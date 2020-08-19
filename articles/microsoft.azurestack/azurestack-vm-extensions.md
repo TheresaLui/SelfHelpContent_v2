@@ -31,7 +31,8 @@ Azure Virtual Machine (VM) extensions are small applications that provide post-d
 - You can view additional VM extensions available from [Azure Marketplace items available for Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-marketplace-azure-items#virtual-machine-extensions)
 - Azure VM extensions can be managed using either the Azure CLI, Azure PowerShell, Azure Resource Manager templates, and the Azure portal
 - To handle the extension on the VM, you need the Azure VM agent installed
-- You do not need to connect to a VM directly to install or delete the extension, because the Azure extension is managed outside of the VM and integrated into the Azure platform
+- You do not need to connect to a VM directly to install or delete the extension, because the Azure extension is managed outside of the VM and integrated into the Azure platform.
+- Update to the latest dependency agent version 9.10.3 to avoid VMs in an unresponsive state. For more information see []()
 
 ## **Recommended Documents**
 
