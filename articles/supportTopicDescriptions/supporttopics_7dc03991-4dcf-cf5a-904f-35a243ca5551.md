@@ -309,6 +309,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dd18aa8c-bdc8-1d22-0a5c-220d39277140",
+      "longDescription": "",
+      "shortDescription": "Formatting and parsing issues with log collector and snapshot reports, with built-in and custom log formats",
+      "searchTags": "log;parsing;format;data",
+      "category": "Data",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e5d4ed3a-52ac-9a74-7d5c-0cd9b3b43226",
       "longDescription": "",
       "shortDescription": "Discovery data anonymization of user and machine names",
