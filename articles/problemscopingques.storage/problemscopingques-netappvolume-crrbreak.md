@@ -71,7 +71,7 @@
             "displayLabel": "Destination Volume Name",
             "watermarkText": "Destination Volume Name",
             "required": false
-        },	
+        },
         {
             "id": "problem_description",
             "order": 5,
