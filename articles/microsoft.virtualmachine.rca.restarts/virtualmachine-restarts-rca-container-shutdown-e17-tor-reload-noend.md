@@ -34,8 +34,8 @@ We apologize for any inconvenience this may have caused you. We are continuously
 
 ## **Recommended Documents**
 
-* [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
-* [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)<br>
+* [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)<br>
+* [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)<br>
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal.<br>
 

@@ -19,6 +19,11 @@
 
 ## **Recommended Steps**
 
+
+### ***What are the supported operating systems for agent-based dependency analysis?***
+
+Refer to the supported OS documentation [here](https://go.microsoft.com/fwlink/?linkid=2133723).
+
 ### ***I installed agents on my on-premises VMs, but the dependencies are not showing up. What should I do?***
 
 Typically, the dependencies start showing up after 15-20 minutes of installing the agents. [Learn more about agent installation](https://docs.microsoft.com/azure/migrate/how-to-create-group-machine-dependencies#download-and-install-the-vm-agents).
