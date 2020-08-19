@@ -189,6 +189,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9f3fa90f-696f-1a7b-0b50-81317185ecfb",
+      "longDescription": "",
+      "shortDescription": "How to configure file policies, including content inspection (built-in DLP, Data Classification Service)",
+      "searchTags": "DLP;Policies",
+      "category": "Policy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a81c02b3-9294-0a2a-d4dd-0d75103f5577",
       "longDescription": "",
       "shortDescription": "Limit actions through a web browser, including upload, download, copy, cut, paste, print, or custom activities",
