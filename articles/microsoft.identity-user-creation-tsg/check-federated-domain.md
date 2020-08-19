@@ -17,7 +17,7 @@
 
 # How to check if the domain is federated
 
-* In order to create a member in Azure AD, the domain name portion of the user name (UPN) must not be a domain name for which federation has been configured with Azure AD, such as using Active Directory Federation Services (AD FS).
-* You can see if a domain name is federated in Azure Support Center. 
-   * Navigate to Azure AD Explorer, and click on 'Domain names' and look in the 'Type' column for the domain name. 
+1. In order to create a member in Azure AD, the domain name portion of the user name (UPN) must not be a domain name for which federation has been configured with Azure AD, such as using Active Directory Federation Services (AD FS).
+2. You can see if a domain name is federated in Azure Support Center. 
+   1. Navigate to Azure AD Explorer, and click on 'Domain names' and look in the 'Type' column for the domain name. 
   
