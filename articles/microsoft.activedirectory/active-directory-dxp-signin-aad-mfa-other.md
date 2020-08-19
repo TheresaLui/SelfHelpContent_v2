@@ -22,19 +22,20 @@
 <!--issueDescription-->
 Based on the information you provided the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into <!--$appName-->[appName]<!--/$appName--> but a MFA authentication was required.
 <!--/issueDescription-->
-MFA authentication was required because the user is configured to use it in Azure MFA. If the prompt for MFA was unexpected be sure to expand the 'Show more' selection below.
+
+MFA was required due to:
+<!--$possibleFixes-->[possibleFixes]<!--/$possibleFixes--> 
+
+If the prompt for MFA was unexpected be sure to expand the 'Show more' selection below.
 
 Review the authentication details below to get insight into what MFA methods were attempted and whether they succeeded or not.
-For additional steps on how to troubleshoot the sign-in simply follow Possible Fixes listed below or the guidance in the Recommended Documents
+For additional steps on how to troubleshoot you can refer to the guidance in the Recommended Documents.
 
-Authentication Details
+## **Authentication Details**
 <!--$mfaDetails-->[mfaDetails]<!--/$mfaDetails-->
 
-Sign-in Details
+## **Sign-in Details**
 <!--$signinDetails-->[signinDetails]<!--/$signinDetails-->
-
-Possible Fixes
-<!--$possibleFixes-->[possibleFixes]<!--/$possibleFixes-->
 
 ## **Recommended Documents**
 

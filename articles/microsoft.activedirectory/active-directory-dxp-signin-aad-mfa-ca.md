@@ -32,7 +32,7 @@ Included in the information are the application conditions from the conditional 
 <!--$policyConditions-->[policyConditions]<!--/$policyConditions-->
 [Edit Conditional Access Policies](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies)
 
-Authentication Details
+## **Authentication Details**
 <!--$mfaDetails-->[mfaDetails]<!--/$mfaDetails-->
 
 ## **Recommended Documents**
