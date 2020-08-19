@@ -51,7 +51,7 @@
                 },
 				{
                     "value": "dont_know_answer",
-                    "text": "Don't Know"
+                    "text": "I do not know"
                 }
 			],
             "required": true
