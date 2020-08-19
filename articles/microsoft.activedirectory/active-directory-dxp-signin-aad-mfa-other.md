@@ -20,13 +20,13 @@
 # Multi-Factor Authentication(MFA) needed for Sign-in
 
 <!--issueDescription-->
-Based on the information you provided the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into <!--$appName-->[appName]<!--/$appName--> but a MFA authentication was required.
+Based on the information you provided the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into <!--$appName-->[appName]<!--/$appName--> but MFA authentication was required.
 <!--/issueDescription-->
+
+If the prompt for MFA was unexpected be sure to expand the 'Show more' selection below.
 
 MFA was required due to:
 <!--$possibleFixes-->[possibleFixes]<!--/$possibleFixes--> 
-
-If the prompt for MFA was unexpected be sure to expand the 'Show more' selection below.
 
 Review the authentication details below to get insight into what MFA methods were attempted and whether they succeeded or not.
 For additional steps on how to troubleshoot you can refer to the guidance in the Recommended Documents.
@@ -39,5 +39,5 @@ For additional steps on how to troubleshoot you can refer to the guidance in the
 
 ## **Recommended Documents**
 
-* [Troubleshooting sign-in problems with Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access)
-* [Troubleshoot using the What If tool in Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/what-if-tool)
+* [Common problems with two-factor verification and your work or school account](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-troubleshoot)
+* [User help documentation](https://docs.microsoft.com/azure/active-directory/user-help/)

@@ -20,7 +20,7 @@
 # Multi-Factor Authentication(MFA) needed for Sign-in
 
 <!--issueDescription-->
-Based on the information you provided the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into <!--$appName-->[appName]<!--/$appName--> but a MFA authentication was required by the conditional access policy or policies below:
+Based on the information you provided the user <!--$userName-->[userName]<!--/$userName--> was trying to sign into <!--$appName-->[appName]<!--/$appName--> but MFA authentication was required by the conditional access policy or policies below:
 <!--/issueDescription-->
 
 <!--$policyNames-->[policyNames]<!--/$policyNames-->
