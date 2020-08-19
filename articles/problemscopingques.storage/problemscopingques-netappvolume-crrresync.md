@@ -54,7 +54,7 @@
             "controlType": "textbox",
             "displayLabel": "Source Volume Name",
             "watermarkText": "Source Volume Name",
-            "required": true
+            "required": false
         },
 		{
             "id": "destination_volume_name",
@@ -62,8 +62,8 @@
             "controlType": "textbox",
             "displayLabel": "Destination Volume Name",
             "watermarkText": "Destination Volume Name",
-            "required": true
-        },		
+            "required": false
+        },
         {
             "id": "problem_description",
             "order": 5,
