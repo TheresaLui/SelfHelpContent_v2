@@ -28,7 +28,9 @@ We found one or more containers using Lazy indexing. You should consider using *
 
 We highly recommend upgrading to **consistent** index for performance and reliability improvements. Lazy indexing performs updates to the index at a much lower priority level when the engine is not doing any other work. This can result in **inconsistent or incomplete** query results. If you plan to query a Cosmos container, you should not select lazy indexing. 
 
-In June 2020, Cosmos DB product team introduced a change that no longer allows new containers to be set to Lazy indexing mode. If your Azure Cosmos DB account already contains at least one container with lazy indexing, this account is automatically exempt from the change.
+For consistent and optimal query performance, we recommend selecting **consistent indexing**. The RU charge for the same query will be significantly lower in a container with **consistent indexing** than a container with lazy indexing. In addition, many indexing features such as composite indexes require **consistent indexing**.  
+
+Because the benefits of **consistent indexing** are significant, we have removed the option for lazy indexing in new containers. We want to encourage customers to follow this indexing best practice.
 
 ## **Recommended Documents**
 [Indexing Mode](https://docs.microsoft.com/azure/cosmos-db/index-policy#indexing-mode)
