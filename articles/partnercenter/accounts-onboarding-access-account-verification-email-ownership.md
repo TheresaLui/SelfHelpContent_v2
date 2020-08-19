@@ -18,7 +18,7 @@
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
-## **Recommnended Steps**
+## **Recommended Steps**
 
 * Email ownership verifies that the primary contact (primary email) address is valid. The primary contact email address must be a work account that is monitored and can send/receive email. **Partners shouldn't use**: (1) a personal email address not associated with the company domain. (2) a tenant user sign-in not associated to email (for example, jsmith@testcompany.onmicrosoft.com)
 * If you don't receive the email ownership verification email message within one business day, you can request to resend using the links below and following the appropriate instructions:
