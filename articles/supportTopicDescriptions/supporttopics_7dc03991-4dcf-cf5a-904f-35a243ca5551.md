@@ -125,6 +125,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "659e008d-73f0-df87-a167-d63176fe350b",
+      "longDescription": "",
+      "shortDescription": "Configuration of OAuth app policies",
+      "searchTags": "OAuth;app;policy",
+      "category": "Policy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "65ff0c49-4d24-0b04-8368-b8e5278a06e7",
       "longDescription": "",
       "shortDescription": "How can connector setting impact files visibility",
