@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8b7e09e0-0dd5-a516-475e-0ae5c39ccbc8",
+      "longDescription": "",
+      "shortDescription": "Malware inspection in Office and third party apps",
+      "searchTags": "apps;Malware;Policy",
+      "category": "Policy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b9f5f69-8c34-3a8f-2353-ae09020daeec",
       "longDescription": "",
       "shortDescription": "Access and session policies configuration",
