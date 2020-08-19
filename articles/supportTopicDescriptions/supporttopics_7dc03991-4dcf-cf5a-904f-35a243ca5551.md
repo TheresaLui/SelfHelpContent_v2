@@ -157,6 +157,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6d69e6fa-599d-564e-19bc-fd3bd4392e97",
+      "longDescription": "",
+      "shortDescription": "Onboarding any app to enforce controls to prevent data exfiltration and infiltration ",
+      "searchTags": "apps;conneting;controls",
+      "category": "Apps",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "84eb2e50-1369-c8f2-78ad-bf1f808ba7a2",
       "longDescription": "",
       "shortDescription": "Investigate suspicious users and accounts, including issues in UEBA",
