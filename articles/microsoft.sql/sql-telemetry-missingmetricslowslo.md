@@ -29,5 +29,5 @@ This issue can be mitigated by upgrading the database service tier to S3 or high
 
 ## **Recommended Documents**
  
-* [Scale single database resources in Azure SQL Database](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-scale)
+* [Scale single database resources in Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/single-database-scale)
 * [Resource limits for single databases using the DTU-based purchasing model](https://docs.microsoft.com/azure/sql-database/sql-database-dtu-resource-limits-single-databases)

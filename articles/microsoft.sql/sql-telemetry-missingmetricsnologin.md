@@ -29,4 +29,4 @@ To resume the flow of database metrics, connect to the database and run a query.
 
 ## **Recommended Documents**
  
-* [Monitoring and performance tuning in Azure SQL Database and Azure SQL Managed Instance](https://docs.microsoft.com/en-us/azure/azure-sql/database/monitor-tune-overview)
+* [Monitoring and performance tuning in Azure SQL Database and Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/database/monitor-tune-overview)
