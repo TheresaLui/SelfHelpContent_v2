@@ -29,11 +29,11 @@ The NetworkSourceDelete error usually happens when a Firewall ACL had been creat
         3. Perform a query using the SRP Operations, filter for the appropriate timeframe.
         4. Review ***Failed*** operations with error code ***NetworkAclsNetworkSourceDeleted***
     2. **Kusto**
-        1. Using the folllowing kusto. Make sure to modify the Storage Account name and adjust the timeframe. [Query example link](https://armprod.kusto.windows.net/ARMProd?query=H4sIAAAAAAAEAH2RTU%2fCQBCG7036H8ZewITYWuUAUZMGODQqmrQejPGw7o50te02s9MgiT%2betkBEidx2Zt5n3%2flIMoNv5mtWMmm08A3LDAmB0JqaJMYKMmHB84uVZUNigUJKU5fsgSgV9E2FJFibci4K3EjvtSRjzTufJRvCA0NwVDjJhbVa7vSn3d%2b%2fiZMOuYuT9Hb2nHj%2fKqKnaZz60SSNH%2bYeALiO7%2b%2bGeiSU2mKqC0xYFBXcXIMSjNwk%2bt7QH%2flhEAYQBOMg2DZxgFwdIucjCC%2fGw1FHuc4xN7Ew%2ffAy21NV1E7B7e67%2fufIS0Ofkczt9pl0h5hijozKa8mG%2bUDJhw6D%2fbsN%2fuynK9Y5J3pRCq6pzfy4D0AaIsw7fayaUOQ5UlxFSjVcU3%2fpaYUla171Xl3Hddaaow0kOgIAAA%3d%3d&web=0).
+        1. Using the folllowing kusto. Make sure to modify the Storage Account name and adjust the timeframe. [Query example link](https://armprod.kusto.windows.net/ARMProd?query=H4sIAAAAAAAEAH2RTU%2fCQBCG7yT8h7EXSkJoRTlA1KQBDo2CxNaDMR6W3ZGutl0yOw2a%2bONdCkSUyG3nnffZ%2bZJ5ZRnJb0VUrMioVrurBIuFsOi0h%2bl8qyWZwYX5mJRMGi18wTpDQiC0piKJsYJMWPCC4tOyIbFEIaWpSvZAlArANyskwdqUM1Hg1jvVkow1r9xNtogHhuCkcZQLa7Xc%2b9v157%2bJsxq5i5P0dvKUeP86osdxnAbRKI3vZx4ANBtBsJ9qTii1xVQXmLAoVnBzDW4pyE7wvX4wCHphL4QwHIbhrokj5OoYOR9A72LYH9RUs3Gqmlgav3eZHbjcbdwUvFl%2b3f8MeW3oPZK53T2T%2bhJjzJFReRvSMW8o%2bbhC5%2fBwnT%2f7qZNVzoleloIr2ig%2f1TsgDRHmtT9WLhR5jhSvIqUc5%2fLPLa2wZM2frZdvWsMF%2fl4CAAA%3d&web=0).
 
 ~~~powershell
 
-ShoeboxEntries | where resourceId has "/mystorageaccount" and (operationName has "Microsoft.Storage" or operationName has "Microsoft.ClassicStorage") and operationName !has "LISTKEYS" and operationName !has "AUDIT/ACTION"   
+cluster('Armprod').database('ARMProd').ShoeboxEntries | where resourceId has "/mystorageaccount" and  (operationName has "Microsoft.Storage" or operationName has "Microsoft.ClassicStorage") and operationName !has "LISTKEYS" and operationName !has "AUDIT/ACTION"   
 //| where PreciseTimeStamp >= datetime("5/9/2020 00:00") and PreciseTimeStamp <= datetime("5/9/2019 23:59:00")
 | where PreciseTimeStamp >= ago(24h)
 | where properties has "NetworkAclsNetworkSourceDeleted"
