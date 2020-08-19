@@ -23,7 +23,7 @@ An established connection to SQL Database may be unexpectedly terminated for a v
 **Connection reset by peer: socket {read | write} error**<br>
 **A severe error occurred on the current command.  The results, if any, should be discarded**<br>
 
-## **Recommended Solutions**
+## **Recommended Steps**
 - Check [Resource Health](https://docs.microsoft.com/azure/sql-database/sql-database-resource-health?WT.mc_id=pid:13491:sid:32745426/) to quickly determine whether there was an Azure service issue.
 - If you are using connection pooling, confirm that you test the connection returned from the pool.  Note that the Azure SQL DB gateway terminate sessions that are idle for longer than a certain period of time, and this frequently impacts pooled connections.  Switch the [Connection policy](https://docs.microsoft.com/azure/azure-sql/database/connectivity-architecture?WT.mc_id=pid:13491:sid:32745426#connection-policy) for your server from **proxy** to **redirect** to bypass the gateway after connecting.
 - The Microsoft [JDBC driver](https://docs.microsoft.com/sql/connect/jdbc/connecting-to-an-azure-sql-database?WT.mc_id=pid:13491:sid:32745426&view=sql-server-ver15) and other third party drivers don't enable TCP KeepAlive, which causes the network layer to drop the connection after a certain idle period.  Verify that you have the latest client drivers installed and that the driver enables KeepAlive.
