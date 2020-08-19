@@ -1,20 +1,22 @@
 <properties
-pageTitle="Quota or limits increase"
-description="Quota or limits increase"
+pageTitle="Quota or usage validation"
+description="Quota or usage validation"
 service="microsoft.CognitiveServices"
 resource="accounts"
 authors="alexeyo26"
 ms.author="alexeyo"
 displayOrder=""
 selfHelpType="generic"
-supportTopicIds="32683855"
+supportTopicIds="32683856"
 productPesIds="16870"
 cloudEnvironments="public, MoonCake, fairfax"
-articleId="Speech_Services_quotaOrSubsciptonIssues_quotaOrLimitsIncrease"
+articleId="Speech_Services_quotaOrSubsciptonIssues_quotaOrUsageValidation"
 ownershipId="AzureCogSvc_CognitiveServices"
 />
 
-# Quota or limits increase
+# Quota or usage validation
+
+Existing value of Concurrent Request limit parameter is **not** visible via Azure portal, Command-Line tools, or API requests. To verify the existing value, create an Azure Support Request.
 
 If you receive many **Response Codes 429 ("Too many requests")** or you anticipate a serious growth of the workload review your Speech resource quotas and limits. Request adjustment if needed and possible and follow described best practices.
 
