@@ -197,6 +197,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "90e77fa3-4aad-bef1-ce90-42b8f5737a36",
+      "longDescription": "",
+      "shortDescription": "Shadow IT Discovery and control scenarios, setting app controls and governing app lifecycle",
+      "searchTags": "IT;app;Policies",
+      "category": "Policy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "96b184e9-53c3-dc7e-60de-0e2b691498c9",
       "longDescription": "",
       "shortDescription": "Ingesting data via programmatic access, export more than 5000 records, automate access, upload discovery logs, managing alerts, list activities",
