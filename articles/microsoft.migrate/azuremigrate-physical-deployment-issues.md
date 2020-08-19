@@ -36,7 +36,7 @@ Ensure that the Azure user account used to register the appliance has at least t
 
 Currently, listing of the customer subscriptions managed by a CSP partner is not supported. To register the appliance with an Azure Migrate project in a customer subscription, you need to log in with Azure user account from the customer's tenant to see their subscription(s) in the drop-down.
 
-### Issues in adding physical servers
+### Issues in adding physical, AWS or GCP servers
 
 **I am unable to connect to the physical server due to incorrect credentials or insufficient permissions**
 
@@ -46,6 +46,13 @@ For Linux servers, you need a root account on the Linux servers that you want to
 **I am facing WinRM errors while validating Windows servers**
 
 Execute 'winrm qc' and 'Enable-PSRemoting' commands using PowerShell as an administrator on the server to be discovered. Ensure that WinRM ports 5985 (HTTP) and 5986 (HTTPS) are open.
+
+**I do not want to use a root account to discover Linux servers** 
+
+Find details on an alternative [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-physical#physical-server-requirements).
+
+**Unable to connect to an AWS or GCP server at validation stage in appliance**
+Ensure password-based authentication is turned on in Linux servers. Ensure the port 5985 is open on Windows servers to allow remote WMI calls. On GCP Linux VMs, ensure root login is enabled.
 
 ### Issues after hitting Save and Start discovery
 
