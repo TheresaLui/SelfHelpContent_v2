@@ -261,6 +261,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cf0248af-2633-91d2-d909-3eb8938e687e",
+      "longDescription": "",
+      "shortDescription": "Policies configuration for suspicious user activity, investigate risky users and anomaly detection policies (Impossible travel, Ransomware activities)",
+      "searchTags": "Policy;anomaly;impossible;travel;ransomware",
+      "category": "Policy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d5a58542-0716-7c8c-dd69-052b541701d5",
       "longDescription": "",
       "shortDescription": "Identify managed or unmanaged devices including Microsoft Intune compliant, hybrid Azure AD joined devices, or client certificates",
