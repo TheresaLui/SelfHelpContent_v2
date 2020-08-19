@@ -317,6 +317,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f1e91e08-300c-3b53-d961-f5f15aacf0f9",
+      "longDescription": "",
+      "shortDescription": "Automated log streaming from various data sources with CAS Log collector",
+      "searchTags": "Log;Collector;Connect",
+      "category": "Log collector",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f397719e-5382-360f-8fd6-aeee0b1a5b19",
       "longDescription": "",
       "shortDescription": "Experiencing latency when performing specific actions or logging in, via Conditional Access App Control",
