@@ -17,6 +17,7 @@
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
+# Accounts Onboarding Access Account verification Email ownership
 
 ## **Recommended Steps**
 
