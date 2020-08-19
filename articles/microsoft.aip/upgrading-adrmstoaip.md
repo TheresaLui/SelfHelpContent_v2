@@ -10,7 +10,7 @@
 	supportTopicIds="32727949"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	articleId="MIP_Upgrading_ADRMS_TO_AIP"
 	ownershipId="AzureIdentity_InformationProtection"
 />

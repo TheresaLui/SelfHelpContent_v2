@@ -10,7 +10,7 @@
     supportTopicIds="32683757"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="networking-connectivity-apiserver-issues"
 	ownershipId="Compute_AzureKubernetesService"
 />

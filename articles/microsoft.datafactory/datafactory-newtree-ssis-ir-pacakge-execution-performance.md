@@ -8,11 +8,11 @@
 	articleId="datafactory-newtree-ssis-ir-pacakge-execution-performance.md"
 	displayOrder="15"
 	diagnosticScenario=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32680900"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_DataFactory"
 />
 

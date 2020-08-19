@@ -8,26 +8,26 @@
     ms.author="vrjai"
     displayOrder="1"
     articleId="active-directory-dxp-signin-aadsts-errorcodes"
-    diagnosticScenario="Sign_In_Issues"
+    diagnosticScenario="EnterpriseApps"
     selfHelpType="diagnostics"
     supportTopicIds=""
     resourceTags=""
     productPesIds=""
-    cloudEnvironments="public, Fairfax, Mooncake"
-    ownershipId="AzureIdentity_B2B"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+    ownershipId="AzureIdentity_IdentityDiagnostics"
 />
 
-# Configuration Issue Preventing User Sign-In
+# How Do I Resolve the User Sign-in Issues?
+
 <!--issueDescription-->
+Based on the information you provided we have identified following issue and recommend taking the action to resolve the issue.
 
+**Error Code:** <!--$errorCode-->[errorCode]<!--/$errorCode-->
 
-The sign-in is failing because <!--$recommendedAction-->[recommendedAction]<!--/$recommendedAction-->
+**Message:** <!--$message-->[message]<!--/$message-->
 
+**Action:** <!--$remediation-->[remediation]<!--/$remediation-->
+
+<!--$link-->[link]<!--/$link-->
 
 <!--/issueDescription-->
-
-
-## **Recommended Steps**
-
- 
-[<!--$linkText-->linkText<!--/$linkText-->](<!--$linkVal-->linkVal<!--/$linkVal-->)

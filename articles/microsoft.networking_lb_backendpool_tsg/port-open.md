@@ -10,7 +10,7 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="3e0e741d-d045-4442-bcb5-54e1c69f068d"
 	ownershipId="CloudNet_LoadBalancer"
 />
@@ -21,7 +21,10 @@ In order for a network computer (or Azure VM) to respond to a particular network
 
 ## **Recommended Steps**
 
-### Windows
+1. Use the host-to-guest port scanner diagnostic in ASC > Resource Explorer > SLB > Scan Backend Pool VM
+2. Or manually if #1 above doesn't work
+
+**Windows**
 
 Use the command netstat -ano | findstr LISTENING | findstr 3389 where 3389 is the port number you expect the computer to be listening on. If you do not see any result, the application is not listening on that port and you should troubleshoot the application. If you see output like the following, you know the application is listening:
 
@@ -33,7 +36,7 @@ C:\Users\dgoddard>netstat -ano | findstr LISTENING | findstr 3389
 
 In this example, we see that the application is listening on IPv4 which we know because the second column starts with 0.0.0.0. And, it is listening on IPv6, which we know because the second column is [::]. The last column is the Windows process (PID) of the network application.
 
-### Linux
+**Linux**
 
 The Linux command is similar to Windows: netstat -ano | grep LISTEN | grep 22 where 22 is the port number you expect the computer to be listening on. If you do not see any result, the application is not listening on that port and you should troubleshoot the application. If you see output like the following, you know the application is listening:
 
@@ -45,7 +48,7 @@ tcp6       0      0 :::22                   :::*                    LISTEN      
 
 Again, we can see that the application is running on IPv4 and IPv6.
 
-### Windows Verify the OS firewall is allowing traffic
+**Windows Verify the OS firewall is allowing traffic**
 
 1. Disable the firewall
 
@@ -59,7 +62,7 @@ netsh advfirewall set  currentprofile state off
    3. Sort the 'Action' column twice to show the 'Block' values at the top
    4. For each of the the 'Block' rules, review the 'Local Port' column or and the 'Program' column to identify any blocking rules for the customer port or application
 
-### Linux Verify the OS firewall is allowing traffic
+**Linux Verify the OS firewall is allowing traffic**
 
 1. Disable the firewall
 

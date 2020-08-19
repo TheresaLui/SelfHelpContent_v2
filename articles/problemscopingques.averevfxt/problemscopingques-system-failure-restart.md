@@ -6,10 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32609696"
 	productPesIds="16506"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="50d10e1e-9167-483c-935b-f12448375f8a"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 # Problems involving a system failure or service restart.
 ---

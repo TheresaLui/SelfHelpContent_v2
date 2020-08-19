@@ -7,10 +7,10 @@
     ms.author="jordane"
     displayOrder="1"
     selfHelpType="generic"
-    supportTopicIds="32690852"
+    supportTopicIds="32690890"
     resourceTags=""
     productPesIds="16644"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
     articleid="machinelearning-eventing-automation"
     ownershipId="AzureML_AzureMachineLearningServices"
 />

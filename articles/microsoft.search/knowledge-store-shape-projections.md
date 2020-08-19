@@ -11,7 +11,7 @@
 	resourceTags=""
 	productPesIds="15568"
 	articleId="knowledge-store-shape-enrichment"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureSearch_AzureSearch"
 />
 # Issue shaping enrichment for knowledge store

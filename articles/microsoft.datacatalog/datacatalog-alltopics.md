@@ -10,7 +10,7 @@
 	supportTopicIds="32513916, 32513926, 32592176, 32513925, 32513915, 32513922, 32588402, 32518302, 32513920, 32513917, 32513919, 32513918, 32513923, 32513924"
 	resourceTags=""
 	productPesIds="16054"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="d6bdd78b-cd14-4026-9be5-84c4697d3eaa"
 	ownershipId="AzureData_DataCatalog"
 />

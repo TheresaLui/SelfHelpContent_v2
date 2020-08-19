@@ -10,7 +10,7 @@
     supportTopicIds="32599921"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="c910835b-0cc1-4936-bc5c-c32327edba50"
 	ownershipId="Compute_Automation"
 />
@@ -35,4 +35,4 @@ See the document ["Manage Azure Automation Run-As account"](https://docs.microso
 * [Quickstart create Automation account](https://docs.microsoft.com/azure/automation/automation-quickstart-create-account)<br>
 * [Create standalone Automation account](https://docs.microsoft.com/azure/automation/automation-create-standalone-account)<br>
 * [Automation billing](https://docs.microsoft.com/azure/automation/automation-intro#pricing-for-automation)<br>
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)

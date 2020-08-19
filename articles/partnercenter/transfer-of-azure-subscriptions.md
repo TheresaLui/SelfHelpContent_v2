@@ -10,12 +10,12 @@
 	articleId="partnercenter_transfer_azure_subscriptions"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635703"
+	supportTopicIds="32725897"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Transfer of Azure subscriptions
 Support tickets for this issue should be reported in the Azure portal. To create an Azure support ticket:

@@ -10,9 +10,9 @@
     supportTopicIds="32689855"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="aks-install-platformimagemissingorunavailable"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Platform Image is missing or unavailable

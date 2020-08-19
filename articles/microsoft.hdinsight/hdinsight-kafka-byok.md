@@ -10,7 +10,7 @@
     supportTopicIds="32629038"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-kafka-byok"
 	ownershipId="AzureData_HDInsight"
 />

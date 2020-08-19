@@ -10,18 +10,19 @@
 	supportTopicIds="32642179,32642180"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="7ED212B9-8B43-4F72-9904-6BA274E6FC22"
 	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
-# Troubleshooting Azure Files: Connectivity issue on Linux
+# Troubleshooting Azure File Mount Issues on Linux
 
-## **Recommended Steps**
+## **Recommended Documents**
 
-- Run [troubleshooting script for mounting errors](https://support.microsoft.com/help/4022301/troubleshooter-for-azure-files-shares)<br>
-- Check if you hit [quota error when trying to open a file](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-windows-file-connection-problems#error-1816-not-enough-quota-is-available-to-process-this-command-when-you-copy-to-an-azure-file-share)<br>
+**Troubleshooting for Mounting Errors**
 
+- [Step by step guided walkthrough for mounting errors on Linux](https://docs.microsoft.com/azure/storage/files/storage-troubleshoot-linux-file-connection-problems)<br>
+- [Download and run troubleshooting tool for mounting errors on Linux](https://github.com/Azure-Samples/azure-files-samples/tree/master/AzFileDiagnostics/Linux)<br>
 
 **Linux Client Problems**
 

@@ -4,13 +4,13 @@
 	authors="brentserbus"
 	ms.author="brserbus"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635672"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32730250"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="sproblemscopingques_find_provider"
 	clientIds="partnercenter"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Partner Center Find Provider
 ---

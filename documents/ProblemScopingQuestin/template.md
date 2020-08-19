@@ -1,7 +1,6 @@
 <properties
 	pageTitle=""
 	description=""
-	authors=""
 	ms.author=""
 	selfHelpType=""
 	supportTopicIds=""

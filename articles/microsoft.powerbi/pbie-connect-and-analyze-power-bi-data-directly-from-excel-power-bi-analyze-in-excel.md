@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628083"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="62e48323-9352-0a44-0d33-c76841dbcf26"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Power BI publisher for Excel

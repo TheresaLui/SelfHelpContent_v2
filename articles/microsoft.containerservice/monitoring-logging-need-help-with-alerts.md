@@ -10,7 +10,7 @@
     supportTopicIds="32674476"
     resourceTags="linux"
     productPesIds="16450"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="monitoring-logging-need-help-with-alerts"
 	ownershipId="Compute_AzureKubernetesService"
 />

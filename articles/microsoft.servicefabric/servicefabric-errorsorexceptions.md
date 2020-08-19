@@ -9,7 +9,7 @@
 	supportTopicIds="32449688"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public,BlackForest,Fairfax"
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
 	articleId="b3c9b4b1-0778-4b2d-aa90-035b9c7243b9"
 	ownershipId="Compute_ServiceFabric"
 />

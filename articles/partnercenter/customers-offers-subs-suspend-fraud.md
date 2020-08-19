@@ -10,12 +10,12 @@
 	articleId="partnercenter_customers_suspend_error"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32692616"
+	supportTopicIds="32725896"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 
 # Subscription suspended in error

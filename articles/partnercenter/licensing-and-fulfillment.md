@@ -10,12 +10,12 @@
 	articleId="partnercenter_licensing_and_fulfillment"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635682"
+	supportTopicIds="32692600"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17011"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Pricing_and_Offers"
 />
 # Licensing and fulfillment
 
@@ -27,6 +27,7 @@
 
 * [Dynamics 365 licensing](https://partner.microsoft.com/resources/collection/microsoft-dynamics-365)
 * [Office 365 product documentation](https://docs.microsoft.com/office/)
+* [Communication credits and calling plans](https://docs.microsoft.com/microsoftteams/what-are-communications-credits)
 * [Microsoft 365 product documentation](https://partner.microsoft.com/en-US/resources/collection/microsoft-dynamics-365#/)
 * [Azure Pricing](https://azure.microsoft.com/pricing/)
 * [Azure Products](https://docs.microsoft.com/azure/#pivot=products)

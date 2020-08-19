@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
 	supportTopicIds="32727972"
     productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
     articleId="scoping_protectopencontent_cantapplyprotection"
 	schemaVersion="1"
 	ownershipId="AzureIdentity_InformationProtection"
@@ -42,20 +42,44 @@
                     ],
                     "required": true
                 },{
+                    "id": "office_type",
+                    "order": 6,
+                    "controlType": "dropdown",
+                    "displayLabel": "Which Office version are you using?",
+                    "watermarkText": "Choose an option",
+                    "dropdownOptions": [
+                        {
+                            "value": "Office 20XX Standard (Not supported for Protection)",
+                            "text": "Office 20XX Standard (Not supported for Protection)"
+                        },
+                        {
+                            "value": "Office 20XX ProPlus (Microsoft Apps for Enterprise)",
+                            "text": "Office 20XX ProPlus (Microsoft Apps for Enterprise)"
+                        },
+                        {
+                            "value": "Office 365 Click-To-Run",
+                            "text": "Office 365 Click-To-Run"
+                        },	                    {
+							"value": "dont_know_answer",
+							"text": "None of the above"
+						}
+                    ],
+                    "required": true
+                },{
                 "id": "version_number",
                 "order": 3,
 				"visibility": "client_type == Azure Information Protection client (classic)",
                 "controlType": "textbox",
-                "displayLabel": "What version are you using? For details, use the link in the help balloon",
-				"infoBalloonText": "Verify that you use a <a href='https://docs.microsoft.com/azure/information-protection/rms-client/client-version-release-history'>supported version</a>",
+                "displayLabel": "Which version are you using? For details, use the link in the help balloon",
+				"infoBalloonText": "You can see the version number Using Protect/Sensitivity button - Help and Feedback. Verify that you use a <a href='https://docs.microsoft.com/azure/information-protection/rms-client/client-version-release-history'>supported version</a>",
                 "required": true
                 },{
                 "id": "version_number_ul",
                 "order": 4,
 				"visibility": "client_type == Azure Information Protection Unified Labeling Client",
                 "controlType": "textbox",
-                "displayLabel": "What version are you using? For details, use the link in the help balloon",
-				"infoBalloonText": "Verify that you use a <a href='https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history'>supported version</a>",
+                "displayLabel": "Which version are you using? For details, use the link in the help balloon",
+				"infoBalloonText": "You can see the version number Using Protect/Sensitivity button - Help and Feedback. Verify that you use a <a href='https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history'>supported version</a>",
                 "required": true
                 },{
                     "id": "problem_description",

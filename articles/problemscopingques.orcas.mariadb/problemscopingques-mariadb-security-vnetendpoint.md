@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640160"
     productPesIds="16617"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mariadb-security-vnet_endpoint"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"

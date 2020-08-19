@@ -10,25 +10,32 @@
     supportTopicIds="32629263"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-operator-subscription"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack subscriptions
 
-[Offers](https://docs.microsoft.com/azure-stack/operator/azure-stack-overview) are groups of one or more plans that providers present to users, which those users can buy or subscribe to. This article describes how to create an offer that includes the [plan that you created](https://docs.microsoft.com/azure-stack/operator/azure-stack-create-plan). This offer gives subscribers the ability to set up virtual machines (VMs).
+**Known Issue**
+
+If the **Access Control (IAM)** blade displays **Loading** in a loop, and you can't add new roles to the subscription, make sure that the subscription is checked in the **Directory + Subscription** menu. The menu can be accessed from the top of the portal, near the **Notifications** button, or via the shortcut on the **All resources** blade that displays **Don't see a subscription? Open Directory + Subscription settings**. The subscription must be selected in this menu. This issue affects Azure Stack Hub beginning with version 1910 and will be fixed in an upcoming release.
 
 ## **Recommended Steps**
 
-After you [create an offer](https://docs.microsoft.com/azure-stack/operator/azure-stack-create-offer), users need a subscription to that offer before they can use it. There are two ways that users can get subscribed to an offer:
+If you already created a subscription, review these answers to common support questions. The recommended documents have more background about how to create subscriptions.
 
-* As a cloud operator, you can create a subscription for a user from within the administrator portal. Subscriptions you create can be for both public and private offers. For more information, see: [Create a subscription as a cloud operator](https://docs.microsoft.com/azure-stack/operator/azure-stack-subscribe-plan-provision-vm#create-a-subscription-as-a-cloud-operator)
-* As a tenant user, you can subscribe to a public offer when you use the user portal. For more information see: [Create a subscription as a user](https://docs.microsoft.com/azure-stack/operator/azure-stack-subscribe-plan-provision-vm#create-a-subscription-as-a-user)
+* To add or remove another Owner to a subscription, you need to sign in as an Owner of the subscription. For more information, see [Manage access to resources in Azure Stack Hub with role-based access control](https://docs.microsoft.com/azure-stack/user/azure-stack-manage-permissions).
+* Here are three ways for an operator to see resource allocations in a tenant's Azure AD:
+
+  * Use the [Get-AzsSubscriberUsage Rest API](https://docs.microsoft.com/powershell/module/azs.commerce.admin/get-azssubscriberusage?view=azurestackps-1.7.2). You can use the [Usage PowerShell script](https://github.com/Azure/AzureStack-Tools/blob/master/Usage/Usagesummary.ps1) from the AzureStack-Tools to easily export the data in a CSV file.
+  * Obtain the necessary permissions in the tenant's Azure AD
+  * If necessary, Microsoft support can manually extract information such as VM Compute allocations from Azure Stack Hub
 
 ## **Recommended Documents**
 
-* [Plan, offer, quota, and subscription overview](https://docs.microsoft.com/azure-stack/operator/azure-stack-plan-offer-quota-overview)
+* [Overview](https://docs.microsoft.com/azure-stack/operator/azure-stack-plan-offer-quota-overview)
 * [Offers](https://docs.microsoft.com/azure-stack/operator/azure-stack-plan-offer-quota-overview#offers)
-* [Subscription](https://docs.microsoft.com/azure-stack/operator/azure-stack-plan-offer-quota-overview#subscriptions)
-* [Manage API version profiles](https://docs.microsoft.com/azure-stack/user/azure-stack-version-profiles)
+* [Plans](https://docs.microsoft.com/azure-stack/operator/azure-stack-create-plan)
+* [Create a subscription in the portal](https://docs.microsoft.com/azure-stack/operator/azure-stack-subscribe-plan-provision-vm#create-a-subscription-as-a-user)
+* [Create a subscription with New-AzsUserSubscription](https://docs.microsoft.com/powershell/module/azs.subscriptions.admin/new-azsusersubscription?view=azurestackps-1.8.1)

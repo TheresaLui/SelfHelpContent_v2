@@ -10,9 +10,9 @@
 	supportTopicIds="32630403"
 	resourceTags=""
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="106ae851-713c-45b6-9ab9-f36ecfc976e2"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Security"
 />
 
 # Access Control
@@ -23,8 +23,8 @@
 
 1. Use the following [command](https://docs.microsoft.com/powershell/module/azuread/get-azureadusermembership?view=azureadps-2.0?WT.mc_id=pid:13491:sid:32630403/) to get the Azure AD user’s permissions. <br>
 2. For more information on user roles, please review corresponding [description](https://docs.microsoft.com/sql/relational-databases/security/authentication-access/database-level-roles?view=sql-server-2017?WT.mc_id=pid:13491:sid:32630403/). <br>
-3. If you are not already an Azure Active Directory administrator for your Azure SQL Database server, [follow these steps](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure#provision-an-azure-active-directory-administrator-for-your-azure-sql-database-server?WT.mc_id=pid:13491:sid:32630403/). <br>
-4. Follow [these steps](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins#additional-server-level-administrative-roles?view=sql-server-2017?WT.mc_id=pid:13491:sid:32630403/) to use the server admin role on using T-SQL script to create a new user.
+3. If you are not already an Azure Active Directory administrator for your Azure SQL Database server, [follow these steps](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure?WT.mc_id=pid:13491:sid:32630403/#provision-an-azure-active-directory-administrator-for-your-azure-sql-database-server). <br>
+4. Follow [these steps](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins#additional-server-level-administrative-roles) to use the server admin role on using T-SQL script to create a new user.
 
 ### What access control can be done at the server level
 
@@ -35,6 +35,6 @@
 
 ### Other access control documents
 
-* [Firewall and firewall rules](https://docs.microsoft.com/azure/sql-database/sql-database-control-access#firewall-and-firewall-rules?WT.mc_id=pid:13491:sid:32630403/)<br>
-* [Authentication](https://docs.microsoft.com/azure/sql-database/sql-database-control-access#authentication?WT.mc_id=pid:13491:sid:32630403/)<br>
-* [Authorization](https://docs.microsoft.com/azure/sql-database/sql-database-control-access#authorization?WT.mc_id=pid:13491:sid:32630403/)
+* [Firewall and firewall rules](https://docs.microsoft.com/azure/sql-database/sql-database-control-access?WT.mc_id=pid:13491:sid:32630403/#firewall-and-firewall-rules)<br>
+* [Authentication](https://docs.microsoft.com/azure/sql-database/sql-database-control-access?WT.mc_id=pid:13491:sid:32630403/#authentication)<br>
+* [Authorization](https://docs.microsoft.com/azure/sql-database/sql-database-control-access?WT.mc_id=pid:13491:sid:32630403/#authorization)

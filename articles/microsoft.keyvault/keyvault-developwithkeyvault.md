@@ -10,7 +10,7 @@
 	supportTopicIds="32596888"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="keyvault-authcreateserviceprincipal"
 	ownershipId="AzureKeyVault_KeyVault"
 />

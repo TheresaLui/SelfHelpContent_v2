@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628098"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="f00dda62-5281-c7af-b191-b736427842c7"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Authentication failed with AADSTS70002 or AADSTS50053

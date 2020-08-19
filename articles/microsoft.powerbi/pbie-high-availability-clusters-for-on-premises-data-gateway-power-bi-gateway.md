@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628106"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="dda56ba0-b9a1-6be3-e05b-2b0918711e18"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # High availability clusters for On-premises data gateway

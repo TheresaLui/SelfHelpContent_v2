@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632795"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="3ea09efb-a567-489d-b188-71b42a03bd64"
 	ownershipId="StorageMediaEdge_Backup"
@@ -18,11 +18,6 @@
          "subscriptionRequired": false,
          "title": "Issue with scheduling backup",
          "fileAttachmentHint": "",
-	 "diagnosticCard": {
-		"title": "Issue with scheduling backup",
-		"description": "These diagnostics will check for errors.",
-		"insightNotAvailableText": "We didn't find any problems"
-    },
          "formElements": [{
 		          "id": "issue_type",
                           "order": 1,
@@ -52,16 +47,14 @@
                                       "text": "Other, don't know or not applicable"
                                     }
                               ],
-			 "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+			 "required": true
 	    },{
                           "id": "problem_start_time",
                           "order": 2,
                           "visibility": "null",
                           "controlType": "datetimepicker",
                           "displayLabel": "When did the problem begin?",
-                          "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+                          "required": true
              },{
                           "id": "problem_description",
                           "order": 3,

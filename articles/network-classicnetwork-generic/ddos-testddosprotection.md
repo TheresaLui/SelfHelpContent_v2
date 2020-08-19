@@ -9,7 +9,7 @@
     supportTopicIds="32605610"
     resourceTags=""
     productPesIds="16355"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="835e528b-a59b-45b7-a42c-7698e0936b72"
 	ownershipId="CloudNet_AzureDDoSProtection"
 />

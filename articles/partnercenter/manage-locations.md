@@ -10,12 +10,12 @@
 	articleId="partnercenter_account-locations"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635647"
+	supportTopicIds="32730244"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17000"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 # Account locations
 

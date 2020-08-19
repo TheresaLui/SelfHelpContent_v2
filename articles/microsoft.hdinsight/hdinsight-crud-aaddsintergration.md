@@ -10,7 +10,7 @@
     supportTopicIds="32629016"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-crud-aaddsintergration"
 	ownershipId="AzureData_HDInsight"
 />

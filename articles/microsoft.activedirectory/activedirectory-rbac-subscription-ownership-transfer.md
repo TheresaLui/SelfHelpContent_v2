@@ -7,7 +7,7 @@
     displayOrder="2522"
     selfHelpType="resource"
     resourceTags="Azure_RBAC"
-    cloudEnvironments="public, Fairfax, Mooncake"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="301cb828-36d2-4ce6-a8f0-6c862cbdc7ce"
 	ownershipId="AzureIdentity_User"
 />

@@ -7,7 +7,7 @@
     supportTopicIds="32640643,32640645,32640655"
     productPesIds="16572"
     articleId="virtualwan-problemscopingques-select-vpn-partner"
-    cloudEnvironments="public,mooncake,fairfax"
+    cloudEnvironments="public,mooncake,fairfax, usnat, ussec"
     schemaVersion="1"
 	ownershipId="CloudNet_VirtualWAN"
 />

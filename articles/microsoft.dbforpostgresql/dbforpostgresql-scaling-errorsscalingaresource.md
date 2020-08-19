@@ -9,8 +9,8 @@
     selfHelpType="generic"
     supportTopicIds="32639978"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="7a89af74-874f-4cc1-a34b-77fdb5a0be0d"
     	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
@@ -31,15 +31,16 @@ Most users are able to resolve their issue using the steps below.
 
 * Cannot scale up the master server when a replica exists, or cannot scale down a replica:
 
-    * Before a master server configuration is updated to new values, update the replica configuration to equal or greater values. This action ensures the replica can keep up with any changes made to the master.
+    * Before a master server configuration is updated to new values, update the replica configuration to equal or greater values
 
 * Scaling fails with error "Service is temporarily busy and the operation cannot be performed. Please try again later":
 
     * Try to scale the server again after a few minutes have passed
 
-* The Azure Monitor auto-scale feature is not supported in Azure Database for PostgreSQL. However, you can configure auto-scaling using Azure runbook and python. Please refer to [How to auto-scale an Azure Database for PostgreSQL/MySQL instance with Azure run books and Python](https://techcommunity.microsoft.com/t5/Azure-Database-Support-Blog/How-to-auto-scale-an-Azure-Database-for-MySQL-PostgreSQL/ba-p/369177)
+* The Azure Monitor auto-scale feature is not supported in Azure Database for PostgreSQL. However, you can configure auto-scaling using Azure run books. Please refer to [How to auto-scale an Azure Database for PostgreSQL/MySQL instance with Azure run books and Python](https://techcommunity.microsoft.com/t5/Azure-Database-Support-Blog/How-to-auto-scale-an-Azure-Database-for-MySQL-PostgreSQL/ba-p/369177).
 
 ## **Recommended Documents**
 
+* Learn more about [Azure Postgres compute and storage tiers](https://docs.microsoft.com/azure/postgresql/concepts-pricing-tiers)
 * [Azure Database for PostgreSQL Pricing Page](https://azure.microsoft.com/pricing/details/postgresql/)<br>
 * [Read Replica in Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-read-replicas#replica-configuration/)

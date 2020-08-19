@@ -9,7 +9,7 @@
 	supportTopicIds="32636794"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-admin-georeplication"
 	displayOrder="22"
 	category="Administration"
@@ -30,7 +30,7 @@ Customers can achieve an RTO of zero by enabling multiple-region writes (multi-m
 
 * For multi-region write accounts, you can test High Availability by [adding and removing a region dynamically](https://docs.microsoft.com/azure/cosmos-db/how-to-manage-database-account#addremove-regions-from-your-database-account)  
 
-### How does Free Tier discount work if I have an account with multiple regions?  
+### **How does Free Tier discount work if I have an account with multiple regions?**  
 In multi-region accounts, the RUs of the database or container are replicated in all regions. For example, if you have a container with 400 RUs and the account is in 3 regions, the total RUs of the account is 1200 RUs. When the discount is applied, you will be billed for 1200 RUs – 400 RUs = 800 RUs per hour.
 
 

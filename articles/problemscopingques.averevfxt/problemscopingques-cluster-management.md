@@ -6,10 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32609689"
 	productPesIds="16506"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="c30ef577-2a5f-4f97-87ba-c926edb2352c"
-	ownershipId="ASEP_ContentService_Placeholder"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 # Problems with cluster management
 ---

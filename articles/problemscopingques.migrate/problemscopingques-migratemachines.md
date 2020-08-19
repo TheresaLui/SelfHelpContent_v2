@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32675755"
          productPesIds="16348"
-         cloudEnvironments="public, Fairfax"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="e45ad04c-be9d-4703-ae53-5a5f94b31746"
 	ownershipId="Compute_AzureMigrate"
@@ -16,8 +16,8 @@
 
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Migrate machines",
     "fileAttachmentHint": "",
     "formElements": [

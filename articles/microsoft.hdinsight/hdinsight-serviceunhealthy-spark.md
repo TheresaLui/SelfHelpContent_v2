@@ -10,15 +10,19 @@
     supportTopicIds="32636497"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec, blackforest, mooncake"
 	ownershipId="AzureData_HDInsight"
 />
 
 # Service Unhealthy, Spark Update 2.7
 
+## **Recommended Steps**
+
+**Reboot your nodes.** If your node is unresponsiveness and/or you see that some services have not started, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm).
+
 **Ambari issues**
 
-* Heartbeat Lost: If you are having heartbeat issues with Ambari, see [Apache Ambari heartbeat issues](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues)
+* Heartbeat Lost: If you are having heartbeat issues with Ambari, see [Apache Ambari heartbeat issues](https://docs.microsoft.com/azure/hdinsight/hadoop/apache-ambari-troubleshoot-heartbeat-issues)
 * Ambari DB Connection Limit reached:
 
   * **Cause**: Multiple Hive queries running in parallel or too many nodes
@@ -26,7 +30,7 @@
 
 **Jobs on cluster are slow or failing**
 
-* If jobs on the cluster are running slow or failing, follow the steps in [Troubleshoot a slow or failing job](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
+* If jobs on the cluster are running slow or failing, follow the steps in [Troubleshoot a slow or failing job](https://docs.microsoft.com/azure/hdinsight/hdinsight-troubleshoot-failed-cluster)
 
 **Hive is down**
 
@@ -48,12 +52,12 @@
 
 **Custom Script Actions**
 
-* If you're using a custom script action, review the logs associated with the script action to investigate whether they may be causing a problem. For more information, see [Troubleshooting](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux#troubleshooting).
+* If you're using a custom script action, review the logs associated with the script action to investigate whether they may be causing a problem. For more information, see [Troubleshooting](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-customize-cluster-linux#troubleshooting).
 * **Note**: Microsoft Support teams can offer support only for issues or errors that occur when loading a custom script. Any errors that occur during the execution of custom scripts are outside the scope of a support ticket.
 
 **Error: The account being accessed does not support http**
 
-* If you recently enabled secure transfer on your Storage account and receive the error above, you need to disable secure transfer, or make additional configuration changes as described in [Enable WASBS in HDInsight clusters](https://hdinsight.github.io/hdfs/wasbs-common-problems-regarding-to-wasbs.html)
+* If you recently enabled secure transfer on your Storage account and receive the error above, you need to disable secure transfer, or make additional configuration changes as described in [Enable WASBS in HDInsight clusters](https://hdinsight.github.io/hdfs/wasbs-common-problems-regarding-to-wasbs.html)
 
 ## **Recommended Documents**
 

@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628149"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="6375b31f-2dd9-3f57-771f-d98282de49db"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Code snippets for migrating content from Power BI Workspace Collection  

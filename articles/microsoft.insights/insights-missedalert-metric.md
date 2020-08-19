@@ -13,7 +13,7 @@
 	supportTopicIds="32629638"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="AzureMonitoring_ActionGroup"
 />
 
@@ -41,7 +41,7 @@ If they are not what you want, edit the rule to match what you want.
     - Check if your web hook receiver accepts the [payload sent by metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-near-real-time#payload-schema)
     - Check if you have any [action rules](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-action-rules) that suppress notifications for your alert rule
 
-3. Check if the monitor condition of the alert rule is fired/activated. An alert rule that is in a fired/activated condition will not trigger additional alerts until it's resolved/deactivated, to reduce noise in case of flapping conditions. The alert rule will automatically get resolved/deactivated when the alert condition is not met for three consecutive periods.
+3. Check if the monitor condition of the alert is fired/activated. Metric alerts are stateful, meaning that once an alert is fired on a specific metric time series, additional alerts on that time series will not be fired until the issue is no longer observed. This is done to reduce noise in case of flapping conditions. The alert rule will automatically get resolved/deactivated when the alert condition is not met for three consecutive periods.<br/><br/>If you wish to make a specific metric alert rule stateless, and get alerted on every evaluation in which the alert condition is met, you will need to create the alert rule programmatically (e.g. via ARM, PowerShell, REST, CLI), and set the *autoMitigate* property to 'False'.
 
 4. If you have selected some [dimension values for a metric](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview#using-dimensions), the alert will monitor each individual metric time-series (as defined by a combination of dimension values) for breaching the threshold. If you would like to also monitor the aggregate metric time-series (without any dimensions selected), then configure an additional alert rule on the metric without selecting dimensions.
 

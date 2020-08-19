@@ -9,7 +9,7 @@
 	supportTopicIds="32508611, 32508612, 32508613, 32508614, 32508615, 32508616, 32508617, 32508739"
 	resourceTags="linux"
 	productPesIds="16035"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c01c285a-97d1-4d16-8511-d5c35463c7fa"
 	ownershipId="Compute_AzureContainerService"
 />

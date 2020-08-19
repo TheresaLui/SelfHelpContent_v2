@@ -11,7 +11,7 @@
     selfHelpType="diagnostics"
     supportTopicIds="32730217,32730218,32730219,32730220,32730223"
     productPesIds="16456"
-    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     articleId="d6693265-5e4d-4eae-8bc9-e432a4336077"
     ownershipId="Compute_AzurePolicy"
 />
@@ -32,7 +32,7 @@ The recent policy definition and assignment changes on the user's subscription:
 
 **Is this a built-in policy or initiative?**
 
-* [Understanding ‘Enable Monitoring using Azure Security Center’ initiative](https://docs.microsoft.com/azure/security-center/tutorial-security-policy)
+* [Understanding Enable Monitoring using Azure Security Center initiative](https://docs.microsoft.com/azure/security-center/tutorial-security-policy)
 * [Understanding Policy effects](https://docs.microsoft.com/azure/governance/policy/concepts/effects)
 
 **Is this a custom policy?**
