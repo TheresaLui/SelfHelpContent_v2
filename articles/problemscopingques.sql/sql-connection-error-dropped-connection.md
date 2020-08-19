@@ -65,7 +65,7 @@
         },
         {
           "value": "other_hoster",
-          "text": "Other application hoster/ISP"
+          "text": "Other hoster/ISP"
         },
         {
           "value": "dont_know_answer",
