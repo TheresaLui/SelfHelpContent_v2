@@ -19,4 +19,4 @@
 
 * [Learn how to set up your remote Azure VM with a workspace](https://docs.microsoft.com/azure/machine-learning/how-to-set-up-training-targets#vm)
 * [Learn how to set up Azure databricks with an Azure ML pipeline](https://docs.microsoft.com/azure/machine-learning/how-to-create-your-first-pipeline#databricks)
-* [Leran how to set up your HDInsights for training a model](https://docs.microsoft.com/azure/machine-learning/how-to-set-up-training-targets#hdinsight)
+* [Learn how to set up your HDInsights for training a model](https://docs.microsoft.com/azure/machine-learning/how-to-set-up-training-targets#hdinsight)
