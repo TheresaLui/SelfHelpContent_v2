@@ -229,6 +229,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b28b44c7-aca6-7c76-a1b2-cc5e8b20ce57",
+      "longDescription": "",
+      "shortDescription": "Azure ATP integration, investigation of AD activities, and identity security posture configuration",
+      "searchTags": "ATP;Integration",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b4a094be-0ffc-3a1e-9655-c2d6c43812f2",
       "longDescription": "",
       "shortDescription": "Security configuration recommendations for Azure Security Center, AWS Security Hub, and GCP Security Command Center",
