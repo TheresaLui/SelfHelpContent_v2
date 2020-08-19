@@ -25,8 +25,7 @@ Access to the preview is now self-serve. All details necessary to get started wi
 
 ### **I have not received an email invitation even after submitting the request for the preview.**
 
-Access to the preview is now self-serve. All details necessary to get started will be available in the form response at https://aka.ms/appmapping.
-
+Access to the preview is now self-serve. All details necessary to get started will be available in the form response at [this link](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR35qjpJOBF1MmO4OLvbG-VVUM1UzOVAzVTY2MlM1NE5WMlJXSUhCTkRMOC4u).
 
 ### **I see "Unknown process" in the exported CSV**
 

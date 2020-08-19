@@ -52,7 +52,7 @@ Execute 'winrm qc' and 'Enable-PSRemoting' commands using PowerShell as an admin
 Find details on an alternative [here](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-physical#physical-server-requirements).
 
 **Unable to connect to an AWS or GCP server at validation stage in appliance**
-Ensure password-based authentication is turned on in linux servers. Ensure the port 5985 is open on Windows servers to allow remote WMI calls. On GCP Linux VMs, ensure root login is enabled.
+Ensure password-based authentication is turned on in Linux servers. Ensure the port 5985 is open on Windows servers to allow remote WMI calls. On GCP Linux VMs, ensure root login is enabled.
 
 ### Issues after hitting Save and Start discovery
 
