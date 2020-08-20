@@ -17,7 +17,7 @@
 
 # Cannot open server y requested by the login
 
-**Error 40615: Cannot open server {servername} requested by the login**
+**Error 40615: Cannot open server {servername} requested by the login....  IP address {address} is not allowed**
 
 In Azure SQL Database service, a connection attempt from the internet and Azure must pass through the firewalls before they reach your server or database. There are two types of firewall rules:
 

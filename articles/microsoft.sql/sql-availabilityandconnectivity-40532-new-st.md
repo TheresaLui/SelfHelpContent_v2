@@ -23,6 +23,6 @@
 
 Error 40532 is usually related to one of the following scenarios:
 
-1. The username (or login) contains the '@' symbol (e.g., john@mydomain.com).  If the {servername} value in the error references "mydomain.com" then you are encountering this scenario.  See [Handling Error 40532](https://techcommunity.microsoft.com/t5/azure-database-support-blog/providing-the-server-name-explicitly-in-user-names-for-azure-sql/ba-p/368942?WT.mc_id=pid:13491:sid:32745429/) for how to handle this scenario.
+1. The username (login) contains the '@' symbol (e.g., a login of the form "user@mydomain.com").  If the {servername} value shown in the error is "mydomain.com" then you are encountering this scenario.  See [Handling Error 40532](https://techcommunity.microsoft.com/t5/azure-database-support-blog/providing-the-server-name-explicitly-in-user-names-for-azure-sql/ba-p/368942?WT.mc_id=pid:13491:sid:32745429/) for how to handle this.
 
 1. You use VNet firewall rules. This occurs when a VNet firewall rule was set for one subnet and the user is trying to access from another subnet on the same VNet. It is important to understand the configuration is per subnet inside a VNet and not the whole VNet. Please ensure the same to fix the issue.
