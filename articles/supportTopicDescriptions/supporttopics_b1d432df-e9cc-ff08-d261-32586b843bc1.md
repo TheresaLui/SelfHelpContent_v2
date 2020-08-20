@@ -6,19 +6,20 @@
   selfhelptype="SupportTopicDescription"
   productpesids="b1d432df-e9cc-ff08-d261-32586b843bc1"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
-  articleid="supporttopics_b1d432df-e9cc-ff08-d261-32586b843bc1" />
+  articleid="supporttopics_b1d432df-e9cc-ff08-d261-32586b843bc1"
+  ownershipid="Compute_SiteRecovery" />
 # Support Topic Descriptions for b1d432df-e9cc-ff08-d261-32586b843bc1
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
-  "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "shortDescription": "Questions or issues related to disaster recovery of applications",
+  "longDescription": "",
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
     {
       "id": "108a9981-e25d-9f74-526f-3922308ecf44",
