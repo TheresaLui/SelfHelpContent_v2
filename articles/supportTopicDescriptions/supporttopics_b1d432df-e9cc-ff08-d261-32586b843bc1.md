@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5158c92c-5e40-197a-7cd1-eb3f38b1e518",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to uninstallation of mobility agent",
+      "searchTags": "Mobility Service;Mobility Agent;Uninstall",
+      "category": "Agent",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5756b8c2-2b6b-fccf-f6d9-c0c4e9f2774e",
       "longDescription": "",
       "shortDescription": "Questions or issues related to critical events generated despite availability of latest recovery points",
