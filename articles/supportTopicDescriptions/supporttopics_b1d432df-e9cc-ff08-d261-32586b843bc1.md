@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "10aca573-085c-6309-e213-56ecce0afa6d",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to recovery plan setup, execution, custom scripts, manual actions, etc.",
+      "searchTags": "Recovery Plan;Application Failover",
+      "category": "Failover",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "12af3a5f-cd25-9bb2-bc42-443ab89a080a",
       "longDescription": "",
       "shortDescription": "Questions or issues related to the first recovery point not being generated",
