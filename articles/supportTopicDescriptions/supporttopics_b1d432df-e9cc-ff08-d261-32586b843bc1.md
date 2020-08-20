@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "237b18a0-7d8b-997e-42ba-9f6f4a55400b",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to using Azure Policy to set up and manage ASR",
+      "searchTags": "Azure Policy",
+      "category": "Getting Started",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2d540961-cb2e-de15-b176-c1cab7a22174",
       "longDescription": "",
       "shortDescription": "Questions or issues related to migration of VMs",
