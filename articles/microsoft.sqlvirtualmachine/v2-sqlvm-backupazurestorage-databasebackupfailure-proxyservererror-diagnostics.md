@@ -27,16 +27,16 @@ The error indicates backups might have failed due to proxy authentication errors
   - Connection throttling by Proxy Servers  
   	- Proxy Servers can have settings that limit the number of connections per minute. The Backup to URL process is a multi-threaded process and hence can go over this limit. If this happens, the proxy server kills the connection. To resolve this issue, change the proxy settings so SQL Server is not using the proxy
   - Sometimes the default settings are not picked up causing proxy authentication errors. To resolve this issue, create a configuration file that allows the Backup to URL process to use the default proxy settings using the following steps:
-  	- Create a configuration file namedBackuptoURL.exe.config, with the following xml content: Sample
+  	- Create a configuration file namedBackuptoURL.exe.config, with the following xml content:
 		```xml
-		\<?xml version ="1.0"?\>   
-		\<configuration\>    
-        \<system.net\>    
-        \<defaultProxy enabled="true" useDefaultCredentials="true"\>    
-        \<proxy usesystemdefault="true" /\>    
-        \</defaultProxy\>    
-        \</system.net\>   
-        \</configuration\> 
+		<?xml version ="1.0"?\>   
+		<configuration\>    
+        <system.net\>    
+        <defaultProxy enabled="true" useDefaultCredentials="true"\>    
+        <proxy usesystemdefault="true"\>    
+        </defaultProxy\>    
+        </system.net\>   
+        </configuration\> 
 		```
 	
      
