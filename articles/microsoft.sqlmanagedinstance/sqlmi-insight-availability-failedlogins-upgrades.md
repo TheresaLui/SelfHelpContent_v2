@@ -18,12 +18,12 @@
 />
 # Failed logins due to updates
 
-## ** Failed logins due to updates **
+## **Failed logins due to updates**
 <!--issueDescription-->
 We ran diagnostics on instance **<!--$ServerName-->ServerName<!--/$ServerName-->** between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC and we found failed login(s) caused by reconfiguration(s) due to **planned updates**.  
 <br>
 More details about the failure(s):  
-<!--$TimeFrameList-->TimeFrameList<!--/$TimeFrameList-->
+<!--$SQLMIFailedLoginsDueToUpgradeRCADetails-->SQLMIFailedLoginsDueToUpgradeRCADetails<!--/$SQLMIFailedLoginsDueToUpgradeRCADetails-->
 <!--/issueDescription-->
 
 ## **Recommended Steps**
@@ -35,4 +35,5 @@ Building resiliency into your application to account for these situations can he
 ## **Recommended Documents**
 
 * [Troubleshoot, diagnose, and prevent SQL connection errors and transient errors for SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-connectivity-issues)
-* [Database connection errors](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages#database-connection-errors-transient-errors-and-other-temporary-errors)
+
+* [Retry logic for transient errors](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues#retry-logic-for-transient-errors)

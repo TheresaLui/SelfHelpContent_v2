@@ -10,7 +10,7 @@
 	supportTopicIds="32742786"
 	resourceTags=""
 	productPesIds="16072"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	ownershipId = "Compute_AppService"
 	articleId="60a8fd9a-1bf6-47bf-907d-76b2819f477b"
 />
@@ -43,4 +43,5 @@ Once Slots for Azure Functions are out of (preview) then recommend deployment to
 
 ## **Recommended Documents**
 
+* [Use Visual Studio to create a C# class library-based function that responds to HTTP requests](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio)
 * [Develop Azure Functions using Visual Studio](https://docs.microsoft.com/azure/azure-functions/functions-develop-vs)
