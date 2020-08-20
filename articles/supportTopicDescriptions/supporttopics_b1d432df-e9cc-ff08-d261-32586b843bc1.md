@@ -238,6 +238,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "81d5e16d-7c4e-6cf8-b1b4-0e9e190a2cb0",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to Automation accounts in the context of Site Recovery",
+      "searchTags": "Automation;Automation Account;Auto Upgrades",
+      "category": "Azure Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "901887f6-12b4-333b-2501-cef081c4b594",
       "longDescription": "",
       "shortDescription": "Issues or questions related to re-protect operation failures",
