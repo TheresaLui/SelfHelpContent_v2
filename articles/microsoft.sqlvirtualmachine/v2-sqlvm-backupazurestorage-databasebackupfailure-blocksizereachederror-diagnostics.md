@@ -39,7 +39,7 @@ The error returned indicates you are hitting the 50k block blob limit as your da
 
 ## **Recommended Documents**
 
-* [Backing up a VLDB to Azure Blob Storage](https://techcommunity.microsoft.com/t5/datacat/backing-up-a-vldb-to-azure-blob-storage/ba-p/305441#:~:text=To%20quote%20the%20relevant%20part,include%20up%20to%2050%2C000%20blocks.%E2%80%9D)
+* [Backing up a VLDB to Azure Blob Storage](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url?view=sql-server-ver15#limitations)
 
 
 
