@@ -22,6 +22,7 @@ User permissions for database user are managed through the MariaDB built-in user
 ## **Recommended Steps**
 
 * Review the current [service limitation](https://docs.microsoft.com/azure/mariadb/concepts-limits)
+* If you lose your admin account password, or you need to change the password for any reason follow the [reset password article](https://docs.microsoft.com/azure/mariadb/howto-create-manage-server-portal#update-admin-password) to manage your admin account.
 * For more information on how to manage users and roles in MariaDB, please refer to the public MariaDB community edition documentation for the MariaDB version you are using
 
 ## **Recommended Documents**
