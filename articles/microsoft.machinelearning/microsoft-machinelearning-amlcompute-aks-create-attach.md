@@ -7,7 +7,7 @@
     ms.author="saudas"
     selfHelpType="generic"
     articleId="microsoft-machinelearning-amlcompute-aks-create-attach.md"
-    supportTopicIds="32690886"
+    supportTopicIds="32746413"
     productPesIds="16644"
     cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	ownershipId="AzureML_AzureMachineLearningServices"
