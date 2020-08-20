@@ -270,6 +270,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "84678f4f-99f6-6c83-6d76-5f596f3b38a1",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to set-up or health or update of process server",
+      "searchTags": "Process Server;PS;Appliance",
+      "category": "Components",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "901887f6-12b4-333b-2501-cef081c4b594",
       "longDescription": "",
       "shortDescription": "Issues or questions related to re-protect operation failures",
