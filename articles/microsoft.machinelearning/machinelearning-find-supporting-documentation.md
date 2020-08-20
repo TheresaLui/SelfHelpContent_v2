@@ -14,6 +14,8 @@
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
+# Find supporting documentation
+
 ### **FAQ**
 
 
@@ -22,7 +24,7 @@
 * [Configurations for data storage accounts behind virtual network](https://docs.microsoft.com/azure/machine-learning/how-to-access-data#virtual-network)
 * [Understand our recommended VNet setup](https://docs.microsoft.com/azure/machine-learning/how-to-enable-virtual-network)
 
-### * Remote compute:
+### * Remote compute target:
 * [Learn how to set up your remote Azure VM with a workspace](https://docs.microsoft.com/azure/machine-learning/how-to-set-up-training-targets#vm)
 * [Learn how to set up Azure databricks with an Azure ML pipeline](https://docs.microsoft.com/azure/machine-learning/how-to-create-your-first-pipeline#databricks)
 * [Learn how to set up your HDInsights for training a model](https://docs.microsoft.com/azure/machine-learning/how-to-set-up-training-targets#hdinsight)
