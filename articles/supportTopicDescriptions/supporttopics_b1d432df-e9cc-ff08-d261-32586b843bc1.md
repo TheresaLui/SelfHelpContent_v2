@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a3fa3858-7cd9-165f-f176-5554d34b29b6",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to mobility agent update or upgrade",
+      "searchTags": "Mobility Service;Mobility Agent;Update",
+      "category": "Agent",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "aada2747-a03e-13e7-1147-9c30f1fbe6cb",
       "longDescription": "",
       "shortDescription": "Questions or issues related to resync failures",
