@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bdd1c505-e377-b122-db8c-e24ad6b697e3",
+      "longDescription": "",
+      "shortDescription": "Any other questions or issues while getting started with Site Recovery",
+      "searchTags": "Getting Started",
+      "category": "Getting Started",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dd4ae57a-9b66-813f-1cef-3d0da4ff6d7d",
       "longDescription": "",
       "shortDescription": "Issues or questions related to SLAs offered by ASR",
