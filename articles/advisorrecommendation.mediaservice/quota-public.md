@@ -36,22 +36,22 @@
   },
   "ingestionClientIdentities": [],
   "version": 1.0,
-  "learnMoreLink": "https://azure.microsoft.com/services/media-services/",
-  "description": "Increase the quota limitation in your media account.",
+  "learnMoreLink": "https://aka.ms/ams-quota-recommendation/",
+  "description": "Increase the quota limit in your media account.",
   "longDescription": "You may ask for the quotas to be raised, by opening a support ticket. Include detailed information in the request on the desired quota changes, use-case scenarios, and regions required. Do not create additional Azure Media Services accounts in an attempt to obtain higher limits.",
   "potentialBenefits": "TODO HERE",
   "actions": [
     {
       "actionId": "fbc706f9-98a1-444a-8370-0fb7e121a80c",
-      "description": "Read more about account resouce quotas and limits",
+      "description": "Opening a support ticket. Include detailed information in the request on the desired quota changes, use-case scenarios, and regions required.",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/azure/media-services/latest/limits-quotas-constraints"
+      "documentLink": "https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest"
     }
   ],
   "displayLabel": "Increase Media Account Quota Limitation",
   "tip": "",
   "costSavingInfo": "",
-  "additionalColumns" :["{ \"name\": \"quotaType\", \"title\": \"Quota Limit Type\"}"],
+  "additionalColumns" :[{ "name": "quotaType", "title": "Quota Limit Type"}],
   "testData": "628bddd1-d701-4273-8a5c-6ae0bd476c83,/subscriptions/628bddd1-d701-4273-8a5c-6ae0bd476c83/resourceGroups/zimao1/providers/microsoft.media/mediaservices/zimao1111,\"{\"\"quotaType\"\":\"\"TEST\"\"}\""
 }
 ---
