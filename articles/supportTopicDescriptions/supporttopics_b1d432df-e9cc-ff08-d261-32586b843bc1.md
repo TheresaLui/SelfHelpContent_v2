@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "954d0c5b-1326-f695-2e2d-b26964372540",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to failover failures",
+      "searchTags": "failover",
+      "category": "Failover",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9613fc7e-7069-0b0d-439b-01697a7a7ad2",
       "longDescription": "",
       "shortDescription": "If you have missing crash-consistent points that you wanted to use in order to failover",
