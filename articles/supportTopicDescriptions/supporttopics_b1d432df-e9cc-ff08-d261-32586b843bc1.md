@@ -142,6 +142,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "67eebc4f-71d4-18a8-8eec-b5d164dca1af",
+      "longDescription": "",
+      "shortDescription": "Getting Started with Site Recovery including, licensing, pricing, cost, RBAC, replication policy, and other how to",
+      "searchTags": "Getting Started;Licensing;Pricing;How to",
+      "category": "Getting Started",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "901887f6-12b4-333b-2501-cef081c4b594",
       "longDescription": "",
       "shortDescription": "Issues or questions related to re-protect operation failures",
