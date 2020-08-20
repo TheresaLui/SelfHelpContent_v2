@@ -1,6 +1,6 @@
 <properties
-  pageTitle="'m having issues with receiving email notifications"
-  description="'m having issues with receiving email notifications"
+  pageTitle="I'm having issues with receiving email notifications"
+  description="I'm having issues with receiving email notifications"
   infoBubbleText=""
   service="microsoft.mcas"
   resource=""
@@ -17,7 +17,7 @@
   cloudEnvironments="public, fairfax, usnat, ussec"
 />
 
-# 'm having issues with receiving email notifications
+# I'm having issues with receiving email notifications
 
 Most users are able to resolve email notification issues using the steps below.
 

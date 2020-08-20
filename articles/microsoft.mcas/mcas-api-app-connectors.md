@@ -1,0 +1,42 @@
+<properties
+  pageTitle="I'm having issues with connecting/disabling app connectors"
+  description="I'm having issues with connecting/disabling app connectors"
+  infoBubbleText=""
+  service="microsoft.mcas"
+  resource=""
+  authors="shsagir"
+  ms.author="shsagir"
+  displayOrder=""
+  articleId="mcas-api-app-connectors"
+  diagnosticScenario=""
+  selfHelpType="generic"
+  supportTopicIds="32728968"
+  resourceTags=""
+  productPesIds="16031"
+  ownershipId="CloudAppSecurity_API"
+  cloudEnvironments="public, fairfax, usnat, ussec"
+/>
+
+# I'm having issues with connecting/disabling app connectors
+
+Most users are able to app connector issues using the steps below.
+
+## **Recommended Steps**
+
+1. If you having a problem adding a connector, see the [relevant connector documentation](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps).
+1. If you are getting any of the following errors: "connection error", "no recent status".
+    1. Go to the relevant app and perform a **Test now** check.
+
+        ![Screenshot showing test now](media/mcas-api-app-connectors-test-now.png)
+
+    1. If you are still getting an error, try to resolve the issue using the [troubleshooting guide](https://docs.microsoft.com/cloud-app-security/troubleshooting-api-connectors-using-error-messages).
+1. If the connector is working by you can't see users or activities from the connector, use the following guidelines:
+    1. Allow take up to 72 hours for the first scan to complete.
+    1. After this period, if you there are still missing activities, proceed to open the support case and make sure you provide examples of activities from the service's audit log that are not appearing in Cloud App Security with the ticket.
+1. If you want to disable a connector, see [disabling a connector](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps#disable-app-connectors).
+
+    **Note**: You can disable connectors but you can't remove them.
+
+1. If you want to re-enable a connector, see [re-enable a connector](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps#re-enable-app-connectors).
+
+If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket.
