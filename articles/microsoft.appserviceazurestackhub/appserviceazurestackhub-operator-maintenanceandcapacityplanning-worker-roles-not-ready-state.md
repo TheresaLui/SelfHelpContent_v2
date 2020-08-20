@@ -23,7 +23,7 @@ There can be multiple reasons a worker role is unable to reach a "ready" state, 
 
 ### Missing network security group (NSG) role
 
-If you've deployed to an existing virtual network and are using an internal IP address to connect to your file server, you must add an NSG rule to allow traffic between the worker role subnet and your file server. If you don't, the file server health check will fail on the worker role.
+If you've deployed to an existing virtual network and are using an internal IP address to connect to your file server, you must add an NSG rule to allow traffic between the worker role subnet and your file server. Without the rule, the file server health check will fail on the worker role.
 
 Check the worker role logs to verify file server health check completion:
 
