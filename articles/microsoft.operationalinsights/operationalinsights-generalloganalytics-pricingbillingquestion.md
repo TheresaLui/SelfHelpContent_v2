@@ -3,7 +3,7 @@
   service="microsoft.operationalinsights"
   resource="workspaces"
   ms.author="yossiy,shemers,dalek"
-  selfhelptype="Resource"
+  selfhelptype="32612491"
   supporttopicids="32612512"
   resourcetags=""
   productpesids="15725"
