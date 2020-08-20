@@ -246,6 +246,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7d444694-6251-418e-9984-8bc2ab3f7507",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to set-up or manage or update of master target server",
+      "searchTags": "Master Target Server;MT;Master Target;Appliance;Failback",
+      "category": "Components",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "81d5e16d-7c4e-6cf8-b1b4-0e9e190a2cb0",
       "longDescription": "",
       "shortDescription": "Questions or issues related to Automation accounts in the context of Site Recovery",
