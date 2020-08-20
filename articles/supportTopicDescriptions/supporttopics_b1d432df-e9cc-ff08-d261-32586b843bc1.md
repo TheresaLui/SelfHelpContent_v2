@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0c50ac6e-6a37-82ad-cff8-0cea63cb3c05",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to subscriptions in the context of Site Recovery (such as whitelisting subscriptions for satellite DR regions,  etc.)",
+      "searchTags": "Subscription",
+      "category": "Azure Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0c6a058c-293e-cf4c-1de2-1f0e32d995b6",
       "longDescription": "",
       "shortDescription": "Questions or issues related to configuration of storage accounts",
