@@ -45,8 +45,16 @@
             "required": true
         },
         {
-            "id": "problem_description",
+            "id": "syncgroup",
             "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Sync Group Name",
+            "watermarkText": "Enter Sync Group Name else enter Not Applicable",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "watermarkText": "If applicable, please provide sync group name, server endpoint name, and error message.",
@@ -55,7 +63,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
