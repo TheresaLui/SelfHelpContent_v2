@@ -5,7 +5,7 @@
     ms.author="passap"
 	articleId="StorageScoping_file_sync_management"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32675716,32675717,32675718,32675719"
+	supportTopicIds="32675717,32675718,32675719"
 	productPesIds="16460"
 	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
