@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "12af3a5f-cd25-9bb2-bc42-443ab89a080a",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to the first recovery point not being generated",
+      "searchTags": "Replication;Recovery Point",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2d540961-cb2e-de15-b176-c1cab7a22174",
       "longDescription": "",
       "shortDescription": "Questions or issues related to migration of VMs",
