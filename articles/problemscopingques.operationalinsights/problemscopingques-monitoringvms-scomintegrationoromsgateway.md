@@ -10,12 +10,13 @@ supportTopicIds="32745399,32745400"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
-	ownershipId="AzureMonitoring_LogAnalytics"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # SCOM integration or OMS Gateway
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "SCOM integration or OMS Gateway",
     "fileAttachmentHint": "",
