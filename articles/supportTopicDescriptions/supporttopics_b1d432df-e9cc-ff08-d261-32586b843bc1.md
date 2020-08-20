@@ -350,6 +350,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c14ea9e8-cedf-8f28-511a-78ea0603b6f8",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to adding a new vCenter or changes to existing vCenter",
+      "searchTags": "VMware;Vcenter",
+      "category": "Components",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d6183d23-5a19-8a1e-c697-e0d68a0f124e",
       "longDescription": "",
       "shortDescription": "Questions or issues related to proximity placement groups in the context of Site Recovery",
