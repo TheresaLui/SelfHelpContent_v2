@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "79a77b49-d714-609b-92b8-b0add4602c08",
+      "longDescription": "",
+      "shortDescription": "Questions related to roles, permissions, access to set up and manage ASR",
+      "searchTags": "RBAC;Authentication;Authorization;Role based access control;Roles",
+      "category": "Getting Started",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "901887f6-12b4-333b-2501-cef081c4b594",
       "longDescription": "",
       "shortDescription": "Issues or questions related to re-protect operation failures",
