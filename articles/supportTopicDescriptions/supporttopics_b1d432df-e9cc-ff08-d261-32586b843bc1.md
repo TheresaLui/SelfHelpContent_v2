@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "aada2747-a03e-13e7-1147-9c30f1fbe6cb",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to resync failures",
+      "searchTags": "Resynchronization;Resync",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f106a7ff-24c6-d5fc-a5bd-622f94449a05",
       "longDescription": "",
       "shortDescription": "If you have missing app-consistent points that you wanted to use in order to failover",
