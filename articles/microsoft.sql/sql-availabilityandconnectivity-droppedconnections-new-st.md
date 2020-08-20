@@ -17,15 +17,25 @@
 
 # Dropped connections, Communication link failure, Connection resets
 
-* SQL Azure requires connections over the internet or other complex networks and because of this, you should be prepared to handle unexpected dropping of connections. Established connections consist of: connections that are returning data, open connections in the connection pool, or connections being cached in client side variables. When you are connecting to SQL database, connection loss is a valid scenario that you need to plan for in your code. The best way to handle connection loss it to re-establish the connection and then re-execute the failed commands or query.
+An established connection to SQL Database may be unexpectedly terminated for a variety of reasons.  This could be due to an issue within Azure (maintenance, user-initiated scaling, etc), network issues between the service and client application (including the Internet, internet service providers and on-premise network), or even the client application.  Error messages will vary depending on which client library is used by the application and what layer terminated the connection.  Some of the common errors are:
 
-* The quality of all network components between the machine running your client code and the SQL DB Servers is at times outside of Microsoft’s sphere of control.  There are many number of reasons that may result in the disconnection of your sessions. In circumstances when you encounter network problem causing disconnections, please use the below connectivity checker tool to identify the problematic behavior.
+**Communication Link Failure**<br>
+
+**Connection reset by peer: socket {read | write} error**<br>
+
+**A severe error occurred on the current command.  The results, if any, should be discarded**<br>
+
+
+## **Recommended Steps**
+- Check [Resource Health](https://docs.microsoft.com/azure/sql-database/sql-database-resource-health?WT.mc_id=pid:13491:sid:32745426/) to quickly determine whether there was an Azure service issue.
+- The Azure SQL DB gateway terminate sessions that are idle for longer than 30 minutes.  This frequently impacts pooled, idle connections.  Switch the [Connection policy](https://docs.microsoft.com/azure/azure-sql/database/connectivity-architecture?WT.mc_id=pid:13491:sid:32745426#connection-policy) for your server from **proxy** to **redirect**, which bypasses the gateway once connected, eliminating this issue.
+- The Microsoft JDBC driver and some other third party drivers don't enable TCP KeepAlive, which causes the TCP network layer to drop the connection after a certain idle period.  Verify that you have the latest client drivers installed and that the driver enables [KeepAlive](https://docs.microsoft.com/sql/connect/jdbc/connecting-to-an-azure-sql-database?WT.mc_id=pid:13491:sid:32745426&view=sql-server-ver15#connections-dropped).
+- Make sure that all production applications have robust [retry logic](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745426#retry-logic-for-transient-errors) to handle dropped connections and transient errors.
+
+
 
 ### **Azure SQL Connectivity Checker tool**
-
-This PowerShell script will run some connectivity checks from your machine to the server and database.
-
-In order to run it you need to:
+Because some of these errors involve network configuration, this client-side network connectivity checker can identify common configuration/network issues that may manifest in one of these errors.  This Powershell script is run from the client machine where the error is occurring.
 
 <ol>
 <li> Open Windows PowerShell ISE in Administrator mode. For the better results, our recommendation is to use the advanced connectivity tests which demand to start PowerShell in Administrator mode. You can still run the basic tests, in case you decide not to run this way. Please note that script parameters 'RunAdvancedConnectivityPolicyTests' and 'CollectNetworkTrace' will only work if the admin privileges are granted.</li><br>
