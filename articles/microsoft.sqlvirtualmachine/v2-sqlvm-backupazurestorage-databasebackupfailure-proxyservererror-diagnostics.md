@@ -28,11 +28,10 @@ The error indicates backups might have failed due to proxy authentication errors
   	- Proxy Servers can have settings that limit the number of connections per minute. The Backup to URL process is a multi-threaded process and hence can go over this limit. If this happens, the proxy server kills the connection. To resolve this issue, change the proxy settings so SQL Server is not using the proxy
   - Sometimes the default settings are not picked up causing proxy authentication errors. To resolve this issue, create a configuration file that allows the Backup to URL process to use the default proxy settings using the following steps:
   	- Create a configuration file namedBackuptoURL.exe.config, with the following xml content:
-		~~~xml
-		<string xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
-		Primary Instance: GatewayTenantWorker_IN_0 GatewayTenantVersion: 19.6.100.26 OSVersion: Windows Server 2012 R2 Datacenter
-		</string>
-		~~~
+		```xml		
+		\<configuration\>Sample      
+        \</configuration\> 
+		```
 	
      
 	- Place the configuration file in the Binn folder of the SQL Server Instance. For example, if my SQL Server is installed on the C drive of the machine, place the configuration file in C:\Program Files\Microsoft SQL Server\MSSQL13.\<InstanceName>\MSSQL\Binn.
