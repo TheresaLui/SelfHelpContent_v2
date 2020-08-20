@@ -1,7 +1,7 @@
 <properties
 	pageTitle="usererrorolrnotsupportedonrpwithdisksexcluded"
 	description="usererrorolrnotsupportedonrpwithdisksexcluded"
-	infoBubbleText="Restore operation failed because you have a VM with write accelerator disks"
+	infoBubbleText="This RP had some disks excluded during backup, original location restore from such RPs is not supported"
 	service="microsoft.recoveryservices"
 	resource="backup"
 	authors="srinathv"
