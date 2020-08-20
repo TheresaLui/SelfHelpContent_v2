@@ -52,6 +52,14 @@
       "searchTags": "Synchronizing;Sync;Synchronization;Initial Replication;Replication",
       "category": "Replication",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f106a7ff-24c6-d5fc-a5bd-622f94449a05",
+      "longDescription": "",
+      "shortDescription": "If you have missing app-consistent points that you wanted to use in order to failover",
+      "searchTags": "app-consistent recovery points;Application-consistent recovery points;Application consistent;Replication points",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
