@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "378c6e90-5ead-cab2-8314-e110bb9bd2b7",
+      "longDescription": "",
+      "shortDescription": "Issues with Re-protect operation or failback",
+      "searchTags": "reprotect;re-protect;Failback;Fail back",
+      "category": "Reprotect or Failback",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3889959d-d02e-d1c1-728b-16b7c3fa7d30",
       "longDescription": "",
       "shortDescription": "Questions or issues related to initial replication being stuck or taking longer than expected",
