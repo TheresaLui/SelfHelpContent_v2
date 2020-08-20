@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1502f701-e011-2523-c35a-1982f264ba27",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to connectivity failures like URL whitelist, express route etc.,",
+      "searchTags": "Mobility Service;Mobility Agent;Extension;Install;Connectivity",
+      "category": "Agent",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "20a1f799-1c6f-7453-128e-58a7e5da882a",
       "longDescription": "",
       "shortDescription": "Questions or issues related to booting up the secondary VM, accessing it, etc. post test failover",
