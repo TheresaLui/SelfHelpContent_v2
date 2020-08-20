@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dd4ae57a-9b66-813f-1cef-3d0da4ff6d7d",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to SLAs offered by ASR",
+      "searchTags": "SLA;RTO;RPO",
+      "category": "Getting Started",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e26321ea-74ee-7362-4daa-49d50aa45071",
       "longDescription": "",
       "shortDescription": "Questions or issues related to creating or editing replication policy",
