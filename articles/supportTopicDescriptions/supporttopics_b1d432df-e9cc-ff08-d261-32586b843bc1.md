@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3193857c-4d6e-4219-c2d2-c345a00e4ff7",
+      "longDescription": "",
+      "shortDescription": "Questions related to free tier usage, ASR charges, other charges incurred while using ASR",
+      "searchTags": "Price;Pricing;Cost;Free;Egress",
+      "category": "Getting Started",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "378c6e90-5ead-cab2-8314-e110bb9bd2b7",
       "longDescription": "",
       "shortDescription": "Issues with Re-protect operation or failback",
