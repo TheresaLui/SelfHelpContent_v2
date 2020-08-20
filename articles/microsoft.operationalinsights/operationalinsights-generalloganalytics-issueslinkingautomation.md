@@ -3,19 +3,18 @@
 pageTitle="Issues linking Automation account"
 description="Issues linking Automation account"
 service="microsoft.operationalinsights"
-infoBubbleText=""
 resource="workspaces"
 symptomID=""
+infoBubbleText=""
 authors="yossiy"
-ms.author="yossiy"
 displayorder="9"
-selfHelpType="generic"
+selfHelpType="resource"
 supportTopicIds="32612473"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
-articleId="a89bf446-83cb-4993-a918-7dbd139cf6d8"
-ownershipId="AzureMonitoring_LogAnalytics"
+    articleId="a89bf446-83cb-4993-a918-7dbd139cf6d8"
+    ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Issues linking Automation account
