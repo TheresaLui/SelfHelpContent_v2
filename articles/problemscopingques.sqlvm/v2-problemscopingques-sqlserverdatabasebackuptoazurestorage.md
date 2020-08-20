@@ -166,8 +166,7 @@
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "useAsAdditionalDetails": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "useAsAdditionalDetails": true
         },
         {
             "id": "backuptoazurestorage_issue_type",
