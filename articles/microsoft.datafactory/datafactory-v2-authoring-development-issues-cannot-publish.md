@@ -21,6 +21,31 @@
 
 * Review permissions are setup accordingly, see [Roles and permissions for Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-roles-permissions)
 
+### __Common Errors__
+
+**InvalidResourceIdentityPrincipalId**:  The Data Factory does not contain a managed identity, this could be caused by moving resources across tenants.
+
+If you see this error after performing a change on your Data Factory, you can try generating a new managed identity to resolve it. You can use Powershell or the REST API as mentioned in [_Generate service identity_](https://docs.microsoft.com/azure/data-factory/data-factory-service-identity#generate-service-identity), below are the steps when using powershell:
+
+*Install Powershell AZ module, connect to Azure and select the subscription hosting your Data Factory*
+```
+Install-Module -Name Az -AllowClobber
+Connect-AzAccount
+Get-AzSubscription -SubscriptionName "MyProdSubscription"
+Select-AzSubscription -SubscriptionName "your subscription name" 
+```
+*Execute cmdlet to create new managed Identity*
+```
+PS C:\WINDOWS\system32> Set-AzDataFactoryV2 -ResourceGroupName <resourceGroupName> -Name <dataFactoryName> -Location <region>
+
+DataFactoryName   : ADFV2DemoFactory
+DataFactoryId     : /subscriptions/<subsID>/resourceGroups/<resourceGroupName>/providers/Microsoft.DataFactory/factories/ADFV2DemoFactory
+ResourceGroupName : <resourceGroupName>
+Location          : East US
+Tags              : {}
+Identity          : Microsoft.Azure.Management.DataFactory.Models.FactoryIdentity
+ProvisioningState : Succeeded
+```
 
 ## **Recommended Documents**
 
