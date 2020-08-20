@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "309a0c13-7c68-20c1-71c0-3e8492f95e8f",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to powershell script to set up and manage ASR",
+      "searchTags": "Powershell",
+      "category": "Getting Started",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "378c6e90-5ead-cab2-8314-e110bb9bd2b7",
       "longDescription": "",
       "shortDescription": "Issues with Re-protect operation or failback",
