@@ -16,7 +16,7 @@
 	articleId="995ae6e2-dfe9-46a4-9a67-de825f461871-azurestorage"
 	ownershipId="AzureData_AzureSQLVM"
 />
-# We ran diagnostics on your resource and found an issue
+# We ran diagnostics on your resource and found an issue 
 
 <!--issueDescription-->
 This issue can occur if there was some issue with network while backing up a database to Azure storage.
