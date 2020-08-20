@@ -41,6 +41,11 @@ The error indicates backups might have failed due to proxy authentication errors
 		```
  
 	- Place the configuration file in the Binn folder of the SQL Server Instance. For example, if my SQL Server is installed on the C drive of the machine, place the configuration file in C:\Program Files\Microsoft SQL Server\MSSQL13.\<InstanceName>\MSSQL\Binn.
+		
+		```xml  
+		\<configuration\>            
+        \</configuration\> 
+		```
 
 ## **Recommended Documents**
 
