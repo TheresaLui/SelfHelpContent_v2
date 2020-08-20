@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "108a9981-e25d-9f74-526f-3922308ecf44",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to backup and restore of VMs, files, disks, etc.",
+      "searchTags": "Backup;Azure Backup;Recovery",
+      "category": "Azure Backup",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3889959d-d02e-d1c1-728b-16b7c3fa7d30",
       "longDescription": "",
       "shortDescription": "Questions or issues related to initial replication being stuck or taking longer than expected",
