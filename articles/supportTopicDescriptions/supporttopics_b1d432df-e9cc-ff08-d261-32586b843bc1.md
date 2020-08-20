@@ -182,6 +182,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7a1c1cbe-5bcc-2cc9-5e10-7455c2e630e3",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to other Azure Resources using Site Recovery",
+      "searchTags": "Resource Groups;Storage Accounts;Disks;Recovery Services Vault;Vault",
+      "category": "Azure Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "901887f6-12b4-333b-2501-cef081c4b594",
       "longDescription": "",
       "shortDescription": "Issues or questions related to re-protect operation failures",
