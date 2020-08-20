@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "90620476-bca5-d605-9cdc-2191db3cb2df",
+      "longDescription": "",
+      "shortDescription": "Issues or Questions regarding the mobility agent including install, updates, removal and uninstall",
+      "searchTags": "Mobility Agent;Extension;Mobility Services;Site Recovery Agent;ASR Agent",
+      "category": "Agent",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "94017ff0-2ad1-1199-a64c-6d1ed9af9a4c",
       "longDescription": "",
       "shortDescription": "Issues or questions related to failback operation failures",
