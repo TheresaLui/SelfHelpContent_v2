@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7113547d-fb9b-3bba-2abf-81b7b57e8b77",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to Recovery Services vault",
+      "searchTags": "Vault;Recovery Services Vault",
+      "category": "Azure Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "79a77b49-d714-609b-92b8-b0add4602c08",
       "longDescription": "",
       "shortDescription": "Questions related to roles, permissions, access to set up and manage ASR",
