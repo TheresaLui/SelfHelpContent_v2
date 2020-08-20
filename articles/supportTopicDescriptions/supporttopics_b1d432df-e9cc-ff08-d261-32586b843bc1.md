@@ -174,6 +174,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "52a1191f-bba6-89f7-aa9e-ce327594fbaa",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to set-up or manage or update of configuration server",
+      "searchTags": "Configuration Server;CS;Appliance",
+      "category": "Components",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5756b8c2-2b6b-fccf-f6d9-c0c4e9f2774e",
       "longDescription": "",
       "shortDescription": "Questions or issues related to critical events generated despite availability of latest recovery points",
