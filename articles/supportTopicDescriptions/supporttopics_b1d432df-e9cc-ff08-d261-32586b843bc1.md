@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "20d5ad2f-f6cf-d022-33c1-45b85bba680a",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to Azure extension installation failure, Not ready state, update failure etc.,",
+      "searchTags": "Mobility Agent;Mobility Services;Extension;Install;Agent",
+      "category": "Agent",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2d540961-cb2e-de15-b176-c1cab7a22174",
       "longDescription": "",
       "shortDescription": "Questions or issues related to migration of VMs",
