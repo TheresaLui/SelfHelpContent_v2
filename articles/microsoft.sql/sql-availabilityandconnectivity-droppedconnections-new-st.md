@@ -20,13 +20,16 @@
 An established connection to SQL Database may be unexpectedly terminated for a variety of reasons.  This could be due to an issue within Azure (maintenance, user-initiated scaling, etc), network issues between the service and client application (including the Internet, internet service providers and on-premise network), or even the client application.  Error messages will vary depending on which client library is used by the application and what layer terminated the connection.  Some of the common errors are:
 
 **Communication Link Failure**<br>
+
 **Connection reset by peer: socket {read | write} error**<br>
+
 **A severe error occurred on the current command.  The results, if any, should be discarded**<br>
+
 
 ## **Recommended Steps**
 - Check [Resource Health](https://docs.microsoft.com/azure/sql-database/sql-database-resource-health?WT.mc_id=pid:13491:sid:32745426/) to quickly determine whether there was an Azure service issue.
-- If you are using connection pooling, confirm that you test the connection returned from the pool.  Note that the Azure SQL DB gateway terminate sessions that are idle for longer than a certain period of time, and this frequently impacts pooled connections.  Switch the [Connection policy](https://docs.microsoft.com/azure/azure-sql/database/connectivity-architecture?WT.mc_id=pid:13491:sid:32745426#connection-policy) for your server from **proxy** to **redirect** to bypass the gateway after connecting.
-- The Microsoft [JDBC driver](https://docs.microsoft.com/sql/connect/jdbc/connecting-to-an-azure-sql-database?WT.mc_id=pid:13491:sid:32745426&view=sql-server-ver15) and other third party drivers don't enable TCP KeepAlive, which causes the network layer to drop the connection after a certain idle period.  Verify that you have the latest client drivers installed and that the driver enables KeepAlive.
+- The Azure SQL DB gateway terminate sessions that are idle for longer than 30 minutes.  This frequently impacts pooled, idle connections.  Switch the [Connection policy](https://docs.microsoft.com/azure/azure-sql/database/connectivity-architecture?WT.mc_id=pid:13491:sid:32745426#connection-policy) for your server from **proxy** to **redirect**, which bypasses the gateway once connected, eliminating this issue.
+- The Microsoft JDBC driver and some other third party drivers don't enable TCP KeepAlive, which causes the TCP network layer to drop the connection after a certain idle period.  Verify that you have the latest client drivers installed and that the driver enables [KeepAlive](https://docs.microsoft.com/sql/connect/jdbc/connecting-to-an-azure-sql-database?WT.mc_id=pid:13491:sid:32745426&view=sql-server-ver15#connections-dropped).
 - Make sure that all production applications have robust [retry logic](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues?WT.mc_id=pid:13491:sid:32745426#retry-logic-for-transient-errors) to handle dropped connections and transient errors.
 
 

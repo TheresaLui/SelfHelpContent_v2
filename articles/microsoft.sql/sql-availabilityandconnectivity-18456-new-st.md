@@ -27,7 +27,7 @@ Error 18456 indicates that Azure SQL DB rejected a login request for one or more
 - Expired or invalid AAD token: *You might get this error if the token has expired, if the token issuer is invalid, if no object Id is present in the token, if the token signature is incorrect or invalid or if SQL Server was unable to get the token from ADAL.*
 - Connections rejected due to DoSGuard protection: *[DoSGuard](https://docs.microsoft.com/azure/security/fundamentals/infrastructure-sql?WT.mc_id=pid:13491:sid:32745428/#dosguard) actively tracks failed logins from IP addresses. If there are multiple failed logins from a specific IP address within a period of time, the IP address is blocked from accessing any resources in the service for a pre-defined time period--even if the password and other permissions are correct.*
 
-* The reason for the login failure is indicated by the State code of the error.  However, the error message that is returned to the client deliberately overrides the state code so as to not give hackers any authentication-related information. Running the connectivity troubleshooter above may return a more detailed message indicating specifically why your logins are failing.
+The reason for the login failure is indicated by the State code of the error.  However, the error message that is returned to the client deliberately overrides the state code so as to not give hackers any authentication-related information. Running the connectivity troubleshooter above may return a more detailed message indicating specifically why your logins are failing.
 
 
 ## **Recommended Documents**

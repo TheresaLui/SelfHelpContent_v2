@@ -33,11 +33,9 @@ In Azure SQL Database service, a connection attempt from the internet and Azure 
   * [sp_set_database_firewall_rule](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-set-database-firewall-rule-azure-sql-database?WT.mc_id=pid:13491:sid:32745431&view=azuresqldb-current)
   * [sp_delete_database_firewall_rule](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-delete-database-firewall-rule-azure-sql-database?WT.mc_id=pid:13491:sid:32745431&view=azuresqldb-current)
 
-  Please visit [Server-level versus database-level IP firewall rules](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745431#server-level-versus-database-level-ip-firewall-rules) to understand the difference between server level and database level firewall rules.
+Please visit [Server-level versus database-level IP firewall rules](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745431#server-level-versus-database-level-ip-firewall-rules) to understand the difference between server level and database level firewall rules.
 
-### **Troubleshooting database firewall rule issues**
-
-If you are seeing that the firewall rules are not behaving as expected, please follow the [recommendations](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745431#troubleshoot-the-database-firewall).
+If you are seeing that the firewall rules are not behaving as expected, please follow these [recommendations](https://docs.microsoft.com/azure/azure-sql/database/firewall-configure?WT.mc_id=pid:13491:sid:32745431#troubleshoot-the-database-firewall).
 
 ## **Recommended Documents**
 
