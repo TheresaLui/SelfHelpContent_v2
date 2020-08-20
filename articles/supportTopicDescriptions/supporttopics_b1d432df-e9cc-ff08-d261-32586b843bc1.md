@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2d540961-cb2e-de15-b176-c1cab7a22174",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to migration of VMs",
+      "searchTags": "Migration;Migrate;Azure Migrate",
+      "category": "VM Migration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3889959d-d02e-d1c1-728b-16b7c3fa7d30",
       "longDescription": "",
       "shortDescription": "Questions or issues related to initial replication being stuck or taking longer than expected",
