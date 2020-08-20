@@ -238,6 +238,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a8731877-7393-2f73-a2bf-3c7827f786a0",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to encryption in the context of Site Recovery",
+      "searchTags": "Encryption;Azure Disk Encryption;ADE;Customer Managed Keys;CMK",
+      "category": "Azure Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "aada2747-a03e-13e7-1147-9c30f1fbe6cb",
       "longDescription": "",
       "shortDescription": "Questions or issues related to resync failures",
