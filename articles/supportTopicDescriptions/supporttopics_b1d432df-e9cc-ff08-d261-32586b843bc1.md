@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f39113ec-6ef4-1486-c460-a0b431b3f680",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to test failover failures",
+      "searchTags": "test failover",
+      "category": "Failover",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fc642169-03ff-e4f8-9388-992bf132eef9",
       "longDescription": "",
       "shortDescription": "Questions or issues related to failover or  test failover failures",
