@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "464e0485-ffed-63b8-656d-ce83d925b7bf",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to booting up the secondary VM, accessing it, etc. post failover",
+      "searchTags": "Connect;Connection;Boot;RDP",
+      "category": "Failover",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5158c92c-5e40-197a-7cd1-eb3f38b1e518",
       "longDescription": "",
       "shortDescription": "Issues or questions related to uninstallation of mobility agent",
