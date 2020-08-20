@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "901887f6-12b4-333b-2501-cef081c4b594",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to re-protect operation failures",
+      "searchTags": "Reprotect;Fail",
+      "category": "Reprotect or Failback",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "94017ff0-2ad1-1199-a64c-6d1ed9af9a4c",
       "longDescription": "",
       "shortDescription": "Issues or questions related to failback operation failures",
