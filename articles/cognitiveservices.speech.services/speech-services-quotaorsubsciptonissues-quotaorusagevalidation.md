@@ -16,7 +16,26 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 # Quota or usage validation
 
-Existing value of Concurrent Request limit parameter is **not** visible via Azure portal, Command-Line tools, or API requests. To verify the existing value, create an Azure Support Request.
+See all existing Speech Services quotas and limits:
+
+- Speech-to-text
+- Text-to-speech
+
+## Validation of Concurrent Request limit
+
+Existing value of Concurrent Request limit parameter for **Standard (S0)** price tier is **not** visible via Azure portal, Command-Line tools, or API requests. To verify the existing value, proceed further and create an Azure Support Request.
+
+Please, have the following information ready and enter it to the *Description* field of the *Details* part of this support request:
+
+- Information for Speech-to-text
+- Information for Text-to-speech  
+
+## **Recommended Documents**
+
+!!!
+
+
+
 
 If you receive many **Response Codes 429 ("Too many requests")** or you anticipate a serious growth of the workload review your Speech resource quotas and limits. Request adjustment if needed and possible and follow described best practices.
 
