@@ -46,6 +46,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "20a1f799-1c6f-7453-128e-58a7e5da882a",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to booting up the secondary VM, accessing it, etc. post test failover",
+      "searchTags": "Connect;Connection;Boot;RDP",
+      "category": "Failover",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2d540961-cb2e-de15-b176-c1cab7a22174",
       "longDescription": "",
       "shortDescription": "Questions or issues related to migration of VMs",
