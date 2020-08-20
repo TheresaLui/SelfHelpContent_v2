@@ -30,10 +30,7 @@ When the customer goes to the solutions page, the offer type associated with the
   * Understand terms on Azure Usage charges: [Microsoft Customer Agreement Usage Terms explained](https://docs.microsoft.com/azure/cost-management-billing/understand/mca-understand-your-usage)
   * If you're have a [Microsoft Customer Agreement](https://docs.microsoft.com/azure/cost-management-billing/manage/download-azure-invoice-daily-usage-date#check-access-to-a-microsoft-customer-agreement), you can download usage in the [Azure portal](https://portal.azure.com/)
 
-
 **Azure Reservation**: **Windows and SQL software** is charged separately with Azure reserved instances. [Learn more](https://docs.microsoft.com/azure/cost-management-billing/reservations/reserved-instance-windows-software-costs)
-
-
 
 For **Storage** usage, the user can enable Storage Analytics. Enabling Storage Analytic logs gives user the ability to have per-transaction logging. The logs are quite detailed and users can do end-to-end tracing and debugging on their own. More details are available at the below links:
 

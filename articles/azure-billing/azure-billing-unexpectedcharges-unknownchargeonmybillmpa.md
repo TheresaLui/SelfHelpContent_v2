@@ -23,15 +23,12 @@ When the customer goes to the solutions page, the offer type associated with the
 
 <!--/issueDescription-->
 
-
 **Microsoft Partner Agreement (MPA)**
 
   * To help review and understand your bill, please refer to: [Tutorial:Review your Microsoft Partner Agreement invoice](https://docs.microsoft.com/azure/cost-management-billing/understand/review-partner-agreement-bill)
   * Understand terms on your invoice: [Terms in Microsoft Partner Agreement invoice explained](https://docs.microsoft.com/azure/cost-management-billing/understand/mpa-invoice-terms)
 
-
 **Azure Reservation**: **Windows and SQL software** is charged separately with Azure reserved instances. [Learn more](https://docs.microsoft.com/azure/cost-management-billing/reservations/reserved-instance-windows-software-costs)
-
 
 For **Storage** usage, the user can enable Storage Analytics. Enabling Storage Analytic logs gives user the ability to have per-transaction logging. The logs are quite detailed and users can do end-to-end tracing and debugging on their own. More details are available at the below links:
 

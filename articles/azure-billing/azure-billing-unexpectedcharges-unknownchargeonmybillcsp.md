@@ -28,9 +28,7 @@ When the customer goes to the solutions page, the offer type associated with the
   * Learn more on how billing works in Azure Cloud Solution Provider (Azure CSP) program: [Azure CSP Billing](https://docs.microsoft.com/azure/cloud-solution-provider/billing/azure-csp-billing-overview)
   * Learn on reading and understanding your CSP bill: [Azure CSP invoice](https://docs.microsoft.com/azure/cloud-solution-provider/billing/azure-csp-invoice)
 
-
 **Azure Reservation**: **Windows and SQL software** is charged separately with Azure reserved instances. [Learn more](https://docs.microsoft.com/azure/cost-management-billing/reservations/reserved-instance-windows-software-costs)
-
 
 For **Storage** usage, the user can enable Storage Analytics. Enabling Storage Analytic logs gives user the ability to have per-transaction logging. The logs are quite detailed and users can do end-to-end tracing and debugging on their own. More details are available at the below links:
 
