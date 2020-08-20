@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e7f827fa-d950-3ce2-b4bd-c13131bd580f",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to availability sets in the context of Site Recovery",
+      "searchTags": "Availability Sets;Avsets;Av sets",
+      "category": "Azure Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f106a7ff-24c6-d5fc-a5bd-622f94449a05",
       "longDescription": "",
       "shortDescription": "If you have missing app-consistent points that you wanted to use in order to failover",
