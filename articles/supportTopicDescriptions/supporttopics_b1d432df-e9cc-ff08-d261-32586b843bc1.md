@@ -198,6 +198,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6108b740-f888-6857-12c9-1f183ad39cfb",
+      "longDescription": "",
+      "shortDescription": "Questions or issues while using deployment planner for VMware environment",
+      "searchTags": "Deployment Planner;Prepare;Preparation;Bandwidth",
+      "category": "Components",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6253b980-d49f-9a5e-82bf-43b9b3c3bb01",
       "longDescription": "",
       "shortDescription": "Any other issues or questions related to mobility agent installation failure",
