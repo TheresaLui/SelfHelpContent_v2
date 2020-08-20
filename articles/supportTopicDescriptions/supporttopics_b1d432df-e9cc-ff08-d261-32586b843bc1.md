@@ -38,6 +38,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0c6a058c-293e-cf4c-1de2-1f0e32d995b6",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to configuration of storage accounts",
+      "searchTags": "Storage Account;Cache;Cache Storage Account;Log Storage Account",
+      "category": "Azure Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "108a9981-e25d-9f74-526f-3922308ecf44",
       "longDescription": "",
       "shortDescription": "Questions or issues related to backup and restore of VMs, files, disks, etc.",
