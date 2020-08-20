@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b6d71dcf-fa0b-bbe0-e462-cc149115af97",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to availability zones in the context of Site Recovery (e.g. replicating to zones, replicating between zones, etc.)",
+      "searchTags": "Availability Zones;Av zones;AZ",
+      "category": "Azure Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b88110cf-db5f-b2e3-c1cd-cc284197c545",
       "longDescription": "",
       "shortDescription": "Questions or issues related to disabling replication and cleaning up resources",
