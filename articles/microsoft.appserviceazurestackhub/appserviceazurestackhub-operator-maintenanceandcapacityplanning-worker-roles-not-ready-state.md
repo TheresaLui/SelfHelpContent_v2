@@ -41,10 +41,6 @@ Check the worker role logs to verify file server health check completion:
 
 For deployment in a disconnected environment, you must use a Windows Server image that has .NET 3.5.1 SP1 activated. See [Download items from the Azure Marketplace](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started?pivots=state-disconnected) for details.
 
-### Incorrect server password configuration
-
-If a password was specified incorrectly during install, you will need to proceed with opening a support case to get it resolved. 
-
 ### Other causes
 
 For all other causes, proceed with opening a support case to contact a support engineer for resolution.
