@@ -20,7 +20,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Metrics for database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** are missing due to by-design telemetry memory/CPU caps for Basic, S0, S1 and S2 databases. The database is active, but no metrics are being shown on the Azure Portal. When a database experiences memory/CPU contention, internal database operations are prioritized over the generation of metrics. 
+Metrics for database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** are missing due to by-design telemetry memory/CPU caps for Basic, S0, S1 and S2 databases. The database is active, but no metrics are being shown on the Azure Portal.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
