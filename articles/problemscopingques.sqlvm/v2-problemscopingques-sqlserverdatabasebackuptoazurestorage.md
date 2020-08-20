@@ -187,7 +187,7 @@
             },
             {
             "value": "DatabaseBackupFailure_OSError50_Error_3201",
-            "text": "3201/3013: Cannot open backup device/BACKUP DATABASE is terminating abnormally"
+            "text": "3201: Cannot open backup device"
             },
             {
             "value": "DatabaseBackupFailure_DifferentialBackup_AzureBackUpService_Error_3035",
