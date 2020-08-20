@@ -116,6 +116,14 @@
       "searchTags": "app-consistent recovery points;Application-consistent recovery points;Application consistent;Replication points",
       "category": "Replication",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "fc642169-03ff-e4f8-9388-992bf132eef9",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to failover or  test failover failures",
+      "searchTags": "Failover;Test Failover",
+      "category": "Failover",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
