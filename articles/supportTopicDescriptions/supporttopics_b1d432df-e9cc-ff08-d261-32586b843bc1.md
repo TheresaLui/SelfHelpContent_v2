@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9613fc7e-7069-0b0d-439b-01697a7a7ad2",
+      "longDescription": "",
+      "shortDescription": "If you have missing crash-consistent points that you wanted to use in order to failover",
+      "searchTags": "Crash-consistent recovery points;Crash consistent;Replication points",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f106a7ff-24c6-d5fc-a5bd-622f94449a05",
       "longDescription": "",
       "shortDescription": "If you have missing app-consistent points that you wanted to use in order to failover",
