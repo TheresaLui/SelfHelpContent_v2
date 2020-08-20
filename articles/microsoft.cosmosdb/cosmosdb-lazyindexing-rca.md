@@ -1,15 +1,15 @@
 <properties
     pageTitle="Lazy Indexing detected"
     description="Lazy Indexing RCA"
-    infoBubbleText="Customer has one or more containers using Lazy indexing.. See the details on the right."
+    infoBubbleText="Customer has one or more containers using Lazy indexing. See the details on the right."
     service="microsoft.documentdb"
     resource="databaseAccounts"
     authors="andresferreira"
     ms.author="anferrei"
     articleId="cosmosdb-lazyindexing-rca"
-    diagnosticScenario="LazyIndexingInsight"
+    diagnosticScenario="CosmosDBLazyIndexingInsight"
     selfHelpType="rca"
-    supportTopicIds="32636761,32675640,32684529,32741533,32636754,32636818,32636795,32636821,32741534,32636755,32636768,32636802,32681012"
+    supportTopicIds="32636761,32636754,32636755"
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
@@ -26,7 +26,7 @@ We found one or more containers using Lazy indexing. You should consider using *
 
 ## **Recommended Steps**
 
-We highly recommend upgrading to **consistent** index for performance and reliability improvements, specially if you expect to frequently run queries against your data, we recommend **consistent indexing**. Lazy indexing performs updates to the index at a much lower priority level when the engine is not doing any other work, the indexing is done in the background which takes a lower priority than other database operations. This can result in **inconsistent or incomplete** query results. If you plan to query a Cosmos container, you should not select lazy indexing. 
+We highly recommend upgrading to **consistent** index for performance and reliability improvements, specially if you expect to frequently run queries against your data. Lazy indexing performs updates to the index at a much lower priority level when the engine is not doing any other work. This can result in **inconsistent or incomplete** query results. If you plan to query a Cosmos container, you should not select lazy indexing. 
 
 For consistent and optimal query performance, we recommend selecting **consistent indexing**. The RU charge for the same query will be significantly lower in a container with **consistent indexing** than a container with lazy indexing. In addition, many indexing features such as composite indexes require **consistent indexing**.  
 
