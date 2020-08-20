@@ -62,6 +62,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5756b8c2-2b6b-fccf-f6d9-c0c4e9f2774e",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to critical events generated despite availability of latest recovery points",
+      "searchTags": "Critical;Replication;Recovery Points",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9613fc7e-7069-0b0d-439b-01697a7a7ad2",
       "longDescription": "",
       "shortDescription": "If you have missing crash-consistent points that you wanted to use in order to failover",
