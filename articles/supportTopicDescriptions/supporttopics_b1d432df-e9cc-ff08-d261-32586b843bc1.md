@@ -302,6 +302,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d6183d23-5a19-8a1e-c697-e0d68a0f124e",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to proximity placement groups in the context of Site Recovery",
+      "searchTags": "Proximity Placement Group;PPG",
+      "category": "Azure Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dd4ae57a-9b66-813f-1cef-3d0da4ff6d7d",
       "longDescription": "",
       "shortDescription": "Issues or questions related to SLAs offered by ASR",
