@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "00cc8152-ac33-417c-1a89-39c23bcade94",
+      "longDescription": "",
+      "shortDescription": "Issues with Replication in Azure Site Recovery",
+      "searchTags": "Replication",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "108a9981-e25d-9f74-526f-3922308ecf44",
       "longDescription": "",
       "shortDescription": "Questions or issues related to backup and restore of VMs, files, disks, etc.",
