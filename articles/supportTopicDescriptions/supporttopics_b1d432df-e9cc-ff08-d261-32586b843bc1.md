@@ -358,6 +358,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e8b512ad-08f8-2655-07bf-35ab415c4bd7",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to networking components or setup in the target region or zone",
+      "searchTags": "Networking;Network;Vnet;Virtual Network;Target Network",
+      "category": "Azure Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f106a7ff-24c6-d5fc-a5bd-622f94449a05",
       "longDescription": "",
       "shortDescription": "If you have missing app-consistent points that you wanted to use in order to failover",
