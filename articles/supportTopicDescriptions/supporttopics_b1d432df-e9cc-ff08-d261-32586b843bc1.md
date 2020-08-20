@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "94017ff0-2ad1-1199-a64c-6d1ed9af9a4c",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to failback operation failures",
+      "searchTags": "Failback;Fail back;Fail",
+      "category": "Reprotect or Failback",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9613fc7e-7069-0b0d-439b-01697a7a7ad2",
       "longDescription": "",
       "shortDescription": "If you have missing crash-consistent points that you wanted to use in order to failover",
