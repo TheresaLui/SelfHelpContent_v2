@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "0028ef8b-c415-ba37-ed6c-3152ff5b44a7",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to unsupported configurations like disk size, file system, LVM, OS, distros etc.,",
+      "searchTags": "Mobility Service;Mobility Agent;Install;Extension",
+      "category": "Agent",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "00cc8152-ac33-417c-1a89-39c23bcade94",
       "longDescription": "",
       "shortDescription": "Issues with Replication in Azure Site Recovery",
