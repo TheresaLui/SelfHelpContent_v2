@@ -262,6 +262,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f34d65d8-f3d2-f164-b791-f6d3641e9296",
+      "longDescription": "",
+      "shortDescription": "Questions related to license after failover of machines in target region, hybrid benefit etc.,",
+      "searchTags": "Licensing;Licenses",
+      "category": "Getting Started",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f39113ec-6ef4-1486-c460-a0b431b3f680",
       "longDescription": "",
       "shortDescription": "Questions or issues related to test failover failures",
