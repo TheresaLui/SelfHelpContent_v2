@@ -5,11 +5,11 @@
 	resource="billing"
 	authors="lishepar"
 	ms.author="lishepar"
-	displayOrder=""
+	displayOrder="1"
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32632931"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15659"
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="unexpectedcharges-irecievedunknownchargeonmybill"
 	ownershipId="ASMS_Billing"
@@ -29,7 +29,7 @@ When the customer goes to the solutions page, the offer type associated with the
   * Understand terms on your invoice: [Azure invoice terms explained](https://docs.microsoft.com/azure/cost-management-billing/understand/understand-invoice)
   * Understand terms on Azure Usage charges: [Usage terms explained](https://docs.microsoft.com/azure/cost-management-billing/understand/understand-usage)
   * To obtain a PDF of your invoice and a copy of your detailed daily usage file (.CSV): [Get invoice and usage data](https://docs.microsoft.com/azure/cost-management-billing/manage/download-azure-invoice-daily-usage-date)
-  
+
 **Note**: If you cancel your subscription/resource in the middle of your billing cycle, you might still see a charge which would be for any usage in the previous month. Example, if your billing cycle was from the 26th of every month to the 25th of the next month & you suspended the subscription on the 23rd, which is 28 days into the billing cycle for June, you might see a charge for the 28 days of use. If you see a charge in spite of cancelling a subscription please make sure, you don’t have any other support plans which is causing the charge. If you do, please go ahead and cancel the plan.
 
 
@@ -45,12 +45,12 @@ For **Storage** usage, the user can enable Storage Analytics. Enabling Storag
   * [Storage Analytics](http://msdn.microsoft.com/library/windowsazure/hh343270.aspx )
   * [Windows Azure Storage Logging: Using Logs to Track Storage Requests](https://blogs.msdn.microsoft.com/windowsazurestorage/?m=20118)
   * [Monitor a storage account in the Azure portal](http://azure.microsoft.com/documentation/articles/storage-monitor-storage-account/)<br>
-  
+
 For **network-related usage**, the user can use a network capture tool such as Microsoft Network Monitor or a simple HTTP capture tool like Fiddler:
 
   * [Network Monitor](http://www.microsoft.com/download/details.aspx?id=4865 )
   * [Fiddler](http://www.telerik.com/fiddler) (NOTE: this tool is not supported by Microsoft)<br>
-  
+
 * For issues related to the **Virtual Machines running a Windows OS image**, the host OS Event Logs can be used: [Windows Event Logs](https://docs.microsoft.com/windows/win32/eventlog/about-event-logging)
 * For **PaaS deployments**, enable diagnostics in the application: [Enable diagnostics in a cloud service](https://azure.microsoft.com/documentation/articles/cloud-services-dotnet-diagnostics/)
 * For **IaaS deployments**: [Enable diagnostics logging for apps](https://docs.microsoft.com/azure/app-service/troubleshoot-diagnostic-logs)

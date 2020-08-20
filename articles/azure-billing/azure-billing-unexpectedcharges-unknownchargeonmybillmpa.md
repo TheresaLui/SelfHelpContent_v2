@@ -5,11 +5,11 @@
 	resource="billing"
 	authors="lishepar"
 	ms.author="lishepar"
-	displayOrder=""
+	displayOrder="1"
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32632931"
 	resourceTags=""
-	productPesIds=""
+	productPesIds="15659"
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="unexpectedcharges-irecievedunknownchargeonmybill"
 	ownershipId="ASMS_Billing"
@@ -38,12 +38,12 @@ For **Storage** usage, the user can enable Storage Analytics. Enabling Storag
   * [Storage Analytics](http://msdn.microsoft.com/library/windowsazure/hh343270.aspx )
   * [Windows Azure Storage Logging: Using Logs to Track Storage Requests](https://blogs.msdn.microsoft.com/windowsazurestorage/?m=20118)
   * [Monitor a storage account in the Azure portal](http://azure.microsoft.com/documentation/articles/storage-monitor-storage-account/)<br>
-  
+
 For **network-related usage**, the user can use a network capture tool such as Microsoft Network Monitor or a simple HTTP capture tool like Fiddler:
 
   * [Network Monitor](http://www.microsoft.com/download/details.aspx?id=4865 )
   * [Fiddler](http://www.telerik.com/fiddler) (NOTE: this tool is not supported by Microsoft)<br>
-  
+
 * For issues related to the **Virtual Machines running a Windows OS image**, the host OS Event Logs can be used: [Windows Event Logs](https://docs.microsoft.com/windows/win32/eventlog/about-event-logging)
 * For **PaaS deployments**, enable diagnostics in the application: [Enable diagnostics in a cloud service](https://azure.microsoft.com/documentation/articles/cloud-services-dotnet-diagnostics/)
 * For **IaaS deployments**: [Enable diagnostics logging for apps](https://docs.microsoft.com/azure/app-service/troubleshoot-diagnostic-logs)
