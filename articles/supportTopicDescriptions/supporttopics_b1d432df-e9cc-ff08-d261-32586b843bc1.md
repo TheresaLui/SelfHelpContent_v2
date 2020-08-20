@@ -238,6 +238,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "aff7b684-1d6c-062d-6f4c-5b5518237f0e",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to REST API to set up and manage ASR",
+      "searchTags": "REST API",
+      "category": "Getting Started",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b88110cf-db5f-b2e3-c1cd-cc284197c545",
       "longDescription": "",
       "shortDescription": "Questions or issues related to disabling replication and cleaning up resources",
