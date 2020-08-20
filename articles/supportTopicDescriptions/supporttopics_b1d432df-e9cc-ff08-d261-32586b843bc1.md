@@ -118,6 +118,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6253b980-d49f-9a5e-82bf-43b9b3c3bb01",
+      "longDescription": "",
+      "shortDescription": "Any other issues or questions related to mobility agent installation failure",
+      "searchTags": "Mobility Service;Mobility Agent;Install;Error",
+      "category": "Agent",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "901887f6-12b4-333b-2501-cef081c4b594",
       "longDescription": "",
       "shortDescription": "Issues or questions related to re-protect operation failures",
