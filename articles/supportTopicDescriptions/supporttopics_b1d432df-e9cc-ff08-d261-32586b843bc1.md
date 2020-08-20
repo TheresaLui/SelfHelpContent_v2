@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1a48eb03-ccc6-4168-ba90-6a3f329f1919",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to resource groups in the context of Site Recovery",
+      "searchTags": "Resource Groups",
+      "category": "Azure Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "20a1f799-1c6f-7453-128e-58a7e5da882a",
       "longDescription": "",
       "shortDescription": "Questions or issues related to booting up the secondary VM, accessing it, etc. post test failover",
