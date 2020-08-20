@@ -214,6 +214,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f1796bd2-4041-00ac-5793-32102edd2370",
+      "longDescription": "",
+      "shortDescription": "Issues or questions related to using ASR for disaster recovery of entire application",
+      "searchTags": "application failover;app failover;SQL;SAP;AAD",
+      "category": "Getting Started",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f39113ec-6ef4-1486-c460-a0b431b3f680",
       "longDescription": "",
       "shortDescription": "Questions or issues related to test failover failures",
