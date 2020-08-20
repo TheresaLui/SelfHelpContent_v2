@@ -78,6 +78,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b88110cf-db5f-b2e3-c1cd-cc284197c545",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to disabling replication and cleaning up resources",
+      "searchTags": "Disable;Delete;Disable Replication;Stop Replication",
+      "category": "Replication",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f106a7ff-24c6-d5fc-a5bd-622f94449a05",
       "longDescription": "",
       "shortDescription": "If you have missing app-consistent points that you wanted to use in order to failover",
