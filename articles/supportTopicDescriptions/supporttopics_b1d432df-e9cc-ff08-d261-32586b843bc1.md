@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2b5167fd-74e2-fdb3-c221-949afe35ce8a",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to components of Azure Site Recovery that are on-premise",
+      "searchTags": "Configuration Server;CS;Process Server;Master Target;Vcenter",
+      "category": "Components",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2d540961-cb2e-de15-b176-c1cab7a22174",
       "longDescription": "",
       "shortDescription": "Questions or issues related to migration of VMs",
