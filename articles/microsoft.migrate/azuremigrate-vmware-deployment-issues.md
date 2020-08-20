@@ -48,7 +48,7 @@ No, setting up the appliance on an Azure VM is not recommended.
 **I am getting an error in the Internet prerequisites check on the appliance**
 1. Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance.
 1. Check if there is a proxy/firewall blocking access to these URLs. If whitelisting is required, please ensure you whitelist all the URLs.
-1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by clicking on 'Set up proxy' in the same step. make sure you provide the authorization credentials if the proxy needs them.
+1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by clicking on "Set up proxy" in the same step. make sure you provide the authorization credentials if the proxy needs them.
 1. Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or have mobility service agent installed on the server.
 
 **I am getting an error in the auto update check on the appliance**
