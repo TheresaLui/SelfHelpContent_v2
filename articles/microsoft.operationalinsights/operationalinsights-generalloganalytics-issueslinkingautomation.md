@@ -3,6 +3,7 @@
 pageTitle="Issues linking Automation account"
 description="Issues linking Automation account"
 service="microsoft.operationalinsights"
+infoBubbleText=""
 resource="workspaces"
 symptomID=""
 authors="yossiy"
