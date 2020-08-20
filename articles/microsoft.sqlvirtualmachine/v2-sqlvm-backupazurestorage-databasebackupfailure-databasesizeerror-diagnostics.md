@@ -39,6 +39,6 @@ The error/symptom you see is because SQL Server limits the maximum backup size s
 ## **Recommended Documents**
 
 * [Sql Server Backup To URL : Limitations](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url?view=sql-server-ver15#limitations)
-* [Backing up a VLDB to Azure Blob Storage](https://techcommunity.microsoft.com/t5/datacat/backing-up-a-vldb-to-azure-blob-storage/ba-p/305441#:~:text=To%20quote%20the%20relevant%20part,include%20up%20to%2050%2C000%20blocks.%E2%80%9D)
+* [Backing up a VLDB to Azure Blob Storage](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url?view=sql-server-ver15#limitations)
 * [Copying SQL Server Backups to Windows Azure Storage using AzCopy](https://docs.microsoft.com/archive/blogs/dbrowne/copying-sql-server-backups-to-windows-azure-storage-using-azcopy)
 * [Get started with AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
