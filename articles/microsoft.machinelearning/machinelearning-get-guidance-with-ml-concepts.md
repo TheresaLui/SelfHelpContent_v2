@@ -10,8 +10,8 @@
     resourceTags=""
     productPesIds="16644"
     cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
- 	articleId="machinelearning-get-guidance-with-ml-concepts"
-	ownershipId="AzureML_AzureMachineLearningServices"
+    articleId="machinelearning-get-guidance-with-ml-concepts"
+    ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Get guidance with AI or ML concepts
