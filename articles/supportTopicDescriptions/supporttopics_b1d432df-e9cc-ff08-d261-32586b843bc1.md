@@ -238,6 +238,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e26321ea-74ee-7362-4daa-49d50aa45071",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to creating or editing replication policy",
+      "searchTags": "Replication Policy;Frequency;Crash-Consistent;App-Consistent;Application Consistent",
+      "category": "Getting Started",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f106a7ff-24c6-d5fc-a5bd-622f94449a05",
       "longDescription": "",
       "shortDescription": "If you have missing app-consistent points that you wanted to use in order to failover",
