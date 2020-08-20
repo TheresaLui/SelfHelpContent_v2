@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7ae194b1-033d-f51b-d894-881f42f2c841",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to disk management in the context of Site Recovery",
+      "searchTags": "Disks;Managed Disks;Unmanaged disks;Replica Disks;Seed Disks",
+      "category": "Azure Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "901887f6-12b4-333b-2501-cef081c4b594",
       "longDescription": "",
       "shortDescription": "Issues or questions related to re-protect operation failures",
