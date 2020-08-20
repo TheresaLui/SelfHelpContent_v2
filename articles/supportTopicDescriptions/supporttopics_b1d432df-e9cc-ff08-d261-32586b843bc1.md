@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5b65a0ad-2889-b81f-8e33-ffb8b8af88cf",
+      "longDescription": "",
+      "shortDescription": "Re-protect operation is stuck or taking longer than expected due to unknown issue",
+      "searchTags": "reprotect",
+      "category": "Reprotect or Failback",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "94017ff0-2ad1-1199-a64c-6d1ed9af9a4c",
       "longDescription": "",
       "shortDescription": "Issues or questions related to failback operation failures",
