@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Configure Consistent indexing mode on your Azure Cosmos DB container"
-    description="Configure Consistent indexing mode on your Azure Cosmos DB container"
+    pageTitle="Configure Consistent indexing mode on your Azure Cosmos container"
+    description="Configure Consistent indexing mode on your Azure Cosmos container"
     authors="pratnala"
     ms.author="pratnala"
     articleId="213974c8-ed9c-459f-9398-7cdaa3c28856_Fairfax"
@@ -8,7 +8,7 @@
     cloudEnvironments="Fairfax"
     ownershipId="AzureData_AzureCosmosDB"
 />
-# Configure Consistent indexing mode on your Azure Cosmos DB container
+# Configure Consistent indexing mode on your Azure Cosmos container
 ---
 {
   "recommendationOfferingId": "86ec4e3b-1865-4240-89f6-c2f3553df5ac",
@@ -31,10 +31,10 @@
   },
   "version": 1.3,
   "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/how-to-manage-indexing-policy",
-  "description": "Configure Consistent indexing mode on your Azure Cosmos DB container",
-  "longDescription": "We noticed that your Azure Cosmos DB container is configured with the Lazy indexing mode, which may impact the freshness of query results. We recommend switching to Consistent mode.",
+  "description": "Configure Consistent indexing mode on your Azure Cosmos container",
+  "longDescription": "We noticed that your Azure Cosmos container is configured with the Lazy indexing mode, which may impact the freshness of query results. We recommend switching to Consistent mode.",
   "potentialBenefits": "Improve query result consistency and reliability",
-  "displayLabel": "Configure Consistent indexing mode on your Azure Cosmos DB container",
+  "displayLabel": "Configure Consistent indexing mode on your Azure Cosmos container",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
     "streamNamespace": "cluster('https://cdbfairfax.kusto.usgovcloudapi.net').database('LiveSite').LazyIndexing",
