@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3094820f-a324-7bcd-00fd-69dcdf01eb28",
+      "longDescription": "",
+      "shortDescription": "Peering service prefix is in failed validation state.",
+      "searchTags": "PeeringService;PeeringServicePrefix",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5536ad98-db66-2549-3a49-a8f8d9660e44",
       "longDescription": "",
       "shortDescription": "Peering connection is in pending approval state.",
