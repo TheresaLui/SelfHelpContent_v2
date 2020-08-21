@@ -4,7 +4,7 @@
     ms.author="ltcrew"
     articleId="936111C6-01C1-4448-A44A-0C36208E64AC_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, ussec, usnat"
     ownershipId="CognitiveServices_ImmersiveReader"
 />
 
@@ -46,7 +46,7 @@
       "name": "CurrentSDKVersion",
       "title": "Current SDK Version"
     }
-  ]  
+  ]
   "supportedSDKLanguages": [],
   "actions": [
     {
