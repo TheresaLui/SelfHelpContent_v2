@@ -1,6 +1,7 @@
 <properties
     pageTitle="Upgrade to the latest SDK version"
     description="Upgrade to the latest SDK version"
+    authors="ltcrew"
     ms.author="ltcrew"
     articleId="936111C6-01C1-4448-A44A-0C36208E64AC_Public"
     selfHelpType="advisorRecommendationMetadata"
