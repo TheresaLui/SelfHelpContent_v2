@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "09f5e119-4eb2-0ba0-b47a-f6bdce7c3682",
+      "longDescription": "",
+      "shortDescription": "Peering create or update request failed with internal server error.",
+      "searchTags": "Peering",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5536ad98-db66-2549-3a49-a8f8d9660e44",
       "longDescription": "",
       "shortDescription": "Peering connection is in pending approval state.",
