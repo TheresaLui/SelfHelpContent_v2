@@ -4,7 +4,7 @@
 	authors="chez-charlie"
 	ms.author="chez"
 	selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629437, 32629441, 32637149, 32637150, 32629446, 32629439, 32629484, 32629521"
+    supportTopicIds="32629437, 32629441, 32637149, 32637150, 32629446, 32629439, 32629484, 32629521, 32742804"
 	productPesIds="15613"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"

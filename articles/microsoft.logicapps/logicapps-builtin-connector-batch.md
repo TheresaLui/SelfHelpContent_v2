@@ -11,7 +11,7 @@
      productPesIds="15791"
     ownershipId="Compute_LogicApps"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="46276307-1011-4594-9657-d600c97e2a5d"
+    articleId="46276307-1011-4594-9657-d600c97e2a5d"  
 />
 
 # Process messages in batches with the Batch messages trigger
