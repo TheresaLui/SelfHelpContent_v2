@@ -47,6 +47,12 @@ You should always use the dataset upload and download options to benefit from th
 
 Creating a datastore for SQL DW is not recommended as Azure ML datastore cannot perform parallel reads from your SQL DW and you may encounter time out issues if your query has many filters. The recommended approach is to copy data to storages such as Blob or ADLS gen2 to register as datastore in Azure ML. 
  
+
+• My data is in SQL DB, how should I access data from AML workspace? 
+
+You can [create a dataset from SQLDB datastore](https://docs.microsoft.com/python/api/azureml-core/azureml.data.dataset_factory.tabulardatasetfactory?view=azure-ml-py#from-sql-query-query--validate-true--set-column-types-none--query-timeout-30-). To write back to SQL DB, you can either use [data transfer](https://docs.microsoft.com/en-us/python/api/azureml-pipeline-steps/azureml.pipeline.steps.datatransferstep?view=azure-ml-py) step in AzureML pipeline or connect to SQL server in your script using [storage API](https://docs.microsoft.com/azure/azure-sql/database/connect-query-python?tabs=windows). 
+
+
 • Can I use ADLS gen2 as default storage for my workspace? 
 
 No, currently ADLS Gen2 cannot be set as default storage for your workspace. When you create an Azure ML workspace, an Azure blob container named workspaceblobstore is created as default storage to store workspace artifacts and your machine learning experiment logs. You can choose to set this default storage as a blob storage of your choice by using the command : ws.set_default_datastore(new_default_datastore). Please refer to an example [here](https://docs.microsoft.com/azure/machine-learning/how-to-access-data#get-datastores-from-your-workspace).
