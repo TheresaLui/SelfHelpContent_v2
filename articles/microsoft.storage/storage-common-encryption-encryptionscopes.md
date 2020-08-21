@@ -8,7 +8,7 @@
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32691404,32691085"
-	productPesIds="16459"
+	productPesIds="16459,16598"
 	resourceTags=""
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="storage_common_encryption_encryptionscopes"
