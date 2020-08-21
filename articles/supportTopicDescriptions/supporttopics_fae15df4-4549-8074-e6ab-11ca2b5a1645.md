@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4ed02a79-03be-c0b7-b168-a3d99f827dbc",
+      "longDescription": "",
+      "shortDescription": "Ingress or egress traffic information for peering connection is not available via metrics.",
+      "searchTags": "Peering",
+      "category": "Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5536ad98-db66-2549-3a49-a8f8d9660e44",
       "longDescription": "",
       "shortDescription": "Peering connection is in pending approval state.",
