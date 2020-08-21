@@ -35,7 +35,7 @@
     "serviceTreeId": "95028b6a-341d-461d-bffd-f83b7eddf59f"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 3.0,
   "learnMoreLink": "https://aka.ms/appgw-advisor-usecustomdomain",
   "description": "Avoid hostname override to ensure site integrity",
   "longDescription": "Try to avoid overriding the hostname when configuring Application Gateway.  Having a different domain on the frontend of Application Gateway than the one which is used to access the backend can potentially lead to cookies or redirect urls being broken.  Note that this might not be the case in all situations and that certain categories of backends (like REST API's) in general are less sensitive to this.  Please make sure the backend is able to deal with this or update the Application Gateway configuration so the hostname does not need to be overwritten towards the backend.  When used with App Service, attach a custom domain name to the Web App and avoid use of the *.azurewebsites.net host name towards the backend.",
