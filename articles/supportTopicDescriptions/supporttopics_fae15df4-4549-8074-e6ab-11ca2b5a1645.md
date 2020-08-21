@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "890ab4ff-d193-64ed-f63f-b6f6fe837974",
+      "longDescription": "",
+      "shortDescription": "Issue when removing peering service.",
+      "searchTags": "PeeringService",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8bb4bde2-bb69-cce1-7344-f11d937cfc13",
       "longDescription": "",
       "shortDescription": "PeeringService Provider not present at peering service location.",
