@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0ef8e91a-76a9-740f-381a-20c26f373cd7",
+      "longDescription": "",
+      "shortDescription": "Latency or packet loss for a peering service prefix.",
+      "searchTags": "PeeringService;PeeringServicePrefix",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3094820f-a324-7bcd-00fd-69dcdf01eb28",
       "longDescription": "",
       "shortDescription": "Peering service prefix is in failed validation state.",
