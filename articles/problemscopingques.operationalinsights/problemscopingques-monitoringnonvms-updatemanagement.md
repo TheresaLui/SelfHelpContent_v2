@@ -29,7 +29,7 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "single_multiple_machines",
+            "id": "linked_automation_account",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Are you having a problem with the linked automation acccount?",
