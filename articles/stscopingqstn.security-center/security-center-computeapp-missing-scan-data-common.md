@@ -10,9 +10,9 @@
     supportTopicIds="32636883"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="a15f057d-8uj6-4b00-a98a-dfaf0843dc2f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Missing Scan Data Common Solutions

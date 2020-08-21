@@ -9,9 +9,9 @@
     supportTopicIds="32689858"
     resourceTags=""
     productPesIds="16963"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="d1eb856e-4de5-4604-bfa7-e8f2f7d0d50c"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AzureKubernetesService"
 />
 
 # Scale up or down issues

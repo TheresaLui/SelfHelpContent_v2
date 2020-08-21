@@ -13,8 +13,8 @@
 	supportTopicIds="32688684"
 	resourceTags=""
 	productPesIds="16867"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureEA_SelfDeflectionContent"
 />
 
 # Issues with my invoice

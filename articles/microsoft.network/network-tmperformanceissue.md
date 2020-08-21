@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public, MoonCake"
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
 	articleId="f5f90671-ebc6-4ede-b399-736c64382616"
 	ownershipId="CloudNet_TrafficManager"
 />

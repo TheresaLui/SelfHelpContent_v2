@@ -6,7 +6,7 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32663924,32663923,32663922,32629265"
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="8ccb2fde-6f9f-4e97-b711-4b07ac45db50"
     ownershipId="StorageMediaEdge_AzureStack_Hub"
@@ -73,6 +73,10 @@
             "displayLabel": "Current Patch Level",
             "watermarkText": "Example: 2002 if your build number is 1.2002.0.35.",
             "dropdownOptions": [
+{
+                    "value": "2005",
+                    "text": "2005"
+                },
                 {
                     "value": "2002",
                     "text": "2002"
@@ -84,10 +88,6 @@
                 {
                     "value": "1908",
                     "text": "1908"
-                },
-                {
-                    "value": "1907",
-                    "text": "1907"
                 },
                 {
                     "value": "Other",
@@ -131,9 +131,9 @@
             "visibility": "connected_deployment == Yes",
             "order": 5,
             "controlType": "textbox",
-            "displayLabel": "Enter your the Cloud Stamp ID",
+            "displayLabel": "Enter your the Stamp Cloud ID",
             "watermarkText": "Enter the Stamp Cloud ID",
-            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview'>find your Cloud Stamp ID</a>",
+            "infoBalloonText": "Learn how to <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-find-cloud-id'>find your Stamp Cloud ID</a>",
             "required": true
         },
         {

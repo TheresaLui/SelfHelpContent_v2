@@ -1,17 +1,17 @@
  <properties
-	pageTitle="model refresh"
-	description="model refresh"
-	service="Microsoft.AnalysisServices"
-	resource="Microsoft.AnalysisServices/servers"
-	authors="pjfreitas"
-	ms.author="pfreitas"
-	displayOrder="280"
-	selfHelpType="generic"
-	supportTopicIds="32675701"
-	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax" 
-	articleId="f9cbc4fe-d409-ddc9-59c7-b94052f05494"
-	ownershipId="AzureData_AnalysisServices"
+    pageTitle="model refresh"
+    description="model refresh"
+    service="Microsoft.AnalysisServices"
+    resource="Microsoft.AnalysisServices/servers"
+    authors="pjfreitas"
+    ms.author="pfreitas"
+    displayOrder="280"
+    selfHelpType="generic"
+    supportTopicIds="32675701"
+    productPesIds="16157"
+    cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
+    articleId="f9cbc4fe-d409-ddc9-59c7-b94052f05494"
+    ownershipId="AzureData_AnalysisServices"
 />
 
 # Asynchronous refresh with the REST API
@@ -22,5 +22,8 @@
 
 * [Refresh with Azure Automation](https://docs.microsoft.com/azure/analysis-services/analysis-services-refresh-azure-automation)
 
+* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
 
+* [Frequently asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
 
+* [Tabular Model Overview](https://docs.microsoft.com/analysis-services/tabular-models/tabular-models-ssas?view=asallproducts-allversions)

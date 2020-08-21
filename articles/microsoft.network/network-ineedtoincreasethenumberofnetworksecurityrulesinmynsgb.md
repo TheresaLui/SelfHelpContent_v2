@@ -9,7 +9,7 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="aedf5baa-ecb5-4ec9-b2ba-1d7dc0acf1a2"
 	ownershipId="CloudNet_VirtualNetwork"
 />

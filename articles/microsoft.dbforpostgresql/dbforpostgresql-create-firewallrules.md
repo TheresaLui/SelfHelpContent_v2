@@ -9,8 +9,8 @@
     selfHelpType="generic"
     supportTopicIds="32639980"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public, Fairfax"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="5705595d-4b91-4fed-8a03-f71cb0f1dcc5"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
@@ -30,6 +30,8 @@ Most users are able to resolve their issue using the steps below.
   * If your client does not have a static IP address, the current IP address might not be covered by the firewall rule
 
 * There may be as much as a five minute delay for changes to the Azure Database for PostgreSQL firewall configuration to take effect. Confirm your rule was added and re-try to connect for at least 5 minutes.
+
+* If you receive an error while trying to create a firewall rule, your server may have been unavailable due to a user- or service-initiated restart. You can review the Azure Activity Log for user-initiated operations like restart or scaling. You can review Resource Health Check for service-initiated maintenance. 
 
 * If you are having trouble using Azure CLI:
 

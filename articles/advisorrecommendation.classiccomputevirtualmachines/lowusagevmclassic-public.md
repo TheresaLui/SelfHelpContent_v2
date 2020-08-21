@@ -5,8 +5,8 @@
     ms.author="aadevteam"
     articleId="d472fb24-d23c-480f-896f-b3095d5bd868_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
-	ownershipId="ASEP_ContentService_Placeholder"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="CloudFit_CostOptimization"
 />
 # Right-size or shutdown underutilized virtual machines
 ---
@@ -21,7 +21,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.ClassicCompute/virtualMachines",
   "recommendationFriendlyName": "LowUsageVmClassic",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "portalFeatures": [],
   "owner": {
     "email": "aadevteam@microsoft.com",

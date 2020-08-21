@@ -10,36 +10,22 @@
     supportTopicIds="32636438"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="d51bcaf5-bec9-4e83-a49b-fde2d1d43229"
 	ownershipId="AzureData_HDInsight"
 />
 
 # HDInsight with Azure Active Directory integration
 
-**Known issues in West Europe and North Europe**
-
-As of March 18th, 2020 some Azure HDInsight customers in West Europe or North Europe have received error notifications when creating or scaling HDInsight clusters in these regions. Errors related to this issue include:
-
-- Internal server error occurred while processing the request. Please retry the request or contact support.
-- At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/DeployOperations for usage details
-- User SubscriptionId '\<Subscription ID\>' does not have cores left to create resource '\<cluster name>'. Required: \<X\>, Available: 0.
-
-Engineers are aware of this issue and are actively investigating.
-
-For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-release-notes#known-issues) page.
-
-For additional help, continue creating this support request.
-
 ## **Recommended Steps**
 
-**Errors: FailedToJoinDomain, DomainNotFoundInActiveDirectory or ActiveDirectoryAuthenticationFailed**
+**Errors: FailedToJoinDomain, DomainNotFoundInActiveDirectory or ActiveDirectoryAuthenticationFailed**
 
 See [Troubleshooting HDInsight cluster deployment issue due to the domain join fails](https://github.com/HDInsight/HDInsight.github.io/blob/master/EnterpriseSecurityPackage/DomainJoinIssues.md).
  
 **Error: SecureHadoopWaitForOuContainerCreationActivityTimedOut**
 
-This error may occur because too many operations are in progress. To resolve the issue, reduce the amount of currently running operations and then retry.
+This error may occur because too many operations are in progress. To resolve the issue, reduce the amount of currently running operations and then retry.
 
 **Error: FailedToConnectWithClusterErrorCode**
  
@@ -53,7 +39,7 @@ Make sure that your SSL Certificate is not expired.For more information, see [Re
 
 Only tenant administrators have the privileges to enable Azure Active Directory Domain Service. If the cluster storage is Azure Data Lake Storage Gen1 or Gen2, you must disable Multi-Factor Authentication (MFA) only for users who will need to access the cluster using basic Kerberos authentications.
 
-You can use trusted IP addresses or Conditional Access to disable MFA for specific users when they are accessing the HDInsight cluster virtual network IP range. If you are using Conditional Access, make sure that AD service endpoint in enabled on the HDInsight virtual network. If the cluster storage is Azure Blob Storage, do not disable MFA.
+You can use trusted IP addresses or Conditional Access to disable MFA for specific users when they are accessing the HDInsight cluster virtual network IP range. If you are using Conditional Access, make sure that AD service endpoint in enabled on the HDInsight virtual network. If the cluster storage is Azure Blob Storage, do not disable MFA.
 
 **Invalid Network Configuration**
 
@@ -62,11 +48,12 @@ You can use trusted IP addresses or Conditional Access to disable MFA for specif
 
 **Additional Information**
 
-- Azure Active Directory Domain Service must be deployed in an Azure Resource Manager based virtual network. Classic virtual networks are not supported for Azure Active Directory Domain Service. For more information, see [Networking considerations](https://docs.microsoft.com/azure/HDInsight/domain-joined/apache-domain-joined-configure-using-azure-adds#networking-considerations).
-- Enterprise Security Package (ESP) is generally available in HDInsight 3.6 and 4.0 for cluster types: Apache Spark, Interactive, Apache Hadoop and HBase. ESP for Apache Kafka cluster type is currently in preview.
+- Azure Active Directory Domain Service must be deployed in an Azure Resource Manager based virtual network. Classic virtual networks are not supported for Azure Active Directory Domain Service. For more information, see [Networking considerations](https://docs.microsoft.com/azure/HDInsight/domain-joined/apache-domain-joined-configure-using-azure-adds#networking-considerations).
+- Enterprise Security Package (ESP) is generally available in HDInsight 3.6 and 4.0 for cluster types: Apache Spark, Interactive, Apache Hadoop and HBase. ESP for Apache Kafka cluster type is currently in preview.
 
 ## **Recommended Documents**
 
+* [Create Cluster Error Dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)
 * [APACHE domain joined configure using Azure ADDS](https://docs.microsoft.com/azure/HDInsight/domain-joined/apache-domain-joined-configure-using-azure-adds)
 * [Check if HDInsight VNET is peered to AAD-DS VNET](https://docs.microsoft.com/azure/HDInsight/domain-joined/apache-domain-joined-configure-using-azure-adds#networking-considerations)
 * [Check if secure LDAP is configured correctly with the right certificate](https://docs.microsoft.com/azure/HDInsight/domain-joined/apache-domain-joined-configure-using-azure-adds#enable-azure-ad-ds)

@@ -10,12 +10,12 @@
 	articleId="partnercenter_transition_end_of_life_offers"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635705"
+	supportTopicIds="32725900"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17012"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Transact_and_Manage"
 />
 # Transitioning End-of-life offers
 

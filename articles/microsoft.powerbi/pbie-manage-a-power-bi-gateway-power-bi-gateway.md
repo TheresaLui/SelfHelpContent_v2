@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628117"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="5c34a1a1-570b-e1ee-7568-97ec7955e022"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Manage a Power BI on-premises gateway

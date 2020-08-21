@@ -10,14 +10,16 @@
     supportTopicIds="32663891,32663895"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-vm-linux"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Resolve Issues with Linux-based virtual machines for Azure Stack
 
 You can deploy Linux virtual machines (VMs) on Azure Stack by adding a Linux-based image into the Azure Stack Marketplace. The easiest way to add a Linux image to Azure Stack is through Marketplace Management. Wherever possible, download the images available through Marketplace Management. These images have been prepared and tested for Azure Stack.
+
+4 out of 5 customers resolved their issue using the guides listed below.<br>
 
 ## **Recommended Steps**
 
@@ -30,22 +32,18 @@ You can deploy Linux virtual machines (VMs) on Azure Stack by adding a Linux-bas
     - [SLES & openSUSE](https://docs.microsoft.com/azure/virtual-machines/linux/suse-create-upload-vhd)
     - [Ubuntu Server](https://docs.microsoft.com/azure/virtual-machines/linux/create-upload-ubuntu)
 
-3. Once you have prepared a custom Linux image, [add your image to the marketplace](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-vm-image)
+3. Once you have prepared a custom Linux image, you need to [add your image to the marketplace](https://docs.microsoft.com/azure/azure-stack/azure-stack-add-vm-image) to make it visible to all tenant users
 
-### **Known Issues**
+## Azure Stack Hub marketplace item for openSUSE
 
-Azure Stack version 1905 includes fixes to storage and compute services. For more information, see [Azure Stack Hotfix 1.1905.3.48](https://support.microsoft.com/help/4510078).
+There is not an Azure Stack Hub Marketplace item for openSUSE. An operator can manually add the item to the Marketplace for their instance.
 
-* Queue messages: Messages in a queue expire immediately after creation and tagged for garbage collection. This issue may present in three cases:
-    * Retrieval of resources in Azure Resource Manager will fail
-    * Usage metric data is not collected and uploaded for processing
-    * Customer developed applications fail to retrieve messages
+1. Manually prepare the image. For instructions see [Add Linux images to the Azure Stack Hub Marketplace](https://docs.microsoft.com/azure-stack/operator/azure-stack-linux).
+1. Upload the image to offer as a Marketplace item. For instructions see [Prepare a SLES or openSUSE virtual machine](https://docs.microsoft.com/azure/virtual-machines/linux/suse-create-upload-vhd).
 
-* User image management: Failed user image creation puts the user image service into a bad state:
-    * New image creation fails once the service is in this state
-    * Deletion of image may fail with the following error "Error: An internal disk management error occurred."
 
 ## **Recommended Documents**
 
 - [Add Linux images to Azure Stack](https://docs.microsoft.com/azure/azure-stack/azure-stack-linux)
 - [Quickstart: Create a Linux server virtual machine with the Azure Stack portal](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-quick-linux-portal) 
+- [Known Issues: VMs on Azure Stack Hub](https://docs.microsoft.com/azure-stack/user/troubleshoot-vm-known-issues)

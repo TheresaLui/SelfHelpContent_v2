@@ -2,24 +2,33 @@
   pagetitle="SupportTopicDescriptions for b16f3aa1-e798-0090-9159-5dc3bae17c5b"
   description="SupportTopicDescriptions for b16f3aa1-e798-0090-9159-5dc3bae17c5b"
   authors="elixirsys2"
-  ms.author="v-vigra"
+  ms.author="v-vigra, marwa"
   selfhelptype="SupportTopicDescription"
   productpesids="b16f3aa1-e798-0090-9159-5dc3bae17c5b"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_b16f3aa1-e798-0090-9159-5dc3bae17c5b" />
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  articleid="supporttopics_b16f3aa1-e798-0090-9159-5dc3bae17c5b"
+  ownershipid="AzureIdentity_B2C" />
 # Support Topic Descriptions for b16f3aa1-e798-0090-9159-5dc3bae17c5b
 ---
 {
   "$schema": "SelfHelpContent",
-  "shortDescription": null,
+  "shortDescription": "Questions regarding Azure AD B2C directories or Azure AD B2C subscription management.",
   "longDescription": null,
-  "productLink1": null,
-  "productLinkName1": null,
-  "productLink2": null,
-  "productLinkName2": null,
-  "productLink3": null,
-  "productLinkName3": null,
+  "productLink1": "",
+  "productLinkName1": "",
+  "productLink2": "",
+  "productLinkName2": "",
+  "productLink3": "",
+  "productLinkName3": "",
   "supportTopics": [
+    {
+      "id": "09ad8304-0e41-586d-81e5-05044d64b715",
+      "longDescription": "",
+      "shortDescription": "Questions from developers regarding the usage of MS Graph API calls to manage B2C information",
+      "searchTags": "usage of MS Graph to manage B2C info",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
     {
       "id": "0bd7d616-07bb-6bec-96c9-3c2e23e3c8b5",
       "longDescription": "",
@@ -141,6 +150,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d0a3c9bf-1771-7880-633c-fa098d79fdb6",
+      "longDescription": "",
+      "shortDescription": "Questions from developers regarding how to use B2C with a Microsoft implemented library.",
+      "searchTags": "questions of how to use B2C MS libraries",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d1e7c92e-e90a-d995-a95a-2ef6f708a6a3",
+      "longDescription": "",
+      "shortDescription": "Questions from developers on managing B2C directories using microsoft supported libraries, APIs, and middlerware",
+      "searchTags": "problem with app or API integration",
+      "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "db033092-1023-0b41-0517-41ffb61c7a56",
       "longDescription": "",
       "shortDescription": "Questions regarding identity experience framework user flow issues which are not listed.",
@@ -149,10 +174,26 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e299aa8f-db1b-2d52-3d94-2bbc5db5eecd",
+      "longDescription": "",
+      "shortDescription": "Questions from developers managing B2C using a Native App",
+      "searchTags": "questions managing B2C using Native Apps",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e827e685-34de-a3b4-69ed-e2cf7d118ec3",
       "longDescription": "",
       "shortDescription": "Questions regarding Azure AD B2C regional availability or data residency location.",
       "searchTags": "questions re to B2C availability ;questions re to B2C data residency",
+      "category": "Configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ed804dcb-38df-3e51-974c-34d421931ab3",
+      "longDescription": "",
+      "shortDescription": "Questions from developers on managing B2C using wep applications.",
+      "searchTags": "Questions managing B2C using Web Apps",
       "category": "Configuration ",
       "useInDiagnoseAndSolve": "true"
     },

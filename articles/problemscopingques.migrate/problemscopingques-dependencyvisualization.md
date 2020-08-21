@@ -6,7 +6,7 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32675744"
          productPesIds="16348"
-         cloudEnvironments="public, Fairfax"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="4060b4a6-6e58-45cc-8ad7-a2965d59becd"
 	ownershipId="Compute_AzureMigrate"
@@ -22,12 +22,12 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "assessment_name",
+            "id": "machine_name",
             "order": 1,
             "visibility": "null",
             "controlType": "textbox",
-            "displayLabel": "Provide the name of the assessment in which you are facing issue.",
-            "watermarkText": "E.g. MyContosoAssessment",
+            "displayLabel": "Provide the name of the machine on which you are facing issue.",
+            "watermarkText": "E.g. MyMachine01",
             "required": false
         },
         {

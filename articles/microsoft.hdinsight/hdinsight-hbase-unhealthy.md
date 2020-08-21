@@ -10,11 +10,15 @@
     supportTopicIds="32636453"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec, mooncake, blackforest"
     articleId="f18d50b6-ccf5-407b-9b49-3c59bfa0eaec"
 	ownershipId="AzureData_HDInsight"
 />
 # Restart operation on HBase
+
+## **Recommended Steps**
+
+* **Reboot your nodes.** If your node is unresponsiveness and/or you see that some services have not started, reboot the VMs using PowerShell or Rest API following the steps in the article [Reboot VMs for HDInsight cluster](https://docs.microsoft.com/azure/hdinsight/cluster-reboot-vm).
 
 ## **Recommended Documents**
 

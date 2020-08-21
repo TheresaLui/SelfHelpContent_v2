@@ -13,7 +13,7 @@
 	supportTopicIds="32673583"
 	resourceTags=""
 	productPesIds="16307"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseMigrationService"
 />
 

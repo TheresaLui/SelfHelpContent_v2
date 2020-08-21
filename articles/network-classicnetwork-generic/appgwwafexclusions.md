@@ -10,7 +10,7 @@
 	supportTopicIds="32639118"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="waf-exclusions-global-parameters"
 	ownershipId="CloudNet_AzureApplicationGateway"
 />

@@ -10,7 +10,7 @@
     supportTopicIds="32684539"
     resourceTags=""
     productPesIds="16123"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="relay-errors-arm-api-template"
 	ownershipId="AzureMessaging_Common"
 />

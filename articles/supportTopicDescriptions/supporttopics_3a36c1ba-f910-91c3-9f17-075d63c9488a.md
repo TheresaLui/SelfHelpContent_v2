@@ -2,11 +2,12 @@
   pagetitle="SupportTopicDescriptions for 3a36c1ba-f910-91c3-9f17-075d63c9488a"
   description="SupportTopicDescriptions for 3a36c1ba-f910-91c3-9f17-075d63c9488a"
   authors="elixirsys2"
-  ms.author="marwa, v-vigra"
+  ms.author="marwa, v-vigra, absinh"
   selfhelptype="SupportTopicDescription"
   productpesids="3a36c1ba-f910-91c3-9f17-075d63c9488a"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
-  articleid="supporttopics_3a36c1ba-f910-91c3-9f17-075d63c9488a" />
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
+  articleid="supporttopics_3a36c1ba-f910-91c3-9f17-075d63c9488a"
+  ownershipid="AzureIdentity_SyncFabric" />
 # Support Topic Descriptions for 3a36c1ba-f910-91c3-9f17-075d63c9488a
 ---
 {
@@ -229,6 +230,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "87812e3a-33a4-56c7-ae6d-452d283696c9",
+      "longDescription": "",
+      "shortDescription": "Assistance with assigning Azure AD role to a group and manage its membership",
+      "searchTags": "AAD;Roles;Groups;membership",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "89561a5b-e1d6-f4d1-f93d-d288b77d0515",
       "longDescription": "",
       "shortDescription": "Problems verifying a new Azure AD custom domain name using Azure AD portal or PowerShell or Azure CLI",
@@ -322,6 +331,14 @@
       "shortDescription": "Problems using Azure AD portal, PowerShell or B2B API to invite external user identities.",
       "searchTags": "problem to invite an external user",
       "category": "configuration ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d9e55b51-0dea-b866-480e-bfd1decea50a",
+      "longDescription": "",
+      "shortDescription": "Assistance with creating and managing Administrative Units.",
+      "searchTags": "roles;aad;admin unit;au;administrative unit",
+      "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
     },
     {

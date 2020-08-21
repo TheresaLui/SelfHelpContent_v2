@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628080"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="2c47480b-071b-e55e-1221-6dc4bf02c9f8"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Data alerts in Power BI service

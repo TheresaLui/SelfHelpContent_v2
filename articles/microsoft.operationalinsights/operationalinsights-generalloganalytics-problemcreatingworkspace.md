@@ -7,13 +7,13 @@ resource="workspaces"
 symptomID=""
 infoBubbleText=""
 authors="yossiy"
-ms.author="yossiy"
+ms.author="yossiy,neghuman"
 displayorder="11"
-selfHelpType="resource"
+selfHelpType="generic"
 supportTopicIds="32612513"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax, Mooncake"
+cloudEnvironments="Public, Fairfax, Mooncake, usnat, ussec"
 articleId="a5b6bf14-b4ea-40b5-bac8-286416838545"
 ownershipId="AzureMonitoring_LogAnalytics"
 />
@@ -44,9 +44,9 @@ Please bear in mind the followings:
 	* The workspace name isn't available and being used
 	* The workspace was deleted during the last 14 days and its name reserved for the soft-delete period. To override the soft-delete period and immediately delete the workspace and create a new workspace with the same name:
 
-1. [Recover](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#recover-workspace) your workspace
-2. [Permanently delete](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#permanent-workspace-delete) your workspace
-3. Create a new workspace using the deleted workspace name
+      1. [Recover](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#recover-workspace) your workspace
+      2. [Permanently delete](https://docs.microsoft.com/azure/azure-monitor/platform/delete-workspace#permanent-workspace-delete) your workspace
+      3. Create a new workspace using the deleted workspace name
  
 ## **Recommended Documents**
 

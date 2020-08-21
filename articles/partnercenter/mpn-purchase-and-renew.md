@@ -10,14 +10,16 @@
 	articleId="partnercenter_mpn_purchase_and_renewals"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635688"
+	supportTopicIds="32725824"
 	clientIds='partnercenter'
 	resourceTags="mpn"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17003"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Billing_and_Invoicing"
 />
 # Purchase and renewal of MAPS and competencies
+
+Due to unforeseen issues we will not be able to offer credit card payment option for Japan, South Korea and Taiwan until further notice. You will notice that you can still make your purchase seamlessly via Wire Transfer. Please contact your financial institution for more information on how to execute a wire transfer.
 
 ## **Recommended Documents**
 

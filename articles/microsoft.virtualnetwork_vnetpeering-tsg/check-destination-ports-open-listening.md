@@ -7,12 +7,12 @@
 	authors="chadmath"
 	ms.author="chadmat"
 	selfHelpType="TSG_Content"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c4d32956-f745-4d2a-b9ce-f2de7c9d690e"
 />
 # Check Destination Ports Open and Listening
 
-In order for a network computer (or Azure VM) to respond to a particular network request, an application on the VM must be listening on that specific port and the OS firewall must allow access on that port.  This guide will show you how to do so on both the Windows and Linux operating systems.
+In order for an Azure VM to respond to a network request, an application on the VM must be listening on that specific port and the OS firewall must allow access on that port.  This guide will show you how to check for these requirements on both the Windows and Linux VMs.
 
 ## **Recommended Steps**
 

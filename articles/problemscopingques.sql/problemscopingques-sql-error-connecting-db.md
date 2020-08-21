@@ -4,12 +4,12 @@
 	authors="keithelm"
 	ms.author="keithelm,muruga,emlisa"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630429, 32635195"
-	productPesIds="13491, 15818"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	supportTopicIds="32630429"
+	productPesIds="13491"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="D748D991-21A6-4FBD-B98E-7962F6100F9A"
-	ownershipId="AzureData_AzureSQLDB"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 # Error When Connecting to my Database
 ---

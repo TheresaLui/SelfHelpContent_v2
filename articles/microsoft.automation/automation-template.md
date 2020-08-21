@@ -11,7 +11,7 @@
     diagnosticScenario=""
     supportTopicIds="32641156,32641157,32641158"
     productPesIds="15607"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId="Compute_Automation"
 />
 

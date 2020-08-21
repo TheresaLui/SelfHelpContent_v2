@@ -9,7 +9,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32675702"
 	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="793e7450-a177-4100-42bb-0420672266ea"
 	ownershipId="AzureData_AnalysisServices"
 />
@@ -18,12 +18,12 @@
 
 ## **Recommended Documents**
 
-* [Process Tabular Model Partitions](https://docs.microsoft.com/sql/analysis-services/tabular-models/process-tabular-model-partitions-ssas-tabular?view=sql-server-2017)
+* [Tabular model partitions](https://docs.microsoft.com/analysis-services/tabular-models/tabular-model-partitions-ssas-tabular?view=asallproducts-allversions)
 
-* [Partition Class](https://docs.microsoft.com/dotnet/api/microsoft.analysisservices.partition?view=analysisservices-dotnet)
+* [Create and manage tabular model partitions](https://docs.microsoft.com/analysis-services/tabular-models/create-and-manage-tabular-model-partitions-ssas-tabular?view=asallproducts-allversions)
 
-* [Partition-EstimatedRows Property](https://docs.microsoft.com/dotnet/api/microsoft.analysisservices.partition.estimatedrows?view=analysisservices-dotnet#Microsoft_AnalysisServices_Partition_EstimatedRows)
+* [Process tabular model partitions](https://docs.microsoft.com/analysis-services/tabular-models/process-tabular-model-partitions-ssas-tabular?view=asallproducts-allversions)
 
-* [Dynamic Management Views (DMVs)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services?view=sql-server-2017)
+* [Process database, table, or partition (Analysis Services)](https://docs.microsoft.com/analysis-services/tabular-models/process-database-table-or-partition-analysis-services?view=asallproducts-allversions)
 
-* [Partition-EstimatedSize Property](https://docs.microsoft.com/dotnet/api/microsoft.analysisservices.partition.estimatedsize?view=analysisservices-dotnet#Microsoft_AnalysisServices_Partition_EstimatedSize)
+* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)

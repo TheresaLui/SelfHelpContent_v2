@@ -10,16 +10,18 @@
     supportTopicIds="32629270"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="ebdc3983-705d-401c-b984-f433c12f1e9f"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Identify failures by using Azure Stack validation tool
 
 ## **Recommended Steps**
 
-* Run [validation tool](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) (Test-AzureStack) and resolve identified issues
+* Run the [validation tool](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) (Test-AzureStack) and resolve identified issues
+* If Test-AzureStack output says to run the -Repair option to remediate an inaccessible VM, you can include the role name listed in the output, but only for the AsScaleUnitResources, AzsInfraRoleSummary, or AzsPortalAPISummary roles and only if no other update is in progress.
+
 
 ## **Recommended Documents**
 

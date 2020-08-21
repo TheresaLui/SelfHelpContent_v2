@@ -2,23 +2,23 @@
   pagetitle="SupportTopicDescriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   description="SupportTopicDescriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057"
   authors="elixirsys2"
-  ms.author="ambhatna"
+  ms.author="ambhatna, andrela"
   selfhelptype="SupportTopicDescription"
   productpesids="17c72f78-cb09-bc5b-9b99-f3d618e1f057"
-  cloudenvironments="public, fairfax, blackforest, mooncake"
+  cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
   articleid="supporttopics_17c72f78-cb09-bc5b-9b99-f3d618e1f057"
-  ownershipid="" />
+  ownershipid="AzureData_AzureDatabaseforMySQL" />
 # Support Topic Descriptions for 17c72f78-cb09-bc5b-9b99-f3d618e1f057
 ---
 {
   "$schema": "SelfHelpContent",
   "shortDescription": "Azure Database for MySQL is a fully managed relational database service powered by the MySQL community edition",
   "longDescription": null,
-  "productLink1": "https://azure.microsoft.com/en-us/services/mysql/",
+  "productLink1": "https://azure.microsoft.com/services/mysql/",
   "productLinkName1": "Azure Database for MySQL Overview",
-  "productLink2": "https://docs.microsoft.com/en-us/azure/mysql/overview",
+  "productLink2": "https://docs.microsoft.com/azure/mysql/overview",
   "productLinkName2": "What is Azure Database for MySQL",
-  "productLink3": "https://docs.microsoft.com/en-us/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal",
+  "productLink3": "https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-portal",
   "productLinkName3": "Create an Azure Database for MySQL",
   "supportTopics": [
     {
@@ -75,6 +75,14 @@
       "shortDescription": "You have issues using PowerShell",
       "searchTags": "powershell",
       "category": "Portal, Client Tools and APIs",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "20c5fa5f-59cc-4981-dbc4-9fb94a51116e",
+      "longDescription": "",
+      "shortDescription": "You have questions about configuring data encryption at-rest with customer-managed keys",
+      "searchTags": "byok;data encryption;encryption;at rest;key vault",
+      "category": "Security",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -456,9 +464,17 @@
     {
       "id": "e4510a28-7375-4af4-e9d6-4b7ed39cb3aa",
       "longDescription": "",
-      "shortDescription": "Your ARM template is not deploying successfully",
+      "shortDescription": "You have questions or issues with your custom ARM template or your template is not deploying successfully",
       "searchTags": "ARM templates;azure resource manager",
       "category": "Create, Update and Drop Resources",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e7ae40c6-6fef-b6bc-dd67-246d771cab07",
+      "longDescription": "",
+      "shortDescription": "You have questions about authenticating to your server with Azure Active Directory",
+      "searchTags": "azure active directory;aad;azure ad;authentication",
+      "category": "Availability and Connectivity",
       "useInDiagnoseAndSolve": "true"
     },
     {

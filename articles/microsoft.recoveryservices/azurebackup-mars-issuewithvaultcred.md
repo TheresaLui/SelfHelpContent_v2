@@ -6,11 +6,11 @@
 	authors="srinathv"
 	ms.author="srinathv"
 	displayOrder=""
-	selfHelpType="resource"
+	selfHelpType="generic"
 	supportTopicIds="32632797"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="9263cbc0-bc33-4bac-a64e-d36d2f4e3420"
 	ownershipId="StorageMediaEdge_Backup"
 />

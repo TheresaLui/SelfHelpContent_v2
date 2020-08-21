@@ -6,7 +6,7 @@
     articleId="1294987d-c97d-41d0-8fd8-cb6eab52d87b_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Mooncake"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Compute_AppService"
 />
 # Consider scaling out your App Service Plan to avoid CPU exhaustion
 ---

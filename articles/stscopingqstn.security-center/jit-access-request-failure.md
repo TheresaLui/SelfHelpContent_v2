@@ -11,9 +11,9 @@
     supportTopicIds="32680772"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="b43f0825-9006-480d-86a8-a5520821b4f1"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # JIT Access request failure

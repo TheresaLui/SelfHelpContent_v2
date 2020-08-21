@@ -10,7 +10,7 @@
     supportTopicIds="32640062"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="1914abe8-9057-40cd-a970-b67c9cf10fd2"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
@@ -22,6 +22,7 @@ User permissions for database user are managed through the MySQL built-in user m
 ## **Recommended Steps**
 
 * Review the current [service limitation](https://docs.microsoft.com/azure/mysql/concepts-limits)
+* If you lose your admin account password, or you need to change the password for any reason follow the [reset password article](https://docs.microsoft.com/azure/mysql/howto-create-manage-server-portal#update-admin-password) to manage your admin account
 * For more information on how to manage users and roles in MySQL, please refer to the public MySQL community edition documentation for the MySQL version you are using
 
 ## **Recommended Documents**

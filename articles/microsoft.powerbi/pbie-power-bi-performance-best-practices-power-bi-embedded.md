@@ -9,9 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628134"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="7ae1409a-4ec6-3200-6ca3-b3ff1d13b1f6"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Power BI performance best practices

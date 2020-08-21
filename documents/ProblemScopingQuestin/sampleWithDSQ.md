@@ -1,7 +1,6 @@
 <properties
 	pageTitle="Error When Connecting to my Database"
 	description="Scoping questions to capture more details about errors encountered while connecting to SQL DB"
-	authors="ghauthor"
 	ms.author="msauthor"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="comma, seperated, list"

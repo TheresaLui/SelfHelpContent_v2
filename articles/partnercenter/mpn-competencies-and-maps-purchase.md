@@ -10,27 +10,29 @@
 	articleId="mpn_competencies_and_maps_purchase"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635692"
+	supportTopicIds="32725798,32725800,32725876"
 	clientIds="partnercenter"
 	resourceTags="csp"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17000,17007"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # MPN - competencies and MAPS purchasing
 
-How to start using your Microsoft Partner Network (MPN) membership benefits in the Partner Center.
+Due to unforeseen issues we will not be able to offer credit card payment option for Japan, South Korea and Taiwan until further notice. You will notice that you can still make your purchase seamlessly via Wire Transfer. Please contact your financial institution for more information on how to execute a wire transfer.
+
+## **Recommended Steps**
+
+* Existing membership can be renewed any day after the beginning of renewal start date. Please note that you cannot renew your membership until the renewal start date
+* **Sign In** with your work account credentials in the [Microsoft Partner website](https://partner.microsoft.com/) and access your  [Dashboard](https://partner.microsoft.com/pcv/dashboard)
+* Go to your [Membership offers](https://partner.microsoft.com/dashboard/mpn/offers) page. Locate the **Silver or Gold competency** tile under the **Offers available for purchase** section and click **Subscribe**
+  * If you haven’t met the [requirements for the desired Competency level](https://partner.microsoft.com/membership/competencies), you are not eligible to subscribe. Also, **if you are already a Gold competency Partner, the option to pay the Silver competency fee will be unavailable to you**
+* In the next page, review your **Purchase details** and **Select your payment preference**
+* For additional help, please refer to the recommended documents below
 
 ## **Recommended Documents**
 
-* [Microsoft competency requirements for Gold and Silver membership](https://docs.microsoft.com/partner-center/learn-about-competencies)
-* [Manage your Microsoft Partner Network membership benefits](https://docs.microsoft.com/partner-center/manage-your-partner-network-benefits)
-*  [How to purchase an Action Pack](https://support.microsoft.com/help/4505959/microsoft-action-pack-purchase-in-partner-center)
-*  [Change billing information](https://support.microsoft.com/help/4505986/update-bill-to-sold-to-address-details-during-your-purchase-experience)
-*  [Update your tax information](https://support.microsoft.com/help/4501523)
-*  [Check if you have the necessary user roles to perform the purchase](https://docs.microsoft.com/partner-center/permissions-overview)
-*  [Update your tax information](https://support.microsoft.com/help/4501523)
-*  [How to associate an user to your Organization](https://support.microsoft.com/help/4499949/how-to-associate-a-user-to-your-organization-s-microsoft-partner-netwo)
-*  [Renewal window in Partner Center](https://support.microsoft.com/help/4295568/partner-membership-center-pmc-to-partner-center-pc-renewal-window)
-*  [What benefits are offered with an Action Pack?](https://assetsprod.microsoft.com/MPN-MAPS-Software-IUR-License-Table.xlsx)
+* [Purchase or renew Silver or Gold competency](https://support.microsoft.com/help/4505958/silver-or-gold-competency-attainment-in-partner-center)
+* [Check if you have the necessary user roles to perform the purchase](https://docs.microsoft.com/partner-center/permissions-overview)
+* [How to purchase an Action Pack](https://support.microsoft.com/help/4505959/microsoft-action-pack-purchase-in-partner-center)

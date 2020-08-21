@@ -10,7 +10,7 @@
 	supportTopicIds="32570954"
 	resourceTags=""
 	productPesIds="16170,16333"
-	cloudEnvironments="public, Fairfax"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="5b4b0b9e-cc93-4a3d-9d93-fa45c80dc723"
 	ownershipId="Compute_AppService"
 />
@@ -19,9 +19,8 @@
 
 ## **Recommended Documents**
 
-* [Monitor, diagnose and troubleshoot performance issues](https://docs.microsoft.com/azure/app-service/troubleshoot-performance-degradation)
-* [Finding Memory Leaks and CPU Usage in Azure Node.js Web App](https://azureossd.github.io/2015/08/23/finding-memory-leaks-and-cpu-usage-in-azure-node-js-web-app/)
-* [Troubleshoot HTTP 502 or 503 errors for your Web App](https://docs.microsoft.com/azure/app-service/troubleshoot-http-502-http-503)
-* [10 Ways to Speed up your WordPress site on Azure Web App](https://azure.microsoft.com/blog/10-ways-to-speed-up-your-wordpress-site-on-azure-websites/)
-* (WordPress Scheduled Jobs (wp-cron.php) and Slowness)[https://azureossd.github.io/2015/06/11/wordpress-scheduled-jobs-wp-cron-php-and-slowness/]
-* [Application Monitoring and Performance Management with Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview)
+* [Troubleshooting Azure App Service on Linux](https://docs.microsoft.com/azure/app-service/containers/app-service-linux-intro#troubleshooting) <br>
+* [If your site does not start, check the Docker log](https://blogs.msdn.microsoft.com/waws/2017/09/08/things-you-should-know-web-apps-and-linux/#DockerLog)<br>
+* [Troubleshoot HTTP 5xx errors for your App](https://azure.microsoft.com/documentation/articles/app-service-web-troubleshoot-http-502-http-503/)<br>
+* [If your container takes a long time to start, increase the start time limit](https://blogs.msdn.microsoft.com/waws/2017/09/08/things-you-should-know-web-apps-and-linux/#ContainerStart)
+* [Your container must respond to an HTTP ping](https://blogs.msdn.microsoft.com/waws/2017/09/08/things-you-should-know-web-apps-and-linux/#NoPing)

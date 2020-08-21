@@ -12,7 +12,7 @@ selfHelpType="diagnostics"
 supportTopicIds="32539943, 32586802"
 resourceTags="windows" 
 productPesIds="15480" 
-cloudEnvironments="public, Fairfax" 
+cloudEnvironments="public, Fairfax, usnat, ussec" 
 	ownershipId="CloudNet_AzureExpressRoute"
 /> 
 # Express Route Circuit Diagnostic Result 

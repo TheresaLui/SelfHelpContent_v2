@@ -10,7 +10,7 @@
     diagnosticScenario="ApplicationInsightsDefaultModeEnablementDiagnostic"
     displayOrder=""
     selfHelpType="diagnostics"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     resourceTags=""
     productPesIds="15693" 
     supportTopicIds="32602209"

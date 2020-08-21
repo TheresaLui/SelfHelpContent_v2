@@ -1,17 +1,17 @@
 <properties
-    pageTitle="Application Gateway general guidance or advisory"
-    description="Application Gateway general guidance or advisory"
+    pageTitle="Application Gateway general guidance or advisory for AGIC"
+    description="Application Gateway general guidance or advisory for AGIC"
     authors="TobyTu"
     ms.author="mariliu"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32684009"
     productPesIds="15922"
-    cloudEnvironments="public, Fairfax"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="712961cc-d014-4550-be70-2069dc2e00ff"
 	ownershipId="CloudNet_AzureApplicationGateway"
 />
-# Questions Application Gateway general guidance or advisory
+# Questions Application Gateway general guidance or advisory for AGIC
 ---
 {
     "subscriptionRequired": true,

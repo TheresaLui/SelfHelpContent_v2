@@ -5,9 +5,9 @@
     ms.author="passap"
 	articleId="StorageScoping_file_sync_tiering"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32675711,32675712,32675713,32675714"
+	supportTopicIds="32675711,32675712,32675714"
 	productPesIds="16460"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_StorageFiles"
 />
@@ -44,9 +44,17 @@
             ],
             "required": true
         },
+         {
+            "id": "syncgroup",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Sync Group Name",
+            "watermarkText": "Enter Sync Group Name else enter Not Applicable",
+            "required": true
+        },
         {
             "id": "problem_description",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "watermarkText": "If applicable, please provide sync group name, server endpoint name, and error message.",
@@ -55,7 +63,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true

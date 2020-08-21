@@ -10,27 +10,13 @@
     supportTopicIds="32636488"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public, MoonCake, Fairfax"
+    cloudEnvironments="public, MoonCake, Fairfax, usnat, ussec"
     articleId="6a60e737-a15c-44df-8320-273b54797713"
 	ownershipId="AzureData_HDInsight"
 />
 # Common Customization Issues
 
 ## **Recommended Steps**
-
-**Known issues in West Europe and North Europe**
-
-As of March 18th, 2020 some Azure HDInsight customers in West Europe or North Europe have received error notifications when creating or scaling HDInsight clusters in these regions. Errors related to this issue include:
-
-- Internal server error occurred while processing the request. Please retry the request or contact support.
-- At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/DeployOperations for usage details
-- User SubscriptionId '\<Subscription ID\>' does not have cores left to create resource '\<cluster name>'. Required: \<X\>, Available: 0.
-
-Engineers are aware of this issue and are actively investigating.
-
-For updates on the issue, see the Known Issues section of the [Release Notes](https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-release-notes#known-issues) page.
-
-For additional help, continue creating this support request.
 
 **Custom Script Actions**
 
@@ -52,7 +38,7 @@ You can add an existing HDInsight cluster's empty edge node to a new cluster whe
 
 **Connecting HDInsight to your on-premise network**
 
-If your error description contains **HostName Resolution failed**, this error points to a problem with the custom DNS configuration. DNS servers within a virtual network, can forward DNS queries to Azure’s recursive resolvers, to resolve host names within that virtual network. See [Name Resolution in Virtual Networks](https://docs.microsoft.com/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances) for details.
+If your error description contains **HostName Resolution failed**, this error points to a problem with the custom DNS configuration. DNS servers within a virtual network, can forward DNS queries to Azure’s recursive resolvers, to resolve host names within that virtual network. See [Name Resolution in Virtual Networks](https://docs.microsoft.com/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances) for details.
 
 Access to Azure’s recursive resolvers is provided via the virtual IP **168.63.129.16**. This IP is only accessible from the Azure Virtual Machines (VMs). The IP will not work if you are using an OnPrem DNS server, or your DNS server is an Azure VM which is not part of the cluster’s vNet.
 
@@ -67,4 +53,5 @@ You must create and configure the DNS server before installing HDInsight in the 
 If you are having technical issues with cluster creation, select **Create** instead of **Other Customization**. Also, if you are running into issues while trying to scale a cluster, please select **Scale** instead of **Other Customization**. Both **Create** and **Scale** will provide better solutions and applicable diagnostics.
 ## **Recommended Documents**
 * [Azure HDInsight: Frequently asked questions](https://docs.microsoft.com/azure/hdinsight/hdinsight-faq)
+* [Create Cluster Error Dictionary](https://docs.microsoft.com/azure/hdinsight/create-cluster-error-dictionary)
 

@@ -10,11 +10,11 @@
 	articleId="consulting_services_offer_troubleshooting"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32689415, 32689362, 32689399, 32689429"
+	supportTopicIds="32728075,32728076,32728077,32728083,32728081,32728082"
 	resourceTags="isv"
-	productPesIds="15960"
-	cloudEnvironments="public"
-	ownershipId="ASEP_ContentService_Placeholder"
+	productPesIds="17006"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Ingestion"
 />
 
 # Azure Marketplace and AppSource Consulting Services Offer Troubleshooting

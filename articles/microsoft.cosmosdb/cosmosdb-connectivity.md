@@ -9,7 +9,7 @@
 	supportTopicIds="32636777,32692541"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-connectivity"
 	displayOrder="62"
 	category="Core (SQL)"

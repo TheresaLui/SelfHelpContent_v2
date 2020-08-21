@@ -4,9 +4,9 @@
 	authors="Sijia"
 	ms.author="siz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32631235,32632044,32632043"
-	productPesIds="15629,16459,16460"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	supportTopicIds="32631235,32632044,32632043,32743032"
+	productPesIds="15629,16459,16460,16598"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="E4579893-8E9C-469C-A21A-D84EEEFAD4A9"
 	ownershipId="StorageMediaEdge_AccountManagement"
@@ -19,6 +19,11 @@
     "resourceRequired": true,
     "title": "How to choose data migration solution",
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Want to find a data migration solution?",
+        "description": "Our Azure Data Migration Solution Finder can help you find the data migration solution for your specific scenario. Please fill in the information below to find a solution.",
+        "insightNotAvailableText": "Our solution finder did not find any solution for your migration. Please ensure the information provided is accurate and in the approved format. Also, see our manual steps below to find a method."
+    },
     "formElements": [
     	{
             "id": "source_resource",
@@ -60,7 +65,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "account_migration_scenario",
@@ -95,7 +101,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "blob_migration_scenario",
@@ -118,6 +125,10 @@
 			"text": "Copy Azure Blobs to Azure Data Lake Gen2 storage"
 		},
 		{
+			"value": "copy_blobs_to_managed_disk",
+			"text": "Copy Azure Blobs to Managed Disk"
+		},
+		{
 			"value": "copy_blobs_to_localonpremise",
 			"text": "Download Azure Blobs to Local/On-Premise"
 		},
@@ -126,7 +137,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "files_migration_scenario",
@@ -149,6 +161,10 @@
 			"text": "Copy Azure Files to Azure Data Lake Gen2 storage"
 		},
 		{
+			"value": "copy_files_to_managed_disk",
+			"text": "Copy Azure Files to Managed Disk"
+		},
+		{
 			"value": "copy_files_to_localonpremise",
 			"text": "Download Azure Files to Local/On-Premise"
 		},
@@ -157,7 +173,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "adlsgen2_migration_scenario",
@@ -180,6 +197,10 @@
 			"text": "Copy Azure Data Lake Gen2 files to Azure Data Lake Gen2 storage"
 		},
 		{
+			"value": "copy_adlsgen2_to_managed_disk",
+			"text": "Copy Azure Data Lake Gen2 files to Managed Disk"
+		},
+		{
 			"value": "copy_adlsgen2_to_localonpremise",
 			"text": "Download Azure Data Lake Gen2 files to Local/On-Premise"
 		},
@@ -188,7 +209,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "manageddisk_migration_scenario",
@@ -211,8 +233,8 @@
 			"text": "Copy snapshot of managed disk to a subscription"
 		},
 		{
-			"value": "copy_snapshot_to_subscription",
-			"text": "Copy managed snapshot to a subscription"
+			"value": "copy_disk_to_subscription",
+			"text": "Copy managed disk to same or different subscription within the same region"
 		},
 		{
 			"value": "copy_vhd_to_region",
@@ -251,7 +273,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "local_onpremise_migration_scenario",
@@ -282,7 +305,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "external_cloud_migration_scenario",
@@ -313,7 +337,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": true
+	"required": true,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "data_size_tb",
@@ -360,7 +385,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": false
+	"required": false,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "network_bandwidth_mbps",
@@ -411,7 +437,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": false
+	"required": false,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "transfer_frequency",
@@ -434,7 +461,8 @@
 			"text": "Don't know or not listed above"
 		}
 	],
-	"required": false
+	"required": false,
+        "diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "problem_start_time",

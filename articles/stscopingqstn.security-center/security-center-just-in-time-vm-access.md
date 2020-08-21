@@ -8,9 +8,9 @@
 	supportTopicIds="32636846,32636880,32636882,32636904,32636924,32636925,32636926"
 	resourceTags=""
 	productPesIds="15947"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="c07177b7-1437-486d-923a-d0c2b1b51cb2"
-	ownershipId="ASEP_ContentService_Placeholder"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Just In Time VM Access Common Solutions
