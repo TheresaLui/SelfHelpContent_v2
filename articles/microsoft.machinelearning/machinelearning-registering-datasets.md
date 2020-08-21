@@ -50,7 +50,7 @@ Creating a datastore for SQL DW is not recommended as Azure ML datastore cannot 
 
 • My data is in SQL DB, how should I access data from AML workspace? 
 
-You can [create a dataset from SQLDB datastore](https://docs.microsoft.com/python/api/azureml-core/azureml.data.dataset_factory.tabulardatasetfactory?view=azure-ml-py#from-sql-query-query--validate-true--set-column-types-none--query-timeout-30-). To write back to SQL DB, you can either use [data transfer](https://docs.microsoft.com/en-us/python/api/azureml-pipeline-steps/azureml.pipeline.steps.datatransferstep?view=azure-ml-py) step in AzureML pipeline or connect to SQL server in your script using [storage API](https://docs.microsoft.com/azure/azure-sql/database/connect-query-python?tabs=windows). 
+You can [create a dataset from SQLDB datastore](https://docs.microsoft.com/python/api/azureml-core/azureml.data.dataset_factory.tabulardatasetfactory?view=azure-ml-py#from-sql-query-query--validate-true--set-column-types-none--query-timeout-30-). To write back to SQL DB, you can either use [data transfer](https://docs.microsoft.com/python/api/azureml-pipeline-steps/azureml.pipeline.steps.datatransferstep?view=azure-ml-py) step in AzureML pipeline or connect to SQL server in your script using [storage API](https://docs.microsoft.com/azure/azure-sql/database/connect-query-python?tabs=windows). 
 
 
 • Can I use ADLS gen2 as default storage for my workspace? 
