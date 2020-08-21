@@ -133,6 +133,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b20db436-398c-85fb-5691-d5d869a15e67",
+      "longDescription": "",
+      "shortDescription": "Free trial subscription has expired.",
+      "searchTags": "Peering",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c80ae8fa-9924-cd04-d59c-ce26e068a8be",
       "longDescription": "",
       "shortDescription": "No routes are exchanged on peering connection.",
