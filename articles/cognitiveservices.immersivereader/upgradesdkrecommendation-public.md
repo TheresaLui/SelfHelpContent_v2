@@ -6,7 +6,7 @@
     articleId="936111C6-01C1-4448-A44A-0C36208E64AC_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, ussec, usnat"
-    ownershipId="CognitiveServices_ImmersiveReader"
+    ownershipId="AzureCogSvc_CognitiveServices"
 />
 
 # Recommend upgrading to a more recent SDK version.
@@ -57,6 +57,6 @@
       "documentLink": "{releaseNotes}"
     }
   ],
-  "testData": "\"SubscriptionId\":\"e27fbfa4-da13-4cb3-9aaa-3929b702a9db\", \"ResourceId\":\"/subscriptions/e27fbfa4-da13-4cb3-9aaa-3929b702a9db/resourceGroups/Cogsvcs/providers/Microsoft.CognitiveServices/accounts/ImmersiveReader_S0_SF_WestUS2\", \"Language\":\"js\", \"Version\":\"1.1.0\", \"RecommendedActionLearnMore\":\"https://aka.ms/ImmersiveReaderAzureAdvisorSDKLearnMore\", \"ReleaseNotes\":\"https://aka.ms/ImmersiveReaderSDKReleaseNotes\", \"AdditionalProperties\":\"{\"\"CurrentSDKVersion\"\":\"\"1.0.0\"\"}\""
+  "testData": "e27fbfa4-da13-4cb3-9aaa-3929b702a9db,/subscriptions/e27fbfa4-da13-4cb3-9aaa-3929b702a9db/resourceGroups/Cogsvcs/providers/Microsoft.CognitiveServices/accounts/ImmersiveReader_S0_SF_WestUS2,js,1.1.0,https://aka.ms/ImmersiveReaderAzureAdvisorSDKLearnMore,https://aka.ms/ImmersiveReaderSDKReleaseNotes"
 }
 ---
