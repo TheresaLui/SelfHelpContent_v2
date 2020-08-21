@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b9352e2e-ce19-4282-17d6-a94c1b42b1e5",
+      "longDescription": "",
+      "shortDescription": "Issue with management on peering or peering service.",
+      "searchTags": "Peering;PeeringService",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c80ae8fa-9924-cd04-d59c-ce26e068a8be",
       "longDescription": "",
       "shortDescription": "No routes are exchanged on peering connection.",
