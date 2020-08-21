@@ -25,17 +25,17 @@ SQL Server instances must be accessible from all App Service roles, as well as t
 
 Confirm that you've followed the [deployment prerequisites](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started), and [post-deployment steps](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-deploy?pivots=state-connected#post-deployment-steps), specifically:
 
-- If you did NOT deploy SQL Server using the [Quickstart template for Highly Available file server and SQL Server](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#quickstart-template-for-highly-available-file-server-and-sql-server)), review [Prepare the SQL Server instance](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#prepare-the-sql-server-instance) to ensure your SQL Server is deployed in a highly available configuration and configured correctly. 
+- If you did NOT deploy SQL Server using the [Quickstart template for Highly Available file server and SQL Server](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#quickstart-template-for-highly-available-file-server-and-sql-server), review [Prepare the SQL Server instance](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#prepare-the-sql-server-instance) to ensure your SQL Server is deployed in a highly available configuration and configured correctly. 
 
 - For production deployments, SQL Server must also be configured to be highly available and capable of handling failures, using the SQL Always On feature. Following deployment of the App Service resource provider, you must also [add the appservice_hosting and appservice_metering databases to an Always On availability group](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-group-add-a-database), and synchronize the databases to prevent any loss of service in the event of a database failover. 
 
 ### 2. Verify whether SQL Server is reachable from the App Service RP
 
-First, remote into one of the App Service controller VMs, get the SQL Server IP addresses, and determine whether the database instances are reachable:
+First, you remote into one of the App Service controller VMs, get the SQL Server IP addresses, and determine whether the database instances are reachable from the controller. If any are not reachable, and you deployed using the HA template, next you connect to each and attempt a restart:
 
 1. Sign in to the Azure Stack Hub administrator portal. Open the App Service RP blade. If you see a raining cloud image with text *"Failed to load App Service extension. Please check whether App Service resource provider and sql database is up and running"*, the database is not reachable, and you can continue with the following steps. 
 
-If you don't see the raining cloud image, continue to section [3. Verify that you're using the correct SQL Server SA password](3-verify-that-youre-using-the-correct-sql-server-sa-password)
+    If you don't see the raining cloud image, continue to section [3. Verify that you're using the correct SQL Server SA password](#3-verify-that-youre-using-the-correct-sql-server-sa-password)
 
 2. Get the IP addresses for each SQL Server database VM and the SQL Server load balancer. You use them in later steps:
     1. Open the "Virtual machines" service. 
@@ -68,7 +68,7 @@ If you don't see the raining cloud image, continue to section [3. Verify that yo
         3. Select the "Connect" button. If login fails and you cannot connect to the SQL Server database, jump to step #5.vii as you need to proceed with opening a support case. 
         4. After a successful connection, right-click on the topmost SQL Server node just added to the "Object explorer" panel (begins with its IP address). Select "Restart", then select "Yes" to confirm the *"Are you sure you want to restart the MSSQLSERVER service"* message. Wait for the successive *"Attempting to stop"* and **"Attempting to start"* dialogs to complete.
         5. In the "Object explorer" panel, expand the "Databases" node under the parent SQL Server node, and verify that the "appservice_hosting" and "appservice_metering" databases are "Synchronized". 
-        6. Repeat step #5.v until you've tested both SQL Server VM's IP addresses.
+        6. Repeat step #5.v using the 2nd SQL Server VM's IP address.
     6. If you were able to successfully connect to the SQL Server load balancer and both VMs, repeat step #4 above to verify whether the App Service RP can reach them. If not, continue with the next step.
     7. Close the remote desktop session with the SQL Server VM. 
 6. Close the remote desktop session with the controller VM. 
