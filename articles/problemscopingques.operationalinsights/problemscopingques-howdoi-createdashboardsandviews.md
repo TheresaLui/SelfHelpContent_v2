@@ -3,8 +3,8 @@
 pageTitle="Create dashboards and views"
 description="Create dashboards and views"
 articleId="problemscopingques-Create_dashboards_and_views"
-authors="yossiy"
-ms.author="yossiy"
+authors="yossiy,neilghuman"
+ms.author="yossiy,neghuman"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32745417"
 productPesIds="15725"
@@ -17,6 +17,7 @@ schemaVersion="1"
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "",
     "formElements": [
