@@ -133,6 +133,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "91116623-7cb7-f679-d60e-30cae40b6011",
+      "longDescription": "",
+      "shortDescription": "Issue with Telemetry data on peering connection or peering service prefix.",
+      "searchTags": "PeeringService;PeeringServicePrefix;Peering",
+      "category": "Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "91735404-b63c-6440-d87d-cc9a2e8389ff",
       "longDescription": "",
       "shortDescription": "Peering facility or location is not listed.",
