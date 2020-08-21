@@ -49,7 +49,7 @@ not require a built-in initiative.
 Changing to the new policies is manual. There is no timeline for when the old policies would be deleted, to force the change to happen
 by a specific date. When it is appropriate for your environmnt, you can assign the new definitions and delete any policy assignments you have that use the deprecated initatives/definitions. We appreciate your patience during this change.
 
-## Recommended Documents
+## **Recommended Documents**
 
 - [Understand Azure Policy's Guest Configuration](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration)
 
