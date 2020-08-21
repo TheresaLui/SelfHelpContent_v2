@@ -1,0 +1,33 @@
+<properties
+  pagetitle="SupportTopicDescriptions for fae15df4-4549-8074-e6ab-11ca2b5a1645"
+  description="SupportTopicDescriptions for fae15df4-4549-8074-e6ab-11ca2b5a1645"
+  authors="elixirsys2"
+  ms.author="someshch"
+  selfhelptype="SupportTopicDescription"
+  productpesids="fae15df4-4549-8074-e6ab-11ca2b5a1645"
+  cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
+  articleid="supporttopics_fae15df4-4549-8074-e6ab-11ca2b5a1645" />
+# Support Topic Descriptions for fae15df4-4549-8074-e6ab-11ca2b5a1645
+---
+{
+  "$schema": "SelfHelpContent",
+  "shortDescription": null,
+  "longDescription": null,
+  "productLink1": null,
+  "productLinkName1": null,
+  "productLink2": null,
+  "productLinkName2": null,
+  "productLink3": null,
+  "productLinkName3": null,
+  "supportTopics": [
+    {
+      "id": "91735404-b63c-6440-d87d-cc9a2e8389ff",
+      "longDescription": "",
+      "shortDescription": "Peering facility or location is not listed.",
+      "searchTags": "PeeringLocation; PeeringFacility;Peering",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    }
+  ]
+}
+---
