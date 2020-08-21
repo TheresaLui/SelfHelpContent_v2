@@ -75,6 +75,14 @@
       "searchTags": "Peering",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c80ae8fa-9924-cd04-d59c-ce26e068a8be",
+      "longDescription": "",
+      "shortDescription": "No routes are exchanged on peering connection.",
+      "searchTags": "Peering",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
