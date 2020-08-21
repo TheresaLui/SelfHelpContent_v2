@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8bb4bde2-bb69-cce1-7344-f11d937cfc13",
+      "longDescription": "",
+      "shortDescription": "PeeringService Provider not present at peering service location.",
+      "searchTags": "PeeringService;PeeringServiceProvider;PeeringServiceLocation",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "91735404-b63c-6440-d87d-cc9a2e8389ff",
       "longDescription": "",
       "shortDescription": "Peering facility or location is not listed.",
