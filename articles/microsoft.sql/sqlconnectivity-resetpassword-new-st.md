@@ -25,8 +25,8 @@ The password for the Server admin can be reset using the Azure portal.<br>
 
 The password for non-admin users can be changed using a client application such as SQL Server Management Studio or Azure Data Studio and the [ALTER LOGIN](https://docs.microsoft.com/sql/t-sql/statements/alter-login-transact-sql?view=azuresqldb-current?WT.mc_id=pid:13491:sid:32745437/) statement.
 
-NOTE: The admin login name cannot be changed after it has been created.
+**Note:** The admin login name cannot be changed after it has been created.
 
-## **Recommended Steps**
+## **Recommended Documents**
 
-Visit [Strong Passwords](https://docs.microsoft.com/sql/relational-databases/security/strong-passwords?view=azuresqldb-current?WT.mc_id=pid:13491:sid:32745437/) for tips regarding setting strong passwords. <br>
+ - [Strong Passwords](https://docs.microsoft.com/sql/relational-databases/security/strong-passwords?view=azuresqldb-current?WT.mc_id=pid:13491:sid:32745437/)<br>
