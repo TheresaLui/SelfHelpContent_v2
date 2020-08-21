@@ -43,6 +43,14 @@
       "searchTags": "PeeringLocation; PeeringFacility;Peering",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "afea4cb5-2aa5-4d86-aabc-07a80c91994e",
+      "longDescription": "",
+      "shortDescription": "BGP Session state on a peering connection is not in Established state.",
+      "searchTags": "Peering",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
