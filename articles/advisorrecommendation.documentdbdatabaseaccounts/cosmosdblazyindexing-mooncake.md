@@ -18,7 +18,7 @@
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
-  "recommendationFriendlyName": "CosmosDbLazyIndexing",
+  "recommendationFriendlyName": "CosmosDBLazyIndexing",
   "recommendationMetadataState": "Active",
   "owner": {
     "email": "cosmosnotifications@microsoft.com",
@@ -29,7 +29,7 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.1,
+  "version": 1.3,
   "learnMoreLink": "https://docs.azure.cn/cosmos-db/how-to-manage-indexing-policy",
   "description": "Configure Consistent indexing mode on your Azure Cosmos DB container",
   "longDescription": "We noticed that your Azure Cosmos DB container is configured with the Lazy indexing mode, which may impact the freshness of query results. We recommend switching to Consistent mode.",
