@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6782ed71-1842-f831-b786-d0397a3977f6",
+      "longDescription": "",
+      "shortDescription": "Traffic is not flowing for peering service prefix.",
+      "searchTags": "PeeringService;PeeringServicePrefix",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7c26096f-8522-d93f-61e9-4ef946c62b80",
       "longDescription": "",
       "shortDescription": "PeerASN registration state is pending.",
