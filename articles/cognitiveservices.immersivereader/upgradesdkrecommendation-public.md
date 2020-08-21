@@ -47,7 +47,7 @@
       "name": "CurrentSDKVersion",
       "title": "Current SDK Version"
     }
-  ]
+  ],
   "supportedSDKLanguages": [],
   "actions": [
     {
@@ -57,16 +57,6 @@
       "documentLink": "{releaseNotes}"
     }
   ],
-  "resourceMetadata": {
-    "action": {
-      "actionId": "",
-      "actionType": "",
-      "extensionName": "",
-      "bladeName": "",
-      "metadata": {},
-      "documentLink": ""
-    }
-  },
   "testData": "\"SubscriptionId\":\"e27fbfa4-da13-4cb3-9aaa-3929b702a9db\", \"ResourceId\":\"/subscriptions/e27fbfa4-da13-4cb3-9aaa-3929b702a9db/resourceGroups/Cogsvcs/providers/Microsoft.CognitiveServices/accounts/ImmersiveReader_S0_SF_WestUS2\", \"Language\":\"js\", \"Version\":\"1.1.0\", \"RecommendedActionLearnMore\":\"https://aka.ms/ImmersiveReaderAzureAdvisorSDKLearnMore\", \"ReleaseNotes\":\"https://aka.ms/ImmersiveReaderSDKReleaseNotes\", \"AdditionalProperties\":\"{\"\"CurrentSDKVersion\"\":\"\"1.0.0\"\"}\""
 }
 ---
