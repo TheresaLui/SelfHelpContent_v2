@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5982f56a-3604-c3c8-1367-383929f00ae3",
+      "longDescription": "",
+      "shortDescription": "Peering create or update request failed with error bad argument.",
+      "searchTags": "Peering",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7c26096f-8522-d93f-61e9-4ef946c62b80",
       "longDescription": "",
       "shortDescription": "PeerASN registration state is pending.",
