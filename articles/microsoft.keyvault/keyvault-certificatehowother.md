@@ -16,6 +16,7 @@
 />
 
 # Managing Certificates in Key Vault
+
 ## **Recommended Steps**
 
 * [Storing App Service Certificate in Key Vault](https://docs.microsoft.com/azure/app-service/configure-ssl-certificate#import-an-app-service-certificate)
@@ -26,11 +27,11 @@
 *  **Error type 'The public key of the end-entity certificate in the specified X.509 certificate content does not match the public part of the specified private key. Please check if certificate is valid'**
 	
 	This error can occur if you are not merging the CSR with the same CSR request initiated. Each time a CSR is created, it creates a private key which has to be matched when merging the signed request.
-* Unauthorized access, access denied, forbidden, or similar error: The principal used doesn't have access to the resource it's trying to access.
-
-* I have accidentally **deleted a certificate**. How can i recover it?
 	
-	If the key vault had soft-deleted enabled, you can [recover deleted certificate](https://docs.microsoft.com/rest/api/keyvault/recoverdeletedcertificate), [view deleted certificate](https://docs.microsoft.com/rest/api/keyvault/getdeletedcertificate/getdeletedcertificate).
+* Unauthorized access, access denied, forbidden, or similar error: The principal used doesn't have access to the resource it's trying to access.
+* I have accidentally **deleted a certificate**. How can I recover it?
+	
+	If the key vault had soft-deleted enabled, you can [recover deleted certificate](https://docs.microsoft.com/rest/api/keyvault/recoverdeletedcertificate) or [view deleted certificate](https://docs.microsoft.com/rest/api/keyvault/getdeletedcertificate/getdeletedcertificate).
 
 ## **Recommended Documents**
 
