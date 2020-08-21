@@ -123,6 +123,14 @@
       "searchTags": "Peering",
       "category": "Configuration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f57f1276-60f1-6781-1367-ebd84a5ebeae",
+      "longDescription": "",
+      "shortDescription": "Issue with configuration and setup with peering or peeringservice",
+      "searchTags": "Peering;PeeringService",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
