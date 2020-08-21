@@ -23,6 +23,10 @@
 
 Some errors are transient and your request may succeed if you retry creation after 15 minutes of the failed attempt. If after retrying your request, you still receive an error and are not able to address the issue, note the time frame in which the error occurred and file a support request in a timely manner. By providing a time frame and filing a support ticket within a few days of an event, support is more likely to be able to review logs to determine the root cause of the error as logs are only available for a specific amount of time.
 
+**Azure portal error when creating a cluster with a public key**
+
+When trying to create an Azure HDInsight cluster from the Azure portal and using an SSH authentication type of public key, users are experiencing an error when they click **Review + Create**. The error in the portal is "Must not contain any three consecutive characters from SSH username." This issue is being addressed; however, if you experience this issue, the workaround is to return to the **Create HDInsight cluster** blade in the portal, check the **Use cluster login password for SSH** box, and then uncheck the **Use cluster login password for SSH** box, and then click **Review + Create** again. Cluster creation should complete without error. 
+
 **Issues with A2 VMs**
 
 1. **Error:** VM size *A2 VM* provided in the request is invalid or not supported for role *node type*. Valid values are: *list of supported VMs*
