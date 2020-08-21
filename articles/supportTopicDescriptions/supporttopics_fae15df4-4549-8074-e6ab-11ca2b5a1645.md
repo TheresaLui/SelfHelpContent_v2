@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "7c26096f-8522-d93f-61e9-4ef946c62b80",
+      "longDescription": "",
+      "shortDescription": "PeerASN registration state is pending.",
+      "searchTags": "PeerASN;Peering",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "91735404-b63c-6440-d87d-cc9a2e8389ff",
       "longDescription": "",
       "shortDescription": "Peering facility or location is not listed.",
