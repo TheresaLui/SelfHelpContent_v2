@@ -245,6 +245,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "da3342ce-c2c3-604b-884d-92ca67de7c4c",
+      "longDescription": "",
+      "shortDescription": "BGP session state for peering connection is not available via metrics.",
+      "searchTags": "Peering",
+      "category": "Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e25599f5-01b7-48ba-7e52-f82270c07f28",
       "longDescription": "",
       "shortDescription": "Prefix events data does not have all events.",
