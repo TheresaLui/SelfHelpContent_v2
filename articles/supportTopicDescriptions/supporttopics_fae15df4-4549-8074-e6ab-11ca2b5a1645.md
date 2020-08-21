@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "aa7aa56a-db98-7df9-954b-572274a4752c",
+      "longDescription": "",
+      "shortDescription": "Latency data is not available for peering service prefix.",
+      "searchTags": "PeeringService;PeeringServicePrefix",
+      "category": "Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "abc5c21b-b544-11b3-5428-548d8d30c68b",
       "longDescription": "",
       "shortDescription": "Peering connection is in provisioning failed state.",
