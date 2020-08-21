@@ -237,6 +237,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e25599f5-01b7-48ba-7e52-f82270c07f28",
+      "longDescription": "",
+      "shortDescription": "Prefix events data does not have all events.",
+      "searchTags": "PeeringService;PeeringServicePrefix",
+      "category": "Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f267bdf7-06d9-f3dd-187f-de39c0b4253f",
       "longDescription": "",
       "shortDescription": "Need to move peering resource from one subscription to another.",
