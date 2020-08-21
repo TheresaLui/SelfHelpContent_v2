@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "04750c8f-7ef2-fe6b-ea4a-617f2919ff7c",
+      "longDescription": "",
+      "shortDescription": "PeeringService Provider not listed.",
+      "searchTags": "PeeringService;PeeringServiceProvider",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "09f5e119-4eb2-0ba0-b47a-f6bdce7c3682",
       "longDescription": "",
       "shortDescription": "Peering create or update request failed with internal server error.",
