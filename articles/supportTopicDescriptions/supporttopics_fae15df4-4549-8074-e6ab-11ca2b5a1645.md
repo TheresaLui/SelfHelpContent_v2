@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "abc5c21b-b544-11b3-5428-548d8d30c68b",
+      "longDescription": "",
+      "shortDescription": "Peering connection is in provisioning failed state.",
+      "searchTags": "Peering",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "afea4cb5-2aa5-4d86-aabc-07a80c91994e",
       "longDescription": "",
       "shortDescription": "BGP Session state on a peering connection is not in Established state.",
