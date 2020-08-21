@@ -37,7 +37,7 @@
   "version": 1.0,
   "learnMoreLink": "https://aka.ms/ImmersiveReaderAzureAdvisorSDKLearnMore",
   "description": "Upgrade to the latest version of the Immersive Reader SDK",
-  "longDescription": ""We have identified resources under this subscription using outdated versions of the Immersive Reader SDK. Using the latest version of the Immersive Reader SDK provides you with updated security, performance and an expanded set of features for customizing and enhancing your integration experience.",
+  "longDescription": "We have identified resources under this subscription using outdated versions of the Immersive Reader SDK. Using the latest version of the Immersive Reader SDK provides you with updated security, performance and an expanded set of features for customizing and enhancing your integration experience.",
   "potentialBenefits": "Improved security, performance and support for new features.",
   "tip": "Regularly upgrade the Immersive Reader SDK version to access updates, enhancements and new features.",
   "displayLabel": "Upgrade to the latest version of the Immersive Reader SDK",
