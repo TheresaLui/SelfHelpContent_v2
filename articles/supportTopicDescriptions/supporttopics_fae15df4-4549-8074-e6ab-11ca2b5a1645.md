@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9fc9edfe-5ff2-0664-6952-9c098a5b9c1d",
+      "longDescription": "",
+      "shortDescription": "Prefix events data is not available for peering service prefix.",
+      "searchTags": "PeeringService;PeeringServicePrefix",
+      "category": "Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a07dc108-3eb3-b5e7-64d3-b35196b739ce",
       "longDescription": "",
       "shortDescription": "Increased latency or packet loss for peering connection or peering service prefix.",
