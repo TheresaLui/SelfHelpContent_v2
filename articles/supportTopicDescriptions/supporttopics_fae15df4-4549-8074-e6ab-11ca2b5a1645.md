@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "48f2da39-429d-92f4-949b-e6dbd008c5c3",
+      "longDescription": "",
+      "shortDescription": "Issue with peering or peering service not listed.",
+      "searchTags": "Peering;PeeringService",
+      "category": "General",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5536ad98-db66-2549-3a49-a8f8d9660e44",
       "longDescription": "",
       "shortDescription": "Peering connection is in pending approval state.",
