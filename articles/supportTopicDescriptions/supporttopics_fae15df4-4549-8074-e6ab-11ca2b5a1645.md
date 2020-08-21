@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "5536ad98-db66-2549-3a49-a8f8d9660e44",
+      "longDescription": "",
+      "shortDescription": "Peering connection is in pending approval state.",
+      "searchTags": "Peering",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7c26096f-8522-d93f-61e9-4ef946c62b80",
       "longDescription": "",
       "shortDescription": "PeerASN registration state is pending.",
