@@ -32,6 +32,6 @@ Please, have the following information ready and enter it to the *Description* f
 - [Information for Speech-to-text](https://docs.microsoft.com/azure/cognitive-services/speech-service/speech-services-quotas-and-limits#have-the-required-information-ready)
 - [Information for Text-to-speech](https://docs.microsoft.com/azure/cognitive-services/speech-service/speech-services-quotas-and-limits#prepare-the-required-information)
 
-## **Recommended Documents**
+## Recommended Documents
 
 - [Speech Services Quotas and Limits](https://docs.microsoft.com/azure/cognitive-services/speech-service/speech-services-quotas-and-limits)
