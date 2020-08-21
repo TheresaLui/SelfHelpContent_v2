@@ -189,6 +189,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cd3a95a0-39f4-9001-a94c-ccf791e03548",
+      "longDescription": "",
+      "shortDescription": "Issue when removing peering.",
+      "searchTags": "Peering",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f267bdf7-06d9-f3dd-187f-de39c0b4253f",
       "longDescription": "",
       "shortDescription": "Need to move peering resource from one subscription to another.",
