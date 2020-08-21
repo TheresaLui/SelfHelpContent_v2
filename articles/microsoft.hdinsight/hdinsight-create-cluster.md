@@ -25,7 +25,7 @@ Some errors are transient and your request may succeed if you retry creation aft
 
 **Azure portal error when creating a cluster with a public key**
 
-When trying to create an Azure HDInsight cluster from the Azure portal and using an SSH authentication type of public key, users are experiencing an error when they click **Review + Create**. The error in the portal is "Must not contain any three consecutive characters from SSH username." This issue is being addressed; however, if you experience this error, the workaround is to return to the **Create HDInsight cluster** blade in the portal, check the **Use cluster login password for SSH** box, and then uncheck the **Use cluster login password for SSH** box, and then click **Review + Create** again. Cluster creation should complete without error. 
+When trying to create an Azure HDInsight cluster from the Azure portal and using an SSH authentication type of public key, users are experiencing an error when they click **Review + Create**. The error in the portal is "Must not contain any three consecutive characters from SSH username." This issue is being addressed; however, if you experience this error, the workaround is to create a cluster with an ARM template. 
 
 **Issues with A2 VMs**
 
