@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3e93bd16-c430-3f79-9ee9-295e3c918fb2",
+      "longDescription": "",
+      "shortDescription": "Issue with connectivity on peering connection or peering service prefix.",
+      "searchTags": "PeeringService;Peering",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "48f2da39-429d-92f4-949b-e6dbd008c5c3",
       "longDescription": "",
       "shortDescription": "Issue with peering or peering service not listed.",
