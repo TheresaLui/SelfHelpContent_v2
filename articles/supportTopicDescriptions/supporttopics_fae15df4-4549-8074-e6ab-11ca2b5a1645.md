@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a07dc108-3eb3-b5e7-64d3-b35196b739ce",
+      "longDescription": "",
+      "shortDescription": "Increased latency or packet loss for peering connection or peering service prefix.",
+      "searchTags": "Peering;PeeringService;PeeringServicePrefix",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "abc5c21b-b544-11b3-5428-548d8d30c68b",
       "longDescription": "",
       "shortDescription": "Peering connection is in provisioning failed state.",
