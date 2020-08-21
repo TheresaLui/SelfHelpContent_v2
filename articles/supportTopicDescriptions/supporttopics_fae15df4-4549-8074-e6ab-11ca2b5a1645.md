@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "60c2a683-f126-027c-8303-3e8d28b652f9",
+      "longDescription": "",
+      "shortDescription": "Issue when removing peering service prefix.",
+      "searchTags": "PeeringService;PeeringServicePrefix",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6782ed71-1842-f831-b786-d0397a3977f6",
       "longDescription": "",
       "shortDescription": "Traffic is not flowing for peering service prefix.",
