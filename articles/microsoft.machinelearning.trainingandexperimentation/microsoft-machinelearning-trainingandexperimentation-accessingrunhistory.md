@@ -19,7 +19,7 @@
 ## **Recommended Steps**
 
 ### Monitoring and viewing ML run logs and metrics
-Follow [this documentaion](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-track-experiments#view-the-experiment-in-your-workspace-in-azure-machine-learning-studio) to learn how to add logging code to your training script, submit an experiment run, monitor that run, and inspect the results in Azure Machine Learning.
+Follow [this documentaion](https://docs.microsoft.com/azure/machine-learning/how-to-monitor-view-training-logs) to learn how to add logging code to your training script, submit an experiment run, monitor that run, and inspect the results in Azure Machine Learning.
 
 ### Unable to View Logs
 If you are unable to view your logs, please check your workspace storage setting in the [Azure Portal](https://ms.portal.azure.com) to see whether the ADLS Gen2 Hierarchical namespace (HNS) is enabled. You can check by navigating to your Storage Account, selecting the Configuration tab and viewing whether the Data Lake Storage Gen2 Hierarchical namespace is enabled or disabled. HNS is currently not supported by Azure Machine Learning, you will need to create a new workspace with HNS disabled for your storage account. 
