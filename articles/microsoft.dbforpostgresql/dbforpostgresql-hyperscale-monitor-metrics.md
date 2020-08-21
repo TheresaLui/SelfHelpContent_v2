@@ -5,7 +5,7 @@
     resource="serverGroups"
     ms.author="raagyema"
     displayOrder="70"
-    articleId="dbforpostgresql-hyperscale-monitor-metrics.md"
+    articleId="dbforpostgresql-hyperscale-monitor-metrics.md_aaaa"
     selfHelpType="resource"
     supportTopicIds="32639994"
     resourceTags=""

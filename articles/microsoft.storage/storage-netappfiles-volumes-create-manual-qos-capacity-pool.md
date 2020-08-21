@@ -6,7 +6,7 @@
 	authors="b-mayada"
 	ms.author="b-mayada"
 	displayOrder=""
-	articleId="NetAppCapacityPoolsManualQoSIssue"
+	articleId="NetAppCapacityPoolsManualQoSIssueaaa"
 	selfHelpType="generic"
 	supportTopicIds="32743313"
 	resourceTags=""
