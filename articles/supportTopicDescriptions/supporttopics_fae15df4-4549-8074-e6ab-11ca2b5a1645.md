@@ -125,6 +125,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c99aed63-9a09-fbce-0e42-48107e21a490",
+      "longDescription": "",
+      "shortDescription": "Traffic is not flowing through peering connection.",
+      "searchTags": "Peering",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f57f1276-60f1-6781-1367-ebd84a5ebeae",
       "longDescription": "",
       "shortDescription": "Issue with configuration and setup with peering or peeringservice",
