@@ -56,7 +56,7 @@ First, you remote into one of the App Service controller VMs, get the SQL Server
 
 5. At this point, you've determined that SQL Server is not reachable by the App Service RP. If you **did not** deploy SQL Server using the [Quickstart template for Highly Available file server and SQL Server](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-before-you-get-started#quickstart-template-for-highly-available-file-server-and-sql-server), you must use your own process to validate that the SQL instances are healthy, running and available. Then proceed to step #6.
 
-    If you **did** deploy using the HA template, proceeed with the following steps. From the controller VM, you verify connectivity with the SQL Server load balancer and database instances, and restart the SQL Server database instances if necessary:
+    If you **did** deploy using the HA template, proceed with the following steps. From the controller VM, you verify connectivity with the SQL Server load balancer and database instances, and restart the SQL Server database instances if necessary:
 
     1. Use the Start menu to find and run the "Remote Desktop Connection" app. 
     2. Use one of the SQL Server IP addresses obtained in step #2.ii to connect to that SQL Server VM. You'll need the admin credentials provided during deployment to sign in.
