@@ -33,4 +33,6 @@ For optimal query performance, we recommend selecting **consistent indexing**. T
 Because the benefits of **consistent indexing** are significant, we have removed the option for lazy indexing in new containers. We want to encourage customers to follow this indexing best practice.
 
 ## **Recommended Documents**
-[Indexing Mode](https://docs.microsoft.com/azure/cosmos-db/index-policy#indexing-mode)
+
+* [Indexing Mode](https://docs.microsoft.com/azure/cosmos-db/index-policy#indexing-mode)
+
