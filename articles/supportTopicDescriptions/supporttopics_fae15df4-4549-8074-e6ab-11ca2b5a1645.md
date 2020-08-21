@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f267bdf7-06d9-f3dd-187f-de39c0b4253f",
+      "longDescription": "",
+      "shortDescription": "Need to move peering resource from one subscription to another.",
+      "searchTags": "Peering",
+      "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f57f1276-60f1-6781-1367-ebd84a5ebeae",
       "longDescription": "",
       "shortDescription": "Issue with configuration and setup with peering or peeringservice",
