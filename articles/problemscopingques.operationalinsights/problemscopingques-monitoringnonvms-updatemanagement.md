@@ -17,6 +17,7 @@ schemaVersion="1"
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Update Management",
     "fileAttachmentHint": "",
     "formElements": [

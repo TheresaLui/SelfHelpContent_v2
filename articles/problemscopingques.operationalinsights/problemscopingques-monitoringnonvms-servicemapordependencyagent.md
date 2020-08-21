@@ -17,6 +17,7 @@ schemaVersion="1"
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Service Map or Dependency agent",
     "fileAttachmentHint": "",
     "formElements": [
