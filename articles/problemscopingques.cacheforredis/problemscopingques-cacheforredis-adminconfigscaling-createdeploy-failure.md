@@ -12,7 +12,7 @@
 	productPesIds="14783"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
     schemaVersion="1"
-	articleId="f83f037d-6b0d-4b73-968e-e037d3c0bdf5"
+	articleId="f83f037d-6b0d-4b73-968e-e037daaaaaa"
 	ownershipId="RedisCache_RedisCache"
 />
 # Administration, Configuration and Scaling - Create or Deployment failure
