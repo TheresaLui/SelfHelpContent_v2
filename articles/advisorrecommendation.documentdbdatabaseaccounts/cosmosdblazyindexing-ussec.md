@@ -29,7 +29,7 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.3,
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/how-to-manage-indexing-policy",
   "description": "Configure Consistent indexing mode on your Azure Cosmos container",
   "longDescription": "We noticed that your Azure Cosmos container is configured with the Lazy indexing mode, which may impact the freshness of query results. We recommend switching to Consistent mode.",
