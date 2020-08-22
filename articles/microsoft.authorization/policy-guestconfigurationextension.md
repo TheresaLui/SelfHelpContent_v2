@@ -27,13 +27,13 @@ The Guest Configuration extension is required to perform audits in Azure virtual
 
 ## Issues related to managed identity
 
-If you are experiencing issues where user-assigned identities are overriden when system-assigned identities are provisioned, please review
+If you are experiencing issues where user-assigned identities are overridden when system-assigned identities are provisioned, please review
 the following documentation.
 
-- [https://docs.microsoft.com/en-us/azure/governance/policy/concepts/guest-configuration#managed-identity-requirements](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/guest-configuration#managed-identity-requirements)
+- [https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration#managed-identity-requirements](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration#managed-identity-requirements)
 
 In addition, all Guest Configuration policies that contain effect **DeployIfNotExist** and previously caused conflict with user-assigned identities
-are being marked as deprecated and replaced with new audit policies. This requires manually deleting existing policy assignments and assigning the new audit policies. For more information, see [https://aka.ms/gcpol](https://aka.ms/gcpol).
+are being marked as deprecated and replaced with new audit policies. This requires manually deleting existing policy assignments and assigning the new audit policies. For more information, see [https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration#guest-configuration-definition-requirements](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration#guest-configuration-definition-requirements).
 
 ## **Recommended Documents**
 
