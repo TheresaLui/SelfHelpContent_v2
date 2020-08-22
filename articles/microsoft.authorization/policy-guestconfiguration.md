@@ -36,7 +36,7 @@ used to automatically create resources in the `Microsoft.GuestConfiguration` Azu
 a single Initiate can be used to enable all requirements for identity and extensions on a machine, and then audit policies
 can be added/removed without needing to run Remediation Tasks.
 
-The inititative to deploy requirements is named `Deploy prerequisites to enable Guest Configuration policies on virtual machines`. Once
+The initiatative to deploy requirements is named `Deploy prerequisites to enable Guest Configuration policies on virtual machines`. Once
 it has been assigned (and any existing machines have been remediated), no additional "prerequisite" policies are required as
 audit definitions are assigned.
 
@@ -47,7 +47,8 @@ The new policies will follow the name pattern `Audit <Windows/Linux> machines th
 not require a built-in initiative.
 
 Changing to the new policies is manual. There is no timeline for when the old policies would be deleted, to force the change to happen
-by a specific date. When it is appropriate for your environmnt, you can assign the new definitions and delete any policy assignments you have that use the deprecated initatives/definitions. We appreciate your patience during this change.
+by a specific date. When it is appropriate for your environment, you can assign the new definitions and delete any policy assignments
+that use the deprecated initiatives/definitions. We appreciate your patience during this change.
 
 ## **Recommended Documents**
 
