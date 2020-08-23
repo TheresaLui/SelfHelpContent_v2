@@ -22,11 +22,10 @@
 
 ### **Copied database logins/users**
 
-* The logins, users, and permissions in the copied database are managed independently from the source database.
-* When you copy a database to a different server, the security principal that initiated the copy operation on the target server becomes the owner of the new database.
-* Regardless of the target server, all database users, their permissions, and their security identifiers (SIDs) are copied to the database copy.
-* Using contained database users for data access ensures that the copied database has the same user credentials, so that after the copy is complete you can immediately access it with the same credentials.
-
+- The logins, users, and permissions in the copied database are managed independently from the source database.
+- When you copy a database to a different server, the security principal that initiated the copy operation on the target server becomes the owner of the new database.
+- Regardless of the target server, all database users, their permissions, and their security identifiers (SIDs) are copied to the database copy.
+- Using contained database users for data access ensures that the copied database has the same user credentials, so that after the copy is complete you can immediately access it with the same credentials.
 
 ### **Login and other failures on copied Database**
 
