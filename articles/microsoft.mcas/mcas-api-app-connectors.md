@@ -26,9 +26,6 @@ Most users are able to app connector issues using the steps below.
 1. If you having a problem adding a connector, see the [relevant connector documentation](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps).
 1. If you are getting any of the following errors: "connection error", "no recent status".
     1. Go to the relevant app and perform a **Test now** check.
-
-        ![Screenshot showing test now](media/mcas-api-app-connectors-test-now.png)
-
     1. If you are still getting an error, try to resolve the issue using the [troubleshooting guide](https://docs.microsoft.com/cloud-app-security/troubleshooting-api-connectors-using-error-messages).
 1. If the connector is working by you can't see users or activities from the connector, use the following guidelines:
     1. Allow take up to 72 hours for the first scan to complete.
