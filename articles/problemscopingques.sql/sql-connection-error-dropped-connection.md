@@ -1,14 +1,14 @@
 <properties
-	pageTitle="Error When Connecting to my Database"
-	description="Scoping questions to capture more details about errors encountered while connecting to SQL DB"
+	pageTitle="Dropped connections"
+	description="Scoping questions to capture more details about dropped connections"
 	authors="keithelm"
-	ms.author="keithelm,muruga,emlisa"
+	ms.author="keithelm,muruga"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32745425"
-	productPesIds="13491, 15818"
+	supportTopicIds="32745426"
+	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-	articleId="D748D991-21A6-4FBD-B98E-7962F6100F9A-new-st"
+	articleId="4C560386-D637-4B09-A75B-FFC643DB8430"
 	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 # Error When Connecting to my Database
@@ -17,7 +17,7 @@
   "$schema": "SelfHelpContent",
   "resourceRequired": true,
   "subscriptionRequired": true,
-  "title": "Error When Connecting to my Database",
+  "title": "Dropped connections",
   "fileAttachmentHint": "",
   "diagnosticCard": {
     "title": "SQL DB Connectivity Troubleshooter",
@@ -44,44 +44,28 @@
       "diagnosticInputRequiredClients": "Portal"
     },
     {
-      "id": "error_dropdown",
+      "id": "connecting_from",
       "order": 5,
       "controlType": "dropdown",
-      "displayLabel": "What error are you seeing?",
+      "displayLabel": "Where is your client application running?",
       "watermarkText": "Choose an option",
-      "infoBalloonText": "For other errors encountered during query execution, go back and select Problem Type = Performance and Query Execution",
+      "infoBalloonText": "Knowing where your client application is connecting from may help us troubleshoot the issue further.",
       "dropdownOptions": [
         {
-          "value": "Error_Minus_1",
-          "text": "-1: A network-related or instance-specific error has occurred..."
+          "value": "within_azure",
+          "text": "Within Azure"
         },
         {
-          "value": "Error_10928",
-          "text": "10928: The [request | session] limit for the database is [value] and has been reached"
+          "value": "on_premise",
+          "text": "On-premise network"
         },
         {
-          "value": "Error_18456",
-          "text": "18456: Login failed for user [user name]"
+          "value": "other_cloud",
+          "text": "Other cloud service provider"
         },
         {
-          "value": "Error_40613",
-          "text": "40613: Database [database name] on server [server name] is not currently available"
-        },
-        {
-          "value": "Error_40532_40615",
-          "text": "40532/40615: Cannot open server [server name] requested by the login"
-        },
-        {
-          "value": "Error_49918",
-          "text": "49918: Cannot process request. Not enough resources to process request"
-        },
-        {
-          "value": "Error_Login_Timeout",
-          "text": "Login/connection timeouts"
-        },
-        {
-          "value": "Error_Other",
-          "text": "Other error not listed"
+          "value": "other_hoster",
+          "text": "Other hoster/ISP"
         },
         {
           "value": "dont_know_answer",
@@ -99,14 +83,6 @@
       "required": true,
       "useAsAdditionalDetails": true,
       "watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application.  If available, include the client stack trace as well."
-    },
-		{
-      "id": "sqlexception_received_on_client",
-      "order": 2000,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
-      "required": true,
-      "diagnosticInputRequiredClients": "Portal"
     },
     {
       "id": "database_name",
