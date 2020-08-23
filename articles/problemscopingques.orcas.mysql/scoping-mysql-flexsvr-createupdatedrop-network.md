@@ -87,14 +87,14 @@
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the error message you received?",
-            "required": true
+            "required": false
         },
         {
             "id": "resource",
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "What network resource did you try to create, update or drop?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
