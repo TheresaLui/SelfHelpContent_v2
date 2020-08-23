@@ -1,20 +1,15 @@
 <properties
-    pageTitle="Did not receive expected email"
-    description="I can see my fired alert in the Azure portal, but did not receive its email"
-    infoBubbleText=""
-    service="microsoft.alertsmanagement"
-    resource="alerts"
-    authors="ofirmanor"
-    ms.author="ofmanor"
-    displayOrder="1"
-    articleId="alerts-notification-missing-email"
-    selfHelpType="generic"
-    supportTopicIds="32739779"
-    productPesIds="15454,15725"
-    cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
-    ownershipId="AzureMonitoring_ActionGroup"
-/>
-
+  pagetitle="I didn't receive an email as expected &#xD;"
+  service=""
+  resource=""
+  ms.author="ofmanor,yagil"
+  selfhelptype="Generic"
+  supporttopicids="32739779,32745418"
+  resourcetags=""
+  productpesids="15454,15725"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="alerts-notification-missing-email"
+  ownershipid="AzureMonitoring_ActionGroup" />
 # I didn't receive an email as expected 
 
 ## **Recommended Steps**

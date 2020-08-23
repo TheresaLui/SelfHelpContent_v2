@@ -110,6 +110,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "45228519-63b6-aefe-c781-80ba93665093",
+      "longDescription": "",
+      "shortDescription": "To identify how and when your key vaults are accessed, and by whom",
+      "searchTags": "logging;monitoring;access;who;whom",
+      "category": "Key vault access, performance monitoring",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "46ca6094-e1c4-bbff-7753-07a1f8206438",
       "longDescription": "",
       "shortDescription": "Troubleshoot issues with key creation, import, HSM key, disk encryption",
@@ -158,11 +166,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6bd4c475-4a4d-bad4-9523-f16c6f9feda6",
+      "longDescription": "",
+      "shortDescription": "Issues with key vault access control policies",
+      "searchTags": "access denied;access;policy;security group",
+      "category": "Key Vault access policy issues ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "715c9793-b31c-14a0-1a1c-0ef014944a2b",
       "longDescription": "",
       "shortDescription": "Issues with deleting secrets in key vault with soft delete enabled",
       "searchTags": "delete secret",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "71fbae25-f818-0ad0-9dff-4267aab35031",
+      "longDescription": "",
+      "shortDescription": "To integrate a key vault with Azure Private Link",
+      "searchTags": "private link",
+      "category": "Connectivity with private link ",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -382,6 +406,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e67b72ab-c6f9-bed4-b57e-2ef1033516e0",
+      "longDescription": "",
+      "shortDescription": "Recommended troubleshooting Steps for error types",
+      "searchTags": "401;403;429;authentication;error",
+      "category": "TSG for key vault access policy issues ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e837ae8d-73fe-afdb-66cc-8b485af9cc91",
       "longDescription": "",
       "shortDescription": "Integrate Azure Key Vault with ARM Templates",
@@ -395,6 +427,14 @@
       "shortDescription": "Authorize applications to use Azure Key Vault",
       "searchTags": "Azure;Key Vault",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "eadbc728-a432-31f2-fb07-eb8b55fb061d",
+      "longDescription": "",
+      "shortDescription": "Resolve their issues with TDE, Always Encrypted and AKV",
+      "searchTags": "TDE;SQL;encrypted;VM",
+      "category": "Configuring AKV integration for SQL ",
       "useInDiagnoseAndSolve": "true"
     },
     {
