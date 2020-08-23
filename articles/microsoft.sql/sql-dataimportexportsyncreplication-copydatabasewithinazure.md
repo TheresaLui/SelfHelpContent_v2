@@ -24,15 +24,21 @@ Database Copy is a transactionally consistent snapshot of your source database a
 **Logins after DB Copy**
 
 - The logins, users and permissions in the copied database  are managed independently from the source database.
+
 - When you copy a database to a different server, the security principal that initiated the copy operation on the target server becomes the owner of the new database.
+
 - Regardless of the target server, all database users, their permissions, and their security identifiers (SIDs) are copied to the database copy.
+
 - Using contained database users for data access ensures that the copied database has the same user credentials, so that after the copy is complete you can immediately access it with the same credentials.
 
 **Error accessing copied database**
 
 - If you use server level logins for data access and copy the database to a different server, the login-based access might not work. This can happen because the logins do not exist on the target server, or because their passwords and security identifiers (SIDs) are different.
+
 - After the copy operation to a different server succeeds, and before other users are remapped, only the login associated with the database owner, or the server administrator can log in to the copied database. To resolve logins and establish data access after the copying operation is complete see [Resolve Logins](https://docs.microsoft.com/azure/azure-sql/database/database-copy?tabs=azure-powershell#resolve-logins)
+
 - *Error: Database <copied database name> on server <target server name> is not currently available. Please retry the connection later.* This means, the copy (Seeding process) operation is in progress  and in this case you need to wait until the DB copy operation is complete. Depending on the size of the database & target service tier the process the duration varies. However if the problem persists, for longer duration, please proceed with creating support request and provide the tracing ID.
+
 - And if you receive permission related errors when creating or cancelling a database copy request, please ensure you are a "Subscription Owner" OR "SQL Server contributor role" OR Custom role on the source and target databases with the following permission: *Microsoft.Sql/servers/databases/read/Microsoft.Sql/servers/databases/write*.
 
 ## **Recommended Documents**
