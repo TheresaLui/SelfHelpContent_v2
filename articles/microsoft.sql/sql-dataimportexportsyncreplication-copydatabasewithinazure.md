@@ -36,7 +36,7 @@ Database Copy is a transactionally consistent snapshot of your source database a
 - And if you receive permission related errors when creating or cancelling a database copy request, please ensure you are a "Subscription Owner" OR "SQL Server contributor role" OR Custom role on the source and target databases with the following permission: *Microsoft.Sql/servers/databases/read/Microsoft.Sql/servers/databases/write*.
 
 ## **Recommended Documents**
-- [DB   Copy using  Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-copy?tabs=azure-powershell#copy-a-database-by-using-the-azure-portal)
-- [DB Copy Using PowerShell or Azure CLI](https://docs.microsoft.com/azure/azure-sql/database/database-copy?tabs=azure-powershell#copy-using-powershell-or-the-azure-cli)
-- [DB Copy Using Transact-SQL](https://docs.microsoft.com/azure/azure-sql/database/database-copy?tabs=azure-powershell#copy-using-transact-sql)
-- [Copy DB to a different subscription](https://docs.microsoft.com/azure/sql-database/sql-database-copy?tabs=azure-powershell#copy-a-sql-database-to-a-different-subscription)
+
+- [DB Copy using  Azure portal/PowerShell/TSQL](https://docs.microsoft.com/azure/azure-sql/database/database-copy)
+
+- [Copy database to different Subscription](https://docs.microsoft.com/azure/sql-database/sql-database-copy?tabs=azure-powershell#copy-a-sql-database-to-a-different-subscription)
