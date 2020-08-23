@@ -34,7 +34,7 @@
             "required": false
         },
         {
-            "id": "operations",
+            "id": "unavailable",
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "How long time the mysql server was unavailable?",
