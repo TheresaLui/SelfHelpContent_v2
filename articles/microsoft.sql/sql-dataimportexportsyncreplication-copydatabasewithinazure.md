@@ -21,8 +21,6 @@
 
 ### **Login and other failures on copied Database**
 
-* If you use server level logins for data access and copy the database to a different server, the login-based access might not work. This can happen because the logins do not exist on the target server, or because their passwords and security identifiers (SIDs) are different. 
-
 * After the copy operation to a different server succeeds, and before other users are remapped, only the login associated with the database owner, or the server administrator can log in to the copied database. To resolve logins and establish data access after the copying operation is complete, see [Resolve logins](https://docs.microsoft.com/azure/azure-sql/database/database-copy?tabs=azure-powershell#resolve-logins)
 
 * *Error : Database '(Copied database name)' on server '(Target Server)' is not currently available.  Please retry the connection later.*
