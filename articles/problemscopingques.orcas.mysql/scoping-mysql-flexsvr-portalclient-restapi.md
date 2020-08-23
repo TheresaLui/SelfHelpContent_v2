@@ -4,19 +4,19 @@
     authors="Hang-Zhang"
     ms.author="haz"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32747576"
+    supportTopicIds="32747634"
     productPesIds="17344"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
-    articleId="scoping-mysql-flexsvr-portalclient-powershell"
+    articleId="scoping-mysql-flexsvr-toolsapis-rest_api"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
-# Portal, Client Tools and APIs - Setting up Monitoring and Alerts
+# Portal, Client Tools and APIs - Rest API
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "MySQL Powershell scoping questions",
+    "title": "Tools and APIs Rest API",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -27,36 +27,33 @@
             "required": true
         },
         {
-            "id": "command",
+            "id": "api_version",
             "order": 2,
             "controlType": "textbox",
-            "displayLabel": "Which command(s) are you experiencing issues with?",
+            "displayLabel": "What is the API version you are using?",
             "required": false
         },
         {
-            "id": "same_issue_server",
+            "id": "error_message",
             "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "If you have multiple servers, did you experience the same issue on other servers?",
-            "dropdownOptions": [
-                {
-                    "value": "Yes",
-                    "text": "Yes"
-                },
-                {
-                    "value": "No",
-                    "text": "No"
-                },
-                {
-                    "value": "dont_know_answer",
-                    "text": "Don't know or unsure"
-                }
-            ],
-            "required": false
+            "controlType": "multilinetextbox",
+            "displayLabel": "What is the error message you received?",
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": false
+        },
+        {
+            "id": "sample_request",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Can you please share one sample request?",
+            "watermarkText": "",
+            "required": false,
+            "useAsAdditionalDetails": false
         },
         {
             "id": "problem_description",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Problem description",
             "watermarkText": "Provide your repro steps and other information about your issue",
