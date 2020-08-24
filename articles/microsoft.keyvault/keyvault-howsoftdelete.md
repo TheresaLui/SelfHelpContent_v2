@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-* **BREAKING CHANGE** To enhance the level of protection that Microsoft offers for your secrets stored in key vault, soft delete will no longer be an opt-out feature. Soft-delete will be required to be enabled on all Azure key vaults. **Starting in December 2020 you will no longer be able to create a new key vault with soft-delete disabled.** Please see the following document that details this change and turn on soft delete protection on all of your key vaults. [Soft Delete Always On](https://docs.microsoft.com/azure/key-vault/general/soft-delete-change)
+* **BREAKING CHANGE** To enhance the level of protection that Microsoft offers for your secrets stored in key vault, soft delete will no longer be an opt-out feature. Soft-delete will be required to be enabled on all Azure key vaults. **Starting in December 2020 you will no longer be able to create a new key vault with soft-delete disabled.** Please see the following document that details this change and turn on soft delete protection on all of your key vaults: [Soft Delete Always On](https://docs.microsoft.com/azure/key-vault/general/soft-delete-change).
 
 * [Azure Key Vault soft-delete overview](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)
 * [Using Soft-Delete and Backup and Restore Behavior with Key Vault](https://docs.microsoft.com/azure/key-vault/key-vault-ovw-soft-delete)
