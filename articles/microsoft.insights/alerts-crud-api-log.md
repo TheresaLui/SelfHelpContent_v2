@@ -10,7 +10,7 @@
     articleId="alerts-crud-api-log"
     diagnosticScenario=""
     selfHelpType="generic"
-    supportTopicIds="32739786,32612430,32633014"
+    supportTopicIds="32739786,32612430"
     resourceTags=""
     productPesIds="15454,15725"
     cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
