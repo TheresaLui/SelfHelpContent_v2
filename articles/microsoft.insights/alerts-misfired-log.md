@@ -25,7 +25,7 @@
 
 If you believe your log alert shouldn't have triggered but it did, the following steps may help resolve the issue.
 
-1. Review the log alert rule to verify that the the query run by the alert service is same as what you want:
+1. Review the log alert rule to verify that the query run by the alert service is same as what you want:
     * Alerting service appends a ```| count``` for **Number of results** rules to compare the number of results for your query against the threshold
     * You can check the exact query used by the alerting service by [viewing the condition of your alert rule](https://docs.microsoft.com/azure/azure-monitor/platform/alert-log-troubleshoot#alert-query-output-misunderstood)
     * To resolve the issue, modify your alert rule query in log analytics portal, so that what alerting service runs matches what you want

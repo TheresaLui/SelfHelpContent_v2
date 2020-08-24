@@ -40,7 +40,7 @@ If you are running into issues while creating, editing, or deleting log alert ru
 
 1. Ensure that the various options for log alert rule have been configured:
 
-    * Configuring alert rules in Azure Monitor requires you to specify the resource, condition, action groups and alert details. Each of the section requires parameters and variables to be chosen, you can [view walk-through on creating log alerts in Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log#managing-log-alerts-from-the-azure-portal) to understand each section and variable better. And set them correctly to allow alert rule creation without errors or issues.
+    * Configuring alert rules in Azure Monitor requires you to specify the resource, condition, action groups and alert details. Each of the section requires parameters and variables to be chosen, you can [review tutorial on creating log alerts in Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log#managing-log-alerts-from-the-azure-portal) to understand each section and variable better. And set them correctly to allow alert rule creation without errors or issues.
     * Log alert rules which are invalid will get disabled by Azure Monitor. [Understand the reasons why alert would get disabled and how to its communicated](https://docs.microsoft.com/azure/azure-monitor/platform/alert-log-troubleshoot#log-alert-was-disabled). If your alert rule is disabled, it will be still available in Azure Monitor and [the rules can be managed or edited in Azure portal](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log#view--manage-log-alerts-in-azure-portal).
 
 1. Hidden alert rules creation for billing cannot be deleted:
