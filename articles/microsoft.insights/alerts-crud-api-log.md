@@ -43,7 +43,7 @@ If you are running into issues creating/updating log alerts using REST API or Az
 4. Review if you have appropriate permissions. To create/update/delete log alerts:
 
     * You should have been assigned built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor), or
-    * You should have been [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/ScheduledQueryRules
+    * You should have been [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-azure-custom-roles) for Microsoft.Insights/ScheduledQueryRules
 
 ## **Recommended Documents**
 
