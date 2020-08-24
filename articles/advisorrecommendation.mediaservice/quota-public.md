@@ -35,7 +35,7 @@
     "serviceTreeId": "44a2b1b8-0556-4403-8261-fe6a9172ea32"
   },
   "ingestionClientIdentities": [],
-  "version": 1.1,
+  "version": 1.2,
   "learnMoreLink": "https://aka.ms/ams-quota-recommendation/",
   "description": "Increase the quota limits in your media account.",
   "longDescription": "You may ask for the quotas to be raised, by opening a support ticket. Include detailed information in the request on the desired quota changes, use-case scenarios, media account name and regions required. Do not create additional Azure Media Services accounts in an attempt to obtain higher limits.",
