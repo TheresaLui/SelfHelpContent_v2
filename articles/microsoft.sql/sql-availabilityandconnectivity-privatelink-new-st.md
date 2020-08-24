@@ -22,4 +22,4 @@ You can connect privately from an Azure virtual network to Azure SQL Database us
 
 ## **Recommended Documents**
 
-* [Azure Private Link](https://docs.microsoft.com/azure/azure-sql/database/private-endpoint-overview?WT.mc_id=pid:13491:sid:32745436)
+[Azure Private Link](https://docs.microsoft.com/azure/azure-sql/database/private-endpoint-overview?WT.mc_id=pid:13491:sid:32745436)
