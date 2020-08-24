@@ -64,7 +64,7 @@
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_ProjectOxford",
       "bladeName": "ResourceBlade",
-      "metadata": {"id": "{resourceId}"},
+      "metadata": {"id": "{resourceId}"}
     }
   },
   "testData": "e27fbfa4-da13-4cb3-9aaa-3929b702a9db,/subscriptions/e27fbfa4-da13-4cb3-9aaa-3929b702a9db/resourceGroups/Cogsvcs/providers/Microsoft.CognitiveServices/accounts/ImmersiveReader_S0_SF_WestUS2,js,1.1.0,https://aka.ms/ImmersiveReaderAzureAdvisorSDKLearnMore,https://aka.ms/ImmersiveReaderSDKReleaseNotes,{\"CurrentSDKVersion\":\"1.0.0\"}"
