@@ -23,12 +23,13 @@ Most users are able to user group configuration issues using the steps below.
 
 ## **Recommended Steps**
 
-1. If you have recently added the imported group and you don't see the correct number of members, wait up to 90 minutes for the group to populate.
-1. After this period, if the number of users in the group is 0 or doesn't match to the number of users in the Azure Active Directory (AD) group, proceed to a support case.
-1. If your issue relates to Cloud App Security only monitoring specific groups, check your [scoped deployment](https://docs.microsoft.com/cloud-app-security/scoped-deployment) configuration.
+* If you have recently added the imported group and you don't see the correct number of members, wait up to 90 minutes for the group to populate
+* After this period, if the number of users in the group is 0 or doesn't match to the number of users in the Azure Active Directory (AD) group, proceed to a support case
+* If your issue relates to Cloud App Security only monitoring specific groups, check your [scoped deployment](https://docs.microsoft.com/cloud-app-security/scoped-deployment) configuration.
 
     **Note**: A scoped deployment rule cannot be edited if an imported group included in the rule is deleted in Azure AD. Therefore, to safely remove groups from Azure AD, first remove the imported groups from all scoped deployment rules and then delete the group from Azure AD.  
-    If you have already removed a group from Azure AD before removing it from all scoped deployment rules, proceed to open a support ticket and provide a list of the affected scoped deployment rules and the group's name.
+   
+* If you have already removed a group from Azure AD before removing it from all scoped deployment rules, proceed to open a support ticket and provide a list of the affected scoped deployment rules and the group's name.
 
 ## **Recommended Documents**
 
