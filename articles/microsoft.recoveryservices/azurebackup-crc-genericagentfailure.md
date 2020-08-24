@@ -32,7 +32,7 @@ We have identified that your backup operation could not complete due to protecti
 
 To resolve this issue, perform the following:
 
-- Ensure Antivirus is disabled (or) all the correct [exclusions](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue?branch=pr-en-us-112823#cause-another-process-or-antivirus-software-interfering-with-azure-backup) for MARS agent are in place
+- Ensure Antivirus is disabled (or) all the correct [exclusions](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-slow-backup-performance-issue?branch=pr-112823#cause-another-process-or-antivirus-software-interfering-with-azure-backup) for MARS agent are in place
 - Review unsupported files from logs and add them from [exclusion](https://docs.microsoft.com/azure/backup/backup-azure-manage-mars#add-exclusion-rules-to-existing-policy) rules
 
 ## **Recommended Documents**
