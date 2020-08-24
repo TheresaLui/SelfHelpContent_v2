@@ -48,6 +48,17 @@
       "documentLink": "https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest"
     }
   ],
+  "resourceMetadata": {
+    "action": {
+      "actionId": "7df7d122-7954-482a-a658-cc9574e9dd1a",
+      "actionType": "Blade",
+      "extensionName": "HubsExtension",
+      "bladeName": "ResourceMenuBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      }
+    }
+  },
   "displayLabel": "Increase Media Account Quota Limits",
   "tip": "",
   "costSavingInfo": "",
