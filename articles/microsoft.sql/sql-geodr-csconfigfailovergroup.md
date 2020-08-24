@@ -28,7 +28,7 @@ In order to use Private links with your failover group:
 - Create the virtual network and subnet in each region to host private endpoints for primary and secondary servers such that they have non-overlapping IP address spaces, e.g. the primary virtual network address range of 10.0.0.0/16 and the secondary virtual network address range of 10.0.0.1/16 overlaps
 - Create a private endpoint and Azure Private DNS zone for the primary server
 - Create a private endpoint for the secondary server as well, but this time choose to reuse the same Private DNS Zone that was created for the primary server
-* Once the private link is established, start creating the failover group
+- Once the private link is established, start creating the failover group
 
 ### **Geo Replication and Failover groups**
 
