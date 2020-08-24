@@ -6,7 +6,7 @@
     authors="TobyTu"
     ms.author="kawilson"
     selfHelpType="generic"
-    supportTopicIds="32742559"
+    supportTopicIds="32742560"
     resourceTags=""
     productPesIds="15791"
     ownershipId="Compute_LogicApps"
