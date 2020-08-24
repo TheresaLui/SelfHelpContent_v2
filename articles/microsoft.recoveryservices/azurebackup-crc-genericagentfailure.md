@@ -23,7 +23,7 @@
  
 <!--issueDescription-->
 
-We have identified that your backup operation could not complete due to protection agent failure.
+We have identified that your backup operation could not complete due to protection agent failure
 <!--/issueDescription-->
 
 
