@@ -31,9 +31,9 @@ Cloud App Security allows you to export up to 5000 records via the portal. To ex
 
 - To generate a block script for your network appliance, see [Generate a Block Script - Cloud Discovery API](https://docs.microsoft.com/cloud-app-security/api-discovery-script)
 - To upload discovery logs, see [Uploading - Cloud Discovery API](https://docs.microsoft.com/cloud-app-security/api-discovery-initiate)
-- To dismiss or resolve alerts, see [Alerts API](https://docs.microsoft.com/cloud-app-security/api-alerts).
-- To list files, see [List - Files API](https://docs.microsoft.com/cloud-app-security/api-files-list).
-- To list activities, see [List - Activities API](https://docs.microsoft.com/cloud-app-security/api-activities-list).
-- To investigate activities using the API, use the [investigation guide](https://docs.microsoft.com/cloud-app-security/investigate-activities-api).
+- To dismiss or resolve alerts, see [Alerts API](https://docs.microsoft.com/cloud-app-security/api-alerts)
+- To list files, see [List - Files API](https://docs.microsoft.com/cloud-app-security/api-files-list)
+- To list activities, see [List - Activities API](https://docs.microsoft.com/cloud-app-security/api-activities-list)
+- To investigate activities using the API, use the [investigation guide](https://docs.microsoft.com/cloud-app-security/investigate-activities-api)
 
 If you're still experiencing the issue after reviewing the documentation and configuration, please continue with opening the ticket.
