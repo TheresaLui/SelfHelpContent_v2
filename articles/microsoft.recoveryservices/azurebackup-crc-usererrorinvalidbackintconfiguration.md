@@ -20,8 +20,8 @@
 # UserErrorInvalidBackintConfiguration
 
 <!--issueDescription-->
-We have identified that your backup operation failed because Backint configuration is not properly set.
+We have identified that your backup operation failed because Backint configuration is not properly set
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-- To resolve this issue follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorinvalidbackintconfiguration).
+- To resolve this issue follow the steps listed in this [article](https://docs.microsoft.com/azure/backup/backup-azure-sap-hana-database-troubleshoot#usererrorinvalidbackintconfiguration)
