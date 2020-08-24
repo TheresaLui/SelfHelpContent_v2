@@ -31,7 +31,7 @@ Alternatively, you can follow this TechNet topic to configure the [EnableLinkedC
 
 To configure the EnableLinkedConnections registry value
 
-1. Click Start, type regedit in the Start programs and files box, and then press ENTER
+1. Click Start, type regedit in the search programs and files box, and then press ENTER
 2. Locate and then right-click the registry subkey **HKEY_LOCAL_MACHINE>SOFTWARE>Microsoft>Windows>CurrentVersion>Policies>System**
 3. Point to New, and then click DWORD Value
 4. Type EnableLinkedConnections, and then press ENTER

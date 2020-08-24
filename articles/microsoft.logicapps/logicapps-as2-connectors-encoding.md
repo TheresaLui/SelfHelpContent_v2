@@ -11,7 +11,7 @@
     productPesIds="15791"
     ownershipId="Compute_LogicApps"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="75241ab6-053b-4eaf-9e13-9b306a5c72bd"
+    articleId="75241ab6-0eee-4eaf-9e13-9b306a5c72bd"
 />
 
 # AS2 Connector - Encoding

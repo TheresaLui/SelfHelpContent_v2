@@ -20,4 +20,5 @@
 
 * [Quickstart: Configure rules and actions for your device in Azure IoT Central](https://docs.microsoft.com/azure/iot-central/core/quick-configure-rules)
 * [Tutorial: Create a rule and set up notifications in your Azure IoT Central application](https://docs.microsoft.com/azure/iot-central/core/tutorial-create-telemetry-rules)
+* [Create webhook actions on rules in Azure IoT Central](https://docs.microsoft.com/azure/iot-central/core/howto-create-webhooks)
 * [Extend Azure IoT Central with custom rules using Stream Analytics, Azure Functions, and SendGrid](https://docs.microsoft.com/azure/iot-central/core/howto-create-custom-rules)

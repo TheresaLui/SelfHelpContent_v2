@@ -15,15 +15,21 @@
     ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
-# How to questions: Client drivers and API
+# Client drivers and API
 
-## **Recommended Steps**
+Azure SQL Service supports multiple  **Client drivers**  that your applications can use for interacting with the SQL database. These drivers are available for a variety of programming languages, running on Windows, Linux or macOS.
 
-### How to questions: Client drivers and API
+Client programs that are written in an object-oriented programming language often use SQL drivers (**Drivers for relational access**), which return queried data in a format that is more relational than object oriented. (e.g.,  C# using ADO.NET SQL driver, C++ using ODBC).  Other drivers (**drivers for object relational mapping**) work by expecting that classes have been defined to match the data columns of particular SQL tables. The driver then performs the object-relational mapping (ORM) to return queried data as an instance of a class (e.g., Microsoft's Entity Framework (EF) for C#, and Hibernate for Java).   
 
-SQL database supports relational, JSON, spatial and XML data. Please visit below links for more information on
+You can build **APIs** using the language of choice as Azure SQL supports various languages and frameworks. SQL database supports relational, JSON, spatial and XML data.
 
-- [API .NET Client library](https://docs.microsoft.com/dotnet/api/overview/azure/sql?WT.mc_id=pid:13491:sid:32745424&view=azure-dotnet#client-library)
- - [Code Snippet](https://docs.microsoft.com/dotnet/api/overview/azure/sql?WT.mc_id=pid:13491:sid:32745424&view=azure-dotnet#samples)
-- [Azure SQL Database libraries for Java](https://docs.microsoft.com/java/api/overview/azure/sql?view=azure-java-stable?WT.mc_id=pid:13491:sid:32745424/)<br>
- - [Code Snippet](https://docs.microsoft.com/java/api/overview/azure/sql?WT.mc_id=pid:13491:sid:32745424&view=azure-java-stable#samples)
+## **Recommended Documents**  
+
+For questions related to client drivers and how to use for interacting with your database:
+
+- [Connection modules for Microsoft SQL Database](https://docs.microsoft.com/sql/connect/sql-connection-libraries?WT.mc_id=pid:13491:sid:32745424&view=sql-server-ver15)
+
+For configuring and using APIs for your SQL database:
+
+- [Azure SQL Database APIs for .NET](https://docs.microsoft.com/dotnet/api/overview/azure/sql?WT.mc_id=pid:13491:sid:32745424&view=azure-dotnet#overview)
+- [Azure SQL Database APIs for Java](https://docs.microsoft.com/java/api/overview/azure/sql?WT.mc_id=pid:13491:sid:32745424&view=azure-java-stable#overview)
