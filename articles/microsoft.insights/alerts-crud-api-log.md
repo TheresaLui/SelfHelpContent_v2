@@ -46,6 +46,7 @@ If you are running into issues creating/updating log alerts using REST API or Az
     * You should have been [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/ScheduledQueryRules
 
 ## **Recommended Documents**
+
 * [View/edit log alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-log)
 * [Understanding how log alerts work](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-unified-log)
 * [Troubleshoot deployment with Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-common-deployment-errors)
