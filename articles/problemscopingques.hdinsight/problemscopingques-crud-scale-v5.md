@@ -5,7 +5,7 @@
 	authors="shravanmn, csunilkumar, lisaliu"
 	ms.author="shravan, sunilkc, lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32636492, 32681537, 32681540, 32681539, 32681538"
+	supportTopicIds="32681540, 32681539, 32681538"
 	productPesIds="15078"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -81,7 +81,7 @@
             "id": "CRUD_request_submission_method",
             "order": 200,
             "controlType": "dropdown",
-            "displayLabel": "How was the CRUD request submitted?",
+            "displayLabel": "How was the scaling request submitted?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
@@ -114,6 +114,25 @@
                 }
             ],
             "required": true
+        },
+        {
+            "id": "clusterID",
+            "order": 300,
+            "controlType": "dropdown",
+            "displayLabel": "Cluster ID if the cluster is still running",
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.HDInsight/clusters/{resourcename}?api-version=2018-06-01-preview",
+                "jTokenPath": "",
+                "textProperty": "properties.clusterId",
+                "valueProperty": "properties.clusterId",
+                "textPropertyRegex": "[^/]+$",
+                "valuePropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "Cluster ID not available",
+                    "text": "Cluster ID not available"
+                }
+            },
+            "required": false
         },
         {
             "id": "problem_description",

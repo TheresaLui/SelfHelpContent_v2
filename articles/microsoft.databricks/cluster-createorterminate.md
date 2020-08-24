@@ -67,19 +67,13 @@ dbutils.fs.put("dbfs:/databricks/init_hikari/<clustername>/hikari.sh","""
     * Select Usage + quotas
     * In the upper right corner, select Request increase
     * Fill in the forms for the type of quota you need to increase
+    
+	Note: To check current resources, please navigate to: Azure Portal under your subscription --> Usage + quotas
+	
+* Deploying Azure Databricks data plane resources to your own VNet lets you take advantage of flexible CIDR ranges. If your **current workspace cannot accommodate the required number of active cluster nodes**:
 
-Note: To check current resources, please navigate to: Azure Portal under your subscription --> Usage + quotas
+	* You cannot replace the VNet for an existing workspace
+	* You cannot change subnet CIDR range for an existing workspace
 
-> **Known Issue**: Starting 17 June 2020 some Azure Databricks customers in UAE North have encountered error "Azure error code: AllocationFailed" when performing service management operations - such as create, update, scale clusters or submit jobs. We are aware of this issue and are actively working to ensure availability of resources in the quickest time frame possible. We recommend you consider one of the below workarounds:
->
-> * Shift the workload towards the end of the working day if possible
-> * Try to provision an alternate family VM
-> * Increase the size of the VM but provision fewer executors
-> * Provision smaller clusters, this increases the chance that enough VMs will be available for your clusters
-> * Use pools to reserve instances and configure clusters to use these pools. Please be aware this may increase costs and it’s best if you use this only for essential workloads, if applicable.
-> * Deploy the workspace in a different region
->
-> If the above workarounds are not viable or did not resolve the issue, please continue with support request creation.
->
-> Please visit [blog](https://azure.microsoft.com/blog/our-commitment-to-customers-and-microsoft-cloud-services-continuity/) for more details on our commitment to customers and Microsoft cloud services continuity.
+	Instead, it is recommended that you create another workspace in a larger VNet. Follow these [detailed migration steps](https://docs.microsoft.com/azure/azure-databricks/howto-regional-disaster-recovery#detailed-migration-steps) to copy resources (notebooks, cluster configurations, jobs) from the old to new workspace.
 

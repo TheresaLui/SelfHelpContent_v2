@@ -57,6 +57,8 @@
 
 * Note that if you export an application from the portal (uses V3 APIs) and try to import it back programmatically using V2 APIs, import will fail as it is not forward compatible
 
+* List entity synonyms do not affect your intent or entity predictions unless you add them as a feature to the intent or entity
+
 * Patterns primarily work for intents only and not entities. Pattern.any extracts information from the pattern. It will check if the entity is extracted then check if the pattern around it matches, go to the specific intent.
 
 * Use [LUIS authoring resource](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-azure-subscription#create-luis-resources-in-azure-portal) to be able to add entities from the portal or through APIs
