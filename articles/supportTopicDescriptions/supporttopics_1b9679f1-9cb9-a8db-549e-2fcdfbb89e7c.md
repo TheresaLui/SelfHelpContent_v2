@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "71af06b8-6476-5e26-e61c-a123088e6855",
+      "longDescription": "",
+      "shortDescription": "Issues with connection timeouts to your Azure Cognitive Search service.",
+      "searchTags": "timeouts;throttling",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7821f095-ee42-4c5e-cec8-48ec98fc6b56",
       "longDescription": "",
       "shortDescription": "Issues with ARM template deployment for Azure Cognitive Search.",
