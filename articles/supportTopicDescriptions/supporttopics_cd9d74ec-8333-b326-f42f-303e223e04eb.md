@@ -222,6 +222,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2e8fe961-ccfa-aaf8-bf33-02368bd6e040",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to managing security settings in your profile such as personal access tokens, SSH, OAuth, and so on.",
+      "searchTags": "OAuth;PAT;SSH;Sign in;Login",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "31e718b7-28df-b40d-e479-1a07cf5421a0",
       "longDescription": "",
       "shortDescription": "Issues that are related to Azure DevOps Services extensions.",
