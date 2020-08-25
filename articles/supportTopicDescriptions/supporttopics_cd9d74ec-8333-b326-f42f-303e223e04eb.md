@@ -374,6 +374,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "847a3a4e-cd27-32da-7aa2-f4c9e5b6bc95",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to self hosted agent configuration on different platforms, configuration with proxy, different authentication mechanism",
+      "searchTags": "Self hosted;Pipeline;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b03ec03-59b6-01ab-23fd-e767a7a33852",
       "longDescription": "",
       "shortDescription": "Issues with using tasks published through extensions in the Visual Studio Marketplace",
