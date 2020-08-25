@@ -16,13 +16,28 @@
 ---
 {
   "$schema": "SelfHelpContent",
+  "subscriptionRequired": true,
   "resourceRequired": true,
   "title": "Immersive Reader launch failure: 'Sorry' error",
   "fileAttachmentHint": "Please upload a network trace from the browser developer tools",
   "formElements": [
     {
-      "id": "launch_failure_sorry_error_q1",
+      "id": "problem_start_time",
       "order": 1,
+      "controlType": "datetimepicker",
+      "displayLabel": "When did the problem start?",
+      "required": true
+    },
+    {
+      "id": "problem_description",
+      "order": 2,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Problem description",
+      "required": true
+    },
+    {
+      "id": "launch_failure_sorry_error_q3",
+      "order": 3,
       "controlType": "radiobuttongroup",
       "displayLabel": "Did you create the resource with the Immersive Reader team provided script at [How-To: Create an Immersive Reader resource](https://docs.microsoft.com/azure/cognitive-services/immersive-reader/how-to-create-immersive-reader)?",
       "radioButtonOptions": [
@@ -38,8 +53,8 @@
       "required": true
     },
     {
-      "id": "launch_failure_sorry_error_q2",
-      "order": 2,
+      "id": "launch_failure_sorry_error_q4",
+      "order": 4,
       "controlType": "radiobuttongroup",
       "displayLabel": "Are there any errors in the browser developer tools Console or Network tabs?",
       "radioButtonOptions": [
@@ -55,8 +70,8 @@
       "required": true
     },
     {
-      "id": "launch_failure_sorry_error_q3",
-      "order": 3,
+      "id": "launch_failure_sorry_error_q5",
+      "order": 5,
       "controlType": "radiobuttongroup",
       "displayLabel": "What error are you seeing in the browser developer tools Network tab on the GetContentModelForReader call?",
       "radioButtonOptions": [
@@ -73,15 +88,15 @@
           "text": "429"
         },
         {
-          "value": "other",
-          "text": "Other"
+          "value": "dont_know",
+          "text": "Don't know"
         }
       ],
       "required": true
     },
     {
-      "id": "launch_failure_sorry_error_q4",
-      "order": 4,
+      "id": "launch_failure_sorry_error_q6",
+      "order": 6,
       "controlType": "dropdown",
       "displayLabel": "How/when do you acquire the access token?",
       "dropdownOptions": [

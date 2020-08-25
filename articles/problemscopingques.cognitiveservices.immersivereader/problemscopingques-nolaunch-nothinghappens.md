@@ -16,12 +16,27 @@
 ---
 {
   "$schema": "SelfHelpContent",
+  "subscriptionRequired": true,
   "resourceRequired": true,
   "title": "Immersive Reader launch failure: Nothing happens when clicking the Immersive Reader button",
   "formElements": [
     {
-      "id": "launch_failure_nothing_happens_q1",
+      "id": "problem_start_time",
       "order": 1,
+      "controlType": "datetimepicker",
+      "displayLabel": "When did the problem start?",
+      "required": true
+    },
+    {
+      "id": "problem_description",
+      "order": 2,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Problem description",
+      "required": true
+    },
+    {
+      "id": "launch_failure_nothing_happens_q3",
+      "order": 3,
       "controlType": "radiobuttongroup",
       "displayLabel": "Has your Azure AD application password expired?",
       "radioButtonOptions": [
