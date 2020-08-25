@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0685dab9-818c-f192-c8ad-ba2be1783fc6",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to an Azure DevOps Services outage.",
+      "searchTags": "Outage;DevOps;Service",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "07d3041e-a87c-143a-18f5-26f741a96272",
       "longDescription": "",
       "shortDescription": "Issues that are related to using web browsers and other clients to connect to Azure DevOps Services.",
