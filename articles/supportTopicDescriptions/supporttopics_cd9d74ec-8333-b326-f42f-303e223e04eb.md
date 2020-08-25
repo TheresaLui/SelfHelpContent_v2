@@ -22,6 +22,14 @@
   "productLinkName3": "",
   "supportTopics": [
     {
+      "id": "0248246d-9418-a306-40c0-e0da0f993457",
+      "longDescription": "",
+      "shortDescription": "Issues with building database, SSIS, or SSRS projects, or running SQL utilities and scripts in a pipeline",
+      "searchTags": "Database task;Script;SSIS;SSRS",
+      "category": "Build",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "07d3041e-a87c-143a-18f5-26f741a96272",
       "longDescription": "",
       "shortDescription": "Issues that are related to using web browsers and other clients to connect to Azure DevOps Services.",
