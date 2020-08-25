@@ -4,6 +4,7 @@ pageTitle="Issues linking Automation account"
 description="Issues linking Automation account"
 service="microsoft.operationalinsights"
 resource="workspaces"
+articleId="a89bf446-83cb-4993-a918-7dbd139cf6d8"
 symptomID=""
 infoBubbleText=""
 authors="yossiy"
@@ -14,8 +15,7 @@ supportTopicIds="32612473"
 resourceTags=""
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
-	articleId="a89bf446-83cb-4993-a918-7dbd139cf6d8"
-	ownershipId="AzureMonitoring_LogAnalytics"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Issues linking Automation account
