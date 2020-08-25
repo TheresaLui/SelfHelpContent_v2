@@ -86,6 +86,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "18721da2-c623-43b9-6541-5a9eace0674a",
+      "longDescription": "",
+      "shortDescription": "Issues related to deploying application to Azure services",
+      "searchTags": "Deployment;Deploy;Pipeline",
+      "category": "Deploy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "199979c4-9e0d-9de3-7893-0e06e183afb6",
       "longDescription": "",
       "shortDescription": "Issues that are related to using the Query Designer (errors, bad results, and so on).",
