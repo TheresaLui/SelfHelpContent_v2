@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e8e94388-e840-ef42-247c-93fd8d93c7e6",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to managing users in Azure DevOps Services (adding users, assigning access levels, and assigning permissions).",
+      "searchTags": "Manage;Administration;Permissions",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e9133fdf-11ba-c28e-c44d-05bc290f31ee",
       "longDescription": "",
       "shortDescription": "Problems or questions related to creating, configuring or receiving work item notifications.",
