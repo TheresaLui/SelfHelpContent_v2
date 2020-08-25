@@ -942,6 +942,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "eca9f568-09a6-6f05-7b20-34caf023ddd9",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to signing in to Azure DevOps Services or managing user profiles.",
+      "searchTags": "Sign in",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f79141ad-56c8-7e2a-32c3-51ee5cc81d1d",
       "longDescription": "",
       "shortDescription": "Performance, configuration or customization of Backlogs, Boards, Charts, Work Items, Work Item Queries, Work Item Search and Work Item permissions",
