@@ -726,6 +726,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ce5dfc7d-70a5-ff84-30cc-ce0decd0128e",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to service connection creation, permissions, user interface, or usage of a connection type.",
+      "searchTags": "Service Connection;UI;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ceb568a9-9a15-7b30-53bd-a65e0baf334f",
       "longDescription": "",
       "shortDescription": "Issues that are related to using Microsoft Office with Azure DevOps Services.",
