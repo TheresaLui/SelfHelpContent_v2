@@ -470,6 +470,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "79d020d1-2d59-e5a1-571b-c88689607d70",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to best practices for version control.",
+      "searchTags": "How to;Version Control;Repo",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7d232fe1-7993-51e5-a484-76ad805e3858",
       "longDescription": "",
       "shortDescription": "Issues related to your pipeline jobs waiting for a long time even though you see available agents",
