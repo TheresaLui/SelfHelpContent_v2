@@ -502,6 +502,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "78ddd59d-48cc-c5c3-098a-040a6fb59ca8",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to the operation of the Azure DevOps Services service.",
+      "searchTags": "Service Issue",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "79d020d1-2d59-e5a1-571b-c88689607d70",
       "longDescription": "",
       "shortDescription": "Issues that are related to best practices for version control.",
