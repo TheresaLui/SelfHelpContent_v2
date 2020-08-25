@@ -526,6 +526,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "aeba788f-7f7a-de0d-8b75-73030dcd325a",
+      "longDescription": "",
+      "shortDescription": "Issues with setting up permissions on YAML, classic build, classic release pipelines, or agent pools",
+      "searchTags": "Pipeline;Security;Permission",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "af497a7c-19f8-832d-1dc9-0451607ab645",
       "longDescription": "",
       "shortDescription": "Issues that are related to data backup and recovery.",
