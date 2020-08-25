@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3d86248b-e615-8815-011f-3098637b3bb2",
+      "longDescription": "",
+      "shortDescription": "Issues in build steps of your pipeline - for instance, when using MSBuild, Maven, Ant, Gradle, Grunt, Xamarin, or iOS tasks",
+      "searchTags": "MSBuild;Node;Java;Xcode;Task",
+      "category": "Build",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "40e0403d-2cb7-1560-66fc-904ed4611074",
       "longDescription": "",
       "shortDescription": "Issues that are related to using the Visual Studio integrated development environment with Azure DevOps Services.",
