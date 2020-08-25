@@ -854,6 +854,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fa47785e-0c55-3d52-8496-01f577573627",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to buying cloud-based load test.",
+      "searchTags": "Test;Purchase;Buy;Billing",
+      "category": "Commerce",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fb783fa2-e0f4-b0dd-9310-7c9b1559c7ec",
       "longDescription": "",
       "shortDescription": "Issues that are related to buying build and release pipelines.",
