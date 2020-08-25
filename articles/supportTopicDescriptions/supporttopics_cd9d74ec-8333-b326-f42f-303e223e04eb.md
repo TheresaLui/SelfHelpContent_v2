@@ -406,6 +406,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "84d95ac4-d2f4-fe7f-307c-3bf5322aeafe",
+      "longDescription": "",
+      "shortDescription": "Requests to increase self-hosted or Microsoft-hosted concurrency for your organization",
+      "searchTags": "Parallel;Pipeline;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b03ec03-59b6-01ab-23fd-e767a7a33852",
       "longDescription": "",
       "shortDescription": "Issues with using tasks published through extensions in the Visual Studio Marketplace",
