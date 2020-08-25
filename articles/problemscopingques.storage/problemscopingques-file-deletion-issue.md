@@ -28,8 +28,8 @@
             "id": "file_share_or_path",
             "order": 1,
             "controlType": "textbox",
-            "displayLabel": "File Share or File path",
-            "watermarkText": "'FileShare' or 'FileShare/FileName'",
+            "displayLabel": "File path",
+            "watermarkText": "Please enter full path for file that cannot be deleted - FileShare/Folder/FileName",
             "required": true,
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
