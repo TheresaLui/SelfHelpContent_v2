@@ -462,6 +462,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a23b3ff1-e8e3-3b79-7e21-48b1d648fe8f",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to pipeline throwing timeout error at the start of pipeline or during the execution of the jobs or tasks",
+      "searchTags": "Timeout;Pipeline;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a4df0ec0-9274-7858-4872-e4aac70aefc8",
       "longDescription": "",
       "shortDescription": "Issues that are related to programming and extending Azure DevOps Services.",
