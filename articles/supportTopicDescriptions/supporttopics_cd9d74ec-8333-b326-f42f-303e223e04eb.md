@@ -94,6 +94,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0aab17b0-e362-db8e-d611-5e0f2e79cb4d",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to various authorization or permissions errors at sign in (401, 403, and so on).",
+      "searchTags": "401;Authorized;Sign in;Login",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0f067376-3811-6eb4-6143-2b4e5eabb6d7",
       "longDescription": "",
       "shortDescription": "Issues when it takes a long time to access to work items, or the process hangs.",
