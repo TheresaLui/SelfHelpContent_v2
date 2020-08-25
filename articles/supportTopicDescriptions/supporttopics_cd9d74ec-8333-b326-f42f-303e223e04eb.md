@@ -886,6 +886,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e7c2b9de-a93c-ea56-9c12-387f02389b94",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to configuring a version control proxy against Azure DevOps Services.",
+      "searchTags": "Proxy;Version Control;Source Code Control;Repo",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e8a4bc4f-1108-13cd-0b41-511f6ac37e83",
       "longDescription": "",
       "shortDescription": "Issues that are specific to assigning access levels to users.",
