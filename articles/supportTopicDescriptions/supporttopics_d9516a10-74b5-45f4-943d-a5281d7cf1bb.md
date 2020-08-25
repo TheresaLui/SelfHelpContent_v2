@@ -1033,6 +1033,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f77570c2-38eb-eb0f-7edc-bf074167390c",
+      "longDescription": "",
+      "shortDescription": "Issues with Cosmos DB partitioning",
+      "searchTags": "partition;partitioning",
+      "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fa1d2af4-5a02-6ef3-5fd1-6c1821365b85",
       "longDescription": "",
       "shortDescription": "Issues with Accessing your Cosmos DB data using Azure Synapse Link for Cosmos DB",
