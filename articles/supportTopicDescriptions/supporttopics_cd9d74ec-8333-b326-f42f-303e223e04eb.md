@@ -126,6 +126,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "24827b4c-6450-0fb6-4e16-2f1ac6d96ad5",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to retention settings, retention not working as expected.",
+      "searchTags": "Retention;Pipeline;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2b6c179e-2e9a-9fe1-c5e6-0cb7c3c2feea",
       "longDescription": "",
       "shortDescription": "Issues that are related to publishing and accessing symbols",
