@@ -39,8 +39,8 @@ Information and resources about Microsoft Cloud and Customer Agreements.
 Below are various amendments to Microsoft Cloud and Customer Agreements.
 
 * [Financial Services Amendment](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4m8dP)
-* [Data Processing Amendment for Argentina](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3P75X)
-* [Data Processing Amendment for Argentina](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pk5l)
-* [Professional Secrecy Amendment for Germany](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PeTb)
-* [Professional Secrecy Amendment for Germany](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pcj0)
+* [Data Processing Amendment for Argentina - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3P75X)
+* [Data Processing Amendment for Argentina - Spanish](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pk5l)
+* [Professional Secrecy Amendment for Germany - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PeTb)
+* [Professional Secrecy Amendment for Germany - German](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pcj0)
 * [Microsoft Online Services HIPAA Business Associate Amendment](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PciZ)
