@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "32200e3b-8a51-328f-cf8b-fbf98dd9d583",
+      "longDescription": "",
+      "shortDescription": "Issues with using Azure DevOps CLI, REST APIs, or web hooks for pipelines",
+      "searchTags": "CLI;Build;Configure;Pipeline",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "38befe58-b695-fc05-8baa-c1419650d37e",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to setting up approval, gates, checks in the pipeline, error with the usage, permissions.",
