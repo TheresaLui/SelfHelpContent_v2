@@ -534,6 +534,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7f3cedd7-6e7a-d07d-a8c2-4e5f401cfdb4",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to Azure Test Plans.",
+      "searchTags": "Test",
+      "category": "Test",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7ff13ee1-341a-b1fe-6b64-e003d7e5a8aa",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to app function deployments like files are not updated, error in deployment, configuration or performance",
