@@ -638,6 +638,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9e3a4772-e001-f2c1-3639-153b834ba668",
+      "longDescription": "",
+      "shortDescription": "Issues that are specific to users being redirected to sign-in page (login loop).",
+      "searchTags": "Redirected;Loop;Looping;Sign in;login",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9fee950c-b269-76b6-219f-67ceb5db4fe8",
       "longDescription": "",
       "shortDescription": "Issues that are related to managing user permissions.",
