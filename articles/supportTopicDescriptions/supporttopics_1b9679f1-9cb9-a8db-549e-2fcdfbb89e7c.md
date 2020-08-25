@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7821f095-ee42-4c5e-cec8-48ec98fc6b56",
+      "longDescription": "",
+      "shortDescription": "Issues with ARM template deployment for Azure Cognitive Search.",
+      "searchTags": "ARM;template;deployment;resource",
+      "category": "Setup and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9fd3b7ea-1077-bc47-56e4-0869060d26b2",
       "longDescription": "",
       "shortDescription": "Issues with the supported Powershell and Azure CLI operations for Azure Cognitive Search.",
