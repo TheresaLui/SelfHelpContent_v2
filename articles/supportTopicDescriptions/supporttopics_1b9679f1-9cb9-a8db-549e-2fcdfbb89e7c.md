@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "6581ffb1-2c35-8bbb-e214-3cb5660ddec5",
+      "longDescription": "",
+      "shortDescription": "Issues with security related status codes from the Azure Cognitive Search REST API.  (400, 403 or 502)",
+      "searchTags": "security;SSL;access denied",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9fd3b7ea-1077-bc47-56e4-0869060d26b2",
       "longDescription": "",
       "shortDescription": "Issues with the supported Powershell and Azure CLI operations for Azure Cognitive Search.",
