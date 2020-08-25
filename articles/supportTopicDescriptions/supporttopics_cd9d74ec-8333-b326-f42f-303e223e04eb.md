@@ -678,6 +678,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d17434a9-611e-c8f5-ba6c-2866c8a56250",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to any other Azure service deployment and configuration with Azure pipeline.",
+      "searchTags": "Deployment;Deploy;Azure Service;Task",
+      "category": "Deploy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d251feca-9457-73eb-7739-855e9ec42a66",
       "longDescription": "",
       "shortDescription": "Problems or questions related to creating, configuring or receiving code review notifications.",
