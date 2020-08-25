@@ -21,8 +21,10 @@ Most users are able to resolve their Backup and Restore case using the steps bel
 
 ## **Recommended Steps**
 
-### **Changing Data backup retention**
-Azure Cosmos DB automatically takes a backup of your data for every 4 hours and at any point of time, the latest two backups are stored. This configuration is the default option and it is offered without any additional cost.   
+### **Changing Backup interval and retention period**
+Azure Cosmos DB automatically takes a backup of your data for every 4 hours and at any point of time, the latest two backups are stored. This configuration is the default option and it is offered without any additional cost. You can change these default backup interval and retention period during the Azure Cosmos account creation or after the account is created. The backup configuration is set at the Azure Cosmos account level and you need to configure it on each account. After you configure the backup options for an account, it is applied to all the containers within that account. Currently you can change them backup options from Azure portal only.  
+
+If the number of copies end up more than 2, you will be charged for those additional copies. See the Consumed Storage section in the [Pricing page](https://azure.microsoft.com/pricing/details/cosmos-db/) to know the exact price for additional copies.
 
 If you would like to change the default backup options for an existing Azure Cosmos account, please see the link [Backup interval and retention period](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#backup-interval-and-retention-period) to change your backup retention using Azure Portal.   
 
@@ -30,10 +32,14 @@ If you would like to change the default backup options for an existing Azure Cos
 
 <br>
 
-### **Performing a restore**
-Microsoft can only do a copy of a Cosmos DB account within the same subscription and resource group. It is not possible to restore the database to a new subscription. If you need a copy of your data in a new subscription, please use the [Cosmos DB Data Migration tool](https://azure.microsoft.com/updates/documentdb-data-migration-tool/).  
+### **Requesting a restore**
+If you have accidentally deleted or corrupted your data, **before you create a support request to restore the data, make sure to increase the backup retention for your account to at least seven days. It is best to increase your retention within 8 hours of this event.** This way, the Azure Cosmos DB team has enough time to restore your account.
 
 The restore process always creates a new Azure Cosmos account to hold the restored data. The name of the new account, if not specified, will have the format <Azure_Cosmos_account_original_name>-restored1. The last digit is incremented if multiple restores are attempted. You cannot restore data to a pre-created Azure Cosmos account.  
+
+Microsoft can only do a copy of a Cosmos DB account within the same subscription and resource group. It is not possible to restore the database to a new subscription. If you need a copy of your data in a new subscription, please use the [Cosmos DB Data Migration tool](https://azure.microsoft.com/updates/documentdb-data-migration-tool/).  
+
+
 
 
 
