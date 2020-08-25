@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "53c3d75b-9b4a-c421-01dc-a69ae342f1e0",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to task group creation, usage, errors while using them in pipeline.",
+      "searchTags": "Task group;Pipeline;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "56f9707d-c05c-c6a9-7342-749aa0daf352",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to environment and deployment group creation or usage in pipeline.",
