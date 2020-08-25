@@ -654,6 +654,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a27222d9-1671-9df5-1aeb-072d70336cb9",
+      "longDescription": "",
+      "shortDescription": "Issues that are specific to managing profile settings (profile picture, name, e-mail, locale, UI theme and so on).",
+      "searchTags": "Profile;Manage;Account;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a4df0ec0-9274-7858-4872-e4aac70aefc8",
       "longDescription": "",
       "shortDescription": "Issues that are related to programming and extending Azure DevOps Services.",
