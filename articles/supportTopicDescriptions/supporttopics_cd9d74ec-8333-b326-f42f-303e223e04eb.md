@@ -686,6 +686,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cc9cdff5-b0b7-0c15-3a58-c8d9c74b85f1",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to docker, kubernetes service connection creation, permissions, user interface, different options available in UI.",
+      "searchTags": "Container ;Service Connection;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ceb568a9-9a15-7b30-53bd-a65e0baf334f",
       "longDescription": "",
       "shortDescription": "Issues that are related to using Microsoft Office with Azure DevOps Services.",
