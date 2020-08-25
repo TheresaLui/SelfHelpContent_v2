@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a36b678e-721f-c2a1-d9c6-c7e375e2c0c1",
+      "longDescription": "",
+      "shortDescription": "If you do not see your preferred region listed when you are provisioning your Azure Cognitive Search service.",
+      "searchTags": "region;create",
+      "category": "Setup and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c1c638a0-b924-030a-47d5-9d907a2db9ae",
       "longDescription": "",
       "shortDescription": "Issue with deleting an Azure Cognitive Search service",
