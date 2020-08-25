@@ -190,6 +190,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2c9614f2-9d9b-34c7-373c-92fb80462ed7",
+      "longDescription": "",
+      "shortDescription": "Issues when source control operations run slowly or hang.",
+      "searchTags": "Performance;TFVC;Repo",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2d17b59f-54da-20cb-f1f6-23c308f82c72",
       "longDescription": "",
       "shortDescription": "Issues that are related to clients that connect to Azure DevOps Services.",
