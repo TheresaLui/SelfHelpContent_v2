@@ -71,7 +71,6 @@
             "watermarkText":"Choose a location",
             "required": true,
             "includeInQuotaSummary": true,
-            "includeInQmsPayload": false,
             "dynamicDropdownOptions": {
                 "dependsOn": "quota_subtype",
                 "uri": "/subscriptions/{subscriptionId}/locations?api-version=2019-06-01",
