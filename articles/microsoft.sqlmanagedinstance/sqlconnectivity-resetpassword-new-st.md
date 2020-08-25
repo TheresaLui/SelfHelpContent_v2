@@ -17,10 +17,10 @@
 
 # How to questions: Reset password
 
-The password for the Server admin can be reset using the Azure portal.<br>
+The password for the managed instance admin can be reset using the Azure portal.<br>
 - Go to your Azure portal
-- Click SQL Servers
-- Select the server from the list
+- Click SQL managed instances
+- Select the managed instance from the list
 - Click Reset Password.
 
 The password for non-admin users can be changed using a client application such as SQL Server Management Studio or Azure Data Studio and the [ALTER LOGIN](https://docs.microsoft.com/sql/t-sql/statements/alter-login-transact-sql?view=azuresqldb-current?WT.mc_id=pid:13491:sid:32745437/) statement.
