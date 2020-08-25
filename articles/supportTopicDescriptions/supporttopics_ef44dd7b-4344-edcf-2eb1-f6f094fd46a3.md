@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   description="SupportTopicDescriptions for ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   authors="elixirsys2"
-  ms.author="anvar"
+  ms.author="anvar, panshar"
   selfhelptype="SupportTopicDescription"
   productpesids="ef44dd7b-4344-edcf-2eb1-f6f094fd46a3"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -112,8 +112,8 @@
     {
       "id": "480ecc95-0232-126a-350c-3560e49199b2",
       "longDescription": "",
-      "shortDescription": "All issues related to Hub and dashboard must be filed here.",
-      "searchTags": "hub;dashboard",
+      "shortDescription": "Issues related to Hub and project creation or deletion to be filed here.",
+      "searchTags": "hub;dashboard;project",
       "category": "Tool",
       "useInDiagnoseAndSolve": "true"
     },
