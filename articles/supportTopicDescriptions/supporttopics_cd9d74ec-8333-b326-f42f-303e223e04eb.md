@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "88a9a0f6-ff6c-a534-538c-5c343e2c5907",
+      "longDescription": "",
+      "shortDescription": "For faster response, we strongly recommend that you review all the other categories and then pick this one only if you cannot find a match",
+      "searchTags": "Other",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b03ec03-59b6-01ab-23fd-e767a7a33852",
       "longDescription": "",
       "shortDescription": "Issues with using tasks published through extensions in the Visual Studio Marketplace",
