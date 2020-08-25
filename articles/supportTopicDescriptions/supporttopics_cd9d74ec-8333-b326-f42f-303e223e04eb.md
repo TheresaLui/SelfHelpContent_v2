@@ -246,6 +246,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5967e7c4-7fcf-223d-08a2-0249e34a53d0",
+      "longDescription": "",
+      "shortDescription": "Problems or questions related to setting up or configuring Pipelines",
+      "searchTags": "Configure;Build;Pipeline;Admin",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "59c00f36-0a61-12e3-9f09-87d3029668c7",
       "longDescription": "",
       "shortDescription": "Issues that are related to integrating Azure Active Directory or O365 with Azure DevOps Services.",
