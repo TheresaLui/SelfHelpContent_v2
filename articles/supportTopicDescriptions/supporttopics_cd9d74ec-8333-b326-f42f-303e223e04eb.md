@@ -358,6 +358,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a4e0161d-ccc7-9d08-752d-2d98e9092e69",
+      "longDescription": "",
+      "shortDescription": "Issues with building, creating, or publishing container images, for instance when using Docker task",
+      "searchTags": "Docker;Container;Task;Publish",
+      "category": "Build",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a7a2bf08-5c86-3379-79b8-e97d6459d3d1",
       "longDescription": "",
       "shortDescription": "Issues that are related to signing up for an Azure DevOps organization.",
