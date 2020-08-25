@@ -558,6 +558,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bac7a181-9c4c-26b4-4f54-c9e9cd6b59f8",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to script deployment or configuration of the task",
+      "searchTags": "Azure Database Task;Deployment;tasks and scripts;deploy;Pipeline",
+      "category": "Deploy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bed57df6-c697-97d3-a2e0-d9a657030191",
       "longDescription": "",
       "shortDescription": "Collection of resources that can help you get started with your first pipeline",
