@@ -670,6 +670,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b86c0713-845e-7ccd-e0f0-2534a5ab0684",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to source branching and merging.",
+      "searchTags": "Branching;Branch;Merge;Merging;Repo",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b9aed364-659b-6eb1-cb7e-c7de351593e0",
       "longDescription": "",
       "shortDescription": "Problems or questions related to creating, configuring or receiving build notifications.",
