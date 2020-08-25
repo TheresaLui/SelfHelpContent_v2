@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "acb413a9-b281-d0e4-17fd-e3792f46e12c",
+      "longDescription": "",
+      "shortDescription": "Running Pipelines tests using any of the testing frameworks, analyzing coverage using any of the code coverage frameworks, publishing reports thereof",
+      "searchTags": "Test Task;Code coverage task;Configure",
+      "category": "Build",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ae8a1e96-e03f-c68c-cd43-6ec3742a799a",
       "longDescription": "",
       "shortDescription": "Issues that are related to using the REST API for app registration.",
