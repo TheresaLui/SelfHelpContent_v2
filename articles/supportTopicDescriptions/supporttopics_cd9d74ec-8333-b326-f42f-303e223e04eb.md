@@ -278,6 +278,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5a39663c-0c1d-75e2-75e5-885c670bd61a",
+      "longDescription": "",
+      "shortDescription": "Issues related to your pipeline jobs waiting for a long time even though you see available agents",
+      "searchTags": "Waiting;Stuck;Build;Pipeline",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5c4a230c-1440-b821-96e6-12ddfbd9875d",
       "longDescription": "",
       "shortDescription": "Issues that are specific to adding or inviting users to your Azure DevOps Services account.",
