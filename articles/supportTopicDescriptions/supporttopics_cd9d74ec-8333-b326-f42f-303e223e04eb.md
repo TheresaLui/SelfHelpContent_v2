@@ -286,6 +286,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "97febbcc-2946-0278-230e-006913a1d199",
+      "longDescription": "",
+      "shortDescription": "Requests to change the region in which Azure DevOps Services projects are hosted.",
+      "searchTags": "Change Region;DevOps;Org;Configure;Move",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "988ac8a6-feff-0d1a-df36-df6bfc7ab245",
       "longDescription": "",
       "shortDescription": "Issues related to configuring or using Backlogs",
