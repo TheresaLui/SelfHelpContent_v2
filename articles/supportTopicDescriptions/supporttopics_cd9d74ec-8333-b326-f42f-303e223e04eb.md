@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0546626c-effe-5b2b-347d-a8e0c75e1d09",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to template deployments like template validation error or resources not found",
+      "searchTags": "Resource Group;Deployment;Deploy;Task",
+      "category": "Deploy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "062a3f6e-2c6e-ec3e-63ee-9bc14f53c28c",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to pipeline variable, parameter usage, defining them, using them in the scripts",
