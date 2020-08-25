@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c1c638a0-b924-030a-47d5-9d907a2db9ae",
+      "longDescription": "",
+      "shortDescription": "Issue with deleting an Azure Cognitive Search service",
+      "searchTags": "delete;service",
+      "category": "Setup and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d10e6e4e-4e0b-4685-c3e4-00ec08b07f99",
       "longDescription": "",
       "shortDescription": "Issues with dropped or terminated connections to your Azure Cognitive Search service",
