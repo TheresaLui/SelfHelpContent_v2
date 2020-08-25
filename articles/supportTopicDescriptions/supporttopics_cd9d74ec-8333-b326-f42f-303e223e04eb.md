@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e8a4bc4f-1108-13cd-0b41-511f6ac37e83",
+      "longDescription": "",
+      "shortDescription": "Issues that are specific to assigning access levels to users.",
+      "searchTags": "Assign access level;admin;Security;User",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e8e94388-e840-ef42-247c-93fd8d93c7e6",
       "longDescription": "",
       "shortDescription": "Issues that are related to managing users in Azure DevOps Services (adding users, assigning access levels, and assigning permissions).",
