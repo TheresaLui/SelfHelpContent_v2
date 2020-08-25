@@ -1,4 +1,3 @@
-
 <properties
 pageTitle="Issues linking Automation account"
 description="Issues linking Automation account"
