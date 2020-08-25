@@ -302,6 +302,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "96b20b26-1cc8-0597-333e-a58b1e8ee0f2",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to creating or deleting team projects in Azure DevOps Services.",
+      "searchTags": "Create Project;Delete Project;Configure;DevOps",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "97febbcc-2946-0278-230e-006913a1d199",
       "longDescription": "",
       "shortDescription": "Requests to change the region in which Azure DevOps Services projects are hosted.",
