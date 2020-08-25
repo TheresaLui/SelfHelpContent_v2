@@ -1,23 +1,21 @@
 <properties
-	pageTitle="unexpectedcharges-i recieved new unknown charges on my bill"
-	description="unexpectedcharges-i recieved new unknown charges on my bill"
+	pageTitle="unexpectedcharges-offertype-ea"
+	description="unexpectedcharges-offertype-ea"
 	service="azure-billing"
 	resource="billing"
 	authors="lishepar"
 	ms.author="lishepar"
 	displayOrder="1"
-	selfHelpType="generic"
-	supportTopicIds="32680680"
+	selfHelpType="rca"
 	resourceTags=""
-	productPesIds="15659"
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
-	articleId="unexpectedcharges-irecievedunknownchargeonmybill"
+	articleId="unexpectedcharges-offertype-ea"
 	ownershipId="ASMS_Billing"
 />
 
-# <-- Unexpected Charges - I Recieved new unknown charges on my bill -->
+# <-- Unexpected Charges - I Recieved new unknown charges on my bill (EA) -->
 
-## ** <-- Unexpected Charges - I recieved new unknown charges on my bill  --> **
+## ** <-- Unexpected Charges - I recieved new unknown charges on my bill (EA)  --> **
 <!--issueDescription-->
 When the customer goes to the solutions page, the offer type associated with the account with filter only solutions that apply to them and present them in the solutions page.
 

@@ -1,23 +1,21 @@
 <properties
-	pageTitle="unexpectedcharges-i recieved new unknown charges on my bill"
-	description="unexpectedcharges-i recieved new unknown charges on my bill"
+	pageTitle="unexpectedcharges-offertype-csp"
+	description="unexpectedcharges-offertype-csp"
 	service="azure-billing"
 	resource="billing"
 	authors="lishepar"
 	ms.author="lishepar"
 	displayOrder="1"
-	selfHelpType="generic"
-	supportTopicIds="32680680"
+	selfHelpType="rca"
 	resourceTags=""
-	productPesIds="15659"
 	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
-	articleId="unexpectedcharges-irecievedunknownchargeonmybill"
+	articleId="unexpectedcharges-offertype-csp"
 	ownershipId="ASMS_Billing"
 />
 
-# <-- Unexpected Charges - I Recieved new unknown charges on my bill -->
+# <-- Unexpected Charges - I Recieved new unknown charges on my bill (CSP) -->
 
-## ** <-- Unexpected Charges - I recieved new unknown charges on my bill  --> **
+## ** <-- Unexpected Charges - I recieved new unknown charges on my bill (CSP) --> **
 <!--issueDescription-->
 When the customer goes to the solutions page, the offer type associated with the account with filter only solutions that apply to them and present them in the solutions page.
 
