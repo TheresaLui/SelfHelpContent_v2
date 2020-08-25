@@ -6,12 +6,13 @@
   authoralias="ltcrew"
   ms.author="ltcrew"
   selfHelpType="problemScopingQuestions"
-  supportTopicIds="32741249" # TODO: update this. Currently pointing at the *My issue is not listed here* topic
+  supportTopicIds="32741249"
   productPesIds="17258"
   cloudEnvironments="public, usnat, ussec"
   schemaVersion="1"
-  ownershipId="AzureCogSvc_CognitiveServices" # TODO: Update this with IR team-specific ID
+  ownershipId="AzureCogSvc_CognitiveServices"
 />
+# Immersive Reader launch failure nothing happens
 ---
 {
   "$schema": "SelfHelpContent",
