@@ -542,6 +542,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8b5b9b07-4956-3331-345b-d8d258b58f7d",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to overall, non-specific Azure DevOps Services performance degradation.",
+      "searchTags": "Performance;SLow;DevOps;Service",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8eacf30f-6ab6-340d-d946-13b9e69f073a",
       "longDescription": "",
       "shortDescription": "Issues that are related to programming Azure DevOps Services by using an object model.",
