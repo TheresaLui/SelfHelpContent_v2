@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "9fd3b7ea-1077-bc47-56e4-0869060d26b2",
+      "longDescription": "",
+      "shortDescription": "Issues with the supported Powershell and Azure CLI operations for Azure Cognitive Search.",
+      "searchTags": "Powershell;Azure CLI;manage search service",
+      "category": "Setup and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d10e6e4e-4e0b-4685-c3e4-00ec08b07f99",
       "longDescription": "",
       "shortDescription": "Issues with dropped or terminated connections to your Azure Cognitive Search service",
