@@ -382,6 +382,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5b278e70-dec2-b0d9-9a7a-ac46ef5864f2",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to deployment to VMSS or nodes update",
+      "searchTags": "VM;Deployment;Deploy;Scale set;Task",
+      "category": "Deploy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5c4a230c-1440-b821-96e6-12ddfbd9875d",
       "longDescription": "",
       "shortDescription": "Issues that are specific to adding or inviting users to your Azure DevOps Services account.",
