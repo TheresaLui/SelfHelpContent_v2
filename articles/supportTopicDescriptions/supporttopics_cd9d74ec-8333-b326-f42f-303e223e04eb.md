@@ -918,6 +918,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "da8f5c5e-cbcd-b995-5539-7958b4be49f2",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to Azure DevOps Services not recognizing a Visual Studio subscription for a user at sign in.",
+      "searchTags": "Visual Studio;Subscription ;Sign in;Login",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dc72bced-c67b-a9ec-5293-5284525a1540",
       "longDescription": "",
       "shortDescription": "Issues that are related to paying for Azure DevOps Services users who need Basic access.",
