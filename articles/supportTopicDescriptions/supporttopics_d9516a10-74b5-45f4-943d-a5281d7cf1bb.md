@@ -441,6 +441,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "66142d93-1d96-4f44-3e6e-8652e0db2184",
+      "longDescription": "",
+      "shortDescription": "Requesting enabling changefeed for Mongo DB API accounts",
+      "searchTags": "mongo;mongodb;changefeed;change feed",
+      "category": "MongoDB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6729d7fe-ea40-441c-9c1a-62d7372c7c60",
       "longDescription": "",
       "shortDescription": "Using Azure Functions triggers for Cosmos DB",
