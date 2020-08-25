@@ -470,6 +470,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ae8288f9-5381-f87a-f5fb-3b0baa918f4b",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to MSFT hosted agent disk space issue, IP settings to access different services from agent.",
+      "searchTags": "Hosted;Cloud Agent;Pipeline;Configure;Build",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ae8a1e96-e03f-c68c-cd43-6ec3742a799a",
       "longDescription": "",
       "shortDescription": "Issues that are related to using the REST API for app registration.",
