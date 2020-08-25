@@ -24,19 +24,12 @@
       "id": "problem_start_time",
       "order": 1,
       "controlType": "datetimepicker",
-      "displayLabel": "When did the problem start?",
+      "displayLabel": "When did the problem begin?",
       "required": true
     },
     {
-      "id": "problem_description",
+      "id": "launch_failure_nothing_happens_q2",
       "order": 2,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Problem description",
-      "required": true
-    },
-    {
-      "id": "launch_failure_nothing_happens_q3",
-      "order": 3,
       "controlType": "radiobuttongroup",
       "displayLabel": "Has your Azure AD application password expired?",
       "radioButtonOptions": [
@@ -49,6 +42,15 @@
           "text": "No"
         }
       ],
+      "required": true
+    },
+    {
+      "id": "problem_description",
+      "order": 3,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Problem description",
+      "watermarkText": "Provide additional information about your issue",
+      "useAsAdditionalDetails": true,
       "required": true
     }
   ]

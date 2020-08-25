@@ -25,21 +25,31 @@
       "id": "problem_start_time",
       "order": 1,
       "controlType": "datetimepicker",
-      "displayLabel": "When did the problem start?",
+      "displayLabel": "When did the problem begin?",
       "required": true
     },
     {
-      "id": "problem_description",
+      "id": "launch_failure_sorry_error_q2",
       "order": 2,
-      "controlType": "multilinetextbox",
-      "displayLabel": "Problem description",
+      "controlType": "radiobuttongroup",
+      "displayLabel": "Did you create the resource with the Immersive Reader team provided script at <a href='https://docs.microsoft.com/azure/cognitive-services/immersive-reader/how-to-create-immersive-reader'>How-To: Create an Immersive Reader resource</a>?",
+      "radioButtonOptions": [
+        {
+          "value": "yes",
+          "text": "Yes"
+        },
+        {
+          "value": "no",
+          "text": "No"
+        }
+      ],
       "required": true
     },
     {
       "id": "launch_failure_sorry_error_q3",
       "order": 3,
       "controlType": "radiobuttongroup",
-      "displayLabel": "Did you create the resource with the Immersive Reader team provided script at [How-To: Create an Immersive Reader resource](https://docs.microsoft.com/azure/cognitive-services/immersive-reader/how-to-create-immersive-reader)?",
+      "displayLabel": "Are there any errors in the browser developer tools Console or Network tabs?",
       "radioButtonOptions": [
         {
           "value": "yes",
@@ -56,23 +66,6 @@
       "id": "launch_failure_sorry_error_q4",
       "order": 4,
       "controlType": "radiobuttongroup",
-      "displayLabel": "Are there any errors in the browser developer tools Console or Network tabs?",
-      "radioButtonOptions": [
-        {
-          "value": "yes",
-          "text": "Yes"
-        },
-        {
-          "value": "no",
-          "text": "No"
-        }
-      ],
-      "required": true
-    },
-    {
-      "id": "launch_failure_sorry_error_q5",
-      "order": 5,
-      "controlType": "radiobuttongroup",
       "displayLabel": "What error are you seeing in the browser developer tools Network tab on the GetContentModelForReader call?",
       "radioButtonOptions": [
         {
@@ -88,15 +81,15 @@
           "text": "429"
         },
         {
-          "value": "dont_know",
+          "value": "dont_know_answer",
           "text": "Don't know"
         }
       ],
       "required": true
     },
     {
-      "id": "launch_failure_sorry_error_q6",
-      "order": 6,
+      "id": "launch_failure_sorry_error_q5",
+      "order": 5,
       "controlType": "dropdown",
       "displayLabel": "How/when do you acquire the access token?",
       "dropdownOptions": [
@@ -113,6 +106,15 @@
           "text": "Other"
         }
       ],
+      "required": true
+    },
+    {
+      "id": "problem_description",
+      "order": 6,
+      "controlType": "multilinetextbox",
+      "displayLabel": "Problem description",
+      "watermarkText": "Provide additional information about your issue",
+      "useAsAdditionalDetails": true,
       "required": true
     }
   ]
