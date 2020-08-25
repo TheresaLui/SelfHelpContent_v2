@@ -734,6 +734,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c789c9c8-8388-2b84-46c6-7217aaf1a602",
+      "longDescription": "",
+      "shortDescription": "Issues that are specific to configuring or using branch policies.",
+      "searchTags": "Branch;Policy;Repo;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c7bec698-0992-367e-5625-77410fcd29a5",
       "longDescription": "",
       "shortDescription": "Issues that are specific to assigning extensions to users.",
