@@ -398,6 +398,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c7bec698-0992-367e-5625-77410fcd29a5",
+      "longDescription": "",
+      "shortDescription": "Issues that are specific to assigning extensions to users.",
+      "searchTags": "Assign extension;User;Admin",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c9f5a7db-ad40-8565-8248-7b13d1d81fdd",
       "longDescription": "",
       "shortDescription": "Issues related to the configuration or use of Boards",
