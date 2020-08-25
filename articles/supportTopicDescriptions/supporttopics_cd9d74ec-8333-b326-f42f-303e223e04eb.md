@@ -214,6 +214,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "34857ea1-b8fe-1808-ae88-85e1099275cd",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to purchasing paid extensions from the Visual Studio Marketplace.",
+      "searchTags": "Extensions;Purchase;Buy",
+      "category": "Commerce",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "38befe58-b695-fc05-8baa-c1419650d37e",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to setting up approval, gates, checks in the pipeline, error with the usage, permissions.",
