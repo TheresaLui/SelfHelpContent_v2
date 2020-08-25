@@ -678,6 +678,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d9f9621f-30cf-1729-ca6c-5a5d7b60917a",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to app service deployments like files are not updated, error in deployment, configuration or performance",
+      "searchTags": "Web App;Deployment;Deploy;Task",
+      "category": "Deploy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "de309a3f-9d4f-efd1-80b7-fddc2cd0d9c1",
       "longDescription": "",
       "shortDescription": "Issues that are related to work item search.",
