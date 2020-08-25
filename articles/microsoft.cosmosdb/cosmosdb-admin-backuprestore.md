@@ -6,7 +6,7 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32741531,32636825"
+	supportTopicIds="32741531,32636825,	32748845"
 	resourceTags=""
 	productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
@@ -21,12 +21,10 @@ Most users are able to resolve their Backup and Restore case using the steps bel
 
 ## **Recommended Steps**
 
-### **Data backup retention**
-Azure Cosmos DB automatically takes a backup of your database every 4 hours and at any point of time, only the latest 2 backups are stored. However, if the container or database is deleted, Azure Cosmos DB retains the existing snapshots of a given container or database for 30 days.
-<br>We do have the option to increase the backups retention duration to help you customize.  
-There are some limits for the backups:
-* Backup cannot be retained for more than 30 days
-* The minimum backup interval is 1 hour  
+### **Changing Data backup retention**
+Azure Cosmos DB automatically takes a backup of your data for every 4 hours and at any point of time, the latest two backups are stored. This configuration is the default option and it’s offered without any additional cost.   
+If you would like to change the default backup options for an existing Azure Cosmos account, please see [Backup interval and retention period](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#backup-interval-and-retention-period) to change your backup retention using Azure Portal.
+
 
 
 ### **Performing a restore**
