@@ -33,23 +33,23 @@
             "infoBalloonText": "info balloon",
             "dropdownOptions": [
                 {
-                    "text": "Capacity issue or Missing Region in portal",
+                    "text": "Capacity issue or missing region in portal",
                     "value": "enableLocation"
                 },
                 {
-                    "text": "Max Database Accounts in subscription",
+                    "text": "Max database accounts per subscription",
                     "value": "accountLimitChange"
                 },
                 {
-                    "text": "Availability Zone enablement",
+                    "text": "Availability zone enablement",
                     "value": "azEnableLocation"
                 },
                 {
-                    "text": "Max Throughput on container",
+                    "text": "Max throughput on container",
                     "value": "throughputLimitChange"
                 },
                 {
-                    "text": "Max Containers for Shared Database Throughput",
+                    "text": "Max containers for shared database throughput",
                     "value": "containerLimitIncrease"
                 },
                 {
@@ -57,7 +57,7 @@
                     "value": "storageLimitIncrease"
                 },
                 {
-                    "text": "My quota is not listed",
+                    "text": "My quota issue is not listed",
                     "value": "dont_know_answer"
                 }
             ]
@@ -94,7 +94,6 @@
             "watermarkText":"Choose an account",
             "required": true,
             "includeInQuotaSummary": true,
-            "includeInQmsPayload": false,
             "dynamicDropdownOptions": {
                 "dependsOn": "quota_subtype",
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/databaseAccounts?api-version=2020-04-01",
@@ -114,7 +113,6 @@
             "visibility": "quota_subtype == accountLimitChange ||  quota_subtype == throughputLimitChange ||  quota_subtype == containerLimitIncrease || quota_subtype == storageLimitIncrease",
             "order": 4,
             "controlType": "numerictextbox",
-            "includeInQmsPayload": true,
             "displayLabel": "New quota requested",
             "infoBalloonText": "Put the new value for the limit you are requesting here.",
             "required": true,
