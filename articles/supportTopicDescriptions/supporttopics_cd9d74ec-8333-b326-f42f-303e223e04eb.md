@@ -358,6 +358,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8b03ec03-59b6-01ab-23fd-e767a7a33852",
+      "longDescription": "",
+      "shortDescription": "Issues with using tasks published through extensions in the Visual Studio Marketplace",
+      "searchTags": "Pipeline;Extension;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8eacf30f-6ab6-340d-d946-13b9e69f073a",
       "longDescription": "",
       "shortDescription": "Issues that are related to programming Azure DevOps Services by using an object model.",
