@@ -678,6 +678,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b9b5a525-b6cf-8691-54bc-a509e22e0fb9",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to collaborating on code development using Azure Repos.",
+      "searchTags": "Repos;Source Control;Version Control",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bac7a181-9c4c-26b4-4f54-c9e9cd6b59f8",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to script deployment or configuration of the task",
