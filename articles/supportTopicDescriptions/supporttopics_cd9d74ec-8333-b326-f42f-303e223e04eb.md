@@ -334,6 +334,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "56d20f64-28c9-675f-27f4-bb4933c6ac99",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to source code review.",
+      "searchTags": "Code Review;Repo;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "56f9707d-c05c-c6a9-7342-749aa0daf352",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to environment and deployment group creation or usage in pipeline.",
