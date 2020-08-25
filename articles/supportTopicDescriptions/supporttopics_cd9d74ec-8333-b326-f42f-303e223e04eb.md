@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1d8a103e-d708-ba8f-dd6a-7b1f40e2d7b3",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to developing or running load tests.",
+      "searchTags": "Load test",
+      "category": "Test",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1e6ff6cd-5691-54ac-1820-f8e542886d51",
       "longDescription": "",
       "shortDescription": "Issues that are related to Azure Artifacts",
