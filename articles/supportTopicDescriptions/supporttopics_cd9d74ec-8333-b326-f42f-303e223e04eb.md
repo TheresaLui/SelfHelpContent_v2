@@ -750,6 +750,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c4176132-7601-910b-90df-e80d8deaad87",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to Git-based Team Projects.",
+      "searchTags": "Git;Repo;Configure",
+      "category": "Build",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c789c9c8-8388-2b84-46c6-7217aaf1a602",
       "longDescription": "",
       "shortDescription": "Issues that are specific to configuring or using branch policies.",
