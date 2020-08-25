@@ -526,6 +526,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f9c998cc-43fd-3967-384c-97cc85a10439",
+      "longDescription": "",
+      "shortDescription": "Issues running raw scripts in pipelines using any of the built-in tasks - PowerShell, CMD, Bash, SSH or issues with file ops (Copy Files task, etc.)",
+      "searchTags": "PowerShell;Task;File Copy;Bash;SSH",
+      "category": "Build",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fc26eac4-f183-1a42-5074-953d917bd487",
       "longDescription": "",
       "shortDescription": "Issues that are related to programming Azure DevOps Services by using OAuth.",
