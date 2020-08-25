@@ -470,6 +470,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a21c98cc-5d48-c8c6-09b4-08fdfc8b9530",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to YAML syntax, conditions, expressions in the pipeline definition",
+      "searchTags": "YAML;Expression;Pipeline ;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a23b3ff1-e8e3-3b79-7e21-48b1d648fe8f",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to pipeline throwing timeout error at the start of pipeline or during the execution of the jobs or tasks",
