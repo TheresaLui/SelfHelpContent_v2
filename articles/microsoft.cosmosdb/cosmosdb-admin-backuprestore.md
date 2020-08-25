@@ -22,7 +22,8 @@ Most users are able to resolve their Backup and Restore case using the steps bel
 ## **Recommended Steps**
 
 ### **Changing Data backup retention**
-Azure Cosmos DB automatically takes a backup of your data for every 4 hours and at any point of time, the latest two backups are stored. This configuration is the default option and it’s offered without any additional cost.   
+Azure Cosmos DB automatically takes a backup of your data for every 4 hours and at any point of time, the latest two backups are stored. This configuration is the default option and it is offered without any additional cost.   
+
 If you would like to change the default backup options for an existing Azure Cosmos account, please see [Backup interval and retention period](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore#backup-interval-and-retention-period) to change your backup retention using Azure Portal.
 
 
