@@ -646,6 +646,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bd9d5782-e744-47de-2951-f3028217e96f",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to purchasing.",
+      "searchTags": "Purchasing;Billing;Buy",
+      "category": "Commerce",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bd9f2d96-03fb-84d8-cd33-946c20272632",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to key vault access, firewall settings or secret",
