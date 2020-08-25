@@ -886,6 +886,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e9abce07-e71c-d3e6-2f7c-1e77b49a9e25",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to missing, stale, or incorrect source code.",
+      "searchTags": "Missing;Incorrect;Source Control;Repo",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f79141ad-56c8-7e2a-32c3-51ee5cc81d1d",
       "longDescription": "",
       "shortDescription": "Performance, configuration or customization of Backlogs, Boards, Charts, Work Items, Work Item Queries, Work Item Search and Work Item permissions",
