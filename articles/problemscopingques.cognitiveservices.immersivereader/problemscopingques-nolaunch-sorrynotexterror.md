@@ -32,7 +32,7 @@
       "id": "launch_failure_sorry_error_q2",
       "order": 2,
       "controlType": "radiobuttongroup",
-      "displayLabel": "Did you create the resource with the Immersive Reader team provided script at <a href='https://docs.microsoft.com/azure/cognitive-services/immersive-reader/how-to-create-immersive-reader'>How-To: Create an Immersive Reader resource</a>?",
+      "displayLabel": "Did you create the resource with the Immersive Reader team-provided script?",
       "radioButtonOptions": [
         {
           "value": "yes",
@@ -102,8 +102,8 @@
           "text": "Once, when the main page is loaded"
         },
         {
-          "value": "Other",
-          "text": "Other"
+          "value": "dont_know_answer",
+          "text": "Don't know"
         }
       ],
       "required": true
