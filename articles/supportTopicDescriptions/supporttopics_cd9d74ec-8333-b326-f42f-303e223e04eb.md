@@ -774,6 +774,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dc72bced-c67b-a9ec-5293-5284525a1540",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to paying for Azure DevOps Services users who need Basic access.",
+      "searchTags": "Billing;Basic Access Level;Purchase;Buy",
+      "category": "Commerce",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "de309a3f-9d4f-efd1-80b7-fddc2cd0d9c1",
       "longDescription": "",
       "shortDescription": "Issues that are related to work item search.",
