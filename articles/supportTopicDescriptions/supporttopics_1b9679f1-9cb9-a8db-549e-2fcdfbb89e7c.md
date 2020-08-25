@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "025b8d07-f1a7-0fbf-e33f-d2c4f5ce7024",
+      "longDescription": "",
+      "shortDescription": "Issues with adding or removing partitions or replicas in an Azure Cognitive Search Service.",
+      "searchTags": "scale;replica;partition;storage",
+      "category": "Setup and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5527a869-571a-d6c1-b223-46bb59108f3c",
       "longDescription": "",
       "shortDescription": "Issues creating an Azure Cognitive Search service",
