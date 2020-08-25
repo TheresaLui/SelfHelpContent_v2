@@ -30,7 +30,9 @@ The error/symptom you see can be due to multiple reasons but commonly caused if 
 - Make sure the policy assigned to SAS token is not expired. You can create a new policy using Azure storage explorer and create a new SAS token from Azure storage explorer with that policy and alter the credential and try backing up again
 - Can also be caused due to proxy server. Please follow below:
 	- Execute the following command to enable the winhttp proxy, replacing ```&lt;addressofproxy&gt;``` with the proxy's address:
-	   ```netsh winhttp set proxy &lt;addressofproxy&gt;```
+		```xml
+		netsh winhttp set proxy &lt;addressofproxy&gt;
+		```
 	- Restart SQL Server to pick up the proxy settings
     - Enable traceflag 1819 to enable using a proxy for Backup a. DBCC TRACEON(1819, -1)
 
