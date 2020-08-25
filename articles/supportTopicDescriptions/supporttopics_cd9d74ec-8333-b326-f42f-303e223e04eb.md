@@ -246,6 +246,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "65279e3a-7234-b284-8ee2-fc083b0648c3",
+      "longDescription": "",
+      "shortDescription": "Issues with integrating your pipelines with various on-premises or cloud-hosted source code repositories",
+      "searchTags": "GitHub Task;BitBucket;SVN",
+      "category": "Build",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "68b6dd35-b19e-36d8-a5e4-364de8faad47",
       "longDescription": "",
       "shortDescription": "Issues that are related to customization of work items and the process template.",
