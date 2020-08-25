@@ -302,6 +302,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4f815a40-5500-1b67-e44d-cb92df5e674c",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting related to service fabric deployment and usage with the task",
+      "searchTags": "Service Fabric;Deployment;Deploy;Task",
+      "category": "Deploy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "52be6b5f-08c7-167e-80b3-a23c990def7b",
       "longDescription": "",
       "shortDescription": "Issues that are related to designating or changing the Owner of an Azure DevOps organization.",
