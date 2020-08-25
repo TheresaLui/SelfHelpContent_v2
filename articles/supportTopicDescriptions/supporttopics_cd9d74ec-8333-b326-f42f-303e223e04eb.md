@@ -846,6 +846,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e6f91f9a-ebee-6a04-be50-a2dff9e55f5e",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to Team Foundation Version Control (TFVC).",
+      "searchTags": "TFVC;Source Control;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e8a4bc4f-1108-13cd-0b41-511f6ac37e83",
       "longDescription": "",
       "shortDescription": "Issues that are specific to assigning access levels to users.",
