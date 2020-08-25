@@ -23,4 +23,4 @@ This issue can occur if you have taken a backup and specified the block size to 
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-To solve this error, reissue the `RESTORE` statement with `BLOCKSIZE = 65536` specified.
+To solve this error, reissue the `RESTORE` statement with `BLOCKSIZE = 65536`.
