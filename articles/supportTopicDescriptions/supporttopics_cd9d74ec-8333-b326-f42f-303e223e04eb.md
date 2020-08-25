@@ -814,6 +814,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b9d426d1-8770-7cd4-ba15-3610f8e5adc3",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to web-based test case management.",
+      "searchTags": "Test Case;Management;Web;Test",
+      "category": "Test",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bac7a181-9c4c-26b4-4f54-c9e9cd6b59f8",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to script deployment or configuration of the task",
