@@ -246,6 +246,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "56f9707d-c05c-c6a9-7342-749aa0daf352",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to environment and deployment group creation or usage in pipeline.",
+      "searchTags": "Deployment group;Environment;Pipeline;Deploy;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5914526c-22b3-ffec-8ce6-ce10c60792de",
       "longDescription": "",
       "shortDescription": "Issues that are related to setting up or removing billing in Azure DevOps Services",
