@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "062a3f6e-2c6e-ec3e-63ee-9bc14f53c28c",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to pipeline variable, parameter usage, defining them, using them in the scripts",
+      "searchTags": "Variable;Parameter;Pipeline ;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "07d3041e-a87c-143a-18f5-26f741a96272",
       "longDescription": "",
       "shortDescription": "Issues that are related to using web browsers and other clients to connect to Azure DevOps Services.",
