@@ -438,6 +438,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a89c2e75-fe4d-8eb1-fb77-fcbd61338df6",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring or running Azure DevOps agent in a container",
+      "searchTags": "Container Agent;Pipeline;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "acb413a9-b281-d0e4-17fd-e3792f46e12c",
       "longDescription": "",
       "shortDescription": "Running Pipelines tests using any of the testing frameworks, analyzing coverage using any of the code coverage frameworks, publishing reports thereof",
