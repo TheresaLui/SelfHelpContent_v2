@@ -1,5 +1,5 @@
 <properties
-  articleId="{18258C14-0477-4627-BB89-7469F2C713DB}"
+  articleId="18258C14-0477-4627-BB89-7469F2C713DB"
   pageTitle="Scoping questions - Immersive Reader launch failure nothing happens"
   description="Scoping questions to troubleshoot the Immersive Reader launch failure nothing happens"
   authors="ltcrew"
