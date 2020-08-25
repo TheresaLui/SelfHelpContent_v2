@@ -662,6 +662,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a1c8b9c8-2a27-d6c5-9743-8a19998c360e",
+      "longDescription": "",
+      "shortDescription": "Other sign-in related issues that are not listed.",
+      "searchTags": "Sign in;Login;Other;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "a21c98cc-5d48-c8c6-09b4-08fdfc8b9530",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to YAML syntax, conditions, expressions in the pipeline definition",
