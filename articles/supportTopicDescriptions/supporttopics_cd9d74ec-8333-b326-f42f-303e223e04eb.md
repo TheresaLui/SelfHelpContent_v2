@@ -54,6 +54,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "09e20447-29b1-8b1b-81a9-bce95c3f820f",
+      "longDescription": "",
+      "shortDescription": "Issues with GetSources task, authenticating access to a repository, or unexpected failures when checking out source code",
+      "searchTags": "Source Control Task",
+      "category": "Build",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0f067376-3811-6eb4-6143-2b4e5eabb6d7",
       "longDescription": "",
       "shortDescription": "Issues when it takes a long time to access to work items, or the process hangs.",
