@@ -606,6 +606,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bfde4060-137e-334d-3da7-e022ca120c00",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to copying file to VM, blob and storage issues during copying",
+      "searchTags": "File copy task;Deploy;Deployment ;Task",
+      "category": "Deploy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c0d68c25-3f64-492e-711b-c1c8ceafd959",
       "longDescription": "",
       "shortDescription": "Issues that are related to using or configuring widgets",
