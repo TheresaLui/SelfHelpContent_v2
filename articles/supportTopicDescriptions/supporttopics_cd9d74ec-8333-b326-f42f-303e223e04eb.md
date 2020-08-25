@@ -254,6 +254,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4a9ec9dd-a24a-0e00-4467-b42aba8591f6",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to script execution error, modules not loaded or authentication error",
+      "searchTags": "PowerShell Task;Deployment;Deploy",
+      "category": "Deploy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "52be6b5f-08c7-167e-80b3-a23c990def7b",
       "longDescription": "",
       "shortDescription": "Issues that are related to designating or changing the Owner of an Azure DevOps organization.",
