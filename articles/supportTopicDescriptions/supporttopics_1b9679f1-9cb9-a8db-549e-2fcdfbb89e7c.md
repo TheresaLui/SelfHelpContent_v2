@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "5527a869-571a-d6c1-b223-46bb59108f3c",
+      "longDescription": "",
+      "shortDescription": "Issues creating an Azure Cognitive Search service",
+      "searchTags": "create;service",
+      "category": "Setup and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6581ffb1-2c35-8bbb-e214-3cb5660ddec5",
       "longDescription": "",
       "shortDescription": "Issues with security related status codes from the Azure Cognitive Search REST API.  (400, 403 or 502)",
