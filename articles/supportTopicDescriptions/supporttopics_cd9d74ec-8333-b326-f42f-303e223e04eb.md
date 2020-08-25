@@ -438,6 +438,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7ff13ee1-341a-b1fe-6b64-e003d7e5a8aa",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to app function deployments like files are not updated, error in deployment, configuration or performance",
+      "searchTags": "Function App;Deployment;Deploy;Task",
+      "category": "Deploy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "80c3a4ff-3f7c-bf9d-75ed-a74a41d29fea",
       "longDescription": "",
       "shortDescription": "Problems or questions with implementing build and test pipelines using Azure Pipelines.",
