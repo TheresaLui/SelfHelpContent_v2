@@ -150,6 +150,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "41bc185e-eecc-501a-266e-f337ad24d2aa",
+      "longDescription": "",
+      "shortDescription": "Issues with configuring CI, PR, and scheduled triggers, or unexpected disruption in their working",
+      "searchTags": "Trigger;Scheduled build;PR trigger",
+      "category": "Build",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "43816774-d26c-9390-17c4-ceb457051f42",
       "longDescription": "",
       "shortDescription": "Problems or questions related to creating or configuring Publish, Download Build, Pipeline artifact tasks, authenticating with Azure Artifacts feeds",
