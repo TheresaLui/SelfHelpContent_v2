@@ -102,6 +102,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1a910f1e-b579-4dc6-cfde-e292f61fec8c",
+      "longDescription": "",
+      "shortDescription": "Packaging issues related to authenticating with NuGet repo or npm registry, restoring, versioning, packaging, or publishing using NuGet or npm tasks",
+      "searchTags": "NuGet;npm;Task",
+      "category": "Build",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1e6ff6cd-5691-54ac-1820-f8e542886d51",
       "longDescription": "",
       "shortDescription": "Issues that are related to Azure Artifacts",
