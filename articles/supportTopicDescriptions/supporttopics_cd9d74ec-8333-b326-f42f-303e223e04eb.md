@@ -302,6 +302,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7d232fe1-7993-51e5-a484-76ad805e3858",
+      "longDescription": "",
+      "shortDescription": "Issues related to your pipeline jobs waiting for a long time even though you see available agents",
+      "searchTags": "Stuck Build;Waiting",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "80c3a4ff-3f7c-bf9d-75ed-a74a41d29fea",
       "longDescription": "",
       "shortDescription": "Problems or questions with implementing build and test pipelines using Azure Pipelines.",
