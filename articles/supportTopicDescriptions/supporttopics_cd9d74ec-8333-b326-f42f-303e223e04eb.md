@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "26c371cc-3b5a-5962-7630-9691e9c89873",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to ARM service connection creation, permissions, user interface, different options available in UI.",
+      "searchTags": "Resource Manager;Service Connection;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2b6c179e-2e9a-9fe1-c5e6-0cb7c3c2feea",
       "longDescription": "",
       "shortDescription": "Issues that are related to publishing and accessing symbols",
