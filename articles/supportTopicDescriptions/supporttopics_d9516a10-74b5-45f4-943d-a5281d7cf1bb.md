@@ -505,6 +505,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "81c0ddce-14a2-3b90-9639-4ac12f8013b9",
+      "longDescription": "",
+      "shortDescription": "Issues with changing backup interval and retention period",
+      "searchTags": "backup;retention;retention policy;restore",
+      "category": "Backup and Restore",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "86107512-f8ce-062a-75f7-b3002aa1f50c",
       "longDescription": "",
       "shortDescription": "Issues with using Azure Private Link via a private endpoint",
