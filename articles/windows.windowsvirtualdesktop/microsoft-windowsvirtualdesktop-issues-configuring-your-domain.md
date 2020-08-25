@@ -1,23 +1,21 @@
 <properties
-	pageTitle="Issues configuring your Domain"
-	description="Issues configuring your Domain"
-	service=""
-	resource=""
-	authors="jerrycif"
-	ms.author="jerrycif"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32727876"
-	resourceTags=""
-	productPesIds="16582"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="53fb2b60-cfd0-4e5a-b9fb-f8bf83acc01d"
-	ownershipId="Windows_Virtual_Desktop"
-/>
-
+  pagetitle="Windows Virtual Desktop - Issues configuring your domain"
+  service=""
+  resource=""
+  ms.author="jerrycif,davidbel"
+  selfhelptype="Generic"
+  supporttopicids="32727876"
+  resourcetags=""
+  productpesids="16582"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="53fb2b60-cfd0-4e5a-b9fb-f8bf83acc01d"
+  ownershipid="Windows_Virtual_Desktop" />
 # Windows Virtual Desktop - Issues configuring your domain
 
-4 out of 5 customers resolved their Windows Virtual Desktop domain issue using the information listed below.<br>
+## **Recommended Steps**
+
+Review the domain, user and VM requirements for Windows Virtual Desktop
+* [Windows Virtual Desktop requirements](https://docs.microsoft.com/azure/virtual-desktop/overview#requirements)
 
 ## **Recommended Documents**
 

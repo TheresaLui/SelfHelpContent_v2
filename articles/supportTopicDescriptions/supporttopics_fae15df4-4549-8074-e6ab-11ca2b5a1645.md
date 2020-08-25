@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4926a98d-6b18-1592-dea2-7a9f1fd8d228",
+      "longDescription": "",
+      "shortDescription": "Latency or packet loss on peering connection.",
+      "searchTags": "Peering",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4ed02a79-03be-c0b7-b168-a3d99f827dbc",
       "longDescription": "",
       "shortDescription": "Ingress or egress traffic information for peering connection is not available via metrics.",

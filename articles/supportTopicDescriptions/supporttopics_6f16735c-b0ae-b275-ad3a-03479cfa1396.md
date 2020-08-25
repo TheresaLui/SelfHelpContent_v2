@@ -2,7 +2,7 @@
   pagetitle="Support topic description for VM running Windows"
   description="Support topic description for Virtual Machine running Windows"
   authors="scottAzure, elixirsys2"
-  ms.author="scotro, tibasham, alexsmit, svenkat"
+  ms.author="scotro, tibasham, alexsmit, svenkat, jlaborde"
   selfhelptype="SupportTopicDescription"
   productpesids="6f16735c-b0ae-b275-ad3a-03479cfa1396"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -655,6 +655,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "744bd4c7-3147-00a6-6c99-c368bc1e1bcd",
+      "longDescription": "",
+      "shortDescription": "Issues involving the importing or exporting of disks, including via a private link.",
+      "searchTags": "importing;exporting;disks",
+      "category": "Disk Management",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "761c2072-db63-b5a4-d038-9cf7bb03cf86",
