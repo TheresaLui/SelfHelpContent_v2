@@ -334,6 +334,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5a45391a-024d-82aa-018c-8f8a9dce7188",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to containerization, image deployment or container registry",
+      "searchTags": "Deployment;Docker;Container;Task;Deploy",
+      "category": "Deploy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5c4a230c-1440-b821-96e6-12ddfbd9875d",
       "longDescription": "",
       "shortDescription": "Issues that are specific to adding or inviting users to your Azure DevOps Services account.",
