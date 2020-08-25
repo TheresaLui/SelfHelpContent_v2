@@ -70,6 +70,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "199979c4-9e0d-9de3-7893-0e06e183afb6",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to using the Query Designer (errors, bad results, and so on).",
+      "searchTags": "Query Designer;Work item;Queries",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1a153eb2-22e4-f2ec-75e8-8d80ed78d546",
       "longDescription": "",
       "shortDescription": "Problems or questions related to creating, configuring or receiving version control notifications.",
