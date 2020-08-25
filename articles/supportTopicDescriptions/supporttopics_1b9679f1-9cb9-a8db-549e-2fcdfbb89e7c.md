@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1115c9b8-1bc5-dfa1-e645-ba127d2adb27",
+      "longDescription": "",
+      "shortDescription": "Issues with moving your Azure Cognitive Search service to a new subscription.",
+      "searchTags": "move;subscription;resource",
+      "category": "Setup and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5527a869-571a-d6c1-b223-46bb59108f3c",
       "longDescription": "",
       "shortDescription": "Issues creating an Azure Cognitive Search service",
