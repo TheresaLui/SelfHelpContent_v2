@@ -854,6 +854,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e202e9d6-5137-0378-ca7a-57f39622ccb2",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to source code search.",
+      "searchTags": "Code Search;Repo;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e6f91f9a-ebee-6a04-be50-a2dff9e55f5e",
       "longDescription": "",
       "shortDescription": "Issues that are related to Team Foundation Version Control (TFVC).",
