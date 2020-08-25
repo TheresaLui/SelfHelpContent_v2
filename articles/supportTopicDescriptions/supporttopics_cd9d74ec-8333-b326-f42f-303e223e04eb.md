@@ -30,6 +30,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "03ed9331-5aee-96b2-5862-b709bcceb2b2",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to Azure classic service connection creation, permissions, user interface, different options available in UI.",
+      "searchTags": "Service Connection;Configure;Azure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0546626c-effe-5b2b-347d-a8e0c75e1d09",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to template deployments like template validation error or resources not found",
