@@ -598,6 +598,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bd9f2d96-03fb-84d8-cd33-946c20272632",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to key vault access, firewall settings or secret",
+      "searchTags": "Key Vault;Deployment;Deploy;Task",
+      "category": "Deploy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bed57df6-c697-97d3-a2e0-d9a657030191",
       "longDescription": "",
       "shortDescription": "Collection of resources that can help you get started with your first pipeline",
