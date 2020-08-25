@@ -550,6 +550,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "bed57df6-c697-97d3-a2e0-d9a657030191",
+      "longDescription": "",
+      "shortDescription": "Collection of resources that can help you get started with your first pipeline",
+      "searchTags": "Set up pipeline;Configure;Build",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c0d68c25-3f64-492e-711b-c1c8ceafd959",
       "longDescription": "",
       "shortDescription": "Issues that are related to using or configuring widgets",
