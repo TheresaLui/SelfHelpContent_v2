@@ -21,7 +21,7 @@ Most users are able to resolve their Backup and Restore case using the steps bel
 
 ## **Recommended Steps**
 
-### **Changing Backup interval and retention period**
+### **Changing backup interval and retention period**
 Azure Cosmos DB automatically takes a backup of your data for every 4 hours and at any point of time, the latest two backups are stored. This configuration is the default option and it is offered without any additional cost. You can change these default backup interval and retention period during the Azure Cosmos account creation or after the account is created. The backup configuration is set at the Azure Cosmos account level and you need to configure it on each account. After you configure the backup options for an account, it is applied to all the containers within that account. Currently you can change them backup options from Azure portal only.  
 
 If the number of copies end up more than 2, you will be charged for those additional copies. See the Consumed Storage section in the [Pricing page](https://azure.microsoft.com/pricing/details/cosmos-db/) to know the exact price for additional copies.
