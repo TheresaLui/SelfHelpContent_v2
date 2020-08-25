@@ -158,6 +158,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "38befe58-b695-fc05-8baa-c1419650d37e",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to setting up approval, gates, checks in the pipeline, error with the usage, permissions.",
+      "searchTags": "Approval;Gated check in;Gate;Pipeline;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3d86248b-e615-8815-011f-3098637b3bb2",
       "longDescription": "",
       "shortDescription": "Issues in build steps of your pipeline - for instance, when using MSBuild, Maven, Ant, Gradle, Grunt, Xamarin, or iOS tasks",
