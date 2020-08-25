@@ -366,6 +366,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "532a5fc1-123c-9768-e189-6d3512015905",
+      "longDescription": "",
+      "shortDescription": "Issues that are regarding the Test Manager extension.",
+      "searchTags": "Test Manager",
+      "category": "Test",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "53c3d75b-9b4a-c421-01dc-a69ae342f1e0",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to task group creation, usage, errors while using them in pipeline.",
