@@ -33,46 +33,38 @@
             "infoBalloonText": "info balloon",
             "dropdownOptions": [
                 {
-                    "text": "Region access",
-                    "value": "enablelocation"
+                    "text": "Capacity issue or Missing Region in portal",
+                    "value": "enableLocation"
                 },
                 {
-                    "text": "Accounts limit increase",
-                    "value": "accountlimitincrease"
-                },
-                {
-                    "text": "Accounts limit decrease",
-                    "value": "accountlimitdecrease"
+                    "text": "Max Database Accounts in subscription",
+                    "value": "accountLimitChange"
                 },
                 {
                     "text": "Availability Zone enablement",
-                    "value": "azenablelocation"
+                    "value": "azEnableLocation"
                 },
                 {
-                    "text": "Throughput limit increase",
-                    "value": "throughputlimitincrease"
+                    "text": "Max Throughput on container",
+                    "value": "throughputLimitChange"
                 },
                 {
-                    "text": "Throughput limit decrease",
-                    "value": "throughputlimitdecrease"
+                    "text": "Max Containers for Shared Database Throughput",
+                    "value": "containerLimitIncrease"
                 },
                 {
-                    "text": "Max number of containers increase",
-                    "value": "containerlimitincrease"
+                    "text": "Pre-approved storage limit",
+                    "value": "storageLimitIncrease"
                 },
                 {
-                    "text": "Storage limit increase",
-                    "value": "storagelimitincrease"
-                },
-                {
-                    "text": "Other",
+                    "text": "My quota is not listed",
                     "value": "dont_know_answer"
                 }
             ]
         },
         {
             "id": "quota_region",
-            "visibility": "quota_subtype == enablelocation || quota_subtype ==azenablelocation",
+            "visibility": "quota_subtype == enableLocation || quota_subtype ==azEnableLocation",
             "order": 2,
             "controlType": "dropdown",
             "displayLabel":"Location requested",
@@ -95,7 +87,7 @@
         },
         {
             "id": "quota_account",
-            "visibility": "quota_subtype == accountlimitincrease || quota_subtype == accountlimitdecrease ||  quota_subtype == throughputlimitincrease ||  quota_subtype == throughputlimitdecrease ||  quota_subtype == containerlimitincrease || quota_subtype == storagelimitincrease",
+            "visibility": "quota_subtype == accountLimitChange ||  quota_subtype == throughputLimitChange ||  quota_subtype == containerLimitIncrease || quota_subtype == storageLimitIncrease",
             "order": 3,
             "controlType": "dropdown",
             "displayLabel":"Account Name",
@@ -108,7 +100,7 @@
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/databaseAccounts?api-version=2020-04-01",
                 "jTokenPath":"value",
                 "textProperty":"name, location",
-                "textTemplate":"Name: {name}, Region: {location}",
+                "textTemplate":"Name: {name}",
                 "ValueProperty":"id",
                 "valuePropertyRegex": ".*",
                 "defaultDropdownOptions": {
@@ -119,7 +111,7 @@
         },
         {
             "id": "new_limit",
-            "visibility": "quota_subtype == accountlimitincrease || quota_subtype == accountlimitdecrease ||  quota_subtype == throughputlimitincrease ||  quota_subtype == throughputlimitdecrease ||  quota_subtype == containerlimitincrease || quota_subtype == storagelimitincrease",
+            "visibility": "quota_subtype == accountLimitChange ||  quota_subtype == throughputLimitChange ||  quota_subtype == containerLimitIncrease || quota_subtype == storageLimitIncrease",
             "order": 4,
             "controlType": "numerictextbox",
             "includeInQmsPayload": true,
