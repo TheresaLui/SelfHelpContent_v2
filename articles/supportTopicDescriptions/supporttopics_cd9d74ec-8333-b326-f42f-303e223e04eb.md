@@ -414,6 +414,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5a410710-e9c8-c0fb-28c2-772f6821a1ca",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to selecting a user account at sign in.",
+      "searchTags": "Account ;Select;Sign in;Login",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5a45391a-024d-82aa-018c-8f8a9dce7188",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to containerization, image deployment or container registry",
