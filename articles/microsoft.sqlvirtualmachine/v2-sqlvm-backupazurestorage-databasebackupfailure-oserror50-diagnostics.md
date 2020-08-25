@@ -34,7 +34,8 @@ The error/symptom you see can be due to multiple reasons but commonly caused if 
 		netsh winhttp set proxy &lt;addressofproxy&gt;
 		```
 	- Restart SQL Server to pick up the proxy settings
-    - Enable traceflag 1819 to enable using a proxy for Backup a. DBCC TRACEON(1819, -1)
+    - Enable traceflag 1819 to enable using a proxy for Backup 
+		- DBCC TRACEON(1819, -1)
 
 ## **Recommended Documents**
 
