@@ -550,6 +550,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7b2122b8-c12a-0055-25b7-da06b8005041",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to developing or running web performance tests.",
+      "searchTags": "Performance;Web;Test",
+      "category": "Test",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7d232fe1-7993-51e5-a484-76ad805e3858",
       "longDescription": "",
       "shortDescription": "Issues related to your pipeline jobs waiting for a long time even though you see available agents",
