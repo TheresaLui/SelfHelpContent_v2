@@ -422,6 +422,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "77a43302-ac5f-8e6e-ec39-07cc53e0c245",
+      "longDescription": "",
+      "shortDescription": "Troubleshooting issues related to any other type of service connections not listed here, creation, permissions, UI, different options in UI",
+      "searchTags": "Service Connection;Other;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "7d232fe1-7993-51e5-a484-76ad805e3858",
       "longDescription": "",
       "shortDescription": "Issues related to your pipeline jobs waiting for a long time even though you see available agents",
