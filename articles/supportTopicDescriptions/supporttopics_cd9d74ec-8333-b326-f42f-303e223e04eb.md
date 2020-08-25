@@ -798,6 +798,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "fb783fa2-e0f4-b0dd-9310-7c9b1559c7ec",
+      "longDescription": "",
+      "shortDescription": "Issues that are related to buying build and release pipelines.",
+      "searchTags": "Pipeline;Purchase;Buy",
+      "category": "Commerce",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "fc26eac4-f183-1a42-5074-953d917bd487",
       "longDescription": "",
       "shortDescription": "Issues that are related to programming Azure DevOps Services by using OAuth.",
