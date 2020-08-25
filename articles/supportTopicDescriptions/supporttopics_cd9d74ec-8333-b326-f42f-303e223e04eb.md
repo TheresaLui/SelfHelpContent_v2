@@ -526,6 +526,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "78bc13cf-531b-c7cd-95e2-a59f2f9a53c7",
+      "longDescription": "",
+      "shortDescription": "Issues that are regarding the Exploratory Testing extension.",
+      "searchTags": "Exploratory Test",
+      "category": "Test",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "78ddd59d-48cc-c5c3-098a-040a6fb59ca8",
       "longDescription": "",
       "shortDescription": "Issues that are related to the operation of the Azure DevOps Services service.",
