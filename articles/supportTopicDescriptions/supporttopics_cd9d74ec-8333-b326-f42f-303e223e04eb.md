@@ -166,6 +166,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "264c1b2f-cef2-efe6-4416-8cbf3389f28b",
+      "longDescription": "",
+      "shortDescription": "Issues related to Service connection configuration.",
+      "searchTags": "Service Connection;Configure",
+      "category": "Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "26c371cc-3b5a-5962-7630-9691e9c89873",
       "longDescription": "",
       "shortDescription": "Troubleshooting issues related to ARM service connection creation, permissions, user interface, different options available in UI.",
