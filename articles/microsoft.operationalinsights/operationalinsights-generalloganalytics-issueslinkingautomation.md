@@ -29,7 +29,7 @@ To link an Automation account to a Log Analytics workspace, follow these steps:<
     * Start typing *Automation & Control*, select it from the list and click *Create*
     * Select the workspace to install the solution in and click *Create*<br>
 * Automation account is now linked to your workspace.
- 
+
  To verify that the Automation account is linked to your workspace, follow these steps:<br>
  * From Automation account, click Linked workspace* on the left pane
 * A view with a linked workspace is presented (if linked)
