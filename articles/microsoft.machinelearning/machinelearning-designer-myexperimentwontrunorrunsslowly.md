@@ -4,8 +4,8 @@
 	infoBubbleText="My experiment won't run or runs slowly"
 	service="microsoft.machinelearning"
 	resource="designer"
-	authors="luzhang06"
-	ms.author="luzhan"
+	authors="likebupt"
+	ms.author="keli19"
 	displayOrder="1"
 	articleId="machinelearning-designer-myexperimentwontrunorrunsslowly"
 	selfHelpType="generic"
@@ -26,6 +26,7 @@ Most users are able to resolve this issue using the steps below.
 3. If you have custom conda dependency and image, it will also lead to long environment preparation cost. You can check the azureml-logs of each module to see the time cost for image building and image download.
 4. If your scheduled pipeline runs hang abnormally, file an issue by clicking the smiling face on top right corner of Azure Machine Learning studio and engineering team will investigate.
 5. You might also benefit from running Azure Machine Learning pipeline if there’s no change of the outputs in your previous modules. The system will auto-detect it and will not rerun the whole pipeline again (which should be much faster than your first time run).
+6. You could also submit feedback by clicking the smiling face on top right corner of Azure Machine Learning studio with **including screenshot** checked on, better with **Microsoft can email ou about your feedback** checked on in case we need to follow up with you with your specific case.
 
 
 ## **Recommended Documents**
