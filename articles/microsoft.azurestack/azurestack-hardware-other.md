@@ -29,9 +29,11 @@ To view the status of a scale unit:
 2. Under **Infrastructure Resources**, select **Scale Units**
 3. In the results, select the **Scale Unit** to view the current status
 
-See your vendor’s field replaceable unit (FRU) documentation for detailed steps that are specific to your Azure Stack integrated system.
+See your vendor’s field replaceable unit (FRU) documentation for detailed steps that are specific to your Azure Stack integrated system. For links to OEM reference guides, see [OEM contact information](https://docs.microsoft.com/azure-stack/operator/azure-stack-update-oem#oem-contact-information).
 
 ## **Recommended Documents**
 
 * [Scale unit node actions in Azure Stack Hub](https://docs.microsoft.com/azure/azure-stack/azure-stack-node-actions)
 * [Replace a hardware component on an Azure Stack Hub scale unit node](https://docs.microsoft.com/azure/azure-stack/azure-stack-replace-component)
+* [Replace a disk drive](https://docs.microsoft.com/azure-stack/operator/azure-stack-replace-disk)
+* [Replace a node](https://docs.microsoft.com/azure-stack/operator/azure-stack-replace-node)

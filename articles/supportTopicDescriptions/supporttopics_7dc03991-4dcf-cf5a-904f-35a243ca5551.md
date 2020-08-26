@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "01b59f25-67c7-7f50-fd3e-f77ead0162af",
+      "longDescription": "",
+      "shortDescription": "Limit access and monitor logins on mobile, desktop, and or browsers apps ",
+      "searchTags": "Login;app;protected",
+      "category": "Apps",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "01c14281-f599-31ea-107e-1835788b0cf5",
       "longDescription": "",
       "shortDescription": "Managed admins or Azure AD or Office365 roles and permissions",
@@ -85,6 +93,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "46ab80c1-1c18-4aa0-0e13-106681af73af",
+      "longDescription": "",
+      "shortDescription": "Investigate oAuth or Catalog apps reported by CAS Alerts",
+      "searchTags": "apps;Investigating;OAuth",
+      "category": "Apps",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "55ba1aa0-5914-e81c-cb47-b2648b719355",
+      "longDescription": "",
+      "shortDescription": "Add app connectors, investigate connectivity and disabled connector",
+      "searchTags": "apps;connector",
+      "category": "Apps",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "60d60a8f-ceef-d145-900a-f6119864518b",
       "longDescription": "",
       "shortDescription": "Investigating alerts, activities, files, users and accounts, and governance actions",
@@ -109,6 +133,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "659e008d-73f0-df87-a167-d63176fe350b",
+      "longDescription": "",
+      "shortDescription": "Configuration of OAuth app policies",
+      "searchTags": "OAuth;app;policy",
+      "category": "Policy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "65ff0c49-4d24-0b04-8368-b8e5278a06e7",
       "longDescription": "",
       "shortDescription": "How can connector setting impact files visibility",
@@ -122,6 +154,14 @@
       "shortDescription": "Generic SIEM integration setup using CEF or ArcSight formats. Missing activities and alerts on the SIEM server",
       "searchTags": "SIEM ;CEF;Integration;External",
       "category": "SIEM",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6d69e6fa-599d-564e-19bc-fd3bd4392e97",
+      "longDescription": "",
+      "shortDescription": "Onboarding any app to enforce controls to prevent data exfiltration and infiltration ",
+      "searchTags": "apps;conneting;controls",
+      "category": "Apps",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -141,6 +181,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "872d8fa8-b990-e83f-3f34-b32418e4ea74",
+      "longDescription": "",
+      "shortDescription": "Configuration of governance actions within policies",
+      "searchTags": "Governance  ;actions;policies",
+      "category": "Policy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "8b7e09e0-0dd5-a516-475e-0ae5c39ccbc8",
+      "longDescription": "",
+      "shortDescription": "Malware inspection in Office and third party apps",
+      "searchTags": "apps;Malware;Policy",
+      "category": "Policy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8b9f5f69-8c34-3a8f-2353-ae09020daeec",
       "longDescription": "",
       "shortDescription": "Access and session policies configuration",
@@ -157,11 +213,43 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "90e77fa3-4aad-bef1-ce90-42b8f5737a36",
+      "longDescription": "",
+      "shortDescription": "Shadow IT Discovery and control scenarios, setting app controls and governing app lifecycle",
+      "searchTags": "IT;app;Policies",
+      "category": "Policy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "96b184e9-53c3-dc7e-60de-0e2b691498c9",
       "longDescription": "",
-      "shortDescription": "Ingesting data via programmatic access, export 5000 records and more, automate access, upload discovery logs, generate block script, list activities ",
+      "shortDescription": "Ingesting data via programmatic access, export more than 5000 records, automate access, upload discovery logs, managing alerts, list activities",
       "searchTags": "REST ;API;Script",
       "category": "REST API",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9f3fa90f-696f-1a7b-0b50-81317185ecfb",
+      "longDescription": "",
+      "shortDescription": "How to configure file policies, including content inspection (built-in DLP, Data Classification Service)",
+      "searchTags": "DLP;Policies",
+      "category": "Policy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a81c02b3-9294-0a2a-d4dd-0d75103f5577",
+      "longDescription": "",
+      "shortDescription": "Limit actions through a web browser, including upload, download, copy, cut, paste, print, or custom activities",
+      "searchTags": "Browse;app;protected;actions;download",
+      "category": "Apps",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b28b44c7-aca6-7c76-a1b2-cc5e8b20ce57",
+      "longDescription": "",
+      "shortDescription": "Azure ATP integration, investigation of AD activities, and identity security posture configuration",
+      "searchTags": "ATP;Integration",
+      "category": "Integrations",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -197,6 +285,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cf0248af-2633-91d2-d909-3eb8938e687e",
+      "longDescription": "",
+      "shortDescription": "Policies configuration for suspicious user activity, investigate risky users and anomaly detection policies (Impossible travel, Ransomware activities)",
+      "searchTags": "Policy;anomaly;impossible;travel;ransomware",
+      "category": "Policy",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d5a58542-0716-7c8c-dd69-052b541701d5",
+      "longDescription": "",
+      "shortDescription": "Identify managed or unmanaged devices including Microsoft Intune compliant, hybrid Azure AD joined devices, or client certificates",
+      "searchTags": "Manage;Device",
+      "category": "Devices",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dc11507f-cc8e-4b77-099d-bbc1f982b1c3",
       "longDescription": "",
       "shortDescription": "Conditional Access and real-time proxied access and session control for native apps, protected apps, and managed devices",
@@ -213,6 +317,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dd18aa8c-bdc8-1d22-0a5c-220d39277140",
+      "longDescription": "",
+      "shortDescription": "Formatting and parsing issues with log collector and snapshot reports, with built-in and custom log formats",
+      "searchTags": "log;parsing;format;data",
+      "category": "Data",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e5d4ed3a-52ac-9a74-7d5c-0cd9b3b43226",
       "longDescription": "",
       "shortDescription": "Discovery data anonymization of user and machine names",
@@ -225,6 +337,22 @@
       "longDescription": "",
       "shortDescription": "Portal performance and latency issues",
       "searchTags": "Performance;Latency",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f1e91e08-300c-3b53-d961-f5f15aacf0f9",
+      "longDescription": "",
+      "shortDescription": "Automated log streaming from various data sources with CAS Log collector",
+      "searchTags": "Log;Collector;Connect",
+      "category": "Log collector",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f397719e-5382-360f-8fd6-aeee0b1a5b19",
+      "longDescription": "",
+      "shortDescription": "Experiencing latency when performing specific actions or logging in, via Conditional Access App Control",
+      "searchTags": "latency;Performance;Investigate",
       "category": "Performance",
       "useInDiagnoseAndSolve": "true"
     },
