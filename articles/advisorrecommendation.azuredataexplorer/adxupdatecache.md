@@ -17,7 +17,7 @@
   "recommendationTypeId": "947a627a-532d-44f8-8e23-4f365a80a2ba",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('Publish').AzureAdvisor_ADX_UpdateCacheReco",
+    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('CustomerPublish').AzureAdvisor_ADX_UpdateCacheReco",
     "dataSource": "Kusto",
     "refreshInterval": "0.04:00:00"
   },
