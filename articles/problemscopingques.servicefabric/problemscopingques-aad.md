@@ -1,24 +1,22 @@
 <properties
-	pageTitle="ARM Template"
-	description="ARM Template"
+	pageTitle="AAD"
+	description="AAD Configuration"
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32690985, 32690986, 32690989, 32690994, 32690988, 32690990,
-32690984, 32690996, 32690982, 32690993"
+	supportTopicIds="32608940"
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-cluster-arm-template-sf"
+	articleId="problemscopingques-aad"
 	ownershipId="Compute_ServiceFabric"
 />
-# ARM Templates
+# AAD Configuration
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "ARM Templates",
-    "fileAttachmentHint": "Please attach the ARM template used to deploy the cluster as well as any relevant logs/screenshots.",
+    "title": "AAD Configuration",
     "formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
@@ -34,7 +32,15 @@
 			"watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
 			"required": true,
 			"useAsAdditionalDetails": true
-		}
+		},
+        {
+            "id": "failure_reason",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Authentication Failure",
+            "watermarkText": "Provide any error codes that appear when trying to access your cluster resource through AAD.",
+            "required": false
+        }
 	],
     "$schema": "SelfHelpContent"
 }

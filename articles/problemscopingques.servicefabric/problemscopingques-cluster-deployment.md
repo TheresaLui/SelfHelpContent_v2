@@ -1,18 +1,17 @@
 <properties
-	pageTitle="ARM Template"
-	description="ARM Template"
+	pageTitle="Cluster Deployment"
+	description="Cluster Deployment"
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32690985, 32690986, 32690989, 32690994, 32690988, 32690990,
-32690984, 32690996, 32690982, 32690993"
+	supportTopicIds="32690994"
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-cluster-arm-template-sf"
+	articleId="problemscopingques-cluster-deployment"
 	ownershipId="Compute_ServiceFabric"
 />
-# ARM Templates
+# Cluster Deployment
 ---
 {
     "resourceRequired": false,
@@ -34,7 +33,22 @@
 			"watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
 			"required": true,
 			"useAsAdditionalDetails": true
-		}
+		},
+        {
+            "id": "keyvault_region",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel":  "Is the Azure Key Vault where your certificate is stored located in the same region as your cluster?",
+            "watermarkText":  "Choose an option",
+            "dropdownOptions": [{
+                "value": "Yes",
+                "text": "Yes"
+            },{
+                "value": "No",
+                "text": "No"
+            }],
+            "required": false
+        }
 	],
     "$schema": "SelfHelpContent"
 }

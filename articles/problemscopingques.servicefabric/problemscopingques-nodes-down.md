@@ -1,23 +1,22 @@
 <properties
-	pageTitle="ARM Template"
-	description="ARM Template"
+	pageTitle="Cluster nodes down or stuck in disabling"
+	description="Cluster nodes down or stuck in disabling"
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32690985, 32690986, 32690989, 32690994, 32690988, 32690990,
-32690984, 32690996, 32690982, 32690993"
+	supportTopicIds="32690985, 32690986d"
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-cluster-arm-template-sf"
+	articleId="problemscopingques-nodes-down"
 	ownershipId="Compute_ServiceFabric"
 />
-# ARM Templates
+# Cluster nodes down or stuck in disabling
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "ARM Templates",
+    "title": "Cluster nodes down or stuck in disabling",
     "fileAttachmentHint": "Please attach the ARM template used to deploy the cluster as well as any relevant logs/screenshots.",
     "formElements": [{
 			"id": "problem_start_time",
@@ -34,6 +33,14 @@
 			"watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
 			"required": true,
 			"useAsAdditionalDetails": true
+		},
+        {
+			"id": "disabling_steps",
+			"order": 3,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Details",
+			"watermarkText": "If you were trying to disable the node, please list the steps that were taken to disable the node.",
+			"required": false
 		}
 	],
     "$schema": "SelfHelpContent"

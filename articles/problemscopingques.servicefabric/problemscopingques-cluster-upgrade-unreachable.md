@@ -1,23 +1,22 @@
 <properties
-	pageTitle="ARM Template"
-	description="ARM Template"
+	pageTitle="Upgrade Service Unreachable"
+	description="Upgrade Service Unreachable"
 	authors="peterpogorski"
 	ms.author="pepogors"
 	selfHelpType="ProblemScopingQuestions"
-	supportTopicIds="32690985, 32690986, 32690989, 32690994, 32690988, 32690990,
-32690984, 32690996, 32690982, 32690993"
+	supportTopicIds="32690991"
 	productPesIds="15842"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-cluster-arm-template-sf"
+	articleId="problemscopingques-cluster-upgrade-unreachable"
 	ownershipId="Compute_ServiceFabric"
 />
-# ARM Templates
+# Upgrade Service Unreachable
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": false,
-    "title": "ARM Templates",
+    "title": "Upgrade Service Unreachable",
     "fileAttachmentHint": "Please attach the ARM template used to deploy the cluster as well as any relevant logs/screenshots.",
     "formElements": [{
 			"id": "problem_start_time",
@@ -34,6 +33,14 @@
 			"watermarkText": "Provide additional information about your issue including any error messages you are seeing.",
 			"required": true,
 			"useAsAdditionalDetails": true
+		},
+        {
+			"id": "networking_rules",
+			"order": 3,
+			"controlType": "multilinetextbox",
+			"displayLabel": "Details",
+			"watermarkText": "Do you have any networking rules that block outbound traffic from the cluster?",
+			"required": false
 		}
 	],
     "$schema": "SelfHelpContent"
