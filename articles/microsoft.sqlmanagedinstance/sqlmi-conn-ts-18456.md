@@ -30,4 +30,4 @@ The reason for a login failure is indicated by the State code of the error.  How
 
 
 ## **Recommended Documents**
-[Login Errors with state and description](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error)
+- [Login Errors with state and description](https://docs.microsoft.com/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error)
