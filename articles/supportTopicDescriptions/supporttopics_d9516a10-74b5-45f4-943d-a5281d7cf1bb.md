@@ -65,6 +65,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "18094d03-12d5-0a69-ece4-6f45202fc038",
+      "longDescription": "",
+      "shortDescription": "Provision and use an Azure Cosmos DB account in Serverless mode",
+      "searchTags": "serverless",
+      "category": "Billing and Pricing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1a1e2a2b-ee61-b1fa-f230-57fb94694e04",
       "longDescription": "",
       "shortDescription": "Gremlin command is failing with an error, returning an unexpected result, or generating exceptions",
@@ -425,6 +433,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6363ad95-0069-d153-32d7-a1a921c16adf",
+      "longDescription": "",
+      "shortDescription": "Provision and use an Azure Cosmos DB account in Serverless mode",
+      "searchTags": "serverless",
+      "category": "Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "66142d93-1d96-4f44-3e6e-8652e0db2184",
+      "longDescription": "",
+      "shortDescription": "Requesting enabling changefeed for Mongo DB API accounts",
+      "searchTags": "mongo;mongodb;changefeed;change feed",
+      "category": "MongoDB",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6729d7fe-ea40-441c-9c1a-62d7372c7c60",
       "longDescription": "",
       "shortDescription": "Using Azure Functions triggers for Cosmos DB",
@@ -486,6 +510,14 @@
       "shortDescription": "How to create Stored Procedures, requirement for using Stored Procedures or if Stored Procedures are not behaving as expected",
       "searchTags": "sproc, stored procedure",
       "category": "Core (SQL)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "81c0ddce-14a2-3b90-9639-4ac12f8013b9",
+      "longDescription": "",
+      "shortDescription": "Issues with changing backup interval and retention period",
+      "searchTags": "backup;retention;retention policy;restore",
+      "category": "Backup and Restore",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -574,6 +606,14 @@
       "shortDescription": "High latency related issues for CRUD requests when using SDKs",
       "searchTags": "sdk, latency",
       "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "95bae313-257a-1d98-2ddf-f49674ec268d",
+      "longDescription": "",
+      "shortDescription": "Connection to Azure Cosmos DB is failing with authentication error or connection is failing with SSL errors",
+      "searchTags": "Gremlin;graph;authentication",
+      "category": "Gremlin",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -998,6 +1038,14 @@
       "shortDescription": "SDK is throwing an error or returning an unexpected result",
       "searchTags": "sdk",
       "category": "SDK (SQL API)",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f77570c2-38eb-eb0f-7edc-bf074167390c",
+      "longDescription": "",
+      "shortDescription": "Issues with Cosmos DB partitioning",
+      "searchTags": "partition;partitioning",
+      "category": "Core (SQL)",
       "useInDiagnoseAndSolve": "true"
     },
     {

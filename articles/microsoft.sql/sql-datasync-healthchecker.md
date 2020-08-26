@@ -31,34 +31,34 @@ If you run this test, please submit the results during case submission:
 2. Open a New Script window
 3. Paste the following in the script window (please note that except databases and credentials, the other parameters are optional):
 
-```
-$parameters = @{
-    ## Databases and credentials
-    # Sync metadata database credentials (Only SQL Authentication is supported)
-    SyncDbServer = '<!--$HealthCheckerSyncDBServer-->HealthCheckerSyncDBServer<!--/$HealthCheckerSyncDBServer-->.database.windows.net'
-    SyncDbDatabase = '<!--$HealthCheckerSyncDBDatabase-->HealthCheckerSyncDBDatabase<!--/$HealthCheckerSyncDBDatabase-->'
-    SyncDbUser = ''
-    SyncDbPassword = ''
+  ```
+    $parameters = @{
+        ## Databases and credentials
+        # Sync metadata database credentials (Only SQL Authentication is supported)
+        SyncDbServer = '<!--$HealthCheckerSyncDBServer-->HealthCheckerSyncDBServer<!--/$HealthCheckerSyncDBServer-->.database.windows.net'
+        SyncDbDatabase = '<!--$HealthCheckerSyncDBDatabase-->HealthCheckerSyncDBDatabase<!--/$HealthCheckerSyncDBDatabase-->'
+        SyncDbUser = ''
+        SyncDbPassword = ''
 
-    # Hub credentials (Only SQL Authentication is supported)
-    HubServer = '.database.windows.net'
-    HubDatabase = ''
-    HubUser = ''
-    HubPassword = ''
+        # Hub credentials (Only SQL Authentication is supported)
+        HubServer = '.database.windows.net'
+        HubDatabase = ''
+        HubUser = ''
+        HubPassword = ''
 
-    # Member credentials (Azure SQL DB or SQL Server)
-    MemberServer = ''
-    MemberDatabase = ''
-    MemberUser = ''
-    MemberPassword = ''
-    # set MemberUseWindowsAuthentication to $true in case you wish to use integrated Windows authentication (MemberUser and MemberPassword will be ignored)
-    MemberUseWindowsAuthentication = $false
-}
+        # Member credentials (Azure SQL DB or SQL Server)
+        MemberServer = ''
+        MemberDatabase = ''
+        MemberUser = ''
+        MemberPassword = ''
+        # set MemberUseWindowsAuthentication to $true in case you wish to use integrated Windows authentication (MemberUser and MemberPassword will be ignored)
+        MemberUseWindowsAuthentication = $false
+    }
 
-$scriptUrlBase = 'https://raw.githubusercontent.com/Microsoft/AzureSQLDataSyncHealthChecker/master'
-Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLDataSyncHealthChecker.ps1')).Content)) -ArgumentList $parameters
-#end
-```
+    $scriptUrlBase = 'https://raw.githubusercontent.com/Microsoft/AzureSQLDataSyncHealthChecker/master'
+    Invoke-Command -ScriptBlock ([Scriptblock]::Create((iwr ($scriptUrlBase+'/AzureSQLDataSyncHealthChecker.ps1')).Content)) -ArgumentList $parameters
+    #end
+  ```
 
 4. Set the parameters on the script: you need to set server names, database names, users, and passwords
 5. Run it

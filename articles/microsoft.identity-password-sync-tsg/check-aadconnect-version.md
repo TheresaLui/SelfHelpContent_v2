@@ -20,9 +20,9 @@
 For more information about Password Hash Sync, please refer to the Password Hash Sync introduction guide. 
 
 To check the version of AADConnect perform the following steps:
-* Open Control Panel / Programs / Programs and Features
-* The Version will be listed in the Version Column for Microsoft Azure AD Connect
+1. Open Control Panel / Programs / Programs and Features
+2. The Version will be listed in the Version Column for Microsoft Azure AD Connect
 
-## **Recommended Documents**
+## Recommended Documents
 
-* [Password Hash Sync introduction guide](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-phs)
+1. [Password Hash Sync introduction guide](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-phs)

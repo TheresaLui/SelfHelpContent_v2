@@ -18,10 +18,12 @@
 
 ## **Recommended Documents**
 
-* [Frequently Asked Questions](https://docs.microsoft.com/power-bi/service-gateway-personal-mode#frequently-asked-questions-faq)
-
 * [Troubleshooting the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-onprem-tshoot)
 
-* [On-premises data gateway support for Azure Analysis Services](https://azure.microsoft.com/blog/on-premises-data-gateway-support-for-azure-analysis-services/)
+* [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)
 
 * [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+
+* [Monitor and optimize on-premises data gateway performance](https://docs.microsoft.com/data-integration/gateway/service-gateway-performance)
+
+* [Adjust gateway performance based on server CPU](https://docs.microsoft.com/data-integration/gateway/service-gateway-performance-cpu)

@@ -1,7 +1,7 @@
 <properties
-  pagetitle="Long-term backup retention"
+  pagetitle="Long-term backup retention&#xD;"
   service="microsoft.sql"
-  resource="servers"
+  resource="managedinstances"
   ms.author="katmac"
   selfhelptype="Generic"
   supporttopicids="32637272"
