@@ -289,6 +289,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "38a9b5df-6f90-cfe6-a061-8691c1fcb5d5",
+      "longDescription": "",
+      "shortDescription": "Issues with Remote Desktop Gateway and Windows Remote Desktop Service (RDS)",
+      "searchTags": "RDS",
+      "category": "RDS",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "38acd653-fd62-c0d5-89c4-3e3dc4a13666",
       "longDescription": "",
       "shortDescription": "Issue with local accounts within the VM.",
