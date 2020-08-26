@@ -126,17 +126,10 @@
             "id": "problem_description",
             "order": 10,
             "controlType": "multilinetextbox",
-            "displayLabel": "Please provide additional context for the error message you are encountering.",
+            "displayLabel": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application. If available, include the client stack trace as well",
             "required": true,
             "useAsAdditionalDetails": true,
-            "watermarkText": "Always provide the full error text from the underlying client library (e.g., SqlClient), not the general error from your client application."
-        },
-        {
-            "id": "sqlexception_received_on_client",
-            "order": 20,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
-            "required": false
+            "watermarkText": "Obscure any personally identifiable information"
         },
         {
             "id": "driver_name",
