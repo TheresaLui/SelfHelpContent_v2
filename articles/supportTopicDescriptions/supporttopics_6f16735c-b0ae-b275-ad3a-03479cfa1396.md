@@ -657,6 +657,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "736766c9-319a-9ba6-3517-fed7c9cf7ad9",
+      "longDescription": "",
+      "shortDescription": "Questions about configuring Windows Remote Desktop Service (RDS) for a virtual machine running in Azure",
+      "searchTags": "RDS",
+      "category": "RDS",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "744bd4c7-3147-00a6-6c99-c368bc1e1bcd",
       "longDescription": "",
       "shortDescription": "Issues involving the importing or exporting of disks, including via a private link.",
