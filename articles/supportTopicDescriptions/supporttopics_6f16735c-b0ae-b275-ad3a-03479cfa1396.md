@@ -1465,6 +1465,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "fa660bf8-8e6e-5ca3-de97-3dcecfb2728d",
+      "longDescription": "",
+      "shortDescription": "Issues with connectivity using Windows Remote Desktop Service (RDS)",
+      "searchTags": "RDS",
+      "category": "RDS",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "fabe7798-6447-21d1-eec1-ff516a8b2716",
       "longDescription": null,
       "shortDescription": "Covers issues with decrypting a virtual disk",
