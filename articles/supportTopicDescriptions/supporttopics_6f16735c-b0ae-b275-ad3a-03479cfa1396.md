@@ -217,6 +217,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "272a4a7e-cf2b-e9ff-adf5-47f5fe54b24a",
+      "longDescription": "",
+      "shortDescription": "Issues with apps running on Windows Remote Desktop Service (RDS) ",
+      "searchTags": "RDS",
+      "category": "RDS",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "296a2f1f-4e0e-0a47-b057-408c061a7c58",
       "longDescription": null,
       "shortDescription": "Issue or question with deploying captured or generalized images",
