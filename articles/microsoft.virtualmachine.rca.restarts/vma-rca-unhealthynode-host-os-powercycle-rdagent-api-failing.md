@@ -26,7 +26,7 @@ This unexpected occurrence was caused by a platform initiated reboot when it was
 
      - Software layer: OS Kernel, Hypervisor
      - Hardware layer:  BIOS, Firmware
-     - Azure monitoring and diagnostics layer.
+     - Azure monitoring and diagnostics layer
 
 Additionally, Azure team is also investing in an effort to increase resiliency and improve VM availability.  [More information on improving Azure virtual machine resiliency](https://azure.microsoft.com/blog/improving-azure-virtual-machines-resiliency-with-project-tardigrade/)
 
