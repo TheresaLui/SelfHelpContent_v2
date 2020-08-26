@@ -24,9 +24,8 @@
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/clusters",
-  "recommendationFriendlyName": "Right-size Azure Data Explorer clusters for cost",
+  "recommendationFriendlyName": "Right-size ADX clusters for cost",
   "recommendationMetadataState": "Active",
-  "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
     "email": "aoaft@microsoft.com",
@@ -44,7 +43,7 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
   "description": "(PREVIEW) Right-size Azure Data Explorer clusters for optimal cost",
   "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which have low data capacity and CPU utilization. The recommended action to improve the cluster's performance is to scale down and/or scale in to the recommended cluster configuration shown.",

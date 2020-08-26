@@ -24,9 +24,8 @@
   "recommendationCategory": "Cost",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/clusters",
-  "recommendationFriendlyName": "Azure Data Explorer Unused cluster",
+  "recommendationFriendlyName": "ADX Unused cluster",
   "recommendationMetadataState": "Active",
-  "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
     "email": "aoaft@microsoft.com",
@@ -44,7 +43,7 @@
     "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
   "description": "(PREVIEW) Unused/Empty Azure Data Explorer clusters",
   "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which were provisioned more than 10 days ago from this recommendation generated date and found either completely empty or with no activity. The recommended action is to validate and consider deleting the empty or unused Azure Data Explorer clusters.",
