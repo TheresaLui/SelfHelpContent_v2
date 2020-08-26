@@ -10,10 +10,10 @@
     articleId="MissingMetricsLowSlo_9183A4AE-2FC7-4150-94BF-416B19C15359"
     diagnosticScenario="MissingMetricsLowSlo"
     selfHelpType="diagnostics"
-    supportTopicIds="32630435,32630434"
+    supportTopicIds="32630435,32630434,32630412"
     resourceTags=""
     productPesIds="13491"
-    cloudEnvironments="Public, Fairfax, MoonCake, usnat, ussec"
+    cloudEnvironments="Public, Fairfax, MoonCake, blackforest, usnat, ussec"
     ownershipId="AzureData_AzureSQLDB_Telemetry"
 />
 
@@ -21,7 +21,7 @@
 
 <!--issueDescription-->
 Metrics for database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** are missing due to by-design telemetry memory/CPU caps for Basic, S0, S1 and S2 databases. The database is active, but no metrics are being shown on the Azure Portal.
-<!--/issueDescription-->
+<!--/issueDescription--> 
 
 ## **Recommended Steps**
 

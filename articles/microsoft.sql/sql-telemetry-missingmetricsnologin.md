@@ -10,10 +10,10 @@
     articleId="MissingMetricsNoLogin_5319F4E2-A2DA-426D-B9D9-E6F321380252"
     diagnosticScenario="MissingMetricsNoLogin"
     selfHelpType="diagnostics"
-    supportTopicIds="32630435,32630434"
+    supportTopicIds="32630435,32630434,32630412"
     resourceTags=""
     productPesIds="13491"
-    cloudEnvironments="Public, Fairfax, MoonCake, usnat, ussec"
+    cloudEnvironments="Public, Fairfax, MoonCake, blackforest, usnat, ussec"
     ownershipId="AzureData_AzureSQLDB_Telemetry"
 />
 
