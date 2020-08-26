@@ -19,7 +19,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Issues linking Automation account
-Linking Automation account to Log Analytics workspace requires that both resources are placed in the same “Resource Group”.
+Linking Automation account to Log Analytics workspace requires that both resources are placed in the same "Resource Group".
 The Automation account and workspace link is created with the installation of *Automation & Control* solution in the workspace.
 ## **Recommended steps**
 To link an Automation account to a Log Analytics workspace, follow these steps:<br>
