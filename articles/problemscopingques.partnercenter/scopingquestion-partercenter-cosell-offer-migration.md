@@ -46,9 +46,13 @@
                 {
                     "value": "SaaS offer",
                     "text": "SaaS offer"
-                }
-            ],
-            "required": true
+                },
+	{
+		"value": "dont_know_answer",
+		"text": "Don't Know"
+	}
+                ],
+                "required": true
         },
         {
             "id": "offer_name",
