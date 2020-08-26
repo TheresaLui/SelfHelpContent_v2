@@ -96,14 +96,6 @@
                     "text": "-1: A network-related or instance-specific error has occurred..."
                 },
                 {
-                    "value": "Error_10928",
-                    "text": "10928: The [request | session] limit for the database is [value] and has been reached"
-                },
-                {
-                    "value": "Error_18456",
-                    "text": "18456: Login failed for user [user name]"
-                },
-                {
                     "value": "Error_40613",
                     "text": "40613: Database [database name] on server [server name] is not currently available"
                 },
