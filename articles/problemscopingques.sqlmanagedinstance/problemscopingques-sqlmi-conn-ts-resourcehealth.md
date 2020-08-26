@@ -97,7 +97,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
             "required": false,
-            "visibility": true,
+            "visibility": true
         }
     ]
 }
