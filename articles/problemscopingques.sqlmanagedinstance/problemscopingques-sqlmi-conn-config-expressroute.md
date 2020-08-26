@@ -27,7 +27,7 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
-        },        
+        },
         {
             "id": "source_details",
             "order": 3,
@@ -35,7 +35,7 @@
             "displayLabel": "Details about the source",
             "watermarkText": "Please provide details about the network configuration",
             "required": false
-        },        
+        },
         {
             "id": "problem_description",
             "order": 1000,
