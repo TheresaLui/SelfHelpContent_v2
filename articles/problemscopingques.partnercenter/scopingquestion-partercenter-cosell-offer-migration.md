@@ -60,7 +60,7 @@
             "controlType": "textbox",
             "displayLabel": "Offer Name",
             "watermarkText": "Please provide the offer name.",
-            "required": true
+            "required": false
         },
         {
             "id": "ocp_solution_id",
