@@ -1,23 +1,23 @@
 <properties
-    pageTitle="Other connectivity errors not listed"
-    description="Other connectivity errors not listed"
+    pageTitle="Connection timeouts"
+    description="Connection timeouts"
     service="microsoft.sql"
-    resource="servers"
-    authors="VMMicrosoft,subbu-kandhaswamy"
-    ms.author="vimahadi,subbuk"
+    resource="managedinstances"
+    authors="vitomaz-msft"
+    ms.author="vitomaz"
     displayOrder="1"
     selfHelpType="generic"
-    supportTopicIds="32745435,32746127"
-    productPesIds="13491,16259"
+    supportTopicIds="32746120"
+    productPesIds="16259"
     cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
-    resourceTags="servers, databases"
-    articleId="C5571A60-C9B3-4175-BC21-B8D3F3EFCB3C"
-    ownershipId="AzureData_AzureSQLDB_Availability"
+    resourceTags=""
+    articleId="sqlmi-conn-ts-connectiontimeouts"
+    ownershipId="AzureData_AzureSQLMI"
 />
 
-# Other connectivity errors not listed
+# Connection timeouts
 
-Connection problems can be caused by multiple reasons like reconfiguration, firewall settings, connection timeouts, login failures, resource limits, network specific issues and failure to apply best practices and guidelines during your client application design. If you are experiencing connection failures outside of the above scenarios then running the Connectivity Checker tool may help to narrow down the potential causes of failure.
+When you are experiencing **connection timeouts**, please ensure your application is using a login timeout of at least 15 seconds. Also confirm that the managed instance is not hitting the [limits](https://docs.microsoft.com/azure/azure-sql/managed-instance/resource-limits#service-tier-characteristics) of your selected service tier.
 
 ### **Azure SQL Connectivity Checker tool**
 
@@ -58,5 +58,5 @@ In order to run it you need to:
 
 ## **Recommended Documents**
 
-* [Troubleshoot connectivity issues](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database?WT.mc_id=pid:13491:sid:32745425/)<br>
-* [SQL Database error codes and corrective actions](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages?WT.mc_id=pid:13491:sid:32745425/)<br>
+* [Troubleshoot connectivity issues](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database/)<br>
+* [SQL Database error codes and corrective actions](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages/)<br>
