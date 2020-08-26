@@ -37,7 +37,7 @@ An established connection to SQL Managed Instance may be unexpectedly terminated
     - SSMS 18.0 or higher
     - SMO 150 or higher
 - The Azure SQL DB gateway terminate sessions that are idle for longer than 30 minutes.  This frequently impacts pooled, idle connections.  Switch the [connection type](https://docs.microsoft.com/azure/azure-sql/managed-instance/connection-types-overview) for your server from **proxy** to **redirect**, which bypasses the gateway once connected, eliminating this issue.
-- The Microsoft JDBC driver and some other third party drivers don't enable TCP KeepAlive, which causes the TCP network layer to drop the connection after a certain idle period.  Verify that you have the latest client drivers installed and that the driver enables [KeepAlive](https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-an-azure-sql-database?view=sql-server-ver15#connections-dropped).
+- The Microsoft JDBC driver and some other third party drivers don't enable TCP KeepAlive, which causes the TCP network layer to drop the connection after a certain idle period.  Verify that you have the latest client drivers installed and that the driver enables [KeepAlive](https://docs.microsoft.com/sql/connect/jdbc/connecting-to-an-azure-sql-database?view=sql-server-ver15#connections-dropped).
 - Make sure that all production applications have robust [retry logic](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues#retry-logic-for-transient-errors) to handle dropped connections and transient errors.
 
 
