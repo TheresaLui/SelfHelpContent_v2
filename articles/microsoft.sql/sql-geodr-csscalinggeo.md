@@ -16,16 +16,17 @@
 
 # Scaling a Geo Replicated Database
 
-## Scaling Geo Replicated database
-* You can upgrade or downgrade a primary database i to a different compute size (within the same service tier, not between General Purpose and Business Critical) without disconnecting any secondary databases.
+## **Recommended Steps**
 
-* When upgrading, we recommend that you upgrade the secondary database first, and then upgrade the primary.
+### Scaling Geo Replicated database
 
-* When downgrading, reverse the order: downgrade the primary first, and then downgrade the secondary. When you upgrade or downgrade the database to a different service tier, this recommendation is enforced
-
+* You can upgrade or downgrade a primary database i to a different compute size (within the same service tier, not between General Purpose and Business Critical) without disconnecting any secondary databases
+* When upgrading, we recommend that you upgrade the secondary database first, and then upgrade the primary
+* When downgrading, reverse the order: downgrade the primary first, and then downgrade the secondary. When you upgrade or downgrade the database to a different service tier, this recommendation is enforced.
 * The primary database in a failover group can't scale to a higher tier unless the secondary database is first scaled to the higher tier. If you try to scale the primary database before the secondary database is scaled, you might receive the error:  *The source database 'Primaryserver.DBName' cannot have higher edition than the target database 'Secondaryserver.DBName'. Upgrade the edition on the target before upgrading the source.*
 
 **Scaling geo secondary database that is part of Failover Group**
+
 * If you created secondary database as part of the failover group configuration it is not recommended to downgrade the secondary database. This is to ensure your data tier has sufficient capacity to process your regular workload after failover is activate.
 
 ## **Recommended Documents**
