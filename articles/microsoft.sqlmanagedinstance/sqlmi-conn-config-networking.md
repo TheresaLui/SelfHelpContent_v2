@@ -17,9 +17,7 @@
 
 # How to questions: Network settings
 
-Before your computer can access an Azure SQL Managed Instance, you may need allow access on some TCP ports.
-
-**Network Settings**: The connectivity settings are accessible from SQL Managed Instance > Networking, and configuring will apply to all databases in the instance.
+**Network Settings**: Some connectivity settings are accessible from SQL Managed Instance > Networking, and configuring will apply to all databases in the managed instance.
 
  - **Public Endpoint** - Use to enable data access for clients outside of the connected virtual networks. Public endpoint will always default to Proxy connection mode. Learn how to [configure public endpoint](https://docs.microsoft.com/azure/azure-sql/managed-instance/public-endpoint-configure) or [use Azure SQL Managed Instance securely with public endpoints](https://docs.microsoft.com/azure/azure-sql/managed-instance/public-endpoint-overview).
 
@@ -34,7 +32,7 @@ Before your computer can access an Azure SQL Managed Instance, you may need allo
 **TCP Ports**: Port 1433 for private networks and port 3342 for public connection are the only ports that must be open on your computer that hosts the client application to SQL Managed Instance, when you are connecting using **Proxy** connection type. However, to make connections using **Redirect** connection type 
 you must additionally open firewalls and Network Security Groups (NSG) to allow access on ports 11000-11999 as well.
 
-**Firewalls**: The Azure SQL Managed Instance mandatory inbound security rules require management ports 9000, 9003, 1438, 1440, and 1452 to be open from Any source on the Network Security Group (NSG) that protects SQL Managed Instance. Although these ports are open at the NSG level, they are protected at the network level by the built-in firewall. You can [verify these ports](https://docs.microsoft.com/azure/azure-sql/managed-instance/management-endpoint-verify-built-in-firewall) using any security scanner tool. 
+**Firewalls**: Azure SQL Managed Instance does not have IP-based firewall like Azure SQL Database. The access to SQL Managed Instance is controlled via Network Security Groups (NSG). See [allow public endpoint traffic on the network security group](https://docs.microsoft.com/azure/azure-sql/managed-instance/public-endpoint-configure#allow-public-endpoint-traffic-on-the-network-security-group) for an example on how to add rules to a NSG.
 
 ## **Recommended Documents**
 
