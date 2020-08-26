@@ -633,6 +633,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "6e11612e-05ee-0c14-bc3c-78fe46db75e1",
+      "longDescription": "",
+      "shortDescription": "Assistance with configuring Windows Remote Desktop Service (RDS) for a virtual machine running in Azure",
+      "searchTags": "RDS",
+      "category": "RDS",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6fa2b14c-d769-1357-43f0-7c1d3d34b4f8",
       "longDescription": "",
       "shortDescription": "Assistance with the management of Azure Window Virtual Desktop",
