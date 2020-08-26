@@ -113,6 +113,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "0fdaae12-46cc-098a-a3af-0ec5cbb14ac4",
+      "longDescription": "",
+      "shortDescription": "Questions regarding licenses for Windows Remote Desktop Service (RDS)",
+      "searchTags": "RDS",
+      "category": "RDS",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0ff542fa-5338-ba24-2e2d-00200b837667",
       "longDescription": null,
       "shortDescription": "Covers issues with Azure Custom Script (CSE) extension using Managed Identity extension",
