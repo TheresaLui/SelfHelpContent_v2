@@ -61,9 +61,10 @@ Ensure that you have whitelisted  the required [URLs](https://docs.microsoft.com
 
 Ensure that the Azure user account used to register the appliance has at least the Contributor role on the subscription. You can check for the required Azure roles and permissions [here](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure).
 
-**I am unable to see the list of customer subscriptions in the Subscriptions drop-down, when logged in using my CSP credentials on the appliance**
+**I am getting issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
-Currently, listing of the customer subscriptions managed by a CSP partner is not supported. To register the appliance with an Azure Migrate project in a customer subscription, you need to log in with Azure user account from the customer's tenant to see their subscription(s) in the drop-down.
+1. Ensure that you have copied the correct key from the project. To check, click on **Discover** on the **Server Assessment** card in your project and then click on **Manage Existing appliance** in Step 1. Select the appliance name (for which you generated a key previously) from the drop-down and copy the corresponding key.
+2. Ensure that you are pasting the key to the appliance of the right cloud type (Public/ US Gov) and scenario type (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
 
 ### Issues in adding vCenter Server
 
