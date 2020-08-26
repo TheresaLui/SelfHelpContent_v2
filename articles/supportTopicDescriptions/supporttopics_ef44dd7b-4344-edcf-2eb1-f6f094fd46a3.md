@@ -112,7 +112,7 @@
     {
       "id": "480ecc95-0232-126a-350c-3560e49199b2",
       "longDescription": "",
-      "shortDescription": "Issues related to project lifecycle, Hub and dashboard must be filed here.",
+      "shortDescription": "Issues related to Hub and project creation or deletion to be filed here.",
       "searchTags": "hub;dashboard;project",
       "category": "Tool",
       "useInDiagnoseAndSolve": "true"
