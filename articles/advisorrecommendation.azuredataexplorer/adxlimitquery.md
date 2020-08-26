@@ -19,7 +19,7 @@
     "schemaVersion": 2.0,
     "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('CustomerPublish').AzureAdvisor_ADX_LimitQueryReco",
     "dataSource": "Kusto",
-    "refreshInterval": "0.04:00:00"
+    "refreshInterval": "0.08:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
