@@ -201,6 +201,10 @@
             "text": "3271: Backup fails due to TLS errors"
             },
             {
+            "value": "DatabaseBackupFailure_ContainerURL_Error_45207",
+            "text": "45207: A container URL was either not provided or invalid"
+            },
+            {
             "value": "DatabaseBackupFailure_1TB_ActiveLease_Error_412",
             "text": "412: Backup Files with active lease and show as 1 TB Size on storage account"
             },
