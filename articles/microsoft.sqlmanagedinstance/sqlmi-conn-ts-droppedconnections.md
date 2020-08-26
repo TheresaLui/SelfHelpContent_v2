@@ -17,7 +17,7 @@
 
 # Dropped connections, Communication link failure, Connection resets
 
-An established connection to SQL Database may be unexpectedly terminated for a variety of reasons.  This could be due to an issue within Azure (maintenance, user-initiated scaling, etc), network issues between the service and client application (including the Internet, internet service providers and on-premise network), or even the client application.  Error messages will vary depending on which client library is used by the application and what layer terminated the connection.  Some of the common errors are:
+An established connection to SQL Managed Instance may be unexpectedly terminated for a variety of reasons.  This could be due to an issue within Azure (maintenance, user-initiated scaling, etc), network issues between the service and client application (including the Internet, internet service providers and on-premise network), or even the client application.  Error messages will vary depending on which client library is used by the application and what layer terminated the connection.  Some of the common errors are:
 
 **Communication Link Failure**<br>
 
@@ -37,7 +37,7 @@ An established connection to SQL Database may be unexpectedly terminated for a v
     - SSMS 18.0 or higher
     - SMO 150 or higher
 - The Azure SQL DB gateway terminate sessions that are idle for longer than 30 minutes.  This frequently impacts pooled, idle connections.  Switch the [Connection type](https://docs.microsoft.com/azure/azure-sql/managed-instance/connection-types-overview) for your server from **proxy** to **redirect**, which bypasses the gateway once connected, eliminating this issue.
-- The Microsoft JDBC driver and some other third party drivers don't enable TCP KeepAlive, which causes the TCP network layer to drop the connection after a certain idle period.  Verify that you have the latest client drivers installed and that the driver enables [KeepAlive]https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-an-azure-sql-database?view=sql-server-ver15#connections-dropped).
+- The Microsoft JDBC driver and some other third party drivers don't enable TCP KeepAlive, which causes the TCP network layer to drop the connection after a certain idle period.  Verify that you have the latest client drivers installed and that the driver enables [KeepAlive](https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-an-azure-sql-database?view=sql-server-ver15#connections-dropped).
 - Make sure that all production applications have robust [retry logic](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues#retry-logic-for-transient-errors) to handle dropped connections and transient errors.
 
 
@@ -79,5 +79,5 @@ Because some of these errors involve network configuration, this client-side net
 
 ## **Recommended Documents**
 
-- [Troubleshooting connectivity issues with Azure SQL Database](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-errors-issues/)
-- [Common connectivity issues](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues/)<br>
+- [Troubleshooting connectivity issues and other errors](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-errors-issues/)
+- [Working with transient connectivity errors](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues/)

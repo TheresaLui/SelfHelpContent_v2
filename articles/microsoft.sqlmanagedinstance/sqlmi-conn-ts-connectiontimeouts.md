@@ -58,5 +58,5 @@ In order to run it you need to:
 
 ## **Recommended Documents**
 
-* [Troubleshoot connectivity issues](https://docs.microsoft.com/azure/sql-database/troubleshoot-connectivity-issues-microsoft-azure-sql-database/)<br>
-* [SQL Database error codes and corrective actions](https://docs.microsoft.com/azure/sql-database/sql-database-develop-error-messages/)<br>
+- [Troubleshooting connectivity issues and other errors](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-errors-issues/)
+- [Working with transient connectivity errors](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues/)
