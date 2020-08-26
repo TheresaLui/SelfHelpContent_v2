@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-* Not able to connect to Azure SQL DW from Databricks getting error similar to:
+* Not able to connect to Azure SQL DW using managed identity and ADLS from Databricks getting error similar to: 
     ```
     com.databricks.spark.sqldw.SqlDWSideException: SQL DW failed to execute the JDBC query produced by the connector.
     com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user ‘xxx’. ClientConnectionId: xxx [ErrorCode = 18456] [SQLState = S0001]
