@@ -7,7 +7,7 @@
     authors="rashmian"
     ms.author="rashmia"
     selfHelpType="generic"
-    articleId="insights-for-container-prometheus-integration"
+    articleId="insights-for-container-prometheus-permission"
     productPesIds="17083"
     supportTopicIds="32740219"
     cloudEnvironments="public, blackForest, fairfax,mooncake, usnat, ussec"
