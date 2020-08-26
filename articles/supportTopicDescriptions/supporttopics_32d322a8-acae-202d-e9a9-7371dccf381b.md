@@ -1008,8 +1008,8 @@
     {
       "id": "eeeb83f4-2cd4-c9b3-8a33-a3e964c92892",
       "longDescription": "",
-      "shortDescription": "Accessing Privileged Endpoint (PEP) sessions on Emergency Recovery Console Servers (ERCS)",
-      "searchTags": "ERCS;PEP;Administration",
+      "shortDescription": "Accessing Privileged Endpoint (PEP) sessions on Emergency Recovery Console Servers (ERCS), or using an Operator Access Workstation (OAW)",
+      "searchTags": "ERCS;PEP;Administration;OAW",
       "category": "Administration",
       "useInDiagnoseAndSolve": "false"
     },

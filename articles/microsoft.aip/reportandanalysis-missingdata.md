@@ -1,13 +1,13 @@
 <properties
-	pageTitle="Azure Information Service - Portal usage - Missing data on portal"
-	description="Azure Information Service - Portal usage - Missing data on portal"
+	pageTitle="Azure Information Service - Reporting and Analysis - Missing data on portal"
+	description="Azure Information Service - Reporting and Analysis - Missing data on portal"
 	service="microsoft.aip"
 	resource="aip"
 	authors="orbarak-ms"
 	ms.author="orbarak"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32727951"
+	supportTopicIds="32746034"
 	resourceTags=""
 	productPesIds="14997"
 	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
@@ -15,7 +15,7 @@
 	ownershipId="AzureIdentity_InformationProtection"
 />
 
-# Azure Information Protection service - Portal usage - Missing data on portal
+# Azure Information Protection service - Reporting and Analysis - Missing data on portal
 
 ## **Recommended Steps**
 
