@@ -1,11 +1,11 @@
 <properties
-    pageTitle="Right-size cost Azure Data Explorer (ADX) clusters."
-    description="Right-size cost Azure Data Explorer (ADX) clusters."
+    pageTitle="Right-size Azure Data Explorer (ADX) clusters."
+    description="Right-size Azure Data Explorer (ADX) clusters."
     authors="prvavill"
     ms.author="kustosee"
-    articleId="16456F6D-3FD8-425C-8CD4-E74DF6ABE514_Fairfax"
+    articleId="CBFA8153-0E0B-4FFD-B5A3-46DF10C57483_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Fairfax"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureDataExplorer_Kusto"
 />
 # The following ADX clusters have been identified as candidates for re-scaling
@@ -14,17 +14,17 @@
   "recommendationOfferingId": "f69180f4-2eea-4124-a08d-c8ab3663a249",
   "recommendationOfferingName": "Azure Data Explorer",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "4e13bb59-a859-45b5-ab5a-19363a34084e",
+  "recommendationTypeId": "da4d47d5-b48b-4308-93bc-29d954424e76",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://kustodataestate.usgovvirginia.kusto.usgovcloudapi.net').database('AdvisorRecommendations').PublishCostSkuChangeRecommendations",
+    "streamNamespace": "cluster('https://kustodataestate.chinaeast2.kusto.chinacloudapi.cn').database('AdvisorRecommendations').PublishPerformanceSkuChangeRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
   },
-  "recommendationCategory": "Cost",
+  "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Kusto/clusters",
-  "recommendationFriendlyName": "Right-size ADX clusters for cost",
+  "recommendationFriendlyName": "Right-size ADX cluster",
   "recommendationMetadataState": "Active",
   "recommendationScope": "Internal",
   "portalFeatures": [],
@@ -40,14 +40,14 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
-  "description": "(PREVIEW) Right-size Azure Data Explorer clusters for optimal cost",
-  "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which have low data capacity and CPU utilization. The recommended action to improve the cluster's performance is to scale down and/or scale in to the recommended cluster configuration shown.",
-  "potentialBenefits": "Optimize cost",
+  "learnMoreLink": "https://www.azure.cn/pricing/details/data-explorer/",
+  "description": "(PREVIEW) Right-size Azure Data Explorer clusters for optimal performance",
+  "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which exceed the recommended data capacity (80%). The recommended action to improve the cluster's performance is to scale to the recommended cluster configuration shown.",
+  "potentialBenefits": "Optimize performance",
   "actions": [
     {
-      "actionId": "9bdcbfa6-0dbf-4c48-9291-587251102c63",
-      "description": "Change your SKU to scale down",
+      "actionId": "2407eac0-6bd3-4f89-9d48-2c5e372a9366",
+      "description": "Change your SKU to scale up",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -58,7 +58,7 @@
     },
     {
       "actionId": "10c9bd8e-e88e-4e42-b1cd-069fa043857e",
-      "description": "Change your instance count to scale in",
+      "description": "Change your instance count to scale out",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -70,7 +70,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "216d3260-6c8c-4d41-93b4-702605a3a7e8",
+      "actionId": "2fad54ad-2907-4a6a-b5c2-180c726fa3e4",
       "actionType": "Blade",
       "extensionName": "HubsExtension",
       "bladeName": "ResourceMenuBlade",
@@ -101,7 +101,6 @@
       "name": "observationEndTime",
       "title": "Observation End Time"
     }
-  ],
-  "costSavingInfo": "*You can save up to the stated amount if you choose to scale down your SKU or scale in your instances. Your actual savings may vary."
+  ]
 }
 ---
