@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "567290c8-3a48-46d0-f683-f45fa3276a29",
+      "longDescription": "",
+      "shortDescription": "Setup or troubleshoot issues with Azure Arc Server connected Agent ",
+      "searchTags": "register azure arc server;failed to register arc server;connected agent failed;cannot install azure arc agent;uninstall azure arc server",
+      "category": "AzureArcServer",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "96fc8850-1b3e-f6e7-4c82-ecee20cfcd49",
       "longDescription": "",
       "shortDescription": "Create, uninstall Azure Arc enabled SQL Server Resource",
