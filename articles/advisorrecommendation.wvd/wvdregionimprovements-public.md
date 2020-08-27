@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Improve user experience and connectivity by deploying VMs closer to user's location."
-    description="Improve user experience and connectivity by deploying VMs closer to user's location."
+    pageTitle="Improve user experience and connectivity by deploying VMs closer to Windows Virtual Desktop deployment location."
+    description="Improve user experience and connectivity by deploying VMs closer to Windows Virtual Desktop deployment location."
     authors="marius"
     ms.author="rdinfra"
     articleId="d89829c9-dadf-4ddc-87d6-fd746debd5d3_Public"
