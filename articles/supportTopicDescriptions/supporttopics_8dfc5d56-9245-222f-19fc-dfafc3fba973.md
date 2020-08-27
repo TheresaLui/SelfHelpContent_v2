@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "08775c9d-e69d-04d2-ed76-cd4e3ab30d6f",
+      "longDescription": "",
+      "shortDescription": "Cannot see registered SQL instance on Azure Portal",
+      "searchTags": "sql arcee resource missing on portal;cannot see sql arc resource ;missing sql arc resource on portal;cannot view sql arc resouce;view sql arcee resource",
+      "category": "RegisterSQLArc",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "1da61d0e-11e2-4717-8220-ba7d76568a31",
       "longDescription": "",
       "shortDescription": "Issues with script failures for registering Azure Arc SQL resource",
