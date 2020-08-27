@@ -16,6 +16,7 @@ schemaVersion="1"
 # Agent is crashing
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "",

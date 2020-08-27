@@ -16,6 +16,7 @@ schemaVersion="1"
 # Agent running high memory or CPU
 ---
 {
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "",
