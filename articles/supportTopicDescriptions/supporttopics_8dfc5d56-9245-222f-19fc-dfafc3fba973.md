@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "317016aa-51ba-1d75-c4be-9fef2548abae",
+      "longDescription": "",
+      "shortDescription": "Configure and Manage SQL Assessment recommendations",
+      "searchTags": "sql assessment;fix recommendations;configure or manage assessments;setup sql assessments;Troubleshoot sql assessments",
+      "category": "SQLAssesments",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "567290c8-3a48-46d0-f683-f45fa3276a29",
       "longDescription": "",
       "shortDescription": "Setup or troubleshoot issues with Azure Arc Server connected Agent ",
