@@ -93,7 +93,7 @@ pageTitle="Partner Center Cosell offer migration"
          	"displayLabel":"Problem description",
          	"watermarkText":"Please describe specifically what your question is about.",
          	"useAsAdditionalDetails":true,
-         	"required":false
+         	"required":true
       }
 	]
 }
