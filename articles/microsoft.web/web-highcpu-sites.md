@@ -26,7 +26,7 @@ Watch these videos to learn more about troubleshooting High CPU Issues in Azure 
 * [How to identify and diagnose apps with high CPU: Part 2 - Azure App Service](https://youtu.be/2kewsEVn9I4)
 
 Here are some examples of CPU intensive operations that applications can perform. These can be resolved by avoiding these general patterns in your application:
- 
+
 * Nested loops with many iterations <br>
 * Storing large collections in memory and iterating through them in each request instead of using efficient search algorithms <br>
 * Complex math operations, large string manipulations, XML transforms <br>
