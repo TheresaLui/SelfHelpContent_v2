@@ -113,6 +113,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "0fdaae12-46cc-098a-a3af-0ec5cbb14ac4",
+      "longDescription": "",
+      "shortDescription": "Questions regarding licenses for Windows Remote Desktop Service (RDS)",
+      "searchTags": "RDS",
+      "category": "RDS",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0ff542fa-5338-ba24-2e2d-00200b837667",
       "longDescription": null,
       "shortDescription": "Covers issues with Azure Custom Script (CSE) extension using Managed Identity extension",
@@ -217,6 +225,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "272a4a7e-cf2b-e9ff-adf5-47f5fe54b24a",
+      "longDescription": "",
+      "shortDescription": "Issues with apps running on Windows Remote Desktop Service (RDS) ",
+      "searchTags": "RDS",
+      "category": "RDS",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "296a2f1f-4e0e-0a47-b057-408c061a7c58",
       "longDescription": null,
       "shortDescription": "Issue or question with deploying captured or generalized images",
@@ -271,6 +287,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "38a9b5df-6f90-cfe6-a061-8691c1fcb5d5",
+      "longDescription": "",
+      "shortDescription": "Issues with Remote Desktop Gateway and Windows Remote Desktop Service (RDS)",
+      "searchTags": "RDS",
+      "category": "RDS",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "38acd653-fd62-c0d5-89c4-3e3dc4a13666",
@@ -625,6 +649,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "6e11612e-05ee-0c14-bc3c-78fe46db75e1",
+      "longDescription": "",
+      "shortDescription": "Assistance with configuring Windows Remote Desktop Service (RDS) for a virtual machine running in Azure",
+      "searchTags": "RDS",
+      "category": "RDS",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6fa2b14c-d769-1357-43f0-7c1d3d34b4f8",
       "longDescription": "",
       "shortDescription": "Assistance with the management of Azure Window Virtual Desktop",
@@ -655,6 +687,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "736766c9-319a-9ba6-3517-fed7c9cf7ad9",
+      "longDescription": "",
+      "shortDescription": "Questions about configuring Windows Remote Desktop Service (RDS) for a virtual machine running in Azure",
+      "searchTags": "RDS",
+      "category": "RDS",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "744bd4c7-3147-00a6-6c99-c368bc1e1bcd",
@@ -1439,6 +1479,14 @@
       "searchTags": "",
       "category": "Management",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "fa660bf8-8e6e-5ca3-de97-3dcecfb2728d",
+      "longDescription": "",
+      "shortDescription": "Issues with connectivity using Windows Remote Desktop Service (RDS)",
+      "searchTags": "RDS",
+      "category": "RDS",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "fabe7798-6447-21d1-eec1-ff516a8b2716",

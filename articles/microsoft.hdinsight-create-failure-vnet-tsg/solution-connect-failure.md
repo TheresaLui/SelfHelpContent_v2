@@ -23,8 +23,9 @@
 
 <!--/issueDescription-->
 
-Please follow recommended document to mitigate the issue:
+Please follow recommended documents to mitigate the issue:
 
-## Recommended documents
+## **Recommended documents**
 
-1. [FailedToConnectWithClusterErrorCode](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349523/FailedToConnectWithClusterErrorCode)
+* [FailedToConnectWithClusterErrorCode](https://supportability.visualstudio.com/AzureHDinsight/_wiki/wikis/AzureHDinsight/349523/FailedToConnectWithClusterErrorCode)
+* [HDInsight management IP addresses](https://docs.microsoft.com/azure/hdinsight/hdinsight-management-ip-addresses)
