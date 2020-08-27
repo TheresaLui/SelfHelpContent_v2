@@ -20,7 +20,7 @@
 ## **Recommended Documents**
 
 *[Azure Stack Hub services, plans, offers, quotas, and subscriptions overview](https://docs.microsoft.com/en-us/azure-stack/operator/service-plan-offer-subscription-overview)<br>
-*[Event Hubs quota limits] (https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-quota-types#event-hubs-quota-types)<br>
+*[Event Hubs quota limits](https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-quota-types#event-hubs-quota-types)<br>
 *[Manage quotas](https://docs.microsoft.com/en-us/azure-stack/operator/event-hubs-rp-manage#quotas)<br>
 *[Event hubs capacity planning](https://docs.microsoft.com/en-us/azure-stack/operator/event-hubs-rp-capacity-planning)
 
