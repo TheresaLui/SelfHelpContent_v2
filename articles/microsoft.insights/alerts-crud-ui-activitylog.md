@@ -30,6 +30,5 @@ If you are facing issues while trying to setup activity log alerts, please use t
 
 For viewing your alerts, you can go to [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-activity-log#azure-portal) and select the Alerts blade. From there, selecting "Manage alert rules" will take you to a listed view of all your configured alert rules. You can select an alert rule to open up more information about it. From this page, you can modify, enable/disable, and delete the alert rule.
 
-### Advisory and How-To
-
+### **Advisory and How-To**
 [![Monitoring Video](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/alerts/how-to-configure-an-alert-rule.png)](https://www.microsoft.com/videoplayer/embed/RE4tflw?autoplay=1)
