@@ -56,8 +56,8 @@ Most users are able to resolve their issues with SQL Server Replication using th
   **If you are having a slow performance restoring the database from URL,**
    <BR>
 
-   - Please follow the above basic checks.
-   - Many slow restore cases were fixed by  following the article [Slow Restore on disk with 4K Sector size](https://support.microsoft.com/help/4088193/slow-performance-on-restoring-compressed-backup-on-disk-with-4k-sector)
+   - Please follow the above basic checks
+   - Many slow restore cases were fixed by following the article [Slow Restore on disk with 4K Sector size](https://support.microsoft.com/help/4088193/slow-performance-on-restoring-compressed-backup-on-disk-with-4k-sector)
    - We might have to check if the VM or disk is throttled affecting the restore performance. Quick way to work around is to resize the VM/Disk to the next size.
 
 ## **Recommended Documents**
