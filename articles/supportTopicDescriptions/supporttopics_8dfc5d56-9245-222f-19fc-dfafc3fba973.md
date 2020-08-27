@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5e73fafb-a097-a3a9-20d8-c734b6d7d438",
+      "longDescription": "",
+      "shortDescription": "Un-Register Azure Arc SQL resource from Azure Portal",
+      "searchTags": "remove sql resource;remove sql arcee;remove sql server arc;uninstall sql arc resource;delete sql azure arc",
+      "category": "ManageSQLArc",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "96fc8850-1b3e-f6e7-4c82-ecee20cfcd49",
       "longDescription": "",
       "shortDescription": "Create, uninstall Azure Arc enabled SQL Server Resource",
