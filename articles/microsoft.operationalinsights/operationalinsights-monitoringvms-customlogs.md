@@ -21,10 +21,10 @@ ownershipId="AzureMonitoring_LogAnalytics"
 # Custom logs and Data collector API
 
 GUIDs and Strings are functionally equivalent in the Log Analytics back end.
-While you may see an “_g” suffix for GUID fields, these GUIDs will be stored as a string data type. 
-While we apply several indexing optimizations specific to the GUID format behind the scenes, fundamentally being a string, these “_g” fields will have all the same capabilities as any other “_s” string field.
+While you may see an "_g" suffix for GUID fields, these GUIDs will be stored as a string data type.
+While we apply several indexing optimizations specific to the GUID format behind the scenes, fundamentally being a string, these "_g" fields will have all the same capabilities as any other "_s" string field.
 This is expected behaviour. To learn more about type interpolation in the Data Collector API.
 
 ## **Recommended Documents**
 
-* [Log data ingestion time in Azure Monitor](https://docs.microsoft.com/ azure/azure-monitor/platform/data-collector-api#record-type-and-properties)<br>
+* [Log data ingestion time in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-collector-api#record-type-and-properties)<br>
