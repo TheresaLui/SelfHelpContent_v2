@@ -25,6 +25,6 @@ In this article, you will learn how to submit, run, and debug Azure ML pipelines
 * [Some notes about caching and reuse](https://docs.microsoft.com/azure/machine-learning/how-to-create-your-first-pipeline#caching--reuse)
 * [Running a published pipeline - Python SDK](https://docs.microsoft.com/azure/machine-learning/how-to-create-your-first-pipeline#run-a-published-pipeline)
 * [Submitting a job to a pipeline endpoint - Python SDK](https://docs.microsoft.com/azure/machine-learning/how-to-create-your-first-pipeline#submit-a-job-to-a-pipeline-endpoint)
-* [Debug and troubleshoot machine learning pipelines](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-debug-pipelines)
-* [Debug and troubleshoot ParallelRunStep](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-debug-parallel-run-step)
+* [Debug and troubleshoot machine learning pipelines](https://docs.microsoft.com/azure/machine-learning/how-to-debug-pipelines)
+* [Debug and troubleshoot ParallelRunStep](https://docs.microsoft.com/azure/machine-learning/how-to-debug-parallel-run-step)
 
