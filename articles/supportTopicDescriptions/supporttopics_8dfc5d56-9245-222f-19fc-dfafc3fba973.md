@@ -35,6 +35,14 @@
       "searchTags": "create sql arc resource;uninstall sql resource;create azure arc sql;manage sql arc resource;remove sql arc ",
       "category": "ManageSQLArc",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d1fdea6e-6ea7-acc3-4076-5f37f1fca236",
+      "longDescription": "",
+      "shortDescription": "Cannot detect SQL instance on my machine when you run registration script",
+      "searchTags": "registration script fails;cannot detect sql instance;cannot register sql with arc;multiple sql instances;how to register sql instance",
+      "category": "RegisterSQLArc",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
