@@ -27,6 +27,14 @@
       "searchTags": "Register sql resource;sql arcee;create sql resource;sql resource script;sql server arc ",
       "category": "ManageSQLArcee",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "96fc8850-1b3e-f6e7-4c82-ecee20cfcd49",
+      "longDescription": "",
+      "shortDescription": "Create, uninstall Azure Arc enabled SQL Server Resource",
+      "searchTags": "create sql arc resource;uninstall sql resource;create azure arc sql;manage sql arc resource;remove sql arc ",
+      "category": "ManageSQLArc",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
