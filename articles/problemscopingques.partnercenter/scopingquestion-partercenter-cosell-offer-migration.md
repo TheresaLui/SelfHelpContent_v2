@@ -76,7 +76,7 @@
             "controlType": "textbox",
             "displayLabel": "URL for Marketplace listing",
             "watermarkText": "Please enter the URL from Microsoft AppSource or Azure Marketplace.",
-            "required": false
+            "required": true
         },
         {
             "id": "problem_description",
