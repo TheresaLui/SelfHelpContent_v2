@@ -10,7 +10,7 @@
 	supportTopicIds="32583701"
 	resourceTags=""
 	productPesIds="14748"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
+	cloudEnvironments="public, Fairfax, usnat, ussec, BlackForest, MoonCake"
 	articleId="abbda638-0267-4223-b95b-f35e9a35dde1"
 	ownershipId="Compute_AppService"
 />
@@ -23,7 +23,7 @@ To troubleshoot a high CPU issue, we recommend the use of the **"Diagnose and so
 
 Watch these videos to learn more about troubleshooting High CPU Issues in Azure App Service
 * [How to identify and diagnose apps with high CPU: Part 1 - Azure App Service](https://youtu.be/tavdGmIX0xg)
-* [How to identify and diagnose apps with high CPU: Part 1 - Azure App Service](https://youtu.be/2kewsEVn9I4)
+* [How to identify and diagnose apps with high CPU: Part 2 - Azure App Service](https://youtu.be/2kewsEVn9I4)
 
 Here are some examples of CPU intensive operations that applications can perform. These can be resolved by avoiding these general patterns in your application: 
  
