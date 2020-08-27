@@ -21,4 +21,4 @@
 
 ## **Recommended Documents**
 
-* [Migrate subscriptions and storage accounts associated with StorSimple Device Manager service](https://docs.microsoft.com/en-us/azure/storsimple/storsimple-8000-migrate-classic-azure-portal)<br>
+* [Migrate subscriptions and storage accounts associated with StorSimple Device Manager service](https://docs.microsoft.com/azure/storsimple/storsimple-8000-migrate-classic-azure-portal)<br>
