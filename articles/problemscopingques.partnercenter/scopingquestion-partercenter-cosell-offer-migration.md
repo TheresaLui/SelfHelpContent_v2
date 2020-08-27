@@ -85,7 +85,7 @@
             "displayLabel": "Details",
             "watermarkText": "Please describe specifically what your question is about.",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": false
         },
         {
             "id": "problem_start_time",
