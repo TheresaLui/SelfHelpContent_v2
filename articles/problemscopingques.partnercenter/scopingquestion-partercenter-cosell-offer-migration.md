@@ -73,7 +73,7 @@
         {
             "id": "url_for_marketplace_listing",
             "order": 4,
-            "controlType": "textbox",
+            "controlType": "multilinetextbox",
             "displayLabel": "URL for Marketplace listing",
             "watermarkText": "Please enter the URL from Microsoft AppSource or Azure Marketplace.",
             "required": true
