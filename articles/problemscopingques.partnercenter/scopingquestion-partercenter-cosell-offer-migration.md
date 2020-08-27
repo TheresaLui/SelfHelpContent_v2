@@ -84,8 +84,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Please describe specifically what your question is about.",
-            "required": true,
-            "useAsAdditionalDetails": false
+            "required": false,
+            "useAsAdditionalDetails": true
         },
         {
             "id": "problem_start_time",
