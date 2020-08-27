@@ -19,16 +19,15 @@
 
 ## **Recommended Steps**
  
-- Ensure replication appliance is configured on a different machine to the one used for Azure Migrate discovery and assessment.
-
-- Ensure replication appliance is not configured on source machine to be replicated.
+- Ensure replication appliance is configured on a different machine to the one used for Azure Migrate discovery and assessment
+- Ensure replication appliance is not configured on source machine to be replicated
 
 ### ***Installation issues with Mobility Agent***
 	
 Mobility agent installation is not supported on machines that have secure boot enabled. Disable the secure boot and try to install the agent.
 
 - Check if installation failed due to missing OS updates. [Learn more](https://go.microsoft.com/fwlink/?linkid=2141033)
--	Check if installation failed due to insufficient boot space on Linux VMs. [Learn more](https://go.microsoft.com/fwlink/?linkid=2140828)
+- Check if installation failed due to insufficient boot space on Linux VMs. [Learn more](https://go.microsoft.com/fwlink/?linkid=2140828)
 
 ### **Configuration Server registration failing due to permissions (requires admin approval)**
 
@@ -37,9 +36,7 @@ If you are deploying the replication appliance on VMware using the .ova template
 If you are unable to consent to the necessary permissions, you can do one of the following:
 
 - You can ask your tenant admin to provide all users in the tenant the ability to consent to delegate permissions
-
 - You can ask your tenant admin to assign the 'Application Developer' role to you. [Learn more](https://go.microsoft.com/fwlink/?linkid=2140830)
-
 - You can ask your tenant admin to grant consent to the AAD application created by the replication appliance (the AAD application name is displayed when admin approval is requested
 
 If none of the above options are feasible, you can install the replication appliance software on a Windows Server 2016 machine using the software installer. [Prepare the replication appliance](https://go.microsoft.com/fwlink/?linkid=2141034) like you would for migration of physical servers. The registration experience for the installer based replication appliance doesn't register an AAD app and doesn't require the AAD roles/permissions referenced above.
