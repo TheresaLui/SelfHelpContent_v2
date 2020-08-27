@@ -79,6 +79,15 @@
             "required": true
         },
         {
+            "id": "problem_description",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Please describe specifically what your question is about.",
+            "useAsAdditionalDetails": true
+	    "required": false,
+        },
+        {
             "id": "problem_start_time",
             "order": 6,
             "controlType": "datetimepicker",
