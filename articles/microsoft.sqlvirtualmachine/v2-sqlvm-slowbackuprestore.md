@@ -62,5 +62,5 @@ Most users are able to resolve their issues with SQL Server Replication using th
 
 ## **Recommended Documents**
 * [Troubleshoot Slow backup and Restore](https://support.microsoft.com/help/224071/troubleshooting-sql-server-backup-and-restore-operations)
-* [Optimize Backup and Restore Performance](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/ms190954(v=sql.105)?redirectedfrom=MSDN)
+* [Optimize Backup and Restore Performance](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/ms190954(v=sql.105))
 
