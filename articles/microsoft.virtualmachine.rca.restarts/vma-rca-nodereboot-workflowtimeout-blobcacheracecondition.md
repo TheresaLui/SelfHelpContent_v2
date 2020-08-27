@@ -1,13 +1,13 @@
 <properties
 	pageTitle="VMA RCA"
-	description="RCA - Node Hang - VWorkflow timeout - Generic"
+	description="RCA - Node Reboot - VWorkflow timeout - Blob Cache Race Condition"
 	infoBubbleText="Found recent reboot. See details on the right."
 	service=""
 	resource=""
 	authors="NatErns"
 	ms.author="naterns"
 	displayOrder=""
-	articleId="UnexpectedVMReboot_Node_Hang_Workflow_Timeout_Generic"
+	articleId="VMA_RCA_NodeReboot_WorkflowTimeOut_BlobCacheRaceCondition"
 	diagnosticScenario="UnexpectedVMReboot"
 	selfHelpType="rca"
 	supportTopicIds=""
@@ -22,10 +22,11 @@
 We identified that your VM **<!--$vmname-->Virtual machine<!--/$vmname-->** became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)** and availability was restored at **<!--$EndTime--> EndTime <!--/$EndTime--> (UTC)**. This unexpected occurrence was caused by an Azure initiated host node reboot action. During these activities RDP and SSH connections to the VM, or requests to any other services running inside the VM, could have failed.
 <!--/issueDescription-->
 
-The host node reboot was triggered by our Azure monitoring systems detecting that the physical node was not successfully responding to VM operations. VMs that could be relocated to different, healthy nodes were automatically moved before the host node was rebooted.
-<br>
+We identified the host node where the VM was running was impacted due to a recently discovered platform issue.  The root cause was due to a rare race condition in the Azure storage component during routine cleanup associated with VM deallocation.  Our platform engineers have identified the required fixes for this issue and tracking them with priority to get them deployed.
 
-Our core platform engineers are currently working on the solution for this issue. To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.
+We apologize for any inconvenience this may have caused to you.
+
+Microsoft Azure Team
 <br>
 
 To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set.<br>
