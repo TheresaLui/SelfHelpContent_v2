@@ -75,6 +75,14 @@
       "searchTags": "registration script fails;cannot detect sql instance;cannot register sql with arc;multiple sql instances;how to register sql instance",
       "category": "RegisterSQLArc",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e4a60dc7-4349-d7cd-940f-898379d7484c",
+      "longDescription": "",
+      "shortDescription": "Configure and Manage Security Threats and Alerts",
+      "searchTags": "Security alerts;threats;manage alerts and threats;resolve security alerts and threats;setup security alerts and threats",
+      "category": "ManageADS",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
