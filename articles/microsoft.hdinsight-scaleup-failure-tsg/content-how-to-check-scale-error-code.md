@@ -1,21 +1,21 @@
 <properties
-	pageTitle="How to check CRUD error code"
-	description="How to check CRUD error code"
-	service=""
-	resource=""
-	authors="rimayber"
-	ms.author="rimayber"
+	pageTitle="How to check Scale error code"
+	description="How to check Scale error code"
+    service="Microsoft.HDInsight"
+    resource="Microsoft.HDInsight/clusters"
+	authors="Jacky-hdi"
+	ms.author="linjzhu"
 	displayOrder=""
 	selfHelpType="TSG_Content"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="fc5e8202-7ad7-4077-abed-c99a25099ea7"
+	articleId="f132b97b-eb53-4d67-84d5-e252452fde8a"
    	ownershipId="Centennial_CloudNet_LoadBalancer"
 />
 
-# How to check CRUD error code
+# How to check Scale error code
 
 Review and validate customer case:
 1. UserSubscriptionId
@@ -27,12 +27,12 @@ Run the below kusto query to get the error code with above information
 
 ```kusto
 
-IaasClusterCRUDEvent
+IaasClusterScaleEvent
 | where ClusterDnsName =~ "{ClusterDnsName}" and HdiDeploymentId =~ "{HdiDeploymentId}" and UserSubscriptionId =~ "{UserSubscriptionId}" 
 | where PreciseTimeStamp > datetime('{yyyy-mm-dd HH:MI:SS}') and PreciseTimeStamp < datetime('{yyyy-mm-dd HH:MI:SS}')
 | extend d=parse_json(ErrorInfoAsJson)
-| project PreciseTimeStamp, State, d[0]["ErrorCode"],ErrorInfoAsJson,InternalErrorMessage,IsUserError,IsSecureHadoop
+| project PreciseTimeStamp,State,ScaleOperation,ScaleFrom,RequestedScaleTo,ScaledTo,IsAutoscale,IsUserError,ErrorInfoAsJson,ScalingInternalErrorMessage,d[0]["ErrorCode"]
 
 ```
 
-> **NOTE**: ***ErrorInfoAsJson*** and ***InternalErrorMessage*** are also important information to troubleshoot
+> **NOTE**: ***ErrorInfoAsJson*** and ***ScalingInternalErrorMessage*** are also important information to troubleshoot
