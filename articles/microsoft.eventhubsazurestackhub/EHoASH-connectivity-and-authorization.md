@@ -11,7 +11,7 @@
     resourceTags=""
     productPesIds="16803"
     cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
-    articleId="EHoASH-connectivity-and-authorization"
+    articleId="EHoASH-connectivity-and-authorization.md"
 	ownershipId="AzureMessaging_Common"
 />
 
