@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3bc25095-f2bc-28e6-2930-24fc08cc2d01",
+      "longDescription": "",
+      "shortDescription": "Connect your SQL Server from On Premise, Azure or AWS to Azure Arc",
+      "searchTags": "register sql instance;register sql with arc;use sql arc resource with sql instance;detect sql instance with arc;deploy sql arc ",
+      "category": "RegisterSqlArc",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "567290c8-3a48-46d0-f683-f45fa3276a29",
       "longDescription": "",
       "shortDescription": "Setup or troubleshoot issues with Azure Arc Server connected Agent ",
