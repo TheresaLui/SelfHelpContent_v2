@@ -7,7 +7,7 @@
     ms.author="scotro"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32691199"
+    supportTopicIds="32691199,32743901"
     resourceTags=""
     productPesIds="14749,15571,15797,16454,16470"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -25,4 +25,3 @@
 * [Understanding how to delete resource groups and resources - Portal](https://docs.microsoft.com/azure/azure-resource-manager/manage-resources-portal#delete-resources)<br>
 * [Understanding how to delete resource groups and resources - Azure CLI](https://docs.microsoft.com/azure/azure-resource-manager/manage-resources-cli#delete-resources)<br>
 * [Overview of Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)
-
