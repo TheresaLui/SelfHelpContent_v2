@@ -76,7 +76,7 @@ pageTitle="Partner Center Cosell offer migration"
 			"controlType": "multilinetextbox",
 			"displayLabel": "OCP Solution ID",
 			"watermarkText": "Please provide the OCP Solution ID.",
-			"required": true
+			"required": false
 		},
 		{
 			"id": "problem_start_time",
