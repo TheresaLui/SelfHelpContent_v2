@@ -3,9 +3,9 @@
     description="Right-size cost Azure Data Explorer (ADX) clusters."
     authors="prvavill"
     ms.author="kustosee"
-    articleId="16456F6D-3FD8-425C-8CD4-E74DF6ABE514_Fairfax"
+    articleId="E3928E39-C27E-4DE2-8794-7157AAA94FE3_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Fairfax"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureDataExplorer_Kusto"
 />
 # The following ADX clusters have been identified as candidates for re-scaling
@@ -17,7 +17,7 @@
   "recommendationTypeId": "4e13bb59-a859-45b5-ab5a-19363a34084e",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "cluster('https://kustodataestate.usgovvirginia.kusto.usgovcloudapi.net').database('AdvisorRecommendations').PublishCostSkuChangeRecommendations",
+    "streamNamespace": "cluster('https://kustodataestate.chinaeast2.kusto.chinacloudapi.cn').database('AdvisorRecommendations').PublishCostSkuChangeRecommendations",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
   },
@@ -40,9 +40,9 @@
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
   "version": 1.0,
-  "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
+  "learnMoreLink": "https://www.azure.cn/pricing/details/data-explorer/",
   "description": "(PREVIEW) Right-size Azure Data Explorer clusters for optimal cost",
-  "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which have low data capacity and CPU utilization. The recommended action to improve the cluster's performance is to scale down and/or scale in to the recommended cluster configuration shown.",
+  "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which have low data capacity and CPU utilization. The recommended action to improve the cluster's performance is to scale down and/or scale in  to the recommended cluster configuration shown.",
   "potentialBenefits": "Optimize cost",
   "actions": [
     {
