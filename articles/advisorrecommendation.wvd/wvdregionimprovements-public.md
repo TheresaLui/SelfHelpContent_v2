@@ -35,7 +35,7 @@
     "serviceTreeId": "362c0db7-c08b-4471-93ef-c90effc930dd"
   },
   "ingestionClientIdentities": [],
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/virtual-desktop/connection-latency",
   "description": "Improve user experience and connectivity by deploying VMs closer to user’s location.",
   "longDescription": "We have determined that your VMs are located in a region different or far from where your users are connecting from, using WVD. This may lead to prolonged connection response times and will impact overall user experience on WVD. When creating VMs for your host pools, you should attempt to use a region closer to the user. Having close proximity ensures continuing satisfaction with the Windows Virtual Desktop service and a better overall quality of experience.",
@@ -66,12 +66,12 @@
   "displayLabel": "Deploy VMs to different region",
   "additionalColumns": [
     {
-      "name": "HostPoolRegion",
+      "name": "hostPoolRegion",
       "title": "Host Pool Region"
     },
     {
-      "name": "GatewayRegion",
-      "title": "Gayeway Region"
+      "name": "gatewayRegion",
+      "title": "Gateway Region"
     }
   ],
   "tip": "Use VMs from a region where users are located."
