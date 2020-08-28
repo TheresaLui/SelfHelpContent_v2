@@ -36,7 +36,7 @@ Information and resources about Microsoft Cloud and Customer Agreements.
 * [Microsoft Cloud Agreement customer acceptance confirmation Frequently Asked Questions](https://docs.microsoft.com/partner-center/confirm-consent)
 * [Microsoft Cloud Agreements by region and language](https://docs.microsoft.com/partner-center/agreements)
 
-Below are various amendments to Microsoft Cloud and Customer Agreements.
+Below are various amendments to Microsoft Cloud and Customer Agreements. Only Direct Bill Partners and Indirect Providers can download these files. Indirect resellers should consult with their Indirect Providers to get these files.
 
 * [Financial Services Amendment](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4m8dP)
 * [Data Processing Amendment for Argentina - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3P75X)
