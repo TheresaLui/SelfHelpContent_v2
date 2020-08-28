@@ -65,7 +65,7 @@ ownershipId="AzureMessaging_Common"
             "order": 6,
             "controlType": "radioButtonGroup",
             "displayLabel": "Have you uploaded your logs?",
-	    "infoBalloonText": "<a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview-tzl'>Diagnotics log collection</a>"
+	    "infoBalloonText": "<a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview-tzl'>Diagnotics log collection</a>",
             "radioButtonOptions": [{
                     "value": "Yes",
                     "text": "Yes"
