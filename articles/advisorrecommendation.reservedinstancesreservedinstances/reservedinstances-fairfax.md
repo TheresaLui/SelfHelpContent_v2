@@ -25,11 +25,11 @@
    "recommendationFriendlyName":"ReservedInstance",
    "recommendationMetadataState":"Active",
    "owner":{
-    "email": "aadevteam@microsoft.com",
+    "email": "aipuaedevs@microsoft.com",
     "icm": {
         "routingId": "MDM://AzureAdvisor",
-        "service": "Azure Advisor",
-        "team": "Azure Advisor"
+        "service": "Usage Alllocation Engine/UAE",
+        "team": "Usage Alllocation Engine/UAE"
     },
     "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
    },
