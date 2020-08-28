@@ -18,7 +18,7 @@
 	ownershipId="PartnerCenter_Payouts"
 />
 
-# All paid Office and SharePoint add-in subscriptions will be cancelled by September 30, 2020, and the Office sales reports will no longer be available on Partner Center after October 10, 2020.  **Save all your sales data** for record keeping before then.
+## All paid Office and SharePoint add-in subscriptions will be cancelled by September 30, 2020, and the Office sales reports will no longer be available on Partner Center after October 10, 2020.  **Save all your sales data** for record keeping before then.
 
 ## **Recommended Steps**
 
