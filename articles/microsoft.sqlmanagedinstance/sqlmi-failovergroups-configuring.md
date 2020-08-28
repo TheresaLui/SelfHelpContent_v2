@@ -17,7 +17,7 @@
 
 # Configuring or using failover groups
 
-You can [use auto-failover groups to enable transparent and coordinated failover of multiple databases](https://docs.microsoft.com/en-us/azure/azure-sql/database/auto-failover-group-overview?tabs=azure-powershell) in Azure SQL Managed Instance.
+You can [use auto-failover groups to enable transparent and coordinated failover of multiple databases](https://docs.microsoft.com/azure/azure-sql/database/auto-failover-group-overview?tabs=azure-powershell) in Azure SQL Managed Instance.
 
 The auto-failover group must be configured on the primary instance and will connect it to the secondary instance in a different Azure region. All databases in the instance will be replicated to the secondary instance.
 
