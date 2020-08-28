@@ -3,7 +3,7 @@
     description="Buy virtual machine reserved instances to save money over pay-as-you-go costs"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="84b1a508-fc21-49da-979e-96894f1665df_fairfax"
+    articleId="84b1a508-fc21-49da-979e-96894f1665df_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
 	ownershipId="RedisCache_RedisCache"
