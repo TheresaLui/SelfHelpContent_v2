@@ -31,7 +31,7 @@
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the version of the Event Hubs resource provider that you have installed?",
-	    "watermarkText": "Ex) Event Hubs 1.2008.0.0", 
+	    "watermarkText": "Ex) Event Hubs 1.2008.0.0",
             "required": false
         }
     ],
