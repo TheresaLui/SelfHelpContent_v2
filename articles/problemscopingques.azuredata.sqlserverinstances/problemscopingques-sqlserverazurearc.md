@@ -25,8 +25,7 @@
 			"controlType": "datetimepicker",
 			"displayLabel": "When did the problem begin?",
 			"required": true
-		}, 
-		{
+		}, {
 			"id": "arc_configuration",
 			"order": 2,
 			"controlType": "dropdown",
