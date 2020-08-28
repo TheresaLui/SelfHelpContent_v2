@@ -119,7 +119,7 @@
             "id": "clusterID",
             "order": 300,
             "controlType": "dropdown",
-            "displayLabel": "Cluster ID if the cluster is still running",
+            "displayLabel": "Cluster ID if the cluster is running",
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.HDInsight/clusters?api-version=2018-06-01-preview&$filter=resourceName%20eq%20'{resourcename}'",
                 "jTokenPath": "value",
