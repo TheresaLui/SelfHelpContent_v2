@@ -41,4 +41,4 @@ Other common connectivity issues can be related to network, firewall configurati
 ## **Recommended Steps**
 
 - [Troubleshooting connectivity issues and other errors with Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-errors-issues) 
-- [Work with transient errors](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues)
+- [Working with transient errors](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-connectivity-issues)

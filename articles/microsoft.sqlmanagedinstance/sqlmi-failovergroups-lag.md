@@ -24,4 +24,4 @@ Replication lag on secondary can occur due to combination of a heavy write workl
 
 ## **Recommended Documents**
 
-[Monitoring geo replication Lag](https://docs.microsoft.com/azure/azure-sql/database/active-geo-replication-overview#monitoring-geo-replication-lag)
+[Monitoring geo replication lag](https://docs.microsoft.com/azure/azure-sql/database/active-geo-replication-overview#monitoring-geo-replication-lag)
