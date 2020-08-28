@@ -18,14 +18,15 @@
 
 ## **Recommended Steps**
 
-Deleted Application Insight resources (component) and their data most often can be recovered but there are criteria that must be met:
-    1. The Application Insights component was deleted less than 30 days ago. You can check this in the **Azure Activity Logs** by searching for the operation name **Delete insights component**
-    1. The original subscription containing the deleted Application Insights component must still exist
-    1. The resource group that contained the deleted application insights component must exist. If the resource group does NOT exist, you can recreating a new resource group with the same name will be required.
+Deleted Application Insight resources (components) and their data most often can be recovered but there are criteria that must be met:
+  
+  1. The Application Insights component was deleted less than 30 days ago. You can check this in the **Azure Activity Logs** by searching for operation name **Delete insights component**
+  1. The original subscription containing the deleted Application Insights component must still exist
+  1. The resource group that contained the deleted application insights component must exist. If the resource group does NOT exist, recreating a new resource group with the same name will be required
 
-**IMPORTANT:** Do NOT create another Application Insights resource with the name of the deleted resource. The recovery will not be possible if another Application Insights resources was created with the name that matches previously deleted Application Insights resource.
+**IMPORTANT:** Do NOT create another Application Insights resource with the name of the deleted resource. The recovery will not be possible if another Application Insights resource was created with the name that matches previously deleted Application Insights resource.
 
-Continue forward with creation of the support ticket and a support engineer will help facilitate the recovery. Providing the name of the deleted component, the resource group name that contained it, and the subscription ID in the *Details* step of this process will help move the process along for you more quickly.
+Continue forward with creation of the support ticket and a support engineer will help facilitate the recovery. Please provide the name of the deleted component, the resource group that contained it, and the subscription ID in the *Details* step to help moving the process more quickly.
 
 ## **Recommended Documents**
 
