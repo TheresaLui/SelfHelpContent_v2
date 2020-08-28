@@ -1,24 +1,24 @@
 <properties
 pageTitle="Errors and Exceptions"
 description="Errors and Exceptions"
-service="microsoft.eventhubs"
-resource="errorsAndExceptions"
-authors="mksuni"
-ms.author="mksuni"
+service="microsoft.eventhub"
+resource="namespaces"
+authors="jafernan"
+ms.author="jafernan"
 displayOrder=""
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32689171,32689177,32689178,32689179,32689180"
 resourceTags=""
 productPesIds="16803"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="errors-and-issues"
+articleId="problemscopingques-eventhubsazurestackhub-errors-and-issues"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />
 # Errors and Issues
 ---
 {
-	"subscriptionRequired": true,
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Errors and Issues",
     "fileAttachmentHint": "",
@@ -28,6 +28,7 @@ schemaVersion="1"
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the Azure Stack build version you are using?",
+	    "watermarkText": "Azure Stack Hub 2005",
             "required": true
         },
         {
@@ -35,38 +36,35 @@ schemaVersion="1"
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the version of the Event Hubs resource provider that you have installed?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_errorMessageText",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the exact error message including call stack, Tracking Id and timestamp, if any",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_errorFrequency",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the frequency of the error(s)",
-            "required": true,
-            "useAsAdditionalDetails": true,
+            "required": false
         },
         {
             "id": "problem_uploadLogs",
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Have you initiated the upload of logs following the steps in Diagnotics log collection? https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-diagnostic-log-collection-overview-tzl?",
-            "required": true,
-            "useAsAdditionalDetails": true,
+            "required": false
         },
         {
             "id": "problem_sdkLanguage",
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the SDK language and version that you are using.",
-            "required": true,
-            "useAsAdditionalDetails": true,
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
