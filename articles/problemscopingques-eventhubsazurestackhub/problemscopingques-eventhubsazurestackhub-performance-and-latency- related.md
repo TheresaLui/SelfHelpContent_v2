@@ -42,8 +42,16 @@ schemaVersion="1"
         {
             "id": "problem_uploadLogs",
             "order": 3,
-            "controlType": "multilinetextbox",
+            "controlType": "radioButtonGroup",
             "displayLabel": "Have you initiated the upload of logs following the steps in [Diagnotics log collection](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview-tzl)?",
+            "radioButtonOptions": [{
+                    "value": "Yes",
+                    "text": "Yes"
+                }, {
+                    "value": "No",
+                    "text": "No"
+                }
+	    ],
             "required": false
         },
         {
