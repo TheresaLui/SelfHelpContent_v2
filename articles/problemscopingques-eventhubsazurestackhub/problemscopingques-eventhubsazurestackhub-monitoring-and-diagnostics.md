@@ -28,7 +28,7 @@ schemaVersion="1"
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the Azure Stack build version you are using?",
-	    "watermarkText": "Azure Stack Hub 2005",
+	    "watermarkText": "Ex) Azure Stack Hub 2005",
             "required": true
         },
         {
@@ -37,7 +37,7 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "displayLabel": "What is the version of the Event Hubs resource provider that you have installed?",
             "required": false
-        }    
+        }
     ],
     "$schema": "SelfHelpContent"
 }
