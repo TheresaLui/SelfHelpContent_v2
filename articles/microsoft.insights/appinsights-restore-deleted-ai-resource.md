@@ -9,7 +9,7 @@
     selfHelpType="generic"
     productPesIds="15693"
     supportTopicIds="32729601"
-    cloudEnvironments="public, Fairfax, mooncake, usnat, ussec"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     articleId="appinsights-restore-deleted-ai-resource"
     ownershipId="AzureMonitoring_ApplicationInsights"
 />
