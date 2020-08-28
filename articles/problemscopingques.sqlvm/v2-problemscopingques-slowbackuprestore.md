@@ -13,6 +13,7 @@
 # SQL Database Backup or Restore is Slow
 
 {
+  "$schema": "SelfHelpContent",
   "resourceRequired": false,
   "subscriptionRequired": false,
   "title": "SQL Database Backup or Restore is Slow.",
