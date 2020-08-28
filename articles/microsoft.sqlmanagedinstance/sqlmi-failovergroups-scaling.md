@@ -11,7 +11,7 @@
     productPesIds="16259"
     cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
     resourceTags=""
-    articleId="sqlmi-failovergroups-configuring"
+    articleId="sqlmi-failovergroups-scaling"
     ownershipId="AzureData_AzureSQLMI"
 />
 
