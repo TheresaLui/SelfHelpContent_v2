@@ -55,8 +55,8 @@ For the existing failover groups across different subscriptions and/or resource 
 **Read-write and read-only listeners**
 
 Read-write and read-only listeners are DNS CNAME records that points to the current primary's URL and secondary's URL. They are created automatically when the failover group is created and allows the workloads to transparently reconnect to the new primary/secondary when they changes after failover. 
-- The DNS CNAME record for the read-write listener URL is formed as `<fog-name>.zone_id.database.windows.net`.
-- The DNS CNAME record for the read-only listener URL is formed as `<fog-name>.zone_id.secondary.database.windows.net`.
+- The DNS CNAME record for the read-write listener URL is formed as `<fog-name>.<zone_id>.database.windows.net`.
+- The DNS CNAME record for the read-only listener URL is formed as `<fog-name>.secondary.<zone_id>.database.windows.net`.
 
 ## **Recommended Documents**
 

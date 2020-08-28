@@ -20,13 +20,13 @@
 **Read-write and read-only listeners**
 
 Read-write and read-only listeners are DNS CNAME records that points to the current primary's URL and secondary's URL. They are created automatically when the failover group is created and allows the workloads to transparently reconnect to the new primary/secondary when they changes after failover. 
-- The DNS CNAME record for the read-write listener URL is formed as `<fog-name>.zone_id.database.windows.net`.
-- The DNS CNAME record for the read-only listener URL is formed as `<fog-name>.zone_id.secondary.database.windows.net`.
+- The DNS CNAME record for the read-write listener URL is formed as `<fog-name>.<zone_id>.database.windows.net`.
+- The DNS CNAME record for the read-only listener URL is formed as `<fog-name>.secondary.<zone_id>.database.windows.net`.
 
 In certain service tiers, SQL Managed Instance supports the use of [read-only replicas](https://docs.microsoft.com/azure/azure-sql/database/read-scale-out) to load balance read-only query workloads using the capacity of one read-only replica and using the `ApplicationIntent=ReadOnly` parameter in the connection string. When you have configured a geo-replicated secondary, you can use this capability to connect to either a read-only replica in the primary location or in the geo-replicated location.
 
-- To connect to a read-only replica in the primary location, use `<fog-name>.zone_id.database.windows.net`.
-- To connect to a read-only replica in the secondary location, use `<fog-name>.secondary.zone_id.database.windows.net`.
+- To connect to a read-only replica in the primary location, use `<fog-name>.<zone_id>.database.windows.net`.
+- To connect to a read-only replica in the secondary location, use `<fog-name>.secondary.<zone_id>.database.windows.net`.
 
 **Connectivity issues to geo secondary database** 
 
