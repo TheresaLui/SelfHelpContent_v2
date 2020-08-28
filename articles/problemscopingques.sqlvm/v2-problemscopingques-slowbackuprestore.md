@@ -1,7 +1,6 @@
 <properties pageTitle="SQL Database Backup or Restore is Slow"
 	 description="SQL Database Backup or Restore is Slow"
-	 authors="ujpat,amamun"
-   ms.author="ujpat,amamun,vadeveka"
+         ms.author="ujpat,amamun,vadeveka"
 	 selfHelpType="problemScopingQuestions"
 	 supportTopicIds="32748893"
 	 productPesIds="14745,16342"
@@ -11,7 +10,7 @@
 	 ownershipId="AzureData_AzureSQLVM"
 />
 # SQL Database Backup or Restore is Slow
-
+---
 {
   "$schema": "SelfHelpContent",
   "resourceRequired": false,
