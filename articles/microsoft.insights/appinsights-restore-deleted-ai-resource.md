@@ -14,13 +14,14 @@
     ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
+# I need to restore an Application Insights resource that was accidentally deleted
+
 ## **Recommended Steps**
 
-### Deleted Application Insight resources (component) and their data most often can be recovered but there are criteria that must be met
-
-1. The Application Insights component was deleted less than 30 days ago. You can check this in the **Azure Activity Logs** by searching for the operation name **Delete insights component**
-2. The original subscription containing the deleted Application Insights component must still exist
-3. The resource group that contained the deleted application insights component must exist. If the resource group does NOT exist, you can recreating a new resource group with the same name will be required.
+Deleted Application Insight resources (component) and their data most often can be recovered but there are criteria that must be met:
+    1. The Application Insights component was deleted less than 30 days ago. You can check this in the **Azure Activity Logs** by searching for the operation name **Delete insights component**
+    1. The original subscription containing the deleted Application Insights component must still exist
+    1. The resource group that contained the deleted application insights component must exist. If the resource group does NOT exist, you can recreating a new resource group with the same name will be required.
 
 **IMPORTANT:** Do NOT create another Application Insights resource with the name of the deleted resource. The recovery will not be possible if another Application Insights resources was created with the name that matches previously deleted Application Insights resource.
 
