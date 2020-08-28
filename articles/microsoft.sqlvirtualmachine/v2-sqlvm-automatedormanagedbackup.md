@@ -2,7 +2,7 @@
   pagetitle="Automated backup or managed backup"
   service="microsoft.sqlvirtualmachine"
   resource="sqlvirtualmachines"
-  ms.author="amamun"
+  ms.author="amamun,ujpat"
   selfhelptype="Generic"
   supporttopicids="32740066"
   resourcetags="windowssql"
@@ -14,7 +14,7 @@
 
 ## **Recommended Steps**
 
-### Cannot enable Automated backup or managed backup
+**Cannot enable Automated backup or managed backup**
 
 If you cannot enable Automated backup or managed backup, please ensure following:
 
@@ -26,14 +26,14 @@ If you cannot enable Automated backup or managed backup, please ensure following
 - For SQL Server 2016/2017 versions, make sure "Allow Blob Public Access" disabled on Storage Account
 - SQL FCI, or multiple named instances do not offer SQL IaaS extension full mode and hence automated backup is not supported
 
-### Backup worked previously but is not working now
+**Backup worked previously but is not working now**
 
 If the automated backup or managed backup worked previously but is not working now, please ensure:
 
 - SQL Agent service is in automatic start mode and in started state. You may restart the SQL agent service. 
 - SQL Agent service account to be the same as SQL service account to check if it makes a difference
 
-### Known Issues
+**Known Issues**
 
 Please **apply the latest SQL Server patch to avoid any known issues** such as the following. **Latest cumulative update includes all previous fixes.**
 
