@@ -2,7 +2,7 @@
     pageTitle="I am getting Timeout errors"
     description="I am getting Timeout errors"
     service="microsoft.eventhub"
-    resource=""
+    resource="namespaces"
     ms.author="jafernan"
     authors="jafernan"
     displayOrder=""
@@ -10,7 +10,7 @@
     supportTopicIds="32689180"
     resourceTags=""
     productPesIds="16803"
-    cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="EHoASH-timeout-errors"
 	ownershipId="AzureMessaging_Common"
 />
