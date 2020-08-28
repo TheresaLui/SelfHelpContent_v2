@@ -2,7 +2,7 @@
     pageTitle="Connectivity and Authorization"
     description="I am having connectivity and authorization issues"
     service="microsoft.eventhub"
-    resource="connectivityandauthorization"
+    resource="namespaces"
     ms.author="jafernan"
     authors="jafernan"
     displayOrder=""
@@ -10,7 +10,7 @@
     supportTopicIds="32689177"
     resourceTags=""
     productPesIds="16803"
-    cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="EHoASH-connectivity-and-authorization.md"
 	ownershipId="AzureMessaging_Common"
 />
