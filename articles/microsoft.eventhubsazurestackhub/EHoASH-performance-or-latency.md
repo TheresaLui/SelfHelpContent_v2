@@ -2,7 +2,7 @@
     pageTitle="Performance or Latency related"
     description="I am having issues with performance or latency"
     service="microsoft.eventhub"
-    resource="eventhubs?"
+    resource="namespaces"
     ms.author="jafernan"
     authors="jafernan"
     displayOrder=""
@@ -10,7 +10,7 @@
     supportTopicIds="32689175"
     resourceTags=""
     productPesIds="16803"
-    cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="EHoASH-performance-or-latency"
 	ownershipId="AzureMessaging_Common"
 />
