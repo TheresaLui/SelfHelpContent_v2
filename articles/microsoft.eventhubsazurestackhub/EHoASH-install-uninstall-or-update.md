@@ -2,7 +2,7 @@
     pageTitle="Issues with Install, Uninstall, or Update"
     description="I am having issues with install, uninstall, or update"
     service="microsoft.eventhub"
-    resource="eventhubs?"
+    resource="namespaces"
     ms.author="jafernan"
     authors="jafernan"
     displayOrder=""
@@ -10,7 +10,7 @@
     supportTopicIds="32689173"
     resourceTags=""
     productPesIds="16803"
-    cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="EHoASH-install-uninstall-or-update"
 	ownershipId="AzureMessaging_Common"
 />
