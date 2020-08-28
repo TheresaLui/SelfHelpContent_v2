@@ -31,16 +31,16 @@
 
 * **Migrate Databases or Export Data from On Premise/Another Cloud to Azure VM**
 
- If you have a planned downtime to migrate your databases, then you can use the following options: 
+  If you have a planned downtime to migrate your databases, then you can use the following options: 
  
-  * [Backup](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url?redirectedfrom=MSDN&view=sql-server-ver15#complete)
+  * [Backup](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url?redirectedfrom=MSDN&view=sql-server-ver15#complete) using URL Feature
   * [Restore](https://docs.microsoft.com/sql/t-sql/statements/restore-statements-transact-sql?view=sql-server-ver15#Azure_Blob) using URL feature
   * [AzCopy tool](https://azure.microsoft.com/documentation/articles/storage-use-azcopy/)
   * [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/)
   * [Backup to Microsoft Azure Tool](https://blogs.technet.microsoft.com/dataplatforminsider/2014/07/24/get-started-backing-up-to-the-cloud-with-sql-server-backup-to-microsoft-azure-tool/) for SQL 2008/R2 version
   * [Azure Backup and Site Recovery](https://docs.microsoft.com/azure/backup/)
   
-  If you do not have a downtime and want to migrate your databases, then only option to go with is [Setting up a hybrid Always on](https://docs.microsoft.com/previous-versions/azure/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-sql-onprem-availability#add-azure-replica-wizard) group between your on prem and Azure and fail that over to Azure.  
+   If you do not have a downtime and want to migrate your databases, then only option to go with is [Setting up a hybrid Always on](https://docs.microsoft.com/previous-versions/azure/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-sql-onprem-availability#add-azure-replica-wizard) group between your on prem and Azure and fail that over to Azure.  
 
 * **Error 3271: Backup fails due to TLS or .Net with the error "Backup to URL received an exception from the remote endpoint"**
 
