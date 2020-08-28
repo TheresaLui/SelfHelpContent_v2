@@ -29,7 +29,7 @@ Each release of Microsoft software updates is bundled as a single update package
 
 **Known issues**
 
-* The 2002 update may fail and provide this error message: `The private network parameter is missing from cloud parameters. Please use set-azsprivatenetwork cmdlet to set private networkTrace`. For a solution, please review [Azure Stack Hub patch and updates issues](https://docs.microsoft.com/azure-stack/operator/azure-stack-troubleshooting#common-azure-stack-hub-patch-and-update-issues).  
+* The 2002 update may fail and provide this error message: `The private network parameter is missing from cloud parameters. Please use set-azsprivatenetwork cmdlet to set private networkTrace`. For a solution, please review [Azure Stack Hub patch and updates issues](https://docs.microsoft.com/azure-stack/operator/azure-stack-troubleshooting#2002-update-failed).  
 
 ## **Recommended Steps**
 
