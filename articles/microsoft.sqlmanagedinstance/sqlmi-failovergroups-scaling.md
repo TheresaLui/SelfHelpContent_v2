@@ -21,10 +21,9 @@ You can upgrade or downgrade a primary managed instance to a different compute s
 
 ## **Recommended Steps**
 
-- When upgrading, we recommend that you upgrade the secondary instance first, and then upgrade the primary. 
-
-- When downgrading, reverse the order: downgrade the primary first, and then downgrade the secondary.
+- When upgrading, we recommend that you upgrade the secondary instance first, and then upgrade the primary
+- When downgrading, reverse the order: downgrade the primary first, and then downgrade the secondary
 
 This sequence is recommended specifically to avoid the problem where the secondary at a lower SKU gets overloaded and must be re-seeded during an upgrade or downgrade process. You could also avoid the problem by making the primary read-only, at the expense of impacting all read-write workloads against the primary.
 
-- It is not recommended to downgrade the secondary instance, this is to ensure your data tier has sufficient capacity to process your regular workload after failover is activated.
+- It is not recommended to downgrade the secondary instance, this is to ensure your data tier has sufficient capacity to process your regular workload after failover is activated
