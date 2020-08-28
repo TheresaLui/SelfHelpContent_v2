@@ -64,7 +64,7 @@ ownershipId="AzureMessaging_Common"
             "id": "problem_uploadLogs",
             "order": 6,
             "controlType": "radioButtonGroup",
-            "displayLabel": "Have you initiated the upload of logs following the steps in [Diagnotics log collection](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview-tzl)?",
+            "displayLabel": "Have you initiated the upload of logs following the steps in <a href='https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview-tzl'>Diagnotics log collection</a>?",
             "radioButtonOptions": [{
                     "value": "Yes",
                     "text": "Yes"
