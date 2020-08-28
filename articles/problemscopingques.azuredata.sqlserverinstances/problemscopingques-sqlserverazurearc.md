@@ -31,7 +31,7 @@
 			"order": 2,
 			"controlType": "dropdown",
 			"infoBalloonText": "string",
-			"displayLabel": "Have you already configured Azure Arc Server Resource which is needed before you can install SQL Arc resouce?",
+			"displayLabel": "Have you already configured Azure Arc Server Resource, before you can install SQL Arc resouce?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "Yes",
