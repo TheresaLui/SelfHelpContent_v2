@@ -24,7 +24,7 @@
 
 After Oct 10, 2020, to request for historical sales data, follow the below steps:
 1. Continue on this page to file a support ticket, it's important that the support ticket is filed against this specific support topic to minimize the processing time 
-2. Provide the identifier for your add-in to make the request: either the GUID in the Partner Center product link or the the Office asset ID (starts with WA) included in the AppSource listing page link of your product
+2. Provide the identifier for your add-in to make the request: either the GUID in the Partner Center product link or the Office asset ID (starts with WA) included in the AppSource listing page link of your product
 3. If you need to request data for multiple products, you must provide the identifier for each one 
 4. Provide the date range for the data on the support ticket
 5. After the ticket is filed, dedicated operations team will pull the sales data requested 
