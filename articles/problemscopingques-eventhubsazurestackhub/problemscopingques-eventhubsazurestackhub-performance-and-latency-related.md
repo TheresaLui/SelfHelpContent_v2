@@ -13,7 +13,7 @@ productPesIds="16803"
 cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="problemscopingques-eventhubsazurestackhub-performance-and-latency- related"
 schemaVersion="1"
-	ownershipId="AzureMessaging_Common"
+ownershipId="AzureMessaging_Common"
 />
 # Performance and Latency Related
 ---
@@ -22,10 +22,17 @@ schemaVersion="1"
     "resourceRequired": true,
     "title": "Performance and Latency Related",
     "fileAttachmentHint": "",
-    "formElements": [    
+    "formElements": [
+        {
+	    "id": "problem_start_time",
+	    "order": 1,
+	    "controlType": "datetimepicker",
+	    "displayLabel": "When did the problem begin?",
+	    "required": true
+	},
         {
             "id": "problem_azureStackVersion",
-            "order": 1,
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the Azure Stack build version you are using?",
 	    "watermarkText": "Ex) Azure Stack Hub 2005",
@@ -33,15 +40,15 @@ schemaVersion="1"
         },
         {
             "id": "problem_eventHubsVersion",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the version of the Event Hubs resource provider that you have installed?",
-	    "watermarkText": "Ex) Event Hubs 1.2008.0.0", 
+	    "watermarkText": "Ex) Event Hubs 1.2008.0.0",
             "required": false
         },
         {
             "id": "problem_uploadLogs",
-            "order": 3,
+            "order": 4,
             "controlType": "radioButtonGroup",
             "displayLabel": "Have you initiated the upload of logs following the steps in [Diagnotics log collection](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview-tzl)?",
             "radioButtonOptions": [{
@@ -56,11 +63,20 @@ schemaVersion="1"
         },
         {
             "id": "problem_sdkLanguage",
-            "order": 4,
+            "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the SDK language and version that you are using.",
             "required": false
-        }
+        },
+	{
+	    "id": "problem_description",
+	    "order": 6,
+	    "controlType": "multilinetextbox",
+	    "displayLabel": "Details",
+	    "watermarkText": "Provide additional information about your incident.",
+	    "required": true,
+	    "useAsAdditionalDetails": true
+	}
     ],
     "$schema": "SelfHelpContent"
 }
