@@ -14,9 +14,9 @@
     ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
-# **Recommended Steps**
+## **Recommended Steps**
 
-## **Deleted Application Insight resources (component) and their data most often can be recovered but there are criteria that must be met**
+### Deleted Application Insight resources (component) and their data most often can be recovered but there are criteria that must be met
 
 1. The Application Insights component was deleted less than 30 days ago. You can check this in the **Azure Activity Logs** by searching for the operation name **Delete insights component**
 2. The original subscription containing the deleted Application Insights component must still exist
