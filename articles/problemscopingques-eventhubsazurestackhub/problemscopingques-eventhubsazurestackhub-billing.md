@@ -1,8 +1,8 @@
 <properties
 pageTitle="Billing Issues"
 description="Billing Issues"
-service="microsoft.eventhubs"
-resource="quotaChangeRequest"
+service="microsoft.eventhub"
+resource="namespaces"
 authors="jafernan"
 ms.author="jafernan"
 displayOrder=""
@@ -11,7 +11,7 @@ supportTopicIds="32689170"
 resourceTags=""
 productPesIds="16803"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="billing"
+articleId="problemscopingques-eventhubsazurestackhub-billing"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />
@@ -24,19 +24,20 @@ schemaVersion="1"
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "problem_description",
+            "id": "problem_azureStackVersion",
             "order": 1,
             "controlType": "multitextbox",
             "displayLabel": "What is the Azure Stack build version that you are using?",
+	    "watermarkText": "Ex) Azure Stack Hub 2005" 
             "required": true
         },
         {
-            "id": "problem_version",
+            "id": "problem_eventHubsVersion",
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the version of the Event Hubs resource provider that you have installed?",
             "required": false
-        },       
+        },
     ],
     "$schema": "SelfHelpContent"
 }
