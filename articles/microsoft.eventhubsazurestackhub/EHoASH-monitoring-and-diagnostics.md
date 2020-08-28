@@ -2,7 +2,7 @@
     pageTitle="Monitoring and Diagnostics related"
     description="I am having issues with monitoring and diagnostics"
     service="microsoft.eventhub"
-    resource="eventhubs?"
+    resource="namespaces"
     ms.author="jafernan"
     authors="jafernan"
     displayOrder=""
@@ -10,7 +10,7 @@
     supportTopicIds="32689174"
     resourceTags=""
     productPesIds="16803"
-    cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="EHoASH-monitoring-and-diagnostics"
 	ownershipId="AzureMessaging_Common"
 />
