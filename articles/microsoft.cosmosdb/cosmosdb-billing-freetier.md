@@ -30,7 +30,7 @@ As demand continues to grow, if we are faced with any capacity constraints in an
 
 However, you should be able to perform all operations against your existing Free Tier Azure Cosmos DB account.
 
-If possible, please consider choosing any of the regions from **East US, East US 2, West US, West US 2, South Central US, North Europe, West Europe, Brazil South, Canada Central, France Central, Korea South or Korea Central** for new deployments which do not have any restrictions as of now.
+If possible, please consider choosing any other region for new deployments which do not have any restrictions as of now.
 
 For further information, please review our [commitment and service continuity](https://azure.microsoft.com/blog/update-2-on-microsoft-cloud-services-continuity/).
 
