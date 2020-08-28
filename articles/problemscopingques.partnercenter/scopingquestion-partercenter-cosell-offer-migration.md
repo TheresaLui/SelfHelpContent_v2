@@ -76,7 +76,7 @@ pageTitle="Partner Center Cosell offer migration"
 			"controlType": "multilinetextbox",
 			"displayLabel": "URL for Marketplace listing",
 			"watermarkText": "Please enter the URL from Microsoft AppSource or Azure Marketplace.",
-			"required": true
+			"required": false
 		},
 		{
 			"id": "problem_start_time",
