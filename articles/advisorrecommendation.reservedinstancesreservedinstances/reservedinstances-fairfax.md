@@ -27,7 +27,7 @@
    "owner":{
     "email": "aipuaedevs@microsoft.com",
     "icm": {
-        "routingId": "MDM://AzureAdvisor",
+        "routingId": "routetoUAEteam",
         "service": "Usage Alllocation Engine/UAE",
         "team": "Usage Alllocation Engine/UAE"
     },
