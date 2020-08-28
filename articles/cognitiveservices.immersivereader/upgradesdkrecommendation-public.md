@@ -29,7 +29,7 @@
   "owner": {
     "email": "ltcrew@microsoft.com",
     "icm": {
-      "routingId": "MDM://CognitiveServices/ImmersiveReader",
+      "routingId": "mdm://adspartner/CogServ/ImmerReader",
       "service": "Cognitive Services",
       "team": "Immersive Reader"
     },
