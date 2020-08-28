@@ -19,8 +19,15 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
+	    "id": "problem_start_time",
+	    "order": 1,
+	    "controlType": "datetimepicker",
+	    "displayLabel": "When did the problem begin?",
+	    "required": true
+	},
+        {
             "id": "problem_azureStackVersion",
-            "order": 1,
+            "order": 2,
             "controlType": "multitextbox",
             "displayLabel": "What is the Azure Stack build version that you are using?",
 	    "watermarkText": "Ex) Azure Stack Hub 2005",
@@ -28,7 +35,7 @@
         },
         {
             "id": "problem_eventHubsVersion",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the version of the Event Hubs resource provider that you have installed?",
 	    "watermarkText": "Ex) Event Hubs 1.2008.0.0",
