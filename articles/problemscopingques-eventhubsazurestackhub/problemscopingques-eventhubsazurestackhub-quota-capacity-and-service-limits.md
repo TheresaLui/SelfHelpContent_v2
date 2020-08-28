@@ -1,8 +1,8 @@
 <properties
 pageTitle="Quotas, Capacity, and Service Limits Related"
 description="Quotas, Capacity, and Service Limits Related"
-service="microsoft.eventhubs"
-resource="QuotaCapacityAndServiceLimits"
+service="microsoft.eventhub"
+resource="namespaces"
 authors="jafernan"
 ms.author="jafernan"
 displayOrder=""
@@ -11,14 +11,14 @@ supportTopicIds="32689176"
 resourceTags=""
 productPesIds="16803"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="quota-capacity-and-service-limits"
+articleId="problemscopingques-eventhubsazurestackhub-quota-capacity-and-service-limits"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />
 # Quota, Capacity, and Service Limits Related
 ---
 {
-	"subscriptionRequired": true,
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Quota, Capacity, and Service Limits Related",
     "fileAttachmentHint": "",
@@ -28,6 +28,7 @@ schemaVersion="1"
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the Azure Stack build version you are using?",
+	    "watermarkText": "Ex) Azure Stack Hub 2005",
             "required": true
         },
         {
@@ -35,8 +36,8 @@ schemaVersion="1"
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the version of the Event Hubs resource provider that you have installed?",
-            "required": true
-        },        
+            "required": false
+        }       
     ],
     "$schema": "SelfHelpContent"
 }
