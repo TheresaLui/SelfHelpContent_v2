@@ -36,18 +36,19 @@ schemaVersion="1"
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the version of the Event Hubs resource provider that you have installed?",
+	    "watermarkText": "Ex) Event Hubs 1.2008.0.0", 
             "required": false
-        },    
+        },
         {
             "id": "problem_uploadLogs",
             "order": 3,
             "controlType": "multilinetextbox",
-            "displayLabel": "Have you initiated the upload of logs following the steps in Diagnotics log collection? https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-diagnostic-log-collection-overview-tzl?",
+            "displayLabel": "Have you initiated the upload of logs following the steps in [Diagnotics log collection](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-log-collection-overview-tzl)?",
             "required": false
         },
         {
             "id": "problem_sdkLanguage",
-            "order": 6,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the SDK language and version that you are using.",
             "required": false
