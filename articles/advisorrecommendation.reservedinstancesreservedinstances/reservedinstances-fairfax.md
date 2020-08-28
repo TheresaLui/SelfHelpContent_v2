@@ -28,10 +28,10 @@
     "email": "aipuaedevs@microsoft.com",
     "icm": {
         "routingId": "routetoUAEteam",
-        "service": "Usage Alllocation Engine/UAE",
-        "team": "Usage Alllocation Engine/UAE"
+        "service": "Usage Alllocation Engine",
+        "team": "UAE"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "fb1567ae-acf8-42c9-9fd4-0a757d7c2983"
    },
    "ingestionClientIdentities":[
       "CN=usage-services-identity-prod.usage.microsoft.com"
