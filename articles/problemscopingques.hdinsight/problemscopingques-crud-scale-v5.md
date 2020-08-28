@@ -121,10 +121,10 @@
             "controlType": "dropdown",
             "displayLabel": "Cluster ID if the cluster is still running",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.HDInsight/clusters/{resourcename}?api-version=2018-06-01-preview",
-                "jTokenPath": "properties",
-                "textProperty": "clusterId",
-                "valueProperty": "clusterId",
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.HDInsight/clusters?api-version=2018-06-01-preview&$filter=resourceName%20eq%20'{resourcename}'",
+                "jTokenPath": "value",
+                "textProperty": "properties.clusterId",
+                "valueProperty": "properties.clusterId",
                 "textPropertyRegex": "[^/]+$",
                 "valuePropertyRegex": "[^/]+$",
                 "defaultDropdownOptions": {
