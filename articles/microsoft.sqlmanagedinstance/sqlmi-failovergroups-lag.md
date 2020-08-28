@@ -20,7 +20,8 @@
 Replication lag on secondary can occur due to combination of a heavy write workload on the Primary and imbalance between the service objective of Geo-Primary and Geo-Secondary where Geo-Secondary unable to keep up.
 
 ## **Recommended Steps**
-- If you have a largely different service-objective between primary and secondary, upgrade the Geo-Secondary to the same service-objective as the Geo-Primary is recommended.
+
+- If you have a largely different service-objective between primary and secondary, upgrade the Geo-Secondary to the same service-objective as the Geo-Primary is recommended
 
 ## **Recommended Documents**
 
