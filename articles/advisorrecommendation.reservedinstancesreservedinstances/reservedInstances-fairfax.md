@@ -3,7 +3,7 @@
     description="Buy virtual machine reserved instances to save money over pay-as-you-go costs"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="84b1a508-fc21-49da-979e-96894f1665df_Fairfax"
+    articleId="84b1a508-fc21-49da-979e-96894f1665df_fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
 	ownershipId="RedisCache_RedisCache"
@@ -14,7 +14,7 @@
    "recommendationOfferingId":"07649cbd-2ee4-4992-898b-f5f16bad1b36",
    "recommendationOfferingName":"ReservedInstances",
    "$schema":"AdvisorRecommendation",
-   "recommendationTypeId":"84B1A508-FC21-49DA-979E-96894F1665DF",
+   "recommendationTypeId":"84b1a508-fc21-49da-979e-96894f1665df",
    "dataSourceMetadata":{
       "streamNamespace":"",
       "dataSource":"SAS"
@@ -86,6 +86,5 @@
     }
    ],
    "tip": "You can buy virtual machine reserved instances to save money over pay-as-you-go costs.",
-   "costSavingInfo": "*You can save up to the stated amount if you purchase single subscription reservations for 3 years and your future usage follows the same pattern as the last 30 days. Your actual savings may vary.",
-   "testData":""
+   "costSavingInfo": "*You can save up to the stated amount if you purchase single subscription reservations for 3 years and your future usage follows the same pattern as the last 30 days. Your actual savings may vary."
 }
