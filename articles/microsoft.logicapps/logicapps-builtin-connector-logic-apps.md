@@ -11,7 +11,7 @@
      productPesIds="15791"
     ownershipId="Compute_LogicApps"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="46276307-1005-4594-9657-d600c97e2a5d"
+    articleId="46276307-abcd-4594-9657-d600c97e2a5d"
 />
 
 # Call other Azure Logic Apps that start with the Request trigger

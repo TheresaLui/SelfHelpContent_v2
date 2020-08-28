@@ -1,64 +1,53 @@
 <properties
-	pageTitle="Automated or Managed backup"
-	description="Automated or Managed backup"
-	service="Microsoft.SqlVirtualMachine"
-	resource="SqlVirtualMachines"
-	ms.author="ujpat,vadeveka,amamun"	
-	authors="ujpat,vadeveka,AbdullahMSFT"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32740066"
-	resourceTags="windowsSQL"
-	productPesIds="14745,16342"
-	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
-	articleId="37aa2d07-83df-4ce9-9810-a098f1065cbd"
-	ownershipId="AzureData_AzureSQLVM"
-/>
+  pagetitle="Automated backup or managed backup"
+  service="microsoft.sqlvirtualmachine"
+  resource="sqlvirtualmachines"
+  ms.author="amamun"
+  selfhelptype="Generic"
+  supporttopicids="32740066"
+  resourcetags="windowssql"
+  productpesids="14745,16342"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="37aa2d07-83df-4ce9-9810-a098f1065cbd"
+  ownershipid="AzureData_AzureSQLVM" />
+# Automated backup or managed backup
 
-# Automated or Managed backup
+## **Recommended Steps**
 
-**Common Issues** 
+### Cannot enable Automated backup or managed backup
 
-* **Differential backups are failing when VM backup is enabled**
+If you cannot enable Automated backup or managed backup, please ensure following:
 
-	By default, Azure VM backup creates a [VSS full backup](https://techcommunity.microsoft.com/t5/Storage-at-Microsoft/What-is-the-difference-between-VSS-Full-Backup-and-VSS-Copy/ba-p/423575) on Windows VM which can break the backup chain for differentials. So, when it does a VSS full backup, it creates backup of all the files – but after that, the backup application may truncate logs on the file system. This breaks the backup chain for differentials. 
+- SQL IaaS extension is installed in full mode and is in healthy state
+- Account ‘sa’ is not renamed. If you want, you can keep the account at disabled state. 
+- Account 'NT Service\SqlIaaSExtensionQuery' has sysadmin privilege in the SQL instance 
+- Apply the latest SQL Server patch to avoid any known issues
+- User enabling automated backup to form the portal has at least ‘Contributor’ access to the SQL Server machine
+- For SQL Server 2016/2017 versions, make sure "Allow Blob Public Access" disabled on Storage Account
+- SQL FCI, or multiple named instances do not offer SQL IaaS extension full mode and hence automated backup is not supported
 
-	On the other hand, when you do a VSS copy backup, all files are backed up and you preserve all the applications files including log files on the live system. 
+### Backup worked previously but is not working now
 
-	You can enable VSS copy backup through registry key: `REG ADD "HKLM\SOFTWARE\Microsoft\BcdrAgent" /v USEVSSCOPYBACKUP /t REG_SZ /d TRUE /f `
+If the automated backup or managed backup worked previously but is not working now, please ensure:
 
-	Once the key is in place, take a full backup of SQL Server and differential backup will start working correctly. 
+- SQL Agent service is in automatic start mode and in started state. You may restart the SQL agent service. 
+- SQL Agent service account to be the same as SQL service account to check if it makes a difference
 
-* **Backup is not running**
+### Known Issues
 
-	Ensure SQL Server Agent service is Started and Running. SQL Server Managed Backup to Microsoft Azure requires SQL Server Agent to be running on the instance to perform backup operations. 
+Please **apply the latest SQL Server patch to avoid any known issues** such as the following. **Latest cumulative update includes all previous fixes.**
 
-	You may want to set SQL Server Agent to run automatically on Windows startup. You can also ensure <a href="https://docs.microsoft.com/previous-versions/technet-magazine/gg313742(v=msdn.10)">SQL Server Agent is set to restart SQL services automatically</a> in case they stop unexpectedly.  
-
-* **Backup status alerts**
-
-	You can enable email notifications to receive backup errors and warnings. See [Enable and Configure Notification for Health Status](https://docs.microsoft.com/sql/relational-databases/backup-restore/enable-sql-server-managed-backup-to-microsoft-azure?view=sql-server-2017&tabs=azure-cli#enable-managed-backup-to-azure).
-
-* **Backup for databases larger than 1 TB**
-
-	Backup to URL with page blob allows backup sizes up to 1 TB. Starting with SQL Server 2016, backup to URL supports block blob allowing backup sizes up to 12 TB. Consider striping, COMPRESSION, MAXTRANSFERSIZE and BLOCKSIZE when backing up large databases to block blob. See [Backing up a VLDB to Azure Blob Storage](https://blogs.msdn.microsoft.com/sqlcat/2017/03/10/backing-up-a-vldb-to-azure-blob-storage/). 
- 
-	For backup sizes beyond 12 TB, consider [backup to local disk and use azcopy](https://blogs.msdn.microsoft.com/dbrowne/2014/03/07/copying-sql-server-backups-to-windows-azure-storage-using-azcopy/) to upload to storage. 
-
-* **Backup to URL (page blob) intermittently fails**
-
-	> Error message: Backup to URL received an exception from the remote endpoint. Exception Message: The client could not finish the operation within specified timeout. 
-
-	When you back up your databases to Azure Page Blobs by using BackuptoURL statements, SQL server internally calls a stand-alone application named BackuptoURL.exe. This problem occurs because the BackuptoURL application does not correctly handle transient failures. This issue has been fixed in a cumulative update.
-
-	Ensure you have the latest patches applied for SQL server. Details about the issue are listed [here](https://support.microsoft.com/help/4463320/sql-server-backups-to-azure-blob-storage-intermittent-failure). 
-
-
+- With SQL 2014 , 2016 or 2017 Backup fails with [ErrorCode=(183) Cannot create a file when that file already exists](https://support.microsoft.com/help/4039511/fix-managed-backup-fails-intermittently-because-of-sqlvdi-error-in-sql)
+- With SQL 2104, 2016 or 2017, [Managed Backup stops after large database backup in SQL Server](https://support.microsoft.com/help/4040376/fix-managed-backup-to-microsoft-azure-stops-after-large-database-backu)
+- With SQL 2016 or 2017 [log backup does not occur as scheduled](https://support.microsoft.com/help/4040535/fix-sql-server-managed-backups-do-not-run-a-scheduled-log-backup-in)
+- With SQL 2016 or 2017 [Log chain breaks](https://support.microsoft.com/help/4040530/fix-log-chain-break-in-the-managed-backup-fn-available-backups-table) 
+- With SQL 2014 or 2016 [Retention policy does not work](https://support.microsoft.com/help/3168707/fix-retention-policy-does-not-work-when-you-use-sql-server-managed-bac) 
+- With SQL 2014 or 2016, [Error Code = 3002, Error Message = Cannot BACKUP or RESTORE a database snapshot apply](https://support.microsoft.com/help/3168708/fix-sql-server-managed-backup-to-windows-azure-tries-to-back-up-databa)
+- With SQL 2014, [unable to backup using smart_admin.sp_backup_on_demand](https://support.microsoft.com/help/3169736/fix-can-t-create-a-database-backup-by-executing-smart-admin-sp-backup)
 
 ## **Recommended Documents**
 
-* [Troubleshooting SQL Server Managed Backup to Azure](https://docs.microsoft.com/sql/database-engine/troubleshooting-sql-server-managed-backup-to-windows-azure?view=sql-server-2014)
-* [Automated Backup for Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-automated-backup-v2)<br>
-* [SQL Server Managed Backup to Microsoft Azure](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-managed-backup-to-microsoft-azure?view=sql-server-2017)
-* [Backup and Restore for SQL Server in Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-backup-recovery)
-* [SQL Server Backup to URL Best Practices and Troubleshooting](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url-best-practices-and-troubleshooting?view=sql-server-2017)<br>
+* To remove SQL backup files automatically from the blob storage, please review [this article](https://docs.microsoft.com/archive/blogs/ujpat/automate-sql-server-backup-file-removaldeletion-from-azure-blob-storage) 
+* To verify current automated backup setting, please review [this article](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/automated-backup#verifysettings)  
+* For guidance on automated backup, please follow [SQL 2016+ automated backup](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/automated-backup) or [SQL 2014 automated backup](https://docs.microsoft.com/azure/azure-sql/virtual-machines/windows/automated-backup-sql-2014) articles
+* For guidance on managed backup, please review [SQL Server managed backup](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-managed-backup-to-microsoft-azure?redirectedfrom=MSDN&view=sql-server-ver15) article
