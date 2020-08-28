@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for de8937fc-74cc-daa7-2639-e1fe433dcb87"
   description="SupportTopicDescriptions for de8937fc-74cc-daa7-2639-e1fe433dcb87"
   authors="elixirsys2"
-  ms.author="tibasham"
+  ms.author="tibasham, jlaborde"
   selfhelptype="SupportTopicDescription"
   productpesids="de8937fc-74cc-daa7-2639-e1fe433dcb87"
   cloudenvironments="public, fairfax, blackforest, mooncake, usnat, ussec"
@@ -34,6 +34,14 @@
       "shortDescription": "Issues with disks in the Guest OS of the VM such as, initializing, or formatting disks.",
       "searchTags": "Initialize;Format;Logical Volume Manager",
       "category": "Virtual Disk Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b115c698-5857-d6f8-af73-00b5fe0190c7",
+      "longDescription": "",
+      "shortDescription": "Issues involving the importing or exporting of disks, including via a private link.",
+      "searchTags": "import;export;disks",
+      "category": "Disk Management",
       "useInDiagnoseAndSolve": "true"
     }
   ]
