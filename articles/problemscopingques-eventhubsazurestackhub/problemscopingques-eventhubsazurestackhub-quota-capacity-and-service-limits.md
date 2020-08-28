@@ -13,7 +13,7 @@ productPesIds="16803"
 cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="problemscopingques-eventhubsazurestackhub-quota-capacity-and-service-limits"
 schemaVersion="1"
-	ownershipId="AzureMessaging_Common"
+ownershipId="AzureMessaging_Common"
 />
 # Quota, Capacity, and Service Limits Related
 ---
@@ -38,7 +38,16 @@ schemaVersion="1"
             "displayLabel": "What is the version of the Event Hubs resource provider that you have installed?",
 	    "watermarkText": "Ex) Event Hubs 1.2008.0.0", 
             "required": false
-        }
+        },
+	{
+	    "id": "problem_description",
+	    "order": 3,
+	    "controlType": "multilinetextbox",
+	    "displayLabel": "Details",
+	    "watermarkText": "Provide additional information about your incident.",
+	    "required": true,
+	    "useAsAdditionalDetails": true
+	}
     ],
     "$schema": "SelfHelpContent"
 }
