@@ -29,7 +29,7 @@ After Oct 10, 2020, to request for historical sales data, follow the below steps
 4. Provide the date range for the data on the support ticket
 5. After the ticket is filed, dedicated operations team will pull the sales data requested 
 
-**Note:**the historical data may be in a different format than the Office sales report in Partner Center.
+**Note:** the historical data may be in a different format than the Office sales report in Partner Center.
 
 ## **Recommended Documents**
 
