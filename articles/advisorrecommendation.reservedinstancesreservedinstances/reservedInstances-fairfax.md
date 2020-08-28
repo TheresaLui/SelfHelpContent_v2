@@ -9,7 +9,7 @@
 	ownershipId="RedisCache_RedisCache"
 />
 # Buy virtual machine reserved instances to save money over pay-as-you-go costs
-
+---
 {
    "recommendationOfferingId":"07649cbd-2ee4-4992-898b-f5f16bad1b36",
    "recommendationOfferingName":"ReservedInstances",
