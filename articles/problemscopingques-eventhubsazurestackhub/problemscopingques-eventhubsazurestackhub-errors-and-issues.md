@@ -1,19 +1,14 @@
 <properties
-pageTitle="Errors and Exceptions"
-description="Errors and Exceptions"
-service="microsoft.eventhub"
-resource="namespaces"
-authors="jafernan"
-ms.author="jafernan"
-displayOrder=""
-selfHelpType="problemScopingQuestions"
-supportTopicIds="32689171,32689177,32689178,32689179,32689180"
-resourceTags=""
-productPesIds="16803"
-cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="problemscopingques-eventhubsazurestackhub-errors-and-issues"
-schemaVersion="1"
-	ownershipId="AzureMessaging_Common"
+	pageTitle="Errors and Exceptions"
+	description="Errors and Exceptions"
+	ms.author="jafernan"
+	selfHelpType="problemScopingQuestions"
+	supportTopicIds="32689171,32689177,32689178,32689179,32689180"
+	productPesIds="16803"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	schemaVersion="1"
+	articleId="problemscopingques-eventhubsazurestackhub-errors-and-issues"
+	ownershipId="ownershipId="AzureMessaging_Common"
 />
 # Errors and Issues
 ---
@@ -36,7 +31,7 @@ schemaVersion="1"
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the version of the Event Hubs resource provider that you have installed?",
-	    "watermarkText": "Ex) Event Hubs 1.2008.0.0", 
+	    "watermarkText": "Ex) Event Hubs 1.2008.0.0",
             "required": false
         },
         {
