@@ -4,7 +4,7 @@
     service="microsoft.eventhub"
     resource="namespaces"
     ms.author="jafernan"
-    authors="jafernan"
+    authors="jfggdl"
     displayOrder=""
     selfHelpType="generic"
     supportTopicIds="32689179"
