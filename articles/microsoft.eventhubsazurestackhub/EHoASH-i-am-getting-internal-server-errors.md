@@ -2,7 +2,7 @@
     pageTitle="I am getting Internal Server errors (500)"
     description="I am getting Internal Server errors (500)"
     service="microsoft.eventhub"
-    resource="eventhubs?"
+    resource="namespaces"
     ms.author="jafernan"
     authors="jafernan"
     displayOrder=""
@@ -10,7 +10,7 @@
     supportTopicIds="32689179"
     resourceTags=""
     productPesIds="16803"
-    cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="EHoASH-internal-server-errors"
 	ownershipId="AzureMessaging_Common"
 />
