@@ -1,8 +1,8 @@
 <properties
 pageTitle="Issues with Install, Uninstall, or Update"
 description="Issues with Install, Uninstall, or Update"
-service="microsoft.eventhubs"
-resource="installUninstallUpdate"
+service="microsoft.eventhub"
+resource="namespaces"
 authors="jafernan"
 ms.author="jafernan"
 displayOrder=""
@@ -11,23 +11,24 @@ supportTopicIds="32689173"
 resourceTags=""
 productPesIds="16803"
 cloudEnvironments="public, Fairfax, usnat, ussec"
-articleId="issues-with-install-uninstall-or-update"
+articleId="problemscopingques-eventhubsazurestackhub-install-uninstall-update"
 schemaVersion="1"
 	ownershipId="AzureMessaging_Common"
 />
 # Issues with Install, Uninstall, or Update
 ---
 {
-	"subscriptionRequired": true,
+    "subscriptionRequired": true,
     "resourceRequired": true,
     "title": "Issues with Install, Uninstall, or Update",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "problem_azurStackVersion",
+            "id": "problem_azureStackVersion",
             "order": 1,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the Azure Stack build version you are using?",
+	    "watermarkText": "Azure Stack Hub 2005",
             "required": true
         },
         {
@@ -35,31 +36,29 @@ schemaVersion="1"
             "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the version of the Event Hubs resource provider that you have installed?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_errorMessageText",
             "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide the exact error message including call stack, Tracking Id and timestamp, if any",
-            "required": true
+            "required": false
         },
         {
-            "id": "problem_frequency",
+            "id": "problem_errorFrequency",
             "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the frequency of the error(s)",
-            "required": true,
-            "useAsAdditionalDetails": true,
+            "required": false
         },
         {
-            "id": "problem_description",
+            "id": "problem_uploadLogs",
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Have you initiated the upload of logs following the steps in Diagnotics log collection? https://docs.microsoft.com/en-us/azure-stack/operator/azure-stack-diagnostic-log-collection-overview-tzl?",
-            "required": true,
-            "useAsAdditionalDetails": true,
-        },
+            "required": false
+        }
     ],
     "$schema": "SelfHelpContent"
 }
