@@ -23,7 +23,7 @@
             "order": 1,
             "controlType": "multitextbox",
             "displayLabel": "What is the Azure Stack build version that you are using?",
-	    "watermarkText": "Ex) Azure Stack Hub 2005" 
+	    "watermarkText": "Ex) Azure Stack Hub 2005",
             "required": true
         },
         {
