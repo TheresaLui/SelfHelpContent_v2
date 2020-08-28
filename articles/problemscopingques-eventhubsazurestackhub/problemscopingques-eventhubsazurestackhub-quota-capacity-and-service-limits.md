@@ -32,7 +32,7 @@ ownershipId="AzureMessaging_Common"
 	},
 	{
             "id": "problem_azureStackVersion",
-            "order": 1,
+            "order": 2,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the Azure Stack build version you are using?",
 	    "watermarkText": "Ex) Azure Stack Hub 2005",
@@ -40,7 +40,7 @@ ownershipId="AzureMessaging_Common"
         },
         {
             "id": "problem_eventHubsVersion",
-            "order": 2,
+            "order": 3,
             "controlType": "multilinetextbox",
             "displayLabel": "What is the version of the Event Hubs resource provider that you have installed?",
 	    "watermarkText": "Ex) Event Hubs 1.2008.0.0",
@@ -48,7 +48,7 @@ ownershipId="AzureMessaging_Common"
         },
 	{
 	    "id": "problem_description",
-	    "order": 3,
+	    "order": 4,
 	    "controlType": "multilinetextbox",
 	    "displayLabel": "Details",
 	    "watermarkText": "Provide additional information about your incident.",
