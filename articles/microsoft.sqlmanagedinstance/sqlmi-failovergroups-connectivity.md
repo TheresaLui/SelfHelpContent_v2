@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Connectivity to geo-secondary database"
-    description="Connectivity to geo-secondary database"
+    pageTitle="Connectivity to geo-secondary instance"
+    description="Connectivity to geo-secondary instance"
     service="microsoft.sql"
     resource="managedinstances"
     authors="vitomaz-msft"
@@ -15,7 +15,7 @@
     ownershipId="AzureData_AzureSQLMI"
 />
 
-# Connectivity to geo-secondary database
+# Connectivity to geo-secondary instance
 
 **Read-write and read-only listeners**
 
@@ -30,11 +30,13 @@ In certain service tiers, SQL Managed Instance supports the use of [read-only re
 
 **Connectivity issues to geo secondary database** 
 
-Connectivity issues can be caused by one or more of the possible scenarios**
+Connectivity issues are usually associated with transient errors.
 
-- Transient errors - Azure infrastructure dynamically reconfigure servers when heavy workloads arise in the SQL Database service. This dynamic behavior might cause your client program to lose its connection to geo secondary database (Error 40613/40197) for a short window (transient faults). Database reconfiguration events occur because of a planned event (for example, a software upgrade) or an unplanned event (for example, a process crash, or load balancing). Most reconfiguration events are generally short-lived and should be completed in less than 60 seconds at most. However, these events can occasionally take longer to finish, such as when a large transaction causes a long-running recovery.
+The Azure infrastructure has the ability to dynamically reconfigure servers for planned operations such as load balancing and updates, or unplanned occurrences such as recoveries from software or hardware issues. Most reconfiguration events take less than 60 seconds to complete. This behavior might cause your client program to lose its connection to geo secondary database (Error 40613/40197) for a short window (transient faults).  
+   
+Building resiliency into your application to account for these situations can help create transparency to the end user when these transient scenarios occur. For information about connectivity in Azure SQL, how to implement retry logic, and to understand common errors in Azure SQL please refer to this article on [database connection errors](https://docs.microsoft.com/azure/azure-sql/database/troubleshoot-common-errors-issues#database-connection-errors-transient-errors-and-other-temporary-errors). 
 
-- Other common connectivity issues can be related to network, firewall configuration or user errors
+Other common connectivity issues can be related to network, firewall configuration or user errors.
 
 ## **Recommended Steps**
 

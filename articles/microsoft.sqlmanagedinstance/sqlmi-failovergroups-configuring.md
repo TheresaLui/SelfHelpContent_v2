@@ -25,10 +25,17 @@ The auto-failover group must be configured on the primary instance and will conn
 
 Before creating failover group(s), it is critical to consider the following prerequisites:
 
-- The secondary managed instance must be empty.
-- The subnet range for the secondary virtual network must not overlap the subnet range of the primary virtual network.
-- The collation and timezone of the secondary managed instance must match that of the primary managed instance.
-- When connecting the two gateways, the Shared Key should be the same for both connections. 
+- The two instances of SQL Managed Instance need to be the same service tier, and have the same storage size.
+
+- Your secondary instance of SQL Managed Instance must be empty (no user databases).
+
+- The virtual networks used by the instances of SQL Managed Instance need to be connected through a VPN Gateway or Express Route. When two virtual networks connect through an on-premises network, ensure there is no firewall rule blocking ports 5022, and 11000-11999. Global VNet Peering is not supported.
+
+- The two SQL Managed Instance VNets cannot have overlapping IP addresses.
+
+- You need to set up your Network Security Groups (NSG) such that ports 5022 and the range 11000~12000 are open inbound and outbound for connections from the subnet of the other managed instance. This is to allow replication traffic between the instances. 
+
+- The secondary SQL Managed Instance is configured with the same DNS zone ID as the primary.
 
 See [Add managed instance to a failover group](https://docs.microsoft.com/azure/azure-sql/managed-instance/failover-group-add-instance-tutorial?tabs=azure-portal) for a detailed step-by-step tutorial adding a SQL Managed Instance to use failover group using [Azure portal](https://docs.microsoft.com/azure/azure-sql/managed-instance/failover-group-add-instance-tutorial?tabs=azure-portal) or [PowerShell](https://docs.microsoft.com/azure/azure-sql/managed-instance/failover-group-add-instance-tutorial?tabs=azure-powershell).
 
