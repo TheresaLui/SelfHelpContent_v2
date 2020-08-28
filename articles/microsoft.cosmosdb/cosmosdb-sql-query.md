@@ -6,7 +6,7 @@
     authors="timsander1"
     ms.author="tisande"
     selfHelpType="generic"
-    supportTopicIds="32636818,32636821,32688845,32741534"
+    supportTopicIds="32636821,32688845,32741534"
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
@@ -17,6 +17,7 @@
 />
 
 # SQL queries for Azure Cosmos DB
+Most users are able to resolve their Cosmos DB related SQL query questions or issues using the steps below.   
 
 ## **Recommended Steps**
 
@@ -24,63 +25,17 @@ For optimal query performance, follow the steps from the [Troubleshoot Query Per
 
 The most common issues and workarounds are detailed below.
 
-**Understand common query syntax errors**
-
-Consider the examples below where the property `order` is a reserved word and the property `price($)` contains a special character:
-
-```
-SELECT *
-FROM c
-WHERE c["order"].orderId = "12345"
-```
-
-```
-SELECT *
-FROM c
-WHERE c["order"]["price($)"] > 50
-```
-
-The below example shows aliasing with reserved keywords, spaces, and special characters:
-
-```
-SELECT
-           {"JSON expression with a space": { "state": f.address.state, "city": f.address.city }},
-           {"JSON expression with a special character!": { "name": f.id }}
-FROM Families f
-WHERE f.id = "AndersenFamily"
-```
-
-Learn more about [SQL query syntax in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/sql-query-working-with-json)
-
-**Read all query pages**
-
-If you think you are not getting all the results, make sure to drain the continuation fully. In other words, make sure you have progressed through all query pages.
-
-You can progress through all query pages by doing either of the following patterns:
-
-- Continue processing while query has more results
-- Continue processing results while continuation is not empty
-
-Here are code samples for query pagination in the latest Azure Cosmos DB SDKs:
-
-- [.NET SDK](https://github.com/Azure/azure-cosmos-dotnet-v3/blob/master/Microsoft.Azure.Cosmos.Samples/Usage/Queries/Program.cs#L280-L286)
-- [Java SDK](https://github.com/Azure-Samples/azure-cosmos-java-sql-api-samples/blob/master/src/main/java/com/azure/cosmos/examples/documentcrud/sync/DocumentCRUDQuickstart.java#L162-L176)
-- [Node.js SDK](https://github.com/Azure/azure-sdk-for-js/blob/83fcc44a23ad771128d6e0f49043656b3d1df990/sdk/cosmosdb/cosmos/samples/IndexManagement.ts#L128-L140)
-- [Python SDK](https://github.com/Azure/azure-sdk-for-python/blob/master/sdk/cosmos/azure-cosmos/samples/examples.py#L89)
-
-Learn more about [pagination in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/sql-query-pagination).
-
-**Tune Query Feed Options Parameters**  
+### **Tune Query Feed Options Parameters**  
 
 Query performance can be tuned via the request's [Feed Options](https://docs.microsoft.com/dotnet/api/microsoft.azure.documents.client.feedoptions?view=azure-dotnet) Parameters. Try setting the below options:
 
-  * Set *MaxDegreeOfParallelism* to -1 first and then compare performance across different values
-  * Set *MaxBufferedItemCount* to -1 first and then compare performance across different values
-  * Set *MaxItemCount* to -1
+  - Set *MaxDegreeOfParallelism* to -1 first and then compare performance across different values
+  - Set *MaxBufferedItemCount* to -1 first and then compare performance across different values
+  - Set *MaxItemCount* to -1
 
 When comparing performance of different values, try values such as 2, 4, 8, 16, and others.
 
-**Optimize ORDER BY queries with a composite index**  
+### **Optimize ORDER BY queries with a composite index**  
 
 Almost all ORDER BY queries with a filter can be optimized with a composite index.
 
@@ -92,27 +47,20 @@ This query has a filter on `name` and also has an `ORDER BY` clause. If you crea
 
 For additional uses for composite indexes see [Composite Indexes](https://docs.microsoft.com/azure/cosmos-db/index-policy#composite-indexes).
 
-**Choose system functions that utilize index**  
-
-Not all system functions utilize the index.
-
-Here is the list of the most commonly used string functions that don't utilize the index:
-    
-- [LOWER(<str_expr>)](https://docs.microsoft.com/azure/cosmos-db/sql-query-lower)
-  - Consider using case-insensitive [CONTAINS](https://docs.microsoft.com/azure/cosmos-db/sql-query-contains), [STARTSWITH](https://docs.microsoft.com/azure/cosmos-db/sql-query-startswith), or [STRINGEQUALS](https://docs.microsoft.com/azure/cosmos-db/sql-query-stringequals) instead.
-- [UPPER(<str_expr>)](https://docs.microsoft.com/azure/cosmos-db/sql-query-upper)
-  - Consider using case-insensitive [CONTAINS](https://docs.microsoft.com/azure/cosmos-db/sql-query-contains), [STARTSWITH](https://docs.microsoft.com/azure/cosmos-db/sql-query-startswith), or [STRINGEQUALS](https://docs.microsoft.com/azure/cosmos-db/sql-query-stringequals) instead.
-- [Most mathematical system functions](https://docs.microsoft.com/azure/cosmos-db/sql-query-mathematical-functions)
-  - Avoid using mathematical system functions in the `WHERE` clause of your query, if possible.
-
-For more system function details see [System Functions](https://docs.microsoft.com/azure/cosmos-db/sql-query-system-functions). You can navigate to each individual system function's page in the documentation to understand how it uses the index.
 
 ## **Recommended Documents**
 
 Please refer to documents below on how to get execution statistics and tune your queries:
 
-* [Working with JSON in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/sql-query-working-with-json)
-* [Troubleshoot Query Performance](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance)
-* [Performance tips for .NET SDK](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
-* [Performance tips for Java SDK](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java-sdk-v4-sql?tabs=api-async)
-* [Indexing in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/index-policy)
+[Troubleshoot query issues when using Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-query-performance)
+<br>You should use this article as a starting place for troubleshooting slow or expensive queries in the Azure Cosmos DB core (SQL) API.   
+You can also use [diagnostics logs](https://docs.microsoft.com/azure/cosmos-db/cosmosdb-monitor-resource-logs) to identify queries that are slow or that consume significant amounts of throughput.  
+
+[Performance tips for .NET SDK](https://docs.microsoft.com/azure/cosmos-db/performance-tips)
+<br>Performance tips for Azure Cosmos DB and .NET SDK v2   
+
+[Performance tips for Java SDK](https://docs.microsoft.com/azure/cosmos-db/performance-tips-java-sdk-v4-sql?tabs=api-async)
+<br>Performance tips for Azure Cosmos DB Java SDK v4  
+
+[Working with JSON in Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/sql-query-working-with-json)
+<br>In Azure Cosmos DB's SQL (Core) API, items are stored as JSON. The type system and expressions are restricted to deal only with JSON types.    
