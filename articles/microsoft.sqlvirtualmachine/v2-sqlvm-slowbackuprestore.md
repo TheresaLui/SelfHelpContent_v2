@@ -1,20 +1,15 @@
 <properties
-	pageTitle="SQL Database Backup or Restore is slow"
-	description="SQL Database Backup or Restore is slow"
-	service="microsoft.compute"
-	resource="virtualmachines"
-	ms.author="ujpat,vadeveka,amamun"
-	authors="ujpat,vadeveka,AbdullahMSFT"
-	displayOrder=""
-	selfHelpType="generic"
-	supportTopicIds="32748893"
-	resourceTags="windowsSQL"
-	productPesIds="14745,16342"
-	cloudEnvironments="public,fairfax, usnat, ussec, blackforest, mooncake"
-	articleId="734cb41c-d6e8-449e-9a6b-b7512b4c9684"
-	ownershipId="AzureData_AzureSQLVM"
-/>
-
+  pagetitle="SQL Database Backup or Restore is Slow"
+  service="microsoft.compute"
+  resource="virtualmachines"
+  ms.author="vadeveka,amamun,ujpat"
+  selfhelptype="Generic"
+  supporttopicids="32748893"
+  resourcetags="windowssql"
+  productpesids="14745,16342"
+  cloudenvironments="public,fairfax,usnat,ussec,blackforest,mooncake"
+  articleid="734cb41c-d6e8-449e-9a6b-b7512b4c9684"
+  ownershipid="AzureData_AzureSQLVM" />
 # SQL Database Backup or Restore is Slow
 
 Most users are able to resolve their issues with SQL Server Replication using the recommended documents below.
@@ -23,11 +18,10 @@ Most users are able to resolve their issues with SQL Server Replication using th
 
 * **For Slow Backups, please verify the following:**
 
-	-  You are using **compression** option in backup parameters.
+	- You are using **compression** option in backup parameters
 	- For SQL 2014 or below, try to tweak the [**Buffer Count**](https://docs.microsoft.com/sql/t-sql/statements/backup-transact-sql?view=sql-server-ver15#with-options) parameter to speed up backups
 	- Make sure you have [Antivirus Exceptions](https://support.microsoft.com/help/309422/choosing-antivirus-software-for-computers-that-run-sql-server) in place 
- 
-     
+      
 * **If you are having a slow performance backing the database to URL:**
 
 	- Please follow the above basic checks
