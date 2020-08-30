@@ -11,15 +11,14 @@
 	supportTopicIds="32321850"
 	productPesIds="15570"
 	cloudEnvironments="public, usnat, ussec"
-	ownershipId="AzureML_StudioClassicServices"
+	ownershipId="AzureML_AzureMachineLearning"
 />
 
 # Problem deploying or creating web service
 
 ## **Recommended Steps**
 
-1. For errors like "Error Message: Web Service deployment failed. This account does not have sufficient access to the Azure subscription that contains the Workspace. In order to deploy a Web Service to Azure, the same account must be invited to the Workspace and be given access to the Azure subscription that contains the Workspace.", the root cause is authentication, **Deploy Web Service [Classic]** is recommended.
-1. When user’s in multiple tenants and one or more tenants required MFA (multi-factor authentication), the error above might occur. There are two ways user could have a try:
+For errors like "Error Message: Web Service deployment failed. This account does not have sufficient access to the Azure subscription that contains the Workspace. In order to deploy a Web Service to Azure, the same account must be invited to the Workspace and be given access to the Azure subscription that contains the Workspace.", the root cause is authentication, **Deploy Web Service [Classic]** is recommended. When user’s in multiple tenants and one or more tenants required MFA (multi-factor authentication), this error might occur. There are two ways user could have a try:
 
     - Create a new account in your target tenant (where your workspace belongs to). 
     - Or one existing account which only exists in the target tenant, invite this account to your studio workspace and assign proper role to it in your subscription.

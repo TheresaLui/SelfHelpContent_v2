@@ -11,7 +11,7 @@
 	supportTopicIds="32355170"
 	productPesIds="15570"
 	cloudEnvironments="public, usnat, ussec"
-	ownershipId="AzureML_StudioClassicServices"
+	ownershipId="AzureML_AzureMachineLearning"
 />
 
 # Stuck or failed web service call

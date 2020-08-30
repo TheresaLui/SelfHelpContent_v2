@@ -11,7 +11,7 @@
 	supportTopicIds="32321860"
 	productPesIds="15570"
 	cloudEnvironments="public, usnat, ussec"
-	ownershipId="AzureML_StudioClassicServices"
+	ownershipId="AzureML_AzureMachineLearning"
 />
 
 # Can't access machine learning studio (classic) portal

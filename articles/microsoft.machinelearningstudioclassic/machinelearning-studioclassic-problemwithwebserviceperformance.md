@@ -11,7 +11,7 @@
 	supportTopicIds="32321867"
 	productPesIds="15570"
 	cloudEnvironments="public, usnat, ussec"
-	ownershipId="AzureML_StudioClassicServices"
+	ownershipId="AzureML_AzureMachineLearning"
 />
 
 # Problem with web service performance
