@@ -23,12 +23,12 @@
 
 ## **Recommended Documents**
 
-* [Change Version of R (r-base)](https://kb.azuredatabricks.net/r/change-r-version.html)
-* [Install rJava and RJDBC Libraries](https://kb.azuredatabricks.net/r/install-rjava-rjdbc-libraries.html)
-* [Resolving Package or Namespace Loading Error](https://kb.azuredatabricks.net/r/namespace-onload.html)
-* [How to Persist and Share Code in RStudio](https://kb.azuredatabricks.net/r/persist-share-code-rstudio.html)
-* [Problem: Rendering an R Markdown File Containing sparklyr Code Fails](https://kb.azuredatabricks.net/r/rmarkdown-sparklyr-code.html)
-* [Fix the Version of R Packages](https://kb.azuredatabricks.net/r/pin-r-packages.html)
-* [How To Parallelize R Code with gapply](https://kb.azuredatabricks.net/r/sparkr-gapply.html)
-* [How To Parallelize R Code with spark.lapply](https://kb.azuredatabricks.net/r/sparkr-lapply.html)
+* [Change Version of R (r-base)](https://docs.microsoft.com/azure/databricks/kb/r/change-r-version)
+* [Install rJava and RJDBC Libraries](https://docs.microsoft.com/azure/databricks/kb/r/install-rjava-rjdbc-libraries)
+* [Resolving Package or Namespace Loading Error](https://docs.microsoft.com/azure/databricks/kb/r/namespace-onload)
+* [How to Persist and Share Code in RStudio](https://docs.microsoft.com/azure/databricks/kb/r/persist-share-code-rstudio)
+* [Problem: Rendering an R Markdown File Containing sparklyr Code Fails](https://docs.microsoft.com/azure/databricks/kb/r/rmarkdown-sparklyr-code)
+* [Fix the Version of R Packages](https://docs.microsoft.com/azure/databricks/kb/r/pin-r-packages)
+* [How To Parallelize R Code with gapply](https://docs.microsoft.com/azure/databricks/kb/r/sparkr-gapply)
+* [How To Parallelize R Code with spark.lapply](https://docs.microsoft.com/azure/databricks/kb/r/sparkr-lapply)
 * Note that R is not supported with Table Access Control
