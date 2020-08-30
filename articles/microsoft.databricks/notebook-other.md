@@ -23,6 +23,8 @@
 
 	* [Identify the conflicting library and uninstall it](https://docs.microsoft.com/azure/databricks/kb/python/python-command-cancelled#identify-the-conflicting-library)
 	* Install the correct version of the library in a notebook using [library utilities](https://docs.microsoft.com/azure/databricks/dev-tools/databricks-utils#--library-utilities) or [pip3](https://docs.microsoft.com/azure/databricks/kb/python/python-command-cancelled#option-1-install-in-a-notebook-using-pip3). Or with a [cluster-scoped init script](https://docs.microsoft.com/azure/databricks/kb/python/python-command-cancelled#option-2-install-using-a-cluster-scoped-init-script)
+	
+* Getting error **java.io.EOFException** when handling huge data set in Spark R even with larger cluster - issue is caused by design since Spark R uses driver node specific framework resource. Resolution is to handle the pipeline with dividing data into smaller sets and conquer the results.
 
 ## **Recommended Documents**
 
