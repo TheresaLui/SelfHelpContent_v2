@@ -17,6 +17,10 @@
 
 # Diagnose and resolve issues with R
 
+## **Recommended Steps**
+
+* Getting error **java.io.EOFException** when handling huge data set in Spark R even with larger cluster - issue is caused by design since Spark R uses driver node specific framework resource. Resolution is to handle the pipeline with dividing data into smaller sets and conquer the results.
+
 ## **Recommended Documents**
 
 * [Change Version of R (r-base)](https://kb.azuredatabricks.net/r/change-r-version.html)
