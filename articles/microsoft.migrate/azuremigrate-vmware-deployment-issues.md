@@ -57,7 +57,7 @@ Ensure that you have whitelisted  the required [URLs](https://docs.microsoft.com
 
 ### Issues in registering the appliance with Azure Migrate _(New experience)_
 
-**After successfull login with Azure user account, appliance registration step fails with the message-"Failed to connect to the Azure Migrate project. Check the error details, follow the remediation steps on click on 'Retry' button"** 
+**After successful login with Azure user account, appliance registration step fails with the message-"Failed to connect to the Azure Migrate project. Check the error details, follow the remediation steps on click on 'Retry' button"** 
 
 1. The issue happens when the Azure user account used to login from the appliance configuration manager is not the same user account that was used to generate the Azure Migrate project key on the portal.
 1. Either use the same Azure user account that generated the Azure Migrate project key on portal to complete the registration of the appliance or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure) to the other Azure user account which is used for appliance registration.
