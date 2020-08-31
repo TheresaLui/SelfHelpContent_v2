@@ -19,27 +19,6 @@
 
 ## **Recommended Steps**
 
-<properties
-	pageTitle="Azure Windows VM Restore Limitations"
-	description="Limitations when restoring an Azure VM from backup"
-	service="microsoft.recoveryservices"
-	resource="vaults"
-	authors="trinadhk"
-	ms.author="trinadhk"
-	displayOrder="8"
-	selfHelpType="generic"
-	supportTopicIds="32553299"
-	resourceTags=""
-	productPesIds="15207"
-	cloudEnvironments="public, fairfax, usnat, ussec"
-	articleId="6fff7f67-d153-43f0-89c9-598eba2fe465"
-	ownershipId="StorageMediaEdge_Backup"
-/>
-
-# Azure Windows VM Restore Limitations
-
-## **Recommended Steps**
-
 - [Options to restore (un)managed or (un)encrypted VM](https://docs.microsoft.com/azure/backup/about-azure-vm-restore#restore-scenarios)
 - [How do Restore disks](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restore-disks) and create a new VM using [ARM templates](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#use-templates-to-customize-a-restored-vm), [PowerShell](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks) or [Azure CLI](https://docs.microsoft.com/azure/backup/tutorial-restore-disk)
 - [Permissions/RBAC roles](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#before-you-start) required before performing a restore
