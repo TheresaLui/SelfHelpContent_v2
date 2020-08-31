@@ -17,11 +17,11 @@
 
 # Azure virtual machine backups are running slow
 
-## **Recommended steps**
+## **Recommended Steps**
 
 - Why initial backup is taking longer time to complete? The first backup is a full backup and the time taken to complete depends on the size of the data and when the backup is processed.
 - [Why is my backup performance so slow?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-performance)
-- [Can I exclude disks that I do not want to backup](https://docs.microsoft.com/azure/backup/selective-disk-backup-restore)?
+- [Can I exclude disks that I do not want to backup?](https://docs.microsoft.com/azure/backup/selective-disk-backup-restore)
 - [What are the best practices to improve backup performance?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#best-practices)
 - [Why schedule backup is not starting at the right time?](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#what-is-the-maximum-delay-i-can-expect-in-backup-start-time-from-the-scheduled-backup-time-i-have-set-in-my-vm-backup-policy)
 - [Can I cancel an in-progress backup job?](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#can-i-cancel-an-in-progress-backup-job)
