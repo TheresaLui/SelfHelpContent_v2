@@ -79,7 +79,7 @@
             "order": 5,
             "controlType": "multilinetextbox",
             "displayLabel": "Job ID (Unique identifier for your provisioning job, found in the provisioning status info):",
-            "watermarkText": "Example: serviceNow.5547032d9415500cb27b277e3fb6f2c8.5aaf8326-b305-4b63-aa55-0990eb3265f5",
+            "watermarkText": "Example: AD2AADProvisioning.ded4600b620e486eb6f18b4fc7166a5f.b7201e1a-1e1e-430c-8e07-e2c29a9fe9cc",
             "infoBalloonText": "Unique identifier for your provisioning job, found in the provisioning status info.",
             "required": false,
             "numberOfLines": 4,
