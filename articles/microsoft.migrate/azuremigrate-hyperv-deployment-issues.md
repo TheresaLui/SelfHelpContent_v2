@@ -24,15 +24,13 @@ For general queries, please refer to the documentation [here](https://docs.micro
 
 ### Issues with setting up an appliance
 
-
 **I am unable to allocate the recommended hardware configuration to the appliance while setting it up**
 
 The recommended [configuration](https://docs.microsoft.com/azure/migrate/migrate-appliance#appliance---hyper-v) is required for the appliance to support the discovery and assessment of the Hyper-V VMs. Providing less than recommended configuration may have an impact on one of these operations.
 
 **I have a mixed on-premises environment with VMware VMs, Hyper-V VMs and physical servers. Can I discover all these using one Azure Migrate appliance?**
 
-You need to set up separate appliances for each scenario- VMware/ Hyper-V/ Physical servers. Each of the appliances can be registered to the same Azure Migrate project to assess the discovered servers together.
-
+You need to set up separate appliances for each scenario: VMware, Hyper-V, Physical servers. Each of the appliances can be registered to the same Azure Migrate project to assess the discovered servers together.
 
 **I don’t have enough resources to set up an appliance on-premises. Can I set up the appliance on an Azure VM?**
 
@@ -41,22 +39,22 @@ No, setting up the appliance on an Azure VM is not recommended.
 ### Issues with the prerequisites check on appliance
 
 **I am getting an error in the Internet prerequisites check on the appliance**
-1. Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance.
+
+1. Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance
 1. Check if there is a proxy/firewall blocking access to these URLs. If whitelisting is required, please ensure you whitelist all the URLs.
 1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by clicking on "Set up proxy" in the same step. Make sure you provide the authorization credentials if the proxy needs them.
-1. Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or have mobility service agent installed on the server.
+1. Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or have mobility service agent installed on the server
 
 **I am getting an error in the auto update check on the appliance**
 
-Ensure that you have whitelisted  the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) and no proxy/firewall setting is blocking the URLs. In case the update of any appliance component is failing, either rerun the prerequisites or follow these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version) to manually update the component.
-
+Ensure that you have whitelisted the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) and no proxy/firewall setting is blocking the URLs. In case the update of any appliance component is failing, either rerun the prerequisites or follow these [steps](https://docs.microsoft.com/azure/migrate/migrate-appliance#manually-update-an-older-version) to manually update the component.
 
 ### Issues in registering the appliance with Azure Migrate _(New experience)_
 
 **After successful login with Azure user account, appliance registration step fails with the message-"Failed to connect to the Azure Migrate project. Check the error details, follow the remediation steps on click on 'Retry' button"** 
 
-1. The issue happens when the Azure user account used to login from the appliance configuration manager is not the same user account that was used to generate the Azure Migrate project key on the portal.
-1. Either use the same Azure user account that generated the Azure Migrate project key on portal to complete the registration of the appliance or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#prepare-azure) to the other Azure user account which is used for appliance registration.
+1. The issue happens when the Azure user account used to login from the appliance configuration manager is not the same user account that was used to generate the Azure Migrate project key on the portal
+1. Either use the same Azure user account that generated the Azure Migrate project key on portal to complete the registration of the appliance or assign the required roles and [permissions](https://docs.microsoft.com/azure/migrate/tutorial-prepare-hyper-v#prepare-azure) to the other Azure user account which is used for appliance registration
 
 **I am getting issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
