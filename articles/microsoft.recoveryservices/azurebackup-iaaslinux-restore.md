@@ -37,7 +37,7 @@
 - Steps to restore using [Cross Region Restore](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#cross-region-restore)
 
 
-## Recommended Documents
+## **Recommended Documents**
 
 - [Configure static IP address to restored VM](https://docs.microsoft.com/previous-versions/azure/virtual-network/virtual-networks-reserved-private-ip#how-to-add-a-static-internal-ip-to-an-existing-vm)<br>
 - Attach an existing NIC to the restored VM:
