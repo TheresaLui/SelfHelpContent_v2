@@ -5,7 +5,7 @@
     ms.author="pratnala"
     articleId="51a4e6bd-5a95-4a41-8309-40f5640fdb8b_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, usnat, ussec"
+    cloudEnvironments="Public, USNat, USSec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Upgrade your old Azure Cosmos DB SDK to the latest version

@@ -11,7 +11,7 @@
 	productPesIds="16644"
     schemaVersion="1"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.enterprisesecurity.dataencryption"
+	articleId="microsoft.machinelearning.enterprisesecurity.dataencryption.scoping.q"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
