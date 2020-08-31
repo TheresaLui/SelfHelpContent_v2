@@ -19,6 +19,7 @@
 
 **Troubleshooting**
 
+* Security groups with MSIs can take up to 8 hours for tokens to be refreshed and become effective
 
 * RBAC new roles Key Vault Administrator, Key Vault Reader and Key Vault Secrets, Certificates and Keys roles are currently in private preview. It requires subscription to be enabled for roles to take effect. Please contact [jalichwa@microsoft.com](mailto:jalichwa@microsoft.com) for more information.
 
