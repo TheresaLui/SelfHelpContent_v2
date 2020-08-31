@@ -34,11 +34,13 @@ If you identify another issue on the logs other than a Gateway Failover, you mig
 
 ## Client Issues
 
-Sometimes it may be the client having issues - and triggering a VPN disconnection. In that case, we have no means to detect the issue on our side.
-We can only recommend the customer to collect captures during the next occurrence of the issue and identify which side (client or gateway) terminated the connection.
+Sometimes it may be the client having issues - and triggering a VPN disconnection. In that case we can:
+- recommend the customer to collect captures during the next occurrence of the issue and identify which side (client or gateway) terminated the connection.
+- inspect the [P2SlogsTable](https://jarvis-west.dc.ad.msft.net/81FCCD6B)
 
 ## **Recommended Documents**
 
 * [Disconnected by design during gateway failover](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-highlyavailable)
 * [NetVMA](https://netvma.trafficmanager.net)
 * [Gateway Tenant Logs](https://jarvis-west.dc.ad.msft.net/?page=logs&be=DGrep&time=2018-11-01T14:15:00.000Z&offset=~5&offsetUnit=Minutes&UTC=true&ep=Diagnostics%20PROD&ns=BrkGWT&en=GatewayTenantLogsTable&scopingConditions=%5b%5b%22Tenant%22,%22c688c9853f2e41eeb777c2e096dafa4d%22%5d%5d&conditions=%5b%5d&clientQuery=orderby%20preciseTimeStamp%20asc%0A&chartEditorVisible=true&chartType=Line&chartLayers=%5b%5b%22New%20Layer%22,%22%22%5d%5d%20")
+* [P2SlogsTable](https://jarvis-west.dc.ad.msft.net/81FCCD6B)
