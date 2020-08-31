@@ -25,8 +25,8 @@ Before filing a support ticket you can find answers to many common questions:<br
 * [How to change my vault storage replication type from **GRS to LRS**?](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)
 * How to move: 
 	* [Azure VM across Resource Group/Vault](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#how-do-i-move-a-vm-backed-up-by-azure-backup-to-a-different-resource-group)
-	* Vault across [Resource Group](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group)
-	* [Subscription](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)<
+	* Vault across [Resource Groups](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group)
+	* [Subscriptions](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)
 * Moving Recovery points across Vaults/Subscription is not supported
 
 **Backup**<br>
@@ -73,7 +73,3 @@ Before filing a support ticket you can find answers to many common questions:<br
 - [How to troubleshoot permission issues during configure protection?](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault)
 - [Complete list of Frequently Asked Questions](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq)
 - Troubleshoot [common backup failures](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot) and [VM guest Agent and Extension issues](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout) on Azure virtual machines
-
-
-
-
