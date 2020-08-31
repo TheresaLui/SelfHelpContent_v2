@@ -21,12 +21,12 @@ Check for gateway noteworthy events at the time of the issue using ASC insights,
 
 ## Gateway Failover (most common scenario)
 
-1. There might have been a gateway failover, caused by Maintenance or any other reason on the Gateway itself.
-2. GatewayTenantLogs indicate failover events, and the same can also be seen in NetVMA (you will notice the instance starting to listen on port 8081 has changed).
-3. In such circumstances, **all point to site clients are disconnected by design.**
-4. We do not support Point to Site VPN to connect at boot or to re-connect automatically after disconnection. These features may be available at the client OS side but not supported by Azure
+1. There might have been a gateway failover, caused by Maintenance or any other reason on the Gateway itself
+2. GatewayTenantLogs indicate failover events, and the same can also be seen in NetVMA (you will notice the instance starting to listen on port 8081 has changed)
+3. In such circumstances, **all point to site clients are disconnected by design**
+4. We do not support Point to Site VPN to connect at boot or to re-connect automatically after disconnection. These features may be available at the client OS side but not supported by Azure.
 
-***Note***: Ensure that "Let apps run in the background" is enabled for all Windows P2S clients as well
+***Note***: Ensure that "Let apps run in the background" is enabled for all Windows P2S clients as well.
 
 ## Other Gateway Issues 
 
@@ -34,8 +34,9 @@ If you identify another issue on the logs other than a Gateway Failover, you mig
 
 ## Client Issues
 
-Sometimes it may be the client having issues - and triggering a VPN disconnection. In that case we can:
-- recommend the customer to collect captures during the next occurrence of the issue and identify which side (client or gateway) terminated the connection.
+Sometimes it may be the client having issues and triggering a VPN disconnection. In that case we can:
+
+- recommend the customer to collect captures during the next occurrence of the issue and identify which side (client or gateway) terminated the connection
 - inspect the [P2SlogsTable](https://jarvis-west.dc.ad.msft.net/81FCCD6B)
 
 ## **Recommended Documents**
