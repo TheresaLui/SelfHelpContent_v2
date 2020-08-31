@@ -43,7 +43,7 @@ No, setting up the appliance on an Azure VM is not recommended.
 **I am getting an error in the Internet prerequisites check on the appliance**
 1. Ensure that you can connect to the required [URLs](https://docs.microsoft.com/azure/migrate/migrate-appliance#url-access) from the appliance.
 1. Check if there is a proxy/firewall blocking access to these URLs. If whitelisting is required, please ensure you whitelist all the URLs.
-1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by clicking on "Set up proxy" in the same step. make sure you provide the authorization credentials if the proxy needs them.
+1. If there is a proxy server configured on-premises, ensure that you provide the proxy details correctly by clicking on "Set up proxy" in the same step. Make sure you provide the authorization credentials if the proxy needs them.
 1. Ensure that the appliance server has not been previously used to set up the [replication appliance](https://docs.microsoft.com/azure/migrate/migrate-replication-appliance) or have mobility service agent installed on the server.
 
 **I am getting an error in the auto update check on the appliance**
@@ -56,9 +56,10 @@ Ensure that you have whitelisted  the required [URLs](https://docs.microsoft.com
 
 Ensure that the Azure user account used to register the appliance has at least the Contributor role on the subscription. You can check for the required Azure roles and permissions [here](https://docs.microsoft.com/azure/migrate/tutorial-prepare-physical#azure-permissions).
 
-**I am unable to see the list of customer subscriptions in the Subscriptions drop-down, when logged in using my CSP credentials on the appliance**
+**I am getting issues when I try to register the appliance using the Azure Migrate project key copied from the project**
 
-Currently, listing of the customer subscriptions managed by a CSP partner is not supported. To register the appliance with an Azure Migrate project in a customer subscription, you need to log in with Azure user account from the customer's tenant to see their subscription(s) in the drop-down.
+1. Ensure that you have copied the correct key from the project. To check, click on **Discover** on the **Server Assessment** card in your project and then click on **Manage Existing appliance** in Step 1. Select the appliance name (for which you generated a key previously) from the drop-down and copy the corresponding key.
+2. Ensure that you are pasting the key to the appliance of the right cloud type (Public/ US Gov) and scenario type (VMware/Hyper-V/Physical or other). Check at the top of appliance configuration manager to confirm the cloud and scenario type.
 
 ### Issues in adding physical, AWS or GCP servers
 
