@@ -21,6 +21,8 @@
 
 You can follow the following best practices when you deploy and manage Azure Stack in your data center to help mitigate data loss in the event of a catastrophic failure.
 
+* [Test your system using the validation tool](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test#tests-available) after you configure the backup using the [console](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-enable-backup-console) or [PowerShell](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-enable-backup-powershell).
+
 * [Infrastructure Backup Service best practices](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-best-practices#monitoring)
 
 ## **Recommended Documents**
