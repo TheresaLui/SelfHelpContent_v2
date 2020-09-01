@@ -35,7 +35,7 @@ First, you remote into one of the App Service controller VMs, get the SQL Server
 
 1. Sign in to the Azure Stack Hub administrator portal. Open the App Service RP blade. If you see a raining cloud image with text *"Failed to load App Service extension. Please check whether App Service resource provider and sql database is up and running"*, the database is not reachable, and you can continue with the following steps. 
 
-    If you don't see the raining cloud image, continue to section [3. Verify that you're using the correct SQL Server SA password](#3-verify-that-youre-using-the-correct-sql-server-sa-password)
+    If you don't see the raining cloud image, continue to section **3. Verify that you're using the correct SQL Server SA password**, below.
 
 2. Get the IP addresses for each SQL Server database VM and the SQL Server load balancer. You use them in later steps:
     1. Open the "Virtual machines" service. 
