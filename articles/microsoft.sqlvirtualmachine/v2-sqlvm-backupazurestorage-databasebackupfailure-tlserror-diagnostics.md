@@ -18,24 +18,11 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-This issue can occur due to .Net version installed on your machine.
+This issue can occur on SQL 2012,2014 and 2016 versions where .Net version does not have TLS Preference as TLS 1.2
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-- This error occurs if your client server enabled Transport Layer Security (TLS) protocol version 1.2 with the following registry.
-
-	```
-	HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client
-	Value:0
-	Name: Enabled
-	Type: REG_DWORD
-	Data: 0x1
-	```
-
-- To fix this issue install the below:
-	- [Cumulative Update 7 for SQL Server 2016 RTM](https://support.microsoft.com/en-in/help/4024304)
-	- [Cumulative Update 4 for SQL Server 2016 SP1](https://support.microsoft.com/en-in/help/4024305)
-	- [Cumulative Update 5 for SQL Server 2014 SP2](https://support.microsoft.com/en-in/help/4013098)
+- Backup to Microsoft Azure blob storage service URL isn’t compatible for TLS 1.2 and can be fixed by following this [KB article](https://support.microsoft.com/help/4017023/fix-sql-server-2014-or-2016-backup-to-microsoft-azure-blob-storage-ser).
 
 ## **Recommended Documents**
 
