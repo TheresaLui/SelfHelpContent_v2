@@ -18,14 +18,13 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-This issue can occur on SQL 2012,2014 and 2016 versions where .Net version does not have TLS Preference as TLS 1.2
+This issue can occur on SQL 2012,2014 and 2016 versions where .Net version does not have TLS Preference as TLS 1.2.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
-- Backup to Microsoft Azure blob storage service URL isn’t compatible for TLS 1.2 and can be fixed by following this [KB article](https://support.microsoft.com/help/4017023/fix-sql-server-2014-or-2016-backup-to-microsoft-azure-blob-storage-ser).
+
+- Backup to Microsoft Azure blob storage service URL isn’t compatible for TLS 1.2, and can be fixed by following this [KB article](https://support.microsoft.com/help/4017023/fix-sql-server-2014-or-2016-backup-to-microsoft-azure-blob-storage-ser)
 
 ## **Recommended Documents**
 
 * [FIX: SQL Server 2014 or 2016 Backup to Microsoft Azure Blob storage service URL isn't compatible for TLS 1.2](https://support.microsoft.com/en-in/help/4017023/fix-sql-server-2014-or-2016-backup-to-microsoft-azure-blob-storage-ser)
-
-
