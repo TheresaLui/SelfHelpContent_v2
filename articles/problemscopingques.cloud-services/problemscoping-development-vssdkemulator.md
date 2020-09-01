@@ -70,7 +70,44 @@
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
             "required": true
+        },
+        {
+        "id": "cloud_service_slots",
+        "order": 5,
+        "controlType": "dropdown",
+        "displayLabel": "Slot",
+        "watermarkText": "Choose an option",
+        "required": false,
+        "dropdownOptions": [{
+            "value": "Production",
+            "text": "Production"
+        }, {
+            "value": "Staging",
+            "text": "Staging"
+        }]
+        },
+        {
+        "id": "cloud_service_roles",
+        "order": 6,
+        "controlType": "dropdown",
+        "displayLabel": "Please select the relevant role if applicable",
+        "watermarkText": "Choose an option",
+        "required": false,
+        "visibility": "cloud_service_slots != null && cloud_service_slots != dont_know_answer",
+        "dynamicDropdownOptions": {
+            "dependsOn": "cloud_service_slots",
+            /subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyAssignments?api-version=2019-01-01&$filter=atScope()",
+            "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.classiccompute/domainnames/{resourceName}/slots/{replaceWithParentValue}/roles?&api-version=2015-06-01",
+            "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "name",
+            "valuePropertyRegex": "^+$",
+            "defaultDropdownOptions": {
+                "value": "dont_know_answer",
+                "text": "Other, Don't Know or Not Applicable"
+            }
         }
+    },
     ],
     "$schema": "SelfHelpContent"
 }
