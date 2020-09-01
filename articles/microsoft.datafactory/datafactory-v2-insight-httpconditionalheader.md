@@ -13,7 +13,8 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Copy activity failed due when the condition in Http header is not met'

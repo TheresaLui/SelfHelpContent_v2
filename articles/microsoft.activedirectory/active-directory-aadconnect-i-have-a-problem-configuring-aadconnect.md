@@ -10,8 +10,9 @@
     supportTopicIds="32684502"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="05971907-6ad9-4edd-ab74-63c35d96bf7a"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # I have a problem configuring AADConnect

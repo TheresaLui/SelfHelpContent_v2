@@ -11,7 +11,8 @@
 	selfHelpType="generic"
 	resourceTags=""
 	articleId="dw-createscalepauseresumedelete-cannotscalehigherorlower.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Cannot scale higher or lower
 
@@ -26,4 +27,5 @@ If you are unable to scale lower, it is usually because some lower service level
 * [DTU quota limits](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-service-capacity-limits)<br>
 * [Scale from Azure portal](https://docs.microsoft.com/azure/sql-data-warehouse/quickstart-scale-compute-portal)<br>
 * [Scale from PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/quickstart-scale-compute-powershell)<br>
-* [Scale from T-SQL](https://docs.microsoft.com/azure/sql-data-warehouse/quickstart-scale-compute-tsql)
+* [Scale from T-SQL](https://docs.microsoft.com/azure/sql-data-warehouse/quickstart-scale-compute-tsql)<br>
+* [Permissions for scaling SQL Pools](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-compute-overview#permissions)

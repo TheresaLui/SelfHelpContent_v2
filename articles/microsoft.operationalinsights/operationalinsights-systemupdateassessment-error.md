@@ -10,8 +10,9 @@
     supportTopicIds="32536558"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="72310f50-ea8f-454c-a639-3377b6d7e86e"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # systemupdateassessment-error

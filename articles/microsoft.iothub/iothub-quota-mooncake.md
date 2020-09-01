@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="iothub-quota-mooncake"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Manage your IoT Hub pricing or scale

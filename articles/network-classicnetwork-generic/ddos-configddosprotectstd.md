@@ -9,8 +9,9 @@
     supportTopicIds="32605607"
     resourceTags=""
     productPesIds="16355"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="8d1ab792-6b8e-458e-a131-272fbe37aaf5"
+	ownershipId="CloudNet_AzureDDoSProtection"
 />
 # Configure DDoS protection standard
 ## **Recommended documents**

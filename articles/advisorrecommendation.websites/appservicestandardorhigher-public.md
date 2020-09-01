@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="59a83512-d885-4f09-8e4f-c796c71c686e_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="Compute_AppService"
 />
 # Move your App Service resource to Standard or higher and use deployment slots
 ---

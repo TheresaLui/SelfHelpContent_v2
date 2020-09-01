@@ -10,8 +10,9 @@
 	supportTopicIds="32727936"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	articleId="configpolicy_automatic"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection client - Creating and configuring Labels and Policies - Automatic classification not behaving as expected"
@@ -30,11 +31,9 @@
 
 6. Note that **Automatic** labeling is available for all Office apps, whereas **Recommended** is available for all Office apps except for Outlook
 
-7. If automatic labeling isn't working for Outlook when attaching a labeled document, verify that DRMEncryptProperty isn't defined as described here: [IRM registry settings for security](https://docs.microsoft.com/deployoffice/security/protect-sensitive-messages-and-documents-by-using-irm-in-office#office-2016-irm-registry-key-options)
+7. You cannot use automatic classification for documents and emails that were previously manually labeled, or previously automatically labeled with a higher classification. More information can be found here: [How automatic or recommended labels are applied](https://docs.microsoft.com/azure/information-protection/configure-policy-classification#how-automatic-or-recommended-labels-are-applied)
 
-8. You cannot use automatic classification for documents and emails that were previously manually labeled, or previously automatically labeled with a higher classification. More information can be found here: [How automatic or recommended labels are applied](https://docs.microsoft.com/azure/information-protection/configure-policy-classification#how-automatic-or-recommended-labels-are-applied)
-
-9. If you still experiencing issues, please collect Azure Information Protection client logs and attach the exported logs to this ticket.
+8. If you still experiencing issues, please collect Azure Information Protection client logs and attach the exported logs to this ticket.
 
 
 ### Export Azure Information Protection logs

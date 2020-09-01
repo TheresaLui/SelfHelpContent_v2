@@ -6,13 +6,14 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32636784"
+	supportTopicIds="32636784,32738475"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-mongodbmigration"
 	displayOrder="224"
 	category="MongoDB"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Import MongoDB data into CosmosDB

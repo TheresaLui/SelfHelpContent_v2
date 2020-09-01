@@ -6,10 +6,11 @@
     productPesIds="16580"
     authors="parakhj"
     ms.author="parja"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="bbc964b0-abd5-454c-a3d6-166efb09c09a"
-    />
+    	ownershipId="AzureIdentity_B2C"
+/>
 # Problem with AAD B2C policy management 
 ---
 {

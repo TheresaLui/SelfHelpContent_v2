@@ -4,11 +4,12 @@
     authors="samiranshah"
     ms.author="samirans"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32629472,32629492,32637151"
+    supportTopicIds="32629472,32629492,32637151,32629491,32629526,32680901,32637152,32680902,32680903"
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="DataFactoryRunIdScopingQues"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Data Factory Pipeline and Trigger Run

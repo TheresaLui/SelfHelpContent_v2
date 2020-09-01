@@ -13,7 +13,8 @@
 	supportTopicIds="32688679"
 	resourceTags=""
 	productPesIds="16867"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="AzureEA_SelfDeflectionContent"
 />
 
 # Change account owner
@@ -25,7 +26,7 @@ Enterprise administrators can use the Azure EA portal to transfer subscription a
 - Transfers from a Work or School account to another Work or School account are supported
 - Transfers from a Microsoft account to a Work or School account are supported
 - Transfers from a Work or School account to a Microsoft account are not supported
-- Transfers from a Microsoft account to another Microsoft account are supported. The target account must be a valid Azure Commerce account to be a valid target for transfers.  For new accounts, you are asked to create an Azure Commerce account when signing in to the Azure EA portal. For existing accounts, you must first create a new Azure subscription before the account is eligible.
+- Transfers from a Microsoft account to another Microsoft account are supported. The target account must be a valid Azure Commerce account to be a valid target for transfers.  For new accounts, you are asked to create an Azure Commerce account when signing in to the Azure EA portal. For existing accounts, you must first create a new Azure subscription before the account is eligible.
 - When you complete a subscription transfer, Microsoft updates the account owner
 
 ### RBAC Policies

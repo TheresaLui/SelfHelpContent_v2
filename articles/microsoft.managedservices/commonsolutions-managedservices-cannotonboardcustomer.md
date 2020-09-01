@@ -13,7 +13,8 @@
 	supportTopicIds="32642166"
 	resourceTags=""
 	productPesIds="16761"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="Compute_AzureLighthouse"
 />
 
 # Cannot onboard customer

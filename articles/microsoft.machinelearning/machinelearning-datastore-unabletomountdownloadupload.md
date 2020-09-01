@@ -9,8 +9,9 @@
 	supportTopicIds="32690891"
 	resourceTags=""
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleid="machinelearning-datastore-unabletomountdownloadupload"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Unable to mount, download, upload to a datastore

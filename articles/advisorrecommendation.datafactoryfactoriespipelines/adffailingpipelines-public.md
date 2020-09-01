@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="f6e3ad9c-5d58-48ba-b06b-ebffba60dd18_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 # Delete failing ADF pipelines
 ---

@@ -10,8 +10,9 @@
     supportTopicIds="32677627"
     resourceTags=""
     productPesIds="15791"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="b600cd7d-0efe-41c5-b198-ea10ae25bce5"
+	ownershipId="Compute_LogicApps"
 />
 
 # Receiving or Transmitting data through a specific Connector - File System

@@ -9,8 +9,9 @@
     selfHelpType="resource"
     resourceTags="licensing_overview"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="c7120d5d-e561-40d3-807f-58d97a215580"
+	ownershipId="AzureIdentity_User"
 />
 
 # I can't assign licenses to a user or group

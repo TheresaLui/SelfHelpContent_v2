@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632927"
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="public, Mooncake, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 #  Add Edit VAT TAX ID or PO Number
 ---

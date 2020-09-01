@@ -6,13 +6,14 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32636805,32636825"
+	supportTopicIds="32741531,32636825"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-admin-backuprestore"
 	displayOrder="1"
 	category="CosmosDB Backup and Restore"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Backup and restore

@@ -10,8 +10,9 @@
 	supportTopicIds="32632948"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake, usnat, ussec"
 	articleId="issueswithpurchasesignuporupgrade-unabletopurchase"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Purchase,signup or upgrade - unable to unable to make a purchase

@@ -10,8 +10,9 @@
     supportTopicIds="32731236"
     resourceTags=""
     productPesIds="16922"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="creating-a-hub-virtual-network"
+	ownershipId="CloudNet_AzureFirewallManager"
 />
 # Creating a hub virtual network
 

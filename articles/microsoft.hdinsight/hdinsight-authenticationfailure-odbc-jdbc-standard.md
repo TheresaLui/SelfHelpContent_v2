@@ -10,8 +10,9 @@
     supportTopicIds="32636487"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="3b5d74bc-904c-45fe-a42c-ccf8934b303d"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Azure HDInsight Authentication Failure: ODBC or JDBC connecting to standard cluster in standard cluster

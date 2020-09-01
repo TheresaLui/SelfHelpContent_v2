@@ -10,8 +10,9 @@
     supportTopicIds="32629492"
     resourceTags=""
     productPesIds="15613"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="DataFactoryRunIdTroubleshooter"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Data Factory Pipeline and Trigger Run

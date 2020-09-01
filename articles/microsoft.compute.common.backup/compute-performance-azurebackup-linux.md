@@ -10,8 +10,9 @@
 	supportTopicIds="32565496"
 	resourceTags=""
 	productPesIds="15571, 15797, 16454,16470"
-	cloudEnvironments="public,mooncake"
+	cloudEnvironments="public,mooncake, Fairfax, usnat, ussec"
 	articleId="fce07854-8ea1-438f-b4be-ca31d438689b"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Azure Backup - Performance

@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32635196"
 	productPesIds="15818"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Create/Scale/Pause/Resume/Delete/Failed to create or delete database
 ---

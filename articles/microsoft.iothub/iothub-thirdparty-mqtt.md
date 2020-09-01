@@ -10,8 +10,9 @@
 	supportTopicIds="32630540"
 	resourceTags=""
 	productPesIds="15946"
-	cloudEnvironments="public,BlackForest,Fairfax"
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec"
 	articleId="79e0b13e-ea7e-4ac7-ae18-dec104fe14f8"
+	ownershipId="AzureIot_IotHub"
 />
 
 # How to use a third party MQTT client with an IoT Hub

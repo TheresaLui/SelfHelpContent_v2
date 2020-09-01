@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640048"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mysql-toolsapis-azure_portal"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Portal, Client Tools and APIs - Azure Portal
 ---

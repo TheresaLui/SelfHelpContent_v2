@@ -10,8 +10,9 @@
     supportTopicIds="32629775"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="b855b718-b824-476d-a3e2-0e8b8235a606"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Deletion threshold exceeded

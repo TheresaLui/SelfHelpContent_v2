@@ -9,10 +9,11 @@
 	supportTopicIds="32636787"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-cassandra-errorsincorrectresult"
 	displayOrder="142"
 	category="Cassandra"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Cassandra API - Common errors

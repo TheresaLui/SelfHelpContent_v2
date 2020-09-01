@@ -7,8 +7,9 @@
     displayOrder="2524"
     selfHelpType="resource"
     resourceTags="Azure_RBAC"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="4f37ac19-64d8-44e5-881d-51bd8d9a9a5a"
+	ownershipId="AzureIdentity_User"
 />
 
 # Unable to view subscriptions in the Azure portal

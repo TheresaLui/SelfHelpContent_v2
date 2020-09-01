@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
 	articleId="5d6f9de9-9947-4b4b-aedb-65770f874e66"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # I'm experiencing performance issues

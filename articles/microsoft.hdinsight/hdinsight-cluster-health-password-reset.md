@@ -10,8 +10,9 @@
     supportTopicIds="32629108"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-cluster-health-password-reset"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight: Password Reset
  

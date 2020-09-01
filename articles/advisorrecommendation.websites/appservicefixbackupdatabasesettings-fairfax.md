@@ -6,6 +6,7 @@
     articleId="b30897cc-2c2e-4677-a2a1-107ae982ff49_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="Compute_AppService"
 />
 # Fix the backup database settings of your App Service resource
 ---

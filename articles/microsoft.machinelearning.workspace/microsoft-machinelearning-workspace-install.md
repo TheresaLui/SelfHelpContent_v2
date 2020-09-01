@@ -8,9 +8,10 @@
 	ms.author="johwu"
 	supportTopicIds="32690840"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.workspace.install"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Can't install or update SDK or CLI

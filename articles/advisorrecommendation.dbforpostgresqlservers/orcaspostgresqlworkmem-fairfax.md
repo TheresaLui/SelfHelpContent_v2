@@ -6,6 +6,7 @@
     articleId="2613de4e-b3d7-11e9-a2a3-2a2ae2dbcce4_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Increase the server work_mem to avoid excessive disk spilling
 ---
@@ -15,8 +16,10 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "e2fa79e2-b3e0-11e9-a2a3-2a2ae2dbcce4",
   "dataSourceMetadata": {
+    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetPostgreSqlWorkMemRecommendations",
     "schemaVersion": 2.0,
-    "dataSource": "SAS"
+    "dataSource": "Kusto",
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "Medium",

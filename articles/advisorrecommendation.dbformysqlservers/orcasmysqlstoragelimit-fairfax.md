@@ -6,6 +6,7 @@
     articleId="c0576597-4910-48b5-9828-5b3a99190b82_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Scale the storage limit for MySQL server
 ---
@@ -15,8 +16,10 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "c0576597-4910-48b5-9828-5b3a99190b82",
   "dataSourceMetadata": {
+    "streamNamespace": "cluster('https://sqlazureusg.kusto.usgovcloudapi.net').database('FairFax').GetMySqlStorageRecommendations",
     "schemaVersion": 2.0,
-    "dataSource": "SAS"
+    "dataSource": "Kusto",
+    "refreshInterval": "12:00:00"
   },
   "recommendationCategory": "Performance",
   "recommendationImpact": "High",

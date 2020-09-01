@@ -9,9 +9,10 @@
     selfHelpType="generic"
     supportTopicIds="32639976"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="48a86109-e938-4adf-8030-3b7548e3e838"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Enable or disable replication support

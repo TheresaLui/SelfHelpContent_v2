@@ -10,8 +10,9 @@
     supportTopicIds="32593224"
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="224ee513-b987-463d-891d-1bc9b154c8b1"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Configuration server issues and queries - VMware/Physical to Azure

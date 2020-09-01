@@ -6,13 +6,14 @@
 	authors="jimsch"
 	ms.author="jimsch"
 	selfHelpType="generic"
-	supportTopicIds="32636803"
+	supportTopicIds="32741532"
 	resourceTags=""
 	productPesIds="15585"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-admin-other"
 	displayOrder="28"
 	category="Administration"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 
 # Azure Cosmos DB Administration Other Topics

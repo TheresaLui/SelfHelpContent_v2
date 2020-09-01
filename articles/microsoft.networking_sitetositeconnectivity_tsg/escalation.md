@@ -10,8 +10,9 @@
 	supportTopicIds="32591158,32584882,32584881"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c7ce79a1-b8da-4055-a25f-17f027920608"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 
 # VPN Gateway escalation path

@@ -10,7 +10,8 @@
     selfHelpType="generic"
     supportTopicIds="32684743"
     productPesIds="16250"
-    cloudEnvironments="public,fairfax,mooncake,blackforest"
+    cloudEnvironments="public,fairfax,mooncake,blackforest, usnat, ussec"
+	ownershipId="AzureMonitoring_Essentials"
 />
 
 # <-- metrics-export-or-query-rest-api -->

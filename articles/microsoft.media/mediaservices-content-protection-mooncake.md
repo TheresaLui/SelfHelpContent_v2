@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
  	articleId="8532932d-b103-4c2e-b249-2eff496bd062"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # How do I configure content protection for my stream?

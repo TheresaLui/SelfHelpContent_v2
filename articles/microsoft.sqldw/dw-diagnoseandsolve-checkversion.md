@@ -11,7 +11,8 @@
 	selfHelpType="resource"
 	resourceTags="datawarehouse"
 	articleId="dw-diagnoseandsolve-checkversion.md"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_SQLDataWarehouse"
 />
 # Check your SQL Data Warehouse version and Release Notes
 

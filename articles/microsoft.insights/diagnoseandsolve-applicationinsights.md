@@ -9,7 +9,8 @@ displayOrder=""
 articleId="8eab3943-d5a7-4823-aeb0-faf5420d7184"
 selfHelpType="diagnoseandsolve"
 productPesIds="15693"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 
 # Top common problems for Application Insights?

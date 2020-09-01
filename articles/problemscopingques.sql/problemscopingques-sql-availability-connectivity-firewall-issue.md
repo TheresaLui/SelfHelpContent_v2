@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32630423"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="1BBD6149-205A-42C1-A193-7B2C571FFFA6"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 # Scoping questions for Firewall Errors
 ---

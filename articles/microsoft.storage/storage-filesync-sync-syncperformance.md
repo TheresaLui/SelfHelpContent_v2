@@ -10,8 +10,9 @@
 	supportTopicIds="32675724"
 	resourceTags=""
 	productPesIds="16460"
-	cloudEnvironments="public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="c6e8ffed-2d11-4764-be9a-fcec3364bafa"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 
 # Troubleshooting Azure File Sync performance issues

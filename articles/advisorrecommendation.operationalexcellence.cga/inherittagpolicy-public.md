@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="b2c74ac7-061e-4164-b272-ecb0940f5966_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"/>
+    cloudEnvironments="Public, usnat, ussec"	ownershipId="CGA_DataPlatform"
+/>
 # Enforce 'Inherit a tag from the resource group' using Azure Policy
 ---
 {

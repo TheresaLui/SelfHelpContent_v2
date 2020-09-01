@@ -10,10 +10,11 @@
     supportTopicIds="32628264,32628261,32628277,32628275,32628268,32628270"
     resourceTags="windows, linux, windowsSQL, redhat"
     productPesIds="14749,15571,15797,16454"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="5b164da5-bc96-47b3-8bd9-74cfcf4db851"
     category="performance"
     searchTags="slow, performance, vm"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # My VM is slow

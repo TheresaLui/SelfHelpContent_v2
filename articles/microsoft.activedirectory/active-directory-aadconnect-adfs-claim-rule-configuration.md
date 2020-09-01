@@ -9,9 +9,10 @@
 	supportTopicIds="32615368"
 	resourceTags=""
 	productPesIds="16579"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     ms.author="billmath"
 	articleId="e5a77324-fcfe-46c1-9bc0-c4c21d423fc7"
+	ownershipId="AzureIdentity_MultiFactorAuthentication"
 />
 
 # Claim Rule Configuration

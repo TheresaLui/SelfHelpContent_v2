@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="iothub-connectivityissues-performanceorthrottling-mooncake"
+	ownershipId="AzureIot_IotHub"
 />
 
 # Issues with device-to-cloud messages

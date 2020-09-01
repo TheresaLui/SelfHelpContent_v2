@@ -9,8 +9,9 @@
 	supportTopicIds="32608958"
 	resourceTags=""
 	productPesIds="15842"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="4092a983-fed1-48e7-a675-4cda061b7673"
+	ownershipId="Compute_ServiceFabric"
 />
 
 # performance/reconfigtakeslongtime

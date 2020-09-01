@@ -12,7 +12,8 @@ diagnosticScenario="Enable Storage Analytics Log in Azure Portal"
 selfHelpType="diagnostics"
 supportTopicIds=""
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Enable StorageEnableAnalyticsLoggingInsight in Azure Portal

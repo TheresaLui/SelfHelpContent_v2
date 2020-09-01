@@ -10,8 +10,9 @@
     supportTopicIds="32629101"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-cluster-health-other"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight: Cluster Health
  

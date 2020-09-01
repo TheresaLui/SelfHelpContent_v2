@@ -10,8 +10,9 @@
     supportTopicIds="32591151"
     resourceTags=""
     productPesIds="16094"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     articleId="7b5af541-1fdd-40f7-88cc-824e4027e949"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Configure BGP, routing, forced tunneling 
 

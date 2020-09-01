@@ -9,8 +9,9 @@
 	supportTopicIds="32680972"
 	resourceTags=""
 	productPesIds="16509"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
+	cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
 	articleId="69fb242f-5690-44f4-9426-e3a2923a974d"
+	ownershipId="AzureIot_IotEdge"
 />
 
 # Messages aren't being routed between modules

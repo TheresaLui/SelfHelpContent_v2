@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32633817"
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 # Account Review
 ---
@@ -35,6 +36,9 @@
       "required": true,
       "hints": [
                 {
+                    "text": "We will work on your case immediately and might call you to resolve your issue"
+		 },
+		{
                     "text": "Please take a look at your contact information <a href='https://account.azure.com/Profile'>here</a>, and update anything that might be incorrect"
                 },
 		 {

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="classiccompute-myvmrestartedunexpectedly-linux-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My VM restarted unexpectedly

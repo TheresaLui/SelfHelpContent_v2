@@ -11,8 +11,9 @@
     supportTopicIds="32684522"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
-    />
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+    	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
+/>
 
 # Synchronization is running but I see incorrect or unexpected results
 

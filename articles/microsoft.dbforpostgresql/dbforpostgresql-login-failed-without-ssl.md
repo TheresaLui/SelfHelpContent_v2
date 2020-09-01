@@ -11,8 +11,9 @@
 	selfHelpType="rca"
 	supportTopicIds="32628416"
 	resourceTags="windows, linux"
-	productPesIds="16222"
-	cloudEnvironments="public"
+	productPesIds="16222, 17067"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Can't connect PostgreSQL database server because of SSL connection errors

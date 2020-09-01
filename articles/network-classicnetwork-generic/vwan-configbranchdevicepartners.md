@@ -9,8 +9,9 @@
 	supportTopicIds="32609809"
 	resourceTags=""
 	productPesIds="16572"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="b2ed4643-fdc3-4e28-9938-c7fbb71c290f"
+	ownershipId="CloudNet_VirtualWAN"
 />
 
 # Configure a branch device for Partners

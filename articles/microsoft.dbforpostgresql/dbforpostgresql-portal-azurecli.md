@@ -9,9 +9,10 @@
     selfHelpType="generic"
     supportTopicIds="32639969"
     resourceTags="servers, databases"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="16222, 17067"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="ccbe95b1-927f-4e7b-a108-d15114886d8f"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 
 # Using Azure CLI for Azure Database for PostgreSQL

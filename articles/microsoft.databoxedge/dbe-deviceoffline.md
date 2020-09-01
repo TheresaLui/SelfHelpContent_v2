@@ -11,8 +11,9 @@
 	supportTopicIds="32614304, 32635434, 32635435"
 	resourceTags="DataBoxEdge"
 	productPesIds="16597"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="f01eccea-2e5f-4ecb-af6c-4e541fa92754"
+	ownershipId="StorageMediaEdge_DataBox "
 />
 
 # My device appears offline in the portal

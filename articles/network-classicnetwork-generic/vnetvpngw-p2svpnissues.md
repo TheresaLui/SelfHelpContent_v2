@@ -9,8 +9,9 @@
 	supportTopicIds="32584878"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="fbbd16a1-4abf-48c3-a9ca-7834280dc5ae"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # p2s vpn issues

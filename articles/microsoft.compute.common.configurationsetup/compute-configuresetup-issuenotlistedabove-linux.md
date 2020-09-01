@@ -10,8 +10,9 @@
 	supportTopicIds="32679091"
 	resourceTags=""
 	productPesIds="15571,15797,16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="f821e4bf-7c75-47f9-91a0-bbb795f07645"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Configuration - My issue is not listed above

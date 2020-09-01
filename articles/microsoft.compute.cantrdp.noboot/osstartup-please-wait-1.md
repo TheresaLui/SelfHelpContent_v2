@@ -1,47 +1,61 @@
 <properties
-    pageTitle="VM boot error"
-    description="Virtual machine failed to boot because it couldn't initialize Windows"
-    infoBubbleText="A boot error 'Please wait for the Local Session Manager' has been found for your virtual machine. The operating system is corrupted and you'll need to restart your machine."
+    pageTitle="VM boot error: Pleast wait"
+    description="Virtual machine becomes unresponsive during boot and requests that you please wait."
+    infoBubbleText="A boot error occurred your VM with the message 'Please wait'."
     service="microsoft.compute"
     resource="virtualmachines"
-    authors="jasonbandrew,timbasham"
-    authorAlias="v-jasoan"
-    ms.author="v-jasoan,tibasham"
+    authors="mibufo"
+    ms.author="v-mibufo"
     displayOrder=""
     articleId="OSStartUp-PLEASE_WAIT"
     diagnosticScenario="booterror"
     selfHelpType="diagnostics"
-    supportTopicIds=""
+    supportTopicIds="32411835"
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+    ownershipId="Compute_VirtualMachines_Content"
 />
 
-# VM Boot Error
+# VM Boot Error: Please wait
+
 <!--issueDescription-->
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because we could not find an operating system.
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because Windows became unresponsive with the message **Please wait**. If you encounter this error message, it could be due to a slow boot scenario, typically from a 3rd party service delaying startup of other services. Alternatively, it may be due to a code defect with profsvc.dll where the Profile Service and the Service Control Manager (SCM) have conflicting locks that prevent their processes from completing. There may also be other causes that can only be determined through a crash dump file analysis.
 <!--/issueDescription-->
+
+Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would Windows stuck with the message **Please wait**. This may also help you diagnose future issues and determine if a boot error is the cause.<br>
 
 ## **Recommended Steps**
 
-Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.VmSerialConsoleLogBlade.id.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM.  For this issue, the screenshot would reflect the error code **An operating system wasn't found. Try disconnecting any drivers that don't contain an operating system. Press Ctrl+Alt+Del to restart**.  This may also help you diagnose future issues and determine if a boot error is the cause.<br>
+1. Use [steps 1-3 of the VM Repair Commands](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/repair-windows-vm-using-azure-virtual-machine-repair-commands) to prepare a Repair VM and then use Remote Desktop Connection connect to it.
 
-1. [Stop the VM and create a snapshot](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager)
-2. Run [New-AzureRMRescueVM.ps1](https://github.com/Azure/azure-support-scripts/blob/master/VMRecovery/ResourceManager/New-AzureRMRescueVM.ps1)
-3. The image is currently unrecoverable, so you will need to follow the steps to [upload a generalized VHD to Azure to create a new VM](https://docs.microsoft.com/azure/virtual-machines/windows/sa-upload-generalized)
-4. Identify the Boot partition and the Windows partition. If there's only one partition on the OS disk, this partition is both the Boot partition and the Windows partition. The Windows partition contains a folder named "Windows," and this partition is larger than the others. The Boot partition contains a folder named "Boot." This folder is hidden by default. To see the folder, you must display the hidden files and folders and disable the Hide protected operating system files (Recommended) option. The boot partition is typically 300 MB~500 MB.
+2. In Windows Administrative Tools, open the Registry Editor tool (or enter `REGEDIT` in command prompt), then do the following to validate that the *CleanupProfile* policy is setup:
 
-    1. As administrator, run `bcdedit /store [Boot partition]:\boot\bcd /enum` and copy the Windows Boot Loader identifier. The identifier is a 32-character code in the format xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx. 
-    2. Repair the Boot Configuration data by running the following command lines, using actual values. "Windows partition" is the partition that contains a folder named "Windows, "Boot partition" is the partition that contains a hidden system folder named "Boot, and "Identifier" is the identifier of Windows Boot Loader you found in the previous step:
+	1. Highlight `HKEY_LOCAL_MACHINE`, click **File > Load Hive...**, navigate to `\windows\system32\config` and then open the SYSTEM file.
 
-```
-bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} device partition=[boot partition]:
-bcdedit /store [Boot partition]:\boot\bcd /set {bootmgr} integrityservices enable
-bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} device partition=[Windows partition]:
-bcdedit /store [Boot partition]:\boot\bcd /set {[Identifier]} integrityservices enable
-bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} recoveryenabled Off
-bcdedit /store [Boot partition]:\boot\bcd /set {[identifier]} osdevice partition=[Windows partition]:
-bcdedit /store <BCD FOLDER - DRIVE LETTER>:\boot\bcd /set {<IDENTIFIER>} bootstatuspolicy IgnoreAllFailures
-```
+	2. When you click open and are prompted to enter a name, enter `BROKENSOFTWARE`. You can verify the renaming worked by expanding HKEY_LOCAL_MACHINE and see the extra key you just named.
 
-5. [Run Restore-AzureRMOriginalVM.ps1](https://github.com/Azure/azure-support-scripts/tree/master/VMRecovery/ResourceManager). It will create a PowerShell script, Restore_.ps1, that you will run later to swap the problem VM's OS disk back to the problem VM.
+	3. Open BROKENSOFTWARE and validate that the **CleanupProfile** key exists. If it does then continue with step 2, but if it doesn't then [skip to step 5](#memd).
+
+3. Open an elevated CMD instance and enter the following commands:
+
+		Delete CleanupProfiles key:
+		REG DELETE "HKLM\BROKENSOFTWARE\Policies\Microsoft\Windows\System" /v CleanupProfiles /f
+
+		Unload the BROKENSOFTWARE hive:
+		REG UNLOAD HKLM\BROKENSOFTWARE
+
+
+4. **If you are not running Windows Server 2012 R2 skip this step.** In Windows, go to **Settings > Update & Security** and click the **Check for updates** button. Windows update KB3161606 or KB3172614 fixed a defect that could be the culprit. After updating, [use step 5 of the Repair Commands to reassemble the VM](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/repair-windows-vm-using-azure-virtual-machine-repair-commands#repair-process-example) and verify if the changes made have resolved the issue.
+
+5. <a name="memd"></a>Use [steps 1-3 of the VM Repair Commands](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/repair-windows-vm-using-azure-virtual-machine-repair-commands) to prepare a new Repair VM and then use Remote Desktop Connection connect to it.
+
+If your VM is still not booting, locate the dump file and submit a support ticket:
+
+1. On the repair VM, go to Windows folder in the attached OS disk. If the driver letter that is assigned to the attached OS disk is `F`, you need to go to `F:\Windows`.
+
+2. Locate the `memory.dmp` file, and then [submit a support ticket](https://portal.azure.com/?#blade/Microsoft_Azure_Support/HelpAndSupportBlade) with the memory dump file.
+
+## **Recommended Documents**
+
+* [Troubleshoot RDP Issues](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/rdp)

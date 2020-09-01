@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32602726,32602727,32612602,32612604"
 	productPesIds="16459,16598"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
 	articleId="51f6b586-c2a9-4744-b7d3-8f01cef66201"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 # Blob and ADLS performance issue
 ---

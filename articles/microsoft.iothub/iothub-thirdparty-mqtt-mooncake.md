@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="iothub-thirdparty-mqtt-mooncake"
+	ownershipId="AzureIot_IotHub"
 />
 
 # How to use a third party MQTT client with an IoT Hub

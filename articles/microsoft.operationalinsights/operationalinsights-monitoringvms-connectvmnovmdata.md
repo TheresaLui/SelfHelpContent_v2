@@ -14,7 +14,8 @@ selfHelpType="generic"
 supportTopicIds="32633004"
 resourceTags=""
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Connect VM to workspace or no VM data in workspace

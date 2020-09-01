@@ -6,17 +6,18 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32675746"
          productPesIds="16348"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="bbf20fea-7a20-4522-a96a-01bae88f225f"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Deployment issues with Azure Migrate appliance for Hyper-V
 
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Deployment issues with Azure Migrate appliance for Hyper-V",
     "fileAttachmentHint": "",
     "formElements": [

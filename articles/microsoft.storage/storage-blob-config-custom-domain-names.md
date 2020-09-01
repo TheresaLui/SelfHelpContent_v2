@@ -11,7 +11,8 @@
     supportTopicIds="32602723"
     resourceTags=""
     productPesIds="16459"
-    cloudEnvironments="public, blackForest, fairfax, mooncake"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # How to configure a custom domain name

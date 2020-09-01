@@ -12,8 +12,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="14939f9b-b399-4dd8-a78d-55b79bdd20e8"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # VMs behind Load Balancer (LB) not responding to requests

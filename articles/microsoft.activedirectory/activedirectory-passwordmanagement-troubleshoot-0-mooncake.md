@@ -10,6 +10,7 @@
     resourceTags="sspr_passwordreset"
     cloudEnvironments="MoonCake"
     articleId="activedirectory-passwordmanagement-troubleshoot-0-mooncake"
+	ownershipId="AzureIdentity_User"
 />
 
 # Problems with licensing

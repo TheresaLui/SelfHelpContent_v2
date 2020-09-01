@@ -11,8 +11,9 @@
     diagnosticScenario=""
     productPesIds="15693"
     supportTopicIds="32602225"
-    cloudEnvironments="public"
- />
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+ 	ownershipId="AzureMonitoring_ApplicationInsights"
+/>
 
 # Where's my data?
 

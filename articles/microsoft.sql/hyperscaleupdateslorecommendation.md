@@ -12,7 +12,8 @@
  supportTopicIds="32632131"
  resourceTags=""
  productPesIds="13491"
- cloudEnvironments="public,blackForest,fairfax,mooncake"
+ cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB_Provisioning"
 />
 
 # We ran diagnostics on your resource and found an issue

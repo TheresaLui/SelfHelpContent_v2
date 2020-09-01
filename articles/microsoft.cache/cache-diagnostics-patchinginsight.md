@@ -13,7 +13,8 @@
   supportTopicIds=""
   resourceTags=""
   productPesIds="14783"
-  cloudEnvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="RedisCache_RedisCache"
 />
 
 # We ran diagnostics on your resource and found we patched your Cache

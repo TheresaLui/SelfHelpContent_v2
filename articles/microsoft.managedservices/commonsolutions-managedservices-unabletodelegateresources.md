@@ -13,7 +13,8 @@
 	supportTopicIds="32642169"
 	resourceTags=""
 	productPesIds="16761"
-	cloudEnvironments="public, fairfax"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="Compute_AzureLighthouse"
 />
 
 # Unable to delegate resources

@@ -10,8 +10,9 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="7f7ae579-3adf-49b1-8c83-64ad1a296d30"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # I can't create and populate a dynamic group
@@ -28,3 +29,6 @@
 ## **Recommended Documents**
 
 * [Create attribute-based rules for dynamic group membership](https://docs.microsoft.com/azure/active-directory/active-directory-groups-dynamic-membership-azure-portal)
+
+### **Recommended Videos**
+* [Advanced features of group management: group expiration, dynamic groups, and group naming policy](https://www.youtube.com/watch?v=e9zUqQx5upY)

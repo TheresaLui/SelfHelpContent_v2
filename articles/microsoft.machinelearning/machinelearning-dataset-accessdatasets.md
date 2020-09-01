@@ -9,8 +9,9 @@
 	supportTopicIds="32690832"
 	resourceTags=""
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleid="machinelearning-dataset-accessdatasets"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Accessing datasets in ML experiments

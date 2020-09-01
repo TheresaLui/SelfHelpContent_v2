@@ -6,6 +6,7 @@
     articleId="33e515fe-354c-4016-a0f7-c4d6585aea61_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="AzureData_AzureSQLDB_DataWarehouse"
 />
 # Scale up or update resource class to reduce tempdb contention with SQL Data Warehouse
 ---

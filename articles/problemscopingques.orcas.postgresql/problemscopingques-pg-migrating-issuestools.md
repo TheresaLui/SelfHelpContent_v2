@@ -5,10 +5,11 @@
     ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32639991,32639996"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    productPesIds="17067,17069,17068"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-migrating-issuestools"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Migrating to Azure - Issues with migration & Migration tools
 ---

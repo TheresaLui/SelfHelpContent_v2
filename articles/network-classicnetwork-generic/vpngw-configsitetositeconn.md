@@ -10,8 +10,9 @@
     supportTopicIds="32591149"
     resourceTags=""
     productPesIds="16094"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
     articleId="26aad524-4ae2-4569-bd37-89f22689ae92"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Configure a Site-to-Site connection
 

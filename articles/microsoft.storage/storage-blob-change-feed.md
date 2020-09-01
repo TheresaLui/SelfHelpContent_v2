@@ -10,8 +10,9 @@
 	supportTopicIds="32681789"
 	resourceTags=""
 	productPesIds="16459"
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="100a4092-36b3-4f05-b818-96f1871d6e29"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Blob change feed overview

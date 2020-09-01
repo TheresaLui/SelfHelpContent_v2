@@ -10,8 +10,9 @@
 	supportTopicIds="32588977"
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="da7c4c07-01c3-4c78-b540-dda4f9229c39"
+	ownershipId="CloudNet_LoadBalancer"
 />
 
 # Customer must allow health probes

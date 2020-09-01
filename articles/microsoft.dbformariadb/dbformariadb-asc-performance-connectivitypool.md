@@ -11,13 +11,14 @@
     diagnosticScenario="OrcasMariaDBConnectionPool"
     selfHelpType="rca"
     resourceTags="servers, databases"
-    cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 
 # High percentage of short-lived connections
 
 <!--issueDescription-->
-Thank you for contacting Microsoft support about your performance issues with your MariaDB server <!--$ServerName-->ServerName<!--/$ServerName-->. During our investigation we found that 80% of connections are being closed under 1 second between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime-->. Opening new connections is an expensive operation. The high frequency of connection open/close is likely consuming server resources and making queries slower.
+During our investigation regarding performance issues to your MariaDB server <!--$ServerName-->ServerName<!--/$ServerName--> we found that 80% of connections are being closed under 1 second between <!--$StartTime-->StartTime<!--/$StartTime--> and <!--$EndTime-->EndTime<!--/$EndTime--> (UTC). Opening new connections is an expensive operation. The high frequency of connection open/close is likely consuming server resources and making queries slower.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

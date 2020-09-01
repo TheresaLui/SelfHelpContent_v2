@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""	
 	productPesIds=""
-	cloudEnvironments="public,BlackForest,Fairfax" 
+	cloudEnvironments="public,BlackForest,Fairfax, usnat, ussec" 
 	articleId="c546eb5b-63ef-41f2-8080-a5e72072fccd"
+	ownershipId="AzureMessaging_Common"
 />
 
 # I am receiving a timeout exception

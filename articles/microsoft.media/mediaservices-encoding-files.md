@@ -12,7 +12,8 @@
 	supportTopicIds="32632069"
 	resourceTags=""
 	productPesIds="14885"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Media"
 />
 
 # Encode files with Media Services v3

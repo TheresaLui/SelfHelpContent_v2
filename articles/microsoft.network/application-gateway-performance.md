@@ -10,8 +10,9 @@
     articleId="application-gateway-performance"
  	resourceTags=""
 	productPesIds="15922"
-    cloudEnvironments="public,fairfax,blackforest,mooncake"
- />
+    cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+ 	ownershipId="CloudNet_AzureApplicationGateway"
+/>
 
 # Performance issue
 If your issue is related to 502 errors, high latency, performance monitoring or slow configuration update, then perform the troubleshooting steps mentioned below specific to your issue. If it is a different issue, then please go ahead and file the support request.

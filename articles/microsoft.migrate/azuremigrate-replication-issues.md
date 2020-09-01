@@ -10,21 +10,28 @@
     supportTopicIds="32675757"
     resourceTags=""
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="5a8bcac1-4112-4897-a558-81199f80f5e7"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Azure Migrate: Server Migration replication issues
 
 ## **Recommended Steps**
 
-### Agentless replication of VMWare virtual machines
+### *Agentless replication of VMware virtual machines*
 
-**Receiving transient internal error Azure Migrate**
+**Error:** Key Vault operation failed. Operation - Configure managed storage account, Key Vault - Key-vault-name, Storage Account - storage account name failed with the error
 
-- Check if appropriate [user access policies](https://docs.microsoft.com/powershell/module/azuread/get-azureaduser?view=azureadps-2.0) are set on the key vault which got created as part of replication
-- Switch the user to admin account and set access policies properly
-- Retry replication
+**Error:** Key Vault operation failed. Operation - Generate shared access signature definition, Key Vault - Key-vault-name, Storage Account: storage account name failed with the error:
+
+User access policy might not be assigned to the key vault that was created, when customer has logged in using foreign principal account. Always logged in user access policy should be found in the key vault.
+
+Applied correct permissions by using a local admin to the subscription and performing the following PowerShell commands:
+ 
+$userPrincipalId = $(Get-AzureRmADUser -UserPrincipalName "loggedinuser").Id
+Set-AzureRmKeyVaultAccessPolicy -VaultName "keyvaultname" -ObjectId $userPrincipalId -PermissionsToStorage get, list, delete, set, update, regeneratekey, getsas, listsas, deletesas, setsas, recover, backup, restore, purge
+
 
 **When trying to replicate agentless we get "An internal error occurred. Please retry the operation after some time."**
 
@@ -44,11 +51,12 @@ This error occurs when the VMware account used to access the vCenter server from
 - VirtualMachine.Configuration.DiskChangeTracking
 - VirtualMachine.Configuration.DiskLease
 - VirtualMachine.Provisioning.AllowReadOnlyDiskAccess
+- VirtualMachine.Provisioning.AllowDiskRandomAccess:
 - VirtualMachine.SnapshotManagement.* 
 - VirtualMachine.Provisioning.AllowVirtualMachineDownload
 - VirtualMachine.Interaction.PowerOff
 
-You can update the account with one that has sufficient permissions by going to the [appliance management portal](https://appliance_ip_address:44368)
+You can update the account with one that has sufficient permissions by going to the appliance management portal 
 
 **Replication cycle failed with error "No disk snapshots were found for snapshot replication"**
 
@@ -60,10 +68,10 @@ This error occurs when a storage vMotion happens on a virtual machine under repl
 **Replication cycle failed with error "encountered an error while trying to fetch change blocks"**
 
 * The agentless replication method uses VMware's changed block tracking technology(CBT) to optimize replication. CBT lets Server Migration track and replicate only the blocks that have changed since the last replication cycle. This error occurs if changed block tracking for a replicating virtual machine is reset or if the changed block tracking file is corrupt.
-* If this error occurs, stop replication for the virtual machine, [reset changed block tracking](https://kb.vmware.com/s/article/1031873) on the virtual machine, and then reconfigure replication
+* If this error occurs, stop replication for the virtual machine, reset changed block tracking on the virtual machine, and then reconfigure replication
 * One such known issue that may cause a CBT reset of virtual machine on VMware vSphere 5.5 is described in
-[VMware KB 2048201: Changed Block Tracking is reset after a storage vMotion operation in vSphere 5.x](https://kb.vmware.com/s/article/2048201). If you are on VMware vSphere 5.5 ensure that you apply the updates described in this KB.
-* [Resetting VMware changed block tracking on a virtual machine using VMware PowerCLI](https://kb.vmware.com/s/article/1031873)
+VMware KB 2048201: Changed Block Tracking is reset after a storage vMotion operation in vSphere 5.x. If you are on VMware vSphere 5.5 ensure that you apply the updates described in this KB.
+* Resetting VMware changed block tracking on a virtual machine using VMware PowerCLI 
 
 **Replication cycle failed with error "Snapshot Replication engine encountered timeout"**
 
@@ -83,7 +91,7 @@ If the Azure Migrate appliance is behind a proxy server, ensure that these URLs 
 - *.hypervrecoverymanager.windowsazure.com
 - *.blob.core.windows.net
 
-### Agent based replication of VMware virtual machines and physical servers
+### *Agent based replication of VMware virtual machines and physical servers*
 
 **Troubleshoot connectivity between the Mobility service on the replicating machine and the Configuration Server, and between the replicating machine and a Scale-out Process Server**
 
@@ -102,7 +110,7 @@ Connectivity from the Mobility service to the Configuration Server or Process Se
 * The Configuration Server process ('cxpsprocessserver' in services.msc) that listens on port 443 is not running
 * The Process Server process ('tmansvc' in services.msc) than listens on port 9443 is not running
 
-### Agentless replication of Hyper-V virtual machines
+### *Agentless replication of Hyper-V virtual machines*
 
 **Failures while attempting to replicate a Hyper-V virtual machine**
 

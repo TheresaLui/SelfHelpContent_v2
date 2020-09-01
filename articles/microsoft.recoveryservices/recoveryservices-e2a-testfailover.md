@@ -9,8 +9,9 @@
 	supportTopicIds="32536461"
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="22f1add2-64cc-4c63-b266-bf166e29e6df"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Site Recovery (VMM to Azure)/Unable to connect/RDP/SSH to the failed over virtual machine

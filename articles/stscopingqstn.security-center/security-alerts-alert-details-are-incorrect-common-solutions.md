@@ -11,8 +11,9 @@
     supportTopicIds="32636858"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="4daa9bd3-7bd3-4805-8961-c3d261c17ae1"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Security Alerts - Alert details are incorrect Common Solutions

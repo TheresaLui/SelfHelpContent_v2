@@ -10,8 +10,9 @@
 	supportTopicIds="32727947"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	articleId="portalusage_performance"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection service - Portal usage - Investigating performance and latency issues

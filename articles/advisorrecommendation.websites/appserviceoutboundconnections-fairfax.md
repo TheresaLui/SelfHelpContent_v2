@@ -6,6 +6,7 @@
     articleId="07f9a07d-9030-465c-89dc-b1f712334b83_Fairfax"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Fairfax"
+	ownershipId="Compute_LogicApps"
 />
 # Check outbound connections from your App Service resource
 ---

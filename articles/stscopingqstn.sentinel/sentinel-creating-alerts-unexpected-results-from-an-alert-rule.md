@@ -10,8 +10,9 @@
     supportTopicIds="32691184"
     resourceTags=""
     productPesIds="16690"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="sentinel-creating-alerts-unexpected-results-from-an-alert-rule"
+	ownershipId="Azure_Sentinel"
 />
 
 # You got unexpected results from an alert rule

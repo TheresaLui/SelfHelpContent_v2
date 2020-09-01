@@ -10,8 +10,9 @@
     supportTopicIds="32689666"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     articleId="1a1f6796-7eb0-4dbe-a202-41b66e9bd6e2"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # I have a problem with AADConnect Health Agent registration

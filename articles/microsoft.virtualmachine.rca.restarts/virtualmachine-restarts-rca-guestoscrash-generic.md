@@ -13,7 +13,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines"
 />
 # We ran diagnostics on your resource and found an issue
 <!--issueDescription-->
@@ -41,7 +42,7 @@ To investigate the causes of the VM crash, please use the following references t
 
 To ensure an increased level of protection and redundancy for your application in Azure, we recommend that you group two or more virtual machines in an availability set. To learn more about these high availability options, refer to the following articles:<br>
 
-* [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
-* [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)<br>
+* [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)<br>
+* [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)<br>
 
 Microsoft Azure also provides access to resource health and troubleshooting information in the Azure Portal. To learn more, see the [Azure resource health overview](https://docs.microsoft.com/azure/resource-health/resource-health-overview).

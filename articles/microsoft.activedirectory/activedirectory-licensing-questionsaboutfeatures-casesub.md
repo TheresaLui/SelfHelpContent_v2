@@ -10,8 +10,9 @@
     selfHelpType="generic"
     resourceTags=""
     productPesIds="16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
  	articleId="75a0309d-84c8-4ea3-944b-445f9648501c"
+	ownershipId="AzureIdentity_DirectoryObjectManagement"
 />
 
 # Licensing questions about Azure AD features

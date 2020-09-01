@@ -4,11 +4,12 @@
     authors="Xin-Cheng"
     ms.author="chengxin"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32640027"
-    productPesIds="16222"
-    cloudEnvironments="public"
+    supportTopicIds="32731228"
+    productPesIds="17067,17069,17068"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-pg-perf-resourceconsumption"
+	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Performance and Query Execution - Unexpected increase in resource consumption (CPU, Memory, I/O)
 ---

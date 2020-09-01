@@ -7,11 +7,12 @@
     ms.author="robga"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32688711,32688712"
+    supportTopicIds="32730241"
     resourceTags=""
     productPesIds="16456"
-    cloudEnvironments="public, MoonCake, fairfax"
+    cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
     articleId="97726c01-5bc5-40cf-8a04-fe6204ca247d"
+    ownershipId="Compute_AzurePolicy"
 />
 
 # Azure Policy - Compliance state and details

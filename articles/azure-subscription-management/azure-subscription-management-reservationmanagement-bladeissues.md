@@ -10,8 +10,9 @@
 	supportTopicIds="32680693"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public,BlackForest, Fairfax, MoonCake"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake, usnat, ussec"
 	articleId="reservedinstance-bladeissues"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # reserved instance-blade issues

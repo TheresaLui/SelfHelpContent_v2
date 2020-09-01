@@ -11,7 +11,8 @@
 	diagnosticScenario="OrcasMySQLStorageOverThresholdInsightV2TroubleShooter"
 	selfHelpType="rca"
     resourceTags="servers, databases"
-    cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Orcas MySQL Server storage usage is almost full

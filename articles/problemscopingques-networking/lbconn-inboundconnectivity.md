@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32588977"
 	productPesIds="16098"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="700961cc-d014-4555-be70-2069dc2e00ff"
+	ownershipId="CloudNet_LoadBalancer"
 />
 # SLB - No connectivity to the backend pool
 ---

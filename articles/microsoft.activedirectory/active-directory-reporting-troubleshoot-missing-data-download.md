@@ -10,8 +10,9 @@
     supportTopicIds=""
     resourceTags="azureadrreports_missingdata_audit,azureadrreports_missingdata_signin"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="bd14b922-7cde-4bef-bb27-6023a77d124e"
+	ownershipId="AzureIdentity_User"
 />
 
 # I can’t find any data in the Azure Active Directory activity logs I have downloaded

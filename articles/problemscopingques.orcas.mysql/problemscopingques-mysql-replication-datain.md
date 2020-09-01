@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32673560"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mysql-replication-data_in"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Replication - Data-in replication to Azure Database for MySQL
 ---

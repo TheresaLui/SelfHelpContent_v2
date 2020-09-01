@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32677663, 32677669, 32677687, 32677692, 32677719"
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureDatabricks"
 />
 # Databricks Cluster Source Control Issue
 ---

@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="WindowsSQL"
 	productPesIds="14749"
-	cloudEnvironments="MoonCake"
+	cloudEnvironments="MoonCake, Fairfax"
 	articleId="bb47a6ad-b627-4074-9fdc-5a993827b56b"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # I have a general question about SQL VM

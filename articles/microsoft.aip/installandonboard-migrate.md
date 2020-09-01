@@ -10,11 +10,14 @@
 	supportTopicIds="32727950"
 	resourceTags=""
 	productPesIds="14997"
-	cloudEnvironments="public, blackForest, mooncake, fairfax"
+	cloudEnvironments="public, blackForest, mooncake, fairfax, usnat, ussec"
 	articleId="MIP_Onboard_Install_migrate_to_scc"
+	ownershipId="AzureIdentity_InformationProtection"
 />
 
 # Azure Information Protection  - Installing, Onboarding, or Decommissioning - Migration from AIP to Unified Labeling - SCC
+
+1. If you have already migrated to UL and using SCC to manage your policies, raise a support ticket to Security and Compliance Center team: [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
 
 ## Activate protection from the Azure portal
 

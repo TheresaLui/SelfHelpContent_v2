@@ -9,10 +9,11 @@
 	supportTopicIds="32636828"
 	resourceTags=""
 	productPesIds="15585"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="cosmosdb-sparkconnector"
 	displayOrder="126"
 	category="Tools and Connectors"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Azure Cosmos DB Spark Connector
 Most users are able to resolve their Spark Connector issue using the steps below. 

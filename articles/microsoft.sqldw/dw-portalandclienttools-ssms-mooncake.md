@@ -12,6 +12,7 @@
     resourceTags="datawarehouse"
     articleId="dw-portalandclienttools-ssms-mooncake"
     cloudEnvironments="MoonCake"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Using portal and client tools - SQL Server Management Studio

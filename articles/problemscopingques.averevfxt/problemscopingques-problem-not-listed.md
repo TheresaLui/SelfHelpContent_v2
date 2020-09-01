@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32609691"
 	productPesIds="16506"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="8823dd45-57af-4dc1-8eaf-801f08edd3a8"
+    ownershipId="StorageMediaEdge_AvereVFXT"
 />
 # My problem is not listed
 ---

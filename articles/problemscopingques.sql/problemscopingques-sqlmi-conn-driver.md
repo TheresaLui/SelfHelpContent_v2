@@ -8,8 +8,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32637245,32637247,32637259"
 	productPesIds="16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # SQL Database Managed Instance
 ---

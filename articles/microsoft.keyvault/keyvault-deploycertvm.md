@@ -10,8 +10,9 @@
 	supportTopicIds="32596889"
 	resourceTags="optional"
 	productPesIds="15657"
-	cloudEnvironments="blackForest, fairfax, public, MoonCake"
+	cloudEnvironments="blackForest, fairfax, public, MoonCake, usnat, ussec"
 	articleId="keyvault-deploycertvm"
+	ownershipId="AzureKeyVault_KeyVault"
 />
 
 # Securely deploy certificate to VM

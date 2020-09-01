@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32630414"
 	productPesIds="13491"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	articleId="5588022b-a7f5-459a-a238-bf6b26db52b4"
+	ownershipId="AzureData_AzureSQLDB_Availability"
 />
 
 # availability and connectivity/Configure or use Azure Active Directory (AAD) authentication

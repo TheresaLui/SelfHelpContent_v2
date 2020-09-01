@@ -10,8 +10,9 @@
 	supportTopicIds="32729194,32729195,32729196,32728875"
 	productPesIds="15629,16459,16598,16460"
 	resourceTags=""
-	cloudEnvironments="public, blackForest, fairfax, mooncake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="storage_common_encryption_tls1.2_enabled"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Troubleshoot issues connecting to Storage service over Azure Private Endpoints

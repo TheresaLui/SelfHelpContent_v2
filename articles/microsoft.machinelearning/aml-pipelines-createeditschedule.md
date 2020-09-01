@@ -8,9 +8,10 @@
 	ms.author="bradwall"
 	supportTopicIds="32690846"
 	productPesIds="16644"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
 	articleId="microsoft.machinelearning.pipelines.createeditschedule"
 	selfHelpType="generic"
+	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
 # Creating or Editing an Azure ML Pipeline Schedule

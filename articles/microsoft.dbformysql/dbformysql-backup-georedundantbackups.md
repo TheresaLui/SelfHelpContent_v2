@@ -10,8 +10,9 @@
     supportTopicIds="32640059"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec, Mooncake"
     articleId="9ff641ce-1994-4202-873f-a1d0aedb4bd6"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Backups and restore options for Azure Database for MySQL

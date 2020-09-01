@@ -12,6 +12,7 @@
     productPesIds=""
     cloudEnvironments="MoonCake"
     articleId="compute-myvmisnotbootingwindowsvm-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # Resolve connection issue with your Windows VM

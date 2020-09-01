@@ -10,8 +10,9 @@
     supportTopicIds="32684542"
     resourceTags=""
     productPesIds="16123"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="relay-errors-endpoint-not-found"
+	ownershipId="AzureMessaging_Common"
 />
 
 # Azure Relay

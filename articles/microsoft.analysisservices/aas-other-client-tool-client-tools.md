@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32558773"
 	productPesIds="16157"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="bb3b31e7-3d1a-a547-c7c8-f6bceb2494d9"
+	ownershipId="AzureData_AnalysisServices"
 />
 
 # Connecting to servers

@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32684007"
     productPesIds="15922"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="710961cc-d014-4550-be70-2069dc2e00ff"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 # Questions Application Gateway configuration and setup
 ---

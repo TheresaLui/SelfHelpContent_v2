@@ -13,7 +13,8 @@
     supportTopicIds=""
     resourceTags=""
     productPesIds="16370"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Replication is not progressing as data tracking module is not Loaded

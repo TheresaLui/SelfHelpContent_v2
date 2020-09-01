@@ -12,8 +12,9 @@
 	supportTopicIds="32637224,32637296"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="sqlmanagedinstance-perf-remote-storage-throttling"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Managed Instance - Remote storage throttling

@@ -10,8 +10,9 @@
 	supportTopicIds="32632940"
 	resourceTags=""
 	productPesIds="15659"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="payment-supportedpaymentinstrumentsandcurrencies"
+	ownershipId="ASMS_Billing"
 />
 
 # supported payment instruments and currencies

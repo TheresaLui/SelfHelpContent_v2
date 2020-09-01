@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32675720,32675721,32675722,32675723,32675724,32675725,32675726"
 	productPesIds="16460"
-	cloudEnvironments="Public,MoonCake,FairFax,BlackForest"
+	cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="StorageMediaEdge_StorageFiles"
 />
 # Storage File Sync scoping question
 ---

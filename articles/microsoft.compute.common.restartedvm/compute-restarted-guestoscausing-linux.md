@@ -10,8 +10,9 @@
 	supportTopicIds="32628269"
 	resourceTags=""
 	productPesIds="15797,15571,16454,16470"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="b66f3036-bc84-4466-8934-8b630c022deb"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My guest OS is causing restarts

@@ -12,6 +12,7 @@
 	productPesIds=""
 	cloudEnvironments="MoonCake"
 	articleId="classiccompute-webappnotrespondingortimingout-mooncake"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # My web application is not responding or timing out
