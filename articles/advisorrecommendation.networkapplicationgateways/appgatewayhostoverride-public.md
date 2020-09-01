@@ -65,6 +65,6 @@
     }
   },
   "displayLabel": "Do not override hostname to ensure website integrity",
-  "additionalColumns": [{ "name": "RulesInViolation", "title": "Rules" }]
+  "additionalColumns": [{ "name": "rulesInViolation", "title": "Rules" }]
 }
 ---
