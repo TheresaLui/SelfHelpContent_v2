@@ -27,6 +27,14 @@
       "searchTags": "admin;configuration;backup;files;recovery",
       "category": "Administration and Management",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "642446d4-732b-e503-7611-5763fb9d2bba",
+      "longDescription": "",
+      "shortDescription": "Questions or issues on connecting to Kubernetes Cluster SQL MIAA instance",
+      "searchTags": "kubectl;Kubernetes;connection;connectivity;azdata",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
