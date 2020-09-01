@@ -14,7 +14,7 @@
 	ownershipId="AzureData_DataFactory"
 />
 
-#Self-hosted IR general failure or error
+# Self-hosted IR general failure or error
 
 <br>
  >**Note:** Please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** to provide it with the support request.
