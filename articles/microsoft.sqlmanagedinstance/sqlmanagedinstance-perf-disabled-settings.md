@@ -85,4 +85,3 @@ Managed instance named <!--$ServerName-->ServerName<!--/$ServerName--> on subscr
 [Tune Azure SQL MAXDOP setting with Alter Database](https://docs.microsoft.com/sql/t-sql/statements/alter-database-scoped-configuration-transact-sql?view=sql-server-2017)
 
 [Monitoring Performance by using the Query Store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15)
-
