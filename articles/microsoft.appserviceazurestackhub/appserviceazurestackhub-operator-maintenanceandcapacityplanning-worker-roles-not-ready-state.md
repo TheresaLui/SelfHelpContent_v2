@@ -27,14 +27,14 @@ If you've deployed to an existing virtual network and are using an internal IP a
 
 Check the worker role logs to verify file server health check completion:
 
-1. Sign in to the Azure Stack Hub administrator portal.
-2. Go to the "App Service" service, select the "Roles" blade.
-3. Verify whether any of the Web Worker roles have not reached a "Ready" status.
-4. For any worker roles not in a "Ready" status, select the role.
-5. On the worker role "Instances" blade, select the role instance that has not reached a "Ready" status.
-6. On the worker role "Instance" blade, select the "Logs" button.
+1. Sign in to the Azure Stack Hub administrator portal
+2. Go to the "App Service" service, select the "Roles" blade
+3. Verify whether any of the Web Worker roles have not reached a "Ready" status
+4. For any worker roles not in a "Ready" status, select the role
+5. On the worker role "Instances" blade, select the role instance that has not reached a "Ready" status
+6. On the worker role "Instance" blade, select the "Logs" button
 7. On the "Server Logs" blade, filter on the warning level and scan the log messages. Look for warning message "Failed exercise FileServer at MM/DD/YYYY HH:MM:SS".
-8. If you find the above message, go to the "Network Security Group" blade, and select the "WorkersNsg" security group.
+8. If you find the above message, go to the "Network Security Group" blade, and select the "WorkersNsg" security group
 9. Verify that the [post-deployment steps for NSG configuration](https://docs.microsoft.com/azure-stack/operator/azure-stack-app-service-deploy?pivots=state-connected#post-deployment-steps) have been completed. These steps will walk you through configuration of an outbound security rule, to enable SMB traffic between the worker subnet and the file server.
 
 ### Incorrect Windows Server image 
