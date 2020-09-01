@@ -20,7 +20,7 @@
 # **We ran diagnostics on your resource and found an issue**
 
 <!--issueDescription-->
-The error/symptom indicates you have configured Snapshots/VM Backup using [Azure Backup](https://docs.microsoft.com/azure/backup/backup-overview) which does not do a [Copy-Only Backup](https://docs.microsoft.com/sql/relational-databases/backup-restore/copy-only-backups-sql-server?view=sql-server-ver15) which can cause your Backups configured through maintenance plan, agent jobs or ad hoc backups to fail.
+The error/symptom indicates you have configured Snapshots/VM Backup using Azure Backup which does not do a Copy-Only Backup which can cause your Backups configured through maintenance plan, agent jobs or ad hoc backups to fail.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
