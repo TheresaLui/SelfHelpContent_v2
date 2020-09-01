@@ -102,13 +102,13 @@
             "textProperty": "name",
             "valueProperty": "name",
             "valuePropertyRegex": "^+$",
-            "defaultDropdownOptions": {
-                "value": "dont_know_answer",
-                "text": "Other, Don't Know or Not Applicable"
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, Don't Know or Not Applicable"
+                }
             }
         }
-    },
-    ],
+    ]
     "$schema": "SelfHelpContent"
 }
 ---
