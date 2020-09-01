@@ -19,13 +19,13 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-The error/symptom indicates you have configured Snapshots backup at VM level which by default does not do a copy only backup resulting in breaking the LSN chain for your native backups configured on your SQL Server.
+The error/symptom indicates you have configured Snapshots/VM Backup using [Azure Backup](https://docs.microsoft.com/azure/backup/backup-overview) which does not do a [Copy-Only Backup](https://docs.microsoft.com/sql/relational-databases/backup-restore/copy-only-backups-sql-server?view=sql-server-ver15#:~:text=A%20copy%2Donly%20backup%20is,how%20later%20backups%20are%20restored.) which can cause your Backups configured through maintenance plan, agent jobs or ad hoc backups to fail.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
 
-- To make sure that the native backups don’t get impacted due to other backup applications making LSN updates you can take COPYONLY backups. The copy only backups would not cause impact on LSN of the native backups.
--  To fix this issue, add the following registry keys on each of the VMs hosting SQL server instances and where VM backups are configured and post adding this registry key the native backups should not fail.	
+- Make sure Full backup for the database has been taken at least once.
+-  To fix this issue, add the following [Registry keys](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#troubleshoot-vm-snapshot-issues) on each of the VMs hosting SQL server instances where VM backups are configured: 	
 ```[HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\BCDRAGENT] "USEVSSCOPYBACKUP"="TRUE"```
 
 ## **Recommended Documents**
