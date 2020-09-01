@@ -16,9 +16,7 @@
 
 # Self-hosted IR general failure or error
 
-<br>
- >**Note:** Please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** to provide it with the support request.
-
+**Note:** Please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** to provide it with the support request.
 
 ### TLS/SSL certificate issue
 
@@ -39,10 +37,9 @@ __Resolution__
 Wildcard certificate is supported in Azure Data Factory v2 Self-hosted IR. This issue normally happens because the SSL certificate is not correct. The last DNSName in SAN should be valid. Follow steps below to verify it.
 
 1. Open Management Console, double check both Subject and Subject Alternative Name from the Certificate Details. In above case, for example, the last item in Subject Alternative Name, which is "DNS Name= microsoft.com.com", is not legitimate.
-1. Contact the certificate issue company to remove the wrong DNS Name.
+1. Contact the certificate issue company to remove the wrong DNS Name
 
-
-###Concurrent jobs limit issue
+### Concurrent jobs limit issue
 
 __Symptoms__
 
@@ -72,14 +69,11 @@ When we handle cases related to SSL/TLS handshake, we might encounter some issue
 
 __Resolution__
 
-* Here is a quick and intuitive way to troubleshoot X.509 certificate chain build failure.
+* Here is a quick and intuitive way to troubleshoot X.509 certificate chain build failure:
 
   1. Export the certificate, which needs to be verified. Go to manage computer certificate and find the certificate that you want to check and right-click **All tasks** -> **Export**.
-
-  1. Copy the exported certificate to the client machine.
-
-  1. On the client side, run below command in CMD. Make sure that you have replaced below _<certificate path>_ and _<output txt file path>_ placeholders with related paths.
-
+  1. Copy the exported certificate to the client machine
+  1. On the client side, run below command in CMD. Make sure that you have replaced below _<certificate path>_ and _<output txt file path>_ placeholders with related paths:
 
   ```
   Certutil -verify -urlfetch    <certificate path>   >     <output txt file path>
@@ -102,12 +96,10 @@ __Resolution__
 
   If you do not see any error at the end of the log file, you can consider the certificate chain built up successfully in the client machine.
 
-* If there is AIA, CDP and OCSP configured in the certificate file. We can check it in a more intuitive way.
+* If there is AIA, CDP and OCSP configured in the certificate file, we can check it in a more intuitive way:
 
-  1. You can get this info by checking the details of a certificate. 
-
-  1. Run below command. Make sure that you have replaced _<certificate path>_ placeholder with related path of the certificate.
-
+  1. You can get this info by checking the details of a certificate
+  1. Run below command. Make sure that you have replaced _<certificate path>_ placeholder with related path of the certificate:
 
   ```
   Certutil   -URL    <certificate path> 
