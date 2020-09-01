@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   description="SupportTopicDescriptions for 1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   authors="elixirsys2"
-  ms.author="mcarter"
+  ms.author="mcarter, liamca"
   selfhelptype="SupportTopicDescription"
   productpesids="1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -82,6 +82,14 @@
       "shortDescription": "If you do not see your preferred region listed when you are provisioning your Azure Cognitive Search service.",
       "searchTags": "region;create",
       "category": "Setup and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b26c9aba-93c1-580b-211d-80471cd82afc",
+      "longDescription": "",
+      "shortDescription": "The information displayed in the Azure Cognitive Search portal for the search service or index is not accurate.",
+      "searchTags": "portal;index size incorrect;out of date statistics",
+      "category": "Portal",
       "useInDiagnoseAndSolve": "true"
     },
     {
