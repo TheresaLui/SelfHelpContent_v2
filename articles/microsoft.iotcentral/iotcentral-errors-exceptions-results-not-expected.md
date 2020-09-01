@@ -19,5 +19,5 @@
 ## **Recommended Documents**
 
 * [Troubleshoot why data from your devices isn't showing up in Azure IoT Central](https://docs.microsoft.com/azure/iot-central/core/troubleshoot-connection)
-* [Supported browsers for Azure IoT Central](https://docs.microsoft.com/en-us/azure/iot-central/core/iot-central-supported-browsers)
+* [Supported browsers for Azure IoT Central](https://docs.microsoft.com/azure/iot-central/core/iot-central-supported-browsers)
 * [Known Issues](https://docs.microsoft.com/azure/iot-central/core/overview-iot-central#known-issues)
