@@ -107,7 +107,7 @@
                 }
             }
         }
-    ]
+    ],
     "$schema": "SelfHelpContent"
 }
 ---
