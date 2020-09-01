@@ -66,16 +66,16 @@ pageTitle="Partner Center Cosell offer migration"
 			"id": "ocp_solution_id",
 			"order": 3,
 			"controlType": "textbox",
-			"displayLabel": "URL for Marketplace listing",
-			"watermarkText": "Please enter the URL from Microsoft AppSource or Azure Marketplace.",
+			"displayLabel": "OCP Solution ID",
+			"watermarkText": "Please provide the OCP Solution ID.",
 			"required": true
 		},
 		{
 			"id": "url_for_marketplace_listing",
 			"order": 4,
 			"controlType": "multilinetextbox",
-			"displayLabel": "OCP Solution ID",
-			"watermarkText": "Please provide the OCP Solution ID.",
+			"displayLabel": "URL for Marketplace listing",
+			"watermarkText": "Please enter the URL from Microsoft AppSource or Azure Marketplace.",
 			"required": false
 		},
 		{
