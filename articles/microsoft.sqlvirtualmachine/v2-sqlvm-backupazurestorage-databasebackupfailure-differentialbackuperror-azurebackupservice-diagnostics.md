@@ -26,7 +26,7 @@ The error/symptom indicates you have configured Snapshots/VM Backup using Azure 
 ## **Recommended Steps**
 
 - Make sure Full backup for the database has been taken at least once.
--  To fix this issue, add the following [Registry keys](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#troubleshoot-vm-snapshot-issues) on each of the VMs hosting SQL server instances where VM backups are configured: 	
+- Add the following [Registry keys](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot#troubleshoot-vm-snapshot-issues) on each of the VMs hosting SQL server instances where VM backups are configured: 	
 ```[HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\BCDRAGENT] "USEVSSCOPYBACKUP"="TRUE"```
 
 ## **Recommended Documents**
