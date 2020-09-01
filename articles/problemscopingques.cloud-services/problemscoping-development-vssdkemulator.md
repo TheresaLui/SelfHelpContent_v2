@@ -96,7 +96,6 @@
         "visibility": "cloud_service_slots != null && cloud_service_slots != dont_know_answer",
         "dynamicDropdownOptions": {
             "dependsOn": "cloud_service_slots",
-            /subscriptions/{subscriptionid}/providers/Microsoft.Authorization/policyAssignments?api-version=2019-01-01&$filter=atScope()",
             "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.classiccompute/domainnames/{resourceName}/slots/{replaceWithParentValue}/roles?&api-version=2015-06-01",
             "jTokenPath": "value",
             "textProperty": "name",
