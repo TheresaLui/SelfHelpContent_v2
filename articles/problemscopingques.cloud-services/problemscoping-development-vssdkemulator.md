@@ -89,7 +89,7 @@
         {
         "id": "cloud_service_roles",
         "order": 6,
-        "controlType": "dropdown",
+        "controlType": "multiselectdropdown",
         "displayLabel": "Please select the relevant role if applicable",
         "watermarkText": "Choose an option",
         "required": false,
