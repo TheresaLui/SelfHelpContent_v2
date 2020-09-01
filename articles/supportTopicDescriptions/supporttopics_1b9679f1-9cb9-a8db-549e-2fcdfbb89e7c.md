@@ -107,6 +107,14 @@
       "searchTags": "connectivity;firewall;private endpoints;connection issues",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d6c33adf-7305-21f9-2313-d80cd9ca365d",
+      "longDescription": "",
+      "shortDescription": "For general issues related to the Azure Cognitive Search portal including components not loading or browser related issues.",
+      "searchTags": "portal;general issue;failed to load;browser issue",
+      "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
