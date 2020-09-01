@@ -46,17 +46,11 @@ Wildcard certificate is supported in Azure Data Factory v2 Self-hosted IR. This 
 
 __Symptoms__
 
-When trying to increase the limit concurrent jobs from the Azure Data Factory UI, it hangs as _updating_ forever. The max value of concurrent jobs was set to 24 and you want to increase the count so that jobs can run faster. The minimum value that you can enter is 3 and the maximum value that you can enter is 32. You increased the value from 24 to 32 and hit on update button, in the UI it got stuck on updating as you can see below. After refreshing, the customer still saw the value as 24 and it never got updated to 32.
+When trying to increase the limit concurrent jobs from the Azure Data Factory UI, it hangs as _updating_ forever. The max value of concurrent jobs was set to 24 and you want to increase the count so that jobs can run faster. The minimum value that you can enter is 3 and the maximum value that you can enter is 32. You increased the value from 24 to 32 and hit on update button, in the UI it got stuck on updating. After refreshing, the customer still saw the value as 24 and it never got updated to 32.
 
 __Cause__
 
 There is a limitation for the setting as the value depends on the computer logicCore and Memory, you can just adjust it to a smaller value such as 24 and see the result.
-
- >>**Tip**
- >>
- >> * For details about what the logic core count is, and how to find our machine's logic core count, see this article.
- >> * For details about how to calculate the math.log, see this article.
-
 
 ### Self-hosted IR HA SSL Certificate issue
 
@@ -135,12 +129,11 @@ Could not load file or assembly 'System.ValueTuple, Version=4.0.2.0, Culture=neu
 
 __Cause__
 
-If you take process monitor, you can see following result:
+If you take process monitor, you can see PATH NOT FOUND errors on files accessed from the GAC or Integration Runtime installation path (ie. *System.ValueTuple.dll*)
 
-Process monitor
 
  >> **Tip**
- >>You can set filter as shown in below screenshot. It tells us that the dll *System.ValueTuple* is not located in GAC related folder, or in `cC:\Program Files\Microsoft Integration Runtime\4.0\Gateway`, or in `C:\Program Files\Microsoft Integration Runtime\4.0\Shared` folder. Basically, it will load the dll from _GAC_ folder first, and then from _Shared_ and finally from _Gateway_ folder. Therefore, you can put the dll to any path which can be helpful.
+ >>You can set a filter on the Path column using the file name like *System.ValueTuple*, you will see the file is not located in GAC related folder, or in `C:\Program Files\Microsoft Integration Runtime\4.0\Gateway`, or in `C:\Program Files\Microsoft Integration Runtime\4.0\Shared` folder. Basically, it will load the dll from _GAC_ folder first, and then from _Shared_ and finally from _Gateway_ folder. Therefore, you can put the dll to any path which can be helpful.
 
 
 __Resolution__
