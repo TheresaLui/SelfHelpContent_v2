@@ -22,12 +22,12 @@ At this point, we need to check the following:
 **Was the job run successfully before?**
 
 If any changes were made to job metadata with respect to DBR version, init script and library version or addition of new libraries, revert the changes and run the jobs.
-Some libraries don't support backward compatiablity, so version compatiablity should be throughly checked before migrating jobs clusters to higher DBR versions. Try to run the job after uninstalling the library. If a new version is released for the already existing library, it could be possible that new version might be failing due to version conflict with other dependancies. So install the specific version of the library and rerun the job.
+Some libraries don't support backward compatibility, so version compatibility should be thoroughly checked before migrating jobs clusters to higher DBR versions. Try to run the job after uninstalling the library. If a new version is released for the already existing library, it could be possible that new version might be failing due to version conflict with other dependencies. So install the specific version of the library and rerun the job.
 
 
 **Is the job scheduled to run on interactive cluster?**
 
-If the job is scheduled to run on interactive cluster, check the [Ganglia metrics](https://docs.microsoft.com/azure/databricks/clusters/clusters-manage#ganglia-metrics) to ensure cluster was healthy. If there are too many GC event failures and driver unresponsive events, try to use bigger instance and restart the cluster and then reattempt to run the job.
+If the job is scheduled to run on interactive cluster, check the [Ganglia metrics](https://docs.microsoft.com/azure/databricks/clusters/clusters-manage#ganglia-metrics) to ensure cluster was healthy. If there are too many GC event failures and driver unresponsive events, try to use bigger instance and restart the cluster and then attempt to run the job again.
 
 **Was the spark job created or the job failed in cluster creation stage prematurely?**
 
