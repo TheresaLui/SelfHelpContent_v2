@@ -4,11 +4,11 @@
     authors="hsku"
     ms.author="hsku"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32689664,32689665,32689666,32689668,32684522,32684507,32684508,32684512,32684521,32447390,32447391,32570967,32565593,32570965,32570966"
-    productPesIds="16666,16576"
+    supportTopicIds="32689667"
+    productPesIds="16666"
     cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
-    articleId="8690704c-8c50-4703-b2f4-9f304954a550"
+    articleId="99583156-6f45-421d-beb7-4484967c149a"
     ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
@@ -20,7 +20,7 @@
     "title": "PREVIEW: Get help from our intelligent knowledge base",
     "fileAttachmentHint": null,
     "diagnosticCard": {
-        "title": "PREVIEW: Get help from our intelligent knowledge base",
+        "title": "PREVIEW: Provisioning job analysis",
         "description": "Our self-service troubleshooter can help you troubleshoot and solve your problem.",
         "insightNotAvailableText": "We did not find a match for your specific problem in our knowledge base. See links below for other info that may address your problem."
     },
@@ -72,7 +72,17 @@
             "displayLabel": "Description",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "useAsAdditionalDetails": true,
+            "useAsAdditionalDetails": true
+        },
+        {
+            "id": "jobIdentifier",
+            "order": 5,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Job ID (Unique identifier for your provisioning job, found in the provisioning status info):",
+            "watermarkText": "Example: AD2AADProvisioning.ded4600b620e486eb6f18b4fc7166a5f.b7201e1a-1e1e-430c-8e07-e2c29a9fe9cc",
+            "infoBalloonText": "Unique identifier for your provisioning job, found in the provisioning status info.",
+            "required": false,
+            "numberOfLines": 4,
             "diagnosticInputRequiredClients": "Portal"
         }
     ],
