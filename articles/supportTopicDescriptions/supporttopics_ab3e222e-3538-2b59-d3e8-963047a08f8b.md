@@ -197,6 +197,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d7c18803-5f7e-e4d2-b487-6c9955d98e5b",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues authenticating into the data controller",
+      "searchTags": "Data Controller;Authentication",
+      "category": "Data Controller Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dcf903fe-41f1-302e-6f8a-25e6ee76000d",
       "longDescription": "",
       "shortDescription": "Data controller login and credentials related issues",
