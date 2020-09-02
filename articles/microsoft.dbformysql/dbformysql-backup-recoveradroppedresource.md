@@ -30,12 +30,12 @@ When a server is dropped, the operation cascades to the backups shortly after th
 Next scroll below on Request Body section and paste the following substituting the **Dropped Server Location**, **submissionTimestamp**, and **resourceId**.
 
 {
-"location": "<Dropped Server Location>",  
+"location": "Dropped Server Location",  
 "properties": 
 	{
-    		"restorePointInTime": "<submissionTimestamp>",
+    		"restorePointInTime": "submissionTimestamp",
     		"createMode": "PointInTimeRestore",
-    		"sourceServerId": "<resourceId>"
+    		"sourceServerId": "resourceId"
   	}
 }
 
