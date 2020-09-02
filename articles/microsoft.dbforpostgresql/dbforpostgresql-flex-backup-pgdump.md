@@ -6,7 +6,6 @@
     ms.author="raagyema"
     authors="rachel-msft"
     displayOrder="70"
-    articleId="dbforpostgresql-backup-pgdump.md"
     selfHelpType="resource"
     supportTopicIds="32731216"
     resourceTags="servers, databases"
