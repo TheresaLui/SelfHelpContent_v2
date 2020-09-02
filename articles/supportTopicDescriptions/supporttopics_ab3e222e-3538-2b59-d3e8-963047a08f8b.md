@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "321c67d6-fc1f-f65f-c854-0b2679a1b1bf",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving controller admin scenarios post successful deployment which are not mentioned",
+      "searchTags": "Unknown;Not Listed",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8abb495d-91bd-d82e-ec37-788525666e31",
       "longDescription": "",
       "shortDescription": "Administrative issues - Performance, Configuration, Controller & Monitoring Planes - Pods & Containers availability, Connectivity",
