@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "96d9b589-a9bc-c698-6bbf-225cc0f0f62a",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving data controller deployment failures.",
+      "searchTags": "Data Controller;DC;Deployment Failure;Controller",
+      "category": "Data Controller Create ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c8535d36-dad9-8d04-1395-51c97ea43e58",
       "longDescription": "",
       "shortDescription": "Select this if you need help with resource contention issues on controller or monitoring pods",
