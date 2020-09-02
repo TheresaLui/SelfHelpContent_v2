@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b64aa3f5-cce0-1b8f-7c2c-a6fe28339e28",
+      "longDescription": "",
+      "shortDescription": "Choose this when none of the other general options represent your issue",
+      "searchTags": "general questions",
+      "category": "General Questions",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "becffc5a-2b52-0d69-977a-f0d3bd1adbbb",
       "longDescription": "",
       "shortDescription": "Questions or Issues on Export ,Upload files related to Usage",
