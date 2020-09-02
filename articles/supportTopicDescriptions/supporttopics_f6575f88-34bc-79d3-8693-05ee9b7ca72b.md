@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "467f3cd7-67e4-b947-8c9a-8ba8f9afbb89",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues on Export ,Upload files related to Usage",
+      "searchTags": "upload;export;usage",
+      "category": "Monitoring and Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "58406a86-5ef3-d00d-f4cf-40c2a385c324",
       "longDescription": "",
       "shortDescription": "Questions or Issues on Kubernetes support and pre-requisites for cluster configuration",
