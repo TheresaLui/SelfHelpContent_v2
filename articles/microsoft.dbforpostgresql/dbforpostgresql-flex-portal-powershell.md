@@ -17,7 +17,7 @@
 
 # Using PowerShell to manage Azure Databases for PostgreSQL
 
-**Recommended Steps**
+## **Recommended Steps**
 
 We currently do not support PowerShell to manage Flexible Servers.
 
