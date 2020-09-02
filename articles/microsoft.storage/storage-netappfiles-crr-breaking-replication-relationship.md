@@ -19,6 +19,6 @@
 
 ## **Recommended Steps**
 
-1.Verify if the relationship is in healthy status and is not already broken.
-2.Before deleting the Source volume wait for 5 minutes after replication is completed.
-3.There should be one to one mapping between source and destination volume.
+1. Verify if the relationship is in healthy status and is not already broken
+2. Before deleting the Source volume wait for 5 minutes after replication is completed
+3. There should be one to one mapping between source and destination volume

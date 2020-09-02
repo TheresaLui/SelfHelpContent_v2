@@ -19,5 +19,5 @@
 
 ## **Recommended Steps**
 
-1.Volume change rate for replication schedule should be less aggressive for successful transfer.
-2.There should be one to one mapping between source and destination volume.
+1. Volume change rate for replication schedule should be less aggressive for successful transfer
+2. There should be one to one mapping between source and destination volume

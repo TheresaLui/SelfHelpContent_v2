@@ -19,5 +19,5 @@
 
 ## **Recommended Steps**
 
-1.There Should be only one to one mapping between source and destination volume.
-2.During the replication setup source volume cannot be deleted.
+1. There Should be only one to one mapping between source and destination volume
+2. During the replication setup source volume cannot be deleted

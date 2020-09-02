@@ -21,5 +21,5 @@
 
 For successful resync make sure below things are followed-
 
-1. The relationship must be in broken state before starting resync operation. 
-2. There should be one to one mapping between source and destination volume.
+1. The relationship must be in broken state before starting resync operation 
+2. There should be one to one mapping between source and destination volume
