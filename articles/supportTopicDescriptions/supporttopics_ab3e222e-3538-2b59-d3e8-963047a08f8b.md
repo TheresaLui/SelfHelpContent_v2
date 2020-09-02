@@ -43,6 +43,14 @@
       "searchTags": "Performance Degradation;High CPU;High Memory;High IO",
       "category": "Data Controller Administration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "e96b9ec4-4d59-f79a-9a67-d9f8cbc7a838",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving issues for controller plane pods post successful controller deployment",
+      "searchTags": "Controller Plane;Controller DB;Data Controller",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
