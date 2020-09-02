@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4405828f-306d-4fa2-6b0e-a364872103cc",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving issues for monitoring plane pods post successful controller deployment",
+      "searchTags": "Kibana;Grafana;Elastic Search",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "482eeeee-add9-0bd3-af37-1d948ddf2701",
       "longDescription": "",
       "shortDescription": "Select this if you have questions or issues while customizing controller deployment",
