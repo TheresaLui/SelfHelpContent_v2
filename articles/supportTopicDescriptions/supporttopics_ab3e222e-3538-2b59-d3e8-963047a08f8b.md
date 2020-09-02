@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "acfe2bd8-0950-7a14-1f1b-202562873071",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on data services usage file export from Kubernetes cluster",
+      "searchTags": "Azure Arc Data Services;Billing;Usage;Export",
+      "category": "Azure Arc Data Services Usage Tracking",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c8535d36-dad9-8d04-1395-51c97ea43e58",
       "longDescription": "",
       "shortDescription": "Select this if you need help with resource contention issues on controller or monitoring pods",
