@@ -29,6 +29,7 @@ Microsoft Customer Agreement Amendments were previously available on the pricing
 ## **Recommended Documents**
 
 * [Financial Services Amendment](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE4m8dP)
+* [Financial Services Amendment - Portuguese](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2OM67)
 * [Data Processing Amendment for Argentina - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3P75X)
 * [Data Processing Amendment for Argentina - Spanish](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3Pk5l)
 * [Professional Secrecy Amendment for Germany - English](https://partnercenter.microsoft.com/pc/api/cms/rtdownload?id=sales/RE3PeTb)
