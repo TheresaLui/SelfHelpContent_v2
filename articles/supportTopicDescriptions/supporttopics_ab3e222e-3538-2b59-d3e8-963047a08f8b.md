@@ -243,6 +243,14 @@
       "searchTags": "Controller Plane;Controller DB;Data Controller",
       "category": "Data Controller Administration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f38e55fc-ce8f-5161-8d93-533aadcb094f",
+      "longDescription": "",
+      "shortDescription": "Data services usage tracking - technical issues only involving export and update of usage data and not with usage reporting",
+      "searchTags": "Azure Arc Data Services;Billing;Usage",
+      "category": "Azure Arc Data Services Usage Tracking",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
