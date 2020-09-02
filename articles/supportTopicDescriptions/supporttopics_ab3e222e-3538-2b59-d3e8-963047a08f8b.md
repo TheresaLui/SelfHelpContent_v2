@@ -221,6 +221,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d1620535-0847-ad69-ac05-9c2f7c218052",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on data controller security risks",
+      "searchTags": "Data Controller;Security Risk",
+      "category": "Data Controller Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d23d207f-f223-5f27-0df8-2ad5dcc04411",
       "longDescription": "",
       "shortDescription": "Select this if you have issues or need guidance on data controller authentication issues which are not mentioned",
