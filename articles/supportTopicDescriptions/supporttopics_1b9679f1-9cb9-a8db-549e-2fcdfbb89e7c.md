@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   description="SupportTopicDescriptions for 1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   authors="elixirsys2"
-  ms.author="mcarter"
+  ms.author="mcarter, liamca"
   selfhelptype="SupportTopicDescription"
   productpesids="1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b26c9aba-93c1-580b-211d-80471cd82afc",
+      "longDescription": "",
+      "shortDescription": "The information displayed in the Azure Cognitive Search portal for the search service or index is not accurate.",
+      "searchTags": "portal;index size incorrect;out of date statistics",
+      "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c1c638a0-b924-030a-47d5-9d907a2db9ae",
       "longDescription": "",
       "shortDescription": "Issue with deleting an Azure Cognitive Search service",
@@ -98,6 +106,14 @@
       "shortDescription": "Issues with dropped or terminated connections to your Azure Cognitive Search service",
       "searchTags": "connectivity;firewall;private endpoints;connection issues",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d6c33adf-7305-21f9-2313-d80cd9ca365d",
+      "longDescription": "",
+      "shortDescription": "For general issues related to the Azure Cognitive Search portal including components not loading or browser related issues.",
+      "searchTags": "portal;general issue;failed to load;browser issue",
+      "category": "Portal",
       "useInDiagnoseAndSolve": "true"
     }
   ]
