@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4c5715ef-a3af-182d-9eac-b727908655d2",
+      "longDescription": "",
+      "shortDescription": "Data Controller pre-deployment queries, customization and deployment failures",
+      "searchTags": "Deployment;Data Controller;DC;Controller;Deployment Failure",
+      "category": "Data Controller Create",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8abb495d-91bd-d82e-ec37-788525666e31",
       "longDescription": "",
       "shortDescription": "Administrative issues - Performance, Configuration, Controller & Monitoring Planes - Pods & Containers availability, Connectivity",
