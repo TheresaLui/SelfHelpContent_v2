@@ -18,7 +18,7 @@
 # authentication and authorization/Azure AD sign-in issues and access management
 
 **Note**<br>
-If you have questions related to Azure Active Directory sign-in or access management, please consider going back to the previous screen and selecting “**Azure Active Directory Sign-in and Multi-Factor Authentication**” as your service to get better solution recommendations and faster access to an appropriate support resource.<br>
+If you have questions related to Azure Active Directory sign-in or access management, please consider going back to the previous screen and selecting **Azure Active Directory Sign-in and Multi-Factor Authentication** as your service to get better solution recommendations and faster access to an appropriate support resource.<br>
 
 ## **Recommended Documents**
 
