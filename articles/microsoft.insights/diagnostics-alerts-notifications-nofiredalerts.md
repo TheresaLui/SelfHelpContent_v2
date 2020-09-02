@@ -21,7 +21,7 @@ ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
 ## **No fired alerts found for this alert rules**
 
 <!--issueDescription-->
-Our diagnostics has detected that no alerts have been fired for alert rule <!--$AlertRuleName-->[AlertRuleName]<!--/$AlertRuleName--> between [8/9/2020 12:05:00 PM] and [8/11/2020 12:05:00 PM]. This may mean that the issue you are experiencing is related to the alert not firing at all, rather than a notification issue.
+Our diagnostics has detected that no alerts have been fired for alert rule <!--$AlertRuleName-->[AlertRuleName]<!--/$AlertRuleName--> between <!--$QueryStartTime-->[QueryStartTime]<!--/$QueryStartTime--> and <!--$QueryEndTime-->[QueryEndTime]<!--/$QueryEndTime-->. This may mean that the issue you are experiencing is related to the alert not firing at all, rather than a notification issue.
 <!--/issueDescription-->
 
 ## **Recommended Steps**
