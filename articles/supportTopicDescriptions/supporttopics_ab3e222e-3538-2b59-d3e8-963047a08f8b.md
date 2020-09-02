@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "97b5c8c9-aa49-247a-1376-e1949dbcf38a",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on uploading data services logs to azure.",
+      "searchTags": "Upload;Azure Portal;Metrics;Logs;Data Controller",
+      "category": "Azure Arc Data Services in Azure Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c8535d36-dad9-8d04-1395-51c97ea43e58",
       "longDescription": "",
       "shortDescription": "Select this if you need help with resource contention issues on controller or monitoring pods",
