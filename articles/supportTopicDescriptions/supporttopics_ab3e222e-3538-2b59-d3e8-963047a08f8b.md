@@ -173,6 +173,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8fdccd12-209d-1d63-b864-405692feb427",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on resetting data controller credentials",
+      "searchTags": "Data Controller;Reset Password;Controller Login",
+      "category": "Data Controller Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "96688e94-a6f6-c814-fe38-c9965a195e47",
       "longDescription": "",
       "shortDescription": "Select this if you have issues with data services monitoring from Azure portal which are not mentioned",
