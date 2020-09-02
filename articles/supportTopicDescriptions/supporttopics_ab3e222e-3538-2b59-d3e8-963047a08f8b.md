@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "0f77c93d-dee1-3963-1fe6-6aee644164a2",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving data controller deployment is not responding.",
+      "searchTags": "DC;Data Controller;Not Responding;Deployment",
+      "category": "Data Controller Create ",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "24ecc735-18d0-8a0e-f059-7fb24c9d2229",
       "longDescription": "",
       "shortDescription": "Select this if you need help with solving data controller deployment scenarios which are not mentioned",
