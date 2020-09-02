@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "46c8fb6c-e59a-eae3-a95e-c66f374726cb",
+      "longDescription": "",
+      "shortDescription": "When creating an Azure Cognitive Search Indexer through the Azure Portal, the schema created is not what is expected based on the data source.",
+      "searchTags": "portal;indexer;schema definition",
+      "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5527a869-571a-d6c1-b223-46bb59108f3c",
       "longDescription": "",
       "shortDescription": "Issues creating an Azure Cognitive Search service",
