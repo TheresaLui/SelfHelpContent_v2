@@ -19,8 +19,8 @@
 
 ## **Recommended Steps**
 
-* [Check if your third-party solution is supported on Azure Stack Hub](https://azure.microsoft.com/resources/azure-stack-datacenter-integration-partners).
-* [Learn about Azure Stack Hub IaaS best practices](https://azure.microsoft.com/blog/azure-stack-iaas-part-four/).
+* [Check if your third-party solution is supported on Azure Stack Hub](https://azure.microsoft.com/resources/azure-stack-datacenter-integration-partners)
+* [Learn about Azure Stack Hub IaaS best practices](https://azure.microsoft.com/blog/azure-stack-iaas-part-four/)
 
 ## **Recommended Documents**
 
