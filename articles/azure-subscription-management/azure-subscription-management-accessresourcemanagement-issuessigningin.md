@@ -17,7 +17,7 @@
 
 # issues signing in or accessing my subscription
 
-## Recommended Steps
+## **Recommended Steps**
 
 ### **Unable to Sign-in Azure due to browser issues (Browser hangs, keeps spinning, does not load, etc.)**
 
