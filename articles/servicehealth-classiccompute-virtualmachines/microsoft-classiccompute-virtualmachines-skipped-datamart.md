@@ -19,7 +19,7 @@ ownershipId="ASEP_ServiceHealth"
 <!--issueDescription-->
 <!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your Virtual Machine resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->:
 
-This virtual machine is stopping and deallocating as requested by an authorized user or process.
+This virtual machine is stopped and deallocated as requested by an authorized user or process.
 <!--/issueDescription-->
 
 Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.

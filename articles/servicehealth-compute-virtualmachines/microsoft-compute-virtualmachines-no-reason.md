@@ -19,7 +19,7 @@ ownershipId="ASEP_ServiceHealth"
 <!--issueDescription-->
 <!--$EventStatus-->EventStatus<!--/$EventStatus-->: At <!--$startTime--> startTime <!--/$startTime--> UTC, the Azure monitoring system received the following information regarding your Virtual machine resource <!--$ResourceName-->ResourceName<!--/$ResourceName-->:
 
-Your virtual machine is unavailable. We're working to automatically recover your virtual machine and to determine the source of the problem. No additional action is required from you at this time.
+Your virtual machine is unavailable at the moment. Please check back in a few minutes for any updates we find on the source of the unavailability of this VM. No additional action is required from you at this time.
 <!--/issueDescription-->
 
 Please use the link below to view the latest information about the health event and learn about recommended steps in Azure Resource Health.
