@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "81a69e4d-7d52-81fe-4b5b-f644699a8278",
+      "longDescription": "",
+      "shortDescription": "Questions, issues on configuring or modifying SQL MIAA instance (kubectl or azdata)",
+      "searchTags": "modify;kubectl;azdata;configuration;edit",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "825ed6f0-e973-eb00-686e-e54310fe05cc",
       "longDescription": "",
       "shortDescription": "Questions or issues on using Container Registries for MIAA containers",
