@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "531792ca-24ef-9b1d-bb9c-7668ca6ec975",
+      "longDescription": "",
+      "shortDescription": "Data services monitoring from Azure portal - Metrics and logs export, upload, dashboard, Azure shadow resource",
+      "searchTags": "Metrics;Logs;Export;Upload;Azure Portal",
+      "category": "Azure Arc Data Service in Azure Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5a1c58ad-b839-19ab-875e-75ed4ff55919",
       "longDescription": "",
       "shortDescription": "Select this if you have issues or need guidance on data controller logs accessing using kubectl or Kibana",
