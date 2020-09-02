@@ -75,6 +75,14 @@
       "searchTags": "create;delete;modify;deploy;install",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c47919cf-58b4-d8a7-0966-fe86341c998c",
+      "longDescription": "",
+      "shortDescription": "Questions or issues on creating a SQL MIAA instance",
+      "searchTags": "create;install;deploy",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
