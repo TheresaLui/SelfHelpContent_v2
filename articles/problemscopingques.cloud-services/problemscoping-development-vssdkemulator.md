@@ -78,13 +78,18 @@
         "displayLabel": "Slot",
         "watermarkText": "Choose an option",
         "required": false,
-        "dropdownOptions": [{
-            "value": "Production",
-            "text": "Production"
-        }, {
-            "value": "Staging",
-            "text": "Staging"
-        }]
+        "dynamicDropdownOptions": {
+            "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.classiccompute/domainnames/{resourceName}/slots?&api-version=2015-06-01",
+            "jTokenPath": "value",
+            "textProperty": "name",
+            "valueProperty": "name",
+            "valuePropertyRegex": "^+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Other, Don't Know or Not Applicable"
+                }
+            }
+        }
         },
         {
         "id": "cloud_service_roles",
