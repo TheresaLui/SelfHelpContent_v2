@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9ff76308-810f-d02d-6a48-730b2f4c4b92",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues on view the logs and stats using Kibana and Grafana Dashboard",
+      "searchTags": "kibana;grafana;logs;telemetry",
+      "category": "Monitoring and Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ae5a93fb-fb08-ef2d-d1af-729e2aeaee99",
       "longDescription": "",
       "shortDescription": "Choose this when none of the other monitoring options represent your issue",
