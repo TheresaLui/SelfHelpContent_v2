@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "ae5a93fb-fb08-ef2d-d1af-729e2aeaee99",
+      "longDescription": "",
+      "shortDescription": "Choose this when none of the other monitoring options represent your issue",
+      "searchTags": "monitoring;logs;telemetry",
+      "category": "Monitoring and Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b64aa3f5-cce0-1b8f-7c2c-a6fe28339e28",
       "longDescription": "",
       "shortDescription": "Choose this when none of the other general options represent your issue",
