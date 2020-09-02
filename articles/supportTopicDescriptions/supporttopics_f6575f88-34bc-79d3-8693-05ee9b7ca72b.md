@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "59cfd13e-fa1d-40ea-9a8c-265986921dc4",
+      "longDescription": "",
+      "shortDescription": "Issues or questions about Connecting to SQL Managed Instance Azure Arc (MIAA)",
+      "searchTags": "connect;connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "642446d4-732b-e503-7611-5763fb9d2bba",
       "longDescription": "",
       "shortDescription": "Questions or issues on connecting to Kubernetes Cluster SQL MIAA instance",
