@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "2cfe0b34-6999-630f-d6c4-92147957898e",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help managing controller using ADS, AZDATA, KUBECTL & Azure Portal",
+      "searchTags": "Manage Data Controller;DC",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8abb495d-91bd-d82e-ec37-788525666e31",
       "longDescription": "",
       "shortDescription": "Administrative issues - Performance, Configuration, Controller & Monitoring Planes - Pods & Containers availability, Connectivity",
