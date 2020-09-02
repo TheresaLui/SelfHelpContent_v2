@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "58406a86-5ef3-d00d-f4cf-40c2a385c324",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues on Kubernetes support and pre-requisites for cluster configuration",
+      "searchTags": "kubernetes;k8s;supported;prerequisites;configuration",
+      "category": "General Questions",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "59cfd13e-fa1d-40ea-9a8c-265986921dc4",
       "longDescription": "",
       "shortDescription": "Issues or questions about Connecting to SQL Managed Instance Azure Arc (MIAA)",
