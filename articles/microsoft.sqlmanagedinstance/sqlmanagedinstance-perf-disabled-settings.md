@@ -74,14 +74,9 @@ Managed instance named <!--$ServerName-->ServerName<!--/$ServerName--> on subscr
 
 ## **Recommended Documents**
 
-[Automatic Tuning](https://docs.microsoft.com/sql/relational-databases/automatic-tuning/automatic-tuning?view=sql-server-2017)
-
-[SQL Server Statistics Overview](https://docs.microsoft.com/sql/relational-databases/statistics/statistics?view=sql-server-2017)
-
-[Turn on Auto Update Statistics](https://docs.microsoft.com/sql/t-sql/statements/alter-database-transact-sql-set-options?view=sql-server-2017#auto_update_statistics)
-
-[Turn on Auto Create Statistics](https://docs.microsoft.com/sql/t-sql/statements/alter-database-transact-sql-set-options?view=sql-server-2017#auto_update_statistics)
-
-[Tune Azure SQL MAXDOP setting with Alter Database](https://docs.microsoft.com/sql/t-sql/statements/alter-database-scoped-configuration-transact-sql?view=sql-server-2017)
-
-[Monitoring Performance by using the Query Store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15)
+* [Automatic Tuning](https://docs.microsoft.com/sql/relational-databases/automatic-tuning/automatic-tuning?view=sql-server-2017)
+* [SQL Server Statistics Overview](https://docs.microsoft.com/sql/relational-databases/statistics/statistics?view=sql-server-2017)
+* [Turn on Auto Update Statistics](https://docs.microsoft.com/sql/t-sql/statements/alter-database-transact-sql-set-options?view=sql-server-2017#auto_update_statistics)
+* [Turn on Auto Create Statistics](https://docs.microsoft.com/sql/t-sql/statements/alter-database-transact-sql-set-options?view=sql-server-2017#auto_update_statistics)
+* [Tune Azure SQL MAXDOP setting with Alter Database](https://docs.microsoft.com/sql/t-sql/statements/alter-database-scoped-configuration-transact-sql?view=sql-server-2017)
+* [Monitoring Performance by using the Query Store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15)
