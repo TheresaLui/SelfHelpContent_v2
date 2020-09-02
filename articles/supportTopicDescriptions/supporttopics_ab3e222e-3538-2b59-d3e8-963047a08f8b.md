@@ -173,6 +173,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "8e7c6f39-6f56-9325-98ae-a22324d1a184",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on data services usage file upload to azure from Kubernetes cluster",
+      "searchTags": "Azure Arc Data Services;Billing;Usage;Upload",
+      "category": "Azure Arc Data Services Usage Tracking",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8fdccd12-209d-1d63-b864-405692feb427",
       "longDescription": "",
       "shortDescription": "Select this if you have issues or need guidance on resetting data controller credentials",
