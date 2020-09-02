@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "39251db7-a00f-c4b8-27e2-edbb1fa15bb8",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on uploading data services metrics to azure.",
+      "searchTags": "Metrics;Logs;Upload;Azure Portal;Data Controller",
+      "category": "Azure Arc Data Services in Azure Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4405828f-306d-4fa2-6b0e-a364872103cc",
       "longDescription": "",
       "shortDescription": "Select this if you need help with solving issues for monitoring plane pods post successful controller deployment",
