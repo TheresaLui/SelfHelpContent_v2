@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "757273c2-4639-72d2-107f-1c005db57fcc",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on exporting data services metrics.",
+      "searchTags": "Export;Metrics;Logs;Azure Portal;Data Controller",
+      "category": "Azure Arc Data Services in Azure Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8abb495d-91bd-d82e-ec37-788525666e31",
       "longDescription": "",
       "shortDescription": "Administrative issues - Performance, Configuration, Controller & Monitoring Planes - Pods & Containers availability, Connectivity",
