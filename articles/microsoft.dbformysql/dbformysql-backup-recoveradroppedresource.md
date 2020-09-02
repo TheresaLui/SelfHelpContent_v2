@@ -27,19 +27,20 @@ When a server is dropped, the operation cascades to the backups shortly after th
 4. Next, go to [Create Server REST API Page](https://docs.microsoft.com/rest/api/mysql/servers/create) and click on **"Try It"** tab highlighted in green and login in with your Azure account.
 5. Provide the resourceGroupName, serverName (deleted server name), subscriptionId, derived from resourceId attribute captured in Step 3, while api-version is pre-populated. 
 
-Next scroll below on Request Body section and paste the following substituting the **Dropped Server Location**, **submissionTimestamp**, and **resourceId**.
+Next scroll below on Request Body section and paste the following substituting the **Dropped Server Location**, **submissionTimestamp**, and **resourceId**. For restorePointInTime, specify a value of submissionTimestamp minus **15 minutes** to ensure the command doesnt error out.
 
 {
 "location": "Dropped Server Location",  
 "properties": 
 	{
-    		"restorePointInTime": "submissionTimestamp",
+    		"restorePointInTime": "submissionTimestamp - 15 minutes",
     		"createMode": "PointInTimeRestore",
     		"sourceServerId": "resourceId"
   	}
 }
 
-6. If you see Response Code 201 or 202, the restore request is successfully submitted. The server creation status can be monitored from Activity log by filtering for Resource Type = Azure Database for MySQL servers (Microsoft.DBforMySQL/servers).
+6. If you see Response Code 202, the restore request is successfully submitted. The server creation status can be monitored from Activity log by filtering for Resource Type = Azure Database for MySQL servers (Microsoft.DBforMySQL/servers) and Operation = Update MySQL Server Create. 
+.
 
 ## **Recommended Documents**
 
