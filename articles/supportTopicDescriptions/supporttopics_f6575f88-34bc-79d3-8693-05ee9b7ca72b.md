@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7ddd8064-1e89-3188-cfeb-6a1f5eb717ac",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues on Export, Upload Logs & issues viewing the logs",
+      "searchTags": "upload;export;logs",
+      "category": "Monitoring and Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "81a69e4d-7d52-81fe-4b5b-f644699a8278",
       "longDescription": "",
       "shortDescription": "Questions, issues on configuring or modifying SQL MIAA instance (kubectl or azdata)",
