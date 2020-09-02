@@ -96,7 +96,7 @@
             "order": 6,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
-			"watermarkText": "Provide additional information about your issue",
+			"watermarkText": "Provide additional information about your issue.",
             "useAsAdditionalDetails": true,
             "required": true
 		}
