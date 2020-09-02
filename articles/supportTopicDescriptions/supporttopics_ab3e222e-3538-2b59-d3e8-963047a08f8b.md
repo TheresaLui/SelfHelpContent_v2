@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "056bdd60-4b40-86a5-8cf5-a25a4ef021e7",
+      "longDescription": "",
+      "shortDescription": "Data Controller monitoring and logging issues or queries",
+      "searchTags": "Data Controller;DC;Logging;Monitoring",
+      "category": "Data Controller Monitoring and Logging",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "24ecc735-18d0-8a0e-f059-7fb24c9d2229",
       "longDescription": "",
       "shortDescription": "Select this if you need help with solving data controller deployment scenarios which are not mentioned",
