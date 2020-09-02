@@ -20,7 +20,7 @@
 
 Currently, there's no way to migrate Studio (classic) assets to Azure Machine Learning designer. Current Studio (classic) users can continue to use their machine learning assets.
 
-However, we encourage all users to considering using [Azure Machine Learning designer](https://docs.microsoft.com/azure/machine-learning/concept-designer), which provides a familiar drag-and-drop experience with improved workflow plus scalability, version control, and enterprise security.
+However, we encourage all users to considering using [Azure Machine Learning designer](https://docs.microsoft.com/azure/machine-learning/concept-designer), which provides a familiar drag-and-drop experience with improved workflow plus scalability, version control, and enterprise security.
 
 ## **Recommended Documents**
 Microsoft Azure Machine Learning Studio (classic) is a collaborative, drag-and-drop tool you can use to build, test, and deploy predictive analytics solutions on your data. Customers currently using or evaluating Machine Learning Studio (classic) are encouraged to try [Azure Machine Learning designer](https://docs.microsoft.com/azure/machine-learning/concept-designer), which provides drag and drop ML modules plus scalability, version control, and enterprise security.
