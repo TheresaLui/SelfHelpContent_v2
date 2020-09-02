@@ -264,8 +264,8 @@
     {
       "id": "3a398ea2-670c-bd78-728c-2dc887cbed5b",
       "longDescription": "",
-      "shortDescription": "Monitoring and managing storage and physical memory capacity",
-      "searchTags": "Capacity;Storage;Memory",
+      "shortDescription": "Monitoring and managing storage, physical memory capacity, and virtual CPU cores",
+      "searchTags": "Capacity;Storage;Memory;CPU",
       "category": "Capacity",
       "useInDiagnoseAndSolve": "false"
     },

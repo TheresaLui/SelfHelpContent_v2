@@ -6,7 +6,7 @@
     authors="timsander1"
     ms.author="tisande"
     selfHelpType="generic"
-    supportTopicIds="32636821,32688845,32741534"
+    supportTopicIds="32636818,32688845,32741534"
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
