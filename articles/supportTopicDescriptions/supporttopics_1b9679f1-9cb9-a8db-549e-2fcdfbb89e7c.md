@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5d915fcf-bf22-8775-23a6-8cce6c83ed6b",
+      "longDescription": "",
+      "shortDescription": "After running the Azure Cognitive Search Indexer from the Azure Portal, the number of documents indexed is inconsistent from the data source.",
+      "searchTags": "portal;indexer;document count incorrect",
+      "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "6581ffb1-2c35-8bbb-e214-3cb5660ddec5",
       "longDescription": "",
       "shortDescription": "Issues with security related status codes from the Azure Cognitive Search REST API.  (400, 403 or 502)",
