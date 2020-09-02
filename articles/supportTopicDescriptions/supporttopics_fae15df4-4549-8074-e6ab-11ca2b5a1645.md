@@ -229,6 +229,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "c18a2cea-a5d7-4686-d26d-e7d1f0a94647",
+      "longDescription": "",
+      "shortDescription": "Issue is not listed for peering or peeringservice",
+      "searchTags": "Peering;PeeringService",
+      "category": "Other",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c80ae8fa-9924-cd04-d59c-ce26e068a8be",
       "longDescription": "",
       "shortDescription": "No routes are exchanged on peering connection.",
