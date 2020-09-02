@@ -4,6 +4,7 @@
     service="microsoft.dbforpostgresql"
     resource="flexibleServers"
     ms.author="raagyema"
+    authors="rachel-msft"
     displayOrder="70"
     articleId="dbforpostgresql-backup-pgdump.md"
     selfHelpType="resource"
@@ -11,7 +12,7 @@
     resourceTags="servers, databases"
     productPesIds="17069"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="7a6c959f-0671-48c4-9435-8051e7298f9d"
+    articleId="dbforpostgresql-flex-backup-pgdump"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 

@@ -17,7 +17,7 @@
 
 # Point-in-time restore
 
-In Flexible server, performing a point-in-time restore creates a new server from the flexible server's backups in the same region as your source server. It is created with the source server's configuration for the pricing tier, compute generation, number of vCores, storage size, backup retention period, and backup redundancy option. Also, tags and settings such as VNET and firewall settings are inherited from the source server.
+In Flexible server, performing a point-in-time restore creates a new server from the flexible server's backups in the same region as your source server. It is created with the source server's configuration for the pricing tier, compute generation, compute, storage size, backup retention period, and backup redundancy option. Also, tags and settings such as VNET and firewall settings are inherited from the source server.
 
 ## **Recommended Steps**
 
