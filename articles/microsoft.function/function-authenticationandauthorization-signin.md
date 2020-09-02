@@ -4,7 +4,7 @@
 	service="microsoft.web"
 	resource="sites"
 	authors="cts-shrahman,cts-shrahman"
-    ms.author="shrahman, shrahman"
+	ms.author="shrahman, shrahman"
 	displayOrder=""
 	selfHelpType="generic"
 	supportTopicIds="32749790"
@@ -13,7 +13,7 @@
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ownershipId = "Compute_AppService"
 	articleId="f6b88fe7-454b-4e8a-903f-c7026b8ff85d"
-/>
+	/>
 
 # authentication and authorization/Azure AD sign-in issues and access management
 
