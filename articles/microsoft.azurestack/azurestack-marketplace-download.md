@@ -27,18 +27,17 @@ In many cases, a Marketplace download failure is caused by an underlying problem
 
 ## **Recommended Steps**
 
+1. Check that you have enough bandwidth to download the Marketplace items. In a low bandwidth area, consider using the [disconnected/partially connected method](https://docs.microsoft.com/azure-stack/operator/azure-stack-download-azure-marketplace-item).
+2. Check that the [Marketplace syndication endpoints are not blocked by a firewall](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-endpoints#ports-and-urls-outbound)
+3. Delete the item that failed to download before downloading it again
+4. Download one item at a time
+
 There are two scenarios for connecting to the Azure Marketplace:
 
 * Connected scenario
 * Disconnected or partially connected scenario
 
 **Note:** In a disconnected environment, you cannot download Marketplace items directly by using the Azure Stack Hub portal. Follow the guide to [download Marketplace items for disconnected or a partially connected scenarios](https://docs.microsoft.com/azure-stack/operator/azure-stack-download-azure-marketplace-item) by using the Marketplace syndication tool and then transferring the items to your Azure Stack Hub environment.
-
-1. Check that you have enough bandwidth to download the Marketplace items. In a low bandwidth area, consider using the [disconnected/partially connected method](https://docs.microsoft.com/azure-stack/operator/azure-stack-download-azure-marketplace-item).
-
-2. Check that the [Marketplace syndication endpoints are not blocked by a firewall](https://docs.microsoft.com/azure-stack/operator/azure-stack-integrate-endpoints#ports-and-urls-outbound)
-3. Delete the item that failed to download before downloading it again
-4. Download one item at a time
 
 ## **Recommended Documents**
 

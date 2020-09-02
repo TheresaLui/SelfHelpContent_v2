@@ -31,7 +31,7 @@ You can find the specific eligibility requirements for your program in the progr
 **To see your program guide**:
 
 - Sign into the [Partner Center dashboard](https://partner.microsoft.com/dashboard)
-- Under **Incentives** on the left nav, select **Overview**. The **Program overview** page opens.
+- Under **Incentives** on the left navigation, select **Overview**. The **Program overview** page opens.
 - Select the program you want and click to open that page
 - In the **Program details** field, select **Program Guide**
 

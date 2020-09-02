@@ -7,7 +7,7 @@
   supporttopicids="32727874"
   resourcetags=""
   productpesids="16582"
-  cloudenvironments="public"
+  cloudEnvironments="public, fairfax, usnat, ussec"
   articleid="032cf025-2f52-4420-b161-bce71302f41b"
   ownershipid="Windows_Virtual_Desktop" />
 # Windows Virtual Desktop - Issues configuring device redirection
