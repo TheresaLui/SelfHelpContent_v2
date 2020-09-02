@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "58d8ed19-4c92-db0a-98e6-a869c9fa2be7",
+      "longDescription": "",
+      "shortDescription": "Issues related to Security - Encryption, Authentication, Authorization, Auditing",
+      "searchTags": "encryption;authentication;security;authorization;auditing",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "59cfd13e-fa1d-40ea-9a8c-265986921dc4",
       "longDescription": "",
       "shortDescription": "Issues or questions about Connecting to SQL Managed Instance Azure Arc (MIAA)",
