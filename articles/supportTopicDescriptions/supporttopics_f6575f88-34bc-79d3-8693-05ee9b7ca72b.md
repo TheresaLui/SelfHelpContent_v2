@@ -115,6 +115,14 @@
       "searchTags": "create;install;deploy",
       "category": "Deployment",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f03f4278-113e-fe69-dc3a-75cae259865f",
+      "longDescription": "",
+      "shortDescription": "Choose this when none of the other deployment options represent your issue",
+      "searchTags": "deployment;delete;modify;create",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
