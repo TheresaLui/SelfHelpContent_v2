@@ -18,7 +18,7 @@
 # authentication and authorization/Authentication through custom code
 
 **Note:**<br>
-If you have questions related to Authentication using Azure Active Directory Code libraries, please consider going back to the previous screen and selecting "**Azure Active Directory App Integration and Development**" as your service to get better solution recommendations and faster access to an appropriate support resource.  <br>
+If you have questions related to Authentication using Azure Active Directory Code libraries, please consider going back to the previous screen and selecting **Azure Active Directory App Integration and Development** as your service to get better solution recommendations and faster access to an appropriate support resource.  <br>
 
 Below you will find help and links for the most common problems when building Azure Active Directory apps. We highly recommend you check Stackoverflow for [issues building Azure Active Directory apps](https://stackoverflow.com/questions/tagged/azure-active-directory), the answer to your question may already be available. If you can't find an answer to your question, post a [question on StackOverflow with the tag](https://stackoverflow.com/questions/ask):  **azure-active-directory**.
 
