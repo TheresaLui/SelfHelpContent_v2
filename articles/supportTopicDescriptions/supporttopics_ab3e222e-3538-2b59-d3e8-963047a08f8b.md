@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "38347f23-04d8-5269-f81e-22b7cb5b2048",
+      "longDescription": "",
+      "shortDescription": "Select this if you have questions or need guidance for deploying data controller",
+      "searchTags": "Data Controller;Deployment Guidance;Pre-deployment;DC",
+      "category": "Data Controller Create",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8abb495d-91bd-d82e-ec37-788525666e31",
       "longDescription": "",
       "shortDescription": "Administrative issues - Performance, Configuration, Controller & Monitoring Planes - Pods & Containers availability, Connectivity",
