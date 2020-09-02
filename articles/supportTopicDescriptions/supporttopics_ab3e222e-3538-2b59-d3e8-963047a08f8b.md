@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "51e6b653-73ed-47cc-d9a4-6d1068258e4c",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on querying controller logs using Kibana dashboards",
+      "searchTags": "DC;Data Controller;Monitoring;Logging;Kibana",
+      "category": "Data Controller Monitoring and Logging",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5a1c58ad-b839-19ab-875e-75ed4ff55919",
       "longDescription": "",
       "shortDescription": "Select this if you have issues or need guidance on data controller logs accessing using kubectl or Kibana",
