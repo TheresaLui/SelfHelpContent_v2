@@ -19,7 +19,7 @@
 
 Azure Database for PostgreSQL automatically takes backups of your server. The backups are used to support the point-in-time restore features.
 
-The first snapshot backup is scheduled immediately after the flexible server is created. Subsequently, a daily snapshot backup of data files is performed. Backups are stored in zone redundant storage within a region. Transaction logs (write ahead logs - WAL) are archived continuously to the zone redundant storage as well. These data and logs backups allow you to restore a server to any point-in-time within your configured backup retention period. All backups are encrypted using AES 256-bit encryption.
+The first snapshot backup is scheduled immediately after the flexible server is created. Subsequently, a daily snapshot backup of data files is performed. Backups are stored in zone redundant storage within a region. Transaction logs (write ahead logs - WAL) are archived continuously to the zone redundant storage as well. These data and logs backups allow you to restore a server to any point-in-time within your configured backup retention period. All backups are encrypted using AES 256-bit encryption.
 
 You can choose to take a dump of a database on your server using pg_dump.
 
