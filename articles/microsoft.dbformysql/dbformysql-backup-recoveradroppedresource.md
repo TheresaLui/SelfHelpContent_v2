@@ -21,24 +21,25 @@ When a server is dropped, the operation cascades to the backups shortly after th
 
 ## **Recommended Steps**
 
-- Go to the [Activity Log](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log) from Azure portal.
-- Click on Add filter at the top and add a filter for Resource Type = Azure Database for MySQL servers (Microsoft.DBforMySQL/servers).
-- Click on Add filter to add another filter for Operation = Delete MySQL Server (Microsoft.DBforMySQL/servers/delete).
-- Double Click on the Delete MySQL Server and click on the JSON tab and note down the "resourceId" and "submissionTimestamp" attributes in JSON output. The resourceId is in the following format /subscriptions/ffffffff-ffff-ffff-ffff-ffffffffffff/resourceGroups/TargetResourceGroup/providers/Microsoft.DBforMySQL/servers/deletedserver
-- Next go to [MySQL Server Create Page](https://docs.microsoft.com/en-us/rest/api/mysql/servers/create) and click on Try It tab highlighted in green and login in with your Azure account.
-- Provide the resourceGroupName, serverName (deleted server name), subscriptionId, derived from resourceId attribute while api-version is pre-populated. Next scroll below on Request Body section and paste the following
+1. Go to the [Activity Log](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log) from Azure portal.
+2. Click on Add filter at the top and add a filter for Resource Type = Azure Database for MySQL servers (Microsoft.DBforMySQL/servers) and Operation = Delete MySQL Server (Microsoft.DBforMySQL/servers/delete).
+3. Double Click on the Delete MySQL Server event and click on the JSON tab and note down the "resourceId" and "submissionTimestamp" attributes in JSON output. The resourceId is in the following format /subscriptions/ffffffff-ffff-ffff-ffff-ffffffffffff/resourceGroups/TargetResourceGroup/providers/Microsoft.DBforMySQL/servers/deletedserver
+4. Next, go to [Create Server REST API Page](https://docs.microsoft.com/en-us/rest/api/mysql/servers/create) and click on "Try It" tab highlighted in green and login in with your Azure account.
+5. Provide the resourceGroupName, serverName (deleted server name), subscriptionId, derived from resourceId attribute captured in Step 3, while api-version is pre-populated. 
+
+Next scroll below on Request Body section and paste the following substituting the **Dropped Server Location**, **submissionTimestamp**, and **resourceId**.
 
 {
 "location": "<Dropped Server Location>",  
 "properties": 
 	{
-    		"restorePointInTime": <submissionTimestamp>,
+    		"restorePointInTime": "<submissionTimestamp>",
     		"createMode": "PointInTimeRestore",
-    		"sourceServerId": "/subscriptions/5c5037e5-d3f1-4e7b-b3a9-f6bf94902b30/resourcegroups/pariks-pass-demo/providers/Microsoft.DBforMySQL/servers/parikmysql"
+    		"sourceServerId": "<resourceId>"
   	}
 }
 
-- If you see Response Code 202, the restore request is successfully submitted. The server creation status can be monitored from Activity log by filtering for for Resource Type = Azure Database for MySQL servers (Microsoft.DBforMySQL/servers)
+6. If you see Response Code 201 or 202, the restore request is successfully submitted. The server creation status can be monitored from Activity log by filtering for Resource Type = Azure Database for MySQL servers (Microsoft.DBforMySQL/servers).
 
 ## **Recommended Documents**
 
