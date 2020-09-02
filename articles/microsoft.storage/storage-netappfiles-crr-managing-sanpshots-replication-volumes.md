@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Managing sanpshots for replication volumes"
-	description="Managing sanpshots for replication volumes"
+	pageTitle="Managing snapshots for replication volumes"
+	description="Managing snapshots for replication volumes"
 	service="microsoft.storage"
 	resource="storage"
 	authors="b-mayada"
@@ -15,7 +15,7 @@
 	ownershipId="AzureNetAppFiles"
 />
 
-# Managing sanpshots for replication volumes
+# Managing snapshots for replication volumes
 
 ## **Recommended Steps**
 
