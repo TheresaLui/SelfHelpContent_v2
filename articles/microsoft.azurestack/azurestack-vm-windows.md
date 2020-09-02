@@ -26,6 +26,7 @@ You can deploy Windows Server VM images on Azure Stack by adding a Windows-based
 1. Choose a [Windows image](https://docs.microsoft.com/azure/azure-stack/azure-stack-marketplace-azure-items#microsoft-virtual-machine-images-and-solution-templates) and [download it to the Azure Stack Hub Marketplace](https://docs.microsoft.com/azure/azure-stack/azure-stack-download-azure-marketplace-item)
 1. For ARM deployments, you can create a [custom image and upload it](https://docs.microsoft.com/azure-stack/operator/azure-stack-add-vm-image) to the marketplace
 1. If you upload a custom image, you need to create a [VM marketplace item](https://docs.microsoft.com/azure-stack/operator/azure-stack-create-and-publish-marketplace-item) to make it visible to all tenant users
+1. If VM activation is failing, see [Troubleshoot virtual machines](https://docs.microsoft.com/azure-stack/operator/azure-stack-troubleshooting#troubleshoot-virtual-machines-vms)
 
 ## **Recommended Documents**
 

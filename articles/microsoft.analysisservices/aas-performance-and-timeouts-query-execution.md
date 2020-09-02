@@ -18,8 +18,10 @@
 
 ## **Recommended Documents**
 
+* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+
 * [Monitoring Azure Analysis Services with Log Analytics and Power BI](https://techcommunity.microsoft.com/t5/Premier-Field-Engineering/Monitoring-Azure-Analysis-Services-with-Log-Analytics-and-Power/ba-p/371441)
 
-* [Monitor server metrics](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor)
+* [Query interleaving](https://docs.microsoft.com/analysis-services/tabular-models/query-interleaving?view=asallproducts-allversions)
 
-* [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)
+* [Azure Analysis Services scale-out](https://docs.microsoft.com/azure/analysis-services/analysis-services-scale-out)

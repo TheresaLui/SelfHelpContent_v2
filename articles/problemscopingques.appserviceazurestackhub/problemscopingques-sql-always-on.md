@@ -90,15 +90,6 @@
             "required": true
         },
         {
-            "id": "file_share_instance",
-            "order": 5,
-            "controlType": "textbox",
-            "displayLabel": "What type of File Share instance are you using?",
-            "watermarkText": "Example: XXXX-XXXX-XXXX",
-            "required": false,
-            "infoBalloonText": "Ask DeWitt if File Share instance is the same as Failover Cluster Instance and add link to how to get it and updated."
-        },
-        {
             "id": "problem_start_time",
             "order": 900,
             "controlType": "datetimepicker",

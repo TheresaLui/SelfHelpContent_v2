@@ -19,6 +19,21 @@
 />
 # Partner Center Incentives: CHIP Help and How-To
 
+## **Recommended Steps**
+The Channel Incentives Platform (CHIP) provides access to incentives data for specific Microsoft Channel Incentives programs and shows updated earning details for selling Microsoft products.
+
+When first enrolled, Microsoft sends a Welcome e-mail which explains the [CHIP](https://channelincentives.microsoft.com/chipui/landingpage.mvc/home) login process. A Microsoft Account (formerly Windows Live ID) is required for [CHIP](https://channelincentives.microsoft.com/chipui/landingpage.mvc/home) access.
+
+Following the welcome e-mail, you are sent a Unique Invitation Code, via an Invitation Code Email. You need to use both to gain access to [CHIP](https://channelincentives.microsoft.com/chipui/landingpage.mvc/home).
+
+Note that there is no requirement for you to re-enroll for [CHIP](https://channelincentives.microsoft.com/chipui/landingpage.mvc/home) access from one period to the next.
+
+ - For more information on accessing CHIP please see the [Accessing CHIP article](https://support.microsoft.com/help/2961247)
+ - For information on Navigating CHIP, please see the [CHIP Navigation article](https://support.microsoft.com/help/2961260)
+ - For information on Internal Administration in CHIP, please see the [Channel Incentives Platform (CHIP) – User Management article](https://support.microsoft.com/help/4483761)
+
+You can also learn more about CHIP by accessing the Recommended Documents below.
+
 ## **Recommended Documents**
 
 * [General information about CHIP](https://support.microsoft.com/help/2961309/general-information-on-the-channel-incentives-platform-chip)
