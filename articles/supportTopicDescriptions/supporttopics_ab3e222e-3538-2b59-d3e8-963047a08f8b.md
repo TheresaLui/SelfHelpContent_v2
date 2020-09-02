@@ -35,6 +35,14 @@
       "searchTags": "Controller Configuration;Monitoring Configuration;Controller Performance;Controller Pods availability;Connecting to Controller",
       "category": "Data Controller Administration",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c8535d36-dad9-8d04-1395-51c97ea43e58",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with resource contention issues on controller or monitoring pods",
+      "searchTags": "Performance Degradation;High CPU;High Memory;High IO",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
