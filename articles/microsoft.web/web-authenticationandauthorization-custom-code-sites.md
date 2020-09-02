@@ -29,7 +29,7 @@ Below you will find help and links for the most common problems when building Az
 * [I don't know how to grant permissions to my application](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
 * [I don't understand the difference between delegated and application permissions](https://docs.microsoft.com/azure/active-directory/develop/delegated-and-app-perms?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
 * [I don’t know how to integrate my application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-* [I don’t know how to update my application](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#next-steps)
+* [I don’t know how to update my application](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#next-steps)
 * [I don’t know how to remove my application](https://docs.microsoft.com/azure/active-directory/develop/quickstart-remove-app)
 * [I don’t know how authentication works in Azure AD](https://docs.microsoft.com/azure/active-directory/develop/authentication-vs-authorization)
 * [I don’t know how to make my application multi-tenant](https://docs.microsoft.com/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant)
