@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "24ecc735-18d0-8a0e-f059-7fb24c9d2229",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving data controller deployment scenarios which are not mentioned",
+      "searchTags": "Data Controller;DC;Deployment issue",
+      "category": "Data Controller Create",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2cfe0b34-6999-630f-d6c4-92147957898e",
       "longDescription": "",
       "shortDescription": "Select this if you need help managing controller using ADS, AZDATA, KUBECTL & Azure Portal",
