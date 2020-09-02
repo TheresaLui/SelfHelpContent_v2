@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9a39768d-82a0-d6e5-a677-0d55f58efcea",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues on Public Preview Limitations and feature availability",
+      "searchTags": "limitations;feature availability",
+      "category": "General Questions",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9ef443c3-06af-0c49-1c03-e17054464898",
       "longDescription": "",
       "shortDescription": "Questions or issues on deleting a SQL MIAA instance",
