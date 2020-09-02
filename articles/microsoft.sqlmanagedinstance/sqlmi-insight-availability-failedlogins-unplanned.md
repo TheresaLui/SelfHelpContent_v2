@@ -18,7 +18,7 @@
 />
 # Failed logins due to unplanned operation(s)
 
-## ** Failed logins due to unplanned operation(s) **
+## **Failed logins due to unplanned operation(s)**
 <!--issueDescription-->
 We ran diagnostics on instance **<!--$ServerName-->ServerName<!--/$ServerName-->** between **<!--$StartTime-->StartTime<!--/$StartTime-->** UTC and **<!--$EndTime-->EndTime<!--/$EndTime-->** UTC and we found failed login(s) caused by reconfiguration(s) due to **unplanned operation(s)**.  
 <br>

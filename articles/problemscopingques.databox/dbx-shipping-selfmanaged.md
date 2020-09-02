@@ -1,5 +1,5 @@
 <properties
-	articleId="32743105"
+	articleId="32743105_psq"
 	pageTitle="Scoping Questions for self managed shipping issues"
 	description="Scoping Questions for self managed shipping issues"
 	authors="ansubram"
