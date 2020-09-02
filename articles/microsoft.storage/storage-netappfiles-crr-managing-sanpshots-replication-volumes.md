@@ -19,6 +19,6 @@
 
 ## **Recommended Steps**
 
-1.Snapmirror snapshots can not be deleted. 
+1.Snapmirror snapshots cannot be deleted. 
 2.All the snapshots should me managed by source.
 3.There should be one to one mapping between source and destination volume.
