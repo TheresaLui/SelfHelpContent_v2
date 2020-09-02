@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5054bba7-b0ee-a89c-b099-d699a9e6c169",
+      "longDescription": "",
+      "shortDescription": "When using the Azure Cognitive Search portal, I am unable to view my search service details because there is a rain cloud icon.",
+      "searchTags": "portal;rain cloud icon",
+      "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5527a869-571a-d6c1-b223-46bb59108f3c",
       "longDescription": "",
       "shortDescription": "Issues creating an Azure Cognitive Search service",
