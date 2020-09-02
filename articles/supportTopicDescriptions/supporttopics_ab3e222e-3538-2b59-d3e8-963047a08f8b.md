@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1bb98a42-4db1-8de5-9281-71af5a7d0f67",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on data controller credentials recovery",
+      "searchTags": "Data Controller;Forgot Password;Controller Login",
+      "category": "Data Controller Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "24ecc735-18d0-8a0e-f059-7fb24c9d2229",
       "longDescription": "",
       "shortDescription": "Select this if you need help with solving data controller deployment scenarios which are not mentioned",
