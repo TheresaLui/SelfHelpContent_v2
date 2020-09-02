@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5a1c58ad-b839-19ab-875e-75ed4ff55919",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on data controller logs accessing using kubectl or Kibana",
+      "searchTags": "DC;Logging;Kibana;kubectl;Data Controller",
+      "category": "Data Controller Monitoring and Logging",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "8abb495d-91bd-d82e-ec37-788525666e31",
       "longDescription": "",
       "shortDescription": "Administrative issues - Performance, Configuration, Controller & Monitoring Planes - Pods & Containers availability, Connectivity",
