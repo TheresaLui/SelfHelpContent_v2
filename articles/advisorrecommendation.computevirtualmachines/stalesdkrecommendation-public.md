@@ -31,9 +31,7 @@
   "version": 5.0,
   "learnMoreLink": "https://aka.ms/azureSDKReadMe",
   "description": "Update your current Compute Management SDK version to the most recent version.",
-  "longDescription": "We have identified API calls from resources under this subscription using outdated Compute Management SDK versions. We recommend switching to the latest
-  Compute Management SDK versions. You need to update your existing codebase or scripts to use the latest SDK version. This ensures you receive the latest security and
-  performance improvements.",
+  "longDescription": "We have identified API calls from resources under this subscription using outdated Compute Management SDK versions. We recommend switching to the latest Compute Management SDK versions. You need to update your existing codebase or scripts to use the latest SDK version. This ensures you receive the latest security and performance improvements.",
   "potentialBenefits": "Improved security, performance, data resiliency, and support for new features.",
   "displayLabel": "Update your current Compute Management SDK version to the most recent version",
   "tip": "Regularly update your Compute Management SDK versions to prevent security issues and access new features.",
