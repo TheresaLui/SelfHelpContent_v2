@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "13157fcd-1649-aae8-ef6a-af388b9264f4",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving Controller monitoring and logging issues which are not mentioned",
+      "searchTags": "Unknown;DC;Monitoring;Logging",
+      "category": "Data Controller Monitoring and Logging",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "24ecc735-18d0-8a0e-f059-7fb24c9d2229",
       "longDescription": "",
       "shortDescription": "Select this if you need help with solving data controller deployment scenarios which are not mentioned",
