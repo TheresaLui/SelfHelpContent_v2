@@ -89,7 +89,6 @@
                     "text": "Other, Don't Know or Not Applicable"
                 }
             }
-        }
         },
         {
         "id": "cloud_service_roles",
