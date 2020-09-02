@@ -43,6 +43,14 @@
       "searchTags": "kubectl;Kubernetes;connection;connectivity;azdata",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "bf207fef-d931-acde-1cf8-d16f673f5a42",
+      "longDescription": "",
+      "shortDescription": "Questions or issues on connecting to SQL Databases SQL MIAA Instance ",
+      "searchTags": "Connect;Connectivity;login;ODBC;Drivers",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
