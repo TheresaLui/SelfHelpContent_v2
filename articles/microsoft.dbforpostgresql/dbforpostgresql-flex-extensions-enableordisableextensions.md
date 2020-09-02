@@ -19,7 +19,7 @@
 
 ## **Recommended steps**
 
-The [flexible server extensions document](https://docs.microsoft.com/azure/postgresql/flexible-server/concepts-extensions) provides links to each extension's documentation. If an extension is not listed in the flexible server documentation, it is not available for use.
+The flexible server extensions documentation provides links to each extension's documentation. If an extension is not listed in the flexible server documentation, it is not available for use.
 
 Most extensions can be enabled using the SQL command `CREATE EXTENSION <Extension name>;`
 

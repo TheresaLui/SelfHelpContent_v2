@@ -26,5 +26,4 @@ You can monitor your Azure Database for PostgreSQL server using a set of metrics
 
 
 ## **Recommended Documents**
-* [Flexible server documentation](https://docs.microsoft.com/azure/postgresql/flexible-server)
 * [Manage metric alerts using Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric)<br>
