@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "00d65952-debd-a72a-2af9-1acfc93eb034",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on monitoring controller using Grafana dashboards",
+      "searchTags": "Grafana Dashboard;Data Controller;DC;Monitoring;Logging",
+      "category": "Data Controller Monitoring and Logging",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "056bdd60-4b40-86a5-8cf5-a25a4ef021e7",
       "longDescription": "",
       "shortDescription": "Data Controller monitoring and logging issues or queries",
