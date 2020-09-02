@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "825ed6f0-e973-eb00-686e-e54310fe05cc",
+      "longDescription": "",
+      "shortDescription": "Questions or issues on using Container Registries for MIAA containers",
+      "searchTags": "container;docker;MCR;registry",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9ef443c3-06af-0c49-1c03-e17054464898",
       "longDescription": "",
       "shortDescription": "Questions or issues on deleting a SQL MIAA instance",
