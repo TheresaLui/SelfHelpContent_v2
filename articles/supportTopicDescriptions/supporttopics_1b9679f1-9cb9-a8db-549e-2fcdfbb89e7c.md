@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "3e0f5ec1-8f77-0169-0ddb-f774c4b5030f",
+      "longDescription": "",
+      "shortDescription": "When using the Scale blade in the Azure Cognitive Search portal, I am unable to adjust the replica or partition count as the buttons are disabled.",
+      "searchTags": "portal;scale;replicas;partitions;disabled button",
+      "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "46c8fb6c-e59a-eae3-a95e-c66f374726cb",
       "longDescription": "",
       "shortDescription": "When creating an Azure Cognitive Search Indexer through the Azure Portal, the schema created is not what is expected based on the data source.",
