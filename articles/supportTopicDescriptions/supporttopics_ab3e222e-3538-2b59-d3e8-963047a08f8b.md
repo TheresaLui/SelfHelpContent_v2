@@ -213,6 +213,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d23d207f-f223-5f27-0df8-2ad5dcc04411",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues or need guidance on data controller authentication issues which are not mentioned",
+      "searchTags": "Data Controller;Controller Login;Security;Credentials",
+      "category": "Data Controller Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d7c18803-5f7e-e4d2-b487-6c9955d98e5b",
       "longDescription": "",
       "shortDescription": "Select this if you have issues authenticating into the data controller",
