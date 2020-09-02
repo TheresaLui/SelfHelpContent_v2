@@ -165,6 +165,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "96688e94-a6f6-c814-fe38-c9965a195e47",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues with data services monitoring from Azure portal which are not mentioned",
+      "searchTags": "Metrics;Logs;Upload;Export;Data Controller",
+      "category": "Azure Arc Data Services in Azure Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "96d9b589-a9bc-c698-6bbf-225cc0f0f62a",
       "longDescription": "",
       "shortDescription": "Select this if you need help with solving data controller deployment failures.",
