@@ -59,6 +59,14 @@
       "searchTags": "Connect;Connectivity;login;ODBC;Drivers",
       "category": "Connectivity",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c28f6183-7175-5cdb-c334-106d3f177c54",
+      "longDescription": "",
+      "shortDescription": "Issues related to Creating, Deleting or Modifying of a SQL Managed Instance Azure Arc (MIAA)",
+      "searchTags": "create;delete;modify;deploy;install",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
