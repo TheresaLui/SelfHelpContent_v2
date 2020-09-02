@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "5e3fbc82-8f54-aa13-266c-56539c4467e1",
+      "longDescription": "",
+      "shortDescription": "General How-to Questions or Documentation-related Questions",
+      "searchTags": "general questions",
+      "category": "General Questions",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "642446d4-732b-e503-7611-5763fb9d2bba",
       "longDescription": "",
       "shortDescription": "Questions or issues on connecting to Kubernetes Cluster SQL MIAA instance",
