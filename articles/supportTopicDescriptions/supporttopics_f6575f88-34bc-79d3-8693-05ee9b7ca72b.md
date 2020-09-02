@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "becffc5a-2b52-0d69-977a-f0d3bd1adbbb",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues on Export ,Upload files related to Usage",
+      "searchTags": "upload;telemetry;usage",
+      "category": "Monitoring and Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bf207fef-d931-acde-1cf8-d16f673f5a42",
       "longDescription": "",
       "shortDescription": "Questions or issues on connecting to SQL Databases SQL MIAA Instance ",
