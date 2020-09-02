@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9ef443c3-06af-0c49-1c03-e17054464898",
+      "longDescription": "",
+      "shortDescription": "Questions or issues on deleting a SQL MIAA instance",
+      "searchTags": "delete;remove;uninstall",
+      "category": "Deployment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bf207fef-d931-acde-1cf8-d16f673f5a42",
       "longDescription": "",
       "shortDescription": "Questions or issues on connecting to SQL Databases SQL MIAA Instance ",
