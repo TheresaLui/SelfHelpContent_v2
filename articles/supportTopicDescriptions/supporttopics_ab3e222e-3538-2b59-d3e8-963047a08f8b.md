@@ -197,6 +197,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dcf903fe-41f1-302e-6f8a-25e6ee76000d",
+      "longDescription": "",
+      "shortDescription": "Data controller login and credentials related issues",
+      "searchTags": "Data Controller;Login;Credentials;Security",
+      "category": "Data Controller Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e96b9ec4-4d59-f79a-9a67-d9f8cbc7a838",
       "longDescription": "",
       "shortDescription": "Select this if you need help with solving issues for controller plane pods post successful controller deployment",
