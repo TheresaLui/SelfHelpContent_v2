@@ -133,6 +133,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a0bb2034-ada9-7445-39f6-4f22b3a65f26",
+      "longDescription": "",
+      "shortDescription": "Issues related to slow query or server performance",
+      "searchTags": "slow;performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ae5a93fb-fb08-ef2d-d1af-729e2aeaee99",
       "longDescription": "",
       "shortDescription": "Choose this when none of the other monitoring options represent your issue",
