@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7044de6f-5edf-30f9-171d-477024b2d3fd",
+      "longDescription": "",
+      "shortDescription": "Choose this when none of the other connectivity options represent your issue",
+      "searchTags": "connect;connectivity",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "bf207fef-d931-acde-1cf8-d16f673f5a42",
       "longDescription": "",
       "shortDescription": "Questions or issues on connecting to SQL Databases SQL MIAA Instance ",
