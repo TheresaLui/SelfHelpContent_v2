@@ -48,7 +48,5 @@ Most users are able to resolve their issue using the steps below.
 
 * [Azure Database for MySQL Flexible servers](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-servers)<br>
 * [Supported versions](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-supported-versions)<br>
-* [Available pricing tiers](https://docs.microsoft.com/azure/mysql/concepts-compute-storage)<br>
-* [Current know limitations](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-limitation)
-
-
+* [Available compute tiers and storage size](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-compute-storage)<br>
+* [Current know limitations](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-limitations)
