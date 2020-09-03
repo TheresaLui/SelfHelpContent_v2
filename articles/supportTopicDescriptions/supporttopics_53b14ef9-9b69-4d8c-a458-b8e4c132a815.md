@@ -329,6 +329,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "cab9930d-ee12-c03d-00c1-82fe54c5ab31",
+      "longDescription": "",
+      "shortDescription": "Questions or issues troubleshooting authentication, roles and permissions",
+      "searchTags": "ssrs security;reporting services security;ssrs authentication;reporting services authentication",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cbc61367-a1a4-0071-698c-df2a9d7ab579",
       "longDescription": "",
       "shortDescription": "Questions or issues configuring or setting up Always On Availability groups",
