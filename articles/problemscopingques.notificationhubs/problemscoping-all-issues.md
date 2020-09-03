@@ -53,7 +53,7 @@ schemaVersion="1"
         "watermarkText": "Choose an option",
         "required": false,
         "dynamicDropdownOptions": {
-            "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.NotificationHubs/notificationhubs/{resourceName}?&api-version=2016-03-01",
+            "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.notificationhubs/namespaces/{resourceName}/notificationhubs?&api-version=2016-03-01",
             "jTokenPath": "value",
             "textProperty": "name",
             "valueProperty": "name",
