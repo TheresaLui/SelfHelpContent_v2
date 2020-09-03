@@ -193,6 +193,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "508880de-019c-5d90-e5a7-73ecde62d46e",
+      "longDescription": "",
+      "shortDescription": "Questions or issues when using mobile reports and KPIs",
+      "searchTags": "ssrs mobile;ssrs kpi;reporting services mobile reports;reporting services kpi;ssrs mobile reports",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "573d331f-af8f-a2c9-f7b0-b0a554567df2",
       "longDescription": "",
       "shortDescription": "Questions or issues with back up/restore database using storage account",
