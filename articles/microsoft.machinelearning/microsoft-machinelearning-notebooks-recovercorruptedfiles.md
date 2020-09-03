@@ -33,6 +33,6 @@ If your file was deleted or corrupted you might be able to find it in the checkp
 ## **Recommended Documents**
 
 If you are experiencing issues with Studio Notebooks, here is a list of resources which may be helpful:
-* [Overview of share snapshots for Azure Files](https://docs.microsoft.com/en-us/azure/storage/files/storage-snapshots-files)
+* [Overview of share snapshots for Azure Files](https://docs.microsoft.com/azure/storage/files/storage-snapshots-files)
 * [How to run Jupyter Notebooks in your workspace](https://docs.microsoft.com/azure/machine-learning/how-to-run-jupyter-notebooks)
 * [Clone Git repositories into your workspace file system](https://docs.microsoft.com/azure/machine-learning/concept-train-model-git-integration#clone-git-repositories-into-your-workspace-file-system)
