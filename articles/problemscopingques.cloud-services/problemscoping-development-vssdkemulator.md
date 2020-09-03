@@ -90,7 +90,7 @@
         "id": "cloud_service_roles",
         "order": 6,
         "controlType": "multiselectdropdown",
-        "displayLabel": "Please select the relevant role if applicable",
+        "displayLabel": "Role",
         "watermarkText": "Choose an option",
         "required": false,
         "visibility": "cloud_service_slots != null && cloud_service_slots != dont_know_answer",
