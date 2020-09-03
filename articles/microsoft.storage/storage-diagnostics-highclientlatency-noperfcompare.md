@@ -27,4 +27,4 @@ High client latency was observed for storage account **<!--$ResourceName-->[Reso
 
 ## **Recommended Documents**
 
-* Please refer to [Investigating network latency issues](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#investigating-network-latency-issues) for more troubleshooting information.
+* Please refer to [Investigating network latency issues](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#investigating-network-latency-issues) for more troubleshooting information
