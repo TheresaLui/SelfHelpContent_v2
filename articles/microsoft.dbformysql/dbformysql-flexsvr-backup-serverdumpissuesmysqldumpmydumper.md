@@ -28,7 +28,7 @@ You can backup your databases using mysqldump and mydumper and then restore it o
 
 * If you are getting an error like *MySQL has gone away*  or *Lost connection to MySQL server during query* during the backup, it could be timing out if the data being backup is large. You should increase the **max_allowed_packet**, **net_write_timeout**, **net_read_timeout** values to appropriate levels to fix the error. See [how to configure server parameters in portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters). This applies to both **mysqldump** and **mydumper**.
 
-* If you get **access denied** error when trying to run the command, check if you client machine has access. Review firewall configuration of your [Flexible server](https://docs.microsoft.com/en-us/azure/mysql/flexible-server/how-to-manage-firewall-portal#create-a-firewall-rule-after-server-is-created)
+* If you get **access denied** error when trying to run the command, check if you client machine has access. Review firewall configuration of your [Flexible server](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-manage-firewall-portal#create-a-firewall-rule-after-server-is-created)
 
 ## **Recommended documents**
 * [How to configure server parameters in portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters).
