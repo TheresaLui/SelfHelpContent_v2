@@ -24,23 +24,17 @@ Most users are able to resolve their issue using the steps below.
 ## **Recommended Steps**
 
 * In Azure Database for MySQL, the [mysql system database](https://dev.mysql.com/doc/refman/8.0/en/system-schema.html) is read-only as it is used to support various PaaS service functionality. Please note that you cannot change anything in the `mysql` system database.
-
 * Charset and collation are the only database properties that are supported in current framework. Please refer to [Supported charset and collation](https://dev.mysql.com/doc/refman/8.0/en/charset-charsets.html) for more information.
-
-* If you would like to change other properties during database creation or update, connect to MySQL using a client like mysql.exe or MySQL Workbench and execute [CREATE DATABASE](https://dev.mysql.com/doc/refman/8.0/en/creating-database.html) or [ALTER DATABASE](https://dev.mysql.com/doc/refman/8.0/en/alter-database.html).
+* If you would like to change other properties during database creation or update, connect to MySQL using a client like mysql.exe or MySQL Workbench and execute [CREATE DATABASE](https://dev.mysql.com/doc/refman/8.0/en/creating-database.html) or [ALTER DATABASE](https://dev.mysql.com/doc/refman/8.0/en/alter-database.html)
 * If using Azure CLI:
 
-  * To familiarize yourself with using CLI to create databases in Azure Database for MySQL[database related CLI commands](https://docs.microsoft.com/cli/azure/mysql/db?view=azure-cli-latest).
-
-  * If you are using Azure CLI:
-
-      * Make sure you are signed-in to the correct using **az login**
-      * Ensure you are using the correct subscription, in case you have more than one
-      * Specify all required parameters in **az mysql server create** with valid values. Consult the [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest) for required parameters and valid values.
+    * To familiarize yourself with using CLI to create databases in Azure Database for MySQL[database related CLI commands](https://docs.microsoft.com/cli/azure/mysql/db?view=azure-cli-latest)
+    * Make sure you are signed-in to the correct using **az login**
+    * Ensure you are using the correct subscription, in case you have more than one
+    * Specify all required parameters in **az mysql server create** with valid values. Consult the [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest) for required parameters and valid values.
 
 * Consult the [REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/) if you encounter issues using our REST API
-
-* Is using ARM templates, "Update databases" is not an available option. Please make sure charset and collation for a database stay the same when you rerun the deployment.
+* If using ARM templates, "Update databases" is not an available option. Please make sure charset and collation for a database stay the same when you rerun the deployment.
 
 ## **Recommended Documents**
 
