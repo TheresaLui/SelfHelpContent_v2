@@ -409,6 +409,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "da0dbfc1-835a-468e-46d2-13352dca0858",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with printing reports to PDF or using the ActiveX print control",
+      "searchTags": "ssrs print;reporting services print;ssrs activex;reporting services activex;ssrs pdf",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e577bc7a-f909-4835-5c24-3d9d7ec67029",
       "longDescription": "",
       "shortDescription": "Questions or issues with Automated Patching for Windows Server (VM) or SQL Server and SQL server patching with Cumulative updates or service packs",
