@@ -16,14 +16,16 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 # Quota or usage validation
 
-If you are using **Standard (S0)** pricing tier and would like to validate the current value of **Concurrent Request limit** parameter, proceed to the next section.
+## **Recommended Steps**
 
-See all other quotas and limits for Standard (S0) pricing tier and all quotas and limits for Free (F0) pricing tier in these tables:
+If you are using **Standard (S0)** pricing tier and would like to validate the current value of **Concurrent Request limit** parameter, proceed to *Validation of Concurrent Request limit*.
+
+See **all other quotas and limits** for **Standard (S0)** pricing tier **and all quotas and limits** for **Free (F0)** pricing tier in these tables:
 
 - [Speech-to-Text Quotas and Limits per Speech resource](https://docs.microsoft.com/azure/cognitive-services/speech-service/speech-services-quotas-and-limits#speech-to-text-quotas-and-limits-per-speech-resource)
 - [Text-to-Speech Quotas and Limits per Speech resource](https://docs.microsoft.com/azure/cognitive-services/speech-service/speech-services-quotas-and-limits#text-to-speech-quotas-and-limits-per-speech-resource)
 
-## Validation of Concurrent Request limit
+### **Validation of Concurrent Request limit**
 
 Existing value of Concurrent Request limit parameter for **Standard (S0)** price tier is **not** visible via Azure portal, Command-Line tools, or API requests. To verify the existing value, proceed further and create an Azure Support Request.
 

@@ -16,7 +16,7 @@ ownershipId="AzureCogSvc_CognitiveServices"
 
 # Quota or limits increase
 
-If you receive many **Response Codes 429 ("Too many requests")** or you anticipate a **serious growth** of the workload review your Speech resource quotas and limits. Request adjustment if needed and applicable, and follow the described best practices to minimize issues related to throttling.
+If you receive many **Response Codes 429 ("Too many requests")** or you anticipate a **serious growth** of the workload review your **Speech resource quotas and limits**. Request adjustment if needed and applicable, and follow the described best practices to minimize issues related to throttling.
 
 ## **Recommended Steps**
 
