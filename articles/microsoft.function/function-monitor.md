@@ -17,12 +17,12 @@
 
 # Monitor Azure Functions
 
-## **Recommended documents**
+## **Recommended Documents**
 
 Azure Functions Monitoring is driven by Application Insights.
 The users may notice that they cannot see any logs for their Functions Invocations or that the data appears to be inaccurate.
-Here are some resources that can help diagnose these issues.<br>
-* The Diagnose and Solve blade for Azure Functions will check the configuration and advise on the following. 
+Here are some resources that can help diagnose these issues:<br>
+* The Diagnose and Solve blade for Azure Functions will check the configuration and advise on the following: 
   * If the Application Insights Instrumentation key and\or Connection String are configured correctly.
   * If the AzureWebJobsDashboard built in logging is enabled. 
   * If sampling is enabled for the Azure Functions telemetry.
