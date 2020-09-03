@@ -7,7 +7,7 @@ authors="vimunuku"
 ms.author="vimunuku"
 displayOrder=""
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32565576"
+supportTopicIds="32565576,32565577,32565578,32565579,32565580,32565581,32565582,32565583,32565584,32452753,32565571,32565573,32565574,32565575,32565569,32565570,32565572,32447211"
 resourceTags=""
 productPesIds="15973"
 cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -49,7 +49,7 @@ schemaVersion="1"
         "id": "notificationhubs_namespaces",
         "order": 3,
         "controlType": "multiselectdropdown",
-        "displayLabel": "Notification Hub namespace names",
+        "displayLabel": "Notification Hub namespace name",
         "watermarkText": "Choose an option",
         "required": false,
         "dynamicDropdownOptions": {
