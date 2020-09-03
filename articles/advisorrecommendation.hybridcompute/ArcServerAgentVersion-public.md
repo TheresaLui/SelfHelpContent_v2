@@ -1,0 +1,64 @@
+<properties
+    pageTitle="Upgrade to the latest release of the Azure Connected Machine agent"
+    description="Upgrade to the latest release of the Azure Connected Machine agent"
+    ms.author="hybridrpft"
+    articleId="9d5717d2-4708-4e3f-bdda-93b3e6f1715b_Public"
+    selfHelpType="advisorRecommendationMetadata"
+    cloudEnvironments="Public, USSec, USNat"
+    ownershipId="Compute_HybridResourceProvider"
+/>
+# Upgrade to the latest release of the Azure Connected Machine agent
+---
+{
+  "recommendationOfferingId": "c567900d-5efa-4b08-a483-654108ca3b8a",
+  "recommendationOfferingName": "Azure Arc enabled Servers",
+  "$schema": "AdvisorRecommendation",
+  "recommendationTypeId": "9d5717d2-4708-4e3f-bdda-93b3e6f1715b_Public",
+  "dataSourceMetadata": {
+    "streamNamespace": "cluster('hcrpprod.kusto.windows.net').database('hcrpprod').GetOutdatedArcAgents",
+    "dataSource": "Kusto",
+    "refreshInterval": "12:00:00"
+  },
+  "recommendationCategory": "Performance",
+  "recommendationImpact": "Low",
+  "recommendationResourceType": "Microsoft.HybridCompute/machines",
+  "recommendationFriendlyName": "ArcServerAgentVersion",
+  "recommendationMetadataState": "Active",
+  "owner": {
+    "email": "hybridrpft@microsoft.com",
+    "icm": {
+      "routingId": "ADROCS://Recovery/HybridRP",
+      "service": "Hybrid Resource Provider",
+      "team": "Hybrid Resource Provider"
+    },
+    "serviceTreeId": "d41cab33-4a4f-4148-ab2f-2b5ff51bd406"
+  },
+  "version": 1.0,
+  "learnMoreLink": "https://docs.microsoft.com/azure/azure-arc/servers/manage-agent",
+  "description": "Upgrade your Azure Connected Machine agent for stability improvements and the latest features",
+  "longDescription": "The Azure Connected Machine agent is updated regularly to add new functionality, improve stability, and fix bugs. Upgrade your agent to the latest release to ensure the best experience with Azure Arc.",
+  "potentialBenefits": "Improved stability and new functionality",
+  "actions": [
+    {
+      "actionId": "26ea1be9-7b24-4812-8955-63b842a60e68",
+      "description": "Upgrade to the latest agent release",
+      "actionType": "Document",
+      "documentLink": "https://docs.microsoft.com/azure/azure-arc/servers/manage-agent"
+    }
+  ],
+  "resourceMetadata": {
+    "action": {
+      "actionId": "5851ca0f-434c-4a89-a3e2-9b895f880f85",
+      "actionType": "Blade",
+      "extensionName": "Microsoft_Azure_HybridCompute",
+      "bladeName": "ResourceOverviewBlade",
+      "metadata": {
+        "id": "{resourceId}"
+      }
+    }
+  },
+  "displayLabel": "Upgrade the Azure Connected Machine agent",
+  "additionalColumns": [],
+  "testData": "2dad32d6-b188-49e6-9437-ca1d51cec4dd,/subscriptions/2dad32d6-b188-49e6-9437-ca1d51cec4dd/resourceGroups/MVP-PGI-Demo/providers/Microsoft.HybridCompute/machines/ARCDEMO-WIN-01"
+}
+---
