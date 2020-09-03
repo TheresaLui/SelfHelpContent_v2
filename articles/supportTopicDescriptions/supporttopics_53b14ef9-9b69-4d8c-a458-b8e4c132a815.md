@@ -543,6 +543,14 @@
       "searchTags": "virtual machine mangement",
       "category": "Administration",
       "useInDiagnoseAndSolve": "FALSE"
+    },
+    {
+      "id": "ff91eaed-108e-2842-bdf1-0675477b7f9b",
+      "longDescription": "",
+      "shortDescription": "Questions or issues authoring reports using Microsoft Report Builder or SSDT",
+      "searchTags": "ssrs report builder;ssrs ssdt;reporting services report builder;reporting services ssdt",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
     }
   ]
 }
