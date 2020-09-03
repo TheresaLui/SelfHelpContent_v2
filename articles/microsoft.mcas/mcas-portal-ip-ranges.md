@@ -26,7 +26,7 @@ Most users are able to resolve IP address range issues, which can also impact on
 1. If you need help with adding IP ranges, see:
     - [Using the Cloud App Security portal to add IP address ranges](https://docs.microsoft.com/cloud-app-security/ip-tags#create-an-ip-address-range)
     - [Using the Cloud App Security REST API to add multiple IP address ranges](https://docs.microsoft.com/cloud-app-security/api-data-enrichment)
-1. If you having trouble submitting an IP address range, make sure you have a valid IP address range.
+1. If you having trouble submitting an IP address range, make sure you have a valid IP address range
 
 **IMPORTANT**:
 
