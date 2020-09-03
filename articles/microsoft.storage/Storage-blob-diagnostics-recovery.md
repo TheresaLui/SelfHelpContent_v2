@@ -20,7 +20,7 @@ ownershipId="StorageMediaEdge_StorageBlobs"
 
 <!--issueDescription-->
 
-Unable to recover blobs that was deleted in storage account **{ResourceName}** on {DeletionTime}. since all its content was garbage collected."
+Unable to recover blobs that was deleted in storage account **{ResourceName}** on {DeletionTime}, since all its content was garbage collected."
  
 <!--/issueDescription-->
 
