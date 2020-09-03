@@ -7,8 +7,8 @@
   ms.author="zhli2"
   selfHelpType="problemScopingQuestions"
   supportTopicIds="32740927"
-  productPesIds="17258"
-  cloudEnvironments="public, Fairfax, usnat, ussec"
+  productPesIds="17253"
+  cloudEnvironments="public, Fairfax, usnat, ussec, mooncake"
   schemaVersion="1"
   ownershipId="AzureCogSvc_CognitiveServices"
 />
@@ -32,7 +32,7 @@
       "id": "usage_scenario",
       "order": 2,
       "controlType": "radiobuttongroup",
-      "displayLabel": "How did you use Anomaly Detector?",
+      "displayLabel": "How are you using Anomaly Detector?",
       "radioButtonOptions": [
         {
           "value": "SDK",
