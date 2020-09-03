@@ -185,6 +185,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "581b15ea-0d47-b3e4-545b-fd1e164caeb5",
+      "longDescription": "",
+      "shortDescription": "Questions or issues integrating Reporting Services with the Power BI service",
+      "searchTags": "ssrs power bi;ssrs power bi service;reporting services power bi;reporting services power bi integration",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "675b882d-2d62-667b-97de-754af7acafc6",
       "longDescription": "",
       "shortDescription": "Questions on chosing a VM series or a performance tier based on the anticipated characteristics of the workload",
