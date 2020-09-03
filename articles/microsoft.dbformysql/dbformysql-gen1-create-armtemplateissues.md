@@ -31,7 +31,7 @@ Most users are able to resolve their issue using the steps below.
 
 * Required parameters are set and valid. See the [Provisioning Azure Database for MySQL using ARM templates](https://docs.microsoft.com/azure/mysql/tutorial-provision-mysql-server-using-azure-resource-manager-templates#create-an-azure-database-for-mysql-server-with-vnet-service-endpoint-using-azure-resource-manager-template) to understand the valid values of the parameters.
 
-* Poll the status of the operation after you issues the request. Most operations are asynchronous and can take a few minutes to complete.
+* Poll the status of the operation after you issues the request. Most operations are asynchronous and can take a few minutes to complete
 
 ## **Recommended Documents**
 

@@ -32,7 +32,7 @@ Most users are able to resolve their issue using the steps below.
 
   * Make sure you are signed-in to the correct using **az login**
   * Ensure you are using the correct subscription, in case you have more than one
-  * Specify all required parameters in **az mysql server create** with valid values. Consult the [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest) for required parameters and valid values.
+  * Specify all required parameters in **az mysql server create** with valid values. Consult the [CLI reference documentation](https://docs.microsoft.com/cli/azure/mysql?view=azure-cli-latest) for required parameters and valid values
 
 * Consult the [REST API reference documentation](https://docs.microsoft.com/rest/api/mysql/) if you encounter issues using our REST API
 

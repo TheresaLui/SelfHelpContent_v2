@@ -21,9 +21,9 @@ You can backup your databases using mysqldump and mydumper and then restore it o
 
 ## **Recommended Steps**
 
-* Check if the version of **mysqldump** or **mysqldumper** to make sure they are the same version as that of MySQL Flexible server.
+* Check if the version of **mysqldump** or **mysqldumper** to make sure they are the same version as that of MySQL Flexible server
 
-* Checkout all known issues for [mydumper](https://github.com/maxbube/mydumper/issues) and if your issue is related to any of those.
+* Checkout all known issues for [mydumper](https://github.com/maxbube/mydumper/issues) and if your issue is related to any of those
 
 * If you are getting an error like *MySQL has gone away*  or *Lost connection to MySQL server during query* during the backup, it could be timing out if the data being backup is large. You should increase the **max_allowed_packet**, **net_write_timeout**, **net_read_timeout** values to appropriate levels to fix the error. See [how to configure server parameters in portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters). This applies to both **mysqldump** and **mydumper**.
 
@@ -31,8 +31,6 @@ You can backup your databases using mysqldump and mydumper and then restore it o
 
 ## **Recommended Documents**
 
-* [How to configure server parameters in portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters).
+* [How to configure server parameters in portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters)
 * [MyDumper documentation](https://github.com/maxbube/mydumper)
 * [mysqldump documentation](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
-
-
