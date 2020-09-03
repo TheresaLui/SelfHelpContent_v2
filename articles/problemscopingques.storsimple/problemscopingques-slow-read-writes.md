@@ -14,8 +14,8 @@
 # Slow reads and writes
 ---
 {
-    "resourceRequired": false,
-    "subscriptionRequired": false,
+    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Slow reads and writes",
     "fileAttachmentHint": "",
     "formElements": [

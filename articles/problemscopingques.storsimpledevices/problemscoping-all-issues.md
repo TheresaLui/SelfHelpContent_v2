@@ -47,7 +47,7 @@ schemaVersion="1"
         },
         {
             "id": "storsimple_devices",
-            "order": 8,
+            "order": 3,
             "controlType": "multiselectdropdown",
             "displayLabel": "Device name",
             "watermarkText": "Choose an option",
