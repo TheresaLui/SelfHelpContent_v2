@@ -20,7 +20,7 @@
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
   },
-  "recommendationCategory": "OperationalExcellence",
+  "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.HybridCompute/machines",
   "recommendationFriendlyName": "ArcServerAgentVersion",
