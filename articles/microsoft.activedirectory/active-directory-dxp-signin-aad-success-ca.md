@@ -39,7 +39,7 @@ View all your policies [here](https://portal.azure.com/#blade/Microsoft_AAD_IAM/
 <!--$signinDetails-->[signinDetails]<!--/$signinDetails-->
 
 ## **Authentication Details**
-<!--$mfaDetails-->[mfaDetails]<!--/$mfaDetails-->
+<!--$authReqDetails-->[authReqDetails]<!--/$authReqDetails-->
 
 ## **Recommended Documents**
 
