@@ -1,6 +1,7 @@
 <properties
     pageTitle="Upgrade to the latest release of the Azure Connected Machine agent"
     description="Upgrade to the latest release of the Azure Connected Machine agent"
+    authors="hybridrpft"
     ms.author="hybridrpft"
     articleId="9d5717d2-4708-4e3f-bdda-93b3e6f1715b_Public"
     selfHelpType="advisorRecommendationMetadata"
@@ -19,8 +20,8 @@
     "dataSource": "Kusto",
     "refreshInterval": "12:00:00"
   },
-  "recommendationCategory": "Performance",
-  "recommendationImpact": "Low",
+  "recommendationCategory": "OperationalExcellence",
+  "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.HybridCompute/machines",
   "recommendationFriendlyName": "ArcServerAgentVersion",
   "recommendationMetadataState": "Active",
@@ -33,6 +34,7 @@
     },
     "serviceTreeId": "d41cab33-4a4f-4148-ab2f-2b5ff51bd406"
   },
+  "ingestionClientIdentities": [],
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/azure-arc/servers/manage-agent",
   "description": "Upgrade your Azure Connected Machine agent for stability improvements and the latest features",
