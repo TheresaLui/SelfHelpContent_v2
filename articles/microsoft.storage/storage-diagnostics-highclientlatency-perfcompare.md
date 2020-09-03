@@ -13,14 +13,18 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="Public,MoonCake,FairFax,usnat,ussec"
-	ownershipId="StorageMediaEdge_StorageBlobs"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # High client latency detected
 
 <!--issueDescription-->
+
 High client latency was observed for storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** between time**<!--$IssueStartTime-->[IssueStartTime]<!--/$IssueStartTime-->** and **<!--$IssueEndTime-->[IssueEndTime]<!--/$IssueEndTime-->**, additionally, high client latency was also observed for the most recent time between **<!--$CurrentIssueStartTime-->[CurrentIssueStartTime]<!--/$CurrentIssueStartTime-->** and **<!--$CurrentIssueEndTime-->[CurrentIssueEndTime]<!--/$CurrentIssueEndTime-->**. The high latency could originate from either slow public internet connections, slow corporate proxy servers, bad routes, slow application performance such as high CPU, or client's network configuration problems.
 
-Please refer to [Investigating network latency issues](https://docs.microsoft.com/en-us/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#investigating-network-latency-issues) for more troubleshooting information.
 <!--/issueDescription-->
+
+## **Recommended Documents**
+
+* Please refer to [Investigating network latency issues](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#investigating-network-latency-issues) for more troubleshooting information.
