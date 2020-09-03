@@ -60,7 +60,15 @@
     }
   },
   "displayLabel": "Upgrade the Azure Connected Machine agent",
-  "additionalColumns": [],
-  "testData": "2dad32d6-b188-49e6-9437-ca1d51cec4dd,/subscriptions/2dad32d6-b188-49e6-9437-ca1d51cec4dd/resourceGroups/MVP-PGI-Demo/providers/Microsoft.HybridCompute/machines/ARCDEMO-WIN-01"
+  "additionalColumns": [
+      {
+          "name": "InstalledVersion",
+          "title": "Installed Version"
+      },
+      {
+          "name": "LatestVersion",
+          "title": "Latest Version"
+      }
+  ]
 }
 ---
