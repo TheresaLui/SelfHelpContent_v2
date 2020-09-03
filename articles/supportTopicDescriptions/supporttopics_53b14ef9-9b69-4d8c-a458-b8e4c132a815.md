@@ -121,6 +121,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "3418b0d7-0d18-4763-f5a1-1bc7699b0836",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with the installation or configuration of Reporting Services in SharePoint integrated mode",
+      "searchTags": "ssrs sharepoint;reporting services sharepoint;sharepoint integrated",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3526d5e5-1b24-8785-eb7c-8c51ac42206e",
       "longDescription": "",
       "shortDescription": "Questions or issues with log shipping , restore job failures, alerts and doing a manual failover in case of unavailability",
