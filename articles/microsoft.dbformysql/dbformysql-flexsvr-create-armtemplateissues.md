@@ -1,6 +1,6 @@
 <properties
-    pageTitle=""
-    description=""
+    pageTitle="Manage the Azure Database for MySQL Flexible Server using ARM Templates"
+    description="Manage the Azure Database for MySQL Flexible Server using ARM Templates"
     service="microsoft.dbformysql"
     resource="servers"
     authors="mksuni"
@@ -12,6 +12,7 @@
     productPesIds="17344"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="b0c56abd-2151-4ae1-88f9-92905d18cf4e"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Manage the Azure Database for MySQL Flexible Server using ARM Templates

@@ -1,10 +1,10 @@
 <properties
-    pageTitle=""
-    description=""
+    pageTitle="Issues with backup using mysqldump and mydumper"
+    description="Issues with backup using mysqldump and mydumper"
     service="microsoft.dbformysql"
     resource="servers"
-    authors=""
-    ms.author=""
+    authors="mksuni"
+    ms.author="sumuth"
     displayOrder="110"
     selfHelpType="generic"
     supportTopicIds="32747585"
@@ -12,6 +12,7 @@
     productPesIds="17343"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="a8300a93-870a-4396-a250-5eae34feacf3"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Issues with backup using mysqldump and mydumper

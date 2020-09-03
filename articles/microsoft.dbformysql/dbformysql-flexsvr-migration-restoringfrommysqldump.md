@@ -1,10 +1,10 @@
 <properties
-    pageTitle=""
-    description=""
+    pageTitle="Troubleshoot issues with restoring from mysqldump"
+    description="Troubleshoot issues with restoring from mysqldump"
     service="microsoft.dbformysql"
     resource="servers"
-    authors=""
-    ms.author=""
+    authors="mksuni"
+    ms.author="sumuth"
     displayOrder="180"
     selfHelpType="generic"
     supportTopicIds="32747635"
@@ -12,6 +12,7 @@
     productPesIds="17344"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="a755a113-44c6-4eba-8c02-92fcb6f7d9da"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Troubleshoot issues with restoring from mysqldump

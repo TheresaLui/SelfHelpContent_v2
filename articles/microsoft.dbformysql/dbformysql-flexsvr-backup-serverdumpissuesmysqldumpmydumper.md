@@ -1,10 +1,10 @@
 <properties
-    pageTitle=""
-    description=""
+    pageTitle="Issues with backup using mysqldump and mydumper"
+    description="Issues with backup using mysqldump and mydumper"
     service="microsoft.dbformysql"
     resource="servers"
-    authors=""
-    ms.author=""
+    authors="mksuni"
+    ms.author="sumuth"
     displayOrder="120"
     selfHelpType="generic"
     supportTopicIds="32747637"
@@ -12,9 +12,11 @@
     productPesIds="17344"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="9f6ab11f-d9a6-426d-8854-51849d8016f1"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Issues with backup using mysqldump and mydumper
+
 [!Note]  **Flexible Servers is in public preview**
 
 You can backup your databases using mysqldump and mydumper and then restore it on to Azure Database for MySQL Flexible server.

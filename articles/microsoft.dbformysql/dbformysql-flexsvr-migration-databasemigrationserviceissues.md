@@ -1,10 +1,10 @@
 <properties
-    pageTitle=""
-    description=""
+    pageTitle="Commons Issues with using Azure Database Migration Services"
+    description="Commons Issues with using Azure Database Migration Services"
     service="microsoft.dbformysql"
     resource="servers"
-    authors=""
-    ms.author=""
+    authors="mksuni"
+    ms.author="sumuth"
     displayOrder="170"
     selfHelpType="generic"
     supportTopicIds="32747608"
@@ -12,6 +12,7 @@
     productPesIds="17344"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="66906037-29f0-404d-b00c-477a545b481f"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Commons Issues with using Azure Database Migration Services

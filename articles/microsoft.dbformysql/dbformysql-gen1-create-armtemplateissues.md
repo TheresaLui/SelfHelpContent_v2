@@ -1,6 +1,6 @@
 <properties
-    pageTitle=""
-    description=""
+    pageTitle="Manage the Azure Database for MySQL Single Server using ARM Templates"
+    description="Manage the Azure Database for MySQL Single Server using ARM Templates"
     service="microsoft.dbformysql"
     resource="servers"
     authors="mksuni"
@@ -12,6 +12,7 @@
     productPesIds="17343"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="fcd2b21e-9307-4ef7-8414-931f9d9a8de8"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Manage the Azure Database for MySQL Single Server using ARM Templates

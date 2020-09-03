@@ -1,10 +1,10 @@
 <properties
-    pageTitle=""
-    description=""
+    pageTitle="Creating, scaling, and deleting an Azure Database for MySQL server"
+    description="Creating, scaling, and deleting an Azure Database for MySQL server"
     service="microsoft.dbformysql"
     resource="servers"
-    authors=""
-    ms.author=""
+    authors="mksuni"
+    ms.author="sumuth"
     displayOrder="130"
     selfHelpType="generic"
     supportTopicIds="32747557"
@@ -12,6 +12,7 @@
     productPesIds="17343"
     cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="5fc3807b-cdfa-44cf-807b-1b104f13b6a9"
+    ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Creating, scaling, and deleting an Azure Database for MySQL server
