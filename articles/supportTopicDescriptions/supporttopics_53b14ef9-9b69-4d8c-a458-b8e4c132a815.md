@@ -57,6 +57,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "15caab59-558e-933c-4426-a4ee3e25d2dc",
+      "longDescription": "",
+      "shortDescription": "My database backup or restore is taking longer time than expected",
+      "searchTags": "slow backup;slow restore;backup takes longer ;restore takes longer;slow performance with backup or restore",
+      "category": "BackupRestore",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "164dcc4e-aea2-2c8a-6043-8cd8362c8487",
       "longDescription": "",
       "shortDescription": "Questions or issues with Linked Server and distributed queries",
