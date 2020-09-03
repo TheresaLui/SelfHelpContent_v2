@@ -257,6 +257,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "8b11c6c8-ced3-4b42-bdf8-6d250fc13ad8",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with connectivity and configuration of a report data source",
+      "searchTags": "ssrs data source;ssrs configuration;ssrs connectivity;reporting services data source;report data source",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "94164a44-f834-927e-90f3-58855be82009",
       "longDescription": "",
       "shortDescription": "Questions or issues connecting to an instance of SQL Server through an instance of the Azure firewall",
