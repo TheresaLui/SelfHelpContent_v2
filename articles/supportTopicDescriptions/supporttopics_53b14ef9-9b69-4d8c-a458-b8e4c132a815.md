@@ -425,6 +425,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d28f346c-080b-1fa8-5ed7-b0e60ae62056",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to report subscriptions",
+      "searchTags": "ssrs subscriptions;reporting services subscriptions",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d814c242-026f-8d64-abe8-30e028aa1e26",
       "longDescription": "",
       "shortDescription": "Issues with an AlwaysOn solution such as availability groups, failover cluster instance, mirroring, log shipping or replication",
