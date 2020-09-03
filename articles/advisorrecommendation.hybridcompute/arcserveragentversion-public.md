@@ -13,7 +13,7 @@
   "recommendationOfferingId": "c567900d-5efa-4b08-a483-654108ca3b8a",
   "recommendationOfferingName": "Azure Arc enabled Servers",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "9d5717d2-4708-4e3f-bdda-93b3e6f1715b_Public",
+  "recommendationTypeId": "9d5717d2-4708-4e3f-bdda-93b3e6f1715b",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('hcrpprod.kusto.windows.net').database('hcrpprod').GetOutdatedArcAgents",
     "dataSource": "Kusto",
