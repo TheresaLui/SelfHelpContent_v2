@@ -513,6 +513,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "f36831db-0d35-5a96-8da3-d14b43e6aed6",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with installing custom extensions, or using the RS.exe utility and SSRS APIs",
+      "searchTags": "ssrs extensions;ssrs api;reporting services extensions;reporting services api;ssrs custom",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f4a4a365-1c29-7659-6078-b1634c4e6555",
       "longDescription": "",
       "shortDescription": "Questions on the tools and practises for migrating on-premise/other cloud SQL Server databases to SQL Server on Azure VM.",
