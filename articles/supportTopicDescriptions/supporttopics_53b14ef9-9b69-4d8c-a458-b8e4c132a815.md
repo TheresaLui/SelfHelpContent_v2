@@ -385,6 +385,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "d1eb0294-716b-81f8-4328-736e2b20c6c3",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to slow report or Reporting Services performance",
+      "searchTags": "ssrs slow report;ssrs performance;reporting services performance;reporting services slow",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d814c242-026f-8d64-abe8-30e028aa1e26",
       "longDescription": "",
       "shortDescription": "Issues with an AlwaysOn solution such as availability groups, failover cluster instance, mirroring, log shipping or replication",
