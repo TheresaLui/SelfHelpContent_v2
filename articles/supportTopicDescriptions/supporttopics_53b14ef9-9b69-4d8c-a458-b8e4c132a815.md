@@ -155,10 +155,10 @@
     {
       "id": "37edad8f-bf2c-be9f-6c31-8b9eb90273c3",
       "longDescription": "",
-      "shortDescription": "Questions or issues with compiling page, web and mobile reports from your data with SQL Server Reporting Services",
+      "shortDescription": "Questions or issues with authoring and viewing reports from your data with SQL Server Reporting Services",
       "searchTags": "ssrs;sql server reporting services;reporting services;data services",
       "category": "Data Services",
-      "useInDiagnoseAndSolve": "FALSE"
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "414e5b5c-a127-5260-1b38-975eefeba008",
