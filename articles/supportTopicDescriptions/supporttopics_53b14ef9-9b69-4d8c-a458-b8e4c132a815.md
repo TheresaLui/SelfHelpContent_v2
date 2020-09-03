@@ -121,6 +121,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "36bddc6a-9517-0ae7-abef-6bdf8aea4a27",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with connecting to the Reporting Services website",
+      "searchTags": "ssrs;reporting services;connecting to ssrs;connecting to reporting services",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "37edad8f-bf2c-be9f-6c31-8b9eb90273c3",
       "longDescription": "",
       "shortDescription": "Questions or issues with compiling page, web and mobile reports from your data with SQL Server Reporting Services",
