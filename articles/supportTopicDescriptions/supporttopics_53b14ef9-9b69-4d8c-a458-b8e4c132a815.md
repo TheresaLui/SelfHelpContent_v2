@@ -137,6 +137,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "35866098-563a-04e1-0ff4-b5e07218e068",
+      "longDescription": "",
+      "shortDescription": "Questions or issues related to viewing reports or exporting reports",
+      "searchTags": "ssrs render;ssrs rendering;reporting services rendering;ssrs export report;reporting services export",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "36bddc6a-9517-0ae7-abef-6bdf8aea4a27",
       "longDescription": "",
       "shortDescription": "Questions or issues with connecting to the Reporting Services website",
