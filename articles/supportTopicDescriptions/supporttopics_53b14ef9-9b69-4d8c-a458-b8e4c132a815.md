@@ -161,6 +161,14 @@
       "useInDiagnoseAndSolve": "FALSE"
     },
     {
+      "id": "414e5b5c-a127-5260-1b38-975eefeba008",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with the Report Viewer control",
+      "searchTags": "ssrs reportviewer;reporting services reportviewer;reportviewer;ssrs report viewer;reporting services report viewer",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "41cd784e-561a-9fc7-1a63-80f8a6720817",
       "longDescription": "",
       "shortDescription": "Questions or issues connecting to default or named instance of SQL Server.",
