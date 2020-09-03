@@ -10,7 +10,11 @@
 	supportTopicIds="32749790"
 	resourceTags=""
 	productPesIds="16072"
+<<<<<<< HEAD
 	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+=======
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
+>>>>>>> b994b91db9df4d55d4ba432c9c99f5c5a1fe5aa6
 	ownershipId = "Compute_AppService"
 	articleId="f6b88fe7-454b-4e8a-903f-c7026b8ff85d"
 	/>
@@ -18,7 +22,7 @@
 # authentication and authorization/Azure AD sign-in issues and access management
 
 **Note**<br>
-If you have questions related to Azure Active Directory sign-in or access management, please consider going back to the previous screen and selecting “**Azure Active Directory Sign-in and Multi-Factor Authentication**” as your service to get better solution recommendations and faster access to an appropriate support resource.<br>
+If you have questions related to Azure Active Directory sign-in or access management, please consider going back to the previous screen and selecting **Azure Active Directory Sign-in and Multi-Factor Authentication** as your service to get better solution recommendations and faster access to an appropriate support resource.<br>
 
 ## **Recommended Documents**
 
