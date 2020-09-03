@@ -17,8 +17,6 @@
 
 # Creating, scaling, and deleting an Azure Database for MySQL Flexible server
 
-[!Note]  **Flexible Servers is in public preview**
-
 Databases in Azure Database for MySQL Flexible servers (Preview) can be managed through the ARM template, Azure CLI , Azure portal and REST APIs. Note that most of the management operations are asynchronous and you might have to poll the status of the operation when using Azure CLI or REST APIs.
 
 Most users are able to resolve their issue using the steps below.

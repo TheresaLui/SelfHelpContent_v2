@@ -17,8 +17,6 @@
 
 # Manage the Azure Database for MySQL Flexible Server using ARM Templates
 
-[!Note]  **Flexible Servers is in public preview**
-
 The Azure Database for MySQL Flexible Server REST APIs enables you to automate the management of servers in Azure. Note that most of the management operations are asynchronous and you might have to poll the status of the operation if using REST APIs.
 
 Most users are able to resolve their issue using the steps below.
@@ -35,9 +33,8 @@ Most users are able to resolve their issue using the steps below.
 
 * Poll the status of the operation after you issues the request. Most operations are asynchronous and can take a few minutes to complete.
 
-
 ## **Recommended Documents**
 
 * [Create databases in Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/flexible-server/quickstart-create-arm-template)<br>
 * [Troubleshoot ARM template deployments](https://docs.microsoft.com/azure/azure-resource-manager/templates/template-tutorial-troubleshoot)<br>
-* [Troubleshoot common Azure deployment errors with Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/templates/common-deployment-errors)<br>
+* [Troubleshoot common Azure deployment errors with Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/templates/common-deployment-errors)
