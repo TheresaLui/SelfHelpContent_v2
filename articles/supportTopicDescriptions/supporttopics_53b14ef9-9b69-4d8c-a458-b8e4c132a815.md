@@ -33,6 +33,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "08399bc4-65fe-30a4-6fe9-a6d0f8c702ad",
+      "longDescription": "",
+      "shortDescription": "Questions or issues with the installation or configuration of Reporting Services in Native mode",
+      "searchTags": "ssrs native mode;reporting services native mode",
+      "category": "SSRS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "0e14b8cf-c28f-0dfc-9ef7-04f20d268084",
       "longDescription": "",
       "shortDescription": "Questions or issues with a reboot/restart of the VM",
