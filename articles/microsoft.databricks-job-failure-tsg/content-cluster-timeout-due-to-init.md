@@ -17,11 +17,15 @@
 
 # Cluster timeout due to Init
 
-Cluster startup fails with timeout error: *The cluster could not be started in 50 minutes. Cause: Timed out with exception after <xx> attempts.*
+Cluster startup fails with timeout error: 
+
+```
+The cluster could not be started in 50 minutes. Cause: Timed out with exception after <xx> attempts.
+```
 
 Init scripts that run during the cluster spin-up stage send an RPC (remote procedure call) to each worker machine to run the scripts locally. All RPCs must return their status before the process continues. If any RPC hits an issue and doesn?t respond back (due to a transient networking issue, for example), then the 1-hour timeout can be hit, causing the cluster setup job to fail.
 
-**Troubleshooting and Solution**
+#### Troubleshooting and Solution
 
 1. Validate if customer uses Init script V1 (cluster named or global init scripts).
 2. Confirm this is transient issue, check init logs to rule out any issues due to script error.
