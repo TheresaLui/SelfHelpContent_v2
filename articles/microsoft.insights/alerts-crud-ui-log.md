@@ -1,22 +1,15 @@
 <properties
-    pageTitle="I am having issues creating, editing, or deleting log alert rules"
-    description="I am having issues creating, editing, or deleting log alert rules"
-    infoBubbleText=""
-    service="microsoft.insights"
-    resource="scheduledqueryrules"
-    authors="yalavi"
-    ms.author="yalavi"
-    displayOrder="8"
-    articleId="alerts-crud-ui-log"
-    diagnosticScenario=""
-    selfHelpType="generic"
-    supportTopicIds="32739785, 32612472"
-    resourceTags=""
-    productPesIds="15454, 15725"
-    cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
-    ownershipId="AzureMonitoring_Alerts_LogSearchAlerts"
-/>
-
+  pagetitle="I am having issues creating, editing, or deleting log alert rules"
+  service="microsoft.insights"
+  resource="scheduledqueryrules"
+  ms.author="yalavi,aaronmax"
+  selfhelptype="Generic"
+  supporttopicids="32739785,32612472"
+  resourcetags=""
+  productpesids="15454,15725"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="alerts-crud-ui-log"
+  ownershipid="AzureMonitoring_Alerts_LogSearchAlerts" />
 # I am having issues creating, editing, or deleting log alert rules
 
 [Log alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-unified-log) run your analytics queries against the data available on [Azure Monitor Logs](https://docs.microsoft.com/azure/azure-monitor/log-query/query-language) or [Application Insights logs](https://docs.microsoft.com/azure/azure-monitor/app/analytics).
@@ -51,6 +44,10 @@ If you are running into issues while creating, editing, or deleting log alert ru
 
     * Azure Monitor has built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor) to help limit access to resources while still enabling those responsible for monitoring infrastructure to obtain and configure alert rules
     * To create log alert rules, a user must have [Monitoring Contributor Role](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor) or [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/ScheduledQueryRules
+
+### **Advisory and How-To**
+[![Monitoring Video](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/alerts/how-to-configure-an-alert-rule.png)](https://www.microsoft.com/videoplayer/embed/RE4tflw?autoplay=1)
+
 
 ## **Recommended Documents**
 

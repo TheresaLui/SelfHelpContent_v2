@@ -62,6 +62,6 @@
 	* You cannot replace the VNet for an existing workspace
 	* You cannot change subnet CIDR range for an existing workspace
 
+	Instead, it is recommended that you create another workspace in a larger VNet. Follow these [detailed migration steps](https://docs.microsoft.com/azure/azure-databricks/howto-regional-disaster-recovery#detailed-migration-steps) to copy resources (notebooks, cluster configurations, jobs) from the old to new workspace.	
 
-Instead, it is recommended that you create another workspace in a larger VNet. Follow these [detailed migration steps](https://docs.microsoft.com/azure/azure-databricks/howto-regional-disaster-recovery#detailed-migration-steps) to copy resources (notebooks, cluster configurations, jobs) from the old to new workspace.	
-
+* [Migrate Azure Databricks workspace between subscriptions or regions](https://docs.microsoft.com/azure/databricks/scenarios/howto-regional-disaster-recovery#detailed-migration-steps) - The new workspace should be created first and then migrate all notebooks, jobs configuration, clusters configuration, users, libraries, mounts, init scripts... 
