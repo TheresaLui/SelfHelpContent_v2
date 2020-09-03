@@ -2,7 +2,7 @@
 	pageTitle="authentication and authorization/Azure AD sign-in issues and access management"
 	description="authentication and authorization/Azure AD sign-in issues and access management"
 	service="microsoft.web"
-	resource="sites"
+	resource="functions"
 	authors="cts-shrahman,cts-shrahman"
 	ms.author="shrahman, shrahman"
 	displayOrder=""
@@ -10,7 +10,7 @@
 	supportTopicIds="32749790"
 	resourceTags=""
 	productPesIds="16072"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	ownershipId = "Compute_AppService"
 	articleId="f6b88fe7-454b-4e8a-903f-c7026b8ff85d"
 	/>
