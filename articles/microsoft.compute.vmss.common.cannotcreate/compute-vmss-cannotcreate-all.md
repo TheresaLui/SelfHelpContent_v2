@@ -15,13 +15,9 @@
 	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
-## **Awareness**
-
->We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
+# Cannot create a Scale Set
 
 ## **Recommended Steps**
-
->If you are experiencing allocation failures in **UAE North**, please try alternate regions (as first preference) or alternate SKUs.<br>
 
 For general troubleshooting, please follow these guides:<br>
 
