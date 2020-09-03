@@ -17,13 +17,37 @@ cloudEnvironments="public, FairFax, usnat, ussec"
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Cannot connect <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** to a virtual machine
+# Cannot create a Windows virtual machine
+
+## Cannot create a Windows VM FabricVmPlacementErrorNotEnoughCapacity
 
 <!--issueDescription-->
-The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot connect to a virtual machine (VM):
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot create a Windows virtual machine (VM) because of error FabricVmPlacementErrorNotEnoughCapacity.
+
+
+<!--/issueDescription-->
+
+In order to create a Windows VM  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, see [delete the snapshot](https://docs.microsoft.com/azure/storage/blobs/storage-blob-snapshots#delete-snapshots).
+
+## Cannot create a Windows VM OperationNotAllowed/QuotaExceeded
+
+<!--issueDescription-->
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot create a Windows virtual machine (VM) because of error OperationNotAllowed/QuotaExceeded.
+
 
 
 
 <!--/issueDescription-->
 
-In order to connect to the VM  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, see [delete the snapshot](https://docs.microsoft.com/azure/storage/blobs/storage-blob-snapshots#delete-snapshots).
+In order to create a Windows VM  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, see [delete the snapshot](https://docs.microsoft.com/azure/storage/blobs/storage-blob-snapshots#delete-snapshots).
+
+## Cannot create a Windows VM VMExtensionProvisioningError
+
+<!--issueDescription-->
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot create a Windows virtual machine (VM) because of error VMExtensionProvisioningError. 
+
+
+
+<!--/issueDescription-->
+
+In order to create a Windows VM  <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->, see [delete the snapshot](https://docs.microsoft.com/azure/storage/blobs/storage-blob-snapshots#delete-snapshots).
