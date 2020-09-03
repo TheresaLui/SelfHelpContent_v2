@@ -122,6 +122,25 @@
                     "text": "Run `invoke-hcsdiagnostics -scope network` and provide output below to assist in troubleshooting the issue."
                 }
             ]
+        },
+        {
+            "id": "storsimple_devices",
+            "order": 8,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Device name",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourceName}/devices?&api-version=2017-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "valuePropertyRegex": "^+$",
+                    "defaultDropdownOptions": {
+                        "value": "dont_know_answer",
+                        "text": "Not applicable/No devices available"
+                    }
+            }
         }
     ],
     "$schema": "SelfHelpContent"
