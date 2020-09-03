@@ -72,7 +72,26 @@ schemaVersion="1"
             "displayLabel": "Please provide the call stack with exception messages and time stamp",
             "required": true,
             "useAsAdditionalDetails": true
-        }
+        },
+        {
+            "id": "eventhubs_namespaces",
+            "order": 8,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Event Hubs",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.EventHub/namespaces/{resourceName}/eventhubs?&api-version=2015-08-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "valuePropertyRegex": "^+$",
+                    "defaultDropdownOptions": {
+                        "value": "dont_know_answer",
+                        "text": "Not applicable/No event hubs available"
+                    }
+                }
+            }
     ],
     "$schema": "SelfHelpContent"
 }
