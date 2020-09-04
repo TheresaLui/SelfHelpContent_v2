@@ -38,7 +38,7 @@ Slow query logs are disabled by default. Use the [Azure portal](https://docs.mic
     * .log files provide short-term storage for logs in a CSV-like format and are stored locally on the server. These logs are retained for up to seven days and the files are rotated every 24 hours or 7 GB (whichever comes first). They can be downloaded from the Azure portal (Server logs page) or CLI.
     * Diagnostic logs send logs in JSON format to Azure Monitor logs, Event Hubs, or Azure Storage for longer term storage and analysis. This feature is only available in the General Purpose and Memory Optimized pricing tiers. Use your server's **Diagnostic settings** page in the Azure portal to configure where to emit your logs to using the "MySqlSlowLogs" log type.
     * The **`log_output`** parameter allows you to configure where logs are output to. If "File", the slow query log is written to both the local server storage and to Azure Monitor diagnostics. If "None", the slow query log will only be written to Azure Monitor diagnostics.
-* If you are downloading large slow query log files from the Azure portal, you may want to consider using the [Microsoft Download Manager](https://www.microsoft.com/en-us/download/details.aspx?id=27960) to increase the threads available to download
+* If you are downloading large slow query log files from the Azure portal, you may want to consider using a download manager to increase the threads available to download
 
 ## **Recommended Documents**
 * [Slow query logs](https://docs.microsoft.com/azure/mysql/concepts-server-logs)<br>

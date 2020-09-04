@@ -31,7 +31,7 @@ Azure Database for MySQL Flexible Server provides easy management of servers thr
     |Restore|[Perform restore](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-restore-mysql-server-portal)|
     |Replication|[Manage replicas](https://docs.microsoft.com/azure/mysql/flexible-server)|
     |Server parameters|[Configure parameters](https://docs.microsoft.com/azure/mysql/flexible-server)|
-    |Monitor server|[Configure alerts](https://review.docs.microsoft.com/azure/mysql/flexible-server/how-to-alert-on-metric)|
+    |Monitor server|[Configure alerts](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-alert-on-metric)|
     |Move server across resource groups or subscriptions|[Azure resource move](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)|
 
 * Check the issue is not caused by browser cache. Please use a different browser or a different client machine. If you don't have other browsers, please try InPrivate session in Edge or incognito session in Chrome.
