@@ -60,7 +60,7 @@
 			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "What version of Azure Data Controller are you using? \n Use 'azdata arc dc config show |grep imageTag' to obtain",
-			"required": true
+			"required": false
 		},{
 			"id": "client_tool",
 			"order": 4,
@@ -93,7 +93,7 @@
 			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "What is the specific error message did you receive?",
-			"required": true
+			"required": false
 		}, {
 			"id": "problem_description",
             "order": 7,
