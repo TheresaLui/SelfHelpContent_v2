@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Create SQL MIAA Instance"
-	description="Create SQL MIAA Instance"
+	pageTitle="Modify SQL MIAA instance"
+	description="Modify SQL MIAA instance"
 	ms.author="amigan,jopilov,prmadhes"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32743962"
+	supportTopicIds="32743990"
 	productPesIds="17125"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="5d5d27ad-b608-4b50-8d20-055e4eb4d857"
+	articleId="1A2002F4-D937-4236-8355-8146F7D1C2FF"
 	ownershipId="AzureData_Managed_Instance_Azure_Arc"
 />
-# Create SQL MIAA Instance
+# Modify SQL MIAA instance
 ---
 {
   "$schema": "SelfHelpContent",
@@ -60,7 +60,7 @@
 			"order": 3,
 			"controlType": "textbox",
 			"displayLabel": "What version of Azure Data Controller are you using? \n Use 'azdata arc dc config show |grep imageTag' to obtain",
-			"required": true
+			"required": false
 		},{
 			"id": "client_tool",
 			"order": 4,
@@ -83,14 +83,20 @@
 			],
 			"required": true
 		}, {
-			"id": "error_message",
+			"id": "configuration_change",
 			"order": 5,
+			"controlType": "multilinetextbox",
+			"displayLabel": "What configuration change are you making specifically?",
+			"required": false
+		}, {
+			"id": "error_message",
+			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "What is the specific error message did you receive?",
 			"required": false
 		}, {
 			"id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",

@@ -1,16 +1,16 @@
 <properties
-	pageTitle="Create SQL MIAA Instance"
-	description="Create SQL MIAA Instance"
+	pageTitle="Delete SQL MIAA Instance"
+	description="Delete SQL MIAA Instance"
 	ms.author="amigan,jopilov,prmadhes"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32743962"
+	supportTopicIds="32743969"
 	productPesIds="17125"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="5d5d27ad-b608-4b50-8d20-055e4eb4d857"
+	articleId="824dc784-c672-4c17-81af-c9e38ee32b3d"
 	ownershipId="AzureData_Managed_Instance_Azure_Arc"
 />
-# Create SQL MIAA Instance
+# Delete SQL MIAA Instance
 ---
 {
   "$schema": "SelfHelpContent",
