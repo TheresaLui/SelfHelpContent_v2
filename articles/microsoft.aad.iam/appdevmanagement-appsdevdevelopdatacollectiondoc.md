@@ -2,6 +2,7 @@
     pageTitle="Active Directory application dev development issue"
     description="appsdevdevelopdatacollectiondoc"
     authors="anupnadigm"
+    ms.authors="anupnadigm"
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32570261"
     productPesIds="14785,16575"
