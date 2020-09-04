@@ -18,7 +18,7 @@
 
 ## Issue Description
 <!--issueDescription-->
- **<!--$Description-->[Description]<!--/$Description-->**
+ <!--$Description-->[Description]<!--/$Description-->
 <!--/issueDescription-->
 
 ## **Recommended Steps**

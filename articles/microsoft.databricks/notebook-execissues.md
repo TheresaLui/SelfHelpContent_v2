@@ -17,6 +17,10 @@
 
 # Diagnose and resolve execution issues
 
+## **Recommended Steps**
+
+* Getting error **java.io.EOFException** when handling huge data set in Spark R even with larger cluster - issue is caused by design since Spark R uses driver node specific framework resource. Resolution is to handle the pipeline with dividing data into smaller sets and conquer the results.
+
 ## **Recommended Documents**
 
 * How to connect to data sources from Azure Databricks:
@@ -38,3 +42,9 @@
     * Select Usage + quotas
     * In the upper right corner, select Request increase
     * Fill in the forms for the type of quota you need to increase
+    
+* Databricks **Performance Tuning**:
+	* [Azure Databricks Best Practices](https://github.com/Azure/AzureDatabricksBestPractices/blob/master/toc.md)
+	* [Optimizing Apache Spark SQL Joins](https://databricks.com/session/optimizing-apache-spark-sql-joins)
+	* [Correctness and Performance of Apache Spark SQL](https://databricks.com/session/a-framework-for-evaluating-the-performance-and-the-correctness-of-the-spark-sql-engine)
+	* [Delta Engine Optimization](https://docs.microsoft.com/azure/databricks/delta/optimizations/)

@@ -19,7 +19,9 @@
 
 ## **Recommended Steps**
 
-* Run [validation tool](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) (Test-AzureStack) and resolve identified issues
+* Run the [validation tool](https://docs.microsoft.com/azure-stack/operator/azure-stack-diagnostic-test) (Test-AzureStack) and resolve identified issues
+* If Test-AzureStack output says to run the -Repair option to remediate an inaccessible VM, you can include the role name listed in the output, but only for the AsScaleUnitResources, AzsInfraRoleSummary, or AzsPortalAPISummary roles and only if no other update is in progress.
+
 
 ## **Recommended Documents**
 

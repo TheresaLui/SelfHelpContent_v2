@@ -20,4 +20,10 @@
 
 * [Backup and restore](https://docs.microsoft.com/azure/analysis-services/analysis-services-backup)
 
+* [Backup-ASDatabase](https://docs.microsoft.com/powershell/module/sqlserver/backup-asdatabase?view=sqlserver-ps)
+
+* [Restore-ASDatabase](https://docs.microsoft.com/powershell/module/sqlserver/restore-asdatabase?view=sqlserver-ps)
+
+* [Database operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-powershell#database-operations)
+
 * [Best practices for long running operations](https://docs.microsoft.com/azure/analysis-services/analysis-services-long-operations)

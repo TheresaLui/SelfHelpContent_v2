@@ -15,7 +15,7 @@
 />
 
 # Publish Model
-###Getting Started
+### Getting Started
 
 * When you have built your LUIS application and want to use it in a production environment, you need to [publish your application](https://docs.microsoft.com/azure/cognitive-services/luis/luis-how-to-publish-app#publishing)
 

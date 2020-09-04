@@ -22,5 +22,8 @@
 
 * [Troubleshooting the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-onprem-tshoot#firewall-or-proxy)
 
+* [Frequently asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
 
+* [Adjust communication settings for the on-premises data gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-communication)
 
+* [Use gateway for data sources on an Azure Virtual Network (VNet)](https://docs.microsoft.com/azure/analysis-services/analysis-services-vnet-gateway)
