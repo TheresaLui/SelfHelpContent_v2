@@ -16,7 +16,7 @@
 />
 
 # Troubleshooting login performance in Azure Database for MySQL Flexible Server
-Slow login issues can have many different root causes. Work through the recommended steps below to solve for the most common issues
+Slow login issues can have many different root causes. Work through the recommended steps below to solve for the most common issues.
 
 ## **Recommended Steps**
 
