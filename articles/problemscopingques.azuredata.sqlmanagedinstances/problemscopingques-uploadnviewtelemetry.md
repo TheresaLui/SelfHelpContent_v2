@@ -31,19 +31,13 @@
 			"controlType": "textbox",
 			"displayLabel": "What version of Azure Data Controller are you using? \n Use 'azdata arc dc config show |grep imageTag' to obtain",
 			"required": true
-		}, { 
+		}, {
 			"id": "specific_error_message",
 			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "What specific error message did you receive? ",
-			"required": true
-		}, { 
-			"id": "upload_export",
-			"order": 4,
 			"controlType": "dropdown",
 			"displayLabel": "Which step in the process fails?",
 			"watermarkText": "Choose an option",
-			dropdownOptions": [{
+			"dropdownOptions": [{
 					"value": "upload",
 					"text": "upload"
 				}, {
@@ -54,7 +48,7 @@
 			"required": true
 		}, {
 			"id": "problem_description",
-            "order": 5,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",
