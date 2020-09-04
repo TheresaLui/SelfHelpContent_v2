@@ -5,7 +5,7 @@ articleId="problemscopingques-Windows_Agent not reporting data or Heartbeat data
 authors="yossiy,luki,shemers"
 ms.author="yossiy,luki,shemers"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32612463"
+supportTopicIds="32745403"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
@@ -168,7 +168,7 @@ ownershipId="AzureMonitoring_LogAnalytics"
             "required": true,
             "hints": [
                 {
-                    "text": "Please provide a screenshot of any errors. In case you’re using an ARM template, please also attach all relevant JSON files."
+                    "text": "Please provide a screenshot of any errors. In case you're using an ARM template, please also attach all relevant JSON files."
                 }
             ]
         }

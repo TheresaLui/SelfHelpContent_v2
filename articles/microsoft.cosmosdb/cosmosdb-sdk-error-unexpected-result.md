@@ -23,12 +23,12 @@ Most users are able to resolve their .Net SDK case using the steps below.
 ## **Recommended Steps**
 
 ### **Use latest SDK versions and singleton client**
-Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet).
+Always ensure you are using the latest SDK, [Azure Cosmos DB .NET SDK for SQL API: Download and release notes](https://docs.microsoft.com/azure/cosmos-db/sql-api-sdk-dotnet-standard).
 <br>Please ensure you are using singleton client. 
 
 ### **Known Issues and Solutions**
 Review the Github issues links below for your SDK platform to see if there is a known bug, and status of the fix from the Azure Cosmos DB team:  
-* [.NET SDK](https://github.com/Azure/azure-cosmosdb-dotnet/issues)
+* [.NET SDK](https://github.com/Azure/azure-cosmos-dotnet-v3/issues)
 * [Java SDK](https://github.com/Azure/azure-documentdb-java/issues)
 * [Node.js SDK](https://github.com/Azure/azure-cosmos-js/issues)
 * [Python SDK](https://github.com/Azure/azure-cosmos-python/issues)  
@@ -58,9 +58,20 @@ Review the Github issues links below for your SDK platform to see if there is a 
 * 403.3 This status code is returned for write requests during the manual failover operation. This status code is used as redirection code by drivers to forward the writes to new write region. Direct REST client must perform GET on DatabaseAccount to identify the current write region and forward the write request to that endpoint.  
 
 
-**429 Too Many Requests**
+**429 Request rate too large**
 <br>The collection has exceeded the provisioned throughput limit. Retry the request after the server specified retry after duration.
-For more information, see [Handle rate limiting/request rate too large](https://docs.microsoft.com/azure/cosmos-db/performance-tips#throughput) and [Request Units](https://docs.microsoft.com/azure/cosmos-db/request-units).  
+For more information, see [Handle rate limiting/request rate too large](https://docs.microsoft.com/azure/cosmos-db/performance-tips#throughput) and [Request Units](https://docs.microsoft.com/azure/cosmos-db/request-units). 
+* See the dedicated support article for [429 - request rate too large](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-service-unavailable).
+
+
+**404 Not found**
+<br>The HTTP status code 404 represents that the resource no longer exists.
+* See the dedicated support article for [404 - not found](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-not-found).
+
+
+**408 Request timeout**
+<br>The HTTP 408 error occurs if the SDK was not able to complete the request before the timeout limit occurs.
+* See the dedicated support article for [408 - request timeout](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-dot-net-sdk-request-timeout).
 
 
 **Invalid characters in Resource.Id _rid Property**
@@ -83,6 +94,7 @@ For more information, see [Handle rate limiting/request rate too large](https://
 **Intermittent 503 errors service is unavailable**
 <br>This can be caused by creating a new client and connection for each call to Cosmos DB which results in resource starvation. 
 * Altering your code to use a singleton client should resolve the issue  
+* See the dedicated support article for [503 - service unavailable](https://docs.microsoft.com/azure/cosmos-db/troubleshoot-service-unavailable).
 
 
 **Unable to connect to Cosmos DB Account from Java SDK (Async API) - Using SQL API**

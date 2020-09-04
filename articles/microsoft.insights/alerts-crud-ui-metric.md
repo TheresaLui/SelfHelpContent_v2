@@ -1,22 +1,15 @@
 <properties
-	pageTitle="I am having issues trying to create, edit or delete alert rules in the Azure portal"
-	description="I'm trying to create, edit or delete a metric alert rule in the Azure portal, but I'm getting an error, or I don't know how to configure it"
-	infoBubbleText="Some suggestions have been found to help solve your metric alert issue more quickly"
-	service="microsoft.insights"
-	resource="metricalerts"
-	authors="harelbr"
-	ms.author="harelbr"
-	displayOrder="1"
-	articleId="alerts-crud-ui-metric"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32739795"
-	resourceTags=""
-	productPesIds="15454"
-	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
-    ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
-/>
-
+  pagetitle="I am having issues trying to create, edit or delete alert rules in the Azure portal"
+  service="microsoft.insights"
+  resource="metricalerts"
+  ms.author="harelbr,aaronmax"
+  selfhelptype="Generic"
+  supporttopicids="32739795"
+  resourcetags=""
+  productpesids="15454"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="alerts-crud-ui-metric"
+  ownershipid="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts" />
 # I am having issues trying to create, edit or delete alert rules in the Azure portal
 
 [Metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview) monitor platform or custom metric values for your Azure resources and notify you if a metric breaches a threshold.
@@ -45,19 +38,21 @@ If you are running into issues creating, updating or deleting metric alert rules
 	- Is the condition still met? The alert rule sends out a resolved/deactivated message when the alert condition is not met for three consecutive periods, to reduce noise in case of flapping conditions.
 	- Is the alert rule configured to never resolve? Metric alert rules can be configured to never resolve, and fire an alert on every evaluation in which the alert condition is met. This can be configured when creating the alert rule programmatically (e.g. via ARM, PowerShell, REST, CLI), and setting the *autoMitigate* property to 'False'.
 
-6. If you are looking to add, edit or delete tags, currently metric alert rules only support adding tags when creating a new alert rule from PowerShell or via an ARM template. Editing, removing or adding tags to an existing alert rule is currently not supported.
-
-7. When deleting an Azure resource, associated metric alert rules aren't deleted automatically. To delete alert rules associated to a resource that has already been deleted:
+6. When deleting an Azure resource, associated metric alert rules aren't deleted automatically. To delete alert rules associated to a resource that has already been deleted:
 
 	- Open the resource group in which the deleted resource was defined
 	- In the list displaying the resources, check the **Show hidden types** checkbox
 	- Filter the list by Type == **microsoft.insights/metricalerts**
 	- Check the relevant metric alert rules and select **Delete**
 
-8. Review if you have appropriate permissions. To create/update/delete metric alerts:
+7. Review if you have appropriate permissions. To create/update/delete metric alerts:
 
     * You should have been assigned a built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor), or
     * You should have been assigned a [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/metricAlerts
+
+### **Advisory and How-To**
+[![Monitoring Video](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/alerts/how-to-configure-an-alert-rule.png)](https://www.microsoft.com/videoplayer/embed/RE4tflw?autoplay=1)
+
 
 ## **Recommended Documents**
 

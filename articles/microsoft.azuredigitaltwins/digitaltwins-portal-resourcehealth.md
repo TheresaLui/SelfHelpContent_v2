@@ -12,7 +12,7 @@
 	supportTopicIds="32741640"
 	resourceTags=""
 	productPesIds="17262"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	ownershipId="AzureDigTwin_DigitalTwins"
 />
 
