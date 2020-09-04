@@ -36,7 +36,7 @@
   },
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/azure-arc/servers/manage-agent",
-  "description": "Upgrade your Azure Connected Machine agent for stability improvements and the latest features",
+  "description": "Upgrade to the latest version of the Azure Connected Machine agent",
   "longDescription": "The Azure Connected Machine agent is updated regularly with bug fixes, stability enhancements, and new functionality. Upgrade your agent to the latest version to ensure the best experience with Azure Arc.",
   "potentialBenefits": "Improved stability and new functionality",
   "actions": [
