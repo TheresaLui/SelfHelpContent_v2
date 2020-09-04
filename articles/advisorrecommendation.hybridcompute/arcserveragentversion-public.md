@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Upgrade to the latest release of the Azure Connected Machine agent"
-    description="Upgrade to the latest release of the Azure Connected Machine agent"
+    pageTitle="Upgrade to the latest version of the Azure Connected Machine agent"
+    description="Upgrade to the latest version of the Azure Connected Machine agent"
     authors="hybridrpft"
     ms.author="hybridrpft"
     articleId="9d5717d2-4708-4e3f-bdda-93b3e6f1715b_Public"
@@ -8,7 +8,7 @@
     cloudEnvironments="Public, USSec, USNat"
     ownershipId="Compute_HybridResourceProvider"
 />
-# Upgrade to the latest release of the Azure Connected Machine agent
+# Upgrade to the latest version of the Azure Connected Machine agent
 ---
 {
   "recommendationOfferingId": "c567900d-5efa-4b08-a483-654108ca3b8a",
@@ -34,16 +34,15 @@
     },
     "serviceTreeId": "d41cab33-4a4f-4148-ab2f-2b5ff51bd406"
   },
-  "ingestionClientIdentities": [],
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/azure-arc/servers/manage-agent",
   "description": "Upgrade your Azure Connected Machine agent for stability improvements and the latest features",
-  "longDescription": "The Azure Connected Machine agent is updated regularly to add new functionality, improve stability, and fix bugs. Upgrade your agent to the latest release to ensure the best experience with Azure Arc.",
+  "longDescription": "The Azure Connected Machine agent is updated regularly with bug fixes, stability enhancements, and new functionality. Upgrade your agent to the latest version to ensure the best experience with Azure Arc.",
   "potentialBenefits": "Improved stability and new functionality",
   "actions": [
     {
       "actionId": "26ea1be9-7b24-4812-8955-63b842a60e68",
-      "description": "Upgrade to the latest agent release",
+      "description": "Upgrade agent",
       "actionType": "Document",
       "documentLink": "https://docs.microsoft.com/azure/azure-arc/servers/manage-agent"
     }
@@ -62,11 +61,11 @@
   "displayLabel": "Upgrade the Azure Connected Machine agent",
   "additionalColumns": [
       {
-          "name": "InstalledVersion",
+          "name": "installedVersion",
           "title": "Installed Version"
       },
       {
-          "name": "LatestVersion",
+          "name": "latestVersion",
           "title": "Latest Version"
       }
   ]
