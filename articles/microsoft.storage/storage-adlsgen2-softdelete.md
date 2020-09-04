@@ -18,5 +18,6 @@
 
 # ADLS Gen2 Soft delete
 
-## **Recommended documents**
+## **Recommended Documents**
+
 - [Soft delete for Containers](https://docs.microsoft.com/azure/storage/blobs/soft-delete-container-overview?tabs=powershell)
