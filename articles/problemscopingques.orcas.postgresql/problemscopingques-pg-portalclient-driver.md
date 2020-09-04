@@ -20,18 +20,34 @@
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "driver_name",
+            "id": "problem_start_time",
             "order": 1,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "driver_name",
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "What is the name of the driver you are using?",
             "required": true
         },
         {
             "id": "driver_version",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "What is the version of the driver you are using?",
-            "required": true
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Problem description",
+            "watermarkText": "Provide your repro steps and other information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"
