@@ -26,7 +26,7 @@ Azure platform continuously monitors reads and writes (IO transactions) from you
 
 The stream layer of Azure Storage stores the data on disk and ensures durability by  distributing and replicating the data across several servers within the storage stamp (extent nodes). Due to unexpected processing delays at the stream layer, storage operations took longer than expected to complete. The issue was detected and automatically mitigated by our in-built recovery mechanisms, and VM availability was restored.<br>
 
-For more information on the stream layer of Azure Storage, refer to the paper [here](http://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf).<br>
+For more information on the stream layer of Azure Storage, refer to the paper [here ](http://sigops.org/sosp/sosp11/current/2011-Cascais/printable/11-calder.pdf).<br>
 
 We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
 
@@ -35,12 +35,10 @@ Microsoft Azure Term
 
 ## **Recommended Documents**
 
-| To learn about ... | See the following ... |
-| --- | ---|
-| Maintenance and updates | [Maintenance for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates) | [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines) |
-| Automated recovery action | 
-| High availability options (highly recommended) | [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability) |
-| Configuring Availability Sets | [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets) |
-| Managed Disks | [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview) |
-| Resource health and troubleshooting | [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview) |
+Learn more about:
+* [Maintenance and updates for virtual machines in Azure ](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
+* [Auto-recovery of Virtual Machines ](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
+* [Configure availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
+* [Managed Disks Overview ](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
+* [Understand and use Resource Health Center to troubleshoot this scenario in the future ](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
 <br>

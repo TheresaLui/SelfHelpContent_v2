@@ -35,16 +35,15 @@ Microsoft Azure Term
 
 ## **Recommended Steps**
 
-Details about the cause of the termination are written to system event logs and possibly other files. To investigate further, see the SUSE article [Troubleshooting Application Crash or Core Dump](https://www.suse.com/support/kb/doc/?id=7004526).<br>
+Details about the cause of the termination are written to system event logs and possibly other files. To investigate further, see the SUSE article:
+* [Troubleshooting Application Crash or Core Dump ](https://www.suse.com/support/kb/doc/?id=7004526)
 
 ## **Recommended Documents**
 
-| To learn about ... | See the following ... |
-| --- | ---|
-| Maintenance and updates | [Maintenance for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates) | [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines) |
-| Automated recovery action | 
-| High availability options (highly recommended) | [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability) |
-| Configuring Availability Sets | [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets) |
-| Managed Disks | [Managed Disks Overview](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview) |
-| Resource health and troubleshooting | [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview) |
+Learn more about:
+* [Maintenance and updates for virtual machines in Azure ](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
+* [Auto-recovery of Virtual Machines ](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
+* [Configure availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
+* [Managed Disks Overview ](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
+* [Understand and use Resource Health Center to troubleshoot this scenario in the future ](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
 <br>
