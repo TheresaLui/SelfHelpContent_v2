@@ -26,7 +26,7 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 ## **Recommended Steps**
 
-* To restore access to the VM, follow the steps in the [Windows boot manager error - 0xC0000428 Status Invalid Image Hash](https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/windows-boot-error-invalid-image-hash) troubleshooting guide
+* To restore access to the VM, follow the steps in the [Windows boot manager error - 0xC0000428 Status Invalid Image Hash](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/windows-boot-error-invalid-image-hash) troubleshooting guide
 
 ## **Recommended Documents**
 
