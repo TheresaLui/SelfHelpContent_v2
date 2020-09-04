@@ -269,6 +269,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "f09cd4d3-5278-3fb5-2f63-f4f8539caefb",
+      "longDescription": "",
+      "shortDescription": "Select this if you have issues with Data services shadow resource not visible in azure post successful upload",
+      "searchTags": "Shadow Resource;Azure Portal",
+      "category": "Azure Arc Data Services in Azure Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "f38e55fc-ce8f-5161-8d93-533aadcb094f",
       "longDescription": "",
       "shortDescription": "Data services usage tracking - technical issues only involving export and update of usage data and not with usage reporting",
