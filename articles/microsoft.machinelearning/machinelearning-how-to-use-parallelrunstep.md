@@ -20,6 +20,6 @@ This article shows you how to run your Azure Machine Learning model in parallel,
 
 ## **Recommended Documents**
 
-* Refer to [Run batch inference on large amounts of data by using Azure Machine Learning.](https://docs.microsoft.com/azure/machine-learning/how-to-use-parallel-run-step)
+* Refer to [Run batch inference on large amounts of data by using Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/how-to-use-parallel-run-step)
 
 * Refer to [Azure Machine Learning Batch Inference Notebook](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/machine-learning-pipelines/parallel-run)

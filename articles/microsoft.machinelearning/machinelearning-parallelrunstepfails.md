@@ -20,4 +20,4 @@ This article shows you how to debug and troubleshoot the ParallelRunStep.
 
 ## **Recommended Documents**
 
-* Refer to [Debug and troubleshoot ParallelRunStep.](https://docs.microsoft.com/azure/machine-learning/how-to-debug-parallel-run-step)
+* Refer to [Debug and troubleshoot ParallelRunStep](https://docs.microsoft.com/azure/machine-learning/how-to-debug-parallel-run-step)
