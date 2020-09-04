@@ -105,9 +105,26 @@
             "numberOfLines": 2
         },
         {
-            "id": "problem_description",
+            "id": "tenantID",
             "visibility": null,
             "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please provide target Tenant ID(s) (Comma separated, if multiple)",
+            "content": null,
+            "watermarkText": "Enter Tenant ID(s)",
+            "infoBalloonText": null,
+            "dropdownOptions": null,
+            "dynamicDropdownOptions": null,
+            "hints": [],
+            "required": false,
+            "maxLength": 0,
+            "useAsAdditionalDetails": false,
+            "numberOfLines": 2
+        },
+        {
+            "id": "problem_description",
+            "visibility": null,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide additional details",
             "content": null,
@@ -123,7 +140,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 7,
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
