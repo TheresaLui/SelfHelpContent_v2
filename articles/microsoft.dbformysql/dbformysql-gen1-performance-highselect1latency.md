@@ -21,12 +21,12 @@ The time taken to execute 'Select 1' is a common way to measure the network late
 
 ## **Recommended Steps**
 
-* Ensure your client and Azure Database for MySQL Single server are in the same Azure region.
-* If your client is hosted in an Azure VM or VMSS, turn on accelerated networking for lowest connection latency.
-* If you are connecting from the Azure Kubernetes Service, review the [Develop with Azure Kubernetes Service](https://docs.microsoft.com/azure/mysql/concepts-aks) documentation.
-* Ensure you are measuring latency on an existing connection. Creating a new connection can take 100+ milliseconds. Connection pooling is strongly recommended to avoid the overhead of establishing new connections.
-* For Java applications use [Hikari](https://github.com/brettwooldridge/HikariCP) for connection pooling.
-* For Php applications, use persistent connections and leverage [ProxySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/connecting-efficiently-to-azure-database-for-mysql-with-proxysql/ba-p/1279842) with builtin connection pooling. 
+* Ensure your client and Azure Database for MySQL Single server are in the same Azure region
+* If your client is hosted in an Azure VM or VMSS, turn on accelerated networking for lowest connection latency
+* If you are connecting from the Azure Kubernetes Service, review the [Develop with Azure Kubernetes Service](https://docs.microsoft.com/azure/mysql/concepts-aks) documentation
+* Ensure you are measuring latency on an existing connection. Creating a new connection can take 100+ milliseconds. Connection pooling is strongly recommended to avoid the overhead of establishing new connections
+* For Java applications use [Hikari](https://github.com/brettwooldridge/HikariCP) for connection pooling
+* For Php applications, use persistent connections and leverage [ProxySQL](https://techcommunity.microsoft.com/t5/azure-database-for-mysql/connecting-efficiently-to-azure-database-for-mysql-with-proxysql/ba-p/1279842) with builtin connection pooling
 * Reduce the number of round trips between your application and the database if possible
 
 
