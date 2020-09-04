@@ -20,17 +20,13 @@ Heavy users of Azure Databricks run into storage throttling limits on WASB/ADLS.
 
 **User facing error**: *Files and folders are being created at too high a rate.*
 
-## Troubleshooting and Solution
+## **Recommended Steps**
 
 This is storage side limitation as the error suggests, please get azure storage team involved. 
 
 Resolution would be to:
 
 1. Increase the limit for subscription at storage level
-<<<<<<< HEAD
-2. Narrow down to specific jobs which are triggering the problem and look to optimize Spark code to create lesser filed and hence not hit limit of file creation
-=======
-2. Narrow down to specific jobs which are triggering the problem. Look to optimize Spark code to create lesser filed and hence not hit limit of file creation.
->>>>>>> 83f6e224819d46478402e5a872516bbcfee2c944
+2. Narrow down to specific jobs which are triggering the problem and look to optimize Spark code to create less files and hence not hit limit of file creation
 
 If issue persists after trying the suggested approach, please discuss issue further with your SME/TA/EEE using [Ava](https://supportability.visualstudio.com/AzureDataBricks/_wiki/wikis/AzureDataBricks.wiki/312127/Ava), [file an IcM](https://supportability.visualstudio.com/AzureDataBricks/_wiki/wikis/AzureDataBricks.wiki/333941/Escalate-to-Product-Group-team) to get limits increased, and [involve Databricks](https://supportability.visualstudio.com/AzureDataBricks/_wiki/wikis/AzureDataBricks.wiki/312121/Engaging-Databricks-Support) under spark to get help on optimizing code.
