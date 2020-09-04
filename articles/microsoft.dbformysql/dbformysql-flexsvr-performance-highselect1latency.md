@@ -17,7 +17,7 @@
 
 # Troubleshooting high latency when executing Select '1' in Azure Database for MySQL Flexible Server
 
-The time taken to execute 'Select 1' is a common way to measure the network latency between the client and the MySQL database. Most customers optimize the latency by working through the recommended steps
+The time taken to execute 'Select 1' is a common way to measure the network latency between the client and the MySQL database. Most customers optimize the latency by working through the recommended steps.
 
 ## **Recommended Steps**
 
