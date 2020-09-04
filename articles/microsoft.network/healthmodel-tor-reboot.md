@@ -14,6 +14,7 @@ supportTopicIds=""
 resourceTags=""
 productPesIds=""
 cloudEnvironments="Public,Fairfax,Mooncake,Blackforest,USNat,USSec"
+ownershipId="CloudNet_PhyNet"
 />
 
 # This virtual machine is impacted by a top-of-rack network device. 
