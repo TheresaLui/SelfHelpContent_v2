@@ -178,7 +178,7 @@
             "dropdownOptions": [
             {
             "value": "DatabaseBackupFailure_BlockSizeReached_Error_3063",
-            "text": "3063: Write to backup block blob device failed"
+            "text": "Error 3063: Write to backup block blob device failed"
             },
             {
             "value": "MigrateDatabaseToAzureVM",
@@ -186,27 +186,27 @@
             },
             {
             "value": "DatabaseBackupFailure_OSError50_Error_3201",
-            "text": "3201: Cannot open backup device"
+            "text": "OS Error 50: Cannot open backup device"
             },
             {
             "value": "DatabaseBackupFailure_DifferentialBackup_AzureBackUpService_Error_3035",
-            "text": "3035: Cannot perform a differential backup for database"
+            "text": "Error 3035: Cannot perform a differential backup for database"
             },
             {
             "value": "DatabaseBackupFailure_1TB_PageBlob_Error_416",
-            "text": "416: Cannot backup database of 1 TB or more to Page blob"
+            "text": "Error 416: Cannot backup database of 1 TB or more to Page blob"
             },
             {
             "value": "DatabaseBackupFailure_TLS_Error_3271",
-            "text": "3271: Backup fails due to TLS errors"
+            "text": "Error 3271: Backup fails due to TLS errors"
             },
             {
             "value": "DatabaseBackupFailure_ContainerURL_Error_45207",
-            "text": "45207: A container URL was either not provided or invalid"
+            "text": "Error 45207: A container URL was either not provided or invalid"
             },
             {
             "value": "DatabaseBackupFailure_1TB_ActiveLease_Error_412",
-            "text": "412: Backup Files with active lease and show as 1 TB Size on storage account"
+            "text": "Error 412: Backup Files with active lease and 1 TB Size on storage account"
             },
             {
             "value": "DatabaseBackupFailure_ProxyServer",
@@ -218,7 +218,7 @@
             },
             {
             "value": "DatabaseRestoreFailure_RestoringFromStorageAccount_Error_3284",
-            "text": "3284: Restore database from storage account fails"
+            "text": "Error 3284: Restore database from storage account fails"
             },
             {
             "value": "dont_know_answer",
