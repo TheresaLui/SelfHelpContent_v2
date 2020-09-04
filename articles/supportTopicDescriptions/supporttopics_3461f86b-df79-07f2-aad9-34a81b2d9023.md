@@ -27,6 +27,14 @@
       "searchTags": "job;failure",
       "category": "job",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "ec1bf12e-9f5b-8d3a-4822-a9c850a23605",
+      "longDescription": "",
+      "shortDescription": "Questions on Deep learning tools and libraries such as Tensorflow or PyTorch",
+      "searchTags": "Tensorflow ;PyTorch",
+      "category": "ML",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
