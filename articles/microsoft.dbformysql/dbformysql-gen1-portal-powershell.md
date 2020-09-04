@@ -33,4 +33,4 @@ Managing your Azure Database for MySQL Single Server using PowerShell. The modul
 
 ## **Recommended Documents**
 
-* [Create an Azure Database for MySQL Single Server using PowerShell](https://docs.microsoft.com/en-us/azure/mysql/quickstart-create-mysql-server-database-using-azure-powershell)
+* [Create an Azure Database for MySQL Single Server using PowerShell](https://docs.microsoft.com/azure/mysql/quickstart-create-mysql-server-database-using-azure-powershell)
