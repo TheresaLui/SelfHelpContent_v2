@@ -22,10 +22,10 @@ Increase in resource consumption can be a result of an explicit user action or c
 ## **Recommended Steps**
 
 * Ensure there are no changes to the pricing-tier or compute size of your service that might have triggered it
-* Adjust the pricing-tier or compute size commensurate to the increase in the workload.
-* You can increase the IOPS available to your server by scaling up storage. IOPS scale with the size of the provisioned storage in a 3:1 ratio.
-* Check if there are any schema changes, for example was an index dropped.
-* Ensure that the statistics are up to date.
+* Adjust the pricing-tier or compute size commensurate to the increase in the workload
+* You can increase the IOPS available to your server by scaling up storage. IOPS scale with the size of the provisioned storage in a 3:1 ratio
+* Check if there are any schema changes, for example was an index dropped
+* Ensure that the statistics are up to date
 
 ## **Recommended Documents**
 
