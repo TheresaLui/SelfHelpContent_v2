@@ -30,13 +30,13 @@
 			"order": 2,
 			"controlType": "multilinetextbox",
 			"displayLabel": "What container registry is your system configured to use?\n Use 'Use azdata arc dc config show |grep registry' to obtain",
-			"required": true
+			"required": false
 		}, {
 			"id": "error_message",
 			"order": 3,
 			"controlType": "multilinetextbox",
 			"displayLabel": "What error message do you receive?",
-			"required": true
+			"required": false
 		}, {
 			"id": "problem_description",
             "order": 4,

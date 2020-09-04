@@ -7,7 +7,7 @@
 	productPesIds="17125"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="5d5d27ad-b608-4b50-8d20-055e4eb4d857"
+	articleId="1A2002F4-D937-4236-8355-8146F7D1C2FF"
 	ownershipId="AzureData_Managed_Instance_Azure_Arc"
 />
 # Modify SQL MIAA instance
