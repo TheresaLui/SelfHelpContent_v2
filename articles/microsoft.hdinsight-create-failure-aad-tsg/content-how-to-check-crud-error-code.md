@@ -31,8 +31,8 @@ IaasClusterCRUDEvent
 | where ClusterDnsName =~ "{ClusterDnsName}" and HdiDeploymentId =~ "{HdiDeploymentId}" and UserSubscriptionId =~ "{UserSubscriptionId}" 
 | where PreciseTimeStamp > datetime('{yyyy-mm-dd HH:MI:SS}') and PreciseTimeStamp < datetime('{yyyy-mm-dd HH:MI:SS}')
 | extend d=parse_json(ErrorInfoAsJson)
-| project PreciseTimeStamp, State, d[0]["ErrorCode"],ErrorInfoAsJson,InternalErrorMessage
+| project PreciseTimeStamp, State, d[0]["ErrorCode"],ErrorInfoAsJson,InternalErrorMessage,IsUserError,IsSecureHadoop
 
 ```
 
-NOTE: ***ErrorInfoAsJson*** and ***InternalErrorMessage** are also important information to troubleshoot
+> **NOTE**: ***ErrorInfoAsJson*** and ***InternalErrorMessage*** are also important information to troubleshoot

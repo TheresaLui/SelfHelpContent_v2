@@ -17,13 +17,7 @@
 
 # My desired region or VM size is unavailable
 
-### **Awareness**
-
->We are currently experiencing high demand for specific regions. For further information, please review our [commitment to customers and Microsoft Cloud Services continuity](https://aka.ms/CloudCovidResponseFAQ).<br>
-
 ## **Recommended Steps**
-
->If you are experiencing allocation failures in **UAE North**, please try alternate regions (as first preference) or alternate SKUs.<br>
 
 For general troubleshooting, please follow these guides:<br>
 
@@ -37,6 +31,6 @@ For general troubleshooting, please follow these guides:<br>
 * [Resolve errors associated with quotas](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-quota-errors)<br>
 * [Troubleshoot allocation failures when you create, restart, or resize VMs in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure)<br>
 * [Resizing a VM or add VMs to an existing availability set](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure#resize-a-vm-or-add-vms-to-an-existing-availability-set)<br>
-* [Troubleshoot allocation failures when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-allocation-failure)<br>
-* [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-troubleshoot-deployment-new-vm)
+* [Troubleshoot allocation failures when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/allocation-failure)<br>
+* [Troubleshoot deployment issues when creating a new virtual machine in Azure](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-deploy-vm-linux)
 * [Azure confidential computing VM Sizes](https://docs.microsoft.com/azure/confidential-computing/virtual-machine-solutions#azure-confidential-computing-vm-sizes)

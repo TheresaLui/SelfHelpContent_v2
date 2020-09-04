@@ -1,22 +1,15 @@
 <properties
-	pageTitle="I am having issues trying to create, edit or delete alert rules in the Azure portal"
-	description="I'm trying to create, edit or delete a metric alert rule in the Azure portal, but I'm getting an error, or I don't know how to configure it"
-	infoBubbleText="Some suggestions have been found to help solve your metric alert issue more quickly"
-	service="microsoft.insights"
-	resource="metricalerts"
-	authors="harelbr"
-	ms.author="harelbr"
-	displayOrder="1"
-	articleId="alerts-crud-ui-metric"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32739795"
-	resourceTags=""
-	productPesIds="15454"
-	cloudEnvironments="public,fairfax,mooncake,usnat,ussec"
-    ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
-/>
-
+  pagetitle="I am having issues trying to create, edit or delete alert rules in the Azure portal"
+  service="microsoft.insights"
+  resource="metricalerts"
+  ms.author="harelbr,aaronmax"
+  selfhelptype="Generic"
+  supporttopicids="32739795"
+  resourcetags=""
+  productpesids="15454"
+  cloudenvironments="public,fairfax,mooncake,usnat,ussec"
+  articleid="alerts-crud-ui-metric"
+  ownershipid="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts" />
 # I am having issues trying to create, edit or delete alert rules in the Azure portal
 
 [Metric alerts](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-metric-overview) monitor platform or custom metric values for your Azure resources and notify you if a metric breaches a threshold.
@@ -56,6 +49,10 @@ If you are running into issues creating, updating or deleting metric alert rules
 
     * You should have been assigned a built-in role named [Monitoring Contributor](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-contributor), or
     * You should have been assigned a [custom RBAC role with access to write operation](https://docs.microsoft.com/azure/azure-monitor/platform/roles-permissions-security#monitoring-permissions-and-custom-rbac-roles) for Microsoft.Insights/metricAlerts
+
+### **Advisory and How-To**
+[![Monitoring Video](https://docs.microsoft.com/azure/azure-monitor/app/media/troubleshoot/alerts/how-to-configure-an-alert-rule.png)](https://www.microsoft.com/videoplayer/embed/RE4tflw?autoplay=1)
+
 
 ## **Recommended Documents**
 
