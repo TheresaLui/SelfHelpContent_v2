@@ -16,7 +16,7 @@
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Accessing Application Insights data outside of Azure Porta",
+    "title": "Accessing Application Insights data outside of Azure Portal",
     "fileAttachmentHint": "Please upload any relevant screenshot(s), code, and any other information which may help the support engineer troubleshoot your issue.  Put all the content to be shared into a single ZIP file and upload it using 'File upload'",
     "formElements": [
         {
