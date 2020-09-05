@@ -21,7 +21,7 @@ When a server is dropped, the operation cascades to the backups shortly after th
 
 ## **Recommended Steps**
 
-1. Go to the [Activity Log](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log) from Azure portal
+1. Go to the [Activity Log](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log) from Monitor blade in Azure portal for the subscription which hosted the dropped MySQL server
 2. Click on Add filter at the top and add a filter for **Resource Type** = Azure Database for MySQL servers (Microsoft.DBforMySQL/servers) and **Operation** = Delete MySQL Server (Microsoft.DBforMySQL/servers/delete)
 3. Double Click on the **Delete MySQL Server** event and click on the JSON tab and note down the "resourceId" and "submissionTimestamp" attributes in JSON output. The resourceId is in the following format: `/subscriptions/ffffffff-ffff-ffff-ffff-ffffffffffff/resourceGroups/TargetResourceGroup/providers/Microsoft.DBforMySQL/servers/deletedserver`
 4. Next, go to [Create Server REST API Page](https://docs.microsoft.com/rest/api/mysql/servers/create) and click on **"Try It"** tab highlighted in green and login in with your Azure account
