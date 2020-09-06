@@ -1,10 +1,10 @@
 <properties
-    pageTitle=""
-    description=""
+    pageTitle="Managing server parameters in Azure Database for MySQL Single Server"
+    description="Managing server parameters in Azure Database for MySQL Single Server"
     service="microsoft.dbformysql"
     resource="servers"
-    authors=""
-    ms.author=""
+    authors="ambhatna"
+    ms.author="ambhatna"
     displayOrder="440"
     selfHelpType="generic"
     supportTopicIds="32747571"
@@ -15,9 +15,9 @@
     ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
-# Managing server parameters in Azure Database for MySQL
+# Managing server parameters in Azure Database for MySQL - Single Server
 
-Azure Database for MySQL allows you to configure parameters at a server level using the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters) or the [Azure CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-parameters-using-cli). To review the current list of configurable parameters, navigate to the **Server parameters** window in the Azure portal.
+Azure Database for MySQL Single Server allows you to configure parameters at a server level using the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-server-parameters) or the [Azure CLI](https://docs.microsoft.com/azure/mysql/howto-configure-server-parameters-using-cli). To review the current list of configurable parameters, navigate to the **Server parameters** window in the Azure portal.
 
 > [!NOTE]
 > The server parameter `enforce_gtid_consistency` was configured to ON to help with avoiding unexpected issues after enabling GTID in the future. In some cases transaction may violate the GTID consistency and you may experience issues blocking your workload with an error like "ERROR: Statement violates GTID consistency".<br>

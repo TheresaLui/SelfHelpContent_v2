@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Monitoring replication in Azure Database for MySQL"
-    description="Monitoring replication in Azure Database for MySQL"
+    pageTitle="Monitoring replication in Azure Database for MySQL Single Server"
+    description="Monitoring replication in Azure Database for MySQL Single Server"
     service="microsoft.dbformysql"
     resource="servers"
     authors="ambhatna"
@@ -15,7 +15,7 @@
     ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
-# Monitoring replication in Azure Database for MySQL
+# Monitoring replication in Azure Database for MySQL - Single Server
 
 Most users are able to resolve their issue using the steps below.
 

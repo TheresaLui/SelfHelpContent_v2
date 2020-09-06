@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Issues using read replicas in Azure Database for MySQL"
-    description="Issues using read replicas in Azure Database for MySQL"
+    pageTitle="Issues using read replicas in Azure Database for MySQL Single Server"
+    description="Issues using read replicas in Azure Database for MySQL Single Server"
     service="microsoft.dbformysql"
     resource="servers"
     authors="ambhatna"
@@ -15,9 +15,9 @@
     ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
-# Issues using read replicas in Azure Database for MySQL
+# Issues using read replicas in Azure Database for MySQL - Single Server
 
-The read replica feature allows you to replicate data from an Azure Database for MySQL server to a read-only server. You can replicate from the master server to up to five replicas. Replicas are updated asynchronously using the MySQL engine's native binary log (binlog) file position-based replication technology.
+The read replica feature allows you to replicate data from an Azure Database for MySQL Single Server to a read-only server. You can replicate from the master server to up to five replicas. Replicas are updated asynchronously using the MySQL engine's native binary log (binlog) file position-based replication technology.
 
 Most users are able to resolve their issue using the steps below.
 
@@ -69,4 +69,4 @@ Replica servers are always created in the same resource group and same subscript
 * Learn more about [read replica servers](https://docs.microsoft.com/azure/mysql/concepts-read-replicas)
 * Create and manage read replica servers using the [Azure portal](https://docs.microsoft.com/azure/mysql/howto-read-replicas-portal)
 * Create and manage read replica servers using the [Azure CLI](https://docs.microsoft.com/azure/mysql/howto-read-replicas-cli)
-* [Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/)
+* [Azure Database for MySQL Single Server](https://docs.microsoft.com/azure/mysql/)
