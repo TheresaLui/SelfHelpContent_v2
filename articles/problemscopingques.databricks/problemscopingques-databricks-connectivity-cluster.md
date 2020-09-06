@@ -1,4 +1,5 @@
 <properties
+	articleId="25bdb17b-54b0-4385-bd03-c04e2fdf6480"
 	pageTitle="Scoping Questions for Databricks Connectivity to Cluster Issue"
 	description="Scoping Questions for Databricks Connectivity to Cluster Issue"
 	authors="lisaliu"
