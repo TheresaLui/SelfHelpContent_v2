@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4926a98d-6b18-1592-dea2-7a9f1fd8d228",
+      "longDescription": "",
+      "shortDescription": "Latency or packet loss on peering connection.",
+      "searchTags": "Peering",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4ed02a79-03be-c0b7-b168-a3d99f827dbc",
       "longDescription": "",
       "shortDescription": "Ingress or egress traffic information for peering connection is not available via metrics.",
@@ -218,6 +226,14 @@
       "shortDescription": "Issue with management on peering or peering service.",
       "searchTags": "Peering;PeeringService",
       "category": "Management",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "c18a2cea-a5d7-4686-d26d-e7d1f0a94647",
+      "longDescription": "",
+      "shortDescription": "Issue is not listed for peering or peeringservice",
+      "searchTags": "Peering;PeeringService",
+      "category": "Other",
       "useInDiagnoseAndSolve": "true"
     },
     {

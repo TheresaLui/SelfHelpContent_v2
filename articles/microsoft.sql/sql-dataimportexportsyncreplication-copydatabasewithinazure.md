@@ -3,8 +3,8 @@
     description="data import, export, sync, replication/copy database within Azure"
     service="microsoft.sql"
     resource="servers"
-    authors="emlisa"
-    ms.author="emlisa"
+    authors="subbuk"
+    ms.author="subbuk"
     displayOrder="7"
     selfHelpType="generic"
     supportTopicIds="32630415"
@@ -15,23 +15,29 @@
     ownershipId="AzureData_AzureSQLDB_GeoDr"
 />
 
-# data import, export, sync, replication/copy database within Azure
+# Database copy
 
 ## **Recommended Steps**
 
-The following details explain how to migrate or move database. <br>
+### **DB Copy Operation**
 
-* Copy a database within the same subscription can be done:
-    * [Using the Azure portal](https://docs.microsoft.com/azure/sql-database/sql-database-copy?tabs=azure-powershell#copy-a-database-by-using-the-azure-portal)<br>
-    * [Using PowerShell or Azure CLI](https://docs.microsoft.com/azure/sql-database/sql-database-copy#copy-a-database-by-using-powershell-or-azure-cli)<br>
-    * [Using Transact-SQL](https://docs.microsoft.com/azure/sql-database/sql-database-copy#copy-a-database-by-using-transact-sql)<br>
-* To copy a SQL database to a [different subscription](https://docs.microsoft.com/azure/sql-database/sql-database-copy?tabs=azure-powershell#copy-a-sql-database-to-a-different-subscription) you can Transact-SQL.<br>
-* To move the logical server and all it's databases to a new resource group or subscription within the same region, click "Move" at the top of the SQL server resource blade that hosts your database. Note: Databases cannot be moved individually.<br>
-* To move Azure SQL resources to another region please check [this article](https://docs.microsoft.com/azure/sql-database/sql-database-move-resources-across-regions).
-* To [migrate an SQL Server database to Azure SQL](https://azure.microsoft.com/documentation/articles/sql-database-cloud-migrate?WT.mc_id=pid:13491:sid:32630415/), first run the compatibility tool to determine whether it can be migrated, fix any incompatibility issues, then select an appropriate migration method.<br>
-* Create a copy of a database so it can be used outside of Azure: [Export a BACPAC file](https://azure.microsoft.com/documentation/articles/sql-database-export?WT.mc_id=pid:13491:sid:32630415/)<br>
+Database Copy is a transactionally consistent snapshot of your source database as a point-in-time after the copy is initiated. This copy is created using the geo-replication technology. All the requirements for [using geo-replication](https://docs.microsoft.com/azure/azure-sql/database/active-geo-replication-overview) apply to the database copy operation. Once replica seeding is complete, the geo-replication link is automatically terminated.
+
+### **Logins after DB Copy**
+
+- The logins, users, and permissions in the copied database are managed independently from the source database
+- When you copy a database to a different server, the security principal that initiated the copy operation on the target server becomes the owner of the new database
+- Regardless of the target server, all database users, their permissions, and their security identifiers (SIDs) are copied to the database copy
+- Using contained database users for data access ensures that the copied database has the same user credentials, so that after the copy is complete you can immediately access it with the same credentials
+
+### **Error accessing copied database**
+
+- If you use server level logins for data access and copy the database to a different server, the login-based access might not work. This can happen because the logins do not exist on the target server, or because their passwords and security identifiers (SIDs) are different.
+- After the copy operation to a different server succeeds, and before other users are remapped, only the login associated with the database owner or the server administrator can log in to the copied database. To resolve logins and establish data access after the copying operation is complete, see [Resolve Logins](https://docs.microsoft.com/azure/azure-sql/database/database-copy?tabs=azure-powershell#resolve-logins).
+- **Error: Database <copied database name> on server <target server name> is not currently available. Please retry the connection later.** This means the copy (seeding process) operation is in progress, and in this case you need to wait until the DB copy operation is complete. Depending on the size of the database and target service tier,  the process the duration varies. If the problem persists for a longer duration, please proceed with creating support request and provide the tracing ID.
+- If you receive permission related errors when creating or cancelling a database copy request, please ensure you are a "Subscription Owner" OR "SQL Server contributor role" OR Custom role on the source and target databases with the following permission: *Microsoft.Sql/servers/databases/read/Microsoft.Sql/servers/databases/write*.
 
 ## **Recommended Documents**
 
-* [Copy a transactionally consistent copy of an Azure SQL database](https://docs.microsoft.com/azure/sql-database/sql-database-copy?tabs=azure-powershell)<br>
-* [Move resources to a new resource group or subscription](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription)<br>
+- [DB Copy using  Azure portal/PowerShell/TSQL](https://docs.microsoft.com/azure/azure-sql/database/database-copy)
+- [Copy database to different Subscription](https://docs.microsoft.com/azure/sql-database/sql-database-copy?tabs=azure-powershell#copy-a-sql-database-to-a-different-subscription)
