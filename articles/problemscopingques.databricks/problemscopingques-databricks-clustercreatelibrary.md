@@ -1,11 +1,11 @@
 <properties
-	articleId="e4354fbd-d755-4936-8537-c379a5cb5128"
-	pageTitle="Scoping Questions for Databricks Cluster Creation Termination Sizing Issue"
-	description="Scoping Questions for Databricks Cluster Creation Termination Sizing Issue"
+	articleId="c06430f0-945f-482d-bc36-b33586596b84"
+	pageTitle="Scoping Questions for Databricks Cluster Create failure involving library"
+	description="Scoping Questions for Databricks Cluster Create failure involving library"
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32677670"
+	supportTopicIds="32677679"
 	productPesIds="16432"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -34,8 +34,54 @@
             "required": false
         },
         {
+            "id": "errormessage",
+            "order": 30,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What error message you received?",
+            "watermarkText": "Please copy paste the full error text including the stack trace if available",
+            "required": false
+        },
+        {
+            "id": "library",
+            "order": 40,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What libraries are being installed?",
+            "watermarkText": "",
+            "required": false
+        },
+        {
+            "id": "librarysource",
+            "order": 50,
+            "controlType": "dropdown",
+            "displayLabel": "What repository or location are the libraries stored?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Maven",
+                    "text": "Maven"
+                },
+                {
+                    "value": "PyPI",
+                    "text": "PyPI"
+                },
+                {
+                    "value": "CRAN",
+                    "text": "CRAN"
+                },
+                {
+                    "value": "DBFS",
+                    "text": "DBFS"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
             "id": "is_new_problem",
-            "order": 3,
+            "order": 100,
             "controlType": "dropdown",
             "displayLabel": "Is this a new problem, or it has happened before?",
             "watermarkText": "Choose an option",
@@ -78,19 +124,19 @@
             "required": true
         },
         {
-            "id": "workspace_id",
-            "order": 150,
-            "controlType": "textbox",
-            "displayLabel": "Workspace ID if available",
-            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Workspace ID",
-            "required": false
-        },
-        {
             "id": "cluster_url",
-            "order": 170,
+            "order": 150,
             "controlType": "textbox",
             "displayLabel": "Cluster URL if available",
             "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Cluster URL",
+            "required": true
+        },
+        {
+            "id": "workspace_id",
+            "order": 170,
+            "controlType": "textbox",
+            "displayLabel": "Workspace ID if cluster URL is not available",
+            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Workspace ID",
             "required": false
         },
         {
@@ -98,7 +144,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the detail symptom including the full error text, whether the issue is intermittent or persistent, and any other relevant information",
+            "watermarkText": "Please provide additional details about the issue, such as whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         }
