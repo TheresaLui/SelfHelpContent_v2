@@ -89,7 +89,7 @@
             "order": 150,
             "controlType": "textbox",
             "displayLabel": "Cluster URL if available",
-            "infoBalloonText": "Follow this <a href='https://docs.microsoft.com/en-us/azure/databricks/workspace/workspace-details#cluster-url-and-id'>article</a> to get Cluster URL",
+            "infoBalloonText": "Follow this <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#cluster-url-and-id'>article</a> to get Cluster URL",
             "required": true
         },
         {
@@ -97,7 +97,7 @@
             "order": 170,
             "controlType": "textbox",
             "displayLabel": "Workspace ID if cluster URL is not available",
-            "infoBalloonText": "Follow this <a href='https://docs.microsoft.com/en-us/azure/databricks/workspace/workspace-details#per-workspace-url'>article</a> to get Workspace ID",
+            "infoBalloonText": "Follow this <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#per-workspace-url'>article</a> to get Workspace ID",
             "required": false
         },
         {
@@ -140,7 +140,7 @@
             "order": 300,
             "controlType": "textbox",
             "displayLabel": "Job URL for the job with the connectivity issue",
-            "infoBalloonText": "Follow <a href='https://docs.microsoft.com/en-us/azure/databricks/workspace/workspace-details#job-url-and-id'>this article</a> to get Job URL",            
+            "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#job-url-and-id'>this article</a> to get Job URL",            
             "required": true
         },
         {
@@ -149,7 +149,7 @@
             "order": 350,
             "controlType": "textbox",
             "displayLabel": "Notebook URL for the Notebook with the connectivity issue",
-            "infoBalloonText": "Follow <a href='https://docs.microsoft.com/en-us/azure/databricks/workspace/workspace-details#--notebook-url-and-id'>this article</a> to get Notebook URL",        
+            "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#--notebook-url-and-id'>this article</a> to get Notebook URL",        
             "required": true
         },             
         {

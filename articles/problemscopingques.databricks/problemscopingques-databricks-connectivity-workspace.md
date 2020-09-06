@@ -90,7 +90,7 @@
             "order": 150,
             "controlType": "textbox",
             "displayLabel": "Workspace URL if available",
-            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Workspace ID",
+            "infoBalloonText": "Follow this <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#per-workspace-url'>article</a> to get Workspace ID",
             "required": true
         },
         {
