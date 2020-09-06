@@ -39,7 +39,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What error message you received?",
             "watermarkText": "Please copy paste the full error text including the stack trace if available",
-            "required": true
+            "required": false
         },
         {
             "id": "is_new_problem",
