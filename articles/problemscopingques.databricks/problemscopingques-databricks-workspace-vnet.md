@@ -95,7 +95,7 @@
         },
         {
             "id": "vnetconfig",
-            "order": 50,
+            "order": 250,
             "controlType": "multiselectdropdown",
             "displayLabel": "VNET configurations",
             "watermarkText": "Choose an option",
