@@ -141,7 +141,7 @@
             "order": 300,
             "controlType": "textbox",
             "displayLabel": "Job URL for the job with the connectivity issue",
-            "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#job-url-and-id'>this article</a> to get Job URL",            
+            "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#job-url-and-id'>this article</a> to get Job URL",
             "required": true
         },
         {
@@ -150,7 +150,7 @@
             "order": 350,
             "controlType": "textbox",
             "displayLabel": "Notebook URL for the Notebook with the connectivity issue",
-            "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#--notebook-url-and-id'>this article</a> to get Notebook URL",        
+            "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#--notebook-url-and-id'>this article</a> to get Notebook URL",
             "required": true
         },
         {
