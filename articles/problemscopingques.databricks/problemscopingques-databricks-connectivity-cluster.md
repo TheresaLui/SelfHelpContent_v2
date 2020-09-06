@@ -84,7 +84,7 @@
             "displayLabel": "Any changes made?",
             "watermarkText": "Any changes since last time it worked",
             "required": true
-        },      
+        },
         {
             "id": "cluster_url",
             "order": 150,
@@ -123,7 +123,7 @@
                 {
                     "value": "dbconnect",
                     "text": "Databricks Connect"
-                },                               
+                },
                 {
                     "value": "odbc",
                     "text": "ODBC client application"
@@ -152,7 +152,7 @@
             "displayLabel": "Notebook URL for the Notebook with the connectivity issue",
             "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#--notebook-url-and-id'>this article</a> to get Notebook URL",        
             "required": true
-        },             
+        },
         {
             "id": "problem_description",
             "order": 600,
