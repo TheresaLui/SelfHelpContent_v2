@@ -111,11 +111,11 @@
                 {
                     "value": "NSG",
                     "text": "NSG"
-                },   
+                },
                 {
                     "value": "UDR",
                     "text": "UDR"
-                },             
+                },            
                 {
                     "value": "Firewall_appliance",
                     "text": "Firewall appliance"
