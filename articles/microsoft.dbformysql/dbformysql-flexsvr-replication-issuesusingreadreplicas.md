@@ -66,4 +66,6 @@ Replica servers are always created in the same resource group and same subscript
 
 ## **Recommended Documents**
 
-* [Azure Database for MySQL - Flexible Server](https://docs.microsoft.com/azure/mysql/flexible-server/overview)
+* [Azure Database for MySQL Flexible Server documentation](https://docs.microsoft.com/azure/mysql/flexible-server)<br>
+* [Azure Database for MySQL Pricing Page](https://azure.microsoft.com/pricing/details/mysql/)<br>
+* [Pricing calculator](https://azure.microsoft.com/pricing/calculator/?service=mysql/)
