@@ -45,10 +45,10 @@ Check in the case that the **DatabricksConsent**  is **True**. This gives Micros
     Requestor Ticket ID
     ```
 
-3. Submit request and copy ticket number to use it afterwards.
+3. Submit request and copy ticket number to use it afterwards
 
 ### Access customer workspace
 
 1. Go to [Genie](https://genie-azure-prod.dev.databricks.com/)
-2. Fill customer workspace and ticket details gathered in previous steps.
+2. Fill customer workspace and ticket details gathered in previous steps
 
