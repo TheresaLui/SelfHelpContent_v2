@@ -29,7 +29,7 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.1,
+  "version": 2.0,
   "learnMoreLink": "https://docs.azure.cn/cosmos-db/performance-tips#networking",
   "description": "Configure your Azure Cosmos DB applications to use Direct connectivity in the SDK",
   "longDescription": "We noticed that your Azure Cosmos DB applications are using Gateway mode via the Cosmos DB .NET or Java SDKs. We recommend switching to Direct connectivity for lower latency and higher scalability.",
