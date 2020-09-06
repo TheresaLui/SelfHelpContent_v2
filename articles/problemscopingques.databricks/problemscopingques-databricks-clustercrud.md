@@ -34,8 +34,16 @@
             "required": false
         },
         {
+            "id": "errormessage",
+            "order": 30,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What error message you received?",
+            "watermarkText": "Please copy paste the full error text including the stack trace if available",
+            "required": false
+        },
+        {
             "id": "is_new_problem",
-            "order": 3,
+            "order": 40,
             "controlType": "dropdown",
             "displayLabel": "Is this a new problem, or it has happened before?",
             "watermarkText": "Choose an option",
@@ -78,19 +86,19 @@
             "required": true
         },
         {
-            "id": "workspace_id",
-            "order": 150,
-            "controlType": "textbox",
-            "displayLabel": "Workspace ID if available",
-            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Workspace ID",
-            "required": false
-        },
-        {
             "id": "cluster_url",
-            "order": 170,
+            "order": 150,
             "controlType": "textbox",
             "displayLabel": "Cluster URL if available",
             "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Cluster URL",
+            "required": true
+        },
+        {
+            "id": "workspace_id",
+            "order": 170,
+            "controlType": "textbox",
+            "displayLabel": "Workspace ID if cluster URL is not available",
+            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Workspace ID",
             "required": false
         },
         {
