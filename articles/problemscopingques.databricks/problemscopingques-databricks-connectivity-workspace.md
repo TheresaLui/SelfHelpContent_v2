@@ -15,7 +15,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "title": "Azure Databricks Connectivity Issue",
     "fileAttachmentHint": "",
     "formElements": [
