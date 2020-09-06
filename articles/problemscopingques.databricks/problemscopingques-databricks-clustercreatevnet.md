@@ -113,7 +113,7 @@
             "controlType": "textbox",
             "displayLabel": "Cluster URL if available",
             "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Cluster URL",
-            "required": false
+            "required": true
         },
         {
             "id": "workspace_id",
