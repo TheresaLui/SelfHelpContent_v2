@@ -36,7 +36,7 @@
 
 ## **Recommended Documents**
 
-* [Running C++ Code in Scala](https://kb.azuredatabricks.net/scala/running-c-plus-plus-code-scala.html)
-* [How to Use Apache Spark Metrics](https://kb.azuredatabricks.net/metrics/spark-metrics.html)
-* [Drop Tables with Corrupted Metadata from the Metastore](https://kb.azuredatabricks.net/metastore/drop-table-corruptedmetadata.html)
+* [Running C++ Code in Scala](https://docs.microsoft.com/azure/databricks/kb/scala/running-c-plus-plus-code-scala)
+* [How to Use Apache Spark Metrics](https://docs.microsoft.com/azure/databricks/kb/metrics/spark-metrics)
+* [Drop Tables with Corrupted Metadata from the Metastore](https://docs.microsoft.com/azure/databricks/kb/metastore/drop-table-corruptedmetadata)
 
