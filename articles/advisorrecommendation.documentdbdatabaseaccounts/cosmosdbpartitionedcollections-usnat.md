@@ -3,9 +3,9 @@
     description="Configure your Azure Cosmos containers with a partition key"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="5b5349fb-b298-41e3-b281-982b7986db67_Public"
+    articleId="5b5349fb-b298-41e3-b281-982b7986db67_USNat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, USNat, USSec"
+    cloudEnvironments="USNat"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure your Azure Cosmos containers with a partition key
@@ -37,7 +37,7 @@
   "displayLabel": "Configure your Azure Cosmos DB containers with a partition key",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').PartitionedCollections",
+    "streamNamespace": "cluster('https://cdbusnateast.usnateast.kusto.core.eaglex.ic.gov').database('Support').PartitionedCollections",
     "refreshInterval": "0.12:00:00"
   },
   "additionalColumns": [
