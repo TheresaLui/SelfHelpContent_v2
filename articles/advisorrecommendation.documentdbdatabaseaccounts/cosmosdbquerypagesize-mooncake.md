@@ -3,9 +3,9 @@
     description="Configure your Azure Cosmos DB query page size (MaxItemCount) to -1"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="e27c5181-5005-4dc3-a449-89b726a3bf54_Public"
+    articleId="e27c5181-5005-4dc3-a449-89b726a3bf54_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, USNat, USSec"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure your Azure Cosmos DB query page size (MaxItemCount) to -1
@@ -30,14 +30,14 @@
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
   "version": 1.1,
-  "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/sql-api-query-metrics#max-item-count",
+  "learnMoreLink": "https://docs.azure.cn/cosmos-db/sql-api-query-metrics#max-item-count",
   "description": "Configure your Azure Cosmos DB query page size (MaxItemCount) to -1",
   "longDescription": "You are using the query page size of 100 for queries for your Azure Cosmos container. We recommend using a page size of -1 for faster scans.",
   "potentialBenefits": "End to end query latency will be improved significantly",
   "displayLabel": "Configure your Azure Cosmos DB query page size (MaxItemCount) to -1",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').QueryPageSize",
+    "streamNamespace": "cluster('https://cdbmooncake3.chinanorth2.kusto.chinacloudapi.cn').database('LiveSite').QueryPageSize",
     "refreshInterval": "0.12:00:00"
   },
   "additionalColumns": [
@@ -55,7 +55,7 @@
       "actionId": "29039a89-7db5-44c6-b8f9-cc2cc021e93d",
       "description": "Use a page size of -1",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/azure/cosmos-db/sql-api-query-metrics#max-item-count"
+      "documentLink": "https://docs.azure.cn/cosmos-db/sql-api-query-metrics#max-item-count"
     }
   ],
   "resourceMetadata": {

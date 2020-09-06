@@ -3,9 +3,9 @@
     description="Configure your Azure Cosmos DB query page size (MaxItemCount) to -1"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="e27c5181-5005-4dc3-a449-89b726a3bf54_Public"
+    articleId="e27c5181-5005-4dc3-a449-89b726a3bf54_USNat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, USNat, USSec"
+    cloudEnvironments="USNat"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure your Azure Cosmos DB query page size (MaxItemCount) to -1
@@ -37,7 +37,7 @@
   "displayLabel": "Configure your Azure Cosmos DB query page size (MaxItemCount) to -1",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').QueryPageSize",
+    "streamNamespace": "cluster('https://cdbusnateast.usnateast.kusto.core.eaglex.ic.gov').database('Support').QueryPageSize",
     "refreshInterval": "0.12:00:00"
   },
   "additionalColumns": [
