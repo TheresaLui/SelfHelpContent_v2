@@ -39,9 +39,8 @@
             "controlType": "multilinetextbox",
             "displayLabel": "What error message you received?",
             "watermarkText": "Please copy paste the full error text including the stack trace if available",
-            "required": true,
-            "useAsAdditionalDetails": true
-        }
+            "required": true
+        },
         {
             "id": "is_new_problem",
             "order": 50,
@@ -129,7 +128,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the detail symptom including the full error text, whether the issue is intermittent or persistent, and any other relevant information",
+            "watermarkText": "Please provide additional details about the issue, such as whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         }
