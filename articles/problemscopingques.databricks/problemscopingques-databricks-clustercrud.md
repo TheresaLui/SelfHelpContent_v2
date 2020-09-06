@@ -5,7 +5,7 @@
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32677649, 32677670, 32677671, 32677678, 32677679, 32677680"
+	supportTopicIds="32677670, 32677679"
 	productPesIds="16432"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -15,7 +15,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "title": "Azure Databricks Cluster Creationg Termination Sizing Issue",
     "fileAttachmentHint": "",
     "formElements": [
