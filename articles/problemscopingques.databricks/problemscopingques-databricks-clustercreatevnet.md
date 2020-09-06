@@ -15,7 +15,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": false,
+    "subscriptionRequired": true,
     "title": "Azure Databricks Cluster Creationg Termination Sizing Issue",
     "fileAttachmentHint": "",
     "formElements": [
