@@ -3,9 +3,9 @@
     description="Configure your Azure Cosmos DB applications to use Direct connectivity in the SDK"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="75c8c891-46d2-41fa-a81c-84e870a139a9_Public"
+    articleId="75c8c891-46d2-41fa-a81c-84e870a139a9_USNat"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, USNat, USSec"
+    cloudEnvironments="USNat"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure your Azure Cosmos DB applications to use Direct connectivity in the SDK
@@ -37,7 +37,7 @@
   "displayLabel": "Configure your applications to use Direct connectivity in the SDK",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').GatewayMode",
+    "streamNamespace": "cluster('https://cdbusnateast.usnateast.kusto.core.eaglex.ic.gov').database('Support').GatewayMode",
     "refreshInterval": "0.12:00:00"
   },
   "actions": [
