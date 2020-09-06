@@ -36,8 +36,8 @@
   
 ## **Recommended Documents**
 
-* [How to Create Table DDLs to Import into an External Metastore](https://kb.azuredatabricks.net/metastore/create-table-ddl-for-metastore.html)
-* [Listing Table Names](https://kb.azuredatabricks.net/metastore/list-tables.html)
-* [How to Explore Apache Spark Metrics With Spark Listeners](https://kb.azuredatabricks.net/metrics/explore-spark-metrics.html)
+* [How to Create Table DDLs to Import into an External Metastore](https://docs.microsoft.com/azure/databricks/kb/metastore/create-table-ddl-for-metastore)
+* [Listing Table Names](https://docs.microsoft.com/azure/databricks/kb/metastore/list-tables)
+* [How to Explore Apache Spark Metrics With Spark Listeners](https://docs.microsoft.com/azure/databricks/kb/metrics/explore-spark-metrics)
 
 
