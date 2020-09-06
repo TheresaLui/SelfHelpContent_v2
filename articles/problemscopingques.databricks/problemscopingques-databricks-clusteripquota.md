@@ -1,5 +1,5 @@
 <properties
-	articleId="c06430f0-945f-482d-bc36-b33586596b84"
+	articleId="1a732e03-9f53-4a5e-9eec-da24fb6780db"
 	pageTitle="Scoping Questions for Databricks Cluster Create failure involving library"
 	description="Scoping Questions for Databricks Cluster Create failure involving library"
 	authors="lisaliu"
