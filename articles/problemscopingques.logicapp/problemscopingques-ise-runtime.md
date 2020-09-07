@@ -1,15 +1,15 @@
 <properties
-	articleId="ac26fa9c-05b3-487a-b5e4-49815c98d489"
-	pageTitle="Scoping Questions for Runtime"
-	description="Scoping Questions for Runtime"
-	authors="TobyTu"
-	ms.author="mquian"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32742541"
-	productPesIds="15791"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	schemaVersion="1"
-	ownershipId="Compute_LogicApps"
+    articleId="ac26fa9c-05b3-487a-b5e4-49815c98d489"
+    pageTitle="Scoping Questions for Runtime"
+    description="Scoping Questions for Runtime"
+    authors="TobyTu"
+    ms.author="mquian"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32742541"
+    productPesIds="15791"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+    schemaVersion="1"
+    ownershipId="Compute_LogicApps"
 />
 # Runtime
 ---
@@ -55,4 +55,3 @@
     "$schema": "SelfHelpContent"
 }
 ---
-Please provide Runtime Details from the Azure portal

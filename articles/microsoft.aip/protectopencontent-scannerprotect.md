@@ -19,7 +19,7 @@
 
 ## **Recommended Steps**
 
-Run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner#troubleshooting-using-scanner-diagnostic-tool) in order to troubleshoot common issues when deploying scanner.
+Run [Start-AIPScannerDiagnostics](https://docs.microsoft.com/powershell/module/azureinformationprotection/start-aipscannerdiagnostics?view=azureipps) in order to troubleshoot common issues when deploying scanner.
 
 ### Export Azure Information Protection Scanner logs
 

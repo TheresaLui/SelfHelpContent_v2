@@ -9,7 +9,7 @@ displayOrder=""
 selfHelpType="generic"
 supportTopicIds="32683931"
 productPesIds="16869"
-cloudEnvironments="public, MoonCake, fairfax"
+cloudEnvironments="public, MoonCake, fairfax, usnat, ussec"
 articleId="LUIS_Conversation_quotaOrSubsciptonIssues_quotaOrLimitsIncrease"
 ownershipId="AzureCogSvc_CognitiveServices"
 />

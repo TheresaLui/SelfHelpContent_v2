@@ -19,6 +19,9 @@
 
 <!--issueDescription-->
 
+Follow this [Wiki Link](https://supportability.visualstudio.com/AzureCosmosDB/_wiki/wikis/AzureCosmosDB.wiki/337114/Performance-or-high-RU-charges) for more details.
+
+### Customer Message
 Dear customer,
 
 Some of the queries including aggregations require a large amount of processing. If the collection's throughput is not enough, you will see these errors. You can confirm this by going to the Metrics blade and selecting the Throughput tab for your collection. You can also evaluate if the queries can be optimized further by making effective use of the index.

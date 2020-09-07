@@ -12,7 +12,7 @@
 	supportTopicIds="32571145"
 	resourceTags=""
 	productPesIds="16244"
-	cloudEnvironments="public, mooncake"
+	cloudEnvironments="public, mooncake, fairfax, usnat, ussec"
 	ownershipId="AzureIot_IotTSI"
 />
 

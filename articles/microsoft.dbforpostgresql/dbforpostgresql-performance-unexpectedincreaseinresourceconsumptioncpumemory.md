@@ -7,7 +7,7 @@
     ms.author="sunila"
     displayOrder="100"
     selfHelpType="generic"
-    supportTopicIds="32640027"
+    supportTopicIds="32731228, 32640027"
     resourceTags="servers, databases"
     productPesIds="16222, 17067"
     cloudEnvironments="public, Fairfax, usnat, ussec"
@@ -21,7 +21,7 @@ Increase in resource consumption can be a result of an explicit user action or c
 
 ## **Recommended Steps**
 
-* Ensure there are no changes to the pricing tier of your service that might have triggered it
+* Ensure there are no changes to the pricing tier of your service that might have triggered the increase
 * Adjust the pricing tier commensurate to the increase in the workload
 * Check if there are any schema changes, for example whether an index was dropped
 * Ensure that the table statistics are up to date

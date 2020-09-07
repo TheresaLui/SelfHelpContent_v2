@@ -25,6 +25,7 @@ Looks like this is a known issue mongo driver. Here is one of the solution sugge
 
 Provide customer with ready message below.
 
+### Customer Message
 Dear customer,
 
 This exception is not necessarily a bug. It just indicates that too many threads are trying to use MongoDB at once. In the example provided in the description the code is trying to do 100,000 inserts in parallel. By default the connection pool has 100 connections. Threads pull connections from the connection pool and return them when they are done. Once all connections are in use, any further threads that want a connection must wait for some other thread to return a connection to the pool. The driver limits the number of threads that are allowed to wait for a connection at the same time. The default limit is 500. With 100,000 parallel inserts it's not unexpected that more than 600 threads might be actively trying to do an insert at the same time, which will result in this exception being thrown. The solution is to either decrease the number of threads trying to use MongoDB at the same time (decrease the degree of parallelism) or to configure the connection pool to have either more connections or a higher wait queue limit, or both. If you see this exception and you know there are fewer than 600 threads that would be something we would like to reproduce.

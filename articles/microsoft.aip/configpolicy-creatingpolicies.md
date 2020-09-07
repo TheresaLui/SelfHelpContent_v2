@@ -19,7 +19,9 @@
 
 ## **Recommended Steps**
 
-Review the documentation below for information how to create Policies
+1. If you migrated to UL and using SCC to manage your policies, raise a support ticket to Security and Compliance Center team: [Contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)
+
+2. If you are using AIP portal to manage your policies, review [Configuring the Azure Information Protection policy](https://docs.microsoft.com/azure/information-protection/configure-policy)
 
 ### Export Azure Information Protection logs
 
