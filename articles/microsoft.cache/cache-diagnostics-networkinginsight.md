@@ -1,7 +1,7 @@
 <properties
     pageTitle="Instances of metrics near the capacity limits detected"
     description="Instances of metrics near the capacity limits detected"
-    infoBubbleText="Instances of metrics near the capacity limits detected"
+    infoBubbleText="Unhealthy metrics found for the cache "
     service="microsoft.cache"
     resource="redis"
     authors="igamigo"
@@ -20,7 +20,7 @@
 # **Instances of high networking usage detected on the Azure Cache for Redis**
 
 <!--issueDescription-->
-Our diagnostics show there were instances where the measurements for "Cache Write" or "Connected Clients" to this Azure Cache for Redis were above critical thresholds when analyzing from FROMTIME to TOTIME.
+Our diagnostics show there were instances where the measurements for "Cache Write" or "Connected Clients" to this Azure Cache for Redis were above critical thresholds when analyzing from **<!--$StartTime-->StartTime<!--/$StartTime-->** to **<!--$EndTime-->EndTime<!--/$EndTime-->**.
 
 Using a high percentage of network writes could cause client requests to time out because the server can't push data fast enough.
 This could lead to slower responses and timeouts on the client applications. 
@@ -33,7 +33,7 @@ This could lead to slower responses and timeouts on the client applications.
 ## **Recommended Steps**
 
 * Review usage patterns for requests and connections. Avoid creating and closing connections frequently.
-* [Create alerts](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-how-to-monitor#alerts) on metrics like cache read or cache write to be notified early about potential impacts.
+* [Create alerts](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-how-to-monitor#alerts) on metrics like cache read or cache write to be notified early about potential impacts.
 
 
 **If its expected due to the kind of data or user pattern, then its recommended resize to higher Azure Cache for Redis SKU**. You can read more about different [service offerings](https://azure.microsoft.com/pricing/details/virtual-machines/series/) and decide on which one best suits your workload.
@@ -41,5 +41,5 @@ This could lead to slower responses and timeouts on the client applications.
 
 ## **Recommended Documents**
 
-* [Troubleshooting server-side limitations](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-troubleshoot-server#server-side-bandwidth-limitation)
-* [Azure Cache for Redis benchmarks](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-management-faq#how-can-i-benchmark-and-test-the-performance-of-my-cache)
+* [Troubleshooting server-side limitations](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-server#server-side-bandwidth-limitation)
+* [Azure Cache for Redis benchmarks](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-management-faq#how-can-i-benchmark-and-test-the-performance-of-my-cache)
