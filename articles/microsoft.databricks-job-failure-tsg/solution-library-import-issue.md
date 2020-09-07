@@ -23,10 +23,10 @@ Jobs can be run on either existing or new cluster. Please double check the follo
 1. If Job is run on Existing Cluster, when restarting with libraries, the job WILL NOT WAIT for library installation.
 2. If Job is run on New Cluster with a shared library (a library installed on all clusters), the job WILL NOT WAIT for library installation.
 
-#### Solution
+### Solution
 If a job requires a certain library, make sure to attach the library to the job itself, not the cluster.
 
 <!--/issueDescription-->
 
-#### Recommended Documents
+### Recommended Documents
 * [Jobs Library Dependancies](https://docs.microsoft.com/azure/databricks/jobs#library-dependencies)
