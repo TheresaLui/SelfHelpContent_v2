@@ -37,8 +37,8 @@
             "id": "errormessage",
             "order": 30,
             "controlType": "multilinetextbox",
-            "displayLabel": "What error message you received?",
-            "watermarkText": "Please copy paste the full error text including the stack trace if available",
+            "displayLabel": "What is the error message you received?",
+            "watermarkText": "Please copy and paste the complete error text including the stack trace if available",
             "required": false
         },
         {
