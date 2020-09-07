@@ -23,7 +23,7 @@ Cluster startup failure with User facing error:
 Cluster terminated. Reason: Metastore Component Unhealthy.
 ```
 
-#### Troubleshooting
+### Troubleshooting
 
 1. Do below tests to verify Metastore is available and responding or atleast the driver can send the request:
 
@@ -54,7 +54,7 @@ Cluster terminated. Reason: Metastore Component Unhealthy.
 
 	   Error: java.sql.SQLNonTransientConnectionException: Could not connect to address=(host=consolidated-westus-prod-metastore.mysql.database.azure.com )(port=3306)(type=master) : Connection timed out (Connection timed out)
 
-#### Solution
+### Solution
 
 1. If you are not able to reach the metastore from driver via telnet, please check Vnet peering is setup correctly or endpoints are still valid etc
 2. If all setup looks fine one workaound would be to stop cluster and wait 5 mins after a failed launch to make sure that driver node does not get reused (Incase if the driver node was bad).
