@@ -9,7 +9,7 @@
 	articleId="quantum-permissions-storageaccount"
 	diagnosticScenario=""
 	selfHelpType=""
-	supportTopicIds=""
+	supportTopicIds="32740179,32740177,32740184,32740193,32740191,32740190,32740182"
 	resourceTags=""
 	productPesIds="17040"
 	cloudEnvironments="public"

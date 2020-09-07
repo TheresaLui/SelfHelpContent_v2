@@ -9,7 +9,7 @@
 	articleId=""
 	diagnosticScenario=""
 	selfHelpType=""
-	supportTopicIds="quantum-unabletocanceljob"
+	supportTopicIds="32740187,32740178"
 	resourceTags=""
 	productPesIds="17040"
 	cloudEnvironments="public"

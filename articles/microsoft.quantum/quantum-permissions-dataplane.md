@@ -9,7 +9,7 @@
 	articleId="quantum-permissions-dataplane"
 	diagnosticScenario=""
 	selfHelpType=""
-	supportTopicIds=""
+	supportTopicIds="32740182,32740191,32740185,32740178"
 	resourceTags=""
 	productPesIds="17040"
 	cloudEnvironments="public"

@@ -9,7 +9,7 @@
 	articleId="quantum-providernotenabled"
 	diagnosticScenario=""
 	selfHelpType=""
-	supportTopicIds=""
+	supportTopicIds="32740186,32740178,32740193"
 	resourceTags=""
 	productPesIds="17040"
 	cloudEnvironments="public"
