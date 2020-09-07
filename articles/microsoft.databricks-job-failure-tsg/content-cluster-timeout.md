@@ -23,7 +23,7 @@ Cluster startup fails with error:
 The Spark driver failed to start within 300 seconds.
 ```
 
-#### Troubleshooting and Solution
+### Troubleshooting and Solution
 
 1. Verify if customer is using external Metastore and Maven to download dependencies.
 2. Try to verify if cluster starts with internal Metastore.
