@@ -33,6 +33,6 @@ To resolve the issue:
 
 <!--/issueDescription-->
 
-#### Recommended Documents
+### Recommended Documents
 * [Step by step on opening the case](https://docs.microsoft.com/azure/azure-portal/supportability/per-vm-quota-requests)
 * [Check resource usage against limits](https://docs.microsoft.com/azure/networking/check-usage-against-limits)
