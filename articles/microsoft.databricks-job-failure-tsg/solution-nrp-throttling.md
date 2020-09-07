@@ -32,6 +32,6 @@ Another suggested workaround is to perform resizing and/or create clusters in sm
 
 <!--/issueDescription-->
 
-#### Recommended Documents
+### Recommended Documents
 * [Pools](https://docs.microsoft.com/azure/databricks/clusters/instance-pools/)
 * [Azure Requests Limits and Throttling](https://docs.microsoft.com/azure/azure-resource-manager/management/request-limits-and-throttling)
