@@ -22,7 +22,7 @@
 <!--issueDescription-->
 After analyzing the resource usage from **<!--$StartTime-->StartTime<!--/$StartTime-->** to **<!--$EndTime-->EndTime<!--/$EndTime-->**, our diagnostics show there were instances of high response sizes. 
 
-Large requests can cause timeouts depending on what timeout value was selected and how fast client applications consume the incoming data. 
+Large requests can cause timeout errors depending on what timeout value was selected and how fast client applications consume the incoming data. 
 <!--/issueDescription-->
 
 **What can cause High Response Sizes on a VM?**
