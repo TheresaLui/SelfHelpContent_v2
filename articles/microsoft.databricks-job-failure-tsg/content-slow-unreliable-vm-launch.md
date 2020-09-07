@@ -25,7 +25,7 @@ User facing error:
 Cluster is running but X nodes could not be acquired.
 ```
 
-#### Troubleshooting and Solution
+### Troubleshooting and Solution
 
 Check clusters event logs, if you see messages like "Cluster is running but X nodes could not be acquired" followed by cluster resizing, it is a problem with slow VM launch.
 
