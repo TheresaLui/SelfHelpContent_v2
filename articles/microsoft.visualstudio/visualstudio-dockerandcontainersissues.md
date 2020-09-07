@@ -16,7 +16,7 @@
 	ownershipId="Azure_DevOps_Services"
 />
 
-# Azure pipelines issues while making use of docker tasks for building and pushing container images
+# Azure pipelines issues while making use of docker tasks for building and pushing container images to Azure
 
 ## **Recommended Steps**
 
