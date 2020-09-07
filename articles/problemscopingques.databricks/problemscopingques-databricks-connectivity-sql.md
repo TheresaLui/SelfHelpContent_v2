@@ -74,7 +74,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Previous solution if applicable",
             "watermarkText": "If the previous occurance was resolved, please share how it was resolved",
-            "required": true
+            "required": false
         },
         {
             "id": "change_made",
@@ -83,7 +83,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Any changes made?",
             "watermarkText": "Any changes since last time it worked",
-            "required": true
+            "required": false
         },
         {
             "id": "connectfrom",
@@ -91,7 +91,7 @@
             "controlType": "textbox",
             "displayLabel": "Job URL or the Notebook URL with the connectivity error if available",
             "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details'>this article</a> to get Job or Notebook URL",
-            "required": true
+            "required": false
         },
         {
             "id": "cluster_url",
