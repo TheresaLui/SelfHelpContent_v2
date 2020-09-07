@@ -27,7 +27,8 @@ Specific problems and their solutions are listed below, but we highly recommend 
 2. Investigate runbook [error streams](https://docs.microsoft.com/azure/automation/automation-runbook-output-and-messages#runbook-output) for specific messages and compare them to the errors below
 3. [Update the Azure PowerShell](https://docs.microsoft.com/azure/automation/automation-update-azure-modules) modules in your Automation Account to the latest version
 
-## **Solutions to Specific Problems:**
+### **Solutions to Specific Problems:**
+
 ### **Runbook is suspended or unexpectedly failed**
 
 There are several reasons why a runbook may be suspended or failed:
