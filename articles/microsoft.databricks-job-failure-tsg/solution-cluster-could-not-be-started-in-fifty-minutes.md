@@ -30,7 +30,7 @@ Please go through the following steps to resolve the issue:
 
 <!--/issueDescription-->
 
-## Recommended Documents
+### Recommended Documents
 
 * [Cluster node initialization scripts](https://docs.microsoft.com/azure/databricks/clusters/init-scripts)
 
