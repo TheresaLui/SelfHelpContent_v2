@@ -11,8 +11,9 @@
 	supportTopicIds="32628775"
 	resourceTags=""
 	productPesIds="15663"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ms.author="sidram"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # Getting Started with Azure Stream Analytics
@@ -25,3 +26,5 @@ To learn more, see the recommended documents.
 
 * [Getting Started with Azure Stream Analytics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-manage-job)
 * [Overview of Azure Stream Analytics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-introduction)
+* [Learn about input types](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-add-inputs)
+* [Learn about output types](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-define-outputs)

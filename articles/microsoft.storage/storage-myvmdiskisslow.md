@@ -10,8 +10,9 @@
 	resourceTags=""
 	productPesIds="15629"
 	ms.author="anandh"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="9eaa3031-fa68-4ac8-b65c-e433e4d0bc33"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # My VM/Disk is slow

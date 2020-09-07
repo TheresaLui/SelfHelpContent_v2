@@ -13,7 +13,8 @@
 	supportTopicIds="32630507"
 	resourceTags="9000Or1200Series"
 	productPesIds="16161"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
 
 # Recovery operations failed 

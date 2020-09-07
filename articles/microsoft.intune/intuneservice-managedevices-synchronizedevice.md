@@ -9,8 +9,9 @@
 	supportTopicIds="32599680"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="a10cc50b-d147-4ed6-8f87-b4d7cb1580b5"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Manage Devices - Synchronize Device

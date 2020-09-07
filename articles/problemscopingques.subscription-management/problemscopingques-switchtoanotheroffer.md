@@ -6,9 +6,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632959"
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="switchtoanotheroffer"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 
@@ -16,7 +17,7 @@
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Switch to Another Subscription Offer",
     "fileAttachmentHint": "",
     "formElements": [

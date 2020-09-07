@@ -4,7 +4,6 @@
 	infoBubbleText="Diagnostic Template"
 	service=""
 	resource=""
-	authors=""
 	ms.author=""
 	displayOrder=""
 	articleId=""
@@ -14,13 +13,14 @@
 	resourceTags=""
 	productPesIds=""
 	cloudEnvironments=""
+	ownershipId=""
 />
 
 # <-- This is the title of the solution. It is not displayed in the portal, however, an **H1** header is a required part of every file. -->
 
 ## ** <-- Diagnostic Title or H2 OUTSIDE the issueDescription tag --> **
 <!--issueDescription-->
-This is text with a replacement token **<!--$tokenname-->[tokenname]<!--/$tokenname-->**. There can be more text and another replacement token <!--$tokenname2-->[tokenname2]<!--/$tokenname2-->. Please do NOT use links (internal/blade or external), bold, or italic text formatting within the issueDescription tags.
+This is text with a replacement token <!--$tokenname-->[tokenname]<!--/$tokenname-->. There can be more text and another replacement token <!--$tokenname2-->[tokenname2]<!--/$tokenname2-->. Please do NOT use links (internal/blade or external), bold, or italic text formatting within the issueDescription tags.
 
 You can have multiple paragraphs within issueDescription tags.
 <!--/issueDescription-->
@@ -32,10 +32,13 @@ You can have multiple paragraphs within issueDescription tags.
 3. As in the example above, this step contains multiple sentences. When a step has multiple complete sentences, the use of a period to end each sentence is acceptable.
 4. This step does not have multiple sentences, so no period is required at the end
 5. This is a step with a [link to a blade](data-blade:extensionName.bladeName.nameOfInputParam.valueOfInputParam)
-6. This is a step with code:
+6. This is a step with code: `SELECT name, is_disabled FROM sys.sql_logins`
+7. This is a step with multi-line code:
 
 ```
-	SELECT name, is_disabled FROM sys.sql_logins
+SELECT name, is_disabled FROM sys.sql_logins
+SELECT date, is_disabled FROM sys.sql_logins
+SELECT server, is_disabled FROM sys.sql_logins
 ```
 
 This is an example of a bulleted list. Note that only 2 levels of bullets are supported:

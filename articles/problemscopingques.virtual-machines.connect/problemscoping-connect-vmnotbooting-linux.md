@@ -6,14 +6,17 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32615532"
                 productPesIds="15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0031"
+	ownershipId="Compute_VirtualMachines"
 />
 # Connect to a VM
 ---
 {
-    "resourceRequired": true,
+    "$schema": "SelfHelpContent",
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "My VM is not booting",
     "fileAttachmentHint": "",
     "formElements": [

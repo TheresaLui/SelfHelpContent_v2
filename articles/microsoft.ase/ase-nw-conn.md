@@ -9,8 +9,9 @@
 	supportTopicIds="32608427"
 	resourceTags=""
 	productPesIds="16533"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="46ed3149-d97e-4b88-8731-33854f6c4ece"
+	ownershipId="Compute_AppService"
 />
 
 # Networking\Connectivity (VNet or On-Prem)

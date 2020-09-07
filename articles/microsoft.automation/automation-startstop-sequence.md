@@ -10,8 +10,9 @@
     supportTopicIds="32635016"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="c31c30d7-df95-4bca-84f8-9173e3d3567c"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - VMs Don't Start/Stop in Correct Sequence

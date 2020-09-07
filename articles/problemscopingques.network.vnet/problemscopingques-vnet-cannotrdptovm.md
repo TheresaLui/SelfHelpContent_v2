@@ -5,9 +5,10 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32547225"
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="bd533d79-d3fa-439d-964a-2982e28e8ea5"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 # Cannot connect to virtual machine using RDP or SSH
 ---

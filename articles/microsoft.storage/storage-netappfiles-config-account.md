@@ -10,8 +10,9 @@
 	supportTopicIds="32640625"
 	resourceTags=""
 	productPesIds="16469"
-	cloudEnvironments="public"
+	cloudEnvironments="public,MoonCake,FairFax,BlackForest, usnat, ussec"
 	articleId="NetAppConfigAccountCreationIssue"
+	ownershipId="AzureNetAppFiles"
 />
 
 # Troubleshoot and resolve NetApp Files account creation issues 

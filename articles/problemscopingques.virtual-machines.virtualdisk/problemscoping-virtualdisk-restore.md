@@ -6,14 +6,16 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32632143"
                 productPesIds="14749,15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0075"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Virtual Disk Management
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Restore a VM from snapshot",
     "fileAttachmentHint": "",
     "formElements": [

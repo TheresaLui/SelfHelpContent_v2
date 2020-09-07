@@ -10,8 +10,9 @@
     supportTopicIds="32629787"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="27a343ca-f725-4702-9002-d90f1d1ef5cb"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Unexpected object deletion

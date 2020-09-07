@@ -1,33 +1,34 @@
 <properties
-	pageTitle="My bot is not responding or times out"
-	description="My bot is not responding or times out"
-	service="Microsoft.BotService"
-	resource="botServices"
-	authors="arturl,meetshamir"
-	ms.author="arturl,saziz"
-	displayOrder="3"
-	selfHelpType="resource"
-	supportTopicIds="32630656, 32630660, 32630669, 32630673, 32630681, 32630687"
-	resourceTags=""
-	productPesIds="16152"
-	cloudEnvironments="public,BlackForest,Fairfax,Mooncake"
-	articleId="d0e4ed4e-30f4-4c0c-acc5-3f615f1f4f70"
-/>
-
+  pagetitle="My bot is not responding or times out"
+  service="microsoft.botservice"
+  resource="botservices"
+  ms.author="jameslew"
+  selfhelptype="Resource"
+  supporttopicids="32688621"
+  resourcetags=""
+  productpesids="16152"
+  cloudenvironments="public,blackforest,fairfax,mooncake,usnat,ussec"
+  articleid="d0e4ed4e-30f4-4c0c-acc5-3f615f1f4f70"
+  ownershipid="Compute_BotService" />
 # My bot is not responding or times out
 
-Timeout errors usually manifest themselves as HTTP GatewayTimeout errors (504). This happens when the bot fails to respond to the Bot Framework within 15 seconds. 
+When a user sends a message to a bot, the bot must send an HTTP acknowledgment that it received the request. If the bot fails to acknowledge within 15 seconds, an error is logged within the channel where the user sent the request.
 
-[The bottroubleshooter community tool](https://github.com/BotBuilderCommunity/botbuilder-community-tools/tree/master/bottroubleshooter) can help identify certain issues. Please download the troubleshooter and follow the guidance as detailed in there.
+The Direct Line and Web Chat channels transmit these errors back to client software with HTTP 502 and 504 errors. Other clients, such as Teams and Cortana, do not present a programmatic code to the user.
+
+The cause of this failure is typically within the bot's source code, a configuration error (such as an incorrect endpoint), or a transient problem such as a networking failure.
+
+**Note**: A bot can successfully acknowledge the HTTP request without sending a reply. If the bot is accepting requests but is not responding, that problem must be debugged within the bot's conversational logic.
 
 ## **Recommended Steps**
 
-1. Analyze your bot behavior and make sure it doesn’t make external calls (to storage or other services) that take longer than 15 seconds
-2. If the bot is receiving large volume of traffic, consider scaling it out and changing it to use Web Sockets (for bots using Direct Line)
-3. If the bot doesn't have AlwaysOn option set, consider setting it (Note: it might increase the cost of running the bot)
-4. Enable Application Insights ([ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/asp-net), [ASP.NET Core](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-core))
-5. Navigate to AppInsights blade, then click "All App service settings", then "Application Insights" button and then "View Application Insights data", then "Analytics" button
-6. Query for timeout exceptions. The following query will tell you the most recent exceptions in your bot: 
+1. Use the [bottroubleshooter community tool](https://github.com/BotBuilderCommunity/botbuilder-community-tools/tree/master/bottroubleshooter) to analyze the bot's configuration and look for obvious errors
+2. Verify that your client supports [TLS 1.2](https://docs.microsoft.com/mem/configmgr/core/plan-design/security/enable-tls-1-2-client) encryption
+3. Use the [Bot Framework emulator](https://github.com/Microsoft/BotFramework-Emulator/releases) to connect directly to the bot's cloud endpoint to see if it functions properly
+4. If the problem only occurs when the bot is first starting, and the bot is hosted on an Azure Web App, consider enabling the AlwaysOn option (Note: this might increase the cost of running the bot)
+5. Enable Application Insights and connect it to both the bot's source code and its Bot Service registration in Azure to log any exceptions that may be occurring within the bot: [ASP.NET](https://docs.microsoft.com/azure/azure-monitor/app/asp-net), [ASP.NET Core](https://docs.microsoft.com/azure/azure-monitor/app/asp-net-core)
+6. To view Application Insights logs, navigate to AppInsights blade, then click "All App service settings", then "Application Insights" button and then "View Application Insights data", then "Analytics" button
+7. Query for timeout exceptions. The following query will tell you the most recent exceptions in your bot: 
 
 ```
 	exceptions 
@@ -57,5 +58,3 @@ Timeout errors usually manifest themselves as HTTP GatewayTimeout errors (504). 
 ## **Recommended Documents**
 
 * [Troubleshoot HTTP 500 errors](https://docs.microsoft.com/azure/bot-service/bot-service-troubleshoot-500-errors?view=azure-bot-service-4.0&tabs=dotnetwebapi)
-
-

@@ -10,8 +10,9 @@
     supportTopicIds=""
     productPesIds=""
     resourceTags=""
-    cloudEnvironments="public, MoonCake"
+    cloudEnvironments="public, fairfax, MoonCake, usnat, ussec"
     articleId="95dc49b6-37a0-4085-ac5d-db3f74e7e462"
+	ownershipId="Compute_VirtualMachines"
 />
 
 # What metrics can I use to autoscale my scale set

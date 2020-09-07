@@ -8,10 +8,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32637256"
 	productPesIds="16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-    subscriptionRequired="true"
-    resourceRequired="false"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # SQL Database Managed Instance
 ---
@@ -32,11 +31,18 @@
         {
             "id": "error_code",
             "order": 2,
-            "controlType": "textbox",
+            "controlType": "multilinetextbox",
             "displayLabel": "Error code or error message?",
             "watermarkText": "Provide the error code or error message",
             "required": false,
             "useAsAdditionalDetails": false
+        },
+        {
+            "id": "latest_restore",
+            "order": 3,
+            "controlType": "datetimepicker",
+            "displayLabel": "Latest time you started the restore?",
+            "required": false
         },
         {
             "id": "problem_description",

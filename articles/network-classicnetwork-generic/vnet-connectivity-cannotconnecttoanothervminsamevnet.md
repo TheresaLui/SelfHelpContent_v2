@@ -10,8 +10,9 @@
 	supportTopicIds="32584252"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="118399a2-440f-44c4-80b7-1c364ec51f01"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # connectivity/cannotconnecttoanothervirtualmachineinthesamevnet
@@ -25,8 +26,8 @@
 ## **Recommended Documents**
 
 * [Troubleshoot your **Network Virtual Appliance (NVA)**](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-nva)<br>
-* [Troubleshoot Connectivity problems: Cannot connect to another Azure VM in same Virtual Network](https://support.microsoft.com/help/4048050/troubleshooter-for-azure-vm-connectivity-problems)<br>
-* [Solve **VNet Peering** issues - Answer 3 questions](https://support.microsoft.com/help/4486956/troubleshooter-for-virtual-network-peering-issues)<br>
+* [Troubleshoot Connectivity problems: Cannot connect to another Azure VM in same Virtual Network](https://docs.microsoft.com/azure/virtual-network/troubleshoot-vm-connectivity)<br>
+* [Solve **VNet Peering** issues - Answer 3 questions](https://docs.microsoft.com/azure/virtual-network/virtual-network-troubleshoot-peering-issues)<br>
 * [Troubleshoot Network Security Groups](https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-troubleshoot-portal)<br>
 * [Troubleshoot Routes](https://docs.microsoft.com/azure/virtual-network/virtual-network-routes-troubleshoot-portal)
 

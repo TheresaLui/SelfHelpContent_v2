@@ -10,8 +10,9 @@
 	supportTopicIds=""
 	resourceTags="governance_overview"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
 	articleId="3eadcc0a-95d6-4223-a04e-15748b5594c0"
+	ownershipId="AzureIdentity_User"
 />
 
 # Why is an external user's access package not being provisioned? 

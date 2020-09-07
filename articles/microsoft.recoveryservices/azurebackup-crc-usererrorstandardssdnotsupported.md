@@ -13,19 +13,16 @@
 	supportTopicIds="32553276,32553277,32553285"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
-# UserErrorStandardSSDNotSupported
+# Error UserErrorStandardSSDNotSupported
 
 <!--issueDescription-->
-We found that you are using Standard SSD disk for this **<!--$DatasouceName-->DatasouceName<!--/$DatasouceName-->** VM. However, Azure Backup currently supports Standard SSD disks only for vaults that are upgraded to [Instant Restore](https://aka.ms/AB-instant-Restore). 
+We found that you are using Standard SSD disk for the VM.
 <!--/issueDescription-->
-
-## **Recommended Steps**
-
-To verify and upgrade this **<!--$VaultName-->VaultName<!--/$VaultName-->** vault to Instant Restore, see this [article](https://aka.ms/AB-instant-Restore). Make sure you read the [considerations](https://aka.ms/AB-IR-feature-considerations) section.
 
 ## **Recommended Documents**
 
-Review the [benefits](https://aka.ms/AB-IR-feature-considerations), including the ability to backup disks up to 4TB
+To resolve this issue, ensure you read the [considerations](https://docs.microsoft.com/azure/backup/backup-instant-restore-capability#feature-considerations) and [benefits]https://docs.microsoft.com/azure/backup/backup-instant-restore-capability#feature-considerations) section.

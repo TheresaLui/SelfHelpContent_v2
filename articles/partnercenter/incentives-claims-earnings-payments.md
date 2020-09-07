@@ -14,7 +14,8 @@
 	clientIds='partnercenter'
 	resourceTags="csp"
 	productPesIds="15960"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
 
 # Incentives - Claims, earnings and payments
@@ -23,6 +24,13 @@ These resources explain how to view details of your past, pending, and upcoming 
 
 ## **Recommended Documents**
 
+* [Incentives co-op claims overview](https://docs.microsoft.com/partner-center/claims-overview)
+* [Create and manage an incentives claim](https://docs.microsoft.com/partner-center/create-incentives-claims)
+* [Core requirements for incentives co-op claims](https://docs.microsoft.com/partner-center/core-requirements)
+* [Enroll in the program](https://support.microsoft.com/help/2938751/enroll-in-the-program)
+
 * [View your Incentives payments information](https://docs.microsoft.com/partner-center/understand-incentive-payouts)
-* [Manage your Incentives in Partner Center](https://docs.microsoft.com/partner-center/manage-your-incentives-in-partner-center)
-* [Partner Incentives is now on Partner Center](https://docs.microsoft.com/partner-center/partner-incentives-is-now-on-partner-center)
+
+* [How to add incentive users or admins in Partner Center](https://support.microsoft.com/help/3011450/how-to-add-incentive-users-or-admins-in-partner-center)
+* [How to become eligible for Microsoft Azure Incentives Program](https://support.microsoft.com/help/3073460/can-i-join-the-microsoft-azure-incentives-program)
+* [Partner Eligibility Requirements in Cloud Solutions Provider (CSP) Program](https://support.microsoft.com/help/3192802/incentive-eligibility-requirements-in-csp-program)

@@ -13,7 +13,8 @@
 	supportTopicIds="32640648,32640652,32640658,32640661"
 	resourceTags=""
 	productPesIds="16572"
-	cloudEnvironments="public,fairfax,mooncake"
+	cloudEnvironments="public,fairfax,mooncake, usnat, ussec"
+	ownershipId="CloudNet_VirtualWAN"
 />
 
 # Virtual WAN User VPN (Point-to-site) 

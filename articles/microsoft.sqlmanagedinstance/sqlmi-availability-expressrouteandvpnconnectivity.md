@@ -13,7 +13,8 @@
 	supportTopicIds="32637262"
 	resourceTags=""
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Express Route and VPN connectivity

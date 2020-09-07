@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="a0ad4f8c-f904-4b11-955d-e0044473c5fa_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="StorageMediaEdge_XStore"
 />
 # Prevent hitting subscription limit for maximum storage accounts
 ---
@@ -20,7 +21,7 @@
     "dataSource": "Cosmos",
     "refreshInterval": "1.00:00:00"
   },
-  "recommendationCategory": "Performance",
+  "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "High",
   "recommendationResourceType": "Microsoft.Storage/storageAccounts",
   "recommendationFriendlyName": "StorageAccountScaleTarget",
@@ -37,7 +38,7 @@
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/subscalelimit",
   "description": "Prevent hitting subscription limit for maximum storage accounts",
   "longDescription": "A region can support a maximum of 250 storage accounts per subscription. You have either already reached or are about to reach that limit. If you reach that limit, you will be unable to create any more storage accounts in that subscription/region combination. Please evaluate the recommended action below to avoid hitting the limit.",

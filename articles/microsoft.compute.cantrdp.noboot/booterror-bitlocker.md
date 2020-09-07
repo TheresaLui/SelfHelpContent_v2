@@ -4,8 +4,8 @@
     infoBubbleText="A boot error 'Plug in the USB drive that has the BitLocker key' has been found for your virtual machine."
     service="microsoft.compute"
     resource="virtualmachines"
-    authors="ram-kakani,timbasham, jasonbandrew"
-    ms.author="ramakk,tibasham, v-jasoan"
+    authors="timbasham"
+    ms.author="tibasham"
     displayOrder=""
     articleId="BootError--BITLOCKER"
     diagnosticScenario="booterror"
@@ -13,7 +13,8 @@
     supportTopicIds="32411835"
     resourceTags="windows"
     productPesIds="14749"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # VM boot error
@@ -29,4 +30,4 @@ Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialC
 
 ## **Recommended Documents**
 
-* [Azure Disk Encryption extension](https://docs.microsoft.com/azure/security/azure-security-disk-encryption)
+* [Azure Disk Encryption extension](https://docs.microsoft.com/azure/security/fundamentals/azure-disk-encryption-vms-vmss)

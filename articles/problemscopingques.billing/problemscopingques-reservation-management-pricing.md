@@ -7,14 +7,15 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32680684"
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 # Reservation Management- Pricing
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Reservation Management- Pricing",
     "fileAttachmentHint": "",
     "formElements": [

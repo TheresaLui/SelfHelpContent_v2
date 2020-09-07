@@ -10,8 +10,9 @@
     supportTopicIds="32628005,32628012"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="7520716a-1463-4666-b9d2-60f15be30964"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Updating or Importing Modules
@@ -22,8 +23,7 @@ This article contains information about updating the modules contained in your A
 
 ## **Recommended Steps**
 
-Before continuing in this document, please review the [notes found in the Update Modules document](https://docs.microsoft.com/azure/automation/automation-update-azure-modules#update-azure-modules-in-the-azure-portal). 
-It is recommended to have a test Automation Account to ensure updating modules do not impact your existing scripts. 
+Before continuing in this document, please review the [notes found in the Update Modules document](https://docs.microsoft.com/azure/automation/automation-update-azure-modules#update-azure-modules-in-the-azure-portal). It is recommended to have a test Automation Account to ensure updating modules do not impact your existing scripts. 
 
 ### A module I imported does not work in Azure Automation sandbox environments
 
@@ -31,18 +31,21 @@ It is recommended to have a test Automation Account to ensure updating modules d
 
 ### I am using Az modules in Azure Automation
 
-* While Az modules are supported in Azure Automation, there are several important considerations. Review the [Az Module Support documentation](https://docs.microsoft.com/azure/automation/az-modules) for potential pitfalls, including using AzureRM modules in the same account as Az modules. 
+* While Az modules are supported in Azure Automation, there are several important considerations. Review the [Az Module Support documentation](https://docs.microsoft.com/azure/automation/automation-update-azure-modules) for potential pitfalls, including using AzureRM modules in the same account as Az modules. 
 
 ### Module import stuck, "importing newer version" stuck
 
 * If module imports are stuck, unsuccessful, or otherwise in a bad state, you can use PowerShell to remove the module and try again:
 
-``` Get-AzureRmAutomationModule -ResourceGroupName RGoftheAAAcount -AutomationAccountName YourAutomationAccount| Where-Object { $_.ProvisioningState -eq "Creating"} | Remove-AzureRmAutomationModule ```
+`Get-AzureRmAutomationModule -ResourceGroupName RGoftheAAAcount -AutomationAccountName YourAutomationAccount| Where-Object { $_.ProvisioningState -eq "Creating"} | Remove-AzureRmAutomationModule`
 
+### "The module is imported but not loaded"
+
+* Add an explicit ["Import-Module" statement](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/import-module?view=powershell-5.1) to the beginning of your runbook
 
 ## **Recommended Documents**
 
 * [Common errors when importing modules](https://docs.microsoft.com/azure/automation/troubleshoot/runbooks#common-errors-when-importing-modules)<br>
 * [Integration modules in Azure Automation](https://docs.microsoft.com/azure/automation/automation-integration-modules)<br>
 * [Runbook and module galleries for Azure Automation](https://docs.microsoft.com/azure/automation/automation-runbook-gallery)<br>
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)

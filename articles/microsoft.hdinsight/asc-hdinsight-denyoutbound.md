@@ -8,22 +8,28 @@
     ms.author="nebhatta"
     displayOrder="88"
     articleId="Hdi_Network_DenyOutbound"
-    diagnosticScenario="HDInsightInsufficientNumberOfCoresInsight"
+    diagnosticScenario="HDInsightDenyOutboundInsight"
     selfHelpType="rca"
-    supportTopicIds="32629159, 32636423, 32636422"
+    supportTopicIds="32636423, 32636507"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 # HDInsight cluster contains deny outbound rule within Network Security Group
 
 ## We ran diagnostics on your resource and found the following issue
 
-We determined that the network security group associated with the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> have the following network security group rules that would deny outbound access from the cluster. <!--$Details-->[Details]<!--/$Details-->
+<!--issueDescription-->
+We determined that the network security group associated with the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> have the following network security group rules that would deny outbound access from the cluster. 
+
+<!--$Details-->[Details]<!--/$Details-->
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 
 * Restricting outbound access is not supported. Please remove or update the following rules to allow outbound access from the HDInsight cluster.
+* [Configure outbound network traffic for Azure HDInsight clusters using Firewall](https://docs.microsoft.com/azure/hdinsight/hdinsight-restrict-outbound-traffic)
 
 ## **Recommended Documents** 
 

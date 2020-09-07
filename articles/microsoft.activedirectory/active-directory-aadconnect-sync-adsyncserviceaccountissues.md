@@ -10,8 +10,9 @@
     supportTopicIds="32629762"
     resourceTags=""
     productPesIds="16666"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="1c334bfc-e3e7-438f-b43a-34afca40621d"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # ADSync service or service account issues

@@ -10,8 +10,9 @@
     supportTopicIds="32599933"
     resourceTags=""
     productPesIds="15607"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="5e74794f-d5fc-4e2f-aaaa-e622b9dd8f4e"
+	ownershipId="Compute_Automation"
 />
 
 # Azure Automation - Automation Account - Unlink Workspace
@@ -24,4 +25,4 @@
 
 ## **Recommended Documents**
 
-[Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+[Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)

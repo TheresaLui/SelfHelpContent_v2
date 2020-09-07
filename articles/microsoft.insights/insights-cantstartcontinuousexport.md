@@ -9,8 +9,9 @@
     selfHelpType="generic"
     supportTopicIds="32546622"
     productPesIds="15693"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
  	articleId="74ce42b4-50d8-4700-8c66-421f8f2213d5"
+	ownershipId="AzureMonitoring_ApplicationInsights"
 />
 # I can't configure a new continuous export
 

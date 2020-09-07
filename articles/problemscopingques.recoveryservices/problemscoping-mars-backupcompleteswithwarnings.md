@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632793"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="d7bbf0c8-35a5-4759-92d4-4a8640c05585"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for MARS backup completes with warnings
 ---
@@ -17,11 +18,6 @@
     "subscriptionRequired": true,
     "title": "MARS backup completes with warnings",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "MARS backup completes with warnings",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "machine_name",
@@ -29,7 +25,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": false
+            "required": true
         },
         {
             "id": "Basic_troubleshooting_multiselect",
@@ -62,8 +58,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": false
         },
         {
             "id": "get_machineid",

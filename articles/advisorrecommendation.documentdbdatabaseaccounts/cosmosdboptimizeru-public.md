@@ -1,11 +1,12 @@
 <properties
     pageTitle="Provision the optimal amount of Request Units for Azure Cosmos DB"
     description="Provision the optimal amount of Request Units for Azure Cosmos DB"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    authors="raldaba"
+    ms.author="aoaft"
     articleId="8b993855-1b3f-4392-8860-6ed4f5afd8a7_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureData_AzureCosmosDB"
 />
 # Provision the optimal amount of Request Units for Azure Cosmos DB
 ---
@@ -16,29 +17,31 @@
   "recommendationTypeId": "8b993855-1b3f-4392-8860-6ed4f5afd8a7",
   "dataSourceMetadata": {
     "schemaVersion": 2.0,
-    "streamNamespace": "Microsoft.Cloud.AzureCosmosDBRecommendationsTableProd",
-    "dataSource": "Cosmos",
-    "refreshInterval": "1.00:00:00"
+    "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('Publish').GetAcdbThroughputAzureAdvisorRecs",
+    "dataSource": "Kusto",
+    "refreshInterval": "0.08:00:00"
   },
   "recommendationCategory": "Cost",
   "recommendationImpact": "Low",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDBOptimizeRU",
   "recommendationMetadataState": "Active",
+  "recommendationScope": "Internal",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "aoaft@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "AROTOOLBOX\\AROToolboxDevTeam",
+      "service": "Azure Optimization Automation",
+      "team": "Azure Optimization Automation"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "a3db6cf3-640c-4340-8381-108d31853b7f"
   },
   "ingestionClientIdentities": [
     "6c75c76c-7792-4dd0-8e85-ad598f14bc93",
     "db97364d-48bf-4567-af34-e0843d0ee0af",
-    "bd26e40e-c0cc-4d1d-8801-569dac0cd7fe"
+    "bd26e40e-c0cc-4d1d-8801-569dac0cd7fe",
+    "9c14bff5-1bda-4de6-a74f-4c3caa370570"
   ],
   "recommendationTimeToLive": 86400,
   "version": 1.0,

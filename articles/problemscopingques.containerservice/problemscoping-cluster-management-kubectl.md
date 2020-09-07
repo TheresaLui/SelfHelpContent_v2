@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32637178"
                 productPesIds="16450"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="problemscoping-cluster-management-kubectl"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Kubectl issue
 ---
@@ -66,7 +67,7 @@
             "id": "getCloudShellCheck",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Does this operation failed through Cloud Shell as well?",
+            "displayLabel": "Does this operation fail through Cloud Shell as well?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {

@@ -1,17 +1,16 @@
 <properties
 	articleId="problemscopingques-sqlmi-conn-connectiontimeouts"
 	pageTitle="SQL Database Managed Instance"
-	description="Scoping questions to capture managed instance connection timeouts"
+	description="Scoping questions to capture driver related issues"
 	authors="vitomaz-msft,MladjoA"
 	authoralias="vitomaz"
 	ms.author="vitomaz"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32637245,32637246,32637247,32637259"
+	supportTopicIds="32637245,32637247,32637259"
 	productPesIds="16259"
-	cloudEnvironments="public,blackForest,fairfax,mooncake"
+	cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
 	schemaVersion="1"
-    subscriptionRequired="true"
-    resourceRequired="false"
+	ownershipId="AzureData_AzureSQLMI"
 />
 # SQL Database Managed Instance
 ---
@@ -83,6 +82,13 @@
             "watermarkText": "Provide the version of your driver/tool",
             "required": false,
             "useAsAdditionalDetails": false
+        },
+        {
+            "id": "sqlexception_received_on_client",
+            "order": 20,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Paste detailed error message or stack trace. (Obscure the personally identifiable information).",
+            "required": false
         },
         {
             "id": "problem_description",

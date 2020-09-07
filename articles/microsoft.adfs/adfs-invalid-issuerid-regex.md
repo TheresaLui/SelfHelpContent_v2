@@ -10,14 +10,15 @@
 	articleId="adfs_invalid_issuerid_regex"
 	diagnosticScenario="ADFS - Invalid IssuerID Regex"
 	selfHelpType="diagnostics"
-	supportTopicIds="32045775"
+	supportTopicIds=""
 	resourceTags=""
-	productPesIds="14785"
-	cloudEnvironments="public, BlackForest, Fairfax, MoonCake"
+	productPesIds=""
+	cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
+	ownershipId="AzureIdentity_AuthReach_HybridAuthentication"
 />
 
 # Sign-In issues into Azure AD with AD FS due to improper IssuerID claim rule
-<!--/issueDescription-->
+<!--issueDescription-->
 We have detected sign-in issues for one or more of your federated domains. This is occurring due to a misconfiguration on your federation trust with Azure AD. Please take a look at the following recommendations on resolving this issue.
 <!--/issueDescription-->
 

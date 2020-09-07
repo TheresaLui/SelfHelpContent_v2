@@ -10,17 +10,25 @@
 	supportTopicIds="32677725"
 	resourceTags=""
 	productPesIds="16432"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="c2398469-febb-48fb-ba0e-b11b32fbd44d"
+	ownershipId="AzureData_AzureDatabricks"
 />
 
 # Diagnose and resolve issues with R
 
+## **Recommended Steps**
+
+* Getting error **java.io.EOFException** when handling huge data set in Spark R even with larger cluster - issue is caused by design since Spark R uses driver node specific framework resource. Resolution is to handle the pipeline with dividing data into smaller sets and conquer the results.
+
 ## **Recommended Documents**
 
-* [Resolving Package or Namespace Loading Error](https://kb.azuredatabricks.net/r/namespace-onload.html)
-* [How to Persist and Share Code in RStudio](https://kb.azuredatabricks.net/r/persist-share-code-rstudio.html)
-* [Problem: Rendering an R Markdown File Containing sparklyr Code Fails](https://kb.azuredatabricks.net/r/rmarkdown-sparklyr-code.html)
-* [Fix the Version of R Packages](https://kb.azuredatabricks.net/r/pin-r-packages.html)
-* [How To Parallelize R Code with gapply](https://kb.azuredatabricks.net/r/sparkr-gapply.html)
-* [How To Parallelize R Code with spark.lapply](https://kb.azuredatabricks.net/r/sparkr-lapply.html)
+* [Change Version of R (r-base)](https://docs.microsoft.com/azure/databricks/kb/r/change-r-version)
+* [Install rJava and RJDBC Libraries](https://docs.microsoft.com/azure/databricks/kb/r/install-rjava-rjdbc-libraries)
+* [Resolving Package or Namespace Loading Error](https://docs.microsoft.com/azure/databricks/kb/r/namespace-onload)
+* [How to Persist and Share Code in RStudio](https://docs.microsoft.com/azure/databricks/kb/r/persist-share-code-rstudio)
+* [Problem: Rendering an R Markdown File Containing sparklyr Code Fails](https://docs.microsoft.com/azure/databricks/kb/r/rmarkdown-sparklyr-code)
+* [Fix the Version of R Packages](https://docs.microsoft.com/azure/databricks/kb/r/pin-r-packages)
+* [How To Parallelize R Code with gapply](https://docs.microsoft.com/azure/databricks/kb/r/sparkr-gapply)
+* [How To Parallelize R Code with spark.lapply](https://docs.microsoft.com/azure/databricks/kb/r/sparkr-lapply)
+* Note that R is not supported with Table Access Control

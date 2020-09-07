@@ -6,16 +6,17 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32593232"
 	productPesIds="15660"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
 	articleId="changescopeofreservation"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # Change Scope of Reservation
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
+    "subscriptionRequired": false,
     "title": "Reservation Management",
     "fileAttachmentHint": "",
     "formElements": [
@@ -115,7 +116,7 @@
         {
             "id": "reservationorderid_details",
             "order": 5,
-            "visibility": "Reservationid == Other",
+            "visibility": "Reservationid == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Reservation ID",
             "watermarkText": "Provide your Reservation id",

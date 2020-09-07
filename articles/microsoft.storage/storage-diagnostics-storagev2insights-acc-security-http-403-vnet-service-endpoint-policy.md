@@ -13,19 +13,27 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Connections to storage account endpoint were blocked due to VNet Service Endpoint Policy rules 
 <!--issueDescription-->
-Some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were blocked between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->**. The current **VNET service endpoint policy** on the subnet, where the traffic originated doesn't allow connecting to this storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**.<br> Only the following subnets have **VNet endpoint policy** that allows access to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**.<br>**<!--$Subnet_List-->[Subnet_List]<!--/$Subnet_List-->**<br><br> Sample list of requests were blocked:<br>**<!--$IP_RequestUrl-->[IP_RequestUrl]<!--/$IP_RequestUrl-->**
+Some requests to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were blocked between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->**. The current **VNET service endpoint policy** on the subnet, where the traffic originated doesn't allow connecting to this storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**.
 <!--/issueDescription-->
+
+Only the following subnets have **VNet endpoint policy** that allows access to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->**.
+
+**<!--$Subnet_List-->[Subnet_List]<!--/$Subnet_List-->**
+
+Sample list of requests were blocked:
+**<!--$IP_RequestUrl-->[IP_RequestUrl]<!--/$IP_RequestUrl-->**
 
 There may be additional client IPs for which requests were blocked. To view the complete list, review the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).
 
-## **Recommended Steps** 
+## **Recommended Documents**
 
-Services running inside a VNet with service endpoint policy must add the storage account **{ResourceName}** explicitly in the policy. 
+Services running inside a VNet with service endpoint policy must add the storage account **{ResourceName}** explicitly in the policy.
 Refer below to make the necessary changes:
 
 1. [Virtual network service endpoint policies](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoint-policies-overview)

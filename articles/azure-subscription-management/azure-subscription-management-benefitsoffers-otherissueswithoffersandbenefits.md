@@ -10,8 +10,9 @@
 	supportTopicIds="32632957"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="public,BlackForest, Fairfax, MoonCake, usnat, ussec"
 	articleId="benefitsoffersotherissueswithoffersandbenefits"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
 # other issues with offers and benefits
@@ -27,7 +28,7 @@ You may experience an issue when you try to sign up for a new account in the Mi
 * Learn more: [Troubleshoot Sign-up Issues](https://support.microsoft.com/help/4467267/can-t-sign-up-for-azure-in-azure-portal-or-azure-account-center) <br>
 * Activate your Bizspark benefit: [Activate](https://azure.microsoft.com/offers/ms-azr-0064p/)<br>
 
-_Note:_ If you remove the [Spending Limit](https://azure.microsoft.com/pricing/spending-limits/), charges will be incurred at the [Pay-As-You-Go](https://azure.microsoft.com/pricing/) rates. If you maintain the Spending Limit and you use your monthly credit in full or you use any service that is excluded from payment by monthly credit, your subscription will be suspended for the remainder of the billing period. You will be notified at least 30 days in advance of any increases to the rates. Any taxes which may result from receiving services at no charge are the sole responsibility of the recipient. You must maintain an active Visual Studio Enterprise subscription, provided by your organization based on its membership in the [Microsoft BizSpark](https://www.microsoft.com/bizspark) startup program, to enjoy this benefit. This offer is limited to one per subscriber.<br>
+_Note:_ If you remove the [Spending Limit](https://azure.microsoft.com/pricing/spending-limits/), charges will be incurred at the [Pay-As-You-Go](https://azure.microsoft.com/pricing/) rates. If you maintain the Spending Limit and you use your monthly credit in full or you use any service that is excluded from payment by monthly credit, your subscription will be suspended for the remainder of the billing period. You will be notified at least 30 days in advance of any increases to the rates. Any taxes which may result from receiving services at no charge are the sole responsibility of the recipient. You must maintain an active Visual Studio Enterprise subscription, provided by your organization based on its membership in the [Microsoft BizSpark](https://support.microsoft.com/help/4055667/bizspark-support) startup program, to enjoy this benefit. This offer is limited to one per subscriber.<br>
 
 * Learn more: [Pricing](https://azure.microsoft.com/pricing/) <br>
 

@@ -11,20 +11,27 @@
 	supportTopicIds="32602694,32639219"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="24a774b4-3aaf-46b5-aa55-64247af90249"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
-# Unable to delete Storage Account
+# Unable to delete Storage Resource
 
-## **Recommended Steps**
+## **Recommended Documents**
 
-### Deleting storage resource with Resource Manager (ARM) deployment
+### **Deleting storage resource with classic deployment**
+
+Disks and images that were previously attached to a VM can prevent deletion of storage resources **even if the disk is no longer attached or the VM is already deleted**. Please follow the instruction below if you are trying to delete classic storage resources:
+- [Troubleshoot classic storage resource deletion errors](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/storage-classic-cannot-delete-storage-account-container-vhd)
+
+### **Deleting storage resource with Resource Manager (ARM) deployment**
 
 - [Troubleshoot ARM storage resource deletion errors](https://docs.microsoft.com/azure/virtual-machines/windows/storage-resource-deletion-errors)
 
-### Deleting storage account with classic deployment
+### **Lock resource**
 
-1. Go to [Azure Portal](https://portal.azure.com/) and select the Classic Storage Account you would like to delete
-2. Select **_Delete_** and a list of disks and images that prevents deletion will appear
-3. For each disk or image that prevents storage account deletion, delete the disk or image and retry deleting the storage account
+Administrator, may need lock a subscription, resource group, or resource to prevent accidental deletion or modification. 
+
+- [Lock resources to prevent unexpected changes](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources)
+- [I am unable to remove the lock on resources](https://docs.microsoft.com/azure/azure-resource-manager/management/lock-resources#who-can-create-or-delete-locks)

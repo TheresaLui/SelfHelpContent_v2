@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32636486"
 	productPesIds="15078"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_HDInsight"
 />
 # HDInsight Authentication with ODBC in ESP Issue
 ---
@@ -82,6 +83,36 @@
                 }
             ],
             "required": true
+        },
+        {
+            "id": "hdfs-ls-work",
+            "order": 310,
+            "controlType": "dropdown",
+            "displayLabel": "Does hdfs dfs -ls / work?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "hdfs-error",
+            "order": 320,
+            "visibility": "hdfs-ls-work == No",
+            "controlType": "textbox",
+            "displayLabel": "hdfs dfs -ls error message",
+            "required": false
         },
         {
             "id": "beeline",

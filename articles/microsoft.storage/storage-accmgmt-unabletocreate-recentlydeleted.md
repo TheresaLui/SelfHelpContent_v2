@@ -11,8 +11,9 @@
 	supportTopicIds="32639220"
 	resourceTags=""
 	productPesIds="15629"
-	cloudEnvironments="public,MoonCake"
+	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
 	articleId="9603FCBD-3B97-406B-9348-BCD4A5DC374E"
+	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
 # Unable to create storage account with the same name as recently deleted account

@@ -10,10 +10,11 @@
     articleId="Hdi_Crud_ConfigureLdap"
     diagnosticScenario="HDInsightLdapCertificateInvalidInsight"
     selfHelpType="diagnostics"
-    supportTopicIds="32629001, 32629080, 32628987, 32636420"
+    supportTopicIds="32636423, 32636438"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found an issue

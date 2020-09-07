@@ -4,16 +4,18 @@
                 authors="summertgu"
                 ms.author="tiag"
                 selfHelpType="problemScopingQuestions"
-                supportTopicIds="32628258"
+                supportTopicIds="32628258,32682691,32682693,32682697,32682689,32682688,32682695,32682692,32743902,32745210"
                 productPesIds="14749,15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0041"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Agent and extensions
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Azure Disk Encryption (ADE) extension issue",
     "fileAttachmentHint": "",
     "formElements": [
@@ -148,7 +150,7 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "required": true
         },
         {

@@ -9,8 +9,9 @@
     supportTopicIds=""
     resourceTags="userandgroups_overview,userandgroups_user,userandgroups_group,companyRelationships_overview"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="9977e60a-8c5c-4ed3-8d60-4f7d6658bbd3"
+	ownershipId="AzureIdentity_User"
 />
 
 # B2B collaboration: Problem inviting the guest user

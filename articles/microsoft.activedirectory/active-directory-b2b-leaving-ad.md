@@ -9,8 +9,9 @@
     supportTopicIds="32615392"
     resourceTags=""
     productPesIds="16580"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     	articleId="5b18d6b5-0e62-47a0-9807-a5d43234773c"
+	ownershipId="AzureIdentity_B2C"
 />
 
 # Problem leaving a directory

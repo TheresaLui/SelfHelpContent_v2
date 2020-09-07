@@ -1,6 +1,6 @@
 <properties
-	pageTitle="change ownership of reservation"
-	description="change ownership of reservation"
+	pageTitle="Add more people to view or manage my existing reservations"
+	description="Add more people to view or manage my existing reservations"
 	service="azure-subscription-management"
 	resource="subscription-management"
 	authors="prdasneo"
@@ -10,15 +10,32 @@
 	supportTopicIds="32593231"
 	resourceTags=""
 	productPesIds="15660"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	articleId="3e3f570d-e378-486d-ab06-cb22839030d8"
+	ownershipId="ASMS_SubscriptionManagement"
 />
 
-# Change ownership of reservation
+# Add more people to view or manage my existing reservations
 
 ## **Recommended Steps**
 
-Once Azure Reservation has been purchased, you might need to apply the reservation to a different subscription, change who can manage the reservation, or change the scope of the reservation. You could also split a reservation into two reservations to apply some of the instances you bought to another subscription.
+### **If the user who purchased the reservation is in the organization, then you can do following**
+
+By default, the reservation purchaser and the account owner for the subscription used to purchase the reservation get owner access to the reservation order and the reservations under the reservation order.
+
+* These users can add\other user to the reservation using the Access Control (IAM) tab under reservation. Just click on the reservation, then click on reservation order and provide access
+* When adding users to reservations, its better to add them to reservation order so that they can perform exchange and refunds in future.
+* You can add other people to the reservations or reservation orders using power shell / CLI. 
+
+You can get list of all reservations orders that you have access to: [Reservation Order-List](https://docs.microsoft.com/rest/api/reserved-vm-instances/reservationorder/list)<br>
+
+For this list execute **New-AzureRmRoleAssignment** to provide users with access to individual reservation. <br>
+
+Read this document to learn more: [Manage access to Azure resource using RBAC and Azure PowerShell](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-powershell)<br>
+
+_If the user who purchased the reservation is not in the organization or if you want to change the tenant under which the reservation resides then please proceed with the support ticket._<br>
+
+Other questions: [Visit reserved instance docs](https://docs.microsoft.com/azure/billing/billing-save-compute-costs-reservations)
 
 ### Add or change users who can manage a reservation
 
@@ -34,7 +51,8 @@ You can delegate management of a reservation by adding people to roles on the re
 
 Learn more: [Manage Reservations](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance) <br>
 
-The Enterprise Administrator can transfer ownership of subscriptions within an enrollment. To learn more see [Transfer Account Ownership](https://ea.azure.com/helpdocs/changeAccountOwnerForASubscription) in the EA portal.<br>
+The Enterprise Administrator can transfer ownership of subscriptions within an enrollment.<br>
+To learn more see [Transfer Account Ownership](https://docs.azure.cn/billing/billing-subscription-transfer) in the EA portal.<br>
 
 ## **Recommended Documents**
 

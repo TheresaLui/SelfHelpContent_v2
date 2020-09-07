@@ -10,8 +10,9 @@
 	supportTopicIds="32639114"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="connectivity-connection-timedout"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Connectivity Connection Timed out

@@ -10,8 +10,9 @@
 	supportTopicIds="32632142"
 	resourceTags=""
 	productPesIds="14749"
-	cloudEnvironments="public"
-	articleId="compute-virtualdiskmgmt-resizedisk"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	articleId="6c90898f-7758-42e3-97bf-d85745fe6c08"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # Resolving issues with VM Disk Management
@@ -22,6 +23,7 @@
 
 * [How to expand the OS disk of a VM](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk)<br>
 * [Expand data disks for a VM](https://docs.microsoft.com/azure/virtual-machines/windows/expand-os-disk#resizing-data-disks)<br>
+* [Downsizing or shrinking a VM disk is not supported](https://docs.microsoft.com/azure/virtual-machines/windows/faq-for-disks)<br>
 * [Resize a Windows VM](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm)<br>
 * [Convert between Standard and Premium storage for a disk](https://docs.microsoft.com/azure/virtual-machines/windows/convert-disk-storage)<br>
 * [What VMs are supported for Premium Storage (SSD)?](https://docs.microsoft.com/azure/virtual-machines/windows/premium-storage#supported-vms)<br>

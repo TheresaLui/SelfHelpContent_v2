@@ -9,8 +9,9 @@
 	supportTopicIds="32599618"
 	resourceTags=""
 	productPesIds="15584"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="ee274e93-1ea2-4eda-a38b-f5484f7a2ddb"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # Configure Devices - Configure Wifi Settings

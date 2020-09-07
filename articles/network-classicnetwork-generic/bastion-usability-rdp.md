@@ -10,8 +10,9 @@
     supportTopicIds="32641421"
     resourceTags=""
     productPesIds="16757"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="bastion-usability-rdp"
+	ownershipId="CloudNet_AzureBastion"
 />
 
 # Have trouble using my RDP session or not responding as expected

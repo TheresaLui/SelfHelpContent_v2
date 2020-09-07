@@ -10,8 +10,9 @@
     supportTopicIds="32640088"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="bdff2bb9-1323-472a-973b-b3f2675fdd83"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Using Azure REST APIs for Azure Database for MySQL
@@ -27,6 +28,8 @@ All Azure Database for MySQL management operations can be performed using REST A
     * Ensure the required parameters are set and valid. See the [Provisioning Azure Database for MySQL using ARM templates](https://docs.microsoft.com/azure/mysql/tutorial-provision-mysql-server-using-azure-resource-manager-templates#create-an-azure-database-for-mysql-server-with-vnet-service-endpoint-using-azure-resource-manager-template) to understand the valid values of the parameters.
 
 * Poll the status of the operation after you issues the request. Most operations are asynchronous and can take a few minutes to complete.
+* To learn how to move a server across resource groups or subscriptions, review [Azure resource move](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources)
+
 
 ## **Recommended Documents**
 

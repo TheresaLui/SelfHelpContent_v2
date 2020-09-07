@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553293"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="229892a8-0d21-433a-90cd-a32f8ec9abd8"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions DPM - Online backup is failing
 ---
@@ -151,7 +152,7 @@
             "visibility": "issue_Type == Cloud backup is failing",
             "controlType": "textbox",
             "displayLabel": "Provide the MachineId:",
-            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\MachineId",
+            "infoBalloonText": "Find MachineId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\MachineId",
             "watermarkText": "Paste MachineId here",
             "required": false
         },
@@ -161,7 +162,7 @@
             "visibility": "issue_Type == Cloud backup is failing",
             "controlType": "textbox",
             "displayLabel": "Provide the ResourceId:",
-            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Windows Azure Backup\\\\Config\\\\ResourceId",
+            "infoBalloonText": "Find ResourceId from registry HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows Azure Backup\\Config\\ResourceId",
             "watermarkText": "Paste ResourceId here",
             "required": false
         },

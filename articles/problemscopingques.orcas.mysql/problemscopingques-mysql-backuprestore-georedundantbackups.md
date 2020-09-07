@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640059"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mysql-backuprestore-georedundant_backups"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Backup, Restore and Business Continuity - Geo redundant backups
 ---

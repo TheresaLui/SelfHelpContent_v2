@@ -6,14 +6,16 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32628283"
                 productPesIds="14749,15571,15797,16454,16470"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="b4b6273d-558e-4f2d-ab00-36a830ea0050"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # Agent and extensions
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "VM Diagnostic (boot diagnostics) extension issue",
     "fileAttachmentHint": "",
     "formElements": [

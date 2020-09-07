@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32628130"
 	productPesIds="16334"
-	cloudEnvironments="public, MoonCake, fairfax" 
+	cloudEnvironments="public, MoonCake, fairfax, usnat, ussec" 
 	articleId="cb904a11-4917-667a-dc79-85a43ae1c8b6"
+	ownershipId="PowerBI_PowerBI"
 />
 
 # Power BI Archived Workspace

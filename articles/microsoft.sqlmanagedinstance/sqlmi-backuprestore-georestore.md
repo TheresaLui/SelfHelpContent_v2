@@ -9,8 +9,9 @@
 	selfHelpType="generic"
 	supportTopicIds="32637265"
 	productPesIds="16259"
-	cloudEnvironments="public"
+	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
 	articleId="e12783f2-bdbe-4e61-a19b-7dc5b905bfa1"
+	ownershipId="AzureData_AzureSQLMI"
 />
 
 # Geo-restore

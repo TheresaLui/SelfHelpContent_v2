@@ -3,19 +3,21 @@
 pageTitle="Create dashboards and views"
 description="Create dashboards and views"
 articleId="problemscopingques-Create_dashboards_and_views"
-authors="yossiy"
-ms.author="yossiy"
+authors="yossiy,neilghuman"
+ms.author="yossiy,neghuman"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32633016"
+supportTopicIds="32745417"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # Create dashboards and views
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Restore deleted workspace",
     "fileAttachmentHint": "",
     "formElements": [

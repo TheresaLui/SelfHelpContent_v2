@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="devicecompliance_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="0b2bd6a6-d8a0-4dc2-9ae2-20d28091989f"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # My devices show as not compliant, but I didn't assign a compliance policy to them.

@@ -13,7 +13,8 @@
 	supportTopicIds="Azure AD Domain Services"
 	resourceTags=""
 	productPesIds="14785,16577"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_ComplianceAndReporting"
 />
 
 # Health Alert for Azure AD Domain Services

@@ -10,17 +10,19 @@
     articleId="Hdi_fullsubnet"
     diagnosticScenario="HDInsightSubnetIsFullInsight"
     selfHelpType="rca"
-    supportTopicIds="32628987, 32629125, 32636492"
+    supportTopicIds="32636423, 32681537"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # We ran diagnostics on your resource and found the following issue
 
 ## Problem
-
+<!--issueDescription-->
 Deployment of the HDInsight cluster <!--$ClusterDnsName-->[ClusterDnsName]<!--/$ClusterDnsName--> failed within subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> because the subnet does not have sufficient free IP addresses to match the number of nodes of the cluster.
+<!--/issueDescription-->
 
 ## **Recommended Steps**
 

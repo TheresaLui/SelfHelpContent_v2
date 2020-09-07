@@ -1,19 +1,20 @@
 <properties
 	pageTitle="Microsoft Azure has information regarding your issue"
 	description="Microsoft Azure has information regarding your issue"
-	infoBubbleText="Microsoft Azure has information regarding your issue. Please see details to the right."
+	infoBubbleText="Microsoft Azure has information regarding your issue. Please see details on the right."
 	service="microsoft.recoveryservices"
 	resource="vaults"
 	authors="asgang"
 	ms.author="asgang,genli"
 	displayOrder=""
 	articleId="vmnotconnectingduetoProxy"
-	diagnosticScenario="vmnotconnectingduetoProxy"
+	diagnosticScenario="ASRA2AMobilityAgentConfiguratorFailure"
 	selfHelpType="Diagnostics"
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16370"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, Fairfax, usnat, ussec"
+	ownershipId="Compute_SiteRecovery"
 />
 
 # Your virtual machine is not able to access "login.microsoftonline.com" due to invalid proxy. 
@@ -40,8 +41,10 @@ The installation of Mobility service has failed with error **A2AMobilityServiceC
 	Address=<proxy server url>
 	Port=<port number>
 	```
-	
+3. Azure Site Recovery Mobility Service agent supports only un-authenticated proxies
+4. Refer to this troubleshooting [article](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-network-connectivity#issue-4-a2a-replication-failed-when-the-network-traffic-goes-through-on-premises-proxy-server-151072) to resolve the issue
+
 ## **Recommended Documents**
 
 * [Azure VM disaster Recovery connectivity requirements](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-about-networking#outbound-connectivity-for-ip-address-ranges)
-* Learn more about troubleshooting [connectivity failures](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-errors#outbound-connectivity-for-site-recovery-urls-or-ip-ranges-error-code-151037-or-151072)
+* Learn more about troubleshooting [connectivity failures](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-troubleshoot-network-connectivity#issue-4-a2a-replication-failed-when-the-network-traffic-goes-through-on-premises-proxy-server-151072)

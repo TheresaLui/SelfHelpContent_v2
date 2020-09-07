@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32553296"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
 	 articleId="171f4f9b-3e04-4b40-8c57-b30b5063c752"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions MARS restore failure
 ---
@@ -17,11 +18,6 @@
     "subscriptionRequired": false,
     "title": "MARS restore failure",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "MARS restore failure",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "os_version",
@@ -37,7 +33,7 @@
             "controlType": "textbox",
             "displayLabel": "Which machine is experiencing the problem?",
             "watermarkText": "Enter the name of the Windows Server or Windows Client",
-            "required": false
+            "required": true
         },
         {
             "id": "error_message",
@@ -79,9 +75,13 @@
                 {
                     "value": "Volume",
                     "text": "Volume"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "restore_location",
@@ -103,8 +103,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "basic_troubleshooting_multiselect",

@@ -5,7 +5,8 @@
     ms.author="aadevteam"
     articleId="2b5eac39-9f50-4d8d-bc9b-1e1e07c5c37e_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
+	ownershipId="AzureMonitoring_Alerts_ActivityLogAndMetricAlerts"
 />
 # Repair your log alert rule
 ---
@@ -20,24 +21,24 @@
     "dataSource": "Kusto",
     "refreshInterval": "08:00:00"
   },
-  "recommendationCategory": "HighAvailability",
+  "recommendationCategory": "OperationalExcellence",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "Microsoft.Insights/ScheduledQueryRules",
   "recommendationFriendlyName": "ScheduledQueryRulesLogAlert",
   "recommendationMetadataState": "Active",
   "portalFeatures": [],
   "owner": {
-    "email": "aadevteam@microsoft.com",
+    "email": "lsateam@microsoft.com",
     "icm": {
-      "routingId": "MDM://AzureAdvisor",
-      "service": "Azure Advisor",
-      "team": "Azure Advisor"
+      "routingId": "AIMS://LogAlertsFlow",
+      "service": "Azure Log Search Alerts",
+      "team": "Log Search Alerts (Scheduled Query Rules) On Call"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "6b503797-6dcf-4f37-861f-a76db539a823"
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
-  "version": 1.0,
+  "version": 2.0,
   "learnMoreLink": "https://aka.ms/aa_logalerts_queryrepair",
   "description": "Repair your log alert rule",
   "longDescription": "We have detected that one or more of your alert rules have invalid queries specified in their condition section. Log alert rules are created in Azure Monitor and are used to run analytics queries at specified intervals. The results of the query determine if an alert needs to be triggered. Analytics queries may become invalid overtime due to changes in referenced resources, tables, or commands. We recommend that you correct the query in the alert rule to prevent it from getting auto-disabled and ensure monitoring coverage of your resources in Azure.",

@@ -6,9 +6,10 @@
          selfHelpType="problemScopingQuestions"
          supportTopicIds="32632796"
          productPesIds="15207"
-         cloudEnvironments="public"
+         cloudEnvironments="public, fairfax, usnat, ussec"
          schemaVersion="1"
     	 articleId="15e2bd99-2406-4639-b757-f8517ff0383d"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Questions for offline backup or seeding issues
 ---
@@ -17,11 +18,6 @@
     "subscriptionRequired": true,
     "title": "offline backup or seeding issues",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "offline backup or seeding issues",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "backup_type",
@@ -51,8 +47,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-     "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "error_message",
@@ -66,7 +61,7 @@
             "id": "basic_troubleshooting_multiselect",
             "order": 3,
             "controlType": "multiselectdropdown",
-            "infoBalloonText": "<a href='https://aka.ms/AB-AA4dp4z'>Prerequisites</a> for offline backup",
+            "infoBalloonText": "<a href='https://docs.microsoft.com/azure/backup/backup-azure-backup-import-export#prerequisites'>Prerequisites</a> for offline backup",
             "displayLabel": "Select the troubleshooting steps that you have performed:",
             "dropdownOptions": [
                 {
@@ -102,7 +97,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "get_machineid",

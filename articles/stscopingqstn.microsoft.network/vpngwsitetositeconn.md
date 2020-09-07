@@ -5,15 +5,17 @@
 	authors="radwiv"
         ms.author="radwiv"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32591158"
-	productPesIds="16094"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	supportTopicIds="32591158,32584882"
+	productPesIds="16094,15526"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Site-to-Site VPN connectivity issues information
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Site-to-site connectivity issues",
     "fileAttachmentHint": "Upload your VPN configuration file. Make sure you edit or remove any pre-shared keys or secrets from the file",
     "formElements": [
@@ -120,8 +122,8 @@
                     "text": "WatchGuard"
                 },
                 {
-                    "value": "Other",
-                    "text": "Other"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -154,8 +156,8 @@
                     "text": "Latency"
                 },
                 {
-                    "value": "Other",
-                    "text": "Other"
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
@@ -203,7 +205,7 @@
                     "text": "Issue description"
                 },
                 {
-                    "text": "Make, model and OS version of on-premises VPN device(s) (for example, \\"Cisco ASA 5505 OS version 8.3\\")"
+                    "text": "Make, model and OS version of on-premises VPN device(s) (for example, \"Cisco ASA 5505 OS version 8.3\")"
                 }
             ]
         }

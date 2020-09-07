@@ -7,8 +7,9 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32636505"
 	productPesIds="15078"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="AzureData_HDInsight"
 />
 # Tez View Issue
 ---
@@ -159,7 +160,7 @@
             "id": "tardyresponse",
             "order": 400,
             "controlType": "dropdown",
-            "displayLabel": "Is the issue regarding to targy response?",
+            "displayLabel": "Is the issue regarding to tardy response?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {

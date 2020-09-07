@@ -10,8 +10,9 @@
 	supportTopicIds="32542218"
 	resourceTags=""
 	productPesIds="16170,16333"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="fd20e928-2c2f-4af5-bef8-fc823681cb7b"
+	ownershipId="Compute_AppService"
 />
 
 # Availability, Performance, and Application Issues/Web app down or reporting errors

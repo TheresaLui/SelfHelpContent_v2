@@ -6,17 +6,18 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32675748"
     productPesIds="16348"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="c3178863-02c4-4abc-90bc-a296cf55f14c"
+	ownershipId="Compute_AzureMigrate"
 />
 
 # Deployment issues with Azure Migrate appliance for VMware
 
 ---
 {
-    "subscriptionRequired": true,
-    "resourceRequired": true,
+    "subscriptionRequired": false,
+    "resourceRequired": false,
     "title": "Deployment issues with Azure Migrate appliance for VMware",
     "fileAttachmentHint": "",
     "formElements": [

@@ -13,7 +13,8 @@
 	supportTopicIds="32411844"
 	resourceTags="windows, linux"
 	productPesIds="14749,15571"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 # We ran diagnostics on your resource and found an issue
 
@@ -27,13 +28,15 @@ These restrictions are put in place due to numerous business and technical const
 
 1. **Consider Alternate Sizes or Locations**
 
-	We encourage you to consider an alternate location or VM Size that meets your business needs. Azure provides several ways to [query which SKUs are available](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors) using [PowerShell](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors#solution-1---powershell) or [Azure CLI](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors#solution-2---azure-cli).
+	To see the list of sizes that are available for deployment for subscription **<!--$SubscriptionID-->SubscriptionID<!--/$SubscriptionID-->** , you can use the Azure CLI command [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) to check for the VM sizes available in a region, and any deployment restrictions on the VM size. 
 
 2. **Request Exemption**
 
-	If you are unable to find suitable alternate locations or VM sizes and would like to submit a request for an SKU to be enabled, follow the support request process described in [Region or SKU unavailable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable). This action will streamline your request and assist in getting a faster turnaround time.<br>
+	If the size you desire is not listed, or is marked **NotAvailableForSubscription**, please follow the steps in [Troubleshooting region or SKU subscription issues](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable) to submit a streamlined request for accessing the SKU size. This action will assist in getting a faster turnaround time.<br>
 
 ## **Recommended Documents**
 
-* [Resolve errors for SKU not available](https://docs.microsoft.com/azure/azure-resource-manager/resource-manager-sku-not-available-errors)
-* [Region or SKU unavailable](https://docs.microsoft.com/azure/azure-supportability/sku-series-unavailable)
+To determine sizes available for your subscription using <br>
+* PowerShell: see [Get-AzComputeResourceSku](https://docs.microsoft.com/powershell/module/az.compute/get-azcomputeresourcesku) command
+* Azure CLI: see [az vm list-skus](https://docs.microsoft.com/cli/azure/vm?view=azure-cli-latest#az-vm-list-skus) command
+* REST API: see [Resource SKUs - List](https://docs.microsoft.com/rest/api/compute/resourceskus/list) operation

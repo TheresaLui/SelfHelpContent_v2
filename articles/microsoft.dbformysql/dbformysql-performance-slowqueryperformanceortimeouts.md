@@ -10,8 +10,9 @@
     supportTopicIds="32640094"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="69a504ec-67e1-4d7a-ad2f-46ec95ca044a"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Troubleshooting query performance in Azure Database for MySQL
@@ -29,8 +30,9 @@ Query performance issues can have many different root causes. Work through the r
   * [Performance Recommendations](https://docs.microsoft.com/azure/mysql/concepts-performance-recommendations)
 
 * Assure you have the right set of indexes created for your queries
+* Make sure that there are no deadlocks in the concurrent queries
 * Monitor the resource consumption of your server. If you max out either I/O or compute resources, increase scale up the resource that you are limited on.
-* Only retrieve the columns you really need instead of using *select \**
+* Only retrieve the columns you really need instead of using `select \*`
 
 ## **Recommended Documents**
 

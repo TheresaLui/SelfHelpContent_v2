@@ -11,8 +11,9 @@
     supportTopicIds="32636859"
     resourceTags=""
     productPesIds="15947"
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
     articleId="c3eaf0dd-97cf-4d12-83f6-f39126a72887"
+	ownershipId="Azure_Security_Security_Center"
 />
 
 # Security Alerts - Alert email notification not triggered Common Solutions

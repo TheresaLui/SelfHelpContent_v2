@@ -7,13 +7,15 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32632942"
 	productPesIds="15659"
-	cloudEnvironments="public, Mooncake"
+	cloudEnvironments="Public, Blackforest, Fairfax, Mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="ASMS_Billing"
 />
 #  Update Other Billing Details
 ---
 {
     "resourceRequired": false,
+    "subscriptionRequired": false,
     "title": "Update Other Billing Details",
     "fileAttachmentHint": "",
     "formElements": [

@@ -10,8 +10,9 @@
     supportTopicIds="32536576"
     resourceTags=""
     productPesIds="15725"
-    cloudEnvironments="public, Blackforest, Fairfax"
+    cloudEnvironments="public, Blackforest, Fairfax, usnat, ussec"
 	articleId="cd068d68-dd4f-45ba-b28e-70afff7ac51c"
+	ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # installation-linux

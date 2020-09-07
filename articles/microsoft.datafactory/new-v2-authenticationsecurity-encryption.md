@@ -10,7 +10,8 @@
 	supportTopicIds="32629477"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId="AzureData_DataFactory"
 />
 
 # Security Considerations for Data Movement

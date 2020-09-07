@@ -5,6 +5,7 @@ infoBubbleText="See details on the right"
 service="microsoft.storage"
 resource="storage"
 authors="passaree"
+ms.author="passap"
 displayOrder=""
 articleId="Storagev2insights_UnableToDelete_DiskAttached_OS"
 diagnosticScenario="Unable to delete storage due to attached OS disk(s)"
@@ -12,7 +13,8 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Cannot delete <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to one or more OS disk(s) that are attached to a Classic VM

@@ -9,8 +9,9 @@
 	supportTopicIds="32584882"
 	resourceTags=""
 	productPesIds="15526"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="66f50279-0554-4182-a96c-b706ef0caddc"
+	ownershipId="CloudNet_VirtualNetwork"
 />
 
 # vpn tunnel is down or never connected

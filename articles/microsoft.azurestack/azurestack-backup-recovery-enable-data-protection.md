@@ -10,21 +10,20 @@
     supportTopicIds="32629196"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="abdc2tg3-706d-401c-b984-f433c12f1e9f"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Enable Data Protection with Azure Backup
+# Enable Data Protection with Azure Backup Server
 
 ## **Recommended Steps**
 
-Business continuity and disaster recovery planning are closely related processes that a company uses to prepare for unforeseen risks.
+Enable data protection for Windows based IaaS VMs using application, volume, and OS level protection with Azure Backup Server. 
 
-* [Protecting applications and data on Azure Stack](https://azure.microsoft.com/blog/protecting-applications-and-data-on-azure-stack/)
+* [Install Azure Backup Server on Azure Stack](https://docs.microsoft.com/azure/backup/backup-mabs-install-azure-stack)
 
 ## **Recommended Documents**
 
-* [Backup and data recovery for Azure Stack with the Infrastructure Backup Service](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-infrastructure-backup)
-* [Enable Backup for Azure Stack from the administration portal](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-enable-backup-console)
-* [Enable Backup for Azure Stack with PowerShell](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-enable-backup-powershell)
-* [Back up Azure Stack](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-back-up-azure-stack)
+* [Protect VMs deployed on Azure Stack](https://docs.microsoft.com/azure-stack/user/azure-stack-manage-vm-protect)
+* [Considerations for business continuity and disaster recovery](https://azure.microsoft.com/resources/azure-stack-considerations-for-business-continuity-and-disaster-recovery/)

@@ -1,17 +1,18 @@
 <properties
-	pageTitle="My VM restarted unexpectedly"
-	description="My VM restarted unexpectedly "
-	service="microsoft.classiccompute"
-	resource="virtualmachines"
-	authors="ScottAzure"
-	ms.author="scotro"
-	displayOrder="8"
-	selfHelpType="resource"
-	supportTopicIds="32411816,32593740,32628269,32628280,32628287"
-	resourceTags="windows,windowsSQL"
-	productPesIds="14749,14745"
-	cloudEnvironments="public"
+    pageTitle="My VM restarted unexpectedly"
+    description="My VM restarted unexpectedly "
+    service="microsoft.classiccompute"
+    resource="virtualmachines"
+    authors="ScottAzure"
+    ms.author="scotro"
+    displayOrder="8"
+    selfHelpType="resource"
+    supportTopicIds="32628269,32628280,32628287"
+    resourceTags="windows,windowsSQL"
+    productPesIds="14749,14745"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="6580b9a1-f3cb-4aee-8745-7412f189e555"
+	ownershipId="Compute_VirtualMachines_Content"
 />
 
 # My VM restarted unexpectedly
@@ -29,7 +30,7 @@ The most common reasons for a VM restarting are Azure caused (planned/unplanned 
 
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)<br>
 * [How to view VM reboot logs to identify the cause of reboot](https://azure.microsoft.com/blog/viewing-vm-reboot-logs)<br>
-* [Diagnose & recover from boot failures after a restart](https://azure.microsoft.com/blog/boot-diagnostics-for-virtual-machines-v2/)<br>
+* [Diagnose & recover from boot failures after a restart](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/boot-diagnostics)<br>
 * [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)<br>
 * [Configure availability sets for virtual machines using Resource Manager deployments](https://docs.microsoft.com/azure/virtual-machines/windows/create-availability-set)<br>
 * [Understand planned maintenance for virtual machines in Azure](https://docs.microsoft.com/azure/virtual-machines/windows/maintenance-and-updates)<br>

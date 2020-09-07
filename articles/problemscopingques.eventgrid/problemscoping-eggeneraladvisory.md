@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32583160,32583163"
 resourceTags=""
 productPesIds="16263"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="eg-issue-not-listed"
 schemaVersion="1"
+	ownershipId="AzureEventGrid_Topics"
 />
 # General Advisory questions
 ---

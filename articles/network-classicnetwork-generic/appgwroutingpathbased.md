@@ -10,8 +10,9 @@
 	supportTopicIds="32640607"
 	resourceTags=""
 	productPesIds="15922"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	articleId="path-based-routing"
+	ownershipId="CloudNet_AzureApplicationGateway"
 />
 
 # Path Based Routing

@@ -10,8 +10,9 @@
 	supportTopicIds="32641083"
 	resourceTags=""
 	productPesIds="16080"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="397d611a-7eaf-4c8c-97ba-a0b4ca98645c"
+	ownershipId="Compute_VirtualMachineScaleSets_Content"
 />
 
 # Virtual Disk Management
@@ -25,4 +26,4 @@
 * [Learn how to scale up and scale down - vertical scaling](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-vertical-scale-reprovision)<br>
 * [Learn how to scale out and scale in - horizontal scaling](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-vertical-scale-reprovision)<br>
 * [Troubleshoot FAQ for VMSS](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-faq#troubleshooting)
-
+

@@ -7,8 +7,9 @@
 	articleid="vpngwconfigp2sclient"
 	supportTopicIds="32633156"
 	productPesIds="16094"
-	cloudEnvironments="public,fairfax,blackforest,mooncake"
+	cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Configure a point-to-site client information
 ---
@@ -46,14 +47,40 @@
                 },
                 {
                     "value": "dont_know_answer",
-                    "text": "Other"
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+	{
+            "id": "P2S_authentication",
+            "order": 3,
+            "controlType": "dropdown",
+            "displayLabel": "Select the authentication type",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Azure Active Directory",
+                    "text": "Azure Active Directory"
+                },
+                {
+                    "value": "RADIUS",
+                    "text": "RADIUS"
+                },
+                {
+                    "value": "Certificate",
+                    "text": "Certificate"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Description",
             "required": true,

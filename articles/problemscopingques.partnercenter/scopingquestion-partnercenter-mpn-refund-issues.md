@@ -4,14 +4,15 @@
 	authors="dimanjar" 
 	ms.author="dimanjar"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32635663"
-	productPesIds="15960"
-	cloudEnvironments="public"
+	supportTopicIds="32725802"
+	productPesIds="17000"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="scopingquestion_partnercenter_mpn_refund_issues"
 	clientIds="partnercenter"
+	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
 />
-#Partner Center MPN refund issues
+# Partner Center MPN refund issues
 ---
 {
   "resourceRequired": true,

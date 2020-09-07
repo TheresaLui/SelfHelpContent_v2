@@ -1,27 +1,45 @@
 <properties
-	pageTitle="Connect to Git Repository"
-	description="Connect to Git Repository from ADF Portal"
-	infoBubbleText=""
-	authors="chez-charlie"
-	ms.author="chez"
-	articleId="fa4bf4772808490c928247f53858e614"
-	diagnosticScenario=""
-	selfHelpType="generic"
-	supportTopicIds="32629433, 32629453, 32629524"
-	resourceTags=""
-	productPesIds="15613"
-	cloudEnvironments="public"
-/>
-
+  pagetitle="Connect to Git Repository"
+  ms.author="chez,haoc"
+  selfhelptype="Generic"
+  supporttopicids="32629453,32629524,32629447"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="fa4bf4772808490c928247f53858e614"
+  ownershipid="AzureData_DataFactory" />
 # Connect to Git Repository
 
-**Note**: You can create an Azure Repos Git repo in a different Azure Active Directory tenant. To specify a different Azure AD tenant, you have to have _administrator_ permissions for the Azure subscription that you're using.
+## **Recommended Steps**
+
+1. You can create an Azure Repos Git repo in a different Azure Active Directory tenant. To specify a different Azure AD tenant, you have to have _administrator_ permissions for the Azure subscription that you're using. 
+2. As of today, Bitbucket and Gitlab are not supported in Azure Data Factory 
+3. Git publishing does _not_ allow for cherry picking or selective publishing subset of changes. To publish individual changes in production environment, please consider Hot fix or QFE [Steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch).
 
 ## **Recommended Documents**
 
-* [Visual Authoring in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/author-visually) <br>
+* Source Control in Azure Data Factory <br>
 
-  * [Advantages](https://docs.microsoft.com/azure/data-factory/author-visually#advantages-of-git-integration) of Git integration <br>
-  * [Best practices](https://docs.microsoft.com/azure/data-factory/author-visually#best-practices-for-git-integration) <br>
-  * Connecting to [Azure Repos Git repository](https://docs.microsoft.com/azure/data-factory/author-visually#author-with-azure-repos-git-integration) <br>
-  * Connecting to [GitHub](https://docs.microsoft.com/azure/data-factory/author-visually#author-with-github-integration) <br>
+  * [Best practices](https://docs.microsoft.com//azure/data-factory/source-control#best-practices-for-git-integration) for Git Integration __please read__ <br>
+  * [Troubleshooting Git integration](https://docs.microsoft.com//azure/data-factory/source-control#troubleshooting-git-integration) to deal with stale publish branch <br>
+  * Author with [Azure Repos Git integration](https://docs.microsoft.com//azure/data-factory/source-control#author-with-azure-repos-git-integration) <br>
+  * Author with [GitHub integration](https://docs.microsoft.com//azure/data-factory/source-control#author-with-github-integration) <br>
+  * Switch to a different Git repo [Steps](https://docs.microsoft.com//azure/data-factory/source-control#switch-to-a-different-git-repo) <br>
+  * Version control or source control [Documentation](https://docs.microsoft.com//azure/data-factory/source-control#version-control) <br>
+
+* Azure Repos Git
+
+  * Azure Repos Git [Tutorial](https://docs.microsoft.com/azure/devops/repos/git/gitworkflow) by Azure DevOps Services <br>
+  * Troubleshooting Guide: [Unable to Connect](https://docs.microsoft.com//azure/devops/reference/error/tf31002-unable-connect-tfs?view=azure-devops)
+
+* Continuous integration and delivery [CI/CD](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment)
+
+  * [Best practices](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#best-practices-for-cicd) for CI/CD __please read__ <br>
+  * Hot Fix Production Branch [Steps](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#hot-fix-production-branch) <br>
+  * [Unsupported features list](https://docs.microsoft.com//azure/data-factory/continuous-integration-deployment#unsupported-features) <br>
+
+**Azure Data Factory Feature Requests**
+
+- [Azure Data Factory V1 FAQ](https://docs.microsoft.com/azure/data-factory/v1/data-factory-faq)
+- [Azure Data Factory V2 FAQ](https://docs.microsoft.com//azure/data-factory/frequently-asked-questions)
+- [Feature Request](https://feedback.azure.com/forums/270578-azure-data-factory)

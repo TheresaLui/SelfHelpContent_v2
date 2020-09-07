@@ -13,7 +13,8 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # Error UserErrorGenericSQLUserCorrectableFault
@@ -22,6 +23,6 @@
 We have identified that your operation failed because of an underlying issue with the SQL Server.  
 <!--/issueDescription-->
 
-## **Recommended Steps**
+## **Recommended Document**
 
-* To resolve the issue, review the underlying error code from SQL Server and the link to documentation provided in **Additional Details** sections
+To resolve this issue, use the additional details on the Azure portal error menu to narrow down the root causes. For more information, see the [SQL Server documentation](https://docs.microsoft.com/sql/relational-databases/backup-restore/restore-a-database-backup-using-ssms?view=sql-server-2017).

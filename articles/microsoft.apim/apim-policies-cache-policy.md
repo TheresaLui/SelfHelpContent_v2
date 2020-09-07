@@ -9,11 +9,16 @@
     supportTopicIds="32632402"
     resourceTags=""
     productPesIds="15551"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="be7203fc-966c-4a48-b0f9-8c537163b65a"
+	ownershipId="Compute_APIManagement"
 />
 
 # Caching policies
+
+**Note** For faster resolution, check that you have API Management resource in your Portal. If no resource exists and the issue does not involve an instance of an API Management Service, consider a different product that aligns better to your issue.
+
+API Management is a way to create consistent and modern API gateways for existing back-end services. You can use Azure API Management to take any backend and launch a full-fledged API program based on it.
 
 ## **Recommended Documents**
 

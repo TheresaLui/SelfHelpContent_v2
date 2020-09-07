@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags=""
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="2ff6abba-7988-4970-b89a-b8db98a20ca2"
+	ownershipId="StorageMediaEdge_DataLakeStorageGen2"
 />
 
 # How do I access diagnostic logs?

@@ -10,8 +10,9 @@
     supportTopicIds="32640063"
     resourceTags="servers, databases"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="93e2a07c-0431-4c0e-80d8-7912a4691dc2"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
 # Issues with metrics shown in the portal
@@ -24,11 +25,15 @@ Most users are able to resolve their issue using the steps below.
 
 * Storage metric shows more storage used than directly querying database:
 
-  * Beyond the data actually stored in your database in the supporting indexes, the footprint of your server includes additional files such as the transaction log, server log files and other files needed to run the managed server. As such, there is a difference in storage used if you are only querying for data stored and indexes.
+  * Beyond the data actually stored in your database, the footprint of your server includes additional files such as the transaction log, server log files and other files needed to run the managed server. As such, there is a difference in storage used if you are only querying for data stored and indexes.
 
 * Metric show different value at different time:
 
     * Please note that the metrics describe some aspect of a system at a particular point in time. For example, maximum number of active connection will differ when you check at different points of time.
+
+* Unable to view query text in Query Performance Insights:
+
+    * You must have an Owner or Contributor role to view the text of the queries in Query Performance Insight. If you have a Reader role, you can view charts and tables but not query text.
 
 ## **Recommended Documents**
 

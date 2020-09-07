@@ -9,8 +9,9 @@
 	supportTopicIds="32440118"
 	resourceTags=""
 	productPesIds="14748, 16170"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="9b7f2843-48b3-43d7-adbf-ab3d7369a2a2"
+	ownershipId="Compute_AppService"
 />
 
 # Malware, Virus, or Security Intrusion

@@ -4,11 +4,12 @@
          authors="ashishgangwar"
          ms.author="ashishgangwar"
          selfHelpType="problemScopingQuestions"
-         supportTopicIds="32574720,32574721,32574722"
+         supportTopicIds="32574720,32574722"
          productPesIds="16370"
-         cloudEnvironments="public"
+         cloudEnvironments="public, Fairfax, usnat, ussec"
          schemaVersion="1"
          articleId="cfa6fdf9-da07-40a5-9001-bb16fb62daec"
+	ownershipId="Compute_SiteRecovery"
 />
 # Questions Azure to Azure disaster recovery
 ---

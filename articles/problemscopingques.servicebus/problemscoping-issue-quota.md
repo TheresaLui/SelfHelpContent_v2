@@ -10,9 +10,10 @@ selfHelpType="problemScopingQuestions"
 supportTopicIds="32633390"
 resourceTags=""
 productPesIds="13186"
-cloudEnvironments="public"
+cloudEnvironments="public, Fairfax, usnat, ussec"
 articleId="sb-quota-request"
 schemaVersion="1"
+	ownershipId="AzureMessaging_Common"
 />
 # Quota Issues
 ---

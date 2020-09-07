@@ -10,10 +10,11 @@
     articleId="Hdi_Ambari_ServiceRunningOnBothHeadnodes"
     diagnosticScenario="HDInsightAmbariServiceInsight"
     selfHelpType="diagnostics"
-    supportTopicIds="32588422, 32588429, 32588445, 32636436, 32636437"
+    supportTopicIds="32636432"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
+	ownershipId="AzureData_HDInsight"
 />
 
 # Ambari Service is running on both headnodes

@@ -11,7 +11,8 @@
 	supportTopicIds="32629801"
 	productPesIds="16666"
 	articleId="8d591007-b474-4b63-9f3e-451f17322ef4"
-	cloudEnvironments="Public"
+	cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
+	ownershipId="AzureIdentity_AzureActiveDirectoryConnect"
 />
 
 # Problems with credential validation while configuring user provisioning to an application

@@ -7,21 +7,22 @@
 	ms.author="jaserano"
 	displayOrder=""
 	selfHelpType="generic"
-    supportTopicIds="32629487,32629491,32629492,32629512,32629513,32629526,32629446,32629521,32629429"
+    supportTopicIds="32629521"
 	resourceTags=""
 	productPesIds="15613"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="2c1079e1-3001-4df4-a908-6dc90fb0cbfe"
+	ownershipId="AzureData_DataFactory"
 />
 
 # V2 Monitor and Manage - ADF Portal/Pipelines
 
 ## **Recommended Documents**
 
-- [Pipelines and activities in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities)
-- [Pipeline execution and triggers in Azure Data Factory](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers)
-- [Creating a pipeline & trigger guide](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal#create-a-pipeline)
-- [Debug and publish the pipeline](https://docs.microsoft.com/azure/data-factory/tutorial-copy-data-portal#debug-and-publish-the-pipeline)
+- Concept: [Pipelines and activities](https://docs.microsoft.com/azure/data-factory/concepts-pipelines-activities)
+- Concept: [Pipeline execution and triggers](https://docs.microsoft.com/azure/data-factory/concepts-pipeline-execution-triggers)
+- How to: [Create pipeline and trigger](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal#create-a-pipeline)
+- How to: [Debug and publish the pipeline](https://docs.microsoft.com/azure/data-factory/tutorial-copy-data-portal#debug-and-publish-the-pipeline)
 
 **FAQ**
 

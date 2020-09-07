@@ -9,12 +9,13 @@
 	articleId="Service-healthevent-genericshevent"
 	diagnosticScenario="health_diagnostic"
 	selfHelpType="servicehealthinsights"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleTags="healthannotation_impactedbyoutage"
+ownershipId="ASEP_ServiceHealth"
 />
 
 # An Azure service issue impacted resources in your subscription
-An Azure service issue (Tracking ID <!--$TrackingId-->TrackingId<!--/$TrackingId-->) impacted resources in your subscription. 
+<!--$EventStatus-->EventStatus<!--/$EventStatus-->: An Azure service issue (Tracking ID <!--$TrackingId-->TrackingId<!--/$TrackingId-->) impacted resources in your subscription. 
 
 <!--$Summary-->Summary<!--/$Summary-->
 

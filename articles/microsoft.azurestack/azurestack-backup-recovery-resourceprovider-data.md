@@ -10,20 +10,21 @@
     supportTopicIds="32663928"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="e5uc2083-706d-401c-b984-f433c12f1e9f"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack resource provider data recovery
 
 ## **Recommended Steps**
 
-This scenario addresses recovering your entire installation in the event of a failure of the equipment and the redeployment of the private cloud.
+This scenario addresses backup and restore of resource providers installed on Azure Stack after initial deployment.
 
-* [Recover from catastrophic data loss](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-recover-data)
+### App Service
+* [Back up App Service on Azure Stack](https://docs.microsoft.com/azure-stack/operator/app-service-back-up)
+* [App Service recovery on Azure Stack](https://docs.microsoft.com/azure-stack/operator/app-service-recover)
 
 ## **Recommended Documents**
 
-* [Infrastructure Backup Service best practices](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-best-practices)
-* [Enable Backup for Azure Stack from the administration portal](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-enable-backup-console)
-* [Back up Azure Stack](https://docs.microsoft.com/azure-stack/operator/azure-stack-backup-back-up-azure-stack)
+* [Considerations for business continuity and disaster recovery](https://azure.microsoft.com/resources/azure-stack-considerations-for-business-continuity-and-disaster-recovery/)

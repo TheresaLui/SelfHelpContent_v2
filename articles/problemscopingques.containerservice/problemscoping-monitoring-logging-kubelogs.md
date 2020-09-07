@@ -6,9 +6,10 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32637192"
                 productPesIds="16450"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, Fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="problemscoping-monitoring-logging-kubelogs"
+	ownershipId="Compute_AzureKubernetesService"
 />
 # Monitoring and Logging
 ---

@@ -10,8 +10,9 @@
     supportTopicIds="32629224"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="a87b40e7-27ac-42ad-9541-9dc665013831"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
 # Azure Stack Storage Capacity

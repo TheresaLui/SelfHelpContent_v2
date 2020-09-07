@@ -10,8 +10,9 @@
     supportTopicIds="32636430"
     resourceTags=""
     productPesIds="15078"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="hdinsight-clusterhealth-sshissues"
+	ownershipId="AzureData_HDInsight"
 />
 # Azure HDInsight Cluster Health: SSH Issues
  

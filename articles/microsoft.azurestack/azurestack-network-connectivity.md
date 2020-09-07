@@ -1,6 +1,6 @@
 <properties
-    pageTitle="Azure Stack Connectivity to Virtual Machines"
-    description="Resolve issues with connectivity to Azure Stack VMs"
+    pageTitle="Azure Stack Hub Connectivity to Virtual Machines"
+    description="Resolve issues with connectivity to Azure Stack Hub VMs"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -10,17 +10,18 @@
     supportTopicIds="32629202"
     resourceTags=""
     productPesIds="16226"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     articleId="azurestack-network-connectivity"
+	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Resolve issues with connectivity to Azure Stack VMs
+# Resolve issues with connectivity to Azure Stack Hub VMs
 
-Connectivity to Azure Stack VMs can be affected by networking issues in the Azure Stack environment, on the customer datacenter network, or due to an issue with the VM itself.
+Connectivity to an Azure Stack VM can be affected by networking issues in the Azure Stack environment, on the customer datacenter network, or due to an issue with the VM itself.
 
 ## **Recommended Steps**
 
-* Confirm the expected ports are allowed by the [Network Security Group (NSG)](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group#work-with-security-rules) or [configure port forwarding in Load Balancer](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-port-forwarding-portal)
+* Confirm the expected ports are allowed by the [Network Security Group (NSG)](https://docs.microsoft.com/azure/virtual-network/manage-network-security-group#view-all-security-rules) or [configure port forwarding in Load Balancer](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-port-forwarding-portal#create-an-inbound-nat-port-forwarding-rule)
 * For RDP connection issues for Windows VMs on Azure Stack:
 
   * Basic: [Troubleshoot Remote Desktop connections to an Azure virtual machine](https://docs.microsoft.com/azure/virtual-machines/troubleshooting/troubleshoot-rdp-connection#troubleshoot-using-the-azure-portal)
@@ -33,6 +34,7 @@ Connectivity to Azure Stack VMs can be affected by networking issues in the Azur
 
 ## **Recommended Documents**
 
-* [Azure Stack Networking Considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
+* [Azure Stack networking considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
+* [Manage Azure Stack network resources](https://docs.microsoft.com/azure-stack/operator/azure-stack-viewing-public-ip-address-consumption)
 * Tutorial: [Load balance internet traffic to VMs](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-standard-manage-portal)
 * Tutorial: [Load balance internal traffic to VMs](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-basic-internal-portal)

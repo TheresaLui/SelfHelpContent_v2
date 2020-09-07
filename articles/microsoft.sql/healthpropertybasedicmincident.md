@@ -13,14 +13,17 @@
 	    supportTopicIds="31980414"
 	    resourceTags=""
 	    productPesIds="13491"
-	    cloudEnvironments="public"
+	    cloudEnvironments="public,blackForest,fairfax,mooncake, usnat, ussec"
+	ownershipId="AzureData_AzureSQLDB"
 />
 
 # Database connectivity: Health property generated IcM incident
 
 ## We ran diagnostics on your resource and found an issue
 
-There is an existing IcM incident open for this database <i><!--$DatabaseName-->DatabaseName<!--/$DatabaseName--></i> on server <i><!--$ServerName-->ServerName<!--/$ServerName--></i>.
+<!--issueDescription-->
+There is an existing IcM incident open for this database <!--$DatabaseName-->DatabaseName<!--/$DatabaseName--> on server <!--$ServerName-->ServerName<!--/$ServerName-->.
+<!--/issueDescription-->
 
 Please review the related incident(s) for: 
 

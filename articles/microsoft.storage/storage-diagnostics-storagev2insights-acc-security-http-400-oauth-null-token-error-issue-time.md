@@ -13,12 +13,17 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Connections to storage account endpoint were blocked due to Null oAuth token
 <!--issueDescription-->
-Some connections to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were blocked between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->** as they had a Null oAuth bearer token. <br><br> Sample list of requests were blocked<br>**<!--$RequestUrl-->[RequestUrl]<!--/$RequestUrl-->**
+Some connections to the storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were blocked between **<!--$StartTime-->[StartTime]<!--/$StartTime-->** and **<!--$EndTime-->[EndTime]<!--/$EndTime-->** as they had a Null oAuth bearer token.
+
+Sample list of requests were blocked:
+
+**<!--$RequestUrl-->[RequestUrl]<!--/$RequestUrl-->**
 <!--/issueDescription-->
 
 There may be more requests that were blocked. To get the exhaustive list, see the [storage analytics log](https://docs.microsoft.com/azure/storage/common/storage-analytics#about-storage-analytics-logging).

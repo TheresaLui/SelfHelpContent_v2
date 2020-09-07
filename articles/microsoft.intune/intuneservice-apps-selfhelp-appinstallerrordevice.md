@@ -9,8 +9,9 @@
 	supportTopicIds=""
 	resourceTags="apps_selfhelp"
 	productPesIds=""
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="58229620-2f90-496d-8997-0e2db39d0180"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # I deployed an app to my users. I am now seeing an app installation error in Intune on the Mobile apps > App install status page.

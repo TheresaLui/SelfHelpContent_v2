@@ -11,8 +11,9 @@
 	supportTopicIds="32628772"
 	resourceTags=""
 	productPesIds="15663"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	ms.author="sidram"
+	ownershipId="AzureData_StreamAnalytics"
 />
 
 # Create a Job with ARM

@@ -13,7 +13,8 @@
 	supportTopicIds="32629614"
 	resourceTags=""
 	productPesIds="15454"
-	cloudEnvironments="public,fairfax"
+	cloudEnvironments="public,fairfax, usnat, ussec"
+	ownershipId="AzureMonitoring_ActionGroup"
 />
 
 # I am having issues managing metric alerts with API/CLI

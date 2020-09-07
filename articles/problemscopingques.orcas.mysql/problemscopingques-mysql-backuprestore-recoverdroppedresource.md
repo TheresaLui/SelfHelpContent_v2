@@ -6,9 +6,10 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32640087"
     productPesIds="16221"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
     schemaVersion="1"
     articleId="problemscopingques-mysql-backuprestore-recover_droppedresource"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Backup, Restore and Business Continuity - Recover A Dropped Resource
 ---

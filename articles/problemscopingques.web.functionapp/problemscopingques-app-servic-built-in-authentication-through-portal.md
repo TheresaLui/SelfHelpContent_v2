@@ -7,14 +7,16 @@
 	ms.author="khzayed"
 	selfHelpType="problemScopingQuestions"
 	productPesIds="16072"
-	cloudEnvironments="public"
+	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
+	ownershipId="Compute_AppService"
 />
 # App Service Built-in Authentication through Portal
 ---
 {
     "resourceRequired": false,
     "title": "App Service Built-in Authentication through Portal",
+    "subscriptionRequired": true,
     "fileAttachmentHint": "Please attach any relevant logs/screenshots",
     "formElements": [
         {

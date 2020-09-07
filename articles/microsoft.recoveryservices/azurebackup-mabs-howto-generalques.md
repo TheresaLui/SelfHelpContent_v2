@@ -10,8 +10,9 @@
 	supportTopicIds="32612994"
 	resourceTags=""
 	productPesIds="15207"
-	cloudEnvironments="public"
+	cloudEnvironments="public, fairfax, usnat, ussec"
 	articleId="448074e2-428a-4985-997d-2e3ce3cb345a"
+	ownershipId="StorageMediaEdge_Backup"
 />
 # Configure Backup using Azure backup server
 
@@ -29,4 +30,4 @@
 	* [SharePoint](https://docs.microsoft.com/azure/backup/backup-azure-backup-sharepoint-mabs)
 
 * [Recover data from Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-alternate-dpm-server)
-* [Frequently asked questions about Azure Backup Server](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#azure-backup-server-and-system-center-data-protection-manager)
+* [Frequently asked questions about Azure Backup Server](https://aka.ms/AB-FAQ-DPM)

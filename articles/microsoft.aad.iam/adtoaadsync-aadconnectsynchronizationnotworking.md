@@ -5,10 +5,11 @@
     selfHelpType="problemScopingQuestions"
     supportTopicIds="32565591"
     productPesIds="14785,16578"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, Mooncake, usnat, ussec"
     schemaVersion="1"
     articleId="1081c592-989c-4a7f-bf06-7438278335e7"
-    />
+    	ownershipId="AzureIdentity_DirectoryObjectManagement"
+/>
 
 # AAD Connect synchronization not working
 
@@ -105,7 +106,7 @@
             "order": 5,
             "controlType": "infoblock",
             "displayLabel": null,
-            "content": "Please share the setup logs. If the Azure AD Connect version you are using is 1.1.443.0 or after, the logs are located under '%programdata%\\\\AADConnect'. Otherwise, they are located under '%localappdata%\\\\AADConnect'. Please also provide a copy of the Windows Event logs (Application and System) when the problem occurred. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
+            "content": "Please share the setup logs. If the Azure AD Connect version you are using is 1.1.443.0 or after, the logs are located under '%programdata%\\AADConnect'. Otherwise, they are located under '%localappdata%\\AADConnect'. Please also provide a copy of the Windows Event logs (Application and System) when the problem occurred. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": null,
@@ -122,7 +123,7 @@
             "order": 6,
             "controlType": "infoblock",
             "displayLabel": null,
-            "content": "Please share the setup logs. If the Azure AD Connect version you are using is 1.1.443.0 or after, the logs are located under '%programdata%\\\\AADConnect'. Otherwise, they are located under '%localappdata%\\\\AADConnect'. Please also provide a copy of the Windows Event logs (Application and System) when the problem occurred. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
+            "content": "Please share the setup logs. If the Azure AD Connect version you are using is 1.1.443.0 or after, the logs are located under '%programdata%\\AADConnect'. Otherwise, they are located under '%localappdata%\\AADConnect'. Please also provide a copy of the Windows Event logs (Application and System) when the problem occurred. Put all the content to be shared into a single ZIP file and upload the file using 'File upload' on the left.",
             "watermarkText": null,
             "infoBalloonText": null,
             "dropdownOptions": null,

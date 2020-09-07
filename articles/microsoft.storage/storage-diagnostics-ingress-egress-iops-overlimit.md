@@ -13,12 +13,14 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="storage"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Storage Account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** was throttled due to a scalability limit being exceeded
 <!--issueDescription-->
 Requests to **<!--$ServiceType-->[ServiceType]<!--/$ServiceType-->** service of storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** were throttled because it exceeded **<!--$StorageThrottlingType-->[StorageThrottlingType]<!--/$StorageThrottlingType-->** scalability target.
+<!--/issueDescription-->
 
 Refer [Azure Storage Scalability and Performance Targets](https://docs.microsoft.com/azure/storage/common/storage-scalability-targets) to know more about the various scalability targets. We recommended that you configure [storage analytics](https://docs.microsoft.com/azure/storage/common/storage-analytics) to monitor your storage account. This will help you to track your application's increased transaction or bandwidth usage and enable you to take corrective steps to prevent similar issues in the future. For further information, please refer [monitoring, diagnostics and troubleshooting guide for Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-monitoring-diagnosing-troubleshooting#metrics-show-an-increase-in-PercentThrottlingError).
-<!--/issueDescription-->
+

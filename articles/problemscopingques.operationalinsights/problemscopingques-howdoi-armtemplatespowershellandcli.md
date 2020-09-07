@@ -3,21 +3,23 @@
 pageTitle="ARM templates, PowerShell and CLI"
 description="ARM templates, PowerShell and CLI"
 articleId="problemscopingques-ARM_templates_PowerShell_and_CLI"
-authors="yossiy"
-ms.author="yossiy"
+authors="neilghuman"
+ms.author="neghuman"
 selfHelpType="problemScopingQuestions"
 supportTopicIds="32612544"
 productPesIds="15725"
-cloudEnvironments="Public, Fairfax"
+cloudEnvironments="public, BlackForest, Fairfax, MoonCake, usnat, ussec"
 schemaVersion="1"
+ownershipId="AzureMonitoring_LogAnalytics"
 />
 
 # ARM templates, PowerShell and CLI
 ---
 {
-    "resourceRequired": true,
+    "subscriptionRequired": true,
+    "resourceRequired": false,
     "title": "Restore deleted workspace",
-    "fileAttachmentHint": "",
+    "fileAttachmentHint": "Please provide a screenshot of any errors and please also attach all relevant JSON files related with the ARM template. JSON files must be compressed and uploaded in ZIP format.",
     "formElements": [
         {
             "id": "problem_start_time",
@@ -27,10 +29,26 @@ schemaVersion="1"
             "required": true
         },
         {
-            "id": "attache_template",
+            "id": "users",
             "order": 2,
-            "controlType": "infoblock",
-            "content": "Please attach the template below"
+            "controlType": "dropdown",
+            "displayLabel": "Is the issue happening to a single user or multiple users?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Single user",
+                    "text": "Single user"
+                },
+                {
+                    "value": "Multiple users",
+                    "text": "Multiple users"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Don't know / Not sure"
+                }
+            ],
+            "required": false
         },
         {
             "id": "error_message",
@@ -46,9 +64,13 @@ schemaVersion="1"
             "controlType": "multilinetextbox",
             "useAsAdditionalDetails": true,
             "displayLabel": "Additional details",
-            "watermarkText": "Provide additional information about your issue",
+            "watermarkText": "Describe the issue, including as much detail as possible with the exact text of error messages where available. Provide the commands being executed (PowerShell or Azure CLI).",
             "required": true,
-            "hints": []
+            "hints": [
+                {
+                    "text": "Please include the exact text of any error message"
+                }
+            ]
         }
     ],
     "$schema": "SelfHelpContent"

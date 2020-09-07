@@ -9,8 +9,9 @@
     supportTopicIds="32605609"
     resourceTags=""
     productPesIds="16355"
-    cloudEnvironments="public"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
 	articleId="b6d3a479-bf9f-413e-9a0c-163af5cb92f5"
+	ownershipId="CloudNet_AzureDDoSProtection"
 />
 # Connectivity issues to the protected resource
 ## **Recommended steps**

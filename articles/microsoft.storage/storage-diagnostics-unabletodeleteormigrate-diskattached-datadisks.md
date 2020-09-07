@@ -13,18 +13,19 @@ selfHelpType="diagnostics"
 supportTopicIds=""
 resourceTags="windows"
 productPesIds=""
-cloudEnvironments="public"
+cloudEnvironments="Public,MoonCake,FairFax,BlackForest, usnat, ussec"
+	ownershipId="StorageMediaEdge_StorageBlobs"
 />
 
 # Cannot <!--$AttemptedOperation-->[AttemptedOperation]<!--/$AttemptedOperation--> <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** due to one or more data disk(s) that are attached to a VM
 
 <!--issueDescription-->
-The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> <!--$ResourceName-->[ResourceName]<!--/$ResourceName--> cannot be <!--$AttemptedOperationPastTense-->[AttemptedOperationPastTense]<!--/$AttemptedOperationPastTense--> because it contains one or more data disk(s) that are attached to a Virtual Machine (VM).
-<!--issueDescription-->
+The <!--$ResourceType-->[ResourceType]<!--/$ResourceType--> **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** cannot be <!--$AttemptedOperationPastTense-->[AttemptedOperationPastTense]<!--/$AttemptedOperationPastTense--> because it contains one or more data disk(s) that are attached to a Virtual Machine (VM).
+<!--/issueDescription-->
 
 ## **Recommended Steps** 
 
-* Please [detach the following data disk(s) from its VM](https://docs.microsoft.com/azure/lab-services/devtest-lab-attach-detach-data-disk#detach-a-data-disk) before <!--$AttemptedOperationPresentParticiple-->[AttemptedOperationPresentParticiple]<!--/$AttemptedOperationPresentParticiple--> the <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->: <br>
+* Please [detach the following data disk(s) from its VM](https://docs.microsoft.com/azure/lab-services/devtest-lab-attach-detach-data-disk#detach-a-data-disk) before <!--$AttemptedOperationPresentParticiple-->[AttemptedOperationPresentParticiple]<!--/$AttemptedOperationPresentParticiple--> the <!--$ResourceType-->[ResourceType]<!--/$ResourceType-->:
 
-<!--$DataDiskWithVMList-->[DataDiskWithVMList]<!--/$DataDiskWithVMList--> <br>
+<!--$DataDiskWithVMList-->[DataDiskWithVMList]<!--/$DataDiskWithVMList-->
 

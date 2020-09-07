@@ -9,8 +9,9 @@
     supportTopicIds=""
     resourceTags="mam, mampolicy"
     productPesIds=""
-    cloudEnvironments="public"
+    cloudEnvironments="public, fairfax, usnat, ussec"
  	articleId="151a2be5-e1ff-436f-b837-26f0edb151ea"
+	ownershipId="IntuneCxP_Intune"
 />
 
 # App protection policies are not working for any supported Office App for a user.

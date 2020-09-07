@@ -10,8 +10,9 @@
 		supportTopicIds="32632801"
 		resourceTags=""
 		productPesIds="15207"
-		cloudEnvironments="public"
+		cloudEnvironments="public, fairfax, usnat, ussec"
 		articleId="801f1bee-8fbb-4f8c-8e80-523c2f380d60"
+	ownershipId="StorageMediaEdge_Backup"
 />
 
 # SQL Backup (scheduled backup) is not run automatically
