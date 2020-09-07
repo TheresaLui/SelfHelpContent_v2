@@ -1,5 +1,5 @@
 <properties
-	articleId="6761b4a4-e3b8-4dce-8ecf-b075c28ca4cc"
+	articleId="f116fc26-1816-4245-9ad3-7304f9049831"
 	pageTitle="Scoping Questions for Databricks Connectivity to Workspace Issue"
 	description="Scoping Questions for Databricks Connectivity to Workspace Issue"
 	authors="lisaliu"
