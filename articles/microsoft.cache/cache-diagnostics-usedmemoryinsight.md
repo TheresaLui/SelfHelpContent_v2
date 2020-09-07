@@ -46,4 +46,4 @@ When the used memory of the service is close to or exceeding the limits, the sys
 
 * [Troubleshoot Azure Cache for Redis client-side issues](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-troubleshoot-client)
 * [How to monitor Azure Cache for Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-how-to-monitor#available-metrics-and-reporting-intervals)
-* [Monitoring and troubleshooting FAQ](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-monitor-troubleshoot-faq)
+* [Monitoring and troubleshooting FAQ](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-monitor-troubleshoot-faq)
