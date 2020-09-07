@@ -25,7 +25,7 @@ User facing error :
 Files and folders are being created at too high a rate.
 ```
 
-#### Troubleshooting and Solution
+### Troubleshooting and Solution
 
 This is storage side limitation as the error suggests, please get azure storage team involved. 
 
