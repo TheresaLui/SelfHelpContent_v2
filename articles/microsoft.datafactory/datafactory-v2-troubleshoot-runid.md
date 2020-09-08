@@ -6,7 +6,7 @@
     authors="samiranshah"
     ms.author="samirans"
     displayOrder="4"
-    selfHelpType="resource"
+    selfHelpType="generic"
     supportTopicIds="32749442,32749443,32749444"
     resourceTags=""
     productPesIds="15613"

@@ -1,8 +1,8 @@
 <properties
     pageTitle="V2 - Pipeline Error or Trigger Failure - Missing Trigger Runs and Pipeline Runs Common Solutions"
     description="V2 - Pipeline Error or Trigger Failure - Missing Trigger Runs and Pipeline Runs Common Solutions"
-    service=""
-    resource=""
+    service="microsoft.datafactory"
+    resource="factories"
     authors="chez-charlie"
     ms.author="chez"
     displayOrder=""
