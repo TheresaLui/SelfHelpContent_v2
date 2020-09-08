@@ -44,3 +44,6 @@ Are you facing one of these common problems?
 * [Azure SQL Managed Instance](https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview)
 * [Deploy Integration Services (SSIS) Projects and Packages](https://docs.microsoft.com/en-us/sql/integration-services/packages/deploy-integration-services-ssis-projects-and-packages?view=sql-server-ver15)
 * [SSIS DevOps Tools](https://docs.microsoft.com/en-us/sql/integration-services/devops/ssis-devops-overview?view=sql-server-ver15)
+* [Azure SQL Database Deployment task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/sql-azure-dacpac-deployment?view=azure-devops)
+* [Azure Database for Mysql Deployment task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/azure-mysql-deployment?view=azure-devops)
+* [MySql Database Deployment on Machine Group task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/mysqldb-deployment?view=azure-devops)
