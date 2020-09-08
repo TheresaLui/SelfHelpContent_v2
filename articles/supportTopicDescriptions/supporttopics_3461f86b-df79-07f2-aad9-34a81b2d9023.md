@@ -397,6 +397,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e910980a-3b45-4dd7-2e49-69d02952122e",
+      "longDescription": "",
+      "shortDescription": "Questions on Issues with Storage",
+      "searchTags": "storage",
+      "category": "storage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e9767054-52a2-448f-5a67-55dbbe0febc2",
       "longDescription": "",
       "shortDescription": "Issues related to PAT token, AAD authentication, passwords, secrets ",
