@@ -29,7 +29,7 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.3,
+  "version": 2.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/sql-api-query-metrics#max-item-count",
   "description": "Configure your Azure Cosmos DB query page size (MaxItemCount) to -1",
   "longDescription": "You are using the query page size of 100 for queries for your Azure Cosmos container. We recommend using a page size of -1 for faster scans.",
