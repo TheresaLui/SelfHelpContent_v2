@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6b7214b5-7b50-8b5a-62af-3d4acac1987d",
+      "longDescription": "",
+      "shortDescription": "Issues related to Databricks workspace. For cluster failures within workspace, pick the topic-Cluster Creation, Termination or Sizing",
+      "searchTags": "workspace",
+      "category": "Workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "863da22a-d166-731a-0bef-d7b75b51039f",
       "longDescription": "",
       "shortDescription": "Issues with creating, launch, terminating or sizing Databricks cluster. Not for workspace creation or failure issues",
