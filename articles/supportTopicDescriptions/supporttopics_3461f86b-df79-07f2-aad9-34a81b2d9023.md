@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "863da22a-d166-731a-0bef-d7b75b51039f",
+      "longDescription": "",
+      "shortDescription": "Issues with creating, launch, terminating or sizing Databricks cluster. Not for workspace creation or failure issues",
+      "searchTags": "cluster",
+      "category": "Cluster Creation, Termination, or Sizing",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "ec1bf12e-9f5b-8d3a-4822-a9c850a23605",
       "longDescription": "",
       "shortDescription": "Questions on Deep learning tools and libraries such as Tensorflow or PyTorch",
