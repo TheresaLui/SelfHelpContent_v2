@@ -309,6 +309,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "94501390-9d29-d367-59e6-28304cf3c4dc",
+      "longDescription": "",
+      "shortDescription": "Questions on Databricks internal hive metastore",
+      "searchTags": "metastore",
+      "category": "rds",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "97c8f11a-1601-4735-5dae-22aae303db6b",
       "longDescription": "",
       "shortDescription": "Issues connecting from Databricks to Azure Storage resource(s) like ADLSv1, ADLSv2, Blob etc.",
