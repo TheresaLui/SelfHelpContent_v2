@@ -237,6 +237,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "904e171e-404f-0640-e1fd-c68803acb77d",
+      "longDescription": "",
+      "shortDescription": "Other migration not listed issues",
+      "searchTags": "migrate",
+      "category": "migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "97c8f11a-1601-4735-5dae-22aae303db6b",
       "longDescription": "",
       "shortDescription": "Issues connecting from Databricks to Azure Storage resource(s) like ADLSv1, ADLSv2, Blob etc.",
