@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9d493413-b0a3-7a8b-3c70-1f13889fc78a",
+      "longDescription": "",
+      "shortDescription": "VNET injected workspace setup, launch or deployment issues through portal or ARM template",
+      "searchTags": "VNET Injected;ARM;workspace",
+      "category": "workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "abb5ba16-c4a5-3c94-6fbf-a45df84247d7",
       "longDescription": "",
       "shortDescription": "Cluster creation failing or slow due to init script failure during library installation",
