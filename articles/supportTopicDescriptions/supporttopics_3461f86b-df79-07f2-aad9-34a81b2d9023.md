@@ -157,6 +157,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "97c8f11a-1601-4735-5dae-22aae303db6b",
+      "longDescription": "",
+      "shortDescription": "Issues connecting from Databricks to Azure Storage resource(s) like ADLSv1, ADLSv2, Blob etc.",
+      "searchTags": "connect;ADLS;blob",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9b937952-4a32-f5e3-b51a-7679746fbc12",
       "longDescription": "",
       "shortDescription": "Issues connecting to workspace or cluster from API, DBConnect or Tableau",
