@@ -20,7 +20,7 @@
 There are various [performance monitoring tools](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-ver15) available for Azure SQL Databases.
 For anayzing High CPU usage we recommend the following:
 
-## **TSQL**
+### **TSQL**
 
 ### If the CPU issue is occuring now:
 
@@ -68,12 +68,12 @@ WHERE OD.RN<=15
 ORDER BY total_cpu_millisec DESC;
 ```
 
-## **Query Store**
+### **Query Store**
 
 The SQL Server [Query Store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?redirectedfrom=MSDN&view=sql-server-ver15) feature provides you with insight on query plan choice and performance. It simplifies performance troubleshooting by helping you quickly find performance differences caused by query plan changes. Query Store automatically captures a history of queries, plans, and runtime statistics, and retains these for your review.
 You can fetch the query ID's for TOP CPU Consuming (CPU TIME ms) queries by slecting the paticular metic under the regressed queries section of the Query store.
 
-## **Query performance insights**
+### **Query performance insights**
 
 [Query Performance Insight](https://docs.microsoft.com/azure/sql-database/sql-database-query-performance?WT.mc_id=pid:13491:sid:32630459/) provides intelligent query analysis for single and pooled databases. It helps identify the top resource consuming and long-running queries in your workload. This helps you find the queries to optimize to improve overall workload performance and efficiently use the resource that you are paying for.
 

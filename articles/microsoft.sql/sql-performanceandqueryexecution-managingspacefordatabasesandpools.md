@@ -17,7 +17,7 @@
 
 # Resolve questions or issues realted to space for Azure SQL Database
 
-### Calculating database and objects sizes
+### **Calculating database and objects sizes**
 
 The following query returns the size of your database (in megabytes):
 
@@ -40,7 +40,7 @@ GROUP BY sys.objects.name;
 GO
 ```
 
-### TempDB Issues
+### **TempDB Issues**
 
 The top wait types associated with tempdb issues is PAGELATCH_* (not PAGEIOLATCH_*). However, PAGELATCH_* waits do not always mean you have tempdb contention. This wait may also mean that you have user-object data page contention due to concurrent requests targeting the same data page. To further confirm tempdb contention, use [sys.dm_exec_requests](https://docs.microsoft.com/sql/relational-databases/system-dynamic-management-views/sys-dm-exec-requests-transact-sql?view=sql-server-ver15) to confirm that the wait_resource value begins with 2:x:y where 2 is tempdb is the database ID, x is the file ID, and y is the page ID.
 

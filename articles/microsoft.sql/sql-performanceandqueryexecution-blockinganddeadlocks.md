@@ -17,7 +17,7 @@
 
 # Resolve Blocking and deadlock issues with Azure SQL Database
 
-## **Blocking**
+### **Blocking**
 
 Slow or long-running queries can contribute to excessive resource consumption and be the consequence of blocked queries; in other words poor performance. The concept of blocking is not different on SQL Azure then on SQL Server. Blocking is an unavoidable characteristic of any relational database management system with lock-based concurrency.
 
@@ -33,7 +33,7 @@ r.last_wait_type,r.wait_resource, r.total_elapsed_time,r.cpu_time, r.transaction
 ORDER BY r.total_elapsed_time desc
 ```
 
-## **Deadlock**
+### **Deadlock**
 
 A deadlock occurs when two or more processes are waiting on the same resource and each process is waiting on the other process to complete before moving forward.
 For Azure SQL Database we have already running an Extended Event that captures the deadlocks without any additionally action. You can use [Extended events](https://docs.microsoft.com/azure/azure-sql/database/xevent-db-diff-from-svr) and create a new session with the following events for deadlock.

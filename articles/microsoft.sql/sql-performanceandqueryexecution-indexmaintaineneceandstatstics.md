@@ -17,15 +17,15 @@
 
 # Resolve index and statistics realted issues in Azure SQL Database
 
-## Using automation 
+### **Using automation** 
 
 You can use Azure Automation to run a scheduled runbook that can do the index and statistics maintainence for you. To configure the same, please follow [Automating Azure SQL DB index and statistics maintenance using [Azure Automation](https://techcommunity.microsoft.com/t5/azure-database-support-blog/automating-azure-sql-db-index-and-statistics-maintenance-using/ba-p/368974)
 
-### Guidelines for creating\updating large indexes
+### **Guidelines for creating\updating large indexes**
 
 If you are creating\updating a large index please follow the following [guidelines](https://docs.microsoft.com/sql/relational-databases/indexes/guidelines-for-online-index-operations?view=sql-server-2017)
 
-### Updating statistics
+### **Updating statistics**
 
 SQL Server automatically updates statistics on tables with more than 500 records, and that have over 20% of the rows modified while the amount of change does not cross this 20% threshold, the statistics are outdated, leading to bad cardinality estimation, bad query execution plans. You can update statistics using the query below:
 
