@@ -173,6 +173,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "bfc3fb06-dc6b-c4ae-1c58-80be019eee77",
+      "longDescription": "",
+      "shortDescription": "Spark Scala API questions",
+      "searchTags": "scala",
+      "category": "spark",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d709601a-4603-8e45-f9e9-424d2063186d",
       "longDescription": "",
       "shortDescription": "ACL permission issue for data objects on specific cluster and SQL table access issues",
