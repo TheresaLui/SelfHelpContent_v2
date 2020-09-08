@@ -1,5 +1,5 @@
 ﻿<properties
-    pageTitle="V2 - Pipeline Error or Trigger Failure -  Rerun and Cancel Runs Common Solutions"
+    pageTitle="V2 - Pipeline Error or Trigger Failure - Rerun and Cancel Runs Common Solutions"
     description="V2 - Pipeline Error or Trigger Failure - Rerun and Cancel Runs Common Solutions"
     service="microsoft.datafactory"
     resource="factories"
