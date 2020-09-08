@@ -429,6 +429,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c244e06e-b68e-ce99-efba-a64f727c74f7",
+      "longDescription": "",
+      "shortDescription": "Documentation issue - missing, unclear, needs modification",
+      "searchTags": "document",
+      "category": "document",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d709601a-4603-8e45-f9e9-424d2063186d",
       "longDescription": "",
       "shortDescription": "ACL permission issue for data objects on specific cluster and SQL table access issues",
