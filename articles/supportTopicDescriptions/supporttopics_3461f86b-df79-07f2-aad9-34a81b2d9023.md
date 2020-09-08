@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "18f4a1eb-498e-0cb1-8367-2986ad30b76a",
+      "longDescription": "",
+      "shortDescription": "Databricks monitoring issues using diagnostics logs. Log analytics integration questions",
+      "searchTags": "log analytics",
+      "category": "monitoring",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "19ed79a4-b4ae-48a5-5d75-87bac04767dc",
       "longDescription": "",
       "shortDescription": "Issues when recovering Databricks workspace or resource group after accidental deletion or failed migration",
