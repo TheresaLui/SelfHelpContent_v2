@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e9767054-52a2-448f-5a67-55dbbe0febc2",
+      "longDescription": "",
+      "shortDescription": "Issues related to PAT token, AAD authentication, passwords, secrets ",
+      "searchTags": "PAT;token;AAD;active directory;secret",
+      "category": "security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ec1bf12e-9f5b-8d3a-4822-a9c850a23605",
       "longDescription": "",
       "shortDescription": "Questions on Deep learning tools and libraries such as Tensorflow or PyTorch",
