@@ -1,9 +1,9 @@
 <properties
     pageTitle="Pipeline Error or Trigger Failure - Rerun and Cancel Runs Common Solutions"
-    description="Pipeline Error or Trigger Failure - Rerun and Cancel Runs Common Solutions"
+    description="Pipeline Error or Trigger Failure - Rerun and Cancel Runs Common Solutions"
     service="microsoft.datafactory"
     resource="factories"
-    authors="jaserano, v-miegge"
+    authors="jaserano, hecepeda"
     ms.author="jaserano"
     displayOrder=""
     selfHelpType="generic"
