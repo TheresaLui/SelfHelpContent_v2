@@ -10,7 +10,7 @@
 	supportTopicIds="32749513"
 	productPesIds="13491"
 	cloudEnvironments="public,blackForest,fairfax, usnat, ussec, mooncake"
-    resourceTags="servers, databases"
+        resourceTags="servers, databases"
 	articleId="sql-performanceandqueryexecution-error10928-reqeustlimitforthedatabasereached"
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
