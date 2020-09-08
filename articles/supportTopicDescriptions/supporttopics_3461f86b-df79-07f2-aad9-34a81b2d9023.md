@@ -573,6 +573,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "dea3969e-f1ea-33c5-ef14-da768fe1994c",
+      "longDescription": "",
+      "shortDescription": "Other billing issues not mentioned in other topics here",
+      "searchTags": "bill;billing",
+      "category": "billing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "df7ef7c7-05a3-bf4f-ee10-4ae9f2111ddc",
       "longDescription": "",
       "shortDescription": "Spark 3rd party library. Check release notes for bundled libraries and versions",
