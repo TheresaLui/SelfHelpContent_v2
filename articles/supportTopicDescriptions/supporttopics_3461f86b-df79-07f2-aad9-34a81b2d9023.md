@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2cfe7529-5bbd-0c95-d902-1bf86a6c20bd",
+      "longDescription": "",
+      "shortDescription": "Issues related to 3rd party integrations such as Domino, H2O, etc.",
+      "searchTags": "Domino;H2O",
+      "category": "ML",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2f19b68f-5d21-60c1-5324-9bc8ba577faf",
       "longDescription": "",
       "shortDescription": "Monitoring, diagnostics and instrumentation issues",
