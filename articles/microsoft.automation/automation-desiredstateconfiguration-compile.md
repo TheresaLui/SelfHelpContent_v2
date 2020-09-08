@@ -19,8 +19,8 @@
 
 ## **Recommended Steps**
 
-1. [compile the configuration locally ](https://docs.microsoft.com/powershell/scripting/dsc/configurations/configurations?view=powershell-5.1#compiling-the-configuration) to understand if the issue is with the configuration itself or with how it is used in Azure Automation
-2. [collect diagnostic logs](https://docs.microsoft.com/azure/automation/troubleshoot/desired-state-configuration#steps-to-troubleshoot-desired-state-configuration-dsc)
+1. [Compile the configuration locally ](https://docs.microsoft.com/powershell/scripting/dsc/configurations/configurations?view=powershell-5.1#compiling-the-configuration) to understand if the issue is with the configuration itself or with how it is used in Azure Automation
+2. [Collect diagnostic logs](https://docs.microsoft.com/azure/automation/troubleshoot/desired-state-configuration#steps-to-troubleshoot-desired-state-configuration-dsc)
 
 ### **Possible Issues:**
 
