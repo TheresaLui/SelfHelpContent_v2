@@ -325,6 +325,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "86c4d904-9fa7-5b8c-4a3f-53d1d2ad5d98",
+      "longDescription": "",
+      "shortDescription": "Hyper parameter tuning library issues, such as hyperopt",
+      "searchTags": "Hyper paramete;hyperopt",
+      "category": "ML",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "889199c5-7477-3014-7c05-a3a73b0bc036",
       "longDescription": "",
       "shortDescription": "Library installation issue in Cluster or Workspace UI",
