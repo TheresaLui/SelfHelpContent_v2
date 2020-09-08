@@ -109,6 +109,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "64f33a31-5366-6de2-048c-d440997e6c45",
+      "longDescription": "",
+      "shortDescription": "Questions or issues connecting from and to Databricks",
+      "searchTags": "connect;connectivity",
+      "category": "connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6a8487de-cade-6aef-f808-9edb489bcd50",
       "longDescription": "",
       "shortDescription": "Other issues not listed above like workspace tagging, migrating between regions etc.",
