@@ -285,6 +285,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e06194d5-da33-11ae-be01-2eec90ab0b54",
+      "longDescription": "",
+      "shortDescription": "Library installation issue using init script during cluster launch",
+      "searchTags": "library;init script",
+      "category": "libraries",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e7a4ae89-8c13-270b-a1be-1aa59bb9b679",
       "longDescription": "",
       "shortDescription": "Issue with create or launch of cluster in a VNET Injected workspace. Errors like-Resources were not reachable via SSH, Initial instance bootstrapping",
