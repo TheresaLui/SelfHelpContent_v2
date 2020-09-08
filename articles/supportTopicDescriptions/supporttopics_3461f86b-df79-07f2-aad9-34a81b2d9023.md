@@ -237,6 +237,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7b44c4cc-7a83-1091-8460-82447db5fdc0",
+      "longDescription": "",
+      "shortDescription": "Questions regarding Databricks workspace migration between subscriptions or regions ",
+      "searchTags": "migrate;workspace",
+      "category": "migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "86322827-2ccd-eaad-2b3b-de45e7b76ec7",
       "longDescription": "",
       "shortDescription": "Library installation issue using REST API",
