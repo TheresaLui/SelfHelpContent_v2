@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "54edc521-206b-b701-e826-65c8d8cec2e9",
+      "longDescription": "",
+      "shortDescription": "Issues accessing Azure storage accounts from Databricks like Blob, ADLSv1, ADLSv2 ",
+      "searchTags": "adls;access",
+      "category": "storage",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5a23e325-6da8-b327-5ae1-f7c46304c607",
       "longDescription": "",
       "shortDescription": "ACL permission issue when trying to access workspace folders, notebooks, experiments, models, clusters, pools, and jobs",
