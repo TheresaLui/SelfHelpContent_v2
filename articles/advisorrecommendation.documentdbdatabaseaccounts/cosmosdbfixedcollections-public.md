@@ -18,7 +18,7 @@
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
-  "recommendationFriendlyName": "CosmosDBPartitionedCollections",
+  "recommendationFriendlyName": "CosmosDBFixedCollections",
   "recommendationMetadataState": "Active",
   "owner": {
     "email": "cosmosnotifications@microsoft.com",
