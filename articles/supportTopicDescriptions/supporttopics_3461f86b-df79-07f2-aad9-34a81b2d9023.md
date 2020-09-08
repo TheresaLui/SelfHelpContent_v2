@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "5a23e325-6da8-b327-5ae1-f7c46304c607",
+      "longDescription": "",
+      "shortDescription": "ACL permission issue when trying to access workspace folders, notebooks, experiments, models, clusters, pools, and jobs",
+      "searchTags": "access control;acl;permissions",
+      "category": "security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6a8487de-cade-6aef-f808-9edb489bcd50",
       "longDescription": "",
       "shortDescription": "Other issues not listed above like workspace tagging, migrating between regions etc.",
