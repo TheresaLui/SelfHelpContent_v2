@@ -221,6 +221,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "df7ef7c7-05a3-bf4f-ee10-4ae9f2111ddc",
+      "longDescription": "",
+      "shortDescription": "Spark 3rd party library. Check release notes for bundled libraries and versions",
+      "searchTags": "spark;library",
+      "category": "spark",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e7a4ae89-8c13-270b-a1be-1aa59bb9b679",
       "longDescription": "",
       "shortDescription": "Issue with create or launch of cluster in a VNET Injected workspace. Errors like-Resources were not reachable via SSH, Initial instance bootstrapping",
