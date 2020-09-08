@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "889199c5-7477-3014-7c05-a3a73b0bc036",
+      "longDescription": "",
+      "shortDescription": "Library installation issue in Cluster or Workspace UI",
+      "searchTags": "library;install",
+      "category": "libraries",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "97c8f11a-1601-4735-5dae-22aae303db6b",
       "longDescription": "",
       "shortDescription": "Issues connecting from Databricks to Azure Storage resource(s) like ADLSv1, ADLSv2, Blob etc.",
