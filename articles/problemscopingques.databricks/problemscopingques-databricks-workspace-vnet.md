@@ -1,22 +1,22 @@
 <properties
-	articleId="e4354fbd-d755-4936-8537-c379a5cb5128"
-	pageTitle="Scoping Questions for Databricks Cluster Creation Termination Sizing Issue"
-	description="Scoping Questions for Databricks Cluster Creation Termination Sizing Issue"
+	articleId="712cdef8-a468-438e-8266-185050a15e38"
+	pageTitle="Scoping Questions for Databricks VNET injected Workspace Issue"
+	description="Scoping Questions for Databricks VNET injected Workspace Issue"
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32677670, 32730914, 32745366"
+	supportTopicIds="32688714"
 	productPesIds="16432"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureData_AzureDatabricks"
 />
-# Databricks Cluster Creation Termination Sizing Issue
+# Databricks Cluster Workspace Issue
 ---
 {
     "resourceRequired": false,
-    "subscriptionRequired": true,
-    "title": "Azure Databricks Cluster Creationg Termination Sizing Issue",
+    "subscriptionRequired": false,
+    "title": "Azure Databricks Workspace Issue",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -43,7 +43,7 @@
         },
         {
             "id": "is_new_problem",
-            "order": 40,
+            "order": 50,
             "controlType": "dropdown",
             "displayLabel": "Is this a new problem, or it has happened before?",
             "watermarkText": "Choose an option",
@@ -86,27 +86,53 @@
             "required": true
         },
         {
-            "id": "cluster_url",
+            "id": "workspace_ID",
             "order": 150,
             "controlType": "textbox",
-            "displayLabel": "Cluster URL if available",
-            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Cluster URL",
+            "displayLabel": "Workspace URL if available",
+            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Workspace ID",
             "required": true
         },
         {
-            "id": "workspace_id",
-            "order": 170,
-            "controlType": "textbox",
-            "displayLabel": "Workspace ID if cluster URL is not available",
-            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Workspace ID",
-            "required": false
+            "id": "vnetconfig",
+            "order": 250,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Custom VNET configurations involved",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Custom_DNS",
+                    "text": "Custom DNS"
+                },
+                {
+                    "value": "IP_Filter",
+                    "text": "IP Filter"
+                },
+                {
+                    "value": "NSG",
+                    "text": "NSG"
+                },
+                {
+                    "value": "UDR",
+                    "text": "UDR"
+                },
+                {
+                    "value": "Firewall_appliance",
+                    "text": "Firewall appliance"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
         },
         {
             "id": "problem_description",
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the detail symptom including the full error text, whether the issue is intermittent or persistent, and any other relevant information",
+            "watermarkText": "Please provide the detail symptom including the full error text, what task was being performed when the issue occurred, whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         }

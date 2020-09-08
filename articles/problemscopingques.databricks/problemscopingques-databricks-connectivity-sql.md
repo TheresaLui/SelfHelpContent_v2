@@ -1,22 +1,22 @@
 <properties
-	articleId="e4354fbd-d755-4936-8537-c379a5cb5128"
-	pageTitle="Scoping Questions for Databricks Cluster Creation Termination Sizing Issue"
-	description="Scoping Questions for Databricks Cluster Creation Termination Sizing Issue"
+	articleId="bc50e432-41ab-404f-89b9-afb393df3a84"
+	pageTitle="Scoping Questions for Databricks Connectivity to SQL data source"
+	description="Scoping Questions for Databricks Connectivity to SQL data source"
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32677670, 32730914, 32745366"
+	supportTopicIds="32677675"
 	productPesIds="16432"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureData_AzureDatabricks"
 />
-# Databricks Cluster Creation Termination Sizing Issue
+# Databricks Cluster Connectivity Issue
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Azure Databricks Cluster Creationg Termination Sizing Issue",
+    "title": "Azure Databricks Connectivity Issue",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -37,13 +37,13 @@
             "id": "errormessage",
             "order": 30,
             "controlType": "multilinetextbox",
-            "displayLabel": "What error message you received?",
-            "watermarkText": "Please copy paste the full error text including the stack trace if available",
+            "displayLabel": "What is the error message you received?",
+            "watermarkText": "Please copy and paste the complete error text including the stack trace if available",
             "required": false
         },
         {
             "id": "is_new_problem",
-            "order": 40,
+            "order": 50,
             "controlType": "dropdown",
             "displayLabel": "Is this a new problem, or it has happened before?",
             "watermarkText": "Choose an option",
@@ -74,7 +74,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Previous solution if applicable",
             "watermarkText": "If the previous occurance was resolved, please share how it was resolved",
-            "required": true
+            "required": false
         },
         {
             "id": "change_made",
@@ -83,14 +83,22 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Any changes made?",
             "watermarkText": "Any changes since last time it worked",
-            "required": true
+            "required": false
+        },
+        {
+            "id": "connectfrom",
+            "order": 300,
+            "controlType": "textbox",
+            "displayLabel": "Job URL or the Notebook URL with the connectivity error if available",
+            "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details'>this article</a> to get Job or Notebook URL",
+            "required": false
         },
         {
             "id": "cluster_url",
             "order": 150,
             "controlType": "textbox",
-            "displayLabel": "Cluster URL if available",
-            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Cluster URL",
+            "displayLabel": "Cluster URL if Job or Notebook URL is not available",
+            "infoBalloonText": "Follow this <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#cluster-url-and-id'>article</a> to get Cluster URL",
             "required": true
         },
         {
@@ -98,15 +106,41 @@
             "order": 170,
             "controlType": "textbox",
             "displayLabel": "Workspace ID if cluster URL is not available",
-            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Workspace ID",
+            "infoBalloonText": "Follow this <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#per-workspace-url'>article</a> to get Workspace ID",
             "required": false
+        },
+        {
+            "id": "connect_to",
+            "order": 250,
+            "controlType": "dropdown",
+            "displayLabel": "What data are you connecting to",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "sql",
+                    "text": "Azure SQL Database"
+                },
+                {
+                    "value": "cosmosdb",
+                    "text": "Azure Cosmos DB"
+                },
+                {
+                    "value": "synapse",
+                    "text": "Azure Synapse Service"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
         },
         {
             "id": "problem_description",
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the detail symptom including the full error text, whether the issue is intermittent or persistent, and any other relevant information",
+            "watermarkText": "Please provide any additional information related to this issue",
             "required": true,
             "useAsAdditionalDetails": true
         }

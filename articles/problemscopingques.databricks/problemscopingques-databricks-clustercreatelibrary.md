@@ -1,11 +1,11 @@
 <properties
-	articleId="e4354fbd-d755-4936-8537-c379a5cb5128"
-	pageTitle="Scoping Questions for Databricks Cluster Creation Termination Sizing Issue"
-	description="Scoping Questions for Databricks Cluster Creation Termination Sizing Issue"
+	articleId="c06430f0-945f-482d-bc36-b33586596b84"
+	pageTitle="Scoping Questions for Databricks Cluster Create failure involving library"
+	description="Scoping Questions for Databricks Cluster Create failure involving library"
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32677670, 32730914, 32745366"
+	supportTopicIds="32677679"
 	productPesIds="16432"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -42,8 +42,46 @@
             "required": false
         },
         {
-            "id": "is_new_problem",
+            "id": "library",
             "order": 40,
+            "controlType": "multilinetextbox",
+            "displayLabel": "What libraries are being installed?",
+            "watermarkText": "",
+            "required": false
+        },
+        {
+            "id": "librarysource",
+            "order": 50,
+            "controlType": "dropdown",
+            "displayLabel": "What repository or location are the libraries stored?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Maven",
+                    "text": "Maven"
+                },
+                {
+                    "value": "PyPI",
+                    "text": "PyPI"
+                },
+                {
+                    "value": "CRAN",
+                    "text": "CRAN"
+                },
+                {
+                    "value": "DBFS",
+                    "text": "DBFS"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "is_new_problem",
+            "order": 100,
             "controlType": "dropdown",
             "displayLabel": "Is this a new problem, or it has happened before?",
             "watermarkText": "Choose an option",
@@ -106,7 +144,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the detail symptom including the full error text, whether the issue is intermittent or persistent, and any other relevant information",
+            "watermarkText": "Please provide additional details about the issue, such as whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         }

@@ -1,11 +1,11 @@
 <properties
-	articleId="e4354fbd-d755-4936-8537-c379a5cb5128"
-	pageTitle="Scoping Questions for Databricks Cluster Creation Termination Sizing Issue"
-	description="Scoping Questions for Databricks Cluster Creation Termination Sizing Issue"
+	articleId="1e2a0112-6b39-48d9-bd88-d2b4c3f20950"
+	pageTitle="Scoping Questions for Databricks Cluster Create failure in VNET injected workspace Issue"
+	description="Scoping Questions for Databricks Cluster Create failure in VNET injected workspace Issue"
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32677670, 32730914, 32745366"
+	supportTopicIds="32677681"
 	productPesIds="16432"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
@@ -43,7 +43,7 @@
         },
         {
             "id": "is_new_problem",
-            "order": 40,
+            "order": 50,
             "controlType": "dropdown",
             "displayLabel": "Is this a new problem, or it has happened before?",
             "watermarkText": "Choose an option",
@@ -86,6 +86,28 @@
             "required": true
         },
         {
+            "id": "fail_to_create_other",
+            "order": 130,
+            "controlType": "dropdown",
+            "displayLabel": "Are you able to create other cluster in this VNET injected workspace?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Have not tried so do not know"
+                }
+            ],
+            "required": true
+        },
+        {
             "id": "cluster_url",
             "order": 150,
             "controlType": "textbox",
@@ -106,7 +128,7 @@
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the detail symptom including the full error text, whether the issue is intermittent or persistent, and any other relevant information",
+            "watermarkText": "Please provide additional details about the issue, such as whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
             "useAsAdditionalDetails": true
         }

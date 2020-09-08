@@ -1,22 +1,22 @@
 <properties
-	articleId="e4354fbd-d755-4936-8537-c379a5cb5128"
-	pageTitle="Scoping Questions for Databricks Cluster Creation Termination Sizing Issue"
-	description="Scoping Questions for Databricks Cluster Creation Termination Sizing Issue"
+	articleId="25bdb17b-54b0-4385-bd03-c04e2fdf6480"
+	pageTitle="Scoping Questions for Databricks Connectivity to Cluster Issue"
+	description="Scoping Questions for Databricks Connectivity to Cluster Issue"
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32677670, 32730914, 32745366"
+	supportTopicIds="32677672"
 	productPesIds="16432"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="AzureData_AzureDatabricks"
 />
-# Databricks Cluster Creation Termination Sizing Issue
+# Databricks Cluster Connectivity Issue
 ---
 {
     "resourceRequired": false,
     "subscriptionRequired": true,
-    "title": "Azure Databricks Cluster Creationg Termination Sizing Issue",
+    "title": "Azure Databricks Connectivity Issue",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -43,7 +43,7 @@
         },
         {
             "id": "is_new_problem",
-            "order": 40,
+            "order": 50,
             "controlType": "dropdown",
             "displayLabel": "Is this a new problem, or it has happened before?",
             "watermarkText": "Choose an option",
@@ -90,7 +90,7 @@
             "order": 150,
             "controlType": "textbox",
             "displayLabel": "Cluster URL if available",
-            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Cluster URL",
+            "infoBalloonText": "Follow this <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#cluster-url-and-id'>article</a> to get Cluster URL",
             "required": true
         },
         {
@@ -98,15 +98,67 @@
             "order": 170,
             "controlType": "textbox",
             "displayLabel": "Workspace ID if cluster URL is not available",
-            "infoBalloonText": "Follow this <a href='https://docs.azuredatabricks.net/user-guide/faq/workspace-details.html'>article</a> to get Workspace ID",
+            "infoBalloonText": "Follow this <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#per-workspace-url'>article</a> to get Workspace ID",
             "required": false
+        },
+        {
+            "id": "connect_from",
+            "order": 250,
+            "controlType": "dropdown",
+            "displayLabel": "How are you connecting to the workspace",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "job",
+                    "text": "Job"
+                },
+                {
+                    "value": "notebook",
+                    "text": "Notebook"
+                },
+                {
+                    "value": "restAPI",
+                    "text": "REST API"
+                },
+                {
+                    "value": "dbconnect",
+                    "text": "Databricks Connect"
+                },
+                {
+                    "value": "odbc",
+                    "text": "ODBC client application"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
+            "required": true
+        },
+        {
+            "id": "connectfromjob",
+            "visibility": "connect_from == job",
+            "order": 300,
+            "controlType": "textbox",
+            "displayLabel": "Job URL for the job with the connectivity issue",
+            "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#job-url-and-id'>this article</a> to get Job URL",
+            "required": true
+        },
+        {
+            "id": "connectfromnotebook",
+            "visibility": "connect_from == notebook",
+            "order": 350,
+            "controlType": "textbox",
+            "displayLabel": "Notebook URL for the Notebook with the connectivity issue",
+            "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#--notebook-url-and-id'>this article</a> to get Notebook URL",
+            "required": true
         },
         {
             "id": "problem_description",
             "order": 600,
             "controlType": "multilinetextbox",
             "displayLabel": "Additional details about the issue",
-            "watermarkText": "Please provide the detail symptom including the full error text, whether the issue is intermittent or persistent, and any other relevant information",
+            "watermarkText": "Please provide any additional information related to this issue",
             "required": true,
             "useAsAdditionalDetails": true
         }
