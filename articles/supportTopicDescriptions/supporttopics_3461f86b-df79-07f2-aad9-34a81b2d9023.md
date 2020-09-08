@@ -245,6 +245,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "bdafa7d8-6235-c668-e0e4-42032ccc82b4",
+      "longDescription": "",
+      "shortDescription": "Issues related to R API of Spark, leveraging base R, sparklyr, SparkR, or other R libraries",
+      "searchTags": "R;sparklyr;SparkR",
+      "category": "spark",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "be0bcaa7-02b0-fc53-2ed8-b26e60c5ddeb",
       "longDescription": "",
       "shortDescription": "Slow scaling or errors resizing Databricks cluster(s) like-Cannot resize, Upsize to xx",
