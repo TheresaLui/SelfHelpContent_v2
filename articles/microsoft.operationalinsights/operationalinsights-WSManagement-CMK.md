@@ -27,10 +27,10 @@ Some of the configuration operations run asynchronously because they can't be co
 A description of Customer-managed key function and configuration is documented in [Customer-managed key article](https://docs.microsoft.com/azure/azure-monitor/platform/customer-managed-keys). Also review these:
 * CMK (KEK) revocation -- Log Analytics cluster respect changes in key permissions within an hour or sooner
 * CMK (KEK) rotation -- You must update Log Analytics cluster with new key key identifier details (URI, name and version). If you don't update the details in the Cluster resource, the Log Analytics cluster storage will keep using your previous key for encryption.
-* Common issues -- review [troubleshooting guide](https://docs.microsoft.com/azure/azure-monitor/platform/customer-managed-keys#troubleshooting)
+* Common issues -- review [troubleshooting guide](https://docs.microsoft.com/azure/azure-monitor/platform/customer-managed-keys#troubleshooting)<br>
 
 ## **Recommended Documents**
 
 * [Customer-managed key article](https://docs.microsoft.com/azure/azure-monitor/platform/customer-managed-keys)
 * [Asynchronous operations and status check when using REST requests](https://docs.microsoft.com/azure/azure-monitor/platform/customer-managed-keys#asynchronous-operations-and-status-check)
-* [troubleshooting guide](https://docs.microsoft.com/azure/azure-monitor/platform/customer-managed-keys#troubleshooting)
+* [Troubleshooting guide](https://docs.microsoft.com/azure/azure-monitor/platform/customer-managed-keys#troubleshooting)<br>
