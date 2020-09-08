@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3054286b-2c56-966b-0b63-ddd9134361d7",
+      "longDescription": "",
+      "shortDescription": "ADLS authentication issues when using AAD credential passthrough",
+      "searchTags": "ADLS;Active directory;AAD;passthrough",
+      "category": "security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "3d06ffb2-4b8a-a2e8-5c41-11f0fee54ff9",
       "longDescription": "",
       "shortDescription": "Use this for other security issues not listed above like Azure Key Vault issues, Databricks Users or Groups ACL etc.",
