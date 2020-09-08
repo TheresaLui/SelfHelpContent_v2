@@ -189,6 +189,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f6339a43-abfe-a458-ced8-7779dbd30d32",
+      "longDescription": "",
+      "shortDescription": "For any issues not covered under above topics",
+      "searchTags": "connect",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "fae810f3-a91b-d633-93b6-cb1121a2b7a8",
       "longDescription": "",
       "shortDescription": "Issue due to IP Quota Limit, error like-Cannot create more than xx public IP addresses for this subscription, error code PublicIPCountLimitReached",
