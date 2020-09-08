@@ -8,7 +8,7 @@
 	productPesIds="17069"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-pg-connectivity-dropped-errors"
+	articleId="problemscopingques-pg-flexibleservers-connectivity-dropped-errors"
 	ownershipId="AzureData_AzureDatabaseforPostgreSQL"
 />
 # Database Connectivity - Established connection is dropped or terminated && Error while connecting to the server
