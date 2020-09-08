@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "19ed79a4-b4ae-48a5-5d75-87bac04767dc",
+      "longDescription": "",
+      "shortDescription": "Issues when recovering Databricks workspace or resource group after accidental deletion or failed migration",
+      "searchTags": "workspace;recover;accidentally deleted;restore",
+      "category": "workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2ca387c2-b56b-b3de-37af-aa7cd79c1022",
       "longDescription": "",
       "shortDescription": "Any topics NOT covered in other topics in this list",
