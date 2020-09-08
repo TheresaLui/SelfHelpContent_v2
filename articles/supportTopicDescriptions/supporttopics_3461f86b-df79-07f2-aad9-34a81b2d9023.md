@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1be18fdc-73bc-2111-d37b-c61426036f0e",
+      "longDescription": "",
+      "shortDescription": "Job scheduling related failure from ADF or API or Airflow",
+      "searchTags": "job;schedule",
+      "category": "job",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1c16baad-f847-2baa-a34b-d8819a0e5f50",
       "longDescription": "",
       "shortDescription": "Spark Issues with R, Scala, Python, SQL or 3rd Party library",
