@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "495df4bd-f43d-1e3c-3f5c-44a2354ed938",
+      "longDescription": "",
+      "shortDescription": "Client connectivity from Tableau, Power BI",
+      "searchTags": "Tableau;Power BI;connect",
+      "category": "report",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "4bf050fe-8065-959c-955c-d73e18c4134e",
       "longDescription": "",
       "shortDescription": "Issues connecting from Databricks to other not listed resource(s). Network issues with custom network configuration, firewall, service endpoints etc.",
