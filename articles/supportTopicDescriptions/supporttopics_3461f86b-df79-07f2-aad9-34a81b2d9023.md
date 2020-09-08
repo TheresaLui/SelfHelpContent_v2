@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "37b32131-4b6b-7388-dc7d-d3537c035ed6",
+      "longDescription": "",
+      "shortDescription": "Reporting integration issues",
+      "searchTags": "report",
+      "category": "report",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "3d06ffb2-4b8a-a2e8-5c41-11f0fee54ff9",
       "longDescription": "",
       "shortDescription": "Use this for other security issues not listed above like Azure Key Vault issues, Databricks Users or Groups ACL etc.",
