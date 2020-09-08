@@ -245,6 +245,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f3dab812-bcb8-80b8-13ce-51c8303a37b2",
+      "longDescription": "",
+      "shortDescription": "Spark SQL API issues",
+      "searchTags": "spark;sql",
+      "category": "spark",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f6339a43-abfe-a458-ced8-7779dbd30d32",
       "longDescription": "",
       "shortDescription": "For any issues not covered under above topics",
