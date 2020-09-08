@@ -269,6 +269,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7f59fdf2-5bf0-634c-a31c-7f457a037ec7",
+      "longDescription": "",
+      "shortDescription": "Any general guidance questions not covered in other topics",
+      "searchTags": "general guidance",
+      "category": "general guidance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "86322827-2ccd-eaad-2b3b-de45e7b76ec7",
       "longDescription": "",
       "shortDescription": "Library installation issue using REST API",
