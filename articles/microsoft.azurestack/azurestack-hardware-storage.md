@@ -1,6 +1,6 @@
 <properties
     pageTitle="Azure Stack storage devices"
-    description="Storage Capacity"
+    description="Capacity"
     service="microsoft.azurestack"
     resource="azurestack"
     authors="alexsmithMSFT"
@@ -15,7 +15,7 @@
 	ownershipId="StorageMediaEdge_AzureStack_Hub"
 />
 
-# Azure Stack Storage Capacity
+# Azure Stack Capacity
 
 The hyper-converged configuration of Azure Stack allows for the sharing of physical storage devices. The three main divisions of the available storage are between:
 
