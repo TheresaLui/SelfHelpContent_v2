@@ -603,6 +603,14 @@
       "searchTags": "IP;quota;create failure",
       "category": "Cluster Creation, Termination, or Sizing",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "fd2220cd-b182-c76e-43cb-20118e7532e5",
+      "longDescription": "",
+      "shortDescription": "DB connect jobs issues (Python, Java, Scala, R)",
+      "searchTags": "job;db connect",
+      "category": "db connect",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
