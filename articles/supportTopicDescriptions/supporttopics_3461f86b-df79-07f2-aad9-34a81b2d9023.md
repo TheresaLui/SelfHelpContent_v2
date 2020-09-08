@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "abb5ba16-c4a5-3c94-6fbf-a45df84247d7",
+      "longDescription": "",
+      "shortDescription": "Cluster creation failing or slow due to init script failure during library installation",
+      "searchTags": "init script;library;cluster creation",
+      "category": "Cluster Creation, Termination, or Sizing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "be0bcaa7-02b0-fc53-2ed8-b26e60c5ddeb",
       "longDescription": "",
       "shortDescription": "Slow scaling or errors resizing Databricks cluster(s) like-Cannot resize, Upsize to xx",
