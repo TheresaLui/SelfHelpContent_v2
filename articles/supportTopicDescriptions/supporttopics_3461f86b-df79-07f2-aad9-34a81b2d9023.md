@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "0de737c6-7f03-8637-58af-6a28082163f7",
+      "longDescription": "",
+      "shortDescription": "Issues connecting from Databricks to SQL resource(s) like SQL DB, Cosmos DB etc.",
+      "searchTags": "SQL;Cosmos;cannot connect",
+      "category": "connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "19ed79a4-b4ae-48a5-5d75-87bac04767dc",
       "longDescription": "",
       "shortDescription": "Issues when recovering Databricks workspace or resource group after accidental deletion or failed migration",
