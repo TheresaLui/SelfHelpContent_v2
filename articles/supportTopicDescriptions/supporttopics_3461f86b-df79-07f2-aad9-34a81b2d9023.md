@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6a8487de-cade-6aef-f808-9edb489bcd50",
+      "longDescription": "",
+      "shortDescription": "Other issues not listed above like workspace tagging, migrating between regions etc.",
+      "searchTags": "tag;migration;workspace",
+      "category": "workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6b7214b5-7b50-8b5a-62af-3d4acac1987d",
       "longDescription": "",
       "shortDescription": "Issues related to Databricks workspace. For cluster failures within workspace, pick the topic-Cluster Creation, Termination or Sizing",
