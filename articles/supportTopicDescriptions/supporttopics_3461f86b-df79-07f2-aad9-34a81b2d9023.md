@@ -541,6 +541,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c48405ec-0e27-bc3b-519a-b3884ae3cbf8",
+      "longDescription": "",
+      "shortDescription": "Billing questions related to dbu usage",
+      "searchTags": "bill;dbu",
+      "category": "billing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c981a4cd-0c65-92f7-c1e7-7b9eee987579",
       "longDescription": "",
       "shortDescription": "DB connect dependency issue like pom.xml, build.sbt having issues ",
