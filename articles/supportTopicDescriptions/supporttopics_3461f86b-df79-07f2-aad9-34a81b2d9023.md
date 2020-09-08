@@ -365,6 +365,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a72e68b6-c820-3240-b91b-90ec1ee13a0a",
+      "longDescription": "",
+      "shortDescription": "Data Science Issues like Machine Learning, MLFlow etc.",
+      "searchTags": "machine learning;mlflow;RStudio;koala",
+      "category": "ML",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "abb5ba16-c4a5-3c94-6fbf-a45df84247d7",
       "longDescription": "",
       "shortDescription": "Cluster creation failing or slow due to init script failure during library installation",
