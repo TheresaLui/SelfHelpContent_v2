@@ -229,6 +229,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "523a1099-5fc4-6941-a481-aa92991d3e15",
+      "longDescription": "",
+      "shortDescription": "Notebook sync or save issues using Github",
+      "searchTags": "notebook;sync;github",
+      "category": "source control",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "54edc521-206b-b701-e826-65c8d8cec2e9",
       "longDescription": "",
       "shortDescription": "Issues accessing Azure storage accounts from Databricks like Blob, ADLSv1, ADLSv2 ",
