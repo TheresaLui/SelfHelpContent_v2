@@ -629,6 +629,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "e4ce6357-f1e5-3da1-c751-e43e27020712",
+      "longDescription": "",
+      "shortDescription": "Spark Streaming API in Scala",
+      "searchTags": "Scala",
+      "category": "spark",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e7a4ae89-8c13-270b-a1be-1aa59bb9b679",
       "longDescription": "",
       "shortDescription": "Issue with create or launch of cluster in a VNET Injected workspace. Errors like-Resources were not reachable via SSH, Initial instance bootstrapping",
