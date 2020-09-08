@@ -62,11 +62,11 @@
   "additionalColumns": [
       {
           "name": "installedVersion",
-          "title": "Installed Version"
+          "title": "Installed version"
       },
       {
           "name": "latestVersion",
-          "title": "Latest Version"
+          "title": "Recommended version"
       }
   ]
 }
