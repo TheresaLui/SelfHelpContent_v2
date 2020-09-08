@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "2ca387c2-b56b-b3de-37af-aa7cd79c1022",
+      "longDescription": "",
+      "shortDescription": "Any topics NOT covered in other topics in this list",
+      "searchTags": "cluster",
+      "category": "Cluster Creation, Termination, or Sizing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "48136392-d8b2-793e-cd06-901c9c3df493",
       "longDescription": "",
       "shortDescription": "Failures due to anything other than cluster or Spark issues. If the failure is because either of these, pick the respective topic in above dropdown",
