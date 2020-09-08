@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b116b8da-31f3-a5eb-afd3-667a6c0b5130",
+      "longDescription": "",
+      "shortDescription": "Spark Python API (PySpark)",
+      "searchTags": "PySpark",
+      "category": "spark",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "be0bcaa7-02b0-fc53-2ed8-b26e60c5ddeb",
       "longDescription": "",
       "shortDescription": "Slow scaling or errors resizing Databricks cluster(s) like-Cannot resize, Upsize to xx",
