@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "489787b7-54bd-3ff6-5806-913c62ab7976",
+      "longDescription": "",
+      "shortDescription": "Core Quota Limit getting errors like- Results in exceeding quota limits of Core, error code OperationNotAllowedOperation",
+      "searchTags": "quota;core;creation;cannot create cluster",
+      "category": "Cluster Creation, Termination, or Sizing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "863da22a-d166-731a-0bef-d7b75b51039f",
       "longDescription": "",
       "shortDescription": "Issues with creating, launch, terminating or sizing Databricks cluster. Not for workspace creation or failure issues",
