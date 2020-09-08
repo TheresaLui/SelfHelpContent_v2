@@ -1,15 +1,15 @@
 <properties
-	articleId="ac26fa9c-05b3-487a-b5e4-49814c98d489"
-	pageTitle="Scoping Questions for Network Health"
-	description="Scoping Questions for Network Health"
-	authors="TobyTu"
-	ms.author="mquian"
-	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32742533"
-	productPesIds="15791"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	schemaVersion="1"
-	ownershipId="Compute_LogicApps"
+    articleId="ac26fa9c-05b3-487a-b5e4-49814c98d489"
+    pageTitle="Scoping Questions for Network Health"
+    description="Scoping Questions for Network Health"
+    authors="TobyTu"
+    ms.author="mquian"
+    selfHelpType="problemScopingQuestions"
+    supportTopicIds="32742533"
+    productPesIds="15791"
+    cloudEnvironments="public, Fairfax, usnat, ussec"
+    schemaVersion="1"
+    ownershipId="Compute_LogicApps"
 />
 # Network Health
 ---
@@ -63,4 +63,3 @@
     "$schema": "SelfHelpContent"
 }
 ---
-Please provide Network Health Details from the Azure portal

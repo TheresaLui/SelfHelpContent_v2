@@ -20,7 +20,7 @@
 Genie tool is an application that with customer permission allows CSS to access:
 
 1.	Customers workspace
-2.	Databricks control plane logs 
+2.	Databricks clusters event logs
 3.	Customers spark logs
 
 Check in the case that the **DatabricksConsent**  is **True**. This gives Microsoft and Databricks permissions to access customers workspace and logs.

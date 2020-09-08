@@ -22,7 +22,7 @@
 We identified that your VM <!--$vmname-->Virtual machine<!--/$vmname--> became unavailable at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**. This unexpected occurrence was caused by an **Azure initiated auto-recovery action**.
 <!--/issueDescription-->
 
-We identified that the host node where the VM was running was experiencing a transient platform issue during routine background operations. The background operations activity exposed a Host OS issue, where heavy I/O to local disk impacted the VM network. On the physical node, local disk errors were observed and the node recovered.<br>
+We identified that the host node where the VM was running was experiencing a transient platform issue during routine background operations. The background operations activity exposed a Host OS issue, where heavy I/O to local disk impacted the VMs. On the physical node, local disk errors were observed. Our core OS engineers are currently evaluating a solution for this platform issue.<br>
 
 We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.<br>
 
@@ -33,7 +33,7 @@ We apologize for any inconvenience this may have caused you. We are continuously
 ## **Recommended Documents**
 
 * [Auto-recovery of Virtual Machines](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
-* [Manage the availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability)<br>
-* [Configure availability of virtual machines](https://azure.microsoft.com/documentation/articles/virtual-machines-how-to-configure-availability)
+* [Manage the availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability)<br>
+* [Configure availability of virtual machines](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
 * [Understand and use Resource Health Center to troubleshoot this scenario in the future](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
 

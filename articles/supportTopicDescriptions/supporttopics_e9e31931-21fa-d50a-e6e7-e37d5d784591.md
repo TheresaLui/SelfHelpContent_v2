@@ -57,9 +57,9 @@
       "id": "59a3951a-b590-04ab-d1bc-6a221800c3e1",
       "longDescription": "",
       "shortDescription": "Questions or issues  specific to performance issues with the scale set or instance.",
-      "searchTags": "Performance",
+      "searchTags": "Performance;Performance",
       "category": "Performance",
-      "useInDiagnoseAndSolve": "false"
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "7a976faf-d433-740c-50bf-f2660969a347",
