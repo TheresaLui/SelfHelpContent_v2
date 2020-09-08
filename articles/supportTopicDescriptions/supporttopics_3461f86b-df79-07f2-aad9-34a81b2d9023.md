@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "e7a4ae89-8c13-270b-a1be-1aa59bb9b679",
+      "longDescription": "",
+      "shortDescription": "Issue with create or launch of cluster in a VNET Injected workspace. Errors like-Resources were not reachable via SSH, Initial instance bootstrapping",
+      "searchTags": "cluster;vnet",
+      "category": "Cluster Creation, Termination, or Sizing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "ec1bf12e-9f5b-8d3a-4822-a9c850a23605",
       "longDescription": "",
       "shortDescription": "Questions on Deep learning tools and libraries such as Tensorflow or PyTorch",
