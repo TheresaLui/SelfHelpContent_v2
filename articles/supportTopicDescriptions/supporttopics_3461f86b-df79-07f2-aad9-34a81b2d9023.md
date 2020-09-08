@@ -405,6 +405,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c0a2c7ff-dbe6-4f0c-b1e8-a47fbcf75e90",
+      "longDescription": "",
+      "shortDescription": "Question on Databricks external hive metastore ",
+      "searchTags": "metastore",
+      "category": "rds",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c175e679-dcdd-2754-3a1d-45b4c28df4bd",
       "longDescription": "",
       "shortDescription": "Migration issues",
