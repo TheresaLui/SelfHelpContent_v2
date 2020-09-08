@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1c16baad-f847-2baa-a34b-d8819a0e5f50",
+      "longDescription": "",
+      "shortDescription": "Spark Issues with R, Scala, Python, SQL or 3rd Party library",
+      "searchTags": "spark",
+      "category": "spark",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "1de75627-6f75-5150-f706-1b30fb6f79d4",
       "longDescription": "",
       "shortDescription": "Issues with deleting workspace or resource group using Portal or ARM template",
