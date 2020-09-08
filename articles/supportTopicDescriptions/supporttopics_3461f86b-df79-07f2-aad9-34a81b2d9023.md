@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "9b937952-4a32-f5e3-b51a-7679746fbc12",
+      "longDescription": "",
+      "shortDescription": "Issues connecting to workspace or cluster from API, DBConnect or Tableau",
+      "searchTags": "DBConnect;Tableau",
+      "category": "connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9d493413-b0a3-7a8b-3c70-1f13889fc78a",
       "longDescription": "",
       "shortDescription": "VNET injected workspace setup, launch or deployment issues through portal or ARM template",
