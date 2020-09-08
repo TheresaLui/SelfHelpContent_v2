@@ -7,7 +7,7 @@
     ms.author="chez"
     displayOrder=""
     selfHelpType="generic"
-    supportTopicIds="32637151, 32680902, 32680903"
+    supportTopicIds="32749447, 32749446"
     resourceTags=""
     productPesIds="15613"
     cloudEnvironments="public, Fairfax, usnat, ussec"
