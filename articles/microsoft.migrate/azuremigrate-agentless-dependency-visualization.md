@@ -21,12 +21,11 @@
 
 ### **I want access to use the Agentless dependency analysis feature. How do I do that?**
 
-Agentless dependency analysis is available in a limited preview currently, and only for VMware VMs. Please submit a request at [this link](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR35qjpJOBF1MmO4OLvbG-VVUM1UzOVAzVTY2MlM1NE5WMlJXSUhCTkRMOC4u) for access to the preview. Note you can access the preview only when you receive an invitation email. 
+Access to the preview is now self-serve. All details necessary to get started will be available in the form response at [this link](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR35qjpJOBF1MmO4OLvbG-VVUM1UzOVAzVTY2MlM1NE5WMlJXSUhCTkRMOC4u).
 
 ### **I have not received an email invitation even after submitting the request for the preview.**
 
-Expect a delay of 2 weeks to get the invitation email. If you require urgent access, please go ahead and file the case to expedite access providing information on the business urgency. 
-
+Access to the preview is now self-serve. All details necessary to get started will be available in the form response at [this link](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR35qjpJOBF1MmO4OLvbG-VVUM1UzOVAzVTY2MlM1NE5WMlJXSUhCTkRMOC4u).
 
 ### **I see "Unknown process" in the exported CSV**
 
@@ -36,9 +35,9 @@ Expect a delay of 2 weeks to get the invitation email. If you require urgent acc
 
 The server name, application and process fields are populated only for servers that have agentless dependency analysis enabled. It is on the backlog to show server name for all Azure Migrate discovered machines, and not just the ones enabled for dependency analysis. 
 
-### **I want to run analysis on more than 100 servers at a time**
+### **I want to run analysis on more than 400 servers at a time**
 
-Dependency analysis can be run only on a 100 VMs at a time in one project. There is no way to make an exception. Higher concurrent scale will be supported soon.
+Dependency analysis can be run only on a 400 VMs at a time in one project. There is no way to make an exception. Higher concurrent scale will be supported soon.
 
 ### **Can I visualize the map and export dependencies for a VM on which I have stopped dependency data collection**
 
