@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "0dbecd7d-a6bc-1e44-fda5-5b99113d01e9",
+      "longDescription": "",
+      "shortDescription": "How to questions related to notebook setup or usage",
+      "searchTags": "setup;notebook",
+      "category": "notebook",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0de737c6-7f03-8637-58af-6a28082163f7",
       "longDescription": "",
       "shortDescription": "Issues connecting from Databricks to SQL resource(s) like SQL DB, Cosmos DB etc.",
