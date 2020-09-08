@@ -213,6 +213,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "8e2334e6-5c83-35d0-f10c-1f012f6ab535",
+      "longDescription": "",
+      "shortDescription": "Notebook Git or Azure devops sync issues. Audit logs setup related questions as well",
+      "searchTags": "devops;git;logs;log",
+      "category": "notebook",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "97c8f11a-1601-4735-5dae-22aae303db6b",
       "longDescription": "",
       "shortDescription": "Issues connecting from Databricks to Azure Storage resource(s) like ADLSv1, ADLSv2, Blob etc.",
