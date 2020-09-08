@@ -477,6 +477,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "abe33233-7fcd-0112-ab78-8cf3330efcba",
+      "longDescription": "",
+      "shortDescription": "Spark Streaming API in Python (PySpark)",
+      "searchTags": "PySpark",
+      "category": "Spark",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b116b8da-31f3-a5eb-afd3-667a6c0b5130",
       "longDescription": "",
       "shortDescription": "Spark Python API (PySpark)",
