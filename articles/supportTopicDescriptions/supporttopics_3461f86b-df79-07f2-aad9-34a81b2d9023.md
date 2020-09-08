@@ -157,6 +157,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3e6885b3-7b21-cb2d-3258-2bd470fcb122",
+      "longDescription": "",
+      "shortDescription": "Issues related with Tag propagation causing billing issues",
+      "searchTags": "tag;bill",
+      "category": "billing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "3f588450-0f86-a67d-872e-fdd0d399ea4b",
       "longDescription": "",
       "shortDescription": "Issues with embedded Rstudio",
