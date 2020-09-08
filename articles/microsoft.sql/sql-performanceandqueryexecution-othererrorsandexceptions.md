@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Resolve other performance realted errors and exceptions"
-	description="Resolve other performance realted errors and exceptions"
+	pageTitle="Resolve other performance related errors and exceptions"
+	description="Resolve other performance related errors and exceptions"
 	service="microsoft.sql"
 	resource="servers"
 	authors="andikshi"
@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
-# Resolve other performance realted errors and exceptions
+# Resolve other performance related errors and exceptions
 
 ## **Recommended Documents**
 

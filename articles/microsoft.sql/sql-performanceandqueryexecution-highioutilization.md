@@ -18,6 +18,7 @@
 # Resolve poor performance issues due to high IO utilization in Azure SQL Database
 
 IO Usage is split into two types: Data IO and Log IO.Your can quickly identify the IO usage using the query below.
+
 ```
 SELECT end_time, avg_data_io_percent, avg_log_write_percent
 FROM sys.dm_db_resource_stats
@@ -44,7 +45,7 @@ To identify the queries follow [IO Issues](https://docs.microsoft.com/azure/azur
 ### **Query Store**
 
 The SQL Server [Query Store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?redirectedfrom=MSDN&view=sql-server-ver15) feature provides you with insight on query plan choice and performance. It simplifies performance troubleshooting by helping you quickly find performance differences caused by query plan changes. Query Store automatically captures a history of queries, plans, and runtime statistics, and retains these for your review.
-You can fetch the query ID's for TOP IO Consuming (Logical and physical reads) queries by slecting the paticular metic under the regressed queries section of the Query store.
+You can fetch the query ID's for TOP IO Consuming (Logical and physical reads) queries by selecting the particular metric under the regressed queries section of the Query store.
 
 ### **Query performance insights**
 

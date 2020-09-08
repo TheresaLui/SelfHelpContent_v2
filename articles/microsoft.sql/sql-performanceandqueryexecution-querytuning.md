@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Questions or issues realted to Query tuning Azure SQL Database"
-	description="Questions or issues realted to Query tuning Azure SQL Database"
+	pageTitle="Questions or issues related to Query tuning Azure SQL Database"
+	description="Questions or issues related to Query tuning Azure SQL Database"
 	service="microsoft.sql"
 	resource="servers"
 	authors="andikshi"
@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
-# Questions or issues realted to Query tuning Azure SQL Database
+# Questions or issues related to Query tuning Azure SQL Database
 
 ### **Automatic tuning**
 

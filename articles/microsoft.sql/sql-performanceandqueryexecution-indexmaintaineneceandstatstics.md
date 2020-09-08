@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Resolve index and statistics realted issues in Azure SQL Database"
-	description="Resolve index and statistics realted issues in Azure SQL Database"
+	pageTitle="Resolve index and statistics related issues in Azure SQL Database"
+	description="Resolve index and statistics related issues in Azure SQL Database"
 	service="microsoft.sql"
 	resource="servers"
 	authors="andikshi"
@@ -15,11 +15,11 @@
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
-# Resolve index and statistics realted issues in Azure SQL Database
+# Resolve index and statistics related issues in Azure SQL Database
 
 ### **Using automation** 
 
-You can use Azure Automation to run a scheduled runbook that can do the index and statistics maintainence for you. To configure the same, please follow [Automating Azure SQL DB index and statistics maintenance using [Azure Automation](https://techcommunity.microsoft.com/t5/azure-database-support-blog/automating-azure-sql-db-index-and-statistics-maintenance-using/ba-p/368974)
+You can use Azure Automation to run a scheduled runbook that can do the index and statistics maintenance for you. To configure the same, please follow [Automating Azure SQL DB index and statistics maintenance using [Azure Automation](https://techcommunity.microsoft.com/t5/azure-database-support-blog/automating-azure-sql-db-index-and-statistics-maintenance-using/ba-p/368974)
 
 ### **Guidelines for creating\updating large indexes**
 

@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Resolve questions or issues realted to space for Azure SQL Database"
-	description="Resolve questions or issues realted to space for Azure SQL Database"
+	pageTitle="Resolve questions or issues related to space for Azure SQL Database"
+	description="Resolve questions or issues related to space for Azure SQL Database"
 	service="microsoft.sql"
 	resource="servers"
 	authors="andikshi"
@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
-# Resolve questions or issues realted to space for Azure SQL Database
+# Resolve questions or issues related to space for Azure SQL Database
 
 ### **Calculating database and objects sizes**
 
@@ -82,5 +82,5 @@ Failover changes the node of a database and moves it to a new node, it is recomm
 
 ## **Recommended Documents**
 
-* For further details follow [TroubleshootTempDB issues](https://docs.microsoft.com/azure/azure-sql/database/monitoring-with-dmvs#identify-tempdb-performance-issues).
+* For further details follow [Troubleshoot TempDB issues](https://docs.microsoft.com/azure/azure-sql/database/monitoring-with-dmvs#identify-tempdb-performance-issues).
 

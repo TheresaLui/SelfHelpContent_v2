@@ -34,7 +34,7 @@ If you still want to increase timeout you can do that in [.config](https://docs.
 
 In general command timeouts can be self-serve investigated using [query data store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15 ). exec_type != 0 captures failed queries and 3 is timeout.
 
-That said, using wait stats for failed queries we can understand the bottlenecks; in many cases. Follow the docuemnt [Investigate Waitstats](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15#Waiting) to further analyze waits.
+That said, using wait stats for failed queries we can understand the bottlenecks; in many cases. Follow the document [Investigate Waitstats](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?view=sql-server-ver15#Waiting) to further analyze waits.
 
 If the query bottleneck on IO : 
 * Increase the query timeout.

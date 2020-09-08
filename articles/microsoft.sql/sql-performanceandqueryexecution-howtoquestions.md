@@ -1,6 +1,6 @@
 <properties
-	pageTitle="How to questions realted to performance issues in Azure SQL Database"
-	description="How to questions realted to performance issues in Azure SQL Database"
+	pageTitle="How to questions related to performance issues in Azure SQL Database"
+	description="How to questions related to performance issues in Azure SQL Database"
 	service="microsoft.sql"
 	resource="servers"
 	authors="andikshi"
@@ -15,7 +15,7 @@
 	ownershipId="AzureData_AzureSQLDB_Performance"
 />
 
-# How to questions realted to performance issues in Azure SQL Database
+# How to questions related to performance issues in Azure SQL Database
 
 ## **Recommended Documents**
 

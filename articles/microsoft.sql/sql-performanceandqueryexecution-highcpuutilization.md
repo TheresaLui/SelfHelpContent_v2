@@ -18,11 +18,11 @@
 # Resolve poor performance and timeout issues in Azure SQL Database
 
 There are various [performance monitoring tools](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-ver15) available for Azure SQL Databases.
-For anayzing High CPU usage we recommend the following:
+For analyzing High CPU usage we recommend the following:
 
 ### **TSQL**
 
-### If the CPU issue is occuring now:
+### If the CPU issue is occurring now:
 
 * Many individual queries that cumulatively consume high CPU
 
