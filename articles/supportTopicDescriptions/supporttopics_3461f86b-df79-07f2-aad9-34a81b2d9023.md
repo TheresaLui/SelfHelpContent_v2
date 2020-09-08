@@ -83,6 +83,14 @@
       "searchTags": "Tensorflow ;PyTorch",
       "category": "ML",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "fae810f3-a91b-d633-93b6-cb1121a2b7a8",
+      "longDescription": "",
+      "shortDescription": "Issue due to IP Quota Limit, error like-Cannot create more than xx public IP addresses for this subscription, error code PublicIPCountLimitReached",
+      "searchTags": "IP;quota;create failure",
+      "category": "Cluster Creation, Termination, or Sizing",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
