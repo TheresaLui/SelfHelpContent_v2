@@ -237,6 +237,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6ac20cba-ed2f-7a1a-2e22-5c6448bb26ba",
+      "longDescription": "",
+      "shortDescription": "Spark or DBR Machine learning tools and libraries, such as spark.ml or xgboost - Setup, deployment or errors",
+      "searchTags": "xgboost ;DBR ;spark.ml",
+      "category": "ML",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6b7214b5-7b50-8b5a-62af-3d4acac1987d",
       "longDescription": "",
       "shortDescription": "Issues related to Databricks workspace. For cluster failures within workspace, pick the topic-Cluster Creation, Termination or Sizing",
