@@ -253,6 +253,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b57d66fb-fd1b-04b5-c5fb-8067098eeb52",
+      "longDescription": "",
+      "shortDescription": "Setup, execution and revision issues related to Notebook",
+      "searchTags": "notebook",
+      "category": "notebook",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "bdafa7d8-6235-c668-e0e4-42032ccc82b4",
       "longDescription": "",
       "shortDescription": "Issues related to R API of Spark, leveraging base R, sparklyr, SparkR, or other R libraries",
