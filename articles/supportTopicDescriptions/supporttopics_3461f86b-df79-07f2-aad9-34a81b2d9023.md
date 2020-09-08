@@ -293,6 +293,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "f2f4cad6-9ff5-a8ae-7c22-e6891ad98824",
+      "longDescription": "",
+      "shortDescription": "Library install issues through init script or REST API or UI. Library Compatibility issues",
+      "searchTags": "library",
+      "category": "library",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f3dab812-bcb8-80b8-13ce-51c8303a37b2",
       "longDescription": "",
       "shortDescription": "Spark SQL API issues",
