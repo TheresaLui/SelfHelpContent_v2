@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "6c282bef-9e90-6dd3-2f86-d130c201fec4",
+      "longDescription": "",
+      "shortDescription": "Authentication and Security related questions and issues",
+      "searchTags": "security;permissions;access;authentication",
+      "category": "security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "863da22a-d166-731a-0bef-d7b75b51039f",
       "longDescription": "",
       "shortDescription": "Issues with creating, launch, terminating or sizing Databricks cluster. Not for workspace creation or failure issues",
