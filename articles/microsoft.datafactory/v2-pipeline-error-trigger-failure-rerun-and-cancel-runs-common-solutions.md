@@ -1,6 +1,6 @@
-﻿<properties
-    pageTitle="V2 - Pipeline Error or Trigger Failure - Rerun and Cancel Runs Common Solutions"
-    description="V2 - Pipeline Error or Trigger Failure - Rerun and Cancel Runs Common Solutions"
+<properties
+    pageTitle="Pipeline Error or Trigger Failure - Rerun and Cancel Runs Common Solutions"
+    description="Pipeline Error or Trigger Failure - Rerun and Cancel Runs Common Solutions"
     service="microsoft.datafactory"
     resource="factories"
     authors="jaserano, v-miegge"
@@ -15,7 +15,7 @@
 	ownershipId="AzureData_DataFactory"
 />
 
-# V2 - Pipeline Error or Trigger Failure -  Rerun and Cancel Runs Common Solutions
+# Pipeline Error or Trigger Failure - Rerun and Cancel Runs Common Solutions
 
 ## **Recommended Documents**
 
