@@ -21,7 +21,7 @@ ownershipId="StorageMediaEdge_StorageBlobs"
 
 <!--issueDescription-->
 
-High client latency was observed for storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** between time**<!--$IssueStartTime-->[IssueStartTime]<!--/$IssueStartTime-->** and **<!--$IssueEndTime-->[IssueEndTime]<!--/$IssueEndTime-->**. The high latency could originate from either slow public internet connections, slow corporate proxy servers, bad routes, slow application performance such as high CPU, or client's network configuration problems.
+High client latency was observed for storage account **<!--$ResourceName-->[ResourceName]<!--/$ResourceName-->** between time **<!--$IssueStartTime-->[IssueStartTime]<!--/$IssueStartTime-->** and **<!--$IssueEndTime-->[IssueEndTime]<!--/$IssueEndTime-->**. The high latency could originate from either slow public internet connections, slow corporate proxy servers, bad routes, slow application performance such as high CPU, or client's network configuration problems.
 
 <!--/issueDescription-->
 
