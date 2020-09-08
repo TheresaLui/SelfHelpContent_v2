@@ -28,7 +28,7 @@ Are you facing one of these common problems?
 
 * I'm not able to pull *.env* file present in securefiles and use it in my dockerFile while running the azure pipelines
 
-	Make sure the file stored in secure files is not added in *.gitignore* file of your repository. The *.env* files are not involved in the “build and push” task. However, when you run the image, you can specify *.env* files.
+	Make sure the file stored in secure files is not added in *.gitignore* file of your repository. The *.env* files are not involved in the **build and push** task. However, when you run the image, you can specify *.env* files.
 
 * Insufficient space in docker VM used to build images
 	
@@ -36,7 +36,7 @@ Are you facing one of these common problems?
 
 * **docker pull** is not fetching current/correct docker images from ACR
 
-    Remove all the existing images and containers running for the particular version. Build and push the image again to the container registry. Also, if you have a docker-compose.yml defined, then the **docker-compose up** command will ideally start or restart all the services defined in the Dockerfile. Then execute the **docker run** command which will run the image.
+	Remove all the existing images and containers running for the particular version. Build and push the image again to the container registry. Also, if you have a docker-compose.yml defined, then the **docker-compose up** command will ideally start or restart all the services defined in the Dockerfile. Then execute the **docker run** command which will run the image.
 
 * I need guidance on using the Docker Build  & Docker push tasks in Azure Pipelines
 
