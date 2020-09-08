@@ -437,6 +437,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a31948fb-b1c4-8962-5c36-4e72a6cd1d5b",
+      "longDescription": "",
+      "shortDescription": "Notebook Sync or save issues using Azure DevOps",
+      "searchTags": "notebook;devops",
+      "category": "source control",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "a72e68b6-c820-3240-b91b-90ec1ee13a0a",
       "longDescription": "",
       "shortDescription": "Data Science Issues like Machine Learning, MLFlow etc.",
