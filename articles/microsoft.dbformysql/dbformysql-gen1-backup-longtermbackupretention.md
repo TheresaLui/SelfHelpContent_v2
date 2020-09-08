@@ -11,7 +11,7 @@
     resourceTags="servers, databases"
     productPesIds="16221"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="be30fc87-a22e-47e3-b1b5-7a80dc1b3a12"
+    articleId="3a667ceb-336e-49cd-a92c-8d9cf8b79945"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 

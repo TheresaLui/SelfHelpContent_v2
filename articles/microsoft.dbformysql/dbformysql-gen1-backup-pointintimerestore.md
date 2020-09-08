@@ -11,7 +11,7 @@
     resourceTags="servers, databases"
     productPesIds="16221"
     cloudEnvironments="public, Fairfax, usnat, ussec, Mooncake"
-    articleId="53cc541f-c3de-406e-93cf-cab3a0842fce"
+    articleId="7fd438af-9966-4776-8dac-208e35f4859f"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
