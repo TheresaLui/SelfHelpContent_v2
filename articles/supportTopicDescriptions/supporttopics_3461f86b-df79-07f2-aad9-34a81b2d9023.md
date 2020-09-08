@@ -149,6 +149,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3f588450-0f86-a67d-872e-fdd0d399ea4b",
+      "longDescription": "",
+      "shortDescription": "Issues with embedded Rstudio",
+      "searchTags": "Rstudio",
+      "category": "ML",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "3f86cd39-340e-22e2-f408-15e1978f7c49",
       "longDescription": "",
       "shortDescription": "Questions related with alerts on job success or failure. Troubleshooting of alerts setup",
