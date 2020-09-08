@@ -125,6 +125,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d709601a-4603-8e45-f9e9-424d2063186d",
+      "longDescription": "",
+      "shortDescription": "ACL permission issue for data objects on specific cluster and SQL table access issues",
+      "searchTags": "ACL;sql ;access",
+      "category": "security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e7a4ae89-8c13-270b-a1be-1aa59bb9b679",
       "longDescription": "",
       "shortDescription": "Issue with create or launch of cluster in a VNET Injected workspace. Errors like-Resources were not reachable via SSH, Initial instance bootstrapping",
