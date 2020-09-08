@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "0365b69a-cffa-a5fb-3f96-b93f86ae4175",
+      "longDescription": "",
+      "shortDescription": "Metastore issues",
+      "searchTags": "metastore;rds",
+      "category": "rds",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0dbecd7d-a6bc-1e44-fda5-5b99113d01e9",
       "longDescription": "",
       "shortDescription": "How to questions related to notebook setup or usage",
