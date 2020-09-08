@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3f86cd39-340e-22e2-f408-15e1978f7c49",
+      "longDescription": "",
+      "shortDescription": "Questions related with alerts on job success or failure. Troubleshooting of alerts setup",
+      "searchTags": "job;alert",
+      "category": "job",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "48136392-d8b2-793e-cd06-901c9c3df493",
       "longDescription": "",
       "shortDescription": "Failures due to anything other than cluster or Spark issues. If the failure is because either of these, pick the respective topic in above dropdown",
