@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "be0bcaa7-02b0-fc53-2ed8-b26e60c5ddeb",
+      "longDescription": "",
+      "shortDescription": "Slow scaling or errors resizing Databricks cluster(s) like-Cannot resize, Upsize to xx",
+      "searchTags": "sizing;scaling",
+      "category": "Cluster Creation, Termination, or Sizing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "e7a4ae89-8c13-270b-a1be-1aa59bb9b679",
       "longDescription": "",
       "shortDescription": "Issue with create or launch of cluster in a VNET Injected workspace. Errors like-Resources were not reachable via SSH, Initial instance bootstrapping",
