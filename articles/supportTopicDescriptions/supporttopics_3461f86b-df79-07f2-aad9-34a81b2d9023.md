@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2af6bbb0-4e9e-f6b6-b23a-36fcd49a1384",
+      "longDescription": "",
+      "shortDescription": "Issues with MLFlow (Java, Python, R, and REST API), a comprehensive ML API managing the full modelling life cycle",
+      "searchTags": "MLFlow ;REST API;R;Python;Java",
+      "category": "ML",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2ca387c2-b56b-b3de-37af-aa7cd79c1022",
       "longDescription": "",
       "shortDescription": "Any topics NOT covered in other topics in this list",
