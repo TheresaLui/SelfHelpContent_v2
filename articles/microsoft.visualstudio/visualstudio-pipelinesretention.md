@@ -23,8 +23,9 @@
 Are you facing one of these common problems?
 
 * I lost some of the pipeline runs. Is there a way to get them back?
+
   - Understand how retention works and when runs are deleted by reviewing the [docs](https://docs.microsoft.com/azure/devops/pipelines/policies/retention?view=azure-devops&tabs=yaml#set-run-retention-policies).
-  - If you believe that you have lost the runs due to a bug in the service, 	then create a support ticket to recover the lost information. 
+  - If you believe that you have lost the runs due to a bug in the service, then create a support ticket to recover the lost information. 
   - If the runs have been deleted as expected due to a retention policy or if the runs have been deleted more than a week ago, then it is not possible to recover the lost runs.
 
 * We need to retain builds and releases longer than what is allowed in the settings. How can I request a longer retention?
