@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "482bd735-8c3d-71b2-c777-f940638106ff",
+      "longDescription": "",
+      "shortDescription": "Any error encountered during cluster creation or launch",
+      "searchTags": "cannot create;cannot launch;launch failure;error;cluster",
+      "category": "Cluster Creation, Termination, or Sizing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "489787b7-54bd-3ff6-5806-913c62ab7976",
       "longDescription": "",
       "shortDescription": "Core Quota Limit getting errors like- Results in exceeding quota limits of Core, error code OperationNotAllowedOperation",
