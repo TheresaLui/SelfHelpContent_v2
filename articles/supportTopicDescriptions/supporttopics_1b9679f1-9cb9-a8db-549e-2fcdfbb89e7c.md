@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   description="SupportTopicDescriptions for 1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   authors="elixirsys2"
-  ms.author="mcarter"
+  ms.author="mcarter, liamca"
   selfhelptype="SupportTopicDescription"
   productpesids="1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -29,11 +29,59 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1115c9b8-1bc5-dfa1-e645-ba127d2adb27",
+      "longDescription": "",
+      "shortDescription": "Issues with moving your Azure Cognitive Search service to a new subscription.",
+      "searchTags": "move;subscription;resource",
+      "category": "Setup and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "1c9dc477-a2e0-ba06-2f5e-a1c3d71bc65b",
+      "longDescription": "",
+      "shortDescription": "Please use this topic if you are not able to find your issue in one of the other support topics",
+      "searchTags": "advisory",
+      "category": "General",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "3e0f5ec1-8f77-0169-0ddb-f774c4b5030f",
+      "longDescription": "",
+      "shortDescription": "When using the Scale blade in the Azure Cognitive Search portal, I am unable to adjust the replica or partition count as the buttons are disabled.",
+      "searchTags": "portal;scale;replicas;partitions;disabled button",
+      "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "46c8fb6c-e59a-eae3-a95e-c66f374726cb",
+      "longDescription": "",
+      "shortDescription": "When creating an Azure Cognitive Search Indexer through the Azure Portal, the schema created is not what is expected based on the data source.",
+      "searchTags": "portal;indexer;schema definition",
+      "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "5054bba7-b0ee-a89c-b099-d699a9e6c169",
+      "longDescription": "",
+      "shortDescription": "When using the Azure Cognitive Search portal, I am unable to view my search service details because there is a rain cloud icon.",
+      "searchTags": "portal;rain cloud icon",
+      "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5527a869-571a-d6c1-b223-46bb59108f3c",
       "longDescription": "",
       "shortDescription": "Issues creating an Azure Cognitive Search service",
       "searchTags": "create;service",
       "category": "Setup and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "5d915fcf-bf22-8775-23a6-8cce6c83ed6b",
+      "longDescription": "",
+      "shortDescription": "After running the Azure Cognitive Search Indexer from the Azure Portal, the number of documents indexed is inconsistent from the data source.",
+      "searchTags": "portal;indexer;document count incorrect",
+      "category": "Portal",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -69,6 +117,22 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a36b678e-721f-c2a1-d9c6-c7e375e2c0c1",
+      "longDescription": "",
+      "shortDescription": "If you do not see your preferred region listed when you are provisioning your Azure Cognitive Search service.",
+      "searchTags": "region;create",
+      "category": "Setup and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b26c9aba-93c1-580b-211d-80471cd82afc",
+      "longDescription": "",
+      "shortDescription": "The information displayed in the Azure Cognitive Search portal for the search service or index is not accurate.",
+      "searchTags": "portal;index size incorrect;out of date statistics",
+      "category": "Portal",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "c1c638a0-b924-030a-47d5-9d907a2db9ae",
       "longDescription": "",
       "shortDescription": "Issue with deleting an Azure Cognitive Search service",
@@ -82,6 +146,14 @@
       "shortDescription": "Issues with dropped or terminated connections to your Azure Cognitive Search service",
       "searchTags": "connectivity;firewall;private endpoints;connection issues",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d6c33adf-7305-21f9-2313-d80cd9ca365d",
+      "longDescription": "",
+      "shortDescription": "For general issues related to the Azure Cognitive Search portal including components not loading or browser related issues.",
+      "searchTags": "portal;general issue;failed to load;browser issue",
+      "category": "Portal",
       "useInDiagnoseAndSolve": "true"
     }
   ]
