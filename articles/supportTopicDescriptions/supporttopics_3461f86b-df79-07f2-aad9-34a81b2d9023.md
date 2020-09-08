@@ -221,6 +221,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "77403de1-cd06-f3fd-6a60-9f8ab8da7f13",
+      "longDescription": "",
+      "shortDescription": "Notebook Issues related to UI slowness or unresponsiveness",
+      "searchTags": "notebook;slow;hang;unresponsive",
+      "category": "notebook",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "86322827-2ccd-eaad-2b3b-de45e7b76ec7",
       "longDescription": "",
       "shortDescription": "Library installation issue using REST API",
