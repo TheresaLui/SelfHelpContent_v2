@@ -325,6 +325,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b43bfc85-575b-9b75-a556-9e2a4cd1c79e",
+      "longDescription": "",
+      "shortDescription": "Mount point creation or access issues",
+      "searchTags": "mount point;dbfs",
+      "category": "storage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b57d66fb-fd1b-04b5-c5fb-8067098eeb52",
       "longDescription": "",
       "shortDescription": "Setup, execution and revision issues related to Notebook",
