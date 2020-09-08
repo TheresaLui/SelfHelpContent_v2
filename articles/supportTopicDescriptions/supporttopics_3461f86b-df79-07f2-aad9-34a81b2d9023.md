@@ -173,6 +173,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "86322827-2ccd-eaad-2b3b-de45e7b76ec7",
+      "longDescription": "",
+      "shortDescription": "Library installation issue using REST API",
+      "searchTags": "rest;rest api",
+      "category": "libraries",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "863da22a-d166-731a-0bef-d7b75b51039f",
       "longDescription": "",
       "shortDescription": "Issues with creating, launch, terminating or sizing Databricks cluster. Not for workspace creation or failure issues",
