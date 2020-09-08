@@ -237,6 +237,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "61725585-25ca-8983-48e0-62f2ee712a23",
+      "longDescription": "",
+      "shortDescription": "Connectivity issues with  IDE (IntelliJ, Eclipse, PyCharm, RStudio, Visual Studio) and notebook server (Zeppelin, Jupyter)",
+      "searchTags": "Zeppelin;Jupyter;Eclipse;RStudio;Visual Studio",
+      "category": "DB Connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "641c540d-0f2b-b8c1-d3ee-ace3ac33b20c",
       "longDescription": "",
       "shortDescription": "BLOB and Fuse mount related issues on the cluster node",
