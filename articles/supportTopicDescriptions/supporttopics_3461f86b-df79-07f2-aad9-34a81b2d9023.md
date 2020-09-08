@@ -565,6 +565,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ca187f00-f64f-4f0b-7fc8-766fbee5c00b",
+      "longDescription": "",
+      "shortDescription": "Delta Lake issues",
+      "searchTags": "delta;delta lake",
+      "category": "delta",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d038b620-0d83-917a-4fb4-1067e5201c9f",
       "longDescription": "",
       "shortDescription": "Notebook sync or save issues using Bitbucket",
