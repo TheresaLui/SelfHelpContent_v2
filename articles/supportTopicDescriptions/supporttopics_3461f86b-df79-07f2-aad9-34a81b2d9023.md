@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "3d06ffb2-4b8a-a2e8-5c41-11f0fee54ff9",
+      "longDescription": "",
+      "shortDescription": "Use this for other security issues not listed above like Azure Key Vault issues, Databricks Users or Groups ACL etc.",
+      "searchTags": "key vault;acl;group",
+      "category": "security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "48136392-d8b2-793e-cd06-901c9c3df493",
       "longDescription": "",
       "shortDescription": "Failures due to anything other than cluster or Spark issues. If the failure is because either of these, pick the respective topic in above dropdown",
