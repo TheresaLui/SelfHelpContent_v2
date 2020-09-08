@@ -389,6 +389,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9da0f752-ac17-626a-02bf-682eba251a22",
+      "longDescription": "",
+      "shortDescription": "Any performance issues of data science apps",
+      "searchTags": "app;data science",
+      "category": "ML",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9e1df1c6-cf3e-bdfa-3322-f5162cc6713b",
       "longDescription": "",
       "shortDescription": "Questions on Job failures, job alerts or job performance",
