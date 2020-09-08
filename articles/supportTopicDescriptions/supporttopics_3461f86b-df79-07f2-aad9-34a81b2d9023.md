@@ -509,6 +509,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c981a4cd-0c65-92f7-c1e7-7b9eee987579",
+      "longDescription": "",
+      "shortDescription": "DB connect dependency issue like pom.xml, build.sbt having issues ",
+      "searchTags": "build.sbt;pom.xml",
+      "category": "db connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d709601a-4603-8e45-f9e9-424d2063186d",
       "longDescription": "",
       "shortDescription": "ACL permission issue for data objects on specific cluster and SQL table access issues",
