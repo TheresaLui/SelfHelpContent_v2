@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "4bf050fe-8065-959c-955c-d73e18c4134e",
+      "longDescription": "",
+      "shortDescription": "Issues connecting from Databricks to other not listed resource(s). Network issues with custom network configuration, firewall, service endpoints etc.",
+      "searchTags": "network;firewall;service endpoint",
+      "category": "Connectivity",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5a23e325-6da8-b327-5ae1-f7c46304c607",
       "longDescription": "",
       "shortDescription": "ACL permission issue when trying to access workspace folders, notebooks, experiments, models, clusters, pools, and jobs",
