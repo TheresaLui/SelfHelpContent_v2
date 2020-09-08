@@ -17,11 +17,7 @@
 
 # Cloud provider launch failure 
 
-Cloud provider launch failure with error: 
-
-```
-The client 'xxx' with object id 'xxx' does not have authorization to perform action 'Microsoft.Network/publicIPAddresses/write' over scope '/subscriptions/xxx...')
-```
+Cloud provider launch fails with error "The client 'xxx' with object id 'xxx' does not have authorization to perform action 'Microsoft.Network/publicIPAddresses/write' over scope '/subscriptions/xxx...')".
 
 ### Troubleshooting and Solution
 
