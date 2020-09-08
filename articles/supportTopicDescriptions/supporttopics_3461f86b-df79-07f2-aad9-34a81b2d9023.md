@@ -245,6 +245,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "55f481d6-0415-18ba-0585-3be8e83b27bf",
+      "longDescription": "",
+      "shortDescription": "Billing Issues",
+      "searchTags": "Bill",
+      "category": "billing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5a23e325-6da8-b327-5ae1-f7c46304c607",
       "longDescription": "",
       "shortDescription": "ACL permission issue when trying to access workspace folders, notebooks, experiments, models, clusters, pools, and jobs",
