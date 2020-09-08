@@ -517,6 +517,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "daebbe79-b7e4-3ddc-4c8c-c3812daa26bc",
+      "longDescription": "",
+      "shortDescription": "DB connect issues",
+      "searchTags": "DB connect",
+      "category": "DB Connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "df7ef7c7-05a3-bf4f-ee10-4ae9f2111ddc",
       "longDescription": "",
       "shortDescription": "Spark 3rd party library. Check release notes for bundled libraries and versions",
