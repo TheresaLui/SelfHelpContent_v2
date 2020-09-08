@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1edaf5b9-7634-a0a9-deac-8ea3bcea3c14",
+      "longDescription": "",
+      "shortDescription": "Spark Streaming issues",
+      "searchTags": "spark streaming",
+      "category": "spark",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "27a4afbf-b90d-1d20-c293-0b11326f6a94",
       "longDescription": "",
       "shortDescription": "Notebook execution failures encountered when sending messages to cluster or fetch results hanging etc. This is unrelated to spark command failures",
