@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "27a4afbf-b90d-1d20-c293-0b11326f6a94",
+      "longDescription": "",
+      "shortDescription": "Notebook execution failures encountered when sending messages to cluster or fetch results hanging etc. This is unrelated to spark command failures",
+      "searchTags": "notebook;error",
+      "category": "notebook",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2ca387c2-b56b-b3de-37af-aa7cd79c1022",
       "longDescription": "",
       "shortDescription": "Any topics NOT covered in other topics in this list",
