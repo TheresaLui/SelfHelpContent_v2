@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1de75627-6f75-5150-f706-1b30fb6f79d4",
+      "longDescription": "",
+      "shortDescription": "Issues with deleting workspace or resource group using Portal or ARM template",
+      "searchTags": "workspace;ARM;resource group",
+      "category": "workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2ca387c2-b56b-b3de-37af-aa7cd79c1022",
       "longDescription": "",
       "shortDescription": "Any topics NOT covered in other topics in this list",
