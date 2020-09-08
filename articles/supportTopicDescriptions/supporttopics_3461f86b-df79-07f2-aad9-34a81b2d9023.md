@@ -197,6 +197,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9cb173e9-088a-0322-6dc6-d76d6e99b3eb",
+      "longDescription": "",
+      "shortDescription": "Job(s) failure due to 3rd party library. Third party library installation issues",
+      "searchTags": "job;library",
+      "category": "job",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9d493413-b0a3-7a8b-3c70-1f13889fc78a",
       "longDescription": "",
       "shortDescription": "VNET injected workspace setup, launch or deployment issues through portal or ARM template",
