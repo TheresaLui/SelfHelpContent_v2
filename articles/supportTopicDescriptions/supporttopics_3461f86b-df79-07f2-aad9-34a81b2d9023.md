@@ -541,6 +541,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ed504ad8-607b-d399-21d1-233002504be4",
+      "longDescription": "",
+      "shortDescription": "Assistance with Koalas, a pandas wrapper for PySpark supporting distributed datasets",
+      "searchTags": "Koala;panda;PySpark",
+      "category": "ML",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f2f4cad6-9ff5-a8ae-7c22-e6891ad98824",
       "longDescription": "",
       "shortDescription": "Library install issues through init script or REST API or UI. Library Compatibility issues",
