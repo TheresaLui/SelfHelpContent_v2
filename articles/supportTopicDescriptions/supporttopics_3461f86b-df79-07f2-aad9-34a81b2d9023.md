@@ -205,6 +205,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "641c540d-0f2b-b8c1-d3ee-ace3ac33b20c",
+      "longDescription": "",
+      "shortDescription": "BLOB and Fuse mount related issues on the cluster node",
+      "searchTags": "blob;fuse mount",
+      "category": "storage",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "64f33a31-5366-6de2-048c-d440997e6c45",
       "longDescription": "",
       "shortDescription": "Questions or issues connecting from and to Databricks",
