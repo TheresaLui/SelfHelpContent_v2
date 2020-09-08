@@ -85,6 +85,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2f19b68f-5d21-60c1-5324-9bc8ba577faf",
+      "longDescription": "",
+      "shortDescription": "Monitoring, diagnostics and instrumentation issues",
+      "searchTags": "monitor;logs;diagnostic;log",
+      "category": "monitor",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "3054286b-2c56-966b-0b63-ddd9134361d7",
       "longDescription": "",
       "shortDescription": "ADLS authentication issues when using AAD credential passthrough",
