@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9e1df1c6-cf3e-bdfa-3322-f5162cc6713b",
+      "longDescription": "",
+      "shortDescription": "Questions on Job failures, job alerts or job performance",
+      "searchTags": "job",
+      "category": "Job",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "abb5ba16-c4a5-3c94-6fbf-a45df84247d7",
       "longDescription": "",
       "shortDescription": "Cluster creation failing or slow due to init script failure during library installation",
