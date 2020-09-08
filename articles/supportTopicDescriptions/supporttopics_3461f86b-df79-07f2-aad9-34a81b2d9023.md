@@ -325,6 +325,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c175e679-dcdd-2754-3a1d-45b4c28df4bd",
+      "longDescription": "",
+      "shortDescription": "Migration issues",
+      "searchTags": "migrate",
+      "category": "migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d709601a-4603-8e45-f9e9-424d2063186d",
       "longDescription": "",
       "shortDescription": "ACL permission issue for data objects on specific cluster and SQL table access issues",
