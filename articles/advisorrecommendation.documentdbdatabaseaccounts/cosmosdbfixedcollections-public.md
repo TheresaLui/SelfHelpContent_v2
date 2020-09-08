@@ -3,9 +3,9 @@
     description="Configure your Azure Cosmos containers with a partition key"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="5b5349fb-b298-41e3-b281-982b7986db67_USNat"
+    articleId="5e4e9f04-9201-4fd9-8af6-a9539d13d8ec_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="USNat"
+    cloudEnvironments="Public, USNat, USSec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure your Azure Cosmos containers with a partition key
@@ -14,7 +14,7 @@
   "recommendationOfferingId": "86ec4e3b-1865-4240-89f6-c2f3553df5ac",
   "recommendationOfferingName": "Azure Cosmos DB",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "5b5349fb-b298-41e3-b281-982b7986db67",
+  "recommendationTypeId": "5e4e9f04-9201-4fd9-8af6-a9539d13d8ec",
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
@@ -37,7 +37,7 @@
   "displayLabel": "Configure your Azure Cosmos DB containers with a partition key",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbusnateast.usnateast.kusto.core.eaglex.ic.gov').database('Support').PartitionedCollections",
+    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').FixedCollections",
     "refreshInterval": "0.12:00:00"
   },
   "additionalColumns": [
@@ -52,7 +52,7 @@
   ],
   "actions": [
     {
-      "actionId": "89b9f16e-bf15-4247-a5dc-5f58f366459c",
+      "actionId": "a3427907-2ed2-4f9a-b16c-6bd450cdd57a",
       "description": "Configure containers with a partition key",
       "actionType": "Document",
       "documentLink": "https://docs.microsoft.com/azure/cosmos-db/partitioning-overview#choose-partitionkey"
@@ -60,7 +60,7 @@
   ],
   "resourceMetadata": {
     "action": {
-      "actionId": "2847eab2-874f-45b1-8517-a5e5709ef280",
+      "actionId": "06bd4d71-346a-40a6-9d6d-d916703436de",
       "actionType": "Blade",
       "extensionName": "Microsoft_Azure_DocumentDB",
       "bladeName": "DatabaseAccountTemplateBladeForGlobalDb",
