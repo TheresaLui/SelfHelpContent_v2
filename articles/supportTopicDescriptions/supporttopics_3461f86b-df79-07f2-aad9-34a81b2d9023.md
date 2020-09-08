@@ -45,6 +45,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "192f248a-261d-ffd6-23b6-9693f2cbfac7",
+      "longDescription": "",
+      "shortDescription": "Client connectivity from Tableau or Power BI or AAS using SIMBA connector",
+      "searchTags": "Tableau;Power BI;analysis services;simba",
+      "category": "report",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "19ed79a4-b4ae-48a5-5d75-87bac04767dc",
       "longDescription": "",
       "shortDescription": "Issues when recovering Databricks workspace or resource group after accidental deletion or failed migration",
