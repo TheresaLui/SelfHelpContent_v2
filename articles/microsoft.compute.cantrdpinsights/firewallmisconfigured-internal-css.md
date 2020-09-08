@@ -5,6 +5,7 @@ infoBubbleText="Guest OS firewall profiles were setup to block all inbound conne
 service="microsoft.compute"
 resource="virtualmachines"
 authors="manavis"
+ms.author="tibasham"
 displayOrder=""
 articleId="vmhealthsignal_4d7f5e70-4f1d-48b0-aadd-6bf8e36f3d4a"
 diagnosticScenario="Firewall Misconfigured"
@@ -35,6 +36,7 @@ Guest OS firewall profiles were setup to block all inbound connections including
 7. Locate and click the registry hive `\windows\system32\config\SYSTEM` from the attached OS disk and click open.
 8. In the Load Hive dialog box, type a name 'ImpactedVM' in the Key Name box that needs to be edited.
 9. Now in the subtree 'ImpactedVM' mounted, delete the following key properties
+
 ```
 HKLM\ImpactedVM\ControlSet001\services\SharedAccess\Parameters\FirewallPolicy\DomainProfile\DoNotAllowExceptions
 HKLM\ImpactedVM\ControlSet001\services\SharedAccess\Parameters\FirewallPolicy\PublicProfile\DoNotAllowExceptions
