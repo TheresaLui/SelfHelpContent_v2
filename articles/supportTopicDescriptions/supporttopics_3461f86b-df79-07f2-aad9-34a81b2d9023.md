@@ -533,6 +533,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d038b620-0d83-917a-4fb4-1067e5201c9f",
+      "longDescription": "",
+      "shortDescription": "Notebook sync or save issues using Bitbucket",
+      "searchTags": "bitbucket;notebook;sync",
+      "category": "source control",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d709601a-4603-8e45-f9e9-424d2063186d",
       "longDescription": "",
       "shortDescription": "ACL permission issue for data objects on specific cluster and SQL table access issues",
