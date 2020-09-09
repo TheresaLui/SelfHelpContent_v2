@@ -5,7 +5,7 @@
 	ms.author="chengxin"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32731217,32639977"
-	productPesIds="17067,17069,17068"
+	productPesIds="17067,17068"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-pg-connectivity-dropped-errors"
@@ -83,8 +83,26 @@
             "required": false
         },
         {
-            "id": "application",
+            "id": "resource_health",
             "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Does your server show Unavailable in the Resource Health blade in portal?",
+            "infoBalloonText": "Resource health menu item can be found above New support request.",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "application",
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Are you connecting to your database server from application?",
             "dropdownOptions": [
@@ -101,7 +119,7 @@
         },
         {
             "id": "non_application",
-            "order": 6,
+            "order": 7,
             "visibility": "application == dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "What is your client?",
@@ -110,7 +128,7 @@
         },
         {
             "id": "container",
-            "order": 7,
+            "order": 8,
             "visibility": "application == Yes",
             "controlType": "dropdown",
             "displayLabel": "Is your application running in any container service?",
@@ -128,7 +146,7 @@
         },
         {
             "id": "Azure_application",
-            "order": 8,
+            "order": 9,
             "visibility": "application == Yes",
             "controlType": "dropdown",
             "displayLabel": "Is your application running in Azure?",
@@ -146,7 +164,7 @@
         },
         {
             "id": "Azure_application_subscription",
-            "order": 9,
+            "order": 10,
             "visibility": "application == Yes && Azure_application == Yes",
             "controlType": "textbox",
             "displayLabel": "Subscription ID of your Azure App Service:",
@@ -154,7 +172,7 @@
         },
         {
             "id": "Azure_application_type",
-            "order": 10,
+            "order": 11,
             "visibility": "application == Yes && Azure_application == Yes",
             "controlType": "dropdown",
             "displayLabel": "What is the type of your Azure App Service?",
@@ -180,7 +198,7 @@
         },
         {
             "id": "Azure_application_name",
-            "order": 11,
+            "order": 12,
             "visibility": "application == Yes && Azure_application == Yes",
             "controlType": "textbox",
             "displayLabel": "What is the name of your Azure App Service?",
@@ -188,7 +206,7 @@
         },
         {
             "id": "application_location",
-            "order": 12,
+            "order": 13,
             "visibility": "application == Yes && Azure_application == No",
             "controlType": "textbox",
             "displayLabel": "Where is your application running?",
@@ -196,7 +214,7 @@
         },
         {
             "id": "application_driver",
-            "order": 13,
+            "order": 14,
             "visibility": "application == Yes",
             "controlType": "textbox",
             "displayLabel": "What is the type and version of your client driver?",
@@ -205,7 +223,7 @@
         },
         {
             "id": "application_retry",
-            "order": 14,
+            "order": 15,
             "visibility": "application == Yes",
             "controlType": "dropdown",
             "displayLabel": "Does your application have retry mechanism?",
@@ -223,7 +241,7 @@
         },
         {
             "id": "application_log",
-            "order": 15,
+            "order": 16,
             "visibility": "application == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Please share any client side logs:",
@@ -231,7 +249,7 @@
         },
         {
             "id": "connection_pooler",
-            "order": 16,
+            "order": 17,
             "controlType": "dropdown",
             "displayLabel": "Are you using a connection pooler?",
             "infoBalloonText": "It is highly recommended to use a connection pooler while connecting to the server.",
@@ -249,7 +267,7 @@
         },
         {
             "id": "connection_pooler_type",
-            "order": 17,
+            "order": 18,
             "visibility": "connection_pooler == Yes",
             "controlType": "textbox",
             "displayLabel": "What connection pooler are you using?",
@@ -257,7 +275,7 @@
         },
         {
             "id": "connection_pooler_config",
-            "order": 18,
+            "order": 19,
             "visibility": "connection_pooler == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Could you provide connection pooling configuration?",
@@ -265,7 +283,7 @@
         },
         {
             "id": "query_running",
-            "order": 19,
+            "order": 20,
             "controlType": "dropdown",
             "displayLabel": "Does this issue happen while queries are running?",
             "dropdownOptions": [
@@ -282,7 +300,7 @@
         },
         {
             "id": "impacted_query",
-            "order": 20,
+            "order": 21,
             "visibility": "query_running == Yes",
             "controlType": "multilinetextbox",
             "displayLabel": "Can you Provide the query that is impacted more often?",
@@ -290,7 +308,7 @@
         },
         {
             "id": "problem_description",
-            "order": 21,
+            "order": 22,
             "controlType": "multilinetextbox",
             "displayLabel": "Please provide any driver exceptions/error messages you received and any other information you want to share with us.",
             "required": true,

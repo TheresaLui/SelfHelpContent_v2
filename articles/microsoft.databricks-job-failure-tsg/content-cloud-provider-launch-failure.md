@@ -17,9 +17,9 @@
 
 # Cloud provider launch failure 
 
-Cloud provider launch failure with error: *The client 'xxx' with object id 'xxx' does not have authorization to perform action 'Microsoft.Network/publicIPAddresses/write' over scope '/subscriptions/xxx...')*
+Cloud provider launch fails with error "The client 'xxx' with object id 'xxx' does not have authorization to perform action 'Microsoft.Network/publicIPAddresses/write' over scope '/subscriptions/xxx...')".
 
-**Troubleshooting and Solution**
+### Troubleshooting and Solution
 
 Check with customer if they are trying to reuse a Managed RG name from a previously deployed workspace via an ARM template. This is not a supported scenario and will result in cluster start failures because the workspace is not permitted to modify its own MRG.
 
