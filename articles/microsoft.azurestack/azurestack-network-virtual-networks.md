@@ -27,4 +27,4 @@ Azure Stack Hub networking has a subset of the services provided by Azure networ
 * [Azure Stack Hub Networking Services](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-overview)<br>
 * [IP address types and allocation methods in Azure](https://docs.microsoft.com/azure/virtual-network/virtual-network-ip-addresses-overview-arm)
 * [Site to Site VPN Connectivity Troubleshooting Guide](https://docs.microsoft.com/azure-stack/user/azure-stack-vpn-gateway-settings)
-* NVA (Network Virtual Appliance) Troubleshooting Guide](https://docs.microsoft.com/azure-stack/user/network-virtual-appliance)
+* [NVA (Network Virtual Appliance) Troubleshooting Guide](https://docs.microsoft.com/azure-stack/user/network-virtual-appliance)
