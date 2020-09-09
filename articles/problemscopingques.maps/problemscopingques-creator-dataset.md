@@ -17,8 +17,8 @@
 	"subscriptionRequired": true,
 	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
-	"title": "Creator Conversion service Issue",
-	"fileAttachmentHint": "Upload your Drawing package",
+	"title": "Creator Dataset service error",
+	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "problem_start_time",
 			"order": 1,

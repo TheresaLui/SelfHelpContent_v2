@@ -18,7 +18,7 @@
 	"$schema": "SelfHelpContent",
 	"resourceRequired": false,
 	"title": "Creator Tileset service error",
-	"fileAttachmentHint": "Upload your Drawing package",
+	"fileAttachmentHint": "",
 	"formElements": [{
 			"id": "problem_start_time",
 			"order": 1,
