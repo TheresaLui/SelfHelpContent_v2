@@ -46,7 +46,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 3,
+            "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "Start Time",
             "watermarkText": "When did your issue begin?",
