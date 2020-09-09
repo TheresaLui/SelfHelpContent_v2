@@ -27,7 +27,7 @@
 2.	Verify that the referral has not expired.
 3.	If you are unable to view specific referrals from one or more tenants, and you would like to view referrals across multiple tenants, please submit a support ticket to connect the tenants.
 
-**Note** Please include the MPN ID & the [HTTP archive file](https://docs.microsoft.com/azure/azure-portal/capture-browser-trace) when filing a support ticket.
+**Note**: Please include the MPN ID & the [HTTP archive file](https://docs.microsoft.com/azure/azure-portal/capture-browser-trace) when filing a support ticket.
 
 ## **Recommended Documents**
 
