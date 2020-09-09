@@ -34,7 +34,25 @@
 			"watermarkText": "Provide additional information about your incident including any error messages you are seeing.",
 			"required": true,
 			"useAsAdditionalDetails": true
-		}
+		},
+		{
+			"id": "problem_api_name",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "API name:",
+			"watermarkText": "Provide the API name.",
+			"required": false,
+			"useAsAdditionalDetails": true
+		},		
+		{
+			"id": "problem_api_response",
+			"order": 5,
+			"controlType": "multilinetextbox",
+			"displayLabel": "API response message",
+			"watermarkText": "Provide the API response message.",
+			"required": false,
+			"useAsAdditionalDetails": true
+		},
 	]
 }
 ---
