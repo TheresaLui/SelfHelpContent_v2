@@ -18,7 +18,7 @@
   "dataSourceMetadata": {
     "streamNamespace": "cluster('hcrpprod.kusto.windows.net').database('hcrpprod').GetOutdatedArcAgents",
     "dataSource": "Kusto",
-    "refreshInterval": "12:00:00"
+    "refreshInterval": "00:30:00"
   },
   "recommendationCategory": "HighAvailability",
   "recommendationImpact": "Medium",
