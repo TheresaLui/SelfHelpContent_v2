@@ -1,4 +1,4 @@
-<properties
+ <properties
     pageTitle="Azure Stack windows-based virtual machines"
     description="Issues with Windows Based Virtual machines"
     service="microsoft.azurestack"
@@ -27,6 +27,12 @@ You can deploy Windows Server VM images on Azure Stack by adding a Windows-based
 1. For ARM deployments, you can create a [custom image and upload it](https://docs.microsoft.com/azure-stack/operator/azure-stack-add-vm-image) to the marketplace
 1. If you upload a custom image, you need to create a [VM marketplace item](https://docs.microsoft.com/azure-stack/operator/azure-stack-create-and-publish-marketplace-item) to make it visible to all tenant users
 1. If VM activation is failing, see [Troubleshoot virtual machines](https://docs.microsoft.com/azure-stack/operator/azure-stack-troubleshooting#troubleshoot-virtual-machines-vms)
+
+## Moving or migrating VMs
+
+- You can find an [overview of moving](https://docs.microsoft.com/azure-stack/user/vm-move-overview) your Azure or local Hyper-V VM to Azure Stack Hub.
+- For instructions on generalizing and moving your Windows VM, see [Move a generalized VM from on-premises to Azure Stack Hub](https://docs.microsoft.com/azure-stack/user/vm-move-generalized).
+_ For troubleshooting a VHD that you are moving, see [Verify your VHD](https://docs.microsoft.com/azure-stack/user/vm-move-from-azure?view=azs-2005&tabs=win-spec%2Ccreate-vm-spec#verify-your-vhd).
 
 ## **Recommended Documents**
 
