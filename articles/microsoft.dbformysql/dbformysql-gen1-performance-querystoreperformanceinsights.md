@@ -11,7 +11,7 @@
     resourceTags="servers, databases"
     productPesIds="17343"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="cb86db30-6635-4eb9-83b3-6274ccd90a0d"
+    articleId="b54badaa-461e-4bd8-97f4-a2184a87d7a1"
     ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
@@ -33,4 +33,4 @@ Query performance issues can have many different root causes. Work through the r
 ## **Recommended Documents**
 
 *   [Query store documentation](https://docs.microsoft.com/azure/mysql/concepts-query-store)
-*   [Query performance insights documentation](https://docs.microsoft.com/en-us/azure/mysql/concepts-query-performance-insight)
+*   [Query performance insights documentation](https://docs.microsoft.com/azure/mysql/concepts-query-performance-insight)
