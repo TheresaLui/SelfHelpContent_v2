@@ -18,13 +18,15 @@
 
 **Note:** Please follow the steps on the [troubleshooting guide](https://docs.microsoft.com/azure/data-factory/self-hosted-integration-runtime-troubleshoot-guide#gather-self-hosted-integration-runtime-logs-from-azure-data-factory), and take note of the **Report ID** to provide it with the support request.
 
-### TLS/SSL certificate issue
+### __TLS/SSL certificate issue__
 
 __Symptoms__
 
 When trying to enable TLS/SSL certificate (advanced) from *Self-hosted IR Configuration Manager* -> *Remote access from intranet*, after selecting TLS/SSL certificate, below error shows up:
 
->Remote access settings are invalid. Identity check failed for outgoing message. The expected DNS identity of the remote endpoint was ‘abc.microsoft.com’ but the remote endpoint provided DNS claim ‘microsoft.com’. If this is a legitimate remote endpoint, you can fix the problem by explicitly specifying DNS identity ‘microsoft.com’ as the Identity property of EndpointAddress when creating channel proxy.
+```
+Remote access settings are invalid. Identity check failed for outgoing message. The expected DNS identity of the remote endpoint was ‘abc.microsoft.com’ but the remote endpoint provided DNS claim ‘microsoft.com’. If this is a legitimate remote endpoint, you can fix the problem by explicitly specifying DNS identity ‘microsoft.com’ as the Identity property of EndpointAddress when creating channel proxy.
+```
 
 In above case, the user is using certificate with "microsoft.com" as last item.
 
@@ -39,29 +41,25 @@ Wildcard certificate is supported in Azure Data Factory v2 Self-hosted IR. This 
 1. Open Management Console, double check both Subject and Subject Alternative Name from the Certificate Details. In above case, for example, the last item in Subject Alternative Name, which is "DNS Name= microsoft.com.com", is not legitimate.
 1. Contact the certificate issue company to remove the wrong DNS Name
 
-### Concurrent jobs limit issue
+### __Concurrent jobs limit issue__
 
 __Symptoms__
 
-When trying to increase the limit concurrent jobs from the Azure Data Factory UI, it hangs as _updating_ forever. The max value of concurrent jobs was set to 24 and you want to increase the count so that jobs can run faster. The minimum value that you can enter is 3 and the maximum value that you can enter is 32. You increased the value from 24 to 32 and hit on update button, in the UI it got stuck on updating as you can see below. After refreshing, the customer still saw the value as 24 and it never got updated to 32.
+When trying to increase the limit concurrent jobs from the Azure Data Factory UI, it hangs as _updating_ forever. The max value of concurrent jobs was set to 24 and you want to increase the count so that jobs can run faster. The minimum value that you can enter is 3 and the maximum value that you can enter is 32. You increased the value from 24 to 32 and hit on update button, in the UI it got stuck on updating. After refreshing, the customer still saw the value as 24 and it never got updated to 32.
 
 __Cause__
 
 There is a limitation for the setting as the value depends on the computer logicCore and Memory, you can just adjust it to a smaller value such as 24 and see the result.
 
- >>**Tip**
- >>
- >> * For details about what the logic core count is, and how to find our machine's logic core count, see this article.
- >> * For details about how to calculate the math.log, see this article.
-
-
-### Self-hosted IR HA SSL Certificate issue
+### __Self-hosted IR HA SSL Certificate issue__
 
 __Symptoms__
 
 Self-hosted IR work node has reported the error below:
 
-> Failed to pull shared states from primary node net.tcp://abc.cloud.corp.Microsoft.com:8060/ExternalService.svc/. Activity ID: XXXXX The X.509 certificate CN=abc.cloud.corp.Microsoft.com, OU=test, O=Microsoft chain building failed. The certificate that was used has a trust chain that cannot be verified. Replace the certificate or change the certificateValidationMode. The revocation function was unable to check revocation because the revocation server was offline.
+```
+Failed to pull shared states from primary node net.tcp://abc.cloud.corp.Microsoft.com:8060/ExternalService.svc/. Activity ID: XXXXX The X.509 certificate CN=abc.cloud.corp.Microsoft.com, OU=test, O=Microsoft chain building failed. The certificate that was used has a trust chain that cannot be verified. Replace the certificate or change the certificateValidationMode. The revocation function was unable to check revocation because the revocation server was offline.
+```
 
 __Cause__
 
@@ -75,35 +73,35 @@ __Resolution__
   1. Copy the exported certificate to the client machine
   1. On the client side, run below command in CMD. Make sure that you have replaced below _<certificate path>_ and _<output txt file path>_ placeholders with related paths:
 
-  ```
-  Certutil -verify -urlfetch    <certificate path>   >     <output txt file path>
-  ``` 
+    ```
+    Certutil -verify -urlfetch <certificate path> > <output txt file path>
+    ``` 
 
-  For example:
+    For example:
 
-  ```
-  Certutil -verify -urlfetch c:\users\test\desktop\servercert02.cer > c:\users\test\desktop\Certinfo.txt
-  ```
+    ```
+    Certutil -verify -urlfetch c:\users\test\desktop\servercert02.cer > c:\users\test\desktop\Certinfo.txt
+    ```
 
   4. Check if there is any error in the output txt file. You can find the error summary at the end of the txt file.
 
-  For example:
+    For example:
 
-  ```
-  ERROR: Verifying leaf certificate revocation status returned The revocation funtion was unable to check revocation because the revocation server was offline. 0c80092013 (-2146885613 CRYPT_E_REVOCATION_OFFLINE)
-  CertUtil: The revocation funtion was unable to check revocation because the revocation server was offline.
-  ```
+    ```
+    ERROR: Verifying leaf certificate revocation status returned The revocation function was unable to check revocation because the revocation server was offline. 0c80092013 (-2146885613 CRYPT_E_REVOCATION_OFFLINE)
+    CertUtil: The revocation function was unable to check revocation because the revocation server was offline.
+    ```
 
-  If you do not see any error at the end of the log file, you can consider the certificate chain built up successfully in the client machine.
+    If you do not see any error at the end of the log file, you can consider the certificate chain built up successfully in the client machine.
 
 * If there is AIA, CDP and OCSP configured in the certificate file, we can check it in a more intuitive way:
 
   1. You can get this info by checking the details of a certificate
-  1. Run below command. Make sure that you have replaced _<certificate path>_ placeholder with related path of the certificate:
+  1. Run below command. Make sure that you have replaced `<certificate path>` placeholder with related path of the certificate:
 
-  ```
-  Certutil   -URL    <certificate path> 
-  ```
+    ```
+    Certutil -URL <certificate path> 
+    ```
 
   3. Then the *URL Retrieval tool* will be opened. You can verify certificates from AIA, CDP, and OCSP by clicking the *Retrieve* button.
 
@@ -111,7 +109,7 @@ __Resolution__
 
   If you see failure when retrieving AIA, CDP, work with network team to get the client machine ready to connect to target URL. It will be enough if either the http path or the ldap path is able to be verified.
 
-### Self-hosted IR could not load file or assembly
+### __Self-hosted IR could not load file or assembly__
 
 __Symptoms__
 
@@ -127,12 +125,10 @@ Could not load file or assembly 'System.ValueTuple, Version=4.0.2.0, Culture=neu
 
 __Cause__
 
-If you take process monitor, you can see following result:
+If you take process monitor, you can see PATH NOT FOUND errors on files accessed from the GAC or Integration Runtime installation path (ie. *System.ValueTuple.dll*)
 
-Process monitor
-
- >> **Tip**
- >>You can set filter as shown in below screenshot. It tells us that the dll *System.ValueTuple* is not located in GAC related folder, or in `cC:\Program Files\Microsoft Integration Runtime\4.0\Gateway`, or in `C:\Program Files\Microsoft Integration Runtime\4.0\Shared` folder. Basically, it will load the dll from _GAC_ folder first, and then from _Shared_ and finally from _Gateway_ folder. Therefore, you can put the dll to any path which can be helpful.
+ > **Tip**<br>
+ >You can set a filter on the Path column using the file name like *System.ValueTuple*, you will see the file is not located in GAC related folder, or in `C:\Program Files\Microsoft Integration Runtime\4.0\Gateway`, or in `C:\Program Files\Microsoft Integration Runtime\4.0\Shared` folder. Basically, it will load the dll from _GAC_ folder first, and then from _Shared_ and finally from _Gateway_ folder. Therefore, you can put the dll to any path which can be helpful.
 
 
 __Resolution__
@@ -141,7 +137,7 @@ You can find that the *System.ValueTuple.dll* is located at `C:\Program Files\Mi
 
 You can use the same method to solve other file or assembly missing issues.
 
-### How to audit Self-hosted IR key missing
+### __How to audit Self-hosted IR key missing__
 
 __Symptoms__
 
@@ -156,7 +152,7 @@ __Resolution__
 
 If neither of the above causes applies, you can go to the folder: `%programdata%\Microsoft\Data Transfer\DataManagementGateway`, and check whether the file named *Configurations* is deleted. If it's deleted, follow the instructions [here](https://www.netwrix.com/how_to_detect_who_deleted_file.html) to audit who deletes the file.
 
-### Cannot use Self-hosted IR to bridge two on-premises data stores
+### __Cannot use Self-hosted IR to bridge two on-premises data stores__
 
 __Symptoms__
 
@@ -174,7 +170,7 @@ Install drivers for both source and destination on the destination IR, and make 
 
 If the traffic cannot pass through the network between two data stores (for example, they are configured in two VNETs), you may not finish the copy in one activity even with IR installed. In that case, you may create two copy activities with two IRs, each in a VENT: 1 IR to copy from data store 1 to Azure Blob Storage, another to copy from Azure Blob Storage to data store 2. This could simulate the requirement to use the IR to create a bridge that connects two disconnected data stores.
 
-### Credential sync issue causes credential lost from HA
+### __Credential sync issue causes credential lost from HA__
 
 __Symptoms__
 
@@ -188,7 +184,7 @@ __Resolution__
 
 The only way to avoid this issue is to make sure two nodes are in credentials sync state. Otherwise you have to reinput credentials for new dispatcher.
 
-### Cannot choose the certificate due to private key missing
+### __Cannot choose the certificate due to private key missing__
 __Symptoms__
 
 Import a PFX file to the certificate store.
@@ -203,6 +199,7 @@ __Cause__
 
 The user account is in low privilege and cannot access private key.
 The certificate was generated as signature but not as key exchange.
+
 __Resolution__
 
 Use a privileged account that can access private key to operate the UI.
