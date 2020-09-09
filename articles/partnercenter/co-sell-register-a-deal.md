@@ -22,8 +22,11 @@
 
 ## **Recommended Steps**
 
-- If you are new to registering deals we recommend you watch these short how to [videos](https://partner.microsoft.com/resources/collection/co-sell-experience-partner-center)
+1. To **register a new deal**, go to Referrals > Deal registrations > Action required and select +New deal registration
+   - Refer to Recommended Documents for full instructions on registering a deal
+2. If you are looking to **create a lead/co-sell** opportunity deal, go to Co-Sell Opportunities tab >  click +New Deal
+3. If you are looking to **register a closed** and signed contract for a Dynamics solution, go to the + New Deal Registration button in the Deal Registration Action Required tab
 
 ## **Recommended Documents**
 
-* [How to Register a closed deal](https://docs.microsoft.com/partner-center/register-deals)
+* [Instructions for how to register a new deal](https://docs.microsoft.com/partner-center/register-deals#viewing-active-and-closed-deal-registrations)

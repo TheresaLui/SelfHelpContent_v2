@@ -24,8 +24,10 @@ This TSG covers scenarios for the following support topics:
 * Routing Azure Virtual Networks V3\VPN Gateway\P2S VPN issues
 * Routing Azure VPN\Connectivity\Point-to-site VPN connectivity issues
 
-**If your case is incorrectly marked for these support topics (mis-routed), please:**
+**If your case is not related to Point-to-site connectivity, please:**
 
-* Enter the case number below and click Submit
-* On the next page, select 'The case is coded for the wrong support topic' and click Submit
-* Close the TSG
+* Click on 'Edit and Run Again' in the upper right corner of ASC 
+* Update the support topic that matches the customer issue
+* Choose a resource if applicable
+* Click 'Run and Save' 
+* Check for new Insights and Troubleshooters

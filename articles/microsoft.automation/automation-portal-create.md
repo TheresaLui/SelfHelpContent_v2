@@ -57,4 +57,4 @@ The Automation Account is used to host a variety of services, from runbooks to U
 * [Quickstart create Automation account](https://docs.microsoft.com/azure/automation/automation-quickstart-create-account)<br>
 * [Create standalone Automation account](https://docs.microsoft.com/azure/automation/automation-create-standalone-account)<br>
 * [Automation billing](https://docs.microsoft.com/azure/automation/automation-intro#pricing-for-automation)<br>
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)

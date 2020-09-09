@@ -108,7 +108,7 @@
 	   "order": 3,
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide the publisher ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings or in CPP select the Profile page then Partner Center account details section",
+	   "watermarkText": "In Partner Center select Settings then Developer settings.",
 	   "required": false
        },
        {
@@ -116,7 +116,7 @@
 	   "order": 4,
 	   "controlType": "textbox",
 	   "displayLabel": "Please provide the seller ID.",
-	   "watermarkText": "In Partner Center select Settings then Developer settings or in CPP select the Profile page then Partner Center account details section",
+	   "watermarkText": "In Partner Center select Settings then Developer settings.",
 	   "required": true
        },
        {
@@ -135,6 +135,14 @@
 	   "displayLabel": "Start Time",
 	   "watermarkText": "When did your issue begin?",
 	   "required": true
+       },
+       {
+	   "id": "additional_email(s)_for_notification",
+	   "order": 7,
+	   "controlType": "textbox",
+	   "displayLabel": "Additional email(s) for notification",
+	   "watermarkText": "Please add name@emailaddress.com here if you'd like us to include others on the SR communications.",
+	   "required": false
        }
    ]
 }

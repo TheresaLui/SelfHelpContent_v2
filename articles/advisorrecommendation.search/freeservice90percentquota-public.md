@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="8d31f25f-31a9-4267-b817-20ee44f88069_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureSearch_AzureSearch"
 />
 # You are close to exceeding storage quota of 50MB

@@ -22,9 +22,13 @@ Most customers can resolve installation and setup issues by following the [Azure
 ## **Recommended Steps**
 
 1. A large part of installing the HPC Azure Cache involves planning and preparing your environment for the installation of the Azure HPC Cache. Reviewing the [prerequisites](https://docs.microsoft.com/azure/hpc-cache/hpc-cache-prereqs) and [planning the namespace](https://docs.microsoft.com/azure/hpc-cache/hpc-cache-namespace) will help make the installation of the HPC cache easier.  
+
 2. Once you have completed the prerequisite tasks and have planned your namespace, you should then move on to [creating the cache](https://docs.microsoft.com/azure/hpc-cache/hpc-cache-create). If you have completed the creation of the cache successfully, you should now have an Azure HPC Cache resource that should be in a healthy state.
+
 3. Once you have finished creating an Azure HPC Cache resource, the next step is to [add storage targets](https://docs.microsoft.com/azure/hpc-cache/hpc-cache-add-storage). Adding storage targets to the Azure HPC Cache allows you to create the namespace that you have planned previously.
+
 4. Once you have created your storage targets and namespace, you can then have clients [connect to the cache](https://docs.microsoft.com/azure/hpc-cache/hpc-cache-mount)
+
 5.  Once you have completed the steps above, you should then be able to [monitor the Azure HPC Cache](https://docs.microsoft.com/azure/hpc-cache/hpc-cache-manage) using the Azure Portal
 
 ## **Recommended Documents**

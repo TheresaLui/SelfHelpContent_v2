@@ -29,7 +29,3 @@ Often, this is caused by a forced tunneling rule.
 ## Recommended Documents
 
 1. https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-forced-tunneling-rm
-
-Did this solve?
-Yes --> Solution
-No --> Escalation

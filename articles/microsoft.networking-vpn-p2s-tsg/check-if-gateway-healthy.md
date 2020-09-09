@@ -28,7 +28,3 @@
 Primary Instance: GatewayTenantWorker_IN_0 GatewayTenantVersion: 19.6.100.26 OSVersion: Windows Server 2012 R2 Datacenter
 </string>
 ~~~
-
-Is the Azure VPN gateway healthy?
-- Yes
-- No

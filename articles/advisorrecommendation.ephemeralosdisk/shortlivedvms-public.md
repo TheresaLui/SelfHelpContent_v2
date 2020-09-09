@@ -5,7 +5,7 @@
     ms.author="EphemeralOSDiskvTeam" 
     articleId="dc045941-8e65-437b-992b-1f0acd28bb6e_Public" 
     selfHelpType="advisorRecommendationMetadata" 
-    cloudEnvironments="Public" 
+    cloudEnvironments="Public, usnat, ussec" 
     ownershipId="Compute_ComputePlatform"
 />
 # Create an Ephemeral OS Disk recommendation

@@ -22,5 +22,19 @@
 
 ## **Recommended Steps**
 
+**How do I check my earning eligibility and revenue rules?**
+1.	Go to [Partner incentives](https://partner.microsoft.com/membership/partner-incentives) and sign in
+2.	Once you sign in, scroll down to access the documents for your interested program and click on the document link for the respective program
+3.	From the document refer to sections **Partner eligibility** and **Eligible revenue rules**
 
+**Where can I find my rates?**
+1.	Go to [Partner incentives](https://partner.microsoft.com/membership/partner-incentives) and sign in
+2.	Once you sign in, scroll down to access the documents for your interested program and click on the document link for the respective program
+3.	From the document refer to the section **Program structure and Rates**
+
+## **Recommended Documents**
+
+* [Confirm your earnings eligibility](https://docs.microsoft.com/partner-center/incentives-confirm-your-earnings-eligibility)
+* [Troubleshooting payments and earnings issues](https://docs.microsoft.com/partner-center/incentives-payment-issues)
+* [Understanding earnings/payments discrepancies](https://support.microsoft.com/help/4534675)
 

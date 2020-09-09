@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="b353f187-4cb4-4b2b-b502-472f45f32fd6_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="StorageMediaEdge_XStore"
 />
 # Use Put Blob for blobs smaller than 256 MB

@@ -19,28 +19,57 @@
 
 ## **Recommended Steps**
 
-- [Changing storage replication type from GRS to LRS is not supported](https://aka.ms/AB-AA4e571)<br>
-- [Support matrix](https://aka.ms/AB-AA4ecqa) for Azure Virtual Machine backup<br>
-- How much time will it take to [Backup](https://aka.ms/AB-AA4ecqb) or [Restore](https://aka.ms/AB-AA4ecqn)?<br>
-- How to stop/cancel backup job using [PowerShell](https://aka.ms/AB-AA4e56e)?<br>
-- To configure Alert/Notification on successful backup jobs use query [all successful Azure VMs backup jobs](https://aka.ms/Successful-BackupAlert-IAASVM) while defining [alert condition](https://aka.ms/backup-Alert-condition) in Log Analytics <br>
-- You can also use [Activity Logs](https://aka.ms/Configure-AlertsNotification-ActivityLogs) to get notifications for events such as backup success for Azure VMs, read [recommendations](https://aka.ms/BKP-Notification-Recommendations) before configuring notification using Activity Logs
-- [Frequently asked questions](https://aka.ms/AB-AA4e56n)
+Before filing a support ticket you can find answers to many common questions:<br>
 
+**Vault**<br>
+* [How to change my vault storage replication type from **GRS to LRS**?](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#how-to-change-from-grs-to-lrs-after-configuring-backup)
+* How to move: 
+	* [Azure VM across Resource Group/Vault](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq#how-do-i-move-a-vm-backed-up-by-azure-backup-to-a-different-resource-group)
+	* Vault across [Resource Groups](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-different-resource-group)
+	* [Subscriptions](https://docs.microsoft.com/azure/backup/backup-azure-move-recovery-services-vault#use-azure-portal-to-move-recovery-services-vault-to-a-different-subscription)
+* Moving Recovery points across Vaults/Subscription is not supported
 
-## **Recommended Documents** 
+**Backup**<br>
 
-* [Configure Azure VMs Backup in Recovery Services vault](https://aka.ms/AB-AA4ecq2)
-* [Enable Backup during VM creation](https://aka.ms/AB-EnableBackupDuringVMcreation)
-* [Enable Backup from VM blade](https://aka.ms/AB-EnableBackupDuringVMcreation)
-* [Restore VM](https://aka.ms/AB-AA4e568)
-* [Restore files from VM backup](https://aka.ms/AB-AA4e56h)
-* [Restore VM to alternate location](https://aka.ms/AB-AA4e570)
-* [Create VM from restored disks](https://aka.ms/AB-AA4e56j)
-* [Configure](https://aka.ms/AB-backupReorts) and [view](https://aka.ms/View-PowerBI-Report) Backup report using Power BI
-* Monitor [Alerts and Jobs](https://aka.ms/Monitor-JobsAlert-RSV) through Recovery Services vault
-* [Configure Notifications](https://aka.ms/Configure-Notification-RSV) for backup Alerts through Recovery Services vault
-* [Monitor Azure Backup](https://aka.ms/Monitor-Backup-LA) and [create Alerts](https://aka.ms/Create-Alert-LA) using Log Analytics
-* [Stop protecting virtual machines](https://aka.ms/AB-AA4ecqs)
-* [Delete Backup data](https://aka.ms/AB-AA4e56f)<br>
-* [Delete Recovery Services vault](https://aka.ms/AB-AA4ecq5)<br>
+* [Can I **exclude disks** that I do not want to backup?](https://azure.microsoft.com/updates/excludediskpreview/)
+* [How do I **cleanup/extend the retention period** of Recovery points?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)
+* [What happens to the existing recovery points if I change the policy?](https://docs.microsoft.com/azure/backup/backup-azure-backup-faq#what-happens-when-i-change-my-backup-policy)
+* [How do I take **multiple backups per day**? ](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#run-an-on-demand-backup)
+* [What are application-consistent and crash-consistent snapshots?](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#snapshot-consistency)
+
+**Restore**<br>
+
+* [How to **restore individual files** from VM backup](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm)
+* [How to **restore an Encrypted VM**](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm)
+* [How to create a VM from restored disks using Azure PowerShell?](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)
+* How to restore VM to ['alternate location'](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#create-a-vm) or ['replace my original VM'](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#replace-existing-disks)
+* [How to enable **cross region restore**?](https://docs.microsoft.com/azure/backup/backup-create-rs-vault#set-cross-region-restore)
+* Restore VM with special configurations - [Dynamic disks](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#dynamic-disks), [Windows storage spaces](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#windows-storage-spaces), [LVM/Raid arrays](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#lvmraid-arrays)
+* [Guidance for recovering files from VM backups with large disks](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm#file-recovery-from-virtual-machine-backups-having-large-disks)<br>
+* [What are the available options to restore an Azure VM with managed/unmanaged (or) encrypted/un-encrypted configurations?](https://docs.microsoft.com/azure/backup/about-azure-vm-restore#restore-scenarios)<br>
+
+**Delete backups**<br>
+* [How to delete VM that is in **soft delete state**?](https://docs.microsoft.com/azure/backup/backup-azure-security-feature-cloud)
+* [How to **stop protecting a virtual machine** with retain data (or) delete data?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#stop-protecting-a-vm)
+* [How to delete Backup data?](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#delete-backup-data)
+* [How to delete a Recovery Services vault?](https://docs.microsoft.com/azure/backup/backup-azure-delete-vault)<br>
+
+**Backup Reports/Alerts**<br>
+
+* [How to **check backup data size** for backup items?](https://docs.microsoft.com/azure/backup/configure-reports)
+* Understanding Azure Backup [**pricing**](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction#backup-costs) and [charges](https://azure.microsoft.com/pricing/details/backup/)
+* [Configure](https://docs.microsoft.com/azure/backup/configure-reports) and [view](https://docs.microsoft.com/azure/backup/configure-reports#what-happened-to-the-power-bi-reports) Backup report using Power BI
+* [Configure Notifications](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-built-in-monitor#notification-for-backup-alerts) for backup Alerts through Recovery Services vault
+* [Monitor Azure Backup](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#using-log-analytics-workspace) and [create Alerts](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-use-azuremonitor#create-alerts-by-using-log-analytics) using Log Analytics
+* Monitor [Alerts and Jobs](https://docs.microsoft.com/azure/backup/backup-azure-monitoring-built-in-monitor#backup-jobs-in-recovery-services-vault) through Recovery Services vault
+
+## **Recommended Documents**
+
+- [Complete list of supported, unsupported and know limitations](https://docs.microsoft.com/azure/backup/backup-support-matrix-iaas)
+- [How to configure Azure VM Backup in Recovery Services vault](https://docs.microsoft.com/azure/backup/backup-azure-arm-vms-prepare#create-a-vault)<br>
+- [Enable Backup during VM creation](https://docs.microsoft.com/azure/backup/backup-during-vm-creation)<br>
+- [How to restore from an existing Azure backup?](https://docs.microsoft.com/azure/backup/about-azure-vm-restore)<br>
+- [How to restore Azure VM data in Azure portal](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms)?<br>
+- [How to troubleshoot permission issues during configure protection?](https://docs.microsoft.com/azure/backup/backup-rbac-rs-vault)
+- [Complete list of Frequently Asked Questions](https://docs.microsoft.com/azure/backup/backup-azure-vm-backup-faq)
+- Troubleshoot [common backup failures](https://docs.microsoft.com/azure/backup/backup-azure-vms-troubleshoot) and [VM guest Agent and Extension issues](https://docs.microsoft.com/azure/backup/backup-azure-troubleshoot-vm-backup-fails-snapshot-timeout) on Azure virtual machines

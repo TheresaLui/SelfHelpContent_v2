@@ -22,9 +22,3 @@ There might be multiple VPN protocols methods enabled so the customer needs to t
 ## Recommended Steps
 
 1. Check the SR verbatim or ask the customer to confirm which protocol their clients are using
-
-
-Which protocol is the customer using?
-- SSTP
-- IKEv2
-- OpenVPN

@@ -17,6 +17,8 @@
 
 # Azure Stack VM performance issues
 
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
 ## **Recommended Steps**
 
 - To view diagnostic information for a specific VM, select the VM in the Azure Stack portal, choose **Diagnostic settings**, and select the metrics you wish to track.

@@ -30,7 +30,22 @@
       3. Resource Name: name of the Storage Account affected
       4. Resource Group: resource group where the Storage Account resides.
    7. When the relevant operation is found, take note of the timeframe of the operation(Event Time) and CorrelationId.
-3. Review the details of the recent failed operation
+3. Alternatively use Kusto
+   1. Get/Open [Kusto.Explorer](http://kusto/ke/Kusto.Explorer.application) . More information at [Tools reference](https://supportability.visualstudio.com/AzureVMPOD/_wiki/wikis/AzureVMPOD?wikiVersion=GBmaster&pagePath=%2fGeneralPages%2fAzure%2fAzure_Virtual%20Machine_Tools%20reference).
+   2. Open a New Query Tab and Select the Armprod>ARMProd Connection.
+   3. Fill the following example queries with your environment details to get further information. ShoeboxEntries Kusto Query:
+
+~~~kusto 
+
+ShoeboxEntries | where resourceId endswith "/<StorageAccountName>" and operationName !contains "LISTKEYS"   
+| where PreciseTimeStamp >= datetime("10/11/2018 00:00") and PreciseTimeStamp <= datetime("10/11/2018 23:00:00")    
+| project PreciseTimeStamp , resourceId , operationName , resultSignature , properties, correlationId, callerIpAddress, ['identity']
+
+~~~
+
+   4. Review the details of the query, take note of the CorrelationId and Timestamp and navigate to the next section "Review the details of the recent failed operation" to find more information about the issue.
+
+5. Review the details of the recent failed operation
    1. Open Jarvis Logs/MDM  and complete the query with the below details. Query Example:
 
 ~~~jarvis

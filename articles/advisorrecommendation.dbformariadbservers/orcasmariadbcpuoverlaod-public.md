@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="a5f888e3-8cf4-4491-b2ba-b120e14eb7ce_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureData_AzureDatabaseforMariaDB"
 />
 # Increase the MariaDB server vCores

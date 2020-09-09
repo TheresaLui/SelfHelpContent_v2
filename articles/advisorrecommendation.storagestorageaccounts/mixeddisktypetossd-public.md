@@ -5,7 +5,7 @@
     ms.author="yuriic"
     articleId="03f77f51-31a0-410c-ac76-165bf21d4d3f_Public"
     selfHelpType="advisorRecommendationMetadata"
-cloudEnvironments="Public"
+cloudEnvironments="Public, usnat, ussec"
 ownershipId="StorageMediaEdge_XStore"
 />
 # Use SSD Disks for your production workloads

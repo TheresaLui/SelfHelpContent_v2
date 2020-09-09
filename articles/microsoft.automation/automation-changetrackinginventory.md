@@ -48,4 +48,4 @@ You can run the [offline version of the Agent Registration script](https://docs.
 
 * [Change Tracking Overview](https://docs.microsoft.com/azure/automation/automation-change-tracking)<br>
 * [Inventory Overview](https://docs.microsoft.com/azure/automation/automation-vm-inventory)<br>
-* [Data to gather when opening a case for Azure Automation](https://support.microsoft.com/kb/3178510)
+* [Data to gather when opening a case for Azure Automation](https://docs.microsoft.com/azure/automation/troubleshoot/collect-data-microsoft-azure-automation-case)

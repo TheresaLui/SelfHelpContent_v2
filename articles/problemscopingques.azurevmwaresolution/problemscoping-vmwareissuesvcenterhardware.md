@@ -5,7 +5,7 @@
                 selfHelpType="problemScopingQuestions"
                 supportTopicIds="32739974"
                 productPesIds="17080"
-                cloudEnvironments="Public"
+                cloudEnvironments="Public, fairfax, usnat, ussec"
                 schemaVersion="1"
                 articleId="65c786bf-fde0-4a9b-895e-65119ce61119"
 	            ownershipId="Azure_VMwareSolution_Content"
@@ -15,7 +15,7 @@
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": true,
-    "resourceRequired": true,
+    "resourceRequired": false,
             "title": "vcenterhardware",
             "fileAttachmentHint": "",
             "formElements": [{

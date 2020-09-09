@@ -21,9 +21,9 @@
 
 * **Policy definition issues**
 
-* Validate that the [definition structure](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure)) is correct
-* Ensure the [alias](https://docs.microsoft.com/azure/governance/policy/tutorials/create-custom-policy-definition#find-the-property-alias) is mapped to the desired resource type/property and effects are as expected
-* If you need help creating a custom policy, follow the tutorial found [here](https://docs.microsoft.com/azure/governance/policy/tutorials/create-custom-policy-definition). We recommend writing policy using our [VS Code extension](https://docs.microsoft.com/azure/governance/policy/how-to/extension-for-vscode), which provides alias look-up and syntax highlight.
+Validate that the [definition structure](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure) is correct
+Ensure the [alias](https://docs.microsoft.com/azure/governance/policy/tutorials/create-custom-policy-definition#find-the-property-alias) is mapped to the desired resource type/property and effects are as expected
+If you need help creating a custom policy, follow the tutorial found [here](https://docs.microsoft.com/azure/governance/policy/tutorials/create-custom-policy-definition). We recommend writing policy using our [VS Code extension](https://docs.microsoft.com/azure/governance/policy/how-to/extension-for-vscode), which provides alias look-up and syntax highlight.
 
 * **Alias not found/not working**
 

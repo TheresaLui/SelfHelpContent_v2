@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="e10b1381-5f0a-47ff-8c7b-37bd13d7c974_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="CloudFit_CostOptimization"
 />
 # Right-size or shutdown underutilized virtual machines
@@ -33,7 +33,7 @@
     "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
   },
   "recommendationTimeToLive": 86400,
-  "version": 6.0,
+  "version": 8.0,
   "learnMoreLink": "https://aka.ms/aa_lowusagerec_learnmore",
   "description": "Right-size or shutdown underutilized virtual machines",
   "longDescription": "We've analyzed the usage patterns of your virtual machine over the past 7 days and identified virtual machines with low usage. While certain scenarios can result in low utilization by design, you can often save money by managing the size and number of virtual machines.",
@@ -108,6 +108,51 @@
   "additionalColumns": [],
   "ingestionClientIdentities": [
     "CN=metricsclient.geneva.core.windows.net;CN=Microsoft IT TLS CA 1, OU=Microsoft IT, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  ],
+  "remediation": [
+    {
+      "httpMethod": "PATCH",
+      "uri": "{armEndpoint}{resourceId}?api-version=2019-12-01",
+      "actionId": "ce37f8f7-534d-4bac-8269-74157b587a90",
+      "implication": null,
+      "documentationLink": "https://docs.microsoft.com/rest/api/compute/virtualmachines/update",
+      "requestBody": {
+        "properties": {
+          "hardwareProfile": {
+            "vmSize": "{targetSku}"
+          }
+        }
+      },
+      "asyncRequestDetails": {
+        "header": "Azure-AsyncOperation",
+        "pollingFrequencyInSeconds": 10,
+        "terminatingCondition": {
+          "timeOutInSeconds": 1800,
+          "httpStatusCode": 200,
+          "metadata": {
+            "status": "Succeeded"
+          }
+        }
+      }
+    },
+    {
+      "httpMethod": "POST",
+      "uri": "{armEndpoint}{resourceId}/deallocate?api-version=2019-12-01",
+      "actionId": "1550a191-607c-4daf-ae42-8730bd77f75a",
+      "implication": null,
+      "documentationLink": "https://docs.microsoft.com/rest/api/compute/virtualmachines/deallocate",
+      "asyncRequestDetails": {
+        "header": "Azure-AsyncOperation",
+        "pollingFrequencyInSeconds": 10,
+        "terminatingCondition": {
+          "timeOutInSeconds": 1800,
+          "httpStatusCode": 200,
+          "metadata": {
+            "status": "Succeeded"
+          }
+        }
+      }
+    }
   ],
   "tip": "You can optimize underutilized virtual machines to reduce your monthly Azure spend.",
   "costSavingInfo": "*You can save up to the stated amount and your actual savings may vary."

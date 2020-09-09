@@ -11,25 +11,20 @@
 	articleId="4142b082-0f6b-4169-80b3-6f551a623d13"
 	ownershipId="StorageMediaEdge_Backup"
 />
-# Questions Azure VM configuration protection failure 
+# Questions Azure VM configuration protection failure
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
     "title": "Azure VM configuration failure",
     "fileAttachmentHint": "",
-    "diagnosticCard": {
-        "title": "Azure VM configuration failure",
-        "description": "These diagnostics will check for errors.",
-        "insightNotAvailableText": "We didn't find any problems"
-    },
     "formElements": [
         {
             "id": "vm_facing_issue",
             "order": 1,
             "controlType": "dropdown",
-            "displayLabel": "Which virtual machine(s) is experiencing the problem?",
-            "watermarkText": "Enter the name of the virtual machine(s)",
+            "displayLabel": "Which virtual machine is experiencing the problem?",
+            "watermarkText": "Enter the name of the virtual machine",
 	    "dynamicDropdownOptions": {
             "uri": "/subscriptions/{subscriptionid}/resources?api-version=2018-05-01&$filter=resourceType eq 'Microsoft.Compute/virtualMachines' or resourceType eq 'Microsoft.ClassicCompute/virtualMachines'",
        	    "jTokenPath": "value",
@@ -41,8 +36,7 @@
                 "text": "Other, don't know or not applicable"
             }
 	    },
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "jobID_Name",
@@ -60,23 +54,23 @@
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "VM Agent is unable to communicate with azure backup service",
+                    "value": "UserErrorGuestAgentStatusUnavailable",
                     "text": "VM Agent is unable to communicate with Azure Backup service"
                 },
                 {
-                    "value": "Could not communicate with the VM agent for snapshot status",
+                    "value": "GuestAgentSnapshotTaskStatusError",
                     "text": "Could not communicate with the VM agent for snapshot status"
                 },
                 {
-                    "value": "Snapshot operation failed due to no network connectivity on the virtual machine",
-                    "text": " Snapshot operation failed due to no network connectivity on the virtual machine"
+                    "value": "ExtensionSnapshotFailedNoNetwork",
+                    "text": "Snapshot operation failed due to no network connectivity"
                 },
                 {
                     "value": "Could not copy the snapshot of the virtual machine",
                     "text": "Could not copy the snapshot of the virtual machine"
                 },
                 {
-                    "value": "VM is in Failed Provisioning State",
+                    "value": "UserErrorVmProvisioningStateFailed",
                     "text": "VM is in Failed Provisioning State"
                 },
                 {
@@ -88,8 +82,7 @@
                     "text": "Other, don't know or not applicable"
                 }
             ],
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "Basic_troubleshooting_multiselect",
@@ -129,8 +122,7 @@
             "order": 5,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true,
-            "diagnosticInputRequiredClients": "Portal"
+            "required": true
         },
         {
             "id": "problem_description",

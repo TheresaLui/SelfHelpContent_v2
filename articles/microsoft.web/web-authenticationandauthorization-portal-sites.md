@@ -11,8 +11,8 @@
 	resourceTags=""
 	productPesIds="14748"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
+	ownershipId = "Compute_AppService"
 	articleId="aacd0390-479c-4938-8f8a-1f665536b637"
-	ownershipId="Compute_AppService"
 />
 
 # authentication and authorization/App Service Authentication (built-in) through portal
@@ -27,7 +27,7 @@
 * [Enable authentication and authorization for front-end/back-end app](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-auth-aad#enable-authentication-and-authorization-for-front-end-app)
 * [Setting up Application Gateway with an App Service and AAD](https://blogs.msdn.microsoft.com/waws/2017/11/21/setting-up-application-gateway-with-an-app-service-that-uses-azure-active-directory-authentication-and-url-authorization-rules/)
 
-**Configuring Authentication with Identity Providers**
+**Configure Authentication with Identity Providers**
 
 * [Azure Active Directory login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication)<br>
 * [Facebook login](https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-how-to-configure-facebook-authentication)<br>

@@ -32,3 +32,7 @@
 * The Microsoft Authenticator App  is the only available method for my users  - [Learn more about security defaults](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults).
 
 * [Authenticator App FAQ](https://docs.microsoft.com/azure/active-directory/user-help/user-help-auth-app-faq)
+
+## **Recommended Videos**
+
+* [How to set up Authenticator App on a new phone (2min)](https://youtu.be/jTwtosQkn6I)

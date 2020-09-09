@@ -5,7 +5,7 @@
     ms.author="rnagpal"
     articleId="75c8c891-46d2-41fa-a81c-84e870a139a9_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure your Azure Cosmos DB applications to use Direct connectivity in the SDK

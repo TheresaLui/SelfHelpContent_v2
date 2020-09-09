@@ -24,7 +24,3 @@
 1. Insert the IP address of the Azure VM as the **Destination**
 1. Populate TCP ports according to your scenario
 1. Execute the Test Traffic diagnostic by clicking on **Run**
-
-Is there an NSG or UDR blocking connectivity to the destination?
-- Yes
-- No 

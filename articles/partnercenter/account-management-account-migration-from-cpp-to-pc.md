@@ -10,10 +10,10 @@
 	articleId="account_management_accountmigrationfromCPPtoPC"
 	diagnosticScenario=""
 	SelfHelpType="generic"
-	supportTopicIds="32689326, 32689410, 32689411, 32689412,32728051"
+	supportTopicIds="32728048,32728051"
 	clientIds="partnercenter"
 	resourceTags="marketplace"
-	productPesIds="15960,17000"
+	productPesIds="17006,17000"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	OwnershipId="PartnerCenter_Accounts_Onboarding_Access"
 />

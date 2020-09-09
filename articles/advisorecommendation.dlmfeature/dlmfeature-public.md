@@ -5,7 +5,7 @@
     ms.author="hux"
     articleId="700a6195-ddbc-42e9-9341-fa26f2039d96_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="StorageMediaEdge_XStore"
 />
 # Utilize Lifecycle Management 

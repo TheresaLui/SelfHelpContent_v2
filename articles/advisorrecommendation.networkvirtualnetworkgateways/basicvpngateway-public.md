@@ -5,7 +5,7 @@
     ms.author="alzam"
     articleId="e070c4bf-afaf-413e-bc00-e476b89c5f3d_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="CloudNet_AzureVPNGateway"
 />
 # Move to production gateway SKUs from Basic gateways

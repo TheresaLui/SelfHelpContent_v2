@@ -1,6 +1,6 @@
 <properties
 pageTitle="Top common problems for compute"
-description="Menu based workflow document for top compute problems"        
+description="Menu based workflow document for top compute problems"
 service="microsoft.compute"
 resource="virtualmachines"
 authors="gansmore,summertgu"
@@ -11,7 +11,7 @@ selfHelpType="diagnoseandsolve"
 resourceTags="linux, ubuntu, redhat, suse"
 productPesIds="15571"
 cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="Compute_VirtualMachines"
+ownershipId="Compute_VirtualMachines"
 />
 # Diagnose and solve v2 test article for linux
 ---
@@ -86,7 +86,7 @@ cloudEnvironments="public, fairfax, usnat, ussec"
       "subProblems": [
         {
           "id": "Disk_throughput_low",
-          "title": "Disk throughput low",
+          "title": "Disk throughput or IOPS are lower than expected",
           "description": "Troubleshoot performance issues when disk throughput is lower than expected",
           "supportTopicId": "32628264",
           "commonSolutionArticleId": "e32c32c4-edf2-470f-a731-7f4fe2cff95d",
@@ -94,7 +94,7 @@ cloudEnvironments="public, fairfax, usnat, ussec"
         },
         {
           "id": "CPU_usage_high",
-          "title": "CPU usage high",
+          "title": "CPU usage is higher than expected",
           "description": "Troubleshoot performance issues when CPU usage is higher than expected",
           "supportTopicId": "32628261",
           "commonSolutionArticleId": "d0fa4014-1b31-4dea-beaa-0e7d1ef6d466",
@@ -102,7 +102,7 @@ cloudEnvironments="public, fairfax, usnat, ussec"
         },
         {
           "id": "Memory_usage_high",
-          "title": "Memory usage high",
+          "title": "Memory usage is higher than expected",
           "description": "Troubleshoot performance issues when memory usage is higher than expected",
           "supportTopicId": "32628275",
           "commonSolutionArticleId": "d2aaff89-b196-425a-99ed-15656d09fbd1",
@@ -110,18 +110,10 @@ cloudEnvironments="public, fairfax, usnat, ussec"
         },
         {
           "id": "GPU_processing_slow",
-          "title": "GPU processing slow",
+          "title": "GPU processing is slower than expected",
           "description": "Troubleshoot performance issues when GPU processing is slower than expected",
           "supportTopicId": "32628268",
           "commonSolutionArticleId": "2f101132-9899-437e-a74f-f5dd404fd8f9",
-          "symptomId": ""
-        },
-        {
-          "id": "Guidance_for_better_VM_sizing_and_throughput",
-          "title": "Guidance for better VM sizing and throughput",
-          "description": "Guidance on VM sizing and throughput for better performance of Azure VMs",
-          "supportTopicId": "32628270",
-          "commonSolutionArticleId": "59d5ee22-322d-4b0e-9d2b-fe07bdc1442f",
           "symptomId": ""
         },
         {
@@ -192,7 +184,17 @@ cloudEnvironments="public, fairfax, usnat, ussec"
         }
       ]
     },
-    {
+		{
+			"id": "Allocation_recommender",
+			"title": "Allocation Success Recommender",
+			"description": "Provide prediction of the chance of a successful allocation in the next 7 days for given sizes and regions.",
+			"category": "Deployment",
+			"searchTags": "deploy, deployment, create, allocation, standard, resource, size, region, available, location, instance",
+			"supportTopicId": "32743100",
+			"commonSolutionArticleId": "9c65e013-d2bf-4376-87cd-b34554d71bf7",
+			"symptomId": ""
+		},
+		{
       "id": "VM_Deployment_Guidance",
       "title": "VM Deployment Guidance",
       "description": "Guidance on creating a new VM in Azure",
@@ -244,6 +246,16 @@ cloudEnvironments="public, fairfax, usnat, ussec"
       "searchTags": "stuck, boot, start, fail, server, restart, reboot, update, disk, load, storage, encryption",
       "supportTopicId": "32628284",
       "commonSolutionArticleId": "0c333e4e-a865-4822-84b4-0c8eba727ffe",
+      "symptomId": ""
+    },
+    {
+      "id": "Allocation_failure_Top",
+      "title": "Allocation failure",
+      "description": "Troubleshoot allocation failures with a VM in Azure (Start VM or Create VM)",
+      "category": "Allocation",
+      "searchTags": "allocation",
+      "supportTopicId": "32628252",
+      "commonSolutionArticleId": "9c0b9ec9-a07a-40e3-a6a2-f4d49f5f4ccb",
       "symptomId": ""
     },
     {

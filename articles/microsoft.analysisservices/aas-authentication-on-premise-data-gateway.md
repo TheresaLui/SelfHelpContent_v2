@@ -18,10 +18,12 @@
 
 ## **Recommended Documents**
 
-* [On-premises data gateway support for Azure Analysis Services](https://azure.microsoft.com/blog/on-premises-data-gateway-support-for-azure-analysis-services/)
-
 * [Troubleshooting the On-premises data gateway](https://docs.microsoft.com/power-bi/service-gateway-onprem-tshoot)
 
-* [On-premises data gateway personal mode](https://docs.microsoft.com/power-bi/service-gateway-personal-mode#frequently-asked-questions-faq)
+* [Migrate, restore, or take over an on-premises data gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-migrate)
 
+* [Data sources supported in Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource)
 
+* [Frequently asked questions about Analysis Services network connectivity](https://docs.microsoft.com/azure/analysis-services/analysis-services-network-faq)
+
+* [Connecting to servers](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect)

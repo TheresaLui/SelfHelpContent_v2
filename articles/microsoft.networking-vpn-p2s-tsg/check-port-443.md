@@ -47,7 +47,3 @@ Minimum = 218.83ms, Maximum = 221.24ms, Average = 220.06ms
 **Important: the gateway might be correctly listening on port 8081 as per previous steps (meaning the gateway is healthy) but it might fail to respond on port 443.**
 
 If OpenVPN is enabled and Gateway is not responding, we are facing an issue on the Gateway.
-
-Is the gateway listening on port 443?
-- Yes
-- No 

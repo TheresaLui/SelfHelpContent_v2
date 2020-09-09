@@ -18,7 +18,3 @@
 # Check ongoing issue with customer
 
 If the issue is currently ongoing, it is best advised to contact customer to do a repro of the issue and understand if they can provide a specific error from the client.
-
-Are you able to obtain a specific error code from the customer?
-- Yes, I have an error code
-- No, I am not able to obtain an error code from the customer

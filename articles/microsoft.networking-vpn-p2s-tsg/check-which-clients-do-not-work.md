@@ -39,44 +39,35 @@ The aim is to identify what is common between the failing clients (the OS? proto
    1. Ask the customer if the clients failing and those working are running different OSes?
 4. Based on the information gathered in logs and that received from customer, try to determine if the subset of non-working clients is in a supported scenario. The following tables summarizes the supportability for client OS vs protocols and authentication method.
 
-**For Certificates or RADIUS authentication**
-| Client OS | Protocol | Client| Supported?|  
-|--|--|--|--|
-| Windows | SSTP or IKEv2 | Native Windows Client | YES
-| Windows | OpenVPN| Native Windows Client | NO
-| Windows | SSTP or IKEv2 |Azure VPN Client | NO
-| Windows | OpenVPN| Azure VPN Client | YES
-| Windows | SSTP or IKEv2 | OpenVPN client | NO
-| Windows | OpenVPN| OpenVPN client | YES
-| Mac OS | SSTP or OpenVPN | Native Mac Client | NO
-| Mac OS | IkeV2| Native Mac Client | YES
-| Mac OS | SSTP or IKEv2 | OpenVPN client | NO
-| Mac OS | OpenVPN| OpenVPN client | YES
-| Linux | SSTP or OpenVPN | Strongswan | NO
-| Linux | IkeV2| Strongswan | YES
-| Linux | SSTP or IKEv2| OpenVPN client | NO
-| Linux | OpenVPN| OpenVPN client | YES
-| Other OS | SSTP or IKEv2 | any | NO
-| Other OS | OpenVPN| OpenVPN client | YES
+**For Certificates or RADIUS authentication** <br>
+**| Client OS | Protocol | Client| Supported?  <br>**
+| Windows   | SSTP or IKEv2 | Native Windows Client | YES <br>
+| Windows   | OpenVPN       | Native Windows Client | NO <br>
+| Windows   | SSTP or IKEv2 |Azure VPN Client | NO <br>
+| Windows   | OpenVPN       | Azure VPN Client | YES <br>
+| Windows   | SSTP or IKEv2 | OpenVPN client | NO <br>
+| Windows   | OpenVPN| OpenVPN client | YES <br>
+| Mac OS | SSTP or OpenVPN | Native Mac Client | NO <br>
+| Mac OS | IkeV2| Native Mac Client | YES <br>
+| Mac OS | SSTP or IKEv2 | OpenVPN client | NO <br>
+| Mac OS | OpenVPN| OpenVPN client | YES <br>
+| Linux | SSTP or OpenVPN | Strongswan | NO <br>
+| Linux | IkeV2| Strongswan | YES <br>
+| Linux | SSTP or IKEv2| OpenVPN client | NO <br>
+| Linux | OpenVPN| OpenVPN client | YES <br>
+| Other OS | SSTP or IKEv2 | any | NO <br>
+| Other OS | OpenVPN| OpenVPN client | YES <br>
 
 ***Note***: any other combination not covered in the table is NOT supported.
 
-**For Azure AD authentication**
-| Client OS | Protocol | Client| Supported?|  
-|--|--|--|--|
-| Windows | any| Native Windows Client | NO
-| Windows | any| OpenVPN client | NO
-| Windows | SSTP or IKEv2 |Azure VPN Client | NO
-| **Windows** | **OpenVPN**| **Azure VPN Client** | **YES**
-| Mac OS | any| any | NO
-| Linux | any| any| NO
-| Other OS | any | any | NO
+**For Azure AD authentication** <br>
+**| Client OS | Protocol | Client| Supported?**   <br>
+| Windows | any| Native Windows Client | NO <br>
+| Windows | any| OpenVPN client | NO <br> 
+| Windows | SSTP or IKEv2 |Azure VPN Client | NO <br>
+| **Windows** | **OpenVPN**| **Azure VPN Client** | **YES** <br>
+| Mac OS | any| any | NO <br>
+| Linux | any| any| NO <br>
+| Other OS | any | any | NO <br>
 
 ***Note***: any other combination not covered in the table is NOT supported.
-
-Please select the scenario that best matches the customer issue
-- Some clients are failing with a specific error code
-- The clients that don't work are not in a supported client/protocol combination
-- The customer has more than one protocol enabled
-- Only clients running a specific OS type seem to work, the others don't even with same protocol
-- This is an active active gateway and only some clients seem to work, regardless of protocol or OS

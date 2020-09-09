@@ -10,12 +10,12 @@
 	articleId="partnercenter_pricelists"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32635689,32692606"
+	supportTopicIds="32692606"
 	clientIds='partnercenter'
 	resourceTags="csp"
-	productPesIds="15960,17011"
+	productPesIds="17011"
 	cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="PartnerCenter_Accounts_Onboarding_Access"
+	ownershipId="PartnerCenter_Pricing_and_Offers"
 />
 
 # Pricelists
@@ -28,9 +28,11 @@ Review the recommended steps and documents before submitting a service request a
 
 ## **Recommended Documents**
 
-* [Pricelist preview and change frequency](https://docs.microsoft.com/partner-center/pricing-and-offers#pricelist-preview-and-change-frequency)
-* [Price changes](https://docs.microsoft.com/partner-center/pricing-and-offers#price-changes)
-* [Pricing and special segments](https://docs.microsoft.com/partner-center/pricing-and-offers#pricing-and-special-segments)
-* [Pricing between Azure and non-Azure](https://docs.microsoft.com/partner-center/pricing-and-offers#pricing-between-azure-and-non-azure)
-* [Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)
-* [How Non-profit, GCC and Education offers work in Partner Center](https://docs.microsoft.com/partner-center/get-special-pricing-for-offers)
+- [Pricelist preview and change frequency](https://docs.microsoft.com/partner-center/pricing-and-offers#pricelist-preview-and-change-frequency)
+- [Price changes](https://docs.microsoft.com/partner-center/pricing-and-offers#price-changes)
+- [Offers matrix includes which license-based products can be sold in various markets](https://docs.microsoft.com/partner-center/pricing-and-offers#offers-matrix)
+- [Pricing and special segments](https://docs.microsoft.com/partner-center/pricing-and-offers#pricing-and-special-segments)
+- [Azure plan tiered pricing](https://docs.microsoft.com/partner-center/azure-plan-price-list#tiered-pricing)
+- [Pricing between Azure and non-Azure](https://docs.microsoft.com/partner-center/pricing-and-offers#pricing-between-azure-and-non-azure)
+- [Cloud Solution Provider program guide, agreements, price lists, and offers](https://docs.microsoft.com/partner-center/csp-documents-and-learning-resources)
+- [How Non-profit, GCC and Education offers work in Partner Center](https://docs.microsoft.com/partner-center/get-special-pricing-for-offers)

@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Security Compliance GDPR"
-	description="Security Compliance GDRP"
+	description="Security Compliance GDPR"
 	service="microsoft.iotcentral"
 	resource="iotapps"
 	authors="jajens"

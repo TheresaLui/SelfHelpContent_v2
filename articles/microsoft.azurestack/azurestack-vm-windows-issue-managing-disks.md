@@ -19,6 +19,8 @@
 
 Before you try to detach a disk, connect to the VM and unmount it.
 
+4 out of 5 customers resolved their issue using the guides listed below.<br>
+
 ## **Recommended Steps**
 
 - Attach a new disk using the [Azure portal](https://docs.microsoft.com/azure/virtual-machines/windows/attach-managed-disk-portal#attach-a-new-disk) or [PowerShell](https://docs.microsoft.com/azure/virtual-machines/windows/attach-disk-ps) 

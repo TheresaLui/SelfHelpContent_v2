@@ -25,7 +25,3 @@
    2. Find the **Virtual Network Name** where the gateway is and click on the Hyperlink to open the Vnet
    3. Identify the Virtual Network Address space
 3. Identify On-premises ranges - the customer must provide this information, as it's not saved in Azure.
-
-Does the point to site range or the virtual network address space overlap with the onpremises network address range?
-- Yes
-- No

@@ -30,6 +30,9 @@
 * What-if tool lets you simulate sign-in events and see which policies apply
 * Insights and reporting workbook displays real-time impact of each policy
 
+**Baseline Protection Policies**
+- Baseline Protection policies have been deprecated. They are no longer being enforced and will soon be removed from Azure Portal. We recommend enabling [security defaults](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) or [configuring equivalent conditional access policies](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common#typical-policies-deployed-by-organizations) instead. 
+
 
 ## **Recommended Documents**
 

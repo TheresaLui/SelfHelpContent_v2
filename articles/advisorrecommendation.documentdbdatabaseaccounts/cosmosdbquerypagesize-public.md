@@ -5,7 +5,7 @@
     ms.author="aadevteam"
     articleId="e27c5181-5005-4dc3-a449-89b726a3bf54_Public"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public"
+    cloudEnvironments="Public, usnat, ussec"
 	ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure your Azure Cosmos DB query page size (MaxItemCount) to -1
