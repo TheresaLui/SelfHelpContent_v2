@@ -17,7 +17,7 @@
 
 # Azure Stack Capacity
 
-Azure Stack Hub allows cloud operators to monitor and manage the compute, storage, and network capacity of their Azure Stack Hub environment. This includes:
+Azure Stack Hub allows cloud operators to monitor and manage the compute and storage capacity of their Azure Stack Hub environment. This includes:
 
 * Infrastructure storage
 * Tenant virtual machine storage
