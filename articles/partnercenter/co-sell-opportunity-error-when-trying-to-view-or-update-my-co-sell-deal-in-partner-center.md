@@ -25,7 +25,7 @@
 
 1.	Clear your browser cache & cookies and refresh the page.
 
-**Note** Please include your MPN ID, the co-sell opportunity ID, a screenshot of the error & the [HTTP archive file](https://docs.microsoft.com/azure/azure-portal/capture-browser-trace) when filing a support ticket.
+**Note**: Please include your MPN ID, the co-sell opportunity ID, a screenshot of the error & the [HTTP archive file](https://docs.microsoft.com/azure/azure-portal/capture-browser-trace) when filing a support ticket.
 
 ## **Recommended Documents**
 
