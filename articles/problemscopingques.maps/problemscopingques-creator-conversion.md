@@ -42,7 +42,7 @@
 			"displayLabel": "API name:",
 			"watermarkText": "Provide the API name.",
 			"required": false
-		},		
+		},
 		{
 			"id": "problem_api_response",
 			"order": 5,

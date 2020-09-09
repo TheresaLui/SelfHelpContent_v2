@@ -43,7 +43,7 @@
 			"watermarkText": "Provide the API name.",
 			"required": false,
 			"useAsAdditionalDetails": true
-		},		
+		},
 		{
 			"id": "problem_api_response",
 			"order": 5,
