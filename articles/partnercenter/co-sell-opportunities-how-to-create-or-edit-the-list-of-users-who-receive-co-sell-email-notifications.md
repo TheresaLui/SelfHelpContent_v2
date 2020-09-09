@@ -31,7 +31,7 @@
    o	If you would like users who leave your team to stop receiving Co-sell email notifications.
 Please ensure your distribution lists are permitted to receive emails from external IDs.
 
-**Note** Please include the MPN ID, referral ID & solution ID when filing a support ticket for issues with Co-sell email notifications.
+**Note**: Please include the MPN ID, referral ID & solution ID when filing a support ticket for issues with Co-sell email notifications.
 
 ## **Recommended Documents**
 
