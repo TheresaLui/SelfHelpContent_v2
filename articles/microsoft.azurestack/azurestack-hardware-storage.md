@@ -17,7 +17,7 @@
 
 # Azure Stack Capacity
 
-The hyper-converged configuration of Azure Stack allows for the sharing of physical storage devices. The three main divisions of the available storage are between:
+Azure Stack Hub allows cloud operators to monitor and manage the compute, storage, and network capacity of their Azure Stack Hub environment. This includes:
 
 * Infrastructure storage
 * Tenant virtual machine storage
