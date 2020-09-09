@@ -16,7 +16,7 @@
 
 # Can’t delete my files
 
-If you can't delete a file/folder, your compute instance may have a lock on that file. Most users are able to resolve their deleting file issue by using the following steps.
+If you can't delete a file/folder, your compute instance may have a lock on that file or your file/folder is marked as read-only. Most users are able to resolve their deleting file issue by using the following steps.
 
 ## **Recommended Steps**
 1. Click the Terminal icon in the Notebook Toolbar
