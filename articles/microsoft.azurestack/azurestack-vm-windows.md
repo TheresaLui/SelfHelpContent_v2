@@ -1,4 +1,4 @@
- <properties
+<properties
     pageTitle="Azure Stack windows-based virtual machines"
     description="Issues with Windows Based Virtual machines"
     service="microsoft.azurestack"
