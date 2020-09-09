@@ -31,5 +31,5 @@ We recommend that you read the error message to understand the root cause and re
 
 * [Connect to Azure storage services](https://docs.microsoft.com/azure/machine-learning/how-to-access-data)
 * [Create Azure Machine Learning datasets](https://docs.microsoft.com/azure/machine-learning/how-to-create-register-datasets)
-* [Use dataset in pipeline](https://aka.ms/pipeline-with-dataset)
-* [Use dataset in scriptrun](https://aka.ms/scriptrun-with-dataset)
+* [Use dataset in pipeline](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/work-with-data/datasets-tutorial/pipeline-with-datasets)
+* [Use dataset in scriptrun](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/work-with-data/datasets-tutorial/scriptrun-with-data-input-output)
