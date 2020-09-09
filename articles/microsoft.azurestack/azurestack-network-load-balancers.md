@@ -23,7 +23,7 @@ Azure Stack Hub networking has many of the features provided by Azure networking
 
 * Review load balancer service differences on [Azure Stack Hub Networking considerations](https://docs.microsoft.com/azure/azure-stack/user/azure-stack-network-differences)
 * Create a Basic load balancer using supported options, including [Azure Portal](https://docs.microsoft.com/azure/load-balancer/quickstart-create-basic-load-balancer-portal), [Azure CLI](https://docs.microsoft.com/azure/load-balancer/quickstart-create-basic-load-balancer-cli), or [an ARM template](https://docs.microsoft.com/azure/load-balancer/load-balancer-get-started-internet-arm-template)
-* [Configure port forwarding in Load Balancer](https://docs.microsoft.com/en-us/azure/load-balancer/tutorial-load-balancer-port-forwarding-portal#create-an-inbound-nat-port-forwarding-rule)
+* [Configure port forwarding in Load Balancer](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-port-forwarding-portal#create-an-inbound-nat-port-forwarding-rule)
 
 ## **Recommended Documents**
 
