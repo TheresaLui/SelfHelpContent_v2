@@ -45,6 +45,8 @@
 
 ## **Recommended Steps**
 
-When using JAR based jobs on interactive clusters, the JAR jobs will not be automatically updated when a new JAR is uploaded as it will pick up the old JAR. This issue is by design. As a resolution:
-* The cluster needs to be restarted whenever you want to update the JAR in the same job
-* Or create a new job with same configurations and use the new JAR instead
+* When using JAR based jobs on interactive clusters, the JAR jobs will not be automatically updated when a new JAR is uploaded as it will pick up the old JAR. This issue is by design. As a resolution:
+	* The cluster needs to be restarted whenever you want to update the JAR in the same job
+	* Or create a new job with same configurations and use the new JAR instead
+
+* Getting error **java.io.EOFException** when handling huge data set in Spark R even with larger cluster - issue is caused by design since Spark R uses driver node specific framework resource. Resolution is to handle the pipeline with dividing data into smaller sets and conquer the results.

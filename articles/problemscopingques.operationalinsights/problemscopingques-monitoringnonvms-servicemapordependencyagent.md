@@ -6,7 +6,7 @@ articleId="problemscopingques-Service_Map_or_Dependency_agent"
 authors="yossiy"
 ms.author="yossiy"
 selfHelpType="problemScopingQuestions"
-supportTopicIds="32633007"
+supportTopicIds="32745414"
 productPesIds="15725"
 cloudEnvironments="Public, Fairfax, usnat, ussec"
 schemaVersion="1"
@@ -17,6 +17,7 @@ schemaVersion="1"
 ---
 {
     "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Service Map or Dependency agent",
     "fileAttachmentHint": "",
     "formElements": [
