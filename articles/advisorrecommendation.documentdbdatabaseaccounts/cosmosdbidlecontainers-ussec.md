@@ -3,9 +3,9 @@
     description="Delete or reduce provisioned throughput of idle containers"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="a4255ba5-b07e-45ae-99ca-25e6c2079e3c_Fairfax"
+    articleId="a4255ba5-b07e-45ae-99ca-25e6c2079e3c_USSec"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Fairfax"
+    cloudEnvironments="USSec"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Consider taking action on your idle Azure Cosmos DB containers
@@ -37,7 +37,7 @@
   "displayLabel": "Decrease provisioned throughput or delete your idle Azure Cosmos DB containers",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbfairfax.kusto.usgovcloudapi.net').database('LiveSite').IdleContainers",
+    "streamNamespace": "cluster('https://cdbusseceast.usseceast.kusto.core.microsoft.scloud').database('Support').IdleContainers",
     "refreshInterval": "0.12:00:00"
   },
   "actions": [
