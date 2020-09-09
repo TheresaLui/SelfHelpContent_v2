@@ -40,8 +40,25 @@
         {
             "id": "az_quantum_provider",
             "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "If your case relates to a particular provider, please share the provider name with us.",
+            "controlType": "multiselectdropdown",
+            "displayLabel": "If your case relates to one or more specific provider(s), please share the provider name(s) with us.",
+            "dropdownOptions": [{
+                    "value": "1Qloud",
+                    "text": "1Qloud Optimization Platform"
+                }, {
+                    "value": "Honeywell",
+                    "text": "Honeywell Quantum Solutions"
+                }, {
+                    "value": "IonQ",
+                    "text": "IonQ"
+                }, {
+                    "value": "MS Quantum",
+                    "text": "Microsoft Quantum Solutions"
+                }, {
+                    "value": "Quantum Circuits",
+                    "text": "Quantum Circuits, Inc."
+                }
+            ],
             "required": false
         },
         {
