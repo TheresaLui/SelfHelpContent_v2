@@ -21,7 +21,7 @@ Geo-redundant backups are currently **not support** for flexible server. You can
 
 ## **Recommended Steps**
 
-*   If you want to setup geo-redundant backups, currently its not supported for Azure Database for MySQL Flexible Server.
+*   Geo-redundant backups are not currently supported for Azure Database for MySQL Flexible Server
 *   Review the [Azure Database for MySQL business continuity overview](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-business-continuity) to understand estimated restore times and restore point objectives
 *   Review the [Azure Database for MySQL backup and restore concepts](https://docs.microsoft.com/azure/mysql/flexible-server/concepts-backup) to understand supported functionality and regional coverage
 *   [How to export MySQL database using MySQL Workbench](https://docs.microsoft.com/azure/mysql/concepts-migrate-import-export#import-and-export-by-using-mysql-workbench)
