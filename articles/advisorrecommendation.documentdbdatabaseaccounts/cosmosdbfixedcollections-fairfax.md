@@ -29,7 +29,7 @@
     },
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
-  "version": 1.1,
+  "version": 1.2,
   "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/partitioning-overview#choose-partitionkey",
   "description": "Configure your Azure Cosmos containers with a partition key",
   "longDescription": "Your Azure Cosmos non-partitioned collections are approaching their provisioned storage quota. Please migrate these collections to new collections with a partition key definition so that they can automatically be scaled out by the service.",
