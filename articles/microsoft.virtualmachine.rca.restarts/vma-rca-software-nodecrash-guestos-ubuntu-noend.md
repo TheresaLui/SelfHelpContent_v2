@@ -1,0 +1,53 @@
+<properties
+	pageTitle="VMA RCA"
+	description="RCA - Software NodeCrash - Guest OS - UBUNTU"
+	infoBubbleText="Found recent reboot. See details on the right."
+	service=""
+	resource=""
+	authors="naterns"
+	ms.author="naterns"
+	displayOrder=""
+	articleId="VMA_RCA_Software_NodeCrash_GuestOS_UBUNTU_noend"
+	diagnosticScenario="UnexpectedVMReboot"
+	selfHelpType="rca"
+	supportTopicIds=""
+	resourceTags=""
+	productPesIds=""
+	cloudEnvironments="public, fairfax, usnat, ussec"
+	ownershipId="Compute_VirtualMachines"
+
+/>
+# We ran diagnostics on your resource and found an issue
+
+<!--issueDescription-->
+We identified that your VM <!--$vmname-->Virtual machine<!--/$vmname--> experienced downtime at **<!--$StartTime--> StartTime <!--/$StartTime--> (UTC)**. This unexpected occurrence was caused by a crash in the VM’s operating system due to due to internal checks in the virtual machine that caused the deployment to be terminated.
+<!--/issueDescription-->
+
+To avoid potential memory and disk data corruption, the guest operating system stops execution when it detects a serious error condition. This condition can occur for many different reasons, including the following:
+
+- A memory address that causes an access violation
+- An unexpected exception or trap
+- A faulting kernel mode driver
+
+We apologize for any inconvenience this may have caused you. We are continuously working to improve the platform to reduce incidences of virtual machine unavailability.
+
+Microsoft Azure Term
+<br>
+
+## **Recommended Steps**
+
+Details about the cause of the termination are written to system event logs and possibly other files. To investigate further, see these articles from Ubuntu:<br>
+
+Troubleshooting links:
+* [Ubuntu Kernel crash dump ](https://help.ubuntu.com/lts/serverguide/kernel-crash-dump.html)
+* [Ubuntu wiki - Crash Dump Recipe ](https://wiki.ubuntu.com/Kernel/CrashdumpRecipe)
+
+## **Recommended Documents**
+
+Learn more about:
+* [Maintenance and updates for virtual machines in Azure ](https://docs.microsoft.com/azure/virtual-machines/maintenance-and-updates)
+* [Auto-recovery of Virtual Machines ](https://azure.microsoft.com/blog/service-healing-auto-recovery-of-virtual-machines)
+* [Configure availability of virtual machines ](https://docs.microsoft.com/azure/virtual-machines/windows/tutorial-availability-sets)
+* [Managed Disks Overview ](https://docs.microsoft.com/azure/storage/storage-managed-disks-overview)
+* [Understand and use Resource Health Center to troubleshoot this scenario in the future ](https://docs.microsoft.com/azure/resource-health/resource-health-overview)
+<br>

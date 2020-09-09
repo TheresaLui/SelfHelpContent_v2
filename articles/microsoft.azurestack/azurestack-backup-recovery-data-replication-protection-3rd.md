@@ -19,7 +19,8 @@
 
 ## **Recommended Steps**
 
-* The Azure Stack team is engaged with multiple partners to ensure that their third-party solutions work on Azure Stack. For more information see [Azure Stack IaaS - protect your stuff](https://azure.microsoft.com/blog/azure-stack-iaas-part-four/). Full list of supported partners listed in the [Azure Stack Datacenter Integration Partner Ecosystem](https://azure.microsoft.com/resources/azure-stack-datacenter-integration-partners/) datasheet. 
+* [Check if your third-party solution is supported on Azure Stack Hub](https://azure.microsoft.com/resources/azure-stack-datacenter-integration-partners)
+* [Learn about Azure Stack Hub IaaS best practices](https://azure.microsoft.com/blog/azure-stack-iaas-part-four/)
 
 ## **Recommended Documents**
 
