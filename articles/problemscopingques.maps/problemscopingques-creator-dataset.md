@@ -50,8 +50,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "API response message",
 			"watermarkText": "Provide the API response message.",
-			"required": false,
-			"useAsAdditionalDetails": true
+			"required": false
 		},
 		{
 			"id": "problem_conversion_id",
@@ -59,8 +58,7 @@
 			"controlType": "textbox",
 			"displayLabel": "Conversion ID",
 			"watermarkText": "Provide the conversion ID.",
-			"required": false,
-			"useAsAdditionalDetails": true
+			"required": false
 		}
 	]
 }

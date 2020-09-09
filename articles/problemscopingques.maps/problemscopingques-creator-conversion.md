@@ -41,8 +41,7 @@
 			"controlType": "textbox",
 			"displayLabel": "API name:",
 			"watermarkText": "Provide the API name.",
-			"required": false,
-			"useAsAdditionalDetails": true
+			"required": false
 		},		
 		{
 			"id": "problem_api_response",
@@ -50,8 +49,7 @@
 			"controlType": "multilinetextbox",
 			"displayLabel": "API response message",
 			"watermarkText": "Provide the API response message.",
-			"required": false,
-			"useAsAdditionalDetails": true
+			"required": false
 		}
 	]
 }
