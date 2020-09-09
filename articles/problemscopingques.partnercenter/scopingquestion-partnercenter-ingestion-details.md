@@ -36,13 +36,13 @@
             "useAsAdditionalDetails": true
         },
         {
-            "id":"infoballoon_singletest",
-            "order":3,
+            "id": "infoballoon_singletest",
+            "order": 3,
             "infoBalloonText": "<a href='https://docs.microsoft.com/azure/azure-portal/capture-browser-trace'>How to capture a browser trace for troubleshooting</a>",
-            "controlType":"textbox",
-            "displayLabel":"Please IGNORE this section as it is part of an operations test",
-            "watermarkText":"Please IGNORE this section",
-            "required":false
+            "controlType": "textbox",
+            "displayLabel": "Please IGNORE this section as it is part of an operations test",
+            "watermarkText": "Please IGNORE this section",
+            "required": false
         },
         {
             "id": "problem_start_time",
