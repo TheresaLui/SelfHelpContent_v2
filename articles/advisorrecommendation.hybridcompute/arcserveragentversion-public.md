@@ -34,10 +34,11 @@
     },
     "serviceTreeId": "d41cab33-4a4f-4148-ab2f-2b5ff51bd406"
   },
+  "ingestionClientIdentities": [],
   "version": 1.0,
   "learnMoreLink": "https://docs.microsoft.com/azure/azure-arc/servers/manage-agent",
   "description": "Upgrade to the latest version of the Azure Connected Machine agent",
-  "longDescription": "The Azure Connected Machine agent is updated regularly with bug fixes, stability enhancements, and new functionality. Upgrade your agent to the latest version to ensure the best experience with Azure Arc.",
+  "longDescription": "The Azure Connected Machine agent is updated regularly with bug fixes, stability enhancements, and new functionality. Upgrade your agent to the latest version for the best Azure Arc experience.",
   "potentialBenefits": "Improved stability and new functionality",
   "actions": [
     {
