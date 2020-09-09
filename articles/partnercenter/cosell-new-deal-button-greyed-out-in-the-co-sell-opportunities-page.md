@@ -30,8 +30,10 @@
 6.	If you published the solution in your seller account in Partner Center, the solution MPN ID will be set to the MPN ID associated with your seller account
 7.	If you published the solution through OCP GTM, retrieve your solution MPN ID in the [OCP GTM portal](https://msgtm.azurewebsites.net/).
 8.	If the Partner Center & solution MPN IDs do not match, to update the solution MPN ID:
-     a.	Please reach out to your assigned PDM, for managed partner accounts
-     b.	Please file an Ingestion support desk ticket, for unmanaged partner accounts
+
+            a.	Please reach out to your assigned PDM, for managed partner accounts
+     
+            b.	Please file an Ingestion support desk ticket, for unmanaged partner accounts
 
 **Note**: Please include your MPN ID, your solution ID and the [HTTP archive file](https://docs.microsoft.com/azure/azure-portal/capture-browser-trace) when filing a support ticket.
 
