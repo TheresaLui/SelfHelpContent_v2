@@ -17,7 +17,11 @@
 
 # Sporadic VM network issues/partitions
 
-Cluster startup failure with User facing error: *Cluster terminated. Reason: Metastore Component Unhealthy.*
+Cluster startup failure with User facing error: 
+
+```
+Cluster terminated. Reason: Metastore Component Unhealthy.
+```
 
 ### Troubleshooting
 
