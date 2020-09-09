@@ -21,7 +21,7 @@
 
 ### **I want access to use the Agentless dependency analysis feature. How do I do that?**
 
-Access to the preview is now self-serve. All details necessary to get started will be available in the form response at [this link](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR35qjpJOBF1MmO4OLvbG-VVUM1UzOVAzVTY2MlM1NE5WMlJXSUhCTkRMOC4u)
+Access to the preview is now self-serve. All details necessary to get started will be available in the form response at [this link](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR35qjpJOBF1MmO4OLvbG-VVUM1UzOVAzVTY2MlM1NE5WMlJXSUhCTkRMOC4u).
 
 ### **I have not received an email invitation even after submitting the request for the preview.**
 
