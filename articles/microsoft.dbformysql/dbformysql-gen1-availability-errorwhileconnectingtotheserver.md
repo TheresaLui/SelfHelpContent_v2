@@ -1,23 +1,23 @@
 <properties
-    pageTitle="Connection issues to Azure Database for MySQL Single Server"
-    description="Connection issues to Azure Database for MySQL Single Server"
+    pageTitle="Connection issues to Azure Databases for MySQL"
+    description="Connection issues to Azure Databases for MySQL"
     service="microsoft.dbformysql"
     resource="servers"
-    authors="rojone"
-    ms.author="RohanYJones"
-    displayOrder="20"
+    authors="kummanish"
+    ms.author="manishku"
+    displayOrder="30"
     selfHelpType="generic"
-    supportTopicIds="32747558"
+    supportTopicIds="32747561"
     resourceTags="servers, databases"
     productPesIds="17343"
     cloudEnvironments="public, Fairfax, usnat, ussec"
-    articleId="a9ffde43-1352-4f8e-93ca-57c1d01489f9"
-    ownershipId="AzureData_AzureDatabaseforMySQL"
+    articleId="0dd03261-598a-4128-87fd-480db41b6dc8"
+	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 
-# Connection issues to Azure Database for MySQL Single Server
+# Connection issues to Azure Databases for MySQL
 
-Persistent connection issues when connecting to Azure Database for MySQL Single Server can occur due to an incorrect firewall configuration, an incorrect connection string, an incorrect VNet configuration, missing permissions for the user that is trying to connect, and others. Work through the recommended steps to ensure you are not hitting a misconfiguration problem.
+Persistent connection issues when connecting to Azure Databases for MySQL can occur due to an incorrect firewall configuration, an incorrect connection string, an incorrect VNet configuration, missing permissions for the user that is trying to connect, and others. Work through the recommended steps to ensure you are not hitting a misconfiguration problem.
 
 ## **Recommended Steps**
 
@@ -31,9 +31,9 @@ Causes of intermittent connection issues include server restart, high resource u
 
 ### **Persistent connection errors**
 
-If connection issues last for more than a couple minutes, the root cause may be a more persistent issue. Persistent connection issues when connecting to Azure Database for MySQL Single Server can occur due to an incorrect firewall configuration, an incorrect connection string, an incorrect virtual network (VNet) configuration, missing permissions for the user that is trying to connect, and other reasons. Work through the recommended steps to ensure you are not hitting a misconfiguration issue.
+If connection issues last for more than a couple minutes, the root cause may be a more persistent issue. Persistent connection issues when connecting to Azure Databases for MySQL can occur due to an incorrect firewall configuration, an incorrect connection string, an incorrect virtual network (VNet) configuration, missing permissions for the user that is trying to connect, and other reasons. Work through the recommended steps to ensure you are not hitting a misconfiguration issue.
 
-* [Set up firewall rules in Azure Database for MySQL Single Server](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules) to allow your client's IP address.
+* [Set up firewall rules](https://docs.microsoft.com/azure/mysql/concepts-firewall-rules) to allow your client's IP address.
 * If you are using VNets, ensure the correct configuration of the [service endpoints](https://docs.microsoft.com/azure/mysql/howto-manage-vnet-using-portal). Note that the Basic tier does not support VNet service endpoints.
 * Follow [connection recommendations](https://docs.microsoft.com/azure/mysql/concepts-connection-libraries) on computers hosting your client programs
 * Fix [incorrect connection strings](https://docs.microsoft.com/azure/mysql/howto-connection-string) in your application
@@ -44,6 +44,6 @@ If connection issues last for more than a couple minutes, the root cause may be 
 
 ## **Recommended Documents**
 
-* [Troubleshoot common connectivity issues to Azure Database for MySQL Single Server](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues)<br>
+* [Troubleshoot common connectivity issues to Azure Databases for MySQL](https://docs.microsoft.com/azure/mysql/howto-troubleshoot-common-connection-issues)<br>
 * [Connecting to MySQL Database: Best Practices and Design Guidelines](https://docs.microsoft.com/azure/mysql/tutorial-design-database-using-portal/)
-* [Understanding the connectivity architecture for Azure Database for MySQL Single Server](https://docs.microsoft.com/azure/mysql/concepts-connectivity-architecture)
+* [Understanding the connectivity architecture for Azure Database for MySQL](https://docs.microsoft.com/azure/mysql/concepts-connectivity-architecture)
