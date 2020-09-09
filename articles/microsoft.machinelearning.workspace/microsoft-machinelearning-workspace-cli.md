@@ -20,7 +20,7 @@
 
 To use the Machine Learning CLI, the Azure CLI must first be installed. Follow the instructions [here](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest) to do so.
 
-Once the Azure CLI has been installed, the Machine Learning extension can be installed using the following command:
+Once the Azure CLI has been installed, the Machine Learning extension can be installed using the following command: 
 
 ```
 az extension add -n azure-cli-ml
