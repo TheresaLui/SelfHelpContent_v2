@@ -52,7 +52,7 @@
 			"watermarkText": "Provide the API response message.",
 			"required": false,
 			"useAsAdditionalDetails": true
-		},
+		}
 	]
 }
 ---
