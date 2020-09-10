@@ -1,54 +1,42 @@
 <properties
-	pageTitle="Managed Instance - Storage limit was hit"
-	description="Managed Instance - Storage limit was hit"
-	infoBubbleText="Managed Instance was hitting storage limit. See details on the right."
+	pageTitle="Managed Instance - Not enough IP addresses"
+	description="Managed Instance - Not enough IP addresses"
+	infoBubbleText="Not enought IP addresses for scaling or create operation in SQL Managed Instance"
 	service="microsoft.sql"
 	resource="managedInstances"
-	ms.author="vlads"
-	authors="vladsMDCS"
+	ms.author="a-nsehov"
+	authors="a-nsehov"
 	displayOrder=""
-	diagnosticScenario="SqlMIPerf_StorageLimitHit"
+	diagnosticScenario="SqlMIProvisioning_NotEnoughIpAddresses"
 	selfHelpType="diagnostics"
-	supportTopicIds="32637296,32637300,32637306,32637313"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16259"
 	cloudEnvironments="Public, BlackForest, Fairfax, MoonCake, USSEC, USNAT"
-	articleId="sqlmanagedinstance-perf-increase-storage-limit"
+	articleId="sqlmanagedinstance-provisioning-not-enough-IP-addresses"
 	ownershipId="AzureData_AzureSQLMI"
 />
-# Managed Instance - Storage limit was hit
+# Managed Instance - Not enough IP addresses
 
 ## We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Managed instance named <!--$ServerName-->ServerName<!--/$ServerName--> on subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> and resource group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> was hitting the preconfigured maximum storage limit of <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb--> GB between <!--$minTime-->minTime<!--/$minTime--> and <!--$maxTime-->maxTime<!--/$maxTime-->.
-
-In this state, insert, update, delete, and index maintenance queries or any other requests that require system or user database space expansion will fail immediately due to the insufficient space.
-<!--/issueDescription-->
+Managed instance named <!--$ServerName-->ServerName<!--/$ServerName--> on subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> and resource group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> doesn't have enough available IP addresses in its subnet so scaling or create operation in the subnet could not be performed.
 
 ## **Recommended Steps**
 
-To enable normal operation of your instance, please increase the storage limit from:
+Careful planning of subnet size for your managed instance deployments is recommended. You can't resize the subnet after you deploy the resources inside. For more details visit: [Determine required subnet size & range for Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/vnet-subnet-determine-size).
 
-* [Azure Portal](https://portal.azure.com/)
-	1. Navigate to the Managed Instance *<!--$ServerName-->ServerName<!--/$ServerName-->*
-	2. Select *"Pricing Tier"*
-	3. Increase storage size
-	4. Click *"Apply"*
+* If you are trying to create a managed instance in the subnet with existing instances, create new subnet with more IP addresses allocated and deploy managed instance in the new subnet.
 
-* [Az PowerShell - Managed Instance update](https://docs.microsoft.com/powershell/module/Az.Sql/Set-AzSqlInstance)
+* If you are trying to create a managed instance in an empty subnet, remove that subnet and create new one with enough IP addresses allocated. By design, a managed instance needs a minimum of 32 IP addresses in a subnet. As a result, you can use minimum subnet mask of /27 when defining your subnet IP ranges.
 
-	Example (with the current values):
-
-	`Set-AzSqlInstance -ResourceGroupName <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> -Name <!--$ServerName-->ServerName<!--/$ServerName--> -VCore <!--$virtualCoreCount-->virtualCoreCount<!--/$virtualCoreCount--> -StorageSizeInGB <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb-->`
-
-* [Azure CLI - Managed Instance update](https://docs.microsoft.com/cli/azure/sql/mi#az-sql-mi-update)
-
-	Example (with the current values):
-
-	`az sql mi update --subscription <!--$SubscriptionId-->SubscriptionId<!--/$SubscriptionId--> --resource-group <!--$ResourceGroup-->ResourceGroup<!--/$ResourceGroup--> --name <!--$ServerName-->ServerName<!--/$ServerName--> --capacity <!--$virtualCoreCount-->virtualCoreCount<!--/$virtualCoreCount--> --storage <!--$reservedStorageGb-->reservedStorageGb<!--/$reservedStorageGb-->`
+* If you are trying to scale managed instance, you will have to create a new subnet and a new managed instance inside it. We also suggest that the new subnet is created with more IP addresses allocated so future update operations will avoid similar situations. After the new instance is provisioned, you can manually back up and restore data between the old and new instances or perform [cross-instance point-in-time restore](https://docs.microsoft.com/azure/azure-sql/managed-instance/point-in-time-restore?tabs=azure-portal).
 
 ## **Recommended Documents**
 
-* [Managed Instance resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-resource-limits)
-* [Managed Instance service tiers](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance#managed-instance-service-tiers)
+* [Determine required subnet size & range for Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/vnet-subnet-determine-size)
+* [Networking requirements - FAQ](https://docs.microsoft.com/azure/azure-sql/managed-instance/frequently-asked-questions-faq#networking-requirements)
+* [Connectivity architecture for Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/connectivity-architecture-overview)
+* [Create a virtual network for Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/virtual-network-subnet-create-arm-template)
+* [Configure an existing virtual network for Azure SQL Managed Instance](https://docs.microsoft.com/azure/azure-sql/managed-instance/vnet-existing-add-subnet)
