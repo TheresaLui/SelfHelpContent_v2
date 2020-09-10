@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Managed Instance - Not enough IP addresses"
 	description="Managed Instance - Not enough IP addresses"
-	infoBubbleText="Not enought IP addresses for scaling or create operation in SQL Managed Instance"
+	infoBubbleText="Not enough IP addresses for scaling or create operation in SQL Managed Instance"
 	service="microsoft.sql"
 	resource="managedInstances"
 	ms.author="a-nsehov"
