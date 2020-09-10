@@ -40,7 +40,7 @@
 			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "API name:",
-			"watermarkText": "Provide the API name.",
+			"watermarkText": "",
 			"required": false,
 			"useAsAdditionalDetails": true
 		},
@@ -49,7 +49,7 @@
 			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "API response message",
-			"watermarkText": "Provide the API response message.",
+			"watermarkText": "",
 			"required": false
 		},
 		{
@@ -57,7 +57,7 @@
 			"order": 6,
 			"controlType": "textbox",
 			"displayLabel": "Conversion ID",
-			"watermarkText": "Provide the conversion ID.",
+			"watermarkText": "",
 			"required": false
 		}
 	]

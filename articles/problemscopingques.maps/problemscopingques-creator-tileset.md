@@ -40,7 +40,7 @@
 			"order": 4,
 			"controlType": "textbox",
 			"displayLabel": "API name:",
-			"watermarkText": "Provide the API name.",
+			"watermarkText": "",
 			"required": false
 		},
 		{
@@ -48,7 +48,15 @@
 			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "API response message",
-			"watermarkText": "Provide the API response message.",
+			"watermarkText": "",
+			"required": false
+		},
+		{
+			"id": "problem_dataset_id",
+			"order": 6,
+			"controlType": "textbox",
+			"displayLabel": "Dataset ID:",
+			"watermarkText": "",
 			"required": false
 		}
 	]
