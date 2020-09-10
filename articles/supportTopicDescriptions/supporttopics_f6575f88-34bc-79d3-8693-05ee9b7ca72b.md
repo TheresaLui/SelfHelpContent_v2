@@ -117,6 +117,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "91b8ca23-234b-c530-71c8-0f994b92ba86",
+      "longDescription": "",
+      "shortDescription": "Issues related to Log Access & Monitoring in SQL Managed Instance Azure Arc (MIAA) ",
+      "searchTags": "monitoring;telemetry;logs",
+      "category": "Monitoring and Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9a39768d-82a0-d6e5-a677-0d55f58efcea",
       "longDescription": "",
       "shortDescription": "Questions or Issues on Public Preview Limitations and feature availability",

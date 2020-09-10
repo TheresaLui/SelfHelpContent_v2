@@ -32,7 +32,7 @@ Review the authentication details below to get insight into what MFA methods wer
 For additional steps on how to troubleshoot you can refer to the guidance in the Recommended Documents.
 
 ## **Authentication Details**
-<!--$mfaDetails-->[mfaDetails]<!--/$mfaDetails-->
+<!--$authReqDetails-->[authReqDetails]<!--/$authReqDetails-->
 
 ## **Sign-in Details**
 <!--$signinDetails-->[signinDetails]<!--/$signinDetails-->
