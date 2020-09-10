@@ -48,7 +48,7 @@
 			"order": 5,
 			"controlType": "multilinetextbox",
 			"displayLabel": "API response message",
-			"watermarkText": ",
+			"watermarkText": "",
 			"required": false
 		},
 		{
