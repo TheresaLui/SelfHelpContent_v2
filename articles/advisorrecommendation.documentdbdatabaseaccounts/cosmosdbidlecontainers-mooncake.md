@@ -1,11 +1,11 @@
 <properties
     pageTitle="Delete or reduce provisioned throughput of idle containers"
     description="Delete or reduce provisioned throughput of idle containers"
-    authors="thweiss"
-    ms.author="thweiss"
-    articleId="a4255ba5-b07e-45ae-99ca-25e6c2079e3c_Public"
+    authors="pratnala"
+    ms.author="pratnala"
+    articleId="a4255ba5-b07e-45ae-99ca-25e6c2079e3c_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, USNat, USSec"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Consider taking action on your idle Azure Cosmos DB containers
@@ -36,13 +36,10 @@
   "potentialBenefits": "Optimize Azure spend",
   "displayLabel": "Decrease provisioned throughput or delete your idle Azure Cosmos DB containers",
   "dataSourceMetadata": {
-    "dataSource": "SAS"
+    "dataSource": "Kusto",
+    "streamNamespace": "cluster('https://cdbmooncake3.chinanorth2.kusto.chinacloudapi.cn').database('LiveSite').IdleContainers",
+    "refreshInterval": "0.12:00:00"
   },
-  "ingestionClientIdentities": [
-    "6c75c76c-7792-4dd0-8e85-ad598f14bc93",
-    "db97364d-48bf-4567-af34-e0843d0ee0af",
-    "bd26e40e-c0cc-4d1d-8801-569dac0cd7fe"
-  ],
   "actions": [
     {
       "actionId": "11179b0e-2d3f-467b-b4e2-7578f1057b52",
