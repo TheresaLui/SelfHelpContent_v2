@@ -17,7 +17,7 @@
 
 # Zone redundant high availability for Azure Database for MySQL Flexible Server
 
-Azure Database for MySQL Flexible server lets you provision MySQL servers in a zone redundant setup where we have a hot standby provisioned along with the primary server. In case of a failure of the primary zone itself the application will automatically failover to the hot standby running in the secondary zone without any manual intervention. This process of failure detection, DNS switching and the failover to the secondary servers is typically done between 60 - 120 seconds. This setup of running the server gives the 99.99% SLA. One critical think to note is that the zone redundant high availability runs 2 similar server and therefore is twice the price of the primary server.
+Azure Database for MySQL Flexible server lets you provision MySQL servers in a zone redundant setup where we have a hot standby provisioned along with the primary server. In case of a failure of the primary zone itself the application will automatically failover to the hot standby running in the secondary zone without any manual intervention. This process of failure detection, DNS switching and the failover to the secondary servers is typically done between 60 - 120 seconds. This setup of running the server gives the 99.99% SLA. One critical thing to note is that the zone redundant high availability runs 2 similar server and therefore is twice the price of the primary server.
 
 ## **Recommended Steps**
 
