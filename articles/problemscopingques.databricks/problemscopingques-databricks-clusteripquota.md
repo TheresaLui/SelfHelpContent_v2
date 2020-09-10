@@ -1,11 +1,11 @@
 <properties
-	articleId="1a732e03-9f53-4a5e-9eec-da24fb6780db"
+	articleId="21061cae-3950-4bbf-a216-2e31a8357224"
 	pageTitle="Scoping Questions for Databricks Cluster Create failure involving library"
 	description="Scoping Questions for Databricks Cluster Create failure involving library"
 	authors="lisaliu"
 	ms.author="lisaliu"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32677679"
+	supportTopicIds="32743377"
 	productPesIds="16432"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"

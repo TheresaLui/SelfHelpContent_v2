@@ -97,7 +97,7 @@
             "id": "vnetconfig",
             "order": 250,
             "controlType": "multiselectdropdown",
-            "displayLabel": "VNET configurations",
+            "displayLabel": "Custom VNET configurations involved",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
