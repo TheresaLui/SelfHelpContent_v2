@@ -107,7 +107,7 @@
   "displayLabel": "Shut down or resize your virtual machine",
   "additionalColumns": [],
   "ingestionClientIdentities": [
-    "CN=metricsclient.geneva.core.eaglex.ic.gov"
+    "CN=metricsclient.geneva.core.microsoft.scloud"
   ],
   "tip": "You can optimize underutilized virtual machines to reduce your monthly Azure spend.",
   "costSavingInfo": "*You can save up to the stated amount and your actual savings may vary."
