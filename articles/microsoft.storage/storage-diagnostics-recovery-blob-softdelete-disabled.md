@@ -20,6 +20,6 @@ ownershipId="StorageMediaEdge_StorageBlobs"
 
 <!--issueDescription-->
 
-Client side recovery of storage blob {BlobPath} is not supported because soft delete is disabled on storage account **{ResourceName}**. And manual recovery from server side is also not possible. We have run the backend check and find that some data has been permanantly lost, so the data cannot be recovered. Please check <a href=\"{BlobRecoveryInfoUri}\" target=\"_blank\">Blob Recovery Info</a> for the result that we got from backend about the detailed unrecoveable reason.
+Client side recovery of storage blob **{BlobPath}** is not supported because soft delete is disabled on storage account **{ResourceName}**. Manual recovery from server side is also not possible. We have run the backend check and find that some data has been permanantly lost, so the data cannot be recovered. Please check **<a href=\"{BlobRecoveryInfoUri}\" target=\"_blank\">Blob Recovery Info</a>** for the result that we got from backend about the detailed unrecoveable reason.
 
 <!--/issueDescription-->
