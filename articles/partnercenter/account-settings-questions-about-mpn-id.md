@@ -29,6 +29,6 @@ You need to use your MPN ID for such things as logging support tickets. If you a
 ## **Recommended Documents**
 
 * [Create a Partner Center account](https://docs.microsoft.com/partner-center/mpn-create-a-partner-center-account)
-* [How to associate a Microsoft account to your organization’s Microsoft Partner Network ID in Partner Membership Center and Partner Center](https://support.microsoft.com/help/3083683/how-to-add-a-new-user-to-your-organization-s-microsoft-partner-network)
+* [Create user accounts and assign roles and permissions](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)
 * [Moving from PMC to Partner Center](https://docs.microsoft.com/partner-center/move-pmc-pc-map)
 * [Manage your Partner Center account](https://docs.microsoft.com/partner-center/partner-center-account-setup#locate-your-mpn-id)
