@@ -20,7 +20,7 @@
 # We ran diagnostics on your resource and found an issue
 
 <!--issueDescription-->
-Metrics for database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** are not being emitted because the database has no active connections.
+Due to inactivity in database **<!--$DatabaseName-->DatabaseName<!--/$DatabaseName-->** on server **<!--$ServerName-->ServerName<!--/$ServerName-->** , the metric value is zero. The metric is still being emitted and has the correct value.
 <!--/issueDescription-->
 
 ## **Recommended Steps**

@@ -19,7 +19,10 @@
 
 ## **Recommended Documents**
 
-* [How Databricks Delta Cache Behaves on an Autoscaling Cluster](https://kb.azuredatabricks.net/delta/delta-cache-autoscaling.html)
-* [How to Improve Performance of Delta Lake MERGE INTO Queries Using Partition Pruning](https://kb.azuredatabricks.net/delta/delta-merge-into.html)
-* [Best Practices for Dropping a Managed Delta Lake Table](https://kb.azuredatabricks.net/delta/drop-delta-table.html)
-* [Delta Lake Write Job Fails with java.lang.UnsupportedOperationException](https://kb.azuredatabricks.net/delta/delta-write-fails.html)
+* [Delta FAQs](https://docs.microsoft.com/azure/databricks/delta/delta-faq)
+* [Delta How-to?](https://docs.microsoft.com/azure/databricks/delta/delta-intro)
+* [Resources](https://docs.microsoft.com/azure/databricks/delta/delta-resources)
+* [Best Practices](https://docs.microsoft.com/azure/databricks/delta/best-practices)
+* [Delta Lake Tips and Troubleshooting](https://docs.microsoft.com/azure/databricks/kb/delta/)
+* [Introductory Notebooks](https://docs.microsoft.com/azure/databricks/delta/intro-notebooks)
+
