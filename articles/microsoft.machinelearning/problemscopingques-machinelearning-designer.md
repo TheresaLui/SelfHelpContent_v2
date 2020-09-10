@@ -31,7 +31,7 @@
             		"controlType": "datetimepicker",
             		"displayLabel": "When did the problem start?",
             		"required": false
-    }, 
+    },
 		{
 			"id": "problem_requestid",
 			"order": 2,
