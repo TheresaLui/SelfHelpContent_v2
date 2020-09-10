@@ -3,9 +3,9 @@
     description="Configure your Azure Cosmos DB applications to use Direct connectivity in the SDK"
     authors="pratnala"
     ms.author="pratnala"
-    articleId="75c8c891-46d2-41fa-a81c-84e870a139a9_Public"
+    articleId="75c8c891-46d2-41fa-a81c-84e870a139a9_Mooncake"
     selfHelpType="advisorRecommendationMetadata"
-    cloudEnvironments="Public, USNat, USSec"
+    cloudEnvironments="Mooncake"
     ownershipId="AzureData_AzureCosmosDB"
 />
 # Configure your Azure Cosmos DB applications to use Direct connectivity in the SDK
@@ -30,14 +30,14 @@
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
   "version": 2.0,
-  "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/performance-tips#networking",
+  "learnMoreLink": "https://docs.azure.cn/cosmos-db/performance-tips#networking",
   "description": "Configure your Azure Cosmos DB applications to use Direct connectivity in the SDK",
   "longDescription": "We noticed that your Azure Cosmos DB applications are using Gateway mode via the Cosmos DB .NET or Java SDKs. We recommend switching to Direct connectivity for lower latency and higher scalability.",
   "potentialBenefits": "Improve latency and high availability of your applications",
   "displayLabel": "Configure your applications to use Direct connectivity in the SDK",
   "dataSourceMetadata": {
     "dataSource": "Kusto",
-    "streamNamespace": "cluster('https://cdbsupport.kusto.windows.net').database('Support').GatewayMode",
+    "streamNamespace": "cluster('https://cdbmooncake3.chinanorth2.kusto.chinacloudapi.cn').database('LiveSite').GatewayMode",
     "refreshInterval": "0.12:00:00"
   },
   "actions": [
@@ -45,7 +45,7 @@
       "actionId": "8d53c5ee-d517-4d13-8df8-cac65d6f5a56",
       "description": "Configure to use Direct connectivity",
       "actionType": "Document",
-      "documentLink": "https://docs.microsoft.com/azure/cosmos-db/performance-tips#networking"
+      "documentLink": "https://docs.azure.cn/cosmos-db/performance-tips#networking"
     }
   ],
   "resourceMetadata": {
