@@ -99,7 +99,7 @@
             "controlType": "textbox",
             "displayLabel": "Cluster URL if Job or Notebook URL is not available",
             "infoBalloonText": "Follow this <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#cluster-url-and-id'>article</a> to get Cluster URL",
-            "required": true
+            "required": false
         },
         {
             "id": "workspace_id",
