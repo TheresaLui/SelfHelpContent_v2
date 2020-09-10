@@ -57,7 +57,7 @@
 					"text": "Issue description"
 				}, {
 					"text": "Step Run ID (Find under *Details** tab in the module right pane)"
-				}{
+				}, {
 					"text": "Detailed error message"
 				}
 			]
