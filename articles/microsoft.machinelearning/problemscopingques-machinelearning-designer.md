@@ -14,7 +14,6 @@
 	ownershipID="AzureML_AzureMachineLearningServices"
 />
 
-
 # Problem creating or managing designer pipeline: scoping questions
 ---
 {
