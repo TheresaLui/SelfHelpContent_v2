@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4badaed2-5973-803a-3fa6-f43a30733d9e",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues related to Azure Arc Data Controller component",
+      "searchTags": "controller;data controller",
+      "category": "Data Controller",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "58406a86-5ef3-d00d-f4cf-40c2a385c324",
       "longDescription": "",
       "shortDescription": "Questions or Issues on Kubernetes support and pre-requisites for cluster configuration",
@@ -106,6 +114,14 @@
       "shortDescription": "Questions or issues on using Container Registries for MIAA containers",
       "searchTags": "container;docker;MCR;registry",
       "category": "Deployment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "91b8ca23-234b-c530-71c8-0f994b92ba86",
+      "longDescription": "",
+      "shortDescription": "Issues related to Log Access & Monitoring in SQL Managed Instance Azure Arc (MIAA) ",
+      "searchTags": "monitoring;telemetry;logs",
+      "category": "Monitoring and Telemetry",
       "useInDiagnoseAndSolve": "true"
     },
     {
