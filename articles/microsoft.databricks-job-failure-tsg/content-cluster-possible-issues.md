@@ -25,7 +25,7 @@ If the job failed prematurely at cluster creation stage, please collect cluster 
 
 There is more than one possible root cause. Please proceed according to user-facing errors below.
 
-### **Azure Network**
+**Azure Network**
 
 1. NRP throttling 
 
@@ -35,19 +35,19 @@ There is more than one possible root cause. Please proceed according to user-fac
 
     ```Cluster terminated. Reason: Metastore Component Unhealthy```
 
-### **Azure Compute**
+**Azure Compute**
 
 3. Slow/unreliable VM launch 
 
     ```Cluster is running but X nodes could not be acquired.```
 
-### **Azure Storage**
+**Azure Storage**
 
 4. Storage throttling 
 
     ```Files and folders are being created at too high a rate.```
 
-### **Databricks Launch Failures**
+**Databricks Launch Failures**
 
 5. Cluster timeout
 
@@ -61,11 +61,12 @@ There is more than one possible root cause. Please proceed according to user-fac
 
     ```The client 'xxx' with object id 'xxx' does not have authorization to perform action 'Microsoft.Network/publicIPAddresses/write' over scope '/subscriptions/xxx...')```
 
-### **Azure Subscription Limit**
+**Azure Subscription Limit**
 
 8. Quota limit reached (cores, public IPs,...)
 
-    ```Cloud Provider Launch Failure: A cloud provider error was encountered while setting up the cluster. See the Databricks guide for more information.
+    ```
+    Cloud Provider Launch Failure: A cloud provider error was encountered while setting up the cluster. See the Databricks guide for more information.
     Azure error code: OperationNotAllowed
     Azure error message: Operation results in exceeding quota limits of Core. Maximum allowed: xx, Current in use: xx, Additional requested: x.
     ```
