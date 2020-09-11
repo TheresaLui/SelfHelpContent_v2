@@ -36,7 +36,7 @@
 
     This may be because the rename has not been replicated to your regional pair. Customers experiencing this issue can use the old name to recover their Synapse database. 
 
-* If you are trying to resotre a geo-backup and are unable to find a restore point, this may be due to frequent pausing of your SQL pool. Restore points may not have a chance to complete if the SQL pool is frequently paused.
+* If you are trying to restore a geo-backup and are unable to find a restore point, this may be due to frequent pausing of your SQL pool. Restore points may not have a chance to complete if the SQL pool is frequently paused.
 
 * If you are moving or restoring your data warehouse across subscriptions:
 
