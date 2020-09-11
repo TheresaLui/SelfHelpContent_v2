@@ -8,7 +8,7 @@
   productPesIds="16509"
   cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
   schemaVersion="1"
-  articleId="04c1f45a-af94-4bba-b814-7106107ffae4"
+  articleId="466c630e-d70e-4b98-b7a9-d4f388a7b9db"
   ownershipId="AzureIot_IotEdge"
 />
 # IoT Edge "how do i"
@@ -21,8 +21,15 @@
   "fileAttachmentHint": "On releases 1.0.9 and later, please attach the output of 'sudo iotedge support-bundle --since 24h'",
   "formElements": [
     {
-      "id": "problem_description",
+      "id": "problem_start_time",
       "order": 1,
+      "controlType": "datetimepicker",
+      "displayLabel": "When did the problem start?",
+      "required": true
+    },
+    {
+      "id": "problem_description",
+      "order": 2,
       "controlType": "multilinetextbox",
       "displayLabel": "Description",
       "watermarkText": "Please provide the description of the issue and expected behavior vs. what you're observing.",
@@ -31,7 +38,7 @@
     },
     {
       "id": "edge_version",
-      "order": 2,
+      "order": 3,
       "controlType": "dropdown",
       "infoBalloonText": "Run `iotedge version` on the device",
       "displayLabel": "IoT Edge version",
@@ -54,7 +61,7 @@
     },
     {
       "id": "os",
-      "order": 3,
+      "order": 4,
       "controlType": "dropdown",
       "displayLabel": "Device (host) operating system",
       "watermarkText": "Choose an option",
@@ -128,15 +135,19 @@
           "text": "Raspbian Buster"
         },
         {
-          "value": "dont_know_answer",
+          "value": "Other",
           "text": "Other"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "dont_know_answer"
         }
       ],
       "required": true
     },
     {
       "id": "architecture",
-      "order": 4,
+      "order": 5,
       "controlType": "dropdown",
       "displayLabel": "Architecture",
       "watermarkText": "Choose an option",
@@ -152,10 +163,14 @@
         {
           "value": "ARM64",
           "text": "ARM64"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "dont_know_answer"
         }
       ],
       "required": true
-    }  
+    }
   ]
 }
 ---
