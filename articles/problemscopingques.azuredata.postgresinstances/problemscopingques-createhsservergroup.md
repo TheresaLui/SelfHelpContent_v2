@@ -41,6 +41,9 @@
 				}, {
 					"value": "Azure Data Studio",
 					"text": "Azure Data Studio"
+				}, {
+					"value": "dont_know_answer",
+					"text": "I’m not sure/don’t know"
 				}
 			],
 			"required": true
@@ -88,7 +91,7 @@
 			"required": true
 		}, {
 			"id": "problem_description",
-			"order": 5,
+			"order": 6,
 			"controlType": "multilinetextbox",
 			"displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue",
