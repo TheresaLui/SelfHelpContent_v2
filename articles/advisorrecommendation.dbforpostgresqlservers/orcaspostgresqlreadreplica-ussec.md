@@ -1,8 +1,8 @@
 <properties
     pageTitle="Add a PostgreSQL Read Replica server"
     description="Add a PostgreSQL Read Replica server"
-    authors="manishku"
-    ms.author="kummanish"
+    authors="andrela"
+    ms.author="ajlam"
     articleId="8fd46c9b-5ba1-4133-8a5d-dfc61e1195b1_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="ussec"

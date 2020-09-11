@@ -1,8 +1,8 @@
 <properties
     pageTitle="Scale the storage limit for PostgreSQL server"
     description="Scale the storage limit for PostgreSQL server"
-    authors="manishku"
-    ms.author="kummanish"
+    authors="andrela"
+    ms.author="ajlam"
     articleId="ae2b8ab9-f6b9-4531-ba04-44f00880dc18_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="ussec"

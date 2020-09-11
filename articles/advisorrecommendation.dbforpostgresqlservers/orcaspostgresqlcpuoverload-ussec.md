@@ -1,8 +1,8 @@
 <properties
     pageTitle="Increase the PostgreSQL server vCores"
     description="Increase the PostgreSQL server vCores"
-    authors="manishku"
-    ms.author="kummanish"
+    authors="andrela"
+    ms.author="ajlam"
     articleId="38500a53-575d-44b7-8f29-6cd534137438_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="ussec"

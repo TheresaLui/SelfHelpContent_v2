@@ -1,8 +1,8 @@
 <properties
     pageTitle="Scale the PostgreSQL server to higher SKU"
     description="Scale the PostgreSQL server to higher SKU"
-    authors="manishku"
-    ms.author="kummanish"
+    authors="andrela"
+    ms.author="ajlam"
     articleId="bd109fe8-a2cf-415a-adcb-5e9f9fc1d3c0_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="ussec"

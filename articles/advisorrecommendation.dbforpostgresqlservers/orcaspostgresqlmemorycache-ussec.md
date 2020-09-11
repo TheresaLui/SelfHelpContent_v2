@@ -1,8 +1,8 @@
 <properties
     pageTitle="Move your PostgreSQL server to Memory Optimized SKU"
     description="Move your PostgreSQL server to Memory Optimized SKU"
-    authors="aadevteam"
-    ms.author="aadevteam"
+    authors="andrela"
+    ms.author="ajlam"
     articleId="47b11ec4-7950-43a1-b6b5-f051f812bd34_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="ussec"

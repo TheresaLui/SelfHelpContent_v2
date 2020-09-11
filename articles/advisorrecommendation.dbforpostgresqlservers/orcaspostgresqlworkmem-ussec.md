@@ -1,8 +1,8 @@
 <properties
     pageTitle="Increase the server work_mem to avoid excessive disk spilling"
     description="Increase the server work_mem to avoid excessive disk spilling"
-    authors="manishku"
-    ms.author="kummanish"
+    authors="andrela"
+    ms.author="ajlam"
     articleId="2613de4e-b3d7-11e9-a2a3-2a2ae2dbcce4_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="ussec"

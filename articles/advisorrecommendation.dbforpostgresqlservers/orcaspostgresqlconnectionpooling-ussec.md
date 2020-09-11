@@ -1,8 +1,8 @@
 <properties
     pageTitle="Improve PostgreSQL connection management"
     description="Improve PostgreSQL connection management"
-    authors="alau"
-    ms.author="alau"
+    authors="andrela"
+    ms.author="ajlam"
     articleId="84978654-5304-4b2a-81f6-022d18a8b676_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="ussec"
