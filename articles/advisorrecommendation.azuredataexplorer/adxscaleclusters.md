@@ -85,10 +85,6 @@
   },
   "displayLabel": "Consider scaling your cluster to the recommended configuration",
   "additionalColumns": [
-	{
-      "name": "clusterName",
-      "title": "Cluster Name"
-    },
     {
       "name": "currentConfig",
       "title": "Current Configuration"
