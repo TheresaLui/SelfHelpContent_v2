@@ -4,7 +4,7 @@
   authors="veyalla"
   ms.author="veyalla"
   selfHelpType="problemScopingQuestions"
-  supportTopicIds="32680951, 32680955, 32680956, 32680957, 32680965, 32680974, 32680975, 32680988"
+  supportTopicIds="32680951, 32680955, 32680956, 32680957, 32680965, 32680974, 32680975, 32680988, 32680938, 32680939"
   productPesIds="16509"
   cloudEnvironments="public,BlackForest,Fairfax,Mooncake, usnat, ussec"
   schemaVersion="1"
