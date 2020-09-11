@@ -86,6 +86,9 @@
 				}, {
 					"value": "Other",
 					"text": "Other"
+				}, {
+					"value": "dont_know_answer",
+					"text": "I’m not sure/don’t know"
 				}
 			],
 			"required": true
