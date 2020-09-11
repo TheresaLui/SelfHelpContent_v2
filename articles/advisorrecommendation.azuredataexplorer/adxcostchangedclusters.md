@@ -16,7 +16,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "4e13bb59-a859-45b5-ab5a-19363a34084e",
   "dataSourceMetadata": {
-    "schemaVersion": 2.0,
+    "schemaVersion": 2.1,
     "streamNamespace": "cluster('https://cerebro.centralus.kusto.windows.net').database('CustomerPublish').AzureAdvisor_ADX_CostChangedReco",
     "dataSource": "Kusto",
     "refreshInterval": "0.08:00:00"
