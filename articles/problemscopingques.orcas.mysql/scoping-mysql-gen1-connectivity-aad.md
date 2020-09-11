@@ -8,7 +8,7 @@
 	productPesIds="17343"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
-	articleId="problemscopingques-mysql-connectivity-aad"
+	articleId="problemscopingques-mysql-gen1-connectivity-aad"
 	ownershipId="AzureData_AzureDatabaseforMySQL"
 />
 # Database Connectivity - Azure Active Directory authentication
