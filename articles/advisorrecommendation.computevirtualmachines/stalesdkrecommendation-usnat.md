@@ -3,7 +3,7 @@
           description ="Update your current SDK version to the most recent version."
           authors="adsandor"
           ms.author="cplatsdkdev"
-          articleId="14dd00d7-3f65-494e-a1d3-b10c3b9071c0_USNat"
+          articleId="158f0a07-0a66-4a25-9e37-c43c49c8dd64_USNat"
           selfHelpType="advisorRecommendationMetadata"
           cloudEnvironments="usnat"
           ownershipId="Compute_ComputePlatform"
@@ -14,7 +14,7 @@
 {"recommendationOfferingId": "07649cbd-2ee4-4992-898b-f5f16bad1b36",
 "recommendationOfferingName": "Virtual Machines",
 "$schema": "AdvisorRecommendation",
-"recommendationTypeId": "14dd00d7-3f65-494e-a1d3-b10c3b9071c0",
+"recommendationTypeId": "158f0a07-0a66-4a25-9e37-c43c49c8dd64",
 "recommendationCategory": "Performance",
 "recommendationImpact": "High",
 "recommendationResourceType": "Microsoft.Subscriptions/subscriptions",
