@@ -104,7 +104,7 @@
                 }
             ],
             "required": true
-        },        
+        },
         {
             "id": "is_new_problem",
             "order": 100,
