@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "1c9dc477-a2e0-ba06-2f5e-a1c3d71bc65b",
+      "longDescription": "",
+      "shortDescription": "Please use this topic if you are not able to find your issue in one of the other support topics",
+      "searchTags": "advisory",
+      "category": "General",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "3e0f5ec1-8f77-0169-0ddb-f774c4b5030f",
       "longDescription": "",
       "shortDescription": "When using the Scale blade in the Azure Cognitive Search portal, I am unable to adjust the replica or partition count as the buttons are disabled.",

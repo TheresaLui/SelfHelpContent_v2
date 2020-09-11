@@ -29,6 +29,38 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "467f3cd7-67e4-b947-8c9a-8ba8f9afbb89",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues on Export ,Upload files related to Usage",
+      "searchTags": "upload;export;usage",
+      "category": "Monitoring and Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "4badaed2-5973-803a-3fa6-f43a30733d9e",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues related to Azure Arc Data Controller component",
+      "searchTags": "controller;data controller",
+      "category": "Data Controller",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "58406a86-5ef3-d00d-f4cf-40c2a385c324",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues on Kubernetes support and pre-requisites for cluster configuration",
+      "searchTags": "kubernetes;k8s;supported;prerequisites;configuration",
+      "category": "General Questions",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "58d8ed19-4c92-db0a-98e6-a869c9fa2be7",
+      "longDescription": "",
+      "shortDescription": "Issues related to Security - Encryption, Authentication, Authorization, Auditing",
+      "searchTags": "encryption;authentication;security;authorization;auditing",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "59cfd13e-fa1d-40ea-9a8c-265986921dc4",
       "longDescription": "",
       "shortDescription": "Issues or questions about Connecting to SQL Managed Instance Azure Arc (MIAA)",
@@ -61,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7ddd8064-1e89-3188-cfeb-6a1f5eb717ac",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues on Export, Upload Logs & issues viewing the logs",
+      "searchTags": "upload;export;logs",
+      "category": "Monitoring and Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "81a69e4d-7d52-81fe-4b5b-f644699a8278",
       "longDescription": "",
       "shortDescription": "Questions, issues on configuring or modifying SQL MIAA instance (kubectl or azdata)",
@@ -77,11 +117,59 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "91b8ca23-234b-c530-71c8-0f994b92ba86",
+      "longDescription": "",
+      "shortDescription": "Issues related to Log Access & Monitoring in SQL Managed Instance Azure Arc (MIAA) ",
+      "searchTags": "monitoring;telemetry;logs",
+      "category": "Monitoring and Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9a39768d-82a0-d6e5-a677-0d55f58efcea",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues on Public Preview Limitations and feature availability",
+      "searchTags": "limitations;feature availability",
+      "category": "General Questions",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "9ef443c3-06af-0c49-1c03-e17054464898",
       "longDescription": "",
       "shortDescription": "Questions or issues on deleting a SQL MIAA instance",
       "searchTags": "delete;remove;uninstall",
       "category": "Deployment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "9ff76308-810f-d02d-6a48-730b2f4c4b92",
+      "longDescription": "",
+      "shortDescription": "Questions or Issues on view the logs and stats using Kibana and Grafana Dashboard",
+      "searchTags": "kibana;grafana;logs;telemetry",
+      "category": "Monitoring and Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "a0bb2034-ada9-7445-39f6-4f22b3a65f26",
+      "longDescription": "",
+      "shortDescription": "Issues related to slow query or server performance",
+      "searchTags": "slow;performance",
+      "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "ae5a93fb-fb08-ef2d-d1af-729e2aeaee99",
+      "longDescription": "",
+      "shortDescription": "Choose this when none of the other monitoring options represent your issue",
+      "searchTags": "monitoring;logs;telemetry",
+      "category": "Monitoring and Telemetry",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "b64aa3f5-cce0-1b8f-7c2c-a6fe28339e28",
+      "longDescription": "",
+      "shortDescription": "Choose this when none of the other general options represent your issue",
+      "searchTags": "general questions",
+      "category": "General Questions",
       "useInDiagnoseAndSolve": "true"
     },
     {
