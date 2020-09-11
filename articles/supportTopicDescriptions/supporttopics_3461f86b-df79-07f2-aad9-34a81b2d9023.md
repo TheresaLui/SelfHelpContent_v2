@@ -21,6 +21,14 @@
   "productLinkName3": null,
   "supportTopics": [
     {
+      "id": "0365b69a-cffa-a5fb-3f96-b93f86ae4175",
+      "longDescription": "",
+      "shortDescription": "Metastore issues",
+      "searchTags": "metastore;rds",
+      "category": "rds",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "0dbecd7d-a6bc-1e44-fda5-5b99113d01e9",
       "longDescription": "",
       "shortDescription": "How to questions related to notebook setup or usage",
@@ -42,6 +50,14 @@
       "shortDescription": "Databricks monitoring issues using diagnostics logs. Log analytics integration questions",
       "searchTags": "log analytics",
       "category": "monitoring",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "192f248a-261d-ffd6-23b6-9693f2cbfac7",
+      "longDescription": "",
+      "shortDescription": "Client connectivity from Tableau or Power BI or AAS using SIMBA connector",
+      "searchTags": "Tableau;Power BI;analysis services;simba",
+      "category": "report",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -77,6 +93,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "1edaf5b9-7634-a0a9-deac-8ea3bcea3c14",
+      "longDescription": "",
+      "shortDescription": "Spark Streaming issues",
+      "searchTags": "spark streaming",
+      "category": "spark",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "27a4afbf-b90d-1d20-c293-0b11326f6a94",
       "longDescription": "",
       "shortDescription": "Notebook execution failures encountered when sending messages to cluster or fetch results hanging etc. This is unrelated to spark command failures",
@@ -85,11 +109,27 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2af6bbb0-4e9e-f6b6-b23a-36fcd49a1384",
+      "longDescription": "",
+      "shortDescription": "Issues with MLFlow (Java, Python, R, and REST API), a comprehensive ML API managing the full modelling life cycle",
+      "searchTags": "MLFlow ;REST API;R;Python;Java",
+      "category": "ML",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "2ca387c2-b56b-b3de-37af-aa7cd79c1022",
       "longDescription": "",
       "shortDescription": "Any topics NOT covered in other topics in this list",
       "searchTags": "cluster",
       "category": "Cluster Creation, Termination, or Sizing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "2cfe7529-5bbd-0c95-d902-1bf86a6c20bd",
+      "longDescription": "",
+      "shortDescription": "Issues related to 3rd party integrations such as Domino, H2O, etc.",
+      "searchTags": "Domino;H2O",
+      "category": "ML",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -122,6 +162,22 @@
       "shortDescription": "Use this for other security issues not listed above like Azure Key Vault issues, Databricks Users or Groups ACL etc.",
       "searchTags": "key vault;acl;group",
       "category": "security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "3e6885b3-7b21-cb2d-3258-2bd470fcb122",
+      "longDescription": "",
+      "shortDescription": "Issues related with Tag propagation causing billing issues",
+      "searchTags": "tag;bill",
+      "category": "billing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "3f588450-0f86-a67d-872e-fdd0d399ea4b",
+      "longDescription": "",
+      "shortDescription": "Issues with embedded Rstudio",
+      "searchTags": "Rstudio",
+      "category": "ML",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -173,11 +229,27 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "4d748809-d928-03b8-aaef-1e91bfb06f9f",
+      "longDescription": "",
+      "shortDescription": "Source control integration issues",
+      "searchTags": "source control",
+      "category": "source control",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "51db96fb-2015-9931-6ed3-6a48ff6ca693",
       "longDescription": "",
       "shortDescription": "Facing performance or latency issues from ADF or API or Airflow",
       "searchTags": "performance;slow;job;adf;api",
       "category": "job",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "523a1099-5fc4-6941-a481-aa92991d3e15",
+      "longDescription": "",
+      "shortDescription": "Notebook sync or save issues using Github",
+      "searchTags": "notebook;sync;github",
+      "category": "source control",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -189,11 +261,35 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "55f481d6-0415-18ba-0585-3be8e83b27bf",
+      "longDescription": "",
+      "shortDescription": "Billing Issues",
+      "searchTags": "Bill",
+      "category": "billing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "5a23e325-6da8-b327-5ae1-f7c46304c607",
       "longDescription": "",
       "shortDescription": "ACL permission issue when trying to access workspace folders, notebooks, experiments, models, clusters, pools, and jobs",
       "searchTags": "access control;acl;permissions",
       "category": "security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "61725585-25ca-8983-48e0-62f2ee712a23",
+      "longDescription": "",
+      "shortDescription": "Connectivity issues with  IDE (IntelliJ, Eclipse, PyCharm, RStudio, Visual Studio) and notebook server (Zeppelin, Jupyter)",
+      "searchTags": "Zeppelin;Jupyter;Eclipse;RStudio;Visual Studio",
+      "category": "DB Connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "641c540d-0f2b-b8c1-d3ee-ace3ac33b20c",
+      "longDescription": "",
+      "shortDescription": "BLOB and Fuse mount related issues on the cluster node",
+      "searchTags": "blob;fuse mount",
+      "category": "storage",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -210,6 +306,14 @@
       "shortDescription": "Other issues not listed above like workspace tagging, migrating between regions etc.",
       "searchTags": "tag;migration;workspace",
       "category": "workspace",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "6ac20cba-ed2f-7a1a-2e22-5c6448bb26ba",
+      "longDescription": "",
+      "shortDescription": "Spark or DBR Machine learning tools and libraries, such as spark.ml or xgboost - Setup, deployment or errors",
+      "searchTags": "xgboost ;DBR ;spark.ml",
+      "category": "ML",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -245,6 +349,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "7f59fdf2-5bf0-634c-a31c-7f457a037ec7",
+      "longDescription": "",
+      "shortDescription": "Any general guidance questions not covered in other topics",
+      "searchTags": "general guidance",
+      "category": "general guidance",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "86322827-2ccd-eaad-2b3b-de45e7b76ec7",
       "longDescription": "",
       "shortDescription": "Library installation issue using REST API",
@@ -259,6 +371,14 @@
       "searchTags": "cluster",
       "category": "Cluster Creation, Termination, or Sizing",
       "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "86c4d904-9fa7-5b8c-4a3f-53d1d2ad5d98",
+      "longDescription": "",
+      "shortDescription": "Hyper parameter tuning library issues, such as hyperopt",
+      "searchTags": "Hyper paramete;hyperopt",
+      "category": "ML",
+      "useInDiagnoseAndSolve": "false"
     },
     {
       "id": "889199c5-7477-3014-7c05-a3a73b0bc036",
@@ -282,6 +402,14 @@
       "shortDescription": "Other migration not listed issues",
       "searchTags": "migrate",
       "category": "migration",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "94501390-9d29-d367-59e6-28304cf3c4dc",
+      "longDescription": "",
+      "shortDescription": "Questions on Databricks internal hive metastore",
+      "searchTags": "metastore",
+      "category": "rds",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -317,6 +445,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "9da0f752-ac17-626a-02bf-682eba251a22",
+      "longDescription": "",
+      "shortDescription": "Any performance issues of data science apps",
+      "searchTags": "app;data science",
+      "category": "ML",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "9e1df1c6-cf3e-bdfa-3322-f5162cc6713b",
       "longDescription": "",
       "shortDescription": "Questions on Job failures, job alerts or job performance",
@@ -325,11 +461,35 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a31948fb-b1c4-8962-5c36-4e72a6cd1d5b",
+      "longDescription": "",
+      "shortDescription": "Notebook Sync or save issues using Azure DevOps",
+      "searchTags": "notebook;devops",
+      "category": "source control",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "a72e68b6-c820-3240-b91b-90ec1ee13a0a",
+      "longDescription": "",
+      "shortDescription": "Data Science Issues like Machine Learning, MLFlow etc.",
+      "searchTags": "machine learning;mlflow;RStudio;koala",
+      "category": "ML",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "abb5ba16-c4a5-3c94-6fbf-a45df84247d7",
       "longDescription": "",
       "shortDescription": "Cluster creation failing or slow due to init script failure during library installation",
       "searchTags": "init script;library;cluster creation",
       "category": "Cluster Creation, Termination, or Sizing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "abe33233-7fcd-0112-ab78-8cf3330efcba",
+      "longDescription": "",
+      "shortDescription": "Spark Streaming API in Python (PySpark)",
+      "searchTags": "PySpark",
+      "category": "Spark",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -381,6 +541,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c0a2c7ff-dbe6-4f0c-b1e8-a47fbcf75e90",
+      "longDescription": "",
+      "shortDescription": "Question on Databricks external hive metastore ",
+      "searchTags": "metastore",
+      "category": "rds",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "c175e679-dcdd-2754-3a1d-45b4c28df4bd",
       "longDescription": "",
       "shortDescription": "Migration issues",
@@ -389,11 +557,67 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "c244e06e-b68e-ce99-efba-a64f727c74f7",
+      "longDescription": "",
+      "shortDescription": "Documentation issue - missing, unclear, needs modification",
+      "searchTags": "document",
+      "category": "document",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "c48405ec-0e27-bc3b-519a-b3884ae3cbf8",
+      "longDescription": "",
+      "shortDescription": "Billing questions related to dbu usage",
+      "searchTags": "bill;dbu",
+      "category": "billing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "c981a4cd-0c65-92f7-c1e7-7b9eee987579",
+      "longDescription": "",
+      "shortDescription": "DB connect dependency issue like pom.xml, build.sbt having issues ",
+      "searchTags": "build.sbt;pom.xml",
+      "category": "db connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "ca187f00-f64f-4f0b-7fc8-766fbee5c00b",
+      "longDescription": "",
+      "shortDescription": "Delta Lake issues",
+      "searchTags": "delta;delta lake",
+      "category": "delta",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "d038b620-0d83-917a-4fb4-1067e5201c9f",
+      "longDescription": "",
+      "shortDescription": "Notebook sync or save issues using Bitbucket",
+      "searchTags": "bitbucket;notebook;sync",
+      "category": "source control",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "d709601a-4603-8e45-f9e9-424d2063186d",
       "longDescription": "",
       "shortDescription": "ACL permission issue for data objects on specific cluster and SQL table access issues",
       "searchTags": "ACL;sql ;access",
       "category": "security",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "daebbe79-b7e4-3ddc-4c8c-c3812daa26bc",
+      "longDescription": "",
+      "shortDescription": "DB connect issues",
+      "searchTags": "DB connect",
+      "category": "DB Connect",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "dea3969e-f1ea-33c5-ef14-da768fe1994c",
+      "longDescription": "",
+      "shortDescription": "Other billing issues not mentioned in other topics here",
+      "searchTags": "bill;billing",
+      "category": "billing",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -410,6 +634,14 @@
       "shortDescription": "Library installation issue using init script during cluster launch",
       "searchTags": "library;init script",
       "category": "libraries",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "e4ce6357-f1e5-3da1-c751-e43e27020712",
+      "longDescription": "",
+      "shortDescription": "Spark Streaming API in Scala",
+      "searchTags": "Scala",
+      "category": "spark",
       "useInDiagnoseAndSolve": "false"
     },
     {
@@ -445,6 +677,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ed504ad8-607b-d399-21d1-233002504be4",
+      "longDescription": "",
+      "shortDescription": "Assistance with Koalas, a pandas wrapper for PySpark supporting distributed datasets",
+      "searchTags": "Koala;panda;PySpark",
+      "category": "ML",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "f2f4cad6-9ff5-a8ae-7c22-e6891ad98824",
       "longDescription": "",
       "shortDescription": "Library install issues through init script or REST API or UI. Library Compatibility issues",
@@ -474,6 +714,14 @@
       "shortDescription": "Issue due to IP Quota Limit, error like-Cannot create more than xx public IP addresses for this subscription, error code PublicIPCountLimitReached",
       "searchTags": "IP;quota;create failure",
       "category": "Cluster Creation, Termination, or Sizing",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "fd2220cd-b182-c76e-43cb-20118e7532e5",
+      "longDescription": "",
+      "shortDescription": "DB connect jobs issues (Python, Java, Scala, R)",
+      "searchTags": "job;db connect",
+      "category": "db connect",
       "useInDiagnoseAndSolve": "false"
     }
   ]
