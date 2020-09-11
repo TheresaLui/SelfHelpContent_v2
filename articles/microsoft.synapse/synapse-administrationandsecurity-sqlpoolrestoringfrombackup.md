@@ -46,6 +46,8 @@
 
 * If you receive an error message stating "The server is not in a ready state", check the status of the destination SQL Server to ensure that it is in an "Available" state. The status can be found in the Overview pane of the destination SQL Server in the Azure Portal.
 
+* Please note that Synapse Analytics SQL pools do not currently support table level restores. It is only possible to recover an entire database from your backup. 
+
 ## **Recommended Documents**
 
 * Overview of [backup and restore](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-restore-database-overview/)
