@@ -16,7 +16,7 @@
 	ownershipId="Azure_DevOps_Services"
 />
 
-# Azure pipelines issues while making use of Azure KeyVault task
+# Azure pipelines issues while making use of Azure Key Vault task
 
 ## **Recommended Steps**
 
@@ -34,22 +34,22 @@ Are you facing one of these common problems?
 
     Ensure that the **application ID** for the service connection matches the **application ID of the SPN in AAD** for which the permissions are granted. If it different, create a new **App Registration** with the proper permissions and adding the SPN as a new ARM service connection in Azure DevOps.
 
-* I'm trying to use **Azure KeyVault** in an ARM template
+* I'm trying to use **Azure Key Vault** in an ARM template
 
     [Tutorial to integrate Azure Key Vault in your ARM template deployment](https://docs.microsoft.com/azure/azure-resource-manager/templates/template-tutorial-use-key-vault)
 
-* Accessing KeyVault Secrets in Bash task
+* Accessing Key Vault Secrets in Bash task
 
     Make use of both **replace tokens** and **bash task** in order to get the expected results.
 
-* I'm not able to connect to Azure KeyVault from Azure DevOps
+* I'm not able to connect to Azure Key Vault from Azure DevOps
 
-    Check the access policy policy on the Azure portal and ensure the right permissions are given.
+    Check the access policy on the Azure portal and ensure the right permissions are given.
 
 ## **Recommended Documents**
 
-* [Azure KeyVault Task](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-key-vault?view=azure-devops#yaml-snippet)
+* [Azure Key Vault Task](https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-key-vault?view=azure-devops#yaml-snippet)
 * [Access Azure Key Vault behind a firewall](https://docs.microsoft.com/azure/key-vault/general/access-behind-firewall)
 * [Tutorial: Integrate Azure Key Vault in your ARM template deployment](https://docs.microsoft.com/azure/azure-resource-manager/templates/template-tutorial-use-key-vault)
-* [Use secrets from Azure Key Vault in Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/azure-key-vault?view=azure-devops)
+* [Use secrets from Azure Key Vault in Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/release/azure-key-vault?view=azure-devops)
 * [Link secrets from an Azure key vault](https://docs.microsoft.com/azure/devops/pipelines/library/variable-groups?view=azure-devops&tabs=yaml#link-secrets-from-an-azure-key-vault)
