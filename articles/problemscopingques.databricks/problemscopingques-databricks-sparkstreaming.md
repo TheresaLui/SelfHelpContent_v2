@@ -54,7 +54,7 @@
             "order": 300,
             "controlType": "textbox",
             "displayLabel": "Source of the streaming job",
-            "watermarkText": "Please specify the source for the streaming, such as Azure Blob Storage, Delta, Event Hub",
+            "watermarkText": "Please specify the source for the streaming job, such as Azure Blob Storage, Delta, Event Hub",
             "required": true
         },
         {
@@ -62,7 +62,7 @@
             "order": 310,
             "controlType": "textbox",
             "displayLabel": "Sink of the streaming",
-            "watermarkText": "Please specify the sink of the streaming, such as Delta, Custom sink",
+            "watermarkText": "Please specify the sink for the streaming job, such as Delta, or a Custom sink",
             "required": false
         },
         {
