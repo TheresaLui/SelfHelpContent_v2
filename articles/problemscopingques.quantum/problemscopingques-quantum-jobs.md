@@ -7,8 +7,8 @@
 	productPesIds="17040"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="scoping-quantum-jobs"
-	ownershipId=""
+	articleId="problemscopingques-quantum-jobs"
+	ownershipId="AzureCompute_AzureQuantum"
 />
 # Error relating to Azure Quantum Jobs
 ---

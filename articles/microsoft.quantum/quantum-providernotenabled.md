@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="17040"
 	cloudEnvironments="public"
-	ownershipId=""
+	ownershipId="AzureCompute_AzureQuantum"
 />
 
 # A Provider or Target is not enabled in your Workspace

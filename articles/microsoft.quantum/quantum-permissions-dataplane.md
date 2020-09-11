@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="17040"
 	cloudEnvironments="public"
-	ownershipId=""
+	ownershipId="AzureCompute_AzureQuantum"
 />
 
 # Performing an operation on the jobs in a workspace yields a 'Permission Denied' (403 Forbidden) error code

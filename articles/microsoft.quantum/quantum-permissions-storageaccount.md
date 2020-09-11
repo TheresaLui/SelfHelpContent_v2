@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="17040"
 	cloudEnvironments="public"
-	ownershipId=""
+	ownershipId="AzureCompute_AzureQuantum"
 />
 
 # Permission denied accessing job input or output data

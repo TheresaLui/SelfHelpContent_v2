@@ -7,8 +7,8 @@
 	productPesIds="17040"
 	cloudEnvironments="public"
 	schemaVersion="1"
-	articleId="scoping-quantum-providers"
-	ownershipId=""
+	articleId="problemscopingques-quantum-providers"
+	ownershipId="AzureCompute_AzureQuantum"
 />
 # Error relating to Azure Quantum Providers
 ---

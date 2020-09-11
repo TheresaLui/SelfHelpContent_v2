@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="17040"
 	cloudEnvironments="public"
-	ownershipId=""
+	ownershipId="AzureCompute_AzureQuantum"
 />
 
 # After cancelling a job it continues to run

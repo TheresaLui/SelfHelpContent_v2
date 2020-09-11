@@ -13,7 +13,7 @@
 	resourceTags=""
 	productPesIds="17040"
 	cloudEnvironments="public"
-	ownershipId=""
+	ownershipId="AzureCompute_AzureQuantum"
 />
 
 # A Provider is not available in a particular region
