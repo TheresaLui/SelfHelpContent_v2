@@ -27,7 +27,7 @@
 	* Restore a deleted data warehouse using [Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-deleted-dw#restore-a-deleted-database-using-the-azure-portal) or [PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-deleted-dw#restore-a-deleted-data-warehouse-through-powershell)
 	* Restore an active or paused data warehouse using [Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-active-paused-dw#restore-an-existing-data-warehouse-through-the-azure-portal) or [PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-active-paused-dw#restore-an-existing-data-warehouse-through-powershell). Note that when restoring, you can specify a different ServiceObjectiveName (DWU) or a different server residing in a different region.
 	* If portal doesn’t show restore point, use [PowerShell](https://docs.microsoft.com/powershell/module/az.sql/get-azsqldatabaserestorepoint?view=azps-2.4.0#examples) to confirm if the restore point was created. Please note that the default retention for Synapse SQL pools is 7 days.  
-	
+	* Restoring a user defined restore point to a different server is currently only supported via [PowerShell](https://docs.microsoft.com/bs-latn-ba/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-restore-active-paused-dw#restore-an-existing-sql-pool-through-powershell).
 * If you have recently renamed your Synapse database and you receive the following error when trying to recover a geo-backup:
 
     "No Geo-Backup has been created yet" (via Portal) 
