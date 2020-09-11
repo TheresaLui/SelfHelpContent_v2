@@ -2,7 +2,7 @@
 	pageTitle="Create Hyperscale Server group"
 	description="Create Hyperscale Server group"
 	ms.author="amigan,pookam,babarmav"
-	selfHelpType="problemScopingQuestions"	
+	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32747900"
 	productPesIds="17124"
 	cloudEnvironments="Public"
