@@ -142,7 +142,7 @@
             "displayLabel": "Additional details about the issue",
             "watermarkText": "Please provide the detail symptom including the full error text, whether the issue is intermittent or persistent, and any other relevant information",
             "required": true,
-            "useAsAdditionalDetails": false
+            "useAsAdditionalDetails": true
         }
     ],
     "$schema": "SelfHelpContent"
