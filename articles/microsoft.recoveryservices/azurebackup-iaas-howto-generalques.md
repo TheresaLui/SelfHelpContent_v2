@@ -45,7 +45,7 @@ Unsupported Backup/restore configurations: ***Temp drive***, ***Deduplicated Dis
 
 **Restore**<br>
 [How to **restore individual files** from VM backup](https://docs.microsoft.com/azure/backup/backup-azure-restore-files-from-vm)<br>
-[How to restore an unmanaged disk as managed?](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restoring-unmanaged-vms-and-disks-as-managed)
+[How to restore an unmanaged disk as managed?](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#restoring-unmanaged-vms-and-disks-as-managed)<br>
 [How to **restore an Encrypted VM**](https://docs.microsoft.com/azure/backup/backup-azure-vms-encryption#restore-an-encrypted-vm)?<br>
 [How to create a VM from restored disks using Azure PowerShell?](https://docs.microsoft.com/azure/backup/backup-azure-vms-automation#create-a-vm-from-restored-disks)<br>
 How to restore VM to ['alternate location'](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#create-a-vm) or ['replace my original VM'](https://docs.microsoft.com/azure/backup/backup-azure-arm-restore-vms#replace-existing-disks)?<br>
