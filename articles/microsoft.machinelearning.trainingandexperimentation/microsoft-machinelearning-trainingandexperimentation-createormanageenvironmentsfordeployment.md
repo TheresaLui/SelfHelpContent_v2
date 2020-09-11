@@ -9,7 +9,7 @@
 	supportTopicIds="32690848"
 	productPesIds="16644"
 	cloudEnvironments="public, fairfax, mooncake, usnat, ussec"
-	articleId="microsoft.machinelearning.trainingandexperimentation.createormanageenvironments"
+	articleId="trainingandexperimentation.createormanageenvironmentsfordeployment"
 	selfHelpType="generic"
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
