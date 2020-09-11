@@ -55,6 +55,10 @@
         {
           "value": "107",
           "text": "1.0.7"
+        },
+        {
+          "value": "dont_know_answer",
+          "text": "dont_know_answer"
         }
       ],
       "required": true
