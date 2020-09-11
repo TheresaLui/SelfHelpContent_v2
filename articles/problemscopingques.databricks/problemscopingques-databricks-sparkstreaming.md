@@ -63,7 +63,7 @@
             "controlType": "textbox",
             "displayLabel": "Sink of the streaming",
             "watermarkText": "Please specify the sink of the streaming, such as Delta, Custom sink",
-            "required": true
+            "required": false
         },
         {
             "id": "stuckorslow",
