@@ -40,7 +40,7 @@
             "displayLabel": "Job URL for the streaming job with issue",
             "infoBalloonText": "Follow <a href='https://docs.microsoft.com/azure/databricks/workspace/workspace-details#job-url-and-id'>this article</a> to get Job URL",
             "required": false
-        },        
+        },
         {
             "id": "cluster_url",
             "order": 210,
@@ -53,8 +53,8 @@
             "id": "streamingsource",
             "order": 300,
             "controlType": "textbox",
-            "displayLabel": "Source of the streaming",
-            "watermarkText": "Please specify the source of the streaming, such as AQS, Delta, Event Hub",
+            "displayLabel": "Source of the streaming job",
+            "watermarkText": "Please specify the source for the streaming, such as Azure Blob Storage, Delta, Event Hub",
             "required": true
         },
         {
@@ -69,7 +69,7 @@
             "id": "stuckorslow",
             "order": 400,
             "controlType": "dropdown",
-            "displayLabel": "Is the job stuck or slow",
+            "displayLabel": "Is the streaming job stuck or slow",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
