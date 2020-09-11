@@ -42,7 +42,7 @@
   "learnMoreLink": "https://aka.ms/azure_mysql_connection_redirection",
   "description": "Improve MySQL connection latency",
   "longDescription": "Our internal telemetry indicates that your application connecting to MySQL server may not be managing connections efficiently. This may result in higher application latency. To improve connection latency, we recommend that you enable connection redirection. This can be done by enabling the connection redirection feature of the PHP driver.",
-  "potentialBenefits": "Redirection aims to reduce network latency between client applications and MySQL servers by allowing applications to connect directly to backend server nodes",
+  "potentialBenefits": "Reduce network latency between client applications",
   "actions": [
     {
       "actionId": "e23dab88-745f-4220-93a9-346453403f42",
