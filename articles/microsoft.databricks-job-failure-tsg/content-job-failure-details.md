@@ -17,8 +17,3 @@
 
 # Job failure details
 
-Common issues:
-
-1. Cluster could not be started in 50 minutes.
-2. A Databricks Job fails because a library that was expected to be installed was not installed, causing "import" errors.
-3. Job run failure.
