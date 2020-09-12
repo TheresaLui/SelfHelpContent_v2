@@ -21,7 +21,7 @@
 
 ## **Recommended Steps**
 
-* Create user-defined restore points via [Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-points#create-user-defined-restore-points-through-the-azure-portal) or [PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-points). 
+* Create user-defined restore points via [Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-points#create-user-defined-restore-points-through-the-azure-portal) or [PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-points)
 * If you are trying to restore a data warehouse from a backup:
 
 	* Restore a deleted data warehouse using [Azure Portal](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-deleted-dw#restore-a-deleted-database-using-the-azure-portal) or [PowerShell](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-restore-deleted-dw#restore-a-deleted-data-warehouse-through-powershell)
@@ -32,7 +32,7 @@
 
     "No Geo-Backup has been created yet" (via Portal) 
     
-    "NotFound" (via PowerShell).
+    "NotFound" (via PowerShell)
 
     This may be because the rename has not been replicated to your regional pair. Customers experiencing this issue can use the old name to recover their Synapse database. 
 
@@ -54,5 +54,3 @@
 * Overview of [backup and restore](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-restore-database-overview/)
 * Understanding [restore points](https://docs.microsoft.com/azure/sql-data-warehouse/backup-and-restore#restoring-from-restore-points)
 * Learn the basics on the Move functionality including how to [automate via PowerShell](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#use-azure-powershell)
-
-
