@@ -32,7 +32,7 @@
 
     "No Geo-Backup has been created yet" (via Portal) 
     
-    "NotFound" (via PowerShell).
+    "NotFound" (via PowerShell)
 
     This may be because the rename has not been replicated to your regional pair. Customers experiencing this issue can use the old name to recover their Synapse database. 
 
