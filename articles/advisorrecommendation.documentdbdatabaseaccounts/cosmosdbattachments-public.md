@@ -2,7 +2,7 @@
     pageTitle="Migrate Azure Cosmos DB attachments to Azure Blob Storage"
     description="Migrate Azure Cosmos DB attachments to Azure Blob Storage"
     authors="andrl"
-    ms.author="andrl"
+    ms.author="aliuy"
     articleId="061dcd4a-2090-4ec0-b4e0-ec9eaae5cf80_Public"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="Public, USNat, USSec"
