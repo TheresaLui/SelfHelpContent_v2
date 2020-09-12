@@ -36,6 +36,7 @@
 
     This may be because the rename has not been replicated to your regional pair. Customers experiencing this issue can use the old name to recover their Synapse database. 
 
+* If you are trying to restore a geo-backup and are unable to find a restore point, this may be due to frequent pausing of your SQL pool. Restore points may not have a chance to complete if the SQL pool is frequently paused.
 
 * If you are moving or restoring your data warehouse across subscriptions:
 
@@ -46,10 +47,10 @@
 
 * If you receive an error message stating "The server is not in a ready state", check the status of the destination SQL Server to ensure that it is in an "Available" state. The status can be found in the Overview pane of the destination SQL Server in the Azure Portal.
 
+* Please note that Synapse Analytics SQL pools do not currently support table level restores. It is only possible to recover an entire database from your backup. 
+
 ## **Recommended Documents**
 
 * Overview of [backup and restore](https://azure.microsoft.com/documentation/articles/sql-data-warehouse-restore-database-overview/)
 * Understanding [restore points](https://docs.microsoft.com/azure/sql-data-warehouse/backup-and-restore#restoring-from-restore-points)
 * Learn the basics on the Move functionality including how to [automate via PowerShell](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources#use-azure-powershell)
-
-
