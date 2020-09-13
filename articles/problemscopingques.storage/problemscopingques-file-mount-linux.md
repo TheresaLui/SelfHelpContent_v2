@@ -36,9 +36,23 @@
         {
             "id": "file_share_protocol",
             "order": 1,
-            "controlType": "textbox",
+            "controlType": "dropdown",
             "displayLabel": "File Share Protocol",
             "watermarkText": "Select File Share Protocol",
+            "dropdownOptions": [
+                {
+                    "value": "SMB",
+                    "text": "SMB Protocol"
+                },
+                {
+                    "value": "NFS",
+                    "text": "NFS Protocol"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
+                }
+            ],
             "required": true
         },
         {
