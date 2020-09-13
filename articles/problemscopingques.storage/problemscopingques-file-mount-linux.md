@@ -34,8 +34,16 @@
             "diagnosticInputRequiredClients": "Portal,ASC"
         },
         {
-            "id": "mount_location",
+            "id": "file_share_protocol",
             "order": 1,
+            "controlType": "textbox",
+            "displayLabel": "File Share Protocol",
+            "watermarkText": "Select File Share Protocol",
+            "required": true,
+        },
+        {
+            "id": "mount_location",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Location where File Share is being mounted",
             "watermarkText": "Choose an option",
@@ -62,7 +70,7 @@
         },
         {
             "id": "os_version",
-            "order": 2,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Linux version where File Share is being mounted",
             "watermarkText": "Choose an option",
@@ -133,7 +141,7 @@
         },
         {
             "id": "linux_kernel",
-            "order": 3,
+            "order": 4,
             "controlType": "textbox",
             "displayLabel": "Linux kernel version",
             "watermarkText": "Run 'uname -r' command to find Linux kernel version",
@@ -142,7 +150,7 @@
         },
         {
             "id": "mount_error",
-            "order": 4,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "Linux mount error",
             "watermarkText": "Choose an option",
@@ -181,7 +189,7 @@
         },
         {
             "id": "error_other",
-            "order": 5,
+            "order": 6,
             "visibility": "mount_error == linux_dont_know_answer",
             "controlType": "textbox",
             "displayLabel": "Error message",
@@ -190,7 +198,7 @@
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Provide any additional details",
             "required": true,
@@ -198,7 +206,7 @@
         },
         {
             "id": "problem_start_time",
-            "order": 7,
+            "order": 8,
             "controlType": "datetimepicker",
             "displayLabel": "Problem start time",
             "required": true
