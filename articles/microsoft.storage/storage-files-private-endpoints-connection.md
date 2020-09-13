@@ -12,7 +12,7 @@
 	productPesIds="16460"
 	resourceTags=""
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
-	articleId="storage_common_private_endpoints_connection"
+	articleId="storage_files_private_endpoints_connection"
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
