@@ -39,7 +39,7 @@
             "controlType": "textbox",
             "displayLabel": "File Share Protocol",
             "watermarkText": "Select File Share Protocol",
-            "required": true,
+            "required": true
         },
         {
             "id": "mount_location",
