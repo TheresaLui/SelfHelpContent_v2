@@ -19,7 +19,8 @@
 
 ## **Recommended Steps**
 
-* [Answered questions about issues related to access policy in key vault](https://docs.microsoft.com/azure/key-vault/general/troubleshooting-access-issues)
+* [Answered questions about issues related to access policy in key vault](https://docs.microsoft.com/azure/key-vault/general/troubleshooting-access-issues) <br>
+    Answers to:- Unable to add access, Unknown access policy, not able to access to key vault and other scenarios. 
 
 * If you have problem with authenticate to key vault in code, use [Authentication SDK](https://docs.microsoft.com/azure/key-vault/general/developers-guide#coding-with-key-vault) 
 
