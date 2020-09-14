@@ -28,7 +28,7 @@ Are you facing one of these common problems?
 
 * How to approve pipeline without navigating to the Azure DevOps portal
 	
-    Currently, we don’t have a feature to allow the approvers to approve directly through an email notification. We do have **Rest APIs** to list/update approvals so that we don’t need to go to Azure DevOps website. However, the Rest API method is more complicated because, before we update approvals, we have to get the approval ID first by listing all pending approvals. Approving from the web page is the simplest way.
+    Invoking the **REST APIs** to list/update approvals is the only way to complete approvals without going to the Azure DevOps website. You'll need to get approval ID by listing all pending approvals before completing it. Approving from the web page is the simplest way.
 
 * Unable to change the approval and security settings for the pipelines.
 
@@ -37,6 +37,11 @@ Are you facing one of these common problems?
 * Revalidation Error when the users click **Approve** in Azure DevOps Pipeline
 
     Clearing the cookies & cache on the browser should resolve this issue
+
+* Unable to see a **gate/check** in the UI
+
+    You can add additional Gates to your organization using [marketplace extensions](https://marketplace.visualstudio.com/azuredevops). Installing the right extension would help you select the missing gate.
+We do not have support for adding custom checks through extensions. We recommend modelling **Invoke REST API** or **Invoke Azure Function** check to work with the service of your choice.
 
 
 ## **Recommended Documents**
