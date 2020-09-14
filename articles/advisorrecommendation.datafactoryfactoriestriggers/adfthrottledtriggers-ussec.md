@@ -34,7 +34,7 @@
       "service": "Azure Data Factory",
       "team": "ADF V2 Orchestration"
     },
-    "serviceTreeId": "f6d7f416-ee14-4943-894b-1abca9140b74"
+    "serviceTreeId": "f76de4a1-629f-4651-9d76-1d7b56544f3c"
   },
   "ingestionClientIdentities": [],
   "recommendationTimeToLive": 86400,
