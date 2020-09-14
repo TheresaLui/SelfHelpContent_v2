@@ -14,7 +14,7 @@
   "recommendationOfferingId": "ace8d53f-889a-488c-9cc9-d31fb4bbc84a",
   "recommendationOfferingName": "Open Source RDBMS (Orcas)",
   "$schema": "AdvisorRecommendation",
-  "recommendationTypeId": "b9c6698d-5905-413b-8fe9-b0f634ee3449",
+  "recommendationTypeId": "7e76e54f-7978-4d48-9ab9-a4da5b7c69a3",
   "dataSourceMetadata": {
     "streamNamespace": "cluster('https://sqlazureussece.usseceast.kusto.core.microsoft.scloud:443').database('sqlazure1').GetMySqlRightSizeRecommendations",
     "schemaVersion": 2.0,
