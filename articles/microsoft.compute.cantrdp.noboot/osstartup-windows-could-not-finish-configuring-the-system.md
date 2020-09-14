@@ -19,7 +19,7 @@
 
 # VM boot error: Windows could not finish configuring the system
 <!--issueDescription-->
-We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because the VM wasn't able to complete the Sysprep process. This error occures when attempting an initial boot of a generalized image, which means that the image is in an undeployable state and cannot be recovered.
+We have investigated and determined that your virtual machine (VM) <!--$vmname-->[vmname]<!--/$vmname--> is in an inaccessible state because the VM wasn't able to complete the Sysprep process. This error occurs when attempting an initial boot of a generalized image, which means that the image is in an undeployable state and cannot be recovered.
 <!--/issueDescription-->
 
 Use the [Boot Diagnostics Screenshot](data-blade:Microsoft_Azure_Compute.SerialConsoleLogBladeViewModel.resourceId.$resourceId;data-blade-uri:{$domain}/#@microsoft.onmicrosoft.com/resource/{$resourceIdDecoded}/bootDiagnostics) to see the current state of your VM. For this issue, the screenshot would reflect the error code **Windows could not finish configuring the system. To attempt to resume configuration, restart the computer. Setup is starting services**. This may also help you diagnose future issues and determine if a boot error is the cause.<br>
