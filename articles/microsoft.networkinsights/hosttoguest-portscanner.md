@@ -18,7 +18,7 @@ ownershipId="Cloudnet_NetworkWatcher"
 />
 # Cannot connect to Virtual Machine because of blocked ports
 <!--issueDescription-->
-We have identified that your virtual machine(s), **'<!--$VMArray-->[VMArray]<!--/$VMArray-->'** have firewall or application issues blocking port(s) **'<!--$PortsArray-->[PortsArray]<!--/$PortsArray-->'**.
+We have identified that your virtual machine(s), **'<!--$VMArray-->VMArray<!--/$VMArray-->'** have firewall or application issues blocking port(s) **'<!--$PortsArray-->PortsArray<!--/$PortsArray-->'**.
 <!--/issueDescription-->
 
 This issue is caused by a virtual machine (VM) application and/or firewall misconfiguration that is blocking network traffic to the application. By default, VM applications have to be configured to listen on particular TCP/UDP ports to receive requests from the networking layer. A firewall rule must also be configured to allow this traffic through. 
