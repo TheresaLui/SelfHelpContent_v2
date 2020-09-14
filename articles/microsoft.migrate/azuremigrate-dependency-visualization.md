@@ -21,7 +21,7 @@
 
 ### **I installed agents on my on-premises VMs, but the dependencies are not showing up.**
 
-Typically, the dependencies start showing up after 15-20 minutes of installing the agents. Ensure the dependency agent is up and running. Ensure the server operating system is [supported](https://go.microsoft.com/fwlink/?linkid=2133723).
+Typically, the dependencies start showing up after 15-20 minutes of installing the agents. Ensure the dependency agent is up and running. Ensure the server operating system is [supported](https://go.microsoft.com/fwlink/?linkid=2133723). Refer to troubleshooting guidance [here](https://docs.microsoft.com/azure/azure-monitor/insights/service-map#post-installation-issues).
 
 ### **What are the supported operating systems for agent-based dependency analysis?**
 
