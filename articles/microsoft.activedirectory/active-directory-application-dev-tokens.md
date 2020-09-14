@@ -22,7 +22,7 @@ Below you will find help and links for the most common problems when building Az
 **I'm having trouble getting started**
 
 * [I can't find a code sample to get started](https://docs.microsoft.com/azure/active-directory/develop/sample-v2-code)
-* [I need help getting a token in .NET](https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-flows-app-scenarios)
+* [I need help getting a token in .NET](https://docs.microsoft.com/azure/active-directory/develop/authentication-flows-app-scenarios)
 
 **I don't know how to request and use tokens**
 
