@@ -24,7 +24,7 @@
 
 * If you have problem with authenticate to key vault in code, use [Authentication SDK](https://azure.github.io/azure-sdk/posts/2020-02-25/defaultazurecredentials.html) 
 
-## **Troubleshooting**
+### **Troubleshooting**
 
 ### **Troubleshooting Intermittant Failures**
 * Security Group Access Policy Configuration - [Troubleshooting steps]( https://docs.microsoft.com/azure/key-vault/general/group-permissions-for-apps#azure-ad-groups)
