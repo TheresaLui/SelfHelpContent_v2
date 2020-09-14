@@ -20,21 +20,21 @@ RunAs accounts are used by Azure Automation to help authenticate against Azure r
 
 ## **Recommended Steps**
 
-### I can't create or renew a RunAs account / RunAs is greyed out
+### **I can't create or renew a RunAs account / RunAs is greyed out**
 
 * RunAs and Classic RunAs accounts are greyed out when you do not have sufficient permissions
 * You might also see the message "You do not have permissions to create…"
 * See the ["Unable to Update or Create RunAs account"section of the troubleshooting guide](https://docs.microsoft.com/azure/automation/troubleshoot/shared-resources#unable-create-update) 
 
-### Renewing self-signed certificate
+### **Renewing self-signed certificate**
 
 * Before your RunAs certificate expires, you can renew it by following the Cert Renewal instructions at ["Manage RunAs Accounts"](https://docs.microsoft.com/azure/automation/manage-runas-account#cert-renewal).
 
-### Recreating RunAs Account
+### **Recreating RunAs Account**
 
 * After your RunAs certificate expires, you will have to delete it and create a new one by following the instructions for ["Delete and recreate an Azure RunAs account"](https://docs.microsoft.com/azure/automation/manage-runas-account#delete-a-run-as-or-classic-run-as-account)
 
-### Using RunAs with a Hybrid Worker
+### **Using RunAs with a Hybrid Worker**
 
 * You might see the error "No certificate was found in the certificate store"
 * To resolve this issue, follow the ["No Certificate was Found" section of the Hybrid Worker troubleshooter](https://docs.microsoft.com/azure/automation/troubleshoot/hybrid-runbook-worker#no-cert-found)
