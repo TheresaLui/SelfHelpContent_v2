@@ -23,6 +23,7 @@
 
 ## **Recommended Documents**
 
+* [Migrate production jobs from Apache Spark on other platforms to Apache Spark on Azure Databricks](https://docs.microsoft.com/azure/databricks/migration/production)
 * [Change Version of R (r-base)](https://docs.microsoft.com/azure/databricks/kb/r/change-r-version)
 * [Install rJava and RJDBC Libraries](https://docs.microsoft.com/azure/databricks/kb/r/install-rjava-rjdbc-libraries)
 * [Resolving Package or Namespace Loading Error](https://docs.microsoft.com/azure/databricks/kb/r/namespace-onload)
