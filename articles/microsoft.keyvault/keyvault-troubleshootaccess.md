@@ -26,6 +26,10 @@
 
 ## **Troubleshooting**
 
+### **Troubleshooting Intermittant Failures**
+* Security Group Access Policy Configuration - [Troubleshooting steps]( https://docs.microsoft.com/azure/key-vault/general/group-permissions-for-apps#azure-ad-groups)
+
+
 ### **Troubleshooting Error Codes**
 * HTTP 401: Unauthenticated Request - [Troubleshooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-401-unauthenticated-request)
 * HTTP 403: Insufficient Permissions - [Troubleshooting steps](https://docs.microsoft.com/azure/key-vault/general/rest-error-codes#http-403-insufficient-permissions)
