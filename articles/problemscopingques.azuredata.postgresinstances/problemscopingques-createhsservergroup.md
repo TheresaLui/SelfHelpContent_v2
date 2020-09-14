@@ -94,11 +94,12 @@
 			"required": true
 		}, {
 			"id": "problem_description",
-			"order": 6,
-			"controlType": "multilinetextbox",
-			"displayLabel": "Issue Description",
-			"watermarkText": "Provide additional information about your issue",
-			"required": true
+            "order": 6,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Issue Description",
+			"watermarkText": "Provide additional information about your issue.",
+            "useAsAdditionalDetails": true,
+            "required": true
 		}
 	]
 }
