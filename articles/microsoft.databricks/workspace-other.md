@@ -66,6 +66,8 @@
 
 * [Migrate Azure Databricks workspace between subscriptions or regions](https://docs.microsoft.com/azure/databricks/scenarios/howto-regional-disaster-recovery#detailed-migration-steps). The new workspace should be created first and then migrate all notebooks, jobs configuration, clusters configuration, users, libraries, mounts, init scripts.
 
+* [Migrate production jobs from Apache Spark on other platforms to Apache Spark on Azure Databricks](https://docs.microsoft.com/azure/databricks/migration/production)
+
 ## **Recommended Documents**
 
 * [Azure Databricks Platform release notes](https://docs.microsoft.com/azure/databricks/release-notes/product/) cover the features that we develop for the Azure Databricks platform
