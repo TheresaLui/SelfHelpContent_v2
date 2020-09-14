@@ -5,7 +5,7 @@
 	ms.author="chengxin"
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32731217,32639977"
-	productPesIds="17069"
+	productPesIds="16222, 17069"
 	cloudEnvironments="public, Fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="problemscopingques-pg-flexibleservers-connectivity-dropped-errors"

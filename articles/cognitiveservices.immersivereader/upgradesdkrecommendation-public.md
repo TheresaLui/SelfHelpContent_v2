@@ -25,7 +25,7 @@
   "recommendationImpact": "Low",
   "recommendationResourceType": "Microsoft.CognitiveServices/accounts",
   "recommendationFriendlyName": "ImmersiveReaderSDKRecommendation",
-  "recommendationMetadataState": "Active",
+  "recommendationMetadataState": "Disabled",
   "owner": {
     "email": "ltcrew@microsoft.com",
     "icm": {
