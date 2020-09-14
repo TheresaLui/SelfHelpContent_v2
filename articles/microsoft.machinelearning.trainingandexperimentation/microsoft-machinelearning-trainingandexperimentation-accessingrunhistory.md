@@ -14,9 +14,16 @@
 	ownershipId="AzureML_AzureMachineLearningServices"
 />
 
-# Issues with accessing run history
+# Problems Accessing Run Details
 
 ## **Recommended Steps**
+
+### Monitoring and viewing ML run logs and metrics
+Follow [this documentaion](https://docs.microsoft.com/azure/machine-learning/how-to-monitor-view-training-logs) to learn how to add logging code to your training script, submit an experiment run, monitor that run, and inspect the results in Azure Machine Learning.
+
+### Unable to View Logs
+If you are unable to view your logs, please check your workspace storage setting in the [Azure Portal](https://ms.portal.azure.com) to see whether the ADLS Gen2 Hierarchical namespace (HNS) is enabled. You can check by navigating to your Storage Account, selecting the Configuration tab and viewing whether the Data Lake Storage Gen2 Hierarchical namespace is enabled or disabled. HNS is currently not supported by Azure Machine Learning, you will need to create a new workspace with HNS disabled for your storage account. 
+
 ### Accessing run history from the UI
 An experiment run's training scripts, metrics, logs, outputs, and metadata are encapsulated in the run's history. To access the run history from the Azure Machine Learning studio client, navigate to the "Experiment" tab view and click on the corresponding experiment. Each of the runs in that experiment are then accessible from the list view.
 

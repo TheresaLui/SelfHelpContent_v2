@@ -6,7 +6,7 @@
 	authors="cynotebo"
 	ms.author="cynotebo"
 	selfHelpType="resource"
-	displayOrder="80"	
+	displayOrder="80"
 	supportTopicIds="32681355"
 	resourceTags=""
 	productPesIds="15568"
@@ -18,12 +18,6 @@
 # Issue creating a search service
 
 ## **Recommended Steps**
-
-### **Azure capacity restrictions**
-
-As demand continues to grow, we may periodically be faced with capacity constraints in one or more Azure regions. As a result, customers are currently unable to use the portal to create new Azure Cognitive Search services in the following region(s): **Central India**, **UAE North**
-
-At this time we suggest you create your search service in a different region. We apologize for any inconvenience this causes and expect this situation to improve in a couple months as capacity constraints are resolved.
 
 ### **General issues creating a search service**  
 

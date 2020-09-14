@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "55ba1aa0-5914-e81c-cb47-b2648b719355",
+      "longDescription": "",
+      "shortDescription": "Add app connectors, investigate connectivity and disabled connector",
+      "searchTags": "apps;connector",
+      "category": "Apps",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "60d60a8f-ceef-d145-900a-f6119864518b",
       "longDescription": "",
       "shortDescription": "Investigating alerts, activities, files, users and accounts, and governance actions",
@@ -146,6 +154,14 @@
       "shortDescription": "Generic SIEM integration setup using CEF or ArcSight formats. Missing activities and alerts on the SIEM server",
       "searchTags": "SIEM ;CEF;Integration;External",
       "category": "SIEM",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "6d69e6fa-599d-564e-19bc-fd3bd4392e97",
+      "longDescription": "",
+      "shortDescription": "Onboarding any app to enforce controls to prevent data exfiltration and infiltration ",
+      "searchTags": "apps;conneting;controls",
+      "category": "Apps",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -229,6 +245,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "b28b44c7-aca6-7c76-a1b2-cc5e8b20ce57",
+      "longDescription": "",
+      "shortDescription": "Azure ATP integration, investigation of AD activities, and identity security posture configuration",
+      "searchTags": "ATP;Integration",
+      "category": "Integrations",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "b4a094be-0ffc-3a1e-9655-c2d6c43812f2",
       "longDescription": "",
       "shortDescription": "Security configuration recommendations for Azure Security Center, AWS Security Hub, and GCP Security Command Center",
@@ -293,6 +317,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "dd18aa8c-bdc8-1d22-0a5c-220d39277140",
+      "longDescription": "",
+      "shortDescription": "Formatting and parsing issues with log collector and snapshot reports, with built-in and custom log formats",
+      "searchTags": "log;parsing;format;data",
+      "category": "Data",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "e5d4ed3a-52ac-9a74-7d5c-0cd9b3b43226",
       "longDescription": "",
       "shortDescription": "Discovery data anonymization of user and machine names",
@@ -306,6 +338,14 @@
       "shortDescription": "Portal performance and latency issues",
       "searchTags": "Performance;Latency",
       "category": "Performance",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "f1e91e08-300c-3b53-d961-f5f15aacf0f9",
+      "longDescription": "",
+      "shortDescription": "Automated log streaming from various data sources with CAS Log collector",
+      "searchTags": "Log;Collector;Connect",
+      "category": "Log collector",
       "useInDiagnoseAndSolve": "true"
     },
     {

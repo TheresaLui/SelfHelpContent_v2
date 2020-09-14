@@ -119,9 +119,10 @@
             "id": "clusterID",
             "order": 300,
             "controlType": "dropdown",
-            "displayLabel": "Cluster ID if the cluster is still running",
+            "displayLabel": "Cluster ID if the cluster is running",
+            "infoBalloonText": "Cluster ID is available on the cluster overview page on Azure Portal",
             "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.HDInsight/clusters/{resourcename}?api-version=2018-06-01-preview",
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.HDInsight/clusters?api-version=2018-06-01-preview&$filter=targetResourceUri%20eq%20'/subscriptions/{subscriptionid}/resourceGroups/{resourcegroup}/providers/Microsoft.HDInsight/clusters/{resourcename}'",
                 "jTokenPath": "value",
                 "textProperty": "properties.clusterId",
                 "valueProperty": "properties.clusterId",
