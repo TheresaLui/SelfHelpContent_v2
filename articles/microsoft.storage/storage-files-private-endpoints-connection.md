@@ -4,15 +4,15 @@
 	description="Troubleshoot issues connecting to Storage service over Private Endpoints"
 	service="microsoft.storage"
 	resource="storageaccounts"
-	authors="annayak"
-	ms.author="annayak"
+	authors="kartikshah9"
+	ms.author="kashah"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32689876,32689150,32689872,32689880"
-	productPesIds="15629,16459,16461,16462,16598"
+	supportTopicIds="32689868"
+	productPesIds="16460"
 	resourceTags=""
 	cloudEnvironments="public, blackForest, fairfax, mooncake, usnat, ussec"
-	articleId="storage_common_private_endpoints_connection"
+	articleId="storage_files_private_endpoints_connection"
 	ownershipId="StorageMediaEdge_AccountManagement"
 />
 
@@ -23,6 +23,16 @@ Azure Private Endpoint is a network interface that connects you privately and se
 ## **Recommended Steps**
 
 Many customers resolved their Azure Private Endpoints for Storage service issues using the steps below. This resulted in a faster resolution of the issue and we highly recommend you look through the proposed solutions.
+
+### **Azure Files and Private Endpoints**
+
+- [Overview on Private Endpoints for Azure Files](https://docs.microsoft.com/azure/storage/files/storage-files-networking-overview#private-endpoints)
+- [Step by step instructions to setup Private Endpoints for Azure Files](https://docs.microsoft.com/azure/storage/files/storage-files-networking-endpoints?tabs=azure-portal#create-a-private-endpoint)
+
+### **Azure File Sync and Private Endpoints**
+
+- [Overview on Private Endpoints for Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-networking-overview#private-endpoints)
+- [Step by step instructions to setup Private Endpoints for Azure File Sync](https://docs.microsoft.com/azure/storage/files/storage-sync-files-networking-endpoints?tabs=azure-portal)
 
 ### **Common reasons for connection failures to Storage Service with Private Endpoints**
 
@@ -36,9 +46,3 @@ Below are the common scenarios seen when customers reported that connections to 
 
 - [Access storage account privately from the VM](https://docs.microsoft.com/azure/private-link/create-private-endpoint-storage-portal#access-storage-account-privately-from-the-vm) - DNS configuration for storage needs a manual modification on the hosts file to include the FQDN of the specific account Please modify the following file using administrator permissions on Windows: c:\Windows\System32\Drivers\etc\hosts or Linux /etc/hosts Include the DNS information for the account from previous step in the following format [Private IP Address] myaccount.blob.core.windows.net
 
-### **Known Issues**
-
-- [Copy Blob failures](https://docs.microsoft.com/azure/storage/common/storage-private-endpoints#copy-blob-failures)
-- [Subnets with Service Endpoints](https://docs.microsoft.com/azure/storage/common/storage-private-endpoints#subnets-with-service-endpoints)
-- [Storage access constraints for clients in VNets with Private Endpoints](https://docs.microsoft.com/azure/storage/common/storage-private-endpoints#storage-access-constraints-for-clients-in-vnets-with-private-endpoints)
-- [Network Security Group rules for subnets with private endpoints](https://docs.microsoft.com/azure/storage/common/storage-private-endpoints#network-security-group-rules-for-subnets-with-private-endpoints)
