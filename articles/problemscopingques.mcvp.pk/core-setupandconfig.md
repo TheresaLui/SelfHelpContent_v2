@@ -59,8 +59,8 @@
             "controlType": "multiselectdropdown",
             "displayLabel": "What type of deployment are you working on?",
             "dropdownOptions": [{
-                    "value": "DevSetup (Partner Kit)",
-                    "text": "DevSetup"
+                    "value": "DevSetup",
+                    "text": "DevSetup (Partner Kit)"
                 }, {
                     "value": "EasyButton",
                     "text": "EasyButton"
