@@ -33,7 +33,7 @@ For instructions on how to ensure all your associated resources are created behi
 
 ## **Recommended Documents**
 
-Here is a list of additional resources which may be helpful:
+Here is a list of additional resources which may be helpful: 
 
 * [Azure Private Link Overview](https://docs.microsoft.com/azure/private-link/private-link-overview)
 * [Azure Virtual Networks Overview](https://docs.microsoft.com/azure/virtual-network/virtual-networks-overview)
