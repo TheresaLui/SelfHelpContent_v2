@@ -28,7 +28,7 @@ Use [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/)
 
 ### **Need to change a SendGrid plan?**<br>
 To change a SendGrid plan you need to cancel the current plan and purchase a new one. For example, currently using Bronze plan and would like to change to silver, then you need to cancel Bronze plan and purchase Silver plan<br>
-Learn more: [Azure SendGrid](http://azure.microsoft.com/marketplace/partners/sendgrid/sendgrid-azure/)
+Learn more: [Azure SendGrid](https://marketplace.appdirect.com/apps/1967/sendgrid/overview/)
 
 ### **Help me understand when I will be charged?**<br>
 The anniversary day is the day of the month you purchased the subscription. The invoice is generated on the anniversary date and 10 days later the credit card is charged. Invoice customers need to pay using Wire transfer/check and the details for payment is available on your monthly invoice<br>

@@ -66,7 +66,7 @@ For **Storage** usage, the user can enable Storage Analytics. Enabling Storag
   
 For **network-related usage**, the user can use a network capture tool such as Microsoft Network Monitor or a simple HTTP capture tool like Fiddler:
 
-  * [Network Monitor](http://www.microsoft.com/download/details.aspx?id=4865 )
+  * [Network Monitor](https://support.microsoft.com/help/933741/information-about-network-monitor-3)
   * [Fiddler](http://www.telerik.com/fiddler) (NOTE: this tool is not supported by Microsoft)<br>
   
 * For issues related to the **Virtual Machines running a Windows OS image**, the host OS Event Logs can be used: [Windows Event Logs](https://docs.microsoft.com/windows/win32/eventlog/about-event-logging)
