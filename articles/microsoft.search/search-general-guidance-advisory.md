@@ -30,7 +30,7 @@ If you are having issues with Azure Cognitive Search, here are some helpful tips
 ## **Recommended Documents**
 
 * [Azure Cognitive Search documentation](https://docs.microsoft.com/azure/search/)
-* [StackOverFlow tagged with azure-cognitive-search](https://stackoverflow.com/questions/tagged/azure-cognitive-search?tab=Newest)
+* [Stackoverflow tagged with azure-cognitive-search](https://stackoverflow.com/questions/tagged/azure-cognitive-search?tab=Newest)
 * [Azure Status](https://status.azure.com)
 * [Azure Cognitive Search overview video](https://channel9.msdn.com/Shows/AI-Show/Azure-Cognitive-Search-Overview?term=azure%20cognitive%20search&lang-en=true)
 * [Knowledge Mining Solution Accelerator](https://github.com/Azure-Samples/azure-search-knowledge-mining)
