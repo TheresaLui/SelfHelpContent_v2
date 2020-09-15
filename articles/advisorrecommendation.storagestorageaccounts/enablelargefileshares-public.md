@@ -63,7 +63,6 @@
   "displayLabel": "Enable the large file share feature on storage account to avoid throttling",
   "additionalColumns": [],
   "testData": "65490f91-f2c2-4514-80ba-4ec1de89aeda,/subscriptions/65490f91-f2c2-4514-80ba-4ec1de89aeda/resourceGroups/XStoreDataAnalytics/providers/Microsoft.Storage/axdataanalyticsstgwcus",
-  "tip": "By enabling the large file share feature you can get 10x more IOPS. There is no charge to enable large file shares.",
-  "learnMoreLink": "https://docs.microsoft.com/azure/storage/files/storage-files-how-to-create-large-file-share#enable-large-files-shares-on-an-existing-account"
+  "tip": "By enabling the large file share feature you can get 10x more IOPS. There is no charge to enable large file shares."
 }
 ---

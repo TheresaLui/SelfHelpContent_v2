@@ -30,7 +30,7 @@
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/",
+  "learnMoreLink": "https://docs.azure.cn/cosmos-db/",
   "description": "Upgrade your old Azure Cosmos DB SDK to the latest version",
   "longDescription": "Your Azure Cosmos DB account is using an old version of the SDK. We recommend upgrading to the latest version for the latest fixes, performance improvements, and new feature capabilities.",
   "potentialBenefits": "Improved reliability, performance, and new feature capabilities",
