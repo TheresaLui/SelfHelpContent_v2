@@ -9,7 +9,7 @@
     articleId="cosmosdb-lazyindexing-rca"
     diagnosticScenario="CosmosDBLazyIndexingInsight"
     selfHelpType="rca"
-    supportTopicIds="32636761,32636754,32636755,32636759"
+    supportTopicIds="32636795,32636821,32688841,32688842,32681012"
     resourceTags=""
     productPesIds="15585"
     cloudEnvironments="public,fairfax,blackforest,mooncake, usnat, ussec"
