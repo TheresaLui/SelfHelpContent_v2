@@ -322,7 +322,7 @@
 		}
 		],
 		"required": true,
-        "diagnosticInputRequiredClients": "Portal,ASC"
+		"diagnosticInputRequiredClients": "Portal,ASC"
 	},
 	{
 		"id": "file_type",
@@ -342,7 +342,7 @@
 		}
 		],
 		"required": false,
-        "diagnosticInputRequiredClients": "Portal,ASC"
+		"diagnosticInputRequiredClients": "Portal,ASC"
 	},	
 	{
 		"id": "storage_account_from",
