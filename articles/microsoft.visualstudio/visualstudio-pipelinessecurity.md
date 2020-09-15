@@ -26,7 +26,7 @@ Are you facing one of these common problems?
 
   This is mostly caused by the [job access token](https://docs.microsoft.com/azure/devops/pipelines/process/access-tokens?view=azure-devops&tabs=yaml) not having access to the repository. See [Failing checkout](https://docs.microsoft.com/azure/devops/pipelines/repos/azure-repos-git?view=azure-devops&tabs=yaml#failing-checkout) in our docs for ways of fixing this problem.
 
-* For my YAML pipelines, why am I am prompted to **authorize resources** the first time I try to check out a different repository?
+* For my YAML pipelines, why am I prompted to **authorize resources** the first time I try to check out a different repository?
 
   See this [FAQ](https://docs.microsoft.com/azure/devops/pipelines/repos/multi-repo-checkout?view=azure-devops#why-am-i-am-prompted-to-authorize-resources-the-first-time-i-try-to-check-out-a-different-repository) in multi-repository checkout.
 
