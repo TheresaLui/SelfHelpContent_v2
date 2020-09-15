@@ -7,7 +7,7 @@
 	ms.author="jbeman"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds=""
+	supportTopicIds="32725767"
 	resourceTags=""
 	productPesIds="16918"
 	cloudEnvironments="public"

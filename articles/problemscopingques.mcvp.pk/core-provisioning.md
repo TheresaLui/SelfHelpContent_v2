@@ -4,7 +4,7 @@
     authors="jbeman"
     ms.author="jbeman"
     selfHelpType="problemScopingQuestions"
-    supportTopicIds="32725773"
+    supportTopicIds=""
     productPesIds="16918"
     cloudEnvironments="public"
     schemaVersion="1"
