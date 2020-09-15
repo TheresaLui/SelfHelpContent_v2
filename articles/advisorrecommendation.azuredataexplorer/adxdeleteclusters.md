@@ -46,7 +46,7 @@
   "version": 2.0,
   "learnMoreLink": "https://azure.microsoft.com/pricing/details/data-explorer/",
   "description": "(PREVIEW) Unused/Empty Azure Data Explorer clusters",
-  "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which were provisioned more than 10 days ago from this recommendation generated date and found either completely empty or with no activity. The recommended action is to validate and consider deleting the empty or unused Azure Data Explorer clusters.",
+  "longDescription": "(PREVIEW) This recommendation surfaces all Azure Data Explorer clusters which have a small amount of data, queries, and ingestions during the last 30 days; has low CPU usage during the last two days, and has no followers during the last day (the dates are from the recommendation generated date). The recommended action is to validate and consider deleting the empty or unused Azure Data Explorer clusters.",
   "potentialBenefits": "Optimize Azure spend",
   "actions": [
     {
@@ -90,6 +90,6 @@
       "title": "Generated On"
     }
   ],
-  "costSavingInfo": "Cost savings are estimated for a year in USD"
+  "costSavingInfo": "*Your actual yearly savings may vary. The yearly saving that is presented is based on 'pay as you go' prices. The potential saving does not take into consideration Azure Reserved VM Instances (RIs) billing discounts you may have."
 }
 ---
