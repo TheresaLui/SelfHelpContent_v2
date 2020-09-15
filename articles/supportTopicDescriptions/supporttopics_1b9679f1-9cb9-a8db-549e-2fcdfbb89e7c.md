@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "53f59569-6179-4ba9-0f1d-c736fd87c6ed",
+      "longDescription": "",
+      "shortDescription": "Questions on exploring the enriched data with Power BI. Configuring Power BI to read from the knowledge store",
+      "searchTags": "Knowledge store;Power BI;visualize;enrichment",
+      "category": "Enrichment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5527a869-571a-d6c1-b223-46bb59108f3c",
       "longDescription": "",
       "shortDescription": "Issues creating an Azure Cognitive Search service",
