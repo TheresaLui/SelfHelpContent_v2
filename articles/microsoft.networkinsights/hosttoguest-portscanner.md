@@ -23,7 +23,7 @@ We have identified that your virtual machine(s), **'<!--$VMArray-->VMArray<!--/$
 
 This issue is caused by a virtual machine (VM) application and/or firewall misconfiguration that is blocking network traffic to the application. By default, VM applications have to be configured to listen on particular TCP/UDP ports to receive requests from the networking layer. A firewall rule must also be configured to allow this traffic through. 
 
-## **Recommended steps to resolve the issue**
+## **Recommended Steps**
 
 ### Windows
 
@@ -75,7 +75,7 @@ Again, we can see that the application is running on IPv4 and IPv6.
 sudo iptables -S
 ~~~
 
-#### Important!: Do not leave your firewall disabled. Enable your firewall again after testing.
+### Important!: Do not leave your firewall disabled. Enable your firewall again after testing.
 
 ## **Recommended Documents**
 
