@@ -7,7 +7,7 @@
 	ms.author="jbeman"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32725756"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16918"
 	cloudEnvironments="public"
@@ -19,16 +19,16 @@
 
 ## Error: BadRequest
 
-Q: When following the Send a Command instructions found in the "Tutorial: Send, Receive, and Respond to a Command," the status code resulted in a "BadRequest"
+Q: When following the Send a Command instructions found in the **Tutorial: Send, Receive, and Respond to a Command**, the status code resulted in a `BadRequest`
 A: There are a number of reasons this error may occur—the most common are the following:
 
 1. Incorrect vehicle or device name in the Command Extension
 
-- Repeat step 2 from the "Tutorial: Send, Receive, and Respond to a Command" and redeploy your command extension.
+- Repeat step 2 from the **Tutorial: Send, Receive, and Respond to a Command** and redeploy your command extension.
 
 2. Missing claims for the vehicle
 
-- Add the missing claim for the vehicle.  Follow the instructions to "Create Claims for Vehicle Telemetry" found in the "Tutorial: Deploy the Sample Claims Application and Create Claims."  Then rerun the section "Send a Command" in the "Tutorial: Send, Receive, and Respond to a Command."
+- Add the missing claim for the vehicle.  Follow the instructions to **Create Claims for Vehicle Telemetry** found in the **Tutorial: Deploy the Sample Claims Application and Create Claims**.  Then rerun the section **Send a Command** in the **Tutorial: Send, Receive, and Respond to a Command**.
 
 ## **Recommended Documents**
 

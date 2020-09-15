@@ -46,18 +46,10 @@
             "required": true
         },
         {
-            "id": "region_location",
-            "order": 3,
+            "id": "problem_region",
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Which region is your VM and/or cluster located?",
-            "required": false,
-            "useAsAdditionalDetails": true,
-            "hints": [{
-                    "text": "Provide the region name for your setup"
-                }, {
-                    "text": "https://azure.microsoft.com/en-us/global-infrastructure/geographies/"
-                }
-            ],
             "required": true
         },
         {
@@ -79,7 +71,7 @@
                     "text": "Production"
                 },  {
                     "text": "I don't know",
-                    "value": "dont_know"
+                    "value": "dont_know_answer"
                 }
             ],
             "required": true
@@ -89,14 +81,6 @@
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "What version of MCVP core are you attempting to deploy?",
-            "required": false,
-            "useAsAdditionalDetails": true,
-            "hints": [{
-                    "text": "The Partner Kit version is found in a text file under cloud/core/version.txt"
-                }, {
-                    "text": "https://dev.azure.com/mcvp-prod/Partner%20Kits/_git/mcvp-pkit?path=%2Fcloud%2FCore%2Fversion.txt"
-                }
-            ],
             "required": true
         },
         {
@@ -118,7 +102,7 @@
                     "text": "Reader"
                 },  {
                     "text": "I don't know",
-                    "value": "dont_know"
+                    "value": "dont_know_answer"
                 }
             ],
             "required": true
@@ -142,7 +126,7 @@
                     "text": "Other"
                 },  {
                     "text": "I don't know",
-                    "value": "dont_know"
+                    "value": "dont_know_answer"
                 }
             ],
             "required": true

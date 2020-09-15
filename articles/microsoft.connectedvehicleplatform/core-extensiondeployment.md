@@ -7,7 +7,7 @@
 	ms.author="jbeman"
 	displayOrder=""
 	selfHelpType="generic"
-	supportTopicIds="32725770,32725767"
+	supportTopicIds=""
 	resourceTags=""
 	productPesIds="16918"
 	cloudEnvironments="public"
@@ -19,8 +19,8 @@
 
 ## Error: PLEASE ENSURE PLATFORM IS RUNNING
 
-Q: The following error occurs when attempting to deploy an extension: "PLEASE ENSURE PLATFORM IS RUNNING.  ALTHOUGH THIS PROGRAM WILL RETRY, PLATFORM MUST BE RUNNING FOR IT TO SUCCEED."
-A: Check your service fabric explorer as it is likely service fabric may not be running or in an unhealthy state. To fix it, rerun steps 5 and 6 in the “Windows 10 VM Setup and Cloud Deployment” section, found in the "Tutorial: Deploy the Connected Vehicle Platform to Azure."
+Q: The following error occurs when attempting to deploy an extension: `PLEASE ENSURE PLATFORM IS RUNNING.  ALTHOUGH THIS PROGRAM WILL RETRY, PLATFORM MUST BE RUNNING FOR IT TO SUCCEED.`
+A: Check your service fabric explorer as it is likely service fabric may not be running or in an unhealthy state. To fix it, rerun steps 5 and 6 in the **Windows 10 VM Setup and Cloud Deployment** section, found in the **Tutorial: Deploy the Connected Vehicle Platform to Azure**.
 
 ## Error: Awaiting rollout of manifest to extension host
 
