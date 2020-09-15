@@ -24,7 +24,7 @@ If you are having trouble indexing an Azure Blob data source, you may want to en
 1. The data source properties (name, type, credentials, container) are set correctly as described [here](https://docs.microsoft.com/azure/search/search-howto-indexing-azure-blob-storage)
 1. The storage account is not encrypted or protected with a firewall
 
-Depending on your security requiments, you may also want to consider using [managed identity](https://docs.microsoft.com/azure/search/search-howto-managed-identities-storage) to connect to your Azure Blob data source.
+Depending on your security requirements, you may also want to consider using [managed identity](https://docs.microsoft.com/azure/search/search-howto-managed-identities-storage) to connect to your Azure Blob data source.
 
 ## **Recommended Documents**
 
