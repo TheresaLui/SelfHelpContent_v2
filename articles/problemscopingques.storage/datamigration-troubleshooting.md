@@ -393,6 +393,7 @@
 		"order": 13,
 		"controlType": "dropdown",
 		"displayLabel": "Issue type",
+		"infoBalloonText": "If you don't know network bandwidth, please use this link to check: https://www.azurespeed.com/",
 		"watermarkText": "Choose an option",
 		"dropdownOptions": [
 			{
@@ -714,7 +715,8 @@
 		"controlType": "multilinetextbox",
 		"displayLabel": "Provide any additional details",
 		"required": true,
-		"useAsAdditionalDetails": true
+		"useAsAdditionalDetails": true,
+		"diagnosticInputRequiredClients": "Portal,ASC"
 	}
 ],
 "$schema": "SelfHelpContent"
