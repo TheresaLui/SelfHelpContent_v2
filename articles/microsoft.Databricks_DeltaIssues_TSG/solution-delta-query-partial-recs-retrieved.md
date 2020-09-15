@@ -33,7 +33,7 @@ This results in a dataset directory where all the data files are available , how
 ## **Solution**
 
 * Move the delta log out of the dataset directory. Then the directory becomes a normal parquet directory. 
-* Apply [Convert to Delta](https://docs.microsoft.com/azure/databricks/spark/latest/spark-sql/language-manual/convert-to-delta). This re-creates the delta transaction log with all the commits. 
+* Apply [Convert to Delta](https://docs.microsoft.com/azure/databricks/spark/latest/spark-sql/language-manual/convert-to-delta). This recreates the delta transaction log with all the commits. 
 * Query command on the directory to fix the delta log transaction log issued to delta table should fetch all the records.
 
 ## **Recommended Documents**
