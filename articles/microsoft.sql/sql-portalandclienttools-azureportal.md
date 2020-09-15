@@ -18,4 +18,4 @@
 
 ## **Recommended Documents**
 
-* [Query editor considerations](https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-portal#query-editor-considerations?WT.mc_id=pid:13491:sid:32630412/)
+* [Query editor considerations](https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-portal?WT.mc_id=pid:13491:sid:32630412/#query-editor-considerations)

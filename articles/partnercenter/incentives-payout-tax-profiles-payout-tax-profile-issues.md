@@ -51,7 +51,7 @@ For partner companies in the United States, if you require information on comple
 
 5. **How do I provide/ update my payout and/ or tax details?**
 	
-	* For detailed information on how to on how to update payment and tax details in Partner Center, see [How to create and manage bank and tax profiles in Partner Center](https://support.microsoft.com/help/4524534/how-to-create-and-manage-bank-and-tax-profiles-in-partner-center).
+	* For detailed information on how to update payment and tax details in Partner Center, see [Manage your Partner Center account - company profiles, bank information, roles, permissions & more](https://docs.microsoft.com/partner-center/partner-center-account-setup).
 
 6. **Why don't I see my enrollments when I go to assign my payout and tax profile?**
 	
@@ -65,6 +65,6 @@ For partner companies in the United States, if you require information on comple
 ## **Recommended Documents**
 
 * [Payout and tax profiles in Partner Center](https://docs.microsoft.com/partner-center/incentives-create-and-manage-your-payout-and-tax-profiles)
-* [How to create and manage bank and tax profiles in Partner Center](https://support.microsoft.com/help/4524534/how-to-create-and-manage-bank-and-tax-profiles-in-partner-center)
+* [Manage your Partner Center account - company profiles, bank information, roles, permissions & more](https://docs.microsoft.com/partner-center/partner-center-account-setup)
 * [Create user accounts and assign permissions](https://docs.microsoft.com/partner-center/create-user-accounts-and-set-permissions)
 * [Assign user roles and permissions](https://docs.microsoft.com/partner-center/permissions-overview)

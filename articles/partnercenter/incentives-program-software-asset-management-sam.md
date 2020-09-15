@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Software Asset Management (SAM) Incentives"
-	description="Software Asset Management (SAM) Incentives"
+	pageTitle="Solution Assessment Incentives"
+	description="Solution Assessment Incentives"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="PartnerCenter_Incentives"
@@ -18,24 +18,24 @@
 	ownershipId="PartnerCenter_Incentives"
 />
 
-# Software Asset Management (SAM) Incentives: Enrollment, eligibility, earnings, payments, and policy
+# Incentives Solution Assessment: Enrollment, eligibility, earnings, payments, and policy
 
 ## **Recommended Documents**
-These resources explain enrollment, eligibility, earnings, payments, and policy for the SAM Incentives program.
+These resources explain enrollment, eligibility, earnings, payments, and policy for the Solution Assessment Incentives program.
 
 **Enrollment & eligibility**
-* [SAM Eligibility Status](https://support.microsoft.com/help/2961546/sam-eligibility)
+* [Solution Assessment Incentives Eligibility Status](https://support.microsoft.com/help/2961546/sam-eligibility)
 
 **Earnings**
 * [How to view/download earnings statements in CHIP](https://support.microsoft.com/help/2961257/how-to-view-download-earning-statement-from-chip)
-* [SAM Opportunity Status](https://support.microsoft.com/help/2952896/sam-opportunity-status)
+* [Solution Assessment Incentives Opportunity Status](https://support.microsoft.com/help/2952896/sam-opportunity-status)
 
 **Payments**
 * [Identifying the program associated with a CHIP payment](https://support.microsoft.com/help/4483767/how-do-i-identify-which-incentive-program-a-payment-i-received-is-for)
-* [SAM Payment status in CHIP](https://support.microsoft.com/help/2952898/sam-payment-status-in-chip)
+* [Solution Assessment Incentives Payment status in CHIP](https://support.microsoft.com/help/2952898/sam-payment-status-in-chip)
 
 **Policy**
-* [SAM Incentives FAQ](https://support.microsoft.com/help/4499346/software-asset-management-sam-incentives-faq)
+* [Solution Assessment Incentives FAQ](https://support.microsoft.com/help/4499346/software-asset-management-sam-incentives-faq)
 
 **Still need help?**
 

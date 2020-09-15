@@ -18,9 +18,12 @@
 
 ## **Recommended Documents**
 
-* [Using Analysis Services Tabular data in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-analysis-services-tabular-data)
-
 * [Connect with Power BI](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect-pbi)
 
+* [Using Analysis Services Tabular data in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-analysis-services-tabular-data)
 
+* [Analysis Services client libraries](https://docs.microsoft.com/analysis-services/client-libraries?view=azure-analysis-services-current)
 
+* [Connecting to servers](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect)
+
+* [Connection string properties](https://docs.microsoft.com/analysis-services/instances/connection-string-properties-analysis-services?view=azure-analysis-services-current)

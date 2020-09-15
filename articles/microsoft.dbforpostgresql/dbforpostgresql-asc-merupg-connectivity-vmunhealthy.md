@@ -18,7 +18,7 @@
 # Postgres VM unhealthy
 
 <!--issueDescription-->
-The PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> has been reported as unhealthy <!--$Count-->Count<!--/$Count--> times between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC).
+The PostgreSQL server <!--$ServerName-->ServerName<!--/$ServerName--> has been reported as unhealthy between <!--$StartTime-->StartTime<!--/$StartTime-->(UTC) and <!--$EndTime-->EndTime<!--/$EndTime-->(UTC).
 <!--/issueDescription-->
 
 ## **Recommended Steps**
