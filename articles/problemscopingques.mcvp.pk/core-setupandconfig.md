@@ -50,7 +50,8 @@
             "order": 3,
             "controlType": "textbox",
             "displayLabel": "Which region is your VM and/or cluster located?",
-            "required": true
+            "watermarkText": "Azure Region",
+            "required": false
         },
         {
             "id": "problem_description",

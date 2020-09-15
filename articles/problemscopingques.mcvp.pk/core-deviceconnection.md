@@ -34,7 +34,8 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Which region is your VM and/or cluster located?",
-            "required": true
+            "watermarkText": "Azure Region",
+            "required": false
         },
         {
             "id": "problem_description",
@@ -65,14 +66,6 @@
             "order": 4,
             "controlType": "textbox",
             "displayLabel": "What version of MCVP core are you attempting to deploy?",
-            "required": false,
-            "useAsAdditionalDetails": true,
-            "hints": [{
-                    "text": "The Partner Kit version is found in a text file under cloud/core/version.txt"
-                }, {
-                    "text": "https://dev.azure.com/mcvp-prod/Partner%20Kits/_git/mcvp-pkit?path=%2Fcloud%2FCore%2Fversion.txt"
-                }
-            ],
             "required": true
         },
         {

@@ -34,7 +34,8 @@
             "order": 2,
             "controlType": "textbox",
             "displayLabel": "Which region is your VM and/or cluster located?",
-            "required": true
+            "watermarkText": "Azure Region",
+            "required": false
         },
         {
             "id": "problem_description",
@@ -84,6 +85,10 @@
                 }, {
                     "value": "Modifying_Claims",
                     "text": "Modifying Claims"
+                }
+                ,{
+                    "value": "dont_know_answer",
+                    "text": "Don't know"
                 }
             ],
             "required": true
