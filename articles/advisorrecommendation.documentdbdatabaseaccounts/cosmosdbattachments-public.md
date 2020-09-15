@@ -30,9 +30,9 @@
     "serviceTreeId": "724c33bf-1ab8-4691-adb1-0e61932919c2"
   },
   "version": 1.0,
-  "learnMoreLink": "https://docs.microsoft.com/azure/cosmos-db/attachments",
+  "learnMoreLink": "https://aka.ms/cosmosdb-attachments",
   "description": "Migrate Azure Cosmos DB attachments to Azure Blob Storage",
-  "longDescription": "We noticed that your Azure Cosmos container is using the legacy attachments feature. We recommend migrating attachments to Azure Blob Storage.",
+  "longDescription": "We noticed that your Azure Cosmos container is using the legacy attachments feature. We recommend migrating attachments to Azure Blob Storage to improve the resiliency and scalability of your blob data.",
   "potentialBenefits": "Improve attachment blob resiliency and scalability",
   "displayLabel": "Azure Cosmos DB attachments",
   "dataSourceMetadata": {
