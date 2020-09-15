@@ -26,7 +26,7 @@
 
 ### **Troubleshooting**
 
-### **Troubleshooting Intermittant Failures**
+### **Troubleshooting Intermittent Failures**
 * Security Group Access Policy Configuration - [Troubleshooting steps]( https://docs.microsoft.com/azure/key-vault/general/group-permissions-for-apps#azure-ad-groups)
 
 
