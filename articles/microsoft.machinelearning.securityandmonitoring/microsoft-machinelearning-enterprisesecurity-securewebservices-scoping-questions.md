@@ -1,7 +1,7 @@
 <properties
 	pageTitle="Secure Web Services"
 	description="Secure Web Services"
-	infoBubbleText="Secure Web Services"
+	infoBubbleText="Secure Web Services "
 	service="microsoft.machinelearning"
 	resource="machinelearning"
 	authors="johnwu0604"
