@@ -38,7 +38,7 @@ For existing accounts, navigate to the Settings -> Features area of your Cosmos 
 **Important Note:** While generally 3.6 is compatible with 3.2, it is recommended a customer provision a new account through the portal and select the MongoDB server version 3.6 to try it out with their application on a dev or qa instance before considering updating the account backing any production workload. 
 
 
-## **Connecting to 3.6 after migration**
+### **Connecting to 3.6 after migration**
 Note that when using Azure Cosmos DB's API for MongoDB accounts, the 3.6 version of accounts have the endpoint in the format `*.mongo.cosmos.azure.com` whereas the 3.2 version of accounts have the endpoint in the format `*.documents.azure.com`.
 
 
