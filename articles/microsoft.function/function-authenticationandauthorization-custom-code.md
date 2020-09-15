@@ -1,6 +1,6 @@
 <properties
-	pageTitle="authentication and authorization/Authentication through custom code"
-	description="authentication and authorization/Authentication through custom code"
+	pageTitle="authentication and authorization/Developing apps with Azure AD or Microsoft identity platform"
+	description="authentication and authorization/Developing apps with Azure AD or Microsoft identity platform"
 	service="microsoft.web"
 	resource="functions"
 	authors="cts-shrahman,shrahman"
@@ -15,30 +15,23 @@
 	articleId="189c3727-ebd3-4d15-9498-7a29b19e85d1"
 />
 
-# authentication and authorization/Authentication through custom code
+# authentication and authorization/Developing apps with Azure AD or Microsoft identity platform
 
-**Note:**
-If you have questions related to Azure Active Directory, please consider going back to the previous screen and selecting one of the Active Directory services to get better solution recommendations and faster access to an appropriate support resource.  <br>
+**Note:**<br>
+If you have questions related to Authentication using Azure Active Directory Code libraries, please consider going back to the previous screen and selecting "**Azure Active Directory App Integration and Development**" as your service to get better solution recommendations and faster access to an appropriate support resource.  <br>
+
+Below you will find help and links for the most common problems when building Azure Active Directory apps. We highly recommend you check Stackoverflow for [issues building Azure Active Directory apps](https://stackoverflow.com/questions/tagged/azure-active-directory), the answer to your question may already be available. If you can't find an answer to your question, post a [question on StackOverflow with the tag](https://stackoverflow.com/questions/ask):  **azure-active-directory**.
 
 ## **Recommended Documents**
-
-* [How can I get the groups and roles for a user authenticated with AAD?](https://blogs.msdn.microsoft.com/waws/2017/03/13/azure-app-service-authentication-aad-groups/)<br>
-* [Access user claims, ex: ClaimsPrinciple](https://docs.microsoft.com/azure/app-service/app-service-authentication-how-to#access-user-claims)<br>
-* [Accessing Azure App Services using AAD bearer token](https://blogs.msdn.microsoft.com/jpsanders/2017/03/17/accessing-azure-app-services-using-azure-ad-bearer-token-2/)<br>
-* [Azure App Service Authentication – App Roles](https://blogs.msdn.microsoft.com/waws/2017/03/09/azure-app-service-authentication-app-roles/)<br>
-* [Configure a console application to a Web API protected by AAD](https://blogs.msdn.microsoft.com/benjaminperkins/2016/10/20/how-i-connected-a-console-application-to-a-web-api-protected-by-an-azure-active-directory/)<br>
-* [Configure AAD into my ASP.NET MVC OWIN web application](https://blogs.msdn.microsoft.com/benjaminperkins/2016/09/28/how-i-configured-azure-active-directory-into-my-asp-net-mvc-owin-web-application/)<br>
-* [Authentication and authorization in Azure App Service](https://docs.microsoft.com/azure/app-service/overview-authentication-authorization)<br>
-* [Refresh access tokens](https://docs.microsoft.com/azure/app-service/app-service-authentication-how-to#refresh-access-tokens)<br>
-* [Enable authentication and authorization for front-end/back-end app](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-auth-aad#enable-authentication-and-authorization-for-front-end-app)<br>
-* [Extend session expiration grace period](https://docs.microsoft.com/azure/app-service/app-service-authentication-how-to#extend-session-expiration-grace-period)<br>
-* [Setting up Application Gateway with an App Service and AAD](https://blogs.msdn.microsoft.com/waws/2017/11/21/setting-up-application-gateway-with-an-app-service-that-uses-azure-active-directory-authentication-and-url-authorization-rules/)<br>
-* [Authentication and authorization HTTP status codes, ex: 401.71, 401.83](https://github.com/cgillum/easyauth/wiki/HTTP-Status-Codes)<br>
-* [Authentication and authorization error codes, ex: AADSTS####](https://docs.microsoft.com/azure/active-directory/develop/reference-aadsts-error-codes)
-
-
-
-
-
-
-
+* [I am seeing trouble signing in to application(s) using Chrome browser only](https://docs.microsoft.com/office365/troubleshoot/miscellaneous/chrome-behavior-affects-applications)
+* [I don't know how to change the token lifetime defaults for my application](https://docs.microsoft.com/azure/active-directory/develop/registration-config-change-token-lifetime-how-to?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
+* [I am confused about how application consent works](https://docs.microsoft.com/azure/active-directory/develop/consent-framework?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
+* [I don't know how to grant permissions to my application](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
+* [I don't understand the difference between delegated and application permissions](https://docs.microsoft.com/azure/active-directory/develop/delegated-and-app-perms?WT.mc_id=UI_AAD_Registered_Apps_Support_L2_Overview)
+* [I don’t know how to integrate my application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
+* [I don’t know how to update my application](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#next-steps)
+* [I don’t know how to remove my application](https://docs.microsoft.com/azure/active-directory/develop/quickstart-remove-app)
+* [I don’t know how authentication works in Azure AD](https://docs.microsoft.com/azure/active-directory/develop/authentication-vs-authorization)
+* [I don’t know how to make my application multi-tenant](https://docs.microsoft.com/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant)
+* [Authentication flows and application scenarios.](https://docs.microsoft.com/azure/active-directory/develop/authentication-flows-app-scenarios) From this article, you'll find useful information about the redirect URIs in the **App registration** page for each scenario.
+* [Redirect URI/reply URL restrictions and limitations](https://docs.microsoft.com/azure/active-directory/develop/reply-url)
