@@ -270,7 +270,7 @@
 		"dropdownOptions": [
 		{
 			"value": "copy_from_localonpremise_to_blobs",
-			"text": "Upload Local/On-Premise files to Azure Blobs"
+			"text": "Upload Local/On-Premise vhd/files to Azure Blobs"
 		},
 		{
 			"value": "copy_from_localonpremise_to_files",
@@ -302,7 +302,7 @@
 		"dropdownOptions": [
 		{
 			"value": "copy_from_aws_s3_to_blobs",
-			"text": "Copy files from Amazon S3 to Azure Blobs"
+			"text": "Copy vhd/files from Amazon S3 to Azure Blobs"
 		},
 		{
 			"value": "copy_from_aws_s3_to_adlsgen2",
@@ -310,7 +310,7 @@
 		},
 		{
 			"value": "copy_from_otherexternalcloud_to_blobs",
-			"text": "Copy files from other external clouds to Azure Blobs"
+			"text": "Copy vhd/files from other external clouds to Azure Blobs"
 		},
 		{
 			"value": "copy_from_otherexternalcloud_to_adlsgen2",
