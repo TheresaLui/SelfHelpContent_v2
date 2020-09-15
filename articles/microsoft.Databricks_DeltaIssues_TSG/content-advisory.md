@@ -23,4 +23,4 @@ Refer to these wiki pages for common advisory questions and official documentati
 * [Resources](https://docs.microsoft.com/azure/databricks/delta/delta-resources)
 * [Best Practices](https://docs.microsoft.com/azure/databricks/delta/best-practices)
 * [Delta Lake Tips and Troubleshooting](https://docs.microsoft.com/azure/databricks/kb/delta/)
-* [Introductory Notebooks](https://docs.microsoft.com/azure/databricks/delta/intro-notebooks)
+* [Introductory Notebooks](https://docs.microsoft.com/azure/databricks/delta/intro-notebooks) 
