@@ -343,7 +343,7 @@
 		],
 		"required": false,
 		"diagnosticInputRequiredClients": "Portal,ASC"
-	},	
+	},
 	{
 		"id": "storage_account_from",
 		"visibility": "source_resource == storage_account || source_resource == blob || source_resource == files || source_resource == adlsgen2",
