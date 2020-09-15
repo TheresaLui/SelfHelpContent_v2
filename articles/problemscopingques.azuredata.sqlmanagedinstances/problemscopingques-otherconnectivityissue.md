@@ -5,7 +5,7 @@
 	selfHelpType="problemScopingQuestions"
 	supportTopicIds="32744002"
 	productPesIds="17125"
-	cloudEnvironments="Public"
+	cloudEnvironments="Public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	articleId="20C46915-7600-46D1-A13A-02FE9EC114F0"
 	ownershipId="AzureData_Managed_Instance_Azure_Arc"

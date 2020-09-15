@@ -46,7 +46,7 @@ Once access has be granted to the workspace, use any of the existing methods to 
 
 ### **Azure Machine Learning CLI**
 
-To create a workspace using the CLI:
+To create a workspace using the CLI: 
 
 ```
 az ml workspace create -w <WORKSPACE-NAME> -g <RESOURCE-GROUP>
