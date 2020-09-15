@@ -7,7 +7,7 @@
   supporttopicids="32571145,32571148,32571151"
   resourcetags=""
   productpesids="16244"
-  cloudenvironments="public,mooncake"
+  cloudEnvironments="public,mooncake, fairfax, usnat, ussec"
   articleid="timeseriesinsights-misconfiguredtsid"
   ownershipid="AzureIot_IotTSI" />
 # Environment configuration issue due to misconfigured Time Series ID property
