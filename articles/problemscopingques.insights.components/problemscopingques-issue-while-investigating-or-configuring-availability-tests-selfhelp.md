@@ -29,14 +29,16 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem start?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal, ASC"
         },
         {
             "id": "problem_end_time",
             "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem end?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal, ASC"
         },
         {
             "id": "web_test_id",
@@ -54,7 +56,8 @@
                     "value": "dont_know_answer",
                     "text": "Unable to get the list of availability tests for this resource"
                 }
-            }
+            },
+            "diagnosticInputRequiredClients": "Portal, ASC"
         }
     ]
 }
