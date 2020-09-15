@@ -28,7 +28,7 @@ Getting below error message when trying to query a Delta table:
 
 ## **Cause**
 
-This most likely can happen because of previous write, followed by incorrect deletion of the data. For example, if user writes to delta table with partition column having null values then it will go to HIVE_DEFAULT_PARTITON. Later if the user realizes that it is no longer needed and if user deletes it directly from the storage using file system commands or from storage UI, then this issue can happen. 
+This most likely can happen because of previous write, followed by incorrect deletion of the data. For example, if user writes to delta table with partition column having null values then it will go to HIVE_DEFAULT_PARTITION. Later if the user realizes that it is no longer needed and if user deletes it directly from the storage using file system commands or from storage UI, then this issue can happen. 
 
 This is because it will be removed from underlying storage, but the transaction log still references the file. Any operation to Delta table needs to happen through Delta commands. For example, DELETE FROM table can be used to remove any files from Delta table.
 
