@@ -19,7 +19,7 @@
   "recommendationImpact": "High",
   "recommendationResourceType": "microsoft.documentdb/databaseaccounts",
   "recommendationFriendlyName": "CosmosDBGatewayMode",
-  "recommendationMetadataState": "Disabled",
+  "recommendationMetadataState": "Active",
   "owner": {
     "email": "cosmosnotifications@microsoft.com",
     "icm": {
