@@ -7,7 +7,7 @@
 	authors="subbu-kandhaswamy, VMMicrosoft"
 	ms.author="subbuk, vimahadi"
 	displayOrder=""
-	articleId="IsServerBladeSelected_305D2B89-1F46-4FD7-B654-1F51C08F26C1"
+	articleId="IsServerBladeSelected_015639C7-6E9E-40ED-9F65-67591C500A8F"
 	diagnosticScenario="crc_sqldb_connectivity"
 	selfHelpType="rca"
 	supportTopicIds="32745423,32745424,32745432,32745433,32745434,32745436,32745437,32745439,32745425,32745426,32745427,32745428,32745429,32745430,32745431,32745435,32745438"
