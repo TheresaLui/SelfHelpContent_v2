@@ -37,7 +37,7 @@
             "required": true
         },
         {
-            "id": "deployment_type",
+            "id": "problem_description",
             "order": 3,
             "controlType": "multiselectdropdown",
             "displayLabel": "What type of deployment are you working on?",
@@ -58,7 +58,7 @@
                     "value": "dont_know_answer"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "version",

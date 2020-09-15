@@ -47,13 +47,13 @@
         },
         {
             "id": "problem_region",
-            "order": 2,
+            "order": 3,
             "controlType": "textbox",
             "displayLabel": "Which region is your VM and/or cluster located?",
             "required": true
         },
         {
-            "id": "deployment_type",
+            "id": "problem_description",
             "order": 4,
             "controlType": "multiselectdropdown",
             "displayLabel": "What type of deployment are you working on?",
@@ -74,7 +74,7 @@
                     "value": "dont_know_answer"
                 }
             ],
-            "required": true
+            "required": false
         },
         {
             "id": "version",
@@ -86,8 +86,8 @@
         {
             "id": "permissions_subscription",
             "order": 6,
-            "controlType": "multiselectdropdown",
-            "displayLabel": "What permissions do you have for your subscription?",
+            "controlType": "dropdown",
+            "displayLabel": "What highest permission do you have for your subscription?",
             "dropdownOptions": [{
                     "value": "Administator",
                     "text": "Administator"
@@ -108,7 +108,7 @@
             "required": true
         },
         {
-            "id": "permissions_aad",
+            "id": "problem_description",
             "order": 7,
             "controlType": "multiselectdropdown",
             "displayLabel": "What permissions do you have in Azure Active Directory for your subscription?",
@@ -129,7 +129,7 @@
                     "value": "dont_know_answer"
                 }
             ],
-            "required": true
+            "required": false
         }
     ],
     "$schema": "SelfHelpContent"
