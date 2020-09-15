@@ -1,7 +1,7 @@
 <properties
     pageTitle="Policies that enabled AIP"
     description="Policies that enabled AIP to prevent external users accessing files"
-	infoBubbleText=""
+	infoBubbleText="Policies that enabled AIP to prevent external users accessing files"
     service="microsoft.aip"
     resource=""
     authors="adan"
@@ -14,7 +14,7 @@
     resourceTags=""
     productPesIds=""
     cloudEnvironments="public, fairfax, usnat, ussec"
-	ownershipId="AzureISecurity_AzureInformationProtection"
+	ownershipId="AzureIdentity_IdentityProtection"
 />
 
 # PREVIEW: Get help from our intelligent knowledge base
