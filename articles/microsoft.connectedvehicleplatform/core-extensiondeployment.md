@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Extension Deployment"
-	description="Process extension deployment issues"
+	description="Process extension deployment issues."
 	service="microsoft.connectedvehicleplatform"
 	resource="core"
 	authors="jbeman"

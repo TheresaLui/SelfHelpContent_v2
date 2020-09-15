@@ -1,6 +1,6 @@
 <properties
     pageTitle="claims"
-    description="Problem with the Sample Claims Provider"
+    description="Problem with the Sample Claims Provider."
     authors="jbeman"
     ms.author="jbeman"
     selfHelpType="problemScopingQuestions"

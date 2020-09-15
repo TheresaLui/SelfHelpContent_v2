@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Send Command"
-	description="Issues when sending a command"
+	description="Issues when sending a command."
 	service="microsoft.connectedvehicleplatform"
 	resource="core"
 	authors="jbeman"

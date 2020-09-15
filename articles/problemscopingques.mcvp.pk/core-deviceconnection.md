@@ -1,6 +1,6 @@
 <properties
     pageTitle="device-connection"
-    description="Problem with the device connection"
+    description="Problem with the device connection."
     authors="jbeman"
     ms.author="jbeman"
     selfHelpType="problemScopingQuestions"

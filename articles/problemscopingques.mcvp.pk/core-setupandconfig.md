@@ -1,6 +1,6 @@
 <properties
     pageTitle="setup-and-config"
-    description="Problem with setup"
+    description="Problem with setup."
     authors="jbeman"
     ms.author="jbeman"
     selfHelpType="problemScopingQuestions"
