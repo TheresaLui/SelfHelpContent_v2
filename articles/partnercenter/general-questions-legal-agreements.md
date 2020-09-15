@@ -41,6 +41,7 @@ From July 6th Direct Bill and Indirect Providers may see an error message while 
 
 ## **Recommended Documents**
 
+* [Microsoft Partner Agreement FAQ](https://partner.microsoft.com/resources/detail/microsoft-partner-agreement-faq-pdf)
 * [Microsoft Partner Agreement for CSP partners](https://docs.microsoft.com/partner-center/microsoft-partner-agreement)
 * [CSP Resource Gallery](https://partner.microsoft.com/resources/collection/new-microsoft-cloud-agreement-csp#/)
 
