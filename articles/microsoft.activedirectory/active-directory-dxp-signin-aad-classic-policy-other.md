@@ -27,9 +27,8 @@ Classic policies are older policies which were created in the Azure classic port
 
 We recommend that you migrate all Classic policies to new Conditional Access policies.  
 
-View the Classic policies in your tenant [here](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/ClassicPolicies)
-
-Learn how to migration the Classic policies by following the steps in this [article](https://docs.microsoft.com/azure/active-directory/conditional-access/policy-migration) 
+* View the Classic policies in your tenant [here](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/ClassicPolicies)
+* Learn how to migration the Classic policies by following the steps in this [article](https://docs.microsoft.com/azure/active-directory/conditional-access/policy-migration) 
 
 More information about the sign-in attempt is below. 
 
