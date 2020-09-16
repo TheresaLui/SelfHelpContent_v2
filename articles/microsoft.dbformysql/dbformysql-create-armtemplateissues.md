@@ -2,7 +2,7 @@
     pageTitle="Manage the Azure Database for MySQL using ARM Templates"
     description="ARM template issues for the Azure Database for MySQL"
     service="microsoft.dbformysql"
-    resource="servers" 
+    resource="servers"
     authors="kummanish"
     ms.author="manishku"
     displayOrder="240"
@@ -33,5 +33,3 @@ Most users are able to resolve their issue using the steps below.
 ## **Recommended Documents**
 
 * [Create databases in Azure Database for MySQL](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithDatabase)<br>
-* [Create Azure Database for MySQL with multiple firewall rules](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithFirewallRule)<br>
-* [Create Azure Database for MySQL with virtual network rules](https://github.com/Azure/azure-mysql/tree/master/arm-templates/ExampleWithVirtualNetworkRules)
