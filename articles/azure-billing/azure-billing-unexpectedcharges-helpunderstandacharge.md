@@ -29,7 +29,7 @@ Azure free trial account is only for 1 month and once it is upgraded to pay-g th
 * Understand terms on your invoice: [Azure invoice terms explained](https://docs.microsoft.com/azure/cost-management-billing/understand/understand-invoice)
 * Understand terms on Azure Usage charges: [Usage terms explained](https://docs.microsoft.com/azure/cost-management-billing/understand/understand-usage)
 * To obtain a PDF of your invoice and a copy of your detailed daily usage file (.CSV): [Get invoice and usage data](https://docs.microsoft.com/azure/cost-management-billing/manage/download-azure-invoice-daily-usage-date)
-  
+
 **Note**: If you cancel your subscription/resource in the middle of your billing cycle, you might still see a charge which would be for any usage in the previous month. Example, if your billing cycle was from the 26th of every month to the 25th of the next month & you suspended the subscription on the 23rd, which is 28 days into the billing cycle for June, you might see a charge for the 28 days of use. If you see a charge in spite of cancelling a subscription please make sure, you don’t have any other support plans which is causing the charge. If you do, please go ahead and cancel the plan.
 
 **Microsoft Customer Agreement (MCA)** [How to Check access to a Microsoft Customer Agreement?](https://docs.microsoft.com/azure/cost-management-billing/manage/download-azure-invoice-daily-usage-date#check-access-to-a-microsoft-customer-agreement)
@@ -48,7 +48,7 @@ Azure free trial account is only for 1 month and once it is upgraded to pay-g th
 
 * To help review and understand your bill, please refer to: [Understand your Azure Enterprise Agreement bill](https://docs.microsoft.com/azure/cost-management-billing/understand/review-enterprise-agreement-bill)
 * If you're an Azure customer with an Enterprise Agreement (EA customer), you can't download your organization's invoices. Invoices are sent to whoever is set up to receive invoices for the enrollment, you can download usage in the [Azure portal](https://portal.azure.com/)
-       
+
 **Cloud Solution Provider (CSP)**
 
 * Learn more on how billing works in Azure Cloud Solution Provider (Azure CSP) program: [Azure CSP Billing](https://docs.microsoft.com/azure/cloud-solution-provider/billing/azure-csp-billing-overview)
