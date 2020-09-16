@@ -1,6 +1,6 @@
 <properties
 	pageTitle="Partner Kit Deployment"
-	description="DevSetup deployment issues."
+	description="DevSetup deployment issues"
 	service="microsoft.connectedvehicleplatform"
 	resource="core"
 	authors="jbeman"

@@ -1,6 +1,6 @@
 <properties
     pageTitle="vehicle-provisioning"
-    description="Problem with vehicle or device provisioning."
+    description="Problem with vehicle or device provisioning"
     authors="jbeman"
     ms.author="jbeman"
     selfHelpType="problemScopingQuestions"
