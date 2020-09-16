@@ -25,7 +25,7 @@ After analyzing the resource usage on **<!--$ResourceName-->ResourceName<!--/$Re
 When the used memory of the service is close to or exceeding the limits, the system may page data to disk (page faulting) which could lead to unavailability or timeouts on the client applications. 
 <!--/issueDescription-->
 
-**What can cause Memory Pressure on a VM?**
+**What can cause Memory Pressure on an Azure Cache for Redis resource?**
 
 * The Azure Cache for Redis resource is high on memory usage and is nearing its maximum capacity.
 * The service is experiencing high memory fragmentation.

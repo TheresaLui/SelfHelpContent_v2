@@ -25,7 +25,7 @@ After analyzing the resource usage from **<!--$StartTime-->StartTime<!--/$StartT
 Large requests can cause timeout errors depending on what timeout value was selected and how fast client applications consume the incoming data. 
 <!--/issueDescription-->
 
-**What can cause High Response Sizes on a VM?**
+**What can cause High Response Sizes on an Azure Cache for Redis resource?**
 
 * Having average value sizes be high can cause high response sizes. 
 * Low available bandwidth on the client or the service.
