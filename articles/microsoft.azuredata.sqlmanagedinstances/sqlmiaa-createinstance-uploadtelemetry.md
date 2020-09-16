@@ -24,7 +24,7 @@ Most users are able to resolve their telemetry-related issue using the steps bel
 
 - **Upload Metrics to Azure Portal**
 
-   To upload metrics for your Azure SQL managed instances run, the following CLI commands which export all metrics to the specified file:
+   To upload metrics for your Azure SQL managed instances, run the following CLI commands to export all metrics to the specified file:
 
    ```bash
    azdata arc dc export -t metrics --path metrics.json
@@ -38,7 +38,7 @@ Most users are able to resolve their telemetry-related issue using the steps bel
 
 - **View the metrics in the Portal**
 
-   Once metrics are uploaded, you should be able to visualize them from the Azure portal
+   Once metrics are uploaded, you should be able to visualize them from the Azure portal.
 
 ## **Recommended Documents**
 
