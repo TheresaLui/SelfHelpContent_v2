@@ -9,7 +9,7 @@
   infobubbletext="Virtual WAN User VPN P2S"
   diagnosticscenario=""
   selfhelptype="Generic"
-  supporttopicids="32640648,32640652,32640658"
+  supporttopicids="32640648,32640652"
   resourcetags=""
   productpesids="16572"
   cloudenvironments="public,fairfax,mooncake,usnat,ussec"
