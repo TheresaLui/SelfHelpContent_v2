@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Create Hyperscale Server group"
-	description="Create Hyperscale Server group"
+	pageTitle="Create, Delete and Upgrade HS - My issue is not listed"
+	description="Create, Delete and Upgrade HS - My issue is not listed"
 	ms.author="amigan,pookam,babarmav"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32747900"
+	supportTopicIds="32747912"
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="0c89508a-f476-4b36-bba2-afa5f26ee590"
+	articleId="d3eab214-92af-4ff4-a364-e251262632b8"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 />
-# Create Hyperscale Server group
+# Create, Delete and Upgrade HS - My issue is not listed
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-	"title": "Create Hyperscale Server group",
+	"title": "Create, Delete and Upgrade HS - My issue is not listed",
 	"fileAttachmentHint": "",
 	"formElements": [
 		{
@@ -26,10 +26,16 @@
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
-			"id": "how_create",
+			"id": "error_message",
 			"order": 2,
+			"controlType": "textbox",
+			"displayLabel": "If an error was displayed, what was the error message?",
+			"required": false
+		}, {
+			"id": "how_create",
+			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "How did you try to create?",
+			"displayLabel": "What tool did you use?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "CLI azdata",
@@ -41,26 +47,17 @@
 					"value": "Azure Data Studio",
 					"text": "Azure Data Studio"
 				}, {
+					"value": "Other",
+					"text": "Other"
+				}, {
 					"value": "dont_know_answer",
 					"text": "I’m not sure/don’t know"
 				}
 			],
 			"required": true
 		}, {
-			"id": "command_used",
-			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "What command did you use?",
-			"required": false
-		}, {
-			"id": "error_message",
-			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "If an error was displayed, what was the error message?",
-			"required": false
-		}, {
 			"id": "type_kubernetes",
-			"order": 5,
+			"order": 4,
 			"controlType": "dropdown",
 			"displayLabel": "Types of Kubernetes clusters or managed Kubernetes services you are using",
 			"watermarkText": "Choose an option",
@@ -91,6 +88,12 @@
 				}
 			],
 			"required": true
+		}, {
+			"id": "command_used",
+			"order": 5,
+			"controlType": "textbox",
+			"displayLabel": "What command did you use?",
+			"required": false
 		}, {
 			"id": "problem_description",
             "order": 6,

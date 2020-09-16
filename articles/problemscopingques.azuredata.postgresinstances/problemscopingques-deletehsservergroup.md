@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Create Hyperscale Server group"
-	description="Create Hyperscale Server group"
+	pageTitle="Delete Hyperscale Server group"
+	description="Delete Hyperscale Server group"
 	ms.author="amigan,pookam,babarmav"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32747900"
+	supportTopicIds="32747901"
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="0c89508a-f476-4b36-bba2-afa5f26ee590"
+	articleId="fcaaa56a-37fd-4089-8971-34034de6f79c"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 />
-# Create Hyperscale Server group
+# Delete Hyperscale Server group
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-	"title": "Create Hyperscale Server group",
+	"title": "Delete Hyperscale Server group",
 	"fileAttachmentHint": "",
 	"formElements": [
 		{

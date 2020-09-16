@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Create Hyperscale Server group"
-	description="Create Hyperscale Server group"
+	pageTitle="Error connecting to PostgreSQL Hyperscale Server Group"
+	description="Error connecting to PostgreSQL Hyperscale Server Group"
 	ms.author="amigan,pookam,babarmav"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32747900"
+	supportTopicIds="32747904"
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="0c89508a-f476-4b36-bba2-afa5f26ee590"
+	articleId="08aee851-bf4e-41db-a072-a19e904f1e4e"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 />
-# Create Hyperscale Server group
+# Error connecting to PostgreSQL Hyperscale Server Group
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-	"title": "Create Hyperscale Server group",
+	"title": "Error connecting to PostgreSQL Hyperscale Server Group",
 	"fileAttachmentHint": "",
 	"formElements": [
 		{
@@ -26,20 +26,23 @@
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
-			"id": "how_create",
+			"id": "error_message",
 			"order": 2,
+			"controlType": "textbox",
+			"displayLabel": "If an error was displayed, what was the error message?",
+			"required": false
+		}, {
+			"id": "error_transient",
+			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "How did you try to create?",
+			"displayLabel": "Was the error transient or is it still happening?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "CLI azdata",
-					"text": "CLI azdata"
+					"value": "Transient Error",
+					"text": "Transient Error"
 				}, {
-					"value": "CLI kubectl",
-					"text": "CLI kubectl"
-				}, {
-					"value": "Azure Data Studio",
-					"text": "Azure Data Studio"
+					"value": "Issue still happening",
+					"text": "Issue still happening"
 				}, {
 					"value": "dont_know_answer",
 					"text": "I’m not sure/don’t know"
@@ -47,20 +50,47 @@
 			],
 			"required": true
 		}, {
-			"id": "command_used",
-			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "What command did you use?",
-			"required": false
-		}, {
-			"id": "error_message",
+			"id": "able_login",
 			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "If an error was displayed, what was the error message?",
-			"required": false
+			"controlType": "dropdown",
+			"displayLabel": "Are you able to login to Azure Arc Data Controller?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}, {
+					"value": "dont_know_answer",
+					"text": "I’m not sure/don’t know"
+				}
+			],
+			"required": true
+		}, {
+			"id": "tool_to_connect",
+			"order": 5,
+			"controlType": "dropdown",
+			"displayLabel": "What tool/application are you using to connect?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "PSQL",
+					"text": "PSQL"
+				}, {
+					"value": "Azure Data Studio",
+					"text": "Azure Data Studio"
+				}, {
+					"value": "Other",
+					"text": "Other"
+				}, {
+					"value": "dont_know_answer",
+					"text": "I’m not sure/don’t know"
+				}
+			],
+			"required": true
 		}, {
 			"id": "type_kubernetes",
-			"order": 5,
+			"order": 6,
 			"controlType": "dropdown",
 			"displayLabel": "Types of Kubernetes clusters or managed Kubernetes services you are using",
 			"watermarkText": "Choose an option",
@@ -93,7 +123,7 @@
 			"required": true
 		}, {
 			"id": "problem_description",
-            "order": 6,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",
