@@ -16,7 +16,13 @@
 {
     "resourceRequired": true,
     "title": "Availability Tests",
+    "subscriptionRequired": true,
     "fileAttachmentHint": "",
+    "diagnosticCard": {
+        "title": "Availability Test Troubleshooter",
+        "description": "Our Availability Test Troubleshooter can help you troubleshoot and solve your problem.",
+        "insightNotAvailableText": "Our troubleshooter did not detect any issues with your resource. See our manual troubleshooting steps below to troubleshoot your problem."
+    },
     "formElements": [
         {
             "id": "classic_alert_id",
@@ -31,12 +37,10 @@
                 "valueProperty": "id",
                 "textPropertyRegex": "[^/]+$"
             },
-            "dropdownOptions": [
-                {
-                    "value": "Unable to get the list of availability tests for this resource",
-                    "text": "Unable to get the list of availability tests for this resource"
-                }
-            ],
+            "defaultDropdownOptions": {
+                "value": "Unable to get the list of availability tests for this resource",
+                "text": "Unable to get the list of availability tests for this resource"
+            },
             "required": false,
             "diagnosticInputRequiredClients": "Portal, ASC"
         },
