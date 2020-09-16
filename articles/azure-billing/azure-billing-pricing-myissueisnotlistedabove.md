@@ -26,10 +26,6 @@ Azure free trial account is only for 1 month and once it is upgraded to pay-g th
 **Note**: You would need to upgrade to [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) after the first 30 days in order to continue using the Free Account for the remaining 11 months and you would not be charged if you stayed within the free service limits<br>
 Use [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) to configure and estimate the costs for Azure products
 
-### **Need to change a SendGrid plan?**<br>
-To change a SendGrid plan you need to cancel the current plan and purchase a new one. For example, currently using Bronze plan and would like to change to silver, then you need to cancel Bronze plan and purchase Silver plan<br>
-Learn more: [Azure SendGrid](https://marketplace.appdirect.com/apps/1967/sendgrid/overview/)
-
 ### **Help me understand when I will be charged?**<br>
 The anniversary day is the day of the month you purchased the subscription. The invoice is generated on the anniversary date and 10 days later the credit card is charged. Invoice customers need to pay using Wire transfer/check and the details for payment is available on your monthly invoice<br>
 For example, if you purchased the subscription on January 15th, the anniversary day will be the 15th of each month when the invoice is generated and 10 days later the card is charged.
