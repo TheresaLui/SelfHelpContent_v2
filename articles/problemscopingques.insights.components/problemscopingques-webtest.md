@@ -37,7 +37,8 @@
                     "text": "Unable to get the list of availability tests for this resource"
                 }
             ],
-            "required": false
+            "required": false,
+            "diagnosticInputRequiredClients": "Portal, ASC"
         },
         {
             "id": "availability_test_reason",
@@ -159,7 +160,8 @@
             "order": 4,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
-            "required": true
+            "required": true,
+            "diagnosticInputRequiredClients": "Portal, ASC"
         },
         {
             "id": "problem_description",
