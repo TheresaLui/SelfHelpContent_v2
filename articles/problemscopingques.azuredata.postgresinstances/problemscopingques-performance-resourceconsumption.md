@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Create Hyperscale Server group"
-	description="Create Hyperscale Server group"
+	pageTitle="Unexpected increase in resource consumption (CPU, Memory, I-O)"
+	description="Unexpected increase in resource consumption (CPU, Memory, I-O)"
 	ms.author="amigan,pookam,babarmav"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32747900"
+	supportTopicIds="32747934"
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="0c89508a-f476-4b36-bba2-afa5f26ee590"
+	articleId="4131b906-2ae8-462e-b678-6267d1ae01c3"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 />
-# Create Hyperscale Server group
+# Unexpected increase in resource consumption (CPU, Memory, I-O)
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-	"title": "Create Hyperscale Server group",
+	"title": "Unexpected increase in resource consumption (CPU, Memory, I-O)",
 	"fileAttachmentHint": "",
 	"formElements": [
 		{
@@ -26,21 +26,17 @@
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
-			"id": "how_create",
+			"id": "reproducible",
 			"order": 2,
 			"controlType": "dropdown",
-			"infoBalloonText": "string",
-			"displayLabel": "How did you try to create?",
+			"displayLabel": "Is the problem reproducible or not?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "CLI azdata",
-					"text": "CLI azdata"
+					"value": "Issue can be reproduced/Issue is live",
+					"text": "Issue can be reproduced/Issue is live"
 				}, {
-					"value": "CLI kubectl",
-					"text": "CLI kubectl"
-				}, {
-					"value": "Azure Data Studio",
-					"text": "Azure Data Studio"
+					"value": "Issue is transient",
+					"text": "Issue is transient"
 				}, {
 					"value": "dont_know_answer",
 					"text": "I’m not sure/don’t know"
@@ -48,53 +44,155 @@
 			],
 			"required": true
 		}, {
-			"id": "command_used",
+			"id": "arcenvironment",
 			"order": 3,
-			"controlType": "textbox",
-			"displayLabel": "What command did you use?",
-			"required": false
+			"controlType": "dropdown",
+			"displayLabel": "Is this issue happening only in an Azure Arc Environment?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}, {
+					"value": "dont_know_answer",
+					"text": "I’m not sure/don’t know"
+				}
+			],
+			"required": true
 		}, {
-			"id": "error_message",
+			"id": "readwrite",
 			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "If an error was displayed, what was the error message?",
+			"controlType": "dropdown",
+			"displayLabel": "Is the workload load that is impacted more around reads or writes or both?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Mostly read",
+					"text": "Mostly read"
+				}, {
+					"value": "Mostly write",
+					"text": "Mostly write"
+				}, {
+					"value": "Both read and write",
+					"text": "Both read and write"
+				}, {
+					"value": "dont_know_answer",
+					"text": "I’m not sure/don’t know"
+				}
+			],
 			"required": false
 		}, {
-			"id": "type_kubernetes",
+			"id": "specific_query",
 			"order": 5,
 			"controlType": "dropdown",
-			"displayLabel": "Types of Kubernetes clusters or managed Kubernetes services you are using",
+			"displayLabel": "Is the issue about a specific query or is more general?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
-					"value": "Azure Kubernetes Service (AKS)",
-					"text": "Azure Kubernetes Service (AKS)"
+					"value": "Specific query or set of queries",
+					"text": "Specific query or set of queries"
 				}, {
-					"value": "Azure Kubernetes Engine (AKE) on Azure Stack",
-					"text": "Azure Kubernetes Engine (AKE) on Azure Stack"
-				}, {
-					"value": "OpenShift Container Platform (OCP) 4.2+",
-					"text": "OpenShift Container Platform (OCP) 4.2+"
-				}, {
-					"value": "Azure RedHat OpenShift (ARO)",
-					"text": "Azure RedHat OpenShift (ARO)"
-				}, {
-					"value": "Open source, upstream Kubernetes",
-					"text": "Open source, upstream Kubernetes version 1.14+ using kubeadm"
-				}, {
-					"value": "AWS Elastic Kubernetes Service (EKS)",
-					"text": "AWS Elastic Kubernetes Service (EKS)"
-				}, {
-					"value": "Other",
-					"text": "Other"
+					"value": "General Performance",
+					"text": "General Performance"
 				}, {
 					"value": "dont_know_answer",
 					"text": "I’m not sure/don’t know"
 				}
 			],
-			"required": true
+			"required": false
+		}, {
+			"id": "workload_increase",
+			"order": 6,
+			"controlType": "dropdown",
+			"displayLabel": "Has your workload increased during this time?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}, {
+					"value": "dont_know_answer",
+					"text": "I’m not sure/don’t know"
+				}
+			],
+			"required": false
+		}, {
+			"id": "servergroup_config",
+			"order": 7,
+			"controlType": "dropdown",
+			"displayLabel": "Did you change the configuration of server group or your Kubernetes cluster recently/prior the problem started occurring?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}, {
+					"value": "dont_know_answer",
+					"text": "I’m not sure/don’t know"
+				}
+			],
+			"required": false
+		}, {
+			"id": "servergroup_config",
+			"order": 8,
+			"controlType": "dropdown",
+			"displayLabel": "Did you modify the indexes on your tables or reindexed the data?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}, {
+					"value": "dont_know_answer",
+					"text": "I’m not sure/don’t know"
+				}
+			],
+			"required": false
+		}, {
+			"id": "modify_indexes",
+			"order": 9,
+			"controlType": "dropdown",
+			"displayLabel": "Did you modify the indexes on your tables or reindexed the data?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}, {
+					"value": "dont_know_answer",
+					"text": "I’m not sure/don’t know"
+				}
+			],
+			"required": false
+		}, {
+			"id": "add_workload",
+			"order": 10,
+			"controlType": "dropdown",
+			"displayLabel": "Did you add any workload to your Kubernetes cluster outside of your Azure Arc setup?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Yes",
+					"text": "Yes"
+				}, {
+					"value": "No",
+					"text": "No"
+				}, {
+					"value": "dont_know_answer",
+					"text": "I’m not sure/don’t know"
+				}
+			],
+			"required": false
 		}, {
 			"id": "problem_description",
-            "order": 6,
+            "order": 11,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",
