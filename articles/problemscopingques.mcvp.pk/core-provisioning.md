@@ -59,7 +59,7 @@
                     "value": "dont_know_answer"
                 }
             ],
-            "required": false
+            "required": true
         },
         {
             "id": "version",
