@@ -17,6 +17,8 @@
 
 # Resolve poor performance issues due to high IO utilization in Azure SQL Database
 
+The statistics are crucial for SQL engine to know how much data it will be working with and with that information creating better execution plans. Having better execution plans, queries will have better performance and will use the right amount of resources required and thus can help reduce IO usage. Use the [Maintain Azure SQL Indexes and Statistics](https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-maintain-azure-sql-indexes-and-statistics/ba-p/368787) for more inforamtion on updating statistics.
+
 IO Usage is split into two types: Data IO and Log IO.Your can quickly identify the IO usage using the query below.
 
 ```
@@ -27,7 +29,7 @@ ORDER BY end_time DESC;
 
 If the IO usage is above 80% you have two options:
 
-* Option 1: Upgrade the compute size or service tier
+* Option 1: Upgrade the compute size or service tier.
 * Option 2: Identify and tune the queries consuming the most IO.
 
 ### **How To identify and top IO consuming queries**
@@ -53,6 +55,6 @@ You can fetch the query ID's for TOP IO Consuming (Logical and physical reads) q
 
 ## **Recommended Documents**
 
-* Poor performance in Azure SQL DB is most often either related to excessive CPU utilization or a query waiting on a resource. To resolve either of these issues, review [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview?WT.mc_id=pid:13491:sid:32630450/).
+* [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview?WT.mc_id=pid:13491:sid:32630450/)
 * [IO Issues](https://docs.microsoft.com/azure/azure-sql/database/monitoring-with-dmvs#identify-io-performance-issues) 
 

@@ -17,13 +17,7 @@
 
 # Resolve index and statistics related issues in Azure SQL Database
 
-### **Using automation** 
-
-You can use Azure Automation to run a scheduled runbook that can do the index and statistics maintenance for you. To configure the same, please follow [Automating Azure SQL DB index and statistics maintenance using [Azure Automation](https://techcommunity.microsoft.com/t5/azure-database-support-blog/automating-azure-sql-db-index-and-statistics-maintenance-using/ba-p/368974)
-
-### **Guidelines for creating\updating large indexes**
-
-If you are creating\updating a large index please follow the following [guidelines](https://docs.microsoft.com/sql/relational-databases/indexes/guidelines-for-online-index-operations?view=sql-server-2017)
+Statistics are crucial for SQL engine to know how much data it will be working with and with that information creating better execution plans. Having better execution plans, queries will have better performance and will use the right amount of resources required run, thus to improve performance the first place to start is updating statistics.
 
 ### **Updating statistics**
 
@@ -73,7 +67,18 @@ ALTER DATABASE SCOPED CONFIGURATION CLEAR PROCEDURE_CACHE
 select * from sys.dm_exec_cached_plans
 ```
 
+
+### **Using automation** 
+
+You can use Azure Automation to run a scheduled runbook that can do the index and statistics maintenance for you. To configure the same, please follow [Automating Azure SQL DB index and statistics maintenance using [Azure Automation](https://techcommunity.microsoft.com/t5/azure-database-support-blog/automating-azure-sql-db-index-and-statistics-maintenance-using/ba-p/368974)
+
+### **Guidelines for creating\updating large indexes**
+
+If you are creating\updating a large index please follow the following [guidelines](https://docs.microsoft.com/sql/relational-databases/indexes/guidelines-for-online-index-operations?view=sql-server-2017)
+
 ## **Recommended Documents**
 
-* Further information on [Indexes](https://docs.microsoft.com/sql/relational-databases/indexes/indexes?view=sql-server-2017).
+* [Indexes](https://docs.microsoft.com/sql/relational-databases/indexes/indexes?view=sql-server-2017).
+* [Adaptive index defragmentation](https://github.com/Microsoft/tigertoolbox/tree/master/AdaptiveIndexDefrag)
+* [How to maintain Azure SQL Indexes and Statistics](https://techcommunity.microsoft.com/t5/azure-database-support-blog/how-to-maintain-azure-sql-indexes-and-statistics/ba-p/368787)
 

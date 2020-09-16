@@ -19,29 +19,27 @@
 
 ### **Blocking**
 
-Slow or long-running queries can contribute to excessive resource consumption and be the consequence of blocked queries; in other words poor performance. The concept of blocking is not different on SQL Azure then on SQL Server. Blocking is an unavoidable characteristic of any relational database management system with lock-based concurrency.
+Slow or long-running queries can contribute to excessive resource consumption and be the consequence of blocked queries; in other words poor performance. The concept of blocking is not different on Azure SQL Database then on SQL Server. Blocking is an unavoidable characteristic of any relational database management system with lock-based concurrency.
 
 The query below will display the top ten running queries that have the longest total elapsed time and are blocking other queries.
 
 ```
-SELECT TOP 10 r.session_id,r.plan_handle,r.sql_handle,r.request_id,r.start_time, r.status,r.command, r.database_id,r.user_id, r.wait_type,r.wait_time,
-r.last_wait_type,r.wait_resource, r.total_elapsed_time,r.cpu_time, r.transaction_isolation_level,r.row_count,st.text 
-FROM sys.dm_exec_requests r CROSS APPLY sys.dm_exec_sql_text(r.sql_handle) as st  
-WHERE r.blocking_session_id = 0 and r.session_id in (SELECT distinct(blocking_session_id)FROM sys.dm_exec_requests) 
-GROUP BY r.session_id, r.plan_handle,r.sql_handle, r.request_id,r.start_time, r.status,r.command, r.database_id,r.user_id, r.wait_type,r.wait_time, 
-r.last_wait_type,r.wait_resource, r.total_elapsed_time,r.cpu_time, r.transaction_isolation_level,r.row_count,st.text  
+SELECT TOP 10 
+	r.session_id,r.plan_handle,r.sql_handle,r.request_id,r.start_time, r.status,r.command, r.database_id,r.user_id, r.wait_type
+	,r.wait_time,r.last_wait_type,r.wait_resource, r.total_elapsed_time,r.cpu_time, r.transaction_isolation_level,r.row_count,st.text 
+FROM sys.dm_exec_requests r 
+CROSS APPLY sys.dm_exec_sql_text(r.sql_handle) as st  
+WHERE r.blocking_session_id = 0 and r.session_id in (SELECT distinct(blocking_session_id) FROM sys.dm_exec_requests) 
+GROUP BY 
+	r.session_id, r.plan_handle,r.sql_handle, r.request_id,r.start_time, r.status,r.command, r.database_id,r.user_id, r.wait_type
+	,r.wait_time,r.last_wait_type,r.wait_resource, r.total_elapsed_time,r.cpu_time, r.transaction_isolation_level,r.row_count,st.text  
 ORDER BY r.total_elapsed_time desc
 ```
 
 ### **Deadlock**
 
 A deadlock occurs when two or more processes are waiting on the same resource and each process is waiting on the other process to complete before moving forward.
-For Azure SQL Database we have already running an Extended Event that captures the deadlocks without any additionally action. You can use [Extended events](https://docs.microsoft.com/azure/azure-sql/database/xevent-db-diff-from-svr) and create a new session with the following events for deadlock.
-
-* Lock_Deadlock (Occurs when an attempt to acquire a lock is canceled for the victim of a deadlock).
-* Lock_deadlock_chain (Occurs when an attempt to acquire a lock generates a deadlock. This event is raised for each participant in the deadlock).
-
-Additionaly, the query below can help you capture deadlock.
+The query below can help you capture deadlock.
 
 ```
 WITH CTE AS (
@@ -62,9 +60,15 @@ To obtain a deadlock graph:
 * Copy the deadlock_xml column results from the previous query and load into a text file. If more than one row is returned, you will want to do each row result separate.
 * Save the file as a '.xdl' extension, (e.g. deadlock.xdl) which can be viewed in tools such as SQL Server Management Studio as a deadlock report/graphic.
 
+If you need to customize the events you capture when a deadlock occurs, you can create your own [Extended Events](https://docs.microsoft.com/azure/azure-sql/database/xevent-db-diff-from-svr) Session with the following events for a deadlock.
+
+* Lock_Deadlock (Occurs when an attempt to acquire a lock is canceled for the victim of a deadlock).
+* Lock_deadlock_chain (Occurs when an attempt to acquire a lock generates a deadlock. This event is raised for each participant in the deadlock).
+
 ## **Recommended Documents**
 
-* [Find blocking queries](https://azure.microsoft.com/blog/finding-blocking-queries-in-sql-azure/).
+* [Find blocking queries](https://azure.microsoft.com/blog/finding-blocking-queries-in-sql-azure/)
 * [Understanding blocking](https://support.microsoft.com/help/224453/inf-understanding-and-resolving-sql-server-blocking-problems)
 * [Deadlocks](https://techcommunity.microsoft.com/t5/azure-database-support-blog/lesson-learned-19-how-to-obtain-the-deadlocks-of-your-azure-sql/ba-p/368847)
+* [Locks](https://docs.microsoft.com/sql/relational-databases/sql-server-transaction-locking-and-row-versioning-guide?view=sql-server-ver15)
 

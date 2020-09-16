@@ -26,9 +26,9 @@ You enable automatic tuning for Azure SQL Database in the Azure portal or by usi
 
 ### **Query tuning**
 
-For a detailed documentation on performance configurations in Azure SQL database and various tuning options [follow](https://docs.microsoft.com/sql/relational-databases/performance/performance-center-for-sql-server-database-engine-and-azure-sql-database?view=sql-server-ver15)
+For a detailed documentation on performance configurations in Azure SQL database and various tuning options visit [Performance Center for SQL Server Database Engine and Azure SQL Database](https://docs.microsoft.com/sql/relational-databases/performance/performance-center-for-sql-server-database-engine-and-azure-sql-database?view=sql-server-ver15)
 
 ## **Recommended Documents**
 
-* For overall application and database tuning for Azure SQL Databases follow: [Application and database tuning](https://docs.microsoft.com/azure/azure-sql/database/performance-guidance).
+* [Application and database tuning](https://docs.microsoft.com/azure/azure-sql/database/performance-guidance).
 

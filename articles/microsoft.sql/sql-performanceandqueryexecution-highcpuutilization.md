@@ -17,6 +17,7 @@
 
 # Resolve poor performance and timeout issues in Azure SQL Database
 
+Poor performance in Azure SQL DB is most often either related to excessive CPU utilization or a query waiting on a resource. 
 There are various [performance monitoring tools](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-ver15) available for Azure SQL Databases.
 For analyzing High CPU usage we recommend the following:
 
@@ -71,7 +72,7 @@ ORDER BY total_cpu_millisec DESC;
 ### **Query Store**
 
 The SQL Server [Query Store](https://docs.microsoft.com/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store?redirectedfrom=MSDN&view=sql-server-ver15) feature provides you with insight on query plan choice and performance. It simplifies performance troubleshooting by helping you quickly find performance differences caused by query plan changes. Query Store automatically captures a history of queries, plans, and runtime statistics, and retains these for your review.
-You can fetch the query ID's for TOP CPU Consuming (CPU TIME ms) queries by slecting the paticular metic under the regressed queries section of the Query store.
+You can fetch the query ID's for TOP CPU Consuming (CPU TIME ms) queries by selecting the particular metric under the regressed queries section of the Query store.
 
 ### **Query performance insights**
 
@@ -79,6 +80,6 @@ You can fetch the query ID's for TOP CPU Consuming (CPU TIME ms) queries by slec
 
 ## **Recommended Documents**
 
-* Poor performance in Azure SQL DB is most often either related to excessive CPU utilization or a query waiting on a resource. To resolve either of these issues, review [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview?WT.mc_id=pid:13491:sid:32630450/).
+* [Monitoring and performance tuning](https://docs.microsoft.com/azure/sql-database/sql-database-monitor-tune-overview?WT.mc_id=pid:13491:sid:32630450/).
 
 
