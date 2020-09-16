@@ -77,6 +77,10 @@
                 {
                     "value": "General: Other issues",
                     "text": "General: Other issues"
+                },
+                {
+                    "value": "dont_know_answer",
+                    "text": "Other, don't know or not applicable"
                 }
             ],
             "required": true
