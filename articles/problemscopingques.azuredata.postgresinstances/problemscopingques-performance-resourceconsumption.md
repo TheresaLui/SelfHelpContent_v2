@@ -137,7 +137,7 @@
 			],
 			"required": false
 		}, {
-			"id": "servergroup_config",
+			"id": "modify_indexes",
 			"order": 8,
 			"controlType": "dropdown",
 			"displayLabel": "Did you modify the indexes on your tables or reindexed the data?",
@@ -155,26 +155,8 @@
 			],
 			"required": false
 		}, {
-			"id": "modify_indexes",
-			"order": 9,
-			"controlType": "dropdown",
-			"displayLabel": "Did you modify the indexes on your tables or reindexed the data?",
-			"watermarkText": "Choose an option",
-			"dropdownOptions": [{
-					"value": "Yes",
-					"text": "Yes"
-				}, {
-					"value": "No",
-					"text": "No"
-				}, {
-					"value": "dont_know_answer",
-					"text": "I’m not sure/don’t know"
-				}
-			],
-			"required": false
-		}, {
 			"id": "add_workload",
-			"order": 10,
+			"order": 9,
 			"controlType": "dropdown",
 			"displayLabel": "Did you add any workload to your Kubernetes cluster outside of your Azure Arc setup?",
 			"watermarkText": "Choose an option",
@@ -192,7 +174,7 @@
 			"required": false
 		}, {
 			"id": "problem_description",
-            "order": 11,
+            "order": 10,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",
