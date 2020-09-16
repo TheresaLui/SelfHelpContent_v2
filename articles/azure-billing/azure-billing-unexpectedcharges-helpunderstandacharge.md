@@ -19,6 +19,7 @@
 
 **Understand charges on an Azure free account**<br>
 Azure free trial account is only for 1 month and once it is upgraded to pay-g there will be 12 month free services. The Azure free account includes free access to the most popular Azure products for 12 months, $200 credit to spend for the first 30 days of sign up, and access to more than 25 products that are always free. If you are seeing a charge, it is likely possible that it is not one of the listed products that are available monthly, for free: [Products available monthly for free under Azure free account](https://azure.microsoft.com/free/free-account-faq/)<br>
+
 **Note**: You would need to upgrade to [Pay-As-You-Go](https://azure.microsoft.com/offers/ms-azr-0003p/) after the first 30 days in order to continue using the Free Account for the remaining 11 months and you would not be charged if you stayed within the free service limits.
 
 **Understand charges on your Bill/Invoice?**<br>
@@ -26,9 +27,9 @@ Azure free trial account is only for 1 month and once it is upgraded to pay-g th
 **Customer Led (WD)**
 
 * To help review and understand your bill, please refer to: [Tutorial: Review your individual Azure Bill](https://docs.microsoft.com/azure/cost-management-billing/understand/review-individual-bill)
-* Understand terms on your invoice: [Azure invoice terms explained](https://docs.microsoft.com/azure/cost-management-billing/understand/understand-invoice)
-* Understand terms on Azure Usage charges: [Usage terms explained](https://docs.microsoft.com/azure/cost-management-billing/understand/understand-usage)
-* To obtain a PDF of your invoice and a copy of your detailed daily usage file (.CSV): [Get invoice and usage data](https://docs.microsoft.com/azure/cost-management-billing/manage/download-azure-invoice-daily-usage-date)
+* Understand terms on your invoice: [Azure invoice terms explained](https://docs.microsoft.com/azure/cost-management-billing/understand/understand-invoice)
+* Understand terms on Azure Usage charges: [Usage terms explained](https://docs.microsoft.com/azure/cost-management-billing/understand/understand-usage)
+* To obtain a PDF of your invoice and a copy of your detailed daily usage file (.CSV): [Get invoice and usage data](https://docs.microsoft.com/azure/cost-management-billing/manage/download-azure-invoice-daily-usage-date)
 
 **Note**: If you cancel your subscription/resource in the middle of your billing cycle, you might still see a charge which would be for any usage in the previous month. Example, if your billing cycle was from the 26th of every month to the 25th of the next month & you suspended the subscription on the 23rd, which is 28 days into the billing cycle for June, you might see a charge for the 28 days of use. If you see a charge in spite of cancelling a subscription please make sure, you don’t have any other support plans which is causing the charge. If you do, please go ahead and cancel the plan.
 
