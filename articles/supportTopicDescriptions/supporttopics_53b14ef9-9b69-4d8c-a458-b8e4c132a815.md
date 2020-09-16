@@ -257,6 +257,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "7514973d-ae73-fc18-5dd0-b2a4d655ad3d",
+      "longDescription": "",
+      "shortDescription": "Packages failing with Unexpected Termination. VS-SSDT or DTExec or DTExecUI crashing.",
+      "searchTags": "ssis package failing;DTExecUI;DTExec;Integration Services package",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "76d18e8d-9f50-5415-da66-ab3aa4c063d5",
       "longDescription": "",
       "shortDescription": "Questions or issues connecting to a Failover Cluster instance or an Availability Group listener",
