@@ -2,7 +2,7 @@
   pagetitle="SupportTopicDescriptions for 1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   description="SupportTopicDescriptions for 1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   authors="elixirsys2"
-  ms.author="mcarter, liamca"
+  ms.author="mcarter, liamca, cynotebo"
   selfhelptype="SupportTopicDescription"
   productpesids="1b9679f1-9cb9-a8db-549e-2fcdfbb89e7c"
   cloudenvironments="public, fairfax, blackforest, mooncake, ussec, usnat"
@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "53f59569-6179-4ba9-0f1d-c736fd87c6ed",
+      "longDescription": "",
+      "shortDescription": "Questions on exploring the enriched data with Power BI. Configuring Power BI to read from the knowledge store",
+      "searchTags": "Knowledge store;Power BI;visualize;enrichment",
+      "category": "Enrichment",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "5527a869-571a-d6c1-b223-46bb59108f3c",
       "longDescription": "",
       "shortDescription": "Issues creating an Azure Cognitive Search service",
@@ -106,6 +114,14 @@
       "shortDescription": "Issues with ARM template deployment for Azure Cognitive Search.",
       "searchTags": "ARM;template;deployment;resource",
       "category": "Setup and Configuration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "986119a7-bb99-3873-8de3-925fa611fea8",
+      "longDescription": "",
+      "shortDescription": "Search results are not returning in the order I expect",
+      "searchTags": "scoring profile",
+      "category": "search",
       "useInDiagnoseAndSolve": "true"
     },
     {
