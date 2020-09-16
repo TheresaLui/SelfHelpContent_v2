@@ -31,8 +31,9 @@
 
 	[Change a key vault tenant ID after a subscription move](https://docs.microsoft.com/azure/key-vault/key-vault-subscription-move-fix)
 
-* I have several (over 16) applications that need to access a key vault. Since Key Vault only allows 16 access control entries, how can I achieve that?<br>
+* I have several (over 16) applications that need to access a key vault. How can I add multiple access policies?<br>
 
+    Key vault supports up to **1024** access policy entries, with each entry granting a distinct set of permissions to a particular security principal.
 	[Grant permission to many applications to access a key vault](https://docs.microsoft.com/azure/key-vault/key-vault-group-permissions-for-apps)
 
 ## **Recommended Documents**

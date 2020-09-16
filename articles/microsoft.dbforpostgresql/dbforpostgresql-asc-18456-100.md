@@ -26,6 +26,7 @@ There have been failed connections to your database server because the server wa
 
 * To fix this issue, please ensure SSL is configured correctly on the server. You can refer to [this article](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security) for assistance with configuring your client applications to connect to Azure Database for PostgreSQL using SSL. You can download application libraries and connection instructions for many common languages [here](https://docs.microsoft.com/azure/postgresql/concepts-connection-libraries).
 * You can also obtain system-generated connection strings for common application libraries by navigating to your database server in the [Azure Portal](https://portal.azure.com) and click on the "**Connection Strings**" blade.
+* As a part of our maintenance activity, we are working on changing out gateway certificate used to [connect to the server using SSL](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security). Refer to the steps to mitigate the issue in [this article](https://docs.microsoft.com/azure/postgresql/concepts-certificate-rotation)
 
 ## **Recommended Documents**
 
