@@ -157,6 +157,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "cecef991-fb0e-375e-e813-513e532edb6d",
+      "longDescription": "",
+      "shortDescription": "Issues with an indexer and an Azure Blob Storage data source.",
+      "searchTags": "indexer;indexing;storage;blob storage",
+      "category": "Indexers",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d10e6e4e-4e0b-4685-c3e4-00ec08b07f99",
       "longDescription": "",
       "shortDescription": "Issues with dropped or terminated connections to your Azure Cognitive Search service",
