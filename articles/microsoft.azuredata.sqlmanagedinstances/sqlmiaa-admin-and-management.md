@@ -22,22 +22,28 @@ Most users are able to resolve their issues with SQL Managed Instance Azure Arc 
 
 ## **Recommended Documents**
 
-- Files/Filegroup management
+- Files/Filegroup management:
+
   - [Troubleshoot a Full Transaction Log](https://docs.microsoft.com/sql/relational-databases/logs/troubleshoot-a-full-transaction-log-sql-server-error-9002)
 
-- Backup and Restore
+- Backup and Restore:
+
   - [Troubleshooting Backup and Restore progress using Extended Events](https://techcommunity.microsoft.com/t5/sql-server/new-extended-event-to-track-backup-and-restore-progress/ba-p/384447)
   - [Restoring a database in MIAA](https://docs.microsoft.com/azure/azure-arc/data/restore-adventureworks-sample-db)
   - [Migrated Database from SQL Server to SQL MI-AA](https://docs.microsoft.com/azure/azure-arc/data/migrate-to-managed-instance-azure-arc)
 
-- SQL Engine Errors
+- SQL Engine Errors:
+
   - [SQL Engine Errors](https://docs.microsoft.com/sql/relational-databases/errors-events/database-engine-events-and-errors)
 
-- SQL Engine Service Startup Options and Recovery
+- SQL Engine Service Startup Options and Recovery:
+
   - [Service Startup options/parameters](https://docs.microsoft.com/sql/database-engine/configure-windows/database-engine-service-startup-options?view=sql-server-ver15)
   - [Rebuild System Databases](https://docs.microsoft.com/sql/relational-databases/databases/rebuild-system-databases)
   - [Moving System Databases](https://docs.microsoft.com/sql/relational-databases/databases/move-system-databases)
 
-- Server Configuration
+- Server Configuration:
+
   - [Server Configuration Options](https://docs.microsoft.com/sql/database-engine/configure-windows/server-configuration-options-sql-server)
   - [ALTER SERVER CONFIGURATION](https://docs.microsoft.com/sql/t-sql/statements/alter-server-configuration-transact-sql)
+  
