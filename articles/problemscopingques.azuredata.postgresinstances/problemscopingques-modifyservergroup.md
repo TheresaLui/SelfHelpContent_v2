@@ -1,22 +1,22 @@
 <properties
-	pageTitle="Create Hyperscale Server group"
-	description="Create Hyperscale Server group"
+	pageTitle="Modify Server Group kubectl or azdata"
+	description="Modify Server Group kubectl or azdata"
 	ms.author="amigan,pookam,babarmav"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32747900"
+	supportTopicIds="32747911"
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="0c89508a-f476-4b36-bba2-afa5f26ee590"
+	articleId="7e2a4984-cd41-4589-a8b9-37c54cc529e0"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 />
-# Create Hyperscale Server group
+# Modify Server Group kubectl or azdata
 ---
 {
   "$schema": "SelfHelpContent",
   "subscriptionRequired": false,
   "resourceRequired": false,
-	"title": "Create Hyperscale Server group",
+	"title": "Modify Server Group kubectl or azdata",
 	"fileAttachmentHint": "",
 	"formElements": [
 		{
@@ -26,10 +26,40 @@
 			"displayLabel": "When did the problem begin?",
 			"required": true
 		}, {
-			"id": "how_create",
+			"id": "error_message",
 			"order": 2,
+			"controlType": "textbox",
+			"displayLabel": "If an error was displayed, what was the error message?",
+			"required": false
+		}, {
+			"id": "error_transient",
+			"order": 3,
 			"controlType": "dropdown",
-			"displayLabel": "How did you try to create?",
+			"displayLabel": "Was the error transient or is it still happening?",
+			"watermarkText": "Choose an option",
+			"dropdownOptions": [{
+					"value": "Transient Error",
+					"text": "Transient Error"
+				}, {
+					"value": "Issue still happening",
+					"text": "Issue still happening"
+				}, {
+					"value": "dont_know_answer",
+					"text": "I’m not sure/don’t know"
+				}
+			],
+			"required": true
+		}, {
+			"id": "aspect_modify",
+			"order": 4,
+			"controlType": "textbox",
+			"displayLabel": "What aspect of the servergroup did you try to modify?",
+			"required": false
+		}, {
+			"id": "how_create",
+			"order": 5,
+			"controlType": "dropdown",
+			"displayLabel": "How did you try to modify?",
 			"watermarkText": "Choose an option",
 			"dropdownOptions": [{
 					"value": "CLI azdata",
@@ -48,19 +78,13 @@
 			"required": true
 		}, {
 			"id": "command_used",
-			"order": 3,
+			"order": 6,
 			"controlType": "textbox",
 			"displayLabel": "What command did you use?",
 			"required": false
 		}, {
-			"id": "error_message",
-			"order": 4,
-			"controlType": "textbox",
-			"displayLabel": "If an error was displayed, what was the error message?",
-			"required": false
-		}, {
 			"id": "type_kubernetes",
-			"order": 5,
+			"order": 7,
 			"controlType": "dropdown",
 			"displayLabel": "Types of Kubernetes clusters or managed Kubernetes services you are using",
 			"watermarkText": "Choose an option",
@@ -93,7 +117,7 @@
 			"required": true
 		}, {
 			"id": "problem_description",
-            "order": 6,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",
