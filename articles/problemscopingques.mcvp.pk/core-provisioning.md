@@ -43,7 +43,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Please describe your problem",
             "watermarkText": "Problem description",
-            "useAsAdditionalDetails": false,
+            "useAsAdditionalDetails": true,
             "required": true
         },
         {
