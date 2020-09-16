@@ -72,7 +72,7 @@
                 "uri": "/subscriptions/{subscriptionId}/providers/Microsoft.DocumentDB/databaseAccounts?api-version=2020-04-01",
                 "jTokenPath":"value",
                 "textProperty":"name, location",
-                "textTemplate":"Name: {name}",
+                "textTemplate":"{name}",
                 "ValueProperty":"id",
                 "valuePropertyRegex": ".*",
                 "defaultDropdownOptions": {
@@ -150,7 +150,7 @@
             "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Describe your quota request",
-            "watermarkText": "Provide additional information about your issue",
+            "watermarkText": "Provide additional information about your issue, include details such as account name, type of limit, current value and new value requested.",
             "required": true,
             "useAsAdditionalDetails": true
         }
