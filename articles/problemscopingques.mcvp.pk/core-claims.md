@@ -27,7 +27,7 @@
             "order": 1,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem occur?",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_region",
@@ -40,6 +40,14 @@
         {
             "id": "problem_description",
             "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please describe your problem",
+            "watermarkText": "Problem description",
+            "required": true
+        },
+        {
+            "id": "deployment_type",
+            "order": 4,
             "controlType": "multiselectdropdown",
             "displayLabel": "What type of deployment are you working on?",
             "dropdownOptions": [{
@@ -63,14 +71,14 @@
         },
         {
             "id": "version",
-            "order": 4,
+            "order": 5,
             "controlType": "textbox",
             "displayLabel": "What version of MCVP core are you attempting to deploy?",
             "required": true
         },
         {
             "id": "sample_claims_or_service",
-            "order": 5,
+            "order": 6,
             "controlType": "dropdown",
             "displayLabel": "Are you having issues with the sample claims provider service, or adding, deleting, or modifying claims to the system?",
             "dropdownOptions": [{
@@ -95,7 +103,7 @@
         },
         {
             "id": "built_claims_service",
-            "order": 6,
+            "order": 7,
             "controlType": "radiobuttongroup",
             "displayLabel": "Did you build the sample claims provider before running it?",
            "radioButtonOptions": [{

@@ -56,6 +56,14 @@
         {
             "id": "problem_description",
             "order": 4,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please describe your problem",
+            "watermarkText": "Problem description",
+            "required": true
+        },
+        {
+            "id": "deployment_type",
+            "order": 5,
             "controlType": "multiselectdropdown",
             "displayLabel": "What type of deployment are you working on?",
             "dropdownOptions": [{
@@ -79,14 +87,14 @@
         },
         {
             "id": "version",
-            "order": 5,
+            "order": 6,
             "controlType": "textbox",
             "displayLabel": "What version of MCVP core are you attempting to deploy?",
             "required": true
         },
         {
             "id": "permissions_subscription",
-            "order": 6,
+            "order": 7,
             "controlType": "dropdown",
             "displayLabel": "What highest permission do you have for your subscription?",
             "dropdownOptions": [{
@@ -109,8 +117,8 @@
             "required": true
         },
         {
-            "id": "problem_description",
-            "order": 7,
+            "id": "permissions",
+            "order": 8,
             "controlType": "multiselectdropdown",
             "displayLabel": "What permissions do you have in Azure Active Directory for your subscription?",
             "dropdownOptions": [{
