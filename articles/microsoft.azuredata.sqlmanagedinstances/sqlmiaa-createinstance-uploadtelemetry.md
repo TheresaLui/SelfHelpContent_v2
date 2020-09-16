@@ -11,7 +11,7 @@
 	selfHelpType="generic"
 	supportTopicIds="32747941"
 	resourceTags=""
-	productPesIds="17126"
+	productPesIds="17125"
 	cloudEnvironments="Public"
 	ownershipId="AzureData_Managed_Instance_Azure_Arc"
 />
