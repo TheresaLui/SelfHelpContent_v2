@@ -1,7 +1,7 @@
 <properties
     articleId="problemscopingques-issue-while-investigating-or-configuring-availability-tests-selfhelp"
-    pageTitle="Issue while investigating or configuring Availability tests"
-    description="Issue while investigating or configuring Availability tests"
+    pageTitle="Troubleshoot issues while investigating or configuring Availability tests"
+    description="Troubleshoot issues while investigating or configuring Availability tests"
     authors="gearama,zakima"
     ms.author="gearama"
     selfHelpType="problemScopingQuestions"
@@ -11,13 +11,13 @@
     schemaVersion="1"
     ownershipId="AzureMonitoring_ApplicationInsights"
 />
-# Issue while investigating or configuring Availability tests
+# Troubleshoot issues while investigating or configuring Availability tests
 ---
 {
     "$schema": "SelfHelpContent",
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Issue while investigating or configuring Availability tests",
+    "title": "Troubleshoot issues while investigating or configuring Availability tests",
     "fileAttachmentHint": "",
     "diagnosticCard": {
         "title": "Availability Test Troubleshooter",
