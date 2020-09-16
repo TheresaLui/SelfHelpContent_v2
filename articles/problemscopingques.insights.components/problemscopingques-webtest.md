@@ -30,16 +30,16 @@
             "controlType": "dropdown",
             "displayLabel": "Please select the affected Availability Tests resource.",
             "watermarkText": "Choose an option",
-            "defaultDropdownOptions": {
-                "value": "dont_know_answer",
-                "text": "Unable to get the list of availability tests for this resource"
-            },
             "dynamicDropdownOptions": {
                 "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/microsoft.insights/components/{resourcename}/webtests?noLargeObjects=true&skipConfig=true&api-version=2015-05-01",
                 "jTokenPath": "value",
                 "textProperty": "name",
                 "valueProperty": "id",
-                "textPropertyRegex": "[^/]+$"
+                "textPropertyRegex": "[^/]+$",
+                "defaultDropdownOptions": {
+                    "value": "dont_know_answer",
+                    "text": "Unable to get the list of availability tests for this resource"
+                }
             },
             "required": false,
             "diagnosticInputRequiredClients": "Portal, ASC"
