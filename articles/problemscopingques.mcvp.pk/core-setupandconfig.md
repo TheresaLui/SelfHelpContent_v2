@@ -13,6 +13,7 @@
 />
 
 # Problem with Setup
+
 ---
 {
     "resourceRequired": false,
@@ -21,7 +22,7 @@
     "fileAttachmentHint": null,
     "formElements": [
         {
-            "id": "start_time",
+            "id": "problem_start_time",
             "visibility": null,
             "order": 1,
             "controlType": "datetimepicker",
@@ -29,9 +30,26 @@
             "required": true
         },
         {
+            "id": "problem_region",
+            "order": 2,
+            "controlType": "textbox",
+            "displayLabel": "Which region is your VM and/or cluster located?",
+            "watermarkText": "Azure Region",
+            "required": false
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Please describe your problem",
+            "watermarkText": "Problem description",
+            "useAsAdditionalDetails": false,
+            "required": true
+        },
+        {
             "id": "subscription_user",
             "visibility": null,
-            "order": 2,
+            "order": 4,
             "controlType": "radiobuttongroup",
             "displayLabel": "Is your IT department managing your subscription or are you using a personal one?",
                 "radioButtonOptions": [{
@@ -43,22 +61,6 @@
                         "text": "Personal"
                     }
                 ],
-            "required": true
-        },
-        {
-            "id": "problem_region",
-            "order": 3,
-            "controlType": "textbox",
-            "displayLabel": "Which region is your VM and/or cluster located?",
-            "watermarkText": "Azure Region",
-            "required": false
-        },
-        {
-            "id": "problem_description",
-            "order": 4,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Please describe your problem",
-            "watermarkText": "Problem description",
             "required": true
         },
         {

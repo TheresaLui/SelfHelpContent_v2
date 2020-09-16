@@ -35,7 +35,7 @@
             "controlType": "textbox",
             "displayLabel": "Which region is your VM and/or cluster located?",
             "watermarkText": "Azure Region",
-            "required": true
+            "required": false
         },
         {
             "id": "problem_description",
@@ -43,6 +43,7 @@
             "controlType": "multilinetextbox",
             "displayLabel": "Please describe your problem",
             "watermarkText": "Problem description",
+            "useAsAdditionalDetails": false,
             "required": true
         },
         {
