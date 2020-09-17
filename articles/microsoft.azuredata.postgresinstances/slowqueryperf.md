@@ -10,7 +10,7 @@
   articleid="0483e5b0-069f-49ac-adf8-6175e2ce29f7"
   ownershipid="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale" />
   
-  # Troubleshoot query execution problems in Azure Database for PostgreSQL
+# Troubleshoot query execution problems in Azure Database for PostgreSQL
 
 Query execution problems can be caused by the database engine itself or by the interaction of the database engine and the service. Follow the recommended steps to troubleshoot your problem.
 
