@@ -3,7 +3,7 @@
     description="Unsupported Kubernetes version is detected"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="d6d466dd-1989-4c1b-b77e-f2d11c3e453c"
+    articleId="d6d466dd-1989-4c1b-b77e-f2d11c3e453c_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="ussec"
     ownershipId="Compute_AzureKubernetesService"
