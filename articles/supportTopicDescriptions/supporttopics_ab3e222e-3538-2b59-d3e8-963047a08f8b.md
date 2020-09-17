@@ -245,6 +245,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d24aad30-7f4c-2a2b-f8fc-72879e1cc816",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving issues while updating monitoring pods configuration post successful controller deployment",
+      "searchTags": "Monitoring;Configuration",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d7c18803-5f7e-e4d2-b487-6c9955d98e5b",
       "longDescription": "",
       "shortDescription": "Select this if you have issues authenticating into the data controller",
