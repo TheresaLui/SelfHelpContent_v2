@@ -1,6 +1,6 @@
 <properties
-	pageTitle="Payout - payout policies"
-	description="SelfHelp for Payouts Product-Payout policies"
+	pageTitle="Payout - Payout policies"
+	description="SelfHelp for Payouts Product - Payout policies"
 	infoBubbleText=""
 	service="partnercenter"
 	resource="isv"
@@ -28,7 +28,7 @@
 
 **When can I expect a payment from Microsoft once earnings appear on my statement?**
 
-* Once your earning is in unprocessed status, you can check maturity date for the month your earnings will be processed for payment. Once your payment is prepared, your earning status will change to “processed”.  Microsoft releases payments by the 15th of maturity month.
+* Once your earning is in unprocessed status, you can check maturity date for the month your earnings will be processed for payment. Once your payment is prepared, your earning status will change to "processed".  Microsoft releases payments by the 15th of maturity month.
 * For orders paid by credit card, Microsoft holds payments 30 days until the earning is matured
 
 ## **Recommended Documents**
