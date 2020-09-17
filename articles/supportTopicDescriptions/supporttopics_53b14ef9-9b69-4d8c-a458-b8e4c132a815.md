@@ -377,6 +377,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "ca440ca8-7dd7-01ef-44fb-13f2f87e44b9",
+      "longDescription": "",
+      "shortDescription": "Issues with Starting, Configuring, Monitoring SSIS Packages while using or connecting to SSIS Windows Service",
+      "searchTags": "SSIS windows service;ssis service;Integration services windows service;integration services service",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "cab9930d-ee12-c03d-00c1-82fe54c5ab31",
       "longDescription": "",
       "shortDescription": "Questions or issues troubleshooting authentication, roles and permissions",
