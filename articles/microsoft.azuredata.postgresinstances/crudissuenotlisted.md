@@ -18,7 +18,7 @@ ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 
 # My Issue is not listed
 
-The following documents are useful to answer most questions you may have regarding your PostgreSQL Hyperscale Server Group on Azure Arc 
+The following documents are useful to answer most questions you may have regarding your PostgreSQL Hyperscale Server Group on Azure Arc.
 
 ## **Recommended Documents**
 
