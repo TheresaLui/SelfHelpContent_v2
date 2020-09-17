@@ -113,6 +113,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "287493aa-ea97-b7e2-11dd-1315916ee6fd",
+      "longDescription": "",
+      "shortDescription": "Failing to save a copy of SSIS package to File System, MSDB or Package Store. Failing to deploy SSIS Project or add a package to SSISDB Catalog.",
+      "searchTags": "SSIS package deploy;SSIS package deployment;integration services deploy;integration services package deployment",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "311af6de-1219-6413-c04e-067b5d5a97a6",
       "longDescription": "",
       "shortDescription": "Issues with performance like slow SQL Server, Network, Disk or Virtual Machine",
@@ -254,6 +262,14 @@
       "shortDescription": "Issues connecting to the Virtual Machine like RDP, SSH, Firewall or NSG",
       "searchTags": "connect to vm",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7514973d-ae73-fc18-5dd0-b2a4d655ad3d",
+      "longDescription": "",
+      "shortDescription": "Packages failing with Unexpected Termination. VS-SSDT or DTExec or DTExecUI crashing.",
+      "searchTags": "ssis package failing;DTExecUI;DTExec;Integration Services package",
+      "category": "SSIS",
       "useInDiagnoseAndSolve": "true"
     },
     {

@@ -85,7 +85,7 @@ print(token_response)
 
 ## **Recommended Documents**
 
-Here is a list of additional resources which may be helpful:
+Here is a list of additional resources which may be helpful: 
 
 * [Setup authentication for Azure Machine Learning resources and workflows](https://docs.microsoft.com/azure/machine-learning/how-to-setup-authentication)
 * [Manage access to Azure Machine Learning workspace](https://docs.microsoft.com/azure/machine-learning/how-to-assign-roles)

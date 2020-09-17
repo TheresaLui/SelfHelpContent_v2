@@ -36,6 +36,7 @@
   
 ## **Recommended Documents**
 
+* [Migrate production jobs from Apache Spark on other platforms to Apache Spark on Azure Databricks](https://docs.microsoft.com/azure/databricks/migration/production)
 * [How to Create Table DDLs to Import into an External Metastore](https://docs.microsoft.com/azure/databricks/kb/metastore/create-table-ddl-for-metastore)
 * [Listing Table Names](https://docs.microsoft.com/azure/databricks/kb/metastore/list-tables)
 * [How to Explore Apache Spark Metrics With Spark Listeners](https://docs.microsoft.com/azure/databricks/kb/metrics/explore-spark-metrics)

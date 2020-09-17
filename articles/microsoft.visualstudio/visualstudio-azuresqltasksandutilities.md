@@ -22,21 +22,21 @@
 
 Are you facing one of these common problems?
 
-* I'm unable to build EF Migration leveraging managed identity
+**I'm unable to build EF Migration leveraging managed identity**
 
-	[Follow the steps outlined in this document](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-connect-msi)
+* [Follow the steps outlined in this document](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-connect-msi)
 
-* I want to publish a *.dacpac* file
-	The *.dacpac* file generated can be published by following the [given steps](https://docs.microsoft.com/azure/devops/pipelines/targets/azure-sqldb?view=azure-devops&tabs=classic#publish)
+**I want to publish a *.dacpac* file**
 
-* How do I test & deploy SSIS
+* The *.dacpac* file generated can be published by following the [given steps](https://docs.microsoft.com/azure/devops/pipelines/targets/azure-sqldb?view=azure-devops&tabs=classic#publish)
 
-    [Follow these steps](https://docs.microsoft.com/sql/integration-services/devops/ssis-devops-overview?view=sql-server-ver15&viewFallbackFrom=sql-server-ver15%20https%3A%2F%2Fdocs.microsoft.com%2F%2Farchive%2Fmsdn-magazine%2F2013%2Faugust%2Fsql-server-unit-and-integration-testing-of-ssis-packages)
+**How do I test & deploy SSIS?**
 
-* Where do I find a sample to deploy to Azure SQL database
+* [Follow these steps](https://docs.microsoft.com/sql/integration-services/devops/ssis-devops-overview?view=sql-server-ver15&viewFallbackFrom=sql-server-ver15%20https%3A%2F%2Fdocs.microsoft.com%2F%2Farchive%2Fmsdn-magazine%2F2013%2Faugust%2Fsql-server-unit-and-integration-testing-of-ssis-packages)
 
-    You can refer this [tutorial](https://docs.microsoft.com/azure/devops-project/azure-devops-project-sql-database)
+**Where do I find a sample to deploy to Azure SQL database?**
 
+*  Refer to this [tutorial](https://docs.microsoft.com/azure/devops-project/azure-devops-project-sql-database)
 
 ## **Recommended Documents**
 
