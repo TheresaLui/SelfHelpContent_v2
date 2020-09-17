@@ -141,6 +141,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "4b65f7d3-1835-641a-f01d-d68f1fb046cc",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving data controller deletion failures.",
+      "searchTags": "Data Controller;Delete;uninstall;removal;failure",
+      "category": "Data Controller Delete",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "4c5715ef-a3af-182d-9eac-b727908655d2",
       "longDescription": "",
       "shortDescription": "Data Controller pre-deployment queries, customization and deployment failures",
