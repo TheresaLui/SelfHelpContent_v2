@@ -11,20 +11,12 @@
   ownershipid="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale" />
 # Pods are in an Unhealthy State
 
- 
-
-Check if any events are reported for the pods that your server group is running in by using the below steps
-
- 
+Check if any events are reported for the pods that your server group is running in by using the below steps.
 
 ## **Recommended Steps**
 
- 
-
-- Get the list of the pods: `Kubectl get pods`    
-- **Describe** each of the pods of your server group. The name of the pods follow the pattern server group name - x where x is a number starting at 0:
-
- 
+* Get the list of pods: `Kubectl get pods`
+* **Describe** each of the pods of your server group. The name of the pods follow the pattern server group name - x where x is a number starting at 0: 
 
     * 0 is the **coordinator **node
     * X are the **worker **nodes        
@@ -34,17 +26,11 @@ Check if any events are reported for the pods that your server group is running 
 - Alternatively run `kubectl get events` and see if any problem is indicated
 - If the problem appears after you changed the configuration of the server group (scale up/down, or server parameters):
 
- 
+  * Revert the change 
+  * If this solves the problem, review the configuration change you desired and adjust it to what your Kubernetes cluster can deliver
+  * If this does not solve the problem, reach out to your Kubernetes team and then to the Microsoft support services if the issue persists
 
-    * Revert the change 
-    * If this solves the problem, review the configuration change you desired and adjust it to what your Kubernetes cluster can deliver
-    * If this does not solve the problem, reach out to your Kubernetes team and then to the Microsoft support services if the issue persists
-
- 
-
-## **Recommended Documents**
-
- 
+ ## **Recommended Documents**
 
 - [Read about troubleshooting pods](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-pod-replication-controller/)
 - [Debug Running Pods](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-running-pod/)
