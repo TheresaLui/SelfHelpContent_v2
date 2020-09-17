@@ -55,6 +55,10 @@ You can have a maximum of 200 properties at any nesting level in the schema, and
 ### Missing data (items or records or documents) in analytical store
 All transactional operations are propagated, including deletes. And analytical store ttl (time to live) setting also can cause data removal.
 
+* If a document is deleted in transactional store, it will also be deleted from analytical store. Despite the ttl confguration of both stores.
+* If transactional ttl is smaller than analytical ttl, the data is archived from transactional store but kept in analytical store until the configured ttl.
+* If transaction ttl is bigger than analytical ttl, data will be archived from analytical store and kept in transactional store until the configgured ttl limit.
+
 <br>
 
 
