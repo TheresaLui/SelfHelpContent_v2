@@ -9,7 +9,7 @@
   infobubbletext="Configure an on-premise VPN device for your Virtual WAN"
   diagnosticscenario=""
   selfhelptype="Generic"
-  supporttopicids=""
+  supporttopicids="32640645"
   resourcetags=""
   productpesids="16572"
   cloudenvironments="public,mooncake,fairfax,usnat,ussec"
