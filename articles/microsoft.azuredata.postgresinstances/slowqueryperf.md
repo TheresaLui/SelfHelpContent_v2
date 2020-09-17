@@ -17,15 +17,15 @@ Query execution problems can be caused by the database engine itself or by the i
 ## **Recommended Steps**
 
 * Review your queries for any changes that might have caused the unexpected behavior
-* Monitor the resource consumption of your server using Grafana & Kibana Dashboards. If you max out either IO or compute resources, increase scale up the resource that you are limited on
+* Monitor the resource consumption of your server using Grafana & Kibana Dashboards. If you max out either IO or compute resources, increase scale up the resource that you are limited on.
 * Verify that you are experiencing slow query performance due to query execution itself you can prefix EXPLAIN ANALYZE in front of the query and look at the Execution time value
 * Ensure you have the right set of indexes created for your queries
 * Make sure that there are no deadlocks in the concurrent queries
 * Only retrieve the columns you really need instead of using `SELECT *`
-* Double-check your PostgreSQL logging settings (see below)Check if there was any schema changes, for example 
+* Double-check your PostgreSQL logging settings (see below). Check if there was any schema changes, for example:
    * Whether an index was dropped
    * If you added columns, do you need a new index?
-* Check if a significant proportion of the data was changed. If so did you update the indexes
+* Check if a significant proportion of the data was changed. If so, did you update the indexes?
 
 ## **Recommended Documents**
 
