@@ -34,7 +34,7 @@ The data in analytical store is partitioned based on the horizontal partitioning
 <br>
 
 ### **Synapse Link support for Azure Cosmos DB APIs**
-In the public preview release, Synapse Link is supported only for the azure Cosmos DB SQL (Core) API.  Support for Azure Cosmos DB API for MongoDB and Cassandra is currently under gated preview.  To request access to gated preview, reach out to the Azure Cosmos DB Synapse Link team: *cosmosdbsynapselink@microsoft.com*  
+In the public preview release, Synapse Link is supported only for Azure Cosmos DB SQL (Core) API and for MongoDB API. Support for Cassandra API is currently under gated preview.  To request access to gated preview, reach out to the Azure Cosmos DB Synapse Link team: *cosmosdbsynapselink@microsoft.com*  
 
 <br>
 
@@ -42,7 +42,7 @@ In the public preview release, Synapse Link is supported only for the azure Cosm
 You can only access and run queries against the analytical store using the various run-times provided by Azure Synapse Analytics. 
 The analytical store can be queried and analyzed using:
 * Synapse Spark with full support for Scala, Python, Spark SQL, and C#. Synapse Spark is central to data engineering and science scenarios 
-* SQL serverless with T-SQL language and support for familiar BI tools (For example, Power BI Premium, etc.)  
+* SQL serverless (currently under gated preview) with T-SQL language and support for familiar BI tools (For example, Power BI Premium, etc.)  
 
 <br>
 
