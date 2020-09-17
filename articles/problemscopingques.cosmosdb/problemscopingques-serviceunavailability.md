@@ -75,14 +75,14 @@
             "order": 5,
             "controlType": "textbox",
             "displayLabel": "Database name",
-            "required": false
+            "required": true
         },
 		{
             "id": "collection_name",
             "order": 6,
             "controlType": "textbox",
             "displayLabel": "Collection name",
-            "required": false
+            "required": true
         },
 		{
             "id": "exception_count",
