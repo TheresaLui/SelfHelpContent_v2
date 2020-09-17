@@ -50,9 +50,12 @@ Learn how to [automatically handle analytical store schemas](https://docs.micros
 ### Missing data (properties) in analytical store
 You can have a maximum of 200 properties at any nesting level in the schema, and a maximum nesting depth of 5. An item with 201 properties at the top level doesn’t satisfy this constraint and hence it will not be represented in the analytical store. An item with more than five nested levels in the schema also doesn’t satisfy this constraint and hence it will not be represented in the analytical store. 
 
-
 <br>
 
+### Missing data (items or records or documents) in analytical store
+All transactional operations are propagated, including deletes. And analytical store ttl (time to live) setting also can cause data removal.
+
+<br>
 
 
 ## **Recommended Documents**  
