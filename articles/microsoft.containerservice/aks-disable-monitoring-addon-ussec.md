@@ -3,7 +3,7 @@
     description="Monitoring addon workspace is deleted"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="cd23e33b-530c-4759-89af-f17e9ebd264b"
+    articleId="cd23e33b-530c-4759-89af-f17e9ebd264b_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="ussec"
     ownershipId="Compute_AzureKubernetesService"
@@ -17,7 +17,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "eedc2853-3369-4ede-8a75-68caf73e24df",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://rxaks.usseceast.kusto.core.microsoft.scloud').database('AKSprod').OmsWorkspaceDeleted",
+    "streamNamespace": "cluster('https://rxaks.ussecwest.kusto.core.microsoft.scloud').database('AKSprod').OmsWorkspaceDeleted",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
