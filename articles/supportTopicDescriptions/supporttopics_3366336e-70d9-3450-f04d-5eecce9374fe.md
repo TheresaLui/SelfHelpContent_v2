@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "a56874a5-5de1-c774-3055-9292d94c0c2c",
+      "longDescription": "",
+      "shortDescription": "Unable to find the Resource Group",
+      "searchTags": "Add, region, Resource Group, scale",
+      "category": "Onboarding",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b42c2812-4541-c4bb-e234-77b07643133e",
       "longDescription": "",
       "shortDescription": "Unable to add a resource to move",
