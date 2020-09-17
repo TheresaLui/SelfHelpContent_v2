@@ -5,7 +5,7 @@
 	service="microsoft.streamanalytics"
 	resource="clusters"
 	authors="sidramadoss"
-	articleId="streamanalytics-createcluster"
+	articleId="streamanalytics-clustergetstarted"
 	diagnosticScenario=""
 	selfHelpType="generic"
 	supportTopicIds="32756392"
