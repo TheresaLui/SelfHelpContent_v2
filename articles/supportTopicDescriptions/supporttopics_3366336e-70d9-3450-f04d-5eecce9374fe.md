@@ -61,6 +61,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "ab4e9e8c-6c77-5b9e-68b0-da926ea0bc7e",
+      "longDescription": "",
+      "shortDescription": "Help modifying resource target configuration settings (Selecting AVSet, Availability Zones, etc)",
+      "searchTags": "Resolve, missing, config, dependencies ",
+      "category": "Validate",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b42c2812-4541-c4bb-e234-77b07643133e",
       "longDescription": "",
       "shortDescription": "Unable to add a resource to move",
