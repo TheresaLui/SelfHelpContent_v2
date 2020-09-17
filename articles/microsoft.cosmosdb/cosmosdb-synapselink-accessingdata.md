@@ -43,7 +43,7 @@ There are two modes of schema representation in the analytical store. These mode
 * Well-defined schema representation (default for Azure Cosmos DB SQL API)
 * Full fidelity schema representation (default for Azure Cosmos DB's API for MongoDB)
 
-Learn how to [automatically handle analytical store schemas](https://docs.microsoft.com/en-us/azure/cosmos-db/analytical-store-introduction#analytical-schema). 
+Learn how to [automatically handle analytical store schemas](https://docs.microsoft.com/azure/cosmos-db/analytical-store-introduction#analytical-schema). 
 
 <br> 
 
@@ -55,9 +55,9 @@ You can have a maximum of 200 properties at any nesting level in the schema, and
 ### Missing data (items or records or documents) in analytical store
 All transactional operations are propagated, including deletes. And analytical store ttl (time to live) setting also can cause data removal.
 
-* If a document is deleted in transactional store, it will also be deleted from analytical store. Despite the ttl confguration of both stores.
+* If a document is deleted in transactional store, it will also be deleted from analytical store. Despite both stores ttl's.
 * If transactional ttl is smaller than analytical ttl, the data is archived from transactional store but kept in analytical store until the configured ttl.
-* If transaction ttl is bigger than analytical ttl, data will be archived from analytical store and kept in transactional store until the configgured ttl limit.
+* If transaction ttl is bigger than analytical ttl, data will be archived from analytical store and kept in transactional store until the configured ttl limit.
 
 <br>
 
