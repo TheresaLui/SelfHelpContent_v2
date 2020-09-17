@@ -113,6 +113,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "287493aa-ea97-b7e2-11dd-1315916ee6fd",
+      "longDescription": "",
+      "shortDescription": "Failing to save a copy of SSIS package to File System, MSDB or Package Store. Failing to deploy SSIS Project or add a package to SSISDB Catalog.",
+      "searchTags": "SSIS package deploy;SSIS package deployment;integration services deploy;integration services package deployment",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "311af6de-1219-6413-c04e-067b5d5a97a6",
       "longDescription": "",
       "shortDescription": "Issues with performance like slow SQL Server, Network, Disk or Virtual Machine",
@@ -217,6 +225,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "622af061-6edb-cae2-702f-87d996825aa5",
+      "longDescription": "",
+      "shortDescription": "Issues with Package Performance - Packages are taking longer time to execute than before or compared to another environment.",
+      "searchTags": "ssis package performance;integration services package performance",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "675b882d-2d62-667b-97de-754af7acafc6",
       "longDescription": "",
       "shortDescription": "Questions on chosing a VM series or a performance tier based on the anticipated characteristics of the workload",
@@ -254,6 +270,14 @@
       "shortDescription": "Issues connecting to the Virtual Machine like RDP, SSH, Firewall or NSG",
       "searchTags": "connect to vm",
       "category": "Connectivity",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "7514973d-ae73-fc18-5dd0-b2a4d655ad3d",
+      "longDescription": "",
+      "shortDescription": "Packages failing with Unexpected Termination. VS-SSDT or DTExec or DTExecUI crashing.",
+      "searchTags": "ssis package failing;DTExecUI;DTExec;Integration Services package",
+      "category": "SSIS",
       "useInDiagnoseAndSolve": "true"
     },
     {
@@ -351,6 +375,14 @@
       "searchTags": "ha;cluster;windows cluster;failover;file share;",
       "category": "Availability",
       "useInDiagnoseAndSolve": "TRUE"
+    },
+    {
+      "id": "ca440ca8-7dd7-01ef-44fb-13f2f87e44b9",
+      "longDescription": "",
+      "shortDescription": "Issues with Starting, Configuring, Monitoring SSIS Packages while using or connecting to SSIS Windows Service",
+      "searchTags": "SSIS windows service;ssis service;Integration services windows service;integration services service",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "cab9930d-ee12-c03d-00c1-82fe54c5ab31",

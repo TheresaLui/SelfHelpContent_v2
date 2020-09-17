@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2c1e2bce-efb9-c70e-a6b4-1795c4fb52c4",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving issues while collecting dumps using azdata utility",
+      "searchTags": "Data Controller;Dump Collection;azdata arc dc",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2cfe0b34-6999-630f-d6c4-92147957898e",
       "longDescription": "",
       "shortDescription": "Select this if you need help managing controller using ADS, AZDATA, KUBECTL & Azure Portal",
@@ -81,6 +89,14 @@
       "longDescription": "",
       "shortDescription": "Select this if you need help with solving controller admin scenarios post successful deployment which are not mentioned",
       "searchTags": "Unknown;Not Listed",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "327efdeb-2c5e-469b-fc3d-712f43710577",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving connectivity issues for controller post successful controller deployment",
+      "searchTags": "Data Controller;EndPoints;Controller Endpoints",
       "category": "Data Controller Administration",
       "useInDiagnoseAndSolve": "true"
     },
@@ -213,6 +229,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a1487cd6-057c-c211-52ed-24886a3e273b",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving issues while collecting logs using azdata utility",
+      "searchTags": "Log Collection;azdata arc dc debug;Data Controller",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "acfe2bd8-0950-7a14-1f1b-202562873071",
       "longDescription": "",
       "shortDescription": "Select this if you have issues or need guidance on data services usage file export from Kubernetes cluster",
@@ -245,11 +269,27 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d24aad30-7f4c-2a2b-f8fc-72879e1cc816",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving issues while updating monitoring pods configuration post successful controller deployment",
+      "searchTags": "Monitoring;Configuration",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d7c18803-5f7e-e4d2-b487-6c9955d98e5b",
       "longDescription": "",
       "shortDescription": "Select this if you have issues authenticating into the data controller",
       "searchTags": "Data Controller;Authentication",
       "category": "Data Controller Security",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
+      "id": "d9132cc5-b5c3-fadd-3519-07a0e644ede3",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving issues while updating controller pods configuration post successful controller deployment",
+      "searchTags": "Data Controller;Configuration",
+      "category": "Data Controller Administration",
       "useInDiagnoseAndSolve": "true"
     },
     {
