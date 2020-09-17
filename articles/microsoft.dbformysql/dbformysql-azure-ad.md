@@ -16,8 +16,8 @@
 />
 
 # Configure or use Azure Active Directory authentication
-[!Note]
-**These steps apply when using Active directory with Azure Database for MySQL -Single Server. Flexible Server (Preview) currently does not support Active directory.**
+**Note:**<br/>
+**These steps apply when using Active directory with Azure Database for MySQL - Single Server. Flexible Server (Preview) currently does not support Active directory.**
 
 Most users are able to resolve issues with connecting with Azure Active Directory using the steps below:
 
