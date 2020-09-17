@@ -457,6 +457,14 @@
       "useInDiagnoseAndSolve": "TRUE"
     },
     {
+      "id": "d1514669-4455-80ef-5c77-ee22227ac7ff",
+      "longDescription": "",
+      "shortDescription": "Issues while executing a package through Visual Studio SSDT, SSISDB Catalog, SQL Server Agent, DTExec.exe or DTExecUI.exe",
+      "searchTags": "ssis package execution;integration services package execution",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "d1eb0294-716b-81f8-4328-736e2b20c6c3",
       "longDescription": "",
       "shortDescription": "Questions or issues related to slow report or Reporting Services performance",
