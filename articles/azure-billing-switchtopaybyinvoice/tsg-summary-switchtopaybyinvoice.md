@@ -1,5 +1,5 @@
-<properties pageTitle="Switch to pay by invoice"
-            description="Switch to pay by invoice"
+<properties pageTitle="switch to pay by invoice"
+            description="switch to pay by invoice"
             service="Microsoft.Billing"
             resource="Microsoft.Billing/invoices"
             authors="chadmath"
