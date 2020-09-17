@@ -29,6 +29,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "2121bb2b-15ab-0997-4d84-c725b3984136",
+      "longDescription": "",
+      "shortDescription": "Help to select and add dependent resources from the target region. ",
+      "searchTags": "Resolve, missing, config, dependencies",
+      "category": "Validate",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6f47f7d2-87e3-e6db-03ac-1ed7eabcbf18",
       "longDescription": "",
       "shortDescription": "Help with region selection",
