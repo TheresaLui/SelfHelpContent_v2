@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b49fd2bf-0899-e2f4-305e-e824e1545ff8",
+      "longDescription": "",
+      "shortDescription": "Unable to add the resource type",
+      "searchTags": "Add, region, SKU, attributes, scale",
+      "category": "Onboarding",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "daec2aa5-0c4c-ff4a-2535-6d8daa2acbaf",
       "longDescription": "",
       "shortDescription": "Help with selecting attributes for my resource (VMs with ADE feature)",
