@@ -10,7 +10,7 @@
 	articleId="other_portals_business_central_development"
 	diagnosticScenario=""
 	selfHelpType="generic"
-	supportTopicIds="32748847;32748848;32748849;32748850;32748851;32748852"
+	supportTopicIds="32748847,32748848,32748849,32748850,32748851,32748852"
 	clientIds='partnercenter'
 	resourceTags="other"
 	productPesIds="17113"
