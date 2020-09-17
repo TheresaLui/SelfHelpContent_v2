@@ -19,17 +19,13 @@ ownershipId="CloudNet_AzureVPNGateway"
 # Service Endpoint Policies detected on GatewaySubnet
 
 <!--issueDescription-->
-Microsoft detected Service Endpoint Policies applied to the Gateway Subnet.
-
-When a Service Endpoint Policy is configured on the GatewaySubnet, it will cause availability issues for the Virtual Network Gateway Resource and potentially VPN service disruption.
-It is not supported to place a Service Endpoint Policy on the GatewaySubnet.
+Microsoft detected Service Endpoint Policies applied to the Gateway Subnet. When a Service Endpoint Policy is configured on the GatewaySubnet, it will cause availability issues for the Virtual Network Gateway Resource and potentially VPN service disruption. It is not supported to place a Service Endpoint Policy on the GatewaySubnet.
 <!--/issueDescription-->
-
-----
-### References
-[Virtual network service endpoint policies for Azure Storage](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoint-policies-overview#limitations)
-
 
 ## **Recommended Steps**
 
 Please disassociate the Service Endpoint Policies from the Gateway Subnet to restore VPN Gateway functionality.
+
+## **Recommended Documents**
+
+* [Virtual network service endpoint policies for Azure Storage](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoint-policies-overview#limitations)
