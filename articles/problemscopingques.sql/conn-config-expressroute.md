@@ -17,7 +17,7 @@
 {
     "$schema": "SelfHelpContent",
     "subscriptionRequired": false,
-    "resourceRequired": false,	
+    "resourceRequired": false,
     "title": "SQL Database",
     "fileAttachmentHint": "",
     "formElements": [
