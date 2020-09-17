@@ -1,25 +1,22 @@
 <properties
-	pageTitle="V2 - Authoring and Development - Cannot Publish"
-	description="V2  - Authoring and Development - Cannot Publish"
-	service=""
-	resource=""
-	authors="hecepeda"
-	ms.author="hecepeda"
-	displayOrder=""
-	selfHelpType="generic"
-    supportTopicIds="32629446"
-	resourceTags=""
-	productPesIds="15613"
-	cloudEnvironments="public, Fairfax, usnat, ussec"
-	articleId="datafactory-v2-authoring-development-issues-cannot-publish.md"
-	ownershipId="AzureData_DataFactory"
-/>
-
+  pagetitle="V2 Data Factory - Cannot Publish Changes"
+  service=""
+  resource=""
+  ms.author="hecepeda,vimals"
+  selfhelptype="Generic"
+  supporttopicids="32629446"
+  resourcetags=""
+  productpesids="15613"
+  cloudenvironments="public,fairfax,usnat,ussec"
+  articleid="datafactory-v2-authoring-development-issues-cannot-publish.md"
+  ownershipid="AzureData_DataFactory" />
 # V2 Data Factory - Cannot Publish Changes
 
 ## **Recommended Steps**
 
-* Ensure [roles and permissions are set up properly](https://docs.microsoft.com/azure/data-factory/concepts-roles-permissions)
+* To publish changes to the Data Factory or to create and manage child resources in the Azure portal you must belong to the **Data Factory Contributor** role at the **Resource Group** level or above. Refer this article for more details: [Roles and requirements](https://docs.microsoft.com/azure/data-factory/concepts-roles-permissions#roles-and-requirements)
+
+* Refer this article to check [Roles and Permissions](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)
 
 ### __Common Errors__
 

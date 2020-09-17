@@ -19,13 +19,41 @@
 
 ## **Recommended Steps**
 
-* Not able to connect to Azure SQL DW using managed identity and ADLS from Databricks getting error similar to: 
-    ```
-    com.databricks.spark.sqldw.SqlDWSideException: SQL DW failed to execute the JDBC query produced by the connector.
-    com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user ‘xxx’. ClientConnectionId: xxx [ErrorCode = 18456] [SQLState = S0001]
-    ```
-  Issue is most likely due to managed identity misconfiguration on Azure SQL DW. To resolve it, please go through these [steps 1 and 3](https://docs.microsoft.com/azure/azure-sql/database/vnet-service-endpoint-rule-overview#steps).
+* **Problem:**
 
+  Not able to connect to Azure SQL DW using managed identity and ADLS from Databricks getting error similar to: 
+  
+  ```
+  com.databricks.spark.sqldw.SqlDWSideException: SQL DW failed to execute the JDBC query produced by the connector.
+  com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user ‘xxx’. ClientConnectionId: xxx [ErrorCode = 18456] [SQLState = S0001]
+  ```
+  **Cause:**
+  
+  Issue is most likely due to managed identity misconfiguration on Azure SQL DW. 
+  
+  **Solution:**
+  
+  Please go through these [steps 1 and 3](https://docs.microsoft.com/azure/azure-sql/database/vnet-service-endpoint-rule-overview#steps).
+
+* **Problem:**
+  
+  Getting the following error when using Databricks cluster with credential passthrough enabled to access SQL datawarehouse via ODBC:
+  
+  ```
+  OperationalError: ('HYT00', '[HYT00] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0) (SQLDriverConnect)')".
+  ```
+  
+  **Cause:**
+  
+  The pyodbc connection fails because when credential passthrough is enabled on a cluster, outbound network traffic from python processes is blocked by design. And SQL database needs some ports to be open as mentioned in [Ports - ADO.NET](https://docs.microsoft.com/azure/azure-sql/database/adonet-v12-develop-direct-route-ports#inside-client-runs-on-azure).
+  
+  **Solution:**
+  
+  Whitelist the required ports by setting Spark configuration in cluster making sure to open ports of 1433 and between 11000 and 11999.
+  
+  ```
+  spark.databricks.pyspark.iptable.outbound.whitelisted.ports 1433,11000:11999
+  ```
 
 ## **Recommended Documents**
 
