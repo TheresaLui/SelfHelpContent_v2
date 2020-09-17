@@ -1,5 +1,5 @@
 <properties
-	articleId="b9c9c342-d532-4ad3-a31b-2d50e929f4b8"
+	articleId="757e20d7-b058-4b34-906f-e7d2ed19eed3"
 	pageTitle="Scoping slow reads and writes"
 	description="Slow reads and writes scoping"
 	authors="Archana-MSFT"

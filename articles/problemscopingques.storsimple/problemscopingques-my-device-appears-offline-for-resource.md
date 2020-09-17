@@ -1,5 +1,5 @@
 <properties
-	articleId="75ad0b3e-9e52-4741-8f51-990cd5049a21"
+	articleId="a6f193ca-50c7-41a3-85af-f55b3e727659"
 	pageTitle="Scoping my device appears offline"
 	description="My device appears offline Scoping"
 	authors="Archana-MSFT"

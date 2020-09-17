@@ -1,5 +1,5 @@
 <properties
-	articleId="e80908cd-012e-42c5-ab94-715a157b3ffa"
+	articleId="1c883315-f11d-475b-8f8d-a21ba09a5c38"
 	pageTitle="Scoping device not sending heartbeat"
 	description="Device not sending heartbeat Scoping"
 	authors="Archana-MSFT"
