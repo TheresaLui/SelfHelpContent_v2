@@ -22,10 +22,9 @@
 
 Are you facing one of these common problems?
 
-* Service endpoints are getting created automatically
+* Unsure why service endpoints are getting created automatically while running YAML pipelines.
 
-    The service endpoints are created automatically because of AAD subscription auth in pipelines.
-    [Refer this document for more information](https://docs.microsoft.com/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml)
+    The service endpoints are created automatically because of AAD subscription auth specified in the pipelines. AAD auth in Pipelines is used for creating ARM service connection or AKS service connection.[Refer this document for more information](https://docs.microsoft.com/azure/devops/pipelines/library/connect-to-azure?view=azure-devops#create-an-azure-resource-manager-service-connection-using-automated-security)
 
 * Unable to delete the service connections.
 	
