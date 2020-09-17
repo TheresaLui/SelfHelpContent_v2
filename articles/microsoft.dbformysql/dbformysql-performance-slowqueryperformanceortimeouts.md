@@ -19,8 +19,8 @@
 
 Query performance issues can have many different root causes. Work through the recommended steps to solve for the most common causes for performance issues.
 
-> [!NOTE]
-> This functionality is currently only supported in Azure Database for MySQL Single server 
+[!Note]
+**This functionality is currently only supported in Azure Database for MySQL Single server**
 
 ## **Recommended Steps**
 

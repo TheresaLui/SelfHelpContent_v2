@@ -19,8 +19,8 @@
 
 Azure Database for MySQL lets you provision MySQL servers in a manner that in case of the failure of the availability zone in which database server is running, we simply failover to the secondary server running in a different zone within the same region. All this happens without any manual intervention. This process of failure detection, DNS switching and the failover to the secondary servers is typically done between 60 - 120 seconds. This setup of running the server gives the 99.99% SLA. One critical thing to note is that the zone redundant high availability runs 2 similar server and therefore is twice the price of the primary server.
 
-> [!NOTE]
-> This functionality is only supported in Azure Database for MySQL Flexible Servers. 
+[!Note]
+**This functionality is only supported in Azure Database for MySQL Flexible Servers.**
 
 ## **Recommended Steps**
 

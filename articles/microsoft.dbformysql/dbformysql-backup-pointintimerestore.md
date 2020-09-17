@@ -21,9 +21,8 @@ Azure Database for MySQL supports point-in-time restore to any point within the 
 
 The default retention period is 7 days and can be increased to 35 days. The backups required to support this functionality are taken automatically and users do not have access to the backups. Because transaction log backups are taken every 5 minutes, you may need to wait 5 minutes before you're able to restore to a specific point-in-time within a 5 minute interval.
 
-> [!NOTE]
-> For Azure Database for MySQL Flexible servers, you can reduce the backup period to minimum 1 day. 
-
+[!Note]
+**For Azure Database for MySQL Flexible servers, you can reduce the backup period to minimum 1 day.**
 
 ## **Recommended Steps**
 
