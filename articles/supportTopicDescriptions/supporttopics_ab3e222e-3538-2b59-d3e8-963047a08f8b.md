@@ -93,6 +93,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "327efdeb-2c5e-469b-fc3d-712f43710577",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving connectivity issues for controller post successful controller deployment",
+      "searchTags": "Data Controller;EndPoints;Controller Endpoints",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "38347f23-04d8-5269-f81e-22b7cb5b2048",
       "longDescription": "",
       "shortDescription": "Select this if you have questions or need guidance for deploying data controller",
