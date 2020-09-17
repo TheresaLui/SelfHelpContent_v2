@@ -57,16 +57,7 @@
 			"order": 4,
 			"controlType": "multilinetextbox",
 			"displayLabel": "What methodology are you using to migrate data into Arc?",
-			"required": true,
-			"useAsAdditionalDetails": true,
-			"hints": [{
-					"text": "Backup/restore: specify the tool"
-				}, {
-					"text": "Replication: specify type of replication"
-				}, {
-					"text": "Other"
-				}
-			]
+			"required": false
 		}, {
 			"id": "problem_description",
             "order": 5,
