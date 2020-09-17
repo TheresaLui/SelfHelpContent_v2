@@ -181,6 +181,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "6207c90b-641b-eb66-422c-8ff1025774f8",
+      "longDescription": "",
+      "shortDescription": "Select this if you have questions or need guidance for deleting data controller",
+      "searchTags": "Data Controller;Delete;uninstall;removal;Queries",
+      "category": "Data Controller Delete",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "65fbd870-5558-715d-2a92-9ba97c645241",
       "longDescription": "",
       "shortDescription": "Select this if you have issues or need guidance on exporting data services logs.",
