@@ -29,4 +29,4 @@ A: Reconnect your network and establish a new VPN session.
 
 ## **Recommended Documents**
 
-- https://dev.azure.com/mcvp-prod/Partner%20Kits/_git/mcvp-pkit?path=%2Farticles%2Fpk%2Fhow-to-guides%2Fgeneral-audience-how-to-deploy-extensions.md&version=GBrelease%2Fvnext%2Fmcvp.2.10.800&_a=preview
+- [How to Deploy Custom Extensions](https://dev.azure.com/mcvp-prod/Partner%20Kits/_git/mcvp-pkit?path=%2Farticles%2Fpk%2Fhow-to-guides%2Fgeneral-audience-how-to-deploy-extensions.md)

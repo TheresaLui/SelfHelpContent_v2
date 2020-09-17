@@ -32,8 +32,8 @@ A: There are two possible causes:
     - Log into your subscription using the script 'Connect-AzAccount'
 
 2. The user has two formats of the same account, e.g. first.last@company.com and firstlast@company.com
-    - Contact Connected Vehicle Platform team to update account registration in Active Directory needs to be changed.
+    - Contact Connected Vehicle Platform team to update account registration in Active Directory needs to be changed
 
 ## **Recommended Documents**
 
-- https://dev.azure.com/mcvp-prod/Partner%20Kits/_git/mcvp-pkit?path=%2Farticles%2Fpk%2Ftutorials%2Fgeneral-audience-deployPartnerKits.md&version=GBrelease%2Fvnext%2Fmcvp.2.10.800&_a=preview
+- [Tutorial 2: Deploy the Connected Vehicle Platform](https://dev.azure.com/mcvp-prod/Partner%20Kits/_git/mcvp-pkit?path=%2Farticles%2Fpk%2Ftutorials%2Fgeneral-audience-deployPartnerKits.md)

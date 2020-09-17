@@ -32,5 +32,6 @@ A: There are a number of reasons this error may occur—the most common are the 
 
 ## **Recommended Documents**
 
-- https://dev.azure.com/mcvp-prod/Connected%20Vehicle%20Platform/_git/mcvp-prod?path=%2Farticles%2Fpk%2Ftutorials%2Fgeneral-audience-command-tutorial.md&version=GBrelease%2Fvnext%2Fmcvp.2.3.700-pre.100&createIfNew=true
-- https://dev.azure.com/mcvp-prod/Partner%20Kits/_git/mcvp-pkit?path=%2Farticles%2Fpk%2Fhow-to-guides%2Fgeneral-audience-how-to-deploy-extensions.md&version=GBrelease%2Fvnext%2Fmcvp.2.10.800&_a=preview
+- [Tutorial: Send, Receive, and Respond to a Command](https://dev.azure.com/mcvp-prod/Connected%20Vehicle%20Platform/_git/mcvp-prod?path=%2Farticles%2Fpk%2Ftutorials%2Fgeneral-audience-command-tutorial.md)
+- [How to Deploy Custom Extensions](https://dev.azure.com/mcvp-prod/Partner%20Kits/_git/mcvp-pkit?path=%2Farticles%2Fpk%2Fhow-to-guides%2Fgeneral-audience-how-to-deploy-extensions.md)
+- [Tutorial: Deploy the Sample Claims Application and Create Claims](https://dev.azure.com/mcvp-prod/Partner%20Kits/_git/mcvp-pkit?path=%2Farticles%2Fpk%2Ftutorials%2Fgeneral-audience-create-a-claim-tutorial.md)
