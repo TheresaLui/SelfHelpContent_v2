@@ -53,6 +53,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "b42c2812-4541-c4bb-e234-77b07643133e",
+      "longDescription": "",
+      "shortDescription": "Unable to add a resource to move",
+      "searchTags": "Add, region, SKU, attributes, scale",
+      "category": "Onboarding",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "b49fd2bf-0899-e2f4-305e-e824e1545ff8",
       "longDescription": "",
       "shortDescription": "Unable to add the resource type",
