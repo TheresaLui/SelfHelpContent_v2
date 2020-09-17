@@ -77,6 +77,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d2b4cdf4-3abc-ae0b-35a6-f92a46a3817a",
+      "longDescription": "",
+      "shortDescription": "Issues faced while validating, adding dependent resources, and editing target config settings",
+      "searchTags": "resolve, missing, config, dependencies",
+      "category": "Validate",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "daec2aa5-0c4c-ff4a-2535-6d8daa2acbaf",
       "longDescription": "",
       "shortDescription": "Help with selecting attributes for my resource (VMs with ADE feature)",
