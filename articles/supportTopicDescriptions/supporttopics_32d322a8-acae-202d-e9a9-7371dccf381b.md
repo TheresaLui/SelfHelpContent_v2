@@ -264,8 +264,8 @@
     {
       "id": "3a398ea2-670c-bd78-728c-2dc887cbed5b",
       "longDescription": "",
-      "shortDescription": "Monitoring and managing storage and physical memory capacity",
-      "searchTags": "Capacity;Storage;Memory",
+      "shortDescription": "Monitoring and managing storage, physical memory capacity, and virtual CPU cores",
+      "searchTags": "Capacity;Storage;Memory;CPU",
       "category": "Capacity",
       "useInDiagnoseAndSolve": "false"
     },
@@ -684,6 +684,14 @@
       "searchTags": "User;Storage",
       "category": "Storage",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "a8e993db-fddd-5cc1-cdca-f05e3371feb5",
+      "longDescription": "",
+      "shortDescription": "Security profile of Azure Stack Hub infrastructure network, including DDoS and ACLs",
+      "searchTags": "DDoS;DoS;ACL",
+      "category": "Security",
+      "useInDiagnoseAndSolve": "true"
     },
     {
       "id": "acba8e31-02de-0bba-f6a9-84f61342f338",
