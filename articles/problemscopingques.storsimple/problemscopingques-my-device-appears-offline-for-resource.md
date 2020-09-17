@@ -1,22 +1,22 @@
 <properties
-	articleId="e80908cd-012e-42c5-ab94-715a157b3ffa"
-	pageTitle="Scoping device not sending heartbeat"
-	description="Device not sending heartbeat Scoping"
+	articleId="75ad0b3e-9e52-4741-8f51-990cd5049a21"
+	pageTitle="Scoping my device appears offline"
+	description="My device appears offline Scoping"
 	authors="Archana-MSFT"
 	ms.author="armukk"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630498"
+	supportTopicIds="32630504"
 	productPesIds="15438"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
-# Device not sending heartbeat
+# My Device appears offline on the portal
 ---
 {
     "subscriptionrequired": true,
     "resourceRequired": true,
-    "title": "Device not sending heartbeat",
+    "title": "My device appears offline",
     "fileAttachmentHint": "",
     "formElements": [
         {

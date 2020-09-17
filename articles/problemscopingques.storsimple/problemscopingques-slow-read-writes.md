@@ -14,33 +14,14 @@
 # Slow reads and writes
 ---
 {
-    "resourceRequired": false,
-    "subscriptionRequired": false,
+    "resourceRequired": true,
+    "subscriptionRequired": true,
     "title": "Slow reads and writes",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "storsimple_devices",
-            "order": 1,
-            "controlType": "multiselectdropdown",
-            "displayLabel": "Device name",
-            "watermarkText": "Choose an option",
-            "required": false,
-            "dynamicDropdownOptions": {
-                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourceName}/devices?&api-version=2017-06-01",
-                "jTokenPath": "value",
-                "textProperty": "name",
-                "valueProperty": "name",
-                "valuePropertyRegex": "^+$",
-                    "defaultDropdownOptions": {
-                        "value": "dont_know_answer",
-                        "text": "Not applicable/No devices available"
-                    }
-            }
-        },
-        {
             "id": "volume_type",
-            "order": 2,
+            "order": 1,
             "controlType": "dropdown",
             "displayLabel": "What type of volumes are observing slowness",
             "watermarkText": "Choose an option",
@@ -58,7 +39,7 @@
         },
         {
             "id": "cloud_bandwidth",
-            "order": 3,
+            "order": 2,
             "controlType": "textbox",
             "displayLabel": "Specify the cloud bandwidth available to StorSimple",
             "watermarkText": "Cloud bandwidth in Mbps",
@@ -66,7 +47,7 @@
         },
         {
             "id": "dedicated_or_shared",
-            "order": 4,
+            "order": 3,
             "controlType": "dropdown",
             "displayLabel": "Is the cloud bandwidth dedicated or shared?",
             "watermarkText": "Choose an option",
@@ -84,7 +65,7 @@
         },
         {
             "id": "mpio",
-            "order": 5,
+            "order": 4,
             "controlType": "dropdown",
             "displayLabel": "Is MPIO configured on the servers where the volume is hosted?",
             "watermarkText": "Choose an option",
@@ -102,7 +83,7 @@
         },
         {
             "id": "antivirus",
-            "order": 6,
+            "order": 5,
             "controlType": "dropdown",
             "displayLabel": "If antivirus is configured on the file server, what kind of scanning is performed?",
             "watermarkText": "Choose an option",
@@ -120,14 +101,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 7,
+            "order": 6,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 8,
+            "order": 7,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",

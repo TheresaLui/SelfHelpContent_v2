@@ -1,22 +1,22 @@
 <properties
-	articleId="61c3a139-cfbb-478d-8798-44e59d2ab0cc"
-	pageTitle="Scoping for disk drive failure"
-	description="Disk drive failure scoping"
+	articleId="b9c9c342-d532-4ad3-a31b-2d50e929f4b8"
+	pageTitle="Scoping slow reads and writes"
+	description="Slow reads and writes scoping"
 	authors="Archana-MSFT"
 	ms.author="armukk"
 	selfHelpType="problemScopingQuestions"
-	supportTopicIds="32630499"
+	supportTopicIds="32630506"
 	productPesIds="15438"
 	cloudEnvironments="public, fairfax, usnat, ussec"
 	schemaVersion="1"
 	ownershipId="StorageMediaEdge_AzureStorSimpleSeries"
 />
-# Disk drive failure
+# Slow reads and writes
 ---
 {
     "resourceRequired": true,
     "subscriptionRequired": true,
-    "title": "Slow virtual machine",
+    "title": "Slow reads and writes",
     "fileAttachmentHint": "",
     "formElements": [
         {
@@ -39,114 +39,108 @@
             }
         },
         {
-            "id": "disk_type",
+            "id": "volume_type",
             "order": 2,
             "controlType": "dropdown",
-            "displayLabel": "Select the type for the failed disk",
+            "displayLabel": "What type of volumes are observing slowness",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "HDD",
-                    "text": "HDD"
+                    "value": "Tiered volumes",
+                    "text": "Tiered volumes"
                 },
                 {
-                    "value": "SSD",
-                    "text": "SSD"
+                    "value": "Locally pinned volumes",
+                    "text": "Locally pinned volumes"
                 }
             ],
             "required": false
         },
         {
-            "id": "slot_number",
+            "id": "cloud_bandwidth",
             "order": 3,
-            "controlType": "dropdown",
-            "displayLabel": "Select the slot that holds the failed disk",
-            "watermarkText": "Choose an option",
-            "dropdownOptions": [
-                {
-                    "value": "Slot 0",
-                    "text": "Slot 0"
-                },
-                {
-                    "value": "Slot 1",
-                    "text": "Slot 1"
-                },
-                {
-                    "value": "Slot 2",
-                    "text": "Slot 2"
-                },
-                {
-                    "value": "Slot 3",
-                    "text": "Slot 3"
-                },
-                {
-                    "value": "Slot 4",
-                    "text": "Slot 4"
-                },
-                {
-                    "value": "Slot 5",
-                    "text": "Slot 5"
-                },
-                {
-                    "value": "Slot 6",
-                    "text": "Slot 6"
-                },
-                {
-                    "value": "Slot 7",
-                    "text": "Slot 7"
-                },
-                {
-                    "value": "Slot 8",
-                    "text": "Slot 8"
-                },
-                {
-                    "value": "Slot 9",
-                    "text": "Slot 9"
-                },
-                {
-                    "value": "Slot 10",
-                    "text": "Slot 10"
-                },
-                {
-                    "value": "Slot 11",
-                    "text": "Slot 11"
-                }
-            ],
+            "controlType": "textbox",
+            "displayLabel": "Specify the cloud bandwidth available to StorSimple",
+            "watermarkText": "Cloud bandwidth in Mbps",
             "required": false
         },
         {
-            "id": "unit_type",
+            "id": "dedicated_or_shared",
             "order": 4,
             "controlType": "dropdown",
-            "displayLabel": "Select the unit that holds the failed disk",
+            "displayLabel": "Is the cloud bandwidth dedicated or shared?",
             "watermarkText": "Choose an option",
             "dropdownOptions": [
                 {
-                    "value": "Head Unit",
-                    "text": "Head Unit"
+                    "value": "Dedicated",
+                    "text": "Dedicated"
                 },
                 {
-                    "value": "EBOD",
-                    "text": "EBOD"
+                    "value": "Shared",
+                    "text": "Shared"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "mpio",
+            "order": 5,
+            "controlType": "dropdown",
+            "displayLabel": "Is MPIO configured on the servers where the volume is hosted?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Yes",
+                    "text": "Yes"
+                },
+                {
+                    "value": "No",
+                    "text": "No"
+                }
+            ],
+            "required": false
+        },
+        {
+            "id": "antivirus",
+            "order": 6,
+            "controlType": "dropdown",
+            "displayLabel": "If antivirus is configured on the file server, what kind of scanning is performed?",
+            "watermarkText": "Choose an option",
+            "dropdownOptions": [
+                {
+                    "value": "Full scan",
+                    "text": "Full scan"
+                },
+                {
+                    "value": "Scan on open and close",
+                    "text": "Scan on open and close"
                 }
             ],
             "required": false
         },
         {
             "id": "problem_start_time",
-            "order": 5,
+            "order": 7,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 6,
+            "order": 8,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",
             "required": true,
-            "useAsAdditionalDetails": true
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Include output."
+                },
+                {
+                    "text": "Run `invoke-hcsdiagnostics -scope network` and provide output below to assist in troubleshooting the issue."
+                }
+            ]
         }
     ],
     "$schema": "SelfHelpContent"
