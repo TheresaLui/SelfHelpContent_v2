@@ -17,7 +17,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "462b5f77-4a65-4287-885b-01a0f471743f",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://rxaks.usseceast.kusto.core.microsoft.scloud').database('AKSprod').UnsupportedKubernetesVersions",
+    "streamNamespace": "cluster('https://rxaks.ussecwest.kusto.core.microsoft.scloud').database('AKSprod').UnsupportedKubernetesVersions",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
