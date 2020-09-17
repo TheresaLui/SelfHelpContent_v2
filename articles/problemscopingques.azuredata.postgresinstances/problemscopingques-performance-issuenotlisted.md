@@ -7,7 +7,7 @@
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="f14753f5-bbaf-431a-8875-c34d39e8a5a0"
+	articleId="53c2ddca-f1c5-4ff7-8535-d84e51830dd5"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 />
 # Slow Performance - My issue is not listed
@@ -84,7 +84,7 @@
 					"text": "I’m not sure/don’t know"
 				}
 			],
-			"required": true
+			"required": false
 		}, {
 			"id": "what_changed",
 			"order": 6,

@@ -119,7 +119,7 @@
 			],
 			"required": false
 		}, {
-			"id": "add_workload",
+			"id": "client_location",
 			"order": 7,
 			"controlType": "dropdown",
 			"displayLabel": "Where is your client located relative to your database server?",

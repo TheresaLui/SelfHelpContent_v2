@@ -7,7 +7,7 @@
 	productPesIds="17124"
 	cloudEnvironments="Public"
 	schemaVersion="1"
-	articleId="f14753f5-bbaf-431a-8875-c34d39e8a5a0"
+	articleId="59d0b65d-6d81-4ec7-a8c3-c1de8e195c9b"
 	ownershipId="AzureData_Azure_Arc_enabled_PostgreSQL_Hyperscale"
 />
 # High Login Latency
@@ -141,7 +141,7 @@
             "required": false
 		}, {
 			"id": "problem_description",
-            "order": 6,
+            "order": 9,
             "controlType": "multilinetextbox",
             "displayLabel": "Issue Description",
 			"watermarkText": "Provide additional information about your issue.",
