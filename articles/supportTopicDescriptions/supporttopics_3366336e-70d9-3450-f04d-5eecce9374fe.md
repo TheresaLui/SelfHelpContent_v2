@@ -37,6 +37,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "30c72ed2-2e27-1bed-1ed9-edf45c676023",
+      "longDescription": "",
+      "shortDescription": "Issues faced while preparing resources to move to the target region",
+      "searchTags": "Prepare, quota, stuck, committed ",
+      "category": "Validate",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "6f47f7d2-87e3-e6db-03ac-1ed7eabcbf18",
       "longDescription": "",
       "shortDescription": "Help with region selection",
