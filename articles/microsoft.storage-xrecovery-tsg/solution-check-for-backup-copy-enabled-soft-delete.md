@@ -17,7 +17,7 @@
 
 # How to check for backup or copy if customer has enabled Soft Delete for Blobs feature
 
-1. Check if customer has enabled Soft Delete for Blobs feature "learn more"(https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-soft-delete)NOTE The soft delete feature state can also be checked in Azure Support Center. <br>
+1. Check if customer has enabled Soft Delete for Blobs feature [learn more](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete)NOTE The soft delete feature state can also be checked in Azure Support Center. <br>
 2. Navigate to the storage account in Resource Explorer. <br>
 3. Look for value for Soft Delete Retention Enabled in the configuration section.<br>
 4. If the feture is enabled and we have a specific blob that needs to be recovered, navigate to the storage account in Azure Support Center Resource Explorer and search for the specific blob from the Blobs tab. <br>

@@ -23,5 +23,4 @@ To recover an Application Gateway from failed state, try one of the following re
 ## **Recommended Steps**
 
 * Using Azure PowerShell try executing the [Get Application Gateway](https://docs.microsoft.com/powershell/module/az.network/get-azapplicationgateway?view=azps-1.7.0) and a [Set Application Gateway](https://docs.microsoft.com/powershell/module/az.network/set-azapplicationgateway?view=azps-1.7.0) commands in sequence and check if it recovers from the Failed state
-* Otherwise, try [Stopping](https://docs.microsoft.com/powershell/module/azurerm.network/stop-azurermapplicationgateway?view=azurermps-6.13.0) and [Starting](https://docs.microsoft.com/powershell/module/azurerm.network/start-azurermapplicationgateway?view=azurermps-6.13.0) Application Gateway to verify if it recovers from the Failed state (**Note:** If it is a V1 SKU gateway, since the IP address is dynamic, you will lose the existing public IP and a new one will be assigned post restart)
 * If it doesn't recover from the Failed state, proceed with the support ticket
