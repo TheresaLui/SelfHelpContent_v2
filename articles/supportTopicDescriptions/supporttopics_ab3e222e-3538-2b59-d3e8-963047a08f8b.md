@@ -69,6 +69,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "2c1e2bce-efb9-c70e-a6b4-1795c4fb52c4",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving issues while collecting dumps using azdata utility",
+      "searchTags": "Data Controller;Dump Collection;azdata arc dc",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "2cfe0b34-6999-630f-d6c4-92147957898e",
       "longDescription": "",
       "shortDescription": "Select this if you need help managing controller using ADS, AZDATA, KUBECTL & Azure Portal",
