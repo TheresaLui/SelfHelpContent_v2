@@ -101,6 +101,14 @@
       "useInDiagnoseAndSolve": "false"
     },
     {
+      "id": "d30b62a3-cdda-0d2a-1dd3-9d7e8aecc61c",
+      "longDescription": "",
+      "shortDescription": "Help to select and add dependent resource from the source region ",
+      "searchTags": "Resolve, missing, config, dependencies ",
+      "category": "Validate",
+      "useInDiagnoseAndSolve": "false"
+    },
+    {
       "id": "daec2aa5-0c4c-ff4a-2535-6d8daa2acbaf",
       "longDescription": "",
       "shortDescription": "Help with selecting attributes for my resource (VMs with ADE feature)",
