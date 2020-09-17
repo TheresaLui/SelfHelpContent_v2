@@ -31,9 +31,11 @@ Ensure Synapse Link is enabled for the Azure Cosmos DB account by
 
 - If Status is off, you will need to enable Synapse Link for the account. You can do so directly from the Features pane in the portal or by using Azure Cosmos DB SDKs. See instruction here
 
-**2.** Ensure Azure Cosmos DB account is SQL API. In public preview Synapse Link is only supported for SQL API. Support for Mongo API & Cassandra API are in gated preview. To request access email *cosmosdbsynapselink@microsoft.com*.  
+**2.** Ensure Azure Cosmos DB account is SQL API or Mongo DB API. Analytical store for Cassandra API is in gated preview. To request access, please email *cosmosdbsynapselink@microsoft.com*.  
 
 **3.** Currently there is no support to enable analytical store on existing containers. You should now be able to create a new container and enable analytical store during container creation time.
+
+**4.** Currently there is no support to enable analytical store on Azure Cosmos DB SQL Serverless accounts.
 
 <br>
 
