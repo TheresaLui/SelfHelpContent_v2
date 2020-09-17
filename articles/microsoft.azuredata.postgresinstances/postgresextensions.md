@@ -18,7 +18,8 @@
 * If your request is about an extension that is not offered today, submit feedback [here](https://feedback.azure.com/forums/925690-azure-arc)
 * If you request is about you are not able to enable/preload an extension, submit a request for assistance
 * If you are not able to create an extension Try to enable the extension and retry creating the extension
-* If you are unable to use an extension, read the documentation about that extension
+* If you are unable to use an extension, read the documentation about that extension:
+
     * [Extensions in contrib](https://www.postgresql.org/docs/12/contrib.html)
     * [PostGIS](https://postgis.net/)
     * [pg_cron](https://github.com/citusdata/pg_cron)
