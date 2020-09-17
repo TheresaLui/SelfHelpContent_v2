@@ -221,6 +221,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "a1487cd6-057c-c211-52ed-24886a3e273b",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving issues while collecting logs using azdata utility",
+      "searchTags": "Log Collection;azdata arc dc debug;Data Controller",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "acfe2bd8-0950-7a14-1f1b-202562873071",
       "longDescription": "",
       "shortDescription": "Select this if you have issues or need guidance on data services usage file export from Kubernetes cluster",
