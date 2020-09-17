@@ -25,29 +25,8 @@ schemaVersion="1"
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "problem_start_time",
-            "order": 1,
-            "controlType": "datetimepicker",
-            "displayLabel": "When did the problem begin?",
-            "required": true
-        },
-        {
-            "id": "problem_description",
-            "order": 2,
-            "controlType": "multilinetextbox",
-            "displayLabel": "Details",
-            "watermarkText": "Provide additional information about your issue",
-            "required": true,
-            "useAsAdditionalDetails": true,
-            "hints": [
-                {
-                    "text": "Issue description."
-                }
-            ]
-        },
-        {
         "id": "notificationhubs_namespaces",
-        "order": 3,
+        "order": 1,
         "controlType": "multiselectdropdown",
         "displayLabel": "Notification Hub namespace name",
         "watermarkText": "Choose an option",
@@ -63,7 +42,28 @@ schemaVersion="1"
                     "text": "Not applicable/No namespaces available"
                 }
             }
-        }
+        },
+        {
+            "id": "problem_start_time",
+            "order": 2,
+            "controlType": "datetimepicker",
+            "displayLabel": "When did the problem begin?",
+            "required": true
+        },
+        {
+            "id": "problem_description",
+            "order": 3,
+            "controlType": "multilinetextbox",
+            "displayLabel": "Details",
+            "watermarkText": "Provide additional information about your issue",
+            "required": true,
+            "useAsAdditionalDetails": true,
+            "hints": [
+                {
+                    "text": "Issue description."
+                }
+            ]
+        }        
     ],
     "$schema": "SelfHelpContent"
 }
