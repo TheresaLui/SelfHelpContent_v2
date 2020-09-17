@@ -23,7 +23,7 @@
 
 **Why is my payment missing?**
 
-* Ensure your Payout status and Tax profile status are shown as “valid” [here](https://partner.microsoft.com/dashboard/commercial-marketplace/overview)
+* Ensure your Payout status and Tax profile status are shown as "valid" [here](https://partner.microsoft.com/dashboard/commercial-marketplace/overview)
 * You may not have met the minimum threshold for a payment. Earnings must be at least $50 USD to receive a payment.
 
 **How do I elect not to receive payment?**
