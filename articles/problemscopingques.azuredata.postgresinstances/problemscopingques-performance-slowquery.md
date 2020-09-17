@@ -143,7 +143,7 @@
 			],
 			"required": false
 		}, {
-			"id": "add_workload",
+			"id": "connection_pooling",
 			"order": 8,
 			"controlType": "dropdown",
 			"displayLabel": "Do you have connection pooling enabled?",
