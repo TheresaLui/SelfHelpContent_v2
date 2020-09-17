@@ -3,7 +3,7 @@
     description="Consider scaling up your App Service Plan SKU to avoid memory exhaustion"
     authors="aadevteam"
     ms.author="aadevteam"
-    articleId="66d3137a-c4da-4c8a-b6b8-e03f5dfba66e_Mooncake"
+    articleId="66d3137a-c4da-4c8a-b6b8-e03f5dfba66e_US2"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="USNat"
 	ownershipId="Compute_AppService"
