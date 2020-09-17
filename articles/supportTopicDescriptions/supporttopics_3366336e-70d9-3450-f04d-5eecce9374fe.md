@@ -27,6 +27,14 @@
       "searchTags": "Add, region, SKU, attributes, scale",
       "category": "Onboarding",
       "useInDiagnoseAndSolve": "false"
+    },
+    {
+      "id": "daec2aa5-0c4c-ff4a-2535-6d8daa2acbaf",
+      "longDescription": "",
+      "shortDescription": "Help with selecting attributes for my resource (VMs with ADE feature)",
+      "searchTags": "add, region, SKU, attributes, scale",
+      "category": "Onboarding",
+      "useInDiagnoseAndSolve": "false"
     }
   ]
 }
