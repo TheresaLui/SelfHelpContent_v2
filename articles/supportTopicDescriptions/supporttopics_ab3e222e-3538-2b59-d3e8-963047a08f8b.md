@@ -253,6 +253,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "d9132cc5-b5c3-fadd-3519-07a0e644ede3",
+      "longDescription": "",
+      "shortDescription": "Select this if you need help with solving issues while updating controller pods configuration post successful controller deployment",
+      "searchTags": "Data Controller;Configuration",
+      "category": "Data Controller Administration",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "dcf903fe-41f1-302e-6f8a-25e6ee76000d",
       "longDescription": "",
       "shortDescription": "Data controller login and credentials related issues",
