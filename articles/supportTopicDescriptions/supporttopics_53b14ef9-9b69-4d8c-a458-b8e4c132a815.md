@@ -225,6 +225,14 @@
       "useInDiagnoseAndSolve": "true"
     },
     {
+      "id": "622af061-6edb-cae2-702f-87d996825aa5",
+      "longDescription": "",
+      "shortDescription": "Issues with Package Performance - Packages are taking longer time to execute than before or compared to another environment.",
+      "searchTags": "ssis package performance;integration services package performance",
+      "category": "SSIS",
+      "useInDiagnoseAndSolve": "true"
+    },
+    {
       "id": "675b882d-2d62-667b-97de-754af7acafc6",
       "longDescription": "",
       "shortDescription": "Questions on chosing a VM series or a performance tier based on the anticipated characteristics of the workload",
