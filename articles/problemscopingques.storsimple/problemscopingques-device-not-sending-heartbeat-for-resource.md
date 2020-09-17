@@ -1,5 +1,5 @@
 <properties
-	articleId="1c883315-f11d-475b-8f8d-a21ba09a5c38"
+	articleId="e80908cd-012e-42c5-ab94-715a157b3ffa"
 	pageTitle="Scoping device not sending heartbeat"
 	description="Device not sending heartbeat Scoping"
 	authors="Archana-MSFT"
@@ -14,14 +14,33 @@
 # Device not sending heartbeat
 ---
 {
-    "subscriptionrequired": false,
-    "resourceRequired": false,
+    "subscriptionrequired": true,
+    "resourceRequired": true,
     "title": "Device not sending heartbeat",
     "fileAttachmentHint": "",
     "formElements": [
         {
-            "id": "changes_updates",
+            "id": "storsimple_devices",
             "order": 1,
+            "controlType": "multiselectdropdown",
+            "displayLabel": "Device name",
+            "watermarkText": "Choose an option",
+            "required": false,
+            "dynamicDropdownOptions": {
+                "uri": "/subscriptions/{subscriptionid}/resourcegroups/{resourcegroup}/providers/Microsoft.StorSimple/managers/{resourceName}/devices?&api-version=2017-06-01",
+                "jTokenPath": "value",
+                "textProperty": "name",
+                "valueProperty": "name",
+                "valuePropertyRegex": "^+$",
+                    "defaultDropdownOptions": {
+                        "value": "dont_know_answer",
+                        "text": "Not applicable/No devices available"
+                    }
+            }
+        },
+        {
+            "id": "changes_updates",
+            "order": 2,
             "controlType": "dropdown",
             "displayLabel": "Were there any changes/updates made on the network?",
             "watermarkText": "Choose an option",
@@ -39,14 +58,14 @@
         },
         {
             "id": "problem_start_time",
-            "order": 2,
+            "order": 3,
             "controlType": "datetimepicker",
             "displayLabel": "When did the problem begin?",
             "required": true
         },
         {
             "id": "problem_description",
-            "order": 3,
+            "order": 4,
             "controlType": "multilinetextbox",
             "displayLabel": "Details",
             "watermarkText": "Provide additional information about your issue",

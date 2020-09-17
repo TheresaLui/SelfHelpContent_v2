@@ -63,7 +63,7 @@ schemaVersion="1"
                     "text": "Issue description."
                 }
             ]
-        }        
+        }
     ],
     "$schema": "SelfHelpContent"
 }
