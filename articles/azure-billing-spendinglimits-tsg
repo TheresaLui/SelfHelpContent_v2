@@ -1,0 +1,20 @@
+<properties pageTitle="Spending Limit"
+            description="Spending Limit"
+            service="Microsoft.Billing"
+            resource="Microsoft.Billing/operations"
+            authors="chadmath"
+            ms.author="chadmat"
+            displayOrder=""
+            selfHelpType="TSG_Description"
+            supportTopicIds=""
+            resourceTags=""
+            productPesIds=""
+            cloudEnvironments="public, fairfax, usnat, ussec"
+            articleId="aae9d6a1-8fb6-40fa-b2d2-d38ffc9578fd"
+            ownershipId="067951c2-2718-4955-a1b9-e3b5f70f1970" />
+
+# Spending Limit
+
+This TSG will help you update the customer's spending limit.
+
+    
