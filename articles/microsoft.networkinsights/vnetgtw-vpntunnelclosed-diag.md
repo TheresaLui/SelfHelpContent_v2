@@ -5,6 +5,7 @@ infoBubbleText="Issues with your Virtual Network Gateway were detected. See deta
 service="microsoft.network"
 resource="VirtualNetworkGateway"
 authors="chadmath"
+ms.author="chadmat"
 displayOrder="10"
 articleId="VNGSeamlessVPNTunnelClosedInsightInsight"
 diagnosticScenario="VNGSeamlessVPNTunnelClosedInsightInsight"
