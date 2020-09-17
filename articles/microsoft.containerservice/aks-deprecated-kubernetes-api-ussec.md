@@ -3,7 +3,7 @@
     description="Deprecated Kubernetes API in 1.16 is found"
     authors="JunSun17"
     ms.author="aksoverlay"
-    articleId="458b3db2-e361-4f7f-95b2-71065a57645a"
+    articleId="458b3db2-e361-4f7f-95b2-71065a57645a_USSec"
     selfHelpType="advisorRecommendationMetadata"
     cloudEnvironments="ussec"
     ownershipId="Compute_AzureKubernetesService"
@@ -17,7 +17,7 @@
   "$schema": "AdvisorRecommendation",
   "recommendationTypeId": "b4704ab8-e8fd-4bb4-8096-d04b073ede2d",
   "dataSourceMetadata": {
-    "streamNamespace": "cluster('https://rxaks.usseceast.kusto.core.microsoft.scloud').database('AKSprod').DeprecatedKubernetesAPI116",
+    "streamNamespace": "cluster('https://rxaks.ussecwest.kusto.core.microsoft.scloud').database('AKSprod').DeprecatedKubernetesAPI116",
     "dataSource": "Kusto",
     "refreshInterval": "0.12:00:00"
   },
